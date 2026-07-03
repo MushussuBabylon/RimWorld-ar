@@ -60,8 +60,20 @@
 ---
 
 ## 👤 المترجم (Translator)
+## Current 2026
+**Mushussu Babylon**
 
-* **Mushussu Babylon**
+## Previous 2023
+Abdulhadi Mohammed "Nickname = Mr Ant"
+
+## Previous
+
+* IHERO97
+* msabsabee
+* mjkubba
+* Blitzilla
+* mtimoustafa
+* CGUltimateno
 
 ---
 
