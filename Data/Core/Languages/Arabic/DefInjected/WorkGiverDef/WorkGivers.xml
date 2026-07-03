@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: release prisoners -->
+  <BasicReleasePrisoner.label>إطلاق سراح السجناء</BasicReleasePrisoner.label>
+  <!-- EN: releasing -->
+  <BasicReleasePrisoner.gerund>إطلاق سراح</BasicReleasePrisoner.gerund>
+  <!-- EN: release -->
+  <BasicReleasePrisoner.verb>إطلاق سراح</BasicReleasePrisoner.verb>
+  
+  <!-- EN: build roofs -->
+  <BuildRoofs.label>بناء الأسقف</BuildRoofs.label>
+  <!-- EN: building roof -->
+  <BuildRoofs.gerund>بناء سقف</BuildRoofs.gerund>
+  <!-- EN: build roof -->
+  <BuildRoofs.verb>بناء سقف</BuildRoofs.verb>
+  
+  <!-- EN: chat with prisoners -->
+  <ChatWithPrisoner.label>الدردشة مع السجناء</ChatWithPrisoner.label>
+  <!-- EN: chatting with -->
+  <ChatWithPrisoner.gerund>الدردشة مع</ChatWithPrisoner.gerund>
+  <!-- EN: chat with -->
+  <ChatWithPrisoner.verb>دردشة مع</ChatWithPrisoner.verb>
+  
+  <!-- EN: clear snow -->
+  <CleanClearSnow.label>إزالة الثلج</CleanClearSnow.label>
+  <!-- EN: clearing snow -->
+  <CleanClearSnow.gerund>إزالة الثلج</CleanClearSnow.gerund>
+  <!-- EN: clear snow -->
+  <CleanClearSnow.verb>إزالة الثلج</CleanClearSnow.verb>
+  
+  <!-- EN: clean filth -->
+  <CleanFilth.label>تنظيف القاذورات</CleanFilth.label>
+  <!-- EN: cleaning -->
+  <CleanFilth.gerund>تنظيف</CleanFilth.gerund>
+  <!-- EN: clean -->
+  <CleanFilth.verb>تنظيف</CleanFilth.verb>
+  
+  <!-- EN: deliver resources to blueprints -->
+  <ConstructDeliverResourcesToBlueprints.label>توصيل الموارد إلى المخططات</ConstructDeliverResourcesToBlueprints.label>
+  <!-- EN: working on -->
+  <ConstructDeliverResourcesToBlueprints.gerund>العمل على</ConstructDeliverResourcesToBlueprints.gerund>
+  <!-- EN: work on -->
+  <ConstructDeliverResourcesToBlueprints.verb>العمل على</ConstructDeliverResourcesToBlueprints.verb>
+  
+  <!-- EN: deliver resources to frames -->
+  <ConstructDeliverResourcesToFrames.label>توصيل الموارد إلى الهياكل</ConstructDeliverResourcesToFrames.label>
+  <!-- EN: working on -->
+  <ConstructDeliverResourcesToFrames.gerund>العمل على</ConstructDeliverResourcesToFrames.gerund>
+  <!-- EN: work on -->
+  <ConstructDeliverResourcesToFrames.verb>العمل على</ConstructDeliverResourcesToFrames.verb>
+  
+  <!-- EN: construct placed frames -->
+  <ConstructFinishFrames.label>إكمال بناء الهياكل</ConstructFinishFrames.label>
+  <!-- EN: constructing -->
+  <ConstructFinishFrames.gerund>بناء</ConstructFinishFrames.gerund>
+  <!-- EN: construct -->
+  <ConstructFinishFrames.verb>بناء</ConstructFinishFrames.verb>
+  
+  <!-- EN: remove floors -->
+  <ConstructRemoveFloors.label>إزالة الأرضيات</ConstructRemoveFloors.label>
+  <!-- EN: removing floor -->
+  <ConstructRemoveFloors.gerund>إزالة أرضية</ConstructRemoveFloors.gerund>
+  <!-- EN: remove floor -->
+  <ConstructRemoveFloors.verb>إزالة أرضية</ConstructRemoveFloors.verb>
+  
+  <!-- EN: remove bridges -->
+  <ConstructRemoveFoundations.label>إزالة الجسور</ConstructRemoveFoundations.label>
+  <!-- EN: removing bridge -->
+  <ConstructRemoveFoundations.gerund>إزالة جسر</ConstructRemoveFoundations.gerund>
+  <!-- EN: remove bridge -->
+  <ConstructRemoveFoundations.verb>إزالة جسر</ConstructRemoveFoundations.verb>
+  
+  <!-- EN: smooth floors -->
+  <ConstructSmoothFloors.label>صقل الأرضيات</ConstructSmoothFloors.label>
+  <!-- EN: smoothing -->
+  <ConstructSmoothFloors.gerund>صقل</ConstructSmoothFloors.gerund>
+  <!-- EN: smooth -->
+  <ConstructSmoothFloors.verb>صقل</ConstructSmoothFloors.verb>
+  
+  <!-- EN: smooth walls -->
+  <ConstructSmoothWalls.label>صقل الجدران</ConstructSmoothWalls.label>
+  <!-- EN: smoothing -->
+  <ConstructSmoothWalls.gerund>صقل</ConstructSmoothWalls.gerund>
+  <!-- EN: smooth -->
+  <ConstructSmoothWalls.verb>صقل</ConstructSmoothWalls.verb>
+  
+  <!-- EN: fill food hoppers -->
+  <CookFillHopper.label>ملء أقماع التغذية</CookFillHopper.label>
+  <!-- EN: filling -->
+  <CookFillHopper.gerund>ملء</CookFillHopper.gerund>
+  <!-- EN: fill -->
+  <CookFillHopper.verb>ملء</CookFillHopper.verb>
+  
+  <!-- EN: deconstruct structures -->
+  <Deconstruct.label>تفكيك الهياكل</Deconstruct.label>
+  <!-- EN: deconstructing -->
+  <Deconstruct.gerund>تفكيك</Deconstruct.gerund>
+  <!-- EN: deconstruct -->
+  <Deconstruct.verb>تفكيك</Deconstruct.verb>
+  
+  <!-- EN: deconstruct structures for blueprints -->
+  <DeconstructForBlueprint.label>تفكيك الهياكل للمخططات</DeconstructForBlueprint.label>
+  <!-- EN: deconstructing -->
+  <DeconstructForBlueprint.gerund>تفكيك</DeconstructForBlueprint.gerund>
+  <!-- EN: deconstruct -->
+  <DeconstructForBlueprint.verb>تفكيك</DeconstructForBlueprint.verb>
+  
+  <!-- EN: deliver food to prisoners -->
+  <DeliverFoodToPrisoner.label>توصيل الطعام إلى السجناء</DeliverFoodToPrisoner.label>
+  <!-- EN: delivering food for -->
+  <DeliverFoodToPrisoner.gerund>توصيل طعام لـ</DeliverFoodToPrisoner.gerund>
+  <!-- EN: deliver food for -->
+  <DeliverFoodToPrisoner.verb>توصيل طعام لـ</DeliverFoodToPrisoner.verb>
+  
+  <!-- EN: deliver resources to blueprints -->
+  <DeliverResourcesToBlueprints.label>توصيل الموارد إلى المخططات</DeliverResourcesToBlueprints.label>
+  <!-- EN: delivering to -->
+  <DeliverResourcesToBlueprints.gerund>توصيل إلى</DeliverResourcesToBlueprints.gerund>
+  <!-- EN: deliver to -->
+  <DeliverResourcesToBlueprints.verb>توصيل إلى</DeliverResourcesToBlueprints.verb>
+  
+  <!-- EN: deliver resources to frames -->
+  <DeliverResourcesToFrames.label>توصيل الموارد إلى الهياكل</DeliverResourcesToFrames.label>
+  <!-- EN: delivering to -->
+  <DeliverResourcesToFrames.gerund>توصيل إلى</DeliverResourcesToFrames.gerund>
+  <!-- EN: deliver to -->
+  <DeliverResourcesToFrames.verb>توصيل إلى</DeliverResourcesToFrames.verb>
+  
+  <!-- EN: brew liquors -->
+  <DoBillsBrew.label>تخمير المشروبات</DoBillsBrew.label>
+  <!-- EN: brewing at -->
+  <DoBillsBrew.gerund>تخمير في</DoBillsBrew.gerund>
+  <!-- EN: brew at -->
+  <DoBillsBrew.verb>تخمير في</DoBillsBrew.verb>
+  
+  <!-- EN: butcher creatures -->
+  <DoBillsButcherFlesh.label>جزارة المخلوقات</DoBillsButcherFlesh.label>
+  <!-- EN: butchering at -->
+  <DoBillsButcherFlesh.gerund>جزارة في</DoBillsButcherFlesh.gerund>
+  <!-- EN: butcher at -->
+  <DoBillsButcherFlesh.verb>جزارة في</DoBillsButcherFlesh.verb>
+  
+  <!-- EN: cook meals at stove -->
+  <DoBillsCook.label>طهي الوجبات على الموقد</DoBillsCook.label>
+  <!-- EN: cooking at -->
+  <DoBillsCook.gerund>طهي في</DoBillsCook.gerund>
+  <!-- EN: cook at -->
+  <DoBillsCook.verb>طهي في</DoBillsCook.verb>
+  
+  <!-- EN: cook meals at campfire -->
+  <DoBillsCookCampfire.label>طهي الوجبات على نار المخيم</DoBillsCookCampfire.label>
+  <!-- EN: cooking at -->
+  <DoBillsCookCampfire.gerund>طهي في</DoBillsCookCampfire.gerund>
+  <!-- EN: cook at -->
+  <DoBillsCookCampfire.verb>طهي في</DoBillsCookCampfire.verb>
+  
+  <!-- EN: do cremation bills -->
+  <DoBillsCremate.label>حرق الجثث</DoBillsCremate.label>
+  <!-- EN: cremating at -->
+  <DoBillsCremate.gerund>حرق في</DoBillsCremate.gerund>
+  <!-- EN: cremate at -->
+  <DoBillsCremate.verb>حرق في</DoBillsCremate.verb>
+  
+  <!-- EN: fabricate things -->
+  <DoBillsFabricationBench.label>تصنيع الأشياء</DoBillsFabricationBench.label>
+  <!-- EN: fabricating things at -->
+  <DoBillsFabricationBench.gerund>تصنيع أشياء في</DoBillsFabricationBench.gerund>
+  <!-- EN: fabricate things at -->
+  <DoBillsFabricationBench.verb>تصنيع أشياء في</DoBillsFabricationBench.verb>
+  
+  <!-- EN: do bills at campfire -->
+  <DoBillsHaulCampfire.label>تنفيذ المهام على نار المخيم</DoBillsHaulCampfire.label>
+  <!-- EN: working at -->
+  <DoBillsHaulCampfire.gerund>العمل في</DoBillsHaulCampfire.gerund>
+  <!-- EN: work at -->
+  <DoBillsHaulCampfire.verb>العمل في</DoBillsHaulCampfire.verb>
+  
+  <!-- EN: make things at machining table -->
+  <DoBillsMachiningTable.label>صنع الأشياء على طاولة التشغيل الآلي</DoBillsMachiningTable.label>
+  <!-- EN: working at -->
+  <DoBillsMachiningTable.gerund>العمل في</DoBillsMachiningTable.gerund>
+  <!-- EN: work at -->
+  <DoBillsMachiningTable.verb>العمل في</DoBillsMachiningTable.verb>
+  
+  <!-- EN: make apparel -->
+  <DoBillsMakeApparel.label>صنع الملابس</DoBillsMakeApparel.label>
+  <!-- EN: tailoring at -->
+  <DoBillsMakeApparel.gerund>خياطة في</DoBillsMakeApparel.gerund>
+  <!-- EN: tailor at -->
+  <DoBillsMakeApparel.verb>خياطة في</DoBillsMakeApparel.verb>
+  
+  <!-- EN: make weapons -->
+  <DoBillsMakeWeapons.label>صنع الأسلحة</DoBillsMakeWeapons.label>
+  <!-- EN: smithing at -->
+  <DoBillsMakeWeapons.gerund>حدادة في</DoBillsMakeWeapons.gerund>
+  <!-- EN: smith at -->
+  <DoBillsMakeWeapons.verb>حدادة في</DoBillsMakeWeapons.verb>
+  
+  <!-- EN: operate on animals -->
+  <DoBillsMedicalAnimalOperation.label>إجراء عمليات على الحيوانات</DoBillsMedicalAnimalOperation.label>
+  <!-- EN: operating on -->
+  <DoBillsMedicalAnimalOperation.gerund>إجراء عملية على</DoBillsMedicalAnimalOperation.gerund>
+  <!-- EN: operate on -->
+  <DoBillsMedicalAnimalOperation.verb>إجراء عملية على</DoBillsMedicalAnimalOperation.verb>
+  
+  <!-- EN: operate on humanlikes -->
+  <DoBillsMedicalHumanOperation.label>إجراء عمليات على البشر</DoBillsMedicalHumanOperation.label>
+  <!-- EN: operating on -->
+  <DoBillsMedicalHumanOperation.gerund>إجراء عملية على</DoBillsMedicalHumanOperation.gerund>
+  <!-- EN: operate on -->
+  <DoBillsMedicalHumanOperation.verb>إجراء عملية على</DoBillsMedicalHumanOperation.verb>
+  
+  <!-- EN: synthesize drugs -->
+  <DoBillsProduceDrugs.label>تصنيع المخدرات</DoBillsProduceDrugs.label>
+  <!-- EN: producing drugs at -->
+  <DoBillsProduceDrugs.gerund>إنتاج مخدرات في</DoBillsProduceDrugs.gerund>
+  <!-- EN: produce drugs at -->
+  <DoBillsProduceDrugs.verb>إنتاج مخدرات في</DoBillsProduceDrugs.verb>
+  
+  <!-- EN: work at refinery -->
+  <DoBillsRefinery.label>العمل في المصفاة</DoBillsRefinery.label>
+  <!-- EN: refining chemicals at -->
+  <DoBillsRefinery.gerund>تكرير مواد كيميائية في</DoBillsRefinery.gerund>
+  <!-- EN: refine chemicals at -->
+  <DoBillsRefinery.verb>تكرير مواد كيميائية في</DoBillsRefinery.verb>
+  
+  <!-- EN: make things at art bench -->
+  <DoBillsSculpt.label>صنع الأشياء على طاولة النحت</DoBillsSculpt.label>
+  <!-- EN: sculpting at -->
+  <DoBillsSculpt.gerund>نحت في</DoBillsSculpt.gerund>
+  <!-- EN: sculpt at -->
+  <DoBillsSculpt.verb>نحت في</DoBillsSculpt.verb>
+  
+  <!-- EN: smelt items -->
+  <DoBillsSmelter.label>صهر الأغراض</DoBillsSmelter.label>
+  <!-- EN: refining at -->
+  <DoBillsSmelter.gerund>تكرير في</DoBillsSmelter.gerund>
+  <!-- EN: refine at -->
+  <DoBillsSmelter.verb>تكرير في</DoBillsSmelter.verb>
+  
+  <!-- EN: make stone blocks -->
+  <DoBillsStonecut.label>قطع الكتل الحجرية</DoBillsStonecut.label>
+  <!-- EN: cutting stone blocks at -->
+  <DoBillsStonecut.gerund>قطع كتل حجرية في</DoBillsStonecut.gerund>
+  <!-- EN: cut stone blocks at -->
+  <DoBillsStonecut.verb>قطع كتل حجرية في</DoBillsStonecut.verb>
+  
+  <!-- EN: make things at crafting spot -->
+  <DoBillsUseCraftingSpot.label>صنع الأشياء في نقطة الصنع</DoBillsUseCraftingSpot.label>
+  <!-- EN: crafting at -->
+  <DoBillsUseCraftingSpot.gerund>صنع في</DoBillsUseCraftingSpot.gerund>
+  <!-- EN: craft at -->
+  <DoBillsUseCraftingSpot.verb>صنع في</DoBillsUseCraftingSpot.verb>
+  
+  <!-- EN: feed animals -->
+  <DoctorFeedAnimals.label>إطعام الحيوانات</DoctorFeedAnimals.label>
+  <!-- EN: feeding -->
+  <DoctorFeedAnimals.gerund>إطعام</DoctorFeedAnimals.gerund>
+  <!-- EN: feed -->
+  <DoctorFeedAnimals.verb>إطعام</DoctorFeedAnimals.verb>
+  
+  <!-- EN: feed patients -->
+  <DoctorFeedHumanlikes.label>إطعام المرضى</DoctorFeedHumanlikes.label>
+  <!-- EN: feeding -->
+  <DoctorFeedHumanlikes.gerund>إطعام</DoctorFeedHumanlikes.gerund>
+  <!-- EN: feed -->
+  <DoctorFeedHumanlikes.verb>إطعام</DoctorFeedHumanlikes.verb>
+  
+  <!-- EN: rescue downed allies to bed -->
+  <DoctorRescue.label>إنقاذ الحلفاء المصابين إلى السرير</DoctorRescue.label>
+  <!-- EN: rescuing -->
+  <DoctorRescue.gerund>إنقاذ</DoctorRescue.gerund>
+  <!-- EN: rescue -->
+  <DoctorRescue.verb>إنقاذ</DoctorRescue.verb>
+  
+  <!-- EN: tend to patients with urgent needs -->
+  <DoctorTendEmergency.label>علاج المرضى ذوي الاحتياجات العاجلة</DoctorTendEmergency.label>
+  <!-- EN: tending to -->
+  <DoctorTendEmergency.gerund>علاج</DoctorTendEmergency.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendEmergency.verb>علاج</DoctorTendEmergency.verb>
+  
+  <!-- EN: tend to animals -->
+  <DoctorTendToAnimals.label>علاج الحيوانات</DoctorTendToAnimals.label>
+  <!-- EN: tending to -->
+  <DoctorTendToAnimals.gerund>علاج</DoctorTendToAnimals.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToAnimals.verb>علاج</DoctorTendToAnimals.verb>
+  
+  <!-- EN: tend to patients -->
+  <DoctorTendToHumanlikes.label>علاج المرضى</DoctorTendToHumanlikes.label>
+  <!-- EN: tending to -->
+  <DoctorTendToHumanlikes.gerund>علاج</DoctorTendToHumanlikes.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToHumanlikes.verb>علاج</DoctorTendToHumanlikes.verb>
+  
+  <!-- EN: tend to self -->
+  <DoctorTendToSelf.label>علاج النفس</DoctorTendToSelf.label>
+  <!-- EN: tending to -->
+  <DoctorTendToSelf.gerund>علاج</DoctorTendToSelf.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToSelf.verb>علاج</DoctorTendToSelf.verb>
+  
+  <!-- EN: tend to self -->
+  <DoctorTendToSelfEmergency.label>علاج النفس</DoctorTendToSelfEmergency.label>
+  <!-- EN: tending to -->
+  <DoctorTendToSelfEmergency.gerund>علاج</DoctorTendToSelfEmergency.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToSelfEmergency.verb>علاج</DoctorTendToSelfEmergency.verb>
+  
+  <!-- EN: execute prisoners -->
+  <DoExecution.label>إعدام السجناء</DoExecution.label>
+  <!-- EN: executing -->
+  <DoExecution.gerund>إعدام</DoExecution.gerund>
+  <!-- EN: execute -->
+  <DoExecution.verb>إعدام</DoExecution.verb>
+  
+  <!-- EN: drill at deep drill -->
+  <Drill.label>الحفر بالمثقاب العميق</Drill.label>
+  <!-- EN: drilling -->
+  <Drill.gerund>حفر</Drill.gerund>
+  <!-- EN: drill -->
+  <Drill.verb>حفر</Drill.verb>
+  
+  <!-- EN: eject fuel -->
+  <EjectFuel.label>طرد الوقود</EjectFuel.label>
+  <!-- EN: ejecting fuel from -->
+  <EjectFuel.gerund>طرد وقود من</EjectFuel.gerund>
+  <!-- EN: eject fuel -->
+  <EjectFuel.verb>طرد وقود</EjectFuel.verb>
+  
+  <!-- EN: empty egg box -->
+  <EmptyEggBox.label>إفراغ صندوق البيض</EmptyEggBox.label>
+  <!-- EN: emptying -->
+  <EmptyEggBox.gerund>إفراغ</EmptyEggBox.gerund>
+  <!-- EN: empty -->
+  <EmptyEggBox.verb>إفراغ</EmptyEggBox.verb>
+  
+  <!-- EN: execute guilty colonists -->
+  <ExecuteGuiltyColonist.label>إعدام المستعمرين المذنبين</ExecuteGuiltyColonist.label>
+  <!-- EN: executing -->
+  <ExecuteGuiltyColonist.gerund>إعدام</ExecuteGuiltyColonist.gerund>
+  <!-- EN: execute -->
+  <ExecuteGuiltyColonist.verb>إعدام</ExecuteGuiltyColonist.verb>
+  
+  <!-- EN: extract skull -->
+  <ExtractSkull.label>استخراج الجمجمة</ExtractSkull.label>
+  <!-- EN: extracting skull of -->
+  <ExtractSkull.gerund>استخراج جمجمة من</ExtractSkull.gerund>
+  <!-- EN: extract -->
+  <ExtractSkull.verb>استخراج</ExtractSkull.verb>
+  
+  <!-- EN: extract trees -->
+  <ExtractTree.label>استخراج الأشجار</ExtractTree.label>
+  <!-- EN: extracting -->
+  <ExtractTree.gerund>استخراج</ExtractTree.gerund>
+  <!-- EN: extract -->
+  <ExtractTree.verb>استخراج</ExtractTree.verb>
+  
+  <!-- EN: feed prisoners -->
+  <FeedPrisoner.label>إطعام السجناء</FeedPrisoner.label>
+  <!-- EN: feeding -->
+  <FeedPrisoner.gerund>إطعام</FeedPrisoner.gerund>
+  <!-- EN: feed -->
+  <FeedPrisoner.verb>إطعام</FeedPrisoner.verb>
+  
+  <!-- EN: fight fires -->
+  <FightFires.label>مكافحة الحرائق</FightFires.label>
+  <!-- EN: extinguishing -->
+  <FightFires.gerund>إطفاء</FightFires.gerund>
+  <!-- EN: extinguish -->
+  <FightFires.verb>إطفاء</FightFires.verb>
+  
+  <!-- EN: fill fermenting barrels -->
+  <FillFermentingBarrel.label>ملء براميل التخمير</FillFermentingBarrel.label>
+  <!-- EN: filling -->
+  <FillFermentingBarrel.gerund>ملء</FillFermentingBarrel.gerund>
+  <!-- EN: fill -->
+  <FillFermentingBarrel.verb>ملء</FillFermentingBarrel.verb>
+  
+  <!-- EN: fill in -->
+  <FillIn.label>ملء</FillIn.label>
+  <!-- EN: filling in -->
+  <FillIn.gerund>ملء</FillIn.gerund>
+  <!-- EN: fill -->
+  <FillIn.verb>ملء</FillIn.verb>
+  
+  <!-- EN: fix broken-down buildings -->
+  <FixBrokenDownBuilding.label>إصلاح المباني المعطلة</FixBrokenDownBuilding.label>
+  <!-- EN: replacing broken components in -->
+  <FixBrokenDownBuilding.gerund>استبدال مكونات معطلة في</FixBrokenDownBuilding.gerund>
+  <!-- EN: replace broken components in -->
+  <FixBrokenDownBuilding.verb>استبدال مكونات معطلة في</FixBrokenDownBuilding.verb>
+  
+  <!-- EN: flick switches -->
+  <Flick.label>تشغيل/إطفاء المفاتيح</Flick.label>
+  <!-- EN: flicking switch on -->
+  <Flick.gerund>تشغيل مفتاح</Flick.gerund>
+  <!-- EN: flick switch on -->
+  <Flick.verb>تشغيل مفتاح</Flick.verb>
+  
+  <!-- EN: operate ground penetrating scanner -->
+  <GroundPenetratingScan.label>تشغيل ماسح اختراق الأرض</GroundPenetratingScan.label>
+  <!-- EN: scanning at -->
+  <GroundPenetratingScan.gerund>مسح في</GroundPenetratingScan.gerund>
+  <!-- EN: scan at -->
+  <GroundPenetratingScan.verb>مسح في</GroundPenetratingScan.verb>
+  
+  <!-- EN: harvest crops -->
+  <GrowerHarvest.label>حصاد المحاصيل</GrowerHarvest.label>
+  <!-- EN: harvesting -->
+  <GrowerHarvest.gerund>حصاد</GrowerHarvest.gerund>
+  <!-- EN: harvest -->
+  <GrowerHarvest.verb>حصاد</GrowerHarvest.verb>
+  
+  <!-- EN: sow crops -->
+  <GrowerSow.label>بذر المحاصيل</GrowerSow.label>
+  <!-- EN: sowing -->
+  <GrowerSow.gerund>بذر</GrowerSow.gerund>
+  <!-- EN: sow -->
+  <GrowerSow.verb>بذر</GrowerSow.verb>
+  
+  <!-- EN: hack buildings -->
+  <Hack.label>اختراق المباني</Hack.label>
+  <!-- EN: hacking -->
+  <Hack.gerund>اختراق</Hack.gerund>
+  <!-- EN: hack -->
+  <Hack.verb>اختراق</Hack.verb>
+  
+  <!-- EN: feed animals -->
+  <HandlingFeedPatientAnimals.label>إطعام الحيوانات</HandlingFeedPatientAnimals.label>
+  <!-- EN: feeding -->
+  <HandlingFeedPatientAnimals.gerund>إطعام</HandlingFeedPatientAnimals.gerund>
+  <!-- EN: feed -->
+  <HandlingFeedPatientAnimals.verb>إطعام</HandlingFeedPatientAnimals.verb>
+  
+  <!-- EN: haul corpses -->
+  <HaulCorpses.label>نقل الجثث</HaulCorpses.label>
+  <!-- EN: hauling -->
+  <HaulCorpses.gerund>نقل</HaulCorpses.gerund>
+  <!-- EN: haul -->
+  <HaulCorpses.verb>نقل</HaulCorpses.verb>
+  
+  <!-- EN: haul general things -->
+  <HaulGeneral.label>نقل الأغراض العامة</HaulGeneral.label>
+  <!-- EN: hauling -->
+  <HaulGeneral.gerund>نقل</HaulGeneral.gerund>
+  <!-- EN: haul -->
+  <HaulGeneral.verb>نقل</HaulGeneral.verb>
+  
+  <!-- EN: merge things -->
+  <HaulMerge.label>دمج الأغراض</HaulMerge.label>
+  <!-- EN: merging -->
+  <HaulMerge.gerund>دمج</HaulMerge.gerund>
+  <!-- EN: merge -->
+  <HaulMerge.verb>دمج</HaulMerge.verb>
+  
+  <!-- EN: haul to map -->
+  <HaulToPortal.label>النقل إلى الخريطة</HaulToPortal.label>
+  <!-- EN: loading -->
+  <HaulToPortal.gerund>تحميل</HaulToPortal.gerund>
+  <!-- EN: load -->
+  <HaulToPortal.verb>تحميل</HaulToPortal.verb>
+  
+  <!-- EN: load caravan -->
+  <HelpGatheringItemsForCaravan.label>تحميل القافلة</HelpGatheringItemsForCaravan.label>
+  <!-- EN: loading -->
+  <HelpGatheringItemsForCaravan.gerund>تحميل</HelpGatheringItemsForCaravan.gerund>
+  <!-- EN: load -->
+  <HelpGatheringItemsForCaravan.verb>تحميل</HelpGatheringItemsForCaravan.verb>
+  
+  <!-- EN: hunt -->
+  <HunterHunt.label>صيد</HunterHunt.label>
+  <!-- EN: hunting -->
+  <HunterHunt.gerund>صيد</HunterHunt.gerund>
+  <!-- EN: hunt -->
+  <HunterHunt.verb>صيد</HunterHunt.verb>
+  
+  <!-- EN: load transporters -->
+  <LoadTransporters.label>تحميل الناقلات</LoadTransporters.label>
+  <!-- EN: loading -->
+  <LoadTransporters.gerund>تحميل</LoadTransporters.gerund>
+  <!-- EN: load -->
+  <LoadTransporters.verb>تحميل</LoadTransporters.verb>
+  
+  <!-- EN: operate long range scanner -->
+  <LongRangeScan.label>تشغيل ماسح بعيد المدى</LongRangeScan.label>
+  <!-- EN: scanning at -->
+  <LongRangeScan.gerund>مسح في</LongRangeScan.gerund>
+  <!-- EN: scan at -->
+  <LongRangeScan.verb>مسح في</LongRangeScan.verb>
+  
+  <!-- EN: milk animals -->
+  <Milk.label>حلب الحيوانات</Milk.label>
+  <!-- EN: milking -->
+  <Milk.gerund>حلب</Milk.gerund>
+  <!-- EN: milk -->
+  <Milk.verb>حلب</Milk.verb>
+  
+  <!-- EN: mine -->
+  <Mine.label>تعدين</Mine.label>
+  <!-- EN: mining -->
+  <Mine.gerund>تعدين</Mine.gerund>
+  <!-- EN: mine -->
+  <Mine.verb>تعدين</Mine.verb>
+  
+  <!-- EN: open containers -->
+  <Open.label>فتح الحاويات</Open.label>
+  <!-- EN: opening -->
+  <Open.gerund>فتح</Open.gerund>
+  <!-- EN: open -->
+  <Open.verb>فتح</Open.verb>
+  
+  <!-- EN: paint buildings -->
+  <PaintBuilding.label>طلاء المباني</PaintBuilding.label>
+  <!-- EN: painting -->
+  <PaintBuilding.gerund>طلاء</PaintBuilding.gerund>
+  <!-- EN: paint -->
+  <PaintBuilding.verb>طلاء</PaintBuilding.verb>
+  
+  <!-- EN: paint floor -->
+  <PaintFloor.label>طلاء الأرضية</PaintFloor.label>
+  <!-- EN: painting -->
+  <PaintFloor.gerund>طلاء</PaintFloor.gerund>
+  <!-- EN: paint -->
+  <PaintFloor.verb>طلاء</PaintFloor.verb>
+  
+  <!-- EN: go to bed for emergency treatment -->
+  <PatientGoToBedEmergencyTreatment.label>الذهاب إلى السرير للعلاج الطارئ</PatientGoToBedEmergencyTreatment.label>
+  <!-- EN: receiving treatment in -->
+  <PatientGoToBedEmergencyTreatment.gerund>تلقي العلاج في</PatientGoToBedEmergencyTreatment.gerund>
+  <!-- EN: receive treatment in -->
+  <PatientGoToBedEmergencyTreatment.verb>تلقي العلاج في</PatientGoToBedEmergencyTreatment.verb>
+  
+  <!-- EN: recuperate in bed -->
+  <PatientGoToBedRecuperate.label>التعافي في السرير</PatientGoToBedRecuperate.label>
+  <!-- EN: getting bed rest in -->
+  <PatientGoToBedRecuperate.gerund>الحصول على راحة في</PatientGoToBedRecuperate.gerund>
+  <!-- EN: get bed rest in -->
+  <PatientGoToBedRecuperate.verb>الحصول على راحة في</PatientGoToBedRecuperate.verb>
+  
+  <!-- EN: go to bed for treatment -->
+  <PatientGoToBedTreatment.label>الذهاب إلى السرير للعلاج</PatientGoToBedTreatment.label>
+  <!-- EN: receiving treatment in -->
+  <PatientGoToBedTreatment.gerund>تلقي العلاج في</PatientGoToBedTreatment.gerund>
+  <!-- EN: receive treatment in -->
+  <PatientGoToBedTreatment.verb>تلقي العلاج في</PatientGoToBedTreatment.verb>
+  
+  <!-- EN: cut plants -->
+  <PlantsCut.label>قطع النباتات</PlantsCut.label>
+  <!-- EN: cutting -->
+  <PlantsCut.gerund>قطع</PlantsCut.gerund>
+  <!-- EN: cut -->
+  <PlantsCut.verb>قطع</PlantsCut.verb>
+  
+  <!-- EN: plant seeds -->
+  <PlantSeed.label>زرع البذور</PlantSeed.label>
+  <!-- EN: planting -->
+  <PlantSeed.gerund>زرع</PlantSeed.gerund>
+  <!-- EN: plant -->
+  <PlantSeed.verb>زرع</PlantSeed.verb>
+  
+  <!-- EN: rearm turrets -->
+  <RearmTurrets.label>إعادة تسليح الأبراج</RearmTurrets.label>
+  <!-- EN: rearming -->
+  <RearmTurrets.gerund>إعادة تسليح</RearmTurrets.gerund>
+  <!-- EN: rearm -->
+  <RearmTurrets.verb>إعادة تسليح</RearmTurrets.verb>
+  
+  <!-- EN: rebalance penned animals -->
+  <RebalanceAnimalsInPens.label>إعادة توازن حيوانات الحظائر</RebalanceAnimalsInPens.label>
+  <!-- EN: roping -->
+  <RebalanceAnimalsInPens.gerund>ربط</RebalanceAnimalsInPens.gerund>
+  <!-- EN: rope -->
+  <RebalanceAnimalsInPens.verb>ربط</RebalanceAnimalsInPens.verb>
+  
+  <!-- EN: refuel buildings -->
+  <Refuel.label>إعادة تزويد المباني بالوقود</Refuel.label>
+  <!-- EN: refueling -->
+  <Refuel.gerund>إعادة تزويد بالوقود</Refuel.gerund>
+  <!-- EN: refuel -->
+  <Refuel.verb>إعادة تزويد بالوقود</Refuel.verb>
+  
+  <!-- EN: release prisoners -->
+  <ReleasePrisoner.label>إطلاق سراح السجناء</ReleasePrisoner.label>
+  <!-- EN: releasing -->
+  <ReleasePrisoner.gerund>إطلاق سراح</ReleasePrisoner.gerund>
+  <!-- EN: release -->
+  <ReleasePrisoner.verb>إطلاق سراح</ReleasePrisoner.verb>
+  
+  <!-- EN: release to wild -->
+  <ReleaseToWild.label>إطلاق إلى البرية</ReleaseToWild.label>
+  <!-- EN: releasing -->
+  <ReleaseToWild.gerund>إطلاق</ReleaseToWild.gerund>
+  <!-- EN: release -->
+  <ReleaseToWild.verb>إطلاق</ReleaseToWild.verb>
+  
+  <!-- EN: remove paint -->
+  <RemovePaintBuilding.label>إزالة الطلاء</RemovePaintBuilding.label>
+  <!-- EN: removing paint from -->
+  <RemovePaintBuilding.gerund>إزالة الطلاء من</RemovePaintBuilding.gerund>
+  <!-- EN: remove paint -->
+  <RemovePaintBuilding.verb>إزالة الطلاء</RemovePaintBuilding.verb>
+  
+  <!-- EN: remove floor paint -->
+  <RemovePaintFloor.label>إزالة طلاء الأرضية</RemovePaintFloor.label>
+  <!-- EN: removing paint from -->
+  <RemovePaintFloor.gerund>إزالة الطلاء من</RemovePaintFloor.gerund>
+  <!-- EN: remove paint -->
+  <RemovePaintFloor.verb>إزالة الطلاء</RemovePaintFloor.verb>
+  
+  <!-- EN: remove roofs -->
+  <RemoveRoofs.label>إزالة الأسقف</RemoveRoofs.label>
+  <!-- EN: removing roof -->
+  <RemoveRoofs.gerund>إزالة سقف</RemoveRoofs.gerund>
+  <!-- EN: remove roof -->
+  <RemoveRoofs.verb>إزالة سقف</RemoveRoofs.verb>
+  
+  <!-- EN: repair damaged things -->
+  <Repair.label>إصلاح الأشياء التالفة</Repair.label>
+  <!-- EN: repairing -->
+  <Repair.gerund>إصلاح</Repair.gerund>
+  <!-- EN: repair -->
+  <Repair.verb>إصلاح</Repair.verb>
+  
+  <!-- EN: replant tree -->
+  <Replant.label>إعادة زراعة الشجرة</Replant.label>
+  <!-- EN: replanting -->
+  <Replant.gerund>إعادة زراعة</Replant.gerund>
+  <!-- EN: replant -->
+  <Replant.verb>إعادة زراعة</Replant.verb>
+  
+  <!-- EN: do research -->
+  <Research.label>البحث</Research.label>
+  <!-- EN: researching at -->
+  <Research.gerund>بحث في</Research.gerund>
+  <!-- EN: research at -->
+  <Research.verb>بحث في</Research.verb>
+  
+  <!-- EN: shear animals -->
+  <Shear.label>جز الحيوانات</Shear.label>
+  <!-- EN: shearing -->
+  <Shear.gerund>جز</Shear.gerund>
+  <!-- EN: shear -->
+  <Shear.verb>جز</Shear.verb>
+  
+  <!-- EN: slaughter animals -->
+  <Slaughter.label>ذبح الحيوانات</Slaughter.label>
+  <!-- EN: slaughtering -->
+  <Slaughter.gerund>ذبح</Slaughter.gerund>
+  <!-- EN: slaughter -->
+  <Slaughter.verb>ذبح</Slaughter.verb>
+  
+  <!-- EN: strip corpses -->
+  <Strip.label>تجريد الجثث</Strip.label>
+  <!-- EN: stripping -->
+  <Strip.gerund>تجريد</Strip.gerund>
+  <!-- EN: strip -->
+  <Strip.verb>تجريد</Strip.verb>
+  
+  <!-- EN: study archotech structures -->
+  <StudyArchotechStructures.label>دراسة هياكل الأركوتيك</StudyArchotechStructures.label>
+  <!-- EN: studying -->
+  <StudyArchotechStructures.gerund>دراسة</StudyArchotechStructures.gerund>
+  <!-- EN: study -->
+  <StudyArchotechStructures.verb>دراسة</StudyArchotechStructures.verb>
+  
+  <!-- EN: take beer out of fermenting barrels -->
+  <TakeBeerOutOfFermentingBarrel.label>إخراج البيرة من براميل التخمير</TakeBeerOutOfFermentingBarrel.label>
+  <!-- EN: taking beer from -->
+  <TakeBeerOutOfFermentingBarrel.gerund>أخذ بيرة من</TakeBeerOutOfFermentingBarrel.gerund>
+  <!-- EN: take beer -->
+  <TakeBeerOutOfFermentingBarrel.verb>أخذ بيرة</TakeBeerOutOfFermentingBarrel.verb>
+  
+  <!-- EN: take prisoners to bed -->
+  <TakePrisonerToBed.label>نقل السجناء إلى السرير</TakePrisonerToBed.label>
+  <!-- EN: taking to bed -->
+  <TakePrisonerToBed.gerund>نقل إلى السرير</TakePrisonerToBed.gerund>
+  <!-- EN: take to bed -->
+  <TakePrisonerToBed.verb>نقل إلى السرير</TakePrisonerToBed.verb>
+  
+  <!-- EN: rope roaming animals -->
+  <TakeRoamingAnimalsToPen.label>ربط الحيوانات الهائمة</TakeRoamingAnimalsToPen.label>
+  <!-- EN: roping -->
+  <TakeRoamingAnimalsToPen.gerund>ربط</TakeRoamingAnimalsToPen.gerund>
+  <!-- EN: rope -->
+  <TakeRoamingAnimalsToPen.verb>ربط</TakeRoamingAnimalsToPen.verb>
+  
+  <!-- EN: take patients to bed for operations -->
+  <TakeToBedToOperate.label>نقل المرضى إلى السرير للعمليات</TakeToBedToOperate.label>
+  <!-- EN: taking to operate -->
+  <TakeToBedToOperate.gerund>نقل للعملية</TakeToBedToOperate.gerund>
+  <!-- EN: take to operate -->
+  <TakeToBedToOperate.verb>نقل للعملية</TakeToBedToOperate.verb>
+  
+  <!-- EN: rope animals -->
+  <TakeToPen.label>ربط الحيوانات</TakeToPen.label>
+  <!-- EN: roping -->
+  <TakeToPen.gerund>ربط</TakeToPen.gerund>
+  <!-- EN: rope -->
+  <TakeToPen.verb>ربط</TakeToPen.verb>
+  
+  <!-- EN: tame animals -->
+  <Tame.label>ترويض الحيوانات</Tame.label>
+  <!-- EN: taming -->
+  <Tame.gerund>ترويض</Tame.gerund>
+  <!-- EN: tame -->
+  <Tame.verb>ترويض</Tame.verb>
+  
+  <!-- EN: train animals -->
+  <Train.label>تدريب الحيوانات</Train.label>
+  <!-- EN: training -->
+  <Train.gerund>تدريب</Train.gerund>
+  <!-- EN: train -->
+  <Train.verb>تدريب</Train.verb>
+  
+  <!-- EN: uninstall structures -->
+  <Uninstall.label>إلغاء تثبيت الهياكل</Uninstall.label>
+  <!-- EN: uninstalling -->
+  <Uninstall.gerund>إلغاء تثبيت</Uninstall.gerund>
+  <!-- EN: uninstall -->
+  <Uninstall.verb>إلغاء تثبيت</Uninstall.verb>
+  
+  <!-- EN: unload carriers -->
+  <UnloadCarriers.label>تفريغ الناقلات</UnloadCarriers.label>
+  <!-- EN: unloading -->
+  <UnloadCarriers.gerund>تفريغ</UnloadCarriers.gerund>
+  <!-- EN: unload -->
+  <UnloadCarriers.verb>تفريغ</UnloadCarriers.verb>
+  
+  <!-- EN: visit sick people -->
+  <VisitSickPawn.label>زيارة المرضى</VisitSickPawn.label>
+  <!-- EN: visiting -->
+  <VisitSickPawn.gerund>زيارة</VisitSickPawn.gerund>
+  <!-- EN: visit -->
+  <VisitSickPawn.verb>زيارة</VisitSickPawn.verb>
+  
+</LanguageData>

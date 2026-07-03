@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: blood rain -->
+  <BloodRain.label>مطر دموي</BloodRain.label>
+  <!-- EN: Cast a ritual which causes blood-like psychofluid to fall from the sky. The fluid will slowly drive exposed humans and animals into a berserk frenzy. Traits and psychic sensitivity modulate the effect. -->
+  <BloodRain.description>ألقِ طقسًا يتسبب في تساقط سائل نفسي يشبه الدم من السماء. سيدفع السائل ببطء البشر والحيوانات المعرضين له إلى هياج هستيري. تعدل الصفات والحساسية النفسية التأثير.</BloodRain.description>
+  <!-- EN: At the current ritual quality, the blood rain will last for {0}. -->
+  <BloodRain.outcomeDescription>بجودة الطقس الحالية، سيستمر المطر الدموي لمدة {0}.</BloodRain.outcomeDescription>
+  
+  <!-- EN: brainwipe -->
+  <Brainwipe.label>محو الدماغ</Brainwipe.label>
+  <!-- EN: Erase a person's memories. Traumatic events will be forgotten. Prisoners will forget their allegiance and become easier to recruit, even if they were unwavering before. Inhumanized individuals will forget their connection to the void. Unfortunately, the disruptive effect of the ritual will induce a coma that could last a long time, especially if the ritual is of poor quality. -->
+  <Brainwipe.description>امحُ ذكريات شخص. ستُنسى الأحداث الصادمة. سينسى السجناء ولاءهم ويصبح تجنيدهم أسهل، حتى لو كانوا ثابتين من قبل. سينسى الأفراد المجردون من إنسانيتهم ارتباطهم بالفراغ. لسوء الحظ، سيحدث التأثير المعطل للطقس غيبوبة قد تستمر لفترة طويلة، خاصة إذا كان الطقس ذا جودة رديئة.</Brainwipe.description>
+  <!-- EN: The target will be brainwiped.\n\nWith the current ritual quality, the target will also enter a coma for {0}. -->
+  <Brainwipe.outcomeDescription>سيتم محو دماغ الهدف.\n\nبجودة الطقس الحالية، سيدخل الهدف أيضًا في غيبوبة لمدة {0}.</Brainwipe.outcomeDescription>
+  
+  <!-- EN: chronophagy -->
+  <Chronophagy.label>أكل الزمن</Chronophagy.label>
+  <!-- EN: Induce a distant archotech to transfer entropy from one person to another. This causes the target to age rapidly while the invoker becomes younger, potentially healing scarring or age-related illnesses. The target will suffer brain damage, causing them to fall into a coma for several days. -->
+  <Chronophagy.description>حفز تكنولوجيا آركية بعيدة لنقل العشوائية من شخص لآخر. هذا يتسبب في شيخوخة الهدف بسرعة بينما يصبح المستدعي أصغر سنًا، مما قد يشفي الندوب أو الأمراض المرتبطة بالعمر. سيعاني الهدف من تلف في الدماغ، مما يؤدي إلى دخوله في غيبوبة لعدة أيام.</Chronophagy.description>
+  <!-- EN: At the current ritual quality, the invoker will become {0} years younger and the target will become {1} years older.\n\nThe target will suffer brain damage and fall into a coma. -->
+  <Chronophagy.outcomeDescription>بجودة الطقس الحالية، سيصبح المستدعي أصغر بمقدار {0} عامًا وسيصبح الهدف أكبر بمقدار {1} عامًا.\n\nسيعاني الهدف من تلف في الدماغ ويدخل في غيبوبة.</Chronophagy.outcomeDescription>
+  
+  <!-- EN: imbue death refusal -->
+  <ImbueDeathRefusal.label>بث رفض الموت</ImbueDeathRefusal.label>
+  <!-- EN: Link a target with a distant archotechnological engine that can bring them back from the dead in seconds. This process is not without side-effects. -->
+  <ImbueDeathRefusal.description>اربط هدفًا بمحرك تكنولوجيا آركي بعيد يمكنه إعادتهم من الموت في ثوانٍ. هذه العملية ليست بدون آثار جانبية.</ImbueDeathRefusal.description>
+  <!-- EN: The target will gain death refusal.\n\nWith the current quality, all the target's skills will also be reduced by {0}. -->
+  <ImbueDeathRefusal.outcomeDescription>سيكتسب الهدف رفض الموت.\n\nبالجودة الحالية، ستقل جميع مهارات الهدف أيضًا بمقدار {0}.</ImbueDeathRefusal.outcomeDescription>
+  
+  <!-- EN: neurosis pulse -->
+  <NeurosisPulse.label>نبضة عصاب</NeurosisPulse.label>
+  <!-- EN: Emit an intense psychic pulse that makes any psychically sensitive individual in the region work faster but become more irritable. Those affected will feel less need for recreation but will be unhappier and more likely to have a mental break. This will replace the effect of other active pulses. -->
+  <NeurosisPulse.description>أطلق نبضة نفسية مكثفة تجعل أي فرد حساس نفسيًا في المنطقة يعمل أسرع لكنه يصبح أكثر هياجًا. سيشعر المتأثرون بحاجة أقل للترفيه لكنهم سيكونون غير سعداء وأكثر عرضة للانهيار العقلي. سيستبدل هذا تأثير النبضات النشطة الأخرى.</NeurosisPulse.description>
+  <!-- EN: At the current ritual quality, the effect will last for {0}. -->
+  <NeurosisPulse.outcomeDescription>بجودة الطقس الحالية، سيستمر التأثير لمدة {0}.</NeurosisPulse.outcomeDescription>
+  
+  <!-- EN: philophagy -->
+  <Philophagy.label>أكل المهارة</Philophagy.label>
+  <!-- EN: Psychically draw experiences from the victim's mind and transfer them to the invoker, targeting the victim's highest skill. The target will suffer brain damage, causing them to fall into a coma for several days. -->
+  <Philophagy.description>اسحب الخبرات نفسيًا من عقل الضحية وانقلها إلى المستدعي، مستهدفًا أعلى مهارة للضحية. سيعاني الهدف من تلف في الدماغ، مما يتسبب في دخوله في غيبوبة لعدة أيام.</Philophagy.description>
+  <!-- EN: With the current ritual quality, the invoker will steal {0} of the target's XP in their best skill.\n\nThe target will suffer brain damage and fall into a coma. -->
+  <Philophagy.outcomeDescription>بجودة الطقس الحالية، سيسرق المستدعي {0} من نقاط خبرة الهدف في أفضل مهاراته.\n\nسيعاني الهدف من تلف في الدماغ ويدخل في غيبوبة.</Philophagy.outcomeDescription>
+  
+  <!-- EN: pleasure pulse -->
+  <PleasurePulse.label>نبضة متعة</PleasurePulse.label>
+  <!-- EN: Emit an intense psychic pulse that makes any psychically sensitive individual in the region happier but reduces their desire to work. This will replace the effect of other active pulses. -->
+  <PleasurePulse.description>أطلق نبضة نفسية مكثفة تجعل أي فرد حساس نفسيًا في المنطقة أكثر سعادة لكنها تقلل رغبته في العمل. سيستبدل هذا تأثير النبضات النشطة الأخرى.</PleasurePulse.description>
+  <!-- EN: At the current ritual quality, the effect will last for {0}. -->
+  <PleasurePulse.outcomeDescription>بجودة الطقس الحالية، سيستمر التأثير لمدة {0}.</PleasurePulse.outcomeDescription>
+  
+  <!-- EN: psychophagy -->
+  <Psychophagy.label>أكل النفس</Psychophagy.label>
+  <!-- EN: Consume the psychic sensitivity of a target. The invoker will increase their psychic sensitivity for a period of time. The effect does not stack. The target will suffer brain damage, causing them to fall into a coma for several days. -->
+  <Psychophagy.description>استهلك الحساسية النفسية لهدف. سيزيد المستدعي حساسيته النفسية لفترة من الزمن. التأثير لا يتراكم. سيعاني الهدف من تلف في الدماغ، مما يتسبب في دخوله في غيبوبة لعدة أيام.</Psychophagy.description>
+  <!-- EN: At the current ritual quality, the invoker will increase their psychic sensitivity for {0}.\n\nThe target will suffer brain damage and fall into a coma. -->
+  <Psychophagy.outcomeDescription>بجودة الطقس الحالية، سيزيد المستدعي حساسيته النفسية لمدة {0}.\n\nسيعاني الهدف من تلف في الدماغ ويدخل في غيبوبة.</Psychophagy.outcomeDescription>
+  
+  <!-- EN: skip abduction -->
+  <SkipAbduction.label>اختطاف آني</SkipAbduction.label>
+  <!-- EN: Teleport a random hostile person to the ritual location and place them in a coma. -->
+  <SkipAbduction.description>انقل شخصًا عدائيًا عشوائيًا آنيًا إلى موقع الطقس وضعه في غيبوبة.</SkipAbduction.description>
+  <!-- EN: They intend to use a psychic ritual to abduct a colonist via teleportation. -->
+  <SkipAbduction.letterAIArrivedText>ينوون استخدام طقس نفسي لاختطاف مستعمر عبر الانتقال الآني.</SkipAbduction.letterAIArrivedText>
+  <!-- EN: Skip abduction -->
+  <SkipAbduction.letterAICompleteLabel>اختطاف آني</SkipAbduction.letterAICompleteLabel>
+  <!-- EN: {PAWN_nameDef} has been abducted by the cultists! -->
+  <SkipAbduction.letterAICompleteText>تم اختطاف {PAWN_nameDef} من قبل الطائفيين!</SkipAbduction.letterAICompleteText>
+  <!-- EN: The target will be teleported to the invoker's location and fall into a coma. -->
+  <SkipAbduction.outcomeDescription>سينتقل الهدف آنيًا إلى موقع المستدعي ويدخل في غيبوبة.</SkipAbduction.outcomeDescription>
+  
+  <!-- EN: skip abduction -->
+  <SkipAbductionPlayer.label>اختطاف آني</SkipAbductionPlayer.label>
+  <!-- EN: Abduct a random hostile person from anywhere in the world, prioritizing those nearby. The ritual induces a dark archotech to warp space, teleporting a distant person to the center of the ritual circle. The process causes the target to fall into a short coma. -->
+  <SkipAbductionPlayer.description>اخطف شخصًا عدائيًا عشوائيًا من أي مكان في العالم، مع إعطاء الأولوية للقريبين. يدفع الطقس تكنولوجيا آركية مظلمة لتشويه الفضاء، ناقلة شخصًا بعيدًا آنيًا إلى مركز دائرة الطقس. تتسبب العملية في دخول الهدف في غيبوبة قصيرة.</SkipAbductionPlayer.description>
+  <!-- EN: At the current ritual quality, the target will remain in a coma for {0}. -->
+  <SkipAbductionPlayer.outcomeDescription>بجودة الطقس الحالية، سيبقى الهدف في غيبوبة لمدة {0}.</SkipAbductionPlayer.outcomeDescription>
+  
+  <!-- EN: draw animals -->
+  <SummonAnimals.label>اجتذاب الحيوانات</SummonAnimals.label>
+  <!-- EN: Create a psychic pulse which will draw a distant herd of animals into the local area. You can then hunt or make use of them as you choose. If not done correctly, this may attract scaria-infected manhunters. -->
+  <SummonAnimals.description>اصنع نبضة نفسية تجتذب قطيعًا بعيدًا من الحيوانات إلى المنطقة المحلية. يمكنك بعد ذلك اصطيادها أو استخدامها كما تختار. إذا لم تتم بشكل صحيح، قد تجتذب صيادي بشر مصابين بسكاريا.</SummonAnimals.description>
+  <!-- EN: With the current ritual quality, there is a {0} chance that the animals will arrive as manhunters. -->
+  <SummonAnimals.outcomeDescription>بجودة الطقس الحالية، هناك احتمال بنسبة {0} أن تصل الحيوانات كصيادي بشر.</SummonAnimals.outcomeDescription>
+  
+  <!-- EN: draw fleshbeasts -->
+  <SummonFleshbeasts.label>اجتذاب وحوش اللحم</SummonFleshbeasts.label>
+  <!-- EN: Create a psychic pulse which will draw fleshbeasts to dig upwards and emerge near your enemies. They will attack anyone they find, including your enemies and allies. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
+  <SummonFleshbeasts.description>اصنع نبضة نفسية تجتذب وحوش اللحم لتحفر لأعلى وتظهر بالقرب من أعدائك. سيهاجمون أي شخص يجدونه، بمن فيهم أعداؤك وحلفاؤك. يمكن أسر وحوش اللحم ودراستها، أو ذبحها للحصول على لحم ملتو.</SummonFleshbeasts.description>
+  <!-- EN: They intend to use a psychic ritual to summon hideous fleshbeasts to attack you. -->
+  <SummonFleshbeasts.letterAIArrivedText>ينوون استخدام طقس نفسي لاستدعاء وحوش لحم بشعة لمهاجمتك.</SummonFleshbeasts.letterAIArrivedText>
+  <!-- EN: Fleshbeasts emerging -->
+  <SummonFleshbeasts.letterAICompleteLabel>وحوش اللحم تظهر</SummonFleshbeasts.letterAICompleteLabel>
+  <!-- EN: Fleshbeasts are clawing their way out of the ground. Prepare for their attack! -->
+  <SummonFleshbeasts.letterAICompleteText>وحوش اللحم تحفر طريقها خارج الأرض. استعد لهجومهم!</SummonFleshbeasts.letterAICompleteText>
+  <!-- EN: Create a psychic pulse which will draw a horde of fleshbeasts. -->
+  <SummonFleshbeasts.outcomeDescription>اصنع نبضة نفسية تجتذب حشدًا من وحوش اللحم.</SummonFleshbeasts.outcomeDescription>
+  
+  <!-- EN: draw fleshbeasts -->
+  <SummonFleshbeastsPlayer.label>اجتذاب وحوش اللحم</SummonFleshbeastsPlayer.label>
+  <!-- EN: Create a psychic pulse which will draw fleshbeasts to dig upwards and emerge near your enemies. They will attack anyone they find, including your enemies and allies. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
+  <SummonFleshbeastsPlayer.description>اصنع نبضة نفسية تجتذب وحوش اللحم لتحفر لأعلى وتظهر بالقرب من أعدائك. سيهاجمون أي شخص يجدونه، بمن فيهم أعداؤك وحلفاؤك. يمكن أسر وحوش اللحم ودراستها، أو ذبحها للحصول على لحم ملتو.</SummonFleshbeastsPlayer.description>
+  <!-- EN: A higher quality ritual will attract more fleshbeasts. -->
+  <SummonFleshbeastsPlayer.outcomeDescription>سيجتذب طقس بجودة أعلى المزيد من وحوش اللحم.</SummonFleshbeastsPlayer.outcomeDescription>
+  
+  <!-- EN: provoke pit gate -->
+  <SummonPitGate.label>استفزاز بوابة الحفرة</SummonPitGate.label>
+  <!-- EN: Use a psychic pulse to provoke underground fleshbeasts into opening a massive pit gate in the ground somewhere in the local area. The massive sinkhole will lead down to a fleshbeast-infested cavern which can be explored for resources. -->
+  <SummonPitGate.description>استخدم نبضة نفسية لاستفزاز وحوش اللحم تحت الأرض لفتح بوابة حفرة هائلة في مكان ما في المنطقة المحلية. ستقود الحفرة الانهيارية الهائلة إلى كهف موبوء بوحوش اللحم يمكن استكشافه للحصول على الموارد.</SummonPitGate.description>
+  <!-- EN: A higher-quality ritual will attract more fleshbeasts. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
+  <SummonPitGate.outcomeDescription>سيجتذب طقس بجودة أعلى المزيد من وحوش اللحم. يمكن أسر وحوش اللحم ودراستها، أو ذبحها للحصول على لحم ملتو.</SummonPitGate.outcomeDescription>
+  
+  <!-- EN: draw shamblers -->
+  <SummonShamblers.label>اجتذاب المترنحين</SummonShamblers.label>
+  <!-- EN: Create a psychic pulse which will draw a distant horde of animated corpses towards your local area. While they attack any humans that they see, they won't attack your colony directly. You can capture them for study. -->
+  <SummonShamblers.description>اصنع نبضة نفسية تجتذب حشدًا بعيدًا من الجثث المتحركة نحو منطقتك المحلية. بينما يهاجمون أي بشر يرونه، فلن يهاجموا مستعمرتك مباشرة. يمكنك أسرهم للدراسة.</SummonShamblers.description>
+  <!-- EN: The higher the ritual quality, the more shamblers that will be summoned. -->
+  <SummonShamblers.outcomeDescription>كلما زادت جودة الطقس، زاد عدد المترنحين الذين سيتم استدعاؤهم.</SummonShamblers.outcomeDescription>
+  
+  <!-- EN: void provocation -->
+  <VoidProvocation.label>استفزاز الفراغ</VoidProvocation.label>
+  <!-- EN: Psychically commune with the void, attracting an entity which can be captured and studied. There's a chance that the invoker will fall into a coma for several hours. -->
+  <VoidProvocation.description>تواصل نفسيًا مع الفراغ، جاذبًا كيانًا يمكن أسره ودراسته. هناك احتمال أن يدخل المستدعي في غيبوبة لعدة ساعات.</VoidProvocation.description>
+  <!-- EN: With the current quality, there's a {0} chance the invoker will receive dark psychic shock. -->
+  <VoidProvocation.outcomeDescription>بالجودة الحالية، هناك احتمال بنسبة {0} أن يتلقى المستدعي صدمة نفسية مظلمة.</VoidProvocation.outcomeDescription>
+  
+</LanguageData>

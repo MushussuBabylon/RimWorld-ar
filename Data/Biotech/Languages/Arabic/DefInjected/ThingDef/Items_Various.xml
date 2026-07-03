@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: archite capsule -->
+  <ArchiteCapsule.label>كبسولة أركيت</ArchiteCapsule.label>
+  <!-- EN: A small capsule containing archites - microscopic machines produced by a superintelligent archotech. These devices are capable of physical and psychic feats which seem impossible to human scientists. As with all archotechnology, no human can create one. We can only try to scavenge the ones that archotechs create for their own unfathomable reasons.\n\nThis capsule is useless by itself, but it can be spent at a gene assembler to create a new archite-powered xenogerm. This requires researching archogenetics and a genepack that contains an archite gene. Archite genepacks can be obtained from traders. -->
+  <ArchiteCapsule.description>كبسولة صغيرة تحتوي على أركيتات - آلات مجهرية تنتجها أركوتك فائقة الذكاء. هذه الأجهزة قادرة على أعمال جسدية ونفسية تبدو مستحيلة لعلماء البشر. كما هو الحال مع كل تكنولوجيا الأركوتك، لا يمكن لأي إنسان صنع واحدة. يمكننا فقط محاولة جمع ما تنتجه الأركوتيكات لأسبابها الغامضة.\n\nهذه الكبسولة غير مفيدة بمفردها، لكن يمكن استخدامها في مجمع الجينات لإنشاء زينوجيرم جديد مدعوم بالأركيت. يتطلب هذا البحث في الأركوجينات وعبوة جينات تحتوي على جين أركيت. يمكن الحصول على عبوات جينات الأركيت من التجار.</ArchiteCapsule.description>
+  
+  <!-- EN: genepack -->
+  <Genepack.label>عبوة جينات</Genepack.label>
+  <!-- EN: A small capsule containing a package of genetic information. To use a genepack, it must be placed in a gene bank near a gene assembler and combined into an implantable xenogerm.\n\nIf not kept in a powered gene bank, this genepack will slowly deteriorate. -->
+  <Genepack.description>كبسولة صغيرة تحتوي على حزمة من المعلومات الجينية. لاستخدام عبوة جينات، يجب وضعها في بنك الجينات بالقرب من مجمع الجينات ودمجها في زينوجيرم قابل للزرع.\n\nإذا لم تحفظ في بنك جينات يعمل بالطاقة، ستتلف عبوة الجينات هذه ببطء.</Genepack.description>
+  
+  <!-- EN: embryo -->
+  <HumanEmbryo.label>جنين</HumanEmbryo.label>
+  <!-- EN: A human embryo which can be implanted in a mother to create a pregnancy. -->
+  <HumanEmbryo.description>جنين بشري يمكن زرعه في أم لبدء الحمل.</HumanEmbryo.description>
+  
+  <!-- EN: ovum -->
+  <HumanOvum.label>بويضة</HumanOvum.label>
+  <!-- EN: An extracted, unfertilized human ovum cell stored in a protective capsule. Once fertilized by a male, it becomes an embryo which can then be implanted into a human mother or growth vat. -->
+  <HumanOvum.description>خلية بويضة بشرية مستخرجة وغير مخصبة مخزنة في كبسولة واقية. بمجرد تخصيبها من قبل ذكر، تصبح جنيناً يمكن بعد ذلك زرعه في أم بشرية أو وعاء نمو.</HumanOvum.description>
+  
+  <!-- EN: mechanoid transponder -->
+  <MechanoidTransponder.label>مرسال ميكانويد</MechanoidTransponder.label>
+  <!-- EN: A transponder micro-organ that connects a mechanitor to a mechanoid, even over a great distance. Mechanitors are capable of controlling many mechanoids using a mix of psychic and electromagnetic signals.\n\nDecrypting the transponder will allow you to pinpoint the location of the last mechanitor who controlled the mechanoid. -->
+  <MechanoidTransponder.description>عضو مجهري مرسال يربط الميكانيتور بالميكانويد، حتى عبر مسافات شاسعة. الميكانيتوريون قادرون على التحكم في العديد من الميكانويدات باستخدام مزيج من الإشارات النفسية والكهرومغناطيسية.\n\nفك تشفير المرسال سيسمح لك بتحديد موقع آخر ميكانيتور سيطر على الميكانويد.</MechanoidTransponder.description>
+  <!-- EN: Decrypt transponder -->
+  <MechanoidTransponder.comps.CompUseableDatacore.useLabel>فك تشفير المرسال</MechanoidTransponder.comps.CompUseableDatacore.useLabel>
+  <!-- EN: Can be decrypted at a research bench.\nSelect a colonist and right-click this to decrypt it. -->
+  <MechanoidTransponder.comps.CompInspectString.inspectString>يمكن فك تشفيره على طاولة البحث.\nاختر مستعمراً وانقر بزر الفأرة الأيمن لفك تشفيره.</MechanoidTransponder.comps.CompInspectString.inspectString>
+  
+  <!-- EN: xenogerm -->
+  <Xenogerm.label>زينوجيرم</Xenogerm.label>
+  <!-- EN: A self-contained biological organ containing one or more implantable xenogenes.\n\nOnce implanted inside a host's body, the xenogerm modifies the host's genes, gene expression, and phenotypic development using viruses, hormones, bio-synthesized drugs, and possibly mechanites. Depending on the xenogerm, the host will develop any of a wide variety of exotic traits and abilities, transforming them into a different human xenotype.\n\nXenogerm implantation is a traumatic process. Once implanted with a xenogerm, a person will be bedridden for days as the transformation sets in.\n\nDuring storage and transport, xenogerms are kept safe in sealed containers. -->
+  <Xenogerm.description>عضو بيولوجي قائم بذاته يحتوي على واحد أو أكثر من الجينات الغريبة القابلة للزرع.\n\nبمجرد زرعه داخل جسم المضيف، يقوم الزينوجيرم بتعديل جينات المضيف، التعبير الجيني، والتطور المظهري باستخدام الفيروسات والهرمونات والعقاقير المصنعة حيوياً، وربما الميكانيتات. اعتماداً على الزينوجيرم، سيطور المضيف مجموعة واسعة من السمات والقدرات الغريبة، محولاً إياهم إلى نوع بشري غريب مختلف.\n\nزرع الزينوجيرم عملية مؤلمة. بمجرد زرع الزينوجيرم، سيظل الشخص طريح الفراش لعدة أيام بينما يبدأ التحول.\n\nأثناء التخزين والنقل، تحفظ الزينوجيرمات بأمان في حاويات محكمة الغلق.</Xenogerm.description>
+  
+</LanguageData>

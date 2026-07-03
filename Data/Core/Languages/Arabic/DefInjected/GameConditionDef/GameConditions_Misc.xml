@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aurora -->
+  <Aurora.label>شفق</Aurora.label>
+  <!-- EN: An aurora is lighting up the sky. The breathtaking display will boost the mood of anyone outside to see it. -->
+  <Aurora.description>يضيء الشفق السماء. سيرفع هذا العرض الأخاذ من مزاج أي شخص في الخارج يراه.</Aurora.description>
+  <!-- EN: The aurora is ending. -->
+  <Aurora.endMessage>يقترب الشفق من نهايته.</Aurora.endMessage>
+  <!-- EN: A beautiful aurora is lighting up the sky.\n\nThe undulating colors will boost the mood of anyone outside to see them, and make the night brighter. -->
+  <Aurora.letterText>يضيء شفق جميل السماء.\n\nسترفع الألوان المتماوجة من مزاج أي شخص بالخارج يراها، وستجعل الليل أكثر إشراقًا.</Aurora.letterText>
+  
+  <!-- EN: climate cycle -->
+  <ClimateCycle.label>دورة مناخية</ClimateCycle.label>
+  <!-- EN: A multi-year climate cycle due to an elliptical orbit. -->
+  <ClimateCycle.description>دورة مناخية متعددة السنوات بسبب مدار إهليلجي.</ClimateCycle.description>
+  
+  <!-- EN: cold snap -->
+  <ColdSnap.label>موجة برد</ColdSnap.label>
+  <!-- EN: An unusual cold snap is freezing the region. -->
+  <ColdSnap.description>موجة برد غير اعتيادية تجمد المنطقة.</ColdSnap.description>
+  <!-- EN: a front of cold air will cool the area around [map_definite] for [gameConditionDuration_duration], harming crops and any person or animal without adequate protection -->
+  <ColdSnap.descriptionFuture>جبهة هواء بارد ستبرد المنطقة حول [map_definite] لمدة [gameConditionDuration_duration]، مما يضر بالمحاصيل وأي شخص أو حيوان بدون حماية كافية</ColdSnap.descriptionFuture>
+  <!-- EN: The cold snap is over. -->
+  <ColdSnap.endMessage>انتهت موجة البرد.</ColdSnap.endMessage>
+  <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
+  <ColdSnap.letterText>بدأت موجة برد غير اعتيادية.\n\nيمكن لموجات البرد أن تقتل بسرعة بسبب انخفاض الحرارة. تأكد من بناء مكان دافئ للنجاة، وارتد ملابس مناسبة، وحاول حصاد المحاصيل قبل أن تتجمد وتموت.</ColdSnap.letterText>
+  
+  <!-- EN: eclipse -->
+  <Eclipse.label>كسوف</Eclipse.label>
+  <!-- EN: An eclipse is shadowing the surface. It will be dark, even during the daytime. -->
+  <Eclipse.description>يظلل الكسوف السطح. سيكون مظلمًا، حتى أثناء النهار.</Eclipse.description>
+  <!-- EN: The eclipse is ending. -->
+  <Eclipse.endMessage>يقترب الكسوف من نهايته.</Eclipse.endMessage>
+  <!-- EN: One of the moons of this planet has orbited in front of the sun. An eclipse has begun. -->
+  <Eclipse.letterText>أحد أقمار هذا الكوكب دار في مداره أمام الشمس. بدأ الكسوف.</Eclipse.letterText>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>عاصفة برق خاطفة</Flashstorm.label>
+  <!-- EN: A freak localized storm is blasting a small area with repeated lightning strikes. -->
+  <Flashstorm.description>عاصفة موضعية غريبة تضرب منطقة صغيرة بضربات برق متكررة.</Flashstorm.description>
+  <!-- EN: The flashstorm is over. -->
+  <Flashstorm.endMessage>انتهت العاصفة البرقية الخاطفة.</Flashstorm.endMessage>
+  <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
+  <Flashstorm.letterText>تضرب عاصفة برق خاطفة موضعية غريبة منطقة صغيرة بالبرق. يمكن أن يتسبب هذا في حرائق هائلة.</Flashstorm.letterText>
+  
+  <!-- EN: heat wave -->
+  <HeatWave.label>موجة حر</HeatWave.label>
+  <!-- EN: An extreme wave of heat is baking the area. -->
+  <HeatWave.description>موجة حر شديدة تلهب المنطقة.</HeatWave.description>
+  <!-- EN: a heat wave will bake the area around [map_definite] for [gameConditionDuration_duration], harming crops and possibly killing people or animals in uncooled areas -->
+  <HeatWave.descriptionFuture>موجة حر ستلهب المنطقة حول [map_definite] لمدة [gameConditionDuration_duration]، مما يضر بالمحاصيل وربما يقتل الناس أو الحيوانات في المناطق غير المبردة</HeatWave.descriptionFuture>
+  <!-- EN: The heat wave is over. -->
+  <HeatWave.endMessage>انتهت موجة الحر.</HeatWave.endMessage>
+  <!-- EN: An unusual heat wave has begun.\n\nHeat waves can induce deadly heatstroke. Stay cool by building either a passive or electric cooler, or by getting deep underground where the rocks are naturally cool. -->
+  <HeatWave.letterText>بدأت موجة حر غير اعتيادية.\n\nيمكن لموجات الحر أن تسبب ضربة حر مميتة. حافظ على البرودة ببناء مبرد سلبي أو كهربائي، أو بالتوغل عميقًا تحت الأرض حيث الصخور باردة طبيعيًا.</HeatWave.letterText>
+  
+  <!-- EN: planetkiller -->
+  <Planetkiller.label>مدمر كواكب</Planetkiller.label>
+  <!-- EN: An interstellar planetkiller weapon is approaching this planet. It will smash the planet apart like a rifle bullet hitting an egg, annihilating all life. -->
+  <Planetkiller.description>يقترب سلاح مدمر كواكب بينجمي من هذا الكوكب. سيحطم الكوكب كما تحطم رصاصة بندقية بيضة، ليقضي على كل أشكال الحياة.</Planetkiller.description>
+  
+  <!-- EN: psychic drone -->
+  <PsychicDrone.label>طنين نفسي</PsychicDrone.label>
+  <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, driving people towards insanity. -->
+  <PsychicDrone.description>تبعث تقنية عليا بعيدة إشارات نفسية عبر مضخم مداري، لتدفع الناس نحو الجنون.</PsychicDrone.description>
+  <!-- EN: a [psychicDroneLevel] psychic drone will buzz the area around [map_definite] for [gameConditionDuration_duration], pushing all people of the [psychicDroneGender] gender towards insanity -->
+  <PsychicDrone.descriptionFuture>طنين نفسي من مستوى [psychicDroneLevel] سيطن في المنطقة حول [map_definite] لمدة [gameConditionDuration_duration]، دافعًا جميع الناس من الجنس [psychicDroneGender] نحو الجنون</PsychicDrone.descriptionFuture>
+  <!-- EN: The psychic drone is ending. -->
+  <PsychicDrone.endMessage>يقترب الطنين النفسي من نهايته.</PsychicDrone.endMessage>
+  <!-- EN: Every {0} colonist feels a wave of anxiety and anger!\n\nSome distant engine of hatred is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
+  <PsychicDrone.letterText>يشعر كل مستعمر {0} بموجة من القلق والغضب!\n\nهناك محرك كراهية بعيد يتحرك. إنه يبث طنينًا نفسيًا على هذا الموقع عبر مضخم مداري، مضبوط ليطال فقط الـ{0}. لعدة أيام، سيكون مزاج بعض الناس أسوأ بقليل.\n\nمستوى الطنين {1}.</PsychicDrone.letterText>
+  
+  <!-- EN: psychic soothe -->
+  <PsychicSoothe.label>تهدئة نفسية</PsychicSoothe.label>
+  <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, calming people and stabilizing their minds. -->
+  <PsychicSoothe.description>تبعث تقنية عليا بعيدة إشارات نفسية عبر مضخم مداري، لتهدئ الناس وتستقر عقولهم.</PsychicSoothe.description>
+  <!-- EN: The psychic soothe is ending. -->
+  <PsychicSoothe.endMessage>تقترب التهدئة النفسية من نهايتها.</PsychicSoothe.endMessage>
+  <!-- EN: Every {0} colonist smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit better. -->
+  <PsychicSoothe.letterText>يبتسم كل مستعمر {0} برضا!\n\nهناك محرك سعادة بعيد يتحرك. إنه يبث طمأنينة نفسية على هذا الموقع عبر مضخم مداري، مضبوط ليطال فقط الـ{0}. لعدة أيام، سيكون مزاج بعض الناس أفضل بقليل.</PsychicSoothe.letterText>
+  
+  <!-- EN: solar flare -->
+  <SolarFlare.label>انفجار شمسي</SolarFlare.label>
+  <!-- EN: A solar flare is blasting the planet. The electromagnetic interference will prevent most electrical devices from working. -->
+  <SolarFlare.description>يضرب انفجار شمسي الكوكب. سيمنع التشويش الكهرومغناطيسي معظم الأجهزة الكهربائية من العمل.</SolarFlare.description>
+  <!-- EN: The solar flare is ending. -->
+  <SolarFlare.endMessage>يقترب الانفجار الشمسي من نهايته.</SolarFlare.endMessage>
+  <!-- EN: A solar flare has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nIt should pass in about a day. -->
+  <SolarFlare.letterText>بدأ انفجار شمسي.\n\nسيوقف الإشعاع المكثف جميع الأجهزة الكهربائية.\n\nيجب أن يمر في غضون يوم تقريبًا.</SolarFlare.letterText>
+  
+  <!-- EN: toxic fallout -->
+  <ToxicFallout.label>تساقط سام</ToxicFallout.label>
+  <!-- EN: A plume of toxic dust is slowly settling over this entire region. Any living thing not under a roof will be slowly poisoned, and items left outside will corrode. -->
+  <ToxicFallout.description>تستقر عمود من الغبار السام ببطء على هذه المنطقة بأكملها. سيتم تسميم أي كائن حي ليس تحت سقف ببطء، وستتآكل الأغراض المتروكة بالخارج.</ToxicFallout.description>
+  <!-- EN: a cloud of toxic fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], killing outdoor plant and animal life -->
+  <ToxicFallout.descriptionFuture>سحابة من التساقط السام ستغطي المنطقة حول [map_definite] لمدة [gameConditionDuration_duration]، مما يقتل الحياة النباتية والحيوانية في الخارج</ToxicFallout.descriptionFuture>
+  <!-- EN: The worst of the toxic fallout has settled. -->
+  <ToxicFallout.endMessage>استقر أسوأ التساقط السام.</ToxicFallout.endMessage>
+  <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to nearly a quadrum. -->
+  <ToxicFallout.letterText>أطلق حريق كيميائي بعيد عمودًا من السم على هذه المنطقة بأكملها.\n\nأي شخص أو مخلوق ليس تحت سقف سيمرض ببطء بسبب الغبار السام المترسب من الغلاف الجوي.\n\nسيستمر في أي مكان بين بضعة أيام إلى ما يقرب من ربع عام.</ToxicFallout.letterText>
+  
+  <!-- EN: volcanic winter -->
+  <VolcanicWinter.label>شتاء بركاني</VolcanicWinter.label>
+  <!-- EN: Some distant volcano or fire is choking the atmosphere with ash, significantly reducing the amount of light which reaches the surface. Temperatures will be colder and plants will grow slower. -->
+  <VolcanicWinter.description>يخنق بركان أو حريق بعيد الغلاف الجوي بالرماد، مما يقلل بشكل كبير من كمية الضوء التي تصل إلى السطح. ستكون درجات الحرارة أكثر برودة وستنمو النباتات أبطأ.</VolcanicWinter.description>
+  <!-- EN: a layer of ash will be deposited in the upper atmosphere, reducing sunlight around [map_definite] for [gameConditionDuration_duration], seriously harming the local ecosystem -->
+  <VolcanicWinter.descriptionFuture>ستترسب طبقة من الرماد في الغلاف الجوي العلوي، مما يقلل من ضوء الشمس حول [map_definite] لمدة [gameConditionDuration_duration]، مما يضر بشكل خطير بالنظام البيئي المحلي</VolcanicWinter.descriptionFuture>
+  <!-- EN: Most of the ash has settled. -->
+  <VolcanicWinter.endMessage>استقر معظم الرماد.</VolcanicWinter.endMessage>
+  <!-- EN: Some distant volcano or fire has begun spewing massive quantities of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
+  <VolcanicWinter.letterText>بدأ بركان أو حريق بعيد في إطلاق كميات هائلة من الرماد إلى الغلاف الجوي.\n\nسيحجب الرماد في الغلاف الجوي الشمس. ستنخفض درجات الحرارة وستعاني النباتات من نقص ضوء الشمس. قد يمر في بضعة أسابيع، أو قد يستمر لأرباع عديدة.</VolcanicWinter.letterText>
+  
+</LanguageData>

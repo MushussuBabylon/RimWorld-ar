@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Shamblers -->
+  <!-- EN: Regenerating to rise again. -->
+  <ShamblerRegenerating>يتجدد للنهوض مجددًا.</ShamblerRegenerating>
+  <!-- EN: Rising. -->
+  <ShamblerRising>ينهض.</ShamblerRising>
+  <!-- EN: Standing listlessly. -->
+  <ShamblerStanding>واقف بلا حيوية.</ShamblerStanding>
+  <!-- EN: Shuffling listlessly. -->
+  <ShamblerShuffling>يمشي بخمول.</ShamblerShuffling>
+  <!-- EN: Be careful, the group contains a shambler gorehulk. -->
+  <LetterText_ShamblerGorehulk>كن حذرًا، المجموعة تحتوي على غولحاد متعثرة.</LetterText_ShamblerGorehulk>
+  <!-- EN: Be careful, the group contains several shambler gorehulks. -->
+  <LetterText_ShamblerGorehulkPlural>كن حذرًا، المجموعة تحتوي على عدة غولحاد متعثرات.</LetterText_ShamblerGorehulkPlural>
+  <!-- EN: Be careful, the group contains a shambler chimera. -->
+  <LetterText_ShamblerChimera>كن حذرًا، المجموعة تحتوي على كيميرا متعثرة.</LetterText_ShamblerChimera>
+  <!-- EN: Be careful, the group contains several shambler chimeras. -->
+  <LetterText_ShamblerChimeraPlural>كن حذرًا، المجموعة تحتوي على عدة كيميرات متعثرات.</LetterText_ShamblerChimeraPlural>
+
+  <!-- EN: Non-humans cannot participate in rituals. -->
+  <MessageRitualCannotBeMutant>لا يمكن لغير البشر المشاركة في الطقوس.</MessageRitualCannotBeMutant>
+
+  <!-- Revenant -->
+  <!-- EN: Revenant attack -->
+  <LetterLabelRevenantRevealed>هجوم العائد</LetterLabelRevenantRevealed>
+  <!-- EN: A revenant has revealed itself! -->
+  <LetterRevenantRevealed>ظهر العائد!</LetterRevenantRevealed>
+  <!-- EN: A revenant has revealed itself and is hunting one of your colonists! -->
+  <LetterRevenantRevealedFirst>ظهر العائد وهو يصطاد أحد مستعمريك!</LetterRevenantRevealedFirst> 
+  <!-- EN: Revenant smear discovered -->
+  <LetterLabelRevenantSmearDiscovered>تم اكتشاف لطخة العائد</LetterLabelRevenantSmearDiscovered>
+  <!-- EN: {0} has noticed a black slick on the ground. It looks unnatural and gives off a foul, acrid smell. It is still fresh and wet. An eldritch entity passed by recently. -->
+  <LetterRevenantSmearDiscovered>لاحظ {0} بقعة سوداء على الأرض. تبدو غير طبيعية وتصدر رائحة كريهة ولاذعة. لا تزال طازجة ورطبة. مر كيان خارق بالقرب مؤخرًا.</LetterRevenantSmearDiscovered>
+  <!-- EN: Revenant killed -->
+  <LetterLabelRevenantKilled>تم قتل العائد</LetterLabelRevenantKilled>
+  <!-- EN: The revenant is dead! Those who were hypnotized will recover.\n\nIts body has dissipated, leaving behind its spine. You can gather and study the spine, or destroy it. -->
+  <LetterRevenantKilled>العائد ميت! أولئك الذين تم تنويمهم سيتعافون.\n\nتبدد جسده، تاركًا وراءه عموده الفقري. يمكنك جمع ودراسة العمود الفقري، أو تدميره.</LetterRevenantKilled>
+  <!-- EN: {PAWN_nameDef} hypnotized -->
+  <LetterLabelPawnHypnotized>تم تنويم {PAWN_nameDef}</LetterLabelPawnHypnotized>
+  <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
+  <LetterPawnHypnotized>تم تنويم {PAWN_nameDef} من قبل عائد وهو الآن يهذي بطريقة غير مترابطة عن صور وأفكار كابوسية.\n\nقتل العائد سينهي التنويم.\n\nيستخدم العائد قوى نفسية لتشويه إدراك من حوله، جاعلاً نفسه غير مرئي. ومع ذلك، لا يزال من الممكن اصطياده بتتبع اللطخات السوداء التي يتركها. سينكشف العائد إذا أصيب بأسلحة متفجرة، أو رغوة إطفاء، أو نبضات كهرومغناطيسية، أو نار، أو مشاعل التشويش.\n\nإذا لم يُقتل، سيواصل العائد تنويم ضحايا جدد.</LetterPawnHypnotized>
+  <!-- EN: Revenant flesh chunk -->
+  <LetterRevenantFleshChunkLabel>قطعة لحم من العائد</LetterRevenantFleshChunkLabel>
+  <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
+  <LetterRevenantFleshChunkText>ترك العائد الجريح وراءه قطعة من نفسه. يمكنك تحليل قطعة اللحم هذه لتعلم كيفية تعقب العائد.</LetterRevenantFleshChunkText>
+  <!-- EN: Revenant seen -->
+  <LetterRevenantSeenLabel>تمت رؤية العائد</LetterRevenantSeenLabel>
+  <!-- EN: {PAWN_nameDef} has seen a hiding revenant! -->
+  <LetterRevenantSeen>رأى {PAWN_nameDef} عائدًا مختبئًا!</LetterRevenantSeen>
+  <!-- EN: In trance. -->
+  <InTrance>في غيبوبة.</InTrance>
+  <!-- EN: Revenant emergence -->
+  <LetterLabelRevenantEmergence>ظهور العائد</LetterLabelRevenantEmergence>
+  <!-- EN: The revenant has reemerged from the safety of its spine! Destroy it before it escapes.\n\nIn the process, the revenant has mutated and adopted a new biosignature. -->
+  <LetterRevenantEmergence>عاد العائد للظهور من ملاذه في عموده الفقري! دمره قبل أن يهرب.\n\nفي هذه الأثناء، تحول العائد واكتسب بصمة حيوية جديدة.</LetterRevenantEmergence>
+
+  <!-- Sightstealers -->
+  <!-- EN: Sightstealer revealed -->
+  <LetterLabelSightstealerRevealed>تم كشف سارق البصر</LetterLabelSightstealerRevealed>
+  <!-- EN: A twisted creature has appeared out of thin air! -->
+  <LetterSightstealerRevealed>ظهر مخلوق ملتو من العدم!</LetterSightstealerRevealed>
+  <!-- EN: A sightstealer has appeared! -->
+  <MessageSightstealerRevealed>ظهر سارق البصر!</MessageSightstealerRevealed>
+  <!-- EN: Sightstealer shrieks -->
+  <LetterLabelSightstealerHowl>صرخات سارق البصر</LetterLabelSightstealerHowl>
+  <!-- EN: Your colonists hear sightstealers shrieking in the distance.\n\nIt's hard to tell where they are or how many. They might arrive immediately or days from now. -->
+  <LetterSightstealerHowl>يسمع مستعمروك صرخات سارقي البصر على البعد.\n\nمن الصعب تحديد مكانهم أو كم عددهم. قد يصلون فورًا أو بعد أيام من الآن.</LetterSightstealerHowl>
+  <!-- EN: Sightstealer howling -->
+  <LetterLabelSightstealerHowlBig>عواء سارق البصر</LetterLabelSightstealerHowlBig>
+  <!-- EN: Your colonists hear a huge number of distant sightstealers screaming in their twisted rage. They are coming.\n\nThey might arrive immediately, or days from now. -->
+  <LetterSightstealerHowlBig>يسمع مستعمروك أعدادًا هائلة من سارقي البصر البعيدين يصرخون في غضبهم الملتوي. إنهم قادمون.\n\nقد يصلون فورًا أو بعد أيام من الآن.</LetterSightstealerHowlBig>
+
+  <!-- Death Pall -->
+  <!-- EN: Death pall clearing -->
+  <LetterLabelDeathPallEnded>انقشاع غشاء الموت</LetterLabelDeathPallEnded> 
+  <!-- EN: The pall of death is lifting. The corpses reanimated by it will soon return to their natural state. -->
+  <LetterDeathPallEnded>غشاء الموت ينقشع. الجثث التي أعيد إحياؤها به ستعود قريبًا إلى حالتها الطبيعية.</LetterDeathPallEnded>
+  
+  <!-- Pit Gate -->
+  <!-- EN: Pit gate closing -->
+  <LetterLabelGateClosing>بوابة الحفرة تغلق</LetterLabelGateClosing>
+  <!-- EN: The pit gate is closing! Its entrance is about to crumble.\n\nThe pit gate entrance was unstable from the start and is finally sealing itself. -->
+  <LetterGateClosing>بوابة الحفرة تغلق! مدخلها على وشك الانهيار.\n\nمدخل بوابة الحفرة كان غير مستقر منذ البداية وأخيرًا يختم نفسه.</LetterGateClosing>
+  <!-- EN: Must be placed adjacent to a pit gate. -->
+  <MustPlaceNextToPitGate>يجب وضعه بجوار بوابة حفرة.</MustPlaceNextToPitGate>
+  <!-- EN: Pit gate closed -->
+  <PitGateClosedHumanityNote>أغلقت بوابة الحفرة</PitGateClosedHumanityNote>
+  <!-- EN: Pit gate collapsing -->
+  <PitGateCollapsing>بوابة الحفرة تنهار</PitGateCollapsing> 
+  <!-- EN: Pit gate settling -->
+  <PitGateSettling>بوابة الحفرة تستقر</PitGateSettling>
+  <!-- EN: Pit rumbles -->
+  <EmergenceWarningLabel>قرقرة الحفرة</EmergenceWarningLabel>
+  <!-- EN: The ground shakes under your feet and the inhuman screams echoing from the pit seem to get closer. Something will emerge soon. -->
+  <EmergenceWarningText>تهتز الأرض تحت قدميك والصرخات اللاإنسانية الصادرة من الحفرة تبدو وكأنها تقترب. شيء ما سيظهر قريبًا.</EmergenceWarningText>
+
+    <!-- Undercave -->
+  <!-- EN: Squirming sounds -->
+  <LetterLabelDreadmeldWarning>أصوات تلوي</LetterLabelDreadmeldWarning>
+  <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
+  <LetterDreadmeldWarning>بينما يقترب {PAWN_nameDef} من الكتلة اللحمية هنا، يستشعر {PAWN_pronoun} تلوّيًا وخفقانًا شديدين تحت سطحها الدافئ. هناك كيان حي ضخم مختبئ خلف جدار اللحم.</LetterDreadmeldWarning> 
+  <!-- EN: Undercave unstable -->
+  <LetterLabelUndercaveCollapsing>الكهف السفلي غير مستقر</LetterLabelUndercaveCollapsing> 
+  <!-- EN: The dreadmeld's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late! -->
+  <LetterUndercaveCollapsing>موت الرعب المندمج صدم الكتلة اللحمية وتسبب في زعزعة استقرار نظام الكهف. الكتلة اللحمية التي دعمت الكهف بدأت بالفعل في التدهور. في غضون نصف يوم، سينهار الكهف بالكامل.\n\nاخرج من الكهف السفلي قبل فوات الأوان!</LetterUndercaveCollapsing>
+
+  <!-- Holding platform -->
+  <!-- EN: Holding -->
+  <HoldingThing>احتجاز</HoldingThing>
+  <!-- EN: Remove {0_labelShort} -->
+  <RemoveFromPlatform>إزالة {0_labelShort}</RemoveFromPlatform>
+  <!-- EN: Remove the current entity held on the platform. -->
+  <RemoveFromPlatformDesc>إزالة الكيان الحالي المحتجز على المنصة.</RemoveFromPlatformDesc>
+  <!-- EN: {GERUND} {TARGETLABEL} from -->
+  <ReleasingEntity>{GERUND} {TARGETLABEL} من</ReleasingEntity>
+  <!-- EN: {GERUND} {TARGETLABEL} -->
+  <TransferringEntity>{GERUND} {TARGETLABEL}</TransferringEntity>
+  <!-- EN: Select holding platform -->
+  <SelectHoldingPlatform>اختر منصة الاحتجاز</SelectHoldingPlatform>
+  <!-- EN: Entity escape -->
+  <LetterLabelEscapingFromHoldingPlatform>هروب كيان</LetterLabelEscapingFromHoldingPlatform> 
+  <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
+  <LetterEscapingFromHoldingPlatform>الكيانات التالية هربت من قيودها:\n\n{0}\n\nقم ببناء غرف احتواء أقوى لمنع الكيانات من الهرب. الكيانات أقل احتمالا للهرب من منصات الاحتجاز ذات قوة الاحتواء العالية، والتي تأتي من الجدران والأبواب القوية، والإضاءة الجيدة، وأجهزة الاحتواء الخاصة.</LetterEscapingFromHoldingPlatform> 
+  <!-- EN: requires {0} -->
+  <HoldingPlatformRequiresStrength>يتطلب {0}</HoldingPlatformRequiresStrength>
+  <!-- EN: No holding platforms available. -->
+  <NoHoldingPlatformsAvailable>لا توجد منصات احتجاز متاحة.</NoHoldingPlatformsAvailable>
+  
+  
+  <!-- Obelisks -->
+  <!-- EN: Obelisk activation -->
+  <MutatorObeliskLetterLabel>تفعيل المسلة</MutatorObeliskLetterLabel>
+  <!-- EN: The obelisk is activating! It swells with grisly energy as the air crackles around it. It is about to self-destruct in a great explosion, but before it does, it will use its hideous transformative power on any creature it can detect. -->
+  <MutatorObeliskLetter>المسلة تتفعل! تنتفخ بطاقة مروعة بينما الهواء يتفرقع حولها. إنها على وشك التدمير الذاتي في انفجار عظيم، ولكن قبل ذلك، ستستخدم قوتها التحويلية الشنيعة على أي مخلوق يمكنها اكتشافه.</MutatorObeliskLetter>
+
+  <!-- EN: Obelisk mutation -->
+  <ObeliskTentacleLetterLabel>تحول المسلة</ObeliskTentacleLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open as a fleshy growth erupted from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a squirming tentacle!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed. -->
+  <ObeliskTentacleLetter>بينما كان يتفاعل مع المسلة، شعر {PAWN_nameDef} بوخز في ذراعـ{PAWN_possessive}. بعد لحظات، انشق جلد ذراعـ{PAWN_possessive} بينما نبت نمو لحمي من جسـ{PAWN_possessive}. تم استبدال ذراعـ{PAWN_possessive} بهلابة متلوية!\n\nفقد {PAWN_nameDef} بعض الدم، ولكنه يبدو سالمًا عدا ذلك.</ObeliskTentacleLetter>
+
+  <!-- EN: Obelisk mutation -->
+  <ObeliskFleshWhipLetterLabel>تحول المسلة</ObeliskFleshWhipLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open violently as a growth burst from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a tentacle tipped with a bony blade!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed by this disturbing event. The tentacle is hideous, but it will make an excellent melee weapon. -->
+  <ObeliskFleshWhipLetter>بينما كان يتفاعل مع المسلة، شعر {PAWN_nameDef} بوخز في ذراعـ{PAWN_possessive}. بعد لحظات، انشق جلد ذراعـ{PAWN_possessive} بعنف بينما نبت نمو من جسـ{PAWN_possessive}. تم استبدال ذراعـ{PAWN_possessive} بهلابة بطرف عظمي يشبه النصل!\n\nفقد {PAWN_nameDef} بعض الدم، ولكنه يبدو سالمًا عدا ذلك من هذا الحدث المزعج. الهلابة بشعة، لكنها ستكون سلاح اشتباك ممتاز.</ObeliskFleshWhipLetter>
+
+  <!-- EN: Obelisk interaction -->
+  <MutatorObeliskFailedArmLetterLabel>تفاعل المسلة</MutatorObeliskFailedArmLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
+  <MutatorObeliskFailedArmLetter>بينما كان يتفاعل مع المسلة، شعر {PAWN_nameDef} بوخز في ذراعـ{PAWN_possessive} لبضع لحظات. مر الشعور.\n\nحاولت المسلة تحويل {PAWN_nameDef} لكنها فشلت.</MutatorObeliskFailedArmLetter>
+
+  <!-- EN: Obelisk mutation -->
+  <ObeliskFleshmassStomachLetterLabel>تحول المسلة</ObeliskFleshmassStomachLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} stomach, as {PAWN_possessive} tissue began to roil and mutate. {PAWN_possessive} stomach has mutated into a mass of semi-sentient flesh. The harsh acids it produces are painful but prevent food poisoning. -->
+  <ObeliskFleshmassStomachLetter>بينما كان يتفاعل مع المسلة، شعر {PAWN_nameDef} بألم حاد مفاجئ في معـ{PAWN_possessive}، حيث بدأ نسيج {PAWN_possessive} يتماوج ويتحول. تحولت معـ{PAWN_possessive} إلى كتلة من لحم شبه واعٍ. الأحماض القاسية التي تنتجها مؤلمة ولكنها تمنع التسمم الغذائي.</ObeliskFleshmassStomachLetter>
+
+  <!-- EN: Obelisk interaction -->
+  <MutatorObeliskFailedStomachLetterLabel>تفاعل المسلة</MutatorObeliskFailedStomachLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} stomach aching for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
+  <MutatorObeliskFailedStomachLetter>بينما كان يتفاعل مع المسلة، شعر {PAWN_nameDef} بألم في معـ{PAWN_possessive} لبضع لحظات. مر الشعور.\n\nحاولت المسلة تحويل {PAWN_nameDef} لكنها فشلت.</MutatorObeliskFailedStomachLetter>
+
+  <!-- EN: Obelisk mutation -->
+  <ObeliskFleshmassLungLetterLabel>تحول المسلة</ObeliskFleshmassLungLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} chest, as {PAWN_possessive} lung began to twist and swell. {PAWN_possessive} lung has mutated into a painful mass of semi-sentient flesh. The tissue is constantly regrowing and replacing itself, making it immune to effects like lung rot and asthma. -->
+  <ObeliskFleshmassLungLetter>بينما كان يتفاعل مع المسلة، شعر {PAWN_nameDef} بألم حاد مفاجئ في صـ{PAWN_possessive}، حيث بدأت رئـ{PAWN_possessive} تلتوي وتنتفخ. تحولت رئـ{PAWN_possessive} إلى كتلة مؤلمة من لحم شبه واعٍ. النسيج يعيد نمو نفسه ويستبدله باستمرار، مما يجعله محصنًا ضد تأثيرات مثل عفن الرئة والربو.</ObeliskFleshmassLungLetter>
+
+  <!-- EN: Obelisk interaction -->
+  <MutatorObeliskFailedLungLetterLabel>تفاعل المسلة</MutatorObeliskFailedLungLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} chest ache for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
+  <MutatorObeliskFailedLungLetter>بينما كان يتفاعل مع المسلة، شعر {PAWN_nameDef} بألم في صـ{PAWN_possessive} لبضع لحظات. مر الشعور.\n\nحاولت المسلة تحويل {PAWN_nameDef} لكنها فشلت.</MutatorObeliskFailedLungLetter>
+
+  <!-- EN: Obelisk mutation -->
+  <ObeliskAnimalMutationLetterLabel>تحول المسلة</ObeliskAnimalMutationLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden spike in energy. The obelisk has violently warped the flesh of {ANIMAL}, turning it into a hideous fleshbeast. -->
+  <ObeliskAnimalMutationLetter>بينما كان يتفاعل مع المسلة، لاحظ {PAWN_nameDef} ارتفاعًا مفاجئًا في الطاقة. قامت المسلة بشكل عنيف بتشويه لحم {ANIMAL}، محولة إياه إلى وحش لحمي بشع.</ObeliskAnimalMutationLetter>
+
+  <!-- EN: Obelisk mutation -->
+  <ObeliskTreeMutationLetterLabel>تحول المسلة</ObeliskTreeMutationLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden pulse of energy. The obelisk has twisted a nearby tree into a harbinger tree. These monstrous trees are capable of feeding on nearby corpses and raw meat. -->
+  <ObeliskTreeMutationLetter>بينما كان يتفاعل مع المسلة، لاحظ {PAWN_nameDef} نبضة طاقة مفاجئة. قامت المسلة بتحويل شجرة قريبة إلى شجرة نذير. هذه الأشجار الوحشية قادرة على التغذي على الجثث القريبة واللحم النيء.</ObeliskTreeMutationLetter>
+
+  <!-- EN: Obelisk duplicate -->
+  <ObeliskDuplicationLetterLabel>استنساخ المسلة</ObeliskDuplicationLetterLabel>
+  <!-- EN: While {PAWN_nameDef} interacted with the obelisk, it pulsed with energy and generated a flash of light. {PAWN_nameDef} found {PAWN_objective}self face to face with a copy of {PAWN_objective}self! The duplicate claims to be the real {PAWN_nameDef} and has joined your colony. -->
+  <ObeliskDuplicationLetter>بينما تفاعل {PAWN_nameDef} مع المسلة، نبضت بالطاقة وأصدرت وميضًا من الضوء. وجد {PAWN_nameDef} {PAWN_objective} وجهًا لوجه مع نسخة من {PAWN_objective}! النسخة تدعي أنها {PAWN_nameDef} الحقيقي وانضمت إلى مستعمرتك.</ObeliskDuplicationLetter>
+
+  <!-- EN: Obelisk failure -->
+  <ObeliskDuplicationFailedLetterLabel>فشل المسلة</ObeliskDuplicationFailedLetterLabel>
+  <!-- EN: {PAWN_nameDef} attempted to trigger the obelisk but nothing occurred. Something about {PAWN_nameDef} is preventing the obelisk from duplicating {PAWN_objective}. -->
+  <ObeliskDuplicationFailedLetter>حاول {PAWN_nameDef} تشغيل المسلة ولكن لم يحدث شيء. شيء ما في {PAWN_nameDef} يمنع المسلة من استنساخ {PAWN_objective}.</ObeliskDuplicationFailedLetter>
+  
+  <!-- EN: {PAWN_nameDef} has successfully triggered obelisk duplication. -->
+  <ObeliskDuplicationSuccessMessage>نجح {PAWN_nameDef} في تفعيل استنساخ المسلة.</ObeliskDuplicationSuccessMessage>
+
+  <!-- EN: Hostile obelisk duplicate -->
+  <ObeliskHostileDuplicateLetterLabel>نسخة مسلة معادية</ObeliskHostileDuplicateLetterLabel>
+  <!-- EN: While {PAWN_nameDef} interacted with the obelisk, it pulsed with energy and generated a flash of light. {PAWN_nameDef} found {PAWN_objective}self face to face with a copy of {PAWN_objective}self. The duplicate is approaching {PAWN_nameDef} with murderous intent! -->
+  <ObeliskHostileDuplicateLetter>بينما تفاعل {PAWN_nameDef} مع المسلة، نبضت بالطاقة وأصدرت وميضًا من الضوء. وجد {PAWN_nameDef} {PAWN_objective} وجهًا لوجه مع نسخة من {PAWN_objective}. النسخة تقترب من {PAWN_nameDef} بنية القتل!</ObeliskHostileDuplicateLetter>
+
+  <!-- EN: Obelisk activation -->
+  <DuplicatorObeliskLetterLabel>تفعيل المسلة</DuplicatorObeliskLetterLabel>
+  <!-- EN: The obelisk is activating! The air around it crackles with energy. Duplicates of your colonists will soon appear with murderous intent.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
+  <DuplicatorObeliskLetter>المسلة تتفعل! الهواء حولها يتفرقع بالطاقة. ستظهر نسخ من مستعمريك قريبًا بنية القتل.\n\nكن حذرًا - الطاقة غير المستقرة تسري عبر المسلة وقد تنفجر في أي لحظة.</DuplicatorObeliskLetter>
+
+  <!-- EN: Colonists disappearing -->
+  <ObeliskAbductorLetterLabel>اختفاء المستعمرين</ObeliskAbductorLetterLabel>
+  <!-- EN: The warped obelisk crackles with energy as it warps space around itself. All manner of creatures are beginning to disappear and will soon vanish entirely.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
+  <ObeliskAbductorLetter>المسلة الملتوية تفرقع بالطاقة بينما تشوه الفضاء حولها. جميع أنواع المخلوقات بدأت تختفي وستتلاشى بالكامل قريبًا.\n\nكن حذرًا - الطاقة غير المستقرة تسري عبر المسلة وقد تنفجر في أي لحظة.</ObeliskAbductorLetter>
+  
+  <!-- EN: {PAWN_nameDef} is disappearing -->
+  <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} يختفي</ObeliskAbductedDisappearingLetterLabel>
+  <!-- EN: {PAWN_nameDef} noticed activity in the warped obelisk. Some mysterious internal mechanism has come to life, causing {PAWN_nameDef} to begin to disappear. {PAWN_pronoun} will soon vanish entirely. -->
+  <ObeliskAbductedDisappearingLetter>لاحظ {PAWN_nameDef} نشاطًا في المسلة الملتوية. آلية داخلية غامضة عادت للحياة، مما تسبب في بدء اختفاء {PAWN_nameDef}. سيختفي {PAWN_pronoun} بالكامل قريبًا.</ObeliskAbductedDisappearingLetter>
+  
+  <!-- EN: {PAWN_nameDef} reappeared -->
+  <ObeliskAbductedLetterLabel>عاد {PAWN_nameDef} للظهور</ObeliskAbductedLetterLabel>
+  <!-- EN: {PAWN_nameDef} has been teleported to a strange room. The walls are an unidentifiable gray material and the air is dead still. {PAWN_pronoun} doesn't know where {PAWN_pronoun} is - or how to get home.\n\nA nearby door is jammed but looks like it can be forced open with some effort. Right-click jammed doors to open them.\n\nBy studying the obelisk, other colonists may be able to understand what happened to {PAWN_nameDef} and find a way to help {PAWN_objective}. Alternatively, attacking the obelisk may provoke it to abduct more colonists. -->
+  <ObeliskAbductedLetter>تم نقل {PAWN_nameDef} آنيًا إلى غرفة غريبة. الجدران مادة رمادية غير معروفة والهواء ساكن تمامًا. لا يعرف {PAWN_pronoun} أين هو أو كيف يعود إلى المنزل.\n\nباب قريب محشور لكن يبدو أنه يمكن فتحه بالقوة ببعض الجهد. انقر بزر الماوس الأيمن على الأبواب المحشورة لفتحها.\n\nبدراسة المسلة، قد يتمكن المستعمرون الآخرون من فهم ما حدث لـ {PAWN_nameDef} وإيجاد طريقة لمساعد {PAWN_objective}. بدلاً من ذلك، قد يؤدي مهاجمة المسلة إلى استفزازها لاختطاف المزيد من المستعمرين.</ObeliskAbductedLetter>
+
+  <!-- EN: {PAWN_nameIndef} has mutated into a fleshbeast. -->
+  <MutatorObeliskMutated>تحول {PAWN_nameIndef} إلى وحش لحمي.</MutatorObeliskMutated>
+  <!-- EN: A fleshbeast has emerged from the ground. -->
+  <MutatorObeliskSpawned>انبثق وحش لحمي من الأرض.</MutatorObeliskSpawned>
+
+  <!-- EN: Fully activate the warped obelisk. -->
+  <ObeliskActivateDesc>تفعيل المسلة الملتوية بالكامل.</ObeliskActivateDesc>
+  <!-- EN: Warning: The warped obelisk is unstable. Fully activating it will provoke a dangerous response and will cause the obelisk to self-destruct. -->
+  <ObeliskActivateDescWarning>تحذير: المسلة الملتوية غير مستقرة. تفعيلها بالكامل سيؤدي إلى استجابة خطيرة وسيتسبب في تدمير المسلة ذاتيًا.</ObeliskActivateDescWarning>
+
+  <!-- EN: Requires {0} shards to disable -->
+  <ObeliskDeactivateMissingShards>يتطلب {0} شظايا للتعطيل</ObeliskDeactivateMissingShards>
+  
+  <!-- Activity / Supression -->
+  <!-- EN: Activity level -->
+  <ActivityLevel>مستوى النشاط</ActivityLevel>
+  <!-- EN: Psychic suppression -->
+  <IsPsychicallySuppressed>قمع نفسي</IsPsychicallySuppressed>
+  <!-- EN: Increase rate -->
+  <ActivityIncrease>معدل الزيادة</ActivityIncrease>
+  <!-- EN: Not in sealed room -->
+  <NotInSealedRoom>ليس في غرفة محكمة</NotInSealedRoom>
+  <!-- EN: Energy harvesting -->
+  <EnergyHarvesting>حصاد طاقة</EnergyHarvesting>
+  <!-- EN: Unstable -->
+  <Unstable>غير مستقر</Unstable>
+  <!-- EN: Base level -->
+  <BaseLevel>المستوى الأساسي</BaseLevel>
+  <!-- EN: Is active -->
+  <IsActive>نشط</IsActive>
+  <!-- EN: resist -->
+  <Resisted>مقاومة</Resisted>
+  <!-- EN: Damaged -->
+  <HealthFactor>تالف</HealthFactor>
+
+  <!-- EN: {PAWN_labelShort} was sent. -->
+  <CommandSent>تم إرسال {PAWN_labelShort}.</CommandSent>
+  <!-- EN: Cannot activate entity -->
+  <CannotActivateEntity>لا يمكن تفعيل الكيان</CannotActivateEntity>
+  <!-- EN: Entity must be on platform -->
+  <CannotActivateEntityPlatform>يجب أن يكون الكيان على المنصة</CannotActivateEntityPlatform>
+  
+  <!-- EN: Activity -->
+  <ActivityGizmo>نشاط</ActivityGizmo>
+  <!-- EN: Automatic suppression -->
+  <ActivitySuppressionTooltipTitle>قمع تلقائي</ActivitySuppressionTooltipTitle>
+  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
+  <ActivitySuppressionTooltipDisabled>القمع التلقائي معطل حاليًا. قم بتفعيله ليقوم الحراس بقمع {0}.</ActivitySuppressionTooltipDisabled>
+  <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
+  <ActivitySuppressionTooltipDesc>يرتفع مستوى نشاط {0} بمرور الوقت. يرتفع النشاط بشكل أسرع إذا تضرر {0} أو تم استفزازه.\n\nإذا وصل مستوى النشاط إلى 100%، سيتفعل {0}.\n\nيمكن للحراس قمع {0} للحفاظ على نشاطه عند مستوى آمن. سيقومون بقمعه في أي وقت يكون نشاطه أعلى من المستوى المحدد: {LEVEL}\n\nالكيانات التي لديها مستويات نشاط أعلى ستعطي معرفة أكثر عند دراستها.</ActivitySuppressionTooltipDesc>
+  <!-- EN: This determines whether the {0} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
+  <ActivitySuppressionToggleTooltipDesc>هذا يحدد ما إذا كان سيتم قمع {0} تلقائيًا عندما يكون نشاطه أعلى من {LEVEL}.\n\nالقمع التلقائي حاليًا {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
+
+  <!-- Activity Descs -->
+  <!-- EN: activity level -->
+  <ActivityLevelDesc>مستوى النشاط</ActivityLevelDesc>
+  <!-- EN: psychic suppression -->
+  <PsychicallySuppressedDesc>قمع نفسي</PsychicallySuppressedDesc>
+
+  <!-- Entity study -->
+  <!-- EN: Capture -->
+  <CaptureEntity>أسر</CaptureEntity>
+  <!-- EN: Capture {0_definite}. It must be restrained on a holding platform. Once restrained, it can be studied. -->
+  <CaptureEntityDesc>أسر {0_definite}. يجب تقييده على منصة احتجاز. بمجرد تقييده، يمكن دراسته.</CaptureEntityDesc>
+  <!-- EN: Cancel capture -->
+  <CancelCapture>إلغاء الأسر</CancelCapture>
+  <!-- EN: Cancel capturing {0_definite}. -->
+  <CancelCaptureDesc>إلغاء أسر {0_definite}.</CancelCaptureDesc>
+  <!-- EN: ready to study -->
+  <ReadyToStudy>جاهز للدراسة</ReadyToStudy>
+  <!-- EN: No active anomaly research project selected for {0} knowledge category. -->
+  <NoActiveResearchProject>لا يوجد مشروع بحث شذوذ نشط محدد لفئة معرفة {0}.</NoActiveResearchProject>
+  <!-- EN: Capturable -->
+  <Capturable>قابل للأسر</Capturable>
+  <!-- EN: Must be captured in a holding platform. -->
+  <RequiresHoldingPlatform>يجب أسره في منصة احتجاز.</RequiresHoldingPlatform>
+  <!-- EN: Choose a location for the nociosphere to teleport to. -->
+  <ChooseNociosphereDest>اختر موقعًا لينتقل إليه النوسيوسفير آنيًا.</ChooseNociosphereDest>
+  <!-- EN: Transfer {0_definite} -->
+  <TransferEntity>نقل {0_definite}</TransferEntity>
+  <!-- EN: Transfer the contained entity to another holding platform. -->
+  <TransferEntityDesc>نقل الكيان المحتوى إلى منصة احتجاز أخرى.</TransferEntityDesc>
+  <!-- EN: Cancel transfer -->
+  <CancelTransfer>إلغاء النقل</CancelTransfer>
+  <!-- EN: Cancel transferring this entity to another holding platform. -->
+  <CancelTransferDesc>إلغاء نقل هذا الكيان إلى منصة احتجاز أخرى.</CancelTransferDesc>
+  
+  <!-- Metalhorrors -->
+  <!-- EN: Emerged from -->
+  <EmergedFrom>انبثق من</EmergedFrom>
+  <!-- EN: Metalhorror emerging -->
+  <Emerging>رعب المعدن ينبثق</Emerging>
+  
+  <!-- EN: Implanted before arrival at your colony -->
+  <ImplantSourceUnknown>تم زرعه قبل الوصول إلى مستعمرتك</ImplantSourceUnknown>
+  <!-- EN: Implanter insectoid -->
+  <InsectImplant>حشرة زارعة</InsectImplant>
+  <!-- EN: Implanted during sleep by {SOURCE_nameDef} -->
+  <SleepImplant>تم زرعه أثناء النوم بواسطة {SOURCE_nameDef}</SleepImplant>
+  <!-- EN: Implanted during surgery by {SOURCE_nameDef} -->
+  <SurgeryImplant>تم زرعه أثناء الجراحة بواسطة {SOURCE_nameDef}</SurgeryImplant>
+  <!-- EN: Implanted through a meal cooked by {SOURCE_nameDef} -->
+  <FoodImplant>تم زرعه عبر وجبة طهيها {SOURCE_nameDef}</FoodImplant>
+  <!-- EN: Implanted during unnatural healing by {SOURCE_nameDef} -->
+  <UnnaturalHealingImplant>تم زرعه أثناء الشفاء غير الطبيعي بواسطة {SOURCE_nameDef}</UnnaturalHealingImplant>
+  <!-- EN: Implanted when fed a meal by {SOURCE_nameDef} -->
+  <FeedingImplant>تم زرعه عند إطعامه وجبة بواسطة {SOURCE_nameDef}</FeedingImplant>
+
+  <!-- EN: Metalhorror emerging -->
+  <MetalhorrorEmergingLabel>رعب المعدن ينبثق</MetalhorrorEmergingLabel>
+  <!-- EN: A metalhorror is emerging! Slicing through flesh and skin, this nightmarish bladed creature is cutting its way out of its host. The metalhorror is emerging from: -->
+  <MetalhorrorEmergingDesc>رعب المعدن ينبثق! يشق طريقه من خلال اللحم والجلد، هذا المخلوق الكابوسي ذو الشفرات يقطع طريقه للخروج من مضيفه. رعب المعدن ينبثق من:</MetalhorrorEmergingDesc>
+  <!-- EN: Metalhorrors are emerging! Slicing through flesh and skin, these nightmarish bladed creatures are cutting their way out of their hosts. Metalhorrors are emerging from: -->
+  <MetalhorrorEmergingPluralDesc>وحوش رعب المعدن تنبثق! تشق طريقها من خلال اللحم والجلد، هذه المخلوقات الكابوسية ذات الشفرات تقطع طريقها للخروج من مضيفيها. وحوش رعب المعدن تنبثق من:</MetalhorrorEmergingPluralDesc>
+  <!-- EN: These horrifying metallic parasites live inside the victim, taking control of higher reasoning via a network of hair-thin metallic filaments that they spread throughout the body and brain. They control the victim's mind and compel them to infect others with new metalhorrors. -->
+  <MetalhorrorEmergingDescAppended>تعيش هذه الطفيليات المعدنية المرعبة داخل الضحية، مسيطرة على المنطق الأعلى عبر شبكة من خيوط معدنية رقيقة كالشعر تنشرها في جميع أنحاء الجسم والدماغ. تتحكم في عقل الضحية وتجبرها على إصابة الآخرين بوحوش رعب معدنية جديدة.</MetalhorrorEmergingDescAppended>
+  
+  <!-- EN: These doctors were infested and controlled by metalhorrors, so they lied about the results of a surgical inspection -->
+  <MetalhorrorSurgicalInspectionDetails>كان هؤلاء الأطباء مصابين ومسيطر عليهم بواسطة وحوش رعب المعدن، لذا كذبوا بشأن نتائج الفحص الجراحي</MetalhorrorSurgicalInspectionDetails>
+  
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during a social interaction. -->
+  <MetalhorrorReasonInteraction>انبثق رعب المعدن الخاص بـ {INFECTED_nameDef} لأنه تم اكتشافه بواسطة {PAWN_nameDef} أثناء تفاعل اجتماعي.</MetalhorrorReasonInteraction>
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during an interrogation. -->
+  <MetalhorrorReasonInterrogation>انبثق رعب المعدن الخاص بـ {INFECTED_nameDef} لأنه تم اكتشافه بواسطة {PAWN_nameDef} أثناء استجواب.</MetalhorrorReasonInterrogation>
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because {INFECTED_nameDef} died. -->
+  <MetalhorrorReasonHostDied>انبثق رعب المعدن الخاص بـ {INFECTED_nameDef} لأن {INFECTED_nameDef} مات.</MetalhorrorReasonHostDied>
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was detected by {PAWN_nameDef} during a surgical inspection. -->
+  <MetalhorrorReasonSurgeryInspected>انبثق رعب المعدن الخاص بـ {INFECTED_nameDef} لأنه تم اكتشافه بواسطة {PAWN_nameDef} أثناء فحص جراحي.</MetalhorrorReasonSurgeryInspected>
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged for unknown reasons. -->
+  <MetalhorrorReasonRandom>انبثق رعب المعدن الخاص بـ {INFECTED_nameDef} لأسباب غير معروفة.</MetalhorrorReasonRandom>
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged upon sensing it was being taken away from the colony. -->
+  <MetalhorrorReasonTriedToLeaveMap>انبثق رعب المعدن الخاص بـ {INFECTED_nameDef} عند استشعاره أنه يتم إبعاده عن المستعمرة.</MetalhorrorReasonTriedToLeaveMap>
+  
+  <!-- EN: Metalhorror detected -->
+  <MetalhorrorDetected>تم اكتشاف رعب المعدن</MetalhorrorDetected>
+  <!-- EN: {PAWN_nameDef} noticed something wrong with {INFECTED_nameDef} while chatting. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
+  <InteractionDetectedDesc>لاحظ {PAWN_nameDef} شيئًا غريبًا في {INFECTED_nameDef} أثناء الدردشة. أظهر {INFECTED_nameDef} مزيجًا من السلوك غير الطبيعي، أو أصواتًا غريبة، أو ديدانًا معدنية بالكاد مرئية في العينين. يشتبه {PAWN_nameDef} في أن {INFECTED_nameDef} مصاب برعب المعدن.</InteractionDetectedDesc>
+  <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
+  <InterrogationDetectedDesc>وجد {PAWN_nameDef} شيئًا غير عادي أثناء استجواب {INFECTED_nameDef}. أظهر {INFECTED_nameDef} مزيجًا من السلوك غير الطبيعي، أو أصواتًا غريبة، أو ديدانًا معدنية بالكاد مرئية في العينين. يشتبه {PAWN_nameDef} في أن {INFECTED_nameDef} مصاب برعب المعدن.</InterrogationDetectedDesc>
+  
+  <!-- EN: Metalhorrors are parasites that control the host and use them to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
+  <MetalhorrorNoticedDetailsAppended>وحوش رعب المعدن هي طفيليات تتحكم في المضيف وتستخدمه لإصابة الآخرين.\n\nتنمو وحوش رعب المعدن بشكل أقوى داخل المضيف مع مرور الوقت. سيشق رعب المعدن طريقه للخروج من جسد المضيف إذا عرف أنه تم اكتشافه. العملية مرعبة، لكن المضيف غالبًا ما ينجو.\n\nالطريقة الوحيدة لتأكيد إصابة شخص برعب المعدن هي دراسة فضلات رعب المعدن اللحمية لتحديد بصمته الحيوية، ثم استخدام عملية الفحص الجراحي مع طبيب موثوق.\n\nبمجرد اكتشافه، يمكنك استخدام عملية الفحص الجراحي لجعل رعب المعدن ينبثق من مضيفه. كن مستعدًا للقتال.</MetalhorrorNoticedDetailsAppended>
+  
+  <!-- EN: Gray flesh -->
+  <LetterGrayFleshDiscoveredLabel>لحم رمادي</LetterGrayFleshDiscoveredLabel>
+  <!-- EN: {PAWN_nameDef} has discovered a strip of fleshy tissue. It resembles human skin stained gray by tiny metallic particles. It must have sloughed off someone during flesh liquification.\n\nSomeone here may not be what they seem.\n\nThere are several ways to detect imposters:\n\n{METHODS}\n\nWarning: Some parasites can control the mind and even be transmitted to others. -->
+  <LetterGrayFleshDiscovered>اكتشف {PAWN_nameDef} شريطًا من نسيج لحمي. إنه يشبه جلد الإنسان الملطخ بالرمادي بسبب جزيئات معدنية صغيرة. لا بد أنه انسلخ عن شخص ما أثناء تسييل اللحم.\n\nقد لا يكون أحدهم هنا كما يبدو.\n\nهناك عدة طرق لاكتشاف المنتحلين:\n\n{METHODS}\n\nتحذير: يمكن لبعض الطفيليات التحكم في العقل وحتى الانتقال إلى الآخرين.</LetterGrayFleshDiscovered>
+  
+  <!-- EN: The “interrogate” prisoner interaction mode is now unlocked. -->
+  <LetterInterrogationUnlocked>تم إلغاء قفل وضع تفاعل "استجواب" السجناء.</LetterInterrogationUnlocked>
+  
+  <!-- EN: Imprison someone and send a warden to interrogate them about their true identity. This can take many days. -->
+  <LetterGrayFleshMethodOne>سجن شخص ما وأرسل سجانًا لاستجوابه حول هويته الحقيقية. قد يستغرق هذا عدة أيام.</LetterGrayFleshMethodOne>
+  <!-- EN: Collect more gray flesh and analyze it to determine the biosignature of the threat. Then, use the surgical inspection operation to search for that biosignature. It could take a long time to collect enough samples, and the surgery is invasive. -->
+  <LetterGrayFleshMethodTwo>اجمع المزيد من اللحم الرمادي وحلله لتحديد البصمة الحيوية للتهديد. ثم استخدم عملية الفحص الجراحي للبحث عن تلك البصمة الحيوية. قد يستغرق جمع عينات كافية وقتًا طويلاً، والجراحة غازية.</LetterGrayFleshMethodTwo>
+  <!-- EN: Execute or banish whoever you suspect. -->
+  <LetterGrayFleshMethodThree>أعدم أو انفِ كل من تشك به.</LetterGrayFleshMethodThree>
+  
+  <!-- EN: Metalhorrors awakening -->
+  <LetterMetalhorrorReawakeningLabel>استيقاظ وحوش رعب المعدن</LetterMetalhorrorReawakeningLabel>
+  <!-- EN: The metalhorrors have been disturbed and are awakening again! -->
+  <LetterMetalhorrorReawakening>تم إزعاج وحوش رعب المعدن وهي تستيقظ مجددًا!</LetterMetalhorrorReawakening>
+
+  <!-- EN: The metalhorrors are beginning to hibernate. They will awaken again if disturbed. -->
+  <MessageMetalHorrorDormant>بدأت وحوش رعب المعدن في السبات. ستستيقظ مجددًا إذا تم إزعاجها.</MessageMetalHorrorDormant>
+  
+  <!-- EN: Hibernating. Will awaken if disturbed. -->
+  <MetalhorrorDormant>في سبات. ستستيقظ إذا أزعجت.</MetalhorrorDormant>
+  
+  <!-- Surgical inspection -->
+  <!-- EN: Surgical inspection results -->
+  <LetterSurgicallyInspectedLabel>نتائج الفحص الجراحي</LetterSurgicallyInspectedLabel>
+  <!-- EN: {DOCTOR_nameDef} performed an extensive surgical inspection of {PATIENT_nameDef}. -->
+  <LetterSurgicallyInspectedHeader>أجرى {DOCTOR_nameDef} فحصًا جراحيًا شاملًا لـ {PATIENT_nameDef}.</LetterSurgicallyInspectedHeader>
+  <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
+  <LetterSurgicallyInspectedNothing>يقول {DOCTOR_pronoun} إن {DOCTOR_pronoun} لم يجد أي شذوذ. ومع ذلك، قد يكذب الطبيب إذا كان ذلك في مصلحته الشخصية.</LetterSurgicallyInspectedNothing>
+  
+  <!-- Death refusal -->
+  <!-- EN: use -->
+  <DeathRefusalUseSingular>استخدام</DeathRefusalUseSingular>
+  <!-- EN: uses -->
+  <DeathRefusalUsePlural>استخدامات</DeathRefusalUsePlural>
+  <!-- EN: Self-resurrecting -->
+  <SelfResurrecting>قيامة ذاتية</SelfResurrecting>
+
+  <!-- Harbinger Tree -->
+  <!-- EN: near harbinger tree -->
+  <HarbingerTreeConsumption>بالقرب من شجرة النذير</HarbingerTreeConsumption>
+  <!-- EN: A new harbinger tree has sprouted. -->
+  <HarbingerTreeSprouted>نبتت شجرة نذير جديدة.</HarbingerTreeSprouted>
+  <!-- EN: Consuming flesh. -->
+  <HarbingerTreeConsuming>تلتهم اللحم.</HarbingerTreeConsuming>
+  <!-- EN: Will consume corpses and meat placed nearby. -->
+  <HarbingerTreeNotConsuming>ستلتهم الجثث واللحم الموضوع بالقرب.</HarbingerTreeNotConsuming>
+  <!-- EN: Being consumed by harbinger tree. -->
+  <ConsumedByHarbingerTree>يتم التهامه بواسطة شجرة النذير.</ConsumedByHarbingerTree>
+  <!-- EN: flesh consumption -->
+  <FleshConsumption>التهام اللحم</FleshConsumption>
+  <!-- EN: Create corpse stockpile -->
+  <CreateCorpseStockpile>إنشاء مخزن جثث</CreateCorpseStockpile>
+  <!-- EN: Create a dumping stockpile zone around the harbinger tree for corpses.\n\nHarbinger trees will consume nearby corpses and raw meat. If well fed, the trees will grow faster and create new harbinger trees. -->
+  <CreateCorpseStockpileDesc>أنشئ منطقة تخزين إلقاء حول شجرة النذير للجثث.\n\nستلتهم أشجار النذير الجثث القريبة واللحم النيء. إذا تم تغذيتها جيدًا، ستنمو الأشجار بشكل أسرع وتنشئ أشجار نذير جديدة.</CreateCorpseStockpileDesc>
+
+  <!-- EN: Void node has been disabled. -->
+  <VoidNodeDisabled>تم تعطيل عقدة الفراغ.</VoidNodeDisabled>
+
+  <!-- Creepjoiners -->
+  <!-- EN: {PAWN_pronoun} wants to talk. You can send a colonist to hear what {PAWN_pronoun} has to say. -->
+  <LetterCreeperAppearedAppended>يريد {PAWN_pronoun} التحدث. يمكنك إرسال مستعمر ليسمع ما سيقوله {PAWN_pronoun}.</LetterCreeperAppearedAppended>
+  <!-- EN: {PAWN_nameDef} wants to join -->
+  <LetterCreeperInviteJoins>يريد {PAWN_nameDef} الانضمام</LetterCreeperInviteJoins>
+  <!-- EN: {PAWN_pronoun} may be very useful, but you also sense there is something {PAWN_nameDef} is not telling you. -->
+  <LetterCreeperInviteAppend>قد يكون {PAWN_pronoun} مفيدًا جدًا، لكنك تشعر أيضًا أن هناك شيئًا لا يخبرك به {PAWN_nameDef}.</LetterCreeperInviteAppend>
+  
+  <!-- EN: Allow {PAWN_nameDef} to join -->
+  <AcceptCreeper>السماح لـ {PAWN_nameDef} بالانضمام</AcceptCreeper>
+  <!-- EN: Send {SPEAKER_nameDef} to capture {PAWN_nameDef} -->
+  <CaptureCreeper>إرسال {SPEAKER_nameDef} لأسر {PAWN_nameDef}</CaptureCreeper>
+  <!-- EN: Send {PAWN_nameDef} away -->
+  <RejectCreeper>إرسال {PAWN_nameDef} بعيدًا</RejectCreeper>
+  
+  <!-- Unnatural healing ability -->
+  <!-- EN: Unnatural healing -->
+  <LetterUnnaturalHealingLabel>شفاء غير طبيعي</LetterUnnaturalHealingLabel>
+  <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
+  <LetterUnnaturalHealing>أنهى {CASTER_nameDef} شفاء{CASTER_possessive} النفسي على {PAWN_nameDef}.</LetterUnnaturalHealing>
+  <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
+  <LetterUnnaturalHealingTentacle>ومع ذلك، حدث خطأ فادح.\n\nانشق ذراع {PAWN_nameDef} حيث انبثق نمو عنيف من جسـ{PAWN_possessive}. تم استبدال ذراعـ{PAWN_possessive} بهلابة لحمية!</LetterUnnaturalHealingTentacle>
+  
+  <!-- Transmutation ability -->
+  <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
+  <MessageTransmutedItem>قام {PAWN_nameDef} بتحويل {ORIGINAL} إلى {TRANSMUTED}.</MessageTransmutedItem>
+  <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelShortIndef}. -->
+  <MessageTransmutedStuff>قام {PAWN_nameDef} بتحويل {1} إلى {TRANSMUTED_labelShortIndef}.</MessageTransmutedStuff>
+  <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelPluralIndef}. -->
+  <MessageTransmutedStuffPlural>قام {PAWN_nameDef} بتحويل {1} إلى {TRANSMUTED_labelPluralIndef}.</MessageTransmutedStuffPlural>
+  
+  <!-- Electroharvester -->
+  <!-- EN: No restrained entity. -->
+  <ElectroharvesterNoEntity>لا يوجد كيان مقيد.</ElectroharvesterNoEntity>
+  <!-- EN: Not connected to a holding platform. -->
+  <ElectroharvesterNoPlatform>غير متصل بمنصة الاحتجاز.</ElectroharvesterNoPlatform>
+  
+  <!-- Fleshmass Heart -->
+  <!-- EN: Invulnerable. Analyze fleshmass neural lumps to destroy this. -->
+  <FleshmassHeartInvulnerable>مُحصّن. حلل الكتل العصبية للكتلة اللحمية لتدمير هذا.</FleshmassHeartInvulnerable>
+  <!-- EN: Growing fleshmass. -->
+  <FleshmassHeartGrowing>كتلة لحمية تنمو.</FleshmassHeartGrowing>
+  <!-- EN: Collecting biomass for next growth spurt... -->
+  <FleshmassHeartCollecting>تجميع الكتلة الحيوية لنمو التالي...</FleshmassHeartCollecting>
+  <!-- EN: The fleshmass heart is convulsing! -->
+  <MessageHeartAttack>قلب الكتلة اللحمية يتشنج!</MessageHeartAttack>
+  <!-- EN: Fleshmass heart defeated -->
+  <LetterLabelFleshmassHeartDestroyed>هزم قلب الكتلة اللحمية</LetterLabelFleshmassHeartDestroyed>
+  <!-- EN: The fleshmass heart has been destroyed, leaving behind a broken but still functional core - a twisted amalgam of flesh and archotechnology. The nucleus continues to grow and mutate flesh, even while the surrounding fleshmass decays.\n\nYou can capture the nucleus to study it further or destroy it to end this nightmare. If left alone, it may reform into a new fleshmass heart. -->
+  <LetterFleshmassHeartDestroyed>تم تدمير قلب الكتلة اللحمية، تاركًا وراءه نواة مكسورة ولكنها لا تزال تعمل - مزيجًا ملتويًا من اللحم والأركوتكنولوجيا. تستمر النواة في نمو وتحويل اللحم، حتى بينما تتحلل الكتلة اللحمية المحيطة.\n\nيمكنك أسر النواة لدراستها أكثر أو تدميرها لإنهاء هذا الكابوس. إذا تُركت وشأنها، قد تعيد تشكيل نفسها إلى قلب كتلة لحمية جديد.</LetterFleshmassHeartDestroyed>
+  <!-- EN: The fleshmass heart has grown a new nerve bundle. -->
+  <NerveBundleGrewMessage>أنبت قلب الكتلة اللحمية حزمة عصبية جديدة.</NerveBundleGrewMessage>
+  <!-- EN: The nerve bundle has dropped a neural lump. Analyze it to learn more about the fleshmass heart. -->
+  <NeuralLumpDroppedMessage>أسقطت الحزمة العصبية كتلة عصبية. حللها لتعرف المزيد عن قلب الكتلة اللحمية.</NeuralLumpDroppedMessage>
+  <!-- EN: Must collect and analyze fleshmass neural lumps. Lumps analyzed -->
+  <DestroyHeartDisabled>يجب جمع وتحليل الكتل العصبية للكتلة اللحمية. الكتل المحللة</DestroyHeartDisabled>
+  <!-- EN: A fleshmass spitter is attacking! -->
+  <SpitterAttacking>بصّاق الكتلة اللحمية يهاجم!</SpitterAttacking>
+  <!-- EN: Gathering acid. Ready in -->
+  <SpitterGatheringSpit>تجميع الحمض. جاهز خلال</SpitterGatheringSpit>
+  <!-- EN: Ready to spit acid. -->
+  <SpitterReadyToSpit>جاهز لبصق الحمض.</SpitterReadyToSpit>
+
+  <!-- EN: Active fleshmass. May birth fleshbeasts if destroyed. -->
+  <ActiveFleshmassInspect>كتلة لحمية نشطة. قد تلد وحوشًا لحمية إذا دمرت.</ActiveFleshmassInspect>
+
+  <!-- Misc -->
+  <!-- EN: Flesh tentacle attack -->
+  <LetterLabelFleshTentacleAttack>هجوم الهلابة اللحمية</LetterLabelFleshTentacleAttack>
+  <!-- EN: {PAWN_nameDef}'s operation was successful. However, the twisting mass of flesh that was {PAWN_possessive} tentacle has begun to attack! -->
+  <LetterFleshTentacleAttack>كانت عملية {PAWN_nameDef} ناجحة. ومع ذلك، بدأت كتلة اللحم المتلوية التي كانت ذراعـ{PAWN_possessive} في الهجوم!</LetterFleshTentacleAttack>
+  <!-- EN: Biosignature -->
+  <Biosignature>البصمة الحيوية</Biosignature>
+  <!-- EN: Bliss lobotomy -->
+  <BlissLobotomy>بضع الفص الجبهي للنعيم</BlissLobotomy>
+  <!-- EN: hp -->
+  <HP>نقاط حياة</HP>
+  <!-- EN: analyzed -->
+  <Analyzed>محلل</Analyzed>
+  <!-- EN: Highest skill -->
+  <HighestSkill>أعلى مهارة</HighestSkill>
+  
+  <!-- EN: {0} dropped a shard of dark archotechnology. You can collect and make use of it. -->
+  <MessageShardDropped>أسقط {0} شظية من أركوتكنولوجيا مظلمة. يمكنك جمعها والاستفادة منها.</MessageShardDropped>
+  
+  <!-- Blood rain -->
+  <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
+  <Berserk_BloodRain>مطر الدم دفع {0_nameIndef} إلى نوبة هياج!</Berserk_BloodRain>
+  <!-- EN: The blood rain has driven {0_nameIndef} into a manhunting rage! -->
+  <Manhunter_BloodRain>مطر الدم دفع {0_nameIndef} إلى نوبة صيد البشر!</Manhunter_BloodRain>
+  <!-- EN: This happened because of blood rage buildup. -->
+  <MentalBreakReason_BloodRage>حدث هذا بسبب تراكم غضب الدم.</MentalBreakReason_BloodRage>
+  
+  <!-- Unnatural corpses -->
+  <!-- EN: Corpse disappearance -->
+  <LetterLabelCorpseDisappeared>اختفاء الجثة</LetterLabelCorpseDisappeared>
+  <!-- EN: The unnatural corpse has vanished. -->
+  <LetterCorpseDisappeared>اختفت الجثة غير الطبيعية.</LetterCorpseDisappeared>
+  <!-- EN: {PAWN_nameDef} is starting to feel calmer. -->
+  <LetterCorpseDisappearedPawnAliveAppend>بدأ {PAWN_nameDef} يشعر بالهدوء.</LetterCorpseDisappearedPawnAliveAppend>
+
+  <!-- EN: Corpse appearance -->
+  <LetterLabelCorpseReappeared>ظهور الجثة</LetterLabelCorpseReappeared>
+  <!-- EN: The corpse resembling {PAWN_nameDef} has appeared again, as if out of thin air. -->
+  <LetterCorpseReappeared>ظهرت الجثة المشابهة لـ {PAWN_nameDef} مرة أخرى، وكأنها من العدم.</LetterCorpseReappeared>
+  
+  <!-- EN: The corpse resembling {PAWN_nameDef} has somehow gotten out of its {CONTAINER_labelShort}. -->
+  <MessageCorpseEscaped>الجثة المشابهة لـ {PAWN_nameDef} تمكنت بطريقة ما من الخروج من {CONTAINER_labelShort} الخاص بها.</MessageCorpseEscaped>
+  <!-- EN: Failed to resurrect {PAWN_nameDef}. It simply does not respond. -->
+  <MessageUnnaturalCorpseResurrect>فشل في إحياء {PAWN_nameDef}. إنه ببساطة لا يستجيب.</MessageUnnaturalCorpseResurrect>
+  <!-- EN: The unnatural corpse has caused {PAWN_nameDef} to faint. -->
+  <MessagePawnFainted>تسببت الجثة غير الطبيعية في إغماء {PAWN_nameDef}.</MessagePawnFainted>
+  <!-- EN: The unnatural corpse has appeared near {PAWN_nameDef} and is approaching! -->
+  <MessageAwokenReappeared>ظهرت الجثة غير الطبيعية بالقرب من {PAWN_nameDef} وهي تقترب!</MessageAwokenReappeared>
+  <!-- EN: The unnatural corpse has vanished. It will come for {PAWN_nameDef} later. -->
+  <MessageAwokenVanished>اختفت الجثة غير الطبيعية. ستأتي من أجل {PAWN_nameDef} لاحقًا.</MessageAwokenVanished>
+  <!-- EN: The awoken corpse is attacking {PAWN_nameDef}! -->
+  <MessageAwokenAttacking>الجثة المستيقظة تهاجم {PAWN_nameDef}!</MessageAwokenAttacking>
+  <!-- EN: The awoken corpse has destroyed {PAWN_nameDef}'s brain. -->
+  <MessageAwokenKilledVictim>دمرت الجثة المستيقظة دماغ {PAWN_nameDef}.</MessageAwokenKilledVictim>
+  <!-- EN: The awoken corpse has disappeared. -->
+  <MessageAwokenDisappeared>اختفت الجثة المستيقظة.</MessageAwokenDisappeared>
+
+  <!-- EN: This happened because of the presence of an unnatural corpse. -->
+  <MentalBreakReason_MysteriousCorpse>حدث هذا بسبب وجود جثة غير طبيعية.</MentalBreakReason_MysteriousCorpse>
+
+  <!-- EN: Unnatural corpse study progress -->
+  <UnnaturalCorpseStudyLetter>تقدم دراسة الجثة غير الطبيعية</UnnaturalCorpseStudyLetter>
+  <!-- EN: Your investigation of the unnatural corpse has revealed more about the body. An archotech shard at its core psychically links it with {VICTIM_nameDef}. It will rebuild itself if destroyed, and teleport any distance to be near {VICTIM_nameDef}. \n\n{RESEARCHER_nameDef} thinks that there may be a way to permanently destroy the corpse but will need to study it further.\n\nStudy the corpse more to learn how to destroy it. -->
+  <UnnaturalCorpseStudyLetterDesc>كشف تحقيقك في الجثة غير الطبيعية المزيد عن الجسد. شظية أركوتكنولوجية في قلبها تربطها نفسيًا بـ {VICTIM_nameDef}. ستعيد بناء نفسها إذا دمرت، وتنتقل آنيًا لأي مسافة لتكون بالقرب من {VICTIM_nameDef}. \n\nيعتقد {RESEARCHER_nameDef} أنه قد يكون هناك طريقة لتدمير الجثة بشكل دائم لكنه سيحتاج إلى دراستها أكثر.\n\nادرس الجثة أكثر لتعرف كيف تدمرها.</UnnaturalCorpseStudyLetterDesc>
+
+  <!-- EN: Unnatural corpse study complete -->
+  <UnnaturalCorpseStudyCompletedLetter>اكتملت دراسة الجثة غير الطبيعية</UnnaturalCorpseStudyCompletedLetter>
+  <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
+  <UnnaturalCorpseStudyCompletedLetterDesc>كشف تحقيقك في الجثة غير الطبيعية عن كيفية إزالة شظية الأركوتكنولوجيا بأمان. القيام بذلك سيوقفها عن تعذيب {VICTIM_nameDef} نفسيًا. ومع ذلك، سيمنع ذلك أيضًا المزيد من دراسة الجثة.</UnnaturalCorpseStudyCompletedLetterDesc>
+
+  <!-- EN: Corpse shard -->
+  <UnnaturalCorpseDeactivatedLetter>شظية الجثة</UnnaturalCorpseDeactivatedLetter>
+  <!-- EN: {PAWN_nameDef} extracted an archotech shard from the unnatural corpse, the corpse then began to violently bloat and exploded into gore. -->
+  <UnnaturalCorpseDeactivatedLetterDesc>استخرج {PAWN_nameDef} شظية أركوتكنولوجية من الجثة غير الطبيعية، ثم بدأت الجثة تنتفخ بعنف وانفجرت إلى أحشاء.</UnnaturalCorpseDeactivatedLetterDesc>
+  <!-- EN: {PAWN_nameDef} is feeling better already. -->
+  <UnnaturalCorpseDeactivatedLetterDescAppended>يشعر {PAWN_nameDef} بتحسن بالفعل.</UnnaturalCorpseDeactivatedLetterDescAppended>
+  
+  <!-- EN: Destroy unnatural corpse -->
+  <UnnaturalCorpseDeactivate>تدمير الجثة غير الطبيعية</UnnaturalCorpseDeactivate>
+  <!-- EN: Permanently destroy the unnatural corpse. -->
+  <UnnaturalCorpseDeactivateDesc>تدمير الجثة غير الطبيعية بشكل دائم.</UnnaturalCorpseDeactivateDesc>
+  <!-- EN: Choose who should destroy this. -->
+  <UnnaturalCorpseGuiLabel>اختر من يجب أن يدمر هذا.</UnnaturalCorpseGuiLabel>
+  <!-- EN: destroy -->
+  <UnnaturalCorpseJobString>تدمير</UnnaturalCorpseJobString>
+  <!-- EN: destroying {0} -->
+  <UnnaturalCorpseActivatingEnroute>يدمر {0}</UnnaturalCorpseActivatingEnroute>
+  <!-- EN: destroying {0}: {1}s -->
+  <UnnaturalCorpseActivating>يدمر {0}: {1} ثانية</UnnaturalCorpseActivating>
+  
+  <!-- EN: Unnatural corpse -->
+  <UnnaturalCorpseAwakeningLetter>جثة غير طبيعية</UnnaturalCorpseAwakeningLetter>
+  <!-- EN: {PAWN_nameDef} feels the unnatural corpse growing rapidly stronger. Some horrible consciousness is flickering within it.\n\nSomething awful will happen in the next few days. -->
+  <UnnaturalCorpseAwakeningLetterDesc>يشعر {PAWN_nameDef} أن الجثة غير الطبيعية تزداد قوة بسرعة. هناك وعي فظيع يومض بداخلها.\n\nسيحدث شيء مروع في الأيام القليلة القادمة.</UnnaturalCorpseAwakeningLetterDesc>
+  <!-- EN: Destroy the corpse before it's too late. -->
+  <UnnaturalCorpseAwakeningLetterExtra_StudyComplete>دمر الجثة قبل فوات الأوان.</UnnaturalCorpseAwakeningLetterExtra_StudyComplete>
+  <!-- EN: Study the corpse to learn how to destroy it. -->
+  <UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>ادرس الجثة لتعرف كيف تدمرها.</UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>
+
+  <!-- EN: Corpse awakened -->
+  <UnnaturalCorpseAwokenLetter>استيقاظ الجثة</UnnaturalCorpseAwokenLetter>
+  <!-- EN: The unnatural corpse is rising! It intends to attack {PAWN_nameDef}!\n\nThe corpse will follow {PAWN_nameDef} forever no matter how far {PAWN_pronoun} goes.\n\nYou must destroy it now. -->
+  <UnnaturalCorpseAwokenLetterDesc>الجثة غير الطبيعية تنهض! إنها تنوي مهاجمة {PAWN_nameDef}!\n\nستتبع الجثة {PAWN_nameDef} إلى الأبد بغض النظر عن بعد {PAWN_pronoun}.\n\nيجب أن تدمرها الآن.</UnnaturalCorpseAwokenLetterDesc>
+
+  <!-- EN: Unnatural corpse destroyed! -->
+  <UnnaturalCorpseAwokenDefeatedLetter>دُمرت الجثة غير الطبيعية!</UnnaturalCorpseAwokenDefeatedLetter>
+  <!-- EN: The unnatural corpse charging towards {PAWN_nameDef} has been defeated!\n\nThe corpse will no longer torment {PAWN_nameDef}. -->
+  <UnnaturalCorpseAwokenDefeatedLetterDesc>تم هزيمة الجثة غير الطبيعية التي تندفع نحو {PAWN_nameDef}!\n\nلن تعذب الجثة {PAWN_nameDef} بعد الآن.</UnnaturalCorpseAwokenDefeatedLetterDesc>
+
+  <!-- Golden Cube -->
+  <!-- EN: {PAWN_labelShort}'s obsession with the golden cube has intensified. -->
+  <MessageGoldenCubeSeverityIncreased>اشتد هوس {PAWN_labelShort} بالمكعب الذهبي.</MessageGoldenCubeSeverityIncreased>
+  <!-- EN: {PAWN_labelShort} is experiencing cube withdrawal. -->
+  <MessageGoldenCubeWithdrawal>يعاني {PAWN_labelShort} من انسحاب المكعب.</MessageGoldenCubeWithdrawal>
+  <!-- EN: {PAWN_labelShort}'s cube withdrawal has worsened. -->
+  <MessageGoldenCubeWithdrawalIncreased>ازداد انسحاب المكعب عند {PAWN_labelShort} سوءًا.</MessageGoldenCubeWithdrawalIncreased>
+  <!-- EN: {PAWN_labelShort} has become intrigued by the golden cube. -->
+  <MessageGoldenCubeInterest>أصبح {PAWN_labelShort} مفتونًا بالمكعب الذهبي.</MessageGoldenCubeInterest>
+  <!-- EN: {PAWN_labelShort} is enraged that {PAWN_possessive} cube sculpture was removed. {PAWN_pronoun} might become violent. -->
+  <MessageGoldenCubeSculptureDestroyed>غضب {PAWN_labelShort} لأنه تمت إزالة منحوته المكعبي. قد يصبح عنيفًا.</MessageGoldenCubeSculptureDestroyed>
+
+  <!-- EN: {PAWN_labelShort} refuses to deactivate the golden cube. -->
+  <CannotDisableCube>يرفض {PAWN_labelShort} تعطيل المكعب الذهبي.</CannotDisableCube>
+  
+  <!-- EN: Cube coma: {PAWN_labelShort} -->
+  <LetterLabelGoldenCubeComa>غيبوبة المكعب: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
+  <!-- EN: {PAWN_labelShort}'s cube withdrawal has sent {PAWN_objective} into a coma. {PAWN_pronoun} will remain in a coma until the golden cube's psychic link has completely dissipated. -->
+  <LetterGoldenCubeComa>أدخل انسحاب المكعب {PAWN_labelShort} في غيبوبة. سيبقى {PAWN_objective} في غيبوبة حتى يتبدد الرابط النفسي للمكعب الذهبي تمامًا.</LetterGoldenCubeComa>
+
+  <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
+  <CubeDeactivationConfirmation>سيؤدي تعطيل المكعب الذهبي إلى دخول أي شخص مهتم بالمكعب في نوبة هياج عنيفة. أي أشخاص مهتمين بالمكعب في القوافل سيُفقدون بشكل دائم.</CubeDeactivationConfirmation>
+  <!-- EN: The following people will enter a berserk rage -->
+  <CubeDeactivationConfirmationPawnsBerserk>الأشخاص التاليون سيدخلون في نوبة هياج</CubeDeactivationConfirmationPawnsBerserk>
+  <!-- EN: The following people will run away and be lost -->
+  <CubeDeactivationConfirmationPawnsLost>الأشخاص التاليون سيهربون ويُفقدون</CubeDeactivationConfirmationPawnsLost>
+  <!-- EN: Are you sure you want to continue? -->
+  <CubeDeactivationConfirmationEnd>هل أنت متأكد أنك تريد المتابعة؟</CubeDeactivationConfirmationEnd>
+  <!-- EN: Cube deactivation -->
+  <CubeDeactivationBerserk>تعطيل المكعب</CubeDeactivationBerserk>
+  <!-- EN: {PAWN_labelShort} has successfully destroyed the golden cube. The psychic whiplash has driven colonists into a berserk rage! -->
+  <CubeDeactivationBerserkDesc>نجح {PAWN_labelShort} في تدمير المكعب الذهبي. الارتداد النفسي دفع المستعمرين إلى نوبة هياج!</CubeDeactivationBerserkDesc>
+  <!-- EN: These people have entered a temporary berserk rage -->
+  <CubeDeactivationBerserkPawns>هؤلاء الأشخاص دخلوا في نوبة هياج مؤقتة</CubeDeactivationBerserkPawns>
+  <!-- EN: These people in caravans have run away in a rage -->
+  <CubeDeactivationLostPawns>هؤلاء الأشخاص في القوافل هربوا في نوبة غضب</CubeDeactivationLostPawns>
+
+  <!-- EN: This happened because of {PAWN_possessive} obsession with the cube. -->
+  <MentalBreakReason_CubeSculpting>حدث هذا بسبب هوس {PAWN_possessive} بالمكعب.</MentalBreakReason_CubeSculpting>
+  
+  <!-- EN: dirt -->
+  <CubeMaterialDirt>تراب</CubeMaterialDirt>
+  <!-- EN: stone -->
+  <CubeMaterialStone>حجر</CubeMaterialStone>
+  <!-- EN: sand -->
+  <CubeMaterialSand>رمل</CubeMaterialSand>
+  <!-- EN: scrap -->
+  <CubeMaterialScrap>خردة</CubeMaterialScrap>
+  
+  <!-- EN: building a sculpture. -->
+  <ReportBuildingCubeEnroute>يبني منحوته.</ReportBuildingCubeEnroute>
+  
+  <!-- Slaughter ability -->
+  <!-- EN: Cannot slaughter: {PAWN_labelShort} does not have flesh. -->
+  <MessageSlaughterNoFlesh>لا يمكن الذبح: {PAWN_labelShort} ليس لديه لحم.</MessageSlaughterNoFlesh>
+  <!-- EN: Cannot slaughter: {PAWN_labelShort} is too large. -->
+  <MessageSlaughterTooBig>لا يمكن الذبح: {PAWN_labelShort} كبير جدًا.</MessageSlaughterTooBig>
+  
+  <!-- Labyrinth -->
+  <!-- EN: Entering the labyrinth -->
+  <GeneratingLabyrinth>دخول المتاهة</GeneratingLabyrinth>
+  <!-- EN: {PAWN_nameDef} has vanished. -->
+  <MessagePawnVanished>اختفى {PAWN_nameDef}.</MessagePawnVanished>
+  <!-- EN: {PAWN_nameDef} has reappeared. -->
+  <MessagePawnReappeared>ظهر {PAWN_nameDef} مجددًا.</MessagePawnReappeared>
+  
+  <!-- EN: Exit direction -->
+  <FloorEtchingsInspectorExit>اتجاه الخروج</FloorEtchingsInspectorExit>
+  
+  <!-- EN: Warped obelisk -->
+  <LetterLabelObeliskDiscovered>مسلة ملتوية</LetterLabelObeliskDiscovered>
+  <!-- EN: {PAWN_nameDef} has discovered a large obelisk. It looks nearly identical to the one that originally brought {PAWN_objective} here. Perhaps it can be activated to return {PAWN_objective} home.\n\nSelect {PAWN_nameDef} and right-click the obelisk to activate it. -->
+  <LetterObeliskDiscovered>اكتشف {PAWN_nameDef} مسلة كبيرة. تبدو مطابقة تقريبًا لتلك التي أحضرت {PAWN_objective} إلى هنا في الأصل. ربما يمكن تفعيلها لإعادة {PAWN_objective} إلى المنزل.\n\nاختر {PAWN_nameDef} وانقر بزر الماوس الأيمن على المسلة لتفعيلها.</LetterObeliskDiscovered>
+  
+  <!-- EN: Floor etchings -->
+  <LetterLabelFloorEtchings>نقوش أرضية</LetterLabelFloorEtchings>
+  <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings.\n\n{RAMBLINGS}\n\nThey seem to indicate that an exit is somewhere {DIRECTION} of here. -->
+  <LetterFloorEtchings>تمكن {PAWN_nameDef} من فك رموز النقوش الأرضية.\n\n{RAMBLINGS}\n\nيبدو أنها تشير إلى أن مخرجًا يقع في مكان ما {DIRECTION} من هنا.</LetterFloorEtchings>
+
+  <!-- EN: Floor etchings -->
+  <LetterLabelFloorEtchingRamblings>نقوش أرضية</LetterLabelFloorEtchingRamblings>
+  <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings. -->
+  <LetterFloorEtchingsRamblings>تمكن {PAWN_nameDef} من فك رموز النقوش الأرضية.</LetterFloorEtchingsRamblings>
+
+  <!-- EN: Colonists returned -->
+  <LetterLabelLabyrinthExit>عاد المستعمرون</LetterLabelLabyrinthExit>
+  <!-- EN: The whirring obelisk has returned your abducted colonists. Shortly after doing so, it vanished into thin air.\n\nBe careful, the obelisk may have returned other creatures as well. -->
+  <LetterLabyrinthExit>أعادت المسلة الطنانة مستعمريك المختطفين. بعد فترة وجيزة من ذلك، اختفت في الهواء.\n\nكن حذرًا، ربما أعادت المسلة مخلوقات أخرى أيضًا.</LetterLabyrinthExit>
+
+  <!-- EN: Jammed shut. Must be forced open. -->
+  <GrayDoorJammed>محشور الإغلاق. يجب فتحه بالقوة.</GrayDoorJammed>
+  <!-- EN: Activated by proximity. -->
+  <ActivatedByProximity>تفعيل بالقرب.</ActivatedByProximity>
+
+  <!-- Void monolith -->
+  <!-- EN: No available pawns. -->
+  <MonolithActivateDisabledPawns>لا توجد شخصيات متاحة.</MonolithActivateDisabledPawns>
+  <!-- EN: The monolith's dark metallic surface is warm to the touch, and {PAWN_nameDef} thinks {PAWN_pronoun} can hear a faint hum emanating from inside. The lines on its dusty surface seem to squirm in unsettling patterns.\n\n{PAWN_nameDef} focuses on the shapes, trying to uncover their meaning.\n\nThe hum strengthens. The shapes begin to flow in {PAWN_nameDef}'s vision, but the surface isn't changing. Power begins to uncoil in the empty space all around. A black shape is forming in {PAWN_possessive} mind.\n\nThe Anomaly is stirring... -->
+  <VoidMonolithInvestigatedText>سطح المونوليث المعدني الداكن دافئ عند اللمس، ويعتقد {PAWN_nameDef} أنه يسمع طنينًا خافتًا من الداخل. الخطوط على سطحه المغبر تبدو وكأنها تتلوى بأنماط مزعجة.\n\nيركز {PAWN_nameDef} على الأشكال، محاولًا كشف معناها.\n\nيقوى الطنين. تبدأ الأشكال بالتدفق في رؤية {PAWN_nameDef}، لكن السطح لا يتغير. تبدأ الطاقة بالانبثاق في الفضاء الفارغ المحيط. شكل أسود يتكون في ذهن {PAWN_possessive}.\n\nالشذوذ يتحرك...</VoidMonolithInvestigatedText>
+  <!-- EN: Keep focusing on the Anomaly -->
+  <VoidMonolithInvestigate>واصل التركيز على الشذوذ</VoidMonolithInvestigate>
+  <!-- EN: Walk away -->
+  <VoidMonolithWalkAway>ابتعد</VoidMonolithWalkAway>
+  <!-- EN: View quest -->
+  <VoidMonolithViewQuest>عرض المهمة</VoidMonolithViewQuest>
+  <!-- EN: View Anomaly research -->
+  <VoidMonolithViewResearch>عرض بحث الشذوذ</VoidMonolithViewResearch>
+  <!-- EN: Current monolith level -->
+  <CurrentMonolithLevel>مستوى المونوليث الحالي</CurrentMonolithLevel>
+  <!-- EN: Send a colonist to investigate this. -->
+  <VoidMonolithUndiscovered>أرسل مستعمرًا لاستقصاء هذا.</VoidMonolithUndiscovered>
+  <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
+  <VoidMonolithRequiredEntityCategory>لتطوير المونوليث إلى الخطوة التالية، تحتاج إلى اكتشاف {0} كيان من المستوى {1}.</VoidMonolithRequiredEntityCategory>
+  <!-- EN: Discovered: {0} -->
+  <DiscoveredCount>تم الاكتشاف: {0}</DiscoveredCount>
+  <!-- EN: Required entities discovered. -->
+  <VoidMonolithAllEntitiesDiscovered>تم اكتشاف الكيانات المطلوبة.</VoidMonolithAllEntitiesDiscovered>
+  <!-- EN: Required to increase level -->
+  <VoidMonolithRequiresDiscovery>مطلوب لزيادة المستوى</VoidMonolithRequiresDiscovery>
+  <!-- EN: Undiscovered entities -->
+  <VoidMonolithRequiresDiscoveryShort>كيانات غير مكتشفة</VoidMonolithRequiresDiscoveryShort>
+  <!-- EN: Must discover {0} more {1} monolith entities. -->
+  <VoidMonolithRequiresCategory>يجب اكتشاف {0} كيان {1} إضافي للمونوليث.</VoidMonolithRequiresCategory>
+  <!-- EN: Disturbing vision -->
+  <VoidMonolithVisionLabel>رؤية مزعجة</VoidMonolithVisionLabel>
+  <!-- EN: {PAWN_nameDef} has had a strange dream. In it, {PAWN_pronoun} saw a black shape, unfurling in space and time, growing and consuming. The shape originated from a nearby crumbled monolith.\n\nUpon waking from the vision, {PAWN_nameDef} feels strangely drawn to the monolith. It calls to {PAWN_objective}. -->
+  <VoidMonolithVisionText>رأى {PAWN_nameDef} حلمًا غريبًا. فيه، رأى {PAWN_pronoun} شكلًا أسود، ينفتح في المكان والزمان، ينمو ويلتهم. نشأ الشكل من مونوليث متهدم قريب.\n\nعند الاستيقاظ من الرؤيا، يشعر {PAWN_nameDef} بجاذبية غريبة نحو المونوليث. إنه ينادي {PAWN_objective}.</VoidMonolithVisionText>
+  <!-- EN: Choose who should do this -->
+  <VoidMonolithChooseActivator>اختر من يجب أن يفعل هذا</VoidMonolithChooseActivator>
+  <!-- EN: Target is downed -->
+  <VoidMonolithActivatorDowned>الهدف مطروح أرضًا</VoidMonolithActivatorDowned>
+  <!-- EN: Target in mental state -->
+  <VoidMonolithActivatorMentalState>الهدف في حالة نفسية</VoidMonolithActivatorMentalState>
+  <!-- EN: Target is busy -->
+  <VoidMonolithActivatorBusy>الهدف مشغول</VoidMonolithActivatorBusy>
+  <!-- EN: Target is incapable -->
+  <VoidMonolithActivatorIncapable>الهدف غير قادر</VoidMonolithActivatorIncapable>
+  <!-- EN: Monolith arrival -->
+  <MonolithArrivalLabel>وصول المونوليث</MonolithArrivalLabel>
+  <!-- EN: Interacting with the psychic signal has caused a strange structure to appear. -->
+  <MonolithArrivalText>التفاعل مع الإشارة النفسية تسبب في ظهور هيكل غريب.</MonolithArrivalText>
+  <!-- EN: It is very similar, if not identical, to the monolith you previously encountered. -->
+  <MonolithArrivalTextExt>إنه مشابه جدًا، إن لم يكن مطابقًا، للمونوليث الذي واجهته سابقًا.</MonolithArrivalTextExt>
+  <!-- EN: Can't {0} monolith -->
+  <CantActivateMonolith>لا يمكن {0} المونوليث</CantActivateMonolith>
+
+  <!-- EN: Monolith twisting -->
+  <MonolithTwistingAlert>التواء المونوليث</MonolithTwistingAlert>
+  <!-- EN: Your presence has caused the monolith to twist and morph. Soon the process will be complete. Be prepared for whatever comes next. -->
+  <MonolithTwistingExplanation>تسبب وجودك في التواء المونوليث وتحوله. قريبًا ستكتمل العملية. كن مستعدًا لكل ما سيأتي بعد.</MonolithTwistingExplanation>
+  <!-- EN: Fallen monolith -->
+  <MonolithAutoActivatingLabel>مونوليث ساقط</MonolithAutoActivatingLabel>
+  <!-- EN: A wave of dread passes over your colonists. The fallen monolith has begun to stir. Slowly, it begins to twist and rearrange itself, morphing into something new.\n\nWithin a matter of days, the process will be complete. Be prepared for whatever comes next. -->
+  <MonolithAutoActivatingText>موجة من الرعب تجتاح مستعمريك. بدأ المونوليث الساقط في التحرك. ببطء، يبدأ في الالتواء وإعادة ترتيب نفسه، متحولاً إلى شيء جديد.\n\nفي غضون أيام، ستكتمل العملية. كن مستعدًا لكل ما سيأتي بعد.</MonolithAutoActivatingText>
+  <!-- EN: Void monolith -->
+  <MonolithAutoActivatedLabel>مونوليث الفراغ</MonolithAutoActivatedLabel>
+  <!-- EN: The monolith's transformation is almost complete... -->
+  <MonolithAutoActivatedText>تحول المونوليث على وشك الاكتمال...</MonolithAutoActivatedText>
+
+  <!-- EN: Gray pall -->
+  <LetterLabelGrayPallDescending>غشاء رمادي يهبط</LetterLabelGrayPallDescending>
+  <!-- EN: A blanket of gritty fog has descended on this area. The fog smells ancient, somehow, and it stings the skin. The unnatural grayness of it invokes a sense of dread. -->
+  <LetterGrayPallDescending>غطاء من الضباب الخشن هبط على هذه المنطقة. الضباب رائحته قديمة، بشكل ما، وهو يلسع الجلد. رماديته غير الطبيعية تستدعي شعورًا بالرهبة.</LetterGrayPallDescending>
+
+  <!-- Void Awakening -->
+  <!-- EN: Awakening the void monolith will engulf your colony in darkness for days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
+  <VoidAwakeningConfirmationText>إيقاظ مونوليث الفراغ سيغمر مستعمرتك في الظلام لأيام ويجذب كيانات قوية. تأكد من أنك مستعد جيدًا:\n\n- خزن الطعام، ومواد البناء، والأسلحة.\n- تأكد من أن مستعمرتك مضاءة جيدًا، ولديها طاقة كافية. تجنب الاعتماد على المولدات الشمسية.\n- تأكد من أن مستعمرتك محمية جيدًا، وأن مستعمريك جاهزون للقتال.\n\nبمجرد إيقاظ مونوليث الفراغ، لا عودة إلى الوراء.\n\nهل أنت متأكد أنك تريد المتابعة؟</VoidAwakeningConfirmationText>
+  <!-- EN: A sphere of writhing psychic energy rises before {PAWN_nameDef}.\n\n{PAWN_nameDef} feels a presence inside {PAWN_possessive} mind, deeper than any normal human sense. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power. It beckons {PAWN_objective} in...\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what dark power could be gained from such an inhuman act. -->
+  <VoidNodeLetter>كرة من الطاقة النفسية المتلوية ترتفع أمام {PAWN_nameDef}.\n\nيشعر {PAWN_nameDef} بوجود داخل عـ{PAWN_possessive}، أعمق من أي حاسة بشرية عادية. يقف {PAWN_pronoun} على شاطئ محيط أسود لا نهائي من القوة. إنه يغري {PAWN_objective} بالدخول...\n\nأجهزة أركوتكنولوجية قريبة تدعم الكرة عبر وصلات هشة. يمكن لـ {PAWN_nameDef} تعطيلها، مغلقًا هذا الرابط بين العوالم.\n\nأو، يمكن لـ {PAWN_pronoun} أن يخطو داخل الكرة ويندمج مع الفراغ. من غير المعروف أي قوة مظلمة يمكن اكتسابها من فعل غير بشري كهذا.</VoidNodeLetter>
+  <!-- EN: Disrupt the link -->
+  <VoidNodeDisrupt>عطل الرابط</VoidNodeDisrupt>
+  <!-- EN: Embrace the void -->
+  <VoidNodeEmbrace>احتضن الفراغ</VoidNodeEmbrace>
+  <!-- EN: Postpone -->
+  <VoidNodePostpone>أجل</VoidNodePostpone>
+  <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
+  <DisruptTheLinkCredits>تزعزعت التدفقات النفسية والآلات الملتوية تصرخ. الفراغ الدوامي يومض. يشعر {PAWN_nameDef} به يرتجف وينهار على نفسه.\n\nيبدأ الكهف المعدني بالالتواء، متشكلاً مثل حجرة قلب ضخم. قبل أن تتاح لـ {PAWN_nameDef} فرصة للصراخ، يختفي {PAWN_pronoun} من الوجود.\n\nرفض {PAWN_nameDef} الفراغ.\n\nقصة {PAWN_possessive} تستمر...</DisruptTheLinkCredits>
+  <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
+  <EmbraceTheVoidCredits>يخطو {PAWN_nameDef} داخل الفراغ ويغمر المحيط الأسود {PAWN_objective}، طاغيًا على كل حاسة، مغرقًا كل فكرة في عـ{PAWN_possessive}.\n\nأعيد تركيز عقدة الفراغ بعيدًا عن العالم، نحو شخص واحد. هياكل الفراغ تصرخ، ثم تختفي من الوجود.\n\nاحتضن {PAWN_nameDef} الفراغ.\n\nقصة {PAWN_possessive} تستمر...</EmbraceTheVoidCredits>
+  <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
+  <StructureActivatedMessage>انتهى {PAWN_nameDef} من تفعيل {STRUCTURE_definite}</StructureActivatedMessage>
+  <!-- EN: Structures activated -->
+  <StructuresActivatedAlertLabel>هياكل مفعلة</StructuresActivatedAlertLabel>
+  <!-- EN: Activate void structures to complete the monolith awakening. -->
+  <StructuresActivatedAlertDescription>فعل هياكل الفراغ لإكمال إيقاظ المونوليث.</StructuresActivatedAlertDescription>
+  <!-- EN: {PAWN_nameDef}'s connection to the void monolith has been broken. It must be activated again. -->
+  <GleamingMonolithInterrupted>انقطع اتصال {PAWN_nameDef} بمونوليث الفراغ. يجب تفعيله مرة أخرى.</GleamingMonolithInterrupted>
+
+  <!-- HediffComp_GiveLovinMTBFactor -->
+  <!-- EN: Increases the chance of lovin` -->
+  <IncreasesChanceOfLovin>يزيد من فرصة الممارسة الجنسية</IncreasesChanceOfLovin>
+
+  <!-- EN: Unnatural {0_label} corpse -->
+  <UnnaturalCorpse>جثة {0_label} غير طبيعية</UnnaturalCorpse>
+
+  <!-- Studiable -->
+  <!-- EN: Knowledge from study reduced -->
+  <KnowledgeFactorOutdoors>انخفضت المعرفة من الدراسة</KnowledgeFactorOutdoors>
+
+  <!-- Unnatural darkness -->
+  <!-- EN: Emergence in {0} -->
+  <EmergenceIn>ظهور في {0}</EmergenceIn>
+  <!-- EN: Something will emerge from the ground in {0}. -->
+  <EmergenceInDesc>شيء ما سيظهر من الأرض في {0}.</EmergenceInDesc>
+  
+  <!-- Bioferrite harvester -->
+  <!-- EN: Bioferrite contained -->
+  <BioferriteHarvesterContained>البيوفيرايت المحتوى</BioferriteHarvesterContained>
+  <!-- EN: per day -->
+  <BioferriteHarvesterPerDay>في اليوم</BioferriteHarvesterPerDay>
+  <!-- EN: Eject contents -->
+  <BioferriteHarvesterEjectContents>إخراج المحتويات</BioferriteHarvesterEjectContents>
+  <!-- EN: Eject all contained {0} onto the ground. -->
+  <BioferriteHarvesterEjectContentsDesc>إخراج كل {0} المحتوى إلى الأرض.</BioferriteHarvesterEjectContentsDesc>
+  <!-- EN: Toggle bioferrite unloading -->
+  <BioferriteHarvesterToggleUnloading>تبديل تفريغ البيوفيرايت</BioferriteHarvesterToggleUnloading>
+  <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
+  <BioferriteHarvesterToggleUnloadingDesc>عند التفعيل، سيقوم المستعمرون تلقائيًا بتفريغ البيوفيرايت من الحاصدة عندما تمتلئ.</BioferriteHarvesterToggleUnloadingDesc>
+  
+  <!-- Proximity detector -->
+  <!-- EN: Invisible creature detected. -->
+  <ProximityDetectorCreatureDetected>تم الكشف عن مخلوق غير مرئي.</ProximityDetectorCreatureDetected>
+  
+  <!-- Frenzy inducer -->
+  <!-- EN: Generating frenzy field. -->
+  <FrenzyInducerEffectDescription>توليد حقل هياج.</FrenzyInducerEffectDescription>
+  <!-- EN: This happened due to the influence of a frenzy inducer. -->
+  <MentalBreakReason_FrenzyInducer>حدث هذا بسبب تأثير محفز الهياج.</MentalBreakReason_FrenzyInducer>
+  
+  <!-- Sleep suppressor -->
+  <!-- EN: sleepless psychic pulsation. -->
+  <SleepSuppressorEffectDescription>نبض نفسي بلا نوم.</SleepSuppressorEffectDescription>
+  
+  <!-- Devourer -->
+  <!-- EN: Being digested by {0_labelShort}. -->
+  <DigestedBy>يتم هضمه بواسطة {0_labelShort}.</DigestedBy>
+
+  <!-- Chimeras -->
+  <!-- EN: The chimera is {0} -->
+  <MessageChimeraModeChangeSingular>الكيميرا {0}</MessageChimeraModeChangeSingular>
+  <!-- EN: The chimeras are {0} -->
+  <MessageChimeraModeChangePlural>الكيميرات {0}</MessageChimeraModeChangePlural>
+  <!-- EN: temporarily withdrawing. -->
+  <MessageChimeraWithdrawing>تنسحب مؤقتًا.</MessageChimeraWithdrawing>
+
+  <!-- EN: Chimeras attacking -->
+  <LetterChimerasAttackingLabel>الكيميرات تهاجم</LetterChimerasAttackingLabel>
+  <!-- EN: The chimeras have begun their attack! -->
+  <LetterChimerasAttacking>بدأت الكيميرات هجومها!</LetterChimerasAttacking>
+  
+  <!-- Anomaly event frequency -->
+  <!-- EN: No major threats -->
+  <AnomalyFrequency_None>لا تهديدات كبرى</AnomalyFrequency_None>
+  <!-- EN: Very rare -->
+  <AnomalyFrequency_VeryRare>نادر جدًا</AnomalyFrequency_VeryRare>
+  <!-- EN: Rare -->
+  <AnomalyFrequency_Rare>نادر</AnomalyFrequency_Rare>
+  <!-- EN: Balanced -->
+  <AnomalyFrequency_Balanced>متوازن</AnomalyFrequency_Balanced>
+  <!-- EN: Intense -->
+  <AnomalyFrequency_Intense>شديد</AnomalyFrequency_Intense>
+  <!-- EN: Overwhelming -->
+  <AnomalyFrequency_Overwhelming>ساحق</AnomalyFrequency_Overwhelming>
+  
+  <!-- EN: Security doors only -->
+  <SecurityDoorsOnly>أبواب أمنية فقط</SecurityDoorsOnly>
+  
+</LanguageData>

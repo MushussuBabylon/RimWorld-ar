@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Quality factors determine the engine's cooldown duration and the chance for a mishap when landing. -->
+  <GravshipLaunch.description>تحدد عوامل الجودة مدة تبريد المحرك واحتمال حدوث عطب عند الهبوط.</GravshipLaunch.description>
+  <!-- EN: {PAWN_labelShort}'s piloting ability -->
+  <GravshipLaunch.comps.0.label>قدرة {PAWN_labelShort} على القيادة</GravshipLaunch.comps.0.label>
+  <!-- EN: pilot's piloting ability -->
+  <GravshipLaunch.comps.0.labelAbstract>قدرة الطيار على القيادة</GravshipLaunch.comps.0.labelAbstract>
+  <!-- EN: {PAWN_labelShort}'s piloting ability -->
+  <GravshipLaunch.comps.1.label>قدرة {PAWN_labelShort} على القيادة</GravshipLaunch.comps.1.label>
+  <!-- EN: copilot's piloting ability -->
+  <GravshipLaunch.comps.1.labelAbstract>قدرة مساعد الطيار على القيادة</GravshipLaunch.comps.1.labelAbstract>
+  <!-- EN: crew count -->
+  <GravshipLaunch.comps.2.label>عدد أفراد الطاقم</GravshipLaunch.comps.2.label>
+  <!-- EN: small thrusters -->
+  <GravshipLaunch.comps.3.label>دوافع صغيرة</GravshipLaunch.comps.3.label>
+  <!-- EN: large thrusters -->
+  <GravshipLaunch.comps.4.label>دوافع كبيرة</GravshipLaunch.comps.4.label>
+  <!-- EN: pilot subpersona core -->
+  <GravshipLaunch.comps.5.label>نواة شخصية فرعية للطيار</GravshipLaunch.comps.5.label>
+  <!-- EN: At the current quality, the gravship won't be able to launch again for {0_time} after landing. -->
+  <GravshipLaunch.extraOutcomeDescriptions.0.description>عند الجودة الحالية، لن تتمكن سفينة الجاذبية من الإطلاق مرة أخرى لمدة {0_time} بعد الهبوط.</GravshipLaunch.extraOutcomeDescriptions.0.description>
+  <!-- EN: Additionally, there's a {0_percentage} chance of having a minor incident when landing the gravship. -->
+  <GravshipLaunch.extraOutcomeDescriptions.1.description>بالإضافة إلى ذلك، هناك احتمال بنسبة {0_percentage} لحدوث حادثة طفيفة عند هبوط سفينة الجاذبية.</GravshipLaunch.extraOutcomeDescriptions.1.description>
+  
+</LanguageData>

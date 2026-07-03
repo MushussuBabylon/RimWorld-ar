@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>sent->[RECIPIENT_nameDef] agreed and the two are now engaged.</li>
+  -->
+  <Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
+    <li>sent->وافق [RECIPIENT_nameDef] وأصبح الاثنان مخطوبين الآن.</li>
+ </Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>sent->[RECIPIENT_nameDef] rejected the proposal.</li>
+  -->
+  <Sentence_MarriageProposalRejected.rulePack.rulesStrings>
+    <li>sent->رفض [RECIPIENT_nameDef] العرض.</li>
+ </Sentence_MarriageProposalRejected.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>sent->It was too much for the relationship to continue, and the two have now broken up.</li>
+  -->
+  <Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
+    <li>sent->كان الأمر أكثر من طاقة العلاقة لتستمر، وقد انفصل الاثنان الآن.</li>
+ </Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>sent->[RECIPIENT_nameDef] was attracted and is now [INITIATOR_nameDef]'s lover.</li>
+    <li>sent->[RECIPIENT_nameDef] responded well and is now [INITIATOR_nameDef]'s lover.</li>
+    <li>sent->[RECIPIENT_nameDef] became aroused and agreed to become [INITIATOR_nameDef]'s lover.</li>
+  -->
+  <Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
+    <li>sent->انجذب [RECIPIENT_nameDef] وأصبح الآن حبيب [INITIATOR_nameDef].</li>
+    <li>sent->استجاب [RECIPIENT_nameDef] بشكل جيد وأصبح الآن حبيب [INITIATOR_nameDef].</li>
+    <li>sent->ثار [RECIPIENT_nameDef] ووافق على أن يصبح حبيب [INITIATOR_nameDef].</li>
+ </Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>sent->[RECIPIENT_nameDef] rejected the advance.</li>
+    <li>sent->[RECIPIENT_nameDef] ignored the advance.</li>
+    <li>sent->[RECIPIENT_nameDef] turned [RECIPIENT_possessive] back.</li>
+    <li>sent->[RECIPIENT_nameDef] turned away.</li>
+    <li>sent->[RECIPIENT_nameDef] gave a minimal response.</li>
+    <li>sent->[RECIPIENT_nameDef] did not respond.</li>
+    <li>sent->[RECIPIENT_nameDef] turned [INITIATOR_objective] down.</li>
+  -->
+  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
+    <li>sent->رفض [RECIPIENT_nameDef] التقدم.</li>
+    <li>sent->تجاهل [RECIPIENT_nameDef] التقدم.</li>
+    <li>sent->أدار [RECIPIENT_nameDef] ظهره.</li>
+    <li>sent->ابتعد [RECIPIENT_nameDef].</li>
+    <li>sent->أعطى [RECIPIENT_nameDef] استجابة ضئيلة.</li>
+    <li>sent->لم يستجب [RECIPIENT_nameDef].</li>
+    <li>sent->رفض [RECIPIENT_nameDef] [INITIATOR_objective].</li>
+ </Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
+  
+</LanguageData>

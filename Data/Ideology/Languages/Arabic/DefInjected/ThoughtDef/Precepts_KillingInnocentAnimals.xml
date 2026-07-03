@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_KilledInnocentAnimal, null. Label: {0}(animal.label + ", etc"). Description: Description: {PAWN} -->
+  <!-- EN: killed innocent {0} -->
+  <KilledInnocentAnimal_Disapproved.stages.killed_innocent.label>قتل حيواناً بريئاً {0}</KilledInnocentAnimal_Disapproved.stages.killed_innocent.label>
+  <!-- EN: I had to kill an innocent animal. It was not something I approve of. -->
+  <KilledInnocentAnimal_Disapproved.stages.killed_innocent.description>اضطررت لقتل حيوان بريء. لم يكن هذا شيئاً أوافق عليه.</KilledInnocentAnimal_Disapproved.stages.killed_innocent.description>
+  
+  <!-- Thought_KilledInnocentAnimal, null. Label: {0}(animal.label + ", etc"). Description: Description: {PAWN} -->
+  <!-- EN: killed innocent {0} -->
+  <KilledInnocentAnimal_Horrible.stages.killed_innocent.label>قتل حيواناً بريئاً {0}</KilledInnocentAnimal_Horrible.stages.killed_innocent.label>
+  <!-- EN: I had to kill an innocent animal. It was almost like being forced to murder. -->
+  <KilledInnocentAnimal_Horrible.stages.killed_innocent.description>اضطررت لقتل حيوان بريء. كان الأمر تقريباً مثل الإجبار على القتل.</KilledInnocentAnimal_Horrible.stages.killed_innocent.description>
+  
+  <!-- EN: killed innocent animal -->
+  <KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.label>قتل حيواناً بريئاً</KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.label>
+  <KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} حيواناً بريئاً</KilledInnocentAnimal_Know_Abhorrent.stages.killed_innocent_animal.labelSocial>
+  
+  <!-- EN: innocent animal killed -->
+  <KilledInnocentAnimal_Know_Abhorrent_Mood.stages.innocent_animal_killed.label>قُتل حيوان بريء</KilledInnocentAnimal_Know_Abhorrent_Mood.stages.innocent_animal_killed.label>
+  <!-- EN: An innocent, adorable animal was killed! That's murder! -->
+  <KilledInnocentAnimal_Know_Abhorrent_Mood.stages.innocent_animal_killed.description>قُتل حيوان بريء وجميل! هذا قتل!</KilledInnocentAnimal_Know_Abhorrent_Mood.stages.innocent_animal_killed.description>
+  
+  <!-- EN: killed innocent animal -->
+  <KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.label>قتل حيواناً بريئاً</KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.label>
+  <KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} حيواناً بريئاً</KilledInnocentAnimal_Know_Disapproved.stages.killed_innocent_animal.labelSocial>
+  
+  <!-- EN: innocent animal killed -->
+  <KilledInnocentAnimal_Know_Disapproved_Mood.stages.innocent_animal_killed.label>قُتل حيوان بريء</KilledInnocentAnimal_Know_Disapproved_Mood.stages.innocent_animal_killed.label>
+  <!-- EN: An innocent animal was killed. I do not approve of this. -->
+  <KilledInnocentAnimal_Know_Disapproved_Mood.stages.innocent_animal_killed.description>قُتل حيوان بريء. لا أوافق على هذا.</KilledInnocentAnimal_Know_Disapproved_Mood.stages.innocent_animal_killed.description>
+  
+  <!-- EN: killed innocent animal -->
+  <KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.label>قتل حيواناً بريئاً</KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.label>
+  <KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} حيواناً بريئاً</KilledInnocentAnimal_Know_Horrible.stages.killed_innocent_animal.labelSocial>
+  
+  <!-- EN: innocent animal killed -->
+  <KilledInnocentAnimal_Know_Horrible_Mood.stages.innocent_animal_killed.label>قُتل حيوان بريء</KilledInnocentAnimal_Know_Horrible_Mood.stages.innocent_animal_killed.label>
+  <!-- EN: An innocent animal was killed. What a terrible, heartless act against another being. -->
+  <KilledInnocentAnimal_Know_Horrible_Mood.stages.innocent_animal_killed.description>قُتل حيوان بريء. يا له من عمل مريع وقاسٍ ضد كائن آخر.</KilledInnocentAnimal_Know_Horrible_Mood.stages.innocent_animal_killed.description>
+  
+</LanguageData>

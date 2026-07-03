@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Alerts -->
+  <Alerts.label>التنبيهات</Alerts.label>
+  <!-- EN: The alerts at the right edge of the screen tell you about issues that need your attention.\n\nKeep an eye on the alerts. -->
+  <Alerts.helpText>تخبرك التنبيهات الموجودة على الحافة اليمنى من الشاشة بالمشكلات التي تحتاج إلى انتباهك.\n\nأبق عينًا على التنبيهات.</Alerts.helpText>
+  
+  <!-- EN: Allowed areas -->
+  <AllowedAreas.label>المناطق المسموح بها</AllowedAreas.label>
+  <!-- EN: Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the SCHEDULE tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab. -->
+  <AllowedAreas.helpText>يمكن تعيين المستعمرين وحيوانات المستعمرة إلى مناطق مسموح بها. هذا يمنعهم من الذهاب إلى وجهات خارج منطقتهم المسموح بها.\n\nيمكن استخدام هذا، على سبيل المثال، لمنع المستعمرين من الخروج.\n\nيمكنك إنشاء مناطق مسموح بها متعددة وتعيينها لمستعمرين وحيوانات مختلفة.\n\nيمكنك إنشاء وحذف وتعيين المناطق المسموح بها في جدول المواعيد.\n\nارسم المناطق المسموح بها على الخريطة باستخدام محددات توسيع المنطقة المسموح بها ومسح المنطقة المسموح بها في قسم المهندس.</AllowedAreas.helpText>
+  
+  <!-- EN: Animal taming -->
+  <AnimalTaming.label>ترويض الحيوانات</AnimalTaming.label>
+  <!-- EN: You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts. -->
+  <AnimalTaming.helpText>يمكنك أن تطلب من المستعمرين ترويض حيوان بري باستخدام أداة الترويض.\n\nسيقدم المستعمرون الطعام للحيوان ويحاولون ترويضه.\n\nانتبه: بعض الحيوانات قد تستجيب بعنف لمحاولات الترويض الفاشلة.</AnimalTaming.helpText>
+  
+  <!-- EN: Animal training -->
+  <AnimalTraining.label>تدريب الحيوانات</AnimalTraining.label>
+  <!-- EN: You can assign a tame animal to be trained in specific skills on its TRAINING tab or on the ANIMALS tab.\n\nAnimals can't be trained continuously; they need time between training sessions. -->
+  <AnimalTraining.helpText>يمكنك أن تطلب تدريب حيوان أليف على مهارات محددة من جدول التدريب الخاص به أو من جدول الحيوانات.\n\nلا يمكن تدريب الحيوانات بشكل متواصل؛ فهي تحتاج إلى وقت بين جلسات التدريب.</AnimalTraining.helpText>
+  
+  <!-- EN: Camera dolly -->
+  <CameraDolly.label>تحريك الكاميرا</CameraDolly.label>
+  <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
+  <CameraDolly.helpText>حرك الكاميرا بالنقر والسحب باستخدام زر الماوس الثالث (الزر الأوسط) أو باستخدام المفاتيح {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
+  <!-- EN: Move the camera by using the D-pad. -->
+  <CameraDolly.helpTextController>حرك الكاميرا باستخدام لوحة الاتجاهات (D-pad).</CameraDolly.helpTextController>
+  
+  <!-- EN: Camera zoom -->
+  <CameraZoom.label>تقريب الكاميرا</CameraZoom.label>
+  <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
+  <CameraZoom.helpText>قم بالتكبير والتصغير باستخدام عجلة الماوس أو المفاتيح {Key:MapZoom_In} و{Key:MapZoom_Out}.</CameraZoom.helpText>
+  <!-- EN: Zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}. -->
+  <CameraZoom.helpTextController>قم بالتكبير والتصغير باستخدام {Key:MapZoom_In} و{Key:MapZoom_Out}.</CameraZoom.helpTextController>
+  
+  <!-- EN: Clicking messages -->
+  <ClickingMessages.label>النقر على الرسائل</ClickingMessages.label>
+  <!-- EN: You can click on the notifications in the top-left of the screen to instantly center the camera on their subject. -->
+  <ClickingMessages.helpText>يمكنك النقر على الإشعارات الموجودة أعلى يسار الشاشة لتوسيط الكاميرا فورًا على موضوعها.</ClickingMessages.helpText>
+  
+  <!-- EN: Cover and shooting -->
+  <CoverAndShooting.label>الاحتماء وإطلاق النار</CoverAndShooting.label>
+  <!-- EN: The most important thing to do in ranged combat is to use cover.\n\nCover only works if your colonist is touching it, and it is between your colonist and the enemy.\n\nYou can also place colonists behind wall corners. They will lean out to shoot.\n\nMost things can be used as cover, but some things are better than others. Hiding behind a tree is better than nothing, but hiding behind sandbags is better than using a tree. -->
+  <CoverAndShooting.helpText>أهم شيء يجب القيام به في القتال عن بعد هو استخدام الغطاء.\n\nلا يعمل الغطاء إلا إذا كان المستعمر على تماس معه، وكان يقع بين المستعمر والعدو.\n\nيمكنك أيضًا وضع المستعمرين خلف زوايا الجدران. سوف يطلون لإطلاق النار.\n\nمعظم الأشياء يمكن استخدامها كغطاء، لكن بعضها أفضل من البعض الآخر. الاختباء خلف شجرة أفضل من لا شيء، لكن الاختباء خلف أكياس الرمل أفضل من استخدام شجرة.</CoverAndShooting.helpText>
+  
+  <!-- EN: Item deterioration -->
+  <Deterioration.label>تلف الأغراض</Deterioration.label>
+  <!-- EN: Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them in a roofed room. -->
+  <Deterioration.helpText>الأغراض التي تُترك في العراء سوف تتلف ببطء.\n\nإذا كنت ترغب في تخزين الأغراض لفترة طويلة، فاحفظها في غرفة مسقوفة.</Deterioration.helpText>
+  
+  <!-- EN: Equipping weapons -->
+  <EquippingWeapons.label>تجهيز الأسلحة</EquippingWeapons.label>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
+  <EquippingWeapons.helpText>وصل المستعمرون ومعهم بعض الأسلحة. جهّزهم بها!\n\nاختر كل مستعمر واضغط بزر الماوس الأيمن على السلاح الذي تريد منه أن يجهّزه.</EquippingWeapons.helpText>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and press the left trigger on the weapon you want them to equip. -->
+  <EquippingWeapons.helpTextController>وصل المستعمرون ومعهم بعض الأسلحة. جهّزهم بها!\n\nاختر كل مستعمر واضغط على الزناد الأيسر على السلاح الذي تريد منه أن يجهّزه.</EquippingWeapons.helpTextController>
+  
+  <!-- EN: Fire preparation -->
+  <FirePreparation.label>الاستعداد للحرائق</FirePreparation.label>
+  <!-- EN: Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire. -->
+  <FirePreparation.helpText>يمكن للحرائق أن تدمر المستعمرة بسهولة. للتغلب عليها، يجب أن تستعد قبل وقوعها.\n\nيمكن لعناصر التصميم هذه أن تساعد في تقليل أضرار الحرائق:\n\n1. بدلاً من بناء مبنى واحد ضخم، قم ببناء مبان منفصلة مع وجود مسافات بينها.\n\n2. استخدم مواد أقل قابلية للاشتعال. الخشب رخيص وسريع - ولكنه سريع الاشتعال.\n\n3. قم ببناء حواجز نار لمنع حرائق الغابات من الاقتراب من قاعدتك. شريط من الأرضية الإسمنتية بعرض 3 أو 4 خلايا سيوقف بشكل عام تقدم النار.</FirePreparation.helpText>
+  
+  <!-- EN: Forbid and allow -->
+  <Forbidding.label>المنع والسماح</Forbidding.label>
+  <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to ALLOW it. -->
+  <Forbidding.helpText>لن يتفاعل المستعمرون مع الأغراض الموسومة بـ "ممنوع".\n\nالأغراض الممنوعة لها علامة X حمراء صغيرة. اختر غرضًا ممنوعًا واستخدم عناصر التحكم في الأسفل للسماح به.</Forbidding.helpText>
+  
+  <!-- EN: Forbidding doors -->
+  <ForbiddingDoors.label>منع الأبواب</ForbiddingDoors.label>
+  <!-- EN: You can FORBID doors so colonists and tame animals won't go through them.\n\nNote that this isn't a door lock. Doors are always locked, so enemies can't pass freely. Forbidding just directs your colonists not to use the door. Colonists who are going crazy might use the door anyway. -->
+  <ForbiddingDoors.helpText>يمكنك منع الأبواب حتى لا يمر عبرها المستعمرون والحيوانات الأليفة.\n\nلاحظ أن هذا ليس قفل باب. الأبواب دائمًا مقفلة، فلا يمكن للأعداء المرور بحرية. المنع يوجه المستعمرين فقط ألا يستخدموا الباب. المستعمرون الذين يصابون بالجنون قد يستخدمونه على أي حال.</ForbiddingDoors.helpText>
+  
+  <!-- EN: Forming caravans -->
+  <FormCaravan.label>تشكيل القوافل</FormCaravan.label>
+  <!-- EN: You can form a caravan to send groups of people traveling across the planet!\n\nIn the WORLD tab, select your home base and click the "form caravan" button. -->
+  <FormCaravan.helpText>يمكنك تشكيل قافلة لإرسال مجموعات من الناس في رحلة عبر الكوكب!\n\nفي جدول العالم، اختر قاعدتك الرئيسية واضغط على زر "تشكيل قافلة".</FormCaravan.helpText>
+  
+  <!-- EN: Friendly fire safety -->
+  <FriendlyFireSafety.label>الأمان من نيران الصديق</FriendlyFireSafety.label>
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
+  <FriendlyFireSafety.helpText>لا تحدث نيران الصديق أبدًا إذا كان مطلق النار قريبًا من حليفه.\n\nعلى سبيل المثال، يمكنك وضع مستعمر يحمل سيفًا بأمان أمام مستعمر يحمل بندقية. سيطلق مطلق النار من فوق كتف صديقه.\n\nهذه طريقة جيدة للجمع بين المقاتلين عن بعد والمقاتلين بالاشتباك.</FriendlyFireSafety.helpText>
+  
+  <!-- EN: Getting more traders -->
+  <GettingMoreTraders.label>الحصول على المزيد من التجار</GettingMoreTraders.label>
+  <!-- EN: More trader caravans will come to visit you if you're allied with more factions.\n\nIf you have no allies, no caravans will ever visit!\n\nYou can also pay allies to send trade caravans by calling them on the comms console. -->
+  <GettingMoreTraders.helpText>سيزورك المزيد من قوافل التجار إذا كنت متحالفًا مع فصائل أكثر.\n\nإذا لم يكن لديك حلفاء، لن تزورك أي قوافل على الإطلاق!\n\nيمكنك أيضًا الدفع للحلفاء لإرسال قوافل تجارية عن طريق الاتصال بهم عبر كونسول الاتصالات.</GettingMoreTraders.helpText>
+  
+  <!-- EN: Growing zones -->
+  <GrowingFood.label>مناطق الزراعة</GrowingFood.label>
+  <!-- EN: To grow food, place GROWING ZONES using the Architect menu.\n\nThey can only be placed on fertile ground. -->
+  <GrowingFood.helpText>لزراعة الطعام، ضع مناطق الزراعة باستخدام قائمة المهندس.\n\nلا يمكن وضعها إلا على أرض خصبة.</GrowingFood.helpText>
+  
+  <!-- EN: History tab -->
+  <HistoryTab.label>جدول التاريخ</HistoryTab.label>
+  <!-- EN: You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen. -->
+  <HistoryTab.helpText>يمكنك الاطلاع على سجل أحوال مستعمرتك عبر الزمن في جدول التاريخ أسفل الشاشة.</HistoryTab.helpText>
+  
+  <!-- EN: Home area -->
+  <HomeArea.label>منطقة المنزل</HomeArea.label>
+  <!-- EN: The HOME AREA tells your colonists which area to clean and where to extinguish fires.\n\nDefine the HOME AREA with the Zones category under the Architect menu. -->
+  <HomeArea.helpText>تخبر منطقة المنزل المستعمرين عن المنطقة التي يجب تنظيفها وأين يطفئون الحرائق.\n\nحدد منطقة المنزل من خلال فئة المناطق تحت قائمة المهندس.</HomeArea.helpText>
+  
+  <!-- EN: Hostility response modes -->
+  <HostilityResponse.label>أنماط الاستجابة للعداء</HostilityResponse.label>
+  <!-- EN: You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu. -->
+  <HostilityResponse.helpText>يمكنك تكوين كيفية استجابة المستعمرين تلقائيًا للتهديدات مثل الحيوانات المفترسة.\n\nاختر من أوضاع: اهرب، هاجم، و تجاهل في قائمة التخصيص.</HostilityResponse.helpText>
+  
+  <!-- EN: Info card -->
+  <InfoCard.label>بطاقة المعلومات</InfoCard.label>
+  <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
+  <InfoCard.helpText>تظهر لك بطاقة المعلومات إحصائيات مفصلة عن أي غرض أو شخص أو بناء.\n\nاختر شخصًا أو غرضًا وافتح بطاقة المعلومات الخاصة به بالضغط على الزر 'i' في لوحة الفحص.</InfoCard.helpText>
+  
+  <!-- EN: Manual work priorities -->
+  <ManualWorkPriorities.label>أولويات العمل اليدوية</ManualWorkPriorities.label>
+  <!-- EN: One of the most important parts of RimWorld is choosing good work settings for your colonists.\n\nPoor work settings can leave essential work unfinished for a long time while colonists waste time on unimportant tasks.\n\nTo give more control over what work colonists do, you can use the Manual Priorities mode in the WORK tab.\n\nIn this mode, each colonist has a priority number for each work type. Colonists will do priority 1 work from left to right, then priority 2 work from left to right, and so on.\n\nIntelligent use of these setting is essential for a large, well-automated colony. -->
+  <ManualWorkPriorities.helpText>أحد أهم جوانب RimWorld هو اختيار إعدادات عمل جيدة للمستعمرين.\n\nإعدادات العمل السيئة قد تترك الأعمال الأساسية غير منجزة لفترة طويلة بينما يضيع المستعمرون الوقت في مهام غير مهمة.\n\nلمزيد من التحكم في الأعمال التي يقوم بها المستعمرون، يمكنك استخدام نمط الأولويات اليدوية في جدول العمل.\n\nفي هذا النمط، كل مستعمر لديه رقم أولوية لكل نوع عمل. سيقوم المستعمرون بأعمال الأولوية 1 من اليسار إلى اليمين، ثم أعمال الأولوية 2 من اليسار إلى اليمين، وهكذا.\n\nالاستخدام الذكي لهذه الإعدادات ضروري لمستعمرة كبيرة ومؤتمتة بشكل جيد.</ManualWorkPriorities.helpText>
+  
+  <!-- EN: Medical operations -->
+  <MedicalOperations.label>العمليات الطبية</MedicalOperations.label>
+  <!-- EN: To assign a medical operation, like organ harvesting or prosthetics installation, open a colonist's HEALTH tab, then switch to the OPERATIONS sub-tab. -->
+  <MedicalOperations.helpText>لتعيين عملية طبية، مثل حصاد الأعضاء أو تركيب الأطراف الصناعية، افتح جدول الصحة للمستعمر، ثم انتقل إلى التبويب الفرعي العمليات.</MedicalOperations.helpText>
+  
+  <!-- EN: Mining -->
+  <Mining.label>التعدين</Mining.label>
+  <!-- EN: You can designate where to mine by opening the ARCHITECT menu and selecting the ORDERS tab.\n\nSome mineable blocks yield STEEL, GOLD, PLASTEEL, and other useful materials. -->
+  <Mining.helpText>يمكنك تحديد مكان التعدين بفتح قائمة المهندس واختيار تبويب الأوامر.\n\nبعض الكتل القابلة للتعدين تنتج الفولاذ، الذهب، الفولاذ البلاستي، وغيرها من المواد المفيدة.</Mining.helpText>
+  
+  <!-- EN: Outfits -->
+  <Outfits.label>الأزياء</Outfits.label>
+  <!-- EN: Colonists will automatically try to wear the newest, highest-quality apparel they can.\n\nYou don't need to manually assign each piece of apparel to colonists (though you can, if you wish).\n\nTo assign colonists restrictions on how to dress, open the ASSIGN tab, use the "Manage apparel policies" dialog box to design a new outfit, and then assign the outfit to colonists. -->
+  <Outfits.helpText>سيحاول المستعمرون تلقائيًا ارتداء أحدث وأعلى جودة من الملابس يمكنهم الحصول عليها.\n\nلست بحاجة إلى تعيين كل قطعة ملابس للمستعمرين يدويًا (على الرغم من أنه يمكنك ذلك، إذا رغبت).\n\nلتعيين قيود على طريقة لباس المستعمرين، افتح جدول التخصيص، واستخدم صندوق حوار "إدارة سياسات الملابس" لتصميم زي جديد، ثم قم بتعيين الزي للمستعمرين.</Outfits.helpText>
+  
+  <!-- EN: Pausing -->
+  <Pause.label>الإيقاف المؤقت</Pause.label>
+  <!-- EN: Hit {Key:TogglePause} to pause or unpause the game.\n\nYou can give orders while paused.\n\nRemember this - if things get hectic, just hit {Key:TogglePause}! -->
+  <Pause.helpText>اضغط على {Key:TogglePause} لإيقاف اللعبة مؤقتًا أو متابعتها.\n\nيمكنك إصدار الأوامر أثناء الإيقاف المؤقت.\n\nتذكر هذا - إذا ساءت الأمور، فقط اضغط على {Key:TogglePause}!</Pause.helpText>
+  
+  <!-- EN: Shot accuracy tooltip -->
+  <ShotAccuracyTooltip.label>تلميح دقة التسديد</ShotAccuracyTooltip.label>
+  <!-- EN: You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers. -->
+  <ShotAccuracyTooltip.helpText>يمكنك رؤية الحسابات الدقيقة وراء دقة أي طلقة.\n\nللقيام بذلك، اختر مطلق النار، ثم ضع الماوس فوق الهدف. سيعرض التلميح فرصة الإصابة، وتفصيل مساهمة مضاعفات فرصة الإصابة المختلفة.</ShotAccuracyTooltip.helpText>
+  
+  <!-- EN: Spoilage and freezers -->
+  <SpoilageAndFreezers.label>التلف والمجمدات</SpoilageAndFreezers.label>
+  <!-- EN: Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil. -->
+  <SpoilageAndFreezers.helpText>معظم المواد الغذائية ستفسد بعد وقت قصير نسبيًا.\n\nلمنع ذلك، يمكنك بناء غرفة تجميد.\n\nلبناء غرفة تجميد، قم ببناء غرفة مغلقة، وضع مبردًا أو اثنين في الجدار. اضبط المبردات على درجة حرارة مستهدفة سالبة.\n\nالأطعمة المجمدة لن تفسد أبدًا.</SpoilageAndFreezers.helpText>
+  
+  <!-- EN: Stockpiles -->
+  <Stockpiles.label>المخازن</Stockpiles.label>
+  <!-- EN: Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left. -->
+  <Stockpiles.helpText>يحتاج المستعمرون إلى مكان لتخزين الأغراض. قم بتعيين مخزن ليضعوا فيه الأشياء.\n\nستجد المخزن في قسم المناطق من قائمة المهندس في أسفل اليسار.</Stockpiles.helpText>
+  
+  <!-- EN: Storage tab -->
+  <StorageTab.label>جدول التخزين</StorageTab.label>
+  <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
+  <StorageTab.helpText>يمكنك تكوين المخازن ومباني التخزين باختيارها وفتح جدول التخزين أعلى لوحة الفحص أسفل اليسار.\n\nفي جدول التخزين الخاص بمخزن، يمكنك توسيع الفئات للسماح بأغراض معينة أو منعها. اضغط على المثلثات الموجودة على يسار أسماء الفئات.\n\nيمكنك تغيير أولوية التخزين. سيملأ المستعمرون المخازن ذات الأولوية الأعلى أولاً، وينقلون الأغراض من الأولوية الأقل إلى الأعلى.</StorageTab.helpText>
+  
+  <!-- EN: Tile inspector -->
+  <TileInspector.label>مفتش الخلية</TileInspector.label>
+  <!-- EN: You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more. -->
+  <TileInspector.helpText>يمكنك فحص تفاصيل خلية بالضغط باستمرار على {Key:ShowCellInspector}. يعرض هذا محتويات الخلية، معلومات الغرفة، معلومات الجمال، والمزيد.</TileInspector.helpText>
+  
+  <!-- EN: Time assignments -->
+  <TimeAssignments.label>تخصيصات الوقت</TimeAssignments.label>
+  <!-- EN: You can modify what time of day colonists should do different activities using the SCHEDULE tab. -->
+  <TimeAssignments.helpText>يمكنك تعديل ما يجب على المستعمرين فعله في أوقات اليوم المختلفة باستخدام جدول المواعيد.</TimeAssignments.helpText>
+  
+  <!-- EN: Time controls -->
+  <TimeControls.label>عناصر التحكم بالوقت</TimeControls.label>
+  <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
+  <TimeControls.helpText>يمكنك تسريع الوقت.\n\nحاول التحكم بالوقت باستخدام مفاتيح {Key:TimeSpeed_Normal} و{Key:TimeSpeed_Fast} و{Key:TimeSpeed_Superfast}، أو باستخدام عناصر التحكم بالوقت في أسفل اليمين.</TimeControls.helpText>
+  <!-- EN: You can speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.helpTextController>يمكنك تسريع الوقت.\n\nحاول التحكم بالوقت باستخدام {Key:TimeSpeed_Faster} و{Key:TimeSpeed_Slower}، أو باستخدام عناصر التحكم بالوقت في أسفل اليمين.</TimeControls.helpTextController>
+  
+  <!-- EN: Work settings -->
+  <WorkTab.label>إعدادات العمل</WorkTab.label>
+  <!-- EN: You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\n\nThey will always do the highest priority work that they can find.\n\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done. -->
+  <WorkTab.helpText>يمكنك ضبط إعدادات العمل لكل مستعمر في جدول العمل أسفل يسار الشاشة.\n\nسوف يقومون دائمًا بأعلى أولوية عمل يمكنهم العثور عليها.\n\nإذا لم يكن أحد معينًا لنوع عمل معين، أو إذا كانوا مشغولين بمهام ذات أولوية أعلى، فلن يتم إنجازه أبدًا.</WorkTab.helpText>
+  
+</LanguageData>

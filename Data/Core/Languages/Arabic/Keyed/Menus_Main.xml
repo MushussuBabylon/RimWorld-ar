@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Main menu -->
+  <!-- EN: Tutorial -->
+  <Tutorial>الشرح التعليمي</Tutorial>
+  <!-- EN: New colony -->
+  <NewColony>مستعمرة جديدة</NewColony>
+  <!-- EN: Back to game -->
+  <BackToGame>العودة إلى اللعبة</BackToGame>
+  <!-- EN: Review scenario -->
+  <ReviewScenario>مراجعة السيناريو</ReviewScenario>
+  <!-- EN: Save -->
+  <Save>حفظ</Save>
+  <!-- EN: Load game -->
+  <LoadGame>تحميل اللعبة</LoadGame>
+  <!-- EN: Options -->
+  <Options>الخيارات</Options>
+  <!-- EN: Mod -->
+  <Mod>تعديل</Mod>
+  <!-- EN: Mods -->
+  <Mods>التعديلات</Mods>
+  <!-- EN: Save translation report -->
+  <SaveTranslationReport>حفظ تقرير الترجمة</SaveTranslationReport>
+  <!-- EN: Generating translation report -->
+  <GeneratingTranslationReport>جاري إنشاء تقرير الترجمة</GeneratingTranslationReport>
+  <!-- EN: Cleanup translation files -->
+  <CleanupTranslationFiles>تنظيف ملفات الترجمة</CleanupTranslationFiles>
+  <!-- EN: Update translations files (TKey's) -->
+  <TranslationFilesTKeyUpdate>تحديث ملفات الترجمة (مفاتيح TKey)</TranslationFilesTKeyUpdate>
+  <!-- EN: Cleaning translation files -->
+  <CleaningTranslationFiles>جاري تنظيف ملفات الترجمة</CleaningTranslationFiles>
+  <!-- EN: Dev quicktest -->
+  <DevQuickTest>اختبار التطوير السريع</DevQuickTest>
+  <!-- EN: Credits -->
+  <Credits>طاقم العمل</Credits>
+  <!-- EN: Quit to main menu -->
+  <QuitToMainMenu>الخروج إلى القائمة الرئيسية</QuitToMainMenu>
+  <!-- EN: Save and quit to menu -->
+  <SaveAndQuitToMainMenu>الحفظ والخروج إلى القائمة</SaveAndQuitToMainMenu>
+  <!-- EN: Quit to OS -->
+  <QuitToOS>الخروج إلى النظام</QuitToOS>
+  <!-- EN: Save and quit to OS -->
+  <SaveAndQuitToOS>الحفظ والخروج إلى النظام</SaveAndQuitToOS>
+  <!-- EN: Fiction primer -->
+  <FictionPrimer>مقدمة عن القصة</FictionPrimer>
+  <!-- EN: Ludeon blog -->
+  <LudeonBlog>مدونة Ludeon</LudeonBlog>
+  <!-- EN: Subreddit -->
+  <Subreddit>Subreddit</Subreddit>
+  <!-- EN: Official wiki -->
+  <OfficialWiki>الويكي الرسمي</OfficialWiki>
+  <!-- EN: Tynan's X -->
+  <TynansX>حساب تينان على X</TynansX>
+  <!-- EN: Tynan's design book -->
+  <TynansDesignBook>كتاب تصميم Tynan</TynansDesignBook>
+  <!-- EN: Help translate RimWorld -->
+  <HelpTranslate>المساعدة في ترجمة RimWorld</HelpTranslate>
+  <!-- EN: Create world -->
+  <CreateWorld>إنشاء عالم</CreateWorld>
+  <!-- EN: Buy soundtrack -->
+  <BuySoundtrack>شراء الموسيقى التصويرية</BuySoundtrack>
+  <!-- EN: RimWorld Soundtrack -->
+  <BuySoundtrack_Classic>الموسيقى التصويرية لـ RimWorld</BuySoundtrack_Classic>
+  <!-- EN: RimWorld - Royalty Soundtrack -->
+  <BuySoundtrack_Royalty>الموسيقى التصويرية لـ RimWorld - Royalty</BuySoundtrack_Royalty>
+  <!-- EN: RimWorld - Anomaly Soundtrack -->
+  <BuySoundtrack_Anomaly>الموسيقى التصويرية لـ RimWorld - Anomaly</BuySoundtrack_Anomaly>
+  <!-- EN: RimWorld - Odyssey Soundtrack -->
+  <BuySoundtrack_Odyssey>الموسيقى التصويرية لـ RimWorld - Odyssey</BuySoundtrack_Odyssey>
+  
+  <!-- Main menu translations info window -->
+  <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
+  <TranslationThanks>جميع ترجمات RimWorld من صنع المعجبين. هذه الترجمة أُنشئت بواسطة المتطوعين الرائعين التاليين:\n\n{0}</TranslationThanks>
+  <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
+  <TranslationHowToContribute>يمكنك المساهمة أيضاً. انقر أدناه لمعرفة المزيد (يفتح متصفح الويب).</TranslationHowToContribute>
+  <!-- EN: Learn more -->
+  <LearnMore>معرفة المزيد</LearnMore>
+
+  <!-- Main menu dev build -->
+  <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
+  <DevBuildWarning>تحذير: هذه نسخة تطوير غير مستقرة. وهذا يعني أننا نجري تجارب تصميمية وتطويرات تقنية.\n\nبعض الأشياء ستكون غير متوازنة مؤقتاً عن قصد. هذه طريقة كلاسيكية في تصميم الألعاب حيث نبالغ في تغيير التوازن لنفهم حدوده بشكل أفضل. يمكننا بعد ذلك استخدام تلك المعلومات لتقرير نقاط التوازن النهائية.\n\nستكون هناك أيضاً أخطاء، بما في ذلك أخطاء تعطل اللعبة. قد تتوقف توافقية الحفظ في أي وقت.\n\nإذا كنت موافقاً على كل هذا، شكراً لك على الاختبار! إذا كنت لا تريد أن تكون عرضة لتجاربنا، يرجى لعب أحدث نسخة مستقرة.</DevBuildWarning>
+
+  <!-- Create/review world -->
+  <!-- EN: Review world -->
+  <ReviewWorld>مراجعة العالم</ReviewWorld>
+  <!-- EN: Generate -->
+  <WorldGenerate>إنشاء</WorldGenerate>
+  <!-- EN: Save and finish -->
+  <WorldSaveAndFinish>الحفظ والإنهاء</WorldSaveAndFinish>
+  <!-- EN: Reset factions -->
+  <ResetFactions>إعادة تعيين الفصائل</ResetFactions>
+  <!-- EN: Globe coverage -->
+  <PlanetCoverage>تغطية الكوكب</PlanetCoverage>
+  <!-- EN: Overall rainfall -->
+  <PlanetRainfall>معدل الأمطار الإجمالي</PlanetRainfall>
+  <!-- EN: Overall temperature -->
+  <PlanetTemperature>درجة الحرارة الإجمالية</PlanetTemperature>
+  <!-- EN: Population -->
+  <PlanetPopulation>عدد السكان</PlanetPopulation>
+  <!-- EN: Low -->
+  <PlanetRainfall_Low>منخفض</PlanetRainfall_Low>
+  <!-- EN: Normal -->
+  <PlanetRainfall_Normal>عادي</PlanetRainfall_Normal>
+  <!-- EN: High -->
+  <PlanetRainfall_High>مرتفع</PlanetRainfall_High>
+  <!-- EN: Low -->
+  <PlanetTemperature_Low>منخفضة</PlanetTemperature_Low>
+  <!-- EN: Normal -->
+  <PlanetTemperature_Normal>عادية</PlanetTemperature_Normal>
+  <!-- EN: High -->
+  <PlanetTemperature_High>مرتفعة</PlanetTemperature_High>
+  <!-- EN: Sparse -->
+  <PlanetPopulation_Low>قليل</PlanetPopulation_Low>
+  <!-- EN: Normal -->
+  <PlanetPopulation_Normal>عادي</PlanetPopulation_Normal>
+  <!-- EN: Crowded -->
+  <PlanetPopulation_High>مزدحم</PlanetPopulation_High>
+  <!-- EN: Seed -->
+  <WorldSeed>البذرة</WorldSeed>
+  <!-- EN: Randomize seed -->
+  <RandomizeSeed>اختيار بذرة عشوائية</RandomizeSeed>
+  <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
+  <PlanetCoverageTip>الكوكب له دائماً نفس القطر، ولكن بما أنه أكبر بكثير مما هو مطلوب للعب، فنحن لا ننشئ السطح بالكامل لأن ذلك قد يستغرق وقتاً طويلاً جداً. هذه هي النسبة المئوية من السطح التي تريد إنشاءها.</PlanetCoverageTip>
+  <!-- EN: Factions -->
+  <WorldFactionsTab>الفصائل</WorldFactionsTab>
+  <!-- EN: Advanced settings -->
+  <AdvancedSettings>إعدادات متقدمة</AdvancedSettings>
+
+  <!-- Select world -->
+  <!-- EN: Select world -->
+  <SelectWorld>اختيار العالم</SelectWorld>
+  <!-- EN: Select -->
+  <WorldChooseButton>اختيار</WorldChooseButton>
+  <!-- EN: No world files found. Create a world first. -->
+  <NoWorldsFilesFound>لم يتم العثور على ملفات عالم. قم بإنشاء عالم أولاً.</NoWorldsFilesFound>
+  
+  <!-- Version info -->
+  <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
+  <BuildNowAvailable>الإصدار {0} متاح الآن. تحقق من ludeon.com لمزيد من المعلومات.</BuildNowAvailable>
+  <!-- EN: This is the latest version. -->
+  <BuildUpToDate>هذا هو أحدث إصدار.</BuildUpToDate>
+  <!-- EN: Error getting version info: {0} -->
+  <ErrorGettingVersionInfo>خطأ في الحصول على معلومات الإصدار: {0}</ErrorGettingVersionInfo>
+  <!-- EN: Loading version info... -->
+  <LoadingVersionInfo>جاري تحميل معلومات الإصدار...</LoadingVersionInfo>
+
+  <!-- World generator -->
+  <!-- EN: Generate world -->
+  <GenerateWorld>إنشاء العالم</GenerateWorld>
+
+  <!-- Mods config -->
+  <!-- EN: Open Steam Workshop -->
+  <OpenSteamWorkshop>فتح ورشة Steam</OpenSteamWorkshop>
+  <!-- EN: Get mods from forum -->
+  <GetModsFromForum>الحصول على التعديلات من المنتدى</GetModsFromForum>
+  <!-- EN: Open mods data folder -->
+  <OpenModsDataFolder>فتح مجلد بيانات التعديلات</OpenModsDataFolder>
+  <!-- EN: Show mods data location -->
+  <ShowModsDataLocation>إظهار موقع بيانات التعديلات</ShowModsDataLocation>
+  <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
+  <ConfirmDisableCoreMod>هل أنت متأكد أنك تريد تعطيل تعديل Core؟ لن تعمل اللعبة على الإطلاق ما لم يكن لديك تعديل آخر يستبدل جميع وظائف الأساس.\n\nتذكر، يمكن للتعديلات الأخرى تجاوز التعريفات في تعديل Core باستخدام نفس defName.</ConfirmDisableCoreMod>
+  <!-- EN: Are you sure you want to delete all the content for {0}? -->
+  <ConfirmDeleteMod>هل أنت متأكد أنك تريد حذف جميع محتويات {0}؟</ConfirmDeleteMod>
+  <!-- EN: Auto-sort mods -->
+  <ResolveModOrder>الترتيب التلقائي للتعديلات</ResolveModOrder>
+  <!-- EN: Save and apply changes -->
+  <SaveModChanges>الحفظ وتطبيق التغييرات</SaveModChanges>
+  <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
+  <DiscardModChanges>لم يتم حفظ تغييرات التعديلات. هل أنت متأكد أنك تريد المتابعة؟</DiscardModChanges>
+  <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
+  <ModReorderConflict_MustLoadAfter>لا يمكن نقل {0}: يجب تحميله بعد {1}.</ModReorderConflict_MustLoadAfter>
+  <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
+  <ModReorderConflict_MustLoadBefore>لا يمكن نقل {0}: يجب تحميله قبل {1}.</ModReorderConflict_MustLoadBefore>
+  <!-- EN: Unsubscribe -->
+  <Unsubscribe>إلغاء الاشتراك</Unsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe? -->
+  <ConfirmUnsubscribe>هل أنت متأكد أنك تريد إلغاء الاشتراك؟</ConfirmUnsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe from {0}? -->
+  <ConfirmUnsubscribeFrom>هل أنت متأكد أنك تريد إلغاء الاشتراك من {0}؟</ConfirmUnsubscribeFrom>
+  <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
+  <ConfirmUnsubscribeFromMultiple>هل أنت متأكد أنك تريد إلغاء الاشتراك من:\n\n{0}</ConfirmUnsubscribeFromMultiple>
+  <!-- EN: Author -->
+  <Author>المؤلف</Author>
+  <!-- EN: Enabled -->
+  <Enabled>مفعل</Enabled>
+  <!-- EN: Disabled -->
+  <Disabled>معطل</Disabled>
+  <!-- EN: Enable -->
+  <Enable>تفعيل</Enable>
+  <!-- EN: Disable -->
+  <Disable>تعطيل</Disable>
+  <!-- EN: Get mods from... -->
+  <GetMods>الحصول على تعديلات من...</GetMods>
+  <!-- EN: Unsubscribe from... -->
+  <UnsubscribeMultiple>إلغاء الاشتراك من...</UnsubscribeMultiple>
+  <!-- EN: Save / load list... -->
+  <SaveLoadList>حفظ / تحميل القائمة...</SaveLoadList>
+  <!-- EN: Save mod list -->
+  <SaveModList>حفظ قائمة التعديلات</SaveModList>
+  <!-- EN: Load mod list -->
+  <LoadModList>تحميل قائمة التعديلات</LoadModList>
+  <!-- EN: Added mods -->
+  <AddedModsList>التعديلات المضافة</AddedModsList>
+  <!-- EN: Missing mods -->
+  <MissingModsList>التعديلات المفقودة</MissingModsList>
+  <!-- EN: Shared mods -->
+  <SharedModsList>التعديلات المشتركة</SharedModsList>
+  <!-- EN: Website -->
+  <ModWebsite>الموقع الإلكتروني</ModWebsite>
+  <!-- EN: Open folder -->
+  <ModFolder>فتح المجلد</ModFolder>
+  <!-- EN: Mod options -->
+  <ModOptions>خيارات التعديل</ModOptions>
+  <!-- EN: Workshop -->
+  <FromWorkshop>الورشة</FromWorkshop>
+  <!-- EN: Forum -->
+  <FromForum>المنتدى</FromForum>
+  <!-- EN: Advanced... -->
+  <MoreActions>متقدم...</MoreActions>
+  <!-- EN: All selected mods -->
+  <AllSelectedMods>جميع التعديلات المختارة</AllSelectedMods>
+  <!-- EN: All disabled mods -->
+  <AllDisabledMods>جميع التعديلات المعطلة</AllDisabledMods>
+  <!-- EN: All incompatible mods -->
+  <AllIncompatibleMods>جميع التعديلات غير المتوافقة</AllIncompatibleMods>
+  <!-- EN: Workshop page -->
+  <WorkshopPage>صفحة الورشة</WorkshopPage>
+  <!-- EN: Upload to Steam Workshop -->
+  <UploadToSteamWorkshop>الرفع إلى ورشة Steam</UploadToSteamWorkshop>
+  <!-- EN: Update on Steam Workshop -->
+  <UpdateOnSteamWorkshop>التحديث على ورشة Steam</UpdateOnSteamWorkshop>
+  <!-- EN: Upload already in progress. -->
+  <UploadAlreadyInProgress>الرفع قيد التنفيذ حالياً.</UploadAlreadyInProgress>
+  <!-- EN: Workshop submission failed.\n\nReason: {0} -->
+  <WorkshopSubmissionFailed>فشل الإرسال إلى الورشة.\n\nالسبب: {0}</WorkshopSubmissionFailed>
+  <!-- EN: Successfully uploaded {0}. -->
+  <WorkshopUploadSucceeded>تم رفع {0} بنجاح.</WorkshopUploadSucceeded>
+  <!-- EN: Downloading -->
+  <Downloading>جاري التحميل</Downloading>
+  <!-- EN: Workshop ID -->
+  <WorkshopId>معرف الورشة</WorkshopId>
+  <!-- EN: Display fulfilled requirements -->
+  <ModDisplayFulfilledRequirements>عرض المتطلبات المستوفاة</ModDisplayFulfilledRequirements>
+  <!-- EN: Click to select. -->
+  <ModClickToSelect>انقر للاختيار.</ModClickToSelect>
+  <!-- EN: Click to go to website. -->
+  <ModClickToGoToWebsite>انقر للذهاب إلى الموقع الإلكتروني.</ModClickToGoToWebsite>
+  <!-- EN: Source -->
+  <Source>المصدر</Source>
+  <!-- EN: Game versions -->
+  <ModTargetVersion>إصدارات اللعبة</ModTargetVersion>
+  <!-- EN: Mod version -->
+  <ModVersion>إصدار التعديل</ModVersion>
+  <!-- EN: ID -->
+  <ModPackageId>المعرف</ModPackageId>
+  <!-- EN: This must be loaded before: {0}. -->
+  <ModMustLoadBefore>يجب تحميل هذا قبل: {0}.</ModMustLoadBefore>
+  <!-- EN: This must be loaded after: {0}. -->
+  <ModMustLoadAfter>يجب تحميل هذا بعد: {0}.</ModMustLoadAfter>
+  <!-- EN: Depends on: {0} -->
+  <ModDependsOn>يعتمد على: {0}</ModDependsOn>
+  <!-- EN: Incompatible with: {0} -->
+  <ModIncompatibleWith>غير متوافق مع: {0}</ModIncompatibleWith>
+  <!-- EN: This mod is incompatible with: {0}. -->
+  <ModIncompatibleWithTip>هذا التعديل غير متوافق مع: {0}.</ModIncompatibleWithTip>
+  <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
+  <ModOrderingWarning>هذا التعديل يتم تحميله بترتيب خاطئ بالنسبة لتعديل آخر. استخدم زر 'الترتيب التلقائي'، أو أعد ترتيب التعديلات يدوياً.</ModOrderingWarning>
+  <!-- EN: Another active mod uses the same ID: {0}. -->
+  <ModWithSameIdAlreadyActive>تعديل آخر نشط يستخدم نفس المعرف: {0}.</ModWithSameIdAlreadyActive>
+  <!-- EN: There is a cyclic mod dependency starting with {0}. -->
+  <ModCyclicDependency>هناك اعتمادية دائرية للتعديلات تبدأ بـ {0}.</ModCyclicDependency>
+  <!-- EN: This requires the following mods to work: {0}. -->
+  <ModUnsatisfiedDependency>يتطلب هذا التعديلات التالية ليعمل: {0}.</ModUnsatisfiedDependency>
+  <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
+  <ModNotMadeForThisVersion>لم يُصمم هذا التعديل لإصدار RimWorld الحالي، ومن المحتمل ألا يعمل بشكل صحيح.</ModNotMadeForThisVersion>
+  <!-- EN: This mod is not made for this version of RimWorld. -->
+  <ModNotMadeForThisVersionShort>هذا التعديل غير مصمم لإصدار RimWorld هذا.</ModNotMadeForThisVersionShort>
+  <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
+  <ModNotMadeForThisVersion_Newer>هذا التعديل مصمم لإصدار أحدث من RimWorld، ومن المحتمل ألا يعمل بشكل صحيح.</ModNotMadeForThisVersion_Newer>
+  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
+  <MessageModNeedsWellFormattedTargetVersion>يحتاج التعديل إلى معلومات إصدار مدعومة منسقة بشكل صحيح في About.xml. هكذا: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> لم يعد مستخدماً. تحقق من السجل لمزيد من المعلومات.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <MessageModNeedsWellFormattedPackageId>يحتاج التعديل إلى packageId فريد ومنسق بشكل صحيح في About.xml. يجب أن يستوفي المتطلبات التالية:\n\n  - أحرف أبجدية رقمية ونقاط فقط.\n  - لا توجد مسافات.\n  - نقطة واحدة على الأقل.\n  - لا توجد نقاط متكررة متتالية، ولا يبدأ أو ينتهي بنقطة.\n  - 60 حرفاً أو أقل.\n  - لا يمكن أن يحتوي على كلمة "Ludeon".\n\nعلى سبيل المثال:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId></MessageModNeedsWellFormattedPackageId>
+  <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
+  <ModHadLoadFolderIssues>يحتوي هذا التعديل على مشكلات في LoadFolders.xml، تحتاج إلى حلها قبل الرفع:</ModHadLoadFolderIssues>
+  <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
+  <ModLoadFolderDoesntExist>المجلد {0} المحدد للإصدار {1} غير موجود.</ModLoadFolderDoesntExist>
+  <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
+  <ModLoadFolderMalformedVersion>سلسلة إصدار غير صحيحة '{0}'. التنسيق الصحيح هو Major.Minor (مثال: 1.1)</ModLoadFolderMalformedVersion>
+  <!-- EN: The list of load folders for version {0} is empty. -->
+  <ModLoadFolderListEmpty>قائمة مجلدات التحميل للإصدار {0} فارغة.</ModLoadFolderListEmpty>
+  <!-- EN: Version {0} lists the same folder more than once: {1}. -->
+  <ModLoadFolderRepeatingFolder>الإصدار {0} يسرد نفس المجلد أكثر من مرة: {1}.</ModLoadFolderRepeatingFolder>
+  <!-- EN: Invalid version order: {0} should come before {1}. -->
+  <ModLoadFolderOutOfOrder>ترتيب إصدار غير صالح: يجب أن يأتي {0} قبل {1}.</ModLoadFolderOutOfOrder>
+  <!-- EN: Invalid version order: 'default' should be defined first. -->
+  <ModLoadFolderOutOfOrderDefault>ترتيب إصدار غير صالح: يجب تعريف 'default' أولاً.</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
+  <ModLoadFolderDefaultDeprecated>استخدام 'default' في مجلدات التحميل لم يعد مستخدماً. يرجى تعريف المجلدات لكل إصدار باستخدام وسوم <v...> .</ModLoadFolderDefaultDeprecated>
+  <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
+  <ModLoadFolderDefinesUnsupportedGameVersion>الإصدار {0} معرف في مجلدات التحميل، ولكنه غير مدرج في 'supportedVersions' لملف About.xml الخاص بالتعديل.</ModLoadFolderDefinesUnsupportedGameVersion>
+  <!-- EN: Drag to reorder -->
+  <DragToReorder>اسحب لإعادة الترتيب</DragToReorder>
+
+  <!-- Select scenario -->
+  <!-- EN: Choose scenario -->
+  <ChooseScenario>اختيار السيناريو</ChooseScenario>
+  <!-- EN: Custom -->
+  <ScenariosCustom>مخصص</ScenariosCustom>
+  <!-- EN: Steam Workshop -->
+  <ScenariosSteamWorkshop>ورشة Steam</ScenariosSteamWorkshop>
+  <!-- EN: Scenario editor -->
+  <ScenarioEditor>محرر السيناريو</ScenarioEditor>
+  <!-- EN: Delete -->
+  <Delete>حذف</Delete>
+  
+  <!-- Scenario editor -->
+  <!-- EN: seed -->
+  <Seed>البذرة</Seed>
+  <!-- EN: Load -->
+  <Load>تحميل</Load>
+  <!-- EN: edit mode -->
+  <EditMode>وضع التحرير</EditMode>
+  <!-- EN: Summary -->
+  <Summary>ملخص</Summary>
+  <!-- EN: Add part -->
+  <AddPart>إضافة جزء</AddPart>
+  <!-- EN: All text fields must be filled. -->
+  <TextFieldsMustBeFilled>يجب ملء جميع الحقول النصية.</TextFieldsMustBeFilled>
+  <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
+  <ConfirmSteamWorkshopUpload>هل أنت متأكد أنك تريد رفع هذا إلى ورشة Steam؟\n\nيجب عليك الموافقة على شروط خدمة ورشة Steam. تجد الشروط الكاملة هنا:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
+  <ConfirmContentAuthor>من الواضح أنه يجب عليك فقط رفع المحتوى الذي أنشأته بنفسك.\n\nهل أنشأت هذا المحتوى بنفسك؟</ConfirmContentAuthor>
+  <!-- EN: Incompatible -->
+  <Incompatible>غير متوافق</Incompatible>
+  <!-- EN: Tag as translation -->
+  <TagAsTranslation>وسم كترجمة</TagAsTranslation>
+  <!-- EN: Too many (max {0}):  -->
+  <TooMany>كثير جداً (الحد الأقصى {0}): </TooMany>
+  <!-- EN: Can be updated on Workshop, since you are the author. -->
+  <CanBeUpdatedOnWorkshop>يمكن تحديثه على الورشة، بما أنك المؤلف.</CanBeUpdatedOnWorkshop>
+  <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
+  <ScenarioChangedSavePrompt>تم تعديل هذا السيناريو.\n\nهل تريد حفظه قبل المتابعة؟</ScenarioChangedSavePrompt>
+  
+  <!-- Select storyteller -->
+  <!-- EN: Choose AI Storyteller -->
+  <ChooseAIStoryteller>اختيار راوي القصص الذكي (AI)</ChooseAIStoryteller>
+  <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
+  <HowStorytellersWork>يقوم راوي القصص الذكي (AI) بإنشاء أحداث مثل غارات القراصنة، أو إسقاطات الموارد، أو هجمات الحيوانات. ستؤثر اختياراته على قصة مستعمرتك. يمكنك تغيير هذه الإعدادات في أي وقت.</HowStorytellersWork>
+  <!-- EN: Please choose a difficulty setting. -->
+  <MustChooseDifficulty>يرجى اختيار إعداد الصعوبة.</MustChooseDifficulty>
+  <!-- EN: Difficulty -->
+  <Difficulty>الصعوبة</Difficulty>
+  <!-- EN: Commitment mode -->
+  <CommitmentMode>وضع الالتزام</CommitmentMode>
+  <!-- EN: Reload anytime mode -->
+  <ReloadAnytimeMode>وضع التحميل في أي وقت</ReloadAnytimeMode>
+  <!-- EN: Please choose commitment mode or reload anytime mode. -->
+  <MustChoosePermadeath>يرجى اختيار وضع الالتزام أو وضع التحميل في أي وقت.</MustChoosePermadeath>
+  <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
+  <ReloadAnytimeModeInfo>يمكنك حفظ وتحميل اللعبة في أي وقت.\n\nهذا خيار جيد إذا كنت لا تزال تتعلم اللعبة، أو إذا كان يناسب أسلوب لعبك الشخصي، أو إذا كنت تستخدم تعديلات قد تعطل لعبتك، أو إذا كنت تنوي الالتزام الذاتي بوضع الالتزام.</ReloadAnytimeModeInfo>
+  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
+  <PermadeathModeInfo>يمكنك الحفظ فقط عند الخروج من اللعبة.\n\nبما أن RimWorld هي مولد قصص، فحتى خسارة الجميع باستثناء شخص واحد ليست نهاية اللعبة - إنها جزء من القصة. صُممت اللعبة للسماح بالتعافي بعد الخسائر.\n\nتمثيل هذه المواقف الرهيبة يجعل من القصة مزيجاً من المأساة والانتصار. هذه هي الطريقة التي صُممت بها RimWorld.\n\nهناك سبب لعدم قيام لوك سكاي ووكر بالخروج وإعادة التحميل عندما قُتلت عائلته - الخسارة والتعافي دراميان.</PermadeathModeInfo>
+  <!-- EN: Storyteller and playstyle can be changed any time. -->
+  <CanChangeStorytellerSettingsDuringPlay>يمكن تغيير الراوي وأسلوب اللعب في أي وقت.</CanChangeStorytellerSettingsDuringPlay>
+
+  <!-- custom difficulty settings -->
+  <!-- EN: Custom playstyle settings -->
+  <DifficultyCustomSectionLabel>إعدادات أسلوب اللعب المخصصة</DifficultyCustomSectionLabel>
+  <!-- EN: Set to standard playstyle... -->
+  <DifficultyReset>الضبط على أسلوب اللعب القياسي...</DifficultyReset>
+  
+  <!-- EN: Threats -->
+  <DifficultyThreatSection>التهديدات</DifficultyThreatSection>
+  <!-- EN: Threat scale -->
+  <Difficulty_ThreatScale_Label>مقياس التهديد</Difficulty_ThreatScale_Label>
+  <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
+  <Difficulty_ThreatScale_Info>اضبط حجم التهديدات مثل الغارات والانتشارات، وصعوبة المهام.</Difficulty_ThreatScale_Info>
+  <!-- EN: Major threats -->
+  <Difficulty_AllowBigThreats_Label>التهديدات الكبرى</Difficulty_AllowBigThreats_Label>
+  <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
+  <Difficulty_AllowBigThreats_Info>اسمح بالتهديدات الكبرى مثل الغارات، والانتشارات، وقطعان الحيوانات المفترسة للبشر، وسفن الميكانويد المحطمة والمزيد.</Difficulty_AllowBigThreats_Info>
+  <!-- EN: Quest threats -->
+  <Difficulty_AllowViolentQuests_Label>تهديدات المهام</Difficulty_AllowViolentQuests_Label>
+  <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
+  <Difficulty_AllowViolentQuests_Info>اسمح للمهام أن تقدم تهديدات وتحديات عنيفة. إذا تم تعطيل هذا، سيتم تعديل المهام لتكون غير عنيفة.</Difficulty_AllowViolentQuests_Info>
+  <!-- EN: Intro threats -->
+  <Difficulty_AllowIntroThreats_Label>تهديدات المقدمة</Difficulty_AllowIntroThreats_Label>
+  <!-- EN: Enable the fixed intro threats that appear near game start. -->
+  <Difficulty_AllowIntroThreats_Info>فعّل تهديدات المقدمة الثابتة التي تظهر بالقرب من بداية اللعبة.</Difficulty_AllowIntroThreats_Info>
+  <!-- EN: Predators hunt humans -->
+  <Difficulty_PredatorsHuntHumanlikes_Label>المفترسات تصطاد البشر</Difficulty_PredatorsHuntHumanlikes_Label>
+  <!-- EN: Allow wild predators to hunt humans. -->
+  <Difficulty_PredatorsHuntHumanlikes_Info>اسمح للمفترسات البرية باصطياد البشر.</Difficulty_PredatorsHuntHumanlikes_Info>
+  <!-- EN: Extreme weather -->
+  <Difficulty_AllowExtremeWeatherIncidents_Label>الطقس المتطرف</Difficulty_AllowExtremeWeatherIncidents_Label>
+  <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
+  <Difficulty_AllowExtremeWeatherIncidents_Info>اسمح بحوادث الطقس المتطرف مثل التهاطل السام، والشتاء البركاني، والعواصف المفاجئة.</Difficulty_AllowExtremeWeatherIncidents_Info>
+
+  <!-- EN: Economy -->
+  <DifficultyEconomySection>الاقتصاد</DifficultyEconomySection>
+  <!-- EN: Trade price disadvantage -->
+  <Difficulty_TradePriceFactorLoss_Label>عجز أسعار التجارة</Difficulty_TradePriceFactorLoss_Label>
+  <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
+  <Difficulty_TradePriceFactorLoss_Info>عند التجارة، تزداد أسعار الشراء بهذا المقدار بينما تنخفض أسعار البيع بهذا المقدار.</Difficulty_TradePriceFactorLoss_Info>
+  <!-- EN: Harvest yield -->
+  <Difficulty_CropYieldFactor_Label>محصول الحصاد</Difficulty_CropYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
+  <Difficulty_CropYieldFactor_Info>اضبط كمية المواد المنتجة عند حصاد النباتات والمحاصيل. هذا يشمل حصاد النباتات وقطع الأشجار.</Difficulty_CropYieldFactor_Info>
+  <!-- EN: Mining yield -->
+  <Difficulty_MineYieldFactor_Label>محصول التعدين</Difficulty_MineYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when mining. -->
+  <Difficulty_MineYieldFactor_Info>اضبط كمية المواد المنتجة عند التعدين.</Difficulty_MineYieldFactor_Info>
+  <!-- EN: Butchering yield -->
+  <Difficulty_ButcherYieldFactor_Label>محصول الذبح</Difficulty_ButcherYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
+  <Difficulty_ButcherYieldFactor_Info>اضبط كمية المواد المنتجة عند الذبح. هذا يشمل اللحوم، والجلود، والمحصول من تمزيق الميكانويد.</Difficulty_ButcherYieldFactor_Info>
+  <!-- EN: Research speed -->
+  <Difficulty_ResearchSpeedFactor_Label>سرعة البحث</Difficulty_ResearchSpeedFactor_Label>
+  <!-- EN: Adjust the speed of research. -->
+  <Difficulty_ResearchSpeedFactor_Info>اضبط سرعة البحث.</Difficulty_ResearchSpeedFactor_Info>
+  <!-- EN: Quest rewards -->
+  <Difficulty_QuestRewardValueFactor_Label>مكافآت المهام</Difficulty_QuestRewardValueFactor_Label>
+  <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_QuestRewardValueFactor_Info>اضبط قيمة المكافآت الممنوحة للمهام.\n\nملاحظة: يتم أيضاً تحجيم قيمة مكافأة المهمة تلقائياً للتعويض عن مقياس التهديد. إذا قمت بتعديل هذا الإعداد، فستضيف مضاعفاً إضافياً.</Difficulty_QuestRewardValueFactor_Info>
+  <!-- EN: Raid loot -->
+  <Difficulty_RaidLootPointsFactor_Label>غنائم الغارة</Difficulty_RaidLootPointsFactor_Label>
+  <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_RaidLootPointsFactor_Info>اضبط قيمة الغنائم التي يحملها المغيرون.\n\nملاحظة: يتم أيضاً تحجيم قيمة غنائم الغارة تلقائياً للتعويض عن مقياس التهديد. إذا قمت بتعديل هذا الإعداد، فستضيف مضاعفاً إضافياً.</Difficulty_RaidLootPointsFactor_Info>
+  <!-- EN: Turret rearm cost -->
+  <Difficulty_MaintenanceCostFactor_Label>تكلفة إعادة تعبئة البرج</Difficulty_MaintenanceCostFactor_Label>
+  <!-- EN: Adjust the cost of rearming turrets. -->
+  <Difficulty_MaintenanceCostFactor_Info>اضبط تكلفة إعادة تعبئة الأبراج.</Difficulty_MaintenanceCostFactor_Info>
+  <!-- EN: Scaria rot chance -->
+  <Difficulty_ScariaRotChance_Label>فرصة تعفن Scaria</Difficulty_ScariaRotChance_Label>
+  <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
+  <Difficulty_ScariaRotChance_Info>احتمالية تعفن الجثة فور الموت، إذا كان المخلوق مصاباً بمرض Scaria.\n\nملاحظة: الإعدادات الافتراضية مصممة لموازنة الزيادة في عدد الحيوانات عند الصعوبات العالية، بحيث يحصل جميع اللاعبين على نفس مكافآت اللحوم.</Difficulty_ScariaRotChance_Info>
+  <!-- EN: Enemy death on downed -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>موت العدو عند سقوطه</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>اضبط الفرصة الإضافية لموت العدو فور سقوطه. يؤثر هذا على فرص أخذ الأسرى، وبالتالي معدلات نمو سكان المستعمرة.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+
+  <!-- EN: General -->
+  <DifficultyGeneralSection>عام</DifficultyGeneralSection>
+  <!-- EN: Colonist mood -->
+  <Difficulty_ColonistMoodOffset_Label>مزاج المستعمر</Difficulty_ColonistMoodOffset_Label>
+  <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
+  <Difficulty_ColonistMoodOffset_Info>تعديل دائم في المزاج يطبق على كل مستعمر وسجين. يمتلك المستعمرون مزاجاً أساسياً قدره 50%.</Difficulty_ColonistMoodOffset_Info>
+  <!-- EN: Food poison chance -->
+  <Difficulty_FoodPoisonChanceFactor_Label>فرصة التسمم الغذائي</Difficulty_FoodPoisonChanceFactor_Label>
+  <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
+  <Difficulty_FoodPoisonChanceFactor_Info>اضبط احتمالية إصابة الشخص بالتسمم الغذائي من تناول وجبة مسمومة محتملة.</Difficulty_FoodPoisonChanceFactor_Info>
+  <!-- EN: Animal revenge chance -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>فرصة انتقام الحيوان</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>اضبط احتمالية أن يؤدي إيذاء حيوان بري إلى مهاجمته.</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <!-- EN: Friendly fire -->
+  <Difficulty_FriendlyFireChanceFactor_Label>النيران الصديقة</Difficulty_FriendlyFireChanceFactor_Label>
+  <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
+  <Difficulty_FriendlyFireChanceFactor_Info>اضبط احتمالية النيران الصديقة.\n\nملاحظة: يؤثر هذا الإعداد فقط على الطلقات المباشرة التي كانت ستصيب هدفها. لا يمنع الضرر من الانفجارات، أو من الطلقات التي كانت ستخطئ هدفها.</Difficulty_FriendlyFireChanceFactor_Info>
+  <!-- EN: Colonist instant kills -->
+  <Difficulty_AllowInstantKillChance_Label>القتل الفوري للمستعمر</Difficulty_AllowInstantKillChance_Label>
+  <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
+  <Difficulty_AllowInstantKillChance_Info>اضبط احتمالية موت المستعمر فوراً بسبب هجوم. يتم تعديل الضرر الوارد بحيث يسقط المستعمر بدلاً من ذلك.\n\nيمنع هذا فقط بعض أنواع القتل الفوري - لا يزال بإمكان المستعمرين السقوط والنزيف حتى الموت، أو الموت بسبب النار، الانفجارات، المرض، وهكذا.</Difficulty_AllowInstantKillChance_Info>
+  <!-- EN: Infection chance -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>فرصة العدوى</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <!-- EN: Adjust the chance that a wound will become infected. -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>اضبط احتمالية إصابة الجرح بالعدوى.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <!-- EN: Disease frequency -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Label>تكرار المرض</Difficulty_DiseaseIntervalFactor_Inverted_Label>
+  <!-- EN: Adjust the frequency of random disease events. -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Info>اضبط تكرار أحداث المرض العشوائية.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
+  <!-- EN: Insect spawning rate -->
+  <Difficulty_EnemyReproductionRateFactor_Label>معدل انتشار الحشرات</Difficulty_EnemyReproductionRateFactor_Label>
+  <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
+  <Difficulty_EnemyReproductionRateFactor_Info>اضبط المعدل الذي تقوم به خلايا النحل الحشرية الحالية بإنتاج حشرات جديدة. القيم المنخفضة تعني وقتاً أطول بين أحداث الإنتاج.\n\nلا يؤثر هذا على حدوث الانتشار - فقط السرعة التي تنتج بها الخلايا النشطة الحشرات.</Difficulty_EnemyReproductionRateFactor_Info>
+  <!-- EN: Deep drilling infestations -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>انتشارات الحفر العميق</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>اضبط احتمالية أن يؤدي الحفر العميق إلى حدوث انتشار.</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <!-- EN: Map generation ancient threats -->
+  <Difficulty_PeacefulTemples_Inverted_Label>تهديدات قديمة في توليد الخريطة</Difficulty_PeacefulTemples_Inverted_Label>
+  <!-- EN: Ancient structures may contain dangerous threats. -->
+  <Difficulty_PeacefulTemples_Inverted_Info>قد تحتوي الهياكل القديمة على تهديدات خطيرة.</Difficulty_PeacefulTemples_Inverted_Info>
+  <!-- EN: Map generation natural hives -->
+  <Difficulty_AllowCaveHives_Label>خلايا طبيعية في توليد الخريطة</Difficulty_AllowCaveHives_Label>
+  <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
+  <Difficulty_AllowCaveHives_Info>قد تظهر خلايا حشرات خامدة في الكهوف الطبيعية.\n\nينطبق هذا الإعداد فقط على توليد الخريطة ولا يؤثر على الحشرات النشطة التي قد تحفر طريقها أثناء اللعب.</Difficulty_AllowCaveHives_Info>
+  <!-- EN: Add unwavering prisoners -->
+  <Difficulty_UnwaveringPrisoners_Label>إضافة سجناء غير قابلين للتغيير</Difficulty_UnwaveringPrisoners_Label>
+  <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
+  <Difficulty_UnwaveringPrisoners_Info>يضيف هذا الخيار سجناء إضافيين قابلين للأسر في اللعبة لا يمكن تجنيدهم بسبب ولائهم الثابت.\n\nيتم إضافة السجناء غير القابلين للتغيير فوق السجناء العاديين، لذا فإن إيقاف هذا لن يمنح المزيد من السجناء القابلين للتجنيد - بل يزيل فقط أولئك غير القابلين للتغيير.\n\nلا يزال من الممكن إطلاق سراح السجناء غير القابلين للتغيير للحصول على مكاسب دبلوماسية، أو بيعهم، أو استعبادهم، أو حصاد أعضائهم، أو الاستفادة منهم بطرق أخرى. بشكل عام، إنهم يقدمون المزيد من الخيارات والموارد، ويجعلون اللعبة أكثر ثراءً وسهولة قليلاً.</Difficulty_UnwaveringPrisoners_Info>
+  <!-- EN: Nomadic mineable resources -->
+  <Difficulty_NomadicMineableResourcesFactor_Label>موارد التعدين للرحل</Difficulty_NomadicMineableResourcesFactor_Label>
+  <!-- EN: Adjust how many mineable resources are generated on maps after your first.\n\nNote: Your first colony map will always generate with the standard amount of resources. -->
+  <Difficulty_NomadicMineableResourcesFactor_Info>اضبط كمية موارد التعدين التي يتم إنشاؤها على الخرائط بعد خريطتك الأولى.\n\nملاحظة: ستتولد خريطة مستعمرتك الأولى دائماً بالكمية القياسية من الموارد.</Difficulty_NomadicMineableResourcesFactor_Info>
+
+  <!-- EN: Player tools -->
+  <DifficultyPlayerToolsSection>أدوات اللاعب</DifficultyPlayerToolsSection>
+  <!-- EN: Player can build traps -->
+  <Difficulty_AllowTraps_Label>يمكن للاعب بناء الفخاخ</Difficulty_AllowTraps_Label>
+  <!-- EN: Player can build traps like spike traps and IED traps. -->
+  <Difficulty_AllowTraps_Info>يمكن للاعب بناء فخاخ مثل فخاخ المسامير وفخاخ العبوات الناسفة (IED).</Difficulty_AllowTraps_Info>
+  <!-- EN: Player can build turrets -->
+  <Difficulty_AllowTurrets_Label>يمكن للاعب بناء الأبراج</Difficulty_AllowTurrets_Label>
+  <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
+  <Difficulty_AllowTurrets_Info>يمكن للاعب بناء أبراج ثابتة مثل الأبراج المصغرة، وأبراج المدافع التلقائية، وأبراج قذائف اليورانيوم.\n\nلا يزال بإمكانك استخدام الأبراج التي تم الاستيلاء عليها حتى إذا تم تعطيل هذا.</Difficulty_AllowTurrets_Info>
+  <!-- EN: Player can build mortars -->
+  <Difficulty_AllowMortars_Label>يمكن للاعب بناء المدافع</Difficulty_AllowMortars_Label>
+  <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
+  <Difficulty_AllowMortars_Info>يمكن للاعب بناء المدافع.\n\nلا يزال بإمكانك استخدام المدافع التي تم الاستيلاء عليها حتى إذا تم تعطيل هذا.</Difficulty_AllowMortars_Info>
+  <!-- EN: Classic mortars -->
+  <Difficulty_ClassicMortars_Label>المدافع الكلاسيكية</Difficulty_ClassicMortars_Label>
+  <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
+  <Difficulty_ClassicMortars_Info>لن تتطلب المدافع براميل مقواة للبناء أو إعادة التعبئة، وهي متوازنة لتسهيل الوصول إليها.</Difficulty_ClassicMortars_Info>
+  
+  <!-- EN: Adaptation -->
+  <DifficultyAdaptationSection>التكيف</DifficultyAdaptationSection>
+  <!-- EN: Adaptation growth rate -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>معدل نمو التكيف</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>يعني التكيف أن الراوي يجعل اللعبة أكثر تحدياً عندما يكون أداؤك جيداً. تنمو درجة التكيف بمرور الوقت، وتخفض عندما تتلقى ضرراً.\n\nيضبط هذا الإعداد مدى سرعة نمو درجة التكيف بمرور الوقت.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <!-- EN: Adaptation impact -->
+  <Difficulty_AdaptationEffectFactor_Label>تأثير التكيف</Difficulty_AdaptationEffectFactor_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
+  <Difficulty_AdaptationEffectFactor_Info>يعني التكيف أن الراوي يجعل اللعبة أكثر تحدياً عندما يكون أداؤك جيداً. تنمو درجة التكيف بمرور الوقت، وتخفض عندما تتلقى ضرراً.\n\nيضبط هذا الإعداد مدى تأثير درجة التكيف على الصعوبة.</Difficulty_AdaptationEffectFactor_Info>
+  <!-- EN: Wealth-independent progress mode -->
+  <Difficulty_FixedWealthMode_Label>وضع التقدم المستقل عن الثروة</Difficulty_FixedWealthMode_Label>
+  <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
+  <Difficulty_FixedWealthMode_Info>العب في وضع التقدم المستقل عن الثروة.\n\nفي الوضع العادي، يقوم الراوي بتحجيم التهديدات وفقاً لعدد المستعمرين، وثروة اللاعب، ومجموعة متنوعة من العوامل الأخرى. يزيل وضع الاستقلال عن الثروة عامل الثروة ويستبدله بمنحنى تقدم ثابت يعتمد على الوقت. يتم احتساب الوقت من تأسيس كل مستعمرة.\n\nيوصى بهذا فقط لأولئك الذين يبحثون عن تحدي مهارة صارم. في وضع الاستقلال عن الثروة، قد يكون من المستحيل تقريباً التعافي من خسائر جسيمة ما لم تقم بتأسيس مستوطنة جديدة. من الممكن أيضاً أن تسبق المنحنى كثيراً وتجد اللعبة سهلة جداً.</Difficulty_FixedWealthMode_Info>
+  <!-- EN: Years until maximum threat -->
+  <Difficulty_FixedWealthTimeFactor_Label>سنوات حتى التهديد الأقصى</Difficulty_FixedWealthTimeFactor_Label>
+  <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
+  <Difficulty_FixedWealthTimeFactor_Info>عدد سنوات اللعبة حتى يصل وضع الاستقلال عن الثروة إلى مستوى التهديد الأقصى.\n\nلاحظ أن الراوي سيستمر في تحجيم التهديدات وفقاً لعدد المستعمرين ومجموعة متنوعة من العوامل الأخرى.</Difficulty_FixedWealthTimeFactor_Info>
+
+  <!-- EN: Ideology -->
+  <DifficultyIdeologySection>الأيديولوجيا</DifficultyIdeologySection>
+  <!-- EN: Low pop conversion boost -->
+  <Difficulty_LowPopConversionBoost_Label>تعزيز تحويل السكان القليل</Difficulty_LowPopConversionBoost_Label>
+  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
+  <Difficulty_LowPopConversionBoost_Info>مع مستعمر واحد فقط من الأيديولوجيا الأساسية للاعب، يتم ضرب فرصة التحويل إلى أيديولوجيتهم بهذا المقدار. يتم تقسيم تأثير محاولات التحويل ضدهم على ذلك المقدار.\n\nمع وجود مستعمرين اثنين من الأيديولوجيا الأساسية للاعب، يتم تقليل التأثير إلى النصف.\n\nمع وجود ثلاثة أو أكثر من المستعمرين من الأيديولوجيا الأساسية للاعب، لا يكون لهذا أي تأثير.</Difficulty_LowPopConversionBoost_Info>
+
+  <!-- Site select -->
+  <!-- EN: Select starting site -->
+  <SelectStartingSite>اختيار موقع البداية</SelectStartingSite>
+  <!-- EN: Select random site -->
+  <SelectRandomSite>اختيار موقع عشوائي</SelectRandomSite>
+  <!-- EN: Select site -->
+  <SelectSite>اختيار الموقع</SelectSite>
+  <!-- EN: Please select a site. -->
+  <MustSelectStartingSite>يرجى اختيار موقع.</MustSelectStartingSite>
+  <!-- EN: You cannot land on this biome: {0} -->
+  <CannotLandBiome>لا يمكنك الهبوط في هذا النطاق الحيوي: {0}</CannotLandBiome>
+  <!-- EN: Biome not implemented -->
+  <BiomeNotImplemented>النطاق الحيوي غير مطبق</BiomeNotImplemented>
+  <!-- EN: You cannot land on impassable mountains. -->
+  <CannotLandImpassableMountains>لا يمكنك الهبوط على الجبال غير القابلة للعبور.</CannotLandImpassableMountains>
+  <!-- EN: {0} already have a base there. -->
+  <BaseAlreadyThere>{0} لديهم بالفعل قاعدة هناك.</BaseAlreadyThere>
+  <!-- EN: You already have a base there. -->
+  <YourBaseAlreadyThere>لديك بالفعل قاعدة هناك.</YourBaseAlreadyThere>
+  <!-- EN: This tile is occupied. -->
+  <TileOccupied>هذا المربع مشغول.</TileOccupied>
+  <!-- EN: Settlements cannot be directly adjacent to each other. -->
+  <FactionBaseAdjacent>لا يمكن أن تكون المستوطنات متجاورة مباشرة مع بعضها البعض.</FactionBaseAdjacent>
+  <!-- EN: Biome -->
+  <Biome>النطاق الحيوي</Biome>
+  <!-- EN: Terrain -->
+  <Terrain>التضاريس</Terrain>
+  <!-- EN: Road -->
+  <Road>الطريق</Road>
+  <!-- EN: River -->
+  <River>النهر</River>
+  <!-- EN: Elevation -->
+  <Elevation>الارتفاع</Elevation>
+  <!-- EN: Features -->
+  <TileMutators>الميزات</TileMutators>
+  <!-- EN: Fertility -->
+  <Fertility>الخصوبة</Fertility>
+  <!-- EN: fertility -->
+  <FertilityLower>الخصوبة</FertilityLower>
+  <!-- EN: Average temperature -->
+  <AvgTemp>متوسط درجة الحرارة</AvgTemp>
+  <!-- EN: Rainfall -->
+  <Rainfall>معدل الأمطار</Rainfall>
+  <!-- EN: Special features -->
+  <SpecialFeatures>ميزات خاصة</SpecialFeatures>
+  <!-- EN: northern coast -->
+  <HasCoast0>ساحل شمالي</HasCoast0>
+  <!-- EN: eastern coast -->
+  <HasCoast1>ساحل شرقي</HasCoast1>
+  <!-- EN: southern coast -->
+  <HasCoast2>ساحل جنوبي</HasCoast2>
+  <!-- EN: western coast -->
+  <HasCoast3>ساحل غربي</HasCoast3>
+  <!-- EN: caves -->
+  <HasCaves>كهوف</HasCaves>
+  <!-- EN: Faction base -->
+  <FactionBase>قاعدة الفصيل</FactionBase>
+  <!-- EN: Stone types -->
+  <StoneTypesHere>أنواع الحجارة</StoneTypesHere>
+  <!-- EN: Time zone -->
+  <TimeZone>المنطقة الزمنية</TimeZone>
+  <!-- EN: Movement difficulty -->
+  <MovementDifficulty>صعوبة الحركة</MovementDifficulty>
+  <!-- EN: Animals can graze now -->
+  <AnimalsCanGrazeNow>يمكن للحيوانات الرعي الآن</AnimalsCanGrazeNow>
+  <!-- EN: Average disease frequency -->
+  <AverageDiseaseFrequency>متوسط تكرار المرض</AverageDiseaseFrequency>
+  <!-- EN: per year -->
+  <PerYear>سنوياً</PerYear>
+  <!-- EN: Forageability -->
+  <Forageability>قابلية العلف</Forageability>
+  <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
+  <ConfirmRequiredWorkTypeDisabledForEveryone>لا يمكن لأي من الأشخاص المختارين القيام بالوظائف التالية:\n\n{0}\n\nهذا قد يجعل اللعبة أصعب من المعتاد. هل أنت متأكد أنك تريد المتابعة؟</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <!-- EN: temperature -->
+  <TemperatureLower>درجة الحرارة</TemperatureLower>
+  <!-- EN: light -->
+  <LightLower>الضوء</LightLower>
+
+  <!-- Character chooser -->
+  <!-- EN: Create characters -->
+  <CreateCharacters>إنشاء الشخصيات</CreateCharacters>
+  <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
+  <FirstNameDesc>الاسم الأول للشخصية.\n\nيظهر هذا فقط في قوائم معينة.</FirstNameDesc>
+  <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
+  <ShortIdentifierDesc>المعرف القصير للشخصية.\n\nيظهر هذا في جميع الأوقات. يمكن أن يكون الاسم الأول أو الأخير، أو لقب منفصل تماماً.</ShortIdentifierDesc>
+  <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
+  <LastNameDesc>اسم العائلة للشخصية.\n\nيظهر هذا فقط في قوائم معينة.</LastNameDesc>
+  <!-- EN: Randomize -->
+  <Randomize>عشوائي</Randomize>
+  <!-- EN: age {0} -->
+  <AgeIndicator>العمر {0}</AgeIndicator>
+  <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummary>{PAWN_race}، العمر {PAWN_ageFull}</PawnSummary>
+  <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}، العمر {PAWN_ageFull}</PawnSummaryWithGender>
+  <!-- EN: Backstory -->
+  <Backstory>الخلفية</Backstory>
+  <!-- EN: Incapable of -->
+  <IncapableOf>غير قادر على</IncapableOf>
+  <!-- EN: Abilities -->
+  <Abilities>القدرات</Abilities>
+  <!-- EN: Caused by -->
+  <IncapableOfTooltipHediff>بسبب</IncapableOfTooltipHediff>
+  <!-- EN: Disabled work types: -->
+  <IncapableOfTooltipWorkTypes>أنواع العمل المعطلة:</IncapableOfTooltipWorkTypes>
+  <!-- EN: Caused by backstory -->
+  <IncapableOfTooltipBackstory>بسبب الخلفية</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title -->
+  <IncapableOfTooltipTitle>بسبب اللقب</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait -->
+  <IncapableOfTooltipTrait>بسبب السمة</IncapableOfTooltipTrait>
+  <!-- EN: Caused by quest status -->
+  <IncapableOfTooltipQuest>بسبب حالة المهمة</IncapableOfTooltipQuest>
+  <!-- EN: Caused by role -->
+  <IncapableOfTooltipRole>بسبب الدور</IncapableOfTooltipRole>
+  <!-- EN: Caused by gene -->
+  <IncapableOfTooltipGene>بسبب الجينات</IncapableOfTooltipGene>
+  <!-- EN: Caused by -->
+  <IncapableOfTooltipMutant>بسبب</IncapableOfTooltipMutant>
+  <!-- EN: Traits -->
+  <Traits>السمات</Traits>
+  <!-- EN: Permanent mood effect -->
+  <PermanentMoodEffect>تأثير دائم على المزاج</PermanentMoodEffect>
+  <!-- EN: Skills -->
+  <Skills>المهارات</Skills>
+  <!-- EN: none -->
+  <NoneLower>لا شيء</NoneLower>
+  <!-- EN: Adulthood -->
+  <Adulthood>مرحلة البلوغ</Adulthood>
+  <!-- EN: Childhood -->
+  <Childhood>مرحلة الطفولة</Childhood>
+  <!-- EN: male -->
+  <Male>ذكر</Male>
+  <!-- EN: female -->
+  <Female>أنثى</Female>
+  <!-- EN: male and female -->
+  <MaleAndFemale>ذكر وأنثى</MaleAndFemale>
+  <!-- EN: male -->
+  <MaleAnimal>ذكر</MaleAnimal>
+  <!-- EN: female -->
+  <FemaleAnimal>أنثى</FemaleAnimal>
+  <!-- EN: Pain -->
+  <Pain>الألم</Pain>
+  <!-- EN: Health -->
+  <Health>الصحة</Health>
+  <!-- EN: Relations -->
+  <Relations>العلاقات</Relations>
+  <!-- EN: Possessions -->
+  <Possessions>الممتلكات</Possessions>
+  <!-- EN: Team skills -->
+  <TeamSkills>مهارات الفريق</TeamSkills>
+  <!-- EN: Selected -->
+  <StartingPawnsSelected>مختار</StartingPawnsSelected>
+  <!-- EN: Left behind -->
+  <StartingPawnsLeftBehind>تُرِكَ بالخلف</StartingPawnsLeftBehind>
+  <!-- EN: This person is considered guilty. Others won't be bothered if you banish, execute or arrest them.\n\nGuilt expires in -->
+  <GuiltyDesc>يعتبر هذا الشخص مذنباً. لن يمانع الآخرون إذا قمت بنفيه، أو إعدامه، أو اعتقاله.\n\nتنتهي صلاحية الذنب في</GuiltyDesc>
+  
+  <!-- Misc -->
+  <!-- EN: Start -->
+  <Start>بدء</Start>
+  <!-- EN: Advanced -->
+  <Advanced>متقدم</Advanced>
+  <!-- EN: Next -->
+  <Next>التالي</Next>
+  <!-- EN: Back -->
+  <Back>رجوع</Back>
+  <!-- EN: Change material... -->
+  <ShowMaterials>تغيير المادة...</ShowMaterials>
+  <!-- EN: Gameplay -->
+  <Gameplay>اللعب</Gameplay>
+  <!-- EN: Really quit? You'll lose unsaved progress. -->
+  <ConfirmQuit>هل تريد الخروج حقاً؟ ستفقد التقدم غير المحفوظ.</ConfirmQuit>
+  <!-- EN: Each person needs a valid name. -->
+  <EveryoneNeedsValidName>يحتاج كل شخص إلى اسم صالح.</EveryoneNeedsValidName>
+  <!-- EN: None of the selected people can do the following jobs -->
+  <RequiredWorkTypeDisabledForEveryone>لا يمكن لأي من الأشخاص المختارين القيام بالوظائف التالية</RequiredWorkTypeDisabledForEveryone>
+  <!-- EN: Quit -->
+  <Quit>خروج</Quit>
+  <!-- EN: Ignore -->
+  <Ignore>تجاهل</Ignore>
+  
+  <!-- Progress bar -->
+  <!-- EN: Generating world -->
+  <GeneratingWorld>جاري إنشاء العالم</GeneratingWorld>
+  <!-- EN: Generating planet -->
+  <GeneratingPlanet>جاري إنشاء الكوكب</GeneratingPlanet>
+  <!-- EN: Generating map -->
+  <GeneratingMap>جاري إنشاء الخريطة</GeneratingMap>
+  <!-- EN: Generating map for new encounter -->
+  <GeneratingMapForNewEncounter>جاري إنشاء خريطة لمواجهة جديدة</GeneratingMapForNewEncounter>
+
+  <!-- EN: Click for more info. -->
+  <ClickForMoreInfo>انقر لمزيد من المعلومات.</ClickForMoreInfo>
+  <!-- EN: No more information is available. -->
+  <NoMoreInfoAvailable>لا توجد معلومات إضافية متاحة.</NoMoreInfoAvailable>
+  <!-- EN: Best skill -->
+  <BestSkillLabel>أفضل مهارة</BestSkillLabel>
+  <!-- EN: {PAWN_nameDef}'s best stat -->
+  <BestSkillLetterLabel>أفضل سمة لـ {PAWN_nameDef}</BestSkillLetterLabel>
+  <!-- EN: skill level {0} -->
+  <BestSkillInfoLevel>مستوى المهارة {0}</BestSkillInfoLevel>
+
+  <!-- Factions -->
+  <!-- EN: Factions -->
+  <Factions>الفصائل</Factions>
+  <!-- EN: max {0} basic factions allowed -->
+  <TotalFactionsAllowed>الحد الأقصى {0} فصيلة أساسية مسموح بها</TotalFactionsAllowed>
+  <!-- EN: max {0} -->
+  <MaxFactionsForType>الحد الأقصى {0}</MaxFactionsForType>
+  <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
+  <FactionSelectionDesc>اختر الفصائل في العالم. يمكنك اختيار ما يصل إلى {0} فصيلة إجمالاً.</FactionSelectionDesc>
+  <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
+  <FactionDisabledContentWarning>تعطيل {0} يعني تنوعاً أقل في المهام ومحتوى مخفضا آخر.</FactionDisabledContentWarning>
+  <!-- EN: Disabling {0} means less spontaneous threat variety. -->
+  <InsectsDisabledContentWarning>تعطيل {0} يعني تنوعاً أقل في التهديدات العفوية.</InsectsDisabledContentWarning>
+  <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
+  <MechanoidsDisabledContentWarning>تعطيل {0} يعني تنوعاً أقل في المهام والتهديدات العفوية.</MechanoidsDisabledContentWarning>
+  <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
+  <FactionsDisabledWarning>بدون فصائل أخرى، لن تحدث الغارات، والتجارة، والمهام كما هو معتاد.</FactionsDisabledWarning>
+  <!-- EN: Cannot be removed for this scenario. -->
+  <FactionRemovalDisabled>لا يمكن إزالته لهذا السيناريو.</FactionRemovalDisabled>
+
+</LanguageData>

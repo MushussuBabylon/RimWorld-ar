@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[glacialPlain_adjective] [narrative_name]</li>
+    <li>glacialPlain_adjective(p=2)->glacial</li>
+    <li>glacialPlain_adjective->frigid</li>
+    <li>glacialPlain_adjective->icy</li>
+    <li>glacialPlain_adjective->majestic</li>
+    <li>glacialPlain_adjective->frozen</li>
+    <li>terrain_word->glacier</li>
+    <li>terrain_word(p=0.5)->icefield</li>
+    <li>terrain_word(p=0.5)->icecap</li>
+    <li>terrain_word(p=0.3)->field</li>
+    <li>terrain_word(p=0.3)->glacial plain</li>
+    <li>terrain_word(p=0.3)->stretch</li>
+    <li>terrain_word(p=0.3)->tract</li>
+  -->
+  <NamerGlacialPlain.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[glacialPlain_adjective] [narrative_name]</li>
+    <li>glacialPlain_adjective(p=2)->جليدي</li>
+    <li>glacialPlain_adjective->مثلج</li>
+    <li>glacialPlain_adjective->جليدي</li>
+    <li>glacialPlain_adjective->مهيب</li>
+    <li>glacialPlain_adjective->متجمد</li>
+    <li>terrain_word->مثليجة</li>
+    <li>terrain_word(p=0.5)->حقل جليدي</li>
+    <li>terrain_word(p=0.5)->غطاء جليدي</li>
+    <li>terrain_word(p=0.3)->حقل</li>
+    <li>terrain_word(p=0.3)->سهل جليدي</li>
+    <li>terrain_word(p=0.3)->امتداد</li>
+    <li>terrain_word(p=0.3)->منطقة</li>
+ </NamerGlacialPlain.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.3)->[glowForest_adjective] [narrative_name]</li>
+    <li>glowForest_adjective(p=2)->fungal</li>
+    <li>glowForest_adjective->blooming</li>
+    <li>glowForest_adjective->dark</li>
+    <li>glowForest_adjective->overgrown</li>
+    <li>glowForest_adjective->gnarled</li>
+    <li>terrain_word(p=3)->glowforest</li>
+    <li>terrain_word->mycelium bed</li>
+    <li>terrain_word->fungal forest</li>
+    <li>terrain_word->darklands</li>
+    <li>terrain_word->dark forest</li>
+  -->
+  <NamerGlowforest.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->[glowForest_adjective] [narrative_name]</li>
+    <li>glowForest_adjective(p=2)->فطري</li>
+    <li>glowForest_adjective->مزهر</li>
+    <li>glowForest_adjective->مظلم</li>
+    <li>glowForest_adjective->متضخم</li>
+    <li>glowForest_adjective->ملتوٍ</li>
+    <li>terrain_word(p=3)->غابة متوهجة</li>
+    <li>terrain_word->قاع فطر</li>
+    <li>terrain_word->غابة فطرية</li>
+    <li>terrain_word->الأراضي المظلمة</li>
+    <li>terrain_word->غابة مظلمة</li>
+ </NamerGlowforest.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.3)->[grasslands_adjective] [narrative_name]</li>
+    <li>grasslands_adjective(p=2)->flat</li>
+    <li>grasslands_adjective->dry</li>
+    <li>grasslands_adjective->windswept</li>
+    <li>grasslands_adjective->rolling</li>
+    <li>grasslands_adjective->endless</li>
+    <li>terrain_word(p=2)->grasslands</li>
+    <li>terrain_word(p=2)->prairie</li>
+    <li>terrain_word(p=2)->plains</li>
+    <li>terrain_word->savanna</li>
+    <li>terrain_word->steppe</li>
+    <li>terrain_word->flats</li>
+  -->
+  <NamerGrasslands.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->[grasslands_adjective] [narrative_name]</li>
+    <li>grasslands_adjective(p=2)->منبسط</li>
+    <li>grasslands_adjective->جاف</li>
+    <li>grasslands_adjective->مهب الريح</li>
+    <li>grasslands_adjective->متموج</li>
+    <li>grasslands_adjective->لا نهائي</li>
+    <li>terrain_word(p=2)->أراضٍ عشبية</li>
+    <li>terrain_word(p=2)->براري</li>
+    <li>terrain_word(p=2)->سهول</li>
+    <li>terrain_word->سافانا</li>
+    <li>terrain_word->سهوب</li>
+    <li>terrain_word->مناطق مستوية</li>
+ </NamerGrasslands.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.3)->[lavaField_adjective] [narrative_name]</li>
+    <li>lavaField_adjective(p=2)->volcanic</li>
+    <li>lavaField_adjective->fiery</li>
+    <li>lavaField_adjective->infernal</li>
+    <li>lavaField_adjective->burning</li>
+    <li>lavaField_adjective->blazing</li>
+    <li>terrain_word(p=3)->lava fields</li>
+    <li>terrain_word->rift</li>
+    <li>terrain_word->highland</li>
+    <li>terrain_word->magma plain</li>
+    <li>terrain_word->vent</li>
+    <li>terrain_word->furnace</li>
+    <li>terrain_word->inferno</li>
+    <li>terrain_word->range</li>
+  -->
+  <NamerLavaField.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->[lavaField_adjective] [narrative_name]</li>
+    <li>lavaField_adjective(p=2)->بركاني</li>
+    <li>lavaField_adjective->ناري</li>
+    <li>lavaField_adjective->جهنمي</li>
+    <li>lavaField_adjective->مشتعل</li>
+    <li>lavaField_adjective->ملتهب</li>
+    <li>terrain_word(p=3)->حقول حمم</li>
+    <li>terrain_word->صدع</li>
+    <li>terrain_word->مرتفعات</li>
+    <li>terrain_word->سهل الصهارة</li>
+    <li>terrain_word->فتحة</li>
+    <li>terrain_word->فرن</li>
+    <li>terrain_word->جحيم</li>
+    <li>terrain_word->سلسلة</li>
+ </NamerLavaField.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[ruin_adjective] [narrative_name]</li>
+    <li>r_name(p=0.2)->the [narrative_name] [terrain_word]</li>
+    <li>ruin_adjective(p=2)->ruined</li>
+    <li>ruin_adjective->ancient</li>
+    <li>ruin_adjective->old</li>
+    <li>ruin_adjective->shattered</li>
+    <li>ruin_adjective->blighted</li>
+    <li>ruin_adjective->ashen</li>
+    <li>terrain_word(p=6)->ruins</li>
+    <li>terrain_word(p=3)->scarland</li>
+    <li>terrain_word->megastructure</li>
+    <li>terrain_word->wastelands</li>
+    <li>terrain_word->waste</li>
+    <li>terrain_word->barrens</li>
+    <li>terrain_word->vestige</li>
+    <li>terrain_word->toxlands</li>
+    <li>terrain_word->lands</li>
+    <li>terrain_word->bastion</li>
+  -->
+  <NamerScarlands.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[ruin_adjective] [narrative_name]</li>
+    <li>r_name(p=0.2)->the [narrative_name] [terrain_word]</li>
+    <li>ruin_adjective(p=2)->مدمر</li>
+    <li>ruin_adjective->قديم</li>
+    <li>ruin_adjective->عتيق</li>
+    <li>ruin_adjective->محطم</li>
+    <li>ruin_adjective->مصاب بالآفة</li>
+    <li>ruin_adjective->رمادي</li>
+    <li>terrain_word(p=6)->أطلال</li>
+    <li>terrain_word(p=3)->أرض الندوب</li>
+    <li>terrain_word->مبنى عملاق</li>
+    <li>terrain_word->أراضٍ قاحلة</li>
+    <li>terrain_word->خراب</li>
+    <li>terrain_word->قفر</li>
+    <li>terrain_word->بقية</li>
+    <li>terrain_word->أراضٍ سامة</li>
+    <li>terrain_word->أراضٍ</li>
+    <li>terrain_word->حصن</li>
+ </NamerScarlands.rulePack.rulesStrings>
+  
+</LanguageData>

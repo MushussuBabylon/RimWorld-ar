@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Shuttle landing zones -->
+  <!-- EN: Shuttle could not land on pad: {0} -->
+  <ShuttleBlocked>لم يتمكن المكوك من الهبوط على المنصة: {0}</ShuttleBlocked>
+  <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
+  <MessageShuttleArrivedContentsLost>وصل المكوك، ولكن بما أنه لم يكن هناك مستعمرون بداخله، فقد فُقدت المحتويات.</MessageShuttleArrivedContentsLost>
+
+  <!-- EN: Cannot land in undiscovered area. -->
+  <ShuttleCannotLand_Fogged>لا يمكن الهبوط في منطقة غير مكتشفة.</ShuttleCannotLand_Fogged>
+  <!-- EN: Area must be walkable. -->
+  <ShuttleCannotLand_Unwalkable>يجب أن تكون المنطقة قابلة للمشي.</ShuttleCannotLand_Unwalkable>
+  <!-- EN: Terrain does not support {0}. -->
+  <ShuttleCannotLand_Unaffordable>الطريق لا يدعم {0}.</ShuttleCannotLand_Unaffordable>
+
+  <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
+  <MessageBestowerWaiting>اختر {BESTOWER_definite} وانقر على 'بدء حفل المنح' لبدء الحفل.</MessageBestowerWaiting>
+  <!-- EN: Cannot reach bestower! -->
+  <MessageBestowerUnreachable>لا يمكن الوصول إلى المانح!</MessageBestowerUnreachable>
+  <!-- EN: {0} is busy. -->
+  <MessageBestowingTargetIsBusy>{0} مشغول.</MessageBestowingTargetIsBusy>
+  <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
+  <MessageBestowingSpotUnreachable>انزعج المانح من التدخل وقرر المغادرة.</MessageBestowingSpotUnreachable>
+  <!-- EN: The bestower is leaving due to life-threatening danger. -->
+  <MessageBestowingDanger>يغادر المانح بسبب خطر يهدد حياته.</MessageBestowingDanger>
+  <!-- EN: The bestower is leaving due to life-threatening temperature. -->
+  <MessageBestowingDangerTemperature>يغادر المانح بسبب درجة حرارة تهدد الحياة.</MessageBestowingDangerTemperature>
+  <!-- EN: The bestower is leaving due to dangerous gases in the area. -->
+  <MessageBestowingDangerGas>يغادر المانح بسبب غازات خطيرة في المنطقة.</MessageBestowingDangerGas>
+  <!-- EN: The bestowing ceremony has been interrupted. -->
+  <MessageBestowingInterrupted>تمت مقاطعة حفل المنح.</MessageBestowingInterrupted>
+
+  <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
+  <MessageBestowingCeremonyStarted>بدأ حفل منح {PAWN_definite}.</MessageBestowingCeremonyStarted>
+  <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
+  <MessageMissionGetBackToShuttle>لقد هزمت {FACTION_pawnsPlural}! عد إلى المكوك لإطلاقه.</MessageMissionGetBackToShuttle>
+
+  <!-- EN: {FACTION_name} has dropped resources nearby. -->
+  <MessagePermitTransportDrop>أسقطت {FACTION_name} موارد بالقرب.</MessagePermitTransportDrop>
+  <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
+  <MessagePermitTransportDropCaravan>أرسلت {FACTION_name} موارد إلى قافلة {PAWN_nameDef}.</MessagePermitTransportDropCaravan>
+
+  <!-- EN: No orbiting mechanoids found. -->
+  <MessageNoFactionForVerbMechCluster>لم يتم العثور على ميكانويدات في المدار.</MessageNoFactionForVerbMechCluster>
+
+</LanguageData>

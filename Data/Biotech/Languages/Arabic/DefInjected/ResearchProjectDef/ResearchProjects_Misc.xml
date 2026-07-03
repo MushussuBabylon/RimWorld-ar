@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: archogenetics -->
+  <Archogenetics.label>الأركوجينات</Archogenetics.label>
+  <!-- EN: Allows a gene assembler to use archite capsules to create seemingly impossible genes. Archite genes and archite capsules can be obtained from traders. -->
+  <Archogenetics.description>يسمح لمجمع الجينات باستخدام كبسولات الأركيت لإنشاء جينات تبدو مستحيلة. يمكن الحصول على جينات وكبسولات الأركيت من التجار.</Archogenetics.description>
+  <!-- EN:
+    <li>subject->archogenetics</li>
+    <li>subject_story->excavated archite genes from the transcendent moon of Ix</li>
+    <li>subject_story->made a good living as an archite gene trader</li>
+    <li>subject_story->led a research expedition to an ancient monolith and returned changed</li>
+    <li>subject_gerund->assembling archite genes</li>
+    <li>subject_gerund->creating seemingly impossible genes</li>
+  -->
+  <Archogenetics.generalRules.rulesStrings>
+    <li>subject->الأركوجينات</li>
+    <li>subject_story->استخرج جينات الأركيت من قمر إكس المتسامي</li>
+    <li>subject_story->جنى عيشاً كريماً كتاجر في جينات الأركيت</li>
+    <li>subject_story->قاد بعثة بحثية إلى كتلة حجرية قديمة وعاد وقد تغير</li>
+    <li>subject_gerund->تجميع جينات الأركيت</li>
+    <li>subject_gerund->إنشاء جينات تبدو مستحيلة</li>
+ </Archogenetics.generalRules.rulesStrings>
+  
+  <!-- EN: deathrest -->
+  <Deathrest.label>السبات الموتي</Deathrest.label>
+  <!-- EN: Those with the deathrest gene must periodically undergo a special deathrest coma that lasts several days. This research project allows you to construct buildings which accelerate the deathrest coma and confer specific bonuses on the deathrester. Over time, you can build a grand deathrest temple. -->
+  <Deathrest.description>يجب على أولئك الذين لديهم جين السبات الموتي أن يمروا دورياً بغيبوبة سبات موتي خاصة تستمر عدة أيام. يتيح لك هذا المشروع البحثي بناء منشآت تسرع غيبوبة السبات الموتي وتمنح مكافآت محددة للسابات. مع مرور الوقت، يمكنك بناء معبد سبات موتي عظيم.</Deathrest.description>
+  <!-- EN:
+    <li>subject->deathrest</li>
+    <li>subject_story->dissected corpses from a deathrest temple, finally understanding how it worked</li>
+    <li>subject_story->interviewed a celebrity who never seemed to age, eventually learning her secrets</li>
+    <li>subject_story->attempted to replicate the technology and fell into a coma, only to wake weeks later</li>
+    <li>subject_gerund->constructing deathrest facilities</li>
+    <li>subject_gerund->improving deathrest</li>
+  -->
+  <Deathrest.generalRules.rulesStrings>
+    <li>subject->السبات الموتي</li>
+    <li>subject_story->شرح جثثاً من معبد سبات موتي، ففهم أخيراً كيف يعمل</li>
+    <li>subject_story->قابل أحد المشاهير الذين لم يبد عليهم التقدم في السن أبداً، وفي النهاية تعلم أسرارها</li>
+    <li>subject_story->حاول تكرار التقنية وسقط في غيبوبة، ليستيقظ بعد أسابيع</li>
+    <li>subject_gerund->بناء مرافق السبات الموتي</li>
+    <li>subject_gerund->تحسين السبات الموتي</li>
+ </Deathrest.generalRules.rulesStrings>
+  
+  <!-- EN: fertility procedures -->
+  <FertilityProcedures.label>إجراءات الخصوبة</FertilityProcedures.label>
+  <!-- EN: Perform the surgeries necessary to create a test tube embryo from a fertile man and woman, then implant the embryo in a surrogate mother or growth vat. Also, perform sterilization surgeries on men and women. -->
+  <FertilityProcedures.description>إجراء العمليات الجراحية اللازمة لإنشاء جنين أنبوب اختبار من رجل وامرأة خصبين، ثم زرع الجنين في أم بديلة أو وعاء نمو. وكذلك إجراء عمليات التعقيم للرجال والنساء.</FertilityProcedures.description>
+  <!-- EN:
+    <li>subject->fertility procedures</li>
+    <li>subject_story->helped families in the coreworlds achieve their dream of parenthood with test-tube embryos</li>
+    <li>subject_story->saved the rare Callopian boomrat from extinction with dangerous hand-fertilization techniques</li>
+    <li>subject_story->solved the population crisis on an urbworld with fertility interventions and growth vats</li>
+    <li>subject_gerund->altering human fertility</li>
+    <li>subject_gerund->improving or blocking human fertility</li>
+  -->
+  <FertilityProcedures.generalRules.rulesStrings>
+    <li>subject->إجراءات الخصوبة</li>
+    <li>subject_story->ساعد عائلات في العوالم المركزية لتحقيق حلم الأبوة بأجنة أنابيب الاختبار</li>
+    <li>subject_story->أنقذ جرذ الكالوبيان النادر من الانقراض بتقنيات تلقيح يدوي خطيرة</li>
+    <li>subject_story->حل أزمة سكانية في عالم حضري بواسطة تدخلات الخصوبة وأوعية النمو</li>
+    <li>subject_gerund->تغيير خصوبة البشر</li>
+    <li>subject_gerund->تحسين أو منع الخصوبة البشرية</li>
+ </FertilityProcedures.generalRules.rulesStrings>
+  
+  <!-- EN: gene processor -->
+  <GeneProcessor.label>معالج الجينات</GeneProcessor.label>
+  <!-- EN: Build gene processors, which allow a gene assembler to create xenogerms of higher genetic complexity. -->
+  <GeneProcessor.description>بناء معالجات الجينات التي تسمح لمجمع الجينات بإنشاء زينوجيرمات ذات تعقيد جيني أعلى.</GeneProcessor.description>
+  <!-- EN:
+    <li>subject->gene processors</li>
+    <li>subject_story->extracted Glitterworld genes from a drifting derelict</li>
+    <li>subject_story->processed an entire village to create one set of higher genes</li>
+    <li>subject_story->began the slow process of uplift by implanting xenogerms into a primitive tribe</li>
+    <li>subject_gerund->constructing gene processors</li>
+    <li>subject_gerund->processing genes</li>
+  -->
+  <GeneProcessor.generalRules.rulesStrings>
+    <li>subject->معالجات الجينات</li>
+    <li>subject_story->استخرج جينات العالم المتألق من سفينة مهجورة طافية</li>
+    <li>subject_story->عالج قرية بأكملها لإنشاء مجموعة واحدة من الجينات الأعلى</li>
+    <li>subject_story->بدأ عملية الرفع البطيئة بزرع الزينوجيرمات في قبيلة بدائية</li>
+    <li>subject_gerund->بناء معالجات الجينات</li>
+    <li>subject_gerund->معالجة الجينات</li>
+ </GeneProcessor.generalRules.rulesStrings>
+  
+  <!-- EN: growth vats -->
+  <GrowthVats.label>أوعية النمو</GrowthVats.label>
+  <!-- EN: Construct growth vats which can gestate an embryo or accelerate a child's growth. -->
+  <GrowthVats.description>بناء أوعية نمو يمكنها حمل جنين أو تسريع نمو الطفل.</GrowthVats.description>
+  <!-- EN:
+    <li>subject->advanced gestation</li>
+    <li>subject->artificial wombs</li>
+    <li>subject_story->ran a cloning facility to supply servants for the coreworlds</li>
+    <li>subject_story->created a new army for a warworld junta</li>
+    <li>subject_story->helped families of all backgrounds have children</li>
+    <li>subject_gerund->gestating embryos in artificial wombs</li>
+    <li>subject_gerund->accelerating human growth</li>
+    <li>subject_gerund->constructing growth vats</li>
+  -->
+  <GrowthVats.generalRules.rulesStrings>
+    <li>subject->الحمل المتقدم</li>
+    <li>subject->الأرحام الاصطناعية</li>
+    <li>subject_story->أدار منشأة استنساخ لتزويد العوالم المركزية بالخدم</li>
+    <li>subject_story->أنشأ جيشاً جديداً لمجلس عسكري عالمي</li>
+    <li>subject_story->ساعد عائلات من جميع الخلفيات على إنجاب الأطفال</li>
+    <li>subject_gerund->حمل الأجنة في أرحام اصطناعية</li>
+    <li>subject_gerund->تسريع نمو البشر</li>
+    <li>subject_gerund->بناء أوعية النمو</li>
+ </GrowthVats.generalRules.rulesStrings>
+  
+  <!-- EN: toxin filtration -->
+  <ToxFiltration.label>ترشيح السموم</ToxFiltration.label>
+  <!-- EN: Craft and install bionic organs that can filter out toxins from the environment and from enemy attacks. -->
+  <ToxFiltration.description>صناعة وتركيب أعضاء بيونية يمكنها ترشيح السموم من البيئة ومن هجمات الأعداء.</ToxFiltration.description>
+  <!-- EN:
+    <li>subject->toxin filtration</li>
+    <li>subject->toxin metabolisation</li>
+    <li>subject_story->helped milworld combat survivors breathe again</li>
+    <li>subject_story->skipped chemistry practicals for extra ethics classes</li>
+    <li>subject_story->joined a mine-corp as a filtration specialist</li>
+    <li>subject_gerund->metabolising toxins</li>
+    <li>subject_gerund->crafting antitoxin organs</li>
+  -->
+  <ToxFiltration.generalRules.rulesStrings>
+    <li>subject->ترشيح السموم</li>
+    <li>subject->استقلاب السموم</li>
+    <li>subject_story->ساعد الناجين من القتال في عوالم عسكرية على التنفس من جديد</li>
+    <li>subject_story->تخطى دروس الكيمياء العملية لأجل دروس أخلاقيات إضافية</li>
+    <li>subject_story->انضم إلى شركة تعدين كأخصائي ترشيح</li>
+    <li>subject_gerund->استقلاب السموم</li>
+    <li>subject_gerund->صناعة أعضاء مضادة للسموم</li>
+ </ToxFiltration.generalRules.rulesStrings>
+  
+  <!-- EN: tox gas -->
+  <ToxGas.label>الغاز السام</ToxGas.label>
+  <!-- EN: Produce weapons that utilize caustic tox gas. -->
+  <ToxGas.description>إنتاج أسلحة تستخدم الغاز السام الأكال.</ToxGas.description>
+  <!-- EN:
+    <li>subject->gas weaponry</li>
+    <li>subject->chemical warfare</li>
+    <li>subject_story->dreamed of a weapon to end all wars</li>
+    <li>subject_story->skipped ethics classes for extra chemistry practice</li>
+    <li>subject_story->researched cloud control tech for the tyrannocracy of a deathworld</li>
+    <li>subject_gerund->crafting toxic gas weapons</li>
+  -->
+  <ToxGas.generalRules.rulesStrings>
+    <li>subject->الأسلحة الغازية</li>
+    <li>subject->الحرب الكيميائية</li>
+    <li>subject_story->حلم بسلاح ينهي جميع الحروب</li>
+    <li>subject_story->تخطى دروس الأخلاقيات لأجل تدريب كيمياء إضافي</li>
+    <li>subject_story->بحث في تقنية التحكم بالسحب لصالح حكم طاغوتي في عالم موت</li>
+    <li>subject_gerund->صناعة أسلحة الغاز السام</li>
+ </ToxGas.generalRules.rulesStrings>
+  
+  <!-- EN: toxifier generator -->
+  <ToxifierGenerator.label>المولد المسمم</ToxifierGenerator.label>
+  <!-- EN: Create toxifier generators which generate electricity, but also spread pollution around themselves. -->
+  <ToxifierGenerator.description>إنشاء مولدات مسممة تولد الكهرباء، ولكنها تنشر التلوث حولها أيضاً.</ToxifierGenerator.description>
+  <!-- EN:
+    <li>subject->toxifier generator</li>
+    <li>subject_story->led a clean-up crew to a toxic planetoid</li>
+    <li>subject_story->learned about toxifiers in the deep sump of a skyripper</li>
+    <li>subject_story->researched cheap and dirty power sources for an urbcorp</li>
+    <li>subject_gerund->constructing toxifier generators</li>
+  -->
+  <ToxifierGenerator.generalRules.rulesStrings>
+    <li>subject->المولد المسمم</li>
+    <li>subject_story->قاد طاقم تنظيف إلى كوكيبب سام</li>
+    <li>subject_story->تعلم عن المسممات في أعماق ممزق السماء</li>
+    <li>subject_story->بحث في مصادر طاقة رخيصة وقذرة لصالح شركة حضرية</li>
+    <li>subject_gerund->بناء المولدات المسممة</li>
+ </ToxifierGenerator.generalRules.rulesStrings>
+  
+  <!-- EN: xenogenetics -->
+  <Xenogermination.label>علم الجينات الغريبة</Xenogermination.label>
+  <!-- EN: Create xenogerms which can be implanted in a person to genetically modify them. Extract genepacks from living people using a gene extractor so you can reimplant their genes into someone else. -->
+  <Xenogermination.description>إنشاء زينوجيرمات يمكن زرعها في شخص لتعديله جينياً. استخراج عبوات جينية من أشخاص أحياء باستخدام مستخرج الجينات لإعادة زرعها في شخص آخر.</Xenogermination.description>
+  <!-- EN:
+    <li>subject->xenogermination</li>
+    <li>subject->genetic implantation</li>
+    <li>subject_story->was uplifted by a glitterworld charity that focused on the genetically disadvantaged</li>
+    <li>subject_story->had [ANYPAWN_possessive] genes stolen by a rogue biologist</li>
+    <li>subject_story->ran a genetic transfer clinic for the glitterworld elite</li>
+    <li>subject_gerund->crafting xenogerms</li>
+  -->
+  <Xenogermination.generalRules.rulesStrings>
+    <li>subject->الزينوجيرم</li>
+    <li>subject->الزرع الجيني</li>
+    <li>subject_story->تم الارتقاء به من قبل جمعية خيرية من العالم المتألق ركزت على المحرومين جينياً</li>
+    <li>subject_story->سُرقت جينات [ANYPAWN_possessive] من قبل عالم أحياء مارق</li>
+    <li>subject_story->أدار عيادة لنقل الجينات للنخبة في العالم المتألق</li>
+    <li>subject_gerund->صناعة الزينوجيرمات</li>
+ </Xenogermination.generalRules.rulesStrings>
+  
+</LanguageData>

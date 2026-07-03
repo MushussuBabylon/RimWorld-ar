@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: grand altar -->
+  <Altar_Grand.label>مذبح فخم</Altar_Grand.label>
+  <!-- EN: A grand platform that plays a role in ideoligious rituals. -->
+  <Altar_Grand.description>منصة فخمة تؤدي دوراً في الطقوس العقائدية.</Altar_Grand.description>
+  
+  <!-- EN: large altar -->
+  <Altar_Large.label>مذبح كبير</Altar_Large.label>
+  <!-- EN: A large platform that plays a role in ideoligious rituals. -->
+  <Altar_Large.description>منصة كبيرة تؤدي دوراً في الطقوس العقائدية.</Altar_Large.description>
+  
+  <!-- EN: medium altar -->
+  <Altar_Medium.label>مذبح متوسط</Altar_Medium.label>
+  <!-- EN: A medium platform that plays a role in ideoligious rituals. -->
+  <Altar_Medium.description>منصة متوسطة تؤدي دوراً في الطقوس العقائدية.</Altar_Medium.description>
+  
+  <!-- EN: small altar -->
+  <Altar_Small.label>مذبح صغير</Altar_Small.label>
+  <!-- EN: A small platform that plays a role in ideoligious rituals. -->
+  <Altar_Small.description>منصة صغيرة تؤدي دوراً في الطقوس العقائدية.</Altar_Small.description>
+  
+  <!-- EN: biosculpter pod -->
+  <BiosculpterPod.label>كبسولة النحت الحيوي</BiosculpterPod.label>
+  <!-- EN: An immersion pod full of bioactive gel. It can perform a variety of biological alterations including age reversal and pleasure-giving.\n\nThe pod biotunes to its user at the end of a cycle. While biotuned, it cannot be used by anyone else, but cycles will complete 25% more quickly. Biotuning resets if the pod is unused for 80 days.\n\nThe pod consumess 200W of power while working, but only 50W on standby. -->
+  <BiosculpterPod.description>كبسولة غمر مليئة بهلام نشط بيولوجياً. يمكنها إجراء مجموعة متنوعة من التعديلات البيولوجية بما في ذلك عكس الشيخوخة ومنح المتعة.\n\nتتناغم الكبسولة حيوياً مع مستخدمها في نهاية الدورة. أثناء التناغم الحيوي، لا يمكن لأي شخص آخر استخدامها، لكن الدورات ستكتمل أسرع بنسبة 25%. يعود التناغم الحيوي إلى الصفر إذا لم تُستخدم الكبسولة لمدة 80 يوماً.\n\nتستهلك الكبسولة 200 واط من الطاقة أثناء العمل، و 50 واط فقط في وضع الاستعداد.</BiosculpterPod.description>
+  <!-- EN: medic -->
+  <BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.label>مسعف</BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.label>
+  <!-- EN: Heal all fresh wounds, blood loss, and one random infectious disease. -->
+  <BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.description>علاج جميع الجروح الحديثة، فقدان الدم، ومرض معدي عشوائي واحد.</BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.description>
+  <!-- EN: bioregeneration -->
+  <BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.label>التجديد الحيوي</BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.label>
+  <!-- EN: Heal all fresh wounds, heal one random permanent injury, and restore small missing body parts like fingers and toes. -->
+  <BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.description>علاج جميع الجروح الحديثة، علاج إصابة دائمة عشوائية واحدة، واستعادة الأجزاء الصغيرة المفقودة من الجسم مثل الأصابع وأصابع القدم.</BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.description>
+  <!-- EN: age reversal -->
+  <BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.label>عكس الشيخوخة</BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.label>
+  <!-- EN: Reverse {DURATION} of aging. -->
+  <BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.description>عكس {DURATION} من الشيخوخة.</BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.description>
+  <!-- EN: pleasure -->
+  <BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.label>متعة</BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.label>
+  <!-- EN: Temporarily reshape the nervous system to deliver elevated levels of happiness for a time. -->
+  <BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.description>إعادة تشكيل الجهاز العصبي مؤقتاً لتقديم مستويات مرتفعة من السعادة لبعض الوقت.</BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.description>
+  
+  <!-- EN: burnbong -->
+  <Burnbong.label>بونغ حرق</Burnbong.label>
+  <!-- EN: A wood structure packed with smokeleaf. It can be ignited during a ritual and produce a huge amount of smokeleaf smoke for a few hours, after which it is destroyed. -->
+  <Burnbong.description>هيكل خشبي محشو بورق الدخان. يمكن إشعاله أثناء الطقس لإنتاج كمية هائلة من دخان ورق الدخان لبضع ساعات، ثم يتدمر بعد ذلك.</Burnbong.description>
+  
+  <!-- EN: cannibal platter -->
+  <CannibalPlatter.label>طبق لحوم بشر</CannibalPlatter.label>
+  <!-- EN: An area of floor covered with pre-chopped and arranged human meat ready for a cannibal feast. -->
+  <CannibalPlatter.description>منطقة من الأرضية مغطاة بلحم بشري مقطع ومرتب مسبقاً جاهز لوليمة لحوم بشر.</CannibalPlatter.description>
+  
+  <!-- EN: christmas tree -->
+  <ChristmasTree.label>شجرة عيد الميلاد</ChristmasTree.label>
+  <!-- EN: A celebratory tree decorated with ornaments and lights traditionally made as part of Christmas celebrations. -->
+  <ChristmasTree.description>شجرة احتفالية مزينة بالزينة والأضواء تُصنع تقليدياً كجزء من احتفالات عيد الميلاد.</ChristmasTree.description>
+  
+  <!-- EN: darktorch -->
+  <Darktorch.label>شعلة داكنة</Darktorch.label>
+  <!-- EN: A specially-treated wooden torch that produces a dim light over a large area. People who prefer darklight work best with this light source. Can be automatically refueled with wood. Produces a small amount of heat. -->
+  <Darktorch.description>شعلة خشبية معالجة خصيصاً تنتج ضوءاً خافتاً على مساحة كبيرة. الأشخاص الذين يفضلون الضوء الداكن يعملون بشكل أفضل مع مصدر الضوء هذا. يمكن إعادة تزويدها تلقائياً بالخشب. تنتج كمية صغيرة من الحرارة.</Darktorch.description>
+  
+  <!-- EN: fungus darktorch -->
+  <DarktorchFungus.label>شعلة فطر داكنة</DarktorchFungus.label>
+  <!-- EN: A specially-treated fungus torch that produces a dim light over a large area. People who prefer darklight work best with this light source. Can be automatically refueled with raw fungus. Produces a small amount of heat. -->
+  <DarktorchFungus.description>شعلة فطرية معالجة خصيصاً تنتج ضوءاً خافتاً على مساحة كبيرة. الأشخاص الذين يفضلون الضوء الداكن يعملون بشكل أفضل مع مصدر الضوء هذا. يمكن إعادة تزويدها تلقائياً بالفطر الخام. تنتج كمية صغيرة من الحرارة.</DarktorchFungus.description>
+  
+  <!-- EN: effigy -->
+  <Effigy.label>دُمْيَة</Effigy.label>
+  <!-- EN: A rough wooden frame in the shape of a human, ready to be burned as part of a ritual. -->
+  <Effigy.description>هيكل خشبي خشن على شكل إنسان، جاهز للحرق كجزء من طقس.</Effigy.description>
+  
+  <!-- EN: ideogram -->
+  <Ideogram.label>إيديوغرام</Ideogram.label>
+  <!-- EN: A large image drawn on the ground and reinforced with metal edges. It is used as a focus for rituals. -->
+  <Ideogram.description>صورة كبيرة مرسومة على الأرض ومدعمة بحواف معدنية. تُستخدم كمركز للطقوس.</Ideogram.description>
+  
+  <!-- EN: incense shrine -->
+  <IncenseShrine.label>ضريح بخور</IncenseShrine.label>
+  <!-- EN: A collection of packed incense containers. It can be ignited and produce a powerful incense effect as a focus for rituals. It is destroyed after it burns down. -->
+  <IncenseShrine.description>مجموعة من حاويات البخور المعبأة. يمكن إشعالها وتنتج تأثير بخور قوي كمركز للطقوس. تتدمر بعد أن تحترق.</IncenseShrine.description>
+  
+  <!-- EN: neural supercharger -->
+  <NeuralSupercharger.label>الشاحن العصبي الفائق</NeuralSupercharger.label>
+  <!-- EN: A neuron-sensitizing device that can deliver one neural supercharge each day. A person with a neural supercharge will think and learn faster, but will also consume more food. The effect wears off in one day. Neural superchargers consume a lot of electricity. -->
+  <NeuralSupercharger.description>جهاز تحسيس عصبي يمكنه تقديم شحنة عصبية فائقة واحدة كل يوم. الشخص الذي لديه شحنة عصبية فائقة سيفكر ويتعلم أسرع، لكنه سيستهلك أيضاً طعاماً أكثر. يزول التأثير في يوم واحد. تستهلك الشواحن العصبية الفائقة الكثير من الكهرباء.</NeuralSupercharger.description>
+  <!-- EN: Get neural supercharge -->
+  <NeuralSupercharger.comps.CompNeuralSupercharger.jobString>احصل على شحنة عصبية فائقة</NeuralSupercharger.comps.CompNeuralSupercharger.jobString>
+  
+  <!-- EN: pyre -->
+  <Pyre.label>محرقة</Pyre.label>
+  <!-- EN: A wooden tower for ritual burning. -->
+  <Pyre.description>برج خشبي للحرق الطقسي.</Pyre.description>
+  
+  <!-- EN: ritual spot -->
+  <RitualSpot.label>مكان طقوس</RitualSpot.label>
+  <!-- EN: A spot for carrying out certain kinds of rituals. -->
+  <RitualSpot.description>بقعة لتنفيذ أنواع معينة من الطقوس.</RitualSpot.description>
+  
+  <!-- EN: sacrificial flag -->
+  <SacrificialFlag.label>راية قربان</SacrificialFlag.label>
+  <!-- EN: A flag representing enemies, ready to be burned as part of a ritual. -->
+  <SacrificialFlag.description>راية تمثل الأعداء، جاهزة للحرق كجزء من طقس.</SacrificialFlag.description>
+  
+  <!-- EN: sleep accelerator -->
+  <SleepAccelerator.label>مسرّع النوم</SleepAccelerator.label>
+  <!-- EN: A bedside device that accelerates the sleeper's circadian rhythm. This speeds up sleep, but consumes a lot of electricity and also causes increased hunger. It must be placed directly adjacent to and facing the head of the bed. Placing more than one sleep accelerator near the same bed has no effect. -->
+  <SleepAccelerator.description>جهاز بجانب السرير يسرع الإيقاع اليومي للنائم. هذا يسرع النوم، لكنه يستهلك الكثير من الكهرباء ويسبب أيضاً زيادة الجوع. يجب وضعه مباشرة بجانب ومواجهاً لرأس السرير. وضع أكثر من مسرع نوم واحد بالقرب من نفس السرير ليس له تأثير.</SleepAccelerator.description>
+  
+</LanguageData>

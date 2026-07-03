@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Not a mechanitor -->
+  <NotAMechanitor>ليس ميكانيتور</NotAMechanitor>
+  <!-- EN: Not enough bandwidth -->
+  <NotEnoughBandwidth>عرض النطاق الترددي غير كافٍ</NotEnoughBandwidth>
+  <!-- EN: Take control of {0} -->
+  <ControlMech>السيطرة على {0}</ControlMech>
+  <!-- EN: Cannot control {0} -->
+  <CannotControlMech>تعذر السيطرة على {0}</CannotControlMech>
+  <!-- EN: Already controlled by {0} -->
+  <CannotControlMechAlreadyControlled>خاضع لسيطرة {0} بالفعل</CannotControlMechAlreadyControlled>
+  <!-- EN: Not enough bandwidth -->
+  <CannotControlMechNotEnoughBandwidth>عرض النطاق الترددي غير كافٍ</CannotControlMechNotEnoughBandwidth>
+  <!-- EN: Never controllable -->
+  <CannotControlMechNeverControllable>لا يمكن السيطرة عليه أبداً</CannotControlMechNeverControllable>
+  <!-- EN: Cannot disconnect from {0} -->
+  <CannotDisconnectMech>تعذر قطع الاتصال بـ {0}</CannotDisconnectMech>
+  <!-- EN: Disconnect from {0} -->
+  <DisconnectMech>قطع الاتصال بـ {0}</DisconnectMech>
+  <!-- EN: Permanently disassemble {0} -->
+  <DisassembleMech>تفكيك {0} نهائياً</DisassembleMech>
+  <!-- EN: Cannot permanently disassemble {0} -->
+  <CannotDisassembleMech>تعذر تفكيك {0} نهائياً</CannotDisassembleMech>
+  <!-- EN: Must be overseer -->
+  <MustBeOverseer>يجب أن يكون المشرف</MustBeOverseer>
+  <!-- EN: Extract -->
+  <Extract>استخراج</Extract>
+  <!-- EN: Out of command range -->
+  <OutOfCommandRange>خارج نطاق القيادة</OutOfCommandRange>
+  <!-- EN: Cannot go here -->
+  <CannotGoOutOfRange>تعذر الذهاب إلى هنا</CannotGoOutOfRange>
+  <!-- EN: Must be emptied -->
+  <WasteContainerFull>يجب إفراغه</WasteContainerFull>
+  <!-- EN: Cannot repair mech {0} -->
+  <CannotRepairMech>تعذر إصلاح الميكانويد {0}</CannotRepairMech>
+
+  <!-- EN: Extract xenogerm from {PAWN_nameDef} -->
+  <ExtractXenogermFrom>استخراج الجرثومة الغريبة من {PAWN_nameDef}</ExtractXenogermFrom>
+  <!-- EN: Enter {0_labelShort} -->
+  <EnterBuilding>دخول {0_labelShort}</EnterBuilding>
+  <!-- EN: {PAWN_nameDef} has no genes -->
+  <PawnHasNoGenes>لا يمتلك {PAWN_nameDef} أي جينات</PawnHasNoGenes>
+  <!-- EN: {PAWN_nameDef} has no extractable genes. -->
+  <PawnHasNoNonArchiteGenes>لا يمتلك {PAWN_nameDef} جينات قابلة للاستخراج.</PawnHasNoNonArchiteGenes>
+  <!-- EN: In xenogermination coma -->
+  <InXenogerminationComa>في غيبوبة الإنبات الغريب</InXenogerminationComa>
+  <!-- EN: Occupied -->
+  <Occupied>مشغول</Occupied>
+  <!-- EN: {PAWN_nameDef} was ejected from a growth vat -->
+  <OccupantEjectedFromGrowthVat>تم إخراج {PAWN_nameDef} من حوض النمو</OccupantEjectedFromGrowthVat>
+  <!-- EN: {PAWN_nameDef} must be younger than {AGEYEARS} years old. -->
+  <TooOld>يجب أن يكون عمر {PAWN_nameDef} أصغر من {AGEYEARS} سنوات.</TooOld>
+  <!-- EN: {PAWN_nameDef} is too old. -->
+  <PawnIsTooOld>عمر {PAWN_nameDef} كبير جداً.</PawnIsTooOld>
+  <!-- EN: {PAWN_nameDef} is suffering from biostarvation. -->
+  <PawnBiostarving>يعاني {PAWN_nameDef} من المجاعة الحيوية.</PawnBiostarving>
+  <!-- EN: No available people -->
+  <NoViablePawns>لا يوجد أشخاص متاحون</NoViablePawns>
+  <!-- EN: No extractable people -->
+  <NoExtractablePawns>لا يوجد أشخاص قابلون للاستخراج</NoExtractablePawns>
+  <!-- EN: No implantable people -->
+  <NoImplantablePawns>لا يوجد أشخاص قابلون للزرع</NoImplantablePawns>
+  <!-- EN: Cannot enter {0_labelShort} -->
+  <CannotEnterBuilding>تعذر دخول {0_labelShort}</CannotEnterBuilding>
+  <!-- EN: {0_labelShort} is assigned to another person. -->
+  <AssignedToOtherPawn>{0_labelShort} مخصص لشخص آخر.</AssignedToOtherPawn>
+
+  <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
+  <AbsorbXenogerm>امتصاص الجرثومة الغريبة لـ {PAWN_nameDef}</AbsorbXenogerm>
+  <!-- EN: Cannot absorb {PAWN_nameDef}'s xenogerm -->
+  <CannotAbsorbXenogerm>تعذر امتصاص الجرثومة الغريبة لـ {PAWN_nameDef}</CannotAbsorbXenogerm>
+  <!-- EN: {PAWN_nameDef} is already {PAWN_xenotype} -->
+  <SameXenotype>{PAWN_nameDef} ينتمي إلى النمط {PAWN_xenotype} بالفعل</SameXenotype>
+  <!-- EN: {PAWN_nameDef} suffering from xenogerm loss shock -->
+  <XenogermLossShockPresent>يعاني {PAWN_nameDef} من صدمة فقدان الجرثومة الغريبة</XenogermLossShockPresent>
+  <!-- EN: Carry to {0_labelShort} -->
+  <CarryToSpecificThing>حمل إلى {0_labelShort}</CarryToSpecificThing>
+  <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
+  <NoCasketOrBed>لا يوجد سرير متاح أو تابوت سبات موت يمكن الوصول إليه في درجة حرارة آمنة.</NoCasketOrBed>
+  <!-- EN: {PAWN_nameDef} is a temporary faction member. -->
+  <TemporaryFactionMember>يعد {PAWN_nameDef} عضواً مؤقتاً في الفصيل.</TemporaryFactionMember>
+
+  <!-- EN: Scanner not initiated -->
+  <SubcoreScannerNotInit>لم يتم بدء تشغيل الماسح</SubcoreScannerNotInit>
+  <!-- EN: Waiting for ingredients -->
+  <SubcoreScannerRequiresIngredients>في انتظار المكونات</SubcoreScannerRequiresIngredients>
+  <!-- EN: Occupied -->
+  <SubcoreScannerOccupied>مشغول</SubcoreScannerOccupied>
+  <!-- EN: Enter {0} -->
+  <EnterSubcoreScanner>دخول {0}</EnterSubcoreScanner>
+
+  <!-- EN: Breastfeed {BABY_labelShort} -->
+  <BabyCareBreastfeed>إرضاع {BABY_labelShort} طبيعياً</BabyCareBreastfeed>
+  <!-- EN: Cannot breastfeed {BABY_labelShort} -->
+  <BabyCareBreastfeedUnable>تعذر إرضاع {BABY_labelShort} طبيعياً</BabyCareBreastfeedUnable>
+  <!-- EN: Already breastfeeding {BABY_labelShort} -->
+  <AlreadyBreastfeeding>يتم إرضاع {BABY_labelShort} طبيعياً بالفعل</AlreadyBreastfeeding>
+  <!-- EN: No baby-edible food -->
+  <NoBabyFood>لا يوجد طعام صالح للأطفال</NoBabyFood>
+
+  <!-- EN: play need full -->
+  <CannotInteractBabyPlayFull>الحاجة للعب ممتلئة</CannotInteractBabyPlayFull>
+
+  <!-- EN: Feed on {PAWN_nameDef} -->
+  <BloodfeedOn>التغذي على دماء {PAWN_nameDef}</BloodfeedOn>
+  <!-- EN: Cannot feed on {PAWN_nameDef} -->
+  <CannotBloodfeedOn>تعذر التغذي على دماء {PAWN_nameDef}</CannotBloodfeedOn>
+  <!-- EN: Not enough blood. -->
+  <CannotFeedOnWouldKill>لا يوجد دم كافٍ.</CannotFeedOnWouldKill>
+
+  <!-- BreastfeedFailReason strings-->
+  <!-- EN: {MOM_labelShort} does not have enough milk -->
+  <BreastfeedFailReason_MomNotEnoughMilk>لا تملك {MOM_labelShort} الحليب الكافي</BreastfeedFailReason_MomNotEnoughMilk>
+  <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
+  <BreastfeedFailReason_MomInMentalState>لا يمكن لـ {MOM_labelShort} الإرضاع طبيعياً الآن</BreastfeedFailReason_MomInMentalState>
+  <!-- EN: {BABY_labelShort} is too full to suckle -->
+  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} ممتلئ جداً بحيث لا يمكنه الرضاعة</BreastfeedFailReason_BabyTooFull>
+  <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
+  <BreastfeedFailReason_BabyForbiddenToMom>يُحظر وصول {MOM_labelShort} إلى {BABY_labelShort}</BreastfeedFailReason_BabyForbiddenToMom>
+  <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
+  <BreastfeedFailReason_BabyForbiddenToHauler>يُحظر وصول {HAULER_labelShort} إلى {BABY_labelShort}</BreastfeedFailReason_BabyForbiddenToHauler>
+  <!-- EN: {MOM_labelShort} is forbidden to {HAULER_labelShort} -->
+  <BreastfeedFailReason_MomForbiddenToHauler>يُحظر وصول {HAULER_labelShort} إلى {MOM_labelShort}</BreastfeedFailReason_MomForbiddenToHauler>
+  <!-- EN: {MOM_labelShort} can breastfeed {BABY_labelShort} without help -->
+  <BreastfeedFailReason_MomIsMobile>يمكن لـ {MOM_labelShort} إرضاع {BABY_labelShort} دون مساعدة</BreastfeedFailReason_MomIsMobile>
+  <!-- EN: {HAULER_labelShort} cannot go from {BABY_labelShort} to {MOM_labelShort} -->
+  <BreastfeedFailReason_HaulerCannotReachMom>لا يمكن لـ {HAULER_labelShort} الانتقال من {BABY_labelShort} إلى {MOM_labelShort}</BreastfeedFailReason_HaulerCannotReachMom>
+  <!-- EN: {HAULER_labelShort} cannot reach {BABY_labelShort} -->
+  <BreastfeedFailReason_HaulerCannotReachBaby>لا يمكن لـ {HAULER_labelShort} الوصول إلى {BABY_labelShort}</BreastfeedFailReason_HaulerCannotReachBaby>
+  <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
+  <BreastfeedFailReason_NoMomsAssignedToBaby>لم يتم تعيين أي من الـ {BABY_factionPawnsPlural} المرضعات لـ {BABY_labelShort}</BreastfeedFailReason_NoMomsAssignedToBaby>
+  <!-- EN: {MOM_labelShort} is not assigned to childcare -->
+  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} غير مكلفة برعاية الأطفال</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <!-- EN: {MOM_labelShort} is inside a container -->
+  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort} داخل حاوية</BreastfeedFailReason_MomInsideContainer>
+  <!-- EN: {MOM_labelShort} is being carried -->
+  <BreastfeedFailReason_MomBeingCarried>يتم حمل {MOM_labelShort} حالياً</BreastfeedFailReason_MomBeingCarried>
+
+  <!-- EN: Order implantation into {PAWN_nameDef} -->
+  <OrderImplantationIntoPawn>الأمر بالزرع في {PAWN_nameDef}</OrderImplantationIntoPawn>
+  <!-- EN: Accept {0_xenotype} xenogerm -->
+  <AcceptXenogerm>قبول جرثومة {0_xenotype} الغريبة</AcceptXenogerm>
+
+  <!-- EN: Carry {PAWN_labelShort} to recharger -->
+  <CarryToRechargerOrdered>حمل {PAWN_labelShort} إلى الشاحن</CarryToRechargerOrdered>
+  <!-- EN: Cannot carry {PAWN_labelShort} to recharger -->
+  <CannotCarryToRecharger>تعذر حمل {PAWN_labelShort} إلى الشاحن</CannotCarryToRecharger>
+  <!-- EN: No available recharger -->
+  <CannotCarryToRechargerNoneAvailable>لا يوجد شاحن متاح</CannotCarryToRechargerNoneAvailable>
+
+  <!-- EN: Hemogen packs disabled by food restriction. -->
+  <NotAllowedHemogen>تم تعطيل حزم الهيموجين بسبب قيود الغذاء.</NotAllowedHemogen>
+
+  <!-- EN: Eject genepack from gene bank -->
+  <EjectGenepackFromGeneBank>إخراج حزمة الجينات من بنك الجينات</EjectGenepackFromGeneBank>
+
+  <!-- EN: Resulting metabolism would be too low -->
+  <ResultingMetTooLow>الأيض الناتج سيكون منخفضاً جداً</ResultingMetTooLow>
+
+  <!-- EN: attempted romance too recently -->
+  <RomanceOnCooldown>حاول الدخول في علاقة عاطفية مؤخراً جداً</RomanceOnCooldown>
+
+  <!-- EN: Take to safe location -->
+  <CarryToSafePlace>النقل إلى مكان آمن</CarryToSafePlace>
+  <!-- EN: Cannot take to safe location -->
+  <CannotCarryToSafePlace>تعذر النقل إلى مكان آمن</CannotCarryToSafePlace>
+  <!-- EN: No safer location than current location -->
+  <NoBetterSafePlace>لا يوجد مكان أكثر أماناً من الموقع الحالي</NoBetterSafePlace>
+  <!-- EN: Already taking to safe location -->
+  <AlreadyCarryingToSafePlace>يتم النقل إلى مكان آمن بالفعل</AlreadyCarryingToSafePlace>
+
+</LanguageData>

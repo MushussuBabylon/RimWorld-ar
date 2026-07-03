@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: acid spit -->
+  <Bullet_Shell_AcidSpit.label>بصاق حمضي</Bullet_Shell_AcidSpit.label>
+  
+  <!-- EN: fleshbulb -->
+  <Fleshbulb.label>كتلة لحمية</Fleshbulb.label>
+  <!-- EN: A bulbous mass of flesh. These fleshbeast organs store and refine nutrients for surrounding fleshmass. The chemical process generates a soft bioluminescent glow. -->
+  <Fleshbulb.description>كتلة لحمية منتفخة. تخزن أعضاء وحش اللحم هذه العناصر الغذائية وتكررها لكتلة اللحم المحيطة. تولد العملية الكيميائية توهجاً حيوياً خافتاً.</Fleshbulb.description>
+  
+  <!-- EN: fleshmass -->
+  <Fleshmass.label>كتلة لحمية</Fleshmass.label>
+  <!-- EN: A solid mass of twisted flesh. It throbs and shivers with horrible life. -->
+  <Fleshmass.description>كتلة صلبة من لحم ملتو. تنبض وترتعش بحياة مرعبة.</Fleshmass.description>
+  
+  <!-- EN: fleshmass -->
+  <Fleshmass_Active.label>كتلة لحمية</Fleshmass_Active.label>
+  <!-- EN: A solid mass of twisted flesh. It throbs and shivers with horrible life. -->
+  <Fleshmass_Active.description>كتلة صلبة من لحم ملتو. تنبض وترتعش بحياة مرعبة.</Fleshmass_Active.description>
+  
+  <!-- EN: fleshmass heart -->
+  <FleshmassHeart.label>قلب كتلة اللحم</FleshmassHeart.label>
+  <!-- EN: The primary organ of a fleshmass infestation. The heart gathers material through roots extended into the ground. Once it has collected enough, it spreads fleshmass around itself in a spurt of cancer-like growth. It will keep growing until it consumes everything.\n\nThe heart grows fleshmass spitters. These defensive organs can spit acid long distances. The heart will also generate fleshbeast defenders to protect itself.\n\nUltra-rapid regeneration makes the heart nearly invulnerable. It can only be killed by analyzing samples taken from the nerve bundles that form within its growing mass. -->
+  <FleshmassHeart.description>العضو الأساسي لاجتياح كتلة اللحم. يجمع القلب المادة عبر جذور ممتدة في الأرض. بمجرد أن يجمع ما يكفي، ينشر كتلة اللحم حول نفسه في دفقة من النمو السرطاني. سيستمر في النمو حتى يلتهم كل شيء.\n\nينمو القلب باصقات كتلة لحمية. هذه الأعضاء الدفاعية يمكنها بصق الحمض لمسافات طويلة. سيولد القلب أيضاً مدافعين من وحوش اللحم لحماية نفسه.\n\nالتجديد السريع للغاية يجعل القلب شبه محصن. لا يمكن قتله إلا بتحليل عينات مأخوذة من الحزم العصبية التي تتشكل داخل كتلته المتنامية.</FleshmassHeart.description>
+  <!-- EN: Use electrical pulses to induce a tachycardiac overload and kill the fleshmass heart. -->
+  <FleshmassHeart.comps.CompDestroyHeart.activateDescString>استخدم نبضات كهربائية لإحداث حمل تسارعي زائد وقتل قلب كتلة اللحم.</FleshmassHeart.comps.CompDestroyHeart.activateDescString>
+  <!-- EN: Induce tachycardiac death... -->
+  <FleshmassHeart.comps.CompDestroyHeart.activateLabelString>إحداث موت تسارعي...</FleshmassHeart.comps.CompDestroyHeart.activateLabelString>
+  <!-- EN: Inducing tachycardiac death: {1}s -->
+  <FleshmassHeart.comps.CompDestroyHeart.activatingString>إحداث موت تسارعي: {1} ثانية</FleshmassHeart.comps.CompDestroyHeart.activatingString>
+  <!-- EN: Inducing tachycardiac death -->
+  <FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>إحداث موت تسارعي</FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <FleshmassHeart.comps.CompDestroyHeart.guiLabelString>اختر من سيقوم بهذا</FleshmassHeart.comps.CompDestroyHeart.guiLabelString>
+  <!-- EN: Induce tachycardiac death -->
+  <FleshmassHeart.comps.CompDestroyHeart.jobString>إحداث موت تسارعي</FleshmassHeart.comps.CompDestroyHeart.jobString>
+  
+  <!-- EN: underground emergence -->
+  <FleshmassHeartSpawner.label>بزوغ تحت أرضي</FleshmassHeartSpawner.label>
+  <!-- EN: Something is emerging from the ground here. -->
+  <FleshmassHeartSpawner.description>شيء ما يبزغ من الأرض هنا.</FleshmassHeartSpawner.description>
+  <!-- EN: Fleshmass heart -->
+  <FleshmassHeartSpawner.building.groundSpawnerLetterLabel>قلب كتلة لحمية</FleshmassHeartSpawner.building.groundSpawnerLetterLabel>
+  <!-- EN: A fleshmass heart has emerged! This cancer-like creature will expand its living mass across the surface.\n\nThe heart itself is invulnerable to normal weapons. Fleshmass nerve bundles will soon appear - attack them to gather samples and find a way to kill the heart. -->
+  <FleshmassHeartSpawner.building.groundSpawnerLetterText>بزغ قلب كتلة لحمية! سيوسع هذا المخلوق السرطاني كتلته الحية عبر السطح.\n\nالقلب نفسه محصن ضد الأسلحة العادية. ستظهر حزم عصبية لكتلة اللحم قريباً - هاجمها لجمع عينات وإيجاد طريقة لقتل القلب.</FleshmassHeartSpawner.building.groundSpawnerLetterText>
+  
+  <!-- EN: fleshmass spitter -->
+  <FleshmassSpitter.label>باصقة كتلة لحمية</FleshmassSpitter.label>
+  <!-- EN: A defensive fleshmass organ that can spit acid long distances. The acid is a natural byproduct of toxins filtered from the surrounding biomass. -->
+  <FleshmassSpitter.description>عضو دفاعي من كتلة اللحم يمكنه بصق الحمض لمسافات طويلة. الحمض منتج ثانوي طبيعي للسموم المصفاة من الكتلة الحيوية المحيطة.</FleshmassSpitter.description>
+  <!-- EN: fleshmass spitter -->
+  <FleshmassSpitter.verbs.Verb_Shoot.label>باصقة كتلة لحمية</FleshmassSpitter.verbs.Verb_Shoot.label>
+  
+  <!-- EN: flesh sack -->
+  <FleshSack.label>كيس لحمي</FleshSack.label>
+  <!-- EN: A swollen lump of flesh with something inside. These stationary fleshbeasts act as digestive organs, supplying the surrounding fleshmass with nutrients. However, they're unable to break down non-organic matter, meaning that valuable items can occasionally be found within. -->
+  <FleshSack.description>كتلة لحمية منتفخة بداخلها شيء. تعمل وحوش اللحم الثابتة هذه كأعضاء هضمية، تزود كتلة اللحم المحيطة بالعناصر الغذائية. لكنها غير قادرة على تفكيك المواد غير العضوية، مما يعني أنه يمكن أحياناً العثور على أشياء قيمة بداخلها.</FleshSack.description>
+  
+  <!-- EN: nerve bundle -->
+  <NerveBundle.label>حزمة عصبية</NerveBundle.label>
+  <!-- EN: A junction point in the fleshmass nervous system. When destroyed, it leaves behind a lump of neural tissue that you can study. Study enough different neural lumps and you can unlock a way to kill the fleshmass heart itself. -->
+  <NerveBundle.description>نقطة تقاطع في الجهاز العصبي لكتلة اللحم. عندما تدمر، تخلف وراءها كتلة من نسيج عصبي يمكنك دراسته. ادرس ما يكفي من الكتل العصبية المختلفة ويمكنك فتح طريقة لقتل قلب كتلة اللحم نفسه.</NerveBundle.description>
+  <!-- EN: Kill to collect: Neural lump -->
+  <NerveBundle.comps.CompInspectString.inspectString>اقتل لتجمع: كتلة عصبية</NerveBundle.comps.CompInspectString.inspectString>
+  
+</LanguageData>

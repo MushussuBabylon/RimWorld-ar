@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: try to get to know -->
+  <BuildRapport.label>محاولة التعارف</BuildRapport.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] about [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] described [subject] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] encouraged [RECIPIENT_nameDef] to [talkabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] offered a chance for [RECIPIENT_nameDef] to [talkabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] expressed interest in [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] about [RECIPIENT_possessive] [PersonalCharacteristic].</li>
+    <li>toldastoryabout(p=2)->أخبر قصة عن</li>
+    <li>toldastoryabout->أخبر قصة مضحكة عن</li>
+    <li>toldastoryabout->أخبر قصة مؤثرة عن</li>
+    <li>toldastoryabout->أخبر قصة قديمة عن</li>
+    <li>toldastoryabout->أخبر قصة عائلية عن</li>
+    <li>toldastoryabout->أخبر قصة طفولة عن</li>
+    <li>toldastoryabout->ذكر حكاية عن</li>
+    <li>talkabout->تحدث عن</li>
+    <li>talkabout->ناقش</li>
+    <li>talkabout->أجرى نقاشاً حول</li>
+    <li>talkabout->سأل عن</li>
+    <li>talkabout->فكر في</li>
+    <li>talkabout->وجد أرضية مشتركة حول</li>
+    <li>subject->المستعمرة</li>
+    <li>subject->المجتمع</li>
+    <li>subject->الانضمام إلى المستعمرة</li>
+    <li>subject->تغيير الفريق</li>
+    <li>subject->إيجاد الأصدقاء</li>
+    <li>subject->لقاء أناس جدد</li>
+    <li>subject->إعادة النظر في أفكار [RECIPIENT_possessive]</li>
+    <li>subject->إعادة التفكير في ولاءات [RECIPIENT_possessive]</li>
+    <li>subject->الصحة</li>
+    <li>subject->المستقبل</li>
+    <li>subject->التخلي</li>
+    <li>subject(p=4)->[ConceptPositive]</li>
+    <li>subject(p=2)->[PersonalCharacteristic] الخاصة بـ [INITIATOR_possessive]</li>
+    <li>subject(p=8)->[TalkTopicLight]</li>
+ </BuildRapport.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: recruit attempt -->
+  <RecruitAttempt.label>محاولة تجنيد</RecruitAttempt.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] to join.</li>
+    <li>r_logentry->[INITIATOR_nameDef] promised [goodthing] to [RECIPIENT_nameDef], and asked [RECIPIENT_objective] to join.</li>
+    <li>goodthing(p=15)->[ConceptPositive]</li>
+    <li>goodthing->free, fresh [Vegetable]s</li>
+  -->
+  <RecruitAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] طلب من [RECIPIENT_nameDef] الانضمام.</li>
+    <li>r_logentry->[INITIATOR_nameDef] وعد [RECIPIENT_nameDef] بـ [goodthing]، وطلب منه الانضمام.</li>
+    <li>goodthing(p=15)->[ConceptPositive]</li>
+    <li>goodthing->[Vegetable] طازجة ومجانية</li>
+ </RecruitAttempt.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: spark jailbreak -->
+  <SparkJailbreak.label>إشعال الهروب من السجن</SparkJailbreak.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] spoke about the joy of [freedom], and offered a means of escape.</li>
+    <li>r_logentry->[INITIATOR_nameDef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>
+    <li>r_logentry->[INITIATOR_nameDef] demonstrated a means of escape to [RECIPIENT_nameDef], and promised [freedom].</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that security is lax, and encouraged escape.</li>
+    <li>freedom->freedom</li>
+    <li>freedom->opportunity</li>
+    <li>freedom->home</li>
+    <li>freedom->self-determination</li>
+  -->
+  <SparkJailbreak.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] تحدث عن بهجة [freedom]، وعرض وسيلة للهرب.</li>
+    <li>r_logentry->[INITIATOR_nameDef] تحدث عن جمال [TerrainFeature]، وعرض الحرية.</li>
+    <li>r_logentry->[INITIATOR_nameDef] أوضح وسيلة للهرب لـ [RECIPIENT_nameDef]، ووعده بـ [freedom].</li>
+    <li>r_logentry->[INITIATOR_nameDef] أخبر [RECIPIENT_nameDef] أن الإجراءات الأمنية ضعيفة، وشجعه على الهرب.</li>
+    <li>freedom->الحرية</li>
+    <li>freedom->الفرصة</li>
+    <li>freedom->المنزل</li>
+    <li>freedom->تقرير المصير</li>
+ </SparkJailbreak.logRulesInitiator.rulesStrings>
+  
+</LanguageData>

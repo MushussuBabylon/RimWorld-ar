@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: The recipe {0} requires a mechanitor to work on it. None of your colonists are mechanitors, so nobody will do this bill. -->
+  <RecipeRequiresMechanitor>الوصفة {0} تتطلب ميكانيتوراً للعمل عليها. لا يوجد ميكانيتور بين مستعمريك، لذا لن يقوم أحد بهذه الفاتورة.</RecipeRequiresMechanitor>
+
+  <!-- EN: genepacks -->
+  <GenepackPlural>عبوات جينات</GenepackPlural>
+  <!-- EN: Traits develop later during childhood -->
+  <TraitsDevelopLaterBaby>تتطور السمات لاحقاً خلال الطفولة</TraitsDevelopLaterBaby>
+  <!-- EN: Skills develop later during childhood -->
+  <SkillsDevelopLaterBaby>تتطور المهارات لاحقاً خلال الطفولة</SkillsDevelopLaterBaby>
+  <!-- EN: Genes -->
+  <TabGenes>الجينات</TabGenes>
+
+  <!-- EN: View genes -->
+  <ViewGenes>عرض الجينات</ViewGenes>
+  <!-- EN: Click to view {PAWN_nameDef}'s genes. -->
+  <ViewGenesDesc>انقر لعرض جينات {PAWN_nameDef}.</ViewGenesDesc>
+
+  <!-- Feeding tab (human babies) -->
+  <!-- EN: Feeding -->
+  <TabFeeding>التغذية</TabFeeding>
+  <!-- EN: Auto feed settings -->
+  <AutofeedSectionHeader>إعدادات التغذية التلقائية</AutofeedSectionHeader>
+  <!-- EN: never -->
+  <AutofeedModeNever>أبداً</AutofeedModeNever>
+  <!-- EN: childcare -->
+  <AutofeedModeChildcare>رعاية الطفل</AutofeedModeChildcare>
+  <!-- EN: urgent -->
+  <AutofeedModeUrgent>عاجل</AutofeedModeUrgent>
+  <!-- EN: Nobody can feed this baby. -->
+  <AutofeedNone>لا أحد يستطيع إطعام هذا الطفل.</AutofeedNone>
+  <!-- EN: {FEEDER_nameDef} will not automatically feed {BABY_nameDef}. -->
+  <AutofeedModeTooltipNever>{FEEDER_nameDef} لن يقوم بإطعام {BABY_nameDef} تلقائياً.</AutofeedModeTooltipNever>
+  <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} as childcare work. -->
+  <AutofeedModeTooltipChildcare>{FEEDER_nameDef} سيقوم بإطعام {BABY_nameDef} كعمل رعاية أطفال.</AutofeedModeTooltipChildcare>
+  <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} day or night, even if {FEEDER_nameDef} is not assigned to childcare or is incapable of childcare. -->
+  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} سيقوم بإطعام {BABY_nameDef} ليلاً أو نهاراً، حتى لو لم يكن {FEEDER_nameDef} معيناً لرعاية الأطفال أو غير قادر على رعاية الأطفال.</AutofeedModeTooltipUrgent>
+  <!-- EN: Consumable foods -->
+  <BabyFoodConsumables>الأطعمة المستهلكة</BabyFoodConsumables>
+
+  <!-- Social tab (human babies) -->
+  <!-- EN: ideoligion exposure -->
+  <IdeoExposureSectionHeader>التعرض للعقائد</IdeoExposureSectionHeader>
+  <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
+  <IdeoExposureNoExposure>{BABY_labelShort} لم يتعرض لأي عقيدة بعد.</IdeoExposureNoExposure>
+  <!-- EN: {BABY_pronoun} can be exposed to ideoligions by interacting with followers of an ideoligion. These interactions include being breastfed, carried, played with, and more. At the age of {CHILDAGE} {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to. -->
+  <IdeoExposureNoExposureDetail>{BABY_pronoun} يمكن أن يتعرض للعقائد بالتفاعل مع أتباع العقيدة. هذه التفاعلات تشمل الرضاعة، الحمل، اللعب، وغيرها. في سن {CHILDAGE} سينضم {BABY_labelShort} إلى إحدى العقائد التي تعرض لها.</IdeoExposureNoExposureDetail>
+  <!-- EN: {BABY_labelShort} is {PERCENT} likely to join the ideoligion {IDEO_name}. -->
+  <IdeoExposurePointsTooltipJoinLikelihood>من المحتمل بنسبة {PERCENT} أن ينضم {BABY_labelShort} إلى عقيدة {IDEO_name}.</IdeoExposurePointsTooltipJoinLikelihood>
+  <!-- EN: As {BABY_labelShort} interacts with followers of an ideoligion {BABY_pronoun} becomes more likely to join that ideoligion. {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to at the age of {CHILDAGE}. -->
+  <IdeoExposurePointsTooltipJoinDescription>كلما تفاعل {BABY_labelShort} مع أتباع عقيدة ما، زاد احتمال انضمام {BABY_pronoun} لتلك العقيدة. سينضم {BABY_labelShort} إلى إحدى العقائد التي تعرض لها في سن {CHILDAGE}.</IdeoExposurePointsTooltipJoinDescription>
+  <!-- EN: Ideoligion exposure is measured by exposure points. Interactions like being breastfed, carried, or played with will cause {BABY_labelShort} to gain exposure points for the ideoligions followed by those {BABY_pronoun} interacts with. -->
+  <IdeoExposurePointsTooltipExposureDescription>يُقاس التعرض للعقائد بنقاط التعرض. تفاعلات مثل الرضاعة، الحمل، أو اللعب ستجعل {BABY_labelShort} يكتسب نقاط تعرض للعقائد التي يتبعها أولئك الذين يتفاعل معهم {BABY_pronoun}.</IdeoExposurePointsTooltipExposureDescription>
+  <!-- EN: {IDEO_name} exposure points -->
+  <IdeoExposurePointsTooltipIdeoExposure>نقاط التعرض لعقيدة {IDEO_name}</IdeoExposurePointsTooltipIdeoExposure>
+  <!-- EN: Total exposure points -->
+  <IdeoExposurePointsTooltipTotalExposure>إجمالي نقاط التعرض</IdeoExposurePointsTooltipTotalExposure>
+
+  <!-- Social tab (romance) -->
+  <!-- EN: Romance -->
+  <TryRomanceButtonLabel>مغازلة</TryRomanceButtonLabel>
+  <!-- EN: Nobody for {0_labelShort} to romance. -->
+  <TryRomanceNoOptsMessage>لا يوجد أحد لـ {0_labelShort} لمغازلته.</TryRomanceNoOptsMessage>
+  <!-- EN: unreachable -->
+  <CantRomanceTargetUnreachable>لا يمكن الوصول إليه</CantRomanceTargetUnreachable>
+  <!-- EN: sleeping -->
+  <CantRomanceTargetSleeping>نائم</CantRomanceTargetSleeping>
+  <!-- EN: incapacitated -->
+  <CantRomanceTargetDowned>عاجز</CantRomanceTargetDowned>
+  <!-- EN: drafted -->
+  <CantRomanceTargetDrafted>مجند</CantRomanceTargetDrafted>
+  <!-- EN: mental break -->
+  <CantRomanceTargetMentalState>انهيار نفسي</CantRomanceTargetMentalState>
+  <!-- EN: incestuous -->
+  <CantRomanceTargetIncest>زنا محارم</CantRomanceTargetIncest>
+  <!-- EN: low opinion -->
+  <CantRomanceTargetOpinion>رأي منخفض</CantRomanceTargetOpinion>
+  <!-- EN: incompatible orientation -->
+  <CantRomanceTargetSexuality>توجه غير متوافق</CantRomanceTargetSexuality>
+  <!-- EN: prisoner -->
+  <CantRomanceTargetPrisoner>سجين</CantRomanceTargetPrisoner>
+  <!-- EN: too young -->
+  <CantRomanceTargetYoung>صغير جداً</CantRomanceTargetYoung>
+  <!-- EN: zero chance -->
+  <CantRomanceTargetZeroChance>فرصة صفر</CantRomanceTargetZeroChance>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort} لا يمكنه المحاولة لأنه سجين.</CantRomanceInitiateMessagePrisoner>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
+  <CantRomanceInitiateMessageSlave>{0_labelShort} لا يمكنه المحاولة لأنه عبد.</CantRomanceInitiateMessageSlave>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
+  <CantRomanceInitiateMessageAsexual>{0_labelShort} لا يمكنه المحاولة لأنه لديه سمة اللاجنسية.</CantRomanceInitiateMessageAsexual>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
+  <CantRomanceInitiateMessageDowned>{0_labelShort} لا يمكنه المحاولة لأنه عاجز.</CantRomanceInitiateMessageDowned>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
+  <CantRomanceInitiateMessageDrafted>{0_labelShort} لا يمكنه المحاولة لأنه مجند.</CantRomanceInitiateMessageDrafted>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
+  <CantRomanceInitiateMessageMentalState>{0_labelShort} لا يمكنه المحاولة لأنه في حالة نفسية غير مناسبة.</CantRomanceInitiateMessageMentalState>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
+  <CantRomanceInitiateMessageTalk>{0_labelShort} لا يمكنه المحاولة لأنه غير قادر على الكلام.</CantRomanceInitiateMessageTalk>
+  <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
+  <CantRomanceInitiateMessageCooldown>{0_labelShort} حاول المغازلة مؤخراً ويجب أن ينتظر {1} حتى يحاول مجدداً.</CantRomanceInitiateMessageCooldown>
+  <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
+  <TryRomanceFailedMessage>محاولة {0_labelShort} لمغازلة {1_labelShort} لم تنجح.</TryRomanceFailedMessage>
+  <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
+  <RomanceExistingRelationshipWarning>قيام {INITIATOR_nameDef} بمغازلة {TARGET_nameDef} قد يزرع الاستياء بين الشركاء الحاليين، ويؤدي إلى انفصالات، ويسبب مشاحنات.</RomanceExistingRelationshipWarning>
+  <!-- EN: Romance chance -->
+  <RomanceChance>فرصة المغازلة</RomanceChance>
+  <!-- EN: already {PAWN_nameDef}'s {RELATION} -->
+  <RomanceChanceExistingRelation>بالفعل {RELATION} لـ {PAWN_nameDef}</RomanceChanceExistingRelation>
+  <!-- EN: Cannot romance -->
+  <RomanceChanceCant>لا يمكن المغازلة</RomanceChanceCant>
+  <!-- EN: Relative age -->
+  <RomanceChanceAgeFactor>العمر النسبي</RomanceChanceAgeFactor>
+  <!-- EN: Beauty -->
+  <RomanceChanceBeautyFactor>الجمال</RomanceChanceBeautyFactor>
+  <!-- EN: Opinion -->
+  <RomanceChanceOpinionFactor>الرأي</RomanceChanceOpinionFactor>
+  <!-- EN: Opinion of partner -->
+  <RomanceChancePartnerFactor>رأي الشريك</RomanceChancePartnerFactor>
+  <!-- EN: {0_labelShort} was unable to romance {1_labelShort} -->
+  <RomanceFailedUnexpected>لم يتمكن {0_labelShort} من مغازلة {1_labelShort}</RomanceFailedUnexpected>
+  <!-- EN: {0_nameDef} is already in a relationship. -->
+  <RomanceWarningMonogamous>{0_nameDef} هو بالفعل في علاقة.</RomanceWarningMonogamous>
+  <!-- EN: {0_nameDef} already has {1} partners. -->
+  <RomanceWarningPolygamous>{0_nameDef} لديه بالفعل {1} شركاء.</RomanceWarningPolygamous>
+
+  <!-- Guest tab (prisoners) -->
+  <!-- EN: Genes -->
+  <FactorForGenes>الجينات</FactorForGenes>
+  <!-- EN: Prison breaking is disabled by {GENE_label} gene. -->
+  <PrisonBreakingDisabledDueToGene>تعطيل محاولات الهروب من السجن بواسطة جين {GENE_label}.</PrisonBreakingDisabledDueToGene>
+
+</LanguageData>

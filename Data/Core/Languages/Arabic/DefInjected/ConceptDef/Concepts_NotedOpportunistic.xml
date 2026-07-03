@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Animals will attack doors -->
+  <AnimalsDontAttackDoors.label>الحيوانات ستهاجم الأبواب</AnimalsDontAttackDoors.label>
+  <!-- EN: Manhunting animals will attack doors if they see one of your colonists moving through them. They will also attack inactive turrets. -->
+  <AnimalsDontAttackDoors.helpText>تهاجم الحيوانات الباحثة عن البشر الأبواب إذا رأت أحد مستعمرك يتحرك عبرها. كما ستهاجم الأبراج غير النشطة.</AnimalsDontAttackDoors.helpText>
+  
+  <!-- EN: Bills tab -->
+  <BillsTab.label>جدول الفواتير</BillsTab.label>
+  <!-- EN: To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher. -->
+  <BillsTab.helpText>لجعل المستعمرين يعملون على طاولة، اختر الطاولة وافتح جدول الفواتير. هنا، يمكنك تحديد الوجبات المطلوب طهيها، والأشياء المطلوب صنعها، والمخلوقات المطلوب جزرها.</BillsTab.helpText>
+  
+  <!-- EN: books -->
+  <Books.label>الكتب</Books.label>
+  <!-- EN: Colonists read books for recreation, to gain skills, to unlock research, and more. You can see a specific book's effects by selecting it and opening its 'Details' tab.\n\nTo choose what colonists will read, open the ASSIGN tab and configure READING POLICIES.\n\nStore books in bookcases to passively enhance intellectual and reading work done nearby, and increase the beauty of the bookcase. Bookcases passively increase research speed, XP gained from reading, and recreation gained from reading in the same room. -->
+  <Books.helpText>يقرأ المستعمرون الكتب للترفيه، ولاكتساب المهارات، وفتح الأبحاث، وغيرها. يمكنك رؤية تأثيرات كتاب معين باختياره وفتح جدول 'التفاصيل'.\n\nلاختيار ما سيقرأه المستعمرون، افتح جدول التخصيص واضبط سياسات القراءة.\n\nخزن الكتب في خزائن الكتب لتعزيز الأعمال الفكرية والقراءة بالقرب منها بشكل سلبي، ولزيادة جمال خزانة الكتب. تزيد خزائن الكتب بشكل سلبي من سرعة البحث، ونقاط الخبرة المكتسبة من القراءة، والترفيه المكتسب من القراءة في نفس الغرفة.</Books.helpText>
+  
+  <!-- EN: Build orbital trade beacon -->
+  <BuildOrbitalTradeBeacon.label>بناء منارة تجارة مدارية</BuildOrbitalTradeBeacon.label>
+  <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
+  <BuildOrbitalTradeBeacon.helpText>لإرسال الأغراض أو الفضة إلى التجار المداريين، يجب عليك بناء منارة تجارة مدارية ووضع مخزن للأغراض بالقرب منها.</BuildOrbitalTradeBeacon.helpText>
+  
+  <!-- EN: Capturing -->
+  <Capturing.label>الأسر</Capturing.label>
+  <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
+  <Capturing.helpText>عندما يسقط عدو على الأرض لكنه لم يمت بعد، يمكنك أسره.\n\nللأسر، اختر مستعمرا، واضغط بزر الماوس الأيمن على العدو العاجز، واختر "أسر".\n\nستحتاج إلى سرير إضافي معلم لاستخدام السجناء.</Capturing.helpText>
+  <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, press the left trigger button on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
+  <Capturing.helpTextController>عندما يسقط عدو على الأرض لكنه لم يمت بعد، يمكنك أسره.\n\nللأسر، اختر مستعمرا، واضغط على زر الزناد الأيسر على العدو العاجز، واختر "أسر".\n\nستحتاج إلى سرير إضافي معلم لاستخدام السجناء.</Capturing.helpTextController>
+  
+  <!-- EN: Door opening speeds -->
+  <DoorOpenSpeed.label>سرعات فتح الأبواب</DoorOpenSpeed.label>
+  <!-- EN: Doors open at different speeds depending on what they're made of.\n\nWarning: Stone doors open very slowly. Anyone passing through will be significantly slowed down. -->
+  <DoorOpenSpeed.helpText>تفتح الأبواب بسرعات مختلفة حسب المادة المصنوعة منها.\n\nتحذير: الأبواب الحجرية تفتح ببطء شديد. أي شخص يعبر من خلالها سيتباطأ بشكل ملحوظ.</DoorOpenSpeed.helpText>
+  
+  <!-- EN: Drafting for combat -->
+  <Drafting.label>التجنيد للقتال</Drafting.label>
+  <!-- EN: To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.\n\nA drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\n\nDon't leave colonists Drafted forever - they'll starve and become unhappy. -->
+  <Drafting.helpText>للتحكم المباشر بالمستعمرين في القتال، جندهم باختيارهم والضغط على زر التجنيد.\n\nالمستعمر المجند سيفعل فقط ما تأمره به، ولا يمكنه سوى القيام بأعمال قتالية. من يحمل سلاحا سيستخدمه كلما أمكن.\n\nلا تترك المستعمرين مجندين للأبد - سيتضورون جوعا ويصبحون تعساء.</Drafting.helpText>
+  
+  <!-- EN: Drug addiction -->
+  <DrugAddiction.label>إدمان المخدرات</DrugAddiction.label>
+  <!-- EN: You can inspect your colonists' desire to take a drug in their Needs tab.\n\nAs long as their need level is at zero, their addiction changes to a "withdrawal" state which can have various negative side effects.\n\nHowever, after long enough in withdrawal, their addiction will end and the drug need will disappear. -->
+  <DrugAddiction.helpText>يمكنك تفقد رغبة مستعمريك في تعاطي مخدر من جدول احتياجاتهم.\n\nطالما أن مستوى حاجتهم عند الصفر، يتحول إدمانهم إلى حالة "انسحاب" قد تسبب تأثيرات جانبية سلبية متنوعة.\n\nلكن، بعد فترة انسحاب كافية، سينتهي إدمانهم وستختفي حاجة المخدر.</DrugAddiction.helpText>
+  
+  <!-- EN: Drug burning -->
+  <DrugBurning.label>حرق المخدرات</DrugBurning.label>
+  <!-- EN: Drugs can be useful, but can also lead to harmful addictions.\n\nIf you want to avoid drugs in your colony, you have the option of burning them at a campfire. -->
+  <DrugBurning.helpText>يمكن أن تكون المخدرات مفيدة، لكنها قد تؤدي أيضا إلى إدمان ضار.\n\nإذا أردت تجنب المخدرات في مستعمرتك، لديك خيار حرقها في نار المخيم.</DrugBurning.helpText>
+  
+  <!-- EN: Drug policies -->
+  <DrugPolicies.label>سياسات المخدرات</DrugPolicies.label>
+  <!-- EN: You can assign colonists to take specific drugs on a specific schedule. For example, you can make them take infection-blocking drugs regularly, or drink a beer a day to stay happy.\n\nOpen the ASSIGN tab and press the 'Manage drug policies' button. Create a new drug policy. Then, you can assign this policy to colonists.\n\nColonists can still take drugs not in their policy. You can tell them what to do, but they also follow their own desires! -->
+  <DrugPolicies.helpText>يمكنك تخصيص مستعمرين لتعاطي مخدرات معينة بجدول محدد. مثلا، يمكنك جعلهم يتعاطون أدوية منع العدوى بانتظام، أو يشربون بيرة يوميا للبقاء سعداء.\n\nافتح جدول التخصيص واضغط على زر 'إدارة سياسات المخدرات'. أنشئ سياسة مخدرات جديدة. بعدها، يمكنك تعيين هذه السياسة للمستعمرين.\n\nيمكن للمستعمرين أن يتعاطوا مخدرات غير المدرجة في سياستهم. يمكنك إخبارهم بما يفعلون، لكنهم يتبعون رغباتهم أيضا!</DrugPolicies.helpText>
+  
+  <!-- EN: Positioning fighters -->
+  <GroupGotoHereDragging.label>تموضع المقاتلين</GroupGotoHereDragging.label>
+  <!-- EN: Right-click and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
+  <GroupGotoHereDragging.helpText>اضغط بزر الماوس الأيمن واسحب لتجعل مقاتليك المجندين يشكلون صفا.\n\nانتشروا - الأهداف المتكتلة سهلة الإصابة!</GroupGotoHereDragging.helpText>
+  <!-- EN: Hold the left trigger button and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
+  <GroupGotoHereDragging.helpTextController>اضغط باستمرار على زر الزناد الأيسر واسحب لتجعل مقاتليك المجندين يشكلون صفا.\n\nانتشروا - الأهداف المتكتلة سهلة الإصابة!</GroupGotoHereDragging.helpTextController>
+  
+  <!-- EN: Interacting with traders -->
+  <InteractingWithTraders.label>التفاعل مع التجار</InteractingWithTraders.label>
+  <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to their head. -->
+  <InteractingWithTraders.helpText>يمكنك التحدث إلى الأشخاص الذين لديهم ? فوق رؤوسهم.\n\nاختر مستعمرا واضغط بزر الماوس الأيمن على الشخص المرتبط بعلامة ? فوق رأسه.</InteractingWithTraders.helpText>
+  <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and press the left trigger button on the character with ? attached to their head. -->
+  <InteractingWithTraders.helpTextController>يمكنك التحدث إلى الأشخاص الذين لديهم ? فوق رؤوسهم.\n\nاختر مستعمرا واضغط على زر الزناد الأيسر على الشخص المرتبط بعلامة ? فوق رأسه.</InteractingWithTraders.helpTextController>
+  
+  <!-- EN: Using the comms console -->
+  <OpeningComms.label>استخدام كونسول الاتصالات</OpeningComms.label>
+  <!-- EN: To communicate, select a colonist and right-click on the comms console. -->
+  <OpeningComms.helpText>للاتصال، اختر مستعمرا واضغط بزر الماوس الأيمن على كونسول الاتصالات.</OpeningComms.helpText>
+  <!-- EN: To communicate, select a colonist and press the left trigger button on the comms console. -->
+  <OpeningComms.helpTextController>للاتصال، اختر مستعمرا واضغط على زر الزناد الأيسر على كونسول الاتصالات.</OpeningComms.helpTextController>
+  
+  <!-- EN: Prisoner tab -->
+  <PrisonerTab.label>جدول السجين</PrisonerTab.label>
+  <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored, or executed, and what kind of medical care they get. You can set food restrictions for the prisoner in their health tab.\n\nColonists with the Warden work type will interact with the prisoner. -->
+  <PrisonerTab.helpText>انظر إلى جدول 'السجين' الخاص بالسجين لتحديد كيفية معاملته.\n\nيمكنك تعيين ما إذا كان سيتم تجنيده، أو تجاهله، أو إعدامه، ونوع الرعاية الطبية التي يحصل عليها. يمكنك تعيين قيود الطعام للسجين في جدول الصحة.\n\nسيتفاعل المستعمرون ذوو نوع عمل السجّان مع السجين.</PrisonerTab.helpText>
+  
+  <!-- EN: Order queueing -->
+  <QueueOrders.label>صف الأوامر</QueueOrders.label>
+  <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns. -->
+  <QueueOrders.helpText>عند إصدار الأوامر للبيادق، يمكنك صف عدة أوامر بالضغط باستمرار على "shift". يعمل هذا أيضا عند إعطاء وظائف للبيادق غير المجندين.</QueueOrders.helpText>
+  <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding {Key:QueueOrder}. This also works when giving jobs to undrafted pawns. -->
+  <QueueOrders.helpTextController>عند إصدار الأوامر للبيادق، يمكنك صف عدة أوامر بالضغط باستمرار على {Key:QueueOrder}. يعمل هذا أيضا عند إعطاء وظائف للبيادق غير المجندين.</QueueOrders.helpTextController>
+  
+  <!-- EN: Reforming caravans -->
+  <ReformCaravan.label>إعادة تشكيل القوافل</ReformCaravan.label>
+  <!-- EN: After an encounter, you can easily re-form a caravan by using the RE-FORM CARAVAN command in the World view. -->
+  <ReformCaravan.helpText>بعد لقاء، يمكنك بسهولة إعادة تشكيل قافلة باستخدام أمر إعادة تشكيل القافلة في عرض العالم.</ReformCaravan.helpText>
+  
+  <!-- EN: Rescuing -->
+  <Rescuing.label>الإنقاذ</Rescuing.label>
+  <!-- EN: To rescue a wounded person, select a healthy colonist and then right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
+  <Rescuing.helpText>لإنقاذ شخص جريح، اختر مستعمرا سليما ثم اضغط بزر الماوس الأيمن على الجريح.\n\nإذا أنقذت شخصا غير مستعمر، فلن ينضم بالضرورة إلى مستعمرتك. قد يرحل ببساطة بعد التعافي. إذا أردت ضمان انضمامه، أسره وجنده.</Rescuing.helpText>
+  <!-- EN: To rescue a wounded person, select a healthy colonist and then press the left trigger button on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
+  <Rescuing.helpTextController>لإنقاذ شخص جريح، اختر مستعمرا سليما ثم اضغط على زر الزناد الأيسر على الجريح.\n\nإذا أنقذت شخصا غير مستعمر، فلن ينضم بالضرورة إلى مستعمرتك. قد يرحل ببساطة بعد التعافي. إذا أردت ضمان انضمامه، أسره وجنده.</Rescuing.helpTextController>
+  
+  <!-- EN: Set what plant to grow -->
+  <SetGrowingZonePlant.label>تحديد النبات المراد زراعته</SetGrowingZonePlant.label>
+  <!-- EN: You can set what to plant in a growing zone. You can even grow trees!\n\nJust select the growing zone, open the Growing tab, and click the 'plant' button. -->
+  <SetGrowingZonePlant.helpText>يمكنك تحديد ما ستزرعه في منطقة زراعية. بل ويمكنك زراعة الأشجار!\n\nفقط اختر المنطقة الزراعية، وافتح جدول الزراعة، واضغط على زر 'النبات'.</SetGrowingZonePlant.helpText>
+  
+  <!-- EN: Shelves -->
+  <Shelves.label>الأرفف</Shelves.label>
+  <!-- EN: Shelves store three times as much as empty ground. Items on shelves will also never deteriorate and don't affect the beauty of their surroundings.\n\nYou can link shelves into groups and configure them as one. First, select two or more shelves, then click 'Link storage settings'. -->
+  <Shelves.helpText>تخزن الأرفف ثلاثة أضعاف ما تخزنه الأرض الخالية. كما أن الأغراض على الأرفف لا تتلف أبدا ولا تؤثر على جمال ما حولها.\n\nيمكنك ربط الأرفف في مجموعات وضبطها كوحدة واحدة. أولا، اختر رفين أو أكثر، ثم اضغط على 'ربط إعدادات التخزين'.</Shelves.helpText>
+  
+  <!-- EN: Shield belts -->
+  <ShieldBelts.label>أحزمة الدرع</ShieldBelts.label>
+  <!-- EN: Shield belts stop ranged attacks from coming in or out. They have no effect on melee attacks.\n\nTo fight against shield belts, either concentrate a lot of gunfire on the target, or fight hand-to-hand. -->
+  <ShieldBelts.helpText>تمنع أحزمة الدرع الهجمات عن بعد من الدخول أو الخروج. ليس لها تأثير على هجمات الاشتباك.\n\nللقتال ضد أحزمة الدرع، إما ركز نيرانا كثيفة على الهدف، أو قاتل وجها لوجه.</ShieldBelts.helpText>
+  
+  <!-- EN: TV for sick people -->
+  <TVForSickPeople.label>تلفاز للمرضى</TVForSickPeople.label>
+  <!-- EN: Sick people can watch TV while laying in bed. -->
+  <TVForSickPeople.helpText>يستطيع المرضى مشاهدة التلفاز أثناء الاستلقاء على السرير.</TVForSickPeople.helpText>
+  
+</LanguageData>

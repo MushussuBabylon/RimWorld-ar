@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[faction_name] is ready to grant [pawn_definite] the title of [newTitle] and the power of a level [psylinkLevel] psylink in a bestowing ceremony.\n\nThe bestower will arrive by shuttle and perform the ceremony.\n\nThe bestower will only give a title if any throneroom requirements are satisfied. There's a chance of gaining extra honor, depending on how many viewers attend the ceremony. Additionally, every viewer gains a mood bonus.\n\nYou can betray the bestower to steal psylink neuroformers, but this will make [faction_name] your enemy.\n\nIf you miss or fail this ceremony, there will be another opportunity later. If the bestower or guards are harmed for any reason, there will be diplomatic consequences.</li>
+  -->
+  <BestowingCeremony.questDescriptionRules.rulesStrings>
+    <li>questDescription->[faction_name] مستعد لمنح [pawn_definite] لقب [newTitle] وقوة رابط نفسي من المستوى [psylinkLevel] في مراسم منح.\n\nسيصل المانح في مركبة وينفذ المراسم.\n\nسيُعطي المانح اللقب فقط إذا تم استيفاء متطلبات غرفة العرش. هناك فرصة لاكتساب شرف إضافي، اعتماداً على عدد المشاهدين الذين يحضرون المراسم. بالإضافة إلى ذلك، كل مشاهد يكسب دفعة مزاجية.\n\nيمكنك خيانة المانح لسرقة مُشكِّلات عصبية للرابط النفسي، لكن هذا سيجعل [faction_name] عدوًا لك.\n\nإذا فاتتك هذه المراسم أو فشلت، ستكون هناك فرصة أخرى لاحقاً. إذا تعرض المانح أو الحراس للأذى لأي سبب، فستكون هناك عواقب دبلوماسية.</li>
+ </BestowingCeremony.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[pawn_definite]'s [newTitle] ceremony</li>
+  -->
+  <BestowingCeremony.questNameRules.rulesStrings>
+    <li>questName->مراسم [newTitle] لـ[pawn_definite]</li>
+ </BestowingCeremony.questNameRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] leaped onto [SUBJECT_definite] and began digesting [SUBJECT_objective].</li>
+  -->
+  <Event_DevourerConsumeLeap.rulePack.rulesStrings>
+    <li>r_logentry->قفز [INITIATOR_definite] على [SUBJECT_definite] وبدأ في هضم[SUBJECT_objective].</li>
+ </Event_DevourerConsumeLeap.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] vomited [SUBJECT_definite] up.</li>
+  -->
+  <Event_DevourerDigestionAborted.rulePack.rulesStrings>
+    <li>r_logentry->تقيأ [INITIATOR_definite] [SUBJECT_definite].</li>
+ </Event_DevourerDigestionAborted.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] digested [SUBJECT_definite].</li>
+  -->
+  <Event_DevourerDigestionCompleted.rulePack.rulesStrings>
+    <li>r_logentry->هضم [INITIATOR_definite] [SUBJECT_definite].</li>
+ </Event_DevourerDigestionCompleted.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] put [SUBJECT_definite] into a trance.</li>
+  -->
+  <Event_Hypnotized.rulePack.rulesStrings>
+    <li>r_logentry->وضع [INITIATOR_definite] [SUBJECT_definite] في غشية.</li>
+ </Event_Hypnotized.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] emerged from [SUBJECT_definite].</li>
+  -->
+  <Event_MetalhorrorEmerged.rulePack.rulesStrings>
+    <li>r_logentry->خرج [INITIATOR_definite] من [SUBJECT_definite].</li>
+ </Event_MetalhorrorEmerged.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] psychically incinerated [SUBJECT_definite]'s brain.</li>
+  -->
+  <Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
+    <li>r_logentry->أحرق [INITIATOR_definite] دماغ [SUBJECT_definite] نفسياً.</li>
+ </Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>verb->breathing</li>
+    <li>verb->shuddering</li>
+    <li>verb->shivering</li>
+    <li>verb->creaking</li>
+    <li>verb->rasping</li>
+    <li>verb->scraping</li>
+    <li>verb->hissing</li>
+    <li>verb->groaning</li>
+    <li>verb->grumbling</li>
+    <li>verb->chattering</li>
+    <li>verb->clicking</li>
+    <li>verb->wheezing</li>
+    <li>verb->rattling</li>
+    <li>verb->twitching</li>
+    <li>verb->gnashing</li>
+    <li>verb->coughing</li>
+  -->
+  <RevenantNoises.rulePack.rulesStrings>
+    <li>verb->تنفس</li>
+    <li>verb->ارتعاد</li>
+    <li>verb->رعشة</li>
+    <li>verb->صرير</li>
+    <li>verb->كشط</li>
+    <li>verb->خدش</li>
+    <li>verb->فحيح</li>
+    <li>verb->أنين</li>
+    <li>verb->تذمر</li>
+    <li>verb->ثرثرة</li>
+    <li>verb->طقطقة</li>
+    <li>verb->أزيز</li>
+    <li>verb->خشخشة</li>
+    <li>verb->ارتعاش</li>
+    <li>verb->صرير أسنان</li>
+    <li>verb->سعال</li>
+ </RevenantNoises.rulePack.rulesStrings>
+  
+</LanguageData>

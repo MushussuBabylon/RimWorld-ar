@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: granite blocks -->
+  <BlocksGranite.label>كتل غرانيت</BlocksGranite.label>
+  <!-- EN: Blocks of solid granite. Granite is a very hard stone. -->
+  <BlocksGranite.description>كتل من الغرانيت الصلب. الغرانيت حجر شديد الصلابة.</BlocksGranite.description>
+  <!-- EN: granite -->
+  <BlocksGranite.stuffProps.stuffAdjective>غرانيتي</BlocksGranite.stuffProps.stuffAdjective>
+  
+  <!-- EN: limestone blocks -->
+  <BlocksLimestone.label>كتل حجر جيري</BlocksLimestone.label>
+  <!-- EN: Blocks of solid limestone. -->
+  <BlocksLimestone.description>كتل من الحجر الجيري الصلب.</BlocksLimestone.description>
+  <!-- EN: limestone -->
+  <BlocksLimestone.stuffProps.stuffAdjective>حجر جيري</BlocksLimestone.stuffProps.stuffAdjective>
+  
+  <!-- EN: marble blocks -->
+  <BlocksMarble.label>كتل رخام</BlocksMarble.label>
+  <!-- EN: Blocks of solid marble. Marble is a soft, beautiful stone, known for being easy to sculpt. -->
+  <BlocksMarble.description>كتل من الرخام الصلب. الرخام حجر ناعم وجميل، معروف بسهولة نحته.</BlocksMarble.description>
+  <!-- EN: marble -->
+  <BlocksMarble.stuffProps.stuffAdjective>رخامي</BlocksMarble.stuffProps.stuffAdjective>
+  
+  <!-- EN: sandstone blocks -->
+  <BlocksSandstone.label>كتل حجر رملي</BlocksSandstone.label>
+  <!-- EN: Blocks of solid sandstone. Sandstone is a relatively soft rock and chips easily. -->
+  <BlocksSandstone.description>كتل من الحجر الرملي الصلب. الحجر الرملي صخر ناعم نسبيًا ويتشقق بسهولة.</BlocksSandstone.description>
+  <!-- EN: sandstone -->
+  <BlocksSandstone.stuffProps.stuffAdjective>حجر رملي</BlocksSandstone.stuffProps.stuffAdjective>
+  
+  <!-- EN: slate blocks -->
+  <BlocksSlate.label>كتل أردواز</BlocksSlate.label>
+  <!-- EN: Blocks of solid slate. A dull-looking rock that chips easily. -->
+  <BlocksSlate.description>كتل من الأردواز الصلب. صخر باهت المظهر يتشقق بسهولة.</BlocksSlate.description>
+  <!-- EN: slate -->
+  <BlocksSlate.stuffProps.stuffAdjective>أردوازي</BlocksSlate.stuffProps.stuffAdjective>
+  
+  <!-- EN: granite chunk -->
+  <ChunkGranite.label>قطعة غرانيت</ChunkGranite.label>
+  <!-- EN: A chunk of rock. Can be cut into usable stone blocks. -->
+  <ChunkGranite.description>قطعة من الصخر. يمكن قطعها إلى كتل حجرية قابلة للاستخدام.</ChunkGranite.description>
+  
+  <!-- EN: limestone chunk -->
+  <ChunkLimestone.label>قطعة حجر جيري</ChunkLimestone.label>
+  <!-- EN: A chunk of rock. Can be cut into usable stone blocks. -->
+  <ChunkLimestone.description>قطعة من الصخر. يمكن قطعها إلى كتل حجرية قابلة للاستخدام.</ChunkLimestone.description>
+  
+  <!-- EN: marble chunk -->
+  <ChunkMarble.label>قطعة رخام</ChunkMarble.label>
+  <!-- EN: A chunk of rock. Can be cut into usable stone blocks. -->
+  <ChunkMarble.description>قطعة من الصخر. يمكن قطعها إلى كتل حجرية قابلة للاستخدام.</ChunkMarble.description>
+  
+  <!-- EN: sandstone chunk -->
+  <ChunkSandstone.label>قطعة حجر رملي</ChunkSandstone.label>
+  <!-- EN: A chunk of rock. Can be cut into usable stone blocks. -->
+  <ChunkSandstone.description>قطعة من الصخر. يمكن قطعها إلى كتل حجرية قابلة للاستخدام.</ChunkSandstone.description>
+  
+  <!-- EN: steel slag chunk -->
+  <ChunkSlagSteel.label>قطعة خردة فولاذ</ChunkSlagSteel.label>
+  <!-- EN: A chunk of steel slag. While it's useless in its current form, it can be smelted to recover steel. -->
+  <ChunkSlagSteel.description>قطعة من خردة الفولاذ. بينما هي عديمة الفائدة في شكلها الحالي، يمكن صهرها لاستعادة الفولاذ.</ChunkSlagSteel.description>
+  
+  <!-- EN: slate chunk -->
+  <ChunkSlate.label>قطعة أردواز</ChunkSlate.label>
+  <!-- EN: A chunk of rock. Can be cut into usable stone blocks. -->
+  <ChunkSlate.description>قطعة من الصخر. يمكن قطعها إلى كتل حجرية قابلة للاستخدام.</ChunkSlate.description>
+  
+  <!-- EN: granite -->
+  <Granite.label>غرانيت</Granite.label>
+  <!-- EN: A very hard igneous rock. -->
+  <Granite.description>صخر ناري شديد الصلابة.</Granite.description>
+  
+  <!-- EN: limestone -->
+  <Limestone.label>حجر جيري</Limestone.label>
+  <!-- EN: A sedimentary rock formed from the compacted remains of ancient seashells. -->
+  <Limestone.description>صخر رسوبي تكون من البقايا المضغوطة لأصداف بحرية قديمة.</Limestone.description>
+  
+  <!-- EN: marble -->
+  <Marble.label>رخام</Marble.label>
+  <!-- EN: A soft metamorphic rock. -->
+  <Marble.description>صخر متحول ناعم.</Marble.description>
+  
+  <!-- EN: sandstone -->
+  <Sandstone.label>حجر رملي</Sandstone.label>
+  <!-- EN: A sedimentary rock composed of sand particles compressed together. -->
+  <Sandstone.description>صخر رسوبي مكون من جزيئات الرمل المضغوطة معًا.</Sandstone.description>
+  
+  <!-- EN: slate -->
+  <Slate.label>أردواز</Slate.label>
+  <!-- EN: A dark-colored metamorphic rock. Its fine layers are emblematic of slaty cleavage. -->
+  <Slate.description>صخر متحول داكن اللون. طبقاته الدقيقة رمز للتشقق الأردوازي.</Slate.description>
+  
+  <!-- EN: smoothed granite -->
+  <SmoothedGranite.label>غرانيت مصقول</SmoothedGranite.label>
+  <!-- EN: A very hard igneous rock. The shining surface is filled with a mosaic of black, white, and pink speckles. -->
+  <SmoothedGranite.description>صخر ناري شديد الصلابة. السطح اللامع مليء بفسيفساء من بقع سوداء وبيضاء ووردية.</SmoothedGranite.description>
+  
+  <!-- EN: smoothed limestone -->
+  <SmoothedLimestone.label>حجر جيري مصقول</SmoothedLimestone.label>
+  <!-- EN: A sedimentary rock formed from the compacted remains of ancient seashells. It glows a smooth white, with light patterns of impurities suspended within. -->
+  <SmoothedLimestone.description>صخر رسوبي تكون من البقايا المضغوطة لأصداف بحرية قديمة. يتوهج بلون أبيض ناعم، مع أنماط خفيفة من الشوائب المعلقة بداخله.</SmoothedLimestone.description>
+  
+  <!-- EN: smoothed marble -->
+  <SmoothedMarble.label>رخام مصقول</SmoothedMarble.label>
+  <!-- EN: A soft metamorphic rock. This semi-transparent rock almost appears to glow with its own inner light. -->
+  <SmoothedMarble.description>صخر متحول ناعم. هذا الصخر شبه الشفاف يكاد يبدو متوهجًا بنوره الداخلي الخاص.</SmoothedMarble.description>
+  
+  <!-- EN: smoothed sandstone -->
+  <SmoothedSandstone.label>حجر رملي مصقول</SmoothedSandstone.label>
+  <!-- EN: A sedimentary rock composed of sand particles compressed together. The sand layers have been polished to a flat, smooth surface. -->
+  <SmoothedSandstone.description>صخر رسوبي مكون من جزيئات الرمل المضغوطة معًا. تم صقل طبقات الرمل إلى سطح مستوٍ أملس.</SmoothedSandstone.description>
+  
+  <!-- EN: smoothed slate -->
+  <SmoothedSlate.label>أردواز مصقول</SmoothedSlate.label>
+  <!-- EN: A dark-colored metamorphic rock. Its fine layers are emblematic of slaty cleavage. Interior strata are clearly visible through the polished surface. -->
+  <SmoothedSlate.description>صخر متحول داكن اللون. طبقاته الدقيقة رمز للتشقق الأردوازي. الطبقات الداخلية مرئية بوضوح عبر السطح المصقول.</SmoothedSlate.description>
+  
+</LanguageData>

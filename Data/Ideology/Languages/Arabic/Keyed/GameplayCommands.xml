@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: For slaves -->
+  <CommandBedSetForSlavesLabel>للعبيد</CommandBedSetForSlavesLabel>
+  <!-- EN: For colonists -->
+  <CommandBedSetForColonistsLabel>للمستعمرين</CommandBedSetForColonistsLabel>
+  <!-- EN: Whether beds in this room should be used by colonists, prisoners or slaves. -->
+  <CommandBedSetForOwnerTypeDesc>ما إذا كان ينبغي استخدام الأسرة في هذه الغرفة للمستعمرين أو السجناء أو العبيد.</CommandBedSetForOwnerTypeDesc>
+
+  <!-- EN: No auto-use -->
+  <CommandNeuralSuperchargerNoAutoUse>بدون استخدام تلقائي</CommandNeuralSuperchargerNoAutoUse>
+  <!-- EN: None of your people will use this neural supercharger automatically. -->
+  <CommandNeuralSuperchargerNoAutoUseDescription>لن يستخدم أي من أفرادك هذا الشاحن العصبي الفائق تلقائياً.</CommandNeuralSuperchargerNoAutoUseDescription>
+  <!-- EN: Auto-use with desire -->
+  <CommandNeuralSuperchargerAutoUseWithDesire>استخدام تلقائي مع الرغبة</CommandNeuralSuperchargerAutoUseWithDesire>
+  <!-- EN: Your people may use this neural supercharger automatically, if they want to because of their beliefs. -->
+  <CommandNeuralSuperchargerAutoUseWithDesireDescription>قد يستخدم أفرادك هذا الشاحن العصبي الفائق تلقائياً، إذا أرادوا ذلك بسبب معتقداتهم.</CommandNeuralSuperchargerAutoUseWithDesireDescription>
+  <!-- EN: Auto-use for everyone -->
+  <CommandNeuralSuperchargerAutoForEveryone>استخدام تلقائي للجميع</CommandNeuralSuperchargerAutoForEveryone>
+  <!-- EN: All of your people will use this neural supercharger if they get the chance. -->
+  <CommandNeuralSuperchargerAutoForEveryoneDescription>سيستخدم جميع أفرادك هذا الشاحن العصبي الفائق إذا سنحت لهم الفرصة.</CommandNeuralSuperchargerAutoForEveryoneDescription>
+  <!-- EN: Allow guests -->
+  <CommandNeuralSuperchargerAllowGuests>السماح للضيوف</CommandNeuralSuperchargerAllowGuests>
+  <!-- EN: Allow this neural supercharger to be used by temporary faction members. -->
+  <CommandNeuralSuperchargerAllowGuestsDescription>السماح لأعضاء الفصيل المؤقتين باستخدام هذا الشاحن العصبي الفائق.</CommandNeuralSuperchargerAllowGuestsDescription>
+
+  <!-- EN: Select connected tree -->
+  <CommandSelectConnectedTree>اختيار الشجرة المتصلة</CommandSelectConnectedTree>
+  <!-- EN: Create healing pod -->
+  <CommandHealInHealingPod>إنشاء قرنة شفاء</CommandHealInHealingPod>
+  <!-- EN: If this creature is injured, it will return to its connected Gauranlen tree and enter a woody healing pod. After {DAYS} days, the dryad will emerge with its wounds healed. -->
+  <CommandHealInHealingPodDesc>إذا أصيب هذا المخلوق، سيعود إلى شجرة غورانلين المتصلة به ويدخل قرنة شفاء خشبية. بعد {DAYS} يوم، سيخرج الدرياد وقد شفيت جروحه.</CommandHealInHealingPodDesc>
+</LanguageData>

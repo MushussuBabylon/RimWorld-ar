@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Great!\n\nReorder and randomize more if you want - but don't try to get the perfect characters. Everyone has flaws, and it makes the story more interesting!\n\nYou can also re-name the characters by clicking on their names.\n\nClick START when you're ready. -->
+  <AcceptStartingPawns.text>رائع!\n\nأعد الترتيب والعشوائية أكثر إذا أردت - لكن لا تحاول الحصول على شخصيات مثالية. كل شخص لديه عيوب، وهذا يجعل القصة أكثر تشويقًا!\n\nيمكنك أيضًا إعادة تسمية الشخصيات بالنقر على أسمائهم.\n\nانقر على ابدأ عندما تكون مستعدًا.</AcceptStartingPawns.text>
+  
+  <!-- EN: Select this -->
+  <AddBillSimpleMeal.onMapInstruction>اختر هذا</AddBillSimpleMeal.onMapInstruction>
+  <!-- EN: Please add a bill to cook simple meals at your cook stove. -->
+  <AddBillSimpleMeal.rejectInputMessage>يرجى إضافة أمر لطهي وجبات بسيطة على موقد الطهي الخاص بك.</AddBillSimpleMeal.rejectInputMessage>
+  <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and right-click the stove to prioritize building it. -->
+  <AddBillSimpleMeal.text>يحتاج المستعمرون إلى إخبارهم بما يجب طهيه.\n\nتضاف أوامر الطهي على الموقد نفسه. بمجرد إنشاء أمر، سيقوم المستعمرون بالعمل تلقائيًا.\n\n1. انتظر حتى يتم بناء الموقد.\n2. انقر على الموقد لاختياره.\n3. افتح تبويب الأوامر.\n4. انقر على إضافة أمر.\n5. اختر طهي وجبة بسيطة من القائمة السياقية.\n6. انقر على الزر + لزيادة العدد إلى 10.\n\nتذكر، يمكنك تسريع الوقت إذا كان البناء يستغرق وقتًا طويلاً.\n\nيمكنك أيضًا اختيار مستعمر والنقر بزر الماوس الأيمن على الموقد لإعطائه أولوية في البناء.</AddBillSimpleMeal.text>
+  <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and press left trigger button on the stove to prioritize building it. -->
+  <AddBillSimpleMeal.textController>يحتاج المستعمرون إلى إخبارهم بما يجب طهيه.\n\nتضاف أوامر الطهي على الموقد نفسه. بمجرد إنشاء أمر، سيقوم المستعمرون بالعمل تلقائيًا.\n\n1. انتظر حتى يتم بناء الموقد.\n2. انقر على الموقد لاختياره.\n3. افتح تبويب الأوامر.\n4. انقر على إضافة أمر.\n5. اختر طهي وجبة بسيطة من القائمة السياقية.\n6. انقر على الزر + لزيادة العدد إلى 10.\n\nتذكر، يمكنك تسريع الوقت إذا كان البناء يستغرق وقتًا طويلاً.\n\nيمكنك أيضًا اختيار مستعمر والضغط على زر الزناد الأيسر على الموقد لإعطائه أولوية في البناء.</AddBillSimpleMeal.textController>
+  
+  <!-- EN: Build an animal sleeping spot\ninside the room -->
+  <BuildAnimalSleepingSpot.onMapInstruction>ضع مكان نوم للحيوان\nداخل الغرفة</BuildAnimalSleepingSpot.onMapInstruction>
+  <!-- EN: Please place an animal sleeping spot inside the room. -->
+  <BuildAnimalSleepingSpot.rejectInputMessage>يرجى وضع مكان نوم للحيوان داخل الغرفة.</BuildAnimalSleepingSpot.rejectInputMessage>
+  <!-- EN: So your pet will sleep inside with you, place an ANIMAL SLEEPING SPOT inside the room.\n\nSleeping spots aren't real buildings - they're just spots on the ground designated for a sleeping. -->
+  <BuildAnimalSleepingSpot.text>لكي ينام حيوانك الأليف معك بالداخل، ضع مكان نوم للحيوان داخل الغرفة.\n\nأماكن النوم ليست مبانٍ حقيقية - إنها مجرد أماكن على الأرض مخصصة للنوم.</BuildAnimalSleepingSpot.text>
+  
+  <!-- EN: Build three beds inside the room -->
+  <BuildBeds.onMapInstruction>قم ببناء ثلاثة أسرة داخل الغرفة</BuildBeds.onMapInstruction>
+  <!-- EN: Please build wooden beds inside the room. -->
+  <BuildBeds.rejectInputMessage>يرجى بناء أسرة خشبية داخل الغرفة.</BuildBeds.rejectInputMessage>
+  <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building. -->
+  <BuildBeds.text>سيقوم المستعمرون الآن ببناء الغرفة!\n\nالآن هم بحاجة إلى مكان للنوم. ضع ثلاثة أسرة داخل الغرفة.\n\nابحث عنها في فئة الأثاث.\n\nيمكنك استخدام مفتاحي {Key:Designator_RotateLeft} و{Key:Designator_RotateRight} لتدوير المبنى.</BuildBeds.text>
+  <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can rotate the building by pressing the rotate buttons on the left. -->
+  <BuildBeds.textController>سيقوم المستعمرون الآن ببناء الغرفة!\n\nالآن هم بحاجة إلى مكان للنوم. ضع ثلاثة أسرة داخل الغرفة.\n\nابحث عنها في فئة الأثاث.\n\nيمكنك تدوير المبنى بالضغط على أزرار التدوير على اليسار.</BuildBeds.textController>
+  
+  <!-- EN: Build a fueled stove inside the room -->
+  <BuildFueledStove.onMapInstruction>قم ببناء موقد وقود داخل الغرفة</BuildFueledStove.onMapInstruction>
+  <!-- EN: Please build the fueled stove inside the room you built earlier. -->
+  <BuildFueledStove.rejectInputMessage>يرجى بناء موقد الوقود داخل الغرفة التي بنيتها سابقًا.</BuildFueledStove.rejectInputMessage>
+  <!-- EN: Excellent!\n\nNow you'll need to make a stove to cook food.\n\nBuild a FUELED STOVE inside the room. -->
+  <BuildFueledStove.text>ممتاز!\n\nالآن ستحتاج إلى صنع موقد لطهي الطعام.\n\nقم ببناء موقد وقود داخل الغرفة.</BuildFueledStove.text>
+  
+  <!-- EN: Build a horseshoes pin\noutside the room -->
+  <BuildHorseshoesPin.onMapInstruction>قم ببناء لعبة حدوة الحصان\nخارج الغرفة</BuildHorseshoesPin.onMapInstruction>
+  <!-- EN: Please place a horseshoes pin somewhere near the room. -->
+  <BuildHorseshoesPin.rejectInputMessage>يرجى وضع لعبة حدوة الحصان في مكان ما بالقرب من الغرفة.</BuildHorseshoesPin.rejectInputMessage>
+  <!-- EN: Your colonists need sources of recreation or they'll get sad over time.\n\nBuild a HORSESHOES pin outside, near the room. -->
+  <BuildHorseshoesPin.text>يحتاج المستعمرون إلى مصادر ترفيه وإلا سيصابون بالحزن مع مرور الوقت.\n\nقم ببناء لعبة حدوة حصان بالخارج، بالقرب من الغرفة.</BuildHorseshoesPin.text>
+  
+  <!-- EN: Build a door over one wall -->
+  <BuildRoomDoor.onMapInstruction>قم ببناء باب على أحد الجدران</BuildRoomDoor.onMapInstruction>
+  <!-- EN: Please build a wooden door over one of your room walls. -->
+  <BuildRoomDoor.rejectInputMessage>يرجى بناء باب خشبي على أحد جدران غرفتك.</BuildRoomDoor.rejectInputMessage>
+  <!-- EN: Now just place a DOOR over any one of the room walls.\n\nDOOR is right beside WALL in the ARCHITECT menu. -->
+  <BuildRoomDoor.text>الآن فقط ضع بابًا على أي جدار من جدران الغرفة.\n\nالباب بجانب الجدار مباشرة في قائمة المهندس.</BuildRoomDoor.text>
+  
+  <!-- EN: Build walls -->
+  <BuildRoomWalls.onMapInstruction>قم ببناء الجدران</BuildRoomWalls.onMapInstruction>
+  <!-- EN: Please build wooden walls along the edges of the highlighted rectangle. -->
+  <BuildRoomWalls.rejectInputMessage>يرجى بناء جدران خشبية على طول حواف المستطيل المحدد.</BuildRoomWalls.rejectInputMessage>
+  <!-- EN: Awesome! Next, we'll build a room.\n\n1. Click ARCHITECT.\n2. Click STRUCTURE.\n3. Select WALL.\n4. Select WOOD as the material.\n5. Drag out four walls to form the shape indicated on the map. -->
+  <BuildRoomWalls.text>مذهل! بعد ذلك، سنبني غرفة.\n\n1. انقر على مهندس.\n2. انقر على هيكل.\n3. اختر جدار.\n4. اختر خشب كمادة.\n5. اسحب أربعة جدران لتشكيل الشكل المشار إليه على الخريطة.</BuildRoomWalls.text>
+  
+  <!-- EN: Build sandbags here -->
+  <BuildSandbags.onMapInstruction>قم ببناء أكياس رمل هنا</BuildSandbags.onMapInstruction>
+  <!-- EN: Please build sandbags in the highlighted area. -->
+  <BuildSandbags.rejectInputMessage>يرجى بناء أكياس رمل في المنطقة المحددة.</BuildSandbags.rejectInputMessage>
+  <!-- EN: Great! You've now got a basic colony running! Eventually, enemies will raid your colony. It's time to prepare for that.\n\nSelect the SANDBAGS designator and drag the sandbags out at the designated area. -->
+  <BuildSandbags.text>عظيم! لديك الآن مستعمرة أساسية تعمل! في النهاية، سيغزو الأعداء مستعمرتك. حان الوقت للاستعداد لذلك.\n\nاختر أداة أكياس الرمل واسحب أكياس الرمل في المنطقة المحددة.</BuildSandbags.text>
+  
+  <!-- EN: Build a wooden simple research bench\ninside the room -->
+  <BuildSimpleResearchBench.onMapInstruction>قم ببناء طاولة بحث خشبية بسيطة\nداخل الغرفة</BuildSimpleResearchBench.onMapInstruction>
+  <!-- EN: Please place a wooden simple research bench inside the room you built earlier. -->
+  <BuildSimpleResearchBench.rejectInputMessage>يرجى وضع طاولة بحث خشبية بسيطة داخل الغرفة التي بنيتها سابقًا.</BuildSimpleResearchBench.rejectInputMessage>
+  <!-- EN: To advance, you'll need to research new technologies.\n\nBuild a wooden SIMPLE RESEARCH BENCH inside your room. -->
+  <BuildSimpleResearchBench.text>للتقدم، ستحتاج إلى البحث عن تقنيات جديدة.\n\nقم ببناء طاولة بحث خشبية بسيطة داخل غرفتك.</BuildSimpleResearchBench.text>
+  
+  <!-- EN: Build a torch lamp inside the room -->
+  <BuildTorchLamp.onMapInstruction>قم ببناء مصباح شعلة داخل الغرفة</BuildTorchLamp.onMapInstruction>
+  <!-- EN: Please build a torch lamp inside the room. -->
+  <BuildTorchLamp.rejectInputMessage>يرجى بناء مصباح شعلة داخل الغرفة.</BuildTorchLamp.rejectInputMessage>
+  <!-- EN: You'll also want some light inside, or your colonists will get grumpy in the dark.\n\nBuild a TORCH LAMP inside the room. -->
+  <BuildTorchLamp.text>ستحتاج أيضًا إلى بعض الضوء بالداخل، وإلا سيصبح المستعمرون متجهمين في الظلام.\n\nقم ببناء مصباح شعلة داخل الغرفة.</BuildTorchLamp.text>
+  
+  <!-- EN: Please open the 'Work' tab and change some settings. -->
+  <ChangeWorkSettings.rejectInputMessage>يرجى فتح تبويب "العمل" وتغيير بعض الإعدادات.</ChangeWorkSettings.rejectInputMessage>
+  <!-- EN: You can control who does what kinds of work using the checkboxes. Colonists will do tasks in order, from left to right.\n\nTry changing some settings now.\n\nBeware - Colonists always follow their work priorities, even if this makes them do dumb things! Setting up a smart work regime is an important skill in RimWorld. So set the work settings carefully, and review them often! -->
+  <ChangeWorkSettings.text>يمكنك التحكم في من يفعل أي نوع من العمل باستخدام مربعات الاختيار. سيقوم المستعمرون بالمهام بالترتيب، من اليسار إلى اليمين.\n\nحاول تغيير بعض الإعدادات الآن.\n\nانتبه - يتبع المستعمرون دائمًا أولويات عملهم، حتى لو جعلهم هذا يفعلون أشياء غبية! إعداد نظام عمل ذكي هو مهارة مهمة في RimWorld. لذا اضبط إعدادات العمل بعناية، وراجعها كثيرًا!</ChangeWorkSettings.text>
+  
+  <!-- EN: Please choose a temperate forest site with no hills (light green with no brown dots). -->
+  <ChooseLandingSite.rejectInputMessage>يرجى اختيار موقع غابة معتدلة بدون تلال (أخضر فاتح بدون نقاط بنية).</ChooseLandingSite.rejectInputMessage>
+  <!-- EN: Here you choose your starting site.\n\nClick a temperate forest (light green) with no brown hills. Then click NEXT.\n\nOptionally, you can use the TERRAIN tab to view information about the selected tile. -->
+  <ChooseLandingSite.text>هنا تختار موقع البداية الخاص بك.\n\nانقر على غابة معتدلة (أخضر فاتح) بدون تلال بنية. ثم انقر على التالي.\n\nاختياريًا، يمكنك استخدام تبويب التضاريس لعرض معلومات حول البلاط المحدد.</ChooseLandingSite.text>
+  
+  <!-- EN: Please choose a storyteller in the Options menu to end the tutorial. -->
+  <ChooseStoryteller.rejectInputMessage>يرجى اختيار راوي قصص في قائمة الخيارات لإنهاء البرنامج التعليمي.</ChooseStoryteller.rejectInputMessage>
+  <!-- EN: This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click the Gameplay button in the left columm.\n4. Click the Modify button beside Storyteller settings.\n5. Select a storyteller and playstyle that appeals to you.\n\nGood luck, and have fun. -->
+  <ChooseStoryteller.text>هذه نهاية البرنامج التعليمي!\n\nلا يزال هناك الكثير لتتعلمه، بما في ذلك السجناء، والصيد، والتجارة، وترويض الحيوانات، وأكثر من ذلك بكثير. لكنك أتقنت الأساسيات.\n\nتم تعطيل الأحداث العشوائية خلال هذا البرنامج التعليمي. لبدء اللعبة الحقيقية:\n\n1. افتح تبويب القائمة في أسفل اليمين.\n2. اختر خيارات.\n3. انقر على زر أسلوب اللعب في العمود الأيسر.\n4. انقر على زر تعديل بجانب إعدادات راوي القصص.\n5. اختر راوي قصص وأسلوب لعب يعجبك.\n\nبالتوفيق، واستمتع.</ChooseStoryteller.text>
+  
+  <!-- EN: Please drag the 'chop wood' designator over some trees. -->
+  <ChopTrees.rejectInputMessage>يرجى سحب أداة 'قطع الخشب' فوق بعض الأشجار.</ChopTrees.rejectInputMessage>
+  <!-- EN: You'll want to harvest some wood. Designate some trees to be chopped.\n\nSelect the CHOP WOOD designator and designate 10 trees to be chopped down.\n\n(Pro tip: You can drag a box over trees to designate several at once.) -->
+  <ChopTrees.text>ستحتاج إلى حصاد بعض الخشب. حدد بعض الأشجار ليتم قطعها.\n\nاختر أداة 'قطع الخشب' وحدد 10 أشجار ليتم قطعها.\n\n(نصيحة محترف: يمكنك سحب مربع فوق الأشجار لتحديد عدة أشجار في وقت واحد.)</ChopTrees.text>
+  
+  <!-- EN: Click GENERATE to generate your world. -->
+  <CreateWorldParams.rejectInputMessage>انقر على إنشاء لإنشاء عالمك.</CreateWorldParams.rejectInputMessage>
+  <!-- EN: Welcome to RimWorld!\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
+  <CreateWorldParams.text>مرحبًا بك في RimWorld!\n\nهذه الصفحة تهيئ كيفية إنشاء عالمك.\n\nالإعدادات الافتراضية هنا جيدة - تفضل وانقر على إنشاء!</CreateWorldParams.text>
+  
+  <!-- EN: Send colonists here\ntouching sandbags for cover -->
+  <DownRaider.onMapInstruction>أرسل المستعمرين هنا\nملامسين لأكياس الرمل للاحتماء</DownRaider.onMapInstruction>
+  <!-- EN: Please focus on winning the fight! -->
+  <DownRaider.rejectInputMessage>يرجى التركيز على الفوز بالقتال!</DownRaider.rejectInputMessage>
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <DownRaider.text>لقد أرسلت الآن غازيًا لمهاجمة مستعمرتك!\n\n1. أوقف اللعبة مؤقتًا بالضغط على {Key:TogglePause}!\n2. اقرأ الرسالة الحمراء في أسفل يمين الشاشة.\n3. جند المستعمرين باختيارهم والضغط على أمر التجنيد.\n4. انقر بزر الماوس الأيمن لإرسالهم إلى مواقع داخل مربع أكياس الرمل، ملامسين لأكياس الرمل.\n5. ألغ الإيقاف المؤقت.\n\nيجب أن يلامس المستعمرون الغطاء للاستفادة منه. بمجرد أن تكون في الغطاء، انتظر حتى يقترب المهاجم. سيطلق المستعمرون النار تلقائيًا.</DownRaider.text>
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Press left trigger button to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <DownRaider.textController>لقد أرسلت الآن غازيًا لمهاجمة مستعمرتك!\n\n1. أوقف اللعبة مؤقتًا بالضغط على {Key:TogglePause}!\n2. اقرأ الرسالة الحمراء في أسفل يمين الشاشة.\n3. جند المستعمرين باختيارهم والضغط على أمر التجنيد.\n4. اضغط على زر الزناد الأيسر لإرسالهم إلى مواقع داخل مربع أكياس الرمل، ملامسين لأكياس الرمل.\n5. ألغ الإيقاف المؤقت.\n\nيجب أن يلامس المستعمرون الغطاء للاستفادة منه. بمجرد أن تكون في الغطاء، انتظر حتى يقترب المهاجم. سيطلق المستعمرون النار تلقائيًا.</DownRaider.textController>
+  
+  <!-- EN: Right-click to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.text>انقر بزر الماوس الأيمن للخروج من وضع تحديد المخزن.</EndStockpileDesignating.text>
+  <!-- EN: Press left trigger button to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.textController>اضغط على زر الزناد الأيسر للخروج من وضع تحديد المخزن.</EndStockpileDesignating.textController>
+  
+  <!-- EN: Equip this -->
+  <EquipWeapons.onMapInstruction>جهز هذا</EquipWeapons.onMapInstruction>
+  <!-- EN: Please have your colonists equip weapons. -->
+  <EquipWeapons.rejectInputMessage>يرجى جعل المستعمرين يجهزون أسلحة.</EquipWeapons.rejectInputMessage>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.text>اجعل المستعمرين يجهزون أسلحة البداية. لتجهيز سلاح:\n\n1. انقر على مستعمر لاختياره.\n2. انقر بزر الماوس الأيمن على السلاح الذي تريد تجهيزه.\n3. انقر على 'تجهيز سلاح' في القائمة السياقية.\n\nافعل هذا لكل مستعمر.</EquipWeapons.text>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press left trigger button.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.textController>اجعل المستعمرين يجهزون أسلحة البداية. لتجهيز سلاح:\n\n1. انقر على مستعمر لاختياره.\n2. مرر المؤشر فوق السلاح الذي تريد تجهيزه واضغط على زر الزناد الأيسر.\n3. انقر على 'تجهيز سلاح' في القائمة السياقية.\n\nافعل هذا لكل مستعمر.</EquipWeapons.textController>
+  
+  <!-- EN: Please expand the build roof area a bit, just for practice. -->
+  <ExpandAreaBuildRoof.rejectInputMessage>يرجى توسيع منطقة بناء السقف قليلاً، فقط للتمرين.</ExpandAreaBuildRoof.rejectInputMessage>
+  <!-- EN: The BUILD ROOF AREA defines where your colonists will try to build roofs.\n\nIt auto-fills when you enclose a new room.\n\nSelect the EXPAND BUILD ROOF AREA tool and drag out the shape of a porch roof on the front of the house. -->
+  <ExpandAreaBuildRoof.text>تحدد منطقة بناء السقف المكان الذي سيحاول المستعمرون بناء الأسقف فيه.\n\nتملأ تلقائيًا عند إغلاق غرفة جديدة.\n\nاختر أداة توسيع منطقة بناء السقف واسحب شكل سقف شرفة على واجهة المنزل.</ExpandAreaBuildRoof.text>
+  
+  <!-- EN: Please expand the home area a bit, just for practice. -->
+  <ExpandAreaHome.rejectInputMessage>يرجى توسيع منطقة المنزل قليلاً، فقط للتمرين.</ExpandAreaHome.rejectInputMessage>
+  <!-- EN: Next, you'll learn to expand the HOME AREA.\n\nColonists will clean floors and extinguish fires in the home area only, and ignore fires or filth outside of it.\n\nThe home area is added automatically when you build things - but you can also expand it manually.\n\nSelect the EXPAND HOME AREA tool and drag out a new area on the map. -->
+  <ExpandAreaHome.text>بعد ذلك، ستتعلم توسيع منطقة المنزل.\n\nسينظف المستعمرون الأرضيات ويطفئون الحرائق في منطقة المنزل فقط، ويتجاهلون الحرائق أو القذارة خارجها.\n\nتضاف منطقة المنزل تلقائيًا عند بناء الأشياء - لكن يمكنك أيضًا توسيعها يدويًا.\n\nاختر أداة توسيع منطقة المنزل واسحب مساحة جديدة على الخريطة.</ExpandAreaHome.text>
+  
+  <!-- EN: Please wait for your colonists to finish building the sandbags. -->
+  <FinishSandbags.rejectInputMessage>يرجى الانتظار حتى ينتهي المستعمرون من بناء أكياس الرمل.</FinishSandbags.rejectInputMessage>
+  <!-- EN: Let's just wait for all your constructions to be built.\n\nConsider using the WORK tab to assign more colonists to Construct.\n\nAlso, you can speed up time to shorten the wait.\n\nOnce everything's built, I'll send an attacker to test your defenses! -->
+  <FinishSandbags.text>دعنا ننتظر فقط حتى يتم بناء جميع إنشاءاتك.\n\nفكر في استخدام تبويب العمل لتعيين المزيد من المستعمرين للبناء.\n\nأيضًا، يمكنك تسريع الوقت لتقصير الانتظار.\n\nبمجرد بناء كل شيء، سأرسل مهاجمًا لاختبار دفاعاتك!</FinishSandbags.text>
+  
+  <!-- EN: Place growing zone here\n(drag corner-to-corner) -->
+  <MakeGrowingZone.onMapInstruction>ضع منطقة زراعة هنا\n(اسحب من زاوية إلى زاوية)</MakeGrowingZone.onMapInstruction>
+  <!-- EN: Please make a growing zone on the indicated area. -->
+  <MakeGrowingZone.rejectInputMessage>يرجى إنشاء منطقة زراعة على المنطقة المشار إليها.</MakeGrowingZone.rejectInputMessage>
+  <!-- EN: The house is being built!\n\nYour colonists will need something to eat, so place a GROWING ZONE as indicated on the map.\n\nThis is where your colonists will sow crops. -->
+  <MakeGrowingZone.text>يتم بناء المنزل!\n\nسيحتاج المستعمرون إلى شيء ليأكلوه، لذا ضع منطقة زراعة كما هو مشار إليه على الخريطة.\n\nهذا هو المكان الذي سيزرع فيه المستعمرون المحاصيل.</MakeGrowingZone.text>
+  
+  <!-- EN: Place stockpile here\n(drag corner-to-corner) -->
+  <MakeStockpile.onMapInstruction>ضع مخزنًا هنا\n(اسحب من زاوية إلى زاوية)</MakeStockpile.onMapInstruction>
+  <!-- EN: Please make a stockpile on the indicated area. -->
+  <MakeStockpile.rejectInputMessage>يرجى إنشاء مخزن على المنطقة المشار إليها.</MakeStockpile.rejectInputMessage>
+  <!-- EN: Great!\n\nNow, make a stockpile so your colonists know where to keep items.\n\n1. Click ARCHITECT tab in the bottom left.\n2. Click the ZONE/AREA category.\n3. Select the CREATE STOCKPILE tool.\n4. Click and drag out a square as indicated on the map. -->
+  <MakeStockpile.text>عظيم!\n\nالآن، قم بإنشاء مخزن حتى يعرف المستعمرون أين يحتفظون بالأغراض.\n\n1. انقر على تبويب المهندس في أسفل اليسار.\n2. انقر على فئة منطقة/منطقة.\n3. اختر أداة إنشاء مخزن.\n4. انقر واسحب لتشكيل مربع كما هو مشار إليه على الخريطة.</MakeStockpile.text>
+  
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
+  <MapCameraDolly.text>ها أنت على السطح!\n\nحاول الآن تحريك الكاميرا.\n\nاستخدم مفاتيح {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}، أو انقر واسحب بزر الماوس الأوسط.\n\nجرب الآن!</MapCameraDolly.text>
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now! -->
+  <MapCameraDolly.textController>ها أنت على السطح!\n\nحاول الآن تحريك الكاميرا باستخدام عصا التحكم اليسرى.\n\nجرب الآن!</MapCameraDolly.textController>
+  
+  <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
+  <MapCameraZoom.text>عظيم!\n\nيمكنك أيضًا التكبير والتصغير باستخدام عجلة الماوس، أو مفتاحي {Key:MapZoom_In} و{Key:MapZoom_Out}.\n\nجرب الآن!</MapCameraZoom.text>
+  <!-- EN: Great!\n\nYou can also zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}.\n\nTry it now! -->
+  <MapCameraZoom.textController>عظيم!\n\nيمكنك أيضًا التكبير والتصغير باستخدام {Key:MapZoom_In} و{Key:MapZoom_Out}.\n\nجرب الآن!</MapCameraZoom.textController>
+  
+  <!-- EN: Designate all this\nfor mining -->
+  <MineSteel.onMapInstruction>حدد كل هذا\nللتعدين</MineSteel.onMapInstruction>
+  <!-- EN: Please use the 'mine' designator on the compacted steel. -->
+  <MineSteel.rejectInputMessage>يرجى استخدام أداة 'تعدين' على الفولاذ المضغوط.</MineSteel.rejectInputMessage>
+  <!-- EN: Now your colonists will cook some food! Tasty!\n\nNext, you'll want to mine some minerals. I've spawned some mineable steel near your base.\n\nSelect the MINE designator and drag over the steel to designate it for mining. -->
+  <MineSteel.text>الآن سيطهو المستعمرون بعض الطعام! لذيذ!\n\nبعد ذلك، ستحتاج إلى تعدين بعض المعادن. لقد أظهرت بعض الفولاذ القابل للتعدين بالقرب من قاعدتك.\n\nاختر أداة التعدين واسحب فوق الفولاذ لتحديده للتعدين.</MineSteel.text>
+  
+  <!-- EN: Please open the 'Research' tab. -->
+  <OpenMainTabResearch.rejectInputMessage>يرجى فتح تبويب 'البحث'.</OpenMainTabResearch.rejectInputMessage>
+  <!-- EN: Excellent! Next, you'll want to select what you want to be researched.\n\nOpen the RESEARCH tab. -->
+  <OpenMainTabResearch.text>ممتاز! بعد ذلك، ستحتاج إلى اختيار ما تريد البحث عنه.\n\nافتح تبويب البحث.</OpenMainTabResearch.text>
+  
+  <!-- EN: Please open the 'Work' tab. -->
+  <OpenMainTabWork.rejectInputMessage>يرجى فتح تبويب 'العمل'.</OpenMainTabWork.rejectInputMessage>
+  <!-- EN: You can control which colonist does what kind of work.\n\nOpen the WORK tab at the bottom of the screen. -->
+  <OpenMainTabWork.text>يمكنك التحكم في أي مستعمر يقوم بأي نوع من العمل.\n\nافتح تبويب العمل في أسفل الشاشة.</OpenMainTabWork.text>
+  
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
+  <Pause.text>يمكنك إيقاف الوقت مؤقتًا.\n\nهذا يعني أنك لا تحتاج أبدًا إلى الاستعجال. يمكنك دائمًا الإيقاف المؤقت وأخذ وقتك لإصدار الأوامر.\n\nحاول الإيقاف المؤقت باستخدام مفتاح {Key:TogglePause}، أو باستخدام عناصر التحكم بالوقت في أسفل اليمين.</Pause.text>
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} button, or by using the time controls in the bottom right. -->
+  <Pause.textController>يمكنك إيقاف الوقت مؤقتًا.\n\nهذا يعني أنك لا تحتاج أبدًا إلى الاستعجال. يمكنك دائمًا الإيقاف المؤقت وأخذ وقتك لإصدار الأوامر.\n\nحاول الإيقاف المؤقت باستخدام زر {Key:TogglePause}، أو باستخدام عناصر التحكم بالوقت في أسفل اليمين.</Pause.textController>
+  
+  <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
+  <RandomizeCharacter.rejectInputMessage>يرجى النقر على زر عشوائي لتوليد شخصية عشوائية.</RandomizeCharacter.rejectInputMessage>
+  <!-- EN: If you don't like a character, you can regenerate them!\n\nClick the RANDOMIZE button to randomize the character. -->
+  <RandomizeCharacter.text>إذا لم تعجبك شخصية ما، يمكنك إعادة توليدها!\n\nانقر على زر عشوائي لتوليد الشخصية عشوائيًا.</RandomizeCharacter.text>
+  
+  <!-- EN: Please drag a character from the "left behind" group (at the bottom-left) into the "selected" group (at the upper-left). -->
+  <ReorderCharacters.rejectInputMessage>يرجى سحب شخصية من مجموعة "المتركون خلفًا" (في أسفل اليسار) إلى مجموعة "المختارون" (في أعلى اليسار).</ReorderCharacters.rejectInputMessage>
+  <!-- EN: Now you choose which characters you want to use.\n\nDRAG a character from the "left behind" part of the character list (at the bottom) into the "selected" part (at the top).\n\nOptionally, clicking a character will allow you inspect him or her. -->
+  <ReorderCharacters.text>الآن اختر الشخصيات التي تريد استخدامها.\n\nاسحب شخصية من قسم "المتركون خلفًا" في قائمة الشخصيات (في الأسفل) إلى قسم "المختارون" (في الأعلى).\n\nاختياريا، النقر على شخصية سيسمح لك بفحصها.</ReorderCharacters.text>
+  
+  <!-- EN: Please choose a research project. -->
+  <SelectResearchProject.rejectInputMessage>يرجى اختيار مشروع بحث.</SelectResearchProject.rejectInputMessage>
+  <!-- EN: Now just choose whatever you want to be researched first.\n\nYou might have to wait for the research bench to be constructed, or for trees to be chopped for wood.\n\nIf it's taking too long, use the WORK tab to assign more colonists to Construct. -->
+  <SelectResearchProject.text>الآن فقط اختر ما تريد البحث عنه أولاً.\n\nقد تضطر إلى الانتظار حتى يتم بناء طاولة البحث، أو حتى يتم قطع الأشجار للحصول على الخشب.\n\nإذا استغرق الأمر وقتًا طويلاً، استخدم تبويب العمل لتعيين المزيد من المستعمرين للبناء.</SelectResearchProject.text>
+  
+  <!-- EN: Set this growing zone to grow rice -->
+  <SetToGrowRice.onMapInstruction>اضبط منطقة الزراعة هذه لزراعة الأرز</SetToGrowRice.onMapInstruction>
+  <!-- EN: Please set your growing zone to grow rice. -->
+  <SetToGrowRice.rejectInputMessage>يرجى ضبط منطقة الزراعة لزراعة الأرز.</SetToGrowRice.rejectInputMessage>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.text>يمكنك تحديد النبات الذي يجب أن يزرعه المستعمرون في منطقة الزراعة.\n\n1. انقر بزر الماوس الأيمن للخروج من وضع المهندس.\n2. انقر على منطقة الزراعة لاختيارها.\n3. انقر على محدد النبات في الأسفل وقم بتغييره إلى أرز.</SetToGrowRice.text>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press left trigger button to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.textController>يمكنك تحديد النبات الذي يجب أن يزرعه المستعمرون في منطقة الزراعة.\n\n1. اضغط على زر الزناد الأيسر للخروج من وضع المهندس.\n2. انقر على منطقة الزراعة لاختيارها.\n3. انقر على محدد النبات في الأسفل وقم بتغييره إلى أرز.</SetToGrowRice.textController>
+  
+  <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
+  <TimeControls.text>يمكنك أيضًا تسريع الوقت.\n\nحاول التحكم بالوقت باستخدام مفاتيح {Key:TimeSpeed_Normal}، و{Key:TimeSpeed_Fast}، و{Key:TimeSpeed_Superfast}، أو باستخدام عناصر التحكم بالوقت في أسفل اليمين.</TimeControls.text>
+  <!-- EN: You can also speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.textController>يمكنك أيضًا تسريع الوقت.\n\nحاول التحكم بالوقت باستخدام {Key:TimeSpeed_Faster} و{Key:TimeSpeed_Slower}، أو باستخدام عناصر التحكم بالوقت في أسفل اليمين.</TimeControls.textController>
+  
+  <!-- EN: Please un-draft your colonists. -->
+  <UndraftAll.rejectInputMessage>يرجى إلغاء تجنيد المستعمرين.</UndraftAll.rejectInputMessage>
+  <!-- EN: Success! Now UNDRAFT all your colonists using the same command as before.\n\nThis will let them return to their own schedules. -->
+  <UndraftAll.text>نجاح! الآن قم بإلغاء تجنيد جميع المستعمرين باستخدام نفس الأمر السابق.\n\nهذا سيسمح لهم بالعودة إلى جداولهم الخاصة.</UndraftAll.text>
+  
+  <!-- EN: Allow this -->
+  <UnforbidStartingResources.onMapInstruction>اسمح بهذا</UnforbidStartingResources.onMapInstruction>
+  <!-- EN: Please allow your starting items. -->
+  <UnforbidStartingResources.rejectInputMessage>يرجى السماح بأغراض البداية الخاصة بك.</UnforbidStartingResources.rejectInputMessage>
+  <!-- EN: To allow your colonists to bring your items to the stockpile, you must remove the items' "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.)\n\nAlternatively, you can:\n1. Click ARCHITECT.\n2. Click ORDERS.\n3. Click ALLOW.\n4. Drag out a shape covering all forbidden items to allow them. -->
+  <UnforbidStartingResources.text>للسماح للمستعمرين بنقل أغراضك إلى المخزن، يجب إزالة تصنيف "ممنوع" عن الأغراض.\n\n1. انقر على أغراض البداية لاختيارها.\n2. انقر على زر التبديل اسمح للسماح بها.\n\n(نصيحة محترف: انقر نقرًا مزدوجًا على غرض لتحديد كل ما يظهر على الشاشة من نفس النوع.)\n\nبدلاً من ذلك، يمكنك:\n1. انقر على مهندس.\n2. انقر على أوامر.\n3. انقر على اسمح.\n4. اسحب شكلًا يغطي جميع الأغراض الممنوعة للسماح بها.</UnforbidStartingResources.text>
+  
+</LanguageData>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>deliveredLetterLabel->Mysterious cargo</li>
+    <li>deliveredLetterText(pawnOnMap==true)->The mysterious cargo has been delivered. It is a simple cube that shines like gold but is impossible to scratch. It is light and warm to the touch. The way light plays across its surface is captivating.\n\n[pawn_nameDef] feels inexplicably drawn to the cube.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->The mysterious cargo has been delivered. It is a simple cube that shines like gold but is impossible to scratch. It is light and warm to the touch. The way light plays across its surface is captivating.</li>
+  -->
+  <MysteriousCargoCube.questContentRules.rulesStrings>
+    <li>deliveredLetterLabel->شحنة غامضة</li>
+    <li>deliveredLetterText(pawnOnMap==true)->تم تسليم الشحنة الغامضة. إنه مكعب بسيط يلمع كالذهب لكن من المستحيل خدشه. إنه خفيف ودافئ عند اللمس. الطريقة التي يتلاعب بها الضوء عبر سطحه آسرة.\n\nيشعر [pawn_nameDef] بانجذاب غير مبرر نحو المكعب.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->تم تسليم الشحنة الغامضة. إنه مكعب بسيط يلمع كالذهب لكن من المستحيل خدشه. إنه خفيف ودافئ عند اللمس. الطريقة التي يتلاعب بها الضوء عبر سطحه آسرة.</li>
+ </MysteriousCargoCube.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has an odd request. [asker_pronoun] would like you to accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
+  -->
+  <MysteriousCargoCube.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->تواصل ذكاء اصطناعي مجهول بطلب غريب. يود منك قبول شحنة غير محددة. يتجنب كل أسئلتك حول الشحنة.\n\nإذا قبلت، سيوصل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] من [asker_faction_name] لديه طلب غريب. يود منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوت[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name] لديه طلب غريب. يطلب منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوت[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+ </MysteriousCargoCube.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Mysterious cargo</li>
+  -->
+  <MysteriousCargoCube.questNameRules.rulesStrings>
+    <li>questName->شحنة غامضة</li>
+ </MysteriousCargoCube.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>deliveredLetterLabel->Mysterious cargo</li>
+    <li>deliveredLetterText->The mysterious cargo has been delivered. It resembles a thick, jagged human spine made out of a rough-cast black metal. It looks like it's covered in a dark fluid.\n\nThe spine vibrates in response to touch and twists angrily. You can study it on a holding platform to learn more.</li>
+  -->
+  <MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
+    <li>deliveredLetterLabel->شحنة غامضة</li>
+    <li>deliveredLetterText->تم تسليم الشحنة الغامضة. إنها تشبه عمودًا فقريًا بشريًا سميكًا ومسننًا مصنوعًا من معدن أسود خشن الصب. يبدو وكأنه مغطى بسائل مظلم.\n\nيهتز العمود الفقري استجابة للمس ويلتوي بغضب. يمكنك دراسته على منصة احتجاز لمعرفة المزيد.</li>
+ </MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has an odd request. [asker_pronoun] would like you to accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
+  -->
+  <MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->تواصل ذكاء اصطناعي مجهول بطلب غريب. يود منك قبول شحنة غير محددة. يتجنب كل أسئلتك حول الشحنة.\n\nإذا قبلت، سيوصل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] من [asker_faction_name] لديه طلب غريب. يود منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوت[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name] لديه طلب غريب. يطلب منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوت[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+ </MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Mysterious cargo</li>
+  -->
+  <MysteriousCargoRevenantSpine.questNameRules.rulesStrings>
+    <li>questName->شحنة غامضة</li>
+ </MysteriousCargoRevenantSpine.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>deliveredLetterLabel->Mysterious cargo</li>
+    <li>deliveredLetterText(pawnOnMap==true)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] is deeply unsettled by its presence.\n\nStudy the corpse to learn more about it.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] will be deeply unsettled by its presence.\n\nStudy the corpse to learn more about it.</li>
+  -->
+  <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
+    <li>deliveredLetterLabel->شحنة غامضة</li>
+    <li>deliveredLetterText(pawnOnMap==true)->تم تسليم الشحنة الغامضة. يبدو أنها جثة بشرية.\n\nعند الفحص الدقيق، تبدو الجثة مطابقة لـ[pawn_nameDef]. بشرتها شمعية ودافئة عند اللمس. يشعر [pawn_nameDef] بقلق عميق من وجودها.\n\nادرس الجثة لمعرفة المزيد عنها.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->تم تسليم الشحنة الغامضة. يبدو أنها جثة بشرية.\n\nعند الفحص الدقيق، تبدو الجثة مطابقة لـ[pawn_nameDef]. بشرتها شمعية ودافئة عند اللمس. سيشعر [pawn_nameDef] بقلق عميق من وجودها.\n\nادرس الجثة لمعرفة المزيد عنها.</li>
+ </MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has an odd request. [asker_pronoun] would like you to accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
+  -->
+  <MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->تواصل ذكاء اصطناعي مجهول بطلب غريب. يود منك قبول شحنة غير محددة. يتجنب كل أسئلتك حول الشحنة.\n\nإذا قبلت، سيوصل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] من [asker_faction_name] لديه طلب غريب. يود منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوت[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name] لديه طلب غريب. يطلب منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوت[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+ </MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Mysterious cargo</li>
+  -->
+  <MysteriousCargoUnnaturalCorpse.questNameRules.rulesStrings>
+    <li>questName->شحنة غامضة</li>
+ </MysteriousCargoUnnaturalCorpse.questNameRules.rulesStrings>
+  
+</LanguageData>

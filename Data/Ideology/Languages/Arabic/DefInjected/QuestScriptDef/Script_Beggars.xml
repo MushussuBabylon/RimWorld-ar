@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] harmed</li>
+    <li>letterTextBeggarsBetrayed->The [groupLabelSingleOrPlural] who [wasWere] seeking your charity [hasHave] been harmed. Colonists with charitable beliefs will be unhappy.</li>
+    <li>hasHave(beggarCount==1)->has</li>
+    <li>hasHave(beggarCount>=2)->have</li>
+    <li>wasWere(beggarCount==1)->was</li>
+    <li>wasWere(beggarCount>=2)->were</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1)->traveler</li>
+    <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
+  -->
+  <Beggars.questContentRules.rulesStrings>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] تعرض للأذى</li>
+    <li>letterTextBeggarsBetrayed->ال[groupLabelSingleOrPlural] الذي [wasWere] يطلب صدقتك [hasHave] تعرض للأذى. المستعمرون ذوو المعتقدات الخيرية سيكونون غير سعداء.</li>
+    <li>hasHave(beggarCount==1)->قد</li>
+    <li>hasHave(beggarCount>=2)->قد</li>
+    <li>wasWere(beggarCount==1)->كان</li>
+    <li>wasWere(beggarCount>=2)->كانوا</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1)->traveler</li>
+    <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
+ </Beggars.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>groupLabelPlural->travelers</li>
+    <li>groupLabelPlural(allChildren==true,priority=1)->children</li>
+    <li>groupLabelSingle->traveler</li>
+    <li>groupLabelSingle(childCount>=1,priority=1)->child</li>
+    <li>travelerInfo(beggarCount==1)->This [groupLabelSingle] is</li>
+    <li>travelerInfo(beggarCount>=2)->These [groupLabelPlural] are</li>
+    <li>beggingForInfo->for x[requestedThingCount] [requestedThing_label]</li>
+    <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
+    <li>traverObjective(beggarCount>=2)->them</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] not part of any faction. If you wish, you can choose to kill, arrest, sell, or harvest [traverObjective], without diplomatic consequences.</li>
+    <li>approachInfo(beggarCount==1)->A poor [groupLabelSingle] named [beggars0_nameDef] is approaching looking for help</li>
+    <li>approachInfo(beggarCount>=2)->A group of poor [groupLabelPlural] are approaching looking for help</li>
+    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->A group of poor [groupLabelPlural] including a child are approaching looking for help</li>
+    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->A group of poor [groupLabelPlural] including some children are approaching looking for help</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] is begging [beggingForInfo]</li>
+    <li>requestInfo(beggarCount>=2)->The [groupLabelPlural] are begging [beggingForInfo]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] wants the silver to pay off a debt to a gang of pirates who are hunting [beggars0_objective]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] wants the silver to help buy the freedom of [beggars0_possessive] big sister who was enslaved by pirates</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] needs the medicine to help a traveler who is injured nearby</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] needs the medicine to help [beggars0_possessive] baby brother who is injured nearby</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] wants the medicine to save [beggars0_possessive] loyal pet who was injured on the road</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] needs [requestedThing_label] to inoculate a sickly friend against deadly diseases</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] wants it to drown [beggars0_possessive] sorrows after losing a fellow traveler in a terrible accident</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef] wants the [requestedThing_label] to help ease the suffering of a painfully sick uncle</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->They want the silver so they can buy back a friend who was recently kidnapped</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->They need the medicine to attempt a life-saving operation on a fellow traveler who was attacked by mechanoids</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->They need the medicine to concoct an herbalist's remedy for a friend who is bedridden with intense fever</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->They need the medicine to help their friends at a nearby settlement that was devastated by raiders</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->They want [requestedThing_label] so they can travel safely while looking for a new place to call home</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->They want [requestedThing_label] to help them drown their sorrows after losing their home in a terrible attack</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->They hope to use the [requestedThing_label] to free their friend from slavers by getting the slavers intoxicated before staging a breakout</li>
+    <li>interactionInfo(beggarCount==1)->You can give items to [beggars0_nameDef] by selecting a colonist and right-clicking on [beggars0_objective]</li>
+    <li>interactionInfo(beggarCount>=2)->You can give items to the [groupLabelPlural] by selecting a colonist and right-clicking on [beggars0_nameDef]</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] will move on after [visitDurationTicks_duration]</li>
+    <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
+  -->
+  <Beggars.questDescriptionRules.rulesStrings>
+    <li>groupLabelPlural->travelers</li>
+    <li>groupLabelPlural(allChildren==true,priority=1)->children</li>
+    <li>groupLabelSingle->traveler</li>
+    <li>groupLabelSingle(childCount>=1,priority=1)->child</li>
+    <li>travelerInfo(beggarCount==1)->هذا [groupLabelSingle] هو</li>
+    <li>travelerInfo(beggarCount>=2)->هؤلاء [groupLabelPlural] هم</li>
+    <li>beggingForInfo->مقابل x[requestedThingCount] [requestedThing_label]</li>
+    <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
+    <li>traverObjective(beggarCount>=2)->هم</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] ليس جزءاً من أي فصيل. إذا أردت، يمكنك اختيار قتل، اعتقال، بيع، أو حصاد [traverObjective]، دون عواقب دبلوماسية.</li>
+    <li>approachInfo(beggarCount==1)->[groupLabelSingle] مسكين اسمه [beggars0_nameDef] يقترب طلباً للمساعدة</li>
+    <li>approachInfo(beggarCount>=2)->مجموعة من ال[groupLabelPlural] المساكين يقتربون طلباً للمساعدة</li>
+    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->مجموعة من ال[groupLabelPlural] المساكين بينهم طفل يقتربون طلباً للمساعدة</li>
+    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->مجموعة من ال[groupLabelPlural] المساكين بينهم بعض الأطفال يقتربون طلباً للمساعدة</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] يتوسل [beggingForInfo]</li>
+    <li>requestInfo(beggarCount>=2)->ال[groupLabelPlural] يتوسلون [beggingForInfo]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] يريد الفضة ليسدد ديناً لعصابة من القراصنة يطاردونه</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] يريد الفضة للمساعدة في شراء حرية [beggars0_possessive] الأخت الكبرى التي استعبدها القراصنة</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] يحتاج الدواء لمساعدة مسافر مصاب في مكان قريب</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] يحتاج الدواء لمساعدة [beggars0_possessive] الأخ الرضيع المصاب في مكان قريب</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] يريد الدواء لإنقاذ [beggars0_possessive] الحيوان الأليف الوفي الذي أصيب على الطريق</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] يحتاج [requestedThing_label] لتطعيم صديق مريض ضد الأمراض القاتلة</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] يريدها لإغراق [beggars0_possessive] أحزانه بعد فقدان رفيق سفر في حادث مروع</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef] يريد [requestedThing_label] للمساعدة في تخفيف معاناة عم مريض بشدة</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->يريدون الفضة ليتمكنوا من فداء صديق اختطف مؤخراً</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->يحتاجون الدواء لمحاولة إجراء عملية منقذة للحياة لرفيق سفر هاجمته الميكانويدات</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->يحتاجون الدواء لإعداد علاج أعشاب لصديق طريح الفراش بحمى شديدة</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->يحتاجون الدواء لمساعدة أصدقائهم في مستوطنة قريبة دمرها المغيرون</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->يريدون [requestedThing_label] ليتمكنوا من السفر بأمان أثناء بحثهم عن مكان جديد ليستقروا فيه</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->يريدون [requestedThing_label] ليساعدهم على إغراق أحزانهم بعد فقدان منزلهم في هجوم مروع</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->يأملون استخدام [requestedThing_label] لتحرير صديقهم من تجار العبيد بجعلهم مخمورين قبل القيام بعملية الهروب</li>
+    <li>interactionInfo(beggarCount==1)->يمكنك إعطاء الأغراض لـ[beggars0_nameDef] عن طريق اختيار مستعمر والنقر بزر الفأرة الأيمن عليه</li>
+    <li>interactionInfo(beggarCount>=2)->يمكنك إعطاء الأغراض لل[groupLabelPlural] عن طريق اختيار مستعمر والنقر بزر الفأرة الأيمن على [beggars0_nameDef]</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] سيرحل بعد [visitDurationTicks_duration]</li>
+    <li>moveOnInfo(beggarCount>=2)->ال[groupLabelPlural] سيرحلون بعد [visitDurationTicks_duration]</li>
+ </Beggars.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount==1,childCount==1,priority=1)->young [beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
+    <li>questName(beggarCount>=2,allChildren==true,priority=1)->young [beggarPlural] [seekingPlural] [alms]</li>
+    <li>beggarSingle->beggar</li>
+    <li>beggarSingle->vagabond</li>
+    <li>beggarSingle->drifter</li>
+    <li>beggarSingle->traveler</li>
+    <li>beggarPlural->[beggarSingle]s</li>
+    <li>seekingSingle->seeks</li>
+    <li>seekingSingle->requests</li>
+    <li>seekingSingle->wishes for</li>
+    <li>seekingSingle->desires</li>
+    <li>seekingSingle->needs</li>
+    <li>seekingSingle->hopes for</li>
+    <li>seekingPlural->seek</li>
+    <li>seekingPlural->request</li>
+    <li>seekingPlural->wish for</li>
+    <li>seekingPlural->hope for</li>
+    <li>seekingPlural->desire</li>
+    <li>seekingPlural->need</li>
+    <li>alms->alms</li>
+    <li>alms->aid</li>
+    <li>alms->charity</li>
+    <li>alms->resources</li>
+  -->
+  <Beggars.questNameRules.rulesStrings>
+    <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount==1,childCount==1,priority=1)->[beggarSingle] صغير [seekingSingle] [alms]</li>
+    <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
+    <li>questName(beggarCount>=2,allChildren==true,priority=1)->[beggarPlural] صغار [seekingPlural] [alms]</li>
+    <li>beggarSingle->متسول</li>
+    <li>beggarSingle->متشرد</li>
+    <li>beggarSingle->متجول</li>
+    <li>beggarSingle->مسافر</li>
+    <li>beggarPlural->[beggarSingle]s</li>
+    <li>seekingSingle->يلتمس</li>
+    <li>seekingSingle->يطلب</li>
+    <li>seekingSingle->يرغب في</li>
+    <li>seekingSingle->يرغب</li>
+    <li>seekingSingle->يحتاج</li>
+    <li>seekingSingle->يأمل في</li>
+    <li>seekingPlural->يلتمسون</li>
+    <li>seekingPlural->يطلبون</li>
+    <li>seekingPlural->يرغبون في</li>
+    <li>seekingPlural->يأملون في</li>
+    <li>seekingPlural->يرغبون</li>
+    <li>seekingPlural->يحتاجون</li>
+    <li>alms->صدقة</li>
+    <li>alms->مساعدة</li>
+    <li>alms->إحسان</li>
+    <li>alms->موارد</li>
+ </Beggars.questNameRules.rulesStrings>
+  
+</LanguageData>

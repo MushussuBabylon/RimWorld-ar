@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Dormant self-charging -->
+  <SelfShutdown>شحن ذاتي خامل</SelfShutdown>
+  <!-- EN: Carry to recharger -->
+  <CarryToRecharger>الحمل إلى جهاز إعادة الشحن</CarryToRecharger>
+  <!-- EN: Must be carried to recharger. -->
+  <MustBeCarriedToRecharger>يجب حمله إلى جهاز إعادة الشحن.</MustBeCarriedToRecharger>
+  <!-- EN: Danger -->
+  <Danger>خطر</Danger>
+  <!-- EN: {0} damage -->
+  <DamageType>ضرر بقيمة {0}</DamageType>
+  <!-- EN: Contained {0_labelPlural} -->
+  <ContainedThings>المحتويات: {0_labelPlural}</ContainedThings>
+  <!-- EN: Time until next atomization -->
+  <DurationUntilNextAtomization>الوقت المتبقي حتى التذرير التالي</DurationUntilNextAtomization>
+  <!-- EN: Finishes in -->
+  <FinishesIn>ينتهي في</FinishesIn>
+  <!-- EN: with -->
+  <WithLower>مع</WithLower>
+  <!-- EN: tiles -->
+  <TilesLower>بلاطات</TilesLower>
+  <!-- EN: 1 mech -->
+  <CaravanMech>ميكانويد واحد</CaravanMech>
+  <!-- EN: {0} mechs -->
+  <CaravanMechsCount>ميكانويدات عدد {0}</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>{BOSS} يرتدي {APPAREL}</BossWithApparel>
+  <!-- EN: Resulting from gene -->
+  <ComesFromGene>ناتج عن جين</ComesFromGene>
+
+  <!-- Job reports -->
+  <!-- EN: removing {0}. -->
+  <ReportRemovingMechlink>يزيل {0}.</ReportRemovingMechlink>
+  <!-- EN: from {TEACHER_labelShort} -->
+  <ReportTakingLessonFrom>من {TEACHER_labelShort}</ReportTakingLessonFrom>
+
+  <!-- Areas -->
+  <!-- EN: Pollution clear -->
+  <PollutionClear>إزالة التلوث</PollutionClear>
+
+  <!-- Mechanitor -->
+  <!-- EN: Overseer -->
+  <Overseer>المشرف</Overseer>
+  <!-- EN: None (not under control) -->
+  <OverseerNone>لا يوجد (خارج السيطرة)</OverseerNone>
+  <!-- EN: May go feral at any moment -->
+  <MayGoFeral>قد يصبح وحشياً في أي لحظة</MayGoFeral>
+  <!-- EN: Bandwidth -->
+  <Bandwidth>النطاق الترددي</Bandwidth>
+  <!-- EN: bandwidth -->
+  <BandwidthLower>النطاق الترددي</BandwidthLower>
+  <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
+  <BandwidthGizmoTip>لا يمكن للميكانيتور الإشراف على ميكانويد إلا إذا كان هناك نطاق ترددي كافٍ لذلك. يستهلك كل ميكانويد مقداراً مختلفاً من النطاق الترددي.\n\nيمكنك الحصول على مزيد من النطاق الترددي عن طريق بناء عقد النطاق وضبط الميكانيتور عليها، أو عبر ارتداء ملابس الميكانيتور الخاصة.</BandwidthGizmoTip>
+  <!-- EN: Control group -->
+  <ControlGroup>مجموعة التحكم</ControlGroup>
+  <!-- EN: Current mode -->
+  <CurrentMechWorkMode>الوضع الحالي</CurrentMechWorkMode>
+  <!-- EN: Assigned mechs -->
+  <AssignedMechs>الميكانويدات المعينة</AssignedMechs>
+  <!-- EN: Tuned to -->
+  <BandNodeTunedTo>مضبوط على</BandNodeTunedTo>
+  <!-- EN: Tune to -->
+  <BandNodeTuneTo>ضبط على</BandNodeTuneTo>
+  <!-- EN: Tuning to -->
+  <BandNodeTuningTo>جاري الضبط على</BandNodeTuningTo>
+  <!-- EN: Retune -->
+  <BandNodeRetuneTo>إعادة ضبط</BandNodeRetuneTo>
+  <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
+  <BandNodeTuningDesc>اضبط عقدة النطاق هذه على ميكانيتور معين. سيستغرق الضبط {0} للاكتمال.</BandNodeTuningDesc>
+  <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
+  <BandNodeRetuningDesc>أعد ضبط عقدة النطاق هذه على ميكانيتور آخر. ستستغرق إعادة الضبط {0} للاكتمال.</BandNodeRetuningDesc>
+  <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
+  <DropThingBandwidthApparel>إزالة {0} ستغير النطاق الترددي لـ {1_labelShort} من {2} إلى {3}. هذا يعني أن الميكانويدات التالية لن تعود تحت السيطرة:</DropThingBandwidthApparel>
+  <!-- EN: no mechs -->
+  <NoMechs>لا توجد ميكانويدات</NoMechs>
+  <!-- EN: Group -->
+  <Group>مجموعة</Group>
+  <!-- EN: Groups -->
+  <Groups>مجموعات</Groups>
+  <!-- EN: Loading mech gestation resources -->
+  <LoadingMechGestator>جاري تحميل موارد حضانة الميكانويد</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>الوقت المتبقي في هذه الدورة</GestatingInspect>
+  <!-- EN: Initiating mech gestation cycle -->
+  <InitMechGestationCycle>بدء دورة حضانة الميكانويد</InitMechGestationCycle>
+  <!-- EN: Initiating mech birth -->
+  <InitMechBirth>بدء ولادة الميكانويد</InitMechBirth>
+  <!-- EN: Mech energy -->
+  <MechEnergy>طاقة الميكانويد</MechEnergy>
+  <!-- EN: Energy -->
+  <Energy>الطاقة</Energy>
+  <!-- EN: energy -->
+  <EnergyLower>طاقة</EnergyLower>
+  <!-- EN: Bandwidth usage -->
+  <BandwidthUsage>استهلاك النطاق الترددي</BandwidthUsage>
+  <!-- EN: Mech gestation bandwidth -->
+  <MechGestationBandwidthUsed>نطاق حضانة الميكانويد المستخدم</MechGestationBandwidthUsed>
+  <!-- EN: Cannot summon {0} threat -->
+  <CannotSummon>لا يمكن استدعاء تهديد {0}</CannotSummon>
+  <!-- EN: {0} threat ready to summon -->
+  <ReadyToSummonThreat>تهديد {0} جاهز للاستدعاء</ReadyToSummonThreat>
+  <!-- EN: Summon {0} threat -->
+  <Summon>استدعاء تهديد {0}</Summon>
+  <!-- EN: Mechanoids disabled -->
+  <MechsDisabled>الميكانويدات معطلة</MechsDisabled>
+  <!-- EN: No reachable {0} -->
+  <NoReachableBossgroupCaller>لا يمكن الوصول إلى {0}</NoReachableBossgroupCaller>
+  <!-- EN: No reservable {0} -->
+  <NoReservableBossgroupCaller>لا يمكن حجز {0}</NoReservableBossgroupCaller>
+  <!-- EN: No powered {0} -->
+  <NoPoweredBossgroupCaller>لا يوجد {0} متصل بالطاقة</NoPoweredBossgroupCaller>
+  <!-- EN: already used -->
+  <AlreadyUsed>مستخدم بالفعل</AlreadyUsed>
+  <!-- EN: Gestating -->
+  <Gestating>قيد الحضانة</Gestating>
+  <!-- EN: Escorting {TARGET_labelShort}. -->
+  <Escorting>يرافق {TARGET_labelShort}.</Escorting>
+  <!-- EN: Worker -->
+  <Worker>عامل</Worker>
+  <!-- EN: Waiting for -->
+  <WaitingFor>في انتظار</WaitingFor>
+  <!-- EN: Uncontrolled -->
+  <Uncontrolled>خارج السيطرة</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>{0} قادم</BossgroupIncoming>
+
+  <!-- Sanguophage -->
+  <!-- EN: hemogen -->
+  <Hemogen>الهيموجين</Hemogen>
+  <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
+  <HemogenDesc>الهيموجين هو مصدر طاقة بيولوجي مشتق من مركبات في دم الإنسان. ينتجه البشر الأساسيون (Baseliner) داخلياً ويستهلكونه بمرور الوقت للحفاظ على توازنهم الداخلي. تستخدمه بعض الأنماط الجينية الغريبة كنوع من الوقود لقدرات خاصة، بينما يحتاج آخرون إلى استهلاكه للبقاء على قيد الحياة.</HemogenDesc>
+  <!-- EN: deathrest capacity -->
+  <DeathrestCapacity>قدرة ركود الموت</DeathrestCapacity>
+  <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
+  <DeathrestCapacityDesc>يحدد هذا عدد مباني ركود الموت التي يمكن للشخص الاتصال بها أثناء فترة ركوده. يمنح كل مبنى ركود ميزة محددة، لذا من الأفضل الاتصال بأكبر عدد ممكن منها.\n\nيمكن زيادة قدرة ركود الموت باستخدام أمصال قدرة ركود الموت، والتي يمكن شراؤها من التجار.</DeathrestCapacityDesc>
+  <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
+  <PawnIsConnectedToBuildings>يتصل {PAWN_nameDef} بـ {CURRENT} / {MAX} (كحد أقصى) من مباني ركود الموت.</PawnIsConnectedToBuildings>
+  <!-- EN: wake now -->
+  <Wake>الاستيقاظ الآن</Wake>
+  <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
+  <WakeDesc>الاستيقاظ من ركود الموت.\n\n{PAWN_nameDef} في حالة ركود موت منذ {DURATION}.</WakeDesc>
+  <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
+  <WakeExtraDesc_Exhaustion>يحتاج {PAWN_nameDef} إلى ركود الموت لمدة {TOTAL} على الأقل. إيقاظـ{PAWN_objective} مبكراً سيجعلـ{PAWN_objective} مريضاً، ولن يستفيد {PAWN_pronoun} من أي مباني ركود الموت.</WakeExtraDesc_Exhaustion>
+  <!-- EN: {PAWN_nameDef} can now wake safely. -->
+  <WakeExtraDesc_Safe>يمكن لـ {PAWN_nameDef} الاستيقاظ بأمان الآن.</WakeExtraDesc_Safe>
+  <!-- EN: Cannot wake. Need at least {0} hemogen. -->
+  <CannotWakeNotEnoughHemogen>لا يمكن الاستيقاظ. يتطلب {0} من الهيموجين على الأقل.</CannotWakeNotEnoughHemogen>
+  <!-- EN: Auto-wake -->
+  <AutoWake>استيقاظ تلقائي</AutoWake>
+  <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
+  <AutoWakeDesc>عند تفعيله، سيستيقظ {PAWN_nameDef} تلقائياً بمجرد اكتمال ركود موتـ{PAWN_possessive}.\n\nعند تعطيله، سيستمر {PAWN_pronoun} في ركود الموت حتى توقظـ{PAWN_objective} يدوياً.</AutoWakeDesc>
+  <!-- EN: {PAWN_nameDef} is deathresting. -->
+  <IsDeathresting>{PAWN_nameDef} في حالة ركود موت.</IsDeathresting>
+  <!-- EN: cannot deathrest -->
+  <CannotDeathrest>لا يمكنه ركود الموت</CannotDeathrest>
+  <!-- EN: Start deathrest -->
+  <StartDeathrest>بدء ركود الموت</StartDeathrest>
+  <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
+  <ConfirmExitDeathrestUnderMinDays>يستغرق إكمال ركود الموت بأمان {MINDURATION}، لكن {PAWN_nameDef} في حالة ركود منذ {CURDURATION} فقط.\n\nإيقاظ {PAWN_nameDef} الآن سيقطع ركود موتـ{PAWN_possessive}، مما يخل بتوازن أيضـ{PAWN_possessive} ويجعلـ{PAWN_objective} مريضاً لعدة أيام قادمة.\n\nهل أنت متأكد من أنك تريد إيقاظـ{PAWN_objective}؟</ConfirmExitDeathrestUnderMinDays>
+  <!-- EN: deathresting -->
+  <Deathresting>في حالة ركود موت</Deathresting>
+  <!-- EN: can wake safely now. -->
+  <CanWakeSafely>يمكنه الاستيقاظ بأمان الآن.</CanWakeSafely>
+  <!-- EN: Disabled by gene -->
+  <DisabledByGene>معطل بسبب جين</DisabledByGene>
+  <!-- EN: {PAWN_nameDef} is in critical condition. -->
+  <WakeDisabledCriticalCondition>{PAWN_nameDef} في حالة حرجة.</WakeDisabledCriticalCondition>
+  <!-- EN: Drain rate -->
+  <DrainRate>معدل الإستنزاف</DrainRate>
+  <!-- EN: Regeneration rate -->
+  <RegenerationRate>معدل التجدد</RegenerationRate>
+  <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
+  <NextDeathrestNeed>ينبغي لـ {PAWN_nameDef} الدخول في ركود الموت خلال {DURATION} لتجنب الإنهاك.</NextDeathrestNeed>
+  <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
+  <PawnShouldDeathrestNow>ينبغي لـ {PAWN_nameDef} الدخول في ركود الموت قريباً لتجنب الإنهاك.</PawnShouldDeathrestNow>
+  <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
+  <AutoTakeHemogenDesc>يحدد هذا ما إذا كان {PAWN_nameDef} يتناول حزم الهيموجين تلقائياً عندما ينخفض هيموجينـ{PAWN_possessive} عن {MIN}.\n\nالتناول التلقائي حالياً: {ONOFF}.</AutoTakeHemogenDesc>
+  <!-- EN: Consume hemogen below -->
+  <ConsumeHemogenBelow>تناول الهيموجين عند انخفاضه عن</ConsumeHemogenBelow>
+  <!-- EN: Never consume hemogen. -->
+  <NeverConsumeHemogen>عدم تناول الهيموجين مطلقاً.</NeverConsumeHemogen>
+  <!-- EN: Will kill -->
+  <WillKill>سيؤدي إلى الموت</WillKill>
+  <!-- EN: Will cause major blood loss -->
+  <WillCauseSeriousBloodloss>سيسبب فقداناً حاداً للدم</WillCauseSeriousBloodloss>
+  <!-- EN: too small -->
+  <TooSmall>صغير جداً</TooSmall>
+
+  <!-- Deathrest buildings -->
+  <!-- EN: Bound to -->
+  <BoundTo>مرتبط بـ</BoundTo>
+  <!-- EN: Will bind permanently on first use. -->
+  <WillBindOnFirstUse>سيرتبط بشكل دائم عند أول استخدام.</WillBindOnFirstUse>
+  <!-- EN: Time active this deathrest -->
+  <TimeActiveThisDeathrest>الوقت النشط في ركود الموت هذا</TimeActiveThisDeathrest>
+  <!-- EN: Minimum is {0} to apply -->
+  <MinimumNeededToApply>الحد الأدنى للتطبيق هو {0}</MinimumNeededToApply>
+  <!-- EN: Cannot deathrest -->
+  <CannotAssignBedCannotDeathrest>لا يمكنه ركود الموت</CannotAssignBedCannotDeathrest>
+  <!-- EN: Already bound to {0_nameDef} -->
+  <CannotAssignAlreadyBound>مرتبط بالفعل بـ {0_nameDef}</CannotAssignAlreadyBound>
+  <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
+  <CannotAssignBedCannotBindToMoreBuildings>لا يمكن الارتباط بمزيد من {BUILDING_labelPlural}</CannotAssignBedCannotBindToMoreBuildings>
+
+  <!-- Aptitudes -->
+  <!-- EN: aptitude -->
+  <Aptitude>الجدارة</Aptitude>
+  <!-- EN: aptitudes -->
+  <Aptitudes>الجدارات</Aptitudes>
+  <!-- EN: aptitudes -->
+  <AptitudePlural>الجدارات</AptitudePlural>
+  <!-- EN: Aptitude makes an individual perform at a higher or lower level than their learned skill.\n\nFor example, an aptitude of +1 for a skill means that a person with level 5 in that skill will perform as though they were at level 6.\n\nThe total value cannot exceed level 20 or fall below level 1. -->
+  <AptitudesDesc>تؤثر الجدارة على أداء الفرد ليكون أعلى أو أقل من مستوى مهارته المكتسبة.\n\nعلى سبيل المثال، جدارة بقيمة +1 لمهارة معينة تعني أن الشخص الذي يمتلك المستوى 5 في تلك المهارة سيؤدي وكأنه في المستوى 6.\n\nلا يمكن للقيمة الإجمالية أن تتجاوز المستوى 20 أو تقل عن المستوى 1.</AptitudesDesc>
+  <!-- EN: total -->
+  <Total>الإجمالي</Total>
+  
+  <!-- Human pregnancy -->
+  <!-- EN: Father -->
+  <FatherTip>الأب</FatherTip>
+  <!-- EN: Genetic mother -->
+  <MotherTip>الأم الجينية</MotherTip>
+  <!-- EN: an unoccupied bed -->
+  <RitualTargetChildBirth>سرير شاغر</RitualTargetChildBirth>
+  <!-- EN: No appropriate bed for giving birth. -->
+  <NoAppropriateBedChildBirth>لا يوجد سرير مناسب للولادة.</NoAppropriateBedChildBirth>
+  <!-- EN: No doctor around. -->
+  <NoDoctorChildBirth>لا يوجد طبيب متاح.</NoDoctorChildBirth>
+  <!-- EN: Can't use this bed. -->
+  <CantUseThisBed>لا يمكن استخدام هذا السرير.</CantUseThisBed>
+  <!-- EN: Not in labor. -->
+  <NotInLabor>ليست في مخاض.</NotInLabor>
+  <!-- EN: labor -->
+  <Labor>المخاض</Labor>
+  <!-- EN: dilation -->
+  <LaborDilation>التوسع</LaborDilation>
+  <!-- EN: normal -->
+  <PregnancyApproach_Normal>طبيعي</PregnancyApproach_Normal>
+  <!-- EN: avoid pregnancy -->
+  <PregnancyApproach_AvoidPregnancy>تجنب الحمل</PregnancyApproach_AvoidPregnancy>
+  <!-- EN: try for baby -->
+  <PregnancyApproach_TryForBaby>محاولة الإنجاب</PregnancyApproach_TryForBaby>
+  <!-- EN: pregnancy chance -->
+  <PregnancyChance>فرصة الحمل</PregnancyChance>
+  <!-- EN: Pregnancy approach -->
+  <PregnancyApproach>نهج التعامل مع الحمل</PregnancyApproach>
+  <!-- EN: Click to change pregnancy approach. -->
+  <ClickToChangePregnancyApproach>انقر لتغيير نهج التعامل مع الحمل.</ClickToChangePregnancyApproach>
+  <!-- EN: Pregnancy is not possible -->
+  <PregnancyNotPossible>الحمل غير ممكن</PregnancyNotPossible>
+  <!-- EN: The chance of a healthy birth at this quality level was {0_percentage}. -->
+  <BirthRitualHealthyBabyChance>كانت فرصة الولادة الصحية عند مستوى الجودة هذا {0_percentage}.</BirthRitualHealthyBabyChance>
+  <!-- EN: Giving birth. -->
+  <GivingBirth>تضع مولوداً.</GivingBirth>
+
+  <!-- Genes -->
+  <!-- EN: genes -->
+  <Genes>الجينات</Genes>
+  <!-- EN: The genes associated with this xenotype. -->
+  <GenesDesc>الجينات المرتبطة بهذا النمط الغريب.</GenesDesc>
+  <!-- EN: suppressed -->
+  <Suppressed>مكبوت</Suppressed>
+  <!-- EN: active -->
+  <Active>نشط</Active>
+  <!-- EN: This trait has been suppressed by a conflicting forced genetic trait or gene. It will not be active until all conflicts are removed -->
+  <SuppressedDesc>تم كبت هذه السمة بسبب جين أو سمة جينية قسرية متعارضة. لن تصبح نشطة حتى تتم إزالة جميع التعارضات.</SuppressedDesc>
+  <!-- EN: trait -->
+  <Trait>سمة</Trait>
+  <!-- EN: gene -->
+  <Gene>جين</Gene>
+  <!-- EN: Added by gene -->
+  <AddedByGene>مضاف بواسطة جين</AddedByGene>
+  <!-- EN: Eject all -->
+  <EjectAll>إخراج الكل</EjectAll>
+  <!-- EN: Drop all contained genepacks onto the ground. -->
+  <EjectAllDesc>إلقاء جميع حزم الجينات المحتواة على الأرض.</EjectAllDesc>
+  <!-- EN: Genepacks stored -->
+  <GenepacksStored>حزم الجينات المخزنة</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>تحميل تلقائي</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>إذا كان نشطاً، سيقوم الحمالون بتخزين حزمة الجينات هذه تلقائياً في بنك الجينات.</GenepackAutoLoadDesc>
+  <!-- EN: Forced traits -->
+  <ForcedTraits>السمات القسرية</ForcedTraits>
+  <!-- EN: Suppressed traits -->
+  <SuppressedTraits>السمات المكبوتة</SuppressedTraits>
+  <!-- EN: These traits will be added. All conflicting traits will become suppressed. -->
+  <ForcedTraitsDesc>سيتم إضافة هذه السمات. وسيتم كبت جميع السمات المتعارضة.</ForcedTraitsDesc>
+  <!-- EN: Complexity -->
+  <Complexity>التعقيد</Complexity>
+  <!-- EN: How much complexity this adds to the process of gene assembly. -->
+  <ComplexityDesc>مدى التعقيد الذي يضيفه هذا إلى عملية تجميع الجينات.</ComplexityDesc>
+  <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
+  <MaxComplexityDesc>يمكن زيادة الحد الأقصى للتعقيد عن طريق بناء معالجات الجينات بالقرب من مجمع الجينات.</MaxComplexityDesc>
+  <!-- EN: Total complexity -->
+  <ComplexityTotal>التعقيد الإجمالي</ComplexityTotal>
+  <!-- EN: The total complexity of all the genes in use. -->
+  <ComplexityTotalDesc>التعقيد الإجمالي لجميع الجينات المستخدمة.</ComplexityTotalDesc>
+  <!-- EN: metabolic efficiency -->
+  <Metabolism>الكفاءة الأيضية</Metabolism>
+  <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
+  <MetabolismDesc>الكفاءة الأيضية الإجمالية لهذه الجينات عند تجميعها. الكفاءة العالية تعني أن الشخص يحتاج إلى طعام أقل، بينما الكفاءة المنخفضة تعني أنه يجب أن يأكل أكثر.</MetabolismDesc>
+  <!-- EN: Metabolic efficiency -->
+  <MetabolismTotal>الكفاءة الأيضية الإجمالية</MetabolismTotal>
+  <!-- EN: The total metabolic efficiency of all genes in the genome. High efficiency means a person needs less food; low efficiency means they must eat more. -->
+  <MetabolismTotalDesc>الكفاءة الأيضية الإجمالية لجميع الجينات في الجينوم. الكفاءة العالية تعني أن الشخص يحتاج إلى طعام أقل، بينما الكفاءة المنخفضة تعني أنه يجب أن يأكل أكثر.</MetabolismTotalDesc>
+  <!-- EN: Number of genes -->
+  <NumberOfGenes>عدد الجينات</NumberOfGenes>
+  <!-- EN: Gene price factors -->
+  <GenePriceFactors>عوامل سعر الجينات</GenePriceFactors>
+  <!-- EN: any -->
+  <AnyLower>أي</AnyLower>
+  <!-- EN: Archite total -->
+  <ArchitesTotal>إجمالي الآركيت</ArchitesTotal>
+  <!-- EN: Archite capsules -->
+  <ArchitesRequired>كبسولات الآركيت</ArchitesRequired>
+  <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
+  <ArchitesRequiredDesc>الآركيتات هي ميكانيتات آركوتيكية - أجهزة مجهرية يمكنها العمل مباشرة على الخلايا والجزيئات، صممتها ذكاءات الآركوتيك الفائقة. إنها قادرة على إنجاز مآثر لا يمكن تفسيرها، وبعض الجينات لا تعمل إلا بدعم من آلات الآركوتيك غير الأرضية. لا يمكن للبشر صنع الآركيتات؛ بل يعثرون عليها فقط عندما ينتجها الآركوتيك لأسبابه الخاصة المجهولة.</ArchitesRequiredDesc>
+  <!-- EN: Cancel xenogerm -->
+  <CancelXenogerm>إلغاء النواة الغريبة</CancelXenogerm>
+  <!-- EN: Stop all work on the current xenogerm. -->
+  <CancelXenogermDesc>إيقاف جميع الأعمال في النواة الغريبة الحالية.</CancelXenogermDesc>
+  <!-- EN: Allow all genepacks -->
+  <AllowAllGenepacks>السماح بجميع حزم الجينات</AllowAllGenepacks> 
+  <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
+  <AllowAllGenepacksDesc>ما إذا كان يُسمح للمستوطنين بتخزين أي حزمة جينات تلقائياً في هذه الحاوية أم لا. قم بتعطيل هذا الخيار إذا كنت تريد تحديد حزم جينات معينة ليتم تخزينها هنا.</AllowAllGenepacksDesc> 
+  <!-- EN: The genepacks currently inside this container. -->
+  <ContainedGenepacksDesc>حزم الجينات الموجودة حالياً داخل هذه الحاوية.</ContainedGenepacksDesc> 
+  <!-- EN: The genepacks designated to be loaded into this container. -->
+  <GenepacksToLoadDesc>حزم الجينات المحددة ليتم تحميلها في هذه الحاوية.</GenepacksToLoadDesc> 
+  <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
+  <GenepacksIgnoredDesc>حزم الجينات غير المخزنة والتي لم يتم تحديدها ليتم تحميلها في هذه الحاوية.</GenepacksIgnoredDesc> 
+  <!-- EN: Genepacks to load -->
+  <GenepacksToLoad>حزم جينات للتحميل</GenepacksToLoad> 
+  <!-- EN: Genepacks to ignore -->
+  <GenepacksToIgnore>حزم جينات للتجاهل</GenepacksToIgnore> 
+  <!-- EN: Eject this genepack from the container. -->
+  <EjectGenepackDesc>إخراج حزمة الجينات هذه من الحاوية.</EjectGenepackDesc> 
+  <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
+  <ConfirmRemoveGenepack>هل تريد حقاً إخراج {0}؟ سيتم إلقاؤها على الأرض في مكان قريب فوراً.</ConfirmRemoveGenepack> 
+  <!-- EN: Missing required research -->
+  <MissingRequiredResearch>البحث المطلوب مفقود</MissingRequiredResearch>
+  <!-- EN: No genepacks available in nearby gene banks. -->
+  <NoGenepacksAvailable>لا توجد حزم جينات متاحة في بنوك الجينات المجاورة.</NoGenepacksAvailable> 
+  <!-- EN: Allow this genepack to be loaded into this container. -->
+  <AddToLoadingListDesc>السماح بتحميل حزمة الجينات هذه في هذه الحاوية.</AddToLoadingListDesc> 
+  <!-- EN: Remove this genepack from the loading list. -->
+  <RemoveFromLoadingListDesc>إزالة حزمة الجينات هذه من قائمة التحميل.</RemoveFromLoadingListDesc> 
+  <!-- EN: Recombine -->
+  <Recombine>إعادة دمج</Recombine>
+  <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
+  <RecombineDesc>إنشاء نواة غريبة جديدة قابلة للزرع باستخدام بيانات من حزم الجينات في مكتبتك الجينية.</RecombineDesc>
+  <!-- EN: Genes -->
+  <ContainedGenesDesc>الجينات</ContainedGenesDesc>
+  <!-- EN: Order implantation -->
+  <ImplantXenogerm>أمر زرع</ImplantXenogerm>
+  <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
+  <ImplantXenogermDesc>زرع هذا في شخص لتجاوز شفرته الجينية جزئياً.\n\nهذه عملية جراحية، لذا فهي تتطلب طبيباً، وسريراً طبياً، و{MEDICINEAMOUNT} من الدواء.</ImplantXenogermDesc>
+  <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
+  <ImplantXenogermWarningDesc>زرع النواة الغريبة سيضع {PAWN_nameDef} في غيبوبة أثناء اندماج النواة. في المتوسط، يستمر هذا لـ {COMADURATION}. تعتمد مدة الغيبوبة على المهارة الطبية للطبيب وجودة منشآتك الطبية.</ImplantXenogermWarningDesc>
+  <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
+  <ImplantXenogermWarningOverwriteXenogenes>بالإضافة إلى ذلك، فإن زرع النواة الغريبة سيعيد كتابة الجينات الغريبة الموجودة. النمط الغريب الحالي لـ {PAWN_nameDef} هو '{XENOTYPE}'. ويمتلك {PAWN_pronoun} الجينات الغريبة التالية:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
+  <ImplantXenogermWarningNewMetabolism>بعد الزرع، ستكون قيمة أيض {PAWN_nameDef} هي {MET} ومضاعف استهلاك الطعام {CONSUMPTION}.</ImplantXenogermWarningNewMetabolism>
+  <!-- EN: Would you like to continue? -->
+  <WouldYouLikeToContinue>هل ترغب في الاستمرار؟</WouldYouLikeToContinue>
+  <!-- EN: Cancel implanting -->
+  <CancelImplanting>إلغاء الزرع</CancelImplanting>
+  <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
+  <CancelImplantingDesc>إلغاء زرع هذه النواة الغريبة في {PAWN_nameDef}.</CancelImplantingDesc>
+  <!-- EN: Xenotype -->
+  <Xenotype>النمط الغريب</Xenotype>
+  <!-- EN: unique -->
+  <Unique>فريد</Unique>
+  <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
+  <UniqueXenotypeDesc>سلالة بشرية فريدة من نوعها تمتلك مجموعة من الجينات الغريبة التي لا تنتمي إلى أي نمط غريب معروف.</UniqueXenotypeDesc>
+  <!-- EN: Factor for genetic metabolism -->
+  <FactorForMetabolism>عامل الأيض الجيني</FactorForMetabolism>
+  <!-- EN: Progress -->
+  <Progress>التقدم</Progress>
+  <!-- EN: In sunlight -->
+  <InSunlight>في ضوء الشمس</InSunlight>
+  <!-- EN: {0_labelShort} is exposed to the sky. -->
+  <ThingIsSkyExposed>{0_labelShort} معرض للسماء.</ThingIsSkyExposed>
+  <!-- EN: Insert person -->
+  <InsertPerson>إدخال شخص</InsertPerson>
+  <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
+  <InsertPersonGeneExtractorDesc>أدخل شخصاً في مستخرج الجينات. سيتم استخراج مادته الجينية واستخدامها لإنشاء حزمة جينات تحتوي على اختيار عشوائي من جيناته.\n\nاستخراج الجينات مؤلم ويترك الهدف ضعيفاً وناعساً لعدة أيام. هذه العملية مميتة لأولئك الذين يمرون بمرحلة إعادة نمو جيناتهم حالياً.</InsertPersonGeneExtractorDesc>
+  <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
+  <ConfirmExtractXenogermWillKill>تحذير: جينات {PAWN_nameDef} قيد إعادة النمو. استخراج جيناتـ{PAWN_possessive} قبل اكتمال نموها سيقتلـ{PAWN_objective}.\n\nهل أنت متأكد من أنك تريد الاستمرار؟</ConfirmExtractXenogermWillKill>
+  <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
+  <GeneExtractionComplete>اكتمل استخراج الجينات لـ {PAWN_nameDef}. تم استخراج</GeneExtractionComplete>
+  <!-- EN: Insert xenogerm -->
+  <InsertXenogerm>إدخال النواة الغريبة</InsertXenogerm>
+  <!-- EN: Insert a xenogerm to apply during growth. -->
+  <InsertXenogermDesc>أدخل نواة غريبة لتطبيقها أثناء النمو.</InsertXenogermDesc>
+  <!-- EN: Waiting for {PAWN_nameDef}. -->
+  <WaitingForPawn>في انتظار {PAWN_nameDef}.</WaitingForPawn>
+  <!-- EN: Extracting genes from {PAWN_nameDef}. -->
+  <ExtractingXenogermFrom>جاري استخراج الجينات من {PAWN_nameDef}.</ExtractingXenogermFrom>
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
+  <ExtractionPausedNoPower>الاستخراج متوقف مؤقتاً: لا توجد طاقة (سيُقطع خلال {TIME})</ExtractionPausedNoPower>
+  <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
+  <LastIngestedDurationAgo>آخر تناول لـ {CHEMICAL_label} كان منذ {DURATION}.</LastIngestedDurationAgo>
+  <!-- EN: {NAME} xenogerm -->
+  <NamedXenogerm>نواة {NAME} الغريبة</NamedXenogerm>
+  <!-- EN: Inserted {0} -->
+  <InsertedThing>تم إدخال {0}</InsertedThing>
+  <!-- EN: Assembly paused -->
+  <AssemblyPaused>التجميع متوقف مؤقتاً</AssemblyPaused>
+  <!-- EN: Required gene bank unpowered -->
+  <GenebankUnpowered>بنك الجينات المطلوب غير متصل بالطاقة</GenebankUnpowered>
+  <!-- EN: deathless -->
+  <Deathless>خالد</Deathless>
+  <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
+  <GeneDefChemicalNeedDurationDesc>يحتاج {PAWN_nameDef} إلى تناول {0} بشكل منتظم للبقاء على قيد الحياة. بعد قضاء {DEFICIENCYDURATION} بدون {0}، سيعاني {PAWN_pronoun} من نقص {0}. بعد {COMADURATION}، سيدخل {PAWN_pronoun} في غيبوبة. وبعد {DEATHDURATION}، سيموت {PAWN_pronoun}.</GeneDefChemicalNeedDurationDesc>
+  <!-- EN: {CHEMICAL_label} dependency -->
+  <ChemicalDependency>إدمان {CHEMICAL_label}</ChemicalDependency>
+  <!-- EN: Xenogerm -->
+  <Xenogerm>النواة الغريبة</Xenogerm>
+  <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
+  <PawnWillKeepDeathrestingLethalInjuries>سيستمر {PAWN_nameDef} في ركود الموت طالما أن {PAWN_pronoun} يعاني من إصابات قاتلة.</PawnWillKeepDeathrestingLethalInjuries>
+  <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
+  <PawnWillKeepRegeneratingLethalInjuries>سيظل {PAWN_nameDef} في غيبوبة تجدد طالما أن {PAWN_pronoun} يعاني من إصابات قاتلة.</PawnWillKeepRegeneratingLethalInjuries>
+  <!-- EN: Deathrest stopped -->
+  <DeathrestPaused>توقف ركود الموت</DeathrestPaused>
+  <!-- EN: Lethal injuries -->
+  <LethalInjuries>إصابات قاتلة</LethalInjuries>
+  <!-- EN: deathrest -->
+  <Deathrest>ركود الموت</Deathrest>
+  <!-- EN: capacity -->
+  <Capacity>السعة</Capacity>
+  <!-- EN: Non-{GENE} romance chance -->
+  <MissingGeneRomanceChance>فرصة الارتباط العاطفي مع غير حاملي جين {GENE}</MissingGeneRomanceChance>
+  <!-- EN: Not in gene bank -->
+  <NotInGeneBank>ليس في بنك الجينات</NotInGeneBank>
+
+  <!-- Child birth -->
+  <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
+  <ChildBirthAlwaysHealthy_Desc>التجمع لمساعدة الأم على الولادة. يمكن للطبيب المساعدة في توليد الطفل.</ChildBirthAlwaysHealthy_Desc>
+  <!-- EN: until the baby is born -->
+  <UntilBabyIsBorn>حتى يولد الطفل</UntilBabyIsBorn>
+
+  <!-- EN: Children want to learn from different activities at different times. -->
+  <LearningDesireTooltip>يرغب الأطفال في التعلم من أنشطة مختلفة في أوقات مختلفة.</LearningDesireTooltip>
+  <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
+  <DevelopmentHealthGizmoTooltip>الصحة النمائية هي متوسط حاجة الطفل للتعلم منذ عيد ميلاده الأخير.\n\nالأطفال الذين يتمتعون بصحة نمائية أعلى سيكون لديهم خيارات أكثر أثناء لحظات النمو وسيكتسبون شغفاً أكبر بالمهارات.</DevelopmentHealthGizmoTooltip>
+
+  <!-- EN: Must not be placed close to another {0_label} -->
+  <MustNotBePlacedCloseToAnother>يجب عدم وضعه بالقرب من {0_label} آخر</MustNotBePlacedCloseToAnother>
+  <!-- EN: Next terrain pollution in -->
+  <PollutingTerrainProgress>تلوث التضاريس التالي خلال</PollutingTerrainProgress>
+  <!-- EN: Poisoned {0} -->
+  <PoisonedTerrain>{0} مسمم</PoisonedTerrain>
+  <!-- EN: Assign to control group {0} -->
+  <AssignMechToControlGroup>تعيين إلى مجموعة التحكم {0}</AssignMechToControlGroup>
+  <!-- EN: Fall per day -->
+  <CurrentMechEnergyFallPerDay>الانخفاض اليومي</CurrentMechEnergyFallPerDay>
+  <!-- EN: Cannot assign to control group {0} -->
+  <CannotAssignMechToControlGroup>لا يمكن التعيين إلى مجموعة التحكم {0}</CannotAssignMechToControlGroup>
+  <!-- EN: Already assigned -->
+  <AssignMechAlreadyAssigned>معين بالفعل</AssignMechAlreadyAssigned>
+
+  <!-- Lactation -->
+  <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
+  <LactatingAddedNutritionPerDay>يستهلك {0} إضافياً من التغذية يومياً لإنتاج الحليب (سرعة إنتاج الحليب هي {1_percentage} بسبب مستوى الغذاء الحالي).</LactatingAddedNutritionPerDay>
+  <!-- EN: Lactation is paused because milk fullness is 100% -->
+  <LactatingStoppedBecauseFull>توقف إدرار الحليب مؤقتاً لأن امتلاء الحليب بلغ 100%</LactatingStoppedBecauseFull>
+  <!-- EN: Lactation is paused due to starvation. -->
+  <LactatingStoppedBecauseHungry>توقف إدرار الحليب مؤقتاً بسبب التضور جوعاً.</LactatingStoppedBecauseHungry>
+
+  <!-- Mech gestating -->
+  <!-- EN: Current gestation cycle -->
+  <CurrentGestationCycle>دورة الحضانة الحالية</CurrentGestationCycle>
+  <!-- EN: Gestation cycles remaining -->
+  <RemainingGestationCycles>دورات الحضانة المتبقية</RemainingGestationCycles>
+  <!-- EN: Gestation cycles -->
+  <GestationCycles>دورات الحضانة</GestationCycles>
+  <!-- EN: Gestating {0} -->
+  <GestatingMech>حضانة {0}</GestatingMech>
+  <!-- EN: Gestated {0} -->
+  <GestatedMech>تمت حضانة {0}</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>يتطلب وجود {PAWN_nameDef} لمواصلة الحضانة</GestatingMechRequiresMechanitor>
+  <!-- EN: Requires {PAWN_nameDef} to complete -->
+  <GestatedMechRequiresMechanitor>يتطلب وجود {PAWN_nameDef} للاكتمال</GestatedMechRequiresMechanitor>
+  <!-- EN: Gestation complete -->
+  <GestationComplete>اكتملت الحضانة</GestationComplete>
+  <!-- EN: Resurrecting {0} -->
+  <ResurrectingMech>جاري إحياء {0}</ResurrectingMech>
+  <!-- EN: Resurrected {0} -->
+  <ResurrectedMech>تم إحياء {0}</ResurrectedMech>
+
+  <!-- Carrier -->
+  <!-- EN: Release {0} -->
+  <MechCarrierRelease>إطلاق {0}</MechCarrierRelease>
+  <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
+  <MechCarrierDesc>إطلاق سرب يصل إلى {0} من {1}. يتطلب بناء كل {2} تكلفة تبلغ {3} {4}. إذا دُمّر الميكانويد الأم، ستموت جميع وحدات {1} المرتبطة به. لا يمكن إعادة شحن {1} وستموت بمجرد نفاد مصدر طاقتها.</MechCarrierDesc>
+  <!-- EN: Not enough resources -->
+  <MechCarrierNotEnoughResources>الموارد غير كافية</MechCarrierNotEnoughResources>
+  <!-- EN: Autofill -->
+  <MechCarrierAutofillResources>ملء تلقائي</MechCarrierAutofillResources>
+  <!-- EN: Click to set the desired autofill amount. -->
+  <MechCarrierClickToSetAutofillAmount>انقر لتحديد كمية الملء التلقائي المطلوبة.</MechCarrierClickToSetAutofillAmount>
+  <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
+  <MechCarrierAutofillDesc>تحدد كمية الملء التلقائي هذه الحد الأقصى للموارد التي سيضعها مستوطنوك تلقائياً في {0} هذا. يمكن استخدام الموارد لإنشاء {1}.</MechCarrierAutofillDesc>
+
+  <!-- Mech power cell -->
+  <!-- EN: Power cell -->
+  <MechPowerCell>خلية طاقة</MechPowerCell>
+  <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
+  <MechPowerCellTip>تمتلك قنافذ الحرب مصدر طاقة يُستخدم لمرة واحدة. عندما تنفد خلية الطاقة، يموت الميكانويد.</MechPowerCellTip>
+  
+
+  <!-- Bossgroup -->
+  <!-- EN: available in {0}. -->
+  <BossgroupAvailableIn>متاح خلال {0}.</BossgroupAvailableIn>
+  <!-- EN: requires mechanitor -->
+  <RequiresMechanitor>يتطلب ميكانيتور</RequiresMechanitor>
+
+  <!-- Abilities -->
+  <!-- EN: {0_labelShort} is not hemogenic. -->
+  <AbilityDisabledNoHemogenGene>{0_labelShort} ليس لديه جينات هيموجينية.</AbilityDisabledNoHemogenGene>
+  <!-- EN: {0_labelShort} does not have enough hemogen. -->
+  <AbilityDisabledNoHemogen>لا يملك {0_labelShort} ما يكفي من الهيموجين.</AbilityDisabledNoHemogen>
+  <!-- EN: children cannot do this. -->
+  <AbilityStartRitualDisabledChild>لا يمكن للأطفال فعل هذا.</AbilityStartRitualDisabledChild>
+  <!-- EN: need a {0}. -->
+  <AbilityStartRitualNoMembersOfIdeo>يتطلب {0}.</AbilityStartRitualNoMembersOfIdeo>
+  <!-- EN: Hemogen cost -->
+  <AbilityHemogenCost>تكلفة الهيموجين</AbilityHemogenCost>
+  <!-- EN: Base hemogen gain -->
+  <AbilityHemogenGain>اكتساب الهيموجين الأساسي</AbilityHemogenGain>
+  <!-- EN: Smokepop charged -->
+  <AbilityMechSmokepopCharged>ستار الدخان مشحون</AbilityMechSmokepopCharged>
+  <!-- EN: Smokepop recharged in {0} -->
+  <AbilityMechSmokepopRecharging>يتم إعادة شحن ستار الدخان خلال {0}</AbilityMechSmokepopRecharging>
+  <!-- EN: Firefoam pop charged -->
+  <AbilityMechFirefoampopCharged>قاذف رغوة النار مشحون</AbilityMechFirefoampopCharged>
+  <!-- EN: Firefoam pop recharged in {0} -->
+  <AbilityMechFirefoampopRecharging>يتم إعادة شحن قاذف رغوة النار خلال {0}</AbilityMechFirefoampopRecharging>
+
+  <!-- EN: Polluted {0} -->
+  <PollutedTerrain>{0} ملوث</PollutedTerrain>
+
+  <!-- Growth vat -->
+  <!-- EN: Biostarvation -->
+  <Biostarvation>التجويع الحيوي</Biostarvation>
+  <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
+  <BiostarvationExplanation>تعاني واحدة أو أكثر من أحواض النمو من التجويع الحيوي بسبب نقص التغذية أو الطاقة.\n\nإذا وصل التجويع الحيوي إلى 100%، سيموت الأشخاص المتواجدون بداخلها.</BiostarvationExplanation>
+  <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
+  <InsertPersonGrowthVatDesc>أدخل شخصاً في حوض النمو. سيزداد عمره بمعدل 20 مرة أسرع من المعتاد.</InsertPersonGrowthVatDesc>
+  <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
+  <InsertEmbryoGrowthVatDesc>ازرع جنيناً في حوض النمو. بعد فترة حضانة تدوم {0}، سينتج الحوض طفلاً كاملاً التكوين، ويُأمل أن يكون بصحة جيدة.</InsertEmbryoGrowthVatDesc>
+  <!-- EN: Insert embryo -->
+  <ImplantEmbryo>إدخال جنين</ImplantEmbryo>
+  <!-- EN: Cannot insert embryo -->
+  <CannotInsertEmbryo>لا يمكن إدخال الجنين</CannotInsertEmbryo>
+  <!-- EN: Already contains embryo. -->
+  <EmbryoAlreadyInside>يحتوي بالفعل على جنين.</EmbryoAlreadyInside>
+  <!-- EN: No embryos -->
+  <ImplantNoEmbryos>لا توجد أجنة</ImplantNoEmbryos>
+  <!-- EN: Time until birth -->
+  <EmbryoTimeUntilBirth>الوقت المتبقي حتى الولادة</EmbryoTimeUntilBirth>
+  <!-- EN: Birth quality -->
+  <EmbryoBirthQuality>جودة الولادة</EmbryoBirthQuality>
+  <!-- EN: Embryo selected -->
+  <EmbryoSelected>تم اختيار الجنين</EmbryoSelected>
+  <!-- EN: Person selected -->
+  <PersonSelected>تم اختيار الشخص</PersonSelected>
+  <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
+  <NoPawnsCanEnterGrowthVat>لا يوجد أشخاص في سن مقبولة ولا يعانون من تجويع حيوي. لدخول حوض النمو، يجب أن يكون عمر الشخص أقل من {0} سنوات وألا يعاني حالياً من التجويع الحيوي.</NoPawnsCanEnterGrowthVat>
+  <!-- EN: Aging speed -->
+  <AgingSpeed>سرعة التقدم في العمر</AgingSpeed>
+
+  <!-- Mech charger -->
+  <!-- EN: Waste -->
+  <WasteLevel>النفايات</WasteLevel>
+
+  <!-- Dissolution -->
+  <!-- EN: indoors -->
+  <DissolutionRateIndoors>في الداخل</DissolutionRateIndoors>
+  <!-- EN: raining -->
+  <DissolutionRain>تمطر</DissolutionRain>
+  <!-- EN: One wastepack dissolves every {0} -->
+  <DissolvesEvery>تتحلل حزمة نفايات واحدة كل {0}</DissolvesEvery>
+  <!-- EN: Frozen (won't dissolve). -->
+  <DissolutionFrozen>متجمد (لن يتحلل).</DissolutionFrozen>
+
+  <!-- EN: {0} cells / day -->
+  <CellsPerDay>{0} خلايا / يوم</CellsPerDay>
+
+  <!-- EN: {0} cannot wear clothing for {1} -->
+  <WrongDevelopmentalStageForClothing>لا يمكن لـ {0} ارتداء ملابس مخصصة لـ {1}</WrongDevelopmentalStageForClothing> 
+
+  <!-- Subcore scanner -->
+  <!-- EN: Start scanner -->
+  <SubcoreScannerStart>بدء الماسح</SubcoreScannerStart>
+  <!-- EN: Produces -->
+  <SubcoreScannerProduces>ينتج</SubcoreScannerProduces>
+  <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
+  <SubcoreScannerStartDesc>بمجرد ملء {0} بالمكونات المطلوبة، {1}، اختر مستوطناً وانقر بزر الماوس الأيمن على {0} أو على شخص عاجز لبدء الماسح.</SubcoreScannerStartDesc>
+  <!-- EN: Completes in -->
+  <SubcoreScannerCompletesIn>يكتمل خلال</SubcoreScannerCompletesIn>
+  <!-- EN: Waiting for occupant -->
+  <SubcoreScannerWaitingForOccupant>في انتظار الشاغل</SubcoreScannerWaitingForOccupant>
+  <!-- EN: Waiting for ingredients -->
+  <SubcoreScannerWaitingForIngredients>في انتظار المكونات</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
+  <SubcoreScannerWaitingForIngredientsDesc>يجب تحميل المكونات التالية أولاً</SubcoreScannerWaitingForIngredientsDesc>
+  <!-- EN: Has {0} -->
+  <SubcoreScannerPawnHasSickness>يعاني من {0}</SubcoreScannerPawnHasSickness>
+  <!-- EN: Babies are not allowed -->
+  <SubcoreScannerBabyNotAllowed>لا يُسمح بالرضع</SubcoreScannerBabyNotAllowed>
+  <!-- EN: Insert a person into the {0}. -->
+  <InsertPersonSubcoreScannerDesc>أدخل شخصاً في {0}.</InsertPersonSubcoreScannerDesc>
+
+  <!-- EN: Duration (hours) -->
+  <DurationHours>المدة (بالساعات)</DurationHours>
+
+  <!-- Age -->
+  <!-- EN: adult -->
+  <Adult>بالغ</Adult>
+  <!-- EN: adults -->
+  <Adults>بالغون</Adults>
+  <!-- EN: child -->
+  <Child>طفل</Child>
+  <!-- EN: children -->
+  <Children>أطفال</Children>
+  <!-- EN: baby -->
+  <Baby>رضيع</Baby>
+  <!-- EN: babies -->
+  <Babies>رضع</Babies>
+  <!-- EN: feral child -->
+  <FeralChild>طفل وحشي</FeralChild>
+  <!-- EN: Wearable by -->
+  <WearableBy>يمكن ارتداؤه من قِبل</WearableBy>
+
+  <!-- EN: Xenogerm implantation -->
+  <Reward_ReimplantXenogerm_Label>زرع النواة الغريبة</Reward_ReimplantXenogerm_Label>
+  <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
+  <Reward_ReimplantXenogerm_Desc>سيقوم أحد أعضاء المجموعة بإعادة زرع نواتـ{PAWN_possessive} الغريبة في مستوطن من اختيارك، مما يحول مستوطنك إلى واحد منهم. سيبقى مستوطنك جزءاً من جماعتك وتحت سيطرتك.</Reward_ReimplantXenogerm_Desc>
+
+  <!-- Mech resurrection -->
+  <!-- EN: Mech resurrection charges -->
+  <MechResurrectionCharges>شحنات إحياء الميكانويد</MechResurrectionCharges>
+
+  <!-- Mechs -->
+  <!-- EN: Mech stun pulse on death -->
+  <MechStunPulseWarning>نبضة صعق ميكانويد عند الموت</MechStunPulseWarning>
+  <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
+  <IsLowEnergySelfShutdown>دخل {PAWN_nameDef} في وضع إيقاف التشغيل الذاتي بسبب انخفاض الطاقة.</IsLowEnergySelfShutdown>
+  
+  <!-- Pollution -->
+  <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
+  <ShowPollutionOverlayToggleButton>تبديل تغطية التلوث. يوضح هذا المناطق الملوثة من التضاريس.\n\nالتعرض للتضاريس الملوثة يسبب تراكماً ساماً قد يؤدي إلى الموت. لا يمكن لمعظم النباتات العيش في تضاريس ملوثة.</ShowPollutionOverlayToggleButton>
+  <!-- EN: None -->
+  <TilePollutionNone>لا يوجد</TilePollutionNone>
+  <!-- EN: Light -->
+  <TilePollutionLight>خفيف</TilePollutionLight>
+  <!-- EN: Moderate -->
+  <TilePollutionModerate>متوسط</TilePollutionModerate>
+  <!-- EN: Extreme -->
+  <TilePollutionExtreme>شديد</TilePollutionExtreme>
+  <!-- EN: Pollution -->
+  <TilePollution>التلوث</TilePollution>
+  <!-- EN: Nearby pollution -->
+  <TilePollutionNearby>التلوث المجاور</TilePollutionNearby>
+  <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
+  <NearbyPollutionTip>مجموع مستويات التلوث لجميع البلاطات ضمن نصف قطر قدره {0} بلاطات. كلما زادت المسافة عن هذه البلاطة، يقل تأثير التلوث:\n\n{1}\n\nكلما زاد التلوث المجاور، زادت فرصة حدوث ضباب حمضي.</NearbyPollutionTip>
+  <!-- EN: This tile will have acidic smog every {0} days on average. -->
+  <NoxiousHazeInterval>ستشهد هذه البلاطة ضباباً حمضياً كل {0} أيام في المتوسط.</NoxiousHazeInterval>
+  <!-- EN: This tile will never have acidic smog. -->
+  <NoxiousHazeNeverOccurring>لن تشهد هذه البلاطة ضباباً حمضياً أبداً.</NoxiousHazeNeverOccurring>
+  <!-- EN: tiles away -->
+  <NearbyPollutionTilesAway>بلاطات بعيداً</NearbyPollutionTilesAway>
+  <!-- EN: pollution -->
+  <PollutionLower>التلوث</PollutionLower>
+  <!-- EN: Cannot absorb pollution: Buildings too close -->
+  <CannotAbsorbPollution>لا يمكن امتصاص التلوث: المباني قريبة جداً</CannotAbsorbPollution>
+  <!-- EN: Can absorb pollution from nearby terrain -->
+  <CanAbsorbPollution>يمكن امتصاص التلوث من التضاريس المجاورة</CanAbsorbPollution>
+  <!-- EN: Absorbing pollution: Next in {0} -->
+  <AbsorbingPollutionNext>جاري امتصاص التلوث: التالي خلال {0}</AbsorbingPollutionNext>
+  <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
+  <TerrainPollutionTip>مدى تلوث التضاريس في هذه البلاطة.\n\nالتعرض للتضاريس الملوثة يسبب تراكماً ساماً يمكن أن يؤدي إلى الموت. لا يمكن لمعظم المحاصيل العيش في تضاريس ملوثة.</TerrainPollutionTip>
+
+  <!-- Research -->
+  <!-- EN: Requires study of -->
+  <StudyRequirementTip>يتطلب دراسة</StudyRequirementTip>
+
+  <!-- Insect -->
+  <!-- EN: Trigger radius -->
+  <TriggerRadius>نصف قطر التفعيل</TriggerRadius>
+  <!-- EN: Opening -->
+  <DormantCompOpening>جاري الفتح</DormantCompOpening>
+  
+  <!-- Fertility -->
+  <!-- EN: ova extracted recently -->
+  <SurgeryDisableReasonOvumExtracted>تم استخراج البويضات مؤخراً</SurgeryDisableReasonOvumExtracted>
+  <!-- EN: Fertilize -->
+  <Fertilize>تخصيب</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <FertilizeThing>تخصيب {0_label}</FertilizeThing>
+  <!-- EN: Cannot fertilize -->
+  <FertilizeCannotFloatOption>لا يمكن التخصيب</FertilizeCannotFloatOption>
+  <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
+  <FertilizeGizmoDescription>اختر رجلاً لتخصيب هذه البويضة وإنشاء جنين. يمكن بعد ذلك زرع الجنين في أم لبدء الحمل، أو في حوض النمو. سيكون الوالدان البيولوجيان للطفل الناتج هما المرأة التي قدمت البويضة والرجل الذي خصبها.</FertilizeGizmoDescription>
+  <!-- EN: Cancel fertilization by {0} -->
+  <FertilizeCancel>إلغاء التخصيب بواسطة {0}</FertilizeCancel>
+  <!-- EN: sterile -->
+  <CannotSterile>عقيم</CannotSterile>
+  <!-- EN: pregnant -->
+  <CannotPregnant>حامل</CannotPregnant>
+  <!-- EN: must be {0} -->
+  <CannotMustBeAge>يجب أن يكون {0}</CannotMustBeAge>
+  <!-- EN: already having embryo implanted -->
+  <CannotImplantingOtherEmbryo>تم زرع جنين بالفعل</CannotImplantingOtherEmbryo>
+  <!-- EN: {0} ({1}) -->
+  <DisabledOption>{0} ({1})</DisabledOption>
+  <!-- EN: No men can fertilize this ovum. -->
+  <FertilizeDisabledNoMales>لا يوجد رجال يمكنهم تخصيب هذه البويضة.</FertilizeDisabledNoMales>
+  
+  <!-- EN: Implant embryo -->
+  <ImplantLabel>زرع الجنين</ImplantLabel>
+  <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
+  <ImplantDescription>زرع هذا الجنين في أم بديلة لبدء الحمل.</ImplantDescription>
+  <!-- EN: Insert in growth vat -->
+  <InsertGrowthVatLabel>إدخال في حوض النمو</InsertGrowthVatLabel>
+
+  <!-- EN: Cannot implant -->
+  <ImplantCannotFloatOption>لا يمكن الزرع</ImplantCannotFloatOption>
+  <!-- EN: No woman can be a surrogate mother. -->
+  <ImplantDisabledNoWomen>لا توجد امرأة يمكنها أن تكون أماً بديلة.</ImplantDisabledNoWomen>
+  <!-- EN: No available growth vats. -->
+  <ImplantDisabledNoVats>لا توجد أحواض نمو متاحة.</ImplantDisabledNoVats>
+  <!-- EN: Implant {0} -->
+  <ImplantSurgeryLabel>زرع {0}</ImplantSurgeryLabel>
+  <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
+  <ImplantSurgeryConfirm>فرصة نجاح زرع {0} في {1} هي {2}.\n\nتعتمد فرصة نجاح الزرع على خصوبة الأم البديلة. وستكون أقل إذا كانت الأم كبيرة جداً أو صغيرة جداً في السن.</ImplantSurgeryConfirm>
+  <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
+  <ImplantEmbryoCancelVat>إخراج {0} من حوض النمو الآن سيدمر الجنين قبل أن يتشكل الطفل.\n\nهل ترغب في الاستمرار؟</ImplantEmbryoCancelVat>
+  <!-- EN: Implanting the {0} in {1} was unsuccessful. -->
+  <ImplantFailedMessage>لم ينجح زرع {0} في {1}.</ImplantFailedMessage>
+  <!-- EN: Cancel embryo insertion -->
+  <ImplantEmbryoCancel>إلغاء إدخال الجنين</ImplantEmbryoCancel>
+  <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
+  <EmbryoEjectedFromGrowthVat>تم إخراج {0} من حوض النمو وتدميره.</EmbryoEjectedFromGrowthVat>
+  <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
+  <EmbryoEjectedFromGrowthVatBiostarvation>تُلف {0} في حوض النمو بسبب التجويع الحيوي.</EmbryoEjectedFromGrowthVatBiostarvation>
+
+  <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
+  <IvfPregnancyLetterText>أصبحت {0} حاملاً بنجاح نتيجة لزرع الجنين!</IvfPregnancyLetterText>
+  <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
+  <IvfPregnancyLetterParents>سيرث الطفل التركيبة الجينية لكل من {0} و {1}.</IvfPregnancyLetterParents>
+
+  <!-- Remote mech shield -->
+  <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
+  <RemoteMechShieldTip>درع عن بعد يطلقه الميكانيتور. يحاول صد المقذوفات أو الشظايا القادمة، لكنه لا يفعل شيئاً ضد الهجمات القريبة أو الحرارة. يمنع مرتديه من إطلاق النار إلى الخارج، ويتوقف عن العمل فوراً إذا أُصيب بنبضة كهرومغناطيسية (EMP).</RemoteMechShieldTip>
+
+  <!-- Thoughtdef fallbacks -->
+  <!-- EN: my child is happy -->
+  <MyChildIsHappy>طفلي سعيد</MyChildIsHappy>
+  <!-- EN: my child is sad -->
+  <MyChildIsSad>طفلي حزين</MyChildIsSad> 
+  
+  <!-- EN: Genetic {CHEMICAL_label} dependency -->
+  <GeneticChemicalDependency_Label>إدمان جيني لـ {CHEMICAL_label}</GeneticChemicalDependency_Label>
+  <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
+  <GeneticChemicalDependency_Desc>أحتاج إلى {CHEMICAL_label} بسبب نقصي الجيني. لقد مرت فترة طويلة جداً منذ أن تناولت أي شيء منه.</GeneticChemicalDependency_Desc>
+
+</LanguageData>

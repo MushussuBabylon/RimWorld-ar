@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Cancel -->
+  <DesignatorCancel>إلغاء</DesignatorCancel>
+  <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
+  <DesignatorCancelDesc>إلغاء تعيينات البناء، التعدين، النقل، الحصاد، وجميع التعيينات الأخرى.</DesignatorCancelDesc>
+
+  <!-- EN: Cut plants -->
+  <DesignatorCutPlants>قطع النباتات</DesignatorCutPlants>
+  <!-- EN: Marks plants to be cut and destroyed. The plant will be completely removed, and any food or resource yield will be harvested. -->
+  <DesignatorCutPlantsDesc>تحديد النباتات ليتم قطعها وتدميرها. ستتم إزالة النبات بالكامل، وحصاد أي طعام أو موارد ناتجة عنه.</DesignatorCutPlantsDesc>
+
+  <!-- EN: Deconstruct -->
+  <DesignatorDeconstruct>تفكيك</DesignatorDeconstruct>
+  <!-- EN: Deconstruct this and reclaim part of its resources. -->
+  <DesignatorDeconstructDesc>تفكيك هذا واستعادة جزء من موارده.</DesignatorDeconstructDesc>
+
+  <!-- EN: Deconstruct conduit -->
+  <DesignatorDeconstructConduit>تفكيك الأسلاك</DesignatorDeconstructConduit>
+  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
+  <DesignatorDeconstructConduitDesc>تفكيك أسلاك الطاقة واستعادة جزء من مواردها.</DesignatorDeconstructConduitDesc>
+
+  <!-- EN: Uninstall -->
+  <DesignatorUninstall>إزالة</DesignatorUninstall>
+  <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
+  <DesignatorUninstallDesc>إزالة هذا حتى يمكن نقله، بيعه، أو تثبيته في مكان آخر.</DesignatorUninstallDesc>
+
+  <!-- EN: Extract tree -->
+  <DesignatorExtractTree>استخراج الشجرة</DesignatorExtractTree>
+  <!-- EN: Extract this tree while keeping it alive so it can be replanted somewhere else. -->
+  <DesignatorExtractTreeDesc>استخراج هذه الشجرة مع إبقائها حية حتى يمكن إعادة زراعتها في مكان آخر.</DesignatorExtractTreeDesc>
+
+  <!-- EN: Harvest -->
+  <DesignatorHarvest>حصاد</DesignatorHarvest>
+  <!-- EN: Marks plants to be harvested for their food or other products. -->
+  <DesignatorHarvestDesc>تحديد النباتات ليتم حصادها للحصول على طعامها أو منتجاتها الأخرى.</DesignatorHarvestDesc>
+
+  <!-- EN: Chop wood -->
+  <DesignatorHarvestWood>قطع الأخشاب</DesignatorHarvestWood>
+  <!-- EN: Marks trees to be chopped down for wood. -->
+  <DesignatorHarvestWoodDesc>تحديد الأشجار ليتم قطعها للحصول على الخشب.</DesignatorHarvestWoodDesc>
+
+  <!-- EN: Haul things -->
+  <DesignatorHaulThings>نقل الأشياء</DesignatorHaulThings>
+  <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
+  <DesignatorHaulThingsDesc>تحديد كتل الصخور والأشياء الأخرى ليتم نقلها إلى مناطق التفريغ. ليس ضرورياً لأشياء مثل الطعام أو الجثث، والتي تكون قابلة للنقل دائماً.</DesignatorHaulThingsDesc>
+  <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
+  <MustHaulHaulables>يمكن فقط تعيين الأشياء القابلة للنقل ولكن لا يتم نقلها دائماً (مثل كتل الصخور).</MustHaulHaulables>
+
+  <!-- EN: Hunt -->
+  <DesignatorHunt>صيد</DesignatorHunt>
+  <!-- EN: Mark animals to be hunted by your hunters.\n\nOnly hunters with suitable ranged weapons will hunt. -->
+  <DesignatorHuntDesc>تحديد الحيوانات ليتم صيدها بواسطة صياديك.\n\nفقط الصيادون الذين يمتلكون أسلحة بعيدة المدى مناسبة سيقومون بالصيد.</DesignatorHuntDesc>
+
+  <!-- EN: Mine -->
+  <DesignatorMine>تعدين</DesignatorMine>
+  <!-- EN: Designate areas of rock to be mined out. -->
+  <DesignatorMineDesc>تحديد مناطق الصخور ليتم تعدينها.</DesignatorMineDesc>
+
+  <!-- EN: Mine vein -->
+  <DesignatorMineVein>تعدين العِرق</DesignatorMineVein>
+  <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
+  <DesignatorMineVeinDesc>تحديد منطقة صخرية للتعدين. سيستمر المستعمرون في التعدين حتى يتم تعدين جميع الصخور المتصلة من نفس النوع.</DesignatorMineVeinDesc>
+
+  <!-- EN: Smooth surface -->
+  <DesignatorSmoothSurface>تنعيم السطح</DesignatorSmoothSurface>
+  <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
+  <DesignatorSmoothSurfaceDesc>تحديد التضاريس والجدران الحجرية الخشنة ليتم تنعيمها.</DesignatorSmoothSurfaceDesc>
+  <!-- EN: Smooth walls -->
+  <DesignatorSmoothWalls>تنعيم الجدران</DesignatorSmoothWalls>
+  <!-- EN: Designate rough stone walls to be smoothed. -->
+  <DesignatorSmoothWallsDesc>تحديد الجدران الحجرية الخشنة ليتم تنعيمها.</DesignatorSmoothWallsDesc>
+  <!-- EN: Smooth terrain -->
+  <DesignatorSmoothFloors>تنعيم الأرضيات</DesignatorSmoothFloors>
+  <!-- EN: Designate rough stone terrain to be smoothed. -->
+  <DesignatorSmoothFloorsDesc>تحديد الأرضيات الحجرية الخشنة ليتم تنعيمها.</DesignatorSmoothFloorsDesc>
+
+  <!-- EN: Plan -->
+  <DesignatorPlan>تخطيط</DesignatorPlan>
+  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions.\n\nRight-click to hide or unhide all planning zones. -->
+  <DesignatorPlanDesc>وضع تعيينات التخطيط. هذه لا تفعل شيئاً سوى مساعدتك في التخطيط للتوسعات المستقبلية.\n\nانقر بزر الفأرة الأيمن لإخفاء أو إظهار جميع مناطق التخطيط.</DesignatorPlanDesc>
+
+  <!-- EN: Remove plans -->
+  <DesignatorPlanRemove>إزالة التخطيطات</DesignatorPlanRemove>
+  <!-- EN: Remove planning designations. -->
+  <DesignatorPlanRemoveDesc>إزالة تعيينات التخطيط.</DesignatorPlanRemoveDesc>
+
+  <!-- EN: Forbid -->
+  <DesignatorForbid>حظر</DesignatorForbid>
+  <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
+  <DesignatorForbidDesc>تحديد العناصر كمحظورة. لن يتمكن المستعمرون من التفاعل مع العناصر المحددة.</DesignatorForbidDesc>
+
+  <!-- EN: Allow -->
+  <DesignatorUnforbid>سماح</DesignatorUnforbid>
+  <!-- EN: Mark items as not forbidden. Colonists will be able to interact with the designated items. -->
+  <DesignatorUnforbidDesc>تحديد العناصر كغير محظورة. سيتمكن المستعمرون من التفاعل مع العناصر المحددة.</DesignatorUnforbidDesc>
+
+  <!-- EN: Expand home area -->
+  <DesignatorAreaHomeExpand>توسيع منطقة المنزل</DesignatorAreaHomeExpand>
+  <!-- EN: Colonists will repair buildings, clean floors, and extinguish fires only in the home area. -->
+  <DesignatorAreaHomeExpandDesc>سيقوم المستعمرون بإصلاح المباني، تنظيف الأرضيات، وإخماد الحرائق فقط في منطقة المنزل.</DesignatorAreaHomeExpandDesc>
+  <!-- EN: Clear home area -->
+  <DesignatorAreaHomeClear>مسح منطقة المنزل</DesignatorAreaHomeClear>
+  <!-- EN: Removes a home area. Colonists will no longer clean, repair, or extinguish fires here. -->
+  <DesignatorAreaHomeClearDesc>إزالة منطقة المنزل. لن يقوم المستعمرون بعد الآن بالتنظيف، الإصلاح، أو إخماد الحرائق هنا.</DesignatorAreaHomeClearDesc>
+
+  <!-- EN: Build roof area -->
+  <DesignatorAreaBuildRoofExpand>بناء منطقة سقف</DesignatorAreaBuildRoofExpand>
+  <!-- EN: Colonists will build roofs in this area. -->
+  <DesignatorAreaBuildRoofExpandDesc>سيقوم المستعمرون ببناء أسقف في هذه المنطقة.</DesignatorAreaBuildRoofExpandDesc>
+
+  <!-- EN: Remove roof area -->
+  <DesignatorAreaNoRoofExpand>إزالة منطقة سقف</DesignatorAreaNoRoofExpand>
+  <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
+  <DesignatorAreaNoRoofExpandDesc>سيقوم المستعمرون بإزالة الأسقف في هذه المنطقة (باستثناء الجبل العلوي، الذي لا يمكن إزالته).</DesignatorAreaNoRoofExpandDesc>
+
+  <!-- EN: Ignore roof area -->
+  <DesignatorAreaIgnoreRoofExpand>تجاهل منطقة سقف</DesignatorAreaIgnoreRoofExpand>
+  <!-- EN: Colonists will ignore roofs in this area. -->
+  <DesignatorAreaIgnoreRoofExpandDesc>سيتجاهل المستعمرون الأسقف في هذه المنطقة.</DesignatorAreaIgnoreRoofExpandDesc>
+
+  <!-- EN: Snow removal area -->
+  <DesignatorAreaSnowClearExpand>منطقة إزالة الثلج</DesignatorAreaSnowClearExpand>
+  <!-- EN: Create an area which colonists will try to keep clear of snow. -->
+  <DesignatorAreaSnowClearExpandDesc>إنشاء منطقة سيحاول المستعمرون إبقاءها خالية من الثلج.</DesignatorAreaSnowClearExpandDesc>
+  <!-- EN: Clear snow removal area -->
+  <DesignatorAreaSnowClearClear>مسح منطقة إزالة الثلج</DesignatorAreaSnowClearClear>
+  <!-- EN: Removes a snow removal area. Colonists will no longer try to keep this area clear of snow. -->
+  <DesignatorAreaSnowClearClearDesc>إزالة منطقة إزالة الثلج. لن يحاول المستعمرون بعد الآن إبقاء هذه المنطقة خالية من الثلج.</DesignatorAreaSnowClearClearDesc>
+
+  <!-- EN: Expand allowed area -->
+  <DesignatorExpandAreaAllowed>توسيع المنطقة المسموحة</DesignatorExpandAreaAllowed>
+  <!-- EN: Expand an allowed area.\n\nAllowed areas are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
+  <DesignatorExpandAreaAllowedDesc>توسيع منطقة مسموحة.\n\nالمناطق المسموحة هي مناطق محددة يمكنك تعيينها للمستعمرين. لن يقبل المستعمرون العمل أو يلبون احتياجاتهم خارج منطقتهم المسموحة.</DesignatorExpandAreaAllowedDesc>
+  <!-- EN: Clear allowed area -->
+  <DesignatorClearAreaAllowed>مسح المنطقة المسموحة</DesignatorClearAreaAllowed>
+  <!-- EN: Clear cells from an allowed area.\n\nAllowed area are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
+  <DesignatorClearAreaAllowedDesc>مسح الخلايا من منطقة مسموحة.\n\nالمناطق المسموحة هي مناطق محددة يمكنك تعيينها للمستعمرين. لن يقبل المستعمرون العمل أو يلبون احتياجاتهم خارج منطقتهم المسموحة.</DesignatorClearAreaAllowedDesc>
+  <!-- EN: Manage areas... -->
+  <ManageAreas>إدارة المناطق...</ManageAreas>
+  <!-- EN: Manage auto-slaughter... -->
+  <ManageAutoSlaughter>إدارة الذبح التلقائي...</ManageAutoSlaughter>
+
+  <!-- EN: Create a zone where your colonists will try to grow a certain kind of plant. -->
+  <DesignatorGrowingZoneDesc>إنشاء منطقة سيحاول فيها مستعمروك زراعة نوع معين من النباتات.</DesignatorGrowingZoneDesc>
+
+  <!-- EN: Create a stockpile where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
+  <DesignatorZoneCreateStorageResourcesDesc>إنشاء مخزون يقوم فيه مستعمروك بتخزين الموارد.\nيمكن لهذه الأداة أيضاً توسيع أي مخزون موجود.</DesignatorZoneCreateStorageResourcesDesc>
+
+  <!-- EN: Create a stockpile where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
+  <DesignatorZoneCreateStorageDumpingDesc>إنشاء مخزون يقوم فيه مستعمروك بتخزين النفايات.\nيمكن لهذه الأداة أيضاً توسيع أي مخزون موجود.</DesignatorZoneCreateStorageDumpingDesc>
+
+  <!-- EN: Shrink zones -->
+  <DesignatorZoneDelete>تقليص المناطق</DesignatorZoneDelete>
+  <!-- EN: Shrink zone -->
+  <DesignatorZoneDeleteSingular>تقليص المنطقة</DesignatorZoneDeleteSingular>
+  <!-- EN: Remove zones, like stockpile zones or growing zones. -->
+  <DesignatorZoneDeleteDesc>إزالة المناطق، مثل مناطق التخزين أو مناطق الزراعة.</DesignatorZoneDeleteDesc>
+
+  <!-- EN: Expand zone -->
+  <DesignatorZoneExpand>توسيع المنطقة</DesignatorZoneExpand>
+  
+  <!-- EN: Claim -->
+  <DesignatorClaim>امتلاك</DesignatorClaim>
+  <!-- EN: Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists. -->
+  <DesignatorClaimDesc>امتلاك الهياكل المحايدة لصالح المستعمرة، بما في ذلك الآثار القديمة وقواعد الحصار المهجورة. يمكن لمستعمريك إصلاح الهياكل الممتلكة وصيانتها.</DesignatorClaimDesc>
+
+  <!-- EN: Remove floor -->
+  <DesignatorRemoveFloor>إزالة الأرضية</DesignatorRemoveFloor>
+  <!-- EN: Remove floors to reveal the terrain underneath. -->
+  <DesignatorRemoveFloorDesc>إزالة الأرضيات للكشف عن التضاريس تحتها.</DesignatorRemoveFloorDesc>
+
+  <!-- EN: Remove bridge -->
+  <DesignatorRemoveBridge>إزالة الجسر</DesignatorRemoveBridge>
+  <!-- EN: Deconstruct bridges to reclaim partial resources. -->
+  <DesignatorRemoveBridgeDesc>تفكيك الجسور لاستعادة جزء من الموارد.</DesignatorRemoveBridgeDesc>
+
+  <!-- EN: Strip -->
+  <DesignatorStrip>تجريد</DesignatorStrip>
+  <!-- EN: Strip apparel from corpses and the wounded. -->
+  <DesignatorStripDesc>تجريد الجثث والجرحى من ملابسهم.</DesignatorStripDesc>
+
+  <!-- EN: Open -->
+  <DesignatorOpen>فتح</DesignatorOpen>
+  <!-- EN: Open containers. -->
+  <DesignatorOpenDesc>فتح الحاويات.</DesignatorOpenDesc>
+  
+  <!-- EN: Eject fuel -->
+  <DesignatorEjectFuel>إخراج الوقود</DesignatorEjectFuel>
+  <!-- EN: Eject all contained fuel onto the ground. -->
+  <DesignatorEjectFuelDesc>إخراج كل الوقود المحتوى على الأرض.</DesignatorEjectFuelDesc>
+
+  <!-- EN: Slaughter -->
+  <DesignatorSlaughter>ذبح</DesignatorSlaughter>
+  <!-- EN: Slaughter a tame animal. -->
+  <DesignatorSlaughterDesc>ذبح حيوان أليف.</DesignatorSlaughterDesc>
+
+  <!-- EN: Tame -->
+  <DesignatorTame>ترويض</DesignatorTame>
+  <!-- EN: Tame a wild animal. -->
+  <DesignatorTameDesc>ترويض حيوان بري.</DesignatorTameDesc>
+  <!-- EN: Scaria infected animals can't be tamed. -->
+  <CantTameScaria>لا يمكن ترويض الحيوانات المصابة بالسكاريا.</CantTameScaria>
+
+  <!-- EN: Release to wild -->
+  <DesignatorReleaseAnimalToWild>إطلاق في البرية</DesignatorReleaseAnimalToWild>
+  <!-- EN: Release an animal back into the wild. -->
+  <DesignatorReleaseAnimalToWildDesc>إطلاق حيوان للعودة إلى البرية.</DesignatorReleaseAnimalToWildDesc>
+
+  <!-- EN: Study -->
+  <DesignatorStudy>دراسة</DesignatorStudy>
+  <!-- EN: Study this object to learn more about it. -->
+  <DesignatorStudyDesc>دراسة هذا الشيء لمعرفة المزيد عنه.</DesignatorStudyDesc>
+
+  <!-- EN: Paint building... -->
+  <DesignatorPaintBuilding>طلاء المبنى...</DesignatorPaintBuilding>
+  <!-- EN: Designate walls and buildings to be painted using dye from tinctoria plants, which you can grow. Only certain buildings can be painted. -->
+  <DesignatorPaintBuildingDesc>تحديد الجدران والمباني ليتم طلاؤها باستخدام الصبغة من نباتات التينكتوريا، والتي يمكنك زراعتها. يمكن طلاء مباني معينة فقط.</DesignatorPaintBuildingDesc>
+  <!-- EN: Paint floor... -->
+  <DesignatorPaintFloor>طلاء الأرضية...</DesignatorPaintFloor>
+  <!-- EN: Designate floors to be painted using dye from tinctoria plants, which you can grow. Only certain floors can be painted. -->
+  <DesignatorPaintFloorDesc>تحديد الأرضيات ليتم طلاؤها باستخدام الصبغة من نباتات التينكتوريا، والتي يمكنك زراعتها. يمكن طلاء أرضيات معينة فقط.</DesignatorPaintFloorDesc>
+
+  <!-- EN: Remove paint -->
+  <DesignatorRemovePaint>إزالة الطلاء</DesignatorRemovePaint>
+  <!-- EN: Remove paint from walls, buildings, and floors. -->
+  <DesignatorRemovePaintDesc>إزالة الطلاء من الجدران والمباني والأرضيات.</DesignatorRemovePaintDesc>
+  <!-- EN: Remove floor paint -->
+  <DesignatorRemoveFloorPaint>إزالة طلاء الأرضية</DesignatorRemoveFloorPaint> 
+  <!-- EN: Remove paint from floors. -->
+  <DesignatorRemoveFloorPaintDesc>إزالة الطلاء من الأرضيات.</DesignatorRemoveFloorPaintDesc> 
+  <!-- EN: Paint -->
+  <Paint>طلاء</Paint>
+  <!-- EN: Color -->
+  <Color>لون</Color>
+
+  <!-- EN: Color picker -->
+  <DesignatorEyedropper>منتقي الألوان</DesignatorEyedropper>
+  <!-- EN: Grab existing color -->
+  <GrabExistingColor>التقاط لون موجود</GrabExistingColor>
+  <!-- EN: Grab a color from an existing building. -->
+  <DesignatorEyeDropperDesc_Paint>التقاط لون من مبنى موجود.</DesignatorEyeDropperDesc_Paint>
+  <!-- EN: Grab a color from an existing carpet. -->
+  <DesignatorEyeDropperDesc_Carpet>التقاط لون من سجادة موجودة.</DesignatorEyeDropperDesc_Carpet>
+  <!-- EN: Select a painted building. -->
+  <SelectAPaintedBuilding>تحديد مبنى مطلي.</SelectAPaintedBuilding>
+  <!-- EN: Select colored carpet. -->
+  <SelectColoredFloor>تحديد سجادة ملونة.</SelectColoredFloor>
+  <!-- EN: Grab -->
+  <Grab>التقاط</Grab>
+  <!-- EN: Grabbed color -->
+  <GrabbedColor>اللون الملتقط</GrabbedColor>
+
+  <!-- EN: Expand plan -->
+  <DesignatorExpandPlan>توسيع التخطيط</DesignatorExpandPlan>
+  <!-- EN: New plan -->
+  <NewPlan>تخطيط جديد</NewPlan>
+  
+  <!-- EN: Shrink plan -->
+  <DesignatorPlanShrinkSingular>تقليص التخطيط</DesignatorPlanShrinkSingular>
+  <!-- EN: Remove plans. -->
+  <DesignatorPlanShrinkDesc>إزالة التخطيطات.</DesignatorPlanShrinkDesc>
+
+  <!-- Failure messages -->
+  <!-- EN: Unchosen material -->
+  <UnchosenStuff>مادة غير مختارة</UnchosenStuff>
+  <!-- EN: Too close to map edge. -->
+  <TooCloseToMapEdge>قريب جداً من حافة الخريطة.</TooCloseToMapEdge>
+  <!-- EN: Out of bounds. -->
+  <OutOfBounds>خارج الحدود.</OutOfBounds>
+  <!-- EN: Cannot place in undiscovered areas. -->
+  <CannotPlaceInUndiscovered>لا يمكن الوضع في مناطق غير مكتشفة.</CannotPlaceInUndiscovered>
+  <!-- EN: Interaction spot is blocked by {1_labelShort}. -->
+  <InteractionSpotBlocked>نقطة التفاعل محظورة بواسطة {1_labelShort}.</InteractionSpotBlocked>
+  <!-- EN: Interaction spot is out of bounds. -->
+  <InteractionSpotOutOfBounds>نقطة التفاعل خارج الحدود.</InteractionSpotOutOfBounds>
+  <!-- EN: Interaction spot will be blocked by {1_labelShort}. -->
+  <InteractionSpotWillBeBlocked>سيتم حظر نقطة التفاعل بواسطة {1_labelShort}.</InteractionSpotWillBeBlocked>
+  <!-- EN: {0} would block {1}'s interaction spot. -->
+  <WouldBlockInteractionSpot>{0} سيحظر نقطة تفاعل {1}.</WouldBlockInteractionSpot>
+  <!-- EN: The terrain here is already {0}. -->
+  <TerrainIsAlready>التضاريس هنا هي بالفعل {0}.</TerrainIsAlready>
+  <!-- EN: There is already foundation here. -->
+  <FoundationAlreadyExists>يوجد أساس هنا بالفعل.</FoundationAlreadyExists>
+  <!-- EN: The existing terrain here cannot be removed. -->
+  <TerrainUnremovable>لا يمكن إزالة التضاريس الموجودة هنا.</TerrainUnremovable>
+  <!-- EN: The surface is already marked for smoothing. -->
+  <SurfaceBeingSmoothed>السطح محدد بالفعل للتنعيم.</SurfaceBeingSmoothed>
+  <!-- EN: Identical thing already exists here. -->
+  <IdenticalThingExists>يوجد شيء مطابق هنا بالفعل.</IdenticalThingExists>
+  <!-- EN: Identical blueprint already exists here. -->
+  <IdenticalBlueprintExists>يوجد مخطط مطابق هنا بالفعل.</IdenticalBlueprintExists>
+  <!-- EN: {0_label} cannot be built on this terrain. -->
+  <TerrainCannotSupport>لا يمكن بناء {0_label} على هذه التضاريس.</TerrainCannotSupport>
+  <!-- EN: {0_label} requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordance>يتطلب {0_label} تضاريس تدعم: {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>يتطلب {0_label} (عند صنعه من {2_label}) تضاريس تدعم: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
+  <!-- EN: Space already occupied. -->
+  <SpaceAlreadyOccupied>المساحة مشغولة بالفعل.</SpaceAlreadyOccupied>
+  <!-- EN: Space being smoothed. -->
+  <SpaceBeingSmoothed>المساحة قيد التنعيم.</SpaceBeingSmoothed>
+  <!-- EN: Must target a removable floor. -->
+  <TerrainMustBeRemovable>يجب استهداف أرضية قابلة للإزالة.</TerrainMustBeRemovable>
+  <!-- EN: The waterwheel must be on moving water. -->
+  <MustBeOnMovingWater>يجب أن تكون ناعورة الماء على ماء متحرك.</MustBeOnMovingWater>
+  <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotWillOverlap>ستتداخل نقطة التفاعل مع نقطة تفاعل {1_labelShort}.</InteractionSpotWillOverlap>
+  <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotOverlaps>تتداخل نقطة التفاعل مع نقطة تفاعل {1_labelShort}.</InteractionSpotOverlaps>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <CannotPlaceMonumentOver>لا يمكن وضع النصب التذكاري فوق: {0}.</CannotPlaceMonumentOver>
+  <!-- EN: Cannot build on: {0}. -->
+  <CannotPlaceMonumentOnTerrain>لا يمكن البناء على: {0}.</CannotPlaceMonumentOnTerrain>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <MonumentOverlapsBuilding>لا يمكن وضع النصب التذكاري فوق: {0}.</MonumentOverlapsBuilding>
+  <!-- EN: Monument cannot be placed adjacent to: {0}. -->
+  <MonumentAdjacentToBuilding>لا يمكن وضع النصب التذكاري مجاوراً لـ: {0}.</MonumentAdjacentToBuilding>
+  <!-- EN: Cannot be planted here -->
+  <CannotBePlantedHere>لا يمكن زراعته هنا</CannotBePlantedHere>
+  
+  <!-- Mouse attachments -->
+  <!-- EN: Expand {0} or\nCreate new {1} -->
+  <ExpandOrCreateZone>توسيع {0} أو\nإنشاء {1} جديد</ExpandOrCreateZone>
+  <!-- EN: Create new {0} -->
+  <CreateNewZone>إنشاء {0} جديد</CreateNewZone>
+  
+  <!-- EN: Expand {0} or\nCreate new plan -->
+  <ExpandOrCreatePlan>توسيع {0} أو\nإنشاء تخطيط جديد</ExpandOrCreatePlan>
+  <!-- EN: Create new plan -->
+  <CreateNewPlan>إنشاء تخطيط جديد</CreateNewPlan>
+  
+  <!-- Desc helpers -->
+  <!-- EN: Transmits power -->
+  <TransmitsPower>ينقل الطاقة</TransmitsPower>
+  <!-- EN: Construction needed -->
+  <ConstructionNeeded>بحاجة للبناء</ConstructionNeeded>
+  <!-- EN: None of your {0} have this skill. -->
+  <NoColonistWithSkillTip>لا أحد من {0} لديك يمتلك هذه المهارة.</NoColonistWithSkillTip>
+  <!-- EN: {0} needed -->
+  <SkillNeededForConstructing>{0} مطلوب</SkillNeededForConstructing>
+  <!-- EN: None of your {0} have all skills required. -->
+  <NoColonistWithAllSkillsForConstructing>لا أحد من {0} لديك يمتلك جميع المهارات المطلوبة.</NoColonistWithAllSkillsForConstructing>
+  <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
+  <AllColonistsWithSkillHaveDisabledConstructingTip>جميع {0} لديك الذين يمتلكون هذه المهارة غير معينين لعمل {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
+
+  <!-- EN: Extract skull -->
+  <DesignatorExtractSkull>استخراج الجمجمة</DesignatorExtractSkull>
+  <!-- EN: Extract the skull from a corpse. -->
+  <DesignatorExtractSkullDesc>استخراج الجمجمة من جثة.</DesignatorExtractSkullDesc>
+
+</LanguageData>

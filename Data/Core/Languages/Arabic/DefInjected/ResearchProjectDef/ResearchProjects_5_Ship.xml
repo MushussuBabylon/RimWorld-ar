@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: starflight basics -->
+  <ShipBasics.label>أساسيات الطيران في الفضاء</ShipBasics.label>
+  <!-- EN: Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system. -->
+  <ShipBasics.description>بناء العناصر الهيكلية والداعمة لسفينة فضاء. هذه هي الخطوة الأولى نحو بناء سفينة لمغادرة هذا النظام النجمي.</ShipBasics.description>
+  <!-- EN: Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nA new Ship category is available in the Architect menu from which you may build ship parts once the appropriate technology is researched. Ships require several different parts in order to launch, including a ship reactor.\n\nShip reactors take 15 days to charge up and many desperate souls want off this planet. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive. -->
+  <ShipBasics.discoveredLetterText>الهروب من هذا الكوكب - سيكون الحرية أخيراً، وربما عودة إلى الوطن.\n\nلكنه أيضاً خطير للغاية.\n\nتتوفر فئة جديدة باسم "سفينة" في قائمة المهندس، يمكنك من خلالها بناء أجزاء السفينة بعد بحث التقنيات المناسبة. تحتاج السفن إلى عدة أجزاء مختلفة لتنطلق، بما فيها مفاعل السفينة.\n\nتستغرق مفاعلات السفن 15 يوماً لشحنها، وكثير من الأرواح اليائسة تريد مغادرة هذا الكوكب. بمجرد أن تبدأ هذه العملية، سيصدر مفاعل السفينة توقيع طاقة يمكن اكتشافه من على بعد آلاف الكيلومترات. سيتدفق المغيرون لمهاجمتك على شكل موجات، بشدة لم ترها من قبل. من المعروف أيضاً أن الميكانويدات تنجذب إلى مثل هذه التوقيعات الطاقية.\n\nلن يبدأ الأمر حتى تشغل مفاعل سفينتك، لكن عندما يحدث، سيكون شرساً. ستحتاج إلى تخزين الموارد والأسلحة والدفاعات تحسباً للهجوم إذا كنت تأمل في النجاة.</ShipBasics.discoveredLetterText>
+  <!-- EN: About: Launching the ship -->
+  <ShipBasics.discoveredLetterTitle>بخصوص: إطلاق السفينة</ShipBasics.discoveredLetterTitle>
+  <!-- EN:
+    <li>subject->starship structural engineering</li>
+    <li>subject_story->recruited starship engineers for a glitterworld fleet</li>
+    <li>subject_story->was a structural designer in an urbworld skyripper district</li>
+    <li>subject_story->harvested shipwrecks in the debris belt of a deadworld</li>
+    <li>subject_gerund->constructing starship structures</li>
+  -->
+  <ShipBasics.generalRules.rulesStrings>
+    <li>subject->الهندسة الإنشائية لسفن الفضاء</li>
+    <li>subject_story->قام بتجنيد مهندسي سفن فضاء لأسطول من العوالم البراقة</li>
+    <li>subject_story->كان مصمماً إنشائياً في حي بناء السفن لعالم حضري</li>
+    <li>subject_story->حصد حطام السفن في حزام الحطام الخاص بعالم ميت</li>
+    <li>subject_gerund->بناء هياكل سفن الفضاء</li>
+ </ShipBasics.generalRules.rulesStrings>
+  
+  <!-- EN: machine persuasion -->
+  <ShipComputerCore.label>إقناع الآلة</ShipComputerCore.label>
+  <!-- EN: Build a reward-signal system to persuade an existing persona core into serving as a ship's machine captain. Since people sleep during interstellar travel, a persona core is necessary to handle the complex decisions of a years-long starflight. -->
+  <ShipComputerCore.description>بناء نظام إشارة مكافأة لإقناع نواة شخصية موجودة بالعمل كقبطان آلي للسفينة. نظراً لأن البشر ينامون أثناء السفر بين النجوم، فإن النواة الشخصية ضرورية للتعامل مع القرارات المعقدة لرحلة نجمية تدوم سنوات.</ShipComputerCore.description>
+  <!-- EN:
+    <li>subject->persona core incentivization</li>
+    <li>subject->starship AI sanity maintenance</li>
+    <li>subject_story->regained control of an aberrant ship's core with careful reconditioning</li>
+    <li>subject_story->set up colony-management simulations to occupy the ship's core during the many years of interstellar travel</li>
+    <li>subject_story->kept a ship's core company during a 'short' interstellar trip, learning much about cores in the process</li>
+    <li>subject_gerund->incentivizing persona cores</li>
+    <li>subject_gerund->maintaining starship AI sanity</li>
+    <li>subject_gerund->constructing reward-signal systems</li>
+  -->
+  <ShipComputerCore.generalRules.rulesStrings>
+    <li>subject->تحفيز النوى الشخصية</li>
+    <li>subject->الحفاظ على سلامة ذكاء سفينة الفضاء الاصطناعي</li>
+    <li>subject_story->استعاد السيطرة على نواة سفينة شاذة بإعادة تهيئة دقيقة</li>
+    <li>subject_story->أعد محاكاة لإدارة المستعمرة لشغل نواة السفينة خلال سنوات السفر الطويلة بين النجوم</li>
+    <li>subject_story->رافق نواة سفينة خلال رحلة بينجمية "قصيرة"، وتعلم الكثير عن النوى خلالها</li>
+    <li>subject_gerund->تحفيز النوى الشخصية</li>
+    <li>subject_gerund->الحفاظ على سلامة ذكاء سفينة الفضاء الاصطناعي</li>
+    <li>subject_gerund->بناء أنظمة إشارة المكافأة</li>
+ </ShipComputerCore.generalRules.rulesStrings>
+  
+  <!-- EN: vacuum cryptosleep casket -->
+  <ShipCryptosleep.label>تابوت سبات تجميدي للفراغ</ShipCryptosleep.label>
+  <!-- EN: Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars. -->
+  <ShipCryptosleep.description>بناء توابيت سبات تجميدي صلبة كفاية لتحمل التعرض للفراغ، لنقل الأشخاص في رحلات تستمر سنوات بين النجوم.</ShipCryptosleep.description>
+  <!-- EN:
+    <li>subject->starship-grade cryptosleep caskets</li>
+    <li>subject_story->replaced the failed cryptosleep caskets on the CMC Celeste, so the old generation ship could be used again</li>
+    <li>subject_story->was accidentally ejected in deep space, surviving in a self-designed casket for two months</li>
+    <li>subject_story->lectured on the differences between planetary- and starship-grade equipment</li>
+    <li>subject_gerund->constructing hardened cryptosleep caskets</li>
+  -->
+  <ShipCryptosleep.generalRules.rulesStrings>
+    <li>subject->توابيت سبات تجميدي بدرجة سفينة فضاء</li>
+    <li>subject_story->استبدل توابيت السبات التجميدي المعطلة على سفينة CMC Celeste، ليتمكنوا من استخدام سفينة الجيل القديم مجدداً</li>
+    <li>subject_story->قُذف عرضياً في الفضاء السحيق، ونجا في تابوت صممه بنفسه لمدة شهرين</li>
+    <li>subject_story->ألقى محاضرات عن الاختلافات بين معدات الدرجة الكوكبية ودرجة سفينة الفضاء</li>
+    <li>subject_gerund->بناء توابيت السبات التجميدي الصلبة</li>
+ </ShipCryptosleep.generalRules.rulesStrings>
+  
+  <!-- EN: Johnson-Tanaka drive -->
+  <ShipEngine.label>محرك جونسون-تاناكا</ShipEngine.label>
+  <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
+  <ShipEngine.description>بناء محرك جونسون-تاناكا لسفينة. يمكن لمحرك JT دفعك إلى نجوم أخرى عن طريق تسخير تأثيرات المقياس الكمي لنقل العزم إلى النجوم البعيدة. بالطبع، وكما هو الحال مع جميع سفن الفضاء، لا يزال الأمر يستغرق سنوات عديدة للوصول إلى أي مكان.</ShipEngine.description>
+  <!-- EN:
+    <li>subject->Johnson-Tanaka theory</li>
+    <li>subject->exotic momentum transfer</li>
+    <li>subject_story->lectured in the university on Johnson, Tanaka and quantum-scale effects</li>
+    <li>subject_story->constructed a Johnson-Tanaka drive from first principles for a thesis</li>
+    <li>subject_story->maintained a Johnson-Tanaka drive for two decades, as the ship traveled between the stars</li>
+    <li>subject_gerund->constructing starship drives</li>
+  -->
+  <ShipEngine.generalRules.rulesStrings>
+    <li>subject->نظرية جونسون-تاناكا</li>
+    <li>subject->نقل العزم الغريب</li>
+    <li>subject_story->ألقى محاضرات في الجامعة عن جونسون وتاناكا وتأثيرات المقياس الكمي</li>
+    <li>subject_story->بنى محرك جونسون-تاناكا من المبادئ الأولى لأطروحة</li>
+    <li>subject_story->صان محرك جونسون-تاناكا لعقدين من الزمن، بينما سافرت السفينة بين النجوم</li>
+    <li>subject_gerund->بناء محركات سفن الفضاء</li>
+ </ShipEngine.generalRules.rulesStrings>
+  
+  <!-- EN: starship reactor -->
+  <ShipReactor.label>مفاعل سفينة الفضاء</ShipReactor.label>
+  <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
+  <ShipReactor.description>بناء مفاعل نووي طويل المدة لتزويد سفينة فضاء بالطاقة. لاحظ أن للمفاعلات عملية بدء تشغيل طويلة ستجذب المغيرين.</ShipReactor.description>
+  <!-- EN:
+    <li>subject->starship nuclear reactor</li>
+    <li>subject_story->constructed a new reactor for a colony ship, but never lived to see it lift off</li>
+    <li>subject_story->defended the ship whilst the reactor span up, against raiders desperate to get off-world</li>
+    <li>subject_story->used a starship reactor as the back-up power for a genebank buried beneath the planet's ice-cap</li>
+    <li>subject_gerund->constructing starship reactors</li>
+  -->
+  <ShipReactor.generalRules.rulesStrings>
+    <li>subject->مفاعل نووي لسفينة فضاء</li>
+    <li>subject_story->بنى مفاعلاً جديداً لسفينة مستعمرة، لكنه لم يعش ليرى إقلاعها</li>
+    <li>subject_story->دافع عن السفينة بينما كان المفاعل يبدأ العمل، ضد المغيرين اليائسين لمغادرة العالم</li>
+    <li>subject_story->استخدم مفاعل سفينة فضاء كمصدر طاقة احتياطي لبنك جينات مدفون تحت الغطاء الجليدي للكوكب</li>
+    <li>subject_gerund->بناء مفاعلات سفن الفضاء</li>
+ </ShipReactor.generalRules.rulesStrings>
+  
+  <!-- EN: starflight sensors -->
+  <ShipSensorCluster.label>مستشعرات الطيران في الفضاء</ShipSensorCluster.label>
+  <!-- EN: Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance. -->
+  <ShipSensorCluster.description>بناء مستشعرات بعيدة المدى لسفينة فضاء. هذه المستشعرات ضرورية للملاحة والاتصال وتجنب التهديدات.</ShipSensorCluster.description>
+  <!-- EN:
+    <li>subject->interstellar navigation</li>
+    <li>subject_story->used prototype starship sensors to detect an incoming extinction-level asteroid and evacuate the planet</li>
+    <li>subject_story->was employed as navigator and cook on a Glitterworld star-yacht</li>
+    <li>subject_story->refined the design of long-range sensors, improving their utility</li>
+    <li>subject_gerund->navigating interstellar space</li>
+    <li>subject_gerund->constructing starship sensors</li>
+  -->
+  <ShipSensorCluster.generalRules.rulesStrings>
+    <li>subject->الملاحة بين النجوم</li>
+    <li>subject_story->استخدم نماذج أولية لمستشعرات سفينة فضاء لاكتشاف كويكب قادم بمستوى انقراض وإخلاء الكوكب</li>
+    <li>subject_story->عُين كملاح وطبّاخ على يخت نجومي لعالم براق</li>
+    <li>subject_story->حسّن تصميم المستشعرات بعيدة المدى، مما زاد من فائدتها</li>
+    <li>subject_gerund->الملاحة في الفضاء بين النجوم</li>
+    <li>subject_gerund->بناء مستشعرات سفن الفضاء</li>
+ </ShipSensorCluster.generalRules.rulesStrings>
+  
+</LanguageData>

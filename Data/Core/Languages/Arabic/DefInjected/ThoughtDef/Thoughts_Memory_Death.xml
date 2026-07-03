@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Много копипаста отсюда в /Ideology/DefInjected/ThoughtDef/Precepts_PrisonerExecution.xml -->
+
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: bonded animal {0} died -->
+  <BondedAnimalDied.stages.bonded_animal_died.label>مات الحيوان المرتبط {0}</BondedAnimalDied.stages.bonded_animal_died.label>
+  <!-- EN: Such a tender, unique animal. This universe is evil! -->
+  <BondedAnimalDied.stages.bonded_animal_died.description>يا له من حيوان رقيق وفريد. هذا الكون شرير!</BondedAnimalDied.stages.bonded_animal_died.description>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: colonist died -->
+  <KnowColonistDied.stages.colonist_died.label>مات مستعمر</KnowColonistDied.stages.colonist_died.label>
+  <!-- EN: One of our people died. We should be able to take care of our people. -->
+  <KnowColonistDied.stages.colonist_died.description>توفي أحد أفراد شعبنا. يجب أن نكون قادرين على رعاية شعبنا.</KnowColonistDied.stages.colonist_died.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
+  <!-- EN: justified execution of colonist -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.label>إعدام مبرر لمستعمر</KnowColonistExecuted.stages.justified_execution_of_colonist.label>
+  <!-- EN: A guilty colonist was executed. It was justified, but still sad. -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.description>تم إعدام مستعمر مذنب. كان مبررًا، لكنه لا يزال محزنًا.</KnowColonistExecuted.stages.justified_execution_of_colonist.description>
+  <!-- EN: colonist euthanized -->
+  <KnowColonistExecuted.stages.colonist_euthanized.label>تم قتل مستعمر رحيمًا</KnowColonistExecuted.stages.colonist_euthanized.label>
+  <!-- EN: A colonist was euthanized. It was humane, but still sad. -->
+  <KnowColonistExecuted.stages.colonist_euthanized.description>تم القتل الرحيم لمستعمر. كان إنسانيًا، لكنه لا يزال محزنًا.</KnowColonistExecuted.stages.colonist_euthanized.description>
+  <!-- EN: colonist executed -->
+  <KnowColonistExecuted.stages.colonist_executed.label>إعدام مستعمر</KnowColonistExecuted.stages.colonist_executed.label>
+  <!-- EN: A colonist was killed in cold blood. It seemed a bit evil. -->
+  <KnowColonistExecuted.stages.colonist_executed.description>قُتل مستعمر بدم بارد. بدا شريرًا بعض الشيء.</KnowColonistExecuted.stages.colonist_executed.description>
+  <!-- EN: colonist organ-harvested -->
+  <KnowColonistExecuted.stages.colonist_organharvested.label>مستعمر تم حصاد أعضائه</KnowColonistExecuted.stages.colonist_organharvested.label>
+  <!-- EN: A colonist died because someone took body parts from them. It's horrible. -->
+  <KnowColonistExecuted.stages.colonist_organharvested.description>توفي مستعمر لأن أحدهم أخذ أجزاء من جسده. إنه أمر مروع.</KnowColonistExecuted.stages.colonist_organharvested.description>
+  <!-- EN: colonist ripscanned -->
+  <KnowColonistExecuted.stages.colonist_ripscanned.label>مستعمر تم مسحه ضوئيًا مميتًا</KnowColonistExecuted.stages.colonist_ripscanned.label>
+  <!-- EN: A colonist died in our ripscanner. Their brain was burned up to feed the machine. It's horrible. -->
+  <KnowColonistExecuted.stages.colonist_ripscanned.description>توفي مستعمر في الماسح الضوئي المميت. تم حرق دماغه لتغذية الآلة. إنه أمر مروع.</KnowColonistExecuted.stages.colonist_ripscanned.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
+  <!-- EN: justified execution -->
+  <KnowGuestExecuted.stages.justified_execution.label>إعدام مبرر</KnowGuestExecuted.stages.justified_execution.label>
+  <!-- EN: A guilty prisoner or guest was executed. It was justified, but still sad. -->
+  <KnowGuestExecuted.stages.justified_execution.description>تم إعدام سجين أو ضيف مذنب. كان مبررًا، لكنه لا يزال محزنًا.</KnowGuestExecuted.stages.justified_execution.description>
+  <!-- EN: someone was euthanized -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.label>تم القتل الرحيم لشخص</KnowGuestExecuted.stages.someone_was_euthanized.label>
+  <!-- EN: A prisoner or guest was euthanized. It was humane, but still sad. -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.description>تم القتل الرحيم لسجين أو ضيف. كان إنسانيًا، لكنه لا يزال محزنًا.</KnowGuestExecuted.stages.someone_was_euthanized.description>
+  <!-- EN: someone was executed -->
+  <KnowGuestExecuted.stages.someone_was_executed.label>تم إعدام شخص</KnowGuestExecuted.stages.someone_was_executed.label>
+  <!-- EN: A prisoner or guest was killed in cold blood. It seemed a bit evil. -->
+  <KnowGuestExecuted.stages.someone_was_executed.description>قُتل سجين أو ضيف بدم بارد. بدا شريرًا بعض الشيء.</KnowGuestExecuted.stages.someone_was_executed.description>
+  <!-- EN: someone was organ-murdered -->
+  <KnowGuestExecuted.stages.someone_was_organmurdered.label>شخص قُتل لأجل الأعضاء</KnowGuestExecuted.stages.someone_was_organmurdered.label>
+  <!-- EN: A prisoner or guest died because the colony took body parts from them. It's horrible. -->
+  <KnowGuestExecuted.stages.someone_was_organmurdered.description>توفي سجين أو ضيف لأن المستعمرة أخذت أجزاء من جسده. إنه أمر مروع.</KnowGuestExecuted.stages.someone_was_organmurdered.description>
+  <!-- EN: someone was ripscanned -->
+  <KnowGuestExecuted.stages.someone_was_ripscanned.label>شخص تم مسحه ضوئيًا مميتًا</KnowGuestExecuted.stages.someone_was_ripscanned.label>
+  <!-- EN: A prisoner died in our ripscanner. Their brain was burned up to feed the machine. It's horrible. -->
+  <KnowGuestExecuted.stages.someone_was_ripscanned.description>توفي سجين في ماسحنا المميت. تم حرق دماغه لتغذية الآلة. إنه أمر مروع.</KnowGuestExecuted.stages.someone_was_ripscanned.description>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: innocent prisoner died -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>مات سجين بريء</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
+  <!-- EN: One of our prisoners died despite being harmless. We should be able to take care of our prisoners. If we wanted them dead, we could have at least conducted an orderly execution rather than permit that barbarism. -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>توفي أحد سجناءنا رغم أنه غير مؤذٍ. يجب أن نكون قادرين على رعاية سجناءنا. إذا أردناهم موتى، كان بإمكاننا على الأقل إجراء إعدام منظم بدلاً من السماح بتلك الهمجية.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
+  
+  <!-- Here and below: Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: my aunt {0} died -->
+  <MyAuntDied.stages.my_aunt_died.label>ماتت عمتي {0}</MyAuntDied.stages.my_aunt_died.label>
+  <!-- EN: My aunt died. -->
+  <MyAuntDied.stages.my_aunt_died.description>ماتت عمتي.</MyAuntDied.stages.my_aunt_died.description>
+  
+  <!-- EN: my brother {0} died -->
+  <MyBrotherDied.stages.my_brother_died.label>مات أخي {0}</MyBrotherDied.stages.my_brother_died.label>
+  <!-- EN: My brother died. My own flesh and blood... -->
+  <MyBrotherDied.stages.my_brother_died.description>مات أخي. لحمي ودمي...</MyBrotherDied.stages.my_brother_died.description>
+  
+  <!-- EN: my cousin {0} died -->
+  <MyCousinDied.stages.my_cousin_died.label>مات ابن عمي {0}</MyCousinDied.stages.my_cousin_died.label>
+  <!-- EN: My cousin died. My own flesh and blood... -->
+  <MyCousinDied.stages.my_cousin_died.description>مات ابن عمي. لحمي ودمي...</MyCousinDied.stages.my_cousin_died.description>
+  
+  <!-- EN: my daughter {0} died -->
+  <MyDaughterDied.stages.my_daughter_died.label>ماتت ابنتي {0}</MyDaughterDied.stages.my_daughter_died.label>
+  <!-- EN: My daughter is dead. My own flesh and blood... -->
+  <MyDaughterDied.stages.my_daughter_died.description>ابنتي ميتة. لحمي ودمي...</MyDaughterDied.stages.my_daughter_died.description>
+  
+  <!-- EN: my father {0} died -->
+  <MyFatherDied.stages.my_father_died.label>مات أبي {0}</MyFatherDied.stages.my_father_died.label>
+  <!-- EN: My father died. He's gone forever. -->
+  <MyFatherDied.stages.my_father_died.description>مات أبي. لقد رحل إلى الأبد.</MyFatherDied.stages.my_father_died.description>
+  
+  <!-- EN: my fiance {0} died -->
+  <MyFianceDied.stages.my_fiance_died.label>مات خطيبي {0}</MyFianceDied.stages.my_fiance_died.label>
+  <!-- EN: My fiance died. Such a man... my future is gone. -->
+  <MyFianceDied.stages.my_fiance_died.description>مات خطيبي. يا له من رجل... مستقبلي قد ضاع.</MyFianceDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my fiancée {0} died -->
+  <MyFianceeDied.stages.my_fiance_died.label>ماتت خطيبتي {0}</MyFianceeDied.stages.my_fiance_died.label>
+  <!-- EN: My fiancée died. Such a woman... my future is gone. -->
+  <MyFianceeDied.stages.my_fiance_died.description>ماتت خطيبتي. يا لها من امرأة... مستقبلي قد ضاع.</MyFianceeDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my grandchild {0} died -->
+  <MyGrandchildDied.stages.my_grandchild_died.label>مات حفيدي {0}</MyGrandchildDied.stages.my_grandchild_died.label>
+  <!-- EN: My grandchild died. My own flesh and blood... -->
+  <MyGrandchildDied.stages.my_grandchild_died.description>مات حفيدي. لحمي ودمي...</MyGrandchildDied.stages.my_grandchild_died.description>
+  
+  <!-- EN: my grandparent {0} died -->
+  <MyGrandparentDied.stages.my_grandparent_died.label>مات جدي/جدتي {0}</MyGrandparentDied.stages.my_grandparent_died.label>
+  <!-- EN: My grandparent died. -->
+  <MyGrandparentDied.stages.my_grandparent_died.description>مات جدي/جدتي.</MyGrandparentDied.stages.my_grandparent_died.description>
+  
+  <!-- EN: my half-sibling {0} died -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.label>مات أخي غير الشقيق {0}</MyHalfSiblingDied.stages.my_halfsibling_died.label>
+  <!-- EN: My half-sibling died. My own flesh and blood... -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.description>مات أخي غير الشقيق. لحمي ودمي...</MyHalfSiblingDied.stages.my_halfsibling_died.description>
+  
+  <!-- EN: my husband {0} died -->
+  <MyHusbandDied.stages.my_husband_died.label>مات زوجي {0}</MyHusbandDied.stages.my_husband_died.label>
+  <!-- EN: My husband is dead. I am alone. -->
+  <MyHusbandDied.stages.my_husband_died.description>زوجي ميت. أنا وحيدة.</MyHusbandDied.stages.my_husband_died.description>
+  
+  <!-- EN: my kin {0} died -->
+  <MyKinDied.stages.my_kin_died.label>مات قريبي {0}</MyKinDied.stages.my_kin_died.label>
+  <!-- EN: My kin died. -->
+  <MyKinDied.stages.my_kin_died.description>مات قريبي.</MyKinDied.stages.my_kin_died.description>
+  
+  <!-- EN: my lover {0} died -->
+  <MyLoverDied.stages.my_lover_died.label>مات حبيبي {0}</MyLoverDied.stages.my_lover_died.label>
+  <!-- EN: My lover died. I am so alone. -->
+  <MyLoverDied.stages.my_lover_died.description>مات حبيبي. أنا وحيدة جدًا.</MyLoverDied.stages.my_lover_died.description>
+  
+  <!-- EN: my mother {0} died -->
+  <MyMotherDied.stages.my_mother_died.label>ماتت أمي {0}</MyMotherDied.stages.my_mother_died.label>
+  <!-- EN: My mother died. She's gone forever. -->
+  <MyMotherDied.stages.my_mother_died.description>ماتت أمي. لقد رحلت إلى الأبد.</MyMotherDied.stages.my_mother_died.description>
+  
+  <!-- EN: my nephew {0} died -->
+  <MyNephewDied.stages.my_nephew_died.label>مات ابن أخي {0}</MyNephewDied.stages.my_nephew_died.label>
+  <!-- EN: My nephew died. Such a wonderful child. -->
+  <MyNephewDied.stages.my_nephew_died.description>مات ابن أخي. يا له من طفل رائع.</MyNephewDied.stages.my_nephew_died.description>
+  
+  <!-- EN: my niece {0} died -->
+  <MyNieceDied.stages.my_niece_died.label>ماتت ابنة أخي {0}</MyNieceDied.stages.my_niece_died.label>
+  <!-- EN: My niece died. Such a wonderful child. -->
+  <MyNieceDied.stages.my_niece_died.description>ماتت ابنة أخي. يا لها من طفلة رائعة.</MyNieceDied.stages.my_niece_died.description>
+  
+  <!-- EN: my sister {0} died -->
+  <MySisterDied.stages.my_sister_died.label>ماتت أختي {0}</MySisterDied.stages.my_sister_died.label>
+  <!-- EN: My sister died. My own flesh and blood... -->
+  <MySisterDied.stages.my_sister_died.description>ماتت أختي. لحمي ودمي...</MySisterDied.stages.my_sister_died.description>
+  
+  <!-- EN: my son {0} died -->
+  <MySonDied.stages.my_son_died.label>مات ابني {0}</MySonDied.stages.my_son_died.label>
+  <!-- EN: My son is dead. My own flesh and blood... -->
+  <MySonDied.stages.my_son_died.description>ابني ميت. لحمي ودمي...</MySonDied.stages.my_son_died.description>
+  
+  <!-- EN: my uncle {0} died -->
+  <MyUncleDied.stages.my_uncle_died.label>مات عمي {0}</MyUncleDied.stages.my_uncle_died.label>
+  <!-- EN: My uncle died. -->
+  <MyUncleDied.stages.my_uncle_died.description>مات عمي.</MyUncleDied.stages.my_uncle_died.description>
+  
+  <!-- EN: my wife {0} died -->
+  <MyWifeDied.stages.my_wife_died.label>ماتت زوجتي {0}</MyWifeDied.stages.my_wife_died.label>
+  <!-- EN: My wife is dead. I am alone. -->
+  <MyWifeDied.stages.my_wife_died.description>زوجتي ميتة. أنا وحيد.</MyWifeDied.stages.my_wife_died.description>
+  
+  <!-- EN: my rival {0} died -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.label>مات منافسي {0}</PawnWithBadOpinionDied.stages.my_rival_died.label>
+  <!-- EN: Serves them right. At least there's some justice in this world. -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.description>يستحق ذلك. على الأقل هناك بعض العدالة في هذا العالم.</PawnWithBadOpinionDied.stages.my_rival_died.description>
+  
+  <!-- EN: my friend {0} died -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.label>مات صديقي {0}</PawnWithGoodOpinionDied.stages.my_friend_died.label>
+  <!-- EN: Such a wonderful person, gone forever. The universe gets darker every day. -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.description>يا له من شخص رائع، رحل إلى الأبد. الكون يصبح أكثر ظلمة كل يوم.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
+  
+</LanguageData>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: deadlife pack -->
+  <Apparel_DeadlifePack.label>حزمة الحياة الميتة</Apparel_DeadlifePack.label>
+  <!-- EN: A single-use pack that launches a capsule which explodes into deadlife dust. The dust animates human and animal corpses as shamblers that will only attack your enemies.\n\nDeadlife dust is composed of microscopic machine-like archites which hang in the air. Where they touch a corpse, they induce a chaotic and violent resurrection. -->
+  <Apparel_DeadlifePack.description>حزمة تستخدم لمرة واحدة تطلق كبسولة تنفجر إلى غبار الحياة الميتة. الغبار يحرك جثث البشر والحيوانات كمترنحين يهاجمون أعدائك فقط.\n\nيتكون غبار الحياة الميتة من أركيتات مجهرية تشبه الآلات تعلق في الهواء. حيثما تلمس جثة، تحدث بعثاً فوضوياً وعنيفاً.</Apparel_DeadlifePack.description>
+  <!-- EN: charge -->
+  <Apparel_DeadlifePack.comps.CompApparelVerbOwner_Charged.chargeNoun>شحنة</Apparel_DeadlifePack.comps.CompApparelVerbOwner_Charged.chargeNoun>
+  <!-- EN: deploy deadlife dust -->
+  <Apparel_DeadlifePack.verbs.deploy_deadlife_dust.label>نشر غبار الحياة الميتة</Apparel_DeadlifePack.verbs.deploy_deadlife_dust.label>
+  
+  <!-- EN: disruptor flare pack -->
+  <Apparel_DisruptorFlarePack.label>حزمة مشاعل معطلة</Apparel_DisruptorFlarePack.label>
+  <!-- EN: A utility pack that shoots disruptor flares. On impact, the flare burns a capsule of bioferrite, which creates a bright flash and a local psychic disruption. This stuns psychically sensitive creatures, revealing those that are invisible, and reducing their consciousness and movement speed for a short while. Afterwards, the flare continues to burn, lighting up a wide area for some time. -->
+  <Apparel_DisruptorFlarePack.description>حزمة أدوات تطلق مشاعل معطلة. عند الارتطام، يحرق المشعل كبسولة من البيوفيرايت، مما يخلق وميضاً ساطعاً واضطراباً نفسياً محلياً. يصعق هذا المخلوقات الحساسة نفسياً، ويكشف المخفي منها، ويقلل من وعيها وسرعة حركتها لفترة قصيرة. بعد ذلك، يستمر المشعل في الاشتعال، مضيفاً منطقة واسعة لبعض الوقت.</Apparel_DisruptorFlarePack.description>
+  <!-- EN: flare -->
+  <Apparel_DisruptorFlarePack.comps.CompApparelReloadable.chargeNoun>مشعل</Apparel_DisruptorFlarePack.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Apparel_DisruptorFlarePack.comps.CompApparelReloadable.cooldownGerund>في فترة تبريد</Apparel_DisruptorFlarePack.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: deploy flare -->
+  <Apparel_DisruptorFlarePack.verbs.deploy_flare.label>نشر مشعل</Apparel_DisruptorFlarePack.verbs.deploy_flare.label>
+  
+  <!-- UNUSED -->
+  <Apparel_DisruptorFlarePack.comps.CompApparelVerbOwner_Charged.chargeNoun>شحن</Apparel_DisruptorFlarePack.comps.CompApparelVerbOwner_Charged.chargeNoun>
+  
+  <!-- EN: turret pack -->
+  <Apparel_PackTurret.label>حزمة مدفع</Apparel_PackTurret.label>
+  <!-- EN: A wearable pack that allows the user to deploy a battery-powered turret. The pack contains a propulsion device, letting the user launch the turret a short distance. These turrets are effective for flanking and distracting enemies. However, the turret's limited AI can't be directly controlled, so it can cause friendly fire incidents. The turret battery lasts for several hours. -->
+  <Apparel_PackTurret.description>حزمة قابلة للارتداء تسمح للمستخدم بنشر مدفع يعمل بالبطارية. تحتوي الحزمة على جهاز دفع، مما يسمح للمستخدم بقذف المدفع لمسافة قصيرة. هذه المدافع فعالة للمرافقة وإلهاء الأعداء. ومع ذلك، لا يمكن التحكم مباشرة في الذكاء الاصطناعي المحدود للمدفع، لذا قد يتسبب في حوادث نيران صديقة. تدوم بطارية المدفع لعدة ساعات.</Apparel_PackTurret.description>
+  <!-- EN: charge -->
+  <Apparel_PackTurret.comps.CompApparelVerbOwner_Charged.chargeNoun>شحنة</Apparel_PackTurret.comps.CompApparelVerbOwner_Charged.chargeNoun>
+  <!-- EN: deploy turret -->
+  <Apparel_PackTurret.verbs.deploy_turret.label>نشر مدفع</Apparel_PackTurret.verbs.deploy_turret.label>
+  
+  <!-- EN: disruptor flare -->
+  <DisruptorFlare.label>مشعل معطل</DisruptorFlare.label>
+  
+  <!-- EN: deadlife capsule -->
+  <Grenade_Deadlife.label>كبسولة الحياة الميتة</Grenade_Deadlife.label>
+  
+  <!-- EN: disruptor flare -->
+  <Grenade_DisruptorFlare.label>مشعل معطل</Grenade_DisruptorFlare.label>
+  
+  <!-- EN: turret pack capsule -->
+  <Grenade_TurretPack.label>كبسولة حزمة مدفع</Grenade_TurretPack.label>
+  
+</LanguageData>

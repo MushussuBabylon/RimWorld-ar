@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: destroy apparel -->
+  <DestroyApparel.label>تدمير الملابس</DestroyApparel.label>
+  <!-- EN: Use heat to destroy unwanted apparel. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
+  <DestroyApparel.description>استخدام الحرارة لتدمير الملابس غير المرغوب فيها. هذه العملية أسرع من الصهر، وتعمل على العناصر غير القابلة للصهر، لكنها لا تنتج أي موارد.</DestroyApparel.description>
+  <!-- EN: Destroying apparel. -->
+  <DestroyApparel.jobString>تدمير الملابس.</DestroyApparel.jobString>
+  
+  <!-- EN: destroy weapon -->
+  <DestroyWeapon.label>تدمير السلاح</DestroyWeapon.label>
+  <!-- EN: Use heat to destroy unwanted weapons. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
+  <DestroyWeapon.description>استخدام الحرارة لتدمير الأسلحة غير المرغوب فيها. هذه العملية أسرع من الصهر، وتعمل على العناصر غير القابلة للصهر، لكنها لا تنتج أي موارد.</DestroyWeapon.description>
+  <!-- EN: Destroying weapon. -->
+  <DestroyWeapon.jobString>تدمير السلاح.</DestroyWeapon.jobString>
+  
+  <!-- EN: smelt metal from slag -->
+  <ExtractMetalFromSlag.label>صهر المعدن من الخردة</ExtractMetalFromSlag.label>
+  <!-- EN: Use heat and strong electromagnets to extract useful metal from slag chunks. -->
+  <ExtractMetalFromSlag.description>استخدام الحرارة والمغناطيسات الكهربائية القوية لاستخراج معدن مفيد من كتل الخردة.</ExtractMetalFromSlag.description>
+  <!-- EN: Smelting metal from slag. -->
+  <ExtractMetalFromSlag.jobString>صهر المعدن من الخردة.</ExtractMetalFromSlag.jobString>
+  
+  <!-- EN: make chemfuel from organics -->
+  <Make_ChemfuelFromOrganics.label>صنع الوقود الكيميائي من المواد العضوية</Make_ChemfuelFromOrganics.label>
+  <!-- EN: Make a batch of chemfuel by extracting biofuel from organic feedstocks. -->
+  <Make_ChemfuelFromOrganics.description>صنع دفعة من الوقود الكيميائي باستخلاص الوقود الحيوي من مواد خام عضوية.</Make_ChemfuelFromOrganics.description>
+  <!-- EN: feedstock -->
+  <Make_ChemfuelFromOrganics.ingredients.0.filter.customSummary>مادة وسيطة</Make_ChemfuelFromOrganics.ingredients.0.filter.customSummary>
+  <!-- EN: Refining chemfuel from organics. -->
+  <Make_ChemfuelFromOrganics.jobString>تكرير الوقود الكيميائي من المواد العضوية.</Make_ChemfuelFromOrganics.jobString>
+  
+  <!-- EN: make chemfuel from wood -->
+  <Make_ChemfuelFromWood.label>صنع الوقود الكيميائي من الخشب</Make_ChemfuelFromWood.label>
+  <!-- EN: Make a batch of chemfuel by extracting and condensing wood gas from logs. -->
+  <Make_ChemfuelFromWood.description>صنع دفعة من الوقود الكيميائي باستخلاص وتكثيف غاز الخشب من الجذوع.</Make_ChemfuelFromWood.description>
+  <!-- EN: Refining chemfuel from wood. -->
+  <Make_ChemfuelFromWood.jobString>تكرير الوقود الكيميائي من الخشب.</Make_ChemfuelFromWood.jobString>
+  
+  <!-- EN: make component -->
+  <Make_ComponentIndustrial.label>صنع مكون</Make_ComponentIndustrial.label>
+  <!-- EN: Make a component. -->
+  <Make_ComponentIndustrial.description>صنع مكون.</Make_ComponentIndustrial.description>
+  <!-- EN: Making component. -->
+  <Make_ComponentIndustrial.jobString>صنع مكون.</Make_ComponentIndustrial.jobString>
+  
+  <!-- EN: make advanced component -->
+  <Make_ComponentSpacer.label>صنع مكون متطور</Make_ComponentSpacer.label>
+  <!-- EN: Make an advanced component. -->
+  <Make_ComponentSpacer.description>صنع مكون متطور.</Make_ComponentSpacer.description>
+  <!-- EN: Making advanced component. -->
+  <Make_ComponentSpacer.jobString>صنع مكون متطور.</Make_ComponentSpacer.jobString>
+  
+  <!-- EN: make patchleather -->
+  <Make_Patchleather.label>صنع جلد مرقع</Make_Patchleather.label>
+  <!-- EN: Combine various types of leather to create weak patchleather. -->
+  <Make_Patchleather.description>دمج أنواع مختلفة من الجلود لصنع جلد مرقع ضعيف.</Make_Patchleather.description>
+  <!-- EN: Making patchleather. -->
+  <Make_Patchleather.jobString>صنع جلد مرقع.</Make_Patchleather.jobString>
+  
+  <!-- EN: make any stone blocks -->
+  <Make_StoneBlocksAny.label>صنع كتل حجرية من أي نوع</Make_StoneBlocksAny.label>
+  <!-- EN: Cut rock chunks into usable stone blocks. -->
+  <Make_StoneBlocksAny.description>تقطيع كتل الصخور إلى كتل حجرية قابلة للاستخدام.</Make_StoneBlocksAny.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <Make_StoneBlocksAny.jobString>تقطيع كتل حجرية من الصخور.</Make_StoneBlocksAny.jobString>
+  
+  <!-- EN: smelt apparel -->
+  <SmeltApparel.label>صهر الملابس</SmeltApparel.label>
+  <!-- EN: Use heat and strong electromagnets to break down metallic apparel like armor into useful resources. -->
+  <SmeltApparel.description>استخدام الحرارة والمغناطيسات الكهربائية القوية لتفكيك الملابس المعدنية مثل الدروع إلى موارد مفيدة.</SmeltApparel.description>
+  <!-- EN: Smelting apparel. -->
+  <SmeltApparel.jobString>صهر الملابس.</SmeltApparel.jobString>
+  
+  <!-- EN: smelt or destroy thing -->
+  <SmeltOrDestroyThing.label>صهر أو تدمير الشيء</SmeltOrDestroyThing.label>
+  <!-- EN: Use heat and strong electromagnets to break down metallic things like weapons and armor into useful resources, or destroy them if they are not smeltable. -->
+  <SmeltOrDestroyThing.description>استخدام الحرارة والمغناطيسات الكهربائية القوية لتفكيك الأشياء المعدنية مثل الأسلحة والدروع إلى موارد مفيدة، أو تدميرها إذا كانت غير قابلة للصهر.</SmeltOrDestroyThing.description>
+  <!-- EN: Smelting/destroying things. -->
+  <SmeltOrDestroyThing.jobString>صهر/تدمير الأشياء.</SmeltOrDestroyThing.jobString>
+  
+  <!-- EN: smelt weapon -->
+  <SmeltWeapon.label>صهر السلاح</SmeltWeapon.label>
+  <!-- EN: Use heat and strong electromagnets to break down weapons into useful resources. -->
+  <SmeltWeapon.description>استخدام الحرارة والمغناطيسات الكهربائية القوية لتفكيك الأسلحة إلى موارد مفيدة.</SmeltWeapon.description>
+  <!-- EN: Smelting weapon. -->
+  <SmeltWeapon.jobString>صهر السلاح.</SmeltWeapon.jobString>
+  
+</LanguageData>

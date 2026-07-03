@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: {FACTION_pawnsPlural} from {FACTION_name} are attacking! They've used the gravcore to lure you into an ambush. -->
+  <GravcoreAbandonedSettlementRaid>يهاجمك {FACTION_pawnsPlural} من {FACTION_name}! لقد استخدموا نواة الجاذبية لاستدراجك إلى كمين.</GravcoreAbandonedSettlementRaid>
+  <!-- EN: More reinforcements are on their way, and will arrive in the next few days. Prepare for their attack, or escape before they arrive. -->
+  <GravcoreAbandonedSettlementRaid_Reinforcements>المزيد من التعزيزات في طريقها، وستصل في الأيام القليلة القادمة. استعد لهجومهم، أو اهرب قبل وصولهم.</GravcoreAbandonedSettlementRaid_Reinforcements>
+  
+  <!-- EN: Relay defense response -->
+  <GravcoreMechRelayRaidLetterLabel>استجابة دفاع المحطة</GravcoreMechRelayRaidLetterLabel>
+  <!-- EN: Mechanoids are arriving to defend the relay!\n\nThey are arriving by transport pod and will attack immediately. -->
+  <GravcoreMechRelayRaidLetterText>الميكانويدات تصل للدفاع عن المحطة!\n\nإنهم يصلون عبر كبسولة نقل وسيهاجمون على الفور.</GravcoreMechRelayRaidLetterText>
+  
+  <!-- EN: Amongst the remnants of the crashed mechanoid platform, a still-intact grav engine hums with energy.\n\nYou can build gravship substructure around the engine to create a new gravship. The engine pushes against gravity, levitating the ship and allowing long-distance travel.\n\nLaunch a gravship by researching basic gravtech, then building fuel tanks, thrusters, and a pilot console.\n\nLaunching a gravship will abandon your current map unless you build a grav anchor first.\n\n  - Research unlocked: Basic gravtech\n  - Flooring unlocked: Gravship substructure -->
+  <GravEngineInspectedLetterContents>بين بقايا منصة ميكانويد متحطمة، يطن محرك جاذبية لا يزال سليماً بالطاقة.\n\nيمكنك بناء بنية تحتية لسفينة الجاذبية حول المحرك لإنشاء سفينة جاذبية جديدة. يدفع المحرك ضد الجاذبية، مما يرفع السفينة ويسمح بالسفر لمسافات طويلة.\n\nأطلق سفينة الجاذبية من خلال البحث في تكنولوجيا الجاذبية الأساسية، ثم بناء خزانات الوقود، والدوافع، ووحدة تحكم الطيار.\n\nسيؤدي إطلاق سفينة الجاذبية إلى التخلي عن خريطتك الحالية ما لم تقم ببناء مرساة جاذبية أولاً.\n\n  - تم فتح البحث: تكنولوجيا الجاذبية الأساسية\n  - تم فتح الأرضيات: البنية التحتية لسفينة الجاذبية</GravEngineInspectedLetterContents>
+  <!-- EN: View quest -->
+  <ViewQuest>عرض المهمة</ViewQuest>
+  
+  <!-- Asteroid -->
+  <!-- EN: {RESOURCE} asteroid -->
+  <AsteroidLetter>كويكب {RESOURCE}</AsteroidLetter> 
+  <!-- EN: You've discovered the location of an asteroid orbiting the planet. It contains significant amounts of {RESOURCE}, and potentially other resources.\n\nOrbital miners steer valuable asteroids into planetary orbit so that they can be easily mined and sold to orbital traders. You do not detect any signs of life from this asteroid.\n\nYou can reach the asteroid with transport pods, shuttles, or a gravship. -->
+  <AsteroidLetterText>لقد اكتشفت موقع كويكب يدور حول الكوكب. يحتوي على كميات كبيرة من {RESOURCE}، ويحتمل وجود موارد أخرى.\n\nيقوم عمال المناجم المداريون بتوجيه الكويكبات القيمة إلى مدار الكوكب بحيث يمكن تعدينها وبيعها بسهولة للتجار المداريين. لا تكتشف أي علامات على وجود حياة من هذا الكويكب.\n\nيمكنك الوصول إلى الكويكب باستخدام كبسولات نقل أو مكوكات أو سفينة الجاذبية.</AsteroidLetterText>
+
+  <!-- EN: {RESOURCE} asteroid -->
+  <AsteroidName>كويكب {RESOURCE}</AsteroidName>
+
+  <!-- Ancient Reactor -->
+  <!-- EN: Ancient reactor -->
+  <AncientReactorArrivedLetter>مفاعل أثري</AncientReactorArrivedLetter>
+  <!-- EN: An ancient reactor is hidden within nearby ruins. The reactor is damaged and leaking, covering the region in toxic fallout. Locate and disable the reactor to obtain a gravcore and stop the fallout. -->
+  <AncientReactorArrivedLetterText>يُخبأ مفاعل أثري داخل الأنقاض المجاورة. المفاعل متضرر ويسرب، مما يغطي المنطقة بتساقط إشعاعي سام. حدد موقع المفاعل وقم بتعطيله للحصول على نواة الجاذبية وإيقاف التساقط الإشعاعي.</AncientReactorArrivedLetterText>
+
+  <!-- Frozen Terraformer -->
+  <!-- EN: Ancient terraformer -->
+  <FrozenTerraformerArrivedLetter>آلة تشكيل بيئي أثرية</FrozenTerraformerArrivedLetter>
+  <!-- EN: The malfunctioning terraformer has encased itself in solid ice. The gravcore energy signal is coming from somewhere within. Find and destroy the terraformer to obtain the gravcore. -->
+  <FrozenTerraformerArrivedLetterText>غلفت آلة التشكيل البيئي المعطلة نفسها في جليد صلب. تأتي إشارة طاقة نواة الجاذبية من مكان ما بالداخل. ابحث عن آلة التشكيل البيئي ودمرها للحصول على نواة الجاذبية.</FrozenTerraformerArrivedLetterText>
+
+  <!-- Ancient Stockpile -->
+  <!-- EN: Ancient stockpile -->
+  <AncientStockpileArrivedLetter>مخزون أثري</AncientStockpileArrivedLetter>
+  <!-- EN: The gravcore energy signal is coming from one of the nearby underground stockpiles. Hack the entrances and search the stockpiles to find the gravcore.\n\nBe careful, some of the defense systems may still be active. -->
+  <AncientStockpileArrivedLetterText>تأتي إشارة طاقة نواة الجاذبية من أحد المخزونات القريبة تحت الأرض. اخترق المداخل وابحث في المخزونات للعثور على نواة الجاذبية.\n\nكن حذراً، قد لا تزال بعض أنظمة الدفاع نشطة.</AncientStockpileArrivedLetterText>
+
+  <!-- Orbital Mechanoid Platform -->
+  <!-- EN: Mechanoid platform -->
+  <OrbitalMechanoidPlatformLetterArrived>منصة ميكانويد</OrbitalMechanoidPlatformLetterArrived>
+  <!-- EN: This orbital platform is built to service and deploy combat mechanoids, likely as part of some ancient planet-spanning war machine.\n\nThe gravcore signal is coming from somewhere within. -->
+  <OrbitalMechanoidPlatformLetterArrivedText>تم بناء هذه المنصة المدارية لخدمة ونشر الميكانويدات القتالية، على الأرجح كجزء من آلة حرب أثرية امتدت عبر الكوكب.\n\nتأتي إشارة نواة الجاذبية من مكان ما بالداخل.</OrbitalMechanoidPlatformLetterArrivedText>
+
+  <!-- Orbital Ancient Platform -->
+  <!-- EN: Ancient platform -->
+  <OrbitalAncientPlatformLetterArrived>منصة أثرية</OrbitalAncientPlatformLetterArrived>
+  <!-- EN: The people who once inhabited this orbital platform are long gone and its original purpose has long been forgotten.\n\nThe gravcore signal is coming from somewhere within. -->
+  <OrbitalAncientPlatformLetterArrivedText>لقد رحل الأشخاص الذين سكنوا هذه المنصة المدارية منذ فترة طويلة ونسي الغرض الأصلي منها منذ زمن بعيد.\n\nتأتي إشارة نواة الجاذبية من مكان ما بالداخل.</OrbitalAncientPlatformLetterArrivedText>
+  
+  <!-- Ancient Reactor -->
+  <!-- EN: Crashed mechanoid platform -->
+  <CrashedPlatformArrivedLetter>منصة ميكانويد متحطمة</CrashedPlatformArrivedLetter>
+  <!-- EN: The remains of an orbital platform are strewn nearby. Be careful, the wreckage contains hostile mechanoids.\n\nThe gravcore signal is coming from somewhere within the crash site. -->
+  <CrashedPlatformArrivedLetterText>تتناثر بقايا منصة مدارية في مكان قريب. كن حذراً، يحتوي الحطام على ميكانويدات معادية.\n\nتأتي إشارة نواة الجاذبية من مكان ما داخل موقع التحطم.</CrashedPlatformArrivedLetterText>
+
+  <!-- Lava Incidents-->
+  <!-- EN: Lava emergence -->
+  <LetterLabelLavaEmergence>انبثاق الحمم البركانية</LetterLabelLavaEmergence>
+  <!-- EN: Lava is emerging from cracks in the ground! It'll continue to pool until it creates a small lake. It will then take several days to cool, after which it can be removed. -->
+  <LetterLavaEmergence>تنبثق الحمم البركانية من شقوق في الأرض! ستستمر في التجمع حتى تنشئ بحيرة صغيرة. ستستغرق بعد ذلك عدة أيام لتبرد، وبعد ذلك يمكن إزالتها.</LetterLavaEmergence>
+  <!-- EN: Lava flow -->
+  <LetterLabelLavaFlow>تدفق الحمم البركانية</LetterLabelLavaFlow>
+  <!-- EN: Lava has begun to pour into the region, flooding the low-lying volcanic rock. Keep your colonists out of harm's way! -->
+  <LetterLavaFlow>بدأت الحمم البركانية تتدفق إلى المنطقة، لتغمر الصخور البركانية المنخفضة. أبقِ مستعمريك بعيداً عن طريق الأذى!</LetterLavaFlow>
+
+  <!-- Seasonal Flooding -->
+  <!-- EN: Seasonal flooding -->
+  <LetterLabelSeasonalFlooding>فيضانات موسمية</LetterLabelSeasonalFlooding>
+  <!-- EN: Rainfall upriver is causing the river to swell. The flooding will subside after several days. -->
+  <LetterSeasonalFlooding>يتسبب هطول الأمطار في المنبع في ارتفاع منسوب النهر. سينحسر الفيضان بعد عدة أيام.</LetterSeasonalFlooding>
+  <!-- EN: Low temperatures have begun to freeze the river. Flooding is subsiding. -->
+  <MessageSeasonalFloodingFrozen>بدأت درجات الحرارة المنخفضة في تجميد النهر. الفيضان ينحسر.</MessageSeasonalFloodingFrozen>
+  <!-- EN: Flooding is subsiding. -->
+  <MessageFloodingSubsiding>الفيضان ينحسر.</MessageFloodingSubsiding>
+
+  <!-- Fishing -->
+  <!-- EN: Rare catch -->
+  <LetterLabelRareCatch>صيد نادر</LetterLabelRareCatch>
+  <!-- EN: While fishing, {PAWN_nameDef} made an unusual catch -->
+  <LetterTextRareCatch>أثناء صيد السمك، قام {PAWN_nameDef} بصيد غير معتاد</LetterTextRareCatch>
+
+  <!-- Pursuing Mechanoids -->
+  <!-- EN: Incoming mechanoids -->
+  <LetterLabelMechanoidThreat>ميكانويدات قادمة</LetterLabelMechanoidThreat>
+  <!-- EN: The mechhive's scanning process is close to determining your location. When it locates your gravship, it will send a massive mechanoid force to kill you.\n\nGather your supplies, then flee the map by selecting the pilot console, and selecting launch. -->
+  <LetterTextMechanoidThreat>تقترب عملية المسح الخاصة بخلية الميكانويدات من تحديد موقعك. عندما تحدد موقع سفينة الجاذبية الخاصة بك، سترسل قوة ميكانويدات ضخمة لقتلك.\n\nاجمع إمداداتك، ثم اهرب من الخريطة عن طريق اختيار وحدة تحكم الطيار، واختيار الإطلاق.</LetterTextMechanoidThreat>
+
+  <!-- Mechhive -->
+  <!-- EN: Mechhive signal -->
+  <LetterLabelMechhiveWarning>إشارة خلية الميكانويدات</LetterLabelMechhiveWarning>
+  <!-- EN: You have detected a massive gravtech energy reading indicating that the mechhive is hidden somewhere in orbit. If you could find it, you could shut it down - or make use of its power.\n\nMechhives are production-and-control platforms that birth mechanoids and coordinate their actions around the planet. They're powered by a persona core.\n\nCollect more gravship technology to track down the mechhive's location. -->
+  <LetterTextMechhiveWarning>لقد اكتشفت قراءة طاقة ضخمة لتقنية الجاذبية تشير إلى أن خلية الميكانويدات مخبأة في مكان ما في المدار. إذا تمكنت من العثور عليها، يمكنك إغلاقها - أو الاستفادة من طاقتها.\n\nخلايا الميكانويدات هي منصات إنتاج وتحكم تقوم بتوليد الميكانويدات وتنسيق أفعالها حول الكوكب. إنها مدعومة بنواة شخصية.\n\nاجمع المزيد من تكنولوجيا سفينة الجاذبية لتعقب موقع خلية الميكانويدات.</LetterTextMechhiveWarning>
+
+  <!-- EN: Cerebrex core -->
+  <OrbitalMechhiveLetterArrived>نواة سيريبراكس</OrbitalMechhiveLetterArrived>
+  <!-- EN: At the center of the orbital platform sits a massive mechanoid structure made of hair-fine ultratech filaments supporting an AI persona core. This is the intelligence core of the mechhive that directs mechanoids all over the planet.\n\nThe structure is protected by nearby stabilizers, making it nearly invulnerable. Find and destroy the cerebrex stabilizers to lower the core's defenses. -->
+  <OrbitalMechhiveLetterArrivedText>في وسط المنصة المدارية يقع هيكل ميكانويد ضخم مصنوع من خيوط تكنولوجية فائقة الدقة كالشعر تدعم نواة شخصية للذكاء الاصطناعي. هذه هي نواة الذكاء الخاصة بخلية الميكانويدات التي توجه الميكانويدات في جميع أنحاء الكوكب.\n\nالهيكل محمي بواسطة مثبتات قريبة، مما يجعله شبه منيع. ابحث عن مثبتات سيريبراكس ودمرها لخفض دفاعات النواة.</OrbitalMechhiveLetterArrivedText>
+
+  <!-- EN: Mechanoid assault -->
+  <MechhiveRaidLetterLabel>هجوم الميكانويدات</MechhiveRaidLetterLabel>
+  <!-- EN: The cerebrex core is sending mechanoids to attack you. Get ready! -->
+  <MechhiveRaidLetterText>ترسل نواة سيريبراكس ميكانويدات لمهاجمتك. استعد!</MechhiveRaidLetterText>
+
+  <!-- EN: Defense response -->
+  <MechhiveDefenseResponseLetterLabel>استجابة دفاعية</MechhiveDefenseResponseLetterLabel>
+  <!-- EN: The mechanoid hive has summoned mechanoid reinforcements to defend itself. They are arriving by transport pod and will attack immediately! -->
+  <MechhiveDefenseResponseLetterText>استدعت خلية الميكانويدات تعزيزات من الميكانويدات للدفاع عن نفسها. إنهم يصلون عبر كبسولة نقل وسيهاجمون على الفور!</MechhiveDefenseResponseLetterText>
+
+  <!-- EN: Cerebrex core -->
+  <CerebrexCoreLoweredLetterLabel>نواة سيريبراكس</CerebrexCoreLoweredLetterLabel>
+  <!-- EN: By destroying the stabilizers, you've lowered the cerebrex core's defenses. Send a colonist to inspect the core. -->
+  <CerebrexCoreLoweredLetterText>من خلال تدمير المثبتات، لقد قمت بخفض دفاعات نواة سيريبراكس. أرسل مستعمراً لفحص النواة.</CerebrexCoreLoweredLetterText>
+
+  <!-- EN: Mechanoids deactivated -->
+  <CerebrexCoreDestroyedLetterLabel>تم تعطيل الميكانويدات</CerebrexCoreDestroyedLetterLabel>
+  <!-- EN: By destroying the cerebrex core, {PAWN_nameDef} has deactivated mechanoids across the planet.\n\nThe mechanoid threat is over. -->
+  <CerebrexCoreDestroyedLetterText>من خلال تدمير نواة سيريبراكس، قام {PAWN_nameDef} بتعطيل الميكانويدات في جميع أنحاء الكوكب.\n\nلقد انتهى تهديد الميكانويدات.</CerebrexCoreDestroyedLetterText>
+
+  <!-- EN: Cerebrex node -->
+  <CerebrexCoreScavengedLetterLabel>عقدة سيريبراكس</CerebrexCoreScavengedLetterLabel>
+  <!-- EN: The scavenged node from the cerebrex core lies nearby. It responds strongly to the core, clearly still linked to it.\n\nEquip the node to a colonist to make use of it. -->
+  <CerebrexCoreScavengedLetterText>تقع العقدة المستردة من نواة سيريبراكس في مكان قريب. إنها تستجيب بقوة للنواة، ومن الواضح أنها لا تزال مرتبطة بها.\n\nقم بتجهيز العقدة لمستعمر للاستفادة منها.</CerebrexCoreScavengedLetterText>
+
+  <!-- Caravan entered enemy base -->
+  <!-- EN: Attack begun -->
+  <LetterLabelGravshipEnteredEnemyBase>بدأ الهجوم</LetterLabelGravshipEnteredEnemyBase>
+  <!-- EN: Your gravship has landed at {0} and is ready to begin the attack. -->
+  <LetterGravshipEnteredEnemyBase>هبطت سفينة الجاذبية الخاصة بك في {0} وهي جاهزة لبدء الهجوم.</LetterGravshipEnteredEnemyBase>
+  
+  <!-- Survey Scanner -->
+  <!-- EN: Surveying scanner -->
+  <LetterLabelSurveyScannerArrived>ماسح استقصائي</LetterLabelSurveyScannerArrived>
+  <!-- EN: Protect the scanner until it's finished surveying the area. This will take {DURATION}. -->
+  <LetterSurveyScannerArrived>احمِ الماسح حتى ينتهي من مسح المنطقة. سيستغرق هذا {DURATION}.</LetterSurveyScannerArrived>
+  
+  <!-- Psilocaps -->
+  <!-- EN: Due to ingesting psilocaps, [PAWN_nameIndef] has experienced an inspiration! -->
+  <LetterInspirationBeginPsilocap>بسبب تناول فطر السيلوكاب، اختبر [PAWN_nameIndef] إلهاماً!</LetterInspirationBeginPsilocap>
+  <!-- EN: This happened due to ingesting psilocaps. -->
+  <MentalBreakReason_Psilocap>حدث هذا بسبب تناول فطر السيلوكاب.</MentalBreakReason_Psilocap>
+
+  <!-- EN: Insect lair -->
+  <EnteredMegahiveLabel>وكر الحشرات</EnteredMegahiveLabel>
+  <!-- EN: {PAWN_nameDef} has arrived in the depths of a massive underground insect lair. The air is heavy with the stench of insect secretions. -->
+  <EnteredMegahiveText>وصل {PAWN_nameDef} إلى أعماق وكر حشرات ضخم تحت الأرض. الهواء مثقل برائحة إفرازات الحشرات.</EnteredMegahiveText>
+  <!-- EN: The gravcore signal is coming from somewhere behind the burrow walls. Attack the burrow walls to explore further. -->
+  <EnteredMegahiveGravcoreExtra>تأتي إشارة نواة الجاذبية من مكان ما خلف جدران الجحر. هاجم جدران الجحر لاستكشاف المزيد.</EnteredMegahiveGravcoreExtra>
+
+</LanguageData>

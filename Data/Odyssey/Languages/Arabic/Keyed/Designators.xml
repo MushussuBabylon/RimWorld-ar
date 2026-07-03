@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Fishing -->
+  <!-- EN: Fishing zone -->
+  <Zone_Fishing>منطقة صيد</Zone_Fishing>
+  <!-- EN: fishing -->
+  <FishingGroup>صيد السمك</FishingGroup>
+  <!-- EN: Create an area where your hunters will fish. Must be placed over water containing fish. Larger bodies of water are generally better for fishing. -->
+  <DesignatorFishingZoneDesc>إنشاء منطقة حيث سيصطاد صيادوك الأسماك. يجب وضعها فوق ماء يحتوي على أسماك. المسطحات المائية الكبيرة أفضل عموماً لصيد السمك.</DesignatorFishingZoneDesc>
+
+  <!-- Override snow clearing => snow and sand clearing -->
+  <!-- EN: Snow and sand removal area -->
+  <DesignatorAreaSnowOrSandClearExpand>منطقة إزالة الثلج والرمل</DesignatorAreaSnowOrSandClearExpand>
+  <!-- EN: Create an area which colonists will try to keep clear of snow and sand. -->
+  <DesignatorAreaSnowOrSandClearExpandDesc>إنشاء منطقة سيحاول المستعمرون إبقاءها خالية من الثلج والرمل.</DesignatorAreaSnowOrSandClearExpandDesc>
+  <!-- EN: Clear snow and sand removal area -->
+  <DesignatorAreaSnowOrSandClearClear>مسح منطقة إزالة الثلج والرمل</DesignatorAreaSnowOrSandClearClear>
+  <!-- EN: Removes a snow and sand removal area. Colonists will no longer try to keep this area clear of snow and sand. -->
+  <DesignatorAreaSnowOrSandClearClearDesc>إزالة منطقة إزالة الثلج والرمل. لن يحاول المستعمرون بعد ذلك إبقاء هذه المنطقة خالية من الثلج والرمل.</DesignatorAreaSnowOrSandClearClearDesc>
+
+  <!-- EN: Remove foundation -->
+  <DesignatorRemoveFoundation>إزالة الأساس</DesignatorRemoveFoundation>
+  <!-- EN: Remove bridges or gravship substructure to reveal the terrain underneath. -->
+  <DesignatorRemoveFoundationDesc>إزالة الجسور أو البنية التحتية لسفينة الجاذبية لكشف التضاريس تحتها.</DesignatorRemoveFoundationDesc>
+
+  <!-- EN: Move landing zone -->
+  <DesignatorMoveGravship>نقل منطقة الهبوط</DesignatorMoveGravship>
+  <!-- EN: Reposition the gravship's landing spot. -->
+  <DesignatorMoveGravshipDesc>تغيير موقع بقعة هبوط سفينة الجاذبية.</DesignatorMoveGravshipDesc>
+</LanguageData>

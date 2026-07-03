@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Mechanitor -->
+  <!-- EN: Mech(s) gone feral -->
+  <LetterLabelMechsFeral>ميكانويد(ات) توحشت</LetterLabelMechsFeral>
+  <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
+  <LetterMechsFeral>بعض الميكانويدات التي كانت تتجول بدون مشرف ارتبطت بإشارات تحكم قديمة على مستوى الكوكب. لقد انضمت إلى {0} وأصبحت معادية، ويبدو أنها تحاول القتال للخروج من الخريطة.\n\nلا يمكن إحياء الميكانويدات المتوحشة في المولد عند قتلها.\n\nهذه الميكانويدات متورطة:\n\n{1}</LetterMechsFeral>
+  <!-- EN: Mechlink installed -->
+  <LetterLabelMechlinkInstalled>تم تركيب وصلة الميكانويد</LetterLabelMechlinkInstalled>
+  <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
+  <LetterMechlinkInstalled>{PAWN_labelShort} قام بتركيب وصلة الميكانويد! {PAWN_pronoun} أصبح الآن ميكانيتور ويمكنه إنشاء الميكانويدات والتحكم بها.\n\nابحث عن الميكتيك الأساسي للبدء.\n\n(*SectionTitle)إنشاء الميكانويدات:(/SectionTitle) يمكن للميكانيتور الخاص بك إنشاء الميكانويدات في مبنى إنتاج يسمى مولد الميكانويد.\n\n(*SectionTitle)حول النطاق الترددي:(/SectionTitle) يمكن للميكانيتور التحكم في عدد من الميكانويدات بقدر ما يسمح به إجمالي النطاق الترددي. اختر {PAWN_labelShort} وانظر إلى قراءة 'النطاق الترددي' الخاصة بـ {PAWN_possessive} لمعرفة مقدار النطاق الترددي الذي يستخدمه {PAWN_pronoun} حاليًا والمقدار المتاح. يمكن زيادة النطاق الترددي ببعض الملابس وببناء مباني عقدة النطاق.\n\n(*SectionTitle)حول مجموعات التحكم:(/SectionTitle) يتحكم الميكانيتور في الميكانويدات في مجموعات. يمكن ضبط كل مجموعة تحكم على أحد هذه الأوضاع:\n\n- عمل\n- مرافقة\n- إعادة شحن\n- شحن ذاتي خامل\n\nلمعرفة المزيد حول ما يفعله كل وضع، اختر أيقونة وضع العمل على إحدى مجموعات التحكم الخاصة بـ {PAWN_labelShort} ومرر فوق أوامر العمل المختلفة. يمكن زيادة الحد الأقصى لعدد مجموعات التحكم بالملابس والزرعات.\n\n(*SectionTitle)حول استدعاء التهديد:(/SectionTitle) يمكن للميكانيتور إرسال إشارات لميكانويدات قادة قديمة للهجوم من أجل الحصول على عناصر نادرة منها. يجب عليك فعل ذلك لتطوير الميكانيتور الخاص بك بعد حدود معينة، لكن احذر الخطر.</LetterMechlinkInstalled>
+
+  <!-- EN: This happened because of -->
+  <MentalStateReason_Gene>حدث هذا بسبب</MentalStateReason_Gene>
+
+  <!-- EN: {0} summoned -->
+  <LetterLabelBossgroupSummoned>تم استدعاء {0}</LetterLabelBossgroupSummoned>
+  <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
+  <LetterBossgroupSummoned>جذبت إشارات نطاق الميكانويد الخاصة بك ميكانويد فائق الثقل من {0} سيصل قريبًا. كن مستعدًا.</LetterBossgroupSummoned>
+
+  <!-- EN: {0} arrived -->
+  <LetterLabelBossgroupArrived>وصل {0}</LetterLabelBossgroupArrived>
+  <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
+  <LetterBossgroupArrived>جاء ميكانويد فائق الثقل من {0} ليبيدك، مع مرافقين.\n\n{1}\n\nمجموعة الهجوم تتكون من الـ {3} التاليين:\n\n{4}\n\nسيستعدون لفترة قبل الهجوم.</LetterBossgroupArrived>
+
+  <!-- EN: Summon {LEADER_label} available -->
+  <LetterLabelCommsConsoleSpawned>استدعاء {LEADER_label} متاح</LetterLabelCommsConsoleSpawned>
+  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <LetterCommsConsoleSpawned>يمكن للميكانيتور استخدام {PARENT_label} لاستدعاء ميكانويد {LEADER_label} خطير ومعادٍ. كن مستعدًا، الميكانويدات {LEADER_label} قوية للغاية.\n\nإذا هزمت {LEADER_label}، سيسقط العناصر التالية:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+
+  <!-- EN: Summon {LEADER_label} possible -->
+  <LetterLabelBossgroupCallerUnlocked>استدعاء {LEADER_label} ممكن</LetterLabelBossgroupCallerUnlocked>
+  <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <LetterBossgroupCallerUnlocked>يمكنك الآن بناء {PARENT_label} الذي يمكن للميكانيتور استخدامه لاستدعاء {LEADER_label}. إذا هزمت {LEADER_label}، سيسقط العناصر التالية:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+
+  <!-- EN: {PAWN_nameDef}'s mechlink available -->
+  <LetterLabelMechanitorCasketOpened>وصلة الميكانويد الخاصة بـ {PAWN_nameDef} متاحة</LetterLabelMechanitorCasketOpened>
+  <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {PAWN_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
+  <LetterMechanitorCasketOpened>لقد عثرت على جثة ميكانيتور قديم!\n\nاستخرج وصلة الميكانويد الخاصة بـ {PAWN_possessive} باختيار مستعمر والنقر بزر الماوس الأيمن على الجثة.</LetterMechanitorCasketOpened>
+  <!-- EN: Mechanitor casket found -->
+  <LetterLabelMechanitorCasketFound>تم العثور على تابوت ميكانيتور</LetterLabelMechanitorCasketFound>
+  <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
+  <LetterMechanitorCasketFound>لقد اكتشفت تابوت سبات الميكانيتور!\n\nافتحه لتجده في الداخل.</LetterMechanitorCasketFound>
+  
+  <!-- Pawns lost because map closed (including mechs) -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>فُقدت قافلتك. الأشخاص والحيوانات والميكانويدات التالية فُقدت معها</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>تم التخلي عن الأشخاص والحيوانات والميكانويدات التالية</LetterPawnsLostIncMechsBecauseMapClosed_Home>
+  
+
+  <!-- Children -->
+  <!-- EN: {0_nameDef} became a child -->
+  <LetterLabelBecameChild>أصبح {0_nameDef} طفلاً</LetterLabelBecameChild>
+  <!-- EN: {0_nameDef} became an adult -->
+  <LetterLabelBecameAdult>أصبح {0_nameDef} بالغاً</LetterLabelBecameAdult>
+  <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
+  <LetterBecameChild>كبر الطفل {0_nameDef} وأصبح طفلاً! {0_pronoun} الآن كبير بما يكفي للقيام بالأعمال التالية:</LetterBecameChild>
+  <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
+  <LetterBecameChildChanges>يمكن للأطفال القيام بأنواع مختلفة من العمل. مع تقدمهم في العمر، يصبحون قادرين على القيام بالمزيد من أنواع العمل.\n\nكما يقومون بأنشطة ترفيهية متنوعة خاصة بالأطفال.\n\nيحتاج الأطفال إلى ارتداء ملابس خاصة بمقاسات الأطفال.</LetterBecameChildChanges>
+  <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
+  <LetterChildLegalStatus>حسب التقاليد، {0_nameDef}، {0_parentage}، هو {0_legalStatus}، لكن يمكن عمل استثناءات.... هل يجب أن يبقى {0_nameDef} {0_legalStatus}؟</LetterChildLegalStatus>
+  <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
+  <LetterChildFollowIdeo>قرر {0_labelShort} أن يصبح تابعًا لعقيدة {1_name}.</LetterChildFollowIdeo>
+  <!-- EN: {0_nameDef}'s slave status has already changed since {0_possessive} birthday. -->
+  <CannotChangeChildStatusReason>لقد تغير وضع العبد لـ {0_nameDef} بالفعل منذ عيد ميلاد {0_possessive}.</CannotChangeChildStatusReason>
+  <!-- EN: enslave -->
+  <Enslave>استعباد</Enslave>
+  <!-- EN: emancipate -->
+  <Emancipate>تحرير</Emancipate>
+  <!-- EN: remain {0} -->
+  <RemainX>يبقى {0}</RemainX>
+  <!-- EN: {BABY_nameDef} adopted -->
+  <LetterLabelAdopted>تم تبني {BABY_nameDef}</LetterLabelAdopted>
+  <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
+  <LetterTextAdopted>تم تبني الطفل {BABY_nameDef} من قبل مستعمرتك. قد ترغب في تعيين مستعمرين لنوع عمل 'رعاية الأطفال' للاعتناء بـ {BABY_objective}.</LetterTextAdopted>
+
+  <!-- EN: {0_nameDef}'s baby prep -->
+  <LetterLabelThirdTrimester>استعدادات طفل {0_nameDef}</LetterLabelThirdTrimester>
+  <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
+  <LetterTextThirdTrimester>من المقرر أن تلد {0_nameDef} في أقل من 6 أيام. يمكنك الاستعداد للطفل:\n\n- بناء غرفة ولادة بأرضية نظيفة وسرير جيد.\n- تجهيز طبيب ماهر.\n- في تبويب العمل، تعيين شخص واحد على الأقل لرعاية الأطفال\n- تجهيز مصدر غذاء للطفل. يمكن لـ {0_nameDef} إرضاع الطفل، أو يمكنك إطعامه طعام أطفال، أو حليب، أو هلام الحشرات.\n- بناء مهد. المهود عالية الجودة ستجعل الطفل سعيدًا.\n\nيمكنك صنع طعام الأطفال على الموقد أو نار المخيم.</LetterTextThirdTrimester>
+
+  <!-- EN: {0} vat birth -->
+  <LetterVatBirth>ولادة حوض {0}</LetterVatBirth>
+  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
+  <LetterVatHealthyBaby>أنهى جنين {0_nameDef} و {1_nameDef} التكون في حوض النمو وأصبح طفلاً سليمًا!</LetterVatHealthyBaby>
+  <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
+  <LetterVatHealthyBabyNoParents>أنهى جنين التكون في حوض النمو وأصبح طفلاً سليمًا!</LetterVatHealthyBabyNoParents>
+  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
+  <LetterVatInfantIllness>أنهى جنين {0_nameDef} و {1_nameDef} التكون في حوض النمو وأصبح طفلاً. للأسف، الطفل مريض.</LetterVatInfantIllness>
+  <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
+  <LetterVatInfantIllnessNoParents>أنهى جنين التكون في حوض النمو وأصبح طفلاً. للأسف، الطفل مريض.</LetterVatInfantIllnessNoParents>
+  <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
+  <LetterVatStillborn>الطفل الذي تكون في حوض النمو من جنين {0_nameDef} و {1_nameDef} ولد ميتًا.</LetterVatStillborn>
+  <!-- EN: The baby formed in a growth vat was stillborn. -->
+  <LetterVatSillbornNoParents>الطفل الذي تكون في حوض النمو ولد ميتًا.</LetterVatSillbornNoParents>
+  <!-- EN: {0_labelShort} in labor! -->
+  <LetterColonistPregnancyLaborLabel>{0_labelShort} في حالة ولادة!</LetterColonistPregnancyLaborLabel>
+  <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
+  <LetterColonistPregnancyLabor>{0_labelShort} على وشك الولادة! ستعاني من انقباضات لبضع ساعات قبل ولادة الطفل. قد تمر الولادة بعدة مراحل بمستويات مختلفة من الصعوبة والخطر.\n\nلتحسين فرص الطفل، اجمع طبيبًا وآخرين للمساعدة في الولادة. اختر {0_labelShort} واضغط 'تجمع للولادة' لبدء الإجراء.</LetterColonistPregnancyLabor>
+  <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
+  <LetterPartColonistDiedAfterChildbirth>توفيت {0_labelShort} بسبب مضاعفات بعد الولادة.</LetterPartColonistDiedAfterChildbirth>
+  <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
+  <LetterPartSurrogacy>تم إنشاء الطفل من التلقيح الاصطناعي ويحمل التركيبة الجينية لـ {0_labelShort} و {1_labelShort}.</LetterPartSurrogacy>
+  <!-- EN: The baby shows signs of genetic abnormalities due to inbreeding. -->
+  <InbredBabyBorn>يظهر الطفل علامات تشوهات جينية بسبب زواج الأقارب.</InbredBabyBorn>
+
+  <!-- EN: {0_nameDef} has already been named. -->
+  <BabyAlreadyNamed>تم تسمية {0_nameDef} بالفعل.</BabyAlreadyNamed>
+  <!-- EN: name baby -->
+  <NameBaby>تسمية الطفل</NameBaby>
+  <!-- EN: immediately -->
+  <Immediately>فوراً</Immediately>
+  <!-- EN: within -->
+  <Within>خلال</Within>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>تم إعطاء الطفل الاسم المؤقت {0_nameFull}.</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>يمكنك تغييره حتى {0} بعد الولادة.</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>هل ترغب في إعطاء الطفل اسمًا آخر؟</LetterPartStillbirthNameDeadline>
+  <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
+  <LetterPartNameBabyAdopt>تم إعطاء الطفل الاسم المؤقت {0_nameFull}. يمكنك تغييره طالما أن عمر الطفل أقل من {1}.</LetterPartNameBabyAdopt>
+
+  <!-- EN: Growth moment for {PAWNNAME} -->
+  <BirthdayGrowthMoment>لحظة نمو لـ {PAWNNAME}</BirthdayGrowthMoment>
+  <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
+  <BirthdayBiologicalGrowthMoment>بلغ {0_nameFull} العمر البيولوجي لـ {1} واختبر لحظة نمو!</BirthdayBiologicalGrowthMoment>
+  <!-- EN: {0_nameDef} is now old enough to do the following work -->
+  <BirthdayBiologicalAgeWorkTypes>{0_nameDef} الآن كبير بما يكفي للقيام بالأعمال التالية</BirthdayBiologicalAgeWorkTypes>
+  <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
+  <BirthdayPickPassion>اختر مهارة واحدة لـ {0_nameDef} لزيادة شغف {0_possessive} بها</BirthdayPickPassion>
+  <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
+  <BirthdayPickPassions>اختر {1} مهارات لـ {0_nameDef} لزيادة شغف {0_possessive} بها</BirthdayPickPassions>
+  <!-- EN: Choose a trait for {0_nameDef} to gain -->
+  <BirthdayPickTrait>اختر سمة ليكتسبها {0_nameDef}</BirthdayPickTrait>
+  <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
+  <BirthdayGrowthTier>عندما حدثت لحظة النمو هذه، كان {0_nameDef} في مرحلة النمو {1}. الأطفال في مراحل النمو الأعلى يحصلون على خيارات سمات وشغف أكثر للاختيار من بينها، وشغف أكثر بشكل عام. إشباع حاجة التعلم يساعد الطفل على اكتساب مراحل النمو بشكل أسرع. يتم إعادة تعيين مراحل النمو بعد كل لحظة نمو.</BirthdayGrowthTier>
+  <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
+  <BirthdayChooseHowPawnWillGrow>افتح هذه الرسالة لاختيار كيفية نمو {0_nameDef}.</BirthdayChooseHowPawnWillGrow>
+
+  <!-- EN: Passion was increased for {0}. -->
+  <BirthdayPassionArchive>تم زيادة الشغف لـ {0}.</BirthdayPassionArchive>
+  <!-- EN: The trait {0} was gained. -->
+  <BirthdayTraitArchive>تم اكتساب سمة {0}.</BirthdayTraitArchive>
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>بدون سمة</BirthdayNoTraitChoice>
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>{0} لا يكتسب سمة.</BirthdayNoTraitChoiceTooltip>
+
+  <!-- EN: Make choices to close -->
+  <BirthdayMakeChoices>قم بالاختيارات للإغلاق</BirthdayMakeChoices>
+  <!-- EN: {0} has gained the nickname {1}. -->
+  <BirthdayNickname>اكتسب {0} اللقب {1}.</BirthdayNickname>
+  <!-- EN: Select a trait. -->
+  <SelectATrait>اختر سمة.</SelectATrait>
+  <!-- EN: Select a passion. -->
+  <SelectPassionSingular>اختر شغفًا.</SelectPassionSingular>
+  <!-- EN: Select {0} passions. -->
+  <SelectPassionsPlural>اختر {0} شغف.</SelectPassionsPlural>
+  <!-- EN: Later -->
+  <Later>لاحقاً</Later>
+  
+  <!-- EN: Mechlink available -->
+  <LetterLabelMechlinkAvailable>وصلة الميكانويد متاحة</LetterLabelMechlinkAvailable>
+  <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
+  <LetterMechlinkAvailable>أصبحت فرصة للحصول على زرعة وصلة الميكانويد الفريدة متاحة عبر المهمة '{0}'.\n\nتركيب وصلة الميكانويد سيحول المستعمر إلى ميكانيتور. يمكن للميكانيتور إنشاء الميكانويدات والتحكم بها واستخدامها في العمل والقتال.</LetterMechlinkAvailable>
+
+  <!-- Genes -->
+  <!-- EN: Xenogerm implantation ordered -->
+  <LetterLabelXenogermOrderedImplanted>تم طلب زرع اللقاح الغريب</LetterLabelXenogermOrderedImplanted>
+  <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
+  <LetterXenogermOrderedImplanted>لقد طلبت زرع لقاح غريب في {PAWN_nameDef}. يتطلب هذا الإجراء سريرًا طبيًا و {MEDICINENEEDED} دواء.{BEDINFO}{MEDICINEINFO}\n\nيمكنك إلغاء هذا الإجراء بالذهاب إلى تبويب صحة {PAWN_nameDef} -> العمليات.</LetterXenogermOrderedImplanted>
+  <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
+  <XenogermOrderedImplantedBedNeeded>\n\nليس لديك أي أسرّة طبية متاحة لـ {PAWN_nameDef}. فكر في تعليم سرير كطبي.</XenogermOrderedImplantedBedNeeded>
+  <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
+  <XenogermOrderedImplantedMedicineNeeded>\n\nليس لديك دواء كاف لزرع اللقاح الغريب. لا يمكن بدء الزرع حتى تحصل على {MEDICINENEEDED} دواء.</XenogermOrderedImplantedMedicineNeeded>
+  <!-- EN: Involuntary deathrest -->
+  <LetterLabelInvoluntaryDeathrest>سبات موت لا إرادي</LetterLabelInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>غيبوبة تجدد</LetterLabelRegenerationComa>
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>جين الخلود لـ {PAWN_nameDef} منع {PAWN_objective} من الموت. {HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>بدلاً من ذلك، سقط {PAWN_pronoun} في سبات الموت.</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>بدلاً من ذلك، سقط {PAWN_pronoun} في غيبوبة تجدد.</LetterTextRegenerationComa>
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>بسبب الصدمة العصبية لسبات الموت الرضّي، فقد {PAWN_nameDef} {XPLOSS} نقطة خبرة في مهارة {PAWN_possessive} {SKILL}.</DeathrestLostSkill>
+  <!-- EN: Lethal damage taken. -->
+  <DeathrestLethalDamage>تم تلقي ضرر مميت.</DeathrestLethalDamage>
+
+  <!-- EN: Xenogerm implantation -->
+  <LetterLabelSanguophageWaitingToReimplant>زرع اللقاح الغريب</LetterLabelSanguophageWaitingToReimplant>
+  <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
+  <LetterTextSanguophageWaitingToReimplant>كشكر للسماح لـ {PAWN_objective} ورفاقه من مصاصي الدماء بالالتقاء هنا، {PAWN_nameDef} مستعد لمشاركة نسخة من اللقاح الغريب الخاص بـ {PAWN_possessive} مع أحد مستعمرك. سيحول هذا مستعمرك إلى مصاص دماء.\n\nللقبول، اختر مستعمرًا وانقر بزر الماوس الأيمن على {PAWN_nameDef}.\n\nإذا لم يطالب أي مستعمر بالمكافأة خلال {DURATION}، سيغادر مصاصو الدماء.</LetterTextSanguophageWaitingToReimplant>
+
+  <!-- EN: Genes reimplanted -->
+  <LetterLabelGenesImplanted>تم إعادة زرع الجينات</LetterLabelGenesImplanted>
+  <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
+  <LetterTextGenesImplanted>قام {CASTER_nameDef} بزرع نسخة من اللقاح الغريب الخاص بـ {CASTER_possessive} في {TARGET_nameDef}، ناقلاً كل الجينات الغريبة إلى {TARGET_objective}.\n\nسيكون {TARGET_nameDef} في غيبوبة استيلاد اللقاح الغريب لـ {COMADURATION} القادمة بينما يتكيف جسد {TARGET_possessive} مع التغييرات.\n\nسيعاني {CASTER_nameDef} من صدمة فقدان الجينات لـ {SHOCKDURATION} القادمة. ستحتاج جينات {CASTER_possessive} أيضًا إلى إعادة النمو. هذه العملية تستغرق وقتًا. إذا قام {CASTER_nameDef} بزرع اللقاح الغريب الخاص بـ {CASTER_possessive} مرة أخرى قبل أن تنمو جينات {CASTER_possessive}، سيموت {CASTER_pronoun}.</LetterTextGenesImplanted>
+  
+  <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
+  <RefugeePodCrashBaby>طفل رضيع يدعى {PAWN_nameDef} من {PAWN_factionName} يتحطم في كبسولة نقل قريبة.\n\nيمكنك اختيار تبنّي {PAWN_objective} بأمر 'تبنَّ' أو تجاهل {PAWN_objective}.</RefugeePodCrashBaby>
+  <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
+  <RefugeePodCrashBabyHasParent>جثة والدة {PAWN_nameDef} المتوفاة موجودة في كبسولة النقل أيضًا.</RefugeePodCrashBabyHasParent>
+
+  <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreated>باحثًا غريزيًا عن شريك، شكل {BONDPAWN_nameDef} علاقة عاطفية مرتبطة نفسيًا مع {OTHERPAWN_nameDef}. سيستفيد {OTHERPAWN_nameDef} نفسيًا من الاتصال بـ {BONDPAWN_nameDef}، لكن إذا انفصلا في خلايا عالم مختلفة، سيعاني كلاهما من إجهاد نفسي. إذا مات أحدهما، سيُدفع الآخر إلى الجنون.</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>رابط نفسي</LetterPsychicBondCreatedLovinLabel>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>شكل {BONDPAWN_nameDef} علاقة عاطفية مرتبطة نفسيًا مع {OTHERPAWN_nameDef}. سيستفيد {OTHERPAWN_nameDef} نفسيًا من الاتصال بـ {BONDPAWN_nameDef}، لكن إذا انفصلا في خلايا عالم مختلفة، سيعاني كلاهما من إجهاد نفسي. إذا مات أحدهما، سيُدفع الآخر إلى الجنون.</LetterPsychicBondCreatedLovinText>
+
+</LanguageData>

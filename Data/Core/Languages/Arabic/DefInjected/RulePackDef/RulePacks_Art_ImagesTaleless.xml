@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <TalelessImages.rulePack.rulesFiles>
+    <li>noun_random->Words/Nouns/Random</li>
+    <li>noun_random_acc->Words/Nouns/Random_Acc</li>
+    <li>concept_random->Words/Nouns/Concepts_Random</li>
+    <li>action_random->Words/Verbs/Action</li>
+    <li>action_womit->Words/Verbs/Womit</li>
+    <li>adverb_random->Words/Adverbs/Random</li>
+  </TalelessImages.rulePack.rulesFiles>
+  <!-- EN:
+    <li>image->a solitary [Character] [desc_pawn]</li>
+    <li>image->a solitary [Character] [desc_pawn] near a [TerrainFeature]</li>
+    <li>image->a solitary [Character] [desc_pawn] near a [Community]</li>
+    <li>image->a [Character] [desc_pawn] surrounded by [Character]s</li>
+    <li>image->[Character]s playing [Game]</li>
+    <li>image->a [Character] [desc_pawn] playing [Game] with [Quantity_adjphrase] [Character]s</li>
+    <li>image->a [Character] [desc_pawn] holding a [Weapon]</li>
+    <li>image->a [Character] [desc_pawn] eating a [Vegetable]</li>
+    <li>image->[Quantity_adjphrase] [PersonJob]s and [PersonJob]s eating [Vegetable]s together</li>
+    <li>image->the minor celebrity [NamePerson] [desc_pawn]</li>
+    <li>image->a [Character] wearing a [Apparel] [desc_pawn]</li>
+    <li>image->a [Community]</li>
+    <li>image->a [TerrainFeature]</li>
+    <li>image->a [Weapon]</li>
+    <li>image->a [TreeType] tree</li>
+    <li>image->a [NaturalObject]</li>
+    <li>image->[Quantity_adjphrase] [Weapon]s</li>
+    <li>image->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>image->an empty [Apparel]</li>
+    <li>image->a [Shape]</li>
+    <li>image->a [Shape] surrounded by [Shape]s</li>
+    <li>image->an abstracted rendering of [ConceptAny]</li>
+    <li>image->a [AdjectiveAny] abstract shape</li>
+    <li>desc_pawn(p=12)-></li>
+    <li>desc_pawn->flying through the air</li>
+    <li>desc_pawn->suspended in the air</li>
+    <li>desc_pawn->moving to the left</li>
+    <li>desc_pawn->moving to the right</li>
+    <li>desc_pawn->sitting on a table</li>
+    <li>desc_pawn->seen through a looking glass</li>
+    <li>desc_pawn->rendered in silhouette</li>
+    <li>desc_pawn->riding on a [Animal] wearing a [Apparel]</li>
+    <li>desc_pawn->looking [AdjectiveAny]</li>
+    <li>desc_pawn->covered in [Gore]</li>
+  -->
+  <TalelessImages.rulePack.rulesStrings>
+    <li>image->[Character] وحيد [desc_pawn]</li>
+    <li>image->[Character] وحيد [desc_pawn] بالقرب من [TerrainFeature]</li>
+    <li>image->[Character] وحيد [desc_pawn] بالقرب من [Community]</li>
+    <li>image->[Character] [desc_pawn] محاط بـ [Character]s</li>
+    <li>image->[Character]s يلعبون [Game]</li>
+    <li>image->[Character] [desc_pawn] يلعب [Game] مع [Quantity_adjphrase] [Character]s</li>
+    <li>image->[Character] [desc_pawn] يحمل [Weapon]</li>
+    <li>image->[Character] [desc_pawn] يأكل [Vegetable]</li>
+    <li>image->[Quantity_adjphrase] [PersonJob]s و [PersonJob]s يأكلون [Vegetable]s معاً</li>
+    <li>image->الشخصية الشهيرة الصغيرة [NamePerson] [desc_pawn]</li>
+    <li>image->[Character] يرتدي [Apparel] [desc_pawn]</li>
+    <li>image->[Community]</li>
+    <li>image->[TerrainFeature]</li>
+    <li>image->[Weapon]</li>
+    <li>image->شجرة [TreeType]</li>
+    <li>image->[NaturalObject]</li>
+    <li>image->[Quantity_adjphrase] [Weapon]s</li>
+    <li>image->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>image->[Apparel] فارغ</li>
+    <li>image->[Shape]</li>
+    <li>image->[Shape] محاط بـ [Shape]s</li>
+    <li>image->تجسيد تجريدي لـ [ConceptAny]</li>
+    <li>image->شكل تجريدي [AdjectiveAny]</li>
+    <li>desc_pawn(p=12)-></li>
+    <li>desc_pawn->يطير في الهواء</li>
+    <li>desc_pawn->معلق في الهواء</li>
+    <li>desc_pawn->يتحرك إلى اليسار</li>
+    <li>desc_pawn->يتحرك إلى اليمين</li>
+    <li>desc_pawn->يجلس على طاولة</li>
+    <li>desc_pawn->يُرى عبر مرآة</li>
+    <li>desc_pawn->مرسوم كصورة ظلية</li>
+    <li>desc_pawn->يركب [Animal] ويرتدي [Apparel]</li>
+    <li>desc_pawn->يبدو [AdjectiveAny]</li>
+    <li>desc_pawn->مغطى بـ [Gore]</li>
+ </TalelessImages.rulePack.rulesStrings>
+  
+</LanguageData>

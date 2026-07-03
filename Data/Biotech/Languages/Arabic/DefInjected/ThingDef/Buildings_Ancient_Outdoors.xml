@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient exostrider cannon -->
+  <AncientExostriderCannon.label>مدفع متجول خارجي قديم</AncientExostriderCannon.label>
+  <!-- EN: The remains of the back-mounted energy cannon of a massive, ancient exostrider mechanoid. -->
+  <AncientExostriderCannon.description>بقايا مدفع الطاقة المثبت على ظهر ميكانويد متجول خارجي ضخم وقديم.</AncientExostriderCannon.description>
+  
+  <!-- EN: ancient exostrider head -->
+  <AncientExostriderHead.label>رأس متجول خارجي قديم</AncientExostriderHead.label>
+  <!-- EN: The remains of the head of a massive, ancient exostrider mechanoid. It was blasted by some kind of high-energy weapon. -->
+  <AncientExostriderHead.description>بقايا رأس ميكانويد متجول خارجي ضخم وقديم. تم تفجيره بواسطة نوع من الأسلحة عالية الطاقة.</AncientExostriderHead.description>
+  
+  <!-- EN: ancient exostrider leg -->
+  <AncientExostriderLeg.label>ساق متجول خارجي قديم</AncientExostriderLeg.label>
+  <!-- EN: The remains of the leg of a massive, ancient exostrider mechanoid. -->
+  <AncientExostriderLeg.description>بقايا ساق ميكانويد متجول خارجي ضخم وقديم.</AncientExostriderLeg.description>
+  
+  <!-- EN: ancient exostrider midsection -->
+  <AncientExostriderRemains.label>قسم أوسط لمتجول خارجي قديم</AncientExostriderRemains.label>
+  <!-- EN: The remains of a massive, ancient exostrider war mechanoid. Long ago, some high-energy weapon shattered the body and fused the parts into an almost-solid mass.\n\nIn its guts, it looks like there is a still-functional transponder. If you could extract the transponder, you could decrypt it to gather valuable information.\n\nThe mech's incendiary weapon cells are intact but unstable, and will likely detonate after you do some damage. -->
+  <AncientExostriderRemains.description>بقايا ميكانويد حرب متجول خارجي ضخم وقديم. منذ زمن بعيد، حطم سلاح عالي الطاقة الجسم وصهر الأجزاء في كتلة شبه صلبة.\n\nفي أحشائه، يبدو أن هناك مرسالاً لا يزال يعمل. إذا تمكنت من استخراج المرسال، يمكنك فك تشفيره لجمع معلومات قيمة.\n\nخلايا السلاح الحارق للميكانويد سليمة لكنها غير مستقرة، ومن المحتمل أن تنفجر بعد إلحاق بعض الضرر به.</AncientExostriderRemains.description>
+  <!-- EN: Ancient mech -->
+  <AncientExostriderRemains.comps.CompProximityLetter.letterLabel>ميكانويد قديم</AncientExostriderRemains.comps.CompProximityLetter.letterLabel>
+  <!-- EN: Passing near the remains of an ancient exostrider mechanoid, {PAWN_nameDef} noticed an (*Reward)intact transponder(/Reward) inside.\n\nIf you could get the transponder, you could read valuable information from it. The massive mech is smashed and fused into a solid piece. You must destroy it to retrieve the transponder.\n\nBe careful - the incendiary weapon cells look (*Threat)unstable(/Threat) and will likely detonate after you do some damage. -->
+  <AncientExostriderRemains.comps.CompProximityLetter.letterText>أثناء المرور بالقرب من بقايا ميكانويد متجول خارجي قديم، لاحظ {PAWN_nameDef} وجود (*Reward)مرسال سليم(/Reward) بالداخل.\n\nإذا تمكنت من الحصول على المرسال، يمكنك قراءة معلومات قيمة منه. الميكانويد الضخم محطم ومصهور في قطعة صلبة. يجب عليك تدميره لاستعادة المرسال.\n\nكن حذراً - خلايا السلاح الحارق تبدو (*Threat)غير مستقرة(/Threat) ومن المحتمل أن تنفجر بعد إلحاق بعض الضرر به.</AncientExostriderRemains.comps.CompProximityLetter.letterText>
+  <!-- EN: Available: {LEAVINGS1_label} -->
+  <AncientExostriderRemains.comps.CompLeavingsLetter.letterLabel>متاح: {LEAVINGS1_label}</AncientExostriderRemains.comps.CompLeavingsLetter.letterLabel>
+  <!-- EN: A {LEAVINGS1_label} has been left behind after an explosion. It can be decrypted at a research bench.\n\nSelect a colonist and right-click it to decrypt it. -->
+  <AncientExostriderRemains.comps.CompLeavingsLetter.letterText>تم ترك {LEAVINGS1_label} بعد انفجار. يمكن فك تشفيره على طاولة البحث.\n\nاختر مستعمراً وانقر عليه بزر الفأرة الأيمن لفك تشفيره.</AncientExostriderRemains.comps.CompLeavingsLetter.letterText>
+  <!-- EN: Contains an ancient mechanoid transponder. -->
+  <AncientExostriderRemains.comps.CompInspectString.inspectString>يحتوي على مرسال ميكانويد قديم.</AncientExostriderRemains.comps.CompInspectString.inspectString>
+  
+</LanguageData>

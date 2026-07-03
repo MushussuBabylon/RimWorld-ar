@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Fishing -->
+  <!-- EN: do X times -->
+  <FishRepeatMode_RepeatCount>افعل X مرة</FishRepeatMode_RepeatCount>
+  <!-- EN: do until you have X -->
+  <FishRepeatMode_TargetCount>افعل حتى تحصل على X</FishRepeatMode_TargetCount>
+  <!-- EN: do forever -->
+  <FishRepeatMode_Forever>افعل إلى الأبد</FishRepeatMode_Forever>
+  <!-- EN: Fish population -->
+  <FishPopulation>تعداد السمك</FishPopulation>
+  <!-- EN: How many fish are in this body of water. Larger bodies of water have more fish and will recover fish populations faster. -->
+  <FishPopulationDesc>عدد الأسماك في هذا المسطح المائي. المسطحات المائية الأكبر تحتوي على أسماك أكثر وتستعيد تعداد السمك بشكل أسرع.</FishPopulationDesc>
+  <!-- EN: Minimum population -->
+  <MinimumPopulation>الحد الأدنى للتعداد</MinimumPopulation>
+  <!-- EN: Colonists won't fish if the fish population is under this limit. Fishing yields are lower if there are less than 300 fish. -->
+  <MinimumPopulationDesc>لن يصطاد المستعمرون إذا كان تعداد السمك أقل من هذا الحد. تكون غلة الصيد أقل إذا كان هناك أقل من 300 سمكة.</MinimumPopulationDesc>
+  <!-- EN: uncommon -->
+  <Uncommon>غير شائع</Uncommon>
+  <!-- EN: When toggled off, colonists will avoid catching this fish. -->
+  <ToggleFishAvoid>عند التعطيل، سيتجنب المستعمرون صيد هذه السمكة.</ToggleFishAvoid>
+  
+</LanguageData>

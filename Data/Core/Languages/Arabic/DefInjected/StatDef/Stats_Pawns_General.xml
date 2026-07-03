@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: animals learning factor -->
+  <AnimalsLearningFactor.label>عامل تعلم مهارة الحيوانات</AnimalsLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for animals skill. -->
+  <AnimalsLearningFactor.description>مضاعف على معدل تعلم مهارة الحيوانات.</AnimalsLearningFactor.description>
+  
+  <!-- EN: bed hunger rate multiplier -->
+  <BedHungerRateFactor.label>مضاعف معدل الجوع في السرير</BedHungerRateFactor.label>
+  
+  <!-- EN: caravan riding speed -->
+  <CaravanRidingSpeedFactor.label>سرعة ركوب القافلة</CaravanRidingSpeedFactor.label>
+  <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
+  <CaravanRidingSpeedFactor.description>المضاعف المطبق على سرعة حركة الشخص عندما يركب هذا الحيوان كجزء من قافلة. لا يمكن ركوب الحيوانات إلا في القوافل.</CaravanRidingSpeedFactor.description>
+  
+  <!-- EN: carrying capacity -->
+  <CarryingCapacity.label>سعة الحمل</CarryingCapacity.label>
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
+  <CarryingCapacity.description>كمية الأشياء التي يمكن لهذا المخلوق حملها في يديه، فمه، أو أدواته الأخرى.\n\nهذا منفصل عن القدرة على حمل البضائع في الرحلات الطويلة عبر العالم.</CarryingCapacity.description>
+  
+  <!-- EN: max comfortable temperature -->
+  <ComfyTemperatureMax.label>الحد الأقصى لدرجة الحرارة المريحة</ComfyTemperatureMax.label>
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
+  <ComfyTemperatureMax.description>فوق درجة الحرارة هذه، ستكون الشخصيات غير سعيدة.\n\nبشكل ملحوظ فوق درجة الحرارة هذه، سيعانون من ضربة شمس ويموتون في النهاية.</ComfyTemperatureMax.description>
+  
+  <!-- EN: min comfortable temperature -->
+  <ComfyTemperatureMin.label>الحد الأدنى لدرجة الحرارة المريحة</ComfyTemperatureMin.label>
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <ComfyTemperatureMin.description>تحت درجة الحرارة هذه، ستكون الشخصيات غير سعيدة.\n\nبشكل ملحوظ تحت درجة الحرارة هذه، سيعانون من انخفاض حرارة الجسم وقضمة الصقيع ويموتون في النهاية.</ComfyTemperatureMin.description>
+  
+  <!-- EN: crawl speed -->
+  <CrawlSpeed.label>سرعة الزحف</CrawlSpeed.label>
+  <!-- EN: Speed of crawling in cells per second. -->
+  <CrawlSpeed.description>سرعة الزحف في خلايا في الثانية.</CrawlSpeed.description>
+  <!-- EN: {0} c/s -->
+  <CrawlSpeed.formatString>{0} خ/ث</CrawlSpeed.formatString>
+  
+  <!-- EN: eating speed -->
+  <EatingSpeed.label>سرعة الأكل</EatingSpeed.label>
+  <!-- EN: A multiplier on eating speed. -->
+  <EatingSpeed.description>مضاعف على سرعة الأكل.</EatingSpeed.description>
+  
+  <!-- EN: EMP resistance -->
+  <EMPResistance.label>مقاومة النبضات الكهرومغناطيسية</EMPResistance.label>
+  <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
+  <EMPResistance.description>هذا الميكانويد لديه دروع خاصة وخيوط تبديد الصدمات تقلل تأثير ضرر النبضات الكهرومغناطيسية بهذه النسبة. هذا يقلل مدة الصعق الناتجة عن النبضات الكهرومغناطيسية.</EMPResistance.description>
+  
+  <!-- EN: filth rate -->
+  <FilthRate.label>معدل الأوساخ</FilthRate.label>
+  <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
+  <FilthRate.description>كمية الأوساخ التي ينتجها هذا المخلوق.\n\nمن الأفضل إبقاء الحيوانات التي تنتج الأوساخ في الهواء الطلق أو على حصائر القش حيث لن تشكل أوساخها مشكلة.</FilthRate.description>
+  
+  <!-- EN: flight cooldown -->
+  <FlightCooldown.label>مهلة الطيران</FlightCooldown.label>
+  <!-- EN: The rest time needed before this creature can fly again. -->
+  <FlightCooldown.description>وقت الراحة اللازم قبل أن يتمكن هذا المخلوق من الطيران مرة أخرى.</FlightCooldown.description>
+  <!-- EN: {0}s -->
+  <FlightCooldown.formatString>{0} ث</FlightCooldown.formatString>
+  
+  <!-- EN: foraged food amount -->
+  <ForagedNutritionPerDay.label>كمية الطعام المقتات</ForagedNutritionPerDay.label>
+  <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
+  <ForagedNutritionPerDay.description>كمية القيمة الغذائية التي سيقوم هذا الشخص باقتياتها تلقائيًا يوميًا أثناء السفر بالقافلة.</ForagedNutritionPerDay.description>
+  
+  <!-- EN: global learning factor -->
+  <GlobalLearningFactor.label>عامل التعلم العالمي</GlobalLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for all skills. -->
+  <GlobalLearningFactor.description>مضاعف على معدل التعلم لجميع المهارات.</GlobalLearningFactor.description>
+  
+  <!-- EN: immunity gain speed -->
+  <ImmunityGainSpeed.label>سرعة اكتساب المناعة</ImmunityGainSpeed.label>
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
+  <ImmunityGainSpeed.description>السرعة التي تكتسب بها هذه الشخصية مناعة ضد الأمراض.\n\nإذا كانت بطيئة جدًا، ستموت الشخصية من المرض قبل تطوير المناعة.</ImmunityGainSpeed.description>
+  
+  <!-- EN: injury healing factor -->
+  <InjuryHealingFactor.label>عامل شفاء الإصابات</InjuryHealingFactor.label>
+  <!-- EN: The multiplier applied to a person's injury healing rate. -->
+  <InjuryHealingFactor.description>المضاعف المطبق على معدل شفاء إصابات الشخص.</InjuryHealingFactor.description>
+  
+  <!-- EN: recreation fall rate -->
+  <JoyFallRateFactor.label>معدل انخفاض التسلية</JoyFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's recreation need falls. -->
+  <JoyFallRateFactor.description>مضاعف على السرعة التي تنخفض بها حاجة الشخص للتسلية.</JoyFallRateFactor.description>
+  
+  <!-- EN: leather amount -->
+  <LeatherAmount.label>كمية الجلود</LeatherAmount.label>
+  <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
+  <LeatherAmount.description>كمية الجلود الناتجة عند ذبح هذا المخلوق. تقل هذه القيمة إذا لم يتم ذبح المخلوق بشكل نظيف، أو إذا كان مصابًا عند القتل.</LeatherAmount.description>
+  
+  <!-- EN: lifespan factor -->
+  <LifespanFactor.label>عامل العمر الافتراضي</LifespanFactor.label>
+  <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
+  <LifespanFactor.description>عامل العمر الافتراضي يغير العمر الافتراضي الفعال لمخلوق بتقصير أو إطالة الوقت حتى يصاب بأمراض مرتبطة بالعمر. عامل العمر الافتراضي الذي يزيد عن 100% يؤخر ظهور المرض ويزيد العمر الافتراضي الإجمالي، بينما عامل العمر الافتراضي الذي يقل عن 100% يسرع ظهور المرض ويقلل العمر الافتراضي.</LifespanFactor.description>
+  
+  <!-- EN: max flight time -->
+  <MaxFlightTime.label>الحد الأقصى لوقت الطيران</MaxFlightTime.label>
+  <!-- EN: The maximum amount of time this creature can stay in flight before landing. -->
+  <MaxFlightTime.description>الحد الأقصى للوقت الذي يمكن لهذا المخلوق البقاء فيه في الطيران قبل الهبوط.</MaxFlightTime.description>
+  <!-- EN: {0}s -->
+  <MaxFlightTime.formatString>{0} ث</MaxFlightTime.formatString>
+  
+  <!-- EN: max nutrition -->
+  <MaxNutrition.label>الحد الأقصى للقيمة الغذائية</MaxNutrition.label>
+  <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
+  <MaxNutrition.description>كمية القيمة الغذائية اللازمة لملء معدة هذا المخلوق بالكامل.</MaxNutrition.description>
+  
+  <!-- EN: meat amount -->
+  <MeatAmount.label>كمية اللحوم</MeatAmount.label>
+  <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
+  <MeatAmount.description>كمية اللحوم الناتجة عند ذبح هذا المخلوق. تقل هذه القيمة إذا لم يتم ذبح المخلوق بشكل نظيف، أو إذا كان مصابًا عند القتل.</MeatAmount.description>
+  
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>كسب التركيز النفسي بالتأمل</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>كمية التركيز النفسي التي يكتسبها الشخص يوميًا من التأمل، متجاهلاً المكافآت من أشياء التركيز.</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0} / يوم</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0} / يوم</MeditationFocusGain.formatStringUnfinalized>
+  
+  <!-- EN: mental break threshold -->
+  <MentalBreakThreshold.label>عتبة الانهيار العقلي</MentalBreakThreshold.label>
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
+  <MentalBreakThreshold.description>طالما أن مزاج شخص ما أقل من هذا المستوى، فهو في خطر الانهيار العقلي.\n\nستعتمد شدة الانهيار العقلي على مدى انخفاضهم عن الحد الأدنى.</MentalBreakThreshold.description>
+  
+  <!-- EN: minimum handling skill -->
+  <MinimumHandlingSkill.label>الحد الأدنى لمهارة التعامل</MinimumHandlingSkill.label>
+  <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
+  <MinimumHandlingSkill.description>لا يمكن ترويض هذا المخلوق أو تدريبه أو أمره من قبل أي شخص لديه مهارة حيوانات أقل من هذه.</MinimumHandlingSkill.description>
+  
+  <!-- EN: move speed -->
+  <MoveSpeed.label>سرعة الحركة</MoveSpeed.label>
+  <!-- EN: Speed of movement in cells per second. -->
+  <MoveSpeed.description>سرعة الحركة في خلايا في الثانية.</MoveSpeed.description>
+  <!-- EN: {0} c/s -->
+  <MoveSpeed.formatString>{0} خ/ث</MoveSpeed.formatString>
+  
+  <!-- EN: pain shock threshold -->
+  <PainShockThreshold.label>عتبة صدمة الألم</PainShockThreshold.label>
+  <!-- EN: The pain level at which this creature is downed from pain. -->
+  <PainShockThreshold.description>مستوى الألم الذي يسقط عنده هذا المخلوق بسبب الألم.</PainShockThreshold.description>
+  
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>حد الحرارة العصبية</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>الحد الأقصى من الحرارة العصبية الذي يمكن للفرد تحمله بأمان.</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>معدل استرداد الحرارة العصبية</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>المعدل الذي يقلل به هذا الشخص الحرارة العصبية.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/ث</PsychicEntropyRecoveryRate.formatString>
+  
+  <!-- EN: psychic sensitivity -->
+  <PsychicSensitivity.label>الحساسية النفسية</PsychicSensitivity.label>
+  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
+  <PsychicSensitivity.description>الناس الأكثر حساسية يعانون أكثر من التأثيرات النفسية السلبية، ويستفيدون أكثر من الإيجابية. الحساسية النفسية الأعلى تزيد أيضًا من حد الحرارة العصبية.</PsychicSensitivity.description>
+  
+  <!-- EN: sleep fall rate -->
+  <RestFallRateFactor.label>معدل انخفاض النوم</RestFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
+  <RestFallRateFactor.description>مضاعف على السرعة التي تنخفض بها حاجة الشخص للنوم.</RestFallRateFactor.description>
+  
+  <!-- EN: rest rate multiplier -->
+  <RestRateMultiplier.label>مضاعف معدل الراحة</RestRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
+  <RestRateMultiplier.description>مضاعف على مدى سرعة راحة المخلوق أثناء النوم.</RestRateMultiplier.description>
+  
+  <!-- EN: toxic environment resistance -->
+  <ToxicEnvironmentResistance.label>مقاومة البيئة السامة</ToxicEnvironmentResistance.label>
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
+  <ToxicEnvironmentResistance.description>مدى مقاومة هذا المخلوق لتأثيرات السموم البيئية. يحمي هذا ضد الغاز السام، رائحة العفن، السقوط السام، والتضاريس الملوثة، ولكن ليس ضد الهجمات المباشرة بالسم أو الحقن. عندما تكون هذه القيمة أعلى، فإن التعرض للتلوث ينتج تراكمًا سامًا أقل نسبيًا في الجسم.</ToxicEnvironmentResistance.description>
+  
+  <!-- EN: toxic resistance -->
+  <ToxicResistance.label>مقاومة السموم</ToxicResistance.label>
+  <!-- EN: How well this creature resists toxic buildup. -->
+  <ToxicResistance.description>مدى جودة مقاومة هذا المخلوق للتراكم السام.</ToxicResistance.description>
+  
+  <!-- EN: wildness -->
+  <Wildness.label>البرية</Wildness.label>
+  <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
+  <Wildness.description>المخلوقات الأكثر برية بطبيعتها أكثر صعوبة في الترويض والتدريب والتعامل.</Wildness.description>
+  
+</LanguageData>

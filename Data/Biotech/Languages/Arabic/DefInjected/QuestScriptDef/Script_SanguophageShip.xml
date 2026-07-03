@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>sanguophageShuttleCrashedLetterLabel->Crashed shuttle</li>
+    <li>sanguophageShuttleCrashedLetterText->A shuttle containing a sanguophage master and [thrallCount] thralls has crashed nearby. They will exit the crashed craft and prepare to fight.</li>
+    <li>reinforcementsArrivedLetterLabel->Thrall reinforcements</li>
+    <li>reinforcementsArrivedLetterText->Thralls are arriving in drop pods to reinforce the crashed sanguophage.</li>
+    <li>assaultBeginLetterLabel->Assault begun</li>
+    <li>assaultBeginLetterText->The hostile sanguophage master and [sanguophage_possessive] thralls have initiated an assault on the colony!</li>
+  -->
+  <SanguophageShip.questContentRules.rulesStrings>
+    <li>sanguophageShuttleCrashedLetterLabel->مكوك محطم</li>
+    <li>sanguophageShuttleCrashedLetterText->تحطم مكوك يحتوي على سيد سانغوفاج و [thrallCount] من الأتباع في مكان قريب. سيخرجون من المركبة المحطمة ويستعدون للقتال.</li>
+    <li>reinforcementsArrivedLetterLabel->تعزيزات الأتباع</li>
+    <li>reinforcementsArrivedLetterText->يصل الأتباع في كبسولات إنزال لتعزيز السانغوفاج المحطم.</li>
+    <li>assaultBeginLetterLabel->بدأ الهجوم</li>
+    <li>assaultBeginLetterText->لقد بدأ سيد السانغوفاج المعادي وأتباعه [sanguophage_possessive] هجومًا على المستعمرة!</li>
+ </SanguophageShip.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->You have intercepted a distress signal! A hostile shuttle carrying a sanguophage master and [thrallCount] thralls is having trouble with its engines. You can use signals to draw it down to a crash near [map_definite].\n\nOnce the ship has crashed, you can fight the sanguophage and [sanguophage_possessive] minions. If you can capture the master, you can force [sanguophage_objective] to turn one of your colonists into a sanguophage.\n\n[sanguophageInfo]</li>
+    <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
+  -->
+  <SanguophageShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->لقد اعترضت إشارة استغاثة! مكوك معادٍ يحمل سيد سانغوفاج و [thrallCount] من الأتباع يعاني من مشكلة في محركاته. يمكنك استخدام الإشارات لإجباره على الهبوط الاضطراري بالقرب من [map_definite].\n\nبمجرد أن تتحطم السفينة، يمكنك قتال السانغوفاج وأتباعه [sanguophage_possessive]. إذا تمكنت من أسر السيد، يمكنك إجباره [sanguophage_objective] على تحويل أحد المستعمرين لديك إلى سانغوفاج.\n\n[sanguophageInfo]</li>
+    <li>sanguophageInfo->(*رمادي)حول السانغوفاج: السانغوفاج هم بشر خارقون لا يشيخون ولا يموتون مدعومون بأركيتات من صنع الأركوتك في مجرى الدم. إنهم جميلون وأذكياء للغاية. يمكنهم شفاء أي إصابة، ولا يعانون أبدًا من الأمراض أو السموم. في القتال، يمكنهم إطلاق أشواك مميتة وشفاء الأصدقاء المصابين. الثمن هو أن السانغوفاج يجب أن يستهلكوا الهيموجين المستخرج من الدم البشري للبقاء على قيد الحياة، ويجب عليهم بشكل دوري الدخول في سبات موتي لفترات طويلة. يتم تدميرهم بسهولة بالنار، ويبطئهم الضوء فوق البنفسجي.(/رمادي)</li>
+ </SanguophageShip.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective->sanguophage</li>
+    <li>shipAdjective->bloodthirsty</li>
+    <li>shipAdjective->blood</li>
+    <li>shipAdjective->shadow</li>
+    <li>shipAdjective->dark</li>
+    <li>shipAdjective->crimson</li>
+    <li>shipAdjective->red</li>
+    <li>shipAdjective->scab</li>
+    <li>shipAdjective->hemic</li>
+    <li>shipAdjective->sanguine</li>
+    <li>shipNoun->ship</li>
+    <li>shipNoun->shuttle</li>
+    <li>shipNoun->craft</li>
+    <li>shipNoun->hulk</li>
+    <li>shipNoun->crash</li>
+    <li>shipNoun->wreck</li>
+  -->
+  <SanguophageShip.questNameRules.rulesStrings>
+    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective->سانغوفاج</li>
+    <li>shipAdjective->متعطش للدماء</li>
+    <li>shipAdjective->دم</li>
+    <li>shipAdjective->ظل</li>
+    <li>shipAdjective->مظلم</li>
+    <li>shipAdjective->قرمزي</li>
+    <li>shipAdjective->أحمر</li>
+    <li>shipAdjective->جرب</li>
+    <li>shipAdjective->دموي</li>
+    <li>shipAdjective->دموي</li>
+    <li>shipNoun->سفينة</li>
+    <li>shipNoun->مكوك</li>
+    <li>shipNoun->مركبة</li>
+    <li>shipNoun->هيكل</li>
+    <li>shipNoun->تحطم</li>
+    <li>shipNoun->حطام</li>
+ </SanguophageShip.questNameRules.rulesStrings>
+  
+</LanguageData>

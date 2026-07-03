@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: botched my surgery -->
+  <BotchedMySurgery.stages.botched_my_surgery.label>أفسد عمليتي الجراحية</BotchedMySurgery.stages.botched_my_surgery.label>
+  <BotchedMySurgery.stages.botched_my_surgery.labelSocial>أجرى لي عملية جراحية بشكل سيء</BotchedMySurgery.stages.botched_my_surgery.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: broke up with me -->
+  <BrokeUpWithMe.stages.broke_up_with_me.label>انفصل عني</BrokeUpWithMe.stages.broke_up_with_me.label>
+  <BrokeUpWithMe.stages.broke_up_with_me.labelSocial>{1_gender ? تركني : تركتني}</BrokeUpWithMe.stages.broke_up_with_me.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: broken up with by {0} -->
+  <BrokeUpWithMeMood.stages.broken_up_with_by.label>انفصل عني {0}</BrokeUpWithMeMood.stages.broken_up_with_by.label>
+  <!-- EN: I was just dumped like a load of garbage. -->
+  <BrokeUpWithMeMood.stages.broken_up_with_by.description>لقد تم التخلي عني للتو مثل حمولة قمامة.</BrokeUpWithMeMood.stages.broken_up_with_by.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: cheated on me -->
+  <CheatedOnMe.stages.cheated_on_me.label>خانني</CheatedOnMe.stages.cheated_on_me.label>
+  <CheatedOnMe.stages.cheated_on_me.labelSocial>{OTHERPAWN_gender ? خانني : خانتني}</CheatedOnMe.stages.cheated_on_me.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: cheated on by {0} -->
+  <CheatedOnMeMood.stages.cheated_on_by.label>خانني {0}</CheatedOnMeMood.stages.cheated_on_by.label>
+  <!-- EN: How could someone cheat on me! -->
+  <CheatedOnMeMood.stages.cheated_on_by.description>كيف يمكن لشخص أن يخونني!</CheatedOnMeMood.stages.cheated_on_by.description>
+  
+  <!-- Thought_MemorySocialCumulative, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: chitchat -->
+  <Chitchat.stages.chitchat.label>دردشة</Chitchat.stages.chitchat.label>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: crashed together -->
+  <CrashedTogether.stages.crashed_together.label>تحطمنا معاً</CrashedTogether.stages.crashed_together.label>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: deep talk -->
+  <DeepTalk.stages.deep_talk.label>حديث عميق</DeepTalk.stages.deep_talk.label>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: divorced me -->
+  <DivorcedMe.stages.divorced_me.label>طلقني</DivorcedMe.stages.divorced_me.label>
+  <DivorcedMe.stages.divorced_me.labelSocial>{OTHERPAWN_gender ? طلقني : طلقتني}</DivorcedMe.stages.divorced_me.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: divorced by {0} -->
+  <DivorcedMeMood.stages.divorced_by.label>طلقني {0}</DivorcedMeMood.stages.divorced_by.label>
+  <!-- EN: We made a commitment, and they just tore it apart. -->
+  <DivorcedMeMood.stages.divorced_by.description>لقد قطعنا عهداً، وهم ببساطة مزقوه.</DivorcedMeMood.stages.divorced_by.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: failed to romance me -->
+  <FailedRomanceAttemptOnMe.stages.failed_to_romance_me.label>فشل في مغازلتي</FailedRomanceAttemptOnMe.stages.failed_to_romance_me.label>
+  <FailedRomanceAttemptOnMe.stages.failed_to_romance_me.labelSocial>{OTHERPAWN_gender ? حاول مغازلتي : حاولت مغازلتي}</FailedRomanceAttemptOnMe.stages.failed_to_romance_me.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: had to rebuff {0} -->
+  <FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>اضطررت لصد {0}</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.label>
+  <!-- EN: Someone I don't like tried to romance me. -->
+  <FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>شخص لا أحبه حاول مغازلتي.</FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: forced me to take drugs -->
+  <ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>أجبرني على تعاطي المخدرات</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>
+  <ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>{1_gender ? حقنني : حقنتني} بالمخدرات</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: forced to take drugs -->
+  <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>أُجبرت على تعاطي المخدرات</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>
+  <!-- EN: I'm a teetotaler; I would never take drugs by choice. But I was forced! I feel unclean. -->
+  <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>أنا ممتنع عن المخدرات؛ لن أتعاطاها طواعية أبداً. لكني أُجبرت! أشعر بأني غير نظيف.</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: forced me to take luciferium -->
+  <ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.label>أجبرني على تعاطي اللوسيفيريوم</ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.label>
+  <ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.labelSocial>{OTHERPAWN_gender ? حقنني : حقنتني} باللوسيفيريوم</ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: forced to take luciferium -->
+  <ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.label>أُجبرت على تعاطي اللوسيفيريوم</ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.label>
+  <!-- EN: I'm a body purist; I would never take luciferium by choice. But I was forced! I feel unclean. -->
+  <ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.description>أنا من دعاة نقاء الجسد؛ لن أتعاطى اللوسيفيريوم طواعية أبداً. لكني أُجبرت! أشعر بأني غير نظيف.</ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: got some lovin' -->
+  <GotSomeLovin.stages.got_some_lovin.label>حصلت على بعض الحب</GotSomeLovin.stages.got_some_lovin.label>
+  <!-- EN: There's nothing like a tumble between the sheets to lift the mood. -->
+  <GotSomeLovin.stages.got_some_lovin.description>لا شيء يضاهي التقلب بين الأغطية لرفع المعنويات.</GotSomeLovin.stages.got_some_lovin.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: angering fight -->
+  <HadAngeringFight.stages.angering_fight.label>شجار مغضب</HadAngeringFight.stages.angering_fight.label>
+  <HadAngeringFight.stages.angering_fight.labelSocial>{OTHERPAWN_gender ? تشاجر : تشاجرت} معي</HadAngeringFight.stages.angering_fight.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: cathartic fight -->
+  <HadCatharticFight.stages.cathartic_fight.label>شجار تطهيري</HadCatharticFight.stages.cathartic_fight.label>
+  <HadCatharticFight.stages.cathartic_fight.labelSocial>تصالح معي بعد شجار</HadCatharticFight.stages.cathartic_fight.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: harmed me -->
+  <HarmedMe.stages.harmed_me.label>آذاني</HarmedMe.stages.harmed_me.label>
+  <HarmedMe.stages.harmed_me.labelSocial>{OTHERPAWN_gender ? تسبب : تسببت} لي بالأذى</HarmedMe.stages.harmed_me.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: honeymoon phase -->
+  <HoneymoonPhase.stages.honeymoon_phase.label>مرحلة شهر العسل</HoneymoonPhase.stages.honeymoon_phase.label>
+  <HoneymoonPhase.stages.honeymoon_phase.description>كم هو رائع أن نبدأ حياة جديدة معاً!</HoneymoonPhase.stages.honeymoon_phase.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: insulted -->
+  <Insulted.stages.insulted.label>أُهين</Insulted.stages.insulted.label>
+  <Insulted.stages.insulted.labelSocial>{OTHERPAWN_gender ? أهانني : أهانتني}</Insulted.stages.insulted.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: insulted -->
+  <InsultedMood.stages.insulted.label>أُهين</InsultedMood.stages.insulted.label>
+  <!-- EN: I've been directly insulted! What an awful person! -->
+  <InsultedMood.stages.insulted.description>لقد تعرضت لإهانة مباشرة! يا له من شخص مروع!</InsultedMood.stages.insulted.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: I rejected their proposal -->
+  <IRejectedTheirProposal.stages.I_rejected_their_proposal.label>رفضت عرضهم</IRejectedTheirProposal.stages.I_rejected_their_proposal.label>
+  <IRejectedTheirProposal.stages.I_rejected_their_proposal.labelSocial>{OTHERPAWN_gender ? قدم : قدمت} عرضاً غير مقبول</IRejectedTheirProposal.stages.I_rejected_their_proposal.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my bonded animal -->
+  <KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>قتل حيواني المرتبط</KilledMyBondedAnimal.stages.killed_my_bonded_animal.label>
+  <KilledMyBondedAnimal.stages.killed_my_bonded_animal.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} حيواني المرتبط</KilledMyBondedAnimal.stages.killed_my_bonded_animal.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my brother -->
+  <KilledMyBrother.stages.killed_my_brother.label>قتل أخي</KilledMyBrother.stages.killed_my_brother.label>
+  <KilledMyBrother.stages.killed_my_brother.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} أخي</KilledMyBrother.stages.killed_my_brother.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my daughter -->
+  <KilledMyDaughter.stages.killed_my_daughter.label>قتل ابنتي</KilledMyDaughter.stages.killed_my_daughter.label>
+  <KilledMyDaughter.stages.killed_my_daughter.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} ابنتي</KilledMyDaughter.stages.killed_my_daughter.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my father -->
+  <KilledMyFather.stages.killed_my_father.label>قتل والدي</KilledMyFather.stages.killed_my_father.label>
+  <KilledMyFather.stages.killed_my_father.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} والدي</KilledMyFather.stages.killed_my_father.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my fiance -->
+  <KilledMyFiance.stages.killed_my_fiance.label>قتل خطيبي</KilledMyFiance.stages.killed_my_fiance.label>
+  <KilledMyFiance.stages.killed_my_fiance.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} خطيبي</KilledMyFiance.stages.killed_my_fiance.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my friend -->
+  <KilledMyFriend.stages.killed_my_friend.label>قتل صديقي</KilledMyFriend.stages.killed_my_friend.label>
+  <KilledMyFriend.stages.killed_my_friend.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} صديقي</KilledMyFriend.stages.killed_my_friend.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my kin -->
+  <KilledMyKin.stages.killed_my_kin.label>قتل قريبي</KilledMyKin.stages.killed_my_kin.label>
+  <KilledMyKin.stages.killed_my_kin.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} قريبي</KilledMyKin.stages.killed_my_kin.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my lover -->
+  <KilledMyLover.stages.killed_my_lover.label>قتل حبيبي</KilledMyLover.stages.killed_my_lover.label>
+  <KilledMyLover.stages.killed_my_lover.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} حبيبي</KilledMyLover.stages.killed_my_lover.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my mother -->
+  <KilledMyMother.stages.killed_my_mother.label>قتل أمي</KilledMyMother.stages.killed_my_mother.label>
+  <KilledMyMother.stages.killed_my_mother.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} أمي</KilledMyMother.stages.killed_my_mother.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my rival -->
+  <KilledMyRival.stages.killed_my_rival.label>قتل منافسي</KilledMyRival.stages.killed_my_rival.label>
+  <KilledMyRival.stages.killed_my_rival.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} منافسي</KilledMyRival.stages.killed_my_rival.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my sister -->
+  <KilledMySister.stages.killed_my_sister.label>قتل أختي</KilledMySister.stages.killed_my_sister.label>
+  <KilledMySister.stages.killed_my_sister.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} أختي</KilledMySister.stages.killed_my_sister.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my son -->
+  <KilledMySon.stages.killed_my_son.label>قتل ابني</KilledMySon.stages.killed_my_son.label>
+  <KilledMySon.stages.killed_my_son.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} ابني</KilledMySon.stages.killed_my_son.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: killed my spouse -->
+  <KilledMySpouse.stages.killed_my_spouse.label>قتل زوجي</KilledMySpouse.stages.killed_my_spouse.label>
+  <KilledMySpouse.stages.killed_my_spouse.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} زوجي</KilledMySpouse.stages.killed_my_spouse.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: kind words -->
+  <KindWords.stages.kind_words.label>كلمات لطيفة</KindWords.stages.kind_words.label>
+  <KindWords.stages.kind_words.labelSocial>{OTHERPAWN_gender ? دعمني : دعمتني}</KindWords.stages.kind_words.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: kind words -->
+  <KindWordsMood.stages.kind_words.label>كلمات لطيفة</KindWordsMood.stages.kind_words.label>
+  <!-- EN: I've been bestowed with kind words! What a nice person! -->
+  <KindWordsMood.stages.kind_words.description>لقد أُغدقت بكلمات لطيفة! يا له من شخص لطيف!</KindWordsMood.stages.kind_words.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: rapport built -->
+  <RapportBuilt.stages.rapport_built.label>بُني تفاهم</RapportBuilt.stages.rapport_built.label>
+  <RapportBuilt.stages.rapport_built.labelSocial>{OTHERPAWN_gender ? كان يبني : كانت تبني} تفاهماً</RapportBuilt.stages.rapport_built.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: rebuffed me -->
+  <RebuffedMyRomanceAttempt.stages.rebuffed_me.label>رفضني</RebuffedMyRomanceAttempt.stages.rebuffed_me.label>
+  <RebuffedMyRomanceAttempt.stages.rebuffed_me.labelSocial>{OTHERPAWN_gender ? رفضني : رفضتني}</RebuffedMyRomanceAttempt.stages.rebuffed_me.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: rebuffed by {0} -->
+  <RebuffedMyRomanceAttemptMood.stages.rebuffed_by.label>رفضني {0}</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.label>
+  <!-- EN: I attempted to create a romance, but I got the cold shoulder. Feels bad man. -->
+  <RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>حاولت بدء علاقة عاطفية، لكني تلقيت تجاهلاً. شعور سيء.</RebuffedMyRomanceAttemptMood.stages.rebuffed_by.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: recruited me -->
+  <RecruitedMe.stages.recruited_me.label>جندني</RecruitedMe.stages.recruited_me.label>
+  <RecruitedMe.stages.recruited_me.labelSocial>{OTHERPAWN_gender ? دعاني : دعتني} للانضمام</RecruitedMe.stages.recruited_me.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: rejected my proposal -->
+  <RejectedMyProposal.stages.rejected_my_proposal.label>رفض عرضي</RejectedMyProposal.stages.rejected_my_proposal.label>
+  <RejectedMyProposal.stages.rejected_my_proposal.labelSocial>{OTHERPAWN_gender ? رفض : رفضت} عرضي</RejectedMyProposal.stages.rejected_my_proposal.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: my proposal was rejected by {0} -->
+  <RejectedMyProposalMood.stages.my_proposal_was_rejected_by.label>عرضي رُفض من {0}</RejectedMyProposalMood.stages.my_proposal_was_rejected_by.label>
+  <!-- EN: I thought we were meant to marry. But I was just shot down. -->
+  <RejectedMyProposalMood.stages.my_proposal_was_rejected_by.description>اعتقدت أننا كُنا سنتزوج. لكني رُفضت فجأة.</RejectedMyProposalMood.stages.my_proposal_was_rejected_by.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: rescued me -->
+  <RescuedMe.stages.rescued_me.label>أنقذني</RescuedMe.stages.rescued_me.label>
+  <RescuedMe.stages.rescued_me.labelSocial>{OTHERPAWN_gender ? أنقذني : أنقذتني}</RescuedMe.stages.rescued_me.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: rescued me -->
+  <RescuedMeByOfferingHelp.stages.rescued_me.label>أنقذني</RescuedMeByOfferingHelp.stages.rescued_me.label>
+  <!-- EN: I was rescued by someone! I almost thought I was done for back there. I'm so thankful. -->
+  <RescuedMeByOfferingHelp.stages.rescued_me.description>لقد تم إنقاذي بواسطة شخص! كدت أعتقد أن النهاية قد حانت هناك. أنا ممتن جداً.</RescuedMeByOfferingHelp.stages.rescued_me.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: slighted -->
+  <Slighted.stages.slighted.label>أُهين</Slighted.stages.slighted.label>
+  <Slighted.stages.slighted.labelSocial>{OTHERPAWN_gender ? تجاهلني : تجاهلتني}</Slighted.stages.slighted.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: bonded animal given away -->
+  <SoldMyBondedAnimal.stages.bonded_animal_given_away.label>تم التخلي عن حيواني المرتبط</SoldMyBondedAnimal.stages.bonded_animal_given_away.label>
+  <!-- EN: My special bonded animal was given away! -->
+  <SoldMyBondedAnimal.stages.bonded_animal_given_away.description>لقد تم التخلي عن حيواني المرتبط المميز!</SoldMyBondedAnimal.stages.bonded_animal_given_away.description>
+  <!-- EN: gave away my bonded animal -->
+  <SoldMyBondedAnimal.stages.bonded_animal_given_away.labelSocial>تخلى عن حيواني المرتبط</SoldMyBondedAnimal.stages.bonded_animal_given_away.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN}. For TransportPodsArrivalAction_GiveGift -->
+  <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}. For other cases -->
+  <!-- EN: bonded animal given away -->
+  <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.label>تم التخلي عن حيواني المرتبط</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.label>
+  <!-- EN: My special bonded animal was given away! -->
+  <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.description>لقد تم التخلي عن حيواني المرتبط المميز!</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.description>
+  <!-- EN: gave away my bonded animal -->
+  <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.labelSocial>تخلى عن حيواني المرتبط</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
+  <!-- EN: loved one sold -->
+  <SoldMyLovedOne.stages.loved_one_sold.label>بيع شخص عزيز</SoldMyLovedOne.stages.loved_one_sold.label>
+  <!-- EN: Someone I love was sold to a trader like a piece of meat! -->
+  <SoldMyLovedOne.stages.loved_one_sold.description>شخص أحبه تم بيعه لتاجر مثل قطعة لحم!</SoldMyLovedOne.stages.loved_one_sold.description>
+  <!-- EN: sold my loved one -->
+  <SoldMyLovedOne.stages.loved_one_sold.labelSocial>باع شخصاً عزيزاً عليّ</SoldMyLovedOne.stages.loved_one_sold.labelSocial>
+  
+</LanguageData>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cleaning time multiplier -->
+  <CleaningTimeFactor.label>مضاعف وقت التنظيف</CleaningTimeFactor.label>
+  <!-- EN: A multiplier on how long it takes to clean filth from this surface. -->
+  <CleaningTimeFactor.description>مضاعف على المدة التي يستغرقها تنظيف القذارة من هذا السطح.</CleaningTimeFactor.description>
+  
+  <!-- EN: construction speed -->
+  <ConstructionSpeedFactor.label>سرعة البناء</ConstructionSpeedFactor.label>
+  <!-- EN: The speed at which buildings made of this are constructed is multiplied by this value.\n\nSome materials, like stone, are slow to build from, while others, like wood, are fast. -->
+  <ConstructionSpeedFactor.description>السرعة التي تُبنى بها المباني المكونة من هذا تُضرب بهذه القيمة.\n\nبعض المواد، مثل الحجر، بطيئة البناء منها، بينما الأخرى، مثل الخشب، سريعة.</ConstructionSpeedFactor.description>
+  <!-- EN: construction speed (material factor) -->
+  <ConstructionSpeedFactor.labelForFullStatList>سرعة البناء (عامل المادة)</ConstructionSpeedFactor.labelForFullStatList>
+  
+  <!-- EN: filth multiplier -->
+  <FilthMultiplier.label>مضاعف القذارة</FilthMultiplier.label>
+  <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. This only applies to organic filth. -->
+  <FilthMultiplier.description>مدى قابلية هذا السطح للقذارة. إذا كان هذا أقل من 100%، فإن بعض القذارة المترسبة هنا ستختفي عند التلامس. هذا ينطبق فقط على القذارة العضوية.</FilthMultiplier.description>
+  
+  <!-- EN: medical potency -->
+  <MedicalPotency.label>الفعالية الطبية</MedicalPotency.label>
+  <!-- EN: How effective this is when used to tend wounds and diseases, or do surgery.\n\nHigher medical potency improves the quality of tending, and acts as a multiplier on the chance of success during surgery.\nMedical potency is just one factor in medical outcomes, among many others, including doctor ability, equipment, cleanliness, and luck. -->
+  <MedicalPotency.description>مدى فعالية هذا عند استخدامه لعلاج الجروح والأمراض، أو إجراء الجراحة.\n\nالفعالية الطبية الأعلى تحسن جودة العلاج، وتعمل كمضاعف على فرصة النجاح أثناء الجراحة.\nالفعالية الطبية هي مجرد عامل واحد في النتائج الطبية، من بين عوامل أخرى كثيرة، بما في ذلك قدرة الطبيب، المعدات، النظافة، والحظ.</MedicalPotency.description>
+  
+  <!-- EN: medical tend quality maximum -->
+  <MedicalQualityMax.label>الجودة القصوى للعلاج الطبي</MedicalQualityMax.label>
+  <!-- EN: The maximum quality of medical tending that can be achieved while using this.\n\nBetter tend quality allows skilled doctors to treat wounds better, as well as more reliably. -->
+  <MedicalQualityMax.description>الجودة القصوى للعلاج الطبي التي يمكن تحقيقها أثناء استخدام هذا.\n\nجودة علاج أفضل تسمح للأطباء المهرة بعلاج الجروح بشكل أفضل، وأكثر موثوقية.</MedicalQualityMax.description>
+  
+  <!-- EN: meditation psyfocus bonus -->
+  <MeditationFocusStrength.label>مكافأة التركيز النفسي للتأمل</MeditationFocusStrength.label>
+  <!-- EN: The amount of extra psyfocus someone gains by focusing on this object during meditation, in addition to their own base rate of meditation psyfocus gain.\n\nFor some objects, this number can change depending on the surroundings and the person doing the meditating. -->
+  <MeditationFocusStrength.description>مقدار التركيز النفسي الإضافي الذي يكتسبه شخص ما بالتركيز على هذا الشيء أثناء التأمل، بالإضافة إلى معدل اكتساب التركيز النفسي الأساسي الخاص به.\n\nبالنسبة لبعض الأشياء، يمكن أن يتغير هذا الرقم اعتمادًا على المحيط والشخص الذي يقوم بالتأمل.</MeditationFocusStrength.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusStrength.formatString>{0} / يوم</MeditationFocusStrength.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusStrength.formatStringUnfinalized>{0} / يوم</MeditationFocusStrength.formatStringUnfinalized>
+  
+  <!-- EN: neural heat limit offset -->
+  <PsychicEntropyMaxOffset.label>إزاحة حد الحرارة العصبية</PsychicEntropyMaxOffset.label>
+  <!-- EN: An offset applied to the user's neural heat limit. -->
+  <PsychicEntropyMaxOffset.description>إزاحة تطبق على حد الحرارة العصبية للمستخدم.</PsychicEntropyMaxOffset.description>
+  
+  <!-- EN: neural heat recovery rate offset -->
+  <PsychicEntropyRecoveryRateOffset.label>إزاحة معدل استعادة الحرارة العصبية</PsychicEntropyRecoveryRateOffset.label>
+  <!-- EN: An offset applied to the user's neural heat recovery rate. -->
+  <PsychicEntropyRecoveryRateOffset.description>إزاحة تطبق على معدل استعادة الحرارة العصبية للمستخدم.</PsychicEntropyRecoveryRateOffset.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRateOffset.formatString>{0}/ثانية</PsychicEntropyRecoveryRateOffset.formatString>
+  
+  <!-- EN: psychic sensitivity factor -->
+  <PsychicSensitivityFactor.label>عامل الحساسية النفسية</PsychicSensitivityFactor.label>
+  <!-- EN: A factor applied to the user's psychic sensitivity. -->
+  <PsychicSensitivityFactor.description>عامل يطبق على الحساسية النفسية للمستخدم.</PsychicSensitivityFactor.description>
+  
+  <!-- EN: psychic sensitivity offset -->
+  <PsychicSensitivityOffset.label>إزاحة الحساسية النفسية</PsychicSensitivityOffset.label>
+  <!-- EN: An offset applied to the user's psychic sensitivity. -->
+  <PsychicSensitivityOffset.description>إزاحة تطبق على الحساسية النفسية للمستخدم.</PsychicSensitivityOffset.description>
+  
+</LanguageData>

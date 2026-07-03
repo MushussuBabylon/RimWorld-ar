@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bulbfreak -->
+  <Bulbfreak.label>مهووس المصابيح</Bulbfreak.label>
+  <!-- EN: A horrid oozing amalgamation of many smaller fleshbeasts, all controlled by a linked nervous system. It has two large claws which it uses to tear through its victims. Bulbfreaks are often smelled before they are seen, giving off an overwhelming odor of rancid meat. They are relatively slow and easy to kill, but once they die, they explode into a horde of smaller fleshbeasts. -->
+  <Bulbfreak.description>مزيج مرعب نازف من العديد من وحوش اللحم الصغيرة، تتحكم بها جميعًا جهاز عصبي متصل. له مخلبان كبيران يستخدمهما لتمزيق ضحاياه. غالبًا ما تُشم رائحة البالبفريك قبل رؤيته، إذ يصدر رائحة قوية من اللحم الفاسد. إنه بطيء نسبيًا وسهل القتل، لكنه ما إن يموت حتى ينفجر إلى جحافل من وحوش اللحم الأصغر.</Bulbfreak.description>
+  <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
+  <Bulbfreak.comps.CompInspectStringEmergence.inspectString>ظهر من {SOURCEPAWN_labelShort}.</Bulbfreak.comps.CompInspectStringEmergence.inspectString>
+  <!-- EN: tentacle -->
+  <Bulbfreak.tools.tentacle-0.label>مجس</Bulbfreak.tools.tentacle-0.label>
+  <!-- EN: tentacle -->
+  <Bulbfreak.tools.tentacle-1.label>مجس</Bulbfreak.tools.tentacle-1.label>
+  <!-- EN: tentacle -->
+  <Bulbfreak.tools.tentacle-2.label>مجس</Bulbfreak.tools.tentacle-2.label>
+  <!-- EN: tentacle -->
+  <Bulbfreak.tools.tentacle-3.label>مجس</Bulbfreak.tools.tentacle-3.label>
+  <!-- EN: tentacle -->
+  <Bulbfreak.tools.tentacle-4.label>مجس</Bulbfreak.tools.tentacle-4.label>
+  <!-- EN: head -->
+  <Bulbfreak.tools.head.label>رأس</Bulbfreak.tools.head.label>
+  
+  <!-- EN: dreadmeld -->
+  <Dreadmeld.label>دريدميلد</Dreadmeld.label>
+  <!-- EN: A gargantuan amalgamation of dozens of smaller fleshbeasts linked together by a loosely shared central nervous system. It uses its massive claws to dig tunnels through solid rock. Fleshbeast dreadmelds are rarely seen above ground, instead sheltering in caverns built from living flesh. They share a psychic connection with the flesh used to create their burrow. -->
+  <Dreadmeld.description>مزيج ضخم من عشرات وحوش اللحم الصغيرة المتصلة ببعضها عبر جهاز عصبي مركزي مشترك بصورة فضفاضة. يستخدم مخالبه الهائلة لحفر الأنفاق في الصخور الصلبة. دريدميلد وحوش اللحم نادرًا ما تُرى فوق الأرض، بل تحتمي في كهوف مبنية من اللحم الحي. تتشارك في اتصال نفسي مع اللحم المستخدم في إنشاء جحرها.</Dreadmeld.description>
+  <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
+  <Dreadmeld.comps.CompInspectStringEmergence.inspectString>ظهر من {SOURCEPAWN_labelShort}.</Dreadmeld.comps.CompInspectStringEmergence.inspectString>
+  <!-- EN: Dreadmeld released -->
+  <Dreadmeld.comps.CompLetterOnRevealed.label>تحرر دريدميلد</Dreadmeld.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered a fleshbeast dreadmeld! This mammoth creature seems to be made up of dozens of smaller fleshbeasts.\n\nIt appears to have some psychic connection to the fleshmass that supports this cavern. Killing it may destabilize the entire cave system. -->
+  <Dreadmeld.comps.CompLetterOnRevealed.text>لقد اكتشفت دريدميلد وحش اللحم! هذا الكائن الضخم يبدو أنه مكون من عشرات وحوش اللحم الأصغر.\n\nيبدو أن له اتصالًا نفسيًا بكتلة اللحم التي تدعم هذا الكهف. قتله قد يزعزع استقرار نظام الكهف بأكمله.</Dreadmeld.comps.CompLetterOnRevealed.text>
+  <!-- EN: left spike -->
+  <Dreadmeld.tools.left_spike.label>الشوكة اليسرى</Dreadmeld.tools.left_spike.label>
+  <!-- EN: spike -->
+  <Dreadmeld.tools.left_spike.labelNoLocation>شوكة</Dreadmeld.tools.left_spike.labelNoLocation>
+  <!-- EN: right spike -->
+  <Dreadmeld.tools.right_spike.label>الشوكة اليمنى</Dreadmeld.tools.right_spike.label>
+  <!-- EN: spike -->
+  <Dreadmeld.tools.right_spike.labelNoLocation>شوكة</Dreadmeld.tools.right_spike.labelNoLocation>
+  <!-- EN: head -->
+  <Dreadmeld.tools.head.label>رأس</Dreadmeld.tools.head.label>
+  
+  <!-- EN: fingerspike -->
+  <Fingerspike.label>فينجرسبايك</Fingerspike.label>
+  <!-- EN: A fleshy dog-sized creature with a single spiked limb. Despite their short legs, fingerspikes can move remarkably fast. -->
+  <Fingerspike.description>كائن لحمي بحجم كلب يمتلك طرفًا شوكيًا واحدًا. رغم قصر أرجله، يمكن للفينجرسبايك التحرك بسرعة مذهلة.</Fingerspike.description>
+  <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
+  <Fingerspike.comps.CompInspectStringEmergence.inspectString>ظهر من {SOURCEPAWN_labelShort}.</Fingerspike.comps.CompInspectStringEmergence.inspectString>
+  <!-- EN: spike -->
+  <Fingerspike.tools.spike.label>شوكة</Fingerspike.tools.spike.label>
+  <!-- EN: spike -->
+  <Fingerspike.tools.spike.labelNoLocation>شوكة</Fingerspike.tools.spike.labelNoLocation>
+  <!-- EN: head -->
+  <Fingerspike.tools.head.label>رأس</Fingerspike.tools.head.label>
+  
+  <!-- EN: toughspike -->
+  <Toughspike.label>توف سبايك</Toughspike.label>
+  <!-- EN: A fleshy man-sized creature with two spiked limbs and an armored carapace. Toughspikes throw hardened keratin spikes to take down victims from a distance.\n\nToughspike corpses will dissolve into puddles of liquefied flesh if they're not butchered quickly. -->
+  <Toughspike.description>كائن لحمي بحجم الإنسان يمتلك طرفين شوكيين ودرعًا مدرعًا. يرمي التافسبايك أشواكًا كيراتينية صلبة لإسقاط الضحايا من مسافة.\n\nجثث التافسبايك ستذوب في برك من اللحم المسال إذا لم تُذبح بسرعة.</Toughspike.description>
+  <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
+  <Toughspike.comps.CompInspectStringEmergence.inspectString>ظهر من {SOURCEPAWN_labelShort}.</Toughspike.comps.CompInspectStringEmergence.inspectString>
+  <!-- EN: left spike -->
+  <Toughspike.tools.left_spike.label>الشوكة اليسرى</Toughspike.tools.left_spike.label>
+  <!-- EN: spike -->
+  <Toughspike.tools.left_spike.labelNoLocation>شوكة</Toughspike.tools.left_spike.labelNoLocation>
+  <!-- EN: right spike -->
+  <Toughspike.tools.right_spike.label>الشوكة اليمنى</Toughspike.tools.right_spike.label>
+  <!-- EN: spike -->
+  <Toughspike.tools.right_spike.labelNoLocation>شوكة</Toughspike.tools.right_spike.labelNoLocation>
+  <!-- EN: head -->
+  <Toughspike.tools.head.label>رأس</Toughspike.tools.head.label>
+  
+  <!-- EN: trispike -->
+  <Trispike.label>ثلاثية المسامير</Trispike.label>
+  <!-- EN: A man-sized amalgamation of several smaller fleshbeasts. Each of the creature's limbs is capable of surviving independently. On death, trispikes may split into separate fingerspikes as each limb rips free and attacks. -->
+  <Trispike.description>مزيج بحجم الإنسان من عدة وحوش لحم أصغر. كل طرف من أطراف الكائن قادر على البقاء مستقلاً. عند الموت، قد ينقسم الترايسبايك إلى فينجرسبايك منفصلة عندما يتمزق كل طرف وينطلق للهجوم.</Trispike.description>
+  <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
+  <Trispike.comps.CompInspectStringEmergence.inspectString>ظهر من {SOURCEPAWN_labelShort}.</Trispike.comps.CompInspectStringEmergence.inspectString>
+  <!-- EN: left spike -->
+  <Trispike.tools.left_spike.label>الشوكة اليسرى</Trispike.tools.left_spike.label>
+  <!-- EN: spike -->
+  <Trispike.tools.left_spike.labelNoLocation>شوكة</Trispike.tools.left_spike.labelNoLocation>
+  <!-- EN: right spike -->
+  <Trispike.tools.right_spike.label>الشوكة اليمنى</Trispike.tools.right_spike.label>
+  <!-- EN: spike -->
+  <Trispike.tools.right_spike.labelNoLocation>شوكة</Trispike.tools.right_spike.labelNoLocation>
+  <!-- EN: top spike -->
+  <Trispike.tools.top_spike.label>الشوكة العلوية</Trispike.tools.top_spike.label>
+  <!-- EN: spike -->
+  <Trispike.tools.top_spike.labelNoLocation>شوكة</Trispike.tools.top_spike.labelNoLocation>
+  <!-- EN: head -->
+  <Trispike.tools.head.label>رأس</Trispike.tools.head.label>
+  
+</LanguageData>

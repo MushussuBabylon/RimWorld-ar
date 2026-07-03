@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Tool -->
+  <Tool>أداة</Tool>
+  <!-- EN: damage -->
+  <DamageLower>ضرر</DamageLower>
+  <!-- EN: seconds per attack -->
+  <SecondsPerAttackLower>ثانية لكل هجمة</SecondsPerAttackLower>
+
+  <!-- EN: Base value -->
+  <StatsReport_BaseValue>القيمة الأساسية</StatsReport_BaseValue>
+  <!-- EN: Relevant traits -->
+  <StatsReport_RelevantTraits>السمات ذات الصلة</StatsReport_RelevantTraits>
+  <!-- EN: Relevant gear -->
+  <StatsReport_RelevantGear>المعدات ذات الصلة</StatsReport_RelevantGear>
+  <!-- EN: Relevant health conditions -->
+  <StatsReport_RelevantHediffs>الحالات الصحية ذات الصلة</StatsReport_RelevantHediffs>
+  <!-- EN: Life stage -->
+  <StatsReport_LifeStage>المرحلة العمرية</StatsReport_LifeStage>
+  <!-- EN: Shambler crawling -->
+  <StatsReport_ShamblerCrawling>زحف الموتى السائرين</StatsReport_ShamblerCrawling>
+  <!-- EN: Material -->
+  <StatsReport_Material>المادة</StatsReport_Material>
+  <!-- EN: Character quality -->
+  <StatsReport_CharacterQuality>جودة الشخصية</StatsReport_CharacterQuality>
+  <!-- EN: Skills -->
+  <StatsReport_Skills>المهارات</StatsReport_Skills>
+  <!-- EN: Post-process - other stats -->
+  <StatsReport_OtherStats>المعالجة البعدية - إحصاءات أخرى</StatsReport_OtherStats>
+  <!-- EN: Health -->
+  <StatsReport_Health>الصحة</StatsReport_Health>
+  <!-- EN: {0} importance -->
+  <HealthFactorPercentImpact>أهمية {0}</HealthFactorPercentImpact>
+  <!-- EN: {0} impact -->
+  <HealthOffsetScale>تأثير {0}</HealthOffsetScale>
+  <!-- EN: {0} max -->
+  <HealthFactorMaxImpact>الحد الأقصى لـ {0}</HealthFactorMaxImpact>
+  <!-- EN: if below {0} -->
+  <HealthFactorAllowedDefect>إذا كان دون {0}</HealthFactorAllowedDefect>
+  <!-- EN: Post-process curve -->
+  <StatsReport_PostProcessed>منحنى المعالجة البعدية</StatsReport_PostProcessed>
+  <!-- EN: The chances to hit at increasing distances are -->
+  <StatsReport_ShootingExampleDistances>فرص الإصابة على مسافات متزايدة هي</StatsReport_ShootingExampleDistances>
+  <!-- EN: Final value -->
+  <StatsReport_FinalValue>القيمة النهائية</StatsReport_FinalValue>
+  <!-- EN: Max value -->
+  <StatsReport_MaxValue>الحد الأقصى للقيمة</StatsReport_MaxValue>
+  <!-- EN: Multiplier for {0} -->
+  <StatsReport_MultiplierFor>مضاعف لـ {0}</StatsReport_MultiplierFor>
+  <!-- EN: Materials and labor -->
+  <StatsReport_MarketValueFromStuffsAndWork>المواد والعمالة</StatsReport_MarketValueFromStuffsAndWork>
+  <!-- EN: Quality multiplier -->
+  <StatsReport_QualityMultiplier>مضاعف الجودة</StatsReport_QualityMultiplier>
+  <!-- EN: Quality offset -->
+  <StatsReport_QualityOffset>إزاحة الجودة</StatsReport_QualityOffset>
+  <!-- EN: Max gain -->
+  <StatsReport_MaxGain>أقصى كسب</StatsReport_MaxGain>
+  <!-- EN: Multiplier for age {0} -->
+  <StatsReport_AgeMultiplier>مضاعف العمر {0}</StatsReport_AgeMultiplier>
+  <!-- EN: Offset for age {0} -->
+  <StatsReport_AgeOffset>إزاحة العمر {0}</StatsReport_AgeOffset>
+  <!-- EN: Multiplier for health {0} -->
+  <StatsReport_HealthMultiplier>مضاعف الصحة {0}</StatsReport_HealthMultiplier>
+  <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
+  <StatsReport_ReloadMarketValue>تكلفة إعادة التلقيم ({COUNT} {AMMO_label})</StatsReport_ReloadMarketValue>
+  <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
+  <StatsReport_ReloadRemainingChargesMultipler>مضاعف لـ {CHARGENOUN_plural} المتبقية ({0})</StatsReport_ReloadRemainingChargesMultipler>
+  <!-- EN: Multiplier for mood {0} -->
+  <StatsReport_MoodMultiplier>مضاعف المزاج {0}</StatsReport_MoodMultiplier>
+  <!-- EN: Multiplier for light {0} -->
+  <StatsReport_LightMultiplier>مضاعف الضوء {0}</StatsReport_LightMultiplier>
+  <!-- EN: Multiplier for difficulty {0} -->
+  <StatsReport_DifficultyMultiplier>مضاعف الصعوبة {0}</StatsReport_DifficultyMultiplier>
+  <!-- EN: In bed -->
+  <StatsReport_InBed>في السرير</StatsReport_InBed>
+  <!-- EN: Facilities -->
+  <StatsReport_Facilities>المرافق</StatsReport_Facilities>
+  <!-- EN: Multiplier for body size {0} -->
+  <StatsReport_BodySize>مضاعف حجم الجسم {0}</StatsReport_BodySize>
+  <!-- EN: Damaged -->
+  <StatsReport_HasHediffExplanation>متضرر</StatsReport_HasHediffExplanation>
+  <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
+  <StatsReport_MeleeDPSExplanation>ضرر في الثانية = ضرر الاشتباك * فرصة إصابة الاشتباك / وقت التهدئة بالثواني</StatsReport_MeleeDPSExplanation>
+  <!-- EN: Melee damage -->
+  <StatsReport_MeleeDamage>ضرر الاشتباك</StatsReport_MeleeDamage>
+  <!-- EN: Cooldown -->
+  <StatsReport_Cooldown>وقت التهدئة</StatsReport_Cooldown>
+  <!-- EN: Melee hit chance -->
+  <StatsReport_MeleeHitChance>فرصة إصابة الاشتباك</StatsReport_MeleeHitChance>
+  <!-- EN: {0} s -->
+  <StatsReport_CooldownFormat>{0} ث</StatsReport_CooldownFormat>
+  <!-- EN: Blocked by fences -->
+  <StatsReport_BlockedByFences>تعوقه السياجات</StatsReport_BlockedByFences>
+  <!-- EN: Roam interval -->
+  <StatsReport_RoamInterval>فترة الشرود</StatsReport_RoamInterval>
+  <!-- EN: Caravan rideable age -->
+  <StatsReport_CaravanRideableAge>سن ركوب القوافل</StatsReport_CaravanRideableAge>
+  <!-- EN: Life expectancy -->
+  <StatsReport_LifeExpectancy>متوسط العمر المتوقع</StatsReport_LifeExpectancy>
+  <!-- EN: Multiplier for missing body parts -->
+  <StatsReport_MissingBodyParts>مضاعف أجزاء الجسم المفقودة</StatsReport_MissingBodyParts>
+  <!-- EN: Gear and inventory -->
+  <StatsReport_GearAndInventoryMass>المعدات والمخزون</StatsReport_GearAndInventoryMass>
+  <!-- EN: Multiplier for worn by corpse -->
+  <StatsReport_WornByCorpse>مضاعف الارتداء من قِبل جثة</StatsReport_WornByCorpse>
+  <!-- EN: average of all attacks -->
+  <AverageOfAllAttacks>متوسط جميع الهجمات</AverageOfAllAttacks>
+  <!-- EN: Scenario -->
+  <StatsReport_ScenarioFactor>السيناريو</StatsReport_ScenarioFactor>
+  <!-- EN: Ingredients -->
+  <StatsReport_IngredientsMass>المكونات</StatsReport_IngredientsMass>
+  <!-- EN: Permanently disabled. -->
+  <StatsReport_PermanentlyDisabled>معطل بشكل دائم.</StatsReport_PermanentlyDisabled>
+  <!-- EN: {0} -->
+  <StatsReport_Inspiration>{0}</StatsReport_Inspiration>
+  <!-- EN: Added body parts -->
+  <StatsReport_AddedBodyPartsMass>أجزاء الجسم المضافة</StatsReport_AddedBodyPartsMass>
+  <!-- EN: Material effect multiplier -->
+  <StatsReport_StuffEffectMultiplier>مضاعف تأثير المادة</StatsReport_StuffEffectMultiplier>
+  <!-- EN: Resting -->
+  <StatsReport_Resting>يستريح</StatsReport_Resting>
+  <!-- EN: recreation type -->
+  <StatsReport_JoyKind>نوع الترفيه</StatsReport_JoyKind>
+  <!-- EN: work to uninstall -->
+  <StatsReport_WorkToUninstall>العمل لإلغاء التثبيت</StatsReport_WorkToUninstall>
+  <!-- EN: Fence -->
+  <StatsReport_Fence>سياج</StatsReport_Fence>
+  <!-- EN: Multiplier for growth {0} -->
+  <StatsReport_PlantGrowth>مضاعف النمو {0}</StatsReport_PlantGrowth>
+  <!-- EN: scaled because wild -->
+  <StatsReport_PlantGrowth_Wild>معدل لكونه برياً</StatsReport_PlantGrowth_Wild>
+  <!-- EN: Not flesh -->
+  <StatsReport_NotFlesh>ليس لحماً</StatsReport_NotFlesh>
+  <!-- EN: Not fresh -->
+  <StatsReport_NotFresh>ليس طازجاً</StatsReport_NotFresh>
+  <!-- EN: Wild man -->
+  <StatsReport_WildMan>رجل بري</StatsReport_WildMan>
+  <!-- EN: Attack -->
+  <StatsReport_NonToolAttack>هجوم</StatsReport_NonToolAttack>
+  <!-- EN: Ideoligion -->
+  <StatsReport_Ideoligion>العقيدة</StatsReport_Ideoligion>
+  <!-- EN: Multiplier for malnutrition {0} -->
+  <StatsReport_Malnutrition>مضاعف سوء التغذية {0}</StatsReport_Malnutrition>
+  <!-- EN: Optimal room -->
+  <StatsReport_OptimalRoom>الغرفة المثالية</StatsReport_OptimalRoom>
+
+  <!-- EN: Possible offsets -->
+  <StatReport_PossibleOffsets>الإزاحات المحتملة</StatReport_PossibleOffsets>
+  <!-- EN: Room impressiveness -->
+  <StatsReport_RoomImpressiveness>فخامة الغرفة</StatsReport_RoomImpressiveness>
+  <!-- EN: Lit -->
+  <StatsReport_Lit>مضاء</StatsReport_Lit>
+  <!-- EN: Contains {0} -->
+  <StatsReport_GraveFull>يحتوي على {0}</StatsReport_GraveFull>
+  <!-- EN: Contains a human corpse -->
+  <StatsReport_GraveFullAbstract>يحتوي على جثة بشرية</StatsReport_GraveFullAbstract>
+  <!-- EN: Meditator is related to the corpse inside -->
+  <StatsReport_GraveCorpseRelatedAbstract>المتأمل ذو صلة قرابة بالجثة التي بالداخل</StatsReport_GraveCorpseRelatedAbstract>
+  <!-- EN: From quality -->
+  <StatsReport_FromQuality>من الجودة</StatsReport_FromQuality>
+  <!-- EN: Nearby artificial structures -->
+  <StatsReport_NearbyArtificialStructures>الهياكل الاصطناعية المجاورة</StatsReport_NearbyArtificialStructures>
+  <!-- EN: Satisfies user's title requirements -->
+  <StatsReport_SatisfiesTitle>يلبي متطلبات لقب المستخدم</StatsReport_SatisfiesTitle>
+
+  <!-- EN: Age -->
+  <Stat_Age_Label>العمر</Stat_Age_Label>
+  <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
+  <Stat_RecreationType_Desc>تلبي مصادر الترفيه المختلفة أنواعاً مختلفة من الترفيه. يصاب المستعمرون بالملل من ممارسة نفس نوع الترفيه بشكل متكرر، لذا من المهم توفير مجموعة متنوعة من مصادر الترفيه بأنواع مختلفة.</Stat_RecreationType_Desc>
+  <!-- EN: All recreation types -->
+  <Stat_JoyKind_AllTypes>جميع أنواع الترفيه</Stat_JoyKind_AllTypes>
+  <!-- EN: Mined item -->
+  <Stat_MineableThing_Name>العنصر المستخرج</Stat_MineableThing_Name>
+  <!-- EN: The item that will be yielded when mining this. -->
+  <Stat_MineableThing_Desc>العنصر الذي سيتم الحصول عليه عند تعدين هذا.</Stat_MineableThing_Desc>
+  <!-- EN: Mining yield -->
+  <Stat_MiningYield_Name>إنتاج التعدين</Stat_MiningYield_Name>
+  <!-- EN: The maximum amount of items yielded when mining this. The actual yield will be adjusted by the mining skill of the miner. -->
+  <Stat_MiningYield_Desc>الحد الأقصى لكمية العناصر الناتجة عند تعدين هذا. سيتم تعديل العائد الفعلي بناءً على مهارة التعدين لدى العامل.</Stat_MiningYield_Desc>
+  <!-- EN: Source species -->
+  <Stat_SourceSpecies_Name>الفصيلة المصدر</Stat_SourceSpecies_Name>
+  <!-- EN: The species of creature from which this was taken. -->
+  <Stat_SourceSpecies_Desc>فصيلة المخلوق الذي أُخذ منه هذا الشيء.</Stat_SourceSpecies_Desc>
+  <!-- EN: Stuff -->
+  <Stat_Stuff_Name>المادة الخام</Stat_Stuff_Name>
+  <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
+  <Stat_Stuff_Desc>المادة التي صُنع منها هذا الشيء. يؤثر هذا على العديد من الإحصاءات الأخرى، بما في ذلك ضرر السلاح، ودروع الملابس وعزلها، ونقاط إصابة العناصر والمباني، والجمال، والقيمة السوقية، وغير ذلك الكثير.</Stat_Stuff_Desc>
+  <!-- EN: Weapon -->
+  <Stat_Weapon_Name>السلاح</Stat_Weapon_Name>
+  <!-- EN: The weapon used by this turret. -->
+  <Stat_Weapon_Desc>السلاح المستخدم بواسطة هذا البرج الدفاعي.</Stat_Weapon_Desc>
+  <!-- EN: How much damage an object can take before being destroyed. -->
+  <Stat_HitPoints_Desc>مقدار الضرر الذي يمكن أن يتحمله الشيء قبل أن يُدمر.</Stat_HitPoints_Desc>
+  <!-- EN: The amount of work it takes to uninstall this. -->
+  <Stat_Thing_WorkToUninstall_Desc>مقدار العمل المطلوب لإلغاء تثبيت هذا الشيء.</Stat_Thing_WorkToUninstall_Desc>
+  <!-- EN: Whether this building is a type of fence. Fences block these animals -->
+  <Stat_Thing_Fence_Desc>ما إذا كان هذا المبنى نوعاً من السياج. تمنع السياجات هذه الحيوانات من العبور.</Stat_Thing_Fence_Desc>
+  <!-- EN: Which facilities can be used to produce this. -->
+  <Stat_Thing_CreatedAt_Desc>المرافق التي يمكن استخدامها لإنتاج هذا الشيء.</Stat_Thing_CreatedAt_Desc>
+  <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
+  <Stat_Thing_Damage_Desc>مقدار الضرر الذي يلحقه هذا السلاح.\n\nقد يتم حرف هذا الضرر أو تخفيفه بواسطة درع الهدف.</Stat_Thing_Damage_Desc>
+  <!-- EN: A multiplier on the amount of experience doctors gain when using this to tend a patient. -->
+  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>مضاعف لمقدار الخبرة التي يكتسبها الأطباء عند استخدام هذا لعلاج مريض.</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
+  <!-- EN: The attributes of this plant. -->
+  <Stat_Thing_Plant_Attributes_Desc>خصائص هذا النبات.</Stat_Thing_Plant_Attributes_Desc>
+  <!-- EN: Clothing (for nudity) -->
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Name>ملابس (بالنسبة للعري)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
+  <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>ما إذا كان العراة سيعتبرون هذا العنصر قطعة ملابس أم لا. إذا لم يكن كذلك، فلن يزعج العراة ارتداؤه أبداً.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <!-- EN: Gender -->
+  <Stat_Thing_Apparel_Gender>الجنس المحبذ</Stat_Thing_Apparel_Gender>
+  <!-- EN: Certain apparel is generally preferred by one gender. Anyone else may be unhappy wearing it. -->
+  <Stat_Thing_Apparel_Gender_Desc>يُفضل عادةً بعض الملابس من قِبل جنس معين. قد يشعر أي شخص آخر بعدم الارتياح عند ارتدائه.</Stat_Thing_Apparel_Gender_Desc>
+  <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
+  <Stat_Thing_Apparel_Covers_Desc>أجزاء الجسم التي يغطيها هذا اللباس.\n\nلا تحمي الدروع أجزاء الجسم التي لا تغطيها.</Stat_Thing_Apparel_Covers_Desc>
+  <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
+  <Stat_Thing_Apparel_Layer_Desc>طبقات الملابس التي يشغلها هذا العنصر.\n\nبالنسبة لجزء معين من الجسم، يمكن ارتداء قطعة ملابس واحدة فقط في كل طبقة.</Stat_Thing_Apparel_Layer_Desc>
+  <!-- EN: The minimum soil fertility that this plant requires to grow. -->
+  <Stat_Thing_Plant_FertilityRequirement_Desc>الحد الأدنى لخصوبة التربة التي يتطلبها هذا النبات للنمو.</Stat_Thing_Plant_FertilityRequirement_Desc>
+  <!-- EN: How sensitive this plant is to soil fertility.\n\nLow sensitivity means the plant will grow about the same speed in rich or poor soil. High sensitivity means the plant grows slow in poor soil, but faster in rich soil. -->
+  <Stat_Thing_Plant_FertilitySensitivity_Desc>مدى حساسية هذا النبات لخصوبة التربة.\n\nالحساسية المنخفضة تعني أن النبات سينمو بنفس السرعة تقريباً في التربة الغنية أو الفقيرة. الحساسية العالية تعني أن النبات ينمو ببطء في التربة الفقيرة، ولكن بشكل أسرع في التربة الغنية.</Stat_Thing_Plant_FertilitySensitivity_Desc>
+  <!-- EN: The amount of light this plant requires to grow. -->
+  <Stat_Thing_Plant_LightRequirement_Desc>مقدار الضوء الذي يتطلبه هذا النبات للنمو.</Stat_Thing_Plant_LightRequirement_Desc>
+  <!-- EN: The lifespan of the plant.\n\nPlants naturally die after they reach a certain age, even if not harvested. -->
+  <Stat_Thing_Plant_LifeSpan_Desc>عمر النبات.\n\nتموت النباتات بشكل طبيعي بعد وصولها إلى عمر معين، حتى لو لم يتم حصادها.</Stat_Thing_Plant_LifeSpan_Desc>
+  <!-- EN: The amount of product this plant will yield when harvested. -->
+  <Stat_Thing_Plant_HarvestYield_Desc>كمية المحصول التي سينتجها هذا النبات عند حصاده.</Stat_Thing_Plant_HarvestYield_Desc>
+  <!-- EN: The minimum temperature this plant can survive.\n\nTemperatures below this will cause damage over time. -->
+  <Stat_Thing_Plant_MinGrowthTemperature_Desc>الحد الأدنى لدرجة الحرارة التي يمكن لهذا النبات البقاء فيها على قيد الحياة.\n\nدرجات الحرارة الأقل من ذلك ستسبب ضرراً بمرور الوقت.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
+  <!-- EN: The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time. -->
+  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>الحد الأقصى لدرجة الحرارة التي يمكن لهذا النبات البقاء فيها على قيد الحياة.\n\nدرجات الحرارة الأعلى من ذلك ستسبب ضرراً بمرور الوقت.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
+  <!-- EN: The minimum skill needed for a farmer to sow this plant. -->
+  <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>الحد الأدنى للمهارة المطلوبة للمزارع لزراعة هذا النبات.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
+  <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->
+  <Stat_Race_Diet_Desc>أنواع الطعام التي يستطيع هذا المخلوق تناولها.\n\nيمكنه أكل: {0}</Stat_Race_Diet_Desc>
+  <!-- EN: The type of leather this creature will yield when butchered. -->
+  <Stat_Race_LeatherType_Desc>نوع الجلد الذي سينتجه هذا المخلوق عند ذبحه سلخه.</Stat_Race_LeatherType_Desc>
+  <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>فرصة هجوم هذا المخلوق عندما يحاول المروض ترويضه ويفشل.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
+  <Stat_Race_Trainability_Desc>القدرة العقلية العامة لهذا المخلوق على التدريب. هذا مزيج من الذكاء والانتباه، ويحدد أنواع المهام التي يمكن تدريب هذا المخلوق على أدائها.</Stat_Race_Trainability_Desc>
+  <!-- EN: The average life expectancy of this creature. -->
+  <Stat_Race_LifeExpectancy_Desc>متوسط العمر المتوقع لهذا المخلوق.</Stat_Race_LifeExpectancy_Desc>
+  <!-- EN: Whether this creature is blocked by fences and barricades. -->
+  <Stat_Race_BlockedByFences_Desc>ما إذا كان هذا المخلوق تُعوق حركته السياجات والمتاريس.</Stat_Race_BlockedByFences_Desc>
+  <!-- EN: How often a tame animal will attempt to roam away and exit the map.\n\nAnimals will only roam if they have a direct path to the map edge. You can use fences, barricades, walls, and doors to prevent this.\n\nAnimal handlers can rope roaming animals and bring them back to a pen. -->
+  <Stat_Race_RoamInterval_Desc>كم مرة سيحاول حيوان أليف الشرود والهروب خارج الخريطة.\n\nلن تشرد الحيوانات إلا إذا كان لديها مسار مباشر إلى حافة الخريطة. يمكنك استخدام السياجات والمتاريس والجدران والأبواب لمنع ذلك.\n\nيمكن لمروضي الحيوانات قيادة الحيوانات الشاردة بالحبال وإعادتها إلى الحظيرة.</Stat_Race_RoamInterval_Desc>
+  <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
+  <Stat_Thing_Ingestible_Joy_Desc>القيمة الترفيهية لتناول هذا الشيء. الأرقام الأعلى ستلبي حاجة الترفيه بشكل أكبر.</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The weight of this creature and their equipment. -->
+  <Stat_Mass_Desc>وزن هذا المخلوق ومعداته.</Stat_Mass_Desc>
+  <!-- EN: Base mass -->
+  <Stat_Mass_Base>الكتلة الأساسية</Stat_Mass_Base>
+  <!-- EN: Mass from equipment -->
+  <Stat_Mass_Equipment>الكتلة من المعدات</Stat_Mass_Equipment>
+  <!-- EN: Total mass -->
+  <Stat_Mass_Total>الكتلة الإجمالية</Stat_Mass_Total>
+  <!-- EN: The size of this creature's body, compared to an average adult human. -->
+  <Stat_Race_BodySize_Desc>حجم جسم هذا المخلوق مقارنة بمتوسط حجم الإنسان البالغ.</Stat_Race_BodySize_Desc>
+  <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
+  <Stat_Race_Growth_Desc>مدى قرب هذا المخلوق من مرحلة البلوغ.\n\nالنمو يتطلب التغذية. سينمو الحيوان الجائع بمعدل أبطأ مقارنة بالحيوان الذي يتغذى جيداً.</Stat_Race_Growth_Desc>
+  <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
+  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>مقدار الوقت الذي يمر بين بدء هجوم الاشتباك بهذا السلاح ولحظة إصابته للهدف.</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
+  <!-- EN: How much time passes between when a ranged attack begins aiming and when it fires. -->
+  <Stat_Thing_Weapon_RangedWarmupTime_Desc>مقدار الوقت الذي يمر بين بدء التصويب لهجوم بعيد المدى ولحظة الإطلاق.</Stat_Thing_Weapon_RangedWarmupTime_Desc>
+  <!-- EN: The amount of shots this weapon fires in each burst. -->
+  <Stat_Thing_Weapon_BurstShotCount_Desc>عدد الطلقات التي يطلقها هذا السلاح في كل دفعة.</Stat_Thing_Weapon_BurstShotCount_Desc>
+  <!-- EN: The fire rate of this weapon during each burst. -->
+  <Stat_Thing_Weapon_BurstShotFireRate_Desc>معدل إطلاق النار لهذا السلاح خلال كل دفعة.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
+  <!-- EN: The maximum range of this weapon. -->
+  <Stat_Thing_Weapon_Range_Desc>المدى الأقصى لهذا السلاح.</Stat_Thing_Weapon_Range_Desc>
+  <!-- EN: Range multiplier -->
+  <Stat_Thing_Weapon_Range_Multiplier>مضاعف المدى</Stat_Thing_Weapon_Range_Multiplier>
+  <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
+  <Stat_Thing_Weapon_Range_Clamped>انخفض من {ORIGINAL} إلى {CAP} بسبب الطقس.</Stat_Thing_Weapon_Range_Clamped>
+  <!-- EN: Aiming time multiplier -->
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>مضاعف وقت التصويب</Stat_Thing_Weapon_WarmupTime_Multiplier>
+  <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
+  <Stat_Thing_Weapon_MissRadius_Desc>نطاق الانتشار العشوائي للطلقات المطلقة من هذا السلاح.\n\nالقيم العالية تجعل المقذوفات تتشتت عشوائياً حول الهدف.</Stat_Thing_Weapon_MissRadius_Desc>
+  <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
+  <Stat_Thing_Weapon_DirectHitChance_Desc>فرصة أن تصيب الطلقة هدفها مباشرة إذا لم يتم اعتراضها أو تفاديها أو إيقافها.</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <!-- EN: This body part's effect on the mood of the owner. -->
+  <Stat_Thing_MoodChange_Desc>تأثير جزء الجسم هذا على مزاج صاحبـ{PAWN_possessive}.</Stat_Thing_MoodChange_Desc>
+  <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
+  <Stat_Recipe_Skill_Desc>المهارة الرئيسية المستخدمة أثناء إعداد هذه الوصفة.\n\nفهي تحدد جودة النتيجة، ويتم تطويرها أثناء تنفيذ هذه الوصفة.</Stat_Recipe_Skill_Desc>
+  <!-- EN: The ingredients required to perform this recipe. -->
+  <Stat_Recipe_Ingredients_Desc>المكونات المطلوبة لتنفيذ هذه الوصفة.</Stat_Recipe_Ingredients_Desc>
+  <!-- EN: The skills required to perform this recipe. -->
+  <Stat_Recipe_SkillRequirements_Desc>المهارات المطلوبة لتنفيذ هذه الوصفة.</Stat_Recipe_SkillRequirements_Desc>
+  <!-- EN: The products produced by this recipe. -->
+  <Stat_Recipe_Products_Desc>المنتجات الناتجة عن هذه الوصفة.</Stat_Recipe_Products_Desc>
+  <!-- EN: Which character stat governs the workspeed of this recipe.\n\nThe higher the stat of the worker is, the faster work will be done. -->
+  <Stat_Recipe_WorkSpeedStat_Desc>أي من إحصاءات الشخصية تحكم سرعة عمل هذه الوصفة.\n\nكلما كانت إحصاءات العامل أعلى، تم العمل بشكل أسرع.</Stat_Recipe_WorkSpeedStat_Desc>
+  <!-- EN: Which stat governs the quality or amount of output.\n\nThe higher the stat of the worker is, the higher the quality or yield will be. -->
+  <Stat_Recipe_EfficiencyStat_Desc>أي إحصاء يحكم جودة أو كمية الناتج.\n\nكلما كانت إحصاءات العامل أعلى، زادت الجودة أو كمية الإنتاج.</Stat_Recipe_EfficiencyStat_Desc>
+  <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>مضاعف لفرصة نجاح هذه العملية. العمليات الأكثر صعوبة لها مضاعفات أقل.\n\nتتأثر فرصة النجاح الفعلية للجراحة أيضاً بالطبيب والمرافق والأدوية المستخدمة.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <!-- EN: Can't fail -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>لا يمكن أن تفشل</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
+  <!-- EN: Performing this operation is safe for the patient. -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>إجراء هذه العملية آمن للمريض.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
+  <!-- EN: The chance the patient will die upon failure of this surgery. -->
+  <Stat_Thing_Surgery_DeathOnFailChance_Desc>فرصة وفاة المريض عند فشل هذه الجراحة.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
+  <!-- EN: Total bleed factor -->
+  <Stat_Hediff_TotalBleedFactor_Name>عامل النزيف الإجمالي</Stat_Hediff_TotalBleedFactor_Name>
+  <!-- EN: A multiplier applied to the overall rate of blood loss. -->
+  <Stat_Hediff_TotalBleedFactor_Desc>مضاعف يطبق على المعدل الإجمالي لفقدان الدم.</Stat_Hediff_TotalBleedFactor_Desc>
+  <!-- EN: Natural healing factor -->
+  <Stat_Hediff_NaturalHealingFactor_Name>عامل الشفاء الطبيعي</Stat_Hediff_NaturalHealingFactor_Name>
+  <!-- EN: A multiplier applied to the overall rate of natural wound healing. -->
+  <Stat_Hediff_NaturalHealingFactor_Desc>مضاعف يطبق على المعدل الإجمالي لشفاء الجروح الطبيعي.</Stat_Hediff_NaturalHealingFactor_Desc>
+  <!-- EN: Food poisoning chance factor -->
+  <Stat_Hediff_FoodPoisoningChanceFactor_Name>عامل فرصة التسمم الغذائي</Stat_Hediff_FoodPoisoningChanceFactor_Name>
+  <!-- EN: A multiplier applied to the chance of getting food poisoning. -->
+  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>مضاعف يطبق على فرصة الإصابة بالتسمم الغذائي.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <!-- EN: The rate at which this condition causes blood loss. -->
+  <Stat_Hediff_BleedingRate_Desc>المعدل الذي تسببه هذه الحالة في فقدان الدم.</Stat_Hediff_BleedingRate_Desc>
+  <!-- EN: The amount of pain caused by this condition. -->
+  <Stat_Hediff_Pain_Desc>مقدار الألم الناجم عن هذه الحالة.</Stat_Hediff_Pain_Desc>
+  <!-- EN: The offset in efficiency applied to body parts affected by this. -->
+  <Stat_Hediff_PartEfficiency_Desc>الإزاحة في الكفاءة المطبقة على أجزاء الجسم المتأثرة بهذا.</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: How efficiently this functions compared to a natural body part. -->
+  <Stat_Hediff_PartEfficiencyAbsolute_Desc>مدى كفاءة عمل هذا العضو مقارنة بجزء الجسم الطبيعي.</Stat_Hediff_PartEfficiencyAbsolute_Desc>
+  <!-- EN: The mental abilities this affects. -->
+  <Stat_Hediff_Affects_Desc>القدرات العقلية التي تؤثر عليها هذه الحالة.</Stat_Hediff_Affects_Desc>
+  <!-- EN: Hunger rate offset -->
+  <Stat_Hediff_HungerRateOffset_Name>إزاحة معدل الجوع</Stat_Hediff_HungerRateOffset_Name>
+  <!-- EN: A multiplier on the rate at which the food need depletes. -->
+  <Stat_Hediff_HungerRateFactor_Desc>مضاعف للمعدل الذي تستنفد به الحاجة إلى الطعام.</Stat_Hediff_HungerRateFactor_Desc>
+  <!-- EN: An offset on the rate at which the food need depletes. -->
+  <Stat_Hediff_HungerRateOffset_Desc>إزاحة في المعدل الذي تستنفد به الحاجة إلى الطعام.</Stat_Hediff_HungerRateOffset_Desc>
+  <!-- EN: Sleep fall rate -->
+  <Stat_Hediff_TirednessOffset_Name>معدل انخفاض النوم</Stat_Hediff_TirednessOffset_Name>
+  <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
+  <Stat_Hediff_TirednessOffset_Desc>إزاحة تطبق على المعدل الذي تنخفض به حاجة المخلوق للنوم.</Stat_Hediff_TirednessOffset_Desc>
+  <!-- EN: A multiplier applied to the rate at which the creature's sleep need falls. -->
+  <Stat_Hediff_TirednessFactor_Desc>مضاعف يطبق على المعدل الذي تنخفض به حاجة المخلوق للنوم.</Stat_Hediff_TirednessFactor_Desc>
+  <!-- EN: Whether or not this will prevent infections. -->
+  <Stat_Hediff_PreventsInfection_Desc>ما إذا كان هذا سيمنع حدوث الالتهابات والعدوى أم لا.</Stat_Hediff_PreventsInfection_Desc>
+  <!-- EN: The things this terrain supports. -->
+  <Stat_Thing_Terrain_Supports_Desc>الأشياء والمنشآت التي يمكن أن تتحملها هذه التضاريس.</Stat_Thing_Terrain_Supports_Desc>
+  <!-- EN: This can only be placed on terrain of these types. -->
+  <Stat_Thing_TerrainRequirement_Desc>لا يمكن وضع هذا إلا على تضاريس من هذه الأنواع.</Stat_Thing_TerrainRequirement_Desc>
+  <!-- EN: Considered -->
+  <Stat_Thing_Terrain_Fine_Name>يعتبر</Stat_Thing_Terrain_Fine_Name>
+  <!-- EN: Fine -->
+  <Stat_Thing_Terrain_Fine_Value>فاخر</Stat_Thing_Terrain_Fine_Value>
+  <!-- EN: This floor is considered fine and suitable for royalty. -->
+  <Stat_Thing_Terrain_Fine_Desc>تعتبر هذه الأرضية فاخرة ومناسبة للملوك والنبلاء.</Stat_Thing_Terrain_Fine_Desc>
+  <!-- EN: The amount of power this building will draw from the power grid. -->
+  <Stat_Thing_PowerConsumption_Desc>كمية الطاقة التي سيستمدها هذا المبنى من شبكة الطاقة.</Stat_Thing_PowerConsumption_Desc>
+  <!-- EN: {CHARGENOUN_plural} remaining -->
+  <Stat_Thing_ReloadChargesRemaining_Name>الـ {CHARGENOUN_plural} المتبقية</Stat_Thing_ReloadChargesRemaining_Name>
+  <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
+  <Stat_Thing_ReloadChargesRemaining_Desc>عدد الـ {CHARGENOUN_plural} المتبقية في هذا الجسم. إذا نفدت، فلن يمكن استخدام القدرة الخاصة بعد الآن.</Stat_Thing_ReloadChargesRemaining_Desc>
+  <!-- EN: {CHARGENOUN_plural} -->
+  <Stat_Thing_ReloadMaxCharges_Name>الـ {CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
+  <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
+  <Stat_Thing_ReloadMaxCharges_Desc>الحد الأقصى لعدد الـ {CHARGENOUN_plural} التي يمتلكها هذا الجسم.</Stat_Thing_ReloadMaxCharges_Desc>
+  <!-- EN: {CHARGENOUN} reload cost -->
+  <Stat_Thing_ReloadRefill_Name>تكلفة إعادة شحن {CHARGENOUN}</Stat_Thing_ReloadRefill_Name>
+  <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
+  <Stat_Thing_ReloadRefill_Desc>كمية العناصر المطلوبة لإعادة شحن هذا الجسم بالكامل.\n\nيمكن إعادة شحن هذا الجسم قبل أن يفرغ، لكن التكلفة ستكون هي نفسها كما لو كان فارغاً.</Stat_Thing_ReloadRefill_Desc>
+  <!-- EN: Reload cost per {CHARGENOUN} -->
+  <Stat_Thing_ReloadPerCharge_Name>تكلفة إعادة الشحن لكل {CHARGENOUN}</Stat_Thing_ReloadPerCharge_Name>
+  <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
+  <Stat_Thing_ReloadPerCharge_Desc>كمية العناصر المطلوبة لإعادة شحن {CHARGENOUN} واحد. يمكن إعادة شحن عدة {CHARGENOUN_plural} في وقت واحد.</Stat_Thing_ReloadPerCharge_Desc>
+  <!-- EN: Vanish on exhaust -->
+  <Stat_Thing_ReloadDestroyOnEmpty_Name>التلاشي عند النفاد</Stat_Thing_ReloadDestroyOnEmpty_Name>
+  <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
+  <Stat_Thing_ReloadDestroyOnEmpty_Desc>سيتلاشى هذا العنصر تماماً عند استخدام آخر {CHARGENOUN} فيه.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
+  <!-- EN: The overall efficiency of this body part. -->
+  <Stat_Thing_BodyPartEfficiency_Desc>الكفاءة العامة لجزء الجسم هذا.</Stat_Thing_BodyPartEfficiency_Desc>
+  <!-- EN: Install sites -->
+  <Stat_Thing_InstallSites>مواقع التثبيت</Stat_Thing_InstallSites>
+  <!-- EN: Areas on the body where this can be installed. -->
+  <Stat_Thing_InstallSites_Desc>المناطق في الجسم التي يمكن تثبيت هذا العضو فيها.</Stat_Thing_InstallSites_Desc>
+  <!-- EN: Replaces parts -->
+  <Stat_Thing_ReplacesParts>يستبدل أجزاء</Stat_Thing_ReplacesParts>
+  <!-- EN: Body parts which are replaced by this when installed. -->
+  <Stat_Thing_ReplacesParts_Desc>أجزاء الجسم التي يتم استبدالها بهذا العضو عند تثبيته.</Stat_Thing_ReplacesParts_Desc>
+  <!-- EN: Biocoding -->
+  <Stat_Thing_Biocoded_Name>التشفير الحيوي</Stat_Thing_Biocoded_Name>
+  <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
+  <Stat_Thing_Biocoded_Desc>تم تشفير هذا العنصر ليعمل فقط مع البصمة الحيوية لشخص معين.</Stat_Thing_Biocoded_Desc>
+  <!-- EN: Required apparel -->
+  <Stat_Pawn_RequiredApparel_Name>الملابس المطلوبة</Stat_Pawn_RequiredApparel_Name>
+  <!-- EN: Growth rate -->
+  <Stat_Thing_Plant_GrowthRate>معدل النمو</Stat_Thing_Plant_GrowthRate>
+  <!-- EN: The rate at which a plant is growing.\n\nGrowth rate is affected by things like soil fertility, temperature, light, and environmental conditions. -->
+  <Stat_Thing_Plant_GrowthRate_Desc>المعدل الذي ينمو به النبات.\n\nيتأثر معدل النمو بأشياء مثل خصوبة التربة، ودرجة الحرارة، والضوء، والظروف البيئية.</Stat_Thing_Plant_GrowthRate_Desc>
+  <!-- EN: Age -->
+  <Stat_Thing_Plant_Age>العمر</Stat_Thing_Plant_Age>
+  <!-- EN: How long this has been alive. -->
+  <Stat_Thing_Plant_AgeDesc>كم من الوقت ظل هذا النبات حياً.</Stat_Thing_Plant_AgeDesc>
+  <!-- EN: Lifespan -->
+  <Stat_Thing_Plant_Lifespan>العمر الافتراضي</Stat_Thing_Plant_Lifespan>
+  <!-- EN: Paintable -->
+  <Stat_Building_Paintable>قابل للطلاء</Stat_Building_Paintable>
+  <!-- EN: Whether this can be painted using dye. -->
+  <Stat_Building_PaintableDesc>ما إذا كان يمكن طلاء هذا المبنى باستخدام الصبغة.</Stat_Building_PaintableDesc>
+  <!-- EN: Paint color -->
+  <Stat_Building_PaintColor>لون الطلاء</Stat_Building_PaintColor>
+  <!-- EN: The color this building was painted. -->
+  <Stat_Building_PaintColorDesc>اللون الذي طُلي به هذا المبنى.</Stat_Building_PaintColorDesc>
+  <!-- EN: Resources to make -->
+  <Stat_Building_ResourcesToMake>الموارد المطلوبة للصنع</Stat_Building_ResourcesToMake>
+  <!-- EN: The resources required to construct this. -->
+  <Stat_Building_ResourcesToMakeDesc>الموارد اللازمة لبناء هذا المنشأ.</Stat_Building_ResourcesToMakeDesc>
+  <!-- EN: The weapon mounted on this creature. -->
+  <Stat_Thing_TurretDesc>السلاح المثبت على هذا المخلوق.</Stat_Thing_TurretDesc>
+  <!-- EN: The ingredients needed to make this. -->
+  <Stat_Thing_Ingredients>المكونات اللازمة لصنع هذا.</Stat_Thing_Ingredients>
+  <!-- EN: Working at this building will be slower if it's not in this room type. -->
+  <Stat_Building_OptimalRoom_Desc>سيكون العمل في هذا المبنى أبطأ إذا لم يكن في هذا النوع المخصص من الغرف.</Stat_Building_OptimalRoom_Desc>
+
+  <!-- Drugs -->
+  <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
+  <Stat_Thing_Drug_Chemical_Desc>المادة الكيميائية النشطة في هذا الدواء.\n\nفي بعض الحالات، تكون نفس المادة الكيميائية موجودة في عدة عقاقير مختلفة. ستلبي هذه العقاقير المختلفة نفس الإدمان بطرق مختلفة.</Stat_Thing_Drug_Chemical_Desc>
+  <!-- EN: The category this drug belongs to. -->
+  <Stat_Thing_Drug_Category_Desc>الفئة التي ينتمي إليها هذا العقار.</Stat_Thing_Drug_Category_Desc>
+  <!-- EN: The intensity of high gained per dose of this drug. -->
+  <Stat_Thing_Drug_HighGainPerDose_Desc>شدة النشوة المكتسبة لكل جرعة من هذا العقار.</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <!-- EN: How much this drug's high will decay each day. -->
+  <Stat_Thing_Drug_HighFallPerDay_Desc>مقدار انخفاض تأثير نشوة هذا العقار كل يوم.</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>مدة استمرار نشوة هذا العقار لكل جرعة.\n\nيتم حساب ذلك من النشوة المكتسبة لكل جرعة ومعدل انخفاض النشوة.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>مدى زيادة تحمل المستخدم للمادة الكيميائية مع كل جرعة من هذا العقار.\n\nيمكن أن يختلف هذا باختلاف أشكال نفس المادة الكيميائية.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>مقدار انخفاض تحمل المستخدم للمادة الكيميائية يومياً.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>الحد الأدنى من التحمل المطلوب ليصبح الشخص مدمناً حديثاً على هذا العقار.\n\nإذا كان المستخدم دون هذا المستوى من التحمل، فلا يمكن أن يقع في الإدمان من مجرد أخذ جرعة واحدة.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>لن يصبح الشخص البالغ مدمناً إلا إذا تناول العقار بمعدل أكبر من هذا الفاصل الزمني.\n\nيتم حساب ذلك من الحد الأدنى لتحمل الإدمان للعقار، وزيادة التحمل لكل جرعة، ومعدل تراجع التحمل. بعض العقاقير ليس لها فاصل زمني آمن؛ مثل هذه العقاقير يمكن أن تسبب الإدمان من أي جرعة، حتى الأولى.\n\nلاحظ أن الفاصل الزمني للجرعة الآمنة يعتمد على حجم جسم الشخص.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
+  <Stat_Thing_Drug_RandomODChance_Desc>فرصة حدوث جرعة زائدة عشوائية عند تناول هذا العقار. يمكن أن تحدث الجرعات الزائدة العشوائية مع أي جرعة، سواء كانت التجربة الأولى لمستخدم جديد أو الجرعة المائة لمدمن متمرس.</Stat_Thing_Drug_RandomODChance_Desc>
+  <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
+  <Stat_Thing_Drug_Addictiveness_Desc>فرصة الإدمان لكل جرعة من هذا العقار.\n\nإذا كان للعقار حد أدنى من التحمل للإدمان، فيجب أن يكون التحمل فوق ذلك المستوى لتطبيق هذا. إذا لم يكن هناك حد أدنى للتحمل، فإن أي جرعة يمكن أن تسبب الإدمان.</Stat_Thing_Drug_Addictiveness_Desc>
+  <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>تبدأ حالات الإدمان الجديدة الناتجة عن هذا العقار عند مستوى الشدة هذا.\n\nتناول المزيد من العقار سيزيد من شدة الإدمان، بينما سيقللها مرور الوقت.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>الوقت الذي يستغرقه التعافي من الإدمان الأولي لهذا العقار.\n\nيتم حساب ذلك بقسمة شدة الإدمان الجديدة على معدل التعافي منه. الإدمان الذي تمت تغذيته بجرعات مستمرة سيستغرق وقتاً أطول للتعافي.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
+  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>مقدار الشدة المضافة إلى إدمان قائم بالفعل مع كل جرعة من هذا العقار.\n\nلا يمكن أن تتجاوز شدة الإدمان 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
+  <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
+  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>المعدل الذي يحتاجه المدمن لتناول جرعة من هذا العقار لتغذية الإدمان ومنع ظهور أعراض الانسحاب.\n\nيتم حساب ذلك من معدل انخفاض الحاجة للإدمان ونسبة تلبية الحاجة لكل جرعة.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+  <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>مقدار ما تلبيـ{PAWN_possessive} كل جرعة من هذا العقار من حاجة المدمن للمادة الكيميائية.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <!-- EN: How quickly an addict's need for the chemical will fall. -->
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>السرعة التي تنخفض بها حاجة المدمن للمادة الكيميائية.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
+  <Stat_Thing_Drug_AddictionCost_Desc>القيمة السوقية للعقاقير التي يجب استهلاكها يومياً لدعم الإدمان على هذا العقار دون الدخول في مرحلة الانسحاب.\n\nتُحسب هذه القيمة من حاجة المدمن الكيميائية لكل جرعة، ومعدل انخفاض الحاجة، والقيمة السوقية لهذا العقار.\n\nلاحظ أنه قد تكون هناك طرق أخرى للحصول على نفس المادة الكيميائية بتكاليف مختلفة.</Stat_Thing_Drug_AddictionCost_Desc>
+
+  <!-- EN: Style -->
+  <Stat_Thing_StyleLabel>النمط</Stat_Thing_StyleLabel>
+  <!-- EN: An object's style determines its appearance. This has no gameplay effect. Styles often form the differing methods of construction used by people of different beliefs and cultures. -->
+  <Stat_Thing_StyleDesc>يحدد نمط الشيء مظهره الخارجي فقط، وليس له أي تأثير على أسلوب اللعب. غالباً ما تشكل الأنماط طرق البناء المختلفة التي يستخدمها أشخاص من معتقدات وثقافات متنوعة.</Stat_Thing_StyleDesc>
+
+  <!-- EN: Gestation time -->
+  <Stat_Animal_GestationTime>فترة الحمل</Stat_Animal_GestationTime>
+  <!-- EN: The time this species takes to gestate its offspring or eggs. -->
+  <Stat_Animal_GestationTimeDesc>الوقت الذي تستغرقه هذه الفصيلة لحمل صغارها أو احتضان بيضها حتى يفقس.</Stat_Animal_GestationTimeDesc>
+  <!-- EN: Litter size -->
+  <Stat_Animal_LitterSize>حجم البطن</Stat_Animal_LitterSize>
+  <!-- EN: The number of offspring this creature creates per litter. If this is a range, any specific litter will have a random number of offspring in this range. -->
+  <Stat_Animal_LitterSizeDesc>عدد الصغار الذين ينجبهم هذا المخلوق في كل بطن (ولادة). إذا كانت هذه القيمة عبارة عن نطاق، فإن أي بطن معين سيكون له عدد عشوائي من الصغار ضمن هذا النطاق.</Stat_Animal_LitterSizeDesc>
+  <!-- EN: Adult meat amount -->
+  <Stat_Animal_AdultMeatAmount>كمية لحم البالغ</Stat_Animal_AdultMeatAmount>
+  <!-- EN: The base amount of meat yielded by butchering an adult member of this species. The actual yield is affected by other factors such as damage to the body and butcher skill. -->
+  <Stat_Animal_AdultMeatAmountDesc>الكمية الأساسية من اللحم الناتجة عن ذبح عضو بالغ من هذه الفصيلة. يتأثر العائد الفعلي بعوامل أخرى مثل الأضرار التي لحقت بالجسم ومهارة الجزار.</Stat_Animal_AdultMeatAmountDesc>
+  <!-- EN: Growth time -->
+  <Stat_Animal_GrowthTime>وقت النمو</Stat_Animal_GrowthTime>
+  <!-- EN: How long it normally takes for this creature to reach adulthood. This time will be longer if the creature starves. -->
+  <Stat_Animal_GrowthTimeDesc>الوقت الذي يستغرقه هذا المخلوق عادةً للوصول إلى مرحلة البلوغ. سيكون هذا الوقت أطول إذا تعرض المخلوق للمجاعة.</Stat_Animal_GrowthTimeDesc>
+  <!-- EN: Meat per day during growth -->
+  <Stat_Animal_MeatPerDayDuringGrowth>اللحم المكتسب يومياً أثناء النمو</Stat_Animal_MeatPerDayDuringGrowth>
+  <!-- EN: This creature gains this amount of meat for each day it grows, up until it reaches adulthood.\n\nThis value is calculated from the meat amount and growth time. -->
+  <Stat_Animal_MeatPerDayDuringGrowthDesc>يكتسب هذا المخلوق هذه الكمية من اللحم عن كل يوم ينمو فيه، وذلك حتى يصل إلى مرحلة البلوغ.\n\nيتم حساب هذه القيمة من كمية اللحم الإجمالية ووقت النمو.</Stat_Animal_MeatPerDayDuringGrowthDesc>
+  <!-- EN: Grass to maintain -->
+  <Stat_Animal_GrassToMaintain>العشب المطلوب للاستدامة</Stat_Animal_GrassToMaintain>
+  <!-- EN: The typical number of grass plants that this creature needs in order to fulfill its dietary needs. This is based on normal grass at typical growth rates and ignores winter. -->
+  <Stat_Animal_GrassToMaintainDesc>عدد نباتات العشب التقريبي الذي يحتاجه هذا المخلوق لتلبية احتياجاته الغذائية. يعتمد هذا على العشب الطبيعي بمعدلات نموه المعتادة ويتجاهل فصل الشتاء.</Stat_Animal_GrassToMaintainDesc>
+  <!-- EN: Egg type -->
+  <Stat_Animal_EggType>نوع البيض</Stat_Animal_EggType>
+  <!-- EN: The type of egg this creature lays. -->
+  <Stat_Animal_EggTypeDesc>نوع البيض الذي يبيعه هذا المخلوق.</Stat_Animal_EggTypeDesc>
+  <!-- EN: Eggs per year -->
+  <Stat_Animal_EggsPerYear>البيض في السنة</Stat_Animal_EggsPerYear>
+  <!-- EN: The number of eggs this creature will lay per year. Some creatures need to be fertilized to lay eggs. Egg laying will be slower if the creature starves. -->
+  <Stat_Animal_EggsPerYearDesc>عدد البيض الذي يضعه هذا المخلوق سنوياً. تحتاج بعض المخلوقات إلى التلقيح لتضع البيض. سيكون وضع البيض أبطأ إذا جاع المخلوق.</Stat_Animal_EggsPerYearDesc>
+  <!-- EN: Egg nutrition -->
+  <Stat_Animal_EggNutrition>القيمة الغذائية للبيضة</Stat_Animal_EggNutrition>
+  <!-- EN: The amount of nutrition in a single egg laid by this creature. -->
+  <Stat_Animal_EggNutritionDesc>مقدار القيمة الغذائية في بيضة واحدة يضعها هذا المخلوق.</Stat_Animal_EggNutritionDesc>
+  <!-- EN: Egg nutrition per year -->
+  <Stat_Animal_EggNutritionYearly>التغذية من البيض سنوياً</Stat_Animal_EggNutritionYearly>
+  <!-- EN: The amount of yearly nutrition generated by eggs laid by this creature each year.\n\nThis value is calculated from eggs per year and egg nutrition. -->
+  <Stat_Animal_EggNutritionYearlyDesc>مقدار القيمة الغذائية السنوية الناتجة عن البيض الذي يضعه هذا المخلوق كل عام.\n\nيتم حساب هذه القيمة من عدد البيض في السنة والقيمة الغذائية للبيضة الواحدة.</Stat_Animal_EggNutritionYearlyDesc>
+  <!-- EN: Egg market value -->
+  <Stat_Animal_EggMarketValue>القيمة السوقية للبيضة</Stat_Animal_EggMarketValue>
+  <!-- EN: The market value of a single laid egg. -->
+  <Stat_Animal_EggMarketValueDesc>القيمة السوقية لبيضة واحدة موضوعة.</Stat_Animal_EggMarketValueDesc>
+  <!-- EN: Egg value per year -->
+  <Stat_Animal_EggMarketValueYearly>قيمة البيض السنوية</Stat_Animal_EggMarketValueYearly>
+  <!-- EN: The total value of eggs normally laid over the course of a year.\n\nThis is calculated from eggs per year and egg market value. -->
+  <Stat_Animal_EggMarketValueYearlyDesc>القيمة الإجمالية للبيض الذي يتم وضعه عادةً على مدار عام كامل.\n\nيتم حساب ذلك من عدد البيض في السنة والقيمة السوقية للبيضة.</Stat_Animal_EggMarketValueYearlyDesc>
+  <!-- EN: Milk type -->
+  <Stat_Animal_MilkType>نوع الحليب</Stat_Animal_MilkType>
+  <!-- EN: The type of milk this creature produces. -->
+  <Stat_Animal_MilkTypeDesc>نوع الحليب الذي ينتجه هذا المخلوق.</Stat_Animal_MilkTypeDesc>
+  <!-- EN: Milk amount -->
+  <Stat_Animal_MilkAmount>كمية الحليب</Stat_Animal_MilkAmount>
+  <!-- EN: The amount of milk this creature produces each time it is milked. -->
+  <Stat_Animal_MilkAmountDesc>كمية الحليب التي ينتجها هذا المخلوق في كل مرة يتم حلبه فيها.</Stat_Animal_MilkAmountDesc>
+  <!-- EN: Milking interval -->
+  <Stat_Animal_MilkGrowthTime>فترة الحلب</Stat_Animal_MilkGrowthTime>
+  <!-- EN: The amount of time this creature needs between milkings. -->
+  <Stat_Animal_MilkGrowthTimeDesc>مقدار الوقت الذي يحتاجه هذا المخلوق بين كل عمليتي حلب.</Stat_Animal_MilkGrowthTimeDesc>
+  <!-- EN: Milk per year -->
+  <Stat_Animal_MilkPerYear>الحليب في السنة</Stat_Animal_MilkPerYear>
+  <!-- EN: The amount of milk produced by this animal over the course of a year.\n\nThis is calculated from milk amount and milking interval. -->
+  <Stat_Animal_MilkPerYearDesc>كمية الحليب التي ينتجها هذا الحيوان على مدار عام كامل.\n\nيتم حساب ذلك من كمية الحليب وفترة الحلب.</Stat_Animal_MilkPerYearDesc>
+  <!-- EN: Milk market value -->
+  <Stat_Animal_MilkValue>القيمة السوقية للحليب</Stat_Animal_MilkValue>
+  <!-- EN: The value of one unit of this creature's milk. -->
+  <Stat_Animal_MilkValueDesc>قيمة وحدة واحدة من حليب هذا المخلوق.</Stat_Animal_MilkValueDesc>
+  <!-- EN: Milk value per year -->
+  <Stat_Animal_MilkValuePerYear>قيمة الحليب السنوية</Stat_Animal_MilkValuePerYear>
+  <!-- EN: The market value of one year's worth of milk from this creature, assuming it never goes hungry and is milked instantly at the end of each milk interval.\n\nThis is calculated from milk per year and milk market value. -->
+  <Stat_Animal_MilkValuePerYearDesc>القيمة السوقية لإنتاج حليب عام كامل من هذا المخلوق، بافتراض أنه لا يجوع أبداً ويتم حلبه فوراً عند نهاية كل فترة حلب.\n\nيتم حساب ذلك من كمية الحليب السنوية والقيمة السوقية للحليب.</Stat_Animal_MilkValuePerYearDesc>
+  <!-- EN: Wool type -->
+  <Stat_Animal_WoolType>نوع الصوف</Stat_Animal_WoolType>
+  <!-- EN: The type of wool produced by this creature. -->
+  <Stat_Animal_WoolTypeDesc>نوع الصوف الذي ينتجه هذا المخلوق.</Stat_Animal_WoolTypeDesc>
+  <!-- EN: Wool amount -->
+  <Stat_Animal_WoolAmount>كمية الصوف</Stat_Animal_WoolAmount>
+  <!-- EN: The amount of wool yielded by this creature each time it is shorn. -->
+  <Stat_Animal_WoolAmountDesc>كمية الصوف التي ينتجها هذا المخلوق في كل مرة يتم جزه فيها.</Stat_Animal_WoolAmountDesc>
+  <!-- EN: Wool shearing interval -->
+  <Stat_Animal_WoolGrowthTime>فترة جز الصوف</Stat_Animal_WoolGrowthTime>
+  <!-- EN: The time after shearing before this creature can be shorn again. -->
+  <Stat_Animal_WoolGrowthTimeDesc>الوقت المطلوبة بعد الجز قبل أن يصبح بالإمكان جز صوف هذا المخلوق مجدداً.</Stat_Animal_WoolGrowthTimeDesc>
+  <!-- EN: Wool amount per year -->
+  <Stat_Animal_WoolPerYear>كمية الصوف السنوية</Stat_Animal_WoolPerYear>
+  <!-- EN: The amount of wool produced by this creature per year.\n\nThis is calculated from wool amount and wool shearing interval. -->
+  <Stat_Animal_WoolPerYearDesc>كمية الصوف التي ينتجها هذا المخلوق سنوياً.\n\nيتم حساب ذلك من كمية الصوف وفترة جز الصوف.</Stat_Animal_WoolPerYearDesc>
+  <!-- EN: Wool market value -->
+  <Stat_Animal_WoolValue>القيمة السوقية للصوف</Stat_Animal_WoolValue>
+  <!-- EN: The market value of one unit of this creature's wool. -->
+  <Stat_Animal_WoolValueDesc>القيمة السوقية لوحدة واحدة من صوف هذا المخلوق.</Stat_Animal_WoolValueDesc>
+  <!-- EN: Wool value per year -->
+  <Stat_Animal_WoolValuePerYear>قيمة الصوف السنوية</Stat_Animal_WoolValuePerYear>
+  <!-- EN: The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value. -->
+  <Stat_Animal_WoolValuePerYearDesc>القيمة السوقية لصوف عام كامل من هذا المخلوق.\n\nيتم حساب ذلك من كمية الصوف السنوية والقيمة السوقية للصوف.</Stat_Animal_WoolValuePerYearDesc>
+
+  <!-- EN: How much of the total possible study you have performed on this object. -->
+  <Stat_Studiable_Desc>مقدار ما أنجزته من إجمالي الدراسة الممكنة على هذا الجسم.</Stat_Studiable_Desc>
+
+  <!-- EN: Source -->
+  <Stat_Source_Label>المصدر</Stat_Source_Label>
+  <!-- EN: This content came from the official expansion -->
+  <Stat_Source_OfficialExpansionReport>هذا المحتوى يأتي من التوسعة الرسمية</Stat_Source_OfficialExpansionReport>
+  <!-- EN: This content came from the mod -->
+  <Stat_Source_ModReport>هذا المحتوى يأتي من المود</Stat_Source_ModReport>
+
+  <!-- EN: Contained book beauty -->
+  <ContainedBookBeauty>جمال الكتاب المحتوى</ContainedBookBeauty>
+  <!-- EN: {0} hits -->
+  <Stat_TrapDamageHitCount>{0} ضربات</Stat_TrapDamageHitCount>
+
+  <!-- EN: The amount of progress that has been made towards hacking this object. -->
+  <Stat_Thing_HackingProgress>مقدار التقدم الذي تم إحرازه في اختراق هذا الجسم.</Stat_Thing_HackingProgress>
+
+  <!-- EN: Multiplier for {0} terrain -->
+  <StatsReport_TerrainSpeedMultiplier>مضاعف لتضاريس {0}</StatsReport_TerrainSpeedMultiplier>
+
+  <!-- EN: {0} trained -->
+  <StatsReport_Trainable>تم تدريب {0}</StatsReport_Trainable>
+  <!-- EN: Available training -->
+  <StatsReport_AvailableTraining>التدريب المتاح</StatsReport_AvailableTraining>
+  <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
+  <StatsReport_AvailableTraining_Desc>المهام التي يمكن تدريب هذا المخلوق على أدائها. يعتمد التدريب المتاح على قابلية المخلوق للتدريب، وحجم جسمه، ونوعه.</StatsReport_AvailableTraining_Desc>
+  
+</LanguageData>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Room requirements -->
+  <!-- EN: Need throneroom -->
+  <NeedThroneAssigned>بحاجة لغرفة عرش</NeedThroneAssigned>
+  <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nEnsure the title holder is assigned a throne inside a throneroom.\n\nThe throneroom should be appropriately sized and decorated to satisfy the title's specific requirements.\n\nMultiple thrones may be placed in one throneroom. -->
+  <NeedThroneAssignedDesc>أحد أفرادك لديه لقب ملكي يتطلب غرفة عرش، لكن لم يتم تعيين غرفة عرش.\n\nتأكد من تعيين حامل اللقب لعرش داخل غرفة عرش.\n\nيجب أن تكون غرفة العرش بحجم مناسب ومزخرفة لتلبي متطلبات اللقب المحددة.\n\nيمكن وضع عدة عروش في غرفة عرش واحدة.</NeedThroneAssignedDesc>
+
+  <!-- EN: Undignified bedroom -->
+  <UndignifiedBedroom>غرفة نوم غير مكرمة</UndignifiedBedroom>
+  <!-- EN: One of your people has a royal title that requires a bedroom with specific features. Either no bedroom is assigned, or the assigned bedroom doesn't satisfy the requirements. -->
+  <UndignifiedBedroomDesc>أحد أفرادك لديه لقب ملكي يتطلب غرفة نوم بميزات محددة. إما أنه لم يتم تعيين غرفة نوم، أو أن الغرفة المعينة لا تلبي المتطلبات.</UndignifiedBedroomDesc>
+
+  <!-- EN: Title requires bedroom -->
+  <NeedBedroomAssigned>اللقب يتطلب غرفة نوم</NeedBedroomAssigned>
+  <!-- EN: One of your people has a royal title that requires a personal bedroom, but no bedroom is assigned.\n\nAssign them a personal bedroom. The bedroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
+  <NeedBedroomAssignedDesc>أحد أفرادك لديه لقب ملكي يتطلب غرفة نوم شخصية، لكن لم يتم تعيين غرفة نوم.\n\nعيّن له غرفة نوم شخصية. يجب أن تكون غرفة النوم بحجم مناسب ومزخرفة لتلبي متطلبات اللقب المحددة.</NeedBedroomAssignedDesc>
+
+  <!-- EN: Undignified throneroom -->
+  <UndignifiedThroneroom>غرفة عرش غير مكرمة</UndignifiedThroneroom>
+  <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
+  <UndignifiedThroneroomDesc>أحد أفرادك لديه لقب ملكي وعرش، لكن غرفة العرش لا تلبي متطلبات اللقب.</UndignifiedThroneroomDesc>
+  
+  <!-- EN: No acceptable food -->
+  <RoyalNoAcceptableFood>لا يوجد طعام مقبول</RoyalNoAcceptableFood>
+  <!-- EN: One of your people has a royal title with specific food requirements. But there's no food available that satisfies these requirements. -->
+  <RoyalNoAcceptableFoodDesc>أحد أفرادك لديه لقب ملكي بمتطلبات طعام محددة. لكن لا يوجد طعام متاح يلبي هذه المتطلبات.</RoyalNoAcceptableFoodDesc>
+
+  <!-- EN: {0} days until requirement begins -->
+  <RoomRequirementGracePeriodDesc>{0} يوم حتى يبدأ المطلب</RoomRequirementGracePeriodDesc>
+
+  <!-- EN: Throne not usable -->
+  <ThroneroomInvalidConfiguration>العرش غير قابل للاستخدام</ThroneroomInvalidConfiguration>
+  <!-- EN: A throne is not usable because of how it is set up: -->
+  <ThroneroomInvalidConfigurationDesc>العرش غير قابل للاستخدام بسبب طريقة إعداده:</ThroneroomInvalidConfigurationDesc>
+  
+  <!-- EN: Monument missing blueprints -->
+  <MonumentMarkerMissingBlueprints>النصب ينقصه المخططات</MonumentMarkerMissingBlueprints>
+  <!-- EN: The monument won't be completed because blueprints have not been placed for all its parts.\n\nSelect the monument marker and click "Place blueprints", or place the blueprints manually. -->
+  <MonumentMarkerMissingBlueprintsDesc>لن يكتمل النصب لأن المخططات لم توضع لجميع أجزائه.\n\nاختر علامة النصب وانقر على "وضع المخططات"، أو ضع المخططات يدوياً.</MonumentMarkerMissingBlueprintsDesc>
+
+  <!-- EN: Beacon unusable -->
+  <ShipLandingBeaconUnusable>منارة غير قابلة للاستخدام</ShipLandingBeaconUnusable>
+  <!-- EN: A ship landing beacon is powered but can't be used. To be usable, four of these must be placed on the corners of a square at least 9 tiles wide, and the entire square area must be clear of obstructions including buildings, people, and animals. -->
+  <ShipLandingBeaconUnusableDesc>منارة هبوط السفن مزودة بالطاقة لكن لا يمكن استخدامها. لتكون قابلة للاستخدام، يجب وضع أربع منها على زوايا مربع بعرض 9 خلايا على الأقل، ويجب أن تكون مساحة المربع بأكملها خالية من العوائق بما في ذلك المباني والأشخاص والحيوانات.</ShipLandingBeaconUnusableDesc>
+
+  <!-- EN: Need meditation spot -->
+  <NeedMeditationSpotAlert>بحاجة لبقعة تأمل</NeedMeditationSpotAlert>
+  <!-- EN: These colonists have a psyfocus need or are scheduled to meditate, but don't have any meditation spots available for them.\n{0}\n\nPlace a meditation spot and ensure it is reachable and usable. Colonists will prefer the meditation spot near the best focus object they can use. Colonists won't meditate in another colonist's bedroom. -->
+  <NeedMeditationSpotAlertDesc>لدى هؤلاء المستعمرين حاجة تركيز نفسي أو هم مجدولون للتأمل، لكن لا توجد أي بقع تأمل متاحة لهم.\n{0}\n\nضع بقعة تأمل وتأكد من أنها قابلة للوصول والاستخدام. سيفضل المستعمرون بقعة التأمل القريبة من أفضل كائن تركيز يمكنهم استخدامه. لن يتأمل المستعمرون في غرفة نوم مستعمر آخر.</NeedMeditationSpotAlertDesc>
+
+  <!-- EN: Unusable meditation focus -->
+  <UnusableMeditationFocusAlert>تركيز تأمل غير قابل للاستخدام</UnusableMeditationFocusAlert>
+  <!-- EN: These colonists are meditating near a focus object they can't use.\n{0}\n\nEach person can meditate to different objects, depending on their meditation focus types. A person's focus types depend on their backstories, traits, and titles. To see a person's meditation focus types, look at their details window by selecting them and clicking the 'i' button. -->
+  <UnusableMeditationFocusAlertDesc>هؤلاء المستعمرون يتأملون بالقرب من كائن تركيز لا يمكنهم استخدامه.\n{0}\n\nيمكن لكل شخص التأمل لكائنات مختلفة، اعتماداً على أنواع تركيز التأمل الخاصة بهم. تعتمد أنواع تركيز الشخص على قصصه الخلفية وسماته وألقابه. لرؤية أنواع تركيز التأمل لشخص ما، اطلع على نافذة تفاصيله باختياره والنقر على الزر 'i'.</UnusableMeditationFocusAlertDesc>
+
+  <!-- EN: Permit choice ready -->
+  <PermitChoiceReadyAlert>اختيار الإذن جاهز</PermitChoiceReadyAlert>
+  <!-- EN: {PAWN_nameDef} can choose a new permit. -->
+  <PermitChoiceReadyAlertDesc>يمكن لـ {PAWN_nameDef} اختيار إذن جديد.</PermitChoiceReadyAlertDesc>
+  
+  <!-- EN: Bestower waiting -->
+  <BestowerWaitingAlert>المانح ينتظر</BestowerWaitingAlert>
+  <!-- EN: A bestower is waiting to begin the bestowing ceremony. -->
+  <BestowerWaitingAlertDesc>المانح ينتظر لبدء حفل المنح.</BestowerWaitingAlertDesc>
+  
+  <!-- EN: Anima linking ceremony ready -->
+  <AnimaLinkingReadyLabel>حفل ارتباط الأنيما جاهز</AnimaLinkingReadyLabel>
+  <!-- EN: An anima tree has enough anima grass to carry out the linking ceremony and level up psylink for these colonists -->
+  <AnimaLinkingReadyDesc>شجرة أنيما لديها ما يكفي من عشب الأنيما لإجراء حفل الارتباط ورفع مستوى الرابط النفسي لهؤلاء المستعمرين</AnimaLinkingReadyDesc>
+  <!-- EN: In order to start the ceremony, select a colonist, click the 'begin anima tree linking' button and select the anima tree you want to use. -->
+  <AnimaLinkingReadyDescExtra>لبدء الحفل، اختر مستعمراً، وانقر على زر 'ابدأ ارتباط شجرة الأنيما' واختر شجرة الأنيما التي تريد استخدامها.</AnimaLinkingReadyDescExtra>
+  
+</LanguageData>

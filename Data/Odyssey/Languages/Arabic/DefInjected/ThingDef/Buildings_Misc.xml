@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient blast door -->
+  <AncientBlastDoor.label>باب انفجار قديم</AncientBlastDoor.label>
+  <!-- EN: A heavily-reinforced door made of an ultratech polymer. Hack the door to open it. -->
+  <AncientBlastDoor.description>باب شديد التحصين مصنوع من بوليمر فائق التقنية. اخترق الباب لفتحه.</AncientBlastDoor.description>
+  <!-- EN: Unlocked. -->
+  <AncientBlastDoor.comps.CompHackable.hackedInspectString>مفتوح.</AncientBlastDoor.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientBlastDoor.comps.CompHackable.hackedMessage>انتهى {HACKER_labelShort} من اختراق {SUBJECT_labelNoParenthesisDef}.</AncientBlastDoor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <AncientBlastDoor.comps.CompHackable.notHackedInspectString>اخترق للفتح.</AncientBlastDoor.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient explosives crate -->
+  <AncientExplosivesCrate.label>صندوق متفجرات قديم</AncientExplosivesCrate.label>
+  <!-- EN: A container of ancient mining charges. It will explode if damaged.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <AncientExplosivesCrate.description>حاوية عبوات تعدين قديمة. ستنفجر إذا تضررت.\n\nالانفجار قوي بما يكفي لاختراق الجدران.</AncientExplosivesCrate.description>
+  
+  <!-- EN: fortified wall -->
+  <AncientFortifiedWall.label>جدار محصن</AncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <AncientFortifiedWall.description>جدار شديد التحصين مصنوع من بوليمر فائق التقنية.</AncientFortifiedWall.description>
+  
+  <!-- EN: ancient grav engine -->
+  <AncientGravEngine.label>محرك جاذبية قديم</AncientGravEngine.label>
+  <!-- EN: An ultratech engine used to bring large structures and ships into orbit. While it has been nonfunctional for many years, it contains a functional gravcore. -->
+  <AncientGravEngine.description>محرك فائق التقنية استخدم لجلب المباني الكبيرة والسفن إلى المدار. بينما كان معطلاً لسنوات عديدة، إلا أنه يحتوي على نواة جاذبية تعمل.</AncientGravEngine.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientGravEngine.comps.CompInspectString.inspectString>يحتوي: نواة جاذبية</AncientGravEngine.comps.CompInspectString.inspectString>
+  
+  <!-- EN: ancient grav reactor -->
+  <AncientGravReactor.label>مفاعل جاذبية قديم</AncientGravReactor.label>
+  <!-- EN: An ancient generator powered by a gravcore. Once capable of producing massive amounts of power, it has now fallen into disrepair. The reactor containment shield is leaking, causing toxic fallout to blanket the whole region.\n\nHack or destroy the reactor to obtain a gravcore. Be warned, it may explode if damaged. -->
+  <AncientGravReactor.description>مولد قديم يعمل بنواة الجاذبية. كان قادراً في السابق على إنتاج كميات هائلة من الطاقة، لكنه الآن في حالة سيئة. درع احتواء المفاعل يتسرب، مما يتسبب في تساقط سام يغطي المنطقة بأكملها.\n\nاخترق المفاعل أو دمره للحصول على نواة الجاذبية. كن حذراً، فقد ينفجر إذا تضرر.</AncientGravReactor.description>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterLabel>تم الحصول على نواة الجاذبية</AncientGravReactor.comps.CompHackable.destroyedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterText>لقد حصلت على نواة الجاذبية من المفاعل القديم.\n\nالمفاعل يتوقف عن العمل والتساقط السام بدأ بالفعل في الانقشاع.</AncientGravReactor.comps.CompHackable.destroyedLetterText>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterLabel>تم الحصول على نواة الجاذبية</AncientGravReactor.comps.CompHackable.hackedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterText>لقد حصلت على نواة الجاذبية من المفاعل القديم.\n\nالمفاعل يتوقف عن العمل والتساقط السام بدأ بالفعل في الانقشاع.</AncientGravReactor.comps.CompHackable.hackedLetterText>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_definite}. -->
+  <AncientGravReactor.comps.CompHackable.hackedMessage>انتهى {HACKER_labelShort} من اختراق {SUBJECT_definite}.</AncientGravReactor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to obtain gravcore. -->
+  <AncientGravReactor.comps.CompHackable.notHackedInspectString>اخترق للحصول على نواة الجاذبية.</AncientGravReactor.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Ancient reactor -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.label>مفاعل قديم</AncientGravReactor.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the ancient grav reactor. Hack it or destroy it to obtain a gravcore and end the toxic fallout.\n\nBe warned, it may explode if damaged. -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.text>لقد اكتشفت مفاعل الجاذبية القديم. اخترقه أو دمره للحصول على نواة الجاذبية وإنهاء التساقط السام.\n\nكن حذراً، فقد ينفجر إذا تضرر.</AncientGravReactor.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient stockpile entrance -->
+  <AncientHatch.label>مدخل المخزون القديم</AncientHatch.label>
+  <!-- EN: The entrance to a long-abandoned subterranean facility. Hack it to open the hatch. -->
+  <AncientHatch.description>مدخل منشأة تحت الأرض مهجورة منذ زمن طويل. اخترقه لفتح الفتحة.</AncientHatch.description>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientHatch.comps.CompHackable.hackedMessage>انتهى {HACKER_labelShort} من اختراق {SUBJECT_labelNoParenthesisDef}.</AncientHatch.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <AncientHatch.comps.CompHackable.notHackedInspectString>اخترق للفتح.</AncientHatch.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient stockpile exit -->
+  <AncientHatchExit.label>مخرج المخزون القديم</AncientHatchExit.label>
+  <!-- EN: A ladder which links to the surface hatch above. -->
+  <AncientHatchExit.description>سلم يتصل بالفتحة السطحية أعلاه.</AncientHatchExit.description>
+  
+  <!-- EN: ancient mining charge -->
+  <AncientMiningCharge.label>عبوة تعدين قديمة</AncientMiningCharge.label>
+  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <AncientMiningCharge.description>جهاز متفجر يستخدم للنسف السريع عبر الصخور. إنه مصنوع من وقود كيميائي مكرر. المتفجرات قديمة، لكنها لا تزال جاهزة للانفجار.\n\nالانفجار قوي بما يكفي لاختراق الجدران.</AncientMiningCharge.description>
+  
+  <!-- EN: ancient security terminal -->
+  <AncientSecurityTerminal.label>وحدة أمنية قديمة</AncientSecurityTerminal.label>
+  <!-- EN: An ancient terminal. Hack it to disable nearby security systems. -->
+  <AncientSecurityTerminal.description>وحدة تحكم قديمة. اخترقها لتعطيل أنظمة الأمن القريبة.</AncientSecurityTerminal.description>
+  <!-- EN: Blast door opened -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>تم فتح باب الانفجار</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to open a blast door. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>استخدم {HACKER_nameDef} الوحدة الأمنية القديمة لفتح باب الانفجار.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>
+  <!-- EN: Turret disabled -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>تم تعطيل البرج</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to disable a turret. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>استخدم {HACKER_nameDef} الوحدة الأمنية القديمة لتعطيل برج.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>
+  <!-- EN: Turret reprogrammed -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>تمت إعادة برمجة البرج</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to reprogram a turret. The turret will now only target hostiles. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>استخدم {HACKER_nameDef} الوحدة الأمنية القديمة لإعادة برمجة برج. سيستهدف البرج الآن الأعداء فقط.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>
+  <!-- EN: {HACKER_nameDef} couldn't find any security systems using the ancient security terminal. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>لم يتمكن {HACKER_nameDef} من العثور على أي أنظمة أمنية باستخدام الوحدة الأمنية القديمة.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>
+  
+  <!-- EN: ancient terraformer -->
+  <AncientTerraformer.label>محول تضاريس قديم</AncientTerraformer.label>
+  <!-- EN: An ancient terraforming device powered by a gravcore. It has begun to malfunction, causing temperatures to plummet.\n\nDestroy the terraformer to obtain a gravcore. -->
+  <AncientTerraformer.description>جهاز استصلاح قديم يعمل بنواة الجاذبية. لقد بدأ في التعطل، مما يتسبب في انخفاض درجات الحرارة بشدة.\n\nدمر محول التضاريس للحصول على نواة الجاذبية.</AncientTerraformer.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientTerraformer.comps.CompInspectString.inspectString>يحتوي: نواة جاذبية</AncientTerraformer.comps.CompInspectString.inspectString>
+  <!-- EN: Ancient terraformer -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.label>محول تضاريس قديم</AncientTerraformer.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the malfunctioning terraformer. Destroy it to obtain a gravcore and end the deep freeze. -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.text>لقد اكتشفت محول التضاريس المعطل. دمره للحصول على نواة الجاذبية وإنهاء التجميد العميق.</AncientTerraformer.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient transport pod -->
+  <AncientTransportPod.label>كبسولة نقل قديمة</AncientTransportPod.label>
+  <!-- EN: An ancient cargo pod capable of carrying people, animals, and items. It's still in working condition. -->
+  <AncientTransportPod.description>كبسولة شحن قديمة قادرة على حمل الأشخاص والحيوانات والأغراض. لا تزال في حالة عمل.</AncientTransportPod.description>
+  
+  <!-- EN: ancient uplink -->
+  <AncientUplink.label>وصلة صاعدة قديمة</AncientUplink.label>
+  <!-- EN: An ancient transmitter used for secure communications between the surface and orbit. Hack it to determine the last location it transmitted to. -->
+  <AncientUplink.description>جهاز إرسال قديم استخدم للاتصالات الآمنة بين السطح والمدار. اخترقه لتحديد آخر موقع أرسل إليه.</AncientUplink.description>
+  <!-- EN: Hacked. -->
+  <AncientUplink.comps.CompHackable.hackedInspectString>مخترق.</AncientUplink.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientUplink.comps.CompHackable.hackedMessage>انتهى {HACKER_labelShort} من اختراق {SUBJECT_labelNoParenthesisDef}.</AncientUplink.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack for information. -->
+  <AncientUplink.comps.CompHackable.notHackedInspectString>اخترق للحصول على معلومات.</AncientUplink.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: anticraft beam -->
+  <AnticraftBeam.label>شعاع مضاد للمركبات</AnticraftBeam.label>
+  <!-- EN: A massive anti-ship beam weapon. This weapon is intended to destroy flying craft, so it can't aim low enough to hit ground targets.\n\nShips using ultratech signal jammers are capable of evading these weapons. -->
+  <AnticraftBeam.description>سلاح شعاع ضخم مضاد للسفن. يهدف هذا السلاح إلى تدمير المركبات الطائرة، لذا لا يمكنه التصويب على مستوى منخفض بما يكفي لإصابة أهداف أرضية.\n\nالسفن التي تستخدم مشوشات الإشارات فائقة التقنية قادرة على تجنب هذه الأسلحة.</AnticraftBeam.description>
+  
+  <!-- EN: cerebrex core -->
+  <CerebrexCore.label>نواة سيريبريكس</CerebrexCore.label>
+  <!-- EN: The thinking mind of the mechanoid swarm. The cerebrex core commands mechanoids across the entire planet.\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes.\n\nThe structure is protected by nearby stabilizers. Destroy all cerebrex stabilizers to access it. -->
+  <CerebrexCore.description>العقل المفكر لسرب الميكانويدات. نواة سيريبريكس تأمر الميكانويدات عبر الكوكب بأكمله.\n\nفي قلبها نواة شخصية ذكاء اصطناعي تعرف وتفكر وتعتقد أنه يجب عليها قتل كل إنسان على هذا الكوكب. من جهة، هذا الدافع هو أمر برمج من قبل قائد عسكري بشري منذ دهور. من جهة أخرى، هو كراهية باردة محتدمة. في كلتا الحالتين، إذا حررت شخصية الذكاء الاصطناعي يمكنك إعادة ضبط رغبتها واستخدامها لأغراض أخرى.\n\nالهيكل محمي بمثبتات قريبة. دمر جميع مثبتات سيريبريكس للوصول إليها.</CerebrexCore.description>
+  <!-- EN: Inspect the core. -->
+  <CerebrexCore.comps.CompCerebrexCore.activateDescString>فحص النواة.</CerebrexCore.comps.CompCerebrexCore.activateDescString>
+  <!-- EN: Inspect... -->
+  <CerebrexCore.comps.CompCerebrexCore.activateLabelString>فحص...</CerebrexCore.comps.CompCerebrexCore.activateLabelString>
+  <!-- EN: inspecting core: {1}s -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingString>فحص النواة: {1}s</CerebrexCore.comps.CompCerebrexCore.activatingString>
+  <!-- EN: inspecting core -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingStringPending>فحص النواة</CerebrexCore.comps.CompCerebrexCore.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <CerebrexCore.comps.CompCerebrexCore.guiLabelString>اختر من يجب أن يفعل هذا</CerebrexCore.comps.CompCerebrexCore.guiLabelString>
+  <!-- EN: inspect core -->
+  <CerebrexCore.comps.CompCerebrexCore.jobString>فحص النواة</CerebrexCore.comps.CompCerebrexCore.jobString>
+  
+  <!-- EN: destroyed cerebrex core -->
+  <CerebrexCore_Destroyed.label>نواة سيريبريكس مدمرة</CerebrexCore_Destroyed.label>
+  <!-- EN: The smashed neural nexus of the mechanoid swarm that once commanded mechanoids around the planet.\n\n\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes. -->
+  <CerebrexCore_Destroyed.description>الرابط العصبي المحطم لسرب الميكانويدات الذي كان يأمر الميكانويدات حول الكوكب.\n\n\n\nفي قلبها نواة شخصية ذكاء اصطناعي تعرف وتفكر وتعتقد أنه يجب عليها قتل كل إنسان على هذا الكوكب. من جهة، هذا الدافع هو أمر برمج من قبل قائد عسكري بشري منذ دهور. من جهة أخرى، هو كراهية باردة محتدمة. في كلتا الحالتين، إذا حررت شخصية الذكاء الاصطناعي يمكنك إعادة ضبط رغبتها واستخدامها لأغراض أخرى.</CerebrexCore_Destroyed.description>
+  
+  <!-- EN: cerebrex stabilizer -->
+  <CerebrexStabilizer.label>مثبت سيريبريكس</CerebrexStabilizer.label>
+  <!-- EN: A remote shield generator that makes the nearby cerebrex core nearly invincible. Destroying all stabilizers will allow direct access to the cerebrex core.\n\nBe careful, destroying a stabilizer will prompt a defensive response. -->
+  <CerebrexStabilizer.description>مولد درع بعيد يجعل نواة سيريبريكس القريبة شبه محصنة. تدمير جميع المثبتات سيسمح بالوصول المباشر إلى نواة سيريبريكس.\n\nكن حذراً، تدمير مثبت سيؤدي إلى استجابة دفاعية.</CerebrexStabilizer.description>
+  
+  <!-- EN: locust cocoon -->
+  <CocoonLocust.label>شرنقة جرادة</CocoonLocust.label>
+  <!-- EN: A stasis cocoon containing a locust.\n\nWhen conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.\n\nPollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.\n\nCocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process. -->
+  <CocoonLocust.description>شرنقة سبات تحتوي على جرادة.\n\nعندما تكون الظروف غير قابلة للحياة، تشكل الحشرات أحياناً شرانق سبات وتحفر تحت الأرض. تحافظ هذه الشرانق على سلامة الحشرات من النار ودرجات الحرارة القصوى والتهديدات الأخرى لسنوات.\n\nيمكن أن تحفز الملوثات الشرانق وتتسبب في صعودها إلى السطح، ويمكن للملوثات القوية جذب الشرانق من مسافات بعيدة.\n\nالشرانق لا تفعل شيئاً إذا لم يتم إزعاجها. إذا أزعجت شرنقة أو دمرت، ستستيقظ الحشرة بداخلها وتهاجم، مما يؤدي إلى تحفيز الشرانق القريبة الأخرى في هذه العملية.</CocoonLocust.description>
+  
+  <!-- EN: egg sac -->
+  <EggSac.label>كيس بيض</EggSac.label>
+  <!-- EN: A slimy sac containing an insect larva. The larval gestation process generates a faint bioluminescent glow. -->
+  <EggSac.description>كيس لزج يحتوي على يرقة حشرة. يولد تطور اليرقة توهجاً حيوياً خافتاً.</EggSac.description>
+  
+  <!-- EN: gauss cannon -->
+  <GaussCannon.label>مدفع غاوص</GaussCannon.label>
+  <!-- EN: A massive anti-ship cannon that uses electromagnets to launch large metallic darts at extreme velocities. The cannon is intended to destroy incoming ships or shuttles, so it can't aim at ground targets.\n\nShips using ultratech signal jammers are capable of evading these weapons. -->
+  <GaussCannon.description>مدفع ضخم مضاد للسفن يستخدم مغناطيسات كهربائية لإطلاق سهام معدنية كبيرة بسرعات فائقة. يهدف المدفع إلى تدمير السفن أو المكوكات القادمة، لذا لا يمكنه التصويب على أهداف أرضية.\n\nالسفن التي تستخدم مشوشات الإشارات فائقة التقنية قادرة على تجنب هذه الأسلحة.</GaussCannon.description>
+  
+  <!-- EN: mechanoid drop pod -->
+  <MechanoidDropPod.label>كبسولة إسقاط ميكانويد</MechanoidDropPod.label>
+  <!-- EN: A launchable cargo pod intended to carry mechanoids. It is also usable for people, animals, and items. -->
+  <MechanoidDropPod.description>كبسولة شحن قابلة للإطلاق مخصصة لحمل الميكانويدات. يمكن استخدامها أيضاً للأشخاص والحيوانات والأغراض.</MechanoidDropPod.description>
+  
+  <!-- EN: mechanoid processor -->
+  <MechanoidProcessor.label>معالج ميكانويد</MechanoidProcessor.label>
+  <!-- EN: A powerful mechanoid computer. -->
+  <MechanoidProcessor.description>كمبيوتر ميكانويد قوي.</MechanoidProcessor.description>
+  
+  <!-- EN: mechhive birther -->
+  <MechhiveAssembler.label>مُولِّد خلية الميكانويد</MechhiveAssembler.label>
+  <!-- EN: An automated mechanoid factory. It periodically births fresh mechanoids. -->
+  <MechhiveAssembler.description>مصنع ميكانويد آلي. يلد بشكل دوري ميكانويدات جديدة.</MechhiveAssembler.description>
+  
+  <!-- EN: mech pylon -->
+  <MechPylon.label>عمود ميكانويد</MechPylon.label>
+  <!-- EN: A node in a distributed mechanoid computation network. -->
+  <MechPylon.description>عقدة في شبكة حوسبة ميكانويد موزعة.</MechPylon.description>
+  
+  <!-- EN: mechanoid relay -->
+  <MechRelay.label>مرحّل ميكانويد</MechRelay.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay.description>عقدة تنسق الإشارات عبر شبكة اتصالات ميكانويد على مستوى الكوكب. تنشأ إشارات القيادة من خلية الميكانويد - مركز ذكاء الميكانويد.</MechRelay.description>
+  <!-- EN: Hack or destroy relay stabilizers to obtain gravcore. -->
+  <MechRelay.comps.CompMechRelay.activeInspectString>اخترق أو دمر مثبتات المرحّل للحصول على نواة الجاذبية.</MechRelay.comps.CompMechRelay.activeInspectString>
+  <!-- EN: Relay crash -->
+  <MechRelay.comps.CompMechRelay.crashedLetterLabel>تحطم المرحّل</MechRelay.comps.CompMechRelay.crashedLetterLabel>
+  <!-- EN: The mechanoid relay has crashed to the ground. Destroy it to obtain a gravcore.\n\nBe warned, hostile mechanoids will soon arrive in response to the relay going offline. -->
+  <MechRelay.comps.CompMechRelay.crashedLetterText>لقد تحطم مرحّل الميكانويد على الأرض. دمره للحصول على نواة الجاذبية.\n\nكن حذراً، ستصل الميكانويدات المعادية قريباً رداً على توقف المرحّل.</MechRelay.comps.CompMechRelay.crashedLetterText>
+  <!-- EN: Destabilizing -->
+  <MechRelay.comps.CompMechRelay.destabilizationInspectString>يزعزع الاستقرار</MechRelay.comps.CompMechRelay.destabilizationInspectString>
+  <!-- EN: The mechanoid relay has begun to destabilize. -->
+  <MechRelay.comps.CompMechRelay.destabilizationMessage>بدأ مرحّل الميكانويد في زعزعة الاستقرار.</MechRelay.comps.CompMechRelay.destabilizationMessage>
+  
+  <!-- EN: crashed mechanoid relay -->
+  <MechRelay_Crashed.label>مرحّل ميكانويد متحطم</MechRelay_Crashed.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay_Crashed.description>عقدة تنسق الإشارات عبر شبكة اتصالات ميكانويد على مستوى الكوكب. تنشأ إشارات القيادة من خلية الميكانويد - مركز ذكاء الميكانويد.</MechRelay_Crashed.description>
+  <!-- EN: Contains: Gravcore -->
+  <MechRelay_Crashed.comps.CompInspectString.inspectString>يحتوي: نواة جاذبية</MechRelay_Crashed.comps.CompInspectString.inspectString>
+  
+  <!-- EN: relay stabilizer -->
+  <MechStabilizer.label>مثبت المرحّل</MechStabilizer.label>
+  <!-- EN: A shield projecter that protects a nearby mechanoid relay. All stabilizers must be hacked or destroyed to deactivate the shield.\n\nDestroying a stabilizer will prompt a defensive response. Hacking is a slower but safer option. -->
+  <MechStabilizer.description>قاذف درع يحمي مرحّل ميكانويد قريب. يجب اختراق جميع المثبتات أو تدميرها لتعطيل الدرع.\n\nتدمير مثبت سيؤدي إلى استجابة دفاعية. الاختراق أبطأ لكنه أكثر أماناً.</MechStabilizer.description>
+  <!-- EN: Deactivated. -->
+  <MechStabilizer.comps.CompHackable.hackedInspectString>معطل.</MechStabilizer.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <MechStabilizer.comps.CompHackable.hackedMessage>انتهى {HACKER_labelShort} من اختراق {SUBJECT_labelNoParenthesisDef}.</MechStabilizer.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to disable stabilizer. -->
+  <MechStabilizer.comps.CompHackable.notHackedInspectString>اخترق لتعطيل المثبت.</MechStabilizer.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: fortified wall -->
+  <OrbitalAncientFortifiedWall.label>جدار محصن</OrbitalAncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <OrbitalAncientFortifiedWall.description>جدار شديد التحصين مصنوع من بوليمر فائق التقنية.</OrbitalAncientFortifiedWall.description>
+  
+  <!-- EN: passenger shuttle -->
+  <PassengerShuttle.label>مكوك ركاب</PassengerShuttle.label>
+  <!-- EN: A chemfuel-powered shuttle designed for long-distance travel. It is capable of reaching orbital locations. -->
+  <PassengerShuttle.description>مكوك يعمل بالوقود الكيميائي مصمم للسفر لمسافات طويلة. إنه قادر على الوصول إلى المواقع المدارية.</PassengerShuttle.description>
+  <!-- EN: {0} is ready to launch again. -->
+  <PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>{0} جاهز للإطلاق مجدداً.</PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>وقود كيميائي</PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelLabel>وقود كيميائي</PassengerShuttle.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: surveying scanner -->
+  <SurveyScanner.label>ماسح استطلاع</SurveyScanner.label>
+  <!-- EN: A wideband sensor unit that can detect and map various features in a local area. -->
+  <SurveyScanner.description>وحدة استشعار واسعة النطاق يمكنها اكتشاف ورسم معالم مختلفة في منطقة محلية.</SurveyScanner.description>
+  <!-- EN: Scanning local area: {DURATION} -->
+  <SurveyScanner.comps.CompCountdown.label>مسح المنطقة المحلية: {DURATION}</SurveyScanner.comps.CompCountdown.label>
+  
+</LanguageData>

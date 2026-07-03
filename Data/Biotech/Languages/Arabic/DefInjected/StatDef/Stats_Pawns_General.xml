@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bandwidth cost -->
+  <BandwidthCost.label>تكلفة النطاق</BandwidthCost.label>
+  <!-- EN: How much bandwidth this mech consumes when under mechanitor control. -->
+  <BandwidthCost.description>مقدار النطاق الذي يستهلكه هذا الميكانويد عندما يكون تحت سيطرة الميكانيتور.</BandwidthCost.description>
+  
+  <!-- EN: cancer rate factor -->
+  <CancerRate.label>عامل معدل السرطان</CancerRate.label>
+  <!-- EN: A multiplier on how likely this person is to develop cancer in any given time frame. -->
+  <CancerRate.description>مضاعف على مدى احتمالية إصابة هذا الشخص بالسرطان في أي إطار زمني.</CancerRate.description>
+  
+  <!-- EN: control taking time -->
+  <ControlTakingTime.label>وقت السيطرة</ControlTakingTime.label>
+  <!-- EN: How many seconds it will take for a mechanitor to take control of this mech. -->
+  <ControlTakingTime.description>عدد الثواني التي سيستغرقها الميكانيتور للسيطرة على هذا الميكانويد.</ControlTakingTime.description>
+  <!-- EN: {0}s -->
+  <ControlTakingTime.formatString>{0}ثانية</ControlTakingTime.formatString>
+  
+  <!-- EN: fertility -->
+  <Fertility.label>خصوبة</Fertility.label>
+  <!-- EN: Fertility affects the chance of a pregnancy occurring. Pregnancy chance is dependent on the fertility of both partners. This also affects the chance of successfully implanting an embryo in a surrogate. -->
+  <Fertility.description>تؤثر الخصوبة على فرصة حدوث الحمل. تعتمد فرصة الحمل على خصوبة كلا الشريكين. كما تؤثر على فرصة زرع الجنين بنجاح في الأم البديلة.</Fertility.description>
+  
+  <!-- EN: growth vat occupant speed -->
+  <GrowthVatOccupantSpeed.label>سرعة شاغل وعاء النمو</GrowthVatOccupantSpeed.label>
+  <!-- EN: A multiplier on how quickly this person will grow when in a growth vat. -->
+  <GrowthVatOccupantSpeed.description>مضاعف على مدى سرعة نمو هذا الشخص عندما يكون في وعاء النمو.</GrowthVatOccupantSpeed.description>
+  
+  <!-- EN: hemogen gain multiplier -->
+  <HemogenGainFactor.label>مضاعف اكتساب الهيموجين</HemogenGainFactor.label>
+  <!-- EN: A multiplier on the amount of hemogen gained. -->
+  <HemogenGainFactor.description>مضاعف على مقدار الهيموجين المكتسب.</HemogenGainFactor.description>
+  
+  <!-- EN: learning rate factor -->
+  <LearningRateFactor.label>عامل سرعة التعلم</LearningRateFactor.label>
+  <!-- EN: A multiplier on how quickly a child's learning need is fulfilled by learning activities. -->
+  <LearningRateFactor.description>مضاعف على مدى سرعة إشباع حاجة الطفل للتعلم من خلال أنشطة التعلم.</LearningRateFactor.description>
+  
+  <!-- EN: mech bandwidth -->
+  <MechBandwidth.label>نطاق الميكانويد</MechBandwidth.label>
+  <!-- EN: How much bandwidth a mechanitor has. More bandwidth allows a mechanitor to produce and control more mechs at the same time.\n\nLosing bandwidth means losing control of mechs, leaving them without an overseer. Such mechs can eventually become feral if not re-dominated. -->
+  <MechBandwidth.description>مقدار النطاق الذي يمتلكه الميكانيتور. المزيد من النطاق يسمح للميكانيتور بإنتاج والتحكم في المزيد من الميكانويدات في نفس الوقت.\n\nفقدان النطاق يعني فقدان السيطرة على الميكانويدات، وتركها بدون مشرف. يمكن أن تصبح هذه الميكانويدات متوحشة في النهاية إذا لم تتم السيطرة عليها مجدداً.</MechBandwidth.description>
+  
+  <!-- EN: mech control groups -->
+  <MechControlGroups.label>مجموعات تحكم الميكانويد</MechControlGroups.label>
+  <!-- EN: How many control groups this mechanitor can direct independently. Each control group can be given its own separate orders. -->
+  <MechControlGroups.description>عدد مجموعات التحكم التي يمكن لهذا الميكانيتور توجيهها بشكل مستقل. يمكن إعطاء كل مجموعة تحكم أوامرها المنفصلة.</MechControlGroups.description>
+  
+  <!-- EN: repair energy cost -->
+  <MechEnergyLossPerHP.label>تكلفة طاقة الإصلاح</MechEnergyLossPerHP.label>
+  <!-- EN: The amount of energy that this mechanoid loses for every 100 damage repaired. -->
+  <MechEnergyLossPerHP.description>كمية الطاقة التي يفقدها هذا الميكانويد لكل 100 ضرر يتم إصلاحه.</MechEnergyLossPerHP.description>
+  
+  <!-- EN: energy usage multiplier -->
+  <MechEnergyUsageFactor.label>مضاعف استخدام الطاقة</MechEnergyUsageFactor.label>
+  <!-- EN: A multiplier on how fast a mechanoid consumes its energy reserves while operating. -->
+  <MechEnergyUsageFactor.description>مضاعف على سرعة استهلاك الميكانويد لاحتياطيات الطاقة أثناء التشغيل.</MechEnergyUsageFactor.description>
+  
+  <!-- EN: mech gestation speed -->
+  <MechFormingSpeed.label>سرعة حمل الميكانويد</MechFormingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this mechanitor can form new mechanoids at a gestator. -->
+  <MechFormingSpeed.description>مضاعف على السرعة التي يمكن لهذا الميكانيتور بها تكوين ميكانويدات جديدة في المولد.</MechFormingSpeed.description>
+  
+  <!-- EN: mech remote repair distance -->
+  <MechRemoteRepairDistance.label>مسافة الإصلاح عن بعد للميكانويد</MechRemoteRepairDistance.label>
+  <!-- EN: How far away a mech can be during remote repair. -->
+  <MechRemoteRepairDistance.description>مدى بعد الميكانويد أثناء الإصلاح عن بعد.</MechRemoteRepairDistance.description>
+  
+  <!-- EN: mech remote shield distance -->
+  <MechRemoteShieldDistance.label>مسافة الدرع عن بعد للميكانويد</MechRemoteShieldDistance.label>
+  <!-- EN: The maximum range at which a mechanitor can place a shield on a mechanoid. -->
+  <MechRemoteShieldDistance.description>أقصى مدى يمكن للميكانيتور عنده وضع درع على ميكانويد.</MechRemoteShieldDistance.description>
+  
+  <!-- EN: mech remote shield energy -->
+  <MechRemoteShieldEnergy.label>طاقة درع الميكانويد عن بعد</MechRemoteShieldEnergy.label>
+  <!-- EN: The energy a remote shield will have when created by a mechanitor. -->
+  <MechRemoteShieldEnergy.description>الطاقة التي سيحصل عليها الدرع عن بعد عند إنشائه بواسطة ميكانيتور.</MechRemoteShieldEnergy.description>
+  
+  <!-- EN: mech repair speed -->
+  <MechRepairSpeed.label>سرعة إصلاح الميكانويد</MechRepairSpeed.label>
+  <!-- EN: A multiplier on how fast a mechanitor can repair mechanoids. -->
+  <MechRepairSpeed.description>مضاعف على سرعة إصلاح الميكانيتور للميكانويدات.</MechRepairSpeed.description>
+  
+  <!-- EN: raw nutrition multiplier -->
+  <RawNutritionFactor.label>مضاعف التغذية النيئة</RawNutritionFactor.label>
+  <!-- EN: A multiplier on how nutritious raw food is for this person. Note that since meals usually have more nutrition than their raw ingredients, a boost to this stat may only mean the person gets the same nutrition from raw food as if it were cooked. -->
+  <RawNutritionFactor.description>مضاعف على مدى تغذية الطعام النيء لهذا الشخص. لاحظ أنه نظراً لأن الوجبات عادة ما تحتوي على تغذية أكثر من مكوناتها النيئة، فإن تعزيز هذه الإحصائية قد يعني فقط أن الشخص يحصل على نفس التغذية من الطعام النيء كما لو كان مطهواً.</RawNutritionFactor.description>
+  
+  <!-- EN: subcore encoding speed -->
+  <SubcoreEncodingSpeed.label>سرعة ترميز النواة الفرعية</SubcoreEncodingSpeed.label>
+  <!-- EN: A multiplier on how fast a mechanitor can create subcores. -->
+  <SubcoreEncodingSpeed.description>مضاعف على سرعة إنشاء الميكانيتور للأنوية الفرعية.</SubcoreEncodingSpeed.description>
+  
+  <!-- EN: wastepacks per recharge -->
+  <WastepacksPerRecharge.label>أكياس النفايات لكل شحنة</WastepacksPerRecharge.label>
+  <!-- EN: How many toxic wastepacks this mechanoid will generate at a mech recharger when going from 0 to 100% energy. Larger mechanoids will generally create more toxic wastepacks. -->
+  <WastepacksPerRecharge.description>عدد أكياس النفايات السامة التي سيولدها هذا الميكانويد في شاحن الميكانويدات عند الانتقال من 0 إلى 100% طاقة. ستنتج الميكانويدات الأكبر عموماً المزيد من أكياس النفايات السامة.</WastepacksPerRecharge.description>
+  <WastepacksPerRecharge.statFactorsExplanationHeader>الخصائص المؤثرة</WastepacksPerRecharge.statFactorsExplanationHeader>
+  
+</LanguageData>

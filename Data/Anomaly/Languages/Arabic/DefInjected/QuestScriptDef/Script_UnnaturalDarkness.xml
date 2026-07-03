@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>initialPhaseLetterLabel->Dimming sky</li>
+    <li>initialPhaseLetterText->The sky is dimming. Soon it will be hard to see anything that isn't directly lit by lamps or torches.\n\nBuild well-lit areas to survive. Craft disruptor flare packs to explore the darkness.</li>
+    <li>mainPhaseLetterLabel->Unnatural darkness</li>
+    <li>mainPhaseLetterText->An unnatural darkness is descending. Inhuman things move just outside the light.\n\nPillars of jagged, oily metal are falling from the sky. They are terrible to look upon but surely contain valuable technology. Reach them by building well-lit paths - and destroy them to end this nightmare.\n\nAlternatively, if you can survive long enough, the darkness will dissipate on its own.</li>
+    <li>darknessLiftedLetterLabel->Darkness lifting</li>
+    <li>darknessLiftedLetterText->The unnatural darkness has begun to dissipate. The metallic pillars have somehow folded into themselves and vanished. You survived!</li>
+  -->
+  <UnnaturalDarkness.questContentRules.rulesStrings>
+    <li>initialPhaseLetterLabel->سماء معتمة</li>
+    <li>initialPhaseLetterText->السماء تعتم. قريبًا سيكون من الصعب رؤية أي شيء غير مضاء مباشرة بالمصابيح أو المشاعل.\n\nقم ببناء مناطق مضاءة جيدًا للبقاء على قيد الحياة. اصنع حزم مشاعل معطلة لاستكشاف الظلام.</li>
+    <li>mainPhaseLetterLabel->ظلام غير طبيعي</li>
+    <li>mainPhaseLetterText->ظلام غير طبيعي يحل. تتحرك أشياء غير بشرية خارج الضوء مباشرة.\n\nأعمدة من معدن زيتي مسنن تسقط من السماء. إنها مريعة المنظر لكنها بالتأكيد تحتوي على تكنولوجيا قيمة. الوصول إليها ببناء مسارات مضاءة جيدًا - ودمرها لإنهاء هذا الكابوس.\n\nبدلاً من ذلك، إذا استطعت البقاء لفترة كافية، فسيتبدد الظلام من تلقاء نفسه.</li>
+    <li>darknessLiftedLetterLabel->انحسار الظلام</li>
+    <li>darknessLiftedLetterText->بدأ الظلام غير الطبيعي يتبدد. طويت الأعمدة المعدنية نفسها بطريقة ما واختفت. لقد نجوت!</li>
+ </UnnaturalDarkness.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription-></li>
+  -->
+  <UnnaturalDarkness.questDescriptionRules.rulesStrings>
+    <li>questDescription-></li>
+ </UnnaturalDarkness.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->unnatural darkness</li>
+  -->
+  <UnnaturalDarkness.questNameRules.rulesStrings>
+    <li>questDescription->ظلام غير طبيعي</li>
+ </UnnaturalDarkness.questNameRules.rulesStrings>
+  
+</LanguageData>

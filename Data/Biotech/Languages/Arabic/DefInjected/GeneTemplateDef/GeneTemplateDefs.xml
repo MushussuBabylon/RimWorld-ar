@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: {0} impervious -->
+  <AddictionImmune.label>{0} منيع</AddictionImmune.label>
+  <!-- EN: Carriers of this gene never get addicted to {0}. -->
+  <AddictionImmune.description>حاملو هذا الجين لا يدمنون أبداً على {0}.</AddictionImmune.description>
+  <!-- EN: {0}-impervious -->
+  <AddictionImmune.labelShortAdj>{0}-منيع</AddictionImmune.labelShortAdj>
+  
+  <!-- EN: {0} resistant -->
+  <AddictionResistant.label>{0} مقاوم</AddictionResistant.label>
+  <!-- EN: Carriers are only half as likely to become addicted to {0}. -->
+  <AddictionResistant.description>حاملو هذا الجين أقل عرضة للإدمان على {0} بمقدار النصف.</AddictionResistant.description>
+  <!-- EN: {0}-resistant -->
+  <AddictionResistant.labelShortAdj>{0}-مقاوم</AddictionResistant.labelShortAdj>
+  
+  <!-- EN: poor {0} -->
+  <AptitudePoor.label>ضعيف في {0}</AptitudePoor.label>
+  <!-- EN: The carrier's aptitude in {0} is reduced by 4. Aptitude acts like an offset on skill level. -->
+  <AptitudePoor.description>تقل كفاءة الحامل في {0} بمقدار 4. تعمل الكفاءة كإزاحة على مستوى المهارة.</AptitudePoor.description>
+  
+  <!-- EN: great {0} -->
+  <AptitudeRemarkable.label>عظيم في {0}</AptitudeRemarkable.label>
+  <!-- EN: The carrier's aptitude in {0} is increased by 8. Aptitude acts like an offset on skill level. Additionally, one level of passion is added to {0}. -->
+  <AptitudeRemarkable.description>تزداد كفاءة الحامل في {0} بمقدار 8. تعمل الكفاءة كإزاحة على مستوى المهارة. بالإضافة إلى ذلك، يضاف مستوى واحد من الشغف إلى {0}.</AptitudeRemarkable.description>
+  
+  <!-- EN: strong {0} -->
+  <AptitudeStrong.label>قوي في {0}</AptitudeStrong.label>
+  <!-- EN: The carrier's aptitude in {0} is increased by 4. Aptitude acts like an offset on skill level. -->
+  <AptitudeStrong.description>تزداد كفاءة الحامل في {0} بمقدار 4. تعمل الكفاءة كإزاحة على مستوى المهارة.</AptitudeStrong.description>
+  
+  <!-- EN: awful {0} -->
+  <AptitudeTerrible.label>سيء جداً في {0}</AptitudeTerrible.label>
+  <!-- EN: The carrier's aptitude in {0} is reduced by 8. Aptitude acts like an offset on skill level. Additionally, all passion is removed from {0}. -->
+  <AptitudeTerrible.description>تقل كفاءة الحامل في {0} بمقدار 8. تعمل الكفاءة كإزاحة على مستوى المهارة. بالإضافة إلى ذلك، يزال كل الشغف من {0}.</AptitudeTerrible.description>
+  
+  <!-- EN: {0} dependency -->
+  <ChemicalDependency.label>إدمان {0}</ChemicalDependency.label>
+  <!-- EN: Carriers of this gene need to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, carriers will suffer from {0} deficiency. After {COMADURATION}, they will fall into a coma. After {DEATHDURATION}, they will die. -->
+  <ChemicalDependency.description>يحتاج حاملو هذا الجين إلى تناول {0} بانتظام للبقاء على قيد الحياة. بعد {DEFICIENCYDURATION} بدون {0}، سيعانون من نقص {0}. بعد {COMADURATION}، سيدخلون في غيبوبة. بعد {DEATHDURATION}، سيموتون.</ChemicalDependency.description>
+  <!-- EN: {0}-dependent -->
+  <ChemicalDependency.labelShortAdj>{0}-مدمن</ChemicalDependency.labelShortAdj>
+  
+</LanguageData>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: go frenzy -->
+  <Frenzy_Go.label>هياج الحركة</Frenzy_Go.label>
+  <!-- EN: Inspired: Go frenzy -->
+  <Frenzy_Go.baseInspectLine>ملهم: هياج الحركة</Frenzy_Go.baseInspectLine>
+  <!-- EN: [PAWN_pronoun] will move faster for the next 8 days. -->
+  <Frenzy_Go.beginLetter>سيتحرك [PAWN_pronoun] بشكل أسرع خلال الأيام الثمانية القادمة.</Frenzy_Go.beginLetter>
+  <Frenzy_Go.beginLetterLabel>إلهام (هياج الحركة)</Frenzy_Go.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (go frenzy). -->
+  <Frenzy_Go.endMessage>لم يعد {0} ملهمًا (هياج الحركة).</Frenzy_Go.endMessage>
+  
+  <!-- EN: shoot frenzy -->
+  <Frenzy_Shoot.label>هياج الرماية</Frenzy_Shoot.label>
+  <!-- EN: Inspired: Shoot frenzy -->
+  <Frenzy_Shoot.baseInspectLine>ملهم: هياج الرماية</Frenzy_Shoot.baseInspectLine>
+  <!-- EN: [PAWN_pronoun] will shoot more accurately for the next 8 days. -->
+  <Frenzy_Shoot.beginLetter>سيطلق [PAWN_pronoun] النار بدقة أكبر خلال الأيام الثمانية القادمة.</Frenzy_Shoot.beginLetter>
+  <Frenzy_Shoot.beginLetterLabel>إلهام (هياج الرماية)</Frenzy_Shoot.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (shoot frenzy). -->
+  <Frenzy_Shoot.endMessage>لم يعد {0} ملهمًا (هياج الرماية).</Frenzy_Shoot.endMessage>
+  
+  <!-- EN: work frenzy -->
+  <Frenzy_Work.label>هياج العمل</Frenzy_Work.label>
+  <!-- EN: Inspired: Work frenzy -->
+  <Frenzy_Work.baseInspectLine>ملهم: هياج العمل</Frenzy_Work.baseInspectLine>
+  <!-- EN: [PAWN_pronoun] will work faster for the next 8 days. -->
+  <Frenzy_Work.beginLetter>سيعمل [PAWN_pronoun] بشكل أسرع خلال الأيام الثمانية القادمة.</Frenzy_Work.beginLetter>
+  <Frenzy_Work.beginLetterLabel>إلهام (هياج العمل)</Frenzy_Work.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (work frenzy). -->
+  <Frenzy_Work.endMessage>لم يعد {0} ملهمًا (هياج العمل).</Frenzy_Work.endMessage>
+  
+  <!-- EN: inspired creativity -->
+  <Inspired_Creativity.label>إبداع ملهم</Inspired_Creativity.label>
+  <!-- EN: Inspired: Inspired creativity -->
+  <Inspired_Creativity.baseInspectLine>ملهم: إبداع ملهم</Inspired_Creativity.baseInspectLine>
+  <!-- EN: The next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed. -->
+  <Inspired_Creativity.beginLetter>العنصر التالي، العمل الفني، أو الأثاث الذي سيصنعه [PAWN_pronoun] سيكون بمستوى جودة أعلى بدرجتين مما كان سيكون عليه في الأحوال العادية. هذا يسمح حتى بصنع عناصر أسطورية.\n\nسينتهي الإلهام بعد 8 أيام، أو عند اكتمال الصنع.</Inspired_Creativity.beginLetter>
+  <Inspired_Creativity.beginLetterLabel>إلهام (إبداع ملهم)</Inspired_Creativity.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (inspired creativity). -->
+  <Inspired_Creativity.endMessage>لم يعد {0} ملهمًا (إبداع ملهم).</Inspired_Creativity.endMessage>
+  
+  <!-- EN: inspired recruitment -->
+  <Inspired_Recruitment.label>تجنيد ملهم</Inspired_Recruitment.label>
+  <!-- EN: Inspired: Inspired recruitment -->
+  <Inspired_Recruitment.baseInspectLine>ملهم: تجنيد ملهم</Inspired_Recruitment.baseInspectLine>
+  <!-- EN: [PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty or resistance, as long as they are not unwaveringly loyal.\n\nThe inspiration will end after 8 days, or when the prisoner is recruited. -->
+  <Inspired_Recruitment.beginLetter>سينجح [PAWN_pronoun] في تجنيد السجين التالي بغض النظر عن الصعوبة أو المقاومة، طالما أنه ليس مخلصًا بشكل ثابت.\n\nسينتهي الإلهام بعد 8 أيام، أو عند تجنيد السجين.</Inspired_Recruitment.beginLetter>
+  <Inspired_Recruitment.beginLetterLabel>إلهام (تجنيد ملهم)</Inspired_Recruitment.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (inspired recruitment). -->
+  <Inspired_Recruitment.endMessage>لم يعد {0} ملهمًا (تجنيد ملهم).</Inspired_Recruitment.endMessage>
+  
+  <!-- EN: inspired surgery -->
+  <Inspired_Surgery.label>جراحة ملهمة</Inspired_Surgery.label>
+  <!-- EN: Inspired: Inspired surgery -->
+  <Inspired_Surgery.baseInspectLine>ملهم: جراحة ملهمة</Inspired_Surgery.baseInspectLine>
+  <!-- EN: The next time [PAWN_pronoun] performs a surgery, [PAWN_possessive] chance of success will be doubled. A small minimum chance of failure still applies.\n\nThe inspiration will end after 8 days, or when the surgery is performed. -->
+  <Inspired_Surgery.beginLetter>في المرة القادمة التي يجري فيها [PAWN_pronoun] عملية جراحية، ستتضاعف فرصة نجاحه. لا يزال هناك حد أدنى صغير لفرصة الفشل.\n\nسينتهي الإلهام بعد 8 أيام، أو عند إجراء العملية.</Inspired_Surgery.beginLetter>
+  <Inspired_Surgery.beginLetterLabel>إلهام (جراحة ملهمة)</Inspired_Surgery.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (inspired surgery). -->
+  <Inspired_Surgery.endMessage>لم يعد {0} ملهمًا (جراحة ملهمة).</Inspired_Surgery.endMessage>
+  
+  <!-- EN: inspired taming -->
+  <Inspired_Taming.label>ترويض ملهم</Inspired_Taming.label>
+  <!-- EN: Inspired: Inspired taming -->
+  <Inspired_Taming.baseInspectLine>ملهم: ترويض ملهم</Inspired_Taming.baseInspectLine>
+  <!-- EN: [PAWN_pronoun] will successfully tame the next animal regardless of difficulty.\n\nThe inspiration will end after 8 days, or when an animal was tamed. -->
+  <Inspired_Taming.beginLetter>سيروض [PAWN_pronoun] الحيوان التالي بنجاح بغض النظر عن الصعوبة.\n\nسينتهي الإلهام بعد 8 أيام، أو عند ترويض حيوان.</Inspired_Taming.beginLetter>
+  <Inspired_Taming.beginLetterLabel>إلهام (ترويض ملهم)</Inspired_Taming.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (inspired taming). -->
+  <Inspired_Taming.endMessage>لم يعد {0} ملهمًا (ترويض ملهم).</Inspired_Taming.endMessage>
+  
+  <!-- EN: inspired trade -->
+  <Inspired_Trade.label>تجارة ملهمة</Inspired_Trade.label>
+  <!-- EN: Inspired: Inspired trade -->
+  <Inspired_Trade.baseInspectLine>ملهم: تجارة ملهمة</Inspired_Trade.baseInspectLine>
+  <!-- EN: [PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 8 days, or when the deal is done. -->
+  <Inspired_Trade.beginLetter>سيحصل [PAWN_pronoun] على مكافأة كبيرة في أسعار التجارة عند إبرام صفقته التجارية التالية.\n\nسينتهي الإلهام بعد 8 أيام، أو عند إتمام الصفقة.</Inspired_Trade.beginLetter>
+  <Inspired_Trade.beginLetterLabel>إلهام (تجارة ملهمة)</Inspired_Trade.beginLetterLabel>
+  <!-- EN: {0} is no longer inspired (inspired trade). -->
+  <Inspired_Trade.endMessage>لم يعد {0} ملهمًا (تجارة ملهمة).</Inspired_Trade.endMessage>
+  
+</LanguageData>

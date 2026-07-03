@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: psychic ritual -->
+  <PsychicRitual>طقس نفسي</PsychicRitual>
+  <!-- EN: Begin psychic ritual -->
+  <CastPsychicRitual>بدء الطقس النفسي</CastPsychicRitual>
+  <!-- EN: Select a psychic ritual to perform -->
+  <CastPsychicRitualDesc>اختر طقسًا نفسيًا لأدائه</CastPsychicRitualDesc>
+  <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
+  <CannotCastPsychicRitual>لا يمكن لـ {0_labelShort} أداء الطقس النفسي {1} لأن {2}.</CannotCastPsychicRitual>
+  <!-- EN: The {0} psychic ritual has begun. -->
+  <PsychicRitualBegun>بدأ الطقس النفسي {0}.</PsychicRitualBegun>
+  <!-- EN: The {0} psychic ritual has been completed. -->
+  <PsychicRitualCompleted>اكتمل الطقس النفسي {0}.</PsychicRitualCompleted>
+  <!-- EN: attending {RITUALNAME} psychic ritual -->
+  <PsychicRitualAttending>يحضر الطقس النفسي {RITUALNAME}</PsychicRitualAttending>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
+  <ParticipatingInPsychicRitual>{0_labelShort} يشارك في الطقس النفسي {1}.</ParticipatingInPsychicRitual>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
+  <AbilityDisabledInPsychicRitual>{0_labelShort} يشارك في الطقس النفسي {1}.</AbilityDisabledInPsychicRitual>
+  <!-- EN: choose a location -->
+  <PsychicRitual_LocationTargetting>اختر موقعًا</PsychicRitual_LocationTargetting>
+  <!-- EN: total quality -->
+  <PsychicRitualExpectedQualityLabel>الجودة الكلية</PsychicRitualExpectedQualityLabel>
+  <!-- EN: quality factors -->
+  <PsychicRitualQualityFactorLabel>عوامل الجودة</PsychicRitualQualityFactorLabel>
+  <!-- EN: duration -->
+  <PsychicRitualExpectedDurationLabel>المدة</PsychicRitualExpectedDurationLabel>
+  <!-- EN: required offering -->
+  <PsychicRitualRequiredOffering>القربان المطلوب</PsychicRitualRequiredOffering>
+  <!-- EN: Caused by psychic ritual -->
+  <CausedByPsychicRitual>بسبب طقس نفسي</CausedByPsychicRitual>
+  <!-- EN: Cooldown -->
+  <PsychicRitualCooldownLabel>فترة تهدئة</PsychicRitualCooldownLabel>
+
+  <!-- EN: Psychic ritual area obstructed. -->
+  <PsychicRitualSpotObstructed>منطقة الطقس النفسي مسدودة.</PsychicRitualSpotObstructed>
+  <!-- EN: psychic ritual on cooldown. It will be available in {0}. -->
+  <PsychicRitualOnCooldown>الطقس النفسي في فترة تهدئة. سيكون متاحًا خلال {0}.</PsychicRitualOnCooldown>
+  <!-- EN: The {0} psychic ritual can be performed again. -->
+  <PsychicRitualCanBeCastAgain>يمكن أداء الطقس النفسي {0} مرة أخرى.</PsychicRitualCanBeCastAgain>
+  <!-- EN: No basic anomaly research project selected. -->
+  <NoBasicResearchForPsychicRitual>لا يوجد مشروع بحث شذوذ أساسي محدد.</NoBasicResearchForPsychicRitual>
+  <!-- EN: Must perform {0} psychic ritual on the surface. -->
+  <CantCastOnPocketMap>يجب أداء الطقس النفسي {0} على السطح.</CantCastOnPocketMap>
+
+  <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
+  <PsychicRitualFactionWarning>تحذير: أداء طقس على {PAWN_nameDef} سيغضب فصيل {PAWN_possessive} ({FACTION_name})</PsychicRitualFactionWarning>
+
+  <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
+  <PsychicRitualWakingPawnWarning>{0} نائم حاليًا وسيستيقظ عندما يبدأ الطقس النفسي.</PsychicRitualWakingPawnWarning>
+  <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
+  <PsychicRitualUndraftPawnWarning>{0} مجند حاليًا وسيُلغى تجنيده عندما يبدأ الطقس النفسي.</PsychicRitualUndraftPawnWarning>
+  <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
+  <PsychicRitualWakingPawnsWarning>{0} نائمون حاليًا وسيستيقظون عندما يبدأ الطقس النفسي.</PsychicRitualWakingPawnsWarning>
+  <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
+  <PsychicRitualUndraftPawnsWarning>{0} مجندون حاليًا وسيُلغى تجنيدهم عندما يبدأ الطقس النفسي.</PsychicRitualUndraftPawnsWarning>
+
+  <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
+  <PsychicRitualLeft>غادر {0_labelShort} الطقس النفسي {1}.</PsychicRitualLeft>
+  <!-- EN: {0_labelShort} left the {1} psychic ritual because {2}. -->
+  <PsychicRitualLeftBecause>غادر {0_labelShort} الطقس النفسي {1} لأن {2}.</PsychicRitualLeftBecause>
+  <!-- EN: The {0} psychic ritual has been canceled. -->
+  <PsychicRitualCanceled>تم إلغاء الطقس النفسي {0}.</PsychicRitualCanceled>
+  <!-- EN: The {0} psychic ritual has been canceled because {1}. -->
+  <PsychicRitualCanceledBecause>تم إلغاء الطقس النفسي {0} لأن {1}.</PsychicRitualCanceledBecause>
+
+  <!-- EN: {0} is needed but only {1} is available -->
+  <PsychicRitualOfferingsInsufficient>{0} مطلوب ولكن {1} فقط متاح</PsychicRitualOfferingsInsufficient>
+  <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
+  <PsychicRitualTargetUnreachableByInvoker>لا يمكن لـ {INVOKER_labelShort} الوصول إلى {TARGET_labelShort}</PsychicRitualTargetUnreachableByInvoker>
+
+  <!-- EN: leave the {0} psychic ritual -->
+  <CommandLeavePsychicRitual>مغادرة الطقس النفسي {0}</CommandLeavePsychicRitual>
+  <!-- EN: stop participating in the {0} psychic ritual. The psychic ritual will continue as long as it has at least one participant. -->
+  <CommandLeavePsychicRitualDesc>التوقف عن المشاركة في الطقس النفسي {0}. سيستمر الطقس النفسي طالما بقي مشارك واحد على الأقل.</CommandLeavePsychicRitualDesc>
+
+  <!-- EN: cancel the {0} psychic ritual -->
+  <CommandCancelPsychicRitual>إلغاء الطقس النفسي {0}</CommandCancelPsychicRitual>
+  <!-- EN: end the {0} psychic ritual immediately. You can restart the psychic ritual later. -->
+  <CommandCancelPsychicRitualDesc>إنهاء الطقس النفسي {0} فورًا. يمكنك إعادة بدء الطقس النفسي لاحقًا.</CommandCancelPsychicRitualDesc>
+  <!-- EN: Are you sure you want to cancel the {0} psychic ritual? -->
+  <CommandCancelPsychicRitualConfirm>هل أنت متأكد أنك تريد إلغاء الطقس النفسي {0}؟</CommandCancelPsychicRitualConfirm>
+
+  <!-- EN: {PAWN_labelShort} vanished -->
+  <PsychicRitualLeaveReason_Vanished>اختفى {PAWN_labelShort}</PsychicRitualLeaveReason_Vanished>
+  <!-- EN: {PAWN_labelShort} is incapacitated -->
+  <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort} عاجز</PsychicRitualLeaveReason_Incapped>
+  <!-- EN: {PAWN_labelShort} is dead -->
+  <PsychicRitualLeaveReason_Killed>{PAWN_labelShort} ميت</PsychicRitualLeaveReason_Killed>
+  <!-- EN: {PAWN_labelShort} is not part of {FACTION_name} -->
+  <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort} ليس جزءًا من {FACTION_name}</PsychicRitualLeaveReason_WrongFaction>
+  <!-- EN: {PAWN_labelShort} is no longer on the map -->
+  <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort} لم يعد على الخريطة</PsychicRitualLeaveReason_ExitedMap>
+  <!-- EN: {PAWN_labelShort} had better things to do -->
+  <PsychicRitualLeaveReason_LeftVoluntarily>كان لدى {PAWN_labelShort} أشياء أفضل ليفعلها</PsychicRitualLeaveReason_LeftVoluntarily>
+  <!-- EN: {PAWN_labelShort} is drafted -->
+  <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort} مجند</PsychicRitualLeaveReason_Drafted>
+  <!-- EN: {PAWN_labelShort} is in a mental state -->
+  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort} في حالة نفسية</PsychicRitualLeaveReason_InMentalState>
+  <!-- EN: {PAWN_labelShort} is bleeding -->
+  <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort} ينزف</PsychicRitualLeaveReason_Bleeding>
+  <!-- EN: {PAWN_labelShort} is on fire -->
+  <PsychicRitualLeaveReason_Burning>{PAWN_labelShort} مشتعل بالنار</PsychicRitualLeaveReason_Burning>
+  <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
+  <PsychicRitualLeaveReason_ExtremeTemperature>درجة الحرارة بالقرب من الهدف غير آمنة لـ {PAWN_labelShort}</PsychicRitualLeaveReason_ExtremeTemperature>
+  <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
+  <PsychicRitualLeaveReason_InsideBuilding>لا يمكن لـ {PAWN_labelShort} المشاركة من داخل {BUILDING}</PsychicRitualLeaveReason_InsideBuilding>
+  <!-- EN: {PAWN_labelShort} is humanlike -->
+  <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort} شبه بشري</PsychicRitualLeaveReason_Humanlike>
+  <!-- EN: {PAWN_labelShort} is not humanlike -->
+  <PsychicRitualLeaveReason_NonHumanlike>{PAWN_labelShort} ليس شبه بشري</PsychicRitualLeaveReason_NonHumanlike>
+  <!-- EN: {PAWN_labelShort} is a prisoner -->
+  <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort} سجين</PsychicRitualLeaveReason_Prisoner>
+  <!-- EN: {PAWN_labelShort} is a slave -->
+  <PsychicRitualLeaveReason_Slave>{PAWN_labelShort} عبد</PsychicRitualLeaveReason_Slave>
+  <!-- EN: {PAWN_labelShort} is free -->
+  <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort} حر</PsychicRitualLeaveReason_Freeman>
+  <!-- EN: {PAWN_labelShort} is a {STAGE} -->
+  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} {STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
+  <!-- EN: {PAWN_labelShort} cannot reach the target location -->
+  <PsychicRitualLeaveReason_CannotReachTarget>لا يمكن لـ {PAWN_labelShort} الوصول إلى الموقع المستهدف</PsychicRitualLeaveReason_CannotReachTarget>
+  <!-- EN: {PAWN_labelShort} is asleep -->
+  <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort} نائم</PsychicRitualLeaveReason_Sleeping>
+  <!-- EN: {PAWN_labelShort} is not a human -->
+  <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} ليس بشريًا</PsychicRitualLeaveReason_Mutant>
+  <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
+  <PsychicRitualLeaveReason_IdeoUnwilling>اعتقاد {PAWN_labelShort} في {IDEO_name} يمنع المشاركة</PsychicRitualLeaveReason_IdeoUnwilling> 
+  <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
+  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} ليس حساسًا نفسيًا</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <!-- EN: {PAWN_labelShort} is a temporary faction member -->
+  <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort} عضو فصيل مؤقت</PsychicRitualLeaveReason_TemporaryFactionMember>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
+  <PsychicRitualLeaveReason_PawnBusyWithLord>لدى {PAWN_labelShort} واجبات أخرى ليقوم بها</PsychicRitualLeaveReason_PawnBusyWithLord>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
+  <PsychicRitualLeaveReason_ForcedByQuest>لدى {PAWN_labelShort} واجبات أخرى ليقوم بها</PsychicRitualLeaveReason_ForcedByQuest>
+
+  <!-- PsychicRitualToils-->
+  <!-- EN: moving into position -->
+  <PsychicRitualToil_Goto_JobReport_Moving>يتحرك إلى الموضع</PsychicRitualToil_Goto_JobReport_Moving>
+  <!-- EN: waiting for everyone to get into position -->
+  <PsychicRitualToil_Goto_JobReport_Waiting>ينتظر الجميع ليأخذوا مواضعهم</PsychicRitualToil_Goto_JobReport_Waiting>
+
+  <!-- EN: {PAWN_labelShort} was unable to find enough {1} -->
+  <PsychicRitualToil_GatherOfferings_OfferingUnavailable>لم يتمكن {PAWN_labelShort} من العثور على ما يكفي من {1}</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
+  <!-- EN: gathering offering -->
+  <PsychicRitualToil_GatherOfferings_JobReport>يجمع القربان</PsychicRitualToil_GatherOfferings_JobReport>
+
+  <!-- EN: leading psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Invoker>يقود الطقس النفسي</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
+  <!-- EN: channeling power to psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Chanter>يوجّه القوة إلى الطقس النفسي</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
+  <!-- EN: psychic ritual target -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Target>هدف الطقس النفسي</PsychicRitualToil_InvokeHorax_JobReport_Target>
+  <!-- EN: {0} doesn't have enough {1} -->
+  <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>لا يمتلك {0} ما يكفي من {1}</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
+  <!-- EN: {PAWN_labelShort} is out of position -->
+  <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>{PAWN_labelShort} خارج موضعه</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
+  <!-- EN: defending psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Defender>يدافع عن الطقس النفسي</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
+
+  <!-- EN: waiting on -->
+  <PsychicRitualToil_GatherForInvocation_Report>ينتظر</PsychicRitualToil_GatherForInvocation_Report>
+  <!-- EN: invoking the void -->
+  <PsychicRitualToil_InvokeHorax_Report>يستدعي الفراغ</PsychicRitualToil_InvokeHorax_Report>
+
+  <!-- EN: {TARGET_labelShort} was destroyed -->
+  <PsychicRitualDef_TargetDestroyed>تم تدمير {TARGET_labelShort}</PsychicRitualDef_TargetDestroyed>
+  <!-- EN: {INVOKER_labelShort} cannot continue the psychic ritual -->
+  <PsychicRitualDef_InvocationCircle_InvokerLost>لا يمكن لـ {INVOKER_labelShort} متابعة الطقس النفسي</PsychicRitualDef_InvocationCircle_InvokerLost>
+
+  <!-- EN: the area around the target site must be clear of obstructions -->
+  <PsychicRitualDef_InvocationCircle_AreaMustBeClear>يجب أن تكون المنطقة حول الموقع المستهدف خالية من العوائق</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
+  <!-- EN: {PAWN_labelShort}'s psychic sensitivity -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>الحساسية النفسية لـ {PAWN_labelShort}</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
+  <!-- EN: How in-tune {PAWN_labelShort} is with psychic phenomena. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>مدى انسجام {PAWN_labelShort} مع الظواهر النفسية.</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
+  <!-- EN: These objects help focus the psychic power of the ritual. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>تساعد هذه الأشياء في تركيز القوة النفسية للطقس.</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
+  <!-- EN: Ideoligion offset -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>إزاحة العقيدة</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>مدى تأثر الطقس النفسي بالمعتقدات العقائدية.</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
+
+  <!-- PsychicRitualDef_InvokationCircle messages -->
+  <!-- EN: {0} has begun performing the {1} psychic ritual. -->
+  <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>بدأ {0} في أداء الطقس النفسي {1}.</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
+  <!-- EN: psychic ritual area is obstructed -->
+  <PsychicRitualAreaObstructed>منطقة الطقس النفسي مسدودة</PsychicRitualAreaObstructed>
+
+  <!-- Animal summoning -->
+  <!-- EN: Not enough animals in this biome. -->
+  <NotEnoughAnimals>لا توجد حيوانات كافية في هذه المنطقة الحيوية.</NotEnoughAnimals>
+
+  <!-- Shambler summoning -->
+  <!-- EN: No nearby shamblers. -->
+  <NoNearbyShamblers>لا يوجد متعثرون قريبون.</NoNearbyShamblers>
+
+  <!-- Pit gate summoning -->
+  <!-- EN: There is already a pit gate on the map. -->
+  <PitGateAlreadyExists>توجد بالفعل بوابة حفرة على الخريطة.</PitGateAlreadyExists>
+  
+  <!-- Chronophagy -->
+  <!-- EN: The invoker must be at least {0} years old. -->
+  <InvokerTooYoung>يجب أن يكون المستدعي بعمر {0} سنة على الأقل.</InvokerTooYoung>
+  <!-- EN: The target must be at least {0} years old. -->
+  <PsychicRitualTargetTooYoung>يجب أن يكون الهدف بعمر {0} سنة على الأقل.</PsychicRitualTargetTooYoung>
+  <!-- EN: {INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old. -->
+  <CronophagyAgeChange>سيصبح {INVOKER_labelShort} بعمر {1} سنة، وسيصبح {TARGET_labelShort} بعمر {3} سنة.</CronophagyAgeChange>
+  
+  <!-- Philophagy -->
+  <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
+  <PhilophagyTransferReport>سيسرق {INVOKER_labelShort} {1} نقطة خبرة من {SKILL_label} من {TARGET_labelShort}.</PhilophagyTransferReport>
+  <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
+  <NoSkillsToTransfer>لا يمتلك {TARGET_labelShort} مهارات لنقلها.</NoSkillsToTransfer>
+
+</LanguageData>

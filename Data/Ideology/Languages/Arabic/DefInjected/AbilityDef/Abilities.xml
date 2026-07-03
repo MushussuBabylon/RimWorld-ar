@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Animal calm -->
+  <AnimalCalm.label>تهدئة الحيوان</AnimalCalm.label>
+  <!-- EN: Use unique methods of connecting with animals to calm a maddened beast. -->
+  <AnimalCalm.description>استخدم طرقًا فريدة للتواصل مع الحيوانات لتهدئة وحش هائج.</AnimalCalm.description>
+  <!-- EN: {INITIATOR_labelShort} successfully calmed {RECIPIENT_labelShort}. -->
+  <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>نجح {INITIATOR_labelShort} في تهدئة {RECIPIENT_labelShort}.</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
+  
+  <!-- EN: berserk trance -->
+  <BerserkTrance.label>غيبوبة هائجة</BerserkTrance.label>
+  <!-- EN: The caster fills themself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
+  <BerserkTrance.description>يملأ الملقي نفسه بالغضب من المظالم العقائدية. وهذا يقوي الجسد بما يتجاوز الحدود الطبيعية، ولكنه يعني أيضًا فقدان السيطرة ومهاجمة كل عدو قريب في نوبة غضب لا يمكن إيقافها. تستمر حالة الهياج لمدة 3 ساعات.</BerserkTrance.description>
+  
+  <!-- EN: combat command -->
+  <CombatCommand.label>أمر القتال</CombatCommand.label>
+  <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
+  <CombatCommand.description>ينشئ هالة تعزز مهارات القتال لجميع القريبين. يستمر التأثير لمدة 24 ساعة ويبقى مرتبطًا بالقائد طوال المدة.</CombatCommand.description>
+  
+  <!-- EN: conversion ritual -->
+  <ConversionRitual.label>طقوس التحويل</ConversionRitual.label>
+  <!-- EN: Try to persuade someone to adopt your beliefs. If it goes well, they will lose some certainty in their ideoligion and may convert. If it backfires, they will gain certainty in their old beliefs.\n\nTo start this ritual at a specific place, select a ritual spot or matching altar/ideogram. -->
+  <ConversionRitual.description>حاول إقناع شخص ما بتبني معتقداتك. إذا سارت الأمور على ما يرام، سيفقد بعض اليقين في عقيدته وقد يتحول. إذا جاءت بنتائج عكسية، فسيزداد يقينه بمعتقداته القديمة.\n\nلبدء هذه الطقوس في مكان محدد، اختر بقعة طقوس أو مذبح/رمز عقائدي مناسب.</ConversionRitual.description>
+  
+  <!-- EN: convert -->
+  <Convert.label>تحويل</Convert.label>
+  <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
+  <Convert.description>محاولة تحويل شخص ما إلى عقيدة المتحدث. سيؤدي ذلك إلى تقليل يقين الهدف بمعتقداته الخاصة. يعتمد تقليل اليقين على قدرة المتحدث في التفاوض.</Convert.description>
+  <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>فشل {INITIATOR_labelShort} في تحويل {RECIPIENT_labelShort}. انزعج {RECIPIENT_labelShort} من المحاولة، لكن يقين{RECIPIENT_possessive} انخفض من {CERTAINTYBEFORE} إلى {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
+  <Convert.comps.CompAbilityEffect_Convert.successMessage>قام {INITIATOR_labelShort} بتحويل {RECIPIENT_labelShort} إلى {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
+  
+  <!-- EN: counsel -->
+  <Counsel.label>نصح</Counsel.label>
+  <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
+  <Counsel.description>قدم المشورة لشخص لإلغاء تأثير ذكرى حزينة. تعتمد فرصة النجاح على مهارات المتحدث الاجتماعية وعلاقته بالمستمع.</Counsel.description>
+  <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
+  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>أفسد {INITIATOR_labelShort} محاولة نصح {RECIPIENT_labelShort}. أصبح {RECIPIENT_labelShort} منزعجًا.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
+  <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>نجح {INITIATOR_labelShort} في نصح {RECIPIENT_labelShort}، مما ألغى تأثير المزاج الناتج عن {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
+  <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>نجح {INITIATOR_labelShort} في نصح {RECIPIENT_labelShort}، مما زاد مزاج{RECIPIENT_possessive} بمقدار {MOODBONUS}.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
+  
+  <!-- EN: farming command -->
+  <FarmingCommand.label>أمر الزراعة</FarmingCommand.label>
+  <!-- EN: Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <FarmingCommand.description>تقديم إرشادات حول تقنيات الزراعة، مما يعزز قدرات الزراعة لجميع القريبين. يبقى التأثير مرتبطًا بالملقي لمدة 24 ساعة.</FarmingCommand.description>
+  
+  <!-- EN: Immunity drive -->
+  <ImmunityDrive.label>دفع المناعة</ImmunityDrive.label>
+  <!-- EN: Offer moral support that energizes the body, boosting someone's immunity gain for one day. -->
+  <ImmunityDrive.description>تقديم دعم معنوي ينشط الجسم، مما يعزز اكتساب المناعة لشخص ما ليوم واحد.</ImmunityDrive.description>
+  
+  <!-- EN: leader speech -->
+  <LeaderSpeech.label>خطاب القائد</LeaderSpeech.label>
+  <!-- EN: Initiate a leader speech. If it goes well, listeners will gain improved mood, respect for the speaker, and possibly new inspirations. If it goes poorly, social damage will occur. -->
+  <LeaderSpeech.description>بدء خطاب القائد. إذا سارت الأمور على ما يرام، سيحصل المستمعون على مزاج محسّن واحترام للمتحدث وربما إلهامات جديدة. إذا ساءت الأمور، سيحدث ضرر اجتماعي.</LeaderSpeech.description>
+  
+  <!-- EN: marksman command -->
+  <MarksmanCommand.label>أمر القناص</MarksmanCommand.label>
+  <!-- EN: Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <MarksmanCommand.description>توجيه التسديدات وتعزيز مهارات الرماية لجميع القريبين. يبقى التأثير مرتبطًا بالملقي لمدة 24 ساعة.</MarksmanCommand.description>
+  
+  <!-- EN: mining command -->
+  <MiningCommand.label>أمر التعدين</MiningCommand.label>
+  <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <MiningCommand.description>تقديم إرشادات حول تقنيات التعدين، مما يعزز سرعة التعدين لجميع القريبين. يبقى التأثير مرتبطًا بالملقي لمدة 24 ساعة.</MiningCommand.description>
+  
+  <!-- EN: preach health -->
+  <PreachHealth.label>الوعظ بالصحة</PreachHealth.label>
+  <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
+  <PreachHealth.description>وعظ بالقوة الأخلاقية لشخص مريض أو مصاب من خلال مفاهيم عقيدتك. سيحسن هذا من معدل شفاء الجروح واكتساب المناعة لديه.</PreachHealth.description>
+  
+  <!-- EN: production command -->
+  <ProductionCommand.label>أمر الإنتاج</ProductionCommand.label>
+  <!-- EN: Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <ProductionCommand.description>تقديم إرشادات حول تقنيات البناء، مما يعزز قدرات البناء والحرفية لجميع القريبين. يبقى التأثير مرتبطًا بالملقي لمدة 24 ساعة.</ProductionCommand.description>
+  
+  <!-- EN: reassure -->
+  <Reassure.label>طمأنة</Reassure.label>
+  <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
+  <Reassure.description>زيادة يقين شخص ما بمعتقداته الخاصة. يعتمد اليقين المستعاد على قدرة المتحدث في التفاوض.</Reassure.description>
+  <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
+  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>قام {INITIATOR_labelShort} بطمأنة {RECIPIENT_labelShort}، مما زاد يقين{RECIPIENT_possessive} في {IDEO} من {BEFORECERTAINTY} إلى {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
+  
+  <!-- EN: research command -->
+  <ResearchCommand.label>أمر البحث</ResearchCommand.label>
+  <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <ResearchCommand.description>تقديم اقتراحات ودعم ذهني، مما يعزز سرعة البحث لجميع القريبين. يبقى التأثير مرتبطًا بالملقي لمدة 24 ساعة.</ResearchCommand.description>
+  
+  <!-- EN: trial -->
+  <Trial.label>محاكمة</Trial.label>
+  <!-- EN: Charge someone with a terrible wrongdoing and initiate a trial where they will be either convicted or exonerated. If the target is convicted, they can be freely imprisoned, executed or banished without penalty. The chance of conviction depends on the social abilities of the accuser and accused. -->
+  <Trial.description>اتهم شخصًا بارتكاب خطأ فظيع وابدأ محاكمة حيث سيُدان أو يُبرأ. إذا تمت إدانة الهدف، يمكن سجنه أو إعدامه أو نفيه بحرية دون عقوبة. تعتمد فرصة الإدانة على القدرات الاجتماعية للمتهم والمدعى عليه.</Trial.description>
+  
+  <!-- EN: work drive -->
+  <WorkDrive.label>حافز العمل</WorkDrive.label>
+  <!-- EN: Call on a person to work harder for some time. -->
+  <WorkDrive.description>حث شخص على العمل بجد لبعض الوقت.</WorkDrive.description>
+  
+</LanguageData>

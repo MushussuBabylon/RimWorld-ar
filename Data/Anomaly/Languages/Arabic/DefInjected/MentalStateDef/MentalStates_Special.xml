@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: berserk -->
+  <BerserkShort.label>هائج</BerserkShort.label>
+  <!-- EN: Mental state: Berserk -->
+  <BerserkShort.baseInspectLine>حالة عقلية: هياج</BerserkShort.baseInspectLine>
+  <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
+  <BerserkShort.beginLetter>أصيب {0} بالهياج.\n\nسيهاجم [PAWN_pronoun] أي شخص يراه [PAWN_pronoun].</BerserkShort.beginLetter>
+  <!-- EN: {0}'s berserk rage has come to an end. -->
+  <BerserkShort.recoveryMessage>انتهت نوبة الهياج عند {0}.</BerserkShort.recoveryMessage>
+  
+  <!-- EN: cube sculpting -->
+  <CubeSculpting.label>نحت المكعب</CubeSculpting.label>
+  <!-- EN: Mental state: Cube sculpting -->
+  <CubeSculpting.baseInspectLine>حالة عقلية: نحت المكعب</CubeSculpting.baseInspectLine>
+  <!-- EN: {PAWN_nameDef}'s obsession with the cube has caused {PAWN_objective} to fall into a daze. {PAWN_pronoun} is going to build a sculpture to release the pressure growing in {PAWN_possessive} mind. -->
+  <CubeSculpting.beginLetter>هوس {PAWN_nameDef} بالمكعب جعل {PAWN_objective} يسقط في ذهول. سيبني {PAWN_pronoun} منحوتة ليطلق الضغط المتزايد في عقل{PAWN_possessive}.</CubeSculpting.beginLetter>
+  <!-- EN: cube obsession -->
+  <CubeSculpting.beginLetterLabel>هوس المكعب</CubeSculpting.beginLetterLabel>
+  <!-- EN: {PAWN_nameDef} has finished {PAWN_possessive} cube structure. -->
+  <CubeSculpting.recoveryMessage>أنهى {PAWN_nameDef} هيكل{PAWN_possessive} المكعب.</CubeSculpting.recoveryMessage>
+  
+  <!-- EN: humanity break -->
+  <HumanityBreak.label>انهيار إنساني</HumanityBreak.label>
+  <!-- EN: Mental state: Humanity break -->
+  <HumanityBreak.baseInspectLine>حالة عقلية: انهيار إنساني</HumanityBreak.baseInspectLine>
+  <!-- EN: {PAWN_nameDef} has relinquished {PAWN_possessive} remaining ties to humanity and embraced {PAWN_possessive} ideology's worship of the void. {PAWN_possessive} concern for health, family, friendship, and love have been broken.\n\n{PAWN_nameDef} is now inhumanized, and will suffer a breakdown as {PAWN_pronoun} tries to grapple with {PAWN_possessive} new mental alignment. -->
+  <HumanityBreak.beginLetter>تخلى {PAWN_nameDef} عن روابط{PAWN_possessive} المتبقية بالإنسانية واحتضن عبادة الفراغ في أيديولوجيته. تحطم اهتمام{PAWN_possessive} بالصحة والعائلة والصداقة والحب.\n\nأصبح {PAWN_nameDef} الآن غير إنساني، وسيعاني من انهيار بينما يحاول {PAWN_pronoun} التصالح مع توجهه العقلي الجديد.</HumanityBreak.beginLetter>
+  
+  <!-- EN: manhunter -->
+  <ManhunterBloodRain.label>صائد البشر</ManhunterBloodRain.label>
+  <!-- EN: Maddened: Manhunter -->
+  <ManhunterBloodRain.baseInspectLine>مهتاج: صائد البشر</ManhunterBloodRain.baseInspectLine>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <ManhunterBloodRain.recoveryMessage>انتهت شهوة {0} لاصطياد البشر.</ManhunterBloodRain.recoveryMessage>
+  
+</LanguageData>

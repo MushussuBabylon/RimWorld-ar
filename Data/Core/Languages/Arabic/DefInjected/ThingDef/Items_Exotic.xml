@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: persona core -->
+  <AIPersonaCore.label>نواة بيرسونا</AIPersonaCore.label>
+  <!-- EN: A hyper-advanced computer core that houses a peak-human-equivalent machine persona. In its isolated state, the core is dormant. Installed in a proper support structure, however, it can become a mind of great power. -->
+  <AIPersonaCore.description>نواة حاسوب فائقة التطور تؤوي شخصية آلية مكافئة للبشر في ذروة قدراتهم. في حالتها المعزولة، تكون النواة خاملة. ولكن عند تثبيتها في هيكل دعم مناسب، يمكن أن تصبح عقلًا ذا قوة عظيمة.</AIPersonaCore.description>
+  
+  <!-- EN: elephant tusk -->
+  <ElephantTusk.label>ناب فيل</ElephantTusk.label>
+  <!-- EN: An elephant's tusk. It is very durable and valuable. While somewhat unwieldy as a melee weapon, it can still be deadly. -->
+  <ElephantTusk.description>ناب فيل. إنه متين وقيّم للغاية. على الرغم من صعوبة استخدامه كسلاح اشتباك إلى حد ما، إلا أنه لا يزال مميتًا.</ElephantTusk.description>
+  <!-- EN: point -->
+  <ElephantTusk.tools.point.label>رأس</ElephantTusk.tools.point.label>
+  <!-- EN: base -->
+  <ElephantTusk.tools.base.label>قاعدة</ElephantTusk.tools.base.label>
+  
+  <!-- EN: healer mech serum -->
+  <MechSerumHealer.label>مصل الآلي الشافي</MechSerumHealer.label>
+  <!-- EN: A one-use super-dose of mechanites tuned to heal health conditions. The mechanites will target and heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. The mechanites can even transmute themselves into organic matter, forming new limbs or organs as needed. -->
+  <MechSerumHealer.description>جرعة فائقة للاستخدام مرة واحدة من الآليين المضبوطين لشفاء الحالات الصحية. تستهدف الآليين أسوأ حالة صحية تؤثر على الشخص في أي وقت. تعمل حتى على الحالات الصحية التي قد تكون غير قابلة للشفاء بطرق أخرى. يمكن للآليين تحويل أنفسهم إلى مادة عضوية، وتشكيل أطراف أو أعضاء جديدة حسب الحاجة.</MechSerumHealer.description>
+  <!-- EN: Use {0_label} -->
+  <MechSerumHealer.comps.CompUsable.useLabel>استخدم {0_label}</MechSerumHealer.comps.CompUsable.useLabel>
+  
+  <!-- EN: resurrector mech serum -->
+  <MechSerumResurrector.label>مصل الآلي المحيي</MechSerumResurrector.label>
+  <!-- EN: A one-use super-dose of mechanites tuned to resurrect the dead. Administered to a corpse, mechanites repair broken-down tissues and kickstart the body back to life. Unfortunately, the resurrected sometimes come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the mechanites are administered to a fresher body. If a body is preserved, it can even be resurrected long after death.\n\nThe resurrected also experience limited retrograde amnesia, forgetting some recent memories and social interactions. -->
+  <MechSerumResurrector.description>جرعة فائقة للاستخدام مرة واحدة من الآليين المضبوطين لإحياء الموتى. عند إعطائها لجثة، تقوم الآليين بإصلاح الأنسجة المكسورة وإعادة تشغيل الجسم إلى الحياة. للأسف، يعود المُحيَون أحيانًا مع تلف في الدماغ، أو عمى، أو ذهان متقدم. تكون النتائج أفضل عندما تُعطى الآليين لجسم أكثر نضارة. إذا تم حفظ الجسم، يمكن حتى إحياؤه بعد فترة طويلة من الموت.\n\nيعاني المُحيَون أيضًا من فقدان ذاكرة رجعي محدود، حيث ينسون بعض الذكريات الحديثة والتفاعلات الاجتماعية.</MechSerumResurrector.description>
+  <!-- EN: Use {0_label} -->
+  <MechSerumResurrector.comps.CompUsable.useLabel>استخدم {0_label}</MechSerumResurrector.comps.CompUsable.useLabel>
+  
+  <!-- EN: techprof subpersona core -->
+  <TechprofSubpersonaCore.label>نواة المعلم التقني الفرعية</TechprofSubpersonaCore.label>
+  <!-- EN: A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you the technology you're currently researching, instantly and for free. Can only be used once. -->
+  <TechprofSubpersonaCore.description>نواة ذكاء اصطناعي صغيرة تحتوي على شخصية فرعية منخفضة المستوى متخصصة في تعليم التكنولوجيا. عند استخدامها، سيعلمك الذكاء الاصطناعي التكنولوجيا التي تبحث عنها حاليًا، بشكل فوري ومجاني. يمكن استخدامها مرة واحدة فقط.</TechprofSubpersonaCore.description>
+  <!-- EN: Use {0_label} -->
+  <TechprofSubpersonaCore.comps.CompUsable.useLabel>استخدم {0_label}</TechprofSubpersonaCore.comps.CompUsable.useLabel>
+  
+  <!-- EN: thrumbo horn -->
+  <ThrumboHorn.label>قرن الثرومبو</ThrumboHorn.label>
+  <!-- EN: A thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon. -->
+  <ThrumboHorn.description>قرن ثرومبو. إنه حاد كالموسى، صلب كالصخر، ولا يقدر بثمن في معظم الأسواق. هذا تذكار حقيقي، بالإضافة إلى كونه سلاح اشتباك مميت.</ThrumboHorn.description>
+  <!-- EN: point -->
+  <ThrumboHorn.tools.point.label>رأس</ThrumboHorn.tools.point.label>
+  <!-- EN: base -->
+  <ThrumboHorn.tools.base.label>قاعدة</ThrumboHorn.tools.base.label>
+  
+</LanguageData>

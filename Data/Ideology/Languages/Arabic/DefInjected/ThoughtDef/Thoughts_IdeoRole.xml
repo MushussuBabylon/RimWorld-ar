@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_IdeoLeaderResentment, ThoughtWorker_Precept_LeaderResentment. Label: - . Description: {0}(Leader.Ideo.memberName) -->
+  <!-- EN: Leader of different ideoligion -->
+  <IdeoLeaderResentmentAbhorrent.label>قائد من عقيدة مختلفة</IdeoLeaderResentmentAbhorrent.label>
+  <!-- EN: To accept direction from a {0} is utterly shameful and abhorrent. -->
+  <IdeoLeaderResentmentAbhorrent.stages.0.description>قبول التوجيه من {0} أمر مخزٍ ومقيت تماماً.</IdeoLeaderResentmentAbhorrent.stages.0.description>
+  
+  <!-- Thought_IdeoLeaderResentment, ThoughtWorker_Precept_LeaderResentment. Label: - . Description: {0}(Leader.Ideo.memberName) -->
+  <!-- EN: Leader of different ideoligion -->
+  <IdeoLeaderResentmentDisapproved.label>قائد من عقيدة مختلفة</IdeoLeaderResentmentDisapproved.label>
+  <!-- EN: It's insulting to be ordered around by a {0}. -->
+  <IdeoLeaderResentmentDisapproved.stages.0.description>إنه مهين أن أتلقى الأوامر من {0}.</IdeoLeaderResentmentDisapproved.stages.0.description>
+  
+  <!-- Thought_IdeoLeaderResentment, ThoughtWorker_Precept_LeaderResentment. Label: - . Description: {0}(Leader.Ideo.memberName) -->
+  <!-- EN: Leader of different ideoligion -->
+  <IdeoLeaderResentmentHorrible.label>قائد من عقيدة مختلفة</IdeoLeaderResentmentHorrible.label>
+  <!-- EN: It's shameful to be ordered around by a {0}! -->
+  <IdeoLeaderResentmentHorrible.stages.0.description>إنه لأمر مخزٍ أن أتلقى الأوامر من {0}!</IdeoLeaderResentmentHorrible.stages.0.description>
+  
+  <!-- Thought_IdeoLeaderResentment, ThoughtWorker_Precept_LeaderResentment. Label: - . Description: {0}(Leader.Ideo.memberName) -->
+  <!-- EN: Leader of different ideoligion -->
+  <IdeoLeaderResentmentStandard.label>قائد من عقيدة مختلفة</IdeoLeaderResentmentStandard.label>
+  <!-- EN: I don't like having a {0} as a leader. -->
+  <IdeoLeaderResentmentStandard.stages.0.description>لا أحب أن يكون {0} قائداً.</IdeoLeaderResentmentStandard.stages.0.description>
+  
+  <!-- Thought_IdeoRoleApparelRequirementNotMet, null. Label: {ROLE}. Description: {ROLE} -->
+  <!-- EN: Want {ROLE_label} apparel -->
+  <IdeoRoleApparelRequirementNotMet.stages.Want_apparel.label>أريد ملابس {ROLE_label}</IdeoRoleApparelRequirementNotMet.stages.Want_apparel.label>
+  <!-- EN: I want to wear apparel appropriate for my role as {ROLE_labelDef} -->
+  <IdeoRoleApparelRequirementNotMet.stages.Want_apparel.description>أريد ارتداء ملابس مناسبة لدوري كـ{ROLE_labelDef}</IdeoRoleApparelRequirementNotMet.stages.Want_apparel.description>
+  
+  <!-- Thought_IdeoRoleEmpty, null. Label: {ROLE}. Description: {0}(Role.ideo.memberName), {ROLE} -->
+  <!-- EN: No {ROLE_label} -->
+  <IdeoRoleEmpty.stages.No.label>لا {ROLE_label}</IdeoRoleEmpty.stages.No.label>
+  <!-- EN: {0}s must have {ROLE_labelIndef}! -->
+  <IdeoRoleEmpty.stages.No.description>يجب أن يكون لدى {0} {ROLE_labelIndef}!</IdeoRoleEmpty.stages.No.description>
+  
+  <!-- Thought_IdeoRoleLost, null. Label: {ROLE}. Description: {ROLE} -->
+  <!-- EN: Lost {ROLE_label} role -->
+  <IdeoRoleLost.stages.Lost_role.label>فُقد دور {ROLE_label}</IdeoRoleLost.stages.Lost_role.label>
+  <!-- EN: I lost my role as {ROLE_labelDef}. -->
+  <IdeoRoleLost.stages.Lost_role.description>فقدت دوري كـ{ROLE_labelDef}.</IdeoRoleLost.stages.Lost_role.description>
+  
+</LanguageData>

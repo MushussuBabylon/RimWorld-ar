@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_Affair. Label: {PAWN}. labelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: affair -->
+  <Affair.stages.affair.label>علاقة غير شرعية</Affair.stages.affair.label>
+  <Affair.stages.affair.labelSocial>{OTHERPAWN_gender ? خان : خانت}</Affair.stages.affair.labelSocial>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_AnnoyingVoice. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: annoying voice -->
+  <AnnoyingVoice.stages.annoying_voice.label>صوت مزعج</AnnoyingVoice.stages.annoying_voice.label>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: ate raw humanlike meat -->
+  <AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>أكل لحماً بشرياً نيئاً</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>
+  <AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} لحماً بشرياً نيئاً</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.labelSocial>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_BodyPuristDisgust. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-0.label>قرف نقي الجسد</BodyPuristDisgust.stages.body_purist_disgust-0.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-1.label>قرف نقي الجسد</BodyPuristDisgust.stages.body_purist_disgust-1.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-2.label>قرف نقي الجسد</BodyPuristDisgust.stages.body_purist_disgust-2.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-3.label>قرف نقي الجسد</BodyPuristDisgust.stages.body_purist_disgust-3.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-4.label>قرف نقي الجسد</BodyPuristDisgust.stages.body_purist_disgust-4.label>
+  
+  <!-- Thought_BondedAnimalMaster, ThoughtWorker_BondedAnimalMaster. Label: {REASON} {PAWN}. LabelSocial: {PAWN}, {REASON}. Description: {PAWN} -->
+  <!-- EN: {0}'s master -->
+  <BondedAnimalMaster.stages.s_master.label>{0} سيد</BondedAnimalMaster.stages.s_master.label>
+  <!-- EN: Being together with my bonded animal makes me feel better. -->
+  <BondedAnimalMaster.stages.s_master.description>التواجد مع حيواني المرتبط يجعلني أشعر بتحسن.</BondedAnimalMaster.stages.s_master.description>
+  <!-- EN: master of {0} -->
+  <BondedAnimalMaster.stages.master_of.label>سيد {0}</BondedAnimalMaster.stages.master_of.label>
+  <!-- EN: Being together with my bonded animals makes me feel better. -->
+  <BondedAnimalMaster.stages.master_of.description>التواجد مع حيواناتي المرتبطة يجعلني أشعر بتحسن.</BondedAnimalMaster.stages.master_of.description>
+  
+  <!-- Thought_ChemicalInterestVsTeetotaler, ThoughtWorker_ChemicalInterestVsTeetotaler. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: chemical interest vs teetotaler -->
+  <ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>اهتمام كيميائي ضد ممتنع عن المخدرات</ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>
+  <ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.labelSocial>{OTHERPAWN_gender ? ممتنع : ممتنعة} عن المخدرات</ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.labelSocial>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_CreepyBreathing. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: creepy breathing -->
+  <CreepyBreathing.stages.creepy_breathing.label>تنفس مخيف</CreepyBreathing.stages.creepy_breathing.label>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_Disfigured. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: disfigured -->
+  <Disfigured.stages.disfigured.label>مشوه</Disfigured.stages.disfigured.label>
+  <Disfigured.stages.disfigured.labelSocial>{OTHERPAWN_gender ? مشوه : مشوهة}</Disfigured.stages.disfigured.labelSocial>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_Drunk. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: drunk -->
+  <Drunk.stages.drunk.label>سكران</Drunk.stages.drunk.label>
+  <Drunk.stages.drunk.labelSocial>{OTHERPAWN_gender ? سكران : سكرانة}</Drunk.stages.drunk.labelSocial>
+  
+  <!-- Thought_Tale, ThoughtWorker_Tale. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: executed prisoner -->
+  <ExecutedPrisoner.stages.executed_prisoner.label>أعدم سجيناً</ExecutedPrisoner.stages.executed_prisoner.label>
+  <ExecutedPrisoner.stages.executed_prisoner.labelSocial>{OTHERPAWN_gender ? أعدم : أعدمت} سجيناً</ExecutedPrisoner.stages.executed_prisoner.labelSocial>
+  
+  <!-- Thought_HardWorkerVsLazy, ThoughtWorker_HardWorkerVsLazy. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: hard worker vs lazy -->
+  <HardWorkerVsLazy.stages.hard_worker_vs_lazy.label>مجتهد ضد كسول</HardWorkerVsLazy.stages.hard_worker_vs_lazy.label>
+  <HardWorkerVsLazy.stages.hard_worker_vs_lazy.labelSocial>{OTHERPAWN_gender ? كسول : كسولة}</HardWorkerVsLazy.stages.hard_worker_vs_lazy.labelSocial>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_ImprisonedByFaction. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: holding me prisoner -->
+  <HoldingMePrisoner.stages.holding_me_prisoner.label>يحتجزني كسجين</HoldingMePrisoner.stages.holding_me_prisoner.label>
+  
+  <!-- Thought_Incestuous, ThoughtWorker_Incestuous. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: incestuous -->
+  <Incestuous.stages.incestuous.label>زنا محارم</Incestuous.stages.incestuous.label>
+  <Incestuous.stages.incestuous.labelSocial>{OTHERPAWN_gender ? محارم : محارم}</Incestuous.stages.incestuous.labelSocial>
+  
+  <!-- Thought_Tale, ThoughtWorker_Tale. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: killed colonist -->
+  <KilledColonist.stages.killed_colonist.label>قتل مستعمراً</KilledColonist.stages.killed_colonist.label>
+  <KilledColonist.stages.killed_colonist.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} مستعمراً</KilledColonist.stages.killed_colonist.labelSocial>
+  
+  <!-- Thought_Tale, ThoughtWorker_Tale. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: killed colony animal -->
+  <KilledColonyAnimal.stages.killed_colony_animal.label>قتل حيوان المستعمرة</KilledColonyAnimal.stages.killed_colony_animal.label>
+  <KilledColonyAnimal.stages.killed_colony_animal.labelSocial>{OTHERPAWN_gender ? قتل : قتلت} حيوان المستعمرة</KilledColonyAnimal.stages.killed_colony_animal.labelSocial>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_Man. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: man -->
+  <Man.stages.man.label>رجل</Man.stages.man.label>
+  
+  <!-- Thought_NotBondedAnimalMaster, ThoughtWorker_NotBondedAnimalMaster. Label: {REASON}, {PAWN}. Description: {PAWN} -->
+  <!-- EN: not {0}'s master -->
+  <NotBondedAnimalMaster.stages.not_s_master.label>ليس سيد {0}</NotBondedAnimalMaster.stages.not_s_master.label>
+  <!-- EN: I should be together with my bonded animal. -->
+  <NotBondedAnimalMaster.stages.not_s_master.description>يجب أن أكون مع حيواني المرتبط.</NotBondedAnimalMaster.stages.not_s_master.description>
+  <!-- EN: not master of {0} -->
+  <NotBondedAnimalMaster.stages.not_master_of.label>ليس سيد {0}</NotBondedAnimalMaster.stages.not_master_of.label>
+  <!-- EN: I should be together with my bonded animals. -->
+  <NotBondedAnimalMaster.stages.not_master_of.description>يجب أن أكون مع حيواناتي المرتبطة.</NotBondedAnimalMaster.stages.not_master_of.description>
+  
+  <!-- Thought_OpinionOfMyLover, ThoughtWorker_OpinionOfMyLover. Label: {0}(otherPawn.label), {1}(otherPawn.Name), {2}(otherPawn). Description: {PAWN} -->
+  <!-- EN: opinion of my {0} {1} -->
+  <OpinionOfMyLover.stages.opinion_of_my.label>رأيي في {0} {1}</OpinionOfMyLover.stages.opinion_of_my.label>
+  <!-- EN: Being with them makes me feel this way. -->
+  <OpinionOfMyLover.stages.opinion_of_my.description>وجودي معهم يجعلني أشعر بهذه الطريقة.</OpinionOfMyLover.stages.opinion_of_my.description>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_Pretty. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: physically appealing -->
+  <Pretty.stages.physically_appealing.label>جذاب جسدياً</Pretty.stages.physically_appealing.label>
+  <Pretty.stages.physically_appealing.labelSocial>{OTHERPAWN_gender ? وسيم : جميلة}</Pretty.stages.physically_appealing.labelSocial>
+  <!-- EN: physically stunning -->
+  <Pretty.stages.physically_stunning.label>فاتن جسدياً</Pretty.stages.physically_stunning.label>
+  <Pretty.stages.physically_stunning.labelSocial>{OTHERPAWN_gender ? فاتن : فاتنة} بشكل لا يصدق</Pretty.stages.physically_stunning.labelSocial>
+  
+  <!-- Thought_Tale, ThoughtWorker_Tale. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: sold prisoner to slavery -->
+  <SoldPrisoner.stages.sold_prisoner_to_slavery.label>باع سجيناً للعبودية</SoldPrisoner.stages.sold_prisoner_to_slavery.label>
+  <SoldPrisoner.stages.sold_prisoner_to_slavery.labelSocial>{OTHERPAWN_gender ? باع : باعت} سجيناً للعبودية</SoldPrisoner.stages.sold_prisoner_to_slavery.labelSocial>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_TeetotalerVsAddict. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: teetotaler vs addict -->
+  <TeetotalerVsAddict.stages.teetotaler_vs_addict.label>ممتنع عن المخدرات ضد مدمن</TeetotalerVsAddict.stages.teetotaler_vs_addict.label>
+  
+  <!-- Thought_TeetotalerVsChemicalInterest, ThoughtWorker_TeetotalerVsChemicalInterest. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: teetotaler vs chemical interest -->
+  <TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>ممتنع عن المخدرات ضد مهتم كيميائياً</TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_TranshumanistAppreciation. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: body modder appreciation -->
+  <TranshumanistAppreciation.stages.body_modder_appreciation-0.label>تقدير معدل الجسد</TranshumanistAppreciation.stages.body_modder_appreciation-0.label>
+  <!-- EN: body modder appreciation -->
+  <TranshumanistAppreciation.stages.body_modder_appreciation-1.label>تقدير معدل الجسد</TranshumanistAppreciation.stages.body_modder_appreciation-1.label>
+  <!-- EN: body modder appreciation -->
+  <TranshumanistAppreciation.stages.body_modder_appreciation-2.label>تقدير معدل الجسد</TranshumanistAppreciation.stages.body_modder_appreciation-2.label>
+  <!-- EN: body modder appreciation -->
+  <TranshumanistAppreciation.stages.body_modder_appreciation-3.label>تقدير معدل الجسد</TranshumanistAppreciation.stages.body_modder_appreciation-3.label>
+  <!-- EN: body modder appreciation -->
+  <TranshumanistAppreciation.stages.body_modder_appreciation-4.label>تقدير معدل الجسد</TranshumanistAppreciation.stages.body_modder_appreciation-4.label>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_Ugly. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: physically unsightly -->
+  <Ugly.stages.physically_unsightly.label>قبيح جسدياً</Ugly.stages.physically_unsightly.label>
+  <Ugly.stages.physically_unsightly.labelSocial>{OTHERPAWN_gender ? قبيح : قبيحة}</Ugly.stages.physically_unsightly.labelSocial>
+  <!-- EN: physically hideous -->
+  <Ugly.stages.physically_hideous.label>بشع جسدياً</Ugly.stages.physically_hideous.label>
+  <Ugly.stages.physically_hideous.labelSocial>{OTHERPAWN_gender ? بشع : بشعة} بشكل لا يصدق</Ugly.stages.physically_hideous.labelSocial>
+  
+  <!-- Thought_Situational, ThoughtWorker_WantToSleepWithSpouseOrLover. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: sleeping alone -->
+  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>نوم وحيداً</WantToSleepWithSpouseOrLover.stages.sleeping_alone.label>
+  <!-- EN: I should be sleeping with a lover or spouse. -->
+  <WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>يجب أن أنام مع حبيب أو زوج.</WantToSleepWithSpouseOrLover.stages.sleeping_alone.description>
+  
+  <!-- Thought_SituationalSocial, ThoughtWorker_Woman. Label: {PAWN}. LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN} -->
+  <!-- EN: woman -->
+  <Woman.stages.woman.label>امرأة</Woman.stages.woman.label>
+  
+</LanguageData>

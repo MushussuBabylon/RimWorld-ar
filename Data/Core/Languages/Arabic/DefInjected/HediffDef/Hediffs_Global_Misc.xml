@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: anesthetic -->
+  <Anesthetic.label>مخدر</Anesthetic.label>
+  <!-- EN: Sleep drugs in the bloodstream. Anesthetic renders creatures unconscious. -->
+  <Anesthetic.description>عقاقير منومة في مجرى الدم. المخدر يجعل الكائنات تفقد الوعي.</Anesthetic.description>
+  <!-- EN: wearing off -->
+  <Anesthetic.stages.wearing_off.label>يزول</Anesthetic.stages.wearing_off.label>
+  <!-- EN: woozy -->
+  <Anesthetic.stages.woozy.label>مترنح</Anesthetic.stages.woozy.label>
+  <!-- EN: sedated -->
+  <Anesthetic.stages.sedated.label>مخدر</Anesthetic.stages.sedated.label>
+  
+  <!-- EN: blood loss -->
+  <BloodLoss.label>فقدان الدم</BloodLoss.label>
+  <!-- EN: A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply. -->
+  <BloodLoss.description>انخفاض في حجم الدم الطبيعي. لفقدان الدم الطفيف تأثيرات خفيفة نسبيا، لكن عندما يصبح فقدان الدم حادا، يضعف نقل الأكسجين بشدة ويفقد المصاب القدرة على الحركة. يؤدي فقدان الدم الشديد إلى الموت.\n\nيتعافى فقدان الدم طبيعيا مع مرور الوقت بينما يعيد الجسم إنتاج مخزونه من الدم ببطء.</BloodLoss.description>
+  <!-- EN: minor -->
+  <BloodLoss.stages.minor-0.label>طفيف</BloodLoss.stages.minor-0.label>
+  <!-- EN: minor -->
+  <BloodLoss.stages.minor-1.label>طفيف</BloodLoss.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <BloodLoss.stages.moderate.label>متوسط</BloodLoss.stages.moderate.label>
+  <!-- EN: severe -->
+  <BloodLoss.stages.severe.label>حاد</BloodLoss.stages.severe.label>
+  <!-- EN: extreme -->
+  <BloodLoss.stages.extreme.label>شديد</BloodLoss.stages.extreme.label>
+  
+  <!-- EN: brain shock -->
+  <BrainShock.label>صدمة دماغية</BrainShock.label>
+  <!-- EN: After-effects of an electrical shock to the brain. This is generally cause by feedback from brain implants hit by EMP pulses. -->
+  <BrainShock.description>أثار لاحقة لصدمة كهربائية للدماغ. يحدث هذا عموما بسبب ارتجاع من زرعات دماغية أصيبت بنبضات كهرومغناطيسية.</BrainShock.description>
+  <!-- EN: a brain shock -->
+  <BrainShock.labelNoun>صدمة دماغية</BrainShock.labelNoun>
+  
+  <!-- EN: catatonic breakdown -->
+  <CatatonicBreakdown.label>انهيار جامودي</CatatonicBreakdown.label>
+  <!-- EN: A state of mental shock which leads to a total inability to function. The victim collapses, effectively unconscious. -->
+  <CatatonicBreakdown.description>حالة من الصدمة العقلية تؤدي إلى عدم قدرة كلية على العمل. ينهار المصاب، ويكون فعليا فاقدا للوعي.</CatatonicBreakdown.description>
+  <!-- EN: a catatonic breakdown -->
+  <CatatonicBreakdown.labelNoun>انهيار جامودي</CatatonicBreakdown.labelNoun>
+  
+  <!-- EN: covered in firefoam -->
+  <CoveredInFirefoam.label>مغطى برغوة إطفاء</CoveredInFirefoam.label>
+  <!-- EN: Covered in a fire-retardant foam. -->
+  <CoveredInFirefoam.description>مغطى برغوة مضادة للحريق.</CoveredInFirefoam.description>
+  
+  <!-- EN: cryptosleep sickness -->
+  <CryptosleepSickness.label>مرض السبات التجميدي</CryptosleepSickness.label>
+  <!-- EN: After-effects of using a cryptosleep pod. Cryptosleep suspends and replaces many bodily functions in order to prevent aging and death. Upon exiting cryptosleep, the body takes time to restart and rebalance its natural metabolic processes. While this is ongoing, the patient suffers from nausea, dizziness, and a sense of fuzziness in the mind. -->
+  <CryptosleepSickness.description>آثار لاحقة لاستخدام كبسولة سبات تجميدي. يعلق السبات التجميدي ويستبدل العديد من وظائف الجسم لمنع الشيخوخة والموت. عند الخروج من السبات التجميدي، يستغرق الجسم وقتا لإعادة بدء وإعادة توازن عملياته الاستقلابية الطبيعية. بينما يستمر هذا، يعاني المريض من الغثيان والدوار وإحساس بالتشوش في العقل.</CryptosleepSickness.description>
+  <!-- EN: After-effects of using a cryptosleep pod including dizziness, nausea, and vomiting. -->
+  <CryptosleepSickness.descriptionShort>آثار لاحقة لاستخدام كبسولة سبات تجميدي تشمل الدوار والغثيان والقيء.</CryptosleepSickness.descriptionShort>
+  
+  <!-- EN: drug overdose -->
+  <DrugOverdose.label>جرعة مخدرات زائدة</DrugOverdose.label>
+  <!-- EN: Generalized toxic effects due to over-concentration of drugs in the bloodstream. -->
+  <DrugOverdose.description>تأثيرات سامة عامة بسبب تركيز مفرط للمخدرات في مجرى الدم.</DrugOverdose.description>
+  <!-- EN: Overdose: {0} -->
+  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>جرعة زائدة: {0}</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>
+  <!-- EN: {0} is overdosing! -->
+  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>{0} يعاني من جرعة زائدة!</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>
+  <!-- EN: a drug overdose -->
+  <DrugOverdose.labelNoun>جرعة مخدرات زائدة</DrugOverdose.labelNoun>
+  <!-- EN: minor -->
+  <DrugOverdose.stages.minor-0.label>طفيف</DrugOverdose.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DrugOverdose.stages.minor-1.label>طفيف</DrugOverdose.stages.minor-1.label>
+  <!-- EN: major -->
+  <DrugOverdose.stages.major.label>كبير</DrugOverdose.stages.major.label>
+  
+  <!-- EN: food poisoning -->
+  <FoodPoisoning.label>تسمم غذائي</FoodPoisoning.label>
+  <!-- EN: Gastrointestinal illness caused by consuming decayed or unclean food. It can be caused by eating rotten food, by incompetent cooks accidentally poisoning meals, or by eating from unsafe wild sources. The patient will vomit and feel sick for some time. -->
+  <FoodPoisoning.description>مرض معدي معوي ناتج عن تناول طعام متعفن أو غير نظيف. يمكن أن يحدث بسبب أكل طعام فاسد، أو بسبب طهاة غير أكفاء يسممون الوجبات عن طريق الخطأ، أو بسبب الأكل من مصادر برية غير آمنة. سيتقيأ المريض ويشعر بالمرض لبعض الوقت.</FoodPoisoning.description>
+  <!-- EN: recovering -->
+  <FoodPoisoning.stages.recovering.label>يتعافى</FoodPoisoning.stages.recovering.label>
+  <!-- EN: major -->
+  <FoodPoisoning.stages.major.label>كبير</FoodPoisoning.stages.major.label>
+  <!-- EN: initial -->
+  <FoodPoisoning.stages.initial.label>أولي</FoodPoisoning.stages.initial.label>
+  
+  <!-- EN: heart attack -->
+  <HeartAttack.label>نوبة قلبية</HeartAttack.label>
+  <!-- EN: A disruption in the heart's normal beating rhythm. Heart attacks can be debilitatingly painful. They can worsen and lead to death, or recover. -->
+  <HeartAttack.description>اضطراب في نظم ضربات القلب الطبيعية. يمكن أن تكون النوبات القلبية مؤلمة بشكل موهن. يمكن أن تتفاقم وتؤدي إلى الموت، أو تتعافى.</HeartAttack.description>
+  <!-- EN: a heart attack -->
+  <HeartAttack.labelNoun>نوبة قلبية</HeartAttack.labelNoun>
+  <!-- EN: painful -->
+  <HeartAttack.stages.painful.label>مؤلم</HeartAttack.stages.painful.label>
+  <!-- EN: debilitating -->
+  <HeartAttack.stages.debilitating.label>موهن</HeartAttack.stages.debilitating.label>
+  <!-- EN: fatal -->
+  <HeartAttack.stages.fatal.label>مميت</HeartAttack.stages.fatal.label>
+  
+  <!-- EN: pregnant -->
+  <Pregnant.label>حامل</Pregnant.label>
+  <!-- EN: This creature is gestating offspring. It will give birth if the pregnancy comes to term. If starved or injured, there may be a miscarriage. -->
+  <Pregnant.description>هذا المخلوق يحمل نسلا. سيلد إذا اكتمل الحمل. إذا جاع أو أصيب، فقد يحدث إجهاض.</Pregnant.description>
+  <!-- EN: {0} is pregnant! -->
+  <Pregnant.comps.HediffComp_MessageAfterTicks.message>{0} حامل!</Pregnant.comps.HediffComp_MessageAfterTicks.message>
+  <!-- EN: pregnancy -->
+  <Pregnant.labelNoun>حمل</Pregnant.labelNoun>
+  <!-- EN: early-stage -->
+  <Pregnant.stages.earlystage.label>مرحلة مبكرة</Pregnant.stages.earlystage.label>
+  <!-- EN: middle-stage -->
+  <Pregnant.stages.middlestage.label>مرحلة متوسطة</Pregnant.stages.middlestage.label>
+  <!-- EN: late-stage -->
+  <Pregnant.stages.latestage.label>مرحلة متأخرة</Pregnant.stages.latestage.label>
+  
+  <!-- EN: psychic coma -->
+  <PsychicComa.label>غيبوبة نفسية</PsychicComa.label>
+  <!-- EN: A form of benign coma during which the brain recovers from a psychic overload. -->
+  <PsychicComa.description>شكل من الغيبوبة الحميدة يتعافى فيها الدماغ من حمل نفسي زائد.</PsychicComa.description>
+  <!-- EN: a psychic coma -->
+  <PsychicComa.labelNoun>غيبوبة نفسية</PsychicComa.labelNoun>
+  
+  <!-- EN: psychic hangover -->
+  <PsychicHangover.label>خُمار نفسي</PsychicHangover.label>
+  <!-- EN: An after-effect of neural heat. Psychic hangover is bothersome, but not dangerous. -->
+  <PsychicHangover.description>أثر لاحق للحرارة العصبية. الخُمار النفسي مزعج، لكنه ليس خطيرا.</PsychicHangover.description>
+  <!-- EN: a psychic hangover -->
+  <PsychicHangover.labelNoun>خُمار نفسي</PsychicHangover.labelNoun>
+  <!-- EN: forming -->
+  <PsychicHangover.stages.forming.label>يتشكل</PsychicHangover.stages.forming.label>
+  <!-- EN: buzzing -->
+  <PsychicHangover.stages.buzzing.label>طنين</PsychicHangover.stages.buzzing.label>
+  
+  <!-- EN: psychic invisibility -->
+  <PsychicInvisibility.label>خفاء نفسي</PsychicInvisibility.label>
+  <!-- EN: Psychically-induced invisibility. This actually affects others nearby, making their brains unable to perceive the sight of this individual, even if the eyes are unaffected. -->
+  <PsychicInvisibility.description>خفاء مستحث نفسيا. هذا يؤثر فعليا على الآخرين القريبين، مما يجعل أدمغتهم غير قادرة على إدراك رؤية هذا الفرد، حتى لو كانت الأعين غير متأثرة.</PsychicInvisibility.description>
+  
+  <!-- EN: psychic shock -->
+  <PsychicShock.label>صدمة نفسية</PsychicShock.label>
+  <!-- EN: A state of psychic chaos in the brain and mind. Caused by psychic attacks or critical level of neural heat, this effect is debilitating until it wears off. -->
+  <PsychicShock.description>حالة من الفوضى النفسية في الدماغ والعقل. تحدث بسبب هجمات نفسية أو مستوى حرج من الحرارة العصبية، وهذا التأثير موهن حتى يزول.</PsychicShock.description>
+  <!-- EN: a psychic shock -->
+  <PsychicShock.labelNoun>صدمة نفسية</PsychicShock.labelNoun>
+  
+  <!-- EN: resurrection sickness -->
+  <ResurrectionSickness.label>مرض البعث</ResurrectionSickness.label>
+  <!-- EN: After-effects of resurrection. Artificially-restarted body processes take time to rebalance themselves. -->
+  <ResurrectionSickness.description>آثار لاحقة للبعث. العمليات الجسدية التي تمت إعادة تشغيلها اصطناعيا تستغرق وقتا لإعادة توازن نفسها.</ResurrectionSickness.description>
+  
+  <!-- EN: toxic buildup -->
+  <ToxicBuildup.label>تراكم السموم</ToxicBuildup.label>
+  <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nIf a creature dies with toxic buildup, there's a chance that they cannot be eaten. The higher the toxic buildup, the higher the chance. -->
+  <ToxicBuildup.description>سم في مجرى الدم. يمكن أن يأتي من مصادر مختلفة، بما في ذلك السموم البيئية، أو العضات السامة، أو الأسلحة المسمومة.\n\nفي الجرعات العالية، يكون تراكم السموم مميتا. حتى في الجرعات المنخفضة، يمكن أن يولد سرطانات.\n\nإذا مات مخلوق مع تراكم سموم، فهناك احتمال أنه لا يمكن أكله. كلما زاد تراكم السموم، زاد الاحتمال.</ToxicBuildup.description>
+  <!-- EN: {PAWN_nameDef} is showing early signs of toxic buildup. Keep {PAWN_objective} away from sources of toxins. -->
+  <ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>تظهر على {PAWN_nameDef} علامات مبكرة لتراكم السموم. أبق {PAWN_objective} بعيدا عن مصادر السموم.</ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: initial -->
+  <ToxicBuildup.stages.initial-0.label>أولي</ToxicBuildup.stages.initial-0.label>
+  <!-- EN: initial -->
+  <ToxicBuildup.stages.initial-1.label>أولي</ToxicBuildup.stages.initial-1.label>
+  <!-- EN: minor -->
+  <ToxicBuildup.stages.minor.label>طفيف</ToxicBuildup.stages.minor.label>
+  <!-- EN: moderate -->
+  <ToxicBuildup.stages.moderate.label>متوسط</ToxicBuildup.stages.moderate.label>
+  <!-- EN: serious -->
+  <ToxicBuildup.stages.serious.label>خطير</ToxicBuildup.stages.serious.label>
+  <!-- EN: extreme -->
+  <ToxicBuildup.stages.extreme.label>شديد</ToxicBuildup.stages.extreme.label>
+  
+</LanguageData>

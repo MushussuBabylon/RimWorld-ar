@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bio-starvation -->
+  <BioStarvation.label>مجاعة حيوية</BioStarvation.label>
+  <!-- EN: This person was in a growth vat which wasn't functioning properly due to lack of power or nutrition feedstock. This has left their body in a state of bio-starvation. -->
+  <BioStarvation.description>كان هذا الشخص في وعاء نمو لا يعمل بشكل صحيح بسبب نقص الطاقة أو مواد التغذية. ترك هذا جسده في حالة مجاعة حيوية.</BioStarvation.description>
+  
+  <!-- EN: deathresting -->
+  <Deathrest.label>السبات الموتي</Deathrest.label>
+  <!-- EN: A deep coma-like sleep that lasts several days and restores the body's resources. Certain genes create a need for deathrest. Deathrest can also be enhanced with various support buildings that give special bonuses to the deathrester. -->
+  <Deathrest.description>نوم عميق يشبه الغيبوبة يستمر عدة أيام ويعيد موارد الجسم. جينات معينة تخلق حاجة إلى السبات الموتي. يمكن أيضاً تعزيز السبات الموتي بمباني دعم متنوعة تمنح مكافآت خاصة للسابات.</Deathrest.description>
+  
+  <!-- EN: deathrest exhaustion -->
+  <DeathrestExhaustion.label>إرهاق السبات الموتي</DeathrestExhaustion.label>
+  <!-- EN: This person desperately needs to deathrest to rebalance their metabolism. -->
+  <DeathrestExhaustion.description>يحتاج هذا الشخص بشدة إلى السبات الموتي لإعادة توازن أيضه.</DeathrestExhaustion.description>
+  
+  <!-- EN: chemical dependency -->
+  <GeneticDrugNeed.label>اعتماد كيميائي</GeneticDrugNeed.label>
+  <!-- EN: This person has a genetically-induced biochemical dependency on a specific drug. Without regular doses of the drug, their body cannot maintain itself in a healthy state and they will suffer degrading health and mood until they die.\n\nTakes effect after age: 13. -->
+  <GeneticDrugNeed.description>لدى هذا الشخص اعتماد كيميائي حيوي محدَّد وراثيًا على دواء معين. بدون جرعات منتظمة من الدواء، لا يستطيع جسده الحفاظ على نفسه في حالة صحية وسيعاني من تدهور الصحة والمزاج حتى الموت.\n\nيسري المفعول بعد سن: 13.</GeneticDrugNeed.description>
+  <!-- EN: deficiency -->
+  <GeneticDrugNeed.stages.deficiency.label>نقص</GeneticDrugNeed.stages.deficiency.label>
+  <GeneticDrugNeed.stages.deficiency.overrideLabel>غيبوبة الامتناع</GeneticDrugNeed.stages.deficiency.overrideLabel>
+  <!-- EN: deficiency coma -->
+  <GeneticDrugNeed.stages.3.overrideLabel>غيبوبة النقص</GeneticDrugNeed.stages.3.overrideLabel>
+  
+  <!-- EN: hemogen craving -->
+  <HemogenCraving.label>اشتهاء الهيموجين</HemogenCraving.label>
+  <!-- EN: Due to a lack of hemogen, this person's body is breaking down hemogen reserves in their bone marrow. This causes disorientation and a painful craving for human blood. -->
+  <HemogenCraving.description>بسبب نقص الهيموجين، يقوم جسم هذا الشخص بتكسير مخزون الهيموجين في نخاع عظمه. هذا يسبب توهانًا واشتهاءً مؤلمًا للدم البشري.</HemogenCraving.description>
+  <!-- EN: minor -->
+  <HemogenCraving.stages.minor.label>طفيف</HemogenCraving.stages.minor.label>
+  <!-- EN: moderate -->
+  <HemogenCraving.stages.moderate.label>متوسط</HemogenCraving.stages.moderate.label>
+  <!-- EN: major -->
+  <HemogenCraving.stages.major.label>كبير</HemogenCraving.stages.major.label>
+  
+  <!-- EN: interrupted deathrest -->
+  <InterruptedDeathrest.label>سبات موتي متقطع</InterruptedDeathrest.label>
+  <!-- EN: Deathrest was interrupted while this person's metabolism was still out of balance. They will be sick for days while regaining equilibrium. -->
+  <InterruptedDeathrest.description>تمت مقاطعة السبات الموتي بينما كان أيض هذا الشخص لا يزال غير متوازن. سيكون مريضاً لعدة أيام أثناء استعادة التوازن.</InterruptedDeathrest.description>
+  
+  <!-- EN: psychic bond -->
+  <PsychicBond.label>رابطة نفسية</PsychicBond.label>
+  <!-- EN: This person has a psychic bond with another person based on the psychic bonding gene. The bond itself grants some limited psychic awareness, allowing it to connect even with the psychically deaf. -->
+  <PsychicBond.description>لدى هذا الشخص رابطة نفسية مع شخص آخر بناءً على جين الترابط النفسي. تمنح الرابطة نفسها بعض الوعي النفسي المحدود، مما يسمح لها بالاتصال حتى مع الصم نفسياً.</PsychicBond.description>
+  <!-- EN: This person's bonded individual is nearby. -->
+  <PsychicBond.stages.0.extraTooltip>الشخص المرتبط بهذا الفرد قريب.</PsychicBond.stages.0.extraTooltip>
+  <!-- EN: psychic bond -->
+  <PsychicBond.stages.0.overrideLabel>رابطة نفسية</PsychicBond.stages.0.overrideLabel>
+  <!-- EN: This person feels separated from their bonded individual. -->
+  <PsychicBond.stages.1.extraTooltip>يشعر هذا الشخص بالانفصال عن الشخص المرتبط به.</PsychicBond.stages.1.extraTooltip>
+  <!-- EN: psychic bond distance -->
+  <PsychicBond.stages.1.overrideLabel>مسافة الرابطة النفسية</PsychicBond.stages.1.overrideLabel>
+  
+  <!-- EN: psychic bond torn -->
+  <PsychicBondTorn.label>رابطة نفسية ممزقة</PsychicBondTorn.label>
+  <!-- EN: This person had a psychic bond with another, but the bond was torn when their partner died. -->
+  <PsychicBondTorn.description>كان لدى هذا الشخص رابطة نفسية مع آخر، لكن الرابطة تمزقت عندما مات شريكه.</PsychicBondTorn.description>
+  
+  <!-- EN: regeneration coma -->
+  <RegenerationComa.label>غيبوبة تجديد</RegenerationComa.label>
+  <!-- EN: Had this person not been genetically deathless, they would have already died from their health conditions. Instead, they have fallen into a regeneration coma, during which they will regenerate their body. -->
+  <RegenerationComa.description>لو لم يكن هذا الشخص لديه جينات الخلود، لكان قد مات بالفعل من حالاته الصحية. بدلاً من ذلك، دخل في غيبوبة تجديد، حيث سيجدد جسده.</RegenerationComa.description>
+  
+  <!-- EN: Scanning sickness -->
+  <ScanningSickness.label>مرض المسح</ScanningSickness.label>
+  <!-- EN: This person was scanned by a softscanner to produce a mechanoid subcore. The high-energy scanning device has caused disturbances in their brain chemistry which will take time to resolve themselves. There won't be any long-term damage. -->
+  <ScanningSickness.description>تم مسح هذا الشخص بواسطة ماسح ناعم لإنتاج نواة فرعية للميكانويد. تسبب جهاز المسح عالي الطاقة في اضطرابات في كيمياء دماغه والتي ستستغرق وقتاً لتزول. لن يكون هناك أي ضرر طويل الأمد.</ScanningSickness.description>
+  
+  <!-- EN: vat growing -->
+  <VatGrowing.label>نمو في الوعاء</VatGrowing.label>
+  <!-- EN: The growth vat is stimulating this person's body to increase the rate of cell division and aging. -->
+  <VatGrowing.description>يحفز وعاء النمو جسم هذا الشخص لزيادة معدل انقسام الخلايا والشيخوخة.</VatGrowing.description>
+  
+  <!-- EN: vat learning -->
+  <VatLearning.label>تعلم في الوعاء</VatLearning.label>
+  <!-- EN: The growth vat is electrically stimulating this person's brain to induce skill development. This process is not very effective, and will only partially replace the skills missed from not growing in the outside world. -->
+  <VatLearning.description>يقوم وعاء النمو بتحفيز دماغ هذا الشخص كهربائياً للحث على تطوير المهارات. هذه العملية ليست فعالة جداً، وستعوض جزئياً فقط عن المهارات الفائتة من عدم النمو في العالم الخارجي.</VatLearning.description>
+  
+  <!-- EN: xenogermination coma -->
+  <XenogerminationComa.label>غيبوبة زرع الزينوجيرم</XenogerminationComa.label>
+  <!-- EN: A xenogerm was implanted in this person. The xenogerm needs time to integrate itself into the host and modify the genes and chemistry of various tissues throughout the body. During this time, the person cannot safely wake up, so the xenogerm keeps them in a coma.\n\nThe duration of this coma can be reduced by implanting a xenogerm with better medical facilities and more skilled doctors. -->
+  <XenogerminationComa.description>تم زرع زينوجيرم في هذا الشخص. يحتاج الزينوجيرم إلى وقت للاندماج في المضيف وتعديل الجينات وكيمياء الأنسجة المختلفة في جميع أنحاء الجسم. خلال هذا الوقت، لا يمكن للشخص الاستيقاظ بأمان، لذا يبقيه الزينوجيرم في غيبوبة.\n\nيمكن تقليل مدة هذه الغيبوبة عن طريق زرع الزينوجيرم بمرافق طبية أفضل وأطباء أكثر مهارة.</XenogerminationComa.description>
+  
+  <!-- EN: gene loss shock -->
+  <XenogermLossShock.label>صدمة فقدان الجينات</XenogermLossShock.label>
+  <!-- EN: This person's genes were recently removed or expelled. This has destabilized the person's metabolism and hormones, leaving them temporarily weak and drowsy, with a weakened immune system. -->
+  <XenogermLossShock.description>تمت إزالة أو طرد جينات هذا الشخص مؤخرًا. أدى ذلك إلى زعزعة استقرار أيض الشخص وهرموناته، مما جعله ضعيفًا ونعسانًا مؤقتًا، مع ضعف في جهاز المناعة.</XenogermLossShock.description>
+  
+  <!-- EN: genes regrowing -->
+  <XenogermReplicating.label>الجينات تنمو من جديد</XenogermReplicating.label>
+  <!-- EN: This person's genetic material is regrowing. This process doesn't have any direct health effects. However, extracting their genes while they are regrowing will kill them. -->
+  <XenogermReplicating.description>المادة الوراثية لهذا الشخص تنمو من جديد. هذه العملية ليس لها أي آثار صحية مباشرة. ولكن استخراج جيناته أثناء نموها سيقتله.</XenogermReplicating.description>
+  <!-- EN: {PAWN_nameDef}'s genes have finished regrowing. -->
+  <XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>انتهت جينات {PAWN_nameDef} من النمو من جديد.</XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>
+  
+</LanguageData>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Uncontrolled mechs -->
+  <AlertMechLacksOverseer>ميكانويدات غير متحكم بها</AlertMechLacksOverseer>
+  <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
+  <AlertMechLacksOverseerDesc>واحد أو أكثر من ميكانويداتك غير متحكم به. قم بتوصيل ميكانويداتك بميكانيتور ذي نطاق ترددي كاف للتحكم بها.\n\nإذا تُركت دون تحكم لأكثر من يوم، قد تصبح الميكانويد متوحشة. عندما يحدث هذا ستنضم إلى {0} وتصبح معادية لك. إذا توحشت ميكانويد واحدة، فستجلب معها الميكانويدات القريبة الأخرى.\n\nالميكانويدات المتوحشة لا يمكن إحياؤها في مولد عند قتلها.</AlertMechLacksOverseerDesc>
+  <!-- EN: The following mechanoids are uncontrolled -->
+  <AlertMechLacksOverseerUncontrolled>الميكانويدات التالية غير متحكم بها</AlertMechLacksOverseerUncontrolled>
+  <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
+  <AlertMechLacksOverseerMayGoFeral>الميكانويدات التالية غير متحكم بها وقد تتوحش في أي لحظة</AlertMechLacksOverseerMayGoFeral>
+
+  <!-- EN: {0} is low on resources -->
+  <AlertWarqueenHasLowResources>الموارد منخفضة لـ {0}</AlertWarqueenHasLowResources>
+  <!-- EN: One or more {0} are low on resoures. They will be unable to produce mechs on command if they run out of resources. -->
+  <AlertWarqueenHasLowResourcesDesc>واحد أو أكثر من {0} منخفضة الموارد. لن تتمكن من إنتاج ميكانويدات عند الطلب إذا نفدت مواردها.</AlertWarqueenHasLowResourcesDesc>
+
+  <!-- EN: {PAWN} needs deathrest -->
+  <AlertLowDeathrestPawn>{PAWN} بحاجة لسبات الموت</AlertLowDeathrestPawn>
+  <!-- EN: {NUMCULPRITS} colonists need deathrest -->
+  <AlertLowDeathrestPawns>{NUMCULPRITS} مستعمر بحاجة لسبات الموت</AlertLowDeathrestPawns>
+  <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
+  <AlertLowDeathrestDesc>مستعمر لم يقم بسبات الموت منذ وقت طويل. إذا طالت المدة دون سبات الموت، سيعاني من إرهاق سبات الموت.\n\nللقيام بسبات الموت، اختر المستعمر ثم انقر بزر الماوس الأيمن على سريره المخصص أو تابوت سبات الموت.\n\nهؤلاء الأشخاص بحاجة لسبات الموت:\n{CULPRITS}</AlertLowDeathrestDesc>
+
+  <!-- EN: Low hemogen -->
+  <AlertLowHemogen>هيموجين منخفض</AlertLowHemogen>
+  <!-- EN: A colonist has low hemogen. At zero hemogen, they will develop a painful hemogen craving.\n\nFeed them hemogen packs to prevent this. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nThe following colonists have low hemogen -->
+  <AlertLowHemogenDesc>مستعمر لديه هيموجين منخفض. عند نفاد الهيموجين، سيصاب بتوق مؤلم للهيموجين.\n\nأطعمهم عبوات هيموجين لمنع ذلك. يمكنك الحصول على عبوات الهيموجين باستخدام العملية الطبية 'استخراج عبوة هيموجين' على شخص غير مولّد للدم.\n\nالمستعمرون التاليون لديهم هيموجين منخفض</AlertLowHemogenDesc>
+
+  <!-- EN: Recharger full -->
+  <AlertRechargerFull>الشاحن ممتلئ</AlertRechargerFull>
+  <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
+  <AlertRechargerFullDesc>بعض شواحن الميكانويد تخزن الحد الأقصى من عبوات النفايات السامة. لا يمكن للميكانويدات استخدام هذه الشواحن حتى يتم نقل عبوات النفايات السامة بعيدًا.\n\nاختر مستعمرًا وانقر بزر الماوس الأيمن على الشاحن لتفريغه.</AlertRechargerFullDesc>
+
+  <!-- EN: Need mech rechargers -->
+  <AlertNeedMechChargers>بحاجة لشواحن ميكانويد</AlertNeedMechChargers>
+  <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
+  <AlertNeedMechChargersDesc>ليس لديك شواحن لجميع ميكانويداتك. إذا نفدت طاقة ميكانويد، ستدخل في حالة شحن ذاتي خاملة وستُعاد شحنها ببطء شديد.\n\nابنِ المزيد من الشواحن التالية:\n{0}\n\nملاحظة: فقط الميكانويدات الخفيفة يمكنها استخدام شواحن الميكانويد العادية. الميكانويدات المتوسطة أو الأثقل تتطلب شواحن ميكانويد كبيرة.</AlertNeedMechChargersDesc>
+  <!-- EN: Research basic mechtech or higher to build rechargers. -->
+  <AlertNeedMechChargerBasicMechtech>ابحث عن ميكتيك أساسي أو أعلى لبناء الشواحن.</AlertNeedMechChargerBasicMechtech>
+
+  <!-- EN: Reimplantation available -->
+  <AlertReimplantationAvailable>إعادة الزرع متاحة</AlertReimplantationAvailable>
+  <!-- EN: {0_nameDef} is waiting to reimplant {0_possessive} xenogerm into one of your colonists. -->
+  <AlertReimplantationAvailableDesc>{0_nameDef} ينتظر إعادة زرع لقاح {0_possessive} في أحد مستعمريك.</AlertReimplantationAvailableDesc>
+
+  <!-- EN: Low baby food -->
+  <AlertLowBabyFood>طعام أطفال منخفض</AlertLowBabyFood>
+  <!-- EN: You are dangerously low on baby food.\n\n    Babies needing food: {0}\n    Days worth of baby food in storage: {1}\n\nBuy, find or make some baby-edible food. This includes {2}. -->
+  <AlertLowBabyFoodDesc>مخزون طعام الأطفال منخفض بشكل خطير.\n\n    الأطفال الذين يحتاجون طعامًا: {0}\n    أيام طعام الأطفال المتبقية في المخزون: {1}\n\nاشترِ، اعثر، أو اصنع بعض الطعام المناسب للأطفال. يشمل ذلك {2}.</AlertLowBabyFoodDesc>
+  <!-- EN: No baby feeders -->
+  <AlertNoBabyFeeder>لا يوجد مغذون للأطفال</AlertNoBabyFeeder>
+  <!-- EN: No {FACTION_pawnsPlural} are assigned to feed these babies, or they're all downed.\n\nAssign one of your {FACTION_pawnsPlural} to childcare or assign a lactating {FACTION_pawnSingular} to feed these babies with Urgent priority in the babies' feeding tab, and ensure at least one of them is not downed. -->
+  <AlertNoBabyFeederDesc>لا يوجد {FACTION_pawnsPlural} معين لإطعام هؤلاء الأطفال، أو أنهم جميعًا مطروحون أرضًا.\n\nعيّن أحد {FACTION_pawnsPlural} لرعاية الأطفال أو عيّن {FACTION_pawnSingular} مرضع لإطعام هؤلاء الأطفال بأولوية عاجلة في تبويب تغذية الأطفال، وتأكد من أن واحدًا منهم على الأقل ليس مطروحًا أرضًا.</AlertNoBabyFeederDesc>
+  <!-- EN: Abandoned baby -->
+  <AlertAbandonedBaby>طفل مهجور</AlertAbandonedBaby>
+  <!-- EN: There are abandoned babies nearby with no closeby caregivers.  If you don't adopt the babies, they'll probably starve to death.\n\nTo adopt a baby, select it and then select "{0}". -->
+  <AlertAbandonedBabyDesc>يوجد أطفال مهجورون بالقرب دون مقدمي رعاية قريبين. إذا لم تتبنَّ الأطفال، فمن المحتمل أن يموتوا جوعًا.\n\nلتبني طفل، اختره ثم اختر "{0}".</AlertAbandonedBabyDesc>
+
+  <!-- EN: No baby food in caravan -->
+  <AlertNoBabyFoodCaravan>لا يوجد طعام أطفال في القافلة</AlertNoBabyFoodCaravan>
+  <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
+  <AlertNoBabyFoodCaravanDesc>الأطفال في هذه القافلة ليس لديهم طعام أطفال ولا يوجد {FACTION_pawnsPlural} مرضعات لإطعامهم.</AlertNoBabyFoodCaravanDesc>
+
+  <!-- EN: Toxic buildup -->
+  <AlertToxicBuildup>تراكم السموم</AlertToxicBuildup>
+  <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
+  <AlertToxicBuildupDesc>هؤلاء المستعمرون لديهم تراكم خطير للسموم:\n\n{0}\n\nانقلهم بعيدًا عن مصادر السموم.\n\nيمكن أن يحدث تراكم السموم بسبب أشياء كثيرة بما في ذلك التساقط السام، الغاز السام، والأرض الملوثة.</AlertToxicBuildupDesc>
+
+  <!-- EN: Need baby cribs -->
+  <AlertNeedBabyCribs>بحاجة لمهود أطفال</AlertNeedBabyCribs>
+  <!-- EN: You have more babies than cribs.\n\nMake more cribs or, if you have no resources to spare, place some baby sleeping spots for free. -->
+  <AlertNeedBabyCribsDesc>لديك أطفال أكثر من المهود.\n\nاصنع مهودًا أكثر أو، إذا لم تكن لديك موارد فائضة، ضع بعض أماكن نوم الأطفال مجانًا.</AlertNeedBabyCribsDesc>
+  <!-- EN: Need slave cribs -->
+  <AlertNeedSlaveCribs>بحاجة لمهود عبيد</AlertNeedSlaveCribs>
+  <!-- EN: You have more slave babies than you have cribs marked for slave use.\n\nEither make more cribs or change a colonist crib to a slave crib.\n\nIf you have no resources, baby sleeping spots are free and can be placed instantly. -->
+  <AlertNeedSlaveCribsDesc>لديك أطفال عبيد أكثر من المهود المخصصة للاستخدام للعبيد.\n\nإما أن تصنع مهودًا أكثر أو تغير مهد مستعمر إلى مهد عبيد.\n\nإذا لم تكن لديك موارد، فإن أماكن نوم الأطفال مجانية ويمكن وضعها فورًا.</AlertNeedSlaveCribsDesc>
+
+  <!-- EN: Polluted terrain -->
+  <AlertPollutedTerrain>أرض ملوثة</AlertPollutedTerrain>
+  <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
+  <AlertPollutedTerrainDesc>شخص أو حيوان يعاني من تراكم السموم وهو على أرض ملوثة. في أي وقت يكون شخص ما على أرض ملوثة، سيزداد تراكم السموم لديه بمرور الوقت حتى الموت.\n\nهؤلاء الأشخاص أو الحيوانات متأثرون:\n\n{0}\n\nأبقِ الناس بعيدًا عن الأرض الملوثة، أو جد طريقة لحمايتهم من تأثيراتها. بعض الملابس، الزرعات وتعديلات الجينات يمكن أن تحمي من تراكم السموم. لا يمكن تغطية الأرض الملوثة باستخدام أرضية، ولكن يمكن تنظيفها يدويًا وبطرق أخرى.</AlertPollutedTerrainDesc>
+
+  <!-- EN: Mechanoid missing part -->
+  <AlertMechMissingBodyPart>ميكانويد ينقصها جزء</AlertMechMissingBodyPart>
+  <!-- EN: Mechanoids missing parts -->
+  <AlertMechsMissingBodyPart>ميكانويدات ينقصها أجزاء</AlertMechsMissingBodyPart>
+  <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
+  <AlertMechMissingBodyPartDesc>واحد أو أكثر من ميكانويداتك ينقصها جزء من الجسم. يمكن للميكانيتور إصلاح الأجزاء المفقودة.\n\nالميكانويدات التي فقدت أجزاء من الجسم هي</AlertMechMissingBodyPartDesc>
+
+  <!-- EN: Mechanoid repair needed -->
+  <AlertMechNeedsRepair>الميكانويد بحاجة لإصلاح</AlertMechNeedsRepair>
+  <!-- EN: These mechanoids are damaged and need repair -->
+  <AlertMechNeedsRepairDescPrefix>هذه الميكانويدات تالفة وتحتاج إلى إصلاح</AlertMechNeedsRepairDescPrefix>
+  <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
+  <AlertMechNeedsRepairDesc>أمر ميكانيتورًا بإصلاحها، أو اختر الميكانويد وقم بتشغيل الإصلاح التلقائي. إصلاح ميكانويد يتطلب طاقة. إذا كانت طاقة الميكانويد منخفضة جدًا بحيث لا يمكنها التحرك، فيجب على شخص ما حملها إلى الشاحن.</AlertMechNeedsRepairDesc>
+  
+  <!-- EN: {0} stopped -->
+  <AlertToxifierGeneratorStopped>توقف {0}</AlertToxifierGeneratorStopped>
+  <!-- EN: Your {0} is not producing power because it has no nearby fertile terrain to convert.\n\nClean polluted terrain with pollution pumps, or by assigning a pollution removal area. -->
+  <AlertToxifierGeneratorStoppedDesc>مولد {0} الخاص بك لا ينتج طاقة لأنه لا توجد أرض خصبة قريبة لتحويلها.\n\nنظف الأرض الملوثة بمضخات التلوث، أو بتعيين منطقة إزالة التلوث.</AlertToxifierGeneratorStoppedDesc>
+
+  <!-- EN: Psychic bond distance -->
+  <AlertPsychicBondedPawnsSeparated>مسافة الرابط النفسي</AlertPsychicBondedPawnsSeparated>
+  <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
+  <AlertPsychicBondedPawnsSeparatedDesc>بعض المستعمرين ذوي الروابط النفسية تم فصلهم ويشعرون بآثار سلبية من المسافة. لتجنب ذلك، يجب أن يكون الأشخاص ذوو الرابط النفسي في نفس خلية العالم، القافلة، أو المركبة. بالإضافة إلى ذلك، يجب ألا يكونوا في سبات أو ما يشابهه من تعليق الحياة.\n\nالأشخاص التاليون متأثرون</AlertPsychicBondedPawnsSeparatedDesc>
+
+  <!-- EN: Gene bank needs power -->
+  <AlertGenebankUnpowered>بنك الجينات يحتاج طاقة</AlertGenebankUnpowered>
+  <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
+  <AlertGenebankUnpoweredDesc>بنك جينات غير مزود بالطاقة، لذا فإن عبوات الجينات بداخله تتدهور ببطء. أعد الطاقة إلى بنك الجينات لمنع تدهور عبوات الجينات.\n\nبمجرد تزويد بنك الجينات بالطاقة، سيعكس ببطء تدهور عبوات الجينات بداخله.</AlertGenebankUnpoweredDesc>
+
+  <!-- EN: {0} incoming -->
+  <AlertBossgroupIncoming>قادم {0}</AlertBossgroupIncoming>
+  <!-- EN: Signaled by your mechanitor, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile mechanoids will arrive in a few hours or days. -->
+  <AlertBossgroupIncomingDesc>بإشارة من الميكانيتور الخاص بك، يقترب {0} معادٍ مع مرافقيه القتاليين. كن مستعدًا، لن يكون قتالًا سهلاً. الميكانويدات المعادية ستصل في غضون ساعات أو أيام قليلة.</AlertBossgroupIncomingDesc>
+
+  <!-- EN: Deathrest complete -->
+  <AlertDeathrestComplete>اكتمل سبات الموت</AlertDeathrestComplete>
+  <!-- EN: The following people have completed their deathrest and can wake up safely -->
+  <AlertDeathrestCompleteDesc>الأشخاص التاليون أكملوا سبات الموت ويمكنهم الاستيقاظ بأمان</AlertDeathrestCompleteDesc>
+
+</LanguageData>

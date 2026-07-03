@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ate meat -->
+  <AteMeat_Abhorrent.stages.ate_meat.label>أكل لحماً</AteMeat_Abhorrent.stages.ate_meat.label>
+  <!-- EN: I had to eat meat. It was an abhorrent violation of everything I believe. -->
+  <AteMeat_Abhorrent.stages.ate_meat.description>اضطررت لأكل اللحم. كان انتهاكاً مقيّتاً لكل ما أؤمن به.</AteMeat_Abhorrent.stages.ate_meat.description>
+  
+  <!-- EN: ate meat -->
+  <AteMeat_Disapproved.stages.ate_meat.label>أكل لحماً</AteMeat_Disapproved.stages.ate_meat.label>
+  <!-- EN: I had to eat meat. It's not something I approve of. -->
+  <AteMeat_Disapproved.stages.ate_meat.description>اضطررت لأكل اللحم. ليس شيئاً أوافق عليه.</AteMeat_Disapproved.stages.ate_meat.description>
+  
+  <!-- EN: ate meat -->
+  <AteMeat_Horrible.stages.ate_meat.label>أكل لحماً</AteMeat_Horrible.stages.ate_meat.label>
+  <!-- EN: I had to eat meat. It was a horrible violation of my beliefs. -->
+  <AteMeat_Horrible.stages.ate_meat.description>اضطررت لأكل اللحم. كان انتهاكاً مريعاً لمعتقداتي.</AteMeat_Horrible.stages.ate_meat.description>
+  
+  <!-- EN: ate meat -->
+  <AteMeat_Know_Abhorrent.stages.ate_meat.label>أكل لحماً</AteMeat_Know_Abhorrent.stages.ate_meat.label>
+  <AteMeat_Know_Abhorrent.stages.ate_meat.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} طبق لحم</AteMeat_Know_Abhorrent.stages.ate_meat.labelSocial>
+  
+  <!-- EN: ate meat -->
+  <AteMeat_Know_Disapproved.stages.ate_meat.label>أكل لحماً</AteMeat_Know_Disapproved.stages.ate_meat.label>
+  <AteMeat_Know_Disapproved.stages.ate_meat.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} طبق لحم</AteMeat_Know_Disapproved.stages.ate_meat.labelSocial>
+  
+  <!-- EN: ate meat -->
+  <AteMeat_Know_Horrible.stages.ate_meat.label>أكل لحماً</AteMeat_Know_Horrible.stages.ate_meat.label>
+  <AteMeat_Know_Horrible.stages.ate_meat.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} طبق لحم</AteMeat_Know_Horrible.stages.ate_meat.labelSocial>
+  
+  <!-- EN: ate vegetarian -->
+  <AteNonMeat_Abhorrent.stages.ate_vegetarian.label>أكل طعاماً نباتياً</AteNonMeat_Abhorrent.stages.ate_vegetarian.label>
+  <!-- EN: I ate a meal without any meat. It was an abhorrent violation of the proper carnivore diet. Some eggs, milk, or processed food without vegetables would have also been okay. -->
+  <AteNonMeat_Abhorrent.stages.ate_vegetarian.description>أكلت وجبة بدون أي لحم. كان انتهاكاً مقيّتاً للنظام الغذائي اللاحم الصحيح. بعض البيض أو الحليب أو الطعام المعالج بدون خضروات كان سيكون مقبولاً أيضاً.</AteNonMeat_Abhorrent.stages.ate_vegetarian.description>
+  
+  <!-- EN: ate vegetarian -->
+  <AteNonMeat_Disapproved.stages.ate_vegetarian.label>أكل طعاماً نباتياً</AteNonMeat_Disapproved.stages.ate_vegetarian.label>
+  <!-- EN: I ate a meal without any meat. It was an unacceptable deviation from the proper carnivore diet. Some eggs, milk, or processed food without vegetables or would have also been okay. -->
+  <AteNonMeat_Disapproved.stages.ate_vegetarian.description>أكلت وجبة بدون أي لحم. كان انحرافاً غير مقبول عن النظام الغذائي اللاحم الصحيح. بعض البيض أو الحليب أو الطعام المعالج بدون خضروات كان سيكون مقبولاً أيضاً.</AteNonMeat_Disapproved.stages.ate_vegetarian.description>
+  
+  <!-- EN: ate vegetarian -->
+  <AteNonMeat_Horrible.stages.ate_vegetarian.label>أكل طعاماً نباتياً</AteNonMeat_Horrible.stages.ate_vegetarian.label>
+  <!-- EN: I ate a meal without any meat. It was an horrible violation of the proper carnivore diet. Some eggs, milk, or processed food without vegetables would have also been okay. -->
+  <AteNonMeat_Horrible.stages.ate_vegetarian.description>أكلت وجبة بدون أي لحم. كان انتهاكاً مريعاً للنظام الغذائي اللاحم الصحيح. بعض البيض أو الحليب أو الطعام المعالج بدون خضروات كان سيكون مقبولاً أيضاً.</AteNonMeat_Horrible.stages.ate_vegetarian.description>
+  
+  <!-- EN: ate vegetarian -->
+  <AteNonMeat_Know_Abhorrent.stages.ate_vegetarian.label>أكل طعاماً نباتياً</AteNonMeat_Know_Abhorrent.stages.ate_vegetarian.label>
+  <AteNonMeat_Know_Abhorrent.stages.ate_vegetarian.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} طبقاً نباتياً</AteNonMeat_Know_Abhorrent.stages.ate_vegetarian.labelSocial>
+  
+  <!-- EN: ate vegetarian -->
+  <AteNonMeat_Know_Disapproved.stages.ate_vegetarian.label>أكل طعاماً نباتياً</AteNonMeat_Know_Disapproved.stages.ate_vegetarian.label>
+  <AteNonMeat_Know_Disapproved.stages.ate_vegetarian.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} طبقاً نباتياً</AteNonMeat_Know_Disapproved.stages.ate_vegetarian.labelSocial>
+  
+  <!-- EN: ate vegetarian -->
+  <AteNonMeat_Know_Horrible.stages.ate_vegetarian.label>أكل طعاماً نباتياً</AteNonMeat_Know_Horrible.stages.ate_vegetarian.label>
+  <AteNonMeat_Know_Horrible.stages.ate_vegetarian.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} طبقاً نباتياً</AteNonMeat_Know_Horrible.stages.ate_vegetarian.labelSocial>
+  
+</LanguageData>

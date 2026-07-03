@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: medical operation speed -->
+  <MedicalOperationSpeed.label>سرعة العمليات الطبية</MedicalOperationSpeed.label>
+  <!-- EN: The speed at which the character performs medical operations. -->
+  <MedicalOperationSpeed.description>السرعة التي تجري بها الشخصية العمليات الطبية.</MedicalOperationSpeed.description>
+  
+  <!-- EN: medical surgery success chance -->
+  <MedicalSurgerySuccessChance.label>فرصة نجاح الجراحة الطبية</MedicalSurgerySuccessChance.label>
+  <!-- EN: The base chance that a character will succeed when performing a medical operation.\n\nThe actual success chance is also affected by factors like facilities, room cleanliness, medicine used, the difficulty of the surgery, and inspirations.\n\nNo matter how high this stat is, there is always a small chance of failure on any operation. -->
+  <MedicalSurgerySuccessChance.description>الفرصة الأساسية لنجاح الشخصية عند إجراء عملية طبية.\n\nالفرصة الفعلية للنجاح تتأثر أيضًا بعوامل مثل المرافق، نظافة الغرفة، الدواء المستخدم، صعوبة الجراحة، والإلهامات.\n\nبغض النظر عن مدى ارتفاع هذه الإحصائية، هناك دائمًا فرصة صغيرة للفشل في أي عملية.</MedicalSurgerySuccessChance.description>
+  
+  <!-- EN: medical tend quality -->
+  <MedicalTendQuality.label>جودة العلاج الطبي</MedicalTendQuality.label>
+  <!-- EN: The base quality of tending given when tending wounds and illnesses.\n\nThe actual tend quality will also be affected by factors like medicine used, facilities, luck, and so on. -->
+  <MedicalTendQuality.description>الجودة الأساسية للعلاج المقدمة عند علاج الجروح والأمراض.\n\nجودة العلاج الفعلية ستتأثر أيضًا بعوامل مثل الدواء المستخدم، المرافق، الحظ، وما إلى ذلك.</MedicalTendQuality.description>
+  
+  <!-- EN: medical tend speed -->
+  <MedicalTendSpeed.label>سرعة العلاج الطبي</MedicalTendSpeed.label>
+  <!-- EN: Speed at which the character tends to wounds and illnesses. -->
+  <MedicalTendSpeed.description>السرعة التي تعالج بها الشخصية الجروح والأمراض.</MedicalTendSpeed.description>
+  
+</LanguageData>

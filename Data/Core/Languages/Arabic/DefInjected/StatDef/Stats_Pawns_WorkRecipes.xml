@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: butchery efficiency -->
+  <ButcheryFleshEfficiency.label>كفاءة الذبح</ButcheryFleshEfficiency.label>
+  <!-- EN: The amount of meat produced when butchering flesh creatures.\n\nThe actual amount is also related to the creature's size. -->
+  <ButcheryFleshEfficiency.description>كمية اللحم المنتجة عند ذبح مخلوقات اللحم.\n\nالكمية الفعلية مرتبطة أيضًا بحجم المخلوق.</ButcheryFleshEfficiency.description>
+  
+  <!-- EN: butchery speed -->
+  <ButcheryFleshSpeed.label>سرعة الذبح</ButcheryFleshSpeed.label>
+  <!-- EN: The speed at which this person butchers flesh creatures. -->
+  <ButcheryFleshSpeed.description>السرعة التي يذبح بها هذا الشخص مخلوقات اللحم.</ButcheryFleshSpeed.description>
+  
+  <!-- EN: mechanoid shredding efficiency -->
+  <ButcheryMechanoidEfficiency.label>كفاءة تمزيق الميكانويدات</ButcheryMechanoidEfficiency.label>
+  <!-- EN: The amount of materials yielded when this person shreds a dead mechanoid for resources.\n\nThe actual amount is also related to the mechanoid's size. -->
+  <ButcheryMechanoidEfficiency.description>كمية المواد الناتجة عندما يمزق هذا الشخص آليًا ميتًا للحصول على الموارد.\n\nالكمية الفعلية مرتبطة أيضًا بحجم الميكانويد.</ButcheryMechanoidEfficiency.description>
+  
+  <!-- EN: mechanoid shredding speed -->
+  <ButcheryMechanoidSpeed.label>سرعة تمزيق الميكانويدات</ButcheryMechanoidSpeed.label>
+  <!-- EN: The speed at which this person can shred a mechanoid for resources. -->
+  <ButcheryMechanoidSpeed.description>السرعة التي يمكن بها لهذا الشخص تمزيق ميكانويد للحصول على الموارد.</ButcheryMechanoidSpeed.description>
+  
+  <!-- EN: cooking speed -->
+  <CookSpeed.label>سرعة الطهي</CookSpeed.label>
+  <!-- EN: The speed at which this person cooks meals. -->
+  <CookSpeed.description>السرعة التي يطبخ بها هذا الشخص الوجبات.</CookSpeed.description>
+  
+  <!-- EN: drug cooking speed -->
+  <DrugCookingSpeed.label>سرعة طهي المخدرات</DrugCookingSpeed.label>
+  <!-- EN: The speed at which this person brews beer and tea, or makes simple drug products like smokeleaf joints. -->
+  <DrugCookingSpeed.description>السرعة التي يخمر بها هذا الشخص البيرة والشاي، أو يصنع منتجات مخدرات بسيطة مثل سجائر ورق الدخان.</DrugCookingSpeed.description>
+  
+  <!-- EN: drug synthesis speed -->
+  <DrugSynthesisSpeed.label>سرعة تخليق المخدرات</DrugSynthesisSpeed.label>
+  <!-- EN: How fast this character synthesizes complex chemical drugs. -->
+  <DrugSynthesisSpeed.description>مدى سرعة تخليق هذه الشخصية للمخدرات الكيميائية المعقدة.</DrugSynthesisSpeed.description>
+  
+  <!-- EN: food poison chance -->
+  <FoodPoisonChance.label>فرصة التسمم الغذائي</FoodPoisonChance.label>
+  <!-- EN: The probability that this character will inadvertently poison a meal they cook.\n\nAnyone who eats a food-poisoned meal will be temporarily debilitated with pain, weakness, and vomiting. -->
+  <FoodPoisonChance.description>احتمالية أن تسمم هذه الشخصية عن غير قصد وجبة تطبخها.\n\nأي شخص يأكل وجبة مسممة غذائيًا سيصاب بضعف مؤقت مع ألم، ضعف، وقيء.</FoodPoisonChance.description>
+  <!-- EN: food poison chance (chance to poison a meal) -->
+  <FoodPoisonChance.labelForFullStatList>فرصة التسمم الغذائي (فرصة تسميم وجبة)</FoodPoisonChance.labelForFullStatList>
+  
+  <!-- EN: general labor speed -->
+  <GeneralLaborSpeed.label>سرعة العمل العامة</GeneralLaborSpeed.label>
+  <!-- EN: The speed at which this person carries out general labor like making stone blocks, making chemfuel at a refinery, burning items, tailoring clothes, creating art, smithing armor and weapons or smelting slag. This stat applies both to activities that involve no skill, as well as those where the skill affects the quality of the product instead of the speed of production. -->
+  <GeneralLaborSpeed.description>السرعة التي يقوم بها هذا الشخص بالأعمال العامة مثل صنع الكتل الحجرية، صنع الوقود الكيميائي في المصفاة، حرق العناصر، خياطة الملابس، إبداع الفن، حدادة الدروع والأسلحة أو صهر الخردة. تنطبق هذه الإحصائية على الأنشطة التي لا تتطلب مهارة، وكذلك تلك حيث تؤثر المهارة على جودة المنتج بدلاً من سرعة الإنتاج.</GeneralLaborSpeed.description>
+  
+  <!-- EN: smelting speed -->
+  <SmeltingSpeed.label>سرعة الصهر</SmeltingSpeed.label>
+  <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
+  <SmeltingSpeed.description>السرعة التي يصهر بها هذا الشخص الأشياء.\n\nبما أن الصهر عمل بسيط، لا تتأثر سرعة الصهر بأي مهارة.</SmeltingSpeed.description>
+  
+</LanguageData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: chopped anima stump -->
+  <ChoppedStump_Anima.label>جذع أنيما مقطوع</ChoppedStump_Anima.label>
+  <!-- EN: A stump left behind after an anima tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <ChoppedStump_Anima.description>جذع يتبقى بعد قطع شجرة الأنيما. يمكن استخراج الجذع لكنه ينتج القليل جداً من الخشب القابل للاستخدام. إذا تُرك في الخارج، سيتحلل الجذع مع الوقت.</ChoppedStump_Anima.description>
+  
+  <!-- EN: anima grass -->
+  <Plant_GrassAnima.label>عشب الأنيما</Plant_GrassAnima.label>
+  <!-- EN: A grass infused with luminous microorganisms. Tribal peoples find that anima grass grows around the base of an anima tree as they meditate. It seems to reflect some kind of strengthening of the tree's psychic power.\n\nOffworld scientists have tried to study the phenomenon, but the grass degenerates into normal plant matter when observed too closely.\n\nAnimals refuse eat anima grass. Tribal stories say this is done out of respect and fear. -->
+  <Plant_GrassAnima.description>عشب مشبع بكائنات دقيقة مضيئة. يجد القبليون أن عشب الأنيما ينمو حول قاعدة شجرة الأنيما أثناء تأملهم. يبدو أنه يعكس نوعاً من تقوية قوة الشجرة النفسية.\n\nحاول علماء العوالم الأخرى دراسة الظاهرة، لكن العشب يتحلل إلى مادة نباتية عادية عند مراقبته عن كثب.\n\nترفض الحيوانات أكل عشب الأنيما. تقول القصص القبلية إن هذا يحدث بدافع الاحترام والخوف.</Plant_GrassAnima.description>
+  
+  <!-- EN: anima tree -->
+  <Plant_TreeAnima.label>شجرة الأنيما</Plant_TreeAnima.label>
+  <!-- EN: A rare tree with warm, skin-smooth bark and long iridescent leaves. Infused with bioluminescent micro-organisms, anima trees develop a unique form of psychic symbiosis with surrounding lifeforms, allowing them to grow in a wide variety of biomes.\n\nIf a person (psycaster or not) meditates near an anima tree, it will grow anima grass around its base. Once enough grass is grown, it becomes possible to carry out a psychic linking ritual with the tree and upgrade a person's psychic powers. Only tribal peoples know the secret of this ritual. Tribal psycasters are also able to draw psyfocus from anima trees while meditating to them.\n\nAnima trees' psychic properties are weakened if artificial structures are placed nearby. They refuse to be caged or studied, and must remain part of nature.\n\nMost tribes believe that anima trees are not simply trees, but are rather the physical extremities of a single world spirit. -->
+  <Plant_TreeAnima.description>شجرة نادرة ذات لحاء دافئ ناعم كالجلد وأوراق طويلة متقزحة. مشبعة بكائنات دقيقة مضيئة بيولوجياً، تطور أشجار الأنيما شكلاً فريداً من التعايش النفسي مع أشكال الحياة المحيطة، مما يسمح لها بالنمو في مجموعة واسعة من المناطق الأحيائية.\n\nإذا تأمل شخص (ملقي نفسي أم لا) بالقرب من شجرة أنيما، سينمو عشب الأنيما حول قاعدتها. بمجرد نمو ما يكفي من العشب، يصبح من الممكن تنفيذ طقس ربط نفسي مع الشجرة وترقية قوى الشخص النفسية. فقط الشعوب القبلية تعرف سر هذا الطقس. يستطيع مُلقي النفسيين القبليون أيضاً استقاء التركيز النفسي من أشجار الأنيما أثناء التأمل إليها.\n\nتضعف الخصائص النفسية لأشجار الأنيما إذا وُضعت هياكل اصطناعية بالقرب منها. ترفض أن تُحبس أو تُدرس، ويجب أن تبقى جزءاً من الطبيعة.\n\nتعتقد معظم القبائل أن أشجار الأنيما ليست مجرد أشجار، بل هي الأطراف الجسدية لروح عالم واحد.</Plant_TreeAnima.description>
+  <!-- EN: About: Anima tree linking -->
+  <Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterLabel>حول: ربط شجرة الأنيما</Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterLabel>
+  <!-- EN: The anima tree now has {0} anima grass around it. This is enough for a tribal person to begin their first linking ritual!\n\nThe linking ritual gives a level of psylink and the ability to use psychic powers. Upgrading to a higher level requires 20 grass.\n\nThe anima grass requirements for linking rituals to upgrade psycasters are:\n\n{1}\n\nNote: Only those with the nature focus type can meditate to or link with anima trees. You can see a person's focus types by looking at their info card with the 'i' button. -->
+  <Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterText>تحتوي شجرة الأنيما الآن على {0} عشبة أنيما حولها. هذا يكفي لشخص قبلي لبدء أول طقس ربط له!\n\nيمنح طقس الربط مستوى رابط نفسي والقدرة على استخدام القوى النفسية. تتطلب الترقية إلى مستوى أعلى 20 عشبة.\n\nمتطلبات عشب الأنيما لطقوس الربط لترقية مُلقي النفسيين هي:\n\n{1}\n\nملاحظة: فقط أولئك الذين لديهم نوع تركيز الطبيعة يمكنهم التأمل إلى أو الارتباط بأشجار الأنيما. يمكنك رؤية أنواع تركيز الشخص بالاطلاع على بطاقة معلوماته بزر 'i'.</Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterText>
+  <!-- EN: The anima tree has died and emitted a disturbing psychic scream. -->
+  <Plant_TreeAnima.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>ماتت شجرة الأنيما وأصدرت صرخة نفسية مزعجة.</Plant_TreeAnima.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>
+  
+  <!-- EN: smashed anima stump -->
+  <SmashedStump_Anima.label>جذع أنيما مهشم</SmashedStump_Anima.label>
+  <!-- EN: The remnants of an anima tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <SmashedStump_Anima.description>بقايا شجرة أنيما دمرتها الأضرار. إنه قبيح. يمكن استخراج الجذع لكنه ينتج القليل جداً من الخشب القابل للاستخدام. إذا تُرك في الخارج، سيتحلل الجذع مع الوقت.</SmashedStump_Anima.description>
+  
+</LanguageData>

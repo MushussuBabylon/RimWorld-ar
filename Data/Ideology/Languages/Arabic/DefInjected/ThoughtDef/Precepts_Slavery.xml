@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: enslaved prisoner -->
+  <EnslavedPrisoner_Disapproved.stages.enslaved_prisoner.label>استعبد سجيناً</EnslavedPrisoner_Disapproved.stages.enslaved_prisoner.label>
+  <!-- EN: I enslaved a person. It's hard to justify such actions. -->
+  <EnslavedPrisoner_Disapproved.stages.enslaved_prisoner.description>لقد استعبدت شخصاً. من الصعب تبرير مثل هذه الأفعال.</EnslavedPrisoner_Disapproved.stages.enslaved_prisoner.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: enslaved prisoner -->
+  <EnslavedPrisoner_Honorable.stages.enslaved_prisoner.label>استعبد سجيناً</EnslavedPrisoner_Honorable.stages.enslaved_prisoner.label>
+  <!-- EN: I took someone into slavery. With no choice, they had to submit to me. -->
+  <EnslavedPrisoner_Honorable.stages.enslaved_prisoner.description>أخذت شخصاً إلى العبودية. بدون خيار، كان عليهم الخضوع لي.</EnslavedPrisoner_Honorable.stages.enslaved_prisoner.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: enslaved prisoner -->
+  <EnslavedPrisoner_Horrible.stages.enslaved_prisoner.label>استعبد سجيناً</EnslavedPrisoner_Horrible.stages.enslaved_prisoner.label>
+  <!-- EN: I forced someone into slavery. How can I justify that? -->
+  <EnslavedPrisoner_Horrible.stages.enslaved_prisoner.description>أجبرت شخصاً على العبودية. كيف يمكنني تبرير ذلك؟</EnslavedPrisoner_Horrible.stages.enslaved_prisoner.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: enslaved prisoner -->
+  <EnslavedPrisoner_Know_Abhorrent.stages.enslaved_prisoner.label>استعبد سجيناً</EnslavedPrisoner_Know_Abhorrent.stages.enslaved_prisoner.label>
+  <EnslavedPrisoner_Know_Abhorrent.stages.enslaved_prisoner.labelSocial>{OTHERPAWN_gender ? استعبدت : استعبد} سجيناً</EnslavedPrisoner_Know_Abhorrent.stages.enslaved_prisoner.labelSocial>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: enslaved prisoner -->
+  <EnslavedPrisoner_Know_Disapproved.stages.enslaved_prisoner.label>استعبد سجيناً</EnslavedPrisoner_Know_Disapproved.stages.enslaved_prisoner.label>
+  <EnslavedPrisoner_Know_Disapproved.stages.enslaved_prisoner.labelSocial>{OTHERPAWN_gender ? استعبدت : استعبد} سجيناً</EnslavedPrisoner_Know_Disapproved.stages.enslaved_prisoner.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: prisoner enslaved -->
+  <EnslavedPrisoner_Know_Disapproved_Mood.stages.prisoner_enslaved.label>تم استعباد سجين</EnslavedPrisoner_Know_Disapproved_Mood.stages.prisoner_enslaved.label>
+  <!-- EN: We enslaved someone. We shouldn't have done that. -->
+  <EnslavedPrisoner_Know_Disapproved_Mood.stages.prisoner_enslaved.description>لقد استعبدنا شخصاً. ما كان يجب أن نفعل ذلك.</EnslavedPrisoner_Know_Disapproved_Mood.stages.prisoner_enslaved.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: enslaved prisoner -->
+  <EnslavedPrisoner_Know_Honorable.stages.enslaved_prisoner.label>استعبد سجيناً</EnslavedPrisoner_Know_Honorable.stages.enslaved_prisoner.label>
+  <EnslavedPrisoner_Know_Honorable.stages.enslaved_prisoner.labelSocial>{OTHERPAWN_gender ? استعبدت : استعبد} سجيناً</EnslavedPrisoner_Know_Honorable.stages.enslaved_prisoner.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: prisoner enslaved -->
+  <EnslavedPrisoner_Know_Honorable_Mood.stages.prisoner_enslaved.label>تم استعباد سجين</EnslavedPrisoner_Know_Honorable_Mood.stages.prisoner_enslaved.label>
+  <!-- EN: We enslaved someone. Now they know our honor and power! -->
+  <EnslavedPrisoner_Know_Honorable_Mood.stages.prisoner_enslaved.description>لقد استعبدنا شخصاً. الآن عرفوا شرفنا وقوتنا!</EnslavedPrisoner_Know_Honorable_Mood.stages.prisoner_enslaved.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: enslaved prisoner -->
+  <EnslavedPrisoner_Know_Horrible.stages.enslaved_prisoner.label>استعبد سجيناً</EnslavedPrisoner_Know_Horrible.stages.enslaved_prisoner.label>
+  <EnslavedPrisoner_Know_Horrible.stages.enslaved_prisoner.labelSocial>{OTHERPAWN_gender ? استعبدت : استعبد} سجيناً</EnslavedPrisoner_Know_Horrible.stages.enslaved_prisoner.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: prisoner enslaved -->
+  <EnslavedPrisoner_Know_Horrible_Mood.stages.prisoner_enslaved.label>تم استعباد سجين</EnslavedPrisoner_Know_Horrible_Mood.stages.prisoner_enslaved.label>
+  <!-- EN: We enslaved someone. What a horrible thing to do to another human. -->
+  <EnslavedPrisoner_Know_Horrible_Mood.stages.prisoner_enslaved.description>لقد استعبدنا شخصاً. يا له من أمر مريع لفعله بإنسان آخر.</EnslavedPrisoner_Know_Horrible_Mood.stages.prisoner_enslaved.description>
+  
+  <!-- Thought_Situational_Precept_SlavesInColony, ThoughtWorker_Precept_SlavesInColony. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: slaves in colony -->
+  <Slavery_Abhorrent_SlavesInColony.stages.slaves_in_colony.label>عبيد في المستعمرة</Slavery_Abhorrent_SlavesInColony.stages.slaves_in_colony.label>
+  <!-- EN: We're keeping slaves. It's barbaric. -->
+  <Slavery_Abhorrent_SlavesInColony.stages.slaves_in_colony.description>نحن نحتفظ بعبيد. إنها همجية.</Slavery_Abhorrent_SlavesInColony.stages.slaves_in_colony.description>
+  
+  <!-- Thought_Situational_Precept_SlavesInColony, ThoughtWorker_Precept_SlavesInColony. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: slaves in colony -->
+  <Slavery_Disapproved_SlavesInColony.stages.slaves_in_colony.label>عبيد في المستعمرة</Slavery_Disapproved_SlavesInColony.stages.slaves_in_colony.label>
+  <!-- EN: We're keeping slaves. Even if it's necessary, it's distasteful and I wish we wouldn't. -->
+  <Slavery_Disapproved_SlavesInColony.stages.slaves_in_colony.description>نحن نحتفظ بعبيد. حتى لو كان ضرورياً، إنه غير مستساغ وأتمنى لو لم نفعل.</Slavery_Disapproved_SlavesInColony.stages.slaves_in_colony.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Precept_Slavery_NoSlavesInColony. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: no slaves in colony -->
+  <Slavery_Honorable_NoSlavesInColony.stages.no_slaves_in_colony.label>لا عبيد في المستعمرة</Slavery_Honorable_NoSlavesInColony.stages.no_slaves_in_colony.label>
+  <!-- EN: Without slaves, nobody will respect us. -->
+  <Slavery_Honorable_NoSlavesInColony.stages.no_slaves_in_colony.description>بدون عبيد، لن يحترمنا أحد.</Slavery_Honorable_NoSlavesInColony.stages.no_slaves_in_colony.description>
+  
+  <!-- Thought_Situational_Precept_SlavesInColony, ThoughtWorker_Precept_Slavery_NoSlavesInColony. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: slaves in colony -->
+  <Slavery_Honorable_SlavesInColony.stages.slaves_in_colony.label>عبيد في المستعمرة</Slavery_Honorable_SlavesInColony.stages.slaves_in_colony.label>
+  <!-- EN: We've got slaves. It means we're on the right path. -->
+  <Slavery_Honorable_SlavesInColony.stages.slaves_in_colony.description>لدينا عبيد. هذا يعني أننا على الطريق الصحيح.</Slavery_Honorable_SlavesInColony.stages.slaves_in_colony.description>
+  
+  <!-- Thought_Situational_Precept_SlavesInColony, ThoughtWorker_Precept_SlavesInColony. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: slaves in colony -->
+  <Slavery_Horrible_SlavesInColony.stages.slaves_in_colony.label>عبيد في المستعمرة</Slavery_Horrible_SlavesInColony.stages.slaves_in_colony.label>
+  <!-- EN: We're keeping slaves. It's wrong. -->
+  <Slavery_Horrible_SlavesInColony.stages.slaves_in_colony.description>نحن نحتفظ بعبيد. إنه خطأ.</Slavery_Horrible_SlavesInColony.stages.slaves_in_colony.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: sold slave -->
+  <SoldSlave_Disapproved.stages.sold_slave.label>باع عبداً</SoldSlave_Disapproved.stages.sold_slave.label>
+  <!-- EN: I sold a person into slavery. I hope nothing terrible happens to them. -->
+  <SoldSlave_Disapproved.stages.sold_slave.description>بعت شخصاً إلى العبودية. آمل ألا يحدث له شيء مريع.</SoldSlave_Disapproved.stages.sold_slave.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: sold slave -->
+  <SoldSlave_Honorable.stages.sold_slave.label>باع عبداً</SoldSlave_Honorable.stages.sold_slave.label>
+  <!-- EN: I sold someone into slavery. It'll make people notice my stature. -->
+  <SoldSlave_Honorable.stages.sold_slave.description>بعت شخصاً إلى العبودية. سيجعل الناس يلاحظون مقامي.</SoldSlave_Honorable.stages.sold_slave.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: sold slave -->
+  <SoldSlave_Horrible.stages.sold_slave.label>باع عبداً</SoldSlave_Horrible.stages.sold_slave.label>
+  <!-- EN: I sold a person into slavery. I'm not sure I can forgive myself. -->
+  <SoldSlave_Horrible.stages.sold_slave.description>بعت شخصاً إلى العبودية. لست متأكداً من أنني أستطيع مسامحة نفسي.</SoldSlave_Horrible.stages.sold_slave.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: sold slave -->
+  <SoldSlave_Know_Abhorrent.stages.sold_slave.label>باع عبداً</SoldSlave_Know_Abhorrent.stages.sold_slave.label>
+  <SoldSlave_Know_Abhorrent.stages.sold_slave.labelSocial>{OTHERPAWN_gender ? باعت : باع} عبداً</SoldSlave_Know_Abhorrent.stages.sold_slave.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: slave sold -->
+  <SoldSlave_Know_Abhorrent_Mood.stages.slave_sold.label>تم بيع عبد</SoldSlave_Know_Abhorrent_Mood.stages.slave_sold.label>
+  <!-- EN: We sold someone into slavery. It was an abhorrent, barbaric act. -->
+  <SoldSlave_Know_Abhorrent_Mood.stages.slave_sold.description>لقد بعنا شخصاً إلى العبودية. كان عملاً مقيتاً وهمجياً.</SoldSlave_Know_Abhorrent_Mood.stages.slave_sold.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: sold slave -->
+  <SoldSlave_Know_Disapproved.stages.sold_slave.label>باع عبداً</SoldSlave_Know_Disapproved.stages.sold_slave.label>
+  <SoldSlave_Know_Disapproved.stages.sold_slave.labelSocial>{OTHERPAWN_gender ? باعت : باع} عبداً</SoldSlave_Know_Disapproved.stages.sold_slave.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: slave sold -->
+  <SoldSlave_Know_Disapproved_Mood.stages.slave_sold.label>تم بيع عبد</SoldSlave_Know_Disapproved_Mood.stages.slave_sold.label>
+  <!-- EN: We sold a person into slavery. We shouldn't have done that. -->
+  <SoldSlave_Know_Disapproved_Mood.stages.slave_sold.description>لقد بعنا شخصاً إلى العبودية. ما كان ينبغي لنا فعل ذلك.</SoldSlave_Know_Disapproved_Mood.stages.slave_sold.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: sold slave -->
+  <SoldSlave_Know_Honorable.stages.sold_slave.label>باع عبداً</SoldSlave_Know_Honorable.stages.sold_slave.label>
+  <SoldSlave_Know_Honorable.stages.sold_slave.labelSocial>{OTHERPAWN_gender ? باعت : باع} عبداً</SoldSlave_Know_Honorable.stages.sold_slave.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: slave sold -->
+  <SoldSlave_Know_Honorable_Mood.stages.slave_sold.label>تم بيع عبد</SoldSlave_Know_Honorable_Mood.stages.slave_sold.label>
+  <!-- EN: We sold someone into slavery! A great display of our honor and power. -->
+  <SoldSlave_Know_Honorable_Mood.stages.slave_sold.description>لقد بعنا شخصاً إلى العبودية! عرض عظيم لشرفنا وقوتنا.</SoldSlave_Know_Honorable_Mood.stages.slave_sold.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: sold slave -->
+  <SoldSlave_Know_Horrible.stages.sold_slave.label>باع عبداً</SoldSlave_Know_Horrible.stages.sold_slave.label>
+  <SoldSlave_Know_Horrible.stages.sold_slave.labelSocial>{OTHERPAWN_gender ? باعت : باع} عبداً</SoldSlave_Know_Horrible.stages.sold_slave.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: slave sold -->
+  <SoldSlave_Know_Horrible_Mood.stages.slave_sold.label>تم بيع عبد</SoldSlave_Know_Horrible_Mood.stages.slave_sold.label>
+  <!-- EN: We sold someone into slavery. What a horrible thing to do. -->
+  <SoldSlave_Know_Horrible_Mood.stages.slave_sold.description>لقد بعنا شخصاً إلى العبودية. يا له من أمر مريع لفعله.</SoldSlave_Know_Horrible_Mood.stages.slave_sold.description>
+  
+</LanguageData>

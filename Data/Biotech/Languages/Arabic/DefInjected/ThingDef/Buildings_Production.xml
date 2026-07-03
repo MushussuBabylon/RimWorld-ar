@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: large mech gestator -->
+  <LargeMechGestator.label>مولد ميكانويدات كبير</LargeMechGestator.label>
+  <!-- EN: A tank of mechanite-rich fluid with support tubes for feeding in materials and nutrients. Mechanitors can use it to produce new mechanoids or to resurrect dead mechanoids. This tier of mech gestator is capable of generating medium, heavy, and ultraheavy mechs.\n\nThe process uses harsh chemicals which are stored in toxic wastepacks. Haulers must remove the wastepacks from time to time. -->
+  <LargeMechGestator.description>خزان من سائل غني بالميكانيتات مع أنابيب دعم لتغذية المواد والمغذيات. يمكن للميكانيتوريين استخدامه لإنتاج ميكانويدات جديدة أو لإحياء الميكانويدات الميتة. هذا المستوى من مولد الميكانويدات قادر على توليد ميكانويدات متوسطة وثقيلة وفوق ثقيلة.\n\nتستخدم العملية مواد كيميائية قاسية تخزن في أكياس النفايات السامة. يجب على الناقلين إزالة الأكياس من وقت لآخر.</LargeMechGestator.description>
+  
+  <!-- EN: mech gestator -->
+  <MechGestator.label>مولد الميكانويدات</MechGestator.label>
+  <!-- EN: A tank of mechanite-rich fluid with support tubes for feeding in materials and nutrients. Mechanitors can use it to produce new mechanoids or to resurrect dead mechanoids. This basic type of mech gestator is only capable of generating light-weight mechs.\n\nThe process uses harsh chemicals which are stored in toxic wastepacks. Haulers must remove the wastepacks from time to time. -->
+  <MechGestator.description>خزان من سائل غني بالميكانيتات مع أنابيب دعم لتغذية المواد والمغذيات. يمكن للميكانيتوريين استخدامه لإنتاج ميكانويدات جديدة أو لإحياء الميكانويدات الميتة. هذا النوع الأساسي من مولد الميكانويدات قادر فقط على توليد ميكانويدات خفيفة الوزن.\n\nتستخدم العملية مواد كيميائية قاسية تخزن في أكياس النفايات السامة. يجب على الناقلين إزالة الأكياس من وقت لآخر.</MechGestator.description>
+  
+  <!-- EN: subcore encoder -->
+  <SubcoreEncoder.label>مرمز النوى الفرعية</SubcoreEncoder.label>
+  <!-- EN: A work station where a mechanitor can produce basic-tier subcores. Subcores are the brains of mechanoids, and one is required to produce any mechanoid. Basic subcores can only be used in simple basic-tier mechs.\n\nHigher tier subcores can be created by building a subcore softscanner or a subcore ripscanner. -->
+  <SubcoreEncoder.description>محطة عمل حيث يمكن للميكانيتور إنتاج النوى الفرعية من المستوى الأساسي. النوى الفرعية هي أدمغة الميكانويدات، وواحدة منها مطلوبة لإنتاج أي ميكانويد. النوى الفرعية الأساسية يمكن استخدامها فقط في الميكانويدات الأساسية البسيطة.\n\nيمكن إنشاء النوى الفرعية ذات المستوى الأعلى ببناء ماسح نوى فرعية ناعم أو ماسح نوى فرعية ممزق.</SubcoreEncoder.description>
+  
+  <!-- EN: subcore ripscanner -->
+  <SubcoreRipscanner.label>ماسح النوى الفرعية الممزق</SubcoreRipscanner.label>
+  <!-- EN: A pod with thousands of tissue probe injectors and an ultra-high-power vaporizing brain scanner. Once a person is inserted, the device will insert the probes into their body through the skin while the ripscanner chews through the brain, reading the reflected radiation and destroying the brain in the process. Ripscanning the mind generates a neuro-psychic pattern that the scanner can analog-transfer to a new high-tier mechanoid subcore.\n\nSubcores are mechanoid brains and producing any mechanoid requires one. High-tier subcores produced by this ripscanner can only power high-tier mechanoids. -->
+  <SubcoreRipscanner.description>كبسولة بها آلاف حاقنات مجسات الأنسجة وماسح دماغي تبخيري فائق القوة. بمجرد إدخال شخص، سيقوم الجهاز بإدخال المجسات في جسمه عبر الجلد بينما يمضغ الماسح الممزق من خلال الدماغ، قارئاً الإشعاع المنعكس ومدمراً الدماغ في هذه العملية. يولد المسح الممزق للعقل نمطاً عصبياً نفسياً يمكن للماسح نقله تماثلياً إلى نواة فرعية جديدة لميكانويد عالي المستوى.\n\nالنوى الفرعية هي أدمغة الميكانويدات وإنتاج أي ميكانويد يتطلب واحدة. النوى الفرعية عالية المستوى التي ينتجها هذا الماسح الممزق يمكنها فقط تشغيل الميكانويدات عالية المستوى.</SubcoreRipscanner.description>
+  
+  <!-- EN: subcore softscanner -->
+  <SubcoreSoftscanner.label>ماسح النوى الفرعية الناعم</SubcoreSoftscanner.label>
+  <!-- EN: A pod with thousands of tiny tissue probes and a high-energy brain scanner. Once a person is inserted, the system uses the probes and scanner to sense a neuro-psychic pattern that it can analog-transfer to a new standard-tier mechanoid subcore. The person will be left temporarily sick, but unharmed.\n\nSubcores are mechanoid brains and producing any mechanoid requires one. Standard-tier subcores produced by this softscanner can only power standard-tier mechanoids.\n\nHigher tier subcores can be created by building a subcore ripscanner. -->
+  <SubcoreSoftscanner.description>كبسولة بها آلاف مجسات الأنسجة الدقيقة وماسح دماغي عالي الطاقة. بمجرد إدخال شخص، يستخدم النظام المجسات والماسح لاستشعار نمط عصب نفسي يمكنه نقله تماثلياً إلى نواة فرعية جديدة لميكانويد من المستوى القياسي. سيترك الشخص مريضاً مؤقتاً، لكن دون أذى.\n\nالنوى الفرعية هي أدمغة الميكانويدات وإنتاج أي ميكانويد يتطلب واحدة. النوى الفرعية من المستوى القياسي التي ينتجها هذا الماسح الناعم يمكنها فقط تشغيل الميكانويدات من المستوى القياسي.\n\nيمكن إنشاء النوى الفرعية ذات المستوى الأعلى ببناء ماسح نوى فرعية ممزق.</SubcoreSoftscanner.description>
+  
+</LanguageData>

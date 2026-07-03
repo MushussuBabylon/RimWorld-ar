@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
+  <FactionGreetingHostile>يطلق {0} بعض الشتائم عبر الميكروفون ثم يقطع الاتصال.</FactionGreetingHostile>
+  <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
+  <FactionGreetingHostileAppreciative>يطالبك {0} ببادرة حسن نية، مثل جلب الهدايا إلى إحدى مستوطناتـ{0_possessive} أو إطلاق سراح أسرى فصيلـ{0_possessive} دون أذى. وحتى ذلك الحين، لا يرغب {0_pronoun} في التحدث.\n\nثم يقطع {0_pronoun} الاتصال متمتمًا بإهانة.</FactionGreetingHostileAppreciative>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle. -->
+  <FactionGreetingWary>يرحب {0} بـ{NEGOTIATOR_labelShort} ويسأل عن الأمر الذي تريد مناقشته.</FactionGreetingWary>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
+  <FactionGreetingWarm>يرحب {0} بـ{NEGOTIATOR_labelShort} بحفاوة ويسأل عما يمكن لـ{LEADER_pronoun} فعله لمساعدتك.</FactionGreetingWarm>
+
+  <!-- EN: won't do {0} -->
+  <WorkTypeDisablesOption>لن يقوم بـ{0}</WorkTypeDisablesOption>
+  <!-- EN: Disconnect -->
+  <Disconnect>قطع الاتصال</Disconnect>
+
+  <!-- Gift offer -->
+  <!-- EN: Offer gift -->
+  <OfferGift>تقديم هدية</OfferGift>
+  <!-- EN: must be ally -->
+  <MustBeAlly>يجب أن يكون حليفًا</MustBeAlly>
+  <!-- EN: need {0} goodwill -->
+  <NeedGoodwill>تحتاج إلى {0} من حسن النية</NeedGoodwill>
+  <!-- EN: need {0} silver near trade beacons -->
+  <NeedSilverLaunchable>تحتاج إلى {0} من الفضة بالقرب من منارات التجارة</NeedSilverLaunchable>
+  <!-- EN: not enough silver -->
+  <NotEnoughSilver>لا توجد فضة كافية</NotEnoughSilver>
+  <!-- EN: {0} silver for {1} goodwill -->
+  <SilverForGoodwill>{0} فضة مقابل {1} من حسن النية</SilverForGoodwill>
+  <!-- EN: {0} thanks you.\n\n(Goodwill improved by {1}) -->
+  <SilverGiftSent>يشكرك {0}.\n\n(تحسن حسن النية بمقدار {1})</SilverGiftSent>
+
+  <!-- Trade caravan request -->
+  <!-- EN: Request a trade caravan (cost: {0} goodwill) -->
+  <RequestTrader>طلب قافلة تجارية (التكلفة: {0} من حسن النية)</RequestTrader>
+  <!-- EN: {0} asks what kind of trade caravan you want. -->
+  <ChooseTraderKind>يسأل {0} عن نوع القافلة التجارية التي تريدها.</ChooseTraderKind>
+  <!-- EN: {0} agrees to send you a trade caravan. It will arrive within a few days. -->
+  <TraderSent>يوافق {0} على إرسال قافلة تجارية إليك. ستصل في غضون بضعة أيام.</TraderSent>
+  <!-- EN: wait {0} -->
+  <WaitTime>انتظر {0}</WaitTime>
+
+  <!-- Orbital trade request -->
+  <!-- EN: Request orbital trader (cost: {0} goodwill) -->
+  <RequestOrbitalTrader>طلب تاجر مداري (التكلفة: {0} من حسن النية)</RequestOrbitalTrader>
+  <!-- EN: {0} asks what kind of orbital trader you want. -->
+  <ChooseOrbitalTraderKind>يسأل {0} عن نوع التاجر المداري الذي تريده.</ChooseOrbitalTraderKind>
+  <!-- EN: {0} will ask an orbital trader to visit you. It will arrive within a few hours. -->
+  <OrbitalTraderSent>سيطلب {0} من تاجر مداري زيارتكم. سيصل في غضون بضع ساعات.</OrbitalTraderSent>
+  
+  <!-- AI core request -->
+  <!-- EN: Request the location of a {0} (cost: {1} silver) -->
+  <RequestAICoreInformation>طلب موقع لـ {0} (التكلفة: {1} فضة)</RequestAICoreInformation>
+  <!-- EN: {0} sends the requested information and wishes you good luck. -->
+  <RequestAICoreInformationResult>يرسل {0} المعلومات المطلوبة ويتمنى لك حظًا سعيدًا.</RequestAICoreInformationResult>
+  <!-- EN: no more locations known -->
+  <NoKnownAICore>لا توجد مواقع معروفة أخرى</NoKnownAICore>  
+  
+  <!-- Military aid request -->
+  <!-- EN: Request immediate military aid (cost: {0} goodwill) -->
+  <RequestMilitaryAid>طلب دعم عسكري فوري (التكلفة: {0} من حسن النية)</RequestMilitaryAid>
+  <!-- EN: {0} will not help you fight other factions who are not their enemies. This includes some who are currently threatening you, {1}. Do you still want to call for aid? -->
+  <MilitaryAidConfirmMutualEnemy>لن يساعدك {0} في محاربة فصائل أخرى ليست معادية لهم. يتضمن ذلك بعض من يهددونك حاليًا، {1}. هل ما زلت تريد طلب الدعم؟</MilitaryAidConfirmMutualEnemy>
+  <!-- EN: Yes, call them anyway. -->
+  <CallConfirm>نعم، اتصل بهم على أي حال.</CallConfirm>
+  <!-- EN: No, never mind. -->
+  <CallCancel>لا، لا يهم.</CallCancel>
+  <!-- EN: {0} agrees to send fighters to help you. -->
+  <MilitaryAidSent>يوافق {0} على إرسال مقاتلين لمساعدتك.</MilitaryAidSent>
+  <!-- EN: {0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods) -->
+  <CantSendMilitaryAidInTime>يعتذر {0} ويقول إنهم لن يتمكنوا من الوصول في الوقت المناسب.\n\n(المستوى التكنولوجي لهذا الفصيل منخفض جدًا بحيث لا يسمح باستخدام كبسولات النقل)</CantSendMilitaryAidInTime>
+  <!-- EN: hostile visitors present -->
+  <HostileVisitorsPresent>يوجد زوار معادون</HostileVisitorsPresent>
+
+</LanguageData>
