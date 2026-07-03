@@ -1,0 +1,19 @@
+{
+  "name": "rimworld-arabic-rtl-tool",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "ts-node Scripts/build.ts",
+    "update-plural": "ts-node Scripts/updatePlural.ts"
+  },
+  "dependencies": {
+    "arabic-reshaper": "1.1.0",
+    "bidi-js": "^1.0.3",
+    "@xmldom/xmldom": "^0.8.10"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
