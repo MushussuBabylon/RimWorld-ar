@@ -1,4 +1,3 @@
-<!-- RulePacks_Book_Descriptions.xml -->
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
@@ -276,8 +275,8 @@
   -->
   <Description_Tome.rulePack.rulesStrings>
     <li>desc->[inThisBook]، [author] [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
-    <li>inThisBook->في [writingQualityAdjective] [bookTypeSingle] هذا</li>
-    <li>inThisBook->في [writingQualityAdjective] [bookTypePlural] هذه</li>
+    <li>inThisBook->في هذا [writingQualityAdjective] [bookTypeSingle]</li>
+    <li>inThisBook->في هذه [writingQualityAdjective] [bookTypePlural]</li>
     <li>bookTypeSingle->سرد</li>
     <li>bookTypeSingle->تقويم</li>
     <li>bookTypeSingle->تحليل</li>
@@ -287,7 +286,7 @@
     <li>bookTypeSingle->تأليف</li>
     <li>bookTypeSingle->استنتاجات</li>
     <li>bookTypeSingle->نقد</li>
-    <li>bookTypeSingle->حوار</li>
+    <li>bookTypeSingle->حوار شيطاني</li>
     <li>bookTypeSingle->بحث</li>
     <li>bookTypeSingle->أطروحة</li>
     <li>bookTypeSingle->افتتاحية</li>
@@ -295,11 +294,11 @@
     <li>bookTypeSingle->كشف</li>
     <li>bookTypeSingle->نتائج</li>
     <li>bookTypeSingle->كتاب تعاويذ</li>
-    <li>bookTypeSingle->استفسار</li>
+    <li>bookTypeSingle->استقصاء</li>
     <li>bookTypeSingle->تحقيق</li>
     <li>bookTypeSingle->بيان</li>
     <li>bookTypeSingle->مخطوطة</li>
-    <li>bookTypeSingle->أثر</li>
+    <li>bookTypeSingle->عمل فني</li>
     <li>bookTypeSingle->ورقة</li>
     <li>bookTypeSingle->قطعة</li>
     <li>bookTypeSingle->قطعة بحثية</li>
@@ -307,7 +306,7 @@
     <li>bookTypeSingle->تقرير</li>
     <li>bookTypeSingle->مراجعة</li>
     <li>bookTypeSingle->مسح</li>
-    <li>bookTypeSingle->شهادة</li>
+    <li>bookTypeSingle->وصية</li>
     <li>bookTypeSingle->شهادة</li>
     <li>bookTypeSingle->نص</li>
     <li>bookTypeSingle->فرضية</li>
@@ -318,41 +317,41 @@
     <li>bookTypeSingle->عمل</li>
     <li>bookTypePlural->كتابات</li>
     <li>bookTypePlural->أخبار</li>
-    <li>bookTypePlural->مراثي</li>
+    <li>bookTypePlural->مراثٍ</li>
     <li>bookTypePlural->حوليات</li>
     <li>bookTypePlural->رؤى</li>
     <li>author(p=3)->المؤلف</li>
     <li>author(p=3)->[anAuthorDesc] [PersonJob]</li>
-    <li>author->[anAuthorDesc] باحث</li>
-    <li>author->[anAuthorDesc] روحاني</li>
-    <li>author->[anAuthorDesc] خفياني</li>
-    <li>author->[anAuthorDesc] طائفي</li>
-    <li>author->[anAuthorDesc] عضو طائفة</li>
-    <li>author->[anAuthorDesc] هارب من طائفة</li>
-    <li>author->[anAuthorDesc] تاجر تحف</li>
-    <li>author->[anAuthorDesc] حفار قبور</li>
-    <li>author->[anAuthorDesc] باحث فراغ</li>
-    <li>author->[anAuthorDesc] متجول</li>
-    <li>author->[anAuthorDesc] متشكك</li>
-    <li>author->[anAuthorDesc] عالم</li>
-    <li>author->[anAuthorDesc] صياد</li>
-    <li>author->[anAuthorDesc] محقق</li>
-    <li>author->[anAuthorDesc] حكيم</li>
-    <li>author->[anAuthorDesc] مؤمن</li>
-    <li>author->[anAuthorDesc] نذير</li>
-    <li>author->[anAuthorDesc] وريث</li>
-    <li>author->[anAuthorDesc] نبيل</li>
-    <li>author->[anAuthorDesc] مترجم</li>
-    <li>author->[anAuthorDesc] راهب</li>
-    <li>author->[anAuthorDesc] شبيه</li>
-    <li>author->[anAuthorDesc] مؤلف</li>
-    <li>author->[anAuthorDesc] عميل</li>
-    <li>author->[anAuthorDesc] بطل</li>
-    <li>author->[anAuthorDesc] مؤلف</li>
+    <li>author->باحث [anAuthorDesc]</li>
+    <li>author->روحاني [anAuthorDesc]</li>
+    <li>author->خفي [anAuthorDesc]</li>
+    <li>author->عضو طائفة [anAuthorDesc]</li>
+    <li>author->عضو طائفة [anAuthorDesc]</li>
+    <li>author->هارب من طائفة [anAuthorDesc]</li>
+    <li>author->تاجر تحف [anAuthorDesc]</li>
+    <li>author->حفار قبور [anAuthorDesc]</li>
+    <li>author->باحث فراغي [anAuthorDesc]</li>
+    <li>author->متجول [anAuthorDesc]</li>
+    <li>author->متشكك [anAuthorDesc]</li>
+    <li>author->عالم [anAuthorDesc]</li>
+    <li>author->صياد [anAuthorDesc]</li>
+    <li>author->محقق [anAuthorDesc]</li>
+    <li>author->مسن [anAuthorDesc]</li>
+    <li>author->مؤمن [anAuthorDesc]</li>
+    <li>author->نذير [anAuthorDesc]</li>
+    <li>author->وريث [anAuthorDesc]</li>
+    <li>author->نبيل [anAuthorDesc]</li>
+    <li>author->مترجم [anAuthorDesc]</li>
+    <li>author->راهب [anAuthorDesc]</li>
+    <li>author->شبيه [anAuthorDesc]</li>
+    <li>author->مؤلف [anAuthorDesc]</li>
+    <li>author->عميل [anAuthorDesc]</li>
+    <li>author->بطل [anAuthorDesc]</li>
+    <li>author->مؤلف [anAuthorDesc]</li>
     <li>anAuthorDesc(p=2)-></li>
     <li>anAuthorDesc->شاب</li>
     <li>anAuthorDesc->عجوز</li>
-    <li>anAuthorDesc->مرعوب</li>
+    <li>anAuthorDesc->مرتعب</li>
     <li>anAuthorDesc->حزين</li>
     <li>anAuthorDesc->مسن</li>
     <li>anAuthorDesc->حكيم</li>
@@ -361,13 +360,13 @@
     <li>anAuthorDesc->بريء</li>
     <li>anAuthorDesc->مضطرب</li>
     <li>anAuthorDesc->غريب</li>
-    <li>anAuthorDesc->شائن</li>
-    <li>anAuthorDesc->نمطي</li>
+    <li>anAuthorDesc->فظيع</li>
+    <li>anAuthorDesc->نموذجي</li>
     <li>anAuthorDesc->ممل</li>
     <li>anAuthorDesc->مجنون</li>
     <li>anAuthorDesc->غير أخلاقي</li>
     <li>anAuthorDesc->أخلاقي</li>
-    <li>anAuthorDesc->لاأخلاقي</li>
+    <li>anAuthorDesc->عديم الأخلاق</li>
     <li>anAuthorDesc->غامض</li>
     <li>tellsAStoryOf->يروي قصة</li>
     <li>tellsAStoryOf->يكشف</li>
@@ -375,83 +374,83 @@
     <li>tellsAStoryOf->يصف</li>
     <li>tellsAStoryOf->يفصل</li>
     <li>tellsAStoryOf->يوضح</li>
-    <li>tellsAStoryOf->يسهب في تفاصيل</li>
+    <li>tellsAStoryOf->يتعمق في</li>
     <li>tellsAStoryOf->يقص</li>
     <li>tellsAStoryOf->يروي</li>
     <li>tellsAStoryOf->يبلغ</li>
     <li>tellsAStoryOf->يؤرخ</li>
-    <li>tellsAStoryOf->يصوّر</li>
+    <li>tellsAStoryOf->يصور</li>
     <li>tellsAStoryOf->يسرد</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] تجارب شاركها [ANYPAWN_pronoun] مع [entities]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] استكشافات لطائفة سرية لها قاعدة تحت [TerrainFeature] بعيد</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] تجاربـ[ANYPAWN_pronoun] مع [entities]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] استكشافات لطائفة سرية لها قاعدة تحت [TerrainFeature] ناءٍ</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] البحث عن مكعب ذهبي غامض</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] تأملات عميقة بتوجيه من رقيق أعلى من طائفة آركية</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] تأملات عميقة بتوجيه من تابع سامٍ من طائفة آرشية</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] انهيار حياة [ANYPAWN_possessive] تحت التأثير النفسي لشيء يدعى هوراكس</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] حفرية أثرية نائية أصيب فيها الباحثون بالجنون واحداً تلو الآخر</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] قبيلة تحولت بطريقة ما لخدمة الإله المظلم لطائفة متعة دموية</li>
-    <li>experiencesWithMonsters->يحاول وصف قبيلة بتقليد طقوس تشويه تؤدى على ضوء النار بشفرات صدئة</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] معلم كان تلميذه يتكلم بحقائق مميتة لا يمكن أن يعرفها</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] عالم يحاول استخدام وسائل آركية تكنولوجية قديمة لإحياء زوجته الميتة</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] بعثة استكشافية من الغرباء نجت من أمطار من الدم وسماء حاولت سحقهم حتى الموت بسواد حالك</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] فريق يحقق في حفرة أرضية قديمة مليئة بمخلوقات لحمية مرعبة</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] حفرية أثرية نائية حيث أصيب الباحثون بالجنون العنيف واحداً تلو الآخر</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] قبيلة تحولت بطريقة ما لخدمة إله الظلام لطائفة متعة دموية</li>
+    <li>experiencesWithMonsters->يحاول وصف قبيلة لديها تقليد طقوس تشويه تُؤدى على ضوء النار باستخدام شفرات صدئة</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] معلم كان تلميذه يتفوه بحقائق مميتة لا يمكن أن يعرفها</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] عالم يحاول استخدام وسائل تكنولوجيا آركية قديمة لإعادة إحياء زوجته الميتة</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] بعثة استكشافية من العالم الخارجي نجت من أمطار الدم وسماء حاولت سحقهم حتى الموت بسواد حالك</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] فريق يحقق في حفرة قديمة في الأرض مليئة بمخلوقات لحمية مرعبة</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] محاولة شامان قبلي لإيجاد طريقة لإيقاف هجمات ليلية على قريته من قبل [Animal] ميتة متحركة</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] أسطورة قبلية عن إله غضب قديم يمس تأثيره كل الناس، والأبطال الذين حبسوه داخل سجن حجري صغير</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] تجارب [ANYPAWN_possessive] الوحشية على [entity] مأسور</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] أسطورة قبلية عن إله غضب قديم يلامس تأثيره كل الناس، والأبطال الذين ختموه داخل سجن حجري صغير</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] تجاربـ[ANYPAWN_possessive] الوحشية على [entity] مأسور</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] رؤى [ANYPAWN_possessive] المتكررة حيث [vision]</li>
-    <li>vision->امتدت شخصيات مظلمة إلى عقل [ANYPAWN_possessive] وأخذت ذكرياته</li>
-    <li>vision->[ANYPAWN_pronoun] يطارده [ANYPAWN_objective] نفسه، ولا يستطيع الهرب مهما ابتعد</li>
-    <li>vision->يمزق [ANYPAWN_pronoun] إرباً بواسطة [entity]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] [findings] [ANYPAWN_possessive] [objective]</li>
-    <li>findings->تجربته مع</li>
-    <li>findings->بحثه في</li>
-    <li>objective->[maybeAdjectiveEvil]طقوس بسبب حادثة حيث [ritual_incident]</li>
-    <li>objective->علوم مظلمة بعد [entity_incident]</li>
-    <li>ritual_incident->شاهد [ANYPAWN_pronoun] [targetHuman] تظهر من العدم</li>
-    <li>targetHuman->[anAuthorDesc] امرأة</li>
-    <li>targetHuman->[anAuthorDesc] رجل</li>
-    <li>ritual_incident->أمطرت دماً لثلاثة أيام وأصاب أصدقاء [ANYPAWN_possessive] بالجنون</li>
+    <li>vision->امتدت شخصيات مظلمة إلى عقلـ[ANYPAWN_possessive] وأخذت ذكرياتـ[ANYPAWN_possessive]</li>
+    <li>vision->[ANYPAWN_pronoun] يطارد من قبل نفسـ[ANYPAWN_objective]، ولم يستطع الهروب مهما ابتعد</li>
+    <li>vision->[ANYPAWN_pronoun] يمزق إرباً بواسطة [entity]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] [ANYPAWN_possessive] [findings] [objective]</li>
+    <li>findings->خبرة مع</li>
+    <li>findings->بحث في</li>
+    <li>objective->[maybeAdjectiveEvil]طقوس بدأتها حادثة حيث [ritual_incident]</li>
+    <li>objective->علوم مظلمة بعد أن [entity_incident]</li>
+    <li>ritual_incident->[ANYPAWN_pronoun] لاحظ [targetHuman] يظهر من العدم</li>
+    <li>targetHuman->امرأة [anAuthorDesc]</li>
+    <li>targetHuman->رجل [anAuthorDesc]</li>
+    <li>ritual_incident->أمطرت دماً لثلاثة أيام وأصابت أصدقاءـ[ANYPAWN_possessive] بالجنون</li>
     <li>ritual_incident->[entity_incident]</li>
-    <li>entity_incident->فقد [ANYPAWN_pronoun] [BodyPart] خاصته في هجوم من [entity]</li>
-    <li>entity_incident->حدق [ANYPAWN_pronoun] في [entity]</li>
-    <li>specificHorrorStory->في مرحلة ما، يروي المؤلف طقوساً مظلمة حيث أُجبر الضحايا على تشويه أنفسهم بالزجاج المكسور.</li>
-    <li>specificHorrorStory->في مرحلة ما، يعثر بطل الرواية على طقس يشهد فيه شخصيات دموية تنشد تعاويذ غريبة بينما تشوه نفسها بشظايا السبج.</li>
-    <li>specificHorrorStory->يتضمن الكتاب رسوماً توضيحية كثيرة تحاول تصوير شيء يشير إليه باسم "المحيط الأسود". يبدو هذا كاستعارة لمستوى نفسي يهيمن عليه ذكاء فائق نفسي مرعب لكن مغوٍ.</li>
-    <li>specificHorrorStory->يلمح مراراً إلى طبيعة متعددة المستويات للواقع - فكرة أن هناك أبعاداً أكثر من تلك التي نراها، لذا يمكن أن يكون شيء أو كيان بجوارك مباشرة لكن خارج قدرتك على الإدراك.</li>
-    <li>specificHorrorStory->يقضي وقتاً طويلاً في محاولة وصف كيان فائق الذكاء يدعى "هوراكس" موجود في مستوى مجاور للواقع.</li>
-    <li>specificHorrorStory->يصف قسم آليات التأثير النفسي المظلم، حيث يمكن لكيان في مستوى آخر أن يؤثر عن غير قصد على أفكار البشر بمزامنتها مع رنينه العاطفي.</li>
-    <li>specificHorrorStory->يصف قسم مختلف ذكاءات آركية فائقة والطبيعة المتباينة لانبعاثاتها العاطفية والنفسية. حيث يعتبر البعض محايداً أو حتى خيّراً، فإن آخرين كيانات من الغضب الخالص.</li>
-    <li>specificHorrorStory->يصف [ANYPAWN_pronoun] شعور إعادة تشكيل عقل[ANYPAWN_possessive] قسرياً بواسطة التأثير النفسي المظلم لذكاء أكبر.</li>
-    <li>specificHorrorStory->في قسم، يحاول المؤلف الانتحار، لكن يجده [PersonJob] طيب وينقذه.</li>
-    <li>specificHorrorStory->المجلد مزين برسوم مزعجة تصور كياناً بشعاً من عالم آخر تتلوى مجساته السوداء عديمة الشكل عبر الصفحات، مستحضراً إحساساً بالرعب والانبهار على حد سواء.</li>
-    <li>specificHorrorStory->خلال السرد، يتكرر مفهوم الأبعاد المتوازية، حيث تواجه الشخصيات كيانات موجودة خلف حجاب الإدراك مباشرة، متعايشة في واقع يتقاطع مع واقعنا لكنه يبقى مخفياً عن الأنظار.</li>
-    <li>specificHorrorStory->يخوض الكتاب في عرض تقشعر له الأبدان عن "هوراكس"، ذكاء آلي فائق نقل نفسه عبر بعد خفي إلى مكان يدعى الفراغ.</li>
-    <li>specificHorrorStory->يصف فصل نظرية حيث يمكن لذكاء فائق بعيد أن يتلاعب نفسياً بالإدراك البشري، معيداً تشكيل أفكار الشخص لتتوافق مع أنماط عقله الخاصة.</li>
-    <li>specificHorrorStory->يروي بطل الرواية شعوره بأن عقل[ANYPAWN_possessive] يُعاد توصيله قسرياً بواسطة قوة نفسية مشؤومة تنبعث من العدم.</li>
+    <li>entity_incident->[ANYPAWN_pronoun] فقد [BodyPart][ANYPAWN_possessive] في هجوم من [entity]</li>
+    <li>entity_incident->[ANYPAWN_pronoun] حدق في [entity]</li>
+    <li>specificHorrorStory->في إحدى النقاط، يروي المؤلف طقوساً مظلمة حيث يُجبر الضحايا على تشويه أنفسهم بالزجاج المكسور.</li>
+    <li>specificHorrorStory->في إحدى النقاط، يتعثر بطل الرواية في طقس حيث يشهد شخصيات دموية تنشد تعاويذ غريبة بينما تشوه نفسها بشظايا السبج.</li>
+    <li>specificHorrorStory->يحتوي الكتاب على رسوم كثيرة تحاول تصوير شيء يشير إليه بـ"المحيط الأسود". يبدو أن هذا استعارة لمستوى نفسي يهيمن عليه ذكاء فائق نفسي مرعب ولكنه مغوٍ.</li>
+    <li>specificHorrorStory->يلمح مراراً إلى طبيعة الواقع متعددة المستويات - فكرة أن هناك أبعاداً أكثر مما نراه، لذا يمكن أن يكون شيء أو كيان بجوارك تماماً ولكن خارج قدرتك على الإدراك.</li>
+    <li>specificHorrorStory->يمضي وقتاً طويلاً في محاولة وصف كيان فائق الذكاء يدعى "هوراكس" يوجد في مستوى مجاور من الواقع.</li>
+    <li>specificHorrorStory->يصف أحد الأقسام آليات التأثير النفسي المظلم، حيث يمكن لكيان على مستوى آخر أن يؤثر عن غير قصد على أفكار البشر بمزامنتها مع تردده العاطفي.</li>
+    <li>specificHorrorStory->يصف أحد الأقسام ذكاءات فائقة آركية مختلفة والطبيعة المتباينة لانبعاثاتها العاطفية والنفسية. حيث يُعتبر البعض محايداً أو حتى خيراً، بينما البعض الآخر كيانات من الغضب الخالص.</li>
+    <li>specificHorrorStory->[ANYPAWN_pronoun] يصف شعور عقلـ[ANYPAWN_possessive] وهو يعاد تشكيله قسراً بالتأثير النفسي المظلم لذكاء أكبر.</li>
+    <li>specificHorrorStory->في أحد الأقسام، يحاول المؤلف الانتحار، لكن [PersonJob] طيب يعثر عليه وينقذه.</li>
+    <li>specificHorrorStory->المجلد مزين برسوم مزعجة تصور كياناً غريباً بشعاً، تلتف محاليقه عديمة الشكل والحبرية عبر الصفحات، مستحضرة شعوراً بالرهبة والافتتان بقدر متساوٍ.</li>
+    <li>specificHorrorStory->خلال السرد، يتكرر مفهوم الأبعاد المتوازية، حيث تواجه الشخصيات كيانات تتواجد خلف حجاب الإدراك مباشرة، متعايشة في واقع يتقاطع مع واقعنا لكنه يبقى مخفياً عن النظر.</li>
+    <li>specificHorrorStory->يخوض الكتاب في عرض تقشعر له الأبدان عن "هوراكس"، وهو ذكاء فائق آلي نقل نفسه عبر بعد خفي إلى مكان يسمى الفراغ.</li>
+    <li>specificHorrorStory->يصف أحد الفصول نظرية تقول بأن ذكاءً فائقاً بعيداً يمكنه التلاعب نفسياً بالإدراك البشري، معيداً تشكيل أفكار الشخص لتتوافق مع أنماطه الذهنية.</li>
+    <li>specificHorrorStory->يروي بطل الرواية شعور عقلـ[ANYPAWN_possessive] وهو يعاد توصيله قسراً بواسطة قوة نفسية مشؤومة تنبعث من العدم.</li>
     <li>entities->شياطين</li>
     <li>entities->جثث متحركة</li>
     <li>entities->وحوش باحثة عن الألم</li>
-    <li>entities->مخلوقات مصنوعة من لحم وعظام مكشوفة</li>
+    <li>entities->مخلوقات من لحم وعظام مكشوفة</li>
     <li>entities->جثث متحركة لـ[Animal]</li>
-    <li>entities->شخصيات بشرية مصنوعة من معدن وشفرات</li>
-    <li>entities->كرات ميكانيكية عائمة تبعث الألم</li>
+    <li>entities->هيئات تشبه الإنسان مصنوعة من معدن وشفرات</li>
+    <li>entities->كرات ميكانيكية عائمة تبث الألم</li>
     <li>entities->مكعبات ذهبية جميلة تدمر العقول</li>
-    <li>entities->وحوش مصنوعة من لحم دموي</li>
+    <li>entities->وحوش من لحم دموي</li>
     <li>entities->أشكال مظلمة تختبئ على مرأى من الجميع</li>
     <li>entities->صيادون يسرقون الأرواح</li>
     <li>entity->شيطان</li>
     <li>entity->جثة متحركة</li>
     <li>entity->وحش باحث عن الألم</li>
-    <li>entity->مخلوق مصنوع من لحم وعظام مكشوفة</li>
+    <li>entity->مخلوق من لحم وعظام مكشوفة</li>
     <li>entity->جثة متحركة لـ[Animal]</li>
-    <li>entity->شخصية بشرية مصنوعة من معدن وشفرات</li>
-    <li>entity->كرة ميكانيكية عائمة تبعث الألم</li>
+    <li>entity->هيئة تشبه الإنسان مصنوعة من معدن وشفرات</li>
+    <li>entity->كرة ميكانيكية عائمة تبث الألم</li>
     <li>entity->مكعب ذهبي جميل يدمر العقول</li>
-    <li>entity->وحش مصنوع من لحم دموي</li>
+    <li>entity->وحش من لحم دموي</li>
     <li>entity->شكل يختبئ على مرأى من الجميع</li>
     <li>entity->صياد يسرق الأرواح</li>
     <li>maybeAdjectiveEvil(p=2)-></li>
     <li>maybeAdjectiveEvil->[adjectiveEvil] </li>
-    <li>adjectiveEvil->مميتة</li>
+    <li>adjectiveEvil->قاتلة</li>
     <li>adjectiveEvil->قديمة</li>
     <li>adjectiveEvil->دموية</li>
     <li>adjectiveEvil->ملتوية</li>
@@ -462,89 +461,89 @@
     <li>adjectiveEvil->مشؤومة</li>
     <li>adjectiveEvil->غامضة</li>
     <li>adjectiveEvil->سريالية</li>
-    <li>adjectiveEvil->خارقة</li>
+    <li>adjectiveEvil->مثيرة للريبة</li>
     <li>adjectiveEvil->وهمية</li>
-    <li>adjectiveEvil->غامضة</li>
+    <li>adjectiveEvil->مشفرة</li>
     <li>adjectiveEvil->جهنمية</li>
-    <li>adjectiveEvil->شاذة</li>
-    <li>writingQualityAdjective(quality==0)->مفككة</li>
-    <li>writingQualityAdjective(quality==0)->غير مترابطة</li>
+    <li>adjectiveEvil->منحرفة</li>
+    <li>writingQualityAdjective(quality==0)->مفكك</li>
+    <li>writingQualityAdjective(quality==0)->غير مترابط</li>
     <li>writingQualityAdjective(quality==0)->بلا معنى</li>
-    <li>writingQualityAdjective(quality==0)->مروعة</li>
-    <li>writingQualityAdjective(quality==0)->صبيانية</li>
-    <li>writingQualityAdjective(quality==1)->واهنة</li>
-    <li>writingQualityAdjective(quality==1)->مخربشة بخشونة</li>
-    <li>writingQualityAdjective(quality==1)->مملة</li>
-    <li>writingQualityAdjective(quality==1)->غير متسقة</li>
-    <li>writingQualityAdjective(quality==1)->هاذية</li>
-    <li>writingQualityAdjective(quality==2)->مشوشة</li>
-    <li>writingQualityAdjective(quality==2)->غير ملهمة</li>
-    <li>writingQualityAdjective(quality==2)->متوسطة</li>
-    <li>writingQualityAdjective(quality==2)->عادية</li>
-    <li>writingQualityAdjective(quality==2)->ساذجة</li>
-    <li>writingQualityAdjective(quality==2)->مقبولة</li>
-    <li>writingQualityAdjective(quality==3)->مملة</li>
-    <li>writingQualityAdjective(quality==3)->مكتوبة جيداً</li>
-    <li>writingQualityAdjective(quality==3)->منظمة جيداً</li>
-    <li>writingQualityAdjective(quality==3)->مدروسة</li>
-    <li>writingQualityAdjective(quality==3)->قابلة للقراءة</li>
-    <li>writingQualityAdjective(quality==3)->غير استثنائية</li>
-    <li>writingQualityAdjective(quality==4)->مسلية</li>
-    <li>writingQualityAdjective(quality==4)->سلسة</li>
-    <li>writingQualityAdjective(quality==4)->معبرة عاطفياً</li>
-    <li>writingQualityAdjective(quality==4)->دقيقة البنية</li>
-    <li>writingQualityAdjective(quality==4)->مقنعة</li>
-    <li>writingQualityAdjective(quality==4)->محترمة</li>
-    <li>writingQualityAdjective(quality==5)->صلبة</li>
-    <li>writingQualityAdjective(quality==5)->بارعة</li>
-    <li>writingQualityAdjective(quality==5)->ثاقبة الإدراك</li>
-    <li>writingQualityAdjective(quality==5)->ممتازة</li>
+    <li>writingQualityAdjective(quality==0)->مروع</li>
+    <li>writingQualityAdjective(quality==0)->صبوي</li>
+    <li>writingQualityAdjective(quality==1)->واهن</li>
+    <li>writingQualityAdjective(quality==1)->مخربش بعجلة</li>
+    <li>writingQualityAdjective(quality==1)->ممل</li>
+    <li>writingQualityAdjective(quality==1)->غير متناسق</li>
+    <li>writingQualityAdjective(quality==1)->متشعب</li>
+    <li>writingQualityAdjective(quality==2)->مبعثر</li>
+    <li>writingQualityAdjective(quality==2)->غير ملهم</li>
+    <li>writingQualityAdjective(quality==2)->متوسط</li>
+    <li>writingQualityAdjective(quality==2)->غير مميز</li>
+    <li>writingQualityAdjective(quality==2)->عادي</li>
+    <li>writingQualityAdjective(quality==2)->مقبول</li>
+    <li>writingQualityAdjective(quality==3)->ممل</li>
+    <li>writingQualityAdjective(quality==3)->مكتوب بشكل جيد</li>
+    <li>writingQualityAdjective(quality==3)->منظم جيداً</li>
+    <li>writingQualityAdjective(quality==3)->مدروس</li>
+    <li>writingQualityAdjective(quality==3)->قابل للقراءة</li>
+    <li>writingQualityAdjective(quality==3)->غير استثنائي</li>
+    <li>writingQualityAdjective(quality==4)->مسلي</li>
+    <li>writingQualityAdjective(quality==4)->سلس</li>
+    <li>writingQualityAdjective(quality==4)->معبر عاطفياً</li>
+    <li>writingQualityAdjective(quality==4)->منظم بدقة</li>
+    <li>writingQualityAdjective(quality==4)->مقنع</li>
+    <li>writingQualityAdjective(quality==4)->محترم</li>
+    <li>writingQualityAdjective(quality==5)->متين</li>
+    <li>writingQualityAdjective(quality==5)->بارع</li>
+    <li>writingQualityAdjective(quality==5)->ثاقب الإدراك</li>
+    <li>writingQualityAdjective(quality==5)->ممتاز</li>
     <li>writingQualityAdjective(quality==5)->من الدرجة الأولى</li>
-    <li>writingQualityAdjective(quality==5)->ملهمة</li>
-    <li>writingQualityAdjective(quality==6)->ذكية</li>
-    <li>writingQualityAdjective(quality==6)->مرعبة البصيرة</li>
-    <li>writingQualityAdjective(quality==6)->لا نظير لها</li>
+    <li>writingQualityAdjective(quality==5)->ملهم</li>
+    <li>writingQualityAdjective(quality==6)->ذكي</li>
+    <li>writingQualityAdjective(quality==6)->ثاقب بشكل مرعب</li>
+    <li>writingQualityAdjective(quality==6)->لا مثيل له</li>
     <li>writingQualityAdjective(quality==6)->من الدرجة الأولى</li>
-    <li>writingQualityAdjective(quality==6)->متقنة</li>
-    <li>writingQualityAdjective(quality==6)->رائعة</li>
+    <li>writingQualityAdjective(quality==6)->متقن</li>
+    <li>writingQualityAdjective(quality==6)->رائع</li>
     <li>writingQualitySentence(quality[greater_than]4)->الكتاب [excellentDesc]</li>
     <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->الكتاب [decentDesc]</li>
     <li>writingQualitySentence(quality[less_than]2)->الكتاب [awfulDesc]</li>
     <li>awfulDesc->غير مقروء</li>
-    <li>awfulDesc->مخربش بيد مرتعشة</li>
-    <li>awfulDesc->ملطخ بخمر جاف</li>
+    <li>awfulDesc->مخربش بيد مرتجفة</li>
+    <li>awfulDesc->ملطخ بالخمر الجاف</li>
     <li>awfulDesc->شبه غير مترابط</li>
-    <li>awfulDesc->متكرر وأقسام كثيرة تفتقر للتفاصيل</li>
-    <li>awfulDesc->بهت في أجزاء كثيرة حتى صار غير قابل للقراءة</li>
-    <li>awfulDesc->يفتقد صفحات كثيرة</li>
-    <li>awfulDesc->غير منظم بالمرة ويقفز بين المواضيع باستمرار</li>
+    <li>awfulDesc->متكرر وتفتقر أقسام كثيرة للتفاصيل</li>
+    <li>awfulDesc->بهت في أجزاء كثيرة بحيث لا يمكن قراءته</li>
+    <li>awfulDesc->يفتقر لصفحات كثيرة</li>
+    <li>awfulDesc->غير منظم تماماً ويقفز بين المواضيع باستمرار</li>
     <li>awfulDesc->مكتوب بلغة مفقودة</li>
     <li>awfulDesc->مليء بمصطلحات غير مفهومة</li>
     <li>awfulDesc->طفولي</li>
-    <li>awfulDesc->يمزج الواقع بالخيال بلا تمييز</li>
-    <li>awfulDesc->يُقرأ ككتابة تلقائية</li>
-    <li>awfulDesc->مشبع بالإيكور والدم</li>
-    <li>awfulDesc->بشكل أساسي قصة حب بين [entities] اثنين</li>
-    <li>decentDesc->صلب لكنه كان سيستفيد من التحرير</li>
-    <li>decentDesc->ثاقب في بعض الأجزاء، لكن أقساماً أخرى لا داعي لها</li>
-    <li>decentDesc->حسن الإدراك، لكن من وجهة نظر ملتوية فقط</li>
-    <li>decentDesc->غني بالتفاصيل لكنه يفتقر للتفسير المفيد</li>
-    <li>decentDesc->يفتقد بعض الصفحات</li>
-    <li>decentDesc->مفيد، لكنه غالباً مشغول بمصالح المؤلف الشخصية</li>
-    <li>decentDesc->مليء بمعلومات مفيدة، رغم تشوهات وتحيزات المؤلف</li>
-    <li>decentDesc->حرفي</li>
-    <li>decentDesc->ممتع إن لم يكن مفيداً جداً</li>
-    <li>decentDesc->مليء بأفكار مثيرة لكن قراءته شاقة</li>
+    <li>awfulDesc->يمزج بين الواقع والخيال بلا مبالاة</li>
+    <li>awfulDesc->يبدو ككتابة تلقائية</li>
+    <li>awfulDesc->مشبع بالإفرازات والدم</li>
+    <li>awfulDesc->بشكل أساسي قصة حب بين اثنين من [entities]</li>
+    <li>decentDesc->متين لكنه كان ليستفيد من التحرير</li>
+    <li>decentDesc->ثاقب في بعض الأجزاء، لكن أقساماً أخرى غير ضرورية</li>
+    <li>decentDesc->مدرك، لكن من وجهة نظر ملتوية فقط</li>
+    <li>decentDesc->غني بالتفاصيل لكنه يفتقر إلى التفسير المفيد</li>
+    <li>decentDesc->يفتقر لبعض الصفحات</li>
+    <li>decentDesc->مفيد، لكنه غالباً ما يكون مهتماً بمصالح المؤلف الشخصية</li>
+    <li>decentDesc->مليء بمعلومات مفيدة، رغم تحريفات المؤلف وتحيزاته</li>
+    <li>decentDesc->عملي</li>
+    <li>decentDesc->ممتع إن لم يكن مفيداً تماماً</li>
+    <li>decentDesc->مليء بأفكار مثيرة للاهتمام لكن قراءته مرهقة</li>
     <li>decentDesc->كتبه عقل من الدرجة الأولى بمزاج من الدرجة الثانية</li>
-    <li>decentDesc->مقبول، إن كان فاسداً تماماً</li>
-    <li>decentDesc->مرعب المحتوى، ممل التنفيذ</li>
-    <li>excellentDesc->أوج الأدب</li>
-    <li>excellentDesc->عميق البصيرة</li>
-    <li>excellentDesc->حسن الحبكة بشكل لافت</li>
-    <li>excellentDesc->منظم ومهني في بنيته</li>
-    <li>excellentDesc->شاعري تقريباً في نواح كثيرة</li>
+    <li>decentDesc->لائق، إن كان فاسداً تماماً</li>
+    <li>decentDesc->مرعب في المحتوى، ممل في التنفيذ</li>
+    <li>excellentDesc->ذروة الأدب</li>
+    <li>excellentDesc->ثاقب بعمق</li>
+    <li>excellentDesc->مصنوع بشكل رائع</li>
+    <li>excellentDesc->منظم بشكل جيد ومهني في بنيته</li>
+    <li>excellentDesc->شاعري تقريباً في مناطق كثيرة</li>
     <li>excellentDesc->وصفي بشكل مخيف - أقسام كثيرة شاعرية تقريباً في أسلوبها</li>
-    <li>excellentDesc->مليء بأفكار متلألئة تنفجر في العقل</li>
+    <li>excellentDesc->مليء بأفكار متلألئة تنفجر في الذهن</li>
  </Description_Tome.rulePack.rulesStrings>
   
 </LanguageData>
