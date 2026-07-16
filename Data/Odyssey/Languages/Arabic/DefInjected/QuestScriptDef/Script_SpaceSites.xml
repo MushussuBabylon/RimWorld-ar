@@ -2,44 +2,11 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questName->Laborers</li>
-    <li>questDescription-></li>
-  -->
-  <Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
-    <li>questName->عمال</li>
-    <li>questDescription-></li>
- </Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
-  <!-- EN: Laborers arrived -->
-  <Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>وصول العمال</Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>
-  <!-- EN: The laborers from [permitFaction_name] have arrived. A shuttle will come to collect them in [laborersDurationDays] days. -->
-  <Permit_CallLaborers.LetterTextLaborersArrived.slateRef>وصل العمال من فصيلة [permitFaction_name]. سيصل مكوك لاصطحابهم خلال [laborersDurationDays] أيام.</Permit_CallLaborers.LetterTextLaborersArrived.slateRef>
-  <!-- EN: Should depart on shuttle -->
-  <Permit_CallLaborers.InspectStringDepartShuttle.slateRef>يجب المغادرة بالمكوك</Permit_CallLaborers.InspectStringDepartShuttle.slateRef>
-  <!-- EN: Shuttle arrived -->
-  <Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>وصول المكوك</Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>
-  <!-- EN: A shuttle has arrived to collect the laborers from [permitFaction_name]. -->
-  <Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>وصل مكوك لاصطحاب عمال فصيلة [permitFaction_name].</Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>
-  <!-- EN: Laborer died: {SUBJECT_definite} -->
-  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>وفاة عامل: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
-  <!-- EN: A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
-  <Permit_CallLaborers.LetterTextLaborerDied.slateRef>توفي عامل أرسلته إليك فصيلة [permitFaction_name]. انخفضت سمعتك لدى فصيلة [permitFaction_name] بمقدار [goodwillPenaltyPawn].</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
-  <!-- EN: Laborer abandoned: {SUBJECT_definite} -->
-  <Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>عامل متروك: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>
-  <!-- EN: A laborer sent to you by [permitFaction_name] has been left behind. Any remaining laborers will now leave. -->
-  <Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>تم ترك عامل أرسلته إليك فصيلة [permitFaction_name]. جميع العمال المتبقين سيغادرون الآن.</Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>
-  
-  <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an abandoned orbital platform. You don't detect any signs of life.\n\nYou can break in to obtain the loot inside, but the platform probably has defense systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع منصة مدارية مهجورة. لا تكتشف أي علامات على الحياة.\n\nيمكنك اقتحامها للحصول على الغنائم بداخلها، لكن المنصة على الأرجح مزودة بأنظمة دفاعية.\n\nيمكنك السفر إلى المواقع المدارية باستخدام سفن الجاذبية أو المكوكات أو كبسولات النقل.</li>
+    <li>questDescription->[discoveryMethod] موقع منصة مدارية مهجورة. لا تكتشف أي علامات للحياة.\n\nيمكنك الاقتحام للحصول على الغنائم بداخلها، لكن المنصة غالباً ما تحتوي على أنظمة دفاعية.\n\nيمكنك السفر إلى المواقع المدارية باستخدام سفن الجاذبية أو المكوكات أو كبسولات النقل.</li>
  </OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>place_end->WordParts/PlaceEndings</li>
-  -->
-  <OpportunitySite_AbandonedPlatform.questNameRules.rulesFiles>
-    <li>place_end->WordParts/PlaceEndings</li>
- </OpportunitySite_AbandonedPlatform.questNameRules.rulesFiles>
   <!-- EN:
     <li>questName(p=3)->[ancientPlatAdj] [platform]</li>
     <li>questName->[PlaceOutlander] [platform]</li>
@@ -106,21 +73,21 @@
     <li>ancientPlatAdj->مهجورة</li>
     <li>ancientPlatAdj->قديمة</li>
     <li>ancientPlatAdj->[platAdj]</li>
-    <li>platAdj->ضوء النجوم</li>
-    <li>platAdj->سديم</li>
-    <li>platAdj->أفق</li>
-    <li>platAdj->كسوف</li>
+    <li>platAdj->ستارلايت</li>
+    <li>platAdj->نيبولا</li>
+    <li>platAdj->هورايزون</li>
+    <li>platAdj->إكليبس</li>
     <li>platAdj->زينيث</li>
-    <li>platAdj->شفق قطبي</li>
-    <li>platAdj->إكليل</li>
+    <li>platAdj->أورورا</li>
+    <li>platAdj->كورونا</li>
     <li>platAdj->نوفا</li>
-    <li>platAdj->دهر</li>
-    <li>platAdj->عزاء</li>
+    <li>platAdj->إيون</li>
+    <li>platAdj->سولاس</li>
     <li>platAdj->لومينا</li>
     <li>platAdj->أيون</li>
     <li>platAdj->أستراليس</li>
     <li>platAdj->أبولو</li>
-    <li>platAdj->آريز</li>
+    <li>platAdj->آريس</li>
     <li>platAdj->هاديس</li>
     <li>platAdj->أجاكس</li>
     <li>platAdj->إيوس</li>
@@ -134,11 +101,11 @@
     <li>platAdj->هيليوس</li>
     <li>platAdj->هيفايستوس</li>
     <li>platAdj->تالوس</li>
-    <li>platAdj->طليعة</li>
+    <li>platAdj->فانغارد</li>
     <li>platAdj->إيجيس</li>
     <li>platAdj->هالسيون</li>
     <li>platAdj->سكاي فورج</li>
-    <li>platAdj->تايتن</li>
+    <li>platAdj->تيتان</li>
     <li>platform(p=2)->محطة</li>
     <li>platform->منصة</li>
     <li>platform->منصة مدارية</li>
@@ -157,17 +124,17 @@
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
  </OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفت</OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفتَ</OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>انتهت المهمة: [resolvedQuestName]</OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>المهمة منتهية الصلاحية: [resolvedQuestName]</OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>تشير الاتصالات المعترضة إلى أن آخرين قد استولوا على المنصة. انتهت مهمة [resolvedQuestName].</OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>تشير الاتصالات المُعترضة إلى أن المنصة قد طالب بها آخرون. المهمة [resolvedQuestName] قد انتهت صلاحيتها.</OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an asteroid orbiting the planet. It contains significant amounts of [resource], and potentially other resources as well.\n\nOrbital miners steer asteroids into orbit so that they can be mined and the ore sold to orbital traders. You do not detect any signs of life from this asteroid.\n\nYou can reach the asteroid with transport pods, shuttles, or a gravship. Equip your colonists with sufficient orbital apparel before departing.</li>
   -->
   <OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع كويكب يدور حول الكوكب. يحتوي على كميات كبيرة من [resource]، وربما موارد أخرى.\n\nيقوم عمال المناجم المداريون بتوجيه الكويكبات إلى المدار ليتم تعدينها وبيع الخام للتجار المداريين. لا تكتشف أي علامات على الحياة من هذا الكويكب.\n\nيمكنك الوصول إلى الكويكب باستخدام كبسولات النقل أو المكوكات أو سفينة الجاذبية. زوّد مستعمريك بملابس مدارية كافية قبل المغادرة.</li>
+    <li>questDescription->[discoveryMethod] موقع كويكب يدور حول الكوكب. يحتوي على كميات كبيرة من [resource]، وربما موارد أخرى أيضاً.\n\nيقوم عمال المناجم المدارية بتوجيه الكويكبات إلى المدار ليتم تعدينها وبيع الخام للمتاجرين المداريين. لا تكتشف أي علامات للحياة من هذا الكويكب.\n\nيمكنك الوصول إلى الكويكب باستخدام كبسولات النقل أو المكوكات أو سفينة الجاذبية. زوّد مستعمريك بملابس مدارية كافية قبل المغادرة.</li>
  </OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[resource] Asteroid</li>
@@ -176,13 +143,13 @@
     <li>questName->[resource] كويكب</li>
  </OpportunitySite_Asteroid.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفت</OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفتَ</OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an orbital platform. You detect high levels of mechanoid activity.\n\nYou can scavenge valuables from the platform.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع منصة مدارية. تكتشف مستويات عالية من نشاط الميكانويدات.\n\nيمكنك جمع أشياء ثمينة من المنصة.\n\nيمكنك السفر إلى المواقع المدارية باستخدام سفن الجاذبية أو المكوكات أو كبسولات النقل.</li>
+    <li>questDescription->[discoveryMethod] موقع منصة مدارية. تكتشف مستويات عالية من نشاط الميكانويد.\n\nيمكنك جمع الأشياء الثمينة من المنصة.\n\nيمكنك السفر إلى المواقع المدارية باستخدام سفن الجاذبية أو المكوكات أو كبسولات النقل.</li>
  </OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[platAdj] [platform] [designation]</li>
@@ -208,32 +175,32 @@
     <li>questName->[platAdj] [platform]</li>
     <li>platAdj(p=3)->ميكانويد</li>
     <li>platAdj(p=3)->[mechanoid]</li>
-    <li>platAdj->التكوين</li>
-    <li>platAdj->التجميع</li>
-    <li>platAdj->التوليف</li>
-    <li>platAdj->التشكيل</li>
+    <li>platAdj->جينيسيس</li>
+    <li>platAdj->سينثيسيس</li>
+    <li>platAdj->أسيمبلي</li>
+    <li>platAdj->فورميشن</li>
     <li>platform->منصة</li>
     <li>platform->محطة</li>
     <li>platform->مركز</li>
     <li>designation->[RomanNumeral]</li>
     <li>designation->[Letter]-[RomanNumeral]</li>
-    <li>mechanoid->سايثر</li>
+    <li>mechanoid->سايثَر</li>
     <li>mechanoid->لانسر</li>
-    <li>mechanoid->سانتيبيد</li>
+    <li>mechanoid->سينتيبيد</li>
     <li>mechanoid->سايكلوبس</li>
  </OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفت</OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفتَ</OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>انتهت المهمة: [resolvedQuestName]</OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>المهمة منتهية الصلاحية: [resolvedQuestName]</OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>تشير الاتصالات المعترضة إلى أن آخرين قد استولوا على المنصة. انتهت مهمة [resolvedQuestName].</OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>تشير الاتصالات المُعترضة إلى أن المنصة قد طالب بها آخرون. المهمة [resolvedQuestName] قد انتهت صلاحيتها.</OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] an unusual asteroid orbiting the planet. The asteroid has a hollow core which contains several structures.\n\nYou can break in to obtain the loot inside.\n\nBe warned - the buildings may contain defense systems.</li>
   -->
   <OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] كويكب غير عادي يدور حول الكوكب. للكويكب نواة جوفاء تحتوي على عدة هياكل.\n\nيمكنك اقتحامها للحصول على الغنائم بداخلها.\n\nكن حذرًا - قد تحتوي المباني على أنظمة دفاعية.</li>
+    <li>questDescription->[discoveryMethod] كويكب غير عادي يدور حول الكوكب. للكويكب نواة مجوفة تحتوي على عدة هياكل.\n\nيمكنك الاقتحام للحصول على الغنائم بداخله.\n\nكن حذراً - قد تحتوي المباني على أنظمة دفاعية.</li>
  </OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[adjective] [orbital] [stash_noun]</li>
@@ -253,23 +220,17 @@
     <li>orbital->مداري</li>
     <li>orbital->كويكب</li>
     <li>stash_noun->مخبأ</li>
-    <li>stash_noun->مخبأ سري</li>
+    <li>stash_noun->مخبأ</li>
  </OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفت</OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفتَ</OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the coordinates of a massive piece of wreckage in orbit. It could contain valuable resources. Orbital debris fields are often occupied by hostile scavengers.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] إحداثيات قطعة ضخمة من الحطام في المدار. قد تحتوي على موارد قيمة. غالبًا ما يشغل حقول الحطام المداري زبالون معادون.\n\nيمكنك السفر إلى المواقع المدارية باستخدام سفن الجاذبية أو المكوكات أو كبسولات النقل.</li>
+    <li>questDescription->[discoveryMethod] إحداثيات قطعة ضخمة من الحطام في المدار. يمكن أن تحتوي على موارد قيمة. غالباً ما تكون حقول الحطام المدارية مشغولة بكائنات قمامة معادية.\n\nيمكنك السفر إلى المواقع المدارية باستخدام سفن الجاذبية أو المكوكات أو كبسولات النقل.</li>
  </OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>place_end->WordParts/PlaceEndings</li>
-  -->
-  <OpportunitySite_OrbitalWreck.questNameRules.rulesFiles>
-    <li>place_end->WordParts/PlaceEndings</li>
- </OpportunitySite_OrbitalWreck.questNameRules.rulesFiles>
   <!-- EN:
     <li>questName(p=2)->the ruins of [platAdj] [platform]</li>
     <li>questName->[platAdj] [wreckage]</li>
@@ -326,25 +287,25 @@
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   -->
   <OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
-    <li>questName(p=2)->the ruins of [platAdj] [platform]</li>
+    <li>questName(p=2)->أطلال [platAdj] [platform]</li>
     <li>questName->[platAdj] [wreckage]</li>
     <li>questName->[PlaceOutlander] [wreckage]</li>
     <li>questName->[ruined] [platAdj] [platform]</li>
-    <li>platAdj->ضوء النجوم</li>
-    <li>platAdj->سديم</li>
-    <li>platAdj->أفق</li>
-    <li>platAdj->كسوف</li>
+    <li>platAdj->ستارلايت</li>
+    <li>platAdj->نيبولا</li>
+    <li>platAdj->هورايزون</li>
+    <li>platAdj->إكليبس</li>
     <li>platAdj->زينيث</li>
-    <li>platAdj->شفق قطبي</li>
-    <li>platAdj->إكليل</li>
+    <li>platAdj->أورورا</li>
+    <li>platAdj->كورونا</li>
     <li>platAdj->نوفا</li>
-    <li>platAdj->دهر</li>
-    <li>platAdj->عزاء</li>
+    <li>platAdj->إيون</li>
+    <li>platAdj->سولاس</li>
     <li>platAdj->لومينا</li>
     <li>platAdj->أيون</li>
     <li>platAdj->أستراليس</li>
     <li>platAdj->أبولو</li>
-    <li>platAdj->آريز</li>
+    <li>platAdj->آريس</li>
     <li>platAdj->هاديس</li>
     <li>platAdj->أجاكس</li>
     <li>platAdj->إيوس</li>
@@ -358,11 +319,11 @@
     <li>platAdj->هيليوس</li>
     <li>platAdj->هيفايستوس</li>
     <li>platAdj->تالوس</li>
-    <li>platAdj->طليعة</li>
+    <li>platAdj->فانغارد</li>
     <li>platAdj->إيجيس</li>
     <li>platAdj->هالسيون</li>
     <li>platAdj->سكاي فورج</li>
-    <li>platAdj->تايتن</li>
+    <li>platAdj->تيتان</li>
     <li>wreckage(p=2)->حطام</li>
     <li>wreckage(p=2)->حطام</li>
     <li>wreckage->أطلال مدارية</li>
@@ -373,32 +334,26 @@
     <li>platform(p=0.5)->حوض فضائي</li>
     <li>platform(p=0.5)->بوابة</li>
     <li>ruined->مدمرة</li>
-    <li>ruined->متداعية</li>
-    <li>ruined->مخربة</li>
-    <li>ruined->ضائعة</li>
-    <li>ruined->مخربة</li>
+    <li>ruined->مدمرة</li>
+    <li>ruined->مُغرقة</li>
+    <li>ruined->مفقودة</li>
+    <li>ruined->مُخربة</li>
     <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
  </OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفت</OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفتَ</OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>انتهت المهمة: [resolvedQuestName]</OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>المهمة منتهية الصلاحية: [resolvedQuestName]</OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the orbital wreck has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>تشير الاتصالات المعترضة إلى أن الحطام المداري قد استولى عليه آخرون. انتهت مهمة [resolvedQuestName].</OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>تشير الاتصالات المُعترضة إلى أن الحطام المداري قد طالب به آخرون. المهمة [resolvedQuestName] قد انتهت صلاحيتها.</OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an orbital satellite. These satellites are unmanned and often incapable of supporting life. Satellites serve a wide variety of purposes, from power collection to weapons platforms.\n\nYou can scavenge valuable technology from the satellites but be warned, satellites are heavily guarded by ancient security systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع قمر صناعي مداري. هذه الأقمار الصناعية غير مأهولة وغالبًا ما تكون غير قادرة على دعم الحياة. تخدم الأقمار الصناعية أغراضًا متنوعة، من جمع الطاقة إلى منصات الأسلحة.\n\nيمكنك جمع تقنية قيمة من الأقمار الصناعية لكن كن حذرًا، الأقمار الصناعية تحت حراسة مشددة بأنظمة أمنية قديمة.\n\nيمكنك السفر إلى المواقع المدارية باستخدام سفن الجاذبية أو المكوكات أو كبسولات النقل.</li>
+    <li>questDescription->[discoveryMethod] موقع قمر صناعي مداري. هذه الأقمار الصناعية غير مأهولة وغالباً ما تكون غير قادرة على دعم الحياة. تخدم الأقمار الصناعية مجموعة واسعة من الأغراض، من جمع الطاقة إلى منصات الأسلحة.\n\nيمكنك جمع التكنولوجيا القيمة من الأقمار الصناعية ولكن كن حذراً، الأقمار الصناعية محروسة بشدة بأنظمة أمنية قديمة.\n\nيمكنك السفر إلى المواقع المدارية باستخدام سفن الجاذبية أو المكوكات أو كبسولات النقل.</li>
  </OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>place_end->WordParts/PlaceEndings</li>
-  -->
-  <OpportunitySite_Satellite.questNameRules.rulesFiles>
-    <li>place_end->WordParts/PlaceEndings</li>
- </OpportunitySite_Satellite.questNameRules.rulesFiles>
   <!-- EN:
     <li>questName->[PlaceOutlander] [platform]</li>
     <li>questName->[platAdj] [platform]</li>
@@ -440,36 +395,36 @@
     <li>platAdj->شبكة</li>
     <li>platAdj->إمبراطوري</li>
     <li>platAdj->شمسي</li>
-    <li>platAdj->ضوء النجوم</li>
-    <li>platAdj->سديم</li>
-    <li>platAdj->أفق</li>
-    <li>platAdj->كسوف</li>
+    <li>platAdj->ستارلايت</li>
+    <li>platAdj->نيبولا</li>
+    <li>platAdj->هورايزون</li>
+    <li>platAdj->إكليبس</li>
     <li>platAdj->زينيث</li>
-    <li>platAdj->شفق قطبي</li>
-    <li>platAdj->إكليل</li>
+    <li>platAdj->أورورا</li>
+    <li>platAdj->كورونا</li>
     <li>platAdj->نوفا</li>
-    <li>platAdj->دهر</li>
-    <li>platAdj->عزاء</li>
+    <li>platAdj->إيون</li>
+    <li>platAdj->سولاس</li>
     <li>platAdj->لومينا</li>
     <li>platAdj->أيون</li>
     <li>platAdj->أستراليس</li>
-    <li>platAdj->صدى</li>
+    <li>platAdj->إيكو</li>
     <li>platform(p=4)->قمر صناعي</li>
-    <li>platform->ترحيل</li>
+    <li>platform->مرحّل</li>
     <li>platform->حلقة</li>
-    <li>platform->وصلة قمر</li>
+    <li>platform->وصلة أقمار</li>
     <li>platform->حارس</li>
-    <li>platform->رئيسي</li>
+    <li>platform->برايم</li>
     <li>platform->منارة</li>
     <li>platform->قاذف</li>
     <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
  </OpportunitySite_Satellite.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفت</OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفتَ</OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>انتهت المهمة: [resolvedQuestName]</OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>المهمة منتهية الصلاحية: [resolvedQuestName]</OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>
   <!-- EN: Scanner readings indicate the satellite has boosted itself into a higher, unreachable orbit. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>تشير قراءات الماسح الضوئي إلى أن القمر الصناعي قد دفع نفسه إلى مدار أعلى لا يمكن الوصول إليه. انتهت مهمة [resolvedQuestName].</OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>تشير قراءات الماسح الضوئي إلى أن القمر الصناعي قد دفع نفسه إلى مدار أعلى لا يمكن الوصول إليه. المهمة [resolvedQuestName] قد انتهت صلاحيتها.</OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>
   
 </LanguageData>
