@@ -2,29 +2,29 @@
 
 تعريب متكامل للعبة **RimWorld** يشمل اللعبة الأساسية وجميع الإضافات (**DLCs**). تم إعداد هذا التعريب باستخدام الذكاء الاصطناعي (**DeepSeek**) مع مراجعة وتعديلات يدوية لضمان أفضل تجربة ممكنة.
 
-> **ملاحظة:** التعريب في مراحله الأولى، إذا واجهت أي أخطاء أو نصوص غير دقيقة، نرجو منك المساهمة في تحسينها عبر **"قواعد المشاركة"** الموضحة في الأسفل.
+> **ملاحظة:** إذا واجهت أي أخطاء أو ترجمة غير دقيقة، نرجو منك المساهمة في تحسينها عبر **"قواعد المشاركة"** الموضحة في الأسفل.
 
 ---
 
 ## 📸 لقطات من داخل اللعبة (Screenshots)
 
-<img src="Images/RimWorld%20Screenshot%201.jpg" width="100%" alt="Screenshot 1">
+<img src="Images/1.jpg" width="100%" alt="Screenshot 1">
 <br>
-<img src="Images/RimWorld%20Screenshot%202.jpg" width="100%" alt="Screenshot 2">
+<img src="Images/2.jpg" width="100%" alt="Screenshot 2">
 <br>
-<img src="Images/RimWorld%20Screenshot%203.jpg" width="100%" alt="Screenshot 3">
+<img src="Images/3.jpg" width="100%" alt="Screenshot 3">
 <br>
-<img src="Images/RimWorld%20Screenshot%204.jpg" width="100%" alt="Screenshot 4">
+<img src="Images/4.jpg" width="100%" alt="Screenshot 4">
 <br>
-<img src="Images/RimWorld%20Screenshot%205.jpg" width="100%" alt="Screenshot 5">
+<img src="Images/5.jpg" width="100%" alt="Screenshot 5">
 <br>
-<img src="Images/RimWorld%20Screenshot%206.jpg" width="100%" alt="Screenshot 6">
+<img src="Images/6.jpg" width="100%" alt="Screenshot 6">
 <br>
-<img src="Images/RimWorld%20Screenshot%207.jpg" width="100%" alt="Screenshot 7">
+<img src="Images/7.jpg" width="100%" alt="Screenshot 7">
 <br>
-<img src="Images/RimWorld%20Screenshot%208.jpg" width="100%" alt="Screenshot 8">
+<img src="Images/8.jpg" width="100%" alt="Screenshot 8">
 <br>
-<img src="Images/RimWorld%20Screenshot%209.jpg" width="100%" alt="Screenshot 9">
+<img src="Images/9.jpg" width="100%" alt="Screenshot 9">
 
 ---
 
@@ -46,16 +46,16 @@
 **الشرح:**
 1. **حمّل النسخة المناسبة**
 2. **فك ضغط ملف الـ `ZIP`**
-3. **انسخ مجلد `Data` وألصقه داخل مجلد اللعبة الرئيسي (دمج ملفات `Data`)**
+3. **انسخ مجلد `Data` وألصقه داخل مجلد اللعبة الرئيسي (`RimWorld`)**
    
 
 ### 1. نسخة Steam 🎮
 المسار الافتراضي:
-`C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Data`
+`C:\Program Files (x86)\Steam\steamapps\common\RimWorld`
 
 ### 2. نسخة GOG 📂
 المسار الافتراضي:
-`C:\GOG Games\RimWorld\Data`
+`C:\GOG Games\RimWorld`
 
 ---
 
