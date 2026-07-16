@@ -242,5 +242,18 @@
   <SurveyScanner.description>وحدة استشعار واسعة النطاق يمكنها اكتشاف ورسم خرائط لميزات مختلفة في منطقة محلية.</SurveyScanner.description>
   <!-- EN: Scanning local area: {DURATION} -->
   <SurveyScanner.comps.CompCountdown.label>جاري مسح المنطقة المحلية: {DURATION}</SurveyScanner.comps.CompCountdown.label>
+
+  <!-- EN: Sealed -->
+  <AncientHatch.comps.CompSealable.cannotEnterLabel>مختوم</AncientHatch.comps.CompSealable.cannotEnterLabel>
+  <!-- EN: Cannot seal -->
+  <AncientHatch.comps.CompSealable.cannotSealLabel>لا يمكن الختم</AncientHatch.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <AncientHatch.comps.CompSealable.confirmSealText>ختم مدخل المخزن القديم دائم. أي شيء أو أي شخص يُترك بالأسفل سيُفقد إلى الأبد.{0}\n\nهل أنت متأكد من رغبتك في المتابعة؟</AncientHatch.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <AncientHatch.comps.CompSealable.sealCommandDesc>اختر مستعمِراً لختم المدخل بشكل دائم. أي شيء أو أي شخص يُترك بالأسفل سيُفقد إلى الأبد.</AncientHatch.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Seal entrance -->
+  <AncientHatch.comps.CompSealable.sealCommandLabel>ختم المدخل</AncientHatch.comps.CompSealable.sealCommandLabel>
+  <!-- EN: Permanently sealed. -->
+  <AncientHatch.comps.CompSealable.sealedInspectString>مختوم بشكل دائم.</AncientHatch.comps.CompSealable.sealedInspectString>
   
 </LanguageData>
