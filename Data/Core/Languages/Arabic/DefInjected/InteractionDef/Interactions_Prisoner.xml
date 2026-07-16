@@ -11,12 +11,48 @@
     <li>r_logentry->[INITIATOR_nameDef] offered a chance for [RECIPIENT_nameDef] to [talkabout] [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] expressed interest in [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] about [RECIPIENT_possessive] [PersonalCharacteristic].</li>
-    <li>toldastoryabout(p=2)->أخبر قصة عن</li>
-    <li>toldastoryabout->أخبر قصة مضحكة عن</li>
-    <li>toldastoryabout->أخبر قصة مؤثرة عن</li>
-    <li>toldastoryabout->أخبر قصة قديمة عن</li>
-    <li>toldastoryabout->أخبر قصة عائلية عن</li>
-    <li>toldastoryabout->أخبر قصة طفولة عن</li>
+    <li>toldastoryabout(p=2)->told a story about</li>
+    <li>toldastoryabout->told a funny story about</li>
+    <li>toldastoryabout->told a heartfelt story about</li>
+    <li>toldastoryabout->told an old story about</li>
+    <li>toldastoryabout->told a family story about</li>
+    <li>toldastoryabout->told a childhood story about</li>
+    <li>toldastoryabout->mentioned an anecdote about</li>
+    <li>talkabout->talk about</li>
+    <li>talkabout->discuss</li>
+    <li>talkabout->have a discussion about</li>
+    <li>talkabout->ask about</li>
+    <li>talkabout->think about</li>
+    <li>talkabout->find common ground around</li>
+    <li>subject->the colony</li>
+    <li>subject->the community</li>
+    <li>subject->joining the colony</li>
+    <li>subject->changing teams</li>
+    <li>subject->finding friends</li>
+    <li>subject->meeting new people</li>
+    <li>subject->reconsidering [RECIPIENT_possessive] ideas</li>
+    <li>subject->rethinking [RECIPIENT_possessive] loyalties</li>
+    <li>subject->health</li>
+    <li>subject->the future</li>
+    <li>subject->letting go</li>
+    <li>subject(p=4)->[ConceptPositive]</li>
+    <li>subject(p=2)->[INITIATOR_possessive] [PersonalCharacteristic]</li>
+    <li>subject(p=8)->[TalkTopicLight]</li>
+  -->
+  <BuildRapport.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] لـ[RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] أخبر [RECIPIENT_nameDef] عن [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] وصف [subject] لـ[RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] شجع [RECIPIENT_nameDef] على [talkabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] عرض على [RECIPIENT_nameDef] فرصة لـ[talkabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] أبدى اهتماماً بـ[PersonalCharacteristic][RECIPIENT_possessive].</li>
+    <li>r_logentry->[INITIATOR_nameDef] سأل [RECIPIENT_nameDef] عن [PersonalCharacteristic][RECIPIENT_possessive].</li>
+    <li>toldastoryabout(p=2)->روى قصة عن</li>
+    <li>toldastoryabout->روى قصة مضحكة عن</li>
+    <li>toldastoryabout->روى قصة مؤثرة عن</li>
+    <li>toldastoryabout->روى قصة قديمة عن</li>
+    <li>toldastoryabout->روى قصة عائلية عن</li>
+    <li>toldastoryabout->روى قصة من الطفولة عن</li>
     <li>toldastoryabout->ذكر حكاية عن</li>
     <li>talkabout->تحدث عن</li>
     <li>talkabout->ناقش</li>
@@ -28,15 +64,15 @@
     <li>subject->المجتمع</li>
     <li>subject->الانضمام إلى المستعمرة</li>
     <li>subject->تغيير الفريق</li>
-    <li>subject->إيجاد الأصدقاء</li>
-    <li>subject->لقاء أناس جدد</li>
-    <li>subject->إعادة النظر في أفكار [RECIPIENT_possessive]</li>
-    <li>subject->إعادة التفكير في ولاءات [RECIPIENT_possessive]</li>
+    <li>subject->إيجاد أصدقاء</li>
+    <li>subject->التعرف على أشخاص جدد</li>
+    <li>subject->إعادة النظر في أفكار[RECIPIENT_possessive]</li>
+    <li>subject->إعادة التفكير في ولاءاتـ[RECIPIENT_possessive]</li>
     <li>subject->الصحة</li>
     <li>subject->المستقبل</li>
     <li>subject->التخلي</li>
     <li>subject(p=4)->[ConceptPositive]</li>
-    <li>subject(p=2)->[PersonalCharacteristic] الخاصة بـ [INITIATOR_possessive]</li>
+    <li>subject(p=2)->[PersonalCharacteristic][INITIATOR_possessive]</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
  </BuildRapport.logRulesInitiator.rulesStrings>
   
@@ -50,13 +86,13 @@
   -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] طلب من [RECIPIENT_nameDef] الانضمام.</li>
-    <li>r_logentry->[INITIATOR_nameDef] وعد [RECIPIENT_nameDef] بـ [goodthing]، وطلب منه الانضمام.</li>
+    <li>r_logentry->[INITIATOR_nameDef] وعد [RECIPIENT_nameDef] بـ[goodthing]، وطلب منـ[RECIPIENT_objective] الانضمام.</li>
     <li>goodthing(p=15)->[ConceptPositive]</li>
     <li>goodthing->[Vegetable] طازجة ومجانية</li>
  </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
-  <SparkJailbreak.label>إشعال الهروب من السجن</SparkJailbreak.label>
+  <SparkJailbreak.label>إشعال الهروب الجماعي</SparkJailbreak.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] spoke about the joy of [freedom], and offered a means of escape.</li>
     <li>r_logentry->[INITIATOR_nameDef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>
@@ -68,13 +104,13 @@
     <li>freedom->self-determination</li>
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] تحدث عن بهجة [freedom]، وعرض وسيلة للهرب.</li>
-    <li>r_logentry->[INITIATOR_nameDef] تحدث عن جمال [TerrainFeature]، وعرض الحرية.</li>
-    <li>r_logentry->[INITIATOR_nameDef] أوضح وسيلة للهرب لـ [RECIPIENT_nameDef]، ووعده بـ [freedom].</li>
-    <li>r_logentry->[INITIATOR_nameDef] أخبر [RECIPIENT_nameDef] أن الإجراءات الأمنية ضعيفة، وشجعه على الهرب.</li>
+    <li>r_logentry->[INITIATOR_nameDef] تحدث عن متعة [freedom]، وعرض وسيلة للهروب.</li>
+    <li>r_logentry->[INITIATOR_nameDef] تحدث عن مدى جمال [TerrainFeature]، وعرض الحرية.</li>
+    <li>r_logentry->[INITIATOR_nameDef] عرض وسيلة للهروب على [RECIPIENT_nameDef]، ووعد بـ[freedom].</li>
+    <li>r_logentry->[INITIATOR_nameDef] أخبر [RECIPIENT_nameDef] أن الأمن متساهل، وشجع على الهروب.</li>
     <li>freedom->الحرية</li>
     <li>freedom->الفرصة</li>
-    <li>freedom->المنزل</li>
+    <li>freedom->الوطن</li>
     <li>freedom->تقرير المصير</li>
  </SparkJailbreak.logRulesInitiator.rulesStrings>
   
