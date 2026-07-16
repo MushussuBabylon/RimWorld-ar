@@ -1,4 +1,3 @@
-<!-- RulePacks_Art_DescriptionsPhysical.xml -->
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
@@ -119,109 +118,110 @@
     <li>cube_style_group(p=3)->[cubeDescSentence].</li>
     <li>cube_style_group-></li>
     <li>cubeDescSentence(p=3)->[cubeLocation]، [aPawn] [worshipsTheCube]</li>
-    <li>cubeDescSentence(p=3)->[cubeLocation]، [pawnsPlural] [worshippingTheCube]</li>
-    <li>cubeDescSentence->يدعو [cubeWork] المشاهد إلى البدء في [worshippingTheCube]</li>
-    <li>cubeDescSentence->أشكال [worshippingTheCube] من مركز هذا [cubeWork]</li>
+    <li>cubeDescSentence(p=3)->[cubeLocation]، [pawnsPlural] يقومون بـ [worshippingTheCube]</li>
+    <li>cubeDescSentence->الـ[cubeWork] يدعو المشاهد للبدء في [worshippingTheCube]</li>
+    <li>cubeDescSentence->شخصيات تقوم بـ [worshippingTheCube] من مركز هذا الـ[cubeWork]</li>
     <li>cubeWork->عمل</li>
     <li>cubeWork->منحوتة</li>
     <li>cubeWork->عمل فني</li>
     <li>cubeWork->قطعة</li>
     <li>aCube->مكعب تجريدي</li>
     <li>aCube->مكعب مثالي</li>
-    <li>aCube->مكعب أعوج</li>
+    <li>aCube->مكعب متذبذب</li>
     <li>aCube->مكعب منمق</li>
     <li>aCube->مكعب متضاعف</li>
-    <li>aCube->مكعب فج</li>
+    <li>aCube->مكعب خام</li>
     <li>aCube->مكعب مشوه</li>
     <li>aCube->مكعب مرعب</li>
     <li>aCube->مكعب مظلم</li>
-    <li>cubeLocation->بالقرب من المركز</li>
-    <li>cubeLocation->على كل وجه من وجوه المكعب</li>
+    <li>cubeLocation->قرب المركز</li>
+    <li>cubeLocation->على كل وجه من أوجه المكعب</li>
     <li>cubeLocation->في مراكز الأوجه</li>
-    <li>cubeLocation->أعلى الشكل الرئيسي</li>
+    <li>cubeLocation->فوق الشكل الرئيسي</li>
     <li>cubeLocation->تحت الشكل الرئيسي</li>
     <li>cubeLocation->خلف الشكل الرئيسي</li>
-    <li>cubeLocation->بالقرب من الحواف</li>
-    <li>cubeLocation->على امتداد الحواف</li>
+    <li>cubeLocation->قرب الحواف</li>
+    <li>cubeLocation->على طول الحواف</li>
+    <li>cubeLocation->على طول الحواف</li>
     <li>cubeDepicts->يصور</li>
+    <li>cubeDepicts->يُظهر</li>
     <li>cubeDepicts->يعرض</li>
-    <li>cubeDepicts->يظهر</li>
     <li>cubeDepicts->يجسد</li>
-    <li>aPawn->صورة ذاتية للفنان</li>
+    <li>aPawn->بورتريه ذاتي للفنان</li>
     <li>aPawn->ثرامبو</li>
-    <li>aPawn->شكل بشري هزيل بعيون كثيرة جدًا</li>
+    <li>aPawn->شكل بشري هزيل بعيون كثيرة جداً</li>
     <li>aPawn->أحد مستعمريك</li>
-    <li>aPawn->نياندرتالي</li>
-    <li>aPawn->قائد من عالم براق</li>
+    <li>aPawn->نياندرتال</li>
+    <li>aPawn->قائد من العالم اللامع</li>
     <li>aPawn->شكل غير واضح</li>
     <li>aPawn->شامان قبلي</li>
-    <li>aPawn->سنجووفاج مقنع</li>
-    <li>aPawn->أميرة قروسطية</li>
+    <li>aPawn->ماص دماء مقنع</li>
+    <li>aPawn->أميرة من القرون الوسطى</li>
     <li>aPawn->قائد [Community] بعيد</li>
     <li>aPawn->امرأة تحمل [Weapon]</li>
     <li>aPawn->موكب برداء</li>
     <li>pawnsPlural->مستعمروك</li>
-    <li>pawnsPlural->مجموعة من الغزاة</li>
+    <li>pawnsPlural->مجموعة من المغيرين</li>
     <li>pawnsPlural->جماعة قبلية</li>
-    <li>pawnsPlural->سرب ميكانويد</li>
+    <li>pawnsPlural->سرب ميكانويدات</li>
     <li>pawnsPlural->عصابة قراصنة</li>
     <li>pawnsPlural->مزارعون ريفيون</li>
-    <li>pawnsPlural->[AnimalGroup] من [Animal]</li>
-    <li>pawnsPlural->مجموعة من [Community] قريب</li>
-    <li>pawnsPlural->[Quantity_adjphrase] شخصاً</li>
-    <li>worshippingTheCube->يعبدون المكعب</li>
-    <li>worshippingTheCube->ينحنون للمكعب</li>
-    <li>worshippingTheCube->يركعون أمام المكعب</li>
-    <li>worshippingTheCube->يدورون حول المكعب</li>
-    <li>worshippingTheCube->يمدحون المكعب</li>
-    <li>worshippingTheCube->يرتعدون هيبة من المكعب</li>
-    <li>worshippingTheCube->يتوسلون إلى المكعب</li>
-    <li>worshippingTheCube->يبكون أمام المكعب</li>
-    <li>worshippingTheCube->يلعبون مع المكعب</li>
-    <li>worshippingTheCube->يصادقون المكعب</li>
-    <li>worshippingTheCube->يراقبون المكعب</li>
-    <li>worshippingTheCube->مهووسون بالمكعب</li>
-    <li>worshippingTheCube->يضحون للمكعب</li>
-    <li>worshippingTheCube->يقدمون القرابين للمكعب</li>
-    <li>worshippingTheCube->يحتجون على المكعب</li>
-    <li>worshippingTheCube->يحترمون المكعب</li>
-    <li>worshippingTheCube->يدفنون المكعب</li>
-    <li>worshippingTheCube->يضعون المكعب على قاعدة</li>
-    <li>worshippingTheCube->ينسخون المكعب</li>
-    <li>worshippingTheCube->يأخذون المكعب إلى عالم آخر</li>
+    <li>pawnsPlural->[AnimalGroup] من [Animal]s</li>
+    <li>pawnsPlural->مجموعة من [Community] قريبة</li>
+    <li>pawnsPlural->[Quantity_adjphrase] من الناس</li>
+    <li>worshippingTheCube->عبادة المكعب</li>
+    <li>worshippingTheCube->الانحناء للمكعب</li>
+    <li>worshippingTheCube->الركوع أمام المكعب</li>
+    <li>worshippingTheCube->الطواف حول المكعب</li>
+    <li>worshippingTheCube->تمجيد المكعب</li>
+    <li>worshippingTheCube->الارتعاد هيبةً للمكعب</li>
+    <li>worshippingTheCube->التوسل للمكعب</li>
+    <li>worshippingTheCube->البكاء أمام المكعب</li>
+    <li>worshippingTheCube->اللعب مع المكعب</li>
+    <li>worshippingTheCube->مصادقة المكعب</li>
+    <li>worshippingTheCube->مراقبة المكعب</li>
+    <li>worshippingTheCube->الهوس بالمكعب</li>
+    <li>worshippingTheCube->التضحية للمكعب</li>
+    <li>worshippingTheCube->تقديم القرابين للمكعب</li>
+    <li>worshippingTheCube->معاداة المكعب</li>
+    <li>worshippingTheCube->احترام المكعب</li>
+    <li>worshippingTheCube->دفن المكعب</li>
+    <li>worshippingTheCube->وضع المكعب على قاعدة</li>
+    <li>worshippingTheCube->نسخ المكعب</li>
+    <li>worshippingTheCube->أخذ المكعب إلى عالم آخر</li>
     <li>worshipsTheCube->يعبد المكعب</li>
     <li>worshipsTheCube->ينحني للمكعب</li>
     <li>worshipsTheCube->يركع أمام المكعب</li>
-    <li>worshipsTheCube->يدور حول المكعب</li>
-    <li>worshipsTheCube->يمدح المكعب</li>
-    <li>worshipsTheCube->يرتعد هيبة من المكعب</li>
-    <li>worshipsTheCube->يتوسل إلى المكعب</li>
+    <li>worshipsTheCube->يطوف حول المكعب</li>
+    <li>worshipsTheCube->يمجد المكعب</li>
+    <li>worshipsTheCube->يرتعد هيبةً للمكعب</li>
+    <li>worshipsTheCube->يتوسل للمكعب</li>
     <li>worshipsTheCube->يبكي أمام المكعب</li>
     <li>worshipsTheCube->يلعب مع المكعب</li>
     <li>worshipsTheCube->يصادق المكعب</li>
     <li>worshipsTheCube->يراقب المكعب</li>
-    <li>worshipsTheCube->مهووس بالمكعب</li>
+    <li>worshipsTheCube->يهوس بالمكعب</li>
     <li>worshipsTheCube->يضحي للمكعب</li>
     <li>worshipsTheCube->يقدم القرابين للمكعب</li>
-    <li>worshipsTheCube->يحتج على المكعب</li>
+    <li>worshipsTheCube->يعادي المكعب</li>
     <li>worshipsTheCube->يهاجم المكعب</li>
     <li>worshipsTheCube->يدفن المكعب</li>
     <li>worshipsTheCube->يضع المكعب على قاعدة</li>
     <li>worshipsTheCube->ينسخ المكعب</li>
     <li>worshipsTheCube->يأخذ المكعب إلى عالم آخر</li>
-    <li>cubeExtraSentence->يبدو المكعب [cubeEmotion] بهذا</li>
-    <li>cubeExtraSentence->يقترب [pawnsPlural] ليفعلوا الشيء نفسه</li>
-    <li>cubeExtraSentence->يقترب [aPawn] ليفعل الشيء نفسه</li>
-    <li>cubeExtraSentence->يحدق [aPawn] بحزن إلى المشهد</li>
-    <li>cubeExtraSentence->يحاول [pawnsPlural] سرقة المكعب</li>
-    <li>cubeExtraSentence->يبدو المكعب متلألئًا بهدوء</li>
+    <li>cubeExtraSentence->يبدو المكعب [cubeEmotion] بسبب هذا</li>
+    <li>cubeExtraSentence->[pawnsPlural] يقتربون لفعل الشيء نفسه</li>
+    <li>cubeExtraSentence->[aPawn] يقترب لفعل الشيء نفسه</li>
+    <li>cubeExtraSentence->[aPawn] يحدق بحزن إلى المشهد</li>
+    <li>cubeExtraSentence->[pawnsPlural] يحاولون سرقة المكعب</li>
+    <li>cubeExtraSentence->يبدو المكعب وكأنه يومض بهدوء</li>
     <li>cubeEmotion->غير متأثر</li>
-    <li>cubeEmotion->مسروراً</li>
-    <li>cubeEmotion->مستاءً</li>
-    <li>cubeEmotion->غير متحرك</li>
-    <li>cubeEmotion->غاضباً</li>
-    <li>cubeEmotion->مفتوناً</li>
-    <li>cubeEmotion->مغتاظاً</li>
+    <li>cubeEmotion->مسرور</li>
+    <li>cubeEmotion->منزعج</li>
+    <li>cubeEmotion->غير متأثر</li>
+    <li>cubeEmotion->غاضب</li>
+    <li>cubeEmotion->مفتون</li>
+    <li>cubeEmotion->مستاء</li>
  </ArtDescription_CubeSculpture.rulePack.rulesStrings>
   
   <!-- EN:
@@ -259,38 +259,38 @@
     <li>voidDesc->Hundreds of tiny abstract figure-like objects swarm over a large distorted globe.</li>
   -->
   <ArtDescription_VoidSculpture.rulePack.rulesStrings>
-    <li>r_art_description->هذه المنحوتة [voidStrange] [voidVerbphrase]. [voidDesc]</li>
+    <li>r_art_description->هذه المنحوتة الـ[voidStrange] [voidVerbphrase]. [voidDesc]</li>
     <li>voidStrange->غريبة</li>
     <li>voidStrange->مزعجة</li>
     <li>voidStrange->مقلقة</li>
-    <li>voidStrange->مخيفة</li>
+    <li>voidStrange->مرعبة</li>
     <li>voidStrange->ملتوية</li>
     <li>voidStrange->مشوهة</li>
-    <li>voidStrange->غير بشرية</li>
+    <li>voidStrange->غير إنسانية</li>
     <li>voidStrange->عجيبة</li>
-    <li>voidVerbphrase->تلتوي بشكل مقلق</li>
+    <li>voidVerbphrase->تلتوي بشكل مزعج</li>
     <li>voidVerbphrase->تلتوي وكأنها تحاول إيذاء المشاهد</li>
-    <li>voidVerbphrase->تبدو كأنها تتغير تحت أنظار المشاهد</li>
+    <li>voidVerbphrase->تبدو وكأنها تتغير تحت نظرة المشاهد</li>
     <li>voidVerbphrase->تبعث إحساساً بالغضب</li>
     <li>voidVerbphrase->تبعث إحساساً بالاكتئاب والحزن</li>
-    <li>voidVerbphrase->تثير مشاعر الرعب والشك الذاتي</li>
-    <li>voidVerbphrase->تتمدد عشوائياً في اتجاهات مختلفة بنوبات متقطعة</li>
-    <li>voidVerbphrase->تبدو كأنها ترتعد حتى تنظر إليها مباشرة</li>
-    <li>voidVerbphrase->تبدو تقريباً كأنها تتنفس</li>
+    <li>voidVerbphrase->تثير مشاعر الرهبة والشك الذاتي</li>
+    <li>voidVerbphrase->تتمدد عشوائياً في اتجاهات مختلفة على دفعات</li>
+    <li>voidVerbphrase->تبدو وكأنها ترتجف حتى تنظر إليها مباشرة</li>
+    <li>voidVerbphrase->تكاد تبدو وكأنها تتنفس</li>
     <li>voidVerbphrase->لا تشبه أي كائن حي</li>
     <li>voidVerbphrase->تبدو كاستعارة للمعاناة</li>
-    <li>voidDesc->عشرات من الزوائد الشبيهة بالأصابع تمسك بشكل مركزي بألم.</li>
-    <li>voidDesc->كرات من المواد تسحق وتعصر بعضها إلى أشكال ممطوطة.</li>
-    <li>voidDesc->قطع شبيهة بالشفرات مثنية معاً لتشبه وجهاً يصرخ رعباً.</li>
-    <li>voidDesc->نتوءات شبيهة بالأذرع تعصر بعضها، وكأنها تحاول تدمير نفسها.</li>
-    <li>voidDesc->إبر تبرز من السطح تبدو مستعدة للانطلاق واختراق أي شخص يتحرك بالقرب.</li>
-    <li>voidDesc->السطح يتماوج ويهتاج، متحولاً من نسيج عضوي إلى حواف وشفرات آلية.</li>
-    <li>voidDesc->يبدو كأنها مزقت نفسها إلى قطع بقوة عظيمة، لكنها مع ذلك متماسكة بطريقة ما.</li>
-    <li>voidDesc->زائدة شبيهة باليد تنتظر كأنها مستعدة للانقضاض والهجوم.</li>
-    <li>voidDesc->شخصان يبدو كل منهما يخترق ويعذب الآخر بأصابع ملتوية مسننة.</li>
-    <li>voidDesc->شكل معقد يخرج من فم وجه صارخ.</li>
-    <li>voidDesc->شكل مجرد يشبه حيواناً يبدو وكأنه يمزق أحد أطرافه.</li>
-    <li>voidDesc->مئات الأشياء الصغيرة المجردة الشبيهة بالأشكال تحتشد فوق كرة كبيرة مشوهة.</li>
+    <li>voidDesc->عشرات الزوائد الشبيهة بالأصابع تمسك بشكل مركزي بألم.</li>
+    <li>voidDesc->كرات من المادة تسحق وتضغط بعضها البعض إلى أشكال ممطوطة.</li>
+    <li>voidDesc->قطع تشبه الشفرات مثنية معاً لتشبه وجهاً يصرخ في رعب.</li>
+    <li>voidDesc->نتوءات تشبه الأذرع تضغط على بعضها البعض، وكأنها تحاول تدمير نفسها.</li>
+    <li>voidDesc->إبر بارزة من السطح تبدو مستعدة للانطلاق واختراق أي شخص يتحرك بالقرب.</li>
+    <li>voidDesc->السطح يتموج ويهتاج، متحولاً من ملمس شبه عضوي إلى حواف وشفرات آلية.</li>
+    <li>voidDesc->يبدو وكأنها مزقت نفسها إلى قطع بقوة هائلة، لكنها لا تزال متماسكة بطريقة ما.</li>
+    <li>voidDesc->زائدة تشبه اليد تنتظر وكأنها مستعدة للانقضاض والهجوم.</li>
+    <li>voidDesc->زوج من الشخصيات يبدو كل منهما وكأنه يخترق ويعذب الآخر بأصابع ملتوية ومسننة.</li>
+    <li>voidDesc->شكل معقد يخرج من فم وجه يصرخ.</li>
+    <li>voidDesc->شكل تجريدي يشبه حيواناً يبدو وكأنه يمزق أحد أطرافه.</li>
+    <li>voidDesc->مئات الأجسام الصغيرة الشبيهة بالأشكال التجريدية تحتشد فوق كرة كبيرة مشوهة.</li>
  </ArtDescription_VoidSculpture.rulePack.rulesStrings>
   
 </LanguageData>
