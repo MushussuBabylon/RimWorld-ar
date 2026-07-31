@@ -1,0 +1,2401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>desc->This [writingQualityAdjective] [bookType] [follows] a [PersonJob] as [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->In this [writingQualityAdjective] [bookType], the [author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>follows->follows</li>
+    <li>follows->covers</li>
+    <li>follows->tells the story of</li>
+    <li>follows->is written from the point of view of</li>
+    <li>protagHe->he</li>
+    <li>protagHis->his</li>
+    <li>protagHim->him</li>
+    <li>storyStruggles->[struggles] against [opponent]</li>
+    <li>storyStruggles->[seeks] [seekObjective]</li>
+    <li>struggles->struggles</li>
+    <li>struggles->fights</li>
+    <li>struggles->strives</li>
+    <li>opponent->injustice</li>
+    <li>opponent->fear</li>
+    <li>opponent->a dangerous [Enemy]</li>
+    <li>opponent->a rival [PersonJob]</li>
+    <li>opponent->the meaninglessness of [ConceptPositive]</li>
+    <li>opponent->[protagHis] evil [PersonFamily]</li>
+    <li>opponent->[protagHis] community's social norms</li>
+    <li>seeks->seeks</li>
+    <li>seeks->searches the universe for</li>
+    <li>seeks->tries to find</li>
+    <li>seeks->looks inside [protagHim]self and across the world to find</li>
+    <li>seeks->desperately searches for</li>
+    <li>seeks->struggles to find</li>
+    <li>seeks->scours the land for</li>
+    <li>seeks->hunts down</li>
+    <li>seeks->deliberately pursues</li>
+    <li>seeks->expends every effort to find</li>
+    <li>seeks->doggedly pursues</li>
+    <li>seeks->leaves no stone unturned in search of</li>
+    <li>seeks->embarks on a quest for</li>
+    <li>seeks->rends [protagHis] flesh while seeking</li>
+    <li>seeks->strives to locate</li>
+    <li>seeks->diligently seeks out</li>
+    <li>seeks->wanders in search of</li>
+    <li>seeks->goes on a mission to find</li>
+    <li>seekObjective->a mysterious golden cube</li>
+    <li>seekObjective->a demon inside [protagHis] own head</li>
+    <li>seekObjective->the best-tasting [Vegetable] in the universe</li>
+    <li>seekObjective->a shiny new [Weapon]</li>
+    <li>seekObjective->[protagHis] lost pet [Animal]</li>
+    <li>seekObjective->parts to rebuild a destroyed [Mechanoid]</li>
+    <li>seekObjective->a [TerrainFeature] that [protagHe] saw in a dream</li>
+    <li>seekObjective->an old flame</li>
+    <li>seekObjective->romantic satisfaction</li>
+    <li>seekObjective->a new kidney to replace [protagHis] own diseased kidney</li>
+    <li>seekObjective->food in a vast wasteland</li>
+    <li>seekObjective->the warmth and safety of home</li>
+    <li>seekObjective->love in a world full of hate</li>
+    <li>seekObjective->a long-lost family recipe</li>
+    <li>seekObjective->a childhood toy left behind</li>
+    <li>seekObjective->a stolen family heirloom</li>
+    <li>seekObjective->a mentor's lost journal</li>
+    <li>seekObjective->a rare collectible from [protagHis] favorite series</li>
+    <li>seekObjective->the perfect spot for a picnic</li>
+    <li>seekObjective->a missing piece from a prized collection</li>
+    <li>seekObjective->an apology for a past mistake</li>
+    <li>seekObjective->closure from a past relationship</li>
+    <li>seekObjective->a lost treasure map from childhood</li>
+    <li>seekObjective->a meaningful memento from a deceased loved one</li>
+    <li>seekObjective->a recipe for a cure to an illness</li>
+    <li>seekObjective->a rare plant for a personal garden</li>
+    <li>seekObjective->a letter written but never sent</li>
+    <li>seekObjective->an elusive answer to a philosophical question</li>
+    <li>seekObjective->a quiet moment away from the chaos</li>
+    <li>seekObjective->an old friend in a new city</li>
+    <li>seekObjective->the thrill of a forgotten hobby</li>
+    <li>seekObjective->a single moment of pure happiness</li>
+    <li>tellsAStoryOf->tells a tale about</li>
+    <li>tellsAStoryOf->goes into detail about</li>
+    <li>tellsAStoryOf->explores a story about</li>
+    <li>tellsAStoryOf->tells a story about</li>
+    <li>tellsAStoryOf->spins a narrative about</li>
+    <li>tellsAStoryOf->paints a picture of</li>
+    <li>tellsAStoryOf->dives deep into</li>
+    <li>tellsAStoryOf->unravels the tale of</li>
+    <li>tellsAStoryOf->reveals the journey of</li>
+    <li>tellsAStoryOf->captures the essence of</li>
+    <li>tellsAStoryOf->sheds light on</li>
+    <li>tellsAStoryOf->weaves together</li>
+    <li>tellsAStoryOf->portrays the experience of</li>
+    <li>tellsAStoryOf->embarks on the narrative of</li>
+    <li>tellsAStoryOf->depicts the story of</li>
+    <li>tellsAStoryOf->touches upon the tale of</li>
+    <li>tellsAStoryOf->presents the story of</li>
+    <li>tellsAStoryOf->conveys the journey of</li>
+    <li>tellsAStoryOf->delves into the story of</li>
+    <li>tellsAStoryOf->illuminates the narrative of</li>
+    <li>tellsAStoryOf->captures the saga of</li>
+    <li>tellsAStoryOf->paints a vivid picture of</li>
+    <li>tellsAStoryOf->weaves the tapestry of</li>
+    <li>tellsAStoryOf->explores the chronicle of</li>
+    <li>author->author</li>
+    <li>author->[authorTitle] [ANYPAWN_nameIndef]</li>
+    <li>author(p=2)->unnamed [authorTitle]</li>
+    <li>authorTitle->author</li>
+    <li>authorTitle->scribe</li>
+    <li>authorTitle->writer</li>
+    <li>authorTitle->poet</li>
+    <li>authorTitle->storyteller</li>
+    <li>storySource->personal experiences</li>
+    <li>storySource->youth</li>
+    <li>storySource->childhood</li>
+    <li>storySource->nation</li>
+    <li>storySource->home planet</li>
+    <li>storySource->grandfather</li>
+    <li>storySource->grandmother</li>
+    <li>storySource->experiences in the war</li>
+    <li>storySource->deepest fears</li>
+    <li>storySource->dreams of traveling to the stars</li>
+    <li>storySource->love of fresh [Vegetable]s</li>
+    <li>storySource->time as a [PersonJob]</li>
+    <li>storySource->favorite [Weapon]</li>
+    <li>storySource->experience fighting against [Mechanoid]s</li>
+    <li>storySource->youth growing up in a [Community]</li>
+    <li>storySource->gigantic [BodyPart]</li>
+    <li>storySource->memories of a lost friend</li>
+    <li>storySource->passion for music</li>
+    <li>storySource->curiosity about ancient ruins</li>
+    <li>storySource->attachment to a family heirloom</li>
+    <li>storySource->fascination with a mysterious figure</li>
+    <li>storySource->efforts to preserve a dying language</li>
+    <li>storySource->dreams of inventing something groundbreaking</li>
+    <li>storySource->connection to a mythical creature</li>
+    <li>storySource->affection for a particular landscape</li>
+    <li>storySource->aspirations of becoming a renowned [PersonJob]</li>
+    <li>storySource->struggles with social anxiety</li>
+    <li>storySource->longing for adventure beyond the horizon</li>
+    <li>storySource->bond with a robotic companion</li>
+    <li>storySource->adventures as a pirate in the past</li>
+    <li>storySource->close ties to a secret society</li>
+    <li>storySource->time spent as a nomad</li>
+    <li>storySource->fascination with time travel</li>
+    <li>storySource->connection to a legendary artifact</li>
+    <li>writingQualityAdjective(quality==6)->remarkably well-written</li>
+    <li>writingQualityAdjective(quality==5)->smart and insightful</li>
+    <li>writingQualityAdjective(quality==4)->thoughtful and eloquent</li>
+    <li>writingQualityAdjective(quality==3)->well-written</li>
+    <li>writingQualityAdjective(quality==2)->mediocre</li>
+    <li>writingQualityAdjective(quality==1)->poorly-written</li>
+    <li>writingQualityAdjective(quality==0)->nearly-incoherent</li>
+    <li>writingQualitySentence(quality[greater_than]4)->It is [excellentDesc] [excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->It is [decentDesc] [decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)->It is [awfulDesc] [awfulExtra]</li>
+    <li>excellentDesc->a heart-pounding tale of excitement</li>
+    <li>excellentDesc->a thoughtful exploration of the human spirit</li>
+    <li>excellentDesc->deeply insightful about the complexity of the world</li>
+    <li>excellentDesc->tightly-written and rich with emotion</li>
+    <li>excellentDesc->creative and original</li>
+    <li>excellentDesc->wildly original and remarkably well-crafted</li>
+    <li>excellentDesc->filled with relatable humor</li>
+    <li>excellentExtra->. Each story beat flows naturally into the next</li>
+    <li>excellentExtra->. It is a page-turner and very hard to put down</li>
+    <li>excellentExtra->. It blows the reader's mind at least three times</li>
+    <li>excellentExtra->. The plot twists are unpredictable but also feel inevitable</li>
+    <li>excellentExtra->. The characters feel like real people</li>
+    <li>decentDesc->a decent story</li>
+    <li>decentDesc->interesting and engaging</li>
+    <li>decentDesc->focused on one interesting idea</li>
+    <li>decentDesc->somewhat humorous from time to time</li>
+    <li>decentDesc->gripping during some parts</li>
+    <li>decentDesc->original and quirky</li>
+    <li>decentDesc->appealing to a certain type of reader</li>
+    <li>decentExtra-> but has some glaring plot holes</li>
+    <li>decentExtra-> but is often hard to follow</li>
+    <li>decentExtra-> but is riddled with continuity errors</li>
+    <li>decentExtra-> but lacks any deep emotions</li>
+    <li>decentExtra-> but the characters are trite and cartoonish</li>
+    <li>decentExtra-> but the author constantly uses words inappropriately in an attempt to sound smart</li>
+    <li>decentExtra-> but the world is unoriginal and dull</li>
+    <li>decentExtra-> but the writing is excessively flowery</li>
+    <li>decentExtra-> but many of the story beats are unnecessary and fail to move the plot forward</li>
+    <li>awfulDesc->very poorly written</li>
+    <li>awfulDesc->terribly written</li>
+    <li>awfulDesc->hard to read</li>
+    <li>awfulDesc->hard to follow</li>
+    <li>awfulDesc->lacking in artistic vision</li>
+    <li>awfulDesc->filled with plot holes and generic characters</li>
+    <li>awfulDesc->dominated by an author self-insert character</li>
+    <li>awfulDesc->bizarre yet unoriginal</li>
+    <li>awfulDesc->far, far too long</li>
+    <li>awfulExtra-> and the writing is borderline incoherent</li>
+    <li>awfulExtra-> and is extremely hard to follow</li>
+    <li>awfulExtra-> and fails to assemble a coherent plot</li>
+    <li>awfulExtra-> and lacks any sense of theme or meaning</li>
+    <li>awfulExtra-> and doesn't present any interesting ideas at all</li>
+    <li>awfulExtra-> and every character is boring</li>
+    <li>awfulExtra-> and there is no identifiable protagonist at any point</li>
+    <li>maybe_date-></li>
+    <li>maybe_date->The book was published [date_form].</li>
+    <li>maybe_date->The text was first printed [date_form].</li>
+    <li>maybe_date->It's unclear exactly when the book was written.</li>
+    <li>date_form->recently</li>
+    <li>date_form->many centuries ago</li>
+    <li>date_form->on the [date]</li>
+    <li>date_form->in [date_season]</li>
+    <li>bookType(p=4)->novel</li>
+    <li>bookType(p=2)->novella</li>
+    <li>bookType->story</li>
+    <li>bookType->narrative</li>
+    <li>bookType->biography</li>
+    <li>bookType->epic poem</li>
+  -->
+  <Description_Novel.rulePack.rulesStrings>
+    <li>desc-&gt;[protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date] ﺎﻤﻨﻴﺑ [writingQualityAdjective] [bookType] [follows] [PersonJob] ﺍﺬﻫ</li>
+    <li>desc-&gt;.[author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]ـﻟﺍ ،ﺍﺬﻫ [writingQualityAdjective]ـﻟﺍ [bookType] ﻲﻓ\n[maybe_date]</li>
+    <li>follows-&gt;ﻊﺒﺘﻳ</li>
+    <li>follows-&gt;ﻲﻄﻐﻳ</li>
+    <li>follows-&gt;ﺔﺼﻗ ﻱﻭﺮﻳ</li>
+    <li>follows-&gt;ﺮﻈﻧ ﺔﻬﺟﻭ ﻦﻣ ﺏﻮﺘﻜﻣ</li>
+    <li>protagHe-&gt;ﻮﻫ</li>
+    <li>protagHis-&gt;ﻪﻟ</li>
+    <li>protagHim-&gt;ﻩ</li>
+    <li>storyStruggles-&gt;[opponent] ﺪﺿ [struggles]</li>
+    <li>storyStruggles-&gt;[seeks] [seekObjective]</li>
+    <li>struggles-&gt;ﺢﻓﺎﻜﻳ</li>
+    <li>struggles-&gt;ﻞﺗﺎﻘﻳ</li>
+    <li>struggles-&gt;ﺪﻫﺎﺠﻳ</li>
+    <li>opponent-&gt;ﻢﻠﻈﻟﺍ</li>
+    <li>opponent-&gt;ﻑﻮﺨﻟﺍ</li>
+    <li>opponent-&gt;ﺮﻴﻄﺧ [Enemy]</li>
+    <li>opponent-&gt;ﺲﻓﺎﻨﻣ [PersonJob]</li>
+    <li>opponent-&gt;[ConceptPositive] ﺚﺒﻋ</li>
+    <li>opponent-&gt;ﺮﻳﺮﺸﻟﺍ [PersonFamily] [protagHis]</li>
+    <li>opponent-&gt;[protagHis] ﻊﻤﺘﺠﻣ ﻑﺍﺮﻋﺃ</li>
+    <li>seeks-&gt;ﻦﻋ ﺚﺤﺒﻳ</li>
+    <li>seeks-&gt;ﻦﻋ ﻥﻮﻜﻟﺍ ﻲﻓ ﺚﺤﺒﻳ</li>
+    <li>seeks-&gt;ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻝﻭﺎﺤﻳ</li>
+    <li>seeks-&gt;ﻢﻟﺎﻌﻟﺍ ﺮﺒﻋﻭ [protagHim]self ﻞﺧﺍﺩ ﺚﺤﺒﻳ\nﺪﺠﻴﻟ</li>
+    <li>seeks-&gt;ﻦﻋ ﺱﺄﻴﺑ ﺚﺤﺒﻳ</li>
+    <li>seeks-&gt;ﻰﻠﻋ ﺭﻮﺜﻌﻠﻟ ﺢﻓﺎﻜﻳ</li>
+    <li>seeks-&gt;ﻦﻋ ﺎﺜﺤﺑ ﺽﺭﻷﺍ ﺏﻮﺠﻳ</li>
+    <li>seeks-&gt;ﺩﺭﺎﻄﻳ</li>
+    <li>seeks-&gt;ﺀﺍﺭﻭ ﻰﻌﺴﻳ</li>
+    <li>seeks-&gt;ﻰﻠﻋ ﺭﻮﺜﻌﻠﻟ ﻩﺪﻬﺟ ﻯﺭﺎﺼﻗ ﻝﺬﺒﻳ</li>
+    <li>seeks-&gt;ﺀﺍﺭﻭ ﺭﺍﺮﺻﺈﺑ ﻰﻌﺴﻳ</li>
+    <li>seeks-&gt;ﻦﻋ ﺎﺜﺤﺑ ﺮﺠﺣ ﻞﻛ ﺐﻠﻘﻳ</li>
+    <li>seeks-&gt;ﻦﻋ ﺚﺤﺑ ﺔﻠﺣﺭ ﻲﻓ ﻉﺮﺸﻳ</li>
+    <li>seeks-&gt;ﻦﻋ ﺚﺤﺒﻳ ﻮﻫﻭ ﻢﺤﻟ [protagHis] ﻕﺰﻤﻳ</li>
+    <li>seeks-&gt;ﻊﻗﻮﻣ ﺪﻳﺪﺤﺘﻟ ﻰﻌﺴﻳ</li>
+    <li>seeks-&gt;ﻦﻋ ﺪﺠﺑ ﺚﺤﺒﻳ</li>
+    <li>seeks-&gt;ﻦﻋ ﺎﺜﺤﺑ ﻝﻮﺠﺘﻳ</li>
+    <li>seeks-&gt;ﻰﻠﻋ ﺭﻮﺜﻌﻠﻟ ﺔﻤﻬﻣ ﻲﻓ ﺐﻫﺬﻳ</li>
+    <li>seekObjective-&gt;ﺾﻣﺎﻏ ﻲﺒﻫﺫ ﺐﻌﻜﻣ</li>
+    <li>seekObjective-&gt;[protagHis] ﺱﺃﺭ ﻞﺧﺍﺩ ﻥﺎﻄﻴﺷ</li>
+    <li>seekObjective-&gt;ﻥﻮﻜﻟﺍ ﻲﻓ [Vegetable] ﺬﻟﺃ</li>
+    <li>seekObjective-&gt;ﻊﻣﻻ ﺪﻳﺪﺟ [Weapon]</li>
+    <li>seekObjective-&gt;ﻊﺋﺎﻀﻟﺍ ﻒﻴﻟﻷﺍ [protagHis] ﻥﺍﻮﻴﺣ</li>
+    <li>seekObjective-&gt;ﺮﻣﺪﻣ [Mechanoid] ﺀﺎﻨﺑ ﺓﺩﺎﻋﻹ ﺀﺍﺰﺟﺃ</li>
+    <li>seekObjective-&gt;ﻡﺎﻨﻤﻟﺍ ﻲﻓ [protagHe] ﻩﺁﺭ [TerrainFeature]</li>
+    <li>seekObjective-&gt;ﻢﻳﺪﻗ ﺐﺣ</li>
+    <li>seekObjective-&gt;ﻲﻔﻃﺎﻋ ﻉﺎﺒﺷﺇ</li>
+    <li>seekObjective-&gt;[protagHis] ﺔﻴﻠﻛ ﻞﺤﻣ ﻞﺤﺘﻟ ﺓﺪﻳﺪﺟ ﺔﻴﻠﻛ\nﺔﻀﻳﺮﻤﻟﺍ</li>
+    <li>seekObjective-&gt;ﺔﻌﺳﺎﺷ ﺔﻠﺣﺎﻗ ﺽﺭﺃ ﻲﻓ ﻡﺎﻌﻃ</li>
+    <li>seekObjective-&gt;ﻪﻧﺎﻣﺃﻭ ﻝﺰﻨﻤﻟﺍ ﺀﻑﺩ</li>
+    <li>seekObjective-&gt;ﺔﻴﻫﺍﺮﻜﻟﺎﺑ ﺀﻲﻠﻣ ﻢﻟﺎﻋ ﻲﻓ ﺐﺣ</li>
+    <li>seekObjective-&gt;ﻦﻣﺯ ﺬﻨﻣ ﺓﺩﻮﻘﻔﻣ ﺔﻴﻠﺋﺎﻋ ﺔﻔﺻﻭ\nﻞﻳﻮﻃ</li>
+    <li>seekObjective-&gt;ﻪﻔﻠﺧ ﺖﻛﺮﺗ ﺔﻟﻮﻔﻃ ﺔﺒﻌﻟ</li>
+    <li>seekObjective-&gt;ﻕﻭﺮﺴﻣ ﻲﻠﺋﺎﻋ ﺙﺭﺇ</li>
+    <li>seekObjective-&gt;ﺓﺩﻮﻘﻔﻣ ﻢﻠﻌﻣ ﺕﺍﺮﻛﺬﻣ</li>
+    <li>seekObjective-&gt;ﺔﻠﻀﻔﻤﻟﺍ [protagHis] ﺔﻠﺴﻠﺳ ﻦﻣ ﺓﺭﺩﺎﻧ ﺔﻌﻄﻗ</li>
+    <li>seekObjective-&gt;ﺔﻫﺰﻨﻟ ﻲﻟﺎﺜﻤﻟﺍ ﻥﺎﻜﻤﻟﺍ</li>
+    <li>seekObjective-&gt;ﺔﻨﻴﻤﺛ ﺔﻋﻮﻤﺠﻣ ﻦﻣ ﺓﺩﻮﻘﻔﻣ ﺔﻌﻄﻗ</li>
+    <li>seekObjective-&gt;ٍﺽﺎﻣ ﺄﻄﺧ ﻦﻋ ﺭﺍﺬﺘﻋﺍ</li>
+    <li>seekObjective-&gt;ﺔﻘﺑﺎﺳ ﺔﻗﻼﻌﻟ ﻖﻠﻏ</li>
+    <li>seekObjective-&gt;ﺔﻟﻮﻔﻄﻟﺍ ﻦﻣ ﺓﺩﻮﻘﻔﻣ ﺰﻨﻛ ﺔﻄﻳﺮﺧ</li>
+    <li>seekObjective-&gt;ﺰﻳﺰﻋ ﺺﺨﺷ ﻦﻣ ﻰﻨﻌﻣ ﻭﺫ ﺭﺎﻛﺬﺗ\nﻰﻓﻮﺘﻣ</li>
+    <li>seekObjective-&gt;ﺽﺮﻣ ﺝﻼﻌﻟ ﺔﻔﺻﻭ</li>
+    <li>seekObjective-&gt;ﺔﻴﺼﺨﺷ ﺔﻘﻳﺪﺤﻟ ﺓﺭﺩﺎﻧ ﺔﺘﺒﻧ</li>
+    <li>seekObjective-&gt;ﻞﺳﺮﺗ ﻢﻟﻭ ﺖﺒﺘﻛ ﺔﻟﺎﺳﺭ</li>
+    <li>seekObjective-&gt;ﻝﺍﺆﺳ ﻰﻠﻋ ﻝﺎﻨﻤﻟﺍ ﺓﺪﻴﻌﺑ ﺔﺑﺎﺟﺇ\nﻲﻔﺴﻠﻓ</li>
+    <li>seekObjective-&gt;ﻰﺿﻮﻔﻟﺍ ﻦﻋ ﺍﺪﻴﻌﺑ ﺀﻭﺪﻫ ﺔﻈﺤﻟ</li>
+    <li>seekObjective-&gt;ﺓﺪﻳﺪﺟ ﺔﻨﻳﺪﻣ ﻲﻓ ﻢﻳﺪﻗ ﻖﻳﺪﺻ</li>
+    <li>seekObjective-&gt;ﺔﻴﺴﻨﻣ ﺔﻳﺍﻮﻫ ﺓﺭﺎﺛﺇ</li>
+    <li>seekObjective-&gt;ﺔﺼﻟﺎﺨﻟﺍ ﺓﺩﺎﻌﺴﻟﺍ ﻦﻣ ﺓﺪﺣﺍﻭ ﺔﻈﺤﻟ</li>
+    <li>tellsAStoryOf-&gt;ﻦﻋ ﺔﻳﺎﻜﺣ ﻱﻭﺮﻳ</li>
+    <li>tellsAStoryOf-&gt;ﻝﻮﺣ ﻞﻴﺻﺎﻔﺘﻟﺍ ﻲﻓ ﺽﻮﺨﻳ</li>
+    <li>tellsAStoryOf-&gt;ﻦﻋ ﺔﺼﻗ ﻒﺸﻜﺘﺴﻳ</li>
+    <li>tellsAStoryOf-&gt;ﻦﻋ ﺔﺼﻗ ﻱﻭﺮﻳ</li>
+    <li>tellsAStoryOf-&gt;ﻝﻮﺣ ﺍﺩﺮﺳ ﺞﺴﻨﻳ</li>
+    <li>tellsAStoryOf-&gt;ﻦﻋ ﺓﺭﻮﺻ ﻢﺳﺮﻳ</li>
+    <li>tellsAStoryOf-&gt;ﻕﺎﻤﻋﺃ ﻲﻓ ﺹﻮﻐﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺔﻳﺎﻜﺣ ﻢﺳﻼﻃ ﻚﻔﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺔﻠﺣﺭ ﻦﻋ ﻒﺸﻜﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺮﻫﻮﺟ ﺪﺴﺠﻳ</li>
+    <li>tellsAStoryOf-&gt;ﻰﻠﻋ ﺀﻮﻀﻟﺍ ﻂﻠﺴﻳ</li>
+    <li>tellsAStoryOf-&gt;ﻁﻮﻴﺧ ﺞﺴﻨﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺔﺑﺮﺠﺗ ﺭّﻮﺼﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺩﺮﺳ ﻲﻓ ﻉﺮﺸﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺔﺼﻗ ﺭﻮﺼﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺔﻳﺎﻜﺣ ﻰﻟﺇ ﻕﺮﻄﺘﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺔﺼﻗ ﻡﺪﻘﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺔﻠﺣﺭ ﻞﻘﻨﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺔﺼﻗ ﻲﻓ ﻖﻤﻌﺘﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺩﺮﺳ ﺀﻲﻀﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺔﻤﺤﻠﻣ ﻂﻘﺘﻠﻳ</li>
+    <li>tellsAStoryOf-&gt;ﻦﻋ ﺔﻴﺣ ﺓﺭﻮﺻ ﻢﺳﺮﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺞﻴﺴﻧ ﺞﺴﻨﻳ</li>
+    <li>tellsAStoryOf-&gt;ﺦﻳﺭﺄﺗ ﻒﺸﻜﺘﺴﻳ</li>
+    <li>author-&gt;ﻒﻟﺆﻣ</li>
+    <li>author-&gt;[authorTitle] [ANYPAWN_nameIndef]</li>
+    <li>author(p=2)-&gt;[authorTitle] ﻝﻮﻬﺠﻣ</li>
+    <li>authorTitle-&gt;ﻒﻟﺆﻣ</li>
+    <li>authorTitle-&gt;ﺦﺳﺎﻧ</li>
+    <li>authorTitle-&gt;ﺐﺗﺎﻛ</li>
+    <li>authorTitle-&gt;ﺮﻋﺎﺷ</li>
+    <li>authorTitle-&gt;ٍﻭﺍﺭ</li>
+    <li>storySource-&gt;ﺔﻴﺼﺨﺷ ﺏﺭﺎﺠﺗ</li>
+    <li>storySource-&gt;ﺏﺎﺒﺸﻟﺍ</li>
+    <li>storySource-&gt;ﺔﻟﻮﻔﻄﻟﺍ</li>
+    <li>storySource-&gt;ﺔﻣﺃ</li>
+    <li>storySource-&gt;ﻡﻷﺍ ﺐﻛﻮﻜﻟﺍ</li>
+    <li>storySource-&gt;ﻩﺪﺟ</li>
+    <li>storySource-&gt;ﻪﺗﺪﺟ</li>
+    <li>storySource-&gt;ﺏﺮﺤﻟﺍ ﻲﻓ ﺏﺭﺎﺠﺗ</li>
+    <li>storySource-&gt;ﻪﻓﻭﺎﺨﻣ ﻖﻤﻋﺃ</li>
+    <li>storySource-&gt;ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺮﻔﺴﻟﺍ ﻡﻼﺣﺃ</li>
+    <li>storySource-&gt;ﺔﺟﺯﺎﻄﻟﺍ [Vegetable] ﺐﺣ</li>
+    <li>storySource-&gt;[PersonJob]ـﻛ ﻪﺘﻗﻭ</li>
+    <li>storySource-&gt;ﻞﻀﻔﻤﻟﺍ [Weapon]</li>
+    <li>storySource-&gt;[Mechanoid]s ﺪﺿ ﻝﺎﺘﻘﻟﺍ ﺔﺑﺮﺠﺗ</li>
+    <li>storySource-&gt;[Community] ﻲﻓ ﻩﺎﻀﻗ ﻱﺬﻟﺍ ﻪﺑﺎﺒﺷ</li>
+    <li>storySource-&gt;ﻢﺨﺿ [BodyPart]</li>
+    <li>storySource-&gt;ﺩﻮﻘﻔﻣ ﻖﻳﺪﺻ ﺕﺎﻳﺮﻛﺫ</li>
+    <li>storySource-&gt;ﻰﻘﻴﺳﻮﻤﻟﺎﺑ ﻒﻐﺷ</li>
+    <li>storySource-&gt;ﺔﻤﻳﺪﻘﻟﺍ ﺭﺎﺛﻵﺍ ﻝﻮﺣ ﻝﻮﻀﻓ</li>
+    <li>storySource-&gt;ﻲﻠﺋﺎﻋ ﺙﺭﺈﺑ ﻖﻠﻌﺗ</li>
+    <li>storySource-&gt;ﺔﻀﻣﺎﻏ ﺔﻴﺼﺨﺸﺑ ﺭﺎﻬﺒﻧﺍ</li>
+    <li>storySource-&gt;ﺮﻀﺘﺤﺗ ﺔﻐﻟ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺩﻮﻬﺟ</li>
+    <li>storySource-&gt;ﻱﺭﻮﺛ ﺀﻲﺷ ﻉﺍﺮﺘﺧﺎﺑ ﻡﻼﺣﺃ</li>
+    <li>storySource-&gt;ﻱﺭﻮﻄﺳﺃ ﻕﻮﻠﺨﻤﺑ ﻁﺎﺒﺗﺭﺍ</li>
+    <li>storySource-&gt;ﻦﻴﻌﻣ ﻲﻌﻴﺒﻃ ﺮﻈﻨﻤﻟ ﻖﺸﻋ</li>
+    <li>storySource-&gt;ﺍﺭﻮﻬﺸﻣ [PersonJob] ﺢﺒﺼﻴﻟ ﺡﻮﻤﻃ</li>
+    <li>storySource-&gt;ﻲﻋﺎﻤﺘﺟﻻﺍ ﻖﻠﻘﻟﺍ ﻊﻣ ﻉﺍﺮﺻ</li>
+    <li>storySource-&gt;ﻖﻓﻷﺍ ﻒﻠﺧ ﺓﺮﻣﺎﻐﻤﻠﻟ ﻕﻮﺷ</li>
+    <li>storySource-&gt;ﻲﻟﺁ ﻖﻴﻓﺭ ﻊﻣ ﺔﻄﺑﺍﺭ</li>
+    <li>storySource-&gt;ﻲﺿﺎﻤﻟﺍ ﻲﻓ ﻥﺎﺻﺮﻘﻛ ﺕﺍﺮﻣﺎﻐﻣ</li>
+    <li>storySource-&gt;ﻱﺮﺳ ﻊﻤﺘﺠﻤﺑ ﺔﻘﻴﺛﻭ ﺕﺎﻗﻼﻋ</li>
+    <li>storySource-&gt;ﻱﻭﺪﺒﻛ ﻩﺎﻀﻗ ﺖﻗﻭ</li>
+    <li>storySource-&gt;ﻦﻣﺰﻟﺍ ﺮﺒﻋ ﺮﻔﺴﻟﺎﺑ ﺭﺎﻬﺒﻧﺍ</li>
+    <li>storySource-&gt;ﺔﻳﺭﻮﻄﺳﺃ ﺔﻳﺮﺛﺃ ﺔﻌﻄﻘﺑ ﻁﺎﺒﺗﺭﺍ</li>
+    <li>writingQualityAdjective(quality==6)-&gt;ﻊﺋﺍﺭ ﻞﻜﺸﺑ ﺏﻮﺘﻜﻣ</li>
+    <li>writingQualityAdjective(quality==5)-&gt;ﻖﻴﻤﻋﻭ ﻲﻛﺫ</li>
+    <li>writingQualityAdjective(quality==4)-&gt;ﻎﻴﻠﺑﻭ ﻞﻣﺄﺘﻣ</li>
+    <li>writingQualityAdjective(quality==3)-&gt;ﺪﻴﺟ ﻞﻜﺸﺑ ﺏﻮﺘﻜﻣ</li>
+    <li>writingQualityAdjective(quality==2)-&gt;ﻂﺳﻮﺘﻣ</li>
+    <li>writingQualityAdjective(quality==1)-&gt;ﺊﻴﺳ ﻞﻜﺸﺑ ﺏﻮﺘﻜﻣ</li>
+    <li>writingQualityAdjective(quality==0)-&gt;ﻂﺑﺍﺮﺘﻣ ﺮﻴﻏ ﻪﺒﺷ</li>
+    <li>writingQualitySentence(quality[greater_than]4)-&gt;[excellentDesc] [excellentExtra] ﻪﻧﺇ</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)-&gt;[decentDesc] [decentExtra] ﻪﻧﺇ</li>
+    <li>writingQualitySentence(quality[less_than]2)-&gt;[awfulDesc] [awfulExtra] ﻪﻧﺇ</li>
+    <li>excellentDesc-&gt;ﺮﻋﺎﺸﻤﻟﺍ ﺐﻬﻠﺗ ﺓﺮﻴﺜﻣ ﺔﺼﻗ</li>
+    <li>excellentDesc-&gt;ﺔﻳﺮﺸﺒﻟﺍ ﺡﻭﺮﻠﻟ ﻞﻣﺄﺘﻣ ﻑﺎﺸﻜﺘﺳﺍ</li>
+    <li>excellentDesc-&gt;ﻢﻟﺎﻌﻟﺍ ﺪﻴﻘﻌﺗ ﻝﻮﺣ ﺔﻳﺅﺮﻟﺍ ﻖﻴﻤﻋ</li>
+    <li>excellentDesc-&gt;ﺮﻋﺎﺸﻤﻟﺎﺑ ﻲﻨﻏﻭ ﺔﺑﺎﺘﻜﻟﺍ ﻢﻜﺤﻣ</li>
+    <li>excellentDesc-&gt;ﻞﻴﺻﺃﻭ ﻉﺪﺒﻣ</li>
+    <li>excellentDesc-&gt;ﺓﺭﺎﻬﻤﺑ ﻉﻮﻨﺼﻣﻭ ﺢﻣﺎﺟ ﻞﻜﺸﺑ ﻞﻴﺻﺃ\nﺔﻘﺋﺎﻓ</li>
+    <li>excellentDesc-&gt;ﻦﻣ ﺔﺒﻳﺮﻘﻟﺍ ﺔﺑﺎﻋﺪﻟﺍ ﺡﻭﺮﺑ ﺀﻲﻠﻣ\nﺐﻠﻘﻟﺍ</li>
+    <li>excellentExtra-&gt;ﻞﻜﺸﺑ ﻖﻓﺪﺘﺗ ﺔﺼﻘﻟﺍ ﻦﻣ ﺔﻀﺒﻧ ﻞﻛ .\nﺔﻴﻟﺎﺘﻟﺍ ﻰﻟﺇ ﻲﻌﻴﺒﻃ</li>
+    <li>excellentExtra-&gt;ﺔﻟﻮﻬﺴﺑ ﻪﻛﺮﺗ ﻦﻜﻤﻳ ﻻ ﺏﺎﺘﻛ ﻪﻧﺇ .</li>
+    <li>excellentExtra-&gt;ﻰﻠﻋ ﺕﺍﺮﻣ ﺙﻼﺛ ﺉﺭﺎﻘﻟﺍ ﻞﻫﺬﻳ .\nﻞﻗﻷﺍ</li>
+    <li>excellentExtra-&gt;ﻦﻜﻟ ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺔﻜﺒﺤﻟﺍ ﺕﺎﺒﻠﻘﺗ .\nﺔﻴﻤﺘﺣ ﻭﺪﺒﺗ</li>
+    <li>excellentExtra-&gt;ﺱﺎﻧﺃ ﺎﻬﻧﺄﻛﻭ ﺕﺎﻴﺼﺨﺸﻟﺍ ﻭﺪﺒﺗ .\nﻥﻮﻴﻘﻴﻘﺣ</li>
+    <li>decentDesc-&gt;ﺎﻬﺑ ﺱﺄﺑ ﻻ ﺔﺼﻗ</li>
+    <li>decentDesc-&gt;ﺔﺑﺍﺬﺟﻭ ﺔﻗﻮﺸﻣ</li>
+    <li>decentDesc-&gt;ﺓﺮﻴﺜﻣ ﺓﺪﺣﺍﻭ ﺓﺮﻜﻓ ﻰﻠﻋ ﺓﺰﻛﺮﻣ\nﻡﺎﻤﺘﻫﻼﻟ</li>
+    <li>decentDesc-&gt;ﺮﺧﻵ ﺖﻗﻭ ﻦﻣ ﺎﻣ ﺎﻋﻮﻧ ﺔﻜﺤﻀﻣ</li>
+    <li>decentDesc-&gt;ﺀﺍﺰﺟﻷﺍ ﺾﻌﺑ ﻲﻓ ﺔﻗﻮﺸﻣ</li>
+    <li>decentDesc-&gt;ﺔﺒﻳﺮﻏﻭ ﺔﻠﻴﺻﺃ</li>
+    <li>decentDesc-&gt;ﺀﺍﺮﻘﻟﺍ ﻦﻣ ﻦﻴﻌﻣ ﻉﻮﻨﻟ ﺔﺑﺍﺬﺟ</li>
+    <li>decentExtra-&gt;ﺔﺤﺿﺍﻭ ﺔﻜﺒﺣ ﺕﺍﺮﻐﺛ ﺎﻬﺑ ﻦﻜﻟﻭ</li>
+    <li>decentExtra-&gt;ﻦﻣ ﺮﻴﺜﻛ ﻲﻓ ﺎﻬﺘﻌﺑﺎﺘﻣ ﺐﻌﺼﻳ ﻦﻜﻟﻭ\nﻥﺎﻴﺣﻷﺍ</li>
+    <li>decentExtra-&gt;ﺔﻳﺭﺍﺮﻤﺘﺳﻻﺍ ﺀﺎﻄﺧﺄﺑ ﺔﺌﻴﻠﻣ ﺎﻬﻨﻜﻟﻭ</li>
+    <li>decentExtra-&gt;ﺔﻘﻴﻤﻋ ﻒﻃﺍﻮﻋ ﻱﻷ ﺮﻘﺘﻔﺗ ﺎﻬﻨﻜﻟﻭ</li>
+    <li>decentExtra-&gt;ﺔﻴﻧﻮﺗﺭﺎﻛﻭ ﺔﻟﺬﺘﺒﻣ ﺕﺎﻴﺼﺨﺸﻟﺍ ﻦﻜﻟﻭ</li>
+    <li>decentExtra-&gt;ﺕﺎﻤﻠﻜﻟﺍ ﻡﺪﺨﺘﺴﻳ ﻒﻟﺆﻤﻟﺍ ﻦﻜﻟﻭ\nﺭﻮﻬﻈﻠﻟ ﺔﻟﻭﺎﺤﻣ ﻲﻓ ﻖﺋﻻ ﺮﻴﻏ ﻞﻜﺸﺑ\nﻲﻛﺬﻟﺍ ﺮﻬﻈﻤﺑ</li>
+    <li>decentExtra-&gt;ﻞﻤﻣﻭ ﻞﻴﺻﺃ ﺮﻴﻏ ﻢﻟﺎﻌﻟﺍ ﻦﻜﻟﻭ</li>
+    <li>decentExtra-&gt;ﻁﺮﻔﻣ ﻞﻜﺸﺑ ﺔﻘﻤﻨﻣ ﺔﺑﺎﺘﻜﻟﺍ ﻦﻜﻟﻭ</li>
+    <li>decentExtra-&gt;ﺮﻴﻏ ﺔﺼﻘﻟﺍ ﻊﻃﺎﻘﻣ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻜﻟﻭ\nﺔﻜﺒﺤﻟﺍ ﻡﺪﻘﺗ ﻻﻭ ﺔﻳﺭﻭﺮﺿ</li>
+    <li>awfulDesc-&gt;ﺍﺪﺟ ﺔﺑﺎﺘﻜﻟﺍ ﺀﻲﺳ</li>
+    <li>awfulDesc-&gt;ﻊﻴﻈﻓ ﻞﻜﺸﺑ ﺔﺌﻴﺳ ﻪﺘﺑﺎﺘﻛ</li>
+    <li>awfulDesc-&gt;ﺓﺀﺍﺮﻘﻟﺍ ﺐﻌﺻ</li>
+    <li>awfulDesc-&gt;ﺔﻌﺑﺎﺘﻤﻟﺍ ﺐﻌﺻ</li>
+    <li>awfulDesc-&gt;ﺔﻴﻨﻔﻟﺍ ﺔﻳﺅﺮﻟﺍ ﻰﻟﺇ ﺮﻘﺘﻔﻳ</li>
+    <li>awfulDesc-&gt;ﺕﺎﻴﺼﺨﺷﻭ ﺔﻜﺒﺤﻟﺍ ﺕﺍﺮﻐﺜﺑ ﺀﻲﻠﻣ\nﺔﻴﻄﻤﻧ</li>
+    <li>awfulDesc-&gt;ﻒﻟﺆﻤﻟﺍ ﻞﺜﻤﺗ ﺔﻴﺼﺨﺷ ﻪﻴﻠﻋ ﻦﻤﻴﻬﻳ\nﻪﺴﻔﻧ</li>
+    <li>awfulDesc-&gt;ﻞﻴﺻﺃ ﺮﻴﻏ ﻦﻜﻟ ﺐﻳﺮﻏ</li>
+    <li>awfulDesc-&gt;ﺍﺪﺟ ﺍﺪﺟ ﻞﻳﻮﻃ</li>
+    <li>awfulExtra-&gt;ﺔﻄﺑﺍﺮﺘﻣ ﺮﻴﻏ ﻪﺒﺷ ﺔﺑﺎﺘﻜﻟﺍﻭ</li>
+    <li>awfulExtra-&gt;ﺎﻬﺘﻌﺑﺎﺘﻣ ﺍﺪﺟ ﺐﻌﺼﻟﺍ ﻦﻣﻭ</li>
+    <li>awfulExtra-&gt;ﺔﻄﺑﺍﺮﺘﻣ ﺔﻜﺒﺣ ﻊﻴﻤﺠﺗ ﻲﻓ ﺢﺠﻨﻳ ﻻﻭ</li>
+    <li>awfulExtra-&gt;ﻭﺃ ﻉﻮﺿﻮﻤﻟﺎﺑ ﺱﺎﺴﺣﺇ ﻱﻷ ﺮﻘﺘﻔﻳﻭ\nﻰﻨﻌﻤﻟﺍ</li>
+    <li>awfulExtra-&gt;ﻰﻠﻋ ﺓﺮﻴﺜﻣ ﺭﺎﻜﻓﺃ ﻱﺃ ﻡﺪﻘﻳ ﻻﻭ\nﻕﻼﻃﻹﺍ</li>
+    <li>awfulExtra-&gt;ﺔﻠﻤﻣ ﺔﻴﺼﺨﺷ ﻞﻛﻭ</li>
+    <li>awfulExtra-&gt;ﺔﻠﺣﺮﻣ ﻱﺃ ﻲﻓ ﺩﺪﺤﻣ ﻞﻄﺑ ﺪﺟﻮﻳ ﻻﻭ</li>
+    <li>maybe_date-&gt;</li>
+    <li>maybe_date-&gt;.[date_form] ﺏﺎﺘﻜﻟﺍ ﺮﺸُﻧ</li>
+    <li>maybe_date-&gt;.[date_form] ﺓﺮﻣ ﻝﻭﻷ ﺺﻨﻟﺍ ﻊﺒُﻃ</li>
+    <li>maybe_date-&gt;ﺏﺎﺘﻜﻟﺍ ﺐﺘُﻛ ﻰﺘﻣ ﺢﺿﺍﻮﻟﺍ ﺮﻴﻏ ﻦﻣ\n.ﻂﺒﻀﻟﺎﺑ</li>
+    <li>date_form-&gt;ﺍﺮﺧﺆﻣ</li>
+    <li>date_form-&gt;ﺓﺪﻳﺪﻋ ﻥﻭﺮﻗ ﺬﻨﻣ</li>
+    <li>date_form-&gt;[date] ﻲﻓ</li>
+    <li>date_form-&gt;[date_season] ﻲﻓ</li>
+    <li>bookType(p=4)-&gt;ﺔﻳﺍﻭﺭ</li>
+    <li>bookType(p=2)-&gt;ﺓﺮﻴﺼﻗ ﺔﻳﺍﻭﺭ</li>
+    <li>bookType-&gt;ﺔﺼﻗ</li>
+    <li>bookType-&gt;ﺩﺮﺳ</li>
+    <li>bookType-&gt;ﺔﻴﺗﺍﺫ ﺓﺮﻴﺳ</li>
+    <li>bookType-&gt;ﺔﻴﻤﺤﻠﻣ ﺓﺪﻴﺼﻗ</li>
+</Description_Novel.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>subject->[subject_primary]</li>
+    <li>desc(p=3)->[maybe_intro][schematic_desc].</li>
+    <li>desc->[maybe_intro][schematic_desc].\n\n[maybe_medium][author_story]. [linkage][subject_consequence].</li>
+    <li>desc(p=2)->[maybe_medium][author_story]. [linkage][subject_primary_story]. [maybe_outro]</li>
+    <li>maybe_intro(p=6)-></li>
+    <li>maybe_intro->[appearance]. </li>
+    <li>maybe_intro->[subject_intro]. </li>
+    <li>maybe_subject_intro(p=6)-></li>
+    <li>maybe_subject_intro->[subject_intro]. </li>
+    <li>maybe_medium(p=6)-></li>
+    <li>maybe_medium->[medium]. </li>
+    <li>maybe_outro(p=5)-></li>
+    <li>maybe_outro->[aftermath]. </li>
+    <li>maybe_outro->[dates]. </li>
+    <li>maybe_outro->[appearance]. </li>
+    <li>maybe_physical_adjective-></li>
+    <li>maybe_physical_adjective->[physical_adjective] </li>
+    <li>maybe_date(p=3)-></li>
+    <li>maybe_date->[dates]</li>
+    <li>subject_intro->the [schematic_synonym] [shows_synonym_verb]s a [state_adjective] [diagram_type] about [subject]</li>
+    <li>subject_intro->in this [schematic_synonym], the [author] [shows_synonym_verb]s [ANYPAWN_possessive] [theory_synonym_adj] of [subject]</li>
+    <li>subject_intro->this [physical_adjective] [schematic_synonym] [contain_verb]s [schematic_synonym]s focused on [subject]</li>
+    <li>subject_intro->the [author] has employed [notable_adjective] [image_types] to communicate [ANYPAWN_possessive] [theory_synonym_adj] of [subject]</li>
+    <li>subject_intro->[device_synonym]s associated with [subject_primary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>
+    <li>subject_intro->the [schematic_synonym] [shows_synonym_verb]s a [state_adjective] [diagram_type] about [subject_primary] and [subject_secondary]</li>
+    <li>subject_intro->[device_synonym]s associated with [subject_primary] and [subject_secondary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>
+    <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
+    <li>schematic_desc_first->the ancient technology described here for [subject_primary_gerund] is [negative_adjective] compared to present systems</li>
+    <li>schematic_desc_first->this is only a fragment of a full [schematic_synonym] for [subject_primary_gerund] </li>
+    <li>schematic_desc_first->this [schematic_synonym] is [negative_adjective] in several places</li>
+    <li>schematic_desc_first->the [schematic_synonym] for [subject_primary_gerund] is incomplete</li>
+    <li>schematic_desc_first->[subject_primary_gerund] with these [schematic_synonym]s is complicated by contradictory annotations</li>
+    <li>schematic_desc_first->the author's [negative_adjective] understanding of [subject_primary_gerund] is apparent throughout</li>
+    <li>schematic_desc_first->part of the [schematic_synonym] has been torn away</li>
+    <li>schematic_desc_first->fire and soot have marred the paper</li>
+    <li>schematic_desc_first->the [schematic_synonym] for [subject_primary_gerund] is too [negative_adjective]</li>
+    <li>schematic_desc_first->the limited [other_subject] for [subject_primary_gerund] compromised this [schematic_synonym]</li>
+    <li>schematic_desc_first->imprecise details about [subject_primary_gerund] make implementing this [schematic_synonym] difficult</li>
+    <li>schematic_desc_first->this [negative_adjective] [schematic_synonym] sometimes causes errors when [subject_primary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_synonym] for [subject_primary_gerund] fails aesthetically</li>
+    <li>schematic_desc_first->a lack of imagination about [subject_primary_gerund] has limited this [schematic_synonym]</li>
+    <li>schematic_desc_first->this [schematic_container] provides many contradictory specifications for [subject_primary_gerund]</li>
+    <li>schematic_desc_first->disagreements over [other_subject] have left ambiguities in this [schematic_synonym] for [subject_primary_gerund]</li>
+    <li>schematic_desc_first->sloppy draftsmanship undermines the [author]'s meticulous plans for [subject_primary_gerund]</li>
+    <li>schematic_desc_first->worries about the [other_subject] for [subject_primary_gerund] limited this [schematic_synonym]</li>
+    <li>schematic_desc_first->this [schematic_synonym] for [subject_primary_gerund] has been copied repeatedly, obscuring its contents</li>
+    <li>schematic_desc_first->this [schematic_synonym] establishes no real connection between [subject_primary_gerund] and [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->[subject_primary_gerund] and [subject_secondary_gerund] are not easily paired</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_primary_gerund] and [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_tertiary_gerund] and [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_primary_gerund] and [subject_tertiary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on  [subject_primary_gerund], [subject_secondary_gerund] and [subject_tertiary_gerund]</li>
+    <li>schematic_desc_second(quality[less_than]2)->. This is frustrating for those learning the subject</li>
+    <li>schematic_desc_second(quality[less_than]2)->, making it valueless for most purposes</li>
+    <li>schematic_desc_second(quality[less_than]2)->, undermining the lessons that it communicates</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Only beginners will benefit from its lessons</li>
+    <li>schematic_desc_second(quality[less_than]2)->. A misleading schematic can be worse than having no schematic at all</li>
+    <li>schematic_desc_second(quality[less_than]2)->, rendering it of questionable utility</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, but the basics are present</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, but it still [contain_verb]s enough data to provide insights</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. However, this doesn't detract from its utility to experienced practitioners</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, though it still has some value to most students</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Beginners will still benefit from its teachings</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. However, only experts will notice the flaws</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Yet, the content is exceptional for the era</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, yet it conveys advanced concepts with ease</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, but it is still full of wisdom for all learners</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Despite this, every student will benefit from reading it, no matter how experienced</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, but the issues are minor compared to the wealth of knowledge it contains</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. However, the lessons it teaches are timeless</li>
+    <li>medium->An in-built sensory system [tells_verb]s to listeners [schematic_origin]</li>
+    <li>medium->Rolled inside is a sheaf of personal papers, [tells_verb]ing [schematic_origin]</li>
+    <li>medium->A sticker [tells_verb]s limited information about [schematic_origin]</li>
+    <li>medium->An included informational pamphlet [tells_verb]s [schematic_origin]</li>
+    <li>medium->Loose leaves of parchment [tells_verb] [schematic_origin]</li>
+    <li>medium->A second sheet of paper [tells_verb]s [schematic_origin]</li>
+    <li>medium->Inscribed stone tablets [tells_verb] [schematic_origin]</li>
+    <li>medium->A plasteel [schematic_container] is inscribed with [schematic_origin]</li>
+    <li>medium->A scrawled note falls out, which [tells_verb]s [schematic_origin]</li>
+    <li>medium->The rear of the document [tells_verb]s more about [schematic_origin]</li>
+    <li>medium->A recording plays, [tells_verb]ing [schematic_origin]</li>
+    <li>medium->[schematic_origin] would be a matter of conjecture, if not for notes on the document</li>
+    <li>medium(p=4)->[schematic_origin] is known but included in the document's notes</li>
+    <li>medium->An attached diary tells [schematic_origin]</li>
+    <li>medium->An archaic mechanism [tells_verb]s [schematic_origin]</li>
+    <li>medium->A miniature mechanoid whirrs into life, telling [schematic_origin]</li>
+    <li>tells_verb->tell</li>
+    <li>tells_verb->relay</li>
+    <li>tells_verb->recount</li>
+    <li>tells_verb->report</li>
+    <li>schematic_origin->the [notable_adjective] story of the schematic's creation</li>
+    <li>schematic_origin->how the author came to create the schematic</li>
+    <li>schematic_origin->the [notable_adjective] life of the schematic's author</li>
+    <li>schematic_origin->a story about this schematic's creation</li>
+    <li>schematic_origin->the origin of this [notable_adjective] diagram</li>
+    <li>schematic_origin->a [notable_adjective] tale about the author's life</li>
+    <li>schematic_origin->a rumor about why this [notable_adjective] document ended up on the Rim and who wrote it</li>
+    <li>author_story->[author_storyname][author_intent]</li>
+    <li>author_story->[author_storyname][learning_story]</li>
+    <li>author_story->[author_storyname][calltoadventure]</li>
+    <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
+    <li>author_storyname->the unnamed [authorTitle]</li>
+    <li>author_intent-> was hungry for knowledge about [subject] from a young age and questioned everyone in [ANYPAWN_possessive] hometown</li>
+    <li>author_intent-> dreamed of rejuvenating [subject], leading a scientific revolution on Kuhn[worldname]</li>
+    <li>author_intent-> made [subject] [ANYPAWN_possessive] life's work</li>
+    <li>author_intent-> shared [ANYPAWN_possessive] views on [subject] in a [physical_adjective] book, written [written_when]</li>
+    <li>author_intent-> knew of no calling finer than the study of [subject] and created this schematic [written_when]</li>
+    <li>author_intent-> happened across the secrets of [subject] in [ANYPAWN_possessive] mother's [physical_adjective] study</li>
+    <li>author_intent-> was severely ill as a child but used the time to study [subject]</li>
+    <li>author_intent-> wanted the world to know about [subject] and, [written_when], created this schematic</li>
+    <li>author_intent-> needed the galaxy to know about [subject]</li>
+    <li>author_intent-> was lured into a love of [subject] by a children's book series</li>
+    <li>author_intent-> never loved the study of [subject] but was obliged to do it</li>
+    <li>author_intent-> felt [subject] was [ANYPAWN_possessive] calling</li>
+    <li>learning_story-> traveled far and wide, seeking wisdom about [subject]</li>
+    <li>learning_story-> lived an identical day every day, working on [subject] in the cyclical cities of [midworld]</li>
+    <li>learning_story-> came up through a [subject]-focused slumschool on [urbworld]</li>
+    <li>learning_story-> graduated with honors in [subject] from the [worldname] Academy</li>
+    <li>learning_story-> taught [ANYPAWN_objective]self about [subject] on the feral world of [animalworld]</li>
+    <li>learning_story-> discovered a trove of lost schematics about [subject] in the ruins of [ruinworld]</li>
+    <li>learning_story-> traversed the blackened streets of [steamworld], chasing [subject] amidst the sootfall</li>
+    <li>learning_story-> somehow survived the toxin swamps of [toxicworld], where rumors spread of [subject] experts</li>
+    <li>learning_story-> scoured the melted suburbs of the glassed world of [glassworld], searching for knowledge of [subject]</li>
+    <li>learning_story-> orbited the transcendent sphere of [transcendentworld], learning of [subject] by intercepting comms traffic</li>
+    <li>learning_story-> went with the mules into the depths of [mineworld], listening to old miners tell stories of [subject] and learning its secrets</li>
+    <li>learning_story-> was an indentured [subject] expert on the coreworld of [coreworld]</li>
+    <li>learning_story-> owned the factories on the indworld of [indworld], indulging [ANYPAWN_possessive] love of [subject] whilst [ANYPAWN_possessive] workers slaved away</li>
+    <li>learning_story-> learned about [subject] incarcerated in Cellcity V on [prisonworld], forever protesting [ANYPAWN_possessive] innocence</li>
+    <li>learning_story-> pieced together this [subject] schematic in the hive-heaps of the trashworld [trashworld], collecting fragments discarded by idle glitterworld citizens</li>
+    <li>learning_story-> raised cloned apatovores on [dinoworld] and traded their meat for knowledge of [subject]</li>
+    <li>learning_story-> lived in the skyrippers of [urbworld], where knowledge of [subject] was common</li>
+    <li>learning_story-> was raised in the outer deadlands of [ruinworld], learning [subject] to survive</li>
+    <li>calltoadventure-> felt [ANYPAWN_possessive] life was stagnant. Then one day, [ANYPAWN_pronoun] found [subject]</li>
+    <li>calltoadventure-> was entrusted with starting a new colony, on [ANYPAWN_possessive] own, focused on [subject]</li>
+    <li>calltoadventure->'s older sibling passed away, leaving [ANYPAWN_objective] as the family [subject] specialist</li>
+    <li>calltoadventure-> learned of an abandoned Glitterworld colony that focused on [subject]</li>
+    <li>calltoadventure-> was on a solar cruiser when it was captured by [feudalworld] pirates. As a [subject] expert, they ransomed him for a high price</li>
+    <li>calltoadventure-> was blown off course to the deadworld of [deadworld], where [ANYPAWN_pronoun] learned about [subject]</li>
+    <li>calltoadventure-> discovered a data file about [subject] in a broken mechanoid and learned from it</li>
+    <li>calltoadventure-> followed a dirtmole down its burrow, where it taught [ANYPAWN_objective] about [subject]</li>
+    <li>calltoadventure-> was brought up by a [subject]-loving Yttakin clan on [iceworld]</li>
+    <li>calltoadventure-> was created by sanguophage cloners and found pleasure in [subject]</li>
+    <li>calltoadventure-> was raised on [warworld], escaping in a stolen cargo pod. The only reading for months was a [subject] manual</li>
+    <li>calltoadventure-> spent [ANYPAWN_possessive] lifetime travelling up through the layers of the shellworld [shellworld], chasing a malfunctioning [subject] mechanoid</li>
+    <li>calltoadventure-> escaped serfdom in the hamlets of [medievalworld] by stowing away on the starship of a trader who was an expert in [subject]</li>
+    <li>calltoadventure-> traveled to the rim and back, learning about [subject] on [rimworld]</li>
+    <li>calltoadventure-> sailed the seas of [oceanicworld], claiming to learn [subject] secrets from the living oceans themselves</li>
+    <li>calltoadventure-> was a zero-g scavenger across [worldname]'s asteroid belt, finding the secrets of [subject] on either [asteroid] A3 or [asteroid] 7DD</li>
+    <li>written_when-> the night before [ANYPAWN_possessive] execution</li>
+    <li>written_when-> in [ANYPAWN_possessive] early years</li>
+    <li>written_when-> during the Blue Period of [worldname]</li>
+    <li>written_when-> as part of [ANYPAWN_possessive] post-doctoral thesis</li>
+    <li>written_when-> in [ANYPAWN_possessive] wanderings across the rim</li>
+    <li>written_when-> in the ur-[worldname] clone facilities</li>
+    <li>written_when-> as the final part of the [notable_adjective] ka'[worldname] ritual</li>
+    <li>written_when-> idly, upon the back of a scrap of letter-scrip from [ANYPAWN_possessive] parents</li>
+    <li>written_when-> many years after they first conceived of it</li>
+    <li>written_when-> in [ANYPAWN_possessive] old age</li>
+    <li>written_when-> in the evenings, in time snatched from sleep</li>
+    <li>written_when-> when not caring for [ANYPAWN_possessive] children</li>
+    <li>written_when-> in a rush, on the way to the front</li>
+    <li>written_when-> at leisure, whilst sipping cooled drinks on [ANYPAWN_possessive] verandah</li>
+    <li>written_when-> at a young age, working alone while [ANYPAWN_possessive] peers played</li>
+    <li>subject_consequence(p=18)->[subject_primary_story]</li>
+    <li>subject_consequence->[digression]</li>
+    <li>digression->At one point, the story veers into a confusing discussion about [digression_subject]</li>
+    <li>digression->The schematic's narrative loses its way here, digressing into [digression_subject]</li>
+    <li>digression->the [author] has inserted a footnote here, about [digression_subject]</li>
+    <li>digression->It is unclear why the story turns to [digression_subject]</li>
+    <li>digression->It is a surprise that the schematic [contain_verb]s information about [digression_subject]</li>
+    <li>digression->The section on [digression_subject] is irrelevant</li>
+    <li>digression_subject->love and war</li>
+    <li>digression_subject->interminable, increasingly minor political distinctions</li>
+    <li>digression_subject->Glitterworld cuisine trends</li>
+    <li>digression_subject->the fashion markets of [animalworld] and [urbworld]</li>
+    <li>digression_subject->scurrilous gossip about the widespread use of love enhancers</li>
+    <li>digression_subject->the military dispositions of the [glitterworld] fleet a century earlier</li>
+    <li>digression_subject->the mysterious coreworld relationships with supermassive black holes</li>
+    <li>digression_subject->the deadworld of [deadworld] and rumors of its fate</li>
+    <li>digression_subject->the species variants on the dinosaur planet of [dinoworld]</li>
+    <li>digression_subject->[ANYPAWN_possessive] experience of feudalism on [feudalworld]</li>
+    <li>digression_subject->the lack of microbes in the fallen cities of [glassworld]</li>
+    <li>digression_subject->the short lives of the paupers of [indworld]</li>
+    <li>digression_subject->the adaptations of hi-ruin scavengers in the post [worldname]-war urbworlds</li>
+    <li>digression_subject->neutroamine barter in the rich skyrippers of [coreworld]</li>
+    <li>aftermath->The pages communicate nothing more of the [author]'s story</li>
+    <li>aftermath->A [note] in a different hand says that the [author] was last seen heading for [deathworld]</li>
+    <li>aftermath->Pages are torn out here</li>
+    <li>aftermath->The leaves are dotted with brown stains</li>
+    <li>aftermath->Despite [ANYPAWN_possessive] adventures, [ANYPAWN_pronoun] managed to create this schematic</li>
+    <li>aftermath->[ANYPAWN_pronoun] devoted [ANYPAWN_possessive] last years to this schematic</li>
+    <li>aftermath->Later, [ANYPAWN_pronoun] found peace in this work. [subject_chat]</li>
+    <li>aftermath->[ANYPAWN_possessive] story ends here, with a technical description of [ANYPAWN_possessive] work on [worldname]. [subject_chat]</li>
+    <li>subject_chat->the [author]'s work proves [ANYPAWN_objective] authoritative on [subject]</li>
+    <li>subject_chat->Few dispute the findings in this [subject] document</li>
+    <li>subject_chat->This document will be inspirational to anyone interested in [subject]</li>
+    <li>subject_chat->Though the diagrams are faded, the [author]'s lessons on [subject] are valuable</li>
+    <li>authorTitle->author</li>
+    <li>authorTitle->scribe</li>
+    <li>authorTitle->writer</li>
+    <li>linkage->this inspired [ANYPAWN_objective] and [ANYPAWN_pronoun] </li>
+    <li>linkage->this proved useful later when [ANYPAWN_pronoun] </li>
+    <li>linkage->using this knowledge, [ANYPAWN_pronoun] </li>
+    <li>linkage->[ANYPAWN_pronoun] found this useful when [ANYPAWN_pronoun] </li>
+    <li>linkage->that was why [ANYPAWN_pronoun] </li>
+    <li>linkage->on [worldname], [ANYPAWN_pronoun] used [ANYPAWN_possessive] insight and </li>
+    <li>linkage->to master it, [ANYPAWN_pronoun] traveled to [worldname] where [ANYPAWN_pronoun] </li>
+    <li>notable_adjective->famous</li>
+    <li>notable_adjective->obscure</li>
+    <li>notable_adjective->iconic</li>
+    <li>notable_adjective->classic</li>
+    <li>notable_adjective->common</li>
+    <li>notable_adjective->familiar</li>
+    <li>negative_adjective->rudimentary</li>
+    <li>negative_adjective->simplistic</li>
+    <li>negative_adjective->primitive</li>
+    <li>negative_adjective->mediocre</li>
+    <li>negative_adjective->inaccurate</li>
+    <li>negative_adjective->deficient</li>
+    <li>appearance(p=3)->[phys_desc]</li>
+    <li>appearance->[nonphys_desc]</li>
+    <li>phys_desc(quality[less_than]5,quality[greater_than]1)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]4)->[negative_physical_statement1]</li>
+    <li>phys_desc(quality[greater_than]3)->[positive_physical_statement1]</li>
+    <li>phys_desc(p=2)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]3)->this document [badsmells] of [stink]</li>
+    <li>phys_desc(quality[greater_than]4)->this document [smells] of [scent]</li>
+    <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
+    <li>nonphys_desc->[technical_nonphys_desc]</li>
+    <li>nonphys_desc->[academic_nonphys_desc]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] but [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] but [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] and [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. Also, [negative_physical_statement2]</li>
+    <li>negative_physical_statement->[negative_physical_statement1]</li>
+    <li>negative_physical_statement->[negative_physical_statement2]</li>
+    <li>negative_physical_statement1->jagged tears mar the calfskin cover</li>
+    <li>negative_physical_statement1->one of the [author]'s pupils signed the front leaf</li>
+    <li>negative_physical_statement1->a sour-tasting ichor coats it</li>
+    <li>negative_physical_statement2->the decayed cover sticks to the reader's hands</li>
+    <li>negative_physical_statement2->maggots have made their home beneath the foolscap and flies flutter out as the book is opened</li>
+    <li>negative_physical_statement2->the pages appear to be written on crumbling parchment</li>
+    <li>negative_physical_statement2->the pages are saturated with red ink</li>
+    <li>positive_physical_statement->[positive_physical_statement1]</li>
+    <li>positive_physical_statement->[positive_physical_statement2]</li>
+    <li>positive_physical_statement1->inside the pages are pristine</li>
+    <li>positive_physical_statement1->the pages are composed of a thin plasteel derivative</li>
+    <li>positive_physical_statement1->each page is made of a flexible, diamond-like structure</li>
+    <li>positive_physical_statement1->it is warm to the touch</li>
+    <li>positive_physical_statement2->it bears the kitemark of a respected coreworld publishing house - [coreworld] Schematics</li>
+    <li>positive_physical_statement2->the edges of the page are still un-cut</li>
+    <li>positive_physical_statement2->semi-precious plastics glisten on its surface</li>
+    <li>otherwordly_nonphys_desc->holding the [author]'s schematic, the room swims</li>
+    <li>otherwordly_nonphys_desc->just looking at the schematic hurts the reader's head</li>
+    <li>otherwordly_nonphys_desc->looking at the schematic, the runes seem to move in the corner of the reader's eye</li>
+    <li>otherwordly_nonphys_desc->whispers permeate the area around the [author]'s schematic</li>
+    <li>otherwordly_nonphys_desc->the [author]'s schematic bears the psychic imprint of something impossibly ancient</li>
+    <li>technical_nonphys_desc->the complexity of the schematic is beyond the average reader</li>
+    <li>technical_nonphys_desc->the notation is unusual, drawn from an extinct Impid dialect</li>
+    <li>technical_nonphys_desc->wires run through the pages of the schematic, though the device is nearly defunct</li>
+    <li>technical_nonphys_desc->the same mechanism is explained by the [author] in three different languages</li>
+    <li>academic_nonphys_desc->this schematic is dedicated to a genie tutor who inspired the [author]</li>
+    <li>academic_nonphys_desc->this document is marked with the crest of the institution which sponsored the [author]</li>
+    <li>badsmells->smells heavily</li>
+    <li>badsmells->has the stench</li>
+    <li>badsmells->smells weakly</li>
+    <li>badsmells->reeks</li>
+    <li>badsmells->stinks</li>
+    <li>stink->corpse slime</li>
+    <li>stink->brimstone and rotten eggs</li>
+    <li>stink->slow, ancient death</li>
+    <li>stink->something akin to Yttakin sweat</li>
+    <li>stink->Waster breath</li>
+    <li>stink->a Hussar locker room</li>
+    <li>smells->has a heady scent</li>
+    <li>smells->has an odor</li>
+    <li>smells->has a perfume</li>
+    <li>smells->has an aroma</li>
+    <li>scent->must, like the bottom of a grape barrel</li>
+    <li>scent->Highmate pheromones</li>
+    <li>scent->frankincense</li>
+    <li>scent->sandalwood</li>
+    <li>scent->sweet boomrat juice</li>
+    <li>scent->Glitterworld spice</li>
+    <li>scent->fresh Gauranlen seeds</li>
+    <li>conjunction->and </li>
+    <li>conjunction->but </li>
+    <li>conjunction->yet </li>
+    <li>conjunction->though </li>
+    <li>conjunction->besides </li>
+    <li>conjunction->. In addition,</li>
+    <li>author(p=4)->author</li>
+    <li>author(p=4)->writer</li>
+    <li>author->inventor</li>
+    <li>author->creator</li>
+    <li>author(p=2)->developer</li>
+    <li>author(p=4)->designer</li>
+    <li>author->engineer</li>
+    <li>author->artificer</li>
+    <li>author->boffin</li>
+    <li>author->specialist</li>
+    <li>author->technician</li>
+    <li>author->expert</li>
+    <li>author->craftsman</li>
+    <li>anAuthorDesc(p=2)->a</li>
+    <li>anAuthorDesc->a young</li>
+    <li>anAuthorDesc->an old</li>
+    <li>anAuthorDesc->a terrified</li>
+    <li>anAuthorDesc->a sorrowful</li>
+    <li>anAuthorDesc->an elderly</li>
+    <li>anAuthorDesc->a wise</li>
+    <li>anAuthorDesc->a headstrong</li>
+    <li>anAuthorDesc->a foolish</li>
+    <li>anAuthorDesc->an innocent</li>
+    <li>anAuthorDesc->a disturbed</li>
+    <li>anAuthorDesc->an eldritch</li>
+    <li>anAuthorDesc->an outrageous</li>
+    <li>anAuthorDesc->an archetypal</li>
+    <li>anAuthorDesc->a boring</li>
+    <li>anAuthorDesc->a crazed</li>
+    <li>anAuthorDesc->an immoral</li>
+    <li>anAuthorDesc->a moral</li>
+    <li>anAuthorDesc->an amoral</li>
+    <li>anAuthorDesc->a shadowy</li>
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorne</li>
+    <li>animalworld->Rhydell</li>
+    <li>animalworld->Zoutera</li>
+    <li>animalworld->Thylacine</li>
+    <li>animalworld->Jiai</li>
+    <li>animalworld->Steller's World</li>
+    <li>animalworld->Aukton</li>
+    <li>asteroid->Iwamura</li>
+    <li>asteroid->Atura</li>
+    <li>asteroid->Widdershins</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Aesh 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Aryn Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prime</li>
+    <li>coreworld->Glossolia</li>
+    <li>coreworld->Barbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Haspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Ardar</li>
+    <li>deadworld->Kremhild</li>
+    <li>deadworld->Melisandz</li>
+    <li>deathworld->Creticon</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Rayth</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->JNovahex</li>
+    <li>deathworld->Carthago</li>
+    <li>deathworld->Grimcore</li>
+    <li>dinoworld->Oubanyen</li>
+    <li>dinoworld->Zoutera</li>
+    <li>dinoworld->Einio</li>
+    <li>dinoworld->Baryonyx</li>
+    <li>dinoworld->N'cilo</li>
+    <li>dinoworld->Venator</li>
+    <li>dinoworld->Brach</li>
+    <li>feudalworld->Aracena VI</li>
+    <li>feudalworld->Nuchadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fieth</li>
+    <li>feudalworld->Bloch Regis</li>
+    <li>feudalworld->Carlosphere</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Thebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Shechem</li>
+    <li>glassworld->Yelhazor</li>
+    <li>glitterworld->Kalthas IV</li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda</li>
+    <li>glitterworld->Rogia</li>
+    <li>glitterworld->Utmaior</li>
+    <li>glitterworld->Caspian</li>
+    <li>glitterworld->Kenerella</li>
+    <li>iceworld->Yttak</li>
+    <li>iceworld->Dedchenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtwale</li>
+    <li>iceworld->Jaqua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Irithir</li>
+    <li>indworld->New China</li>
+    <li>indworld->Hudders</li>
+    <li>indworld->Iver</li>
+    <li>indworld->Achesta</li>
+    <li>indworld->Oods</li>
+    <li>indworld->Iladelf</li>
+    <li>medievalworld->Chelis</li>
+    <li>medievalworld->Vinna</li>
+    <li>medievalworld->Cassone</li>
+    <li>medievalworld->Jork</li>
+    <li>medievalworld->Cochmar</li>
+    <li>medievalworld->Alin</li>
+    <li>medievalworld->Dubrognago</li>
+    <li>midworld->Khalderia</li>
+    <li>midworld->Elsin</li>
+    <li>midworld->Haihan</li>
+    <li>midworld->Seolure</li>
+    <li>midworld->Panga</li>
+    <li>midworld->New London CXI </li>
+    <li>midworld->San Delenda</li>
+    <li>mineworld->Xanides</li>
+    <li>mineworld->Bingham</li>
+    <li>mineworld->Saarhi</li>
+    <li>mineworld->Grasbeg</li>
+    <li>mineworld->Chuqui</li>
+    <li>mineworld->Olimpia</li>
+    <li>mineworld->Orme</li>
+    <li>oceanicworld->Wavia</li>
+    <li>oceanicworld->Wadka</li>
+    <li>oceanicworld->Gichen</li>
+    <li>oceanicworld->Port Yam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Thonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Aldgate</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Hoalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Chateau D'Ouen</li>
+    <li>rimworld->Filson</li>
+    <li>rimworld->La Grand</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Twig Falls</li>
+    <li>rimworld->Old Boise</li>
+    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Earth</li>
+    <li>ruinworld->Ilwaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pichu</li>
+    <li>ruinworld->Perdida</li>
+    <li>ruinworld->Hisarlik</li>
+    <li>ruinworld->Helike</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Destria</li>
+    <li>shellworld->Trophic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xinthia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corliss</li>
+    <li>steamworld->Borassic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Heron</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Architonnerre</li>
+    <li>steamworld->Escapement</li>
+    <li>toxicworld->Scylla</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Oxy VI</li>
+    <li>toxicworld->Sangwine</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Imbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Immanence VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Einsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samydi</li>
+    <li>transcendentworld->Samsarr</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Reepsyk</li>
+    <li>trashworld->Mystras</li>
+    <li>urbworld->Euterpe</li>
+    <li>urbworld->Avenna</li>
+    <li>urbworld->Essalon</li>
+    <li>urbworld->Enike</li>
+    <li>urbworld->Adocia</li>
+    <li>urbworld->N'toch</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Kemia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samnium</li>
+    <li>warworld->Kyrus</li>
+    <li>warworld->Punica</li>
+    <li>warworld->Cimbria XII</li>
+    <li>warworld->Barkitos</li>
+    <li>schematic_container->manual</li>
+    <li>schematic_container->compendium</li>
+    <li>schematic_container->binder</li>
+    <li>schematic_container->folder</li>
+    <li>schematic_container->booklet</li>
+    <li>schematic_container->wrapping</li>
+    <li>schematic_container->holder</li>
+    <li>schematic_container->bundle</li>
+    <li>schematic_container->dossier</li>
+    <li>schematic_container->packet</li>
+    <li>schematic_container->case</li>
+    <li>schematic_container->container</li>
+    <li>physical_adjective->grubby</li>
+    <li>physical_adjective->tiny</li>
+    <li>physical_adjective->rough</li>
+    <li>physical_adjective->huge</li>
+    <li>physical_adjective->elegant</li>
+    <li>physical_adjective->simple</li>
+    <li>physical_adjective->new</li>
+    <li>physical_adjective->delicate</li>
+    <li>physical_adjective->ancient</li>
+    <li>physical_adjective->abandoned</li>
+    <li>physical_adjective->damaged</li>
+    <li>physical_adjective->worn</li>
+    <li>physical_adjective->warped</li>
+    <li>physical_adjective->archaic</li>
+    <li>physical_adjective->greasy</li>
+    <li>physical_adjective->warm</li>
+    <li>physical_adjective->lumpen</li>
+    <li>physical_adjective->wooden</li>
+    <li>physical_adjective->prickly</li>
+    <li>physical_adjective->singed</li>
+    <li>physical_adjective->smooth</li>
+    <li>physical_adjective->rustic</li>
+    <li>physical_adjective->functional</li>
+    <li>physical_adjective->obsolete</li>
+    <li>physical_adjective->puzzling</li>
+    <li>physical_adjective->precious</li>
+    <li>shows_synonym_verb->[shows_synonym_verb1]</li>
+    <li>shows_synonym_verb->[shows_synonym_verb2]</li>
+    <li>shows_synonym_verb1->depict</li>
+    <li>shows_synonym_verb1->portray</li>
+    <li>shows_synonym_verb1->present</li>
+    <li>shows_synonym_verb1->exhibit</li>
+    <li>shows_synonym_verb1->display</li>
+    <li>shows_synonym_verb2->show</li>
+    <li>shows_synonym_verb2->outline</li>
+    <li>shows_synonym_verb2->describe</li>
+    <li>contain_verb->contain</li>
+    <li>contain_verb->hold</li>
+    <li>contain_verb->bear</li>
+    <li>contain_verb->store</li>
+    <li>contain_verb->enclose</li>
+    <li>schematic_synonym->schematic</li>
+    <li>schematic_synonym->diagram</li>
+    <li>schematic_synonym->blueprint</li>
+    <li>schematic_synonym->design</li>
+    <li>schematic_synonym->prototype</li>
+    <li>schematic_synonym->product specification</li>
+    <li>schematic_synonym->instruction set</li>
+    <li>state_adjective->draft</li>
+    <li>state_adjective->finished</li>
+    <li>state_adjective->work-in-progress</li>
+    <li>state_adjective->complete</li>
+    <li>diagram_type->illustration</li>
+    <li>diagram_type->depiction</li>
+    <li>diagram_type->diagram</li>
+    <li>diagram_type->blueprint</li>
+    <li>diagram_type->infographic</li>
+    <li>diagram_type->schema</li>
+    <li>diagram_type->cutaway</li>
+    <li>diagram_type->graph</li>
+    <li>diagram_type->chart</li>
+    <li>theory_synonym_adj->theory</li>
+    <li>theory_synonym_adj->concept</li>
+    <li>theory_synonym_adj->notion</li>
+    <li>theory_synonym_adj->hypothesis</li>
+    <li>theory_synonym_adj->idea</li>
+    <li>device_synonym->mechanism</li>
+    <li>device_synonym->device</li>
+    <li>device_synonym->contrivance</li>
+    <li>device_synonym->invention</li>
+    <li>device_synonym->widget</li>
+    <li>device_synonym->creation</li>
+    <li>device_synonym->gadget</li>
+    <li>device_synonym->fixture</li>
+    <li>device_synonym->module</li>
+    <li>image_types->photographs</li>
+    <li>image_types->drawings</li>
+    <li>image_types->engravings</li>
+    <li>image_types->watercolors</li>
+    <li>image_types->blueprints</li>
+    <li>image_types->sketches</li>
+    <li>image_types->cartoons</li>
+    <li>other_subject->infrastructure</li>
+    <li>other_subject->personnel</li>
+    <li>other_subject->communication</li>
+    <li>other_subject->scope</li>
+    <li>other_subject->budget</li>
+    <li>other_subject->resources</li>
+    <li>dates->The schematic was published [date_form]</li>
+    <li>dates->The schematic was first printed [date_form]</li>
+    <li>dates->It's unclear exactly when the schematic was created</li>
+    <li>date_form->recently</li>
+    <li>date_form->many centuries ago</li>
+    <li>date_form->on the [date]</li>
+    <li>date_form->in [date_season]</li>
+  -->
+  <Description_Schematic.rulePack.rulesStrings>
+    <li>subject-&gt;[subject_primary]</li>
+    <li>desc(p=3)-&gt;[maybe_intro][schematic_desc].</li>
+    <li>desc-&gt;[maybe_intro][schematic_desc].\n\n[maybe_medium][author_story]. [linkage][subject_consequence].</li>
+    <li>desc(p=2)-&gt;[maybe_medium][author_story]. [linkage][subject_primary_story]. [maybe_outro]</li>
+    <li>maybe_intro(p=6)-&gt;</li>
+    <li>maybe_intro-&gt;[appearance].</li>
+    <li>maybe_intro-&gt;[subject_intro].</li>
+    <li>maybe_subject_intro(p=6)-&gt;</li>
+    <li>maybe_subject_intro-&gt;[subject_intro].</li>
+    <li>maybe_medium(p=6)-&gt;</li>
+    <li>maybe_medium-&gt;[medium].</li>
+    <li>maybe_outro(p=5)-&gt;</li>
+    <li>maybe_outro-&gt;[aftermath].</li>
+    <li>maybe_outro-&gt;[dates].</li>
+    <li>maybe_outro-&gt;[appearance].</li>
+    <li>maybe_physical_adjective-&gt;</li>
+    <li>maybe_physical_adjective-&gt;[physical_adjective]</li>
+    <li>maybe_date(p=3)-&gt;</li>
+    <li>maybe_date-&gt;[dates]</li>
+    <li>subject_intro-&gt;[subject] ﻝﻮﺣ [schematic_synonym] [shows_synonym_verb] [diagram_type] [state_adjective]ـﻟﺍ</li>
+    <li>subject_intro-&gt;[subject] ﻦﻋ [author] [shows_synonym_verb] [ANYPAWN_possessive] [theory_synonym_adj]ـﻟﺍ ،[schematic_synonym] ﺍﺬﻫ ﻲﻓ</li>
+    <li>subject_intro-&gt;[subject] ﻰﻠﻋ ﺰﻛﺮﺗ [physical_adjective] [contain_verb] [schematic_synonym]sـﻟﺍ [schematic_synonym]ـﻟﺍ ﺍﺬﻫ</li>
+    <li>subject_intro-&gt;[subject] ﻦﻋ [ANYPAWN_possessive] [theory_synonym_adj] ﻝﺎﺼﻳﻹ [author] [image_types] [notable_adjective]ـﻟﺍ ﻡﺪﺨﺘﺳﺍ</li>
+    <li>subject_intro-&gt;ﺍﺬﻫ ﻲﻓ [subject_primary] [shows_synonym_verb1]edـﺑ ﺔﻄﺒﺗﺮﻤﻟﺍ [device_synonym]s\n[maybe_physical_adjective]ـﻟﺍ [schematic_synonym]ـﻟﺍ</li>
+    <li>subject_intro-&gt;[subject_secondary]ﻭ [subject_primary] ﻝﻮﺣ [schematic_synonym] [shows_synonym_verb] [diagram_type] [state_adjective]ـﻟﺍ</li>
+    <li>subject_intro-&gt;ﺍﺬﻫ ﻲﻓ [subject_secondary] [shows_synonym_verb1]edﻭ [subject_primary]ـﺑ ﺔﻄﺒﺗﺮﻤﻟﺍ [device_synonym]s\n[maybe_physical_adjective]ـﻟﺍ [schematic_synonym]ـﻟﺍ</li>
+    <li>schematic_desc-&gt;[schematic_desc_first][schematic_desc_second]</li>
+    <li>schematic_desc_first-&gt;ﺎﻨﻫ ﺔﻓﻮﺻﻮﻤﻟﺍ ﺔﻤﻳﺪﻘﻟﺍ ﺔﻴﻨﻘﺘﻟﺍ\nﺔﻴﻟﺎﺤﻟﺍ ﺔﻤﻈﻧﻷﺎﺑ ﺔﻧﺭﺎﻘﻣ [subject_primary_gerund] [negative_adjective]ـﻟ</li>
+    <li>schematic_desc_first-&gt;[subject_primary_gerund]ـﻟ ﻞﻣﺎﻛ [schematic_synonym] ﻦﻣ ﺀﺰﺟ ﺩﺮﺠﻣ ﻩﺬﻫ</li>
+    <li>schematic_desc_first-&gt;ﻊﺿﺍﻮﻣ ﺓﺪﻋ ﻲﻓ [schematic_synonym] [negative_adjective]ـﻟﺍ ﺍﺬﻫ</li>
+    <li>schematic_desc_first-&gt;ﻞﻤﺘﻜﻣ ﺮﻴﻏ [subject_primary_gerund]ـﻟ [schematic_synonym]ـﻟﺍ</li>
+    <li>schematic_desc_first-&gt;ﺐﺒﺴﺑ ﺪﻘﻌﻣ [schematic_synonym]sـﻟﺍ ﻩﺬﻫ ﻊﻣ [subject_primary_gerund]\nﺔﻀﻗﺎﻨﺘﻣ ﺕﺎﻘﻴﻠﻌﺗ</li>
+    <li>schematic_desc_first-&gt;ﻞﻛ ﻲﻓ ﺢﺿﺍﻭ [subject_primary_gerund]ـﻟ [negative_adjective]ـﻟﺍ [author]ـﻟﺍ ﻢﻬﻓ\nﻥﺎﻜﻣ</li>
+    <li>schematic_desc_first-&gt;[schematic_synonym]ـﻟﺍ ﻦﻣ ﺀﺰﺟ ﻕﺰﻤﺗ</li>
+    <li>schematic_desc_first-&gt;ﺔﻗﺭﻮﻟﺍ ﻡﺎﺨﺴﻟﺍﻭ ﺭﺎﻨﻟﺍ ﺖﻫﻮﺷ</li>
+    <li>schematic_desc_first-&gt;ﺍﺪﺟ [subject_primary_gerund] [negative_adjective]ـﻟ [schematic_synonym]ـﻟﺍ</li>
+    <li>schematic_desc_first-&gt;[schematic_synonym]ـﻟﺍ ﺍﺬﻬﺑ ﺮﺿﺃ [subject_primary_gerund]ـﻟ ﺩﻭﺪﺤﻤﻟﺍ [other_subject]</li>
+    <li>schematic_desc_first-&gt;ﻞﻌﺠﺗ [subject_primary_gerund] ﻦﻋ ﺔﻘﻴﻗﺩ ﺮﻴﻏ ﻞﻴﺻﺎﻔﺗ\nﺎﺒﻌﺻ [schematic_synonym]ـﻟﺍ ﺍﺬﻫ ﻖﻴﺒﻄﺗ</li>
+    <li>schematic_desc_first-&gt;ﺀﺎﻄﺧﺃ ﺐﺒﺴﻳ [negative_adjective]ـﻟﺍ [schematic_synonym]ـﻟﺍ ﺍﺬﻫ\n[subject_primary_gerund] ﺪﻨﻋ ﺎﻧﺎﻴﺣﺃ</li>
+    <li>schematic_desc_first-&gt;ﺔﻴﺣﺎﻨﻟﺍ ﻦﻣ ﻞﺸﻔﻳ [subject_primary_gerund]ـﻟ [schematic_synonym]ـﻟﺍ ﺍﺬﻫ\nﺔﻴﻟﺎﻤﺠﻟﺍ</li>
+    <li>schematic_desc_first-&gt;ﺍﺬﻫ ﻦﻣ ﺪﺣ [subject_primary_gerund] ﻝﻮﺣ ﻝﺎﻴﺨﻟﺍ ﺺﻘﻧ\n[schematic_synonym]ـﻟﺍ</li>
+    <li>schematic_desc_first-&gt;ﺔﻀﻗﺎﻨﺘﻣ ﺕﺎﻔﺻﺍﻮﻣ [schematic_container]ـﻟﺍ ﻩﺬﻫ ﻡﺪﻘﺗ\n[subject_primary_gerund]ـﻟ ﺓﺮﻴﺜﻛ</li>
+    <li>schematic_desc_first-&gt;ﺍﺬﻫ ﻲﻓ ﺎﺿﻮﻤﻏ ﺖﻔﻠﺧ [other_subject] ﻝﻮﺣ ﺕﺎﻓﻼﺧ\n[subject_primary_gerund]ـﻟ [schematic_synonym]ـﻟﺍ</li>
+    <li>schematic_desc_first-&gt;[author]ـﻟﺍ ﻂﻄﺧ ﺽﻮﻘﻳ ﻞﻤﻬﻣ ﻲﻨﻘﺗ ﻢﺳﺭ\n[subject_primary_gerund]ـﻟ ﺔﻘﻴﻗﺪﻟﺍ</li>
+    <li>schematic_desc_first-&gt;ﺍﺬﻫ ﻦﻣ ﺕﺪﺣ [subject_primary_gerund]ـﻟ [other_subject] ﻥﺄﺸﺑ ﻑﻭﺎﺨﻣ\n[schematic_synonym]ـﻟﺍ</li>
+    <li>schematic_desc_first-&gt;ﺎﻤﻣ ﺍﺭﺍﺮﻣ ﺦﺴُﻧ [subject_primary_gerund]ـﻟ [schematic_synonym]ـﻟﺍ ﺍﺬﻫ\nﻪﺗﺎﻳﻮﺘﺤﻣ ﻰﻔﺧﺃ</li>
+    <li>schematic_desc_first-&gt;ﺎﻴﻘﻴﻘﺣ ﺎﻄﺑﺍﺭ ﺲﺳﺆﻳ ﻻ [schematic_synonym]ـﻟﺍ ﺍﺬﻫ\n[subject_secondary_gerund]ﻭ [subject_primary_gerund] ﻦﻴﺑ</li>
+    <li>schematic_desc_first-&gt;ﺎﻤﻬﻌﻤﺟ ﻞﻬﺴﻟﺍ ﻦﻣ ﺲﻴﻟ [subject_secondary_gerund]ﻭ [subject_primary_gerund]</li>
+    <li>schematic_desc_first-&gt;[subject_primary_gerund] ﻦﻣ ﻞﻜﻟ [schematic_synonym]s ﻰﻠﻋ ﻱﻮﺘﺤﺗ [schematic_container]ـﻟﺍ ﻩﺬﻫ\n[subject_secondary_gerund]ﻭ</li>
+    <li>schematic_desc_first-&gt;[subject_tertiary_gerund] ﻦﻣ ﻞﻜﻟ [schematic_synonym]s ﻰﻠﻋ ﻱﻮﺘﺤﺗ [schematic_container]ـﻟﺍ ﻩﺬﻫ\n[subject_secondary_gerund]ﻭ</li>
+    <li>schematic_desc_first-&gt;[subject_primary_gerund] ﻦﻣ ﻞﻜﻟ [schematic_synonym]s ﻰﻠﻋ ﻱﻮﺘﺤﺗ [schematic_container]ـﻟﺍ ﻩﺬﻫ\n[subject_tertiary_gerund]ﻭ</li>
+    <li>schematic_desc_first-&gt;[subject_secondary_gerund]ﻭ [subject_primary_gerund]ـﻟ [schematic_synonym]s ﻰﻠﻋ ﻱﻮﺘﺤﺗ [schematic_container]ـﻟﺍ ﻩﺬﻫ\n[subject_tertiary_gerund]ﻭ</li>
+    <li>schematic_desc_second(quality[less_than]2)-&gt;ﻉﻮﺿﻮﻤﻟﺍ ﻥﻮﻤﻠﻌﺘﻳ ﻦﻤﻟ ﻂﺒﺤﻣ ﺍﺬﻫ .</li>
+    <li>schematic_desc_second(quality[less_than]2)-&gt;ﺐﻠﻏﻷ ﺔﻤﻴﻗ ﻼﺑ ﻪﻠﻌﺠﻳ ﺎﻤﻣ ،\nﺽﺍﺮﻏﻷﺍ</li>
+    <li>schematic_desc_second(quality[less_than]2)-&gt;ﺎﻬﻠﻘﻨﻳ ﻲﺘﻟﺍ ﺱﻭﺭﺪﻟﺍ ﺎﺿﻮﻘﻣ ،</li>
+    <li>schematic_desc_second(quality[less_than]2)-&gt;ﻦﻣ ﻥﻭﺪﻴﻔﺘﺴﻴﺳ ﻥﻮﺋﺪﺘﺒﻤﻟﺍ ﻂﻘﻓ .\nﻪﺳﻭﺭﺩ</li>
+    <li>schematic_desc_second(quality[less_than]2)-&gt;ﻞﻠﻀﻤﻟﺍ ﻂﻄﺨﻤﻟﺍ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ .\nﻰﻠﻋ ﻂﻄﺨﻣ ﺩﻮﺟﻭ ﻡﺪﻋ ﻦﻣ ﺃﻮﺳﺃ\nﻕﻼﻃﻹﺍ</li>
+    <li>schematic_desc_second(quality[less_than]2)-&gt;ﻙﻮﻜﺸﻣ ﺓﺪﺋﺎﻓ ﺍﺫ ﻪﻠﻌﺠﻳ ﺎﻤﻣ ،\nﺎﻬﻴﻓ</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)-&gt;ﺓﺩﻮﺟﻮﻣ ﺕﺎﻴﺳﺎﺳﻷﺍ ﻦﻜﻟ ،</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)-&gt;ﺔﻴﻓﺎﻛ ﺕﺎﻧﺎﻴﺑ [contain_verb] ﻝﺍﺰﻳ ﻻ ﻪﻨﻜﻟ ،\nﻯﺅﺭ ﺀﺎﻄﻋﻹ</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)-&gt;ﻦﻣ ﺺﻘﺘﻨﻳ ﻻ ﺍﺬﻫ ،ﻚﻟﺫ ﻊﻣﻭ .\nﻦﻴﻣﺮﻀﺨﻤﻟﺍ ﻦﻴﺳﺭﺎﻤﻤﻠﻟ ﻪﺗﺪﺋﺎﻓ</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)-&gt;ﺔﻤﻴﻘﻟﺍ ﺾﻌﺑ ﻪﻟ ﻝﺍﺰﻳ ﻻ ﻪﻧﺃ ﻢﻏﺭ ،\nﻦﻴﺳﺭﺍﺪﻟﺍ ﺐﻠﻏﻷ</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)-&gt;ﻦﻣ ﻥﻭﺪﻴﻔﺘﺴﻳ ﻥﻮﺋﺪﺘﺒﻤﻟﺍ ﻞﻈﻴﺳ .\nﻪﻤﻴﻟﺎﻌﺗ</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)-&gt;ﻦﻣ ﻢﻫ ﻂﻘﻓ ﺀﺍﺮﺒﺨﻟﺍ ﻦﻜﻟ .\nﺏﻮﻴﻌﻟﺍ ﻥﻮﻈﺣﻼﻴﺳ</li>
+    <li>schematic_desc_second(quality[greater_than]4)-&gt;ﻲﺋﺎﻨﺜﺘﺳﺍ ﻯﻮﺘﺤﻤﻟﺍ ،ﻚﻟﺫ ﻊﻣﻭ .\nﺮﺼﻌﻠﻟ ﺔﺒﺴﻨﻟﺎﺑ</li>
+    <li>schematic_desc_second(quality[greater_than]4)-&gt;ﺔﻣﺪﻘﺘﻣ ﻢﻴﻫﺎﻔﻣ ﻞﻘﻨﻳ ﻚﻟﺫ ﻊﻣﻭ ،\nﺔﻟﻮﻬﺴﺑ</li>
+    <li>schematic_desc_second(quality[greater_than]4)-&gt;ﺔﻤﻜﺤﻟﺎﺑ ﺎﺌﻴﻠﻣ ﻝﺍﺰﻳ ﻻ ﻪﻨﻜﻟ ،\nﻦﻴﻤﻠﻌﺘﻤﻟﺍ ﻞﻜﻟ</li>
+    <li>schematic_desc_second(quality[greater_than]4)-&gt;ﻦﻣ ﺱﺭﺍﺩ ﻞﻛ ﺪﻴﻔﺘﺴﻴﺳ ،ﺍﺬﻫ ﻢﻏﺭ .\nﺍﺮﻴﺒﺧ ﻥﺎﻛ ﺎﻤﻬﻣ ،ﻪﺗﺀﺍﺮﻗ</li>
+    <li>schematic_desc_second(quality[greater_than]4)-&gt;ﺔﻧﺭﺎﻘﻣ ﺔﻔﻴﻔﻃ ﻞﻛﺎﺸﻤﻟﺍ ﻦﻜﻟ ،\nﺎﻬﻳﻮﺘﺤﻳ ﻲﺘﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ ﺓﻭﺮﺜﺑ</li>
+    <li>schematic_desc_second(quality[greater_than]4)-&gt;ﺎﻬﻤﻠﻌﻳ ﻲﺘﻟﺍ ﺱﻭﺭﺪﻟﺍ ،ﻚﻟﺫ ﻊﻣﻭ .\nﺓﺪﻟﺎﺧ</li>
+    <li>medium-&gt;[schematic_origin] ﻦﻴﻌﻤﺘﺴﻤﻠﻟ [tells_verb] ﺞﻣﺪﻣ ﻲﺴﺣ ﻡﺎﻈﻧ</li>
+    <li>medium-&gt;ﻕﺍﺭﻭﺃ ﺔﻣﺰﺣ ﻞﺧﺍﺪﻟﺎﺑ ﻑﻮﻔﻠﻣ\n[tells_verb] [schematic_origin] ،ﺔﻴﺼﺨﺷ</li>
+    <li>medium-&gt;[schematic_origin] ﻦﻋ ﺓﺩﻭﺪﺤﻣ ﺕﺎﻣﻮﻠﻌﻣ [tells_verb] ﻖﺼﻠﻣ</li>
+    <li>medium-&gt;[tells_verb] [schematic_origin] ﻖﻓﺮﻣ ﻲﺗﺎﻣﻮﻠﻌﻣ ﺐﻴﺘﻛ</li>
+    <li>medium-&gt;[tells_verb] [schematic_origin] ﺔﻠﺼﻔﻨﻣ ﻕﺭ ﻕﺍﺭﻭﺃ</li>
+    <li>medium-&gt;[tells_verb] [schematic_origin] ﺔﻴﻧﺎﺛ ﺔﻗﺭﻭ</li>
+    <li>medium-&gt;[tells_verb] [schematic_origin] ﺔﺷﻮﻘﻨﻣ ﺔﻳﺮﺠﺣ ﺡﺍﻮﻟﺃ</li>
+    <li>medium-&gt;[schematic_origin] ﻪﻴﻠﻋ ﺵﻮﻘﻨﻣ ﻞﻴﺘﺳﻼﺑ [schematic_container]</li>
+    <li>medium-&gt;[tells_verb] [schematic_origin] ،ﻞﺠﻋ ﻰﻠﻋ ﺔﺑﻮﺘﻜﻣ ﺔﻈﺣﻼﻣ ﻂﻘﺴﺗ</li>
+    <li>medium-&gt;[schematic_origin] ﻦﻋ ﺪﻳﺰﻤﻟﺍ [tells_verb] ﺔﻘﻴﺛﻮﻟﺍ ﺮﻬﻇ</li>
+    <li>medium-&gt;[tells_verb] [schematic_origin] ،ﻞﻴﺠﺴﺗ ﻞﻐﺘﺸﻳ</li>
+    <li>medium-&gt;،ﻦﻴﻤﺨﺗ ﺩﺮﺠﻣ [schematic_origin] ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﻥﺎﻛ\nﺔﻘﻴﺛﻮﻟﺍ ﻰﻠﻋ ﺕﺎﻈﺣﻼﻤﻟﺍ ﻻﻮﻟ</li>
+    <li>medium(p=4)-&gt;ﺕﺎﻈﺣﻼﻣ ﻲﻓ ﺝﺭﺪﻣ ﻪﻨﻜﻟ ﻑﻭﺮﻌﻣ [schematic_origin]\nﺔﻘﻴﺛﻮﻟﺍ</li>
+    <li>medium-&gt;[schematic_origin] ﻱﻭﺮﺗ ﺔﻘﻓﺮﻣ ﺕﺍﺮﻛﺬﻣ</li>
+    <li>medium-&gt;[tells_verb] [schematic_origin] ﺔﻘﻴﺘﻋ ﺔﻴﻟﺁ</li>
+    <li>medium-&gt;،ﻦﻴﻨﻄﻟﺍ ﻲﻓ ﺃﺪﺒﻳ ﺮﻴﻐﺻ ﺪﻳﻮﻧﺎﻜﻴﻣ\n[schematic_origin] ﺎﻳﻭﺍﺭ</li>
+    <li>tells_verb-&gt;ﻱﻭﺮﺗ</li>
+    <li>tells_verb-&gt;ﻞﻘﻨﺗ</li>
+    <li>tells_verb-&gt;ﺺﻘﺗ</li>
+    <li>tells_verb-&gt;ﻎﻠﺒﺗ</li>
+    <li>schematic_origin-&gt;ﻂﻄﺨﻤﻟﺍ ﺀﺎﺸﻧﻹ [notable_adjective]ـﻟﺍ ﺔﺼﻘﻟﺍ</li>
+    <li>schematic_origin-&gt;ﻂﻄﺨﻤﻟﺍ ﺀﺎﺸﻧﻹ ﻒﻟﺆﻤﻟﺍ ﻞﺻﻮﺗ ﻒﻴﻛ</li>
+    <li>schematic_origin-&gt;[notable_adjective]ـﻟﺍ [author]ـﻟﺍ ﺓﺎﻴﺣ</li>
+    <li>schematic_origin-&gt;ﻂﻄﺨﻤﻟﺍ ﺍﺬﻫ ﺀﺎﺸﻧﺇ ﻝﻮﺣ ﺔﺼﻗ</li>
+    <li>schematic_origin-&gt;[notable_adjective]ـﻟﺍ ﻲﻧﺎﻴﺒﻟﺍ ﻢﺳﺮﻟﺍ ﺍﺬﻫ ﻞﺻﺃ</li>
+    <li>schematic_origin-&gt;[author]ـﻟﺍ ﺓﺎﻴﺣ ﻦﻋ [notable_adjective] ﺔﻳﺎﻜﺣ</li>
+    <li>schematic_origin-&gt;ﻑﺎﻄﻤﻟﺍ ﻰﻬﺘﻧﺍ ﺍﺫﺎﻤﻟ ﻝﻮﺣ ﺔﻌﺋﺎﺷ\nﺔﻓﺎﺤﻟﺍ ﻰﻠﻋ [notable_adjective]ـﻟﺍ ﺔﻘﻴﺛﻮﻟﺍ ﻩﺬﻬﺑ\nﺎﻬﺒﺘﻛ ﻦﻣﻭ</li>
+    <li>author_story-&gt;[author_storyname][author_intent]</li>
+    <li>author_story-&gt;[author_storyname][learning_story]</li>
+    <li>author_story-&gt;[author_storyname][calltoadventure]</li>
+    <li>author_storyname(p=3)-&gt;[ANYPAWN_nameFull]</li>
+    <li>author_storyname-&gt;ﻝﻮﻬﺠﻤﻟﺍ [authorTitle]ـﻟﺍ</li>
+    <li>author_intent-&gt;ﺬﻨﻣ [subject] ﻝﻮﺣ ﺔﻓﺮﻌﻤﻠﻟ ﺎﺸﻄﻌﺘﻣ ﻥﺎﻛ\nﻂﻘﺴﻣ ﻲﻓ ﻊﻴﻤﺠﻟﺍ ﻝﺄﺳﻭ ﺓﺮﻜﺒﻣ ﻦﺳ\n[ANYPAWN_possessive] ﺱﺃﺭ</li>
+    <li>author_intent-&gt;ﺔﻴﻤﻠﻋ ﺓﺭﻮﺛ ﺍﺪﺋﺎﻗ ،[subject] ﺪﻳﺪﺠﺘﺑ ﻢﻠﺣ\n[worldname] ﻰﻠﻋ</li>
+    <li>author_intent-&gt;ﻪﺗﺎﻴﺣ [ANYPAWN_possessive] ﻞﻤﻋ [subject] ﻞﻌﺟ</li>
+    <li>author_intent-&gt;،[physical_adjective] ﺏﺎﺘﻛ ﻲﻓ [subject] ﻝﻮﺣ ﻩﺀﺍﺭﺁ [ANYPAWN_possessive] ﻙﺭﺎﺷ\n[written_when] ﺐﺘﻛ</li>
+    <li>author_intent-&gt;[subject] ﺔﺳﺍﺭﺩ ﻦﻣ ﻞﺒﻧﺃ ﺀﺍﺪﻧ ﻑﺮﻌﻳ ﻢﻟ\n[written_when] ﻂﻄﺨﻤﻟﺍ ﺍﺬﻫ ﺄﺸﻧﺃﻭ</li>
+    <li>author_intent-&gt;ﺓﺪﻟﺍﻭ ﺔﺳﺍﺭﺩ ﻲﻓ [subject] ﺭﺍﺮﺳﺃ ﻰﻠﻋ ﺮﺜﻋ\n[physical_adjective]ـﻟﺍ [ANYPAWN_possessive]</li>
+    <li>author_intent-&gt;ﻪﻨﻜﻟ ﻞﻔﻃ ﻮﻫﻭ ﺍﺪﺟ ﺎﻀﻳﺮﻣ ﻥﺎﻛ\n[subject] ﺔﺳﺍﺭﺩ ﻲﻓ ﺖﻗﻮﻟﺍ ﻞﻐﺘﺳﺍ</li>
+    <li>author_intent-&gt;،[written_when] ،ﻭ [subject] ﻦﻋ ﻑﺮﻌﻳ ﻥﺃ ﻢﻟﺎﻌﻠﻟ ﺩﺍﺭﺃ\nﻂﻄﺨﻤﻟﺍ ﺍﺬﻫ ﺄﺸﻧﺃ</li>
+    <li>author_intent-&gt;[subject] ﻦﻋ ﺓﺮﺠﻤﻟﺍ ﻑﺮﻌﺗ ﻥﺃ ﺝﺎﺘﺣﺍ</li>
+    <li>author_intent-&gt;ﺔﻠﺴﻠﺳ ﻝﻼﺧ ﻦﻣ [subject] ﺐﺤﺑ ﻩﺅﺍﺮﻏﺇ ﻢﺗ\nﻝﺎﻔﻃﺃ ﺐﺘﻛ</li>
+    <li>author_intent-&gt;ﻥﺎﻛ ﻪﻨﻜﻟ [subject] ﺔﺳﺍﺭﺩ ﺍﺪﺑﺃ ﺐﺤﻳ ﻢﻟ\nﺎﻬﻠﻌﻓ ﻰﻠﻋ ﺍﺮﺒﺠﻣ</li>
+    <li>author_intent-&gt;[ANYPAWN_possessive] ﺀﺍﺪﻧ ﺖﻧﺎﻛ [subject] ﻥﺃ ﺮﻌﺷ</li>
+    <li>learning_story-&gt;،ﻊﺳﺍﻭ ﻕﺎﻄﻧ ﻰﻠﻋﻭ ﺍﺪﻴﻌﺑ ﺮﻓﺎﺳ\n[subject] ﻝﻮﺣ ﺔﻤﻜﺣ ﻦﻋ ﺎﺜﺣﺎﺑ</li>
+    <li>learning_story-&gt;ﻼﻣﺎﻋ ،ﻡﻮﻳ ﻞﻛ ﺎﻘﺑﺎﻄﺘﻣ ﺎﻣﻮﻳ ﺵﺎﻋ\n[midworld]ـﻟ ﺔﻳﺭﻭﺪﻟﺍ ﻥﺪﻤﻟﺍ ﻲﻓ [subject] ﻰﻠﻋ</li>
+    <li>learning_story-&gt;ﺓﺮﻴﻘﻓ ﺀﺎﻴﺣﺃ ﺔﺳﺭﺪﻣ ﻲﻓ ﻉﺮﻋﺮﺗ\n[urbworld] ﻲﻓ [subject] ﻰﻠﻋ ﺓﺰﻛﺮﻣ</li>
+    <li>learning_story-&gt;ﺔﻴﻤﻳﺩﺎﻛﺃ ﻦﻣ [subject] ﻲﻓ ﺯﺎﻴﺘﻣﺎﺑ ﺝﺮﺨﺗ\n[worldname]</li>
+    <li>learning_story-&gt;ﻢﻟﺎﻌﻟﺍ ﻰﻠﻋ [subject] ﻦﻋ ﻪﺴﻔﻧ [ANYPAWN_objective] ﻢّﻠﻋ\n[animalworld] ﻲﺸﺣﻮﻟﺍ</li>
+    <li>learning_story-&gt;ﺕﺎﻄﻄﺨﻤﻟﺍ ﻦﻣ ﺍﺰﻨﻛ ﻒﺸﺘﻛﺍ\n[ruinworld] ﻝﻼﻃﺃ ﻲﻓ [subject] ﻝﻮﺣ ﺓﺩﻮﻘﻔﻤﻟﺍ</li>
+    <li>learning_story-&gt;،[steamworld]ـﻟ ﺓﺩﻮﺴﻤﻟﺍ ﻉﺭﺍﻮﺸﻟﺍ ﺏﺎﺟ\nﻡﺎﺨﺴﻟﺍ ﻝﻮﻄﻫ ﻂﺳﻭ [subject] ﺍﺩﺭﺎﻄﻣ</li>
+    <li>learning_story-&gt;ﺕﺎﻌﻘﻨﺘﺴﻣ ﻦﻣ ﺎﻣ ﺔﻘﻳﺮﻄﺑ ﺎﺠﻧ\nﺕﺎﻌﺋﺎﺷ ﺕﺮﺸﺘﻧﺍ ﺚﻴﺣ ،[toxicworld]ـﻟ ﻡﻮﻤﺴﻟﺍ\n[subject] ﺀﺍﺮﺒﺧ ﻦﻋ</li>
+    <li>learning_story-&gt;[glassworld] ﻢﻟﺎﻌﻟ ﺔﺒﺋﺍﺬﻟﺍ ﻲﺣﺍﻮﻀﻟﺍ ﺏﺎﺟ\n[subject] ﺔﻓﺮﻌﻣ ﻦﻋ ﺎﺜﺣﺎﺑ ،ﺞﺟﺰﻤﻟﺍ</li>
+    <li>learning_story-&gt;،[transcendentworld]ـﻟ ﺔﻴﻣﺎﺴﺘﻤﻟﺍ ﺓﺮﻜﻟﺍ ﻝﻮﺣ ﺭﺍﺩ\nﺔﻛﺮﺣ ﺽﺍﺮﺘﻋﺎﺑ [subject] ﻦﻋ ﺎﻤﻠﻌﺘﻣ\nﺕﻻﺎﺼﺗﻻﺍ</li>
+    <li>learning_story-&gt;،[mineworld] ﻕﺎﻤﻋﺃ ﻰﻟﺇ ﻝﺎﻐﺒﻟﺍ ﻊﻣ ﺐﻫﺫ\nﻰﻣﺍﺪﻘﻟﺍ ﻢﺟﺎﻨﻤﻟﺍ ﻝﺎﻤﻌﻟ ﺎﺘﺼﻨﻣ\nﻢﻠﻌﺘﻳﻭ [subject] ﻦﻋ ﺎﺼﺼﻗ ﻥﻭﻭﺮﻳ ﻢﻫﻭ\nﻩﺭﺍﺮﺳﺃ</li>
+    <li>learning_story-&gt;ﻰﻠﻋ [subject] ﻲﻓ ﺍﺪﻗﺎﻌﺘﻣ ﺍﺮﻴﺒﺧ ﻥﺎﻛ\n[coreworld] ﺐﻠﻟﺍ ﻢﻟﺎﻋ</li>
+    <li>learning_story-&gt;ﻢﻟﺎﻌﻟﺍ ﻰﻠﻋ ﻊﻧﺎﺼﻤﻟﺍ ﻚﻠﺘﻣﺍ\n[subject]ـﻟ [ANYPAWN_possessive] ﺐﺣ ﻲﻓ ﺎﺴﻤﻐﻨﻣ ،[indworld] ﻲﻋﺎﻨﺼﻟﺍ\nﻥﻮﺣﺪﻜﻳ [ANYPAWN_possessive] ﻝﺎﻤﻋ ﺎﻤﻨﻴﺑ</li>
+    <li>learning_story-&gt;ﺔﻴﻠﺨﻟﺍ ﻦﺠﺳ ﻲﻓ ﺎﻧﻮﺠﺴﻣ [subject] ﻦﻋ ﻢﻠﻌﺗ\nﺪﺑﻷﺍ ﻰﻟﺇ ﺎﺠﺘﺤﻣ ،[prisonworld] ﻰﻠﻋ ﺲﻣﺎﺨﻟﺍ\n[ANYPAWN_possessive] ﺓﺀﺍﺮﺑ ﻰﻠﻋ</li>
+    <li>learning_story-&gt;ﻲﻓ [subject] ﻦﻋ ﻂﻄﺨﻤﻟﺍ ﺍﺬﻫ ﺀﺍﺰﺟﺃ ﻊﻤﺟ\n،[trashworld] ﺕﺎﻳﺎﻔﻨﻟﺍ ﻢﻟﺎﻋ ﺎﻳﻼﺧ ﻡﺍﻮﻛﺃ\nﻮﻨﻃﺍﻮﻣ ﺎﻫﺬﺒﻧ ﺎﻳﺎﻈﺷ ﺎﻌﻣﺎﺟ\nﻥﻮﻠﻃﺎﻌﻟﺍ ﺔﻗﺍﺮﺒﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ</li>
+    <li>learning_story-&gt;[dinoworld] ﻰﻠﻋ ﺔﺨﺴﻨﺘﺴﻣ ﺕﺍﺭﻮﻓﻮﺗﺎﺑﺃ ﻰﺑﺭ\n[subject] ﺔﻓﺮﻌﻤﺑ ﺎﻬﻤﺤﻟ ﺾﻳﺎﻗﻭ</li>
+    <li>learning_story-&gt;ﺚﻴﺣ ،[urbworld]ـﻟ ﺀﺎﻤﺴﻟﺍ ﻲﻗﺰﻤﻣ ﻲﻓ ﺵﺎﻋ\nﺔﻌﺋﺎﺷ [subject] ﺔﻓﺮﻌﻣ ﺖﻧﺎﻛ</li>
+    <li>learning_story-&gt;ﺔﻴﺟﺭﺎﺨﻟﺍ ﺔﺘﻴﻤﻟﺍ ﻲﺿﺍﺭﻷﺍ ﻲﻓ ﻰﺑﺮﺗ\nﺀﺎﻘﺒﻠﻟ [subject] ﺎﻤﻠﻌﺘﻣ ،[ruinworld]ـﻟ</li>
+    <li>calltoadventure-&gt;ﺕﺍﺫ ﻢﺛ .ﺓﺪﻛﺍﺭ [ANYPAWN_possessive] ﺓﺎﻴﺣ ﻥﺃ ﺮﻌﺷ\n[ANYPAWN_pronoun] [subject] ﺪﺟﻭ ،ﻡﻮﻳ</li>
+    <li>calltoadventure-&gt;،ﺓﺪﻳﺪﺟ ﺓﺮﻤﻌﺘﺴﻣ ﺲﻴﺳﺄﺗ ﻪﻴﻟﺇ ﻞﻛﻭﺃ\n[subject] ﻰﻠﻋ ﺓﺰﻛﺮﻣ ،ﻩﺩﺮﻔﻤﺑ</li>
+    <li>calltoadventure-&gt;ﻩﺎﻳﺇ ﺎﻛﺭﺎﺗ ،ﺮﺒﻛﻷﺍ [ANYPAWN_possessive] ﻖﻴﻘﺷ ﻲﻓﻮﺗ\nﺔﻠﺋﺎﻌﻠﻟ [subject] ﺺﺼﺨﺘﻤﻛ</li>
+    <li>calltoadventure-&gt;ﺓﺭﻮﺠﻬﻣ ﻕﺍﺮﺑ ﻢﻟﺎﻋ ﺓﺮﻤﻌﺘﺴﻤﺑ ﻢﻠﻋ\n[subject] ﻰﻠﻋ ﺕﺰﻛﺭ</li>
+    <li>calltoadventure-&gt;ﺎﻣﺪﻨﻋ ﻲﺴﻤﺷ ﺩﺍﺮﻃ ﻦﺘﻣ ﻰﻠﻋ ﻥﺎﻛ\n،[subject] ﺮﻴﺒﺨﻛ .[feudalworld] ﺔﻨﺻﺍﺮﻗ ﻪﻔﻄﺘﺧﺍ\nﻪﺣﺍﺮﺳ ﻕﻼﻃﻹ ﺔﻴﻟﺎﻋ ﺔﻳﺪﻔﺑ ﺍﻮﺒﻟﺎﻃ</li>
+    <li>calltoadventure-&gt;ﺕﻮﻤﻟﺍ ﻢﻟﺎﻋ ﻰﻟﺇ ﻩﺭﺎﺴﻣ ﻦﻋ ﻑﺮﺤﻧﺍ\n[subject] ﻦﻋ [ANYPAWN_pronoun] ﻢﻠﻌﺗ ﺚﻴﺣ ،[deadworld]</li>
+    <li>calltoadventure-&gt;ﻲﻓ [subject] ﻦﻋ ﺕﺎﻧﺎﻴﺑ ﻒﻠﻣ ﻒﺸﺘﻛﺍ\nﻪﻨﻣ ﻢﻠﻌﺗﻭ ﻢﻄﺤﻣ ﺪﻳﻮﻧﺎﻜﻴﻣ</li>
+    <li>calltoadventure-&gt;ﺚﻴﺣ ،ﻩﺮﺤﺟ ﻰﻟﺇ ﻲﺑﺍﺮﺗ ﺫﺮﺟ ﻊﺒﺗ\n[subject] ﻦﻋ ﻪﻤﻠﻋ</li>
+    <li>calltoadventure-&gt;ﺔﺒﺤﻣ ﻦﻴﻛﺎﻄﻳ ﺓﺮﻴﺸﻋ ﺪﻳ ﻰﻠﻋ ﻰﺑﺮﺗ\n[iceworld] ﻰﻠﻋ [subject]ـﻟ</li>
+    <li>calltoadventure-&gt;ﺝﺎﻓﻮﻐﻧﺎﺳ ﻲﺨﺴﻨﺘﺴﻣ ﺔﻄﺳﺍﻮﺑ ﻖﻠُﺧ\n[subject] ﻲﻓ ﺔﻌﺘﻣ ﺪﺟﻭﻭ</li>
+    <li>calltoadventure-&gt;ﺔﻟﻮﺴﺒﻛ ﻲﻓ ﺎﺑﺭﺎﻫ ،[warworld] ﻰﻠﻋ ﻰﺑﺮﺗ\nﺓﺀﺍﺮﻘﻟﺍ ﺖﻧﺎﻛ .ﺔﻗﻭﺮﺴﻣ ﻦﺤﺷ\n[subject] ﻞﻴﻟﺩ ﻲﻫ ﺮﻬﺷﻷ ﺓﺪﻴﺣﻮﻟﺍ</li>
+    <li>calltoadventure-&gt;ﺮﺒﻋ ﺍﺩﻮﻌﺻ ﺍﺮﻓﺎﺴﻣ ﻪﺗﺎﻴﺣ [ANYPAWN_possessive] ﻰﻀﻗ\nﺍﺩﺭﺎﻄﻣ ،[shellworld] ﻲﻓﺪﺼﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺕﺎﻘﺒﻃ\nﻼﻄﻌﻣ [subject] ﺪﻳﻮﻧﺎﻜﻴﻣ</li>
+    <li>calltoadventure-&gt;[medievalworld] ﻯﺮﻗ ﻲﻓ ﺔﻳﺩﻮﺒﻌﻟﺍ ﻦﻣ ﺏﺮﻫ\nﻡﻮﺠﻧ ﺔﻨﻴﻔﺳ ﻦﺘﻣ ﻰﻠﻋ ﺎﺌﺒﺘﺨﻣ\n[subject] ﻲﻓ ﺍﺮﻴﺒﺧ ﻥﺎﻛ ﺮﺟﺎﺘﻟ</li>
+    <li>calltoadventure-&gt;ﺎﻤﻠﻌﺘﻣ ،ﺩﺎﻋﻭ ﺔﻓﺎﺤﻟﺍ ﻰﻟﺇ ﺮﻓﺎﺳ\n[rimworld] ﻰﻠﻋ [subject] ﻦﻋ</li>
+    <li>calltoadventure-&gt;ﻢﻠﻌﺗ ﺎﻴﻋﺪﻣ ،[oceanicworld] ﺭﺎﺤﺑ ﻲﻓ ﺮﺤﺑﺃ\nﺔﻴﺤﻟﺍ ﺕﺎﻄﻴﺤﻤﻟﺍ ﻦﻣ [subject] ﺭﺍﺮﺳﺃ\nﺎﻬﺴﻔﻧ</li>
+    <li>calltoadventure-&gt;ﺔﻴﺑﺫﺎﺠﻟﺍ ﻡﺍﺪﻌﻧﺍ ﻲﻓ ﻻﺎﺑﺯ ﻥﺎﻛ\nﺎﻴﻗﻻ ،[worldname]ـﻟ ﺕﺎﺒﻜﻳﻮﻜﻟﺍ ﻡﺍﺰﺣ ﺮﺒﻋ\n[asteroid] 7DD ﻭﺃ [asteroid] A3 ﺎﻣﺇ ﻰﻠﻋ [subject] ﺭﺍﺮﺳﺃ</li>
+    <li>written_when-&gt;[ANYPAWN_possessive] ﻡﺍﺪﻋﺇ ﺖﻘﺒﺳ ﻲﺘﻟﺍ ﺔﻠﻴﻠﻟﺍ</li>
+    <li>written_when-&gt;ﺓﺮﻜﺒﻤﻟﺍ [ANYPAWN_possessive] ﺕﺍﻮﻨﺳ ﻲﻓ</li>
+    <li>written_when-&gt;[worldname]ـﻟ ﺀﺎﻗﺭﺰﻟﺍ ﺓﺮﺘﻔﻟﺍ ﺀﺎﻨﺛﺃ</li>
+    <li>written_when-&gt;ﺪﻌﺑ ﺎﻤﻟ [ANYPAWN_possessive] ﺔﺣﻭﺮﻃﺃ ﻦﻣ ﺀﺰﺠﻛ\nﻩﺍﺭﻮﺘﻛﺪﻟﺍ</li>
+    <li>written_when-&gt;ﺔﻓﺎﺤﻟﺍ ﺮﺒﻋ [ANYPAWN_possessive] ﻝﺎﺣﺮﺗ ﻲﻓ</li>
+    <li>written_when-&gt;[worldname]ـﻟ ﻡﻷﺍ ﺥﺎﺴﻨﺘﺳﻻﺍ ﻖﻓﺍﺮﻣ ﻲﻓ</li>
+    <li>written_when-&gt;[notable_adjective]ـﻟﺍ [worldname]'ﺎﻛ ﺱﻮﻘﻃ ﻦﻣ ﺮﻴﺧﺃ ﺀﺰﺠﻛ</li>
+    <li>written_when-&gt;ﺔﻗﺭﻭ ﻦﻣ ﺔﺻﺎﺼﻗ ﺮﻬﻇ ﻰﻠﻋ ،ﻞﺳﺎﻜﺘﺑ\n[ANYPAWN_possessive] ﻱﺪﻟﺍﻭ ﻦﻣ ﺔﻟﺎﺳﺭ</li>
+    <li>written_when-&gt;ﺎﻫﺭﻮﺼﺗ ﻥﺃ ﻦﻣ ﺓﺪﻳﺪﻋ ﺕﺍﻮﻨﺳ ﺪﻌﺑ\nﺓﺮﻣ ﻝﻭﻷ</li>
+    <li>written_when-&gt;[ANYPAWN_possessive] ﺔﺧﻮﺨﻴﺷ ﻲﻓ</li>
+    <li>written_when-&gt;ﻦﻣ ﺲﻠﺘﺨﻣ ﺖﻗﻭ ﻲﻓ ،ﺕﺎﻴﺴﻣﻷﺍ ﻲﻓ\nﻡﻮﻨﻟﺍ</li>
+    <li>written_when-&gt;[ANYPAWN_possessive] ﻝﺎﻔﻃﺃ ﺔﻳﺎﻋﺭ ﻲﻓ ﻥﻮﻜﻳ ﻻ ﺎﻣﺪﻨﻋ</li>
+    <li>written_when-&gt;ﺔﻬﺒﺠﻟﺍ ﻰﻟﺇ ﻖﻳﺮﻄﻟﺍ ﻲﻓ ،ﻞﺠﻋ ﻰﻠﻋ</li>
+    <li>written_when-&gt;ﺕﺎﺑﻭﺮﺸﻣ ﻲﺴﺘﺤﻳ ﺎﻤﻨﻴﺑ ،ﺔﺣﺍﺮﺑ\n[ANYPAWN_possessive] ﺔﻓﺮﺷ ﻰﻠﻋ ﺔﺠﻠﺜﻣ</li>
+    <li>written_when-&gt;ﺎﻤﻨﻴﺑ ﻩﺪﺣﻭ ﻼﻣﺎﻋ ،ﺓﺮﻜﺒﻣ ﻦﺳ ﻲﻓ\nﻥﻮﺒﻌﻠﻳ [ANYPAWN_possessive] ﻥﺍﺮﻗﺃ</li>
+    <li>subject_consequence(p=18)-&gt;[subject_primary_story]</li>
+    <li>subject_consequence-&gt;[digression]</li>
+    <li>digression-&gt;ﻰﻟﺇ ﺔﺼﻘﻟﺍ ﻑﺮﺤﻨﺗ ،ﺎﻣ ﺔﻠﺣﺮﻣ ﻲﻓ\n[digression_subject] ﻝﻮﺣ ﻚﺑﺮﻣ ﺵﺎﻘﻧ</li>
+    <li>digression-&gt;،ﺎﻨﻫ ﻪﻘﻳﺮﻃ ﺪﻘﻔﻳ ﻂﻄﺨﻤﻟﺍ ﺩﺮﺳ\n[digression_subject] ﻰﻟﺇ ﺎﻓﺮﺤﻨﻣ</li>
+    <li>digression-&gt;[digression_subject] ﻝﻮﺣ ،ﺎﻨﻫ ﺔﻴﺷﺎﺣ ﺝﺭﺩﺃ [author]ـﻟﺍ</li>
+    <li>digression-&gt;ﻝﻮﺤﺘﺗ ﺍﺫﺎﻤﻟ ﺢﺿﺍﻮﻟﺍ ﺮﻴﻏ ﻦﻣ\n[digression_subject] ﻰﻟﺇ ﺔﺼﻘﻟﺍ</li>
+    <li>digression-&gt;[contain_verb] ﻂﻄﺨﻤﻟﺍ ﻥﺃ ﺓﺄﺟﺎﻔﻣ ﺎﻬﻧﺇ\n[digression_subject] ﻦﻋ ﺕﺎﻣﻮﻠﻌﻣ</li>
+    <li>digression-&gt;ﺔﻠﺻ ﻱﺫ ﺮﻴﻏ [digression_subject]ـﺑ ﻖﻠﻌﺘﻤﻟﺍ ﻢﺴﻘﻟﺍ</li>
+    <li>digression_subject-&gt;ﺏﺮﺤﻟﺍﻭ ﺐﺤﻟﺍ</li>
+    <li>digression_subject-&gt;ﺔﻴﺋﺎﻬﻧ ﻻ ﺔﻴﺳﺎﻴﺳ ﺕﺍﺰﻴﻴﻤﺗ\nﺔﻫﺎﻔﺘﻟﺍ ﺓﺪﻳﺍﺰﺘﻣﻭ</li>
+    <li>digression_subject-&gt;ﻢﻟﺍﻮﻌﻟﺍ ﻲﻓ ﺦﺒﻄﻤﻟﺍ ﺕﺎﻫﺎﺠﺗﺍ\nﺔﻗﺍﺮﺒﻟﺍ</li>
+    <li>digression_subject-&gt;[urbworld]ﻭ [animalworld] ﻲﻓ ﺔﺿﻮﻤﻟﺍ ﻕﺍﻮﺳﺃ</li>
+    <li>digression_subject-&gt;ﻡﺍﺪﺨﺘﺳﻻﺍ ﻝﻮﺣ ﺔﺤﺿﺎﻓ ﺔﻤﻴﻤﻧ\nﺐﺤﻟﺍ ﺕﺎﻨﺴﺤﻤﻟ ﻊﺳﺍﻮﻟﺍ</li>
+    <li>digression_subject-&gt;ﻞﺒﻗ [glitterworld] ﻝﻮﻄﺳﻷ ﺔﻳﺮﻜﺴﻌﻟﺍ ﺕﺎﻌﺿﻮﻤﺘﻟﺍ\nﻥﺮﻗ</li>
+    <li>digression_subject-&gt;ﻊﻣ ﺐﻠﻟﺍ ﻢﻟﺍﻮﻌﻟ ﺔﻀﻣﺎﻐﻟﺍ ﺕﺎﻗﻼﻌﻟﺍ\nﺔﻠﺘﻜﻟﺍ ﺔﻘﺋﺎﻓ ﺀﺍﺩﻮﺴﻟﺍ ﺏﻮﻘﺜﻟﺍ</li>
+    <li>digression_subject-&gt;ﻝﻮﺣ ﺕﺎﻋﺎﺷﻹﺍﻭ [deadworld] ﺕﻮﻤﻟﺍ ﻢﻟﺎﻋ\nﻩﺮﻴﺼﻣ</li>
+    <li>digression_subject-&gt;ﺐﻛﻮﻛ ﻰﻠﻋ ﻉﺍﻮﻧﻷﺍ ﺕﺎﻋﻮﻨﺗ\n[dinoworld] ﺕﺍﺭﻮﺻﺎﻨﻳﺪﻟﺍ</li>
+    <li>digression_subject-&gt;[feudalworld] ﻰﻠﻋ ﻉﺎﻄﻗﻹﺍ ﻊﻣ [ANYPAWN_possessive] ﺔﺑﺮﺠﺗ</li>
+    <li>digression_subject-&gt;[glassworld] ﻥﺪﻣ ﻲﻓ ﺕﺎﺑﻭﺮﻜﻴﻤﻟﺍ ﺏﺎﻴﻏ\nﺔﻄﻗﺎﺴﻟﺍ</li>
+    <li>digression_subject-&gt;[indworld] ﺀﺍﺮﻘﻔﻟ ﺓﺮﻴﺼﻘﻟﺍ ﺭﺎﻤﻋﻷﺍ</li>
+    <li>digression_subject-&gt;ﺔﻘﺋﺎﻔﻟﺍ ﺐﺋﺍﺮﺨﻟﺍ ﻲﺸﺑﺎﻧ ﺕﺎﻔﻴﻜﺗ\n[worldname] ﺏﺮﺣ ﺪﻌﺑ ﺎﻣ ﻥﺪﻤﻟﺍ ﻢﻟﺍﻮﻋ ﻲﻓ</li>
+    <li>digression_subject-&gt;ﻲﻗﺰﻤﻣ ﻲﻓ ﻦﻴﻣﺍﻭﺮﺘﻴﻨﻟﺍ ﺔﻀﻳﺎﻘﻣ\n[coreworld]ـﻟ ﺀﺎﻴﻨﻏﻷﺍ ﺀﺎﻤﺴﻟﺍ</li>
+    <li>aftermath-&gt;ﺔﺼﻗ ﻦﻋ ﺮﺧﺁ ﺎﺌﻴﺷ ﺕﺎﺤﻔﺼﻟﺍ ﻞﻘﻨﺗ ﻻ\n[author]ـﻟﺍ</li>
+    <li>aftermath-&gt;[author]ـﻟﺍ ﻥﺇ ﻝﻮﻘﻳ ﻒﻠﺘﺨﻣ ﺪﻳ ﻂﺨﺑ [note]\n[deathworld] ﻰﻟﺇ ﺎﻬﺠﺘﻣ ﺓﺮﻣ ﺮﺧﺁ ﺪﻫﻮﺷ</li>
+    <li>aftermath-&gt;ﺎﻨﻫ ﺔﻗﺰﻤﻣ ﺕﺎﺤﻔﺻ</li>
+    <li>aftermath-&gt;ﺔﻴﻨﺑ ﻊﻘﺒﺑ ﺔﻄﻘﻨﻣ ﻕﺍﺭﻭﻷﺍ</li>
+    <li>aftermath-&gt;ﺀﺎﺸﻧﺇ ﻦﻣ [ANYPAWN_pronoun] ﻦﻜﻤﺗ ،[ANYPAWN_possessive] ﺕﺍﺮﻣﺎﻐﻣ ﻢﻏﺭ\nﻂﻄﺨﻤﻟﺍ ﺍﺬﻫ</li>
+    <li>aftermath-&gt;ﺍﺬﻬﻟ ﺓﺮﻴﺧﻷﺍ ﻪﺗﺍﻮﻨﺳ [ANYPAWN_pronoun] ﺱﺮﻛ\nﻂﻄﺨﻤﻟﺍ</li>
+    <li>aftermath-&gt;.ﻞﻤﻌﻟﺍ ﺍﺬﻫ ﻲﻓ ﺎﻣﻼﺳ [ANYPAWN_pronoun] ﺪﺟﻭ ،ﺎﻘﺣﻻ\n[subject_chat]</li>
+    <li>aftermath-&gt;ﻲﻨﻘﺗ ﻒﺻﻮﺑ ،ﺎﻨﻫ [ANYPAWN_possessive] ﺔﺼﻗ ﻲﻬﺘﻨﺗ\n[worldname]. [subject_chat] ﻰﻠﻋ ﻪﻠﻤﻌﻟ</li>
+    <li>subject_chat-&gt;[subject] ﻲﻓ ﻕﻮﺛﻮﻣ ﻪﻧﺃ [author]ـﻟﺍ ﻞﻤﻋ ﺖﺒﺜﻳ</li>
+    <li>subject_chat-&gt;ﻲﻓ ﺞﺋﺎﺘﻨﻟﺍ ﻰﻠﻋ ﻥﻮﺿﺮﺘﻌﻳ ﻥﻮﻠﻴﻠﻗ\nﻩﺬﻫ [subject] ﺔﻘﻴﺛﻭ</li>
+    <li>subject_chat-&gt;ﺺﺨﺷ ﻱﻷ ﺔﻤﻬﻠﻣ ﺔﻘﻴﺛﻮﻟﺍ ﻩﺬﻫ ﻥﻮﻜﺘﺳ\n[subject]ـﺑ ﻢﺘﻬﻣ</li>
+    <li>subject_chat-&gt;،ﺔﺘﻫﺎﺑ ﺔﻴﻧﺎﻴﺒﻟﺍ ﻡﻮﺳﺮﻟﺍ ﻥﺃ ﻢﻏﺭ\nﺔﻤّﻴﻗ [subject] ﻦﻋ [author]ـﻟﺍ ﺱﻭﺭﺩ ﻥﺈﻓ</li>
+    <li>authorTitle-&gt;ﻒﻟﺆﻣ</li>
+    <li>authorTitle-&gt;ﺦﺳﺎﻧ</li>
+    <li>authorTitle-&gt;ﺐﺗﺎﻛ</li>
+    <li>linkage-&gt;[ANYPAWN_pronoun]ﻭ [ANYPAWN_objective] ﻢﻬﻟﺃ ﺍﺬﻫ</li>
+    <li>linkage-&gt;[ANYPAWN_pronoun] ﺎﻣﺪﻨﻋ ﺎﻘﺣﻻ ﻪﺗﺪﺋﺎﻓ ﺍﺬﻫ ﺖﺒﺛﺃ</li>
+    <li>linkage-&gt;[ANYPAWN_pronoun] ،ﺔﻓﺮﻌﻤﻟﺍ ﻩﺬﻫ ﻡﺍﺪﺨﺘﺳﺎﺑ</li>
+    <li>linkage-&gt;[ANYPAWN_pronoun] ﺎﻣﺪﻨﻋ ﺍﺪﻴﻔﻣ ﺍﺬﻫ [ANYPAWN_pronoun] ﺪﺟﻭ</li>
+    <li>linkage-&gt;[ANYPAWN_pronoun] ﺐﺒﺴﻟﺍ ﺍﺬﻬﻟ</li>
+    <li>linkage-&gt;ﻭ ﻪﺗﺮﻴﺼﺑ [ANYPAWN_pronoun] ﻡﺪﺨﺘﺳﺍ ،[worldname] ﻰﻠﻋ</li>
+    <li>linkage-&gt;[ANYPAWN_pronoun] ﺚﻴﺣ [worldname] ﻰﻟﺇ [ANYPAWN_pronoun] ﺮﻓﺎﺳ ،ﻪﻧﺎﻘﺗﻹ</li>
+    <li>notable_adjective-&gt;ﺭﻮﻬﺸﻣ</li>
+    <li>notable_adjective-&gt;ﺾﻣﺎﻏ</li>
+    <li>notable_adjective-&gt;ﻲﻧﻮﻘﻳﺃ</li>
+    <li>notable_adjective-&gt;ﻲﻜﻴﺳﻼﻛ</li>
+    <li>notable_adjective-&gt;ﻊﺋﺎﺷ</li>
+    <li>notable_adjective-&gt;ﻑﻮﻟﺄﻣ</li>
+    <li>negative_adjective-&gt;ﻲﺋﺍﺪﺑ</li>
+    <li>negative_adjective-&gt;ﻂﺴﺒﻣ</li>
+    <li>negative_adjective-&gt;ﻲﺋﺍﺪﺑ</li>
+    <li>negative_adjective-&gt;ﻊﺿﺍﻮﺘﻣ</li>
+    <li>negative_adjective-&gt;ﻖﻴﻗﺩ ﺮﻴﻏ</li>
+    <li>negative_adjective-&gt;ﺺﻗﺎﻧ</li>
+    <li>appearance(p=3)-&gt;[phys_desc]</li>
+    <li>appearance-&gt;[nonphys_desc]</li>
+    <li>phys_desc(quality[less_than]5,quality[greater_than]1)-&gt;[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]4)-&gt;[negative_physical_statement1]</li>
+    <li>phys_desc(quality[greater_than]3)-&gt;[positive_physical_statement1]</li>
+    <li>phys_desc(p=2)-&gt;[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]3)-&gt;[stink] ﺔﺤﺋﺍﺮﺑ [badsmells] ﺔﻘﻴﺛﻮﻟﺍ ﻩﺬﻫ</li>
+    <li>phys_desc(quality[greater_than]4)-&gt;[scent] ﺔﺤﺋﺍﺮﺑ [smells] ﺔﻘﻴﺛﻮﻟﺍ ﻩﺬﻫ</li>
+    <li>nonphys_desc-&gt;[otherwordly_nonphys_desc]</li>
+    <li>nonphys_desc-&gt;[technical_nonphys_desc]</li>
+    <li>nonphys_desc-&gt;[academic_nonphys_desc]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)-&gt;[positive_physical_statement2] ﻦﻜﻟ [negative_physical_statement1]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)-&gt;[negative_physical_statement2] ﻦﻜﻟ [positive_physical_statement1]</li>
+    <li>physical_yet_statement(quality[greater_than]4)-&gt;[positive_physical_statement2]ﻭ [positive_physical_statement1]</li>
+    <li>physical_yet_statement(quality[less_than]2)-&gt;[negative_physical_statement2] ،ﺎﻀﻳﺃ .[negative_physical_statement1]</li>
+    <li>negative_physical_statement-&gt;[negative_physical_statement1]</li>
+    <li>negative_physical_statement-&gt;[negative_physical_statement2]</li>
+    <li>negative_physical_statement1-&gt;ﻞﺠﻌﻟﺍ ﺪﻠﺟ ﻑﻼﻏ ﻩﻮﺸﺗ ﺔﻨﺸﺧ ﺕﺎﻗﺰﻤﺗ</li>
+    <li>negative_physical_statement1-&gt;ﺔﺤﻔﺼﻟﺍ ﻰﻠﻋ [author]ـﻟﺍ ﺬﻴﻣﻼﺗ ﺪﺣﺃ ﻊﻗﻭ\nﻰﻟﻭﻷﺍ</li>
+    <li>negative_physical_statement1-&gt;ﻢﻌﻄﻟﺍ ﺓﺮﻣ ﺀﺍﺮﻔﺻ ﺓﺩﺎﻣ ﺎﻫﻮﺴﻜﺗ</li>
+    <li>negative_physical_statement2-&gt;ﻱﺪﻴﺑ ﻖﺼﺘﻠﻳ ﻞﻠﺤﺘﻤﻟﺍ ﻑﻼﻐﻟﺍ\nﺉﺭﺎﻘﻟﺍ</li>
+    <li>negative_physical_statement2-&gt;ﺏﺎﺑﺫﻭ ،ﻕﺭﻮﻟﺍ ﺖﺤﺗ ﻪﺘﻴﺑ ﻞﻌﺟ ﺩﻭﺩ\nﺏﺎﺘﻜﻟﺍ ﺢﺘﻔﻳ ﻦﻴﺣ ﺝﺭﺎﺨﻠﻟ ﻑﺮﻓﺮﻳ</li>
+    <li>negative_physical_statement2-&gt;ﻕﺭ ﻰﻠﻋ ﺔﺑﻮﺘﻜﻣ ﺕﺎﺤﻔﺼﻟﺍ ﻭﺪﺒﺗ\nﺖﺘﻔﺘﻣ</li>
+    <li>negative_physical_statement2-&gt;ﺮﻤﺣﺃ ﺮﺒﺤﺑ ﺔﻌﺒﺸﻣ ﺕﺎﺤﻔﺼﻟﺍ</li>
+    <li>positive_physical_statement-&gt;[positive_physical_statement1]</li>
+    <li>positive_physical_statement-&gt;[positive_physical_statement2]</li>
+    <li>positive_physical_statement1-&gt;ﺔﻴﻘﻧ ﻞﺧﺍﺪﻟﺍ ﻦﻣ ﺕﺎﺤﻔﺼﻟﺍ</li>
+    <li>positive_physical_statement1-&gt;ﻞﻴﺘﺳﻼﺑ ﻖﺘﺸﻣ ﻦﻣ ﺔﻋﻮﻨﺼﻣ ﺕﺎﺤﻔﺼﻟﺍ\nﻖﻴﻗﺭ</li>
+    <li>positive_physical_statement1-&gt;ﻥﺮﻣ ﻞﻜﻴﻫ ﻦﻣ ﺔﻋﻮﻨﺼﻣ ﺔﺤﻔﺻ ﻞﻛ\nﺱﺎﻤﻟﻷﺎﺑ ﻪﻴﺒﺷ</li>
+    <li>positive_physical_statement1-&gt;ﺲﻤﻠﻟﺍ ﺪﻨﻋ ﺔﺌﻓﺍﺩ</li>
+    <li>positive_physical_statement2-&gt;ﺮﺸﻧ ﺭﺍﺪﻟ ﺓﺩﻮﺠﻟﺍ ﺔﻣﻼﻋ ﻞﻤﺤﺗ\nSchematics [coreworld] - ﺔﻣﺮﺘﺤﻣ ﺐﻟ ﻢﻟﺍﻮﻋ</li>
+    <li>positive_physical_statement2-&gt;ﺔﻋﻮﻄﻘﻣ ﺮﻴﻏ ﻝﺍﺰﺗ ﻻ ﺕﺎﺤﻔﺼﻟﺍ ﻑﺍﻮﺣ</li>
+    <li>positive_physical_statement2-&gt;ﻰﻠﻋ ﻊﻤﻠﺗ ﺔﻤﻳﺮﻛ ﻪﺒﺷ ﺕﺎﻜﻴﺘﺳﻼﺑ\nﻪﺤﻄﺳ</li>
+    <li>otherwordly_nonphys_desc-&gt;ﺢﺒﺴﺗ ،[author]ـﻟﺍ ﻂﻄﺨﻣ ﻙﺎﺴﻣﺇ ﺪﻨﻋ\nﺔﻓﺮﻐﻟﺍ</li>
+    <li>otherwordly_nonphys_desc-&gt;ﺱﺃﺭ ﻢﻟﺆﻳ ﻂﻄﺨﻤﻟﺍ ﻰﻟﺇ ﺮﻈﻨﻟﺍ ﺩﺮﺠﻣ\nﺉﺭﺎﻘﻟﺍ</li>
+    <li>otherwordly_nonphys_desc-&gt;ﻭﺪﺒﺗ ،ﻂﻄﺨﻤﻟﺍ ﻰﻟﺇ ﺮﻈﻨﻟﺎﺑ\nﻑﺮﻃ ﻲﻓ ﻙﺮﺤﺘﺗ ﺎﻬﻧﺄﻛﻭ ﺔﻴﻧﻭﺮﻟﺍ\nﺉﺭﺎﻘﻟﺍ ﻦﻴﻋ</li>
+    <li>otherwordly_nonphys_desc-&gt;ﻝﻮﺣ ﺔﻘﻄﻨﻤﻟﺍ ﻞﻠﺨﺘﺗ ﺕﺎﺴﻤﻫ ﺲﻤﻬﺗ\n[author]ـﻟﺍ ﻂﻄﺨﻣ</li>
+    <li>otherwordly_nonphys_desc-&gt;ﺔﻴﺴﻔﻨﻟﺍ ﺔﻤﺼﺒﻟﺍ [author]ـﻟﺍ ﻂﻄﺨﻣ ﻞﻤﺤﻳ\nﻞﻴﺤﺘﺴﻣ ﻞﻜﺸﺑ ﻢﻳﺪﻗ ﺀﻲﺸﻟ</li>
+    <li>technical_nonphys_desc-&gt;ﺉﺭﺎﻘﻟﺍ ﺯﻭﺎﺠﺘﻳ ﻂﻄﺨﻤﻟﺍ ﺪﻴﻘﻌﺗ\nﻱﺩﺎﻌﻟﺍ</li>
+    <li>technical_nonphys_desc-&gt;ﻦﻣ ﺪﻤﺘﺴﻣ ،ﻱﺩﺎﻴﺘﻋﺍ ﺮﻴﻏ ﺰﻴﻣﺮﺘﻟﺍ\nﺔﺿﺮﻘﻨﻣ ﺪﻴﺒﻣﺇ ﺔﺠﻬﻟ</li>
+    <li>technical_nonphys_desc-&gt;ﻢﻏﺭ ،ﻂﻄﺨﻤﻟﺍ ﺕﺎﺤﻔﺻ ﺮﺒﻋ ﺮﻤﺗ ﻙﻼﺳﺃ\nﻞﻄﻌﻣ ﻪﺒﺷ ﺯﺎﻬﺠﻟﺍ ﻥﺃ</li>
+    <li>technical_nonphys_desc-&gt;[author]ـﻟﺍ ﻞﺒﻗ ﻦﻣ ﺔﺣﻭﺮﺸﻣ ﺔﻴﻟﻵﺍ ﺲﻔﻧ\nﺔﻔﻠﺘﺨﻣ ﺕﺎﻐﻟ ﺙﻼﺜﺑ</li>
+    <li>academic_nonphys_desc-&gt;ﻢﻬﻟﺃ ﻲﻨﺟ ﻢﻠﻌﻤﻟ ﻯﺪﻬﻣ ﻂﻄﺨﻤﻟﺍ ﺍﺬﻫ\n[author]ـﻟﺍ</li>
+    <li>academic_nonphys_desc-&gt;ﺭﺎﻌﺸﺑ ﺔﻣﻮﺳﻮﻣ ﺔﻘﻴﺛﻮﻟﺍ ﻩﺬﻫ\n[author]ـﻟﺍ ﺖﻋﺭ ﻲﺘﻟﺍ ﺔﺴﺳﺆﻤﻟﺍ</li>
+    <li>badsmells-&gt;ﺔﻳﻮﻗ ﺔﺤﺋﺍﺭ ﻪﻨﻣ ﺡﻮﻔﺗ</li>
+    <li>badsmells-&gt;ﺔﻨﺘﻧ ﺔﺤﺋﺍﺭ ﻪﻟ</li>
+    <li>badsmells-&gt;ﺔﻔﻴﻌﺿ ﺔﺤﺋﺍﺭ ﻪﻨﻣ ﺡﻮﻔﺗ</li>
+    <li>badsmells-&gt;ﻦﺘﻨﻳ</li>
+    <li>badsmells-&gt;ﻦﻔﻌﻳ</li>
+    <li>stink-&gt;ﺚﺜﺠﻟﺍ ﻁﺎﺨﻣ</li>
+    <li>stink-&gt;ﺪﺳﺎﻔﻟﺍ ﺾﻴﺒﻟﺍﻭ ﺖﻳﺮﺒﻜﻟﺍ</li>
+    <li>stink-&gt;ﺀﻲﻄﺑ ﻢﻳﺪﻗ ﺕﻮﻣ</li>
+    <li>stink-&gt;ﻦﻴﻛﺎﻄﻴﻟﺍ ﻕﺮﻋ ﻪﺒﺸﻳ ﺀﻲﺷ</li>
+    <li>stink-&gt;ﺮﺘﺴﻳﻭ ﺲﻔﻧ</li>
+    <li>stink-&gt;ﺭﺎﺳﻮﻫ ﺲﺑﻼﻣ ﺔﻓﺮﻏ</li>
+    <li>smells-&gt;ﺓﺫﺎﻔﻧ ﺔﺤﺋﺍﺭ ﻪﻟ</li>
+    <li>smells-&gt;ﺔﺤﺋﺍﺭ ﻪﻟ</li>
+    <li>smells-&gt;ﺮﻄﻋ ﻪﻟ</li>
+    <li>smells-&gt;ﺞﻳﺭﺃ ﻪﻟ</li>
+    <li>scent-&gt;ﺐﻨﻋ ﻞﻴﻣﺮﺑ ﻉﺎﻗ ﻞﺜﻣ ،ﻚﺴﻣ</li>
+    <li>scent-&gt;ﺖﻴﻣ ﻱﺎﻫ ﺕﺎﻧﻮﻣﻭﺮﻴﻓ</li>
+    <li>scent-&gt;ﻥﺎﺒﻟ</li>
+    <li>scent-&gt;ﻝﺪﻨﺻ</li>
+    <li>scent-&gt;ﻮﻠﺣ ﺕﺍﺮﻣﻮﺑ ﺮﻴﺼﻋ</li>
+    <li>scent-&gt;ﺔﻗﺍﺮﺒﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ ﻞﺑﺍﻮﺗ</li>
+    <li>scent-&gt;ﺔﺟﺯﺎﻃ ﻦﻴﻠﻧﺍﺭﻮﺟ ﺭﻭﺬﺑ</li>
+    <li>conjunction-&gt;ﻭ</li>
+    <li>conjunction-&gt;ﻦﻜﻟ</li>
+    <li>conjunction-&gt;ﻚﻟﺫ ﻊﻣﻭ</li>
+    <li>conjunction-&gt;ﻥﺃ ﻢﻏﺭ</li>
+    <li>conjunction-&gt;ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ</li>
+    <li>conjunction-&gt;،ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﺇ .</li>
+    <li>author(p=4)-&gt;ﻒﻟﺆﻣ</li>
+    <li>author(p=4)-&gt;ﺐﺗﺎﻛ</li>
+    <li>author-&gt;ﻉﺮﺘﺨﻣ</li>
+    <li>author-&gt;ﺮﻜﺘﺒﻣ</li>
+    <li>author(p=2)-&gt;ﺭﻮﻄﻣ</li>
+    <li>author(p=4)-&gt;ﻢﻤﺼﻣ</li>
+    <li>author-&gt;ﺱﺪﻨﻬﻣ</li>
+    <li>author-&gt;ﻊﻧﺎﺻ</li>
+    <li>author-&gt;ﺮﻴﺒﺧ</li>
+    <li>author-&gt;ﺺﺼﺨﺘﻣ</li>
+    <li>author-&gt;ﻲﻨﻘﺗ</li>
+    <li>author-&gt;ﺮﻴﺒﺧ</li>
+    <li>author-&gt;ﻲﻓﺮﺣ</li>
+    <li>anAuthorDesc(p=2)-&gt;</li>
+    <li>anAuthorDesc-&gt;ﺏﺎﺷ</li>
+    <li>anAuthorDesc-&gt;ﺯﻮﺠﻋ</li>
+    <li>anAuthorDesc-&gt;ﺏﻮﻋﺮﻣ</li>
+    <li>anAuthorDesc-&gt;ﻦﻳﺰﺣ</li>
+    <li>anAuthorDesc-&gt;ﻦﺴﻣ</li>
+    <li>anAuthorDesc-&gt;ﻢﻴﻜﺣ</li>
+    <li>anAuthorDesc-&gt;ﺪﻴﻨﻋ</li>
+    <li>anAuthorDesc-&gt;ﻖﻤﺣﺃ</li>
+    <li>anAuthorDesc-&gt;ﺀﻱﺮﺑ</li>
+    <li>anAuthorDesc-&gt;ﺏﺮﻄﻀﻣ</li>
+    <li>anAuthorDesc-&gt;ﺐﻳﺮﻏ</li>
+    <li>anAuthorDesc-&gt;ﻦﺋﺎﺷ</li>
+    <li>anAuthorDesc-&gt;ﻲﺟﺫﻮﻤﻧ</li>
+    <li>anAuthorDesc-&gt;ﻞﻤﻣ</li>
+    <li>anAuthorDesc-&gt;ﻥﻮﻨﺠﻣ</li>
+    <li>anAuthorDesc-&gt;ﻲﻗﻼﺧﺃ ﺮﻴﻏ</li>
+    <li>anAuthorDesc-&gt;ﻲﻗﻼﺧﺃ</li>
+    <li>anAuthorDesc-&gt;ﻕﻼﺧﻷﺎﺑ ﻪﻟ ﺔﻗﻼﻋﻻ</li>
+    <li>anAuthorDesc-&gt;ﺾﻣﺎﻏ</li>
+    <li>worldname-&gt;[glitterworld]</li>
+    <li>worldname-&gt;[urbworld]</li>
+    <li>worldname-&gt;[deadworld]</li>
+    <li>worldname-&gt;[shellworld]</li>
+    <li>worldname-&gt;[ruinworld]</li>
+    <li>worldname-&gt;[medievalworld]</li>
+    <li>worldname-&gt;[steamworld]</li>
+    <li>worldname-&gt;[midworld]</li>
+    <li>worldname-&gt;[rimworld]</li>
+    <li>worldname-&gt;[coreworld]</li>
+    <li>worldname-&gt;[toxicworld]</li>
+    <li>worldname-&gt;[glassworld]</li>
+    <li>worldname-&gt;[transcendentworld]</li>
+    <li>worldname-&gt;[indworld]</li>
+    <li>worldname-&gt;[prisonworld]</li>
+    <li>worldname-&gt;[feudalworld]</li>
+    <li>worldname-&gt;[trashworld]</li>
+    <li>worldname-&gt;[iceworld]</li>
+    <li>worldname-&gt;[dinoworld]</li>
+    <li>worldname-&gt;[warworld]</li>
+    <li>worldname-&gt;[oceanicworld]</li>
+    <li>worldname-&gt;[mineworld]</li>
+    <li>worldname-&gt;[animalworld]</li>
+    <li>worldname-&gt;[asteroid]</li>
+    <li>worldname-&gt;[animalworld]</li>
+    <li>feralworld-&gt;[animalworld]</li>
+    <li>milworld-&gt;[warworld]</li>
+    <li>animalworld-&gt;Sorne</li>
+    <li>animalworld-&gt;Rhydell</li>
+    <li>animalworld-&gt;Zoutera</li>
+    <li>animalworld-&gt;Thylacine</li>
+    <li>animalworld-&gt;Jiai</li>
+    <li>animalworld-&gt;Steller's World</li>
+    <li>animalworld-&gt;Aukton</li>
+    <li>asteroid-&gt;Iwamura</li>
+    <li>asteroid-&gt;Atura</li>
+    <li>asteroid-&gt;Widdershins</li>
+    <li>asteroid-&gt;Ranomi</li>
+    <li>asteroid-&gt;Aesh 265</li>
+    <li>asteroid-&gt;Taxlos</li>
+    <li>asteroid-&gt;Aryn Sigma</li>
+    <li>coreworld-&gt;Novaroma</li>
+    <li>coreworld-&gt;Lutuni</li>
+    <li>coreworld-&gt;Zeglar</li>
+    <li>coreworld-&gt;Novaroma</li>
+    <li>coreworld-&gt;Cormora Prime</li>
+    <li>coreworld-&gt;Glossolia</li>
+    <li>coreworld-&gt;Barbaros</li>
+    <li>deadworld-&gt;Callos IX</li>
+    <li>deadworld-&gt;Haspia</li>
+    <li>deadworld-&gt;Gost IV</li>
+    <li>deadworld-&gt;Berimund</li>
+    <li>deadworld-&gt;Ardar</li>
+    <li>deadworld-&gt;Kremhild</li>
+    <li>deadworld-&gt;Melisandz</li>
+    <li>deathworld-&gt;Creticon</li>
+    <li>deathworld-&gt;Zartza</li>
+    <li>deathworld-&gt;Rayth</li>
+    <li>deathworld-&gt;Spectra</li>
+    <li>deathworld-&gt;JNovahex</li>
+    <li>deathworld-&gt;Carthago</li>
+    <li>deathworld-&gt;Grimcore</li>
+    <li>dinoworld-&gt;Oubanyen</li>
+    <li>dinoworld-&gt;Zoutera</li>
+    <li>dinoworld-&gt;Einio</li>
+    <li>dinoworld-&gt;Baryonyx</li>
+    <li>dinoworld-&gt;N'cilo</li>
+    <li>dinoworld-&gt;Venator</li>
+    <li>dinoworld-&gt;Brach</li>
+    <li>feudalworld-&gt;Aracena VI</li>
+    <li>feudalworld-&gt;Nuchadus</li>
+    <li>feudalworld-&gt;Filson</li>
+    <li>feudalworld-&gt;Fieth</li>
+    <li>feudalworld-&gt;Bloch Regis</li>
+    <li>feudalworld-&gt;Carlosphere</li>
+    <li>feudalworld-&gt;Magna Dijou</li>
+    <li>glassworld-&gt;Ceti V</li>
+    <li>glassworld-&gt;Thebes XIV</li>
+    <li>glassworld-&gt;Naga</li>
+    <li>glassworld-&gt;Merv</li>
+    <li>glassworld-&gt;Perse</li>
+    <li>glassworld-&gt;Shechem</li>
+    <li>glassworld-&gt;Yelhazor</li>
+    <li>glitterworld-&gt;Kalthas IV</li>
+    <li>glitterworld-&gt;Amen-Ti</li>
+    <li>glitterworld-&gt;Sophiamunda</li>
+    <li>glitterworld-&gt;Rogia</li>
+    <li>glitterworld-&gt;Utmaior</li>
+    <li>glitterworld-&gt;Caspian</li>
+    <li>glitterworld-&gt;Kenerella</li>
+    <li>iceworld-&gt;Yttak</li>
+    <li>iceworld-&gt;Dedchenko</li>
+    <li>iceworld-&gt;Baltoro</li>
+    <li>iceworld-&gt;Furtwale</li>
+    <li>iceworld-&gt;Jaqua</li>
+    <li>iceworld-&gt;Christensen</li>
+    <li>iceworld-&gt;Barnes</li>
+    <li>indworld-&gt;Irithir</li>
+    <li>indworld-&gt;New China</li>
+    <li>indworld-&gt;Hudders</li>
+    <li>indworld-&gt;Iver</li>
+    <li>indworld-&gt;Achesta</li>
+    <li>indworld-&gt;Oods</li>
+    <li>indworld-&gt;Iladelf</li>
+    <li>medievalworld-&gt;Chelis</li>
+    <li>medievalworld-&gt;Vinna</li>
+    <li>medievalworld-&gt;Cassone</li>
+    <li>medievalworld-&gt;Jork</li>
+    <li>medievalworld-&gt;Cochmar</li>
+    <li>medievalworld-&gt;Alin</li>
+    <li>medievalworld-&gt;Dubrognago</li>
+    <li>midworld-&gt;Khalderia</li>
+    <li>midworld-&gt;Elsin</li>
+    <li>midworld-&gt;Haihan</li>
+    <li>midworld-&gt;Seolure</li>
+    <li>midworld-&gt;Panga</li>
+    <li>midworld-&gt;New London CXI</li>
+    <li>midworld-&gt;San Delenda</li>
+    <li>mineworld-&gt;Xanides</li>
+    <li>mineworld-&gt;Bingham</li>
+    <li>mineworld-&gt;Saarhi</li>
+    <li>mineworld-&gt;Grasbeg</li>
+    <li>mineworld-&gt;Chuqui</li>
+    <li>mineworld-&gt;Olimpia</li>
+    <li>mineworld-&gt;Orme</li>
+    <li>oceanicworld-&gt;Wavia</li>
+    <li>oceanicworld-&gt;Wadka</li>
+    <li>oceanicworld-&gt;Gichen</li>
+    <li>oceanicworld-&gt;Port Yam</li>
+    <li>oceanicworld-&gt;Baia</li>
+    <li>oceanicworld-&gt;Thonis</li>
+    <li>oceanicworld-&gt;Moaui</li>
+    <li>prisonworld-&gt;Yttak</li>
+    <li>prisonworld-&gt;Aldgate</li>
+    <li>prisonworld-&gt;Borren</li>
+    <li>prisonworld-&gt;Hoalo</li>
+    <li>prisonworld-&gt;Casmina</li>
+    <li>prisonworld-&gt;Port Basil</li>
+    <li>prisonworld-&gt;Chateau D'Ouen</li>
+    <li>rimworld-&gt;Filson</li>
+    <li>rimworld-&gt;La Grand</li>
+    <li>rimworld-&gt;Dalles</li>
+    <li>rimworld-&gt;Twig Falls</li>
+    <li>rimworld-&gt;Old Boise</li>
+    <li>rimworld-&gt;Devil's Gate</li>
+    <li>rimworld-&gt;Laramiere</li>
+    <li>ruinworld-&gt;Earth</li>
+    <li>ruinworld-&gt;Ilwaba</li>
+    <li>ruinworld-&gt;Xennoa</li>
+    <li>ruinworld-&gt;Pichu</li>
+    <li>ruinworld-&gt;Perdida</li>
+    <li>ruinworld-&gt;Hisarlik</li>
+    <li>ruinworld-&gt;Helike</li>
+    <li>shellworld-&gt;Boccocarro</li>
+    <li>shellworld-&gt;Destria</li>
+    <li>shellworld-&gt;Trophic</li>
+    <li>shellworld-&gt;Matrio</li>
+    <li>shellworld-&gt;Samen</li>
+    <li>shellworld-&gt;Xinthia</li>
+    <li>shellworld-&gt;Ferbine</li>
+    <li>steamworld-&gt;Corliss</li>
+    <li>steamworld-&gt;Borassic</li>
+    <li>steamworld-&gt;Savery II</li>
+    <li>steamworld-&gt;Heron</li>
+    <li>steamworld-&gt;Malmesburi</li>
+    <li>steamworld-&gt;Architonnerre</li>
+    <li>steamworld-&gt;Escapement</li>
+    <li>toxicworld-&gt;Scylla</li>
+    <li>toxicworld-&gt;Mauro</li>
+    <li>toxicworld-&gt;Cerospor</li>
+    <li>toxicworld-&gt;Oxy VI</li>
+    <li>toxicworld-&gt;Sangwine</li>
+    <li>toxicworld-&gt;Soleno</li>
+    <li>toxicworld-&gt;Imbatus</li>
+    <li>transcendentworld-&gt;Xaroh</li>
+    <li>transcendentworld-&gt;Immanence VI</li>
+    <li>transcendentworld-&gt;Qabba</li>
+    <li>transcendentworld-&gt;Einsof</li>
+    <li>transcendentworld-&gt;Mitvo</li>
+    <li>transcendentworld-&gt;Samydi</li>
+    <li>transcendentworld-&gt;Samsarr</li>
+    <li>trashworld-&gt;Bagua 5</li>
+    <li>trashworld-&gt;Puobell</li>
+    <li>trashworld-&gt;Deni IX</li>
+    <li>trashworld-&gt;Garbsh</li>
+    <li>trashworld-&gt;Tra'age</li>
+    <li>trashworld-&gt;Reepsyk</li>
+    <li>trashworld-&gt;Mystras</li>
+    <li>urbworld-&gt;Euterpe</li>
+    <li>urbworld-&gt;Avenna</li>
+    <li>urbworld-&gt;Essalon</li>
+    <li>urbworld-&gt;Enike</li>
+    <li>urbworld-&gt;Adocia</li>
+    <li>urbworld-&gt;N'toch</li>
+    <li>urbworld-&gt;Barca</li>
+    <li>warworld-&gt;Kemia</li>
+    <li>warworld-&gt;Vanu</li>
+    <li>warworld-&gt;Samnium</li>
+    <li>warworld-&gt;Kyrus</li>
+    <li>warworld-&gt;Punica</li>
+    <li>warworld-&gt;Cimbria XII</li>
+    <li>warworld-&gt;Barkitos</li>
+    <li>schematic_container-&gt;ﻞﻴﻟﺩ</li>
+    <li>schematic_container-&gt;ﺕﺍﺭﺎﺘﺨﻣ</li>
+    <li>schematic_container-&gt;ﺔﻈﻓﺎﺣ</li>
+    <li>schematic_container-&gt;ﺪﻠﺠﻣ</li>
+    <li>schematic_container-&gt;ﺐﻴﺘﻛ</li>
+    <li>schematic_container-&gt;ﻑﻼﻏ</li>
+    <li>schematic_container-&gt;ﻞﻣﺎﺣ</li>
+    <li>schematic_container-&gt;ﺔﻣﺰﺣ</li>
+    <li>schematic_container-&gt;ﻒﻠﻣ</li>
+    <li>schematic_container-&gt;ﺔﻣﺯﺭ</li>
+    <li>schematic_container-&gt;ﺔﺒﻴﻘﺣ</li>
+    <li>schematic_container-&gt;ﺀﺎﻋﻭ</li>
+    <li>physical_adjective-&gt;ﺦﺴﺘﻣ</li>
+    <li>physical_adjective-&gt;ﺍﺪﺟ ﺮﻴﻐﺻ</li>
+    <li>physical_adjective-&gt;ﻦﺸﺧ</li>
+    <li>physical_adjective-&gt;ﻢﺨﺿ</li>
+    <li>physical_adjective-&gt;ﻖﻴﻧﺃ</li>
+    <li>physical_adjective-&gt;ﻂﻴﺴﺑ</li>
+    <li>physical_adjective-&gt;ﺪﻳﺪﺟ</li>
+    <li>physical_adjective-&gt;ﺱﺎﺴﺣ</li>
+    <li>physical_adjective-&gt;ﻢﻳﺪﻗ</li>
+    <li>physical_adjective-&gt;ﺭﻮﺠﻬﻣ</li>
+    <li>physical_adjective-&gt;ﻒﻟﺎﺗ</li>
+    <li>physical_adjective-&gt;ﻝﺎﺑ</li>
+    <li>physical_adjective-&gt;ﻩﻮﺸﻣ</li>
+    <li>physical_adjective-&gt;ﻖﻴﺘﻋ</li>
+    <li>physical_adjective-&gt;ﻲﻨﻫﺩ</li>
+    <li>physical_adjective-&gt;ﺊﻓﺍﺩ</li>
+    <li>physical_adjective-&gt;ﻞﺘﻜﺘﻣ</li>
+    <li>physical_adjective-&gt;ﻲﺒﺸﺧ</li>
+    <li>physical_adjective-&gt;ﻚﺋﺎﺷ</li>
+    <li>physical_adjective-&gt;ﻕﻭﺮﺤﻣ</li>
+    <li>physical_adjective-&gt;ﺲﻠﻣﺃ</li>
+    <li>physical_adjective-&gt;ﻲﻔﻳﺭ</li>
+    <li>physical_adjective-&gt;ﻲﻔﻴﻇﻭ</li>
+    <li>physical_adjective-&gt;ﻡﺩﺎﻘﺘﻣ</li>
+    <li>physical_adjective-&gt;ﺮﻴﺤﻣ</li>
+    <li>physical_adjective-&gt;ﻦﻴﻤﺛ</li>
+    <li>shows_synonym_verb-&gt;[shows_synonym_verb1]</li>
+    <li>shows_synonym_verb-&gt;[shows_synonym_verb2]</li>
+    <li>shows_synonym_verb1-&gt;ﺭّﻮﺼﻳ</li>
+    <li>shows_synonym_verb1-&gt;ﺪّﺴﺠﻳ</li>
+    <li>shows_synonym_verb1-&gt;ﺽﺮﻌﻳ</li>
+    <li>shows_synonym_verb1-&gt;ﺯﺮﺒﻳ</li>
+    <li>shows_synonym_verb1-&gt;ﺮﻬﻈﻳ</li>
+    <li>shows_synonym_verb2-&gt;ﻱﺮُﻳ</li>
+    <li>shows_synonym_verb2-&gt;ﺰﺟﻮﻳ</li>
+    <li>shows_synonym_verb2-&gt;ﻒﺼﻳ</li>
+    <li>contain_verb-&gt;ﻱﻮﺘﺤﻳ</li>
+    <li>contain_verb-&gt;ﻞﻤﺤﻳ</li>
+    <li>contain_verb-&gt;ﻱﻮﺤﻳ</li>
+    <li>contain_verb-&gt;ﻥّﺰﺨﻳ</li>
+    <li>contain_verb-&gt;ﻒّﻠﻐﻳ</li>
+    <li>schematic_synonym-&gt;ﻂﻄﺨﻣ</li>
+    <li>schematic_synonym-&gt;ﻲﻧﺎﻴﺑ ﻢﺳﺭ</li>
+    <li>schematic_synonym-&gt;ﻲﻨﻘﺗ ﻂﻄﺨﻣ</li>
+    <li>schematic_synonym-&gt;ﻢﻴﻤﺼﺗ</li>
+    <li>schematic_synonym-&gt;ﻲﻟﻭﺃ ﺝﺫﻮﻤﻧ</li>
+    <li>schematic_synonym-&gt;ﺞﺘﻨﻣ ﺕﺎﻔﺻﺍﻮﻣ</li>
+    <li>schematic_synonym-&gt;ﺕﺎﻤﻴﻠﻌﺗ ﺔﻋﻮﻤﺠﻣ</li>
+    <li>state_adjective-&gt;ﺓﺩﻮﺴﻣ</li>
+    <li>state_adjective-&gt;ﻲﺋﺎﻬﻧ</li>
+    <li>state_adjective-&gt;ﻞﻤﻌﻟﺍ ﺪﻴﻗ</li>
+    <li>state_adjective-&gt;ﻞﻤﺘﻜﻣ</li>
+    <li>diagram_type-&gt;ﻲﺤﻴﺿﻮﺗ ﻢﺳﺭ</li>
+    <li>diagram_type-&gt;ﺮﻳﻮﺼﺗ</li>
+    <li>diagram_type-&gt;ﻲﻄﻴﻄﺨﺗ ﻢﺳﺭ</li>
+    <li>diagram_type-&gt;ﻂﻄﺨﻣ</li>
+    <li>diagram_type-&gt;ﻲﺗﺎﻣﻮﻠﻌﻣ ﻢﺳﺭ</li>
+    <li>diagram_type-&gt;ﻲﻠﻜﻴﻫ ﻂﻄﺨﻣ</li>
+    <li>diagram_type-&gt;ﻲﻌﻄﻘﻣ ﻢﺳﺭ</li>
+    <li>diagram_type-&gt;ﻲﻧﺎﻴﺑ ﻢﺳﺭ</li>
+    <li>diagram_type-&gt;ﻝﻭﺪﺟ</li>
+    <li>theory_synonym_adj-&gt;ﺔﻳﺮﻈﻧ</li>
+    <li>theory_synonym_adj-&gt;ﻡﻮﻬﻔﻣ</li>
+    <li>theory_synonym_adj-&gt;ﺓﺮﻜﻓ</li>
+    <li>theory_synonym_adj-&gt;ﺔﻴﺿﺮﻓ</li>
+    <li>theory_synonym_adj-&gt;ﺭﻮﺼﺗ</li>
+    <li>device_synonym-&gt;ﺔﻴﻟﺁ</li>
+    <li>device_synonym-&gt;ﺯﺎﻬﺟ</li>
+    <li>device_synonym-&gt;ﺓﺍﺩﺃ</li>
+    <li>device_synonym-&gt;ﻉﺍﺮﺘﺧﺍ</li>
+    <li>device_synonym-&gt;ﺓﺮﻴﻐﺻ ﺓﺍﺩﺃ</li>
+    <li>device_synonym-&gt;ﻉﺍﺪﺑﺇ</li>
+    <li>device_synonym-&gt;ﺮﻜﺘﺒﻣ ﺯﺎﻬﺟ</li>
+    <li>device_synonym-&gt;ﺖﻴﺒﺜﺗ ﺓﺍﺩﺃ</li>
+    <li>device_synonym-&gt;ﺓﺪﺣﻭ</li>
+    <li>image_types-&gt;ﺔﻴﻓﺍﺮﻏﻮﺗﻮﻓ ﺭﻮﺻ</li>
+    <li>image_types-&gt;ﺕﺎﻣﻮﺳﺭ</li>
+    <li>image_types-&gt;ﺵﻮﻘﻧ</li>
+    <li>image_types-&gt;ﺔﻴﺋﺎﻣ ﻥﺍﻮﻟﺃ</li>
+    <li>image_types-&gt;ﺔﻴﻨﻘﺗ ﺕﺎﻄﻄﺨﻣ</li>
+    <li>image_types-&gt;ﺔﻴﻄﻴﻄﺨﺗ ﺕﺎﻣﻮﺳﺭ</li>
+    <li>image_types-&gt;ﺔﻴﻧﻮﺗﺭﺎﻛ ﻡﻮﺳﺭ</li>
+    <li>other_subject-&gt;ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ</li>
+    <li>other_subject-&gt;ﺩﺍﺮﻓﻷﺍ</li>
+    <li>other_subject-&gt;ﺕﻻﺎﺼﺗﻻﺍ</li>
+    <li>other_subject-&gt;ﻕﺎﻄﻨﻟﺍ</li>
+    <li>other_subject-&gt;ﺔﻴﻧﺍﺰﻴﻤﻟﺍ</li>
+    <li>other_subject-&gt;ﺩﺭﺍﻮﻤﻟﺍ</li>
+    <li>dates-&gt;[date_form] ﻂﻄﺨﻤﻟﺍ ﺮﺸُﻧ</li>
+    <li>dates-&gt;[date_form] ﺓﺮﻣ ﻝﻭﻷ ﻂﻄﺨﻤﻟﺍ ﻊﺒُﻃ</li>
+    <li>dates-&gt;ﻢﺗ ﻰﺘﻣ ﻂﺒﻀﻟﺎﺑ ﺢﺿﺍﻮﻟﺍ ﺮﻴﻏ ﻦﻣ\nﻂﻄﺨﻤﻟﺍ ﺀﺎﺸﻧﺇ</li>
+    <li>date_form-&gt;ﺍﺮﺧﺆﻣ</li>
+    <li>date_form-&gt;ﺓﺪﻳﺪﻋ ﻥﻭﺮﻗ ﺬﻨﻣ</li>
+    <li>date_form-&gt;[date] ﻲﻓ</li>
+    <li>date_form-&gt;[date_season] ﻲﻓ</li>
+</Description_Schematic.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>subject->[subject_primary]</li>
+    <li>desc->[discussion].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
+    <li>discussion->This [textbook] provides [useful_information] about [subject][detail]</li>
+    <li>discussion->This [textbook] establishes the author's authority on the subject of [subject][detail]</li>
+    <li>discussion->Those seeking [understanding_synonym] [subject] head to this [notable_adjective] [textbook][detail]</li>
+    <li>discussion->A standardized [textbook] on [subject][detail]</li>
+    <li>discussion->An early edition of the author's [textbook] on [subject][detail]</li>
+    <li>detail->. The [precis_synonym] focuses on the more skilled aspects of the subject</li>
+    <li>detail->. It is a succinct [precis_synonym] of a complex subject</li>
+    <li>detail->. The [precis_synonym] says that, when [ANYPAWN_label] wrote this, it was the cutting edge in the field</li>
+    <li>detail->. A quote on the [note_location] says, 'True [students] of [subject] cannot ignore [ANYPAWN_label]'s book'</li>
+    <li>students->students</li>
+    <li>students->lovers</li>
+    <li>students->practitioners</li>
+    <li>detail->. It takes you through the subject step-by-step</li>
+    <li>detail(quality[less_than]4)->, even though the author rushes through the subject</li>
+    <li>detail(quality[greater_than]3)->. It is a comprehensive treatment of the subject</li>
+    <li>detail->. The author claims in [ANYPAWN_possessive] [precis_synonym] that fraudulent copies of this book exist but that this is not one</li>
+    <li>detail(quality[less_than]4)->, though perhaps the attempt to communicate its ideas through an imagined dialogue was a mistake</li>
+    <li>detail->. The author's rhetoric in the [precis_synonym] does not distract from the core concepts</li>
+    <li>production->The [precis_synonym] says that this was printed by hand on [worldname]</li>
+    <li>production->The [precis_synonym] says that the University of [worldname] made this a set text</li>
+    <li>production->The [precis_synonym] says that, though these notes were made for [ANYPAWN_label]'s personal use, they have been widely shared</li>
+    <li>production->The useful parts of this [textbook] are hidden among the biographical details</li>
+    <li>production->A handwritten [note] on the [note_location] says that the [worldname] print-house shut down after the [worldname] Riots, so these later editions are rare</li>
+    <li>production->An inscribed [note] says that most copies of this [textbook] were lost during the [worldname] Incident</li>
+    <li>production->The [precis_synonym] makes clear that readers with knowledge of archotech information dissemination techniques tend to avoid this [textbook] series - but not why</li>
+    <li>production->From the [note_location], it is clear that the [subject] proselytes of [worldname] spent a fortune printing copies of this book, and then having it widely distributed</li>
+    <li>production->The [note_location] explains that the early copies of this book were handwritten by [ANYPAWN_label] [ANYPAWN_objective]self</li>
+    <li>production->The Duchess of [worldname] sponsored this [textbook], with the condition that it be freely available</li>
+    <li>production->A note says that a subscription of the booksellers of [coreworld] produced the first edition of this [textbook]</li>
+    <li>production->At the book's rear, the publisher advertises a larger series that tackles all subjects necessary for survival on the rim</li>
+    <li>production->The publishers perhaps could have been more forthright in their editorial duties, given the sloppy grammar</li>
+    <li>quality_statement->[exterior_quality] [page_quality]</li>
+    <li>anecdote->Given the large gap between [ANYPAWN_nameFull]'s birth year and the publication date of this book, it is unlikely that [ANYPAWN_pronoun] lived to see this published</li>
+    <li>anecdote->On the [note_location], someone has pasted an excoriating review of the book</li>
+    <li>anecdote->The [precis_synonym] indicates that this book passed through the public library system of [urbworld]</li>
+    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull] was known for being a master of many subjects</li>
+    <li>anecdote->According to the [note_location], the people of [worldname] still talk of [ANYPAWN_nameFull] and reminisce about [ANYPAWN_possessive] love of [subject]</li>
+    <li>anecdote->According to the [note_location], a freak entanglement accident killed the author, [ANYPAWN_nameFull], shortly after publication</li>
+    <li>anecdote->According to the [precis_synonym], [ANYPAWN_nameFull] spent [ANYPAWN_possessive] days teaching in the academy on [coreworld]. This book is taken from [ANYPAWN_possessive] lectures</li>
+    <li>anecdote->According to the [precis_synonym], [ANYPAWN_nameFull]'s knowledge of [subject] was so renowned that people would stop [ANYPAWN_objective] in the street to question [ANYPAWN_objective] about it</li>
+    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull] was impoverished and sold the rights to this series for very little</li>
+    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull] was blind from birth, so never saw [ANYPAWN_possessive] book</li>
+    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull]'s first draft of the textbook infamously featured fifty pages of digression. It was cut for the second edition</li>
+    <li>anecdote->According to the [note_location], [ANYPAWN_nameFull]'s reputation was so terrible that [ANYPAWN_pronoun] published this book under a pseudonym</li>
+    <li>anecdote->According to the [note_location], as a child, [ANYPAWN_nameFull] was so idle that [ANYPAWN_possessive] parents despaired. This textbook is a vindication of [ANYPAWN_possessive] skill</li>
+    <li>anecdote->According to the [precis_synonym], it was during [ANYPAWN_nameFull]'s fourth marriage that [ANYPAWN_pronoun] conceived of a textbook on [subject]. (This led to [ANYPAWN_possessive] fourth divorce)</li>
+    <li>textbook->primer</li>
+    <li>textbook->manual</li>
+    <li>textbook->textbook</li>
+    <li>textbook(p=6)->book</li>
+    <li>textbook->workbook</li>
+    <li>textbook->reference book</li>
+    <li>textbook->compendium</li>
+    <li>textbook->guidebook</li>
+    <li>textbook->booklet</li>
+    <li>textbook->syllabus</li>
+    <li>textbook->coursebook</li>
+    <li>textbook->reference book</li>
+    <li>textbook->school book</li>
+    <li>textbook->encyclopedia</li>
+    <li>textbook->handbook</li>
+    <li>textbook->tradebook</li>
+    <li>textbook->work</li>
+    <li>precis_synonym->précis</li>
+    <li>precis_synonym->frontispiece</li>
+    <li>precis_synonym->abstract</li>
+    <li>precis_synonym->synopsis</li>
+    <li>precis_synonym->outline</li>
+    <li>precis_synonym->digest</li>
+    <li>note_location->front cover</li>
+    <li>note_location->back cover</li>
+    <li>note_location->front flap</li>
+    <li>note_location->back flap</li>
+    <li>note_location->first page</li>
+    <li>note_location->last page</li>
+    <li>note_location->margins</li>
+    <li>note_location->title page</li>
+    <li>note_location->footnote</li>
+    <li>note_location->endnote</li>
+    <li>note_location->author's biography</li>
+    <li>note_location->shipping label</li>
+    <li>note->note</li>
+    <li>note->addendum</li>
+    <li>note->postscript</li>
+    <li>note->afterword</li>
+    <li>note->appendix</li>
+    <li>note->coda</li>
+    <li>note->footnote</li>
+    <li>note->endnote</li>
+    <li>useful_information->useful tidbits of information</li>
+    <li>useful_information->useful information</li>
+    <li>useful_information->interesting facts</li>
+    <li>useful_information->valuable insights</li>
+    <li>useful_information->practical insights</li>
+    <li>useful_information->helpful tips</li>
+    <li>useful_information->informative details</li>
+    <li>understanding_synonym->knowledge of</li>
+    <li>understanding_synonym->self-improvement in</li>
+    <li>understanding_synonym->an understanding of</li>
+    <li>understanding_synonym->scholarship in</li>
+    <li>understanding_synonym->erudition in</li>
+    <li>understanding_synonym->expertise in</li>
+    <li>understanding_synonym->a philosophy of</li>
+    <li>understanding_synonym->the ethics of</li>
+    <li>notable_adjective->famous</li>
+    <li>notable_adjective->obscure</li>
+    <li>notable_adjective->iconic</li>
+    <li>notable_adjective->classic</li>
+    <li>notable_adjective->common</li>
+    <li>notable_adjective->familiar</li>
+    <li>notable_adjective->timeless</li>
+    <li>notable_adjective->lopsided</li>
+    <li>notable_adjective->harmonious</li>
+    <li>notable_adjective->elegant</li>
+    <li>notable_adjective->simple</li>
+    <li>notable_adjective->functional</li>
+    <li>notable_adjective->urbworld</li>
+    <li>notable_adjective->Glitterworld</li>
+    <li>notable_adjective->primitive</li>
+    <li>notable_adjective->decorative</li>
+    <li>exterior_quality(quality[greater_than]4)->The exterior of this book is finely bound and</li>
+    <li>exterior_quality(quality[greater_than]4)->A masterpiece of the printer's art, this book shines and</li>
+    <li>exterior_quality(quality[greater_than]4)->Its leather cover is rough yet</li>
+    <li>exterior_quality(quality[greater_than]4)->Though the cover is very plain,</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->This textbook has seen better days, but</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Despite being a second-hand schoolbook,</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->This book has had many owners, but</li>
+    <li>exterior_quality(quality[less_than]2)->The front of this book seems attractive but</li>
+    <li>exterior_quality(quality[less_than]2)->Someone has torn away the first third of the book and</li>
+    <li>exterior_quality(quality[less_than]2)->The cover is soaked in a strong-smelling liquid and</li>
+    <li>exterior_quality(quality[less_than]2)->At first sight nothing is wrong with the book, but</li>
+    <li>page_quality->the pages [page_condition]</li>
+    <li>page_condition(quality[greater_than]4)->[page_excellent]</li>
+    <li>page_condition(quality[less_than]5,quality[greater_than]1)->[page_decent]</li>
+    <li>page_condition(quality[less_than]2)->[page_awful]</li>
+    <li>page_excellent->are in amazing condition, as if never touched</li>
+    <li>page_excellent->are in great condition</li>
+    <li>page_excellent->are pristine</li>
+    <li>page_excellent->are bright and clean</li>
+    <li>page_excellent->are uniquely well-preserved</li>
+    <li>page_decent->are in a decent condition</li>
+    <li>page_decent->are legible, if crumpled</li>
+    <li>page_decent->are perfectly readable</li>
+    <li>page_decent->are decent, if slightly scored</li>
+    <li>page_awful->appear to be written on crumbling parchment</li>
+    <li>page_awful->are badly damaged</li>
+    <li>page_awful->are stained with a dark substance</li>
+    <li>page_awful->are illegible</li>
+    <li>page_awful->have been annotated in an unreadable hand</li>
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorne</li>
+    <li>animalworld->Rhydell</li>
+    <li>animalworld->Zoutera</li>
+    <li>animalworld->Thylacine</li>
+    <li>animalworld->Jiai</li>
+    <li>animalworld->Steller's World</li>
+    <li>animalworld->Aukton</li>
+    <li>asteroid->Iwamura</li>
+    <li>asteroid->Atura</li>
+    <li>asteroid->Widdershins</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Aesh 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Aryn Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prime</li>
+    <li>coreworld->Glossolia</li>
+    <li>coreworld->Barbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Haspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Ardar</li>
+    <li>deadworld->Kremhild</li>
+    <li>deadworld->Melisandz</li>
+    <li>deathworld->Creticon</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Rayth</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->JNovahex</li>
+    <li>deathworld->Carthago</li>
+    <li>deathworld->Grimcore</li>
+    <li>dinoworld->Oubanyen</li>
+    <li>dinoworld->Zoutera</li>
+    <li>dinoworld->Einio</li>
+    <li>dinoworld->Baryonyx</li>
+    <li>dinoworld->N'cilo</li>
+    <li>dinoworld->Venator</li>
+    <li>dinoworld->Brach</li>
+    <li>feudalworld->Aracena VI</li>
+    <li>feudalworld->Nuchadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fieth</li>
+    <li>feudalworld->Bloch Regis</li>
+    <li>feudalworld->Carlosphere</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Thebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Shechem</li>
+    <li>glassworld->Yelhazor</li>
+    <li>glitterworld->Kalthas IV</li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda </li>
+    <li>glitterworld->Rogia</li>
+    <li>glitterworld->Utmaior</li>
+    <li>glitterworld->Caspian</li>
+    <li>glitterworld->Kenerella</li>
+    <li>iceworld->Yttak</li>
+    <li>iceworld->Dedchenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtwale</li>
+    <li>iceworld->Jaqua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Irithir</li>
+    <li>indworld->New China</li>
+    <li>indworld->Hudders</li>
+    <li>indworld->Iver</li>
+    <li>indworld->Achesta</li>
+    <li>indworld->Oods</li>
+    <li>indworld->Iladelf</li>
+    <li>medievalworld->Chelis</li>
+    <li>medievalworld->Vinna</li>
+    <li>medievalworld->Cassone</li>
+    <li>medievalworld->Jork</li>
+    <li>medievalworld->Cochmar</li>
+    <li>medievalworld->Alin</li>
+    <li>medievalworld->Dubrognago</li>
+    <li>midworld->Khalderia</li>
+    <li>midworld->Elsin</li>
+    <li>midworld->Haihan</li>
+    <li>midworld->Seolure</li>
+    <li>midworld->Panga</li>
+    <li>midworld->New London CXI </li>
+    <li>midworld->San Delenda</li>
+    <li>mineworld->Xanides</li>
+    <li>mineworld->Bingham</li>
+    <li>mineworld->Saarhi</li>
+    <li>mineworld->Grasbeg</li>
+    <li>mineworld->Chuqui</li>
+    <li>mineworld->Olimpia</li>
+    <li>mineworld->Orme</li>
+    <li>oceanicworld->Wavia</li>
+    <li>oceanicworld->Wadka</li>
+    <li>oceanicworld->Gichen</li>
+    <li>oceanicworld->Port Yam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Thonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Aldgate</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Hoalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Chateau D'Ouen</li>
+    <li>rimworld->Filson</li>
+    <li>rimworld->La Grand</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Twig Falls</li>
+    <li>rimworld->Old Boise</li>
+    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Earth</li>
+    <li>ruinworld->Ilwaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pichu</li>
+    <li>ruinworld->Perdida</li>
+    <li>ruinworld->Hisarlik</li>
+    <li>ruinworld->Helike</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Destria</li>
+    <li>shellworld->Trophic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xinthia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corliss</li>
+    <li>steamworld->Borassic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Heron</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Architonnerre</li>
+    <li>steamworld->Escapement</li>
+    <li>toxicworld->Scylla</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Oxy VI</li>
+    <li>toxicworld->Sangwine</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Imbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Immanence VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Einsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samydi</li>
+    <li>transcendentworld->Samsarr</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Reepsyk</li>
+    <li>trashworld->Mystras</li>
+    <li>urbworld->Euterpe</li>
+    <li>urbworld->Avenna</li>
+    <li>urbworld->Essalon</li>
+    <li>urbworld->Enike</li>
+    <li>urbworld->Adocia</li>
+    <li>urbworld->N'toch</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Kemia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samnium</li>
+    <li>warworld->Kyrus</li>
+    <li>warworld->Punica</li>
+    <li>warworld->Cimbria XII</li>
+    <li>warworld->Barkitos</li>
+  -->
+  <Description_SkillBook.rulePack.rulesStrings>
+    <li>subject-&gt;[subject_primary]</li>
+    <li>desc-&gt;[discussion].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
+    <li>discussion-&gt;[subject][detail] ﻝﻮﺣ [textbook] [useful_information]ـﻟﺍ ﺍﺬﻫ ﻡﺪﻘﻳ</li>
+    <li>discussion-&gt;ﻲﻓ ﻒﻟﺆﻤﻟﺍ ﺔﻄﻠﺳ [textbook]ـﻟﺍ ﺍﺬﻫ ﺖﺒﺜُﻳ\n[subject][detail] ﻉﻮﺿﻮﻣ</li>
+    <li>discussion-&gt;[understanding_synonym] [subject] ﻦﻋ ﻥﻮﺜﺤﺒﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ\n[notable_adjective][detail]ـﻟﺍ [textbook]ـﻟﺍ ﺍﺬﻫ ﻰﻟﺇ ﻥﻮﻬﺠﺘﻳ</li>
+    <li>discussion-&gt;[subject][detail] ﻦﻋ ﻱﺭﺎﻴﻌﻣ [textbook]</li>
+    <li>discussion-&gt;[subject][detail] ﻦﻋ ﻒﻟﺆﻤﻟﺍ [textbook] ﻦﻣ ﺓﺮﻜﺒﻣ ﺔﻌﺒﻃ</li>
+    <li>detail-&gt;ﺮﺜﻛﻷﺍ ﺐﻧﺍﻮﺠﻟﺍ ﻰﻠﻋ [precis_synonym]ـﻟﺍ ﺰﻛﺮﻳ .\nﻉﻮﺿﻮﻤﻟﺍ ﻲﻓ ﺓﺭﺎﻬﻣ</li>
+    <li>detail-&gt;ﺪﻘﻌﻣ ﻉﻮﺿﻮﻤﻟ ﺐﻀﺘﻘﻣ [precis_synonym] ﻪﻧﺇ .</li>
+    <li>detail-&gt;[ANYPAWN_label] ﺐﺘﻛ ﺎﻣﺪﻨﻋ ﻪﻧﺇ [precis_synonym]ـﻟﺍ ﻝﻮﻘﻳ .\nﻪﻴﻟﺇ ﻞﺻﻮﺗ ﺎﻣ ﺙﺪﺣﺃ ﻥﺎﻛ ،ﺍﺬﻫ\nﻝﺎﺠﻤﻟﺍ</li>
+    <li>detail-&gt;ﻦﻜﻤﻳ ﻻ" :ﻝﻮﻘﻳ [note_location] ﻰﻠﻋ ﺱﺎﺒﺘﻗﺍ .\n"[ANYPAWN_label] ﺏﺎﺘﻛ ﻞﻫﺎﺠﺗ [students] [subject]ـﻟ</li>
+    <li>students-&gt;ﺏﻼﻃ</li>
+    <li>students-&gt;ﻕﺎﺸﻋ</li>
+    <li>students-&gt;ﻥﻮﺳﺭﺎﻤﻣ</li>
+    <li>detail-&gt;ﺓﻮﻄﺨﺑ ﺓﻮﻄﺧ ﻉﻮﺿﻮﻤﻟﺍ ﺮﺒﻋ ﻙﺬﺧﺄﻳ .</li>
+    <li>detail(quality[less_than]4)-&gt;ﻲﻓ ﻉﺮﺴﺘﻳ ﻒﻟﺆﻤﻟﺍ ﻥﺃ ﻢﻏﺭ ،\nﻉﻮﺿﻮﻤﻟﺍ</li>
+    <li>detail(quality[greater_than]3)-&gt;ﻉﻮﺿﻮﻤﻠﻟ ﺔﻠﻣﺎﺷ ﺔﺠﻟﺎﻌﻣ ﺎﻬﻧﺇ .</li>
+    <li>detail-&gt;ﺎﺨﺴﻧ ﻥﺃ [ANYPAWN_possessive] [precis_synonym] ﻲﻓ ﻒﻟﺆﻤﻟﺍ ﻲﻋﺪﻳ .\nﻦﻜﻟ ﺓﺩﻮﺟﻮﻣ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ ﻦﻣ ﺓﺭﻭﺰﻣ\nﺎﻬﻨﻣ ﺍﺪﺣﺍﻭ ﺲﻴﻟ ﺍﺬﻫ</li>
+    <li>detail(quality[less_than]4)-&gt;ﻩﺭﺎﻜﻓﺃ ﻝﺎﺼﻳﺇ ﺔﻟﻭﺎﺤﻣ ﻥﺃ ﻢﻏﺭ ،\nﺖﻧﺎﻛ ﺎﻤﺑﺭ ﻞﻴﺨﺘﻣ ﺭﺍﻮﺣ ﻝﻼﺧ ﻦﻣ\nﺄﻄﺧ</li>
+    <li>detail-&gt;[precis_synonym]ـﻟﺍ ﻲﻓ ﻒﻟﺆﻤﻟﺍ ﺔﻏﻼﺑ ﺖﺘﺸﺗ ﻻ .\nﺔﻴﺳﺎﺳﻷﺍ ﻢﻴﻫﺎﻔﻤﻟﺍ ﻦﻋ</li>
+    <li>production-&gt;ﻰﻠﻋ ﺎﻳﻭﺪﻳ ﻊﺒﻃ ﺍﺬﻫ ﻥﺃ [precis_synonym]ـﻟﺍ ﺮﻛﺬﻳ\n[worldname]</li>
+    <li>production-&gt;ﺍﺬﻫ ﺖﻠﻌﺟ [worldname] ﺔﻌﻣﺎﺟ ﻥﺃ [precis_synonym]ـﻟﺍ ﺮﻛﺬﻳ\nﺍﺭﺮﻘﻣ ﺎﺼﻧ</li>
+    <li>production-&gt;ﻩﺬﻫ ﻥﺃ ﻢﻏﺭ ،ﻪﻧﺃ [precis_synonym]ـﻟﺍ ﺮﻛﺬﻳ\nﻲﺼﺨﺸﻟﺍ ﻡﺍﺪﺨﺘﺳﻼﻟ ﺖﺒﺘُﻛ ﺕﺎﻈﺣﻼﻤﻟﺍ\nﻕﺎﻄﻧ ﻰﻠﻋ ﺎﻬﺘﻛﺭﺎﺸﻣ ﺖﻤﺗ ﺪﻘﻓ ،[ANYPAWN_label]ـﻟ\nﻊﺳﺍﻭ</li>
+    <li>production-&gt;[textbook]ـﻟﺍ ﺍﺬﻫ ﻦﻣ ﺓﺪﻴﻔﻤﻟﺍ ﺀﺍﺰﺟﻷﺍ\nﺔﻳﺮﻴﺴﻟﺍ ﻞﻴﺻﺎﻔﺘﻟﺍ ﻦﻴﺑ ﺓﺄﺒﺨﻣ</li>
+    <li>production-&gt;ﻥﺇ ﻝﻮﻘﻳ [note_location] ﻰﻠﻋ ﺪﻴﻟﺍ ﻂﺨﺑ ﺏﻮﺘﻜﻣ [note]\nﺪﻌﺑ ﺖﻘﻠﻏﺃ [worldname] ﻲﻓ ﺔﻋﺎﺒﻄﻟﺍ ﺭﺍﺩ\nﻩﺬﻫ ﻥﺈﻓ ﺍﺬﻟ ،[worldname] ﺐﻐﺷ ﻝﺎﻤﻋﺃ\nﺓﺭﺩﺎﻧ ﺔﻘﺣﻼﻟﺍ ﺕﺎﻌﺒﻄﻟﺍ</li>
+    <li>production-&gt;ﺍﺬﻫ ﺦﺴﻧ ﻢﻈﻌﻣ ﻥﺇ ﻝﻮﻘﻳ ﺵﻮﻘﻨﻣ [note]\n[worldname] ﺔﺛﺩﺎﺣ ﻝﻼﺧ ﺕﺪﻘُﻓ [textbook]ـﻟﺍ</li>
+    <li>production-&gt;ﻱﻭﺫ ﺀﺍﺮﻘﻟﺍ ﻥﺃ [precis_synonym]ـﻟﺍ ﺢﺿﻮﻳ\nﺕﺎﻣﻮﻠﻌﻣ ﺮﺸﻧ ﺕﺎﻴﻨﻘﺘﺑ ﺔﻓﺮﻌﻤﻟﺍ\nﺔﻠﺴﻠﺳ ﺐﻨﺠﺗ ﻰﻟﺇ ﻥﻮﻠﻴﻤﻳ ﻚﻴﺗﻮﻛﺭﻷﺍ\nﺐﺒﺴﻟﺍ ﺮﻛﺫ ﻥﻭﺩ ﻦﻜﻟ - ﻩﺬﻫ [textbook]ـﻟﺍ</li>
+    <li>production-&gt;[worldname] ﻲﻓ [subject] ﻱﺮﺸﺒﻣ ﻥﺃ ﺢﻀﺘﻳ ،[note_location]ـﻟﺍ ﻦﻣ\nﻦﻣ ﺦﺴﻧ ﺔﻋﺎﺒﻃ ﻰﻠﻋ ﺓﻭﺮﺛ ﺍﻮﻘﻔﻧﺃ\nﻕﺎﻄﻧ ﻰﻠﻋ ﻪﻌﻳﺯﻮﺗ ﻢﺛ ،ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ\nﻊﺳﺍﻭ</li>
+    <li>production-&gt;ﻦﻣ ﺓﺮﻜﺒﻤﻟﺍ ﺦﺴﻨﻟﺍ ﻥﺃ [note_location]ـﻟﺍ ﺡﺮﺸﻳ\nﺪﻳ ﻂﺨﺑ ﺔﺑﻮﺘﻜﻣ ﺖﻧﺎﻛ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ\n[ANYPAWN_label] [ANYPAWN_objective]self</li>
+    <li>production-&gt;ﻥﺃ ﻁﺮﺸﺑ ،[textbook]ـﻟﺍ ﺍﺬﻫ ﺖﻋﺭ [worldname] ﺔﻗﻭﺩ\nﺎﻧﺎﺠﻣ ﺎﺣﺎﺘﻣ ﻥﻮﻜﻳ</li>
+    <li>production-&gt;ﺔﻋﺎﺑ ﻦﻣ ﺎﻛﺍﺮﺘﺷﺍ ﻥﺇ ﻝﻮﻘﺗ ﺔﻈﺣﻼﻣ\nﻰﻟﻭﻷﺍ ﺔﻌﺒﻄﻟﺍ ﺞﺘﻧﺃ [coreworld] ﻲﻓ ﺐﺘﻜﻟﺍ\n[textbook]ـﻟﺍ ﺍﺬﻫ ﻦﻣ</li>
+    <li>production-&gt;ﻦﻋ ﺮﺷﺎﻨﻟﺍ ﻦﻠﻌﻳ ،ﺏﺎﺘﻜﻟﺍ ﺮﺧﺁ ﻲﻓ\nﻊﻴﻤﺟ ﺞﻟﺎﻌﺗ ﺮﺒﻛﺃ ﺔﻠﺴﻠﺳ\nﻰﻠﻋ ﺀﺎﻘﺒﻠﻟ ﺔﻣﺯﻼﻟﺍ ﺕﺎﻋﻮﺿﻮﻤﻟﺍ\nﺔﻓﺎﺤﻟﺍ</li>
+    <li>production-&gt;ﻥﺃ ﻦﻳﺮﺷﺎﻨﻟﺍ ﻥﺎﻜﻣﺈﺑ ﻥﺎﻛ ﺎﻤﺑﺭ\nﻢﻬﺗﺎﺒﺟﺍﻭ ﻲﻓ ﺔﺣﺍﺮﺻ ﺮﺜﻛﺃ ﺍﻮﻧﻮﻜﻳ\nﻱﻮﺤﻨﻟﺍ ﻝﺎﻤﻫﻺﻟ ﺍﺮﻈﻧ ،ﺔﻳﺮﻳﺮﺤﺘﻟﺍ</li>
+    <li>quality_statement-&gt;[exterior_quality] [page_quality]</li>
+    <li>anecdote-&gt;ﺔﻨﺳ ﻦﻴﺑ ﺓﺮﻴﺒﻜﻟﺍ ﺓﻮﺠﻔﻠﻟ ﺍﺮﻈﻧ\n،ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ ﺮﺸﻧ ﺦﻳﺭﺎﺗﻭ [ANYPAWN_nameFull] ﺩﻼﻴﻣ\nﻯﺮﻴﻟ ﺵﺎﻋ [ANYPAWN_pronoun] ﻥﺃ ﺢﺟﺮﻤﻟﺍ ﺮﻴﻏ ﻦﻤﻓ\nﺍﺭﻮﺸﻨﻣ ﺍﺬﻫ</li>
+    <li>anecdote-&gt;ﺔﻌﺟﺍﺮﻣ ﻖﺼﻠﺑ ﺎﻣ ﺺﺨﺷ ﻡﺎﻗ ،[note_location] ﻰﻠﻋ\nﺏﺎﺘﻜﻠﻟ ﺔﻋﺫﻻ</li>
+    <li>anecdote-&gt;ﺮﻣ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ ﻥﺃ ﻰﻟﺇ [precis_synonym]ـﻟﺍ ﺮﻴﺸﻳ\n[urbworld] ﻲﻓ ﺔﻣﺎﻌﻟﺍ ﺕﺎﺒﺘﻜﻤﻟﺍ ﻡﺎﻈﻧ ﺮﺒﻋ</li>
+    <li>anecdote-&gt;ﻪﻧﻮﻜﺑ ﺎﻓﻭﺮﻌﻣ [ANYPAWN_nameFull] ﻥﺎﻛ ،[note_location]ـﻟ ﺎﻘﻓﻭ\nﺕﺎﻋﻮﺿﻮﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻲﻓ ﺍﺫﺎﺘﺳﺃ</li>
+    <li>anecdote-&gt;ﻥﻮﺛﺪﺤﺘﻳ [worldname] ﻞﻫﺃ ﻝﺍﺰﻳ ﻻ ،[note_location]ـﻟ ﺎﻘﻓﻭ\n[subject]ـﻟ [ANYPAWN_possessive] ﺐﺣ ﻥﻭﺮﻛﺬﺘﺴﻳﻭ [ANYPAWN_nameFull] ﻦﻋ</li>
+    <li>anecdote-&gt;ﺐﻳﺮﻏ ﻚﺑﺎﺸﺗ ﺙﺩﺎﺣ ﻞﺘﻗ ،[note_location]ـﻟ ﺎﻘﻓﻭ\nﺮﻴﺼﻗ ﺖﻗﻮﺑ ﺮﺸﻨﻟﺍ ﺪﻌﺑ [ANYPAWN_nameFull] ﻒﻟﺆﻤﻟﺍ</li>
+    <li>anecdote-&gt;ﻲﻓ [ANYPAWN_possessive] ﻡﺎﻳﺃ [ANYPAWN_nameFull] ﻰﻀﻗ ،[precis_synonym]ـﻟ ﺎﻘﻓﻭ\n.[coreworld] ﻰﻠﻋ ﺔﻴﻤﻳﺩﺎﻛﻷﺍ ﻲﻓ ﺲﻳﺭﺪﺘﻟﺍ\n[ANYPAWN_possessive] ﺕﺍﺮﺿﺎﺤﻣ ﻦﻣ ﺫﻮﺧﺄﻣ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ</li>
+    <li>anecdote-&gt;[subject]ـﺑ [ANYPAWN_nameFull] ﺔﻓﺮﻌﻣ ﺖﻧﺎﻛ ،[precis_synonym]ـﻟ ﺎﻘﻓﻭ\nﺍﻮﻧﺎﻛ ﺱﺎﻨﻟﺍ ﻥﺃ ﺔﺟﺭﺪﻟ ﺓﺭﻮﻬﺸﻣ\nﻩﻮﻟﺄﺴﻴﻟ ﻉﺭﺎﺸﻟﺍ ﻲﻓ [ANYPAWN_objective] ﻥﻮﻔﻗﻮﻳ\nﺎﻬﻨﻋ</li>
+    <li>anecdote-&gt;ﻉﺎﺑﻭ ﺍﺯﻮﻌﻣ [ANYPAWN_nameFull] ﻥﺎﻛ ،[note_location]ـﻟ ﺎﻘﻓﻭ\nﺪﻴﻫﺯ ﻎﻠﺒﻤﺑ ﺔﻠﺴﻠﺴﻟﺍ ﻩﺬﻫ ﻕﻮﻘﺣ</li>
+    <li>anecdote-&gt;ﺬﻨﻣ ﻰﻤﻋﺃ [ANYPAWN_nameFull] ﻥﺎﻛ ،[note_location]ـﻟ ﺎﻘﻓﻭ\nﺍﺪﺑﺃ [ANYPAWN_possessive] ﺏﺎﺘﻛ ﺮﻳ ﻢﻟ ﺍﺬﻟ ،ﺓﺩﻻﻮﻟﺍ</li>
+    <li>anecdote-&gt;ﻰﻟﻭﻷﺍ [ANYPAWN_nameFull] ﺓﺩﻮﺴﻣ ﺕﺮﻬﺘﺷﺍ ،[note_location]ـﻟ ﺎﻘﻓﻭ\nﺎﻬﺋﺍﻮﺘﺣﺎﺑ ﻲﺳﺭﺪﻤﻟﺍ ﺏﺎﺘﻜﻟﺍ ﻦﻣ\nﻢﺗ .ﺩﺍﺮﻄﺘﺳﻻﺍ ﻦﻣ ﺔﺤﻔﺻ ﻦﻴﺴﻤﺧ ﻰﻠﻋ\nﺔﻴﻧﺎﺜﻟﺍ ﺔﻌﺒﻄﻠﻟ ﺎﻬﻓﺬﺣ</li>
+    <li>anecdote-&gt;ﺔﺌﻴﺳ [ANYPAWN_nameFull] ﺔﻌﻤﺳ ﺖﻧﺎﻛ ،[note_location]ـﻟ ﺎﻘﻓﻭ\nﺖﺤﺗ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ ﺮﺸﻧ [ANYPAWN_pronoun] ﻥﺃ ﺔﺟﺭﺪﻟ\nﺭﺎﻌﺘﺴﻣ ﻢﺳﺍ</li>
+    <li>anecdote-&gt;[ANYPAWN_nameFull] ﻥﺎﻛ ،ﻼﻔﻃ ﻥﺎﻛ ﺎﻣﺪﻨﻋ ،[note_location]ـﻟ ﺎﻘﻓﻭ\n.ﺍﻮﺴﺌﻳ [ANYPAWN_possessive] ﻱﺪﻟﺍﻭ ﻥﺃ ﺔﺟﺭﺪﻟ ﻻﻮﺴﻛ\nﺕﺎﺒﺛﺇ ﻮﻫ ﻲﺳﺭﺪﻤﻟﺍ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ\n[ANYPAWN_possessive] ﺓﺭﺎﻬﻤﻟ</li>
+    <li>anecdote-&gt;[ANYPAWN_nameFull] ﺝﺍﻭﺯ ﻝﻼﺧ ﻥﺎﻛ ،[precis_synonym]ـﻟ ﺎﻘﻓﻭ\nﺎﻴﺳﺭﺪﻣ ﺎﺑﺎﺘﻛ [ANYPAWN_pronoun] ﺭﻮﺼﺗ ﻥﺃ ﻊﺑﺍﺮﻟﺍ\n[ANYPAWN_possessive] ﻕﻼﻃ ﻰﻟﺇ ﺍﺬﻫ ﻯﺩﺃ) .[subject] ﻦﻋ\n(ﻊﺑﺍﺮﻟﺍ</li>
+    <li>textbook-&gt;ﻱﺪﻴﻬﻤﺗ ﺏﺎﺘﻛ</li>
+    <li>textbook-&gt;ﺐﻴﺘﻛ</li>
+    <li>textbook-&gt;ﻲﺳﺭﺪﻣ ﺏﺎﺘﻛ</li>
+    <li>textbook(p=6)-&gt;ﺏﺎﺘﻛ</li>
+    <li>textbook-&gt;ﺕﺎﺒﻳﺭﺪﺗ ﺔﺳﺍﺮﻛ</li>
+    <li>textbook-&gt;ﻲﻌﺟﺮﻣ ﺏﺎﺘﻛ</li>
+    <li>textbook-&gt;ﺔﺻﻼﺧ</li>
+    <li>textbook-&gt;ﻞﻴﻟﺩ</li>
+    <li>textbook-&gt;ﺐﻴﺘﻛ</li>
+    <li>textbook-&gt;ﺞﻬﻨﻣ</li>
+    <li>textbook-&gt;ﺭﺮﻘﻣ ﺏﺎﺘﻛ</li>
+    <li>textbook-&gt;ﻲﻌﺟﺮﻣ ﺏﺎﺘﻛ</li>
+    <li>textbook-&gt;ﻲﺳﺭﺪﻣ ﺏﺎﺘﻛ</li>
+    <li>textbook-&gt;ﺔﻋﻮﺳﻮﻣ</li>
+    <li>textbook-&gt;ﻞﻴﻟﺩ</li>
+    <li>textbook-&gt;ﻱﺭﺎﺠﺗ ﺏﺎﺘﻛ</li>
+    <li>textbook-&gt;ﻞﻤﻋ</li>
+    <li>precis_synonym-&gt;ﺺﺨﻠﻣ</li>
+    <li>precis_synonym-&gt;ﻥﺍﻮﻨﻋ ﺔﺤﻔﺻ</li>
+    <li>precis_synonym-&gt;ﺺﺨﻠﻣ</li>
+    <li>precis_synonym-&gt;ﺰﺟﻮﻣ</li>
+    <li>precis_synonym-&gt;ﻂﻄﺨﻣ</li>
+    <li>precis_synonym-&gt;ﺔﺻﻼﺧ</li>
+    <li>note_location-&gt;ﻲﻣﺎﻣﻷﺍ ﻑﻼﻐﻟﺍ</li>
+    <li>note_location-&gt;ﻲﻔﻠﺨﻟﺍ ﻑﻼﻐﻟﺍ</li>
+    <li>note_location-&gt;ﺔﻴﻣﺎﻣﻷﺍ ﺔﻴﻄﻟﺍ</li>
+    <li>note_location-&gt;ﺔﻴﻔﻠﺨﻟﺍ ﺔﻴﻄﻟﺍ</li>
+    <li>note_location-&gt;ﻰﻟﻭﻷﺍ ﺔﺤﻔﺼﻟﺍ</li>
+    <li>note_location-&gt;ﺓﺮﻴﺧﻷﺍ ﺔﺤﻔﺼﻟﺍ</li>
+    <li>note_location-&gt;ﺶﻣﺍﻮﻬﻟﺍ</li>
+    <li>note_location-&gt;ﻥﺍﻮﻨﻌﻟﺍ ﺔﺤﻔﺻ</li>
+    <li>note_location-&gt;ﺔﻴﺷﺎﺣ</li>
+    <li>note_location-&gt;ﻲﻣﺎﺘﺧ ﻖﻴﻠﻌﺗ</li>
+    <li>note_location-&gt;ﻒﻟﺆﻤﻟﺍ ﺓﺮﻴﺳ</li>
+    <li>note_location-&gt;ﻦﺤﺷ ﺔﻗﺎﻄﺑ</li>
+    <li>note-&gt;ﺔﻈﺣﻼﻣ</li>
+    <li>note-&gt;ﺔﻓﺎﺿﺇ</li>
+    <li>note-&gt;ﺔﻴﺷﺎﺣ</li>
+    <li>note-&gt;ﻡﺎﺘﺧ</li>
+    <li>note-&gt;ﻖﺤﻠﻣ</li>
+    <li>note-&gt;ﻞﻳﺫ</li>
+    <li>note-&gt;ﺔﻴﺷﺎﺣ</li>
+    <li>note-&gt;ﻲﻣﺎﺘﺧ ﻖﻴﻠﻌﺗ</li>
+    <li>useful_information-&gt;ﺓﺮﻴﻐﺻ ﺓﺪﻴﻔﻣ ﺕﺎﻣﻮﻠﻌﻣ</li>
+    <li>useful_information-&gt;ﺓﺪﻴﻔﻣ ﺕﺎﻣﻮﻠﻌﻣ</li>
+    <li>useful_information-&gt;ﺓﺮﻴﺜﻣ ﻖﺋﺎﻘﺣ</li>
+    <li>useful_information-&gt;ﺔﻤﻴﻗ ﻯﺅﺭ</li>
+    <li>useful_information-&gt;ﺔﻴﻠﻤﻋ ﻯﺅﺭ</li>
+    <li>useful_information-&gt;ﺓﺪﻴﻔﻣ ﺢﺋﺎﺼﻧ</li>
+    <li>useful_information-&gt;ﺔﻴﻣﻼﻋﺇ ﻞﻴﺻﺎﻔﺗ</li>
+    <li>understanding_synonym-&gt;ـﺑ ﺔﻓﺮﻌﻣ</li>
+    <li>understanding_synonym-&gt;ﻲﻓ ﺕﺍﺬﻟﺍ ﺮﻳﻮﻄﺗ</li>
+    <li>understanding_synonym-&gt;ـﻟ ﻢﻬﻓ</li>
+    <li>understanding_synonym-&gt;ـﺑ ﻢﻠﻋ</li>
+    <li>understanding_synonym-&gt;ﻲﻓ ﻉﻼﻃﺍ ﺔﻌﺳ</li>
+    <li>understanding_synonym-&gt;ﻲﻓ ﺓﺮﺒﺧ</li>
+    <li>understanding_synonym-&gt;ـﻟ ﺔﻔﺴﻠﻓ</li>
+    <li>understanding_synonym-&gt;ﺕﺎﻴﻗﻼﺧﺃ</li>
+    <li>notable_adjective-&gt;ﺮﻴﻬﺷ</li>
+    <li>notable_adjective-&gt;ﺾﻣﺎﻏ</li>
+    <li>notable_adjective-&gt;ﻲﻧﻮﻘﻳﺃ</li>
+    <li>notable_adjective-&gt;ﻲﻜﻴﺳﻼﻛ</li>
+    <li>notable_adjective-&gt;ﻊﺋﺎﺷ</li>
+    <li>notable_adjective-&gt;ﻑﻮﻟﺄﻣ</li>
+    <li>notable_adjective-&gt;ﺪﻟﺎﺧ</li>
+    <li>notable_adjective-&gt;ﻥﺯﺍﻮﺘﻣ ﺮﻴﻏ</li>
+    <li>notable_adjective-&gt;ﻢﻏﺎﻨﺘﻣ</li>
+    <li>notable_adjective-&gt;ﻖﻴﻧﺃ</li>
+    <li>notable_adjective-&gt;ﻂﻴﺴﺑ</li>
+    <li>notable_adjective-&gt;ﻲﻔﻴﻇﻭ</li>
+    <li>notable_adjective-&gt;ﻱﺮﻀﺣ</li>
+    <li>notable_adjective-&gt;ﻕﺍﺮﺑ</li>
+    <li>notable_adjective-&gt;ﻲﺋﺍﺪﺑ</li>
+    <li>notable_adjective-&gt;ﻲﻨﻴﻳﺰﺗ</li>
+    <li>exterior_quality(quality[greater_than]4)-&gt;ﺪﻠﺠﻣ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻬﻟ ﻲﺟﺭﺎﺨﻟﺍ ﻑﻼﻐﻟﺍ\nﻭ ﻥﺎﻘﺗﺈﺑ</li>
+    <li>exterior_quality(quality[greater_than]4)-&gt;ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ ،ﺔﻋﺎﺒﻄﻟﺍ ﻦﻓ ﻦﻣ ﺔﻔﺤﺗ\nﻭ ﻊﻤﻠﻳ</li>
+    <li>exterior_quality(quality[greater_than]4)-&gt;ﻪﻨﻜﻟ ﻦﺸﺧ ﻱﺪﻠﺠﻟﺍ ﻪﻓﻼﻏ</li>
+    <li>exterior_quality(quality[greater_than]4)-&gt;،ﺍﺪﺟ ﻂﻴﺴﺑ ﻑﻼﻐﻟﺍ ﻥﺃ ﻢﻏﺭ</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)-&gt;ﻯﺃﺭ ﺪﻗ ﻲﺳﺭﺪﻤﻟﺍ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ\nﻦﻜﻟ ،ﻞﻀﻓﺃ ﺎﻣﺎﻳﺃ</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)-&gt;،ﻼﻤﻌﺘﺴﻣ ﺎﻴﺳﺭﺪﻣ ﺎﺑﺎﺘﻛ ﻪﻧﻮﻛ ﻢﻏﺭ</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)-&gt;،ﻥﻭﺮﻴﺜﻛ ﻙﻼﻣ ﻪﻟ ﻥﺎﻛ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ\nﻦﻜﻟ</li>
+    <li>exterior_quality(quality[less_than]2)-&gt;ﺔﺑﺍﺬﺟ ﻭﺪﺒﺗ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ ﺔﻣﺪﻘﻣ\nﻦﻜﻟ</li>
+    <li>exterior_quality(quality[less_than]2)-&gt;ﻦﻣ ﻝﻭﻷﺍ ﺚﻠﺜﻟﺍ ﻖﻳﺰﻤﺘﺑ ﻢﻫﺪﺣﺃ ﻡﺎﻗ\nﻭ ﺏﺎﺘﻜﻟﺍ</li>
+    <li>exterior_quality(quality[less_than]2)-&gt;ﺔﺤﺋﺍﺭ ﻱﺫ ﻞﺋﺎﺳ ﻲﻓ ﻉﻮﻘﻨﻣ ﻑﻼﻐﻟﺍ\nﻭ ﺔﻳﻮﻗ</li>
+    <li>exterior_quality(quality[less_than]2)-&gt;ﻲﻓ ﺄﻄﺧ ﺀﻲﺷ ﻻ ﻰﻟﻭﻷﺍ ﺔﻠﻫﻮﻠﻟ\nﻦﻜﻟ ،ﺏﺎﺘﻜﻟﺍ</li>
+    <li>page_quality-&gt;[page_condition] ﺕﺎﺤﻔﺼﻟﺍ</li>
+    <li>page_condition(quality[greater_than]4)-&gt;[page_excellent]</li>
+    <li>page_condition(quality[less_than]5,quality[greater_than]1)-&gt;[page_decent]</li>
+    <li>page_condition(quality[less_than]2)-&gt;[page_awful]</li>
+    <li>page_excellent-&gt;ﺲﻤﻠﺗ ﻢﻟ ﺎﻬﻧﺄﻛﻭ ،ﺔﻠﻫﺬﻣ ﺔﻟﺎﺣ ﻲﻓ\nﺍﺪﺑﺃ</li>
+    <li>page_excellent-&gt;ﺓﺪﻴﺟ ﺔﻟﺎﺣ ﻲﻓ</li>
+    <li>page_excellent-&gt;ﺔﻴﻘﻧ</li>
+    <li>page_excellent-&gt;ﺔﻔﻴﻈﻧﻭ ﺔﻌﻣﻻ</li>
+    <li>page_excellent-&gt;ﺪﻳﺮﻓ ﻞﻜﺸﺑ ﺔﻇﻮﻔﺤﻣ</li>
+    <li>page_decent-&gt;ﺎﻬﺑ ﺱﺄﺑ ﻻ ﺔﻟﺎﺣ ﻲﻓ</li>
+    <li>page_decent-&gt;ﺓﺪﻌﺠﻣ ﺖﻧﺎﻛ ﻥﺇﻭ ،ﺓﺀﻭﺮﻘﻣ</li>
+    <li>page_decent-&gt;ﻡﺎﺗ ﺡﻮﺿﻮﺑ ﺃﺮﻘﺗ</li>
+    <li>page_decent-&gt;ﺔﺷﻭﺪﺨﻣ ﺖﻧﺎﻛ ﻥﺇﻭ ،ﺎﻬﺑ ﺱﺄﺑ ﻻ\nﻼﻴﻠﻗ</li>
+    <li>page_awful-&gt;ﺖﺘﻔﺘﻣ ﻕﺭ ﻰﻠﻋ ﺔﺑﻮﺘﻜﻣ ﻭﺪﺒﺗ</li>
+    <li>page_awful-&gt;ﺓﺪﺸﺑ ﺔﻔﻟﺎﺗ</li>
+    <li>page_awful-&gt;ﺔﻨﻛﺍﺩ ﺓﺩﺎﻤﺑ ﺔﺨﻄﻠﻣ</li>
+    <li>page_awful-&gt;ﺓﺀﻭﺮﻘﻣ ﺮﻴﻏ</li>
+    <li>page_awful-&gt;ﺀﻭﺮﻘﻣ ﺮﻴﻏ ﻂﺨﺑ ﺎﻬﻴﻠﻋ ﻖﻴﻠﻌﺘﻟﺍ ﻢﺗ</li>
+    <li>worldname-&gt;[glitterworld]</li>
+    <li>worldname-&gt;[urbworld]</li>
+    <li>worldname-&gt;[deadworld]</li>
+    <li>worldname-&gt;[shellworld]</li>
+    <li>worldname-&gt;[ruinworld]</li>
+    <li>worldname-&gt;[medievalworld]</li>
+    <li>worldname-&gt;[steamworld]</li>
+    <li>worldname-&gt;[midworld]</li>
+    <li>worldname-&gt;[rimworld]</li>
+    <li>worldname-&gt;[coreworld]</li>
+    <li>worldname-&gt;[toxicworld]</li>
+    <li>worldname-&gt;[glassworld]</li>
+    <li>worldname-&gt;[transcendentworld]</li>
+    <li>worldname-&gt;[indworld]</li>
+    <li>worldname-&gt;[prisonworld]</li>
+    <li>worldname-&gt;[feudalworld]</li>
+    <li>worldname-&gt;[trashworld]</li>
+    <li>worldname-&gt;[iceworld]</li>
+    <li>worldname-&gt;[dinoworld]</li>
+    <li>worldname-&gt;[warworld]</li>
+    <li>worldname-&gt;[oceanicworld]</li>
+    <li>worldname-&gt;[mineworld]</li>
+    <li>worldname-&gt;[animalworld]</li>
+    <li>worldname-&gt;[asteroid]</li>
+    <li>worldname-&gt;[animalworld]</li>
+    <li>feralworld-&gt;[animalworld]</li>
+    <li>milworld-&gt;[warworld]</li>
+    <li>animalworld-&gt;Sorne</li>
+    <li>animalworld-&gt;Rhydell</li>
+    <li>animalworld-&gt;Zoutera</li>
+    <li>animalworld-&gt;Thylacine</li>
+    <li>animalworld-&gt;Jiai</li>
+    <li>animalworld-&gt;Steller's World</li>
+    <li>animalworld-&gt;Aukton</li>
+    <li>asteroid-&gt;Iwamura</li>
+    <li>asteroid-&gt;Atura</li>
+    <li>asteroid-&gt;Widdershins</li>
+    <li>asteroid-&gt;Ranomi</li>
+    <li>asteroid-&gt;Aesh 265</li>
+    <li>asteroid-&gt;Taxlos</li>
+    <li>asteroid-&gt;Aryn Sigma</li>
+    <li>coreworld-&gt;Novaroma</li>
+    <li>coreworld-&gt;Lutuni</li>
+    <li>coreworld-&gt;Zeglar</li>
+    <li>coreworld-&gt;Novaroma</li>
+    <li>coreworld-&gt;Cormora Prime</li>
+    <li>coreworld-&gt;Glossolia</li>
+    <li>coreworld-&gt;Barbaros</li>
+    <li>deadworld-&gt;Callos IX</li>
+    <li>deadworld-&gt;Haspia</li>
+    <li>deadworld-&gt;Gost IV</li>
+    <li>deadworld-&gt;Berimund</li>
+    <li>deadworld-&gt;Ardar</li>
+    <li>deadworld-&gt;Kremhild</li>
+    <li>deadworld-&gt;Melisandz</li>
+    <li>deathworld-&gt;Creticon</li>
+    <li>deathworld-&gt;Zartza</li>
+    <li>deathworld-&gt;Rayth</li>
+    <li>deathworld-&gt;Spectra</li>
+    <li>deathworld-&gt;JNovahex</li>
+    <li>deathworld-&gt;Carthago</li>
+    <li>deathworld-&gt;Grimcore</li>
+    <li>dinoworld-&gt;Oubanyen</li>
+    <li>dinoworld-&gt;Zoutera</li>
+    <li>dinoworld-&gt;Einio</li>
+    <li>dinoworld-&gt;Baryonyx</li>
+    <li>dinoworld-&gt;N'cilo</li>
+    <li>dinoworld-&gt;Venator</li>
+    <li>dinoworld-&gt;Brach</li>
+    <li>feudalworld-&gt;Aracena VI</li>
+    <li>feudalworld-&gt;Nuchadus</li>
+    <li>feudalworld-&gt;Filson</li>
+    <li>feudalworld-&gt;Fieth</li>
+    <li>feudalworld-&gt;Bloch Regis</li>
+    <li>feudalworld-&gt;Carlosphere</li>
+    <li>feudalworld-&gt;Magna Dijou</li>
+    <li>glassworld-&gt;Ceti V</li>
+    <li>glassworld-&gt;Thebes XIV</li>
+    <li>glassworld-&gt;Naga</li>
+    <li>glassworld-&gt;Merv</li>
+    <li>glassworld-&gt;Perse</li>
+    <li>glassworld-&gt;Shechem</li>
+    <li>glassworld-&gt;Yelhazor</li>
+    <li>glitterworld-&gt;Kalthas IV</li>
+    <li>glitterworld-&gt;Amen-Ti</li>
+    <li>glitterworld-&gt;Sophiamunda</li>
+    <li>glitterworld-&gt;Rogia</li>
+    <li>glitterworld-&gt;Utmaior</li>
+    <li>glitterworld-&gt;Caspian</li>
+    <li>glitterworld-&gt;Kenerella</li>
+    <li>iceworld-&gt;Yttak</li>
+    <li>iceworld-&gt;Dedchenko</li>
+    <li>iceworld-&gt;Baltoro</li>
+    <li>iceworld-&gt;Furtwale</li>
+    <li>iceworld-&gt;Jaqua</li>
+    <li>iceworld-&gt;Christensen</li>
+    <li>iceworld-&gt;Barnes</li>
+    <li>indworld-&gt;Irithir</li>
+    <li>indworld-&gt;New China</li>
+    <li>indworld-&gt;Hudders</li>
+    <li>indworld-&gt;Iver</li>
+    <li>indworld-&gt;Achesta</li>
+    <li>indworld-&gt;Oods</li>
+    <li>indworld-&gt;Iladelf</li>
+    <li>medievalworld-&gt;Chelis</li>
+    <li>medievalworld-&gt;Vinna</li>
+    <li>medievalworld-&gt;Cassone</li>
+    <li>medievalworld-&gt;Jork</li>
+    <li>medievalworld-&gt;Cochmar</li>
+    <li>medievalworld-&gt;Alin</li>
+    <li>medievalworld-&gt;Dubrognago</li>
+    <li>midworld-&gt;Khalderia</li>
+    <li>midworld-&gt;Elsin</li>
+    <li>midworld-&gt;Haihan</li>
+    <li>midworld-&gt;Seolure</li>
+    <li>midworld-&gt;Panga</li>
+    <li>midworld-&gt;New London CXI</li>
+    <li>midworld-&gt;San Delenda</li>
+    <li>mineworld-&gt;Xanides</li>
+    <li>mineworld-&gt;Bingham</li>
+    <li>mineworld-&gt;Saarhi</li>
+    <li>mineworld-&gt;Grasbeg</li>
+    <li>mineworld-&gt;Chuqui</li>
+    <li>mineworld-&gt;Olimpia</li>
+    <li>mineworld-&gt;Orme</li>
+    <li>oceanicworld-&gt;Wavia</li>
+    <li>oceanicworld-&gt;Wadka</li>
+    <li>oceanicworld-&gt;Gichen</li>
+    <li>oceanicworld-&gt;Port Yam</li>
+    <li>oceanicworld-&gt;Baia</li>
+    <li>oceanicworld-&gt;Thonis</li>
+    <li>oceanicworld-&gt;Moaui</li>
+    <li>prisonworld-&gt;Yttak</li>
+    <li>prisonworld-&gt;Aldgate</li>
+    <li>prisonworld-&gt;Borren</li>
+    <li>prisonworld-&gt;Hoalo</li>
+    <li>prisonworld-&gt;Casmina</li>
+    <li>prisonworld-&gt;Port Basil</li>
+    <li>prisonworld-&gt;Chateau D'Ouen</li>
+    <li>rimworld-&gt;Filson</li>
+    <li>rimworld-&gt;La Grand</li>
+    <li>rimworld-&gt;Dalles</li>
+    <li>rimworld-&gt;Twig Falls</li>
+    <li>rimworld-&gt;Old Boise</li>
+    <li>rimworld-&gt;Devil's Gate</li>
+    <li>rimworld-&gt;Laramiere</li>
+    <li>ruinworld-&gt;Earth</li>
+    <li>ruinworld-&gt;Ilwaba</li>
+    <li>ruinworld-&gt;Xennoa</li>
+    <li>ruinworld-&gt;Pichu</li>
+    <li>ruinworld-&gt;Perdida</li>
+    <li>ruinworld-&gt;Hisarlik</li>
+    <li>ruinworld-&gt;Helike</li>
+    <li>shellworld-&gt;Boccocarro</li>
+    <li>shellworld-&gt;Destria</li>
+    <li>shellworld-&gt;Trophic</li>
+    <li>shellworld-&gt;Matrio</li>
+    <li>shellworld-&gt;Samen</li>
+    <li>shellworld-&gt;Xinthia</li>
+    <li>shellworld-&gt;Ferbine</li>
+    <li>steamworld-&gt;Corliss</li>
+    <li>steamworld-&gt;Borassic</li>
+    <li>steamworld-&gt;Savery II</li>
+    <li>steamworld-&gt;Heron</li>
+    <li>steamworld-&gt;Malmesburi</li>
+    <li>steamworld-&gt;Architonnerre</li>
+    <li>steamworld-&gt;Escapement</li>
+    <li>toxicworld-&gt;Scylla</li>
+    <li>toxicworld-&gt;Mauro</li>
+    <li>toxicworld-&gt;Cerospor</li>
+    <li>toxicworld-&gt;Oxy VI</li>
+    <li>toxicworld-&gt;Sangwine</li>
+    <li>toxicworld-&gt;Soleno</li>
+    <li>toxicworld-&gt;Imbatus</li>
+    <li>transcendentworld-&gt;Xaroh</li>
+    <li>transcendentworld-&gt;Immanence VI</li>
+    <li>transcendentworld-&gt;Qabba</li>
+    <li>transcendentworld-&gt;Einsof</li>
+    <li>transcendentworld-&gt;Mitvo</li>
+    <li>transcendentworld-&gt;Samydi</li>
+    <li>transcendentworld-&gt;Samsarr</li>
+    <li>trashworld-&gt;Bagua 5</li>
+    <li>trashworld-&gt;Puobell</li>
+    <li>trashworld-&gt;Deni IX</li>
+    <li>trashworld-&gt;Garbsh</li>
+    <li>trashworld-&gt;Tra'age</li>
+    <li>trashworld-&gt;Reepsyk</li>
+    <li>trashworld-&gt;Mystras</li>
+    <li>urbworld-&gt;Euterpe</li>
+    <li>urbworld-&gt;Avenna</li>
+    <li>urbworld-&gt;Essalon</li>
+    <li>urbworld-&gt;Enike</li>
+    <li>urbworld-&gt;Adocia</li>
+    <li>urbworld-&gt;N'toch</li>
+    <li>urbworld-&gt;Barca</li>
+    <li>warworld-&gt;Kemia</li>
+    <li>warworld-&gt;Vanu</li>
+    <li>warworld-&gt;Samnium</li>
+    <li>warworld-&gt;Kyrus</li>
+    <li>warworld-&gt;Punica</li>
+    <li>warworld-&gt;Cimbria XII</li>
+    <li>warworld-&gt;Barkitos</li>
+ </Description_SkillBook.rulePack.rulesStrings>
+  
+</LanguageData>

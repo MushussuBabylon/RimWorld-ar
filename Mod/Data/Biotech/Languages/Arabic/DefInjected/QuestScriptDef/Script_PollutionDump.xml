@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>wastepacksLetterLabel->Wastepacks arrived</li>
+    <li>wastepacksLetterText->The toxic wastepacks have been delivered.</li>
+  -->
+  <PollutionDump.questContentRules.rulesStrings>
+    <li>wastepacksLetterLabel-&gt;ﺕﺎﻳﺎﻔﻨﻟﺍ ﺱﺎﻴﻛﺃ ﺖﻠﺻﻭ</li>
+    <li>wastepacksLetterText-&gt;ﺕﺎﻳﺎﻔﻨﻟﺍ ﺱﺎﻴﻛﺃ ﻢﻴﻠﺴﺗ ﻢﺗ\n.ﺔﻣﺎﺴﻟﺍ</li>
+ </PollutionDump.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==True)->A machine persona in an orbiting ship has a special request. She wishes to offload an excess of toxic wastepacks and hopes that you will store them responsibly.\n\nIf you accept, she will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has a special request. [asker_pronoun] has produced an abundance of toxic wastepacks that [asker_pronoun] does not wish to store.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has a special request. Someone has dumped an abundance of toxic wastepacks near one of [asker_possessive] settlements and [asker_pronoun] is unable to safely store them.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+  -->
+  <PollutionDump.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==True)-&gt;ﺔﻳﺭﺍﺪﻣ ﺔﻨﻴﻔﺳ ﻲﻓ ﺔﻴﻟﺁ ﺔﻴﺼﺨﺷ\nﻎﻳﺮﻔﺗ ﻲﻓ ﺐﻏﺮﺗ .ﺹﺎﺧ ﺐﻠﻃ ﺎﻬﻳﺪﻟ\nﺕﺎﻳﺎﻔﻨﻟﺍ ﺱﺎﻴﻛﺃ ﻦﻣ ﺓﺪﺋﺍﺯ ﺔﻴﻤﻛ\nﺍﻮﻣﻮﻘﺗ ﻥﺃ ﻞﻣﺄﺗﻭ ﺔﻣﺎﺴﻟﺍ\n.ﺔﻟﻭﺆﺴﻣ ﺔﻘﻳﺮﻄﺑ ﺎﻬﻨﻳﺰﺨﺘﺑ\n\nﺲﻴﻛ [wastepackCount] ﻞﻴﺻﻮﺘﺑ ﻡﻮﻘﺘﺳ ،ﺖﻠﺒﻗ ﺍﺫﺇ\n.ﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ ﺔﻄﺳﺍﻮﺑ ﺔﻣﺎﺳ ﺕﺎﻳﺎﻔﻧ\n\nﺏﻭﺬﺘﺳ ،ﺓﺪﻤﺠﻣ ﻆﻔﺤُﺗ ﻢﻟ ﺍﺫﺇ\nﺭﻭﺮﻣ ﻊﻣ ﺔﻣﺎﺴﻟﺍ ﺕﺎﻳﺎﻔﻨﻟﺍ ﺱﺎﻴﻛﺃ\n.ﺔﺒﻳﺮﻘﻟﺍ ﺽﺭﻷﺍ ﺙﻮﻠﻳ ﺎﻤﻣ ،ﺖﻗﻮﻟﺍ</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)-&gt;ﺪﻘﻟ .ﺹﺎﺧ ﺐﻠﻃ ﻪﻳﺪﻟ [asker_faction_name] ﻦﻣ [asker_nameFull]، [asker_royalTitleInCurrentFaction]\nﺕﺎﻳﺎﻔﻨﻟﺍ ﺱﺎﻴﻛﺃ ﻦﻣ ﺓﺮﻓﻭ [asker_pronoun] ﺞﺘﻧﺃ\nﻲﻓ [asker_pronoun] ﺐﻏﺮﻳ ﻻ ﻲﺘﻟﺍ ﺔﻣﺎﺴﻟﺍ\n.ﺎﻬﻨﻳﺰﺨﺗ\n\nﺲﻴﻛ [wastepackCount] ﻞﻴﺻﻮﺘﺑ [asker_nameDef] ﻡﻮﻘﻴﺳ ،ﺖﻠﺒﻗ ﺍﺫﺇ\n.ﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ ﺔﻄﺳﺍﻮﺑ ﺔﻣﺎﺳ ﺕﺎﻳﺎﻔﻧ\n\nﺏﻭﺬﺘﺳ ،ﺓﺪﻤﺠﻣ ﻆﻔﺤُﺗ ﻢﻟ ﺍﺫﺇ\nﺭﻭﺮﻣ ﻊﻣ ﺔﻣﺎﺴﻟﺍ ﺕﺎﻳﺎﻔﻨﻟﺍ ﺱﺎﻴﻛﺃ\n.ﺔﺒﻳﺮﻘﻟﺍ ﺽﺭﻷﺍ ﺙﻮﻠﻳ ﺎﻤﻣ ،ﺖﻗﻮﻟﺍ</li>
+    <li>questDescription(asker_factionLeader==True)-&gt;ﻡﺎﻗ ﺪﻘﻟ .ﺹﺎﺧ ﺐﻠﻃ ﻪﻳﺪﻟ [asker_faction_name] ﻦﻣ [asker_faction_leaderTitle] [asker_nameFull]\nﺱﺎﻴﻛﺃ ﻦﻣ ﺓﺮﻓﻭ ﺀﺎﻘﻟﺈﺑ ﺎﻣ ﺺﺨﺷ\nﻯﺪﺣﺇ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺔﻣﺎﺴﻟﺍ ﺕﺎﻳﺎﻔﻨﻟﺍ\nﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ ﻮﻫﻭ [asker_possessive] ﺕﺎﻨﻃﻮﺘﺴﻣ\n.ﻥﺎﻣﺄﺑ ﺎﻬﻨﻳﺰﺨﺗ\n\nﺲﻴﻛ [wastepackCount] ﻞﻴﺻﻮﺘﺑ [asker_nameDef] ﻡﻮﻘﻴﺳ ،ﺖﻠﺒﻗ ﺍﺫﺇ\n.ﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ ﺔﻄﺳﺍﻮﺑ ﺔﻣﺎﺳ ﺕﺎﻳﺎﻔﻧ\n\nﺏﻭﺬﺘﺳ ،ﺓﺪﻤﺠﻣ ﻆﻔﺤُﺗ ﻢﻟ ﺍﺫﺇ\nﺭﻭﺮﻣ ﻊﻣ ﺔﻣﺎﺴﻟﺍ ﺕﺎﻳﺎﻔﻨﻟﺍ ﺱﺎﻴﻛﺃ\n.ﺔﺒﻳﺮﻘﻟﺍ ﺽﺭﻷﺍ ﺙﻮﻠﻳ ﺎﻤﻣ ،ﺖﻗﻮﻟﺍ</li>
+ </PollutionDump.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[waste] [dump]</li>
+    <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] [waste] [dump]</li>
+    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[asker_nameDef]'s [waste] [dump]</li>
+    <li>waste->waste</li>
+    <li>waste->pollution</li>
+    <li>waste->toxin</li>
+    <li>waste->wastepack</li>
+    <li>dump->dump</li>
+    <li>dump->drop</li>
+    <li>dump->clearance</li>
+    <li>dump->problem</li>
+  -->
+  <PollutionDump.questNameRules.rulesStrings>
+    <li>questName-&gt;[waste] [dump]</li>
+    <li>questName(askerIsNull==False)-&gt;[asker_faction_pawnSingular] [waste] [dump]</li>
+    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)-&gt;[asker_nameDef]'s [waste] [dump]</li>
+    <li>waste-&gt;ﺕﺎﻳﺎﻔﻧ</li>
+    <li>waste-&gt;ﺙﻮﻠﺗ</li>
+    <li>waste-&gt;ﻡﻮﻤﺳ</li>
+    <li>waste-&gt;ﺕﺎﻳﺎﻔﻧ ﺱﺎﻴﻛﺃ</li>
+    <li>dump-&gt;ﺀﺎﻘﻟﺇ</li>
+    <li>dump-&gt;ﻁﺎﻘﺳﺇ</li>
+    <li>dump-&gt;ﺀﻼﺧﺇ</li>
+    <li>dump-&gt;ﺔﻠﻜﺸﻣ</li>
+ </PollutionDump.questNameRules.rulesStrings>
+  
+</LanguageData>

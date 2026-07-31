@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription].\n\n[asker_pronoun] is asking you to lend [asker_objective] [colonistCountToLend] for [lendForDays] days.\n\n[willSendShuttle]</li>
+    <li>disease->flu</li>
+    <li>disease->plague</li>
+    <li>disease->malaria</li>
+    <li>disease->infection</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] needs people to help [dutyRoyalDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists[minAgeOrOlder]</li>
+    <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->colonist</li>
+    <li>colonists(colonistsToLendCount>1)->colonists</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> [minAge] years old or older</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
+  -->
+  <PawnLend.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)-&gt;ٍﺩﺎﻳﺃ ﻰﻟﺇ ﺝﺎﺘﺤﻳ [asker_faction_name] ﻦﻣ [asker_faction_leaderTitle] [asker_nameFull]\n.[dutyDescription] ﻲﻓ ﺓﺪﻋﺎﺴﻤﻠﻟ ﺔﻴﻓﺎﺿﺇ\n\n[lendForDays] ﺓﺪﻤﻟ [asker_objective] [colonistCountToLend] ﺓﺭﺎﻋﺇ ﻚﻨﻣ ﺐﻠﻄﻳ [asker_pronoun]\n.ﻡﺎﻳﺃ\n\n[willSendShuttle]</li>
+    <li>disease-&gt;ﺍﺰﻧﻮﻠﻔﻧﺇ</li>
+    <li>disease-&gt;ﻥﻮﻋﺎﻃ</li>
+    <li>disease-&gt;ﺎﻳﺭﻼﻣ</li>
+    <li>disease-&gt;ﻯﻭﺪﻋ</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)-&gt;ﺹﺎﺨﺷﺃ ﻰﻟﺇ ﺝﺎﺘﺤﻳ [asker_faction_name] ﻦﻣ [asker_royalTitleInCurrentFaction] [asker_nameFull]\n.[dutyRoyalDescription] ﻲﻓ ﺓﺪﻋﺎﺴﻤﻠﻟ\n\n[asker_objective] ﺔﻣﺪﺨﻟ [colonistCountToLend] ﺓﺭﺎﻋﺇ ﻚﻨﻣ ﺐﻠﻄﻳ [asker_pronoun]\n.ﻡﺎﻳﺃ [lendForDays] ﺓﺪﻤﻟ\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)-&gt;[minAgeOrOlder]ﺮﻤﻌﺘﺴﻣ 1</li>
+    <li>colonistCountToLend(colonistsToLendCount&gt;1)-&gt;[minAgeOrOlder]ﻦﻳﺮﻤﻌﺘﺴﻣ [colonistsToLendCount]</li>
+    <li>willSendShuttle-&gt;.[colonists] ﺏﺎﺤﻄﺻﻻ ﺎًﻛﻮﻜﻣ [asker_pronoun] ﻞﺳﺮﻴﺳ</li>
+    <li>colonists(colonistsToLendCount==1)-&gt;ﺮﻤﻌﺘﺴﻣ</li>
+    <li>colonists(colonistsToLendCount&gt;1)-&gt;ﻦﻳﺮﻤﻌﺘﺴﻣ</li>
+    <li>minAgeOrOlder(minAge==0)-&gt;</li>
+    <li>minAgeOrOlder(minAge&gt;0)-&gt;ﺮﺜﻛﺃ ﻭﺃ ﺔﻨﺳ [minAge]</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)-&gt;has</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount&gt;1)-&gt;have</li>
+ </PawnLend.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[worker] Outsourcing</li>
+    <li>questName->Contract [worker]s</li>
+    <li>questName->Temporary Workers</li>
+    <li>questName->[worker] Lending</li>
+    <li>questName->[worker]s for [asker_faction_name]</li>
+    <li>questName->Provisional [worker]s</li>
+    <li>questName->Requesting [worker]s</li>
+    <li>worker->Colonist</li>
+    <li>worker->Worker</li>
+    <li>worker->Laborer</li>
+    <li>worker->Helper</li>
+  -->
+  <PawnLend.questNameRules.rulesStrings>
+    <li>questName-&gt;ﻲﺟﺭﺎﺧ ﻒﻴﻇﻮﺗ [worker]</li>
+    <li>questName-&gt;[worker]s ﺪﻘﻋ</li>
+    <li>questName-&gt;ﻥﻮﺘﻗﺆﻣ ﻝﺎﻤﻋ</li>
+    <li>questName-&gt;[worker] ﺓﺭﺎﻋﺇ</li>
+    <li>questName-&gt;[asker_faction_name]ـﻟ [worker]s</li>
+    <li>questName-&gt;ﻥﻮﺘﻗﺆﻣ [worker]s</li>
+    <li>questName-&gt;[worker]s ﺐﻠﻃ</li>
+    <li>worker-&gt;ﺮﻤﻌﺘﺴﻣ</li>
+    <li>worker-&gt;ﻞﻣﺎﻋ</li>
+    <li>worker-&gt;ﻞﻣﺎﻋ</li>
+    <li>worker-&gt;ﺪﻋﺎﺴﻣ</li>
+ </PawnLend.questNameRules.rulesStrings>
+  <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
+  <PawnLend.DutyRulesAny.slateRef><rulesStrings><li>dutyDescription-&gt;ﻝﻮﺼﺤﻤﻟﺍ ﻊﻤﺟ</li><li>dutyDescription-&gt;ﺔﻨﻃﻮﺘﺴﻣ ﻦﻴﺼﺤﺗ</li><li>dutyDescription-&gt;ﺔﻨﻃﻮﺘﺴﻣ ﺀﺎﺸﻧﺇ</li><li>dutyDescription-&gt;ﺓﺍﺰﻐﻟﺍ ﺔﺒﻗﺍﺮﻣ</li><li>dutyDescription-&gt;ﻰﻔﺸﺘﺴﻣ ﺀﺎﺸﻧﺇ</li><li>dutyDescription-&gt;[disease] ﻲﺸﻔﺗ ﺀﺍﻮﺘﺣﺍ</li></rulesStrings></PawnLend.DutyRulesAny.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>ﻲﻓ [asker_faction_name] ﻦﻣ [asker_nameFull] ﺓﺪﻋﺎﺴﻣ ﺪﻌﺑ ﺍﻭﺩﺎﻋ {PAWNS} [pawnListHaveConjugation]\n.[dutyDescription]</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
+  <PawnLend.DutyRulesRoyal.slateRef><rulesStrings><li>dutyRoyalDescription-&gt;ﻢﺳﺍﺮﻣ ﺮﻴﻀﺤﺗ</li><li>dutyRoyalDescription-&gt;ﺔﻠﻴﺒﻗ ﻊﻣ ﺽﻭﺎﻔﺘﻟﺍ</li><li>dutyRoyalDescription-&gt;ﻊﻘﻨﺘﺴﻣ ﻑﺎﺸﻜﺘﺳﺍ</li><li>dutyRoyalDescription-&gt;ﺏﺎﺘﻛ ﺔﻤﺟﺮﺗ</li><li>dutyRoyalDescription-&gt;ﺐﻳﺭﺪﺗ ﺔﺣﺎﺳ ﺀﺎﺸﻧﺇ</li><li>dutyRoyalDescription-&gt;ﻞﻴﺻﺎﺤﻤﻟﺍ ﺩﺎﺼﺣ</li></rulesStrings></PawnLend.DutyRulesRoyal.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>[asker_faction_name] ﻦﻣ [asker_royalTitleInCurrentFaction] [asker_nameFull] ﺓﺪﻋﺎﺴﻣ ﺪﻌﺑ ﺍﻭﺩﺎﻋ {PAWNS} [pawnListHaveConjugation]\n.[dutyRoyalDescription] ﻲﻓ</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
+  <!-- EN: Shuttle arrived -->
+  <PawnLend.LetterLabelShuttleArrived.slateRef>ﻙﻮﻜﻤﻟﺍ ﻝﻮﺻﻭ</PawnLend.LetterLabelShuttleArrived.slateRef>
+  <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
+  <PawnLend.LetterTextShuttleArrived.slateRef>ﻦﻣ [colonistsToLendCount] ﺏﺎﺤﻄﺻﻻ ﻙﻮﻜﻤﻟﺍ ﻞﺻﻭ\n.ﻚﻳﺮﻤﻌﺘﺴﻣ</PawnLend.LetterTextShuttleArrived.slateRef>
+  <!-- EN: Shuttle destroyed -->
+  <PawnLend.LetterLabelShuttleDestroyed.slateRef>ﻙﻮﻜﻤﻟﺍ ﺮﻴﻣﺪﺗ</PawnLend.LetterLabelShuttleDestroyed.slateRef>
+  <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>ﺏﺎﺤﻄﺻﻻ ﻞﺳﺭُﺃ ﻱﺬﻟﺍ ﻙﻮﻜﻤﻟﺍ\n.ﺮّﻣُﺩ ﺪﻗ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ</PawnLend.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Shuttle abandoned -->
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>ﻙﻮﻜﻤﻟﺍ ﻦﻋ ﻲﻠﺨﺘﻟﺍ</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
+  <!-- EN: The shuttle sent to collect colonists has been left behind. -->
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>ﺏﺎﺤﻄﺻﻻ ﻞﺳﺭُﺃ ﻱﺬﻟﺍ ﻙﻮﻜﻤﻟﺍ ﻙﺮُﺗ\n.ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
+  <!-- EN: Colonists returned -->
+  <PawnLend.LetterLabelColonistsReturned.slateRef>ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﺓﺩﻮﻋ</PawnLend.LetterLabelColonistsReturned.slateRef>
+  <!-- EN: $returnLetterText -->
+  <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>$returnLetterText</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

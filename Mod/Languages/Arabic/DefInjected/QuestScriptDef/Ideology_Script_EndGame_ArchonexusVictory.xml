@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription-></li>
+  -->
+  <EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;</li>
+ </EndGame_ArchonexusVictory.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName-></li>
+  -->
+  <EndGame_ArchonexusVictory.questNameRules.rulesStrings>
+    <li>questName-&gt;</li>
+ </EndGame_ArchonexusVictory.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[descriptionIntro] looking to expand their territory, and are interested in taking over [playerSettlements] with all [itsTheir] wealth and technology. If you can increase your total wealth to [requiredWealth_money], they will take the [settlementsSingularOrPlural].\n\nIn trade, they offer you part of a map showing the location of an ancient archotech nexus. The archonexus is thought to be a conduit through which an archotech superintelligence influences the physical world. If you could invoke its power, what happens next could go beyond physical reality.\n\n[onlyHaveHas] one piece of the map. The other parts are held by other factions.\n\nIf you accept their offer, the [factionPawnsPlural] will take possession of your settlement, including all items, people, and recorded research. They'll bring [colonistsAllowed] of your people and [animalsAllowed] of your animals to anywhere you want on the planet to start a new colony.\n\nLater, you can trade with others for the final two parts of the map.</li>
+    <li>itsTheir(playerSettlementsCount==1)->its</li>
+    <li>itsTheir(playerSettlementsCount>=2)->their</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount==1)->settlement</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount>=2)->settlements</li>
+    <li>onlyHaveHas(factionless==false)->[civilOutlander_name] only has</li>
+    <li>onlyHaveHas(factionless==true)->The group only have</li>
+    <li>factionPawnsPlural(factionless==false)->[civilOutlander_pawnsPlural]</li>
+    <li>factionPawnsPlural(factionless==true)->wild people</li>
+    <li>descriptionIntro(factionless==false)->[civilOutlander_name] is</li>
+    <li>descriptionIntro(factionless==true)->A group of wild people are</li>
+  -->
+  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;ﻢﺘﻬﺗﻭ ،ﺎﻬﻴﺿﺍﺭﺃ ﻊﻴﺳﻮﺘﻟ ﻊﻠﻄﺘﺗ [descriptionIntro]\nﺎﻬﺗﻭﺮﺛ [itsTheir] ﻞﻛ ﻊﻣ [playerSettlements] ﻰﻠﻋ ﺀﻼﻴﺘﺳﻻﺎﺑ\nﺓﺩﺎﻳﺯ ﺖﻌﻄﺘﺳﺍ ﺍﺫﺇ .ﺎﻬﺘﻴﻨﻘﺗﻭ\n،[requiredWealth_money] ﻰﻟﺇ ﺔﻴﻟﺎﻤﺟﻹﺍ ﻚﺗﻭﺮﺛ\n.[settlementsSingularOrPlural] ﻰﻠﻋ ﻥﻭﺮﻄﻴﺴﻴﺴﻓ\n\nًﺍﺀﺰﺟ ﻚﻴﻠﻋ ﻥﻮﺿﺮﻌﻳ ،ﻞﺑﺎﻘﻤﻟﺍ ﻲﻓ\nﺯﺎﻜﺗﺭﺍ ﺔﻄﻘﻧ ﻊﻗﻮﻣ ﺮﻬﻈﺗ ﺔﻄﻳﺮﺧ ﻦﻣ\nﺪﻘﺘﻌُﻳ .ﻚﻴﺗﻮﻛﺭﻸﻟ ﺔﻤﻳﺪﻗ ﺔﻳﺮﺛﺃ\nﻦﻣ ﺮﺛﺄﺘﻳ ﺓﺎﻨﻗ ﻮﻫ ﺲﺴﻜﻴﻧﻮﻛﺭﻷﺍ ﻥﺃ\nﻚﻴﺗﻮﻛﺭﻸﻟ ﻖﺋﺎﻔﻟﺍ ﺀﺎﻛﺬﻟﺍ ﺎﻬﻟﻼﺧ\nﺖﻌﻄﺘﺳﺍ ﻮﻟ .ﻱﺩﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺎﺑ\nﺪﻌﺑ ﺙﺪﺤﻴﺳ ﺎﻣ ﻥﺈﻓ ،ﻪﺗﻮﻗ ﺭﺎﻀﺤﺘﺳﺍ\n.ﻱﺩﺎﻤﻟﺍ ﻊﻗﺍﻮﻟﺍ ﺯﻭﺎﺠﺘﻳ ﺪﻗ ﻚﻟﺫ\n\n.ﺔﻄﻳﺮﺨﻟﺍ ﻦﻣ ﺓﺪﺣﺍﻭ ﺔﻌﻄﻗ [onlyHaveHas]\n.ﻯﺮﺧﺃ ﻞﺋﺎﺼﻓ ﺓﺯﻮﺤﺑ ﻯﺮﺧﻷﺍ ﺀﺍﺰﺟﻷﺍ\n\nﻰﻠﻋ [factionPawnsPlural] ﻲﻟﻮﺘﺴﻴﺴﻓ ،ﻢﻬﺿﺮﻋ ﺖﻠﺒﻗ ﺍﺫﺇ\nﺽﺍﺮﻏﻷﺍ ﻞﻛ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﻚﺘﻨﻃﻮﺘﺴﻣ\n.ﺔﻠﺠﺴﻤﻟﺍ ﺙﺎﺤﺑﻷﺍﻭ ﺹﺎﺨﺷﻷﺍﻭ\nﻦﻣ [animalsAllowed]ﻭ ﻙﺩﺍﺮﻓﺃ ﻦﻣ [colonistsAllowed] ﻥﻭﺮﻀﺤﻴﺳ\nﻰﻠﻋ ﻩﺪﻳﺮﺗ ﻥﺎﻜﻣ ﻱﺃ ﻰﻟﺇ ﻚﺗﺎﻧﺍﻮﻴﺣ\n.ﺓﺪﻳﺪﺟ ﺓﺮﻤﻌﺘﺴﻣ ﺀﺪﺒﻟ ﺐﻛﻮﻜﻟﺍ\n\nﻦﻳﺮﺧﻵﺍ ﻊﻣ ﺓﺭﺎﺠﺘﻟﺍ ﻚﻨﻜﻤﻳ ،ًﺎﻘﺣﻻ\nﻦﻣ ﻦﻳﺮﻴﺧﻷﺍ ﻦﻳﺃﺰﺠﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ\n.ﺔﻄﻳﺮﺨﻟﺍ</li>
+    <li>itsTheir(playerSettlementsCount==1)-&gt;ﻩ</li>
+    <li>itsTheir(playerSettlementsCount&gt;=2)-&gt;ﻢﻫ</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount==1)-&gt;ﺔﻨﻃﻮﺘﺴﻤﻟﺍ</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount&gt;=2)-&gt;ﺕﺎﻨﻃﻮﺘﺴﻤﻟﺍ</li>
+    <li>onlyHaveHas(factionless==false)-&gt;ﻂﻘﻓ ﺎﻬﻳﺪﻟ [civilOutlander_name]</li>
+    <li>onlyHaveHas(factionless==true)-&gt;ﻂﻘﻓ ﺎﻬﻳﺪﻟ ﺔﻋﻮﻤﺠﻤﻟﺍ</li>
+    <li>factionPawnsPlural(factionless==false)-&gt;[civilOutlander_pawnsPlural]</li>
+    <li>factionPawnsPlural(factionless==true)-&gt;ﻦﻴﺸﺣﻮﺘﻤﻟﺍ ﺱﺎﻨﻟﺍ</li>
+    <li>descriptionIntro(factionless==false)-&gt;ﻲﻫ [civilOutlander_name]</li>
+    <li>descriptionIntro(factionless==true)-&gt;ﻢﻫ ﻦﻴﺸﺣﻮﺘﻤﻟﺍ ﺱﺎﻨﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ</li>
+ </EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->the archonexus</li>
+  -->
+  <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
+    <li>questName-&gt;ﺲﺴﻜﻴﻧﻮﻛﺭﻷﺍ</li>
+ </EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->With the first archonexus map part securely recorded, you prepare for the next step of your journey.\n\n[cycle1Faction] told you of the cataclysm that destroyed this world. Humans built a great thinking machine here centuries ago. It turned against the people and there was a great war. Only a few were left when the machine transcended and fell dormant.\n\nThe map to the archonexus has three parts, and you hold one of them. [otherMapPartHolders] also each hold parts of the map. They'll trade their parts to you for a wealthy new colony and all of its recorded research.[descriptionStudyRequirement]\n\nIt's time to get building.</li>
+    <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
+    <li>cycle1Faction(factionless==true)->The [wildPeople]</li>
+    <li>otherMapPartHolders(factionless==false)->[roughOutlander_name] and [roughTribe_name]</li>
+    <li>otherMapPartHolders(factionless==true)->other [wildPeople]</li>
+    <li>takeoverPawnsPlural(factionless==false)->[roughOutlander_pawnsPlural]</li>
+    <li>takeoverPawnsPlural(factionless==true)->[wildPeople]</li>
+    <li>wildPeople->wild people</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\nThe next map part is encoded in a very strange way. In order to interpret it, you must first learn more about archotechnology by studying the structure here.</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-></li>
+  -->
+  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;ﺔﻄﻳﺮﺧ ﻦﻣ ﻝﻭﻷﺍ ﺀﺰﺠﻟﺍ ﻞﻴﺠﺴﺗ ﺪﻌﺑ\nﺓﻮﻄﺨﻠﻟ ﺪﻌﺘﺴﺗ ،ﻥﺎﻣﺄﺑ ﺲﺴﻜﻴﻧﻮﻛﺭﻷﺍ\n.ﻚﺘﻠﺣﺭ ﻲﻓ ﺔﻴﻟﺎﺘﻟﺍ\n\nﺍﺬﻫ ﺕﺮﻣﺩ ﻲﺘﻟﺍ ﺔﺛﺭﺎﻜﻟﺎﺑ ﻙﺮﺒﺧﺃ [cycle1Faction]\nﺮﻴﻜﻔﺗ ﺔﻟﺁ ﺮﺸﺒﻟﺍ ﻰﻨﺑ .ﻢﻟﺎﻌﻟﺍ\nﻰﻠﻋ ﺖﺒﻠﻘﻧﺍ .ﻥﻭﺮﻗ ﺬﻨﻣ ﺎﻨﻫ ﺔﻤﻴﻈﻋ\nﻖﺒﻳ ﻢﻟ .ﺔﻤﻴﻈﻋ ﺏﺮﺣ ﺖﺛﺪﺣﻭ ﺱﺎﻨﻟﺍ\nﺔﻟﻵﺍ ﺖﻗﻮﻔﺗ ﺎﻣﺪﻨﻋ ﻞﻴﻠﻘﻟﺍ ﻻﺇ\n.ﺖﻨﻜﺳﻭ\n\nﺔﺛﻼﺛ ﻦﻣ ﺔﻧﻮﻜﻣ ﺲﺴﻜﻴﻧﻮﻛﺭﻷﺍ ﺔﻄﻳﺮﺧ\nﻚﻠﻤﻳ [otherMapPartHolders] .ﺎﻫﺪﺣﺃ ﻚﻠﻤﺗ ﺖﻧﺃﻭ ،ﺀﺍﺰﺟﺃ\n.ﺔﻄﻳﺮﺨﻟﺍ ﻦﻣ ﺀﺍﺰﺟﺃ ﻢﻬﻨﻣ ﻞﻛ\nﻞﺑﺎﻘﻣ ﻚﻌﻣ ﻢﻬﺋﺍﺰﺟﺄﺑ ﻥﻭﺮﺟﺎﺘﻴﺳ\nﺎﻬﺛﺎﺤﺑﺃ ﻞﻛﻭ ﺔﻴﻨﻏ ﺓﺪﻳﺪﺟ ﺓﺮﻤﻌﺘﺴﻣ\n[descriptionStudyRequirement].ﺔﻠﺠﺴﻤﻟﺍ\n\n.ﺀﺎﻨﺒﻟﺍ ﺖﻗﻭ ﻥﺎﺣ</li>
+    <li>cycle1Faction(factionless==false)-&gt;[civilOutlander_leader_nameDef]</li>
+    <li>cycle1Faction(factionless==true)-&gt;[wildPeople]ﻝﺍ</li>
+    <li>otherMapPartHolders(factionless==false)-&gt;[roughTribe_name]ﻭ [roughOutlander_name]</li>
+    <li>otherMapPartHolders(factionless==true)-&gt;ﻦﻳﺮﺧﺁ [wildPeople]</li>
+    <li>takeoverPawnsPlural(factionless==false)-&gt;[roughOutlander_pawnsPlural]</li>
+    <li>takeoverPawnsPlural(factionless==true)-&gt;[wildPeople]</li>
+    <li>wildPeople-&gt;ﻦﻴﺸﺣﻮﺘﻤﻟﺍ ﺱﺎﻨﻟﺍ</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)-&gt;\n\nﺮﻔﺸﻣ ﺔﻄﻳﺮﺨﻟﺍ ﻦﻣ ﻲﻟﺎﺘﻟﺍ ﺀﺰﺠﻟﺍ\n،ﻩﺮﻴﺴﻔﺘﻟ .ًﺍﺪﺟ ﺔﺒﻳﺮﻏ ﺔﻘﻳﺮﻄﺑ\nﺔﻴﻨﻘﺗ ﻦﻋ ﺪﻳﺰﻤﻟﺍ ﻢﻠﻌﺘﺗ ﻥﺃ ﺐﺠﻳ\n.ﺎﻨﻫ ﻞﻜﻴﻬﻟﺍ ﺔﺳﺍﺭﺪﺑ ﻚﻴﺗﻮﻛﺭﻷﺍ</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-&gt;</li>
+ </EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->the archonexus</li>
+  -->
+  <EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
+    <li>questName-&gt;ﺲﺴﻜﻴﻧﻮﻛﺭﻷﺍ</li>
+ </EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questAcceptedLetterLabel->archonexus discovered</li>
+    <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
+    <li>questDescriptionBeforeAccepted->You have two parts of the archonexus map. [factionName] have the last piece of the map, passed down from the time their ancestors survived the cataclysm. They'll trade it to you for a wealthy new colony along with its recorded research.[descriptionStudyRequirement]\n\nIt's time to get building.</li>
+    <li>questDescriptionAfterAccepted->[descriptionIntro] have given you the last part of the archonexus map. Using your knowledge of archotech info-encoding, you have decoded the map and pinpointed the location of the archonexus.\n\nYour allies don't expect you to return, so after you go there, they will take over [playerSettlements].\n\n[descriptionThreats]Now all that's left is to get to the archonexus, invoke the power of the machine god, and find out whether the stories are real.</li>
+    <li>factionName(factionless==false)->[roughTribe_name]</li>
+    <li>factionName(factionless==true)->The wild people</li>
+    <li>descriptionIntro(factionless==false)->[roughTribe_name]'s leader [roughTribe_leader_nameDef] has</li>
+    <li>descriptionIntro(factionless==true)->The wild people have</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\nAs before, the map part is encoded. In order to decode it, you must first study the archotech structure.</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-></li>
+    <li>descriptionThreats(threatsEnabled==true)->The archonexus will likely have mechanoid defenders, so go prepared.\n\n</li>
+    <li>descriptionThreats(threatsEnabled==false)-></li>
+  -->
+  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
+    <li>questAcceptedLetterLabel-&gt;ﺲﺴﻜﻴﻧﻮﻛﺭﻷﺍ ﻑﺎﺸﺘﻛﺍ ﻢﺗ</li>
+    <li>questAcceptedLetterText-&gt;[questDescriptionBeforeAccepted]</li>
+    <li>questDescriptionBeforeAccepted-&gt;.ﺲﺴﻜﻴﻧﻮﻛﺭﻷﺍ ﺔﻄﻳﺮﺧ ﻦﻣ ﻥﺁﺰﺟ ﻚﻳﺪﻟ\n،ﺔﻄﻳﺮﺨﻟﺍ ﻦﻣ ﺔﻌﻄﻗ ﺮﺧﺁ ﻢﻬﻳﺪﻟ [factionName]\nﻢﻬﻓﻼﺳﺃ ﻪﻴﻓ ﺎﺠﻧ ﻦﻣﺯ ﻦﻣ ﺔﺛﺭﺍﻮﺘﻣ\nﻚﻌﻣ ﺎﻬﺑ ﻥﻭﺮﺟﺎﺘﻴﺳ .ﺔﺛﺭﺎﻜﻟﺍ ﻦﻣ\nﺔﻴﻨﻏ ﺓﺪﻳﺪﺟ ﺓﺮﻤﻌﺘﺴﻣ ﻞﺑﺎﻘﻣ\n[descriptionStudyRequirement].ﺔﻠﺠﺴﻤﻟﺍ ﺎﻬﺛﺎﺤﺑﺃﻭ\n\n.ﺀﺎﻨﺒﻟﺍ ﺖﻗﻭ ﻥﺎﺣ</li>
+    <li>questDescriptionAfterAccepted-&gt;ﺔﻄﻳﺮﺧ ﻦﻣ ﺮﻴﺧﻷﺍ ﺀﺰﺠﻟﺍ ﻙﺎﻄﻋﺃ [descriptionIntro]\nﻚﺘﻓﺮﻌﻣ ﻡﺍﺪﺨﺘﺳﺎﺑ .ﺲﺴﻜﻴﻧﻮﻛﺭﻷﺍ\nﺖﻜﻜﻓ ،ﻚﻴﺗﻮﻛﺭﻷﺍ ﺕﺎﻣﻮﻠﻌﻣ ﺮﻴﻔﺸﺘﺑ\n.ﺲﺴﻜﻴﻧﻮﻛﺭﻷﺍ ﻊﻗﻮﻣ ﺕﺩﺪﺣﻭ ﺔﻄﻳﺮﺨﻟﺍ\n\nﺍﺬﻟ ،ﻚﺗﺩﻮﻋ ﻥﻮﻌﻗﻮﺘﻳ ﻻ ﻙﺅﺎﻔﻠﺣ\nﻥﻮﻟﻮﺘﺴﻴﺳ ،ﻙﺎﻨﻫ ﻰﻟﺇ ﺐﻫﺬﺗ ﻥﺃ ﺪﻌﺑ\n.[playerSettlements] ﻰﻠﻋ\n\nﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻮﻫ ﻰﻘﺒﺗ ﺎﻣ ﻞﻛ ﻥﻵﺍ[descriptionThreats]\nﻪﻟﻹﺍ ﺓﻮﻗ ﺭﺎﻀﺤﺘﺳﺍ ،ﺲﺴﻜﻴﻧﻮﻛﺭﻷﺍ\nﺺﺼﻘﻟﺍ ﺖﻧﺎﻛ ﺍﺫﺇ ﺎﻣ ﺔﻓﺮﻌﻣﻭ ،ﻲﻟﻵﺍ\n.ﺔﻴﻘﻴﻘﺣ</li>
+    <li>factionName(factionless==false)-&gt;[roughTribe_name]</li>
+    <li>factionName(factionless==true)-&gt;The wild people</li>
+    <li>descriptionIntro(factionless==false)-&gt;ﺪﻗ [roughTribe_name] [roughTribe_leader_nameDef] ﺪﺋﺎﻗ</li>
+    <li>descriptionIntro(factionless==true)-&gt;The wild people have</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)-&gt;\n\nﻦﻣ ﺀﺰﺠﻟﺍ ،ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺎﻤﻛ\nﺐﺠﻳ ،ﻩﺮﻴﻔﺸﺗ ﻚﻔﻟ .ﺮﻔﺸﻣ ﺔﻄﻳﺮﺨﻟﺍ\n.ًﻻﻭﺃ ﻚﻴﺗﻮﻛﺭﻷﺍ ﻞﻜﻴﻫ ﺱﺭﺪﺗ ﻥﺃ</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-&gt;</li>
+    <li>descriptionThreats(threatsEnabled==true)-&gt;ﺲﺴﻜﻴﻧﻮﻛﺭﻸﻟ ﻥﻮﻜﻳ ﻥﺃ ﺢﺟﺮﻤﻟﺍ ﻦﻣ\nﺐﻫﺫﺍ ﺍﺬﻟ ،ﺪﻳﻮﻧﺎﻜﻴﻣ ﻥﻮﻌﻓﺍﺪﻣ\n.ًﺍﺪﻌﺘﺴﻣ\n\n</li>
+    <li>descriptionThreats(threatsEnabled==false)-&gt;</li>
+ </EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription-></li>
+  -->
+  <EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;</li>
+ </EndGame_ArchonexusVictory_ThirdCycle.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->the archonexus</li>
+  -->
+  <EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
+    <li>questName-&gt;ﺲﺴﻜﻴﻧﻮﻛﺭﻷﺍ</li>
+ </EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
+  
+</LanguageData>

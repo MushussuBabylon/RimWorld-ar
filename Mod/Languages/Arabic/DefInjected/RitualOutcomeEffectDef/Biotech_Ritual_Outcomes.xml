@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: All quality factors determine how healthy the mom and baby are going to be. -->
+  <ChildBirth.description>ﺔﺤﺻ ﻯﺪﻣ ﺩﺪﺤﺗ ﺓﺩﻮﺠﻟﺍ ﻞﻣﺍﻮﻋ ﻊﻴﻤﺟ\n.ﻞﻔﻄﻟﺍﻭ ﻡﻷﺍ</ChildBirth.description>
+  <!-- EN: {PAWN_labelShort}'s age -->
+  <ChildBirth.comps.0.label>{PAWN_labelShort} ﺮﻤﻋ</ChildBirth.comps.0.label>
+  <!-- EN: mother's age -->
+  <ChildBirth.comps.0.labelAbstract>ﻡﻷﺍ ﺮﻤﻋ</ChildBirth.comps.0.labelAbstract>
+  <!-- EN: {PAWN_labelShort}'s medicine skill -->
+  <ChildBirth.comps.1.label>{PAWN_labelShort} ﻯﺪﻟ ﺐﻄﻟﺍ ﺓﺭﺎﻬﻣ</ChildBirth.comps.1.label>
+  <!-- EN: doctor's medicine skill -->
+  <ChildBirth.comps.1.labelAbstract>ﺐﻴﺒﻄﻟﺍ ﻯﺪﻟ ﺐﻄﻟﺍ ﺓﺭﺎﻬﻣ</ChildBirth.comps.1.labelAbstract>
+  <!-- EN: loved one present -->
+  <ChildBirth.comps.2.label>ﺏﻮﺒﺤﻣ ﺺﺨﺷ ﺩﻮﺟﻭ</ChildBirth.comps.2.label>
+  <!-- EN: loved one absent -->
+  <ChildBirth.comps.2.labelNotMet>ﺏﻮﺒﺤﻣ ﺺﺨﺷ ﺏﺎﻴﻏ</ChildBirth.comps.2.labelNotMet>
+  <!-- EN: indoors -->
+  <ChildBirth.comps.3.label>ﻲﻠﺧﺍﺩ</ChildBirth.comps.3.label>
+  <!-- EN: room cleanliness -->
+  <ChildBirth.comps.4.label>ﺔﻓﺮﻐﻟﺍ ﺔﻓﺎﻈﻧ</ChildBirth.comps.4.label>
+  <!-- EN: bed health effects -->
+  <ChildBirth.comps.5.label>ﺔﻴﺤﺼﻟﺍ ﺮﻳﺮﺴﻟﺍ ﺕﺍﺮﻴﺛﺄﺗ</ChildBirth.comps.5.label>
+  <!-- EN: Additionally, the mother will have a {0_percentage} chance to die during birth. -->
+  <ChildBirth.extraOutcomeDescriptions.0.description>ﻡﻷﺍ ﻪﺟﺍﻮﺘﺳ ،ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ\n.ﺓﺩﻻﻮﻟﺍ ﺀﺎﻨﺛﺃ ﺓﺎﻓﻮﻠﻟ {0_percentage} ﺔﺻﺮﻓ</ChildBirth.extraOutcomeDescriptions.0.description>
+  <!-- EN: Still -->
+  <ChildBirth.outcomeChances.0.label>ﺖﻴﻣ ﻦﻴﻨﺟ ﺓﺩﻻﻭ</ChildBirth.outcomeChances.0.label>
+  <!-- EN: {MOTHER_labelShort}'s baby was stillborn. -->
+  <ChildBirth.outcomeChances.0.description>.ًﺎﺘﻴﻣ ًﺍﺩﻮﻟﻮﻣ ﺖﻌﺿﻭ {MOTHER_labelShort}</ChildBirth.outcomeChances.0.description>
+  <!-- EN: Sick -->
+  <ChildBirth.outcomeChances.1.label>ﺾﻳﺮﻣ</ChildBirth.outcomeChances.1.label>
+  <!-- EN: {MOTHER_labelShort} gave birth to a baby. Unfortunately, the baby is sick. -->
+  <ChildBirth.outcomeChances.1.description>ﻞﻔﻄﻟﺍ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ .ًﻼﻔﻃ ﺖﺒﺠﻧﺃ {MOTHER_labelShort}\n.ﺾﻳﺮﻣ</ChildBirth.outcomeChances.1.description>
+  <!-- EN: Healthy -->
+  <ChildBirth.outcomeChances.2.label>ﻲﺤﺻ</ChildBirth.outcomeChances.2.label>
+  <!-- EN: {MOTHER_labelShort} gave birth to a healthy baby! -->
+  <ChildBirth.outcomeChances.2.description>!ًﺎﻴﺤﺻ ًﻼﻔﻃ ﺖﺒﺠﻧﺃ {MOTHER_labelShort}</ChildBirth.outcomeChances.2.description>
+  
+</LanguageData>

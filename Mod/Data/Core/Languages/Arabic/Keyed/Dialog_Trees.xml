@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
+  <FactionGreetingHostile>ﺮﺒﻋ ﻢﺋﺎﺘﺸﻟﺍ ﺾﻌﺑ {0} ﻖﻠﻄﻳ\n.ﻝﺎﺼﺗﻻﺍ ﻊﻄﻘﻳ ﻢﺛ ﻥﻮﻓﻭﺮﻜﻴﻤﻟﺍ</FactionGreetingHostile>
+  <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
+  <FactionGreetingHostileAppreciative>ﻞﺜﻣ ،ﺔﻴﻧ ﻦﺴﺣ ﺓﺭﺩﺎﺒﺑ {0} ﻚﺒﻟﺎﻄﻳ\nﻯﺪﺣﺇ ﻰﻟﺇ ﺎﻳﺍﺪﻬﻟﺍ ﺐﻠﺟ\nﻯﺮﺳﺃ ﺡﺍﺮﺳ ﻕﻼﻃﺇ ﻭﺃ {0_possessive}ـﺗﺎﻨﻃﻮﺘﺴﻣ\nﻚﻟﺫ ﻰﺘﺣﻭ .ﻯﺫﺃ ﻥﻭﺩ {0_possessive}ـﻠﻴﺼﻓ\n.ﺙﺪﺤﺘﻟﺍ ﻲﻓ {0_pronoun} ﺐﻏﺮﻳ ﻻ ،ﻦﻴﺤﻟﺍ\n\nﺎًﻤﺘﻤﺘﻣ ﻝﺎﺼﺗﻻﺍ {0_pronoun} ﻊﻄﻘﻳ ﻢﺛ\n.ﺔﻧﺎﻫﺈﺑ</FactionGreetingHostileAppreciative>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle. -->
+  <FactionGreetingWary>ﻱﺬﻟﺍ ﺮﻣﻷﺍ ﻦﻋ ﻝﺄﺴﻳﻭ {NEGOTIATOR_labelShort}ـﺑ {0} ﺐﺣﺮﻳ\n.ﻪﺘﺸﻗﺎﻨﻣ ﺪﻳﺮﺗ</FactionGreetingWary>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
+  <FactionGreetingWarm>ﺎﻤﻋ ﻝﺄﺴﻳﻭ ﺓﻭﺎﻔﺤﺑ {NEGOTIATOR_labelShort}ـﺑ {0} ﺐﺣﺮﻳ\n.ﻚﺗﺪﻋﺎﺴﻤﻟ ﻪﻠﻌﻓ {LEADER_pronoun}ـﻟ ﻦﻜﻤﻳ</FactionGreetingWarm>
+
+  <!-- EN: won't do {0} -->
+  <WorkTypeDisablesOption>{0}ـﺑ ﻡﻮﻘﻳ ﻦﻟ</WorkTypeDisablesOption>
+  <!-- EN: Disconnect -->
+  <Disconnect>ﻝﺎﺼﺗﻻﺍ ﻊﻄﻗ</Disconnect>
+
+  <!-- Gift offer -->
+  <!-- EN: Offer gift -->
+  <OfferGift>ﺔﻳﺪﻫ ﻢﻳﺪﻘﺗ</OfferGift>
+  <!-- EN: must be ally -->
+  <MustBeAlly>ﺎًﻔﻴﻠﺣ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ</MustBeAlly>
+  <!-- EN: need {0} goodwill -->
+  <NeedGoodwill>ﺔﻴﻨﻟﺍ ﻦﺴﺣ ﻦﻣ {0} ﻰﻟﺇ ﺝﺎﺘﺤﺗ</NeedGoodwill>
+  <!-- EN: need {0} silver near trade beacons -->
+  <NeedSilverLaunchable>ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺔﻀﻔﻟﺍ ﻦﻣ {0} ﻰﻟﺇ ﺝﺎﺘﺤﺗ\nﺓﺭﺎﺠﺘﻟﺍ ﺕﺍﺭﺎﻨﻣ</NeedSilverLaunchable>
+  <!-- EN: not enough silver -->
+  <NotEnoughSilver>ﺔﻴﻓﺎﻛ ﺔﻀﻓ ﺪﺟﻮﺗ ﻻ</NotEnoughSilver>
+  <!-- EN: {0} silver for {1} goodwill -->
+  <SilverForGoodwill>ﺔﻴﻨﻟﺍ ﻦﺴﺣ ﻦﻣ {1} ﻞﺑﺎﻘﻣ ﺔﻀﻓ {0}</SilverForGoodwill>
+  <!-- EN: {0} thanks you.\n\n(Goodwill improved by {1}) -->
+  <SilverGiftSent>.{0} ﻙﺮﻜﺸﻳ\n\n({1} ﺭﺍﺪﻘﻤﺑ ﺔﻴﻨﻟﺍ ﻦﺴﺣ ﻦﺴﺤﺗ)</SilverGiftSent>
+
+  <!-- Trade caravan request -->
+  <!-- EN: Request a trade caravan (cost: {0} goodwill) -->
+  <RequestTrader>{0} :ﺔﻔﻠﻜﺘﻟﺍ) ﺔﻳﺭﺎﺠﺗ ﺔﻠﻓﺎﻗ ﺐﻠﻃ\n(ﺔﻴﻨﻟﺍ ﻦﺴﺣ ﻦﻣ</RequestTrader>
+  <!-- EN: {0} asks what kind of trade caravan you want. -->
+  <ChooseTraderKind>ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻠﻓﺎﻘﻟﺍ ﻉﻮﻧ ﻦﻋ {0} ﻝﺄﺴﻳ\n.ﺎﻫﺪﻳﺮﺗ ﻲﺘﻟﺍ</ChooseTraderKind>
+  <!-- EN: {0} agrees to send you a trade caravan. It will arrive within a few days. -->
+  <TraderSent>ﺔﻳﺭﺎﺠﺗ ﺔﻠﻓﺎﻗ ﻝﺎﺳﺭﺇ ﻰﻠﻋ {0} ﻖﻓﺍﻮﻳ\n.ﻡﺎﻳﺃ ﺔﻌﻀﺑ ﻥﻮﻀﻏ ﻲﻓ ﻞﺼﺘﺳ .ﻚﻴﻟﺇ</TraderSent>
+  <!-- EN: wait {0} -->
+  <WaitTime>{0} ﺮﻈﺘﻧﺍ</WaitTime>
+
+  <!-- Orbital trade request -->
+  <!-- EN: Request orbital trader (cost: {0} goodwill) -->
+  <RequestOrbitalTrader>ﻦﻣ {0} :ﺔﻔﻠﻜﺘﻟﺍ) ﻱﺭﺍﺪﻣ ﺮﺟﺎﺗ ﺐﻠﻃ\n(ﺔﻴﻨﻟﺍ ﻦﺴﺣ</RequestOrbitalTrader>
+  <!-- EN: {0} asks what kind of orbital trader you want. -->
+  <ChooseOrbitalTraderKind>ﻱﺭﺍﺪﻤﻟﺍ ﺮﺟﺎﺘﻟﺍ ﻉﻮﻧ ﻦﻋ {0} ﻝﺄﺴﻳ\n.ﻩﺪﻳﺮﺗ ﻱﺬﻟﺍ</ChooseOrbitalTraderKind>
+  <!-- EN: {0} will ask an orbital trader to visit you. It will arrive within a few hours. -->
+  <OrbitalTraderSent>.ﻢﻜﺗﺭﺎﻳﺯ ﻱﺭﺍﺪﻣ ﺮﺟﺎﺗ ﻦﻣ {0} ﺐﻠﻄﻴﺳ\n.ﺕﺎﻋﺎﺳ ﻊﻀﺑ ﻥﻮﻀﻏ ﻲﻓ ﻞﺼﻴﺳ</OrbitalTraderSent>
+  
+  <!-- AI core request -->
+  <!-- EN: Request the location of a {0} (cost: {1} silver) -->
+  <RequestAICoreInformation>(ﺔﻀﻓ {1} :ﺔﻔﻠﻜﺘﻟﺍ) {0} ـﻟ ﻊﻗﻮﻣ ﺐﻠﻃ</RequestAICoreInformation>
+  <!-- EN: {0} sends the requested information and wishes you good luck. -->
+  <RequestAICoreInformationResult>ﺔﺑﻮﻠﻄﻤﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ {0} ﻞﺳﺮﻳ\n.ﺍًﺪﻴﻌﺳ ﺎًﻈﺣ ﻚﻟ ﻰﻨﻤﺘﻳﻭ</RequestAICoreInformationResult>
+  <!-- EN: no more locations known -->
+  <NoKnownAICore>ﻯﺮﺧﺃ ﺔﻓﻭﺮﻌﻣ ﻊﻗﺍﻮﻣ ﺪﺟﻮﺗ ﻻ</NoKnownAICore>  
+  
+  <!-- Military aid request -->
+  <!-- EN: Request immediate military aid (cost: {0} goodwill) -->
+  <RequestMilitaryAid>{0} :ﺔﻔﻠﻜﺘﻟﺍ) ﻱﺭﻮﻓ ﻱﺮﻜﺴﻋ ﻢﻋﺩ ﺐﻠﻃ\n(ﺔﻴﻨﻟﺍ ﻦﺴﺣ ﻦﻣ</RequestMilitaryAid>
+  <!-- EN: {0} will not help you fight other factions who are not their enemies. This includes some who are currently threatening you, {1}. Do you still want to call for aid? -->
+  <MilitaryAidConfirmMutualEnemy>ﻞﺋﺎﺼﻓ ﺔﺑﺭﺎﺤﻣ ﻲﻓ {0} ﻙﺪﻋﺎﺴﻳ ﻦﻟ\nﻦﻤﻀﺘﻳ .ﻢﻬﻟ ﺔﻳﺩﺎﻌﻣ ﺖﺴﻴﻟ ﻯﺮﺧﺃ\n.{1} ،ﺎًﻴﻟﺎﺣ ﻚﻧﻭﺩﺪﻬﻳ ﻦﻣ ﺾﻌﺑ ﻚﻟﺫ\n؟ﻢﻋﺪﻟﺍ ﺐﻠﻃ ﺪﻳﺮﺗ ﺖﻟﺯ ﺎﻣ ﻞﻫ</MilitaryAidConfirmMutualEnemy>
+  <!-- EN: Yes, call them anyway. -->
+  <CallConfirm>.ﻝﺎﺣ ﻱﺃ ﻰﻠﻋ ﻢﻬﺑ ﻞﺼﺗﺍ ،ﻢﻌﻧ</CallConfirm>
+  <!-- EN: No, never mind. -->
+  <CallCancel>.ﻢﻬﻳ ﻻ ،ﻻ</CallCancel>
+  <!-- EN: {0} agrees to send fighters to help you. -->
+  <MilitaryAidSent>ﻦﻴﻠﺗﺎﻘﻣ ﻝﺎﺳﺭﺇ ﻰﻠﻋ {0} ﻖﻓﺍﻮﻳ\n.ﻚﺗﺪﻋﺎﺴﻤﻟ</MilitaryAidSent>
+  <!-- EN: {0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods) -->
+  <CantSendMilitaryAidInTime>ﺍﻮﻨﻜﻤﺘﻳ ﻦﻟ ﻢﻬﻧﺇ ﻝﻮﻘﻳﻭ {0} ﺭﺬﺘﻌﻳ\n.ﺐﺳﺎﻨﻤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻝﻮﺻﻮﻟﺍ ﻦﻣ\n\nﺍﺬﻬﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ)\nﺢﻤﺴﻳ ﻻ ﺚﻴﺤﺑ ﺍًﺪﺟ ﺾﻔﺨﻨﻣ ﻞﻴﺼﻔﻟﺍ\n(ﻞﻘﻨﻟﺍ ﺕﻻﻮﺴﺒﻛ ﻡﺍﺪﺨﺘﺳﺎﺑ</CantSendMilitaryAidInTime>
+  <!-- EN: hostile visitors present -->
+  <HostileVisitorsPresent>ﻥﻭﺩﺎﻌﻣ ﺭﺍﻭﺯ ﺪﺟﻮﻳ</HostileVisitorsPresent>
+
+</LanguageData>

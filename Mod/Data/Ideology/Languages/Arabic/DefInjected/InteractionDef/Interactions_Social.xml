@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: failed conversion -->
+  <Convert_Failure.label>ﻞﺷﺎﻓ ﻞﻳﻮﺤﺗ</Convert_Failure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>
+  -->
+  <Convert_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;.ﻞﺸﻓ ﻪﻨﻜﻟ ،[RECIPIENT_nameDef] ﻞﻳﻮﺤﺗ [INITIATOR_nameDef] ﻝﻭﺎﺣ</li>
+ </Convert_Failure.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: successful conversion -->
+  <Convert_Success.label>ﺢﺟﺎﻧ ﻞﻳﻮﺤﺗ</Convert_Success.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>
+  -->
+  <Convert_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;.ﺢﺠﻧﻭ [RECIPIENT_nameDef] ﻞﻳﻮﺤﺗ [INITIATOR_nameDef] ﻝﻭﺎﺣ</li>
+ </Convert_Success.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: convert ideoligion attempt -->
+  <ConvertIdeoAttempt.label>ﺓﺪﻴﻘﻌﻟﺍ ﻞﻳﻮﺤﺗ ﺔﻟﻭﺎﺤﻣ</ConvertIdeoAttempt.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>
+  -->
+  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_possessive]ﺓﺪﻴﻘﻋ ﻰﻟﺇ [RECIPIENT_nameDef] ﻞﻳﻮﺤﺗ [INITIATOR_nameDef] ﻝﻭﺎﺣ\n.ﺔﺻﺎﺨﻟﺍ</li>
+ </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: failed counsel -->
+  <Counsel_Failure.label>ﻞﺷﺎﻓ ﺢﺼﻧ</Counsel_Failure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
+  -->
+  <Counsel_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;ﺪﺴﻓﺃ ﻪﻨﻜﻟ ،[RECIPIENT_nameDef] ﺢﺼﻧ [INITIATOR_nameDef] ﻝﻭﺎﺣ\n.ًﺍﺀﻮﺳ ﺭﻮﻣﻷﺍ ﺩﺍﺯﻭ ﺔﻟﻭﺎﺤﻤﻟﺍ</li>
+ </Counsel_Failure.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: successful counsel -->
+  <Counsel_Success.label>ﺢﺟﺎﻧ ﺢﺼﻧ</Counsel_Success.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] advice on overcoming negativity.</li>
+    <li>problems->[RECIPIENT_possessive] problems</li>
+    <li>problems->[RECIPIENT_possessive] troubles</li>
+    <li>problems->[RECIPIENT_possessive] painful feelings</li>
+    <li>problems->recent difficulties</li>
+  -->
+  <Counsel_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;.[problems] ﺹﻮﺼﺨﺑ [INITIATOR_nameDef] [RECIPIENT_nameDef] ﺢﺼﻧ</li>
+    <li>r_logentry-&gt;.[problems]ـﺑ ًﺎﻴﻠﻣ ﺮﻴﻜﻔﺘﻟﺍ ﻲﻓ [INITIATOR_nameDef] [RECIPIENT_nameDef] ﺪﻋﺎﺳ</li>
+    <li>r_logentry-&gt;ﻰﻠﻋ ﺐﻠﻐﺘﻟﺍ ﻝﻮﺣ [RECIPIENT_nameDef]ـﻟ ﺔﺤﻴﺼﻧ [INITIATOR_nameDef] ﻡﺪﻗ\n.ﺔﻴﺒﻠﺴﻟﺍ</li>
+    <li>problems-&gt;[RECIPIENT_possessive]ﻞﻛﺎﺸﻣ</li>
+    <li>problems-&gt;[RECIPIENT_possessive]ﺐﻋﺎﺘﻣ</li>
+    <li>problems-&gt;ﺔﻤﻟﺆﻤﻟﺍ [RECIPIENT_possessive]ﺮﻋﺎﺸﻣ</li>
+    <li>problems-&gt;ﺔﺜﻳﺪﺣ ﺕﺎﺑﻮﻌﺻ</li>
+ </Counsel_Success.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: preached health -->
+  <PreachHealth.label>ﻲﺤﺻ ﻆﻋﻭ</PreachHealth.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] strengthened [RECIPIENT_nameDef]'s health by preaching about [preaching_topic].</li>
+    <li>preaching_topic->reasons to live</li>
+    <li>preaching_topic->higher ideoligious goals</li>
+    <li>preaching_topic->[RECIPIENT_possessive] purpose of existence</li>
+  -->
+  <PreachHealth.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;.[preaching_topic] ﻦﻋ ﻆﻋﻮﻟﺎﺑ [RECIPIENT_nameDef] ﺔﺤﺻ [INITIATOR_nameDef] ﻯﻮﻗ</li>
+    <li>preaching_topic-&gt;ﺓﺎﻴﺤﻠﻟ ﺏﺎﺒﺳﺃ</li>
+    <li>preaching_topic-&gt;ﻰﻤﺳﺃ ﺔﻳﺪﺋﺎﻘﻋ ﻑﺍﺪﻫﺃ</li>
+    <li>preaching_topic-&gt;[RECIPIENT_possessive]ﺩﻮﺟﻭ ﺽﺮﻏ</li>
+ </PreachHealth.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: reassurance -->
+  <Reassure.label>ﻦﻴﻤﻄﺗ</Reassure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
+  -->
+  <Reassure.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;.[RECIPIENT_nameDef] ﺕﺍﺪﻘﺘﻌﻣ [INITIATOR_nameDef] ﺯﺰﻋ</li>
+ </Reassure.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: accuse -->
+  <Trial_Accuse.label>ﻡﺎﻬﺗﺍ</Trial_Accuse.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] presented some evidence.</li>
+    <li>r_logentry->[INITIATOR_nameDef] appealed to the emotions of the spectators.</li>
+    <li>r_logentry->[INITIATOR_nameDef] accused [RECIPIENT_nameDef] of [wrongdoing].</li>
+    <li>wrongdoing->sabotaging the colony</li>
+    <li>wrongdoing->being lazy</li>
+    <li>wrongdoing->eating too much</li>
+    <li>wrongdoing->stealing</li>
+    <li>wrongdoing->being a horrible person</li>
+    <li>wrongdoing->disrespecting sacred ideas</li>
+    <li>wrongdoing->disrespecting respected figures</li>
+    <li>wrongdoing->heresy</li>
+    <li>wrongdoing->murder</li>
+    <li>wrongdoing->blasphemy</li>
+    <li>wrongdoing->treason</li>
+    <li>wrongdoing->hateful thinking</li>
+    <li>wrongdoing->disloyalty</li>
+  -->
+  <Trial_Accuse.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;.ﺔﻟﺩﻷﺍ ﺾﻌﺑ [INITIATOR_nameDef] ﻡﺪﻗ</li>
+    <li>r_logentry-&gt;.ﻦﻳﺪﻫﺎﺸﻤﻟﺍ ﻒﻃﺍﻮﻋ [INITIATOR_nameDef] ﻝﺎﻤﺘﺳﺍ</li>
+    <li>r_logentry-&gt;.[wrongdoing]ـﺑ [INITIATOR_nameDef] [RECIPIENT_nameDef] ﻢﻬﺗﺍ</li>
+    <li>wrongdoing-&gt;ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺐﻳﺮﺨﺗ</li>
+    <li>wrongdoing-&gt;ﻞﺴﻜﻟﺍ</li>
+    <li>wrongdoing-&gt;ﻁﺮﻔﻤﻟﺍ ﻞﻛﻷﺍ</li>
+    <li>wrongdoing-&gt;ﺔﻗﺮﺴﻟﺍ</li>
+    <li>wrongdoing-&gt;ًﺎﻌﻳﺮﻣ ًﺎﺼﺨﺷ ﻪﻧﻮﻛ</li>
+    <li>wrongdoing-&gt;ﺔﺳﺪﻘﻤﻟﺍ ﺭﺎﻜﻓﻷﺍ ﻡﺍﺮﺘﺣﺍ ﻡﺪﻋ</li>
+    <li>wrongdoing-&gt;ﺓﺮﻗﻮﻤﻟﺍ ﺕﺎﻴﺼﺨﺸﻟﺍ ﻡﺍﺮﺘﺣﺍ ﻡﺪﻋ</li>
+    <li>wrongdoing-&gt;ﺔﻘﻃﺮﻬﻟﺍ</li>
+    <li>wrongdoing-&gt;ﻞﺘﻘﻟﺍ</li>
+    <li>wrongdoing-&gt;ﻒﻳﺪﺠﺘﻟﺍ</li>
+    <li>wrongdoing-&gt;ﺔﻧﺎﻴﺨﻟﺍ</li>
+    <li>wrongdoing-&gt;ﺪﻗﺎﺣ ﺮﻴﻜﻔﺗ</li>
+    <li>wrongdoing-&gt;ﺀﻻﻮﻟﺍ ﻡﺪﻋ</li>
+ </Trial_Accuse.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: defend -->
+  <Trial_Defend.label>ﻉﺎﻓﺩ</Trial_Defend.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] deflected the accusation.</li>
+    <li>r_logentry->[INITIATOR_nameDef] presented another interpretation.</li>
+    <li>r_logentry->[INITIATOR_nameDef] pleaded to jury.</li>
+    <li>r_logentry->[INITIATOR_nameDef] called for mercy.</li>
+    <li>r_logentry->[INITIATOR_nameDef] stalled the proceedings.</li>
+    <li>r_logentry->[INITIATOR_nameDef] dismissed the allegations.</li>
+    <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
+  -->
+  <Trial_Defend.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;.ﻡﺎﻬﺗﻻﺍ [INITIATOR_nameDef] ﻰﺤﻧ</li>
+    <li>r_logentry-&gt;.ﺮﺧﺁ ًﺍﺮﻴﺴﻔﺗ [INITIATOR_nameDef] ﻡﺪﻗ</li>
+    <li>r_logentry-&gt;.ﻦﻴﻔﻠﺤﻤﻟﺍ ﺔﺌﻴﻫ ﻡﺎﻣﺃ [INITIATOR_nameDef] ﻊﻓﺍﺮﺗ</li>
+    <li>r_logentry-&gt;.ﺔﻤﺣﺮﻟﺍ [INITIATOR_nameDef] ﺪﺷﺎﻧ</li>
+    <li>r_logentry-&gt;.ﺕﺍﺀﺍﺮﺟﻹﺍ ﻲﻓ [INITIATOR_nameDef] ﻞﻃﺎﻣ</li>
+    <li>r_logentry-&gt;.ﻢﻋﺍﺰﻤﻟﺍ [INITIATOR_nameDef] ﺾﻓﺭ</li>
+    <li>r_logentry-&gt;.ﺔﻔﺋﺍﺰﻟﺎﺑ ﺔﻤﻛﺎﺤﻤﻟﺍ [INITIATOR_nameDef] ﻒﺻﻭ</li>
+ </Trial_Defend.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: work drive -->
+  <WorkDrive.label>ﻞﻤﻋ ﺰﻓﺎﺣ</WorkDrive.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
+  -->
+  <WorkDrive.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;ﻲﻓﺎﺿﺇ ﺪﺠﺑ ﻞﻤﻌﻟﺍ [RECIPIENT_nameDef] ﻦﻣ [INITIATOR_nameDef] ﺐﻠﻃ\n.ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺔﺤﻠﺼﻤﻟ</li>
+ </WorkDrive.logRulesInitiator.rulesStrings>
+  
+</LanguageData>

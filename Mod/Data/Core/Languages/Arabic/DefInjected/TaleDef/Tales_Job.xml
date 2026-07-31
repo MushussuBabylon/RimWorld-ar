@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: attended party -->
+  <AttendedParty.label>ﺔﻠﻔﺣ ﺮﻀﺣ</AttendedParty.label>
+  <!-- EN:
+    <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s party</li>
+    <li>tale_noun->[ATTENDER_nameDef] relaxing with [ORGANIZER_nameDef] at a party</li>
+    <li>image->[ATTENDER_nameFull] having a conversation with [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] getting a drink from [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] chatting with [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] welcoming [ATTENDER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] introducing [ATTENDER_nameFull] to a friend [circumstance_group]</li>
+    <li>circumstance_phrase->with a broad grin</li>
+    <li>circumstance_phrase->with a laugh</li>
+    <li>circumstance_phrase->with a [AdjectiveFriendly] smile</li>
+    <li>circumstance_phrase->while laughing uproariously</li>
+    <li>circumstance_phrase->while [AdjectiveFriendly]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are involved in the conversation.</li>
+    <li>desc_sentence->The area is decorated with [Color] and [Color].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
+  -->
+  <AttendedParty.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[ORGANIZER_nameDef] ﺔﻠﻔﺣ ﺮﻀﺤﻳ [ATTENDER_nameDef]</li>
+    <li>tale_noun-&gt;ﺔﻠﻔﺣ ﻲﻓ [ORGANIZER_nameDef] ﻊﻣ ﺢﻳﺮﺘﺴﻳ [ATTENDER_nameDef]</li>
+    <li>image-&gt;[ORGANIZER_nameFull] [circumstance_group] ﻊﻣ ﺔﺛﺩﺎﺤﻣ ﻱﺮﺠﻳ [ATTENDER_nameFull]</li>
+    <li>image-&gt;[ORGANIZER_nameFull] [circumstance_group] ﻦﻣ ﺏﻭﺮﺸﻣ ﻰﻠﻋ ﻞﺼﺤﻳ [ATTENDER_nameFull]</li>
+    <li>image-&gt;[ORGANIZER_nameFull] [circumstance_group] ﻊﻣ ﺙﺪﺤﺘﻳ [ATTENDER_nameFull]</li>
+    <li>image-&gt;[ATTENDER_nameFull] [circumstance_group]ـﺑ ﺐﺣﺮﻳ [ORGANIZER_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻖﻳﺪﺼﻟ [ATTENDER_nameFull] ﻡﺪﻘﻳ [ORGANIZER_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﺔﻀﻳﺮﻋ ﺔﻣﺎﺴﺘﺑﺎﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻜﺤﻀﺑ</li>
+    <li>circumstance_phrase-&gt;[AdjectiveFriendly] ﺔﻣﺎﺴﺘﺑﺎﺑ</li>
+    <li>circumstance_phrase-&gt;ﻝﺎﻋ ﺕﻮﺼﺑ ﻚﺤﻀﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;[AdjectiveFriendly] ﺎﻤﻨﻴﺑ</li>
+    <li>desc_sentence-&gt;.ﺔﺛﺩﺎﺤﻤﻟﺍ ﻲﻓ ﻥﻮﻃﺮﺨﻨﻣ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.[Color]ﻭ [Color] ﻥﺍﻮﻟﺄﺑ ﺔﻨﻳﺰﻣ ﺔﻘﻄﻨﻤﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﺭﺍﻮﺠﻟﺍ ﻲﻓ ﻥﻮﺒﻌﻠﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+ </AttendedParty.rulePack.rulesStrings>
+  
+  <!-- EN: built snowman -->
+  <BuiltSnowman.label>ﺞﻠﺛ ﻞﺟﺭ ﻰﻨﺑ</BuiltSnowman.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] building a snowman</li>
+    <li>tale_noun->[PAWN_nameDef] playing in the snow</li>
+    <li>image->[PAWN_nameFull] forming a snowball [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rolling a giant ball of snow on the ground [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] arranging [Vegetable]s into a rough human face [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] lying down in the snow [circumstance_group]</li>
+    <li>circumstance_phrase->while enveloped in [Quantity_adjphrase] parkas</li>
+    <li>circumstance_phrase->while obscured in a light snowstorm</li>
+    <li>circumstance_phrase->while [PAWN_possessive] friends build a fort</li>
+    <li>circumstance_phrase->while [PAWN_possessive] friends build a snowman family</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A field of [Vegetable]s is barely visible through the snow.</li>
+    <li>desc_sentence->A snow-covered [TerrainFeature] can be seen far away.</li>
+  -->
+  <BuiltSnowman.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﺞﻠﺛ ﻞﺟﺭ ﻲﻨﺒﻳ [PAWN_nameDef]</li>
+    <li>tale_noun-&gt;ﺞﻠﺜﻟﺍ ﻲﻓ ﺐﻌﻠﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[circumstance_group] ﺞﻠﺛ ﺓﺮﻛ ﻞﻜﺸﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;ﺽﺭﻷﺍ ﻰﻠﻋ ﺔﻗﻼﻤﻋ ﺞﻠﺛ ﺓﺮﻛ ﺝﺮﺣﺪﻳ [PAWN_nameFull]\n[circumstance_group]</li>
+    <li>image-&gt;ﻱﺮﺸﺑ ﻪﺟﻭ ﻞﻜﺷ ﻲﻓ [Vegetable]s ﺐﺗﺮﻳ [PAWN_nameFull]\n[circumstance_group] ﻲﺒﻳﺮﻘﺗ</li>
+    <li>image-&gt;[circumstance_group] ﺞﻠﺜﻟﺍ ﻲﻓ ﻲﻘﻠﺘﺴﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﻒﻃﺎﻌﻤﻟﺍ ﻦﻣ [Quantity_adjphrase] ﻲﻓ ﻒﺘﻠﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻔﻴﻔﺧ ﺔﻴﺠﻠﺛ ﺔﻔﺻﺎﻋ ﻪﻴﻔﺨﺗ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺎﻨﺼﺣ [PAWN_possessive] ﺀﺎﻗﺪﺻﺃ ﻲﻨﺒﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﻦﻣ ﺔﻠﺋﺎﻋ [PAWN_possessive] ﺀﺎﻗﺪﺻﺃ ﻲﻨﺒﻳ ﺎﻤﻨﻴﺑ\nﺞﻠﺜﻟﺍ ﻝﺎﺟﺭ</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻔﻠﺨﻟﺍ ﻲﻓ ﺀﻲﻀﻳ [Color] ﻖﻔﺷ</li>
+    <li>desc_sentence-&gt;ﻰﻄﻐﻣ [Community] ﺮﻬﻈﻳ ،ﺪﻌﺒﻟﺍ ﻰﻠﻋ\n.ﺝﻮﻠﺜﻟﺎﺑ</li>
+    <li>desc_sentence-&gt;ﺮﺒﻋ ﻭﺪﺒﻳ ﺩﺎﻜﻟﺎﺑ [Vegetable]s ﻦﻣ ﻞﻘﺣ\n.ﺞﻠﺜﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﺍﺪﻴﻌﺑ ﺞﻠﺜﻟﺎﺑ ﻰﻄﻐﻣ [TerrainFeature] ﺔﻳﺅﺭ ﻦﻜﻤﻳ</li>
+ </BuiltSnowman.rulePack.rulesStrings>
+  
+  <!-- EN: buried corpse -->
+  <BuriedCorpse.label>ﺔﺜﺟ ﻦﻓﺩ</BuriedCorpse.label>
+  <!-- EN:
+    <li>tale_noun->[DIGGER_nameDef] burying [CORPSE_nameDef]</li>
+    <li>tale_noun->[DIGGER_nameDef] laying [CORPSE_nameDef] to rest</li>
+    <li>image->[DIGGER_nameFull] standing next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] sitting next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] leaning against [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] scribing text on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] drawing art on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] placing [CORPSE_nameFull]'s body within a grave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->and consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to the memorial</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [DIGGER_nameDef], wearing a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [DIGGER_nameDef], wearing a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+  -->
+  <BuriedCorpse.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[CORPSE_nameDef] ﻦﻓﺪﻳ [DIGGER_nameDef]</li>
+    <li>tale_noun-&gt;ﻯﺮﺜﻟﺍ [CORPSE_nameDef] ﻯﺭﺍﻮﻳ [DIGGER_nameDef]</li>
+    <li>image-&gt;[CORPSE_nameFull] [circumstance_group] ﺮﺒﻗ ﺐﻧﺎﺠﺑ ﻒﻘﻳ [DIGGER_nameFull]</li>
+    <li>image-&gt;[CORPSE_nameFull] [circumstance_group] ﺮﺒﻗ ﺐﻧﺎﺠﺑ ﺲﻠﺠﻳ [DIGGER_nameFull]</li>
+    <li>image-&gt;[CORPSE_nameFull] [circumstance_group] ﺮﺒﻗ ﻰﻠﻋ ﺊﻜﺘﻳ [DIGGER_nameFull]</li>
+    <li>image-&gt;[CORPSE_nameFull] [circumstance_group] ﺮﺒﻗ ﻰﻠﻋ ﺎﺼﻧ ﺐﺘﻜﻳ [DIGGER_nameFull]</li>
+    <li>image-&gt;[CORPSE_nameFull] [circumstance_group] ﺮﺒﻗ ﻰﻠﻋ ﺎﻨﻓ ﻢﺳﺮﻳ [DIGGER_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﺮﺒﻗ ﻞﺧﺍﺩ [CORPSE_nameFull] ﺪﺴﺟ ﻊﻀﻳ [DIGGER_nameFull]</li>
+    <li>circumstance_phrase-&gt;[AdjectiveAngsty] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺮﻴﻜﻔﺘﻟﺍ ﻲﻓ ﻕﺭﺎﻏﻭ</li>
+    <li>circumstance_phrase-&gt;ﺪﻴﻌﺑ [TerrainFeature] ﻲﻓ ﻕﺪﺤﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺐﺼﻨﻟﺍ ﻰﻟﺇ ﺀﻭﺪﻬﺑ ﺙﺪﺤﺘﻳﻭ\nﻱﺭﺎﻛﺬﺘﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻔﻠﺨﻟﺍ ﻲﻓ ﺀﻲﻀﻳ [Color] ﻖﻔﺷ</li>
+    <li>desc_sentence-&gt;ﻰﻄﻐﻣ [Community] ﺮﻬﻈﻳ ،ﺪﻌﺒﻟﺍ ﻰﻠﻋ\n.ﺝﻮﻠﺜﻟﺎﺑ</li>
+    <li>desc_sentence-&gt;ﺪﻬﺸﻤﻟﺍ ﻰﻠﻋ ﻞﻄﺗ [CORPSE_nameDef]ـﻟ ﺔﻴﻔﻴﻃ ﺓﺭﻮﺻ\n.[AdjectiveFriendly] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>desc_sentence-&gt;،[DIGGER_nameDef] ﺐﻧﺎﺠﺑ ﻒﻘﺗ [CORPSE_nameDef]ـﻟ ﺔﻴﻔﻴﻃ ﺓﺭﻮﺻ\n.[AdjectiveFriendly] ﺍﺮﻴﺒﻌﺗ ﺔﻳﺪﺗﺮﻣ</li>
+    <li>desc_sentence-&gt;ﺪﻬﺸﻤﻟﺍ ﻰﻠﻋ ﻞﻄﺗ [CORPSE_nameDef]ـﻟ ﺔﻴﻔﻴﻃ ﺓﺭﻮﺻ\n.[AdjectiveAngsty] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>desc_sentence-&gt;،[DIGGER_nameDef] ﺐﻧﺎﺠﺑ ﻒﻘﺗ [CORPSE_nameDef]ـﻟ ﺔﻴﻔﻴﻃ ﺓﺭﻮﺻ\n.[AdjectiveAngsty] ﺍﺮﻴﺒﻌﺗ ﺔﻳﺪﺗﺮﻣ</li>
+    <li>desc_sentence-&gt;.ﺪﻬﺸﻤﻟﺍ ﺏﺮﻗ ﺢﻳﺮﺘﺴﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+ </BuriedCorpse.rulePack.rulesStrings>
+  
+  <!-- EN: completed long construction project -->
+  <CompletedLongConstructionProject.label>ﻞﻳﻮﻃ ﺀﺎﻨﺑ ﻉﻭﺮﺸﻣ ﻞﻤﻛﺃ</CompletedLongConstructionProject.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] building a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] putting together a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing [PAWN_possessive] name on a [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
+    <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
+    <li>circumstance_phrase->while covered in grime</li>
+    <li>circumstance_phrase->while smiling proudly</li>
+    <li>circumstance_phrase->with a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->The [OBJECT_label] appears to tower above [PAWN_nameDef].</li>
+    <li>desc_sentence->The [OBJECT_label] glows a soft [Color].</li>
+    <li>desc_sentence->The [OBJECT_label] is intricately detailed.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s marvel at the [OBJECT_label].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
+  -->
+  <CompletedLongConstructionProject.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[OBJECT_label] ﺀﺎﻨﺑ ﻲﻬﻨﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[OBJECT_label] [circumstance_group] ﻲﻨﺒﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[OBJECT_label] [circumstance_group] ﺐﻛﺮﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[OBJECT_label] [circumstance_group] ﺢﻄﺳ ﻞﻘﺼﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[OBJECT_label] [circumstance_group] ﻰﻠﻋ [PAWN_possessive] ﻢﺳﺍ ﺶﻘﻨﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;[PAWN_possessive] ﻦﻴﻋ ﻲﻓ ﻖﻳﺮﺒﺑ</li>
+    <li>circumstance_phrase-&gt;[PAWN_possessive] ﻦﻴﺒﺟ ﻦﻣ ﻕﺮﻌﻟﺍ ﺢﺴﻤﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺥﺎﺳﻭﻷﺎﺑ ﻰﻄﻐﻣ ﻮﻫ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺮﺨﻔﺑ ﻢﺴﺘﺒﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;[PAWN_possessive] ﻪﺟﻭ ﻰﻠﻋ ﺎﺿﺭ ﺮﻴﺒﻌﺘﺑ</li>
+    <li>desc_sentence-&gt;.[PAWN_nameDef] ﻕﻮﻓ ﺎﺨﻣﺎﺷ [OBJECT_label] ﻭﺪﺒﻳ</li>
+    <li>desc_sentence-&gt;.ﻢﻋﺎﻧ [Color] ﻥﻮﻠﺑ [OBJECT_label] ﺞﻫﻮﺘﻳ</li>
+    <li>desc_sentence-&gt;.ﺪﻴﻘﻌﺘﺑ ﻞﺼﻔﻣ [OBJECT_label]</li>
+    <li>desc_sentence-&gt;.[OBJECT_label] ﻦﻣ ﻥﻮﺒﺠﻌﺘﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﻝﻮﻫﺬﺑ ﻥﻮﻗﺪﺤﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+ </CompletedLongConstructionProject.rulePack.rulesStrings>
+  
+  <!-- EN: completed long crafting project -->
+  <CompletedLongCraftingProject.label>ﻞﻳﻮﻃ ﺔﻏﺎﻴﺻ ﻉﻭﺮﺸﻣ ﻞﻤﻛﺃ</CompletedLongCraftingProject.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] completing work on a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] working on a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing [PAWN_possessive] name on a [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
+    <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
+    <li>circumstance_phrase->while covered in grime</li>
+    <li>circumstance_phrase->while smiling proudly</li>
+    <li>circumstance_phrase->with a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->The [OBJECT_label] glows a soft [Color].</li>
+    <li>desc_sentence->The [OBJECT_label] is intricately detailed.</li>
+    <li>desc_sentence->[PAWN_nameDef] lifts the [OBJECT_label] seemingly without effort.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s marvel at the device.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
+  -->
+  <CompletedLongCraftingProject.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[OBJECT_label] ﻰﻠﻋ ﻞﻤﻌﻟﺍ ﻞﻤﻜﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[OBJECT_label] [circumstance_group] ﻰﻠﻋ ﻞﻤﻌﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[OBJECT_label] [circumstance_group] ﺢﻄﺳ ﻞﻘﺼﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[OBJECT_label] [circumstance_group] ﻰﻟﺇ ﺔﻴﺤﻄﺳ ﻞﻴﺻﺎﻔﺗ ﻒﻴﻀﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[OBJECT_label] [circumstance_group] ﻰﻠﻋ [PAWN_possessive] ﻢﺳﺍ ﺶﻘﻨﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;[PAWN_possessive] ﻦﻴﻋ ﻲﻓ ﻖﻳﺮﺒﺑ</li>
+    <li>circumstance_phrase-&gt;[PAWN_possessive] ﻦﻴﺒﺟ ﻦﻣ ﻕﺮﻌﻟﺍ ﺢﺴﻤﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺥﺎﺳﻭﻷﺎﺑ ﻰﻄﻐﻣ ﻮﻫ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺮﺨﻔﺑ ﻢﺴﺘﺒﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;[PAWN_possessive] ﻪﺟﻭ ﻰﻠﻋ ﺎﺿﺭ ﺮﻴﺒﻌﺘﺑ</li>
+    <li>desc_sentence-&gt;.ﻢﻋﺎﻧ [Color] ﻥﻮﻠﺑ [OBJECT_label] ﺞﻫﻮﺘﻳ</li>
+    <li>desc_sentence-&gt;.ﺪﻴﻘﻌﺘﺑ ﻞﺼﻔﻣ [OBJECT_label]</li>
+    <li>desc_sentence-&gt;.ﺪﻬﺟ ﻼﺑ ﻥﺎﻛ ﻮﻟ ﺎﻤﻛ [OBJECT_label] ﻊﻓﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺯﺎﻬﺠﻟﺍ ﻦﻣ ﻥﻮﺒﺠﻌﺘﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﻝﻮﻫﺬﺑ ﻥﻮﻗﺪﺤﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+ </CompletedLongCraftingProject.rulePack.rulesStrings>
+  
+  <!-- EN: entered cryptosleep -->
+  <EnteredCryptosleep.label>ﺕﺎﺒﺴﻟﺍ ﻞﺧﺩ</EnteredCryptosleep.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] entering cryptosleep</li>
+    <li>image->[PAWN_nameFull] lying down inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] opening an empty cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sealing themselves inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking through the wall of a cryptosleep casket at a world they're about to leave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->while consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to themselves</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
+    <li>desc_sentence->[PAWN_nameDef] radiates determination.</li>
+    <li>desc_sentence->[PAWN_nameDef] is visibly wounded.</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+  -->
+  <EnteredCryptosleep.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﺕﺎﺒﺴﻟﺍ ﻞﺧﺪﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[circumstance_group] ﺕﺎﺒﺳ ﺕﻮﺑﺎﺗ ﻞﺧﺍﺩ ﻲﻘﻠﺘﺴﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻍﺭﺎﻓ ﺕﺎﺒﺳ ﺕﻮﺑﺎﺗ ﺢﺘﻔﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;ﺕﻮﺑﺎﺗ ﻞﺧﺍﺩ ﻪﺴﻔﻧ ﻰﻠﻋ ﻖﻠﻐﻳ [PAWN_nameFull]\n[circumstance_group] ﺕﺎﺒﺳ</li>
+    <li>image-&gt;ﺕﺎﺒﺴﻟﺍ ﺕﻮﺑﺎﺗ ﺭﺍﺪﺟ ﺮﺒﻋ ﺮﻈﻨﻳ [PAWN_nameFull]\n[circumstance_group] ﻪﺗﺭﺩﺎﻐﻣ ﻚﺷﻭ ﻰﻠﻋ ﻢﻟﺎﻋ ﻰﻟﺇ</li>
+    <li>circumstance_phrase-&gt;[AdjectiveAngsty] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺮﻴﻜﻔﺘﻟﺍ ﻲﻓ ﻕﺭﺎﻏ ﻮﻫ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺪﻴﻌﺑ [TerrainFeature] ﻲﻓ ﻕﺪﺤﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﻪﺴﻔﻧ ﻰﻟﺇ ﺀﻭﺪﻬﺑ ﺙﺪﺤﺘﻳﻭ</li>
+    <li>desc_sentence-&gt;.ﺪﻬﺸﻤﻟﺍ ﺏﺮﻗ ﺢﻳﺮﺘﺴﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻮﺑﺮﺘﻘﻳ [Enemy]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺍﺭﺍﺮﺻﺇ ﻊﺸﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺢﺿﺍﻭ ﻞﻜﺸﺑ ﺏﺎﺼﻣ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻔﻠﺨﻟﺍ ﻲﻓ ﺀﻲﻀﻳ [Color] ﻖﻔﺷ</li>
+    <li>desc_sentence-&gt;ﺓﺀﻮﻠﻤﻤﻟﺍ ﺕﺎﺒﺴﻟﺍ ﺖﻴﺑﺍﻮﺗ ﻦﻣ [Quantity_adjphrase]\n.ﺪﻬﺸﻤﻟﺎﺑ ﻂﻴﺤﺗ</li>
+ </EnteredCryptosleep.rulePack.rulesStrings>
+  
+  <!-- EN: gained master skill -->
+  <GainedMasterSkillWithoutPassion.label>ﺔﻨﻘﺘﻣ ﺓﺭﺎﻬﻣ ﺐﺴﺘﻛﺍ</GainedMasterSkillWithoutPassion.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
+    <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] reading a tome on [SKILL_label] methods [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] receiving training in [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] working feverishly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] finishing a project [circumstance_group]</li>
+    <li>circumstance_phrase->while covered in sweat</li>
+    <li>circumstance_phrase->with visible exhaustion</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->with a bored expression</li>
+    <li>desc_sentence->The scene is surrounded by [Quantity_adjphrase] failed experiments.</li>
+    <li>desc_sentence->The scene is surrounded by [Quantity_adjphrase] books.</li>
+    <li>desc_sentence->[PAWN_possessive] skill is visible in the work.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
+  -->
+  <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[SKILL_label] ﻡﺎﻬﻣ ﻲﻓ ﺍﺮﻴﺒﺧ ﺢﺒﺼﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[SKILL_label] [circumstance_group] ﺕﺍﺭﺎﻬﻣ ﺱﺭﺎﻤﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[SKILL_label] [circumstance_group] ﺐﻴﻟﺎﺳﺃ ﻦﻋ ﺎﺑﺎﺘﻛ ﺃﺮﻘﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[SKILL_label] [circumstance_group] ﺕﺍﺭﺎﻬﻣ ﻰﻠﻋ ﺎﺒﻳﺭﺪﺗ ﻰﻘﻠﺘﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻰﻤﺤﺑ ﻞﻤﻌﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﺎﻋﻭﺮﺸﻣ ﻲﻬﻨﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﻕﺮﻌﻟﺎﺑ ﻰﻄﻐﻣ ﻮﻫ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺢﺿﺍﻭ ﻕﺎﻫﺭﺈﺑ</li>
+    <li>circumstance_phrase-&gt;[AdjectiveAngsty] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺮﺠﺿ ﺮﻴﺒﻌﺘﺑ</li>
+    <li>desc_sentence-&gt;ﺏﺭﺎﺠﺘﻟﺍ ﻦﻣ [Quantity_adjphrase]ـﺑ ﻁﺎﺤﻣ ﺪﻬﺸﻤﻟﺍ\n.ﺔﻠﺷﺎﻔﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﺐﺘﻜﻟﺍ ﻦﻣ [Quantity_adjphrase]ـﺑ ﻁﺎﺤﻣ ﺪﻬﺸﻤﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﻞﻤﻌﻟﺍ ﻲﻓ ﺔﺤﺿﺍﻭ [PAWN_possessive] ﺓﺭﺎﻬﻣ</li>
+    <li>desc_sentence-&gt;.ﻝﻮﻫﺬﺑ ﻥﻮﺒﻗﺍﺮﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﻝﻮﻫﺬﺑ ﻥﻮﺒﻗﺍﺮﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﻤﻠﻌﻤﻟﺍ ﺡﺍﻭﺭﺃ ﻦﻣ [Quantity_adjphrase]\n.ﻰﻠﻋﻷﺍ ﻦﻣ ﺐﻗﺍﺮﺗ ﺔﻳﺮﻴﺛﻷﺍ</li>
+ </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
+  
+  <!-- EN: gained master skill with passion -->
+  <GainedMasterSkillWithPassion.label>ﻒﻐﺸﺑ ﺔﻨﻘﺘﻣ ﺓﺭﺎﻬﻣ ﺐﺴﺘﻛﺍ</GainedMasterSkillWithPassion.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
+    <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] reading a tome on [SKILL_label] methods [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] receiving training for [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] working feverishly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] finishing a project [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->with a joyous expression</li>
+    <li>circumstance_phrase->while [VerbFriendly]</li>
+    <li>circumstance_phrase->with an exuberant shout</li>
+    <li>circumstance_phrase->while covered in sweat</li>
+    <li>circumstance_phrase->with visible exhaustion</li>
+    <li>desc_sentence->The subject is surrounded by the results of [Quantity_adjphrase] failed experiments.</li>
+    <li>desc_sentence->The subject is surrounded by [Quantity_adjphrase] books.</li>
+    <li>desc_sentence->[PAWN_possessive] skill is visible in the work.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
+  -->
+  <GainedMasterSkillWithPassion.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[SKILL_label] ﻡﺎﻬﻣ ﻲﻓ ﺍﺮﻴﺒﺧ ﺢﺒﺼﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[SKILL_label] [circumstance_group] ﺕﺍﺭﺎﻬﻣ ﺱﺭﺎﻤﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[SKILL_label] [circumstance_group] ﺐﻴﻟﺎﺳﺃ ﻦﻋ ﺎﺑﺎﺘﻛ ﺃﺮﻘﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[SKILL_label] [circumstance_group] ﺕﺍﺭﺎﻬﻣ ﻰﻠﻋ ﺎﺒﻳﺭﺪﺗ ﻰﻘﻠﺘﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻰﻤﺤﺑ ﻞﻤﻌﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﺎﻋﻭﺮﺸﻣ ﻲﻬﻨﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;[AdjectiveFriendly] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺞﻬﺘﺒﻣ ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;[VerbFriendly] ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻴﺳﺎﻤﺣ ﺔﺤﻴﺼﺑ</li>
+    <li>circumstance_phrase-&gt;ﻕﺮﻌﻟﺎﺑ ﻰﻄﻐﻣ ﻮﻫ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺢﺿﺍﻭ ﻕﺎﻫﺭﺈﺑ</li>
+    <li>desc_sentence-&gt;ﺏﺭﺎﺠﺘﻟﺍ ﻦﻣ [Quantity_adjphrase] ﺞﺋﺎﺘﻨﺑ ﻁﺎﺤﻣ ﻑﺪﻬﻟﺍ\n.ﺔﻠﺷﺎﻔﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﺐﺘﻜﻟﺍ ﻦﻣ [Quantity_adjphrase]ـﺑ ﻁﺎﺤﻣ ﻑﺪﻬﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﻞﻤﻌﻟﺍ ﻲﻓ ﺔﺤﺿﺍﻭ [PAWN_possessive] ﺓﺭﺎﻬﻣ</li>
+    <li>desc_sentence-&gt;.ﻝﻮﻫﺬﺑ ﻥﻮﺒﻗﺍﺮﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﻝﻮﻫﺬﺑ ﻥﻮﺒﻗﺍﺮﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﻤﻠﻌﻤﻟﺍ ﺡﺍﻭﺭﺃ ﻦﻣ [Quantity_adjphrase]\n.ﻰﻠﻋﻷﺍ ﻦﻣ ﺐﻗﺍﺮﺗ ﺔﻳﺮﻴﺛﻷﺍ</li>
+ </GainedMasterSkillWithPassion.rulePack.rulesStrings>
+  
+  <!-- EN: increased menagerie -->
+  <IncreasedMenagerie.label>ﺔﻔﻴﻟﻷﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺩﺪﻋ ﺩﺍﺯ</IncreasedMenagerie.label>
+  <!-- EN:
+    <li>tale_noun(p=3)->[HUMAN_nameDef] recruiting yet another animal to [HUMAN_possessive] growing [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef] being followed around by a [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef]'s taming of [ANIMAL_nameDef]</li>
+    <li>image->[HUMAN_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] whispering to a skittish [ANIMAL_label] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] calming a wild [ANIMAL_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with great care and caution</li>
+    <li>circumstance_phrase->with a smile</li>
+    <li>circumstance_phrase->while exhausted but happy</li>
+    <li>circumstance_phrase->with a [AnimalGroup] in the background</li>
+    <li>desc_sentence->[HUMAN_nameDef] is surrounded by uncountable [Animal]s.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is moving to join a [AnimalGroup] of its kin.</li>
+    <li>desc_sentence->The scene is packed with [Animal]s and [Animal]s.</li>
+    <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
+  -->
+  <IncreasedMenagerie.rulePack.rulesStrings>
+    <li>tale_noun(p=3)-&gt;[AnimalGroup] [HUMAN_possessive] ﻰﻟﺇ ﺮﺧﺁ ﺎﻧﺍﻮﻴﺣ ﻢﻀﻳ [HUMAN_nameDef]\nﺪﻳﺍﺰﺘﻤﻟﺍ</li>
+    <li>tale_noun-&gt;[AnimalGroup] ﻪﻌﺒﺘﺗ [HUMAN_nameDef]</li>
+    <li>tale_noun-&gt;[ANIMAL_nameDef]ـﻟ [HUMAN_nameDef] ﺾﻳﻭﺮﺗ</li>
+    <li>image-&gt;[ANIMAL_nameFull] [circumstance_group] ﺽﻭﺮﻳ [HUMAN_nameFull]</li>
+    <li>image-&gt;[ANIMAL_nameFull] [circumstance_group]ـﻟ ﻡﺎﻌﻃ ﺔﻤﻘﻟ ﻡﺪﻘﻳ [HUMAN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻝﻮﻔﺟ [ANIMAL_label] ﻰﻟﺇ ﺲﻤﻬﻳ [HUMAN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻱﺮﺑ [ANIMAL_label] ﺉﺪﻬﻳ [HUMAN_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﻦﻳﺪﻳﺪﺷ ﺭﺬﺣﻭ ﺔﻳﺎﻨﻌﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻣﺎﺴﺘﺑﺎﺑ</li>
+    <li>circumstance_phrase-&gt;ﺪﻴﻌﺳ ﻦﻜﻟ ﻖﻫﺮﻣ ﻮﻫ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻴﻔﻠﺨﻟﺍ ﻲﻓ [AnimalGroup] ﻊﻣ</li>
+    <li>desc_sentence-&gt;.[Animal]s ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻌﺑ ﻁﺎﺤﻣ [HUMAN_nameDef]</li>
+    <li>desc_sentence-&gt;ﻲﻨﺑ ﻦﻣ [AnimalGroup] ﻰﻟﺇ ﻢﻀﻨﻴﻟ ﻙﺮﺤﺘﻳ [ANIMAL_nameDef]\n.ﻪﺴﻨﺟ</li>
+    <li>desc_sentence-&gt;.[Animal]sﻭ [Animal]sـﺑ ﻢﺣﺩﺰﻣ ﺪﻬﺸﻤﻟﺍ</li>
+    <li>desc_sentence-&gt;ﺮﻈﺘﻨﻳ [Animal]s ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻋ ﻦﻣ ﻒﺻ\n.[HUMAN_nameDef] ﻞﺒﻗ ﻦﻣ ﻪﻀﻳﻭﺮﺗ</li>
+ </IncreasedMenagerie.rulePack.rulesStrings>
+  
+  <!-- EN: meditated -->
+  <Meditated.label>ﻞﻣﺄﺗ</Meditated.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] meditating</li>
+    <li>image->[PAWN_nameFull] sitting under a [TreeType] tree, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting quietly, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] gazing into the distance and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] closing [PAWN_possessive] eyes and [circumstance_group]</li>
+    <li>circumstance_phrase->radiating serenity</li>
+    <li>circumstance_phrase->with a tranquil smile</li>
+    <li>circumstance_phrase->with a [VerbFriendly] smile</li>
+    <li>circumstance_phrase->glowing softly</li>
+    <li>circumstance_phrase->surrounded by a [Color] aura</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] is surrounded by [Quantity_adjphrase] [Animal]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest peacefully.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
+  -->
+  <Meditated.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﻞﻣﺄﺘﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[TreeType]، [circumstance_group] ﺓﺮﺠﺷ ﺖﺤﺗ ﺲﻠﺠﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ،ﺀﻭﺪﻬﺑ ﺲﻠﺠﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group]ﻭ ﻖﻓﻷﺍ ﻲﻓ ﻕﺪﺤﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group]ﻭ [PAWN_possessive] ﻲﻨﻴﻋ ﻖﻠﻐﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﺔﻨﻴﻜﺳ ﻊﺸﻳ</li>
+    <li>circumstance_phrase-&gt;ﺔﺋﺩﺎﻫ ﺔﻣﺎﺴﺘﺑﺎﺑ</li>
+    <li>circumstance_phrase-&gt;[VerbFriendly] ﺔﻣﺎﺴﺘﺑﺎﺑ</li>
+    <li>circumstance_phrase-&gt;ﻒﻄﻠﺑ ﺞﻫﻮﺘﻳ</li>
+    <li>circumstance_phrase-&gt;[Color] ﺔﻟﺎﻬﺑ ﻁﺎﺤﻣ</li>
+    <li>desc_sentence-&gt;.[PAWN_objective] ﻲﻓ ﻥﻮﻗﺪﺤﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.[Animal]s ﻦﻣ [Quantity_adjphrase]ـﺑ ﻁﺎﺤﻣ [PAWN_pronoun]</li>
+    <li>desc_sentence-&gt;.ﻡﻼﺴﺑ ﺢﻳﺮﺘﺴﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺪﻬﺸﻤﻟﺎﺑ ﻥﻮﻟﻮﻫﺬﻣ [Enemy]s ﻦﻣ [Quantity_adjphrase]</li>
+ </Meditated.rulePack.rulesStrings>
+  
+  <!-- EN: mined valuable -->
+  <MinedValuable.label>ﺔﻤﻴﻗ ﺓﺩﺎﻣ ﺝﺮﺨﺘﺳﺍ</MinedValuable.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] mining a rich vein of [MATERIAL_label]</li>
+    <li>image->[PAWN_nameFull] working a [MATERIAL_label] wall with mining tools, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] holding up a chunk of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] resting against a wall of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] coordinating an excavation team against a rich vein of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] carefully inspecting a rich vein of [MATERIAL_label], [circumstance_group]</li>
+    <li>circumstance_phrase->sweating heavily</li>
+    <li>circumstance_phrase->wearing a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->wearing a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->smiling proudly</li>
+    <li>circumstance_phrase->a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally]s assist.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander the area.</li>
+    <li>desc_sentence->There is a [Community] in the background.</li>
+    <li>desc_sentence->[Quantity_adjphrase] further veins are visible in the distance.</li>
+    <li>desc_sentence->A [TerrainFeature] is visible in the distance.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+  -->
+  <MinedValuable.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[MATERIAL_label] ﻦﻣ ﻲﻨﻏ ﻕﺮﻋ ﻦﻋ ﺐﻘﻨﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;ﺕﺍﻭﺩﺄﺑ [MATERIAL_label] ﺭﺍﺪﺟ ﻰﻠﻋ ﻞﻤﻌﻳ [PAWN_nameFull]\n[circumstance_group] ،ﻦﻳﺪﻌﺘﻟﺍ</li>
+    <li>image-&gt;[MATERIAL_label]، [circumstance_group] ﻦﻣ ﺔﻌﻄﻗ ﻞﻤﺤﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[MATERIAL_label]، [circumstance_group] ﺭﺍﺪﺟ ﻰﻠﻋ ﺎﺌﻜﺘﻣ ﺢﻳﺮﺘﺴﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;ﻕﺮﻋ ﺝﺍﺮﺨﺘﺳﻻ ﺮﻔﺣ ﻖﻳﺮﻓ ﻖﺴﻨﻳ [PAWN_nameFull]\n[MATERIAL_label]، [circumstance_group] ﻦﻣ ﻲﻨﻏ</li>
+    <li>image-&gt;،[MATERIAL_label] ﻦﻣ ﺎﻴﻨﻏ ﺎﻗﺮﻋ ﺔﻳﺎﻨﻌﺑ ﺺﺤﻔﺘﻳ [PAWN_nameFull]\n[circumstance_group]</li>
+    <li>circumstance_phrase-&gt;ﺓﺭﺍﺰﻐﺑ ﺎﻗﺮﻋ ﺐﺒﺼﺘﻳ</li>
+    <li>circumstance_phrase-&gt;[AdjectiveFriendly] ﺍﺮﻴﺒﻌﺗ ﺎﻳﺪﺗﺮﻣ</li>
+    <li>circumstance_phrase-&gt;[AdjectiveFriendly] ﺍﺮﻴﺒﻌﺗ ﺎﻳﺪﺗﺮﻣ</li>
+    <li>circumstance_phrase-&gt;ﺮﺨﻔﺑ ﻢﺴﺘﺒﻳ</li>
+    <li>circumstance_phrase-&gt;[PAWN_possessive] ﻪﺟﻭ ﻰﻠﻋ ﺎﺿﺭ ﺮﻴﺒﻌﺗ</li>
+    <li>desc_sentence-&gt;.ﻥﻭﺪﻋﺎﺴﻳ [ally]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ﻝﻮﺠﺘﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻔﻠﺨﻟﺍ ﻲﻓ [Community] ﺪﺟﻮﻳ</li>
+    <li>desc_sentence-&gt;ﻲﻓ ﺔﻴﺋﺮﻣ ﻯﺮﺧﻷﺍ ﻕﻭﺮﻌﻟﺍ ﻦﻣ [Quantity_adjphrase]\n.ﺔﻓﺎﺴﻤﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﺔﻓﺎﺴﻤﻟﺍ ﻲﻓ ﻲﺋﺮﻣ [TerrainFeature]</li>
+    <li>desc_sentence-&gt;.ﻞﻤﻌﻟﺍ ﻦﻣ ﺦﺴﺘﻣﻭ ﻕﺮﻌﺘﻣ [PAWN_nameDef]</li>
+ </MinedValuable.rulePack.rulesStrings>
+  
+  <!-- EN: played game -->
+  <PlayedGame.label>ﺔﺒﻌﻟ ﺐﻌﻟ</PlayedGame.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] relaxing at a [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] playing games at a [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] enjoying [PAWN_objective]self at a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] waiting in a chair, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] poised over the [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting next to the [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] winning at a [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] losing at a [OBJECT_label], [circumstance_group]</li>
+    <li>circumstance_phrase->tense with energy</li>
+    <li>circumstance_phrase->[PAWN_possessive] body loose and relaxed</li>
+    <li>circumstance_phrase->planning [PAWN_possessive] next action</li>
+    <li>circumstance_phrase->gently massaging [PAWN_possessive] wrists</li>
+    <li>circumstance_phrase->[angstyverb] with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->wearing a [AdjectiveAngsty] look</li>
+    <li>circumstance_phrase->[angstyverb]</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is visible.</li>
+    <li>desc_sentence->In the distance, a [TerrainFeature] is visible.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are playing as well.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
+    <li>desc_sentence->[PAWN_nameDef] is glowing with a [Color] aura.</li>
+    <li>desc_sentence->[PAWN_nameDef]'s features are exaggerated.</li>
+    <li>desc_sentence->[PAWN_nameDef] towers above the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are slumped in defeat.</li>
+  -->
+  <PlayedGame.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[OBJECT_label] ﺪﻨﻋ ﺢﻳﺮﺘﺴﻳ [PAWN_nameDef]</li>
+    <li>tale_noun-&gt;[OBJECT_label] ﺪﻨﻋ ﺎﺑﺎﻌﻟﺃ ﺐﻌﻠﻳ [PAWN_nameDef]</li>
+    <li>tale_noun-&gt;[OBJECT_label] ﺪﻨﻋ ﻪﺘﻗﻮﺑ ﻊﺘﻤﺘﺴﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[circumstance_group] ،ﻲﺳﺮﻛ ﻰﻠﻋ ﺮﻈﺘﻨﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[OBJECT_label]، [circumstance_group] ﻕﻮﻓ ﻦﺤﻨﻣ [PAWN_nameFull]</li>
+    <li>image-&gt;[OBJECT_label]، [circumstance_group] ﺐﻧﺎﺠﺑ ﺲﻠﺠﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[OBJECT_label]، [circumstance_group] ﻲﻓ ﺯﻮﻔﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[OBJECT_label]، [circumstance_group] ﻲﻓ ﺮﺴﺨﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﻞﻌﻔﻨﻣﻭ ﺮﺗﻮﺘﻣ</li>
+    <li>circumstance_phrase-&gt;ﺥﺮﺘﺴﻣﻭ ﺦﺗﺮﻣ [PAWN_possessive] ﺪﺴﺟ</li>
+    <li>circumstance_phrase-&gt;ﺔﻴﻟﺎﺘﻟﺍ [PAWN_possessive] ﺓﻮﻄﺨﻟ ﻂﻄﺨﻳ</li>
+    <li>circumstance_phrase-&gt;ﻒﻄﻠﺑ [PAWN_possessive] ﻲﻤﺼﻌﻣ ﻚﻟﺪﻳ</li>
+    <li>circumstance_phrase-&gt;[AdjectiveAngsty] ﺮﻴﺒﻌﺘﺑ [angstyverb]</li>
+    <li>circumstance_phrase-&gt;[AdjectiveAngsty] ﺓﺮﻈﻧ ﺎﻳﺪﺗﺮﻣ</li>
+    <li>circumstance_phrase-&gt;[angstyverb]</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻔﻠﺨﻟﺍ ﻲﻓ ﺀﻲﻀﻳ [Color] ﻖﻔﺷ</li>
+    <li>desc_sentence-&gt;.[Community] ﺮﻬﻈﻳ ،ﺔﻓﺎﺴﻤﻟﺍ ﻲﻓ</li>
+    <li>desc_sentence-&gt;.[TerrainFeature] ﺮﻬﻈﻳ ،ﺔﻓﺎﺴﻤﻟﺍ ﻲﻓ</li>
+    <li>desc_sentence-&gt;.ﺎﻀﻳﺃ ﻥﻮﺒﻌﻠﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺭﺍﻮﺠﻟﺍ ﻲﻓ ﻥﻮﺒﻌﻠﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.[Color] ﺔﻟﺎﻬﺑ ﺞﻫﻮﺘﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎﻬﻴﻓ ﻎﻟﺎﺒﻣ [PAWN_nameDef] ﺢﻣﻼﻣ</li>
+    <li>desc_sentence-&gt;.ﺪﻬﺸﻤﻟﺍ ﻕﻮﻓ ﻮﻠﻌﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺔﻤﻳﺰﻫ ﻲﻓ ﻥﻭﺭﺎﻬﻨﻣ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+ </PlayedGame.rulePack.rulesStrings>
+  
+  <!-- EN: prayed -->
+  <Prayed.label>ﻰﻠﺻ</Prayed.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] praying</li>
+    <li>tale_noun->[PAWN_nameDef] praying to a higher power</li>
+    <li>image->[PAWN_nameFull] gazing into the distance and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] closing [PAWN_possessive] eyes and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] clasping [PAWN_possessive] hands and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking into the sky and [circumstance_group]</li>
+    <li>circumstance_phrase->radiating serenity</li>
+    <li>circumstance_phrase->whispering softly</li>
+    <li>circumstance_phrase->wearing a hopeful expression</li>
+    <li>circumstance_phrase->glowing softly</li>
+    <li>circumstance_phrase->surrounded by a [Color] aura</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] is surrounded by [Quantity_adjphrase] [Animal]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest peacefully.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
+  -->
+  <Prayed.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﻲﻠﺼﻳ [PAWN_nameDef]</li>
+    <li>tale_noun-&gt;ﺎﻴﻠﻋ ﺓﻮﻘﻟ ﻲﻠﺼﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[circumstance_group]ﻭ ﻖﻓﻷﺍ ﻲﻓ ﻕﺪﺤﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group]ﻭ [PAWN_possessive] ﻲﻨﻴﻋ ﻖﻠﻐﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group]ﻭ [PAWN_possessive] ﻱﺪﻳ ﻚﺒﺸﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group]ﻭ ﺀﺎﻤﺴﻟﺍ ﻰﻟﺇ ﺮﻈﻨﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﺔﻨﻴﻜﺳ ﻊﺸﻳ</li>
+    <li>circumstance_phrase-&gt;ﺀﻭﺪﻬﺑ ﺲﻤﻬﻳ</li>
+    <li>circumstance_phrase-&gt;ﻞﻣﻷﺎﺑ ﺎﻤﻌﻔﻣ ﺍﺮﻴﺒﻌﺗ ﺎﻳﺪﺗﺮﻣ</li>
+    <li>circumstance_phrase-&gt;ﻒﻄﻠﺑ ﺞﻫﻮﺘﻳ</li>
+    <li>circumstance_phrase-&gt;[Color] ﺔﻟﺎﻬﺑ ﻁﺎﺤﻣ</li>
+    <li>desc_sentence-&gt;.[PAWN_objective] ﻲﻓ ﻥﻮﻗﺪﺤﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.[Animal]s ﻦﻣ [Quantity_adjphrase]ـﺑ ﻁﺎﺤﻣ [PAWN_pronoun]</li>
+    <li>desc_sentence-&gt;.ﻡﻼﺴﺑ ﺢﻳﺮﺘﺴﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺪﻬﺸﻤﻟﺎﺑ ﻥﻮﻟﻮﻫﺬﻣ [Enemy]s ﻦﻣ [Quantity_adjphrase]</li>
+ </Prayed.rulePack.rulesStrings>
+  
+  <!-- EN: put into cryptosleep -->
+  <PutIntoCryptosleep.label>ﺕﺎﺒﺴﻟﺍ ﻲﻓ ﻊﺿﻭ</PutIntoCryptosleep.label>
+  <!-- EN:
+    <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosleep</li>
+    <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] opening an empty cryptosleep casket while supporting [SLEEPER_nameDef] [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] sealing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] walking away as [SLEEPER_nameDef] looks through the wall of a cryptosleep casket [circumstance_group]</li>
+    <li>circumstance_phrase(p=3)->with a [AdjectiveAny] expression</li>
+    <li>circumstance_phrase->while consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->with visible tension between the two</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
+    <li>desc_sentence->[CARRIER_nameDef] radiates determination.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] is visibly wounded.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] looks exhausted.</li>
+    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+  -->
+  <PutIntoCryptosleep.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﺕﺎﺒﺴﻟﺍ ﻲﻓ [SLEEPER_nameDef] ﻊﻀﻳ [CARRIER_nameDef]</li>
+    <li>image-&gt;[circumstance_group] ﺕﺎﺒﺳ ﺕﻮﺑﺎﺗ ﻞﺧﺍﺩ [SLEEPER_nameDef] ﻊﻀﻳ [CARRIER_nameFull]</li>
+    <li>image-&gt;ﺎﻤﻨﻴﺑ ﻍﺭﺎﻓ ﺕﺎﺒﺳ ﺕﻮﺑﺎﺗ ﺢﺘﻔﻳ [CARRIER_nameFull]\n[SLEEPER_nameDef] [circumstance_group] ﺪﻨﺴﻳ</li>
+    <li>image-&gt;[circumstance_group] ﺕﺎﺒﺳ ﺕﻮﺑﺎﺗ ﻞﺧﺍﺩ [SLEEPER_nameDef] ﻰﻠﻋ ﻖﻠﻐﻳ [CARRIER_nameFull]</li>
+    <li>image-&gt;ﺭﺍﺪﺟ ﺮﺒﻋ [SLEEPER_nameDef] ﺮﻈﻨﻳ ﺎﻤﻨﻴﺑ ﺪﻌﺘﺒﻳ [CARRIER_nameFull]\n[circumstance_group] ﺕﺎﺒﺴﻟﺍ ﺕﻮﺑﺎﺗ</li>
+    <li>circumstance_phrase(p=3)-&gt;[AdjectiveAny] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺮﻴﻜﻔﺘﻟﺍ ﻲﻓ ﻕﺭﺎﻏ ﻮﻫ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺪﻴﻌﺑ [TerrainFeature] ﻲﻓ ﻕﺪﺤﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﻦﻴﻨﺛﻻﺍ ﻦﻴﺑ ﺢﺿﺍﻭ ﺮﺗﻮﺗ ﻊﻣ</li>
+    <li>desc_sentence-&gt;.ﺪﻬﺸﻤﻟﺍ ﺏﺮﻗ ﺢﻳﺮﺘﺴﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻮﺑﺮﺘﻘﻳ [Enemy]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺍﺭﺍﺮﺻﺇ ﻊﺸﻳ [CARRIER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺢﺿﺍﻭ ﻞﻜﺸﺑ ﺏﺎﺼﻣ [SLEEPER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎﻘﻫﺮﻣ ﻭﺪﺒﻳ [SLEEPER_nameDef]</li>
+    <li>desc_sentence-&gt;ﺓﺀﻮﻠﻤﻤﻟﺍ ﺕﺎﺒﺴﻟﺍ ﺖﻴﺑﺍﻮﺗ ﻦﻣ [Quantity_adjphrase]\n.ﺪﻬﺸﻤﻟﺎﺑ ﻂﻴﺤﺗ</li>
+ </PutIntoCryptosleep.rulePack.rulesStrings>
+  
+  <!-- EN: stripped -->
+  <Stripped.label>ﺩﺮﺟ</Stripped.label>
+  <!-- EN:
+    <li>tale_noun->[TAKER_nameDef] stripping [STRIPPED_nameDef]</li>
+    <li>image->[TAKER_nameFull] disrobing [STRIPPED_nameFull] in public [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] removing the clothes of [STRIPPED_nameFull] [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] holding an armful of [Apparel]s while standing next to [STRIPPED_nameFull], who is completely naked [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] waiting patiently as [STRIPPED_nameFull] removes [STRIPPED_possessive] clothes [circumstance_group]</li>
+    <li>circumstance_phrase->with a sense of purpose</li>
+    <li>circumstance_phrase->with no hint of shame</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->for no apparent reason</li>
+    <li>circumstance_phrase->while confused animals look on</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is visibly aroused.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is covered in unexplained moisture.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is breathing heavily for no obvious reason.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is fondling a shrub.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] wears only a [AdjectiveAngsty] expression.</li>
+  -->
+  <Stripped.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[STRIPPED_nameDef] ﺩﺮﺠﻳ [TAKER_nameDef]</li>
+    <li>image-&gt;[circumstance_group] ﺎﻨﻠﻋ [STRIPPED_nameFull] ﺲﺑﻼﻣ ﻉﺰﻨﻳ [TAKER_nameFull]</li>
+    <li>image-&gt;[STRIPPED_nameFull] [circumstance_group] ﺲﺑﻼﻣ ﻞﻳﺰﻳ [TAKER_nameFull]</li>
+    <li>image-&gt;ﻒﻘﻳ ﺎﻤﻨﻴﺑ [Apparel]s ﻦﻣ ﺔﻨﻔﺣ ﻞﻤﺤﻳ [TAKER_nameFull]\n[circumstance_group] ﺎﻣﺎﻤﺗ ﻱﺭﺎﻌﻟﺍ ،[STRIPPED_nameFull] ﺐﻧﺎﺠﺑ</li>
+    <li>image-&gt;ﺲﺑﻼﻣ [STRIPPED_nameFull] ﻊﻠﺨﻳ ﺎﻤﻨﻴﺑ ﺮﺒﺼﺑ ﺮﻈﺘﻨﻳ [TAKER_nameFull]\n[STRIPPED_possessive] [circumstance_group]</li>
+    <li>circumstance_phrase-&gt;ﻑﺪﻬﻟﺎﺑ ﺱﺎﺴﺣﺈﺑ</li>
+    <li>circumstance_phrase-&gt;ﻞﺠﺨﻠﻟ ﺮﺛﺃ ﻱﺃ ﻥﻭﺩ</li>
+    <li>circumstance_phrase-&gt;ﻥﻭﺮﺧﻵﺍ ﺐﻗﺍﺮﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺢﺿﺍﻭ ﺐﺒﺳ ﻥﻭﺩ</li>
+    <li>circumstance_phrase-&gt;ﺔﻜﺒﺗﺮﻣ ﺕﺎﻧﺍﻮﻴﺣ ﺐﻗﺍﺮﺗ ﺎﻤﻨﻴﺑ</li>
+    <li>desc_sentence-&gt;.ﺢﺿﺍﻭ ﻞﻜﺸﺑ ﺭﺎﺜﻣ [STRIPPED_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺓﺮﺴﻔﻣ ﺮﻴﻏ ﺔﺑﻮﻃﺮﺑ ﻰﻄﻐﻣ [STRIPPED_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺢﺿﺍﻭ ﺐﺒﺳ ﻥﻭﺩ ﺔﺑﻮﻌﺼﺑ ﺲﻔﻨﺘﻳ [STRIPPED_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺓﺮﻴﺠﺷ ﺲﺴﺤﺘﻳ [STRIPPED_nameDef]</li>
+    <li>desc_sentence-&gt;.[AdjectiveAngsty] ﺍﺮﻴﺒﻌﺗ ﻂﻘﻓ ﻱﺪﺗﺮﻳ [STRIPPED_nameDef]</li>
+ </Stripped.rulePack.rulesStrings>
+  
+  <!-- EN: visited grave -->
+  <VisitedGrave.label>ﺍﺮﺒﻗ ﺭﺍﺯ</VisitedGrave.label>
+  <!-- EN:
+    <li>tale_noun->[VISITOR_nameDef] visiting the grave of [CORPSE_nameDef]</li>
+    <li>tale_noun->[VISITOR_nameDef] visiting [CORPSE_nameDef]'s grave</li>
+    <li>image->[VISITOR_nameFull] standing next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] sitting next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] leaning against [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] reading the text on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] looking at the art on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->and consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to the memorial</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [VISITOR_nameDef], wearing a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [VISITOR_nameDef], wearing a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+  -->
+  <VisitedGrave.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[CORPSE_nameDef] ﺮﺒﻗ ﺭﻭﺰﻳ [VISITOR_nameDef]</li>
+    <li>tale_noun-&gt;[CORPSE_nameDef] ﺮﺒﻗ ﺭﻭﺰﻳ [VISITOR_nameDef]</li>
+    <li>image-&gt;[CORPSE_nameFull] [circumstance_group] ﺮﺒﻗ ﺐﻧﺎﺠﺑ ﻒﻘﻳ [VISITOR_nameFull]</li>
+    <li>image-&gt;[CORPSE_nameFull] [circumstance_group] ﺮﺒﻗ ﺐﻧﺎﺠﺑ ﺲﻠﺠﻳ [VISITOR_nameFull]</li>
+    <li>image-&gt;[CORPSE_nameFull] [circumstance_group] ﺮﺒﻗ ﻰﻠﻋ ﺊﻜﺘﻳ [VISITOR_nameFull]</li>
+    <li>image-&gt;[CORPSE_nameFull] [circumstance_group] ﺮﺒﻗ ﻰﻠﻋ ﺺﻨﻟﺍ ﺃﺮﻘﻳ [VISITOR_nameFull]</li>
+    <li>image-&gt;[CORPSE_nameFull] [circumstance_group] ﺮﺒﻗ ﻰﻠﻋ ﻦﻔﻟﺍ ﻰﻟﺇ ﺮﻈﻨﻳ [VISITOR_nameFull]</li>
+    <li>circumstance_phrase-&gt;[AdjectiveAngsty] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺮﻴﻜﻔﺘﻟﺍ ﻲﻓ ﻕﺭﺎﻏﻭ</li>
+    <li>circumstance_phrase-&gt;ﺪﻴﻌﺑ [TerrainFeature] ﻲﻓ ﻕﺪﺤﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺐﺼﻨﻟﺍ ﻰﻟﺇ ﺀﻭﺪﻬﺑ ﺙﺪﺤﺘﻳﻭ\nﻱﺭﺎﻛﺬﺘﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻔﻠﺨﻟﺍ ﻲﻓ ﺀﻲﻀﻳ [Color] ﻖﻔﺷ</li>
+    <li>desc_sentence-&gt;ﻰﻄﻐﻣ [Community] ﺮﻬﻈﻳ ،ﺪﻌﺒﻟﺍ ﻰﻠﻋ\n.ﺝﻮﻠﺜﻟﺎﺑ</li>
+    <li>desc_sentence-&gt;ﺪﻬﺸﻤﻟﺍ ﻰﻠﻋ ﻞﻄﺗ [CORPSE_nameDef]ـﻟ ﺔﻴﻔﻴﻃ ﺓﺭﻮﺻ\n.[AdjectiveFriendly] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>desc_sentence-&gt;،[VISITOR_nameDef] ﺐﻧﺎﺠﺑ ﻒﻘﺗ [CORPSE_nameDef]ـﻟ ﺔﻴﻔﻴﻃ ﺓﺭﻮﺻ\n.[AdjectiveFriendly] ﺍﺮﻴﺒﻌﺗ ﺔﻳﺪﺗﺮﻣ</li>
+    <li>desc_sentence-&gt;ﺪﻬﺸﻤﻟﺍ ﻰﻠﻋ ﻞﻄﺗ [CORPSE_nameDef]ـﻟ ﺔﻴﻔﻴﻃ ﺓﺭﻮﺻ\n.[AdjectiveAngsty] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>desc_sentence-&gt;،[VISITOR_nameDef] ﺐﻧﺎﺠﺑ ﻒﻘﺗ [CORPSE_nameDef]ـﻟ ﺔﻴﻔﻴﻃ ﺓﺭﻮﺻ\n.[AdjectiveAngsty] ﺍﺮﻴﺒﻌﺗ ﺔﻳﺪﺗﺮﻣ</li>
+    <li>desc_sentence-&gt;.ﺪﻬﺸﻤﻟﺍ ﺏﺮﻗ ﺢﻳﺮﺘﺴﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+ </VisitedGrave.rulePack.rulesStrings>
+  
+</LanguageData>

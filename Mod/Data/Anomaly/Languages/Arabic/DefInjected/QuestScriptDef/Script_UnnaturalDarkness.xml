@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>initialPhaseLetterLabel->Dimming sky</li>
+    <li>initialPhaseLetterText->The sky is dimming. Soon it will be hard to see anything that isn't directly lit by lamps or torches.\n\nBuild well-lit areas to survive. Craft disruptor flare packs to explore the darkness.</li>
+    <li>mainPhaseLetterLabel->Unnatural darkness</li>
+    <li>mainPhaseLetterText->An unnatural darkness is descending. Inhuman things move just outside the light.\n\nPillars of jagged, oily metal are falling from the sky. They are terrible to look upon but surely contain valuable technology. Reach them by building well-lit paths - and destroy them to end this nightmare.\n\nAlternatively, if you can survive long enough, the darkness will dissipate on its own.</li>
+    <li>darknessLiftedLetterLabel->Darkness lifting</li>
+    <li>darknessLiftedLetterText->The unnatural darkness has begun to dissipate. The metallic pillars have somehow folded into themselves and vanished. You survived!</li>
+  -->
+  <UnnaturalDarkness.questContentRules.rulesStrings>
+    <li>initialPhaseLetterLabel-&gt;ﺔﻤﺘﻌﻣ ﺀﺎﻤﺳ</li>
+    <li>initialPhaseLetterText-&gt;ﻦﻣ ﻥﻮﻜﻴﺳ ﺎًﺒﻳﺮﻗ .ﻢﺘﻌﺗ ﺀﺎﻤﺴﻟﺍ\nﺀﺎﻀﻣ ﺮﻴﻏ ﺀﻲﺷ ﻱﺃ ﺔﻳﺅﺭ ﺐﻌﺼﻟﺍ\n.ﻞﻋﺎﺸﻤﻟﺍ ﻭﺃ ﺢﻴﺑﺎﺼﻤﻟﺎﺑ ﺓﺮﺷﺎﺒﻣ\n\nﺍًﺪﻴﺟ ﺓﺀﺎﻀﻣ ﻖﻃﺎﻨﻣ ﺀﺎﻨﺒﺑ ﻢﻗ\nﻊﻨﺻﺍ .ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺀﺎﻘﺒﻠﻟ\n.ﻡﻼﻈﻟﺍ ﻑﺎﺸﻜﺘﺳﻻ ﺔﻠﻄﻌﻣ ﻞﻋﺎﺸﻣ ﻡﺰﺣ</li>
+    <li>mainPhaseLetterLabel-&gt;ﻲﻌﻴﺒﻃ ﺮﻴﻏ ﻡﻼﻇ</li>
+    <li>mainPhaseLetterText-&gt;ﺀﺎﻴﺷﺃ ﻙﺮﺤﺘﺗ .ﻞﺤﻳ ﻲﻌﻴﺒﻃ ﺮﻴﻏ ﻡﻼﻇ\n.ﺓﺮﺷﺎﺒﻣ ﺀﻮﻀﻟﺍ ﺝﺭﺎﺧ ﺔﻳﺮﺸﺑ ﺮﻴﻏ\n\nﻂﻘﺴﺗ ﻦﻨﺴﻣ ﻲﺘﻳﺯ ﻥﺪﻌﻣ ﻦﻣ ﺓﺪﻤﻋﺃ\nﺮﻈﻨﻤﻟﺍ ﺔﻌﻳﺮﻣ ﺎﻬﻧﺇ .ﺀﺎﻤﺴﻟﺍ ﻦﻣ\nﻰﻠﻋ ﻱﻮﺘﺤﺗ ﺪﻴﻛﺄﺘﻟﺎﺑ ﺎﻬﻨﻜﻟ\nﺎﻬﻴﻟﺇ ﻝﻮﺻﻮﻟﺍ .ﺔﻤﻴﻗ ﺎﻴﺟﻮﻟﻮﻨﻜﺗ\n- ﺍًﺪﻴﺟ ﺓﺀﺎﻀﻣ ﺕﺍﺭﺎﺴﻣ ﺀﺎﻨﺒﺑ\n.ﺱﻮﺑﺎﻜﻟﺍ ﺍﺬﻫ ﺀﺎﻬﻧﻹ ﺎﻫﺮﻣﺩﻭ\n\nﺀﺎﻘﺒﻟﺍ ﺖﻌﻄﺘﺳﺍ ﺍﺫﺇ ،ﻚﻟﺫ ﻦﻣ ًﻻﺪﺑ\nﻦﻣ ﻡﻼﻈﻟﺍ ﺩﺪﺒﺘﻴﺴﻓ ،ﺔﻴﻓﺎﻛ ﺓﺮﺘﻔﻟ\n.ﻪﺴﻔﻧ ﺀﺎﻘﻠﺗ</li>
+    <li>darknessLiftedLetterLabel-&gt;ﻡﻼﻈﻟﺍ ﺭﺎﺴﺤﻧﺍ</li>
+    <li>darknessLiftedLetterText-&gt;.ﺩﺪﺒﺘﻳ ﻲﻌﻴﺒﻄﻟﺍ ﺮﻴﻏ ﻡﻼﻈﻟﺍ ﺃﺪﺑ\nﺎﻬﺴﻔﻧ ﺔﻴﻧﺪﻌﻤﻟﺍ ﺓﺪﻤﻋﻷﺍ ﺖﻳﻮﻃ\n!ﺕﻮﺠﻧ ﺪﻘﻟ .ﺖﻔﺘﺧﺍﻭ ﺎﻣ ﺔﻘﻳﺮﻄﺑ</li>
+ </UnnaturalDarkness.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription-></li>
+  -->
+  <UnnaturalDarkness.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;</li>
+ </UnnaturalDarkness.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->unnatural darkness</li>
+  -->
+  <UnnaturalDarkness.questNameRules.rulesStrings>
+    <li>questDescription-&gt;ﻲﻌﻴﺒﻃ ﺮﻴﻏ ﻡﻼﻇ</li>
+ </UnnaturalDarkness.questNameRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Not a mechanitor -->
+  <NotAMechanitor>ﺭﻮﺘﻴﻧﺎﻜﻴﻣ ﺲﻴﻟ</NotAMechanitor>
+  <!-- EN: Not enough bandwidth -->
+  <NotEnoughBandwidth>ٍﻑﺎﻛ ﺮﻴﻏ ﻱﺩﺩﺮﺘﻟﺍ ﻕﺎﻄﻨﻟﺍ ﺽﺮﻋ</NotEnoughBandwidth>
+  <!-- EN: Take control of {0} -->
+  <ControlMech>{0} ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ</ControlMech>
+  <!-- EN: Cannot control {0} -->
+  <CannotControlMech>{0} ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﺭﺬﻌﺗ</CannotControlMech>
+  <!-- EN: Already controlled by {0} -->
+  <CannotControlMechAlreadyControlled>ﻞﻌﻔﻟﺎﺑ {0} ﺓﺮﻄﻴﺴﻟ ﻊﺿﺎﺧ</CannotControlMechAlreadyControlled>
+  <!-- EN: Not enough bandwidth -->
+  <CannotControlMechNotEnoughBandwidth>ٍﻑﺎﻛ ﺮﻴﻏ ﻱﺩﺩﺮﺘﻟﺍ ﻕﺎﻄﻨﻟﺍ ﺽﺮﻋ</CannotControlMechNotEnoughBandwidth>
+  <!-- EN: Never controllable -->
+  <CannotControlMechNeverControllable>ًﺍﺪﺑﺃ ﻪﻴﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﻦﻜﻤﻳ ﻻ</CannotControlMechNeverControllable>
+  <!-- EN: Cannot disconnect from {0} -->
+  <CannotDisconnectMech>{0} ـﺑ ﻝﺎﺼﺗﻻﺍ ﻊﻄﻗ ﺭﺬﻌﺗ</CannotDisconnectMech>
+  <!-- EN: Disconnect from {0} -->
+  <DisconnectMech>{0} ـﺑ ﻝﺎﺼﺗﻻﺍ ﻊﻄﻗ</DisconnectMech>
+  <!-- EN: Permanently disassemble {0} -->
+  <DisassembleMech>ًﺎﻴﺋﺎﻬﻧ {0} ﻚﻴﻜﻔﺗ</DisassembleMech>
+  <!-- EN: Cannot permanently disassemble {0} -->
+  <CannotDisassembleMech>ًﺎﻴﺋﺎﻬﻧ {0} ﻚﻴﻜﻔﺗ ﺭﺬﻌﺗ</CannotDisassembleMech>
+  <!-- EN: Must be overseer -->
+  <MustBeOverseer>ﻑﺮﺸﻤﻟﺍ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ</MustBeOverseer>
+  <!-- EN: Extract -->
+  <Extract>ﺝﺍﺮﺨﺘﺳﺍ</Extract>
+  <!-- EN: Out of command range -->
+  <OutOfCommandRange>ﺓﺩﺎﻴﻘﻟﺍ ﻕﺎﻄﻧ ﺝﺭﺎﺧ</OutOfCommandRange>
+  <!-- EN: Cannot go here -->
+  <CannotGoOutOfRange>ﺎﻨﻫ ﻰﻟﺇ ﺏﺎﻫﺬﻟﺍ ﺭﺬﻌﺗ</CannotGoOutOfRange>
+  <!-- EN: Must be emptied -->
+  <WasteContainerFull>ﻪﻏﺍﺮﻓﺇ ﺐﺠﻳ</WasteContainerFull>
+  <!-- EN: Cannot repair mech {0} -->
+  <CannotRepairMech>{0} ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﺡﻼﺻﺇ ﺭﺬﻌﺗ</CannotRepairMech>
+
+  <!-- EN: Extract xenogerm from {PAWN_nameDef} -->
+  <ExtractXenogermFrom>{PAWN_nameDef} ﻦﻣ ﺔﺒﻳﺮﻐﻟﺍ ﺔﻣﻮﺛﺮﺠﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ</ExtractXenogermFrom>
+  <!-- EN: Enter {0_labelShort} -->
+  <EnterBuilding>{0_labelShort} ﻝﻮﺧﺩ</EnterBuilding>
+  <!-- EN: {PAWN_nameDef} has no genes -->
+  <PawnHasNoGenes>ﺕﺎﻨﻴﺟ ﻱﺃ {PAWN_nameDef} ﻚﻠﺘﻤﻳ ﻻ</PawnHasNoGenes>
+  <!-- EN: {PAWN_nameDef} has no extractable genes. -->
+  <PawnHasNoNonArchiteGenes>ﺔﻠﺑﺎﻗ ﺕﺎﻨﻴﺟ {PAWN_nameDef} ﻚﻠﺘﻤﻳ ﻻ\n.ﺝﺍﺮﺨﺘﺳﻼﻟ</PawnHasNoNonArchiteGenes>
+  <!-- EN: In xenogermination coma -->
+  <InXenogerminationComa>ﺐﻳﺮﻐﻟﺍ ﺕﺎﺒﻧﻹﺍ ﺔﺑﻮﺒﻴﻏ ﻲﻓ</InXenogerminationComa>
+  <!-- EN: Occupied -->
+  <Occupied>ﻝﻮﻐﺸﻣ</Occupied>
+  <!-- EN: {PAWN_nameDef} was ejected from a growth vat -->
+  <OccupantEjectedFromGrowthVat>ﻮﻤﻨﻟﺍ ﺽﻮﺣ ﻦﻣ {PAWN_nameDef} ﺝﺍﺮﺧﺇ ﻢﺗ</OccupantEjectedFromGrowthVat>
+  <!-- EN: {PAWN_nameDef} must be younger than {AGEYEARS} years old. -->
+  <TooOld>{AGEYEARS} ﻦﻣ ﺮﻐﺻﺃ {PAWN_nameDef} ﺮﻤﻋ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ\n.ﺕﺍﻮﻨﺳ</TooOld>
+  <!-- EN: {PAWN_nameDef} is too old. -->
+  <PawnIsTooOld>.ًﺍﺪﺟ ﺮﻴﺒﻛ {PAWN_nameDef} ﺮﻤﻋ</PawnIsTooOld>
+  <!-- EN: {PAWN_nameDef} is suffering from biostarvation. -->
+  <PawnBiostarving>.ﺔﻳﻮﻴﺤﻟﺍ ﺔﻋﺎﺠﻤﻟﺍ ﻦﻣ {PAWN_nameDef} ﻲﻧﺎﻌﻳ</PawnBiostarving>
+  <!-- EN: No available people -->
+  <NoViablePawns>ﻥﻮﺣﺎﺘﻣ ﺹﺎﺨﺷﺃ ﺪﺟﻮﻳ ﻻ</NoViablePawns>
+  <!-- EN: No extractable people -->
+  <NoExtractablePawns>ﺝﺍﺮﺨﺘﺳﻼﻟ ﻥﻮﻠﺑﺎﻗ ﺹﺎﺨﺷﺃ ﺪﺟﻮﻳ ﻻ</NoExtractablePawns>
+  <!-- EN: No implantable people -->
+  <NoImplantablePawns>ﻉﺭﺰﻠﻟ ﻥﻮﻠﺑﺎﻗ ﺹﺎﺨﺷﺃ ﺪﺟﻮﻳ ﻻ</NoImplantablePawns>
+  <!-- EN: Cannot enter {0_labelShort} -->
+  <CannotEnterBuilding>{0_labelShort} ﻝﻮﺧﺩ ﺭﺬﻌﺗ</CannotEnterBuilding>
+  <!-- EN: {0_labelShort} is assigned to another person. -->
+  <AssignedToOtherPawn>.ﺮﺧﺁ ﺺﺨﺸﻟ ﺺﺼﺨﻣ {0_labelShort}</AssignedToOtherPawn>
+
+  <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
+  <AbsorbXenogerm>{PAWN_nameDef} ـﻟ ﺔﺒﻳﺮﻐﻟﺍ ﺔﻣﻮﺛﺮﺠﻟﺍ ﺹﺎﺼﺘﻣﺍ</AbsorbXenogerm>
+  <!-- EN: Cannot absorb {PAWN_nameDef}'s xenogerm -->
+  <CannotAbsorbXenogerm>ﺔﺒﻳﺮﻐﻟﺍ ﺔﻣﻮﺛﺮﺠﻟﺍ ﺹﺎﺼﺘﻣﺍ ﺭﺬﻌﺗ\n{PAWN_nameDef} ـﻟ</CannotAbsorbXenogerm>
+  <!-- EN: {PAWN_nameDef} is already {PAWN_xenotype} -->
+  <SameXenotype>ﻞﻌﻔﻟﺎﺑ {PAWN_xenotype} ﻂﻤﻨﻟﺍ ﻰﻟﺇ ﻲﻤﺘﻨﻳ {PAWN_nameDef}</SameXenotype>
+  <!-- EN: {PAWN_nameDef} suffering from xenogerm loss shock -->
+  <XenogermLossShockPresent>ﺔﻣﻮﺛﺮﺠﻟﺍ ﻥﺍﺪﻘﻓ ﺔﻣﺪﺻ ﻦﻣ {PAWN_nameDef} ﻲﻧﺎﻌﻳ\nﺔﺒﻳﺮﻐﻟﺍ</XenogermLossShockPresent>
+  <!-- EN: Carry to {0_labelShort} -->
+  <CarryToSpecificThing>{0_labelShort} ﻰﻟﺇ ﻞﻤﺣ</CarryToSpecificThing>
+  <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
+  <NoCasketOrBed>ﺕﺎﺒﺳ ﺕﻮﺑﺎﺗ ﻭﺃ ﺡﺎﺘﻣ ﺮﻳﺮﺳ ﺪﺟﻮﻳ ﻻ\nﺔﺟﺭﺩ ﻲﻓ ﻪﻴﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻦﻜﻤﻳ ﺕﻮﻣ\n.ﺔﻨﻣﺁ ﺓﺭﺍﺮﺣ</NoCasketOrBed>
+  <!-- EN: {PAWN_nameDef} is a temporary faction member. -->
+  <TemporaryFactionMember>.ﻞﻴﺼﻔﻟﺍ ﻲﻓ ًﺎﺘﻗﺆﻣ ًﺍﻮﻀﻋ {PAWN_nameDef} ﺪﻌﻳ</TemporaryFactionMember>
+
+  <!-- EN: Scanner not initiated -->
+  <SubcoreScannerNotInit>ﺢﺳﺎﻤﻟﺍ ﻞﻴﻐﺸﺗ ﺀﺪﺑ ﻢﺘﻳ ﻢﻟ</SubcoreScannerNotInit>
+  <!-- EN: Waiting for ingredients -->
+  <SubcoreScannerRequiresIngredients>ﺕﺎﻧﻮﻜﻤﻟﺍ ﺭﺎﻈﺘﻧﺍ ﻲﻓ</SubcoreScannerRequiresIngredients>
+  <!-- EN: Occupied -->
+  <SubcoreScannerOccupied>ﻝﻮﻐﺸﻣ</SubcoreScannerOccupied>
+  <!-- EN: Enter {0} -->
+  <EnterSubcoreScanner>{0} ﻝﻮﺧﺩ</EnterSubcoreScanner>
+
+  <!-- EN: Breastfeed {BABY_labelShort} -->
+  <BabyCareBreastfeed>ًﺎﻴﻌﻴﺒﻃ {BABY_labelShort} ﻉﺎﺿﺭﺇ</BabyCareBreastfeed>
+  <!-- EN: Cannot breastfeed {BABY_labelShort} -->
+  <BabyCareBreastfeedUnable>ًﺎﻴﻌﻴﺒﻃ {BABY_labelShort} ﻉﺎﺿﺭﺇ ﺭﺬﻌﺗ</BabyCareBreastfeedUnable>
+  <!-- EN: Already breastfeeding {BABY_labelShort} -->
+  <AlreadyBreastfeeding>ﻞﻌﻔﻟﺎﺑ ًﺎﻴﻌﻴﺒﻃ {BABY_labelShort} ﻉﺎﺿﺭﺇ ﻢﺘﻳ</AlreadyBreastfeeding>
+  <!-- EN: No baby-edible food -->
+  <NoBabyFood>ﻝﺎﻔﻃﻸﻟ ﺢﻟﺎﺻ ﻡﺎﻌﻃ ﺪﺟﻮﻳ ﻻ</NoBabyFood>
+
+  <!-- EN: play need full -->
+  <CannotInteractBabyPlayFull>ﺔﺌﻠﺘﻤﻣ ﺐﻌﻠﻟ ﺔﺟﺎﺤﻟﺍ</CannotInteractBabyPlayFull>
+
+  <!-- EN: Feed on {PAWN_nameDef} -->
+  <BloodfeedOn>{PAWN_nameDef} ﺀﺎﻣﺩ ﻰﻠﻋ ﻱﺬﻐﺘﻟﺍ</BloodfeedOn>
+  <!-- EN: Cannot feed on {PAWN_nameDef} -->
+  <CannotBloodfeedOn>{PAWN_nameDef} ﺀﺎﻣﺩ ﻰﻠﻋ ﻱﺬﻐﺘﻟﺍ ﺭﺬﻌﺗ</CannotBloodfeedOn>
+  <!-- EN: Not enough blood. -->
+  <CannotFeedOnWouldKill>.ٍﻑﺎﻛ ﻡﺩ ﺪﺟﻮﻳ ﻻ</CannotFeedOnWouldKill>
+
+  <!-- BreastfeedFailReason strings-->
+  <!-- EN: {MOM_labelShort} does not have enough milk -->
+  <BreastfeedFailReason_MomNotEnoughMilk>ﻲﻓﺎﻜﻟﺍ ﺐﻴﻠﺤﻟﺍ {MOM_labelShort} ﻚﻠﻤﺗ ﻻ</BreastfeedFailReason_MomNotEnoughMilk>
+  <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
+  <BreastfeedFailReason_MomInMentalState>ﻥﻵﺍ ًﺎﻴﻌﻴﺒﻃ ﻉﺎﺿﺭﻹﺍ {MOM_labelShort} ـﻟ ﻦﻜﻤﻳ ﻻ</BreastfeedFailReason_MomInMentalState>
+  <!-- EN: {BABY_labelShort} is too full to suckle -->
+  <BreastfeedFailReason_BabyTooFull>ﻪﻨﻜﻤﻳ ﻻ ﺚﻴﺤﺑ ًﺍﺪﺟ ﺊﻠﺘﻤﻣ {BABY_labelShort}\nﺔﻋﺎﺿﺮﻟﺍ</BreastfeedFailReason_BabyTooFull>
+  <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
+  <BreastfeedFailReason_BabyForbiddenToMom>{BABY_labelShort} ﻰﻟﺇ {MOM_labelShort} ﻝﻮﺻﻭ ﺮﻈﺤُﻳ</BreastfeedFailReason_BabyForbiddenToMom>
+  <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
+  <BreastfeedFailReason_BabyForbiddenToHauler>{BABY_labelShort} ﻰﻟﺇ {HAULER_labelShort} ﻝﻮﺻﻭ ﺮﻈﺤُﻳ</BreastfeedFailReason_BabyForbiddenToHauler>
+  <!-- EN: {MOM_labelShort} is forbidden to {HAULER_labelShort} -->
+  <BreastfeedFailReason_MomForbiddenToHauler>{MOM_labelShort} ﻰﻟﺇ {HAULER_labelShort} ﻝﻮﺻﻭ ﺮﻈﺤُﻳ</BreastfeedFailReason_MomForbiddenToHauler>
+  <!-- EN: {MOM_labelShort} can breastfeed {BABY_labelShort} without help -->
+  <BreastfeedFailReason_MomIsMobile>ﺓﺪﻋﺎﺴﻣ ﻥﻭﺩ {BABY_labelShort} ﻉﺎﺿﺭﺇ {MOM_labelShort} ـﻟ ﻦﻜﻤﻳ</BreastfeedFailReason_MomIsMobile>
+  <!-- EN: {HAULER_labelShort} cannot go from {BABY_labelShort} to {MOM_labelShort} -->
+  <BreastfeedFailReason_HaulerCannotReachMom>{MOM_labelShort} ﻰﻟﺇ {BABY_labelShort} ﻦﻣ ﻝﺎﻘﺘﻧﻻﺍ {HAULER_labelShort} ـﻟ ﻦﻜﻤﻳ ﻻ</BreastfeedFailReason_HaulerCannotReachMom>
+  <!-- EN: {HAULER_labelShort} cannot reach {BABY_labelShort} -->
+  <BreastfeedFailReason_HaulerCannotReachBaby>{BABY_labelShort} ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ {HAULER_labelShort} ـﻟ ﻦﻜﻤﻳ ﻻ</BreastfeedFailReason_HaulerCannotReachBaby>
+  <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
+  <BreastfeedFailReason_NoMomsAssignedToBaby>{BABY_factionPawnsPlural} ـﻟﺍ ﻦﻣ ﻱﺃ ﻦﻴﻴﻌﺗ ﻢﺘﻳ ﻢﻟ\n{BABY_labelShort} ـﻟ ﺕﺎﻌﺿﺮﻤﻟﺍ</BreastfeedFailReason_NoMomsAssignedToBaby>
+  <!-- EN: {MOM_labelShort} is not assigned to childcare -->
+  <BreastfeedFailReason_MomNotAssignedToChildcare>ﻝﺎﻔﻃﻷﺍ ﺔﻳﺎﻋﺮﺑ ﺔﻔﻠﻜﻣ ﺮﻴﻏ {MOM_labelShort}</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <!-- EN: {MOM_labelShort} is inside a container -->
+  <BreastfeedFailReason_MomInsideContainer>ﺔﻳﻭﺎﺣ ﻞﺧﺍﺩ {MOM_labelShort}</BreastfeedFailReason_MomInsideContainer>
+  <!-- EN: {MOM_labelShort} is being carried -->
+  <BreastfeedFailReason_MomBeingCarried>ًﺎﻴﻟﺎﺣ {MOM_labelShort} ﻞﻤﺣ ﻢﺘﻳ</BreastfeedFailReason_MomBeingCarried>
+
+  <!-- EN: Order implantation into {PAWN_nameDef} -->
+  <OrderImplantationIntoPawn>{PAWN_nameDef} ﻲﻓ ﻉﺭﺰﻟﺎﺑ ﺮﻣﻷﺍ</OrderImplantationIntoPawn>
+  <!-- EN: Accept {0_xenotype} xenogerm -->
+  <AcceptXenogerm>ﺔﺒﻳﺮﻐﻟﺍ {0_xenotype} ﺔﻣﻮﺛﺮﺟ ﻝﻮﺒﻗ</AcceptXenogerm>
+
+  <!-- EN: Carry {PAWN_labelShort} to recharger -->
+  <CarryToRechargerOrdered>ﻦﺣﺎﺸﻟﺍ ﻰﻟﺇ {PAWN_labelShort} ﻞﻤﺣ</CarryToRechargerOrdered>
+  <!-- EN: Cannot carry {PAWN_labelShort} to recharger -->
+  <CannotCarryToRecharger>ﻦﺣﺎﺸﻟﺍ ﻰﻟﺇ {PAWN_labelShort} ﻞﻤﺣ ﺭﺬﻌﺗ</CannotCarryToRecharger>
+  <!-- EN: No available recharger -->
+  <CannotCarryToRechargerNoneAvailable>ﺡﺎﺘﻣ ﻦﺣﺎﺷ ﺪﺟﻮﻳ ﻻ</CannotCarryToRechargerNoneAvailable>
+
+  <!-- EN: Hemogen packs disabled by food restriction. -->
+  <NotAllowedHemogen>ﺐﺒﺴﺑ ﻦﻴﺟﻮﻤﻴﻬﻟﺍ ﻡﺰﺣ ﻞﻴﻄﻌﺗ ﻢﺗ\n.ﺀﺍﺬﻐﻟﺍ ﺩﻮﻴﻗ</NotAllowedHemogen>
+
+  <!-- EN: Eject genepack from gene bank -->
+  <EjectGenepackFromGeneBank>ﻚﻨﺑ ﻦﻣ ﺕﺎﻨﻴﺠﻟﺍ ﺔﻣﺰﺣ ﺝﺍﺮﺧﺇ\nﺕﺎﻨﻴﺠﻟﺍ</EjectGenepackFromGeneBank>
+
+  <!-- EN: Resulting metabolism would be too low -->
+  <ResultingMetTooLow>ًﺍﺪﺟ ًﺎﻀﻔﺨﻨﻣ ﻥﻮﻜﻴﺳ ﺞﺗﺎﻨﻟﺍ ﺾﻳﻷﺍ</ResultingMetTooLow>
+
+  <!-- EN: attempted romance too recently -->
+  <RomanceOnCooldown>ﺔﻴﻔﻃﺎﻋ ﺔﻗﻼﻋ ﻲﻓ ﻝﻮﺧﺪﻟﺍ ﻝﻭﺎﺣ\nًﺍﺪﺟ ًﺍﺮﺧﺆﻣ</RomanceOnCooldown>
+
+  <!-- EN: Take to safe location -->
+  <CarryToSafePlace>ﻦﻣﺁ ﻥﺎﻜﻣ ﻰﻟﺇ ﻞﻘﻨﻟﺍ</CarryToSafePlace>
+  <!-- EN: Cannot take to safe location -->
+  <CannotCarryToSafePlace>ﻦﻣﺁ ﻥﺎﻜﻣ ﻰﻟﺇ ﻞﻘﻨﻟﺍ ﺭﺬﻌﺗ</CannotCarryToSafePlace>
+  <!-- EN: No safer location than current location -->
+  <NoBetterSafePlace>ﻦﻣ ًﺎﻧﺎﻣﺃ ﺮﺜﻛﺃ ﻥﺎﻜﻣ ﺪﺟﻮﻳ ﻻ\nﻲﻟﺎﺤﻟﺍ ﻊﻗﻮﻤﻟﺍ</NoBetterSafePlace>
+  <!-- EN: Already taking to safe location -->
+  <AlreadyCarryingToSafePlace>ﻞﻌﻔﻟﺎﺑ ﻦﻣﺁ ﻥﺎﻜﻣ ﻰﻟﺇ ﻞﻘﻨﻟﺍ ﻢﺘﻳ</AlreadyCarryingToSafePlace>
+
+</LanguageData>

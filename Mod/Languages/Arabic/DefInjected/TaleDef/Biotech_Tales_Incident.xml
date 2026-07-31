@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: acidic smog -->
+  <NoxiousHaze.label>ﻲﻀﻤﺣ ﺏﺎﺒﺿ</NoxiousHaze.label>
+  <!-- EN:
+    <li>tale_noun->acidic smog sweeping over [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming noxious</li>
+    <li>image->an ominous sky, [circumstance_group]</li>
+    <li>image->the air becoming thick and [circumstance_group]</li>
+    <li>circumstance_phrase->with no life in sight</li>
+    <li>circumstance_phrase->waiting for the acidic smog to clear</li>
+    <li>circumstance_phrase->watching the animals flee</li>
+    <li>desc_sentence->[PAWN_nameDef] hides near a [TerrainFeature], gazing out with a [AdjectiveAngsty] look.</li>
+    <li>desc_sentence->[PAWN_nameDef] looks on with a cloth wrapped around [PAWN_possessive] face.</li>
+    <li>desc_sentence->[Quantity_adjphrase] dead [Animal]s lay on the ground.</li>
+    <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
+    <li>desc_sentence->[Quantity_adjphrase] suffocating [Animal]s lay on the ground.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee.</li>
+  -->
+  <NoxiousHaze.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[Community] [PAWN_nameDef] ﺡﺎﺘﺠﻳ ﻲﻀﻤﺣ ﺏﺎﺒﺿ</li>
+    <li>tale_noun-&gt;ًﺎﻣﺎﺳ ﺢﺒﺼﻳ [Community] [PAWN_nameDef] ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻮﺠﻟﺍ</li>
+    <li>image-&gt;[circumstance_group] ،ﺔﻣﻭﺆﺸﻣ ﺀﺎﻤﺳ</li>
+    <li>image-&gt;[circumstance_group]ﻭ ًﺎﻔﻴﺜﻛ ﺢﺒﺼﻳ ﺀﺍﻮﻬﻟﺍ</li>
+    <li>circumstance_phrase-&gt;ﻖﻓﻷﺍ ﻲﻓ ﺓﺎﻴﺣ ﺩﻮﺟﻭ ﻡﺪﻋ ﻊﻣ</li>
+    <li>circumstance_phrase-&gt;ﻲﻀﻤﺤﻟﺍ ﺏﺎﺒﻀﻟﺍ ﻉﺎﺸﻘﻧﺍ ﺭﺎﻈﺘﻧﺍ ﻲﻓ</li>
+    <li>circumstance_phrase-&gt;ﺮﻔﺗ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺓﺪﻫﺎﺸﻣ</li>
+    <li>desc_sentence-&gt;ًﺎﻗﺪﺤﻣ ،[TerrainFeature] ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺊﺒﺘﺨﻳ [PAWN_nameDef]\n.[AdjectiveAngsty] ﺓﺮﻈﻨﺑ</li>
+    <li>desc_sentence-&gt;ﻝﻮﺣ ﺔﻓﻮﻔﻠﻣ ﺵﺎﻤﻗ ﺔﻌﻄﻗﻭ ﺮﻈﻨﻳ [PAWN_nameDef]\n.[PAWN_possessive]ﻪﺟﻭ</li>
+    <li>desc_sentence-&gt;.ﺽﺭﻷﺍ ﻰﻠﻋ ﺓﺎﻘﻠﻣ ﺔﺘﻴﻤﻟﺍ [Quantity_adjphrase] [Animal]</li>
+    <li>desc_sentence-&gt;.ﺽﺭﻷﺍ ﻰﻠﻋ ﺓﺎﻘﻠﻣ ﺓﺮﻀﺘﺤﻤﻟﺍ [Quantity_adjphrase] [Animal]</li>
+    <li>desc_sentence-&gt;.ﺽﺭﻷﺍ ﻰﻠﻋ ﺓﺎﻘﻠﻣ ﺔﻘﻨﺘﺨﻤﻟﺍ [Quantity_adjphrase] [Animal]</li>
+    <li>desc_sentence-&gt;.ﺮﻔﺗ [Quantity_adjphrase] [Animal]</li>
+ </NoxiousHaze.rulePack.rulesStrings>
+  
+</LanguageData>

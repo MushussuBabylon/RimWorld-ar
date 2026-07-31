@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Royal titles -->
+  <!-- EN: {TITLE} title lost: {PAWN_labelShort} -->
+  <LetterLabelLostRoyalTitle>{TITLE}: {PAWN_labelShort} ﺐﻘﻟ ﺪﻘﻓ</LetterLabelLostRoyalTitle>
+  <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
+  <LetterLabelGainedRoyalTitle>{TITLE}: {PAWN_labelShort} ﺐﻘﻟ ﺏﺎﺴﺘﻛﺍ</LetterLabelGainedRoyalTitle>
+
+  <!-- EN: Permit points awarded: {0}. -->
+  <PermitPointsAwarded>.{0} :ﺔﺣﻮﻨﻤﻤﻟﺍ ﻥﺫﻹﺍ ﻁﺎﻘﻧ</PermitPointsAwarded>
+
+  <!-- EN: This title requires apparel of {1} quality or better. -->
+  <LetterRoyalTitleApparelQualityRequirement>{1} ﺓﺩﻮﺠﺑ ﺲﺑﻼﻣ ﺐﻠﻄﺘﻳ ﺐﻘﻠﻟﺍ ﺍﺬﻫ\n.ﻞﻀﻓﺃ ﻭﺃ</LetterRoyalTitleApparelQualityRequirement>
+  <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
+  <LetterRoyalTitleApparelRequirement>ﺐﻘﻟ ﺐﺳﺎﻨﺗ ﺲﺑﻼﻣ ﺐﻠﻄﺘﻳ ﺐﻘﻠﻟﺍ ﺍﺬﻫ\n:{PAWN_possessive}</LetterRoyalTitleApparelRequirement>
+  <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
+  <LetterRoyalTitleExpectation>.{1} ﻦﻋ ًﺍﺪﺑﺃ ﻞﻘﺗ ﻦﻟ {PAWN_possessive} ﺕﺎﻌﻗﻮﺗ</LetterRoyalTitleExpectation>
+  
+  <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
+  <LetterRoyalTitleConceitedTrait>ﻥﺄﺑ {PAWN_pronoun} ﺐﻟﺎﻄﻴﺴﻓ ،{PAWN_labelShort} {1} ﻥﺃ ﺎﻤﺑ\nﺐﻘﻠﻟﺍ ﺍﺬﻫ ﺕﺍﺯﺎﻴﺘﻣﺍ ﻡﺮﺘﺤُﺗ\nﻡﺎﻴﻘﻟﺍ {PAWN_pronoun} ﺾﻓﺮﻳ ﺪﻗ .ﻞﻣﺎﻜﻟﺎﺑ\nﻝﻭﺎﻨﺗﻭ ،ﻞﻤﻌﻟﺍ ﻦﻣ ﺔﻨﻴﻌﻣ ﻉﺍﻮﻧﺄﺑ\nﺭﺪﺼﻴﺳﻭ ،ﺔﻴﻧﺪﺘﻣ ﺔﻘﺒﻃ ﻦﻣ ﻡﺎﻌﻃ\n.ﻢﻴﺳﺍﺮﻣ</LetterRoyalTitleConceitedTrait>
+
+  <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
+  <LetterGainedRoyalTitle>!{FACTION_name} ﻦﻣ {TITLE} ﺐﻘﻟ ﻰﻠﻋ {PAWN_labelShort} ﻞﺼﺣ</LetterGainedRoyalTitle>
+  <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
+  <LetterLostRoyalTitle>.{FACTION_name} ﻯﺪﻟ {TITLE} ﺐﻘﻟ ﻞﻤﺤﻳ {PAWN_labelShort} ﺪﻌﻳ ﻢﻟ</LetterLostRoyalTitle>
+  <!-- EN: Title rewards -->
+  <LetterLabelRewardsForNewTitle>ﺐﻘﻠﻟﺍ ﺕﺂﻓﺎﻜﻣ</LetterLabelRewardsForNewTitle>
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
+  <LetterRewardsForNewTitle>،{TITLE} ﺐﻘﻟ ﻰﻟﺇ {PAWN_labelShort} ﺔﻴﻗﺮﺗ ﻢﻳﺮﻜﺘﻟ\nﺓﺄﻓﺎﻜﻤﻟﺍ {PAWN_objective} ـﻟ {FACTION_name} ﺖﻠﺳﺭﺃ\n:ﺔﻴﻟﺎﺘﻟﺍ (ﺕﺂﻓﺎﻜﻤﻟﺍ)</LetterRewardsForNewTitle>
+  <!-- EN: Rewards have arrived to your colony via transport pods. -->
+  <LetterRewardsForNewTitleDeliveryBase>ﺮﺒﻋ ﻚﺗﺮﻤﻌﺘﺴﻣ ﻰﻟﺇ ﺕﺂﻓﺎﻜﻤﻟﺍ ﺖﻠﺻﻭ\n.ﻞﻘﻨﻟﺍ ﺕﻻﻮﺴﺒﻛ</LetterRewardsForNewTitleDeliveryBase>
+  <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
+  <LetterRewardsForNewTitleDeliveryDirect>ﻰﻟﺇ ﺓﺮﺷﺎﺒﻣ ﺕﺂﻓﺎﻜﻤﻟﺍ ﻢﻴﻠﺴﺗ ﻢﺗ\n.{PAWN_labelShort} ﻥﻭﺰﺨﻣ</LetterRewardsForNewTitleDeliveryDirect>
+
+  <!-- EN: {PAWN_pronoun} has these permissions: -->
+  <LetterRoyalTitlePermits>:ﺕﺎﻧﻭﺫﻷﺍ ﻩﺬﻫ ﻪﻳﺪﻟ {PAWN_pronoun}</LetterRoyalTitlePermits>
+  <!-- EN: {PAWN_pronoun} lost these permissions: -->
+  <LetterRoyalTitleLostPermits>:ﺕﺎﻧﻭﺫﻷﺍ ﻩﺬﻫ {PAWN_pronoun} ﺪﻘﻓ</LetterRoyalTitleLostPermits>
+
+  <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
+  <LetterRoyalTitleDisabledWorkTag>ﻉﺍﻮﻧﺄﺑ ﻡﺎﻴﻘﻠﻟ ﺪﻌﺘﺴﻣ ﺮﻴﻏ {PAWN_pronoun}\n:ﻩﺬﻫ ﻞﻤﻌﻟﺍ\n{1}</LetterRoyalTitleDisabledWorkTag>
+
+  <!-- EN: {PAWN_pronoun} can now use this recreation: -->
+  <LetterRoyalTitleEnabledJoyKind>ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ ﻥﻵﺍ {PAWN_pronoun} ـﻟ ﻦﻜﻤﻳ\n:ﻪﻴﻓﺮﺘﻟﺍ</LetterRoyalTitleEnabledJoyKind>
+  <!-- EN: This title forbids using this recreation: -->
+  <LetterRoyalTitleDisabledJoyKind>ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ ﻊﻨﻤﻳ ﺐﻘﻠﻟﺍ ﺍﺬﻫ\n:ﻪﻴﻓﺮﺘﻟﺍ</LetterRoyalTitleDisabledJoyKind>
+
+  <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
+  <LetterRoyalTitleAllowedImplants>ﻩﺬﻫ ﻡﺍﺪﺨﺘﺳﺎﺑ {PAWN_pronoun} ـﻟ ﺡﻮﻤﺴﻣ\n{1}:ﺕﺎﻋﺭﺰﻟﺍ</LetterRoyalTitleAllowedImplants>
+  <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
+  <LetterRoyalTitleImplantsMustBeRemoved>ﻡﺍﺪﺨﺘﺳﺎﺑ {PAWN_pronoun} ـﻟ ًﺎﺣﻮﻤﺴﻣ ﺪﻌﻳ ﻢﻟ\n{1}:ﺕﺎﻋﺭﺰﻟﺍ ﻩﺬﻫ</LetterRoyalTitleImplantsMustBeRemoved>
+  <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
+  <LetterRoyalTitleImplantGracePeriod>ﺓﺮﺘﻓ ﻝﻼﺧ ﺕﺎﻋﺭﺰﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ ﺐﺠﻳ\nﺐﻨﺠﺘﻟ ﻡﺎﻳﺃ ﺔﺴﻤﺧ ﺎﻬﺗﺪﻣ ﺡﺎﻤﺳ\n.ﺔﻴﺳﺎﻣﻮﻠﺑﺩ ﺐﻗﺍﻮﻋ</LetterRoyalTitleImplantGracePeriod>
+  <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
+  <LetterRoyalTitleSpeechAbilityGained>ﻦﻣ ﺕﺎﺑﺎﻄﺧ ﺀﺎﻘﻟﺇ ﻥﻵﺍ {PAWN_pronoun} ـﻟ ﻦﻜﻤﻳ\nﺎﻣ ﻰﻠﻋ ﺭﻮﻣﻷﺍ ﺕﺭﺎﺳ ﺍﺫﺇ .ﺵﺮﻌﻟﺍ\n.ﻡﺎﻬﻟﻹﺎﺑ ﻥﻮﻌﻤﺘﺴﻤﻟﺍ ﺮﻌﺸﻴﺳ ،ﻡﺍﺮﻳ\nﺐﺒﺴﻴﺴﻓ ،ﺊﻴﺳ ﻞﻜﺸﺑ ﺕﺭﺎﺳ ﺍﺫﺇ\nﺪﻤﺘﻌﺗ .ًﺎﻴﻋﺎﻤﺘﺟﺍ ًﺍﺭﺮﺿ ﺏﺎﻄﺨﻟﺍ\n.ﺔﻴﻋﺎﻤﺘﺟﻻﺍ {PAWN_labelShort} ﺕﺍﺭﺪﻗ ﻰﻠﻋ ﺔﺠﻴﺘﻨﻟﺍ</LetterRoyalTitleSpeechAbilityGained>
+  <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
+  <LetterRoyalTitleThroneroomRequirements>ﺵﺮﻋ ﺔﻓﺮﻏ ﺐﻘﻠﻟﺍ ﺍﺬﻫ ﺐﻠﻄﺘﻳ\n{1}:ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﻩﺬﻫ ﻲﻓﻮﺘﺴﺗ</LetterRoyalTitleThroneroomRequirements>
+  <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
+  <LetterRoyalTitleBedroomRequirements>ﻡﻮﻧ ﺔﻓﺮﻏ ﺐﻘﻠﻟﺍ ﺍﺬﻫ ﺐﻠﻄﺘﻳ\n{1}:ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﻩﺬﻫ ﻲﻓﻮﺘﺴﺗ</LetterRoyalTitleBedroomRequirements>
+  <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
+  <LetterRoyalTitleFoodRequirements>ﻥﺃ ﺐﺠﻳ {PAWN_pronoun} ﻥﺃ ﻰﻠﻋ ﺐﻘﻠﻟﺍ ﺍﺬﻫ ﺺﻨﻳ\n{1}:ﺔﻤﻌﻃﻷﺍ ﻩﺬﻫ ﻂﻘﻓ ﻞﻛﺄﻳ</LetterRoyalTitleFoodRequirements>
+
+  <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
+  <LetterRoyalTitleRewardGranted>ﺮﺒﻋ ﺔﻴﻟﺎﺘﻟﺍ ﺽﺍﺮﻏﻷﺍ {PAWN_pronoun} ﻰﻘﻠﺘﻴﺳ\n{1}:ﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ</LetterRoyalTitleRewardGranted>
+  <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
+  <PeaceTalksRoyalFavorGain>.{FACTION_name} ﻦﻣ {PAWN_labelShort} {1} {FACTION_royalFavorLabel} ﺐﺴﺘﻛﺍ</PeaceTalksRoyalFavorGain>
+
+  <!-- Royal heritage-->
+  <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
+  <LetterRoyalTitleHeir>.{HEIR_nameFull} ﺐﻘﻠﻟﺍ ﺍﺬﻫ ﺙﺮﻴﺳ ،{PAWN_pronoun} ﺕﺎﻣ ﺍﺫﺇ</LetterRoyalTitleHeir>
+  <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
+  <LetterRoyalTitleNoHeir>ﺍﺬﻫ ﺪﺣﺃ ﺙﺮﻳ ﻦﻟ ،{PAWN_pronoun} ﺕﺎﻣ ﺍﺫﺇ\n.ﺐﻘﻠﻟﺍ</LetterRoyalTitleNoHeir>
+  <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
+  <LetterRoyalTitleHeirFactionWarning>.{FACTION_name} ﻲﻓ ﻮﻀﻋ {PAWN_nameFull}</LetterRoyalTitleHeirFactionWarning>
+  <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
+  <LetterRoyalTitleChangingHeir>ﻝﺎﺼﺗﻻﺎﺑ ﺪﻳﺪﺟ ﺚﻳﺭﻭ ﺭﺎﻴﺘﺧﺍ ﻦﻜﻤﻳ\n.ﻝﺎﺼﺗﻻﺍ ﺯﺎﻬﺟ ﺮﺒﻋ {FACTION_name} ـﺑ</LetterRoyalTitleChangingHeir>
+  <!-- EN: Heir lost -->
+  <LetterTitleHeirLostLabel>ﺚﻳﺭﻮﻟﺍ ﺪﻘُﻓ</LetterTitleHeirLostLabel>
+  <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
+  <LetterTitleHeirLost>ﺐﻘﻠﻟ ﺚﻳﺭﻭ ﻥﻭﺪﺑ {HOLDER_labelShort} ًﺎﻛﺭﺎﺗ ،{HEIR_nameFull} ﺕﺎﻣ\nﻝﺎﺼﺗﻻﺍ ﻚﻨﻜﻤﻳ .{FACTION_name} ﻦﻣ ﻪﻤﻠﺴﺗ ﻱﺬﻟﺍ\nﻦﻴﻴﻌﺘﻟ ﻝﺎﺼﺗﻻﺍ ﺯﺎﻬﺟ ﺮﺒﻋ {FACTION_name} ـﺑ\n.ﺪﻳﺪﺟ ﺚﻳﺭﻭ</LetterTitleHeirLost>
+  <!-- EN: The title of {TITLE} cannot be inherited. -->
+  <LetterRoyalTitleCantBeInherited>.ﻪﺜﻳﺭﻮﺗ ﻦﻜﻤﻳ ﻻ {TITLE} ﺐﻘﻟ</LetterRoyalTitleCantBeInherited>
+
+
+  <!-- EN: Title inheritance -->
+  <LetterTitleInheritance>ﺐﻘﻠﻟﺍ ﺚﻳﺭﻮﺗ</LetterTitleInheritance>
+  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
+  <LetterTitleInheritance_Base>ﺏﺎﻘﻟﺃ ﻞﻘﻧ ﻢﺘﻴﺴﻓ ،ﺕﺎﻣ {PAWN_nameFull} ﻥﺃ ﺎﻤﺑ\n.{PAWN_possessive} ﺔﺛﺭﻭ ﻰﻟﺇ {PAWN_possessive}</LetterTitleInheritance_Base>
+  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
+  <LetterTitleInheritance_AsReplacement>ﻦﻴﻧﺍﻮﻘﻟ ًﺎﻘﻓﻭ ،{PAWN_possessive} {TITLE} ﺐﻘﻟ {HEIR_nameFull} ﺙﺭﻭ\n{HEIR_possessive} {REPLACEDTITLE} ﺐﻘﻟ ﻝﺪﺒﺘﺴﻴﺳ .{FACTION_name} ﻲﻓ ﺔﻓﻼﺨﻟﺍ\n.ﺢﻨﻤﻟﺍ ﻞﻔﺣ ﻝﺎﻤﺘﻛﺍ ﺪﻨﻋ</LetterTitleInheritance_AsReplacement>
+  <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
+  <LetterTitleInheritance_NoEffectHigherTitle>{PAWN_possessive} {TITLE} ﺐﻘﻟ {HEIR_nameFull} ﺙﺮﻳ ﻥﺃ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻥﺎﻛ\nﻦﻜﻟ ،{FACTION_name} ﻲﻓ ﺔﻓﻼﺨﻟﺍ ﻦﻴﻧﺍﻮﻘﻟ ًﺎﻘﻓﻭ\n.{HIGHERTITLE} ﺐﻘﻟ ﻞﻌﻔﻟﺎﺑ ﻪﻳﺪﻟ ﻥﺎﻛ {HEIR_pronoun}</LetterTitleInheritance_NoEffectHigherTitle>
+  <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
+  <LetterTitleInheritance_WasInherited>ﻞﻔﺣ ﻝﺎﻤﺘﻛﺍ ﺪﻨﻋ {PAWN_possessive} {TITLE} ﺐﻘﻟ {HEIR_nameFull} ﺙﺮﻴﺳ\nﻲﻓ ﺔﻓﻼﺨﻟﺍ ﻦﻴﻧﺍﻮﻘﻟ ًﺎﻘﻓﻭ ،ﺢﻨﻤﻟﺍ\n.{FACTION_name}</LetterTitleInheritance_WasInherited>
+  <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
+  <LetterTitleInheritance_NoHeirFound>ﻢﻟ {PAWN_pronoun} ﻥﻷ ،{PAWN_possessive} {TITLE} ﺐﻘﻟ ﺪﺣﺃ ﺙﺮﻳ ﻢﻟ\n.ﺐﻘﻠﻟﺍ ﺍﺬﻬﻟ ﻦﻴﻌﻣ ﺚﻳﺭﻭ ﻪﻳﺪﻟ ﻦﻜﻳ</LetterTitleInheritance_NoHeirFound>
+
+  <!-- Royal implant violations -->
+  <!-- EN: Lawbreaker: {PAWN_labelShort} -->
+  <LetterLawViolationDetectedLabel>{PAWN_labelShort} :ﻥﻮﻧﺎﻘﻠﻟ ﻒﻟﺎﺨﻣ</LetterLawViolationDetectedLabel>
+  <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
+  <LetterLawViolationDetectedForbiddenThingUse>ﻲﻧﻮﻧﺎﻘﻟﺍ ﺮﻴﻏ {PAWN_labelShort} ﻡﺍﺪﺨﺘﺳﺍ {FACTION_name} ﺕﺪﺻﺭ\n.({CHANCE} ﻑﺎﺸﺘﻛﻻﺍ ﺔﺻﺮﻓ) {CULPRIT} :ـﻟ\n\nﻚﺌﻟﻭﺃ ﻂﻘﻓ ،{FACTION_name} ﻦﻴﻧﺍﻮﻘﻟ ًﺎﻘﻓﻭ\nﻢﻬﻟ ﺡﻮﻤﺴﻣ {TITLE} ﺐﻘﻟ ﻥﻮﻠﻤﺤﻳ ﻦﻳﺬﻟﺍ\n.{CULPRIT} ﻡﺍﺪﺨﺘﺳﺎﺑ\n\nﻚﻠﻴﺼﻓ ﺕﺎﻗﻼﻋ ﺖﻀﻔﺨﻧﺍ ،ﺔﺑﻮﻘﻌﻛ\n.{GOODWILL} ﺭﺍﺪﻘﻤﺑ</LetterLawViolationDetectedForbiddenThingUse>
+
+  <!-- Wild decree mental break -->
+  <!-- EN: Wild decree -->
+  <WildDecree>ﺶﺋﺎﻃ ﻡﻮﺳﺮﻣ</WildDecree>
+  <!-- EN: {0_nameIndef} issues decree -->
+  <LetterLabelRandomDecree>ًﺎﻣﻮﺳﺮﻣ {0_nameIndef} ﺭﺪﺻﺃ:</LetterLabelRandomDecree>
+  <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
+    \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
+  <LetterDecreeMentalBreak>ﺮﺗﻮﺗ ﻦﻣ ﻒﻴﻔﺨﺘﻠﻟ ﺔﻟﻭﺎﺤﻣ ﻲﻓ ،{0_nameIndef}\nًﺎﺸﺋﺎﻃ ًﺎﻴﻜﻠﻣ ًﺎﻣﻮﺳﺮﻣ ﺭﺪﺻﺃ ،{0_possessive}\n.ﻩﺬﻴﻔﻨﺘﺑ ﻥﻵﺍ ﺐﻟﺎﻄﻳﻭ
+    \nﺖﻗﻮﻟﺍ ﻲﻓ ﻩﺬﻴﻔﻨﺗ ﻢﺘﻳ ﻢﻟ ﺍﺫﺇ\nﺪﻴﻌﺳ ﺮﻴﻏ {0_nameIndef} ﺢﺒﺼﻴﺳ ،ﺐﺳﺎﻨﻤﻟﺍ\n.ﺔﻳﺎﻐﻠﻟ</LetterDecreeMentalBreak>
+  <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
+    \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
+  <LetterRandomDecree>،{0_bestRoyalTitleIndef} ـﻛ {0_possessive} ﺐﻘﻟ ﺪﻴﻛﺄﺗ ﻞﺟﺃ ﻦﻣ ،{0_nameIndef}\nﻥﻵﺍ ﺐﻟﺎﻄﻳﻭ ًﺎﻣﻮﺳﺮﻣ ﺭﺪﺻﺃ\n.ﻩﺬﻴﻔﻨﺘﺑ
+    \nﺖﻗﻮﻟﺍ ﻲﻓ ﻩﺬﻴﻔﻨﺗ ﻢﺘﻳ ﻢﻟ ﺍﺫﺇ\nﺪﻴﻌﺳ ﺮﻴﻏ {0_nameIndef} ﺢﺒﺼﻴﺳ ،ﺐﺳﺎﻨﻤﻟﺍ\n.ﺔﻳﺎﻐﻠﻟ</LetterRandomDecree>
+  <!-- EN: The decree is titled "{0}". -->
+  <LetterDecree_Quest>."{0}" ﻥﺍﻮﻨﻌﺑ ﻡﻮﺳﺮﻤﻟﺍ</LetterDecree_Quest>
+  
+  <!-- Lent colonist died -->
+  <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
+  <LentColonistDied>ﺔﺜﺟ ﻥﻭﺪﻴﻌﻴﺳ .{FACTION} ﻰﻟﺇ {PAWN_nameDef} ﺓﺭﺎﻋﺇ ﺖﻤﺗ\n.ًﺎﺒﻳﺮﻗ {PAWN_nameDef}</LentColonistDied>  
+
+  <!-- Psylink -->
+  <!-- EN: Psylink gained -->
+  <LetterLabelPsylinkLevelGained>ﻲﺴﻔﻧ ﻂﺑﺍﺭ ﺏﺎﺴﺘﻛﺍ</LetterLabelPsylinkLevelGained>
+  <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
+  <LetterPsylinkLevelGained_First>ﻂﺑﺍﺮﻟﺍ ﻦﻣ ﻝﻭﻷﺍ ﻯﻮﺘﺴﻤﻟﺍ {USER_labelShort} ﺐﺴﺘﻛﺍ\nﻥﻵﺍ {USER_pronoun} ﺢﺒﺻﺃ !{USER_possessive} ـﻟ ﻲﺴﻔﻨﻟﺍ\n.ﺮﺘﺳﺎﻜﻳﺎﺳ\n\nﻰﻠﻋ ﺐﺠﻳ ،ﺔﻴﺴﻔﻨﻟﺍ ﻯﻮﻘﻟﺍ ﻡﺍﺪﺨﺘﺳﻻ\nﻝﻼﺧ ﻦﻣ ﻲﺴﻔﻨﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ ﺀﺎﻨﺑ {USER_labelShort}\nﺍﺬﻫ ﺔﻴﻟﺎﻌﻓ ﺩﺍﺩﺰﺗ .ﻞﻣﺄﺘﻟﺍ\nًﺍﺭﺩﺎﻗ ﺺﺨﺸﻟﺍ ﻥﺎﻛ ﺍﺫﺇ ﻞﻣﺄﺘﻟﺍ\nﺩﺪﺤﻣ ﻦﺋﺎﻛ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﻰﻠﻋ\n.ﻞﻣﺄﺘﻟﺍ ﺀﺎﻨﺛﺃ\n\nﻥﻮﻔﻠﺘﺨﻤﻟﺍ ﺹﺎﺨﺷﻷﺍ ﻊﻴﻄﺘﺴﻳ\n.ﺔﻔﻠﺘﺨﻣ ﺕﺎﻨﺋﺎﻛ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ\nﺔﻴﻔﻠﺨﻟﺍ ﺺﺼﻘﻟﺍ ﻰﻠﻋ ﺍﺬﻫ ﺪﻤﺘﻌﻳ\nﻞﻴﺒﺳ ﻰﻠﻋ .ﻪﺑﺎﻘﻟﺃﻭ ﻪﺗﺎﻤﺳﻭ ﺺﺨﺸﻠﻟ\n:ﻝﺎﺜﻤﻟﺍ\n\nﺏﺎﻘﻟﻷﺍ ﻭﻭﺫ ﺮﺘﺳﺎﻜﻳﺎﺴﻟﺍ -\n.ﻢﻬﺷﻭﺮﻋ ﻰﻠﻋ ﻥﻮﻠﻣﺄﺘﻳ ﺔﻴﻜﻠﻤﻟﺍ\nﺔﻟﻮﻔﻄﻟﺍ ﻭﻭﺫ ﺮﺘﺳﺎﻜﻳﺎﺴﻟﺍ -\nﺎﻤﻴﻧﻷﺍ ﺭﺎﺠﺷﻷ ﻥﻮﻠﻣﺄﺘﻳ ﺔﻴﻠﺒﻘﻟﺍ\n.ﺔﻌﻴﺒﻄﻟﺍ ﺔﺣﺮﺿﺃﻭ\nﻥﻮﻠﻣﺄﺘﻳ ﻥﻭﺪﻫﺍﺰﻟﺍ ﺮﺘﺳﺎﻜﻳﺎﺴﻟﺍ -\n.ﺔﻏﺭﺎﻔﻟﺍ ﻥﺍﺭﺪﺠﻠﻟ\nًﺎﻴﻠﻘﻋ ﻥﻮﻠﺘﺨﻤﻟﺍ ﺮﺘﺳﺎﻜﻳﺎﺴﻟﺍ -\nﻥﻮﻜﻳ ﻥﺃ ﻞﻀﻔﻳﻭ ،ﺭﻮﺒﻘﻠﻟ ﻥﻮﻠﻣﺄﺘﻳ\n.ﺰﻳﺰﻋ ﺺﺨﺷ ﺎﻬﻠﺧﺍﺪﺑ\n\nﻞﻣﺄﺘﻟﺍ ﺰﻴﻛﺮﺗ ﻉﺍﻮﻧﺃ ﺔﻳﺅﺭ ﻚﻨﻜﻤﻳ\nﺔﻗﺎﻄﺑ ﻰﻠﻋ ﻉﻼﻃﻻﺎﺑ ﺎﻣ ﺺﺨﺸﻟ\n.'i' ﺭﺰﻟﺎﺑ ﻪﺗﺎﻣﻮﻠﻌﻣ</LetterPsylinkLevelGained_First>
+  <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
+  <LetterPsylinkLevelGained_NotFirst>ﻂﺑﺍﺮﻟﺍ ﻦﻣ ًﺍﺪﻳﺪﺟ ﻯﻮﺘﺴﻣ {USER_labelShort} ﺐﺴﺘﻛﺍ\nﻡﺍﺪﺨﺘﺳﺍ ﻥﻵﺍ {USER_pronoun} ـﻟ ﻦﻜﻤﻳ !ﻲﺴﻔﻨﻟﺍ\nﻯﻮﺘﺴﻤﻟﺍ ﻚﻟﺫ ﻦﻣ ﺔﻴﺴﻔﻧ ﻯﻮﻗ\nﺎﻬﻤﻠﻌﺗ ﻰﻟﺇ ﺝﺎﺘﺤﻳ {USER_pronoun} ﻦﻜﻟ ،ﻰﻠﻋﻷﺍ\n.ًﻻﻭﺃ</LetterPsylinkLevelGained_NotFirst>
+  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
+  <LetterPsylinkLevelGained_PsycastLearned>ﻦﻣ ﺪﻳﺪﺠﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ﺏﺎﺴﺘﻛﺍ ﺪﻨﻋ\nًﺎﻴﺋﺎﻘﻠﺗ {USER_labelShort} ﻢﻠﻌﺗ ،ﻲﺴﻔﻨﻟﺍ ﻂﺑﺍﺮﻟﺍ\n{2} :ﺔﻴﺴﻔﻨﻟﺍ ﻯﻮﻘﻟﺍ ﻩﺬﻫ</LetterPsylinkLevelGained_PsycastLearned>
+  
+  <!-- Abilities -->
+  <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterPsychicInspiration>ﺮﺒﺘﺧﺍ ،{CASTER_nameIndef} ﻦﻣ ﻲﺴﻔﻨﻟﺍ ﺀﺎﺤﻳﻹﺍ ﻞﻀﻔﺑ\n!ًﺎﻣﺎﻬﻟﺇ {PAWN_nameIndef}</LetterPsychicInspiration>
+
+  <!-- EN: Bestowing ceremony expired -->
+  <LetterLabelBestowingCeremonyExpired>ﺢﻨﻤﻟﺍ ﻞﻔﺣ ﺔﻴﺣﻼﺻ ﺖﻬﺘﻧﺍ</LetterLabelBestowingCeremonyExpired>
+  <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
+  <LetterTextBestowingCeremonyExpired>ﻢﺗ .ﺢﻨﻤﻟﺍ ﻞﻔﺣ ﻰﻟﺇ {TARGET_definite} ﺮﻀﺤﻳ ﻢﻟ\n.ﻞﻔﺤﻟﺍ ﺀﺎﻐﻟﺇ</LetterTextBestowingCeremonyExpired>
+
+  <!-- EN: {TARGET_definite}'s title changed -->
+  <LetterLabelBestowingCeremonyTitleUpdated>{TARGET_definite} ﺐﻘﻟ ﺮﻴﻐﺗ</LetterLabelBestowingCeremonyTitleUpdated>
+  <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
+  <LetterTextBestowingCeremonyTitleUpdated>ﺔﻟﻭﺪﺟ ﺬﻨﻣ ﺪﻳﺪﺟ ﺐﻘﻟ ﻰﻠﻋ {TARGET_definite} ﻞﺼﺣ\nﻊﻣ ﺢﻨﻤﻟﺍ ﻖﺑﺎﻄﺘﻳ ﻲﻜﻟ .ﺢﻨﻤﻟﺍ ﻞﻔﺣ\nﻞﻔﺣ ﺔﻟﻭﺪﺟ ﻢﺘﺘﺳ ،ﺪﻳﺪﺠﻟﺍ ﺐﻘﻠﻟﺍ\n.ًﺎﺒﻳﺮﻗ ﺮﺧﺁ\n\nﺕﺂﻓﺎﻜﻣ ﺪﻳﺪﺠﻟﺍ ﺢﻨﻤﻟﺍ ﻞﻔﺣ ﻦﻤﻀﺘﻴﺳ\nﺏﺎﻘﻟﻷﺍ ﻊﻴﻤﺠﻟ ﻲﺴﻔﻨﻟﺍ ﻂﺑﺍﺮﻟﺍ\n.ﺪﻌﺑ ﺢﻨﻤﺗ ﻢﻟ ﻲﺘﻟﺍ</LetterTextBestowingCeremonyTitleUpdated>
+  
+  <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
+  <LetterPartBestowingExtraHonor>ﻦﻣ ﻡﺍﺮﺘﺣﺍ ﺔﻣﻼﻌﻛ ﻑﺮﺷ {PAWN_labelShort} {1} ﻰﻘﻠﺗ\n.ﺝﺮﻔﺘﻣ {3} ﻊﻤﺠﻟ ،{FACTION_name}</LetterPartBestowingExtraHonor>
+  <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
+  <LetterPartNoExtraHonor>ﻢﻟ ﻪﻧﻷ ًﺎﻴﻓﺎﺿﺇ ًﺎﻓﺮﺷ {PAWN_labelShort} ﻖﻠﺘﻳ ﻢﻟ\n.ﻦﻴﺟﺮﻔﺘﻤﻟﺍ ﻦﻣ ﺮﻴﺜﻜﻟﺍ ﻙﺎﻨﻫ ﻦﻜﻳ</LetterPartNoExtraHonor>
+  <!-- EN: All viewers of the ceremony received a mood bonus. -->
+  <LetterPartMoodBonus>ﻰﻠﻋ ﻞﻔﺤﻟﺍ ﻱﺪﻫﺎﺸﻣ ﻊﻴﻤﺟ ﻞﺼﺣ\n.ﺝﺍﺰﻣ ﺓﺄﻓﺎﻜﻣ</LetterPartMoodBonus>
+
+  <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
+  <LetterTextHonorAward_BanditCamp>ـﺑ ﻞﻀﻔﻟﺍ ﻪﻴﻟﺇ ﺐﺴﻨُﻳ ﻥﺃ ﺐﺠﻳ ﻦﻣ\n؟ﻕﺮﻄﻟﺍ ﻉﺎﻄﻗ ﺮﻜﺴﻌﻣ ﺔﻤﻳﺰﻬﻟ {0}</LetterTextHonorAward_BanditCamp>
+
+  <!-- Shuttle crash -->
+  <!-- EN: Shuttle crashed -->
+  <LetterLabelShuttleCrashed>ﻙﻮﻜﻤﻟﺍ ﻢﻄﺤﺗ</LetterLabelShuttleCrashed>
+  <!-- EN: A shuttle has crashed nearby -->
+  <LetterTextShuttleCrashed>ﺏﺮﻘﻟﺎﺑ ﻙﻮﻜﻣ ﻢﻄﺤﺗ</LetterTextShuttleCrashed>
+
+  <!-- Wanderer joins -->
+  <!-- EN: Transport pod crash: {0_nameDef} -->
+  <LetterLabelWandererJoinsAbasia>{0_nameDef} :ﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ ﻢﻄﺤﺗ</LetterLabelWandererJoinsAbasia>
+  <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
+  <LetterTextWandererJoinsAbasia>ﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ ﻲﻓ ﻢﻄﺤﺘﻳ {0_nameDef} ﻰﻋﺪُﻳ {0_title}\n.ﺔﺒﻳﺮﻗ\n\nﻦﻣ ﻦﻜﻤﺘﻳ ﻦﻟﻭ {1_label} ﻦﻣ ﻲﻧﺎﻌﻳ {0_nameDef}\n.ﻲﺸﻤﻟﺍ\n\nﺓﺪﻋ ﺪﻌﺑ ﻲﻌﻴﺒﻃ ﻞﻜﺸﺑ {0_pronoun} ﻰﻓﺎﻌﺘﻴﺳ\nﻝﺎﻤﺘﺣﺍ ًﺎﻀﻳﺃ ﻙﺎﻨﻫ .ﻡﺎﻳﺃ\nﻦﻜﻤﻳ .ﻆﺤﻟﺍ ﻦﺴﺤﻟ ﻊﻳﺮﺴﻟﺍ ﻲﻓﺎﻌﺘﻠﻟ\nﺐﻠﻄﺘﺗ ﺔﺻﺎﺧ ﺔﻴﻠﻤﻌﺑ {1_label} ﺝﻼﻋ ًﺎﻀﻳﺃ\nﺔﻳﻭﺩﺃ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ\n.ﺪﻟﺭﻭﻭﺮﺘﻴﻠﻏ\n\nﻥﺃ ﺩﺮﺠﻤﺑ ﺔﻤﻫﺎﺴﻤﻠﻟ ﺪﻌﺘﺴﻣ {0_pronoun}\nﺭﺩﺎﻐﻳ ﻦﻟ ﻪﻨﻜﻟ ،{0_pronoun} ﻰﻓﺎﻌﺘﻳ\n،{0_nameDef} ﺪﻳﺮﺗ ﻻ ﺖﻨﻛ ﺍﺫﺇ .ﺔﻴﻋﺍﻮﻃ\nﻭﺃ ﺪﺒﻌﻛ {0_objective} ﻊﻴﺑ ﻭﺃ ،{0_objective} ﻲﻔﻧ ﻚﻨﻜﻤﻳ\nﺪﺠﻳ ﺪﻗ ،ﻚﻟﺫ ﻊﻣﻭ .ﺕﻮﻤﻴﻟ {0_objective} ﻙﺮﺗ\n.ًﺎﺠﻋﺰﻣ ﺍﺬﻫ ﻥﻭﺮﺧﻵﺍ ﻙﻭﺮﻤﻌﺘﺴﻣ</LetterTextWandererJoinsAbasia>
+
+</LanguageData>

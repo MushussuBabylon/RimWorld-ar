@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: clear -->
+  <Clear.label>ٍﻑﺎﺻ</Clear.label>
+  <!-- EN: A clear day. No penalties or modifiers. -->
+  <Clear.description>ﻭﺃ ﺕﺎﺑﻮﻘﻋ ﺪﺟﻮﺗ ﻻ .ٍﻑﺎﺻ ﻡﻮﻳ\n.ﺕﻼﻳﺪﻌﺗ</Clear.description>
+  
+  <!-- EN: dry thunderstorm -->
+  <DryThunderstorm.label>ﺔﻓﺎﺟ ﺔﻳﺪﻋﺭ ﺔﻔﺻﺎﻋ</DryThunderstorm.label>
+  <!-- EN: Dry thunderstorms are dangerous because the lightning can start fires and there is no rain to put them out. -->
+  <DryThunderstorm.description>ﺓﺮﻴﻄﺧ ﺔﻓﺎﺠﻟﺍ ﺔﻳﺪﻋﺮﻟﺍ ﻒﺻﺍﻮﻌﻟﺍ\nﻻﻭ ﻖﺋﺍﺮﺤﻟﺍ ﻞﻌﺸﻳ ﺪﻗ ﻕﺮﺒﻟﺍ ﻥﻷ\n.ﺎﻬﺋﺎﻔﻃﻹ ﺮﻄﻣ ﺪﺟﻮﻳ</DryThunderstorm.description>
+  
+  <!-- EN: fog -->
+  <Fog.label>ﺏﺎﺒﺿ</Fog.label>
+  <!-- EN: Fog reduces the accuracy of ranged weapons. -->
+  <Fog.description>ﺔﺤﻠﺳﻷﺍ ﺔﻗﺩ ﻦﻣ ﺏﺎﺒﻀﻟﺍ ﻞﻠﻘﻳ\n.ﻯﺪﻤﻟﺍ ﺓﺪﻴﻌﺑ</Fog.description>
+  
+  <!-- EN: foggy rain -->
+  <FoggyRain.label>ﻲﺑﺎﺒﺿ ﺮﻄﻣ</FoggyRain.label>
+  <!-- EN: Reduces accuracy and movement speed. -->
+  <FoggyRain.description>.ﺔﻛﺮﺤﻟﺍ ﺔﻋﺮﺳﻭ ﺔﻗﺪﻟﺍ ﻞﻠﻘﻳ</FoggyRain.description>
+  
+  <!-- EN: rain -->
+  <Rain.label>ﺮﻄﻣ</Rain.label>
+  <!-- EN: Rain reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
+  <Rain.description>ﺓﺪﻴﻌﺑ ﺔﺤﻠﺳﻷﺍ ﺔﻗﺩ ﻦﻣ ﺮﻄﻤﻟﺍ ﻞﻠﻘﻳ\nﺊﻄﺒﻳﻭ ،ﻖﺋﺍﺮﺤﻟﺍ ﺊﻔﻄﻳﻭ ،ﻯﺪﻤﻟﺍ\n.ﺱﺎﻨﻟﺍ</Rain.description>
+  
+  <!-- EN: rainy thunderstorm -->
+  <RainyThunderstorm.label>ﺓﺮﻄﻤﻣ ﺔﻳﺪﻋﺭ ﺔﻔﺻﺎﻋ</RainyThunderstorm.label>
+  <!-- EN: The lightning will start fires, but the rain will put it out. The rain also reduces movement speed and shooting accuracy. -->
+  <RainyThunderstorm.description>ﺮﻄﻤﻟﺍ ﻦﻜﻟ ،ﻖﺋﺍﺮﺣ ﻕﺮﺒﻟﺍ ﺃﺪﺒﻴﺳ\nﻦﻣ ﺮﻄﻤﻟﺍ ﻞﻠﻘﻳ ﺎﻤﻛ .ﺎﻬﺌﻔﻄﻴﺳ\n.ﺔﻳﺎﻣﺮﻟﺍ ﺔﻗﺩﻭ ﺔﻛﺮﺤﻟﺍ ﺔﻋﺮﺳ</RainyThunderstorm.description>
+  
+  <!-- EN: gentle snow -->
+  <SnowGentle.label>ﻒﻴﻔﺧ ﺞﻠﺛ</SnowGentle.label>
+  <!-- EN: Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
+  <SnowGentle.description>ﺓﺪﻴﻌﺑ ﺔﺤﻠﺳﻷﺍ ﺔﻗﺩ ﻦﻣ ﺞﻠﺜﻟﺍ ﻞﻠﻘﻳ\nﺊﻄﺒﻳﻭ ،ﻖﺋﺍﺮﺤﻟﺍ ﺊﻔﻄﻳﻭ ،ﻯﺪﻤﻟﺍ\n.ﺱﺎﻨﻟﺍ</SnowGentle.description>
+  
+  <!-- EN: hard snow -->
+  <SnowHard.label>ﻒﻴﺜﻛ ﺞﻠﺛ</SnowHard.label>
+  <!-- EN: Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
+  <SnowHard.description>ﺓﺪﻴﻌﺑ ﺔﺤﻠﺳﻷﺍ ﺔﻗﺩ ﻦﻣ ﺞﻠﺜﻟﺍ ﻞﻠﻘﻳ\nﺊﻄﺒﻳﻭ ،ﻖﺋﺍﺮﺤﻟﺍ ﺊﻔﻄﻳﻭ ،ﻯﺪﻤﻟﺍ\n.ﺱﺎﻨﻟﺍ</SnowHard.description>
+  
+  <!-- EN: underground -->
+  <Underground.label>ﺽﺭﻷﺍ ﺖﺤﺗ</Underground.label>
+  <!-- EN: There is no weather underground. -->
+  <Underground.description>.ﺽﺭﻷﺍ ﺖﺤﺗ ﺲﻘﻃ ﺪﺟﻮﻳ ﻻ</Underground.description>
+  
+</LanguageData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: grav nausea -->
+  <GravNausea.letterLabel>ﺔﻴﺑﺫﺎﺠﻟﺍ ﻥﺎﻴﺜﻏ</GravNausea.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} was forced to do an emergency maneuver, resulting in an intense and prolonged deceleration. The experience has left your colonists feeling extremely nauseous. The effects will quickly fade. -->
+  <GravNausea.letterText>ﻡﺎﻴﻘﻠﻟ {PILOT_nameDef} ﺮﻄﺿﺍ ،{GRAVSHIP} ﻁﻮﺒﻫ ﺀﺎﻨﺛﺃ\nﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﺔﺋﺭﺎﻃ ﺓﺭﻭﺎﻨﻤﺑ\nﺖﻛﺮﺗ ﺪﻘﻟ .ﻝﻮﻄﻣﻭ ﺪﻳﺪﺷ ﺆﻃﺎﺒﺗ\nﻥﻭﺮﻌﺸﻳ ﻚﻳﺮﻤﻌﺘﺴﻣ ﺔﺑﺮﺠﺘﻟﺍ\nﺭﺎﺛﻵﺍ ﻰﺷﻼﺘﺘﺳﻭ .ﺪﻳﺪﺸﻟﺍ ﻥﺎﻴﺜﻐﻟﺎﺑ\n.ﺔﻋﺮﺴﺑ</GravNausea.letterText>
+  
+  <!-- EN: minor gravship crash -->
+  <MinorGravshipCrash.letterLabel>ﻒﻴﻔﻃ ﺔﻴﺑﺫﺎﺟ ﺔﻨﻴﻔﺳ ﺙﺩﺎﺣ</MinorGravshipCrash.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} accidentally disengaged the grav engine too early, causing the gravship to free-fall for several feet. Some buildings on the gravship have sustained light damage from the crash. -->
+  <MinorGravshipCrash.letterText>ﻖﻳﺮﻃ ﻦﻋ {PILOT_nameDef} ﻡﺎﻗ ،{GRAVSHIP} ﻁﻮﺒﻫ ﺀﺎﻨﺛﺃ\nﺔﻴﺑﺫﺎﺠﻟﺍ ﻙﺮﺤﻣ ﻞﺼﻔﺑ ﺄﻄﺨﻟﺍ\nﻁﻮﻘﺳ ﻲﻓ ﺐﺒﺴﺗ ﺎﻤﻣ ،ًﺍﺪﺟ ًﺍﺮﻜﺒﻣ\nًﺍﺮﺣ ًﺎﻃﻮﻘﺳ ﺔﻴﺑﺫﺎﺠﻟﺍ ﺔﻨﻴﻔﺳ\nﻲﻧﺎﺒﻤﻟﺍ ﺾﻌﺑ ﺖﺿﺮﻌﺗ .ﻡﺍﺪﻗﺃ ﺓﺪﻌﻟ\nﺔﻔﻴﻔﻃ ﺭﺍﺮﺿﻷ ﺔﻴﺑﺫﺎﺠﻟﺍ ﺔﻨﻴﻔﺳ ﻰﻠﻋ\n.ﺙﺩﺎﺤﻟﺍ ﻦﻣ</MinorGravshipCrash.letterText>
+  
+  <!-- EN: overheated grav engine -->
+  <OverheatedGravEngine.letterLabel>ﻡﻮﻤﺤﻣ ﺔﻴﺑﺫﺎﺟ ﻙﺮﺤﻣ</OverheatedGravEngine.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} over-engaged the grav engine, causing it to overheat. The grav engine will take longer than normal to cool down. In the meantime, the gravship can't be launched. -->
+  <OverheatedGravEngine.letterText>ﻞﻴﻐﺸﺗ ﻲﻓ {PILOT_nameDef} ﻎﻟﺎﺑ ،{GRAVSHIP} ﻁﻮﺒﻫ ﺀﺎﻨﺛﺃ\nﻲﻓ ﺐﺒﺴﺗ ﺎﻤﻣ ،ﺔﻴﺑﺫﺎﺠﻟﺍ ﻙﺮﺤﻣ\nﻙﺮﺤﻣ ﻕﺮﻐﺘﺴﻴﺳ .ﻪﺗﺭﺍﺮﺣ ﻉﺎﻔﺗﺭﺍ\nﺩﺎﺘﻌﻤﻟﺍ ﻦﻣ ﻝﻮﻃﺃ ًﺎﺘﻗﻭ ﺔﻴﺑﺫﺎﺠﻟﺍ\nﻦﻜﻤﻳ ﻻ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ .ﺩﺮﺒﻴﻟ\n.ﺔﻴﺑﺫﺎﺠﻟﺍ ﺔﻨﻴﻔﺳ ﻕﻼﻃﺇ</OverheatedGravEngine.letterText>
+  
+  <!-- EN: thruster breakdown -->
+  <ThrusterBreakdown.letterLabel>ﻊﻓﺍﺪﻟﺍ ﻞﻄﻌﺗ</ThrusterBreakdown.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} overheated the ship's thrusters, frying valuable components. The thrusters will need to be repaired before they can be used again. -->
+  <ThrusterBreakdown.letterText>ﻉﺎﻔﺗﺭﺍ ﻲﻓ {PILOT_nameDef} ﺐﺒﺴﺗ ،{GRAVSHIP} ﻁﻮﺒﻫ ﺀﺎﻨﺛﺃ\nﻒﻠﺗﺃ ﺎﻤﻣ ،ﺔﻨﻴﻔﺴﻟﺍ ﻊﻓﺍﻭﺩ ﺓﺭﺍﺮﺣ\nﻊﻓﺍﻭﺪﻟﺍ ﺝﺎﺘﺤﺘﺳ .ﺔﻤﻴﻗ ﺕﺎﻧﻮﻜﻣ\nﻦﻣ ﻦﻜﻤﺘﻟﺍ ﻞﺒﻗ ﺡﻼﺻﺇ ﻰﻟﺇ\n.ﻯﺮﺧﺃ ﺓﺮﻣ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ</ThrusterBreakdown.letterText>
+  
+</LanguageData>

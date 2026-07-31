@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Forbid -->
+  <!-- EN: Forbid -->
+  <CommandForbid>ﻊﻨﻣ</CommandForbid>
+  <!-- EN: Allow -->
+  <CommandAllow>ﺡﺎﻤﺳ</CommandAllow>
+  <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
+  <CommandForbiddenDesc>ﻚﻳﺮﻤﻌﺘﺴﻤﻟ ﺢﻤﺴُﻳ ﻻ :ﻉﻮﻨﻤﻣ\nﻂﻐﺿﺍ .ﺮﺼﻨﻌﻟﺍ ﺍﺬﻫ ﻊﻣ ﻞﻋﺎﻔﺘﻟﺎﺑ\n.ﺡﺎﻤﺴﻠﻟ</CommandForbiddenDesc>
+  <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
+  <CommandNotForbiddenDesc>ﻚﻳﺮﻤﻌﺘﺴﻤﻟ ﺢﻤﺴُﻳ :ﺡﻮﻤﺴﻣ\nﻂﻐﺿﺍ .ﺮﺼﻨﻌﻟﺍ ﺍﺬﻫ ﻊﻣ ﻞﻋﺎﻔﺘﻟﺎﺑ\n.ﻊﻨﻤﻠﻟ</CommandNotForbiddenDesc>
+
+  <!-- Power -->
+  <!-- EN: Toggle power -->
+  <CommandTogglePowerLabel>ﺔﻗﺎﻄﻟﺍ ﻞﻳﺪﺒﺗ</CommandTogglePowerLabel>
+  <!-- EN: Toggle power. -->
+  <CommandTogglePowerDesc>.ﺔﻗﺎﻄﻟﺍ ﺔﻟﺎﺣ ﻞﻳﺪﺒﺗ</CommandTogglePowerDesc>
+  
+  <!-- EN: Designate toggle power -->
+  <CommandDesignateTogglePowerLabel>ﺔﻗﺎﻄﻟﺍ ﻞﻳﺪﺒﺗ ﻦﻴﻴﻌﺗ</CommandDesignateTogglePowerLabel>
+  <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
+  <CommandDesignateTogglePowerDesc>ﻞﻳﺪﺒﺗ ﻢﺘﻴﻟ ﺀﻲﺸﻟﺍ ﺍﺬﻫ ﻦﻴﻴﻌﺗ\nﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﺪﺣﺃ ﻲﺗﺄﻴﺳ .ﻪﺘﻗﺎﻃ\n.ﺡﺎﺘﻔﻤﻟﺍ ﺐﻠﻘﻟ ﺎًﺒﻳﺮﻗ</CommandDesignateTogglePowerDesc>
+  
+  <!-- EN: Reconnect -->
+  <CommandTryReconnectLabel>ﻝﺎﺼﺗﻻﺍ ﺓﺩﺎﻋﺇ</CommandTryReconnectLabel>
+  <!-- EN: Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby. -->
+  <CommandTryReconnectDesc>ﻯﺮﺧﺃ ﺔﻗﺎﻃ ﺔﻜﺒﺸﺑ ﻝﺎﺼﺗﻻﺍ ﻝﻭﺎﺣ\nﺍﺫﺇ ﺪﻴﻔﻣ ﺍﺬﻫ .ﻲﻟﺎﺼﺗﺍ ﻕﺎﻄﻧ ﻦﻤﺿ\nﻦﻜﻟﻭ ﻞﻤﻌﺗ ﻻ ﺔﻜﺒﺸﺑ ًﻼﺼﺘﻣ ﺖﻨﻛ\n.ﺔﺒﻳﺮﻗ ﺔﻠﻣﺎﻋ ﺔﻜﺒﺷ ﺪﺟﻮﺗ</CommandTryReconnectDesc>
+
+  <!-- EN: Gather spot -->
+  <CommandGatherSpotToggleLabel>ﻊﻤﺠﺘﻟﺍ ﺔﻄﻘﻧ</CommandGatherSpotToggleLabel>
+  <!-- EN: Active - colonists will gather around this object. -->
+  <CommandGatherSpotToggleDescActive>ﻝﻮﺣ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻊﻤﺠﺘﻴﺳ - ﺔﻄﺸﻧ\n.ﻦﺋﺎﻜﻟﺍ ﺍﺬﻫ</CommandGatherSpotToggleDescActive>
+  <!-- EN: Inactive - colonists will not gather around this object. -->
+  <CommandGatherSpotToggleDescInactive>ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻊﻤﺠﺘﻳ ﻦﻟ - ﺔﻄﺸﻧ ﺮﻴﻏ\n.ﻦﺋﺎﻜﻟﺍ ﺍﺬﻫ ﻝﻮﺣ</CommandGatherSpotToggleDescInactive>
+  
+  <!-- Drafting -->
+  <!-- EN: Draft -->
+  <CommandDraftLabel>ﺪﻴﻨﺠﺗ</CommandDraftLabel>
+  <!-- EN: Undraft -->
+  <CommandUndraftLabel>ﺪﻴﻨﺠﺘﻟﺍ ﺀﺎﻐﻟﺇ</CommandUndraftLabel>
+  <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
+  <CommandToggleDraftDesc>.ﻱﺮﻜﺴﻌﻟﺍ ﺪﻴﻨﺠﺘﻟﺍ ﺔﻟﺎﺣ ﻞﻳﺪﺒﺗ\n\nﺮﻣﺍﻭﻷﺍ ﻥﻭﺬﻔﻨﻳ ﻥﻭﺪﻨﺠﻤﻟﺍ\nﻭﺃ ﻞﻤﻌﻟﺎﺑ ﺍﻮﻣﻮﻘﻳ ﻦﻟ .ﻥﻮﻠﺗﺎﻘﻳﻭ\n.ﺔﺣﺍﺮﻟﺍ ﻭﺃ ﻞﻛﻷﺍ</CommandToggleDraftDesc>
+  <!-- EN: {1_labelShort} cannot walk. -->
+  <IsIncapped>.ﻲﺸﻤﻟﺍ ﻊﻴﻄﺘﺴﻳ ﻻ {1_labelShort}</IsIncapped>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <ParticipatingInRitual>.{1} ﻲﻓ ﻙﺭﺎﺸﻳ {0_labelShort}</ParticipatingInRitual>
+
+  <!-- EN: Fire at will -->
+  <CommandFireAtWillLabel>ﺔﻳﺅﺮﻟﺍ ﺪﻨﻋ ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ</CommandFireAtWillLabel>
+  <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
+  <CommandFireAtWillDesc>ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﺔﻟﺎﺣ ﻞﻳﺪﺒﺗ\n.ﻲﺋﺎﻘﻠﺘﻟﺍ\n\nﻩﺬﻫ ﻖﻠﻄﺗ ﻦﻟ ،ﻞﻴﻄﻌﺘﻟﺍ ﺪﻨﻋ\nﻰﻠﻋ ﺎًﻴﺋﺎﻘﻠﺗ ﺭﺎﻨﻟﺍ ﺔﻴﺼﺨﺸﻟﺍ\nﻰﻠﻋ ﺍﺬﻫ ﺮﺛﺆﻳ ﻻ .ﺓﺪﻴﻌﺒﻟﺍ ﻑﺍﺪﻫﻷﺍ\n.ﺮﺷﺎﺒﻤﻟﺍ ﻝﺎﺘﻘﻟﺍ</CommandFireAtWillDesc>
+  
+  <!-- EN: Clear prioritized work -->
+  <CommandClearPrioritizedWork>ﺔﻳﻮﻟﻭﻷﺍ ﻱﺫ ﻞﻤﻌﻟﺍ ﺢﺴﻣ</CommandClearPrioritizedWork>
+  <!-- EN: Clear any prioritized work you assigned. The character will go back to their usual self-directed activities. -->
+  <CommandClearPrioritizedWorkDesc>ﺖﻤﻗ ﺔﻳﻮﻟﻭﺃ ﻱﺫ ﻞﻤﻋ ﻱﺃ ﺢﺴﻣ\nﻰﻟﺇ ﺔﻴﺼﺨﺸﻟﺍ ﺩﻮﻌﺘﺳ .ﻪﻨﻴﻴﻌﺘﺑ\nﺔﻬﺟﻮﻤﻟﺍ ﺓﺩﺎﺘﻌﻤﻟﺍ ﺎﻬﺘﻄﺸﻧﺃ\n.ﺎًﻴﺗﺍﺫ</CommandClearPrioritizedWorkDesc>
+  
+  <!-- EN: Cancel -->
+  <CommandCancelConstructionLabel>ﺀﺎﻐﻟﺇ</CommandCancelConstructionLabel>
+  <!-- EN: Cancel this construction. -->
+  <CommandCancelConstructionDesc>.ﺀﺎﻨﺒﻟﺍ ﺍﺬﻫ ﺀﺎﻐﻟﺇ</CommandCancelConstructionDesc>
+
+  <!-- EN: Get out of bed -->
+  <CommandGetOutOfBedLabel>ﺮﻳﺮﺴﻟﺍ ﻦﻣ ﺝﻭﺮﺨﻟﺍ</CommandGetOutOfBedLabel>
+  <!-- EN: Get out of current bed. -->
+  <CommandGetOutOfBedDesc>.ﻲﻟﺎﺤﻟﺍ ﺮﻳﺮﺴﻟﺍ ﻦﻣ ﺝﻭﺮﺨﻟﺍ</CommandGetOutOfBedDesc>
+
+  <!-- EN: Set owner -->
+  <CommandThingSetOwnerLabel>ﻚﻟﺎﻤﻟﺍ ﺪﻳﺪﺤﺗ</CommandThingSetOwnerLabel>
+  <!-- EN: Assign this bed to be owned by a specific {0}. -->
+  <CommandBedSetOwnerDesc>ﺎًﻛﻮﻠﻤﻣ ﻥﻮﻜﻴﻟ ﺮﻳﺮﺴﻟﺍ ﺍﺬﻫ ﺺﻴﺼﺨﺗ\n.ﻦﻴﻌﻣ {0} ـﻟ</CommandBedSetOwnerDesc>
+  <!-- EN: Assign this throne to be owned by a specific colonist. -->
+  <CommandThroneSetOwnerDesc>ﺎًﻛﻮﻠﻤﻣ ﻥﻮﻜﻴﻟ ﺵﺮﻌﻟﺍ ﺍﺬﻫ ﺺﻴﺼﺨﺗ\n.ﻦﻴﻌﻣ ﺮﻤﻌﺘﺴﻤﻟ</CommandThroneSetOwnerDesc>
+  <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
+  <CommandMeditationSpotSetOwnerDesc>ﻥﻮﻜﺘﻟ ﻩﺬﻫ ﻞﻣﺄﺘﻟﺍ ﺔﻌﻘﺑ ﺺﻴﺼﺨﺗ\n.ﻦﻴﻌﻣ ﺮﻤﻌﺘﺴﻤﻟ ﺔﻛﻮﻠﻤﻣ</CommandMeditationSpotSetOwnerDesc>
+  <!-- EN: Assign colonist -->
+  <CommandGraveAssignColonistLabel>ﺮﻤﻌﺘﺴﻣ ﻦﻴﻴﻌﺗ</CommandGraveAssignColonistLabel>
+  <!-- EN: Assign this grave to be owned by a specific colonist. -->
+  <CommandGraveAssignColonistDesc>ﺎًﻛﻮﻠﻤﻣ ﻥﻮﻜﻴﻟ ﺮﺒﻘﻟﺍ ﺍﺬﻫ ﺺﻴﺼﺨﺗ\n.ﻦﻴﻌﻣ ﺮﻤﻌﺘﺴﻤﻟ</CommandGraveAssignColonistDesc>
+  <!-- EN: Assign -->
+  <BuildingAssign>ﻦﻴﻴﻌﺗ</BuildingAssign>
+  <!-- EN: Reassign -->
+  <BuildingReassign>ﻦﻴﻴﻌﺗ ﺓﺩﺎﻋﺇ</BuildingReassign>
+  <!-- EN: Unassign -->
+  <BuildingUnassign>ﻦﻴﻴﻌﺘﻟﺍ ﺀﺎﻐﻟﺇ</BuildingUnassign>
+  <!-- EN: For prisoners -->
+  <CommandBedSetForPrisonersLabel>ﺀﺎﻨﺠﺴﻠﻟ</CommandBedSetForPrisonersLabel>
+  <!-- EN: Whether beds in this room should be used by prisoners. -->
+  <CommandBedSetForPrisonersDesc>ﻡﺍﺪﺨﺘﺳﺍ ﻲﻐﺒﻨﻳ ﻥﺎﻛ ﺍﺫﺇ ﺎﻣ\nﻞﺒﻗ ﻦﻣ ﺔﻓﺮﻐﻟﺍ ﻩﺬﻫ ﻲﻓ ﺓّﺮﺳﻷﺍ\n.ﺀﺎﻨﺠﺴﻟﺍ</CommandBedSetForPrisonersDesc>
+  <!-- EN: Only beds in enclosed spaces can be set for prisoners. -->
+  <CommandBedSetForPrisonersFailOutdoors>ﺓﺩﻮﺟﻮﻤﻟﺍ ﺓّﺮﺳﻷﺍ ﻦﻴﻴﻌﺗ ﻂﻘﻓ ﻦﻜﻤﻳ\n.ﺀﺎﻨﺠﺴﻠﻟ ﺔﻘﻠﻐﻣ ﺕﺎﺣﺎﺴﻣ ﻲﻓ</CommandBedSetForPrisonersFailOutdoors>
+  <!-- EN: Medical -->
+  <CommandBedSetAsMedicalLabel>ﻲﺒﻃ</CommandBedSetAsMedicalLabel>
+  <!-- EN: Whether this bed is for medical use. -->
+  <CommandBedSetAsMedicalDesc>ﻡﺍﺪﺨﺘﺳﻼﻟ ﺮﻳﺮﺴﻟﺍ ﺍﺬﻫ ﻥﺎﻛ ﺍﺫﺇ ﺎﻣ\n.ﻲﺒﻄﻟﺍ</CommandBedSetAsMedicalDesc>
+  <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
+  <TurningOnPrisonerBedWarning>ﻰﻠﻋ ﺮﺛﺆﻳ ﺀﺎﻨﺠﺴﻟﺍ ﻊﺿﻭ ﻞﻴﻌﻔﺗ\nﻦﻜﻤﻳ ﻻ ﺚﻴﺣ) ﺎﻬﻠﻤﻛﺄﺑ ﺔﻓﺮﻐﻟﺍ\nﻲﻓ ﻡﻮﻨﻟﺍ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍﻭ ﺀﺎﻨﺠﺴﻠﻟ\n.(ﺔﻓﺮﻐﻟﺍ ﺲﻔﻧ\n\nﺔﻴﻜﻠﻣ ﻥﻭﺪﻘﻔﻴﺳ ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ\n:ﻢﻬﺗّﺮﺳﺃ</TurningOnPrisonerBedWarning>
+  <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
+  <TurningOffPrisonerBedWarning>ﻰﻠﻋ ﺮﺛﺆﻳ ﺀﺎﻨﺠﺴﻟﺍ ﻊﺿﻭ ﻞﻴﻄﻌﺗ\nﻦﻜﻤﻳ ﻻ ﺚﻴﺣ) ﺎﻬﻠﻤﻛﺄﺑ ﺔﻓﺮﻐﻟﺍ\nﻲﻓ ﻡﻮﻨﻟﺍ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍﻭ ﺀﺎﻨﺠﺴﻠﻟ\n.(ﺔﻓﺮﻐﻟﺍ ﺲﻔﻧ\n\nﺔﻴﻜﻠﻣ ﻥﻭﺪﻘﻔﻴﺳ ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ\n:ﻢﻬﺗّﺮﺳﺃ</TurningOffPrisonerBedWarning>
+  <!-- EN: Are you sure you want to do this? -->
+  <AreYouSure>ﻞﻌﻓ ﻲﻓ ﻚﺘﺒﻏﺭ ﻦﻣ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ\n؟ﻚﻟﺫ</AreYouSure>
+  <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
+  <ChangingOwnerTypeBedWarning>ﻰﻠﻋ ﺮﺛﺆﻳ ﺮﻳﺮﺴﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﺮﻴﻴﻐﺗ\nﻦﻜﻤﻳ ﻻ ﺚﻴﺣ) ﺎﻬﻠﻤﻛﺄﺑ ﺔﻓﺮﻐﻟﺍ\nﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍﻭ ﺪﻴﺒﻌﻟﺍﻭ ﺀﺎﻨﺠﺴﻠﻟ\n.(ﺔﻓﺮﻐﻟﺍ ﺲﻔﻧ ﻲﻓ ﻡﻮﻨﻟﺍ\n\nﺔﻴﻜﻠﻣ ﻥﻭﺪﻘﻔﻴﺳ ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ\n:ﻢﻬﺗّﺮﺳﺃ</ChangingOwnerTypeBedWarning>
+  
+  <!-- EN: Detonate -->
+  <CommandDetonateLabel>ﺮﻴﺠﻔﺗ</CommandDetonateLabel>
+  <!-- EN: Start the countdown to detonation. -->
+  <CommandDetonateDesc>.ﺮﻴﺠﻔﺘﻠﻟ ﻲﻟﺯﺎﻨﺘﻟﺍ ﺪﻌﻟﺍ ﺀﺪﺑ</CommandDetonateDesc>
+  
+  <!-- EN: Hide -->
+  <CommandHideLabel>ﺀﺎﻔﺧﺇ</CommandHideLabel>
+  <!-- EN: Unhide -->
+  <CommandUnhideLabel>ﺭﺎﻬﻇﺇ</CommandUnhideLabel>
+  
+  <!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
+  <CommandHidePlanDesc>.ﺔﻄﺨﻟﺍ ﻩﺬﻫ ﺔﻳﺅﺭ ﻞﻳﺪﺒﺗ\n\nﻭﺃ ﺀﺎﻔﺧﻹ ﻦﻤﻳﻷﺍ ﺓﺭﺄﻔﻟﺍ ﺭﺰﺑ ﺮﻘﻧﺍ\n.ﻖﻃﺎﻨﻤﻟﺍ ﻞﻛ ﺭﺎﻬﻇﺇ</CommandHidePlanDesc>
+  <!-- EN: Hide/unhide this zone.\n\nRight-click to hide or unhide all zones. -->
+  <CommandHideZoneDesc>.ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﺭﺎﻬﻇﺇ/ﺀﺎﻔﺧﺇ\n\nﻭﺃ ﺀﺎﻔﺧﻹ ﻦﻤﻳﻷﺍ ﺓﺭﺄﻔﻟﺍ ﺭﺰﺑ ﺮﻘﻧﺍ\n.ﻖﻃﺎﻨﻤﻟﺍ ﻞﻛ ﺭﺎﻬﻇﺇ</CommandHideZoneDesc>
+  
+  <!-- EN: Show all zones -->
+  <ShowAllZones>ﻖﻃﺎﻨﻤﻟﺍ ﻞﻛ ﺭﺎﻬﻇﺇ</ShowAllZones>
+  <!-- EN: Hide all zones -->
+  <HideAllZones>ﻖﻃﺎﻨﻤﻟﺍ ﻞﻛ ﺀﺎﻔﺧﺇ</HideAllZones>
+  <!-- EN: Show all {0} zones -->
+  <ShowAllZoneTypes>{0} ﻖﻃﺎﻨﻣ ﻞﻛ ﺭﺎﻬﻇﺇ</ShowAllZoneTypes>
+  <!-- EN: Hide all {0} zones -->
+  <HideAllZoneTypes>{0} ﻖﻃﺎﻨﻣ ﻞﻛ ﺀﺎﻔﺧﺇ</HideAllZoneTypes>
+  <!-- EN: planning -->
+  <Planning>ﻂﻴﻄﺨﺗ</Planning>
+  
+  <!-- EN: Change color -->
+  <CommandChangeColorPlanLabel>ﻥﻮﻠﻟﺍ ﺮﻴﻴﻐﺗ</CommandChangeColorPlanLabel>
+  <!-- EN: Change the color of this plan. -->
+  <CommandChangeColorPlanDesc>.ﺔﻄﺨﻟﺍ ﻩﺬﻫ ﻥﻮﻟ ﺮﻴﻴﻐﺗ</CommandChangeColorPlanDesc>
+  
+  <!-- EN: Delete -->
+  <CommandDeletePlanLabel>ﻑﺬﺣ</CommandDeletePlanLabel>
+  <!-- EN: Delete this plan. -->
+  <CommandDeletePlanDesc>.ﺔﻄﺨﻟﺍ ﻩﺬﻫ ﻑﺬﺣ</CommandDeletePlanDesc>
+  
+  <!-- EN: Copy -->
+  <CommandCopyPlanLabel>ﺦﺴﻧ</CommandCopyPlanLabel>
+  <!-- EN: Copy this plan. -->
+  <CommandCopyPlanDesc>.ﺔﻄﺨﻟﺍ ﻩﺬﻫ ﺦﺴﻧ</CommandCopyPlanDesc>
+  
+  <!-- EN: Copy selection... -->
+  <CommandCopyPlanSelectionLabel>...ﺪﻳﺪﺤﺘﻟﺍ ﺦﺴﻧ</CommandCopyPlanSelectionLabel>
+  <!-- EN: Copy all plans within a selected area. -->
+  <CommandCopyPlanSelectionDesc>.ﺓﺩﺪﺤﻣ ﺔﻘﻄﻨﻣ ﻞﺧﺍﺩ ﻂﻄﺨﻟﺍ ﻞﻛ ﺦﺴﻧ</CommandCopyPlanSelectionDesc>
+  <!-- EN: Select area to copy -->
+  <CommandCopyPlanSelectionMouse>ﺦﺴﻨﻠﻟ ﺔﻘﻄﻨﻤﻟﺍ ﺩﺪﺣ</CommandCopyPlanSelectionMouse>
+  <!-- EN: Paste selected area -->
+  <CommandCopyPlanSelectionPasteMouse>ﺓﺩﺪﺤﻤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻖﺼﻟ</CommandCopyPlanSelectionPasteMouse>
+
+  <!-- EN: Delete -->
+  <CommandDeleteZoneLabel>ﻑﺬﺣ</CommandDeleteZoneLabel>
+  <!-- EN: Delete this zone. -->
+  <CommandDeleteZoneDesc>.ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻑﺬﺣ</CommandDeleteZoneDesc>
+
+  <!-- EN: Copy settings -->
+  <CommandCopyZoneSettingsLabel>ﺕﺍﺩﺍﺪﻋﻹﺍ ﺦﺴﻧ</CommandCopyZoneSettingsLabel>
+  <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
+  <CommandCopyZoneSettingsDesc>ﻩﺬﻫ ﻦﻳﺰﺨﺘﻟﺍ ﺓﺪﺣﻭ ﺕﺍﺩﺍﺪﻋﺇ ﺦﺴﻧ\nﻲﻓ ﺎﻬﻘﺼﻟ ﻦﻣ ﻦﻜﻤﺘﺘﻟ ﺔﻈﻓﺎﺤﻟﺍ ﻰﻟﺇ\n.ﻯﺮﺧﺃ ﺔﻘﻄﻨﻣ</CommandCopyZoneSettingsDesc>
+
+  <!-- EN: Paste settings -->
+  <CommandPasteZoneSettingsLabel>ﺕﺍﺩﺍﺪﻋﻹﺍ ﻖﺼﻟ</CommandPasteZoneSettingsLabel>
+  <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
+  <CommandPasteZoneSettingsDesc>ﺓﺪﺣﻭ ﺕﺍﺩﺍﺪﻋﺇ ﻕﻮﻓ ﺔﺑﺎﺘﻜﻟﺍ\nﻢﺗ ﻲﺘﻟﺍ ﺕﺍﺩﺍﺪﻋﻹﺎﺑ ﻩﺬﻫ ﻦﻳﺰﺨﺘﻟﺍ\n.ﺔﻈﻓﺎﺤﻟﺍ ﻰﻟﺇ ﺎًﻘﺒﺴﻣ ﺎﻬﺨﺴﻧ</CommandPasteZoneSettingsDesc>
+
+  <!-- EN: Allow sowing -->
+  <CommandAllowSow>ﺭﺬﺒﻟﺎﺑ ﺡﺎﻤﺴﻟﺍ</CommandAllowSow>
+  <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
+  <CommandAllowSowDesc>ﻡﻮﻘﻳ ﻦﻟ ،ﻞﻴﻄﻌﺘﻟﺍ ﺪﻨﻋ\nﺓﺪﻳﺪﺟ ﺕﺎﺗﺎﺒﻧ ﺭﺬﺒﺑ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ\nﻲﻓ ﻥﻭﺮﻤﺘﺴﻴﺳ .ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ\n.ﺩﺎﺼﺤﻟﺍ</CommandAllowSowDesc>
+
+  <!-- EN: Allow cutting -->
+  <CommandAllowCut>ﻊﻄﻘﻟﺎﺑ ﺡﺎﻤﺴﻟﺍ</CommandAllowCut>
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
+  <CommandAllowCutDesc>ﻡﻮﻘﻳ ﻦﻟ ،ﻞﻴﻄﻌﺘﻟﺍ ﺪﻨﻋ\nﺕﺎﺗﺎﺒﻨﻟﺍ ﻊﻄﻘﺑ ﺍًﺪﺑﺃ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ\nﻥﻮﻋﺭﺰﻳ ﻥﻮﻠﻈﻴﺳ .ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ\nﺕﺎﺣﺎﺴﻤﻟﺍ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﺗﺎﺒﻧ\nﻥﻭﺪﺼﺤﻳﻭ ،ﻞﻌﻔﻟﺎﺑ ﺔﻏﺭﺎﻔﻟﺍ\nﺕﺎﺒﻧ ﻉﻮﻧ ﻖﺑﺎﻄﺗ ﻲﺘﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ\n.ﺔﻋﺍﺭﺰﻟﺍ ﺔﻘﻄﻨﻣ</CommandAllowCutDesc>
+  
+  <!-- EN: Select {0_label} -->
+  <CommandSelectStoredThing>{0_label} ﺩﺪﺣ</CommandSelectStoredThing>
+  <!-- EN: Select the item stored in here. -->
+  <CommandSelectStoredThingDesc>.ﺎﻨﻫ ﻥﺰﺨﻤﻟﺍ ﺮﺼﻨﻌﻟﺍ ﺩﺪﺣ</CommandSelectStoredThingDesc>
+
+  <!-- Artillery -->
+  <!-- EN: Set forced target -->
+  <CommandSetForceAttackTarget>ﻱﺭﺎﺒﺟﺇ ﻑﺪﻫ ﺪﻳﺪﺤﺗ</CommandSetForceAttackTarget>
+  <!-- EN: Sets a target that this turret must attack continuously as long as it can. -->
+  <CommandSetForceAttackTargetDesc>ﻩﺬﻫ ﻪﻤﺟﺎﻬﺗ ﻥﺃ ﺐﺠﻳ ﻑﺪﻫ ﺪﻳﺪﺤﺗ\nﻚﻟﺫ ﻥﺎﻛ ﺎﻤﻟﺎﻃ ﺮﻤﺘﺴﻣ ﻞﻜﺸﺑ ﺝﺮﺒﻟﺍ\n.ﺎًﻨﻜﻤﻣ</CommandSetForceAttackTargetDesc>
+  <!-- EN: Stop forced attack -->
+  <CommandStopForceAttack>ﻱﺭﺎﺒﺟﻹﺍ ﻡﻮﺠﻬﻟﺍ ﻑﺎﻘﻳﺇ</CommandStopForceAttack>
+  <!-- EN: Stops force-attacking and allows the turret to fire as it wishes. -->
+  <CommandStopForceAttackDesc>ﺡﺎﻤﺴﻟﺍﻭ ﻱﺭﺎﺒﺟﻹﺍ ﻡﻮﺠﻬﻟﺍ ﻑﺎﻘﻳﺇ\n.ﺀﺎﺸﺗ ﺎﻤﻛ ﺭﺎﻨﻟﺍ ﻕﻼﻃﺈﺑ ﺝﺮﺒﻠﻟ</CommandStopForceAttackDesc>
+  <!-- EN: Not currently force-attacking. -->
+  <CommandStopAttackFailNotForceAttacking>.ﺎًﻴﻟﺎﺣ ﻱﺭﺎﺒﺟﺇ ﻡﻮﺠﻫ ﺪﺟﻮﻳ ﻻ</CommandStopAttackFailNotForceAttacking>
+  <!-- EN: Extract shell -->
+  <CommandExtractShell>ﺔﻔﻳﺬﻘﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ</CommandExtractShell>
+  <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
+  <CommandExtractShellDesc>ﻦﻜﻤﻳ ﻰﺘﺣ ﺔﻴﻟﺎﺤﻟﺍ ﺔﻔﻳﺬﻘﻟﺍ ﻎﻳﺮﻔﺗ\n.ﺔﻔﻠﺘﺨﻣ ﺓﺮﻴﺧﺬﺑ ﺎﻬﻟﺍﺪﺒﺘﺳﺍ</CommandExtractShellDesc>
+  <!-- EN: Target beyond maximum range. -->
+  <MessageTargetBeyondMaximumRange>.ﻰﺼﻗﻷﺍ ﻕﺎﻄﻨﻟﺍ ﺝﺭﺎﺧ ﻑﺪﻬﻟﺍ</MessageTargetBeyondMaximumRange>
+  <!-- EN: Target below minimum range. -->
+  <MessageTargetBelowMinimumRange>.ﻰﻧﺩﻷﺍ ﻕﺎﻄﻨﻟﺍ ﺖﺤﺗ ﻑﺪﻬﻟﺍ</MessageTargetBelowMinimumRange>
+  <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
+  <MessageTurretWontFireBecauseHoldFire>ﺭﺎﻨﻟﺍ ﻥﻭﺎﻬﻟﺍ ﻖﻠﻄﺗ ﻦﻟ :ﺮﻳﺬﺤﺗ\nﻕﻼﻃﺇ ﻦﻋ ﻒﻗﻮﺗ" ﻰﻠﻋ ﺔﻃﻮﺒﻀﻣ ﺎﻬﻧﻷ\n."ﺭﺎﻨﻟﺍ</MessageTurretWontFireBecauseHoldFire>
+  
+  <!-- Ship computer core -->
+  <!-- EN: Launch ship -->
+  <CommandShipLaunch>ﺔﻨﻴﻔﺴﻟﺍ ﻕﻼﻃﺇ</CommandShipLaunch>
+  <!-- EN: Start the ship launch sequence with the current configuration. -->
+  <CommandShipLaunchDesc>ﺔﻨﻴﻔﺴﻟﺍ ﻕﻼﻃﺇ ﻞﺴﻠﺴﺗ ﺀﺪﺑ\n.ﻲﻟﺎﺤﻟﺍ ﻦﻳﻮﻜﺘﻟﺎﺑ</CommandShipLaunchDesc>
+  <!-- EN: Show launch report -->
+  <CommandShipLaunchReport>ﻕﻼﻃﻹﺍ ﺮﻳﺮﻘﺗ ﺭﺎﻬﻇﺇ</CommandShipLaunchReport>
+  <!-- EN: Show a readiness report about the ship's launch capability. -->
+  <CommandShipLaunchReportDesc>ﺓﺭﺪﻗ ﻝﻮﺣ ﺔﻳﺰﻫﺎﺟ ﺮﻳﺮﻘﺗ ﺭﺎﻬﻇﺇ\n.ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﺔﻨﻴﻔﺴﻟﺍ</CommandShipLaunchReportDesc>
+  <!-- EN: Start ship -->
+  <CommandShipStartup>ﺔﻨﻴﻔﺴﻟﺍ ﻞﻴﻐﺸﺗ</CommandShipStartup>
+  <!-- EN: Wake up hibernating ship components. -->
+  <CommandShipStartupDesc>.ﺔﻠﻣﺎﺨﻟﺍ ﺔﻨﻴﻔﺴﻟﺍ ﺕﺎﻧﻮﻜﻣ ﻅﺎﻘﻳﺇ</CommandShipStartupDesc>
+
+  <!-- Pod -->
+  <!-- EN: Eject sleeper -->
+  <CommandPodEject>ﻢﺋﺎﻨﻟﺍ ﺝﺍﺮﺧﺇ</CommandPodEject>
+  <!-- EN: Wake up the cryptosleeper and eject them. -->
+  <CommandPodEjectDesc>ﻮﺘﺒﻳﺮﻜﻟﺍ ﻲﻓ ﻢﺋﺎﻨﻟﺍ ﻅﺎﻘﻳﺇ\n.ﻪﺟﺍﺮﺧﺇﻭ</CommandPodEjectDesc>
+  <!-- EN: Contains nobody. -->
+  <CommandPodEjectFailEmpty>.ﺪﺣﺃ ﻰﻠﻋ ﻱﻮﺘﺤﻳ ﻻ</CommandPodEjectFailEmpty>
+
+  <!-- Door -->
+  <!-- EN: Passage forbidden -->
+  <CommandToggleDoorForbid>ﻉﻮﻨﻤﻣ ﺭﻭﺮﻤﻟﺍ</CommandToggleDoorForbid>
+  <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
+  <CommandToggleDoorForbidDesc>ﻦﻟ ،ﺎًﻋﻮﻨﻤﻣ ﺏﺎﺒﻟﺍ ﻥﻮﻜﻳ ﺎﻣﺪﻨﻋ\nﻦﻣ ﺀﺎﻔﻠﺤﻟﺍﻭ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﺮﻤﻳ\nﺔﻴﻔﻴﻛ ﻰﻠﻋ ﺍﺬﻫ ﺮﺛﺆﻳ ﻻ .ﻪﻟﻼﺧ\nﻊﻣ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻭﺃ ﺀﺍﺪﻋﻷﺍ ﻞﻋﺎﻔﺗ\n.ﺏﺎﺒﻟﺍ</CommandToggleDoorForbidDesc>
+  <!-- EN: Hold open -->
+  <CommandToggleDoorHoldOpen>ﺎًﺣﻮﺘﻔﻣ ﺏﺎﺒﻟﺍ ﺀﺎﻘﺑﺇ</CommandToggleDoorHoldOpen>
+  <!-- EN: When active, your colonists will not close the door after passing through. -->
+  <CommandToggleDoorHoldOpenDesc>ﻙﻭﺮﻤﻌﺘﺴﻣ ﻖﻠﻐﻳ ﻦﻟ ،ﻞﻴﻌﻔﺘﻟﺍ ﺪﻨﻋ\n.ﻪﻨﻣ ﺭﻭﺮﻤﻟﺍ ﺪﻌﺑ ﺏﺎﺒﻟﺍ</CommandToggleDoorHoldOpenDesc>
+
+  <!-- Temperature control -->
+  <!-- EN: Reset -->
+  <CommandResetTemp>ﻦﻴﻴﻌﺗ ﺓﺩﺎﻋﺇ</CommandResetTemp>
+  <!-- EN: Reset the target temperature to room temperature. -->
+  <CommandResetTempDesc>ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ ﻦﻴﻴﻌﺗ ﺓﺩﺎﻋﺇ\nﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ ﻰﻟﺇ ﺔﻓﺪﻬﺘﺴﻤﻟﺍ\n.ﺔﻓﺮﻐﻟﺍ</CommandResetTempDesc>
+  <!-- EN: Raise the target temperature. -->
+  <CommandRaiseTempDesc>.ﺔﻓﺪﻬﺘﺴﻤﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ ﻊﻓﺭ</CommandRaiseTempDesc>
+  <!-- EN: Lower the target temperature. -->
+  <CommandLowerTempDesc>.ﺔﻓﺪﻬﺘﺴﻤﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ ﺾﻔﺧ</CommandLowerTempDesc>
+
+  <!-- Install/reinstall -->
+  <!-- EN: Install -->
+  <CommandInstall>ﺖﻴﺒﺜﺗ</CommandInstall>
+  <!-- EN: This item is currently packaged up for storage and transport. Use this command to install this item in a final location. -->
+  <CommandInstallDesc>ﻦﻳﺰﺨﺘﻠﻟ ﺎًﻴﻟﺎﺣ ﺄﺒﻌﻣ ﺮﺼﻨﻌﻟﺍ ﺍﺬﻫ\nﺖﻴﺒﺜﺘﻟ ﺮﻣﻷﺍ ﺍﺬﻫ ﻡﺪﺨﺘﺳﺍ .ﻞﻘﻨﻟﺍﻭ\n.ﻲﺋﺎﻬﻨﻟﺍ ﻊﻗﻮﻤﻟﺍ ﻲﻓ ﺮﺼﻨﻌﻟﺍ ﺍﺬﻫ</CommandInstallDesc>
+  <!-- EN: Reinstall at... -->
+  <CommandReinstall>...ﻲﻓ ﺖﻴﺒﺜﺗ ﺓﺩﺎﻋﺇ</CommandReinstall>
+  <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
+  <CommandReinstallDesc>ﺀﺎﻐﻟﺇ ﻢﺘﻴﻟ ﺮﺼﻨﻌﻟﺍ ﺍﺬﻫ ﻦﻴﻴﻌﺗ\nﻥﺎﻜﻣ ﻲﻓ ﻪﺘﻴﺒﺜﺗ ﺓﺩﺎﻋﺇﻭ ﻪﺘﻴﺒﺜﺗ\n.ﺮﺧﺁ</CommandReinstallDesc>
+  <!-- EN: Replant -->
+  <CommandReplant>ﺔﻋﺍﺭﺯ ﺓﺩﺎﻋﺇ</CommandReplant>
+  <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
+  <CommandReplantDesc>ﺎًﻴﻟﺎﺣ ﺓﺄﺒﻌﻣ ﺓﺮﺠﺸﻟﺍ ﻩﺬﻫ\nﺍﺬﻫ ﻡﺪﺨﺘﺳﺍ .ﻞﻘﻨﻟﺍﻭ ﻦﻳﺰﺨﺘﻠﻟ\nﻊﻗﻮﻣ ﻲﻓ ﺎﻬﺘﻋﺍﺭﺯ ﺓﺩﺎﻋﻹ ﺮﻣﻷﺍ\n.ﺪﻳﺪﺟ</CommandReplantDesc>
+  
+  <!-- Trade beacon -->
+  <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
+  <CommandMakeBeaconStockpileDesc>ﺍﺬﻫ ﻝﻮﺣ ﻦﻳﺰﺨﺗ ﺔﻘﻄﻨﻣ ﺀﺎﺸﻧﺇ\nﻒﺼﻧ ﻞﻜﺷ ﺎًﻣﺎﻤﺗ ﻖﺑﺎﻄﺗ ﻰﻨﺒﻤﻟﺍ\n.ﺓﺭﺎﻨﻤﻟﺍ ﻕﻼﻃﺇ ﺮﻄﻗ</CommandMakeBeaconStockpileDesc>
+  <!-- EN: Create stockpile -->
+  <CommandMakeBeaconStockpileLabel>ﻦﻳﺰﺨﺗ ﺔﻘﻄﻨﻣ ﺀﺎﺸﻧﺇ</CommandMakeBeaconStockpileLabel>
+
+  <!-- Sun lamp -->
+  <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
+  <CommandSunLampMakeGrowingZoneDesc>ﺍﺬﻫ ﻝﻮﺣ ﺔﻋﺍﺭﺯ ﺔﻘﻄﻨﻣ ﺀﺎﺸﻧﺇ\nﻒﺼﻧ ﻞﻜﺷ ﺎًﻣﺎﻤﺗ ﻖﺑﺎﻄﺗ ﻰﻨﺒﻤﻟﺍ\n.ﺡﺎﺒﺼﻤﻟﺍ ﺀﻮﺿ ﺮﻄﻗ</CommandSunLampMakeGrowingZoneDesc>
+  <!-- EN: Create growing zone -->
+  <CommandSunLampMakeGrowingZoneLabel>ﺔﻋﺍﺭﺯ ﺔﻘﻄﻨﻣ ﺀﺎﺸﻧﺇ</CommandSunLampMakeGrowingZoneLabel>
+
+  <!-- Trap -->
+  <!-- EN: Auto rearm -->
+  <CommandAutoRearm>ﺔﻴﺋﺎﻘﻠﺗ ﺢﻴﻠﺴﺗ ﺓﺩﺎﻋﺇ</CommandAutoRearm>
+  <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
+  <CommandAutoRearmDesc>ﻢﺘﻴﺴﻓ ،ﺎﻼﻌﻔﻣ ﺍﺬﻫ ﻥﺎﻛ ﺍﺫﺇ\nﺪﻌﺑ ﺎًﻴﺋﺎﻘﻠﺗ ﺦﻔﻟﺍ ﺍﺬﻫ ﻝﺍﺪﺒﺘﺳﺍ\n.ﻪﻗﻼﻄﻧﺍ</CommandAutoRearmDesc>
+  
+  <!-- Firefoam popper -->
+  <!-- EN: Auto rebuild -->
+  <CommandAutoRebuild_Building>ﺔﻴﺋﺎﻘﻠﺗ ﺀﺎﻨﺑ ﺓﺩﺎﻋﺇ</CommandAutoRebuild_Building>
+  <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
+  <CommandAutoRebuild_BuildingDesc>ﻢﺘﻴﺴﻓ ،ﺎﻼﻌﻔﻣ ﺍﺬﻫ ﻥﺎﻛ ﺍﺫﺇ\nﺪﻌﺑ ﺎًﻴﺋﺎﻘﻠﺗ {BUILDING_definite} ﻝﺍﺪﺒﺘﺳﺍ\n.ﻩﺭﺎﺠﻔﻧﺍ</CommandAutoRebuild_BuildingDesc>
+  
+  <!-- Animal control -->
+  <!-- EN: Animals attack -->
+  <CommandReleaseAnimalsLabel>ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻡﻮﺠﻫ</CommandReleaseAnimalsLabel>
+  <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
+  <CommandReleaseAnimalsDesc>ﻢﺘﻳ ،ﺎﻼﻌﻔﻣ ﺍﺬﻫ ﻥﻮﻜﻳ ﺎﻤﻨﻴﺑ\nﺔﺑﺭﺪﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻝﺎﺳﺭﺇ\nﺎﻤﻨﻴﺑ .ﺓﺪﻴﻌﺑ ﻑﺍﺪﻫﺃ ﺔﻤﺟﺎﻬﻤﻟ\nﻲﻤﺤﺗﻭ ﺔﺒﻳﺮﻗ ﻰﻘﺒﺗ ،ﺎًﻔﻗﻮﺘﻣ ﻥﻮﻜﻳ\n.ﺏﺭﺪﻤﻟﺍ</CommandReleaseAnimalsDesc>
+  <!-- EN: No animals available. -->
+  <CommandReleaseAnimalsFail_NoAnimals>.ﺔﺣﺎﺘﻣ ﺕﺎﻧﺍﻮﻴﺣ ﺪﺟﻮﺗ ﻻ</CommandReleaseAnimalsFail_NoAnimals>
+  
+  <!-- Squad attack -->
+  <!-- EN: Attack -->
+  <CommandSquadAttack>ﻡﻮﺠﻫ</CommandSquadAttack>
+  <!-- EN: Order selected colonists to attack designated target. -->
+  <CommandSquadAttackDesc>ﻦﻳﺩﺪﺤﻤﻟﺍ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﺮﻣﺃ\n.ﻦﻴﻌﻤﻟﺍ ﻑﺪﻬﻟﺍ ﺔﻤﺟﺎﻬﻤﺑ</CommandSquadAttackDesc>
+  
+  <!-- Melee attack -->
+  <!-- EN: Melee attack -->
+  <CommandMeleeAttack>ﺮﺷﺎﺒﻣ ﻡﻮﺠﻫ</CommandMeleeAttack>
+  <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
+  <CommandMeleeAttackDesc>ﻦﻳﺩﺪﺤﻤﻟﺍ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﺮﻣﺃ\nﻡﺍﺪﺨﺘﺳﺎﺑ ﻦﻴﻌﻤﻟﺍ ﻑﺪﻬﻟﺍ ﺔﻤﺟﺎﻬﻤﺑ\nﺔﻴﻟﺎﺘﻘﻟﺍ ﺔﺤﻠﺳﻷﺍﻭ ﻱﺪﻳﻷﺍ\n.ﻂﻘﻓ ﺓﺮﺷﺎﺒﻤﻟﺍ</CommandMeleeAttackDesc>
+
+  <!-- Hold fire -->
+  <!-- EN: Hold fire -->
+  <CommandHoldFire>ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﻦﻋ ﻒﻗﻮﺗ</CommandHoldFire>
+  <!-- EN: End any ongoing attacks. -->
+  <CommandHoldFireDesc>.ﺓﺮﻤﺘﺴﻣ ﺕﺎﻤﺠﻫ ﻱﺃ ﺀﺎﻬﻧﺇ</CommandHoldFireDesc>
+  
+  <!-- reload -->
+  <!-- EN: No {CHARGENOUN_plural} left. -->
+  <CommandReload_NoCharges>.ﻲﻘﺒﺘﻣ {CHARGENOUN_plural} ﺪﺟﻮﻳ ﻻ</CommandReload_NoCharges>
+  <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
+  <CommandReload_Cooldown>.{TIME} ﺓﺪﻤﻟ {COOLDOWNGERUND}</CommandReload_Cooldown>
+  <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
+  <CommandReload_NoAmmo>.{COUNT} {AMMO_label} ـﺑ ﺔﺌﺒﻌﺗ ﺓﺩﺎﻋﺇ ﻰﻟﺇ ﺝﺎﺘﺤﻳ</CommandReload_NoAmmo>
+  
+  <!-- Select plant to grow -->
+  <!-- EN: Select plant to grow -->
+  <CommandSelectPlantToGrowMulti>ﺔﻋﺍﺭﺰﻠﻟ ﺕﺎﺒﻨﻟﺍ ﺪﻳﺪﺤﺗ</CommandSelectPlantToGrowMulti>
+  <!-- EN: Plant: {0} -->
+  <CommandSelectPlantToGrow>{0} :ﺕﺎﺒﻨﻟﺍ</CommandSelectPlantToGrow>
+  <!-- EN: Determine which plant should be sown here. -->
+  <CommandSelectPlantToGrowDesc>ﻪﺘﻋﺍﺭﺯ ﺐﺠﻳ ﻱﺬﻟﺍ ﺕﺎﺒﻨﻟﺍ ﺩﺪﺣ\n.ﺎﻨﻫ</CommandSelectPlantToGrowDesc>
+  
+  <!-- Select mineral to scan for (long-range mineral scanner) -->
+  <!-- EN: Tuned to -->
+  <CommandSelectMineralToScanFor>ﻰﻠﻋ ﻁﻮﺒﻀﻣ</CommandSelectMineralToScanFor>
+  <!-- EN: Select the mineral type to scan for. -->
+  <CommandSelectMineralToScanForDesc>ﺚﺤﺒﻟﺍ ﺩﺍﺮﻤﻟﺍ ﻥﺪﻌﻤﻟﺍ ﻉﻮﻧ ﺩﺪﺣ\n.ﻪﻨﻋ</CommandSelectMineralToScanForDesc>
+
+  <!-- Build copy -->
+  <!-- EN: Build copy -->
+  <CommandBuildCopy>ﺔﺨﺴﻧ ﺀﺎﻨﺑ</CommandBuildCopy>
+  <!-- EN: Build a copy of this building. -->
+  <CommandBuildCopyDesc>.ﻰﻨﺒﻤﻟﺍ ﺍﺬﻫ ﻦﻣ ﺔﺨﺴﻧ ﺀﺎﻨﺑ</CommandBuildCopyDesc>
+
+  <!-- Form caravan -->
+  <!-- EN: Form caravan -->
+  <CommandFormCaravan>ﺔﻠﻓﺎﻗ ﻞﻴﻜﺸﺗ</CommandFormCaravan>
+  <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
+  <CommandFormCaravanDesc>ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻞﻴﻜﺸﺗ\nﻖﻃﺎﻨﻣ ﻰﻟﺇ ﺮﻔﺴﻟﺍ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻘﻟﺍ\nﻞﻛ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻊﻤﺠﻴﺳ .ﺓﺪﻳﺪﺟ\nﺕﺎﻧﺍﻮﻴﺤﻟﺍﻭ ﺔﻨﻴﻌﻤﻟﺍ ﺕﺍﺩﺍﺪﻣﻹﺍ\nﻢﻬﺘﻘﻄﻨﻣ ﻥﻭﺭﺩﺎﻐﻳﻭ ،ﺔﻘﻓﺍﺮﻤﻟﺍ\nﺮﻣﺍﻭﺃ ﻥﻭﺮﻈﺘﻨﻳﻭ ،ﺔﻴﻟﺎﺤﻟﺍ\n.ﺔﻴﻓﺎﺿﺇ</CommandFormCaravanDesc>
+  <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
+  <CommandFormCaravanDescAtSpot>ﺔﻄﻘﻨﻛ ﺔﻌﻘﺒﻟﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴُﺘﺳ\nﻞﻛ ﺭﺎﻀﺣﺇ ﻢﺘﻴﺳ .ﺔﻠﻓﺎﻘﻠﻟ ﺀﺎﻘﺘﻟﺍ\nﻞﺒﻗ ﺎﻨﻫ ﻰﻟﺇ ﺕﺎﻧﺍﻮﻴﺤﻟﺍﻭ ﻊﺋﺎﻀﺒﻟﺍ\n.ﺓﺭﺩﺎﻐﻤﻟﺍ</CommandFormCaravanDescAtSpot>
+  
+  <!-- Reform caravan -->
+  <!-- EN: Reform caravan -->
+  <CommandReformCaravan>ﺔﻠﻓﺎﻘﻟﺍ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ</CommandReformCaravan>
+  <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
+  <CommandReformCaravanDesc>ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ\nﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﺭﺩﺎﻐﻴﺳ .ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ\nﺮﻣﺍﻭﺃ ﻥﻭﺮﻈﺘﻨﻳﻭ ﺔﻴﻟﺎﺤﻟﺍ ﻢﻬﺘﻘﻄﻨﻣ\n.ﺔﻴﻓﺎﺿﺇ</CommandReformCaravanDesc>
+  <!-- EN: There are still some enemies in this area. -->
+  <CommandReformCaravanFailHostilePawns>ﻩﺬﻫ ﻲﻓ ﺀﺍﺪﻋﻷﺍ ﺾﻌﺑ ﻙﺎﻨﻫ ﻝﺍﺰﻳ ﻻ\n.ﺔﻘﻄﻨﻤﻟﺍ</CommandReformCaravanFailHostilePawns>
+
+  <!-- Send caravan -->
+  <!-- EN: Send caravan -->
+  <CommandSendCaravan>ﺔﻠﻓﺎﻗ ﻝﺎﺳﺭﺇ</CommandSendCaravan>
+  <!-- EN: Send caravan... -->
+  <CommandSendCaravanMultiple>...ﺔﻠﻓﺎﻗ ﻝﺎﺳﺭﺇ</CommandSendCaravanMultiple>
+  <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
+  <CommandSendCaravanDesc>ﻦﻣ ﺔﻬﺟﻮﻟﺍ ﻩﺬﻫ ﻰﻟﺇ ﺔﻠﻓﺎﻗ ﻝﺎﺳﺭﺇ\nﻝﻮﺻﻮﻟﺍ ﺎﻬﻨﻜﻤﻳ ﺓﺭﺎﺘﺨﻣ ﺓﺮﻤﻌﺘﺴﻣ\n.ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻰﻟﺇ</CommandSendCaravanDesc>
+  <!-- EN: Your settlements have no path to this location. -->
+  <CommandSendCaravanCantReach>ﻰﻟﺇ ﺭﺎﺴﻣ ﺎﻬﻳﺪﻟ ﺲﻴﻟ ﻚﺗﺎﻨﻃﻮﺘﺴﻣ\n.ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ</CommandSendCaravanCantReach>
+
+  <!-- Split caravan -->
+  <!-- EN: Split -->
+  <CommandSplitCaravan>ﻢﻴﺴﻘﺗ</CommandSplitCaravan>
+  <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
+  <CommandSplitCaravanDesc>.ﻦﻴﺘﻨﺛﺍ ﻰﻟﺇ ﺔﻠﻓﺎﻘﻟﺍ ﻩﺬﻫ ﻢﻴﺴﻘﺗ\nﺓﺮﻣ ﻞﻓﺍﻮﻘﻟﺍ ﺞﻣﺩ ﺎًﻘﺣﻻ ﻦﻜﻤﻳ\nﺎﻬﻧﺃ ﺎﻤﻟﺎﻃ ﺓﺪﺣﺍﻭ ﺔﻠﻓﺎﻗ ﻲﻓ ﻯﺮﺧﺃ\n.ﺾﻌﺒﻟﺍ ﺎﻬﻀﻌﺑ ﻦﻣ ﺔﺒﻳﺮﻗ</CommandSplitCaravanDesc>
+  
+  <!-- Merge caravan -->
+  <!-- EN: Merge -->
+  <CommandMergeCaravans>ﺞﻣﺩ</CommandMergeCaravans>
+  <!-- EN: Merge selected caravans. -->
+  <CommandMergeCaravansDesc>.ﺓﺩﺪﺤﻤﻟﺍ ﻞﻓﺍﻮﻘﻟﺍ ﺞﻣﺩ</CommandMergeCaravansDesc>
+  <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
+  <CommandMergeCaravansFailCaravansNotSelected>.ﺎﻬﺠﻣﺩ ﺐﺠﻳ ﻲﺘﻟﺍ ﻞﻓﺍﻮﻘﻟﺍ ﻞﻛ ﺩﺪﺣ\nﻦﻣ ﺔﺒﻳﺮﻗ ﻞﻓﺍﻮﻘﻟﺍ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ\n.ﺾﻌﺒﻟﺍ ﺎﻬﻀﻌﺑ</CommandMergeCaravansFailCaravansNotSelected>
+  <!-- EN: Join -->
+  <CommandJoinCaravan>ﻡﺎﻤﻀﻧﺍ</CommandJoinCaravan>
+  
+  <!-- Settle -->
+  <!-- EN: Settle -->
+  <CommandSettle>ﻥﺎﻄﻴﺘﺳﺍ</CommandSettle>
+  <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
+  <CommandSettleDesc>ﻞﺧﺪﻴﺳ .ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﻥﺎﻄﻴﺘﺳﻻﺍ\nﻦﻜﻤﺘﺘﺳﻭ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻙﻭﺮﻤﻌﺘﺴﻣ\n.ﺪﻳﺪﺟ ﻝﺰﻨﻣ ﺀﺎﻨﺑ ﻲﻓ ﺀﺪﺒﻟﺍ ﻦﻣ</CommandSettleDesc>
+  <!-- EN: Your faction can only have one base. -->
+  <CommandSettleFailAlreadyHaveBase>ﺓﺪﻋﺎﻗ ﻯﻮﺳ ﻙﻼﺘﻣﺍ ﻚﺘﻠﻴﺼﻔﻟ ﻦﻜﻤﻳ ﻻ\n.ﺓﺪﺣﺍﻭ</CommandSettleFailAlreadyHaveBase>
+  <!-- EN: Reached maximum number of colonies. -->
+  <CommandSettleFailReachedMaximumNumberOfBases>ﺩﺪﻌﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻢﺗ\n.ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ</CommandSettleFailReachedMaximumNumberOfBases>
+  <!-- EN: There isn't anybody there to claim the area. -->
+  <CommandSettleFailNoColonists>ﺔﺒﻟﺎﻄﻤﻠﻟ ﻙﺎﻨﻫ ﺪﺣﺃ ﺪﺟﻮﻳ ﻻ\n.ﺔﻘﻄﻨﻤﻟﺎﺑ</CommandSettleFailNoColonists>
+  <!-- EN: There are enemies in this area. -->
+  <CommandSettleFailEnemies>.ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺀﺍﺪﻋﺃ ﻙﺎﻨﻫ</CommandSettleFailEnemies>
+  <!-- EN: Cannot settle here. -->
+  <CommandSettleFailGeneric>.ﺎﻨﻫ ﻥﺎﻄﻴﺘﺳﻻﺍ ﻦﻜﻤﻳ ﻻ</CommandSettleFailGeneric>
+
+  <!-- Camp -->
+  <!-- EN: Camp -->
+  <CommandCamp>ﻢﻴﻴﺨﺗ</CommandCamp>
+  <!-- EN: Set up a temporary camp that can quickly be abandoned. -->
+  <CommandCampDesc>ﻲﻠﺨﺘﻟﺍ ﻦﻜﻤﻳ ﺖﻗﺆﻣ ﻢﻴﺨﻣ ﺀﺎﺸﻧﺇ\n.ﺔﻋﺮﺴﺑ ﻪﻨﻋ</CommandCampDesc>
+  <!-- EN: Cannot camp here. -->
+  <CommandCampFailExistingWorldObject>.ﺎﻨﻫ ﻢﻴﻴﺨﺘﻟﺍ ﻦﻜﻤﻳ ﻻ</CommandCampFailExistingWorldObject>
+  
+  <!-- Abandon home -->
+  <!-- EN: Abandon -->
+  <CommandAbandonHome>ﻲﻠﺨﺗ</CommandAbandonHome>
+  <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
+  <CommandAbandonHomeDesc>ﺢﺒﺼﺘﺳ .ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻦﻋ ﻲﻠﺨﺘﻟﺍ\nﻦﻟﻭ ﻝﻮﺻﻮﻠﻟ ﺔﻠﺑﺎﻗ ﺮﻴﻏ ﺔﻘﻄﻨﻤﻟﺍ\nﺓﺮﻣ ﺎﻨﻫ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ ﻦﻣ ﻦﻜﻤﺘﺗ\n،ﻚﻟﺰﻨﻣ ﻦﻋ ﻲﻠﺨﺘﻟﺍ ﺪﻌﺑ .ﻯﺮﺧﺃ\nﻢﻜﻠﻓﺍﻮﻗ ﻯﺪﺣﺇ ﺮﻣﺃ ﻦﻣ ﻦﻜﻤﺘﺘﺳ\n.ﺓﺪﻳﺪﺟ ﺔﻘﻄﻨﻣ ﻲﻓ ﻥﺎﻄﻴﺘﺳﻻﺎﺑ</CommandAbandonHomeDesc>
+  <!-- EN: All of your colonists are there. -->
+  <CommandAbandonHomeFailAllColonistsThere>.ﻙﺎﻨﻫ ﻚﻳﺮﻤﻌﺘﺴﻣ ﻞﻛ</CommandAbandonHomeFailAllColonistsThere>
+  
+  <!-- Cancel forming caravan -->
+  <!-- EN: Cancel forming caravan -->
+  <CommandCancelFormingCaravan>ﺔﻠﻓﺎﻘﻟﺍ ﻞﻴﻜﺸﺗ ﺀﺎﻐﻟﺇ</CommandCancelFormingCaravan>
+  <!-- EN: Terminate the caravan formation process. -->
+  <CommandCancelFormingCaravanDesc>.ﺔﻠﻓﺎﻘﻟﺍ ﻞﻴﻜﺸﺗ ﺔﻴﻠﻤﻋ ﺀﺎﻬﻧﺇ</CommandCancelFormingCaravanDesc>
+
+  <!-- Remove from caravan -->
+  <!-- EN: Remove from caravan -->
+  <CommandRemoveFromCaravan>ﺔﻠﻓﺎﻘﻟﺍ ﻦﻣ ﺔﻟﺍﺯﺇ</CommandRemoveFromCaravan>
+  <!-- EN: Remove this person or animal from the caravan. -->
+  <CommandRemoveFromCaravanDesc>ﻦﻣ ﻥﺍﻮﻴﺤﻟﺍ ﻭﺃ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺔﻟﺍﺯﺇ\n.ﺔﻠﻓﺎﻘﻟﺍ</CommandRemoveFromCaravanDesc>
+  
+  <!-- Add to caravan -->
+  <!-- EN: Add to caravan -->
+  <CommandAddToCaravan>ﺔﻠﻓﺎﻘﻟﺍ ﻰﻟﺇ ﺔﻓﺎﺿﺇ</CommandAddToCaravan>
+  <!-- EN: Add this person or animal to the forming caravan. -->
+  <CommandAddToCaravanDesc>ﻰﻟﺇ ﻥﺍﻮﻴﺤﻟﺍ ﻭﺃ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺔﻓﺎﺿﺇ\n.ﺎﻬﻠﻴﻜﺸﺗ ﻢﺘﻳ ﻲﺘﻟﺍ ﺔﻠﻓﺎﻘﻟﺍ</CommandAddToCaravanDesc>
+  
+  <!-- Force caravan depart -->
+  <!-- EN: Force caravan departure -->
+  <CommandForceCaravanDepart>ﺓﺭﺩﺎﻐﻤﻟﺍ ﻰﻠﻋ ﺔﻠﻓﺎﻘﻟﺍ ﺭﺎﺒﺟﺇ</CommandForceCaravanDepart>
+  <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
+  <CommandForceCaravanDepartDesc>ﺓﺭﺩﺎﻐﻤﻟﺍ ﻰﻠﻋ ﺔﻠﻓﺎﻘﻟﺍ ﺭﺎﺒﺟﺇ\nﺔﻠﻤﺤﻤﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻊﻣ ﺍًﺭﻮﻓ\nﺺﺨﺷ ﻱﺃ ﻙﺮﺗ ﻢﺘﻴﺳ .ﻂﻘﻓ ﺎًﻴﻟﺎﺣ\n.ﺮﻔﺴﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ</CommandForceCaravanDepartDesc>
+  <!-- EN: Are you sure you want to depart? -->
+  <ConfirmForceDepartIntro>ﻲﻓ ﻚﺘﺒﻏﺭ ﻦﻣ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ\n؟ﺓﺭﺩﺎﻐﻤﻟﺍ</ConfirmForceDepartIntro>
+  <!-- EN: The following items are still being loaded and will be left behind: -->
+  <ConfirmForceDepartItemsStillLoading>ﺪﻴﻗ ﺔﻴﻟﺎﺘﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻝﺍﺰﺗ ﻻ\n:ﺎﻬﻛﺮﺗ ﻢﺘﻴﺳﻭ ﻞﻴﻤﺤﺘﻟﺍ</ConfirmForceDepartItemsStillLoading>
+  <!-- EN: The following people won't be a part of the caravan: -->
+  <ConfirmForceDepartPawnsNotLeaving>ﺍﻮﻧﻮﻜﻳ ﻦﻟ ﻥﻮﻴﻟﺎﺘﻟﺍ ﺹﺎﺨﺷﻷﺍ\n:ﺔﻠﻓﺎﻘﻟﺍ ﻦﻣ ﺍًﺀﺰﺟ</ConfirmForceDepartPawnsNotLeaving>
+  <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
+  <ConfirmForceDepartItemsOnPawnsNotLeaving>ﻰﻠﻋ ﺔﻴﻟﺎﺘﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻞﻴﻤﺤﺗ ﻢﺗ\nﻦﻣ ﺍًﺀﺰﺟ ﻥﻮﻜﺗ ﻦﻟ ﺕﺎﻗﻮﻠﺨﻣ\n:ﺎﻬﻛﺮﺗ ﻢﺘﻴﺳﻭ ﺔﻠﻓﺎﻘﻟﺍ</ConfirmForceDepartItemsOnPawnsNotLeaving>
+  
+  <!-- Show map -->
+  <!-- EN: Zoom in -->
+  <CommandShowMap>ﺮﻴﺒﻜﺗ</CommandShowMap>
+  <!-- EN: Zoom in on this area. -->
+  <CommandShowMapDesc>.ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﺮﻴﺒﻜﺗ</CommandShowMapDesc>
+  
+  <!-- Trade -->
+  <!-- EN: Trade -->
+  <CommandTrade>ﺓﺭﺎﺠﺗ</CommandTrade>
+  <!-- EN: Trade with this faction. -->
+  <CommandTradeDesc>.ﻞﻴﺼﻔﻟﺍ ﻩﺬﻫ ﻊﻣ ﺓﺭﺎﺠﺘﻟﺍ</CommandTradeDesc>
+  <!-- EN: There isn't any conscious and capable negotiator. -->
+  <CommandTradeFailNoNegotiator>.ﺭﺩﺎﻗﻭ ٍﻉﺍﻭ ﺽﻭﺎﻔﻣ ﺪﺟﻮﻳ ﻻ</CommandTradeFailNoNegotiator>
+  <!-- EN: None of your people have the required faction permission: {0} -->
+  <CommandTradeFailNeedPermit>ﻥﺫﺇ ﻙﺩﺍﺮﻓﺃ ﻦﻣ ﻱﺃ ﻚﻠﺘﻤﻳ ﻻ\n{0} :ﺏﻮﻠﻄﻤﻟﺍ ﻞﻴﺼﻔﻟﺍ</CommandTradeFailNeedPermit>
+
+  <!-- Offer gifts -->
+  <!-- EN: Offer gifts -->
+  <CommandOfferGifts>ﺎﻳﺍﺪﻫ ﻢﻳﺪﻘﺗ</CommandOfferGifts>
+  <!-- EN: Offer gifts to this faction. -->
+  <CommandOfferGiftsDesc>.ﻞﻴﺼﻔﻟﺍ ﺍﺬﻬﻟ ﺎﻳﺍﺪﻫ ﻢﻳﺪﻘﺗ</CommandOfferGiftsDesc>
+
+  <!-- Fulfill request -->
+  <!-- EN: Fulfill trade offer -->
+  <CommandFulfillTradeOffer>ﻱﺭﺎﺠﺗ ﺽﺮﻋ ﺔﻴﺒﻠﺗ</CommandFulfillTradeOffer>
+  <!-- EN: Fulfill the settlement's request for goods and claim your reward. -->
+  <CommandFulfillTradeOfferDesc>ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺔﻨﻃﻮﺘﺴﻤﻟﺍ ﺐﻠﻃ ﺔﻴﺒﻠﺗ\n.ﻚﺗﺄﻓﺎﻜﻤﺑ ﺔﺒﻟﺎﻄﻤﻟﺍﻭ ﻊﺋﺎﻀﺑ</CommandFulfillTradeOfferDesc>
+  <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
+  <CommandFulfillTradeOfferFailInsufficient>ﺔﻴﺒﻠﺘﻟ {0} ﻚﺘﻠﻓﺎﻗ ﻚﻠﺘﻤﺗ ﻥﺃ ﺐﺠﻳ\n.ﻱﺭﺎﺠﺘﻟﺍ ﺽﺮﻌﻟﺍ ﺍﺬﻫ</CommandFulfillTradeOfferFailInsufficient>
+  <!-- EN: Give {0}? -->
+  <CommandFulfillTradeOfferConfirm>؟{0} ﺀﺎﻄﻋﺇ ﺪﻳﺮﺗ ﻞﻫ</CommandFulfillTradeOfferConfirm>
+  
+  <!-- Take off -->
+  <!-- EN: Take off -->
+  <CommandTakeOff>ﻉﻼﻗﺇ</CommandTakeOff>
+  <!-- EN: Get on board the ship and escape the planet. -->
+  <CommandTakeOffDesc>ﺏﻭﺮﻬﻟﺍﻭ ﺔﻨﻴﻔﺴﻟﺍ ﻦﺘﻣ ﻰﻟﺇ ﺩﻮﻌﺼﻟﺍ\n.ﺐﻛﻮﻜﻟﺍ ﻦﻣ</CommandTakeOffDesc>
+  <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
+  <CommandTakeOffConfirmation>ﻕﻼﻃﺇ ﻲﻓ ﻚﺘﺒﻏﺭ ﻦﻣ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ\n؟ﺔﻨﻴﻔﺴﻟﺍ\n\nﻦﻣ ﺏﺮﻬﻴﺳ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺺﺨﺷ ﻞﻛ\nﻊﻴﻤﺠﻟﺍ ﻙﺮﺗ ﻢﺘﻴﺳ .ﺐﻛﻮﻜﻟﺍ\n.ﻢﻫﺀﺍﺭﻭ</CommandTakeOffConfirmation>
+
+  <!-- Set target fuel level -->
+  <!-- EN: Set target fuel level -->
+  <CommandSetTargetFuelLevel>ﻑﺪﻬﺘﺴﻤﻟﺍ ﺩﻮﻗﻮﻟﺍ ﻯﻮﺘﺴﻣ ﺪﻳﺪﺤﺗ</CommandSetTargetFuelLevel>
+  <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
+  <CommandSetTargetFuelLevelDesc>.ﻑﺪﻬﺘﺴﻤﻟﺍ ﺩﻮﻗﻮﻟﺍ ﻯﻮﺘﺴﻣ ﺩﺪﺣ\nﻰﺘﺣ ﺍﺬﻫ ﺀﻞﻣ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻝﻭﺎﺤﻴﺳ\n.ﻑﺪﻬﺘﺴﻤﻟﺍ ﺩﻮﻗﻮﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﻞﺼﻳ</CommandSetTargetFuelLevelDesc>
+
+  <!-- Refueling -->
+  <!-- EN: Toggle automatic refuel -->
+  <CommandToggleAllowAutoRefuel>ﺩﻮﻗﻮﻟﺎﺑ ﺩﻭﺰﺘﻟﺍ ﺓﺩﺎﻋﺇ ﻞﻳﺪﺒﺗ\nﻲﺋﺎﻘﻠﺘﻟﺍ</CommandToggleAllowAutoRefuel>
+  <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <CommandToggleAllowAutoRefuelDesc>ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻥﺎﻛ ﺍﺫﺇ ﺎﻣ ﺍﺬﻫ ﺩﺪﺤﻳ\nﺩﻮﻗﻮﻟﺎﺑ ﺍﺬﻫ ﺪﻳﻭﺰﺗ ﻥﻭﺪﻴﻌﻴﺳ\nﻸﻤﻴﺳ ،ﻦﻴﻜﻤﺘﻟﺍ ﻢﺗ ﺍﺫﺇ .ﺎًﻴﺋﺎﻘﻠﺗ\n.{0} ﻰﺘﺣ ﺍﺬﻫ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ
+
+ﻲﺋﺎﻘﻠﺘﻟﺍ ﺩﻮﻗﻮﻟﺎﺑ ﺩﻭﺰﺘﻟﺍ ﺓﺩﺎﻋﺇ\n.{ONOFF} ﺎﻴﻟﺎﺣ</CommandToggleAllowAutoRefuelDesc>
+  <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <CommandToggleAllowAutoRefuelDescMult>ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻥﺎﻛ ﺍﺫﺇ ﺎﻣ ﺩﺪﺤﻳ ﺍﺬﻫ\nﺩﻭﺰﺘﻟﺍ ﺓﺩﺎﻋﺈﺑ ﺎًﻴﺋﺎﻘﻠﺗ ﻥﻮﻣﻮﻘﻴﺳ\n.ﻲﻧﺎﺒﻤﻟﺍ ﻩﺬﻬﻟ ﺩﻮﻗﻮﻟﺎﺑ\n\nﻲﺋﺎﻘﻠﺘﻟﺍ ﺩﻮﻗﻮﻟﺎﺑ ﺩﻭﺰﺘﻟﺍ ﺓﺩﺎﻋﺇ\n.{ONOFF} ﺎًﻴﻟﺎﺣ</CommandToggleAllowAutoRefuelDescMult>
+
+  <!-- Cancel load -->
+  <!-- EN: Cancel load -->
+  <CommandCancelLoad>ﻞﻴﻤﺤﺘﻟﺍ ﺀﺎﻐﻟﺇ</CommandCancelLoad>
+  <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
+  <CommandCancelLoadDesc>ﻭﺃ ﺹﺎﺨﺷﻷﺎﺑ ﺍﺬﻫ ﻞﻴﻤﺤﺗ ﺀﺎﻐﻟﺇ\nﻪﻠﻴﻤﺤﺗ ﻢﺗ ﺎﻣ ﻞﻛ ﺝﺍﺮﺧﺇﻭ ﺮﺻﺎﻨﻌﻟﺍ\n.ﻞﻌﻔﻟﺎﺑ</CommandCancelLoadDesc>
+  <!-- EN: Unload all -->
+  <CommandUnload>ﻞﻜﻟﺍ ﻎﻳﺮﻔﺗ</CommandUnload>
+  <!-- EN: Eject all contents from the {0}. -->
+  <CommandUnloadDesc>.{0} ﻦﻣ ﺕﺎﻳﻮﺘﺤﻤﻟﺍ ﻞﻛ ﺝﺍﺮﺧﺇ</CommandUnloadDesc>
+
+  <!-- Launch group -->
+  <!-- EN: Launch -->
+  <CommandLaunchGroup>ﻕﻼﻃﺇ</CommandLaunchGroup>
+  <!-- EN: Take off and fly to a destination. -->
+  <CommandLaunchGroupDesc>.ﺎﻣ ﺔﻬﺟﻭ ﻰﻟﺇ ﻥﺍﺮﻴﻄﻟﺍﻭ ﻉﻼﻗﻹﺍ</CommandLaunchGroupDesc>
+  <!-- EN: Must be loaded first. -->
+  <CommandLaunchGroupFailNotLoaded>.ًﻻﻭﺃ ﻪﻠﻴﻤﺤﺗ ﺐﺠﻳ</CommandLaunchGroupFailNotLoaded>
+  <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>ﺔﻋﻮﻤﺠﻣ ﻲﻓ ﻞﻘﻨﻟﺍ ﺕﻻﻮﺴﺒﻛ ﺾﻌﺑ\nﺬﻔﻨﻤﺑ ﺔﻠﺼﺘﻣ ﺮﻴﻏ ﻩﺬﻫ ﻞﻴﻤﺤﺘﻟﺍ\n.ﺩﻮﻗﻭ</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <!-- EN: Roof blocking launch. -->
+  <CommandLaunchGroupFailUnderRoof>.ﻕﻼﻃﻹﺍ ﻖﻴﻌﻳ ﻒﻘﺳ</CommandLaunchGroupFailUnderRoof>
+  <!-- EN: Not enough fuel to launch. -->
+  <CommandLaunchGroupFailNoFuel>.ﻕﻼﻃﻺﻟ ٍﻑﺎﻛ ﺩﻮﻗﻭ ﺪﺟﻮﻳ ﻻ</CommandLaunchGroupFailNoFuel>
+  <!-- EN: Over mass capacity. -->
+  <CommandLaunchGroupFailOverMassCapacity>.ﺔﻠﺘﻜﻟﺍ ﺔﻌﺳ ﺯﻭﺎﺠﺗ</CommandLaunchGroupFailOverMassCapacity>
+  <!-- EN: On cooldown. -->
+  <CommandLaunchGroupCooldown>.ﺔﺋﺪﻬﺘﻟﺍ ﺓﺮﺘﻓ ﻲﻓ</CommandLaunchGroupCooldown>
+  <!-- EN: {0} / {1} kg -->
+  <MassUsageString>ﻢﺠﻛ {0} / {1}</MassUsageString>
+
+  <!-- Load transporter -->
+  <!-- EN: Load launch group of {0} -->
+  <CommandLoadTransporter>{0} ـﻟ ﻕﻼﻃﺇ ﺔﻋﻮﻤﺠﻣ ﻞﻴﻤﺤﺗ</CommandLoadTransporter>
+  <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandLoadTransporterDesc>ﺔﻋﻮﻤﺠﻤﻛ ﺭﺎﺘﺨﻣ (ﺕﺍ)ﻞﻗﺎﻧ ﺪﻳﺪﺤﺗ\nﻞﻴﻤﺤﺘﻟﺍ ﺭﺍﻮﺣ ﻊﺑﺮﻣ ﺢﺘﻔﻳ .ﻕﻼﻃﺇ\nﻱﺬﻟﺍ ﺎﻣﻭ ﻦﻣ ﺪﻳﺪﺤﺗ ﻦﻣ ﻦﻜﻤﺘﺗ ﻰﺘﺣ\n.ﻞﺧﺍﺪﻟﺎﺑ ﻪﻠﻴﻤﺤﺗ ﺐﺠﻳ</CommandLoadTransporterDesc>
+  <!-- EN: The transport pod is not connected to a fueling port. -->
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>ﺬﻔﻨﻤﺑ ﺔﻠﺼﺘﻣ ﺮﻴﻏ ﻞﻘﻨﻟﺍ ﺔﻟﻮﺴﺒﻛ\n.ﺩﻮﻗﻭ</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <!-- EN: The pod launcher has no fuel. -->
+  <CommandLoadTransporterFailNoFuel>ﻰﻠﻋ ﻱﻮﺘﺤﻳ ﻻ ﺔﻟﻮﺴﺒﻜﻟﺍ ﻑﺫﺎﻗ\n.ﺩﻮﻗﻭ</CommandLoadTransporterFailNoFuel>
+  
+  <!-- Load transporter (single) -->
+  <!-- EN: Load -->
+  <CommandLoadTransporterSingle>ﻞﻴﻤﺤﺗ</CommandLoadTransporterSingle>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandLoadTransporterSingleDesc>ﻰﺘﺣ ﻞﻴﻤﺤﺘﻟﺍ ﺭﺍﻮﺣ ﻊﺑﺮﻣ ﺢﺘﻔﻳ\nﺐﺠﻳ ﻱﺬﻟﺍ ﺎﻣﻭ ﻦﻣ ﺪﻳﺪﺤﺗ ﻦﻣ ﻦﻜﻤﺘﺗ\n.ﻞﺧﺍﺪﻟﺎﺑ ﻪﻠﻴﻤﺤﺗ</CommandLoadTransporterSingleDesc>
+  
+  <!-- Transporters set to load -->
+  <!-- EN: Set to load -->
+  <CommandSetToLoadTransporter>ﻞﻴﻤﺤﺘﻠﻟ ﻦﻴﻴﻌﺗ</CommandSetToLoadTransporter>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandSetToLoadTransporterDesc>ﻰﺘﺣ ﻞﻴﻤﺤﺘﻟﺍ ﺭﺍﻮﺣ ﻊﺑﺮﻣ ﺢﺘﻔﻳ\nﺐﺠﻳ ﻱﺬﻟﺍ ﺎﻣﻭ ﻦﻣ ﺪﻳﺪﺤﺗ ﻦﻣ ﻦﻜﻤﺘﺗ\n.ﻞﺧﺍﺪﻟﺎﺑ ﻪﻠﻴﻤﺤﺗ</CommandSetToLoadTransporterDesc>
+  
+  <!-- Autoload transporters -->
+  <!-- EN: Autoload -->
+  <CommandAutoloadTransporters>ﻲﺋﺎﻘﻠﺗ ﻞﻴﻤﺤﺗ</CommandAutoloadTransporters>
+  <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
+  <CommandAutoloadTransportersDesc>ﻊﺋﺎﻀﺒﻟﺍ ﻞﻛ ﻞﻴﻤﺤﺗ ﻞﻳﺪﺒﺗ\nﺩﺮﺠﻤﺑ ﺎًﻴﺋﺎﻘﻠﺗ ﺔﺑﻮﻠﻄﻤﻟﺍ\n.ﺎﻫﺮﻓﻮﺗ</CommandAutoloadTransportersDesc>
+  
+  <!-- Select previous transporter -->
+  <!-- EN: Select previous in launch group -->
+  <CommandSelectPreviousTransporter>ﻕﻼﻃﻹﺍ ﺔﻋﻮﻤﺠﻣ ﻲﻓ ﻖﺑﺎﺴﻟﺍ ﺪﻳﺪﺤﺗ</CommandSelectPreviousTransporter>
+  <!-- EN: Select previous transport pod in this launch group. -->
+  <CommandSelectPreviousTransporterDesc>ﻲﻓ ﺔﻘﺑﺎﺴﻟﺍ ﻞﻘﻨﻟﺍ ﺔﻟﻮﺴﺒﻛ ﺪﻳﺪﺤﺗ\n.ﻩﺬﻫ ﻕﻼﻃﻹﺍ ﺔﻋﻮﻤﺠﻣ</CommandSelectPreviousTransporterDesc>
+  
+  <!-- Select all transporters -->
+  <!-- EN: Select launch group -->
+  <CommandSelectAllTransporters>ﻕﻼﻃﻹﺍ ﺔﻋﻮﻤﺠﻣ ﺪﻳﺪﺤﺗ</CommandSelectAllTransporters>
+  <!-- EN: Select all transport pods in this launch group. -->
+  <CommandSelectAllTransportersDesc>ﻲﻓ ﻞﻘﻨﻟﺍ ﺕﻻﻮﺴﺒﻛ ﻞﻛ ﺪﻳﺪﺤﺗ\n.ﻩﺬﻫ ﻕﻼﻃﻹﺍ ﺔﻋﻮﻤﺠﻣ</CommandSelectAllTransportersDesc>
+  
+  <!-- Select next transporter -->
+  <!-- EN: Select next in launch group -->
+  <CommandSelectNextTransporter>ﻕﻼﻃﻹﺍ ﺔﻋﻮﻤﺠﻣ ﻲﻓ ﻲﻟﺎﺘﻟﺍ ﺪﻳﺪﺤﺗ</CommandSelectNextTransporter>
+  <!-- EN: Select next transport pod in this launch group. -->
+  <CommandSelectNextTransporterDesc>ﻲﻓ ﺔﻴﻟﺎﺘﻟﺍ ﻞﻘﻨﻟﺍ ﺔﻟﻮﺴﺒﻛ ﺪﻳﺪﺤﺗ\n.ﻩﺬﻫ ﻕﻼﻃﻹﺍ ﺔﻋﻮﻤﺠﻣ</CommandSelectNextTransporterDesc>
+  
+  <!-- Vent -->
+  <!-- EN: Designate open/close -->
+  <CommandDesignateOpenCloseVentLabel>ﻕﻼﻏﺇ/ﺢﺘﻓ ﻦﻴﻴﻌﺗ</CommandDesignateOpenCloseVentLabel>
+  <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
+  <CommandDesignateOpenCloseVentDesc>.ﺬﻔﻨﻤﻟﺍ ﺍﺬﻫ ﻕﻼﻏﺇ ﻭﺃ ﺢﺘﻓ ﻦﻴﻴﻌﺗ\nﺬﻴﻔﻨﺘﻟ ﺎًﺒﻳﺮﻗ ﺮﻤﻌﺘﺴﻣ ﻲﺗﺄﻴﺳ\n.ﺔﻤﻬﻤﻟﺍ</CommandDesignateOpenCloseVentDesc>
+  
+  <!-- Remove waypoint -->
+  <!-- EN: Remove -->
+  <CommandRemoveWaypointLabel>ﺔﻟﺍﺯﺇ</CommandRemoveWaypointLabel>
+  <!-- EN: Remove this waypoint. -->
+  <CommandRemoveWaypointDesc>.ﻩﺬﻫ ﻖﻳﺮﻄﻟﺍ ﺔﻄﻘﻧ ﺔﻟﺍﺯﺇ</CommandRemoveWaypointDesc>
+
+  <!-- Pause caravan -->
+  <!-- EN: Rest -->
+  <CommandPauseCaravan>ﺔﺣﺍﺭ</CommandPauseCaravan>
+  <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
+  <CommandToggleCaravanPauseDesc>ﺪﺋﺍﻮﻔﻟﺍ ﻪﻟ ﺍﺬﻫ .ﺔﺣﺍﺮﻟﺍ ﺀﺪﺑ\n:ﺔﻴﻟﺎﺘﻟﺍ\n\nﻞﻋﺎﻔﺘﻟﺍ ﺹﺎﺨﺷﻸﻟ ﻦﻜﻤﻳ -\nﺎًﻴﻋﺎﻤﺘﺟﺍ\nﻉﺮﺳﺃ ﺕﺍﺮﻣ {0} ﻡﺎﻌﻄﻟﺍ ﻦﻋ ﺚﺤﺒﻟﺍ -\n{1} ﻲﻓ ﺔﺑﻭﺮﻀﻣ ﺔﻳﺅﺮﻟﺍ -</CommandToggleCaravanPauseDesc>
+  
+  <!-- Show sellable items -->
+  <!-- EN: Show what will buy -->
+  <CommandShowSellableItems>ﻪﻳﺮﺘﺸﻴﺳ ﺎﻣ ﺭﺎﻬﻇﺇ</CommandShowSellableItems>
+  <!-- EN: Show everything this trader wants to buy. -->
+  <CommandShowSellableItemsDesc>ﺮﺟﺎﺘﻟﺍ ﺍﺬﻫ ﺪﻳﺮﻳ ﺎﻣ ﻞﻛ ﺭﺎﻬﻇﺇ\n.ﻩﺀﺍﺮﺷ</CommandShowSellableItemsDesc>
+
+  <!-- Attack settlement -->
+  <!-- EN: Attack -->
+  <CommandAttackSettlement>ﻡﻮﺠﻫ</CommandAttackSettlement>
+  <!-- EN: Attack this settlement. -->
+  <CommandAttackSettlementDesc>.ﺔﻨﻃﻮﺘﺴﻤﻟﺍ ﻩﺬﻫ ﺔﻤﺟﺎﻬﻣ</CommandAttackSettlementDesc>
+
+  <!-- Send shuttle -->
+  <!-- EN: Send -->
+  <CommandSendShuttle>ﻝﺎﺳﺭﺇ</CommandSendShuttle>
+  <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
+  <CommandSendShuttleDesc>ﻰﻟﺇ ﺮﻴﻄﻳ ﻙﻮﻜﻤﻟﺍ ﻞﻌﺟﻭ ﻉﻼﻗﻹﺍ ﺀﺪﺑ\n.ﻪﺘﻬﺟﻭ</CommandSendShuttleDesc>
+  <!-- EN: The shuttle is under a roof. -->
+  <CommandSendShuttleFailUnderRoof>.ﻒﻘﺳ ﺖﺤﺗ ﻙﻮﻜﻤﻟﺍ</CommandSendShuttleFailUnderRoof>
+  <!-- EN: Some of the required items or people are missing. -->
+  <CommandSendShuttleFailMissingRequiredThing>ﺹﺎﺨﺷﻷﺍ ﻭﺃ ﺮﺻﺎﻨﻌﻟﺍ ﺾﻌﺑ\n.ﻥﻭﺩﻮﻘﻔﻣ ﻦﻴﺑﻮﻠﻄﻤﻟﺍ</CommandSendShuttleFailMissingRequiredThing>
+  
+  <!-- Dismiss shuttle -->
+  <!-- EN: Dismiss -->
+  <CommandShuttleDismiss>ﻑﺮﺻ</CommandShuttleDismiss>
+  <!-- EN: Unload all contents and send the shuttle away. -->
+  <CommandShuttleDismissDesc>ﻑﺮﺻﻭ ﺕﺎﻳﻮﺘﺤﻤﻟﺍ ﻞﻛ ﻎﻳﺮﻔﺗ\n.ﻙﻮﻜﻤﻟﺍ</CommandShuttleDismissDesc>
+
+  <!-- Place blueprints -->
+  <!-- EN: Place blueprints -->
+  <CommandPlaceBlueprints>ﺕﺎﻄﻄﺨﻤﻟﺍ ﻊﺿﻭ</CommandPlaceBlueprints>
+  <!-- EN: Place all required blueprints where possible. -->
+  <CommandPlaceBlueprintsDesc>ﺎﻤﺜﻴﺣ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺕﺎﻄﻄﺨﻤﻟﺍ ﻞﻛ ﻊﺿﻭ\n.ﻦﻜﻣﺃ</CommandPlaceBlueprintsDesc>
+  <!-- EN: Place {0} blueprints -->
+  <CommandPlaceBlueprintsSpecific>ﺕﺎﻄﻄﺨﻣ {0} ﻊﺿﻭ</CommandPlaceBlueprintsSpecific>
+  <!-- EN: Place all {0} blueprints where possible. -->
+  <CommandPlaceBlueprintsSpecificDesc>.ﻦﻜﻣﺃ ﺎﻤﺜﻴﺣ ﺕﺎﻄﻄﺨﻣ {0} ﻞﻛ ﻊﺿﻭ</CommandPlaceBlueprintsSpecificDesc>
+
+  <!-- Cancel monument marker -->
+  <!-- EN: Cancel -->
+  <CommandCancelMonumentMarker>ﺀﺎﻐﻟﺇ</CommandCancelMonumentMarker>
+  <!-- EN: Permanently remove this monument marker. -->
+  <CommandCancelMonumentMarkerDesc>ﻩﺬﻫ ﻱﺭﺎﻛﺬﺘﻟﺍ ﺐﺼﻨﻟﺍ ﺔﻣﻼﻋ ﺔﻟﺍﺯﺇ\n.ﻢﺋﺍﺩ ﻞﻜﺸﺑ</CommandCancelMonumentMarkerDesc>
+
+  <!-- View quest -->
+  <!-- EN: View quest: {0} -->
+  <CommandViewQuest>{0} :ﺔﻤﻬﻤﻟﺍ ﺽﺮﻋ</CommandViewQuest>
+  <!-- EN: View this quest in quests tab. -->
+  <CommandViewQuestDesc>ﺐﻳﻮﺒﺗ ﺔﻣﻼﻋ ﻲﻓ ﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﺽﺮﻋ\n.ﻡﺎﻬﻤﻟﺍ</CommandViewQuestDesc>
+  <!-- EN: Open linked quest -->
+  <CommandOpenLinkedQuest>ﺔﻄﺒﺗﺮﻤﻟﺍ ﺔﻤﻬﻤﻟﺍ ﺢﺘﻓ</CommandOpenLinkedQuest>
+  <!-- EN: Open linked quest in the quests tab. -->
+  <CommandOpenLinkedQuestDesc>ﺔﻣﻼﻋ ﻲﻓ ﺔﻄﺒﺗﺮﻤﻟﺍ ﺔﻤﻬﻤﻟﺍ ﺢﺘﻓ\n.ﻡﺎﻬﻤﻟﺍ ﺐﻳﻮﺒﺗ</CommandOpenLinkedQuestDesc>
+
+  <!-- Carry -->
+  <!-- EN: Drop {0_nameDef} -->
+  <CommandDropPawn>{0_nameDef} ﻁﺎﻘﺳﺇ</CommandDropPawn>
+  <!-- EN: Drop the person being carried. -->
+  <CommandDropPawnDesc>.ﻪﻠﻤﺣ ﻢﺘﻳ ﻱﺬﻟﺍ ﺺﺨﺸﻟﺍ ﻁﺎﻘﺳﺇ</CommandDropPawnDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarriedPawn>{0_nameDef} ﺪﻳﺪﺤﺗ</CommandSelectCarriedPawn>
+  <!-- EN: Select the creature being carried. -->
+  <CommandSelectCarriedPawnDesc>.ﻪﻠﻤﺣ ﻢﺘﻳ ﻱﺬﻟﺍ ﻕﻮﻠﺨﻤﻟﺍ ﺪﻳﺪﺤﺗ</CommandSelectCarriedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectCarriedThing>{0_label} ﺪﻳﺪﺤﺗ</CommandSelectCarriedThing>
+  <!-- EN: Select the carried item. -->
+  <CommandSelectCarriedThingDesc>.ﻝﻮﻤﺤﻤﻟﺍ ﺮﺼﻨﻌﻟﺍ ﺪﻳﺪﺤﺗ</CommandSelectCarriedThingDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainerThing>{0_label} ﺪﻳﺪﺤﺗ</CommandSelectContainerThing>
+  <!-- EN: Select the containing item. -->
+  <CommandSelectContainerThingDesc>.ﻱﻮﺘﺤﻳ ﻱﺬﻟﺍ ﺮﺼﻨﻌﻟﺍ ﺪﻳﺪﺤﺗ</CommandSelectContainerThingDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarryingPawn>{0_nameDef} ﺪﻳﺪﺤﺗ</CommandSelectCarryingPawn>
+  <!-- EN: Select the carrying creature. -->
+  <CommandSelectCarryingPawnDesc>.ﻞﻣﺎﺤﻟﺍ ﻕﻮﻠﺨﻤﻟﺍ ﺪﻳﺪﺤﺗ</CommandSelectCarryingPawnDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectContainedPawn>{0_nameDef} ﺪﻳﺪﺤﺗ</CommandSelectContainedPawn>
+  <!-- EN: Select the contained creature. -->
+  <CommandSelectContainedPawnDesc>.ﻯﻮﺘﺤﻤﻟﺍ ﻕﻮﻠﺨﻤﻟﺍ ﺪﻳﺪﺤﺗ</CommandSelectContainedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainedThing>{0_label} ﺪﻳﺪﺤﺗ</CommandSelectContainedThing>
+  <!-- EN: Select the contained item. -->
+  <CommandSelectContainedThingDesc>.ﻯﻮﺘﺤﻤﻟﺍ ﺮﺼﻨﻌﻟﺍ ﺪﻳﺪﺤﺗ</CommandSelectContainedThingDesc>
+
+  <!-- Take a drug -->
+  <!-- EN: Take drug... -->
+  <TakeDrug>...ﺀﺍﻭﺩ ﻝﻭﺎﻨﺗ</TakeDrug>
+  <!-- EN: Choose a drug from inventory to ingest immediately. -->
+  <TakeDrugDesc>ﻪﻟﻭﺎﻨﺘﻟ ﻥﻭﺰﺨﻤﻟﺍ ﻦﻣ ﺀﺍﻭﺩ ﺮﺘﺧﺍ\n.ﺭﻮﻔﻟﺍ ﻰﻠﻋ</TakeDrugDesc>
+
+  <!-- Build X -->
+  <!-- EN: Build {0} -->
+  <BuildThing>{0} ﺀﺎﻨﺑ</BuildThing>
+
+  <!-- Rituals -->
+  <!-- EN: Leave {RITUAL_label} -->
+  <CommandLeaveRitual>{RITUAL_label} ﺓﺭﺩﺎﻐﻣ</CommandLeaveRitual>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The event will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>.{RITUAL_labelDef} ﻲﻓ ﺔﻛﺭﺎﺸﻤﻟﺍ ﻦﻋ ﻒﻗﻮﺘﻟﺍ\nﺎﻬﻳﺪﻟ ﻥﺃ ﺎﻤﻟﺎﻃ ﺔﻴﻟﺎﻌﻔﻟﺍ ﺮﻤﺘﺴﺘﺳ\n.ﻞﻗﻷﺍ ﻰﻠﻋ ﺪﺣﺍﻭ ﻙﺭﺎﺸﻣ</CommandLeaveRitualDesc>
+  <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
+  <CommandLeaveLastParticipant>.{RITUAL_labelDef} ﻲﻓ ﺮﻴﺧﻷﺍ ﻙﺭﺎﺸﻤﻟﺍ ﻮﻫ ﺍﺬﻫ</CommandLeaveLastParticipant>
+
+  <!-- EN: Cancel {RITUAL_label} -->
+  <CommandCancelRitual>{RITUAL_label} ﺀﺎﻐﻟﺇ</CommandCancelRitual>
+  <!-- EN: End the {RITUAL_labelDef} immediately. You can restart the event later. -->
+  <CommandCancelRitualDesc>ﺓﺩﺎﻋﺇ ﻚﻨﻜﻤﻳ .ﺭﻮﻔﻟﺍ ﻰﻠﻋ {RITUAL_labelDef} ﺀﺎﻬﻧﺇ\n.ﺎًﻘﺣﻻ ﺔﻴﻟﺎﻌﻔﻟﺍ ﺀﺪﺑ</CommandCancelRitualDesc>
+  <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
+  <CommandCancelRitualConfirm>ﺀﺎﻐﻟﺇ ﻲﻓ ﻚﺘﺒﻏﺭ ﻦﻣ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ\n؟{RITUAL_labelDef}</CommandCancelRitualConfirm>
+
+  <!-- Storage linking -->
+  <!-- EN: Link settings -->
+  <LinkStorageSettings>ﺕﺍﺩﺍﺪﻋﻹﺍ ﻂﺑﺭ</LinkStorageSettings>
+  <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
+  <LinkStorageSettingsDesc>ﻲﻧﺎﺒﻤﻠﻟ ﻦﻳﺰﺨﺘﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺑﺭ\nﻙﺭﺎﺸﺘﺗ ﺚﻴﺤﺑ ﺓﺩﺪﺤﻤﻟﺍ ﺓﺩﺪﻌﺘﻤﻟﺍ\n.ﻦﻳﺰﺨﺘﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻲﻓ\n\nﺀﻲﺷ ﻱﺃ ﺕﺍﺩﺍﺪﻋﺈﺑ ﺔﻋﻮﻤﺠﻤﻟﺍ ﺃﺪﺒﺘﺳ\n.ًﻻﻭﺃ ﻩﺪﻳﺪﺤﺘﺑ ﺖﻤﻗ</LinkStorageSettingsDesc>
+  <!-- EN: You must select two or more buildings to link their storage settings. -->
+  <LinkStorageDisabledSelectTwo>ﺮﺜﻛﺃ ﻭﺃ ﻦﻴﻴﻨﺒﻣ ﺪﻳﺪﺤﺗ ﻚﻴﻠﻋ ﺐﺠﻳ\nﺔﺻﺎﺨﻟﺍ ﻦﻳﺰﺨﺘﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻂﺑﺮﻟ\n.ﻢﻬﺑ</LinkStorageDisabledSelectTwo>
+  <!-- EN: Already linked. -->
+  <AlreadyLinked>.ﻞﻌﻔﻟﺎﺑ ﻂﺒﺗﺮﻣ</AlreadyLinked>
+  <!-- EN: Unlink settings -->
+  <UnlinkStorageSettings>ﺕﺍﺩﺍﺪﻋﻹﺍ ﻂﺑﺭ ﻚﻓ</UnlinkStorageSettings>
+  <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
+  <UnlinkStorageSettingsDesc>ﻦﻳﺰﺨﺗ ﺕﺍﺩﺍﺪﻋﺇ ﻦﻣ ﺍﺬﻫ ﻂﺑﺭ ﻚﻓ\nﻂﺒﺿ ﻦﻜﻤﻳ ﺚﻴﺤﺑ ﻯﺮﺧﻷﺍ ﻲﻧﺎﺒﻤﻟﺍ\n.ﻞﻘﺘﺴﻣ ﻞﻜﺸﺑ ﻪﺗﺍﺩﺍﺪﻋﺇ</UnlinkStorageSettingsDesc>
+  <!-- EN: Linked storage settings -->
+  <LinkedStorageSettings>ﺔﻄﺒﺗﺮﻤﻟﺍ ﻦﻳﺰﺨﺘﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ</LinkedStorageSettings>
+  <!-- EN: 1 building -->
+  <OneBuilding>ﻰﻨﺒﻣ 1</OneBuilding>
+  <!-- EN: {0} buildings -->
+  <NumBuildings>ﻰﻨﺒﻣ {0}</NumBuildings>
+  <!-- EN: Stores -->
+  <StoresThings>ﻥﺰﺨﻳ</StoresThings>
+  <!-- EN: Select all linked -->
+  <SelectAllLinked>ﻦﻴﻄﺒﺗﺮﻤﻟﺍ ﻞﻛ ﺪﻳﺪﺤﺗ</SelectAllLinked>
+  <!-- EN: Select all storage buildings linked to this. -->
+  <SelectAllLinkedDesc>ﻦﻳﺰﺨﺘﻟﺍ ﻲﻧﺎﺒﻣ ﻞﻛ ﺪﻳﺪﺤﺗ\n.ﺍﺬﻬﺑ ﺔﻄﺒﺗﺮﻤﻟﺍ</SelectAllLinkedDesc>
+
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <CommandDisabledUnconscious>.ﻲﻋﻮﻠﻟ ﺪﻗﺎﻓ {0_labelShort}</CommandDisabledUnconscious>
+
+  <!-- Study -->
+  <!-- EN: Toggle study -->
+  <CommandToggleStudy>ﺔﺳﺍﺭﺪﻟﺍ ﻞﻳﺪﺒﺗ</CommandToggleStudy>
+  <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
+  <CommandToggleStudyDesc>ﻥﻮﺳﺭﺪﻴﺳ ﺱﺍﺮﺤﻟﺍ ﻥﺎﻛ ﺍﺫﺇ ﺎﻣ ﺩﺪﺤﻳ\nﺀﺎﻴﺷﻷﺍ .ﻻ ﻡﺃ ﺎًﻴﺋﺎﻘﻠﺗ ﺍﺬﻫ\n.ﺍًﺪﺑﺃ ﺱﺭﺪُﺗ ﻦﻟ ﺓﺭﻮﻈﺤﻤﻟﺍ</CommandToggleStudyDesc>
+
+  <!-- Limited use count action -->
+  <!-- EN: No uses left. -->
+  <CommandNoUsesLeft>.ﺔﻴﻘﺒﺘﻣ ﺕﺎﻣﺍﺪﺨﺘﺳﺍ ﺪﺟﻮﺗ ﻻ</CommandNoUsesLeft>
+
+  <!-- Map Portal -->
+  <!-- EN: View {0} -->
+  <CommandViewPocketMapLabel>{0} ﺽﺮﻋ</CommandViewPocketMapLabel>
+  <!-- EN: View the connected {0} map. -->
+  <CommandViewPocketMapDesc>.ﺔﻠﺼﺘﻤﻟﺍ {0} ﺔﻄﻳﺮﺧ ﺽﺮﻋ</CommandViewPocketMapDesc>
+  <!-- EN: View surface -->
+  <CommandViewSurface>ﺢﻄﺴﻟﺍ ﺽﺮﻋ</CommandViewSurface>
+  <!-- EN: View the connected surface map. -->
+  <CommandViewSurfaceDesc>.ﺔﻠﺼﺘﻤﻟﺍ ﺢﻄﺴﻟﺍ ﺔﻄﻳﺮﺧ ﺽﺮﻋ</CommandViewSurfaceDesc>
+
+  <!-- Auto-build pod -->
+  <!-- EN: Auto build transport pod -->
+  <AutoBuildTransportPod>ﺎًﻴﺋﺎﻘﻠﺗ ﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ ﺀﺎﻨﺑ</AutoBuildTransportPod>
+  <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
+  <AutoBuildTransportPodDesc>ﻙﻭﺮﻤﻌﺘﺴﻣ ﻡﻮﻘﻴﺳ ،ﺎﻼﻌﻔﻣ ﻥﺎﻛ ﺍﺫﺇ\nﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ ﺀﺎﻨﺒﺑ ﺎًﻴﺋﺎﻘﻠﺗ\n.ﺎًﻨﻜﻤﻣ ﻚﻟﺫ ﻥﻮﻜﻳ ﺎﻣﺪﻨﻋ ﺓﺪﻳﺪﺟ</AutoBuildTransportPodDesc>
+  
+  <!-- Hacking gizmo -->
+  <!-- EN: Hack... -->
+  <HackGizmo>...ﻕﺍﺮﺘﺧﺍ</HackGizmo>
+  <!-- EN: Cannot hack -->
+  <CannotChooseHacker>ﻕﺍﺮﺘﺧﻻﺍ ﻦﻜﻤﻳ ﻻ</CannotChooseHacker>
+  <!-- EN: Choose hacker -->
+  <CommandChooseHacker>ﻕﺮﺘﺨﻣ ﺮﺘﺧﺍ</CommandChooseHacker>
+  
+</LanguageData>

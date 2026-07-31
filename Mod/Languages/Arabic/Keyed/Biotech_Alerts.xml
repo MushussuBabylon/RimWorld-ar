@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Uncontrolled mechs -->
+  <AlertMechLacksOverseer>ﺎﻬﺑ ﻢﻜﺤﺘﻣ ﺮﻴﻏ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻣ</AlertMechLacksOverseer>
+  <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
+  <AlertMechLacksOverseerDesc>ﻚﺗﺍﺪﻳﻮﻧﺎﻜﻴﻣ ﻦﻣ ﺮﺜﻛﺃ ﻭﺃ ﺪﺣﺍﻭ\nﻞﻴﺻﻮﺘﺑ ﻢﻗ .ﻪﺑ ﻢﻜﺤﺘﻣ ﺮﻴﻏ\nﻕﺎﻄﻧ ﻱﺫ ﺭﻮﺘﻴﻧﺎﻜﻴﻤﺑ ﻚﺗﺍﺪﻳﻮﻧﺎﻜﻴﻣ\n.ﺎﻬﺑ ﻢﻜﺤﺘﻠﻟ ﻑﺎﻛ ﻱﺩﺩﺮﺗ\n\nﻦﻣ ﺮﺜﻛﻷ ﻢﻜﺤﺗ ﻥﻭﺩ ﺖﻛﺮُﺗ ﺍﺫﺇ\nﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﺢﺒﺼﺗ ﺪﻗ ،ﻡﻮﻳ\nﻢﻀﻨﺘﺳ ﺍﺬﻫ ﺙﺪﺤﻳ ﺎﻣﺪﻨﻋ .ﺔﺸﺣﻮﺘﻣ\nﺍﺫﺇ .ﻚﻟ ﺔﻳﺩﺎﻌﻣ ﺢﺒﺼﺗﻭ {0} ﻰﻟﺇ\nﺐﻠﺠﺘﺴﻓ ،ﺓﺪﺣﺍﻭ ﺪﻳﻮﻧﺎﻜﻴﻣ ﺖﺸﺣﻮﺗ\nﺔﺒﻳﺮﻘﻟﺍ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﺎﻬﻌﻣ\n.ﻯﺮﺧﻷﺍ\n\nﻦﻜﻤﻳ ﻻ ﺔﺸﺣﻮﺘﻤﻟﺍ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\n.ﺎﻬﻠﺘﻗ ﺪﻨﻋ ﺪﻟﻮﻣ ﻲﻓ ﺎﻫﺅﺎﻴﺣﺇ</AlertMechLacksOverseerDesc>
+  <!-- EN: The following mechanoids are uncontrolled -->
+  <AlertMechLacksOverseerUncontrolled>ﻢﻜﺤﺘﻣ ﺮﻴﻏ ﺔﻴﻟﺎﺘﻟﺍ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\nﺎﻬﺑ</AlertMechLacksOverseerUncontrolled>
+  <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
+  <AlertMechLacksOverseerMayGoFeral>ﻢﻜﺤﺘﻣ ﺮﻴﻏ ﺔﻴﻟﺎﺘﻟﺍ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\nﺔﻈﺤﻟ ﻱﺃ ﻲﻓ ﺶﺣﻮﺘﺗ ﺪﻗﻭ ﺎﻬﺑ</AlertMechLacksOverseerMayGoFeral>
+
+  <!-- EN: {0} is low on resources -->
+  <AlertWarqueenHasLowResources>{0} ـﻟ ﺔﻀﻔﺨﻨﻣ ﺩﺭﺍﻮﻤﻟﺍ</AlertWarqueenHasLowResources>
+  <!-- EN: One or more {0} are low on resoures. They will be unable to produce mechs on command if they run out of resources. -->
+  <AlertWarqueenHasLowResourcesDesc>ﺔﻀﻔﺨﻨﻣ {0} ﻦﻣ ﺮﺜﻛﺃ ﻭﺃ ﺪﺣﺍﻭ\nﺝﺎﺘﻧﺇ ﻦﻣ ﻦﻜﻤﺘﺗ ﻦﻟ .ﺩﺭﺍﻮﻤﻟﺍ\nﺕﺪﻔﻧ ﺍﺫﺇ ﺐﻠﻄﻟﺍ ﺪﻨﻋ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻣ\n.ﺎﻫﺩﺭﺍﻮﻣ</AlertWarqueenHasLowResourcesDesc>
+
+  <!-- EN: {PAWN} needs deathrest -->
+  <AlertLowDeathrestPawn>ﺕﻮﻤﻟﺍ ﺕﺎﺒﺴﻟ ﺔﺟﺎﺤﺑ {PAWN}</AlertLowDeathrestPawn>
+  <!-- EN: {NUMCULPRITS} colonists need deathrest -->
+  <AlertLowDeathrestPawns>ﺕﻮﻤﻟﺍ ﺕﺎﺒﺴﻟ ﺔﺟﺎﺤﺑ ﺮﻤﻌﺘﺴﻣ {NUMCULPRITS}</AlertLowDeathrestPawns>
+  <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
+  <AlertLowDeathrestDesc>ﺬﻨﻣ ﺕﻮﻤﻟﺍ ﺕﺎﺒﺴﺑ ﻢﻘﻳ ﻢﻟ ﺮﻤﻌﺘﺴﻣ\nﻥﻭﺩ ﺓﺪﻤﻟﺍ ﺖﻟﺎﻃ ﺍﺫﺇ .ﻞﻳﻮﻃ ﺖﻗﻭ\nﻕﺎﻫﺭﺇ ﻦﻣ ﻲﻧﺎﻌﻴﺳ ،ﺕﻮﻤﻟﺍ ﺕﺎﺒﺳ\n.ﺕﻮﻤﻟﺍ ﺕﺎﺒﺳ\n\nﺮﺘﺧﺍ ،ﺕﻮﻤﻟﺍ ﺕﺎﺒﺴﺑ ﻡﺎﻴﻘﻠﻟ\nﺱﻭﺎﻤﻟﺍ ﺭﺰﺑ ﺮﻘﻧﺍ ﻢﺛ ﺮﻤﻌﺘﺴﻤﻟﺍ\nﻭﺃ ﺺﺼﺨﻤﻟﺍ ﻩﺮﻳﺮﺳ ﻰﻠﻋ ﻦﻤﻳﻷﺍ\n.ﺕﻮﻤﻟﺍ ﺕﺎﺒﺳ ﺕﻮﺑﺎﺗ\n\n:ﺕﻮﻤﻟﺍ ﺕﺎﺒﺴﻟ ﺔﺟﺎﺤﺑ ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ\n{CULPRITS}</AlertLowDeathrestDesc>
+
+  <!-- EN: Low hemogen -->
+  <AlertLowHemogen>ﺾﻔﺨﻨﻣ ﻦﻴﺟﻮﻤﻴﻫ</AlertLowHemogen>
+  <!-- EN: A colonist has low hemogen. At zero hemogen, they will develop a painful hemogen craving.\n\nFeed them hemogen packs to prevent this. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nThe following colonists have low hemogen -->
+  <AlertLowHemogenDesc>ﺪﻨﻋ .ﺾﻔﺨﻨﻣ ﻦﻴﺟﻮﻤﻴﻫ ﻪﻳﺪﻟ ﺮﻤﻌﺘﺴﻣ\nﻕﻮﺘﺑ ﺏﺎﺼﻴﺳ ،ﻦﻴﺟﻮﻤﻴﻬﻟﺍ ﺩﺎﻔﻧ\n.ﻦﻴﺟﻮﻤﻴﻬﻠﻟ ﻢﻟﺆﻣ\n\n.ﻚﻟﺫ ﻊﻨﻤﻟ ﻦﻴﺟﻮﻤﻴﻫ ﺕﺍﻮﺒﻋ ﻢﻬﻤﻌﻃﺃ\nﺕﺍﻮﺒﻋ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻚﻨﻜﻤﻳ\nﺔﻴﻠﻤﻌﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻦﻴﺟﻮﻤﻴﻬﻟﺍ\n'ﻦﻴﺟﻮﻤﻴﻫ ﺓﻮﺒﻋ ﺝﺍﺮﺨﺘﺳﺍ' ﺔﻴﺒﻄﻟﺍ\n.ﻡﺪﻠﻟ ﺪّﻟﻮﻣ ﺮﻴﻏ ﺺﺨﺷ ﻰﻠﻋ\n\nﻢﻬﻳﺪﻟ ﻥﻮﻴﻟﺎﺘﻟﺍ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ\nﺾﻔﺨﻨﻣ ﻦﻴﺟﻮﻤﻴﻫ</AlertLowHemogenDesc>
+
+  <!-- EN: Recharger full -->
+  <AlertRechargerFull>ﺊﻠﺘﻤﻣ ﻦﺣﺎﺸﻟﺍ</AlertRechargerFull>
+  <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
+  <AlertRechargerFullDesc>ﺪﺤﻟﺍ ﻥﺰﺨﺗ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻦﺣﺍﻮﺷ ﺾﻌﺑ\nﺕﺎﻳﺎﻔﻨﻟﺍ ﺕﺍﻮﺒﻋ ﻦﻣ ﻰﺼﻗﻷﺍ\nﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻠﻟ ﻦﻜﻤﻳ ﻻ .ﺔﻣﺎﺴﻟﺍ\nﻢﺘﻳ ﻰﺘﺣ ﻦﺣﺍﻮﺸﻟﺍ ﻩﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ\nﺔﻣﺎﺴﻟﺍ ﺕﺎﻳﺎﻔﻨﻟﺍ ﺕﺍﻮﺒﻋ ﻞﻘﻧ\n.ﺍًﺪﻴﻌﺑ\n\nﺱﻭﺎﻤﻟﺍ ﺭﺰﺑ ﺮﻘﻧﺍﻭ ﺍًﺮﻤﻌﺘﺴﻣ ﺮﺘﺧﺍ\n.ﻪﻐﻳﺮﻔﺘﻟ ﻦﺣﺎﺸﻟﺍ ﻰﻠﻋ ﻦﻤﻳﻷﺍ</AlertRechargerFullDesc>
+
+  <!-- EN: Need mech rechargers -->
+  <AlertNeedMechChargers>ﺪﻳﻮﻧﺎﻜﻴﻣ ﻦﺣﺍﻮﺸﻟ ﺔﺟﺎﺤﺑ</AlertNeedMechChargers>
+  <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
+  <AlertNeedMechChargersDesc>ﻊﻴﻤﺠﻟ ﻦﺣﺍﻮﺷ ﻚﻳﺪﻟ ﺲﻴﻟ\nﺔﻗﺎﻃ ﺕﺪﻔﻧ ﺍﺫﺇ .ﻚﺗﺍﺪﻳﻮﻧﺎﻜﻴﻣ\nﻦﺤﺷ ﺔﻟﺎﺣ ﻲﻓ ﻞﺧﺪﺘﺳ ،ﺪﻳﻮﻧﺎﻜﻴﻣ\nﺀﻂﺒﺑ ﺎﻬﻨﺤﺷ ﺩﺎﻌُﺘﺳﻭ ﺔﻠﻣﺎﺧ ﻲﺗﺍﺫ\n.ﺪﻳﺪﺷ\n\nﻦﺣﺍﻮﺸﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ِﻦﺑﺍ\n:ﺔﻴﻟﺎﺘﻟﺍ\n{0}\n\nﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻂﻘﻓ :ﺔﻈﺣﻼﻣ\nﻦﺣﺍﻮﺷ ﻡﺍﺪﺨﺘﺳﺍ ﺎﻬﻨﻜﻤﻳ ﺔﻔﻴﻔﺨﻟﺍ\n.ﺔﻳﺩﺎﻌﻟﺍ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\nﻞﻘﺛﻷﺍ ﻭﺃ ﺔﻄﺳﻮﺘﻤﻟﺍ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\n.ﺓﺮﻴﺒﻛ ﺪﻳﻮﻧﺎﻜﻴﻣ ﻦﺣﺍﻮﺷ ﺐﻠﻄﺘﺗ</AlertNeedMechChargersDesc>
+  <!-- EN: Research basic mechtech or higher to build rechargers. -->
+  <AlertNeedMechChargerBasicMechtech>ﻰﻠﻋﺃ ﻭﺃ ﻲﺳﺎﺳﺃ ﻚﻴﺘﻜﻴﻣ ﻦﻋ ﺚﺤﺑﺍ\n.ﻦﺣﺍﻮﺸﻟﺍ ﺀﺎﻨﺒﻟ</AlertNeedMechChargerBasicMechtech>
+
+  <!-- EN: Reimplantation available -->
+  <AlertReimplantationAvailable>ﺔﺣﺎﺘﻣ ﻉﺭﺰﻟﺍ ﺓﺩﺎﻋﺇ</AlertReimplantationAvailable>
+  <!-- EN: {0_nameDef} is waiting to reimplant {0_possessive} xenogerm into one of your colonists. -->
+  <AlertReimplantationAvailableDesc>ﻲﻓ {0_possessive} ﺡﺎﻘﻟ ﻉﺭﺯ ﺓﺩﺎﻋﺇ ﺮﻈﺘﻨﻳ {0_nameDef}\n.ﻚﻳﺮﻤﻌﺘﺴﻣ ﺪﺣﺃ</AlertReimplantationAvailableDesc>
+
+  <!-- EN: Low baby food -->
+  <AlertLowBabyFood>ﺾﻔﺨﻨﻣ ﻝﺎﻔﻃﺃ ﻡﺎﻌﻃ</AlertLowBabyFood>
+  <!-- EN: You are dangerously low on baby food.\n\n    Babies needing food: {0}\n    Days worth of baby food in storage: {1}\n\nBuy, find or make some baby-edible food. This includes {2}. -->
+  <AlertLowBabyFoodDesc>ﻞﻜﺸﺑ ﺾﻔﺨﻨﻣ ﻝﺎﻔﻃﻷﺍ ﻡﺎﻌﻃ ﻥﻭﺰﺨﻣ\n.ﺮﻴﻄﺧ\n\n{0} :ﺎًﻣﺎﻌﻃ ﻥﻮﺟﺎﺘﺤﻳ ﻦﻳﺬﻟﺍ ﻝﺎﻔﻃﻷﺍ\nﻲﻓ ﺔﻴﻘﺒﺘﻤﻟﺍ ﻝﺎﻔﻃﻷﺍ ﻡﺎﻌﻃ ﻡﺎﻳﺃ\n{1} :ﻥﻭﺰﺨﻤﻟﺍ\n\nﺾﻌﺑ ﻊﻨﺻﺍ ﻭﺃ ،ﺮﺜﻋﺍ ،ِﺮﺘﺷﺍ\nﻞﻤﺸﻳ .ﻝﺎﻔﻃﻸﻟ ﺐﺳﺎﻨﻤﻟﺍ ﻡﺎﻌﻄﻟﺍ\n.{2} ﻚﻟﺫ</AlertLowBabyFoodDesc>
+  <!-- EN: No baby feeders -->
+  <AlertNoBabyFeeder>ﻝﺎﻔﻃﻸﻟ ﻥﻭﺬﻐﻣ ﺪﺟﻮﻳ ﻻ</AlertNoBabyFeeder>
+  <!-- EN: No {FACTION_pawnsPlural} are assigned to feed these babies, or they're all downed.\n\nAssign one of your {FACTION_pawnsPlural} to childcare or assign a lactating {FACTION_pawnSingular} to feed these babies with Urgent priority in the babies' feeding tab, and ensure at least one of them is not downed. -->
+  <AlertNoBabyFeederDesc>ﺀﻻﺆﻫ ﻡﺎﻌﻃﻹ ﻦﻴﻌﻣ {FACTION_pawnsPlural} ﺪﺟﻮﻳ ﻻ\nﻥﻮﺣﻭﺮﻄﻣ ﺎًﻌﻴﻤﺟ ﻢﻬﻧﺃ ﻭﺃ ،ﻝﺎﻔﻃﻷﺍ\n.ﺎًﺿﺭﺃ\n\nﻭﺃ ﻝﺎﻔﻃﻷﺍ ﺔﻳﺎﻋﺮﻟ {FACTION_pawnsPlural} ﺪﺣﺃ ﻦّﻴﻋ\nﻝﺎﻔﻃﻷﺍ ﺀﻻﺆﻫ ﻡﺎﻌﻃﻹ ﻊﺿﺮﻣ {FACTION_pawnSingular} ﻦّﻴﻋ\nﺔﻳﺬﻐﺗ ﺐﻳﻮﺒﺗ ﻲﻓ ﺔﻠﺟﺎﻋ ﺔﻳﻮﻟﻭﺄﺑ\nﺍًﺪﺣﺍﻭ ﻥﺃ ﻦﻣ ﺪﻛﺄﺗﻭ ،ﻝﺎﻔﻃﻷﺍ\nﺎًﺣﻭﺮﻄﻣ ﺲﻴﻟ ﻞﻗﻷﺍ ﻰﻠﻋ ﻢﻬﻨﻣ\n.ﺎًﺿﺭﺃ</AlertNoBabyFeederDesc>
+  <!-- EN: Abandoned baby -->
+  <AlertAbandonedBaby>ﺭﻮﺠﻬﻣ ﻞﻔﻃ</AlertAbandonedBaby>
+  <!-- EN: There are abandoned babies nearby with no closeby caregivers.  If you don't adopt the babies, they'll probably starve to death.\n\nTo adopt a baby, select it and then select "{0}". -->
+  <AlertAbandonedBabyDesc>ﻥﻭﺩ ﺏﺮﻘﻟﺎﺑ ﻥﻭﺭﻮﺠﻬﻣ ﻝﺎﻔﻃﺃ ﺪﺟﻮﻳ\nﻢﻟ ﺍﺫﺇ .ﻦﻴﺒﻳﺮﻗ ﺔﻳﺎﻋﺭ ﻲﻣﺪﻘﻣ\nﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻤﻓ ،ﻝﺎﻔﻃﻷﺍ َّﻦﺒﺘﺗ\n.ﺎًﻋﻮﺟ ﺍﻮﺗﻮﻤﻳ\n\n."{0}" ﺮﺘﺧﺍ ﻢﺛ ﻩﺮﺘﺧﺍ ،ﻞﻔﻃ ﻲﻨﺒﺘﻟ</AlertAbandonedBabyDesc>
+
+  <!-- EN: No baby food in caravan -->
+  <AlertNoBabyFoodCaravan>ﺔﻠﻓﺎﻘﻟﺍ ﻲﻓ ﻝﺎﻔﻃﺃ ﻡﺎﻌﻃ ﺪﺟﻮﻳ ﻻ</AlertNoBabyFoodCaravan>
+  <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
+  <AlertNoBabyFoodCaravanDesc>ﺲﻴﻟ ﺔﻠﻓﺎﻘﻟﺍ ﻩﺬﻫ ﻲﻓ ﻝﺎﻔﻃﻷﺍ\n{FACTION_pawnsPlural} ﺪﺟﻮﻳ ﻻﻭ ﻝﺎﻔﻃﺃ ﻡﺎﻌﻃ ﻢﻬﻳﺪﻟ\n.ﻢﻬﻣﺎﻌﻃﻹ ﺕﺎﻌﺿﺮﻣ</AlertNoBabyFoodCaravanDesc>
+
+  <!-- EN: Toxic buildup -->
+  <AlertToxicBuildup>ﻡﻮﻤﺴﻟﺍ ﻢﻛﺍﺮﺗ</AlertToxicBuildup>
+  <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
+  <AlertToxicBuildupDesc>ﻢﻛﺍﺮﺗ ﻢﻬﻳﺪﻟ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﺀﻻﺆﻫ\n:ﻡﻮﻤﺴﻠﻟ ﺮﻴﻄﺧ\n\n{0}\n\n.ﻡﻮﻤﺴﻟﺍ ﺭﺩﺎﺼﻣ ﻦﻋ ﺍًﺪﻴﻌﺑ ﻢﻬﻠﻘﻧﺍ\n\nﺐﺒﺴﺑ ﻡﻮﻤﺴﻟﺍ ﻢﻛﺍﺮﺗ ﺙﺪﺤﻳ ﻥﺃ ﻦﻜﻤﻳ\nﻂﻗﺎﺴﺘﻟﺍ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ﺓﺮﻴﺜﻛ ﺀﺎﻴﺷﺃ\nﺽﺭﻷﺍﻭ ،ﻡﺎﺴﻟﺍ ﺯﺎﻐﻟﺍ ،ﻡﺎﺴﻟﺍ\n.ﺔﺛﻮﻠﻤﻟﺍ</AlertToxicBuildupDesc>
+
+  <!-- EN: Need baby cribs -->
+  <AlertNeedBabyCribs>ﻝﺎﻔﻃﺃ ﺩﻮﻬﻤﻟ ﺔﺟﺎﺤﺑ</AlertNeedBabyCribs>
+  <!-- EN: You have more babies than cribs.\n\nMake more cribs or, if you have no resources to spare, place some baby sleeping spots for free. -->
+  <AlertNeedBabyCribsDesc>.ﺩﻮﻬﻤﻟﺍ ﻦﻣ ﺮﺜﻛﺃ ﻝﺎﻔﻃﺃ ﻚﻳﺪﻟ\n\nﻢﻟ ﺍﺫﺇ ،ﻭﺃ ﺮﺜﻛﺃ ﺍًﺩﻮﻬﻣ ﻊﻨﺻﺍ\nﺾﻌﺑ ﻊﺿ ،ﺔﻀﺋﺎﻓ ﺩﺭﺍﻮﻣ ﻚﻳﺪﻟ ﻦﻜﺗ\n.ﺎًﻧﺎﺠﻣ ﻝﺎﻔﻃﻷﺍ ﻡﻮﻧ ﻦﻛﺎﻣﺃ</AlertNeedBabyCribsDesc>
+  <!-- EN: Need slave cribs -->
+  <AlertNeedSlaveCribs>ﺪﻴﺒﻋ ﺩﻮﻬﻤﻟ ﺔﺟﺎﺤﺑ</AlertNeedSlaveCribs>
+  <!-- EN: You have more slave babies than you have cribs marked for slave use.\n\nEither make more cribs or change a colonist crib to a slave crib.\n\nIf you have no resources, baby sleeping spots are free and can be placed instantly. -->
+  <AlertNeedSlaveCribsDesc>ﺩﻮﻬﻤﻟﺍ ﻦﻣ ﺮﺜﻛﺃ ﺪﻴﺒﻋ ﻝﺎﻔﻃﺃ ﻚﻳﺪﻟ\n.ﺪﻴﺒﻌﻠﻟ ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﺼﺼﺨﻤﻟﺍ\n\nﻭﺃ ﺮﺜﻛﺃ ﺍًﺩﻮﻬﻣ ﻊﻨﺼﺗ ﻥﺃ ﺎﻣﺇ\n.ﺪﻴﺒﻋ ﺪﻬﻣ ﻰﻟﺇ ﺮﻤﻌﺘﺴﻣ ﺪﻬﻣ ﺮﻴﻐﺗ\n\nﻥﺈﻓ ،ﺩﺭﺍﻮﻣ ﻚﻳﺪﻟ ﻦﻜﺗ ﻢﻟ ﺍﺫﺇ\nﻦﻜﻤﻳﻭ ﺔﻴﻧﺎﺠﻣ ﻝﺎﻔﻃﻷﺍ ﻡﻮﻧ ﻦﻛﺎﻣﺃ\n.ﺍًﺭﻮﻓ ﺎﻬﻌﺿﻭ</AlertNeedSlaveCribsDesc>
+
+  <!-- EN: Polluted terrain -->
+  <AlertPollutedTerrain>ﺔﺛﻮﻠﻣ ﺽﺭﺃ</AlertPollutedTerrain>
+  <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
+  <AlertPollutedTerrainDesc>ﻢﻛﺍﺮﺗ ﻦﻣ ﻲﻧﺎﻌﻳ ﻥﺍﻮﻴﺣ ﻭﺃ ﺺﺨﺷ\nﻲﻓ .ﺔﺛﻮﻠﻣ ﺽﺭﺃ ﻰﻠﻋ ﻮﻫﻭ ﻡﻮﻤﺴﻟﺍ\nﺽﺭﺃ ﻰﻠﻋ ﺎﻣ ﺺﺨﺷ ﻥﻮﻜﻳ ﺖﻗﻭ ﻱﺃ\nﻡﻮﻤﺴﻟﺍ ﻢﻛﺍﺮﺗ ﺩﺍﺩﺰﻴﺳ ،ﺔﺛﻮﻠﻣ\n.ﺕﻮﻤﻟﺍ ﻰﺘﺣ ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﻪﻳﺪﻟ\n\nﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻭﺃ ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ\n:ﻥﻭﺮﺛﺄﺘﻣ\n\n{0}\n\nﺽﺭﻷﺍ ﻦﻋ ﺍًﺪﻴﻌﺑ ﺱﺎﻨﻟﺍ ِﻖﺑﺃ\nﻢﻬﺘﻳﺎﻤﺤﻟ ﺔﻘﻳﺮﻃ ﺪﺟ ﻭﺃ ،ﺔﺛﻮﻠﻤﻟﺍ\n،ﺲﺑﻼﻤﻟﺍ ﺾﻌﺑ .ﺎﻬﺗﺍﺮﻴﺛﺄﺗ ﻦﻣ\nﻦﻜﻤﻳ ﺕﺎﻨﻴﺠﻟﺍ ﺕﻼﻳﺪﻌﺗﻭ ﺕﺎﻋﺭﺰﻟﺍ\nﻻ .ﻡﻮﻤﺴﻟﺍ ﻢﻛﺍﺮﺗ ﻦﻣ ﻲﻤﺤﺗ ﻥﺃ\nﺔﺛﻮﻠﻤﻟﺍ ﺽﺭﻷﺍ ﺔﻴﻄﻐﺗ ﻦﻜﻤﻳ\nﻦﻜﻤﻳ ﻦﻜﻟﻭ ،ﺔﻴﺿﺭﺃ ﻡﺍﺪﺨﺘﺳﺎﺑ\n.ﻯﺮﺧﺃ ﻕﺮﻄﺑﻭ ﺎًﻳﻭﺪﻳ ﺎﻬﻔﻴﻈﻨﺗ</AlertPollutedTerrainDesc>
+
+  <!-- EN: Mechanoid missing part -->
+  <AlertMechMissingBodyPart>ﺀﺰﺟ ﺎﻬﺼﻘﻨﻳ ﺪﻳﻮﻧﺎﻜﻴﻣ</AlertMechMissingBodyPart>
+  <!-- EN: Mechanoids missing parts -->
+  <AlertMechsMissingBodyPart>ﺀﺍﺰﺟﺃ ﺎﻬﺼﻘﻨﻳ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻣ</AlertMechsMissingBodyPart>
+  <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
+  <AlertMechMissingBodyPartDesc>ﻚﺗﺍﺪﻳﻮﻧﺎﻜﻴﻣ ﻦﻣ ﺮﺜﻛﺃ ﻭﺃ ﺪﺣﺍﻭ\nﻦﻜﻤﻳ .ﻢﺴﺠﻟﺍ ﻦﻣ ﺀﺰﺟ ﺎﻬﺼﻘﻨﻳ\nﺀﺍﺰﺟﻷﺍ ﺡﻼﺻﺇ ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻠﻟ\n.ﺓﺩﻮﻘﻔﻤﻟﺍ\n\nﺀﺍﺰﺟﺃ ﺕﺪﻘﻓ ﻲﺘﻟﺍ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\nﻲﻫ ﻢﺴﺠﻟﺍ ﻦﻣ</AlertMechMissingBodyPartDesc>
+
+  <!-- EN: Mechanoid repair needed -->
+  <AlertMechNeedsRepair>ﺡﻼﺻﻹ ﺔﺟﺎﺤﺑ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ</AlertMechNeedsRepair>
+  <!-- EN: These mechanoids are damaged and need repair -->
+  <AlertMechNeedsRepairDescPrefix>ﺝﺎﺘﺤﺗﻭ ﺔﻔﻟﺎﺗ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻩﺬﻫ\nﺡﻼﺻﺇ ﻰﻟﺇ</AlertMechNeedsRepairDescPrefix>
+  <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
+  <AlertMechNeedsRepairDesc>ﻭﺃ ،ﺎﻬﺣﻼﺻﺈﺑ ﺍًﺭﻮﺘﻴﻧﺎﻜﻴﻣ ﺮﻣﺃ\nﻞﻴﻐﺸﺘﺑ ﻢﻗﻭ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﺮﺘﺧﺍ\nﺪﻳﻮﻧﺎﻜﻴﻣ ﺡﻼﺻﺇ .ﻲﺋﺎﻘﻠﺘﻟﺍ ﺡﻼﺻﻹﺍ\nﺔﻗﺎﻃ ﺖﻧﺎﻛ ﺍﺫﺇ .ﺔﻗﺎﻃ ﺐﻠﻄﺘﻳ\nﻻ ﺚﻴﺤﺑ ﺍًﺪﺟ ﺔﻀﻔﺨﻨﻣ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\nﺎﻣ ﺺﺨﺷ ﻰﻠﻋ ﺐﺠﻴﻓ ،ﻙﺮﺤﺘﻟﺍ ﺎﻬﻨﻜﻤﻳ\n.ﻦﺣﺎﺸﻟﺍ ﻰﻟﺇ ﺎﻬﻠﻤﺣ</AlertMechNeedsRepairDesc>
+  
+  <!-- EN: {0} stopped -->
+  <AlertToxifierGeneratorStopped>{0} ﻒﻗﻮﺗ</AlertToxifierGeneratorStopped>
+  <!-- EN: Your {0} is not producing power because it has no nearby fertile terrain to convert.\n\nClean polluted terrain with pollution pumps, or by assigning a pollution removal area. -->
+  <AlertToxifierGeneratorStoppedDesc>ﺔﻗﺎﻃ ﺞﺘﻨﻳ ﻻ ﻚﺑ ﺹﺎﺨﻟﺍ {0} ﺪﻟﻮﻣ\nﺔﺒﻳﺮﻗ ﺔﺒﺼﺧ ﺽﺭﺃ ﺪﺟﻮﺗ ﻻ ﻪﻧﻷ\n.ﺎﻬﻠﻳﻮﺤﺘﻟ\n\nﺕﺎﺨﻀﻤﺑ ﺔﺛﻮﻠﻤﻟﺍ ﺽﺭﻷﺍ ﻒﻈﻧ\nﺔﻟﺍﺯﺇ ﺔﻘﻄﻨﻣ ﻦﻴﻴﻌﺘﺑ ﻭﺃ ،ﺙﻮﻠﺘﻟﺍ\n.ﺙﻮﻠﺘﻟﺍ</AlertToxifierGeneratorStoppedDesc>
+
+  <!-- EN: Psychic bond distance -->
+  <AlertPsychicBondedPawnsSeparated>ﻲﺴﻔﻨﻟﺍ ﻂﺑﺍﺮﻟﺍ ﺔﻓﺎﺴﻣ</AlertPsychicBondedPawnsSeparated>
+  <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
+  <AlertPsychicBondedPawnsSeparatedDesc>ﻂﺑﺍﻭﺮﻟﺍ ﻱﻭﺫ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﺾﻌﺑ\nﺭﺎﺛﺂﺑ ﻥﻭﺮﻌﺸﻳﻭ ﻢﻬﻠﺼﻓ ﻢﺗ ﺔﻴﺴﻔﻨﻟﺍ\n،ﻚﻟﺫ ﺐﻨﺠﺘﻟ .ﺔﻓﺎﺴﻤﻟﺍ ﻦﻣ ﺔﻴﺒﻠﺳ\nﻂﺑﺍﺮﻟﺍ ﻭﻭﺫ ﺹﺎﺨﺷﻷﺍ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ\n،ﻢﻟﺎﻌﻟﺍ ﺔﻴﻠﺧ ﺲﻔﻧ ﻲﻓ ﻲﺴﻔﻨﻟﺍ\nﺔﻓﺎﺿﻹﺎﺑ .ﺔﺒﻛﺮﻤﻟﺍ ﻭﺃ ،ﺔﻠﻓﺎﻘﻟﺍ\nﺕﺎﺒﺳ ﻲﻓ ﺍﻮﻧﻮﻜﻳ ﻻﺃ ﺐﺠﻳ ،ﻚﻟﺫ ﻰﻟﺇ\n.ﺓﺎﻴﺤﻟﺍ ﻖﻴﻠﻌﺗ ﻦﻣ ﻪﻬﺑﺎﺸﻳ ﺎﻣ ﻭﺃ\n\nﻥﻭﺮﺛﺄﺘﻣ ﻥﻮﻴﻟﺎﺘﻟﺍ ﺹﺎﺨﺷﻷﺍ</AlertPsychicBondedPawnsSeparatedDesc>
+
+  <!-- EN: Gene bank needs power -->
+  <AlertGenebankUnpowered>ﺔﻗﺎﻃ ﺝﺎﺘﺤﻳ ﺕﺎﻨﻴﺠﻟﺍ ﻚﻨﺑ</AlertGenebankUnpowered>
+  <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
+  <AlertGenebankUnpoweredDesc>،ﺔﻗﺎﻄﻟﺎﺑ ﺩﻭﺰﻣ ﺮﻴﻏ ﺕﺎﻨﻴﺟ ﻚﻨﺑ\nﻪﻠﺧﺍﺪﺑ ﺕﺎﻨﻴﺠﻟﺍ ﺕﺍﻮﺒﻋ ﻥﺈﻓ ﺍﺬﻟ\nﻰﻟﺇ ﺔﻗﺎﻄﻟﺍ ﺪﻋﺃ .ﺀﻂﺒﺑ ﺭﻮﻫﺪﺘﺗ\nﺕﺍﻮﺒﻋ ﺭﻮﻫﺪﺗ ﻊﻨﻤﻟ ﺕﺎﻨﻴﺠﻟﺍ ﻚﻨﺑ\n.ﺕﺎﻨﻴﺠﻟﺍ\n\nﺕﺎﻨﻴﺠﻟﺍ ﻚﻨﺑ ﺪﻳﻭﺰﺗ ﺩﺮﺠﻤﺑ\nﺭﻮﻫﺪﺗ ﺀﻂﺒﺑ ﺲﻜﻌﻴﺳ ،ﺔﻗﺎﻄﻟﺎﺑ\n.ﻪﻠﺧﺍﺪﺑ ﺕﺎﻨﻴﺠﻟﺍ ﺕﺍﻮﺒﻋ</AlertGenebankUnpoweredDesc>
+
+  <!-- EN: {0} incoming -->
+  <AlertBossgroupIncoming>{0} ﻡﺩﺎﻗ</AlertBossgroupIncoming>
+  <!-- EN: Signaled by your mechanitor, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile mechanoids will arrive in a few hours or days. -->
+  <AlertBossgroupIncomingDesc>ﺹﺎﺨﻟﺍ ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻟﺍ ﻦﻣ ﺓﺭﺎﺷﺈﺑ\nﻪﻴﻘﻓﺍﺮﻣ ﻊﻣ ٍﺩﺎﻌﻣ {0} ﺏﺮﺘﻘﻳ ،ﻚﺑ\nﻥﻮﻜﻳ ﻦﻟ ،ﺍًﺪﻌﺘﺴﻣ ﻦﻛ .ﻦﻴﻴﻟﺎﺘﻘﻟﺍ\nﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ .ًﻼﻬﺳ ﺎﻻﺎﺘﻗ\nﻭﺃ ﺕﺎﻋﺎﺳ ﻥﻮﻀﻏ ﻲﻓ ﻞﺼﺘﺳ ﺔﻳﺩﺎﻌﻤﻟﺍ\n.ﺔﻠﻴﻠﻗ ﻡﺎﻳﺃ</AlertBossgroupIncomingDesc>
+
+  <!-- EN: Deathrest complete -->
+  <AlertDeathrestComplete>ﺕﻮﻤﻟﺍ ﺕﺎﺒﺳ ﻞﻤﺘﻛﺍ</AlertDeathrestComplete>
+  <!-- EN: The following people have completed their deathrest and can wake up safely -->
+  <AlertDeathrestCompleteDesc>ﺕﺎﺒﺳ ﺍﻮﻠﻤﻛﺃ ﻥﻮﻴﻟﺎﺘﻟﺍ ﺹﺎﺨﺷﻷﺍ\nﻥﺎﻣﺄﺑ ﻅﺎﻘﻴﺘﺳﻻﺍ ﻢﻬﻨﻜﻤﻳﻭ ﺕﻮﻤﻟﺍ</AlertDeathrestCompleteDesc>
+
+</LanguageData>

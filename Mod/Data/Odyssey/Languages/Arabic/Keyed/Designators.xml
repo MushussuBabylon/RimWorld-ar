@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Fishing -->
+  <!-- EN: Fishing zone -->
+  <Zone_Fishing>ﺪﻴﺻ ﺔﻘﻄﻨﻣ</Zone_Fishing>
+  <!-- EN: fishing -->
+  <FishingGroup>ﻚﻤﺴﻟﺍ ﺪﻴﺻ</FishingGroup>
+  <!-- EN: Create an area where your hunters will fish. Must be placed over water containing fish. Larger bodies of water are generally better for fishing. -->
+  <DesignatorFishingZoneDesc>ﻙﻭﺩﺎﻴﺻ ﺩﺎﻄﺼﻴﺳ ﺚﻴﺣ ﺔﻘﻄﻨﻣ ﺀﺎﺸﻧﺇ\nﺀﺎﻣ ﻕﻮﻓ ﺎﻬﻌﺿﻭ ﺐﺠﻳ .ﻙﺎﻤﺳﻷﺍ\nﺕﺎﺤﻄﺴﻤﻟﺍ .ﻙﺎﻤﺳﺃ ﻰﻠﻋ ﻱﻮﺘﺤﻳ\nًﺎﻣﻮﻤﻋ ﻞﻀﻓﺃ ﺓﺮﻴﺒﻜﻟﺍ ﺔﻴﺋﺎﻤﻟﺍ\n.ﻚﻤﺴﻟﺍ ﺪﻴﺼﻟ</DesignatorFishingZoneDesc>
+
+  <!-- Override snow clearing => snow and sand clearing -->
+  <!-- EN: Snow and sand removal area -->
+  <DesignatorAreaSnowOrSandClearExpand>ﻞﻣﺮﻟﺍﻭ ﺞﻠﺜﻟﺍ ﺔﻟﺍﺯﺇ ﺔﻘﻄﻨﻣ</DesignatorAreaSnowOrSandClearExpand>
+  <!-- EN: Create an area which colonists will try to keep clear of snow and sand. -->
+  <DesignatorAreaSnowOrSandClearExpandDesc>ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻝﻭﺎﺤﻴﺳ ﺔﻘﻄﻨﻣ ﺀﺎﺸﻧﺇ\n.ﻞﻣﺮﻟﺍﻭ ﺞﻠﺜﻟﺍ ﻦﻣ ﺔﻴﻟﺎﺧ ﺎﻫﺀﺎﻘﺑﺇ</DesignatorAreaSnowOrSandClearExpandDesc>
+  <!-- EN: Clear snow and sand removal area -->
+  <DesignatorAreaSnowOrSandClearClear>ﻞﻣﺮﻟﺍﻭ ﺞﻠﺜﻟﺍ ﺔﻟﺍﺯﺇ ﺔﻘﻄﻨﻣ ﺢﺴﻣ</DesignatorAreaSnowOrSandClearClear>
+  <!-- EN: Removes a snow and sand removal area. Colonists will no longer try to keep this area clear of snow and sand. -->
+  <DesignatorAreaSnowOrSandClearClearDesc>ﺞﻠﺜﻟﺍ ﺔﻟﺍﺯﺇ ﺔﻘﻄﻨﻣ ﺔﻟﺍﺯﺇ\nﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻝﻭﺎﺤﻳ ﻦﻟ .ﻞﻣﺮﻟﺍﻭ\nﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﺀﺎﻘﺑﺇ ﻚﻟﺫ ﺪﻌﺑ\n.ﻞﻣﺮﻟﺍﻭ ﺞﻠﺜﻟﺍ ﻦﻣ ﺔﻴﻟﺎﺧ</DesignatorAreaSnowOrSandClearClearDesc>
+
+  <!-- EN: Remove foundation -->
+  <DesignatorRemoveFoundation>ﺱﺎﺳﻷﺍ ﺔﻟﺍﺯﺇ</DesignatorRemoveFoundation>
+  <!-- EN: Remove bridges or gravship substructure to reveal the terrain underneath. -->
+  <DesignatorRemoveFoundationDesc>ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ ﻭﺃ ﺭﻮﺴﺠﻟﺍ ﺔﻟﺍﺯﺇ\nﺲﻳﺭﺎﻀﺘﻟﺍ ﻒﺸﻜﻟ ﺔﻴﺑﺫﺎﺠﻟﺍ ﺔﻨﻴﻔﺴﻟ\n.ﺎﻬﺘﺤﺗ</DesignatorRemoveFoundationDesc>
+
+  <!-- EN: Move landing zone -->
+  <DesignatorMoveGravship>ﻁﻮﺒﻬﻟﺍ ﺔﻘﻄﻨﻣ ﻞﻘﻧ</DesignatorMoveGravship>
+  <!-- EN: Reposition the gravship's landing spot. -->
+  <DesignatorMoveGravshipDesc>ﺔﻨﻴﻔﺳ ﻁﻮﺒﻫ ﺔﻌﻘﺑ ﻊﻗﻮﻣ ﺮﻴﻴﻐﺗ\n.ﺔﻴﺑﺫﺎﺠﻟﺍ</DesignatorMoveGravshipDesc>
+</LanguageData>

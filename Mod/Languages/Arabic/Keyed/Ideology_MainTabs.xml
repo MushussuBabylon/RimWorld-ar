@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Ideoligions -->
+  <!-- EN: Deities -->
+  <Deities>ﺔﻬﻟﺁ</Deities>
+  <!-- EN: Show all ideoligions -->
+  <ButtonShowAllIdeoligions>ﺪﺋﺎﻘﻌﻟﺍ ﻊﻴﻤﺟ ﺭﺎﻬﻇﺇ</ButtonShowAllIdeoligions>
+  <!-- EN: Ideoligion of -->
+  <IdeoligionOf>ﺓﺪﻴﻘﻋ</IdeoligionOf>
+  <!-- EN: Memes -->
+  <Memes>ﺕﺎﻤﻴﻣ</Memes>
+  <!-- EN: Narrative -->
+  <CoreNarrative>ﺩﺮﺴﻟﺍ</CoreNarrative>
+  <!-- EN: The core narrative of your ideoligion. This has no gameplay impact. -->
+  <CoreNarrativeDesc>ﻪﻟ ﺲﻴﻟ .ﻚﺗﺪﻴﻘﻌﻟ ﻲﺳﺎﺳﻷﺍ ﺩﺮﺴﻟﺍ\n.ﺐﻌﻠﻟﺍ ﺏﻮﻠﺳﺃ ﻰﻠﻋ ﺮﻴﺛﺄﺗ</CoreNarrativeDesc>
+  <!-- EN: Edit narrative -->
+  <EditNarrative>ﺩﺮﺴﻟﺍ ﻞﻳﺪﻌﺗ</EditNarrative>
+  <!-- EN: Lock or unlock the ideoligion's narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
+  <LockButtonDesc>ﺪﻨﻋ .ﺓﺪﻴﻘﻌﻟﺍ ﺩﺮﺳ ﺢﺘﻓ ﻭﺃ ﻞﻔﻗ\nﺩﺮﺴﻟﺍ ﺺﻧ ﺩﺪﺠﺘﻳ ﻦﻟ ،ﻞﻔﻘﻟﺍ\n.ﺓﺪﻴﻘﻌﻟﺍ ﺮﻴﻴﻐﺗ ﻢﺗ ﺍﺫﺇ ًﺎﻴﺋﺎﻘﻠﺗ</LockButtonDesc>
+  <!-- EN: {0} lock is currently on. The {1} will not auto-regenerate. -->
+  <LockInOn>ﻦﻟ .ًﺎﻴﻟﺎﺣ ﻞﻴﻐﺸﺘﻟﺍ ﺪﻴﻗ {0} ﻞﻔﻗ\n.ًﺎﻴﺋﺎﻘﻠﺗ {1} ﺩﺪﺠﺘﻳ</LockInOn>
+  <!-- EN: {0} lock is currently off. The {1} text can auto-regenerate. -->
+  <LockInOff>ﻥﺃ ﻦﻜﻤﻳ .ًﺎﻴﻟﺎﺣ ﻒﻗﻮﺘﻣ {0} ﻞﻔﻗ\n.ًﺎﻴﺋﺎﻘﻠﺗ {1} ﺺﻧ ﺩﺪﺠﺘﻳ</LockInOff>
+  <!-- EN: Lock or unlock the name of this precept. When locked, the precept name will not auto-regenerate if the ideoligion is changed. -->
+  <LockPreceptNameButtonDesc>ﺪﻨﻋ .ﺔﻴﺻﻮﻟﺍ ﻩﺬﻫ ﻢﺳﺍ ﺢﺘﻓ ﻭﺃ ﻞﻔﻗ\nﺔﻴﺻﻮﻟﺍ ﻢﺳﺍ ﺩﺪﺠﺘﻳ ﻦﻟ ،ﻞﻔﻘﻟﺍ\n.ﺓﺪﻴﻘﻌﻟﺍ ﺮﻴﻴﻐﺗ ﻢﺗ ﺍﺫﺇ ًﺎﻴﺋﺎﻘﻠﺗ</LockPreceptNameButtonDesc>
+  <!-- EN: Precepts -->
+  <Precepts>ﺎﻳﺎﺻﻭ</Precepts>
+  <!-- EN: Rituals -->
+  <Rituals>ﺱﻮﻘﻃ</Rituals>
+  <!-- EN: Roles -->
+  <IdeoRoles>ﺭﺍﻭﺩﺃ</IdeoRoles>
+  <!-- EN: Buildings -->
+  <IdeoBuildings>ٍﻥﺎﺒﻣ</IdeoBuildings>
+  <!-- EN: Relics -->
+  <IdeoRelics>ﺭﺎﺛﺁ</IdeoRelics>
+  <!-- EN: Preferred apparel -->
+  <IdeoApparel>ﺔﻠﻀﻔﻣ ﺲﺑﻼﻣ</IdeoApparel>
+  <!-- EN: apparel desire -->
+  <IdeoApparelDesire>ﺲﺑﻼﻤﻟﺍ ﻲﻓ ﺔﺒﻏﺭ</IdeoApparelDesire>
+  <!-- EN: Won't do -->
+  <UnwillingToDoIdeoAction>ﻞﻌﻔﻳ ﻦﻟ</UnwillingToDoIdeoAction>
+  <!-- EN: Stats -->
+  <PreceptStats>ﺕﺎﻴﺋﺎﺼﺣﺇ</PreceptStats>
+  <!-- EN: Prohibitions -->
+  <Prohibitions>ﺕﺍﺭﻮﻈﺤﻣ</Prohibitions>
+  <!-- EN: Opinions -->
+  <Opinions>ﺀﺍﺭﺁ</Opinions>
+  <!-- EN: Mental breaks -->
+  <MentalBreaks>ﺔﻴﺴﻔﻧ ﺕﺍﺭﺎﻴﻬﻧﺍ</MentalBreaks>
+  <!-- EN: Randomize name -->
+  <RandomizeName>ﻢﺳﻻﺍ ﺔﻴﺋﺍﻮﺸﻋ</RandomizeName>
+  <!-- EN: Randomize precepts -->
+  <RandomizePrecepts>ﺎﻳﺎﺻﻮﻟﺍ ﺔﻴﺋﺍﻮﺸﻋ</RandomizePrecepts>
+  <!-- EN: Randomize deities -->
+  <RandomizeDeities>ﺔﻬﻟﻵﺍ ﺔﻴﺋﺍﻮﺸﻋ</RandomizeDeities>
+  <!-- EN: Add deity -->
+  <AddDeity>ﻪﻟﺇ ﺔﻓﺎﺿﺇ</AddDeity>
+  <!-- EN: Choose memes -->
+  <ChooseMemes>ﺕﺎﻤﻴﻤﻟﺍ ﺮﺘﺧﺍ</ChooseMemes>
+  <!-- EN: Choose starting meme -->
+  <ChooseStartingMeme>ﺔﻳﺍﺪﺒﻟﺍ ﻢﻴﻣ ﺮﺘﺧﺍ</ChooseStartingMeme>
+  <!-- EN: Choose structure -->
+  <ChooseStructure>ﻞﻜﻴﻬﻟﺍ ﺮﺘﺧﺍ</ChooseStructure>
+  <!-- EN: Choose culture -->
+  <ChooseCulture>ﺔﻓﺎﻘﺜﻟﺍ ﺮﺘﺧﺍ</ChooseCulture>
+  <!-- EN: Culture -->
+  <Culture>ﺔﻓﺎﻘﺜﻟﺍ</Culture>
+  <!-- EN: Culture affects names, appearances, and symbols. -->
+  <CultureTip>ﺀﺎﻤﺳﻷﺍ ﻰﻠﻋ ﺔﻓﺎﻘﺜﻟﺍ ﺮﺛﺆﺗ\n.ﺯﻮﻣﺮﻟﺍﻭ ﺮﻫﺎﻈﻤﻟﺍﻭ</CultureTip>
+  <!-- EN: Structure -->
+  <StructureMeme>ﻞﻜﻴﻬﻟﺍ</StructureMeme>
+  <!-- EN: An ideoligion's structure determines the kind of entities and forces it sees as important to the moral structure of the universe. It has no direct gameplay effects. -->
+  <StructureMemeTip>ﺕﺎﻧﺎﻴﻜﻟﺍ ﻉﻮﻧ ﺓﺪﻴﻘﻌﻟﺍ ﻞﻜﻴﻫ ﺩﺪﺤﻳ\nﺔﻴﻨﺒﻠﻟ ﺔﻤﻬﻣ ﺎﻫﺍﺮﺗ ﻲﺘﻟﺍ ﻯﻮﻘﻟﺍﻭ\nﺕﺍﺮﻴﺛﺄﺗ ﻪﻟ ﺲﻴﻟ .ﻥﻮﻜﻠﻟ ﺔﻴﻗﻼﺧﻷﺍ\n.ﺐﻌﻠﻟﺍ ﺏﻮﻠﺳﺃ ﻰﻠﻋ ﺓﺮﺷﺎﺒﻣ</StructureMemeTip>
+  <!-- EN: Adjective -->
+  <Adjective>ﺔﻔﺻ</Adjective>
+  <!-- EN: Ritual room -->
+  <WorshipRoom>ﺱﻮﻘﻄﻟﺍ ﺔﻓﺮﻏ</WorshipRoom>
+  <!-- EN: Member noun -->
+  <IdeoMembers>ﻮﻀﻌﻟﺍ ﻢﺳﺍ</IdeoMembers>
+  <!-- EN: Member plural -->
+  <IdeoMembersPlural>ﺀﺎﻀﻋﻷﺍ ﻊﻤﺟ</IdeoMembersPlural>
+  <!-- EN: Edit symbols -->
+  <EditSymbols>ﺯﻮﻣﺮﻟﺍ ﻞﻳﺪﻌﺗ</EditSymbols>
+  <!-- EN: Edit deity -->
+  <EditDeity>ﻪﻟﻹﺍ ﻞﻳﺪﻌﺗ</EditDeity>
+  <!-- EN: Edit required apparel -->
+  <EditApparelRequirement>ﺔﺑﻮﻠﻄﻤﻟﺍ ﺲﺑﻼﻤﻟﺍ ﻞﻳﺪﻌﺗ</EditApparelRequirement>
+  <!-- EN: Edit name -->
+  <EditName>ﻢﺳﻻﺍ ﻞﻳﺪﻌﺗ</EditName>
+  <!-- EN: Any time -->
+  <StartingCondition_Anytime>ﺖﻗﻭ ﻱﺃ ﻲﻓ</StartingCondition_Anytime>
+  <!-- EN: Date -->
+  <StartingCondition_Date>ﺦﻳﺭﺎﺗ</StartingCondition_Date>
+  <!-- EN: Starting condition -->
+  <StartingCondition>ﺀﺪﺒﻟﺍ ﻁﺮﺷ</StartingCondition>
+  <!-- EN: Randomize symbols -->
+  <RandomizeSymbols>ﺯﻮﻣﺮﻟﺍ ﺔﻴﺋﺍﻮﺸﻋ</RandomizeSymbols>
+  <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
+  <RandomizeSymbolsTooltip>ﺔﻧﻮﻘﻳﻷﺍﻭ ﺓﺪﻴﻘﻌﻟﺍ ﻢﺳﺍ ﺔﻴﺋﺍﻮﺸﻋ\nﺹﻮﺼﻧ ﻱﺃﻭ ﺪﺋﺎﻘﻟﺍ ﺐﻘﻟﻭ ﺩﺮﺴﻟﺍﻭ\nﺀﺎﻤﺳﺃ ﻭﺃ ﺱﻮﻘﻄﻟﺍ ﺀﺎﻤﺳﺃ ﻞﺜﻣ ﻯﺮﺧﺃ\nﺮﺻﺎﻨﻋ ﻰﻠﻋ ﺮﺛﺆﻳ ﻻ ﺍﺬﻫ .ﺭﺍﻭﺩﻷﺍ\nﻭﺃ ﺕﺎﻤﻴﻤﻟﺍ ﻞﺜﻣ ﺐﻌﻠﻟﺍ ﺏﻮﻠﺳﺃ\n.ﺎﻳﺎﺻﻮﻟﺍ</RandomizeSymbolsTooltip>
+  <!-- EN: Click any element to edit it -->
+  <ClickAnyElementToEditIt>ﻪﻠﻳﺪﻌﺘﻟ ﺮﺼﻨﻋ ﻱﺃ ﻰﻠﻋ ﺮﻘﻧﺍ</ClickAnyElementToEditIt>
+  <!-- EN: Leader title -->
+  <LeaderTitle>ﺪﺋﺎﻘﻟﺍ ﺐﻘﻟ</LeaderTitle>
+  <!-- EN: Deity name -->
+  <DeityName>ﻪﻟﻹﺍ ﻢﺳﺍ</DeityName>
+  <!-- EN: Deity title -->
+  <DeityTitle>ﻪﻟﻹﺍ ﺐﻘﻟ</DeityTitle>
+  <!-- EN: Deity gender -->
+  <DeityGender>ﻪﻟﻹﺍ ﺲﻨﺟ</DeityGender>
+  <!-- EN: Name -->
+  <Name>ﻢﺳﻻﺍ</Name>
+  <!-- EN: Icon -->
+  <Icon>ﺔﻧﻮﻘﻳﺃ</Icon>
+  <!-- EN: Related to meme -->
+  <RelatedToMeme>ﻢﻴﻤﻟﺎﺑ ﻂﺒﺗﺮﻣ</RelatedToMeme>
+  <!-- EN: This is a charity quest. If you don't fulfill it, believers in {0} will be unhappy due to their charitable beliefs. If you do, believers in {0} will be happy ({1}). -->
+  <IdeoCharityQuestInfo>ﻢﻘﺗ ﻢﻟ ﺍﺫﺇ .ﺔﻳﺮﻴﺧ ﺔﻤﻬﻣ ﻩﺬﻫ\nﺮﻴﻏ {0} ـﺑ ﻥﻮﻨﻣﺆﻤﻟﺍ ﺢﺒﺼﻴﺳ ،ﺎﻬﺑ\n.ﺔﻳﺮﻴﺨﻟﺍ ﻢﻬﺗﺍﺪﻘﺘﻌﻣ ﺐﺒﺴﺑ ﺀﺍﺪﻌﺳ\nـﺑ ﻥﻮﻨﻣﺆﻤﻟﺍ ﻥﻮﻜﻴﺳ ،ﺎﻬﺑ ﺖﻤﻗ ﺍﺫﺇ\n.({1}) ﺀﺍﺪﻌﺳ {0}</IdeoCharityQuestInfo>
+  <!-- EN: Slaves will not do this work -->
+  <WorkDisabledSlave>ﻞﻤﻌﻟﺍ ﺍﺬﻬﺑ ﺪﻴﺒﻌﻟﺍ ﻡﻮﻘﻳ ﻦﻟ</WorkDisabledSlave>
+  <!-- EN: Disabled by health condition -->
+  <WorkDisabledHealth>ﺔﻴﺤﺻ ﺔﻟﺎﺣ ﺐﺒﺴﺑ ﻞﻄﻌﻣ</WorkDisabledHealth>
+  <!-- EN: Disabled by {0} role -->
+  <WorkDisabledRole>{0} ﺭﻭﺩ ﺐﺒﺴﺑ ﻞﻄﻌﻣ</WorkDisabledRole>
+  <!-- EN: Affected by traits -->
+  <AffectedByTraits>ﺕﺎﻤﺴﻟﺎﺑ ﺮﺛﺄﺘﻣ</AffectedByTraits>
+  <!-- EN: This is a charity quest. People with charitable beliefs will be affected by its outcome. -->
+  <CharityQuestTip>ﺹﺎﺨﺷﻷﺍ ﺮﺛﺄﺘﻴﺳ .ﺔﻳﺮﻴﺧ ﺔﻤﻬﻣ ﻩﺬﻫ\nﺔﻳﺮﻴﺨﻟﺍ ﺕﺍﺪﻘﺘﻌﻤﻟﺍ ﻭﻭﺫ\n.ﺎﻬﺘﺠﻴﺘﻨﺑ</CharityQuestTip>
+  <!-- EN: formerly -->
+  <Formerly>ًﺎﻘﺑﺎﺳ</Formerly>
+  <!-- EN: all -->
+  <All>ﻞﻜﻟﺍ</All>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
+  <RelicTip>ﺔﻴﺣﻭﺭ ﺔﻴﻤﻫﺃ ﺕﺍﺫ ﺀﺎﻴﺷﺃ ﻲﻫ ﺭﺎﺛﻵﺍ\nﺎﻬﻓﺎﺸﺘﻛﺍ ﻦﻜﻤﻳ .ﺔﻳﺪﺋﺎﻘﻋ ﻭﺃ\nﻦﻜﻤﻳ .ﺓﺮﻴﻄﺧﻭ ﺔﻠﻳﻮﻃ ﻡﺎﻬﻣ ﻝﺎﻤﻛﺈﺑ\nﺏﺬﺠﻟ ﺭﺎﺛﻵﺍ ﺀﺎﻋﻭ ﻲﻓ ﺮﺛﻷﺍ ﺐﻴﻛﺮﺗ\nﺔﻳﻮﻘﺗﻭ ،ﺱﻮﻘﻄﻟﺍ ﺰﻳﺰﻌﺗﻭ ،ﺝﺎﺠﺤﻟﺍ\nﻞﻳﻮﺤﺗ ﻰﻠﻋ ﺓﺪﻴﻘﻌﻟﺍ ﺓﺭﺪﻗ\n.ﺀﺎﺑﺮﻐﻟﺍ</RelicTip>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims and enhance rituals. -->
+  <RelicTipClassic>ﺔﻴﺣﻭﺭ ﺔﻴﻤﻫﺃ ﺕﺍﺫ ﺀﺎﻴﺷﺃ ﻲﻫ ﺭﺎﺛﻵﺍ\nﺎﻬﻓﺎﺸﺘﻛﺍ ﻦﻜﻤﻳ .ﺔﻳﺪﺋﺎﻘﻋ ﻭﺃ\nﻦﻜﻤﻳ .ﺓﺮﻴﻄﺧﻭ ﺔﻠﻳﻮﻃ ﻡﺎﻬﻣ ﻝﺎﻤﻛﺈﺑ\nﺏﺬﺠﻟ ﺭﺎﺛﻵﺍ ﺀﺎﻋﻭ ﻲﻓ ﺮﺛﻷﺍ ﺐﻴﻛﺮﺗ\n.ﺱﻮﻘﻄﻟﺍ ﺰﻳﺰﻌﺗﻭ ﺝﺎﺠﺤﻟﺍ</RelicTipClassic>
+  <!-- EN: animal -->
+  <Animal>ﻥﺍﻮﻴﺣ</Animal>
+  <!-- EN: Venerated animals -->
+  <VeneratedAnimals>ﺔﻠﺠﺒﻣ ﺕﺎﻧﺍﻮﻴﺣ</VeneratedAnimals>
+  <!-- EN: weapon pair -->
+  <IdeoWeapon>ﺔﺤﻠﺳﺃ ﺝﻭﺯ</IdeoWeapon>
+  <!-- EN: Weapons -->
+  <IdeoWeapons>ﺔﺤﻠﺳﺃ</IdeoWeapons>
+  <!-- EN: Swap noble and despised -->
+  <SwapNobleAndDespised>ﻩﻭﺮﻜﻤﻟﺍﻭ ﻞﻴﺒﻨﻟﺍ ﻞﻳﺪﺒﺗ</SwapNobleAndDespised>
+  <!-- EN: noble -->
+  <Noble>ﻞﻴﺒﻧ</Noble>
+  <!-- EN: despised -->
+  <Despised>ﻩﻭﺮﻜﻣ</Despised>
+  <!-- EN: Unlocked craftables -->
+  <UnlockedRecipes>ﺔﺣﻮﺘﻔﻣ ﻊﻨﺼﻠﻟ ﺔﻠﺑﺎﻗ ﺩﺍﻮﻣ</UnlockedRecipes>
+  <!-- EN: Start with research -->
+  <IdeoStartWithResearch>ﺚﺤﺒﺑ ﺀﺪﺒﻟﺍ</IdeoStartWithResearch>
+  <!-- EN: Agreeing traits -->
+  <AgreeableTraits>ﺔﻘﻓﺍﻮﺘﻣ ﺕﺎﻤﺳ</AgreeableTraits>
+  <!-- EN: Conflicting traits -->
+  <DisagreeableTraits>ﺔﺿﺭﺎﻌﺘﻣ ﺕﺎﻤﺳ</DisagreeableTraits>
+  <!-- EN: Shooting -->
+  <Shooting>ﺔﻳﺎﻣﺮﻟﺍ</Shooting>
+  <!-- EN: Impact -->
+  <IdeoImpact>ﺮﻴﺛﺄﺘﻟﺍ</IdeoImpact>
+  <!-- EN: Overall impact -->
+  <IdeoImpactOverall>ﻲﻠﻜﻟﺍ ﺮﻴﺛﺄﺘﻟﺍ</IdeoImpactOverall>
+  <!-- EN: Some memes impact gameplay more than others. The meme's impact score gives a sense of how big of a gameplay impact it has. -->
+  <IdeoImpactOverallDesc>ﺏﻮﻠﺳﺃ ﻰﻠﻋ ﺮﺛﺆﺗ ﺕﺎﻤﻴﻤﻟﺍ ﺾﻌﺑ\nﺔﺟﺭﺩ ﻲﻄﻌﺗ .ﺎﻫﺮﻴﻏ ﻦﻣ ﺮﺜﻛﺃ ﺐﻌﻠﻟﺍ\nﻯﺪﻣ ﻦﻋ ﺓﺮﻜﻓ ﻢﻴﻤﻟﺍ ﺮﻴﺛﺄﺗ\n.ﺐﻌﻠﻟﺍ ﺏﻮﻠﺳﺃ ﻰﻠﻋ ﺎﻫﺮﻴﺛﺄﺗ</IdeoImpactOverallDesc>
+  <!-- EN: low -->
+  <IdeoMemeImpactLabel_1>ﺾﻔﺨﻨﻣ</IdeoMemeImpactLabel_1>
+  <!-- EN: medium -->
+  <IdeoMemeImpactLabel_2>ﻂﺳﻮﺘﻣ</IdeoMemeImpactLabel_2>
+  <!-- EN: high -->
+  <IdeoMemeImpactLabel_3>ﻲﻟﺎﻋ</IdeoMemeImpactLabel_3>
+  <!-- EN: low -->
+  <IdeoImpactLabel_1>ﺾﻔﺨﻨﻣ</IdeoImpactLabel_1>
+  <!-- EN: low -->
+  <IdeoImpactLabel_2>ﺾﻔﺨﻨﻣ</IdeoImpactLabel_2>
+  <!-- EN: moderate -->
+  <IdeoImpactLabel_3>ﻝﺪﺘﻌﻣ</IdeoImpactLabel_3>
+  <!-- EN: moderate -->
+  <IdeoImpactLabel_4>ﻝﺪﺘﻌﻣ</IdeoImpactLabel_4>
+  <!-- EN: strong -->
+  <IdeoImpactLabel_5>ﻱﻮﻗ</IdeoImpactLabel_5>
+  <!-- EN: strong -->
+  <IdeoImpactLabel_6>ﻱﻮﻗ</IdeoImpactLabel_6>
+  <!-- EN: very strong -->
+  <IdeoImpactLabel_7>ًﺍﺪﺟ ﻱﻮﻗ</IdeoImpactLabel_7>
+  <!-- EN: very strong -->
+  <IdeoImpactLabel_8>ًﺍﺪﺟ ﻱﻮﻗ</IdeoImpactLabel_8>
+  <!-- EN: extreme -->
+  <IdeoImpactLabel_9>ﺪﻳﺪﺷ</IdeoImpactLabel_9>
+  <!-- EN: This was your colony's starting ideoligion. -->
+  <InitialPlayerIdeo>ﺔﻴﺳﺎﺳﻷﺍ ﺓﺪﻴﻘﻌﻟﺍ ﻩﺬﻫ ﺖﻧﺎﻛ\n.ﻚﺗﺮﻤﻌﺘﺴﻤﻟ</InitialPlayerIdeo>
+  
+  
+  <!-- EN: Since this ideoligion is so new and has so few followers on this planet, it is fluid. This means that it can develop over time.\n\nDeveloping the ideoligion costs development points. You can earn development points by completing rituals and quests related to this ideoligion.\n\nWith enough development points, you can reform the ideoligion with new memes, precepts, styles, and more. -->
+  <FluidIdeoTip>ًﺍﺪﺟ ﺓﺪﻳﺪﺟ ﺓﺪﻴﻘﻌﻟﺍ ﻩﺬﻫ ﻥﺃ ﺎﻤﺑ\nﻉﺎﺒﺗﻷﺍ ﻦﻣ ًﺍﺪﺟ ﻞﻴﻠﻗ ﺩﺪﻋ ﺎﻬﻳﺪﻟﻭ\n.ﺓﺮﻴﻐﺘﻣ ﻲﻬﻓ ،ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ\nﺭﻮﻄﺘﺗ ﻥﺃ ﻦﻜﻤﻳ ﺎﻬﻧﺃ ﻲﻨﻌﻳ ﺍﺬﻫ\n.ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ\n\n.ﺮﻳﻮﻄﺗ ﻁﺎﻘﻧ ﻒﻠﻜﻳ ﺓﺪﻴﻘﻌﻟﺍ ﺮﻳﻮﻄﺗ\nﻝﺎﻤﻛﺈﺑ ﺮﻳﻮﻄﺘﻟﺍ ﻁﺎﻘﻧ ﺐﺴﻛ ﻚﻨﻜﻤﻳ\nﻩﺬﻬﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﻡﺎﻬﻤﻟﺍﻭ ﺱﻮﻘﻄﻟﺍ\n.ﺓﺪﻴﻘﻌﻟﺍ\n\nﻚﻨﻜﻤﻳ ،ﺔﻴﻓﺎﻛ ﺮﻳﻮﻄﺗ ﻁﺎﻘﻧ ﻊﻣ\nﺎﻳﺎﺻﻭﻭ ﺕﺎﻤﻴﻤﺑ ﺓﺪﻴﻘﻌﻟﺍ ﻞﻳﺪﻌﺗ\n.ﺪﻳﺰﻤﻟﺍﻭ ﺓﺪﻳﺪﺟ ﺐﻴﻟﺎﺳﺃﻭ</FluidIdeoTip>
+  <!-- EN: How to get development points -->
+  <FluidIdeoTipGetPoints>ﺮﻳﻮﻄﺘﻟﺍ ﻁﺎﻘﻧ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﺔﻴﻔﻴﻛ</FluidIdeoTipGetPoints>
+  <!-- EN: Convert someone to your ideoligion -->
+  <FluidIdeoTipGetPoinsByConversion>ﻚﺗﺪﻴﻘﻋ ﻰﻟﺇ ﺎﻣ ﺺﺨﺷ ﻞﻳﻮﺤﺗ</FluidIdeoTipGetPoinsByConversion>
+
+  <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
+  <ResearchProjectHasDefsWithMissingMemes>ﺎﻫﺅﺎﻨﺑ ﻚﻨﻜﻤﻳ ﻻ ﺀﺎﻴﺷﺃ {0} ﺢﺘﻔﻳ\nﻱﺃ ﺎﻬﺑ ﻦﻣﺆﻳ ﻻ ﺕﺎﻤﻴﻣ ﺐﻠﻄﺘﺗ ﺎﻬﻧﻷ\nﻙﺩﺍﺮﻓﺃ ﻦﻣ</ResearchProjectHasDefsWithMissingMemes>
+  <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
+  <SelectedWorkTypeOpposedByIdeo>ﻞﻤﻌﻟﺍ ﻦﻣ ﻉﻮﻨﻟﺍ ﺍﺬﻫ :ﺮﻳﺬﺤﺗ\nﻞﻌﺠﻳ ﺪﻗ ﺍﺬﻟ ،{0_possessive} ﺓﺪﻴﻘﻋ ﻪﺿﺭﺎﻌﺗ\n.ﺪﻴﻌﺳ ﺮﻴﻏ ﺺﺨﺸﻟﺍ ﺍﺬﻫ</SelectedWorkTypeOpposedByIdeo>
+
+  <!-- EN: Development points -->
+  <DevelopmentPoints>ﺮﻳﻮﻄﺘﻟﺍ ﻁﺎﻘﻧ</DevelopmentPoints>
+
+</LanguageData>

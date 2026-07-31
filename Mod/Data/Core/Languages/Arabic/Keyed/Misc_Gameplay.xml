@@ -1,0 +1,2191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Various -->
+  <!-- EN: hit points -->
+  <HitPointsBasic>ﺔﺤﺼﻟﺍ ﻁﺎﻘﻧ</HitPointsBasic>
+  <!-- EN: Work left -->
+  <WorkLeft>ﻲﻘﺒﺘﻤﻟﺍ ﻞﻤﻌﻟﺍ</WorkLeft>
+  <!-- EN: Contents -->
+  <Contents>ﺕﺎﻳﻮﺘﺤﻤﻟﺍ</Contents>
+  <!-- EN: Contained resources -->
+  <ContainedResources>ﺓﺩﻮﺟﻮﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ</ContainedResources>
+  <!-- EN: For prisoner use -->
+  <ForPrisonerUse>ﺀﺎﻨﺠﺴﻠﻟ ﺺﺼﺨﻣ</ForPrisonerUse>
+  <!-- EN: In prison cell: For prisoner use -->
+  <InPrisonCell>ﺀﺎﻨﺠﺴﻠﻟ ﺺﺼﺨﻣ :ﻦﺠﺴﻟﺍ ﺔﻧﺍﺰﻧﺯ ﻲﻓ</InPrisonCell>
+  <!-- EN: For colonist use -->
+  <ForColonistUse>ﻦﻳﺮﻤﻌﺘﺴﻤﻠﻟ ﺺﺼﺨﻣ</ForColonistUse>
+  <!-- EN: Medical -->
+  <MedicalBed>ﻲﺒﻃ</MedicalBed>
+  <!-- EN: Owner -->
+  <Owner>ﻚﻟﺎﻤﻟﺍ</Owner>
+  <!-- EN: Owners -->
+  <Owners>ﻥﻮﻜﻟﺎﻤﻟﺍ</Owners>
+  <!-- EN: Assigned colonist -->
+  <AssignedColonist>ﻦﻴﻌﻤﻟﺍ ﺮﻤﻌﺘﺴﻤﻟﺍ</AssignedColonist>
+  <!-- EN: Uncomfortable room temperature -->
+  <BedUncomfortableTemperature>ﺔﺤﻳﺮﻣ ﺮﻴﻏ ﺔﻓﺮﻐﻟﺍ ﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ</BedUncomfortableTemperature>
+  <!-- EN: Unsafe room temperature -->
+  <BedUnsafeTemperature>ﺔﻨﻣﺁ ﺮﻴﻏ ﺔﻓﺮﻐﻟﺍ ﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ</BedUnsafeTemperature>
+  <!-- EN: Died on the {0} -->
+  <DiedOn>{0} ﻲﻓ ﻲﻓﻮﺗ</DiedOn>
+  <!-- EN: Nobody -->
+  <Nobody>ﺪﺣﺃ ﻻ</Nobody>
+  <!-- EN: Unowned -->
+  <Unowned>ﻚﻟﺎﻣ ﻼﺑ</Unowned>
+  <!-- EN: Dead for {0} -->
+  <DeadTime>{0} ﺬﻨﻣ ﺖﻴﻣ</DeadTime>
+  <!-- EN: walk speed {0} -->
+  <WalkSpeed>{0} ﻲﺸﻤﻟﺍ ﺔﻋﺮﺳ</WalkSpeed>
+  <!-- EN: fert. -->
+  <FertShort>ﺔﺑﻮﺼﺧ</FertShort>
+  <!-- EN: dying -->
+  <DyingLower>ﺮﻀﺘﺤﻳ</DyingLower>
+  <!-- EN: Filth on feet: -->
+  <FilthOnFeet>:ﺔﻘﻟﺎﻋ ﺥﺎﺳﻭﺃ</FilthOnFeet>
+  <!-- EN: not enough stored -->
+  <NotEnoughStoredLower>ﻥﺰﺨﻤﻟﺍ ﻲﻓ ﻲﻔﻜﻳ ﺎﻣ ﺪﺟﻮﻳ ﻻ</NotEnoughStoredLower>
+  <!-- EN: nothing -->
+  <NothingLower>ﺀﻲﺷﻻ</NothingLower>
+  <!-- EN: Nothing -->
+  <Nothing>ﺀﻲﺷﻻ</Nothing>
+  <!-- EN: Adapted -->
+  <Adapted>ﻢﻠﻗﺄﺘﻣ</Adapted>
+  <!-- EN: fresh -->
+  <FreshMissingBodyPart>ﺝﺯﺎﻃ</FreshMissingBodyPart>
+  <!-- EN: developed immunity -->
+  <DevelopedImmunityLower>ﺔﻋﺎﻨﻣ ﺭﻮﻃ</DevelopedImmunityLower>
+  <!-- EN: Needs tending now -->
+  <NeedsTendingNow>ﻥﻵﺍ ﺝﻼﻌﻠﻟ ﺝﺎﺘﺤﻳ</NeedsTendingNow>
+  <!-- EN: Can tend now -->
+  <CanTendNow>ﻥﻵﺍ ﻪﺟﻼﻋ ﻦﻜﻤﻳ</CanTendNow>
+  <!-- EN: Tending expires in {0} -->
+  <TreatmentExpiresIn>{0} ﻝﻼﺧ ﺝﻼﻌﻟﺍ ﻲﻬﺘﻨﻳ</TreatmentExpiresIn>
+  <!-- EN: Can be tended in {0} -->
+  <NextTendIn>{0} ﻝﻼﺧ ﻪﺟﻼﻋ ﻦﻜﻤﻳ</NextTendIn>
+  <!-- EN: Tend quality -->
+  <TendQuality>ﺝﻼﻌﻟﺍ ﺓﺩﻮﺟ</TendQuality>
+  <!-- EN: Total tend quality -->
+  <DisappearsAtTotalTendQuality>ﺝﻼﻌﻟﺍ ﺓﺩﻮﺟ ﻲﻟﺎﻤﺟﺇ</DisappearsAtTotalTendQuality>
+  <!-- EN: no {0} -->
+  <MissingMedicalBillIngredient>{0} ﺪﺟﻮﻳ ﻻ</MissingMedicalBillIngredient>
+  <!-- EN: Immunity -->
+  <Immunity>ﺔﻋﺎﻨﻤﻟﺍ</Immunity>
+  <!-- EN: {0} days to recover -->
+  <DaysToRecover>ﻲﻓﺎﻌﺘﻠﻟ ﻡﻮﻳ {0}</DaysToRecover>
+  <!-- EN: Ineffective -->
+  <Ineffective>ﻝﺎﻌﻓ ﺮﻴﻏ</Ineffective>
+  <!-- EN: illegal -->
+  <Illegal>ﻲﻧﻮﻧﺎﻗ ﺮﻴﻏ</Illegal>
+  <!-- EN: detection chance -->
+  <DetectionChance>ﻒﺸﻜﻟﺍ ﺔﻴﻟﺎﻤﺘﺣﺍ</DetectionChance>
+  <!-- EN: Race -->
+  <Race>ﻕﺮﻌﻟﺍ</Race>
+  <!-- EN: Description -->
+  <Description>ﻒﺻﻮﻟﺍ</Description>
+  <!-- EN: Equipment -->
+  <Equipment>ﺕﺍﺪﻌﻤﻟﺍ</Equipment>
+  <!-- EN: Apparel -->
+  <Apparel>ﺲﺑﻼﻤﻟﺍ</Apparel>
+  <!-- EN: Inventory -->
+  <Inventory>ﻥﻭﺰﺨﻤﻟﺍ</Inventory>
+  <!-- EN: Information -->
+  <ThingInfo>ﺕﺎﻣﻮﻠﻌﻣ</ThingInfo>
+  <!-- EN: Drop -->
+  <DropThing>ﻁﺎﻘﺳﺇ</DropThing>
+  <!-- EN: Temporary faction members will not drop their items. -->
+  <DropThingLodger>ﻥﻮﺘﻗﺆﻤﻟﺍ ﻞﻴﺼﻔﻟﺍ ﺀﺎﻀﻋﺃ ﻂﻘﺴﻳ ﻦﻟ\n.ﻢﻬﺿﺍﺮﻏﺃ</DropThingLodger>
+  <!-- EN: This person refuses to drop this. -->
+  <DropThingLocked>.ﺍﺬﻫ ﻁﺎﻘﺳﺇ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺾﻓﺮﻳ</DropThingLocked>
+  <!-- EN: Rename -->
+  <Rename>ﺔﻴﻤﺴﺗ ﺓﺩﺎﻋﺇ</Rename>
+  <!-- EN: Rename animal -->
+  <RenameAnimal>ﻥﺍﻮﻴﺤﻟﺍ ﺔﻴﻤﺴﺗ ﺓﺩﺎﻋﺇ</RenameAnimal>
+  <!-- EN: Rename colonist -->
+  <RenameColonist>ﺮﻤﻌﺘﺴﻤﻟﺍ ﺔﻴﻤﺴﺗ ﺓﺩﺎﻋﺇ</RenameColonist>
+  <!-- EN: Renounce title -->
+  <RenounceTitle>ﺐﻘﻠﻟﺍ ﻦﻋ ﻝﺯﺎﻨﺘﻟﺍ</RenounceTitle>
+  <!-- EN: Execute -->
+  <Execute>ﻡﺍﺪﻋﺇ</Execute>
+  <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
+  <ExecuteColonist>ﺐﻧﺬﻣ ﺮﻤﻌﺘﺴﻣ ﻡﺍﺪﻋﺇ\n\n،ﺭﺎﻴﺨﻟﺍ ﺍﺬﻫ ﻞﻴﻌﻔﺘﺑ ﺖﻤﻗ ﺍﺫﺇ\n.ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﻡﺍﺪﻋﺈﺑ ﻥﺎﺠﺴﻟﺍ ﻡﻮﻘﻴﺳ</ExecuteColonist>
+  <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
+  <MessageColonistMarkedForExecution>ﻝﻭﺃ ﻡﻮﻘﻴﺳ .ﻡﺍﺪﻋﻺﻟ {0_labelShort} ﺪﻳﺪﺤﺗ ﻢﺗ\nﻡﺍﺪﻋﻹﺍ ﻢﻜﺣ ﺬﻴﻔﻨﺘﺑ ﺡﺎﺘﻣ ﻥﺎﺠﺳ\n.{0_objective}ﻲﻓ</MessageColonistMarkedForExecution>
+  <!-- EN: {0} of {1} -->
+  <TitleOfFaction>{1} ـﺑ ﺹﺎﺨﻟﺍ {0}</TitleOfFaction>
+  <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
+  <RenounceTitleDescription>{PAWN_nameDef} ﻞﻌﺟ ﻰﻟﺇ ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﻱﺩﺆﻴﺳ\nﺾﻳﻮﻌﺗ ﻱﺃ ﻰﻘﻠﺘﺗ ﻦﻟ .{TITLE} ﻪﺒﻘﻟ ﺪﻘﻔﻳ\n.ﺐﻘﻠﻟﺍ ﻦﻋ ﻝﺯﺎﻨﺘﻟﺍ ﻦﻋ\n\n:ﺔﻴﻟﺎﺘﻟﺍ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﺍﺬﻬﻟ ﻥﻮﻜﻴﺳ\n\n{EFFECTS}</RenounceTitleDescription>
+  <!-- EN: {PAWN_pronoun} will lose these permissions -->
+  <RenounceTitleWillLoosePermits>ﺢﻳﺭﺎﺼﺘﻟﺍ ﻩﺬﻫ {PAWN_pronoun}ﺪﻘﻔﻴﺳ</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+  <RenounceTitleWillLosePermitPoints>ﺢﻳﺭﺎﺼﺘﻟﺍ ﻁﺎﻘﻧ ﻦﻣ {POINTS} ﺩﺪﻋ {PAWN_nameDef} ﺪﻘﻔﻴﺳ\n.{FACTION_name} ﻯﺪﻟ ﺔﻣﺪﺨﺘﺴﻤﻟﺍ ﺮﻴﻏ</RenounceTitleWillLosePermitPoints>
+  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+  <RenounceTitleWillKeepPsylinkLevels>ـﻟﺍ ﺕﺎﻳﻮﺘﺴﻣ ﻊﻴﻤﺠﺑ {PAWN_pronoun}ﻆﻔﺘﺤﻴﺳ\nﺔﺻﺎﺨﻟﺍ psycasts ـﻟﺍﻭ psylink\n.ﻪﺑ</RenounceTitleWillKeepPsylinkLevels>
+  <!-- EN: unknown -->
+  <UnknownLower>ﻝﻮﻬﺠﻣ</UnknownLower>
+  <!-- EN: On -->
+  <On>ﻞﻴﻐﺸﺗ</On>
+  <!-- EN: Off -->
+  <Off>ﻑﺎﻘﻳﺇ</Off>
+  <!-- EN: {0} {1} -->
+  <SourceToolLabel>{0} {1}</SourceToolLabel>
+  <!-- EN: Power -->
+  <PowerSwitch_Power>ﺔﻗﺎﻄﻟﺍ</PowerSwitch_Power>
+  <!-- EN: Recreation type tolerances -->
+  <JoyTolerances>ﻪﻴﻓﺮﺘﻟﺍ ﻉﻮﻧ ﻞﻤﺤﺗ</JoyTolerances>
+  <!-- EN: Milk fullness -->
+  <MilkFullness>ﺐﻴﻠﺤﻟﺍ ﺀﻼﺘﻣﺍ</MilkFullness>
+  <!-- EN: Wool growth -->
+  <WoolGrowth>ﻑﻮﺼﻟﺍ ﻮﻤﻧ</WoolGrowth>
+  <!-- EN: Egg progress -->
+  <EggProgress>ﺾﻴﺒﻟﺍ ﺝﺎﺘﻧﺇ ﻡﺪﻘﺗ</EggProgress>
+  <!-- EN: Fertilized -->
+  <Fertilized>ﺐﺼﺨﻣ</Fertilized>
+  <!-- EN: Progress stopped until fertilized -->
+  <ProgressStoppedUntilFertilized>ﺐﻴﺼﺨﺘﻟﺍ ﻢﺘﻳ ﻰﺘﺣ ﻡﺪﻘﺘﻟﺍ ﻒﻗﻮﺗ</ProgressStoppedUntilFertilized>
+  <!-- EN: Hatches in -->
+  <HatchesIn>ﻝﻼﺧ ﺲﻘﻔﻳ</HatchesIn>
+  <!-- EN: need {0} level {2}, have {1} -->
+  <SkillTooLow>{1} ﻚﻳﺪﻟ ،{2} ﻯﻮﺘﺴﻣ {0} ﺝﺎﺘﺤﻳ</SkillTooLow>
+  <!-- EN: Freezing -->
+  <Freezing>ﺪﻤﺠﺗ</Freezing>
+  <!-- EN: Overheating -->
+  <Overheating>ﺓﺭﺍﺮﺤﻟﺍ ﻉﺎﻔﺗﺭﺍ</Overheating>
+  <!-- EN: Ruined by temperature. -->
+  <RuinedByTemperature>.ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ ﺐﺒﺴﺑ ﻒﻟﺎﺗ</RuinedByTemperature>
+  <!-- EN: Missing body parts -->
+  <CorpsePercentMissing>ﺓﺩﻮﻘﻔﻤﻟﺍ ﻢﺴﺠﻟﺍ ﺀﺍﺰﺟﺃ</CorpsePercentMissing>
+  <!-- EN: Reproduces in -->
+  <HiveReproducesIn>ﻲﻓ ﺮﺛﺎﻜﺘﻳ</HiveReproducesIn>
+  <!-- EN: Dormant: Not reproducing. -->
+  <DormantHiveNotReproducing>.ﺮﺛﺎﻜﺘﻳ ﻻ :ﻞﻣﺎﺧ</DormantHiveNotReproducing>
+  <!-- EN: Next {0} in -->
+  <NextSpawnedItemIn>ﻲﻓ {0} ﻲﻟﺎﺘﻟﺍ</NextSpawnedItemIn>
+  <!-- EN: Next resource in -->
+  <NextSpawnedResourceIn>ﻲﻓ ﻲﻟﺎﺘﻟﺍ ﺩﺭﻮﻤﻟﺍ</NextSpawnedResourceIn>
+  <!-- EN: Broken down -->
+  <BrokenDown>ﻞﻄﻌﻣ</BrokenDown>
+  <!-- EN: (bond) -->
+  <BondBrackets>(ﺔﻄﺑﺍﺭ)</BondBrackets>
+  <!-- EN: Fuel -->
+  <Fuel>ﺩﻮﻗﻮﻟﺍ</Fuel>
+  <!-- EN: Fuel -->
+  <FuelLevelGizmoLabel>ﺩﻮﻗﻮﻟﺍ</FuelLevelGizmoLabel>
+  <!-- EN: Set target fuel level to {0} -->
+  <SetTargetFuelLevel>ﻰﻠﻋ ﻑﺪﻬﺘﺴﻤﻟﺍ ﺩﻮﻗﻮﻟﺍ ﻯﻮﺘﺴﻣ ﻂﺒﺿ\n{0}</SetTargetFuelLevel>
+  <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
+  <SetPodLauncherTargetFuelLevel>ﻰﻠﻋ ﻑﺪﻬﺘﺴﻤﻟﺍ ﺩﻮﻗﻮﻟﺍ ﻯﻮﺘﺴﻣ ﻂﺒﺿ\n{0}\nﺕﺎﻌﺑﺮﻣ {1} :ﺔﻓﺎﺴﻣ ﻰﺼﻗﺃ</SetPodLauncherTargetFuelLevel>
+  <!-- EN: Target fuel level: {0} -->
+  <ConfiguredTargetFuelLevel>{0} :ﻑﺪﻬﺘﺴﻤﻟﺍ ﺩﻮﻗﻮﻟﺍ ﻯﻮﺘﺴﻣ</ConfiguredTargetFuelLevel>
+  <!-- EN: enemies -->
+  <Enemies>ﺀﺍﺪﻋﺃ</Enemies>
+  <!-- EN: people -->
+  <People>ﺹﺎﺨﺷﺃ</People>
+  <!-- EN: time passed -->
+  <TimePassed>ﻲﻀﻘﻨﻤﻟﺍ ﺖﻗﻮﻟﺍ</TimePassed>
+  <!-- EN: current radius -->
+  <CurrentRadius>ﻲﻟﺎﺤﻟﺍ ﺮﻄﻘﻟﺍ ﻒﺼﻧ</CurrentRadius>
+  <!-- EN: radius expands in -->
+  <RadiusExpandsIn>ﻝﻼﺧ ﺮﻄﻘﻟﺍ ﻒﺼﻧ ﻊﺳﻮﺘﻳ</RadiusExpandsIn>
+  <!-- EN: permanent -->
+  <Permanent>ﻢﺋﺍﺩ</Permanent>
+  <!-- EN: Resting -->
+  <CaravanResting>ﺢﻳﺮﺘﺴﻳ</CaravanResting>
+  <!-- EN: using 1 bedroll -->
+  <UsingBedroll>ﻡﻮﻧ ﺲﻴﻛ 1 ﻡﺪﺨﺘﺴﻳ</UsingBedroll>
+  <!-- EN: using {0} bedrolls -->
+  <UsingBedrolls>ﻡﻮﻧ ﺲﻴﻛ {0} ﻡﺪﺨﺘﺴﻳ</UsingBedrolls>
+  <!-- EN: Est. time to destination: {0} days -->
+  <CaravanEstimatedTimeToDestination>ﻡﻮﻳ {0} :ﻝﻮﺻﻮﻠﻟ ﻱﺮﻳﺪﻘﺘﻟﺍ ﺖﻗﻮﻟﺍ</CaravanEstimatedTimeToDestination>
+  <!-- EN: Route travel time: {0} days -->
+  <CaravanEstimatedDaysToDestination>ﻡﻮﻳ {0} :ﺭﺎﺴﻤﻟﺍ ﺮﺒﻋ ﺮﻔﺴﻟﺍ ﺖﻗﻭ</CaravanEstimatedDaysToDestination>
+  <!-- EN: Immobilized: Too much weight. -->
+  <CaravanImmobilizedByMass>.ﺪﺋﺍﺯ ﻥﺯﻭ :ﺔﻛﺮﺤﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ</CaravanImmobilizedByMass>
+  <!-- EN: Out of food. -->
+  <CaravanOutOfFood>.ﻡﺎﻌﻄﻟﺍ ﺪﻔﻧ</CaravanOutOfFood>
+  <!-- EN: Days of food: {0} -->
+  <CaravanDaysOfFood>{0} :ﺔﻴﻘﺒﺘﻤﻟﺍ ﻡﺎﻌﻄﻟﺍ ﻡﺎﻳﺃ</CaravanDaysOfFood>
+  <!-- EN: Days of food: {0} (rot in {1} days) -->
+  <CaravanDaysOfFoodRot>ﻦﻔﻌﺘﻳ) {0} :ﺔﻴﻘﺒﺘﻤﻟﺍ ﻡﺎﻌﻄﻟﺍ ﻡﺎﻳﺃ\n(ﻡﻮﻳ {1} ﻝﻼﺧ</CaravanDaysOfFoodRot>
+  <!-- EN: Stopped because: Everyone is downed. -->
+  <AllCaravanMembersDowned>.ًﺎﺿﺭﺃ ﺍﻮﻄﻘﺳ ﻊﻴﻤﺠﻟﺍ :ﺐﺒﺴﺑ ﻒﻗﻮﺗ</AllCaravanMembersDowned>
+  <!-- EN: Stopped because: Everyone is in a mental break. -->
+  <AllCaravanMembersMentalBreak>ﺔﻟﺎﺣ ﻲﻓ ﻊﻴﻤﺠﻟﺍ :ﺐﺒﺴﺑ ﻒﻗﻮﺗ\n.ﻲﺒﺼﻋ ﺭﺎﻴﻬﻧﺍ</AllCaravanMembersMentalBreak>
+  <!-- EN: {0} {1} -->
+  <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
+  <!-- EN: 1 animal -->
+  <CaravanAnimal>ﻥﺍﻮﻴﺣ 1</CaravanAnimal>
+  <!-- EN: {0} animals -->
+  <CaravanAnimalsCount>ﺕﺎﻧﺍﻮﻴﺣ {0}</CaravanAnimalsCount>
+  <!-- EN: 1 prisoner -->
+  <CaravanPrisoner>ﻦﻴﺠﺳ 1</CaravanPrisoner>
+  <!-- EN: {0} prisoners -->
+  <CaravanPrisonersCount>ﺀﺎﻨﺠﺳ {0}</CaravanPrisonersCount>
+  <!-- EN: {0} in mental state -->
+  <CaravanPawnsInMentalState>ﺔﻴﻠﻘﻋ ﺔﻟﺎﺣ ﻲﻓ {0}</CaravanPawnsInMentalState>
+  <!-- EN: {0} downed -->
+  <CaravanPawnsDowned>ًﺎﺿﺭﺃ ﻂﻘﺳ {0}</CaravanPawnsDowned>
+  <!-- EN: Traveling. -->
+  <CaravanTraveling>.ﺮﻓﺎﺴﻳ</CaravanTraveling>
+  <!-- EN: Waiting. -->
+  <CaravanWaiting>.ﺮﻈﺘﻨﻳ</CaravanWaiting>
+  <!-- EN: Being carried due to illness -->
+  <BeingCarriedDueToIllness>ﺽﺮﻤﻟﺍ ﺐﺒﺴﺑ ﻪﻠﻤﺣ ﻢﺘﻳ</BeingCarriedDueToIllness>
+  <!-- EN: Using bedrolls due to illness -->
+  <UsingBedrollsDueToIllness>ﺽﺮﻤﻟﺍ ﺐﺒﺴﺑ ﻡﻮﻨﻟﺍ ﺱﺎﻴﻛﺃ ﻡﺪﺨﺘﺴﻳ</UsingBedrollsDueToIllness>
+  <!-- EN: Current tile movement time -->
+  <CurrentTileMovementTime>ﻲﻟﺎﺤﻟﺍ ﻊﺑﺮﻤﻟﺍ ﻲﻓ ﻞﻘﻨﺘﻟﺍ ﺖﻗﻭ</CurrentTileMovementTime>
+  <!-- EN: Visibility -->
+  <Visibility>ﺔﻳﺅﺮﻟﺍ</Visibility>
+  <!-- EN: Temperature -->
+  <Temperature>ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ</Temperature>
+  <!-- EN: bad temperature -->
+  <BadTemperature>ﺔﺌﻴﺳ ﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ</BadTemperature>
+  <!-- EN: Ideal fermenting temperature -->
+  <IdealFermentingTemperature>ﺔﻴﻟﺎﺜﻤﻟﺍ ﺮﻴﻤﺨﺘﻟﺍ ﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ</IdealFermentingTemperature>
+  <!-- EN: {0} effect multiplier: {1} -->
+  <DrugEffectMultiplier>{0}: {1} ﺮﻴﺛﺄﺗ ﻒﻋﺎﻀﻣ</DrugEffectMultiplier>
+  <!-- EN: Visiting {0}. -->
+  <CaravanVisiting>.{0} ﺭﻭﺰﻳ</CaravanVisiting>
+  <!-- EN: Entering {0}. -->
+  <CaravanEntering>.{0} ﻞﺧﺪﻳ</CaravanEntering>
+  <!-- EN: Attacking {0}. -->
+  <CaravanAttacking>.{0} ﻢﺟﺎﻬﻳ</CaravanAttacking>
+  <!-- EN: Offering gifts to {0}. -->
+  <CaravanOfferingGifts>.{0} ـﻟ ﺎﻳﺍﺪﻫ ﻡﺪﻘﻳ</CaravanOfferingGifts>
+  <!-- EN: Trading with {0}. -->
+  <CaravanTrading>.{0} ﻊﻣ ﻝﻭﺍﺪﺘﻳ</CaravanTrading>
+  <!-- EN: Tainted from being worn by a corpse. -->
+  <WasWornByCorpse>.ﺔﺜﺟ ﻪﻳﺪﺗﺮﻳ ﻥﺎﻛ ﻪﻧﻷ ﺙﻮﻠﻣ</WasWornByCorpse>
+  <!-- EN: T -->
+  <WornByCorpseChar>ﻡ</WornByCorpseChar>
+  <!-- EN: unroofed -->
+  <DeterioratingUnroofed>ﻒﻘﺳ ﻥﻭﺪﺑ</DeterioratingUnroofed>
+  <!-- EN: outdoors -->
+  <DeterioratingOutdoors>ﺝﺭﺎﺨﻟﺍ ﻲﻓ</DeterioratingOutdoors>
+  <!-- EN: raining -->
+  <DeterioratingRaining>ﺮﻄﻤﺗ</DeterioratingRaining> 
+  <!-- EN: protected -->
+  <Protected>ﻲﻤﺤﻣ</Protected>
+  <!-- EN: Deteriorating -->
+  <DeterioratingBecauseOf>ﺭﻮﻫﺪﺘﻳ</DeterioratingBecauseOf>
+  <!-- EN: Will deteriorate in {0}. -->
+  <DeteriorateInDuration>.{0} ﻝﻼﺧ ﺭﻮﻫﺪﺘﻴﺳ</DeteriorateInDuration>
+  <!-- EN: Map -->
+  <Map>ﺔﻄﻳﺮﺨﻟﺍ</Map>
+  <!-- EN: {0} until enemies arrive -->
+  <CaravanDetectedRaidCountdown>ﺀﺍﺪﻋﻷﺍ ﻝﻮﺻﻭ ﻰﺘﺣ {0}</CaravanDetectedRaidCountdown>
+  <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
+  <CaravanDetectedRaidCountdownTip>ﻝﻼﺧ ﻥﻮﻠﺼﻴﺳ .ﻚﻌﻗﻮﻤﺑ ﺀﺍﺪﻋﻷﺍ ﻢﻠﻋ\n.{0}</CaravanDetectedRaidCountdownTip>
+  <!-- EN: Room -->
+  <Room>ﺔﻓﺮﻏ</Room>
+  <!-- EN: Beauty here -->
+  <BeautyHere>ﺎﻨﻫ ﻝﺎﻤﺠﻟﺍ</BeautyHere>
+  <!-- EN: no power -->
+  <NoPower>ﺔﻗﺎﻃ ﺪﺟﻮﺗ ﻻ</NoPower>
+  <!-- EN: not in {0} -->
+  <NotInRoomRole>{0} ﻲﻓ ﺲﻴﻟ</NotInRoomRole>
+  <!-- EN: Work speed -->
+  <WorkSpeedPenalty>ﻞﻤﻌﻟﺍ ﺔﻋﺮﺳ</WorkSpeedPenalty>
+  <!-- EN: Disabled -->
+  <DisabledCommand>ﻞﻄﻌﻣ</DisabledCommand>
+  <!-- EN: Deactivated -->
+  <Deactivated>ﻞﻌﻔﻣ ﺮﻴﻏ</Deactivated>
+  <!-- EN: Ready for launch. -->
+  <ReadyForLaunch>.ﻕﻼﻃﻺﻟ ﺰﻫﺎﺟ</ReadyForLaunch>
+  <!-- EN: Not ready for launch -->
+  <NotReadyForLaunch>ﻕﻼﻃﻺﻟ ﺰﻫﺎﺟ ﺮﻴﻏ</NotReadyForLaunch>
+  <!-- EN: no fueling port -->
+  <NotAllInGroupConnectedToFuelingPort>ﺩﻮﻗﻮﻟﺎﺑ ﺪﻳﻭﺰﺗ ﺬﻔﻨﻣ ﺪﺟﻮﻳ ﻻ</NotAllInGroupConnectedToFuelingPort>
+  <!-- EN: no fuel -->
+  <NotAllLaunchablesInGroupHaveAnyFuel>ﺩﻮﻗﻭ ﺪﺟﻮﻳ ﻻ</NotAllLaunchablesInGroupHaveAnyFuel>
+  <!-- EN: loading in progress -->
+  <LaunchableInGroupHasSomethingLeftToLoad>ﻡﺪﻘﺘﻟﺍ ﺪﻴﻗ ﻞﻴﻤﺤﺘﻟﺍ</LaunchableInGroupHasSomethingLeftToLoad>
+  <!-- EN: Beyond maximum range -->
+  <TransportPodDestinationBeyondMaximumRange>ﻰﺼﻗﻷﺍ ﻕﺎﻄﻨﻟﺍ ﺯﻭﺎﺠﺘﺗ</TransportPodDestinationBeyondMaximumRange>
+  <!-- EN: No path to {LAYER_label} -->
+  <TransportPodDestinationNoPath>{LAYER_label} ﻰﻟﺇ ﺭﺎﺴﻣ ﺪﺟﻮﻳ ﻻ</TransportPodDestinationNoPath>
+  <!-- EN: Not enough fuel -->
+  <TransportPodNotEnoughFuel>ٍﻑﺎﻛ ﺩﻮﻗﻭ ﺪﺟﻮﻳ ﻻ</TransportPodNotEnoughFuel>
+  <!-- EN: {0} of {1} -->
+  <SettlementTrader>{1} ـﺑ ﺹﺎﺨﻟﺍ {0}</SettlementTrader>
+  <!-- EN: Surgery success chance multiplier from room -->
+  <RoomSurgerySuccessChanceFactor>ﻦﻣ ﺔﺣﺍﺮﺠﻟﺍ ﺡﺎﺠﻧ ﺔﻴﻟﺎﻤﺘﺣﺍ ﻒﻋﺎﻀﻣ\nﺔﻓﺮﻐﻟﺍ</RoomSurgerySuccessChanceFactor>
+  <!-- EN: Infection chance multiplier from room -->
+  <RoomInfectionChanceFactor>ﻦﻣ ﻯﻭﺪﻌﻟﺍ ﺔﻴﻟﺎﻤﺘﺣﺍ ﻒﻋﺎﻀﻣ\nﺔﻓﺮﻐﻟﺍ</RoomInfectionChanceFactor>
+  <!-- EN: Closed -->
+  <VentClosed>ﻖﻠﻐﻣ</VentClosed>
+  <!-- EN: worn by {1_labelShort} -->
+  <WornBy>{1_labelShort} ﻪﻳﺪﺗﺮﻳ</WornBy>
+  <!-- EN: equipped by {1_labelShort} -->
+  <EquippedBy>{1_labelShort} ﺔﻄﺳﺍﻮﺑ ﺰﻬﺠﻣ</EquippedBy>
+  <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
+  <QuestTargetDestroyInspectString>.ﺍﺬﻫ ﺮﻴﻣﺪﺗ ﺪﻳﺮﻳ {0}\n{1} ){2}( :ﺓﺄﻓﺎﻜﻤﻟﺍ</QuestTargetDestroyInspectString>
+  <!-- EN: {0} wants this destroyed. -->
+  <QuestTargetDestroyInspectStringShort>.ﺍﺬﻫ ﺮﻴﻣﺪﺗ ﺪﻳﺮﻳ {0}</QuestTargetDestroyInspectStringShort>
+  <!-- EN: Departing on shuttle in {0} -->
+  <ShuttleDelayInspectString>{0} ﻝﻼﺧ ﻙﻮﻜﻤﻟﺍ ﻦﺘﻣ ﻰﻠﻋ ﺓﺭﺩﺎﻐﻤﻟﺍ</ShuttleDelayInspectString>
+  <!-- EN: Departing in {0} -->
+  <ShuttleLeaveDelayInspectString>{0} ﻝﻼﺧ ﺓﺭﺩﺎﻐﻤﻟﺍ</ShuttleLeaveDelayInspectString>
+  <!-- EN: Should depart on shuttle -->
+  <ShouldDepartOnShuttleInspectString>ﻙﻮﻜﻤﻟﺍ ﻦﺘﻣ ﻰﻠﻋ ﺓﺭﺩﺎﻐﻤﻟﺍ ﺐﺠﻳ</ShouldDepartOnShuttleInspectString>
+  <!-- EN: Time left: {0} -->
+  <WorldObjectTimeout>{0} :ﻲﻘﺒﺘﻤﻟﺍ ﺖﻗﻮﻟﺍ</WorldObjectTimeout>
+  <!-- EN: Click to sort by this column. -->
+  <ClickToSortByThisColumn>.ﺩﻮﻤﻌﻟﺍ ﺍﺬﻫ ﺐﺴﺣ ﺯﺮﻔﻠﻟ ﺮﻘﻧﺍ</ClickToSortByThisColumn>
+  <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
+  <WorkPriorityShiftClickTip>ﺔﻳﻮﻟﻭﻷﺍ ﺓﺩﺎﻳﺯ :ﺮﻘﻧﺍ + Shift\nﻞﻴﻠﻘﺗ :ﻦﻴﻤﻴﻟﺎﺑ ﺮﻘﻧﺍ + Shift\nﺔﻳﻮﻟﻭﻷﺍ</WorkPriorityShiftClickTip>
+  <!-- EN: Shift + click: Enable all\nShift + right click: Disable all -->
+  <WorkPriorityShiftClickEnableDisableTip>ﻞﻜﻟﺍ ﻞﻴﻌﻔﺗ :ﺮﻘﻧﺍ + Shift\nﻞﻴﻄﻌﺗ :ﻦﻴﻤﻴﻟﺎﺑ ﺮﻘﻧﺍ + Shift\nﻞﻜﻟﺍ</WorkPriorityShiftClickEnableDisableTip>
+  <!-- EN: Shift + click: Set all to home\nShift + right click: Set all to unrestricted -->
+  <AllowedAreaShiftClickTip>ﻰﻠﻋ ﻞﻜﻟﺍ ﻂﺒﺿ :ﺮﻘﻧﺍ + Shift\nﻝﺰﻨﻤﻟﺍ\nﻞﻜﻟﺍ ﻂﺒﺿ :ﻦﻴﻤﻴﻟﺎﺑ ﺮﻘﻧﺍ + Shift\nﺪﻴﻘﻣ ﺮﻴﻏ ﻰﻠﻋ</AllowedAreaShiftClickTip>
+  <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
+  <CheckboxShiftClickTip>ﻞﻜﻟﺍ ﺪﻳﺪﺤﺗ :ﺮﻘﻧﺍ + Shift\nﺀﺎﻐﻟﺇ :ﻦﻴﻤﻴﻟﺎﺑ ﺮﻘﻧﺍ + Shift\nﻞﻜﻟﺍ ﺪﻳﺪﺤﺗ</CheckboxShiftClickTip>
+  <!-- EN: {0} {1} -->
+  <KnownSiteThreatEnemyCountAppend>{0} {1}</KnownSiteThreatEnemyCountAppend>
+  <!-- EN: Skill Requirements -->
+  <SkillRequirements>ﺓﺭﺎﻬﻤﻟﺍ ﺕﺎﺒﻠﻄﺘﻣ</SkillRequirements>
+  <!-- EN: Products -->
+  <Products>ﺕﺎﺠﺘﻨﻤﻟﺍ</Products>
+  <!-- EN: Requires -->
+  <Requires>ﺐﻠﻄﺘﻳ</Requires>
+  <!-- EN: Replaces -->
+  <Replaces>ﻝﺪﺒﺘﺴﻳ</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>{0} ﺩﻮﻘﻔﻣ</MissingPartWithLabel>
+  <!-- EN: {0}x any of -->
+  <NumAnyOf>ﻦﻣ ﻱﺃ {0}x</NumAnyOf>
+  <!-- EN: {0} of {1} -->
+  <Relationship>{1} ﻦﻣ {0}</Relationship>
+  <!-- EN: Prisoner -->
+  <Prisoner>ﻦﻴﺠﺳ</Prisoner>
+  <!-- EN: Refugee -->
+  <Refugee>ﺊﺟﻻ</Refugee>
+  <!-- EN: Terrain movement difficulty -->
+  <TileMovementDifficulty>ﺲﻳﺭﺎﻀﺘﻟﺍ ﻲﻓ ﺔﻛﺮﺤﻟﺍ ﺔﺑﻮﻌﺻ</TileMovementDifficulty>
+  <!-- EN: Impassable -->
+  <Impassable>ﺔﻜﻟﺎﺳ ﺮﻴﻏ</Impassable>
+  <!-- EN: Caravan movement speed -->
+  <CaravanMovementSpeedFull>ﺔﻠﻓﺎﻘﻟﺍ ﺔﻛﺮﺣ ﺔﻋﺮﺳ</CaravanMovementSpeedFull>
+  <!-- EN: downed -->
+  <DownedLower>ًﺎﺿﺭﺃ ﻂﻘﺳ</DownedLower>
+  <!-- EN: resting -->
+  <Carried>ﺢﻳﺮﺘﺴﻳ</Carried>
+  <!-- EN: Rideable animals / people -->
+  <RideableAnimalsPerPeople>ﻢﻬﺑﻮﻛﺭ ﻦﻜﻤﻳ ﺹﺎﺨﺷﺃ / ﺕﺎﻧﺍﻮﻴﺣ</RideableAnimalsPerPeople>
+  <!-- EN: Multiplier from ridden animals -->
+  <MultiplierFromRiddenAnimals>ﻢﺘﻳ ﻲﺘﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻦﻣ ﻒﻋﺎﻀﻣ\nﺎﻬﺑﻮﻛﺭ</MultiplierFromRiddenAnimals>
+  <!-- EN: Multiplier from bonuses -->
+  <MultiplierFromMoveSpeedBonus>ﺕﺂﻓﺎﻜﻤﻟﺍ ﻦﻣ ﻒﻋﺎﻀﻣ</MultiplierFromMoveSpeedBonus>
+  <!-- EN: Multiplier for carried mass: {0} -->
+  <MultiplierForCarriedMass>{0} :ﺔﻟﻮﻤﺤﻤﻟﺍ ﺔﻠﺘﻜﻠﻟ ﻒﻋﺎﻀﻣ</MultiplierForCarriedMass>
+  <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
+  <RideableAnimalTip>ﺐﻛﺮﻴﺳ .ﻪﺑﻮﻛﺭ ﻦﻜﻤﻳ ﻥﺍﻮﻴﺤﻟﺍ ﺍﺬﻫ\nﻉﺮﺳﺃ ﺔﻠﻓﺎﻘﻟﺍ ﻲﻓ ﺹﺎﺨﺷﻷﺍ\nﻦﺴﺤﻳ ﺎﻤﻣ ،ﺔﺣﺎﺘﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ\n.ﻞﻜﻛ ﺔﻠﻓﺎﻘﻟﺍ ﺔﻋﺮﺳ</RideableAnimalTip>
+  <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
+  <CaravanBonusTip>ﺔﻋﺮﺴﻟ ﺓﺄﻓﺎﻜﻣ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﻡﺪﻘﻳ\nﻂﺳﻮﺘﻣ ﻲﻫ ﺔﻋﺮﺴﻟﺍ ﺓﺩﺎﻳﺯ .ﺔﻠﻓﺎﻘﻟﺍ\n.ﺔﻠﻓﺎﻘﻟﺍ ﺀﺎﻀﻋﺃ ﻊﻴﻤﺟ ﺕﺂﻓﺎﻜﻣ</CaravanBonusTip>
+  <!-- EN: This caravan can't move because it carries too much. -->
+  <EncumberedCaravanTilesPerDayTip>ﻙﺮﺤﺘﻟﺍ ﺔﻠﻓﺎﻘﻟﺍ ﻩﺬﻬﻟ ﻦﻜﻤﻳ ﻻ\n.ﺮﻴﺜﻜﻟﺍ ﻞﻤﺤﺗ ﺎﻬﻧﻷ</EncumberedCaravanTilesPerDayTip>
+  <!-- EN: Caravan members speed -->
+  <FinalCaravanPawnsMovementSpeed>ﺔﻠﻓﺎﻘﻟﺍ ﺀﺎﻀﻋﺃ ﺔﻋﺮﺳ</FinalCaravanPawnsMovementSpeed>
+  <!-- EN: Final speed -->
+  <FinalCaravanMovementSpeed>ﺔﻴﺋﺎﻬﻨﻟﺍ ﺔﻋﺮﺴﻟﺍ</FinalCaravanMovementSpeed>
+  <!-- EN: Winter -->
+  <Winter>ﺀﺎﺘﺸﻟﺍ</Winter>
+  <!-- EN: {0} in winter -->
+  <MovementDifficultyOffsetInWinter>ﺀﺎﺘﺸﻟﺍ ﻲﻓ {0}</MovementDifficultyOffsetInWinter>
+  <!-- EN: to -->
+  <RangeTo>ﻰﻟﺇ</RangeTo>
+  <!-- EN: Caused by -->
+  <CausedBy>ﺐﺒﺴﺑ</CausedBy>
+  <!-- EN: No letter -->
+  <NoDietCategoryLetter>ﺔﻟﺎﺳﺭ ﺪﺟﻮﺗ ﻻ</NoDietCategoryLetter>
+  <!-- EN: expires in -->
+  <ExpiresIn>ﻲﻓ ﻪﺘﻴﺣﻼﺻ ﻲﻬﺘﻨﺗ</ExpiresIn>
+  <!-- EN: {1_labelShort}'s caravan -->
+  <CaravanLeaderCaravanName>{1_labelShort} ﺔﻠﻓﺎﻗ</CaravanLeaderCaravanName>
+  <!-- EN: Reason -->
+  <Reason>ﺐﺒﺴﻟﺍ</Reason>
+  <!-- EN: Relations with {0} -->
+  <RelationsWith>{0} ﻊﻣ ﺕﺎﻗﻼﻌﻟﺍ</RelationsWith>
+  <!-- EN: captured by {0} -->
+  <capturedBy>{0} ﺔﻄﺳﺍﻮﺑ ﻩﺮﺳﺃ ﻢﺗ</capturedBy>
+  <!-- EN: your caravan -->
+  <yourCaravan>ﻚﺘﻠﻓﺎﻗ</yourCaravan>
+  <!-- EN: {0} wildness -->
+  <CreatureWildness>ﺶﺣﻮﺗ {0}</CreatureWildness>
+  <!-- EN: {0} trainability -->
+  <CreatureTrainability>ﺐﻳﺭﺪﺘﻠﻟ ﺔﻴﻠﺑﺎﻗ {0}</CreatureTrainability>
+  <!-- EN: Follow master while drafted -->
+  <CreatureFollowDrafted>ﺪﻴﻨﺠﺘﻟﺍ ﺀﺎﻨﺛﺃ ﺪﻴﺴﻟﺍ ﻉﺎﺒﺗﺍ</CreatureFollowDrafted>
+  <!-- EN: Follow master while doing field work -->
+  <CreatureFollowFieldwork>ﻞﻤﻌﻟﺍ ﺀﺎﻨﺛﺃ ﺪﻴﺴﻟﺍ ﻉﺎﺒﺗﺍ\nﻲﻧﺍﺪﻴﻤﻟﺍ</CreatureFollowFieldwork>
+  <!-- EN: {0} with {1} -->
+  <ProximitySingleGoodwillChange>{1} ﻊﻣ {0}</ProximitySingleGoodwillChange>
+  <!-- EN: Too dangerous to re-enter for {0}. -->
+  <EnterCooldown>.{0} ـﻟ ﻝﻮﺧﺪﻟﺍ ﺓﺩﺎﻋﻹ ًﺍﺪﺟ ﺮﻴﻄﺧ</EnterCooldown>
+  <!-- EN: Caravan -->
+  <Caravan>ﺔﻠﻓﺎﻗ</Caravan>
+  <!-- EN: there may be danger there. -->
+  <HiddenOrNoSitePartDescription>.ﺮﻄﺧ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﺪﻗ</HiddenOrNoSitePartDescription>
+  <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
+  <PreciousLumpHostileThreat>ﻝﻮﺣ ًﺎﻃﺎﺸﻧ ﻲﺋﻮﻀﻟﺍ ﺢﺳﺎﻤﻟﺍ ﻂﻘﺘﻠﻳ\nﻥﻮﻜﻳ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣ .ﺔﻠﺘﻜﻟﺍ\n.ًﺎﻳﺩﺎﻌﻣ</PreciousLumpHostileThreat>
+  <!-- EN: lump of {0} -->
+  <PreciousLumpLabel>{0} ﻦﻣ ﺔﻠﺘﻛ</PreciousLumpLabel>
+  <!-- EN: no active research project -->
+  <NoActiveResearchProjectToFinish>ﻂﺸﻧ ﻲﺜﺤﺑ ﻉﻭﺮﺸﻣ ﺪﺟﻮﻳ ﻻ</NoActiveResearchProjectToFinish>
+  <!-- EN: Current project -->
+  <CurrentProject>ﻲﻟﺎﺤﻟﺍ ﻉﻭﺮﺸﻤﻟﺍ</CurrentProject>
+  <!-- EN: Research progress -->
+  <ResearchProgress>ﺚﺤﺒﻟﺍ ﻡﺪﻘﺗ</ResearchProgress>
+  <!-- EN: already has {0} -->
+  <AlreadyHasHediff>{0} ﻞﻌﻔﻟﺎﺑ ﻪﻳﺪﻟ</AlreadyHasHediff>
+  <!-- EN: turret -->
+  <Turret>ﻲﻋﺎﻓﺩ ﺝﺮﺑ</Turret>
+  <!-- EN: turrets -->
+  <Turrets>ﺔﻴﻋﺎﻓﺩ ﺝﺍﺮﺑﺃ</Turrets>
+  <!-- EN: mortar -->
+  <Mortar>ﻥﻭﺎﻫ</Mortar>
+  <!-- EN: mortars -->
+  <Mortars>ﺕﺎﻧﻭﺎﻫ</Mortars>
+  <!-- EN: enemy -->
+  <Enemy>ﻭﺪﻋ</Enemy>
+  <!-- EN: location -->
+  <Location>ﻊﻗﻮﻤﻟﺍ</Location>
+  <!-- EN: animals -->
+  <AnimalsLower>ﺕﺎﻧﺍﻮﻴﺣ</AnimalsLower>
+  <!-- EN: items -->
+  <ItemsLower>ﺽﺍﺮﻏﺃ</ItemsLower>
+  <!-- EN: {0} x{1} -->
+  <FilthLabel>{0} x{1}</FilthLabel>
+  <!-- EN: {0} of {1} x{2} -->
+  <FilthLabelWithSource>{1} x{2} ـﺑ ﺹﺎﺨﻟﺍ {0}</FilthLabelWithSource>
+  <!-- EN: Required -->
+  <Required>ﺏﻮﻠﻄﻣ</Required>
+  <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
+  <GiveGiftViaTransportPodsTradeRequestWarning>ﺕﺎﺒﻠﻃ ﻝﺎﻤﻛﺇ ﻚﻨﻜﻤﻳ ﻻ :ﺮﻳﺬﺤﺗ\n.ﻞﻘﻨﻟﺍ ﺕﻻﻮﺴﺒﻛ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺓﺭﺎﺠﺘﻟﺍ\nﺎﻬﻠﺒﻘﺘﺳ ،ﻊﺋﺎﻀﺒﻟﺍ ﺖﻠﺳﺭﺃ ﺍﺫﺇ\nﻦﻟ ﻦﻜﻟﻭ ﺎﻳﺍﺪﻬﻛ ﺔﻨﻃﻮﺘﺴﻤﻟﺍ\n.ﻚﺌﻓﺎﻜﺗ\n\nﺔﻨﻃﻮﺘﺴﻤﻟﺍ ﻦﻣ ﺏﺮﺘﻗﺍ ،ﺓﺭﺎﺠﺘﻠﻟ\n!ﺔﻠﻓﺎﻘﺑ\n\nﺀﺍﺪﻫﺇ ﺪﻳﺮﺗ ﻚﻧﺃ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ\n؟ﻞﻴﺼﻔﻠﻟ ﺔﻠﻤﺤﻤﻟﺍ ﻊﺋﺎﻀﺒﻟﺍ</GiveGiftViaTransportPodsTradeRequestWarning>
+  <!-- EN: prisoner -->
+  <PrisonerLower>ﻦﻴﺠﺳ</PrisonerLower>
+  <!-- EN: prisoners -->
+  <PrisonersLower>ﺀﺎﻨﺠﺳ</PrisonersLower>
+  <!-- EN: Click to view this quest in quests tab -->
+  <ClickToViewInQuestsTab>ﺔﻣﻼﻋ ﻲﻓ ﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﺽﺮﻌﻟ ﺮﻘﻧﺍ\nﻡﺎﻬﻤﻟﺍ ﺐﻳﻮﺒﺗ</ClickToViewInQuestsTab>
+  <!-- EN: Mood -->
+  <Mood>ﺝﺍﺰﻤﻟﺍ</Mood>
+  <!-- EN: Quest -->
+  <Quest>ﺔﻤﻬﻣ</Quest>
+  <!-- EN: Brings raids every {0} -->
+  <BringsRaidsEvery>{0} ﻞﻛ ﺕﺍﺭﺎﻏ ﺐﻠﺠﻳ</BringsRaidsEvery>
+  <!-- EN: Generates {0} every {1} -->
+  <GeneratesResourcesEvery>{1} ﻞﻛ {0} ﺪﻟﻮﻳ</GeneratesResourcesEvery>
+  <!-- EN: Foliage kill radius -->
+  <FoliageKillRadius>ﺮﺠﺸﻟﺍ ﻕﺍﺭﻭﺃ ﻞﺘﻗ ﺮﻄﻗ ﻒﺼﻧ</FoliageKillRadius>
+  <!-- EN: View: {0} -->
+  <ViewHyperlink>{0} :ﺽﺮﻋ</ViewHyperlink>
+  <!-- EN: Detonates in {0} days -->
+  <DetonationCountdown>ﻡﻮﻳ {0} ﻝﻼﺧ ﺮﺠﻔﻨﻳ</DetonationCountdown>
+  <!-- EN: Large explosion if damaged. -->
+  <ExplosionOnDamageWarning>ﻪﺿﺮﻌﺗ ﻝﺎﺣ ﻲﻓ ﺮﻴﺒﻛ ﺭﺎﺠﻔﻧﺍ\n.ﻒﻠﺘﻠﻟ</ExplosionOnDamageWarning>
+  <!-- EN: Mech cluster -->
+  <MechCluster>ﻲﻟﺁ ﺩﻮﻘﻨﻋ</MechCluster>
+  <!-- EN: Spawning in {0} -->
+  <SpawningNextPawnIn>{0} ﻲﻓ ﺮﻬﻈﻳ</SpawningNextPawnIn>
+  <!-- EN: {0} gestation completes in {1}. -->
+  <MechAssemblyCompleteIn>.{1} ﻲﻓ {0} ﻮﻤﻧ ﻞﻤﺘﻜﻳ</MechAssemblyCompleteIn>
+  <!-- EN: Will gestate -->
+  <MechAssemblyNextType>ﻮﻤﻨﻳ ﻑﻮﺳ</MechAssemblyNextType>
+  <!-- EN: produced -->
+  <ThingsProduced>ﻪﺟﺎﺘﻧﺇ ﻢﺗ</ThingsProduced>
+  <!-- EN: harvested -->
+  <PlantsHarvested>ﻩﺩﺎﺼﺣ ﻢﺗ</PlantsHarvested>
+  <!-- EN: {0} killed -->
+  <PawnsKilled>{0} ﻞﺘﻗ ﻢﺗ</PawnsKilled>
+  <!-- EN: Sent {0}, will return in {1} -->
+  <PawnsLent>{1} ﻲﻓ ﺩﻮﻌﻴﺳ ،{0} ﻝﺎﺳﺭﺇ ﻢﺗ</PawnsLent>
+  <!-- EN: Dormant -->
+  <DormantCompInactive>ﻞﻣﺎﺧ</DormantCompInactive>
+  <!-- EN: Sealed -->
+  <DormantCompSealed>ﻡﻮﺘﺨﻣ</DormantCompSealed>
+  <!-- EN: Ready to drop mechanoids -->
+  <DormantCompBeacon>ﻦﻴﻴﻟﻵﺍ ﻁﺎﻘﺳﻹ ﺰﻫﺎﺟ</DormantCompBeacon>
+  <!-- EN: Expired -->
+  <DormantCompExpired>ﺔﻴﺣﻼﺼﻟﺍ ﻲﻬﺘﻨﻣ</DormantCompExpired>
+  <!-- EN: Initiates in -->
+  <InitiatesIn>ﻲﻓ ﺃﺪﺒﻳ</InitiatesIn>
+  <!-- EN: Activates in {0} -->
+  <SendSignalOnCountdownCompTime>{0} ﻲﻓ ﻪﻠﻴﻌﻔﺗ ﻢﺘﻳ</SendSignalOnCountdownCompTime>
+  <!-- EN: Neural heat -->
+  <PsychicEntropy>ﺔﻴﺒﺼﻋ ﺓﺭﺍﺮﺣ</PsychicEntropy>
+  <!-- EN: Heat -->
+  <PsychicEntropyShort>ﺓﺭﺍﺮﺣ</PsychicEntropyShort>
+  <!-- EN: {0} pain boost -->
+  <PsychicEntropyPainFocus>ﻢﻟﻷﺍ ﺰﻳﺰﻌﺗ {0}</PsychicEntropyPainFocus>
+  <!-- EN: radius {0} -->
+  <ConditionCauserRadius>{0} ﺮﻄﻗ ﻒﺼﻧ</ConditionCauserRadius>
+  <!-- EN: low psyfocus -->
+  <LowPsyfocus>ﺾﻔﺨﻨﻣ ﻲﺴﻔﻧ ﺰﻴﻛﺮﺗ</LowPsyfocus>
+  <!-- EN: {0} left -->
+  <DurationLeft>{0} ﻰﻘﺒﺗ</DurationLeft>
+  <!-- EN: Any of -->
+  <AnyOf>ﻦﻣ ﻱﺃ</AnyOf>
+  <!-- EN: Requires {0} trait -->
+  <TraitRequired>{0} ﺔﻤﺳ ﺐﻠﻄﺘﻳ</TraitRequired>
+  <!-- EN: Goodwill -->
+  <Goodwill>ﺔﻴﻨﻟﺍ ﻦﺴﺣ</Goodwill>
+  <!-- EN: Natural goodwill -->
+  <NaturalGoodwill>ﻲﻌﻴﺒﻄﻟﺍ ﺔﻴﻨﻟﺍ ﻦﺴﺣ</NaturalGoodwill>
+  <!-- EN: Natural goodwill range -->
+  <NaturalGoodwillRange>ﻲﻌﻴﺒﻄﻟﺍ ﺔﻴﻨﻟﺍ ﻦﺴﺣ ﻕﺎﻄﻧ</NaturalGoodwillRange>
+  <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
+  <NaturalGoodwillDescription>ﻰﻠﻋ ﻲﻌﻴﺒﻄﻟﺍ ﺔﻴﻨﻟﺍ ﻦﺴﺣ ﺪﻤﺘﻌﻳ\nﻥﺎﻛ ﺍﺫﺇ .ﻞﻴﺼﻔﻟﺍ ﺕﺍﺪﻘﺘﻌﻣﻭ ﺕﺎﻳﻮﻫ\nﻦﻋ ًﺍﺪﻴﻌﺑ ﻲﻟﺎﺤﻟﺍ ﺔﻴﻨﻟﺍ ﻦﺴﺣ\nﻮﺤﻧ ﺀﻂﺒﺑ ﻝﻮﺤﺘﻳ ﻑﻮﺴﻓ ،ﻲﻌﻴﺒﻄﻟﺍ\n.ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﻲﻌﻴﺒﻄﻟﺍ\n\nﺔﻴﻨﻟﺍ ﻦﺴﺣ ﺕﺍﺮﻴﺛﺄﺗ ﻊﻴﻤﺟ ﺏﺮﻀُﺗ\nﺔﻴﻨﻟﺍ ﻦﺴﺣ ﻮﺤﻧ ﻙﺮﺤﺘﻟﺍ ﺪﻨﻋ {0} ﻲﻓ\n.ﻲﻌﻴﺒﻄﻟﺍ</NaturalGoodwillDescription>
+  <!-- EN: reducing resistance of {0_nameIndef} -->
+  <JobReport_ReduceResistance>{0_nameIndef} ﺔﻣﻭﺎﻘﻣ ﻞﻴﻠﻘﺗ</JobReport_ReduceResistance>
+  <!-- EN: Too large -->
+  <TooLargeForBed>ًﺍﺪﺟ ﺮﻴﺒﻛ</TooLargeForBed>
+  <!-- EN: Warning -->
+  <Warning>ﺮﻳﺬﺤﺗ</Warning>
+  <!-- EN: Has subquest -->
+  <HasSubquest>ﺔﻴﻋﺮﻓ ﺔﻤﻬﻣ ﺎﻬﻳﺪﻟ</HasSubquest>
+  <!-- EN: Subquest of -->
+  <SubquestOf>ـﻟ ﺔﻴﻋﺮﻓ ﺔﻤﻬﻣ</SubquestOf>
+  <!-- EN: Raid -->
+  <Raid>ﺓﺭﺎﻏ</Raid>
+  <!-- EN: Disabled by -->
+  <ApparelRequirementDisabledLabel>ﺔﻄﺳﺍﻮﺑ ﻞﻄﻌﻣ</ApparelRequirementDisabledLabel>
+  <!-- EN: Nudism -->
+  <Nudism>ﻱﺮﻌﻟﺍ</Nudism>
+  <!-- EN: Study progress -->
+  <StudyProgress>ﺔﺳﺍﺭﺪﻟﺍ ﻡﺪﻘﺗ</StudyProgress>
+  <!-- EN: completed -->
+  <StudyCompleted>ﻞﻤﺘﻜﻣ</StudyCompleted>
+  <!-- EN: Attack this to destroy it. -->
+  <AttackToDestroy>.ﻩﺮﻴﻣﺪﺘﻟ ﺍﺬﻫ ﻢﺟﺎﻫ</AttackToDestroy>
+  <!-- EN: Remove this by attacking it. -->
+  <RemoveByAttackingTooltip>.ﻪﺘﻤﺟﺎﻬﻤﺑ ﺍﺬﻫ ﻝﺯﺃ</RemoveByAttackingTooltip>
+  <!-- EN: Food -->
+  <ThoughtFoodEatenFood>ﻡﺎﻌﻃ</ThoughtFoodEatenFood>
+  <!-- EN: Ingredients -->
+  <ThoughtFoodEatenIngredients>ﺕﺎﻧﻮﻜﻣ</ThoughtFoodEatenIngredients>
+  <!-- EN: Shield pack -->
+  <ShieldInbuilt>ﻉﺭﺩ ﺔﻣﺰﺣ</ShieldInbuilt>
+  <!-- EN: Punctured - will explode soon. -->
+  <PuncturedWillExplode>.ًﺎﺒﻳﺮﻗ ﺮﺠﻔﻨﻴﺳ - ﺏﻮﻘﺜﻣ</PuncturedWillExplode>
+  <!-- EN: Click to open research window -->
+  <ClickToOpenResearchTab>ﺚﺤﺒﻟﺍ ﺓﺬﻓﺎﻧ ﺢﺘﻔﻟ ﺮﻘﻧﺍ</ClickToOpenResearchTab>
+  <!-- EN: Target belongs to another faction. -->
+  <TargetBelongsToNPCFaction>.ﺮﺧﺁ ﻞﻴﺼﻔﻟ ﻲﻤﺘﻨﻳ ﻑﺪﻬﻟﺍ</TargetBelongsToNPCFaction>
+  <!-- EN: more -->
+  <MoreLower>ﺪﻳﺰﻤﻟﺍ</MoreLower>
+  <!-- EN: Requires -->
+  <RequiredTechprintTip>ﺐﻠﻄﺘﻳ</RequiredTechprintTip>
+  <!-- EN: size -->
+  <Size>ﻢﺠﺤﻟﺍ</Size>
+  <!-- EN: Total planning area -->
+  <TotalPlanningArea>ﻂﻴﻄﺨﺘﻟﺍ ﺔﻘﻄﻨﻣ ﻲﻟﺎﻤﺟﺇ</TotalPlanningArea>
+  <!-- EN: cost -->
+  <Cost>ﺔﻔﻠﻜﺘﻟﺍ</Cost>
+  <!-- EN: Stunned by EMP -->
+  <StunnedByEMP>EMP ﺔﻄﺳﺍﻮﺑ ﻡﻭﺪﺼﻣ</StunnedByEMP>
+  <!-- EN: Title -->
+  <BackstoryTitle>ﺐﻘﻠﻟﺍ</BackstoryTitle>
+  <!-- EN: person -->
+  <Person>ﺺﺨﺷ</Person>
+  <!-- EN: activated. -->
+  <Activated>.ﻞﻌﻔﻣ</Activated> 
+  <!-- EN: Contains -->
+  <Contains>ﻰﻠﻋ ﻱﻮﺘﺤﻳ</Contains>
+  <!-- EN: Hostiles -->
+  <Hostiles>ﻥﻭﺩﺎﻌﻣ</Hostiles>
+  <!-- EN: Investigate -->
+  <Investigate>ﻖﻘﺤﺗ</Investigate> 
+  <!-- EN: Activate -->
+  <Activate>ﻞﻴﻌﻔﺗ</Activate> 
+  <!-- EN: Deactivate -->
+  <Deactivate>ﻞﻴﻄﻌﺗ</Deactivate>
+  <!-- EN: Activation -->
+  <Activation>ﻞﻴﻌﻔﺗ</Activation>
+  <!-- EN: complete -->
+  <Complete>ﻞﻤﺘﻜﻣ</Complete>
+  <!-- EN: Must be imprisoned. -->
+  <RequiresImprisonment>.ًﺎﻧﻮﺠﺴﻣ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ</RequiresImprisonment> 
+  <!-- EN: Prioritize hauling contents -->
+  <HaulFromSource>ﺕﺎﻳﻮﺘﺤﻤﻟﺍ ﻞﻘﻧ ﺔﻳﻮﻟﻭﺃ</HaulFromSource>
+  <!-- EN: Use -->
+  <UseGizmo>ﻡﺪﺨﺘﺳﺍ</UseGizmo>
+  <!-- EN: Order someone to use the {0}. -->
+  <UseGizmoTooltip>.{0} ﻡﺍﺪﺨﺘﺳﺎﺑ ًﺍﺪﺣﺃ ﺮﻣﺃ</UseGizmoTooltip>
+  <!-- EN: Choose who should use this -->
+  <UseGizmoMouse>ﺍﺬﻫ ﻡﺪﺨﺘﺴﻳ ﻥﺃ ﺐﺠﻳ ﻦﻣ ﺮﺘﺧﺍ</UseGizmoMouse>
+  <!-- EN: Select target -->
+  <TargetGizmoMouse>ﻑﺪﻬﻟﺍ ﺩﺪﺣ</TargetGizmoMouse>
+  <!-- EN: Cannot use this -->
+  <CannotUseGizmoMouse>ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ ﻻ</CannotUseGizmoMouse>
+  <!-- EN: Buildings -->
+  <Buildings>ٍﻥﺎﺒﻣ</Buildings>
+  <!-- EN: not yet discovered -->
+  <NotYetDiscovered>ﺪﻌﺑ ﻪﻓﺎﺸﺘﻛﺍ ﻢﺘﻳ ﻢﻟ</NotYetDiscovered>
+  <!-- EN: Crawling to safety. -->
+  <ReportStringCrawlingToSafety>.ﻥﺎﻣﻷﺍ ﻰﻟﺇ ﻒﺣﺰﻳ</ReportStringCrawlingToSafety>
+  <!-- EN: Crawling to bed. -->
+  <ReportStringCrawlingToBed>.ﺮﻳﺮﺴﻟﺍ ﻰﻟﺇ ﻒﺣﺰﻳ</ReportStringCrawlingToBed>
+  <!-- EN: flying -->
+  <Flying>ﺮﻴﻄﻳ</Flying>
+  <!-- EN: Prevent cutting -->
+  <PreventCutting>ﻊﻄﻘﻟﺍ ﻊﻨﻣ</PreventCutting>
+  <!-- EN: When on, colonists won't cut this plant. -->
+  <PreventCuttingDesc>ﻡﻮﻘﻳ ﻦﻟ ،ﻞﻴﻌﻔﺘﻟﺍ ﺪﻨﻋ\n.ﺕﺎﺒﻨﻟﺍ ﺍﺬﻫ ﻊﻄﻘﺑ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ</PreventCuttingDesc>
+
+  <!-- EN: Resulting from trait -->
+  <ComesFromTrait>ﺔﻤﺳ ﻦﻋ ﺞﺗﺎﻧ</ComesFromTrait>
+  <!-- EN: Resulting from condition -->
+  <ComesFromHediff>ﺔﻟﺎﺣ ﻦﻋ ﺞﺗﺎﻧ</ComesFromHediff>
+  <!-- EN: Adds need -->
+  <AddsNeed>ﺔﺟﺎﺣ ﻒﻴﻀﻳ</AddsNeed>
+  <!-- EN: Adds needs -->
+  <AddsNeeds>ﺕﺎﺟﺎﻴﺘﺣﺍ ﻒﻴﻀﻳ</AddsNeeds>
+  <!-- EN: Disables need -->
+  <DisablesNeed>ﺔﺟﺎﺣ ﻞﻄﻌﻳ</DisablesNeed>
+  <!-- EN: Disables needs -->
+  <DisablesNeeds>ﺕﺎﺟﺎﻴﺘﺣﺍ ﻞﻄﻌﻳ</DisablesNeeds>
+  
+  <!-- Scanning -->
+  <!-- EN: User scanning speed -->
+  <UserScanAbility>ﻡﺪﺨﺘﺴﻤﻟﺍ ﺢﺴﻣ ﺔﻋﺮﺳ</UserScanAbility>
+  <!-- EN: Random find interval -->
+  <ScanAverageInterval>ﻲﺋﺍﻮﺸﻌﻟﺍ ﺭﻮﺜﻌﻟﺍ ﻞﺻﺎﻓ</ScanAverageInterval>
+  <!-- EN: Progress to guaranteed find -->
+  <ScanningProgressToGuaranteedFind>ﻥﻮﻤﻀﻤﻟﺍ ﺭﻮﺜﻌﻟﺍ ﻮﺤﻧ ﻡﺪﻘﺘﻟﺍ</ScanningProgressToGuaranteedFind>
+  
+  <!-- Meditation -->
+  <!-- EN: meditating at -->
+  <MeditatingAt>ﺪﻨﻋ ﻞﻣﺄﺘﻳ</MeditatingAt>
+
+  <!-- Fermentation barrel -->
+  <!-- EN: Contains {0} / {1} wort. -->
+  <ContainsWort>ﻊﻴﻘﻧ ﻦﻣ {0} / {1} ﻰﻠﻋ ﻱﻮﺘﺤﻳ\n.ﺮﻴﻌﺸﻟﺍ</ContainsWort>
+  <!-- EN: Contains {0} / {1} beer. -->
+  <ContainsBeer>.ﺓﺮﻴﺒﻟﺍ ﻦﻣ {0} / {1} ﻰﻠﻋ ﻱﻮﺘﺤﻳ</ContainsBeer>
+  <!-- EN: Fermented -->
+  <Fermented>ﺮﻤﺨﻣ</Fermented>
+  <!-- EN: Progress: {0} ({1} left) -->
+  <FermentationProgress>({1} ﻰﻘﺒﺗ) {0} :ﻡﺪﻘﺘﻟﺍ</FermentationProgress>
+  <!-- EN: Non-ideal temperature. Fermentation speed: {0} -->
+  <FermentationBarrelOutOfIdealTemperature>ﺔﻋﺮﺳ .ﺔﻴﻟﺎﺜﻣ ﺮﻴﻏ ﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ\n{0} :ﺮﻴﻤﺨﺘﻟﺍ</FermentationBarrelOutOfIdealTemperature>
+
+  <!-- TextMotes -->
+  <!-- EN: Headshot -->
+  <Headshot>ﺱﺃﺮﻟﺍ ﻲﻓ ﺔﺑﺎﺻﺇ</Headshot>
+  <!-- EN: Treatment success!\n{0} chance -->
+  <TextMote_TreatSuccess>!ﺝﻼﻌﻟﺍ ﺡﺎﺠﻧ\n{0} ﺔﻴﻟﺎﻤﺘﺣﺍ</TextMote_TreatSuccess>
+  <!-- EN: Treatment failed\n{0} chance -->
+  <TextMote_TreatFailed>ﺝﻼﻌﻟﺍ ﻞﺸﻓ\n{0} ﺔﻴﻟﺎﻤﺘﺣﺍ</TextMote_TreatFailed>
+  <!-- EN: Harvest\nbotched -->
+  <TextMote_HarvestFailed>ﻞﺸﻓ\nﺩﺎﺼﺤﻟﺍ</TextMote_HarvestFailed>
+  <!-- EN: Yield\nwasted -->
+  <TextMote_YieldWasted>ﺭﺪﻫ ﻢﺗ\nﺝﺎﺘﻧﻹﺍ</TextMote_YieldWasted>
+  <!-- EN: Product\nwasted -->
+  <TextMote_ProductWasted>ﺭﺪﻫ ﻢﺗ\nﺞﺘﻨﻤﻟﺍ</TextMote_ProductWasted>
+  <!-- EN: Recruit failed!\n{0} chance -->
+  <TextMote_RecruitFail>!ﺪﻴﻨﺠﺘﻟﺍ ﻞﺸﻓ\n{0} ﺔﻴﻟﺎﻤﺘﺣﺍ</TextMote_RecruitFail>
+  <!-- EN: Resistance\n{0} to {1} -->
+  <TextMote_ResistanceReduced>ﺔﻣﻭﺎﻘﻤﻟﺍ\n{1} ﻰﻟﺇ {0}</TextMote_ResistanceReduced>
+  <!-- EN: Tame failed\n{0} chance -->
+  <TextMote_TameFail>ﺾﻳﻭﺮﺘﻟﺍ ﻞﺸﻓ\n{0} ﺔﻴﻟﺎﻤﺘﺣﺍ</TextMote_TameFail>
+  <!-- EN: Tamed! -->
+  <TextMote_TameSuccess>!ﺾﻳﻭﺮﺘﻟﺍ ﻢﺗ</TextMote_TameSuccess>
+  <!-- EN: Failed training: {0}\n{1} chance -->
+  <TextMote_TrainFail>{0} :ﺐﻳﺭﺪﺘﻟﺍ ﻞﺸﻓ\n{1} ﺔﻴﻟﺎﻤﺘﺣﺍ</TextMote_TrainFail>
+  <!-- EN: Trained: {0}\n{1} chance -->
+  <TextMote_TrainSuccess>{0} :ﺐﻳﺭﺪﺘﻟﺍ ﻢﺗ\n{1} ﺔﻴﻟﺎﻤﺘﺣﺍ</TextMote_TrainSuccess>
+  <!-- EN: Repair\nbotched -->
+  <TextMote_FixBrokenDownBuildingFail>ﻞﺸﻓ\nﺡﻼﺻﻹﺍ</TextMote_FixBrokenDownBuildingFail>
+  <!-- EN: Construction\nbotched -->
+  <TextMote_ConstructionFail>ﻞﺸﻓ\nﺀﺎﻨﺒﻟﺍ</TextMote_ConstructionFail>
+  <!-- EN: Dodge -->
+  <TextMote_Dodge>ﺔﻏﻭﺍﺮﻣ</TextMote_Dodge>
+  <!-- EN: Immune -->
+  <TextMote_Immune>ﻦﻴﺼﺣ</TextMote_Immune>
+  <!-- EN: {0} tended -->
+  <TextMote_Tended>{0} ﺝﻼﻋ ﻢﺗ</TextMote_Tended>
+  <!-- EN: level {0} -->
+  <TextMote_SkillUp>{0} ﻯﻮﺘﺴﻣ</TextMote_SkillUp>
+  <!-- EN: low mood -->
+  <lowMood>ﺾﻔﺨﻨﻣ ﺝﺍﺰﻣ</lowMood>
+  <!-- EN: low opinion -->
+  <lowOpinion>ﺾﻔﺨﻨﻣ ﻱﺃﺭ</lowOpinion>
+
+  <!-- Areas -->
+  <!-- EN: Home -->
+  <Home>ﻝﺰﻨﻤﻟﺍ</Home>
+  <!-- EN: Build roof -->
+  <BuildRoof>ﻒﻘﺳ ﺀﺎﻨﺑ</BuildRoof>
+  <!-- EN: No roof -->
+  <NoRoof>ﻒﻘﺳ ﺪﺟﻮﻳ ﻻ</NoRoof>
+  <!-- EN: Snow clear -->
+  <SnowClear>ﺞﻠﺜﻟﺍ ﺔﻟﺍﺯﺇ</SnowClear>
+  <!-- EN: Area {0} -->
+  <AreaDefaultLabel>{0} ﺔﻘﻄﻨﻣ</AreaDefaultLabel>
+  <!-- EN: Unrestricted -->
+  <NoAreaAllowed>ﺪﻴﻘﻣ ﺮﻴﻏ</NoAreaAllowed>
+  <!-- EN: New area -->
+  <NewArea>ﺓﺪﻳﺪﺟ ﺔﻘﻄﻨﻣ</NewArea>
+  <!-- EN: Invert -->
+  <InvertArea>ﺲﻜﻋ</InvertArea>
+  <!-- EN: Expand -->
+  <ExpandArea>ﻊﻴﺳﻮﺗ</ExpandArea>
+  <!-- EN: Shrink -->
+  <ShrinkArea>ﺺﻴﻠﻘﺗ</ShrinkArea>
+  <!-- EN: Maximum {0} areas allowed. -->
+  <MaxAreasReached>.ﻰﺼﻗﺃ ﺪﺤﻛ ﺔﻘﻄﻨﻣ {0} ـﺑ ﺢﻤﺴﻳ</MaxAreasReached>
+
+  <!-- Animal pens -->
+  <!-- EN: Unenclosed -->
+  <PenUnenclosedLabel>ﺭﻮﺴﻣ ﺮﻴﻏ</PenUnenclosedLabel>
+  <!-- EN: open door -->
+  <PenOpenDoorLabel>ﺡﻮﺘﻔﻣ ﺏﺎﺑ</PenOpenDoorLabel>
+  <!-- EN: Rename pen -->
+  <RenameAnimalPen>ﺓﺮﻴﻈﺤﻟﺍ ﺔﻴﻤﺴﺗ ﺓﺩﺎﻋﺇ</RenameAnimalPen>
+  <!-- EN: Pen marker {0} -->
+  <AnimalPenMarkerDefaultLabel>{0} ﺓﺮﻴﻈﺤﻟﺍ ﺔﻣﻼﻋ</AnimalPenMarkerDefaultLabel>
+  <!-- EN: In pen -->
+  <InPen>ﺓﺮﻴﻈﺤﻟﺍ ﻲﻓ</InPen>
+  <!-- EN: not in a pen -->
+  <Unpenned>ﺓﺮﻴﻈﺣ ﻲﻓ ﺖﺴﻴﻟ</Unpenned>
+  <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
+  <UnpennedTooltip>ﻦﻋ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺮﺋﺎﻈﺣ ﺀﺎﺸﻧﺇ ﻦﻜﻤﻳ\nﻞﺧﺍﺩ ﺓﺮﻴﻈﺣ ﺔﻣﻼﻋ ﺀﺎﻨﺑ ﻖﻳﺮﻃ\nﻮﺠﻟﺎﻌﻣ ﻡﻮﻘﻴﺳ .ﺔﻘﻠﻐﻣ ﺔﻘﻄﻨﻣ\nﺭﺎﻀﺣﺈﺑ ﻚﻳﺪﻟ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ\n.ﺔﺒﺳﺎﻨﻣ ﺓﺮﻴﻈﺣ ﻰﻟﺇ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ\n،ﺭﺍﻮﺳﻷﺎﺑ ﺮﺋﺎﻈﺤﻟﺍ ﻕﻼﻏﺇ ﻦﻜﻤﻳ\n.ﺏﺍﻮﺑﻷﺍﻭ ،ﻥﺍﺭﺪﺠﻟﺍﻭ ،ﺲﻳﺭﺎﺘﻤﻟﺍﻭ</UnpennedTooltip>
+  <!-- EN: Roped by -->
+  <RopedByPawn>ﺔﻄﺳﺍﻮﺑ ﺪﻴﻘﻣ</RopedByPawn>
+  <!-- EN: Roped to -->
+  <RopedToThing>ـﺑ ﺪﻴﻘﻣ</RopedToThing>
+  <!-- EN: Roped to spot. -->
+  <RopedToSpot>.ﻊﻗﻮﻤﻟﺍ ﻲﻓ ﺪﻴﻘﻣ</RopedToSpot>
+  <!-- EN: Pen size -->
+  <PenSizeLabel>ﺓﺮﻴﻈﺤﻟﺍ ﻢﺠﺣ</PenSizeLabel>
+  <!-- EN: Very small pen -->
+  <PenSizeDesc_VerySmall>ًﺍﺪﺟ ﺓﺮﻴﻐﺻ ﺓﺮﻴﻈﺣ</PenSizeDesc_VerySmall>
+  <!-- EN: Small pen -->
+  <PenSizeDesc_Small>ﺓﺮﻴﻐﺻ ﺓﺮﻴﻈﺣ</PenSizeDesc_Small>
+  <!-- EN: Medium-sized pen -->
+  <PenSizeDesc_Medium>ﻢﺠﺤﻟﺍ ﺔﻄﺳﻮﺘﻣ ﺓﺮﻴﻈﺣ</PenSizeDesc_Medium>
+  <!-- EN: Large pen -->
+  <PenSizeDesc_Large>ﺓﺮﻴﺒﻛ ﺓﺮﻴﻈﺣ</PenSizeDesc_Large>
+  <!-- EN: Not enclosed - build fences -->
+  <PenSizeDesc_Unenclosed>ًﺍﺭﺍﻮﺳﺃ ِﻦﺑﺍ - ﺔﻘﻠﻐﻣ ﺮﻴﻏ</PenSizeDesc_Unenclosed>
+  <!-- EN: {ANIMALDEF_label} capacity -->
+  <PenCapacityDesc>{ANIMALDEF_label} ﺔﻌﺳ</PenCapacityDesc>
+  <!-- EN: Example animals -->
+  <PenExampleAnimals>ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻰﻠﻋ ﺔﻠﺜﻣﺃ</PenExampleAnimals>
+  <!-- EN: No exterior access - Animals cannot be moved in or out. -->
+  <NoExteriorAccess>ﻞﻘﻧ ﻦﻜﻤﻳ ﻻ - ﻲﺟﺭﺎﺧ ﻝﻮﺻﻭ ﺪﺟﻮﻳ ﻻ\n.ﺝﺭﺎﺨﻟﺍ ﻭﺃ ﻞﺧﺍﺪﻠﻟ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ</NoExteriorAccess>
+  
+  <!-- EN: Must be connected to walls on both sides to function. -->
+  <DoorMustBeEnclosedByWalls>ﻦﻣ ﻥﺍﺭﺪﺠﻟﺎﺑ ًﻼﺼﺘﻣ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ\n.ﻞﻤﻌﻴﻟ ﻦﻴﺒﻧﺎﺠﻟﺍ ﻼﻛ</DoorMustBeEnclosedByWalls>
+
+  <!-- Cell Inspector -->
+  <!-- EN: Beauty -->
+  <Beauty_Label>ﻝﺎﻤﺠﻟﺍ</Beauty_Label>
+  <!-- EN: Zone -->
+  <Zone_Label>ﺔﻘﻄﻨﻣ</Zone_Label>
+  <!-- EN: Roof -->
+  <Roof_Label>ﻒﻘﺳ</Roof_Label>
+  <!-- EN: Terrain -->
+  <Terrain_Label>ﺲﻳﺭﺎﻀﺗ</Terrain_Label>
+  <!-- EN: Snow -->
+  <Snow_Label>ﺞﻠﺛ</Snow_Label>
+  <!-- EN: Walk speed -->
+  <WalkSpeed_Label>ﻲﺸﻤﻟﺍ ﺔﻋﺮﺳ</WalkSpeed_Label>
+  <!-- EN: Fertility -->
+  <Fertility_Label>ﺔﺑﻮﺼﺧ</Fertility_Label>
+  <!-- EN: Temperature -->
+  <Temperature_Label>ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ</Temperature_Label>
+  <!-- EN: Light level -->
+  <LightLevel_Label>ﺀﻮﻀﻟﺍ ﻯﻮﺘﺴﻣ</LightLevel_Label>
+  <!-- EN: Biome -->
+  <Biome_Label>ﻱﻮﻴﺤﻟﺍ ﺥﺎﻨﻤﻟﺍ</Biome_Label>
+  <!-- EN: Hilliness -->
+  <Hilliness_Label>ﻝﻼﺘﻟﺍ</Hilliness_Label>
+  <!-- EN: Road -->
+  <Road_Label>ﻖﻳﺮﻃ</Road_Label>
+  <!-- EN: River -->
+  <River_Label>ﺮﻬﻧ</River_Label> 
+  <!-- EN: Movement difficulty -->
+  <MovementDifficulty_Label>ﺔﻛﺮﺤﻟﺍ ﺔﺑﻮﻌﺻ</MovementDifficulty_Label>
+  <!-- EN: Pollution -->
+  <Pollution_Label>ﺙﻮﻠﺗ</Pollution_Label>
+  <!-- EN: Filth -->
+  <Filth_Label>ﺥﺎﺳﻭﺃ</Filth_Label>
+  
+  <!-- EN: Features -->
+  <Features_Label>ﺕﺍﺰﻴﻣ</Features_Label>
+  <!-- EN: Faction -->
+  <Faction_Label>ﻞﻴﺼﻓ</Faction_Label>
+  <!-- EN: Relationship -->
+  <Relationship_Label>ﺔﻗﻼﻋ</Relationship_Label>
+  <!-- EN: Colonists -->
+  <CaravanColonists_Label>ﻥﻭﺮﻤﻌﺘﺴﻣ</CaravanColonists_Label>
+  <!-- EN: Status -->
+  <CaravanStatus_Label>ﺔﻟﺎﺤﻟﺍ</CaravanStatus_Label>
+  <!-- EN: Time to destination -->
+  <CaravanTTD_Label>ﻝﻮﺻﻮﻟﺍ ﻰﺘﺣ ﺖﻗﻮﻟﺍ</CaravanTTD_Label>
+  
+
+  <!-- Control -->
+  <!-- EN: Cannot order characters you do not control. -->
+  <CannotOrderNonControlled>ﻻ ﺕﺎﻴﺼﺨﺸﻟ ﺮﻣﺍﻭﺃ ﺭﺍﺪﺻﺇ ﻚﻨﻜﻤﻳ ﻻ\n.ﺎﻬﺑ ﻢﻜﺤﺘﺗ</CannotOrderNonControlled>
+  <!-- EN: {1_labelShort} is incapable of violence. -->
+  <IsIncapableOfViolence>.ﻒﻨﻌﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ {1_labelShort}</IsIncapableOfViolence>
+  <!-- EN: incapable of violence -->
+  <IsIncapableOfViolenceShort>ﻒﻨﻌﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ</IsIncapableOfViolenceShort>
+  <!-- EN: {1_labelShort} is not drafted. -->
+  <IsNotDrafted>.ًﺍﺪﻨﺠﻣ ﺲﻴﻟ {1_labelShort}</IsNotDrafted>
+  <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
+  <ApparelPreventsShooting>ﺔﺤﻠﺳﺃ ﻡﺍﺪﺨﺘﺳﺍ {PAWN_nameDef} ـﻟ ﻦﻜﻤﻳ ﻻ\n.ﻪﺑ ﺹﺎﺨﻟﺍ {APPAREL_label} ﺐﺒﺴﺑ ﻯﺪﻤﻟﺍ</ApparelPreventsShooting>
+  <!-- EN: Cannot use in {0} -->
+  <CannotUseReason_PocketMap>{0} ﻲﻓ ﻪﻣﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ ﻻ</CannotUseReason_PocketMap>
+  <!-- EN: Range reduced -->
+  <WeatherMaxRangeCap>ﻯﺪﻤﻟﺍ ﻞﻴﻠﻘﺗ ﻢﺗ</WeatherMaxRangeCap>
+
+  <!-- Snow -->
+  <!-- EN: Snow -->
+  <Snow>ﺞﻠﺛ</Snow>
+  <!-- EN: No snow -->
+  <SnowNone>ﺞﻠﺛ ﺪﺟﻮﻳ ﻻ</SnowNone>
+  <!-- EN: dusting -->
+  <SnowDusting>ﻲﺠﻠﺛ ﺭﺎﺒﻏ</SnowDusting>
+  <!-- EN: thin -->
+  <SnowThin>ﻒﻴﻔﺧ</SnowThin>
+  <!-- EN: medium -->
+  <SnowMedium>ﻂﺳﻮﺘﻣ</SnowMedium>
+  <!-- EN: thick -->
+  <SnowThick>ﻒﻴﺜﻛ</SnowThick>
+
+  <!-- Turrets -->
+  <!-- EN: Installed -->
+  <GunInstalled>ﺖﺒﺜﻣ</GunInstalled>
+  <!-- EN: Minimum range -->
+  <MinimumRange>ﻯﺪﻤﻠﻟ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ</MinimumRange>
+  <!-- EN: Can fire in -->
+  <CanFireIn>ﻲﻓ ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﻪﻨﻜﻤﻳ</CanFireIn>
+  <!-- EN: Cannot fire -->
+  <CannotFire>ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﻪﻨﻜﻤﻳ ﻻ</CannotFire>
+  <!-- EN: roofed -->
+  <Roofed>ﻑﻮﻘﺴﻣ</Roofed>
+  <!-- EN: Shell loaded: {1_label} -->
+  <ShellLoaded>{1_label} :ﺔﻠﻤﺤﻣ ﺔﻔﻳﺬﻗ</ShellLoaded>
+  <!-- EN: Not loaded -->
+  <ShellNotLoaded>ﻞﻤﺤﻣ ﺮﻴﻏ</ShellNotLoaded>
+  <!-- EN: Already active -->
+  <AlreadyActive>ﻞﻌﻔﻟﺎﺑ ﻂﺸﻧ</AlreadyActive>
+  <!-- EN: Order activation -->
+  <OrderActivation>ﻞﻴﻌﻔﺘﻟﺎﺑ ﺮﻣﺃ</OrderActivation>
+  <!-- EN: Order a colonist to activate {THING_definite}. -->
+  <OrderActivationDesc>.{THING_definite} ﻞﻴﻌﻔﺘﺑ ﺮﻤﻌﺘﺴﻣ ﺮﻣﺃ</OrderActivationDesc>
+  <!-- EN: Send a colonist to activate this. -->
+  <MustBeActivatedByColonist>.ﺍﺬﻫ ﻞﻴﻌﻔﺘﻟ ًﺍﺮﻤﻌﺘﺴﻣ ﻞﺳﺭﺃ</MustBeActivatedByColonist>
+  <!-- EN: No nearby fire -->
+  <NoNearbyFire>ﺐﻳﺮﻗ ﻖﻳﺮﺣ ﺪﺟﻮﻳ ﻻ</NoNearbyFire>
+  <!-- EN: No nearby fire. No fuel was used. -->
+  <NoNearbyFireNoFuelUsed>ﻢﺘﻳ ﻢﻟ .ﺐﻳﺮﻗ ﻖﻳﺮﺣ ﺪﺟﻮﻳ ﻻ\n.ﺩﻮﻗﻭ ﻱﺃ ﻡﺍﺪﺨﺘﺳﺍ</NoNearbyFireNoFuelUsed>
+  <!-- EN: Choose who should activate this. -->
+  <ChooseWhoShouldActivate>.ﺍﺬﻫ ﻞﻌﻔﻳ ﻥﺃ ﺐﺠﻳ ﻦﻣ ﺮﺘﺧﺍ</ChooseWhoShouldActivate>
+  <!-- EN: No fuel -->
+  <NoFuel>ﺩﻮﻗﻭ ﺪﺟﻮﻳ ﻻ</NoFuel>
+
+  <!-- Job reports -->
+  <!-- EN: hauling {THING_label} to {DESTINATION}. -->
+  <ReportHaulingTo>.{DESTINATION} ﻰﻟﺇ {THING_label} ﻞﻘﻧ</ReportHaulingTo>
+  <!-- EN: burying {THING_label} in {DESTINATION}. -->
+  <ReportHaulingToGrave>.{DESTINATION} ﻲﻓ {THING_label} ﻦﻓﺩ</ReportHaulingToGrave>
+  <!-- EN: hauling {1_label}. -->
+  <ReportHauling>.{1_label} ﻞﻘﻧ</ReportHauling>
+  <!-- EN: hauling. -->
+  <ReportHaulingUnknown>.ﻞﻘﻧ</ReportHaulingUnknown>
+  <!-- EN: sleeping. -->
+  <ReportSleeping>.ﻡﺎﻨﻳ</ReportSleeping>
+  <!-- EN: resting. -->
+  <ReportResting>.ﺢﻳﺮﺘﺴﻳ</ReportResting>
+  <!-- EN: laying down. -->
+  <ReportLayingDown>.ٍﻖﻠﺘﺴﻣ</ReportLayingDown>
+  <!-- EN: watching the sunrise. -->
+  <WatchingSunrise>.ﺲﻤﺸﻟﺍ ﻕﻭﺮﺷ ﺪﻫﺎﺸﻳ</WatchingSunrise>
+  <!-- EN: cloudwatching. -->
+  <CloudWatching>.ﺐﺤﺴﻟﺍ ﺐﻗﺍﺮﻳ</CloudWatching>
+  <!-- EN: watching the sunset. -->
+  <WatchingSunset>.ﺲﻤﺸﻟﺍ ﺏﻭﺮﻏ ﺪﻫﺎﺸﻳ</WatchingSunset>
+  <!-- EN: stargazing. -->
+  <Stargazing>.ﻡﻮﺠﻨﻟﺍ ﻞﻣﺄﺘﻳ</Stargazing>
+  <!-- EN: watching the eclipse. -->
+  <WatchingEclipse>.ﻑﻮﺴﺨﻟﺍ/ﻑﻮﺴﻜﻟﺍ ﺪﻫﺎﺸﻳ</WatchingEclipse>
+  <!-- EN: watching the aurora. -->
+  <WatchingAurora>.ﻲﺒﻄﻘﻟﺍ ﻖﻔﺸﻟﺍ ﺪﻫﺎﺸﻳ</WatchingAurora>
+  <!-- EN: using {0} on {1}. -->
+  <UsingVerb>.{1} ﻰﻠﻋ {0} ﻡﺪﺨﺘﺴﻳ</UsingVerb>
+  <!-- EN: using {0}. -->
+  <UsingVerbNoTarget>.{0} ﻡﺪﺨﺘﺴﻳ</UsingVerbNoTarget>
+  <!-- EN: area -->
+  <AreaLower>ﺔﻘﻄﻨﻣ</AreaLower>
+  <!-- EN: cowering. -->
+  <ReportCowering>.ﺊﺒﺘﺨﻳ</ReportCowering>
+  <!-- EN: standing. -->
+  <ReportStanding>.ﻒﻘﻳ</ReportStanding>
+  <!-- EN: extinguishing fire. -->
+  <ReportExtinguishingFire>.ًﺎﻘﻳﺮﺣ ﺪﻤﺨﻳ</ReportExtinguishingFire>
+  <!-- EN: extinguishing fire on {TARGET_label}. -->
+  <ReportExtinguishingFireOn>.{TARGET_label} ﻲﻓ ًﺎﻘﻳﺮﺣ ﺪﻤﺨﻳ</ReportExtinguishingFireOn>
+  <!-- EN: digging up corpse. -->
+  <ReportDiggingUpCorpse>.ﺔﺜﺟ ﺝﺍﺮﺨﺘﺳﻻ ﺮﻔﺤﻳ</ReportDiggingUpCorpse>
+  <!-- EN: being carried by {0_labelShort}. -->
+  <CarriedBy>.{0_labelShort} ﺔﻄﺳﺍﻮﺑ ﻪﻠﻤﺣ ﻢﺘﻳ</CarriedBy> 
+  <!-- EN: inside {0_labelShort}. -->
+  <InContainer>.{0_labelShort} ﻞﺧﺍﺩ</InContainer> 
+  <!-- EN: downed, cannot crawl. -->
+  <DownedCannotCrawl>.ﻒﺣﺰﻟﺍ ﻊﻴﻄﺘﺴﻳ ﻻ ،ًﺎﺿﺭﺃ ﻂﻘﺳ</DownedCannotCrawl> 
+  <!-- EN: downed, unconscious. -->
+  <DownedUnconscious>.ﻲﻋﻮﻠﻟ ﺪﻗﺎﻓ ،ًﺎﺿﺭﺃ ﻂﻘﺳ</DownedUnconscious> 
+
+  <!-- Lord job reports -->
+  <!-- EN: Attending marriage ceremony -->
+  <LordReportAttendingMarriageCeremony>ﺝﺍﻭﺰﻟﺍ ﻢﺳﺍﺮﻣ ﺮﻀﺤﻳ</LordReportAttendingMarriageCeremony>
+  <!-- EN: Attending party -->
+  <LordReportAttendingParty>ﺔﻠﻔﺣ ﺮﻀﺤﻳ</LordReportAttendingParty>
+  <!-- EN: Attending concert -->
+  <LordReportAttendingConcert>ﺔﻴﻘﻴﺳﻮﻣ ﺔﻠﻔﺣ ﺮﻀﺤﻳ</LordReportAttendingConcert>
+  <!-- EN: Holding a concert -->
+  <LordReportHoldingConcert>ﺔﻴﻘﻴﺳﻮﻣ ﺔﻠﻔﺣ ﻢﻴﻘﻳ</LordReportHoldingConcert>
+  <!-- EN: Giving a speech -->
+  <LordReportGivingSpeech>ًﺎﺑﺎﻄﺧ ﻲﻘﻠﻳ</LordReportGivingSpeech>
+  <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
+  <LordReportListeningSpeech>{ORGANIZER_labelShort} ﺏﺎﻄﺨﻟ ﻊﻤﺘﺴﻳ</LordReportListeningSpeech>
+  <!-- EN: Forming caravan -->
+  <LordReportFormingCaravan>ﺔﻠﻓﺎﻗ ﻞﻴﻜﺸﺗ</LordReportFormingCaravan>
+
+  <!-- Shooting report -->
+  <!-- EN: Weapon miss radius -->
+  <WeaponMissRadius>ﺡﻼﺴﻟﺍ ﺄﻄﺧ ﺮﻄﻗ ﻒﺼﻧ</WeaponMissRadius>
+  <!-- EN: Shooter -->
+  <ShootReportShooterAbility>ﻲﻣﺍﺮﻟﺍ</ShootReportShooterAbility>
+  <!-- EN: Weapon -->
+  <ShootReportWeapon>ﺡﻼﺴﻟﺍ</ShootReportWeapon>
+  <!-- EN: Darkness -->
+  <Darkness>ﻡﻼﻈﻟﺍ</Darkness>
+  <!-- EN: Target lying down -->
+  <TargetProne>ٍﻖﻠﺘﺴﻣ ﻑﺪﻬﻟﺍ</TargetProne>
+  <!-- EN: Target size -->
+  <TargetSize>ﻑﺪﻬﻟﺍ ﻢﺠﺣ</TargetSize>
+  <!-- EN: Weather -->
+  <Weather>ﺲﻘﻄﻟﺍ</Weather>
+  <!-- EN: Cover -->
+  <ShootingCover>ﺔﻴﻄﻐﺗ</ShootingCover>
+  <!-- EN: {COVER_label} stops {1} -->
+  <CoverThingBlocksPercentOfShots>{1} ﻒﻗﻮﻳ {COVER_label}</CoverThingBlocksPercentOfShots>
+  <!-- EN: no cover -->
+  <NoCoverLower>ﺔﻴﻄﻐﺗ ﺪﺟﻮﺗ ﻻ</NoCoverLower>
+  <!-- EN: Execution -->
+  <Execution>ﻡﺍﺪﻋﺇ</Execution>
+
+  <!-- Generated recipes -->
+  <!-- EN: make {0} -->
+  <RecipeMake>{0} ﻊﻨﺻﺍ</RecipeMake>
+  <!-- EN: Make {0}. -->
+  <RecipeMakeDescription>.{0} ﻊﻨﺻﺍ</RecipeMakeDescription>
+  <!-- EN: Making {0}. -->
+  <RecipeMakeJobString>.{0} ﻊﻨﺼﻳ</RecipeMakeJobString>
+  <!-- EN: administer {0} -->
+  <RecipeAdminister>{0} ﺀﺎﻄﻋﺇ</RecipeAdminister>
+  <!-- EN: Administering {0}. -->
+  <RecipeAdministerJobString>.{0} ﻲﻄﻌﻳ</RecipeAdministerJobString>
+  <!-- EN: teetotaler will be unhappy -->
+  <TeetotalerUnhappy>ﺮﻴﻏ ﺕﺍﺮﻜﺴﻤﻟﺍ ﻦﻋ ﻊﻨﺘﻤﻤﻟﺍ ﻥﻮﻜﻴﺳ\nﺪﻴﻌﺳ</TeetotalerUnhappy>
+  <!-- EN: body purist will be unhappy -->
+  <ProsthophobeUnhappy>ﺮﻴﻏ ﻲﻌﻴﺒﻄﻟﺍ ﺪﺴﺠﻟﺍ ﺐﺤﻣ ﻥﻮﻜﻴﺳ\nﺪﻴﻌﺳ</ProsthophobeUnhappy>
+
+  <!-- Thoughts -->
+  <!-- EN: Expires in: {0} -->
+  <ThoughtExpiresIn>{0} :ﻲﻓ ﻪﺘﻴﺣﻼﺻ ﻲﻬﺘﻨﺗ</ThoughtExpiresIn>
+  <!-- EN: thought disabled by -->
+  <ThoughtNullifiedBy>ﺔﻄﺳﺍﻮﺑ ﺔﻠﻄﻌﻣ ﺓﺮﻜﻓ</ThoughtNullifiedBy>
+  <!-- EN: Starts expiring in: {0} -->
+  <ThoughtStartsExpiringIn>{0} :ﻲﻓ ﺔﻴﺣﻼﺼﻟﺍ ﺀﺎﻬﺘﻧﺎﺑ ﺃﺪﺒﻳ</ThoughtStartsExpiringIn>
+  <!-- EN: Finishes expiring in: {0} -->
+  <ThoughtFinishesExpiringIn>{0} :ﻲﻓ ﺔﻴﺣﻼﺼﻟﺍ ﺀﺎﻬﺘﻧﺎﺑ ﻲﻬﺘﻨﻳ</ThoughtFinishesExpiringIn>
+  <!-- EN: Extreme break threshold -->
+  <MentalBreakThresholdExtreme>ﺪﻳﺪﺸﻟﺍ ﺭﺎﻴﻬﻧﻻﺍ ﺔﺒﺘﻋ</MentalBreakThresholdExtreme>
+  <!-- EN: Major break threshold -->
+  <MentalBreakThresholdMajor>ﺮﻴﺒﻜﻟﺍ ﺭﺎﻴﻬﻧﻻﺍ ﺔﺒﺘﻋ</MentalBreakThresholdMajor>
+  <!-- EN: Minor break threshold -->
+  <MentalBreakThresholdMinor>ﻂﻴﺴﺒﻟﺍ ﺭﺎﻴﻬﻧﻻﺍ ﺔﺒﺘﻋ</MentalBreakThresholdMinor>
+
+  <!-- Pawn info readout -->
+  <!-- EN: {PAWN_gender} {1} -->
+  <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
+  <!-- EN: {0} of {1} -->
+  <PawnMainDescFactionedWrap>{1} ـﺑ ﺹﺎﺨﻟﺍ {0}</PawnMainDescFactionedWrap>
+  <!-- EN: {0} in {1} -->
+  <PawnTitleDescWrap>{1} ﻲﻓ {0}</PawnTitleDescWrap>
+  <!-- EN: {0} under {1} -->
+  <PawnMainDescUnderFactionedWrap>{1} ﺖﺤﺗ {0}</PawnMainDescUnderFactionedWrap>
+  <!-- EN: {2_lifeStageAdjective} {0} -->
+  <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
+  <!-- EN: Faction -->
+  <Faction>ﻞﻴﺼﻓ</Faction>
+  <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
+  <FactionDesc>{PAWN_labelShort} ﻪﻴﻟﺇ ﻲﻤﺘﻨﻳ ﻱﺬﻟﺍ ﻞﻴﺼﻔﻟﺍ\n.ًﺎﻴﻟﺎﺣ</FactionDesc>
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
+  <ExtraFactionDesc>.ًﻼﺻﺃ {PAWN_labelShort} ﻪﻴﻟﺇ ﻲﻤﺘﻨﻳ ﻱﺬﻟﺍ ﻞﻴﺼﻔﻟﺍ</ExtraFactionDesc>
+  <!-- EN: Equipped -->
+  <Equipped>ﺰﻬﺠﻣ</Equipped>
+  <!-- EN: nothing -->
+  <EquippedNothing>ﺀﻲﺷﻻ</EquippedNothing>
+  <!-- EN: Dead -->
+  <Dead>ﺖﻴﻣ</Dead>
+  <!-- EN: Unconscious -->
+  <Unconscious>ﻲﻋﻮﻠﻟ ﺪﻗﺎﻓ</Unconscious>
+  <!-- EN: In shock due to pain -->
+  <PainShock>ﻢﻟﻷﺍ ﺐﺒﺴﺑ ﺔﻣﺪﺻ ﺔﻟﺎﺣ ﻲﻓ</PainShock>
+  <!-- EN: Pain shock -->
+  <PainShockShort>ﻢﻟﺃ ﺔﻣﺪﺻ</PainShockShort>
+  <!-- EN: Incapacitated -->
+  <Incapacitated>ﺭﺩﺎﻗ ﺮﻴﻏ</Incapacitated>
+  <!-- EN: In restraints (slowed) -->
+  <InRestraints>(ﺊﻃﺎﺒﺘﻣ) ﺪﻴﻘﻣ</InRestraints>
+  <!-- EN: Carrying -->
+  <Carrying>ﻞﻤﺤﻳ</Carrying>
+  <!-- EN: Affected by: -->
+  <AffectedBy>:ـﺑ ﺮﺛﺄﺘﻣ</AffectedBy>
+  <!-- EN: Queued -->
+  <Queued>ﺭﺎﻈﺘﻧﻻﺍ ﺔﻤﺋﺎﻗ ﻲﻓ</Queued>
+  <!-- EN: State -->
+  <State>ﺔﻟﺎﺤﻟﺍ</State>
+  <!-- EN: stun -->
+  <StunLower>ﺔﻣﺪﺻ</StunLower>
+  <!-- EN: Slowed by damage -->
+  <SlowedByDamage>ﺭﺮﻀﻟﺍ ﺐﺒﺴﺑ ﺊﻃﺎﺒﺘﻣ</SlowedByDamage>
+
+  <!-- Inspector general stuff -->
+  <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTip>ﺲﻔﻧ ﻲﻓ ﻲﻟﺎﺘﻟﺍ ﺀﻲﺸﻟﺍ ﺩﺪﺣ\n.ﻊﺑﺮﻤﻟﺍ\n\n(*SectionTitle) {0}:ﺭﺎﺼﺘﺧﻻﺍ ﺡﺎﺘﻔﻣ(/SectionTitle)\n\nﻦﻋ ﻚﻟﺬﺑ ﻡﺎﻴﻘﻟﺍ ًﺎﻀﻳﺃ ﻚﻨﻜﻤﻳ\nﻊﺑﺮﻤﻟﺍ ﺲﻔﻧ ﻰﻠﻋ ﺀﻂﺒﺑ ﺮﻘﻨﻟﺍ ﻖﻳﺮﻃ\n.ﻯﺮﺧﺃ ﺓﺮﻣ</SelectNextInSquareTip>
+  <!-- EN: View information. -->
+  <DefInfoTip>.ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺽﺮﻋ</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>ﺲﻔﻧ ﻲﻓ ﻲﻟﺎﺘﻟﺍ ﺀﻲﺸﻟﺍ ﺩﺪﺣ\n.ﻊﺑﺮﻤﻟﺍ\n\nﻦﻋ ﻚﻟﺬﺑ ﻡﺎﻴﻘﻟﺍ ًﺎﻀﻳﺃ ﻚﻨﻜﻤﻳ\nﻊﺑﺮﻤﻟﺍ ﺲﻔﻧ ﻰﻠﻋ ﺀﻂﺒﺑ ﺮﻘﻨﻟﺍ ﻖﻳﺮﻃ\n.ﻯﺮﺧﺃ ﺓﺮﻣ</SelectNextInSquareTipController>
+
+  <!-- Hostility response -->
+  <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
+  <HostilityReponseTip>ﺍﺬﻫ ﻞﻋﺎﻔﺗ ﺔﻴﻔﻴﻛ ﺮﻴﻴﻐﺘﺑ ﻢﻗ\nﺎﻣﺪﻨﻋ ﻦﻴﺒﻳﺮﻘﻟﺍ ﺀﺍﺪﻋﻷﺍ ﻊﻣ ﺺﺨﺸﻟﺍ\n.ًﺍﺪﻨﺠﻣ ﻥﻮﻜﻳ ﻻ</HostilityReponseTip>
+  <!-- EN: Current mode -->
+  <HostilityResponseCurrentMode>ﻲﻟﺎﺤﻟﺍ ﻊﺿﻮﻟﺍ</HostilityResponseCurrentMode>
+
+  <!-- like 'Blood of John' -->
+  <!-- EN: of -->
+  <OfLower>ـﺑ ﺹﺎﺨﻟﺍ</OfLower>
+
+  <!-- Power readout -->
+  <!-- EN: Not connected to power. -->
+  <PowerNotConnected>.ﺔﻗﺎﻄﻟﺎﺑ ﻞﺼﺘﻣ ﺮﻴﻏ</PowerNotConnected>
+  <!-- EN: Grid excess: {0} W ({1} Wd stored) -->
+  <PowerConnectedRateStored>ﻡﻮﻳ/ﻁﺍﻭ {1}) ﻁﺍﻭ {0} :ﺔﻜﺒﺸﻟﺍ ﺾﺋﺎﻓ\n(ﻥﺰﺨﻣ</PowerConnectedRateStored>
+  <!-- EN: Power needed -->
+  <PowerNeeded>ﺔﺑﻮﻠﻄﻤﻟﺍ ﺔﻗﺎﻄﻟﺍ</PowerNeeded>
+  <!-- EN: Power output -->
+  <PowerOutput>ﺔﻗﺎﻄﻟﺍ ﺞﺗﺎﻧ</PowerOutput>
+  <!-- EN: {0} W when active -->
+  <PowerActiveNeeded>ﻞﻴﻌﻔﺘﻟﺍ ﺪﻨﻋ ﻁﺍﻭ {0}</PowerActiveNeeded>
+  <!-- EN: Stored -->
+  <PowerBatteryStored>ﻥﺰﺨﻣ</PowerBatteryStored>
+  <!-- EN: Efficiency -->
+  <PowerBatteryEfficiency>ﺓﺀﺎﻔﻜﻟﺍ</PowerBatteryEfficiency>
+  <!-- EN: Self-discharging -->
+  <SelfDischarging>ﻲﺗﺍﺫ ﻎﻳﺮﻔﺗ</SelfDischarging>
+
+  <!-- Temperature control -->
+  <!-- EN: Target temperature -->
+  <TargetTemperature>ﺔﻓﺪﻬﺘﺴﻤﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ</TargetTemperature>
+  <!-- EN: Current power use -->
+  <PowerConsumptionMode>ﻲﻟﺎﺤﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ</PowerConsumptionMode>
+  <!-- EN: high -->
+  <PowerConsumptionHigh>ﻲﻟﺎﻋ</PowerConsumptionHigh>
+  <!-- EN: low -->
+  <PowerConsumptionLow>ﺾﻔﺨﻨﻣ</PowerConsumptionLow>
+  <!-- EN: off -->
+  <PowerConsumptionOff>ﻑﺎﻘﻳﺇ</PowerConsumptionOff>
+
+  <!-- Temperature readout -->
+  <!-- EN: Indoors -->
+  <Indoors>ﻞﺧﺍﺪﻟﺍ ﻲﻓ</Indoors>
+  <!-- EN: Unroofed -->
+  <IndoorsUnroofed>ﻒﻘﺳ ﻥﻭﺪﺑ</IndoorsUnroofed>
+  <!-- EN: outdoors -->
+  <Outdoors>ﺝﺭﺎﺨﻟﺍ ﻲﻓ</Outdoors>
+
+  <!-- Rotting -->
+  <!-- EN: Fresh -->
+  <RotStateFresh>ﺝﺯﺎﻃ</RotStateFresh>
+  <!-- EN: Rotting -->
+  <RotStateRotting>ﻦﻔﻌﺘﻣ</RotStateRotting>
+  <!-- EN: Dessicated -->
+  <RotStateDessicated>ﻒﻔﺠﻣ</RotStateDessicated>
+  <!-- EN: Frozen -->
+  <CurrentlyFrozen>ﺪﻤﺠﻣ</CurrentlyFrozen> 
+  <!-- EN: Refrigerated, spoils in {0} -->
+  <CurrentlyRefrigerated>{0} ﻝﻼﺧ ﺪﺴﻔﻳ ،ﺩﺮﺒﻣ</CurrentlyRefrigerated> 
+  <!-- EN: Unrefrigerated, spoils in {0} -->
+  <NotRefrigerated>{0} ﻝﻼﺧ ﺪﺴﻔﻳ ،ﺩﺮﺒﻣ ﺮﻴﻏ</NotRefrigerated> 
+  <!-- EN: over a decade -->
+  <OverADecade>ﺪﻘﻋ ﻦﻣ ﺮﺜﻛﺃ</OverADecade>
+  <!-- EN: less than a day -->
+  <LessThanADay>ﻡﻮﻳ ﻦﻣ ﻞﻗﺃ</LessThanADay>
+
+  <!-- Shooting tooltip -->
+  <!-- EN: Shot by {1_labelShort} -->
+  <ShotBy>{1_labelShort} ﺔﻄﺳﺍﻮﺑ ﻪﻴﻠﻋ ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﻢﺗ</ShotBy>
+  <!-- EN: Cannot hit target. -->
+  <CannotHit>.ﻑﺪﻬﻟﺍ ﺔﺑﺎﺻﺇ ﻦﻜﻤﻳ ﻻ</CannotHit>
+  <!-- EN: Manhunter chance per hit -->
+  <ManhunterPerHit>ﻞﻜﻟ ﺮﺸﺑ ﻲﻠﻛﻵ ﻝﻮﺤﺘﻟﺍ ﺔﻴﻟﺎﻤﺘﺣﺍ\nﺔﺑﺮﺿ</ManhunterPerHit>
+
+  <!-- Meal -->
+  <!-- EN: Ingredients -->
+  <Ingredients>ﺕﺎﻧﻮﻜﻤﻟﺍ</Ingredients>
+  <!-- EN: The ingredients used to make this meal. -->
+  <IngredientsDesc>ﻩﺬﻫ ﻊﻨﺼﻟ ﺔﻣﺪﺨﺘﺴﻤﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ\n.ﺔﺒﺟﻮﻟﺍ</IngredientsDesc>
+  <!-- EN: Dietary type -->
+  <DietaryType>ﻲﺋﺍﺬﻐﻟﺍ ﻡﺎﻈﻨﻟﺍ ﻉﻮﻧ</DietaryType>
+  <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
+  <DietaryTypeDesc>ﺱﺎﻨﻟﺍ ﺾﻌﺑ .ﺔﺠﺘﻨﻤﻟﺍ ﺔﺒﺟﻮﻟﺍ ﻉﻮﻧ\nﻦﻣ ﺔﻨﻴﻌﻣ ﻉﺍﻮﻧﻷ ﺕﻼﻴﻀﻔﺗ ﻢﻬﻳﺪﻟ\n.ﺕﺎﺒﺟﻮﻟﺍ</DietaryTypeDesc>
+  <!-- EN: only stacks with similar meals -->
+  <OnlyStacksWithCompatibleMeals>ﺔﻬﺑﺎﺸﻣ ﺕﺎﺒﺟﻭ ﻊﻣ ﻂﻘﻓ ﺱﺪﻜُﻳ</OnlyStacksWithCompatibleMeals>
+
+  <!-- Plants -->
+  <!-- EN: {0} grown -->
+  <PercentGrowth>ﺖﻤﻧ {0}</PercentGrowth>
+  <!-- EN: Growth rate -->
+  <GrowthRate>ﻮﻤﻨﻟﺍ ﻝﺪﻌﻣ</GrowthRate>
+  <!-- EN: Fully grown in {0} of growth. -->
+  <FullyGrownIn>.ﻮﻤﻨﻟﺍ ﻦﻣ {0} ﻲﻓ ﻞﻣﺎﻜﻟﺎﺑ ﻰﻤﻧ</FullyGrownIn>
+  <!-- EN: needs light level -->
+  <PlantNeedsLightLevel>ﺀﻮﺿ ﻯﻮﺘﺴﻤﻟ ﺝﺎﺘﺤﻳ</PlantNeedsLightLevel>
+  <!-- EN: resting -->
+  <PlantResting>ﺢﻳﺮﺘﺴﻳ</PlantResting>
+  <!-- EN: temperature growth multiplier {0}% -->
+  <OutOfIdealTemperatureRange>%{0} ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ ﻮﻤﻧ ﻒﻋﺎﻀﻣ</OutOfIdealTemperatureRange>
+  <!-- EN: out of temperature growth range -->
+  <OutOfIdealTemperatureRangeNotGrowing>ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ ﻮﻤﻧ ﻕﺎﻄﻧ ﺝﺭﺎﺧ</OutOfIdealTemperatureRangeNotGrowing>
+  <!-- EN: Ready to harvest. -->
+  <ReadyToHarvest>.ﺩﺎﺼﺤﻠﻟ ﺰﻫﺎﺟ</ReadyToHarvest>
+  <!-- EN: Mature. -->
+  <Mature>.ﺞﺿﺎﻧ</Mature>
+  <!-- EN: Average plant age -->
+  <AveragePlantAge>ﺕﺎﺒﻨﻟﺍ ﺮﻤﻋ ﻂﺳﻮﺘﻣ</AveragePlantAge>
+  <!-- EN: Oldest plant age -->
+  <OldestPlantAge>ﺕﺎﺒﻧ ﻡﺪﻗﺃ ﺮﻤﻋ</OldestPlantAge>
+  <!-- EN: Growing period -->
+  <OutdoorGrowingPeriod>ﻮﻤﻨﻟﺍ ﺓﺮﺘﻓ</OutdoorGrowingPeriod>
+  <!-- EN: Never -->
+  <NoGrowingPeriod>ًﺍﺪﺑﺃ</NoGrowingPeriod>
+  <!-- EN: Year-round -->
+  <GrowYearRound>ﻡﺎﻌﻟﺍ ﻝﺍﻮﻃ</GrowYearRound>
+  <!-- EN: Growing season here now. -->
+  <GrowSeasonHereNow>.ﻥﻵﺍ ﺎﻨﻫ ﻮﻤﻨﻟﺍ ﻢﺳﻮﻣ</GrowSeasonHereNow>
+  <!-- EN: Cannot grow (bad seasonal temperature). -->
+  <CannotGrowBadSeasonTemperature>ﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ) ﻮﻤﻨﻟﺍ ﻪﻨﻜﻤﻳ ﻻ\n.(ﺔﺌﻴﺳ ﺔﻴﻤﺳﻮﻣ</CannotGrowBadSeasonTemperature>
+  <!-- EN: Blighted -->
+  <Blighted>ﺔﺤﻔﻠﺑ ﺐﺼﻣ</Blighted>
+  <!-- EN: Dying because exposed to light -->
+  <DyingBecauseExposedToLight>ﺀﻮﻀﻠﻟ ﺽﺮﻌﺘﻟﺍ ﺐﺒﺴﺑ ﺮﻀﺘﺤﻳ</DyingBecauseExposedToLight>
+  <!-- EN: Dying from non-ideal terrain -->
+  <DyingBecauseOfTerrain>ﺔﻴﻟﺎﺜﻣ ﺮﻴﻏ ﺲﻳﺭﺎﻀﺗ ﺐﺒﺴﺑ ﺮﻀﺘﺤﻳ</DyingBecauseOfTerrain>
+  <!-- EN: Cut now -->
+  <AutoCutNow>ﻥﻵﺍ ﻊﻄﻗﺍ</AutoCutNow>
+  <!-- EN: harvesting -->
+  <HarvestGerund>ﺪﺼﺤﻳ</HarvestGerund>
+  <!-- EN: cutting -->
+  <CutGerund>ﻊﻄﻘﻳ</CutGerund>
+  <!-- EN: Cut all blight -->
+  <CutAllBlight>ﺔﺤﻔﻠﺑ ﺔﺑﺎﺼﻤﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻞﻛ ﻊﻄﻗﺍ</CutAllBlight>
+  <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
+  <CutAllBlightDesc>ﺔﺑﺎﺼﻤﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻊﻴﻤﺟ ﺩﺪﺣ\nﺕﺎﺗﺎﺒﻨﻟﺍ .ﺎﻫﺮﻴﻣﺪﺗ ﻢﺘﻴﻟ ﺔﺤﻔﻠﺑ\nﻭﺃ ﻡﺎﻌﻃ ﻱﺃ ﺞﺘﻨﺗ ﻦﻟ ﺔﺑﺎﺼﻤﻟﺍ\nﺭﺎﺸﺘﻧﺍ ﻞﺒﻗ ﺎﻫﺮﻴﻣﺪﺗ ﺐﺠﻳﻭ ﺩﺭﺍﻮﻣ\n.ﺔﺤﻔﻠﻟﺍ</CutAllBlightDesc>
+
+  <!-- Zones -->
+  <!-- EN: Zone -->
+  <Zone>ﺔﻘﻄﻨﻣ</Zone>
+  <!-- EN: Growing zone -->
+  <GrowingZone>ﺔﻋﺍﺭﺯ ﺔﻘﻄﻨﻣ</GrowingZone>
+  <!-- EN: growing -->
+  <GrowingGroup>ﺔﻋﺍﺭﺯ</GrowingGroup>
+  <!-- EN: Stockpile zone -->
+  <Stockpile>ﻦﻳﺰﺨﺗ ﺔﻘﻄﻨﻣ</Stockpile>
+  <!-- EN: stockpile -->
+  <StockpileGroup>ﻦﻳﺰﺨﺗ</StockpileGroup>
+  <!-- EN: Dumping stockpile zone -->
+  <DumpingStockpile>ﺕﺎﻳﺎﻔﻨﻟﺍ ﻲﻣﺭ ﺔﻘﻄﻨﻣ</DumpingStockpile>
+  <!-- EN: Corpse stockpile zone -->
+  <CorpseStockpile>ﺚﺜﺠﻟﺍ ﻦﻳﺰﺨﺗ ﺔﻘﻄﻨﻣ</CorpseStockpile>
+  <!-- EN: Priority -->
+  <Priority>ﺔﻳﻮﻟﻭﻷﺍ</Priority>
+  <!-- EN: Clear all -->
+  <ClearAll>ﻞﻜﻟﺍ ﺪﻳﺪﺤﺗ ﺀﺎﻐﻟﺇ</ClearAll>
+  <!-- EN: Allow all -->
+  <AllowAll>ﻞﻜﻟﺍ ﺪﻳﺪﺤﺗ</AllowAll>
+  
+  <!-- Storage Groups -->
+  <!-- EN: Group -->
+  <StorageGroup>ﺔﻋﻮﻤﺠﻣ</StorageGroup>
+  <!-- EN: Name -->
+  <StorageLabel>ﻢﺳﻻﺍ</StorageLabel>
+  <!-- EN: Storage group -->
+  <StorageGroupLabel>ﻦﻳﺰﺨﺘﻟﺍ ﺔﻋﻮﻤﺠﻣ</StorageGroupLabel>
+
+  <!-- ThingFilter -->
+  <!-- EN: {0} hit points -->
+  <HitPoints>ﺓﺎﻴﺣ ﻁﺎﻘﻧ {0}</HitPoints>
+  <!-- EN: any quality -->
+  <AnyQuality>ﺓﺩﻮﺟ ﻱﺃ</AnyQuality>
+  <!-- EN: {0} only -->
+  <OnlyQuality>ﻂﻘﻓ {0}</OnlyQuality>
+
+  <!-- Mouseover indicator -->
+  <!-- EN: Undiscovered -->
+  <Undiscovered>ﻒﺸﺘﻜﻣ ﺮﻴﻏ</Undiscovered>
+  
+  <!-- Animal management -->
+  <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSterilizeConfirm>؟{PAWN_nameDef} ﻢﻴﻘﻌﺗ ﺪﻳﺮﺗ ﻚﻧﺃ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ\n.{FACTION_name} ﺏﺎﻀﻏﺇ ﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻴﺳ</AnimalSterilizeConfirm>
+  <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSlaughterConfirm>؟{PAWN_nameDef} ﺢﺑﺫ ﺪﻳﺮﺗ ﻚﻧﺃ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ\n.{FACTION_name} ﺏﺎﻀﻏﺇ ﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻴﺳ</AnimalSlaughterConfirm>
+  <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalReleaseConfirm>ﻕﻼﻃﺇ ﺪﻳﺮﺗ ﻚﻧﺃ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ\n.{FACTION_name} ﺏﺎﻀﻏﺇ ﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻴﺳ ؟{PAWN_nameDef} ﺡﺍﺮﺳ</AnimalReleaseConfirm>
+
+  <!-- Buttons -->
+  <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
+  <ShowLearningHelperWhenEmptyToggleButton>ﺎﻣﺪﻨﻋ ﻢﻠﻌﺘﻟﺍ ﺪﻋﺎﺴﻣ ﺔﻳﺅﺭ ﻞﻳﺪﺒﺗ\n.ًﺎﻏﺭﺎﻓ ﻥﻮﻜﻳ\n\nًﺎﻴﺋﺮﻣ ﻢﻠﻌﺘﻟﺍ ﺪﻋﺎﺴﻣ ﻥﻮﻜﻳ\nﻂﺸﻧ ﻡﻮﻬﻔﻣ ﻙﺎﻨﻫ ﻥﺎﻛ ﺍﺫﺇ ًﺎﻤﺋﺍﺩ\nﻪﻠﻌﺠﻳ ﻞﻳﺪﺒﺘﻟﺍ ﺍﺬﻫ .ﻢﻠﻌﺘﻠﻟ\nﻡﻮﻬﻔﻣ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﻻ ﺎﻣﺪﻨﻋ ﻲﻔﺘﺨﻳ\n.ﻂﺸﻧ</ShowLearningHelperWhenEmptyToggleButton>
+  <!-- EN: Toggle visibility of zones. -->
+  <ZoneVisibilityToggleButton>.ﻖﻃﺎﻨﻤﻟﺍ ﺔﻳﺅﺭ ﻞﻳﺪﺒﺗ</ZoneVisibilityToggleButton>
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
+  <ShowBeautyToggleButton>.ﻝﺎﻤﺠﻟﺍ ﺽﺮﻋ ﻞﻳﺪﺒﺗ\n\nﻩﺍﺮﺗ ﺎﻤﻛ ﻢﻟﺎﻌﻟﺍ ﻝﺎﻤﺟ ﺽﺮﻌﻳ\nﺮﻴﺸﻳ ﺚﻴﺣ ﺔﻔﻗﺍﻮﻟﺍ ﺔﻴﺼﺨﺸﻟﺍ\n.ﺮﺷﺆﻤﻟﺍ</ShowBeautyToggleButton>
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
+  <ShowRoomStatsToggleButton>.ﺔﻓﺮﻐﻟﺍ ﺕﺎﻴﺋﺎﺼﺣﺇ ﺽﺮﻋ ﻞﻳﺪﺒﺗ\n\nﺮﻴﺸﻳ ﺚﻴﺣ ﺔﻓﺮﻐﻟﺍ ﺕﺎﻴﺋﺎﺼﺣﺇ ﺽﺮﻌﻳ\n.ﺮﺷﺆﻤﻟﺍ</ShowRoomStatsToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
+  <ShowColonistBarToggleButton>.ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﻂﻳﺮﺷ ﻞﻳﺪﺒﺗ\n\nﺔﻴﺳﺎﺳﺃ ﺔﻟﺎﺣﻭ ﺕﺎﻧﻮﻘﻳﺃ ﺽﺮﻌﻳ\nﺀﺰﺠﻟﺍ ﻝﻮﻃ ﻰﻠﻋ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﻊﻴﻤﺠﻟ\n.ﺔﺷﺎﺸﻟﺍ ﻦﻣ ﻱﻮﻠﻌﻟﺍ\n\nﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﺐﻴﺗﺮﺗ ﺓﺩﺎﻋﺇ ﻚﻨﻜﻤﻳ\nﺭﺰﺑ ﺮﻘﻨﻟﺎﺑ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﻂﻳﺮﺷ ﻲﻓ\n.ﻢﻬﺒﺤﺳﻭ ﻦﻤﻳﻷﺍ ﺓﺭﺄﻔﻟﺍ</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>.ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﻂﻳﺮﺷ ﻞﻳﺪﺒﺗ\n\nﺔﻴﺳﺎﺳﺃ ﺔﻟﺎﺣﻭ ﺕﺎﻧﻮﻘﻳﺃ ﺽﺮﻌﻳ\nﺀﺰﺠﻟﺍ ﻝﻮﻃ ﻰﻠﻋ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﻊﻴﻤﺠﻟ\n.ﺔﺷﺎﺸﻟﺍ ﻦﻣ ﻱﻮﻠﻌﻟﺍ\n\nﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﺐﻴﺗﺮﺗ ﺓﺩﺎﻋﺇ ﻚﻨﻜﻤﻳ\nﻰﻠﻋ ﻂﻐﻀﻟﺎﺑ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﻂﻳﺮﺷ ﻲﻓ\n.ﻢﻬﺒﺤﺳﻭ ﺮﺴﻳﻷﺍ ﺩﺎﻧﺰﻟﺍ ﺭﺯ</ShowColonistBarToggleButtonController>
+  <!-- EN: Toggle automatically expanding the home area around new constructions. -->
+  <AutoHomeAreaToggleButton>ﺔﻘﻄﻨﻤﻟ ﻲﺋﺎﻘﻠﺘﻟﺍ ﻊﺳﻮﺘﻟﺍ ﻞﻳﺪﺒﺗ\n.ﺓﺪﻳﺪﺠﻟﺍ ﺕﺍﺀﺎﺸﻧﻹﺍ ﻝﻮﺣ ﻝﺰﻨﻤﻟﺍ</AutoHomeAreaToggleButton>
+  <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
+  <AutoRebuildButton>ﺔﻴﺋﺎﻘﻠﺘﻟﺍ ﺀﺎﻨﺒﻟﺍ ﺓﺩﺎﻋﺇ ﻞﻳﺪﺒﺗ\nﺔﻘﻄﻨﻣ ﻲﻓ ﺓﺮﻣﺪﻤﻟﺍ ﻞﻛﺎﻴﻬﻠﻟ\n.ﻝﺰﻨﻤﻟﺍ</AutoRebuildButton>
+  <!-- EN: Toggle categorized mode on the resource readout. -->
+  <CategorizedResourceReadoutToggleButton>ﺽﺮﻋ ﻲﻓ ﻒﻴﻨﺼﺘﻟﺍ ﻊﺿﻭ ﻞﻳﺪﺒﺗ\n.ﺩﺭﺍﻮﻤﻟﺍ</CategorizedResourceReadoutToggleButton>
+  <!-- EN: Toggle displaying animal names for tame named animals. -->
+  <ShowAnimalNamesToggleButton>ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺀﺎﻤﺳﺃ ﺽﺮﻋ ﻞﻳﺪﺒﺗ\n.ﺀﺎﻤﺳﺃ ﺎﻬﻟ ﻲﺘﻟﺍ ﺔﺿﻭﺮﻤﻟﺍ</ShowAnimalNamesToggleButton>
+  <!-- EN: Toggle visibility of roofs. -->
+  <ShowRoofOverlayToggleButton>.ﻒﻘﺳﻷﺍ ﺔﻳﺅﺭ ﻞﻳﺪﺒﺗ</ShowRoofOverlayToggleButton>
+  <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
+  <ShowFertilityOverlayToggleButton>.ﺔﺑﻮﺼﺨﻟﺍ ﺐﻛﺍﺮﺗ ﻞﻳﺪﺒﺗ\n\nﺎﻤﻣ ،ﺽﺭﻷﺍ ﺔﺑﻮﺼﺧ ﻯﺪﻣ ﺍﺬﻫ ﺢﺿﻮﻳ\nﻲﺘﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻉﺍﻮﻧﺃ ﻰﻠﻋ ﺮﺛﺆﻳ\n.ﺎﻫﻮﻤﻧ ﺔﻋﺮﺳ ﻯﺪﻣﻭ ﻮﻤﻨﺗ ﻥﺃ ﻦﻜﻤﻳ</ShowFertilityOverlayToggleButton>
+  <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
+  <ShowTerrainAffordanceOverlayToggleButton>.ﺲﻳﺭﺎﻀﺘﻟﺍ ﺔﻣﺀﻼﻣ ﺔﻳﺅﺭ ﻞﻳﺪﺒﺗ\n\nﻲﺘﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ ﻉﺍﻮﻧﺄﺑ ﺍﺬﻫ ﻖﻠﻌﺘﻳ\n.ﻊﻗﻮﻣ ﻞﻛ ﻲﻓ ﺎﻫﺪﻴﻴﺸﺗ ﻦﻜﻤﻳ\n\nﻉﺍﻮﻧﺃ ﺾﻌﺑ ،ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ\nﺔﻔﻴﻔﺨﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ ﻂﻘﻓ ﻞﺒﻘﺗ ﺽﺭﻷﺍ\n.ﺔﻠﻴﻘﺜﻟﺍ ﺲﻴﻟ ﻦﻜﻟﻭ ،ﺔﻄﺳﻮﺘﻤﻟﺍ ﻭﺃ\nﻰﻠﻋ ﻂﻘﻓ ﺭﻮﺴﺠﻟﺍ ﺀﺎﻨﺑ ﻦﻜﻤﻳ\n.ﺀﺎﻤﻟﺍ</ShowTerrainAffordanceOverlayToggleButton>
+  <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
+  <LockNorthUpToggleButton>ﻥﻮﻜﻳ ﺚﻴﺤﺑ ﺍﺮﻴﻣﺎﻜﻟﺍ ﻥﺍﺭﻭﺩ ﻞﻔﻗ\n.ﻰﻠﻋﻸﻟ ًﺎﻤﺋﺍﺩ ﻲﻟﺎﻤﺸﻟﺍ ﺐﻄﻘﻟﺍ</LockNorthUpToggleButton>
+  <!-- EN: Toggle day/night lighting on the planet view. -->
+  <UsePlanetDayNightSystemToggleButton>ﻲﻓ ﻞﻴﻠﻟﺍ/ﺭﺎﻬﻨﻟﺍ ﺓﺀﺎﺿﺇ ﻞﻳﺪﺒﺗ\n.ﺐﻛﻮﻜﻟﺍ ﺽﺮﻋ</UsePlanetDayNightSystemToggleButton>
+  <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
+  <ShowBasesExpandingIconsToggleButton>ﻊﺳﻮﺘﻟﺍ ﺕﺎﻧﻮﻘﻳﺃ ﺽﺮﻋ ﻞﻳﺪﺒﺗ\nﻞﺋﺎﺼﻔﻠﻟ ﺔﻌﺑﺎﺘﻟﺍ ﺕﺎﻨﻃﻮﺘﺴﻤﻠﻟ\n.ﻯﺮﺧﻷﺍ</ShowBasesExpandingIconsToggleButton>
+  <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
+  <ShowImportantExpandingIconsToggleButton>ﻊﺳﻮﺘﻟﺍ ﺕﺎﻧﻮﻘﻳﺃ ﺽﺮﻋ ﻞﻳﺪﺒﺗ\n،ﻚﺗﺮﻤﻌﺘﺴﻣ ﻞﺜﻣ ،ﺔﻤﻬﻤﻟﺍ ﻊﻗﺍﻮﻤﻠﻟ\nﻂﺋﺍﺮﺨﻟﺍﻭ ،ﻡﺎﻬﻤﻟﺍ ﻊﻗﺍﻮﻣﻭ\n.ﺔﻄﺸﻨﻟﺍ</ShowImportantExpandingIconsToggleButton>
+  <!-- EN: Toggle visibility of names of landforms. -->
+  <ShowWorldFeaturesToggleButton>.ﺲﻳﺭﺎﻀﺘﻟﺍ ﺀﺎﻤﺳﺃ ﺔﻳﺅﺭ ﻞﻳﺪﺒﺗ</ShowWorldFeaturesToggleButton>
+  <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
+  <ShowTemperatureOverlayToggleButton>ﺍﺬﻫ ﺢﺿﻮﻳ .ﺓﺭﺍﺮﺤﻟﺍ ﺐﻛﺍﺮﺗ ﻞﻳﺪﺒﺗ\nﺔﻓﺮﻏ ﻞﻛ ﻲﻓ ﺀﺍﻮﻬﻟﺍ ﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ\n.ﺝﺭﺎﺨﻟﺍ ﻲﻓﻭ\n\nﺍﺫﺇ ﺀﺍﺪﻌﺳ ﺮﻴﻏ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻥﻮﻜﻴﺳ\nًﺍﺪﺟ ﺔﻌﻔﺗﺮﻣ ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ ﺖﻧﺎﻛ\nﺕﺎﺟﺭﺪﻟ ﺽﺮﻌﺘﻟﺍ .ًﺍﺪﺟ ﺔﻀﻔﺨﻨﻣ ﻭﺃ\nﻰﻟﺇ ﻱﺩﺆﻳ ﻥﺃ ﻦﻜﻤﻳ ﺔﻓﺮﻄﺘﻣ ﺓﺭﺍﺮﺣ\nﺔﻀﻋﻭ ،ﻢﺴﺠﻟﺍ ﺓﺭﺍﺮﺣ ﺽﺎﻔﺨﻧﺍ\n،ﻕﻭﺮﺤﻟﺍﻭ ،ﺲﻤﺸﻟﺍ ﺔﺑﺮﺿﻭ ،ﻊﻴﻘﺼﻟﺍ\n.ﺕﻮﻤﻟﺍﻭ</ShowTemperatureOverlayToggleButton>
+
+  <!-- Hotkeys -->
+  <!-- EN: Hotkey -->
+  <HotKeyTip>ﺭﺎﺼﺘﺧﺍ ﺡﺎﺘﻔﻣ</HotKeyTip>
+  
+  <!-- Fire -->
+  <!-- EN: fire on {1_label} -->
+  <FireOn>{1_label} ﻰﻠﻋ ﺭﺎﻧ</FireOn>
+  <!-- EN: Burning -->
+  <Burning>ﻕﺮﺘﺤﺗ</Burning>
+  <!-- EN: fire size {0} -->
+  <FireSizeLower>{0} ﺭﺎﻨﻟﺍ ﻢﺠﺣ</FireSizeLower>
+
+  <!-- Game conditions -->
+  <!-- EN: Special conditions affecting the area right now. -->
+  <GameConditionsTip>ﺔﻘﻄﻨﻤﻟﺍ ﻰﻠﻋ ﺮﺛﺆﺗ ﺔﺻﺎﺧ ﻑﻭﺮﻇ\n.ﻥﻵﺍ</GameConditionsTip>
+  <!-- EN: time left -->
+  <TimeLeft>ﻲﻘﺒﺘﻤﻟﺍ ﺖﻗﻮﻟﺍ</TimeLeft>
+  <!-- EN: impact date -->
+  <ImpactDate>ﺮﻴﺛﺄﺘﻟﺍ ﺦﻳﺭﺎﺗ</ImpactDate>
+  <!-- EN: Source unknown. -->
+  <SourceUnknown>.ﻝﻮﻬﺠﻣ ﺭﺪﺼﻤﻟﺍ</SourceUnknown>
+  <!-- EN: Click to jump to the source. -->
+  <ClickToJumpToSource>.ﺭﺪﺼﻤﻟﺍ ﻰﻟﺇ ﻝﺎﻘﺘﻧﻼﻟ ﺮﻘﻧﺍ</ClickToJumpToSource>
+  <!-- EN: Click to jump to the flashstorm. -->
+  <ClickToJumpToFlashstorm>ﺔﻔﺻﺎﻌﻟﺍ ﻰﻟﺇ ﻝﺎﻘﺘﻧﻼﻟ ﺮﻘﻧﺍ\n.ﺔﺌﺟﺎﻔﻤﻟﺍ</ClickToJumpToFlashstorm>
+  <!-- EN: Caused by quest: {0} -->
+  <CausedByQuest>{0} :ﺔﻤﻬﻤﻟﺍ ﺐﺒﺴﺑ</CausedByQuest>
+
+  <!-- Building placement -->
+  <!-- EN: You have no usable materials from which to build this. -->
+  <NoStuffsToBuildWith>ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﻠﺑﺎﻗ ﺩﺍﻮﻣ ﻚﻳﺪﻟ ﺲﻴﻟ\n.ﺎﻬﺑ ﺀﺎﻨﺒﻟﺍ ﻚﻨﻜﻤﻳ</NoStuffsToBuildWith>
+
+  <!-- Building placement restricters -->
+  <!-- EN: {0} will have work speed penalty -->
+  <WillGetWorkSpeedPenalty>ﻞﻤﻌﻟﺍ ﺔﻋﺮﺳ ﻲﻓ ﺔﺑﻮﻘﻋ ﻪﺟﺍﻮﺘﺳ {0}</WillGetWorkSpeedPenalty>
+  <!-- EN: Cannot be placed under a roof. -->
+  <MustPlaceUnroofed>.ﻒﻘﺳ ﺖﺤﺗ ﺎﻬﻌﺿﻭ ﻦﻜﻤﻳ ﻻ</MustPlaceUnroofed>
+  <!-- EN: Must be placed under thick roof. -->
+  <MustPlaceUnderThickRoof>.ﻚﻴﻤﺳ ﻒﻘﺳ ﺖﺤﺗ ﺎﻬﻌﺿﻭ ﺐﺠﻳ</MustPlaceUnderThickRoof>
+  <!-- EN: Must be placed against a wall. -->
+  <MustPlaceOnWall>.ﺭﺍﺪﺟ ﻞﺑﺎﻘﻣ ﺎﻬﻌﺿﻭ ﺐﺠﻳ</MustPlaceOnWall>
+  <!-- EN: Something is already placed on this wall. -->
+  <SomethingPlacedOnThisWall>ﺍﺬﻫ ﻰﻠﻋ ﻞﻌﻔﻟﺎﺑ ﻉﻮﺿﻮﻣ ﺀﻲﺷ ﻙﺎﻨﻫ\n.ﺭﺍﺪﺠﻟﺍ</SomethingPlacedOnThisWall>
+  <!-- EN: This building can not support attachments. -->
+  <CannotSupportAttachment>ﻢﻋﺩ ﻪﻨﻜﻤﻳ ﻻ ﻰﻨﺒﻤﻟﺍ ﺍﺬﻫ\n.ﺕﺎﻘﺤﻠﻤﻟﺍ</CannotSupportAttachment>
+  <!-- EN: Must place with head attached to ship structural beam. -->
+  <MustPlaceHeadOnShipBeam>ﺱﺃﺮﻟﺍ ﻥﻮﻜﻳ ﺚﻴﺤﺑ ﺎﻬﻌﺿﻭ ﺐﺠﻳ\n.ﺔﻨﻴﻔﺴﻟﺍ ﻞﻜﻴﻫ ﺔﺿﺭﺎﻌﺑ ًﻼﺼﺘﻣ</MustPlaceHeadOnShipBeam>
+  <!-- EN: Must be placed next to something that needs a hopper. -->
+  <MustPlaceNextToHopperAccepter>ﻰﻟﺇ ﺝﺎﺘﺤﻳ ﺀﻲﺷ ﺐﻧﺎﺠﺑ ﺎﻬﻌﺿﻭ ﺐﺠﻳ\n.ﻊﻤﻗ</MustPlaceNextToHopperAccepter>
+  <!-- EN: Must be placed directly on a steam geyser. -->
+  <MustPlaceOnSteamGeyser>.ﺭﺎﺨﺑ ﻊﺒﻧ ﻰﻠﻋ ﺓﺮﺷﺎﺒﻣ ﺎﻬﻌﺿﻭ ﺐﺠﻳ</MustPlaceOnSteamGeyser>
+  <!-- EN: Both the hot and cold sides of the cooler must be exposed. -->
+  <MustPlaceCoolerWithFreeSpaces>ﻦﺧﺎﺴﻟﺍ ﻦﻴﺒﻧﺎﺠﻟﺍ ﻼﻛ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ\n.ﻦﻴﻓﻮﺸﻜﻣ ﺩﺮﺒﻤﻠﻟ ﺩﺭﺎﺒﻟﺍﻭ</MustPlaceCoolerWithFreeSpaces>
+  <!-- EN: Both the sides must be exposed for air to pass through. -->
+  <MustPlaceVentWithFreeSpaces>ﻦﻴﺒﻧﺎﺠﻟﺍ ﻼﻛ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ\nﻦﻣ ﺀﺍﻮﻬﻟﺍ ﻦﻜﻤﺘﻴﻟ ﻦﻴﻓﻮﺸﻜﻣ\n.ﺭﻭﺮﻤﻟﺍ</MustPlaceVentWithFreeSpaces>
+  <!-- EN: Must be placed with standable space on all sides. -->
+  <MustPlaceAdjacentStandable>ﻑﻮﻗﻮﻟﺍ ﻦﻜﻤﻳ ﺔﺣﺎﺴﻣ ﻊﻣ ﺎﻬﻌﺿﻭ ﺐﺠﻳ\n.ﺐﻧﺍﻮﺠﻟﺍ ﻊﻴﻤﺟ ﻦﻣ ﺎﻬﻴﻓ</MustPlaceAdjacentStandable>
+  <!-- EN: Must be placed next to a pod launcher's fueling port. -->
+  <MustPlaceNearFuelingPort>ﺪﻳﻭﺰﺗ ﺬﻔﻨﻣ ﺐﻧﺎﺠﺑ ﺎﻬﻌﺿﻭ ﺐﺠﻳ\n.ﺕﻻﻮﺴﺒﻜﻟﺍ ﻑﺫﺎﻘﺑ ﺹﺎﺨﻟﺍ ﺩﻮﻗﻮﻟﺍ</MustPlaceNearFuelingPort>
+  <!-- EN: Must be placed on drillable resources. -->
+  <MustPlaceOnDrillable>ﺔﻠﺑﺎﻗ ﺩﺭﺍﻮﻣ ﻰﻠﻋ ﺎﻬﻌﺿﻭ ﺐﺠﻳ\n.ﺮﻔﺤﻠﻟ</MustPlaceOnDrillable>
+  <!-- EN: Cannot be placed next to traps. -->
+  <CannotPlaceAdjacentTrap>.ﺥﺎﺨﻔﻟﺍ ﺐﻧﺎﺠﺑ ﺎﻬﻌﺿﻭ ﻦﻜﻤﻳ ﻻ</CannotPlaceAdjacentTrap>
+  <!-- EN: Cannot be placed next to another building of the same type. -->
+  <CannotPlaceAdjacentSameDef>ﻦﻣ ﺮﺧﺁ ﻰﻨﺒﻣ ﺐﻧﺎﺠﺑ ﺎﻬﻌﺿﻭ ﻦﻜﻤﻳ ﻻ\n.ﻉﻮﻨﻟﺍ ﺲﻔﻧ</CannotPlaceAdjacentSameDef>
+
+  <!-- Wind Turbine -->
+  <!-- EN: Blocked by -->
+  <WindTurbine_WindPathIsBlockedBy>ﺔﻄﺳﺍﻮﺑ ﺩﻭﺪﺴﻣ</WindTurbine_WindPathIsBlockedBy>
+  <!-- EN: Blocked by roof -->
+  <WindTurbine_WindPathIsBlockedByRoof>ﻒﻘﺳ ﺔﻄﺳﺍﻮﺑ ﺩﻭﺪﺴﻣ</WindTurbine_WindPathIsBlockedByRoof>
+
+  <!-- Watermill generator -->
+  <!-- EN: Flow reduced: Turbulence from other watermill -->
+  <Watermill_WaterUsedTwice>ﻦﻣ ﺏﺍﺮﻄﺿﺍ :ﻖﻓﺪﺘﻟﺍ ﺽﺎﻔﺨﻧﺍ\nﻯﺮﺧﺃ ﺔﻴﺋﺎﻣ ﺔﻧﻮﺣﺎﻃ</Watermill_WaterUsedTwice>
+
+  <!-- Cryptosleep casket -->
+  <!-- EN: Contains -->
+  <CasketContains>ﻰﻠﻋ ﻱﻮﺘﺤﻳ</CasketContains>
+  <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
+  <CasketWarning>!ﺮﻳﺬﺤﺗ\n\nﺍﺫﺇ !ﻚﻳﺪﻟ ﺮﺣ ﺮﻤﻌﺘﺴﻣ ﺮﺧﺁ ﻮﻫ {PAWN_nameDef}\nﻚﻠﺗ ﻰﻟﺇ ﻝﻮﺧﺪﻟﺎﺑ {PAWN_objective}ـﻟ ﺖﺤﻤﺳ\nﺔﻌﺑﺎﺘﻣ ﻦﻣ ﻦﻜﻤﺘﺗ ﻻ ﺪﻘﻓ ،ﺕﻮﺑﺎﺘﻟﺍ\nﺪﻳﺮﺗ ﻚﻧﺃ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ .ﺐﻌﻠﻟﺍ\n؟ﺔﻌﺑﺎﺘﻤﻟﺍ</CasketWarning>
+
+  <!-- Ship launch report -->
+  <!-- EN: Cannot launch. -->
+  <ShipReportCannotLaunch>.ﻉﻼﻗﻹﺍ ﻦﻜﻤﻳ ﻻ</ShipReportCannotLaunch>
+  <!-- EN: Ready for launch. -->
+  <ShipReportCanLaunch>.ﻉﻼﻗﻺﻟ ﺓﺰﻫﺎﺟ</ShipReportCanLaunch>
+  <!-- EN: Missing critical component -->
+  <ShipReportMissingPart>ﺩﻮﻘﻔﻣ ﻱﻮﻴﺣ ﻥﻮﻜﻣ</ShipReportMissingPart>
+  <!-- EN: requires -->
+  <ShipReportMissingPartRequires>ﺐﻠﻄﺘﻳ</ShipReportMissingPartRequires>
+  <!-- EN: No full cryptosleep caskets -->
+  <ShipReportNoFullPods>ﺔﺌﻠﺘﻤﻣ ﻖﺋﺎﻓ ﺕﺎﺒﺳ ﺖﻴﺑﺍﻮﺗ ﺪﺟﻮﺗ ﻻ</ShipReportNoFullPods>
+  <!-- EN: Hibernating component -->
+  <ShipReportHibernating>ﺕﺎﺒﺳ ﺔﻟﺎﺣ ﻲﻓ ﻥﻮﻜﻣ</ShipReportHibernating>
+  <!-- EN: Component not yet ready -->
+  <ShipReportNotReady>ﺪﻌﺑ ًﺍﺰﻫﺎﺟ ﺲﻴﻟ ﻥﻮﻜﻤﻟﺍ</ShipReportNotReady>
+  <!-- EN: No settlement to return to. Form a settlement first. -->
+  <ShipNoSettlementToReturnTo>.ﺎﻬﻴﻟﺇ ﺓﺩﻮﻌﻠﻟ ﺔﻨﻃﻮﺘﺴﻣ ﺪﺟﻮﺗ ﻻ\n.ًﻻﻭﺃ ﺔﻨﻃﻮﺘﺴﻣ ﺀﺎﺸﻧﺈﺑ ﻢﻗ</ShipNoSettlementToReturnTo> 
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <HibernateWarning>ﺀﺪﺒﻟ ﺰﻫﺎﺟ (*Name)ﻥﻮﺘﺴﺘﻳﺍﻭ ﻥﻮﻟﺭﺎﺷ(/Name)\n.ﻞﻋﺎﻔﻤﻟﺍ ﺕﺎﺒﺳ ﺓﺩﺎﻌﺘﺳﺍ ﻞﺴﻠﺴﺗ\n\nﻕﺮﻐﺘﺴﺘﺳ ﺔﻴﻠﻤﻌﻟﺍ ﻥﺃ ﻦﻣ ﻙﺭﺬﺤﻳ\nﻦﻣ ﻥﻮﻜﻴﺳﻭ ،ًﺎﻣﻮﻳ 15 ﻲﻟﺍﻮﺣ\nﻦﻣ ﺔﻗﺎﻄﻟﺍ ﺔﻤﺼﺑ ﻑﺎﺸﺘﻛﺍ ﻦﻜﻤﻤﻟﺍ\n.ﺓﺪﻴﻌﺑ ﺔﻓﺎﺴﻣ\n\nﺮﻴﺸﻳ ﺔﻗﺎﻄﻟﺍ ﺔﻤﺼﺑ ﻦﻣ ﻉﻮﻨﻟﺍ ﺍﺬﻫ\nﻦﻴﺑ ﻥﺍﺮﻴﻄﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻗ ﻰﻟﺇ\nﻦﻣ ﺕﺎﺑﺎﺼﻋ ﺏﺬﺠﻴﺳﻭ ،ﻡﻮﺠﻨﻟﺍ\nﻦﻣ ًﺎﺑﺍﺮﺳﺃﻭ ﻦﻴﺴﺋﺎﻴﻟﺍ ﻦﻳﺮﻴﻐﻤﻟﺍ\n.ﺔﻛﺎﺘﻔﻟﺍ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\n\nﻪﻠﺜﻣ َﺮﺗ ﻢﻟ ﺓﺪﺸﺑ ﻡﻮﺠﻬﻟ ﺽﺮﻌﺘﺘﺳ\nﺩﺍﺪﻌﺘﺳﺍ ﻦﻣ ﺪﻛﺄﺗ .ﻞﺒﻗ ﻦﻣ\n.ًﻻﻭﺃ ﻚﺗﺎﻋﺎﻓﺩ</HibernateWarning>
+  <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <HibernateWarningStandalone>.ﻞﻴﻐﺸﺘﻠﻟ ﺰﻫﺎﺟ ﻞﻋﺎﻔﻤﻟﺍ\n\n15 ﻲﻟﺍﻮﺣ ﺔﻴﻠﻤﻌﻟﺍ ﻕﺮﻐﺘﺴﺘﺳ\nﻑﺎﺸﺘﻛﺍ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻥﻮﻜﻴﺳﻭ ،ًﺎﻣﻮﻳ\n.ﺓﺪﻴﻌﺑ ﺔﻓﺎﺴﻣ ﻦﻣ ﺔﻗﺎﻄﻟﺍ ﺔﻤﺼﺑ\nﺔﻗﺎﻄﻟﺍ ﺔﻤﺼﺑ ﻦﻣ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﺮﻴﺸﻳ\nﻦﻴﺑ ﻥﺍﺮﻴﻄﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻗ ﻰﻟﺇ\nﻦﻣ ﺕﺎﺑﺎﺼﻋ ﺏﺬﺠﻴﺳﻭ ،ﻡﻮﺠﻨﻟﺍ\nﻦﻣ ًﺎﺑﺍﺮﺳﺃﻭ ﻦﻴﺴﺋﺎﻴﻟﺍ ﻦﻳﺮﻴﻐﻤﻟﺍ\n.ﺔﻛﺎﺘﻔﻟﺍ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\n\nﻪﻠﺜﻣ َﺮﺗ ﻢﻟ ﺓﺪﺸﺑ ﻡﻮﺠﻬﻟ ﺽﺮﻌﺘﺘﺳ\nﺩﺍﺪﻌﺘﺳﺍ ﻦﻣ ﺪﻛﺄﺗ .ﻞﺒﻗ ﻦﻣ\n.ًﻻﻭﺃ ﻚﺗﺎﻋﺎﻓﺩ</HibernateWarningStandalone>
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
+  <HibernateWarningPacifist>ﺀﺪﺒﻟ ﺰﻫﺎﺟ (*Name)ﻥﻮﺘﺴﺘﻳﺍﻭ ﻥﻮﻟﺭﺎﺷ(/Name)\n.ﻞﻋﺎﻔﻤﻟﺍ ﺕﺎﺒﺳ ﺓﺩﺎﻌﺘﺳﺍ ﻞﺴﻠﺴﺗ\nﻕﺮﻐﺘﺴﺘﺳ ﺔﻴﻠﻤﻌﻟﺍ ﻥﺃ ﻦﻣ ﻙﺭﺬﺤﻳ\n.ًﺎﻣﻮﻳ 15 ﻲﻟﺍﻮﺣ</HibernateWarningPacifist>
+  <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
+  <HibernateWarningStandalonePacifist>ﻕﺮﻐﺘﺴﺘﺳ .ﻞﻴﻐﺸﺘﻠﻟ ﺰﻫﺎﺟ ﻞﻋﺎﻔﻤﻟﺍ\n.ًﺎﻣﻮﻳ 15 ﻲﻟﺍﻮﺣ ﺔﻴﻠﻤﻌﻟﺍ</HibernateWarningStandalonePacifist>
+
+  <!-- Neurotrainer -->
+  <!-- EN: skilltrainer ({0}) -->
+  <SkillNeurotrainerLabel>({0}) ﺕﺍﺭﺎﻬﻣ ﺏﺭﺪﻣ</SkillNeurotrainerLabel>
+  <!-- EN: Use skilltrainer to learn {0} -->
+  <SkillNeurotrainerUseLabel>{0} ﻢﻠﻌﺘﻟ ﺕﺍﺭﺎﻬﻤﻟﺍ ﺏﺭﺪﻣ ﻡﺪﺨﺘﺳﺍ</SkillNeurotrainerUseLabel>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
+  <SkillNeurotrainerDescription>ﺓﺪﺣﺍﻭ ﺓﺮﻤﻟ ﻡﺪﺨﺘﺴﺗ ﺔﻘﺋﺎﻓ ﺔﻋﺮﺟ\n.ﺓﺩﺪﺤﻣ ﺓﺭﺎﻬﻣ ﺏﺭﺪﺗ ﺖﻴﻧﺎﻜﻴﻤﻟﺍ ﻦﻣ\n\nﺭﺍﺪﻣ ﺮﺒﻋ ﺔﻋﺮﺠﻟﺍ ﺀﺎﻄﻋﺇ ﻢﺘﻳ\n،ﻍﺎﻣﺪﻟﺍ ﻲﻓ ﺎﻬﻗﻼﻃﺇ ﺩﺮﺠﻤﺑ .ﻦﻴﻌﻟﺍ\nﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺔﻋﺮﺴﺑ ﺖﻴﻧﺎﻜﻴﻤﻟﺍ ﻞﻤﻌﺗ\n،ﺩﺪﺤﻣ ﻝﺎﺠﻣ ﻲﻓ ﺺﺨﺸﻟﺍ ﺕﺍﺭﺎﻬﻣ\nﺐﺴﺣ ﻲﺒﺼﻋ ﺞﻴﺴﻧ ﻰﻟﺇ ﻝﻮﺤﺘﺗﻭ\n.ﺔﺟﺎﺤﻟﺍ</SkillNeurotrainerDescription>
+  <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
+  <SkillNeurotrainerUsed>ﻝﺎﻘﺘﻧﻼﻟ {1} ﺕﺍﺭﺎﻬﻣ ﺏﺭﺪﻣ {USER_labelShort} ﻡﺪﺨﺘﺳﺍ\n.{3} ﻯﻮﺘﺴﻤﻟﺍ ﻰﻟﺇ {2} ﻯﻮﺘﺴﻤﻟﺍ ﻦﻣ</SkillNeurotrainerUsed>
+
+  <!-- Minification -->
+  <!-- EN: Installed -->
+  <Installed>ﺖﺒﺜﻣ</Installed>
+  <!-- EN: Not installed -->
+  <NotInstalled>ﺖﺒﺜﻣ ﺮﻴﻏ</NotInstalled>
+  <!-- EN: Extracted tree will die in {time} unless replanted. -->
+  <MinifiedTreeWillDieIn>{time} ﻝﻼﺧ ﺕﻮﻤﺘﺳ ﺔﺟﺮﺨﺘﺴﻤﻟﺍ ﺓﺮﺠﺸﻟﺍ\n.ﺎﻬﺘﻋﺍﺭﺯ ﺓﺩﺎﻋﺇ ﻢﺘﻳ ﻢﻟ ﺎﻣ</MinifiedTreeWillDieIn>
+
+  <!-- Art -->
+  <!-- EN: Title -->
+  <Title>ﻥﺍﻮﻨﻌﻟﺍ</Title>
+  <!-- EN: Untitled -->
+  <Untitled>ﻥﺍﻮﻨﻋ ﻥﻭﺪﺑ</Untitled>
+
+  <!-- Unfinished thing -->
+  <!-- EN: Unfinished {0} -->
+  <UnfinishedItem>{0} ﻞﻤﺘﻜﻣ ﺮﻴﻏ</UnfinishedItem>
+  <!-- EN: Unfinished {0} {1} -->
+  <UnfinishedItemWithStuff>{0} {1} ﻞﻤﺘﻜﻣ ﺮﻴﻏ</UnfinishedItemWithStuff>
+
+  <!-- Quality -->
+  <!-- EN: Quality -->
+  <Quality>ﺓﺩﻮﺠﻟﺍ</Quality>
+  <!-- EN: quality -->
+  <quality>ﺓﺩﻮﺠﻟﺍ</quality>
+  <!-- EN: An item's quality is how well-made it is. -->
+  <QualityDescription>ﺪﻴﺟ ﻪﻧﻮﻛ ﻯﺪﻣ ﻲﻫ ﺮﺼﻨﻌﻟﺍ ﺓﺩﻮﺟ\n.ﻊﻨﺼﻟﺍ</QualityDescription>
+  <!-- EN: Quality: {0} -->
+  <QualityIs>{0} :ﺓﺩﻮﺠﻟﺍ</QualityIs>
+
+  <!-- Mood descriptions -->
+  <!-- EN: mental state -->
+  <Mood_MentalState>ﺔﻴﻠﻘﻋ ﺔﻟﺎﺣ</Mood_MentalState>
+  <!-- EN: about to break -->
+  <Mood_AboutToBreak>ﺭﺎﻴﻬﻧﻻﺍ ﻚﺷﻭ ﻰﻠﻋ</Mood_AboutToBreak>
+  <!-- EN: on edge -->
+  <Mood_OnEdge>ﺮﺗﻮﺘﻣ</Mood_OnEdge>
+  <!-- EN: stressed -->
+  <Mood_Stressed>ﻁﻮﻐﻀﻣ</Mood_Stressed>
+  <!-- EN: neutral -->
+  <Mood_Neutral>ﺪﻳﺎﺤﻣ</Mood_Neutral>
+  <!-- EN: content -->
+  <Mood_Content>ٍﺽﺍﺭ</Mood_Content>
+  <!-- EN: happy -->
+  <Mood_Happy>ﺪﻴﻌﺳ</Mood_Happy>
+
+  <!-- Game over -->
+  <!-- EN: Game Over -->
+  <GameOver>ﺔﺒﻌﻠﻟﺍ ﺔﻳﺎﻬﻧ</GameOver>
+  <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
+  <GameOverEveryoneDead>ﺖﻬﺘﻧﺍ .ﺍﻮﻠﺣﺭ ﻭﺃ ﺍﻮﺗﺎﻣ ﻊﻴﻤﺠﻟﺍ\n.ﺔﺼﻘﻟﺍ ﻩﺬﻫ\n\nًﺎﻣﺍﺪﺨﺘﺳﺍ ﺮﺧﺁ ﺺﺨﺷ ﺪﺠﻴﺳ ﺎﻤﺑﺭ\n.ﻥﺎﻜﻤﻟﺍ ﺍﺬﻫ ﻝﻼﻃﻷ</GameOverEveryoneDead>
+  <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
+  <GameOverPlanetkillerImpact>ﻡﺪﻄﺻﺍ ،ﺀﻮﻀﻟﺍ ﺔﻋﺮﺳ ﺏﺭﺎﻘﺗ ﺔﻋﺮﺴﺑ\nﺓﻮﻘﺑ ﺽﺭﻷﺎﺑ ﺐﻛﺍﻮﻜﻟﺍ ﻞﺗﺎﻗ ﺡﻼﺳ\nﻞﺜﻣ .ﺔﻴﻨﻴﺟﻭﺭﺪﻴﻫ ﺔﻠﺒﻨﻗ ﻥﻮﻴﻠﻳﺮﺗ\n،ﺔﻴﻗﺪﻨﺑ ﻪﻴﻠﻋ ﻖﻠﻃﺃ ﺀﺎﻣ ﻥﻮﻟﺎﺑ\nﺮﻴﺛﺄﺗ ﺖﺤﺗ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻞّﻴﺴﺗ\nﺓﺮﻬﺼﻨﻤﻟﺍ ﻩﺀﺎﺸﺣﺃ ﺵﺭﻭ ﻡﺍﺪﻄﺻﻻﺍ\n.ﻥﻮﻜﻟﺍ ﺮﺒﻋ\n\nًﺎﻣﺍﺰﺣ ﻥﻵﺍ ﺢﺒﺻﺃ {0} ﻦﻣ ﺀﺰﺟ\nﻲﻗﺎﺒﻟﺍﻭ .ﺕﺎﺒﻜﻳﻮﻜﻟﺍ ﻦﻣ ًﺍﺮﻴﻐﺻ\n،ﻊﺸﻣﻭ ﺮﻬﺼﻨﻣ ﻢﻴﺤﺟ ﻦﻋ ﺓﺭﺎﺒﻋ\nﻝﺯﻻﺯ ﺐﺒﺴﺑ ﺭﺍﺮﻤﺘﺳﺎﺑ ﺝﻮﻤﺘﻳ\nﺎﻬﻋﺎﻔﺗﺭﺍ ﻎﻠﺒﻳ ﺔﻴﺒﻛﻮﻛ\n.ﺕﺍﺮﺘﻣﻮﻠﻴﻛ\n\n.ُﺞﻨﺗ ﻢﻟ ﺖﻧﺃ</GameOverPlanetkillerImpact>
+  <!-- EN: You've launched the ship! -->
+  <GameOverShipLaunchedIntro>!ﺔﻨﻴﻔﺴﻟﺍ ﺖﻘﻠﻃﺃ ﺪﻘﻟ</GameOverShipLaunchedIntro>
+  <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
+  <GameOverShipLaunchedEnding>ﻪﻴﺟﻮﺗ ﻥﻵﺍ ﺔﻴﻟﻵﺍ ﻚﺘﻴﺼﺨﺷ ﻝﻭﺎﺤﺘﺳ\nﺪﺠﺗ ﺪﻗ .ﻦﻣﺁ ﻥﺎﻜﻣ ﻰﻟﺇ ﺔﻨﻴﻔﺴﻟﺍ\n.ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻲﻓ ًﺍﺮﻫﺩﺰﻣ ًﺎﺒﻛﻮﻛ\nًﺎﻧﻭﺮﻗ ﻕﺮﻐﺘﺴﺗ ﺔﻠﺣﺮﺑ ﻡﻮﻘﺗ ﺪﻗ ﻭﺃ\nﻰﺘﺣ ﺭﺮﻘﺗ ﺪﻗ .ﺮﺧﺁ ﻢﺠﻧ ﻰﻟﺇ\nﺐﻜﻳﻮﻛ ﻰﻠﻋ ﺪﻴﻠﺠﻟﺍ ﺖﺤﺗ ﺀﺎﺒﺘﺧﻻﺍ\nﺭﺎﻈﺘﻧﺍ ﻲﻓ ،ﻦﻴﻨﺴﻟﺍ ﻦﻣ ﻑﻻﺁ ﺔﻌﻀﺒﻟ\nﻖﻟﺄﺘﻣ ﺪﻳﺪﺟ ﻢﻟﺎﻋ ﺀﺎﻨﺒﻟ ﺎﻣ ﺺﺨﺷ\n.ﺎﻨﻫ\n\n.ﻆﻘﻴﺘﺴﺗ ﺎﻣﺪﻨﻋ ﻚﻟﺫ ﻑﺮﻌﺘﺳ</GameOverShipLaunchedEnding>
+  <!-- EN: These colonists escaped:\n\n{0} -->
+  <GameOverColonistsEscaped>:ﺍﻮﺑﺮﻫ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﺀﻻﺆﻫ\n\n{0}</GameOverColonistsEscaped>
+  <!-- EN: These colonists were left behind:\n\n{0} -->
+  <GameOverColonistsLeft>:ﻢﻬﻔﻠﺧ ﺍﻮﻛﺮُﺗ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﺀﻻﺆﻫ\n\n{0}</GameOverColonistsLeft>
+  <!-- EN: In memory of:\n -->
+  <GameOverInMemoryOf>:ﻯﺮﻛﺫ ﻲﻓ\n</GameOverInMemoryOf>
+  <!-- EN: Keep watching -->
+  <GameOverKeepWatching>ﺓﺪﻫﺎﺸﻤﻟﺍ ﻲﻓ ﺮﻤﺘﺳﺍ</GameOverKeepWatching>
+  <!-- EN: Keep watching for now -->
+  <GameOverKeepWatchingForNow>ًﺎﻴﻟﺎﺣ ﺓﺪﻫﺎﺸﻤﻟﺍ ﻲﻓ ﺮﻤﺘﺳﺍ</GameOverKeepWatchingForNow>
+  <!-- EN: Create new wanderers -->
+  <GameOverCreateNewWanderers>ﺩﺪﺟ ﻦﻴﻟﻮﺠﺘﻣ ﺀﺎﺸﻧﺇ</GameOverCreateNewWanderers>
+  <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
+  <GameOverCreateNewWanderersText>ﺎﻤﺑﺭ .ﺍﻮﻠﺣﺭ ﻭﺃ ﺍﻮﺗﺎﻣ ﻊﻴﻤﺠﻟﺍ\nﺍﺬﻫ ﻝﻼﻃﻷ ًﺎﻣﺍﺪﺨﺘﺳﺍ ﺎﻣ ﺺﺨﺷ ﺪﺠﻴﺳ\n.ﻥﺎﻜﻤﻟﺍ\n\nﻰﻟﺇ ﻥﻮﻠﺼﻳ ﺩﺪﺟ ﻦﻴﻟﻮﺠﺘﻣ ﺮﺘﺧﺍ\n.ﺔﺼﻘﻟﺍ ﻥﻮﻠﺻﺍﻮﻳﻭ ﻚﺗﺮﻤﻌﺘﺴﻣ</GameOverCreateNewWanderersText>
+  <!-- EN: Main menu -->
+  <GameOverMainMenu>ﺔﻴﺴﻴﺋﺮﻟﺍ ﺔﻤﺋﺎﻘﻟﺍ</GameOverMainMenu>
+  <!-- EN: No colony -->
+  <NoColony>ﺓﺮﻤﻌﺘﺴﻣ ﺪﺟﻮﺗ ﻻ</NoColony>
+  <!-- EN: cannot reach any destination -->
+  <NoWandererDestination>ﺔﻬﺟﻭ ﻱﺃ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻦﻜﻤﻳ ﻻ</NoWandererDestination>
+  <!-- EN: must wait {0}h -->
+  <GameOverCreateNewWanderersWait>ﺔﻋﺎﺳ {0} ﺭﺎﻈﺘﻧﻻﺍ ﺐﺠﻳ</GameOverCreateNewWanderersWait>
+
+  <!-- Generic lifespan -->
+  <!-- EN: Expires in: -->
+  <LifespanExpiry>:ﻲﻓ ﻪﺘﻴﺣﻼﺻ ﻲﻬﺘﻨﺗ</LifespanExpiry>
+
+  <!-- Facilities -->
+  <!-- EN: inactive -->
+  <InactiveFacility>ﻂﺸﻧ ﺮﻴﻏ</InactiveFacility>
+  <!-- EN: Links to -->
+  <FacilityPotentiallyLinkedTo>ـﺑ ﻂﺒﺗﺮﻳ</FacilityPotentiallyLinkedTo>
+  <!-- EN: Not linked to a building -->
+  <FacilityNoPotentialLinks>ﻰﻨﺒﻤﺑ ﻂﺒﺗﺮﻣ ﺮﻴﻏ</FacilityNoPotentialLinks>
+  <!-- EN: Max connected per building -->
+  <FacilityMaxSimultaneousConnections>ﻰﻨﺒﻣ ﻞﻜﻟ ﺕﻻﺎﺼﺗﻼﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ</FacilityMaxSimultaneousConnections>
+  <!-- EN: Front of building is blocked. -->
+  <FacilityFrontBlocked>.ﺓﺩﻭﺪﺴﻣ ﻰﻨﺒﻤﻟﺍ ﺔﻣﺪﻘﻣ</FacilityFrontBlocked>
+
+  <!-- Hediffs growth modes -->
+  <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
+  <DiseaseGrowthModeChanged_Growing>.ﻥﻵﺍ ﻮﻤﻨﺗ {PAWN_labelShort}ـﺑ ﺔﺻﺎﺨﻟﺍ {1}</DiseaseGrowthModeChanged_Growing>
+  <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
+  <DiseaseGrowthModeChanged_Stable>.ﻥﻵﺍ ﺓﺮﻘﺘﺴﻣ {PAWN_labelShort}ـﺑ ﺔﺻﺎﺨﻟﺍ {1}</DiseaseGrowthModeChanged_Stable>
+  <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
+  <DiseaseGrowthModeChanged_Remission>ﺭﺎﺴﺤﻧﺍ ﺔﻟﺎﺣ ﻲﻓ {PAWN_labelShort}ـﺑ ﺔﺻﺎﺨﻟﺍ {1}\n.ﻥﻵﺍ</DiseaseGrowthModeChanged_Remission>
+
+  <!-- Marriage spot -->
+  <!-- EN: Usable now. -->
+  <MarriageSpotUsable>.ﻥﻵﺍ ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﻠﺑﺎﻗ</MarriageSpotUsable>
+  <!-- EN: Not usable: {0}. -->
+  <MarriageSpotNotUsable>.{0} :ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﻠﺑﺎﻗ ﺮﻴﻏ</MarriageSpotNotUsable>
+  <!-- EN: blocked -->
+  <MarriageSpotNotStandable>ﺓﺩﻭﺪﺴﻣ</MarriageSpotNotStandable>
+  <!-- EN: too dangerous for {1_labelShort} -->
+  <MarriageSpotDangerous>{1_labelShort} ﻰﻠﻋ ًﺍﺪﺟ ﺓﺮﻴﻄﺧ</MarriageSpotDangerous>
+  <!-- EN: forbidden for {1_labelShort} -->
+  <MarriageSpotForbidden>{1_labelShort} ﻰﻠﻋ ﺓﺭﻮﻈﺤﻣ</MarriageSpotForbidden>
+  <!-- EN: reserved -->
+  <MarriageSpotReserved>ﺓﺯﻮﺠﺤﻣ</MarriageSpotReserved>
+  <!-- EN: unreachable for {1_labelShort} -->
+  <MarriageSpotUnreachable>{1_labelShort}ـﻟ ﻝﻮﺻﻮﻠﻟ ﺔﻠﺑﺎﻗ ﺮﻴﻏ</MarriageSpotUnreachable>
+  <!-- EN: in prison cell -->
+  <MarriageSpotInPrisonCell>ﻦﺠﺴﻟﺍ ﺔﻧﺍﺰﻧﺯ ﻲﻓ</MarriageSpotInPrisonCell>
+  <!-- EN: uncomfortable temperature -->
+  <NotEnjoyableOutsideTemperature>ﺔﺤﻳﺮﻣ ﺮﻴﻏ ﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ</NotEnjoyableOutsideTemperature>
+
+  <!-- Colonist bar -->
+  <!-- EN: Medical rest -->
+  <ActivityIconMedicalRest>ﺔﻴﺒﻃ ﺔﺣﺍﺭ</ActivityIconMedicalRest>
+  <!-- EN: Sleeping -->
+  <ActivityIconSleeping>ﻢﺋﺎﻧ</ActivityIconSleeping>
+  <!-- EN: Fleeing -->
+  <ActivityIconFleeing>ﺏﺮﻬﻳ</ActivityIconFleeing>
+  <!-- EN: Fighting -->
+  <ActivityIconAttacking>ﻞﺗﺎﻘﻳ</ActivityIconAttacking>
+  <!-- EN: Idle -->
+  <ActivityIconIdle>ﻞﻣﺎﺧ</ActivityIconIdle>
+  <!-- EN: Burning -->
+  <ActivityIconBurning>ﻕﺮﺘﺤﻳ</ActivityIconBurning>
+  <!-- EN: Forming a caravan -->
+  <ActivityIconFormingCaravan>ﺔﻠﻓﺎﻗ ﻞﻴﻜﺸﺗ</ActivityIconFormingCaravan>
+
+  <!-- Maintainable -->
+  <!-- EN: Due for maintenance. -->
+  <DueForMaintenance>.ﺔﻧﺎﻴﺼﻟﺍ ﺖﻗﻭ ﻥﺎﺣ</DueForMaintenance>
+  <!-- EN: Deteriorating due to lack of maintenance. -->
+  <DeterioratingDueToLackOfMaintenance>.ﺔﻧﺎﻴﺼﻟﺍ ﺺﻘﻧ ﺐﺒﺴﺑ ﺭﻮﻫﺪﺘﻳ</DeterioratingDueToLackOfMaintenance>
+
+  <!-- Deep drill -->
+  <!-- EN: Progress to next lump -->
+  <ProgressToNextLump>ﺔﻴﻟﺎﺘﻟﺍ ﺔﻠﺘﻜﻟﺍ ﻰﻟﺇ ﻡﺪﻘﺘﻟﺍ</ProgressToNextLump>
+  <!-- EN: Resource below -->
+  <ResourceBelow>ﻞﻔﺳﻷﺍ ﻲﻓ ﺩﺭﻮﻣ</ResourceBelow>
+  <!-- EN: Progress to next portion -->
+  <ProgressToNextPortion>ﻲﻟﺎﺘﻟﺍ ﺀﺰﺠﻟﺍ ﻰﻟﺇ ﻡﺪﻘﺘﻟﺍ</ProgressToNextPortion>
+  <!-- EN: No resources below. -->
+  <DeepDrillNoResources>.ﻞﻔﺳﻷﺍ ﻲﻓ ﺩﺭﺍﻮﻣ ﺪﺟﻮﺗ ﻻ</DeepDrillNoResources>
+  <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
+  <DeepDrillExhausted>ﻢﺗ ،ﻖﻴﻤﻌﻟﺍ ﺮﻔﺤﻟﺍ ﺩﺭﺍﻮﻣ ﺕﺪﻔﻧ\nﻝﺯﺃ .ًﺎﻴﺋﺎﻘﻠﺗ ﺓﺭﺎﻔﺤﻟﺍ ﺮﻈﺣ\n.{0} ﻦﻳﺪﻌﺗ ﺀﺪﺒﻟ ﺮﻈﺤﻟﺍ</DeepDrillExhausted>
+  <!-- EN: Deep drill resources exhausted. -->
+  <DeepDrillExhaustedNoFallback>.ﻖﻴﻤﻌﻟﺍ ﺮﻔﺤﻟﺍ ﺩﺭﺍﻮﻣ ﺕﺪﻔﻧ</DeepDrillExhaustedNoFallback>
+
+  <!-- reloading ammo -->
+  <!-- EN: Remaining charges -->
+  <ChargesRemaining>ﺔﻴﻘﺒﺘﻤﻟﺍ ﺕﺎﻨﺤﺸﻟﺍ</ChargesRemaining>
+  
+  <!-- Learning helper -->
+  <!-- EN: Learning helper -->
+  <LearningHelper>ﻢﻠﻌﺘﻟﺍ ﺪﻋﺎﺴﻣ</LearningHelper>
+  <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
+  <LearningHelperTooltip>ﻰﻟﺇ ﻑﺪﻬﻳ ﺔﺒﻌﻠﻟﺍ ﻞﺧﺍﺩ ﻢﻠﻌﻣ\nﺕﺍﺫ ﻊﻴﺿﺍﻮﻣ ﻝﻮﺣ ﺕﺎﻣﻮﻠﻌﻣ ﻚﻤﻴﻠﻌﺗ\nﺔﻴﻟﺎﺤﻟﺍ ﻚﺗﺮﻤﻌﺘﺴﻣ ﺔﻟﺎﺤﺑ ﺔﻠﺻ</LearningHelperTooltip>
+  <!-- EN: Mark as learned -->
+  <MarkLearned>ﺔﺒﺴﺘﻜﻤﻛ ﺔﻣﻼﻋ ﻊﺿﻭ</MarkLearned>
+  <!-- EN: Already learned -->
+  <AlreadyLearned>{1} ﻞﻌﻔﻟﺎﺑ {USER_labelShort} ﻢﻠﻌﺗ ﺪﻘﻟ</AlreadyLearned>
+  <!-- EN: Filter -->
+  <Filter>ﺔﻴﻔﺼﺗ</Filter>
+
+  <!-- Compass -->
+  <!-- EN: Shows the north direction. Click to rotate the camera so the north pole is up. -->
+  <CompassTip>ﺮﻳﻭﺪﺘﻟ ﺮﻘﻧﺍ .ﻝﺎﻤﺸﻟﺍ ﻩﺎﺠﺗﺍ ﺮﻬﻈﻳ\nﺐﻄﻘﻟﺍ ﻥﻮﻜﻳ ﺚﻴﺤﺑ ﺍﺮﻴﻣﺎﻜﻟﺍ\n.ﻰﻠﻋﻸﻟ ﻲﻟﺎﻤﺸﻟﺍ</CompassTip>
+
+  <!-- World route planner -->
+  <!-- EN: Click to enter the planning mode where you can plan your journey and calculate distance between waypoints. -->
+  <RoutePlannerButtonTip>ﻂﻴﻄﺨﺘﻟﺍ ﻊﺿﻭ ﻰﻟﺇ ﻝﻮﺧﺪﻠﻟ ﺮﻘﻧﺍ\nﺏﺎﺴﺣﻭ ﻚﺘﻠﺣﺮﻟ ﻂﻴﻄﺨﺘﻟﺍ ﻚﻨﻜﻤﻳ ﺚﻴﺣ\n.ﻖﻳﺮﻄﻟﺍ ﻁﺎﻘﻧ ﻦﻴﺑ ﺔﻓﺎﺴﻤﻟﺍ</RoutePlannerButtonTip>
+  <!-- EN: Add two or more waypoints. -->
+  <RoutePlannerAddTwoOrMoreWaypoints>.ﺮﺜﻛﺃ ﻭﺃ ﻦﻴﺘﻄﻘﻧ ﻒﺿﺃ</RoutePlannerAddTwoOrMoreWaypoints>
+  <!-- EN: Add one or more waypoints. -->
+  <RoutePlannerAddOneOrMoreWaypoints>.ﺮﺜﻛﺃ ﻭﺃ ﺓﺪﺣﺍﻭ ﺔﻄﻘﻧ ﻒﺿﺃ</RoutePlannerAddOneOrMoreWaypoints>
+  <!-- EN: Total route time: {0} -->
+  <RoutePlannerEstTimeToFinalDest>{0} :ﺭﺎﺴﻤﻟﺍ ﺖﻗﻭ ﻲﻟﺎﻤﺟﺇ</RoutePlannerEstTimeToFinalDest>
+  <!-- EN: Planning mode uses the default caravan speed. Your speed may vary. -->
+  <RoutePlannerUsingAverageTicksPerMoveWarning>ﺔﻋﺮﺳ ﻂﻴﻄﺨﺘﻟﺍ ﻊﺿﻭ ﻡﺪﺨﺘﺴﻳ\nﻒﻠﺘﺨﺗ ﺪﻗ .ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺔﻠﻓﺎﻘﻟﺍ\n.ﻚﺘﻋﺮﺳ</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <!-- EN: Calculating for: {0} -->
+  <RoutePlannerUsingTicksPerMoveOfCaravan>{0} :ـﻟ ﺏﺎﺴﺣ</RoutePlannerUsingTicksPerMoveOfCaravan>
+  <!-- EN: Right mouse button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>ﺔﻟﺍﺯﺇ/ﺔﻓﺎﺿﺇ :ﻦﻤﻳﻷﺍ ﺓﺭﺄﻔﻟﺍ ﺭﺯ\n.ﻖﻳﺮﻄﻟﺍ ﻁﺎﻘﻧ</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>ﺔﻟﺍﺯﺇ/ﺔﻓﺎﺿﺇ :ﺮﺴﻳﻷﺍ ﺩﺎﻧﺰﻟﺍ ﺭﺯ\n.ﻖﻳﺮﻄﻟﺍ ﻁﺎﻘﻧ</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
+  <!-- EN: ESC: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExit>.ﻂﻴﻄﺨﺘﻟﺍ ﻊﺿﻭ ﻦﻣ ﺝﻭﺮﺨﻟﺍ :ESC</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>.ﻂﻴﻄﺨﺘﻟﺍ ﻊﺿﻭ ﻦﻣ ﺝﻭﺮﺨﻟﺍ :{Key:Cancel}</RoutePlannerPressEscapeToExitController>
+  <!-- EN: ESC: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ﺭﺍﻮﺣ ﻊﺑﺮﻣ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ :ESC\n.ﺔﻠﻓﺎﻘﻟﺍ ﻞﻴﻜﺸﺗ</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>ﻞﻴﻜﺸﺗ ﺭﺍﻮﺣ ﻊﺑﺮﻣ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ :{Key:Cancel}\n.ﺔﻠﻓﺎﻘﻟﺍ</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
+  <!-- EN: Est. travel time: {0} -->
+  <EstimatedTimeToWaypoint>{0} :ﺭﺪﻘﻤﻟﺍ ﺮﻔﺴﻟﺍ ﺖﻗﻭ</EstimatedTimeToWaypoint>
+  <!-- EN: Est. travel time (from previous waypoint): {0} -->
+  <EstimatedTimeToWaypointFromPrevious>ﺔﻄﻘﻧ ﻦﻣ) ﺭﺪﻘﻤﻟﺍ ﺮﻔﺴﻟﺍ ﺖﻗﻭ\n{0} :(ﺔﻘﺑﺎﺴﻟﺍ ﻖﻳﺮﻄﻟﺍ</EstimatedTimeToWaypointFromPrevious>
+  <!-- EN: Est. travel time: {0} -->
+  <EstimatedTimeToTile>{0} :ﺭﺪﻘﻤﻟﺍ ﺮﻔﺴﻟﺍ ﺖﻗﻭ</EstimatedTimeToTile>
+  <!-- EN: Foraged food amount -->
+  <ForagedFoodAmount>ﺔﻌﻤﺠﻤﻟﺍ ﻡﺎﻌﻄﻟﺍ ﺔﻴﻤﻛ</ForagedFoodAmount>
+
+  <!-- Outfits -->
+  <!-- EN: Anything -->
+  <OutfitAnything>ﺀﻲﺷ ﻱﺃ</OutfitAnything>
+  <!-- EN: Worker -->
+  <OutfitWorker>ﻞﻣﺎﻋ</OutfitWorker>
+  <!-- EN: Soldier -->
+  <OutfitSoldier>ﻱﺪﻨﺟ</OutfitSoldier>
+  <!-- EN: Nudist -->
+  <OutfitNudist>ﻱﺭﺎﻋ</OutfitNudist>
+  <!-- EN: Spacefarer -->
+  <OutfitSpacefarer>ﺀﺎﻀﻓ ﺮﻓﺎﺴﻣ</OutfitSpacefarer>
+
+  <!-- Hibernatable -->
+  <!-- EN: Hibernating -->
+  <HibernatableHibernating>ﺕﺎﺒﺳ ﺔﻟﺎﺣ ﻲﻓ</HibernatableHibernating>
+  <!-- EN: Starting up -->
+  <HibernatableStartingUp>ﻞﻴﻐﺸﺘﻟﺍ ﺀﺪﺑ</HibernatableStartingUp>
+
+  <!-- Transport pods -->
+  <!-- EN: {0}: See available orders... -->
+  <ClickToSeeAvailableOrders_WorldObject>...ﺔﺣﺎﺘﻤﻟﺍ ﺮﻣﺍﻭﻷﺍ ﺔﻳﺅﺭ :{0}</ClickToSeeAvailableOrders_WorldObject>
+  <!-- EN: See available orders... -->
+  <ClickToSeeAvailableOrders_Empty>...ﺔﺣﺎﺘﻤﻟﺍ ﺮﻣﺍﻭﻷﺍ ﺔﻳﺅﺭ</ClickToSeeAvailableOrders_Empty>
+  
+  <!-- Pawn tooltips -->
+  <!-- EN: {0} ({1})\n{2}\n{3} -->
+  <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
+  <!-- EN: {0} ({1})\n{2} -->
+  <PawnTooltipWithDescNoPrimaryEquip>{0} ({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
+  <!-- EN: {0}\n{1}\n{2} -->
+  <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
+  <!-- EN: {0}\n{1} -->
+  <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
+  <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>ﻰﺘﺣ ﺙ {1}) ﺙ / {0} :ﺽﺎﻔﺨﻧﻻﺍ ﻝﺪﻌﻣ\n(ﺮﻔﺼﻟﺍ</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <PawnTooltipPsychicEntropyDesc>ﺪﻌﺑ ﺔﻴﺒﺼﻌﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺩﺍﺩﺰﺗ\nﺪﺤﻟﺍ ﺯﻭﺎﺠﺗ .ﺔﻴﺴﻔﻧ ﺓﻮﻗ ﻡﺍﺪﺨﺘﺳﺍ\nًﺍﺭﺎﻴﻬﻧﺍ ﺐﺒﺴﻳ ﺪﻗ ﻲﻌﻴﺒﻄﻟﺍ\n.ًﺎﻣﺎﻳﺃ ﺮﻤﺘﺴﻳ ًﺎﻴﺴﻔﻧ\n\nًﺎﻴﻌﻴﺒﻃ ﺔﻴﺒﺼﻌﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺩﺪﺒﺘﺗ\nﻩﺬﻫ ﻊﻳﺮﺴﺗ ﻦﻜﻤﻳ .ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ\nﻭﺃ ﺲﻜﺘﻟﻹﺍ ﺲﺑﻼﻣ ﺀﺍﺪﺗﺭﺎﺑ ﺔﻴﻠﻤﻌﻟﺍ\n.ﻢﻟﻷﺎﺑ ﺭﻮﻌﺸﻟﺍ</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
+  <PawnTooltipPsychicEntropyPainFocus>ﻢﻟﻷﺍ ﺰﻳﺰﻌﺗ\n\nﺩﺪﺒﺗ ﻉﺮﺴﻳﻭ ﻞﻘﻌﻟﺍ ﻢﻟﻷﺍ ﺰﻛﺮﻳ\n.ﺔﻴﺒﺼﻌﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ\n\n{0} :ﻢﻟﻷﺍ ﻯﻮﺘﺴﻣ\n{1} :ﺓﺭﺍﺮﺤﻟﺍ ﺓﺩﺎﻌﺘﺳﺍ ﻰﻠﻋ ﺓﻭﻼﻋ</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
+  <PawnTooltipPsychicEntropyLimit>.ﺔﻴﺒﺼﻌﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺩﺪﺤﻣ ﻞﻳﺪﺒﺗ\nﺐﺒﺴﻳ ﺪﻗ ﺓﺭﺍﺮﺤﻟﺍ ﺪﺣ ﺯﻭﺎﺠﺗ\n.ًﺎﻣﺎﻳﺃ ﺮﻤﺘﺴﻳ ًﺎﻴﺴﻔﻧ ًﺍﺭﺎﻴﻬﻧﺍ\n.ًﺎﻤﺋﺍﺩ ًﺍﺭﺮﺿ ﺐﺒﺴﻳ ﻦﻟ</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Psyfocus: {0} -->
+  <PawnTooltipPsyfocus>{0} :ﻲﺴﻔﻨﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ</PawnTooltipPsyfocus>
+  
+  <!-- Pawn tooltip description -->
+  <!-- EN: {0} {1} -->
+  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
+
+  <!-- Rewards -->
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
+  <Reward_Pawn_DropPod>{0_nameDef} ﻰﻋﺪﻳ ًﺎﻣﺎﻋ {0_age} ﺮﻤﻌﻟﺍ ﻦﻣ ﻎﻠﺒﻳ {0_title}\n{0_relationInfoInParentheses} ﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ ﻲﻓ ﻞﺼﻴﺳ</Reward_Pawn_DropPod>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_WalkIn>{0_nameDef} ﻰﻋﺪﻳ ًﺎﻣﺎﻋ {0_age} ﺮﻤﻌﻟﺍ ﻦﻣ ﻎﻠﺒﻳ {0_title}\n{0_relationInfoInParentheses} ﻚﻴﻟﺇ ﻢﻀﻨﻳﻭ ﻞﺼﻴﺳ</Reward_Pawn_WalkIn>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_Caravan>{0_nameDef} ﻰﻋﺪﻳ ًﺎﻣﺎﻋ {0_age} ﺮﻤﻌﻟﺍ ﻦﻣ ﻎﻠﺒﻳ {0_title}\n{0_relationInfoInParentheses} ﻚﻴﻟﺇ ﻢﻀﻨﻴﺳ</Reward_Pawn_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
+  <Reward_Items>ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﻞﻘﻧ ﺕﻻﻮﺴﺒﻛ ﻞﺼﺘﺳ\nﺔﻤﻴﻘﻟﺍ) ﺔﻴﻟﺎﺘﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ\n:({1} ﺔﻴﻟﺎﻤﺟﻹﺍ\n\n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
+  <Reward_Items_Caravan>:({1} ﺔﻴﻟﺎﻤﺟﻹﺍ ﺔﻤﻴﻘﻟﺍ) ﻰﻘﻠﺘﺘﺳ\n\n{0}</Reward_Items_Caravan>
+  <!-- EN: your faction relations with {0_name} will improve by {1} -->
+  <Reward_Goodwill>ﻦﺴﺤﺘﺘﺳ {0_name} ﻊﻣ ﻚﺘﻠﻴﺼﻓ ﺕﺎﻗﻼﻋ\n{1} ﺭﺍﺪﻘﻤﺑ</Reward_Goodwill>
+  <!-- EN: you will be taken to the stars -->
+  <Reward_PassageOffworld>ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﻙﺬﺧﺃ ﻢﺘﻴﺳ</Reward_PassageOffworld>
+  <!-- EN: Passage offworld -->
+  <Reward_PassageOffworld_Label>ﻢﻟﺎﻌﻟﺍ ﺝﺭﺎﺧ ﻰﻟﺇ ﻞﻴﺣﺭ</Reward_PassageOffworld_Label>
+  <!-- EN: you can loot everything from the camp -->
+  <Reward_CampLoot>ﻢﻴﺨﻤﻟﺍ ﻦﻣ ﺀﻲﺷ ﻞﻛ ﺐﻬﻧ ﻚﻨﻜﻤﻳ</Reward_CampLoot>
+  <!-- EN: Camp loot -->
+  <Reward_CampLoot_Label>ﻢﻴﺨﻤﻟﺍ ﺐﻬﻧ</Reward_CampLoot_Label>
+  <!-- EN: It is unclear what will happen if you accept this quest -->
+  <Reward_Unknown>ﺍﺫﺇ ﺙﺪﺤﻴﺳ ﺎﻣ ﺢﺿﺍﻮﻟﺍ ﻦﻣ ﺲﻴﻟ\nﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﺖﻠﺒﻗ</Reward_Unknown>
+  <!-- EN: Unknown -->
+  <Reward_Unknown_Label>ﻑﻭﺮﻌﻣ ﺮﻴﻏ</Reward_Unknown_Label>
+  <!-- EN: the visitors will work and fight for you -->
+  <Reward_VisitorsHelp>ﻚﻠﺟﺃ ﻦﻣ ﻥﻮﻠﺗﺎﻘﻳﻭ ﺭﺍﻭﺰﻟﺍ ﻞﻤﻌﻴﺳ</Reward_VisitorsHelp>
+  <!-- EN: Visitors' help -->
+  <Reward_VisitorsHelp_Label>ﺭﺍﻭﺰﻟﺍ ﺓﺪﻋﺎﺴﻣ</Reward_VisitorsHelp_Label>
+  <!-- EN: New psylink level -->
+  <Reward_BestowingCeremony_Label>ﺪﻳﺪﺟ ﻲﺴﻔﻧ ﻂﺑﺭ ﻯﻮﺘﺴﻣ</Reward_BestowingCeremony_Label>
+  <!-- EN: {PAWNNAME} gains psylink -->
+  <Reward_BestowingCeremony>ًﺎﻴﺴﻔﻧ ًﺎﻄﺑﺭ {PAWNNAME} ﺐﺴﺘﻜﻳ</Reward_BestowingCeremony>
+  <!-- EN: Shuttle loot -->
+  <Reward_ShuttleLoot_Label>ﻙﻮﻜﻤﻟﺍ ﺐﻬﻧ</Reward_ShuttleLoot_Label>
+  <!-- EN: you can deconstruct and loot the shuttle -->
+  <Reward_ShuttleLoot>ﻙﻮﻜﻤﻟﺍ ﺐﻬﻧﻭ ﻚﻴﻜﻔﺗ ﻚﻨﻜﻤﻳ</Reward_ShuttleLoot>
+  <!-- EN: Possible future reward -->
+  <Reward_PossibleFutureReward_Label>ﺔﻠﻤﺘﺤﻣ ﺔﻴﻠﺒﻘﺘﺴﻣ ﺓﺄﻓﺎﻜﻣ</Reward_PossibleFutureReward_Label>
+  <!-- EN: a reward possibly granted in the future -->
+  <Reward_PossibleFutureReward>ﻞﺒﻘﺘﺴﻤﻟﺍ ﻲﻓ ﺢﻨﻤﺗ ﺪﻗ ﺓﺄﻓﺎﻜﻣ</Reward_PossibleFutureReward>
+  <!-- EN: {TITLE} title -->
+  <Reward_Title_Label>{TITLE} ﺐﻘﻟ</Reward_Title_Label>
+  <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
+  <Reward_Title>{FACTION} ﻦﻣ {TITLE} ﺐﻘﻟ {PAWNNAME} ﺐﺴﺘﻜﻳ</Reward_Title>
+  <!-- EN: value {0} -->
+  <TotalValue>{0} ﺔﻤﻴﻘﻟﺍ</TotalValue>
+  
+  <!-- Bladelink -->
+  <!-- EN: Bonded to: {0} -->
+  <BondedWith>{0} :ـﺑ ﻂﺒﺗﺮﻣ</BondedWith>
+  <!-- EN: Not yet bonded -->
+  <NotBonded>ﺪﻌﺑ ﻂﺒﺗﺮﻣ ﺮﻴﻏ</NotBonded>
+  <!-- EN: bonded to someone else -->
+  <BladelinkBondedToSomeoneElse>ﺮﺧﺁ ﺺﺨﺸﺑ ﻂﺒﺗﺮﻣ</BladelinkBondedToSomeoneElse>
+  <!-- EN: (existing bond) -->
+  <BladelinkAlreadyBonded>(ﺔﻤﺋﺎﻗ ﺔﻄﺑﺍﺭ)</BladelinkAlreadyBonded>
+  <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
+  <BladelinkAlreadyBondedDialog>ﺡﻼﺴﺑ ﻻﺇ ﻁﺎﺒﺗﺭﻻﺍ ﺺﺨﺸﻠﻟ ﻦﻜﻤﻳ ﻻ\n.ﺓﺮﻣ ﻞﻛ ﻲﻓ ﺪﺣﺍﻭ ﻲﺼﺨﺷ\n\nًﻻﻭﺃ ﺐﺠﻳ ،{WEAPON_labelShort}ـﺑ ﻁﺎﺒﺗﺭﻻﺍﻭ ﺰﻴﻬﺠﺘﻟ\n.{BONDEDWEAPON_labelShort} ًﺎﻴﻟﺎﺣ ﻂﺒﺗﺮﻤﻟﺍ {PAWN_nameDef} ﺡﻼﺳ ﺮﻴﻣﺪﺗ</BladelinkAlreadyBondedDialog>
+  <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
+  <BladelinkAlreadyBondedMessage>{BONDEDWEAPON_labelShort}ـﺑ ﻞﻌﻔﻟﺎﺑ ﻂﺒﺗﺮﻣ {PAWN_nameDef}</BladelinkAlreadyBondedMessage>
+
+  <!-- Biocoded weapons -->
+  <!-- EN: biocoded {0} -->
+  <Biocoded>{0} ًﺎﻳﻮﻴﺣ ﺮﻔﺸﻣ</Biocoded>
+  <!-- EN: Biocoding: {0} -->
+  <CodedFor>{0} :ﻱﻮﻴﺤﻟﺍ ﺮﻴﻔﺸﺘﻟﺍ</CodedFor>
+  <!-- EN: biocoded -->
+  <BiocodedCodedForSomeoneElse>ًﺎﻳﻮﻴﺣ ﺮﻔﺸﻣ</BiocodedCodedForSomeoneElse>
+
+  <!-- Projectile interceptor -->
+  <!-- EN: Intercepts {0} every {1}. -->
+  <InterceptsProjectilesEvery>.{1} ﻞﻛ {0} ﺽﺮﺘﻌﻳ</InterceptsProjectilesEvery>
+  <!-- EN: Intercepts {0}. -->
+  <InterceptsProjectiles>.{0} ﺽﺮﺘﻌﻳ</InterceptsProjectiles>
+  <!-- EN: ground and aerial projectiles -->
+  <InterceptsProjectiles_BothProjectiles>ﺔﻳﻮﺠﻟﺍﻭ ﺔﻴﺿﺭﻷﺍ ﻒﺋﺍﺬﻘﻟﺍ</InterceptsProjectiles_BothProjectiles>
+  <!-- EN: ground projectiles -->
+  <InterceptsProjectiles_GroundProjectiles>ﺔﻴﺿﺭﻷﺍ ﻒﺋﺍﺬﻘﻟﺍ</InterceptsProjectiles_GroundProjectiles>
+  <!-- EN: aerial projectiles -->
+  <InterceptsProjectiles_AerialProjectiles>ﺔﻳﻮﺠﻟﺍ ﻒﺋﺍﺬﻘﻟﺍ</InterceptsProjectiles_AerialProjectiles>
+
+  <!-- Condition causers -->
+  <!-- EN: Affected gender -->
+  <AffectedGender>ﺮﺛﺄﺘﻤﻟﺍ ﺲﻨﺠﻟﺍ</AffectedGender>
+
+  <!-- Hediff misc -->
+  <!-- EN: Caused by: {0} -->
+  <CausedByHediff>{0} :ﺐﺒﺴﺑ</CausedByHediff>
+  
+  <!-- EN: {DAMAGE_label} weakness -->
+  <DamageFactorWeakness>{DAMAGE_label} ﻩﺎﺠﺗ ﻒﻌﺿ</DamageFactorWeakness>
+  <!-- EN: {DAMAGE_label} resistance -->
+  <DamageFactorResistance>{DAMAGE_label} ﻩﺎﺠﺗ ﺔﻣﻭﺎﻘﻣ</DamageFactorResistance>
+  <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
+  <DamageFactor>ﻕﻮﻠﺨﻤﻟﺍ ﺍﺬﻫ ﻩﺎﻘﻠﺘﻳ ﻱﺬﻟﺍ {DAMAGE_label} ﺭﺮﺿ\n.ﺔﻤﻴﻘﻟﺍ ﻩﺬﻫ ﻲﻓ ﺏﺮﻀُﻳ</DamageFactor>
+  
+  <!-- Healing -->
+  <!-- EN: {0_nameDef}'s {1} was healed. -->
+  <HealingHealHediff>.{0_nameDef}ـﺑ ﺔﺻﺎﺨﻟﺍ {1} ﺀﺎﻔﺷ ﻢﺗ</HealingHealHediff>
+  <!-- EN: {0_nameDef}'s {1} was restored. -->
+  <HealingRestoreBodyPart>.{0_nameDef}ـﺑ ﺔﺻﺎﺨﻟﺍ {1} ﺓﺩﺎﻌﺘﺳﺍ ﻢﺗ</HealingRestoreBodyPart>
+
+  <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
+  <WarningBuildingCausesHostility>!{FACTION_name} ﺐﻀﻐﻴﺳ ﺎﻨﻫ ﻰﻨﺒﻣ ﻊﺿﻭ :ﻪﻴﺒﻨﺗ</WarningBuildingCausesHostility>
+
+  <!-- EN: Choose landing site -->
+  <ChooseLandingSite>ﻁﻮﺒﻬﻟﺍ ﻊﻗﻮﻣ ﺮﺘﺧﺍ</ChooseLandingSite>
+
+  <!-- LordJobs -->
+  <!-- EN: Outcome chances at {0} quality -->
+  <LordJobOutcomeChances>{0} ﺓﺩﻮﺟ ﺪﻨﻋ ﺔﺠﻴﺘﻨﻟﺍ ﺹﺮﻓ</LordJobOutcomeChances>
+  <!-- EN: Expected duration -->
+  <ExpectedLordJobDuration>ﺔﻌﻗﻮﺘﻤﻟﺍ ﺓﺪﻤﻟﺍ</ExpectedLordJobDuration>
+
+  <!-- Rituals -->
+  <!-- EN: ritual -->
+  <Ritual>ﺲﻘﻃ</Ritual>
+
+  <!-- EN: Takes place at -->
+  <RitualTakesPlaceAt>ﻲﻓ ﺙﺪﺤﻳ</RitualTakesPlaceAt>
+  <!-- EN: Any {0} -->
+  <RitualTargetThingDefsInfo>{0} ﻱﺃ</RitualTargetThingDefsInfo>
+  <!-- EN: Attending {0} -->
+  <LordReportAttending>{0} ﺭﻮﻀﺣ</LordReportAttending>
+  <!-- EN: {0} has been canceled. -->
+  <RitualCalledOff>.{0} ﺀﺎﻐﻟﺇ ﻢﺗ</RitualCalledOff>
+  <!-- EN: {0} was not completed because of lack of attendance. -->
+  <RitualNobodyAttended>.ﺭﻮﻀﺤﻟﺍ ﺺﻘﻧ ﺐﺒﺴﺑ {0} ﻞﻤﺘﻜﻳ ﻢﻟ</RitualNobodyAttended>
+  <!-- EN: {0} has been completed. -->
+  <RitualFinished>.{0} ﻝﺎﻤﻛﺇ ﻢﺗ</RitualFinished>
+  <!-- EN: ends in {0} -->
+  <RitualEndsIn>{0} ﻲﻓ ﻲﻬﺘﻨﻳ</RitualEndsIn>
+  <!-- EN: Can start any time -->
+  <RitualStartAnyTime>ﺖﻗﻭ ﻱﺃ ﻲﻓ ﺃﺪﺒﻳ ﻥﺃ ﻦﻜﻤﻳ</RitualStartAnyTime>
+  <!-- EN: Can start after event -->
+  <RitualStartEvent>ﺙﺪﺣ ﺪﻌﺑ ﺃﺪﺒﻳ ﻥﺃ ﻦﻜﻤﻳ</RitualStartEvent>
+  <!-- EN: Focus objects -->
+  <RitualFocusObjects>ﺰﻴﻛﺮﺘﻟﺍ ﺕﺎﻨﺋﺎﻛ</RitualFocusObjects>
+  <!-- EN: Participating roles -->
+  <RitualParticipatingRoles>ﺔﻛﺭﺎﺸﻤﻟﺍ ﺭﺍﻭﺩﻷﺍ</RitualParticipatingRoles>
+  <!-- EN: Organizers -->
+  <Organizers>ﻥﻮﻤﻈﻨﻤﻟﺍ</Organizers>
+  <!-- EN: Quality factors -->
+  <QualityFactors>ﺓﺩﻮﺠﻟﺍ ﻞﻣﺍﻮﻋ</QualityFactors>
+  <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
+  <QualityFactorTooltipUncertain>،ﻁﺮﺸﻟﺍ ﺍﺬﻫ ﻖﻴﻘﺤﺗ ﻢﺘﻳ ﺪﻗ\n.ﺭﻮﻣﻷﺍ ﺮﻴﺳ ﺔﻴﻔﻴﻛ ﻰﻠﻋ ًﺍﺩﺎﻤﺘﻋﺍ\n\nﻖﻴﺒﻄﺗ ﻢﺘﻴﺴﻓ ،ﻪﻘﻴﻘﺤﺗ ﻢﺗ ﺍﺫﺇ\n.ﺓﺩﻮﺠﻟﺍ ﺓﻭﻼﻋ</QualityFactorTooltipUncertain>
+  <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
+  <QualityFactorTooltipNotFulfilled>.ﻁﺮﺸﻟﺍ ﺍﺬﻫ ﻖﻴﻘﺤﺗ ﻢﺘﻳ ﻢﻟ\n\n.ﺓﺩﻮﺠﻟﺍ ﺓﻭﻼﻋ ﻖﻴﺒﻄﺗ ﻢﺘﻳ ﻦﻟ</QualityFactorTooltipNotFulfilled>
+  <!-- EN: Spectators -->
+  <Spectators>ﻥﻭﺪﻫﺎﺸﻤﻟﺍ</Spectators>
+  <!-- EN: Not participating -->
+  <NotParticipating>ﻙﺭﺎﺸﻳ ﻻ</NotParticipating>
+  <!-- EN: Drag and drop or left/right click to move people. -->
+  <DragPawnsToRolesInfo>ﺭﺎﺴﻳ/ﻦﻴﻤﻳ ﺮﻘﻧ ﻭﺃ ﺕﻼﻓﺇﻭ ﺐﺤﺳ\n.ﺹﺎﺨﺷﻷﺍ ﻚﻳﺮﺤﺘﻟ</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>ﻚﻳﺮﺤﺘﻟ ﺮﻘﻧ ﻭﺃ ﺕﻼﻓﺇﻭ ﺐﺤﺳ\n.ﺹﺎﺨﺷﻷﺍ</DragPawnsToRolesInfoController>
+  <!-- EN: A slave. The human property of others. -->
+  <RitualBeginSlaveDesc>.ﻦﻳﺮﺧﻶﻟ ﺔﻳﺮﺸﺑ ﺕﺎﻜﻠﺘﻤﻣ .ﺪﺒﻋ</RitualBeginSlaveDesc>
+  <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
+  <RitualBeginSleepingDesc>ﻲﻓ ﻪﺟﺍﺭﺩﺇ ﻢﺗ ﺍﺫﺇ .ﻢﺋﺎﻧ {0_labelShort}\n.ﺔﻛﺭﺎﺸﻤﻠﻟ ﻆﻘﻴﺘﺴﻳ ﻑﻮﺴﻓ ،ﺙﺪﺤﻟﺍ</RitualBeginSleepingDesc>
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
+  <RitualBeginSleepingWarning>ﻦﻳﺭﺎﺘﺨﻤﻟﺍ ﻦﻴﻛﺭﺎﺸﻤﻟﺍ ﺾﻌﺑ\nﺀﺪﺑ ﺩﺮﺠﻤﺑ ﻥﻮﻈﻘﻴﺘﺴﻴﺳ .ﻥﻮﻤﺋﺎﻧ\n.ﺙﺪﺤﻟﺍ</RitualBeginSleepingWarning>
+  <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
+  <RitualRoleRequiresSocialRole>ﺐﺼﻨﻤﻟﺍ ﺍﺬﻫ ﻞﻐﺸﻳ ﻥﺃ ﻞﻀﻓﻷﺍ ﻦﻣ\n.{0} ﻲﻋﺎﻤﺘﺟﻻﺍ ﺭﻭﺪﻟﺍ ﻞﻤﺤﻳ ﺮﻤﻌﺘﺴﻣ\n\nﺍﺬﻫ ﺭﻭﺪﻟﺍ ﺍﺬﻫ ﻥﻭﺪﺑ ﺺﺨﺷ ﻞﻐﺷ ﺍﺫﺇ\nﺓﻭﻼﻌﻟﺍ ﻰﻠﻋ ﻞﺼﺤﺗ ﻦﻠﻓ ،ﺐﺼﻨﻤﻟﺍ\nﺔﻴﻟﺎﺘﻟﺍ (ﺕﺍﻭﻼﻌﻟﺍ)</RitualRoleRequiresSocialRole>
+  <!-- EN: No substitute available for the role of {0}. -->
+  <RitualRoleCantSubstitute>.{0} ﺭﻭﺪﻟ ﺡﺎﺘﻣ ﻞﻳﺪﺑ ﺪﺟﻮﻳ ﻻ</RitualRoleCantSubstitute>
+  <!-- EN: {0} progress -->
+  <RitualOutcomeProgress>{0} ﻡﺪﻘﺗ</RitualOutcomeProgress>
+  <!-- EN: {0} quality depends on -->
+  <RitualOutcomeQualityAbstract>ﻰﻠﻋ ﺪﻤﺘﻌﺗ {0} ﺓﺩﻮﺟ</RitualOutcomeQualityAbstract>
+  <!-- EN: {0} total quality was {1}, determined by these factors -->
+  <RitualOutcomeQualitySpecific>،{1} ﻲﻫ {0}ـﻟ ﺔﻴﻟﺎﻤﺟﻹﺍ ﺓﺩﻮﺠﻟﺍ ﺖﻧﺎﻛ\nﻞﻣﺍﻮﻌﻟﺍ ﻩﺬﻫ ﺔﻄﺳﺍﻮﺑ ﺕﺩﺪﺤﺗﻭ</RitualOutcomeQualitySpecific>
+  <!-- EN: Performed recently -->
+  <RitualOutcomePerformedRecently>ًﺍﺮﺧﺆﻣ ﻩﺬﻴﻔﻨﺗ ﻢﺗ</RitualOutcomePerformedRecently>
+  <!-- EN: {0} expectations -->
+  <RitualQualityExpectations>{0} ﺕﺎﻌﻗﻮﺗ</RitualQualityExpectations>
+  <!-- EN: Ritual ambience sound -->
+  <RitualAmbienceSound>ﺲﻘﻄﻟﺍ ﺀﺍﻮﺟﺃ ﺕﻮﺻ</RitualAmbienceSound>
+  <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
+  <RitualQualityLowWarning>.{1} ﻦﻣ ﻞﻗﺃ ﺔﻴﻟﺎﻤﺟﻹﺍ {0} ﺓﺩﻮﺟ\nﻞﻜﺸﺑ ًﺎﺒﻟﺎﻏ ﺮﺛﺆﺘﺳ ﺔﻌﺑﺎﺘﻤﻟﺍ\n.ﻚﺗﺮﻤﻌﺘﺴﻣ ﻰﻠﻋ ﻲﺒﻠﺳ\n\n؟ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ</RitualQualityLowWarning>
+  <!-- EN: No reachable appropriate place to speak. -->
+  <AbilitySpeechDisabledNoSpot>ﻝﻮﺻﻮﻟﺍ ﻦﻜﻤﻳ ﺐﺳﺎﻨﻣ ﻥﺎﻜﻣ ﺪﺟﻮﻳ ﻻ\n.ﺙﺪﺤﺘﻠﻟ ﻪﻴﻟﺇ</AbilitySpeechDisabledNoSpot>
+  <!-- EN: {0_labelShort} is incapable of {1}. -->
+  <AbilityDisabledNoCapacity>.{1} ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ {0_labelShort}</AbilityDisabledNoCapacity>
+  <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
+  <RitualOutcomeExtraDesc_Mood>ﻦﻣ {0} ﺲﻘﻄﻟﺍ ﻲﻓ ﻙﺭﺎﺸﻣ ﻞﻛ ﺐﺴﺘﻜﻳ\n.ًﺎﻣﻮﻳ {1} ﺓﺪﻤﻟ ﺝﺍﺰﻤﻟﺍ</RitualOutcomeExtraDesc_Mood>
+  <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
+  <RitualOutcomeNoQuality>ﺕﺎﺣﺍﺯﺇ ﻰﻠﻋ ﺲﻘﻄﻟﺍ ﺍﺬﻫ ﻱﻮﺘﺤﻳ ﻻ\nﻞﻀﻓﺃ ًﺎﻤﺋﺍﺩ ﻊﻗﻮﺘُﻳ ﺍﺬﻟ ،ﺓﺩﻮﺟ\nﺔﺠﻴﺘﻧ</RitualOutcomeNoQuality>
+
+  <!-- EN: Begin -->
+  <Begin>ﺃﺪﺑﺍ</Begin>
+  <!-- EN: Begin {0} -->
+  <BeginRitual>{0} ﺃﺪﺑﺍ</BeginRitual>
+  <!-- EN: Begin {0} for {1} -->
+  <BeginRitualFor>{1}ـﻟ {0} ﺃﺪﺑﺍ</BeginRitualFor>
+  <!-- EN: {0} (out of {1}) -->
+  <QualityOutOf>({1} ﻞﺻﺃ ﻦﻣ) {0}</QualityOutOf>
+  <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
+  <DateRitualNoObligation>ﻦﻜﻤﺘﺘﺳ .ﺦﻳﺭﺎﺘﺑ ﺩﺪﺤﻣ ﺲﻘﻃ ﻮﻫ {0}\n.{2} ﻲﻓ ،{1} ﻲﻓ ﻪﺋﺪﺑ ﻦﻣ</DateRitualNoObligation>
+
+  <!-- EN: Replace with -->
+  <PreceptReplaceWith>ـﺑ ﻝﺪﺒﺘﺳﺍ</PreceptReplaceWith>
+  <!-- EN: Ritual seat of {IDEOS} -->
+  <RitualSeatOf>{IDEOS} ﺱﻮﻘﻃ ﺪﻌﻘﻣ</RitualSeatOf>
+  <!-- EN: Expected quality -->
+  <ExpectedLordJobQuality>ﺔﻌﻗﻮﺘﻤﻟﺍ ﺓﺩﻮﺠﻟﺍ</ExpectedLordJobQuality>
+  <!-- EN: Starting quality -->
+  <StartingQuality>ﺔﻳﺍﺪﺒﻟﺍ ﺓﺩﻮﺟ</StartingQuality>
+  <!-- EN: {PAWN_labelShort}'s {1} -->
+  <RitualPredictedOutcomeDescPawnStat>{PAWN_labelShort}ـﺑ ﺔﺻﺎﺨﻟﺍ {1}</RitualPredictedOutcomeDescPawnStat>
+  <!-- EN: Room beauty -->
+  <RitualPredictedOutcomeDescRoomBeauty>ﺔﻓﺮﻐﻟﺍ ﻝﺎﻤﺟ</RitualPredictedOutcomeDescRoomBeauty>
+  <!-- EN: {PAWN_labelShort}'s expectations -->
+  <RitualPredictedOutcomeDescPawnExpectations>{PAWN_labelShort} ﺕﺎﻌﻗﻮﺗ</RitualPredictedOutcomeDescPawnExpectations>
+  <!-- EN: Loved one present -->
+  <RitualOutcomeLovedOnePresentLabel>ﺰﻳﺰﻋ ﺺﺨﺷ ﺩﻮﺟﻭ</RitualOutcomeLovedOnePresentLabel>
+  <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
+  <RitualOutcomeLovedOnePresentTip>ﻭﺃ ﻪﻟ ًﺎﻘﻳﺪﺻ {PAWN_labelShort} ﻩﺮﺒﺘﻌﻳ ﺺﺨﺷ ﻱﺃ\n.ﺮﺜﻛﺃ</RitualOutcomeLovedOnePresentTip>
+
+  <!-- EN: Any of these -->
+  <RitualOutcomeLabelAnyOfThese>ﺀﻻﺆﻫ ﻦﻣ ﻱﺃ</RitualOutcomeLabelAnyOfThese>
+  <!-- EN: Replaces {PAWN_labelShort} -->
+  <RitualRoleReplaces>{PAWN_labelShort} ﻝﺪﺒﺘﺴﻳ</RitualRoleReplaces>
+
+  <!-- EN: present -->
+  <Present>ﺮﺿﺎﺣ</Present>
+  <!-- EN: {0} used -->
+  <Used>{0} ﻡﺍﺪﺨﺘﺳﺍ ﻢﺗ</Used>
+  <!-- EN: {0} starting quality -->
+  <StartingRitualQuality>{0} ﺔﻳﺍﺪﺑ ﺓﺩﻮﺟ</StartingRitualQuality>
+
+  <!-- EN: up to {0} quality -->
+  <OutcomeBonusDesc_Quality>{0} ﺓﺩﻮﺟ ﻰﻟﺇ ﻞﺼﺗ</OutcomeBonusDesc_Quality>
+  <!-- EN: {0} quality -->
+  <OutcomeBonusDesc_QualitySingleOffset>{0} ﺓﺩﻮﺟ</OutcomeBonusDesc_QualitySingleOffset>
+  <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
+  <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
+  <!-- EN: {0} max -->
+  <MaxValue>{0} ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ</MaxValue>
+
+  <!-- EN: {0} of -->
+  <ThingOf>ﻦﻣ {0}</ThingOf>
+  <!-- EN: {0} of {1} -->
+  <ThingOfSource>{1} ﻦﻣ {0}</ThingOfSource>
+  <!-- EN: {0} of {1} and {2} -->
+  <ThingOfTwoSources>{2}ﻭ {1} ﻦﻣ {0}</ThingOfTwoSources>
+
+  <!-- Gas types -->
+  <!-- EN: blind smoke -->
+  <BlindSmoke>ﻰﻤﻋﺃ ﻥﺎﺧﺩ</BlindSmoke>
+  <!-- EN: tox gas -->
+  <ToxGas>ﻡﺎﺳ ﺯﺎﻏ</ToxGas>
+  <!-- EN: rot stink -->
+  <RotStink>ﻦﻔﻌﺗ ﺔﺤﺋﺍﺭ</RotStink>
+  <!-- EN: deadlife dust -->
+  <DeadlifeDust>ﺔﺘﻴﻤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﺭﺎﺒﻏ</DeadlifeDust> 
+
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>.ًﺍﺪﻨﺠﻣ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>ﻥﻮﻜﺘﺳ .ﺔﺋﺪﻬﺗ ﺓﺮﺘﻓ ﻲﻓ ﺓﺭﺪﻘﻟﺍ\n.{0} ﻲﻓ ﺔﺣﺎﺘﻣ</AbilityOnCooldown>
+  <!-- EN: ability out of charges. -->
+  <AbilityNoCharges>.ﺎﻬﺗﺎﻨﺤﺷ ﺕﺪﻔﻧ ﺓﺭﺪﻘﻟﺍ</AbilityNoCharges>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>ﺭﺎﻈﺘﻧﻻﺍ ﺔﻤﺋﺎﻗ ﻲﻓ ﺓﺭﺪﻘﻟﺍ\n.ﻞﻌﻔﻟﺎﺑ</AbilityAlreadyQueued>
+  <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
+  <AbilityReadyLabel>{PAWN_nameDef}: {0}ـﻟ ﺓﺰﻫﺎﺟ ﺓﺭﺪﻘﻟﺍ</AbilityReadyLabel>
+  <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
+  <AbilitiesReadyLabel>{PAWN_nameDef}: {0}ـﻟ ﺓﺰﻫﺎﺟ ﺕﺍﺭﺪﻘﻟﺍ</AbilitiesReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>.{1} ﻡﺍﺪﺨﺘﺳﻻ ﺰﻫﺎﺟ {0_nameDef}</AbilityReadyText>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <AbilityDisabledInRitual>.{1} ﻲﻓ ﻙﺭﺎﺸﻳ {0_labelShort}</AbilityDisabledInRitual>
+  <!-- EN: Charges -->
+  <Charges>ﺕﺎﻨﺤﺸﻟﺍ</Charges>
+
+  <!-- EN: {0_nameDef} is in a mental state. -->
+  <PawnIsInMentalState>.ﺔﻴﻠﻘﻋ ﺔﻟﺎﺣ ﻲﻓ {0_nameDef}</PawnIsInMentalState>
+  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <PawnIsInAggroMentalState>.ﺔﻴﻧﺍﻭﺪﻋ ﺔﻴﻠﻘﻋ ﺔﻟﺎﺣ ﻲﻓ {0_nameDef}</PawnIsInAggroMentalState>
+
+  <!-- EN: Disabled work -->
+  <DisabledWorkLabel>ﻞﻄﻌﻣ ﻞﻤﻋ</DisabledWorkLabel>
+  <!-- EN: Disabled needs -->
+  <DisabledNeedsLabel>ﺔﻠﻄﻌﻣ ﺕﺎﺟﺎﻴﺘﺣﺍ</DisabledNeedsLabel>
+
+  <!-- Glowers -->
+  <!-- EN: change color -->
+  <GlowerChangeColor>ﻥﻮﻠﻟﺍ ﺮﻴﻴﻐﺗ</GlowerChangeColor>
+  <!-- EN: Change the color of the light. -->
+  <GlowerChangeColorDescription>.ﺀﻮﻀﻟﺍ ﻥﻮﻟ ﺮﻴﻴﻐﺗ</GlowerChangeColorDescription>
+  <!-- EN: You must research {0} to change light color. -->
+  <GlowerChangeColorNeedsResearch>ﻥﻮﻟ ﺮﻴﻴﻐﺘﻟ {0} ﺚﺤﺑ ﻚﻴﻠﻋ ﺐﺠﻳ\n.ﺀﻮﻀﻟﺍ</GlowerChangeColorNeedsResearch>
+
+  <!-- Shields -->
+  <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
+  <ShieldPersonalTip>ﻒﺋﺍﺬﻘﻟﺍ ﻑﺎﻘﻳﺇ ﻝﻭﺎﺤﻴﺳ ﻲﺼﺨﺷ ﻉﺭﺩ\nﻦﻣ ﻊﻨﻤﻳ .ﺔﻣﺩﺎﻘﻟﺍ ﺎﻳﺎﻈﺸﻟﺍ ﻭﺃ\n،ﺝﺭﺎﺨﻠﻟ ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﻦﻣ ﻪﻳﺪﺗﺮﻳ\nﺔﻀﺒﻨﺑ ﺐﻴﺻﺃ ﺍﺫﺇ ًﺍﺭﻮﻓ ﻒﻗﻮﺘﻳﻭ\n.(EMP) ﺔﻴﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻛ</ShieldPersonalTip>
+
+  <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
+  <UnrecruitableDesc>ﻪﻧﺃ ﺔﺟﺭﺪﻟ ﻪﻨﻃﻮﻟ ًﺍﺪﺟ ﺺﻠﺨﻣ {PAWN_nameDef}\n.ﻩﺮﺳﺃ ﻢﺗ ﺍﺫﺇ ﺪﻴﻨﺠﺘﻟﺍ ﺾﻓﺮﻴﺳ</UnrecruitableDesc>
+
+  <!-- EN: Random -->
+  <Random>ﻲﺋﺍﻮﺸﻋ</Random>
+
+  <!-- EN: Plant {0_label} -->
+  <PlantThing>{0_label} ﻉﺭﺯﺍ</PlantThing>
+  <!-- EN: Plant a {0_label} in a chosen area. -->
+  <PlantThingDesc>.ﺓﺭﺎﺘﺨﻣ ﺔﻘﻄﻨﻣ ﻲﻓ {0_label} ﻉﺭﺯﺍ</PlantThingDesc>
+  <!-- EN: Cancel planting {0_label} -->
+  <CancelPlantThing>{0_label} ﺔﻋﺍﺭﺯ ﺀﺎﻐﻟﺇ</CancelPlantThing>
+  <!-- EN: Cancel planting the {0_label}. -->
+  <CancelPlantThingDesc>.{0_label} ﺔﻋﺍﺭﺯ ﺀﺎﻐﻟﺇ</CancelPlantThingDesc>
+
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>.ﻡﺪﻘﺘﻟﺍ ﺪﻴﻗ ﺮﺧﺁ ﻊﻤﺠﺗ</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>ﻲﻓ ﺰﻫﺎﺟ ﻲﻟﺎﺘﻟﺍ ﺏﺎﻄﺨﻟﺍ</AbilitySpeechCooldown>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>ﻲﻓ ﺃﺪﺑ</AbilitySpeechTargetsLabel>
+  
+  <!-- Books -->
+
+  <!-- EN: Benefits -->
+  <Benefits>ﺪﺋﺍﻮﻔﻟﺍ</Benefits>
+  <!-- EN: Dangers -->
+  <Dangers>ﺮﻃﺎﺨﻤﻟﺍ</Dangers>
+  <!-- EN: already unlocked -->
+  <AlreadyUnlocked>ﻞﻌﻔﻟﺎﺑ ﺎﻬﻠﻔﻗ ﺀﺎﻐﻟﺇ ﻢﺗ</AlreadyUnlocked>
+  <!-- EN: when discovered -->
+  <WhenDiscovered>ﺎﻬﻓﺎﺸﺘﻛﺍ ﺪﻨﻋ</WhenDiscovered>
+  
+  <!-- EN: Was driven into a mental break after reading {0}. -->
+  <BookMentalBreakMessage>ﺪﻌﺑ ﻲﻠﻘﻋ ﺭﺎﻴﻬﻧﺍ ﻰﻟﺇ ﻪﻌﻓﺩ ﻢﺗ\n.{0} ﺓﺀﺍﺮﻗ</BookMentalBreakMessage>
+  <!-- EN: {0} done (complete in {1} hours) -->
+  <BookReadProgress>(ﺔﻋﺎﺳ {1} ﻲﻓ ﻞﻤﺘﻜﻳ) {0} ﻝﺎﻤﻛﺇ ﻢﺗ</BookReadProgress>
+  
+  <!-- EN: learning speed -->
+  <BookLearningModifier>ﻢﻠﻌﺘﻟﺍ ﺔﻋﺮﺳ</BookLearningModifier>
+  <!-- EN: Mental break chance -->
+  <BookMentalBreak>ﻲﻠﻘﻌﻟﺍ ﺭﺎﻴﻬﻧﻻﺍ ﺔﺻﺮﻓ</BookMentalBreak>
+  
+  <!-- EN: {BOOK_labelShort} is not readable -->
+  <BookNotReadable>ﺓﺀﺍﺮﻘﻠﻟ ﺔﻠﺑﺎﻗ ﺮﻴﻏ {BOOK_labelShort}</BookNotReadable>
+  <!-- EN: {PAWN_nameDef} can't read -->
+  <BookCantRead>ﺓﺀﺍﺮﻘﻟﺍ ﻊﻴﻄﺘﺴﻳ ﻻ {PAWN_nameDef}</BookCantRead>
+  <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
+  <BookCantBeStage>{PAWN_nameDef} {STAGES} ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ</BookCantBeStage>
+  <!-- EN: {PAWN_nameDef} is blind -->
+  <BookBlind>ﻒﻴﻔﻛ {PAWN_nameDef}</BookBlind>
+  
+  <!-- EN: max level {0} -->
+  <BookMaxLevel>{0} ﻯﻮﺘﺴﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ</BookMaxLevel>
+  
+  <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
+  <ReadingReportHeader>ﻲﻓ ﻞﻤﺘﻜﻳ) {1} ﻝﺎﻤﻛﺇ ﻢﺗ :{0} ﺓﺀﺍﺮﻗ\n(ﺔﻋﺎﺳ {2}</ReadingReportHeader>
+  
+  <!-- EN: Assign reading -->
+  <ReadingDialogTitle>ﺓﺀﺍﺮﻘﻟﺍ ﻦﻴﻴﻌﺗ</ReadingDialogTitle>
+  <!-- EN: Assign to {0} -->
+  <ReadingAssignTo>{0}ـﻟ ﻦﻴﻴﻌﺗ</ReadingAssignTo>
+  <!-- EN: Assign -->
+  <ReadingAssign>ﻦﻴﻴﻌﺗ</ReadingAssign>
+
+  <!-- EN: The books currently on this bookshelf. -->
+  <ContainedBooksDesc>ﻑﺭ ﻰﻠﻋ ًﺎﻴﻟﺎﺣ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺐﺘﻜﻟﺍ\n.ﺍﺬﻫ ﺐﺘﻜﻟﺍ</ContainedBooksDesc>
+  
+  <!-- EN: Books stored -->
+  <BookshelfStoredInspect>ﺔﻧﺰﺨﻤﻟﺍ ﺐﺘﻜﻟﺍ</BookshelfStoredInspect>
+  <!-- EN: Reading bonus in room -->
+  <BookshelfReadingBonusInspect>ﺔﻓﺮﻐﻟﺍ ﻲﻓ ﺓﺀﺍﺮﻘﻟﺍ ﺓﻭﻼﻋ</BookshelfReadingBonusInspect>
+
+  <!-- EN: Remove this book from the bookshelf. -->
+  <EjectBookTooltip>.ﺐﺘﻜﻟﺍ ﻑﺭ ﻦﻣ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ ﺔﻟﺍﺯﺇ</EjectBookTooltip>
+  
+  <!-- Pushing -->
+  <!-- EN: Push to... -->
+  <CommandPushTo>...ﻰﻟﺇ ﻊﻓﺩﺍ</CommandPushTo>
+  <!-- EN: requires {0} -->
+  <RequiredCapacity>{0} ﺐﻠﻄﺘﻳ</RequiredCapacity>
+
+  <!-- Pocket Maps -->
+  <!-- EN: Unable to enter {0}, destination is blocked -->
+  <UnableToEnterPortal>ﺔﻬﺟﻮﻟﺍ ،{0} ﻝﻮﺧﺩ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ\nﺓﺩﻭﺪﺴﻣ</UnableToEnterPortal>
+
+  <!-- EN: This category of research has not been discovered. -->
+  <ResearchNotDiscovered>.ﻩﺬﻫ ﺚﺤﺒﻟﺍ ﺔﺌﻓ ﻑﺎﺸﺘﻛﺍ ﻢﺘﻳ ﻢﻟ</ResearchNotDiscovered>
+
+  <!-- EN: Emergence -->
+  <Emergence>ﺭﻮﻬﻇ</Emergence>
+  
+  <!-- EN: remove {0} -->
+  <RemovePart>{0} ﺔﻟﺍﺯﺇ</RemovePart>
+
+  <!-- EN: {GERUND} {TARGETLABEL} at -->
+  <DoWorkAtThing>ﻲﻓ {GERUND} {TARGETLABEL}ـﺑ ﻡﻮﻘﻳ</DoWorkAtThing>
+  <!-- EN: can be studied in {0} -->
+  <CanBeStudiedInDuration>{0} ﻲﻓ ﺎﻬﺘﺳﺍﺭﺩ ﻦﻜﻤﻳ</CanBeStudiedInDuration>
+  
+  <!-- EN: About to explode -->
+  <AboutToExplode>ﺭﺎﺠﻔﻧﻻﺍ ﻚﺷﻭ ﻰﻠﻋ</AboutToExplode>
+  <!-- EN: No fuel to eject -->
+  <RefuelableNoFuelToEject>ﻪﺟﺍﺮﺧﻹ ﺩﻮﻗﻭ ﺪﺟﻮﻳ ﻻ</RefuelableNoFuelToEject>
+  
+  <!-- EN: New Anomaly expansion available now! -->
+  <MainScreen_AnomalyAvailableNow>ﺔﺣﺎﺘﻣ ﺓﺪﻳﺪﺠﻟﺍ Anomaly ﺔﻌﺳﻮﺗ\n!ﻥﻵﺍ</MainScreen_AnomalyAvailableNow>
+
+  <!-- EN: Disabled by scenario -->
+  <DisabledByScenario>ﻮﻳﺭﺎﻨﻴﺴﻟﺍ ﺐﺴﺣ ﻞﻄﻌﻣ</DisabledByScenario>
+
+  <!-- EN: blocked by roof -->
+  <BlockedByRoof>ﻒﻘﺳ ﺔﻄﺳﺍﻮﺑ ﺩﻭﺪﺴﻣ</BlockedByRoof>
+  <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
+  <BlockedByTerrain>ﺐﻠﻄﺘﻳ) ﺲﻳﺭﺎﻀﺘﻟﺍ ﺔﻄﺳﺍﻮﺑ ﺩﻭﺪﺴﻣ\n({0_label} ﺲﻳﺭﺎﻀﺗ ﻢﻋﺩ</BlockedByTerrain>
+
+  <!-- Craters -->
+  <!-- EN: Fill in -->
+  <DesignatorFillIn>ﻸﻣﺍ</DesignatorFillIn>
+  <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
+  <DesignatorFillInDesc>.ﺎﻫﺆﻠﻣ ﻢﺘﻴﻟ ﺔﻫﻮﻔﻟﺍ ﻩﺬﻫ ﻦﻴﻋ\nﺀﺎﻨﺒﻠﻟ ﻦﻴﻌﻣ ﺮﻤﻌﺘﺴﻣ ﻡﻮﻘﻴﺳ\n.ﺎﻬﺌﻠﻤﺑ</DesignatorFillInDesc>
+
+  <!-- Hacking -->
+  <!-- EN: Hack progress -->
+  <HackProgress>ﻕﺍﺮﺘﺧﻻﺍ ﻡﺪﻘﺗ</HackProgress>
+  <!-- EN: hacking speed -->
+  <HackingSpeed>ﻕﺍﺮﺘﺧﻻﺍ ﺔﻋﺮﺳ</HackingSpeed>
+  <!-- EN: {0}'s -->
+  <HackingLastUser>{0}</HackingLastUser>
+  <!-- EN: hacked -->
+  <Hacked>ﻕﺍﺮﺘﺧﻻﺍ ﻢﺗ</Hacked>
+  <!-- EN: Terminals hacked -->
+  <TerminalsHacked>ﺕﺎﻄﺤﻤﻟﺍ ﻕﺍﺮﺘﺧﺍ ﻢﺗ</TerminalsHacked>
+  <!-- EN: Intellectual needed -->
+  <IntellectualSkillPrerequisite>ﺔﺑﻮﻠﻄﻣ ﺔﻳﺮﻜﻔﻟﺍ ﺓﺭﺎﻬﻤﻟﺍ</IntellectualSkillPrerequisite>
+  <!-- EN: Auto hack -->
+  <AutoHack>ﻲﺋﺎﻘﻠﺗ ﻕﺍﺮﺘﺧﺍ</AutoHack>
+  <!-- EN: When enabled, researchers will automatically hack this. -->
+  <AutoHackDesc>ﻥﻮﺜﺣﺎﺒﻟﺍ ﻡﻮﻘﻴﺳ ،ﻞﻴﻌﻔﺘﻟﺍ ﺪﻨﻋ\n.ًﺎﻴﺋﺎﻘﻠﺗ ﺍﺬﻫ ﻕﺍﺮﺘﺧﺎﺑ</AutoHackDesc>
+
+  <!-- World -->
+  <!-- EN: View {LAYER_label} -->
+  <WorldSelectLayer>{LAYER_label} ﺽﺮﻋ</WorldSelectLayer>
+  <!-- EN: Jump to location -->
+  <WorldJumpTo>ﻊﻗﻮﻤﻟﺍ ﻰﻟﺇ ﻝﺎﻘﺘﻧﻻﺍ</WorldJumpTo>
+  <!-- EN: Find a colony, caravan, or quest location on the world map. -->
+  <WorldJumpToDesc>ﻭﺃ ،ﺔﻠﻓﺎﻗ ﻭﺃ ،ﺓﺮﻤﻌﺘﺴﻣ ﻰﻠﻋ ﺮﺜﻋﺍ\n.ﻢﻟﺎﻌﻟﺍ ﺔﻄﻳﺮﺧ ﻰﻠﻋ ﺔﻤﻬﻣ ﻊﻗﻮﻣ</WorldJumpToDesc>
+  <!-- EN: Nothing to jump to. -->
+  <NothingToJumpTo>.ﻪﻴﻟﺇ ﻝﺎﻘﺘﻧﻼﻟ ﺀﻲﺷ ﺪﺟﻮﻳ ﻻ</NothingToJumpTo>
+  <!-- EN: cannot function in {0} -->
+  <CannotFunctionOnLayer>{0} ﻲﻓ ﻞﻤﻌﺗ ﻥﺃ ﻦﻜﻤﻳ ﻻ</CannotFunctionOnLayer>
+  <!-- EN: New settlement -->
+  <NewSettlement>ﺓﺪﻳﺪﺟ ﺔﻨﻃﻮﺘﺴﻣ</NewSettlement>
+  <!-- EN: Settled -->
+  <Settled>ﺓﺮﻘﺘﺴﻣ</Settled>
+  <!-- EN: Abandoned -->
+  <Abandoned>ﺓﺭﻮﺠﻬﻣ</Abandoned>
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
+  <CannotPerformPlanetLayer>{GERUND} {LAYER} ﺬﻴﻔﻨﺗ ﻦﻜﻤﻳ ﻻ</CannotPerformPlanetLayer>
+  <!-- EN: This will not affect you {GERUND} {LAYER}. -->
+  <ThisWillNotAffectLayer>.{GERUND} {LAYER} ﻚﻴﻠﻋ ﺮﺛﺆﻳ ﻦﻟ ﺍﺬﻫ</ThisWillNotAffectLayer>
+
+  <!-- Pocket maps -->
+  <!-- EN: Enter {0} -->
+  <EnterPortal>{0} ﻝﻮﺧﺩ</EnterPortal>
+  <!-- EN: Entering {0} -->
+  <EnteringPortal>{0} ﻝﻮﺧﺩ</EnteringPortal>
+  <!-- EN: Select people and items to enter the {0}. -->
+  <CommandEnterPortalDesc>.{0} ﻝﻮﺧﺪﻟ ﺮﺻﺎﻨﻌﻟﺍﻭ ﺹﺎﺨﺷﻷﺍ ﺮﺘﺧﺍ</CommandEnterPortalDesc>
+  <!-- EN: Cancel entering -->
+  <CommandCancelEnterPortal>ﻝﻮﺧﺪﻟﺍ ﺀﺎﻐﻟﺇ</CommandCancelEnterPortal>
+  <!-- EN: Cancel exiting -->
+  <CommandCancelExitPortal>ﺝﻭﺮﺨﻟﺍ ﺀﺎﻐﻟﺇ</CommandCancelExitPortal>
+  <!-- EN: Cancel loading people or items into this. -->
+  <CommandCancelEnterPortalDesc>ﺮﺻﺎﻨﻌﻟﺍ ﻭﺃ ﺹﺎﺨﺷﻷﺍ ﻞﻴﻤﺤﺗ ﺀﺎﻐﻟﺇ\n.ﺍﺬﻫ ﻰﻟﺇ</CommandCancelEnterPortalDesc>
+  <!-- EN: Exit {0} -->
+  <ExitPortal>{0} ﺝﻭﺮﺧ</ExitPortal>
+
+  <!-- CompProjectileInterceptor -->
+  <!-- EN: Shield energy -->
+  <ShieldEnergy>ﻉﺭﺪﻟﺍ ﺔﻗﺎﻃ</ShieldEnergy>
+  <!-- EN: Shield cooldown -->
+  <ShieldTimeToRecovery>ﻉﺭﺪﻟﺍ ﺔﺋﺪﻬﺗ ﺓﺮﺘﻓ</ShieldTimeToRecovery>
+  <!-- EN: Shield duration -->
+  <ShieldDuration>ﻉﺭﺪﻟﺍ ﺓﺪﻣ</ShieldDuration>
+  <!-- EN: On cooldown -->
+  <ShieldOnCooldown>ﺔﺋﺪﻬﺗ ﺓﺮﺘﻓ ﻲﻓ</ShieldOnCooldown>
+  <!-- EN: Below minimum energy -->
+  <ShieldBelowMinHitpoints>ﺔﻗﺎﻄﻠﻟ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ ﻦﻣ ﻞﻗﺃ</ShieldBelowMinHitpoints>
+  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
+  <ProjectileInterceptorTip>ﻝﻭﺎﺤﻴﺳ ﺔﻀﻔﺨﻨﻣ ﺔﻳﻭﺍﺰﺑ ﻂﻘﺴﻣ ﻉﺭﺩ\nﺎﻳﺎﻈﺸﻟﺍ ﻭﺃ ﻒﺋﺍﺬﻘﻟﺍ ﻑﺎﻘﻳﺇ\nﺐﻴﺻﺃ ﺍﺫﺇ ًﺍﺭﻮﻓ ﻒﻗﻮﺘﻳ .ﺔﻣﺩﺎﻘﻟﺍ\n.(EMP) ﺔﻴﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻛ ﺔﻀﺒﻨﺑ</ProjectileInterceptorTip>
+
+  <!-- EN: max {0} -->
+  <MaxOf>{0} ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ</MaxOf>
+
+  <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
+  <CannotUseDueToHediff>ﻪﻳﺪﻟ {TARGETABLE_label}: {TARGET_nameDef} ﻡﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ ﻻ\n.{2} ﻞﻌﻔﻟﺎﺑ</CannotUseDueToHediff>
+
+  <!-- Scanner -->
+  <!-- EN: Blocked by roof -->
+  <CannotUseScannerRoofed>ﻒﻘﺳ ﺔﻄﺳﺍﻮﺑ ﺩﻭﺪﺴﻣ</CannotUseScannerRoofed>
+  <!-- EN: Biome does not contain drillable resources -->
+  <CannotUseScannerNoBedrock>ﺔﻠﺑﺎﻗ ﺩﺭﺍﻮﻣ ﻰﻠﻋ ﻱﻮﺘﺤﻳ ﻻ ﺥﺎﻨﻤﻟﺍ\nﺮﻔﺤﻠﻟ</CannotUseScannerNoBedrock>
+  
+  <!-- Quests -->
+  <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
+  <CannotAcceptQuestFromLayer>.{GERUND} {LAYER} ﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﻝﻮﺒﻗ ﻦﻜﻤﻳ ﻻ</CannotAcceptQuestFromLayer>
+  <!-- EN: Cannot accept this quest without a permanent colony. -->
+  <CannotAcceptQuestNoMap>ﻥﻭﺪﺑ ﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﻝﻮﺒﻗ ﻦﻜﻤﻳ ﻻ\n.ﺔﻤﺋﺍﺩ ﺓﺮﻤﻌﺘﺴﻣ</CannotAcceptQuestNoMap>
+
+  <!-- EN: {0} of {1} -->
+  <GuildTradeShipName>{1} ﻦﻣ {0}</GuildTradeShipName>
+  
+</LanguageData>

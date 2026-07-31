@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an alpha thrumbo.\n\nAlpha thrumbos are exceptionally rare creatures, believed by many to be mere fiction. Too wild for most to tame and too powerful for most to hunt, their horns are worth more than their weight in gold.</li>
+  -->
+  <OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;.ﺎﻔﻟﺃ ﻮﺒﻣﻭﺮﺛ ﻊﻗﻮﻣ [discoveryMethod]\n\nﺓﺭﺩﺎﻧ ﺕﺎﻗﻮﻠﺨﻣ ﺎﻔﻟﺃ ﻮﺒﻣﻭﺮﺛ\nﺎﻬﻧﺃ ﻥﻭﺮﻴﺜﻜﻟﺍ ﺪﻘﺘﻌﻳ ،ﺔﻳﺎﻐﻠﻟ\nﺾﻳﻭﺮﺘﻟ ًﺍﺪﺟ ﺔﺤﻣﺎﺟ .ﻝﺎﻴﺧ ﺩﺮﺠﻣ\nﺪﻴﺼﻟ ًﺍﺪﺟ ﺔﻳﻮﻗﻭ ﺱﺎﻨﻟﺍ ﻢﻈﻌﻣ\nﻦﻣ ﺮﺜﻛﺃ ﻱﻭﺎﺴﺗ ﺎﻬﻧﻭﺮﻗ ،ﻢﻬﻤﻈﻌﻣ\n.ًﺎﺒﻫﺫ ﺎﻬﻧﺯﻭ</li>
+ </OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->alpha thrumbo</li>
+  -->
+  <OpportunitySite_AlphaThrumbo_Giver.questNameRules.rulesStrings>
+    <li>questName-&gt;ﺎﻔﻟﺃ ﻮﺒﻣﻭﺮﺛ</li>
+ </OpportunitySite_AlphaThrumbo_Giver.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->alpha thrumbos</li>
+    <li>subject->thrumbos</li>
+    <li>subject->rare thrumbos</li>
+    <li>subject->rare animals</li>
+    <li>subject->legendary creatures</li>
+    <li>questMapFeature->drawing of a thrumbo</li>
+    <li>questMapFeature->sketch of an odd-looking thrumbo</li>
+    <li>questMapText->thrumbo habitat</li>
+    <li>questMapText->alpha thrumbo</li>
+    <li>questMapText->found the beast</li>
+    <li>questMapText->they are real</li>
+  -->
+  <OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>
+    <li>subject-&gt;ﺎﻔﻟﺃ ﻮﺒﻣﻭﺮﺛ</li>
+    <li>subject-&gt;ﻮﺒﻣﻭﺮﺛ</li>
+    <li>subject-&gt;ﺭﺩﺎﻧ ﻮﺒﻣﻭﺮﺛ</li>
+    <li>subject-&gt;ﺓﺭﺩﺎﻧ ﺕﺎﻧﺍﻮﻴﺣ</li>
+    <li>subject-&gt;ﺔﻳﺭﻮﻄﺳﺃ ﺕﺎﻗﻮﻠﺨﻣ</li>
+    <li>questMapFeature-&gt;ﻮﺒﻣﻭﺮﺜﻟ ﻢﺳﺭ</li>
+    <li>questMapFeature-&gt;ﺮﻬﻈﻤﻟﺍ ﺐﻳﺮﻏ ﻮﺒﻣﻭﺮﺜﻟ ﻲﻄﻴﻄﺨﺗ ﻢﺳﺭ</li>
+    <li>questMapText-&gt;ﻮﺒﻣﻭﺮﺜﻟﺍ ﻦﻃﻮﻣ</li>
+    <li>questMapText-&gt;ﺎﻔﻟﺃ ﻮﺒﻣﻭﺮﺛ</li>
+    <li>questMapText-&gt;ﺶﺣﻮﻟﺍ ﺪﺟﻭ</li>
+    <li>questMapText-&gt;ﻥﻮﻴﻘﻴﻘﺣ ﻢﻬﻧﺇ</li>
+ </OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>ﺖﻔﺸﺘﻛﺍ ﺪﻘﻟ</OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>[resolvedQuestName] :ﺔﻤﻬﻤﻟﺍ ﺖﻬﺘﻧﺍ</OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the alpha thrumbo has moved on. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>ﺎﻬﺿﺍﺮﺘﻋﺍ ﻢﺗ ﻲﺘﻟﺍ ﺕﻻﺎﺼﺗﻻﺍ ﺮﻴﺸﺗ\n.ﻞﺣﺭ ﺪﻗ ﺎﻔﻟﺃ ﻮﺒﻣﻭﺮﺛ ﻥﺃ ﻰﻟﺇ\n.[resolvedQuestName] ﺔﻤﻬﻤﻟﺍ ﺖﻬﺘﻧﺍ</OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>
+  
+</LanguageData>

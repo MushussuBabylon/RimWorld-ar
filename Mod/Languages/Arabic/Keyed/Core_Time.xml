@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: d -->
+  <LetterDay>ﻱ</LetterDay>
+  <!-- EN: h -->
+  <LetterHour>ﺱ</LetterHour>
+  <!-- EN: m -->
+  <LetterMinute>ﺩ</LetterMinute>
+  <!-- EN: s -->
+  <LetterSecond>ﺙ</LetterSecond>
+  <!-- EN: y -->
+  <LetterYear>ﻉ</LetterYear>
+  
+  <!-- EN: AM -->
+  <AM>ًﺎﺣﺎﺒﺻ</AM>
+  <!-- EN: PM -->
+  <PM>ًﺀﺎﺴﻣ</PM>
+
+  <!-- EN: days -->
+  <DaysLower>ﻡﺎﻳﺃ</DaysLower>
+  <!-- EN: hours -->
+  <HoursLower>ﺕﺎﻋﺎﺳ</HoursLower>
+  <!-- EN: seconds -->
+  <SecondsLower>ٍﻥﺍﻮﺛ</SecondsLower>
+
+  <!-- EN: spring -->
+  <SeasonSpring>ﻊﻴﺑﺭ</SeasonSpring>
+  <!-- EN: summer -->
+  <SeasonSummer>ﻒﻴﺻ</SeasonSummer>
+  <!-- EN: fall -->
+  <SeasonFall>ﻒﻳﺮﺧ</SeasonFall>
+  <!-- EN: winter -->
+  <SeasonWinter>ﺀﺎﺘﺷ</SeasonWinter>
+  <!-- EN: permanent summer -->
+  <SeasonPermanentSummer>ﻢﺋﺍﺩ ﻒﻴﺻ</SeasonPermanentSummer>
+  <!-- EN: permanent winter -->
+  <SeasonPermanentWinter>ﻢﺋﺍﺩ ﺀﺎﺘﺷ</SeasonPermanentWinter>
+
+  <!-- EN: Aprimay -->
+  <QuadrumAprimay>ﻱﺎﻤﻠﻳﺮﺑﺃ</QuadrumAprimay>
+  <!-- EN: Jugust -->
+  <QuadrumJugust>ﺖﺴﺟﻮﺟ</QuadrumJugust>
+  <!-- EN: Septober -->
+  <QuadrumSeptober>ﺮﺒﻤﺘﺒﺳ</QuadrumSeptober>
+  <!-- EN: Decembary -->
+  <QuadrumDecembary>ﻱﺮﺒﻤﺴﻳﺩ</QuadrumDecembary>
+
+  <!-- EN: Apr -->
+  <QuadrumAprimay_Short>ﺮﺑﺃ</QuadrumAprimay_Short>
+  <!-- EN: Jug -->
+  <QuadrumJugust_Short>ﺝﻮﺟ</QuadrumJugust_Short>
+  <!-- EN: Sep -->
+  <QuadrumSeptober_Short>ﺖﺒﺳ</QuadrumSeptober_Short>
+  <!-- EN: Dec -->
+  <QuadrumDecembary_Short>ﺲﻳﺩ</QuadrumDecembary_Short>
+  
+  <!-- EN: Born: {0} -->
+  <Born>{0} :ﺩﻼﻴﻤﻟﺍ</Born>
+  <!-- EN: Chronological age: {0} years, {1} quadrums, {2} days -->
+  <AgeChronological>{2} ،ﻊﺑﺭ {1} ،ﺔﻨﺳ {0} :ﻲﻨﻣﺰﻟﺍ ﺮﻤﻌﻟﺍ\nﻡﻮﻳ</AgeChronological>
+  <!-- EN: Biological age: {0} years, {1} quadrums, {2} days -->
+  <AgeBiological>،ﻊﺑﺭ {1} ،ﺔﻨﺳ {0} :ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﺮﻤﻌﻟﺍ\nﻡﻮﻳ {2}</AgeBiological>
+
+  <!-- Date periods -->
+  <!-- EN: 1 year -->
+  <Period1Year>ﺓﺪﺣﺍﻭ ﺔﻨﺳ</Period1Year>
+  <!-- EN: {0} years -->
+  <PeriodYears>ﺕﺍﻮﻨﺳ {0}</PeriodYears>
+  <!-- EN: 1 quadrum -->
+  <Period1Quadrum>ﺪﺣﺍﻭ ﻊﺑﺭ</Period1Quadrum>
+  <!-- EN: {0} quadrums -->
+  <PeriodQuadrums>ﻉﺎﺑﺭﺃ {0}</PeriodQuadrums>
+  <!-- EN: 1 day -->
+  <Period1Day>ﺪﺣﺍﻭ ﻡﻮﻳ</Period1Day>
+  <!-- EN: {0} days -->
+  <PeriodDays>ﻡﺎﻳﺃ {0}</PeriodDays>
+  <!-- EN: 1 hour -->
+  <Period1Hour>ﺓﺪﺣﺍﻭ ﺔﻋﺎﺳ</Period1Hour>
+  <!-- EN: {0} hours -->
+  <PeriodHours>ﺕﺎﻋﺎﺳ {0}</PeriodHours>
+  <!-- EN: 1 second -->
+  <Period1Second>ﺓﺪﺣﺍﻭ ﺔﻴﻧﺎﺛ</Period1Second>
+  <!-- EN: {0} seconds -->
+  <PeriodSeconds>ٍﻥﺍﻮﺛ {0}</PeriodSeconds>
+
+  <!-- Misc -->
+  <!-- EN: Started -->
+  <Started>ﺃﺪﺑ</Started>
+  <!-- EN: Lasted -->
+  <Lasted>ﺮﻤﺘﺳﺍ</Lasted>
+  <!-- EN: occurred {0} ago -->
+  <OccurredTimeAgo>{0} ﺬﻨﻣ ﺙﺪﺣ</OccurredTimeAgo>
+  <!-- EN: {0} ago -->
+  <TimeAgo>{0} ﺬﻨﻣ</TimeAgo>
+  
+</LanguageData>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aurora -->
+  <Aurora.label>ﻖﻔﺷ</Aurora.label>
+  <!-- EN: An aurora is lighting up the sky. The breathtaking display will boost the mood of anyone outside to see it. -->
+  <Aurora.description>ﺍﺬﻫ ﻊﻓﺮﻴﺳ .ﺀﺎﻤﺴﻟﺍ ﻖﻔﺸﻟﺍ ﺀﻲﻀﻳ\nﻲﻓ ﺺﺨﺷ ﻱﺃ ﺝﺍﺰﻣ ﻦﻣ ﺫﺎﺧﻷﺍ ﺽﺮﻌﻟﺍ\n.ﻩﺍﺮﻳ ﺝﺭﺎﺨﻟﺍ</Aurora.description>
+  <!-- EN: The aurora is ending. -->
+  <Aurora.endMessage>.ﻪﺘﻳﺎﻬﻧ ﻦﻣ ﻖﻔﺸﻟﺍ ﺏﺮﺘﻘﻳ</Aurora.endMessage>
+  <!-- EN: A beautiful aurora is lighting up the sky.\n\nThe undulating colors will boost the mood of anyone outside to see them, and make the night brighter. -->
+  <Aurora.letterText>.ﺀﺎﻤﺴﻟﺍ ﻞﻴﻤﺟ ﻖﻔﺷ ﺀﻲﻀﻳ\n\nﺝﺍﺰﻣ ﻦﻣ ﺔﺟﻭﺎﻤﺘﻤﻟﺍ ﻥﺍﻮﻟﻷﺍ ﻊﻓﺮﺘﺳ\nﻞﻌﺠﺘﺳﻭ ،ﺎﻫﺍﺮﻳ ﺝﺭﺎﺨﻟﺎﺑ ﺺﺨﺷ ﻱﺃ\n.ﺎًﻗﺍﺮﺷﺇ ﺮﺜﻛﺃ ﻞﻴﻠﻟﺍ</Aurora.letterText>
+  
+  <!-- EN: climate cycle -->
+  <ClimateCycle.label>ﺔﻴﺧﺎﻨﻣ ﺓﺭﻭﺩ</ClimateCycle.label>
+  <!-- EN: A multi-year climate cycle due to an elliptical orbit. -->
+  <ClimateCycle.description>ﺕﺍﻮﻨﺴﻟﺍ ﺓﺩﺪﻌﺘﻣ ﺔﻴﺧﺎﻨﻣ ﺓﺭﻭﺩ\n.ﻲﺠﻠﻴﻠﻫﺇ ﺭﺍﺪﻣ ﺐﺒﺴﺑ</ClimateCycle.description>
+  
+  <!-- EN: cold snap -->
+  <ColdSnap.label>ﺩﺮﺑ ﺔﺟﻮﻣ</ColdSnap.label>
+  <!-- EN: An unusual cold snap is freezing the region. -->
+  <ColdSnap.description>ﺪﻤﺠﺗ ﺔﻳﺩﺎﻴﺘﻋﺍ ﺮﻴﻏ ﺩﺮﺑ ﺔﺟﻮﻣ\n.ﺔﻘﻄﻨﻤﻟﺍ</ColdSnap.description>
+  <!-- EN: a front of cold air will cool the area around [map_definite] for [gameConditionDuration_duration], harming crops and any person or animal without adequate protection -->
+  <ColdSnap.descriptionFuture>ﺔﻘﻄﻨﻤﻟﺍ ﺩﺮﺒﺘﺳ ﺩﺭﺎﺑ ﺀﺍﻮﻫ ﺔﻬﺒﺟ\nﺮﻀﻳ ﺎﻤﻣ ،[gameConditionDuration_duration] ﺓﺪﻤﻟ [map_definite] ﻝﻮﺣ\nﻥﺍﻮﻴﺣ ﻭﺃ ﺺﺨﺷ ﻱﺃﻭ ﻞﻴﺻﺎﺤﻤﻟﺎﺑ\nﺔﻴﻓﺎﻛ ﺔﻳﺎﻤﺣ ﻥﻭﺪﺑ</ColdSnap.descriptionFuture>
+  <!-- EN: The cold snap is over. -->
+  <ColdSnap.endMessage>.ﺩﺮﺒﻟﺍ ﺔﺟﻮﻣ ﺖﻬﺘﻧﺍ</ColdSnap.endMessage>
+  <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
+  <ColdSnap.letterText>.ﺔﻳﺩﺎﻴﺘﻋﺍ ﺮﻴﻏ ﺩﺮﺑ ﺔﺟﻮﻣ ﺕﺃﺪﺑ\n\nﻞﺘﻘﺗ ﻥﺃ ﺩﺮﺒﻟﺍ ﺕﺎﺟﻮﻤﻟ ﻦﻜﻤﻳ\n.ﺓﺭﺍﺮﺤﻟﺍ ﺽﺎﻔﺨﻧﺍ ﺐﺒﺴﺑ ﺔﻋﺮﺴﺑ\n،ﺓﺎﺠﻨﻠﻟ ﺊﻓﺍﺩ ﻥﺎﻜﻣ ﺀﺎﻨﺑ ﻦﻣ ﺪﻛﺄﺗ\nﺩﺎﺼﺣ ﻝﻭﺎﺣﻭ ،ﺔﺒﺳﺎﻨﻣ ﺲﺑﻼﻣ ﺪﺗﺭﺍﻭ\n.ﺕﻮﻤﺗﻭ ﺪﻤﺠﺘﺗ ﻥﺃ ﻞﺒﻗ ﻞﻴﺻﺎﺤﻤﻟﺍ</ColdSnap.letterText>
+  
+  <!-- EN: eclipse -->
+  <Eclipse.label>ﻑﻮﺴﻛ</Eclipse.label>
+  <!-- EN: An eclipse is shadowing the surface. It will be dark, even during the daytime. -->
+  <Eclipse.description>ﻥﻮﻜﻴﺳ .ﺢﻄﺴﻟﺍ ﻑﻮﺴﻜﻟﺍ ﻞﻠﻈﻳ\n.ﺭﺎﻬﻨﻟﺍ ﺀﺎﻨﺛﺃ ﻰﺘﺣ ،ﺎًﻤﻠﻈﻣ</Eclipse.description>
+  <!-- EN: The eclipse is ending. -->
+  <Eclipse.endMessage>.ﻪﺘﻳﺎﻬﻧ ﻦﻣ ﻑﻮﺴﻜﻟﺍ ﺏﺮﺘﻘﻳ</Eclipse.endMessage>
+  <!-- EN: One of the moons of this planet has orbited in front of the sun. An eclipse has begun. -->
+  <Eclipse.letterText>ﻲﻓ ﺭﺍﺩ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﺭﺎﻤﻗﺃ ﺪﺣﺃ\n.ﻑﻮﺴﻜﻟﺍ ﺃﺪﺑ .ﺲﻤﺸﻟﺍ ﻡﺎﻣﺃ ﻩﺭﺍﺪﻣ</Eclipse.letterText>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>ﺔﻔﻃﺎﺧ ﻕﺮﺑ ﺔﻔﺻﺎﻋ</Flashstorm.label>
+  <!-- EN: A freak localized storm is blasting a small area with repeated lightning strikes. -->
+  <Flashstorm.description>ﺔﻘﻄﻨﻣ ﺏﺮﻀﺗ ﺔﺒﻳﺮﻏ ﺔﻴﻌﺿﻮﻣ ﺔﻔﺻﺎﻋ\n.ﺓﺭﺮﻜﺘﻣ ﻕﺮﺑ ﺕﺎﺑﺮﻀﺑ ﺓﺮﻴﻐﺻ</Flashstorm.description>
+  <!-- EN: The flashstorm is over. -->
+  <Flashstorm.endMessage>.ﺔﻔﻃﺎﺨﻟﺍ ﺔﻴﻗﺮﺒﻟﺍ ﺔﻔﺻﺎﻌﻟﺍ ﺖﻬﺘﻧﺍ</Flashstorm.endMessage>
+  <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
+  <Flashstorm.letterText>ﺔﻴﻌﺿﻮﻣ ﺔﻔﻃﺎﺧ ﻕﺮﺑ ﺔﻔﺻﺎﻋ ﺏﺮﻀﺗ\nﻦﻜﻤﻳ .ﻕﺮﺒﻟﺎﺑ ﺓﺮﻴﻐﺻ ﺔﻘﻄﻨﻣ ﺔﺒﻳﺮﻏ\n.ﺔﻠﺋﺎﻫ ﻖﺋﺍﺮﺣ ﻲﻓ ﺍﺬﻫ ﺐﺒﺴﺘﻳ ﻥﺃ</Flashstorm.letterText>
+  
+  <!-- EN: heat wave -->
+  <HeatWave.label>ﺮﺣ ﺔﺟﻮﻣ</HeatWave.label>
+  <!-- EN: An extreme wave of heat is baking the area. -->
+  <HeatWave.description>.ﺔﻘﻄﻨﻤﻟﺍ ﺐﻬﻠﺗ ﺓﺪﻳﺪﺷ ﺮﺣ ﺔﺟﻮﻣ</HeatWave.description>
+  <!-- EN: a heat wave will bake the area around [map_definite] for [gameConditionDuration_duration], harming crops and possibly killing people or animals in uncooled areas -->
+  <HeatWave.descriptionFuture>[map_definite] ﻝﻮﺣ ﺔﻘﻄﻨﻤﻟﺍ ﺐﻬﻠﺘﺳ ﺮﺣ ﺔﺟﻮﻣ\nﻞﻴﺻﺎﺤﻤﻟﺎﺑ ﺮﻀﻳ ﺎﻤﻣ ،[gameConditionDuration_duration] ﺓﺪﻤﻟ\nﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻭﺃ ﺱﺎﻨﻟﺍ ﻞﺘﻘﻳ ﺎﻤﺑﺭﻭ\nﺓﺩﺮﺒﻤﻟﺍ ﺮﻴﻏ ﻖﻃﺎﻨﻤﻟﺍ ﻲﻓ</HeatWave.descriptionFuture>
+  <!-- EN: The heat wave is over. -->
+  <HeatWave.endMessage>.ﺮﺤﻟﺍ ﺔﺟﻮﻣ ﺖﻬﺘﻧﺍ</HeatWave.endMessage>
+  <!-- EN: An unusual heat wave has begun.\n\nHeat waves can induce deadly heatstroke. Stay cool by building either a passive or electric cooler, or by getting deep underground where the rocks are naturally cool. -->
+  <HeatWave.letterText>.ﺔﻳﺩﺎﻴﺘﻋﺍ ﺮﻴﻏ ﺮﺣ ﺔﺟﻮﻣ ﺕﺃﺪﺑ\n\nﺔﺑﺮﺿ ﺐﺒﺴﺗ ﻥﺃ ﺮﺤﻟﺍ ﺕﺎﺟﻮﻤﻟ ﻦﻜﻤﻳ\nﺓﺩﻭﺮﺒﻟﺍ ﻰﻠﻋ ﻆﻓﺎﺣ .ﺔﺘﻴﻤﻣ ﺮﺣ\nﻭﺃ ،ﻲﺋﺎﺑﺮﻬﻛ ﻭﺃ ﻲﺒﻠﺳ ﺩﺮﺒﻣ ﺀﺎﻨﺒﺑ\nﺚﻴﺣ ﺽﺭﻷﺍ ﺖﺤﺗ ﺎًﻘﻴﻤﻋ ﻞﻏﻮﺘﻟﺎﺑ\n.ﺎًﻴﻌﻴﺒﻃ ﺓﺩﺭﺎﺑ ﺭﻮﺨﺼﻟﺍ</HeatWave.letterText>
+  
+  <!-- EN: planetkiller -->
+  <Planetkiller.label>ﺐﻛﺍﻮﻛ ﺮﻣﺪﻣ</Planetkiller.label>
+  <!-- EN: An interstellar planetkiller weapon is approaching this planet. It will smash the planet apart like a rifle bullet hitting an egg, annihilating all life. -->
+  <Planetkiller.description>ﻦﻣ ﻲﻤﺠﻨﻴﺑ ﺐﻛﺍﻮﻛ ﺮﻣﺪﻣ ﺡﻼﺳ ﺏﺮﺘﻘﻳ\nﺎﻤﻛ ﺐﻛﻮﻜﻟﺍ ﻢﻄﺤﻴﺳ .ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ\nﻲﻀﻘﻴﻟ ،ﺔﻀﻴﺑ ﺔﻴﻗﺪﻨﺑ ﺔﺻﺎﺻﺭ ﻢﻄﺤﺗ\n.ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻞﻛ ﻰﻠﻋ</Planetkiller.description>
+  
+  <!-- EN: psychic drone -->
+  <PsychicDrone.label>ﻲﺴﻔﻧ ﻦﻴﻨﻃ</PsychicDrone.label>
+  <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, driving people towards insanity. -->
+  <PsychicDrone.description>ﺕﺍﺭﺎﺷﺇ ﺓﺪﻴﻌﺑ ﺎﻴﻠﻋ ﺔﻴﻨﻘﺗ ﺚﻌﺒﺗ\nﻊﻓﺪﺘﻟ ،ﻱﺭﺍﺪﻣ ﻢﺨﻀﻣ ﺮﺒﻋ ﺔﻴﺴﻔﻧ\n.ﻥﻮﻨﺠﻟﺍ ﻮﺤﻧ ﺱﺎﻨﻟﺍ</PsychicDrone.description>
+  <!-- EN: a [psychicDroneLevel] psychic drone will buzz the area around [map_definite] for [gameConditionDuration_duration], pushing all people of the [psychicDroneGender] gender towards insanity -->
+  <PsychicDrone.descriptionFuture>ﻲﻓ ﻦﻄﻴﺳ [psychicDroneLevel] ﻯﻮﺘﺴﻣ ﻦﻣ ﻲﺴﻔﻧ ﻦﻴﻨﻃ\nﺎًﻌﻓﺍﺩ ،[gameConditionDuration_duration] ﺓﺪﻤﻟ [map_definite] ﻝﻮﺣ ﺔﻘﻄﻨﻤﻟﺍ\nﻮﺤﻧ [psychicDroneGender] ﺲﻨﺠﻟﺍ ﻦﻣ ﺱﺎﻨﻟﺍ ﻊﻴﻤﺟ\nﻥﻮﻨﺠﻟﺍ</PsychicDrone.descriptionFuture>
+  <!-- EN: The psychic drone is ending. -->
+  <PsychicDrone.endMessage>.ﻪﺘﻳﺎﻬﻧ ﻦﻣ ﻲﺴﻔﻨﻟﺍ ﻦﻴﻨﻄﻟﺍ ﺏﺮﺘﻘﻳ</PsychicDrone.endMessage>
+  <!-- EN: Every {0} colonist feels a wave of anxiety and anger!\n\nSome distant engine of hatred is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
+  <PsychicDrone.letterText>ﻦﻣ ﺔﺟﻮﻤﺑ {0} ﺮﻤﻌﺘﺴﻣ ﻞﻛ ﺮﻌﺸﻳ\n!ﺐﻀﻐﻟﺍﻭ ﻖﻠﻘﻟﺍ\n\n.ﻙﺮﺤﺘﻳ ﺪﻴﻌﺑ ﺔﻴﻫﺍﺮﻛ ﻙﺮﺤﻣ ﻙﺎﻨﻫ\nﺍﺬﻫ ﻰﻠﻋ ﺎًﻴﺴﻔﻧ ﺎًﻨﻴﻨﻃ ﺚﺒﻳ ﻪﻧﺇ\nﻁﻮﺒﻀﻣ ،ﻱﺭﺍﺪﻣ ﻢﺨﻀﻣ ﺮﺒﻋ ﻊﻗﻮﻤﻟﺍ\n،ﻡﺎﻳﺃ ﺓﺪﻌﻟ .{0}ـﻟﺍ ﻂﻘﻓ ﻝﺎﻄﻴﻟ\nﺃﻮﺳﺃ ﺱﺎﻨﻟﺍ ﺾﻌﺑ ﺝﺍﺰﻣ ﻥﻮﻜﻴﺳ\n.ﻞﻴﻠﻘﺑ\n\n.{1} ﻦﻴﻨﻄﻟﺍ ﻯﻮﺘﺴﻣ</PsychicDrone.letterText>
+  
+  <!-- EN: psychic soothe -->
+  <PsychicSoothe.label>ﺔﻴﺴﻔﻧ ﺔﺋﺪﻬﺗ</PsychicSoothe.label>
+  <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, calming people and stabilizing their minds. -->
+  <PsychicSoothe.description>ﺕﺍﺭﺎﺷﺇ ﺓﺪﻴﻌﺑ ﺎﻴﻠﻋ ﺔﻴﻨﻘﺗ ﺚﻌﺒﺗ\nﺉﺪﻬﺘﻟ ،ﻱﺭﺍﺪﻣ ﻢﺨﻀﻣ ﺮﺒﻋ ﺔﻴﺴﻔﻧ\n.ﻢﻬﻟﻮﻘﻋ ﺮﻘﺘﺴﺗﻭ ﺱﺎﻨﻟﺍ</PsychicSoothe.description>
+  <!-- EN: The psychic soothe is ending. -->
+  <PsychicSoothe.endMessage>ﻦﻣ ﺔﻴﺴﻔﻨﻟﺍ ﺔﺋﺪﻬﺘﻟﺍ ﺏﺮﺘﻘﺗ\n.ﺎﻬﺘﻳﺎﻬﻧ</PsychicSoothe.endMessage>
+  <!-- EN: Every {0} colonist smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit better. -->
+  <PsychicSoothe.letterText>!ﺎﺿﺮﺑ {0} ﺮﻤﻌﺘﺴﻣ ﻞﻛ ﻢﺴﺘﺒﻳ\n\n.ﻙﺮﺤﺘﻳ ﺪﻴﻌﺑ ﺓﺩﺎﻌﺳ ﻙﺮﺤﻣ ﻙﺎﻨﻫ\nﺍﺬﻫ ﻰﻠﻋ ﺔﻴﺴﻔﻧ ﺔﻨﻴﻧﺄﻤﻃ ﺚﺒﻳ ﻪﻧﺇ\nﻁﻮﺒﻀﻣ ،ﻱﺭﺍﺪﻣ ﻢﺨﻀﻣ ﺮﺒﻋ ﻊﻗﻮﻤﻟﺍ\n،ﻡﺎﻳﺃ ﺓﺪﻌﻟ .{0}ـﻟﺍ ﻂﻘﻓ ﻝﺎﻄﻴﻟ\nﻞﻀﻓﺃ ﺱﺎﻨﻟﺍ ﺾﻌﺑ ﺝﺍﺰﻣ ﻥﻮﻜﻴﺳ\n.ﻞﻴﻠﻘﺑ</PsychicSoothe.letterText>
+  
+  <!-- EN: solar flare -->
+  <SolarFlare.label>ﻲﺴﻤﺷ ﺭﺎﺠﻔﻧﺍ</SolarFlare.label>
+  <!-- EN: A solar flare is blasting the planet. The electromagnetic interference will prevent most electrical devices from working. -->
+  <SolarFlare.description>ﻊﻨﻤﻴﺳ .ﺐﻛﻮﻜﻟﺍ ﻲﺴﻤﺷ ﺭﺎﺠﻔﻧﺍ ﺏﺮﻀﻳ\nﻢﻈﻌﻣ ﻲﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﺶﻳﻮﺸﺘﻟﺍ\n.ﻞﻤﻌﻟﺍ ﻦﻣ ﺔﻴﺋﺎﺑﺮﻬﻜﻟﺍ ﺓﺰﻬﺟﻷﺍ</SolarFlare.description>
+  <!-- EN: The solar flare is ending. -->
+  <SolarFlare.endMessage>ﻦﻣ ﻲﺴﻤﺸﻟﺍ ﺭﺎﺠﻔﻧﻻﺍ ﺏﺮﺘﻘﻳ\n.ﻪﺘﻳﺎﻬﻧ</SolarFlare.endMessage>
+  <!-- EN: A solar flare has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nIt should pass in about a day. -->
+  <SolarFlare.letterText>.ﻲﺴﻤﺷ ﺭﺎﺠﻔﻧﺍ ﺃﺪﺑ\n\nﻊﻴﻤﺟ ﻒﺜﻜﻤﻟﺍ ﻉﺎﻌﺷﻹﺍ ﻒﻗﻮﻴﺳ\n.ﺔﻴﺋﺎﺑﺮﻬﻜﻟﺍ ﺓﺰﻬﺟﻷﺍ\n\nﻡﻮﻳ ﻥﻮﻀﻏ ﻲﻓ ﺮﻤﻳ ﻥﺃ ﺐﺠﻳ\n.ﺎًﺒﻳﺮﻘﺗ</SolarFlare.letterText>
+  
+  <!-- EN: toxic fallout -->
+  <ToxicFallout.label>ﻡﺎﺳ ﻂﻗﺎﺴﺗ</ToxicFallout.label>
+  <!-- EN: A plume of toxic dust is slowly settling over this entire region. Any living thing not under a roof will be slowly poisoned, and items left outside will corrode. -->
+  <ToxicFallout.description>ﻡﺎﺴﻟﺍ ﺭﺎﺒﻐﻟﺍ ﻦﻣ ﺩﻮﻤﻋ ﺮﻘﺘﺴﺗ\n.ﺎﻬﻠﻤﻛﺄﺑ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻰﻠﻋ ﺀﻂﺒﺑ\nﺖﺤﺗ ﺲﻴﻟ ﻲﺣ ﻦﺋﺎﻛ ﻱﺃ ﻢﻴﻤﺴﺗ ﻢﺘﻴﺳ\nﺽﺍﺮﻏﻷﺍ ﻞﻛﺂﺘﺘﺳﻭ ،ﺀﻂﺒﺑ ﻒﻘﺳ\n.ﺝﺭﺎﺨﻟﺎﺑ ﺔﻛﻭﺮﺘﻤﻟﺍ</ToxicFallout.description>
+  <!-- EN: a cloud of toxic fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], killing outdoor plant and animal life -->
+  <ToxicFallout.descriptionFuture>ﻲﻄﻐﺘﺳ ﻡﺎﺴﻟﺍ ﻂﻗﺎﺴﺘﻟﺍ ﻦﻣ ﺔﺑﺎﺤﺳ\nﻞﺘﻘﻳ ﺎﻤﻣ ،[gameConditionDuration_duration] ﺓﺪﻤﻟ [map_definite] ﻝﻮﺣ ﺔﻘﻄﻨﻤﻟﺍ\nﻲﻓ ﺔﻴﻧﺍﻮﻴﺤﻟﺍﻭ ﺔﻴﺗﺎﺒﻨﻟﺍ ﺓﺎﻴﺤﻟﺍ\nﺝﺭﺎﺨﻟﺍ</ToxicFallout.descriptionFuture>
+  <!-- EN: The worst of the toxic fallout has settled. -->
+  <ToxicFallout.endMessage>.ﻡﺎﺴﻟﺍ ﻂﻗﺎﺴﺘﻟﺍ ﺃﻮﺳﺃ ﺮﻘﺘﺳﺍ</ToxicFallout.endMessage>
+  <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to nearly a quadrum. -->
+  <ToxicFallout.letterText>ﺍًﺩﻮﻤﻋ ﺪﻴﻌﺑ ﻲﺋﺎﻴﻤﻴﻛ ﻖﻳﺮﺣ ﻖﻠﻃﺃ\nﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻰﻠﻋ ﻢﺴﻟﺍ ﻦﻣ\n.ﺎﻬﻠﻤﻛﺄﺑ\n\nﻒﻘﺳ ﺖﺤﺗ ﺲﻴﻟ ﻕﻮﻠﺨﻣ ﻭﺃ ﺺﺨﺷ ﻱﺃ\nﻡﺎﺴﻟﺍ ﺭﺎﺒﻐﻟﺍ ﺐﺒﺴﺑ ﺀﻂﺒﺑ ﺽﺮﻤﻴﺳ\n.ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻦﻣ ﺐﺳﺮﺘﻤﻟﺍ\n\nﺔﻌﻀﺑ ﻦﻴﺑ ﻥﺎﻜﻣ ﻱﺃ ﻲﻓ ﺮﻤﺘﺴﻴﺳ\n.ﻡﺎﻋ ﻊﺑﺭ ﻦﻣ ﺏﺮﻘﻳ ﺎﻣ ﻰﻟﺇ ﻡﺎﻳﺃ</ToxicFallout.letterText>
+  
+  <!-- EN: volcanic winter -->
+  <VolcanicWinter.label>ﻲﻧﺎﻛﺮﺑ ﺀﺎﺘﺷ</VolcanicWinter.label>
+  <!-- EN: Some distant volcano or fire is choking the atmosphere with ash, significantly reducing the amount of light which reaches the surface. Temperatures will be colder and plants will grow slower. -->
+  <VolcanicWinter.description>ﻑﻼﻐﻟﺍ ﺪﻴﻌﺑ ﻖﻳﺮﺣ ﻭﺃ ﻥﺎﻛﺮﺑ ﻖﻨﺨﻳ\nﻞﻜﺸﺑ ﻞﻠﻘﻳ ﺎﻤﻣ ،ﺩﺎﻣﺮﻟﺎﺑ ﻱﻮﺠﻟﺍ\nﻞﺼﺗ ﻲﺘﻟﺍ ﺀﻮﻀﻟﺍ ﺔﻴﻤﻛ ﻦﻣ ﺮﻴﺒﻛ\nﺓﺭﺍﺮﺤﻟﺍ ﺕﺎﺟﺭﺩ ﻥﻮﻜﺘﺳ .ﺢﻄﺴﻟﺍ ﻰﻟﺇ\nﺕﺎﺗﺎﺒﻨﻟﺍ ﻮﻤﻨﺘﺳﻭ ﺓﺩﻭﺮﺑ ﺮﺜﻛﺃ\n.ﺄﻄﺑﺃ</VolcanicWinter.description>
+  <!-- EN: a layer of ash will be deposited in the upper atmosphere, reducing sunlight around [map_definite] for [gameConditionDuration_duration], seriously harming the local ecosystem -->
+  <VolcanicWinter.descriptionFuture>ﻑﻼﻐﻟﺍ ﻲﻓ ﺩﺎﻣﺮﻟﺍ ﻦﻣ ﺔﻘﺒﻃ ﺐﺳﺮﺘﺘﺳ\nﺀﻮﺿ ﻦﻣ ﻞﻠﻘﻳ ﺎﻤﻣ ،ﻱﻮﻠﻌﻟﺍ ﻱﻮﺠﻟﺍ\nﺮﻀﻳ ﺎﻤﻣ ،[gameConditionDuration_duration] ﺓﺪﻤﻟ [map_definite] ﻝﻮﺣ ﺲﻤﺸﻟﺍ\nﻲﺌﻴﺒﻟﺍ ﻡﺎﻈﻨﻟﺎﺑ ﺮﻴﻄﺧ ﻞﻜﺸﺑ\nﻲﻠﺤﻤﻟﺍ</VolcanicWinter.descriptionFuture>
+  <!-- EN: Most of the ash has settled. -->
+  <VolcanicWinter.endMessage>.ﺩﺎﻣﺮﻟﺍ ﻢﻈﻌﻣ ﺮﻘﺘﺳﺍ</VolcanicWinter.endMessage>
+  <!-- EN: Some distant volcano or fire has begun spewing massive quantities of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
+  <VolcanicWinter.letterText>ﻕﻼﻃﺇ ﻲﻓ ﺪﻴﻌﺑ ﻖﻳﺮﺣ ﻭﺃ ﻥﺎﻛﺮﺑ ﺃﺪﺑ\nﻰﻟﺇ ﺩﺎﻣﺮﻟﺍ ﻦﻣ ﺔﻠﺋﺎﻫ ﺕﺎﻴﻤﻛ\n.ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ\n\nﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻲﻓ ﺩﺎﻣﺮﻟﺍ ﺐﺠﺤﻴﺳ\nﺓﺭﺍﺮﺤﻟﺍ ﺕﺎﺟﺭﺩ ﺾﻔﺨﻨﺘﺳ .ﺲﻤﺸﻟﺍ\nﺀﻮﺿ ﺺﻘﻧ ﻦﻣ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻲﻧﺎﻌﺘﺳﻭ\n،ﻊﻴﺑﺎﺳﺃ ﺔﻌﻀﺑ ﻲﻓ ﺮﻤﻳ ﺪﻗ .ﺲﻤﺸﻟﺍ\n.ﺓﺪﻳﺪﻋ ﻉﺎﺑﺭﻷ ﺮﻤﺘﺴﻳ ﺪﻗ ﻭﺃ</VolcanicWinter.letterText>
+  
+</LanguageData>

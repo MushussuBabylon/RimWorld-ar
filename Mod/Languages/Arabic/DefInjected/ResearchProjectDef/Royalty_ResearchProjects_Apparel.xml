@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cataphract armor -->
+  <CataphractArmor.label>ﺖﻛﺍﺮﻓﺎﺗﺎﻛ ﻉﺭﺩ</CataphractArmor.label>
+  <!-- EN: Craft cataphract armor, heavy powered armor that slows the user but which can absorb extreme punishment. Note that these also require advanced components. -->
+  <CataphractArmor.description>ﺯﺰﻌﻣ ﻉﺭﺩ ،ﺖﻛﺍﺮﻓﺎﺗﺎﻛ ﻉﺭﺩ ﻊﻨﺻ\nﺭﺩﺎﻗ ﻪﻨﻜﻟ ﻡﺪﺨﺘﺴﻤﻟﺍ ﺊﻄﺒﻳ ﻞﻴﻘﺛ\nﻆﺣﻻ .ﻯﻮﺼﻗ ﺭﺍﺮﺿﺃ ﺹﺎﺼﺘﻣﺍ ﻰﻠﻋ\n.ﺓﺭﻮﻄﺘﻣ ﻊﻄﻗ ﺐﻠﻄﺘﺗ ﺎﻬﻧﺃ</CataphractArmor.description>
+  <!-- EN:
+    <li>subject->cataphract armor</li>
+    <li>subject_story->first developed [ANYPAWN_possessive] cataphract-equivalent armor as a method of exploring active volcanoes</li>
+    <li>subject_story->was commissioned to produce custom sets of cataphract armor for Imperial boarding parties</li>
+    <li>subject_story->fought with the rebels and studied the armor of a captured cataphract</li>
+    <li>subject_gerund->crafting cataphract armor</li>
+  -->
+  <CataphractArmor.generalRules.rulesStrings>
+    <li>subject-&gt;ﺖﻛﺍﺮﻓﺎﺗﺎﻛ ﻉﺭﺩ</li>
+    <li>subject_story-&gt;ﻝﺩﺎﻌﻤﻟﺍ ﻪﻋﺭﺩ ﺓﺮﻣ ﻝﻭﻷ ﺭﻮﻃ\nﻑﺎﺸﻜﺘﺳﻻ ﺔﻠﻴﺳﻮﻛ ﺖﻛﺍﺮﻓﺎﺗﺎﻜﻠﻟ\nﺔﻄﺸﻨﻟﺍ ﻦﻴﻛﺍﺮﺒﻟﺍ</li>
+    <li>subject_story-&gt;ﻉﻭﺭﺩ ﻢﻘﻃﺃ ﺝﺎﺘﻧﺈﺑ ﻪﻔﻴﻠﻜﺗ ﻢﺗ\nﻡﺎﺤﺘﻗﻻﺍ ﺕﺍﺪﺣﻮﻟ ﺔﺼﺼﺨﻣ ﺖﻛﺍﺮﻓﺎﺗﺎﻛ\nﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ</li>
+    <li>subject_story-&gt;ﺱﺭﺩﻭ ﻦﻳﺩﺮﻤﺘﻤﻟﺍ ﺐﻧﺎﺟ ﻰﻟﺇ ﻞﺗﺎﻗ\nﻩﺮﺳﺃ ﻢﺗ ﺖﻛﺍﺮﻓﺎﺗﺎﻛ ﻉﺭﺩ</li>
+    <li>subject_gerund-&gt;ﺖﻛﺍﺮﻓﺎﺗﺎﻛ ﻉﺭﺩ ﻊﻨﺻ</li>
+ </CataphractArmor.generalRules.rulesStrings>
+  
+  <!-- EN: gunlink -->
+  <Gunlink.label>ﺔﻴﻗﺪﻨﺒﻟﺍ ﻂﺑﺍﺭ</Gunlink.label>
+  <!-- EN: Build wearable gunlinks to enhance your soldiers' shooting accuracy. -->
+  <Gunlink.description>ﺀﺍﺪﺗﺭﻼﻟ ﺔﻠﺑﺎﻗ ﻕﺩﺎﻨﺑ ﻂﺑﺍﻭﺭ ﺀﺎﻨﺑ\n.ﻙﺩﻮﻨﺠﻟ ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﺔﻗﺩ ﻦﻴﺴﺤﺘﻟ</Gunlink.description>
+  <!-- EN:
+    <li>subject->accuracy enhancement</li>
+    <li>subject_story->converted a glitterworld ocular implant into a more generic targeting computer</li>
+    <li>subject_story->was happy at the performance of the factory's gunlinks, though the increased death rate due to helmet loss was troubling</li>
+    <li>subject_story->bulk-purchased gunlinks for the snipers in the army, forbidding them to front-line soldiers</li>
+    <li>subject_gerund->enhancing accuracy with gunlinks</li>
+  -->
+  <Gunlink.generalRules.rulesStrings>
+    <li>subject-&gt;ﺔﻗﺪﻟﺍ ﻦﻴﺴﺤﺗ</li>
+    <li>subject_story-&gt;ﻰﻟﺇ ﻊﻣﻻ ﻢﻟﺎﻋ ﻦﻣ ﺔﻳﺮﺼﺑ ﺔﺳﺮﻏ ﻝﻮﺣ\nﻡﺎﻋ ﺐﻳﻮﺼﺗ ﺐﺳﺎﺣ</li>
+    <li>subject_story-&gt;ﻕﺩﺎﻨﺒﻟﺍ ﻂﺑﺍﻭﺭ ﺀﺍﺩﺄﺑ ًﺍﺪﻴﻌﺳ ﻥﺎﻛ\nﺕﺎﻴﻓﻮﻟﺍ ﻝﺪﻌﻣ ﻥﺃ ﻢﻏﺭ ،ﻊﻨﺼﻤﻟﺍ ﻲﻓ\nﻥﺎﻛ ﺓﺫﻮﺨﻟﺍ ﻥﺍﺪﻘﻓ ﺐﺒﺴﺑ ﺪﻳﺍﺰﺘﻤﻟﺍ\nًﺎﻘﻠﻘﻣ</li>
+    <li>subject_story-&gt;ﺓﺮﻴﺒﻛ ﺕﺎﻴﻤﻜﺑ ﻕﺩﺎﻨﺑ ﻂﺑﺍﻭﺭ ﻯﺮﺘﺷﺍ\nﺩﻮﻨﺟ ًﺎﻌﻧﺎﻣ ،ﺶﻴﺠﻟﺍ ﺔﺻﺎﻨﻘﻟ\nﺎﻬﻨﻣ ﺔﻴﻣﺎﻣﻷﺍ ﻁﻮﻄﺨﻟﺍ</li>
+    <li>subject_gerund-&gt;ﺔﻴﻗﺪﻨﺒﻟﺍ ﺕﻼﺻﻮﺑ ﺔﻗﺪﻟﺍ ﺰﻳﺰﻌﺗ</li>
+ </Gunlink.generalRules.rulesStrings>
+  
+  <!-- EN: jump packs -->
+  <JumpPack.label>ﺰﻔﻘﻟﺍ ﻡﺰﺣ</JumpPack.label>
+  <!-- EN: Build jump packs to perform aerial assaults during combat. -->
+  <JumpPack.description>ﺕﺎﻤﺠﻫ ﺬﻴﻔﻨﺘﻟ ﺰﻔﻘﻟﺍ ﻡﺰﺣ ﺀﺎﻨﺑ\n.ﻝﺎﺘﻘﻟﺍ ﺀﺎﻨﺛﺃ ﺔﻳﻮﺟ</JumpPack.description>
+  <!-- EN:
+    <li>subject->jump packs</li>
+    <li>subject->short-distance flight</li>
+    <li>subject_story->operated an entertainment park focused on extreme experiences, including boomrat petting and jump pack courses</li>
+    <li>subject_story->ran mountaineering tours on low-grav planets, where jump packs and oxygen masks were mandatory</li>
+    <li>subject_story->bypassed the turret defenses of officer training with a jump pack assault</li>
+    <li>subject_gerund->performing aerial assaults</li>
+    <li>subject_gerund->crafting jump packs</li>
+  -->
+  <JumpPack.generalRules.rulesStrings>
+    <li>subject-&gt;ﺰﻔﻘﻟﺍ ﻡﺰﺣ</li>
+    <li>subject-&gt;ﻯﺪﻤﻟﺍ ﺮﻴﺼﻗ ﻥﺍﺮﻴﻃ</li>
+    <li>subject_story-&gt;ﻰﻠﻋ ﺰﻛﺮﺗ ٍﻩﻼﻣ ﺔﻨﻳﺪﻣ ﺭﺍﺩﺃ\nﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺔﻓﺮﻄﺘﻤﻟﺍ ﺏﺭﺎﺠﺘﻟﺍ\nﺓﺮﺠﻔﺘﻤﻟﺍ ﻥﺍﺮﺌﻔﻟﺍ ﺔﺒﻋﺍﺪﻣ ﺔﻘﺑﺎﺴﻣ\nﺰﻔﻘﻟﺍ ﻡﺰﺣ ﻡﺍﺪﺨﺘﺳﺍ ﺕﺍﺭﻭﺩﻭ</li>
+    <li>subject_story-&gt;ﺐﻛﺍﻮﻛ ﻰﻠﻋ ﻝﺎﺒﺟ ﻖﻠﺴﺗ ﺕﻼﺣﺭ ﻢﻈﻧ\nﻡﺰﺣ ﺖﻧﺎﻛ ﺚﻴﺣ ،ﺔﻴﺑﺫﺎﺠﻟﺍ ﺔﻀﻔﺨﻨﻣ\nﺔﻴﻣﺍﺰﻟﺇ ﻦﻴﺠﺴﻛﻭﻷﺍ ﺔﻌﻨﻗﺃﻭ ﺰﻔﻘﻟﺍ</li>
+    <li>subject_story-&gt;ﺐﻳﺭﺪﺗ ﻲﻓ ﺝﺍﺮﺑﻷﺍ ﺕﺎﻋﺎﻓﺩ ﺯﻭﺎﺠﺗ\nﺰﻔﻗ ﺔﻣﺰﺤﺑ ﻡﻮﺠﻫ ﺮﺒﻋ ﻁﺎﺒﻀﻟﺍ</li>
+    <li>subject_gerund-&gt;ﺔﻳﻮﺟ ﺕﺎﻤﺠﻫ ﺬﻴﻔﻨﺗ</li>
+    <li>subject_gerund-&gt;ﺰﻔﻘﻟﺍ ﻡﺰﺣ ﻊﻨﺻ</li>
+ </JumpPack.generalRules.rulesStrings>
+  
+  <!-- EN: noble apparel -->
+  <NobleApparel.label>ﺀﻼﺒﻨﻟﺍ ﺲﺑﻼﻣ</NobleApparel.label>
+  <!-- EN: Tailor noble-specific apparel like formal shirts and top hats. -->
+  <NobleApparel.description>ﺀﻼﺒﻨﻟﺎﺑ ﺔﺻﺎﺧ ﺲﺑﻼﻣ ﺔﻃﺎﻴﺧ\nﺕﺎﻌﺒﻘﻟﺍﻭ ﺔﻴﻤﺳﺮﻟﺍ ﻥﺎﺼﻤﻘﻟﺎﻛ\n.ﺔﻴﻧﺍﻮﻄﺳﻷﺍ</NobleApparel.description>
+  <!-- EN:
+    <li>subject->formal apparel</li>
+    <li>subject->noble apparel</li>
+    <li>subject_story->crafted formal corsetry for urbworld student graduations</li>
+    <li>subject_story->was employed by a noble house to shape its top hats</li>
+    <li>subject_story->invented a new style of beret that was all the rage for an entire season</li>
+    <li>subject_gerund->tailoring for the nobility</li>
+    <li>subject_gerund->crafting noble apparel</li>
+  -->
+  <NobleApparel.generalRules.rulesStrings>
+    <li>subject-&gt;ﺔﻴﻤﺳﺭ ﺲﺑﻼﻣ</li>
+    <li>subject-&gt;ﺀﻼﺒﻨﻟﺍ ﺲﺑﻼﻣ</li>
+    <li>subject_story-&gt;ﺏﻼﻃ ﺝﺮﺨﺘﻟ ﺔﻴﻤﺳﺭ ﺕﺍﺪﺸﻣ ﻊﻨﺻ\nﻱﺮﻀﺤﻟﺍ ﻢﻟﺎﻌﻟﺍ</li>
+    <li>subject_story-&gt;ﻞﻴﻜﺸﺘﻟ ﻞﻴﺒﻧ ﺖﻴﺑ ﻯﺪﻟ ﻦﻴُﻋ\nﺔﻴﻧﺍﻮﻄﺳﻷﺍ ﻪﺗﺎﻌﺒﻗ</li>
+    <li>subject_story-&gt;ﻪﻳﺮﻴﺒﻟﺍ ﻦﻣ ًﺍﺪﻳﺪﺟ ًﺎﻄﻤﻧ ﻉﺮﺘﺧﺍ\nﻞﻣﺎﻛ ﻢﺳﻮﻣ ﺔﻠﻴﻃ ﺔﺠﺿ ﺙﺪﺣﺃ</li>
+    <li>subject_gerund-&gt;ﺀﻼﺒﻨﻠﻟ ﺔﻃﺎﻴﺨﻟﺍ</li>
+    <li>subject_gerund-&gt;ﺀﻼﺒﻨﻟﺍ ﺲﺑﻼﻣ ﻊﻨﺻ</li>
+ </NobleApparel.generalRules.rulesStrings>
+  
+  <!-- EN: royal apparel -->
+  <RoyalApparel.label>ﺔﻴﻜﻠﻣ ﺲﺑﻼﻣ</RoyalApparel.label>
+  <!-- EN: Tailor royal apparel of the highest tier, like royal robes and crowns. -->
+  <RoyalApparel.description>،ﺔﺌﻓ ﻰﻠﻋﺃ ﻦﻣ ﺔﻴﻜﻠﻣ ﺲﺑﻼﻣ ﺔﻃﺎﻴﺧ\n.ﻥﺎﺠﻴﺘﻟﺍﻭ ﺔﻴﻜﻠﻤﻟﺍ ﺔﻳﺩﺭﻷﺎﻛ</RoyalApparel.description>
+  <!-- EN:
+    <li>subject->royal apparel</li>
+    <li>subject_story->worked for an entire year to create royal robes for a coronation</li>
+    <li>subject_story->studied the heraldric requirements of different noble groups to ensure any outfits were appropriate</li>
+    <li>subject_story->was raised to the Imperial nobility and commissioned their own robes and coronet</li>
+    <li>subject_gerund->tailoring for monarchs</li>
+    <li>subject_gerund->crafting royal apparel</li>
+  -->
+  <RoyalApparel.generalRules.rulesStrings>
+    <li>subject-&gt;ﺔﻴﻜﻠﻣ ﺲﺑﻼﻣ</li>
+    <li>subject_story-&gt;ﺔﻳﺩﺭﺃ ﻊﻨﺼﻟ ﺔﻠﻣﺎﻛ ﺔﻨﺳ ﺓﺪﻤﻟ ﻞﻤﻋ\nﺞﻳﻮﺘﺗ ﻞﻔﺤﻟ ﺔﻴﻜﻠﻣ</li>
+    <li>subject_story-&gt;ﺔﻳﺭﺎﻌﺸﻟﺍ ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﺱﺭﺩ\nﻥﺎﻤﻀﻟ ﺔﻔﻠﺘﺨﻣ ﺔﻠﻴﺒﻧ ﺕﺎﻋﻮﻤﺠﻤﻟ\nﻱﺯ ﻱﺃ ﺔﺒﺳﺎﻨﻣ</li>
+    <li>subject_story-&gt;ﺀﻼﺒﻨﻟﺍ ﺔﻘﺒﻃ ﻰﻟﺇ ﻊﻓُﺭ\nﻪﺘﻳﺩﺭﺃ ﻊﻨﺼﺑ ﻒﻠﻛﻭ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ\nﻪﺟﺎﺗﻭ</li>
+    <li>subject_gerund-&gt;ﺔﻟﻼﺠﻟﺍ ﺏﺎﺤﺻﻷ ﺔﻃﺎﻴﺨﻟﺍ</li>
+    <li>subject_gerund-&gt;ﺔﻴﻜﻠﻤﻟﺍ ﺲﺑﻼﻤﻟﺍ ﻊﻨﺻ</li>
+ </RoyalApparel.generalRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Received {TITLE} title -->
+  <GainedTitle.stages.Received_title.label>{TITLE} ﺐﻘﻟ ﻰﻠﻋ ﻞﺼﺣ</GainedTitle.stages.Received_title.label>
+  <!-- EN: I have been given the title of {TITLE}. I love the recognition! -->
+  <GainedTitle.stages.Received_title.description>!ﺮﻳﺪﻘﺘﻟﺍ ﺐﺣﺃ .{TITLE} ﺐﻘﻟ ﺖﺤﻨُﻣ ﺪﻘﻟ</GainedTitle.stages.Received_title.description>
+  
+  <!-- EN: Lost {TITLE} title -->
+  <LostTitle.stages.Lost_title.label>{TITLE} ﺐﻘﻟ ﺪﻘﻓ</LostTitle.stages.Lost_title.label>
+  <!-- EN: I lost my {TITLE} title. -->
+  <LostTitle.stages.Lost_title.description>.ﻲﺑ ﺹﺎﺨﻟﺍ {TITLE} ﺐﻘﻟ ﺕﺪﻘﻓ</LostTitle.stages.Lost_title.description>
+  
+  <!-- EN: want {TITLE_label}-quality apparel -->
+  <TitleApparelMinQualityNotMet.stages.want_quality_apparel.label>{TITLE_label} ﺓﺩﻮﺠﺑ ﺲﺑﻼﻣ ﺪﻳﺮﻳ</TitleApparelMinQualityNotMet.stages.want_quality_apparel.label>
+  <!-- EN: {TITLE_indefinite} like myself should only wear apparel of {QUALITY} quality or better. -->
+  <TitleApparelMinQualityNotMet.stages.want_quality_apparel.description>ﺲﺑﻼﻣ ﻂﻘﻓ ﻱﺪﺗﺮﻳ ﻥﺃ ﺐﺠﻳ ﻲﻠﺜﻣ {TITLE_indefinite}\n.ﻞﻀﻓﺃ ﻭﺃ {QUALITY} ﺓﺩﻮﺠﺑ</TitleApparelMinQualityNotMet.stages.want_quality_apparel.description>
+  
+  <!-- EN: want {TITLE_label}-specific apparel -->
+  <TitleApparelRequirementNotMet.stages.want_specific_apparel.label>{TITLE_label}ـﺑ ﺔﺻﺎﺧ ﺲﺑﻼﻣ ﺪﻳﺮﻳ</TitleApparelRequirementNotMet.stages.want_specific_apparel.label>
+  <!-- EN: {TITLE_indefinite} like myself should be covered in apparel appropriate to my stature:\n\n{0} -->
+  <TitleApparelRequirementNotMet.stages.want_specific_apparel.description>ﺲﺑﻼﻤﺑ ﻰﻄﻐﻣ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ ﻲﻠﺜﻣ {TITLE_indefinite}\n:ﻲﻣﺎﻘﻤﻟ ﺔﺒﺳﺎﻨﻣ\n\n{0}</TitleApparelRequirementNotMet.stages.want_specific_apparel.description>
+  
+  <!-- EN: undignified bedroom -->
+  <TitleBedroomRequirementsNotMet.stages.undignified_bedroom.label>ﺔﻘﺋﻻ ﺮﻴﻏ ﻡﻮﻧ ﺔﻓﺮﻏ</TitleBedroomRequirementsNotMet.stages.undignified_bedroom.label>
+  <!-- EN: {TITLE_indefinite} like myself deserves a bedroom that meets these requirements:\n\n{0} -->
+  <TitleBedroomRequirementsNotMet.stages.undignified_bedroom.description>ﻩﺬﻫ ﻲﺒﻠﺗ ﻡﻮﻧ ﺔﻓﺮﻏ ﻖﺤﺘﺴﻳ ﻲﻠﺜﻣ {TITLE_indefinite}\n:ﺕﺎﺒﻠﻄﺘﻤﻟﺍ\n\n{0}</TitleBedroomRequirementsNotMet.stages.undignified_bedroom.description>
+  
+  <!-- EN: no personal bedroom -->
+  <TitleNoPersonalBedroom.stages.no_personal_bedroom.label>ﺔﻴﺼﺨﺷ ﻡﻮﻧ ﺔﻓﺮﻏ ﻻ</TitleNoPersonalBedroom.stages.no_personal_bedroom.label>
+  <!-- EN: {TITLE_indefinite} should have a personal bedroom. -->
+  <TitleNoPersonalBedroom.stages.no_personal_bedroom.description>ﻡﻮﻧ ﺔﻓﺮﻏ ﻪﻳﺪﻟ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ {TITLE_indefinite}\n.ﺔﻴﺼﺨﺷ</TitleNoPersonalBedroom.stages.no_personal_bedroom.description>
+  
+  <!-- EN: no throne room -->
+  <TitleNoThroneRoom.stages.no_throne_room.label>ﺵﺮﻋ ﺔﻓﺮﻏ ﻻ</TitleNoThroneRoom.stages.no_throne_room.label>
+  <!-- EN: What is a royal with no throneroom? -->
+  <TitleNoThroneRoom.stages.no_throne_room.description>؟ﺵﺮﻋ ﺔﻓﺮﻏ ﻥﻭﺪﺑ ﻲﻜﻠﻤﻟﺍ ﻮﻫ ﺎﻣ</TitleNoThroneRoom.stages.no_throne_room.description>
+  
+  <!-- EN: undignified throneroom -->
+  <TitleThroneroomRequirementsNotMet.stages.undignified_throneroom.label>ﺔﻘﺋﻻ ﺮﻴﻏ ﺵﺮﻋ ﺔﻓﺮﻏ</TitleThroneroomRequirementsNotMet.stages.undignified_throneroom.label>
+  <!-- EN: I am {TITLE_indefinite} and I should have these items in my throneroom:\n\n{0} -->
+  <TitleThroneroomRequirementsNotMet.stages.undignified_throneroom.description>ﻩﺬﻫ ﻱﺪﻟ ﺮﻓﻮﺘﺗ ﻥﺃ ﺐﺠﻳﻭ {TITLE_indefinite} ﺎﻧﺃ\n:ﻲﺷﺮﻋ ﺔﻓﺮﻏ ﻲﻓ ﺀﺎﻴﺷﻷﺍ\n\n{0}</TitleThroneroomRequirementsNotMet.stages.undignified_throneroom.description>
+  
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task. You'll receive the rewards when you finish construction.[dontDestroyMonument]</li>
+    <li>dontDestroyMonument(priority=-10)-></li>
+    <li>dontDestroyMonument->\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days of construction, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
+  -->
+  <BuildMonument_Basic.questDescriptionRules.rulesStrings>
+    <li>commonEnding-&gt;ﻩﺬﻫ ﺐﻠﻄﺘﻴﺳﻭ [monumentSize] ﻢﺠﺤﺑ ﺐﺼﻨﻟﺍ\n:([monumentRequiredResourcesMarketValue_money] ﺔﻴﻟﺎﻤﺟﻹﺍ ﺔﻤﻴﻘﻟﺍ) ﺩﺭﺍﻮﻤﻟﺍ\n\n[monumentRequiredResources]\n\nﻝﻮﺒﻗ ﻦﻣ [constructionTimeoutTicks_duration] ﻝﻼﺧ ﺀﺎﻨﺒﻟﺍ ﻝﺎﻤﻛﺇ ﺐﺠﻳ\nﺪﻨﻋ ﺕﺂﻓﺎﻜﻤﻟﺍ ﻰﻘﻠﺘﺘﺳ .ﺔﻤﻬﻤﻟﺍ\n[dontDestroyMonument].ﺀﺎﻨﺒﻟﺍ ﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ</li>
+    <li>dontDestroyMonument(priority=-10)-&gt;</li>
+    <li>dontDestroyMonument-&gt;\n\nﻡﻮﻳ [keepMonumentTicks_duration] ﻝﻼﺧ ﺐﺼﻨﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ ﺍﺫﺇ\n[asker_factionName] ﻊﻣ ﻚﺗﺎﻗﻼﻋ ﺾﻔﺨﻨﺘﺳ ،ﺀﺎﻨﺒﻟﺍ ﻦﻣ\n.[goodwillChangeIfMonumentDestroyed] ﺭﺍﺪﻘﻤﺑ</li>
+ </BuildMonument_Basic.questDescriptionRules.rulesStrings>
+  
+</LanguageData>

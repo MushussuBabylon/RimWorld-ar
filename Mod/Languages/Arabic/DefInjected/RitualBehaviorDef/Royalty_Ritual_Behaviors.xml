@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: linker -->
+  <AnimaTreeLinking.roles.0.label>ﻂﺑﺍﺮﻟﺍ</AnimaTreeLinking.roles.0.label>
+  <!-- EN: Only adults can link with an anima tree. -->
+  <AnimaTreeLinking.roles.0.customChildDisallowMessage>ﻁﺎﺒﺗﺭﻻﺍ ﻢﻬﻨﻜﻤﻳ ﻂﻘﻓ ﻥﻮﻐﻟﺎﺒﻟﺍ\n.ﺎﻤﻴﻧﻷﺍ ﺓﺮﺠﺸﺑ</AnimaTreeLinking.roles.0.customChildDisallowMessage>
+  <!-- EN: Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf. -->
+  <AnimaTreeLinking.roles.0.noCandidatesGizmoDesc>ﺰﻴﻛﺮﺗ ﻉﻮﻧ ﻱﺫ ﺮﻤﻌﺘﺴﻣ ﻰﻟﺇ ﺝﺎﺘﺤﺗ\nﻦﻣ ﻞﻗﺃ ﻥﻮﻜﻳﻭ ﻲﻌﻴﺒﻃ ﻞﻣﺄﺗ\nﻲﺴﻔﻨﻟﺍ ﻂﺑﺍﺮﻠﻟ ﻰﺼﻗﻷﺍ ﻯﻮﺘﺴﻤﻟﺍ\n.ًﺎﻴﺴﻔﻧ ﻢﺻﺃ ﺲﻴﻟﻭ</AnimaTreeLinking.roles.0.noCandidatesGizmoDesc>
+  <!-- EN: Must have natural focus type. -->
+  <AnimaTreeLinking.spectatorFilter.description>.ﻲﻌﻴﺒﻃ ﺰﻴﻛﺮﺗ ﻉﻮﻧ ﻚﻠﺘﻤﻳ ﻥﺃ ﺐﺠﻳ</AnimaTreeLinking.spectatorFilter.description>
+  <!-- EN: participate -->
+  <AnimaTreeLinking.spectatorGerund>ﺔﻛﺭﺎﺸﻤﻟﺍ</AnimaTreeLinking.spectatorGerund>
+  <!-- EN: Participants -->
+  <AnimaTreeLinking.spectatorsLabel>ﻥﻮﻛﺭﺎﺸﻤﻟﺍ</AnimaTreeLinking.spectatorsLabel>
+  
+  <!-- EN: {ORGANIZER_labelShort} is giving a speech from the throne.\n\nIf all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
+  <ThroneSpeech.letterText>.ﺵﺮﻌﻟﺍ ﻦﻣ ًﺎﺑﺎﻄﺧ ﻲﻘﻠﻳ {ORGANIZER_labelShort}\n\nﺮﻌﺸﻴﺳ ،ﺪﻴﺟ ﻞﻜﺸﺑ ﺮﻣﻷﺍ ﺭﺎﺳ ﺍﺫﺇ\nﻥﻮﺒﺴﺘﻜﻳﻭ ،ﻡﺎﻬﻟﻹﺎﺑ ﻥﻮﻌﻤﺘﺴﻤﻟﺍ\n،ﺮﻣﻷﺍ ﺀﺎﺳ ﺍﺫﺇ .{ORGANIZER_labelShort}ـﻟ ًﺎﻣﺍﺮﺘﺣﺍ\n.ﻲﻋﺎﻤﺘﺟﺍ ﺭﺮﻀﺑ ﺏﺎﻄﺨﻟﺍ ﺐﺒﺴﺘﻴﺴﻓ\n{ORGANIZER_labelShort} ﺕﺍﺭﺪﻗ ﻰﻠﻋ ﺔﺠﻴﺘﻨﻟﺍ ﺪﻤﺘﻌﺗ\n.ﺔﻴﻋﺎﻤﺘﺟﻻﺍ</ThroneSpeech.letterText>
+  <!-- EN: Speech from the throne -->
+  <ThroneSpeech.letterTitle>ﺵﺮﻌﻟﺍ ﻦﻣ ﺏﺎﻄﺧ</ThroneSpeech.letterTitle>
+  <!-- EN: organizer -->
+  <ThroneSpeech.roles.0.label>ﻢﻈﻨﻤﻟﺍ</ThroneSpeech.roles.0.label>
+  
+</LanguageData>

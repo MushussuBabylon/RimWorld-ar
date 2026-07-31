@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: psychic ritual -->
+  <PsychicRitual>ﻲﺴﻔﻧ ﺲﻘﻃ</PsychicRitual>
+  <!-- EN: Begin psychic ritual -->
+  <CastPsychicRitual>ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺀﺪﺑ</CastPsychicRitual>
+  <!-- EN: Select a psychic ritual to perform -->
+  <CastPsychicRitualDesc>ﻪﺋﺍﺩﻷ ﺎًﻴﺴﻔﻧ ﺎًﺴﻘﻃ ﺮﺘﺧﺍ</CastPsychicRitualDesc>
+  <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
+  <CannotCastPsychicRitual>ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺀﺍﺩﺃ {0_labelShort} ـﻟ ﻦﻜﻤﻳ ﻻ\n.{2} ﻥﻷ {1}</CannotCastPsychicRitual>
+  <!-- EN: The {0} psychic ritual has begun. -->
+  <PsychicRitualBegun>.{0} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺃﺪﺑ</PsychicRitualBegun>
+  <!-- EN: The {0} psychic ritual has been completed. -->
+  <PsychicRitualCompleted>.{0} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﻞﻤﺘﻛﺍ</PsychicRitualCompleted>
+  <!-- EN: attending {RITUALNAME} psychic ritual -->
+  <PsychicRitualAttending>{RITUALNAME} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺮﻀﺤﻳ</PsychicRitualAttending>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
+  <ParticipatingInPsychicRitual>.{1} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﻲﻓ ﻙﺭﺎﺸﻳ {0_labelShort}</ParticipatingInPsychicRitual>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
+  <AbilityDisabledInPsychicRitual>.{1} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﻲﻓ ﻙﺭﺎﺸﻳ {0_labelShort}</AbilityDisabledInPsychicRitual>
+  <!-- EN: choose a location -->
+  <PsychicRitual_LocationTargetting>ﺎًﻌﻗﻮﻣ ﺮﺘﺧﺍ</PsychicRitual_LocationTargetting>
+  <!-- EN: total quality -->
+  <PsychicRitualExpectedQualityLabel>ﺔﻴﻠﻜﻟﺍ ﺓﺩﻮﺠﻟﺍ</PsychicRitualExpectedQualityLabel>
+  <!-- EN: quality factors -->
+  <PsychicRitualQualityFactorLabel>ﺓﺩﻮﺠﻟﺍ ﻞﻣﺍﻮﻋ</PsychicRitualQualityFactorLabel>
+  <!-- EN: duration -->
+  <PsychicRitualExpectedDurationLabel>ﺓﺪﻤﻟﺍ</PsychicRitualExpectedDurationLabel>
+  <!-- EN: required offering -->
+  <PsychicRitualRequiredOffering>ﺏﻮﻠﻄﻤﻟﺍ ﻥﺎﺑﺮﻘﻟﺍ</PsychicRitualRequiredOffering>
+  <!-- EN: Caused by psychic ritual -->
+  <CausedByPsychicRitual>ﻲﺴﻔﻧ ﺲﻘﻃ ﺐﺒﺴﺑ</CausedByPsychicRitual>
+  <!-- EN: Cooldown -->
+  <PsychicRitualCooldownLabel>ﺔﺋﺪﻬﺗ ﺓﺮﺘﻓ</PsychicRitualCooldownLabel>
+
+  <!-- EN: Psychic ritual area obstructed. -->
+  <PsychicRitualSpotObstructed>.ﺓﺩﻭﺪﺴﻣ ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺔﻘﻄﻨﻣ</PsychicRitualSpotObstructed>
+  <!-- EN: psychic ritual on cooldown. It will be available in {0}. -->
+  <PsychicRitualOnCooldown>.ﺔﺋﺪﻬﺗ ﺓﺮﺘﻓ ﻲﻓ ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ\n.{0} ﻝﻼﺧ ﺎًﺣﺎﺘﻣ ﻥﻮﻜﻴﺳ</PsychicRitualOnCooldown>
+  <!-- EN: The {0} psychic ritual can be performed again. -->
+  <PsychicRitualCanBeCastAgain>ﺓﺮﻣ {0} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺀﺍﺩﺃ ﻦﻜﻤﻳ\n.ﻯﺮﺧﺃ</PsychicRitualCanBeCastAgain>
+  <!-- EN: No basic anomaly research project selected. -->
+  <NoBasicResearchForPsychicRitual>ﻲﺳﺎﺳﺃ ﺫﻭﺬﺷ ﺚﺤﺑ ﻉﻭﺮﺸﻣ ﺪﺟﻮﻳ ﻻ\n.ﺩﺪﺤﻣ</NoBasicResearchForPsychicRitual>
+  <!-- EN: Must perform {0} psychic ritual on the surface. -->
+  <CantCastOnPocketMap>ﻰﻠﻋ {0} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺀﺍﺩﺃ ﺐﺠﻳ\n.ﺢﻄﺴﻟﺍ</CantCastOnPocketMap>
+
+  <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
+  <PsychicRitualFactionWarning>ﺐﻀﻐﻴﺳ {PAWN_nameDef} ﻰﻠﻋ ﺲﻘﻃ ﺀﺍﺩﺃ :ﺮﻳﺬﺤﺗ\n{PAWN_possessive} ){FACTION_name}( ﻞﻴﺼﻓ</PsychicRitualFactionWarning>
+
+  <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
+  <PsychicRitualWakingPawnWarning>ﺎﻣﺪﻨﻋ ﻆﻘﻴﺘﺴﻴﺳﻭ ﺎًﻴﻟﺎﺣ ﻢﺋﺎﻧ {0}\n.ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺃﺪﺒﻳ</PsychicRitualWakingPawnWarning>
+  <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
+  <PsychicRitualUndraftPawnWarning>ﻩﺪﻴﻨﺠﺗ ﻰﻐﻠُﻴﺳﻭ ﺎًﻴﻟﺎﺣ ﺪﻨﺠﻣ {0}\n.ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺃﺪﺒﻳ ﺎﻣﺪﻨﻋ</PsychicRitualUndraftPawnWarning>
+  <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
+  <PsychicRitualWakingPawnsWarning>ﻥﻮﻈﻘﻴﺘﺴﻴﺳﻭ ﺎًﻴﻟﺎﺣ ﻥﻮﻤﺋﺎﻧ {0}\n.ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺃﺪﺒﻳ ﺎﻣﺪﻨﻋ</PsychicRitualWakingPawnsWarning>
+  <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
+  <PsychicRitualUndraftPawnsWarning>ﻰﻐﻠُﻴﺳﻭ ﺎًﻴﻟﺎﺣ ﻥﻭﺪﻨﺠﻣ {0}\nﺲﻘﻄﻟﺍ ﺃﺪﺒﻳ ﺎﻣﺪﻨﻋ ﻢﻫﺪﻴﻨﺠﺗ\n.ﻲﺴﻔﻨﻟﺍ</PsychicRitualUndraftPawnsWarning>
+
+  <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
+  <PsychicRitualLeft>.{1} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ {0_labelShort} ﺭﺩﺎﻏ</PsychicRitualLeft>
+  <!-- EN: {0_labelShort} left the {1} psychic ritual because {2}. -->
+  <PsychicRitualLeftBecause>.{2} ﻥﻷ {1} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ {0_labelShort} ﺭﺩﺎﻏ</PsychicRitualLeftBecause>
+  <!-- EN: The {0} psychic ritual has been canceled. -->
+  <PsychicRitualCanceled>.{0} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺀﺎﻐﻟﺇ ﻢﺗ</PsychicRitualCanceled>
+  <!-- EN: The {0} psychic ritual has been canceled because {1}. -->
+  <PsychicRitualCanceledBecause>.{1} ﻥﻷ {0} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺀﺎﻐﻟﺇ ﻢﺗ</PsychicRitualCanceledBecause>
+
+  <!-- EN: {0} is needed but only {1} is available -->
+  <PsychicRitualOfferingsInsufficient>ﺡﺎﺘﻣ ﻂﻘﻓ {1} ﻦﻜﻟﻭ ﺏﻮﻠﻄﻣ {0}</PsychicRitualOfferingsInsufficient>
+  <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
+  <PsychicRitualTargetUnreachableByInvoker>{TARGET_labelShort} ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ {INVOKER_labelShort} ـﻟ ﻦﻜﻤﻳ ﻻ</PsychicRitualTargetUnreachableByInvoker>
+
+  <!-- EN: leave the {0} psychic ritual -->
+  <CommandLeavePsychicRitual>{0} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺓﺭﺩﺎﻐﻣ</CommandLeavePsychicRitual>
+  <!-- EN: stop participating in the {0} psychic ritual. The psychic ritual will continue as long as it has at least one participant. -->
+  <CommandLeavePsychicRitualDesc>ﺲﻘﻄﻟﺍ ﻲﻓ ﺔﻛﺭﺎﺸﻤﻟﺍ ﻦﻋ ﻒﻗﻮﺘﻟﺍ\nﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺮﻤﺘﺴﻴﺳ .{0} ﻲﺴﻔﻨﻟﺍ\n.ﻞﻗﻷﺍ ﻰﻠﻋ ﺪﺣﺍﻭ ﻙﺭﺎﺸﻣ ﻲﻘﺑ ﺎﻤﻟﺎﻃ</CommandLeavePsychicRitualDesc>
+
+  <!-- EN: cancel the {0} psychic ritual -->
+  <CommandCancelPsychicRitual>{0} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺀﺎﻐﻟﺇ</CommandCancelPsychicRitual>
+  <!-- EN: end the {0} psychic ritual immediately. You can restart the psychic ritual later. -->
+  <CommandCancelPsychicRitualDesc>.ﺍًﺭﻮﻓ {0} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺀﺎﻬﻧﺇ\nﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺀﺪﺑ ﺓﺩﺎﻋﺇ ﻚﻨﻜﻤﻳ\n.ﺎًﻘﺣﻻ</CommandCancelPsychicRitualDesc>
+  <!-- EN: Are you sure you want to cancel the {0} psychic ritual? -->
+  <CommandCancelPsychicRitualConfirm>ﺀﺎﻐﻟﺇ ﺪﻳﺮﺗ ﻚﻧﺃ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ\n؟{0} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ</CommandCancelPsychicRitualConfirm>
+
+  <!-- EN: {PAWN_labelShort} vanished -->
+  <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort} ﻰﻔﺘﺧﺍ</PsychicRitualLeaveReason_Vanished>
+  <!-- EN: {PAWN_labelShort} is incapacitated -->
+  <PsychicRitualLeaveReason_Incapped>ﺰﺟﺎﻋ {PAWN_labelShort}</PsychicRitualLeaveReason_Incapped>
+  <!-- EN: {PAWN_labelShort} is dead -->
+  <PsychicRitualLeaveReason_Killed>ﺖﻴﻣ {PAWN_labelShort}</PsychicRitualLeaveReason_Killed>
+  <!-- EN: {PAWN_labelShort} is not part of {FACTION_name} -->
+  <PsychicRitualLeaveReason_WrongFaction>{FACTION_name} ﻦﻣ ﺍًﺀﺰﺟ ﺲﻴﻟ {PAWN_labelShort}</PsychicRitualLeaveReason_WrongFaction>
+  <!-- EN: {PAWN_labelShort} is no longer on the map -->
+  <PsychicRitualLeaveReason_ExitedMap>ﺔﻄﻳﺮﺨﻟﺍ ﻰﻠﻋ ﺪﻌﻳ ﻢﻟ {PAWN_labelShort}</PsychicRitualLeaveReason_ExitedMap>
+  <!-- EN: {PAWN_labelShort} had better things to do -->
+  <PsychicRitualLeaveReason_LeftVoluntarily>ﺎﻬﻠﻌﻔﻴﻟ ﻞﻀﻓﺃ ﺀﺎﻴﺷﺃ {PAWN_labelShort} ﻯﺪﻟ ﻥﺎﻛ</PsychicRitualLeaveReason_LeftVoluntarily>
+  <!-- EN: {PAWN_labelShort} is drafted -->
+  <PsychicRitualLeaveReason_Drafted>ﺪﻨﺠﻣ {PAWN_labelShort}</PsychicRitualLeaveReason_Drafted>
+  <!-- EN: {PAWN_labelShort} is in a mental state -->
+  <PsychicRitualLeaveReason_InMentalState>ﺔﻴﺴﻔﻧ ﺔﻟﺎﺣ ﻲﻓ {PAWN_labelShort}</PsychicRitualLeaveReason_InMentalState>
+  <!-- EN: {PAWN_labelShort} is bleeding -->
+  <PsychicRitualLeaveReason_Bleeding>ﻑﺰﻨﻳ {PAWN_labelShort}</PsychicRitualLeaveReason_Bleeding>
+  <!-- EN: {PAWN_labelShort} is on fire -->
+  <PsychicRitualLeaveReason_Burning>ﺭﺎﻨﻟﺎﺑ ﻞﻌﺘﺸﻣ {PAWN_labelShort}</PsychicRitualLeaveReason_Burning>
+  <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
+  <PsychicRitualLeaveReason_ExtremeTemperature>ﻑﺪﻬﻟﺍ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ\n{PAWN_labelShort} ـﻟ ﺔﻨﻣﺁ ﺮﻴﻏ</PsychicRitualLeaveReason_ExtremeTemperature>
+  <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
+  <PsychicRitualLeaveReason_InsideBuilding>{BUILDING} ﻞﺧﺍﺩ ﻦﻣ ﺔﻛﺭﺎﺸﻤﻟﺍ {PAWN_labelShort} ـﻟ ﻦﻜﻤﻳ ﻻ</PsychicRitualLeaveReason_InsideBuilding>
+  <!-- EN: {PAWN_labelShort} is humanlike -->
+  <PsychicRitualLeaveReason_Humanlike>ﻱﺮﺸﺑ ﻪﺒﺷ {PAWN_labelShort}</PsychicRitualLeaveReason_Humanlike>
+  <!-- EN: {PAWN_labelShort} is not humanlike -->
+  <PsychicRitualLeaveReason_NonHumanlike>ﻱﺮﺸﺑ ﻪﺒﺷ ﺲﻴﻟ {PAWN_labelShort}</PsychicRitualLeaveReason_NonHumanlike>
+  <!-- EN: {PAWN_labelShort} is a prisoner -->
+  <PsychicRitualLeaveReason_Prisoner>ﻦﻴﺠﺳ {PAWN_labelShort}</PsychicRitualLeaveReason_Prisoner>
+  <!-- EN: {PAWN_labelShort} is a slave -->
+  <PsychicRitualLeaveReason_Slave>ﺪﺒﻋ {PAWN_labelShort}</PsychicRitualLeaveReason_Slave>
+  <!-- EN: {PAWN_labelShort} is free -->
+  <PsychicRitualLeaveReason_Freeman>ﺮﺣ {PAWN_labelShort}</PsychicRitualLeaveReason_Freeman>
+  <!-- EN: {PAWN_labelShort} is a {STAGE} -->
+  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} {STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
+  <!-- EN: {PAWN_labelShort} cannot reach the target location -->
+  <PsychicRitualLeaveReason_CannotReachTarget>ﻊﻗﻮﻤﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ {PAWN_labelShort} ـﻟ ﻦﻜﻤﻳ ﻻ\nﻑﺪﻬﺘﺴﻤﻟﺍ</PsychicRitualLeaveReason_CannotReachTarget>
+  <!-- EN: {PAWN_labelShort} is asleep -->
+  <PsychicRitualLeaveReason_Sleeping>ﻢﺋﺎﻧ {PAWN_labelShort}</PsychicRitualLeaveReason_Sleeping>
+  <!-- EN: {PAWN_labelShort} is not a human -->
+  <PsychicRitualLeaveReason_Mutant>ﺎًﻳﺮﺸﺑ ﺲﻴﻟ {PAWN_labelShort}</PsychicRitualLeaveReason_Mutant>
+  <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
+  <PsychicRitualLeaveReason_IdeoUnwilling>ﺔﻛﺭﺎﺸﻤﻟﺍ ﻊﻨﻤﻳ {IDEO_name} ﻲﻓ {PAWN_labelShort} ﺩﺎﻘﺘﻋﺍ</PsychicRitualLeaveReason_IdeoUnwilling> 
+  <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
+  <PsychicRitualLeaveReason_NoPsychicSensitivity>ﺎًﻴﺴﻔﻧ ﺎًﺳﺎﺴﺣ ﺲﻴﻟ {PAWN_labelShort}</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <!-- EN: {PAWN_labelShort} is a temporary faction member -->
+  <PsychicRitualLeaveReason_TemporaryFactionMember>ﺖﻗﺆﻣ ﻞﻴﺼﻓ ﻮﻀﻋ {PAWN_labelShort}</PsychicRitualLeaveReason_TemporaryFactionMember>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
+  <PsychicRitualLeaveReason_PawnBusyWithLord>ﺎﻬﺑ ﻡﻮﻘﻴﻟ ﻯﺮﺧﺃ ﺕﺎﺒﺟﺍﻭ {PAWN_labelShort} ﻯﺪﻟ</PsychicRitualLeaveReason_PawnBusyWithLord>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
+  <PsychicRitualLeaveReason_ForcedByQuest>ﺎﻬﺑ ﻡﻮﻘﻴﻟ ﻯﺮﺧﺃ ﺕﺎﺒﺟﺍﻭ {PAWN_labelShort} ﻯﺪﻟ</PsychicRitualLeaveReason_ForcedByQuest>
+
+  <!-- PsychicRitualToils-->
+  <!-- EN: moving into position -->
+  <PsychicRitualToil_Goto_JobReport_Moving>ﻊﺿﻮﻤﻟﺍ ﻰﻟﺇ ﻙﺮﺤﺘﻳ</PsychicRitualToil_Goto_JobReport_Moving>
+  <!-- EN: waiting for everyone to get into position -->
+  <PsychicRitualToil_Goto_JobReport_Waiting>ﻢﻬﻌﺿﺍﻮﻣ ﺍﻭﺬﺧﺄﻴﻟ ﻊﻴﻤﺠﻟﺍ ﺮﻈﺘﻨﻳ</PsychicRitualToil_Goto_JobReport_Waiting>
+
+  <!-- EN: {PAWN_labelShort} was unable to find enough {1} -->
+  <PsychicRitualToil_GatherOfferings_OfferingUnavailable>ﺎﻣ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻦﻣ {PAWN_labelShort} ﻦﻜﻤﺘﻳ ﻢﻟ\n{1} ﻦﻣ ﻲﻔﻜﻳ</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
+  <!-- EN: gathering offering -->
+  <PsychicRitualToil_GatherOfferings_JobReport>ﻥﺎﺑﺮﻘﻟﺍ ﻊﻤﺠﻳ</PsychicRitualToil_GatherOfferings_JobReport>
+
+  <!-- EN: leading psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Invoker>ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺩﻮﻘﻳ</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
+  <!-- EN: channeling power to psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Chanter>ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﻰﻟﺇ ﺓﻮﻘﻟﺍ ﻪّﺟﻮﻳ</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
+  <!-- EN: psychic ritual target -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Target>ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﻑﺪﻫ</PsychicRitualToil_InvokeHorax_JobReport_Target>
+  <!-- EN: {0} doesn't have enough {1} -->
+  <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>{1} ﻦﻣ ﻲﻔﻜﻳ ﺎﻣ {0} ﻚﻠﺘﻤﻳ ﻻ</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
+  <!-- EN: {PAWN_labelShort} is out of position -->
+  <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>ﻪﻌﺿﻮﻣ ﺝﺭﺎﺧ {PAWN_labelShort}</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
+  <!-- EN: defending psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Defender>ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﻦﻋ ﻊﻓﺍﺪﻳ</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
+
+  <!-- EN: waiting on -->
+  <PsychicRitualToil_GatherForInvocation_Report>ﺮﻈﺘﻨﻳ</PsychicRitualToil_GatherForInvocation_Report>
+  <!-- EN: invoking the void -->
+  <PsychicRitualToil_InvokeHorax_Report>ﻍﺍﺮﻔﻟﺍ ﻲﻋﺪﺘﺴﻳ</PsychicRitualToil_InvokeHorax_Report>
+
+  <!-- EN: {TARGET_labelShort} was destroyed -->
+  <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort} ﺮﻴﻣﺪﺗ ﻢﺗ</PsychicRitualDef_TargetDestroyed>
+  <!-- EN: {INVOKER_labelShort} cannot continue the psychic ritual -->
+  <PsychicRitualDef_InvocationCircle_InvokerLost>ﺲﻘﻄﻟﺍ ﺔﻌﺑﺎﺘﻣ {INVOKER_labelShort} ـﻟ ﻦﻜﻤﻳ ﻻ\nﻲﺴﻔﻨﻟﺍ</PsychicRitualDef_InvocationCircle_InvokerLost>
+
+  <!-- EN: the area around the target site must be clear of obstructions -->
+  <PsychicRitualDef_InvocationCircle_AreaMustBeClear>ﻊﻗﻮﻤﻟﺍ ﻝﻮﺣ ﺔﻘﻄﻨﻤﻟﺍ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ\nﻖﺋﺍﻮﻌﻟﺍ ﻦﻣ ﺔﻴﻟﺎﺧ ﻑﺪﻬﺘﺴﻤﻟﺍ</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
+  <!-- EN: {PAWN_labelShort}'s psychic sensitivity -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>{PAWN_labelShort} ـﻟ ﺔﻴﺴﻔﻨﻟﺍ ﺔﻴﺳﺎﺴﺤﻟﺍ</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
+  <!-- EN: How in-tune {PAWN_labelShort} is with psychic phenomena. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>ﺮﻫﺍﻮﻈﻟﺍ ﻊﻣ {PAWN_labelShort} ﻡﺎﺠﺴﻧﺍ ﻯﺪﻣ\n.ﺔﻴﺴﻔﻨﻟﺍ</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
+  <!-- EN: These objects help focus the psychic power of the ritual. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>ﺰﻴﻛﺮﺗ ﻲﻓ ﺀﺎﻴﺷﻷﺍ ﻩﺬﻫ ﺪﻋﺎﺴﺗ\n.ﺲﻘﻄﻠﻟ ﺔﻴﺴﻔﻨﻟﺍ ﺓﻮﻘﻟﺍ</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
+  <!-- EN: Ideoligion offset -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>ﺓﺪﻴﻘﻌﻟﺍ ﺔﺣﺍﺯﺇ</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺮﺛﺄﺗ ﻯﺪﻣ\n.ﺔﻳﺪﺋﺎﻘﻌﻟﺍ ﺕﺍﺪﻘﺘﻌﻤﻟﺎﺑ</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
+
+  <!-- PsychicRitualDef_InvokationCircle messages -->
+  <!-- EN: {0} has begun performing the {1} psychic ritual. -->
+  <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>.{1} ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺀﺍﺩﺃ ﻲﻓ {0} ﺃﺪﺑ</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
+  <!-- EN: psychic ritual area is obstructed -->
+  <PsychicRitualAreaObstructed>ﺓﺩﻭﺪﺴﻣ ﻲﺴﻔﻨﻟﺍ ﺲﻘﻄﻟﺍ ﺔﻘﻄﻨﻣ</PsychicRitualAreaObstructed>
+
+  <!-- Animal summoning -->
+  <!-- EN: Not enough animals in this biome. -->
+  <NotEnoughAnimals>ﻩﺬﻫ ﻲﻓ ﺔﻴﻓﺎﻛ ﺕﺎﻧﺍﻮﻴﺣ ﺪﺟﻮﺗ ﻻ\n.ﺔﻳﻮﻴﺤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ</NotEnoughAnimals>
+
+  <!-- Shambler summoning -->
+  <!-- EN: No nearby shamblers. -->
+  <NoNearbyShamblers>.ﻥﻮﺒﻳﺮﻗ ﻥﻭﺮﺜﻌﺘﻣ ﺪﺟﻮﻳ ﻻ</NoNearbyShamblers>
+
+  <!-- Pit gate summoning -->
+  <!-- EN: There is already a pit gate on the map. -->
+  <PitGateAlreadyExists>ﻰﻠﻋ ﺓﺮﻔﺣ ﺔﺑﺍﻮﺑ ﻞﻌﻔﻟﺎﺑ ﺪﺟﻮﺗ\n.ﺔﻄﻳﺮﺨﻟﺍ</PitGateAlreadyExists>
+  
+  <!-- Chronophagy -->
+  <!-- EN: The invoker must be at least {0} years old. -->
+  <InvokerTooYoung>{0} ﺮﻤﻌﺑ ﻲﻋﺪﺘﺴﻤﻟﺍ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ\n.ﻞﻗﻷﺍ ﻰﻠﻋ ﺔﻨﺳ</InvokerTooYoung>
+  <!-- EN: The target must be at least {0} years old. -->
+  <PsychicRitualTargetTooYoung>ﺔﻨﺳ {0} ﺮﻤﻌﺑ ﻑﺪﻬﻟﺍ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ\n.ﻞﻗﻷﺍ ﻰﻠﻋ</PsychicRitualTargetTooYoung>
+  <!-- EN: {INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old. -->
+  <CronophagyAgeChange>{TARGET_labelShort} ﺢﺒﺼﻴﺳﻭ ،ﺔﻨﺳ {1} ﺮﻤﻌﺑ {INVOKER_labelShort} ﺢﺒﺼﻴﺳ\n.ﺔﻨﺳ {3} ﺮﻤﻌﺑ</CronophagyAgeChange>
+  
+  <!-- Philophagy -->
+  <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
+  <PhilophagyTransferReport>.{TARGET_labelShort} ﻦﻣ {SKILL_label} ﻦﻣ ﺓﺮﺒﺧ ﺔﻄﻘﻧ {INVOKER_labelShort} {1} ﻕﺮﺴﻴﺳ</PhilophagyTransferReport>
+  <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
+  <NoSkillsToTransfer>.ﺎﻬﻠﻘﻨﻟ ﺕﺍﺭﺎﻬﻣ {TARGET_labelShort} ﻚﻠﺘﻤﻳ ﻻ</NoSkillsToTransfer>
+
+</LanguageData>

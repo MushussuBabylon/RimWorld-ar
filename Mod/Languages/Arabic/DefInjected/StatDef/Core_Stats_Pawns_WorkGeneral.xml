@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: animal gather speed -->
+  <AnimalGatherSpeed.label>ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺩﺭﺍﻮﻣ ﻊﻤﺟ ﺔﻋﺮﺳ</AnimalGatherSpeed.label>
+  <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
+  <AnimalGatherSpeed.description>ﺍﺬﻫ ﺎﻬﺑ ﺐﻠﺤﻳ ﻲﺘﻟﺍ ﺔﻋﺮﺴﻟﺍ\nﺩﺭﺍﻮﻤﻟﺍ ﻊﻤﺠﻳﻭ ،ﺰﺠﻳﻭ ،ﺺﺨﺸﻟﺍ\n.ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻦﻣ ﺔﻔﻠﺘﺨﻤﻟﺍ</AnimalGatherSpeed.description>
+  
+  <!-- EN: animal gather yield -->
+  <AnimalGatherYield.label>ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺩﺭﺍﻮﻣ ﻊﻤﺟ ﺪﺋﺎﻋ</AnimalGatherYield.label>
+  <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product. -->
+  <AnimalGatherYield.description>ﻱﺬﻟﺍ ﺪﺋﺎﻌﻠﻟ ﺔﻳﻮﺌﻤﻟﺍ ﺔﺒﺴﻨﻟﺍ\nﻭﺃ ،ﺰﺠﻳ ﺎﻣﺪﻨﻋ ﺎﻣ ﺺﺨﺷ ﻩﺎﻘﻠﺘﻳ\nﻥﺍﻮﻴﺣ ﻦﻣ ﺩﺭﺍﻮﻤﻟﺍ ﻊﻤﺠﻳ ﻭﺃ ،ﺐﻠﺤﻳ\n.ﻲﺣ\n\nﻦﻣ ﻞﻠﻘﺗ ﻰﻠﻋﻷﺍ ﺔﻳﻮﺌﻤﻟﺍ ﺐﺴﻨﻟﺍ\n.ﺞﺘﻨﻤﻟﺍ ﺭﺍﺪﻫﺇ ﺔﺻﺮﻓ</AnimalGatherYield.description>
+  
+  <!-- EN: cleaning speed multiplier -->
+  <CleaningSpeed.label>ﻒﻴﻈﻨﺘﻟﺍ ﺔﻋﺮﺳ ﻒﻋﺎﻀﻣ</CleaningSpeed.label>
+  <!-- EN: A multiplier on how fast this cleans up filth from the ground. -->
+  <CleaningSpeed.description>ﺍﺬﻫ ﻒﻴﻈﻨﺗ ﺔﻋﺮﺳ ﻯﺪﻣ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\n.ﺽﺭﻷﺍ ﻦﻣ ﺥﺎﺳﻭﻸﻟ</CleaningSpeed.description>
+  
+  <!-- EN: construction speed -->
+  <ConstructionSpeed.label>ﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ</ConstructionSpeed.label>
+  <!-- EN: The speed at which this person constructs and repairs buildings. -->
+  <ConstructionSpeed.description>ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺎﻬﺑ ﻲﻨﺒﻳ ﻲﺘﻟﺍ ﺔﻋﺮﺴﻟﺍ\n.ﻲﻧﺎﺒﻤﻟﺍ ﺢﻠﺼﻳﻭ</ConstructionSpeed.description>
+  
+  <!-- EN: construct success chance -->
+  <ConstructSuccessChance.label>ﺀﺎﻨﺒﻟﺍ ﺡﺎﺠﻧ ﺔﺻﺮﻓ</ConstructSuccessChance.label>
+  <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
+  <ConstructSuccessChance.description>ﺀﺎﻨﺑ ﻲﻓ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺢﺠﻨﻳ ﻥﺃ ﺔﺻﺮﻓ\n.ﺎﻣ ﺀﻲﺷ\nﺖﻗﻮﻟﺍ ﺔﻋﺎﺿﺇ ﻲﻨﻌﻳ ﻞﺸﻔﻟﺍ\n.ﺩﺭﺍﻮﻤﻟﺍﻭ</ConstructSuccessChance.description>
+  
+  <!-- EN: deep drilling speed -->
+  <DeepDrillingSpeed.label>ﻖﻴﻤﻌﻟﺍ ﺮﻔﺤﻟﺍ ﺔﻋﺮﺳ</DeepDrillingSpeed.label>
+  <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
+  <DeepDrillingSpeed.description>ﺍﺬﻫ ﺎﻬﺑ ﻡﺪﺨﺘﺴﻳ ﻲﺘﻟﺍ ﺔﻋﺮﺴﻟﺍ\nﺝﺍﺮﺨﺘﺳﻻ ﺎًﻘﻴﻤﻋ ﺎًﺑﺎﻘﺜﻣ ﺺﺨﺸﻟﺍ\n.ﺽﺭﻷﺍ ﺖﺤﺗ ﺩﺭﺍﻮﻤﻟﺍ</DeepDrillingSpeed.description>
+  
+  <!-- EN: drug crop harvest yield -->
+  <DrugHarvestYield.label>ﺕﺍﺭﺪﺨﻤﻟﺍ ﻞﻴﺻﺎﺤﻣ ﺩﺎﺼﺣ ﺪﺋﺎﻋ</DrugHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting drug crops.\n\nLow yields give a chance that this person will accidentally waste the harvest. High yields increase the yield from each plant. -->
+  <DrugHarvestYield.description>ﺍﺬﻫ ﻪﻴﻠﻋ ﻞﺼﺤﻳ ﻱﺬﻟﺍ ﺪﺋﺎﻌﻟﺍ\nﻞﻴﺻﺎﺤﻣ ﺩﺎﺼﺣ ﺪﻨﻋ ﺺﺨﺸﻟﺍ\n.ﺕﺍﺭﺪﺨﻤﻟﺍ\n\nﻥﺃ ﺔﺻﺮﻓ ﻲﻄﻌﺗ ﺔﻀﻔﺨﻨﻤﻟﺍ ﺪﺋﺍﻮﻌﻟﺍ\nﻖﻳﺮﻃ ﻦﻋ ﻝﻮﺼﺤﻤﻟﺍ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺭﺪﻬﻳ\nﺪﻳﺰﺗ ﺔﻌﻔﺗﺮﻤﻟﺍ ﺪﺋﺍﻮﻌﻟﺍ .ﺄﻄﺨﻟﺍ\n.ﺔﺘﺒﻧ ﻞﻛ ﻦﻣ ﺪﺋﺎﻌﻟﺍ</DrugHarvestYield.description>
+  
+  <!-- EN: repair success chance -->
+  <FixBrokenDownBuildingSuccessChance.label>ﻞﻄﻌﻟﺍ ﺡﻼﺻﺇ ﺡﺎﺠﻧ ﺔﺻﺮﻓ</FixBrokenDownBuildingSuccessChance.label>
+  <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
+  <FixBrokenDownBuildingSuccessChance.description>ﺡﻼﺻﺇ ﻲﻓ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺢﺠﻨﻳ ﻥﺃ ﺔﺻﺮﻓ\n.ﺔﻌﻄﻗ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻞﻄﻌﺗ ﻰﻨﺒﻣ\n\nﺖﻗﻮﻟﺍ ﺔﻋﺎﺿﺇ ﻲﻨﻌﻳ ﻞﺸﻔﻟﺍ\n.ﺩﺭﺍﻮﻤﻟﺍﻭ\nﺡﻼﺻﺇ ﻰﻠﻋ ﻂﻘﻓ ﻖﺒﻄﻨﻳ ﺍﺬﻫ ﻥﺃ ﻆﺣﻻ\nﺡﻼﺻﺇ ﻦﻋ ﻒﻠﺘﺨﻳ ﻱﺬﻟﺍﻭ ،ﻝﺎﻄﻋﻷﺍ\n.ﺭﺮﻀﻟﺍ</FixBrokenDownBuildingSuccessChance.description>
+  
+  <!-- EN: hacking speed -->
+  <HackingSpeed.label>ﻕﺍﺮﺘﺧﻻﺍ ﺔﻋﺮﺳ</HackingSpeed.label>
+  <!-- EN: How fast this person can hack into computer terminals. -->
+  <HackingSpeed.description>ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﻕﺍﺮﺘﺧﺍ ﺔﻋﺮﺳ ﻯﺪﻣ\n.ﺏﻮﺳﺎﺤﻠﻟ ﺔﻴﻓﺮﻄﻟﺍ ﺕﺎﻄﺤﻤﻠﻟ</HackingSpeed.description>
+  
+  <!-- EN: hacking stealth -->
+  <HackingStealth.label>ﻕﺍﺮﺘﺧﻻﺍ ﻲﻔﺨﺗ</HackingStealth.label>
+  <!-- EN: How much hacking progress can be made on average before this person is temporarily locked out of a computer system. Only certain systems are capable of detecting hacking. -->
+  <HackingStealth.description>ﻦﻜﻤﻳ ﻱﺬﻟﺍ ﻕﺍﺮﺘﺧﻻﺍ ﻡﺪﻘﺗ ﺭﺍﺪﻘﻣ\nﻢﺘﻳ ﻥﺃ ﻞﺒﻗ ﻂﺳﻮﺘﻤﻟﺍ ﻲﻓ ﻩﺯﺍﺮﺣﺇ\nﻡﺎﻈﻧ ﺝﺭﺎﺧ ﺎًﺘﻗﺆﻣ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﻞﻔﻗ\nﺓﺭﺩﺎﻗ ﺔﻤﻈﻧﻷﺍ ﺾﻌﺑ ﻂﻘﻓ .ﺏﻮﺳﺎﺤﻟﺍ\n.ﻕﺍﺮﺘﺧﻻﺍ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ</HackingStealth.description>
+  
+  <!-- EN: hunting stealth -->
+  <HuntingStealth.label>ﺪﻴﺼﻟﺍ ﻲﻔﺨﺗ</HuntingStealth.label>
+  <!-- EN: This stat reduces the chance of hunted animals attacking the hunter.\n\nA 0% score means no reduction.\nA 100% score means animals never attack. -->
+  <HuntingStealth.description>ﻡﻮﺠﻫ ﺔﺻﺮﻓ ﻦﻣ ﻞﻠﻘﺗ ﺔﻴﺋﺎﺼﺣﻹﺍ ﻩﺬﻫ\nﻰﻠﻋ ﺎﻫﺪﻴﺻ ﻢﺘﻳ ﻲﺘﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ\n.ﺩﺎﻴﺼﻟﺍ\n\n.ﻞﻴﻠﻘﺗ ﻻ ﻲﻨﻌﺗ %0 ﺔﺟﺭﺩ\nﻻ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻥﺃ ﻲﻨﻌﺗ %100 ﺔﺟﺭﺩ\n.ﺍًﺪﺑﺃ ﻢﺟﺎﻬﺗ</HuntingStealth.description>
+  
+  <!-- EN: mining speed -->
+  <MiningSpeed.label>ﻦﻳﺪﻌﺘﻟﺍ ﺔﻋﺮﺳ</MiningSpeed.label>
+  <!-- EN: A speed at which this person mines away walls. -->
+  <MiningSpeed.description>ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺎﻬﺑ ﻞﻳﺰﻳ ﻲﺘﻟﺍ ﺔﻋﺮﺴﻟﺍ\n.ﻦﻳﺪﻌﺘﻟﺎﺑ ﻥﺍﺭﺪﺠﻟﺍ</MiningSpeed.description>
+  
+  <!-- EN: mining yield -->
+  <MiningYield.label>ﻦﻳﺪﻌﺘﻟﺍ ﺪﺋﺎﻋ</MiningYield.label>
+  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks from deep drills. -->
+  <MiningYield.description>ﻦﻳﺪﻌﺘﻟﺍ ﺩﺭﺍﻮﻤﻟ ﺔﻳﻮﺌﻤﻟﺍ ﺔﺒﺴﻨﻟﺍ\n.ﻢﺠﻨﻤﻟﺍ ﻞﻣﺎﻋ ﺎﻬﺠﺘﻨﻴﺳ ﻲﺘﻟﺍ\n\nﻥﺍﺭﺪﺠﻟﺍ ﻦﻳﺪﻌﺗ ﻰﻠﻋ ﺍﺬﻫ ﻖﺒﻄﻨﻳ\n.ﻖﻴﻤﻌﻟﺍ ﺏﺎﻘﺜﻤﻟﺍ ﻦﻳﺪﻌﺗﻭ\nﻊﻄﻗ ﺝﺎﺘﻧﺇ ﻝﺪﻌﻣ ﻰﻠﻋ ﺮﺛﺆﻳ ﻻ ﺍﺬﻫ\n.ﺔﻘﻴﻤﻌﻟﺍ ﺐﻗﺎﺜﻤﻟﺍ ﻦﻣ ﺭﻮﺨﺼﻟﺍ</MiningYield.description>
+  
+  <!-- EN: plant harvest yield -->
+  <PlantHarvestYield.label>ﺕﺎﺗﺎﺒﻨﻟﺍ ﺩﺎﺼﺣ ﺪﺋﺎﻋ</PlantHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest. -->
+  <PlantHarvestYield.description>ﺍﺬﻫ ﻪﻴﻠﻋ ﻞﺼﺤﻳ ﻱﺬﻟﺍ ﺪﺋﺎﻌﻟﺍ\n.ﺕﺎﺗﺎﺒﻨﻟﺍ ﺩﺎﺼﺣ ﺪﻨﻋ ﺺﺨﺸﻟﺍ\n\nﻥﺃ ﺔﺻﺮﻓ ﻲﻄﻌﺗ ﺔﻀﻔﺨﻨﻤﻟﺍ ﺪﺋﺍﻮﻌﻟﺍ\nﻖﻳﺮﻃ ﻦﻋ ﻝﻮﺼﺤﻤﻟﺍ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺭﺪﻬﻳ\n.ﺄﻄﺨﻟﺍ</PlantHarvestYield.description>
+  
+  <!-- EN: plant work speed -->
+  <PlantWorkSpeed.label>ﺔﻋﺍﺭﺰﻟﺍ ﻞﻤﻋ ﺔﻋﺮﺳ</PlantWorkSpeed.label>
+  <!-- EN: The speed at which this person sows and harvests plants. -->
+  <PlantWorkSpeed.description>ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺎﻬﺑ ﻉﺭﺰﻳ ﻲﺘﻟﺍ ﺔﻋﺮﺴﻟﺍ\n.ﺕﺎﺗﺎﺒﻨﻟﺍ ﺪﺼﺤﻳﻭ</PlantWorkSpeed.description>
+  
+  <!-- EN: reading speed -->
+  <ReadingSpeed.label>ﺓﺀﺍﺮﻘﻟﺍ ﺔﻋﺮﺳ</ReadingSpeed.label>
+  <!-- EN: A multiplier on how fast this person can read. -->
+  <ReadingSpeed.description>ﺍﺬﻫ ﺓﺀﺍﺮﻗ ﺔﻋﺮﺳ ﻯﺪﻣ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\n.ﺺﺨﺸﻟﺍ</ReadingSpeed.description>
+  
+  <!-- EN: research speed -->
+  <ResearchSpeed.label>ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ</ResearchSpeed.label>
+  <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
+  <ResearchSpeed.description>ﺚﺤﺒﻠﻟ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺀﺍﺩﺃ ﺔﻋﺮﺳ ﻯﺪﻣ\nﺀﺎﻴﺷﻷﺍ ﻰﻠﻋ ﻩﺭﻮﺜﻋ ﺔﻋﺮﺳ ﻯﺪﻣﻭ\n.ﺢﺴﻤﻟﺍ ﺕﺍﺪﻌﻣ ﻡﺍﺪﺨﺘﺳﺎﺑ</ResearchSpeed.description>
+  
+  <!-- EN: smoothing speed -->
+  <SmoothingSpeed.label>ﻢﻴﻌﻨﺘﻟﺍ ﺔﻋﺮﺳ</SmoothingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
+  <SmoothingSpeed.description>ﺎﻬﺑ ﻡﻮﻘﻳ ﻲﺘﻟﺍ ﺔﻋﺮﺴﻟﺍ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\nﺕﺎﻴﺿﺭﻷﺍ ﻢﻴﻌﻨﺘﺑ ﺺﺨﺸﻟﺍ ﺍﺬﻫ\n.ﺔﻨﺸﺨﻟﺍ ﺔﻳﺮﺠﺤﻟﺍ ﻥﺍﺭﺪﺠﻟﺍﻭ</SmoothingSpeed.description>
+  
+  <!-- EN: global work speed -->
+  <WorkSpeedGlobal.label>ﺔﻴﻤﻟﺎﻌﻟﺍ ﻞﻤﻌﻟﺍ ﺔﻋﺮﺳ</WorkSpeedGlobal.label>
+  <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
+  <WorkSpeedGlobal.description>ﺀﺍﺩﺃ ﻲﻓ ﺔﻴﺼﺨﺸﻟﺍ ﺔﻋﺮﺳ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\n.ﻞﻤﻌﻟﺍ ﻦﻣ ﻉﻮﻧ ﻱﺃ</WorkSpeedGlobal.description>
+  <!-- EN: Offset from mechanitor -->
+  <WorkSpeedGlobal.parts.2.label>ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻟﺍ ﻦﻣ ﺔﺣﺍﺯﺇ</WorkSpeedGlobal.parts.2.label>
+  
+</LanguageData>

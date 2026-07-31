@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: For slaves -->
+  <CommandBedSetForSlavesLabel>ﺪﻴﺒﻌﻠﻟ</CommandBedSetForSlavesLabel>
+  <!-- EN: For colonists -->
+  <CommandBedSetForColonistsLabel>ﻦﻳﺮﻤﻌﺘﺴﻤﻠﻟ</CommandBedSetForColonistsLabel>
+  <!-- EN: Whether beds in this room should be used by colonists, prisoners or slaves. -->
+  <CommandBedSetForOwnerTypeDesc>ﺓﺮﺳﻷﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻲﻐﺒﻨﻳ ﻥﺎﻛ ﺍﺫﺇ ﺎﻣ\nﻭﺃ ﻦﻳﺮﻤﻌﺘﺴﻤﻠﻟ ﺔﻓﺮﻐﻟﺍ ﻩﺬﻫ ﻲﻓ\n.ﺪﻴﺒﻌﻟﺍ ﻭﺃ ﺀﺎﻨﺠﺴﻟﺍ</CommandBedSetForOwnerTypeDesc>
+
+  <!-- EN: No auto-use -->
+  <CommandNeuralSuperchargerNoAutoUse>ﻲﺋﺎﻘﻠﺗ ﻡﺍﺪﺨﺘﺳﺍ ﻥﻭﺪﺑ</CommandNeuralSuperchargerNoAutoUse>
+  <!-- EN: None of your people will use this neural supercharger automatically. -->
+  <CommandNeuralSuperchargerNoAutoUseDescription>ﺍﺬﻫ ﻙﺩﺍﺮﻓﺃ ﻦﻣ ﻱﺃ ﻡﺪﺨﺘﺴﻳ ﻦﻟ\n.ًﺎﻴﺋﺎﻘﻠﺗ ﻖﺋﺎﻔﻟﺍ ﻲﺒﺼﻌﻟﺍ ﻦﺣﺎﺸﻟﺍ</CommandNeuralSuperchargerNoAutoUseDescription>
+  <!-- EN: Auto-use with desire -->
+  <CommandNeuralSuperchargerAutoUseWithDesire>ﺔﺒﻏﺮﻟﺍ ﻊﻣ ﻲﺋﺎﻘﻠﺗ ﻡﺍﺪﺨﺘﺳﺍ</CommandNeuralSuperchargerAutoUseWithDesire>
+  <!-- EN: Your people may use this neural supercharger automatically, if they want to because of their beliefs. -->
+  <CommandNeuralSuperchargerAutoUseWithDesireDescription>ﻦﺣﺎﺸﻟﺍ ﺍﺬﻫ ﻙﺩﺍﺮﻓﺃ ﻡﺪﺨﺘﺴﻳ ﺪﻗ\nﺍﺫﺇ ،ًﺎﻴﺋﺎﻘﻠﺗ ﻖﺋﺎﻔﻟﺍ ﻲﺒﺼﻌﻟﺍ\n.ﻢﻬﺗﺍﺪﻘﺘﻌﻣ ﺐﺒﺴﺑ ﻚﻟﺫ ﺍﻭﺩﺍﺭﺃ</CommandNeuralSuperchargerAutoUseWithDesireDescription>
+  <!-- EN: Auto-use for everyone -->
+  <CommandNeuralSuperchargerAutoForEveryone>ﻊﻴﻤﺠﻠﻟ ﻲﺋﺎﻘﻠﺗ ﻡﺍﺪﺨﺘﺳﺍ</CommandNeuralSuperchargerAutoForEveryone>
+  <!-- EN: All of your people will use this neural supercharger if they get the chance. -->
+  <CommandNeuralSuperchargerAutoForEveryoneDescription>ﻦﺣﺎﺸﻟﺍ ﺍﺬﻫ ﻙﺩﺍﺮﻓﺃ ﻊﻴﻤﺟ ﻡﺪﺨﺘﺴﻴﺳ\nﻢﻬﻟ ﺖﺤﻨﺳ ﺍﺫﺇ ﻖﺋﺎﻔﻟﺍ ﻲﺒﺼﻌﻟﺍ\n.ﺔﺻﺮﻔﻟﺍ</CommandNeuralSuperchargerAutoForEveryoneDescription>
+  <!-- EN: Allow guests -->
+  <CommandNeuralSuperchargerAllowGuests>ﻑﻮﻴﻀﻠﻟ ﺡﺎﻤﺴﻟﺍ</CommandNeuralSuperchargerAllowGuests>
+  <!-- EN: Allow this neural supercharger to be used by temporary faction members. -->
+  <CommandNeuralSuperchargerAllowGuestsDescription>ﻦﻴﺘﻗﺆﻤﻟﺍ ﻞﻴﺼﻔﻟﺍ ﺀﺎﻀﻋﻷ ﺡﺎﻤﺴﻟﺍ\nﻲﺒﺼﻌﻟﺍ ﻦﺣﺎﺸﻟﺍ ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺎﺑ\n.ﻖﺋﺎﻔﻟﺍ</CommandNeuralSuperchargerAllowGuestsDescription>
+
+  <!-- EN: Select connected tree -->
+  <CommandSelectConnectedTree>ﺔﻠﺼﺘﻤﻟﺍ ﺓﺮﺠﺸﻟﺍ ﺭﺎﻴﺘﺧﺍ</CommandSelectConnectedTree>
+  <!-- EN: Create healing pod -->
+  <CommandHealInHealingPod>ﺀﺎﻔﺷ ﺔﻧﺮﻗ ﺀﺎﺸﻧﺇ</CommandHealInHealingPod>
+  <!-- EN: If this creature is injured, it will return to its connected Gauranlen tree and enter a woody healing pod. After {DAYS} days, the dryad will emerge with its wounds healed. -->
+  <CommandHealInHealingPodDesc>ﺩﻮﻌﻴﺳ ،ﻕﻮﻠﺨﻤﻟﺍ ﺍﺬﻫ ﺐﻴﺻﺃ ﺍﺫﺇ\nﻪﺑ ﺔﻠﺼﺘﻤﻟﺍ ﻦﻴﻠﻧﺍﺭﻮﻏ ﺓﺮﺠﺷ ﻰﻟﺇ\n{DAYS} ﺪﻌﺑ .ﺔﻴﺒﺸﺧ ﺀﺎﻔﺷ ﺔﻧﺮﻗ ﻞﺧﺪﻳﻭ\nﺖﻴﻔﺷ ﺪﻗﻭ ﺩﺎﻳﺭﺪﻟﺍ ﺝﺮﺨﻴﺳ ،ﻡﻮﻳ\n.ﻪﺣﻭﺮﺟ</CommandHealInHealingPodDesc>
+</LanguageData>

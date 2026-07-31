@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: medical operation speed -->
+  <MedicalOperationSpeed.label>ﺔﻴﺒﻄﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﺔﻋﺮﺳ</MedicalOperationSpeed.label>
+  <!-- EN: The speed at which the character performs medical operations. -->
+  <MedicalOperationSpeed.description>ﺔﻴﺼﺨﺸﻟﺍ ﺎﻬﺑ ﻱﺮﺠﺗ ﻲﺘﻟﺍ ﺔﻋﺮﺴﻟﺍ\n.ﺔﻴﺒﻄﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ</MedicalOperationSpeed.description>
+  
+  <!-- EN: medical surgery success chance -->
+  <MedicalSurgerySuccessChance.label>ﺔﻴﺒﻄﻟﺍ ﺔﺣﺍﺮﺠﻟﺍ ﺡﺎﺠﻧ ﺔﺻﺮﻓ</MedicalSurgerySuccessChance.label>
+  <!-- EN: The base chance that a character will succeed when performing a medical operation.\n\nThe actual success chance is also affected by factors like facilities, room cleanliness, medicine used, the difficulty of the surgery, and inspirations.\n\nNo matter how high this stat is, there is always a small chance of failure on any operation. -->
+  <MedicalSurgerySuccessChance.description>ﺔﻴﺼﺨﺸﻟﺍ ﺡﺎﺠﻨﻟ ﺔﻴﺳﺎﺳﻷﺍ ﺔﺻﺮﻔﻟﺍ\n.ﺔﻴﺒﻃ ﺔﻴﻠﻤﻋ ﺀﺍﺮﺟﺇ ﺪﻨﻋ\n\nﺮﺛﺄﺘﺗ ﺡﺎﺠﻨﻠﻟ ﺔﻴﻠﻌﻔﻟﺍ ﺔﺻﺮﻔﻟﺍ\n،ﻖﻓﺍﺮﻤﻟﺍ ﻞﺜﻣ ﻞﻣﺍﻮﻌﺑ ﺎًﻀﻳﺃ\n،ﻡﺪﺨﺘﺴﻤﻟﺍ ﺀﺍﻭﺪﻟﺍ ،ﺔﻓﺮﻐﻟﺍ ﺔﻓﺎﻈﻧ\n.ﺕﺎﻣﺎﻬﻟﻹﺍﻭ ،ﺔﺣﺍﺮﺠﻟﺍ ﺔﺑﻮﻌﺻ\n\nﻩﺬﻫ ﻉﺎﻔﺗﺭﺍ ﻯﺪﻣ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ\nﺔﺻﺮﻓ ﺎًﻤﺋﺍﺩ ﻙﺎﻨﻫ ،ﺔﻴﺋﺎﺼﺣﻹﺍ\n.ﺔﻴﻠﻤﻋ ﻱﺃ ﻲﻓ ﻞﺸﻔﻠﻟ ﺓﺮﻴﻐﺻ</MedicalSurgerySuccessChance.description>
+  
+  <!-- EN: medical tend quality -->
+  <MedicalTendQuality.label>ﻲﺒﻄﻟﺍ ﺝﻼﻌﻟﺍ ﺓﺩﻮﺟ</MedicalTendQuality.label>
+  <!-- EN: The base quality of tending given when tending wounds and illnesses.\n\nThe actual tend quality will also be affected by factors like medicine used, facilities, luck, and so on. -->
+  <MedicalTendQuality.description>ﺔﻣﺪﻘﻤﻟﺍ ﺝﻼﻌﻠﻟ ﺔﻴﺳﺎﺳﻷﺍ ﺓﺩﻮﺠﻟﺍ\n.ﺽﺍﺮﻣﻷﺍﻭ ﺡﻭﺮﺠﻟﺍ ﺝﻼﻋ ﺪﻨﻋ\n\nﺮﺛﺄﺘﺘﺳ ﺔﻴﻠﻌﻔﻟﺍ ﺝﻼﻌﻟﺍ ﺓﺩﻮﺟ\nﺀﺍﻭﺪﻟﺍ ﻞﺜﻣ ﻞﻣﺍﻮﻌﺑ ﺎًﻀﻳﺃ\nﺎﻣﻭ ،ﻆﺤﻟﺍ ،ﻖﻓﺍﺮﻤﻟﺍ ،ﻡﺪﺨﺘﺴﻤﻟﺍ\n.ﻚﻟﺫ ﻰﻟﺇ</MedicalTendQuality.description>
+  
+  <!-- EN: medical tend speed -->
+  <MedicalTendSpeed.label>ﻲﺒﻄﻟﺍ ﺝﻼﻌﻟﺍ ﺔﻋﺮﺳ</MedicalTendSpeed.label>
+  <!-- EN: Speed at which the character tends to wounds and illnesses. -->
+  <MedicalTendSpeed.description>ﺔﻴﺼﺨﺸﻟﺍ ﺎﻬﺑ ﺞﻟﺎﻌﺗ ﻲﺘﻟﺍ ﺔﻋﺮﺴﻟﺍ\n.ﺽﺍﺮﻣﻷﺍﻭ ﺡﻭﺮﺠﻟﺍ</MedicalTendSpeed.description>
+  
+</LanguageData>

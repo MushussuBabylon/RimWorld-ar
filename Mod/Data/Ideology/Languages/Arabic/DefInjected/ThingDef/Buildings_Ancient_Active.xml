@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient comms console -->
+  <AncientCommsConsole.label>ﺔﻳﺮﺛﺃ ﺕﻻﺎﺼﺗﺍ ﺓﺪﺣﻭ</AncientCommsConsole.label>
+  <!-- EN: An ancient console with an attached communications dish. Valuable parts are missing, and everything else is degraded to uselessness. -->
+  <AncientCommsConsole.description>ﺕﻻﺎﺼﺗﺍ ﻖﺒﻃ ﻊﻣ ﺔﻳﺮﺛﺃ ﻢﻜﺤﺗ ﺓﺪﺣﻭ\nﻞﻛﻭ ،ﺓﺩﻮﻘﻔﻣ ﺔﻨﻴﻤﺛ ﺀﺍﺰﺟﺃ .ﻖﺤﻠﻣ\nﻡﺪﻋ ﺪﺣ ﻰﻟﺇ ﺭﻮﻫﺪﺘﻣ ﺮﺧﺁ ﺀﻲﺷ\n.ﻯﻭﺪﺠﻟﺍ</AncientCommsConsole.description>
+  <!-- EN: Hack to access ancient supply satellite. -->
+  <AncientCommsConsole.comps.CompHackable.notHackedInspectString>ﺩﺍﺪﻣﺇ ﺮﻤﻗ ﻰﻟﺇ ﻝﻮﺻﻮﻠﻟ ﻕﺮﺘﺧﺍ\n.ﻱﺮﺛﺃ</AncientCommsConsole.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient enemy terminal -->
+  <AncientEnemyTerminal.label>ﺔﻳﺮﺛﺃ ﻭﺪﻋ ﺔﻴﻓﺮﻃ</AncientEnemyTerminal.label>
+  <!-- EN: An ancient computer terminal. It can be hacked to call nearby enemies. -->
+  <AncientEnemyTerminal.description>ﻦﻜﻤﻳ .ﺔﻳﺮﺛﺃ ﺏﻮﺳﺎﺣ ﺔﻴﻓﺮﻃ\nﺀﺍﺪﻋﻷﺍ ﺀﺎﻋﺪﺘﺳﻻ ﺎﻬﻗﺍﺮﺘﺧﺍ\n.ﻦﻴﺒﻳﺮﻘﻟﺍ</AncientEnemyTerminal.description>
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. -->
+  <AncientEnemyTerminal.comps.CompHackable.autohackWarningString>ﺀﺍﺪﻋﻷﺍ ﻪﺒﻨﻴﺳ ﺍﺬﻫ {0} ﻕﺍﺮﺘﺧﺍ\n.ﻡﻮﺠﻬﻠﻟ ﻢﻬﻌﻓﺪﻳﻭ</AncientEnemyTerminal.comps.CompHackable.autohackWarningString>
+  <!-- EN: Hack to call nearby enemies. -->
+  <AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>.ﻦﻴﺒﻳﺮﻘﻟﺍ ﺀﺍﺪﻋﻷﺍ ﺀﺎﻋﺪﺘﺳﻻ ﻕﺮﺘﺧﺍ</AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: security crate -->
+  <AncientSecurityCrate.label>ﻲﻨﻣﺃ ﻕﻭﺪﻨﺻ</AncientSecurityCrate.label>
+  <!-- EN: A large self-powered hermetically-sealed crate with built-in security alarms. These can preserve their contents for a long time. If it is opened without the proper code, it will probably activate some nearby security system. -->
+  <AncientSecurityCrate.description>ﻢﻜﺤﻣ ﺔﻗﺎﻄﻟﺍ ﻲﺗﺍﺫ ﺮﻴﺒﻛ ﻕﻭﺪﻨﺻ\nﺔﻴﻨﻣﺃ ﺭﺍﺬﻧﺇ ﺓﺰﻬﺟﺃ ﻊﻣ ﻕﻼﻏﻹﺍ\nﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﺎﻬﻨﻜﻤﻳ .ﺔﺠﻣﺪﻣ\nﺍﺫﺇ .ﺔﻠﻳﻮﻃ ﺓﺮﺘﻔﻟ ﺎﻬﺗﺎﻳﻮﺘﺤﻣ\nﻦﻤﻓ ،ﺢﻴﺤﺼﻟﺍ ﺩﻮﻜﻟﺍ ﻥﻭﺪﺑ ﺢﺘُﻓ\nﻥﺎﻣﺃ ﻡﺎﻈﻧ ﻂﺸﻨﻳ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ\n.ﺐﻳﺮﻗ</AncientSecurityCrate.description>
+  
+  <!-- EN: ancient terminal -->
+  <AncientTerminal.label>ﺔﻳﺮﺛﺃ ﺔﻴﻓﺮﻃ</AncientTerminal.label>
+  <!-- EN: An ancient computer terminal. It can be hacked to reveal long-forgotten information. -->
+  <AncientTerminal.description>ﻦﻜﻤﻳ .ﺔﻳﺮﺛﺃ ﺏﻮﺳﺎﺣ ﺔﻴﻓﺮﻃ\nﺔﻴﺴﻨﻣ ﺕﺎﻣﻮﻠﻌﻣ ﺭﺎﻬﻇﻹ ﺎﻬﻗﺍﺮﺘﺧﺍ\n.ﻞﻳﻮﻃ ﻦﻣﺯ ﺬﻨﻣ</AncientTerminal.description>
+  
+  <!-- EN: ancient terminal -->
+  <AncientTerminal_Worshipful.label>ﺔﻳﺮﺛﺃ ﺔﻴﻓﺮﻃ</AncientTerminal_Worshipful.label>
+  <!-- EN: An ancient computer terminal. It can be hacked to reveal long-forgotten information. -->
+  <AncientTerminal_Worshipful.description>ﻦﻜﻤﻳ .ﺔﻳﺮﺛﺃ ﺏﻮﺳﺎﺣ ﺔﻴﻓﺮﻃ\nﺔﻴﺴﻨﻣ ﺕﺎﻣﻮﻠﻌﻣ ﺭﺎﻬﻇﻹ ﺎﻬﻗﺍﺮﺘﺧﺍ\n.ﻞﻳﻮﻃ ﻦﻣﺯ ﺬﻨﻣ</AncientTerminal_Worshipful.description>
+  
+</LanguageData>

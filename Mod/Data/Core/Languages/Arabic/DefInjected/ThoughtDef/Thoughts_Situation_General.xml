@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_Situational, ThoughtWorker_ApparelDamaged. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: ratty apparel -->
+  <ApparelDamaged.stages.ratty_apparel.label>ﺔﺛﺭ ﺲﺑﻼﻣ</ApparelDamaged.stages.ratty_apparel.label>
+  <!-- EN: The holes in my outfit are annoyingly large. Can't I get something new to wear? -->
+  <ApparelDamaged.stages.ratty_apparel.description>ﻞﻜﺸﺑ ﺓﺮﻴﺒﻛ ﻲﺴﺑﻼﻣ ﻲﻓ ﺕﺎﺤﺘﻔﻟﺍ\nﺀﻲﺷ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻲﻨﻨﻜﻤﻳ ﻻﺃ .ﺞﻋﺰﻣ\n؟ﻪﻳﺪﺗﺭﻷ ﺪﻳﺪﺟ</ApparelDamaged.stages.ratty_apparel.description>
+  <!-- EN: tattered apparel -->
+  <ApparelDamaged.stages.tattered_apparel.label>ﺔﻗﺰﻤﻣ ﺲﺑﻼﻣ</ApparelDamaged.stages.tattered_apparel.label>
+  <!-- EN: This thing looks like it's about to fall apart. Can't I wear something that doesn't belong in a trash heap? -->
+  <ApparelDamaged.stages.tattered_apparel.description>ﻚﺷﻭ ﻰﻠﻋ ﻪﻧﺄﻛﻭ ﻭﺪﺒﻳ ﺀﻲﺸﻟﺍ ﺍﺬﻫ\nﺀﻲﺷ ﺀﺍﺪﺗﺭﺍ ﻲﻨﻨﻜﻤﻳ ﻻﺃ .ﺭﺎﻴﻬﻧﻻﺍ\n؟ﺔﻣﺎﻤﻗ ﺔﻣﻮﻛ ﻰﻟﺇ ﻲﻤﺘﻨﻳ ﻻ</ApparelDamaged.stages.tattered_apparel.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_DeadMansApparel. Label: {REASON}, {PAWN}. Description: {PAWN} -->
+  <!-- EN: tainted {0} -->
+  <DeadMansApparel.stages.tainted.label>{0} ﺙﻮﻠﻣ</DeadMansApparel.stages.tainted.label>
+  <!-- EN: I am wearing a piece of apparel that someone died in. It creeps me out and feels dirty. -->
+  <DeadMansApparel.stages.tainted.description>ﺎﻬﻴﻓ ﺕﺎﻣ ﺲﺑﻼﻣ ﺔﻌﻄﻗ ﻯﺪﺗﺭﺃ ﺎﻧﺃ\nﺮﻌﺷﺃ ﻲﻨﻠﻌﺠﻳﻭ ﻲﻨﻔﻴﺨﻳ ﺍﺬﻫ .ﺺﺨﺷ\n.ﺓﺭﺍﺬﻘﻟﺎﺑ</DeadMansApparel.stages.tainted.description>
+  <!-- EN: tainted {0} (+1) -->
+  <DeadMansApparel.stages.tainted_1.label>{0} )+1( ﺙﻮﻠﻣ</DeadMansApparel.stages.tainted_1.label>
+  <!-- EN: I am wearing two pieces of apparel that someone died in. It creeps me out and feels dirty. -->
+  <DeadMansApparel.stages.tainted_1.description>ﺕﺎﻣ ﺲﺑﻼﻤﻟﺍ ﻦﻣ ﻦﻴﺘﻌﻄﻗ ﻯﺪﺗﺭﺃ ﺎﻧﺃ\nﻲﻨﻠﻌﺠﻳﻭ ﻲﻨﻔﻴﺨﻳ ﺍﺬﻫ .ﺺﺨﺷ ﺎﻤﻬﻴﻓ\n.ﺓﺭﺍﺬﻘﻟﺎﺑ ﺮﻌﺷﺃ</DeadMansApparel.stages.tainted_1.description>
+  <!-- EN: tainted {0} (+2) -->
+  <DeadMansApparel.stages.tainted_2.label>{0} )+2( ﺙﻮﻠﻣ</DeadMansApparel.stages.tainted_2.label>
+  <!-- EN: I am wearing three pieces of apparel that someone died in. It creeps me out and feels dirty. -->
+  <DeadMansApparel.stages.tainted_2.description>ﺲﺑﻼﻤﻟﺍ ﻦﻣ ﻊﻄﻗ ﺙﻼﺛ ﻯﺪﺗﺭﺃ ﺎﻧﺃ\nﻲﻨﻔﻴﺨﻳ ﺍﺬﻫ .ﺺﺨﺷ ﺎﻬﻴﻓ ﺕﺎﻣ\n.ﺓﺭﺍﺬﻘﻟﺎﺑ ﺮﻌﺷﺃ ﻲﻨﻠﻌﺠﻳﻭ</DeadMansApparel.stages.tainted_2.description>
+  <!-- EN: tainted {0} etc -->
+  <DeadMansApparel.stages.tainted_etc.label>ﺦﻟﺍ {0} ﺙﻮﻠﻣ</DeadMansApparel.stages.tainted_etc.label>
+  <!-- EN: I am wearing four or more pieces of apparel that someone died in. It creeps me out and feels dirty. -->
+  <DeadMansApparel.stages.tainted_etc.description>ﻦﻣ ﺮﺜﻛﺃ ﻭﺃ ﻊﻄﻗ ﻊﺑﺭﺃ ﻯﺪﺗﺭﺃ ﺎﻧﺃ\nﺍﺬﻫ .ﺺﺨﺷ ﺎﻬﻴﻓ ﺕﺎﻣ ﺲﺑﻼﻤﻟﺍ\n.ﺓﺭﺍﺬﻘﻟﺎﺑ ﺮﻌﺷﺃ ﻲﻨﻠﻌﺠﻳﻭ ﻲﻨﻔﻴﺨﻳ</DeadMansApparel.stages.tainted_etc.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Cold. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: chilly -->
+  <EnvironmentCold.stages.chilly.label>ﺩﺭﺎﺑ</EnvironmentCold.stages.chilly.label>
+  <!-- EN: I'm uncomfortably cold. -->
+  <EnvironmentCold.stages.chilly.description>.ﺔﺤﻳﺮﻣ ﺮﻴﻏ ﺓﺩﻭﺮﺒﺑ ﺮﻌﺷﺃ</EnvironmentCold.stages.chilly.description>
+  <!-- EN: cold -->
+  <EnvironmentCold.stages.cold.label>ًﺍﺪﺟ ﺩﺭﺎﺑ</EnvironmentCold.stages.cold.label>
+  <!-- EN: I'm so cold, I'm shivering. -->
+  <EnvironmentCold.stages.cold.description>.ﺶﻌﺗﺭﺃ ،ًﺍﺪﺟ ﺩﺭﺎﺑ ﺎﻧﺃ</EnvironmentCold.stages.cold.description>
+  <!-- EN: numbing cold -->
+  <EnvironmentCold.stages.numbing_cold.label>ﺭﺪﺨﻣ ﺩﺮﺑ</EnvironmentCold.stages.numbing_cold.label>
+  <!-- EN: I can't stop shivering. My teeth are chattering. All I can think of is getting warm. -->
+  <EnvironmentCold.stages.numbing_cold.description>.ﺵﺎﻌﺗﺭﻻﺍ ﻦﻋ ﻒﻗﻮﺘﻟﺍ ﻲﻨﻨﻜﻤﻳ ﻻ\nﻮﻫ ﻪﻴﻓ ﺮﻜﻓﺃ ﺎﻣ ﻞﻛ .ﻚﻄﺼﺗ ﻲﻧﺎﻨﺳﺃ\n.ﺔﺌﻓﺪﺘﻟﺍ</EnvironmentCold.stages.numbing_cold.description>
+  <!-- EN: absolutely freezing -->
+  <EnvironmentCold.stages.absolutely_freezing.label>ًﺎﻣﺎﻤﺗ ﺪﻤﺠﺘﺗ</EnvironmentCold.stages.absolutely_freezing.label>
+  <!-- EN: My teeth are chattering so hard I can barely speak. My toes are numb. I need to get warm. -->
+  <EnvironmentCold.stages.absolutely_freezing.description>ﻲﻨﻧﺃ ﺔﺟﺭﺪﻟ ﺓﻮﻘﺑ ﻚﻄﺼﺗ ﻲﻧﺎﻨﺳﺃ\nﻊﺑﺎﺻﺃ .ﻡﻼﻜﻟﺍ ﻊﻴﻄﺘﺳﺃ ﺩﺎﻜﻟﺎﺑ\n.ﺔﺌﻓﺪﺘﻠﻟ ﺝﺎﺘﺣﺃ .ﺓﺭﺪﺨﻣ ﻲﻣﺪﻗ</EnvironmentCold.stages.absolutely_freezing.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Dark. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: darkness -->
+  <EnvironmentDark.stages.darkness.label>ﻡﻼﻇ</EnvironmentDark.stages.darkness.label>
+  <!-- EN: I've been in the dark for a while. I don't like it. -->
+  <EnvironmentDark.stages.darkness.description>ﺐﺣﺃ ﻻ .ﺓﺮﺘﻔﻟ ﻡﻼﻈﻟﺍ ﻲﻓ ﺖﻨﻛ ﺪﻘﻟ\n.ﺍﺬﻫ</EnvironmentDark.stages.darkness.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Hot. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: sweaty -->
+  <EnvironmentHot.stages.sweaty.label>ﻕﺮﻌﺘﻣ</EnvironmentHot.stages.sweaty.label>
+  <!-- EN: It's too hot here. I'm sweating. -->
+  <EnvironmentHot.stages.sweaty.description>.ﻕﺮﻌﺗﺃ ﺎﻧﺃ .ﺎﻨﻫ ًﺍﺪﺟ ﺭﺎﺣ ﻮﺠﻟﺍ</EnvironmentHot.stages.sweaty.description>
+  <!-- EN: hot -->
+  <EnvironmentHot.stages.hot.label>ﺭﺎﺣ</EnvironmentHot.stages.hot.label>
+  <!-- EN: It's way too hot here. If I could just have a breath of cool air... -->
+  <EnvironmentHot.stages.hot.description>ﻲﻨﻨﻜﻣﺃ ﻮﻟ .ﺎﻨﻫ ًﺍﺪﺟ ﺭﺎﺣ ﻮﺠﻟﺍ\nﺀﺍﻮﻫ ﻦﻣ ﺲﻔﻧ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻂﻘﻓ\n...ﺩﺭﺎﺑ</EnvironmentHot.stages.hot.description>
+  <!-- EN: sweltering hot -->
+  <EnvironmentHot.stages.sweltering_hot.label>ﻖﻧﺎﺧ ﺭﺎﺣ</EnvironmentHot.stages.sweltering_hot.label>
+  <!-- EN: I feel like I'm in an oven! I'm not sure how long I can handle this. -->
+  <EnvironmentHot.stages.sweltering_hot.description>ﺖﺴﻟ !ﻥﺮﻓ ﻲﻓ ﻲﻨﻧﺄﻛﻭ ﺮﻌﺷﺃ\nﻲﻨﻨﻜﻤﻳ ﺖﻗﻮﻟﺍ ﻦﻣ ﻢﻛ ًﺍﺪﻛﺄﺘﻣ\n.ﺍﺬﻫ ﻞﻤﺤﺗ</EnvironmentHot.stages.sweltering_hot.description>
+  <!-- EN: blistering hot -->
+  <EnvironmentHot.stages.blistering_hot.label>ﻉﺫﻻ ﺭﺎﺣ</EnvironmentHot.stages.blistering_hot.label>
+  <!-- EN: This place is searing hot. I think I could die from this heat! -->
+  <EnvironmentHot.stages.blistering_hot.description>ﺪﻘﺘﻋﺃ .ﺓﺭﺍﺮﺤﻟﺍ ﻕﺭﺎﺣ ﻥﺎﻜﻤﻟﺍ ﺍﺬﻫ\n!ﺓﺭﺍﺮﺤﻟﺍ ﻩﺬﻫ ﻦﻣ ﺕﻮﻣﺃ ﺪﻗ ﻲﻨﻧﺃ</EnvironmentHot.stages.blistering_hot.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_HumanLeatherApparel. Label: {REASON}, {PAWN}. Description: {PAWN} -->
+  <!-- EN: human leather {0} -->
+  <HumanLeatherApparelHappy.stages.human_leather.label>{0} ﻱﺮﺸﺑ ﺪﻠﺟ</HumanLeatherApparelHappy.stages.human_leather.label>
+  <!-- EN: I enjoy wearing the suffering of others. -->
+  <HumanLeatherApparelHappy.stages.human_leather.description>.ﻦﻳﺮﺧﻵﺍ ﺓﺎﻧﺎﻌﻣ ﺀﺍﺪﺗﺭﺎﺑ ﻊﺘﻤﺘﺳﺃ</HumanLeatherApparelHappy.stages.human_leather.description>
+  <!-- EN: human leather {0} (+1) -->
+  <HumanLeatherApparelHappy.stages.human_leather_1.label>{0} )+1( ﻱﺮﺸﺑ ﺪﻠﺟ</HumanLeatherApparelHappy.stages.human_leather_1.label>
+  <!-- EN: This will scare them. All will know my power. -->
+  <HumanLeatherApparelHappy.stages.human_leather_1.description>ﻊﻴﻤﺠﻟﺍ ﻑﺮﻌﻴﺳ .ﻢﻬﻔﻴﺨﻴﺳ ﺍﺬﻫ\n.ﻲﺗﻮﻗ</HumanLeatherApparelHappy.stages.human_leather_1.description>
+  <!-- EN: human leather {0} (+2) -->
+  <HumanLeatherApparelHappy.stages.human_leather_2.label>{0} )+2( ﻱﺮﺸﺑ ﺪﻠﺟ</HumanLeatherApparelHappy.stages.human_leather_2.label>
+  <!-- EN: The faces on my clothes aren't smiling, but they make *me* happy. -->
+  <HumanLeatherApparelHappy.stages.human_leather_2.description>،ﺔﻤﺴﺘﺒﻣ ﺖﺴﻴﻟ ﻲﺴﺑﻼﻣ ﻰﻠﻋ ﻩﻮﺟﻮﻟﺍ\n.ًﺍﺪﻴﻌﺳ ﻲﻨﻠﻌﺠﺗ ﺎﻬﻨﻜﻟ</HumanLeatherApparelHappy.stages.human_leather_2.description>
+  <!-- EN: human leather {0} etc -->
+  <HumanLeatherApparelHappy.stages.human_leather_etc.label>ﺦﻟﺍ {0} ﻱﺮﺸﺑ ﺪﻠﺟ</HumanLeatherApparelHappy.stages.human_leather_etc.label>
+  <!-- EN: The flesh! The flesh signals my triumph! -->
+  <HumanLeatherApparelHappy.stages.human_leather_etc.description>!ﻱﺭﺎﺼﺘﻧﺍ ﻦﻠﻌﻳ ﻢﺤﻠﻟﺍ !ﻢﺤﻠﻟﺍ</HumanLeatherApparelHappy.stages.human_leather_etc.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_HumanLeatherApparel. Label: {REASON}, {PAWN}. Description: {PAWN} -->
+  <!-- EN: human leather {0} -->
+  <HumanLeatherApparelSad.stages.human_leather.label>{0} ﻱﺮﺸﺑ ﺪﻠﺟ</HumanLeatherApparelSad.stages.human_leather.label>
+  <!-- EN: Wearing parts of someone's body is... disturbing. -->
+  <HumanLeatherApparelSad.stages.human_leather.description>...ﺎﻣ ﺺﺨﺷ ﺪﺴﺟ ﻦﻣ ﺀﺍﺰﺟﺃ ﺀﺍﺪﺗﺭﺍ\n.ﻖﻠﻘﻣ ﺮﻣﺃ</HumanLeatherApparelSad.stages.human_leather.description>
+  <!-- EN: human leather {0} (+1) -->
+  <HumanLeatherApparelSad.stages.human_leather_1.label>{0} )+1( ﻱﺮﺸﺑ ﺪﻠﺟ</HumanLeatherApparelSad.stages.human_leather_1.label>
+  <!-- EN: I'm dressed like an insane person. -->
+  <HumanLeatherApparelSad.stages.human_leather_1.description>.ﻥﻮﻨﺠﻣ ﺺﺨﺷ ﻲﻨﻧﺄﻛﻭ ﻭﺪﺑﺃ</HumanLeatherApparelSad.stages.human_leather_1.description>
+  <!-- EN: human leather {0} (+2) -->
+  <HumanLeatherApparelSad.stages.human_leather_2.label>{0} )+2( ﻱﺮﺸﺑ ﺪﻠﺟ</HumanLeatherApparelSad.stages.human_leather_2.label>
+  <!-- EN: I think there may be a face on my clothes. Oh no... my clothes *are* a face. -->
+  <HumanLeatherApparelSad.stages.human_leather_2.description>ﻰﻠﻋ ﻪﺟﻭ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﺪﻗ ﻪﻧﺃ ﺪﻘﺘﻋﺃ\n*ﻲﻫ* ﻲﺴﺑﻼﻣ ...ﻻ ﻩﻭﺃ .ﻲﺴﺑﻼﻣ\n.ﻪﺟﻭ</HumanLeatherApparelSad.stages.human_leather_2.description>
+  <!-- EN: human leather {0} etc -->
+  <HumanLeatherApparelSad.stages.human_leather_etc.label>ﺦﻟﺍ {0} ﻱﺮﺸﺑ ﺪﻠﺟ</HumanLeatherApparelSad.stages.human_leather_etc.label>
+  <!-- EN: I look like a freak from a horror show, and I feel like I'm living in a horror show. -->
+  <HumanLeatherApparelSad.stages.human_leather_etc.description>ﺮﻌﺷﺃﻭ ،ﺐﻋﺭ ﺽﺮﻋ ﻦﻣ ﺦﺴﻤﻛ ﻭﺪﺑﺃ\n.ﺐﻋﺭ ﺽﺮﻋ ﻲﻓ ﺶﻴﻋﺃ ﻲﻨﻧﺄﻛﻭ</HumanLeatherApparelSad.stages.human_leather_etc.description>
+  
+  <!-- EN: I love reading -->
+  <LoveReading.stages.I_love_reading.label>ﺓﺀﺍﺮﻘﻟﺍ ﺐﺣﺃ</LoveReading.stages.I_love_reading.label>
+  <!-- EN: Reading really engages my intellectual passions. -->
+  <LoveReading.stages.I_love_reading.description>.ﻱﺮﻜﻔﻟﺍ ﻲﻔﻐﺷ ًﺎﻘﺣ ﻞﻐﺸﺗ ﺓﺀﺍﺮﻘﻟﺍ</LoveReading.stages.I_love_reading.description>
+  <!-- EN: I really love reading -->
+  <LoveReading.stages.I_really_love_reading.label>ًﺍﺮﻴﺜﻛ ﺓﺀﺍﺮﻘﻟﺍ ﺐﺣﺃ</LoveReading.stages.I_really_love_reading.label>
+  <!-- EN: Reading excites my burning intellectual passions! I just love learning this way. -->
+  <LoveReading.stages.I_really_love_reading.description>ﻱﺮﻜﻔﻟﺍ ﻲﻔﻐﺷ ﺮﻴﺜﺗ ﺓﺀﺍﺮﻘﻟﺍ\nﻢﻠﻌﺘﻟﺍ ﺐﺣﺃ ﻂﻘﻓ ﺎﻧﺃ !ﺐﻬﺘﻠﻤﻟﺍ\n.ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻬﺑ</LoveReading.stages.I_really_love_reading.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Sick. Label: {PAWN}. Description: {PAWN}  -->
+  <!-- EN: sick -->
+  <Sick.stages.sick.label>ﺾﻳﺮﻣ</Sick.stages.sick.label>
+  <!-- EN: I don't feel very well. -->
+  <Sick.stages.sick.description>.ﺮﻴﺨﺑ ﻲﻨﻧﺃ ﺮﻌﺷﺃ ﻻ</Sick.stages.sick.description>
+  
+  <!-- EN: interesting textbook -->
+  <SkillBookPassion.stages.interesting_textbook.label>ﻡﺎﻤﺘﻫﻼﻟ ﺮﻴﺜﻣ ﻲﺳﺭﺪﻣ ﺏﺎﺘﻛ</SkillBookPassion.stages.interesting_textbook.label>
+  <!-- EN: This book covers a topic I'm passionate about. It's interesting. -->
+  <SkillBookPassion.stages.interesting_textbook.description>ﺎﻧﺃ ًﺎﻋﻮﺿﻮﻣ ﻲﻄﻐﻳ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ\n.ﻡﺎﻤﺘﻫﻼﻟ ﺮﻴﺜﻣ ﻪﻧﺇ .ﻪﺑ ﻑﻮﻐﺷ</SkillBookPassion.stages.interesting_textbook.description>
+  <!-- EN: amazing textbook -->
+  <SkillBookPassion.stages.amazing_textbook.label>ﺶﻫﺪﻣ ﻲﺳﺭﺪﻣ ﺏﺎﺘﻛ</SkillBookPassion.stages.amazing_textbook.label>
+  <!-- EN: This book covers a topic I'm very passionate about. It's captivating. -->
+  <SkillBookPassion.stages.amazing_textbook.description>ﺎﻧﺃ ًﺎﻋﻮﺿﻮﻣ ﻲﻄﻐﻳ ﺏﺎﺘﻜﻟﺍ ﺍﺬﻫ\n.ﺮﺳﺁ ﻪﻧﺇ .ًﺍﺪﺟ ﻪﺑ ﻑﻮﻐﺷ</SkillBookPassion.stages.amazing_textbook.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_WrongApparelGender. Label: {0}(apparel-gender), {PAWN}. Description: {0}(apparel-gender), {1}(pawn-gender), {PAWN} -->
+  <!-- EN: wearing {0} apparel -->
+  <WrongApparelGender.stages.wearing_apparel.label>{0} ﺲﺑﻼﻣ ﺀﺍﺪﺗﺭﺍ</WrongApparelGender.stages.wearing_apparel.label>
+  <!-- EN: I'm wearing apparel that was clearly made for {0}s! This is embarrassing. -->
+  <WrongApparelGender.stages.wearing_apparel.description>ﺎﻬﻧﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ ﺲﺑﻼﻣ ﻯﺪﺗﺭﺃ ﺎﻧﺃ\n.ﺝﺮﺤﻣ ﺍﺬﻫ !{0} ـﻟ ﺖﻌﻨُﺻ</WrongApparelGender.stages.wearing_apparel.description>
+  
+</LanguageData>

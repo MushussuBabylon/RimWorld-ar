@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Inhumanization -->
+  <!-- EN: Rehumanized -->
+  <ReHumanizedLabel>ﺔﻴﻧﺎﺴﻧﻹﺍ ﺓﺩﺎﻌﺘﺳﺍ</ReHumanizedLabel>
+  <!-- EN: {0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed. -->
+  <ReHumanizedText>.ﺔﻳﺮﺸﺒﻟﺎﺑ ﻪﻃﺎﺒﺗﺭﺍ {0_nameDef} ﺩﺎﻌﺘﺳﺍ\nﺔﻴﺤﺼﻟﺍ 'ﺔﻴﻧﺎﺴﻧﺇﻼﻟﺍ' ﺔﻟﺎﺣ ﺖﻠﻳﺯﺃ\n.{0_nameDef} ـﻟ</ReHumanizedText>
+  <!-- EN: Warning from {0_nameDef} -->
+  <WarningFromLabel>{0_nameDef} ﻦﻣ ﺮﻳﺬﺤﺗ</WarningFromLabel>
+
+  <!-- Hate chanters -->
+  <!-- EN: Cultist hate chanters -->
+  <HateChantersLabel>ﻥﻮﻴﻔﺋﺎﻄﻟﺍ ﺔﻴﻫﺍﺮﻜﻟﺍ ﻮﻓﺎﺘﻫ</HateChantersLabel>
+  <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
+  <HateChantersText>.ﻥﻮﻴﻔﺋﺎﻄﻟﺍ ﺔﻴﻫﺍﺮﻜﻟﺍ ﻮﻓﺎﺘﻫ ﻞﺻﻭ\nﻑﺎﺘﻫ ﺱﻮﻘﻃ ﺀﺍﺩﺃ ﻥﻮﻣﺰﺘﻌﻳ\nﻲﻓ ﻲﺴﻔﻨﻟﺍ ﺐﻀﻐﻟﺍ ﺐﺼﻟ ﺔﻴﻫﺍﺮﻜﻟﺍ\nﺩﺍﺩﺰﻴﺳ .ﻥﻮﻨﺠﻠﻟ ﻢﻬﻌﻓﺩﻭ ﻚﻳﺮﻤﻌﺘﺴﻣ\nﻑﺎﻘﻳﺇ ﻢﺘﻳ ﻰﺘﺣ ﺎًﻋﺎﻔﺗﺭﺍ ﻑﺎﺘﻬﻟﺍ\n.ﻦﻴﻴﻔﺋﺎﻄﻟﺍ</HateChantersText>
+  <!-- EN: Cultists attacking -->
+  <HateChantersAttackingLabel>ﻥﻮﻤﺟﺎﻬﻳ ﻥﻮﻴﻔﺋﺎﻃ</HateChantersAttackingLabel>
+  <!-- EN: The cultists have ended their hate chant and have begun to come out of their ritual trance.\n\nPrepare to defend. -->
+  <HateChantersAttackingText>ﺔﻴﻫﺍﺮﻜﻟﺍ ﻑﺎﺘﻫ ﻥﻮﻴﻔﺋﺎﻄﻟﺍ ﻰﻬﻧﺃ\nﻢﻬﺘﺒﻴﻏ ﻦﻣ ﺝﻭﺮﺨﻟﺎﺑ ﺍﻭﺃﺪﺑﻭ\n.ﺔﻴﺴﻘﻄﻟﺍ\n\n.ﻉﺎﻓﺪﻠﻟ ﺪﻌﺘﺳﺍ</HateChantersAttackingText>
+
+  <!-- Psychic rituals -->
+  <!-- EN: {0} complete -->
+  <PsychicRitualCompleteLabel>{0} ﻞﻤﺘﻛﺍ</PsychicRitualCompleteLabel>
+
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities. -->
+  <VoidProvocationCompletedText>ﺔﻀﺒﻧ ًﻼﺳﺮﻣ ،{RITUAL_definite} ﺲﻘﻃ ﺀﺍﺩﺃ {INVOKER_nameDef} ﻰﻬﻧﺃ\n.ﺕﺎﻧﺎﻴﻜﻟﺍ ﺏﺬﺠﺘﺳ ﺔﻴﺴﻔﻧ</VoidProvocationCompletedText>
+  <!-- EN: Prepare for what comes next. -->
+  <VoidProvocationSucceeded>.ﺪﻌﺑ ﻲﺗﺄﻴﺳ ﺎﻤﻟ ﺪﻌﺘﺳﺍ</VoidProvocationSucceeded>
+  <!-- EN: Unfortunately, your call has been left unanswered. -->
+  <VoidProvocationFailed>.ﻚﺋﺍﺪﻨﻟ ﺐﺠﺘﺴُﻳ ﻢﻟ ،ﻒﺳﻸﻟ</VoidProvocationFailed>
+  <!-- EN: In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma. -->
+  <VoidProvocationDarkPsychicShock>ﺎًﺌﻴﺷ {INVOKER_nameDef} ﺢﻤﻟ ،ﺀﺎﻨﺛﻷﺍ ﻩﺬﻫ ﻲﻓ\n.ﻱﺮﺸﺒﻟﺍ ﻙﺍﺭﺩﻹﺍ ﻕﻮﻔﻳ ﺎًﺒﻋﺮﻣ\nﻲﻓ ﻪﻠﺧﺩﺃﻭ {INVOKER_objective} ﻖﻌﺻ ﻲﺴﻔﻨﻟﺍ ﻡﻼﻈﻟﺍ\n.ﺓﺮﻴﺼﻗ ﺔﺑﻮﺒﻴﻏ</VoidProvocationDarkPsychicShock>
+  <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
+  <PhilophagyCompleteText>ﺕﺍﺭﺎﻬﻣ ﺎًﺼﺘﻤﻣ ،{RITUAL_definite} ﺲﻘﻃ {INVOKER_nameDef} ﻞﻤﻛﺃ\n.{TARGET_nameDef} ﺕﺎﻳﺮﻛﺫﻭ</PhilophagyCompleteText>
+  <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
+  <PawnGainedXPInSkill>{2_label} ﻲﻓ ﺓﺮﺒﺧ ﺔﻄﻘﻧ {0_nameDef} {1} ﺐﺴﺘﻛﺍ</PawnGainedXPInSkill>
+  <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
+  <PawnLostXPInSkill>{2_label} ﻲﻓ ﺓﺮﺒﺧ ﺔﻄﻘﻧ {0_nameDef} {1} ﺪﻘﻓ</PawnLostXPInSkill>
+  <!-- EN: rising from skill level {0} to {1}. -->
+  <PhilophagySkillLevelGained>ﻰﻟﺇ {0} ﺓﺭﺎﻬﻤﻟﺍ ﻯﻮﺘﺴﻣ ﻦﻣ ﺍًﺪﻋﺎﺻ\n.{1}</PhilophagySkillLevelGained>
+  <!-- EN: falling from skill level {0} to {1}. -->
+  <PhilophagySkillLevelLost>ﻰﻟﺇ {0} ﺓﺭﺎﻬﻤﻟﺍ ﻯﻮﺘﺴﻣ ﻦﻣ ﺎًﻄﺑﺎﻫ\n.{1}</PhilophagySkillLevelLost>
+  <!-- EN: remaining at skill level {0}. -->
+  <PhilophagySkillLevelRemains>.{0} ﺓﺭﺎﻬﻤﻟﺍ ﻯﻮﺘﺴﻣ ﺪﻨﻋ ﺎًﻴﻗﺎﺑ</PhilophagySkillLevelRemains>
+  <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
+  <PhilophagyDamagedTarget>،{TARGET_nameDef} ﻍﺎﻣﺪﺑ ﺍًﺭﺮﺿ ﺔﻴﻠﻤﻌﻟﺍ ﺖﻘﺤﻟﺃ\n.ﺔﺑﻮﺒﻴﻏ ﻲﻓ {TARGET_objective} ﺖﻠﺧﺩﺃﻭ</PhilophagyDamagedTarget>
+
+  <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
+  <ImbueDeathRefuralCompleteText>{0_pronoun} ـﻟ ﻦﻜﻤﻳ .ﺕﻮﻤﻟﺍ ﺾﻓﺭ {0_nameDef} ﺢﻨُﻣ\n.ﺕﻮﻤﻟﺍ ﺪﻌﺑ ﻪﺴﻔﻧ ﺀﺎﻴﺣﺇ ﻥﻵﺍ\n\n،{0_nameDef} ﻍﺎﻣﺩ ﺭﻮﻤﺿ ﻲﻓ ﺔﻴﻠﻤﻌﻟﺍ ﺖﺒﺒﺴﺗ\nﻪﻋﻮﻤﺠﻣ ﺎﻤﻟ {0_objective} ﻥﺍﺪﻘﻓ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ\n.{0_possessive} ﺕﺍﺭﺎﻬﻣ ﻲﻓ ﺓﺮﺒﺧ ﺔﻄﻘﻧ {1}</ImbueDeathRefuralCompleteText>
+
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly. -->
+  <SummonAnimalsSuccessText>ﻊﻴﻄﻗ ﻊﻗﻮﺗ .{RITUAL_definite} ﺲﻘﻃ {0_nameDef} ﻞﻤﻛﺃ\n.ﺎًﺒﻳﺮﻗ ﺕﺎﻧﺍﻮﻴﺣ</SummonAnimalsSuccessText>
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival! -->
+  <SummonAnimalsFailureText>!ﺡﺩﺎﻓ ﺄﻄﺧ ﺙﺪﺣ ﻦﻜﻟ {RITUAL_definite} ﺲﻘﻃ {0_nameDef} ﻞﻤﻛﺃ\nﺔﺳﺮﺘﻔﻣ ﺕﺎﻧﺍﻮﻴﺣ ﺲﻘﻄﻟﺍ ﺏﺬﺘﺟﺍ\nﺪﻌﺘﺳﺍ .ﺎﻳﺭﺎﻜﺴﻟﺎﺑ ﺔﺑﺎﺼﻣ\n!ﺎﻬﻟﻮﺻﻮﻟ</SummonAnimalsFailureText>
+  
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival. -->
+  <SummonShamblersCompleteText>ﺪﻌﺘﺳﺍ .{RITUAL_definite} ﺲﻘﻃ ﺡﺎﺠﻨﺑ {0_nameDef} ﻞﻤﻛﺃ\n.ﻢﻬﻟﻮﺻﻮﻟ</SummonShamblersCompleteText>
+
+  <!-- EN: They are attacking from multiple directions. -->
+  <AttackingFromMultipleDirections>ﺕﺎﻫﺎﺠﺗﺍ ﻦﻣ ﻥﻮﻤﺟﺎﻬﻳ ﻢﻬﻧﺇ\n.ﺓﺩﺪﻌﺘﻣ</AttackingFromMultipleDirections> 
+
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
+  <ChronophagyCompleteText>ﺲﻘﻄﻠﻟ ﺖﻧﺎﻛ .{RITUAL_definite} ﺲﻘﻃ ﺡﺎﺠﻨﺑ {0_nameDef} ﻞﻤﻛﺃ\n:ﺔﻴﻟﺎﺘﻟﺍ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ</ChronophagyCompleteText>
+  <!-- EN: {0_nameDef} aged {1} years -->
+  <ChronophagyTargetAged>ﺔﻨﺳ {1} ﺮﻤﻌﻟﺍ ﻲﻓ {0_nameDef} ﻡﺪﻘﺗ</ChronophagyTargetAged>
+  <!-- EN: {0_nameDef} became {1} years younger -->
+  <ChronophagyInvokerRejuvenated>ﺔﻨﺳ {1} ـﺑ ﺮﻐﺻﺃ {0_nameDef} ﺢﺒﺻﺃ</ChronophagyInvokerRejuvenated>
+  <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
+  <ChronophagyTargetDiedOfOldAge>ﻦﻣ ﺔﺧﻮﺨﻴﺸﻟﺍ ﺩﺎﻬﺟﺇ {0_nameDef} ﻞﻤﺤﺘﻳ ﻢﻟ\nﻡﺪﻘﺗ ﺐﺒﺴﺑ ﺕﺎﻣﻭ ﻲﺟﺎﻓﻮﻧﻭﺮﻛ ﺲﻘﻃ\n.ﺮﻤﻌﻟﺍ</ChronophagyTargetDiedOfOldAge>
+  <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
+  <ChronophagyTargetOldAgeDiseases>،ﻲﺟﺎﻓﻮﻧﻭﺮﻛ ﺲﻘﻃ ﻦﻣ {0_nameDef} ﺎﺠﻧ ﺎﻤﻨﻴﺑ\nﺔﻴﻟﺎﺘﻟﺍ ﺕﻻﺎﺤﻟﺎﺑ {0_pronoun} ﺐﻴﺻﺃ</ChronophagyTargetOldAgeDiseases>
+  <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
+  <ChronophagyInvokerCuredDiseases>ﺔﻴﻠﻤﻌﻟﺍ ﺖﺠﻟﺎﻋ ،ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ\n:ﺔﻴﻟﺎﺘﻟﺍ ﺽﺍﺮﻣﻷﺍ ﻦﻣ {0_nameDef}</ChronophagyInvokerCuredDiseases>
+  <!-- EN: and is now {0} years old -->
+  <ChronophagyCurrentAge>ﺔﻨﺳ {0} ﻩﺮﻤﻋ ﻥﻵﺍ ﺢﺒﺻﺃﻭ</ChronophagyCurrentAge>
+
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
+  <PleasurePulseCompleteText>{1} ـﻠﻟ .{RITUAL_definite} ﺲﻘﻃ ﺀﺍﺩﺃ {0_nameDef} ﻰﻬﻧﺃ\n{RITUAL_definite} ـﺑ ﺮﺛﺄﺗ ﻦﻣ ﻞﻛ ﻥﻮﻜﻴﺳ ،ﺔﻣﺩﺎﻘﻟﺍ\n.ﺄﻄﺑﺃ ﻥﻮﻠﻤﻌﻳ ﻢﻬﻨﻜﻟﻭ ﺓﺩﺎﻌﺳ ﺮﺜﻛﺃ</PleasurePulseCompleteText>
+
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable. -->
+  <NeurosisPulseCompleteText>{1} ـﻠﻟ .{RITUAL_definite} ﺲﻘﻃ ﺀﺍﺩﺃ {0_nameDef} ﻰﻬﻧﺃ\nﻊﻤﺳ ﻦﻣ ﻞﻛ ﻞﻤﻌﻴﺳ ،ﺔﻣﺩﺎﻘﻟﺍ\nﺮﺜﻛﺃ ﻥﻮﻧﻮﻜﻴﺳ ﻦﻜﻟﻭ ﻉﺮﺳﺃ ﺔﻀﺒﻨﻟﺍ\n.ﺎًﺠﻴﻬﺗ</NeurosisPulseCompleteText>
+
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
+  <BloodRainCompleteText>ﺕﺍﺮﻄﻗ ﺕﺃﺪﺑ .{RITUAL_definite} ﺲﻘﻃ ﺀﺍﺩﺃ {0_nameDef} ﻰﻬﻧﺃ\nﻦﻣ ﻂﻗﺎﺴﺘﻟﺎﺑ ﺔﻔﻴﺜﻛ ﺀﺍﺮﻤﺣ\nﻞﺧﺍﺪﻟﺍ ﻲﻓ ﻊﻴﻤﺠﻟﺍ ِﻖﺑﺃ .ﺀﺎﻤﺴﻟﺍ\n.ﺝﺎﻴﻬﻟﺍ ﻦﻣ ﻢﻬﻌﻨﻤﻟ</BloodRainCompleteText>
+
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
+  <BrainwipeCompleteText>ﺎًﻴﺤﻤﻣ ،{RITUAL_definite} ﺲﻘﻃ ﺀﺍﺩﺃ {INVOKER_nameDef} ﻰﻬﻧﺃ\n.ﻱﻮﺿﻮﻓ ﻞﻜﺸﺑ {TARGET_nameDef} ﺕﺎﻳﺮﻛﺫ</BrainwipeCompleteText>
+  <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
+  <BrainwipeTargetComa>.{1} ﺓﺪﻤﻟ ﺔﺑﻮﺒﻴﻏ ﻲﻓ {TARGET_pronoun} ﻰﻘﺒﻴﺳ</BrainwipeTargetComa>
+  <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
+  <BrainwipeUnwaveringlyLoyal>.ﺕﺎﺒﺜﺑ ﺎًﺼﻠﺨﻣ {TARGET_nameDef} ﺪﻌﻳ ﻢﻟ</BrainwipeUnwaveringlyLoyal>
+  <!-- EN: {TARGET_nameDef} has been re-humanized. -->
+  <BrainwipeRehumanized>.{TARGET_nameDef} ﺔﻴﻧﺎﺴﻧﺇ ﺓﺩﺎﻋﺇ ﺖﻤﺗ</BrainwipeRehumanized>
+
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
+  <PsychophagyCompleteText>ﻢﻬﺘﻟﺍﻭ {RITUAL_definite} ﺲﻘﻃ ﺀﺍﺩﺃ {INVOKER_nameDef} ﻰﻬﻧﺃ\n.{TARGET_nameDef} ـﻟ ﻲﺴﻔﻨﻟﺍ ﺩﻮﺟﻮﻟﺍ</PsychophagyCompleteText>
+  <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
+  <PsychophagyTargetSurvived>ﺖﻘﺤﻟﺃ .ﺎًﻴﺴﻔﻧ ﻢﺻﺃ ﻥﻵﺍ {TARGET_nameDef} ﺢﺒﺻﺃ\nﺖﻠﺧﺩﺃﻭ ،{TARGET_nameDef} ﻍﺎﻣﺪﺑ ﺍًﺭﺮﺿ ﺔﻴﻠﻤﻌﻟﺍ\n.ﺔﺑﻮﺒﻴﻏ ﻲﻓ {TARGET_objective}</PsychophagyTargetSurvived>
+  
+  <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
+  <PsychicRitualTargetBrainLiquified>ﻯﺩﺃ ﺎﻤﻣ ،{TARGET_nameDef} ﻍﺎﻣﺩ ﺔﻴﻠﻤﻌﻟﺍ ﺖﻟﺎﺳﺃ\n.{TARGET_objective} ﻞﺘﻘﻣ ﻰﻟﺇ</PsychicRitualTargetBrainLiquified>
+
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
+  <SummonFleshbeastsPlayerCompleteText>ﺔﻴﻤﺤﻟ ﺵﻮﺣﻭ .{RITUAL_definite} ﺲﻘﻃ ﺀﺍﺩﺃ {0_nameDef} ﻰﻬﻧﺃ\n!ﺽﺭﻷﺍ ﻦﻣ ﻖﺜﺒﻨﺗ</SummonFleshbeastsPlayerCompleteText>
+
+  <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
+  <GhoulInfusionCompleteText>ﻩﻮﺷ .ﺖﻳﺍﺮﻴﻓﻮﻴﺒﻟﺎﺑ {TARGET_nameDef} ﺦﺿ {INVOKER_nameDef} ﻰﻬﻧﺃ\n،{TARGET_possessive} ﺪﺴﺟ ﺮّﻔﻃﻭ {TARGET_nameDef} ﻞﻘﻋ ﺱﻮﻘﻄﻟﺍ\nﻑﺮﻌُﻳ ﺎًﺒﻋﺮﻣ ﺎًﻗﻮﻠﺨﻣ ﺎًﻧﻮﻜﻣ\nﺎًﻴﺴﻔﻧ ﺎًﻄﺑﺍﺭ {INVOKER_nameDef} ﻙﺭﺎﺸﺘﻳ .ﻝﻮﻐﻟﺎﺑ\nـﺑ ﻢﻜﺤﺘﻟﺎﺑ {INVOKER_objective} ـﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،{TARGET_nameDef} ﻊﻣ\n.{TARGET_nameDef}\n\nﺀﻲﻨﻟﺍ ﻢﺤﻠﻟﺍ ﻞﻛﺄﺗ ﻥﻼﻴﻐﻟﺍ\nﺢﺒﺼﺗ ﺪﻗ ،ﺖﻋﺎﺟ ﺍﺫﺇ .ﺀﺎﻘﺒﻠﻟ\n.ﺔﻳﺩﺎﻌﻣ</GhoulInfusionCompleteText>
+  
+  <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
+  <AttackersMayCastRitualMultipleTimes>ﻚﻴﻠﻋ .ﺕﺍﺮﻣ ﺓﺪﻋ ﺲﻘﻄﻟﺍ ﻥﻭﺩﺆﻳ ﺪﻗ\n.ﻢﻬﻓﺎﻘﻳﺇﻭ ﺏﺎﻫﺬﻟﺍ</AttackersMayCastRitualMultipleTimes>
+
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
+  <SkipAbductionPlayerCompleteText>ﺐﻋﻼﺘﻟﺎﺑ .{RITUAL_definite} ﺲﻘﻃ ﺀﺍﺩﺃ {INVOKER_nameDef} ﻰﻬﻧﺃ\nﻦﻣ {INVOKER_nameDef} {TARGET_nameDef} ﻒﻄﺘﺧﺍ ،ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺎﺑ\nﺲﻘﻄﻠﻟ ﺔﺒﻋﺮﻤﻟﺍ ﺔﻌﻴﺒﻄﻟﺍ .{FACTION_name} ﻞﻴﺼﻓ\n.ﺓﺮﻴﺼﻗ ﺔﺑﻮﺒﻴﻏ ﻲﻓ {TARGET_nameDef} ﺖﻋﺩﻭﺃ</SkipAbductionPlayerCompleteText>
+
+  <!-- Fleshmass response -->
+  <FleshmassResponseLabel>ﺔﻴﻤﺤﻠﻟﺍ ﺔﻠﺘﻜﻟﺍ ﺔﺑﺎﺠﺘﺳﺍ</FleshmassResponseLabel> 
+  <!-- EN: The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself. -->
+  <FleshmassResponseText>ﺔﻴﻤﺤﻠﻟﺍ ﺔﻠﺘﻜﻟﺍ ﺕﻮﻣ ﺭﺎﺛﺃ\nﺔﻠﺘﻜﻟﺍ ﻒﺠﺗﺮﺗ !ﺔﻔﻴﻨﻋ ﺔﺑﺎﺠﺘﺳﺍ\nﺔﻴﻤﺤﻟ ﺎًﺷﻮﺣﻭ ﺪﻠﺗ ﻲﻫﻭ ﺔﻴﻤﺤﻠﻟﺍ\n.ﺎﻬﺴﻔﻧ ﻦﻋ ﻉﺎﻓﺪﻠﻟ ﺓﺪﻳﺪﺟ</FleshmassResponseText> 
+
+  <!-- Void awakening -->
+  <!-- EN: Dimming sky -->
+  <VoidAwakeningStageOneStructuresActivatedLabel>ﻢﺘﻌﺗ ﺀﺎﻤﺳ</VoidAwakeningStageOneStructuresActivatedLabel>
+  <!-- EN: Structures activated -->
+  <VoidAwakeningStageTwoStructuresActivatedLabel>ﺔﻠﻌﻔﻣ ﻞﻛﺎﻴﻫ</VoidAwakeningStageTwoStructuresActivatedLabel>
+  <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
+  <VoidAwakeningStageOneStructuresActivatedText>،ﻞﻌﻔﺗ ﺪﻗ ﻲﻧﺎﺜﻟﺍ ﻞﻜﻴﻬﻟﺍ ﻥﺃ ﺎﻤﺑ\nﻲﻌﻴﺒﻃ ﺮﻴﻏ ﻡﻼﻇ .ﺪﺘﺸﻳ ﻡﻼﻈﻟﺍ ﺃﺪﺑ\nﺩﺍﺪﻌﺘﺳﺍ ﻦﻣ ﺪﻛﺄﺗ .ﺎًﺒﻳﺮﻗ ﻞﺤﻴﺳ\nِﻦْﺑﺍﻭ ،ﺩﺭﺍﻮﻤﻟﺍ ﻥﺰﺧ .ﻚﺗﺮﻤﻌﺘﺴﻣ\n،ﺶﻳﻮﺸﺘﻟﺍ ﻞﻋﺎﺸﻣ ﻊﻨﺻﺍﻭ ،ﺀﺍﻮﺿﻷﺍ\nﻲﻓ ﻢﻫ ﻦﻣ ﻂﻘﻓ .ﺕﺎﻋﺎﻓﺪﻟﺍ ﺯﺰﻋﻭ\n.ﻦﻴﻨﻣﺁ ﻥﻮﻧﻮﻜﻴﺳ ﺀﻮﻀﻟﺍ\n\nﺮﺜﻛﺃ ﺔﻳﻮﺘﻠﻣ ﻞﻛﺎﻴﻫ ﺮﻬﻈﺘﺳ\n.ﺎًﺒﻳﺮﻗ</VoidAwakeningStageOneStructuresActivatedText>
+  <!-- EN: All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready. -->
+  <VoidAwakeningStageTwoStructuresActivatedText>.ﻍﺍﺮﻔﻟﺍ ﻞﻛﺎﻴﻫ ﻊﻴﻤﺟ ﻞﻴﻌﻔﺗ ﻢﺗ\nﻍﺍﺮﻔﻟﺍ ﺚﻴﻟﻮﻧﻮﻣ ﻝﻮﺣ ﺀﺎﻀﻔﻟﺍ ﺃﺪﺑ\n.ﺪﻌﺘﺳﺍ .ﻖﻟﺄﺘﻟﺎﺑ</VoidAwakeningStageTwoStructuresActivatedText> 
+  <!-- EN: {STUDIER_nameDef} teleported -->
+  <VoidAwakeningFinalStructuresActivatedLabel>ﺎًﻴﻧﺁ {STUDIER_nameDef} ﻞِﻘُﻧ</VoidAwakeningFinalStructuresActivatedLabel> 
+  <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
+  <VoidAwakeningFinalStructuresActivatedText>ﻕّﺰُﻣﻭ ﺚﻴﻟﻮﻧﻮﻤﻟﺍ {STUDIER_nameDef} ﻞّﻌَﻓ ﺪﻘﻟ\n.ﺮﺧﺁ ﻥﺎﻜﻣ ﻰﻟﺇ ﺎﻨﻧﺎﻜﻣﺯ ﻦﻣ\n\nﻙﺍﻮﺷﺃ ﺕﺍﺫ ﺔﻓﺮﻏ ﻲﻓ ﻪﺴﻔﻧ {STUDIER_pronoun} ﺪﺠﻳ\nﻞﺋﺎﺴﺑ ﻖﻟﺯ ﺢﻄﺳ ﻞﻛ .ﺔﻨﻨﺴﻣ ﺔﻴﻧﺪﻌﻣ\n.ﺔﻗﺎﻄﻟﺎﺑ ﺰﺘﻬﻳ ﺀﺍﻮﻬﻟﺍﻭ ﻦﻛﺍﺩ\n\nﺔﻠﺻﻮﻣ ﺓﺎﻨﻗ ﻮﻫ ﺍﺬﻫ ﻥﺪﻌﻤﻟﺍ ﻢﻴﺤﺟ\n.ﻱﺮﺸﺑ ﺮﻴﻏ ﻕﺭﺎﺧ ﺀﺎﻛﺬﻟ</VoidAwakeningFinalStructuresActivatedText> 
+  <!-- EN: Shambler assault -->
+  <VoidAwakeningShamblerArrivalLabel>ﻦﻳﺮﺜﻌﺘﻤﻟﺍ ﻡﻮﺠﻫ</VoidAwakeningShamblerArrivalLabel>
+  <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
+  <VoidAwakeningShamblerArrivalText>ﻦﻣ ﺍًﺪﺸﺣ ﻍﺍﺮﻔﻟﺍ ﻞﻛﺎﻴﻫ ﺖﺑﺬﺟ\n!ﺪﻌﺘﺳﺍ .ﻦﻳﺮﺜﻌﺘﻤﻟﺍ</VoidAwakeningShamblerArrivalText>
+  <!-- EN: Fleshbeast tunneling -->
+  <VoidAwakeningFleshbeastBurrowLabel>ﺔﻴﻤﺤﻠﻟﺍ ﺵﻮﺣﻮﻟﺍ ﺮﻔﺣ</VoidAwakeningFleshbeastBurrowLabel>
+  <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
+  <VoidAwakeningFleshbeastBurrowText>ﺔﻴﺴﻔﻧ ﺔﻀﺒﻧ ﺚﻴﻟﻮﻧﻮﻤﻟﺍ ﺪّﻟﻭ\n.ﺔﺒﻳﺮﻘﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ ﺎًﺑﺫﺎﺟ ،ﺔﻳﻮﻗ\n\nﺕﺎﺧﺮﺻ ﻉﺎﻤﺳ ﻚﻨﻜﻤﻳ ،ﺽﺭﻷﺍ ﺖﺤﺗ\nﺔﻴﻤﺤﻟ ﺵﻮﺣﻭ .ﺐﻟﺎﺨﻣ ﺵﺪﺧﻭ ﺔﻴﻤﺤﻟ\n!ﺪﻌﺘﺳﺍ .ﻙﻮﺤﻧ ﺮﻔﺤﺗ</VoidAwakeningFleshbeastBurrowText>
+  <!-- EN: Metalhorror attack -->
+  <VoidAwakeningMetalhorrorArrivalLabel>ﻥﺪﻌﻤﻟﺍ ﺐﻋﺭ ﻡﻮﺠﻫ</VoidAwakeningMetalhorrorArrivalLabel>
+  <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
+  <VoidAwakeningMetalhorrorArrivalText>ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻥﻭﺮﻬﻈﻳ ﻥﺪﻌﻤﻟﺍ ﺐﻋﺭ\n!ﺪﻌﺘﺳﺍ .ﻍﺍﺮﻔﻟﺍ ﺚﻴﻟﻮﻧﻮﻣ</VoidAwakeningMetalhorrorArrivalText>
+  <!-- EN: Entity attack -->
+  <VoidAwakeningEntityArrivalLabel>ﻥﺎﻴﻛ ﻡﻮﺠﻫ</VoidAwakeningEntityArrivalLabel> 
+  <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
+  <VoidAwakeningEntityArrivalText>ﻞﻌﻔﻤﻟﺍ ﻲﻏﺍﺮﻔﻟﺍ ﻞﻜﻴﻬﻟﺍ ﺪّﻟﻭ\nﺎًﺑﺫﺎﺟ ،ﺔﻳﻮﺘﻠﻣ ﺔﻴﺴﻔﻧ ﺔﻀﺒﻧ\n!ﺪﻌﺘﺳﺍ .ﺔﺒﻳﺮﻘﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ</VoidAwakeningEntityArrivalText>
+  <!-- EN: Embrace the void -->
+  <VoidAwakeningBreadcrumbLetterLabel>ﻍﺍﺮﻔﻟﺍ ﻦﻀﺘﺣﺍ</VoidAwakeningBreadcrumbLetterLabel>
+  <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
+  <VoidAwakeningBreadcrumbLetterText>،ﻍﺍﺮﻔﻟﺍ ﻞﻜﻴﻫ ﻊﻣ {PAWN_nameDef} ﻞﻋﺎﻔﺗ ﺀﺎﻨﺛﺃ\n{PAWN_pronoun} ﺢﺒﺳ ،ﺔﻈﺤﻠﻟ .ﻍﺍﺮﻔﻠﻟ ﺎﻳﺅﺭ ﻯﺃﺭ\nﻲﻫﺎﻨﺘﻣﻼﻟﺍ ﺩﻮﺳﻷﺍ ﻂﻴﺤﻤﻟﺍ ﻲﻓ\nﺮﻴﻏ ﺓﺩﻭﺪﺤﻣﻼﻟﺍ ﻪﺗﻮﻘﺑ ﺮﻌﺷﻭ ﻖﻤﻌﻟﺍ\n.ﺔﻳﺮﺸﺒﻟﺍ\n\nﺔﻘﻳﺮﻃ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﺪﻗ ﻪﻧﺃ {PAWN_nameDef} ﺪﻘﺘﻌﻳ\nﻥﺎﻀﺘﺣﺍ ﺮﺒﻋ ﺓﻮﻘﻟﺍ ﻚﻠﺘﺑ ﻢﻜﺤﺘﻠﻟ\nﻍﺍﺮﻔﻠﻟ ﺓﺎﻨﻘﻟﺍ ﺖﺤﺘﻓ ﺍﺫﺇ .ﻍﺍﺮﻔﻟﺍ\nﺪﻗ ،ﺎﻬﻗﻼﻏﺇ ﻦﻣ ًﻻﺪﺑ ،ﻢﺋﺍﺩ ﻞﻜﺸﺑ\n.ﻰﺼﺤﺗ ﻻ ﺕﺎﻴﻧﺎﻜﻣﺇ ﻚﻟﺫ ﺮﻓﻮﻳ</VoidAwakeningBreadcrumbLetterText>
+
+  <!-- Void node -->
+  <!-- EN: {PAWN_nameDef} returns -->
+  <VoidNodeReturnedLabel>{PAWN_nameDef} ﺩﻮﻌﻳ</VoidNodeReturnedLabel>
+  <!-- EN: {PAWN_nameDef} has reappeared. -->
+  <VoidNodeReturnedMessage>.ﺍًﺩﺪﺠﻣ {PAWN_nameDef} ﺮﻬﻇ</VoidNodeReturnedMessage>
+  <!-- EN: {PAWN_nameDef} has reappeared.\n\n{PAWN_pronoun} looks withered by the inhuman thought-patterns of the void. All traces of humanity have left {PAWN_possessive} eyes.\n\n{PAWN_nameDef}'s mind and body are now permanently linked to the dark void of inhuman rage. Powered by this new connection, {PAWN_nameDef} no longer feels tethered to mortal needs like comfort or sleep. {PAWN_pronoun} has gained the ability to induce terror in others using the power of the void.\n\nThe monolith is awakened. It hums louder with {PAWN_nameDef}'s reappearance, a reminder that its connection to the void has been opened and made permanent. -->
+  <EmbracedVoidText>.ﺍًﺩﺪﺠﻣ {PAWN_nameDef} ﺮﻬﻇ\n\nﺮﻴﻜﻔﺘﻟﺍ ﻁﺎﻤﻧﺃ ﻦﻣ ﺎﻼﺑﺍﺫ {PAWN_pronoun} ﻭﺪﺒﻳ\nﻞﻛ ﺖﻔﺘﺧﺍ .ﻍﺍﺮﻔﻠﻟ ﺔﻳﺮﺸﺒﻟﺍ ﺮﻴﻏ\n.{PAWN_possessive} ﻲﻨﻴﻋ ﻦﻣ ﺔﻴﻧﺎﺴﻧﻹﺍ ﺭﺎﺛﺁ\n\nﻞﻜﺸﺑ ﻥﺎﻄﺒﺗﺮﻣ ﻥﻵﺍ {PAWN_nameDef} ﺪﺴﺟﻭ ﻞﻘﻋ\nﺮﻴﻏ ﺐﻀﻐﻠﻟ ﻢﻠﻈﻤﻟﺍ ﻍﺍﺮﻔﻟﺎﺑ ﻢﺋﺍﺩ\nﻝﺎﺼﺗﻻﺍ ﺍﺬﻬﺑ ﺎًﻣﻮﻋﺪﻣ .ﻱﺮﺸﺒﻟﺍ\nﻪﻧﺄﺑ ﺮﻌﺸﻳ {PAWN_nameDef} ﺪﻌﻳ ﻢﻟ ،ﺪﻳﺪﺠﻟﺍ\nﺔﻳﺮﺸﺒﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺎﺑ ﺪﻴﻘﻣ\n{PAWN_pronoun} ﺐﺴﺘﻛﺍ .ﻡﻮﻨﻟﺍ ﻭﺃ ﺔﺣﺍﺮﻟﺎﻛ\nﻲﻓ ﺐﻋﺮﻟﺍ ﺓﺭﺎﺛﺇ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ\n.ﻍﺍﺮﻔﻟﺍ ﺓﻮﻗ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻦﻳﺮﺧﻵﺍ\n\nﺕﻮﺼﺑ ﻦﻄﻳ .ﺚﻴﻟﻮﻧﻮﻤﻟﺍ ﻆﻘﻴﺘﺳﺍ\nﻥﺄﺑ ﺍًﺮﻴﻛﺬﺗ ،{PAWN_nameDef} ﺓﺩﻮﻋ ﻊﻣ ﻰﻠﻋﺃ\nﻞﻌُﺟﻭ ﺢﺘُﻓ ﺪﻗ ﻍﺍﺮﻔﻟﺎﺑ ﻪﻟﺎﺼﺗﺍ\n.ﺎًﻤﺋﺍﺩ</EmbracedVoidText>
+  <!-- EN: {PAWN_nameDef} has reappeared. {PAWN_pronoun} is weary from {PAWN_possessive} efforts, but otherwise healthy.\n\nBy closing the channel to the void, {PAWN_nameDef} has stopped any more unnatural phenomena from entering our world. Hostile entities in the area have all fallen to the ground, lifeless.\n\nTales of {PAWN_possessive} heroism are sure to spread far and wide. -->
+  <DisruptedLinkText>ﺩﻮﻬﺟ ﻦﻣ ﻖﻫﺮﻣ {PAWN_pronoun} .ﺍًﺩﺪﺠﻣ {PAWN_nameDef} ﺮﻬﻇ\n.ﻚﻟﺫ ﺍﺪﻋ ﺓﺪﻴﺟ ﺔﺤﺼﺑ ﻪﻨﻜﻟ ،{PAWN_possessive}\n\nﻒﻗﻭﺃ ،ﻍﺍﺮﻔﻟﺍ ﻰﻟﺇ ﺓﺎﻨﻘﻟﺍ ﻕﻼﻏﺈﺑ\nﻦﻣ ﻯﺮﺧﺃ ﺔﻴﻌﻴﺒﻃ ﺮﻴﻏ ﺮﻫﺍﻮﻇ ﻱﺃ {PAWN_nameDef}\nﺕﺎﻧﺎﻴﻜﻟﺍ ﻊﻴﻤﺟ .ﺎﻨﻤﻟﺎﻋ ﻝﻮﺧﺩ\nﻰﻠﻋ ﺖﻄﻘﺳ ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ﺔﻳﺩﺎﻌﻤﻟﺍ\n.ﺓﺪﻣﺎﻫ ،ﺽﺭﻷﺍ\n\n{PAWN_possessive} ﺔﻟﻮﻄﺑ ﺕﺎﻳﺎﻜﺣ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ\n.ﻥﺎﻜﻣ ﻞﻛ ﻲﻓ ﺮﺸﺘﻨﺘﺳ</DisruptedLinkText>
+  <!-- EN: fleshcrafting -->
+  <RewardFleshcraftingAbility>ﻢﺤﻠﻟﺍ ﺖﺤﻧ</RewardFleshcraftingAbility>
+  <!-- EN: slaughter -->
+  <RewardSlaughterAbility>ﺢﺑﺫ</RewardSlaughterAbility>
+  <!-- EN: shambler control -->
+  <RewardShamblerControlAbility>ﻦﻳﺮﺜﻌﺘﻤﻟﺎﺑ ﻢﻜﺤﺘﻟﺍ</RewardShamblerControlAbility>
+
+  <!-- Duplicate sickness -->
+  <!-- EN: Duplicate sickness -->
+  <DuplicateSicknessLabel>ﻦﻳﺮﻘﻟﺍ ﺀﺍﺩ</DuplicateSicknessLabel>
+  <!-- EN: Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies. -->
+  <DuplicateSicknessText>.ﻚﻋﻮﺘﻟﺎﺑ {0_possessive}ـﻳﺮﻗﻭ {0_nameDef} ﻦﻣ ﻞﻛ ﺮﻌﺸﻳ\nﺔﻴﻠﻤﻌﺑ ﺔﻄﺒﺗﺮﻣ ﺎﻤﻬﺘﻟﺎﺣ ﻥﺃ ﻭﺪﺒﻳ\n.ﺍًﺀﻮﺳ ﺩﺍﺩﺰﺗ ﻲﻫﻭ ﺥﺎﺴﻨﺘﺳﻻﺍ\nﺎﻤﻬﻌﻤﺠﻳ ﻱﺬﻟﺍ ﻲﺴﻔﻨﻟﺍ ﻂﺑﺍﺮﻟﺍ\n.ﺀﻂﺒﺑ ﻲﻋﻮﻠﻟ ﺎﻤﻬﻧﺍﺪﻘﻓ ﻲﻓ ﺐﺒﺴﺘﻳ\nﺕﻮﻤﻳ ﻰﺘﺣ ﺔﻟﺎﺤﻟﺍ ﻦﺴﺤﺘﺗ ﻦﻟ\n.ﺎﻤﻫﺪﺣﺃ</DuplicateSicknessText>
+
+  <!-- Frenzied animals -->
+  <!-- EN: Frenzied animals -->
+  <FrenziedAnimalsLabel>ﺔﺟﺎﺘﻬﻣ ﺕﺎﻧﺍﻮﻴﺣ</FrenziedAnimalsLabel>
+  <!-- EN: A pack of man-hunting {0} have entered the area! They've been attracted by your ritual. They will roam the region hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out or fight them. -->
+  <FrenziedAnimalsText>ﺮﺸﺒﻟﺍ ﺓﺪﺋﺎﺻ {0} ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﺖﻠﺧﺩ\n.ﻚﺴﻘﻃ ﺎﻬﺑﺬﺟ ﺪﻘﻟ !ﺔﻘﻄﻨﻤﻟﺍ\nﻢﺤﻟ ﻦﻋ ﺔﺜﺣﺎﺑ ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ﻝﻮﺠﺘﺘﺳ\n.ﻱﺮﺸﺑ\n\nَﺮﺗ ﻢﻟ ﺎﻣ ﺏﺍﻮﺑﻷﺍ ﻢﺟﺎﻬﺗ ﻦﻟ\nﻲﻓ ﺊﺒﺘﺧﺍ .ﺏﺎﺒﻟﺍ ﺮﺒﻌﻳ ﺎًﺼﺨﺷ\nﻢﺟﺎﻬﺗ ﻦﻟ .ﺎًﻨﻣﺁ ﻥﻮﻜﺘﺳﻭ ﻞﺧﺍﺪﻟﺍ\nﺊﻔﻃﺃ ﺍﺬﻟ ،ﺓﺄﻔﻄﻤﻟﺍ ﺝﺍﺮﺑﻷﺍ ﺎًﻀﻳﺃ\n.ﺎﻫﺫﺎﻘﻧﻹ ﻚﺟﺍﺮﺑﺃ\n\nﻭﺃ ﻡﻮﻳ ﻲﻓ ﺔﻘﻄﻨﻤﻟﺍ {0} ﺭﺩﺎﻐﺘﺳ\nﺭﺎﻈﺘﻧﺍﻭ ﺀﺎﺒﺘﺧﻻﺍ ﻚﻨﻜﻤﻳ .ﻦﻴﻣﻮﻳ\n.ﺎﻬﻟﺎﺘﻗ ﻭﺃ ﺎﻬﻠﻴﺣﺭ</FrenziedAnimalsText>
+
+  <!-- Ghouls -->
+  <!-- EN: Ghoul betrayal -->
+  <GhoulBetrayalLabel>ﻝﻮﻐﻟﺍ ﺔﻧﺎﻴﺧ</GhoulBetrayalLabel>
+  <!-- EN: {PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat! -->
+  <GhoulBetrayalText>ﻢﺤﻠﻟ ﺪﻳﺪﺸﻟﺍ ﻪﻋﻮﺟ ﻦﻣ {PAWN_nameDef} ﻥﻮﻨﺟ ﻦُﺟ\n!ﺀﻲﻨﻟﺍ</GhoulBetrayalText>
+  
+  <!-- Distress signal -->
+  <!-- EN: Distress signal -->
+  <DistressSignalLabel>ﺔﺛﺎﻐﺘﺳﺍ ﺓﺭﺎﺷﺇ</DistressSignalLabel>
+  <!-- EN: You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead. -->
+  <DistressSignalText>ﺮﻜﺴﻌﻣ ﻦﻣ ﺔﺛﺎﻐﺘﺳﺍ ﺓﺭﺎﺷﺇ ﺖﻄﻘﺘﻟﺍ\n.{FACTION_name} ـﻟ ﺐﻳﺮﻗ\n\nﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﻞﺳﻮﺘﻳ ﺭﻮﻋﺬﻤﻟﺍ ﺕﻮﺼﻟﺍ\nﺪﺿ ﻉﺎﻓﺪﻟﺍ ﻲﻓ ﺔﻳﺭﻮﻓ ﺓﺪﻋﺎﺴﻣ\nﻲﻓ ﺀﻲﺷ ﻞﻛ ﻥﻮﺿﺮﻌﻳ .ﺪﻳﺪﻬﺗ\nﻲﻓ ﺎﻤﺑ ،ﺓﺪﻋﺎﺴﻤﻟﺍ ﻞﺑﺎﻘﻣ ﻢﻫﺮﻜﺴﻌﻣ\n.ﺔﻳﻮﻗ ﺎﻴﺟﻮﻟﻮﻨﻜﺗﻮﻛﺭﺃ ﺎﻳﺎﻈﺷ ﻚﻟﺫ\n\nﺔﻌﻴﺒﻃ ﺡﺮﺷ ﺕﻮﺼﻟﺍ ﻝﻭﺎﺤﻳ ﺎﻤﻨﻴﺑ\n.ﺓﺭﺎﺷﻹﺍ ﻊﻄﻘﻨﺗ ،ﺪﻳﺪﻬﺘﻟﺍ</DistressSignalText>
+  <!-- EN: Ambush -->
+  <DistressSignalAmbushLabel>ﻦﻴﻤﻛ</DistressSignalAmbushLabel>
+  <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
+  <DistressSignalAmbushText>ﺓﺮﻔﺣ ﺮﺤﺟ ﻦﻣ ﺔﻴﻤﺤﻟ ﺵﻮﺣﻭ ﻖﺜﺒﻨﺗ\n!ﺐﻳﺮﻗ</DistressSignalAmbushText>
+
+  <!-- Chimeras -->
+  <!-- EN: Chimeras approach -->
+  <ChimeraAssaultLabel>ﺏﺮﺘﻘﺗ ﺍﺮﻴﻤﻴﻛ</ChimeraAssaultLabel>
+  <!-- EN: A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked. -->
+  <ChimeraAssaultText>ﺍﺮﻴﻤﻴﻜﻟﺍ ﺵﻮﺣﻭ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﺕﺮﻬﻇ\nﺕﺎﻧﺍﻮﻴﺤﻟﺎﺑ ﺔﻬﻴﺒﺸﻟﺍ ﺔﻫﻮﺸﻤﻟﺍ\n.ﺏﺮﻘﻟﺎﺑ\n\nﺐﻗﺍﺮﺘﺳ ﺔﻫﻮﺸﻤﻟﺍ ﺵﻮﺣﻮﻟﺍ\n.ﻡﻮﺠﻬﻠﻟ ﺔﺻﺮﻓ ﺓﺮﻈﺘﻨﻣ ،ﻚﺗﺮﻤﻌﺘﺴﻣ\nﺍﺫﺇ ﻢﻘﺘﻨﺗ ﺪﻗﻭ ﺔﻧﺎﺒﺟ ﺎﻬﻧﺇ\n.ﺎﻬﺗﺯﺰﻔﺘﺳﺍ</ChimeraAssaultText>
+
+  <!-- Unnatural darkness -->
+  <!-- EN: Darkness lifting -->
+  <DarknessLiftingEarlyLetterLabel>ﻡﻼﻈﻟﺍ ﻉﺎﺸﻘﻧﺍ</DarknessLiftingEarlyLetterLabel>
+  <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
+  <DarknessLiftingEarlyLetterText>.ﺔﻴﺳﻮﺑﺎﻜﻟﺍ ﺓﺪﻤﻋﻷﺍ ﺮﺧﺁ ﺭﺎﻬﻧﺍ\n.ﺩﺪﺒﺘﻟﺎﺑ ﻲﻌﻴﺒﻄﻟﺍ ﺮﻴﻏ ﻡﻼﻈﻟﺍ ﺃﺪﺑ\nﻲﻓ ﺀﺍﺪﻌﺼﻟﺍ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﺲﻔﻨﺘﻳ\n.ﻲﻓﺎﺼﻟﺍ ﺀﺍﻮﻬﻟﺍ</DarknessLiftingEarlyLetterText>
+  <!-- EN: {0_nameDef} attacked -->
+  <PawnAttackedInDarknessLabel>{0_nameDef} ﻢﺟﻮﻫ</PawnAttackedInDarknessLabel>
+  <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
+  <PawnAttackedInDarknessText>!{0_nameDef} ﻡﻼﻈﻟﺍ ﻲﻓ ﺀﻲﺷ ﻢﺟﺎﻫ\n\n{0_pronoun} ﻥﻮﻜﻳ ﻰﺘﺣ ﺕﺎﻤﺠﻬﻟﺍ ﻩﺬﻫ ﺮﻤﺘﺴﺘﺳ\n.ﺀﻮﻀﻟﺍ ﻲﻓ ﻥﺎﻣﺄﺑ</PawnAttackedInDarknessText>
+  <!-- EN: Noctol attack -->
+  <NoctolAttackLetterLabel>ﻝﻮﺘﻛﻮﻧ ﻡﻮﺠﻫ</NoctolAttackLetterLabel>
+  <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
+  <NoctolAttackLetterText>ﺕﺍﻮﺻﺃ ﺝﺮﺨﺗ .ﻞﻤﻠﻤﺘﻟﺎﺑ ﻡﻼﻈﻟﺍ ﺃﺪﺑ\nﺎﻣ ﻥﺎﻜﻣ ﻦﻣ ﺔﻳﺮﺸﺑ ﺮﻴﻏ ﺔﻌﻗﺮﻗ\n.ﻚﻟﺎﺤﻟﺍ ﺩﺍﻮﺴﻟﺍ ﻞﺧﺍﺩ\n\nﺔﻬﻴﺒﺷ ﺀﺍﺩﻮﺳ ﺕﻻﻮﺘﻛﻮﻧ ﻡﻮﻘﺘﺳ\nﻡﻼﻈﻟﺍ ﻦﻣ ﻡﻮﺠﻬﻟﺎﺑ ﺕﺍﺮﺸﺤﻟﺎﺑ\n.ﺎًﺒﻳﺮﻗ</NoctolAttackLetterText>
+  <!-- EN: Darkness soon -->
+  <DarknessWarningLetterLabel>ﺐﻳﺮﻗ ﻡﻼﻈﻟﺍ</DarknessWarningLetterLabel>
+  <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
+  <DarknessWarningLetterText>ﻦﻣ ﻂﻘﻓ .ﻝﻮﺻﻮﻟﺍ ﻚﺷﻭ ﻰﻠﻋ ﻡﻼﻈﻟﺍ\nﺢﻴﺑﺎﺼﻤﻟﺍ ﻦﻣ ﺮﺷﺎﺒﻣ ﺀﻮﺿ ﺖﺤﺗ ﻢﻫ\nﺔﺠﻫﻮﺘﻤﻟﺍ ﻞﻋﺎﺸﻤﻟﺍ ﻭﺃ ﻞﻋﺎﺸﻤﻟﺍ ﻭﺃ\n.ﻦﻴﻨﻣﺁ ﻥﻮﻧﻮﻜﻴﺳ\n\nﻲﻓ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ\nﻲﻓ ﻢﻬﺘﻛﺮﺣ ﺪﻴﻴﻘﺗ ﻚﻨﻜﻤﻳ ،ﺀﻮﻀﻟﺍ\nﻖﻃﺎﻨﻣ ﻦﻴﻴﻌﺗ ﺮﺒﻋ ﻝﻭﺪﺠﻟﺍ ﺐﻳﻮﺒﺗ\n.ﺔﺣﻮﻤﺴﻣ</DarknessWarningLetterText>
+  <!-- EN: Darkness wavering -->
+  <DarknessWaveringLetterLabel>ﺏﺬﺑﺬﺘﻳ ﻡﻼﻈﻟﺍ</DarknessWaveringLetterLabel>
+  <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
+  <DarknessWaveringLetterText>ﺥﺮﺷ ﺮﻬﻈﻳ ،ﺚﻴﻟﻮﺘﻛﻮﻧ ﺮﻴﻣﺪﺗ ﻊﻣ\nﺊﻠﺘﻤﻳ ﻥﺃ ﻞﺒﻗ ،ﻡﻼﻈﻟﺍ ﻲﻓ ﺖﻓﺎﺧ\n.ﻲﻧﺎﺧﺪﻟﺍ ﺩﺍﻮﺴﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺎﺑ\n\nﺀﺎﻬﻧﻹ ﺔﻴﻘﺒﺘﻤﻟﺍ ﺕﺎﺜﻴﻟﻮﺘﻛﻮﻧ ﺮﻣﺩ\n.ﻲﻌﻴﺒﻄﻟﺍ ﺮﻴﻏ ﻡﻼﻈﻟﺍ</DarknessWaveringLetterText>
+
+  <!-- Shambler Swarms -->
+  <!-- EN: Shamblers approach -->
+  <LetterLabelShamblerSwarmArrived>ﻥﻮﺑﺮﺘﻘﻳ ﻥﻭﺮﺜﻌﺘﻣ</LetterLabelShamblerSwarmArrived>
+  <!-- EN: Shambler approaches -->
+  <LetterLabelShamblerArrived>ﺏﺮﺘﻘﻳ ﺮﺜﻌﺘﻣ</LetterLabelShamblerArrived>
+  <!-- EN: A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
+  <LetterShamblerSwarmArrived>ﺓﺮﺜﻌﺘﻣ ﺔﻨﻔﻌﺘﻣ ﺔﺜﺟ {0} ﻦﻣ ﺔﻋﻮﻤﺠﻣ\nﺕﺩﺎﻋﺃ ﺔﻳﺮﺸﺑ ﺮﻴﻏ ﺓﻮﻗ .ﺏﺮﺘﻘﺗ\nﺓﺪﻣﺎﻬﻟﺍ ﺩﺎﺴﺟﻷﺍ ﻩﺬﻫ ﺀﺎﻴﺣﺇ\n.ﻞﺘﻘﻟﺎﺑ ﺎﻬﺗﺮﻣﺃﻭ\n\nﺕﺃﺭ ﺍﺫﺇ .ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ﻥﻵﺍ ﻝﻮﺠﺘﺘﺳ\nﻲﻓ ﺭﺩﺎﻐﺘﺳ ،ﻻﺇﻭ .ﻢﺟﺎﻬﺘﺳ ،ﺍﺮًﺸﺑ\n.ﻡﺎﻳﺃ ﻥﻮﻀﻏ\n\nﻚﻨﻜﻤﻳ ،ﺎﻫﺪﺣﺃ ﺮﺳﺃ ﻦﻣ ﺖﻨﻜﻤﺗ ﺍﺫﺇ\nﺔﻓﺮﻌﻣ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﻪﺘﺳﺍﺭﺩ\n.ﺫﻭﺬﺸﻟﺍ</LetterShamblerSwarmArrived>
+  <!-- EN: A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge. -->
+  <LetterShamblerArrived>ﺓﻮﻗ .ﺏﺮﺘﻘﺗ ﺓﺮﺜﻌﺘﻣ ﺔﻨﻔﻌﺘﻣ ﺔﺜﺟ\nﺍﺬﻫ ﺀﺎﻴﺣﺇ ﺕﺩﺎﻋﺃ ﺔﻳﺮﺸﺑ ﺮﻴﻏ\n.ﻞﺘﻘﻟﺎﺑ ﻪﺗﺮﻣﺃﻭ ﺪﻣﺎﻬﻟﺍ ﺪﺴﺠﻟﺍ\n\nﺕﺃﺭ ﺍﺫﺇ .ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ﻥﻵﺍ ﻝﻮﺠﺘﺘﺳ\nﻲﻓ ﺭﺩﺎﻐﺘﺳ ،ﻻﺇﻭ .ﻢﺟﺎﻬﺘﺳ ،ﺍﺮًﺸﺑ\n.ﻡﺎﻳﺃ ﻥﻮﻀﻏ\n\nﻚﻨﻜﻤﻳ ،ﺎﻫﺮﺳﺃ ﻦﻣ ﺖﻨﻜﻤﺗ ﺍﺫﺇ\nﺔﻓﺮﻌﻣ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺎﻬﺘﺳﺍﺭﺩ\n.ﺫﻭﺬﺸﻟﺍ</LetterShamblerArrived>
+  <!-- EN: {ANIMALKIND_label} shamblers -->
+  <LetterLabelShamblerAnimalsArrived>{ANIMALKIND_label} ﻥﻭﺮﺜﻌﺘﻣ</LetterLabelShamblerAnimalsArrived>
+  <!-- EN: A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
+  <LetterShamblerAnimalsArrived>ﺔﻨﻔﻌﺘﻤﻟﺍ {ANIMALKIND_label} ﺚﺜﺟ ﻦﻣ ﺔﻋﻮﻤﺠﻣ\nﺔﻳﺮﺸﺑ ﺮﻴﻏ ﺓﻮﻗ .ﺏﺮﺘﻘﺗ ﺓﺮﺜﻌﺘﻤﻟﺍ\nﺎﻬﺗﺮﻣﺃﻭ ﺩﺎﺴﺟﻷﺍ ﻩﺬﻫ ﺀﺎﻴﺣﺇ ﺕﺩﺎﻋﺃ\n.ﻞﺘﻘﻟﺎﺑ\n\nﺕﺃﺭ ﺍﺫﺇ .ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ﻥﻵﺍ ﻝﻮﺠﺘﺘﺳ\nﻲﻓ ﺭﺩﺎﻐﺘﺳ ،ﻻﺇﻭ .ﻢﺟﺎﻬﺘﺳ ،ﺍﺮًﺸﺑ\n.ﻡﺎﻳﺃ ﻥﻮﻀﻏ\n\nﻚﻨﻜﻤﻳ ،ﺎﻫﺪﺣﺃ ﺮﺳﺃ ﻦﻣ ﺖﻨﻜﻤﺗ ﺍﺫﺇ\nﺔﻓﺮﻌﻣ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺎﻬﺘﺳﺍﺭﺩ\n.ﺫﻭﺬﺸﻟﺍ</LetterShamblerAnimalsArrived>
+
+  <!-- Ghoul pod crash -->
+  <!-- EN: Transport pod crash -->
+  <GhoulPodCrashLabel>ﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ ﻢﻄﺤﺗ</GhoulPodCrashLabel>
+  <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
+  <GhoulPodCrashText>ًﻻﻮﻏ ﻞﻤﺤﺗ ﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ ﺖﻄﺒﻫ\n.ﺏﺮﻘﻟﺎﺑ ﺎًﻳﺩﺎﻌﻣ ﺎًﺳﺮﺘﻔﻣ\n\n،ﺔﻣﺪﺻ ﺔﻟﺎﺣ ﻲﻓ ﺎًﻴﻟﺎﺣ ﻝﻮﻐﻟﺍ\nﻱﺃ ﻢﺟﺎﻬﻳﻭ ﺎًﺒﻳﺮﻗ ﻰﻓﺎﻌﺘﻴﺳ ﻪﻨﻜﻟ\nﺔﺼﻨﻣ ﻰﻟﺇ ﻩﺮﺳﺃ ﻦﻜﻤﻳ .ﻩﺍﺮﻳ ﺺﺨﺷ\n.ﺔﺳﺍﺭﺪﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺯﺎﺠﺘﺣﺍ\n\n.ﻆﻘﻴﺘﺴﻳ ﻥﺃ ﻞﺒﻗ ﻞﺘﻗﺍ ﻭﺃ ﺮﺳﺃ</GhoulPodCrashText>
+  <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
+  <GhoulPodCrashStartingPawnText>ًﻻﻮﻏ ﻞﻤﺤﺗ ﻞﻘﻧ ﺔﻟﻮﺴﺒﻛ ﺖﻄﺒﻫ\nﺺﺤﻔﺘﺑ .ﺏﺮﻘﻟﺎﺑ ﺎًﻳﺩﺎﻌﻣ ﺎًﺳﺮﺘﻔﻣ\nﻲﻓ ﻖﺑﺎﺳ ﻮﻀﻋ ،{PAWN_nameDef} ﻪﻧﺃ ﻭﺪﺒﻳ ،ﺏﺮﻗﺃ\n.ﻚﻤﻗﺎﻃ\n\n،ﺔﻣﺪﺻ ﺔﻟﺎﺣ ﻲﻓ ﺎًﻴﻟﺎﺣ ﻝﻮﻐﻟﺍ\nﻱﺃ ﻢﺟﺎﻬﻳﻭ ﺎًﺒﻳﺮﻗ ﻰﻓﺎﻌﺘﻴﺳ ﻪﻨﻜﻟ\nﺔﺼﻨﻣ ﻰﻟﺇ ﻩﺮﺳﺃ ﻦﻜﻤﻳ .ﻩﺍﺮﻳ ﺺﺨﺷ\n.ﺔﺳﺍﺭﺪﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺯﺎﺠﺘﺣﺍ\n\n.ﻆﻘﻴﺘﺴﻳ ﻥﺃ ﻞﺒﻗ ﻞﺘﻗﺍ ﻭﺃ ﺮﺳﺃ</GhoulPodCrashStartingPawnText>
+
+  <!-- Entity codex -->
+  <!-- EN: New research available -->
+  <LetterLabelEntityDiscovery>ﺡﺎﺘﻣ ﺪﻳﺪﺟ ﺚﺤﺑ</LetterLabelEntityDiscovery>
+  <!-- EN: Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects -->
+  <LetterTextEntityDiscoveryResearch>.ﺓﺪﻳﺪﺟ ﻯﺅﺭ ﺮﻤﺛﺃ {ENTITY_definite} ـﻟ ﻚﻓﺎﺸﺘﻛﺍ\nﺫﻭﺬﺸﻟﺍ ﻊﻳﺭﺎﺸﻣ ﺚﺤﺑ ﻥﻵﺍ ﻚﻨﻜﻤﻳ\nﺔﻴﻟﺎﺘﻟﺍ</LetterTextEntityDiscoveryResearch>
+
+  <!-- Nociosphere -->
+  <!-- EN: Nociosphere defeated -->
+  <NociosphereDefeatedLabel>ﺮﻴﻔﺳﻮﻴﺳﻮﻨﻟﺍ ﻡﺰﻫ</NociosphereDefeatedLabel>
+  <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
+  <NociosphereDefeatedText>ﻩﺀﺍﺭﻭ ﺎًﻔﻠﺨﻣ ،ﺮﻴﻔﺳﻮﻴﺳﻮﻨﻟﺍ ﺮﻣﺩ\n.ﺔﻤﻴﻘﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﺍًﺩﺪﻋ</NociosphereDefeatedText>
+  <!-- EN: Nociosphere destabilising -->
+  <NociosphereBecomingUnstableLabel>ﺭﺍﺮﻘﺘﺳﻻﺍ ﺪﻘﻔﻳ ﺮﻴﻔﺳﻮﻴﺳﻮﻨﻟﺍ</NociosphereBecomingUnstableLabel> 
+  <!-- EN: The nociosphere's energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
+  <NociosphereBecomingUnstableText>ﺮﻴﻔﺳﻮﻴﺳﻮﻨﻟﺍ ﺔﻗﺎﻃ ﻂﻤﻧ ﺃﺪﺑ\n10 ﻥﻮﻀﻏ ﻲﻓ .ﻒﻴﻜﺘﻟﺍﻭ ﻝﻮﺤﺘﻟﺎﺑ\n.ﻥﻵﺍ ﺪﻌﺑ ﻊﻤﻘﻠﻟ ﺐﻴﺠﺘﺴﻳ ﻦﻟ ،ﻡﺎﻳﺃ\n\nﻢﻟ ﺍﺫﺇ ﺮﻴﻔﺳﻮﻴﺳﻮﻨﻟﺍ ﻂﺸﻨﻴﺳ\n.ﻊﻤﻘُﻳ</NociosphereBecomingUnstableText> 
+  <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
+  <NociosphereBecomingUnstableTextExtraSendable>ﻪﻟﺎﺳﺭﺈﺑ ﺮﻴﻔﺳﻮﻴﺳﻮﻨﻟﺍ ﻦﻣ ﺺﻠﺨﺗ\n.ﺓﺮﻴﺒﻛ ﺔﻳﺩﺎﻌﻣ ﺓﻮﻗ ﺔﻤﺟﺎﻬﻤﻟ\nﺭﺩﺎﻐﻴﺳ ،ﻪﻣﻮﺠﻫ ﻝﺎﻤﺘﻛﺍ ﺩﺮﺠﻤﺑ\n.ﻢﺋﺍﺩ ﻞﻜﺸﺑ</NociosphereBecomingUnstableTextExtraSendable>
+  <!-- EN: Study the nociosphere to find a way to dispose of it. -->
+  <NociosphereBecomingUnstableTextExtraNotSendable>ﺔﻘﻳﺮﻃ ﺩﺎﺠﻳﻹ ﺮﻴﻔﺳﻮﻴﺳﻮﻨﻟﺍ ﺱﺭﺩﺍ\n.ﻪﻨﻣ ﺺﻠﺨﺘﻠﻟ</NociosphereBecomingUnstableTextExtraNotSendable>
+  <!-- EN: Nociosphere unstable -->
+  <NociosphereUnstableLabel>ﺮﻘﺘﺴﻣ ﺮﻴﻏ ﺮﻴﻔﺳﻮﻴﺳﻮﻨﻟﺍ</NociosphereUnstableLabel>
+  <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
+  <NociosphereUnstableText>ﻢﻟﻭ ﺮﻘﺘﺴﻣ ﺮﻴﻏ ﺮﻴﻔﺳﻮﻴﺳﻮﻨﻟﺍ ﺢﺒﺻﺃ\nﻞﺼﻳ ﺎﻣﺪﻨﻋ .ﻊﻤﻘﻠﻟ ﺐﻴﺠﺘﺴﻳ ﺪﻌﻳ\n.ﻆﻘﻴﺘﺴﻴﺳ ،%100 ﻰﻟﺇ ﻪﻃﺎﺸﻧ</NociosphereUnstableText>
+  <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
+  <NociosphereUnstableTextExtraSendable>ﻪﻟﺎﺳﺭﺈﺑ ﺮﻴﻔﺳﻮﻴﺳﻮﻨﻟﺍ ﻦﻣ ﺺﻠﺨﺗ\n.ﺓﺮﻴﺒﻛ ﺔﻳﺩﺎﻌﻣ ﺓﻮﻗ ﺔﻤﺟﺎﻬﻤﻟ\nﺭﺩﺎﻐﻴﺳ ،ﻪﻣﻮﺠﻫ ﻝﺎﻤﺘﻛﺍ ﺩﺮﺠﻤﺑ\n.ﻢﺋﺍﺩ ﻞﻜﺸﺑ</NociosphereUnstableTextExtraSendable> 
+  <!-- EN: Prepare for the nociosphere's onslaught. -->
+  <NociosphereUnstableTextExtraNotSendable>.ﺮﻴﻔﺳﻮﻴﺳﻮﻨﻟﺍ ﻡﻮﺠﻬﻟ ﺪﻌﺘﺳﺍ</NociosphereUnstableTextExtraNotSendable>
+
+  <!-- EN: Strange corpse -->
+  <UnnaturalCorpseArrivalLabel>ﺔﺒﻳﺮﻏ ﺔﺜﺟ</UnnaturalCorpseArrivalLabel>
+  <!-- EN: An unnatural human corpse has appeared, as if out of thin air.\n\nOn further inspection, the corpse looks identical to {PAWN_nameDef}. Its skin feels waxy and warm to the touch.\n\nStudy the corpse to learn more about it. -->
+  <UnnaturalCorpseArrivalText>،ﺔﻴﻌﻴﺒﻃ ﺮﻴﻏ ﺔﻳﺮﺸﺑ ﺔﺜﺟ ﺕﺮﻬﻇ\n.ﻡﺪﻌﻟﺍ ﻦﻣ ﺎﻬﻧﺄﻛﻭ\n\nﺔﺜﺠﻟﺍ ﻭﺪﺒﺗ ،ﻖﻴﻗﺪﻟﺍ ﺺﺤﻔﻟﺍ ﺪﻨﻋ\nﺊﻓﺍﺩﻭ ﻲﻌﻤﺷ ﺎﻫﺪﻠﺟ .{PAWN_nameDef} ـﻟ ﺔﻘﺑﺎﻄﻣ\n.ﺲﻤﻠﻟﺍ ﺪﻨﻋ\n\n.ﺎﻬﻨﻋ ﺪﻳﺰﻤﻟﺍ ﺔﻓﺮﻌﻤﻟ ﺔﺜﺠﻟﺍ ﺱﺭﺩﺍ</UnnaturalCorpseArrivalText>
+
+  <!-- EN: Golden cube -->
+  <GoldenCubeArrivalLabel>ﻲﺒﻫﺫ ﺐﻌﻜﻣ</GoldenCubeArrivalLabel>
+  <!-- EN: A strange cube has landed nearby. It shines like gold but is impossible to scratch. It's light and warm to the touch. The way light plays across its surface is captivating.\n\n{PAWN_nameDef} feels inexplicably drawn to the cube.\n\nStudy the cube to learn more about it. -->
+  <GoldenCubeArrivalText>ﻊﻤﻠﻳ .ﺏﺮﻘﻟﺎﺑ ﺐﻳﺮﻏ ﺐﻌﻜﻣ ﻂﺒﻫ\nﻪﻧﺇ .ﻪﺷﺪﺧ ﻞﻴﺤﺘﺴﻳ ﻦﻜﻟ ﺐﻫﺬﻟﺎﻛ\nﺔﻘﻳﺮﻃ .ﺲﻤﻠﻟﺍ ﺪﻨﻋ ﺊﻓﺍﺩﻭ ﻒﻴﻔﺧ\n.ﺓﺮﺳﺁ ﻪﺤﻄﺳ ﻰﻠﻋ ﺀﻮﻀﻟﺍ ﺐﻋﻼﺗ\n\nﻮﺤﻧ ﺮﺴﻔﻳ ﻻ ﺏﺍﺬﺠﻧﺎﺑ {PAWN_nameDef} ﺮﻌﺸﻳ\n.ﺐﻌﻜﻤﻟﺍ\n\n.ﻪﻨﻋ ﺪﻳﺰﻤﻟﺍ ﺔﻓﺮﻌﻤﻟ ﺐﻌﻜﻤﻟﺍ ﺱﺭﺩﺍ</GoldenCubeArrivalText>
+
+  <!-- EN: Void curiosity -->
+  <VoidCuriosityLabel>ﻍﺍﺮﻔﻟﺍ ﻝﻮﻀﻓ</VoidCuriosityLabel>
+  <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
+  <VoidCuriosityText_Researched>،ﻍﺍﺮﻔﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺎﺑ {PAWN_nameDef} ﺃﺪﺑ\nﺲﻘﻃ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻪﺋﺎﺼﻘﺘﺳﺍ ﻲﻓ ﺐﻏﺮﻳﻭ\n.ﻍﺍﺮﻔﻟﺍ ﺯﺍﺰﻔﺘﺳﺍ\n\nﻍﺍﺮﻔﻟﺍ ﺯﺍﺰﻔﺘﺳﺍ ﺲﻘﻃ ﻡﺪﺨﺘﺳﺍ\nﺕﺎﻧﺎﻴﻜﻟﺍ .ﺕﺎﻧﺎﻴﻜﻟﺍ ﺮﺳﺃﻭ ﻑﺎﺸﺘﻛﻻ\nﻝﺎﻤﻛﻹ ﺎﻬﺘﺳﺍﺭﺩ ﻦﻜﻤﻳ ﺓﺭﻮﺳﺄﻤﻟﺍ\nﺎﻬﻠﻴﺻﻮﺗ ﻭﺃ ،ﺫﻭﺬﺸﻟﺍ ﺚﺤﺑ ﻊﻳﺭﺎﺸﻣ\nﺪﻴﻟﻮﺘﻟ ﺖﻳﺍﺮﻴﻓﻮﻴﺒﻟﺍ ﺓﺪﺻﺎﺤﺑ\n.ﺖﻳﺍﺮﻴﻓﻮﻴﺒﻟﺍ\n\nﺲﻘﻃ ﺀﺍﺩﻷ ﻲﺴﻔﻧ ﺲﻘﻃ ﺔﻌﻘﺑ ﻊﺿ\n.ﻍﺍﺮﻔﻟﺍ ﺯﺍﺰﻔﺘﺳﺍ</VoidCuriosityText_Researched>
+  <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
+  <VoidCuriosityText_NotResearched>،ﻍﺍﺮﻔﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺎﺑ {PAWN_nameDef} ﺃﺪﺑ\nﺲﻘﻃ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻪﺋﺎﺼﻘﺘﺳﺍ ﻲﻓ ﺐﻏﺮﻳﻭ\n.ﻍﺍﺮﻔﻟﺍ ﺯﺍﺰﻔﺘﺳﺍ\n\nﻍﺍﺮﻔﻟﺍ ﺯﺍﺰﻔﺘﺳﺍ ﺲﻘﻃ ﻡﺪﺨﺘﺳﺍ\nﺕﺎﻧﺎﻴﻜﻟﺍ .ﺕﺎﻧﺎﻴﻜﻟﺍ ﺮﺳﺃﻭ ﻑﺎﺸﺘﻛﻻ\nﻝﺎﻤﻛﻹ ﺎﻬﺘﺳﺍﺭﺩ ﻦﻜﻤﻳ ﺓﺭﻮﺳﺄﻤﻟﺍ\nﺎﻬﻠﻴﺻﻮﺗ ﻭﺃ ،ﺫﻭﺬﺸﻟﺍ ﺚﺤﺑ ﻊﻳﺭﺎﺸﻣ\nﺪﻴﻟﻮﺘﻟ ﺖﻳﺍﺮﻴﻓﻮﻴﺒﻟﺍ ﺓﺪﺻﺎﺤﺑ\n.ﺖﻳﺍﺮﻴﻓﻮﻴﺒﻟﺍ\n\nﻊﺿ ﻢﺛ ،ﻍﺍﺮﻔﻟﺍ ﺯﺍﺰﻔﺘﺳﺍ ﻦﻋ ﺚﺤﺑﺍ\n.ﺲﻘﻄﻟﺍ ﺀﺍﺩﻷ ﻲﺴﻔﻧ ﺲﻘﻃ ﺔﻌﻘﺑ</VoidCuriosityText_NotResearched>
+
+</LanguageData>

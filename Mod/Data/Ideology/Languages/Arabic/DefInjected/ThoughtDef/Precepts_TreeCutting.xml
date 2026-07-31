@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: cut tree -->
+  <CutTree_Disapproved.stages.cut_tree.label>ﺓﺮﺠﺷ ﻊﻄﻗ</CutTree_Disapproved.stages.cut_tree.label>
+  <!-- EN: I had to cut down a tree. It was wrong to scar nature this way. -->
+  <CutTree_Disapproved.stages.cut_tree.description>ﺄﻄﺨﻟﺍ ﻦﻣ ﻥﺎﻛ .ﺓﺮﺠﺷ ﻊﻄﻘﻟ ﺕﺭﺮﻄﺿﺍ\n.ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻬﺑ ﺔﻌﻴﺒﻄﻟﺍ ﻪﻳﻮﺸﺗ</CutTree_Disapproved.stages.cut_tree.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: cut tree -->
+  <CutTree_Horrible.stages.cut_tree.label>ﺓﺮﺠﺷ ﻊﻄﻗ</CutTree_Horrible.stages.cut_tree.label>
+  <!-- EN: I had to cut down a tree. It was horrible to scar nature this way. -->
+  <CutTree_Horrible.stages.cut_tree.description>ﻦﻣ ﻥﺎﻛ .ﺓﺮﺠﺷ ﻊﻄﻘﻟ ﺕﺭﺮﻄﺿﺍ\nﻩﺬﻬﺑ ﺔﻌﻴﺒﻄﻟﺍ ﻪﻳﻮﺸﺗ ﻊﻳﺮﻤﻟﺍ\n.ﺔﻘﻳﺮﻄﻟﺍ</CutTree_Horrible.stages.cut_tree.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: cut tree -->
+  <CutTree_Know_Disapproved.stages.cut_tree.label>ﺓﺮﺠﺷ ﻊﻄﻗ</CutTree_Know_Disapproved.stages.cut_tree.label>
+  <CutTree_Know_Disapproved.stages.cut_tree.labelSocial>ﺓﺮﺠﺷ {OTHERPAWN_gender ? ﻗﻄﻌﺖ : ﻗﻄﻊ}</CutTree_Know_Disapproved.stages.cut_tree.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: tree felled -->
+  <CutTree_Know_Disapproved_Mood.stages.tree_felled.label>ﺔﻋﻮﻄﻘﻣ ﺓﺮﺠﺷ</CutTree_Know_Disapproved_Mood.stages.tree_felled.label>
+  <!-- EN: We cut down a tree. It wasn't good to harm nature this way. -->
+  <CutTree_Know_Disapproved_Mood.stages.tree_felled.description>ﺪﻴﺠﻟﺍ ﻦﻣ ﻦﻜﻳ ﻢﻟ .ﺓﺮﺠﺷ ﺎﻨﻌﻄﻗ\n.ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻬﺑ ﺔﻌﻴﺒﻄﻟﺍ ﺀﺍﺬﻳﺇ</CutTree_Know_Disapproved_Mood.stages.tree_felled.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: cut tree -->
+  <CutTree_Know_Horrible.stages.cut_tree.label>ﺓﺮﺠﺷ ﻊﻄﻗ</CutTree_Know_Horrible.stages.cut_tree.label>
+  <CutTree_Know_Horrible.stages.cut_tree.labelSocial>ﺓﺮﺠﺷ {OTHERPAWN_gender ? ﻗﻄﻌﺖ : ﻗﻄﻊ}</CutTree_Know_Horrible.stages.cut_tree.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: tree felled -->
+  <CutTree_Know_Horrible_Mood.stages.tree_felled.label>ﺔﻋﻮﻄﻘﻣ ﺓﺮﺠﺷ</CutTree_Know_Horrible_Mood.stages.tree_felled.label>
+  <!-- EN: We cut down a tree. It's wrong to scar nature this way. -->
+  <CutTree_Know_Horrible_Mood.stages.tree_felled.description>ﻪﻳﻮﺸﺗ ﺄﻄﺨﻟﺍ ﻦﻣ .ﺓﺮﺠﺷ ﺎﻨﻌﻄﻗ\n.ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻬﺑ ﺔﻌﻴﺒﻄﻟﺍ</CutTree_Know_Horrible_Mood.stages.tree_felled.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: cut tree -->
+  <CutTree_Know_Prohibited.stages.cut_tree.label>ﺓﺮﺠﺷ ﻊﻄﻗ</CutTree_Know_Prohibited.stages.cut_tree.label>
+  <CutTree_Know_Prohibited.stages.cut_tree.labelSocial>ﺓﺮﺠﺷ {OTHERPAWN_gender ? ﻗﻄﻌﺖ : ﻗﻄﻊ}</CutTree_Know_Prohibited.stages.cut_tree.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: tree felled -->
+  <CutTree_Know_Prohibited_Mood.stages.tree_felled.label>ﺔﻋﻮﻄﻘﻣ ﺓﺮﺠﺷ</CutTree_Know_Prohibited_Mood.stages.tree_felled.label>
+  <!-- EN: We cut down a tree. Such things violations of nature should never be done. -->
+  <CutTree_Know_Prohibited_Mood.stages.tree_felled.description>ﺕﺎﻛﺎﻬﺘﻧﻻﺍ ﻩﺬﻫ ﻞﺜﻣ .ﺓﺮﺠﺷ ﺎﻨﻌﻄﻗ\n.ًﺍﺪﺑﺃ ﺐﻜﺗﺮُﺗ ﻻﺃ ﺐﺠﻳ ﺔﻌﻴﺒﻄﻠﻟ</CutTree_Know_Prohibited_Mood.stages.tree_felled.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: extracted tree died -->
+  <MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.label>ﺖﺗﺎﻣ ﺔﺟﺮﺨﺘﺴﻣ ﺓﺮﺠﺷ</MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.label>
+  <!-- EN: We extracted a tree from the ground and let it die. It wasn't good to harm nature this way. -->
+  <MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.description>ﺎﻫﺎﻨﻛﺮﺗﻭ ﺽﺭﻷﺍ ﻦﻣ ﺓﺮﺠﺷ ﺎﻨﺟﺮﺨﺘﺳﺍ\nﺀﺍﺬﻳﺇ ﺪﻴﺠﻟﺍ ﻦﻣ ﻦﻜﻳ ﻢﻟ .ﺕﻮﻤﺗ\n.ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻬﺑ ﺔﻌﻴﺒﻄﻟﺍ</MinifiedTreeDied_Know_Disapproved_Mood.stages.extracted_tree_died.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: extracted tree died -->
+  <MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.label>ﺖﺗﺎﻣ ﺔﺟﺮﺨﺘﺴﻣ ﺓﺮﺠﺷ</MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.label>
+  <!-- EN: We extracted a tree from the ground and let it die. It's wrong to scar nature this way. -->
+  <MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.description>ﺎﻫﺎﻨﻛﺮﺗﻭ ﺽﺭﻷﺍ ﻦﻣ ﺓﺮﺠﺷ ﺎﻨﺟﺮﺨﺘﺳﺍ\nﺔﻌﻴﺒﻄﻟﺍ ﻪﻳﻮﺸﺗ ﺄﻄﺨﻟﺍ ﻦﻣ .ﺕﻮﻤﺗ\n.ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻬﺑ</MinifiedTreeDied_Know_Horrible_Mood.stages.extracted_tree_died.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: extracted tree died -->
+  <MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.label>ﺖﺗﺎﻣ ﺔﺟﺮﺨﺘﺴﻣ ﺓﺮﺠﺷ</MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.label>
+  <!-- EN: We extracted a tree from the ground and then let it die. Such things violations of nature should never be done. -->
+  <MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.description>ﻢﺛ ﺽﺭﻷﺍ ﻦﻣ ﺓﺮﺠﺷ ﺎﻨﺟﺮﺨﺘﺳﺍ\nﻩﺬﻫ ﻞﺜﻣ .ﺕﻮﻤﺗ ﺎﻫﺎﻨﻛﺮﺗ\nﻻﺃ ﺐﺠﻳ ﺔﻌﻴﺒﻄﻠﻟ ﺕﺎﻛﺎﻬﺘﻧﻻﺍ\n.ًﺍﺪﺑﺃ ﺐﻜﺗﺮُﺗ</MinifiedTreeDied_Know_Prohibited_Mood.stages.extracted_tree_died.description>
+  
+</LanguageData>

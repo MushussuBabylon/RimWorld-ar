@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Relevant genes -->
+  <StatsReport_Genes>ﺔﻠﺼﻟﺍ ﺕﺍﺫ ﺕﺎﻨﻴﺠﻟﺍ</StatsReport_Genes>
+  <!-- EN: in sunlight -->
+  <StatsReport_InSunlight>ﺲﻤﺸﻟﺍ ﺀﻮﺿ ﻲﻓ</StatsReport_InSunlight>
+  <!-- EN: clothed -->
+  <StatsReport_Clothed>ﺲﺑﻼﻣ ﻱﺪﺗﺮﻳ</StatsReport_Clothed>
+  <!-- EN: unclothed -->
+  <StatsReport_Unclothed>ٍﺭﺎﻋ</StatsReport_Unclothed>
+  <!-- EN: in space -->
+  <StatsReport_InSpace>ﺀﺎﻀﻔﻟﺍ ﻲﻓ</StatsReport_InSpace>
+  <!-- EN: planetside -->
+  <StatsReport_NotInSpace>ﺐﻛﻮﻜﻟﺍ ﺢﻄﺳ ﻰﻠﻋ</StatsReport_NotInSpace>
+  
+  <!-- EN: Age rate multiplier -->
+  <StatsReport_AgeRateMultiplier>ﺮﻤﻌﻟﺍ ﻲﻓ ﻡﺪﻘﺘﻟﺍ ﻝﺪﻌﻣ ﻒﻋﺎﻀﻣ</StatsReport_AgeRateMultiplier>
+  <!-- EN: A multiplier on how quickly this person ages biologically based on their current age. -->
+  <StatsReport_AgeRateMultiplier_Desc>ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﻡﺪﻘﺗ ﺔﻋﺮﺳ ﻯﺪﻤﻟ ﻒﻋﺎﻀﻣ\nﻰﻠﻋ ًﺀﺎﻨﺑ ًﺎﻴﺟﻮﻟﻮﻴﺑ ﺮﻤﻌﻟﺍ ﻲﻓ\n.ﻲﻟﺎﺤﻟﺍ ﻩﺮﻤﻋ</StatsReport_AgeRateMultiplier_Desc>
+
+  <!-- EN: Required weight class -->
+  <StatsReport_RechargerWeightClass>ﺔﺑﻮﻠﻄﻤﻟﺍ ﻥﺯﻮﻟﺍ ﺔﺌﻓ</StatsReport_RechargerWeightClass>
+  <!-- EN: The weight class of mechanoid which can use this recharger. The following mechanoids are compatible -->
+  <StatsReport_RechargerWeightClass_Desc>ﻲﺘﻟﺍ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻥﺯﻭ ﺔﺌﻓ\n.ﻦﺣﺎﺸﻟﺍ ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ ﺎﻬﻨﻜﻤﻳ\nﺔﻘﻓﺍﻮﺘﻣ ﺔﻴﻟﺎﺘﻟﺍ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ</StatsReport_RechargerWeightClass_Desc>
+
+  <!-- EN: Recharger needed -->
+  <StatsReport_RechargerNeeded>ﺏﻮﻠﻄﻤﻟﺍ ﻦﺣﺎﺸﻟﺍ</StatsReport_RechargerNeeded>
+  <!-- EN: The type of recharger that this mechanoid can use to recover energy. This is based on the mechanoid's weight class. -->
+  <StatsReport_RechargerNeeded_Desc>ﺍﺬﻬﻟ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ﻦﺣﺎﺸﻟﺍ ﻉﻮﻧ\nﺓﺩﺎﻌﺘﺳﻻ ﻪﻣﺍﺪﺨﺘﺳﺍ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\nﻥﺯﻭ ﺔﺌﻓ ﻰﻠﻋ ﺍﺬﻫ ﺪﻤﺘﻌﻳ .ﺔﻗﺎﻄﻟﺍ\n.ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ</StatsReport_RechargerNeeded_Desc>
+
+  <!-- EN: Deathrest effectiveness -->
+  <StatsReport_DeathrestEffectiveness>ﺕﻮﻤﻟﺍ ﺕﺎﺒﺳ ﺔﻴﻟﺎﻌﻓ</StatsReport_DeathrestEffectiveness>
+  <!-- EN: A multiplier on how effective this is when used for deathrest. The higher this is, the less time a user needs to deathrest here. -->
+  <StatsReport_DeathrestEffectiveness_Desc>ﺪﻨﻋ ﺍﺬﻫ ﺔﻴﻟﺎﻌﻓ ﻯﺪﻤﻟ ﻒﻋﺎﻀﻣ\nﻥﺎﻛ ﺎﻤﻠﻛ .ﺕﻮﻤﻟﺍ ﺕﺎﺒﺴﻟ ﻪﻣﺍﺪﺨﺘﺳﺍ\nﻪﺟﺎﺘﺤﻳ ﻱﺬﻟﺍ ﺖﻗﻮﻟﺍ ﻞﻗ ،ﻰﻠﻋﺃ ﺍﺬﻫ\n.ﺎﻨﻫ ﺕﻮﻤﻟﺍ ﺕﺎﺒﺴﻟ ﻡﺪﺨﺘﺴﻤﻟﺍ</StatsReport_DeathrestEffectiveness_Desc>
+
+  <!-- EN: Deathrest connection limit -->
+  <StatsReport_DeathrestConnectionLimit>ﺕﻮﻤﻟﺍ ﺕﺎﺒﺳ ﺕﻻﺎﺼﺗﺍ ﺪﺣ</StatsReport_DeathrestConnectionLimit>
+  <!-- EN: How many of these buildings can connect to a deathrester while deathresting. This number is also limited by the person's deathrest capacity. -->
+  <StatsReport_DeathrestConnectionLimit_Desc>ﻥﺃ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ ﻩﺬﻫ ﺩﺪﻋ\nﺀﺎﻨﺛﺃ ﺕﻮﻤﻟﺍ ﺕﺎﺒﺳ ﻡﺪﺨﺘﺴﻤﺑ ﻞﺼﺘﺗ\nﺩﻭﺪﺤﻣ ﺩﺪﻌﻟﺍ ﺍﺬﻫ .ﻪﺗﺎﺒﺳ ﺓﺮﺘﻓ\n.ﺺﺨﺸﻠﻟ ﺕﻮﻤﻟﺍ ﺕﺎﺒﺳ ﺔﻌﺴﺑ ًﺎﻀﻳﺃ</StatsReport_DeathrestConnectionLimit_Desc>
+
+  <!-- EN: Growth tier -->
+  <StatsReport_GrowthTier>ﻮﻤﻨﻟﺍ ﻯﻮﺘﺴﻣ</StatsReport_GrowthTier>
+  <!-- EN: Children progress through growth tiers over time. The higher the learning need, the faster the progress. When a growth moment comes (at age 7, 10, and 13), the child's growth tier determines how many trait and passion options you can choose from. Growth tier resets after each growth moment. -->
+  <StatsReport_GrowthTierDesc>ﻮﻤﻨﻟﺍ ﺕﺎﻳﻮﺘﺴﻣ ﺮﺒﻋ ﻝﺎﻔﻃﻷﺍ ﻡﺪﻘﺘﻳ\nﺔﺟﺎﺤﻟﺍ ﺕﺩﺍﺯ ﺎﻤﻠﻛ .ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ\n.ﻡﺪﻘﺘﻟﺍ ﺔﻋﺮﺳ ﺕﺩﺍﺯ ،ﻢﻠﻌﺘﻟﺍ ﻰﻟﺇ\n7 ﻦﺳ ﻲﻓ) ﻮﻤﻨﻟﺍ ﺔﻈﺤﻟ ﻦﻴﺤﺗ ﺎﻣﺪﻨﻋ\nﻮﻤﻧ ﻯﻮﺘﺴﻣ ﺩﺪﺤﻳ ،(13 ﻭ 10 ﻭ\nﻒﻐﺸﻟﺍﻭ ﺕﺎﻤﺴﻟﺍ ﺕﺍﺭﺎﻴﺧ ﺩﺪﻋ ﻞﻔﻄﻟﺍ\n.ﺎﻬﻨﻴﺑ ﻦﻣ ﺭﺎﻴﺘﺧﻻﺍ ﻚﻨﻜﻤﻳ ﻲﺘﻟﺍ\nﻮﻤﻨﻟﺍ ﻯﻮﺘﺴﻣ ﻦﻴﻴﻌﺗ ﺓﺩﺎﻋﺇ ﻢﺘﺗ\n.ﻮﻤﻧ ﺔﻈﺤﻟ ﻞﻛ ﺪﻌﺑ</StatsReport_GrowthTierDesc>
+
+  <!-- EN: Life stage -->
+  <StatsReport_DevelopmentStage>ﺔﻳﺮﻤﻌﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ</StatsReport_DevelopmentStage>
+  <!-- EN: A baby. Babies cannot move on their own. Their life revolves around the simple needs of food, sleep, and play. When they giggle, nearby adults' moods are lifted, and when they cry, nearby adults are annoyed.\n\nAt age 3, human babies become children. -->
+  <StatsReport_DevelopmentStageDesc_Baby>ﻙﺮﺤﺘﻟﺍ ﻊﺿﺮﻠﻟ ﻦﻜﻤﻳ ﻻ .ﻊﻴﺿﺭ\nﻝﻮﺣ ﻢﻬﺗﺎﻴﺣ ﺭﻮﺤﻤﺘﺗ .ﻢﻫﺩﺮﻔﻤﺑ\nﻡﺎﻌﻄﻟﺍ ﻦﻣ ﺔﻄﻴﺴﺒﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺍ\n،ﻥﻮﻜﺤﻀﻳ ﺎﻣﺪﻨﻋ .ﺐﻌﻠﻟﺍﻭ ﻡﻮﻨﻟﺍﻭ\n،ﻦﻴﺒﻳﺮﻘﻟﺍ ﻦﻴﻐﻟﺎﺒﻟﺍ ﺝﺍﺰﻣ ﻦﺴﺤﺘﻳ\nﻥﻮﻐﻟﺎﺒﻟﺍ ﺞﻋﺰﻨﻳ ،ﻥﻮﻜﺒﻳ ﺎﻣﺪﻨﻋﻭ\n.ﻥﻮﺒﻳﺮﻘﻟﺍ\n\nﻊﺿﺮﻟﺍ ﺢﺒﺼﻳ ،ﺔﺜﻟﺎﺜﻟﺍ ﻦﺳ ﻲﻓ\n.ًﻻﺎﻔﻃﺃ ﻥﻮﻳﺮﺸﺒﻟﺍ</StatsReport_DevelopmentStageDesc_Baby>
+  <!-- EN: A child. In general, children are slower and less skilled than adults. However, children have a natural optimism. When their mood is high, this optimism can raise the mood of adult colonists.\n\nChildren can do various types of work, depending on their age -->
+  <StatsReport_DevelopmentStageDesc_ChildPart1>ﺄﻄﺑﺃ ﻝﺎﻔﻃﻷﺍ ،ﻡﺎﻋ ﻞﻜﺸﺑ .ﻞﻔﻃ\nﻊﻣﻭ .ﻦﻴﻐﻟﺎﺒﻟﺍ ﻦﻣ ﺓﺭﺎﻬﻣ ﻞﻗﺃﻭ\nًﻻﺅﺎﻔﺗ ﻝﺎﻔﻃﻷﺍ ﻚﻠﺘﻤﻳ ،ﻚﻟﺫ\nﻢﻬﺟﺍﺰﻣ ﻥﻮﻜﻳ ﺎﻣﺪﻨﻋ .ًﺎﻳﺮﻄﻓ\nﻥﺃ ﻝﺅﺎﻔﺘﻟﺍ ﺍﺬﻬﻟ ﻦﻜﻤﻳ ،ًﺎﻌﻔﺗﺮﻣ\n.ﻦﻴﻐﻟﺎﺒﻟﺍ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﺝﺍﺰﻣ ﻊﻓﺮﻳ\n\nﻉﺍﻮﻧﺄﺑ ﻡﺎﻴﻘﻟﺍ ﻝﺎﻔﻃﻸﻟ ﻦﻜﻤﻳ\nﻰﻠﻋ ًﺍﺩﺎﻤﺘﻋﺍ ،ﻞﻤﻌﻟﺍ ﻦﻣ ﺔﻔﻠﺘﺨﻣ\nﻢﻫﺭﺎﻤﻋﺃ</StatsReport_DevelopmentStageDesc_ChildPart1>
+  <!-- EN: As a child ages, they will gain additional passions and traits.\n\nChildren have various child-specific learning needs and require special child-sized apparel.\n\nChildren under the age of 8 won't crawl when injured.\n\nAt age 13, human children become adults. -->
+  <StatsReport_DevelopmentStageDesc_ChildPart2>ﺐﺴﺘﻜﻴﺳ ،ﺮﻤﻌﻟﺍ ﻲﻓ ﻞﻔﻄﻟﺍ ﻡﺪﻘﺗ ﻊﻣ\n.ﺔﻴﻓﺎﺿﺇ ﺕﺎﻤﺳﻭ ًﺎﻔﻐﺷ\n\nﺔﻴﻤﻴﻠﻌﺗ ﺕﺎﺟﺎﻴﺘﺣﺍ ﻝﺎﻔﻃﻷﺍ ﻯﺪﻟ\nﻥﻮﺒﻠﻄﺘﻳﻭ ﻝﺎﻔﻃﻷﺎﺑ ﺔﺻﺎﺧ ﺔﻔﻠﺘﺨﻣ\n.ﻝﺎﻔﻃﻷﺍ ﻢﺠﺤﺑ ﺔﺻﺎﺧ ﺲﺑﻼﻣ\n\nﻦﻟ ﺔﻨﻣﺎﺜﻟﺍ ﻦﺳ ﻥﻭﺩ ﻝﺎﻔﻃﻷﺍ\n.ﻢﻬﺘﺑﺎﺻﺇ ﺪﻨﻋ ﺍﻮﻔﺣﺰﻳ\n\nﻥﻮﻳﺮﺸﺒﻟﺍ ﻝﺎﻔﻃﻷﺍ ﺢﺒﺼﻳ ،13 ﻦﺳ ﻲﻓ\n.ﻦﻴﻐﻟﺎﺑ</StatsReport_DevelopmentStageDesc_ChildPart2> 
+  <!-- EN: An adult. Human adults fully mature at the age of 18. -->
+  <StatsReport_DevelopmentStageDesc_Adult>ﻥﻮﻳﺮﺸﺒﻟﺍ ﻥﻮﻐﻟﺎﺒﻟﺍ ﺞﻀﻨﻳ .ﻎﻟﺎﺑ\n.18 ﻦﺳ ﻲﻓ ًﺎﻣﺎﻤﺗ</StatsReport_DevelopmentStageDesc_Adult>
+
+  <!-- EN: Multiplier for pollution -->
+  <StatsReport_Pollution>ﺙﻮﻠﺘﻟﺍ ﻒﻋﺎﻀﻣ</StatsReport_Pollution>
+
+  <!-- EN: Age factor -->
+  <StatsReport_FertilityAgeFactor>ﺮﻤﻌﻟﺍ ﻞﻣﺎﻋ</StatsReport_FertilityAgeFactor>
+  <!-- EN: Has {0_label} gene -->
+  <StatsReport_HasGene>{0_label} ﻦﻴﺟ ﻪﻳﺪﻟ</StatsReport_HasGene>
+  <!-- EN: A person of the {0} xenotype.\n\nAbout {0}s: -->
+  <StatsReport_NonBaselinerDescription>.{0} ﻲﻨﻴﺠﻟﺍ ﻂﻤﻨﻟﺍ ﻦﻣ ﺺﺨﺷ\n\n:{0}ـﻟﺍ ﻝﻮﺣ</StatsReport_NonBaselinerDescription>
+  
+  <!-- EN: Lifestage -->
+  <Stat_Thing_Apparel_ValidLifestage>ﺓﺎﻴﺤﻟﺍ ﺔﻠﺣﺮﻣ</Stat_Thing_Apparel_ValidLifestage>
+  <!-- EN: Certain apparel requires that the wearer be within a specific age range. -->
+  <Stat_Thing_Apparel_ValidLifestage_Desc>ﻥﻮﻜﻳ ﻥﺃ ﺲﺑﻼﻤﻟﺍ ﺾﻌﺑ ﺐﻠﻄﺘﺗ\n.ﺓﺩﺪﺤﻣ ﺔﻳﺮﻤﻋ ﺔﺌﻓ ﻦﻤﺿ ﺎﻬﻳﺪﺗﺮﻣ</Stat_Thing_Apparel_ValidLifestage_Desc>
+
+  <!-- EN: Connected {0} -->
+  <StatsReport_Connected>{0} ـﺑ ﻞﺼﺘﻣ</StatsReport_Connected>
+
+  <!-- EN: Effects -->
+  <Effects>ﺕﺍﺮﻴﺛﺄﺘﻟﺍ</Effects>
+  <!-- EN: A multiplier on chance of having a romantic relationship with someone who does not have this gene. -->
+  <StatsReport_MissingGeneRomanceChance>ﺔﻗﻼﻋ ﻲﻓ ﻝﻮﺧﺪﻟﺍ ﺔﺻﺮﻔﻟ ﻒﻋﺎﻀﻣ\nﺍﺬﻫ ﻚﻠﺘﻤﻳ ﻻ ﺺﺨﺷ ﻊﻣ ﺔﻴﺴﻧﺎﻣﻭﺭ\n.ﻦﻴﺠﻟﺍ</StatsReport_MissingGeneRomanceChance>
+  <!-- EN: Immune to -->
+  <ImmuneTo>ﺪﺿ ﻦﺼﺤﻣ</ImmuneTo>
+  <!-- EN: Social fight chance factor -->
+  <SocialFightChanceFactor>ﻲﻋﺎﻤﺘﺟﻻﺍ ﺭﺎﺠﺸﻟﺍ ﺔﺻﺮﻓ ﻞﻣﺎﻋ</SocialFightChanceFactor>
+  <!-- EN: Chance mental break is violent -->
+  <AggroMentalBreakSelectionChanceFactor>ﻲﻠﻘﻌﻟﺍ ﺭﺎﻴﻬﻧﻻﺍ ﻥﻮﻜﻳ ﻥﺃ ﺔﺻﺮﻓ\nًﺎﻔﻴﻨﻋ</AggroMentalBreakSelectionChanceFactor>
+  <!-- EN: Prison break interval factor -->
+  <PrisonBreakIntervalFactor>ﻦﺠﺴﻟﺍ ﻦﻣ ﺏﻭﺮﻬﻟﺍ ﺓﺮﺘﻓ ﻞﻣﺎﻋ</PrisonBreakIntervalFactor>
+  <!-- EN: Will never prison break. -->
+  <WillNeverPrisonBreak>.ًﺍﺪﺑﺃ ﻦﺠﺴﻟﺍ ﻦﻣ ﺏﺮﻬﻳ ﻦﻟ</WillNeverPrisonBreak>
+  <!-- EN: Mental breaks are always violent. -->
+  <AlwaysAggroMentalBreak>ﺔﻔﻴﻨﻋ ﻥﻮﻜﺗ ﺔﻴﻠﻘﻌﻟﺍ ﺕﺍﺭﺎﻴﻬﻧﻻﺍ\n.ًﺎﻤﺋﺍﺩ</AlwaysAggroMentalBreak>
+  <!-- EN: Mental breaks are never violent. -->
+  <NeverAggroMentalBreak>ﺔﻔﻴﻨﻋ ﻥﻮﻜﺗ ﻻ ﺔﻴﻠﻘﻌﻟﺍ ﺕﺍﺭﺎﻴﻬﻧﻻﺍ\n.ًﺍﺪﺑﺃ</NeverAggroMentalBreak>
+  <!-- EN: {0_label} addiction chance factor -->
+  <AddictionChanceFactor>{0_label} ﻥﺎﻣﺩﺇ ﺔﺻﺮﻓ ﻞﻣﺎﻋ</AddictionChanceFactor>
+  <!-- EN: {0_label} overdose chance factor -->
+  <OverdoseChanceFactor>{0_label} ﻦﻣ ﺓﺪﺋﺍﺰﻟﺍ ﺔﻋﺮﺠﻟﺍ ﺔﺻﺮﻓ ﻞﻣﺎﻋ</OverdoseChanceFactor>
+  <!-- EN: {0_label} tolerance buildup factor -->
+  <ToleranceBuildupFactor>{0_label} ﻞﻤﺤﺗ ﻢﻛﺍﺮﺗ ﻞﻣﺎﻋ</ToleranceBuildupFactor>
+  <!-- EN: Immune to {0_label} addiction. -->
+  <AddictionImmune>.{0_label} ﻥﺎﻣﺩﺇ ﺪﺿ ﻦﺼﺤﻣ</AddictionImmune>
+  <!-- EN: Immune to food poisoning. -->
+  <FoodPoisoningImmune>.ﻲﺋﺍﺬﻐﻟﺍ ﻢﻤﺴﺘﻟﺍ ﺪﺿ ﻦﺼﺤﻣ</FoodPoisoningImmune>
+  <!-- EN: Will never do social fights. -->
+  <WillNeverSocialFight>ﺔﻴﻋﺎﻤﺘﺟﺍ ﺕﺍﺭﺎﺠﺷ ﻲﻓ ﻙﺭﺎﺸﻳ ﻦﻟ\n.ًﺍﺪﺑﺃ</WillNeverSocialFight>
+  <!-- EN: Aging factors -->
+  <AgeFactors>ﺮﻤﻌﻟﺍ ﻲﻓ ﻡﺪﻘﺘﻟﺍ ﻞﻣﺍﻮﻋ</AgeFactors>
+  <!-- EN: Work speed is unaffected by darkness. -->
+  <UnaffectedByDarkness>.ﻡﻼﻈﻟﺎﺑ ﺮﺛﺄﺘﺗ ﻻ ﻞﻤﻌﻟﺍ ﺔﻋﺮﺳ</UnaffectedByDarkness>
+  <!-- EN: Adds one level of passion in {0_label}. -->
+  <PassionModAdd>ﻲﻓ ﻒﻐﺸﻟﺍ ﻦﻣ ًﺍﺪﺣﺍﻭ ﻯﻮﺘﺴﻣ ﻒﻴﻀﻳ\n.{0_label}</PassionModAdd>
+  <!-- EN: Removes all passion in {0_label}. -->
+  <PassionModDrop>.{0_label} ﻲﻓ ﻒﻐﺸﻟﺍ ﻞﻛ ﻞﻳﺰﻳ</PassionModDrop>
+  <!-- EN: Gives ability -->
+  <GivesAbility>ﺓﺭﺪﻗ ﺢﻨﻤﻳ</GivesAbility>
+  <!-- EN: Gives abilities -->
+  <GivesAbilities>ﺕﺍﺭﺪﻗ ﺢﻨﻤﻳ</GivesAbilities>
+  <!-- EN: {RESOURCE}: {OFFSET} per day. -->
+  <ResourceLossPerDay>.ﻡﻮﻳ ﻞﻜﻟ {RESOURCE}: {OFFSET}</ResourceLossPerDay>
+  <!-- EN: Removes -->
+  <Removes>ﻞﻳﺰﻳ</Removes>
+  <!-- EN: Baby -->
+  <DevelopmentStage_Baby>ﻊﻴﺿﺭ</DevelopmentStage_Baby>
+  <!-- EN: Child -->
+  <DevelopmentStage_Child>ﻞﻔﻃ</DevelopmentStage_Child>
+  <!-- EN: Adult -->
+  <DevelopmentStage_Adult>ﻎﻟﺎﺑ</DevelopmentStage_Adult>
+
+  <!-- EN: Growth vat speed -->
+  <StatsReport_GrowthVatSpeedFactor>ﻮﻤﻨﻟﺍ ﺽﻮﺣ ﺔﻋﺮﺳ</StatsReport_GrowthVatSpeedFactor>
+
+  <!-- EN: Carriers cannot build a tolerance to {0_label}. -->
+  <GeneToleranceBuildupImmune>ﻩﺎﺠﺗ ﻞﻤﺤﺗ ﺀﺎﻨﺑ ﻦﻴﻠﻣﺎﺤﻠﻟ ﻦﻜﻤﻳ ﻻ\n.{0_label}</GeneToleranceBuildupImmune>
+  <!-- EN: Carriers build a tolerance to {0_label} {1} as quickly. -->
+  <GeneToleranceBuildupFactor>{0_label} ﻩﺎﺠﺗ ًﻼﻤﺤﺗ ﻥﻮﻠﻣﺎﺤﻟﺍ ﻲﻨﺒﻳ\n.{1} ﺔﻋﺮﺴﺑ</GeneToleranceBuildupFactor>
+  <!-- EN: Carriers cannot overdose on {0_label}. -->
+  <GeneOverdoseImmune>ﺓﺪﺋﺍﺯ ﺔﻋﺮﺟ ﺬﺧﺃ ﻦﻴﻠﻣﺎﺤﻠﻟ ﻦﻜﻤﻳ ﻻ\n.{0_label} ﻦﻣ</GeneOverdoseImmune>
+  <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
+  <GeneOverdoseFactor>ﺬﺧﻷ {1} ﻝﺎﻤﺘﺣﻻ ﻥﻮﺿﺮﻌﻣ ﻥﻮﻠﻣﺎﺤﻟﺍ\n.{0_label} ﻦﻣ ﺓﺪﺋﺍﺯ ﺔﻋﺮﺟ</GeneOverdoseFactor>
+
+</LanguageData>
