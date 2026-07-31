@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: breakup -->
+  <Breakup.label>انفصال</Breakup.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break.</li>
+    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space.</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it's not working out.</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
+  -->
+  <Breakup.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] طلب من [RECIPIENT_nameDef] استراحة.</li>
+    <li>r_logentry->[INITIATOR_nameDef] طلب من [RECIPIENT_nameDef] بعض المساحة.</li>
+    <li>r_logentry->[INITIATOR_nameDef] أخبر [RECIPIENT_nameDef] أن العلاقة لا تنجح.</li>
+    <li>r_logentry->[INITIATOR_nameDef] أخبر [RECIPIENT_nameDef] أنه من الأفضل رؤية أشخاص آخرين.</li>
+ </Breakup.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: marriage proposal -->
+  <MarriageProposal.label>طلب زواج</MarriageProposal.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
+  -->
+  <MarriageProposal.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] طلب الزواج من [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] عرض التزاماً مدى الحياة على [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] أخبر [RECIPIENT_nameDef] أنه يريد قضاء حياته مع [RECIPIENT_objective].</li>
+ </MarriageProposal.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: romance attempt -->
+  <RomanceAttempt.label>محاولة مغازلة</RomanceAttempt.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic].</li>
+    <li>wooed->tried to flirt with</li>
+    <li>wooed->flirted with</li>
+    <li>wooed->tried to attract</li>
+    <li>wooed->tried to romance</li>
+    <li>wooed->tried to woo</li>
+    <li>wooed->wooed</li>
+    <li>wooed->pursued</li>
+    <li>wooed->charmed</li>
+    <li>wooed->courted</li>
+    <li>wootactic(p=4)->[complimenting] [RECIPIENT_possessive] [PersonalCharacteristic]</li>
+    <li>wootactic->telling a story about [TalkTopicAny]</li>
+    <li>wootactic->telling a tale about [TalkTopicAny]</li>
+    <li>wootactic->joking about [TalkTopicAny]</li>
+    <li>wootactic->making an observation about [TalkTopicAny]</li>
+    <li>wootactic(p=2)->[boasting] [INITIATOR_possessive] own [PersonalCharacteristic]</li>
+    <li>wootactic->comparing [RECIPIENT_objective] to a [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->describing [RECIPIENT_objective] as a [romantic_adj] [romantic_noun]</li>
+    <li>boasting->boasting about</li>
+    <li>boasting->mentioning</li>
+    <li>boasting->implying good things about</li>
+    <li>boasting->exaggerating</li>
+    <li>boasting->talking about</li>
+    <li>boasting->drawing attention to</li>
+    <li>complimenting(p=3)->complimenting</li>
+    <li>complimenting->subtly complimenting</li>
+    <li>complimenting->lauding</li>
+    <li>complimenting->commending</li>
+    <li>complimenting->saying good things about</li>
+    <li>complimenting(p=2)->playfully making fun of</li>
+    <li>complimenting->jokingly poking at</li>
+    <li>complimenting->jokingly half-complimenting</li>
+    <li>complimenting->impishly questioning</li>
+    <li>complimenting->cheerfully making fun of</li>
+    <li>romantic_adj->beautiful</li>
+    <li>romantic_adj->shining</li>
+    <li>romantic_adj->glimmering</li>
+    <li>romantic_adj->heavenly</li>
+    <li>romantic_adj->golden</li>
+    <li>romantic_adj->bright</li>
+    <li>romantic_adj->breathtaking</li>
+    <li>romantic_adj->charming</li>
+    <li>romantic_adj->dazzling</li>
+    <li>romantic_adj->delicate</li>
+    <li>romantic_adj->fine</li>
+    <li>romantic_adj->magnificent</li>
+    <li>romantic_adj->lovely</li>
+    <li>romantic_adj->wonderful</li>
+    <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
+    <li>romantic_noun->flower</li>
+    <li>romantic_noun->spring</li>
+    <li>romantic_noun->river</li>
+    <li>romantic_noun->star</li>
+    <li>romantic_noun->moon</li>
+    <li>romantic_noun->sun</li>
+    <li>romantic_noun->house</li>
+    <li>romantic_noun->aurora</li>
+    <li>romantic_noun->[TreeType] tree</li>
+    <li>romantic_noun(p=2)->[TerrainFeature]</li>
+    <li>romantic_noun(p=2)->[NaturalObject]</li>
+  -->
+  <RomanceAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed] بـ [wootactic].</li>
+    <li>wooed->حاول مغازلة</li>
+    <li>wooed->غازل</li>
+    <li>wooed->حاول جذب</li>
+    <li>wooed->حاول التودد إلى</li>
+    <li>wooed->حاول استمالة</li>
+    <li>wooed->استمال</li>
+    <li>wooed->لاحق</li>
+    <li>wooed->سحر</li>
+    <li>wooed->تودد إلى</li>
+    <li>wootactic(p=4)->[complimenting] [PersonalCharacteristic] الخاصة بـ [RECIPIENT_possessive]</li>
+    <li>wootactic->بإخبار قصة عن [TalkTopicAny]</li>
+    <li>wootactic->برواية حكاية عن [TalkTopicAny]</li>
+    <li>wootactic->بالمزاح حول [TalkTopicAny]</li>
+    <li>wootactic->بإبداء ملاحظة عن [TalkTopicAny]</li>
+    <li>wootactic(p=2)->[boasting] [PersonalCharacteristic] الخاصة بـ [INITIATOR_possessive]</li>
+    <li>wootactic->بمقارنة [RECIPIENT_objective] بـ [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->بوصف [RECIPIENT_objective] كـ [romantic_adj] [romantic_noun]</li>
+    <li>boasting->متفاخراً بـ</li>
+    <li>boasting->مشيراً إلى</li>
+    <li>boasting->ملوحاً بأشياء جيدة عن</li>
+    <li>boasting->مبالغاً في</li>
+    <li>boasting->متحدثاً عن</li>
+    <li>boasting->ملفتاً الانتباه إلى</li>
+    <li>complimenting(p=3)->مادحاً</li>
+    <li>complimenting->مادحاً بمهارة</li>
+    <li>complimenting->مثنياً على</li>
+    <li>complimenting->مشيداً بـ</li>
+    <li>complimenting->قائلاً أشياء جيدة عن</li>
+    <li>complimenting(p=2)->مازحاً</li>
+    <li>complimenting->مداعباً</li>
+    <li>complimenting->نصف مازحاً ونصف مادحاً</li>
+    <li>complimenting->مستفسراً بشكل مؤذ</li>
+    <li>complimenting->مازحاً بمرح</li>
+    <li>romantic_adj->جميلة/جميل</li>
+    <li>romantic_adj->مشرقة/مشرق</li>
+    <li>romantic_adj->متلألئة/متلألئ</li>
+    <li>romantic_adj->سماوية/سماوي</li>
+    <li>romantic_adj->ذهبية/ذهبي</li>
+    <li>romantic_adj->ساطعة/ساطع</li>
+    <li>romantic_adj->خلابة/خلاب</li>
+    <li>romantic_adj->فاتنة/فاتن</li>
+    <li>romantic_adj->مبهرة/مبهر</li>
+    <li>romantic_adj->رقيقة/رقيق</li>
+    <li>romantic_adj->رائعة/رائع</li>
+    <li>romantic_adj->عظيمة/عظيم</li>
+    <li>romantic_adj->محبوبة/محبوب</li>
+    <li>romantic_adj->مدهشة/مدهش</li>
+    <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
+    <li>romantic_noun->زهرة</li>
+    <li>romantic_noun->ربيع</li>
+    <li>romantic_noun->نهر</li>
+    <li>romantic_noun->نجمة</li>
+    <li>romantic_noun->قمر</li>
+    <li>romantic_noun->شمس</li>
+    <li>romantic_noun->منزل</li>
+    <li>romantic_noun->شفق</li>
+    <li>romantic_noun->شجرة [TreeType]</li>
+    <li>romantic_noun(p=2)->[TerrainFeature]</li>
+    <li>romantic_noun(p=2)->[NaturalObject]</li>
+ </RomanceAttempt.logRulesInitiator.rulesStrings>
+  
+</LanguageData>

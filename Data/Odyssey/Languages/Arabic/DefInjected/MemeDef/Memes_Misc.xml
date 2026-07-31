@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: shipborn -->
+  <Shipborn.label>مولود السفينة</Shipborn.label>
+  <!-- EN: Humans were destined to live among the stars. -->
+  <Shipborn.description>كان مقدراً للبشر أن يعيشوا بين النجوم.</Shipborn.description>
+  <!-- EN:
+    <li>creation(tag=meme_Shipborn)        ->[deity0_name] shaped humanity from the dust of [celestialComponents], breathing life into mankind with [deity0_possessive] stellar winds.</li>
+    <li>episode(uses=1,tag=meme_Shipborn)  ->[deity0_name] dispersed the great people of [place_name], sending them into the void so that they may witness the convergence of star and soul.</li>
+    <li>intro(tag=meme_Shipborn)           ->In the days of darkness, [deity0_name] saw that humanity was in need of guidance, and commanded [deity0_possessive] [memberNamePlural] to build great ships.</li>
+    <li>conflict(tag=meme_Shipborn)        ->When [memberNamePlural] began to fulfill [deity0_name]'s vision, a traitorous [foeLeader] moved to prevent them. [foeLeader_possessive] [foeSoldiers] wielded cruel [place_personalWeapon]s against those who tried to board the holy ships.</li>
+    <li>founderJoin(tag=meme_Shipborn)     ->A [place_job] named [founderName] gathered the true believers, leading them to a hidden [altarRoomLabel]. There [founder_pronoun] became their [veneratedRole].</li>
+    <li>victory(tag=meme_Shipborn)         ->Then [founderName] spoke with [deity0_name]'s voice. In a brilliant convergence of light and energy, [founderName] overwhelmed [founder_possessive] enemies and led [founder_possessive] people to the holy ships.</li>
+    <li>setup(tag=meme_Shipborn)           ->In [founder_possessive] divine ship, [founderName] journeyed the stellar seas for one thousand years, communing with celestial spirits and unlocking the secrets of the cosmos.</li>
+    <li>story(uses=1,tag=meme_Shipborn)    ->[founderName] saw that the destiny of humanity could only be fulfilled amongst the stars.</li>
+    <li>lessonIntro(tag=meme_Shipborn)         ->In my observances of [celestialComponents], I have found one truth above all else:</li>
+    <li>lesson(tag=meme_Shipborn)              ->the stars are our true [veneratedRole], and it's our duty to seek their wisdom and travel among them</li>
+    <li>lesson(tag=meme_Shipborn)              ->mankind was never meant to be prisoner to a rock. We must live amongst the heavens</li>
+    <li>lesson(tag=meme_Shipborn)              ->our ships are our holy mothers and sacred fathers. We must care for them as they have cared for us</li>
+    <li>lessonReinforcement(tag=meme_Shipborn) ->May your feet never touch the ground.</li>
+    <li>archistBasis(tag=meme_Shipborn)    ->Since their emergence, archotechs have extended their consciousness amongst the stars.</li>
+    <li>archistFact(tag=meme_Shipborn)     ->Archotechs transcend the limitations of planetbound life.</li>
+    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd], archotechs will teach us to move effortlessly amongst the stars if we observe their cosmic wisdom.</li>
+    <li>animistBasis(tag=meme_Shipborn)    ->Our ancestors have travelled [celestialComponents] and teach us to regard humanity and celestial entities as counterparts.</li>
+    <li>animistFact(tag=meme_Shipborn)     ->The same spirits that inhabit celestial bodies guide humanity's destiny.</li>
+    <li>celestialComponents->stars, moons, and comets</li>
+    <li>celestialComponents->the cosmos</li>
+    <li>celestialComponents->one thousand suns</li>
+    <li>veneratedRole->navigator</li>
+    <li>veneratedRole->captain</li>
+  -->
+  <Shipborn.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Shipborn)        ->شكّل [deity0_name] البشرية من غبار [celestialComponents]، نافخاً الحياة في الجنس البشري برياحـ[deity0_possessive] النجمية.</li>
+    <li>episode(uses=1,tag=meme_Shipborn)  ->شتّت [deity0_name] شعب [place_name] العظيم، وأرسلهم إلى الفراغ ليشهدوا امتزاج النجم والروح.</li>
+    <li>intro(tag=meme_Shipborn)           ->في أيام الظلام، رأى [deity0_name] أن البشرية بحاجة إلى الهداية، وأمر [memberNamePlural] بأن يبنوا سفناً عظيمة.</li>
+    <li>conflict(tag=meme_Shipborn)        ->عندما بدأ [memberNamePlural] بتحقيق رؤية [deity0_name]، تحرك [foeLeader] الخائن لمنعهم. استخدم [foeSoldiers]ـ[foeLeader_possessive] أسلحة [place_personalWeapon] قاسية ضد أولئك الذين حاولوا الصعود إلى السفن المقدسة.</li>
+    <li>founderJoin(tag=meme_Shipborn)     ->قام [place_job] يدعى [founderName] بجمع المؤمنين الحقيقيين، وقادهم إلى [altarRoomLabel] خفي. هناك أصبح [founder_pronoun] [veneratedRole] لهم.</li>
+    <li>victory(tag=meme_Shipborn)         ->ثم تحدث [founderName] بصوت [deity0_name]. في امتزاج رائع من النور والطاقة، تغلب [founderName] على أعداءـ[founder_possessive] وقاد شعبـ[founder_possessive] إلى السفن المقدسة.</li>
+    <li>setup(tag=meme_Shipborn)           ->في سفينةـ[founder_possessive] الإلهية، سافر [founderName] في البحار النجمية لألف عام، متصلاً بالأرواح السماوية وفاتحاً أسرار الكون.</li>
+    <li>story(uses=1,tag=meme_Shipborn)    ->رأى [founderName] أن مصير البشرية لا يمكن أن يكتمل إلا بين النجوم.</li>
+    <li>lessonIntro(tag=meme_Shipborn)         ->في تأملاتي لـ[celestialComponents]، وجدت حقيقة واحدة فوق كل شيء:</li>
+    <li>lesson(tag=meme_Shipborn)              ->النجوم هي [veneratedRole] الحقيقي، ومن واجبنا أن نبحث عن حكمتها وأن نسافر بينها</li>
+    <li>lesson(tag=meme_Shipborn)              ->لم يُخلق البشر ليكونوا سجناء لصخرة. يجب أن نعيش بين السماوات</li>
+    <li>lesson(tag=meme_Shipborn)              ->سفننا هي أمهاتنا المقدسات وآباؤنا الموقرون. يجب أن نعتني بهم كما اعتنوا بنا</li>
+    <li>lessonReinforcement(tag=meme_Shipborn) ->فلا تلمس قدماك الأرض أبدًا.</li>
+    <li>archistBasis(tag=meme_Shipborn)    ->منذ ظهورهم، وسع الأركوتكيون وعيهم بين النجوم.</li>
+    <li>archistFact(tag=meme_Shipborn)     ->الأركوتكيون يتجاوزون قيود الحياة المرتبطة بالكوكب.</li>
+    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd]، سيعلمنا الأركوتكيون التحرك بين النجوم بسهولة إذا لاحظنا حكمتهم الكونية.</li>
+    <li>animistBasis(tag=meme_Shipborn)    ->سافر أسلافنا عبر [celestialComponents] ويعلموننا أن نعتبر البشرية والكيانات السماوية نظراء.</li>
+    <li>animistFact(tag=meme_Shipborn)     ->نفس الأرواح التي تسكن الأجرام السماوية توجه مصير البشرية.</li>
+    <li>celestialComponents->النجوم والأقمار والمذنبات</li>
+    <li>celestialComponents->الكون</li>
+    <li>celestialComponents->ألف شمس</li>
+    <li>veneratedRole->ملاح</li>
+    <li>veneratedRole->قبطان</li>
+ </Shipborn.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeCreed->crew</li>
+    <li>memeCreed->ship</li>
+    <li>memeCreed->starship</li>
+    <li>memeAdjective->stellar</li>
+    <li>memeAdjective->empty</li>
+    <li>memeAdjective->cosmic</li>
+    <li>memeAdjective->celestial</li>
+    <li>memeAdjective->astral</li>
+    <li>memeHyphenPrefix->astro</li>
+    <li>memeHyphenPrefix->dark</li>
+    <li>memeConcept->space</li>
+    <li>memeConcept->stars</li>
+    <li>memeConcept->starships</li>
+    <li>memeLeaderNoun->captain</li>
+    <li>memeLeaderNoun->starborn</li>
+    <li>memeLeaderNoun->pilot</li>
+    <li>memeLeaderAdjective->shining</li>
+    <li>memeMoralist->wayfinder</li>
+    <li>memeMoralist->navigator</li>
+    <li>memeMoralist->councillor</li>
+  -->
+  <Shipborn.generalRules.rulesStrings>
+    <li>memeCreed->طاقم</li>
+    <li>memeCreed->سفينة</li>
+    <li>memeCreed->سفينة نجوم</li>
+    <li>memeAdjective->نجمي</li>
+    <li>memeAdjective->فارغ</li>
+    <li>memeAdjective->كوني</li>
+    <li>memeAdjective->سماوي</li>
+    <li>memeAdjective->فلكي</li>
+    <li>memeHyphenPrefix->فلكي</li>
+    <li>memeHyphenPrefix->معتم</li>
+    <li>memeConcept->الفضاء</li>
+    <li>memeConcept->النجوم</li>
+    <li>memeConcept->سفن النجوم</li>
+    <li>memeLeaderNoun->قبطان</li>
+    <li>memeLeaderNoun->مولود النجم</li>
+    <li>memeLeaderNoun->طيار</li>
+    <li>memeLeaderAdjective->ساطع</li>
+    <li>memeMoralist->هادي الطريق</li>
+    <li>memeMoralist->ملاح</li>
+    <li>memeMoralist->مستشار</li>
+ </Shipborn.generalRules.rulesStrings>
+  
+</LanguageData>

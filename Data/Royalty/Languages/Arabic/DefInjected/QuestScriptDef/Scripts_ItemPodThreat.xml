@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->A machine persona in an orbiting ship wants to perform some planetary experiments. However, if she carries out her experiment, [gameConditionDescriptionFuture].\n\nShe is concerned about getting in trouble with the ethical review board, and is asking for your consent.</li>
+    <li>questDescription(asker_factionLeader==True)->A vengeful machine persona is threatening the [asker_faction_pawnsPlural] of [asker_faction_name]. [asker_faction_leaderTitle] [asker_nameFull] wants you to send a message to the persona accepting responsibility for their transgressions.\n\nIf you do, the persona will turn its anger on you. [gameConditionDescriptionFuture].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to perform a low-power test of one of [asker_possessive] ship's area-attack weapons. If [asker_pronoun] does, [gameConditionDescriptionFuture].\n\nSince you are a local landholder under imperial law, [asker_nameDef] needs your honorable permission to proceed.</li>
+  -->
+  <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->شخصية آلة في سفينة مدارية تريد إجراء بعض التجارب الكوكبية. ومع ذلك، إذا نفذت تجربتها، [gameConditionDescriptionFuture].\n\nإنها قلقة من الوقوع في مشكلة مع مجلس المراجعة الأخلاقية، وتطلب موافقتك.</li>
+    <li>questDescription(asker_factionLeader==True)->شخصية آلة انتقامية تهدد [asker_faction_pawnsPlural] التابعين لـ[asker_faction_name]. [asker_faction_leaderTitle] [asker_nameFull] يريد منك إرسال رسالة إلى الشخصية تقبل فيها المسؤولية عن تجاوزاتهم.\n\nإذا فعلت، ستحول الشخصية غضبها عليك. [gameConditionDescriptionFuture].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، يريد إجراء اختبار منخفض الطاقة لأحد أسلحة الهجوم المناطقي لسفينته. إذا فعل، [gameConditionDescriptionFuture].\n\nبما أنك مالك أراضٍ محلي بموجب القانون الإمبراطوري، يحتاج [asker_nameDef] إذنك الشريف للمتابعة.</li>
+ </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[asker_nameDef]'s [gameCondition_label]</li>
+    <li>questName->[gameCondition_indefinite] for [asker_nameDef]</li>
+    <li>questName->Paid [gameCondition_label]</li>
+    <li>questName->[gameCondition_label] for Pay</li>
+  -->
+  <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
+    <li>questName->[gameCondition_label] الخاص بـ[asker_nameDef]</li>
+    <li>questName->[gameCondition_indefinite] لـ[asker_nameDef]</li>
+    <li>questName->[gameCondition_label] مدفوعة</li>
+    <li>questName->[gameCondition_label] مقابل أجر</li>
+ </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An orbiting research ship wants to test a new type of insect pheromone. If you agree, they'll sweep [map_definite] with the pheromone, provoking (*Threat)an infestation of [hivesCount] hives(/Threat).[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(askerIsNull==true)->The hives were attracted by a pheromone sweep from an orbiting research ship.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is facing repeated infestations at sites near [map_definite]. [asker_pronoun] wants to draw the infestations to you. This will provoke (*Threat)an infestation of [hivesCount] hives(/Threat).[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_factionLeader==True)->The hives were originally infesting nearby sites belonging to [asker_nameFull] of [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is having trouble landing near [map_definite] due to repeated infestations. [asker_pronoun] wants to draw the bugs to you to be dealt with. This will provoke (*Threat)an infestation of [hivesCount] hives(/Threat).[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
+  -->
+  <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->سفينة أبحاث مدارية تريد اختبار نوع جديد من فيرومونات الحشرات. إذا وافقت، سيمسحون [map_definite] بالفيرومون، مما يثير (*Threat)إصابة بعدد [hivesCount] خلية(/Threat).[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(askerIsNull==true)->اجتذبت الخلايا بواسطة مسح فيروموني من سفينة أبحاث مدارية.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull]، [asker_faction_leaderTitle] [asker_faction_name]، يواجه إصابات متكررة في مواقع قرب [map_definite]. يريد [asker_pronoun] جذب الإصابات إليك. هذا سيثير (*Threat)إصابة بعدد [hivesCount] خلية(/Threat).[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_factionLeader==True)->كانت الخلايا في الأصل تصيب مواقع قريبة تابعة لـ[asker_nameFull] من [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، يواجه صعوبة في الهبوط قرب [map_definite] بسبب الإصابات المتكررة. يريد [asker_pronoun] جذب الحشرات إليك للتعامل معها. هذا سيثير (*Threat)إصابة بعدد [hivesCount] خلية(/Threat).[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->تم جذب الإصابة إليك من قبل [asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name].</li>
+ </ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Pods and [insects]</li>
+    <li>questName->[asker_nameDef]'s [insects]</li>
+    <li>questName->The [itemPodsTotalMarketValue_money] [insects]</li>
+    <li>questName(asker_royalInCurrentFaction==True)->Spectacle of [insects]</li>
+    <li>questName(p=0.3)->Podswarm</li>
+    <li>insects->insects</li>
+    <li>insects->bugs</li>
+    <li>insects->hives</li>
+  -->
+  <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
+    <li>questName->كبسولات و[insects]</li>
+    <li>questName->[insects] [asker_nameDef]</li>
+    <li>questName->[insects] [itemPodsTotalMarketValue_money]</li>
+    <li>questName(asker_royalInCurrentFaction==True)->مشهد من [insects]</li>
+    <li>questName(p=0.3)->سرب الكبسولات</li>
+    <li>insects->حشرات</li>
+    <li>insects->بق</li>
+    <li>insects->خلايا</li>
+ </ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
+    <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
+    <li>manhuntingBeastIndef(animalCount==1)->a (*Threat)manhunting [animalKind_label](/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat)</li>
+    <li>endSection->[helpersParagraph]The [animalKindLabelCorrect] will arrive at [map_definite] [manhuntersDelayTicks_duration] after you accept.</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling. (*Threat)A wild [animalKind_label](/Threat) is hunting him! He wants your help to draw the beast away from him. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->The [animalKind_label] was hunting a nearby trader.</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling. A pack of (*Threat)[animalCount] wild [animalKind_labelPlural](/Threat) are hunting him! He wants your help to draw the animals away from him. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->The [animalKind_labelPlural] were hunting a nearby trader.</li>
+    <li>questDescription(asker_factionLeader==True)->Caravans of [asker_faction_name] are being harassed by [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] wants your help to draw the beasts away from the caravans. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->The [animalKind_label] was harassing caravans from [asker_faction_name].</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->The [animalKind_labelPlural] were harassing caravans from [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scout to (*Threat)a manhunting [animalKind_label](/Threat). [asker_pronoun] wants to draw it towards you to be killed, to uphold [asker_possessive] honor. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->This is the [animalKind_label] that killed the scout of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scouting party to a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat). [asker_pronoun] wants to draw the beasts towards you to be killed, to uphold [asker_possessive] honor. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->These are the [animalKind_labelPlural] that killed the scouting party of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
+  -->
+  <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
+    <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
+    <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
+    <li>manhuntingBeastIndef(animalCount==1)->(*Threat)[animalKind_label] صائد للبشر(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->قطيع من (*Threat)[animalCount] [animalKind_labelPlural] صائدة للبشر(/Threat)</li>
+    <li>endSection->[helpersParagraph]سيصل [animalKindLabelCorrect] إلى [map_definite] [manhuntersDelayTicks_duration] بعد قبولك.</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->تاجر يتصل. (*Threat)[animalKind_label] بري(/Threat) يطارده! يريد مساعدتك لجذب الوحش بعيداً عنه. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->كان [animalKind_label] يطارد تاجراً قريباً.</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->تاجر يتصل. قطيع من (*Threat)[animalCount] [animalKind_labelPlural] البرية(/Threat) تطارده! يريد مساعدتك لجذب الحيوانات بعيداً عنه. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->كانت [animalKind_labelPlural] تطارد تاجراً قريباً.</li>
+    <li>questDescription(asker_factionLeader==True)->تتعرض قوافل [asker_faction_name] للمضايقة من قبل [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] يريد مساعدتك لجذب الوحوش بعيداً عن القوافل. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->كان [animalKind_label] يضايق قوافل من [asker_faction_name].</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->كانت [animalKind_labelPlural] تضايق قوافل من [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، فقد مؤخراً كشافاً بسبب (*Threat)[animalKind_label] صائد للبشر(/Threat). يريد [asker_pronoun] جذبه نحوك ليُقتل، حفاظاً على شرف[asker_possessive]. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->هذا هو [animalKind_label] الذي قتل كشاف [asker_royalTitleInCurrentFaction] [asker_nameFull] من [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، فقد مؤخراً فرقة استكشافية بسبب قطيع من (*Threat)[animalCount] [animalKind_labelPlural] صائدة للبشر(/Threat). يريد [asker_pronoun] جذب الوحوش نحوك لتُقتل، حفاظاً على شرف[asker_possessive]. [endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->هذه هي [animalKind_labelPlural] التي قتلت الفرقة الاستكشافية لـ[asker_royalTitleInCurrentFaction] [asker_nameFull] من [asker_faction_name].</li>
+ </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(animalCount==1)->The [AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount==1)->A [AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount>=2)->The [AdjectiveBadass] [beasts]</li>
+    <li>questName(animalCount>=2)->[AdjectiveBadass] [beasts]</li>
+    <li>beast(p=4)->[animalKind_label]</li>
+    <li>beast->beast</li>
+    <li>beast->animal</li>
+    <li>beasts(p=4)->[animalKind_labelPlural]</li>
+    <li>beasts->beasts</li>
+    <li>beasts->animals</li>
+  -->
+  <ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
+    <li>questName(animalCount==1)->الـ[beast] [AdjectiveBadass]</li>
+    <li>questName(animalCount==1)->[beast] [AdjectiveBadass]</li>
+    <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount>=2)->الـ[beasts] [AdjectiveBadass]</li>
+    <li>questName(animalCount>=2)->[AdjectiveBadass] [beasts]</li>
+    <li>beast(p=4)->[animalKind_label]</li>
+    <li>beast->وحش</li>
+    <li>beast->حيوان</li>
+    <li>beasts(p=4)->[animalKind_labelPlural]</li>
+    <li>beasts->وحوش</li>
+    <li>beasts->حيوانات</li>
+ </ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
+  <!-- EN: {BASETEXT}\n\n[manhunterArrivalLetterEnd] -->
+  <ThreatReward_Manhunters_ItemPod.LetterTextManhunterArrival.slateRef>{BASETEXT}\n\n[manhunterArrivalLetterEnd]</ThreatReward_Manhunters_ItemPod.LetterTextManhunterArrival.slateRef>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->A trader is calling from nearby. [threat] are hunting him! He is asking you to signal them and draw them towards [map_definite] so he can escape.\n\nIf you send the signal, [askerEnemies] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This site will remain until you go destroy it.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is asking for your help. [askerEnemies] have been harassing [asker_possessive] settlements. [asker_pronoun] wants your help using signals to draw them towards [map_definite] and away from [asker_possessive] people.\n\nIf [asker_pronoun] does, [askerEnemies] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This site will remain until you go destroy it.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is traveling near [map_definite]. [asker_pronoun] is being followed by [threat] and wants your help using signals to draw them towards [map_definite].\n\nIf you do, [askerEnemies] will activate a site nearby to harass you. [site/allSitePartsDescriptions] This site will remain until you go destroy it.</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
+    <li>threat->[asker_possessive] enemies</li>
+    <li>threat(priority=-1)->his enemies</li>
+    <li>askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
+    <li>askerEnemies->[asker_possessive] enemies</li>
+    <li>askerEnemies(priority=-1)->his enemies</li>
+  -->
+  <ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->تاجر يتصل من مكان قريب. [threat] يطاردونه! يطلب منك أن ترسل لهم إشارة وتجذبهم نحو [map_definite] ليتمكن من الهرب.\n\nإذا أرسلت الإشارة، سينشط [askerEnemies] موقعاً قريباً لمضايقتك. [site/allSitePartsDescriptions] سيبقى هذا الموقع حتى تذهب وتدمره.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull]، [asker_faction_leaderTitle] [asker_faction_name]، يطلب مساعدتك. [askerEnemies] كانوا يضايقون مستوطناته. يريد [asker_pronoun] مساعدتك باستخدام إشارات لجذبهم نحو [map_definite] بعيداً عن شعبه.\n\nإذا فعل، سينشط [askerEnemies] موقعاً قريباً لمضايقتك. [site/allSitePartsDescriptions] سيبقى هذا الموقع حتى تذهب وتدمره.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، مسافر قرب [map_definite]. يتبعه [threat] ويريد مساعدتك باستخدام إشارات لجذبهم نحو [map_definite].\n\nإذا فعلت، سينشط [askerEnemies] موقعاً قريباً لمضايقتك. [site/allSitePartsDescriptions] سيبقى هذا الموقع حتى تذهب وتدمره.</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] من [site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->ميكيين</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->ميكيين</li>
+    <li>threat->أعداء[asker_possessive]</li>
+    <li>threat(priority=-1)->أعدائه</li>
+    <li>askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->الميكيين</li>
+    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->الميكيين</li>
+    <li>askerEnemies->أعداء[asker_possessive]</li>
+    <li>askerEnemies(priority=-1)->أعدائه</li>
+ </ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[asker_nameDef]'s [site/site_label]</li>
+    <li>questName->[site/site_label] for [asker_nameDef]</li>
+    <li>questName->Paid [site/site_label]</li>
+    <li>questName->[site/site_label] for Pay</li>
+  -->
+  <ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
+    <li>questName->[site/site_label] الخاص بـ[asker_nameDef]</li>
+    <li>questName->[site/site_label] لـ[asker_nameDef]</li>
+    <li>questName->[site/site_label] مدفوعة</li>
+    <li>questName->[site/site_label] مقابل أجر</li>
+ </ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
+  <!-- EN: [defaultSiteAppearedLetterText]\n\nThis site was set up as a response to your insulting signals. -->
+  <ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>[defaultSiteAppearedLetterText]\n\nتم إنشاء هذا الموقع رداً على إشاراتك المهينة.</ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>
+  
+</LanguageData>

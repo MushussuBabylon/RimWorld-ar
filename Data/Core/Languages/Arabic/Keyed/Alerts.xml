@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Click to jump to problem -->
+  <ClickToJumpToProblem>انقر للانتقال إلى المشكلة</ClickToJumpToProblem>
+
+  <!-- EN: Minor break risk -->
+  <BreakRiskMinor>خطر انهيار طفيف</BreakRiskMinor>
+  <!-- EN: Major break risk -->
+  <BreakRiskMajor>خطر انهيار كبير</BreakRiskMajor>
+  <!-- EN: Extreme break risk -->
+  <BreakRiskExtreme>خطر انهيار شديد</BreakRiskExtreme>
+  <!-- EN: These colonists are in a poor mood and may have a minor mental break at any time:\n{0} -->
+  <BreakRiskMinorDesc>هؤلاء المستعمرون في مزاج سيئ وقد يتعرضون لانهيار عقلي طفيف في أي وقت:\n{0}</BreakRiskMinorDesc>
+  <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n{0} -->
+  <BreakRiskMajorDesc>هؤلاء المستعمرون في مزاج سيئ للغاية وقد يتعرضون لانهيار عقلي كبير في أي وقت:\n{0}</BreakRiskMajorDesc>
+  <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n{0} -->
+  <BreakRiskExtremeDesc>يواجه هؤلاء المستعمرون ضغوطاً حرجة وقد يتعرضون لانهيار عقلي شديد (وربما عنيف) في أي لحظة:\n{0}</BreakRiskExtremeDesc>
+  <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
+  <BreakRiskDescEnding>تحقق من علامة تبويب "الاحتياجات" لهؤلاء المستعمرين لمعرفة ما يزعجهم.\n\nلجعل المستعمرين يشعرون بتحسن، يمكنك القيام بأشياء مثل إعداد وجبات فاخرة لهم، ومنحهم المزيد من ساعات الترفيه يومياً وأدوات ترفيهية أفضل، ووضعهم في بيئات جميلة، والسماح لهم بالشرب والتدخين، وغير ذلك الكثير.</BreakRiskDescEnding>
+
+  <!-- EN: Colonist needs rescue -->
+  <ColonistNeedsRescue>مستعمر يحتاج إلى إنقاذ</ColonistNeedsRescue>
+  <!-- EN: Colonists need rescue -->
+  <ColonistsNeedRescue>مستعمرون يحتاجون إلى إنقاذ</ColonistsNeedRescue>
+  <!-- EN: These colonists are incapacitated on the ground:\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
+  <ColonistsNeedRescueDesc>هؤلاء المستعمرون عاجزون عن الحركة على الأرض:\n{0}\nأرسل مستعمراً آخر لإنقاذهم وحملهم إلى السرير.\n\n(للإنقاذ، اختر مستعمراً آخر، ثم انقر بزر الفأرة الأيمن على الضحية واختر "إنقاذ".)</ColonistsNeedRescueDesc>
+  <!-- EN: These colonists are incapacitated on the ground:\n{0}\n\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
+  <ColonistsNeedRescueDescController>هؤلاء المستعمرون عاجزون عن الحركة على الأرض:\n{0}\n\nأرسل مستعمراً آخر لإنقاذهم وحملهم إلى السرير.\n\n(للإنقاذ، اختر مستعمراً آخر، ثم اضغط على زر الزناد الأيسر على الضحية واختر "إنقاذ".)</ColonistsNeedRescueDescController>
+
+  <!-- EN: Need defenses -->
+  <NeedDefenses>بحاجة إلى دفاعات</NeedDefenses>
+  <!-- EN: You've been here some time and have probably been seen. Pirate raids will start soon.\n\nYou should prepare defenses, like sandbags or traps. -->
+  <NeedDefensesDesc>لقد أمضيت هنا بعض الوقت وربما تم رصدك. ستبدأ غارات القراصنة قريباً.\n\nيجب عليك إعداد الدفاعات، مثل أكياس الرمل أو الفخاخ.</NeedDefensesDesc>
+
+  <!-- EN: Need doctor -->
+  <NeedDoctor>بحاجة إلى طبيب</NeedDoctor>
+  <!-- EN: These colonists need medical care, but you have no healthy colonists assigned as doctors.\n{0}\n\nAssign a healthy colonist to the Doctor work type. If left untreated, wounds may never heal properly and may become permanent. -->
+  <NeedDoctorDesc>يحتاج هؤلاء المستعمرون إلى رعاية طبية، لكن ليس لديك مستعمرون أصحاء معينون كأطباء.\n{0}\n\nقم بتعيين مستعمر سليم لنوع عمل "طبيب". إذا تُركت الجروح دون علاج، فقد لا تلتئم بشكل صحيح أبدًا وقد تصبح دائمة.</NeedDoctorDesc>
+
+  <!-- EN: Need miner -->
+  <NeedMiner>بحاجة إلى عامل مناجم</NeedMiner>
+  <!-- EN: You have designated some rocks to be mined, but no colonist has the Mining work type.\n\nAssign a colonist the Mining work type. -->
+  <NeedMinerDesc>لقد حددت بعض الصخور للتعدين، ولكن لا يوجد مستعمر لديه نوع عمل "التعدين".\n\nقم بتعيين مستعمر لنوع عمل "التعدين".</NeedMinerDesc>
+
+  <!-- EN: Need warden -->
+  <NeedWarden>بحاجة إلى سجان</NeedWarden>
+  <!-- EN: You have a prisoner, but no colonist has the Warden work type.\n\nAssign a colonist the Warden work type. -->
+  <NeedWardenDesc>لديك سجين، ولكن لا يوجد مستعمر لديه نوع عمل "السجان".\n\nقم بتعيين مستعمر لنوع عمل "السجان".</NeedWardenDesc>
+
+  <!-- EN: Low food -->
+  <LowFood>طعام منخفض</LowFood>
+  <!-- EN: You are dangerously low on food.\n\n    Full bars worth of food in storage: {0}\n    Colonists and prisoners getting food: {1}\n    Days worth of food in storage: {2}\n\nGrow, buy, find, or kill some food. -->
+  <LowFoodDesc>لديك نقص خطير في الطعام.\n\n    كمية الطعام الكاملة في المخزن: {0}\n    المستعمرون والسجناء الذين يتناولون الطعام: {1}\n    أيام كفاية الطعام في المخزن: {2}\n\nقم بزراعة أو شراء أو العثور على أو صيد بعض الطعام.</LowFoodDesc>
+
+  <!-- EN: Low medicine -->
+  <LowMedicine>دواء منخفض</LowMedicine>
+  <!-- EN: You only have {0} medications left in storage.\n\nBuy more medicine from traders. -->
+  <LowMedicineDesc>لم يتبق لديك سوى {0} من الأدوية في المخزن.\n\nاشترِ المزيد من الأدوية من التجار.</LowMedicineDesc>
+  <!-- EN: You have no medicine left in storage.\n\nBuy more medicine from traders. -->
+  <NoMedicineDesc>لم يتبق لديك أي دواء في المخزن.\n\nاشترِ المزيد من الأدوية من التجار.</NoMedicineDesc>
+  
+  <!-- EN: Need colonist beds -->
+  <NeedColonistBeds>بحاجة لأسرة مستعمرين</NeedColonistBeds>
+  <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
+  <NeedColonistBedsDesc>لديك عدد مستعمرين أكثر من أسرة المستعمرين المتوفرة. سيفتقر أحدهم إلى مكان للنوم.\n\nإما أن تصنع المزيد من الأسرة، أو تحول سرير سجين إلى سرير مستعمر.\n\nإذا لم تكن لديك موارد، فإن مواقع النوم مجانية ويمكن وضعها على الفور.</NeedColonistBedsDesc>
+  
+  <!-- EN: Colonist left unburied -->
+  <AlertColonistLeftUnburied>مستعمر تُرِك دون دفن</AlertColonistLeftUnburied>
+  <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
+  <AlertColonistLeftUnburiedDesc>تُرِك مستعمر دون دفن.\n\nقد يؤثر هذا سلباً على مزاج مستعمريك.</AlertColonistLeftUnburiedDesc>
+
+  <!-- EN: Tattered apparel -->
+  <AlertTatteredApparel>ملابس بالية</AlertTatteredApparel>
+  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
+  <AlertTatteredApparelDesc>يرتدي هؤلاء المستعمرون ملابس بالية، مما يسبب لهم الحزن:\n{0}\n\nاحصل لهم على بعض الملابس التي ليست تالفة للغاية.\n\nيمكنك خياطة الملابس في موقع الحرف اليدوية أو طاولة الخياطة، أو شراؤها من التجار.</AlertTatteredApparelDesc>
+
+  <!-- EN: Unhappy nudity -->
+  <AlertUnhappyNudity>عري غير سعيد</AlertUnhappyNudity>
+  <!-- EN: These colonists are nude and not happy about it:\n{0}\n\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
+  <AlertUnhappyNudityDesc>هؤلاء المستعمرون عراة وغير سعداء بذلك:\n{0}\n\nاحصل لهم على بعض الملابس.\n\nيمكنك خياطة الملابس في موقع الحرف اليدوية أو طاولة الخياطة، أو شراؤها من التجار.</AlertUnhappyNudityDesc>
+
+  <!-- EN: Starvation -->
+  <Starvation>مجاعة</Starvation>
+  <!-- EN: These colonists are starving:\n{0}\n\nGet them some food. -->
+  <StarvationDesc>هؤلاء المستعمرون يتضورون جوعاً:\n{0}\n\nوفر لهم بعض الطعام.</StarvationDesc>
+
+  <!-- EN: Animal starvation -->
+  <StarvationAnimals>مجاعة حيوانات</StarvationAnimals>
+  <!-- EN: These colony animals are starving:\n{0}\n\nGet them some food. -->
+  <StarvationAnimalsDesc>حيوانات المستعمرة هذه تتضور جوعاً:\n{0}\n\nوفر لها بعض الطعام.</StarvationAnimalsDesc>
+
+  <!-- EN: Exhaustion -->
+  <Exhaustion>إرهاق شديد</Exhaustion>
+  <!-- EN: These colonists are exhausted and need rest:\n{0}\n\nGet them some rest. They'll need a bed marked for colonist use. Also, make sure they're not drafted. -->
+  <ExhaustionDesc>هؤلاء المستعمرون مرهقون ويحتاجون إلى الراحة:\n{0}\n\nدعهم يرتاحون. سيحتاجون إلى سرير مخصص لاستخدام المستعمرين. وتأكد أيضاً من عدم تجنيدهم للقتال.</ExhaustionDesc>
+
+  <!-- EN: Need food hopper -->
+  <NeedFoodHopper>بحاجة إلى قمع طعام</NeedFoodHopper>
+  <!-- EN: You have a nutrient dispenser with no hopper next to it.\n\nTo work, paste dispensers must draw from an adjacent hopper filled with raw food.\n\nBuild a hopper adjacent to the dispenser. -->
+  <NeedFoodHopperDesc>لديك جهاز توزيع مغذيات بدون قمع بجانبه.\n\nلكي تعمل أجهزة توزيع المعجون، يجب أن تسحب من قمع مجاور مليء بالطعام النيئ.\n\nقم ببناء قمع مجاور للموزع.</NeedFoodHopperDesc>
+
+  <!-- EN: Need meal source -->
+  <NeedMealSource>بحاجة لمصدر وجبات</NeedMealSource>
+  <!-- EN: You have no way of preparing proper meals from raw food.\n\nBuild a stove, campfire, or nutrient dispenser.\n\n(It cannot be in a prison cell, otherwise colonists cannot use it.) -->
+  <NeedMealSourceDesc>ليس لديك طريقة لإعداد وجبات مناسبة من الطعام النيئ.\n\nقم ببناء موقد، أو موقد نار، أو جهاز توزيع مغذيات.\n\n(لا يمكن أن يكون في زنزانة السجن، وإلا فلن يتمكن المستعمرون من استخدامه.)</NeedMealSourceDesc>
+
+  <!-- EN: Need recreation variety -->
+  <NeedJoySource>بحاجة لتنوع ترفيهي</NeedJoySource>
+  <!-- EN: There are only {0} different recreation types available in {1}, but at the current expectations level ({2}), colonists need {3} different kinds of recreation to remain satisfied. Provide recreation variety supplying a new, different kind of recreation.\n\n{4}\n\n{5}\n\nNote: You can check the recreation type of any item in its stats page, accessible with the 'i' button. -->
+  <NeedJoySourceDesc>لا يتوفر سوى {0} من أنواع الترفيه المختلفة في {1}، ولكن عند مستوى التوقعات الحالي ({2})، يحتاج المستعمرون إلى {3} أنواع مختلفة من الترفيه للبقاء راضين. وفر تنوعاً ترفيهياً من خلال تقديم نوع جديد ومختلف من الترفيه.\n\n{4}\n\n{5}\n\nملاحظة: يمكنك التحقق من نوع الترفيه لأي عنصر في صفحة الإحصائيات الخاصة به، والتي يمكن الوصول إليها عبر الزر 'i'.</NeedJoySourceDesc>
+  <!-- EN: Available recreation types -->
+  <AvailableRecreationTypes>أنواع الترفيه المتاحة</AvailableRecreationTypes>
+  <!-- EN: Missing recreation types -->
+  <MissingRecreationTypes>أنواع الترفيه المفقودة</MissingRecreationTypes>
+  <!-- EN: At current expectations ({0}), each tolerance falls by {1} per day awake. Having {2} recreation types is recommended. -->
+  <CurrentExpectationsAndRecreation>عند التوقعات الحالية ({0})، ينخفض تحمل كل نوع بمقدار {1} يومياً أثناء الاستيقاظ. يوصى بوجود {2} من أنواع الترفيه.</CurrentExpectationsAndRecreation>
+  <!-- EN: bored -->
+  <bored>ملل</bored>
+
+  <!-- EN: Boredom -->
+  <Boredom>ملل</Boredom>
+  <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n{2} -->
+  <BoredomDesc>هؤلاء الأشخاص إما بحاجة إلى ترفيه أو تم تعيينهم للترفيه، لكنهم يشعرون بالملل من كل مصدر ترفيه متاح:\n\n{0}\n\nوفر لهم المزيد من التنوع الترفيهي.\n\nأنواع الترفيه المتاحة حالياً لـ {PAWN_labelShort}:\n{2}</BoredomDesc>
+
+  <!-- EN: Need batteries -->
+  <NeedBatteries>بحاجة إلى بطاريات</NeedBatteries>
+  <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
+  <NeedBatteriesDesc>لديك مولد طاقة شمسية أو طاقة رياح، ولكن ليس لديك بطاريات. ستفقد الطاقة في كل مرة تغرب فيها الشمس أو تهدأ الرياح.</NeedBatteriesDesc>
+  <!-- EN: Build a battery or two to guarantee sustained power. -->
+  <NeedBatteriesResearchedDesc>قم ببناء بطارية أو اثنتين لضمان استدامة الطاقة.</NeedBatteriesResearchedDesc>
+  <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
+  <NeedBatteriesNotResearchedDesc>ابحث في تقنية البطاريات وقم ببناء اثنتين منها لضمان استدامة الطاقة.</NeedBatteriesNotResearchedDesc>
+
+  <!-- EN: Brawler has ranged weapon -->
+  <BrawlerHasRangedWeapon>المشاجر يحمل سلاحاً بعيد المدى</BrawlerHasRangedWeapon>
+  <!-- EN: One of your colonists has the Brawler personality trait, but is carrying a ranged weapon. This will make them very unhappy. -->
+  <BrawlerHasRangedWeaponDesc>أحد مستعمريك لديه سمة شخصية "المشاجر"، لكنه يحمل سلاحاً بعيد المدى. هذا سيجعله غير سعيد للغاية.</BrawlerHasRangedWeaponDesc>
+
+  <!-- EN: Shield user has ranged weapon -->
+  <ShieldUserHasRangedWeapon>مستخدم الدرع يحمل سلاحاً بعيد المدى</ShieldUserHasRangedWeapon>
+  <!-- EN: One of your colonists has a shield belt and is carrying a ranged weapon. They will not be able to fire their weapon through the shield (except at targets who are already touching them). -->
+  <ShieldUserHasRangedWeaponDesc>أحد مستعمريك يرتدي حزام درع ويحمل سلاحاً بعيد المدى. لن يتمكن من إطلاق النار من سلاحه عبر الدرع (باستثناء الأهداف التي تلمسه بالفعل).</ShieldUserHasRangedWeaponDesc>
+
+  <!-- EN: Need research project -->
+  <NeedResearchProject>بحاجة لمشروع بحثي</NeedResearchProject>
+  <!-- EN: You have the equipment to do research but have not selected a project.\n\n(Click to open the research menu.) -->
+  <NeedResearchProjectDesc>لديك المعدات اللازمة لإجراء الأبحاث ولكنك لم تختر مشروعاً بعد.\n\n(انقر لفتح قائمة الأبحاث.)</NeedResearchProjectDesc>
+
+  <!-- EN: 1 colonist idle -->
+  <ColonistIdle>مستعمر واحد خامل</ColonistIdle>
+  <!-- EN: {0} colonists idle -->
+  <ColonistsIdle>{0} مستعمرين خاملين</ColonistsIdle>
+  <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
+  <ColonistsIdleDesc>هؤلاء المستعمرون يتجولون خاملين:\n{0}\n\nربما ينبغي عليك العثور على شيء إنتاجي ليفعلوه.</ColonistsIdleDesc>
+  
+  <!-- EN: Caravan idle -->
+  <CaravanIdle>قافلة خاملة</CaravanIdle>
+  <!-- EN: These caravans are waiting for you to set their next destination:\n{0} -->
+  <CaravanIdleDesc>هذه القوافل تنتظر منك تحديد وجهتها التالية:\n{0}</CaravanIdleDesc>
+
+  <!-- EN: Medical treatment needed -->
+  <ColonistNeedsTreatment>بحاجة لعلاج طبي</ColonistNeedsTreatment>
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDesc>يحتاج هؤلاء الأشخاص إلى علاج طبي. وبدونه، قد يموتون بسبب جروحهم، أو قد تصبح جروحهم دائمة.\n{0}\n\nعالجهم بإرسالهم إلى سرير طبي.\n\n(أولاً، قم بتعيين سرير طبي عن طريق تحديده وتحويله إلى سرير طبي. ثم حدد الشخص المصاب وانقر بزر الفأرة الأيمن على السرير الطبي لجعله مريضاً.)</ColonistNeedsTreatmentDesc>
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDescController>يحتاج هؤلاء الأشخاص إلى علاج طبي. وبدونه، قد يموتون بسبب جروحهم، أو قد تصبح جروحهم دائمة.\n{0}\n\nعالجهم بإرسالهم إلى سرير طبي.\n\n(أولاً، قم بتعيين سرير طبي عن طريق تحديده وتحويله إلى سرير طبي. ثم حدد الشخص المصاب واضغط على زر الزناد الأيسر على السرير الطبي لجعله مريضاً.)</ColonistNeedsTreatmentDescController>
+
+  <!-- EN: Hypothermia -->
+  <AlertHypothermia>انخفاض حرارة الجسم</AlertHypothermia>
+  <!-- EN: These colonists are suffering from hypothermia:\n{0}\n\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
+  <AlertHypothermiaDesc>يعاني هؤلاء المستعمرون من انخفاض حرارة الجسم:\n{0}\n\nتأكد من أن ملابسهم مناسبة للموسم وأن المساحات الداخلية مدفأة بشكل صحيح.</AlertHypothermiaDesc>
+  
+  <!-- EN: {0} patients await medical operation -->
+  <PatientsAwaitingMedicalOperation>{0} من المرضى ينتظرون عملية طبية</PatientsAwaitingMedicalOperation>
+  <!-- EN: These patients await medical operation:\n{0}\n\nMake sure you have all necessary medical tools and a free doctor available. -->
+  <PatientsAwaitingMedicalOperationDesc>ينتظر هؤلاء المرضى عملية طبية:\n{0}\n\nتأكد من توفر جميع الأدوات الطبية اللازمة وطبيب متاح.</PatientsAwaitingMedicalOperationDesc>
+
+  <!-- EN: Fire! -->
+  <FireInHomeArea>حريق!</FireInHomeArea>
+  <!-- EN: There is a fire in the home area. -->
+  <FireInHomeAreaDesc>هناك حريق في منطقة المنزل.</FireInHomeAreaDesc>
+
+  <!-- EN: Medical emergency -->
+  <PawnsWithLifeThreateningDisease>حالة طبية طارئة</PawnsWithLifeThreateningDisease>
+  <!-- EN: People are at risk of death because of severe illness:\n{0}\n\nMake sure that they get the best medical care possible. -->
+  <PawnsWithLifeThreateningDiseaseDesc>يتعرض الأشخاص لخطر الموت بسبب مرض شديد:\n{0}\n\nتأكد من حصولهم على أفضل رعاية طبية ممكنة.</PawnsWithLifeThreateningDiseaseDesc>
+  <!-- EN: People are at risk for death because of severe illness:\n{0}\n\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive. -->
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>يتعرض الأشخاص لخطر الموت بسبب مرض شديد:\n{0}\n\nإذا كان ذلك ممكناً، ففكر في بتر أو استبدال الأطراف المصابة لإبقاء المستعمرين على قيد الحياة.</PawnsWithLifeThreateningDiseaseAmputationDesc>
+
+  <!-- EN: Billiards needs space -->
+  <BilliardsNeedsSpace>البلياردو بحاجة إلى مساحة</BilliardsNeedsSpace>
+  <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
+  <BilliardsNeedsSpaceDesc>إحدى طاولات البلياردو لديك مجاورة لعائق يمنع المستعمرين من استخدامها.\n\nتحتاج طاولة البلياردو إلى مساحة خالية حولها من جميع الجوانب لتكون صالحة للاستخدام.</BilliardsNeedsSpaceDesc>
+
+  <!-- EN: Chess table needs chairs -->
+  <ChessTablesNeedChairs>طاولة الشطرنج بحاجة لكراسي</ChessTablesNeedChairs>
+  <!-- EN: One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once. -->
+  <ChessTablesNeedChairsDesc>إحدى طاولات الشطرنج لديك لا تحتوي على أي كراسي مجاورة.\n\nقم ببناء كراسي أو مقاعد مجاورة للسماح لمستعمريك باستخدام طاولة الشطرنج. يمكن لشخصين كحد أقصى استخدام طاولة الشطرنج في نفس الوقت.</ChessTablesNeedChairsDesc>
+
+  <!-- EN: Poker table needs chairs -->
+  <PokerTablesNeedChairs>طاولة البوكر بحاجة لكراسي</PokerTablesNeedChairs>
+  <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
+  <PokerTablesNeedChairsDesc>إحدى طاولات البوكر لديك لا تحتوي على أي كراسي مجاورة.\n\nقم ببناء كراسي أو مقاعد مجاورة للسماح لمستعمريك باستخدام طاولة البوكر. يمكن لما يصل إلى ثمانية أشخاص استخدام طاولة البوكر في نفس الوقت.</PokerTablesNeedChairsDesc>
+
+  <!-- EN: Hunter has shield and ranged weapon -->
+  <HunterHasShieldAndRangedWeapon>الصياد يحمل درعاً وسلاحاً بعيد المدى</HunterHasShieldAndRangedWeapon>
+  <!-- EN: One of your hunters is using a ranged weapon and wearing a shield belt which prevents shooting at range.\n\nThey won't be able to hunt unless the shield is removed. -->
+  <HunterHasShieldAndRangedWeaponDesc>أحد صياديك يستخدم سلاحاً بعيد المدى ويرتدي حزام درع يمنعه من إطلاق النار عن بعد.\n\nلن يتمكنوا من الصيد ما لم يتم نزع الدرع.</HunterHasShieldAndRangedWeaponDesc>
+
+  <!-- EN: Need warm clothes -->
+  <NeedWarmClothes>بحاجة لملابس دافئة</NeedWarmClothes>
+  <!-- EN: At least {0} of your colonists will lack warm clothes when the cold season comes. -->
+  <NeedWarmClothesDesc1>سيفتقر {0} على الأقل من مستعمريك إلى الملابس الدافئة عندما يأتي موسم البرد.</NeedWarmClothesDesc1>
+  <!-- EN: All of your colonists will lack warm clothes when the cold season comes. -->
+  <NeedWarmClothesDesc1All>سيفتقر جميع مستعمريك إلى الملابس الدافئة عندما يأتي موسم البرد.</NeedWarmClothesDesc1All>
+  <!-- EN: The outdoor temperature is going to reach {0}.\n\nYou can tailor warm clothes at the tailoring bench, or buy them from traders. -->
+  <NeedWarmClothesDesc2>ستصل درجة الحرارة الخارجية إلى {0}.\n\nيمكنك خياطة ملابس دافئة في منضدة الخياطة، أو شراؤها من التجار.</NeedWarmClothesDesc2>
+
+  <!-- EN: Immobile caravan -->
+  <ImmobileCaravan>قافلة عاجزة عن الحركة</ImmobileCaravan>
+  <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
+  <ImmobileCaravanDesc>إحدى قوافلك عاجزة عن الحركة لأنها تحمل الكثير من الأوزان.\n\nيمكنك جعل القافلة متحركة مرة أخرى عن طريق التخلي عن بعض العناصر في علامة تبويب "العناصر".</ImmobileCaravanDesc>
+
+  <!-- EN: Building unusable due to roof -->
+  <BuildingCantBeUsedRoofed>مبنى غير صالح للاستخدام بسبب السقف</BuildingCantBeUsedRoofed>
+  <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
+  <BuildingCantBeUsedRoofedDesc>لا يمكن استخدام واحد أو أكثر من مبانيك إلا إذا كانت غير مسقوفة، ولكن هناك سقف فوقها. لن تكون المباني صالحة للاستخدام حتى تقوم بإزالة السقف.</BuildingCantBeUsedRoofedDesc>
+
+  <!-- EN: Heatstroke -->
+  <AlertHeatstroke>ضربة شمس</AlertHeatstroke>
+  <!-- EN: The following people are suffering from heatstroke:\n{0}\n\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
+  <AlertHeatstrokeDesc>الأشخاص التاليون يعانون من ضربة شمس:\n{0}\n\nانقلهم إلى منطقة أكثر برودة. يمكنك تبريد الغرف باستخدام مبردات غير نشطة أو مبردات كهربائية. كما أن المساحات العميقة تحت الأرض باردة بشكل طبيعي، إذا تم فصلها عن الخارج بواسطة باب.</AlertHeatstrokeDesc>
+
+  <!-- EN: Guest unhappy -->
+  <QuestPartMoodBelowThreshold>ضيف غير سعيد</QuestPartMoodBelowThreshold>
+  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n{1} -->
+  <QuestPartMoodBelowThresholdDesc>تتطلب منك المهمة {0} إبقاء هذا الشخص في مزاج جيد. ومع ذلك، فإن مزاجه سيء. اتخذ بعض الإجراءات لجعله يشعر بتحسن:\n{1}</QuestPartMoodBelowThresholdDesc>
+  
+  <!-- EN: Shuttle leaving in {0} -->
+  <QuestPartShuttleLeaveDelay>المكوك يغادر خلال {0}</QuestPartShuttleLeaveDelay>
+  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
+  <QuestPartShuttleLeaveDelayDesc>سيغادر المكوك خلال {1}. تتطلب منك المهمة {0} تحميل الأشخاص أو العناصر التالية على متن المكوك قبل مغادرته:\n{2}</QuestPartShuttleLeaveDelayDesc>
+  <!-- EN: The shuttle will leave in {0}. -->
+  <QuestPartShuttleLeaveDelayDescHidden>سيغادر المكوك خلال {0}.</QuestPartShuttleLeaveDelayDescHidden>
+
+  <!-- EN: Shuttle arriving in {0} -->
+  <QuestPartShuttleArriveDelay>المكوك يصل خلال {0}</QuestPartShuttleArriveDelay>
+  <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
+  <QuestPartShuttleArriveDelayDesc>سيصل مكوك خلال {1}. تتطلب منك المهمة {0} تحميل الأشخاص أو العناصر التالية على متن المكوك قبل مغادرته:\n{2}</QuestPartShuttleArriveDelayDesc>
+  <!-- EN: A shuttle will arrive in {0}. -->
+  <QuestPartShuttleArriveDelayDescHidden>سيصل مكوك خلال {0}.</QuestPartShuttleArriveDelayDescHidden>
+
+  <!-- EN: Monument will be destroyed -->
+  <DisallowedBuildingInsideMonument>سيتم تدمير النصب التذكاري</DisallowedBuildingInsideMonument>
+  <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
+  <DisallowedBuildingInsideMonumentDesc>لقد قمت ببناء مبنى غير مسموح به داخل أحد نصبك التذكارية. سيتم اعتبار النصب التذكاري مدمراً خلال {0}.</DisallowedBuildingInsideMonumentDesc>
+
+  <!-- EN: Countdown activator {0} -->
+  <ActivatorCountdown>مُنشِّط العد التنازلي {0}</ActivatorCountdown>
+  <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDesc>هناك منشط عد تنازلي يعمل، استعداداً لإيقاظ الميكانويدات القريبة.</ActivatorCountdownDesc>
+  <!-- EN: {0} countdown activators -->
+  <ActivatorCountdownMultiple>{0} من منشطات العد التنازلي</ActivatorCountdownMultiple>
+  <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDescMultiple>هناك {0} من منشطات العد التنازلي تعمل، استعداداً لإيقاظ الميكانويدات القريبة.</ActivatorCountdownDescMultiple>
+
+  <!-- EN: Quest expires in {0} -->
+  <QuestExpiresSoon>تنتهي صلاحية المهمة خلال {0}</QuestExpiresSoon>
+  <!-- EN: The quest '{0}' will expire in {1}. -->
+  <QuestExpiresSoonDesc>ستنتهي صلاحية المهمة '{0}' خلال {1}.</QuestExpiresSoonDesc>
+
+  <!-- EN: Animal filth -->
+  <AlertAnimalFilth>قاذورات الحيوانات</AlertAnimalFilth>
+  <!-- EN: A filth-producing animal is indoors on a clean floor.\n\nAnimals produce a very large amount of filth when moving around on normal floors. Keep filth-producing animals outdoors, or on straw matting where they will produce far less filth.\n\nYou can check an animal's filth production rate in its stats by clicking the 'i' button.\n\nThese animals are the problem:\n{0} -->
+  <AlertAnimalFilthDesc>يوجد حيوان منتج للقاذورات في الداخل على أرضية نظيفة.\n\nتنتج الحيوانات كمية كبيرة جداً من القاذورات عند التنقل على الأرضيات العادية. احتفظ بالحيوانات المنتجة للقاذورات في الخارج، أو على حصير من القش حيث ستنتج قاذورات أقل بكثير.\n\nيمكنك التحقق من معدل إنتاج القاذورات للحيوان في إحصائياته بالنقر فوق الزر 'i'.\n\nهذه الحيوانات هي سبب المشكلة:\n{0}</AlertAnimalFilthDesc>
+
+  <!-- EN: Pen needed -->
+  <AlertAnimalPenNeeded>بحاجة إلى حظيرة</AlertAnimalPenNeeded>
+  <!-- EN: Some of your tame animals are roamers. If not kept in a pen or roped to a caravan hitching spot, they will wander away. -->
+  <AlertAnimalPenNeededDesc>بعض حيواناتك الأليفة تميل للتجوال. إذا لم يتم الاحتفاظ بها في حظيرة أو ربطها بحبل في موقع ربط القوافل، فسوف تشرد بعيداً.</AlertAnimalPenNeededDesc>
+  <!-- EN: You do not have any handlers to take animals to a pen.\n\nAssign a colonist to the Handling work type. -->
+  <AlertAnimalPenNeededNoHandlers>ليس لديك أي مروّضين لنقل الحيوانات إلى الحظيرة.\n\nقم بتعيين مستعمر لنوع عمل "الترويض".</AlertAnimalPenNeededNoHandlers>
+  <!-- EN: Create an animal pen by building a pen marker inside a fenced, barricaded, or walled area. Select the pen marker to see which animals it accepts and how many its pen can support.\n\nYour animal handlers will bring animals to their assigned pen automatically.\n\nA pen needs a door or gate to admit animals. -->
+  <AlertAnimalPenNeededDescExplanation>قم بإنشاء حظيرة حيوانات عن طريق بناء علامة حظيرة داخل منطقة مسيجة أو محصنة أو محاطة بجدران. حدد علامة الحظيرة لمعرفة الحيوانات التي تقبلها وعدد الحيوانات التي يمكن للحظيرة استيعابها.\n\nسيقوم مروّضو الحيوانات بجلب الحيوانات إلى الحظيرة المخصصة لها تلقائياً.\n\nتحتاج الحظيرة إلى باب أو بوابة لإدخال الحيوانات.</AlertAnimalPenNeededDescExplanation>
+  
+  <!-- EN: Pen not enclosed -->
+  <AlertAnimalPenNotEnclosed>الحظيرة غير مغلقة</AlertAnimalPenNotEnclosed>
+  <!-- EN: An animal pen marker is not enclosed.\n\nEnclose the pen using fences, barricades, gates, walls, or doors to prevent animals from wandering out.\n\nIf you have only unenclosed pen markers, your handlers can still lead wandering animals back home - but this must be repeated from time to time when the animals wander away once again. -->
+  <AlertAnimalPenNotEnclosedDesc>علامة حظيرة الحيوانات غير مغلقة.\n\nأغلق الحظيرة باستخدام السياج أو الحواجز أو البوابات أو الجدران أو الأبواب لمنع الحيوانات من الشرود للخارج.\n\nإذا كان لديك علامات حظيرة غير مغلقة فقط، فلا يزال بإمكان المروّضين قيادة الحيوانات الشاردة إلى المنزل - ولكن يجب تكرار ذلك من وقت لآخر عندما تشرد الحيوانات مرة أخرى.</AlertAnimalPenNotEnclosedDesc>
+
+  <!-- EN: {ANIMAL_labelShort} in animal pen -->
+  <AlertPredatorInAnimalPen>{ANIMAL_labelShort} في حظيرة الحيوانات</AlertPredatorInAnimalPen>
+  <!-- EN: A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves. -->
+  <AlertPredatorInAnimalPenDesc>لقد شرد {ANIMAL_labelShort} مفترس داخل حظيرة الحيوانات.\n\nقد يقرر صيد حيواناتك.\n\nيمكنك قتله، أو الانتظار والأمل في أن يغادر.</AlertPredatorInAnimalPenDesc>
+
+  <!-- EN: Animal wandering away -->
+  <AlertAnimalIsRoaming>الحيوان يشرد بعيداً</AlertAnimalIsRoaming>
+  <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n{0} -->
+  <AlertAnimalIsRoamingDesc>بعض حيواناتك الأليفة تميل للتجوال وبدأت في الشرود. إذا وصلت إلى حافة الخريطة، فستغادر في النهاية.\n\nإذا كان لديك حظيرة حيوانات مغلقة، فيمكن لمروّضي الحيوانات إعادة الحيوان. الحيوانات الموجودة في حظيرة الحيوانات لن تشرد.\n\nالحيوانات التالية تشرد حالياً:\n{0}</AlertAnimalIsRoamingDesc>
+
+  <!-- EN: Hungry pen animals -->
+  <AlertPennedAnimalHungry>حيوانات الحظيرة جائعة</AlertPennedAnimalHungry>
+  <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n{0} -->
+  <AlertPennedAnimalHungryDesc>بعض حيواناتك الموجودة في الحظيرة جائعة.\n\nحدد علامة الحظيرة واستخدم علامة تبويب "الطعام" لرؤية المزيد من التفاصيل.\n\nقد تحتاج الحيوانات آكلة الأعشاب إلى حظيرة أكبر لتوفير ما يكفي من العشب. قد تحتاج الحيوانات الأخرى إلى تزويدها بعشب القش أو طعام مماثل باستخدام مخزون.\n\nحيوانات الحظيرة التالية جائعة:\n{0}</AlertPennedAnimalHungryDesc>
+
+  <!-- EN: Hungry hitched animal -->
+  <AlertHitchedAnimalHungryNoFood>الحيوان المربوط جائع</AlertHitchedAnimalHungryNoFood>
+  <!-- EN: Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nBring them food, or remove the hitching spot so they can find food on their own.\n\nThe following hitched animals are hungry:\n{0} -->
+  <AlertHitchedAnimalHungryNoFoodDesc>بعض الحيوانات المربوطة في مواقع الربط جائعة. قد لا يكون هناك أي طعام مناسب في متناول يدها.\n\nأحضر لها طعاماً، أو أزل موقع الربط حتى تتمكن من العثور على الطعام بمفردها.\n\nالحيوانات المربوطة التالية جائعة:\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
+
+  <!-- EN: Raids arriving in {0} -->
+  <AlertTimedRaidsArrivingIn>الغارات تصل خلال {0}</AlertTimedRaidsArrivingIn>
+  <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
+  <AlertTimedRaidsArrivingInDesc>لقد جُذِب الأعداء إلى المواقع التالية وسيبدأون في الوصول بقوة قريباً.\n\n{0}</AlertTimedRaidsArrivingInDesc>
+  <!-- EN: Arriving at {0} in {1} -->
+  <AlertTimedRaidsArrivingAt>تصل إلى {0} خلال {1}</AlertTimedRaidsArrivingAt>
+
+  <!-- EN: Faction will become hostile if you stay -->
+  <FactionWillBecomeHostileIfNotLeavingWithin>الفصيل سيصبح معادياً إذا بقيت</FactionWillBecomeHostileIfNotLeavingWithin>
+  <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n{0} -->
+  <FactionWillBecomeHostileIfNotLeavingWithinDesc>ستصبح هذه الفصائل معادية إذا بقيت لفترة أطول في مستوطنتها أو موقعها الأمامي:\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+
+  <!-- EN: {0} trees dying -->
+  <AlertMinifiedTreeAboutToDie>أشجار تموت {0}</AlertMinifiedTreeAboutToDie>
+  <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
+  <AlertMinifiedTreeAboutToDieDesc>هناك {0} من الأشجار المستخرجة سوف تموت في أقل من يوم. هذا سيجعل بعض المستعمرين غير سعداء بسبب معتقداتهم.\n\nيمكنك منع ذلك عن طريق إعادة زراعة هذه الأشجار.</AlertMinifiedTreeAboutToDieDesc>
+
+  <!-- EN: Need research bench -->
+  <NeedResearchBench>بحاجة لمنضدة أبحاث</NeedResearchBench>
+  <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
+  <NeedResearchBenchDesc>لديك مشروع بحثي نشط '{0}'. يتطلب هذا المشروع منك بناء {1}.</NeedResearchBenchDesc>
+  
+</LanguageData>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: beauty -->
+  <Beauty.label>الجمال</Beauty.label>
+  <!-- EN: How enjoyable an object is to look at.\n\nBeautiful objects fulfill characters' need for beauty. -->
+  <Beauty.description>مدى متعة النظر إلى شيء ما.\n\nالأشياء الجميلة تلبي حاجة الشخصيات للجمال.</Beauty.description>
+  
+  <!-- EN: outdoor beauty -->
+  <BeautyOutdoors.label>الجمال الخارجي</BeautyOutdoors.label>
+  <!-- EN: How enjoyable something is to look at if it's outside.\n\nBeautiful objects fulfill peoples' need for beauty. -->
+  <BeautyOutdoors.description>مدى متعة النظر إلى شيء ما إذا كان في الخارج.\n\nالأشياء الجميلة تلبي حاجة الناس للجمال.</BeautyOutdoors.description>
+  
+  <!-- EN: caravan speed factor -->
+  <CaravanBonusSpeedFactor.label>عامل سرعة القافلة</CaravanBonusSpeedFactor.label>
+  <!-- EN: A multiplier applied to a caravan's speed when this person is part of a caravan. -->
+  <CaravanBonusSpeedFactor.description>مضاعف يطبق على سرعة القافلة عندما يكون هذا الشخص جزءًا من قافلة.</CaravanBonusSpeedFactor.description>
+  
+  <!-- EN: cleanliness -->
+  <Cleanliness.label>النظافة</Cleanliness.label>
+  <!-- EN: How much an object contributes to an area's cleanliness score. -->
+  <Cleanliness.description>مدى مساهمة الشيء في درجة نظافة المنطقة.</Cleanliness.description>
+  
+  <!-- EN: comfort -->
+  <Comfort.label>الراحة</Comfort.label>
+  <!-- EN: How comfortable an object is to sit or lay on.\n\nUsing comfortable objects fulfills a character's need for comfort. -->
+  <Comfort.description>مدى راحة الشيء عند الجلوس أو الاستلقاء عليه.\n\nاستخدام الأشياء المريحة يلبي حاجة الشخصية للراحة.</Comfort.description>
+  
+  <!-- EN: deterioration rate -->
+  <DeteriorationRate.label>معدل التلف</DeteriorationRate.label>
+  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, pollution or being left in shallow water. -->
+  <DeteriorationRate.description>المعدل الذي يتلف به هذا العنصر عندما يترك في الخارج، بمتوسط نقاط صحة يوميًا.\n\nيتأثر معدل التلف أيضًا بعوامل مثل الطقس، الأسقف، السقوط السام، التلوث أو تركه في المياه الضحلة.</DeteriorationRate.description>
+  <!-- EN: {0} / day -->
+  <DeteriorationRate.formatString>{0} / يوم</DeteriorationRate.formatString>
+  
+  <!-- EN: flammability -->
+  <Flammability.label>القابلية للاشتعال</Flammability.label>
+  <!-- EN: How easily an object catches fire and how quickly a fire will grow as it burns. -->
+  <Flammability.description>مدى سهولة اشتعال الشيء ومدى سرعة نمو النار أثناء احتراقه.</Flammability.description>
+  
+  <!-- EN: food poison chance -->
+  <FoodPoisonChanceFixedHuman.label>فرصة التسمم الغذائي</FoodPoisonChanceFixedHuman.label>
+  <!-- EN: The chance this food will cause food poisoning. -->
+  <FoodPoisonChanceFixedHuman.description>فرصة أن يسبب هذا الطعام تسممًا غذائيًا.</FoodPoisonChanceFixedHuman.description>
+  <!-- EN: food poison chance (food stat) -->
+  <FoodPoisonChanceFixedHuman.labelForFullStatList>فرصة التسمم الغذائي (إحصائية الطعام)</FoodPoisonChanceFixedHuman.labelForFullStatList>
+  
+  <!-- EN: market value -->
+  <MarketValue.label>القيمة السوقية</MarketValue.label>
+  <!-- EN: The market value of an object.\n\nThe actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
+  <MarketValue.description>القيمة السوقية لشيء ما.\n\nسعر التجارة الفعلي سيتعدل حسب مهارة التفاوض، حالة العلاقة، وعوامل سياقية أخرى.</MarketValue.description>
+  
+  <!-- EN: market value ignoring hitpoints -->
+  <MarketValueIgnoreHp.label>القيمة السوقية متجاهلاً نقاط الصحة</MarketValueIgnoreHp.label>
+  
+  <!-- EN: mass -->
+  <Mass.label>الكتلة</Mass.label>
+  <!-- EN: The physical mass of an object or creature. -->
+  <Mass.description>الكتلة الفيزيائية لشيء أو مخلوق.</Mass.description>
+  <!-- EN: {0} kg -->
+  <Mass.formatString>{0} كغ</Mass.formatString>
+  
+  <!-- EN: max hit points -->
+  <MaxHitPoints.label>الحد الأقصى لنقاط الصحة</MaxHitPoints.label>
+  <!-- EN: The maximum hit points of an object.\n\nThis represents how much damage it can take before being destroyed. -->
+  <MaxHitPoints.description>الحد الأقصى لنقاط صحة الشيء.\n\nيمثل هذا مقدار الضرر الذي يمكن أن يتحمله قبل أن يُدمر.</MaxHitPoints.description>
+  
+  <!-- EN: nutrition -->
+  <Nutrition.label>القيمة الغذائية</Nutrition.label>
+  <!-- EN: How nutritious this food is. -->
+  <Nutrition.description>مدى تغذية هذا الطعام.</Nutrition.description>
+  
+  <!-- EN: honor value -->
+  <RoyalFavorValue.label>قيمة الشرف</RoyalFavorValue.label>
+  <!-- EN: The amount of honor your trader will earn for giving this to a tribute collector. -->
+  <RoyalFavorValue.description>كمية الشرف التي سيكسبها تاجرك مقابل إعطاء هذا لجامع الجزية.</RoyalFavorValue.description>
+  
+  <!-- EN: sell price multiplier -->
+  <SellPriceFactor.label>مضاعف سعر البيع</SellPriceFactor.label>
+  <!-- EN: A multiplier on the price at which you can sell items. -->
+  <SellPriceFactor.description>مضاعف على السعر الذي يمكنك بيع العناصر به.</SellPriceFactor.description>
+  
+  <!-- EN: shooting accuracy -->
+  <ShootingAccuracyTurret.label>دقة إطلاق النار</ShootingAccuracyTurret.label>
+  <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
+  <ShootingAccuracyTurret.description>الفرصة الأساسية لعدم الإخطاء لكل خلية من مسافة الطلقة.\n\nفرصة الإصابة تتأثر أيضًا بالعديد من العوامل الأخرى. يمكن رؤية شرح فرصة الإصابة لأي طلقة عن طريق تحديد مطلق النار وتحريك الماوس فوق الهدف.</ShootingAccuracyTurret.description>
+  <!-- EN: shooting accuracy (turrets) -->
+  <ShootingAccuracyTurret.labelForFullStatList>دقة إطلاق النار (المدافع)</ShootingAccuracyTurret.labelForFullStatList>
+  
+  <!-- EN: work to make -->
+  <WorkToMake.label>العمل اللازم للصنع</WorkToMake.label>
+  <!-- EN: The base amount of work it takes to make an item, once all materials are gathered. -->
+  <WorkToMake.description>المقدار الأساسي من العمل اللازم لصنع عنصر، بمجرد تجميع كل المواد.</WorkToMake.description>
+  
+</LanguageData>

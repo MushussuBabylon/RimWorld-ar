@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aiming time -->
+  <AimingDelayFactor.label>وقت التصويب</AimingDelayFactor.label>
+  <!-- EN: How long it takes to shoot after choosing a target. -->
+  <AimingDelayFactor.description>الوقت المستغرق للرماية بعد اختيار هدف.</AimingDelayFactor.description>
+  
+  <!-- EN: incoming damage multiplier -->
+  <IncomingDamageFactor.label>مضاعف الضرر الوارد</IncomingDamageFactor.label>
+  <!-- EN: A multiplier on all incoming damage. -->
+  <IncomingDamageFactor.description>مضاعف على كل الضرر الوارد.</IncomingDamageFactor.description>
+  
+  <!-- EN: melee armor penetration -->
+  <MeleeArmorPenetration.label>اختراق درع الاشتباك</MeleeArmorPenetration.label>
+  <!-- EN: Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon. -->
+  <MeleeArmorPenetration.description>متوسط اختراق الدرع لجميع الهجمات في قتال الاشتباك.\n\nهذه الإحصائية تشمل السلاح المستخدم حاليًا.</MeleeArmorPenetration.description>
+  
+  <!-- EN: melee cooldown -->
+  <MeleeCooldownFactor.label>فترة تبريد الاشتباك</MeleeCooldownFactor.label>
+  <!-- EN: A multiplier on the time this creature takes to recover after making a melee attack. -->
+  <MeleeCooldownFactor.description>مضاعف على الوقت الذي يستغرقه هذا المخلوق للتعافي بعد تنفيذ هجوم اشتباك.</MeleeCooldownFactor.description>
+  
+  <!-- EN: melee damage factor -->
+  <MeleeDamageFactor.label>عامل ضرر الاشتباك</MeleeDamageFactor.label>
+  <!-- EN: A multiplier on the amount of melee damage inflicted by this person. -->
+  <MeleeDamageFactor.description>مضاعف على مقدار ضرر الاشتباك الذي يلحقه هذا الشخص.</MeleeDamageFactor.description>
+  
+  <!-- EN: melee dodge chance -->
+  <MeleeDodgeChance.label>فرصة تفادي الاشتباك</MeleeDodgeChance.label>
+  <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
+  <MeleeDodgeChance.description>فرصة تفادي هجوم اشتباك كان سيصيب لولا ذلك.\n\nالشخصيات لا تتفادى أثناء التصويب أو إطلاق سلاح بعيد المدى.</MeleeDodgeChance.description>
+  
+  <!-- EN: melee DPS -->
+  <MeleeDPS.label>الضرر في الثانية بالاشتباك</MeleeDPS.label>
+  <!-- EN: Average damage per second in melee combat.\n\nThis stat ignores target defenses like dodging and armor. -->
+  <MeleeDPS.description>متوسط الضرر في الثانية في قتال الاشتباك.\n\nهذه الإحصائية تتجاهل دفاعات الهدف مثل التفادي والدرع.</MeleeDPS.description>
+  
+  <!-- EN: melee hit chance -->
+  <MeleeHitChance.label>فرصة إصابة الاشتباك</MeleeHitChance.label>
+  <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
+  <MeleeHitChance.description>فرصة إصابة هدف في الاشتباك.\n\nيمكن للهدف أن يتفادى حتى لو كنا سنصيب.</MeleeHitChance.description>
+  
+  <!-- EN: Mortar miss radius multiplier -->
+  <MortarMissRadiusFactor.label>مضاعف نصف قطر خطأ الهاون</MortarMissRadiusFactor.label>
+  <!-- EN: A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells. -->
+  <MortarMissRadiusFactor.description>مضاعف على نصف قطر خطأ الهاون الذي يستخدمه هذا الشخص. الأرقام الأصغر تعني قذائف هاون أكثر دقة.</MortarMissRadiusFactor.description>
+  <!-- EN: Mortar miss radius multiplier -->
+  <MortarMissRadiusFactor.labelForFullStatList>مضاعف نصف قطر خطأ الهاون</MortarMissRadiusFactor.labelForFullStatList>
+  
+  <!-- EN: trap spring chance -->
+  <PawnTrapSpringChance.label>فرصة انطلاق الفخ للشخصية</PawnTrapSpringChance.label>
+  <!-- EN: Chance to spring a trap the character is unaware of. -->
+  <PawnTrapSpringChance.description>فرصة أن ينطلق فخ لا تدركه الشخصية.</PawnTrapSpringChance.description>
+  
+  <!-- EN: ranged cooldown multiplier -->
+  <RangedCooldownFactor.label>مضاعف تبريد الرماية</RangedCooldownFactor.label>
+  <!-- EN: A multiplier on the cooldown between bursts when using a ranged weapon. -->
+  <RangedCooldownFactor.description>مضاعف على فترة التبريد بين الرشقات عند استخدام سلاح بعيد المدى.</RangedCooldownFactor.description>
+  
+  <!-- EN: accuracy factor (long) -->
+  <ShootingAccuracyFactor_Long.label>عامل الدقة (طويل)</ShootingAccuracyFactor_Long.label>
+  <!-- EN: A multiplier on accuracy at a distance of 40 cells or more. -->
+  <ShootingAccuracyFactor_Long.description>مضاعف على الدقة عند مسافة 40 خلية أو أكثر.</ShootingAccuracyFactor_Long.description>
+  
+  <!-- EN: accuracy factor (medium) -->
+  <ShootingAccuracyFactor_Medium.label>عامل الدقة (متوسط)</ShootingAccuracyFactor_Medium.label>
+  <!-- EN: A multiplier on accuracy at a distance of 25 cells. -->
+  <ShootingAccuracyFactor_Medium.description>مضاعف على الدقة عند مسافة 25 خلية.</ShootingAccuracyFactor_Medium.description>
+  
+  <!-- EN: accuracy factor (short) -->
+  <ShootingAccuracyFactor_Short.label>عامل الدقة (قصير)</ShootingAccuracyFactor_Short.label>
+  <!-- EN: A multiplier on accuracy at a distance of 12 cells. -->
+  <ShootingAccuracyFactor_Short.description>مضاعف على الدقة عند مسافة 12 خلية.</ShootingAccuracyFactor_Short.description>
+  
+  <!-- EN: accuracy factor (close) -->
+  <ShootingAccuracyFactor_Touch.label>عامل الدقة (قريب)</ShootingAccuracyFactor_Touch.label>
+  <!-- EN: A multiplier on accuracy at a distance of 3 cells or less. -->
+  <ShootingAccuracyFactor_Touch.description>مضاعف على الدقة عند مسافة 3 خلايا أو أقل.</ShootingAccuracyFactor_Touch.description>
+  
+  <!-- EN: shooting accuracy -->
+  <ShootingAccuracyPawn.label>دقة الرماية</ShootingAccuracyPawn.label>
+  <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors.\n\nA hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
+  <ShootingAccuracyPawn.description>الفرصة الأساسية لعدم الإخفاق لكل خلية من مسافة الرمي.\n\nفرصة الإصابة تتأثر أيضًا بعوامل أخرى كثيرة.\n\nيمكن رؤية شرح فرصة الإصابة لأي طلقة باختيار الرامي وتمرير الفأرة فوق هدف.</ShootingAccuracyPawn.description>
+  <!-- EN: shooting accuracy (people) -->
+  <ShootingAccuracyPawn.labelForFullStatList>دقة الرماية (الأشخاص)</ShootingAccuracyPawn.labelForFullStatList>
+  
+  <!-- EN: stagger time multiplier -->
+  <StaggerDurationFactor.label>مضاعف وقت التذبذب</StaggerDurationFactor.label>
+  <!-- EN: A multiplier on the duration of the stagger-slowdown that occurs when damage is taken. -->
+  <StaggerDurationFactor.description>مضاعف على مدة تباطؤ التذبذب الذي يحدث عند تلقي الضرر.</StaggerDurationFactor.description>
+  
+</LanguageData>

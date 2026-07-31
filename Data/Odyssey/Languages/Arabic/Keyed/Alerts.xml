@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Vacuum exposure -->
+  <AlertVacuumExposure>التعرض للفراغ</AlertVacuumExposure>
+  <!-- EN: These people and animals are suffering from exposure to the vacuum of space:\n{0}\n\nGet them to a pressurized area before they die. -->
+  <AlertVacuumExposureDesc>يعاني هؤلاء الأشخاص والحيوانات من التعرض لفراغ الفضاء:\n{0}\n\nانقلهم إلى منطقة مضغوطة قبل أن يموتوا.</AlertVacuumExposureDesc>
+
+  <!-- EN: Mechanoid threat -->
+  <AlertMechanoidThreat>تهديد الميكانويدات</AlertMechanoidThreat>
+  <!-- EN: A mechhive is conducting scans to determine your location. It will send a massive raid of hostile mechanoids when it locates you.\n\nFlee the map before mechanoids arrive! -->
+  <AlertMechanoidThreatDesc>تقوم خلية ميكانويدية بإجراء مسح لتحديد موقعك. سترسل غارة هائلة من الميكانويدات المعادية عندما تحدد موقعك.\n\nاهرب من الخريطة قبل وصول الميكانويدات!</AlertMechanoidThreatDesc>
+  <!-- EN: Incoming mechanoids -->
+  <AlertMechanoidThreatCritical>ميكانويدات قادمة</AlertMechanoidThreatCritical>
+  <!-- EN: A mechhive has discovered your location. It will continue to send hostile mechanoids until you flee this location. -->
+  <AlertMechanoidThreatCriticalDesc>اكتشفت خلية ميكانويدية موقعك. ستستمر في إرسال ميكانويدات معادية حتى تهرب من هذا الموقع.</AlertMechanoidThreatCriticalDesc>
+
+  <!-- Mechhive -->
+  <!-- EN: Stabilizers remaining -->
+  <StabilizersRemainingAlertLabel>مثبتات متبقية</StabilizersRemainingAlertLabel>
+  <!-- EN: The cerebrex core is currently invulnerable. Find and destroy its stabilizers to gain access to the core. -->
+  <StabilizersRemainingAlertDescription>نواة السيريبركس محصنة حالياً. ابحث عن مثبتاتها ودمرها للوصول إلى النواة.</StabilizersRemainingAlertDescription>
+
+  <!-- Relay -->
+  <!-- EN: Stabilizers remaining -->
+  <RelayStabilizersRemainingAlertLabel>مثبتات متبقية</RelayStabilizersRemainingAlertLabel>
+  <!-- EN: The relay is currently protected by nearby stabilizers. Destroy or hack them to destabilize it. -->
+  <RelayStabilizersRemainingAlertDescription>المرحّل محمي حالياً بمثبتات قريبة. دمرها أو اخترقها لزعزعة استقراره.</RelayStabilizersRemainingAlertDescription>
+
+  <!-- Scanner -->
+  <!-- EN: Protect the scanner -->
+  <SurveyScannerAlertLabel>احمِ الماسح</SurveyScannerAlertLabel>
+  <!-- EN: Protect the scanner until the surveying operation is complete. -->
+  <SurveyScannerAlertDescription>احمِ الماسح حتى اكتمال عملية المسح.</SurveyScannerAlertDescription>
+  
+</LanguageData>

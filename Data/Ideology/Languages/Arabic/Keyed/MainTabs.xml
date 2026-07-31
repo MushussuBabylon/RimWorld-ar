@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Ideoligions -->
+  <!-- EN: Deities -->
+  <Deities>آلهة</Deities>
+  <!-- EN: Show all ideoligions -->
+  <ButtonShowAllIdeoligions>إظهار جميع العقائد</ButtonShowAllIdeoligions>
+  <!-- EN: Ideoligion of -->
+  <IdeoligionOf>عقيدة</IdeoligionOf>
+  <!-- EN: Memes -->
+  <Memes>ميمات</Memes>
+  <!-- EN: Narrative -->
+  <CoreNarrative>السرد</CoreNarrative>
+  <!-- EN: The core narrative of your ideoligion. This has no gameplay impact. -->
+  <CoreNarrativeDesc>السرد الأساسي لعقيدتك. ليس له تأثير على أسلوب اللعب.</CoreNarrativeDesc>
+  <!-- EN: Edit narrative -->
+  <EditNarrative>تعديل السرد</EditNarrative>
+  <!-- EN: Lock or unlock the ideoligion's narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
+  <LockButtonDesc>قفل أو فتح سرد العقيدة. عند القفل، لن يتجدد نص السرد تلقائياً إذا تم تغيير العقيدة.</LockButtonDesc>
+  <!-- EN: {0} lock is currently on. The {1} will not auto-regenerate. -->
+  <LockInOn>قفل {0} قيد التشغيل حالياً. لن يتجدد {1} تلقائياً.</LockInOn>
+  <!-- EN: {0} lock is currently off. The {1} text can auto-regenerate. -->
+  <LockInOff>قفل {0} متوقف حالياً. يمكن أن يتجدد نص {1} تلقائياً.</LockInOff>
+  <!-- EN: Lock or unlock the name of this precept. When locked, the precept name will not auto-regenerate if the ideoligion is changed. -->
+  <LockPreceptNameButtonDesc>قفل أو فتح اسم هذه الوصية. عند القفل، لن يتجدد اسم الوصية تلقائياً إذا تم تغيير العقيدة.</LockPreceptNameButtonDesc>
+  <!-- EN: Precepts -->
+  <Precepts>وصايا</Precepts>
+  <!-- EN: Rituals -->
+  <Rituals>طقوس</Rituals>
+  <!-- EN: Roles -->
+  <IdeoRoles>أدوار</IdeoRoles>
+  <!-- EN: Buildings -->
+  <IdeoBuildings>مبانٍ</IdeoBuildings>
+  <!-- EN: Relics -->
+  <IdeoRelics>آثار</IdeoRelics>
+  <!-- EN: Preferred apparel -->
+  <IdeoApparel>ملابس مفضلة</IdeoApparel>
+  <!-- EN: apparel desire -->
+  <IdeoApparelDesire>رغبة في الملابس</IdeoApparelDesire>
+  <!-- EN: Won't do -->
+  <UnwillingToDoIdeoAction>لن يفعل</UnwillingToDoIdeoAction>
+  <!-- EN: Stats -->
+  <PreceptStats>إحصائيات</PreceptStats>
+  <!-- EN: Prohibitions -->
+  <Prohibitions>محظورات</Prohibitions>
+  <!-- EN: Opinions -->
+  <Opinions>آراء</Opinions>
+  <!-- EN: Mental breaks -->
+  <MentalBreaks>انهيارات نفسية</MentalBreaks>
+  <!-- EN: Randomize name -->
+  <RandomizeName>عشوائية الاسم</RandomizeName>
+  <!-- EN: Randomize precepts -->
+  <RandomizePrecepts>عشوائية الوصايا</RandomizePrecepts>
+  <!-- EN: Randomize deities -->
+  <RandomizeDeities>عشوائية الآلهة</RandomizeDeities>
+  <!-- EN: Add deity -->
+  <AddDeity>إضافة إله</AddDeity>
+  <!-- EN: Choose memes -->
+  <ChooseMemes>اختر الميمات</ChooseMemes>
+  <!-- EN: Choose starting meme -->
+  <ChooseStartingMeme>اختر ميم البداية</ChooseStartingMeme>
+  <!-- EN: Choose structure -->
+  <ChooseStructure>اختر الهيكل</ChooseStructure>
+  <!-- EN: Choose culture -->
+  <ChooseCulture>اختر الثقافة</ChooseCulture>
+  <!-- EN: Culture -->
+  <Culture>الثقافة</Culture>
+  <!-- EN: Culture affects names, appearances, and symbols. -->
+  <CultureTip>تؤثر الثقافة على الأسماء والمظاهر والرموز.</CultureTip>
+  <!-- EN: Structure -->
+  <StructureMeme>الهيكل</StructureMeme>
+  <!-- EN: An ideoligion's structure determines the kind of entities and forces it sees as important to the moral structure of the universe. It has no direct gameplay effects. -->
+  <StructureMemeTip>يحدد هيكل العقيدة نوع الكيانات والقوى التي تراها مهمة للبنية الأخلاقية للكون. ليس له تأثيرات مباشرة على أسلوب اللعب.</StructureMemeTip>
+  <!-- EN: Adjective -->
+  <Adjective>صفة</Adjective>
+  <!-- EN: Ritual room -->
+  <WorshipRoom>غرفة الطقوس</WorshipRoom>
+  <!-- EN: Member noun -->
+  <IdeoMembers>اسم العضو</IdeoMembers>
+  <!-- EN: Member plural -->
+  <IdeoMembersPlural>جمع الأعضاء</IdeoMembersPlural>
+  <!-- EN: Edit symbols -->
+  <EditSymbols>تعديل الرموز</EditSymbols>
+  <!-- EN: Edit deity -->
+  <EditDeity>تعديل الإله</EditDeity>
+  <!-- EN: Edit required apparel -->
+  <EditApparelRequirement>تعديل الملابس المطلوبة</EditApparelRequirement>
+  <!-- EN: Edit name -->
+  <EditName>تعديل الاسم</EditName>
+  <!-- EN: Any time -->
+  <StartingCondition_Anytime>في أي وقت</StartingCondition_Anytime>
+  <!-- EN: Date -->
+  <StartingCondition_Date>تاريخ</StartingCondition_Date>
+  <!-- EN: Starting condition -->
+  <StartingCondition>شرط البدء</StartingCondition>
+  <!-- EN: Randomize symbols -->
+  <RandomizeSymbols>عشوائية الرموز</RandomizeSymbols>
+  <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
+  <RandomizeSymbolsTooltip>عشوائية اسم العقيدة والأيقونة والسرد ولقب القائد وأي نصوص أخرى مثل أسماء الطقوس أو أسماء الأدوار. هذا لا يؤثر على عناصر أسلوب اللعب مثل الميمات أو الوصايا.</RandomizeSymbolsTooltip>
+  <!-- EN: Click any element to edit it -->
+  <ClickAnyElementToEditIt>انقر على أي عنصر لتعديله</ClickAnyElementToEditIt>
+  <!-- EN: Leader title -->
+  <LeaderTitle>لقب القائد</LeaderTitle>
+  <!-- EN: Deity name -->
+  <DeityName>اسم الإله</DeityName>
+  <!-- EN: Deity title -->
+  <DeityTitle>لقب الإله</DeityTitle>
+  <!-- EN: Deity gender -->
+  <DeityGender>جنس الإله</DeityGender>
+  <!-- EN: Name -->
+  <Name>الاسم</Name>
+  <!-- EN: Icon -->
+  <Icon>أيقونة</Icon>
+  <!-- EN: Related to meme -->
+  <RelatedToMeme>مرتبط بالميم</RelatedToMeme>
+  <!-- EN: This is a charity quest. If you don't fulfill it, believers in {0} will be unhappy due to their charitable beliefs. If you do, believers in {0} will be happy ({1}). -->
+  <IdeoCharityQuestInfo>هذه مهمة خيرية. إذا لم تقم بها، سيصبح المؤمنون بـ {0} غير سعداء بسبب معتقداتهم الخيرية. إذا قمت بها، سيكون المؤمنون بـ {0} سعداء ({1}).</IdeoCharityQuestInfo>
+  <!-- EN: Slaves will not do this work -->
+  <WorkDisabledSlave>لن يقوم العبيد بهذا العمل</WorkDisabledSlave>
+  <!-- EN: Disabled by health condition -->
+  <WorkDisabledHealth>معطل بسبب حالة صحية</WorkDisabledHealth>
+  <!-- EN: Disabled by {0} role -->
+  <WorkDisabledRole>معطل بسبب دور {0}</WorkDisabledRole>
+  <!-- EN: Affected by traits -->
+  <AffectedByTraits>متأثر بالسمات</AffectedByTraits>
+  <!-- EN: This is a charity quest. People with charitable beliefs will be affected by its outcome. -->
+  <CharityQuestTip>هذه مهمة خيرية. سيتأثر الأشخاص ذوو المعتقدات الخيرية بنتيجتها.</CharityQuestTip>
+  <!-- EN: formerly -->
+  <Formerly>سابقاً</Formerly>
+  <!-- EN: all -->
+  <All>الكل</All>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
+  <RelicTip>الآثار هي أشياء ذات أهمية روحية أو عقائدية. يمكن اكتشافها بإكمال مهام طويلة وخطيرة. يمكن تركيب الأثر في وعاء الآثار لجذب الحجاج، وتعزيز الطقوس، وتقوية قدرة العقيدة على تحويل الغرباء.</RelicTip>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims and enhance rituals. -->
+  <RelicTipClassic>الآثار هي أشياء ذات أهمية روحية أو عقائدية. يمكن اكتشافها بإكمال مهام طويلة وخطيرة. يمكن تركيب الأثر في وعاء الآثار لجذب الحجاج وتعزيز الطقوس.</RelicTipClassic>
+  <!-- EN: animal -->
+  <Animal>حيوان</Animal>
+  <!-- EN: Venerated animals -->
+  <VeneratedAnimals>حيوانات مبجلة</VeneratedAnimals>
+  <!-- EN: weapon pair -->
+  <IdeoWeapon>زوج أسلحة</IdeoWeapon>
+  <!-- EN: Weapons -->
+  <IdeoWeapons>أسلحة</IdeoWeapons>
+  <!-- EN: Swap noble and despised -->
+  <SwapNobleAndDespised>تبديل النبيل والمكروه</SwapNobleAndDespised>
+  <!-- EN: noble -->
+  <Noble>نبيل</Noble>
+  <!-- EN: despised -->
+  <Despised>مكروه</Despised>
+  <!-- EN: Unlocked craftables -->
+  <UnlockedRecipes>مواد قابلة للصنع مفتوحة</UnlockedRecipes>
+  <!-- EN: Start with research -->
+  <IdeoStartWithResearch>البدء ببحث</IdeoStartWithResearch>
+  <!-- EN: Agreeing traits -->
+  <AgreeableTraits>سمات متوافقة</AgreeableTraits>
+  <!-- EN: Conflicting traits -->
+  <DisagreeableTraits>سمات متعارضة</DisagreeableTraits>
+  <!-- EN: Shooting -->
+  <Shooting>الرماية</Shooting>
+  <!-- EN: Impact -->
+  <IdeoImpact>التأثير</IdeoImpact>
+  <!-- EN: Overall impact -->
+  <IdeoImpactOverall>التأثير الكلي</IdeoImpactOverall>
+  <!-- EN: Some memes impact gameplay more than others. The meme's impact score gives a sense of how big of a gameplay impact it has. -->
+  <IdeoImpactOverallDesc>بعض الميمات تؤثر على أسلوب اللعب أكثر من غيرها. تعطي درجة تأثير الميم فكرة عن مدى تأثيرها على أسلوب اللعب.</IdeoImpactOverallDesc>
+  <!-- EN: low -->
+  <IdeoMemeImpactLabel_1>منخفض</IdeoMemeImpactLabel_1>
+  <!-- EN: medium -->
+  <IdeoMemeImpactLabel_2>متوسط</IdeoMemeImpactLabel_2>
+  <!-- EN: high -->
+  <IdeoMemeImpactLabel_3>عالي</IdeoMemeImpactLabel_3>
+  <!-- EN: low -->
+  <IdeoImpactLabel_1>منخفض</IdeoImpactLabel_1>
+  <!-- EN: low -->
+  <IdeoImpactLabel_2>منخفض</IdeoImpactLabel_2>
+  <!-- EN: moderate -->
+  <IdeoImpactLabel_3>معتدل</IdeoImpactLabel_3>
+  <!-- EN: moderate -->
+  <IdeoImpactLabel_4>معتدل</IdeoImpactLabel_4>
+  <!-- EN: strong -->
+  <IdeoImpactLabel_5>قوي</IdeoImpactLabel_5>
+  <!-- EN: strong -->
+  <IdeoImpactLabel_6>قوي</IdeoImpactLabel_6>
+  <!-- EN: very strong -->
+  <IdeoImpactLabel_7>قوي جداً</IdeoImpactLabel_7>
+  <!-- EN: very strong -->
+  <IdeoImpactLabel_8>قوي جداً</IdeoImpactLabel_8>
+  <!-- EN: extreme -->
+  <IdeoImpactLabel_9>شديد</IdeoImpactLabel_9>
+  <!-- EN: This was your colony's starting ideoligion. -->
+  <InitialPlayerIdeo>كانت هذه العقيدة الأساسية لمستعمرتك.</InitialPlayerIdeo>
+  
+  
+  <!-- EN: Since this ideoligion is so new and has so few followers on this planet, it is fluid. This means that it can develop over time.\n\nDeveloping the ideoligion costs development points. You can earn development points by completing rituals and quests related to this ideoligion.\n\nWith enough development points, you can reform the ideoligion with new memes, precepts, styles, and more. -->
+  <FluidIdeoTip>بما أن هذه العقيدة جديدة جداً ولديها عدد قليل جداً من الأتباع على هذا الكوكب، فهي متغيرة. هذا يعني أنها يمكن أن تتطور بمرور الوقت.\n\nتطوير العقيدة يكلف نقاط تطوير. يمكنك كسب نقاط التطوير بإكمال الطقوس والمهام المتعلقة بهذه العقيدة.\n\nمع نقاط تطوير كافية، يمكنك تعديل العقيدة بميمات ووصايا وأساليب جديدة والمزيد.</FluidIdeoTip>
+  <!-- EN: How to get development points -->
+  <FluidIdeoTipGetPoints>كيفية الحصول على نقاط التطوير</FluidIdeoTipGetPoints>
+  <!-- EN: Convert someone to your ideoligion -->
+  <FluidIdeoTipGetPoinsByConversion>تحويل شخص ما إلى عقيدتك</FluidIdeoTipGetPoinsByConversion>
+
+  <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
+  <ResearchProjectHasDefsWithMissingMemes>يفتح {0} أشياء لا يمكنك بناؤها لأنها تتطلب ميمات لا يؤمن بها أي من أفرادك</ResearchProjectHasDefsWithMissingMemes>
+  <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
+  <SelectedWorkTypeOpposedByIdeo>تحذير: هذا النوع من العمل تعارضه عقيدة {0_possessive}، لذا قد يجعل هذا الشخص غير سعيد.</SelectedWorkTypeOpposedByIdeo>
+
+  <!-- EN: Development points -->
+  <DevelopmentPoints>نقاط التطوير</DevelopmentPoints>
+
+</LanguageData>

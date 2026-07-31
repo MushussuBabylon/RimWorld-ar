@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: artificial metabolism -->
+  <ArtificialMetabolism.label>أيض اصطناعي</ArtificialMetabolism.label>
+  <!-- EN: Craft bionics that process food more safely or efficiently than a biological stomach. -->
+  <ArtificialMetabolism.description>صنع أعضاء بيونيك تعالج الطعام بأمان أو كفاءة أكبر من المعدة البيولوجية.</ArtificialMetabolism.description>
+  <!-- EN:
+    <li>subject->artificial metabolism</li>
+    <li>subject_story->developed a hunger so all-consuming that the installation of an artificial stomach was the only solution</li>
+    <li>subject_story->did not tell the Queen about the installation of the sterilizing stomach, but continued as her food tester all the same</li>
+    <li>subject_story->developed a loathing for food. A nuclear stomach heavily reduced food consumption, though the radioactivity was a nuisance</li>
+    <li>subject_gerund->crafting digestion-related bionics</li>
+    <li>subject_gerund->crafting artificial guts</li>
+  -->
+  <ArtificialMetabolism.generalRules.rulesStrings>
+    <li>subject->أيض اصطناعي</li>
+    <li>subject_story->تطور لديه جوع ملتهب لدرجة أن تركيب معدة اصطناعية كان الحل الوحيد</li>
+    <li>subject_story->لم يخبر الملكة عن تركيب المعدة المعقمة، لكنه استمر كمتذوق طعامها مع ذلك</li>
+    <li>subject_story->تطور لديه كره للطعام. قللت المعدة النووية استهلاك الطعام بشكل كبير، رغم أن النشاط الإشعاعي كان مزعجاً</li>
+    <li>subject_gerund->صنع أجهزة بيونيك متعلقة بالهضم</li>
+    <li>subject_gerund->صنع أمعاء اصطناعية</li>
+ </ArtificialMetabolism.generalRules.rulesStrings>
+  
+  <!-- EN: brain wiring -->
+  <BrainWiring.label>توصيلات الدماغ</BrainWiring.label>
+  <!-- EN: Craft brain implants that induce or prevent blunt sensations like joy or pain. -->
+  <BrainWiring.description>صنع غرسات دماغية تحفز أو تمنع أحاسيس فجة مثل الفرح أو الألم.</BrainWiring.description>
+  <!-- EN:
+    <li>subject->brain implants</li>
+    <li>subject_story->wrote a paper about the masochist cults use of mindscrews to improve their morale</li>
+    <li>subject_story->implanted painstoppers in an assault squad. They eliminated a much larger force, but were all mortally wounded or killed</li>
+    <li>subject_story->had a joywire installed and, though happy after that, stumbled simply through life</li>
+    <li>subject_gerund->crafting brain implants</li>
+  -->
+  <BrainWiring.generalRules.rulesStrings>
+    <li>subject->غرسات دماغية</li>
+    <li>subject_story->كتب بحثاً عن استخدام طوائف الماسوشيين لبراغي العقل لتحسين معنوياتهم</li>
+    <li>subject_story->زرع مانعات ألم في فرقة اقتحام. قضوا على قوة أكبر بكثير، لكنهم جميعاً أصيبوا بجروح مميتة أو قتلوا</li>
+    <li>subject_story->تم تركيب سلك فرح له، ورغم سعادته بعدها، تعثرت حياته ببساطة</li>
+    <li>subject_gerund->صنع غرسات الدماغ</li>
+ </BrainWiring.generalRules.rulesStrings>
+  
+  <!-- EN: circadian influence -->
+  <CircadianInfluence.label>تأثير النظم اليومي</CircadianInfluence.label>
+  <!-- EN: Craft brain implants that chemically manipulate the circadian rhythm, reducing or altering the need to sleep. -->
+  <CircadianInfluence.description>صنع غرسات دماغية تتلاعب كيميائياً بالنظم اليومي، مما يقلل أو يغير الحاجة إلى النوم.</CircadianInfluence.description>
+  <!-- EN:
+    <li>subject->sleep reduction implant</li>
+    <li>subject_story->studied unihemispheric sleep patterns in cetaceans and proposed a new form of circadian half-cycler</li>
+    <li>subject_story->forced any applicants for city guard to receive a half-cycler, so they could stay at post indefinitely, if necessary</li>
+    <li>subject_story->studied bullfrogs and giraffes to ascertain what  xenogerms would be necessary for a circadian assistance gland</li>
+    <li>subject_gerund->crafting sleep reduction implants</li>
+  -->
+  <CircadianInfluence.generalRules.rulesStrings>
+    <li>subject->غرسة تقليل النوم</li>
+    <li>subject_story->درس أنماط النوم أحادية النصف الكروي في الحيتانيات واقترح شكلاً جديداً لنصف الدائر النظم يومي</li>
+    <li>subject_story->أجبر أي متقدم لحراسة المدينة على تلقي نصف الدائر النظم يومي، ليتمكنوا من البقاء في مواقعهم لأجل غير مسمى إذا لزم الأمر</li>
+    <li>subject_story->درس الضفادع الثور والزرافات لمعرفة ما هي الزينوجيرمات اللازمة لغدة مساعدة النظم اليومي</li>
+    <li>subject_gerund->صنع غرسات تخفيض النوم</li>
+ </CircadianInfluence.generalRules.rulesStrings>
+  
+  <!-- EN: compact weaponry -->
+  <CompactWeaponry.label>أسلحة مدمجة</CompactWeaponry.label>
+  <!-- EN: Craft compact, concealable bionic weapons which can be embedded in various body parts. -->
+  <CompactWeaponry.description>صنع أسلحة بيونيك مدمجة قابلة للإخفاء يمكن تضمينها في أجزاء مختلفة من الجسم.</CompactWeaponry.description>
+  <!-- EN:
+    <li>subject->compact weaponry</li>
+    <li>subject_story->was employed as a detective and was saved more than once by the concealed knee spike</li>
+    <li>subject_story->spent a summer recovering from being slashed by an escaped slave's hand talon</li>
+    <li>subject_story->was working in security, scanning visitors to the hall, when the cyborg attempted to enter</li>
+    <li>subject_gerund->crafting compact bionic weapons</li>
+  -->
+  <CompactWeaponry.generalRules.rulesStrings>
+    <li>subject->أسلحة مدمجة</li>
+    <li>subject_story->عمل كمحقق وأنقذته شوكة الركبة المخفية أكثر من مرة</li>
+    <li>subject_story->أمضى صيفاً يتعافى من جرح بمخلب يد عبد هارب</li>
+    <li>subject_story->كان يعمل في الأمن، يمسح الزوار عند القاعة، عندما حاول السايبورغ الدخول</li>
+    <li>subject_gerund->صنع أسلحة بيونيك مدمجة</li>
+ </CompactWeaponry.generalRules.rulesStrings>
+  
+  <!-- EN: flesh shaping -->
+  <FleshShaping.label>تشكيل الجسد</FleshShaping.label>
+  <!-- EN: Craft bionics which induce the reshaping of natural flesh, usually for the purposes of aesthetic enhancement or personal pleasure. -->
+  <FleshShaping.description>صنع أجهزة بيونيك تحفز إعادة تشكيل الجسد الطبيعي، لأغراض التحسين الجمالي أو المتعة الشخصية غالباً.</FleshShaping.description>
+  <!-- EN:
+    <li>subject->aesthetic surgery</li>
+    <li>subject_story->halted the population decline on the urbworld, by distributing free love enhancers and lavish drugs</li>
+    <li>subject_story->was hired as chief flesh-shaper for an aesthetics clinic, spending [ANYPAWN_possessive] days making shapely limbs</li>
+    <li>subject_story->gathered the glitterworld children around the campfire and told horror stories about getting their non-aesthetic noses back</li>
+    <li>subject_gerund->crafting aesthetic bionics</li>
+  -->
+  <FleshShaping.generalRules.rulesStrings>
+    <li>subject->جراحة تجميلية</li>
+    <li>subject_story->أوقف الانخفاض السكاني في العالم الحضري، بتوزيع محسنات حب مجانية ومخدرات فاخرة</li>
+    <li>subject_story->تم توظيفه كرئيس مُشكّل أجساد لعيادة تجميل، وأمضى أيامه في صنع أطراف ممشوقة</li>
+    <li>subject_story->جمع أطفال العالم اللامع حول نار المخيم وأخبرهم قصصاً مرعبة عن استعادة أنوفهم غير التجميلية</li>
+    <li>subject_gerund->صنع أجهزة بيونيك تجميلية</li>
+ </FleshShaping.generalRules.rulesStrings>
+  
+  <!-- EN: healing factors -->
+  <HealingFactors.label>عوامل الشفاء</HealingFactors.label>
+  <!-- EN: Craft bionics that enhance natural healing processes. -->
+  <HealingFactors.description>صنع أجهزة بيونيك تعزز عمليات الشفاء الطبيعية.</HealingFactors.description>
+  <!-- EN:
+    <li>subject->healing bionics</li>
+    <li>subject_story->studied the Imperial royalty, to see if they had blue blood. They did not, but it did coagulate implausibly quickly</li>
+    <li>subject_story->ensured that all the pit fighters had Healing Enhancers and appropriate xenogerms, so that they could fight more often</li>
+    <li>subject_story->studied the ancient corpses found in a cryptosleep shrine and harvested rapid healing devices from them</li>
+    <li>subject_gerund->crafting regeneration bionics</li>
+  -->
+  <HealingFactors.generalRules.rulesStrings>
+    <li>subject->أجهزة بيونيك شفائية</li>
+    <li>subject_story->درس العائلة الإمبراطورية، ليرى إن كان لديهم دم أزرق. لم يكن كذلك، لكنه تجلط بسرعة مذهلة</li>
+    <li>subject_story->حرص على أن جميع مقاتلي الحفرة لديهم محسنات شفاء وزينوجيرمات مناسبة، ليتمكنوا من القتال أكثر</li>
+    <li>subject_story->درس الجثث القديمة الموجودة في مقامات السبات العميق واستخرج منها أجهزة الشفاء السريع</li>
+    <li>subject_gerund->صنع أجهزة بيونيك التجديد</li>
+ </HealingFactors.generalRules.rulesStrings>
+  
+  <!-- EN: molecular analysis -->
+  <MolecularAnalysis.label>تحليل جزيئي</MolecularAnalysis.label>
+  <!-- EN: Craft bionics with molecular analyzers for assisting the immune system or analyzing food. -->
+  <MolecularAnalysis.description>صنع أجهزة بيونيك بمحللات جزيئية لمساعدة الجهاز المناعي أو تحليل الطعام.</MolecularAnalysis.description>
+  <!-- EN:
+    <li>subject->molecular analysis bionics</li>
+    <li>subject_story->explained to the chefs of the cooking school that they must never get aesthetic noses, lest their gastro-analyzers fail</li>
+    <li>subject_story->had an immunoenhancer installed and so was able to walk freely in the isolation colony</li>
+    <li>subject_story->lectured on the potential hardware conflicts between bionic parts and molecular analysis implants</li>
+    <li>subject_gerund->crafting molecular analysis bionics</li>
+  -->
+  <MolecularAnalysis.generalRules.rulesStrings>
+    <li>subject->أجهزة بيونيك تحليل جزيئي</li>
+    <li>subject_story->شرح لطهاة مدرسة الطبخ أنه ينبغي ألا يحصلوا أبداً على أنوف تجميلية، لئلا تتعطل محللاتهم المعدية</li>
+    <li>subject_story->تم تركيب محسن مناعة له، فتمكن من التجول بحرية في مستعمرة العزل</li>
+    <li>subject_story->حاضر عن التعارضات الممكنة بين الأجزاء البيونيك وغرسات التحليل الجزيئي</li>
+    <li>subject_gerund->صنع أجهزة بيونيك التحليل الجزيئي</li>
+ </MolecularAnalysis.generalRules.rulesStrings>
+  
+  <!-- EN: neural computation -->
+  <NeuralComputation.label>حوسبة عصبية</NeuralComputation.label>
+  <!-- EN: Craft brain implants that assist thought and learning by use of a direct, shallow brain-computer interface. -->
+  <NeuralComputation.description>صنع غرسات دماغية تساعد التفكير والتعلم باستخدام واجهة حاسوب دماغية مباشرة وسطحية.</NeuralComputation.description>
+  <!-- EN:
+    <li>subject->brain implants</li>
+    <li>subject->neural computation</li>
+    <li>subject_story->knew exactly how to take out the jailor, with an EMP attack that would brain shock their learning assistant, buying time to free the prisoners</li>
+    <li>subject_story->mandated the installation of learning assistants or neurocalculators through the entire faculty</li>
+    <li>subject_story->had a learning assistant installed. It proved to be a problem later, when captured by pirates, who halted any escape attempts with EMP attacks</li>
+    <li>subject_gerund->crafting brain implants</li>
+  -->
+  <NeuralComputation.generalRules.rulesStrings>
+    <li>subject->غرسات دماغية</li>
+    <li>subject->حوسبة عصبية</li>
+    <li>subject_story->عرف تماماً كيف يعطل السجان، بهجوم نبضة كهرومغناطيسية تصعق مساعده التعليمي، مما يكسب وقتاً لتحرير السجناء</li>
+    <li>subject_story->أمر بتركيب مساعدات تعلم وحاسبات عصبية لكامل أعضاء هيئة التدريس</li>
+    <li>subject_story->تم تركيب مساعد تعلم له. تبين أنه مشكلة لاحقاً، حين أسره القراصنة الذين أوقفوا محاولات هروبه بهجمات نبضات كهرومغناطيسية</li>
+    <li>subject_gerund->صنع غرسات الدماغ</li>
+ </NeuralComputation.generalRules.rulesStrings>
+  
+  <!-- EN: skin hardening -->
+  <SkinHardening.label>تصلب الجلد</SkinHardening.label>
+  <!-- EN: Craft bionic implants which induce the toughening of natural skin, producing an armor-like effect. -->
+  <SkinHardening.description>صنع غرسات بيونيك تحفز تقوية الجلد الطبيعي، محدثة تأثيراً شبيهاً بالدرع.</SkinHardening.description>
+  <!-- EN:
+    <li>subject->subdermal implants</li>
+    <li>subject_story->researched the glands of the barkskin dryads and reasoned they could be adapted to humanity</li>
+    <li>subject_story->traveled among the stoneskin tamers of the dinoworld, studying the thick keratin plates that covered them</li>
+    <li>subject_story->worked with nanonmachine glands to thicken the human epidermis, at the expense of meeting traditional standards of beauty</li>
+    <li>subject_gerund->crafting subdermal armor implants</li>
+  -->
+  <SkinHardening.generalRules.rulesStrings>
+    <li>subject->غرسات تحت الجلد</li>
+    <li>subject_story->بحث في غدد حوريات الجلد اللحائي واستنتج أنها يمكن أن تكيف للبشر</li>
+    <li>subject_story->سافر بين مروضي ذوي الجلد الحجري في عالم الديناصورات، دارساً صفائح الكيراتين السميكة التي تغطيهم</li>
+    <li>subject_story->عمل بغدد آلات النانو لزيادة سمك بشرة الإنسان، على حساب معايير الجمال التقليدية</li>
+    <li>subject_gerund->صنع غرسات درع تحت الجلد</li>
+ </SkinHardening.generalRules.rulesStrings>
+  
+  <!-- EN: specialized limbs -->
+  <SpecializedLimbs.label>أطراف متخصصة</SpecializedLimbs.label>
+  <!-- EN: Craft specialized bionic limbs built for specific purposes - both combat and labor. -->
+  <SpecializedLimbs.description>صنع أطراف بيونيك متخصصة مبنية لأغراض محددة - قتالية وعملية.</SpecializedLimbs.description>
+  <!-- EN:
+    <li>subject->specialized prosthetics</li>
+    <li>subject_story->interviewed the indentured farmers of a feudal world, before and after their field hand installations</li>
+    <li>subject_story->watched a pit fighter equipped with a power claw face off against a miner with two drill arms</li>
+    <li>subject_story->worked as a surgeon on the rim, replacing missing arms with everything from a woodhand to a power claw</li>
+    <li>subject_gerund->crafting specialized bionic arms</li>
+  -->
+  <SpecializedLimbs.generalRules.rulesStrings>
+    <li>subject->أطراف اصطناعية متخصصة</li>
+    <li>subject_story->قابل مزارعي الخدمة بعالم إقطاعي، قبل وبعد تركيب أيدي الحقل لهم</li>
+    <li>subject_story->شاهد مقاتل حفرة مزوداً بمخلب طاقة يواجه عاملاً منجماً بذراعي مثقاب</li>
+    <li>subject_story->عمل كجراح على الحافة، مستبدلاً الأذرع المفقودة بكل شيء من اليد الخشبية إلى مخلب الطاقة</li>
+    <li>subject_gerund->صنع أذرع بيونيك متخصصة</li>
+ </SpecializedLimbs.generalRules.rulesStrings>
+  
+  <!-- EN: poison synthesis -->
+  <VenomSynthesis.label>تخليق السموم</VenomSynthesis.label>
+  <!-- EN: Craft bionics that synthesize venom from internal chemical reactors for use in toxifying attacks. -->
+  <VenomSynthesis.description>صنع أجهزة بيونيك تركب السم من مفاعلات كيميائية داخلية لاستخدامه في هجمات التسميم.</VenomSynthesis.description>
+  <!-- EN:
+    <li>subject->venomous bionics</li>
+    <li>subject_story->worked on chemical reactors at small scales, which could be shrunk and stored internally</li>
+    <li>subject_story->studied the waste rats of a trash world and wrote a paper on the unique toxins in their bite</li>
+    <li>subject_story->learned to love sharp little cutting edges, which could kill with a mere nick</li>
+    <li>subject_gerund->crafting poisonous bionic weapons</li>
+  -->
+  <VenomSynthesis.generalRules.rulesStrings>
+    <li>subject->أجهزة بيونيك سامة</li>
+    <li>subject_story->عمل على مفاعلات كيميائية بمقاييس صغيرة، يمكن تقليصها وتخزينها داخلياً</li>
+    <li>subject_story->درس فئران القمامة في عالم النفايات وكتب ورقة عن السموم الفريدة في عضتها</li>
+    <li>subject_story->تعلم حب الحواف القاطعة الصغيرة، التي يمكن أن تقتل بجرح صغير</li>
+    <li>subject_gerund->صنع أسلحة بيونيك سامة</li>
+ </VenomSynthesis.generalRules.rulesStrings>
+  
+</LanguageData>

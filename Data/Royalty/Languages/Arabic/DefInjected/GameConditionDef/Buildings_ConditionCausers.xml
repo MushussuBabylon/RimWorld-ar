@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: climate adjustment -->
+  <ClimateAdjustment.label>تعديل المناخ</ClimateAdjustment.label>
+  <!-- EN: A nearby climate adjuster is shifting the temperature. -->
+  <ClimateAdjustment.description>جهاز تعديل المناخ القريب يغير درجة الحرارة.</ClimateAdjustment.description>
+  <!-- EN: A climate adjuster machine has begun shifting the temperature. -->
+  <ClimateAdjustment.letterText>بدأ جهاز تعديل المناخ بتغيير درجة الحرارة.</ClimateAdjustment.letterText>
+  
+  <!-- EN: EMI field -->
+  <EMIField.label>مجال EMI</EMIField.label>
+  <!-- EN: An electromagnetic interference dynamo is projecting an EM interference field, disabling electrical devices. -->
+  <EMIField.description>دينامو التشويش الكهرومغناطيسي يطلق مجال تشويش كهرومغناطيسي يعطل الأجهزة الكهربائية.</EMIField.description>
+  <!-- EN: a distant EMI dynamo will blast [map_definite] with an EMI field, shutting down electrical devices for [gameConditionDuration_duration] -->
+  <EMIField.descriptionFuture>سيضرب دينامو EMI بعيد [map_definite] بمجال EMI، معطلاً الأجهزة الكهربائية لمدة [gameConditionDuration_duration]</EMIField.descriptionFuture>
+  <!-- EN: The EMI field has disappeared. -->
+  <EMIField.endMessage>اختفى مجال EMI.</EMIField.endMessage>
+  <!-- EN: An EMI field has been generated. It is disabling electrical devices. -->
+  <EMIField.letterText>تولد مجال EMI. إنه يعطل الأجهزة الكهربائية.</EMIField.letterText>
+  
+  <!-- EN: giant smoke cloud -->
+  <GiantSmokeCloud.label>سحابة دخان عملاقة</GiantSmokeCloud.label>
+  <!-- EN: A nearby smoke spewer is reducing sunlight in this region. -->
+  <GiantSmokeCloud.description>نافث الدخان القريب يقلل ضوء الشمس في هذه المنطقة.</GiantSmokeCloud.description>
+  <!-- EN: A smoke spewer machine has begun obscuring the sun. -->
+  <GiantSmokeCloud.letterText>بدأت آلة نافث الدخان بحجب الشمس.</GiantSmokeCloud.letterText>
+  
+  <!-- EN: psychic suppression -->
+  <PsychicSuppression.label>قمع نفسي</PsychicSuppression.label>
+  <!-- EN: A psychic suppression field is affecting {0}s and reducing their consciousness. The effect is modulated by an individual's psychic sensitivity. -->
+  <PsychicSuppression.description>مجال قمع نفسي يؤثر على {0} ويقلل وعيهم. يتم تعديل التأثير حسب الحساسية النفسية للفرد.</PsychicSuppression.description>
+  <!-- EN: a psychic suppression wave will reduce the consciousness of all [psychicSuppressorGender]s around [map_definite] for [gameConditionDuration_duration] -->
+  <PsychicSuppression.descriptionFuture>ستقلل موجة قمع نفسي وعي جميع [psychicSuppressorGender] حول [map_definite] لمدة [gameConditionDuration_duration]</PsychicSuppression.descriptionFuture> <!-- Этот текст участвует в процедурной генерации. Символы и функции не работают. Чтобы обойти это, добавлена "м": "женщинаМ" или "мужчинаМ" -->
+  <!-- EN: The psychic suppressor field has dissipated. -->
+  <PsychicSuppression.endMessage>تبدد مجال القامع النفسي.</PsychicSuppression.endMessage>
+  <!-- EN: A psychic suppressor field has begun reducing the consciousness of {0}s across the whole region. The effect is modulated by an individual's psychic sensitivity. -->
+  <PsychicSuppression.letterText>بدأ مجال قمع نفسي بتقليل وعي {0} في كامل المنطقة. يتم تعديل التأثير حسب الحساسية النفسية للفرد.</PsychicSuppression.letterText>
+  
+  <!-- EN: sun blocked -->
+  <SunBlocker.label>حاجب الشمس</SunBlocker.label>
+  <!-- EN: A nearby sun blocker machine is turning the upper atmosphere opaque, blocking the sun. -->
+  <SunBlocker.description>آلة حاجب الشمس القريبة تجعل الغلاف الجوي العلوي معتماً، حاجبة الشمس.</SunBlocker.description>
+  <!-- EN: A sun blocker machine has begun blocking the sun. -->
+  <SunBlocker.letterText>بدأت آلة حاجب الشمس بحجب الشمس.</SunBlocker.letterText>
+  
+  <!-- EN: toxic spewer -->
+  <ToxicSpewer.label>نافث السموم</ToxicSpewer.label>
+  <!-- EN: A nearby toxic spewer is blanketing this whole region with poison. -->
+  <ToxicSpewer.description>نافث السموم القريب يغطي هذه المنطقة بأكملها بالسم.</ToxicSpewer.description>
+  <!-- EN: A toxic spewer machine has begun blanketing the whole region with poison. -->
+  <ToxicSpewer.letterText>بدأت آلة نافث السموم بتغطية كامل المنطقة بالسم.</ToxicSpewer.letterText>
+  
+  <!-- EN: forced weather -->
+  <WeatherController.label>طقس قسري</WeatherController.label>
+  <!-- EN: A nearby weather controller is forcing the weather into this configuration. -->
+  <WeatherController.description>متحكم الطقس القريب يفرض الطقس على هذه الهيئة.</WeatherController.description>
+  <!-- EN: a weather-control system will force the weather around [map_definite] to be [forcedWeather_indefinite] for [gameConditionDuration_duration] -->
+  <WeatherController.descriptionFuture>سيفرض نظام التحكم بالطقس الطقس حول [map_definite] ليكون [forcedWeather_indefinite] لمدة [gameConditionDuration_duration]</WeatherController.descriptionFuture>
+  <!-- EN: The weather controller is no longer changing the weather. -->
+  <WeatherController.endMessage>لم يعد متحكم الطقس يغير الطقس.</WeatherController.endMessage>
+  <!-- EN: A weather controller machine has begun affecting the weather. -->
+  <WeatherController.letterText>بدأت آلة متحكم الطقس بالتأثير على الطقس.</WeatherController.letterText>
+  
+</LanguageData>

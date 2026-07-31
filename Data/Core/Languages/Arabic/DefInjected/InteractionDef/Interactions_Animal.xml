@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: animal chat -->
+  <AnimalChat.label>التحدث مع حيوان</AnimalChat.label>
+  <!-- EN:
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] approached [RECIPIENT_nameDef] while whispering to [INITIATOR_objective]self about [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] came near [RECIPIENT_nameDef] while talking to [INITIATOR_objective]self about [TalkTopicAny].</li>
+    <li>tamed->made calming noises towards</li>
+    <li>tamed->offered slow, friendly gestures to</li>
+    <li>tamed->made shushing noises at</li>
+    <li>tamed->made happy clicking noises at</li>
+    <li>tamed->gestured gently and approached</li>
+    <li>tamed->slowly approached</li>
+    <li>tamed->gently touched</li>
+    <li>tamed->calmed and encouraged</li>
+    <li>tamed->matched breathing with</li>
+    <li>tamed->took a low stance while approaching</li>
+    <li>tamed->showed no fear or anger to</li>
+    <li>tamed->feigned inattention towards</li>
+    <li>tamed->gently hummed a song at</li>
+    <li>tamed->sang an old lullaby at</li>
+    <li>tamed->firmly yet softly touched</li>
+    <li>tamed->showed a relaxed attitude towards</li>
+    <li>tamed->sat patiently near</li>
+    <li>tamed->whispered a story about [TalkTopicAny] to</li>
+  -->
+  <AnimalChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed_animal] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] جلس بالقرب من [RECIPIENT_nameDef] وتحدث مع نفسه عن [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] اقترب من [RECIPIENT_nameDef] وهو يهمس لنفسه عن [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] جاء بالقرب من [RECIPIENT_nameDef] وهو يتحدث لنفسه عن [TalkTopicAny].</li>
+    <li>tamed_animal->أصدر أصواتاً مهدئة نحو</li>
+    <li>tamed_animal->قام بإيماءات بطيئة وودية تجاه</li>
+    <li>tamed_animal->أصدر أصواتاً طالبة للهدوء تجاه</li>
+    <li>tamed_animal->أصدر صوت طقطقة سعيداً موجهاً إلى</li>
+    <li>tamed_animal->أومأ برفق واقترب من</li>
+    <li>tamed_animal->اقترب ببطء من</li>
+    <li>tamed_animal->لمس برفق</li>
+    <li>tamed_animal->هدأ وشجع</li>
+    <li>tamed_animal->تناغم في التنفس مع</li>
+    <li>tamed_animal->اتخذ وضعية منخفضة أثناء الاقتراب من</li>
+    <li>tamed_animal->لم يُظهر خوفاً أو غضباً تجاه</li>
+    <li>tamed_animal->تظاهر بعدم الانتباه تجاه</li>
+    <li>tamed_animal->همهم أغنية برفق تجاه</li>
+    <li>tamed_animal->غنى تهليلة قديمة تجاه</li>
+    <li>tamed_animal->لمس بحزم ولكن بلطف</li>
+    <li>tamed_animal->أظهر سلوكاً مسترخياً تجاه</li>
+    <li>tamed_animal->جلس بصبر بالقرب من</li>
+    <li>tamed_animal->همس قصة عن [TalkTopicAny] إلى</li>
+ </AnimalChat.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: nuzzle -->
+  <Nuzzle.label>ملاطفة</Nuzzle.label>
+  <!-- EN:
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
+    <li>nuzzled(p=2)->nuzzled</li>
+    <li>nuzzled->snuggled up to</li>
+    <li>nuzzleadverb(p=4)-></li>
+    <li>nuzzleadverb->gently</li>
+    <li>nuzzleadverb->encouragingly</li>
+    <li>nuzzleadverb->happily</li>
+    <li>nuzzleadverb->softly</li>
+    <li>nuzzleadverb->supportively</li>
+    <li>nuzzleadverb->lightly</li>
+    <li>nuzzleadverb->warmly</li>
+    <li>nuzzleadverb->plaintively</li>
+    <li>nuzzleadverb->lovingly</li>
+    <li>nuzzleadverb->affectionately</li>
+    <li>rubbedpart->leg</li>
+    <li>rubbedpart->knee</li>
+    <li>rubbedpart->foot</li>
+    <li>rubbedpart->elbow</li>
+    <li>rubbedpart->hip</li>
+    <li>rubbedpart->shoulder</li>
+    <li>rubbedpart->hand</li>
+    <li>rubbedpart->side</li>
+    <li>rubbedpart->arm</li>
+  -->
+  <Nuzzle.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] بـ [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [rubbedpart] [RECIPIENT_nameDef].</li>
+    <li>nuzzled(p=2)->تحاضن</li>
+    <li>nuzzled->فرك أنفه</li>
+    <li>nuzzleadverb(p=4)-></li>
+    <li>nuzzleadverb->برفق</li>
+    <li>nuzzleadverb->بتشجيع</li>
+    <li>nuzzleadverb->بسعادة</li>
+    <li>nuzzleadverb->بلطف</li>
+    <li>nuzzleadverb->بدعم</li>
+    <li>nuzzleadverb->بخفة</li>
+    <li>nuzzleadverb->بحرارة</li>
+    <li>nuzzleadverb->بحزن</li>
+    <li>nuzzleadverb->بمحبة</li>
+    <li>nuzzleadverb->بمودة</li>
+    <li>rubbedpart->ساق</li>
+    <li>rubbedpart->ركبة</li>
+    <li>rubbedpart->قدم</li>
+    <li>rubbedpart->كوع</li>
+    <li>rubbedpart->ورك</li>
+    <li>rubbedpart->كتف</li>
+    <li>rubbedpart->يد</li>
+  </Nuzzle.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: release to the wild -->
+  <ReleaseToWild.label>أطلق إلى البرية</ReleaseToWild.label>
+  <!-- EN:
+    <li>r_logentry->[farewell] [released]</li>
+    <li>farewell->[INITIATOR_nameDef] gently pet [RECIPIENT_nameDef] one last time</li>
+    <li>farewell->[INITIATOR_nameDef] said some warm words to [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] removed [RECIPIENT_nameDef]'s collar</li>
+    <li>farewell->[INITIATOR_nameDef] reminisced about the good time [INITIATOR_pronoun] had with [RECIPIENT_nameDef]</li>
+    <li>released->and released [RECIPIENT_objective] to the wild.</li>
+    <li>released->and set [RECIPIENT_objective] free.</li>
+    <li>released->and sent [RECIPIENT_objective] off.</li>
+    <li>released->and let [RECIPIENT_objective] go.</li>
+    <li>released->then turned away and let [RECIPIENT_objective] leave the colony.</li>
+    <li>released->before letting [RECIPIENT_objective] go to live in freedom.</li>
+  -->
+  <ReleaseToWild.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[farewell] [released]</li>
+    <li>farewell->ربت [INITIATOR_nameDef] على [RECIPIENT_nameDef] برفق مرة أخيرة</li>
+    <li>farewell->قال [INITIATOR_nameDef] بعض الكلمات الدافئة لـ [RECIPIENT_nameDef]</li>
+    <li>farewell->أزال [INITIATOR_nameDef] طوق [RECIPIENT_nameDef]</li>
+    <li>farewell->تذكر [INITIATOR_nameDef] الأوقات الجيدة التي قضاها مع [RECIPIENT_nameDef]</li>
+    <li>released->وأطلق [RECIPIENT_possessive] إلى البرية.</li>
+    <li>released->وأطلق سراح [RECIPIENT_possessive].</li>
+    <li>released->وصرف [RECIPIENT_possessive].</li>
+    <li>released->، ثم استدار وسمح لـ [RECIPIENT_possessive] بمغادرة المستعمرة.</li>
+    <li>released->قبل أن يدع [RECIPIENT_possessive] تذهب لتعيش بحرية.</li>
+  </ReleaseToWild.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: tame attempt -->
+  <TameAttempt.label>محاولة ترويض</TameAttempt.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to tame [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] tried to bring [RECIPIENT_nameDef] under control.</li>
+    <li>r_logentry->[INITIATOR_nameDef] attempted to collar [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] demanded obedience from [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come to [INITIATOR_objective].</li>
+    <li>r_logentry->[INITIATOR_nameDef] tried to make [RECIPIENT_nameDef] sit still.</li>
+    <li>r_logentry->[INITIATOR_nameDef] seized [RECIPIENT_nameDef] sharply and barked a command.</li>
+    <li>r_logentry->[INITIATOR_nameDef] attempted to hold [RECIPIENT_nameDef] still.</li>
+    <li>r_logentry->[INITIATOR_nameDef] shouted a command at [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] slapped [RECIPIENT_nameDef] in a show of dominance.</li>
+    <li>r_logentry->[INITIATOR_nameDef] directed [RECIPIENT_nameDef] back towards the community.</li>
+    <li>r_logentry->[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come back to the community.</li>
+    <li>r_logentry->[INITIATOR_nameDef] touched a vulnerable body part of [RECIPIENT_nameDef], demanding obedience.</li>
+    <li>r_logentry->[INITIATOR_nameDef] pointed at the ground, demanding that [RECIPIENT_nameDef] come.</li>
+    <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a first command.</li>
+  -->
+  <TameAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] حاول ترويض [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] حاول السيطرة على [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] حاول وضع طوق على [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] طلب الطاعة من [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] نادى [RECIPIENT_nameDef] ليأتي إليه.</li>
+    <li>r_logentry->[INITIATOR_nameDef] حاول جعل [RECIPIENT_nameDef] يجلس بهدوء.</li>
+    <li>r_logentry->[INITIATOR_nameDef] أمسك بـ [RECIPIENT_nameDef] بشدة ونبح أمراً.</li>
+    <li>r_logentry->[INITIATOR_nameDef] حاول تثبيت [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] صرخ بأمر نحو [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] صفع [RECIPIENT_nameDef] لإظهار السيطرة.</li>
+    <li>r_logentry->[INITIATOR_nameDef] وجه [RECIPIENT_nameDef] عائداً نحو المجتمع.</li>
+    <li>r_logentry->[INITIATOR_nameDef] نادى [RECIPIENT_nameDef] ليعود إلى المجتمع.</li>
+    <li>r_logentry->[INITIATOR_nameDef] لمس جزءاً حساساً من جسد [RECIPIENT_nameDef]، طالباً الطاعة.</li>
+    <li>r_logentry->[INITIATOR_nameDef] أشار إلى الأرض، طالباً من [RECIPIENT_nameDef] أن يأتي.</li>
+    <li>r_logentry->[INITIATOR_nameDef] أعطى [RECIPIENT_nameDef] الأمر الأول.</li>
+  </TameAttempt.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: train attempt -->
+  <TrainAttempt.label>محاولة تدريب</TrainAttempt.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef].</li>
+    <li>trained(p=2)->[tried] to train</li>
+    <li>trained->[tried] to show a new trick to</li>
+    <li>trained->[tried] to discipline</li>
+    <li>trained->[tried] to instruct</li>
+    <li>trained->[tried] to encourage a new skill in</li>
+    <li>trained->demonstrated a skill to</li>
+    <li>trained->encouraged a new response from</li>
+    <li>tried->tried</li>
+    <li>tried->attempted</li>
+  -->
+  <TrainAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [trained_animal].</li>
+    <li>trained_animal(p=2)->[tried] تدريب [RECIPIENT_nameDef]</li>
+    <li>trained_animal(p=4)->[tried] [to_train] [RECIPIENT_nameDef] [train_target]</li>
+    <li>trained_animal->[tried] تأديب [RECIPIENT_nameDef]</li>
+    <li>trained_animal->[tried] جعل [RECIPIENT_nameDef] يقوم بمهمة جديدة بالنسبة له</li>
+    <li>tried->حاول</li>
+    <li>tried->بذل جهداً</li>
+    <li>to_train->تعليم</li>
+    <li>to_train->تدريب</li>
+    <li>train_target->أمراً جديداً</li>
+    <li>train_target->مهارة جديدة</li>
+  </TrainAttempt.logRulesInitiator.rulesStrings>
+  
+</LanguageData>

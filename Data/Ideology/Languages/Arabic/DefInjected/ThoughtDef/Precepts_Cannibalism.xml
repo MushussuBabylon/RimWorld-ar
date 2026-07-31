@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: ate human meat -->
+  <AteHumanMeat_Abhorrent.stages.ate_human_meat.label>أكل لحم بشري</AteHumanMeat_Abhorrent.stages.ate_human_meat.label>
+  <!-- EN: I had to eat human meat. This is an offense against everything I believe. -->
+  <AteHumanMeat_Abhorrent.stages.ate_human_meat.description>اضطررت لأكل لحم بشري. هذا إهانة ضد كل ما أؤمن به.</AteHumanMeat_Abhorrent.stages.ate_human_meat.description>
+  
+  <!-- EN: ate human meat -->
+  <AteHumanMeat_Disapproved.stages.ate_human_meat.label>أكل لحم بشري</AteHumanMeat_Disapproved.stages.ate_human_meat.label>
+  <!-- EN: I had to eat human meat. I believe such actions are wrong. -->
+  <AteHumanMeat_Disapproved.stages.ate_human_meat.description>اضطررت لأكل لحم بشري. أعتقد أن مثل هذه الأفعال خاطئة.</AteHumanMeat_Disapproved.stages.ate_human_meat.description>
+  
+  <!-- EN: ate human meat -->
+  <AteHumanMeat_Horrible.stages.ate_human_meat.label>أكل لحم بشري</AteHumanMeat_Horrible.stages.ate_human_meat.label>
+  <!-- EN: I had to eat human meat. This was a horrible thing. -->
+  <AteHumanMeat_Horrible.stages.ate_human_meat.description>اضطررت لأكل لحم بشري. كان هذا أمراً مريعاً.</AteHumanMeat_Horrible.stages.ate_human_meat.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: ate human meat -->
+  <AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>أكل لحم بشري</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.label>
+  <AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} لحماً بشرياً</AteHumanMeat_Know_Abhorrent.stages.ate_human_meat.labelSocial>
+  
+  <!-- EN: ate human meat -->
+  <AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>أكل لحم بشري</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.label>
+  <AteHumanMeat_Know_Disapproved.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} لحماً بشرياً</AteHumanMeat_Know_Disapproved.stages.ate_human_meat.labelSocial>
+  
+  <!-- EN: ate human meat -->
+  <AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>أكل لحم بشري</AteHumanMeat_Know_Horrible.stages.ate_human_meat.label>
+  <AteHumanMeat_Know_Horrible.stages.ate_human_meat.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} لحماً بشرياً</AteHumanMeat_Know_Horrible.stages.ate_human_meat.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: ate human meat -->
+  <AteHumanMeat_Preferred.stages.ate_human_meat.label>أكل لحم بشري</AteHumanMeat_Preferred.stages.ate_human_meat.label>
+  <!-- EN: I ate human meat. It makes me feel noble and strong. -->
+  <AteHumanMeat_Preferred.stages.ate_human_meat.description>أكلت لحماً بشرياً. يجعلني أشعر بالنبل والقوة.</AteHumanMeat_Preferred.stages.ate_human_meat.description>
+  
+  <!-- EN: ate human meat -->
+  <AteHumanMeat_RequiredRavenous.stages.ate_human_meat.label>أكل لحم بشري</AteHumanMeat_RequiredRavenous.stages.ate_human_meat.label>
+  <!-- EN: I ate human meat! The world is right, and I am as I should be. -->
+  <AteHumanMeat_RequiredRavenous.stages.ate_human_meat.description>أكلت لحماً بشرياً! العالم على صواب، وأنا كما يجب أن أكون.</AteHumanMeat_RequiredRavenous.stages.ate_human_meat.description>
+  
+  <!-- EN: ate human meat -->
+  <AteHumanMeat_RequiredStrong.stages.ate_human_meat.label>أكل لحم بشري</AteHumanMeat_RequiredStrong.stages.ate_human_meat.label>
+  <!-- EN: I ate human meat, as every real human should. -->
+  <AteHumanMeat_RequiredStrong.stages.ate_human_meat.description>أكلت لحماً بشرياً، كما يجب على كل إنسان حقيقي.</AteHumanMeat_RequiredStrong.stages.ate_human_meat.description>
+  
+  <!-- Thought_FoodEaten, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: ate non-cannibal food -->
+  <AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.label>أكل طعاماً غير لحوم بشر</AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.label>
+  <!-- EN: I had to eat food that wasn't taken from a human body. This is absolutely against my beliefs. -->
+  <AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.description>اضطررت لأكل طعام لم يؤخذ من جسد بشري. هذا ضد معتقداتي تماماً.</AteNonCannibalFood_Abhorrent.stages.ate_noncannibal_food.description>
+  
+  <!-- EN: ate non-cannibal food -->
+  <AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.label>أكل طعاماً غير لحوم بشر</AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.label>
+  <!-- EN: I had to eat food that wasn't taken from a human body. My beliefs strictly forbid such things. -->
+  <AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.description>اضطررت لأكل طعام لم يؤخذ من جسد بشري. معتقداتي تمنع هذا بشدة.</AteNonCannibalFood_Horrible.stages.ate_noncannibal_food.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: ate non-cannibal food -->
+  <AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.label>أكل طعاماً غير لحوم بشر</AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.label>
+  <AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} طعاماً بدون لحم بشري</AteNonCannibalFood_Know_Abhorrent.stages.ate_noncannibal_food.labelSocial>
+  
+  <!-- EN: ate non-cannibal food -->
+  <AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.label>أكل طعاماً غير لحوم بشر</AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.label>
+  <AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.labelSocial>{OTHERPAWN_gender ? أكل : أكلت} طعاماً بدون لحم بشري</AteNonCannibalFood_Know_Horrible.stages.ate_noncannibal_food.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: I butchered humanlike -->
+  <ButcheredHuman_Abhorrent.stages.I_butchered_humanlike.label>سلخت بشرياً</ButcheredHuman_Abhorrent.stages.I_butchered_humanlike.label>
+  <!-- EN: I butchered a human being. This is an offense against everything I believe. -->
+  <ButcheredHuman_Abhorrent.stages.I_butchered_humanlike.description>سلخت بشرياً. هذا إهانة ضد كل ما أؤمن به.</ButcheredHuman_Abhorrent.stages.I_butchered_humanlike.description>
+  
+  <!-- EN: I butchered humanlike -->
+  <ButcheredHuman_Disapproved.stages.I_butchered_humanlike.label>سلخت بشرياً</ButcheredHuman_Disapproved.stages.I_butchered_humanlike.label>
+  <!-- EN: I butchered a human being. I believe such actions are wrong. -->
+  <ButcheredHuman_Disapproved.stages.I_butchered_humanlike.description>سلخت بشرياً. أعتقد أن مثل هذه الأفعال خاطئة.</ButcheredHuman_Disapproved.stages.I_butchered_humanlike.description>
+  
+  <!-- EN: I butchered humanlike -->
+  <ButcheredHuman_Horrible.stages.I_butchered_humanlike.label>سلخت بشرياً</ButcheredHuman_Horrible.stages.I_butchered_humanlike.label>
+  <!-- EN: I butchered a human being. This was a horrible thing. -->
+  <ButcheredHuman_Horrible.stages.I_butchered_humanlike.description>سلخت بشرياً. كان هذا أمراً مريعاً.</ButcheredHuman_Horrible.stages.I_butchered_humanlike.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: we butchered humanlike -->
+  <ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.label>سلخنا بشرياً</ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.label>
+  <!-- EN: One of us butchered a human being. This is an offense against everything I believe. -->
+  <ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.description>أحدنا سلخ بشرياً. هذا إهانة ضد كل ما أؤمن به.</ButcheredHuman_Know_Abhorrent.stages.we_butchered_humanlike.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: butchered humanlike -->
+  <ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.label>سلخ بشرياً</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.label>
+  <ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>{OTHERPAWN_gender ? سلخ : سلخت} بشرياً</ButcheredHuman_Know_Abhorrent_Opinion.stages.butchered_humanlike.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: we butchered humanlike -->
+  <ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.label>سلخنا بشرياً</ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.label>
+  <!-- EN: One of us butchered a human being. I believe such actions are wrong. -->
+  <ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description>أحدنا سلخ بشرياً. أعتقد أن مثل هذه الأفعال خاطئة.</ButcheredHuman_Know_Disapproved.stages.we_butchered_humanlike.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: butchered humanlike -->
+  <ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>سلخ بشرياً</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.label>
+  <ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>{PAWN_gender ? سلخ : سلخت} بشرياً</ButcheredHuman_Know_Disapproved_Opinion.stages.butchered_humanlike.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: we butchered humanlike -->
+  <ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.label>سلخنا بشرياً</ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.label>
+  <!-- EN: One of us butchered a human being. This was a horrible thing. -->
+  <ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.description>أحدنا سلخ بشرياً. كان هذا أمراً مريعاً.</ButcheredHuman_Know_Horrible.stages.we_butchered_humanlike.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: butchered humanlike -->
+  <ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>سلخ بشرياً</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.label>
+  <ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>{PAWN_gender ? سلخ : سلخت} بشرياً</ButcheredHuman_Know_Horrible_Opinion.stages.butchered_humanlike.labelSocial>
+  
+  <!-- Thought_Situational, ThoughtWorker_Precept_HumanLeatherApparel. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: human leather {0} -->
+  <HumanLeatherApparel_Abhorrent.stages.human_leather.label>ملابس جلد بشري {0}</HumanLeatherApparel_Abhorrent.stages.human_leather.label>
+  <!-- EN: Wearing human leather is disturbing. Who could do this? -->
+  <HumanLeatherApparel_Abhorrent.stages.human_leather.description>ارتداء جلد بشري مثير للقلق. من يمكنه فعل هذا؟</HumanLeatherApparel_Abhorrent.stages.human_leather.description>
+  <!-- EN: human leather {0} (+1) -->
+  <HumanLeatherApparel_Abhorrent.stages.human_leather_1.label>ملابس جلد بشري {0} (+1)</HumanLeatherApparel_Abhorrent.stages.human_leather_1.label>
+  <!-- EN: I'm dressed like an insane person. -->
+  <HumanLeatherApparel_Abhorrent.stages.human_leather_1.description>أبدو كشخص مجنون.</HumanLeatherApparel_Abhorrent.stages.human_leather_1.description>
+  <!-- EN: human leather {0} (+2) -->
+  <HumanLeatherApparel_Abhorrent.stages.human_leather_2.label>ملابس جلد بشري {0} (+2)</HumanLeatherApparel_Abhorrent.stages.human_leather_2.label>
+  <!-- EN: I think there may be a face on my clothes. Oh, no... my clothes *are* a face. -->
+  <HumanLeatherApparel_Abhorrent.stages.human_leather_2.description>أعتقد أنه قد يكون هناك وجه على ملابسي. أوه، لا... ملابسي *هي* وجه.</HumanLeatherApparel_Abhorrent.stages.human_leather_2.description>
+  <!-- EN: human leather {0} etc -->
+  <HumanLeatherApparel_Abhorrent.stages.human_leather_etc.label>ملابس جلد بشري إلخ {0}</HumanLeatherApparel_Abhorrent.stages.human_leather_etc.label>
+  <!-- EN: I look like a freak from a horror show, and I feel like I'm in a horror show. -->
+  <HumanLeatherApparel_Abhorrent.stages.human_leather_etc.description>أبدو كغريب من عرض رعب، وأشعر وكأنني في عرض رعب.</HumanLeatherApparel_Abhorrent.stages.human_leather_etc.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Precept_HumanLeatherApparel. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: human leather {0} -->
+  <HumanLeatherApparel_Disapproved.stages.human_leather.label>ملابس جلد بشري {0}</HumanLeatherApparel_Disapproved.stages.human_leather.label>
+  <!-- EN: I should not be wearing human leather apparel. -->
+  <HumanLeatherApparel_Disapproved.stages.human_leather.description>لا يجب أن أرتدي ملابس جلد بشري.</HumanLeatherApparel_Disapproved.stages.human_leather.description>
+  <!-- EN: human leather {0} (+1) -->
+  <HumanLeatherApparel_Disapproved.stages.human_leather_1.label>ملابس جلد بشري {0} (+1)</HumanLeatherApparel_Disapproved.stages.human_leather_1.label>
+  <!-- EN: I'm dressed in human skin. I do not like this. -->
+  <HumanLeatherApparel_Disapproved.stages.human_leather_1.description>أرتدي جلد بشري. لا أحب هذا.</HumanLeatherApparel_Disapproved.stages.human_leather_1.description>
+  <!-- EN: human leather {0} (+2) -->
+  <HumanLeatherApparel_Disapproved.stages.human_leather_2.label>ملابس جلد بشري {0} (+2)</HumanLeatherApparel_Disapproved.stages.human_leather_2.label>
+  <!-- EN: Why am I wearing so much human leather apparel? We should have something else to wear for me... -->
+  <HumanLeatherApparel_Disapproved.stages.human_leather_2.description>لماذا أرتدي الكثير من ملابس جلد البشر؟ يجب أن يكون لدينا شيء آخر أرتديه...</HumanLeatherApparel_Disapproved.stages.human_leather_2.description>
+  <!-- EN: human leather {0} etc -->
+  <HumanLeatherApparel_Disapproved.stages.human_leather_etc.label>ملابس جلد بشري إلخ {0}</HumanLeatherApparel_Disapproved.stages.human_leather_etc.label>
+  <!-- EN: I should really wear non-human leather apparel. I look like a crazy person. -->
+  <HumanLeatherApparel_Disapproved.stages.human_leather_etc.description>يجب حقاً أن أرتدي ملابس ليست من جلد بشري. أبدو كشخص مجنون.</HumanLeatherApparel_Disapproved.stages.human_leather_etc.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Precept_HumanLeatherApparel. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: human leather {0} -->
+  <HumanLeatherApparel_Horrible.stages.human_leather.label>ملابس جلد بشري {0}</HumanLeatherApparel_Horrible.stages.human_leather.label>
+  <!-- EN: Wearing human leather is wrong. -->
+  <HumanLeatherApparel_Horrible.stages.human_leather.description>ارتداء جلد بشري خطأ.</HumanLeatherApparel_Horrible.stages.human_leather.description>
+  <!-- EN: human leather {0} (+1) -->
+  <HumanLeatherApparel_Horrible.stages.human_leather_1.label>ملابس جلد بشري {0} (+1)</HumanLeatherApparel_Horrible.stages.human_leather_1.label>
+  <!-- EN: I feel really uncomfortable with all this human leather apparel. -->
+  <HumanLeatherApparel_Horrible.stages.human_leather_1.description>أشعر بعدم ارتياح شديد مع كل ملابس جلد البشر هذه.</HumanLeatherApparel_Horrible.stages.human_leather_1.description>
+  <!-- EN: human leather {0} (+2) -->
+  <HumanLeatherApparel_Horrible.stages.human_leather_2.label>ملابس جلد بشري {0} (+2)</HumanLeatherApparel_Horrible.stages.human_leather_2.label>
+  <!-- EN: Why am I wearing so much human leather? This is horrible! -->
+  <HumanLeatherApparel_Horrible.stages.human_leather_2.description>لماذا أرتدي الكثير من جلد البشر؟ هذا مريع!</HumanLeatherApparel_Horrible.stages.human_leather_2.description>
+  <!-- EN: human leather {0} etc -->
+  <HumanLeatherApparel_Horrible.stages.human_leather_etc.label>ملابس جلد بشري إلخ {0}</HumanLeatherApparel_Horrible.stages.human_leather_etc.label>
+  <!-- EN: I look like a freak, this is horrifying! -->
+  <HumanLeatherApparel_Horrible.stages.human_leather_etc.description>أبدو كغريب، هذا مرعب!</HumanLeatherApparel_Horrible.stages.human_leather_etc.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Precept_HumanLeatherApparel. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: human leather {0} -->
+  <HumanLeatherApparel_Preferred.stages.human_leather.label>ملابس جلد بشري {0}</HumanLeatherApparel_Preferred.stages.human_leather.label>
+  <!-- EN: I feel good wearing human leather apparel. -->
+  <HumanLeatherApparel_Preferred.stages.human_leather.description>أشعر بحالة جيدة عند ارتداء ملابس جلد بشري.</HumanLeatherApparel_Preferred.stages.human_leather.description>
+  <!-- EN: human leather {0} (+1) -->
+  <HumanLeatherApparel_Preferred.stages.human_leather_1.label>ملابس جلد بشري {0} (+1)</HumanLeatherApparel_Preferred.stages.human_leather_1.label>
+  <!-- EN: I enjoy wearing the skin of others. -->
+  <HumanLeatherApparel_Preferred.stages.human_leather_1.description>أستمتع بارتداء جلد الآخرين.</HumanLeatherApparel_Preferred.stages.human_leather_1.description>
+  <!-- EN: human leather {0} (+2) -->
+  <HumanLeatherApparel_Preferred.stages.human_leather_2.label>ملابس جلد بشري {0} (+2)</HumanLeatherApparel_Preferred.stages.human_leather_2.label>
+  <!-- EN: I wear the faces of my enemies. This makes me happy. -->
+  <HumanLeatherApparel_Preferred.stages.human_leather_2.description>أرتدي وجوه أعدائي. هذا يسعدني.</HumanLeatherApparel_Preferred.stages.human_leather_2.description>
+  <!-- EN: human leather {0} etc -->
+  <HumanLeatherApparel_Preferred.stages.human_leather_etc.label>ملابس جلد بشري إلخ {0}</HumanLeatherApparel_Preferred.stages.human_leather_etc.label>
+  <!-- EN: I look like a real cannibal. Who could doubt me? -->
+  <HumanLeatherApparel_Preferred.stages.human_leather_etc.description>أبدو كآكل لحوم بشر حقيقي. من يمكنه الشك بي؟</HumanLeatherApparel_Preferred.stages.human_leather_etc.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Precept_HumanLeatherApparel. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: human leather {0} -->
+  <HumanLeatherApparel_RequiredRavenous.stages.human_leather.label>ملابس جلد بشري {0}</HumanLeatherApparel_RequiredRavenous.stages.human_leather.label>
+  <!-- EN: I enjoy wearing the suffering of others. -->
+  <HumanLeatherApparel_RequiredRavenous.stages.human_leather.description>أستمتع بارتداء معاناة الآخرين.</HumanLeatherApparel_RequiredRavenous.stages.human_leather.description>
+  <!-- EN: human leather {0} (+1) -->
+  <HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.label>ملابس جلد بشري {0} (+1)</HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.label>
+  <!-- EN: This will scare them. All will know my power. -->
+  <HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.description>هذا سيخيفهم. سيعرف الجميع قوتي.</HumanLeatherApparel_RequiredRavenous.stages.human_leather_1.description>
+  <!-- EN: human leather {0} (+2) -->
+  <HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.label>ملابس جلد بشري {0} (+2)</HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.label>
+  <!-- EN: The faces on my clothes aren't smiling, but they make *me* happy. -->
+  <HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.description>الوجوه على ملابسي لا تبتسم، لكنها تجعلني *أنا* سعيداً.</HumanLeatherApparel_RequiredRavenous.stages.human_leather_2.description>
+  <!-- EN: human leather {0} etc -->
+  <HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.label>ملابس جلد بشري إلخ {0}</HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.label>
+  <!-- EN: The flesh! The flesh signals my triumph! -->
+  <HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.description>اللحم! اللحم يشير إلى انتصاري!</HumanLeatherApparel_RequiredRavenous.stages.human_leather_etc.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Precept_HumanLeatherApparel. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: human leather {0} -->
+  <HumanLeatherApparel_RequiredStrong.stages.human_leather.label>ملابس جلد بشري {0}</HumanLeatherApparel_RequiredStrong.stages.human_leather.label>
+  <!-- EN: I enjoy wearing the faces of others. -->
+  <HumanLeatherApparel_RequiredStrong.stages.human_leather.description>أستمتع بارتداء وجوه الآخرين.</HumanLeatherApparel_RequiredStrong.stages.human_leather.description>
+  <!-- EN: human leather {0} (+1) -->
+  <HumanLeatherApparel_RequiredStrong.stages.human_leather_1.label>ملابس جلد بشري {0} (+1)</HumanLeatherApparel_RequiredStrong.stages.human_leather_1.label>
+  <!-- EN: This will scare them. All will know my power. -->
+  <HumanLeatherApparel_RequiredStrong.stages.human_leather_1.description>هذا سيخيفهم. سيعرف الجميع قوتي.</HumanLeatherApparel_RequiredStrong.stages.human_leather_1.description>
+  <!-- EN: human leather {0} (+2) -->
+  <HumanLeatherApparel_RequiredStrong.stages.human_leather_2.label>ملابس جلد بشري {0} (+2)</HumanLeatherApparel_RequiredStrong.stages.human_leather_2.label>
+  <!-- EN: The faces on my clothes aren't smiling, but they make *me* happy. -->
+  <HumanLeatherApparel_RequiredStrong.stages.human_leather_2.description>الوجوه على ملابسي لا تبتسم، لكنها تجعلني *أنا* سعيداً.</HumanLeatherApparel_RequiredStrong.stages.human_leather_2.description>
+  <!-- EN: human leather {0} etc -->
+  <HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.label>ملابس جلد بشري إلخ {0}</HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.label>
+  <!-- EN: The flesh! The flesh signals my triumph! -->
+  <HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.description>اللحم! اللحم يشير إلى انتصاري!</HumanLeatherApparel_RequiredStrong.stages.human_leather_etc.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Precept_NoRecentHumanMeat. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: want human meat -->
+  <NoRecentHumanMeat_Preferred.stages.want_human_meat.label>أريد لحماً بشرياً</NoRecentHumanMeat_Preferred.stages.want_human_meat.label>
+  <!-- EN: It's been too long since I consumed any human meat. It feels wrong. -->
+  <NoRecentHumanMeat_Preferred.stages.want_human_meat.description>مضى وقت طويل منذ أن تناولت أي لحم بشري. أشعر أن هذا خطأ.</NoRecentHumanMeat_Preferred.stages.want_human_meat.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Precept_NoRecentHumanMeat. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: want human meat -->
+  <NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.label>أريد لحماً بشرياً</NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.label>
+  <!-- EN: Ravenous! It's been so long since I tasted the true flesh. This is wrong! -->
+  <NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.description>شره! مضى وقت طويل منذ أن تذوقت اللحم الحقيقي. هذا خطأ!</NoRecentHumanMeat_RequiredRavenous.stages.want_human_meat.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_Precept_NoRecentHumanMeat. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: want human meat -->
+  <NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.label>أريد لحماً بشرياً</NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.label>
+  <!-- EN: It's been far too long since I consumed human. I should have eaten by now. -->
+  <NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.description>مضى وقت طويل جداً منذ أن تناولت بشرياً. كان يجب أن آكل الآن.</NoRecentHumanMeat_RequiredStrong.stages.want_human_meat.description>
+  
+</LanguageData>

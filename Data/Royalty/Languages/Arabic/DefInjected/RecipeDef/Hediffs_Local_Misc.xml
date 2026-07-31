@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: anti-abasia mechanite infusion -->
+  <CureAbasia.label>حقن ميكانيت مضاد للعجز الحركي</CureAbasia.label>
+  <!-- EN: This special medical operation uses a massive dose of mechanites to saturate brain tissue and execute a coordinated restructure of neural activity without damaging the brain. It permanently cures a patient's abasia-induced paralysis, but consumes a large amount of glitterworld medicine. -->
+  <CureAbasia.description>هذه العملية الطبية الخاصة تستخدم جرعة هائلة من الميكانيت لإشباع أنسجة الدماغ وتنفيذ إعادة هيكلة منسقة للنشاط العصبي دون إتلاف الدماغ. تعالج بشكل دائم شلل المريض الناجم عن العجز الحركي، لكنها تستهلك كمية كبيرة من أدوية العالم اللامع.</CureAbasia.description>
+  <!-- EN: Infusing anti-abasia mechanites. -->
+  <CureAbasia.jobString>حقن ميكانيت مضاد للعجز الحركي.</CureAbasia.jobString>
+  <!-- EN: {0} has successfully cured {1}'s paralytic abasia. -->
+  <CureAbasia.successfullyRemovedHediffMessage>{0} عالج بنجاح العجز الحركي الشللي لدى {1}.</CureAbasia.successfullyRemovedHediffMessage> <!-- В Recipe_RemoveHediff.ApplyOnPawn передаются неименованные строки, а не объекты. Gender-подсимвол неприменим -->
+  
+  <!-- EN: cure blood rot -->
+  <CureBloodRot.label>علاج عفونة الدم</CureBloodRot.label>
+  <!-- EN: This special medical operation cures blood rot by a massive infusion of bacteriophage mechanites. -->
+  <CureBloodRot.description>هذه العملية الطبية الخاصة تعالج عفونة الدم عن طريق حقن هائل لميكانيت آكل البكتيريا.</CureBloodRot.description>
+  <!-- EN: Curing blood rot. -->
+  <CureBloodRot.jobString>علاج عفونة الدم.</CureBloodRot.jobString>
+  <!-- EN: {0} has successfully cured {1}'s blood rot. -->
+  <CureBloodRot.successfullyRemovedHediffMessage>{0} عالج بنجاح عفونة الدم لدى {1}.</CureBloodRot.successfullyRemovedHediffMessage> <!-- В Recipe_RemoveHediff.ApplyOnPawn передаются неименованные строки, а не объекты. Gender-подсимвол неприменим -->
+  
+</LanguageData>

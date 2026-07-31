@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Need slave beds -->
+  <NeedSlaveBeds>بحاجة لأسرة عبيد</NeedSlaveBeds>
+  <!-- EN: You have more slaves than you have slave beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a colonist or prisoner bed to a slave bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
+  <NeedSlaveBedsDesc>لديك عبيد أكثر من عدد الأسرّة المخصصة لهم. سيفتقد شخص ما لمكان للنوم.\n\nإما أن تصنع المزيد من الأسرّة، أو تغير سرير مستعمر أو سجين إلى سرير عبد.\n\nإذا لم تكن لديك موارد، فإن أماكن النوم مجانية ويمكن وضعها فوراً.</NeedSlaveBedsDesc>
+
+  <!-- EN: Slave unsuppressed -->
+  <SlavesUnsuppressedLabel>عبد غير مكبوت</SlavesUnsuppressedLabel>
+  <!-- EN: {0_nameDef}'s suppression level is dangerously low. There is a good chance {0_pronoun} will rebel.\n\nMake sure there is a colonist assigned to warden work. Wardens will suppress slaves periodically to stop them from rebelling. -->
+  <SlavesUnsuppressedDesc>مستوى كبت {0_nameDef} منخفض بشكل خطير. هناك فرصة كبيرة أن يتمرد {0_pronoun}.\n\nتأكد من وجود مستعمر معين في عمل السجان. سيقوم السجانون بكبت العبيد بشكل دوري لمنعهم من التمرد.</SlavesUnsuppressedDesc>
+  <!-- EN: Slave unattended -->
+  <SlaveUnattendedLabel>عبد غير مراقب</SlaveUnattendedLabel>
+  <!-- EN: Slaves unattended -->
+  <SlaveUnattendedMultipleLabel>عبيد غير مراقبون</SlaveUnattendedMultipleLabel>
+  <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
+  <SlavesUnattendedDesc>بعض العبيد بمفردهم على الخريطة دون وجود مستعمرين قادرين حولهم.\n\nالعبيد المتركون دون مراقبة بهذا الشكل معرضون بشكل كبير للتمرد خلال أيام أو ساعات.</SlavesUnattendedDesc>
+
+  <!-- EN: {0} opportunity -->
+  <RitualOpportunity>فرصة لـ {0}</RitualOpportunity>
+  <!-- EN: {0} opportunity for {1} -->
+  <RitualOpportunityFor>فرصة لـ {0} لـ {1}</RitualOpportunityFor>
+  <!-- EN: Expires in {0}, on {1}. -->
+  <RitualExpiresIn>تنتهي الصلاحية في {0}، بتاريخ {1}.</RitualExpiresIn>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>لبدء الطقس، اختر {FOCUS} وانقر على أمر 'ابدأ {RITUAL_label}'.</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>لبدء الطقس، اختر واحداً مما يلي وانقر على أمر 'ابدأ {RITUAL_label}'.</RitualMultiTargetDesc>
+  <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
+  <RitualTargetsExplanation>لبدء الطقس، اختر كائن تركيز وانقر على أمر 'ابدأ {RITUAL_label}'. كائنات التركيز الصالحة هي:\n{1}</RitualTargetsExplanation>
+  <!-- EN: Click to jump to targets -->
+  <RitualJumpToTargets>انقر للانتقال إلى الأهداف</RitualJumpToTargets>
+  <!-- EN: In order to perform {0} you need to fill these roles -->
+  <RitualUnfilledRoles>لأداء {0} تحتاج إلى ملء هذه الأدوار</RitualUnfilledRoles>
+
+  <!-- EN: {0} desired -->
+  <IdeoBuildingMissing>مطلوب {0}</IdeoBuildingMissing>
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingMissingDesc>{IDEO_name} يتطلب وجود {0} في مستعمرتك طالما {2} أو أعلى.\n\n{0} هو نوع من {BASEBUILDING_label}.{BUILDINGINFO}\n\nهذا المطلب نشط فقط إذا كانت {IDEO_name} هي العقيدة الأساسية لفصيلك، أو كان هناك {MINBELIEVERS} مؤمن في فصيلك.{4}\n\nإذا لم يتم استيفاء المطلب، سيصبح هؤلاء المؤمنون غير سعداء:\n{3}</IdeoBuildingMissingDesc>
+  <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
+  <IdeoBuildingArchitectTabDesc> يمكنك العثور عليه بفتح علامة تبويب '{TABNAME}' من قائمة المعماري.</IdeoBuildingArchitectTabDesc>
+  <!-- EN:  It can be created at:\n{0}. -->
+  <IdeoBuildingCanBeCraftedAt> يمكن إنشاؤه في:\n{0}.</IdeoBuildingCanBeCraftedAt>
+  <!-- EN: In order to dignify {0}, these room requirements must be met -->
+  <IdeoBuildingRoomRequirementsDesc>لتكريم {0}، يجب استيفاء متطلبات الغرفة هذه</IdeoBuildingRoomRequirementsDesc>
+  <!-- EN: expectations are -->
+  <IdeoBuildingExpectations>التوقعات هي</IdeoBuildingExpectations>
+
+  <!-- EN: {0} disrespected -->
+  <IdeoBuildingDisrespected>{0} لم يُحترم</IdeoBuildingDisrespected>
+  <!-- EN: {0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingDisrespectedDesc>يتطلب {0} أن يكون {1} في غرفة مكرمة. يجب استيفاء متطلبات الغرفة هذه:\n{2}\n\nإذا لم تُستوف متطلبات غرفة {1}، سيصبح هؤلاء المؤمنون غير سعداء:\n{3}</IdeoBuildingDisrespectedDesc>
+  
+  <!-- EN: Raids arriving in {0} -->
+  <QuestPartRaidsDelay>غارات قادمة خلال {0}</QuestPartRaidsDelay>
+  <!-- EN: Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data. -->
+  <QuestPartRaidsDelayDesc>ستبدأ الغارات بالوصول خلال {0}.\n\nسيستهدف المغيرون الطائرة الفضائية بدون طيار ويحاولون تدميرها. احمِ الطائرة الفضائية ليتمكن مستعمروك من اختراق حاسوبها واسترداد البيانات.</QuestPartRaidsDelayDesc>
+
+  <!-- EN: {0} role unfilled -->
+  <IdeoRoleEmpty>دور {0} غير مشغول</IdeoRoleEmpty>
+  <!-- EN: {0} roles unfilled -->
+  <IdeoRolesEmpty>أدوار {0} غير مشغولة</IdeoRolesEmpty>
+  <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab. You can also select a ritual spot or an altar and click 'Begin role change'. \n\nIf these roles remain empty, the following people will be unhappy -->
+  <IdeoRolesEmptyDesc>هذه الأدوار غير مشغولة:\n{0}\n\nيمكنك تعيين شخص ما لدور في علامة التبويب الاجتماعي الخاصة به. يمكنك أيضاً اختيار بقعة طقس أو مذبح والنقر على 'ابدأ تغيير الدور'.\n\nإذا بقيت هذه الأدوار شاغرة، سيصبح الأشخاص التاليون غير سعداء</IdeoRolesEmptyDesc>
+
+  <!-- EN: Security threats activated in {0} -->
+  <AncientAltarThreatsWaking>تفعيل التهديدات الأمنية خلال {0}</AncientAltarThreatsWaking>
+  <!-- EN: Security threats will activate in {0}. They will attack any who may threaten the relic. -->
+  <AncientAltarThreatsWakingDesc>ستتفعل التهديدات الأمنية خلال {0}. ستهاجم أي شخص قد يهدد الأثر.</AncientAltarThreatsWakingDesc>
+
+  <!-- EN: Ritual opportunity soon -->
+  <AlertRitualComing>فرصة طقس قريباً</AlertRitualComing>
+  <!-- EN: A ritual opportunity is coming soon for following rituals -->
+  <AlertRitualComingDesc>فرصة طقس قادمة قريباً للطقوس التالية</AlertRitualComingDesc>
+  <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
+  <AlertRitualComingExtra>تنتهي صلاحية الفرص بعد {0} يوم، وتتكرر في نفس اليوم من كل عام.</AlertRitualComingExtra>
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
+  <AlertRitualComingEntry>{0} في {1}، {2} قبل ظهور الفرصة</AlertRitualComingEntry>
+
+  <!-- EN: Age reversal demanded -->
+  <AlertAgeReversalDemandNear>مطلوب عكس العمر</AlertAgeReversalDemandNear>
+  <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
+  <AlertAgeReversalDemandDesc>بسبب معتقداتهم، يطالب بعض مستعمريك بعلاجات عكس العمر بانتظام في كبسولة النحت الحيوي. إذا لم يحصلوا على العلاجات، سيكونون مستاءين.\n\nالأشخاص التاليون يطالبون بعلاج عكس العمر</AlertAgeReversalDemandDesc>
+  <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Recruit>انضم {PAWN} إلى {FACTION} مؤخراً، ويريد بدء علاجات عكس العمر خلال {DURATION}.</AlertAgeReversalDemandDesc_Recruit>
+  <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Next>يريد {PAWN} علاجه التالي خلال {DURATION}.</AlertAgeReversalDemandDesc_Next>
+  <!-- EN: {PAWN} wants their first treatment in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Initial>يريد {PAWN} أول علاج له خلال {DURATION}.</AlertAgeReversalDemandDesc_Initial>
+  <!-- EN: {PAWN}'s treatment is overdue by {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Overdue>تأخر علاج {PAWN} بمقدار {DURATION}.</AlertAgeReversalDemandDesc_Overdue>
+
+  <!-- EN: {PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}. -->
+  <AlertRoyalTitleNoVeneratedAnimalMeat>اعتقاد {PAWN_nameDef} في {IDEO_name} يمنع {PAWN_objective} من أكل لحم {ANIMALS}.</AlertRoyalTitleNoVeneratedAnimalMeat>
+
+  <!-- EN: Dryad caste not set -->
+  <AlertGauranlenTreeWithoutDryadTypeLabel>لم يتم تعيين طائفة الدرياد</AlertGauranlenTreeWithoutDryadTypeLabel>
+  <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
+  <AlertGauranlenTreeWithoutDryadTypeDesc>واحدة أو أكثر من أشجار غورانلين لم يتم تعيين طائفة الدرياد الخاصة بها.\n\nاختر الشجرة وانقر على الزر '{0}' لتعيين طائفة الدرياد المنتجة.</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <!-- EN: Connector not assigned to plant cutting -->
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>الموصل غير معين في قطع النباتات</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>لديك أشجار غورانلين مضبوطة لتقليمها، لكن موصليها غير معينين في عمل قطع النباتات.\n\nيجب عليك تعيين عمل قطع النباتات للأشخاص التاليين</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+
+  <!-- EN: Fuel node explodes in {0} -->
+  <AlertFuelNodeIgniting>تنفجر عقدة الوقود خلال {0}</AlertFuelNodeIgniting>
+  <!-- EN: A fuel node has ignited! It will melt down and explode very soon.\n\nGet away and be ready to fight or escape the fires. -->
+  <AlertFuelNodeIgnitingDesc>اشتعلت عقدة وقود! ستنهار وتنفجر قريباً جداً.\n\nابتعد وكن مستعداً للقتال أو للهروب من الحرائق.</AlertFuelNodeIgnitingDesc>
+
+  <!-- EN: Insects arriving in {0} -->
+  <AlertInfestationArriving>حشرات قادمة خلال {0}</AlertInfestationArriving>
+  <!-- EN: Giant insects have sensed your activity and are burrowing up from underground to attack. Infestations are about to begin. -->
+  <AlertInfestationArrivingDesc>حشرات عملاقة استشعرت نشاطكم وتحفر صاعدة من تحت الأرض للهجوم. الإصابات على وشك البدء.</AlertInfestationArrivingDesc>
+
+  <!-- EN: {0_pawnsPlural} waking in {1} -->
+  <AlertHostilesWakingUp>{0_pawnsPlural} يستيقظون خلال {1}</AlertHostilesWakingUp>
+  <!-- EN: One or more {0_pawnsPlural} are waking up.\n\nThey will attack if they find you. -->
+  <AlertHostilesWakingUpDesc>واحد أو أكثر من {0_pawnsPlural} يستيقظون.\n\nسيهاجمون إذا وجدوك.</AlertHostilesWakingUpDesc>
+
+  <!-- EN: Cryptosleep caskets opening in {0} -->
+  <AlertCasketOpening>فتح توابيت السبات خلال {0}</AlertCasketOpening>
+  <!-- EN: Cryptosleep caskets containing unknown threats are opening soon. -->
+  <AlertCasketOpeningDesc>توابيت سبات تحتوي على تهديدات غير معروفة ستفتح قريباً.</AlertCasketOpeningDesc>
+
+  <!-- EN: Slave rebellion likely -->
+  <AlertSlaveRebellionLikely>تمرد العبيد محتمل</AlertSlaveRebellionLikely>
+  <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
+  <AlertSlaveRebellionLikelyRebelliousCount>هناك {REBELLIOUSCOUNT} عبد من المحتمل أن يبادروا بالتمرد.</AlertSlaveRebellionLikelyRebelliousCount>
+  <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
+  <AlertSlaveRebellionLikelyMostRebellious>من المتوقع حدوث تمرد عبيد مرة كل {COMBINEDTIME} تقريباً. لاحظ أن فرصة تمرد كل عبد مستقلة، لذلك إذا تمرد أي منهم يمكنه أخذ الآخرين معه.\n\n{REBEL_labelShort} هو العبد الأكثر تمرداً ومن المتوقع أن يبادئ بالتمرد مرة كل {INDIVIDUALTIME} تقريباً. العوامل التالية تؤثر على مدى تكرار تمردهم:</AlertSlaveRebellionLikelyMostRebellious>
+  
+</LanguageData>

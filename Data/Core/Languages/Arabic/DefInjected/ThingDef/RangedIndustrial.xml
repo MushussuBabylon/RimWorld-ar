@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: assault rifle bullet -->
+  <Bullet_AssaultRifle.label>رصاصة بندقية هجومية</Bullet_AssaultRifle.label>
+  
+  <!-- EN: autopistol bullet -->
+  <Bullet_Autopistol.label>رصاصة مسدس آلي</Bullet_Autopistol.label>
+  
+  <!-- EN: bolt-action rifle bullet -->
+  <Bullet_BoltActionRifle.label>رصاصة بندقية برغي</Bullet_BoltActionRifle.label>
+  
+  <!-- EN: EMP launcher shell -->
+  <Bullet_EMPLauncher.label>قذيفة قاذف نبض كهرومغناطيسي</Bullet_EMPLauncher.label>
+  
+  <!-- EN: heavy SMG bullet -->
+  <Bullet_HeavySMG.label>رصاصة رشاش ثقيل</Bullet_HeavySMG.label>
+  
+  <!-- EN: incendiary bolt -->
+  <Bullet_IncendiaryLauncher.label>سهم حارق</Bullet_IncendiaryLauncher.label>
+  
+  <!-- EN: LMG bullet -->
+  <Bullet_LMG.label>رصاصة رشاش خفيف</Bullet_LMG.label>
+  
+  <!-- EN: machine pistol bullet -->
+  <Bullet_MachinePistol.label>رصاصة مسدس رشاش</Bullet_MachinePistol.label>
+  
+  <!-- EN: minigun bullet -->
+  <Bullet_Minigun.label>رصاصة مينيغان</Bullet_Minigun.label>
+  
+  <!-- EN: revolver bullet -->
+  <Bullet_Revolver.label>رصاصة مسدس دوار</Bullet_Revolver.label>
+  
+  <!-- EN: shotgun blast -->
+  <Bullet_Shotgun.label>رش بندقية صيد</Bullet_Shotgun.label>
+  
+  <!-- EN: smoke launcher shell -->
+  <Bullet_SmokeLauncher.label>قذيفة قاذف دخان</Bullet_SmokeLauncher.label>
+  
+  <!-- EN: sniper rifle bullet -->
+  <Bullet_SniperRifle.label>رصاصة بندقية قنص</Bullet_SniperRifle.label>
+  
+  <!-- EN: assault rifle -->
+  <Gun_AssaultRifle.label>بندقية هجومية</Gun_AssaultRifle.label>
+  <!-- EN: A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy. -->
+  <Gun_AssaultRifle.description>بندقية هجومية تعمل بالغاز للأغراض العامة للقتال الميداني أو الحضري. لديها مدى جيد وقوة مناسبة ودقة جيدة.</Gun_AssaultRifle.description>
+  <!-- EN: stock -->
+  <Gun_AssaultRifle.tools.stock.label>أخمص</Gun_AssaultRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_AssaultRifle.tools.barrel.label>ماسورة</Gun_AssaultRifle.tools.barrel.label>
+  <!-- EN: assault rifle -->
+  <Gun_AssaultRifle.verbs.Verb_Shoot.label>بندقية هجومية</Gun_AssaultRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: autopistol -->
+  <Gun_Autopistol.label>مسدس آلي</Gun_Autopistol.label>
+  <!-- EN: An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire. -->
+  <Gun_Autopistol.description>مسدس ذاتي التلقيم يعمل بالارتداد من نمط قديم. يفتقر إلى قوة الإيقاف والمدى، لكنه سريع في الإطلاق.</Gun_Autopistol.description>
+  <!-- EN: grip -->
+  <Gun_Autopistol.tools.grip.label>قبضة</Gun_Autopistol.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_Autopistol.tools.barrel.label>ماسورة</Gun_Autopistol.tools.barrel.label>
+  <!-- EN: autopistol -->
+  <Gun_Autopistol.verbs.Verb_Shoot.label>مسدس آلي</Gun_Autopistol.verbs.Verb_Shoot.label>
+  
+  <!-- EN: bolt-action rifle -->
+  <Gun_BoltActionRifle.label>بندقية برغي</Gun_BoltActionRifle.label>
+  <!-- EN: An ancient pattern bolt-action rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting. -->
+  <Gun_BoltActionRifle.description>بندقية برغي من نمط قديم. بمداها الطويل ومعدل إطلاقها المنخفض، من غير المرجح أن تدفع الحيوانات للانتقام، مما يجعلها سلاحًا مفضلاً للصيد.</Gun_BoltActionRifle.description>
+  <!-- EN: stock -->
+  <Gun_BoltActionRifle.tools.stock.label>أخمص</Gun_BoltActionRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_BoltActionRifle.tools.barrel.label>ماسورة</Gun_BoltActionRifle.tools.barrel.label>
+  <!-- EN: bolt-action rifle -->
+  <Gun_BoltActionRifle.verbs.Verb_Shoot.label>بندقية برغي</Gun_BoltActionRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: chain shotgun -->
+  <Gun_ChainShotgun.label>بندقية صيد سلسلية</Gun_ChainShotgun.label>
+  <!-- EN: A magazine-fed fully automatic shotgun. It is even shorter-ranged than a typical shotgun, but is extraordinarily dangerous due to burst fire. -->
+  <Gun_ChainShotgun.description>بندقية صيد أوتوماتيكية بالكامل تتغذى بالخزنة. إنها أقصر مدى حتى من بندقية الصيد العادية، لكنها خطيرة بشكل استثنائي بسبب الإطلاق الرشقي.</Gun_ChainShotgun.description>
+  <!-- EN: stock -->
+  <Gun_ChainShotgun.tools.stock.label>أخمص</Gun_ChainShotgun.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_ChainShotgun.tools.barrel.label>ماسورة</Gun_ChainShotgun.tools.barrel.label>
+  <!-- EN: chain shotgun -->
+  <Gun_ChainShotgun.verbs.Verb_Shoot.label>بندقية صيد سلسلية</Gun_ChainShotgun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: EMP launcher -->
+  <Gun_EmpLauncher.label>قاذف نبض كهرومغناطيسي</Gun_EmpLauncher.label>
+  <!-- EN: A wide-barreled EMP shell launcher. The shell will upon impact release a burst of electromagnetic energy, stunning mechanical targets (mechanoids, turrets, mortars) and depleting shields in the area of effect. -->
+  <Gun_EmpLauncher.description>قاذف قذائف نبض كهرومغناطيسي واسع الماسورة. ستطلق القذيفة عند الاصطدام دفقة من الطاقة الكهرومغناطيسية، مما يصعق الأهداف الميكانيكية (الميكانويدات، الأبراج، الهاونات) ويستنزف الدروع في منطقة التأثير.</Gun_EmpLauncher.description>
+  <!-- EN: stock -->
+  <Gun_EmpLauncher.tools.stock.label>أخمص</Gun_EmpLauncher.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_EmpLauncher.tools.barrel.label>ماسورة</Gun_EmpLauncher.tools.barrel.label>
+  <!-- EN: EMP launcher -->
+  <Gun_EmpLauncher.verbs.Verb_Shoot.label>قاذف نبض كهرومغناطيسي</Gun_EmpLauncher.verbs.Verb_Shoot.label>
+  
+  <!-- EN: heavy SMG -->
+  <Gun_HeavySMG.label>رشاش ثقيل</Gun_HeavySMG.label>
+  <!-- EN: A compact, wide-caliber slug-thrower. It's got a very short range, but it packs a punch and handles quite well. -->
+  <Gun_HeavySMG.description>قاذف سبائك مدمج واسع العيار. لديه مدى قصير جدًا، لكنه قوي الضربة ويتعامل بشكل جيد.</Gun_HeavySMG.description>
+  <!-- EN: grip -->
+  <Gun_HeavySMG.tools.grip.label>قبضة</Gun_HeavySMG.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_HeavySMG.tools.barrel.label>ماسورة</Gun_HeavySMG.tools.barrel.label>
+  <!-- EN: heavy SMG -->
+  <Gun_HeavySMG.verbs.Verb_Shoot.label>رشاش ثقيل</Gun_HeavySMG.verbs.Verb_Shoot.label>
+  
+  <!-- EN: incendiary launcher -->
+  <Gun_IncendiaryLauncher.label>قاذف حارق</Gun_IncendiaryLauncher.label>
+  <!-- EN: A wide-barreled incendiary bolt launcher. The bolts create small incendiary explosions on impact, starting fires. -->
+  <Gun_IncendiaryLauncher.description>قاذف أسهم حارقة واسع الماسورة. تخلق الأسهم انفجارات حارقة صغيرة عند الاصطدام، مما يشعل الحرائق.</Gun_IncendiaryLauncher.description>
+  <!-- EN: stock -->
+  <Gun_IncendiaryLauncher.tools.stock.label>أخمص</Gun_IncendiaryLauncher.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_IncendiaryLauncher.tools.barrel.label>ماسورة</Gun_IncendiaryLauncher.tools.barrel.label>
+  <!-- EN: incendiary launcher -->
+  <Gun_IncendiaryLauncher.verbs.Verb_Shoot.label>قاذف حارق</Gun_IncendiaryLauncher.verbs.Verb_Shoot.label>
+  
+  <!-- EN: LMG -->
+  <Gun_LMG.label>رشاش خفيف</Gun_LMG.label>
+  <!-- EN: A gas-operated light machine gun. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies. -->
+  <Gun_LMG.description>رشاش خفيف يعمل بالغاز. بينما هو أخرق إلى حد ما وغير دقيق، فإن رشقاته الطويلة من النار فعالة ضد مجموعات الأعداء.</Gun_LMG.description>
+  <!-- EN: stock -->
+  <Gun_LMG.tools.stock.label>أخمص</Gun_LMG.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_LMG.tools.barrel.label>ماسورة</Gun_LMG.tools.barrel.label>
+  <!-- EN: LMG -->
+  <Gun_LMG.verbs.Verb_Shoot.label>رشاش خفيف</Gun_LMG.verbs.Verb_Shoot.label>
+  
+  <!-- EN: machine pistol -->
+  <Gun_MachinePistol.label>مسدس رشاش</Gun_MachinePistol.label>
+  <!-- EN: A micro-submachine gun. It is short-ranged, but very light in the hands. Its rate of fire tends to make up for its weakness. -->
+  <Gun_MachinePistol.description>رشاش صغير جدًا. إنه قصير المدى، لكنه خفيف جدًا في اليدين. معدل إطلاقه يميل إلى تعويض ضعفه.</Gun_MachinePistol.description>
+  <!-- EN: grip -->
+  <Gun_MachinePistol.tools.grip.label>قبضة</Gun_MachinePistol.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_MachinePistol.tools.barrel.label>ماسورة</Gun_MachinePistol.tools.barrel.label>
+  <!-- EN: machine pistol -->
+  <Gun_MachinePistol.verbs.Verb_Shoot.label>مسدس رشاش</Gun_MachinePistol.verbs.Verb_Shoot.label>
+  
+  <!-- EN: minigun -->
+  <Gun_Minigun.label>مينيغان</Gun_Minigun.label>
+  <!-- EN: A multi-barrel machine gun. It's unwieldy, but once it starts firing it fires very fast. Where most self-loading guns are powered by the energy from the gunpowder, the minigun uses an electric motor to rapidly cycle cartridges through the weapon. -->
+  <Gun_Minigun.description>رشاش متعدد المواسير. إنه أخرق، لكن بمجرد أن يبدأ الإطلاق يطلق بسرعة كبيرة. بينما تعمل معظم الأسلحة ذاتية التلقيم بالطاقة من البارود، يستخدم المينيغان محركًا كهربائيًا لتدوير الطلقات بسرعة عبر السلاح.</Gun_Minigun.description>
+  <!-- EN: barrels -->
+  <Gun_Minigun.tools.barrels.label>مواسير</Gun_Minigun.tools.barrels.label>
+  <!-- EN: minigun -->
+  <Gun_Minigun.verbs.Verb_Shoot.label>مينيغان</Gun_Minigun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: pump shotgun -->
+  <Gun_PumpShotgun.label>بندقية صيد بمضخة</Gun_PumpShotgun.label>
+  <!-- EN: An ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range. -->
+  <Gun_PumpShotgun.description>تصميم قديم لبندقية صيد تطلق رذاذًا كثيفًا من الكريات. مميتة، لكنها قصيرة المدى.</Gun_PumpShotgun.description>
+  <!-- EN: stock -->
+  <Gun_PumpShotgun.tools.stock.label>أخمص</Gun_PumpShotgun.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_PumpShotgun.tools.barrel.label>ماسورة</Gun_PumpShotgun.tools.barrel.label>
+  <!-- EN: pump shotgun -->
+  <Gun_PumpShotgun.verbs.Verb_Shoot.label>بندقية صيد بمضخة</Gun_PumpShotgun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: revolver -->
+  <Gun_Revolver.label>مسدس دوار</Gun_Revolver.label>
+  <!-- EN: An ancient pattern double-action revolver. It's not very powerful, but has a decent range for a pistol and is quick on the draw. -->
+  <Gun_Revolver.description>مسدس دوار مزدوج الفعل من نمط قديم. إنه ليس قويًا جدًا، لكن لديه مدى مناسب لمسدس وهو سريع في التلقيم.</Gun_Revolver.description>
+  <!-- EN: grip -->
+  <Gun_Revolver.tools.grip.label>قبضة</Gun_Revolver.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_Revolver.tools.barrel.label>ماسورة</Gun_Revolver.tools.barrel.label>
+  <!-- EN: revolver -->
+  <Gun_Revolver.verbs.Verb_Shoot.label>مسدس دوار</Gun_Revolver.verbs.Verb_Shoot.label>
+  
+  <!-- EN: smoke launcher -->
+  <Gun_SmokeLauncher.label>قاذف دخان</Gun_SmokeLauncher.label>
+  <!-- EN: A wide-barreled smoke shell launcher. The shell will upon impact release a cloud of smoke, obscuring incoming shots and preventing turrets from locking on. -->
+  <Gun_SmokeLauncher.description>قاذف قذائف دخان واسع الماسورة. ستطلق القذيفة عند الاصطدام سحابة من الدخان، مما يحجب الطلقات القادمة ويمنع الأبراج من التثبيت.</Gun_SmokeLauncher.description>
+  <!-- EN: stock -->
+  <Gun_SmokeLauncher.tools.stock.label>أخمص</Gun_SmokeLauncher.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SmokeLauncher.tools.barrel.label>ماسورة</Gun_SmokeLauncher.tools.barrel.label>
+  <!-- EN: smoke launcher -->
+  <Gun_SmokeLauncher.verbs.Verb_Shoot.label>قاذف دخان</Gun_SmokeLauncher.verbs.Verb_Shoot.label>
+  
+  <!-- EN: sniper rifle -->
+  <Gun_SniperRifle.label>بندقية قنص</Gun_SniperRifle.label>
+  <!-- EN: An ancient design of precision sniper rifle. Bolt action. It has an exceptionally long range, great accuracy and good power. Because it's so unwieldy, other weapons outclass it at close range. -->
+  <Gun_SniperRifle.description>تصميم قديم لبندقية قنص دقيقة. برغي. لديها مدى طويل بشكل استثنائي ودقة كبيرة وقوة جيدة. لأنها أخرق جدًا، تتفوق عليها الأسلحة الأخرى على المدى القريب.</Gun_SniperRifle.description>
+  <!-- EN: stock -->
+  <Gun_SniperRifle.tools.stock.label>أخمص</Gun_SniperRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SniperRifle.tools.barrel.label>ماسورة</Gun_SniperRifle.tools.barrel.label>
+  <!-- EN: sniper rifle -->
+  <Gun_SniperRifle.verbs.Verb_Shoot.label>بندقية قنص</Gun_SniperRifle.verbs.Verb_Shoot.label>
+  
+</LanguageData>

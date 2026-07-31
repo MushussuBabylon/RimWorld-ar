@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Convert ideo attempt -->
+  <!-- EN: Conversion -->
+  <LetterLabelConvertIdeoAttempt_Success>تحويل</LetterLabelConvertIdeoAttempt_Success>
+  <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
+  <LetterConvertIdeoAttempt_Success>نجح {INITIATOR_nameDef} في تحويل {RECIPIENT_nameDef} من {OLDIDEO_name} إلى {IDEO_name}.</LetterConvertIdeoAttempt_Success>
+
+  <!-- Slave rebellion -->
+  <!-- EN: Grand slave rebellion -->
+  <LetterLabelGrandSlaveRebellion>تمرد عبيد كبير</LetterLabelGrandSlaveRebellion>
+  <!-- EN: A grand slave rebellion has begun! All of your slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{0} -->
+  <LetterGrandSlaveRebellion>بدأ تمرد عبيد كبير! جميع عبيدك ينتفضون للقتال ضدك. سيبحثون عن الأسلحة ويحاولون القضاء على مستعمريك.\n\nهؤلاء العبيد مشتركون:\n\n{0}</LetterGrandSlaveRebellion>
+  <!-- EN: Local slave rebellion -->
+  <LetterLabelLocalSlaveRebellion>تمرد عبيد محلي</LetterLabelLocalSlaveRebellion>
+  <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
+  <LetterLocalSlaveRebellion>بدأ تمرد عبيد محلي! {0_nameDef} وبعض العبيد القريبين ينتفضون للقتال ضدك. سيبحثون عن الأسلحة ويحاولون القضاء على مستعمريك.\n\nهؤلاء العبيد مشتركون:\n\n{1}</LetterLocalSlaveRebellion> 
+  <!-- EN: Slave rebellion -->
+  <LetterLabelSingleSlaveRebellion>تمرد عبد</LetterLabelSingleSlaveRebellion>
+  <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
+  <LetterSingleSlaveRebellion>يتمرد {0_nameDef}! سيبحث {0_pronoun} عن الأسلحة ويحاول القضاء على مستعمريك.</LetterSingleSlaveRebellion>
+
+  <!-- Slave escape -->
+  <!-- EN: Grand slave escape -->
+  <LetterLabelGrandSlaveEscape>هروب عبيد كبير</LetterLabelGrandSlaveEscape>
+  <!-- EN: A grand slave escape has begun! All of your slaves are making a break for it.\n\nThese slaves are involved:\n\n{0} -->
+  <LetterGrandSlaveEscape>بدأ هروب عبيد كبير! جميع عبيدك يحاولون الفرار.\n\nهؤلاء العبيد مشتركون:\n\n{0}</LetterGrandSlaveEscape>
+  <!-- EN: Local slave escape -->
+  <LetterLabelLocalSlaveEscape>هروب عبيد محلي</LetterLabelLocalSlaveEscape>
+  <!-- EN: A local slave escape has begun! {0_nameDef} and some nearby slaves are making a break for it.\n\nThese slaves are involved:\n\n{1} -->
+  <LetterLocalSlaveEscape>بدأ هروب عبيد محلي! {0_nameDef} وبعض العبيد القريبين يحاولون الفرار.\n\nهؤلاء العبيد مشتركون:\n\n{1}</LetterLocalSlaveEscape>
+  <!-- EN: Slave escape -->
+  <LetterLabelSingleSlaveEscape>هروب عبد</LetterLabelSingleSlaveEscape>
+  <!-- EN: {0_nameDef} is attempting to escape! -->
+  <LetterSingleSlaveEscape>يحاول {0_nameDef} الهرب!</LetterSingleSlaveEscape>
+
+  <!-- EN: Slaves are more likely to rebel when their suppression level is low. -->
+  <SlaveRebellionSuppressionExplanation>يكون العبيد أكثر عرضة للتمرد عندما يكون مستوى الكبت لديهم منخفضًا.</SlaveRebellionSuppressionExplanation>
+  
+  <!-- Ideo role -->
+  <!-- EN: {0} role activated -->
+  <LetterLabelRoleActive>تفعيل دور {0}</LetterLabelRoleActive>
+  <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, use the person's Social tab, or select a ritual spot or altar and press the 'Begin role change' button. -->
+  <LetterLabelRoleActiveDesc>بلغ عدد {0}s في مستعمرتك {1}. يمكنك الآن تعيين دور {ROLE_labelDef} لأحد مستعمريك.\n\nلتعيين دور، استخدم علامة تبويب اجتماعي للشخص، أو اختر بقعة طقس أو مذبح واضغط على زر 'ابدأ تغيير الدور'.</LetterLabelRoleActiveDesc>
+
+  <!-- EN: {0} role deactivated -->
+  <LetterLabelRoleInactive>تعطيل دور {0}</LetterLabelRoleInactive>
+  <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
+  <LetterLabelRoleInactiveDesc>انخفض عدد {0}s في مستعمرتك إلى {1}. لم يعد دور {ROLE_labelDef} نشطًا. سيصبح هذا الدور متاحًا مرة أخرى عندما يصل عدد {0}s إلى {2}.</LetterLabelRoleInactiveDesc>
+
+  <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
+  <LetterLabelRoleLost>فقد {PAWN_labelShort} لدور {ROLE_labelIndef}</LetterLabelRoleLost>
+  <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
+  <LetterRoleLostDesc>لم يعد {PAWN_labelShort} يحمل دور {ROLE_labelIndef}. السبب:</LetterRoleLostDesc>
+  <!-- EN: {PAWN_pronoun} was unassigned. -->
+  <LetterRoleLostReasonUnassignedDesc>تم إلغاء تعيين {PAWN_pronoun}.</LetterRoleLostReasonUnassignedDesc>
+  <!-- EN: Role became inactive due to low {0} count. -->
+  <LetterRoleLostReasonLowBelieversDesc>أصبح الدور غير نشط بسبب انخفاض عدد {0}.</LetterRoleLostReasonLowBelieversDesc>
+  <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
+  <LetterRoleLostLetterIdeoChangedPostfix>فقد {PAWN_labelShort} منصبه كـ {ROLE_labelDef} لأن {PAWN_pronoun} تخلى عن {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
+  <!-- EN: {0} skipped -->
+  <LetterObligationRoleInactive>تم تخطي {0}</LetterObligationRoleInactive>
+  <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
+  <LetterObligationRoleInactiveDateDesc>{0} هو تاريخ {1}، ولكن نظرًا لأن دور {ROLE_labelDef} غير نشط، سيتخطى {2}s {1}.</LetterObligationRoleInactiveDateDesc>
+  
+  <!-- Ideo misc -->
+  <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
+  <LetterSpeechConvertedListeners>خطاب {PAWN_pronoun} حول الأشخاص التاليين إلى {IDEO}</LetterSpeechConvertedListeners>
+
+  <!-- EN: {0} rituals activated -->
+  <LetterTitleObligationsActivated>تفعيل {0} طقس</LetterTitleObligationsActivated>
+  <!-- EN: {0} rituals deactivated -->
+  <LetterTitleObligationsDeactivated>تعطيل {0} طقس</LetterTitleObligationsDeactivated>
+  <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
+  <LetterTitleObligationsDeactivatedTooFewBelievers>يوجد الآن أقل من {1} {IDEO_memberNamePlural} في فصيلك. لذلك، لن يطالب {IDEO_memberNamePlural} بتنفيذ طقوس {IDEO} حتى يصبح هناك {1} منهم على الأقل في فصيلك.</LetterTitleObligationsDeactivatedTooFewBelievers>
+  <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
+  <LetterTitleObligationsActivatedEnoughBelievers>بما أنه يوجد الآن {1} {IDEO_memberNamePlural} في فصيلك، فسيطالبون بتنفيذ طقوس {IDEO}.</LetterTitleObligationsActivatedEnoughBelievers>
+  <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
+  <LetterTitleObligationsActivatedIdeoBecameMajor>بما أن {IDEO} أصبحت العقيدة الأساسية لفصيلك، فسيطالب {IDEO_memberNamePlural} بتنفيذ طقوس {IDEO}.</LetterTitleObligationsActivatedIdeoBecameMajor>
+
+  <!-- EN: Bond(s) removed -->
+  <LetterBondRemoved>إزالة رابط (روابط)</LetterBondRemoved>
+  <!-- EN: {PAWN_nameDef} has converted to {IDEO}. Since {IDEO} disapproves of bonding with animals, {PAWN_pronoun} has renounced {PAWN_possessive} bonds with the following animals:\n\n{BONDS} -->
+  <LetterBondRemovedDesc>اعتنق {PAWN_nameDef} {IDEO}. نظرًا لأن {IDEO} لا توافق على الارتباط بالحيوانات، فقد تخلى {PAWN_pronoun} عن روابط {PAWN_possessive} مع الحيوانات التالية:\n\n{BONDS}</LetterBondRemovedDesc>
+
+  <!-- Slave will -->
+  <!-- EN: Enslaved -->
+  <LetterLabelEnslavementSuccess>تم الاستعباد</LetterLabelEnslavementSuccess>
+  <!-- EN: {0_nameDef} successfully enslaved {1_nameDef}. -->
+  <LetterEnslavementSuccess>نجح {0_nameDef} في استعباد {1_nameDef}.</LetterEnslavementSuccess>
+
+  <!-- Primary ideo changed -->
+  <!-- EN: Primary ideoligion changed -->
+  <LetterLabelNewPrimaryIdeo>تغيير العقيدة الأساسية</LetterLabelNewPrimaryIdeo>
+  <!-- EN: Your faction's primary ideoligion has changed from {OLDIDEO_name} to {NEWIDEO_name}.\n\nThis happened because {NEWIDEO_name} is now more common among your {FACTION_pawnsPlural} than any other ideoligion.\n\nYour primary ideoligion affects relationships with other factions, based on how closely your beliefs align with theirs. -->
+  <LetterNewPrimaryIdeo>تغيرت العقيدة الأساسية لفصيلك من {OLDIDEO_name} إلى {NEWIDEO_name}.\n\nحدث هذا لأن {NEWIDEO_name} أصبحت الآن الأكثر شيوعًا بين {FACTION_pawnsPlural} مقارنة بأي عقيدة أخرى.\n\nتؤثر عقيدتك الأساسية على العلاقات مع الفصائل الأخرى، بناءً على مدى توافق معتقداتك مع معتقداتهم.</LetterNewPrimaryIdeo>
+
+  <!-- Charity incidents -->
+  <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
+  <JoinerCharityInfo>هذه حادثة خيرية. إذا رفضت {0}، سيصبح المؤمنون ذوو المعتقدات الخيرية غير سعداء.</JoinerCharityInfo>
+  <!-- EN: This is a charity incident. If {0} dies without being tended (and after {1}), believers with charitable beliefs will be unhappy. If {0} is tended or recruited, believers will be happy. -->
+  <AfflictedJoinerChartityInfo>هذه حادثة خيرية. إذا مات {0} دون أن يُعالج (وبعد {1})، سيصبح المؤمنون ذوو المعتقدات الخيرية غير سعداء. إذا تم علاج {0} أو تجنيده، سيكون المؤمنون سعداء.</AfflictedJoinerChartityInfo>
+  <!-- EN: The following believers have charitable beliefs -->
+  <PawnsHaveCharitableBeliefs>المؤمنون التاليون لديهم معتقدات خيرية</PawnsHaveCharitableBeliefs>
+
+  <!-- Change ideo mental state -->
+  <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
+  <LetterIdeoChangeConverted>قرر {PAWN_pronoun} أن إيمان {PAWN_possessive} بـ {OLDIDEO_name} لم يعد منطقيًا.\n\nيؤمن {PAWN_pronoun} الآن بـ {NEWIDEO_name}.</LetterIdeoChangeConverted>
+  <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
+  <LetterIdeoChangeNotConverted>انخفض يقين {PAWN_nameDef} بإيمان {PAWN_possessive} بـ {OLDIDEO_name} إلى {NEWCERTAINTY}.</LetterIdeoChangeNotConverted>
+  <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
+  <LetterIdeoChangedWanderOwnRoom>للتكيف مع معتقدات {PAWN_possessive}، يختبئ {PAWN_nameDef} الآن في غرفة {PAWN_possessive}.</LetterIdeoChangedWanderOwnRoom>
+  <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
+  <LetterIdeoChangedSadWander>يتجول {PAWN_nameDef} الآن في حالة صدمة بينما يتصارع مع معتقدات {PAWN_possessive}.</LetterIdeoChangedSadWander>
+
+  <!-- Change ideo divorces -->
+  <!-- EN: Divorce -->
+  <LetterIdeoChangedDivorce>طلاق</LetterIdeoChangedDivorce>
+  <!-- EN: {PAWN_nameDef}'s new beliefs forbid {PAWN_possessive} current number of spouses.\n\n{PAWN_nameDef} has decided to divorce these people:\n{1} -->
+  <LetterIdeoChangedDivorcedPawns>تمنع معتقدات {PAWN_nameDef} الجديدة العدد الحالي من الأزواج.\n\nقرر {PAWN_nameDef} تطليق هؤلاء الأشخاص:\n{1}</LetterIdeoChangedDivorcedPawns>
+
+  <!-- Surprise reinforcement -->
+  <!-- EN: Surprise reinforcements! -->
+  <LetterLabelSurpriseReinforcements>تعزيزات مفاجئة!</LetterLabelSurpriseReinforcements>
+  <!-- EN: Surprise reinforcements from {1} have arrived! They are moving to help {0} from {1}. -->
+  <LetterSurpriseReinforcements>وصلت تعزيزات مفاجئة من {1}! إنهم يتحركون لمساعدة {0} من {1}.</LetterSurpriseReinforcements>
+
+  <!-- Style change -->
+  <!-- EN: Look change desired -->
+  <LetterWantLookChange>تغيير المظهر مطلوب</LetterWantLookChange>
+  <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
+  <LetterWantLookChangeDesc>يرغب {PAWN_nameDef} في تغيير مظهر {PAWN_possessive}، لأنه لم يعد يتطابق مع ما يعتقده {PAWN_pronoun}.\n\nسيستخدم {PAWN_pronoun} محطة التصفيف المتاحة تلقائيًا ويختار مظهرًا. إذا كنت تريد تخصيص مظهر {PAWN_possessive}، فحدد {PAWN_objective} وانقر بزر الماوس الأيمن على محطة التصفيف.</LetterWantLookChangeDesc>
+
+  <!-- Spacedrone incoming -->
+  <!-- EN: Spacedrone incoming -->
+  <LetterLabelSpacedroneIncoming>درون فضائي قادم</LetterLabelSpacedroneIncoming>
+  <!-- EN: A spacedrone is landing nearby. -->
+  <LetterTextSpacedroneIncoming>درون فضائي يهبط بالقرب.</LetterTextSpacedroneIncoming>
+  <!-- EN: A raid from {0} has arrived to destroy the {1} that was forced to land nearby. -->
+  <LetterTextRaidSpacedrone>وصلت غارة من {0} لتدمير {1} الذي أُجبر على الهبوط بالقرب.</LetterTextRaidSpacedrone>
+
+  <!-- Hacked -->
+  <!-- EN: You've finished hacking the {0} and learned more about the ancient {1} relic. -->
+  <LetterTextSpacedroneHacked>لقد انتهيت من اختراق {0} وعرفت المزيد عن الأثر القديم {1}.</LetterTextSpacedroneHacked>
+
+  <!-- Relic destroyed -->
+  <!-- EN: Relic destroyed -->
+  <LetterLabelRelicDestroyed>تم تدمير الأثر</LetterLabelRelicDestroyed>
+  <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
+  <LetterTextRelicDestroyed>تم تدمير {0}!\n\nسيعاني الأشخاص التاليون من انخفاض في المزاج:\n{1}</LetterTextRelicDestroyed>
+  
+  <!-- Relic lost -->
+  <!-- EN: Relic lost -->
+  <LetterLabelRelicLost>فُقد الأثر</LetterLabelRelicLost>
+  <!-- EN: {0} has been lost!\n\nThe following people will suffer a mood reduction:\n{1} -->
+  <LetterTextRelicLost>فُقد {0}!\n\nسيعاني الأشخاص التاليون من انخفاض في المزاج:\n{1}</LetterTextRelicLost>
+
+  <!-- Caravan destroyed -->
+  <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disabanded. -->
+  <LetterOnlySlaveCaravanColonistsLeft>مات جميع أعضاء {0} غير العبيد. غادر العبيد الباقون. تفككت القافلة.</LetterOnlySlaveCaravanColonistsLeft>
+
+  <!-- Hacker lost -->
+  <!-- EN: Last hacker lost -->
+  <LetterLabelLastHackerLost>فُقد آخر مخترق</LetterLabelLastHackerLost>
+  <!-- EN: The last hacker capable of unlocking the secrets of the ancient complex has been lost. Call reinforcements capable of hacking, or abandon the quest. -->
+  <LetterTextLastHackerLost>فُقد آخر مخترق قادر على كشف أسرار المجمع القديم. استدع تعزيزات قادرة على الاختراق، أو تخلى عن المهمة.</LetterTextLastHackerLost>
+
+  <!-- Relic hunt -->
+  <!-- EN: Relic found -->
+  <LetterLabelRelicFound>تم العثور على الأثر</LetterLabelRelicFound>
+  <!-- EN: You've finally learned the location of the relic {0}! -->
+  <LetterTextRelicFoundLocation>عرفت أخيرًا موقع الأثر {0}!</LetterTextRelicFoundLocation>
+  <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
+  <LetterTextRelicFoundSecurityThreats>الأثر موجود في هيكل قديم. إنه محمي بنظام أمني بوحدات مستقلة متعددة. يمكنك اختيار هزيمة قوات الأمن وحدة تلو الأخرى قبل أخذ الأثر، أو محاولة الإمساك به والفرار قبل أن يتمكنوا من إيذائك.\n\nبعد {0}، سيتم تنبيه جميع أنظمة الأمان.</LetterTextRelicFoundSecurityThreats>
+
+  <!-- Relics collection -->
+  <!-- EN: Relics collected -->
+  <LetterLabelRelicsCollected>تم جمع الآثار</LetterLabelRelicsCollected>
+  <!-- EN: All relics belonging to {0} have been collected. The following people will be delighted -->
+  <LetterTextRelicsCollected>تم جمع جميع الآثار التابعة لـ {0}. سيكون الأشخاص التاليون مسرورين</LetterTextRelicsCollected>
+  <!-- EN: You have collected all the known relics of this world. The following people will be delighted -->
+  <LetterTextRelicsCollectedClassic>لقد جمعت جميع الآثار المعروفة لهذا العالم. سيكون الأشخاص التاليون مسرورين</LetterTextRelicsCollectedClassic>
+
+  <!-- Gauranlen tree connection -->
+  <!-- EN: {TREE_label} connection -->
+  <LetterLabelPawnConnected>اتصال {TREE_label}</LetterLabelPawnConnected>
+  <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
+  <LetterTextPawnConnected>اتصل {CONNECTOR_nameDef} مع {TREE_definite}.\n\nستنتج {TREE_definite} حيوانات صغيرة تسمى درياد بتنميتها في قرون عند قاعدتها. يمكن لهذه الدرياد أن تتخصص في طوائف مختلفة. يمكنك اختيار أي طائفة من الدرياد تريد للشجرة أن تنتجها.\n\nكلما كانت العلاقة بين الشجرة والإنسان أقوى، زاد عدد الدرياد التي تستطيع {TREE_definite} دعمها. يمكن لـ {CONNECTOR_nameDef} تقوية العلاقة بتقليم {TREE_definite}. الحفاظ على قوة اتصال أعلى يتطلب تقليمًا أكثر تكرارًا.</LetterTextPawnConnected>
+  <!-- EN: Connected {TREE_label} destroyed -->
+  <LetterLabelConnectedTreeDestroyed>تدمير {TREE_label} المتصلة</LetterLabelConnectedTreeDestroyed>
+  <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
+  <LetterTextConnectedTreeDestroyed>تم تدمير {TREE_label} المتصلة بـ {CONNECTEDPAWN_nameDef}، مما أدى إلى مقتل ملكة الدرياد الموجودة بداخلها.\n\nبدون الملكة، انهار العقل الجماعي للدرياد. ماتت جميع الدرياد من تلك الشجرة.</LetterTextConnectedTreeDestroyed>
+
+  <!-- Archonexus victory -->
+  <!-- EN: Quest '{0}' available -->
+  <LetterLabelArchonexusWealthReached>المهمة '{0}' متاحة</LetterLabelArchonexusWealthReached>
+  <!-- EN: You have reached the wealth requirement for the quest '{0}'. You can now accept the quest. -->
+  <LetterTextArchonexusWealthReached>لقد وصلت إلى متطلب الثروة للمهمة '{0}'. يمكنك الآن قبول المهمة.</LetterTextArchonexusWealthReached>
+  <!-- EN: {0_labelShort} studied -->
+  <LetterLabelArchonexusStructureResearched>تمت دراسة {0_labelShort}</LetterLabelArchonexusStructureResearched>
+  <!-- EN: You have completed your study of the {0_labelShort}.\n\nYou can't say that you understand it in any complete way, but you have detected patterns in its behavior and the way it seems to express information.\n\nWith this knowledge, you will be able to interpret the next piece of the archonexus map. -->
+  <LetterTextArchonexusStructureResearched>لقد أكملت دراستك لـ {0_labelShort}.\n\nلا يمكنك القول إنك تفهمه تمامًا، لكنك اكتشفت أنماطًا في سلوكه وطريقة التعبير عن المعلومات.\n\nبهذه المعرفة، ستتمكن من تفسير القطعة التالية من خريطة الأركونيكسس.</LetterTextArchonexusStructureResearched>
+  <!-- EN: Archotech structures abandoned -->
+  <LetterLabelArchotechStructuresAbandoned>تم التخلي عن الهياكل الأركوتكية</LetterLabelArchotechStructuresAbandoned>
+  <!-- EN: You have abandoned the archotech structures at {0_definite}.\n\nDistant observers say they saw a great flash emanating from this location not long after you left. -->
+  <LetterTextArchotechStructuresAbandoned>لقد تخليت عن الهياكل الأركوتكية في {0_definite}.\n\nيقول المراقبون البعيدون إنهم رأوا وميضًا عظيمًا ينبعث من هذا الموقع بعد فترة ليست طويلة من مغادرتك.</LetterTextArchotechStructuresAbandoned>
+
+  <!-- Reforming ideo -->
+  <!-- EN: Reform ideoligion -->
+  <LetterLabelReformIdeo>تعديل العقيدة</LetterLabelReformIdeo>
+  <!-- EN: You have enough development points to reform {0}!\n\nReforming allows you to do one of the following:\n\n- Add a meme\n- Remove a meme\n- Change structure\n- Change style\n\nYou can also make unlimited changes to precepts, deities, narrative text, and other symbols.\n\nTo reform the ideoligion, open it in the ideoligions tab. -->
+  <LetterTextReformIdeo>لديك نقاط تطوير كافية لتعديل {0}!\n\nيسمح لك التعديل بالقيام بأحد الأمور التالية:\n\n- إضافة ميم\n- إزالة ميم\n- تغيير الهيكل\n- تغيير الأسلوب\n\nيمكنك أيضًا إجراء تغييرات غير محدودة على الوصايا والآلهة والنص السردي والرموز الأخرى.\n\nلتعديل العقيدة، افتحها في علامة تبويب العقائد.</LetterTextReformIdeo>
+
+</LanguageData>

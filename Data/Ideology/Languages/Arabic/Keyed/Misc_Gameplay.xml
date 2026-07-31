@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Customize ideoligion -->
+  <CustomizeIdeoligion>تخصيص العقيدة</CustomizeIdeoligion>
+  <!-- EN: Choose your ideoligion -->
+  <ChooseYourIdeoligion>اختر عقيدتك</ChooseYourIdeoligion>
+  <!-- EN: A random structure will be used for your ideoligion. -->
+  <RandomStructureTip>سيتم استخدام هيكل عشوائي لعقيدتك.</RandomStructureTip>
+  <!-- EN: A random style will be used for your ideoligion. -->
+  <RandomStyleTip>سيتم استخدام أسلوب عشوائي لعقيدتك.</RandomStyleTip>
+  <!-- EN: Ideology system inactive -->
+  <PlayClassic>نظام العقائد غير نشط</PlayClassic>
+  <!-- EN: Create custom\n(fluid) -->
+  <CreateCustomFluid>إنشاء مخصص\n(متغير)</CreateCustomFluid>
+  <!-- EN: Create custom\n(fixed) -->
+  <CreateCustomFixed>إنشاء مخصص\n(ثابت)</CreateCustomFixed>
+  <!-- EN: Custom ideoligions -->
+  <CustomIdeoligions>عقائد مخصصة</CustomIdeoligions>
+  <!-- EN: Load saved -->
+  <LoadSaved>تحميل محفوظ</LoadSaved>
+  <!-- EN: Structure -->
+  <Structure>الهيكل</Structure>
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <ChooseYourIdeoligionDesc>بماذا يجب أن يؤمن مستعمروك المبتدئين؟ تؤثر هذه المعتقدات على أسلوب اللعب والمرئيات. ستتمكن من تجنيد الآخرين لمعتقداتك، أو اعتناق معتقداتهم.</ChooseYourIdeoligionDesc>
+  <!-- EN: Create custom -->
+  <CreateCustom>إنشاء مخصص</CreateCustom>
+  <!-- EN: Delete custom -->
+  <DeleteCustom>حذف مخصص</DeleteCustom>
+  <!-- EN: Create new -->
+  <CreateNew>إنشاء جديد</CreateNew>
+  <!-- EN: Create fluid -->
+  <CreateFluid>إنشاء متغير</CreateFluid>
+  <!-- EN: Load existing -->
+  <LoadExisting>تحميل موجود</LoadExisting>
+  <!-- EN: Create custom ideoligion -->
+  <CreateCustomIdeoligion>إنشاء عقيدة مخصصة</CreateCustomIdeoligion>
+  <!-- EN: Custom ideoligion -->
+  <CustomIdeoligionSectionHeader>عقيدة مخصصة</CustomIdeoligionSectionHeader>
+  <!-- EN: Faction ideoligions -->
+  <FactionIdeoligionSectionHeader>عقائد الفصائل</FactionIdeoligionSectionHeader>
+  <!-- EN: Load saved ideoligion -->
+  <LoadExistingIdeoligion>تحميل عقيدة محفوظة</LoadExistingIdeoligion>
+  <!-- EN: Select an ideoligion for your faction on the left, or -->
+  <SelectAnIdeo>اختر عقيدة لفصيلك على اليسار، أو</SelectAnIdeo>
+  <!-- EN: ideoligion -->
+  <Ideo>عقيدة</Ideo> 
+  <!-- EN: Randomize all -->
+  <RandomizeAll>عشوائية الكل</RandomizeAll>
+  <!-- EN: Appearance -->
+  <Appearance>المظهر</Appearance>
+  <!-- EN: Done -->
+  <DoneButton>تم</DoneButton>
+  <!-- EN: Belief in -->
+  <BeliefInIdeo>الإيمان بـ</BeliefInIdeo>
+  <!-- EN: Information about {0} -->
+  <Reward_RelicInfo>معلومات عن {0}</Reward_RelicInfo>
+  <!-- EN: Info about {0} -->
+  <Reward_RelicInfoLabel>معلومات عن {0}</Reward_RelicInfoLabel>
+  <!-- EN: Relic of {IDEO_name} -->
+  <RelicOf>أثر {IDEO_name}</RelicOf>
+  <!-- EN: altar -->
+  <Altar>مذبح</Altar>
+  <!-- EN: base -->
+  <Base>قاعدة</Base>
+  <!-- EN: min expectation -->
+  <MinExpectation>الحد الأدنى للتوقعات</MinExpectation>
+  <!-- EN: {0} to {1} -->
+  <PreceptThoughtMoodRange>{0} إلى {1}</PreceptThoughtMoodRange>
+  <!-- EN: Comes from ideo -->
+  <ComesFromIdeo>يأتي من العقيدة</ComesFromIdeo>
+  <!-- EN: Current total animal bodysize per colonist -->
+  <CurrentTotalAnimalBodySizePerColonist>إجمالي حجم جسم الحيوانات الحالي لكل مستعمر</CurrentTotalAnimalBodySizePerColonist>
+  <!-- EN: total bodysize per colonist -->
+  <AnimalsBodySizePerColonist>إجمالي حجم الجسم لكل مستعمر</AnimalsBodySizePerColonist>
+  <!-- EN: total nearby bodysize per colonist -->
+  <VeneratedAnimalsBodySizePerColonist>إجمالي حجم الجسم القريب لكل مستعمر</VeneratedAnimalsBodySizePerColonist>
+  <!-- EN: Expecting at least {0} body size per colonist. -->
+  <MinAnimalBodySizePerColonist>يُتوقع حجم جسم لا يقل عن {0} لكل مستعمر.</MinAnimalBodySizePerColonist>
+  <!-- EN: Disables -->
+  <Disables>يعطل</Disables>
+  <!-- EN: Requires one of precepts -->
+  <RequiresOnePrecept>يتطلب إحدى الوصايا</RequiresOnePrecept>
+  <!-- EN: Required precepts -->
+  <RequiredPrecepts>وصايا مطلوبة</RequiredPrecepts>
+  <!-- EN: Required rituals -->
+  <RequiredRituals>طقوس مطلوبة</RequiredRituals>
+  <!-- EN: Prevents precepts -->
+  <PreventsPrecepts>يمنع الوصايا</PreventsPrecepts>
+  <!-- EN: Styles -->
+  <Styles>أساليب</Styles>
+  <!-- EN: Chance to have precept -->
+  <ChanceToHavePrecept>فرصة امتلاك الوصية</ChanceToHavePrecept>
+  <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <FavoriteColorTooltip>اللون المفضل لـ {PAWN_labelShort}: {COLOR}\nامتلاك أكثر من {PERCENTAGE} من ملابس {PAWN_possessive} بهذا اللون{ORIDEO} سيجعل {PAWN_objective} أكثر سعادة قليلاً.\n\nيمكنك تغيير ألوان الملابس في محطة التصفيف باستخدام صبغة التينكتوريا.</FavoriteColorTooltip>
+  <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
+  <OrIdeoColor>، أو لون عقيدة {PAWN_possessive}،</OrIdeoColor>
+  <!-- EN: Set ideo color -->
+  <SetIdeoColor>تعيين لون العقيدة</SetIdeoColor>
+  <!-- EN: Set to favorite color -->
+  <SetFavoriteColor>تعيين إلى اللون المفضل</SetFavoriteColor>
+  <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <FavoriteColorPickerTip>اللون المفضل لـ {PAWN_nameDef}. امتلاك أكثر من 60% من ملابس {PAWN_possessive} بهذا اللون، أو لون عقيدة {PAWN_possessive}، سيجعل {PAWN_objective} أكثر سعادة قليلاً.</FavoriteColorPickerTip>
+  <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <IdeoColorPickerTip>لون عقيدة {PAWN_nameDef}. امتلاك أكثر من 60% من ملابس {PAWN_possessive} بهذا اللون، أو لون {PAWN_possessive} المفضل، سيجعل {PAWN_objective} أكثر سعادة قليلاً.</IdeoColorPickerTip>
+  <!-- EN: Configure your faction's ideoligion -->
+  <ConfigureIdeoligion>تكوين عقيدة فصيلك</ConfigureIdeoligion>
+  <!-- EN: Not enough dye. -->
+  <NotEnoughDye>لا توجد صبغة كافية.</NotEnoughDye>
+  <!-- EN: {PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}. -->
+  <ApparelLockedCannotRecolor>{PAWN_nameDef} غير مستعد لإعادة تلوين {APPAREL_labelShort} الخاص بـ {PAWN_possessive}.</ApparelLockedCannotRecolor>
+  <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
+  <NotEnoughDyeWillRecolorApparel>سيعيد المستعمر تلوين الملابس عندما تتوفر الصبغة.</NotEnoughDyeWillRecolorApparel>
+  <!-- EN: The colonist will recolor their hair when dye becomes available. -->
+  <NotEnoughDyeWillRecolorHair>سيعيد المستعمر تلوين شعره عندما تتوفر الصبغة.</NotEnoughDyeWillRecolorHair>
+  <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
+  <IdeoCertaintyTooltip>يقين {PAWN_labelShort} في {IDEO} هو {PERCENTAGE}</IdeoCertaintyTooltip>
+  <!-- EN: Disabled by precept {0} -->
+  <DisabledByPrecept>معطل بالوصية {0}</DisabledByPrecept>
+  <!-- EN: Everyone -->
+  <Everyone>الجميع</Everyone>
+  <!-- EN: Narrative -->
+  <Narrative>السرد</Narrative>
+  <!-- EN: narrative -->
+  <NarrativeLower>سرد</NarrativeLower>
+  <!-- EN: Precept name -->
+  <PreceptName>اسم الوصية</PreceptName>
+  <!-- EN: precept name -->
+  <PreceptNameLower>اسم الوصية</PreceptNameLower>
+  <!-- EN: Changing {0} -->
+  <Changing>تغيير {0}</Changing>
+  <!-- EN: structures -->
+  <StructuresLower>هياكل</StructuresLower>
+  <!-- EN: memes -->
+  <MemesLower>ميمات</MemesLower>
+  <!-- EN: Development points -->
+  <Reward_DevelopmentPointsLabel>نقاط تطوير</Reward_DevelopmentPointsLabel>
+  <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals. -->
+  <Reward_DevelopmentPoints>ستزداد نقاط تطويرك لـ {0} بمقدار {1}.\n\nلديك حالياً {2} نقطة تطوير. بمجرد حصولك على {3} نقطة تطوير يمكنك تعديل العقيدة.\n\nاكسب نقاط تطوير إضافية بإكمال مهام وطقوس أخرى.</Reward_DevelopmentPoints>
+  <!-- EN: Current points -->
+  <CurrentDevelopmentPoints>النقاط الحالية</CurrentDevelopmentPoints>
+  <!-- EN: Points needed to reform -->
+  <ReformDevelopmentPoints>النقاط المطلوبة للتعديل</ReformDevelopmentPoints>
+  <!-- EN: quest -->
+  <QuestLower>مهمة</QuestLower>
+  <!-- EN: Vegetarian -->
+  <MealKindVegetarian>نباتي</MealKindVegetarian>
+  <!-- EN: Contains meat -->
+  <MealKindMeat>يحتوي على لحم</MealKindMeat>
+  <!-- EN: Acceptable food for everyone -->
+  <MealKindAny>طعام مقبول للجميع</MealKindAny>
+  <!-- EN: this outfit -->
+  <WearingDesiredApparelMulti>هذا الزي</WearingDesiredApparelMulti>
+
+  <!-- EN: Could not load ideoligion -->
+  <UnableToLoadIdeoTitle>تعذر تحميل العقيدة</UnableToLoadIdeoTitle>
+  <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
+  <UnableToLoadIdeoDescription>تعذر تحميل العقيدة المختارة بسبب متطلبات الفصائل التي ستتبع هذه العقيدة. المتطلبات المنتهكة هي:</UnableToLoadIdeoDescription>
+  <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeNotAllowed>الميم {MEME} غير مسموح به لفصائل {FACTIONTYPE}</UnableToLoadIdeoMemeNotAllowed>
+  <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeRequired>الميم {MEME} مطلوب لفصائل {FACTIONTYPE}</UnableToLoadIdeoMemeRequired>
+  <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
+  <UnableToLoadIdeoPreceptNotAllowed>الوصية {PRECEPT} غير مسموح بها للفصائل غير اللاعبة</UnableToLoadIdeoPreceptNotAllowed>
+
+  <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
+  <RitualTargetGraveInfo>قبر يحتوي على جثة {PAWN_labelShort}</RitualTargetGraveInfo>
+  <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
+  <RitualTargetEmptyGraveInfo>قبر فارغ للحداد على وفاة {PAWN_labelShort}</RitualTargetEmptyGraveInfo>
+  <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
+  <RitualTargetGraveInfoAbstract>قبر يحتوي على جثة {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <!-- EN: Grave containing a corpse -->
+  <RitualTargetGraveInfoAbstractNoIdeo>قبر يحتوي على جثة</RitualTargetGraveInfoAbstractNoIdeo>
+  <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
+  <RitualTargetEmptyGraveInfoAbstract>قبر فارغ للحداد على وفاة {IDEO_memberNameIndef}</RitualTargetEmptyGraveInfoAbstract>
+  <!-- EN: {PAWN_labelShort}'s body must be buried first -->
+  <RitualTargetGraveInfoMustBeBuried>يجب دفن جسد {PAWN_labelShort} أولاً</RitualTargetGraveInfoMustBeBuried>
+  <!-- EN: Any gathering spot, like a table -->
+  <RitualTargetGatherSpotInfo>أي بقعة تجمع، مثل طاولة</RitualTargetGatherSpotInfo>
+  <!-- EN: Altar or any ritual spot. -->
+  <RitualTargetGatherAltarOrRitualSpotInfo>مذبح أو أي بقعة طقس.</RitualTargetGatherAltarOrRitualSpotInfo>
+  <!-- EN: Altar, ideogram or any ritual spot. -->
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>مذبح، أيدوجرام أو أي بقعة طقس.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
+  <!-- EN: Lightball is not powered. -->
+  <RitualTargetLightBallIsNotPowered>كرة الضوء غير مزودة بالطاقة.</RitualTargetLightBallIsNotPowered>
+  <!-- EN: No powered speakers. -->
+  <RitualTargetNoPoweredSpeakers>لا توجد مكبرات صوت مزودة بالطاقة.</RitualTargetNoPoweredSpeakers>
+  <!-- EN: Campfire is not fueled. -->
+  <RitualTargetCampfireNoFuel>نار المخيم غير مزودة بالوقود.</RitualTargetCampfireNoFuel>
+  <!-- EN: Campfire must be unroofed. -->
+  <RitualTargetCampfireMustBeUnroofed>يجب أن تكون نار المخيم غير مسقوفة.</RitualTargetCampfireMustBeUnroofed>
+  <!-- EN: No nearby drum. -->
+  <RitualTargetNoDrum>لا توجد طبلة قريبة.</RitualTargetNoDrum>
+  <!-- EN: Need at least {0} unroofed cells nearby. -->
+  <RitualTargetNeedUnroofedCells>تحتاج على الأقل {0} خلايا غير مسقوفة قريبة.</RitualTargetNeedUnroofedCells>
+  <!-- EN: a lit campfire -->
+  <RitualTargetCampfirePartyInfo>نار مخيم مشتعلة</RitualTargetCampfirePartyInfo>
+  <!-- EN: an unconnected Gauranlen tree -->
+  <RitualTargetUnconnectedGaruanlenTreeInfo>شجرة غورانلين غير متصلة</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <!-- EN: Already connected to {PAWN_nameDef} -->
+  <RitualTargetConnectedGauranlenTree>متصل بالفعل بـ {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
+  <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
+  <RitualTargetConnectionTornGauranlenTree>تم قطع اتصال {TREE_definite} مؤخراً. يمكنها الاتصال مرة أخرى خلال {1}.</RitualTargetConnectionTornGauranlenTree>
+  <!-- EN: You need {0} wood for each participant ({1} total). -->
+  <RitualTargetWoodInfo>تحتاج {0} خشب لكل مشارك ({1} إجمالاً).</RitualTargetWoodInfo>
+  <!-- EN: A participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>لا يمكن لمشارك الوصول إلى خشب كافٍ.</RitualTargetWoodInfoAppend>
+  <!-- EN: {0} participants cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppendMultiple>لا يمكن لـ {0} مشاركين الوصول إلى خشب كافٍ.</RitualTargetWoodInfoAppendMultiple>
+  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
+  <RitualTargetWoodInfoWarning>لا يمكن لـ {PAWN_labelShort} الوصول إلى خشب كافٍ.</RitualTargetWoodInfoWarning>
+  <!-- EN: {0} must be able to reach ritual target. -->
+  <RitualTargetUnreachable>يجب أن يكون {0} قادراً على الوصول إلى هدف الطقس.</RitualTargetUnreachable>
+  <!-- EN: Accuse -->
+  <Accuse>اتهام</Accuse>
+  <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
+  <RitualScarificationWarnNonScarificationIdeo>لا يؤمن {PAWN_labelShort} بالتشريط العقائدي ولن يعجبه أن يتم تشريطه.</RitualScarificationWarnNonScarificationIdeo>
+  <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
+  <RitualScarificationWarnWimp>{PAWN_labelShort} جبان ولن يعجبه أن يتم تشريطه.</RitualScarificationWarnWimp>
+  <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
+  <RitualBlindingWarnWimp>{PAWN_labelShort} جبان ولن يعجبه أن يتم تعميته.</RitualBlindingWarnWimp>
+  <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
+  <RitualScarificationTriggerExtraDesc>التشريط متوقع لـ {IDEOMEMBERPLURAL} طالما أن عدد {IDEOMEMBERPLURAL} المشَرَّطين أقل من {0}.</RitualScarificationTriggerExtraDesc>
+  <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
+  <RitualBlindingTriggerExtraDesc>التعمية متوقعة لكل مستعمر {IDEOMEMBER} حالي ومنضم.</RitualBlindingTriggerExtraDesc>
+  
+  <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
+  <RitualOutcomeExtraDesc_DancePartyWorkFocus>كل من شارك في الطقس حصل على دفعة تركيز عمل ليوم واحد ({PERCENTAGE} سرعة عمل شاملة)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
+  <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
+  <RitualOutcomeExtraDesc_BlindingPsylink>بفضل طقس تعمية مُرضٍ، اكتسب {PAWN_labelShort} مستوى رابط نفسي!</RitualOutcomeExtraDesc_BlindingPsylink>
+  <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>مع مستوى رابط نفسي جديد اكتسب {PAWN_pronoun} قدرة {0} النفسية.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
+  <RitualOutcomeExtraDesc_ConsumableInspiration>بفضل {RITUAL} مُرضٍ، اكتسب {PAWN_labelShort} {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
+  <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
+  <RitualOutcomeExtraDesc_SkylanternWanderers>فوانيس السماء خاصتك جذبت بعض المسافرين الودودين. سيزورون ويتركون هدية.</RitualOutcomeExtraDesc_SkylanternWanderers>
+  <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
+  <RitualOutcomeExtraDesc_Execution>ارتجف جميع العبيد المشاركين من منظر الموت. تم رفع كبتهم إلى أقصى مستوى.</RitualOutcomeExtraDesc_Execution>
+  
+  <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>بسبب جودة الطقس، زادت نقاط تطويرك بمقدار {2} (من {0} إلى {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Can't award development points beyond {0}. -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>لا يمكن منح نقاط تطوير تتجاوز {0}.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
+  <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>بسبب رداءة جودة الطقس، لم يتم اكتساب أي نقاط تطوير.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
+
+  <!-- EN: Additional reward -->
+  <RitualAttachedReward>مكافأة إضافية</RitualAttachedReward>
+  <!-- EN: Choose -->
+  <RitualAttachedRewardChoose>اختر</RitualAttachedRewardChoose>
+  <!-- EN: Can't use {0} with {1}. -->
+  <RitualAttachedRewardCantUseWithRitual>لا يمكن استخدام {0} مع {1}.</RitualAttachedRewardCantUseWithRitual>
+  <!-- EN: Requires any of memes -->
+  <RitualAttachedRewardRequiredMemeAny>يتطلب أي من الميمات</RitualAttachedRewardRequiredMemeAny>
+  <!-- EN: Requires {0} faction -->
+  <RitualAttachedRewardRequiredFaction>يتطلب فصيل {0}</RitualAttachedRewardRequiredFaction>
+  <!-- EN: positive -->
+  <RitualAttachedOutcomes_Positive>إيجابي</RitualAttachedOutcomes_Positive>
+  <!-- EN: negative -->
+  <RitualAttachedOutcomes_Negative>سلبي</RitualAttachedOutcomes_Negative>
+  <!-- EN: If the {0} is {1} -->
+  <RitualAttachedOutcomesInfo>إذا كان {0} {1}</RitualAttachedOutcomesInfo>
+  <!-- EN: Upon any {0} outcome -->
+  <RitualAttachedApplliesForOutcome>عند أي نتيجة {0}</RitualAttachedApplliesForOutcome>
+  <!-- EN: Upon any {0} outcome -->
+  <RitualAttachedApplliesForOutcomes>عند أي نتيجة {0}</RitualAttachedApplliesForOutcomes>
+  <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
+  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>الضجة من {0} اجتذبت بعض الحيوانات الفضولية!\n\nتبدو معتادة على الاتصال البشري وتنضم إلى المستعمرة.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
+  <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>حفز {0} قرنة غورانلين لتنبت بالقرب.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
+  <!-- EN: Can't apply reward -->
+  <RitualAttachedOutcomeCantApply>لا يمكن تطبيق المكافأة</RitualAttachedOutcomeCantApply>
+  <!-- EN: No valid spot -->
+  <RitualAttachedOutcomeCantApply_NoValidSpot>لا توجد بقعة صالحة</RitualAttachedOutcomeCantApply_NoValidSpot>
+  <!-- EN: Extreme biome -->
+  <RitualAttachedOutcomeCantApply_ExtremeBiome>منطقة حيوية قصوى</RitualAttachedOutcomeCantApply_ExtremeBiome>
+  <!-- EN: There is already a known ancient complex to explore. -->
+  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>يوجد بالفعل مجمع قديم معروف للاستكشاف.</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
+  <!-- EN: Not available right now. -->
+  <RitualAttachedOutcomeCantApply_NotAvailableRightNow>غير متاح حالياً.</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
+  
+  <!-- EN: This building is a variation of -->
+  <IdeoBuildingVariationOf>هذا المبنى هو تنويع من</IdeoBuildingVariationOf>
+  <!-- EN: Minimum expectations -->
+  <IdeoBuildingMinimumExpectations>الحد الأدنى للتوقعات</IdeoBuildingMinimumExpectations>
+  <!-- EN: optional -->
+  <Optional>اختياري</Optional>
+  <!-- EN: expectations -->
+  <Expectations>توقعات</Expectations>
+  <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
+  <RitualRepeatPenaltyTip>إعادة الطقس خلال {0} يوم يقلل جودته. مرت {1} أيام منذ آخر طقس، لذا تخفيض الجودة الحالي هو {2}. ستنخفض هذه العقوبة إلى الصفر بعد {3} يوم من الآن.</RitualRepeatPenaltyTip>
+  <!-- EN: For best quality, start the {0} at {1}. -->
+  <RitualOutcomeCompTip_RitualTargetDefsPart1>لأفضل جودة، ابدأ {0} في {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
+  <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
+  <RitualOutcomeCompTip_RitualTargetDefsPart2>حالياً، يتم بدء {0} في {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  <!-- EN: Development points -->
+  <RitualDevelopmentPoints>نقاط التطوير</RitualDevelopmentPoints>
+  <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
+  <RitualDevelopmentPointsTip>إكمال هذا الطقس يمنح {0}-{1} نقطة تطوير حسب الجودة.</RitualDevelopmentPointsTip>
+  <!-- EN: {0} needs to be powered. -->
+  <RitualOutcomeBlockedNoPower>{0} يحتاج إلى طاقة.</RitualOutcomeBlockedNoPower>
+
+  <!-- EN: For slave use -->
+  <ForSlaveUse>للاستخدام للعبيد</ForSlaveUse>
+  <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
+  <SellingAsSlave>إذا قمت ببيع شخص لأي فصيل غير فصيله، يصبحون عبيداً.</SellingAsSlave>
+  <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
+  <SellingAsRansom>إذا قمت ببيع شخص لفصيله، يتم فديتهم ولا يصبحون عبيداً.</SellingAsRansom>
+
+  <!-- EN: We are {0} -->
+  <MemeGoodwillImpact_Player>نحن {0}</MemeGoodwillImpact_Player>
+  <!-- EN: They are {0} -->
+  <MemeGoodwillImpact_Other>هم {0}</MemeGoodwillImpact_Other>
+
+  <!-- TextMotes -->
+  <!-- EN: Slave suppression: {0} -->
+  <TextMote_SuppressionIncreased>كبت العبد: {0}</TextMote_SuppressionIncreased>
+
+  <!-- Role requirements -->
+  <!-- EN: Requirements -->
+  <RoleRequirementsLabel>المتطلبات</RoleRequirementsLabel>
+  <!-- EN: Passive effects -->
+  <RoleEffectsLabel>تأثيرات سلبية</RoleEffectsLabel>
+  <!-- EN: Must be {0} -->
+  <RoleRequirementLabelSameIdeo>يجب أن يكون {0}</RoleRequirementLabelSameIdeo>
+  <!-- EN: Must be {0} -->
+  <RoleRequirementLabelSupremeGender>يجب أن يكون {0}</RoleRequirementLabelSupremeGender>
+  <!-- EN: Cannot be child -->
+  <RoleRequirementCannotBe>لا يمكن أن يكون طفلاً</RoleRequirementCannotBe>
+
+  <!-- EN: Abilities -->
+  <RoleGrantedAbilitiesLabel>قدرات</RoleGrantedAbilitiesLabel>
+  <!-- EN: Required apparel -->
+  <RoleRequiredApparelLabel>ملابس مطلوبة</RoleRequiredApparelLabel>
+  <!-- EN: Has role in rituals -->
+  <RoleRitualsLabel>له دور في الطقوس</RoleRitualsLabel>
+  <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
+  <RoleBelieverCountDesc>يصبح هذا الدور نشطاً عندما يكون لدى فصيلك {1} {0}. يصبح غير نشط عندما يكون لدى فصيلك {3} {2} فقط.</RoleBelieverCountDesc>
+  <!-- EN: Raised by {0} levels. -->
+  <RoleExpectationOffset>مرفوع بمقدار {0} مستويات.</RoleExpectationOffset>
+  <!-- EN: The {0} has higher expectations. -->
+  <RoleRaisedExpectation>{0} لديه توقعات أعلى.</RoleRaisedExpectation>
+  <!-- EN: The {0} will have higher expectations in {1}. -->
+  <RoleRaisedExpectationGracePeriod>سيكون لدى {0} توقعات أعلى في {1}.</RoleRaisedExpectationGracePeriod>
+  <!-- EN: Led by {0} -->
+  <IdeoLeaderDifferentIdeoThoughtLabel>بقيادة {0}</IdeoLeaderDifferentIdeoThoughtLabel>
+  <!-- EN: {PAWN_nameDef} will not do {1} work. -->
+  <AbilityDisabled_IncapableOfWorkTag>لن يقوم {PAWN_nameDef} بعمل {1}.</AbilityDisabled_IncapableOfWorkTag>
+  <!-- EN: No reachable altar or ritual spot. -->
+  <AbilityDisabledNoAltarOrRitualsSpot>لا يوجد مذبح أو بقعة طقس يمكن الوصول إليها.</AbilityDisabledNoAltarOrRitualsSpot>
+  <!-- EN: No reachable altar, ideogram or ritual spot. -->
+  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>لا يوجد مذبح أو أيدوجرام أو بقعة طقس يمكن الوصول إليها.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
+  <!-- EN: No reachable ritual spot. -->
+  <AbilityDisabledNoRitualSpot>لا توجد بقعة طقس يمكن الوصول إليها.</AbilityDisabledNoRitualSpot>
+
+  <!-- EN: Will\n{0} to {1} -->
+  <TextMote_WillReduced>إرادة\n{0} إلى {1}</TextMote_WillReduced>
+
+  <!-- EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
+  <ConfirmationCharityJoiner>قبول عرض الانضمام هذا هو عمل خيري. إذا رفضت، سيكون الأشخاص التاليون غير سعداء بسبب معتقداتهم الداعمة للخير:\n{0}\n\nهل أنت متأكد أنك تريد رفض عرض الانضمام هذا؟</ConfirmationCharityJoiner>
+
+  <!-- EN: Believers in {0} ({1}) -->
+  <BelieversIn>مؤمنون بـ {0} ({1})</BelieversIn>
+  <!-- EN: add {0} -->
+  <AddPrecept>إضافة {0}</AddPrecept>
+  <!-- EN: precept -->
+  <Precept>وصية</Precept>
+  <!-- EN: building -->
+  <IdeoBuilding>مبنى</IdeoBuilding>
+  <!-- EN: relic -->
+  <IdeoRelic>أثر</IdeoRelic>
+  
+  <!-- Beggars -->
+  <!-- EN: Give {0} to {1_nameDef} -->
+  <GiveItemsTo>إعطاء {0} إلى {1_nameDef}</GiveItemsTo>
+  <!-- EN: Cannot give {0} to {1_nameDef} -->
+  <CannotGiveItemsTo>لا يمكن إعطاء {0} إلى {1_nameDef}</CannotGiveItemsTo>
+  <!-- EN: No item found -->
+  <NoItemFound>لم يتم العثور على عنصر</NoItemFound>
+
+  <!-- Outfits -->
+  <!-- EN: Slave -->
+  <OutfitSlave>عبد</OutfitSlave>
+
+  <!-- EN: Relic info found -->
+  <RelicInfoFound>تم العثور على معلومات الأثر</RelicInfoFound>
+  <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
+  <InactiveRoleRequiresMoreBelievers>غير نشط، يتطلب على الأقل {0} {1} (لديك {2})</InactiveRoleRequiresMoreBelievers>
+  
+  <!-- EN: certainty -->
+  <Certainty>يقين</Certainty>
+
+  <!-- Slave interaction -->
+  <!-- EN: The slave will leave the map on foot and return to their home faction, {0}. -->
+  <EmancipateNonCololonistWithFactionTooltip>سيغادر العبد الخريطة مشياً على الأقدام ويعود إلى فصيله الأم، {0}.</EmancipateNonCololonistWithFactionTooltip>
+  <!-- EN: The slave will leave on foot and exit the map. -->
+  <EmancipateNonCololonistWithoutFactionTooltip>سيغادر العبد مشياً على الأقدام ويخرج من الخريطة.</EmancipateNonCololonistWithoutFactionTooltip>
+  <!-- EN: The slave will return to being a colonist. -->
+  <EmancipateCololonistTooltip>سيعود العبد ليكون مستعمراً.</EmancipateCololonistTooltip>
+
+  <!-- EN: You've stayed in the village too long. The people of {FACTION_name} are attacking! -->
+  <WorshippedTerminalFactionBecameHostileTimed>لقد بقيت في القرية لفترة طويلة جداً. شعب {FACTION_name} يهاجمون!</WorshippedTerminalFactionBecameHostileTimed>
+  <!-- EN: Villagers are returning from nearby to protect the venerated terminal! -->
+  <WorshippedTerminalRaidIncoming>القرويون يعودون من المناطق القريبة لحماية المحطة المبجلة!</WorshippedTerminalRaidIncoming>
+
+  <!-- Relic hunt -->
+  <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
+  <RelicHuntFoundRelicSite>الأثر موجود في هيكل قديم محمي بنظام أمني متعدد الوحدات.\n\nيمكنك هزيمة قوات الأمن وحدة تلو الأخرى، أو الإمساك بالأثر ومحاولة الفرار قبل أن يمسكوا بك.</RelicHuntFoundRelicSite>
+  <!-- EN: The relic rests in an ancient structure nearby. -->
+  <RelicHuntFoundRelicSitePeaceful>الأثر موجود في هيكل قديم قريب.</RelicHuntFoundRelicSitePeaceful>
+
+  <!-- EN: relic -->
+  <Relic>أثر</Relic>
+  <!-- EN: Ritual seat -->
+  <RitualSeat>مقعد الطقس</RitualSeat>
+
+  <!-- Ritual requirements -->
+  <!-- EN: Active loudspeakers -->
+  <RitualPredictedOutcomeDescNumActiveLoudspeakers>مكبرات صوت نشطة</RitualPredictedOutcomeDescNumActiveLoudspeakers>
+  <!-- EN: Drums -->
+  <RitualPredictedOutcomeDescNumDrums>طبول</RitualPredictedOutcomeDescNumDrums>
+
+  <!-- EN: Using ritual spot causes {0} mood bonus reduction for all participants. -->
+  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>استخدام بقعة الطقس يسبب تخفيض مكافأة مزاج بمقدار {0} لجميع المشاركين.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
+
+  <!-- EN: Any of these -->
+  <RitualOutcomeLabelAnyOfThese>أي من هؤلاء</RitualOutcomeLabelAnyOfThese>
+
+  <!-- EN: Replace with -->
+  <PreceptReplaceWith>استبدل بـ</PreceptReplaceWith>
+  <!-- EN: Ritual seat of {IDEOS} -->
+  <RitualSeatOf>مقعد طقس {IDEOS}</RitualSeatOf>
+  <!-- EN: Starting quality -->
+  <StartingQuality>جودة البداية</StartingQuality>
+  <!-- EN: Conviction chance -->
+  <ExpectedConvictionChance>فرصة الاقتناع</ExpectedConvictionChance>
+ 
+  <!-- EN: Must be placed indoors. -->
+  <MustBePlacedIndoors>يجب وضعه في الداخل.</MustBePlacedIndoors>
+
+  <!-- Gauranlen trees/Dryads -->
+  <!-- EN: Connected to -->
+  <ConnectedPawn>متصل بـ</ConnectedPawn>
+  <!-- EN: Nobody -->
+  <Nobody>لا أحد</Nobody>
+  <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
+  <ConnectedPawnDesc>الشخص المتصل به {TREE_label} هذه. إذا مات الشخص المتصل، فلن تتمكن {TREE_label} هذه من الاتصال بآخر لمدة {DURATION}.</ConnectedPawnDesc>
+  <!-- EN: Connection torn. Can connect in {0}. -->
+  <ConnectionTorn>تم قطع الاتصال. يمكن الاتصال خلال {0}.</ConnectionTorn>
+  <!-- EN: {PAWN_nameDef} is too far away -->
+  <ConnectedPawnAway>{PAWN_nameDef} بعيد جداً</ConnectedPawnAway>
+  <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
+  <TreeBlockedByNearbyBuildingsDesc>زراعة {PLANT_definite} بالقرب من المباني الاصطناعية سيؤدي إلى تآكل قوة اتصالها بمرور الوقت. تحدد قوة الاتصال الحد الأقصى لعدد الدرياد التي يمكن لـ {PLANT_definite} دعمها في وقت واحد.\n\nهل أنت متأكد أنك ترغب في الزراعة هنا؟</TreeBlockedByNearbyBuildingsDesc>
+  <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
+  <GauranlenModeChangeDescFull>تغيير طائفة درياد {TREE_definite} يستغرق وقتاً وطاقة.\n\nبعد تفاعل الشخص المتصل مع الشجرة، ستقضي جميع الدرياد {DURATION} يوم داخل الشرانق بينما تتحول إلى الطائفة المختارة.\n\nستلغي الشرانق الموجودة تحولها لتتمكن من التحول إلى الطائفة الحالية.</GauranlenModeChangeDescFull>
+  <!-- EN: Change the type of dryads created by {TREE_definite}. -->
+  <ChangeModeDesc>تغيير نوع الدرياد التي تنشئها {TREE_definite}.</ChangeModeDesc>
+  <!-- EN: Connection strength fall -->
+  <ConnectionStrengthFall>انخفاض قوة الاتصال</ConnectionStrengthFall>
+  <!-- EN: Connection strength -->
+  <ConnectionStrength>قوة الاتصال</ConnectionStrength>
+  <!-- EN: {0} strength -->
+  <ConnectionStrengthDisplay>قوة {0}</ConnectionStrengthDisplay>
+  <!-- EN: Determines how many dryads this tree can support. -->
+  <ConnectionStrengthDesc>يحدد عدد الدرياد التي يمكن لهذه الشجرة دعمها.</ConnectionStrengthDesc>
+  <!-- EN: Max dryads -->
+  <MaximumDryads>الحد الأقصى للدرياد</MaximumDryads>
+  <!-- EN: The maximum number of dryads this tree can support. -->
+  <MaximumDryadsDesc>الحد الأقصى لعدد الدرياد التي يمكن لهذه الشجرة دعمها.</MaximumDryadsDesc>
+  <!-- EN: Max dryads based on connection strength -->
+  <MaxDryadsBasedOnConnectionStrength>الحد الأقصى للدرياد بناءً على قوة الاتصال</MaxDryadsBasedOnConnectionStrength>
+  <!-- EN: Pruning connection strength gain -->
+  <PruningConnectionStrength>مكسب قوة الاتصال بالتقليم</PruningConnectionStrength>
+  <!-- EN: Hours per day to maintain -->
+  <PruningHoursToMaintain>ساعات في اليوم للصيانة</PruningHoursToMaintain>
+  <!-- EN: Desired -->
+  <DesiredConnectionStrength>المرغوب</DesiredConnectionStrength>
+  <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
+  <DesiredConnectionStrengthDesc>سيقوم {CONNECTEDPAWN_nameDef} بتقليم {TREE_definite} بشكل كافٍ للحفاظ على قوة الاتصال فوق هذا المستوى.\n\nتسمح قوة الاتصال الأعلى بدعم المزيد من الدرياد، ولكنها تنخفض أيضاً بشكل أسرع وبالتالي تتطلب تقليماً أكثر تكراراً للحفاظ عليها.\n\nيمكنك النقر على الشريط لضبط قوة الاتصال المستهدفة المرغوبة.\n\nانخفاض قوة الاتصال في اليوم: {FALL}\n\nتتأثر قوة الاتصال بالمباني القريبة.</DesiredConnectionStrengthDesc>
+  <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
+  <WaitingForConnectorToChangeCaste>بانتظار {CONNECTEDPAWN_nameDef} لتغيير طائفة الدرياد.</WaitingForConnectorToChangeCaste>
+  <!-- EN: Dryad caste -->
+  <GauranlenTreeMode>طائفة الدرياد</GauranlenTreeMode>
+  <!-- EN: no caste -->
+  <NoCaste>لا طائفة</NoCaste>
+  <!-- EN: Determines the currently created dryad caste. -->
+  <GauranlenTreeModeDesc>يحدد طائفة الدرياد المنشأة حالياً.</GauranlenTreeModeDesc>
+  <!-- EN: Spawning {DRYAD_label} in {TIME} -->
+  <SpawningDryadIn>إنشاء {DRYAD_label} خلال {TIME}</SpawningDryadIn>
+  <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
+  <ChangingDryadIntoType>تحويل {DRYAD_labelShort} إلى {TYPE_label}.</ChangingDryadIntoType>
+  <!-- EN: {0} hours every day -->
+  <HoursEveryDay>{0} ساعات كل يوم</HoursEveryDay>
+  <!-- EN: {0} hours every other day -->
+  <HoursEveryOtherDay>{0} ساعات كل يومين</HoursEveryOtherDay>
+  <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
+  <DryadProducesResourcesDesc>تنتج {DRYAD_labelPlural} {RESOURCES} كل {DURATION}.</DryadProducesResourcesDesc>
+  <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
+  <DryadCannotChangeMaster>{ANIMAL_nameDef} متصل بـ {MASTER_nameDef} من خلال شجرة غورانلين الخاصة بـ {ANIMAL_possessive}. لا يمكن تغيير مالك {ANIMAL_possessive}.</DryadCannotChangeMaster>
+  <!-- EN: Connection strength too low to create Gauranlen pod. -->
+  <ConnectionStrengthTooWeakForGaumakerPod>قوة الاتصال منخفضة جداً لإنشاء قرنة غورانلين.</ConnectionStrengthTooWeakForGaumakerPod>
+  <!-- EN: Unconnected -->
+  <Unconnected>غير متصل</Unconnected>
+  <!-- EN: Dryads -->
+  <DryadPlural>دريادات</DryadPlural>
+  <!-- EN: Connection strength affected by -->
+  <ConnectionStrengthAffectedBy>تتأثر قوة الاتصال بـ</ConnectionStrengthAffectedBy>
+  <!-- EN: Currently affected by -->
+  <CurrentlyAffectedBy>متأثر حالياً بـ</CurrentlyAffectedBy>
+  <!-- EN: {0} connection strength needed to support a dryad. -->
+  <NotEnoughConnectionStrengthForSingleDryad>هناك حاجة إلى قوة اتصال {0} لدعم درياد واحد.</NotEnoughConnectionStrengthForSingleDryad>
+  <!-- EN: Cannot assign allowed area -->
+  <CannotAssignAllowedAreaToDryad>لا يمكن تعيين منطقة مسموحة للدرياد</CannotAssignAllowedAreaToDryad>
+
+  <!-- Shooting report -->
+  <!-- EN: Target outdoors and night-time -->
+  <TargetNightOutdoors>الهدف في الخارج وفي الليل</TargetNightOutdoors>
+  <!-- EN: Target indoors and dark -->
+  <TargetDarkIndoors>الهدف في الداخل ومظلم</TargetDarkIndoors>
+  <!-- EN: Target outdoors and daytime -->
+  <TargetDayOutdoors>الهدف في الخارج وفي النهار</TargetDayOutdoors>
+  <!-- EN: Target indoors and lit -->
+  <TargetLitIndoors>الهدف في الداخل ومضاء</TargetLitIndoors>  
+  <!-- EN: Charging -->
+  <RechargeableCharging>يشحن</RechargeableCharging>
+  <!-- EN: Ready -->
+  <RechargeableReady>جاهز</RechargeableReady>
+  
+  <!-- EN: Skill -->
+  <RoleRequirementSkill>مهارة</RoleRequirementSkill>
+  <!-- EN: Any of skills -->
+  <RoleRequirementSkillAny>أي من المهارات</RoleRequirementSkillAny>
+  <!-- EN: Won't use ranged weapons -->
+  <RoleEffectWontUseRangedWeapons>لن يستخدم الأسلحة بعيدة المدى</RoleEffectWontUseRangedWeapons>
+  <!-- EN: Won't use melee weapons -->
+  <RoleEffectWontUseMeleeWeapons>لن يستخدم أسلحة الاشتباك</RoleEffectWontUseMeleeWeapons>
+  <!-- EN: {0} quality to crafting or construction -->
+  <RoleEffectProductionQualityOffset>جودة {0} للصناعة أو البناء</RoleEffectProductionQualityOffset>
+  <!-- EN: Hunting revenge chance {0} -->
+  <RoleEffectHuntingRevengeChance>فرصة انتقام الصيد {0}</RoleEffectHuntingRevengeChance>
+  <!-- EN: Give thought -->
+  <RoleEffectGiveThoughtOnTended>يمنح فكرة</RoleEffectGiveThoughtOnTended>
+
+  <!-- EN: Assign colonists to your ideoligion -->
+  <AssignColonists>تعيين مستعمرين لعقيدتك</AssignColonists>
+  <!-- EN: Remove new ideoligion -->
+  <RemoveNewIdeoligion>إزالة العقيدة الجديدة</RemoveNewIdeoligion>
+  <!-- EN: Make this your primary ideoligion -->
+  <MakeIdeoligionPrimary>جعل هذه عقيدتك الأساسية</MakeIdeoligionPrimary>
+
+  <!-- Archonexus -->
+  <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
+  <GameOverArchotechInvokedIntro>لقد استدعيت نواة الأركونيكسس. العالم يمتلئ بضوء ساطع ويبدو الزمن وكأنه يتباطأ...\n\n</GameOverArchotechInvokedIntro>
+  <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
+  <GameOverArchotechInvokedEnding>لقد لاحظك الإله الآلة. لا يمكن لأحد التنبؤ بما سيحدث بعد ذلك. قد يدمرك، أو يتواصل معك مباشرة، أو ينقل وعيك إلى مستوى آخر من الواقع.\n\nتستشعر هيكلاً شاسعاً غير بشري ذا تعقيد فركتالي لا نهائي يتدفق إلى عقلك. يبدأ الزمن والمقياس في الذوبان. إنه مرعب. إنه جميل...</GameOverArchotechInvokedEnding>
+  <!-- EN: These colonists have transcended:\n\n{0} -->
+  <GameOverColonistsTranscended>هؤلاء المستعمرون قد تساموا:\n\n{0}</GameOverColonistsTranscended>
+  <!-- EN: An archonexus map part -->
+  <Reward_ArchonexusMapPart>جزء خريطة أركونيكسس</Reward_ArchonexusMapPart>
+  <!-- EN: Archonexus map part {0}/{1} -->
+  <Reward_ArchonexusMapPartLabel>جزء خريطة الأركونيكسس {0}/{1}</Reward_ArchonexusMapPartLabel>
+
+  <!-- EN: relics -->
+  <RelicsLower>آثار</RelicsLower>
+  <!-- EN: relic -->
+  <RelicLower>أثر</RelicLower>
+
+  <!-- EN: Linked to -->
+  <LinkedTo>مرتبط بـ</LinkedTo>
+  <!-- EN: Supply satellite -->
+  <SupplySatellite>قمر الإمداد</SupplySatellite>
+
+  <!-- EN: Colonist is not willing to extract skull from corpse (missing pro-skullspike precept) -->
+  <CannotExtractSkull>المستعمر غير مستعد لاستخراج الجمجمة من الجثة (الوصية المؤيدة للجماجم مفقودة)</CannotExtractSkull>
+  <!-- EN: Preview the ritual ambience sound -->
+  <TipPreviewRitualAmbienceSound>معاينة صوت أجواء الطقس</TipPreviewRitualAmbienceSound>
+
+  <!-- EN: Choose -->
+  <ChooseStuffForRelic>اختر</ChooseStuffForRelic>
+  <!-- EN: Made from stuff -->
+  <RelicStuff>مصنوع من مواد</RelicStuff>
+
+  <!-- Bioscuplter pod -->
+  <!-- EN: Cycle -->
+  <BiosculpterPodCycleLabel>دورة</BiosculpterPodCycleLabel>
+  <!-- EN: loading ingredients -->
+  <BiosculpterPodCycleLabelLoading>تحميل المكونات</BiosculpterPodCycleLabelLoading>
+  <!-- EN: (and biotuning) -->
+  <BiosculpterPodCycleWillBiotune>(والضبط الحيوي)</BiosculpterPodCycleWillBiotune>
+  <!-- EN: Begin {0} cycle -->
+  <BiosculpterPodCycleCommand>بدء دورة {0}</BiosculpterPodCycleCommand>
+  <!-- EN: Duration -->
+  <BiosculpterPodCycleDuration>المدة</BiosculpterPodCycleDuration>
+  <!-- EN: Duration (transhumanists) -->
+  <BiosculpterPodCycleDurationTranshumanists>المدة (أنصار ما بعد الإنسانية)</BiosculpterPodCycleDurationTranshumanists>
+  <!-- EN: Ready for cycle selection -->
+  <BiosculpterPodCycleSelection>جاهز لاختيار الدورة</BiosculpterPodCycleSelection>
+  <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
+  <BiosculpterPodCycleStandby>في وضع الاستعداد لدورة {CYCLE} مع {PAWN_labelShort}</BiosculpterPodCycleStandby>
+  <!-- EN: Nutrition loaded, no power -->
+  <BiosculpterPodCycleSelectionNoPower>التغذية محملة، لا توجد طاقة</BiosculpterPodCycleSelectionNoPower>
+  <!-- EN: Ends in -->
+  <BiosculpterCycleTimeRemaining>ينتهي في</BiosculpterCycleTimeRemaining>
+  <!-- EN: accelerated for transhumanists -->
+  <BiosculpterCycleAccelerated>مُسرَّع لأنصار ما بعد الإنسانية</BiosculpterCycleAccelerated>
+  <!-- EN: Paused: No power (interrupt in {TIME}) -->
+  <BiosculpterCycleNoPowerInterrupt>متوقف: لا توجد طاقة (انقطاع خلال {TIME})</BiosculpterCycleNoPowerInterrupt>
+  <!-- EN: Biotuned to -->
+  <BiosculpterBiotunedTo>مضبوط حيوياً لـ</BiosculpterBiotunedTo>
+  <!-- EN: Interrupt cycle -->
+  <BiosculpterInteruptCycle>مقاطعة الدورة</BiosculpterInteruptCycle>
+  <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
+  <BiosculpterInteruptCycleDesc>مقاطعة الدورة الحالية. سيتم إخراج المستخدم دون الاستفادة من تأثيرات الدورة، وسيعاني من داء النحت الحيوي قصير المدى.</BiosculpterInteruptCycleDesc>
+  <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
+  <BiosculpterEnteringMessage>سيدخل {PAWN_labelShort} كبسولة النحت الحيوي ويبدأ دورة {CYCLE}.</BiosculpterEnteringMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
+  <BiosculpterLoadingStartedMessage>سيجمع {PAWN_labelShort} {INGREDIENTS}، ويبدأ دورة {CYCLE}.</BiosculpterLoadingStartedMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
+  <BiosculpterCarryStartedMessage>سيجمع {PAWN_labelShort} {INGREDIENTS}، ويضع {DOWNED_labelShort} داخل كبسولة النحت الحيوي، ويبدأ دورة {CYCLE}.</BiosculpterCarryStartedMessage>
+  <!-- EN: {0} nutrition -->
+  <NumNutrition>{0} تغذية</NumNutrition>
+  <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
+  <BiosculpterNoPowerEjectedMessage>تم إخراج {PAWN_labelShort} من كبسولة النحت الحيوي بسبب نقص الطاقة.</BiosculpterNoPowerEjectedMessage>
+  <!-- EN: {PAWN_labelShort} completed healing cycle. -->
+  <BiosculpterHealCompletedMessage>أكمل {PAWN_labelShort} دورة الشفاء.</BiosculpterHealCompletedMessage>
+  <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
+  <BiosculpterHealCompletedWithCureMessage>أكمل {PAWN_labelShort} دورة الشفاء، وتم شفاء {HEDIFF_label} الخاص بـ {PAWN_possessive}.</BiosculpterHealCompletedWithCureMessage>
+  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
+  <BiosculpterAgeReversalCompletedMessage>أكمل {PAWN_labelShort} دورة عكس العمر الخاصة بـ {PAWN_possessive}.</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <AgeReversalExpectationDeadline>{PAWN_pronoun} يتوقع عكس العمر التالي خلال {DEADLINE} يوم.</AgeReversalExpectationDeadline>
+  <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
+  <BiosculpterPleasureCompletedMessage>اكتملت دورة المتعة لـ {PAWN_labelShort}.</BiosculpterPleasureCompletedMessage>
+  <!-- EN: Cleanliness speed factor -->
+  <BiosculpterCleanlinessSpeedFactor>عامل سرعة النظافة</BiosculpterCleanlinessSpeedFactor>
+  <!-- EN: Biotuned speed factor -->
+  <BiosculpterBiotunedSpeedFactor>عامل سرعة الضبط الحيوي</BiosculpterBiotunedSpeedFactor>
+  <!-- EN: These conditions will be healed -->
+  <HealingCycleWillHeal>سيتم شفاء هذه الحالات</HealingCycleWillHeal>
+  <!-- EN: One of these conditions will be healed -->
+  <HealingCycleOneWillHeal>سيتم شفاء إحدى هذه الحالات</HealingCycleOneWillHeal>
+  <!-- EN: Missing required research -->
+  <MissingRequiredResearch>البحث المطلوب مفقود</MissingRequiredResearch>
+  <!-- EN: Requires -->
+  <BiosculpterRequiresIngredients>يتطلب</BiosculpterRequiresIngredients>
+  <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->
+  <OnCompletionOfCycle>عند اكتمال دورة {CYCLE}، سيحدث التالي</OnCompletionOfCycle>
+  <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
+  <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} ليس لديه أي حالات يمكن شفاؤها بدورة {CYCLE}.\n\nهل تريد المتابعة؟</BiosculpterNoCoditionsToHeal>
+
+  <!-- EN: basic -->
+  <Basic>أساسي</Basic>
+  <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
+  <ChangeStyleDesc>تغيير الأسلوب الذي سيُبنى به هذا. هذا مرئي بحت وليس له تأثير على أسلوب اللعب.</ChangeStyleDesc>
+  <!-- EN: No available styles. -->
+  <ChangeStyleDisabledNoCategories>لا توجد أساليب متاحة.</ChangeStyleDisabledNoCategories>
+  <!-- EN: Spacedrone self-destructs in {0} -->
+  <SpacedroneSelfDestructsIn>التدمير الذاتي للدرون الفضائي خلال {0}</SpacedroneSelfDestructsIn>
+
+</LanguageData>

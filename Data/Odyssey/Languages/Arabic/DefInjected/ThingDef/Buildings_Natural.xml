@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient light -->
+  <AncientEmergencyLight_Blue.label>مصباح أثري</AncientEmergencyLight_Blue.label>
+  <!-- EN: An ancient light containing a long-lasting battery. -->
+  <AncientEmergencyLight_Blue.description>مصباح أثري يحتوي على بطارية طويلة الأمد.</AncientEmergencyLight_Blue.description>
+  
+  <!-- EN: mechanoid light -->
+  <AncientEmergencyLight_Green.label>مصباح ميكانويد</AncientEmergencyLight_Green.label>
+  <!-- EN: A light used in mechanoid facilities. The green hue is optimal for mechanoid optical arrays. -->
+  <AncientEmergencyLight_Green.description>مصباح يُستخدم في منشآت الميكانويدات. اللون الأخضر مثالي للمصفوفات البصرية لدى الميكانويد.</AncientEmergencyLight_Green.description>
+  
+  <!-- EN: ancient emergency light -->
+  <AncientEmergencyLight_Red.label>مصباح طوارئ أثري</AncientEmergencyLight_Red.label>
+  <!-- EN: An ancient light containing a long-lasting battery. -->
+  <AncientEmergencyLight_Red.description>مصباح أثري يحتوي على بطارية طويلة الأمد.</AncientEmergencyLight_Red.description>
+  
+  <!-- EN: ancient heat vent -->
+  <AncientHeatVent.label>منفذ حراري أثري</AncientHeatVent.label>
+  <!-- EN: A massive duct that drops endlessly into the ground. It will regularly vent heat from an underground megastructure, dramatically raising the temperature of the surrounding area. -->
+  <AncientHeatVent.description>قناة ضخمة تنحدر إلى ما لا نهاية في باطن الأرض. تطلق بانتظام حرارة من بنية عملاقة تحت الأرض، مما يرفع درجة حرارة المنطقة المحيطة بشكل كبير.</AncientHeatVent.description>
+  
+  <!-- EN: ancient smoke vent -->
+  <AncientSmokeVent.label>منفذ دخان أثري</AncientSmokeVent.label>
+  <!-- EN: The exhaust vent of some long forgotten underground megastructure. It periodically vents a large amount of smoke, blocking the sun for days at a time. -->
+  <AncientSmokeVent.description>منفذ عادم لبنية عملاقة منسية تحت الأرض. يطلق بانتظام كميات كبيرة من الدخان تحجب الشمس عن المنطقة لأيام.</AncientSmokeVent.description>
+  
+  <!-- EN: ancient toxic vent -->
+  <AncientToxVent.label>منفذ سموم أثري</AncientToxVent.label>
+  <!-- EN: A massive duct that vents toxic fumes from an underground megastructure. It will regularly cause toxic fallout in the area. -->
+  <AncientToxVent.description>قناة ضخمة تطلق أبخرة سامة من بنية عملاقة تحت الأرض. تتسبب بانتظام في تساقط سام في المنطقة.</AncientToxVent.description>
+  
+  <!-- EN: burrow wall -->
+  <BurrowWall.label>جدار إفرازي</BurrowWall.label>
+  <!-- EN: A compact mix of dirt, rock, and insect secretion. -->
+  <BurrowWall.description>خليط متماسك من التراب والصخور وإفرازات الحشرات.</BurrowWall.description>
+  
+  <!-- EN: sulfur spout -->
+  <GeothermalVent.label>منفذ كبريت</GeothermalVent.label>
+  <!-- EN: A naturally-occurring break in the ground from which volcanic gases escape. These vents bring nutrients to the surface from deep underground. Collectively, the fumes they spew are enough to block out the sun. -->
+  <GeothermalVent.description>فتحة طبيعية في الأرض تتصاعد منها غازات بركانية. تجلب هذه المنافذ المغذيات إلى السطح من أعماق الأرض. أبخرتها مجتمعة كافية لحجب الشمس.</GeothermalVent.description>
+  
+  <!-- EN: cave entrance -->
+  <InsectLairEntrance.label>مدخل كهف</InsectLairEntrance.label>
+  <!-- EN: The entrance to a cave network. It is possible to climb down into the caves below. -->
+  <InsectLairEntrance.description>مدخل شبكة كهوف. يمكن لمستعمريك النزول هنا لاستكشاف ما تحتها.</InsectLairEntrance.description>
+  <!-- EN: Cannot collapse -->
+  <InsectLairEntrance.comps.CompSealable.cannotSealLabel>لا يمكن الانهيار</InsectLairEntrance.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Collapsing the cave entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <InsectLairEntrance.comps.CompSealable.confirmSealText>انهيار مدخل الكهف دائم. كل ما أو من يبقى بالأسفل سيُفقد إلى الأبد.{0}\n\nهل أنت متأكد من رغبتك في المتابعة؟</InsectLairEntrance.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently collapse the entrance. Anything or anyone left below will be lost forever. -->
+  <InsectLairEntrance.comps.CompSealable.sealCommandDesc>اختر مستعمرًا لانهيار المدخل بشكل دائم. كل ما أو من يبقى بالأسفل سيُفقد إلى الأبد.</InsectLairEntrance.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Collapse cave entrance -->
+  <InsectLairEntrance.comps.CompSealable.sealCommandLabel>انهيار مدخل الكهف</InsectLairEntrance.comps.CompSealable.sealCommandLabel>
+  
+  <!-- EN: life support unit -->
+  <LifeSupportUnit.label>وحدة دعم الحياة</LifeSupportUnit.label>
+  <!-- EN: A unit connected to the orbital platform's larger life support network. It keeps rooms heated and pressurized. -->
+  <LifeSupportUnit.description>وحدة متصلة بشبكة دعم الحياة الأكبر للمنصة المدارية. تحافظ على تدفئة الغرف وضغطها.</LifeSupportUnit.description>
+  
+  <!-- EN: obsidian -->
+  <MineableObsidian.label>سبج</MineableObsidian.label>
+  <!-- EN: Volcanic rock formed by rapidly cooling lava. It can be mined for obsidian glass. -->
+  <MineableObsidian.description>صخر بركاني يتكون من التبريد السريع للحمم. يمكن تعدينه للحصول على زجاج السبج.</MineableObsidian.description>
+  
+</LanguageData>

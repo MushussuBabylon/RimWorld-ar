@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Buddhist origin -->
+  <Structure_OriginBuddhist.label>أصل بوذي</Structure_OriginBuddhist.label>
+  <!-- EN: This ideoligion is a descendant of ancient Buddhism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+  <Structure_OriginBuddhist.description>هذه العقيدة سليلة البوذية القديمة. قد تختلف تعاليمها كثيراً عن تلك التي كانت قبل آلاف السنين، لكن رموزها متشابهة.</Structure_OriginBuddhist.description>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bodhisattva</li>
+    <li>memeLeaderNoun->sattva</li>
+    <li>memeLeaderNoun->lama</li>
+    <li>memeLeaderAdjective->enlightened</li>
+    <li>memeLeaderAdjective->wise</li>
+    <li>memeLeaderAdjective->spiritual</li>
+    <li>memeLeaderAdjective->bodhi</li>
+    <li>memeLeaderAdjective->dalai</li>
+    <li>memeMoralist(p=2)->bhikkhu</li>
+    <li>memeMoralist->priest</li>
+    <li>memeMoralist->monk</li>
+  -->
+  <Structure_OriginBuddhist.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->بوديساتفا</li>
+    <li>memeLeaderNoun->ساتفا</li>
+    <li>memeLeaderNoun->لاما</li>
+    <li>memeLeaderAdjective->مستنير</li>
+    <li>memeLeaderAdjective->حكيم</li>
+    <li>memeLeaderAdjective->روحاني</li>
+    <li>memeLeaderAdjective->بودي</li>
+    <li>memeLeaderAdjective->دالاي</li>
+    <li>memeMoralist(p=2)->بهيكو</li>
+    <li>memeMoralist->كاهن</li>
+    <li>memeMoralist->راهب</li>
+ </Structure_OriginBuddhist.generalRules.rulesStrings>
+  <!-- EN: Buddhist -->
+  <Structure_OriginBuddhist.symbolPacks.0.adjective>بوذي</Structure_OriginBuddhist.symbolPacks.0.adjective>
+  <!-- EN: Buddhism -->
+  <Structure_OriginBuddhist.symbolPacks.0.ideoName>البوذية</Structure_OriginBuddhist.symbolPacks.0.ideoName>
+  <!-- EN: Buddhist -->
+  <Structure_OriginBuddhist.symbolPacks.0.member>بوذي</Structure_OriginBuddhist.symbolPacks.0.member>
+  <!-- EN: Buddha -->
+  <Structure_OriginBuddhist.symbolPacks.0.theme>بوذا</Structure_OriginBuddhist.symbolPacks.0.theme>
+  <!-- EN: Theric -->
+  <Structure_OriginBuddhist.symbolPacks.1.adjective>ثيري</Structure_OriginBuddhist.symbolPacks.1.adjective>
+  <!-- EN: Theravada -->
+  <Structure_OriginBuddhist.symbolPacks.1.ideoName>تيرافادا</Structure_OriginBuddhist.symbolPacks.1.ideoName>
+  <!-- EN: Therist -->
+  <Structure_OriginBuddhist.symbolPacks.1.member>ثيريست</Structure_OriginBuddhist.symbolPacks.1.member>
+  <!-- EN: Mahic -->
+  <Structure_OriginBuddhist.symbolPacks.2.adjective>ماهي</Structure_OriginBuddhist.symbolPacks.2.adjective>
+  <!-- EN: Mahayana -->
+  <Structure_OriginBuddhist.symbolPacks.2.ideoName>ماهايانا</Structure_OriginBuddhist.symbolPacks.2.ideoName>
+  <!-- EN: Mahist -->
+  <Structure_OriginBuddhist.symbolPacks.2.member>ماهيست</Structure_OriginBuddhist.symbolPacks.2.member>
+  <!-- EN: Vajric -->
+  <Structure_OriginBuddhist.symbolPacks.3.adjective>فاجري</Structure_OriginBuddhist.symbolPacks.3.adjective>
+  <!-- EN: Vajrayana -->
+  <Structure_OriginBuddhist.symbolPacks.3.ideoName>فاجرايانا</Structure_OriginBuddhist.symbolPacks.3.ideoName>
+  <!-- EN: Vajrist -->
+  <Structure_OriginBuddhist.symbolPacks.3.member>فاجريست</Structure_OriginBuddhist.symbolPacks.3.member>
+  <!-- EN: Zen -->
+  <Structure_OriginBuddhist.symbolPacks.4.adjective>زِن</Structure_OriginBuddhist.symbolPacks.4.adjective>
+  <!-- EN: Zen -->
+  <Structure_OriginBuddhist.symbolPacks.4.ideoName>زِن</Structure_OriginBuddhist.symbolPacks.4.ideoName>
+  <!-- EN: Zenist -->
+  <Structure_OriginBuddhist.symbolPacks.4.member>زِنست</Structure_OriginBuddhist.symbolPacks.4.member>
+  <!-- EN: Seonic -->
+  <Structure_OriginBuddhist.symbolPacks.5.adjective>سيوني</Structure_OriginBuddhist.symbolPacks.5.adjective>
+  <!-- EN: Seon -->
+  <Structure_OriginBuddhist.symbolPacks.5.ideoName>سيون</Structure_OriginBuddhist.symbolPacks.5.ideoName>
+  <!-- EN: Seonist -->
+  <Structure_OriginBuddhist.symbolPacks.5.member>سيونيست</Structure_OriginBuddhist.symbolPacks.5.member>
+  <!-- EN: Ekist -->
+  <Structure_OriginBuddhist.symbolPacks.6.adjective>إيكي</Structure_OriginBuddhist.symbolPacks.6.adjective>
+  <!-- EN: Ekayana -->
+  <Structure_OriginBuddhist.symbolPacks.6.ideoName>إيكايانا</Structure_OriginBuddhist.symbolPacks.6.ideoName>
+  <!-- EN: Ekist -->
+  <Structure_OriginBuddhist.symbolPacks.6.member>إيكيست</Structure_OriginBuddhist.symbolPacks.6.member>
+  <!-- EN: Navic -->
+  <Structure_OriginBuddhist.symbolPacks.7.adjective>نافي</Structure_OriginBuddhist.symbolPacks.7.adjective>
+  <!-- EN: Navayana -->
+  <Structure_OriginBuddhist.symbolPacks.7.ideoName>نافايانا</Structure_OriginBuddhist.symbolPacks.7.ideoName>
+  <!-- EN: Navist -->
+  <Structure_OriginBuddhist.symbolPacks.7.member>نافيست</Structure_OriginBuddhist.symbolPacks.7.member>
+  <!-- EN: Tantric -->
+  <Structure_OriginBuddhist.symbolPacks.8.adjective>تانترا</Structure_OriginBuddhist.symbolPacks.8.adjective>
+  <!-- EN: Tantrayana -->
+  <Structure_OriginBuddhist.symbolPacks.8.ideoName>تانترايانا</Structure_OriginBuddhist.symbolPacks.8.ideoName>
+  <!-- EN: Tantran -->
+  <Structure_OriginBuddhist.symbolPacks.8.member>تانتران</Structure_OriginBuddhist.symbolPacks.8.member>
+  <!-- EN: Gelugist -->
+  <Structure_OriginBuddhist.symbolPacks.9.adjective>غيلوغي</Structure_OriginBuddhist.symbolPacks.9.adjective>
+  <!-- EN: Gelug -->
+  <Structure_OriginBuddhist.symbolPacks.9.ideoName>غيلوغ</Structure_OriginBuddhist.symbolPacks.9.ideoName>
+  <!-- EN: Gelugist -->
+  <Structure_OriginBuddhist.symbolPacks.9.member>غيلوغيست</Structure_OriginBuddhist.symbolPacks.9.member>
+  <!-- EN: pagoda -->
+  <Structure_OriginBuddhist.worshipRoomLabel>باغودا</Structure_OriginBuddhist.worshipRoomLabel>
+  
+  <!-- EN: Christian origin -->
+  <Structure_OriginChristian.label>أصل مسيحي</Structure_OriginChristian.label>
+  <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Christianity. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+  <Structure_OriginChristian.description>هذه صيغة من البنية الإلهية المجردة. هذه العقيدة سليلة المسيحية القديمة. قد تختلف تعاليمها كثيراً عن تلك التي كانت قبل آلاف السنين، لكن رموزها متشابهة.</Structure_OriginChristian.description>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bishop</li>
+    <li>memeLeaderNoun->cardinal</li>
+    <li>memeLeaderNoun->pope</li>
+    <li>memeLeaderNoun->pontiff</li>
+    <li>memeLeaderNoun->legate</li>
+    <li>memeLeaderNoun->nuncio</li>
+    <li>memeLeaderNoun->divus</li>
+    <li>memeLeaderNoun->ecclesiast</li>
+    <li>memeLeaderAdjective->holy</li>
+    <li>memeLeaderAdjective->divine</li>
+    <li>memeLeaderAdjective->Christ's</li>
+    <li>memeLeaderAdjective->God's</li>
+    <li>memeMoralist->priest</li>
+    <li>memeMoralist->pastor</li>
+    <li>memeMoralist->cleric</li>
+    <li>memeMoralist->preacher</li>
+    <li>memeMoralist->rector</li>
+    <li>memeMoralist->abbot</li>
+  -->
+  <Structure_OriginChristian.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->أسقف</li>
+    <li>memeLeaderNoun->كاردينال</li>
+    <li>memeLeaderNoun->بابا</li>
+    <li>memeLeaderNoun->حبر أعظم</li>
+    <li>memeLeaderNoun->ليغات</li>
+    <li>memeLeaderNoun->نونسيو</li>
+    <li>memeLeaderNoun->ديفوس</li>
+    <li>memeLeaderNoun->إكليسي</li>
+    <li>memeLeaderAdjective->مقدس</li>
+    <li>memeLeaderAdjective->إلهي</li>
+    <li>memeLeaderAdjective->المسيح</li>
+    <li>memeLeaderAdjective->الله</li>
+    <li>memeMoralist->كاهن</li>
+    <li>memeMoralist->قس</li>
+    <li>memeMoralist->إكليريكي</li>
+    <li>memeMoralist->واعظ</li>
+    <li>memeMoralist->رئيس كهنة</li>
+    <li>memeMoralist->رئيس دير</li>
+ </Structure_OriginChristian.generalRules.rulesStrings>
+  <!-- EN: Christian -->
+  <Structure_OriginChristian.symbolPacks.0.adjective>مسيحي</Structure_OriginChristian.symbolPacks.0.adjective>
+  <!-- EN: Christianity -->
+  <Structure_OriginChristian.symbolPacks.0.ideoName>المسيحية</Structure_OriginChristian.symbolPacks.0.ideoName>
+  <!-- EN: Christian -->
+  <Structure_OriginChristian.symbolPacks.0.member>مسيحي</Structure_OriginChristian.symbolPacks.0.member>
+  <!-- EN: Catholic -->
+  <Structure_OriginChristian.symbolPacks.1.adjective>كاثوليكي</Structure_OriginChristian.symbolPacks.1.adjective>
+  <!-- EN: Catholicism -->
+  <Structure_OriginChristian.symbolPacks.1.ideoName>الكاثوليكية</Structure_OriginChristian.symbolPacks.1.ideoName>
+  <!-- EN: Catholic -->
+  <Structure_OriginChristian.symbolPacks.1.member>كاثوليكي</Structure_OriginChristian.symbolPacks.1.member>
+  <!-- EN: Protestant -->
+  <Structure_OriginChristian.symbolPacks.2.adjective>بروتستانتي</Structure_OriginChristian.symbolPacks.2.adjective>
+  <!-- EN: Protestantism -->
+  <Structure_OriginChristian.symbolPacks.2.ideoName>البروتستانتية</Structure_OriginChristian.symbolPacks.2.ideoName>
+  <!-- EN: Protestant -->
+  <Structure_OriginChristian.symbolPacks.2.member>بروتستانتي</Structure_OriginChristian.symbolPacks.2.member>
+  <!-- EN: Orthodox -->
+  <Structure_OriginChristian.symbolPacks.3.adjective>أرثوذكسي</Structure_OriginChristian.symbolPacks.3.adjective>
+  <!-- EN: Orthodoxy -->
+  <Structure_OriginChristian.symbolPacks.3.ideoName>الأرثوذكسية</Structure_OriginChristian.symbolPacks.3.ideoName>
+  <!-- EN: Orthodoxist -->
+  <Structure_OriginChristian.symbolPacks.3.member>أرثوذكسي</Structure_OriginChristian.symbolPacks.3.member>
+  <!-- EN: Nestorian -->
+  <Structure_OriginChristian.symbolPacks.4.adjective>نسطوري</Structure_OriginChristian.symbolPacks.4.adjective>
+  <!-- EN: Nestorianism -->
+  <Structure_OriginChristian.symbolPacks.4.ideoName>النسطورية</Structure_OriginChristian.symbolPacks.4.ideoName>
+  <!-- EN: Nestorian -->
+  <Structure_OriginChristian.symbolPacks.4.member>نسطوري</Structure_OriginChristian.symbolPacks.4.member>
+  <!-- EN: Anglican -->
+  <Structure_OriginChristian.symbolPacks.5.adjective>إنجليكاني</Structure_OriginChristian.symbolPacks.5.adjective>
+  <!-- EN: Anglicanism -->
+  <Structure_OriginChristian.symbolPacks.5.ideoName>الإنجليكانية</Structure_OriginChristian.symbolPacks.5.ideoName>
+  <!-- EN: Anglican -->
+  <Structure_OriginChristian.symbolPacks.5.member>إنجليكاني</Structure_OriginChristian.symbolPacks.5.member>
+  <!-- EN: Baptist -->
+  <Structure_OriginChristian.symbolPacks.6.adjective>معمداني</Structure_OriginChristian.symbolPacks.6.adjective>
+  <!-- EN: Baptism -->
+  <Structure_OriginChristian.symbolPacks.6.ideoName>المعمودية</Structure_OriginChristian.symbolPacks.6.ideoName>
+  <!-- EN: Baptist -->
+  <Structure_OriginChristian.symbolPacks.6.member>معمداني</Structure_OriginChristian.symbolPacks.6.member>
+  <!-- EN: Anabaptist -->
+  <Structure_OriginChristian.symbolPacks.7.adjective>تجديدي العماد</Structure_OriginChristian.symbolPacks.7.adjective>
+  <!-- EN: Anabaptism -->
+  <Structure_OriginChristian.symbolPacks.7.ideoName>تجديدية العماد</Structure_OriginChristian.symbolPacks.7.ideoName>
+  <!-- EN: Anabaptist -->
+  <Structure_OriginChristian.symbolPacks.7.member>تجديدي العماد</Structure_OriginChristian.symbolPacks.7.member>
+  <!-- EN: Calvinist -->
+  <Structure_OriginChristian.symbolPacks.8.adjective>كالفيني</Structure_OriginChristian.symbolPacks.8.adjective>
+  <!-- EN: Calvinism -->
+  <Structure_OriginChristian.symbolPacks.8.ideoName>الكالفينية</Structure_OriginChristian.symbolPacks.8.ideoName>
+  <!-- EN: Calvinist -->
+  <Structure_OriginChristian.symbolPacks.8.member>كالفيني</Structure_OriginChristian.symbolPacks.8.member>
+  <!-- EN: Lutheran -->
+  <Structure_OriginChristian.symbolPacks.9.adjective>لوثري</Structure_OriginChristian.symbolPacks.9.adjective>
+  <!-- EN: Lutheranism -->
+  <Structure_OriginChristian.symbolPacks.9.ideoName>اللوثرية</Structure_OriginChristian.symbolPacks.9.ideoName>
+  <!-- EN: Lutheran -->
+  <Structure_OriginChristian.symbolPacks.9.member>لوثري</Structure_OriginChristian.symbolPacks.9.member>
+  <!-- EN: Adventist -->
+  <Structure_OriginChristian.symbolPacks.10.adjective>أدفنتست</Structure_OriginChristian.symbolPacks.10.adjective>
+  <!-- EN: Adventism -->
+  <Structure_OriginChristian.symbolPacks.10.ideoName>الأدفنتستية</Structure_OriginChristian.symbolPacks.10.ideoName>
+  <!-- EN: Adventist -->
+  <Structure_OriginChristian.symbolPacks.10.member>أدفنتست</Structure_OriginChristian.symbolPacks.10.member>
+  <!-- EN: Methodist -->
+  <Structure_OriginChristian.symbolPacks.11.adjective>ميثودي</Structure_OriginChristian.symbolPacks.11.adjective>
+  <!-- EN: Methodism -->
+  <Structure_OriginChristian.symbolPacks.11.ideoName>الميثودية</Structure_OriginChristian.symbolPacks.11.ideoName>
+  <!-- EN: Methodist -->
+  <Structure_OriginChristian.symbolPacks.11.member>ميثودي</Structure_OriginChristian.symbolPacks.11.member>
+  <!-- EN: Mormon -->
+  <Structure_OriginChristian.symbolPacks.12.adjective>مورموني</Structure_OriginChristian.symbolPacks.12.adjective>
+  <!-- EN: Mormonism -->
+  <Structure_OriginChristian.symbolPacks.12.ideoName>المورمونية</Structure_OriginChristian.symbolPacks.12.ideoName>
+  <!-- EN: Mormon -->
+  <Structure_OriginChristian.symbolPacks.12.member>مورموني</Structure_OriginChristian.symbolPacks.12.member>
+  <!-- EN: Theonomic -->
+  <Structure_OriginChristian.symbolPacks.13.adjective>ثيونومي</Structure_OriginChristian.symbolPacks.13.adjective>
+  <!-- EN: Theonomy -->
+  <Structure_OriginChristian.symbolPacks.13.ideoName>الثيونومية</Structure_OriginChristian.symbolPacks.13.ideoName>
+  <!-- EN: Theonomist -->
+  <Structure_OriginChristian.symbolPacks.13.member>ثيونومي</Structure_OriginChristian.symbolPacks.13.member>
+  <!-- EN: church -->
+  <Structure_OriginChristian.worshipRoomLabel>كنيسة</Structure_OriginChristian.worshipRoomLabel>
+  
+  <!-- EN: Hindu origin -->
+  <Structure_OriginHindu.label>أصل هندوسي</Structure_OriginHindu.label>
+  <!-- EN: This is a variant of the embodied theist structure. This ideoligion is a descendant of ancient Hinduism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+  <Structure_OriginHindu.description>هذه صيغة من البنية الإلهية المتجسدة. هذه العقيدة سليلة الهندوسية القديمة. قد تختلف تعاليمها كثيراً عن تلك التي كانت قبل آلاف السنين، لكن رموزها متشابهة.</Structure_OriginHindu.description>
+  <!-- EN: Brahma -->
+  <Structure_OriginHindu.fixedDeityNameTypes.0.name>براهما</Structure_OriginHindu.fixedDeityNameTypes.0.name>
+  <!-- EN: God of Creation -->
+  <Structure_OriginHindu.fixedDeityNameTypes.0.type>إله الخلق</Structure_OriginHindu.fixedDeityNameTypes.0.type>
+  <!-- EN: Vishnu -->
+  <Structure_OriginHindu.fixedDeityNameTypes.1.name>فيشنو</Structure_OriginHindu.fixedDeityNameTypes.1.name>
+  <!-- EN: God of Preservation -->
+  <Structure_OriginHindu.fixedDeityNameTypes.1.type>إله الحفظ</Structure_OriginHindu.fixedDeityNameTypes.1.type>
+  <!-- EN: Shiva -->
+  <Structure_OriginHindu.fixedDeityNameTypes.2.name>شيفا</Structure_OriginHindu.fixedDeityNameTypes.2.name>
+  <!-- EN: God of Destruction -->
+  <Structure_OriginHindu.fixedDeityNameTypes.2.type>إله الدمار</Structure_OriginHindu.fixedDeityNameTypes.2.type>
+  <!-- EN: Ushas -->
+  <Structure_OriginHindu.fixedDeityNameTypes.3.name>أوشاس</Structure_OriginHindu.fixedDeityNameTypes.3.name>
+  <!-- EN: God of Dawn -->
+  <Structure_OriginHindu.fixedDeityNameTypes.3.type>إلهة الفجر</Structure_OriginHindu.fixedDeityNameTypes.3.type>
+  <!-- EN: Devi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.4.name>ديفي</Structure_OriginHindu.fixedDeityNameTypes.4.name>
+  <!-- EN: God of Femininity -->
+  <Structure_OriginHindu.fixedDeityNameTypes.4.type>إلهة الأنوثة</Structure_OriginHindu.fixedDeityNameTypes.4.type>
+  <!-- EN: Lakshmi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.5.name>لاكشمي</Structure_OriginHindu.fixedDeityNameTypes.5.name>
+  <!-- EN: God of Goals -->
+  <Structure_OriginHindu.fixedDeityNameTypes.5.type>إلهة الغايات</Structure_OriginHindu.fixedDeityNameTypes.5.type>
+  <!-- EN: Parvati -->
+  <Structure_OriginHindu.fixedDeityNameTypes.6.name>برافاتي</Structure_OriginHindu.fixedDeityNameTypes.6.name>
+  <!-- EN: God of Fertility -->
+  <Structure_OriginHindu.fixedDeityNameTypes.6.type>إلهة الخصوبة</Structure_OriginHindu.fixedDeityNameTypes.6.type>
+  <!-- EN: Kali -->
+  <Structure_OriginHindu.fixedDeityNameTypes.7.name>كالي</Structure_OriginHindu.fixedDeityNameTypes.7.name>
+  <!-- EN: God of Protection -->
+  <Structure_OriginHindu.fixedDeityNameTypes.7.type>إلهة الحماية</Structure_OriginHindu.fixedDeityNameTypes.7.type>
+  <!-- EN: Bhumi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.8.name>بومي</Structure_OriginHindu.fixedDeityNameTypes.8.name>
+  <!-- EN: God of Earth -->
+  <Structure_OriginHindu.fixedDeityNameTypes.8.type>إلهة الأرض</Structure_OriginHindu.fixedDeityNameTypes.8.type>
+  <!-- EN: Saraswati -->
+  <Structure_OriginHindu.fixedDeityNameTypes.9.name>ساراسواتي</Structure_OriginHindu.fixedDeityNameTypes.9.name>
+  <!-- EN: God of Wisdom -->
+  <Structure_OriginHindu.fixedDeityNameTypes.9.type>إلهة الحكمة</Structure_OriginHindu.fixedDeityNameTypes.9.type>
+  <!-- EN: Gayatri -->
+  <Structure_OriginHindu.fixedDeityNameTypes.10.name>غاياتري</Structure_OriginHindu.fixedDeityNameTypes.10.name>
+  <!-- EN: God of Life -->
+  <Structure_OriginHindu.fixedDeityNameTypes.10.type>إلهة الحياة</Structure_OriginHindu.fixedDeityNameTypes.10.type>
+  <!-- EN: Annapoorna -->
+  <Structure_OriginHindu.fixedDeityNameTypes.11.name>أناپورنا</Structure_OriginHindu.fixedDeityNameTypes.11.name>
+  <!-- EN: God of Food -->
+  <Structure_OriginHindu.fixedDeityNameTypes.11.type>إلهة الطعام</Structure_OriginHindu.fixedDeityNameTypes.11.type>
+  <!-- EN: Nindra -->
+  <Structure_OriginHindu.fixedDeityNameTypes.12.name>نيندرا</Structure_OriginHindu.fixedDeityNameTypes.12.name>
+  <!-- EN: God of Sleep -->
+  <Structure_OriginHindu.fixedDeityNameTypes.12.type>إله النوم</Structure_OriginHindu.fixedDeityNameTypes.12.type>
+  <!-- EN: Shashthi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.13.name>شاشثي</Structure_OriginHindu.fixedDeityNameTypes.13.name>
+  <!-- EN: God of Children -->
+  <Structure_OriginHindu.fixedDeityNameTypes.13.type>إلهة الأطفال</Structure_OriginHindu.fixedDeityNameTypes.13.type>
+  <!-- EN: Manasa -->
+  <Structure_OriginHindu.fixedDeityNameTypes.14.name>ماناسا</Structure_OriginHindu.fixedDeityNameTypes.14.name>
+  <!-- EN: God of Snakes -->
+  <Structure_OriginHindu.fixedDeityNameTypes.14.type>إلهة الثعابين</Structure_OriginHindu.fixedDeityNameTypes.14.type>
+  <!-- EN: Svaha -->
+  <Structure_OriginHindu.fixedDeityNameTypes.15.name>سفاها</Structure_OriginHindu.fixedDeityNameTypes.15.name>
+  <!-- EN: God of Ash -->
+  <Structure_OriginHindu.fixedDeityNameTypes.15.type>إلهة الرماد</Structure_OriginHindu.fixedDeityNameTypes.15.type>
+  <!-- EN: Bhairava -->
+  <Structure_OriginHindu.fixedDeityNameTypes.16.name>بهايرافا</Structure_OriginHindu.fixedDeityNameTypes.16.name>
+  <!-- EN: God of Annihilation -->
+  <Structure_OriginHindu.fixedDeityNameTypes.16.type>إله الفناء</Structure_OriginHindu.fixedDeityNameTypes.16.type>
+  <!-- EN: Krishna -->
+  <Structure_OriginHindu.fixedDeityNameTypes.17.name>كريشنا</Structure_OriginHindu.fixedDeityNameTypes.17.name>
+  <!-- EN: God of Compassion -->
+  <Structure_OriginHindu.fixedDeityNameTypes.17.type>إله الشفقة</Structure_OriginHindu.fixedDeityNameTypes.17.type>
+  <!-- EN: Surya -->
+  <Structure_OriginHindu.fixedDeityNameTypes.18.name>سوريا</Structure_OriginHindu.fixedDeityNameTypes.18.name>
+  <!-- EN: Sun God -->
+  <Structure_OriginHindu.fixedDeityNameTypes.18.type>إله الشمس</Structure_OriginHindu.fixedDeityNameTypes.18.type>
+  <!-- EN: Varuna -->
+  <Structure_OriginHindu.fixedDeityNameTypes.19.name>فارونا</Structure_OriginHindu.fixedDeityNameTypes.19.name>
+  <!-- EN: Sky God -->
+  <Structure_OriginHindu.fixedDeityNameTypes.19.type>إله السماء</Structure_OriginHindu.fixedDeityNameTypes.19.type>
+  <!-- EN: Mitra -->
+  <Structure_OriginHindu.fixedDeityNameTypes.20.name>مترا</Structure_OriginHindu.fixedDeityNameTypes.20.name>
+  <!-- EN: God of Friendship -->
+  <Structure_OriginHindu.fixedDeityNameTypes.20.type>إله الصداقة</Structure_OriginHindu.fixedDeityNameTypes.20.type>
+  <!-- EN: Indra -->
+  <Structure_OriginHindu.fixedDeityNameTypes.21.name>إندرا</Structure_OriginHindu.fixedDeityNameTypes.21.name>
+  <!-- EN: God of Heaven -->
+  <Structure_OriginHindu.fixedDeityNameTypes.21.type>إله السماء</Structure_OriginHindu.fixedDeityNameTypes.21.type>
+  <!-- EN: Agni -->
+  <Structure_OriginHindu.fixedDeityNameTypes.22.name>أجني</Structure_OriginHindu.fixedDeityNameTypes.22.name>
+  <!-- EN: Fire God -->
+  <Structure_OriginHindu.fixedDeityNameTypes.22.type>إله النار</Structure_OriginHindu.fixedDeityNameTypes.22.type>
+  <!-- EN: Soma -->
+  <Structure_OriginHindu.fixedDeityNameTypes.23.name>سوما</Structure_OriginHindu.fixedDeityNameTypes.23.name>
+  <!-- EN: Moon God -->
+  <Structure_OriginHindu.fixedDeityNameTypes.23.type>إله القمر</Structure_OriginHindu.fixedDeityNameTypes.23.type>
+  <!-- EN: Rudra -->
+  <Structure_OriginHindu.fixedDeityNameTypes.24.name>رودرا</Structure_OriginHindu.fixedDeityNameTypes.24.name>
+  <!-- EN: God of Wind -->
+  <Structure_OriginHindu.fixedDeityNameTypes.24.type>إله الريح</Structure_OriginHindu.fixedDeityNameTypes.24.type>
+  <!-- EN: Prithvi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.25.name>بريثفي</Structure_OriginHindu.fixedDeityNameTypes.25.name>
+  <!-- EN: God of Earth -->
+  <Structure_OriginHindu.fixedDeityNameTypes.25.type>إلهة الأرض</Structure_OriginHindu.fixedDeityNameTypes.25.type>
+  <!-- EN: Aditi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.26.name>أديتي</Structure_OriginHindu.fixedDeityNameTypes.26.name>
+  <!-- EN: God of Morality -->
+  <Structure_OriginHindu.fixedDeityNameTypes.26.type>إلهة الأخلاق</Structure_OriginHindu.fixedDeityNameTypes.26.type>
+  <!-- EN: Vac -->
+  <Structure_OriginHindu.fixedDeityNameTypes.27.name>فاك</Structure_OriginHindu.fixedDeityNameTypes.27.name>
+  <!-- EN: God of Sound -->
+  <Structure_OriginHindu.fixedDeityNameTypes.27.type>إلهة الصوت</Structure_OriginHindu.fixedDeityNameTypes.27.type>
+  <!-- EN: Nirrti -->
+  <Structure_OriginHindu.fixedDeityNameTypes.28.name>نيريتي</Structure_OriginHindu.fixedDeityNameTypes.28.name>
+  <!-- EN: God of Destruction -->
+  <Structure_OriginHindu.fixedDeityNameTypes.28.type>إله الدمار</Structure_OriginHindu.fixedDeityNameTypes.28.type>
+  <!-- EN: Ratri -->
+  <Structure_OriginHindu.fixedDeityNameTypes.29.name>راتري</Structure_OriginHindu.fixedDeityNameTypes.29.name>
+  <!-- EN: God of Night -->
+  <Structure_OriginHindu.fixedDeityNameTypes.29.type>إلهة الليل</Structure_OriginHindu.fixedDeityNameTypes.29.type>
+  <!-- EN: Aranyani -->
+  <Structure_OriginHindu.fixedDeityNameTypes.30.name>أرانياني</Structure_OriginHindu.fixedDeityNameTypes.30.name>
+  <!-- EN: Forest God -->
+  <Structure_OriginHindu.fixedDeityNameTypes.30.type>إلهة الغابة</Structure_OriginHindu.fixedDeityNameTypes.30.type>
+  <!-- EN: Durga -->
+  <Structure_OriginHindu.fixedDeityNameTypes.31.name>دورغا</Structure_OriginHindu.fixedDeityNameTypes.31.name>
+  <!-- EN: Warrior Goddess -->
+  <Structure_OriginHindu.fixedDeityNameTypes.31.type>إلهة المحاربة</Structure_OriginHindu.fixedDeityNameTypes.31.type>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mahatma</li>
+    <li>memeLeaderNoun->ishvara</li>
+    <li>memeLeaderNoun->yogi</li>
+    <li>memeLeaderNoun->pandit</li>
+    <li>memeLeaderNoun->avatar</li>
+    <li>memeLeaderAdjective->sacred</li>
+    <li>memeLeaderAdjective->hindic</li>
+    <li>memeLeaderAdjective->indic</li>
+    <li>memeLeaderAdjective->yogic</li>
+    <li>memeLeaderAdjective->tirth</li>
+    <li>memeMoralist(p=3)->pujari</li>
+    <li>memeMoralist->purohit</li>
+    <li>memeMoralist->archaka</li>
+    <li>memeMoralist->brahmin</li>
+  -->
+  <Structure_OriginHindu.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->ماهاتما</li>
+    <li>memeLeaderNoun->إيشفارا</li>
+    <li>memeLeaderNoun->يوغي</li>
+    <li>memeLeaderNoun->بانديت</li>
+    <li>memeLeaderNoun->أفاتار</li>
+    <li>memeLeaderAdjective->مقدس</li>
+    <li>memeLeaderAdjective->هندوسي</li>
+    <li>memeLeaderAdjective->هندي</li>
+    <li>memeLeaderAdjective->يوغي</li>
+    <li>memeLeaderAdjective->تيرث</li>
+    <li>memeMoralist(p=3)->بوجاري</li>
+    <li>memeMoralist->بوروهيت</li>
+    <li>memeMoralist->أرتشاكا</li>
+    <li>memeMoralist->براهمين</li>
+ </Structure_OriginHindu.generalRules.rulesStrings>
+  <!-- EN: Hindu -->
+  <Structure_OriginHindu.symbolPacks.0.adjective>هندوسي</Structure_OriginHindu.symbolPacks.0.adjective>
+  <!-- EN: Hinduism -->
+  <Structure_OriginHindu.symbolPacks.0.ideoName>الهندوسية</Structure_OriginHindu.symbolPacks.0.ideoName>
+  <!-- EN: Hindu -->
+  <Structure_OriginHindu.symbolPacks.0.member>هندوسي</Structure_OriginHindu.symbolPacks.0.member>
+  <!-- EN: Indu -->
+  <Structure_OriginHindu.symbolPacks.1.adjective>إندو</Structure_OriginHindu.symbolPacks.1.adjective>
+  <!-- EN: Induism -->
+  <Structure_OriginHindu.symbolPacks.1.ideoName>الإندوية</Structure_OriginHindu.symbolPacks.1.ideoName>
+  <!-- EN: Indu -->
+  <Structure_OriginHindu.symbolPacks.1.member>إندو</Structure_OriginHindu.symbolPacks.1.member>
+  <!-- EN: Sindu -->
+  <Structure_OriginHindu.symbolPacks.2.adjective>سندي</Structure_OriginHindu.symbolPacks.2.adjective>
+  <!-- EN: Sinduism -->
+  <Structure_OriginHindu.symbolPacks.2.ideoName>السندوية</Structure_OriginHindu.symbolPacks.2.ideoName>
+  <!-- EN: Sindu -->
+  <Structure_OriginHindu.symbolPacks.2.member>سندي</Structure_OriginHindu.symbolPacks.2.member>
+  <!-- EN: Tantric -->
+  <Structure_OriginHindu.symbolPacks.3.adjective>تانترا</Structure_OriginHindu.symbolPacks.3.adjective>
+  <!-- EN: Tantra -->
+  <Structure_OriginHindu.symbolPacks.3.ideoName>التانترا</Structure_OriginHindu.symbolPacks.3.ideoName>
+  <!-- EN: Tantran -->
+  <Structure_OriginHindu.symbolPacks.3.member>تانتران</Structure_OriginHindu.symbolPacks.3.member>
+  <!-- EN: Vedic -->
+  <Structure_OriginHindu.symbolPacks.4.adjective>فيدي</Structure_OriginHindu.symbolPacks.4.adjective>
+  <!-- EN: Vedism -->
+  <Structure_OriginHindu.symbolPacks.4.ideoName>الفيدية</Structure_OriginHindu.symbolPacks.4.ideoName>
+  <!-- EN: Vedi -->
+  <Structure_OriginHindu.symbolPacks.4.member>فيدي</Structure_OriginHindu.symbolPacks.4.member>
+  <!-- EN: Dharmic -->
+  <Structure_OriginHindu.symbolPacks.5.adjective>دارمي</Structure_OriginHindu.symbolPacks.5.adjective>
+  <!-- EN: Dharmism -->
+  <Structure_OriginHindu.symbolPacks.5.ideoName>الدارمية</Structure_OriginHindu.symbolPacks.5.ideoName>
+  <!-- EN: Dharmi -->
+  <Structure_OriginHindu.symbolPacks.5.member>دارمي</Structure_OriginHindu.symbolPacks.5.member>
+  <!-- EN: Vaishmayan -->
+  <Structure_OriginHindu.symbolPacks.6.adjective>فايشمايان</Structure_OriginHindu.symbolPacks.6.adjective>
+  <!-- EN: Vaishmaya -->
+  <Structure_OriginHindu.symbolPacks.6.ideoName>فايشمايا</Structure_OriginHindu.symbolPacks.6.ideoName>
+  <!-- EN: Vaishnava -->
+  <Structure_OriginHindu.symbolPacks.6.member>فايشنافا</Structure_OriginHindu.symbolPacks.6.member>
+  <!-- EN: Shaivan -->
+  <Structure_OriginHindu.symbolPacks.7.adjective>شايفان</Structure_OriginHindu.symbolPacks.7.adjective>
+  <!-- EN: Shaivmaya -->
+  <Structure_OriginHindu.symbolPacks.7.ideoName>شايفمايا</Structure_OriginHindu.symbolPacks.7.ideoName>
+  <!-- EN: Shaiva -->
+  <Structure_OriginHindu.symbolPacks.7.member>شايفا</Structure_OriginHindu.symbolPacks.7.member>
+  <!-- EN: Yogic -->
+  <Structure_OriginHindu.symbolPacks.8.adjective>يوغي</Structure_OriginHindu.symbolPacks.8.adjective>
+  <!-- EN: Yoga -->
+  <Structure_OriginHindu.symbolPacks.8.ideoName>اليوغا</Structure_OriginHindu.symbolPacks.8.ideoName>
+  <!-- EN: Yogi -->
+  <Structure_OriginHindu.symbolPacks.8.member>يوغي</Structure_OriginHindu.symbolPacks.8.member>
+  <!-- EN: Nyayan -->
+  <Structure_OriginHindu.symbolPacks.9.adjective>نيايان</Structure_OriginHindu.symbolPacks.9.adjective>
+  <!-- EN: Nyaya -->
+  <Structure_OriginHindu.symbolPacks.9.ideoName>نيايا</Structure_OriginHindu.symbolPacks.9.ideoName>
+  <!-- EN: Nyava -->
+  <Structure_OriginHindu.symbolPacks.9.member>نيايا</Structure_OriginHindu.symbolPacks.9.member>
+  <!-- EN: Vaisesikan -->
+  <Structure_OriginHindu.symbolPacks.10.adjective>فايشيشيكان</Structure_OriginHindu.symbolPacks.10.adjective>
+  <!-- EN: Vaisesika -->
+  <Structure_OriginHindu.symbolPacks.10.ideoName>فايشيشيكا</Structure_OriginHindu.symbolPacks.10.ideoName>
+  <!-- EN: Vaisesikaya -->
+  <Structure_OriginHindu.symbolPacks.10.member>فايشيشيكايا</Structure_OriginHindu.symbolPacks.10.member>
+  <!-- EN: Samkhyan -->
+  <Structure_OriginHindu.symbolPacks.11.adjective>سامخيان</Structure_OriginHindu.symbolPacks.11.adjective>
+  <!-- EN: Samkhya -->
+  <Structure_OriginHindu.symbolPacks.11.ideoName>سامخيا</Structure_OriginHindu.symbolPacks.11.ideoName>
+  <!-- EN: Samkhyan -->
+  <Structure_OriginHindu.symbolPacks.11.member>سامخيان</Structure_OriginHindu.symbolPacks.11.member>
+  <!-- EN: Mimamsan -->
+  <Structure_OriginHindu.symbolPacks.12.adjective>ميمامسان</Structure_OriginHindu.symbolPacks.12.adjective>
+  <!-- EN: Mimamsa -->
+  <Structure_OriginHindu.symbolPacks.12.ideoName>ميمامسا</Structure_OriginHindu.symbolPacks.12.ideoName>
+  <!-- EN: Mimamsan -->
+  <Structure_OriginHindu.symbolPacks.12.member>ميمامسان</Structure_OriginHindu.symbolPacks.12.member>
+  <!-- EN: Vedantan -->
+  <Structure_OriginHindu.symbolPacks.13.adjective>فيدانتان</Structure_OriginHindu.symbolPacks.13.adjective>
+  <!-- EN: Vedanta -->
+  <Structure_OriginHindu.symbolPacks.13.ideoName>فيدانتا</Structure_OriginHindu.symbolPacks.13.ideoName>
+  <!-- EN: Vedantan -->
+  <Structure_OriginHindu.symbolPacks.13.member>فيدانتان</Structure_OriginHindu.symbolPacks.13.member>
+  <!-- EN: shrine -->
+  <Structure_OriginHindu.worshipRoomLabel>مزار</Structure_OriginHindu.worshipRoomLabel>
+  
+  <!-- EN: Islamic origin -->
+  <Structure_OriginIslamic.label>أصل إسلامي</Structure_OriginIslamic.label>
+  <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Islam. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+  <Structure_OriginIslamic.description>هذه صيغة من البنية الإلهية المجردة. هذه العقيدة سليلة الإسلام القديم. قد تختلف تعاليمها كثيراً عن تلك التي كانت قبل آلاف السنين، لكن رموزها متشابهة.</Structure_OriginIslamic.description>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mullah</li>
+    <li>memeLeaderNoun->imam</li>
+    <li>memeLeaderNoun->caliph</li>
+    <li>memeLeaderNoun->mufti</li>
+    <li>memeLeaderNoun->almami</li>
+    <li>memeLeaderNoun->kyai</li>
+    <li>memeLeaderNoun->ayatollah</li>
+    <li>memeLeaderAdjective->grand</li>
+    <li>memeMoralist(p=4)->imam</li>
+    <li>memeMoralist->qadi</li>
+    <li>memeMoralist->alim</li>
+    <li>memeMoralist->allamah</li>
+    <li>memeMoralist->muezzin</li>
+    <li>memeMoralist->mujtahid</li>
+    <li>memeMoralist->cleric</li>
+  -->
+  <Structure_OriginIslamic.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->ملا</li>
+    <li>memeLeaderNoun->إمام</li>
+    <li>memeLeaderNoun->خليفة</li>
+    <li>memeLeaderNoun->مفتي</li>
+    <li>memeLeaderNoun->ألمامي</li>
+    <li>memeLeaderNoun->كياي</li>
+    <li>memeLeaderNoun->آية الله</li>
+    <li>memeLeaderAdjective->عظيم</li>
+    <li>memeMoralist(p=4)->إمام</li>
+    <li>memeMoralist->قاضي</li>
+    <li>memeMoralist->عالم</li>
+    <li>memeMoralist->علامة</li>
+    <li>memeMoralist->مؤذن</li>
+    <li>memeMoralist->مجتهد</li>
+    <li>memeMoralist->عالم دين</li>
+ </Structure_OriginIslamic.generalRules.rulesStrings>
+  <!-- EN: Islamic -->
+  <Structure_OriginIslamic.symbolPacks.0.adjective>إسلامي</Structure_OriginIslamic.symbolPacks.0.adjective>
+  <!-- EN: Islam -->
+  <Structure_OriginIslamic.symbolPacks.0.ideoName>الإسلام</Structure_OriginIslamic.symbolPacks.0.ideoName>
+  <!-- EN: Muslim -->
+  <Structure_OriginIslamic.symbolPacks.0.member>مسلم</Structure_OriginIslamic.symbolPacks.0.member>
+  <!-- EN: Islamist -->
+  <Structure_OriginIslamic.symbolPacks.1.adjective>إسلاموي</Structure_OriginIslamic.symbolPacks.1.adjective>
+  <!-- EN: Islamism -->
+  <Structure_OriginIslamic.symbolPacks.1.ideoName>الإسلاموية</Structure_OriginIslamic.symbolPacks.1.ideoName>
+  <!-- EN: Islamist -->
+  <Structure_OriginIslamic.symbolPacks.1.member>إسلاموي</Structure_OriginIslamic.symbolPacks.1.member>
+  <!-- EN: Shiite -->
+  <Structure_OriginIslamic.symbolPacks.2.adjective>شيعي</Structure_OriginIslamic.symbolPacks.2.adjective>
+  <!-- EN: Shiism -->
+  <Structure_OriginIslamic.symbolPacks.2.ideoName>التشيع</Structure_OriginIslamic.symbolPacks.2.ideoName>
+  <!-- EN: Shiite -->
+  <Structure_OriginIslamic.symbolPacks.2.member>شيعي</Structure_OriginIslamic.symbolPacks.2.member>
+  <!-- EN: Sunni -->
+  <Structure_OriginIslamic.symbolPacks.3.adjective>سني</Structure_OriginIslamic.symbolPacks.3.adjective>
+  <!-- EN: Sunnism -->
+  <Structure_OriginIslamic.symbolPacks.3.ideoName>أهل السنة</Structure_OriginIslamic.symbolPacks.3.ideoName>
+  <!-- EN: Sunni -->
+  <Structure_OriginIslamic.symbolPacks.3.member>سني</Structure_OriginIslamic.symbolPacks.3.member>
+  <!-- EN: Ibadi -->
+  <Structure_OriginIslamic.symbolPacks.4.adjective>إباضي</Structure_OriginIslamic.symbolPacks.4.adjective>
+  <!-- EN: Ibadism -->
+  <Structure_OriginIslamic.symbolPacks.4.ideoName>الإباضية</Structure_OriginIslamic.symbolPacks.4.ideoName>
+  <!-- EN: Ibadi -->
+  <Structure_OriginIslamic.symbolPacks.4.member>إباضي</Structure_OriginIslamic.symbolPacks.4.member>
+  <!-- EN: Ismaili -->
+  <Structure_OriginIslamic.symbolPacks.5.adjective>إسماعيلي</Structure_OriginIslamic.symbolPacks.5.adjective>
+  <!-- EN: Ismailism -->
+  <Structure_OriginIslamic.symbolPacks.5.ideoName>الإسماعيلية</Structure_OriginIslamic.symbolPacks.5.ideoName>
+  <!-- EN: Ismaili -->
+  <Structure_OriginIslamic.symbolPacks.5.member>إسماعيلي</Structure_OriginIslamic.symbolPacks.5.member>
+  <!-- EN: Mustalic -->
+  <Structure_OriginIslamic.symbolPacks.6.adjective>مستعلي</Structure_OriginIslamic.symbolPacks.6.adjective>
+  <!-- EN: Mustalism -->
+  <Structure_OriginIslamic.symbolPacks.6.ideoName>المستعلية</Structure_OriginIslamic.symbolPacks.6.ideoName>
+  <!-- EN: Mustali -->
+  <Structure_OriginIslamic.symbolPacks.6.member>مستعلي</Structure_OriginIslamic.symbolPacks.6.member>
+  <!-- EN: Tayyibic -->
+  <Structure_OriginIslamic.symbolPacks.7.adjective>طيبي</Structure_OriginIslamic.symbolPacks.7.adjective>
+  <!-- EN: Tayyibism -->
+  <Structure_OriginIslamic.symbolPacks.7.ideoName>الطيبية</Structure_OriginIslamic.symbolPacks.7.ideoName>
+  <!-- EN: Tayyibist -->
+  <Structure_OriginIslamic.symbolPacks.7.member>طيبي</Structure_OriginIslamic.symbolPacks.7.member>
+  <!-- EN: Nizalist -->
+  <Structure_OriginIslamic.symbolPacks.8.adjective>نزاري</Structure_OriginIslamic.symbolPacks.8.adjective>
+  <!-- EN: Nizalism -->
+  <Structure_OriginIslamic.symbolPacks.8.ideoName>النزارية</Structure_OriginIslamic.symbolPacks.8.ideoName>
+  <!-- EN: Nizalist -->
+  <Structure_OriginIslamic.symbolPacks.8.member>نزاري</Structure_OriginIslamic.symbolPacks.8.member>
+  <!-- EN: Surfrist -->
+  <Structure_OriginIslamic.symbolPacks.9.adjective>سرفري</Structure_OriginIslamic.symbolPacks.9.adjective>
+  <!-- EN: Sufrism -->
+  <Structure_OriginIslamic.symbolPacks.9.ideoName>السرفرية</Structure_OriginIslamic.symbolPacks.9.ideoName>
+  <!-- EN: Surfist -->
+  <Structure_OriginIslamic.symbolPacks.9.member>سرفري</Structure_OriginIslamic.symbolPacks.9.member>
+  <!-- EN: Qadirist -->
+  <Structure_OriginIslamic.symbolPacks.10.adjective>قادري</Structure_OriginIslamic.symbolPacks.10.adjective>
+  <!-- EN: Qadirism -->
+  <Structure_OriginIslamic.symbolPacks.10.ideoName>القادرية</Structure_OriginIslamic.symbolPacks.10.ideoName>
+  <!-- EN: Qadirist -->
+  <Structure_OriginIslamic.symbolPacks.10.member>قادري</Structure_OriginIslamic.symbolPacks.10.member>
+  <!-- EN: Zahirist -->
+  <Structure_OriginIslamic.symbolPacks.11.adjective>ظاهري</Structure_OriginIslamic.symbolPacks.11.adjective>
+  <!-- EN: Zahirism -->
+  <Structure_OriginIslamic.symbolPacks.11.ideoName>الظاهرية</Structure_OriginIslamic.symbolPacks.11.ideoName>
+  <!-- EN: Zahirist -->
+  <Structure_OriginIslamic.symbolPacks.11.member>ظاهري</Structure_OriginIslamic.symbolPacks.11.member>
+  <!-- EN: Azraqi -->
+  <Structure_OriginIslamic.symbolPacks.12.adjective>أزرقي</Structure_OriginIslamic.symbolPacks.12.adjective>
+  <!-- EN: Azraqism -->
+  <Structure_OriginIslamic.symbolPacks.12.ideoName>الأزرقية</Structure_OriginIslamic.symbolPacks.12.ideoName>
+  <!-- EN: Azraqi -->
+  <Structure_OriginIslamic.symbolPacks.12.member>أزرقي</Structure_OriginIslamic.symbolPacks.12.member>
+  <!-- EN: Wahhabi -->
+  <Structure_OriginIslamic.symbolPacks.13.adjective>وهابي</Structure_OriginIslamic.symbolPacks.13.adjective>
+  <!-- EN: Wahhabism -->
+  <Structure_OriginIslamic.symbolPacks.13.ideoName>الوهابية</Structure_OriginIslamic.symbolPacks.13.ideoName>
+  <!-- EN: Wahhabi -->
+  <Structure_OriginIslamic.symbolPacks.13.member>وهابي</Structure_OriginIslamic.symbolPacks.13.member>
+  <!-- EN: Caliphic -->
+  <Structure_OriginIslamic.symbolPacks.14.adjective>خلافي</Structure_OriginIslamic.symbolPacks.14.adjective>
+  <!-- EN: Caliphate -->
+  <Structure_OriginIslamic.symbolPacks.14.ideoName>الخلافة</Structure_OriginIslamic.symbolPacks.14.ideoName>
+  <!-- EN: Caliphist -->
+  <Structure_OriginIslamic.symbolPacks.14.member>خلافي</Structure_OriginIslamic.symbolPacks.14.member>
+  <!-- EN: mosque -->
+  <Structure_OriginIslamic.worshipRoomLabel>مسجد</Structure_OriginIslamic.worshipRoomLabel>
+  
+</LanguageData>

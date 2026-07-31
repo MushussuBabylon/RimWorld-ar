@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Royal titles -->
+  <!-- EN: {TITLE} title lost: {PAWN_labelShort} -->
+  <LetterLabelLostRoyalTitle>فقد لقب {TITLE}: {PAWN_labelShort}</LetterLabelLostRoyalTitle>
+  <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
+  <LetterLabelGainedRoyalTitle>اكتساب لقب {TITLE}: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
+
+  <!-- EN: Permit points awarded: {0}. -->
+  <PermitPointsAwarded>نقاط الإذن الممنوحة: {0}.</PermitPointsAwarded>
+
+  <!-- EN: This title requires apparel of {1} quality or better. -->
+  <LetterRoyalTitleApparelQualityRequirement>هذا اللقب يتطلب ملابس بجودة {1} أو أفضل.</LetterRoyalTitleApparelQualityRequirement>
+  <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
+  <LetterRoyalTitleApparelRequirement>هذا اللقب يتطلب ملابس تناسب لقب {PAWN_possessive}:</LetterRoyalTitleApparelRequirement>
+  <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
+  <LetterRoyalTitleExpectation>توقعات {PAWN_possessive} لن تقل أبداً عن {1}.</LetterRoyalTitleExpectation>
+  
+  <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
+  <LetterRoyalTitleConceitedTrait>بما أن {PAWN_labelShort} {1}، فسيطالب {PAWN_pronoun} بأن تُحترم امتيازات هذا اللقب بالكامل. قد يرفض {PAWN_pronoun} القيام بأنواع معينة من العمل، وتناول طعام من طبقة متدنية، وسيصدر مراسيم.</LetterRoyalTitleConceitedTrait>
+
+  <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
+  <LetterGainedRoyalTitle>حصل {PAWN_labelShort} على لقب {TITLE} من {FACTION_name}!</LetterGainedRoyalTitle>
+  <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
+  <LetterLostRoyalTitle>لم يعد {PAWN_labelShort} يحمل لقب {TITLE} لدى {FACTION_name}.</LetterLostRoyalTitle>
+  <!-- EN: Title rewards -->
+  <LetterLabelRewardsForNewTitle>مكافآت اللقب</LetterLabelRewardsForNewTitle>
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
+  <LetterRewardsForNewTitle>لتكريم ترقية {PAWN_labelShort} إلى لقب {TITLE}، أرسلت {FACTION_name} لـ {PAWN_objective} المكافأة (المكافآت) التالية:</LetterRewardsForNewTitle>
+  <!-- EN: Rewards have arrived to your colony via transport pods. -->
+  <LetterRewardsForNewTitleDeliveryBase>وصلت المكافآت إلى مستعمرتك عبر كبسولات النقل.</LetterRewardsForNewTitleDeliveryBase>
+  <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
+  <LetterRewardsForNewTitleDeliveryDirect>تم تسليم المكافآت مباشرة إلى مخزون {PAWN_labelShort}.</LetterRewardsForNewTitleDeliveryDirect>
+
+  <!-- EN: {PAWN_pronoun} has these permissions: -->
+  <LetterRoyalTitlePermits>{PAWN_pronoun} لديه هذه الأذونات:</LetterRoyalTitlePermits>
+  <!-- EN: {PAWN_pronoun} lost these permissions: -->
+  <LetterRoyalTitleLostPermits>فقد {PAWN_pronoun} هذه الأذونات:</LetterRoyalTitleLostPermits>
+
+  <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
+  <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} غير مستعد للقيام بأنواع العمل هذه:\n{1}</LetterRoyalTitleDisabledWorkTag>
+
+  <!-- EN: {PAWN_pronoun} can now use this recreation: -->
+  <LetterRoyalTitleEnabledJoyKind>يمكن لـ {PAWN_pronoun} الآن استخدام هذا الترفيه:</LetterRoyalTitleEnabledJoyKind>
+  <!-- EN: This title forbids using this recreation: -->
+  <LetterRoyalTitleDisabledJoyKind>هذا اللقب يمنع استخدام هذا الترفيه:</LetterRoyalTitleDisabledJoyKind>
+
+  <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
+  <LetterRoyalTitleAllowedImplants>مسموح لـ {PAWN_pronoun} باستخدام هذه الزرعات:{1}</LetterRoyalTitleAllowedImplants>
+  <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
+  <LetterRoyalTitleImplantsMustBeRemoved>لم يعد مسموحاً لـ {PAWN_pronoun} باستخدام هذه الزرعات:{1}</LetterRoyalTitleImplantsMustBeRemoved>
+  <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
+  <LetterRoyalTitleImplantGracePeriod>يجب استخراج الزرعات خلال فترة سماح مدتها خمسة أيام لتجنب عواقب دبلوماسية.</LetterRoyalTitleImplantGracePeriod>
+  <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
+  <LetterRoyalTitleSpeechAbilityGained>يمكن لـ {PAWN_pronoun} الآن إلقاء خطابات من العرش. إذا سارت الأمور على ما يرام، سيشعر المستمعون بالإلهام. إذا سارت بشكل سيئ، فسيسبب الخطاب ضرراً اجتماعياً. تعتمد النتيجة على قدرات {PAWN_labelShort} الاجتماعية.</LetterRoyalTitleSpeechAbilityGained>
+  <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
+  <LetterRoyalTitleThroneroomRequirements>يتطلب هذا اللقب غرفة عرش تستوفي هذه المتطلبات:{1}</LetterRoyalTitleThroneroomRequirements>
+  <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
+  <LetterRoyalTitleBedroomRequirements>يتطلب هذا اللقب غرفة نوم تستوفي هذه المتطلبات:{1}</LetterRoyalTitleBedroomRequirements>
+  <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
+  <LetterRoyalTitleFoodRequirements>ينص هذا اللقب على أن {PAWN_pronoun} يجب أن يأكل فقط هذه الأطعمة:{1}</LetterRoyalTitleFoodRequirements>
+
+  <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
+  <LetterRoyalTitleRewardGranted>سيتلقى {PAWN_pronoun} الأغراض التالية عبر كبسولة نقل:{1}</LetterRoyalTitleRewardGranted>
+  <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
+  <PeaceTalksRoyalFavorGain>اكتسب {PAWN_labelShort} {1} {FACTION_royalFavorLabel} من {FACTION_name}.</PeaceTalksRoyalFavorGain>
+
+  <!-- Royal heritage-->
+  <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
+  <LetterRoyalTitleHeir>إذا مات {PAWN_pronoun}، سيرث هذا اللقب {HEIR_nameFull}.</LetterRoyalTitleHeir>
+  <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
+  <LetterRoyalTitleNoHeir>إذا مات {PAWN_pronoun}، لن يرث أحد هذا اللقب.</LetterRoyalTitleNoHeir>
+  <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
+  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull} عضو في {FACTION_name}.</LetterRoyalTitleHeirFactionWarning>
+  <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
+  <LetterRoyalTitleChangingHeir>يمكن اختيار وريث جديد بالاتصال بـ {FACTION_name} عبر جهاز الاتصال.</LetterRoyalTitleChangingHeir>
+  <!-- EN: Heir lost -->
+  <LetterTitleHeirLostLabel>فُقد الوريث</LetterTitleHeirLostLabel>
+  <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
+  <LetterTitleHeirLost>مات {HEIR_nameFull}، تاركاً {HOLDER_labelShort} بدون وريث للقب الذي تسلمه من {FACTION_name}. يمكنك الاتصال بـ {FACTION_name} عبر جهاز الاتصال لتعيين وريث جديد.</LetterTitleHeirLost>
+  <!-- EN: The title of {TITLE} cannot be inherited. -->
+  <LetterRoyalTitleCantBeInherited>لقب {TITLE} لا يمكن توريثه.</LetterRoyalTitleCantBeInherited>
+
+
+  <!-- EN: Title inheritance -->
+  <LetterTitleInheritance>توريث اللقب</LetterTitleInheritance>
+  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
+  <LetterTitleInheritance_Base>بما أن {PAWN_nameFull} مات، فسيتم نقل ألقاب {PAWN_possessive} إلى ورثة {PAWN_possessive}.</LetterTitleInheritance_Base>
+  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
+  <LetterTitleInheritance_AsReplacement>ورث {HEIR_nameFull} لقب {PAWN_possessive} {TITLE}، وفقاً لقوانين الخلافة في {FACTION_name}. سيستبدل لقب {HEIR_possessive} {REPLACEDTITLE} عند اكتمال حفل المنح.</LetterTitleInheritance_AsReplacement>
+  <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
+  <LetterTitleInheritance_NoEffectHigherTitle>كان من الممكن أن يرث {HEIR_nameFull} لقب {PAWN_possessive} {TITLE} وفقاً لقوانين الخلافة في {FACTION_name}، لكن {HEIR_pronoun} كان لديه بالفعل لقب {HIGHERTITLE}.</LetterTitleInheritance_NoEffectHigherTitle>
+  <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
+  <LetterTitleInheritance_WasInherited>سيرث {HEIR_nameFull} لقب {PAWN_possessive} {TITLE} عند اكتمال حفل المنح، وفقاً لقوانين الخلافة في {FACTION_name}.</LetterTitleInheritance_WasInherited>
+  <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
+  <LetterTitleInheritance_NoHeirFound>لم يرث أحد لقب {PAWN_possessive} {TITLE}، لأن {PAWN_pronoun} لم يكن لديه وريث معين لهذا اللقب.</LetterTitleInheritance_NoHeirFound>
+
+  <!-- Royal implant violations -->
+  <!-- EN: Lawbreaker: {PAWN_labelShort} -->
+  <LetterLawViolationDetectedLabel>مخالف للقانون: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
+  <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
+  <LetterLawViolationDetectedForbiddenThingUse>رصدت {FACTION_name} استخدام {PAWN_labelShort} غير القانوني لـ: {CULPRIT} (فرصة الاكتشاف {CHANCE}).\n\nوفقاً لقوانين {FACTION_name}، فقط أولئك الذين يحملون لقب {TITLE} مسموح لهم باستخدام {CULPRIT}.\n\nكعقوبة، انخفضت علاقات فصيلك بمقدار {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
+
+  <!-- Wild decree mental break -->
+  <!-- EN: Wild decree -->
+  <WildDecree>مرسوم طائش</WildDecree>
+  <!-- EN: {0_nameIndef} issues decree -->
+  <LetterLabelRandomDecree>:أصدر {0_nameIndef} مرسوماً</LetterLabelRandomDecree>
+  <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
+    \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
+  <LetterDecreeMentalBreak>{0_nameIndef}، في محاولة للتخفيف من توتر {0_possessive}، أصدر مرسوماً ملكياً طائشاً ويطالب الآن بتنفيذه.
+    \nإذا لم يتم تنفيذه في الوقت المناسب، سيصبح {0_nameIndef} غير سعيد للغاية.</LetterDecreeMentalBreak>
+  <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
+    \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
+  <LetterRandomDecree>{0_nameIndef}، من أجل تأكيد لقب {0_possessive} كـ {0_bestRoyalTitleIndef}، أصدر مرسوماً ويطالب الآن بتنفيذه.
+    \nإذا لم يتم تنفيذه في الوقت المناسب، سيصبح {0_nameIndef} غير سعيد للغاية.</LetterRandomDecree>
+  <!-- EN: The decree is titled "{0}". -->
+  <LetterDecree_Quest>المرسوم بعنوان "{0}".</LetterDecree_Quest>
+  
+  <!-- Lent colonist died -->
+  <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
+  <LentColonistDied>تمت إعارة {PAWN_nameDef} إلى {FACTION}. سيعيدون جثة {PAWN_nameDef} قريباً.</LentColonistDied>  
+
+  <!-- Psylink -->
+  <!-- EN: Psylink gained -->
+  <LetterLabelPsylinkLevelGained>اكتساب رابط نفسي</LetterLabelPsylinkLevelGained>
+  <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
+  <LetterPsylinkLevelGained_First>اكتسب {USER_labelShort} المستوى الأول من الرابط النفسي لـ {USER_possessive}! أصبح {USER_pronoun} الآن سايكاستر.\n\nلاستخدام القوى النفسية، يجب على {USER_labelShort} بناء التركيز النفسي من خلال التأمل. تزداد فعالية هذا التأمل إذا كان الشخص قادراً على التركيز على كائن محدد أثناء التأمل.\n\nيستطيع الأشخاص المختلفون التركيز على كائنات مختلفة. يعتمد هذا على القصص الخلفية للشخص وسماته وألقابه. على سبيل المثال:\n\n- السايكاستر ذوو الألقاب الملكية يتأملون على عروشهم.\n- السايكاستر ذوو الطفولة القبلية يتأملون لأشجار الأنيما وأضرحة الطبيعة.\n- السايكاستر الزاهدون يتأملون للجدران الفارغة.\n- السايكاستر المختلون عقلياً يتأملون للقبور، ويفضل أن يكون بداخلها شخص عزيز.\n\nيمكنك رؤية أنواع تركيز التأمل لشخص ما بالاطلاع على بطاقة معلوماته بالزر 'i'.</LetterPsylinkLevelGained_First>
+  <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
+  <LetterPsylinkLevelGained_NotFirst>اكتسب {USER_labelShort} مستوى جديداً من الرابط النفسي! يمكن لـ {USER_pronoun} الآن استخدام قوى نفسية من ذلك المستوى الأعلى، لكن {USER_pronoun} يحتاج إلى تعلمها أولاً.</LetterPsylinkLevelGained_NotFirst>
+  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
+  <LetterPsylinkLevelGained_PsycastLearned>عند اكتساب المستوى الجديد من الرابط النفسي، تعلم {USER_labelShort} تلقائياً هذه القوى النفسية: {2}</LetterPsylinkLevelGained_PsycastLearned>
+  
+  <!-- Abilities -->
+  <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterPsychicInspiration>بفضل الإيحاء النفسي من {CASTER_nameIndef}، اختبر {PAWN_nameIndef} إلهاماً!</LetterPsychicInspiration>
+
+  <!-- EN: Bestowing ceremony expired -->
+  <LetterLabelBestowingCeremonyExpired>انتهت صلاحية حفل المنح</LetterLabelBestowingCeremonyExpired>
+  <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
+  <LetterTextBestowingCeremonyExpired>لم يحضر {TARGET_definite} إلى حفل المنح. تم إلغاء الحفل.</LetterTextBestowingCeremonyExpired>
+
+  <!-- EN: {TARGET_definite}'s title changed -->
+  <LetterLabelBestowingCeremonyTitleUpdated>تغير لقب {TARGET_definite}</LetterLabelBestowingCeremonyTitleUpdated>
+  <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
+  <LetterTextBestowingCeremonyTitleUpdated>حصل {TARGET_definite} على لقب جديد منذ جدولة حفل المنح. لكي يتطابق المنح مع اللقب الجديد، ستتم جدولة حفل آخر قريباً.\n\nسيتضمن حفل المنح الجديد مكافآت الرابط النفسي لجميع الألقاب التي لم تمنح بعد.</LetterTextBestowingCeremonyTitleUpdated>
+  
+  <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
+  <LetterPartBestowingExtraHonor>تلقى {PAWN_labelShort} {1} شرف كعلامة احترام من {FACTION_name}، لجمع {3} متفرج.</LetterPartBestowingExtraHonor>
+  <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
+  <LetterPartNoExtraHonor>لم يتلق {PAWN_labelShort} شرفاً إضافياً لأنه لم يكن هناك الكثير من المتفرجين.</LetterPartNoExtraHonor>
+  <!-- EN: All viewers of the ceremony received a mood bonus. -->
+  <LetterPartMoodBonus>حصل جميع مشاهدي الحفل على مكافأة مزاج.</LetterPartMoodBonus>
+
+  <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
+  <LetterTextHonorAward_BanditCamp>من يجب أن يُنسب إليه الفضل بـ {0} لهزيمة معسكر قطاع الطرق؟</LetterTextHonorAward_BanditCamp>
+
+  <!-- Shuttle crash -->
+  <!-- EN: Shuttle crashed -->
+  <LetterLabelShuttleCrashed>تحطم المكوك</LetterLabelShuttleCrashed>
+  <!-- EN: A shuttle has crashed nearby -->
+  <LetterTextShuttleCrashed>تحطم مكوك بالقرب</LetterTextShuttleCrashed>
+
+  <!-- Wanderer joins -->
+  <!-- EN: Transport pod crash: {0_nameDef} -->
+  <LetterLabelWandererJoinsAbasia>تحطم كبسولة نقل: {0_nameDef}</LetterLabelWandererJoinsAbasia>
+  <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
+  <LetterTextWandererJoinsAbasia>{0_title} يُدعى {0_nameDef} يتحطم في كبسولة نقل قريبة.\n\n{0_nameDef} يعاني من {1_label} ولن يتمكن من المشي.\n\nسيتعافى {0_pronoun} بشكل طبيعي بعد عدة أيام. هناك أيضاً احتمال للتعافي السريع لحسن الحظ. يمكن أيضاً علاج {1_label} بعملية خاصة تتطلب كمية كبيرة من أدوية غليتروورلد.\n\n{0_pronoun} مستعد للمساهمة بمجرد أن يتعافى {0_pronoun}، لكنه لن يغادر طواعية. إذا كنت لا تريد {0_nameDef}، يمكنك نفي {0_objective}، أو بيع {0_objective} كعبد أو ترك {0_objective} ليموت. ومع ذلك، قد يجد مستعمروك الآخرون هذا مزعجاً.</LetterTextWandererJoinsAbasia>
+
+</LanguageData>

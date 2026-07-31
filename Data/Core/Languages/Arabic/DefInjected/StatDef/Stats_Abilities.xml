@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: casting time -->
+  <Ability_CastingTime.label>وقت الإلقاء</Ability_CastingTime.label>
+  <!-- EN: How long it takes to perform this ability. -->
+  <Ability_CastingTime.description>الوقت المستغرق لأداء هذه القدرة.</Ability_CastingTime.description>
+  <!-- EN: {0} s -->
+  <Ability_CastingTime.formatString>{0} ثانية</Ability_CastingTime.formatString>
+  
+  <!-- EN: detection chance -->
+  <Ability_DetectChancePerEntropy.label>فرصة الاكتشاف</Ability_DetectChancePerEntropy.label>
+  <!-- EN: The likelihood of this psychic power being detected when it is used.\n\nSome factions try to enforce laws which restrict some powers to those holding specific titles. When you use a power, there is a chance that the psychic signature will be detected at a distance, which leads to diplomatic consequences. -->
+  <Ability_DetectChancePerEntropy.description>احتمالية اكتشاف هذه القوة النفسية عند استخدامها.\n\nتحاول بعض الفصائل فرض قوانين تقيد بعض القوى لمن يحملون ألقابًا معينة. عند استخدام قوة، هناك فرصة أن يتم اكتشاف البصمة النفسية عن بعد، مما يؤدي إلى عواقب دبلوماسية.</Ability_DetectChancePerEntropy.description>
+  
+  <!-- EN: duration -->
+  <Ability_Duration.label>المدة</Ability_Duration.label>
+  <!-- EN: How long the effects of this ability last. -->
+  <Ability_Duration.description>مدة استمرار تأثيرات هذه القدرة.</Ability_Duration.description>
+  <!-- EN: {0} s -->
+  <Ability_Duration.formatString>{0} ثانية</Ability_Duration.formatString>
+  
+  <!-- EN: effect radius -->
+  <Ability_EffectRadius.label>نصف قطر التأثير</Ability_EffectRadius.label>
+  <!-- EN: The radius of the area of effect of this ability. -->
+  <Ability_EffectRadius.description>نصف قطر منطقة تأثير هذه القدرة.</Ability_EffectRadius.description>
+  
+  <!-- EN: neural heat gain -->
+  <Ability_EntropyGain.label>اكتساب الحرارة العصبية</Ability_EntropyGain.label>
+  <!-- EN: How much neural heat will be added as a result of performing this ability. -->
+  <Ability_EntropyGain.description>مقدار الحرارة العصبية المضافة نتيجة لأداء هذه القدرة.</Ability_EntropyGain.description>
+  
+  <!-- EN: goodwill impact -->
+  <Ability_GoodwillImpact.label>تأثير حسن النية</Ability_GoodwillImpact.label>
+  <!-- EN: How casting this ability on someone will impact relations with their faction. -->
+  <Ability_GoodwillImpact.description>كيف سيؤثر إلقاء هذه القدرة على شخص ما على العلاقات مع فصيله.</Ability_GoodwillImpact.description>
+  
+  <!-- EN: psyfocus cost -->
+  <Ability_PsyfocusCost.label>تكلفة التركيز النفسي</Ability_PsyfocusCost.label>
+  <!-- EN: How much psyfocus must be spent to perform this ability. -->
+  <Ability_PsyfocusCost.description>مقدار التركيز النفسي الذي يجب إنفاقه لأداء هذه القدرة.</Ability_PsyfocusCost.description>
+  
+  <!-- EN: range -->
+  <Ability_Range.label>المدى</Ability_Range.label>
+  <!-- EN: The maximum distance to a target of this ability, or to the center of the target location. -->
+  <Ability_Range.description>أقصى مسافة لهدف هذه القدرة، أو لمركز الموقع المستهدف.</Ability_Range.description>
+  
+  <!-- EN: psylink level -->
+  <Ability_RequiredPsylink.label>مستوى الرابط النفسي</Ability_RequiredPsylink.label>
+  <!-- EN: The minimum psylink level required to use this ability. -->
+  <Ability_RequiredPsylink.description>الحد الأدنى لمستوى الرابط النفسي المطلوب لاستخدام هذه القدرة.</Ability_RequiredPsylink.description>
+  
+</LanguageData>

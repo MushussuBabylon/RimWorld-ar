@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: <rulesStrings>... -->
+  <Util_GenerateSite.root.singleSitePartRules.slateRef><rulesStrings><li>root(priority=1,sitePart==ClimateAdjuster)->توجد هناك (*Threat)آلة ضبط مناخ(/Threat) تغير درجة الحرارة الإقليمية بمقدار [temperatureOffset]</li><li>root(priority=1,sitePart==PsychicDroner)->توجد هناك (*Threat)آلة طنين نفسي(/Threat) مضبوطة على الجنس [affectedGender]</li><li>root(priority=1,sitePart==PsychicSuppressor)->توجد هناك (*Threat)آلة كبت نفسي(/Threat) مضبوطة على الجنس [affectedGender]</li><li>root(priority=1,sitePart==WeatherController)->توجد هناك (*Threat)آلة تحكم بالطقس(/Threat) تفرض طقس [weather_label] على المنطقة بأكملها</li><li>root(priority=1,sitePart==SmokeSpewer)->توجد هناك (*Threat)آلة نفث دخان(/Threat) تنفث الدخان فوق المنطقة بأكملها</li><li>root(priority=1,sitePart==SunBlocker)->توجد هناك (*Threat)آلة حجب الشمس(/Threat) تظلل المنطقة بأكملها</li><li>root(priority=1,sitePart==EMIDynamo)->توجد هناك (*Threat)آلة دينامو EMI(/Threat) يمكنها تعطيل الأجهزة الكهربائية في جميع أنحاء المنطقة</li><li>root(priority=1,sitePart==ToxicSpewer)->توجد هناك (*Threat)آلة نفث سام(/Threat) تغطي المنطقة بأكملها بالسموم</li><li>root(priority=1,sitePart==RaidSource)->توجد منطقة تجمع عسكرية يحرسها (*Threat)[enemiesCount] [enemiesLabel](/Threat) ستشن غارات عليك كل [mtbDays]</li><li>root(priority=1,sitePart==Outpost)->توجد نقطة متقدمة للعدو في الموقع يحرسها (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==BanditCamp)->يوجد معسكر قطاع طرق في الموقع يحرسه (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)[kindLabel] صائد البشر(/Threat) يتجول بالقرب</li><li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] من [kindLabel] صائدي البشر(/Threat) يتجولون بالقرب</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)ميكانويد(/Threat) نائم بالقرب</li><li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] ميكانويدات(/Threat) نائمة بالقرب</li><li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) تدافع عن الموقع</li><li>root(priority=1,sitePart==AmbushEdge)->(*Threat)قوة معادية(/Threat) تنتظر لكمين أي شخص يقترب</li><li>root(priority=1,sitePart==AmbushHidden)->(*Threat)قوة معادية(/Threat) تنتظر لكمين أي شخص يقترب</li><li>root(priority=1,sitePart==MechCluster)->توجد (*Threat)مجموعة من هياكل الميكانويدات المعادية(/Threat)</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->قد يكون هناك (*Threat)تهديد غير معروف(/Threat)</li><li>root->توجد [label]</li></rulesStrings></Util_GenerateSite.root.singleSitePartRules.slateRef>
+  
+  <!-- EN:
+    <li>threatDescription->a mech cluster will land at [map_definite] containing:\n\n[allThreats]</li>
+  -->
+  <Util_MechCluster.questDescriptionRules.rulesStrings>
+    <li>threatDescription->ستحط مجموعة ميكانويدات في [map_definite] تحتوي على:\n\n[allThreats]</li>
+ </Util_MechCluster.questDescriptionRules.rulesStrings>
+  
+  <!-- EN:
+    <li>threatDescription->[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack you. Their group is composed of:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
+  -->
+  <Util_Raid.questDescriptionRules.rulesStrings>
+    <li>threatDescription->سيهاجمك [enemyFaction_pawnsPlural] من [enemyFaction_name]. مجموعتهم مكونة من:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
+ </Util_Raid.questDescriptionRules.rulesStrings>
+  
+  <!-- EN:
+    <li>pawnKindsParagraph(raidCount==1)->The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+    <li>pawnKindsParagraph(raidCount==2)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\nThe second similar-sized group will follow soon after.</li>
+    <li>pawnKindsParagraph(raidCount==3)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\nTwo similar-sized groups will follow soon after.</li>
+    <li>pawnKindsParagraph(raidCount>=4)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\n[raidCountMinusOne] similar-sized groups will follow soon after.</li>
+    <li>numGroupsOf(raidCount==1)-></li>
+    <li>numGroupsOf(raidCount==2)->two groups of</li>
+    <li>numGroupsOf(raidCount==3)->three groups of</li>
+    <li>numGroupsOf(raidCount>=4)->[raidCount] groups of</li>
+  -->
+  <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
+    <li>pawnKindsParagraph(raidCount==1)->مجموعة [enemyFaction_pawnsPlural] مكونة من: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+    <li>pawnKindsParagraph(raidCount==2)->المجموعة الأولى من [enemyFaction_pawnsPlural] مكونة من: \n\n[raid0/raidPawnKinds]\n\nستتبعها مجموعة ثانية مماثلة في الحجم قريباً.</li>
+    <li>pawnKindsParagraph(raidCount==3)->المجموعة الأولى من [enemyFaction_pawnsPlural] مكونة من: \n\n[raid0/raidPawnKinds]\n\nستتبعها مجموعتان مماثلتان في الحجم قريباً.</li>
+    <li>pawnKindsParagraph(raidCount>=4)->المجموعة الأولى من [enemyFaction_pawnsPlural] مكونة من: \n\n[raid0/raidPawnKinds]\n\nستتبعها [raidCountMinusOne] مجموعات مماثلة في الحجم قريباً.</li>
+    <li>numGroupsOf(raidCount==1)-></li>
+    <li>numGroupsOf(raidCount==2)->مجموعتان من</li>
+    <li>numGroupsOf(raidCount==3)->ثلاث مجموعات من</li>
+    <li>numGroupsOf(raidCount>=4)->[raidCount] مجموعات من</li>
+ </Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
+  
+</LanguageData>

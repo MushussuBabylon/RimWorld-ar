@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: band node -->
+  <BandNode.label>عقدة نطاق</BandNode.label>
+  <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 1 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
+  <BandNode.description>مضخم إشارة نطاق الميكانويدات. يجب توليف عقد النطاق لميكانيتور معين. سيضيف هذا 1 نطاق لإجمالي نطاق ذلك الميكانيتور، مما يسمح له بالتحكم في المزيد من الميكانويدات.\n\nبمجرد بناء عقدة النطاق، يمكن توليفها بسرعة لميكانيتور. ومع ذلك، إعادة توليف عقدة النطاق لميكانيتور مختلف تستغرق وقتاً أطول بكثير.</BandNode.description>
+  
+  <!-- EN: mechband antenna -->
+  <BurnoutMechlinkBooster.label>هوائي نطاق الميكانويدات</BurnoutMechlinkBooster.label>
+  <!-- EN: A mech-band signaling device. When activated, it puts out a powerful mech signal pulse, which will attract an ultra-heavy feral mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
+  <BurnoutMechlinkBooster.description>جهاز إشارات نطاق الميكانويدات. عند تفعيله، يصدر نبضة إشارة ميكانويدية قوية، ستجذب ميكانويداً متوحشاً فوق الثقيل لمهاجمتك مع حراسه. إذا تمكنت من هزيمته، يمكنك جمع تقنيات خاصة من جثته. تحرق نبضة الإشارة المرسل، لذا لا يمكن استخدام هذا المبنى إلا مرة واحدة.</BurnoutMechlinkBooster.description>
+  <!-- EN: Summon warqueen threat -->
+  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>استدعاء تهديد ملكة الحرب</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
+  
+  <!-- EN: gene assembler -->
+  <GeneAssembler.label>مجمع الجينات</GeneAssembler.label>
+  <!-- EN: A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. Genepacks are not consumed in this process and can be reused. -->
+  <GeneAssembler.description>طاولة عمل لإنشاء زينوجيرمات قابلة للزرع من عبوات الجينات المخزنة في بنوك الجينات القريبة. عبوات الجينات لا تستهلك في هذه العملية ويمكن إعادة استخدامها.</GeneAssembler.description>
+  
+  <!-- EN: gene bank -->
+  <GeneBank.label>بنك الجينات</GeneBank.label>
+  <!-- EN: This building can store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. Large gene libraries require many gene banks.\n\nWhen powered, gene banks prevent genepacks from deteriorating and will slowly repair deterioration. -->
+  <GeneBank.description>يمكن لهذا المبنى تخزين عبوات الجينات وجعلها قابلة للاستخدام لإنشاء زينوجيرمات جديدة، عند وضعها بالقرب من مجمع الجينات. تتطلب مكتبات الجينات الكبيرة العديد من بنوك الجينات.\n\nعند تشغيلها بالطاقة، تمنع بنوك الجينات عبوات الجينات من التلف وستصلح التلف ببطء.</GeneBank.description>
+  
+  <!-- EN: gene extractor -->
+  <GeneExtractor.label>مستخرج الجينات</GeneExtractor.label>
+  <!-- EN: An automated surgery machine that can extract a person's genes and create a genepack from them. The extracted genes will be randomly selected from the person's xenogenes and germline genes. You can force someone into the machine, but they won't like it.\n\nExtracting a person's genes while their genes are currently regrowing will kill them. Otherwise, gene extraction causes no lasting harm.\n\nGenes that require archite capsules are too complex to be extracted. -->
+  <GeneExtractor.description>آلة جراحية آلية يمكنها استخراج جينات الشخص وإنشاء عبوة جينات منها. سيتم اختيار الجينات المستخرجة عشوائياً من الجينات الغريبة والجينات الجرثومية للشخص. يمكنك إرغام شخص على الدخول في الآلة، لكنه لن يعجبه ذلك.\n\nاستخراج جينات الشخص بينما تكون جيناته في طور النمو من جديد سيقتله. وبخلاف ذلك، لا يسبب استخراج الجينات أي ضرر دائم.\n\nالجينات التي تتطلب كبسولات أركيت معقدة جداً بحيث لا يمكن استخراجها.</GeneExtractor.description>
+  
+  <!-- EN: gene processor -->
+  <GeneProcessor.label>معالج الجينات</GeneProcessor.label>
+  <!-- EN: A genetic analysis and processing system. Placed near a gene assembler, it increases the maximum genetic complexity of the xenogerms you can assemble. Building multiple gene processors will increase the genetic complexity limit further. -->
+  <GeneProcessor.description>نظام تحليل ومعالجة جينية. عند وضعه بالقرب من مجمع الجينات، يزيد من أقصى تعقيد جيني للزينوجيرمات التي يمكنك تجميعها. بناء معالجات جينية متعددة سيزيد حد التعقيد الجيني أكثر.</GeneProcessor.description>
+  <!-- EN: Gene complexity increase -->
+  <GeneProcessor.comps.CompInspectStringGeneProcessor.inspectString>زيادة تعقيد الجينات</GeneProcessor.comps.CompInspectStringGeneProcessor.inspectString>
+  
+  <!-- EN: growth vat -->
+  <GrowthVat.label>وعاء النمو</GrowthVat.label>
+  <!-- EN: A vat of fluid which can gestate an embryo or accelerate a child's growth.\n\nWhile growing or gestating, the vat must be fed with a constant supply of nutrition to provide the feedstock for growth. Gestating an embryo takes twice the nutrition of accelerating a child's growth.\n\nEmbryos are gestated for 9 days before a baby is formed. There is a risk of health complications.\n\nChild growth can only be accelerated up to age 18, but not beyond. While growing, a child's skills will slowly increase. Children raised in growth vats will have lower skills and gain fewer passions than normal.\n\nThe device uses chemical injections, electrical stimulation, and simple mechanite treatments to push the body to grow. Growth vats are often used to quickly manufacture engineered workers or warriors. -->
+  <GrowthVat.description>وعاء من السائل يمكنه حمل جنين أو تسريع نمو الطفل.\n\nأثناء النمو أو الحمل، يجب تغذية الوعاء بإمدادات ثابتة من التغذية لتوفير مادة النمو. حمل جنين يستهلك ضعف تغذية تسريع نمو الطفل.\n\nيتم حمل الأجنة لمدة 9 أيام قبل أن يتكون الطفل. هناك خطر حدوث مضاعفات صحية.\n\nيمكن تسريع نمو الطفل فقط حتى سن 18، ولكن ليس بعد ذلك. أثناء النمو، ستزداد مهارات الطفل ببطء. الأطفال الذين يربون في أوعية النمو ستكون مهاراتهم أقل ويكتسبون شغفاً أقل من الطبيعي.\n\nيستخدم الجهاز الحقن الكيميائي والتحفيز الكهربائي وعلاجات الميكانيت البسيطة لدفع الجسم للنمو. غالباً ما تستخدم أوعية النمو لتصنيع عمال أو محاربين محسنين بسرعة.</GrowthVat.description>
+  
+  <!-- EN: mechband dish -->
+  <MechbandDish.label>طبق نطاق الميكانويدات</MechbandDish.label>
+  <!-- EN: A mech-band signaling device more powerful than the normal mechband antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
+  <MechbandDish.description>جهاز إشارات نطاق ميكانويدات أقوى من هوائي نطاق الميكانويدات العادي. عند تفعيله، يصدر نبضة إشارة ميكانويدية فائقة القوة، ستجذب قائد ميكانويدات لمهاجمتك مع حراسه. إذا تمكنت من هزيمته، يمكنك جمع تقنيات خاصة من جثته. تحرق نبضة الإشارة الطبق، لذا لا يمكن استخدام هذا المبنى إلا مرة واحدة.</MechbandDish.description>
+  <!-- EN: Summon apocriton threat -->
+  <MechbandDish.comps.CompUsable.useLabel>استدعاء تهديد الأبوكريتون</MechbandDish.comps.CompUsable.useLabel>
+  
+  <!-- EN: mech booster -->
+  <MechBooster.label>معزز الميكانويد</MechBooster.label>
+  <!-- EN: A remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster. -->
+  <MechBooster.description>جهاز تعزيز طاقة وحوسبة عن بعد. أي ميكانويدات صديقة في نطاق تأثيره ستتحرك وتعمل بشكل أسرع.</MechBooster.description>
+  
+  <!-- EN: pollution pump -->
+  <PollutionPump.label>مضخة التلوث</PollutionPump.label>
+  <!-- EN: A groundwater-filtering pump which slowly cleans polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away. -->
+  <PollutionPump.description>مضخة ترشيح مياه جوفية تنظف الأرض الملوثة ببطء. يتحول التلوث المستخرج إلى أكياس نفايات سامة يجب نقلها بعيداً.</PollutionPump.description>
+  
+  <!-- EN: blood torch -->
+  <SanguphageMeetingTorch.label>شعلة الدم</SanguphageMeetingTorch.label>
+  <!-- EN: A specially-treated wooden torch that produces a red light over a large area. Sanguophages gather around torches like these during their ceremonial meetings. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. It can be automatically refueled with wood, and produces a small amount of heat. -->
+  <SanguphageMeetingTorch.description>شعلة خشبية معالجة خصيصاً تنتج ضوءاً أحمر على مساحة كبيرة. يجتمع السانغوفاج حول شعلات كهذه خلال اجتماعاتهم الاحتفالية. التوهج الدموي ممتع بشكل خاص للأفراد ذوي جين التغذي على الدم. يمكن إعادة تزويدها تلقائياً بالخشب، وتنتج كمية صغيرة من الحرارة.</SanguphageMeetingTorch.description>
+  
+  <!-- EN: crashed shuttle -->
+  <ShuttleCrashed_Exitable.label>مكوك محطم</ShuttleCrashed_Exitable.label>
+  <!-- EN: A spacer-tech uranium-powered shuttle designed for transit between surface and orbit, or between moons of a planetary system. To prevent unsanctioned use, the shuttle is locked to the pilot's bio-signature. -->
+  <ShuttleCrashed_Exitable.description>مكوك تكنولوجيا فضائية يعمل باليورانيوم مصمم للتنقل بين السطح والمدار، أو بين أقمار نظام كوكبي. لمنع الاستخدام غير المصرح به، المكوك مقفل على البصمة الحيوية للطيار.</ShuttleCrashed_Exitable.description>
+  
+  <!-- EN: crashed mechanitor ship -->
+  <ShuttleCrashed_Exitable_Mechanitor.label>سفينة ميكانيتور محطمة</ShuttleCrashed_Exitable_Mechanitor.label>
+  <!-- EN: A short-range ship used by a mechanitor to transport mechs for low-orbit or planetary travel. -->
+  <ShuttleCrashed_Exitable_Mechanitor.description>سفينة قصيرة المدى يستخدمها الميكانيتور لنقل الميكانويدات للسفر في المدار المنخفض أو الكوكبي.</ShuttleCrashed_Exitable_Mechanitor.description>
+  
+  <!-- EN: toxifier generator -->
+  <ToxifierGenerator.label>مولد تسميم</ToxifierGenerator.label>
+  <!-- EN: This electrical generator very slowly pollutes the terrain in a radius around it while producing energy. If all terrain in the radius is polluted, the generator will shut down. -->
+  <ToxifierGenerator.description>هذا المولد الكهربائي يلوث الأرض ببطء شديد في نطاق حوله أثناء إنتاجه للطاقة. إذا تلوثت كل الأرض في النطاق، سيتوقف المولد عن العمل.</ToxifierGenerator.description>
+  
+  <!-- EN: IED tox trap -->
+  <TrapIED_ToxGas.label>فخ غاز سام بدائي</TrapIED_ToxGas.label>
+  <!-- EN: A pair of tox gas shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_ToxGas.description>زوج من قذائف الغاز السام متصل بزناد ينفجر عند اللمس أو تأثير الرصاص. لأنه مخفي في التضاريس المحيطة، لا يمكن وضعه بجوار فخاخ أخرى. يمكن للحيوانات استشعارها عندما تكون هادئة.</TrapIED_ToxGas.description>
+  
+  <!-- EN: wastepack atomizer -->
+  <WastepackAtomizer.label>مذرر النفايات</WastepackAtomizer.label>
+  <!-- EN: A glittertech device that deconstructs toxic wastepacks into inert gases using advanced molecular processes. The process requires considerable amounts of power. -->
+  <WastepackAtomizer.description>جهاز تكنولوجيا متألقة يفكك أكياس النفايات السامة إلى غازات خاملة باستخدام عمليات جزيئية متقدمة. تتطلب العملية كميات كبيرة من الطاقة.</WastepackAtomizer.description>
+  
+</LanguageData>

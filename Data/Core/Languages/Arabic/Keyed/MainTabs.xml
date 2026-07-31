@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Work tab -->
+  <!-- EN: Manual priorities -->
+  <ManualPriorities>الأولويات اليدوية</ManualPriorities>
+  <!-- EN: higher priority -->
+  <HigherPriority>أولوية أعلى</HigherPriority>
+  <!-- EN: lower priority -->
+  <LowerPriority>أولوية أدنى</LowerPriority>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
+  <RelevantSkills>المهارات ذات الصلة: {0}\nمتوسط المهارات ذات الصلة: {1}</RelevantSkills>
+  <!-- EN: Click to jump to: -->
+  <ClickToJumpTo>انقر للانتقال إلى:</ClickToJumpTo>
+  <!-- EN: {1_labelShort} cannot do this kind of work. -->
+  <CannotDoThisWork>لا يمكن لـ {1_labelShort} القيام بهذا النوع من العمل.</CannotDoThisWork>
+  <!-- EN: (none) -->
+  <NoneBrackets>(لا يوجد)</NoneBrackets>
+  <!-- EN: This colonist is not able to do any work of this type because of their health condition. -->
+  <IncapableOfWorkTypeBecauseOfCapacities>هذا المستعمر غير قادر على القيام بأي عمل من هذا النوع بسبب حالته الصحية.</IncapableOfWorkTypeBecauseOfCapacities>
+  <!-- EN: E -->
+  <EmergencyWorkMarker>ط</EmergencyWorkMarker>
+  <!-- EN: Warning: The average of relevant skills is very low. -->
+  <SelectedWorkTypeWithVeryBadSkill>تحذير: متوسط المهارات ذات الصلة منخفض جداً.</SelectedWorkTypeWithVeryBadSkill>
+  <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
+  <PriorityOneDoneFirst>الأولوية 1 تُنفذ أولاً. الأولوية 4 تُنفذ أخيراً.</PriorityOneDoneFirst>
+  <!-- EN: Will not do -->
+  <Priority0>لن يقوم به</Priority0>
+  <!-- EN: Top priority -->
+  <Priority1>أولوية قصوى</Priority1>
+  <!-- EN: High priority -->
+  <Priority2>أولوية عالية</Priority2>
+  <!-- EN: Normal priority -->
+  <Priority3>أولوية عادية</Priority3>
+  <!-- EN: Low priority -->
+  <Priority4>أولوية منخفضة</Priority4>
+  <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
+  <PawnFactionInfo>{0}\n\nالفصيل الذي ينتمي إليه {1_nameDef} حالياً.\n\nانقر لعرض الفصيل.</PawnFactionInfo>
+  <!-- EN: Disabled by {0} backstory -->
+  <WorkDisabledByBackstory>معطل بسبب خلفية {0}</WorkDisabledByBackstory>
+  <!-- EN: Disabled by {0} trait -->
+  <WorkDisabledByTrait>معطل بسبب سمة {0}</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest '{0}' -->
+  <WorkDisabledByQuest>معطل بسبب المهمة '{0}'</WorkDisabledByQuest>
+  
+  <!-- Assign tab -->
+  <!-- EN: Unchangeable -->
+  <Unchangeable>غير قابل للتغيير</Unchangeable>
+  <!-- EN: Clr. forced -->
+  <ClearForcedApparel>إلغاء الإجبار</ClearForcedApparel>
+  <!-- EN: forced -->
+  <ApparelForcedLower>إجباري</ApparelForcedLower>
+  <!-- EN: locked -->
+  <ApparelLockedLower>مغلق</ApparelLockedLower>
+  <!-- EN: Forced apparel -->
+  <ForcedApparel>الملابس الإجبارية</ForcedApparel>
+  <!-- EN: Edit -->
+  <AssignTabEdit>تحرير</AssignTabEdit>
+  <!-- EN: Manage apparel policies -->
+  <ManageApparelPolicies>إدارة سياسات الملابس</ManageApparelPolicies>
+  <!-- EN: Manage drug policies -->
+  <ManageDrugPolicies>إدارة سياسات العقاقير</ManageDrugPolicies>
+  <!-- EN: Manage food policies -->
+  <ManageFoodPolicies>إدارة سياسات الطعام</ManageFoodPolicies>
+  <!-- EN: Manage reading policies -->
+  <ManageReadingPolicies>إدارة سياسات القراءة</ManageReadingPolicies>
+  
+  <!-- Restrictions tab -->
+  <!-- EN: Copy -->
+  <Copy>نسخ</Copy>
+  <!-- EN: Paste -->
+  <Paste>لصق</Paste>
+  <!-- EN: Allowed area -->
+  <AllowedArea>المنطقة المسموح بها</AllowedArea>
+  
+  <!-- Animals tab -->
+  <!-- EN: Master -->
+  <Master>المدرب</Master>
+  <!-- EN: Pregnant ({0} / {1}) -->
+  <PregnantIconDesc>حامل ({0} / {1})</PregnantIconDesc>
+  <!-- EN: Bonded to -->
+  <BondedTo>مرتبط بـ</BondedTo>
+  <!-- EN: Sterilize animal. -->
+  <SterilizeAnimal>تعقيم الحيوان.</SterilizeAnimal>
+  <!-- EN: Animal sterile. -->
+  <AnimalAlreadySterile>الحيوان معقم.</AnimalAlreadySterile>
+  
+  <!-- Wildlife tab -->
+  <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
+  <IsPredator>هذا المخلوق مفترس. عندما يجوع، سيصطاد المخلوقات الأصغر - وربما يشمل ذلك البشر.</IsPredator>
+  <!-- EN: This creature is currently in mental state: {0} -->
+  <IsInMentalState>هذا المخلوق حالياً في حالة ذهنية: {0}</IsInMentalState>
+  
+  <!-- Factions tab -->
+  <!-- EN: Hostile -->
+  <Hostile>عدائي</Hostile>
+  <!-- EN: Ally -->
+  <Ally>حليف</Ally>
+  <!-- EN: hostile -->
+  <HostileLower>عدائي</HostileLower>
+  <!-- EN: ally -->
+  <AllyLower>حليف</AllyLower>
+  <!-- EN: defeated -->
+  <DefeatedLower>مهزوم</DefeatedLower>
+  <!-- EN: Enemy of {0} -->
+  <HostileTo>عدو لـ {0}</HostileTo>
+  <!-- EN: Enemy of:  -->
+  <EnemyOf>عدو لـ: </EnemyOf>
+  <!-- EN: Recent events -->
+  <RecentEvents>الأحداث الأخيرة</RecentEvents>
+  <!-- EN: Ongoing events -->
+  <OngoingEvents>الأحداث الجارية</OngoingEvents>
+  <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
+  <CurrentGoodwillTip_PermanentEnemy>هذا الفصيل معادٍ بشكل دائم. سيقومون بالإغارة على مستوطناتك وقوافل تجارتك. لن تتحسن العلاقات معهم لأي سبب كان.</CurrentGoodwillTip_PermanentEnemy>
+  <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
+  <CurrentGoodwillTip_Ally>هذا الفصيل حليف. سيرسلون مقاتلين لمساعدتك عندما يستطيعون. إذا انخفضت العلاقات إلى أقل من {0}، سيصبحون محايدين.</CurrentGoodwillTip_Ally>
+  <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
+  <CurrentGoodwillTip_Neutral>هذا الفصيل محايد. سوف يتاجرون ويتحدثون معك بحرية. إذا انخفضت العلاقات إلى أقل من {0}، سيصبحون أعداء. إذا ارتفعت العلاقات فوق {1}، سيصبحون حلفاء ويبدؤون بالعمل بنشاط لمساعدتك.</CurrentGoodwillTip_Neutral>
+  <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
+  <CurrentGoodwillTip_Hostile>هذا الفصيل معادٍ. سيقومون بالإغارة على مستوطناتك وقوافل تجارتك. إذا ارتفعت العلاقات فوق {0}، سيصبحون محايدين.</CurrentGoodwillTip_Hostile>
+
+  <!-- Social tab -->
+  <!-- EN: Friend -->
+  <Friend>صديق</Friend>
+  <!-- EN: Rival -->
+  <Rival>منافس</Rival>
+  <!-- EN: Acquaintance -->
+  <Acquaintance>معارف</Acquaintance>
+  
+  <!-- History tab - subtabs -->
+  <!-- EN: Graph -->
+  <Graph>رسم بياني</Graph>
+  <!-- EN: Messages -->
+  <Messages>الرسائل</Messages>
+  <!-- EN: Statistics -->
+  <Statistics>الإحصائيات</Statistics>
+  
+  <!-- History tab - Graphs -->
+  <!-- EN: Select graph -->
+  <SelectGraph>اختر الرسم البياني</SelectGraph>
+  <!-- EN: Last 30 days -->
+  <Last30Days>آخر 30 يوماً</Last30Days>
+  <!-- EN: Last 100 days -->
+  <Last100Days>آخر 100 يوم</Last100Days>
+  <!-- EN: Last 300 days -->
+  <Last300Days>آخر 300 يوم</Last300Days>
+  <!-- EN: All -->
+  <AllDays>الكل</AllDays>
+  <!-- EN: Value -->
+  <Value>القيمة</Value>
+  <!-- EN: External -->
+  <External>خارجي</External>
+
+  <!-- History tab - Messages -->
+  <!-- EN: Show letters -->
+  <ShowLetters>إظهار الرسائل</ShowLetters>
+  <!-- EN: Show messages -->
+  <ShowMessages>إظهار المراسلات</ShowMessages>
+  <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
+  <PinArchivableTip>تثبيت أو إلغاء تثبيت هذه الرسالة.\n\nسيتم إزالة أقدم الرسائل غير المثبتة تلقائياً من القائمة بعد الوصول إلى حد {0} رسالة.</PinArchivableTip>
+  <!-- EN: no messages -->
+  <NoMessages>لا توجد رسائل</NoMessages>
+
+  <!-- History tab - Statistics -->
+  <!-- EN: Play time -->
+  <Playtime>وقت اللعب</Playtime>
+  <!-- EN: Storyteller -->
+  <Storyteller>راوي القصص</Storyteller>
+  <!-- EN: Colony wealth (this map) -->
+  <ThisMapColonyWealthTotal>ثروة المستعمرة (هذه الخريطة)</ThisMapColonyWealthTotal>
+  <!-- EN: Colony wealth (items) (this map) -->
+  <ThisMapColonyWealthItems>ثروة المستعمرة (عناصر) (هذه الخريطة)</ThisMapColonyWealthItems>
+  <!-- EN: Colony wealth (buildings) (this map) -->
+  <ThisMapColonyWealthBuildings>ثروة المستعمرة (مبانٍ) (هذه الخريطة)</ThisMapColonyWealthBuildings>
+  <!-- EN: Colony wealth (people and animals) (this map) -->
+  <ThisMapColonyWealthColonistsAndTameAnimals>ثروة المستعمرة (أشخاص وحيوانات) (هذه الخريطة)</ThisMapColonyWealthColonistsAndTameAnimals>
+  <!-- EN: Major threats -->
+  <NumThreatBigs>تهديدات كبيرة</NumThreatBigs>
+  <!-- EN: Enemy raids -->
+  <NumEnemyRaids>غارات الأعداء</NumEnemyRaids>
+  <!-- EN: Damage taken (this map) -->
+  <ThisMapDamageTaken>الضرر المتلقى (هذه الخريطة)</ThisMapDamageTaken>
+  <!-- EN: Colonists killed -->
+  <ColonistsKilled>المستعمرون المقتولون</ColonistsKilled>
+  <!-- EN: Colonists launched into space -->
+  <ColonistsLaunched>المستعمرون الذين أُطلقوا إلى الفضاء</ColonistsLaunched>
+
+  <!-- Research tab -->
+  <!-- EN: Research -->
+  <Research>البحث</Research>
+  <!-- EN: Study -->
+  <Study>دراسة</Study>
+  <!-- EN: Study {0} -->
+  <StudyThing>دراسة {0}</StudyThing>
+  <!-- EN: Unresearched -->
+  <Unresearched>غير مبحوث</Unresearched>
+  <!-- EN: Finished -->
+  <Finished>مكتمل</Finished>
+  <!-- EN: In Progress -->
+  <InProgress>قيد التقدم</InProgress>
+  <!-- EN: Locked -->
+  <Locked>مغلق</Locked>
+  <!-- EN: Prerequisites -->
+  <Prerequisites>المتطلبات الأساسية</Prerequisites>
+  <!-- EN: Techprints required {0} / {1} -->
+  <ResearchTechprintRequirement>بصمات تقنية مطلوبة {0} / {1}</ResearchTechprintRequirement>
+  <!-- EN: Insufficient techprints applied ({0} / {1}) -->
+  <InsufficientTechprintsApplied>بصمات تقنية غير كافية ({0} / {1})</InsufficientTechprintsApplied>
+  <!-- EN: Prerequisite(s) not completed -->
+  <PrerequisitesNotCompleted>المتطلبات الأساسية غير مكتملة</PrerequisitesNotCompleted>
+  <!-- EN: No project active. -->
+  <NoProjectSelected>لا يوجد مشروع نشط.</NoProjectSelected>
+  <!-- EN: Active projects -->
+  <ActiveProjectPlural>المشاريع النشطة</ActiveProjectPlural>
+  <!-- EN: Active project -->
+  <ActiveProject>المشروع النشط</ActiveProject>
+  <!-- EN: Stop research -->
+  <StopResearch>إيقاف البحث</StopResearch>
+  <!-- EN: Missing required research facilities -->
+  <MissingRequiredResearchFacilities>مرافق بحثية مطلوبة مفقودة</MissingRequiredResearchFacilities>
+  <!-- EN: Required research bench -->
+  <RequiredResearchBench>طاولة البحث المطلوبة</RequiredResearchBench>
+  <!-- EN: Required research bench facilities -->
+  <RequiredResearchBenchFacilities>مرافق طاولة البحث المطلوبة</RequiredResearchBenchFacilities>
+  <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
+  <ResearchCostComparison>التكلفة الأساسية للمشروع {0} تصبح {1} بالنسبة لك بسبب مستواك التقني.</ResearchCostComparison>
+  <!-- EN: Techprints are available from these factions via trade and quests: -->
+  <ResearchTechprintsFromFactions>البصمات التقنية متاحة من هذه الفصائل عبر التجارة والمهمات:</ResearchTechprintsFromFactions>
+  <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
+  <TechLevelTooLow>مستوى فصيلك التقني هو {0}، ولكن المستوى التقني لهذا المشروع هو {1}. سيتم ضرب سرعة البحث في {2}.</TechLevelTooLow>
+  <!-- EN: Unlocked with -->
+  <UnlockedWith>مفتوح بواسطة</UnlockedWith>
+  <!-- EN: Research one or more of this project's prerequisites to discover it. -->
+  <UnknownResearchDescription>ابحث عن واحد أو أكثر من متطلبات هذا المشروع لاكتشافه.</UnknownResearchDescription>
+  <!-- EN: unknown -->
+  <UnknownResearch>غير معروف</UnknownResearch>
+
+  <!-- Factions tab -->
+  <!-- EN: Factions -->
+  <FactionsTab>الفصائل</FactionsTab>
+  <!-- EN: No known factions -->
+  <NoFactions>لا توجد فصائل معروفة</NoFactions>
+
+  <!-- Quests tab -->
+  <!-- EN: Available -->
+  <AvailableQuests>متاحة</AvailableQuests>
+  <!-- EN: Active -->
+  <ActiveQuests>نشطة</ActiveQuests>
+  <!-- EN: Historical -->
+  <HistoricalQuests>تاريخية</HistoricalQuests>
+  <!-- EN: no quest selected -->
+  <NoQuestSelected>لم يتم اختيار مهمة</NoQuestSelected>
+  <!-- EN: Appeared {0} days ago -->
+  <AppearedDaysAgo>ظهرت منذ {0} يوم</AppearedDaysAgo>
+  <!-- EN: Appeared on {0} -->
+  <AppearedOn>ظهرت في {0}</AppearedOn>
+  <!-- EN: Accepted {0} ago -->
+  <AcceptedAgo>قُبلت منذ {0}</AcceptedAgo>
+  <!-- EN: Accepted on {0} -->
+  <AcceptedOn>قُبلت في {0}</AcceptedOn>
+  <!-- EN: Accepted {0} ago by {1} -->
+  <AcceptedAgoBy>قُبلت منذ {0} بواسطة {1}</AcceptedAgoBy>
+  <!-- EN: Accepted on {0} by {1} -->
+  <AcceptedOnBy>قُبلت في {0} بواسطة {1}</AcceptedOnBy>
+  <!-- EN: Expires in {0} -->
+  <QuestExpiresIn>تنتهي صلاحيتها خلال {0}</QuestExpiresIn>
+  <!-- EN: Expires on {0} -->
+  <QuestExpiresOn>تنتهي صلاحيتها في {0}</QuestExpiresOn>
+  <!-- EN: Average guest mood (previous {0}): {1} -->
+  <QuestAveragePawnMood>متوسط مزاج الضيف (السابق {0}): {1}</QuestAveragePawnMood>
+  <!-- EN: The average mood of {0} over the previous {1} -->
+  <QuestAveragePawnMoodTargets>متوسط مزاج {0} خلال {1} السابقة</QuestAveragePawnMoodTargets>
+  <!-- EN: Shuttle arrives in {0} -->
+  <ShuttleArrivesIn>تصل المكوك خلال {0}</ShuttleArrivesIn>
+  <!-- EN: Shuttle arrives on {0} -->
+  <ShuttleArrivesOn>تصل المكوك في {0}</ShuttleArrivesOn>
+  <!-- EN: Shuttle departs in {0} -->
+  <ShuttleDepartsIn>تغادر المكوك خلال {0}</ShuttleDepartsIn>
+  <!-- EN: Shuttle departs on {0} -->
+  <ShuttleDepartsOn>تغادر المكوك في {0}</ShuttleDepartsOn>
+  <!-- EN: Guests depart in {0} -->
+  <GuestsDepartsIn>يغادر الضيوف خلال {0}</GuestsDepartsIn>
+  <!-- EN: Guests depart on {0} -->
+  <GuestsDepartsOn>يغادر الضيوف في {0}</GuestsDepartsOn>
+  <!-- EN: Finished {0} ago -->
+  <QuestFinishedAgo>اكتملت منذ {0}</QuestFinishedAgo>
+  <!-- EN: Accept quest -->
+  <AcceptQuest>قبول المهمة</AcceptQuest>
+  <!-- EN: Accept with {0_labelShort} -->
+  <AcceptWith>القبول مع {0_labelShort}</AcceptWith>
+  <!-- EN: Accept for -->
+  <AcceptQuestFor>القبول مقابل</AcceptQuestFor>
+  <!-- EN: Click to accept this quest for this reward. -->
+  <AcceptQuestForTip>انقر لقبول هذه المهمة مقابل هذه المكافأة.</AcceptQuestForTip>
+  <!-- EN: The offer expired. -->
+  <QuestOutcomeInfo_OfferExpired>انتهى العرض.</QuestOutcomeInfo_OfferExpired>
+  <!-- EN: You completed this quest. -->
+  <QuestOutcomeInfo_UnknownOrSuccess>لقد أكملت هذه المهمة.</QuestOutcomeInfo_UnknownOrSuccess>
+  <!-- EN: You failed this quest. -->
+  <QuestOutcomeInfo_Failed>لقد فشلت في هذه المهمة.</QuestOutcomeInfo_Failed>
+  <!-- EN: This quest became invalid before it was accepted. -->
+  <QuestOutcomeInfo_Invalid>أصبحت هذه المهمة غير صالحة قبل قبولها.</QuestOutcomeInfo_Invalid>
+  <!-- EN: Jump to {0} -->
+  <JumpToTargetCustom>الانتقال إلى {0}</JumpToTargetCustom>
+  <!-- EN: Select hives -->
+  <SelectHiveTargets>اختر خلايا النحل</SelectHiveTargets>
+  <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
+  <QuestChallengeRatingTip>تصنيف التحدي. هذا تصنيف عام لمدى صعوبة المهمة بالنسبة لقوتك الحالية. المهام الأكثر تحدياً تعطي مكافآت أكبر.\n\n1: عادي\n2: صعب\n3: متطرف\n4: نهائي</QuestChallengeRatingTip>
+  <!-- EN: To accept this quest, you need -->
+  <QuestAcceptanceRequirementsDescription>لقبول هذه المهمة، تحتاج إلى</QuestAcceptanceRequirementsDescription>
+  <!-- EN: free bedrooms that satisfy the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfied>غرف نوم فارغة تلبي متطلبات اللقب لـ</QuestBedroomRequirementsUnsatisfied>
+  <!-- EN: a free bedroom that satisfies the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfiedSingle>غرفة نوم فارغة تلبي متطلبات اللقب لـ</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestThroneRoomRequirementsUnsatisfied>قاعة عرش تلبي متطلبات لقب {TITLE} الخاص بـ {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
+  <!-- EN: assign a throne for {PAWN_definite} -->
+  <QuestNoThroneRoom>تعيين عرش لـ {PAWN_definite}</QuestNoThroneRoom>
+  <!-- EN: a colonist with the title of {0} -->
+  <QuestNoColonistWithTitle>مستعمر يحمل لقب {0}</QuestNoColonistWithTitle>
+  <!-- EN: {PAWN_definite} to be in your home colony -->
+  <QuestPawnNotOnColonyMap>وجود {PAWN_definite} في مستعمرتك الرئيسية</QuestPawnNotOnColonyMap>
+  <!-- EN: the map clear of enemies of the bestower's faction -->
+  <QuestRequiresNoDangerOnMap>أن تكون الخريطة خالية من أعداء فصيل المانح</QuestRequiresNoDangerOnMap>
+  <!-- EN: that {PROJECT_label} has been researched. -->
+  <QuestRequiresResearch>أن يكون قد تم بحث {PROJECT_label}.</QuestRequiresResearch>
+  <!-- EN: to finish the ongoing bestowing ceremony quest -->
+  <QuestCanNotStartUntilBestowingCeremonyFinished>لإنهاء مهمة حفل المنح الجارية</QuestCanNotStartUntilBestowingCeremonyFinished>
+  <!-- EN: Reward preferences -->
+  <ChooseRewards>تفضيلات المكافأة</ChooseRewards>
+  <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
+  <ChooseRewardsDesc>أخبر الفصائل الأخرى بأنواع المكافآت التي تريدها في المهام المستقبلية. هذا لا يؤثر على المهام التي تم عرضها بالفعل.</ChooseRewardsDesc>
+  <!-- EN: Accept {FACTION_royalFavorLabel} -->
+  <AcceptRoyalFavor>قبول {FACTION_royalFavorLabel}</AcceptRoyalFavor>
+  <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
+  <AcceptRoyalFavorDesc>ما إذا كنت ترغب في الحصول على {FACTION_royalFavorLabel} من {FACTION_name} كمكافأة.\n\nإذا تم تعطيل هذا، ستقدم {FACTION_name} أنواعاً أخرى من المكافآت بدلاً من ذلك.\n\nهذا الإعداد يؤثر فقط على المهام الجديدة.</AcceptRoyalFavorDesc>
+  <!-- EN: Accept goodwill -->
+  <AcceptGoodwill>قبول حسن النية</AcceptGoodwill>
+  <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
+  <AcceptGoodwillDesc>ما إذا كنت ترغب في الحصول على مكافأة عبر تحسين علاقات الفصيل مع {FACTION_name}.\n\nإذا تم تعطيل هذا، ستقدم {FACTION_name} أنواعاً أخرى من المكافآت بدلاً من ذلك.\n\nهذا الإعداد يؤثر فقط على المهام الجديدة.</AcceptGoodwillDesc>
+  <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOn>أنت حالياً مشترك لتلقي {FACTION_royalFavorLabel}.</RoyalFavorOn>
+  <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOff>أنت حالياً غير مشترك لتلقي {FACTION_royalFavorLabel}.</RoyalFavorOff>
+  <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
+  <GoodwillTip>ستتحسن علاقتك مع {0_name} بمقدار {1}.\n\nالعلاقة الحالية: {4} ({5}).\n\nتقيس العلاقة طبيعة التعامل العام بين الفصائل. إذا انخفضت إلى أقل من {2}، سيصبح الفصيل عدائياً وسيقوم بالإغارة على مستوطناتك وقوافل تجارتك. إذا ارتفعت فوق {3}، سيصبح الفصيل حليفاً وسيرسل مقاتلين لمساعدتك عندما يستطيعون. بخلاف ذلك، يظل الفصيل محايداً وسيتاجر ويتحدث معك بحرية.</GoodwillTip>
+  <!-- EN: {0_labelShort} joins -->
+  <PawnQuestReward>انضمام {0_labelShort}</PawnQuestReward>
+  <!-- EN: Betrayal offer: {0} targets remain -->
+  <QuestBetrayalOffer>عرض الخيانة: تبقى {0} أهداف</QuestBetrayalOffer>
+  <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
+  <QuestBetrayalOfferTip>ستمنحك {0} مكافأة مقابل قتل جميع أعضاء {1}.</QuestBetrayalOfferTip>
+  <!-- EN: a colony wealth of at least {0} -->
+  <QuestRequiredPlayerWealth>ثروة مستعمرة لا تقل عن {0}</QuestRequiredPlayerWealth>
+  <!-- EN: alliance with {0} -->
+  <QuestAlliedTo>تحالف مع {0}</QuestAlliedTo>
+  <!-- EN: hostile to {0} -->
+  <QuestHostileTo>معادٍ لـ {0}</QuestHostileTo>
+  <!-- EN: neutral to {0} -->
+  <QuestNeutralTo>محايد تجاه {0}</QuestNeutralTo>
+  <!-- EN: studied {0_labelShort} -->
+  <QuestRequiredThingStudied>تمت دراسة {0_labelShort}</QuestRequiredThingStudied>
+  <!-- EN: cannot accept {GERUND} {LAYER} -->
+  <QuestRequiredLayer>لا يمكن قبول {GERUND} {LAYER}</QuestRequiredLayer>
+  <!-- EN: cannot accept in space -->
+  <QuestNotSpace>لا يمكن القبول في الفضاء</QuestNotSpace>
+
+  <!-- Health tab -->
+  <!-- EN: Creates need -->
+  <CreatesNeed>يخلق حاجة</CreatesNeed>
+  <!-- EN: Change defaults... -->
+  <ChangeDefaults>تغيير الافتراضيات...</ChangeDefaults>
+
+  <!-- Misc -->
+  <!-- EN: Click to edit -->
+  <ClickToEdit>انقر للتحرير</ClickToEdit>
+  <!-- EN: Assign -->
+  <AssignButton>تعيين</AssignButton>
+  <!-- EN: Unassign -->
+  <UnassignButton>إلغاء التعيين</UnassignButton>
+  
+  <!-- Books -->
+  <!-- EN: Mental break chance -->
+  <BookMentalBreakChance>فرصة الانهيار الذهني</BookMentalBreakChance>
+  
+  <!-- EN: Recreation gain multiplier -->
+  <BookJoyFactor>مضاعف مكسب الترفيه</BookJoyFactor>
+  
+</LanguageData>

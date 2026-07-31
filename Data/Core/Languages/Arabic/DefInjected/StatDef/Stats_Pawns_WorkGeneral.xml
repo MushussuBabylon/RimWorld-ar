@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: animal gather speed -->
+  <AnimalGatherSpeed.label>سرعة جمع موارد الحيوانات</AnimalGatherSpeed.label>
+  <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
+  <AnimalGatherSpeed.description>السرعة التي يحلب بها هذا الشخص، ويجز، ويجمع الموارد المختلفة من الحيوانات.</AnimalGatherSpeed.description>
+  
+  <!-- EN: animal gather yield -->
+  <AnimalGatherYield.label>عائد جمع موارد الحيوانات</AnimalGatherYield.label>
+  <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product. -->
+  <AnimalGatherYield.description>النسبة المئوية للعائد الذي يتلقاه شخص ما عندما يجز، أو يحلب، أو يجمع الموارد من حيوان حي.\n\nالنسب المئوية الأعلى تقلل من فرصة إهدار المنتج.</AnimalGatherYield.description>
+  
+  <!-- EN: cleaning speed multiplier -->
+  <CleaningSpeed.label>مضاعف سرعة التنظيف</CleaningSpeed.label>
+  <!-- EN: A multiplier on how fast this cleans up filth from the ground. -->
+  <CleaningSpeed.description>مضاعف على مدى سرعة تنظيف هذا للأوساخ من الأرض.</CleaningSpeed.description>
+  
+  <!-- EN: construction speed -->
+  <ConstructionSpeed.label>سرعة البناء</ConstructionSpeed.label>
+  <!-- EN: The speed at which this person constructs and repairs buildings. -->
+  <ConstructionSpeed.description>السرعة التي يبني بها هذا الشخص ويصلح المباني.</ConstructionSpeed.description>
+  
+  <!-- EN: construct success chance -->
+  <ConstructSuccessChance.label>فرصة نجاح البناء</ConstructSuccessChance.label>
+  <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
+  <ConstructSuccessChance.description>فرصة أن ينجح هذا الشخص في بناء شيء ما.\nالفشل يعني إضاعة الوقت والموارد.</ConstructSuccessChance.description>
+  
+  <!-- EN: deep drilling speed -->
+  <DeepDrillingSpeed.label>سرعة الحفر العميق</DeepDrillingSpeed.label>
+  <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
+  <DeepDrillingSpeed.description>السرعة التي يستخدم بها هذا الشخص مثقابًا عميقًا لاستخراج الموارد تحت الأرض.</DeepDrillingSpeed.description>
+  
+  <!-- EN: drug crop harvest yield -->
+  <DrugHarvestYield.label>عائد حصاد محاصيل المخدرات</DrugHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting drug crops.\n\nLow yields give a chance that this person will accidentally waste the harvest. High yields increase the yield from each plant. -->
+  <DrugHarvestYield.description>العائد الذي يحصل عليه هذا الشخص عند حصاد محاصيل المخدرات.\n\nالعوائد المنخفضة تعطي فرصة أن يهدر هذا الشخص المحصول عن طريق الخطأ. العوائد المرتفعة تزيد العائد من كل نبتة.</DrugHarvestYield.description>
+  
+  <!-- EN: repair success chance -->
+  <FixBrokenDownBuildingSuccessChance.label>فرصة نجاح إصلاح العطل</FixBrokenDownBuildingSuccessChance.label>
+  <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
+  <FixBrokenDownBuildingSuccessChance.description>فرصة أن ينجح هذا الشخص في إصلاح مبنى تعطل باستخدام قطعة.\n\nالفشل يعني إضاعة الوقت والموارد.\nلاحظ أن هذا ينطبق فقط على إصلاح الأعطال، والذي يختلف عن إصلاح الضرر.</FixBrokenDownBuildingSuccessChance.description>
+  
+  <!-- EN: hacking speed -->
+  <HackingSpeed.label>سرعة الاختراق</HackingSpeed.label>
+  <!-- EN: How fast this person can hack into computer terminals. -->
+  <HackingSpeed.description>مدى سرعة اختراق هذا الشخص للمحطات الطرفية للحاسوب.</HackingSpeed.description>
+  
+  <!-- EN: hacking stealth -->
+  <HackingStealth.label>تخفي الاختراق</HackingStealth.label>
+  <!-- EN: How much hacking progress can be made on average before this person is temporarily locked out of a computer system. Only certain systems are capable of detecting hacking. -->
+  <HackingStealth.description>مقدار تقدم الاختراق الذي يمكن إحرازه في المتوسط قبل أن يتم قفل هذا الشخص مؤقتًا خارج نظام الحاسوب. فقط بعض الأنظمة قادرة على اكتشاف الاختراق.</HackingStealth.description>
+  
+  <!-- EN: hunting stealth -->
+  <HuntingStealth.label>تخفي الصيد</HuntingStealth.label>
+  <!-- EN: This stat reduces the chance of hunted animals attacking the hunter.\n\nA 0% score means no reduction.\nA 100% score means animals never attack. -->
+  <HuntingStealth.description>هذه الإحصائية تقلل من فرصة هجوم الحيوانات التي يتم صيدها على الصياد.\n\nدرجة 0% تعني لا تقليل.\nدرجة 100% تعني أن الحيوانات لا تهاجم أبدًا.</HuntingStealth.description>
+  
+  <!-- EN: mining speed -->
+  <MiningSpeed.label>سرعة التعدين</MiningSpeed.label>
+  <!-- EN: A speed at which this person mines away walls. -->
+  <MiningSpeed.description>السرعة التي يزيل بها هذا الشخص الجدران بالتعدين.</MiningSpeed.description>
+  
+  <!-- EN: mining yield -->
+  <MiningYield.label>عائد التعدين</MiningYield.label>
+  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks from deep drills. -->
+  <MiningYield.description>النسبة المئوية لموارد التعدين التي سينتجها عامل المنجم.\n\nينطبق هذا على تعدين الجدران وتعدين المثقاب العميق.\nهذا لا يؤثر على معدل إنتاج قطع الصخور من المثاقب العميقة.</MiningYield.description>
+  
+  <!-- EN: plant harvest yield -->
+  <PlantHarvestYield.label>عائد حصاد النباتات</PlantHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest. -->
+  <PlantHarvestYield.description>العائد الذي يحصل عليه هذا الشخص عند حصاد النباتات.\n\nالعوائد المنخفضة تعطي فرصة أن يهدر هذا الشخص المحصول عن طريق الخطأ.</PlantHarvestYield.description>
+  
+  <!-- EN: plant work speed -->
+  <PlantWorkSpeed.label>سرعة عمل الزراعة</PlantWorkSpeed.label>
+  <!-- EN: The speed at which this person sows and harvests plants. -->
+  <PlantWorkSpeed.description>السرعة التي يزرع بها هذا الشخص ويحصد النباتات.</PlantWorkSpeed.description>
+  
+  <!-- EN: reading speed -->
+  <ReadingSpeed.label>سرعة القراءة</ReadingSpeed.label>
+  <!-- EN: A multiplier on how fast this person can read. -->
+  <ReadingSpeed.description>مضاعف على مدى سرعة قراءة هذا الشخص.</ReadingSpeed.description>
+  
+  <!-- EN: research speed -->
+  <ResearchSpeed.label>سرعة البحث</ResearchSpeed.label>
+  <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
+  <ResearchSpeed.description>مدى سرعة أداء هذا الشخص للبحث ومدى سرعة عثوره على الأشياء باستخدام معدات المسح.</ResearchSpeed.description>
+  
+  <!-- EN: smoothing speed -->
+  <SmoothingSpeed.label>سرعة التنعيم</SmoothingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
+  <SmoothingSpeed.description>مضاعف على السرعة التي يقوم بها هذا الشخص بتنعيم الأرضيات والجدران الحجرية الخشنة.</SmoothingSpeed.description>
+  
+  <!-- EN: global work speed -->
+  <WorkSpeedGlobal.label>سرعة العمل العالمية</WorkSpeedGlobal.label>
+  <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
+  <WorkSpeedGlobal.description>مضاعف على سرعة الشخصية في أداء أي نوع من العمل.</WorkSpeedGlobal.description>
+  <!-- EN: Offset from mechanitor -->
+  <WorkSpeedGlobal.parts.2.label>إزاحة من الميكانيتور</WorkSpeedGlobal.parts.2.label>
+  
+</LanguageData>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_Situational, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: ate venerated animal meat -->
+  <AteVeneratedAnimalMeat.stages.ate_venerated_animal_meat.label>أكل لحم حيوان مبجل</AteVeneratedAnimalMeat.stages.ate_venerated_animal_meat.label>
+  <!-- EN: I ate the flesh of a venerated animal. I've violated a most basic moral rule. -->
+  <AteVeneratedAnimalMeat.stages.ate_venerated_animal_meat.description>أكلت لحم حيوان مبجل. لقد انتهكت أبسط قاعدة أخلاقية.</AteVeneratedAnimalMeat.stages.ate_venerated_animal_meat.description>
+  
+  <!-- Thought_TameVeneratedAnimalDied, null. Label: {ANIMALKIND}. Description: {ANIMALKIND} -->
+  <!-- EN: venerated {ANIMALKIND} died -->
+  <TameVeneratedAnimalDied.stages.venerated_died.label>مات {ANIMALKIND} مبجل</TameVeneratedAnimalDied.stages.venerated_died.label>
+  <!-- EN: A tame {ANIMALKIND} passed away. The death of such a noble beast is cause for sadness. -->
+  <TameVeneratedAnimalDied.stages.venerated_died.description>مات {ANIMALKIND} أليف. إن موت وحش نبيل كهذا مدعاة للحزن.</TameVeneratedAnimalDied.stages.venerated_died.description>
+  
+  <!-- Thought_Situational, ThoughtWorker_VeneratedAnimalOnMapOrCaravan. Label: {ANIMAL}. Description: {PAWN} -->
+  <!-- EN: venerated {ANIMAL_label} -->
+  <VeneratedAnimalsOnMapOrCaravan.stages.venerated-0.label>{ANIMAL_label} مبجل</VeneratedAnimalsOnMapOrCaravan.stages.venerated-0.label>
+  <!-- EN: There are venerated animals around me. -->
+  <VeneratedAnimalsOnMapOrCaravan.stages.venerated-0.description>هناك حيوانات مبجلة حولي.</VeneratedAnimalsOnMapOrCaravan.stages.venerated-0.description>
+  <!-- EN: venerated {ANIMAL_label} -->
+  <VeneratedAnimalsOnMapOrCaravan.stages.venerated-1.label>{ANIMAL_label} مبجل</VeneratedAnimalsOnMapOrCaravan.stages.venerated-1.label>
+  <!-- EN: I have some venerated animals around me. -->
+  <VeneratedAnimalsOnMapOrCaravan.stages.venerated-1.description>لدي بعض الحيوانات المبجلة حولي.</VeneratedAnimalsOnMapOrCaravan.stages.venerated-1.description>
+  <!-- EN: venerated {ANIMAL_label} -->
+  <VeneratedAnimalsOnMapOrCaravan.stages.venerated-2.label>{ANIMAL_label} مبجل</VeneratedAnimalsOnMapOrCaravan.stages.venerated-2.label>
+  <!-- EN: I have many venerated animals around me. -->
+  <VeneratedAnimalsOnMapOrCaravan.stages.venerated-2.description>لدي العديد من الحيوانات المبجلة حولي.</VeneratedAnimalsOnMapOrCaravan.stages.venerated-2.description>
+  <!-- EN: venerated {ANIMAL_label} -->
+  <VeneratedAnimalsOnMapOrCaravan.stages.venerated-3.label>{ANIMAL_label} مبجل</VeneratedAnimalsOnMapOrCaravan.stages.venerated-3.label>
+  <!-- EN: I have a large number of venerated animals around me! -->
+  <VeneratedAnimalsOnMapOrCaravan.stages.venerated-3.description>لدي عدد كبير من الحيوانات المبجلة حولي!</VeneratedAnimalsOnMapOrCaravan.stages.venerated-3.description>
+  <!-- EN: venerated {ANIMAL_label} -->
+  <VeneratedAnimalsOnMapOrCaravan.stages.venerated-4.label>{ANIMAL_label} مبجل</VeneratedAnimalsOnMapOrCaravan.stages.venerated-4.label>
+  <!-- EN: I have a huge number of venerated animals around me! -->
+  <VeneratedAnimalsOnMapOrCaravan.stages.venerated-4.description>لدي عدد هائل من الحيوانات المبجلة حولي!</VeneratedAnimalsOnMapOrCaravan.stages.venerated-4.description>
+  
+</LanguageData>

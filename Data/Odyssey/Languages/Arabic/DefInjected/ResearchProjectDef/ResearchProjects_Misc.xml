@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: advanced gravtech -->
+  <AdvancedGravtech.label>تقنية الجاذبية المتقدمة</AdvancedGravtech.label>
+  <!-- EN: Build advanced gravship parts. -->
+  <AdvancedGravtech.description>بناء أجزاء سفينة الجاذبية المتقدمة.</AdvancedGravtech.description>
+  <!-- EN:
+    <li>subject->advanced gravtech</li>
+    <li>subject_story->researched advanced gravship components</li>
+    <li>subject_gerund->researching signal jamming</li>
+  -->
+  <AdvancedGravtech.generalRules.rulesStrings>
+    <li>subject->تقنية الجاذبية المتقدمة</li>
+    <li>subject_story->بحث في مكونات سفينة الجاذبية المتقدمة</li>
+    <li>subject_gerund->يبحث في تشويش الإشارات</li>
+ </AdvancedGravtech.generalRules.rulesStrings>
+  
+  <!-- EN: basic gravtech -->
+  <BasicGravtech.label>تقنية الجاذبية الأساسية</BasicGravtech.label>
+  <!-- EN: Build a gravship and use it to travel the planet. Launching a gravship will abandon your current map. You won't be able to return. -->
+  <BasicGravtech.description>بناء سفينة جاذبية واستخدامها للسفر حول الكوكب. إطلاق سفينة الجاذبية سيؤدي إلى التخلي عن خريطتك الحالية. لن تتمكن من العودة.</BasicGravtech.description>
+  <!-- EN:
+    <li>subject->gravship</li>
+    <li>subject_story->flew a gravship for a tourism company</li>
+    <li>subject_gerund->constructing gravships</li>
+  -->
+  <BasicGravtech.generalRules.rulesStrings>
+    <li>subject->سفينة الجاذبية</li>
+    <li>subject_story->طار بسفينة جاذبية لشركة سياحة</li>
+    <li>subject_gerund->يبني سفن الجاذبية</li>
+ </BasicGravtech.generalRules.rulesStrings>
+  
+  <!-- EN: beam weapons -->
+  <BeamWeapons.label>أسلحة الأشعة</BeamWeapons.label>
+  <!-- EN: Construct weapons that use gamma ray beams to burn through armor and ignite targets. -->
+  <BeamWeapons.description>بناء أسلحة تستخدم أشعة غاما لاختراق الدروع وإشعال الأهداف.</BeamWeapons.description>
+  <!-- EN:
+    <li>subject->beam weapons</li>
+    <li>subject_story->made gamma-ray beam weaponry</li>
+    <li>subject_gerund->making beam weapons</li>
+  -->
+  <BeamWeapons.generalRules.rulesStrings>
+    <li>subject->أسلحة الأشعة</li>
+    <li>subject_story->صنع أسلحة أشعة غاما</li>
+    <li>subject_gerund->يصنع أسلحة الأشعة</li>
+ </BeamWeapons.generalRules.rulesStrings>
+  
+  <!-- EN: fishing -->
+  <Fishing.label>صيد السمك</Fishing.label>
+  <!-- EN: Place zones where your colonists can go fishing. -->
+  <Fishing.description>وضع مناطق حيث يمكن للمستعمرين الذهاب لصيد السمك.</Fishing.description>
+  <!-- EN: Fishing zone -->
+  <Fishing.customUnlockTexts.0>منطقة صيد السمك</Fishing.customUnlockTexts.0>
+  <!-- EN:
+    <li>subject->fishing</li>
+    <li>subject_story->fished for a living</li>
+    <li>subject_gerund->fishing</li>
+  -->
+  <Fishing.generalRules.rulesStrings>
+    <li>subject->صيد السمك</li>
+    <li>subject_story->كان يصطاد السمك كسباً للعيش</li>
+    <li>subject_gerund->يصطاد السمك</li>
+ </Fishing.generalRules.rulesStrings>
+  
+  <!-- EN: heavy bridges -->
+  <HeavyBridges.label>الجسور الثقيلة</HeavyBridges.label>
+  <!-- EN: Build heavy bridges that support heavy buildings. You can use this to build whole colonies on the water. -->
+  <HeavyBridges.description>بناء جسور ثقيلة تدعم المباني الثقيلة. يمكنك استخدام هذا لبناء مستعمرات كاملة على الماء.</HeavyBridges.description>
+  <!-- EN:
+    <li>subject->construction</li>
+    <li>subject_story->built bridges</li>
+    <li>subject_gerund->constructing</li>
+  -->
+  <HeavyBridges.generalRules.rulesStrings>
+    <li>subject->البناء</li>
+    <li>subject_story->بنى الجسور</li>
+    <li>subject_gerund->يبني</li>
+ </HeavyBridges.generalRules.rulesStrings>
+  
+  <!-- EN: hunter drone -->
+  <HunterDrones.label>درون الصياد</HunterDrones.label>
+  <!-- EN: Build traps and wearable packs that release hunter drones. These explosive drones pursue hostiles and detonate when within range. -->
+  <HunterDrones.description>بناء أفخاخ وحزم قابلة للارتداء تطلق درونات صيادة. تلاحق هذه الدرونات المتفجرة الأعداء وتنفجر عند الاقتراب.</HunterDrones.description>
+  <!-- EN:
+    <li>subject->hunter drones</li>
+    <li>subject_story->made self-detonating drones</li>
+    <li>subject_gerund->making hunter drones</li>
+  -->
+  <HunterDrones.generalRules.rulesStrings>
+    <li>subject->درونات الصياد</li>
+    <li>subject_story->صنع درونات ذاتية التفجير</li>
+    <li>subject_gerund->يصنع درونات صيادة</li>
+ </HunterDrones.generalRules.rulesStrings>
+  
+  <!-- EN: orbital tech -->
+  <OrbitalTech.label>تقنية مدارية</OrbitalTech.label>
+  <!-- EN: Construct buildings and apparel that can protect against the harsh vacuum of space. -->
+  <OrbitalTech.description>بناء مبانٍ وألبسة يمكنها الحماية من فراغ الفضاء القاسي.</OrbitalTech.description>
+  <!-- EN:
+    <li>subject->orbital apparel</li>
+    <li>subject_story->assembled liners for vacsuits</li>
+    <li>subject_story->tested vacsuits</li>
+    <li>subject_story->developed rebreather technology</li>
+    <li>subject_story->studied the effects of space radiation on human tissue</li>
+    <li>subject_gerund->assembling vacsuits</li>
+    <li>subject_gerund->assembling rebreathers</li>
+    <li>subject_gerund->testing vacsuits</li>
+  -->
+  <OrbitalTech.generalRules.rulesStrings>
+    <li>subject->ملابس مدارية</li>
+    <li>subject_story->جمع بطانات بدلات الفراغ</li>
+    <li>subject_story->اختبر بدلات الفراغ</li>
+    <li>subject_story->طور تقنية إعادة التنفس</li>
+    <li>subject_story->درس تأثيرات الإشعاع الفضائي على الأنسجة البشرية</li>
+    <li>subject_gerund->يجمع بدلات الفراغ</li>
+    <li>subject_gerund->يجمع أجهزة إعادة التنفس</li>
+    <li>subject_gerund->يختبر بدلات الفراغ</li>
+ </OrbitalTech.generalRules.rulesStrings>
+  
+  <!-- EN: shuttle -->
+  <Shuttles.label>مكوك</Shuttles.label>
+  <!-- EN: Build a shuttle which can be used for long distance travel or to reach orbit. This requires a shuttle engine which can only be obtained from orbital traders and quests. -->
+  <Shuttles.description>بناء مكوك يمكن استخدامه للسفر لمسافات طويلة أو للوصول إلى المدار. يتطلب هذا محرك مكوك لا يمكن الحصول عليه إلا من التجار المداريين والمهام.</Shuttles.description>
+  <!-- EN:
+    <li>subject->shuttles</li>
+    <li>subject_story->flew in a shuttle</li>
+    <li>subject_story->designed a shuttle</li>
+    <li>subject_gerund->engineering shuttles</li>
+    <li>subject_gerund->piloting shuttles</li>
+  -->
+  <Shuttles.generalRules.rulesStrings>
+    <li>subject->المكوكات</li>
+    <li>subject_story->طار في مكوك</li>
+    <li>subject_story->صمم مكوكاً</li>
+    <li>subject_gerund->يصمم المكوكات</li>
+    <li>subject_gerund->يقود المكوكات</li>
+ </Shuttles.generalRules.rulesStrings>
+  
+  <!-- EN: standard gravtech -->
+  <StandardGravtech.label>تقنية الجاذبية القياسية</StandardGravtech.label>
+  <!-- EN: Build complex gravship parts. -->
+  <StandardGravtech.description>بناء أجزاء سفينة الجاذبية المعقدة.</StandardGravtech.description>
+  <!-- EN: You now have the technology to build large thrusters. These require stellite blocks which can be obtained from orbital asteroids.\n\nYou can travel to orbital locations using transport pods, shuttles, or a gravship. Make sure to equip your colonists with vacsuits or other advanced armors to survive in space. -->
+  <StandardGravtech.discoveredLetterText>لديك الآن التقنية لبناء دوافع كبيرة. تتطلب هذه كتل الستيلايت التي يمكن الحصول عليها من الكويكبات المدارية.\n\nيمكنك السفر إلى المواقع المدارية باستخدام كبسولات النقل أو المكوكات أو سفينة الجاذبية. تأكد من تزويد مستعمريك ببدلات الفراغ أو دروع متقدمة أخرى للبقاء على قيد الحياة في الفضاء.</StandardGravtech.discoveredLetterText>
+  <!-- EN: About: Getting stellite -->
+  <StandardGravtech.discoveredLetterTitle>حول: الحصول على الستيلايت</StandardGravtech.discoveredLetterTitle>
+  <!-- EN:
+    <li>subject->gravtech</li>
+    <li>subject_story->researched complex gravship components</li>
+    <li>subject_gerund->researching gravships</li>
+  -->
+  <StandardGravtech.generalRules.rulesStrings>
+    <li>subject->تقنية الجاذبية</li>
+    <li>subject_story->بحث في مكونات سفينة الجاذبية المعقدة</li>
+    <li>subject_gerund->يبحث في سفن الجاذبية</li>
+ </StandardGravtech.generalRules.rulesStrings>
+  
+</LanguageData>

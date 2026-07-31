@@ -1,0 +1,2191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Various -->
+  <!-- EN: hit points -->
+  <HitPointsBasic>نقاط الصحة</HitPointsBasic>
+  <!-- EN: Work left -->
+  <WorkLeft>العمل المتبقي</WorkLeft>
+  <!-- EN: Contents -->
+  <Contents>المحتويات</Contents>
+  <!-- EN: Contained resources -->
+  <ContainedResources>الموارد الموجودة</ContainedResources>
+  <!-- EN: For prisoner use -->
+  <ForPrisonerUse>مخصص للسجناء</ForPrisonerUse>
+  <!-- EN: In prison cell: For prisoner use -->
+  <InPrisonCell>في زنزانة السجن: مخصص للسجناء</InPrisonCell>
+  <!-- EN: For colonist use -->
+  <ForColonistUse>مخصص للمستعمرين</ForColonistUse>
+  <!-- EN: Medical -->
+  <MedicalBed>طبي</MedicalBed>
+  <!-- EN: Owner -->
+  <Owner>المالك</Owner>
+  <!-- EN: Owners -->
+  <Owners>المالكون</Owners>
+  <!-- EN: Assigned colonist -->
+  <AssignedColonist>المستعمر المعين</AssignedColonist>
+  <!-- EN: Uncomfortable room temperature -->
+  <BedUncomfortableTemperature>درجة حرارة الغرفة غير مريحة</BedUncomfortableTemperature>
+  <!-- EN: Unsafe room temperature -->
+  <BedUnsafeTemperature>درجة حرارة الغرفة غير آمنة</BedUnsafeTemperature>
+  <!-- EN: Died on the {0} -->
+  <DiedOn>توفي في {0}</DiedOn>
+  <!-- EN: Nobody -->
+  <Nobody>لا أحد</Nobody>
+  <!-- EN: Unowned -->
+  <Unowned>بلا مالك</Unowned>
+  <!-- EN: Dead for {0} -->
+  <DeadTime>ميت منذ {0}</DeadTime>
+  <!-- EN: walk speed {0} -->
+  <WalkSpeed>سرعة المشي {0}</WalkSpeed>
+  <!-- EN: fert. -->
+  <FertShort>خصوبة</FertShort>
+  <!-- EN: dying -->
+  <DyingLower>يحتضر</DyingLower>
+  <!-- EN: Filth on feet: -->
+  <FilthOnFeet>أوساخ عالقة:</FilthOnFeet>
+  <!-- EN: not enough stored -->
+  <NotEnoughStoredLower>لا يوجد ما يكفي في المخزن</NotEnoughStoredLower>
+  <!-- EN: nothing -->
+  <NothingLower>لاشيء</NothingLower>
+  <!-- EN: Nothing -->
+  <Nothing>لاشيء</Nothing>
+  <!-- EN: Adapted -->
+  <Adapted>متأقلم</Adapted>
+  <!-- EN: fresh -->
+  <FreshMissingBodyPart>طازج</FreshMissingBodyPart>
+  <!-- EN: developed immunity -->
+  <DevelopedImmunityLower>طور مناعة</DevelopedImmunityLower>
+  <!-- EN: Needs tending now -->
+  <NeedsTendingNow>يحتاج للعلاج الآن</NeedsTendingNow>
+  <!-- EN: Can tend now -->
+  <CanTendNow>يمكن علاجه الآن</CanTendNow>
+  <!-- EN: Tending expires in {0} -->
+  <TreatmentExpiresIn>ينتهي العلاج خلال {0}</TreatmentExpiresIn>
+  <!-- EN: Can be tended in {0} -->
+  <NextTendIn>يمكن علاجه خلال {0}</NextTendIn>
+  <!-- EN: Tend quality -->
+  <TendQuality>جودة العلاج</TendQuality>
+  <!-- EN: Total tend quality -->
+  <DisappearsAtTotalTendQuality>إجمالي جودة العلاج</DisappearsAtTotalTendQuality>
+  <!-- EN: no {0} -->
+  <MissingMedicalBillIngredient>لا يوجد {0}</MissingMedicalBillIngredient>
+  <!-- EN: Immunity -->
+  <Immunity>المناعة</Immunity>
+  <!-- EN: {0} days to recover -->
+  <DaysToRecover>{0} يوم للتعافي</DaysToRecover>
+  <!-- EN: Ineffective -->
+  <Ineffective>غير فعال</Ineffective>
+  <!-- EN: illegal -->
+  <Illegal>غير قانوني</Illegal>
+  <!-- EN: detection chance -->
+  <DetectionChance>احتمالية الكشف</DetectionChance>
+  <!-- EN: Race -->
+  <Race>العرق</Race>
+  <!-- EN: Description -->
+  <Description>الوصف</Description>
+  <!-- EN: Equipment -->
+  <Equipment>المعدات</Equipment>
+  <!-- EN: Apparel -->
+  <Apparel>الملابس</Apparel>
+  <!-- EN: Inventory -->
+  <Inventory>المخزون</Inventory>
+  <!-- EN: Information -->
+  <ThingInfo>معلومات</ThingInfo>
+  <!-- EN: Drop -->
+  <DropThing>إسقاط</DropThing>
+  <!-- EN: Temporary faction members will not drop their items. -->
+  <DropThingLodger>لن يسقط أعضاء الفصيل المؤقتون أغراضهم.</DropThingLodger>
+  <!-- EN: This person refuses to drop this. -->
+  <DropThingLocked>يرفض هذا الشخص إسقاط هذا.</DropThingLocked>
+  <!-- EN: Rename -->
+  <Rename>إعادة تسمية</Rename>
+  <!-- EN: Rename animal -->
+  <RenameAnimal>إعادة تسمية الحيوان</RenameAnimal>
+  <!-- EN: Rename colonist -->
+  <RenameColonist>إعادة تسمية المستعمر</RenameColonist>
+  <!-- EN: Renounce title -->
+  <RenounceTitle>التنازل عن اللقب</RenounceTitle>
+  <!-- EN: Execute -->
+  <Execute>إعدام</Execute>
+  <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
+  <ExecuteColonist>إعدام مستعمر مذنب\n\nإذا قمت بتفعيل هذا الخيار، سيقوم السجان بإعدام هذا الشخص.</ExecuteColonist>
+  <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
+  <MessageColonistMarkedForExecution>تم تحديد {0_labelShort} للإعدام. سيقوم أول سجان متاح بتنفيذ حكم الإعدام في{0_objective}.</MessageColonistMarkedForExecution>
+  <!-- EN: {0} of {1} -->
+  <TitleOfFaction>{0} الخاص بـ {1}</TitleOfFaction>
+  <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
+  <RenounceTitleDescription>سيؤدي هذا الإجراء إلى جعل {PAWN_nameDef} يفقد لقبه {TITLE}. لن تتلقى أي تعويض عن التنازل عن اللقب.\n\nسيكون لهذا التأثيرات التالية:\n\n{EFFECTS}</RenounceTitleDescription>
+  <!-- EN: {PAWN_pronoun} will lose these permissions -->
+  <RenounceTitleWillLoosePermits>سيفقد{PAWN_pronoun} هذه التصاريح</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+  <RenounceTitleWillLosePermitPoints>سيفقد {PAWN_nameDef} عدد {POINTS} من نقاط التصاريح غير المستخدمة لدى {FACTION_name}.</RenounceTitleWillLosePermitPoints>
+  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+  <RenounceTitleWillKeepPsylinkLevels>سيحتفظ{PAWN_pronoun} بجميع مستويات الـ psylink والـ psycasts الخاصة به.</RenounceTitleWillKeepPsylinkLevels>
+  <!-- EN: unknown -->
+  <UnknownLower>مجهول</UnknownLower>
+  <!-- EN: On -->
+  <On>تشغيل</On>
+  <!-- EN: Off -->
+  <Off>إيقاف</Off>
+  <!-- EN: {0} {1} -->
+  <SourceToolLabel>{0} {1}</SourceToolLabel>
+  <!-- EN: Power -->
+  <PowerSwitch_Power>الطاقة</PowerSwitch_Power>
+  <!-- EN: Recreation type tolerances -->
+  <JoyTolerances>تحمل نوع الترفيه</JoyTolerances>
+  <!-- EN: Milk fullness -->
+  <MilkFullness>امتلاء الحليب</MilkFullness>
+  <!-- EN: Wool growth -->
+  <WoolGrowth>نمو الصوف</WoolGrowth>
+  <!-- EN: Egg progress -->
+  <EggProgress>تقدم إنتاج البيض</EggProgress>
+  <!-- EN: Fertilized -->
+  <Fertilized>مخصب</Fertilized>
+  <!-- EN: Progress stopped until fertilized -->
+  <ProgressStoppedUntilFertilized>توقف التقدم حتى يتم التخصيب</ProgressStoppedUntilFertilized>
+  <!-- EN: Hatches in -->
+  <HatchesIn>يفقس خلال</HatchesIn>
+  <!-- EN: need {0} level {2}, have {1} -->
+  <SkillTooLow>يحتاج {0} مستوى {2}، لديك {1}</SkillTooLow>
+  <!-- EN: Freezing -->
+  <Freezing>تجمد</Freezing>
+  <!-- EN: Overheating -->
+  <Overheating>ارتفاع الحرارة</Overheating>
+  <!-- EN: Ruined by temperature. -->
+  <RuinedByTemperature>تالف بسبب درجة الحرارة.</RuinedByTemperature>
+  <!-- EN: Missing body parts -->
+  <CorpsePercentMissing>أجزاء الجسم المفقودة</CorpsePercentMissing>
+  <!-- EN: Reproduces in -->
+  <HiveReproducesIn>يتكاثر في</HiveReproducesIn>
+  <!-- EN: Dormant: Not reproducing. -->
+  <DormantHiveNotReproducing>خامل: لا يتكاثر.</DormantHiveNotReproducing>
+  <!-- EN: Next {0} in -->
+  <NextSpawnedItemIn>التالي {0} في</NextSpawnedItemIn>
+  <!-- EN: Next resource in -->
+  <NextSpawnedResourceIn>المورد التالي في</NextSpawnedResourceIn>
+  <!-- EN: Broken down -->
+  <BrokenDown>معطل</BrokenDown>
+  <!-- EN: (bond) -->
+  <BondBrackets>(رابطة)</BondBrackets>
+  <!-- EN: Fuel -->
+  <Fuel>الوقود</Fuel>
+  <!-- EN: Fuel -->
+  <FuelLevelGizmoLabel>الوقود</FuelLevelGizmoLabel>
+  <!-- EN: Set target fuel level to {0} -->
+  <SetTargetFuelLevel>ضبط مستوى الوقود المستهدف على {0}</SetTargetFuelLevel>
+  <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
+  <SetPodLauncherTargetFuelLevel>ضبط مستوى الوقود المستهدف على {0}\nأقصى مسافة: {1} مربعات</SetPodLauncherTargetFuelLevel>
+  <!-- EN: Target fuel level: {0} -->
+  <ConfiguredTargetFuelLevel>مستوى الوقود المستهدف: {0}</ConfiguredTargetFuelLevel>
+  <!-- EN: enemies -->
+  <Enemies>أعداء</Enemies>
+  <!-- EN: people -->
+  <People>أشخاص</People>
+  <!-- EN: time passed -->
+  <TimePassed>الوقت المنقضي</TimePassed>
+  <!-- EN: current radius -->
+  <CurrentRadius>نصف القطر الحالي</CurrentRadius>
+  <!-- EN: radius expands in -->
+  <RadiusExpandsIn>يتوسع نصف القطر خلال</RadiusExpandsIn>
+  <!-- EN: permanent -->
+  <Permanent>دائم</Permanent>
+  <!-- EN: Resting -->
+  <CaravanResting>يستريح</CaravanResting>
+  <!-- EN: using 1 bedroll -->
+  <UsingBedroll>يستخدم 1 كيس نوم</UsingBedroll>
+  <!-- EN: using {0} bedrolls -->
+  <UsingBedrolls>يستخدم {0} كيس نوم</UsingBedrolls>
+  <!-- EN: Est. time to destination: {0} days -->
+  <CaravanEstimatedTimeToDestination>الوقت التقديري للوصول: {0} يوم</CaravanEstimatedTimeToDestination>
+  <!-- EN: Route travel time: {0} days -->
+  <CaravanEstimatedDaysToDestination>وقت السفر عبر المسار: {0} يوم</CaravanEstimatedDaysToDestination>
+  <!-- EN: Immobilized: Too much weight. -->
+  <CaravanImmobilizedByMass>غير قادر على الحركة: وزن زائد.</CaravanImmobilizedByMass>
+  <!-- EN: Out of food. -->
+  <CaravanOutOfFood>نفد الطعام.</CaravanOutOfFood>
+  <!-- EN: Days of food: {0} -->
+  <CaravanDaysOfFood>أيام الطعام المتبقية: {0}</CaravanDaysOfFood>
+  <!-- EN: Days of food: {0} (rot in {1} days) -->
+  <CaravanDaysOfFoodRot>أيام الطعام المتبقية: {0} (يتعفن خلال {1} يوم)</CaravanDaysOfFoodRot>
+  <!-- EN: Stopped because: Everyone is downed. -->
+  <AllCaravanMembersDowned>توقف بسبب: الجميع سقطوا أرضاً.</AllCaravanMembersDowned>
+  <!-- EN: Stopped because: Everyone is in a mental break. -->
+  <AllCaravanMembersMentalBreak>توقف بسبب: الجميع في حالة انهيار عصبي.</AllCaravanMembersMentalBreak>
+  <!-- EN: {0} {1} -->
+  <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
+  <!-- EN: 1 animal -->
+  <CaravanAnimal>1 حيوان</CaravanAnimal>
+  <!-- EN: {0} animals -->
+  <CaravanAnimalsCount>{0} حيوانات</CaravanAnimalsCount>
+  <!-- EN: 1 prisoner -->
+  <CaravanPrisoner>1 سجين</CaravanPrisoner>
+  <!-- EN: {0} prisoners -->
+  <CaravanPrisonersCount>{0} سجناء</CaravanPrisonersCount>
+  <!-- EN: {0} in mental state -->
+  <CaravanPawnsInMentalState>{0} في حالة عقلية</CaravanPawnsInMentalState>
+  <!-- EN: {0} downed -->
+  <CaravanPawnsDowned>{0} سقط أرضاً</CaravanPawnsDowned>
+  <!-- EN: Traveling. -->
+  <CaravanTraveling>يسافر.</CaravanTraveling>
+  <!-- EN: Waiting. -->
+  <CaravanWaiting>ينتظر.</CaravanWaiting>
+  <!-- EN: Being carried due to illness -->
+  <BeingCarriedDueToIllness>يتم حمله بسبب المرض</BeingCarriedDueToIllness>
+  <!-- EN: Using bedrolls due to illness -->
+  <UsingBedrollsDueToIllness>يستخدم أكياس النوم بسبب المرض</UsingBedrollsDueToIllness>
+  <!-- EN: Current tile movement time -->
+  <CurrentTileMovementTime>وقت التنقل في المربع الحالي</CurrentTileMovementTime>
+  <!-- EN: Visibility -->
+  <Visibility>الرؤية</Visibility>
+  <!-- EN: Temperature -->
+  <Temperature>درجة الحرارة</Temperature>
+  <!-- EN: bad temperature -->
+  <BadTemperature>درجة حرارة سيئة</BadTemperature>
+  <!-- EN: Ideal fermenting temperature -->
+  <IdealFermentingTemperature>درجة حرارة التخمير المثالية</IdealFermentingTemperature>
+  <!-- EN: {0} effect multiplier: {1} -->
+  <DrugEffectMultiplier>مضاعف تأثير {0}: {1}</DrugEffectMultiplier>
+  <!-- EN: Visiting {0}. -->
+  <CaravanVisiting>يزور {0}.</CaravanVisiting>
+  <!-- EN: Entering {0}. -->
+  <CaravanEntering>يدخل {0}.</CaravanEntering>
+  <!-- EN: Attacking {0}. -->
+  <CaravanAttacking>يهاجم {0}.</CaravanAttacking>
+  <!-- EN: Offering gifts to {0}. -->
+  <CaravanOfferingGifts>يقدم هدايا لـ {0}.</CaravanOfferingGifts>
+  <!-- EN: Trading with {0}. -->
+  <CaravanTrading>يتداول مع {0}.</CaravanTrading>
+  <!-- EN: Tainted from being worn by a corpse. -->
+  <WasWornByCorpse>ملوث لأنه كان يرتديه جثة.</WasWornByCorpse>
+  <!-- EN: T -->
+  <WornByCorpseChar>م</WornByCorpseChar>
+  <!-- EN: unroofed -->
+  <DeterioratingUnroofed>بدون سقف</DeterioratingUnroofed>
+  <!-- EN: outdoors -->
+  <DeterioratingOutdoors>في الخارج</DeterioratingOutdoors>
+  <!-- EN: raining -->
+  <DeterioratingRaining>تمطر</DeterioratingRaining> 
+  <!-- EN: protected -->
+  <Protected>محمي</Protected>
+  <!-- EN: Deteriorating -->
+  <DeterioratingBecauseOf>يتدهور</DeterioratingBecauseOf>
+  <!-- EN: Will deteriorate in {0}. -->
+  <DeteriorateInDuration>سيتدهور خلال {0}.</DeteriorateInDuration>
+  <!-- EN: Map -->
+  <Map>الخريطة</Map>
+  <!-- EN: {0} until enemies arrive -->
+  <CaravanDetectedRaidCountdown>{0} حتى وصول الأعداء</CaravanDetectedRaidCountdown>
+  <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
+  <CaravanDetectedRaidCountdownTip>علم الأعداء بموقعك. سيصلون خلال {0}.</CaravanDetectedRaidCountdownTip>
+  <!-- EN: Room -->
+  <Room>غرفة</Room>
+  <!-- EN: Beauty here -->
+  <BeautyHere>الجمال هنا</BeautyHere>
+  <!-- EN: no power -->
+  <NoPower>لا توجد طاقة</NoPower>
+  <!-- EN: not in {0} -->
+  <NotInRoomRole>ليس في {0}</NotInRoomRole>
+  <!-- EN: Work speed -->
+  <WorkSpeedPenalty>سرعة العمل</WorkSpeedPenalty>
+  <!-- EN: Disabled -->
+  <DisabledCommand>معطل</DisabledCommand>
+  <!-- EN: Deactivated -->
+  <Deactivated>غير مفعل</Deactivated>
+  <!-- EN: Ready for launch. -->
+  <ReadyForLaunch>جاهز للإطلاق.</ReadyForLaunch>
+  <!-- EN: Not ready for launch -->
+  <NotReadyForLaunch>غير جاهز للإطلاق</NotReadyForLaunch>
+  <!-- EN: no fueling port -->
+  <NotAllInGroupConnectedToFuelingPort>لا يوجد منفذ تزويد بالوقود</NotAllInGroupConnectedToFuelingPort>
+  <!-- EN: no fuel -->
+  <NotAllLaunchablesInGroupHaveAnyFuel>لا يوجد وقود</NotAllLaunchablesInGroupHaveAnyFuel>
+  <!-- EN: loading in progress -->
+  <LaunchableInGroupHasSomethingLeftToLoad>التحميل قيد التقدم</LaunchableInGroupHasSomethingLeftToLoad>
+  <!-- EN: Beyond maximum range -->
+  <TransportPodDestinationBeyondMaximumRange>تتجاوز النطاق الأقصى</TransportPodDestinationBeyondMaximumRange>
+  <!-- EN: No path to {LAYER_label} -->
+  <TransportPodDestinationNoPath>لا يوجد مسار إلى {LAYER_label}</TransportPodDestinationNoPath>
+  <!-- EN: Not enough fuel -->
+  <TransportPodNotEnoughFuel>لا يوجد وقود كافٍ</TransportPodNotEnoughFuel>
+  <!-- EN: {0} of {1} -->
+  <SettlementTrader>{0} الخاص بـ {1}</SettlementTrader>
+  <!-- EN: Surgery success chance multiplier from room -->
+  <RoomSurgerySuccessChanceFactor>مضاعف احتمالية نجاح الجراحة من الغرفة</RoomSurgerySuccessChanceFactor>
+  <!-- EN: Infection chance multiplier from room -->
+  <RoomInfectionChanceFactor>مضاعف احتمالية العدوى من الغرفة</RoomInfectionChanceFactor>
+  <!-- EN: Closed -->
+  <VentClosed>مغلق</VentClosed>
+  <!-- EN: worn by {1_labelShort} -->
+  <WornBy>يرتديه {1_labelShort}</WornBy>
+  <!-- EN: equipped by {1_labelShort} -->
+  <EquippedBy>مجهز بواسطة {1_labelShort}</EquippedBy>
+  <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
+  <QuestTargetDestroyInspectString>{0} يريد تدمير هذا.\n    المكافأة: {1} ({2})</QuestTargetDestroyInspectString>
+  <!-- EN: {0} wants this destroyed. -->
+  <QuestTargetDestroyInspectStringShort>{0} يريد تدمير هذا.</QuestTargetDestroyInspectStringShort>
+  <!-- EN: Departing on shuttle in {0} -->
+  <ShuttleDelayInspectString>المغادرة على متن المكوك خلال {0}</ShuttleDelayInspectString>
+  <!-- EN: Departing in {0} -->
+  <ShuttleLeaveDelayInspectString>المغادرة خلال {0}</ShuttleLeaveDelayInspectString>
+  <!-- EN: Should depart on shuttle -->
+  <ShouldDepartOnShuttleInspectString>يجب المغادرة على متن المكوك</ShouldDepartOnShuttleInspectString>
+  <!-- EN: Time left: {0} -->
+  <WorldObjectTimeout>الوقت المتبقي: {0}</WorldObjectTimeout>
+  <!-- EN: Click to sort by this column. -->
+  <ClickToSortByThisColumn>انقر للفرز حسب هذا العمود.</ClickToSortByThisColumn>
+  <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
+  <WorkPriorityShiftClickTip>Shift + انقر: زيادة الأولوية\nShift + انقر باليمين: تقليل الأولوية</WorkPriorityShiftClickTip>
+  <!-- EN: Shift + click: Enable all\nShift + right click: Disable all -->
+  <WorkPriorityShiftClickEnableDisableTip>Shift + انقر: تفعيل الكل\nShift + انقر باليمين: تعطيل الكل</WorkPriorityShiftClickEnableDisableTip>
+  <!-- EN: Shift + click: Set all to home\nShift + right click: Set all to unrestricted -->
+  <AllowedAreaShiftClickTip>Shift + انقر: ضبط الكل على المنزل\nShift + انقر باليمين: ضبط الكل على غير مقيد</AllowedAreaShiftClickTip>
+  <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
+  <CheckboxShiftClickTip>Shift + انقر: تحديد الكل\nShift + انقر باليمين: إلغاء تحديد الكل</CheckboxShiftClickTip>
+  <!-- EN: {0} {1} -->
+  <KnownSiteThreatEnemyCountAppend>{0} {1}</KnownSiteThreatEnemyCountAppend>
+  <!-- EN: Skill Requirements -->
+  <SkillRequirements>متطلبات المهارة</SkillRequirements>
+  <!-- EN: Products -->
+  <Products>المنتجات</Products>
+  <!-- EN: Requires -->
+  <Requires>يتطلب</Requires>
+  <!-- EN: Replaces -->
+  <Replaces>يستبدل</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>مفقود {0}</MissingPartWithLabel>
+  <!-- EN: {0}x any of -->
+  <NumAnyOf>{0}x أي من</NumAnyOf>
+  <!-- EN: {0} of {1} -->
+  <Relationship>{0} من {1}</Relationship>
+  <!-- EN: Prisoner -->
+  <Prisoner>سجين</Prisoner>
+  <!-- EN: Refugee -->
+  <Refugee>لاجئ</Refugee>
+  <!-- EN: Terrain movement difficulty -->
+  <TileMovementDifficulty>صعوبة الحركة في التضاريس</TileMovementDifficulty>
+  <!-- EN: Impassable -->
+  <Impassable>غير سالكة</Impassable>
+  <!-- EN: Caravan movement speed -->
+  <CaravanMovementSpeedFull>سرعة حركة القافلة</CaravanMovementSpeedFull>
+  <!-- EN: downed -->
+  <DownedLower>سقط أرضاً</DownedLower>
+  <!-- EN: resting -->
+  <Carried>يستريح</Carried>
+  <!-- EN: Rideable animals / people -->
+  <RideableAnimalsPerPeople>حيوانات / أشخاص يمكن ركوبهم</RideableAnimalsPerPeople>
+  <!-- EN: Multiplier from ridden animals -->
+  <MultiplierFromRiddenAnimals>مضاعف من الحيوانات التي يتم ركوبها</MultiplierFromRiddenAnimals>
+  <!-- EN: Multiplier from bonuses -->
+  <MultiplierFromMoveSpeedBonus>مضاعف من المكافآت</MultiplierFromMoveSpeedBonus>
+  <!-- EN: Multiplier for carried mass: {0} -->
+  <MultiplierForCarriedMass>مضاعف للكتلة المحمولة: {0}</MultiplierForCarriedMass>
+  <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
+  <RideableAnimalTip>هذا الحيوان يمكن ركوبه. سيركب الأشخاص في القافلة أسرع الحيوانات المتاحة، مما يحسن سرعة القافلة ككل.</RideableAnimalTip>
+  <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
+  <CaravanBonusTip>يقدم هذا الشخص مكافأة لسرعة القافلة. زيادة السرعة هي متوسط مكافآت جميع أعضاء القافلة.</CaravanBonusTip>
+  <!-- EN: This caravan can't move because it carries too much. -->
+  <EncumberedCaravanTilesPerDayTip>لا يمكن لهذه القافلة التحرك لأنها تحمل الكثير.</EncumberedCaravanTilesPerDayTip>
+  <!-- EN: Caravan members speed -->
+  <FinalCaravanPawnsMovementSpeed>سرعة أعضاء القافلة</FinalCaravanPawnsMovementSpeed>
+  <!-- EN: Final speed -->
+  <FinalCaravanMovementSpeed>السرعة النهائية</FinalCaravanMovementSpeed>
+  <!-- EN: Winter -->
+  <Winter>الشتاء</Winter>
+  <!-- EN: {0} in winter -->
+  <MovementDifficultyOffsetInWinter>{0} في الشتاء</MovementDifficultyOffsetInWinter>
+  <!-- EN: to -->
+  <RangeTo>إلى</RangeTo>
+  <!-- EN: Caused by -->
+  <CausedBy>بسبب</CausedBy>
+  <!-- EN: No letter -->
+  <NoDietCategoryLetter>لا توجد رسالة</NoDietCategoryLetter>
+  <!-- EN: expires in -->
+  <ExpiresIn>تنتهي صلاحيته في</ExpiresIn>
+  <!-- EN: {1_labelShort}'s caravan -->
+  <CaravanLeaderCaravanName>قافلة {1_labelShort}</CaravanLeaderCaravanName>
+  <!-- EN: Reason -->
+  <Reason>السبب</Reason>
+  <!-- EN: Relations with {0} -->
+  <RelationsWith>العلاقات مع {0}</RelationsWith>
+  <!-- EN: captured by {0} -->
+  <capturedBy>تم أسره بواسطة {0}</capturedBy>
+  <!-- EN: your caravan -->
+  <yourCaravan>قافلتك</yourCaravan>
+  <!-- EN: {0} wildness -->
+  <CreatureWildness>{0} توحش</CreatureWildness>
+  <!-- EN: {0} trainability -->
+  <CreatureTrainability>{0} قابلية للتدريب</CreatureTrainability>
+  <!-- EN: Follow master while drafted -->
+  <CreatureFollowDrafted>اتباع السيد أثناء التجنيد</CreatureFollowDrafted>
+  <!-- EN: Follow master while doing field work -->
+  <CreatureFollowFieldwork>اتباع السيد أثناء العمل الميداني</CreatureFollowFieldwork>
+  <!-- EN: {0} with {1} -->
+  <ProximitySingleGoodwillChange>{0} مع {1}</ProximitySingleGoodwillChange>
+  <!-- EN: Too dangerous to re-enter for {0}. -->
+  <EnterCooldown>خطير جداً لإعادة الدخول لـ {0}.</EnterCooldown>
+  <!-- EN: Caravan -->
+  <Caravan>قافلة</Caravan>
+  <!-- EN: there may be danger there. -->
+  <HiddenOrNoSitePartDescription>قد يكون هناك خطر.</HiddenOrNoSitePartDescription>
+  <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
+  <PreciousLumpHostileThreat>يلتقط الماسح الضوئي نشاطاً حول الكتلة. من المحتمل أن يكون معادياً.</PreciousLumpHostileThreat>
+  <!-- EN: lump of {0} -->
+  <PreciousLumpLabel>كتلة من {0}</PreciousLumpLabel>
+  <!-- EN: no active research project -->
+  <NoActiveResearchProjectToFinish>لا يوجد مشروع بحثي نشط</NoActiveResearchProjectToFinish>
+  <!-- EN: Current project -->
+  <CurrentProject>المشروع الحالي</CurrentProject>
+  <!-- EN: Research progress -->
+  <ResearchProgress>تقدم البحث</ResearchProgress>
+  <!-- EN: already has {0} -->
+  <AlreadyHasHediff>لديه بالفعل {0}</AlreadyHasHediff>
+  <!-- EN: turret -->
+  <Turret>برج دفاعي</Turret>
+  <!-- EN: turrets -->
+  <Turrets>أبراج دفاعية</Turrets>
+  <!-- EN: mortar -->
+  <Mortar>هاون</Mortar>
+  <!-- EN: mortars -->
+  <Mortars>هاونات</Mortars>
+  <!-- EN: enemy -->
+  <Enemy>عدو</Enemy>
+  <!-- EN: location -->
+  <Location>الموقع</Location>
+  <!-- EN: animals -->
+  <AnimalsLower>حيوانات</AnimalsLower>
+  <!-- EN: items -->
+  <ItemsLower>أغراض</ItemsLower>
+  <!-- EN: {0} x{1} -->
+  <FilthLabel>{0} x{1}</FilthLabel>
+  <!-- EN: {0} of {1} x{2} -->
+  <FilthLabelWithSource>{0} الخاص بـ {1} x{2}</FilthLabelWithSource>
+  <!-- EN: Required -->
+  <Required>مطلوب</Required>
+  <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
+  <GiveGiftViaTransportPodsTradeRequestWarning>تحذير: لا يمكنك إكمال طلبات التجارة باستخدام كبسولات النقل.\nإذا أرسلت البضائع، ستقبلها المستوطنة كهدايا ولكن لن تكافئك.\n\nللتجارة، اقترب من المستوطنة بقافلة!\n\nهل أنت متأكد أنك تريد إهداء البضائع المحملة للفصيل؟</GiveGiftViaTransportPodsTradeRequestWarning>
+  <!-- EN: prisoner -->
+  <PrisonerLower>سجين</PrisonerLower>
+  <!-- EN: prisoners -->
+  <PrisonersLower>سجناء</PrisonersLower>
+  <!-- EN: Click to view this quest in quests tab -->
+  <ClickToViewInQuestsTab>انقر لعرض هذه المهمة في علامة تبويب المهام</ClickToViewInQuestsTab>
+  <!-- EN: Mood -->
+  <Mood>المزاج</Mood>
+  <!-- EN: Quest -->
+  <Quest>مهمة</Quest>
+  <!-- EN: Brings raids every {0} -->
+  <BringsRaidsEvery>يجلب غارات كل {0}</BringsRaidsEvery>
+  <!-- EN: Generates {0} every {1} -->
+  <GeneratesResourcesEvery>يولد {0} كل {1}</GeneratesResourcesEvery>
+  <!-- EN: Foliage kill radius -->
+  <FoliageKillRadius>نصف قطر قتل أوراق الشجر</FoliageKillRadius>
+  <!-- EN: View: {0} -->
+  <ViewHyperlink>عرض: {0}</ViewHyperlink>
+  <!-- EN: Detonates in {0} days -->
+  <DetonationCountdown>ينفجر خلال {0} يوم</DetonationCountdown>
+  <!-- EN: Large explosion if damaged. -->
+  <ExplosionOnDamageWarning>انفجار كبير في حال تعرضه للتلف.</ExplosionOnDamageWarning>
+  <!-- EN: Mech cluster -->
+  <MechCluster>عنقود آلي</MechCluster>
+  <!-- EN: Spawning in {0} -->
+  <SpawningNextPawnIn>يظهر في {0}</SpawningNextPawnIn>
+  <!-- EN: {0} gestation completes in {1}. -->
+  <MechAssemblyCompleteIn>يكتمل نمو {0} في {1}.</MechAssemblyCompleteIn>
+  <!-- EN: Will gestate -->
+  <MechAssemblyNextType>سوف ينمو</MechAssemblyNextType>
+  <!-- EN: produced -->
+  <ThingsProduced>تم إنتاجه</ThingsProduced>
+  <!-- EN: harvested -->
+  <PlantsHarvested>تم حصاده</PlantsHarvested>
+  <!-- EN: {0} killed -->
+  <PawnsKilled>تم قتل {0}</PawnsKilled>
+  <!-- EN: Sent {0}, will return in {1} -->
+  <PawnsLent>تم إرسال {0}، سيعود في {1}</PawnsLent>
+  <!-- EN: Dormant -->
+  <DormantCompInactive>خامل</DormantCompInactive>
+  <!-- EN: Sealed -->
+  <DormantCompSealed>مختوم</DormantCompSealed>
+  <!-- EN: Ready to drop mechanoids -->
+  <DormantCompBeacon>جاهز لإسقاط الآليين</DormantCompBeacon>
+  <!-- EN: Expired -->
+  <DormantCompExpired>منتهي الصلاحية</DormantCompExpired>
+  <!-- EN: Initiates in -->
+  <InitiatesIn>يبدأ في</InitiatesIn>
+  <!-- EN: Activates in {0} -->
+  <SendSignalOnCountdownCompTime>يتم تفعيله في {0}</SendSignalOnCountdownCompTime>
+  <!-- EN: Neural heat -->
+  <PsychicEntropy>حرارة عصبية</PsychicEntropy>
+  <!-- EN: Heat -->
+  <PsychicEntropyShort>حرارة</PsychicEntropyShort>
+  <!-- EN: {0} pain boost -->
+  <PsychicEntropyPainFocus>{0} تعزيز الألم</PsychicEntropyPainFocus>
+  <!-- EN: radius {0} -->
+  <ConditionCauserRadius>نصف قطر {0}</ConditionCauserRadius>
+  <!-- EN: low psyfocus -->
+  <LowPsyfocus>تركيز نفسي منخفض</LowPsyfocus>
+  <!-- EN: {0} left -->
+  <DurationLeft>تبقى {0}</DurationLeft>
+  <!-- EN: Any of -->
+  <AnyOf>أي من</AnyOf>
+  <!-- EN: Requires {0} trait -->
+  <TraitRequired>يتطلب سمة {0}</TraitRequired>
+  <!-- EN: Goodwill -->
+  <Goodwill>حسن النية</Goodwill>
+  <!-- EN: Natural goodwill -->
+  <NaturalGoodwill>حسن النية الطبيعي</NaturalGoodwill>
+  <!-- EN: Natural goodwill range -->
+  <NaturalGoodwillRange>نطاق حسن النية الطبيعي</NaturalGoodwillRange>
+  <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
+  <NaturalGoodwillDescription>يعتمد حسن النية الطبيعي على هويات ومعتقدات الفصيل. إذا كان حسن النية الحالي بعيداً عن الطبيعي، فسوف يتحول ببطء نحو الطبيعي بمرور الوقت.\n\nتُضرب جميع تأثيرات حسن النية في {0} عند التحرك نحو حسن النية الطبيعي.</NaturalGoodwillDescription>
+  <!-- EN: reducing resistance of {0_nameIndef} -->
+  <JobReport_ReduceResistance>تقليل مقاومة {0_nameIndef}</JobReport_ReduceResistance>
+  <!-- EN: Too large -->
+  <TooLargeForBed>كبير جداً</TooLargeForBed>
+  <!-- EN: Warning -->
+  <Warning>تحذير</Warning>
+  <!-- EN: Has subquest -->
+  <HasSubquest>لديها مهمة فرعية</HasSubquest>
+  <!-- EN: Subquest of -->
+  <SubquestOf>مهمة فرعية لـ</SubquestOf>
+  <!-- EN: Raid -->
+  <Raid>غارة</Raid>
+  <!-- EN: Disabled by -->
+  <ApparelRequirementDisabledLabel>معطل بواسطة</ApparelRequirementDisabledLabel>
+  <!-- EN: Nudism -->
+  <Nudism>العري</Nudism>
+  <!-- EN: Study progress -->
+  <StudyProgress>تقدم الدراسة</StudyProgress>
+  <!-- EN: completed -->
+  <StudyCompleted>مكتمل</StudyCompleted>
+  <!-- EN: Attack this to destroy it. -->
+  <AttackToDestroy>هاجم هذا لتدميره.</AttackToDestroy>
+  <!-- EN: Remove this by attacking it. -->
+  <RemoveByAttackingTooltip>أزل هذا بمهاجمته.</RemoveByAttackingTooltip>
+  <!-- EN: Food -->
+  <ThoughtFoodEatenFood>طعام</ThoughtFoodEatenFood>
+  <!-- EN: Ingredients -->
+  <ThoughtFoodEatenIngredients>مكونات</ThoughtFoodEatenIngredients>
+  <!-- EN: Shield pack -->
+  <ShieldInbuilt>حزمة درع</ShieldInbuilt>
+  <!-- EN: Punctured - will explode soon. -->
+  <PuncturedWillExplode>مثقوب - سينفجر قريباً.</PuncturedWillExplode>
+  <!-- EN: Click to open research window -->
+  <ClickToOpenResearchTab>انقر لفتح نافذة البحث</ClickToOpenResearchTab>
+  <!-- EN: Target belongs to another faction. -->
+  <TargetBelongsToNPCFaction>الهدف ينتمي لفصيل آخر.</TargetBelongsToNPCFaction>
+  <!-- EN: more -->
+  <MoreLower>المزيد</MoreLower>
+  <!-- EN: Requires -->
+  <RequiredTechprintTip>يتطلب</RequiredTechprintTip>
+  <!-- EN: size -->
+  <Size>الحجم</Size>
+  <!-- EN: Total planning area -->
+  <TotalPlanningArea>إجمالي منطقة التخطيط</TotalPlanningArea>
+  <!-- EN: cost -->
+  <Cost>التكلفة</Cost>
+  <!-- EN: Stunned by EMP -->
+  <StunnedByEMP>مصدوم بواسطة EMP</StunnedByEMP>
+  <!-- EN: Title -->
+  <BackstoryTitle>اللقب</BackstoryTitle>
+  <!-- EN: person -->
+  <Person>شخص</Person>
+  <!-- EN: activated. -->
+  <Activated>مفعل.</Activated> 
+  <!-- EN: Contains -->
+  <Contains>يحتوي على</Contains>
+  <!-- EN: Hostiles -->
+  <Hostiles>معادون</Hostiles>
+  <!-- EN: Investigate -->
+  <Investigate>تحقق</Investigate> 
+  <!-- EN: Activate -->
+  <Activate>تفعيل</Activate> 
+  <!-- EN: Deactivate -->
+  <Deactivate>تعطيل</Deactivate>
+  <!-- EN: Activation -->
+  <Activation>تفعيل</Activation>
+  <!-- EN: complete -->
+  <Complete>مكتمل</Complete>
+  <!-- EN: Must be imprisoned. -->
+  <RequiresImprisonment>يجب أن يكون مسجوناً.</RequiresImprisonment> 
+  <!-- EN: Prioritize hauling contents -->
+  <HaulFromSource>أولوية نقل المحتويات</HaulFromSource>
+  <!-- EN: Use -->
+  <UseGizmo>استخدم</UseGizmo>
+  <!-- EN: Order someone to use the {0}. -->
+  <UseGizmoTooltip>أمر أحداً باستخدام {0}.</UseGizmoTooltip>
+  <!-- EN: Choose who should use this -->
+  <UseGizmoMouse>اختر من يجب أن يستخدم هذا</UseGizmoMouse>
+  <!-- EN: Select target -->
+  <TargetGizmoMouse>حدد الهدف</TargetGizmoMouse>
+  <!-- EN: Cannot use this -->
+  <CannotUseGizmoMouse>لا يمكن استخدام هذا</CannotUseGizmoMouse>
+  <!-- EN: Buildings -->
+  <Buildings>مبانٍ</Buildings>
+  <!-- EN: not yet discovered -->
+  <NotYetDiscovered>لم يتم اكتشافه بعد</NotYetDiscovered>
+  <!-- EN: Crawling to safety. -->
+  <ReportStringCrawlingToSafety>يزحف إلى الأمان.</ReportStringCrawlingToSafety>
+  <!-- EN: Crawling to bed. -->
+  <ReportStringCrawlingToBed>يزحف إلى السرير.</ReportStringCrawlingToBed>
+  <!-- EN: flying -->
+  <Flying>يطير</Flying>
+  <!-- EN: Prevent cutting -->
+  <PreventCutting>منع القطع</PreventCutting>
+  <!-- EN: When on, colonists won't cut this plant. -->
+  <PreventCuttingDesc>عند التفعيل، لن يقوم المستعمرون بقطع هذا النبات.</PreventCuttingDesc>
+
+  <!-- EN: Resulting from trait -->
+  <ComesFromTrait>ناتج عن سمة</ComesFromTrait>
+  <!-- EN: Resulting from condition -->
+  <ComesFromHediff>ناتج عن حالة</ComesFromHediff>
+  <!-- EN: Adds need -->
+  <AddsNeed>يضيف حاجة</AddsNeed>
+  <!-- EN: Adds needs -->
+  <AddsNeeds>يضيف احتياجات</AddsNeeds>
+  <!-- EN: Disables need -->
+  <DisablesNeed>يعطل حاجة</DisablesNeed>
+  <!-- EN: Disables needs -->
+  <DisablesNeeds>يعطل احتياجات</DisablesNeeds>
+  
+  <!-- Scanning -->
+  <!-- EN: User scanning speed -->
+  <UserScanAbility>سرعة مسح المستخدم</UserScanAbility>
+  <!-- EN: Random find interval -->
+  <ScanAverageInterval>فاصل العثور العشوائي</ScanAverageInterval>
+  <!-- EN: Progress to guaranteed find -->
+  <ScanningProgressToGuaranteedFind>التقدم نحو العثور المضمون</ScanningProgressToGuaranteedFind>
+  
+  <!-- Meditation -->
+  <!-- EN: meditating at -->
+  <MeditatingAt>يتأمل عند</MeditatingAt>
+
+  <!-- Fermentation barrel -->
+  <!-- EN: Contains {0} / {1} wort. -->
+  <ContainsWort>يحتوي على {0} / {1} من نقيع الشعير.</ContainsWort>
+  <!-- EN: Contains {0} / {1} beer. -->
+  <ContainsBeer>يحتوي على {0} / {1} من البيرة.</ContainsBeer>
+  <!-- EN: Fermented -->
+  <Fermented>مخمر</Fermented>
+  <!-- EN: Progress: {0} ({1} left) -->
+  <FermentationProgress>التقدم: {0} (تبقى {1})</FermentationProgress>
+  <!-- EN: Non-ideal temperature. Fermentation speed: {0} -->
+  <FermentationBarrelOutOfIdealTemperature>درجة حرارة غير مثالية. سرعة التخمير: {0}</FermentationBarrelOutOfIdealTemperature>
+
+  <!-- TextMotes -->
+  <!-- EN: Headshot -->
+  <Headshot>إصابة في الرأس</Headshot>
+  <!-- EN: Treatment success!\n{0} chance -->
+  <TextMote_TreatSuccess>نجاح العلاج!\nاحتمالية {0}</TextMote_TreatSuccess>
+  <!-- EN: Treatment failed\n{0} chance -->
+  <TextMote_TreatFailed>فشل العلاج\nاحتمالية {0}</TextMote_TreatFailed>
+  <!-- EN: Harvest\nbotched -->
+  <TextMote_HarvestFailed>فشل\nالحصاد</TextMote_HarvestFailed>
+  <!-- EN: Yield\nwasted -->
+  <TextMote_YieldWasted>تم هدر\nالإنتاج</TextMote_YieldWasted>
+  <!-- EN: Product\nwasted -->
+  <TextMote_ProductWasted>تم هدر\nالمنتج</TextMote_ProductWasted>
+  <!-- EN: Recruit failed!\n{0} chance -->
+  <TextMote_RecruitFail>فشل التجنيد!\nاحتمالية {0}</TextMote_RecruitFail>
+  <!-- EN: Resistance\n{0} to {1} -->
+  <TextMote_ResistanceReduced>المقاومة\n{0} إلى {1}</TextMote_ResistanceReduced>
+  <!-- EN: Tame failed\n{0} chance -->
+  <TextMote_TameFail>فشل الترويض\nاحتمالية {0}</TextMote_TameFail>
+  <!-- EN: Tamed! -->
+  <TextMote_TameSuccess>تم الترويض!</TextMote_TameSuccess>
+  <!-- EN: Failed training: {0}\n{1} chance -->
+  <TextMote_TrainFail>فشل التدريب: {0}\nاحتمالية {1}</TextMote_TrainFail>
+  <!-- EN: Trained: {0}\n{1} chance -->
+  <TextMote_TrainSuccess>تم التدريب: {0}\nاحتمالية {1}</TextMote_TrainSuccess>
+  <!-- EN: Repair\nbotched -->
+  <TextMote_FixBrokenDownBuildingFail>فشل\nالإصلاح</TextMote_FixBrokenDownBuildingFail>
+  <!-- EN: Construction\nbotched -->
+  <TextMote_ConstructionFail>فشل\nالبناء</TextMote_ConstructionFail>
+  <!-- EN: Dodge -->
+  <TextMote_Dodge>مراوغة</TextMote_Dodge>
+  <!-- EN: Immune -->
+  <TextMote_Immune>حصين</TextMote_Immune>
+  <!-- EN: {0} tended -->
+  <TextMote_Tended>تم علاج {0}</TextMote_Tended>
+  <!-- EN: level {0} -->
+  <TextMote_SkillUp>مستوى {0}</TextMote_SkillUp>
+  <!-- EN: low mood -->
+  <lowMood>مزاج منخفض</lowMood>
+  <!-- EN: low opinion -->
+  <lowOpinion>رأي منخفض</lowOpinion>
+
+  <!-- Areas -->
+  <!-- EN: Home -->
+  <Home>المنزل</Home>
+  <!-- EN: Build roof -->
+  <BuildRoof>بناء سقف</BuildRoof>
+  <!-- EN: No roof -->
+  <NoRoof>لا يوجد سقف</NoRoof>
+  <!-- EN: Snow clear -->
+  <SnowClear>إزالة الثلج</SnowClear>
+  <!-- EN: Area {0} -->
+  <AreaDefaultLabel>منطقة {0}</AreaDefaultLabel>
+  <!-- EN: Unrestricted -->
+  <NoAreaAllowed>غير مقيد</NoAreaAllowed>
+  <!-- EN: New area -->
+  <NewArea>منطقة جديدة</NewArea>
+  <!-- EN: Invert -->
+  <InvertArea>عكس</InvertArea>
+  <!-- EN: Expand -->
+  <ExpandArea>توسيع</ExpandArea>
+  <!-- EN: Shrink -->
+  <ShrinkArea>تقليص</ShrinkArea>
+  <!-- EN: Maximum {0} areas allowed. -->
+  <MaxAreasReached>يسمح بـ {0} منطقة كحد أقصى.</MaxAreasReached>
+
+  <!-- Animal pens -->
+  <!-- EN: Unenclosed -->
+  <PenUnenclosedLabel>غير مسور</PenUnenclosedLabel>
+  <!-- EN: open door -->
+  <PenOpenDoorLabel>باب مفتوح</PenOpenDoorLabel>
+  <!-- EN: Rename pen -->
+  <RenameAnimalPen>إعادة تسمية الحظيرة</RenameAnimalPen>
+  <!-- EN: Pen marker {0} -->
+  <AnimalPenMarkerDefaultLabel>علامة الحظيرة {0}</AnimalPenMarkerDefaultLabel>
+  <!-- EN: In pen -->
+  <InPen>في الحظيرة</InPen>
+  <!-- EN: not in a pen -->
+  <Unpenned>ليست في حظيرة</Unpenned>
+  <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
+  <UnpennedTooltip>يمكن إنشاء حظائر الحيوانات عن طريق بناء علامة حظيرة داخل منطقة مغلقة. سيقوم معالجو الحيوانات لديك بإحضار الحيوانات إلى حظيرة مناسبة. يمكن إغلاق الحظائر بالأسوار، والمتاريس، والجدران، والأبواب.</UnpennedTooltip>
+  <!-- EN: Roped by -->
+  <RopedByPawn>مقيد بواسطة</RopedByPawn>
+  <!-- EN: Roped to -->
+  <RopedToThing>مقيد بـ</RopedToThing>
+  <!-- EN: Roped to spot. -->
+  <RopedToSpot>مقيد في الموقع.</RopedToSpot>
+  <!-- EN: Pen size -->
+  <PenSizeLabel>حجم الحظيرة</PenSizeLabel>
+  <!-- EN: Very small pen -->
+  <PenSizeDesc_VerySmall>حظيرة صغيرة جداً</PenSizeDesc_VerySmall>
+  <!-- EN: Small pen -->
+  <PenSizeDesc_Small>حظيرة صغيرة</PenSizeDesc_Small>
+  <!-- EN: Medium-sized pen -->
+  <PenSizeDesc_Medium>حظيرة متوسطة الحجم</PenSizeDesc_Medium>
+  <!-- EN: Large pen -->
+  <PenSizeDesc_Large>حظيرة كبيرة</PenSizeDesc_Large>
+  <!-- EN: Not enclosed - build fences -->
+  <PenSizeDesc_Unenclosed>غير مغلقة - ابنِ أسواراً</PenSizeDesc_Unenclosed>
+  <!-- EN: {ANIMALDEF_label} capacity -->
+  <PenCapacityDesc>سعة {ANIMALDEF_label}</PenCapacityDesc>
+  <!-- EN: Example animals -->
+  <PenExampleAnimals>أمثلة على الحيوانات</PenExampleAnimals>
+  <!-- EN: No exterior access - Animals cannot be moved in or out. -->
+  <NoExteriorAccess>لا يوجد وصول خارجي - لا يمكن نقل الحيوانات للداخل أو الخارج.</NoExteriorAccess>
+  
+  <!-- EN: Must be connected to walls on both sides to function. -->
+  <DoorMustBeEnclosedByWalls>يجب أن يكون متصلاً بالجدران من كلا الجانبين ليعمل.</DoorMustBeEnclosedByWalls>
+
+  <!-- Cell Inspector -->
+  <!-- EN: Beauty -->
+  <Beauty_Label>الجمال</Beauty_Label>
+  <!-- EN: Zone -->
+  <Zone_Label>منطقة</Zone_Label>
+  <!-- EN: Roof -->
+  <Roof_Label>سقف</Roof_Label>
+  <!-- EN: Terrain -->
+  <Terrain_Label>تضاريس</Terrain_Label>
+  <!-- EN: Snow -->
+  <Snow_Label>ثلج</Snow_Label>
+  <!-- EN: Walk speed -->
+  <WalkSpeed_Label>سرعة المشي</WalkSpeed_Label>
+  <!-- EN: Fertility -->
+  <Fertility_Label>خصوبة</Fertility_Label>
+  <!-- EN: Temperature -->
+  <Temperature_Label>درجة الحرارة</Temperature_Label>
+  <!-- EN: Light level -->
+  <LightLevel_Label>مستوى الضوء</LightLevel_Label>
+  <!-- EN: Biome -->
+  <Biome_Label>المناخ الحيوي</Biome_Label>
+  <!-- EN: Hilliness -->
+  <Hilliness_Label>التلال</Hilliness_Label>
+  <!-- EN: Road -->
+  <Road_Label>طريق</Road_Label>
+  <!-- EN: River -->
+  <River_Label>نهر</River_Label> 
+  <!-- EN: Movement difficulty -->
+  <MovementDifficulty_Label>صعوبة الحركة</MovementDifficulty_Label>
+  <!-- EN: Pollution -->
+  <Pollution_Label>تلوث</Pollution_Label>
+  <!-- EN: Filth -->
+  <Filth_Label>أوساخ</Filth_Label>
+  
+  <!-- EN: Features -->
+  <Features_Label>ميزات</Features_Label>
+  <!-- EN: Faction -->
+  <Faction_Label>فصيل</Faction_Label>
+  <!-- EN: Relationship -->
+  <Relationship_Label>علاقة</Relationship_Label>
+  <!-- EN: Colonists -->
+  <CaravanColonists_Label>مستعمرون</CaravanColonists_Label>
+  <!-- EN: Status -->
+  <CaravanStatus_Label>الحالة</CaravanStatus_Label>
+  <!-- EN: Time to destination -->
+  <CaravanTTD_Label>الوقت حتى الوصول</CaravanTTD_Label>
+  
+
+  <!-- Control -->
+  <!-- EN: Cannot order characters you do not control. -->
+  <CannotOrderNonControlled>لا يمكنك إصدار أوامر لشخصيات لا تتحكم بها.</CannotOrderNonControlled>
+  <!-- EN: {1_labelShort} is incapable of violence. -->
+  <IsIncapableOfViolence>{1_labelShort} غير قادر على العنف.</IsIncapableOfViolence>
+  <!-- EN: incapable of violence -->
+  <IsIncapableOfViolenceShort>غير قادر على العنف</IsIncapableOfViolenceShort>
+  <!-- EN: {1_labelShort} is not drafted. -->
+  <IsNotDrafted>{1_labelShort} ليس مجنداً.</IsNotDrafted>
+  <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
+  <ApparelPreventsShooting>لا يمكن لـ {PAWN_nameDef} استخدام أسلحة المدى بسبب {APPAREL_label} الخاص به.</ApparelPreventsShooting>
+  <!-- EN: Cannot use in {0} -->
+  <CannotUseReason_PocketMap>لا يمكن استخدامه في {0}</CannotUseReason_PocketMap>
+  <!-- EN: Range reduced -->
+  <WeatherMaxRangeCap>تم تقليل المدى</WeatherMaxRangeCap>
+
+  <!-- Snow -->
+  <!-- EN: Snow -->
+  <Snow>ثلج</Snow>
+  <!-- EN: No snow -->
+  <SnowNone>لا يوجد ثلج</SnowNone>
+  <!-- EN: dusting -->
+  <SnowDusting>غبار ثلجي</SnowDusting>
+  <!-- EN: thin -->
+  <SnowThin>خفيف</SnowThin>
+  <!-- EN: medium -->
+  <SnowMedium>متوسط</SnowMedium>
+  <!-- EN: thick -->
+  <SnowThick>كثيف</SnowThick>
+
+  <!-- Turrets -->
+  <!-- EN: Installed -->
+  <GunInstalled>مثبت</GunInstalled>
+  <!-- EN: Minimum range -->
+  <MinimumRange>الحد الأدنى للمدى</MinimumRange>
+  <!-- EN: Can fire in -->
+  <CanFireIn>يمكنه إطلاق النار في</CanFireIn>
+  <!-- EN: Cannot fire -->
+  <CannotFire>لا يمكنه إطلاق النار</CannotFire>
+  <!-- EN: roofed -->
+  <Roofed>مسقوف</Roofed>
+  <!-- EN: Shell loaded: {1_label} -->
+  <ShellLoaded>قذيفة محملة: {1_label}</ShellLoaded>
+  <!-- EN: Not loaded -->
+  <ShellNotLoaded>غير محمل</ShellNotLoaded>
+  <!-- EN: Already active -->
+  <AlreadyActive>نشط بالفعل</AlreadyActive>
+  <!-- EN: Order activation -->
+  <OrderActivation>أمر بالتفعيل</OrderActivation>
+  <!-- EN: Order a colonist to activate {THING_definite}. -->
+  <OrderActivationDesc>أمر مستعمر بتفعيل {THING_definite}.</OrderActivationDesc>
+  <!-- EN: Send a colonist to activate this. -->
+  <MustBeActivatedByColonist>أرسل مستعمراً لتفعيل هذا.</MustBeActivatedByColonist>
+  <!-- EN: No nearby fire -->
+  <NoNearbyFire>لا يوجد حريق قريب</NoNearbyFire>
+  <!-- EN: No nearby fire. No fuel was used. -->
+  <NoNearbyFireNoFuelUsed>لا يوجد حريق قريب. لم يتم استخدام أي وقود.</NoNearbyFireNoFuelUsed>
+  <!-- EN: Choose who should activate this. -->
+  <ChooseWhoShouldActivate>اختر من يجب أن يفعل هذا.</ChooseWhoShouldActivate>
+  <!-- EN: No fuel -->
+  <NoFuel>لا يوجد وقود</NoFuel>
+
+  <!-- Job reports -->
+  <!-- EN: hauling {THING_label} to {DESTINATION}. -->
+  <ReportHaulingTo>نقل {THING_label} إلى {DESTINATION}.</ReportHaulingTo>
+  <!-- EN: burying {THING_label} in {DESTINATION}. -->
+  <ReportHaulingToGrave>دفن {THING_label} في {DESTINATION}.</ReportHaulingToGrave>
+  <!-- EN: hauling {1_label}. -->
+  <ReportHauling>نقل {1_label}.</ReportHauling>
+  <!-- EN: hauling. -->
+  <ReportHaulingUnknown>نقل.</ReportHaulingUnknown>
+  <!-- EN: sleeping. -->
+  <ReportSleeping>ينام.</ReportSleeping>
+  <!-- EN: resting. -->
+  <ReportResting>يستريح.</ReportResting>
+  <!-- EN: laying down. -->
+  <ReportLayingDown>مستلقٍ.</ReportLayingDown>
+  <!-- EN: watching the sunrise. -->
+  <WatchingSunrise>يشاهد شروق الشمس.</WatchingSunrise>
+  <!-- EN: cloudwatching. -->
+  <CloudWatching>يراقب السحب.</CloudWatching>
+  <!-- EN: watching the sunset. -->
+  <WatchingSunset>يشاهد غروب الشمس.</WatchingSunset>
+  <!-- EN: stargazing. -->
+  <Stargazing>يتأمل النجوم.</Stargazing>
+  <!-- EN: watching the eclipse. -->
+  <WatchingEclipse>يشاهد الكسوف/الخسوف.</WatchingEclipse>
+  <!-- EN: watching the aurora. -->
+  <WatchingAurora>يشاهد الشفق القطبي.</WatchingAurora>
+  <!-- EN: using {0} on {1}. -->
+  <UsingVerb>يستخدم {0} على {1}.</UsingVerb>
+  <!-- EN: using {0}. -->
+  <UsingVerbNoTarget>يستخدم {0}.</UsingVerbNoTarget>
+  <!-- EN: area -->
+  <AreaLower>منطقة</AreaLower>
+  <!-- EN: cowering. -->
+  <ReportCowering>يختبئ.</ReportCowering>
+  <!-- EN: standing. -->
+  <ReportStanding>يقف.</ReportStanding>
+  <!-- EN: extinguishing fire. -->
+  <ReportExtinguishingFire>يخمد حريقاً.</ReportExtinguishingFire>
+  <!-- EN: extinguishing fire on {TARGET_label}. -->
+  <ReportExtinguishingFireOn>يخمد حريقاً في {TARGET_label}.</ReportExtinguishingFireOn>
+  <!-- EN: digging up corpse. -->
+  <ReportDiggingUpCorpse>يحفر لاستخراج جثة.</ReportDiggingUpCorpse>
+  <!-- EN: being carried by {0_labelShort}. -->
+  <CarriedBy>يتم حمله بواسطة {0_labelShort}.</CarriedBy> 
+  <!-- EN: inside {0_labelShort}. -->
+  <InContainer>داخل {0_labelShort}.</InContainer> 
+  <!-- EN: downed, cannot crawl. -->
+  <DownedCannotCrawl>سقط أرضاً، لا يستطيع الزحف.</DownedCannotCrawl> 
+  <!-- EN: downed, unconscious. -->
+  <DownedUnconscious>سقط أرضاً، فاقد للوعي.</DownedUnconscious> 
+
+  <!-- Lord job reports -->
+  <!-- EN: Attending marriage ceremony -->
+  <LordReportAttendingMarriageCeremony>يحضر مراسم الزواج</LordReportAttendingMarriageCeremony>
+  <!-- EN: Attending party -->
+  <LordReportAttendingParty>يحضر حفلة</LordReportAttendingParty>
+  <!-- EN: Attending concert -->
+  <LordReportAttendingConcert>يحضر حفلة موسيقية</LordReportAttendingConcert>
+  <!-- EN: Holding a concert -->
+  <LordReportHoldingConcert>يقيم حفلة موسيقية</LordReportHoldingConcert>
+  <!-- EN: Giving a speech -->
+  <LordReportGivingSpeech>يلقي خطاباً</LordReportGivingSpeech>
+  <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
+  <LordReportListeningSpeech>يستمع لخطاب {ORGANIZER_labelShort}</LordReportListeningSpeech>
+  <!-- EN: Forming caravan -->
+  <LordReportFormingCaravan>تشكيل قافلة</LordReportFormingCaravan>
+
+  <!-- Shooting report -->
+  <!-- EN: Weapon miss radius -->
+  <WeaponMissRadius>نصف قطر خطأ السلاح</WeaponMissRadius>
+  <!-- EN: Shooter -->
+  <ShootReportShooterAbility>الرامي</ShootReportShooterAbility>
+  <!-- EN: Weapon -->
+  <ShootReportWeapon>السلاح</ShootReportWeapon>
+  <!-- EN: Darkness -->
+  <Darkness>الظلام</Darkness>
+  <!-- EN: Target lying down -->
+  <TargetProne>الهدف مستلقٍ</TargetProne>
+  <!-- EN: Target size -->
+  <TargetSize>حجم الهدف</TargetSize>
+  <!-- EN: Weather -->
+  <Weather>الطقس</Weather>
+  <!-- EN: Cover -->
+  <ShootingCover>تغطية</ShootingCover>
+  <!-- EN: {COVER_label} stops {1} -->
+  <CoverThingBlocksPercentOfShots>{COVER_label} يوقف {1}</CoverThingBlocksPercentOfShots>
+  <!-- EN: no cover -->
+  <NoCoverLower>لا توجد تغطية</NoCoverLower>
+  <!-- EN: Execution -->
+  <Execution>إعدام</Execution>
+
+  <!-- Generated recipes -->
+  <!-- EN: make {0} -->
+  <RecipeMake>اصنع {0}</RecipeMake>
+  <!-- EN: Make {0}. -->
+  <RecipeMakeDescription>اصنع {0}.</RecipeMakeDescription>
+  <!-- EN: Making {0}. -->
+  <RecipeMakeJobString>يصنع {0}.</RecipeMakeJobString>
+  <!-- EN: administer {0} -->
+  <RecipeAdminister>إعطاء {0}</RecipeAdminister>
+  <!-- EN: Administering {0}. -->
+  <RecipeAdministerJobString>يعطي {0}.</RecipeAdministerJobString>
+  <!-- EN: teetotaler will be unhappy -->
+  <TeetotalerUnhappy>سيكون الممتنع عن المسكرات غير سعيد</TeetotalerUnhappy>
+  <!-- EN: body purist will be unhappy -->
+  <ProsthophobeUnhappy>سيكون محب الجسد الطبيعي غير سعيد</ProsthophobeUnhappy>
+
+  <!-- Thoughts -->
+  <!-- EN: Expires in: {0} -->
+  <ThoughtExpiresIn>تنتهي صلاحيته في: {0}</ThoughtExpiresIn>
+  <!-- EN: thought disabled by -->
+  <ThoughtNullifiedBy>فكرة معطلة بواسطة</ThoughtNullifiedBy>
+  <!-- EN: Starts expiring in: {0} -->
+  <ThoughtStartsExpiringIn>يبدأ بانتهاء الصلاحية في: {0}</ThoughtStartsExpiringIn>
+  <!-- EN: Finishes expiring in: {0} -->
+  <ThoughtFinishesExpiringIn>ينتهي بانتهاء الصلاحية في: {0}</ThoughtFinishesExpiringIn>
+  <!-- EN: Extreme break threshold -->
+  <MentalBreakThresholdExtreme>عتبة الانهيار الشديد</MentalBreakThresholdExtreme>
+  <!-- EN: Major break threshold -->
+  <MentalBreakThresholdMajor>عتبة الانهيار الكبير</MentalBreakThresholdMajor>
+  <!-- EN: Minor break threshold -->
+  <MentalBreakThresholdMinor>عتبة الانهيار البسيط</MentalBreakThresholdMinor>
+
+  <!-- Pawn info readout -->
+  <!-- EN: {PAWN_gender} {1} -->
+  <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
+  <!-- EN: {0} of {1} -->
+  <PawnMainDescFactionedWrap>{0} الخاص بـ {1}</PawnMainDescFactionedWrap>
+  <!-- EN: {0} in {1} -->
+  <PawnTitleDescWrap>{0} في {1}</PawnTitleDescWrap>
+  <!-- EN: {0} under {1} -->
+  <PawnMainDescUnderFactionedWrap>{0} تحت {1}</PawnMainDescUnderFactionedWrap>
+  <!-- EN: {2_lifeStageAdjective} {0} -->
+  <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
+  <!-- EN: Faction -->
+  <Faction>فصيل</Faction>
+  <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
+  <FactionDesc>الفصيل الذي ينتمي إليه {PAWN_labelShort} حالياً.</FactionDesc>
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
+  <ExtraFactionDesc>الفصيل الذي ينتمي إليه {PAWN_labelShort} أصلاً.</ExtraFactionDesc>
+  <!-- EN: Equipped -->
+  <Equipped>مجهز</Equipped>
+  <!-- EN: nothing -->
+  <EquippedNothing>لاشيء</EquippedNothing>
+  <!-- EN: Dead -->
+  <Dead>ميت</Dead>
+  <!-- EN: Unconscious -->
+  <Unconscious>فاقد للوعي</Unconscious>
+  <!-- EN: In shock due to pain -->
+  <PainShock>في حالة صدمة بسبب الألم</PainShock>
+  <!-- EN: Pain shock -->
+  <PainShockShort>صدمة ألم</PainShockShort>
+  <!-- EN: Incapacitated -->
+  <Incapacitated>غير قادر</Incapacitated>
+  <!-- EN: In restraints (slowed) -->
+  <InRestraints>مقيد (متباطئ)</InRestraints>
+  <!-- EN: Carrying -->
+  <Carrying>يحمل</Carrying>
+  <!-- EN: Affected by: -->
+  <AffectedBy>متأثر بـ:</AffectedBy>
+  <!-- EN: Queued -->
+  <Queued>في قائمة الانتظار</Queued>
+  <!-- EN: State -->
+  <State>الحالة</State>
+  <!-- EN: stun -->
+  <StunLower>صدمة</StunLower>
+  <!-- EN: Slowed by damage -->
+  <SlowedByDamage>متباطئ بسبب الضرر</SlowedByDamage>
+
+  <!-- Inspector general stuff -->
+  <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTip>حدد الشيء التالي في نفس المربع.\n\n(*SectionTitle)مفتاح الاختصار:(/SectionTitle) {0}\n\nيمكنك أيضاً القيام بذلك عن طريق النقر ببطء على نفس المربع مرة أخرى.</SelectNextInSquareTip>
+  <!-- EN: View information. -->
+  <DefInfoTip>عرض المعلومات.</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>حدد الشيء التالي في نفس المربع.\n\nيمكنك أيضاً القيام بذلك عن طريق النقر ببطء على نفس المربع مرة أخرى.</SelectNextInSquareTipController>
+
+  <!-- Hostility response -->
+  <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
+  <HostilityReponseTip>قم بتغيير كيفية تفاعل هذا الشخص مع الأعداء القريبين عندما لا يكون مجنداً.</HostilityReponseTip>
+  <!-- EN: Current mode -->
+  <HostilityResponseCurrentMode>الوضع الحالي</HostilityResponseCurrentMode>
+
+  <!-- like 'Blood of John' -->
+  <!-- EN: of -->
+  <OfLower>الخاص بـ</OfLower>
+
+  <!-- Power readout -->
+  <!-- EN: Not connected to power. -->
+  <PowerNotConnected>غير متصل بالطاقة.</PowerNotConnected>
+  <!-- EN: Grid excess: {0} W ({1} Wd stored) -->
+  <PowerConnectedRateStored>فائض الشبكة: {0} واط ({1} واط/يوم مخزن)</PowerConnectedRateStored>
+  <!-- EN: Power needed -->
+  <PowerNeeded>الطاقة المطلوبة</PowerNeeded>
+  <!-- EN: Power output -->
+  <PowerOutput>ناتج الطاقة</PowerOutput>
+  <!-- EN: {0} W when active -->
+  <PowerActiveNeeded>{0} واط عند التفعيل</PowerActiveNeeded>
+  <!-- EN: Stored -->
+  <PowerBatteryStored>مخزن</PowerBatteryStored>
+  <!-- EN: Efficiency -->
+  <PowerBatteryEfficiency>الكفاءة</PowerBatteryEfficiency>
+  <!-- EN: Self-discharging -->
+  <SelfDischarging>تفريغ ذاتي</SelfDischarging>
+
+  <!-- Temperature control -->
+  <!-- EN: Target temperature -->
+  <TargetTemperature>درجة الحرارة المستهدفة</TargetTemperature>
+  <!-- EN: Current power use -->
+  <PowerConsumptionMode>استخدام الطاقة الحالي</PowerConsumptionMode>
+  <!-- EN: high -->
+  <PowerConsumptionHigh>عالي</PowerConsumptionHigh>
+  <!-- EN: low -->
+  <PowerConsumptionLow>منخفض</PowerConsumptionLow>
+  <!-- EN: off -->
+  <PowerConsumptionOff>إيقاف</PowerConsumptionOff>
+
+  <!-- Temperature readout -->
+  <!-- EN: Indoors -->
+  <Indoors>في الداخل</Indoors>
+  <!-- EN: Unroofed -->
+  <IndoorsUnroofed>بدون سقف</IndoorsUnroofed>
+  <!-- EN: outdoors -->
+  <Outdoors>في الخارج</Outdoors>
+
+  <!-- Rotting -->
+  <!-- EN: Fresh -->
+  <RotStateFresh>طازج</RotStateFresh>
+  <!-- EN: Rotting -->
+  <RotStateRotting>متعفن</RotStateRotting>
+  <!-- EN: Dessicated -->
+  <RotStateDessicated>مجفف</RotStateDessicated>
+  <!-- EN: Frozen -->
+  <CurrentlyFrozen>مجمد</CurrentlyFrozen> 
+  <!-- EN: Refrigerated, spoils in {0} -->
+  <CurrentlyRefrigerated>مبرد، يفسد خلال {0}</CurrentlyRefrigerated> 
+  <!-- EN: Unrefrigerated, spoils in {0} -->
+  <NotRefrigerated>غير مبرد، يفسد خلال {0}</NotRefrigerated> 
+  <!-- EN: over a decade -->
+  <OverADecade>أكثر من عقد</OverADecade>
+  <!-- EN: less than a day -->
+  <LessThanADay>أقل من يوم</LessThanADay>
+
+  <!-- Shooting tooltip -->
+  <!-- EN: Shot by {1_labelShort} -->
+  <ShotBy>تم إطلاق النار عليه بواسطة {1_labelShort}</ShotBy>
+  <!-- EN: Cannot hit target. -->
+  <CannotHit>لا يمكن إصابة الهدف.</CannotHit>
+  <!-- EN: Manhunter chance per hit -->
+  <ManhunterPerHit>احتمالية التحول لآكلي بشر لكل ضربة</ManhunterPerHit>
+
+  <!-- Meal -->
+  <!-- EN: Ingredients -->
+  <Ingredients>المكونات</Ingredients>
+  <!-- EN: The ingredients used to make this meal. -->
+  <IngredientsDesc>المكونات المستخدمة لصنع هذه الوجبة.</IngredientsDesc>
+  <!-- EN: Dietary type -->
+  <DietaryType>نوع النظام الغذائي</DietaryType>
+  <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
+  <DietaryTypeDesc>نوع الوجبة المنتجة. بعض الناس لديهم تفضيلات لأنواع معينة من الوجبات.</DietaryTypeDesc>
+  <!-- EN: only stacks with similar meals -->
+  <OnlyStacksWithCompatibleMeals>يُكدس فقط مع وجبات مشابهة</OnlyStacksWithCompatibleMeals>
+
+  <!-- Plants -->
+  <!-- EN: {0} grown -->
+  <PercentGrowth>{0} نمت</PercentGrowth>
+  <!-- EN: Growth rate -->
+  <GrowthRate>معدل النمو</GrowthRate>
+  <!-- EN: Fully grown in {0} of growth. -->
+  <FullyGrownIn>نمى بالكامل في {0} من النمو.</FullyGrownIn>
+  <!-- EN: needs light level -->
+  <PlantNeedsLightLevel>يحتاج لمستوى ضوء</PlantNeedsLightLevel>
+  <!-- EN: resting -->
+  <PlantResting>يستريح</PlantResting>
+  <!-- EN: temperature growth multiplier {0}% -->
+  <OutOfIdealTemperatureRange>مضاعف نمو درجة الحرارة {0}%</OutOfIdealTemperatureRange>
+  <!-- EN: out of temperature growth range -->
+  <OutOfIdealTemperatureRangeNotGrowing>خارج نطاق نمو درجة الحرارة</OutOfIdealTemperatureRangeNotGrowing>
+  <!-- EN: Ready to harvest. -->
+  <ReadyToHarvest>جاهز للحصاد.</ReadyToHarvest>
+  <!-- EN: Mature. -->
+  <Mature>ناضج.</Mature>
+  <!-- EN: Average plant age -->
+  <AveragePlantAge>متوسط عمر النبات</AveragePlantAge>
+  <!-- EN: Oldest plant age -->
+  <OldestPlantAge>عمر أقدم نبات</OldestPlantAge>
+  <!-- EN: Growing period -->
+  <OutdoorGrowingPeriod>فترة النمو</OutdoorGrowingPeriod>
+  <!-- EN: Never -->
+  <NoGrowingPeriod>أبداً</NoGrowingPeriod>
+  <!-- EN: Year-round -->
+  <GrowYearRound>طوال العام</GrowYearRound>
+  <!-- EN: Growing season here now. -->
+  <GrowSeasonHereNow>موسم النمو هنا الآن.</GrowSeasonHereNow>
+  <!-- EN: Cannot grow (bad seasonal temperature). -->
+  <CannotGrowBadSeasonTemperature>لا يمكنه النمو (درجة حرارة موسمية سيئة).</CannotGrowBadSeasonTemperature>
+  <!-- EN: Blighted -->
+  <Blighted>مصب بلفحة</Blighted>
+  <!-- EN: Dying because exposed to light -->
+  <DyingBecauseExposedToLight>يحتضر بسبب التعرض للضوء</DyingBecauseExposedToLight>
+  <!-- EN: Dying from non-ideal terrain -->
+  <DyingBecauseOfTerrain>يحتضر بسبب تضاريس غير مثالية</DyingBecauseOfTerrain>
+  <!-- EN: Cut now -->
+  <AutoCutNow>اقطع الآن</AutoCutNow>
+  <!-- EN: harvesting -->
+  <HarvestGerund>يحصد</HarvestGerund>
+  <!-- EN: cutting -->
+  <CutGerund>يقطع</CutGerund>
+  <!-- EN: Cut all blight -->
+  <CutAllBlight>اقطع كل النباتات المصابة بلفحة</CutAllBlight>
+  <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
+  <CutAllBlightDesc>حدد جميع النباتات المصابة بلفحة ليتم تدميرها. النباتات المصابة لن تنتج أي طعام أو موارد ويجب تدميرها قبل انتشار اللفحة.</CutAllBlightDesc>
+
+  <!-- Zones -->
+  <!-- EN: Zone -->
+  <Zone>منطقة</Zone>
+  <!-- EN: Growing zone -->
+  <GrowingZone>منطقة زراعة</GrowingZone>
+  <!-- EN: growing -->
+  <GrowingGroup>زراعة</GrowingGroup>
+  <!-- EN: Stockpile zone -->
+  <Stockpile>منطقة تخزين</Stockpile>
+  <!-- EN: stockpile -->
+  <StockpileGroup>تخزين</StockpileGroup>
+  <!-- EN: Dumping stockpile zone -->
+  <DumpingStockpile>منطقة رمي النفايات</DumpingStockpile>
+  <!-- EN: Corpse stockpile zone -->
+  <CorpseStockpile>منطقة تخزين الجثث</CorpseStockpile>
+  <!-- EN: Priority -->
+  <Priority>الأولوية</Priority>
+  <!-- EN: Clear all -->
+  <ClearAll>إلغاء تحديد الكل</ClearAll>
+  <!-- EN: Allow all -->
+  <AllowAll>تحديد الكل</AllowAll>
+  
+  <!-- Storage Groups -->
+  <!-- EN: Group -->
+  <StorageGroup>مجموعة</StorageGroup>
+  <!-- EN: Name -->
+  <StorageLabel>الاسم</StorageLabel>
+  <!-- EN: Storage group -->
+  <StorageGroupLabel>مجموعة التخزين</StorageGroupLabel>
+
+  <!-- ThingFilter -->
+  <!-- EN: {0} hit points -->
+  <HitPoints>{0} نقاط حياة</HitPoints>
+  <!-- EN: any quality -->
+  <AnyQuality>أي جودة</AnyQuality>
+  <!-- EN: {0} only -->
+  <OnlyQuality>{0} فقط</OnlyQuality>
+
+  <!-- Mouseover indicator -->
+  <!-- EN: Undiscovered -->
+  <Undiscovered>غير مكتشف</Undiscovered>
+  
+  <!-- Animal management -->
+  <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSterilizeConfirm>هل أنت متأكد أنك تريد تعقيم {PAWN_nameDef}؟ سيؤدي هذا إلى إغضاب {FACTION_name}.</AnimalSterilizeConfirm>
+  <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSlaughterConfirm>هل أنت متأكد أنك تريد ذبح {PAWN_nameDef}؟ سيؤدي هذا إلى إغضاب {FACTION_name}.</AnimalSlaughterConfirm>
+  <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalReleaseConfirm>هل أنت متأكد أنك تريد إطلاق سراح {PAWN_nameDef}؟ سيؤدي هذا إلى إغضاب {FACTION_name}.</AnimalReleaseConfirm>
+
+  <!-- Buttons -->
+  <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
+  <ShowLearningHelperWhenEmptyToggleButton>تبديل رؤية مساعد التعلم عندما يكون فارغاً.\n\nيكون مساعد التعلم مرئياً دائماً إذا كان هناك مفهوم نشط للتعلم. هذا التبديل يجعله يختفي عندما لا يكون هناك مفهوم نشط.</ShowLearningHelperWhenEmptyToggleButton>
+  <!-- EN: Toggle visibility of zones. -->
+  <ZoneVisibilityToggleButton>تبديل رؤية المناطق.</ZoneVisibilityToggleButton>
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
+  <ShowBeautyToggleButton>تبديل عرض الجمال.\n\nيعرض جمال العالم كما تراه الشخصية الواقفة حيث يشير المؤشر.</ShowBeautyToggleButton>
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
+  <ShowRoomStatsToggleButton>تبديل عرض إحصائيات الغرفة.\n\nيعرض إحصائيات الغرفة حيث يشير المؤشر.</ShowRoomStatsToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
+  <ShowColonistBarToggleButton>تبديل شريط المستعمرين.\n\nيعرض أيقونات وحالة أساسية لجميع المستعمرين على طول الجزء العلوي من الشاشة.\n\nيمكنك إعادة ترتيب المستعمرين في شريط المستعمرين بالنقر بزر الفأرة الأيمن وسحبهم.</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>تبديل شريط المستعمرين.\n\nيعرض أيقونات وحالة أساسية لجميع المستعمرين على طول الجزء العلوي من الشاشة.\n\nيمكنك إعادة ترتيب المستعمرين في شريط المستعمرين بالضغط على زر الزناد الأيسر وسحبهم.</ShowColonistBarToggleButtonController>
+  <!-- EN: Toggle automatically expanding the home area around new constructions. -->
+  <AutoHomeAreaToggleButton>تبديل التوسع التلقائي لمنطقة المنزل حول الإنشاءات الجديدة.</AutoHomeAreaToggleButton>
+  <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
+  <AutoRebuildButton>تبديل إعادة البناء التلقائية للهياكل المدمرة في منطقة المنزل.</AutoRebuildButton>
+  <!-- EN: Toggle categorized mode on the resource readout. -->
+  <CategorizedResourceReadoutToggleButton>تبديل وضع التصنيف في عرض الموارد.</CategorizedResourceReadoutToggleButton>
+  <!-- EN: Toggle displaying animal names for tame named animals. -->
+  <ShowAnimalNamesToggleButton>تبديل عرض أسماء الحيوانات المروضة التي لها أسماء.</ShowAnimalNamesToggleButton>
+  <!-- EN: Toggle visibility of roofs. -->
+  <ShowRoofOverlayToggleButton>تبديل رؤية الأسقف.</ShowRoofOverlayToggleButton>
+  <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
+  <ShowFertilityOverlayToggleButton>تبديل تراكب الخصوبة.\n\nيوضح هذا مدى خصوبة الأرض، مما يؤثر على أنواع النباتات التي يمكن أن تنمو ومدى سرعة نموها.</ShowFertilityOverlayToggleButton>
+  <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
+  <ShowTerrainAffordanceOverlayToggleButton>تبديل رؤية ملاءمة التضاريس.\n\nيتعلق هذا بأنواع المباني التي يمكن تشييدها في كل موقع.\n\nعلى سبيل المثال، بعض أنواع الأرض تقبل فقط المباني الخفيفة أو المتوسطة، ولكن ليس الثقيلة. يمكن بناء الجسور فقط على الماء.</ShowTerrainAffordanceOverlayToggleButton>
+  <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
+  <LockNorthUpToggleButton>قفل دوران الكاميرا بحيث يكون القطب الشمالي دائماً للأعلى.</LockNorthUpToggleButton>
+  <!-- EN: Toggle day/night lighting on the planet view. -->
+  <UsePlanetDayNightSystemToggleButton>تبديل إضاءة النهار/الليل في عرض الكوكب.</UsePlanetDayNightSystemToggleButton>
+  <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
+  <ShowBasesExpandingIconsToggleButton>تبديل عرض أيقونات التوسع للمستوطنات التابعة للفصائل الأخرى.</ShowBasesExpandingIconsToggleButton>
+  <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
+  <ShowImportantExpandingIconsToggleButton>تبديل عرض أيقونات التوسع للمواقع المهمة، مثل مستعمرتك، ومواقع المهام، والخرائط النشطة.</ShowImportantExpandingIconsToggleButton>
+  <!-- EN: Toggle visibility of names of landforms. -->
+  <ShowWorldFeaturesToggleButton>تبديل رؤية أسماء التضاريس.</ShowWorldFeaturesToggleButton>
+  <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
+  <ShowTemperatureOverlayToggleButton>تبديل تراكب الحرارة. يوضح هذا درجة حرارة الهواء في كل غرفة وفي الخارج.\n\nسيكون المستعمرون غير سعداء إذا كانت درجة الحرارة مرتفعة جداً أو منخفضة جداً. التعرض لدرجات حرارة متطرفة يمكن أن يؤدي إلى انخفاض حرارة الجسم، وعضة الصقيع، وضربة الشمس، والحروق، والموت.</ShowTemperatureOverlayToggleButton>
+
+  <!-- Hotkeys -->
+  <!-- EN: Hotkey -->
+  <HotKeyTip>مفتاح اختصار</HotKeyTip>
+  
+  <!-- Fire -->
+  <!-- EN: fire on {1_label} -->
+  <FireOn>نار على {1_label}</FireOn>
+  <!-- EN: Burning -->
+  <Burning>تحترق</Burning>
+  <!-- EN: fire size {0} -->
+  <FireSizeLower>حجم النار {0}</FireSizeLower>
+
+  <!-- Game conditions -->
+  <!-- EN: Special conditions affecting the area right now. -->
+  <GameConditionsTip>ظروف خاصة تؤثر على المنطقة الآن.</GameConditionsTip>
+  <!-- EN: time left -->
+  <TimeLeft>الوقت المتبقي</TimeLeft>
+  <!-- EN: impact date -->
+  <ImpactDate>تاريخ التأثير</ImpactDate>
+  <!-- EN: Source unknown. -->
+  <SourceUnknown>المصدر مجهول.</SourceUnknown>
+  <!-- EN: Click to jump to the source. -->
+  <ClickToJumpToSource>انقر للانتقال إلى المصدر.</ClickToJumpToSource>
+  <!-- EN: Click to jump to the flashstorm. -->
+  <ClickToJumpToFlashstorm>انقر للانتقال إلى العاصفة المفاجئة.</ClickToJumpToFlashstorm>
+  <!-- EN: Caused by quest: {0} -->
+  <CausedByQuest>بسبب المهمة: {0}</CausedByQuest>
+
+  <!-- Building placement -->
+  <!-- EN: You have no usable materials from which to build this. -->
+  <NoStuffsToBuildWith>ليس لديك مواد قابلة للاستخدام يمكنك البناء بها.</NoStuffsToBuildWith>
+
+  <!-- Building placement restricters -->
+  <!-- EN: {0} will have work speed penalty -->
+  <WillGetWorkSpeedPenalty>{0} ستواجه عقوبة في سرعة العمل</WillGetWorkSpeedPenalty>
+  <!-- EN: Cannot be placed under a roof. -->
+  <MustPlaceUnroofed>لا يمكن وضعها تحت سقف.</MustPlaceUnroofed>
+  <!-- EN: Must be placed under thick roof. -->
+  <MustPlaceUnderThickRoof>يجب وضعها تحت سقف سميك.</MustPlaceUnderThickRoof>
+  <!-- EN: Must be placed against a wall. -->
+  <MustPlaceOnWall>يجب وضعها مقابل جدار.</MustPlaceOnWall>
+  <!-- EN: Something is already placed on this wall. -->
+  <SomethingPlacedOnThisWall>هناك شيء موضوع بالفعل على هذا الجدار.</SomethingPlacedOnThisWall>
+  <!-- EN: This building can not support attachments. -->
+  <CannotSupportAttachment>هذا المبنى لا يمكنه دعم الملحقات.</CannotSupportAttachment>
+  <!-- EN: Must place with head attached to ship structural beam. -->
+  <MustPlaceHeadOnShipBeam>يجب وضعها بحيث يكون الرأس متصلاً بعارضة هيكل السفينة.</MustPlaceHeadOnShipBeam>
+  <!-- EN: Must be placed next to something that needs a hopper. -->
+  <MustPlaceNextToHopperAccepter>يجب وضعها بجانب شيء يحتاج إلى قمع.</MustPlaceNextToHopperAccepter>
+  <!-- EN: Must be placed directly on a steam geyser. -->
+  <MustPlaceOnSteamGeyser>يجب وضعها مباشرة على نبع بخار.</MustPlaceOnSteamGeyser>
+  <!-- EN: Both the hot and cold sides of the cooler must be exposed. -->
+  <MustPlaceCoolerWithFreeSpaces>يجب أن يكون كلا الجانبين الساخن والبارد للمبرد مكشوفين.</MustPlaceCoolerWithFreeSpaces>
+  <!-- EN: Both the sides must be exposed for air to pass through. -->
+  <MustPlaceVentWithFreeSpaces>يجب أن يكون كلا الجانبين مكشوفين ليتمكن الهواء من المرور.</MustPlaceVentWithFreeSpaces>
+  <!-- EN: Must be placed with standable space on all sides. -->
+  <MustPlaceAdjacentStandable>يجب وضعها مع مساحة يمكن الوقوف فيها من جميع الجوانب.</MustPlaceAdjacentStandable>
+  <!-- EN: Must be placed next to a pod launcher's fueling port. -->
+  <MustPlaceNearFuelingPort>يجب وضعها بجانب منفذ تزويد الوقود الخاص بقاذف الكبسولات.</MustPlaceNearFuelingPort>
+  <!-- EN: Must be placed on drillable resources. -->
+  <MustPlaceOnDrillable>يجب وضعها على موارد قابلة للحفر.</MustPlaceOnDrillable>
+  <!-- EN: Cannot be placed next to traps. -->
+  <CannotPlaceAdjacentTrap>لا يمكن وضعها بجانب الفخاخ.</CannotPlaceAdjacentTrap>
+  <!-- EN: Cannot be placed next to another building of the same type. -->
+  <CannotPlaceAdjacentSameDef>لا يمكن وضعها بجانب مبنى آخر من نفس النوع.</CannotPlaceAdjacentSameDef>
+
+  <!-- Wind Turbine -->
+  <!-- EN: Blocked by -->
+  <WindTurbine_WindPathIsBlockedBy>مسدود بواسطة</WindTurbine_WindPathIsBlockedBy>
+  <!-- EN: Blocked by roof -->
+  <WindTurbine_WindPathIsBlockedByRoof>مسدود بواسطة سقف</WindTurbine_WindPathIsBlockedByRoof>
+
+  <!-- Watermill generator -->
+  <!-- EN: Flow reduced: Turbulence from other watermill -->
+  <Watermill_WaterUsedTwice>انخفاض التدفق: اضطراب من طاحونة مائية أخرى</Watermill_WaterUsedTwice>
+
+  <!-- Cryptosleep casket -->
+  <!-- EN: Contains -->
+  <CasketContains>يحتوي على</CasketContains>
+  <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
+  <CasketWarning>تحذير!\n\n{PAWN_nameDef} هو آخر مستعمر حر لديك! إذا سمحت لـ{PAWN_objective} بالدخول إلى تلك التابوت، فقد لا تتمكن من متابعة اللعب. هل أنت متأكد أنك تريد المتابعة؟</CasketWarning>
+
+  <!-- Ship launch report -->
+  <!-- EN: Cannot launch. -->
+  <ShipReportCannotLaunch>لا يمكن الإقلاع.</ShipReportCannotLaunch>
+  <!-- EN: Ready for launch. -->
+  <ShipReportCanLaunch>جاهزة للإقلاع.</ShipReportCanLaunch>
+  <!-- EN: Missing critical component -->
+  <ShipReportMissingPart>مكون حيوي مفقود</ShipReportMissingPart>
+  <!-- EN: requires -->
+  <ShipReportMissingPartRequires>يتطلب</ShipReportMissingPartRequires>
+  <!-- EN: No full cryptosleep caskets -->
+  <ShipReportNoFullPods>لا توجد توابيت سبات فائق ممتلئة</ShipReportNoFullPods>
+  <!-- EN: Hibernating component -->
+  <ShipReportHibernating>مكون في حالة سبات</ShipReportHibernating>
+  <!-- EN: Component not yet ready -->
+  <ShipReportNotReady>المكون ليس جاهزاً بعد</ShipReportNotReady>
+  <!-- EN: No settlement to return to. Form a settlement first. -->
+  <ShipNoSettlementToReturnTo>لا توجد مستوطنة للعودة إليها. قم بإنشاء مستوطنة أولاً.</ShipNoSettlementToReturnTo> 
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <HibernateWarning>(*Name)شارلون وايتستون(/Name) جاهز لبدء تسلسل استعادة سبات المفاعل.\n\nيحذرك من أن العملية ستستغرق حوالي 15 يوماً، وسيكون من الممكن اكتشاف بصمة الطاقة من مسافة بعيدة.\n\nهذا النوع من بصمة الطاقة يشير إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من المغيرين اليائسين وأسراباً من الميكانويد الفتاكة.\n\nستتعرض لهجوم بشدة لم ترَ مثله من قبل. تأكد من استعداد دفاعاتك أولاً.</HibernateWarning>
+  <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <HibernateWarningStandalone>المفاعل جاهز للتشغيل.\n\nستستغرق العملية حوالي 15 يوماً، وسيكون من الممكن اكتشاف بصمة الطاقة من مسافة بعيدة. يشير هذا النوع من بصمة الطاقة إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من المغيرين اليائسين وأسراباً من الميكانويد الفتاكة.\n\nستتعرض لهجوم بشدة لم ترَ مثله من قبل. تأكد من استعداد دفاعاتك أولاً.</HibernateWarningStandalone>
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
+  <HibernateWarningPacifist>(*Name)شارلون وايتستون(/Name) جاهز لبدء تسلسل استعادة سبات المفاعل. يحذرك من أن العملية ستستغرق حوالي 15 يوماً.</HibernateWarningPacifist>
+  <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
+  <HibernateWarningStandalonePacifist>المفاعل جاهز للتشغيل. ستستغرق العملية حوالي 15 يوماً.</HibernateWarningStandalonePacifist>
+
+  <!-- Neurotrainer -->
+  <!-- EN: skilltrainer ({0}) -->
+  <SkillNeurotrainerLabel>مدرب مهارات ({0})</SkillNeurotrainerLabel>
+  <!-- EN: Use skilltrainer to learn {0} -->
+  <SkillNeurotrainerUseLabel>استخدم مدرب المهارات لتعلم {0}</SkillNeurotrainerUseLabel>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
+  <SkillNeurotrainerDescription>جرعة فائقة تستخدم لمرة واحدة من الميكانيت تدرب مهارة محددة.\n\nيتم إعطاء الجرعة عبر مدار العين. بمجرد إطلاقها في الدماغ، تعمل الميكانيت بسرعة على تحسين مهارات الشخص في مجال محدد، وتتحول إلى نسيج عصبي حسب الحاجة.</SkillNeurotrainerDescription>
+  <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
+  <SkillNeurotrainerUsed>استخدم {USER_labelShort} مدرب مهارات {1} للانتقال من المستوى {2} إلى المستوى {3}.</SkillNeurotrainerUsed>
+
+  <!-- Minification -->
+  <!-- EN: Installed -->
+  <Installed>مثبت</Installed>
+  <!-- EN: Not installed -->
+  <NotInstalled>غير مثبت</NotInstalled>
+  <!-- EN: Extracted tree will die in {time} unless replanted. -->
+  <MinifiedTreeWillDieIn>الشجرة المستخرجة ستموت خلال {time} ما لم يتم إعادة زراعتها.</MinifiedTreeWillDieIn>
+
+  <!-- Art -->
+  <!-- EN: Title -->
+  <Title>العنوان</Title>
+  <!-- EN: Untitled -->
+  <Untitled>بدون عنوان</Untitled>
+
+  <!-- Unfinished thing -->
+  <!-- EN: Unfinished {0} -->
+  <UnfinishedItem>غير مكتمل {0}</UnfinishedItem>
+  <!-- EN: Unfinished {0} {1} -->
+  <UnfinishedItemWithStuff>غير مكتمل {0} {1}</UnfinishedItemWithStuff>
+
+  <!-- Quality -->
+  <!-- EN: Quality -->
+  <Quality>الجودة</Quality>
+  <!-- EN: quality -->
+  <quality>الجودة</quality>
+  <!-- EN: An item's quality is how well-made it is. -->
+  <QualityDescription>جودة العنصر هي مدى كونه جيد الصنع.</QualityDescription>
+  <!-- EN: Quality: {0} -->
+  <QualityIs>الجودة: {0}</QualityIs>
+
+  <!-- Mood descriptions -->
+  <!-- EN: mental state -->
+  <Mood_MentalState>حالة عقلية</Mood_MentalState>
+  <!-- EN: about to break -->
+  <Mood_AboutToBreak>على وشك الانهيار</Mood_AboutToBreak>
+  <!-- EN: on edge -->
+  <Mood_OnEdge>متوتر</Mood_OnEdge>
+  <!-- EN: stressed -->
+  <Mood_Stressed>مضغوط</Mood_Stressed>
+  <!-- EN: neutral -->
+  <Mood_Neutral>محايد</Mood_Neutral>
+  <!-- EN: content -->
+  <Mood_Content>راضٍ</Mood_Content>
+  <!-- EN: happy -->
+  <Mood_Happy>سعيد</Mood_Happy>
+
+  <!-- Game over -->
+  <!-- EN: Game Over -->
+  <GameOver>نهاية اللعبة</GameOver>
+  <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
+  <GameOverEveryoneDead>الجميع ماتوا أو رحلوا. انتهت هذه القصة.\n\nربما سيجد شخص آخر استخداماً لأطلال هذا المكان.</GameOverEveryoneDead>
+  <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
+  <GameOverPlanetkillerImpact>بسرعة تقارب سرعة الضوء، اصطدم سلاح قاتل الكواكب بالأرض بقوة تريليون قنبلة هيدروجينية. مثل بالون ماء أطلق عليه بندقية، تسيّل هذا العالم تحت تأثير الاصطدام ورش أحشاءه المنصهرة عبر الكون.\n\nجزء من {0} أصبح الآن حزاماً صغيراً من الكويكبات. والباقي عبارة عن جحيم منصهر ومشع، يتموج باستمرار بسبب زلازل كوكبية يبلغ ارتفاعها كيلومترات.\n\nأنت لم تنجُ.</GameOverPlanetkillerImpact>
+  <!-- EN: You've launched the ship! -->
+  <GameOverShipLaunchedIntro>لقد أطلقت السفينة!</GameOverShipLaunchedIntro>
+  <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
+  <GameOverShipLaunchedEnding>ستحاول شخصيتك الآلية الآن توجيه السفينة إلى مكان آمن. قد تجد كوكباً مزدهراً في هذا النظام. أو قد تقوم برحلة تستغرق قروناً إلى نجم آخر. قد تقرر حتى الاختباء تحت الجليد على كويكب لبضعة آلاف من السنين، في انتظار شخص ما لبناء عالم جديد متألق هنا.\n\nستعرف ذلك عندما تستيقظ.</GameOverShipLaunchedEnding>
+  <!-- EN: These colonists escaped:\n\n{0} -->
+  <GameOverColonistsEscaped>هؤلاء المستعمرون هربوا:\n\n{0}</GameOverColonistsEscaped>
+  <!-- EN: These colonists were left behind:\n\n{0} -->
+  <GameOverColonistsLeft>هؤلاء المستعمرون تُركوا خلفهم:\n\n{0}</GameOverColonistsLeft>
+  <!-- EN: In memory of:\n -->
+  <GameOverInMemoryOf>في ذكرى:\n</GameOverInMemoryOf>
+  <!-- EN: Keep watching -->
+  <GameOverKeepWatching>استمر في المشاهدة</GameOverKeepWatching>
+  <!-- EN: Keep watching for now -->
+  <GameOverKeepWatchingForNow>استمر في المشاهدة حالياً</GameOverKeepWatchingForNow>
+  <!-- EN: Create new wanderers -->
+  <GameOverCreateNewWanderers>إنشاء متجولين جدد</GameOverCreateNewWanderers>
+  <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
+  <GameOverCreateNewWanderersText>الجميع ماتوا أو رحلوا. ربما سيجد شخص ما استخداماً لأطلال هذا المكان.\n\nاختر متجولين جدد يصلون إلى مستعمرتك ويواصلون القصة.</GameOverCreateNewWanderersText>
+  <!-- EN: Main menu -->
+  <GameOverMainMenu>القائمة الرئيسية</GameOverMainMenu>
+  <!-- EN: No colony -->
+  <NoColony>لا توجد مستعمرة</NoColony>
+  <!-- EN: cannot reach any destination -->
+  <NoWandererDestination>لا يمكن الوصول إلى أي وجهة</NoWandererDestination>
+  <!-- EN: must wait {0}h -->
+  <GameOverCreateNewWanderersWait>يجب الانتظار {0} ساعة</GameOverCreateNewWanderersWait>
+
+  <!-- Generic lifespan -->
+  <!-- EN: Expires in: -->
+  <LifespanExpiry>تنتهي صلاحيته في:</LifespanExpiry>
+
+  <!-- Facilities -->
+  <!-- EN: inactive -->
+  <InactiveFacility>غير نشط</InactiveFacility>
+  <!-- EN: Links to -->
+  <FacilityPotentiallyLinkedTo>يرتبط بـ</FacilityPotentiallyLinkedTo>
+  <!-- EN: Not linked to a building -->
+  <FacilityNoPotentialLinks>غير مرتبط بمبنى</FacilityNoPotentialLinks>
+  <!-- EN: Max connected per building -->
+  <FacilityMaxSimultaneousConnections>الحد الأقصى للاتصالات لكل مبنى</FacilityMaxSimultaneousConnections>
+  <!-- EN: Front of building is blocked. -->
+  <FacilityFrontBlocked>مقدمة المبنى مسدودة.</FacilityFrontBlocked>
+
+  <!-- Hediffs growth modes -->
+  <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
+  <DiseaseGrowthModeChanged_Growing>{1} الخاصة بـ{PAWN_labelShort} تنمو الآن.</DiseaseGrowthModeChanged_Growing>
+  <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
+  <DiseaseGrowthModeChanged_Stable>{1} الخاصة بـ{PAWN_labelShort} مستقرة الآن.</DiseaseGrowthModeChanged_Stable>
+  <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
+  <DiseaseGrowthModeChanged_Remission>{1} الخاصة بـ{PAWN_labelShort} في حالة انحسار الآن.</DiseaseGrowthModeChanged_Remission>
+
+  <!-- Marriage spot -->
+  <!-- EN: Usable now. -->
+  <MarriageSpotUsable>قابلة للاستخدام الآن.</MarriageSpotUsable>
+  <!-- EN: Not usable: {0}. -->
+  <MarriageSpotNotUsable>غير قابلة للاستخدام: {0}.</MarriageSpotNotUsable>
+  <!-- EN: blocked -->
+  <MarriageSpotNotStandable>مسدودة</MarriageSpotNotStandable>
+  <!-- EN: too dangerous for {1_labelShort} -->
+  <MarriageSpotDangerous>خطيرة جداً على {1_labelShort}</MarriageSpotDangerous>
+  <!-- EN: forbidden for {1_labelShort} -->
+  <MarriageSpotForbidden>محظورة على {1_labelShort}</MarriageSpotForbidden>
+  <!-- EN: reserved -->
+  <MarriageSpotReserved>محجوزة</MarriageSpotReserved>
+  <!-- EN: unreachable for {1_labelShort} -->
+  <MarriageSpotUnreachable>غير قابلة للوصول لـ{1_labelShort}</MarriageSpotUnreachable>
+  <!-- EN: in prison cell -->
+  <MarriageSpotInPrisonCell>في زنزانة السجن</MarriageSpotInPrisonCell>
+  <!-- EN: uncomfortable temperature -->
+  <NotEnjoyableOutsideTemperature>درجة حرارة غير مريحة</NotEnjoyableOutsideTemperature>
+
+  <!-- Colonist bar -->
+  <!-- EN: Medical rest -->
+  <ActivityIconMedicalRest>راحة طبية</ActivityIconMedicalRest>
+  <!-- EN: Sleeping -->
+  <ActivityIconSleeping>نائم</ActivityIconSleeping>
+  <!-- EN: Fleeing -->
+  <ActivityIconFleeing>يهرب</ActivityIconFleeing>
+  <!-- EN: Fighting -->
+  <ActivityIconAttacking>يقاتل</ActivityIconAttacking>
+  <!-- EN: Idle -->
+  <ActivityIconIdle>خامل</ActivityIconIdle>
+  <!-- EN: Burning -->
+  <ActivityIconBurning>يحترق</ActivityIconBurning>
+  <!-- EN: Forming a caravan -->
+  <ActivityIconFormingCaravan>تشكيل قافلة</ActivityIconFormingCaravan>
+
+  <!-- Maintainable -->
+  <!-- EN: Due for maintenance. -->
+  <DueForMaintenance>حان وقت الصيانة.</DueForMaintenance>
+  <!-- EN: Deteriorating due to lack of maintenance. -->
+  <DeterioratingDueToLackOfMaintenance>يتدهور بسبب نقص الصيانة.</DeterioratingDueToLackOfMaintenance>
+
+  <!-- Deep drill -->
+  <!-- EN: Progress to next lump -->
+  <ProgressToNextLump>التقدم إلى الكتلة التالية</ProgressToNextLump>
+  <!-- EN: Resource below -->
+  <ResourceBelow>مورد في الأسفل</ResourceBelow>
+  <!-- EN: Progress to next portion -->
+  <ProgressToNextPortion>التقدم إلى الجزء التالي</ProgressToNextPortion>
+  <!-- EN: No resources below. -->
+  <DeepDrillNoResources>لا توجد موارد في الأسفل.</DeepDrillNoResources>
+  <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
+  <DeepDrillExhausted>نفدت موارد الحفر العميق، تم حظر الحفارة تلقائياً. أزل الحظر لبدء تعدين {0}.</DeepDrillExhausted>
+  <!-- EN: Deep drill resources exhausted. -->
+  <DeepDrillExhaustedNoFallback>نفدت موارد الحفر العميق.</DeepDrillExhaustedNoFallback>
+
+  <!-- reloading ammo -->
+  <!-- EN: Remaining charges -->
+  <ChargesRemaining>الشحنات المتبقية</ChargesRemaining>
+  
+  <!-- Learning helper -->
+  <!-- EN: Learning helper -->
+  <LearningHelper>مساعد التعلم</LearningHelper>
+  <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
+  <LearningHelperTooltip>معلم داخل اللعبة يهدف إلى تعليمك معلومات حول مواضيع ذات صلة بحالة مستعمرتك الحالية</LearningHelperTooltip>
+  <!-- EN: Mark as learned -->
+  <MarkLearned>وضع علامة كمكتسبة</MarkLearned>
+  <!-- EN: Already learned -->
+  <AlreadyLearned>تم تعلمها بالفعل</AlreadyLearned>
+  <!-- EN: Filter -->
+  <Filter>تصفية</Filter>
+
+  <!-- Compass -->
+  <!-- EN: Shows the north direction. Click to rotate the camera so the north pole is up. -->
+  <CompassTip>يظهر اتجاه الشمال. انقر لتدوير الكاميرا بحيث يكون القطب الشمالي للأعلى.</CompassTip>
+
+  <!-- World route planner -->
+  <!-- EN: Click to enter the planning mode where you can plan your journey and calculate distance between waypoints. -->
+  <RoutePlannerButtonTip>انقر للدخول إلى وضع التخطيط حيث يمكنك التخطيط لرحلتك وحساب المسافة بين نقاط الطريق.</RoutePlannerButtonTip>
+  <!-- EN: Add two or more waypoints. -->
+  <RoutePlannerAddTwoOrMoreWaypoints>أضف نقطتين أو أكثر.</RoutePlannerAddTwoOrMoreWaypoints>
+  <!-- EN: Add one or more waypoints. -->
+  <RoutePlannerAddOneOrMoreWaypoints>أضف نقطة واحدة أو أكثر.</RoutePlannerAddOneOrMoreWaypoints>
+  <!-- EN: Total route time: {0} -->
+  <RoutePlannerEstTimeToFinalDest>إجمالي وقت المسار: {0}</RoutePlannerEstTimeToFinalDest>
+  <!-- EN: Planning mode uses the default caravan speed. Your speed may vary. -->
+  <RoutePlannerUsingAverageTicksPerMoveWarning>يستخدم وضع التخطيط سرعة القافلة الافتراضية. قد تختلف سرعتك.</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <!-- EN: Calculating for: {0} -->
+  <RoutePlannerUsingTicksPerMoveOfCaravan>حساب لـ: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+  <!-- EN: Right mouse button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>زر الفأرة الأيمن: إضافة/إزالة نقاط الطريق.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>زر الزناد الأيسر: إضافة/إزالة نقاط الطريق.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
+  <!-- EN: ESC: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExit>ESC: الخروج من وضع التخطيط.</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: الخروج من وضع التخطيط.</RoutePlannerPressEscapeToExitController>
+  <!-- EN: ESC: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: العودة إلى مربع حوار تشكيل القافلة.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: العودة إلى مربع حوار تشكيل القافلة.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
+  <!-- EN: Est. travel time: {0} -->
+  <EstimatedTimeToWaypoint>وقت السفر المقدر: {0}</EstimatedTimeToWaypoint>
+  <!-- EN: Est. travel time (from previous waypoint): {0} -->
+  <EstimatedTimeToWaypointFromPrevious>وقت السفر المقدر (من نقطة الطريق السابقة): {0}</EstimatedTimeToWaypointFromPrevious>
+  <!-- EN: Est. travel time: {0} -->
+  <EstimatedTimeToTile>وقت السفر المقدر: {0}</EstimatedTimeToTile>
+  <!-- EN: Foraged food amount -->
+  <ForagedFoodAmount>كمية الطعام المجمعة</ForagedFoodAmount>
+
+  <!-- Outfits -->
+  <!-- EN: Anything -->
+  <OutfitAnything>أي شيء</OutfitAnything>
+  <!-- EN: Worker -->
+  <OutfitWorker>عامل</OutfitWorker>
+  <!-- EN: Soldier -->
+  <OutfitSoldier>جندي</OutfitSoldier>
+  <!-- EN: Nudist -->
+  <OutfitNudist>عاري</OutfitNudist>
+  <!-- EN: Spacefarer -->
+  <OutfitSpacefarer>مسافر فضاء</OutfitSpacefarer>
+
+  <!-- Hibernatable -->
+  <!-- EN: Hibernating -->
+  <HibernatableHibernating>في حالة سبات</HibernatableHibernating>
+  <!-- EN: Starting up -->
+  <HibernatableStartingUp>بدء التشغيل</HibernatableStartingUp>
+
+  <!-- Transport pods -->
+  <!-- EN: {0}: See available orders... -->
+  <ClickToSeeAvailableOrders_WorldObject>{0}: رؤية الأوامر المتاحة...</ClickToSeeAvailableOrders_WorldObject>
+  <!-- EN: See available orders... -->
+  <ClickToSeeAvailableOrders_Empty>رؤية الأوامر المتاحة...</ClickToSeeAvailableOrders_Empty>
+  
+  <!-- Pawn tooltips -->
+  <!-- EN: {0} ({1})\n{2}\n{3} -->
+  <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
+  <!-- EN: {0} ({1})\n{2} -->
+  <PawnTooltipWithDescNoPrimaryEquip>{0} ({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
+  <!-- EN: {0}\n{1}\n{2} -->
+  <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
+  <!-- EN: {0}\n{1} -->
+  <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
+  <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>معدل الانخفاض: {0} / ث ({1} ث حتى الصفر)</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <PawnTooltipPsychicEntropyDesc>تزداد الحرارة العصبية بعد استخدام قوة نفسية. تجاوز الحد الطبيعي قد يسبب انهياراً نفسياً يستمر أياماً.\n\nتتبدد الحرارة العصبية طبيعياً بمرور الوقت. يمكن تسريع هذه العملية بارتداء ملابس الإلتكس أو الشعور بالألم.</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
+  <PawnTooltipPsychicEntropyPainFocus>تعزيز الألم\n\nيركز الألم العقل ويسرع تبدد الحرارة العصبية.\n\nمستوى الألم: {0}\nعلاوة على استعادة الحرارة: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
+  <PawnTooltipPsychicEntropyLimit>تبديل محدد الحرارة العصبية. تجاوز حد الحرارة قد يسبب انهياراً نفسياً يستمر أياماً. لن يسبب ضرراً دائماً.</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Psyfocus: {0} -->
+  <PawnTooltipPsyfocus>التركيز النفسي: {0}</PawnTooltipPsyfocus>
+  
+  <!-- Pawn tooltip description -->
+  <!-- EN: {0} {1} -->
+  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
+
+  <!-- Rewards -->
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
+  <Reward_Pawn_DropPod>{0_title} يبلغ من العمر {0_age} عاماً يدعى {0_nameDef} سيصل في كبسولة نقل {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_WalkIn>{0_title} يبلغ من العمر {0_age} عاماً يدعى {0_nameDef} سيصل وينضم إليك {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_Caravan>{0_title} يبلغ من العمر {0_age} عاماً يدعى {0_nameDef} سينضم إليك {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
+  <Reward_Items>ستصل كبسولات نقل تحتوي على الموارد التالية (القيمة الإجمالية {1}):\n\n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
+  <Reward_Items_Caravan>ستتلقى (القيمة الإجمالية {1}):\n\n{0}</Reward_Items_Caravan>
+  <!-- EN: your faction relations with {0_name} will improve by {1} -->
+  <Reward_Goodwill>علاقات فصيلتك مع {0_name} ستتحسن بمقدار {1}</Reward_Goodwill>
+  <!-- EN: you will be taken to the stars -->
+  <Reward_PassageOffworld>سيتم أخذك إلى النجوم</Reward_PassageOffworld>
+  <!-- EN: Passage offworld -->
+  <Reward_PassageOffworld_Label>رحيل إلى خارج العالم</Reward_PassageOffworld_Label>
+  <!-- EN: you can loot everything from the camp -->
+  <Reward_CampLoot>يمكنك نهب كل شيء من المخيم</Reward_CampLoot>
+  <!-- EN: Camp loot -->
+  <Reward_CampLoot_Label>نهب المخيم</Reward_CampLoot_Label>
+  <!-- EN: It is unclear what will happen if you accept this quest -->
+  <Reward_Unknown>ليس من الواضح ما سيحدث إذا قبلت هذه المهمة</Reward_Unknown>
+  <!-- EN: Unknown -->
+  <Reward_Unknown_Label>غير معروف</Reward_Unknown_Label>
+  <!-- EN: the visitors will work and fight for you -->
+  <Reward_VisitorsHelp>سيعمل الزوار ويقاتلون من أجلك</Reward_VisitorsHelp>
+  <!-- EN: Visitors' help -->
+  <Reward_VisitorsHelp_Label>مساعدة الزوار</Reward_VisitorsHelp_Label>
+  <!-- EN: New psylink level -->
+  <Reward_BestowingCeremony_Label>مستوى ربط نفسي جديد</Reward_BestowingCeremony_Label>
+  <!-- EN: {PAWNNAME} gains psylink -->
+  <Reward_BestowingCeremony>يكتسب {PAWNNAME} ربطاً نفسياً</Reward_BestowingCeremony>
+  <!-- EN: Shuttle loot -->
+  <Reward_ShuttleLoot_Label>نهب المكوك</Reward_ShuttleLoot_Label>
+  <!-- EN: you can deconstruct and loot the shuttle -->
+  <Reward_ShuttleLoot>يمكنك تفكيك ونهب المكوك</Reward_ShuttleLoot>
+  <!-- EN: Possible future reward -->
+  <Reward_PossibleFutureReward_Label>مكافأة مستقبلية محتملة</Reward_PossibleFutureReward_Label>
+  <!-- EN: a reward possibly granted in the future -->
+  <Reward_PossibleFutureReward>مكافأة قد تمنح في المستقبل</Reward_PossibleFutureReward>
+  <!-- EN: {TITLE} title -->
+  <Reward_Title_Label>لقب {TITLE}</Reward_Title_Label>
+  <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
+  <Reward_Title>يكتسب {PAWNNAME} لقب {TITLE} من {FACTION}</Reward_Title>
+  <!-- EN: value {0} -->
+  <TotalValue>القيمة {0}</TotalValue>
+  
+  <!-- Bladelink -->
+  <!-- EN: Bonded to: {0} -->
+  <BondedWith>مرتبط بـ: {0}</BondedWith>
+  <!-- EN: Not yet bonded -->
+  <NotBonded>غير مرتبط بعد</NotBonded>
+  <!-- EN: bonded to someone else -->
+  <BladelinkBondedToSomeoneElse>مرتبط بشخص آخر</BladelinkBondedToSomeoneElse>
+  <!-- EN: (existing bond) -->
+  <BladelinkAlreadyBonded>(رابطة قائمة)</BladelinkAlreadyBonded>
+  <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
+  <BladelinkAlreadyBondedDialog>لا يمكن للشخص الارتباط إلا بسلاح شخصي واحد في كل مرة.\n\nلتجهيز والارتباط بـ{WEAPON_labelShort}، يجب أولاً تدمير سلاح {PAWN_nameDef} المرتبط حالياً {BONDEDWEAPON_labelShort}.</BladelinkAlreadyBondedDialog>
+  <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} مرتبط بالفعل بـ{BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
+
+  <!-- Biocoded weapons -->
+  <!-- EN: biocoded {0} -->
+  <Biocoded>مشفر حيوياً {0}</Biocoded>
+  <!-- EN: Biocoding: {0} -->
+  <CodedFor>التشفير الحيوي: {0}</CodedFor>
+  <!-- EN: biocoded -->
+  <BiocodedCodedForSomeoneElse>مشفر حيوياً</BiocodedCodedForSomeoneElse>
+
+  <!-- Projectile interceptor -->
+  <!-- EN: Intercepts {0} every {1}. -->
+  <InterceptsProjectilesEvery>يعترض {0} كل {1}.</InterceptsProjectilesEvery>
+  <!-- EN: Intercepts {0}. -->
+  <InterceptsProjectiles>يعترض {0}.</InterceptsProjectiles>
+  <!-- EN: ground and aerial projectiles -->
+  <InterceptsProjectiles_BothProjectiles>القذائف الأرضية والجوية</InterceptsProjectiles_BothProjectiles>
+  <!-- EN: ground projectiles -->
+  <InterceptsProjectiles_GroundProjectiles>القذائف الأرضية</InterceptsProjectiles_GroundProjectiles>
+  <!-- EN: aerial projectiles -->
+  <InterceptsProjectiles_AerialProjectiles>القذائف الجوية</InterceptsProjectiles_AerialProjectiles>
+
+  <!-- Condition causers -->
+  <!-- EN: Affected gender -->
+  <AffectedGender>الجنس المتأثر</AffectedGender>
+
+  <!-- Hediff misc -->
+  <!-- EN: Caused by: {0} -->
+  <CausedByHediff>بسبب: {0}</CausedByHediff>
+  
+  <!-- EN: {DAMAGE_label} weakness -->
+  <DamageFactorWeakness>ضعف تجاه {DAMAGE_label}</DamageFactorWeakness>
+  <!-- EN: {DAMAGE_label} resistance -->
+  <DamageFactorResistance>مقاومة تجاه {DAMAGE_label}</DamageFactorResistance>
+  <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
+  <DamageFactor>ضرر {DAMAGE_label} الذي يتلقاه هذا المخلوق يُضرب في هذه القيمة.</DamageFactor>
+  
+  <!-- Healing -->
+  <!-- EN: {0_nameDef}'s {1} was healed. -->
+  <HealingHealHediff>تم شفاء {1} الخاصة بـ{0_nameDef}.</HealingHealHediff>
+  <!-- EN: {0_nameDef}'s {1} was restored. -->
+  <HealingRestoreBodyPart>تم استعادة {1} الخاصة بـ{0_nameDef}.</HealingRestoreBodyPart>
+
+  <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
+  <WarningBuildingCausesHostility>تنبيه: وضع مبنى هنا سيغضب {FACTION_name}!</WarningBuildingCausesHostility>
+
+  <!-- EN: Choose landing site -->
+  <ChooseLandingSite>اختر موقع الهبوط</ChooseLandingSite>
+
+  <!-- LordJobs -->
+  <!-- EN: Outcome chances at {0} quality -->
+  <LordJobOutcomeChances>فرص النتيجة عند جودة {0}</LordJobOutcomeChances>
+  <!-- EN: Expected duration -->
+  <ExpectedLordJobDuration>المدة المتوقعة</ExpectedLordJobDuration>
+
+  <!-- Rituals -->
+  <!-- EN: ritual -->
+  <Ritual>طقس</Ritual>
+
+  <!-- EN: Takes place at -->
+  <RitualTakesPlaceAt>يحدث في</RitualTakesPlaceAt>
+  <!-- EN: Any {0} -->
+  <RitualTargetThingDefsInfo>أي {0}</RitualTargetThingDefsInfo>
+  <!-- EN: Attending {0} -->
+  <LordReportAttending>حضور {0}</LordReportAttending>
+  <!-- EN: {0} has been canceled. -->
+  <RitualCalledOff>تم إلغاء {0}.</RitualCalledOff>
+  <!-- EN: {0} was not completed because of lack of attendance. -->
+  <RitualNobodyAttended>لم يكتمل {0} بسبب نقص الحضور.</RitualNobodyAttended>
+  <!-- EN: {0} has been completed. -->
+  <RitualFinished>تم إكمال {0}.</RitualFinished>
+  <!-- EN: ends in {0} -->
+  <RitualEndsIn>ينتهي في {0}</RitualEndsIn>
+  <!-- EN: Can start any time -->
+  <RitualStartAnyTime>يمكن أن يبدأ في أي وقت</RitualStartAnyTime>
+  <!-- EN: Can start after event -->
+  <RitualStartEvent>يمكن أن يبدأ بعد حدث</RitualStartEvent>
+  <!-- EN: Focus objects -->
+  <RitualFocusObjects>كائنات التركيز</RitualFocusObjects>
+  <!-- EN: Participating roles -->
+  <RitualParticipatingRoles>الأدوار المشاركة</RitualParticipatingRoles>
+  <!-- EN: Organizers -->
+  <Organizers>المنظمون</Organizers>
+  <!-- EN: Quality factors -->
+  <QualityFactors>عوامل الجودة</QualityFactors>
+  <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
+  <QualityFactorTooltipUncertain>قد يتم تحقيق هذا الشرط، اعتماداً على كيفية سير الأمور.\n\nإذا تم تحقيقه، فسيتم تطبيق علاوة الجودة.</QualityFactorTooltipUncertain>
+  <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
+  <QualityFactorTooltipNotFulfilled>لم يتم تحقيق هذا الشرط.\n\nلن يتم تطبيق علاوة الجودة.</QualityFactorTooltipNotFulfilled>
+  <!-- EN: Spectators -->
+  <Spectators>المشاهدون</Spectators>
+  <!-- EN: Not participating -->
+  <NotParticipating>لا يشارك</NotParticipating>
+  <!-- EN: Drag and drop or left/right click to move people. -->
+  <DragPawnsToRolesInfo>سحب وإفلات أو نقر يمين/يسار لتحريك الأشخاص.</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>سحب وإفلات أو نقر لتحريك الأشخاص.</DragPawnsToRolesInfoController>
+  <!-- EN: A slave. The human property of others. -->
+  <RitualBeginSlaveDesc>عبد. ممتلكات بشرية للآخرين.</RitualBeginSlaveDesc>
+  <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
+  <RitualBeginSleepingDesc>{0_labelShort} نائم. إذا تم إدراجه في الحدث، فسوف يستيقظ للمشاركة.</RitualBeginSleepingDesc>
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
+  <RitualBeginSleepingWarning>بعض المشاركين المختارين نائمون. سيستيقظون بمجرد بدء الحدث.</RitualBeginSleepingWarning>
+  <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
+  <RitualRoleRequiresSocialRole>من الأفضل أن يشغل هذا المنصب مستعمر يحمل الدور الاجتماعي {0}.\n\nإذا شغل شخص بدون هذا الدور هذا المنصب، فلن تحصل على العلاوة (العلاوات) التالية</RitualRoleRequiresSocialRole>
+  <!-- EN: No substitute available for the role of {0}. -->
+  <RitualRoleCantSubstitute>لا يوجد بديل متاح لدور {0}.</RitualRoleCantSubstitute>
+  <!-- EN: {0} progress -->
+  <RitualOutcomeProgress>تقدم {0}</RitualOutcomeProgress>
+  <!-- EN: {0} quality depends on -->
+  <RitualOutcomeQualityAbstract>جودة {0} تعتمد على</RitualOutcomeQualityAbstract>
+  <!-- EN: {0} total quality was {1}, determined by these factors -->
+  <RitualOutcomeQualitySpecific>كانت الجودة الإجمالية لـ{0} هي {1}، وتحددت بواسطة هذه العوامل</RitualOutcomeQualitySpecific>
+  <!-- EN: Performed recently -->
+  <RitualOutcomePerformedRecently>تم تنفيذه مؤخراً</RitualOutcomePerformedRecently>
+  <!-- EN: {0} expectations -->
+  <RitualQualityExpectations>توقعات {0}</RitualQualityExpectations>
+  <!-- EN: Ritual ambience sound -->
+  <RitualAmbienceSound>صوت أجواء الطقس</RitualAmbienceSound>
+  <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
+  <RitualQualityLowWarning>جودة {0} الإجمالية أقل من {1}. المتابعة ستؤثر غالباً بشكل سلبي على مستعمرتك.\n\nهل أنت متأكد؟</RitualQualityLowWarning>
+  <!-- EN: No reachable appropriate place to speak. -->
+  <AbilitySpeechDisabledNoSpot>لا يوجد مكان مناسب يمكن الوصول إليه للتحدث.</AbilitySpeechDisabledNoSpot>
+  <!-- EN: {0_labelShort} is incapable of {1}. -->
+  <AbilityDisabledNoCapacity>{0_labelShort} غير قادر على {1}.</AbilityDisabledNoCapacity>
+  <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
+  <RitualOutcomeExtraDesc_Mood>يكتسب كل مشارك في الطقس {0} من المزاج لمدة {1} يوماً.</RitualOutcomeExtraDesc_Mood>
+  <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
+  <RitualOutcomeNoQuality>لا يحتوي هذا الطقس على إزاحات جودة، لذا يُتوقع دائماً أفضل نتيجة</RitualOutcomeNoQuality>
+
+  <!-- EN: Begin -->
+  <Begin>ابدأ</Begin>
+  <!-- EN: Begin {0} -->
+  <BeginRitual>ابدأ {0}</BeginRitual>
+  <!-- EN: Begin {0} for {1} -->
+  <BeginRitualFor>ابدأ {0} لـ{1}</BeginRitualFor>
+  <!-- EN: {0} (out of {1}) -->
+  <QualityOutOf>{0} (من أصل {1})</QualityOutOf>
+  <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
+  <DateRitualNoObligation>{0} هو طقس محدد بتاريخ. ستتمكن من بدئه في {1}، في {2}.</DateRitualNoObligation>
+
+  <!-- EN: Replace with -->
+  <PreceptReplaceWith>استبدل بـ</PreceptReplaceWith>
+  <!-- EN: Ritual seat of {IDEOS} -->
+  <RitualSeatOf>مقعد طقوس {IDEOS}</RitualSeatOf>
+  <!-- EN: Expected quality -->
+  <ExpectedLordJobQuality>الجودة المتوقعة</ExpectedLordJobQuality>
+  <!-- EN: Starting quality -->
+  <StartingQuality>جودة البداية</StartingQuality>
+  <!-- EN: {PAWN_labelShort}'s {1} -->
+  <RitualPredictedOutcomeDescPawnStat>{1} الخاصة بـ{PAWN_labelShort}</RitualPredictedOutcomeDescPawnStat>
+  <!-- EN: Room beauty -->
+  <RitualPredictedOutcomeDescRoomBeauty>جمال الغرفة</RitualPredictedOutcomeDescRoomBeauty>
+  <!-- EN: {PAWN_labelShort}'s expectations -->
+  <RitualPredictedOutcomeDescPawnExpectations>توقعات {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
+  <!-- EN: Loved one present -->
+  <RitualOutcomeLovedOnePresentLabel>وجود شخص عزيز</RitualOutcomeLovedOnePresentLabel>
+  <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
+  <RitualOutcomeLovedOnePresentTip>أي شخص يعتبره {PAWN_labelShort} صديقاً له أو أكثر.</RitualOutcomeLovedOnePresentTip>
+
+  <!-- EN: Any of these -->
+  <RitualOutcomeLabelAnyOfThese>أي من هؤلاء</RitualOutcomeLabelAnyOfThese>
+  <!-- EN: Replaces {PAWN_labelShort} -->
+  <RitualRoleReplaces>يستبدل {PAWN_labelShort}</RitualRoleReplaces>
+
+  <!-- EN: present -->
+  <Present>حاضر</Present>
+  <!-- EN: {0} used -->
+  <Used>تم استخدام {0}</Used>
+  <!-- EN: {0} starting quality -->
+  <StartingRitualQuality>جودة بداية {0}</StartingRitualQuality>
+
+  <!-- EN: up to {0} quality -->
+  <OutcomeBonusDesc_Quality>تصل إلى جودة {0}</OutcomeBonusDesc_Quality>
+  <!-- EN: {0} quality -->
+  <OutcomeBonusDesc_QualitySingleOffset>جودة {0}</OutcomeBonusDesc_QualitySingleOffset>
+  <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
+  <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
+  <!-- EN: {0} max -->
+  <MaxValue>الحد الأقصى {0}</MaxValue>
+
+  <!-- EN: {0} of -->
+  <ThingOf>{0} من</ThingOf>
+  <!-- EN: {0} of {1} -->
+  <ThingOfSource>{0} من {1}</ThingOfSource>
+  <!-- EN: {0} of {1} and {2} -->
+  <ThingOfTwoSources>{0} من {1} و{2}</ThingOfTwoSources>
+
+  <!-- Gas types -->
+  <!-- EN: blind smoke -->
+  <BlindSmoke>دخان أعمى</BlindSmoke>
+  <!-- EN: tox gas -->
+  <ToxGas>غاز سام</ToxGas>
+  <!-- EN: rot stink -->
+  <RotStink>رائحة تعفن</RotStink>
+  <!-- EN: deadlife dust -->
+  <DeadlifeDust>غبار الحياة الميتة</DeadlifeDust> 
+
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>يجب أن يكون مجنداً.</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>القدرة في فترة تهدئة. ستكون متاحة في {0}.</AbilityOnCooldown>
+  <!-- EN: ability out of charges. -->
+  <AbilityNoCharges>القدرة نفدت شحناتها.</AbilityNoCharges>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>القدرة في قائمة الانتظار بالفعل.</AbilityAlreadyQueued>
+  <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
+  <AbilityReadyLabel>القدرة جاهزة لـ{PAWN_nameDef}: {0}</AbilityReadyLabel>
+  <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
+  <AbilitiesReadyLabel>القدرات جاهزة لـ{PAWN_nameDef}: {0}</AbilitiesReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef} جاهز لاستخدام {1}.</AbilityReadyText>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <AbilityDisabledInRitual>{0_labelShort} يشارك في {1}.</AbilityDisabledInRitual>
+  <!-- EN: Charges -->
+  <Charges>الشحنات</Charges>
+
+  <!-- EN: {0_nameDef} is in a mental state. -->
+  <PawnIsInMentalState>{0_nameDef} في حالة عقلية.</PawnIsInMentalState>
+  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <PawnIsInAggroMentalState>{0_nameDef} في حالة عقلية عدوانية.</PawnIsInAggroMentalState>
+
+  <!-- EN: Disabled work -->
+  <DisabledWorkLabel>عمل معطل</DisabledWorkLabel>
+  <!-- EN: Disabled needs -->
+  <DisabledNeedsLabel>احتياجات معطلة</DisabledNeedsLabel>
+
+  <!-- Glowers -->
+  <!-- EN: change color -->
+  <GlowerChangeColor>تغيير اللون</GlowerChangeColor>
+  <!-- EN: Change the color of the light. -->
+  <GlowerChangeColorDescription>تغيير لون الضوء.</GlowerChangeColorDescription>
+  <!-- EN: You must research {0} to change light color. -->
+  <GlowerChangeColorNeedsResearch>يجب عليك بحث {0} لتغيير لون الضوء.</GlowerChangeColorNeedsResearch>
+
+  <!-- Shields -->
+  <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
+  <ShieldPersonalTip>درع شخصي سيحاول إيقاف القذائف أو الشظايا القادمة. يمنع من يرتديه من إطلاق النار للخارج، ويتوقف فوراً إذا أصيب بنبضة كهرومغناطيسية (EMP).</ShieldPersonalTip>
+
+  <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
+  <UnrecruitableDesc>{PAWN_nameDef} مخلص جداً لوطنه لدرجة أنه سيرفض التجنيد إذا تم أسره.</UnrecruitableDesc>
+
+  <!-- EN: Random -->
+  <Random>عشوائي</Random>
+
+  <!-- EN: Plant {0_label} -->
+  <PlantThing>ازرع {0_label}</PlantThing>
+  <!-- EN: Plant a {0_label} in a chosen area. -->
+  <PlantThingDesc>ازرع {0_label} في منطقة مختارة.</PlantThingDesc>
+  <!-- EN: Cancel planting {0_label} -->
+  <CancelPlantThing>إلغاء زراعة {0_label}</CancelPlantThing>
+  <!-- EN: Cancel planting the {0_label}. -->
+  <CancelPlantThingDesc>إلغاء زراعة {0_label}.</CancelPlantThingDesc>
+
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>تجمع آخر قيد التقدم.</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>الخطاب التالي جاهز في</AbilitySpeechCooldown>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>بدأ في</AbilitySpeechTargetsLabel>
+  
+  <!-- Books -->
+
+  <!-- EN: Benefits -->
+  <Benefits>الفوائد</Benefits>
+  <!-- EN: Dangers -->
+  <Dangers>المخاطر</Dangers>
+  <!-- EN: already unlocked -->
+  <AlreadyUnlocked>تم إلغاء قفلها بالفعل</AlreadyUnlocked>
+  <!-- EN: when discovered -->
+  <WhenDiscovered>عند اكتشافها</WhenDiscovered>
+  
+  <!-- EN: Was driven into a mental break after reading {0}. -->
+  <BookMentalBreakMessage>تم دفعه إلى انهيار عقلي بعد قراءة {0}.</BookMentalBreakMessage>
+  <!-- EN: {0} done (complete in {1} hours) -->
+  <BookReadProgress>تم إكمال {0} (يكتمل في {1} ساعة)</BookReadProgress>
+  
+  <!-- EN: learning speed -->
+  <BookLearningModifier>سرعة التعلم</BookLearningModifier>
+  <!-- EN: Mental break chance -->
+  <BookMentalBreak>فرصة الانهيار العقلي</BookMentalBreak>
+  
+  <!-- EN: {BOOK_labelShort} is not readable -->
+  <BookNotReadable>{BOOK_labelShort} غير قابلة للقراءة</BookNotReadable>
+  <!-- EN: {PAWN_nameDef} can't read -->
+  <BookCantRead>{PAWN_nameDef} لا يستطيع القراءة</BookCantRead>
+  <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
+  <BookCantBeStage>يجب أن يكون {PAWN_nameDef} {STAGES}</BookCantBeStage>
+  <!-- EN: {PAWN_nameDef} is blind -->
+  <BookBlind>{PAWN_nameDef} كفيف</BookBlind>
+  
+  <!-- EN: max level {0} -->
+  <BookMaxLevel>الحد الأقصى للمستوى {0}</BookMaxLevel>
+  
+  <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
+  <ReadingReportHeader>قراءة {0}: تم إكمال {1} (يكتمل في {2} ساعة)</ReadingReportHeader>
+  
+  <!-- EN: Assign reading -->
+  <ReadingDialogTitle>تعيين القراءة</ReadingDialogTitle>
+  <!-- EN: Assign to {0} -->
+  <ReadingAssignTo>تعيين لـ{0}</ReadingAssignTo>
+  <!-- EN: Assign -->
+  <ReadingAssign>تعيين</ReadingAssign>
+
+  <!-- EN: The books currently on this bookshelf. -->
+  <ContainedBooksDesc>الكتب الموجودة حالياً على رف الكتب هذا.</ContainedBooksDesc>
+  
+  <!-- EN: Books stored -->
+  <BookshelfStoredInspect>الكتب المخزنة</BookshelfStoredInspect>
+  <!-- EN: Reading bonus in room -->
+  <BookshelfReadingBonusInspect>علاوة القراءة في الغرفة</BookshelfReadingBonusInspect>
+
+  <!-- EN: Remove this book from the bookshelf. -->
+  <EjectBookTooltip>إزالة هذا الكتاب من رف الكتب.</EjectBookTooltip>
+  
+  <!-- Pushing -->
+  <!-- EN: Push to... -->
+  <CommandPushTo>ادفع إلى...</CommandPushTo>
+  <!-- EN: requires {0} -->
+  <RequiredCapacity>يتطلب {0}</RequiredCapacity>
+
+  <!-- Pocket Maps -->
+  <!-- EN: Unable to enter {0}, destination is blocked -->
+  <UnableToEnterPortal>غير قادر على دخول {0}، الوجهة مسدودة</UnableToEnterPortal>
+
+  <!-- EN: This category of research has not been discovered. -->
+  <ResearchNotDiscovered>لم يتم اكتشاف فئة البحث هذه.</ResearchNotDiscovered>
+
+  <!-- EN: Emergence -->
+  <Emergence>ظهور</Emergence>
+  
+  <!-- EN: remove {0} -->
+  <RemovePart>إزالة {0}</RemovePart>
+
+  <!-- EN: {GERUND} {TARGETLABEL} at -->
+  <DoWorkAtThing>يقوم بـ{GERUND} {TARGETLABEL} في</DoWorkAtThing>
+  <!-- EN: can be studied in {0} -->
+  <CanBeStudiedInDuration>يمكن دراستها في {0}</CanBeStudiedInDuration>
+  
+  <!-- EN: About to explode -->
+  <AboutToExplode>على وشك الانفجار</AboutToExplode>
+  <!-- EN: No fuel to eject -->
+  <RefuelableNoFuelToEject>لا يوجد وقود لإخراجه</RefuelableNoFuelToEject>
+  
+  <!-- EN: New Anomaly expansion available now! -->
+  <MainScreen_AnomalyAvailableNow>توسعة Anomaly الجديدة متاحة الآن!</MainScreen_AnomalyAvailableNow>
+
+  <!-- EN: Disabled by scenario -->
+  <DisabledByScenario>معطل حسب السيناريو</DisabledByScenario>
+
+  <!-- EN: blocked by roof -->
+  <BlockedByRoof>مسدود بواسطة سقف</BlockedByRoof>
+  <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
+  <BlockedByTerrain>مسدود بواسطة التضاريس (يتطلب دعم تضاريس {0_label})</BlockedByTerrain>
+
+  <!-- Craters -->
+  <!-- EN: Fill in -->
+  <DesignatorFillIn>املأ</DesignatorFillIn>
+  <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
+  <DesignatorFillInDesc>عين هذه الفوهة ليتم ملؤها. سيقوم مستعمر معين للبناء بملئها.</DesignatorFillInDesc>
+
+  <!-- Hacking -->
+  <!-- EN: Hack progress -->
+  <HackProgress>تقدم الاختراق</HackProgress>
+  <!-- EN: hacking speed -->
+  <HackingSpeed>سرعة الاختراق</HackingSpeed>
+  <!-- EN: {0}'s -->
+  <HackingLastUser>{0}</HackingLastUser>
+  <!-- EN: hacked -->
+  <Hacked>تم الاختراق</Hacked>
+  <!-- EN: Terminals hacked -->
+  <TerminalsHacked>تم اختراق المحطات</TerminalsHacked>
+  <!-- EN: Intellectual needed -->
+  <IntellectualSkillPrerequisite>المهارة الفكرية مطلوبة</IntellectualSkillPrerequisite>
+  <!-- EN: Auto hack -->
+  <AutoHack>اختراق تلقائي</AutoHack>
+  <!-- EN: When enabled, researchers will automatically hack this. -->
+  <AutoHackDesc>عند التفعيل، سيقوم الباحثون باختراق هذا تلقائياً.</AutoHackDesc>
+
+  <!-- World -->
+  <!-- EN: View {LAYER_label} -->
+  <WorldSelectLayer>عرض {LAYER_label}</WorldSelectLayer>
+  <!-- EN: Jump to location -->
+  <WorldJumpTo>الانتقال إلى الموقع</WorldJumpTo>
+  <!-- EN: Find a colony, caravan, or quest location on the world map. -->
+  <WorldJumpToDesc>اعثر على مستعمرة، أو قافلة، أو موقع مهمة على خريطة العالم.</WorldJumpToDesc>
+  <!-- EN: Nothing to jump to. -->
+  <NothingToJumpTo>لا يوجد شيء للانتقال إليه.</NothingToJumpTo>
+  <!-- EN: cannot function in {0} -->
+  <CannotFunctionOnLayer>لا يمكن أن تعمل في {0}</CannotFunctionOnLayer>
+  <!-- EN: New settlement -->
+  <NewSettlement>مستوطنة جديدة</NewSettlement>
+  <!-- EN: Settled -->
+  <Settled>مستقرة</Settled>
+  <!-- EN: Abandoned -->
+  <Abandoned>مهجورة</Abandoned>
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
+  <CannotPerformPlanetLayer>لا يمكن تنفيذ {GERUND} {LAYER}</CannotPerformPlanetLayer>
+  <!-- EN: This will not affect you {GERUND} {LAYER}. -->
+  <ThisWillNotAffectLayer>هذا لن يؤثر عليك {GERUND} {LAYER}.</ThisWillNotAffectLayer>
+
+  <!-- Pocket maps -->
+  <!-- EN: Enter {0} -->
+  <EnterPortal>دخول {0}</EnterPortal>
+  <!-- EN: Entering {0} -->
+  <EnteringPortal>دخول {0}</EnteringPortal>
+  <!-- EN: Select people and items to enter the {0}. -->
+  <CommandEnterPortalDesc>اختر الأشخاص والعناصر لدخول {0}.</CommandEnterPortalDesc>
+  <!-- EN: Cancel entering -->
+  <CommandCancelEnterPortal>إلغاء الدخول</CommandCancelEnterPortal>
+  <!-- EN: Cancel exiting -->
+  <CommandCancelExitPortal>إلغاء الخروج</CommandCancelExitPortal>
+  <!-- EN: Cancel loading people or items into this. -->
+  <CommandCancelEnterPortalDesc>إلغاء تحميل الأشخاص أو العناصر إلى هذا.</CommandCancelEnterPortalDesc>
+  <!-- EN: Exit {0} -->
+  <ExitPortal>خروج {0}</ExitPortal>
+
+  <!-- CompProjectileInterceptor -->
+  <!-- EN: Shield energy -->
+  <ShieldEnergy>طاقة الدرع</ShieldEnergy>
+  <!-- EN: Shield cooldown -->
+  <ShieldTimeToRecovery>فترة تهدئة الدرع</ShieldTimeToRecovery>
+  <!-- EN: Shield duration -->
+  <ShieldDuration>مدة الدرع</ShieldDuration>
+  <!-- EN: On cooldown -->
+  <ShieldOnCooldown>في فترة تهدئة</ShieldOnCooldown>
+  <!-- EN: Below minimum energy -->
+  <ShieldBelowMinHitpoints>أقل من الحد الأدنى للطاقة</ShieldBelowMinHitpoints>
+  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
+  <ProjectileInterceptorTip>درع مسقط بزاوية منخفضة سيحاول إيقاف القذائف أو الشظايا القادمة. يتوقف فوراً إذا أصيب بنبضة كهرومغناطيسية (EMP).</ProjectileInterceptorTip>
+
+  <!-- EN: max {0} -->
+  <MaxOf>الحد الأقصى {0}</MaxOf>
+
+  <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
+  <CannotUseDueToHediff>لا يمكن استخدام {TARGETABLE_label}: {TARGET_nameDef} لديه بالفعل {2}.</CannotUseDueToHediff>
+
+  <!-- Scanner -->
+  <!-- EN: Blocked by roof -->
+  <CannotUseScannerRoofed>مسدود بواسطة سقف</CannotUseScannerRoofed>
+  <!-- EN: Biome does not contain drillable resources -->
+  <CannotUseScannerNoBedrock>المناخ لا يحتوي على موارد قابلة للحفر</CannotUseScannerNoBedrock>
+  
+  <!-- Quests -->
+  <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
+  <CannotAcceptQuestFromLayer>لا يمكن قبول هذه المهمة {GERUND} {LAYER}.</CannotAcceptQuestFromLayer>
+  <!-- EN: Cannot accept this quest without a permanent colony. -->
+  <CannotAcceptQuestNoMap>لا يمكن قبول هذه المهمة بدون مستعمرة دائمة.</CannotAcceptQuestNoMap>
+
+  <!-- EN: {0} of {1} -->
+  <GuildTradeShipName>{0} من {1}</GuildTradeShipName>
+  
+</LanguageData>

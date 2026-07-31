@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>decreeIntro->[asker_nameDef], your [asker_bestRoyalTitle], has issued a royal decree.</li>
+    <li>decreeThreatInfo->If you fail to fulfill this decree within [decreeDays] days, [asker_nameDef] will start to become unhappy. [asker_possessive] anger will increase over time until the decree is satisfied.</li>
+  -->
+  <DecreeSetup.questDescriptionRules.rulesStrings>
+    <li>decreeIntro->[asker_nameDef]، حامل لقب [asker_bestRoyalTitle] الخاص بك، أصدر مرسوماً ملكياً.</li>
+    <li>decreeThreatInfo->إذا فشلت في تنفيذ هذا المرسوم خلال [decreeDays] أيام، سيبدأ [asker_nameDef] بالاستياء. سيزداد غضب[asker_possessive] مع مرور الوقت حتى يتم تنفيذ المرسوم.</li>
+ </DecreeSetup.questDescriptionRules.rulesStrings>
+  <!-- EN: [asker_nameDef]'s decree forgotten -->
+  <DecreeSetup.LetterLabelDecreeForgotten.slateRef>مرسوم [asker_nameDef] منسي</DecreeSetup.LetterLabelDecreeForgotten.slateRef>
+  <!-- EN: [asker_nameDef] has forgotten about [asker_possessive] decree. -->
+  <DecreeSetup.LetterTextDecreeForgotten.slateRef>لقد نسي [asker_nameDef] أمر مرسومه.</DecreeSetup.LetterTextDecreeForgotten.slateRef>
+  <!-- EN: Decree cancelled -->
+  <DecreeSetup.LetterLabelDecreeCancelled.slateRef>مرسوم ملغى</DecreeSetup.LetterLabelDecreeCancelled.slateRef>
+  <!-- EN: [asker_nameDef] has grudgingly cancelled the decree '[resolvedQuestName]' since it cannot be completed. -->
+  <DecreeSetup.LetterTextDecreeCancelled.slateRef>قام [asker_nameDef] على مضض بإلغاء المرسوم '[resolvedQuestName]' لأنه لا يمكن إكماله.</DecreeSetup.LetterTextDecreeCancelled.slateRef>
+  
+</LanguageData>

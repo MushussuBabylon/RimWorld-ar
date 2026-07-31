@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Misc -->
+  <!-- EN: Trading animal products bonus -->
+  <TradingAnimalProduceBonus>مكافأة تجارة المنتجات الحيوانية</TradingAnimalProduceBonus>
+  <!-- EN: Slaves -->
+  <SlavesSection>عبيد</SlavesSection>
+  <!-- EN: dominant style -->
+  <DominantStyle>الأسلوب السائد</DominantStyle>
+  <!-- EN: Date -->
+  <Date>التاريخ</Date>
+  <!-- EN: The following development points will be awarded depending on the ritual outcome -->
+  <RitualDevelopmentPointRewards>سيتم منح نقاط التطوير التالية اعتماداً على نتيجة الطقس</RitualDevelopmentPointRewards>
+  <!-- EN: Use global style -->
+  <UseGlobalStyle>استخدم الأسلوب العالمي</UseGlobalStyle>
+  <!-- EN: No style variations available -->
+  <NoStylesAvailable>لا توجد اختلافات أسلوب متاحة</NoStylesAvailable>
+
+  <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
+  <ChooseStructureMemesInfo>اختر الهيكل الرمزي لعقيدتك. هذا يؤثر فقط على الرموز - ولا يؤثر على أسلوب اللعب.</ChooseStructureMemesInfo>
+  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
+  <ChooseNormalMemesInfo>اختر {0}-{1} ميم لصياغة الأفكار الأساسية لهذه العقيدة.</ChooseNormalMemesInfo>
+  <!-- EN: Choose at least {0} meme. -->
+  <NotEnoughMemes>اختر على الأقل {0} ميم.</NotEnoughMemes>
+  <!-- EN: Choose at most {0} memes. -->
+  <TooManyMemes>اختر على الأكثر {0} ميم.</TooManyMemes>
+  <!-- EN: Choose structure. -->
+  <ChooseStructureMeme>اختر الهيكل.</ChooseStructureMeme>
+  <!-- EN: {0_label} and {1_label} are incompatible. -->
+  <IncompatibleMemes>{0_label} و {1_label} غير متوافقين.</IncompatibleMemes>
+  <!-- EN: Some of these have much more gameplay impact than others. -->
+  <SomeMemesHaveMoreImpact>بعض هذه الميمات لها تأثير على أسلوب اللعب أكبر بكثير من غيرها.</SomeMemesHaveMoreImpact>
+  <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
+  <ChooseNormalMemesFluidIdeoInfo>اختر ميماً واحداً لصياغة الفكرة الأولية لهذه العقيدة. ستضيف المزيد من الميمات مع تطور العقيدة بمرور الوقت.</ChooseNormalMemesFluidIdeoInfo>
+  <!-- EN: Choose a meme or remove a meme. -->
+  <ChooseOrRemoveMeme>اختر ميماً أو أزل ميماً.</ChooseOrRemoveMeme>
+  <!-- EN: Reset changes -->
+  <ReformIdeoResetChanges>إعادة ضبط التغييرات</ReformIdeoResetChanges>
+  <!-- EN: Choose {0} meme. -->
+  <NotEnoughMemesFluidIdeo>اختر {0} ميم.</NotEnoughMemesFluidIdeo>
+
+  <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
+  <ChangesRandomizePrecepts>{0} سيعيد عشوائية أي وصايا قمت بتحريرها.\n\nهل ترغب في المتابعة؟</ChangesRandomizePrecepts>
+  <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
+  <ChangesRemovePrecepts>الوصايا التالية غير متوافقة مع اختيار الميم الجديد هذا وستتم إزالتها:\n\n{0}\n\nهل ترغب في المتابعة؟</ChangesRemovePrecepts>
+  
+  <!-- EN: Room requirements -->
+  <RoomRequirements>متطلبات الغرفة</RoomRequirements>
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
+  <ConfirmChangeMemesForFluidIdeo>العقيدة التي تقوم بتحميلها تحتوي على ميمات غير متوافقة مع عقيدة متغيرة جديدة وستحتاج ميماتها إلى الاختيار مرة أخرى (العقائد المتغيرة يمكن أن تبدأ بميم واحد منخفض التأثير فقط).</ConfirmChangeMemesForFluidIdeo>
+  <!-- EN: The following memes are incompatible -->
+  <ConfirmIncompatibleMemes>الميمات التالية غير متوافقة</ConfirmIncompatibleMemes>
+  <!-- EN: Would you like to continue? -->
+  <ConfirmChangeMemesForFluidIdeoContinue>هل ترغب في المتابعة؟</ConfirmChangeMemesForFluidIdeoContinue>
+
+  <!-- EN: role -->
+  <Role>دور</Role>
+  <!-- EN: Assign role -->
+  <ChooseRole>تعيين دور</ChooseRole>
+  <!-- EN: Choose new role -->
+  <ChooseNewRole>اختر دوراً جديداً</ChooseNewRole>
+  <!-- EN: No role assigned -->
+  <NoRoleAssigned>لم يتم تعيين دور</NoRoleAssigned>
+  <!-- EN: Children cannot take on roles -->
+  <ChildNoRoleAssigned>لا يمكن للأطفال تقلد الأدوار</ChildNoRoleAssigned>
+  <!-- EN: Remove {0} role -->
+  <RemoveRole>إزالة دور {0}</RemoveRole>
+  <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
+  <ChooseRoleConfirmAssign>أنت على وشك تعيين دور {ROLE_labelDef} لـ {PAWN_labelShort}.</ChooseRoleConfirmAssign>
+  <!-- EN: Are you sure? -->
+  <ChooseRoleConfirmAssignPostfix>هل أنت متأكد؟</ChooseRoleConfirmAssignPostfix>
+  <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
+  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} يحمل هذا الدور حالياً وسيكون غير سعيد بفقدانه.</ChooseRoleConfirmAssignReplace>
+  <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
+  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} يحمل حالياً دور {ROLE_label} وسيكون غير سعيد بفقدانه.</ChooseRoleConfirmAssignHasOtherRole>
+  <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
+  <ChooseRoleConfirmAssignReplaceLeader>لا يمكن أن يكون هناك سوى قائد واحد. هذا سيقيل {PAWN_labelShort} من دوره {OTHERROLE_labelDef}، مما سيزعج {PAWN_objective}.</ChooseRoleConfirmAssignReplaceLeader>
+  <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
+  <ChooseRoleConfirmUnassign>أنت على وشك إقالة {PAWN_labelShort} من دور {ROLE_labelIndef}. هذا سيزعج {PAWN_objective}.</ChooseRoleConfirmUnassign>
+  <!-- EN: {PAWN_labelShort} will gain the following abilities -->
+  <ChooseRoleListAbilities>سيكتسب {PAWN_labelShort} القدرات التالية</ChooseRoleListAbilities>
+  <!-- EN: The {ROLE_label} role requires the following apparel -->
+  <ChooseRoleListApparelDemands>يتطلب دور {ROLE_label} الملابس التالية</ChooseRoleListApparelDemands>
+  <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
+  <ChooseRoleListWorkTypeRestrictions>سيرفض {PAWN_labelShort} القيام بأنواع العمل هذه</ChooseRoleListWorkTypeRestrictions>
+  <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
+  <ChooseRoleHint>قد يكون من الأفضل أحياناً الانتظار حتى تصبح مستعمرتك أكثر رسوخاً قبل تعيين الأدوار.</ChooseRoleHint>
+  <!-- EN: Unlocked by -->
+  <UnlockedByMeme>مفتوح بواسطة</UnlockedByMeme>
+  <!-- EN: Origin -->
+  <Origin>الأصل</Origin>
+  <!-- EN: Unlocked roles -->
+  <MemeUnlocksRoles>أدوار مفتوحة</MemeUnlocksRoles>
+  <!-- EN: Unlocked rituals -->
+  <MemeUnlocksRituals>طقوس مفتوحة</MemeUnlocksRituals>
+  <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
+  <ChooseRoleRequiredWorkTagsDisabled>تحذير: {PAWN_nameDef} غير قادر على القيام بالعمل المطلوب لدور {ROLE_label}. إذا اخترت منح {PAWN_objective} هذا الدور، قد لا يتمكن {PAWN_pronoun} من استخدام القدرات المرتبطة بـ {ROLE_label}. أنواع العمل المفقودة هي</ChooseRoleRequiredWorkTagsDisabled>
+  <!-- EN: Leader bonus -->
+  <YourLeaderTradeBonus>مكافأة القائد</YourLeaderTradeBonus>
+  <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
+  <CannotNotAddRoleApparelDueToMeme>الميم {MEME} يمنع إضافة متطلبات ملابس للأدوار.</CannotNotAddRoleApparelDueToMeme>
+  <!-- EN: cannot be worn with {0_label} -->
+  <CannotBeWornWith>لا يمكن ارتداؤه مع {0_label}</CannotBeWornWith>
+
+  <!-- EN: Certainty reduction -->
+  <AbilityIdeoConvertBreakdownLabel>تخفيض اليقين</AbilityIdeoConvertBreakdownLabel>
+  <!-- EN: Using {ABILITY} ability -->
+  <AbilityIdeoConvertBreakdownUsingAbility>استخدام قدرة {ABILITY}</AbilityIdeoConvertBreakdownUsingAbility>
+  <!-- EN: {PAWN_labelShort}'s conversion power -->
+  <AbilityIdeoConvertBreakdownConversionPower>قوة تحويل {PAWN_labelShort}</AbilityIdeoConvertBreakdownConversionPower>
+  <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
+  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>عامل فقدان اليقين لـ {PAWN_labelShort} من {IDEO_name}</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
+  <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
+  <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort} هو {ROLE_labelDef}</AbilityIdeoConvertBreakdownRole>
+  <!-- EN: Trait {TRAIT} -->
+  <AbilityIdeoConvertBreakdownTrait>سمة {TRAIT}</AbilityIdeoConvertBreakdownTrait>
+  <!-- EN: Precept {PRECEPT} -->
+  <AbilityIdeoConvertBreakdownPercept>وصية {PRECEPT}</AbilityIdeoConvertBreakdownPercept>
+  <!-- EN: {RELICCOUNT} installed relics on map -->
+  <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT} آثار مثبتة على الخريطة</AbilityIdeoConvertBreakdownRelic>
+  <!-- EN: {PAWN_labelShort}'s social skill -->
+  <AbilityIdeoConvertBreakdownSocialSkill>مهارة اجتماعية لـ {PAWN_labelShort}</AbilityIdeoConvertBreakdownSocialSkill>
+  <!-- EN: {RECIPIENT_labelShort}'s opinion of {INITIATOR_labelShort} -->
+  <AbilityIdeoConvertBreakdownOpinion>رأي {RECIPIENT_labelShort} بـ {INITIATOR_labelShort}</AbilityIdeoConvertBreakdownOpinion>
+  <!-- EN: {PAWN_nameDef}'s ideoligion -->
+  <AbilityIdeoConvertBreakdownPawnIdeo>عقيدة {PAWN_nameDef}</AbilityIdeoConvertBreakdownPawnIdeo>
+  <!-- EN: {MEME} vs {TRAIT} trait -->
+  <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} مقابل سمة {TRAIT}</AbilityIdeoConvertBreakdownMemeVsTrait>
+
+  <!-- EN: {PAWN_labelShort} was already counselled recently. -->
+  <AbilityCantApplyAlreadyCounselled>تم تقديم المشورة لـ {PAWN_labelShort} مؤخراً.</AbilityCantApplyAlreadyCounselled>
+
+  <!-- EN: Reform... -->
+  <ReformIdeo>تعديل...</ReformIdeo>
+  <!-- EN: Reform ideoligion -->
+  <ReformIdeoligion>تعديل العقيدة</ReformIdeoligion>
+  <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
+  <ReformIdeoligionDesc>تعديل عقيدتك عن طريق تغيير هيكلها أو ميماتها أو أسلوبها.</ReformIdeoligionDesc>
+  <!-- EN: Change styles -->
+  <ReformIdeoChangeStyles>تغيير الأساليب</ReformIdeoChangeStyles>
+  <!-- EN: Add or remove a meme -->
+  <ReformIdeoAddOrRemoveMeme>إضافة أو إزالة ميم</ReformIdeoAddOrRemoveMeme>
+  <!-- EN: Add a meme -->
+  <ReformIdeoAddMeme>إضافة ميم</ReformIdeoAddMeme>
+  <!-- EN: Choose one -->
+  <ReformIdeoChooseOneChange>اختر واحداً</ReformIdeoChooseOneChange>
+  <!-- EN: Change structure -->
+  <ReformIdeoChangeStructure>تغيير الهيكل</ReformIdeoChangeStructure>
+  <!-- EN: Change any of the following -->
+  <ReformIdeoChangeAny>تغيير أي مما يلي</ReformIdeoChangeAny>
+  <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
+  <ReformIdeoRelicHuntQuestEnd>لن يتم تبجيل الأثر {0} من قبل مستعمريك بعد تعديل هذه العقيدة. نظراً لأن المهمة '{0}' تبحث عن هذا الأثر، سيتم إلغاء تنشيطها.</ReformIdeoRelicHuntQuestEnd>
+  <!-- EN: The ritual {0} is in progress and will be cancelled. -->
+  <ReformIdeoCancelRituals>الطقس {0} قيد التقدم وسيتم إلغاؤه.</ReformIdeoCancelRituals>
+  <!-- EN: Do you wish to continue? -->
+  <ReformIdeoContinue>هل ترغب في المتابعة؟</ReformIdeoContinue>
+
+  <!-- Slavery -->
+  <!-- EN: Slave -->
+  <CannotAssignBedToSlave>عبد</CannotAssignBedToSlave>
+  <!-- EN: Colonist -->
+  <CannotAssignBedToColonist>مستعمر</CannotAssignBedToColonist>
+  <!-- EN: Any slave -->
+  <AnySlave>أي عبد</AnySlave>
+  <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
+  <NegotiatorWillNotTradeSlaves>{0_nameDef} يرفض بيع الناس كعبيد وفقاً لاعتقادات {0_possessive}.</NegotiatorWillNotTradeSlaves>
+  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
+  <NegotiatorWillNotTradeSlavesTip>المفاوض، {0_nameDef}، لن يبيع الناس كعبيد بسبب اعتقاد {0_possessive} بـ {1}.\n\nلاحظ أن {0_nameDef} على استعداد لفدية شخص ما إلى فصيل {0_possessive}، لكنه ليس على استعداد لبيع شخص إلى فصيل مختلف.</NegotiatorWillNotTradeSlavesTip>
+
+  <!-- EN: Last human meat -->
+  <LastHumanMeat>آخر لحم بشري</LastHumanMeat>
+  <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
+  <LastHumanMeatDesc>بسبب اعتقاد {PAWN_possessive} بـ {IDEO_name}، سيصبح {PAWN_nameDef} غير سعيد إذا مضى على {PAWN_pronoun} أكثر من {DURATION} يوم دون أكل لحم بشري.</LastHumanMeatDesc>
+
+  <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
+  <ExectueNeutralFactionSlave>إعدام {PAWN_labelShort} سيؤثر سلباً على العلاقات مع {FACTION_name}.</ExectueNeutralFactionSlave>
+
+  <!-- EN: You must assign at least one non-slave colonist who can walk. -->
+  <CaravanMustHaveAtLeastOneNonSlaveColonist>يجب عليك تعيين مستعمر واحد على الأقل غير عبد يستطيع المشي.</CaravanMustHaveAtLeastOneNonSlaveColonist>
+  <!-- EN: You must leave at least non-slave colonist who can walk. -->
+  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>يجب عليك ترك مستعمر واحد على الأقل غير عبد يستطيع المشي.</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
+
+  <!-- Style -->
+  <!-- EN: Style -->
+  <StylePawn>الأسلوب</StylePawn>
+  <!-- EN: hair -->
+  <Hair>شعر</Hair>
+  <!-- EN: beard -->
+  <Beard>لحية</Beard>
+  <!-- EN: face tattoo -->
+  <TattooFace>وشم الوجه</TattooFace>
+  <!-- EN: body tattoo -->
+  <TattooBody>وشم الجسم</TattooBody>
+  <!-- EN: apparel color -->
+  <ApparelColor>لون الملابس</ApparelColor>
+  <!-- EN: hair color -->
+  <HairColor>لون الشعر</HairColor>
+  <!-- EN: Show headgear -->
+  <ShowHeadgear>إظهار غطاء الرأس</ShowHeadgear>
+  <!-- EN: Show apparel -->
+  <ShowApparel>إظهار الملابس</ShowApparel>
+  <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
+  <PawnUnhappyWithStyleItems>سيكون {PAWN_nameDef} غير سعيد بالتالي</PawnUnhappyWithStyleItems>
+  <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
+  <StyleCategoryDescription>تؤثر فئات الأسلوب على مظهر بعض المباني والملابس والأسلحة التي يصنعها {IDEO_memberNamePlural}. إذا أثرت أكثر من فئة على نفس الشيء، تنطبق الفئة الأكثر يساراً.</StyleCategoryDescription>
+  <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
+  <StyleCategoryDescriptionAbstract>تؤثر فئات الأسلوب على مظهر بعض المباني والملابس والأسلحة التي تصنعها مستعمرتك. إذا أثرت أكثر من فئة على نفس الشيء، تنطبق الفئة الأكثر يساراً.</StyleCategoryDescriptionAbstract>
+  <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
+  <StyleCategoryDescStyleDominance>سيكون {IDEO_memberNamePlural} سعداء إذا لاحظوا مباني وأرضيات وفن يطابق هذا الأسلوب.</StyleCategoryDescStyleDominance>
+  <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
+  <StyleCategoryDescStyleDominanceAbstract>سيكون أعضاء العقيدة سعداء إذا لاحظوا مباني وأرضيات وفن يطابق هذا الأسلوب.</StyleCategoryDescStyleDominanceAbstract>
+  <!-- EN: {0} style category affects -->
+  <StyleCategoryDetails>فئة أسلوب {0} تؤثر على</StyleCategoryDetails>
+  <!-- EN: Overriden by {0} -->
+  <OverriddenByStyle>مهيمن عليه من {0}</OverriddenByStyle>
+  <!-- EN: New buildables -->
+  <IdeoMakesBuildingBuildable>مبانٍ جديدة قابلة للبناء</IdeoMakesBuildingBuildable>
+  <!-- EN: none usable for {PAWN_nameDef} -->
+  <NoneUsableForPawn>لا شيء قابل للاستخدام لـ {PAWN_nameDef}</NoneUsableForPawn> 
+  <!-- EN: Hair and beards -->
+  <HairAndBeards>الشعر واللحى</HairAndBeards>
+  <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
+  <HairAndBeardsDesc>تحدد هذه الإعدادات مدى تكرار ظهور كل أسلوب على أعضاء هذه العقيدة.</HairAndBeardsDesc>
+  <!-- EN: Tattoos -->
+  <Tattoos>الأوشام</Tattoos>
+  <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
+  <TattoosDesc>تحدد هذه الإعدادات مدى تكرار ظهور كل وشم على أعضاء هذه العقيدة.</TattoosDesc>
+  <!-- EN: Never -->
+  <StyleItemFrequencyNever>أبداً</StyleItemFrequencyNever>
+  <!-- EN: Rare -->
+  <StyleItemFrequencyRare>نادر</StyleItemFrequencyRare>
+  <!-- EN: Uncommon -->
+  <StyleItemFrequencyUncommon>غير شائع</StyleItemFrequencyUncommon>
+  <!-- EN: Normal -->
+  <StyleItemFrequencyNormal>عادي</StyleItemFrequencyNormal>
+  <!-- EN: Common -->
+  <StyleItemFrequencyCommon>شائع</StyleItemFrequencyCommon>
+  <!-- EN: Frequent -->
+  <StyleItemFrequencyFrequent>متكرر</StyleItemFrequencyFrequent>
+  <!-- EN: Edit appearance -->
+  <EditAppearanceItems>تعديل المظهر</EditAppearanceItems>
+  <!-- EN: {0} in use -->
+  <NumAvailable>{0} قيد الاستخدام</NumAvailable>
+  <!-- EN: Resets all style items to their default values. -->
+  <ResetButtonDesc>يعيد ضبط جميع عناصر الأسلوب إلى قيمها الافتراضية.</ResetButtonDesc>
+
+  <!-- Ancient complex mission -->
+  <!-- EN: Send shuttle anyway -->
+  <SendShuttleAnyway>أرسل المكوك على أي حال</SendShuttleAnyway>
+  <!-- EN: Re-load shuttle -->
+  <ReLoadShuttle>إعادة تحميل المكوك</ReLoadShuttle>
+
+  <!-- Medical settings -->
+  <!-- EN: Slaves -->
+  <MedGroupSlaves>عبيد</MedGroupSlaves>
+  <!-- EN: Enslaved members of your colony. -->
+  <MedGroupSlavesDesc>أعضاء مستعبدون في مستعمرتك.</MedGroupSlavesDesc>
+
+  <!-- Dryad upgrades -->
+  <!-- EN: Choose dryad caste -->
+  <ChangeMode>اختر طائفة الدرياد</ChangeMode>
+  <!-- EN: Required memes -->
+  <RequiredMemes>ميمات مطلوبة</RequiredMemes>
+  <!-- EN: Required caste -->
+  <RequiredStage>طائفة مطلوبة</RequiredStage>
+  <!-- EN: Missing required memes -->
+  <MissingRequiredMemes>ميمات مطلوبة مفقودة</MissingRequiredMemes>
+  <!-- EN: Missing required caste -->
+  <MissingRequiredCaste>طائفة مطلوبة مفقودة</MissingRequiredCaste>
+  <!-- EN: Already selected -->
+  <AlreadySelected>مختار بالفعل</AlreadySelected>
+  <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
+  <ChooseProductionModeInitialDesc>هنا يمكنك اختيار أي طائفة من الدرياد ستنشئها {TREE_label} هذه.\n\nسينبثق الدرياد من القرون التي تنمو عند قاعدة الشجرة. الحد الأقصى لعدد الدرياد يعتمد على قوة الاتصال بين {TREE_definite} والشخص المتصل.</ChooseProductionModeInitialDesc>
+
+  <!-- Archonexus -->
+  <!-- EN: Choose who to convert to your ideoligion -->
+  <ChooseColonistsForIdeoTitle>اختر من سيتم تحويله إلى عقيدتك</ChooseColonistsForIdeoTitle>
+  <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
+  <ChooseColonistsForIdeoDesc>يمكنك تحويل الأشخاص إلى عقيدتك الأساسية عند إنشاء مستعمرة جديدة.</ChooseColonistsForIdeoDesc>
+  <!-- EN: New Colony -->
+  <ChooseThingsForNewColonyTitle>مستعمرة جديدة</ChooseThingsForNewColonyTitle>
+  <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
+  <ChooseThingsForNewColonyDesc>اختر أي المستعمرين والحيوانات والآثار لإحضارهم إلى المستعمرة الجديدة.</ChooseThingsForNewColonyDesc>
+  <!-- EN: Choose up to {0} {1}. -->
+  <ChooseThingsDesc>اختر حتى {0} {1}.</ChooseThingsDesc>
+  <!-- EN: Choose up to {0} people. -->
+  <ChoosePeopleDesc>اختر حتى {0} أشخاص.</ChoosePeopleDesc>
+  <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
+  <ChooseOnlySlavesInfo>إذا اخترت العبيد فقط، ستلعب بهم كمستعمرين في المستعمرة التالية.</ChooseOnlySlavesInfo>
+  <!-- EN: Confirm decisions -->
+  <ConfirmDecisionsTitle>تأكيد القرارات</ConfirmDecisionsTitle>
+  <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
+  <ShipEscapeWillEndDescription>سفينة الفضاء السباتية التي أبلغ عنها الذكاء الاصطناعي (*Name)Charlon Whitestone(/Name) ستطير بعيداً بحلول الوقت الذي يتم فيه إنشاء المستعمرة الجديدة. لن يكون من الممكن بعد ذلك الهروب من الكوكب بالسفر إلى هذه السفينة.</ShipEscapeWillEndDescription>
+  <!-- EN: No relic was chosen to be brought to the new colony. -->
+  <ArchonexusRelicNotChosen>لم يتم اختيار أي أثر لإحضاره إلى المستعمرة الجديدة.</ArchonexusRelicNotChosen>
+  <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
+  <ArchonexusItemsNotChosen>تم اختيار {0} من أصل {1} عنصر محتمل لإحضارها إلى المستعمرة الجديدة.</ArchonexusItemsNotChosen>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
+  <RemoveEquippedRelicsDescription>سيسمح لك مشترو المستعمرة بأخذ أثر واحد فقط. سيتم ترك أي آثار أخرى (حتى لو كانت مجهزة من قبل مستعمر)، بما في ذلك:</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
+  <WantToProceed>هل ترغب في المتابعة؟ بعد هذه النقطة، لا عودة.</WantToProceed>
+  <!-- EN: Convert -->
+  <ConvertToPlayerIdeoligion>تحويل</ConvertToPlayerIdeoligion>
+  <!-- EN: Revert -->
+  <RevertToPreviousIdeoligion>عودة</RevertToPreviousIdeoligion>
+  <!-- EN: Existing follower -->
+  <ExistingFollowerOfPlayerIdeoligion>تابع موجود</ExistingFollowerOfPlayerIdeoligion>
+  <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
+  <AbandonArchotechStructuresWarningDialog>أنت تتخلى عن موقع يحتوي على هياكل أركوتك لم تدرسها بالكامل بعد.\n\nستتمكن من إعادة الاستيطان هنا لاحقاً، لكن مستعمرتك ستُمحى.</AbandonArchotechStructuresWarningDialog>
+  <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
+  <ItemQuantityTooltip>كمية {0} التي يمكن إحضارها إلى المستعمرة الجديدة.\n\nالكمية القصوى المسموح بها هي: {1}</ItemQuantityTooltip>
+  <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
+  <SoldColonyDescription>تم بيع مستعمرتك. مشتروها مستعدون لتختار أين ستهبط بعد ذلك.</SoldColonyDescription>
+
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do you really want to hack {0}? -->
+  <ConfirmHackEnemyTerminal>اختراق {0} هذا سينبه الأعداء ويدفعهم للهجوم. هل تريد حقاً اختراق {0}؟</ConfirmHackEnemyTerminal>
+
+  <!-- EN: Relics -->
+  <RelicsSection>آثار</RelicsSection>
+
+  <!-- Food restrictions -->
+  <!-- EN: Vegetarian -->
+  <FoodRestrictionVegetarian>نباتي</FoodRestrictionVegetarian>
+  <!-- EN: Carnivore -->
+  <FoodRestrictionCarnivore>آكل لحوم</FoodRestrictionCarnivore>
+  <!-- EN: Cannibal -->
+  <FoodRestrictionCannibal>آكل لحوم البشر</FoodRestrictionCannibal>
+  <!-- EN: Insect meat -->
+  <FoodRestrictionInsectMeat>لحم حشرات</FoodRestrictionInsectMeat>
+
+  <!-- EN: Styles in use -->
+  <StylesInUse>أساليب قيد الاستخدام</StylesInUse>
+  <!-- EN: Add a style. -->
+  <StyleCategoryAddDesc>أضف أسلوباً.</StyleCategoryAddDesc>
+</LanguageData>

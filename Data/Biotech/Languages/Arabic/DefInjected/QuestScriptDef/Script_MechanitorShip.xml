@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>mechanitorShuttleCrashedLetterLabel->Mechanitor ship</li>
+    <li>mechanitorShuttleCrashedLetterText->A mechanitor ship containing feral mechanoids has crashed nearby. The mechanoids will exit the crashed ship and prepare to fight.</li>
+    <li>assaultBeginLetterLabel->Mechanoid attack</li>
+    <li>assaultBeginLetterText->The feral mechanoids are coming to assault the colony!</li>
+    <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef]'s mechlink available</li>
+    <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li>
+  -->
+  <MechanitorShip.questContentRules.rulesStrings>
+    <li>mechanitorShuttleCrashedLetterLabel->سفينة ميكانيتور</li>
+    <li>mechanitorShuttleCrashedLetterText->تحطمت سفينة ميكانيتور تحتوي على ميكانويدات متوحشة في مكان قريب. ستخرج الميكانويدات من السفينة المحطمة وتستعد للقتال.</li>
+    <li>assaultBeginLetterLabel->هجوم ميكانويدي</li>
+    <li>assaultBeginLetterText->الميكانويدات المتوحشة قادمة لمهاجمة المستعمرة!</li>
+    <li>mechlinkAvailableLetterLabel->رابط الميكانويد الخاص بـ [mechanitor_nameDef] متاح</li>
+    <li>mechlinkAvailableLetterText->تحتوي السفينة المحطمة على جثة ميكانيتور قديم.\n\nاستخرج رابط الميكانويد [mechanitor_possessive] بتحديد مستعمر والنقر بزر الفأرة الأيمن على الجثة.</li>
+ </MechanitorShip.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
+  -->
+  <MechanitorShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->لقد قمت بفك تشفير مرسال قديم، مما كشف عن موقع سفينة ميكانويدية في المدار. السفينة متضررة بشدة ولكن يمكنك إرسال إشارة لها لتهبط في مكان قريب.\n\nتحتوي السفينة على رفات ميكانيتور مات منذ زمن بعيد. يمكن للميكانيتوريين إنشاء الميكانويدات والتحكم بها للعمل والقتال. باستخراج رابط الميكانويد للمتوفى، يمكنك تحويل أحد المستعمرين لديك إلى ميكانيتور.\n\nاحذر - تحتوي السفينة أيضًا على ميكانويدات معادية. تتكون مجموعة الميكانويدات من:\n\n[mechList]</li>
+ </MechanitorShip.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective->mechanitor</li>
+    <li>shipAdjective->the overseer's</li>
+    <li>shipAdjective->ancient</li>
+    <li>shipAdjective->mechanoid</li>
+    <li>shipNoun->ship</li>
+    <li>shipNoun->shuttle</li>
+    <li>shipNoun->craft</li>
+    <li>shipNoun->wreck</li>
+    <li>shipNoun->wreckage</li>
+    <li>shipNoun->transport</li>
+  -->
+  <MechanitorShip.questNameRules.rulesStrings>
+    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective->ميكانيتور</li>
+    <li>shipAdjective->المشرف</li>
+    <li>shipAdjective->قديمة</li>
+    <li>shipAdjective->ميكانويدية</li>
+    <li>shipNoun->سفينة</li>
+    <li>shipNoun->مكوك</li>
+    <li>shipNoun->مركبة</li>
+    <li>shipNoun->حطام</li>
+    <li>shipNoun->حطام</li>
+    <li>shipNoun->نقل</li>
+ </MechanitorShip.questNameRules.rulesStrings>
+  
+</LanguageData>

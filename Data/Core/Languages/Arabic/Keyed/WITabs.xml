@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- WITab titles -->
+  <!-- EN: Terrain -->
+  <TabTerrain>التضاريس</TabTerrain>
+  <!-- EN: Planet -->
+  <TabPlanet>الكوكب</TabPlanet>
+  <!-- EN: Feeding -->
+  <TabCaravanFeeding>التغذية</TabCaravanFeeding>
+  <!-- EN: Social -->
+  <TabCaravanSocial>اجتماعي</TabCaravanSocial>
+  <!-- EN: Health -->
+  <TabCaravanHealth>صحة</TabCaravanHealth>
+  <!-- EN: Needs -->
+  <TabCaravanNeeds>احتياجات</TabCaravanNeeds>
+  <!-- EN: Gear -->
+  <TabCaravanGear>معدات</TabCaravanGear>
+  <!-- EN: Items -->
+  <TabCaravanItems>عناصر</TabCaravanItems>
+  
+  <!-- Misc -->
+  <!-- EN: Abandon {{0}}x {0} -->
+  <AbandonSliderText>تخلَّ {{0}}x {0}</AbandonSliderText>
+  <!-- EN: Do you really want to abandon {0}?\n\nAbandoned items vanish and can never be recovered. -->
+  <ConfirmAbandonItemDialog>هل تريد حقاً التخلي عن {0}؟\n\nالعناصر المتخلى عنها تختفي ولا يمكن استعادتها أبداً.</ConfirmAbandonItemDialog>
+  <!-- EN: Abandon -->
+  <AbandonTip>تخلَّ</AbandonTip>
+  <!-- EN: Banish -->
+  <BanishTip>نفِ</BanishTip>
+  <!-- EN: Abandon specific count -->
+  <AbandonSpecificCountTip>تخلَّ بعدد محدد</AbandonSpecificCountTip>
+  <!-- EN: Abandon (all) -->
+  <AbandonAllTip>تخلَّ (الكل)</AbandonAllTip>
+  <!-- EN: Abandoned items vanish and can never be recovered. -->
+  <AbandonItemTipExtraText>العناصر المتخلى عنها تختفي ولا يمكن استعادتها أبداً.</AbandonItemTipExtraText>
+  <!-- EN: {1_labelShort} will most likely die. -->
+  <BanishTipWillDie>من المرجح جداً أن يموت {1_labelShort}.</BanishTipWillDie>
+  
+  <!-- Caravan inspect -->
+  <!-- EN: Colonists -->
+  <CaravanColonists>مستعمرون</CaravanColonists>
+  <!-- EN: Prisoners and animals -->
+  <CaravanPrisonersAndAnimals>سجناء وحيوانات</CaravanPrisonersAndAnimals>
+  <!-- EN: Inventory -->
+  <CaravanItems>مخزون</CaravanItems>
+  <!-- EN: Click to open a tab with more details. -->
+  <OpenSpecificTabButtonTip>انقر لفتح تبويب بتفاصيل أكثر.</OpenSpecificTabButtonTip>
+  <!-- EN: Prisoners -->
+  <CaravanPrisoners>سجناء</CaravanPrisoners>
+  <!-- EN: Equippable items -->
+  <CaravanWeaponsAndApparel>عناصر قابلة للتجهيز</CaravanWeaponsAndApparel>
+  <!-- EN: None capable -->
+  <NoneCapable>لا أحد قادر</NoneCapable>
+  <!-- EN: Caravan not moving -->
+  <GainingJoyBecauseCaravanNotMoving>القافلة لا تتحرك</GainingJoyBecauseCaravanNotMoving>
+  
+  <!-- Caravan gear -->
+  <!-- EN: Drag to rearrange. -->
+  <DragToRearrange>اسحب لإعادة الترتيب.</DragToRearrange>
+
+  <!-- Caravan items -->
+  <!-- EN: Assign drug policies -->
+  <AssignDrugPolicies>تعيين سياسات العقاقير</AssignDrugPolicies>
+
+  <!-- Caravan health -->
+  <!-- EN: Whether this person or animal should be carried by other caravan members when sick.\n\nCarried caravan members can rest even if the caravan is moving, but they slow it down. -->
+  <BeCarriedIfSickTip>ما إذا كان ينبغي حمل هذا الشخص أو الحيوان من قبل أعضاء القافلة الآخرين عند المرض.\n\nيمكن لأعضاء القافلة المحمولين أن يستريحوا حتى لو كانت القافلة تتحرك، لكنهم يبطئونها.</BeCarriedIfSickTip>
+  
+  <!-- Planet -->
+  <!-- EN: Seed -->
+  <PlanetSeed>بذرة</PlanetSeed>
+  <!-- EN: Coverage -->
+  <PlanetCoverageShort>تغطية</PlanetCoverageShort>
+
+</LanguageData>

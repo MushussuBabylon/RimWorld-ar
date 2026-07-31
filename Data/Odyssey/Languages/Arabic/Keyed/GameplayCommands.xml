@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine -->
+  <!-- EN: Show substructure overlay -->
+  <CommandShowSubstructureOverlay>إظهار تراكب البنية التحتية</CommandShowSubstructureOverlay>
+  <!-- EN: Display valid substructure in blue and invalid substructure in red. -->
+  <CommandShowSubstructureOverlayDesc>عرض البنية التحتية الصالحة باللون الأزرق وغير الصالحة باللون الأحمر.</CommandShowSubstructureOverlayDesc>
+  <!-- EN: Inspect {0_labelShort} -->
+  <CommandInspectGravEngine>فحص {0_labelShort}</CommandInspectGravEngine>
+  <!-- EN: Choose a colonist to inspect the mysterious grav engine. -->
+  <CommandInspectGravEngineDesc>اختر مستعمراً لفحص محرك الجاذبية الغامض.</CommandInspectGravEngineDesc>
+  <!-- EN: Choose navigator -->
+  <CommandChooseNavigator>اختيار الملاح</CommandChooseNavigator>
+  <!-- EN: Cannot navigate -->
+  <CannotChooseNavigator>تعذر الملاحة</CannotChooseNavigator>
+
+  <!-- EN: Launch -->
+  <CommandLaunchGravship>إطلاق</CommandLaunchGravship>
+  <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned if you don't have a grav anchor. -->
+  <CommandLaunchGravshipDesc>اختر مستعمراً لقيادة سفينة الجاذبية. سيتم نقل أي شيء متواجد على البنية التحتية للسفينة إلى خريطة جديدة. سيتم التخلي عن خريطتك الحالية إذا لم يكن لديك مرساة جاذبية.</CommandLaunchGravshipDesc>
+
+  <!-- EN: Allow fishing -->
+  <CommandAllowFish>السماح بصيد السمك</CommandAllowFish>
+  <!-- EN: When disabled, colonists will never fish in this zone. -->
+  <CommandAllowFishDesc>عند تعطيله، لن يقوم المستعمرون بصيد السمك في هذه المنطقة أبداً.</CommandAllowFishDesc>
+  
+  <!-- EN: Allow removing items -->
+  <CommandAllowRemovingApparel>السماح بإزالة العناصر</CommandAllowRemovingApparel>
+  <!-- EN: When disabled, haulers won't remove items from the outfit stand and colonists won't equip apparel unless ordered to do so. -->
+  <CommandAllowRemovingApparelDesc>عند تعطيله، لن يقوم الحمالون بإزالة العناصر من حامل الملابس، ولن يرتدي المستعمرون الملابس ما لم يُؤمروا بذلك.</CommandAllowRemovingApparelDesc>
+
+  <!-- EN: No colonist capable of piloting shuttle. Requires minimum piloting ability of 10%. -->
+  <CommandShuttleNoPilot>لا يوجد مستعمر قادر على قيادة المكوك. يتطلب حداً أدنى من قدرة القيادة يبلغ 10%.</CommandShuttleNoPilot>
+
+  <!-- EN: Confirm landing zone -->
+  <ConfirmLandGravship>تأكيد منطقة الهبوط</ConfirmLandGravship>
+  <!-- EN: Land your gravship in the landing zone. -->
+  <ConfirmLandGravshipDesc>الهبوط بسفينة الجاذبية الخاصة بك في منطقة الهبوط.</ConfirmLandGravshipDesc>
+  <!-- EN: Abort landing -->
+  <AbortLandGravship>إلغاء الهبوط</AbortLandGravship>
+  <!-- EN: Cancel landing on this map, and force the gravship to land nearby on the world map. Useful if you can't find a landing spot.\n\nWarning: This increases the chance of a mishap when landing. -->
+  <AbortLandGravshipDesc>إلغاء الهبوط على هذه الخريطة، وإجبار سفينة الجاذبية على الهبوط في مكان قريب على خريطة العالم. مفيد إذا لم تتمكن من العثور على بقعة للهبوط.\n\nتحذير: هذا يزيد من احتمال حدوث حادث أثناء الهبوط.</AbortLandGravshipDesc>
+  <!-- EN: Aborting the landing will force your gravship to land in a random nearby location on the world map. This increases the chance of a mishap when landing.\n\nAre you sure you want to continue? -->
+  <AbortLandConfirmation>إن إلغاء الهبوط سيجبر سفينة الجاذبية على الهبوط في موقع عشوائي قريب على خريطة العالم. هذا يزيد من احتمال حدوث حادث أثناء الهبوط.\n\nهل أنت متأكد من أنك تريد الاستمرار؟</AbortLandConfirmation>
+  <!-- EN: Failed to find crash site. -->
+  <FailedToFindCrashSite>فشل العثور على موقع التحطم.</FailedToFindCrashSite>
+  <!-- EN: You must designate a landing area for your gravship. -->
+  <GravshipLandingMarkerNotPlaced>يجب عليك تحديد منطقة هبوط لسفينة الجاذبية الخاصة بك.</GravshipLandingMarkerNotPlaced>
+
+  <!-- EN: Refuel from cargo -->
+  <CommandRefuelShuttleFromCargo>إعادة التزويد بالوقود من الحمولة</CommandRefuelShuttleFromCargo>
+  <!-- EN: Refuel the passenger shuttle using chemfuel stored within. -->
+  <CommandRefuelShuttleFromCargoDesc>إعادة تزويد مكوك الركاب بالوقود باستخدام الوقود الكيميائي المخزن بداخله.</CommandRefuelShuttleFromCargoDesc>
+  <!-- EN: No fuel in caravan. -->
+  <NoFuelInCaravan>لا يوجد وقود في القافلة.</NoFuelInCaravan>
+  <!-- EN: No fuel in shuttle. -->
+  <NoFuelInShuttle>لا يوجد وقود في المكوك.</NoFuelInShuttle>
+  <!-- EN: Shuttle is already fully fueled -->
+  <ShuttleFullyFueled>المكوك مزود بالكامل بالوقود بالفعل</ShuttleFullyFueled>
+
+  <!-- EN: Activate -->
+  <GravshipShieldOrderActivation>تفعيل</GravshipShieldOrderActivation>
+  <!-- EN: Deactivate -->
+  <GravshipShieldOrderDeactivation>تعطيل</GravshipShieldOrderDeactivation>
+  <!-- EN: Order a pawn to activate the gravship shield generator. -->
+  <GravshipShieldOrderActivationDesc>أمر أحد التابعين بتفعيل مولد درع سفينة الجاذبية.</GravshipShieldOrderActivationDesc>
+  <!-- EN: Order a pawn to deactivate the gravship shield generator. -->
+  <GravshipShieldOrderDeactivationDesc>أمر أحد التابعين بتعطيل مولد درع سفينة الجاذبية.</GravshipShieldOrderDeactivationDesc>
+
+  <!-- EN: Merging these caravans will cause the following to be lost:\n{0}\n\nAre you sure you want to continue? -->
+  <ConfirmMergeShuttles>دمج هذه القوافل سيتسبب في فقدان ما يلي:\n{0}\n\nهل أنت متأكد من أنك تريد الاستمرار؟</ConfirmMergeShuttles>
+</LanguageData>

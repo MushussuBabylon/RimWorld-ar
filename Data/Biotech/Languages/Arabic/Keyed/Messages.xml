@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 1st to 2nd trimester. -->
+  <MessageColonistReaching2ndTrimesterPregnancy>تقدم حمل {PAWN_labelShort} من الثلث الأول إلى الثاني.</MessageColonistReaching2ndTrimesterPregnancy>
+  <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 2nd to 3rd trimester. -->
+  <MessageColonistReaching3rdTrimesterPregnancy>تقدم حمل {PAWN_labelShort} من الثلث الثاني إلى الثالث.</MessageColonistReaching3rdTrimesterPregnancy>
+  <!-- EN: {PAWN_labelShort}'s labor has begun the final stages. -->
+  <MessageColonistInFinalStagesOfLabor>بدأت مراحل الولادة النهائية لـ {PAWN_labelShort}.</MessageColonistInFinalStagesOfLabor>
+
+  <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
+  <MessageMechChargerDestroyedMechGoesBerserk>تم تدمير شاحن الميكانويد بينما كان {PAWN_nameDef} يشحن! لقد أربك انقطاع الطاقة دماغه، وهو الآن يهتاج.</MessageMechChargerDestroyedMechGoesBerserk>
+
+  <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
+  <MessageCantUseOnResistingPerson>لا يمكن استخدام {ABILITY_label} على أي شخص يقاوم بنشاط.</MessageCantUseOnResistingPerson>
+  <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
+  <MessageCannotUseOnSameXenotype>{0_labelShort} لديه بالفعل النمط الغريب {0_xenotype}.</MessageCannotUseOnSameXenotype>
+  <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
+  <MessagePawnHasNoXenogenes>{0_labelShort} ليس لديه جينات غريبة متاحة للزرع.</MessagePawnHasNoXenogenes>
+  <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
+  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>لا يمكن زرع اللقاحات الغريبة إلا في المستعمرين، السجناء، والعبيد.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
+  <!-- EN: Cannot implant in temporary faction members. -->
+  <MessageCannotImplantInTempFactionMembers>لا يمكن الزرع في أعضاء الفصيل المؤقتين.</MessageCannotImplantInTempFactionMembers>
+  <!-- EN: A xenogerm has been completed. -->
+  <MessageXenogermCompleted>تم اكتمال لقاح غريب.</MessageXenogermCompleted>
+  <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
+  <MessageXenogermCancelledMissingPack>تم إلغاء العمل على اللقاح الغريب في {0_labelShort}: عبوة الجينات المطلوبة مفقودة.</MessageXenogermCancelledMissingPack>
+  <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
+  <MessageAbsorbingXenogermWillAngerFaction>امتصاص لقاح {PAWN_nameDef} سيغضب {0}.</MessageAbsorbingXenogermWillAngerFaction>
+  <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
+  <MessageCannotUseOnOtherFactions>لا يمكن استخدام {ABILITY_label} إلا على المستعمرين، السجناء، والعبيد.</MessageCannotUseOnOtherFactions>
+  <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} يرفض أن يصبح نمطًا غريبًا غير محبوب.</MessageCannotBecomeNonPreferredXenotype>
+
+  <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
+  <MessageCaravanAddingEscortingMech>إضافة تلقائية لـ {MECH_nameDef} إلى القافلة، لأنه يرافق {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
+  <!-- EN: Auto-removing {MECH_nameDef} from the caravan, since it is escorting {OVERSEER_nameDef} -->
+  <MessageCaravanRemovingEscortingMech>إزالة تلقائية لـ {MECH_nameDef} من القافلة، لأنه يرافق {OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
+
+  <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
+  <MessageMechanitorCasketOpened>{0} كان ميكانيتورًا. يمكنك إزالة {1_label} الخاصة به واستخدامه على مستعمر.</MessageMechanitorCasketOpened>
+  
+  <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
+  <MessageNoBloodfeedersPrisonerInteractionReset>كان وضع تفاعل بعض السجناء يتطلب متغذي دم. منذ رحيل آخر متغذي دم، تم إعادة تعيين أوضاع تفاعلهم إلى "لا تفاعل".</MessageNoBloodfeedersPrisonerInteractionReset>
+
+  <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
+  <MessagePregnancyTerminated>تم إنهاء حمل {PAWN_nameDef} بنجاح.</MessagePregnancyTerminated>
+  
+  <!-- Pollution -->
+  <!-- EN: {0} has been angered ({1}) -->
+  <MessageAngeredPollutedCell>تم إغضاب {0} ({1})</MessageAngeredPollutedCell>
+  <!-- EN: Need unpolluted terrain. -->
+  <MessageWarningPollutedCell>تحتاج إلى أرض غير ملوثة.</MessageWarningPollutedCell>
+  <!-- EN: Need polluted terrain. -->
+  <MessageWarningNotPollutedCell>تحتاج إلى أرض ملوثة.</MessageWarningNotPollutedCell>
+  <!-- EN: {0} has died because of pollution. -->
+  <MessagePlantDiedOfPollution>مات {0} بسبب التلوث.</MessagePlantDiedOfPollution>
+  <!-- EN: {0} has died because of a lack of pollution. -->
+  <MessagePlantDiedOfNoPollution>مات {0} بسبب نقص التلوث.</MessagePlantDiedOfNoPollution>
+  <!-- EN: Pollution has increased by {0} at {1}. -->
+  <MessageWorldTilePollutionChanged>زاد التلوث بمقدار {0} في {1}.</MessageWorldTilePollutionChanged>
+  <!-- EN: A cocoon has been disturbed and is opening! -->
+  <MessageCocoonDisturbed>تم إزعاج شرنقة وهي تنفتح!</MessageCocoonDisturbed>
+  <!-- EN: Cocoons have been disturbed and are opening! -->
+  <MessageCocoonDisturbedPlural>تم إزعاج شرانق وهي تنفتح!</MessageCocoonDisturbedPlural>
+  <!-- EN: {0} has rotted due to polluted terrain. -->
+  <MessagePlantDiedOfRot_PollutedTerrain>تعفن {0} بسبب الأرض الملوثة.</MessagePlantDiedOfRot_PollutedTerrain>
+
+  <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
+  <MessageTargetMustBeDownedToForceReimplant>يجب أن يكون {PAWN_nameDef} مطروحًا أرضًا قبل أن تتمكن من إجبار {PAWN_objective} على إعادة زرع لقاحه الغريب.</MessageTargetMustBeDownedToForceReimplant>
+
+  <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
+  <MessageWorkTypeDisabledAge>{0_nameDef} عمره {1} سنة فقط. يمكن القيام بعمل {2} فقط من سن {3}.</MessageWorkTypeDisabledAge>
+
+  <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
+  <MessageDeathrestingPawnCanWakeSafely>يمكن لـ {PAWN_nameDef} الآن الاستيقاظ من سبات الموت بأمان.</MessageDeathrestingPawnCanWakeSafely>
+
+  <!-- EN: {0_nameDef} has lost control of a {1_kindBase} mech -->
+  <MessageMechanitorLostControlOfMech>فقد {0_nameDef} السيطرة على ميكانويد {1_kindBase}</MessageMechanitorLostControlOfMech>
+  <!-- EN: {0_nameDef} has disconnected from {1_nameDef} mech. -->
+  <MessageMechanitorDisconnectedFromMech>قطع {0_nameDef} اتصاله بميكانويد {1_nameDef}.</MessageMechanitorDisconnectedFromMech>
+
+  <!-- Xenogerm -->
+  <!-- EN: The total metabolism of the selected genes must be {MIN} or higher to continue, but currently it is only {AMOUNT}. -->
+  <MetabolismTooLowToCreateXenogerm>يجب أن يكون إجمالي أيض الجينات المختارة {MIN} أو أعلى للمتابعة، ولكنه حاليًا {AMOUNT} فقط.</MetabolismTooLowToCreateXenogerm>
+  <!-- EN: The total complexity of the selected genes must be {MAX} or less to create a xenogerm, but currently it is {AMOUNT}. -->
+  <ComplexityTooHighToCreateXenogerm>يجب أن يكون إجمالي تعقيد الجينات المختارة {MAX} أو أقل لإنشاء لقاح غريب، ولكنه حاليًا {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
+  <!-- EN: Cannot create a xenogerm with no genes. -->
+  <MessageNoSelectedGenepacks>لا يمكن إنشاء لقاح غريب بدون جينات.</MessageNoSelectedGenepacks>
+  <!-- EN: Cannot create a xenotype with no genes. -->
+  <MessageNoSelectedGenes>لا يمكن إنشاء نمط غريب بدون جينات.</MessageNoSelectedGenes>
+  <!-- EN: {0_label} can only store {1} genepacks. -->
+  <CanOnlyStoreNumGenepacks>يمكن لـ {0_label} تخزين {1} عبوة جينات فقط.</CanOnlyStoreNumGenepacks>
+  <!-- EN: Xenotype name cannot be empty. -->
+  <XenotypeNameCannotBeEmpty>لا يمكن أن يكون اسم النمط الغريب فارغًا.</XenotypeNameCannotBeEmpty>
+  <!-- EN: {0} lacks a prerequisite gene -->
+  <MessageGeneMissingPrerequisite>{0} يفتقر إلى جين متطلب أساسي</MessageGeneMissingPrerequisite>
+
+  <!-- EN: {PAWN_nameDef}'s deathrest capacity has increased from {OLD} to {NEW}. -->
+  <MessageDeathrestCapacityChanged>زادت سعة سبات الموت لـ {PAWN_nameDef} من {OLD} إلى {NEW}.</MessageDeathrestCapacityChanged>
+
+  <!-- EN: The sanguophages will arrive in a few hours for their meeting. -->
+  <SanguophagesArrivingSoon>سيصل مصاصو الدماء في غضون ساعات قليلة لاجتماعهم.</SanguophagesArrivingSoon>
+  <!-- EN: The sanguophages have begun their meeting. -->
+  <SanguophagesBegunMeeting>بدأ مصاصو الدماء اجتماعهم.</SanguophagesBegunMeeting>
+  <!-- EN: The sanguophages are leaving due to life-threatening temperature. -->
+  <SanguophagesLeavingTemperature>يغادر مصاصو الدماء بسبب درجة حرارة تهدد الحياة.</SanguophagesLeavingTemperature>
+
+  <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
+  <MessagePawnWokenFromSunlight>تم إيقاظ {PAWN_nameDef} من سبات الموت الخاص به بسبب التعرض لضوء الشمس.</MessagePawnWokenFromSunlight>
+  <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
+  <MessageBedExposedToSunlight>تعرض {BED_labelShort} المخصص لاستخدامه من قبل {PAWN_nameDef} لسبات الموت لضوء الشمس. لا يمكن لـ {PAWN_nameDef} الموت هناك.</MessageBedExposedToSunlight>
+
+  <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
+  <GeneExtractorNoPowerEjectedMessage>تم إخراج {PAWN_labelShort} من مستخرج الجينات بسبب نقص الطاقة.</GeneExtractorNoPowerEjectedMessage>
+
+  <!-- Mechanitor -->
+  <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
+  <MessagePawnKilledRipscanner>تم تدمير دماغ {PAWN_nameDef} بواسطة ماسح النواة الفرعية الممزق.</MessagePawnKilledRipscanner>
+  <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
+  <MessageSubcoreSoftscannerCompleted>اكتمل المسح الناعم للنواة الفرعية لـ {PAWN_nameDef}.</MessageSubcoreSoftscannerCompleted>
+
+  <!-- EN: Cannot resurrect dessicated corpses. -->
+  <MessageCannotResurrectDessicatedCorpse>لا يمكن إحياء الجثث المتعفنة.</MessageCannotResurrectDessicatedCorpse>
+
+  <!-- EN: {0} is about to explode! -->
+  <MessageAboutToExplode>{0} على وشك الانفجار!</MessageAboutToExplode>
+
+  <!-- Childcare -->
+  <!-- EN: {FEEDER_labelShort} cannot perform childcare tasks. -->
+  <MessageChildcareDisabled>{FEEDER_labelShort} لا يمكنه أداء مهام رعاية الأطفال.</MessageChildcareDisabled>
+  <!-- EN: {FEEDER_labelShort} is not assigned to do childcare tasks. -->
+  <MessageChildcareNotAssigned>{FEEDER_labelShort} غير معين للقيام بمهام رعاية الأطفال.</MessageChildcareNotAssigned>
+
+  <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
+  <MessageTooManyCustomXenotypes>لديك بالفعل الحد الأقصى من الأنماط الغريبة المخصصة. يجب عليك حذف البعض إذا كنت ترغب في إنشاء المزيد.</MessageTooManyCustomXenotypes>
+  <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
+  <MessageConflictingGenesPresent>لا يمكن حفظ نمط غريب به عدة جينات متعارضة.</MessageConflictingGenesPresent>
+
+  <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
+  <MessageDeathrestBuildingBound>تم ربط {BUILDING_labelShort} بـ {PAWN_nameDef} ({CUR}/{MAX} سعة سبات الموت).</MessageDeathrestBuildingBound>
+
+  <!-- EN: Developmental stage selection disabled by scenario. -->
+  <MessageDevelopmentalStageSelectionDisabledByScenario>اختيار مرحلة النمو معطل بواسطة السيناريو.</MessageDevelopmentalStageSelectionDisabledByScenario>
+
+  <!-- EN: {PAWN_nameDef} did not have enough blood to produce a hemogen pack.  -->
+  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>لم يكن لدى {PAWN_nameDef} دم كافٍ لإنتاج عبوة هيموجين.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
+  <!-- EN: {PAWN_nameDef} doesn't have enough blood to produce a hemogen pack. -->
+  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} ليس لديه دم كافٍ لإنتاج عبوة هيموجين.</MessageCannotStartHemogenExtraction>
+
+  <!-- EN: You must choose how {PAWN_nameDef} will grow now. -->
+  <MessageCannotPostponeGrowthMoment>يجب أن تختار الآن كيف سينمو {PAWN_nameDef}.</MessageCannotPostponeGrowthMoment>
+
+  <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
+  <MessageDraftedPawnCarryingBaby>تحذير: {0_labelShort} يحمل طفلاً وهو مجند.</MessageDraftedPawnCarryingBaby>
+  <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
+  <MessageTakingBabyToSafeTemperature>ينقل {ADULT_nameDef} {BABY_nameDef} إلى مكان بدرجة حرارة أكثر أمانًا.</MessageTakingBabyToSafeTemperature>
+
+  <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
+  <MessagePregnancyFailed>فشل الحمل بين {MOTHER_nameDef} و {FATHER_nameDef}</MessagePregnancyFailed>
+  <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
+  <MessageFerilizeFailed>فشل {PAWN_nameDef} في تخصيب البويضة</MessageFerilizeFailed>
+  <!-- EN: Combined genes exceeded metabolism limits. -->
+  <CombinedGenesExceedMetabolismLimits>تجاوزت الجينات المجمعة حدود الأيض.</CombinedGenesExceedMetabolismLimits>
+  <!-- EN: Starting colonists must be capable of violence in tutorial mode. -->
+  <MessageStartingPawnCapableOfViolence>يجب أن يكون المستعمرون الجدد قادرين على استخدام العنف في الوضع التعليمي.</MessageStartingPawnCapableOfViolence>
+
+</LanguageData>

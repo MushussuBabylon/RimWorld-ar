@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>place_name->Atura Station</li>
+    <li>place_adjective->Aturan</li>
+    <li>place_summary->orbital shipyard</li>
+    <li>place_community->shuttle dock</li>
+    <li>place_community->manufacturing ring</li>
+    <li>place_community->residential ring</li>
+    <li>place_powerCenter->central control room</li>
+    <li>place_job->construction drone operator</li>
+    <li>place_job->manager</li>
+    <li>place_job->test pilot</li>
+    <li>place_job->sales agent</li>
+    <li>place_job->3D printer technician</li>
+    <li>place_personalWeapon->taser</li>
+    <li>place_personalWeapon->arc welder</li>
+    <li>place_massWeapon->[anEMPAttack]</li>
+    <li>place_massWeapon->remote-controlled welding drones</li>
+    <li>place_foeLeader->crime boss</li>
+    <li>place_foeSoldiers->thugs</li>
+  -->
+  <AturaStation.placeRules.rulesStrings>
+    <li>place_name->محطة أتورا</li>
+    <li>place_adjective->أتوري</li>
+    <li>place_summary->حوض بناء سفن مداري</li>
+    <li>place_community->رصيف مكوكات</li>
+    <li>place_community->حلقة تصنيع</li>
+    <li>place_community->حلقة سكنية</li>
+    <li>place_powerCenter->غرفة تحكم مركزية</li>
+    <li>place_job->مشغل طائرات بناء بدون طيار</li>
+    <li>place_job->مدير</li>
+    <li>place_job->طيار اختبار</li>
+    <li>place_job->وكيل مبيعات</li>
+    <li>place_job->فني طابعة ثلاثية الأبعاد</li>
+    <li>place_personalWeapon->مسدس صاعق</li>
+    <li>place_personalWeapon->لحام قوسي</li>
+    <li>place_massWeapon->[anEMPAttack]</li>
+    <li>place_massWeapon->طائرات لحام بدون طيار تتحكم عن بعد</li>
+    <li>place_foeLeader->زعيم عصابة</li>
+    <li>place_foeSoldiers->بلطجية</li>
+ </AturaStation.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Bagua 5</li>
+    <li>place_adjective->Bagucinquan</li>
+    <li>place_summary->junkyard planet</li>
+    <li>place_community->fortified scrapyard</li>
+    <li>place_community->rainwater processing plant</li>
+    <li>place_community->scrap-town</li>
+    <li>place_powerCenter->trader spaceport</li>
+    <li>place_job->scavenger</li>
+    <li>place_job->trader</li>
+    <li>place_job->tinkerer</li>
+    <li>place_job->guard</li>
+    <li>place_job->scrapper</li>
+    <li>place_personalWeapon->pipe rifle</li>
+    <li>place_personalWeapon->scrap-sword</li>
+    <li>place_massWeapon->a salvaged nuke</li>
+    <li>place_massWeapon->a rust virus</li>
+    <li>place_foeLeader->junk lord</li>
+    <li>place_foeSoldiers->metal-heads</li>
+  -->
+  <Bagua5.placeRules.rulesStrings>
+    <li>place_name->باغوا 5</li>
+    <li>place_adjective->باغوسينكواني</li>
+    <li>place_summary->كوكب خردة</li>
+    <li>place_community->ساحة خردة محصنة</li>
+    <li>place_community->محطة معالجة مياه الأمطار</li>
+    <li>place_community->بلدة الخردة</li>
+    <li>place_powerCenter->ميناء فضائي تجاري</li>
+    <li>place_job->نبّاش</li>
+    <li>place_job->تاجر</li>
+    <li>place_job->مصلح</li>
+    <li>place_job->حارس</li>
+    <li>place_job->خردواتي</li>
+    <li>place_personalWeapon->بندقية أنبوبية</li>
+    <li>place_personalWeapon->سيف خردة</li>
+    <li>place_massWeapon->قنبلة نووية مستخرجة</li>
+    <li>place_massWeapon->فيروس صدأ</li>
+    <li>place_foeLeader->سيد الخردة</li>
+    <li>place_foeSoldiers->معدنيو الرؤوس</li>
+ </Bagua5.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Boccocarro</li>
+    <li>place_adjective->Boccin</li>
+    <li>place_summary->cavernous shell-world</li>
+    <li>place_community->surface tunnel</li>
+    <li>place_community->fungus cavern</li>
+    <li>place_community->drip-well</li>
+    <li>place_powerCenter->speech-hall</li>
+    <li>place_job->miner</li>
+    <li>place_job->fungus grower</li>
+    <li>place_job->surface scavenger</li>
+    <li>place_job->community cook</li>
+    <li>place_job->frog-hunter</li>
+    <li>place_personalWeapon->pickaxe</li>
+    <li>place_personalWeapon->hydraulic crossbow</li>
+    <li>place_massWeapon->[seismicDevice]</li>
+    <li>place_massWeapon->a blackpowder bomb</li>
+    <li>place_foeLeader->mine hypervisor</li>
+    <li>place_foeSoldiers->abyssal marines</li>
+  -->
+  <Boccocarro.placeRules.rulesStrings>
+    <li>place_name->بوكوكارو</li>
+    <li>place_adjective->بوكّيني</li>
+    <li>place_summary->عالم صَدَفي كَهفي</li>
+    <li>place_community->نفق سطحي</li>
+    <li>place_community->كهف فطر</li>
+    <li>place_community->بئر تقطير</li>
+    <li>place_powerCenter->قاعة خطابة</li>
+    <li>place_job->مُعدّن</li>
+    <li>place_job->مزارع فطر</li>
+    <li>place_job->نبّاش سطحي</li>
+    <li>place_job->طبّاخ مجتمعي</li>
+    <li>place_job->صياد ضفادع</li>
+    <li>place_personalWeapon->معول</li>
+    <li>place_personalWeapon->قوس ونشاب هيدروليكي</li>
+    <li>place_massWeapon->[seismicDevice]</li>
+    <li>place_massWeapon->قنبلة بارود أسود</li>
+    <li>place_foeLeader->مراقب منجم</li>
+    <li>place_foeSoldiers->مشاة بحرية سحيقة</li>
+ </Boccocarro.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Chelis</li>
+    <li>place_adjective->Chelisi</li>
+    <li>place_summary->arid world</li>
+    <li>place_community->moisture farm</li>
+    <li>place_community->parch-town</li>
+    <li>place_community->water center</li>
+    <li>place_powerCenter->high lifehall</li>
+    <li>place_job->water gatherer</li>
+    <li>place_job->lizardskinner</li>
+    <li>place_job->oasis seeker</li>
+    <li>place_job->cactus gatherer</li>
+    <li>place_job->scav-herder</li>
+    <li>place_personalWeapon->sand-arrow</li>
+    <li>place_personalWeapon->cactus-club</li>
+    <li>place_massWeapon->an archotech-induced sandstorm</li>
+    <li>place_massWeapon->a spikelizard stampede</li>
+    <li>place_foeLeader->chief</li>
+    <li>place_foeSoldiers->sand-warriors</li>
+  -->
+  <Chelis.placeRules.rulesStrings>
+    <li>place_name->تشيليس</li>
+    <li>place_adjective->تشيليسي</li>
+    <li>place_summary->عالم قاحل</li>
+    <li>place_community->مزرعة رطوبة</li>
+    <li>place_community->بلدة الجفاف</li>
+    <li>place_community->مركز مياه</li>
+    <li>place_powerCenter->قاعة الحياة العليا</li>
+    <li>place_job->جامع مياه</li>
+    <li>place_job->سالخ سحالي</li>
+    <li>place_job->باحث واحات</li>
+    <li>place_job->جامع صبار</li>
+    <li>place_job->راعي زبال</li>
+    <li>place_personalWeapon->سهم رملي</li>
+    <li>place_personalWeapon->هراوة صبار</li>
+    <li>place_massWeapon->عاصفة رملية محدثة بتقنية أركوتيك</li>
+    <li>place_massWeapon->تدافع سحالي شوكية</li>
+    <li>place_foeLeader->زعيم قبيلة</li>
+    <li>place_foeSoldiers->محاربون رمليون</li>
+ </Chelis.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Creticon</li>
+    <li>place_adjective->Creticonian</li>
+    <li>place_summary->blasted death-world</li>
+    <li>place_community->bunker</li>
+    <li>place_community->cavern</li>
+    <li>place_community->ice-shelter</li>
+    <li>place_powerCenter->director's bunker</li>
+    <li>place_job->water-recycler repairer</li>
+    <li>place_job->algae farmer</li>
+    <li>place_job->doctor</li>
+    <li>place_job->teacher</li>
+    <li>place_job->militia commander</li>
+    <li>place_job->shuttle pilot</li>
+    <li>place_personalWeapon->autopistol</li>
+    <li>place_personalWeapon->LMG</li>
+    <li>place_massWeapon->a shoulder-mounted nuclear missile</li>
+    <li>place_massWeapon->an orbital bombardment</li>
+    <li>place_massWeapon->chemical bombs</li>
+    <li>place_massWeapon->hacked mechanoids</li>
+    <li>place_foeLeader->warlord</li>
+    <li>place_foeSoldiers->mercenaries</li>
+  -->
+  <Creticon.placeRules.rulesStrings>
+    <li>place_name->كريتيكون</li>
+    <li>place_adjective->كريتيكوني</li>
+    <li>place_summary->عالم موت محروق</li>
+    <li>place_community->مخبأ</li>
+    <li>place_community->كهف</li>
+    <li>place_community->ملجأ جليدي</li>
+    <li>place_powerCenter->مخبأ المدير</li>
+    <li>place_job->مصلح معيد تدوير المياه</li>
+    <li>place_job->مزارع طحالب</li>
+    <li>place_job->طبيب</li>
+    <li>place_job->معلم</li>
+    <li>place_job->قائد ميليشيا</li>
+    <li>place_job->طيار مكوك</li>
+    <li>place_personalWeapon->مسدس آلي</li>
+    <li>place_personalWeapon->رشاش خفيف</li>
+    <li>place_massWeapon->صاروخ نووي كتفي</li>
+    <li>place_massWeapon->قصف مداري</li>
+    <li>place_massWeapon->قنابل كيميائية</li>
+    <li>place_massWeapon->ميكانويدات مخترقة</li>
+    <li>place_foeLeader->أمير حرب</li>
+    <li>place_foeSoldiers->مرتزقة</li>
+ </Creticon.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Filson</li>
+    <li>place_adjective->Filsoner</li>
+    <li>place_summary->rural farm-world</li>
+    <li>place_community->town hall</li>
+    <li>place_community->fertilizer processing plant</li>
+    <li>place_community->mega-granary</li>
+    <li>place_community->water-bore site</li>
+    <li>place_powerCenter->town hall</li>
+    <li>place_job->farm hand</li>
+    <li>place_job->fruit picker</li>
+    <li>place_job->transport driver</li>
+    <li>place_job->school teacher</li>
+    <li>place_job->soil engineer</li>
+    <li>place_personalWeapon->rifle</li>
+    <li>place_personalWeapon->scythe</li>
+    <li>place_massWeapon->fertilizer bombs</li>
+    <li>place_massWeapon->weaponized pesticide spray</li>
+    <li>place_massWeapon->space lens</li>
+    <li>place_foeLeader->landowner</li>
+    <li>place_foeSoldiers->militia</li>
+  -->
+  <Filson.placeRules.rulesStrings>
+    <li>place_name->فيلسون</li>
+    <li>place_adjective->فيلسونري</li>
+    <li>place_summary->عالم زراعي ريفي</li>
+    <li>place_community->قاعة بلدية</li>
+    <li>place_community->محطة معالجة سماد</li>
+    <li>place_community->صومعة عملاقة</li>
+    <li>place_community->موقع تنقيب عن المياه</li>
+    <li>place_powerCenter->قاعة بلدية</li>
+    <li>place_job->عامل مزرعة</li>
+    <li>place_job->قاطف فاكهة</li>
+    <li>place_job->سائق نقل</li>
+    <li>place_job->معلم مدرسة</li>
+    <li>place_job->مهندس تربة</li>
+    <li>place_personalWeapon->بندقية</li>
+    <li>place_personalWeapon->منجل</li>
+    <li>place_massWeapon->قنابل سماد</li>
+    <li>place_massWeapon->رذاذ مبيد حشري معسكر</li>
+    <li>place_massWeapon->عدسة فضائية</li>
+    <li>place_foeLeader->مالك أرض</li>
+    <li>place_foeSoldiers->ميليشيا</li>
+ </Filson.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Ilwaba</li>
+    <li>place_adjective->Ilwaban</li>
+    <li>place_summary->regrown ruin-world</li>
+    <li>place_community->skyscraper village</li>
+    <li>place_community->highway trade-post</li>
+    <li>place_community->blast-land oasis</li>
+    <li>place_powerCenter->house of regrowth</li>
+    <li>place_job->crete-farmer</li>
+    <li>place_job->path-maker</li>
+    <li>place_job->artifact hunter</li>
+    <li>place_job->tunnelwalker</li>
+    <li>place_job->artifact restorer</li>
+    <li>place_personalWeapon->scrap-sword</li>
+    <li>place_personalWeapon->jag-dagger</li>
+    <li>place_massWeapon->a dug-up nuke</li>
+    <li>place_massWeapon->an ancient poison bomb</li>
+    <li>place_foeLeader->crypto-leader</li>
+    <li>place_foeSoldiers->crypto-soldiers</li>
+  -->
+  <Ilwaba.placeRules.rulesStrings>
+    <li>place_name->إلوابا</li>
+    <li>place_adjective->إلواباني</li>
+    <li>place_summary->عالم أطلال منبت من جديد</li>
+    <li>place_community->قرية ناطحات سحاب</li>
+    <li>place_community->مركز تجاري على الطريق السريع</li>
+    <li>place_community->واحة أرض التفجير</li>
+    <li>place_powerCenter->دار إعادة الإنبات</li>
+    <li>place_job->مزارع خرساني</li>
+    <li>place_job->صانع طرق</li>
+    <li>place_job->صياد آثار</li>
+    <li>place_job->مشّاء الأنفاق</li>
+    <li>place_job->مرمم آثار</li>
+    <li>place_personalWeapon->سيف خردة</li>
+    <li>place_personalWeapon->خنجر مسنن</li>
+    <li>place_massWeapon->قنبلة نووية مستخرجة</li>
+    <li>place_massWeapon->قنبلة سم قديمة</li>
+    <li>place_foeLeader->قائد كريبتو</li>
+    <li>place_foeSoldiers->جنود كريبتو</li>
+ </Ilwaba.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Iwamura</li>
+    <li>place_adjective->Iwamurian</li>
+    <li>place_summary->stony asteroid</li>
+    <li>place_community->market capsule</li>
+    <li>place_community->warehouse capsule</li>
+    <li>place_community->docking pier</li>
+    <li>place_powerCenter->station bridge</li>
+    <li>place_job->life-support engineer</li>
+    <li>place_job->merchant</li>
+    <li>place_job->flight controller</li>
+    <li>place_job->zero-g athlete</li>
+    <li>place_job->radio host</li>
+    <li>place_personalWeapon->charge rifle</li>
+    <li>place_personalWeapon->welding torch</li>
+    <li>place_massWeapon->an aerosolized toxin</li>
+    <li>place_massWeapon->[anEMPAttack]</li>
+    <li>place_massWeapon->a life-support sabotage virus</li>
+    <li>place_foeLeader->mega-corp CEO</li>
+    <li>place_foeSoldiers->rent-a-cops</li>
+  -->
+  <Iwamura.placeRules.rulesStrings>
+    <li>place_name->إيوامورا</li>
+    <li>place_adjective->إيواموري</li>
+    <li>place_summary->كويكب صخري</li>
+    <li>place_community->كبسولة سوق</li>
+    <li>place_community->كبسولة مستودع</li>
+    <li>place_community->رصيف رسو</li>
+    <li>place_powerCenter->جسر المحطة</li>
+    <li>place_job->مهندس دعم حياة</li>
+    <li>place_job->تاجر</li>
+    <li>place_job->مراقب طيران</li>
+    <li>place_job->رياضي في انعدام الجاذبية</li>
+    <li>place_job->مضيف راديو</li>
+    <li>place_personalWeapon->بندقية شحن</li>
+    <li>place_personalWeapon->شعلة لحام</li>
+    <li>place_massWeapon->سم مرذاذ</li>
+    <li>place_massWeapon->[anEMPAttack]</li>
+    <li>place_massWeapon->فيروس تخريب دعم الحياة</li>
+    <li>place_foeLeader->رئيس شركة ضخمة</li>
+    <li>place_foeSoldiers->حراس مستأجرون</li>
+ </Iwamura.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Kemia</li>
+    <li>place_adjective->Kemian</li>
+    <li>place_summary->toxic war-world</li>
+    <li>place_community->slum</li>
+    <li>place_community->tunnel colony</li>
+    <li>place_community->undertown</li>
+    <li>place_powerCenter->city lordhouse</li>
+    <li>place_job->street sweeper</li>
+    <li>place_job->cleanup engineer</li>
+    <li>place_job->protein farmer</li>
+    <li>place_job->taxi driver</li>
+    <li>place_job->weapons builder</li>
+    <li>place_personalWeapon->gas bomb</li>
+    <li>place_personalWeapon->toxic flamethrower</li>
+    <li>place_massWeapon->nuclear dirty bombs</li>
+    <li>place_massWeapon->a bio-engineered plague</li>
+    <li>place_massWeapon->penetrating toxic bombs</li>
+    <li>place_foeLeader->poison lord</li>
+    <li>place_foeSoldiers->venom-soldiers</li>
+  -->
+  <Kemia.placeRules.rulesStrings>
+    <li>place_name->كيميا</li>
+    <li>place_adjective->كيمياني</li>
+    <li>place_summary->عالم حرب سام</li>
+    <li>place_community->عشوائيات</li>
+    <li>place_community->مستعمرة أنفاق</li>
+    <li>place_community->بلدة تحتية</li>
+    <li>place_powerCenter->دار سيد المدينة</li>
+    <li>place_job->كنّاس شوارع</li>
+    <li>place_job->مهندس تنظيف</li>
+    <li>place_job->مزارع بروتين</li>
+    <li>place_job->سائق تاكسي</li>
+    <li>place_job->صانع أسلحة</li>
+    <li>place_personalWeapon->قنبلة غاز</li>
+    <li>place_personalWeapon->قاذف لهب سام</li>
+    <li>place_massWeapon->قنابل قذرة نووية</li>
+    <li>place_massWeapon->طاعون هندس حيوياً</li>
+    <li>place_massWeapon->قنابل سامة مخترقة</li>
+    <li>place_foeLeader->سيد السم</li>
+    <li>place_foeSoldiers->جنود السم</li>
+ </Kemia.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Lutuni</li>
+    <li>place_adjective->Lutuni</li>
+    <li>place_summary->rainforest paradise</li>
+    <li>place_community->augmentation clinic</li>
+    <li>place_community->hyper-yacht</li>
+    <li>place_community->zero-g stadium</li>
+    <li>place_powerCenter->space elevator complex</li>
+    <li>place_job->tourist guide</li>
+    <li>place_job->zero-g performer</li>
+    <li>place_job->luciferium distributor</li>
+    <li>place_job->virtual celebrity</li>
+    <li>place_job->shuttle pilot</li>
+    <li>place_personalWeapon->vibro-knife</li>
+    <li>place_personalWeapon->charge pistol</li>
+    <li>place_massWeapon->a structural disintegration bacterium</li>
+    <li>place_massWeapon->a smuggled orbital bombardment targeter</li>
+    <li>place_foeLeader->entertainment mogul</li>
+    <li>place_foeSoldiers->enforcers</li>
+  -->
+  <Lutuni.placeRules.rulesStrings>
+    <li>place_name->لوتوني</li>
+    <li>place_adjective->لوتوني</li>
+    <li>place_summary->جنة غابات مطيرة</li>
+    <li>place_community->عيادة تعزيز</li>
+    <li>place_community->يخت فائق</li>
+    <li>place_community->ملعب في انعدام الجاذبية</li>
+    <li>place_powerCenter->مجمع مصعد فضائي</li>
+    <li>place_job->مرشد سياحي</li>
+    <li>place_job->مؤدٍّ في انعدام الجاذبية</li>
+    <li>place_job->موزع لوسيفريوم</li>
+    <li>place_job->شخصية افتراضية مشهورة</li>
+    <li>place_job->طيار مكوك</li>
+    <li>place_personalWeapon->سكين اهتزازي</li>
+    <li>place_personalWeapon->مسدس شحن</li>
+    <li>place_massWeapon->بكتيريا تفكك هيكلي</li>
+    <li>place_massWeapon->مُحدد قصف مداري مهرب</li>
+    <li>place_foeLeader->قطب ترفيه</li>
+    <li>place_foeSoldiers->منفذون</li>
+ </Lutuni.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Novaroma</li>
+    <li>place_adjective->Novaroman</li>
+    <li>place_summary->planetoid</li>
+    <li>place_community->ministry of permits</li>
+    <li>place_community->gated suburb</li>
+    <li>place_community->over-city</li>
+    <li>place_community->under-city</li>
+    <li>place_powerCenter->megacity overhall</li>
+    <li>place_job->clerk</li>
+    <li>place_job->official</li>
+    <li>place_job->food courier</li>
+    <li>place_job->taxi driver</li>
+    <li>place_job->retail worker</li>
+    <li>place_personalWeapon->revolver</li>
+    <li>place_personalWeapon->knife</li>
+    <li>place_massWeapon->[seismicDevice]</li>
+    <li>place_massWeapon->cluster bombs</li>
+    <li>place_massWeapon->a nuclear suitcase-bomb</li>
+    <li>place_foeLeader->high-underlord</li>
+    <li>place_foeSoldiers->undertroops</li>
+  -->
+  <Novaroma.placeRules.rulesStrings>
+    <li>place_name->نوفاروما</li>
+    <li>place_adjective->نوفاروماني</li>
+    <li>place_summary->كويكب كوكبي</li>
+    <li>place_community->وزارة التصاريح</li>
+    <li>place_community->ضاحية مسوّرة</li>
+    <li>place_community->مدينة عليا</li>
+    <li>place_community->مدينة سفلى</li>
+    <li>place_powerCenter->قاعة مدينة ضخمة</li>
+    <li>place_job->كاتب</li>
+    <li>place_job->مسؤول</li>
+    <li>place_job->ساعي طعام</li>
+    <li>place_job->سائق تاكسي</li>
+    <li>place_job->عامل تجزئة</li>
+    <li>place_personalWeapon->مسدس دوّار</li>
+    <li>place_personalWeapon->سكين</li>
+    <li>place_massWeapon->[seismicDevice]</li>
+    <li>place_massWeapon->قنابل عنقودية</li>
+    <li>place_massWeapon->قنبلة نووية بشكل حقيبة</li>
+    <li>place_foeLeader->السيد الأسفل الأعلى</li>
+    <li>place_foeSoldiers->جنود سفليون</li>
+ </Novaroma.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Nuchadus</li>
+    <li>place_adjective->Nuchadean</li>
+    <li>place_summary->dim volcano-world</li>
+    <li>place_community->basalt island</li>
+    <li>place_community->caldera laketown</li>
+    <li>place_community->dirigible village</li>
+    <li>place_powerCenter->thermal fortress</li>
+    <li>place_job->seismologist</li>
+    <li>place_job->lava-snail farmer</li>
+    <li>place_job->tank-tread repairer</li>
+    <li>place_job->airborne scout</li>
+    <li>place_personalWeapon->obsidian dagger</li>
+    <li>place_personalWeapon->harpoon rifle</li>
+    <li>place_massWeapon->an archotech-induced volcano eruption</li>
+    <li>place_massWeapon->a chem-warfare bomb</li>
+    <li>place_foeLeader->lava lord</li>
+    <li>place_foeSoldiers->stygian soldiers</li>
+  -->
+  <Nuchadus.placeRules.rulesStrings>
+    <li>place_name->نوكادوس</li>
+    <li>place_adjective->نوكادياني</li>
+    <li>place_summary->عالم براكين معتم</li>
+    <li>place_community->جزيرة بازلت</li>
+    <li>place_community->بلدة بحيرة كالديرا</li>
+    <li>place_community->قرية منطاد</li>
+    <li>place_powerCenter->حصن حراري</li>
+    <li>place_job->عالم زلازل</li>
+    <li>place_job->مزارع حلزون حمم</li>
+    <li>place_job->مصلح جنزير دبابة</li>
+    <li>place_job->كشاف جوي</li>
+    <li>place_personalWeapon->خنجر سبج</li>
+    <li>place_personalWeapon->بندقية حربة</li>
+    <li>place_massWeapon->ثوران بركاني محدث بتقنية أركوتيك</li>
+    <li>place_massWeapon->قنبلة حرب كيميائية</li>
+    <li>place_foeLeader->سيد الحمم</li>
+    <li>place_foeSoldiers->جنود ستيجيون</li>
+ </Nuchadus.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Oubanyen</li>
+    <li>place_adjective->Oubanyeni</li>
+    <li>place_summary->steamy jungle-world</li>
+    <li>place_community->tree-top village</li>
+    <li>place_community->shaman cave</li>
+    <li>place_community->hill-top ziggurat</li>
+    <li>place_powerCenter->city temple</li>
+    <li>place_job->shaman</li>
+    <li>place_job->hunter</li>
+    <li>place_job->fisher</li>
+    <li>place_job->gatherer</li>
+    <li>place_job->goat-herd</li>
+    <li>place_personalWeapon->pila</li>
+    <li>place_personalWeapon->ikwa</li>
+    <li>place_massWeapon->a lethal psychic drone</li>
+    <li>place_massWeapon->a neurotoxin bomb</li>
+    <li>place_foeLeader->tree-harvester</li>
+    <li>place_foeSoldiers->henchmen</li>
+  -->
+  <Oubanyen.placeRules.rulesStrings>
+    <li>place_name->أوبانيين</li>
+    <li>place_adjective->أوبانييني</li>
+    <li>place_summary->عالم أدغال مشبع بالبخار</li>
+    <li>place_community->قرية على قمم الأشجار</li>
+    <li>place_community->كهف شامان</li>
+    <li>place_community->زقورة على قمة تل</li>
+    <li>place_powerCenter->معبد مدينة</li>
+    <li>place_job->شامان</li>
+    <li>place_job->صياد</li>
+    <li>place_job->صياد سمك</li>
+    <li>place_job->جامع</li>
+    <li>place_job->راعي ماعز</li>
+    <li>place_personalWeapon->بيلة</li>
+    <li>place_personalWeapon->إيكوا</li>
+    <li>place_massWeapon->طائرة نفسية بدون طيار قاتلة</li>
+    <li>place_massWeapon->قنبلة سم عصبي</li>
+    <li>place_foeLeader->حصّاد أشجار</li>
+    <li>place_foeSoldiers->أتباع</li>
+ </Oubanyen.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Rhydell</li>
+    <li>place_adjective->Rhydellian</li>
+    <li>place_summary->savage forest moon</li>
+    <li>place_community->converted dropship</li>
+    <li>place_community->low-shielded encampment</li>
+    <li>place_community->communication center</li>
+    <li>place_powerCenter->armored habitat</li>
+    <li>place_job->frontier botanist</li>
+    <li>place_job->trophy hunter</li>
+    <li>place_job->medic</li>
+    <li>place_job->camp cook</li>
+    <li>place_job->biolab engineer</li>
+    <li>place_personalWeapon->sniper rifle</li>
+    <li>place_personalWeapon->machete</li>
+    <li>place_massWeapon->a plant-derived neurotoxin gas</li>
+    <li>place_massWeapon->an orbital laser strike</li>
+    <li>place_foeLeader->deepcorp executive</li>
+    <li>place_foeSoldiers->deepcorp enforcers</li>
+  -->
+  <Rhydell.placeRules.rulesStrings>
+    <li>place_name->رايديل</li>
+    <li>place_adjective->رايديلي</li>
+    <li>place_summary->قمر غابات متوحش</li>
+    <li>place_community->سفينة إنزال محوّلة</li>
+    <li>place_community->مخيم منخفض الدرع</li>
+    <li>place_community->مركز اتصالات</li>
+    <li>place_powerCenter->مسكن مدرع</li>
+    <li>place_job->عالم نبات حدودي</li>
+    <li>place_job->صائِد غنائم</li>
+    <li>place_job->مسعف</li>
+    <li>place_job->طباخ مخيم</li>
+    <li>place_job->مهندس مختبر حيوي</li>
+    <li>place_personalWeapon->بندقية قنص</li>
+    <li>place_personalWeapon->ساطور</li>
+    <li>place_massWeapon->غاز سموم عصبية مشتق من النباتات</li>
+    <li>place_massWeapon->ضربة ليزر مدارية</li>
+    <li>place_foeLeader->مدير تنفيذي لشركة ديبكورب</li>
+    <li>place_foeSoldiers->منفذو ديبكورب</li>
+ </Rhydell.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Rogia</li>
+    <li>place_adjective->Rogian</li>
+    <li>place_summary->glitter-tech world</li>
+    <li>place_community->medical institute</li>
+    <li>place_community->space elevator</li>
+    <li>place_community->robotics factory</li>
+    <li>place_powerCenter->planetary capitol</li>
+    <li>place_job->starforce cadet</li>
+    <li>place_job->artisan farmer</li>
+    <li>place_job->social-media prodigy</li>
+    <li>place_job->zero-g athlete</li>
+    <li>place_job->glitter-tech smuggler</li>
+    <li>place_personalWeapon->charge lance</li>
+    <li>place_personalWeapon->persona monosword</li>
+    <li>place_massWeapon->antimatter warheads</li>
+    <li>place_massWeapon->a weaponized computer virus</li>
+    <li>place_massWeapon->remote-controlled mechanoid workers</li>
+    <li>place_foeLeader->corrupt bureaucrat</li>
+    <li>place_foeSoldiers->bionic guards</li>
+  -->
+  <Rogia.placeRules.rulesStrings>
+    <li>place_name->روجيا</li>
+    <li>place_adjective->روجياني</li>
+    <li>place_summary->عالم تكنولوجيا متألقة</li>
+    <li>place_community->معهد طبي</li>
+    <li>place_community->مصعد فضائي</li>
+    <li>place_community->مصنع روبوتات</li>
+    <li>place_powerCenter->كابيتول كوكبي</li>
+    <li>place_job->طالب في قوة النجوم</li>
+    <li>place_job->مزارع حرفي</li>
+    <li>place_job->معجزة وسائط اجتماعية</li>
+    <li>place_job->رياضي في انعدام الجاذبية</li>
+    <li>place_job->مهرب تكنولوجيا متألقة</li>
+    <li>place_personalWeapon->رمح شحن</li>
+    <li>place_personalWeapon->سيف أحادي شخصي</li>
+    <li>place_massWeapon->رؤوس حربية مضادة للمادة</li>
+    <li>place_massWeapon->فيروس حاسوب معسكر</li>
+    <li>place_massWeapon->عمال ميكانويد يتحكم بهم عن بعد</li>
+    <li>place_foeLeader->بيروقراطي فاسد</li>
+    <li>place_foeSoldiers->حراس بيولوجيون</li>
+ </Rogia.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Wavia</li>
+    <li>place_adjective->Wavian</li>
+    <li>place_summary->oceanic planet</li>
+    <li>place_community->trading atoll</li>
+    <li>place_community->floating village</li>
+    <li>place_community->seaweed refinery</li>
+    <li>place_powerCenter->capitol bridge</li>
+    <li>place_job->fisher</li>
+    <li>place_job->pearl diver</li>
+    <li>place_job->sail maker</li>
+    <li>place_job->captain</li>
+    <li>place_job->sea-grass gatherer</li>
+    <li>place_personalWeapon->harpoon</li>
+    <li>place_personalWeapon->barbed net</li>
+    <li>place_massWeapon->a high-yield torpedo</li>
+    <li>place_massWeapon->a baited [seaBeast]</li>
+    <li>place_foeLeader->whaler admiral</li>
+    <li>place_foeSoldiers->whaler-marines</li>
+    <li>seaBeast->deep-kraken</li>
+    <li>seaBeast->Wavian leviathan</li>
+  -->
+  <Wavia.placeRules.rulesStrings>
+    <li>place_name->وافيا</li>
+    <li>place_adjective->وافياني</li>
+    <li>place_summary->كوكب محيطي</li>
+    <li>place_community->شعب تجاري</li>
+    <li>place_community->قرية عائمة</li>
+    <li>place_community->مصفاة أعشاب بحرية</li>
+    <li>place_powerCenter->جسر الكابيتول</li>
+    <li>place_job->صياد سمك</li>
+    <li>place_job->غواص لؤلؤ</li>
+    <li>place_job->صانع أشرعة</li>
+    <li>place_job->قبطان</li>
+    <li>place_job->جامع أعشاب بحرية</li>
+    <li>place_personalWeapon->حربة</li>
+    <li>place_personalWeapon->شبكة شائكة</li>
+    <li>place_massWeapon->طوربيد عالي الإنتاجية</li>
+    <li>place_massWeapon->[seaBeast] مُطعم</li>
+    <li>place_foeLeader->أدميرال صائد حيتان</li>
+    <li>place_foeSoldiers->مشاة صيد حيتان</li>
+    <li>seaBeast->كراكن عميق</li>
+    <li>seaBeast->لوياثان وافياني</li>
+ </Wavia.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Xanides</li>
+    <li>place_adjective->Xanidian</li>
+    <li>place_summary->exploited mineral-planet</li>
+    <li>place_community->strip mine</li>
+    <li>place_community->ore refinery</li>
+    <li>place_community->nutrient paste cafeteria</li>
+    <li>place_powerCenter->oxygen depot</li>
+    <li>place_job->miner</li>
+    <li>place_job->supervisor</li>
+    <li>place_job->technician</li>
+    <li>place_job->mechanic</li>
+    <li>place_job->life support engineer</li>
+    <li>place_personalWeapon->electro-baton</li>
+    <li>place_personalWeapon->autopistol</li>
+    <li>place_massWeapon->blasting charges</li>
+    <li>place_massWeapon->[anEMPAttack]</li>
+    <li>place_foeLeader->mine-corp boss</li>
+    <li>place_foeSoldiers->mine-corp troops</li>
+  -->
+  <Xanides.placeRules.rulesStrings>
+    <li>place_name->زانيديس</li>
+    <li>place_adjective->زانيدي</li>
+    <li>place_summary->كوكب معدني مستغَل</li>
+    <li>place_community->منجم مكشوف</li>
+    <li>place_community->مصفاة خام</li>
+    <li>place_community->كافتيريا عجينة مغذية</li>
+    <li>place_powerCenter->مستودع أكسجين</li>
+    <li>place_job->مُعدّن</li>
+    <li>place_job->مشرِف</li>
+    <li>place_job->فني</li>
+    <li>place_job->ميكانيكي</li>
+    <li>place_job->مهندس دعم حياة</li>
+    <li>place_personalWeapon->هراوة كهربائية</li>
+    <li>place_personalWeapon->مسدس آلي</li>
+    <li>place_massWeapon->شحنات نسف</li>
+    <li>place_massWeapon->[anEMPAttack]</li>
+    <li>place_foeLeader->مدير شركة منجم</li>
+    <li>place_foeSoldiers->جنود شركة منجم</li>
+ </Xanides.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Yttak</li>
+    <li>place_adjective->Yttaki</li>
+    <li>place_summary->ice-moon prison</li>
+    <li>place_community->meal hall</li>
+    <li>place_community->guard barracks</li>
+    <li>place_community->detention center</li>
+    <li>place_powerCenter->warden's office complex</li>
+    <li>place_job->detainee</li>
+    <li>place_job->guard</li>
+    <li>place_job->escapee</li>
+    <li>place_job->maintenance worker</li>
+    <li>place_job->transport driver</li>
+    <li>place_personalWeapon->shiv</li>
+    <li>place_personalWeapon->SMG</li>
+    <li>place_massWeapon->an improvised chemical bomb</li>
+    <li>place_massWeapon->an orbital laser strike</li>
+    <li>place_foeLeader->prison warden</li>
+    <li>place_foeSoldiers->corrupt guards</li>
+  -->
+  <Yttak.placeRules.rulesStrings>
+    <li>place_name->إيتاك</li>
+    <li>place_adjective->إيتاكي</li>
+    <li>place_summary->سجن قمر جليدي</li>
+    <li>place_community->قاعة طعام</li>
+    <li>place_community->ثكنة حراس</li>
+    <li>place_community->مركز احتجاز</li>
+    <li>place_powerCenter->مجمع مكتب المأمور</li>
+    <li>place_job->محتجز</li>
+    <li>place_job->حارس</li>
+    <li>place_job->هارب</li>
+    <li>place_job->عامل صيانة</li>
+    <li>place_job->سائق نقل</li>
+    <li>place_personalWeapon->سكين بدائي</li>
+    <li>place_personalWeapon->رشاش صغير</li>
+    <li>place_massWeapon->قنبلة كيميائية مرتجلة</li>
+    <li>place_massWeapon->ضربة ليزر مدارية</li>
+    <li>place_foeLeader->مأمور سجن</li>
+    <li>place_foeSoldiers->حراس فاسدون</li>
+ </Yttak.placeRules.rulesStrings>
+  
+  <!-- EN:
+    <li>place_name->Zoutera</li>
+    <li>place_adjective->Zoutin</li>
+    <li>place_summary->grassy dino-world</li>
+    <li>place_community->trading outpost</li>
+    <li>place_community->tent village</li>
+    <li>place_community->mammoth burial ground</li>
+    <li>place_powerCenter->hill-top fort</li>
+    <li>place_job->dino-rider</li>
+    <li>place_job->muffalo-herder</li>
+    <li>place_job->hunter</li>
+    <li>place_job->toughleather maker</li>
+    <li>place_personalWeapon->bamboo staff</li>
+    <li>place_personalWeapon->hunt-bomb arrows</li>
+    <li>place_massWeapon->a stampeding herd of [megaFauna]</li>
+    <li>place_massWeapon->a fertilizer bomb</li>
+    <li>place_foeLeader->tusk-king</li>
+    <li>place_foeSoldiers->tusk-warriors</li>
+    <li>megaFauna->ankylosaurs</li>
+    <li>megaFauna->blue mammoths</li>
+    <li>megaFauna->novoraptors</li>
+  -->
+  <Zoutera.placeRules.rulesStrings>
+    <li>place_name->زوترا</li>
+    <li>place_adjective->زوتيني</li>
+    <li>place_summary->عالم ديناصورات عشبي</li>
+    <li>place_community->موقع تجاري</li>
+    <li>place_community->قرية خيام</li>
+    <li>place_community->مقبرة ماموث</li>
+    <li>place_powerCenter->حصن على قمة تل</li>
+    <li>place_job->راكب ديناصورات</li>
+    <li>place_job->راعي موفالو</li>
+    <li>place_job->صياد</li>
+    <li>place_job->صانع جلد صلب</li>
+    <li>place_personalWeapon->عصا خيزران</li>
+    <li>place_personalWeapon->أسهم صيد متفجرة</li>
+    <li>place_massWeapon->قطيع متدافع من [megaFauna]</li>
+    <li>place_massWeapon->قنبلة سماد</li>
+    <li>place_foeLeader->ملك الناب</li>
+    <li>place_foeSoldiers->محاربون بالناب</li>
+    <li>megaFauna->أنكيلوصورات</li>
+    <li>megaFauna->ماموث أزرق</li>
+    <li>megaFauna->نوفورابتورات</li>
+ </Zoutera.placeRules.rulesStrings>
+  
+</LanguageData>

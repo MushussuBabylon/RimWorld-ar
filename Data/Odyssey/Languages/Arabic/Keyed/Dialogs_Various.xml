@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine/substructrues -->
+  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. Build a grav anchor to prevent this map from being destroyed. -->
+  <ConfirmGravEngineLaunch>هل أنت متأكد من أنك تريد الإطلاق؟\n\nستفقد خريطتك الحالية بشكل دائم، بالإضافة إلى أي شيء ليس على البنية التحتية لسفينة الجاذبية. عملية الإطلاق تدميرية، مما يعني أنك لن تتمكن من العودة. ابنِ مرساة جاذبية لمنع تدمير هذه الخريطة.</ConfirmGravEngineLaunch>
+  <!-- EN: Warning -->
+  <GravEngineWarning>تحذير</GravEngineWarning>
+  <!-- EN: The following people will be left behind -->
+  <PeopleWillBeLeftBehind>الأشخاص التاليون سيُتركون وراءك</PeopleWillBeLeftBehind>
+  <!-- EN: The following will be left behind -->
+  <AnimalsWillBeLeftBehind>الحيوانات التالية ستُترك وراءك</AnimalsWillBeLeftBehind>
+  <!-- EN: The following people and animals from another faction will be taken with you. This will upset their faction, potentially turning them hostile -->
+  <PawnsKidnappedOnGravship>سيتم أخذ الأشخاص والحيوانات التالية التابعة لجماعة أخرى معك. سيؤدي هذا إلى إغضاب جماعتهم، مما قد يجعلهم أعداءً لك</PawnsKidnappedOnGravship>
+  <!-- EN: The following buildings are not fully on the gravship and will be left behind -->
+  <BuildingsWillBeLeftBehind>المباني التالية ليست بالكامل على سفينة الجاذبية وسيتم تركها وراءك</BuildingsWillBeLeftBehind>
+  <!-- EN: Some substructure has invalid placement and will be left behind -->
+  <SubstructureWillBeLeftBehind>بعض أجزاء البنية التحتية وضعت بشكل غير صحيح وسيتم تركها وراءك</SubstructureWillBeLeftBehind>
+  <!-- EN: Disconnected from grav engine -->
+  <DisconnectedSubstructure>منفصل عن محرك الجاذبية</DisconnectedSubstructure>
+  <!-- EN: Under rock roof -->
+  <SubstructureUnderRockRoof>تحت سقف صخري</SubstructureUnderRockRoof>
+  <!-- EN: Out of range -->
+  <SubstructureOutsideFootprint>خارج النطاق</SubstructureOutsideFootprint>
+
+  <!-- EN: {0} has high hopes for your new gravship and wants to christen it with a good name. What should your gravship be called? -->
+  <NamePlayerGravshipMessage>يمتلك {0} آمالاً كبيراً لسفينة الجاذبية الجديدة الخاصة بك ويريد تسميتها باسم جيد. ماذا يجب أن يكون اسم سفينة الجاذبية الخاصة بك؟</NamePlayerGravshipMessage>
+  <!-- EN: The gravship is now known as {0}. -->
+  <PlayerGravshipGainsName>أصبحت سفينة الجاذبية تُعرف الآن باسم {0}.</PlayerGravshipGainsName>
+  <!-- EN: That name isn't valid. -->
+  <PlayerGravshipNameIsInvalid>هذا الاسم غير صالح.</PlayerGravshipNameIsInvalid>
+
+  <!-- EN: Force visitors to leave -->
+  <GravshipForceVisitorsToLeaveLabel>إجبار الزوار على المغادرة</GravshipForceVisitorsToLeaveLabel>
+  <!-- EN: Wait for all visitors to leave the gravship before launching. This won’t affect enemies, prisoners, or downed visitors. -->
+  <GravshipForceVisitorsToLeaveTooltip>انتظر حتى يغادر جميع الزوار سفينة الجاذبية قبل الإطلاق. لن يؤثر هذا على الأعداء أو السجناء أو الزوار العاجزين عن الحركة.</GravshipForceVisitorsToLeaveTooltip>
+  <!-- EN: Board colony animals -->
+  <GravshipBoardColonyAnimalsLabel>إركاب حيوانات المستوطنة</GravshipBoardColonyAnimalsLabel>
+  <!-- EN: Order all colony animals to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyAnimalsTooltip>أمر جميع حيوانات المستوطنة بصعود سفينة الجاذبية. لن تنطلق السفينة حتى يصعدوا متنها.</GravshipBoardColonyAnimalsTooltip>
+  <!-- EN: Board colony mechanoids -->
+  <GravshipBoardColonyMechsLabel>إركاب ميكانويدات المستوطنة</GravshipBoardColonyMechsLabel>
+  <!-- EN: Order all colony mechanoids to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyMechsTooltip>أمر جميع ميكانويدات المستوطنة بصعود سفينة الجاذبية. لن تنطلق السفينة حتى تصعد متنها.</GravshipBoardColonyMechsTooltip>
+
+  <!-- EN: {0} are hostile. If you land here they will attack you. -->
+  <ConfirmLandOnHostileFactionBase>جماعة {0} عدائية. إذا هبطت هنا فسوف يهاجمونك.</ConfirmLandOnHostileFactionBase>
+  <!-- EN: Landing here will be seen as an aggressive act by {0}. They will become hostile and attack. -->
+  <ConfirmLandOnNeutralFactionBase>سيُنظر إلى الهبوط هنا على أنه عمل عدواني من قِبل {0}. سيصبحون أعداءً لك ويهاجمونك.</ConfirmLandOnNeutralFactionBase>
+
+  <!-- EN: Land here anyway? -->
+  <ConfirmLand>الهبوط هنا على أي حال؟</ConfirmLand>
+
+  <!-- EN: Orbital locations are dangerous. Make sure you're prepared:\n - Equip your colonists with vacsuits or other advanced armors.\n - Plan your return trip. Living in orbit for extended periods is extremely challenging. -->
+  <OrbitalWarning>المواقع المدارية خطيرة. تأكد من استعدادك:\n - جهز مستوطنيك ببدلات الفراغ أو الدروع المتقدمة الأخرى.\n - خطط لرحلة العودة. العيش في المدار لفترات طويلة يمثل تحدياً كبيراً للغاية.</OrbitalWarning>
+  <!-- EN: Prepare your gravship for orbit:\n- Use airtight walls and doors.\n- Ensure rooms are well heated and fully roofed.\n- Construct oxygen pumps. -->
+  <OrbitalWarning_Gravship>جهز سفينة الجاذبية الخاصة بك للمدار:\n- استخدم جدراناً وأبواباً محكمة الإغلاق.\n- تأكد من تدفئة الغرف جيداً وتسقيفها بالكامل.\n- ابنِ مضخات الأكسجين.</OrbitalWarning_Gravship>
+  <!-- EN: Warning -->
+  <OrbitalWarning_Warning>تحذير</OrbitalWarning_Warning>
+  <!-- EN: Some exterior walls or doors are not airtight. -->
+  <OrbitalWarning_Vacuum>بعض الجدران أو الأبواب الخارجية ليست محكمة الإغلاق.</OrbitalWarning_Vacuum>
+  <!-- EN: No functional heat sources. -->
+  <OrbitalWarning_NoHeatSources>لا توجد مصادر تدفئة صالحة للعمل.</OrbitalWarning_NoHeatSources>
+  <!-- EN: Few functional heat sources -->
+  <OrbitalWarning_FewHeatSources>مصادر التدفئة الصالحة للعمل قليلة</OrbitalWarning_FewHeatSources>
+  <!-- EN: No functional oxygen pumps. -->
+  <OrbitalWarning_NoOxygenPumps>لا توجد مضخات أكسجين صالحة للعمل.</OrbitalWarning_NoOxygenPumps>
+  <!-- EN: Few functional oxygen pumps -->
+  <OrbitalWarning_FewOxygenPumps>مضخات الأكسجين الصالحة للعمل قليلة</OrbitalWarning_FewOxygenPumps>
+
+  <!-- EN: The shuttle does not have enough fuel to return from this destination. It may be stranded.\n\nYou currently have {0} fuel but need {1} fuel for a return flight.\n\nAre you sure you want to continue? -->
+  <ConfirmShuttleNotEnoughFuelToReturn>لا يملك المكوك وقوداً كافياً للعودة من هذه الوجهة. قد ينتهي به المطاف عالقاً.\n\nلديك حالياً {0} من الوقود ولكنك تحتاج إلى {1} من الوقود لرحلة العودة.\n\nهل أنت متأكد من أنك تريد الاستمرار؟</ConfirmShuttleNotEnoughFuelToReturn>
+  <!-- EN: Caravan is immobile due to shuttle -->
+  <CaravanMovementSpeedShuttle>القافلة عاجزة عن الحركة بسبب المكوك</CaravanMovementSpeedShuttle>
+  <!-- EN: Refuel {0}x chemfuel -->
+  <RefuelShuttleCount>التزود بـ x{0} وقود كيميائي</RefuelShuttleCount>
+  <!-- EN: Zoom range (gravship) {0} -->
+  <ZoomRangeGravshipCutscene>نطاق التقريب (سفينة الجاذبية) {0}</ZoomRangeGravshipCutscene>
+
+</LanguageData>

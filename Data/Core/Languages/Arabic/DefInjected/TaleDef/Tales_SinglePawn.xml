@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: raw humanlike meat eaten -->
+  <AteRawHumanlikeMeat.label>أكل لحم بشري نيء</AteRawHumanlikeMeat.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s eating of human meat</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] the meat of a fellow humanoid [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] meat from a humanlike arm [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] flesh of a humanoid [circumstance_group]</li>
+    <li>eat_gerund->eating</li>
+    <li>eat_gerund->ingesting</li>
+    <li>eat_gerund->chewing</li>
+    <li>eat_gerund->chowing down on</li>
+    <li>eat_gerund->consuming</li>
+    <li>eat_gerund->swallowing</li>
+    <li>eat_gerund->cannibalizing</li>
+    <li>circumstance_phrase->with a sense of purpose</li>
+    <li>circumstance_phrase->with no hint of shame</li>
+    <li>circumstance_phrase->with a look of shame</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->with gusto</li>
+    <li>circumstance_phrase->frantically, like [PAWN_possessive] life depended on it</li>
+    <li>desc_sentence->[PAWN_nameDef]'s face is covered with blood and fluid.</li>
+    <li>desc_sentence->[PAWN_nameDef] is licking [PAWN_possessive] fingers.</li>
+    <li>desc_sentence->[PAWN_nameDef] has blood and gore bits all down [PAWN_possessive] front.</li>
+    <li>desc_sentence->[PAWN_nameDef] is in the middle of a large pool of blood.</li>
+    <li>desc_sentence->[PAWN_nameDef] is eyeing someone else nearby with dark interest.</li>
+    <li>desc_sentence->The meat is glistening and appears very succulent.</li>
+    <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li>
+  -->
+  <AteRawHumanlikeMeat.rulePack.rulesStrings>
+    <li>tale_noun->أكل [PAWN_nameDef] للحم البشري</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] لحم كائن بشري زميل [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] لحما من ذراع بشري [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] لحم كائن بشري [circumstance_group]</li>
+    <li>eat_gerund->يأكل</li>
+    <li>eat_gerund->يبتلع</li>
+    <li>eat_gerund->يمضغ</li>
+    <li>eat_gerund->يلتهم</li>
+    <li>eat_gerund->يستهلك</li>
+    <li>eat_gerund->يبلع</li>
+    <li>eat_gerund->يأكل لحم بشري</li>
+    <li>circumstance_phrase->بإحساس بالهدف</li>
+    <li>circumstance_phrase->بدون أي أثر للخجل</li>
+    <li>circumstance_phrase->بنظرة خزي</li>
+    <li>circumstance_phrase->بينما يراقب الآخرون</li>
+    <li>circumstance_phrase->بحماس</li>
+    <li>circumstance_phrase->بشدة، وكأن حياة [PAWN_possessive] تعتمد على ذلك</li>
+    <li>desc_sentence->وجه [PAWN_nameDef] مغطى بالدم والسوائل.</li>
+    <li>desc_sentence->[PAWN_nameDef] يلعق أصابع [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] توجد قطع من الدم والأحشاء على مقدمة [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] في وسط بركة كبيرة من الدم.</li>
+    <li>desc_sentence->[PAWN_nameDef] ينظر إلى شخص آخر قريب باهتمام مظلم.</li>
+    <li>desc_sentence->اللحم يلمع ويبدو شهيا جدا.</li>
+    <li>desc_sentence->اللحم ينسكب على كامل جسد [PAWN_nameDef].</li>
+ </AteRawHumanlikeMeat.rulePack.rulesStrings>
+  
+  <!-- EN: humanlike corpse butchered -->
+  <ButcheredHumanlikeCorpse.label>ذبح جثة بشرية</ButcheredHumanlikeCorpse.label>
+  
+  <!-- EN: art crafted -->
+  <CraftedArt.label>فن مصنوع</CraftedArt.label>
+  <!-- EN:
+    <li>tale_noun->the time [PAWN_nameDef] crafted [THING_indefinite]</li>
+    <li>image->[PAWN_nameFull] crafting [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] completing [PAWN_possessive] work on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] working on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] making [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>circumstance_phrase->with total concentration</li>
+    <li>circumstance_phrase->with a look of satisfaction on [PAWN_possessive] face</li>
+    <li>circumstance_phrase->at [PAWN_possessive] work bench</li>
+    <li>circumstance_phrase->with great intensity</li>
+    <li>desc_sentence->There are tools scattered all around.</li>
+    <li>desc_sentence->[PAWN_pronoun] is scratched and scarred from work injuries.</li>
+    <li>desc_sentence->[PAWN_pronoun] is covered in sweat.</li>
+    <li>desc_sentence->The work area is highly organized, with every tool in its proper place.</li>
+    <li>desc_sentence->[PAWN_pronoun] is rendered in an exaggerated way to appear more powerful.</li>
+    <li>desc_sentence->The size of [THING_definite] is exaggerated to emphasize its importance.</li>
+    <li>desc_sentence->[THING_definite] has an artistic glow added to it. It seems almost angelic.</li>
+    <li>desc_sentence->[PAWN_nameDef] is faded into the background to emphasize [PAWN_possessive] new creation.</li>
+    <li>desc_sentence->[Quantity_adjphrase] onlookers surround [PAWN_objective].</li>
+    <li>desc_sentence->A crowd cheers from the background.</li>
+    <li>quality_sentence->[THING_definite] looks to be of [THING_quality] quality</li>
+    <li>quality_sentence->[THING_definite] is of [THING_quality] quality</li>
+    <li>quality_sentence->[PAWN_nameDef]'s work is of [THING_quality] quality</li>
+    <li>title_sentence->[PAWN_nameDef]'s title for [THING_definite] is written underneath: [THING_title]</li>
+    <li>title_sentence->[THING_definite] is emblazoned with its title: [THING_title]</li>
+    <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
+  -->
+  <CraftedArt.rulePack.rulesStrings>
+    <li>tale_noun->الوقت الذي صنع فيه [PAWN_nameDef] [THING_indefinite]</li>
+    <li>image->[PAWN_nameFull] يصنع [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] يكمل عمل [PAWN_possessive] على [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] يعمل على [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] يصنع [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>circumstance_phrase->بتركيز كامل</li>
+    <li>circumstance_phrase->بنظرة رضا على وجه [PAWN_possessive]</li>
+    <li>circumstance_phrase->على منضدة عمل [PAWN_possessive]</li>
+    <li>circumstance_phrase->بشدة كبيرة</li>
+    <li>desc_sentence->هناك أدوات متناثرة في كل مكان.</li>
+    <li>desc_sentence->[PAWN_pronoun] مخدوش ومجروح من إصابات العمل.</li>
+    <li>desc_sentence->[PAWN_pronoun] مغطى بالعرق.</li>
+    <li>desc_sentence->منطقة العمل منظمة للغاية، كل أداة في مكانها الصحيح.</li>
+    <li>desc_sentence->[PAWN_pronoun] يصور بطريقة مبالغ فيها ليبدو أكثر قوة.</li>
+    <li>desc_sentence->حجم [THING_definite] مبالغ فيه لتأكيد أهميته.</li>
+    <li>desc_sentence->[THING_definite] يضاف إليه توهج فني. يبدو شبه ملائكي.</li>
+    <li>desc_sentence->يتم إخفاء [PAWN_nameDef] في الخلفية لتأكيد خلق [PAWN_possessive] الجديد.</li>
+    <li>desc_sentence->[Quantity_adjphrase] من المتفرجين يحيطون بـ[PAWN_objective].</li>
+    <li>desc_sentence->حشد يهتف من الخلفية.</li>
+    <li>quality_sentence->يبدو [THING_definite] بجودة [THING_quality]</li>
+    <li>quality_sentence->[THING_definite] من جودة [THING_quality]</li>
+    <li>quality_sentence->عمل [PAWN_nameDef] من جودة [THING_quality]</li>
+    <li>title_sentence->عنوان [PAWN_nameDef] لـ[THING_definite] مكتوب في الأسفل: [THING_title]</li>
+    <li>title_sentence->[THING_definite] مزين بعنوانه: [THING_title]</li>
+    <li>title_sentence->عنوان [THING_definite]، [THING_title]، معلق في الخلفية</li>
+ </CraftedArt.rulePack.rulesStrings>
+  
+  <!-- EN: drunk -->
+  <Drunk.label>ثمل</Drunk.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s extreme drunkenness</li>
+    <li>tale_noun->[PAWN_nameDef] getting extremely drunk</li>
+    <li>image->[PAWN_nameFull] staggering around drunk [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tilting [PAWN_possessive] head back and guzzling liquor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] greedily collecting bottles of liquor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] drinking heavily [circumstance_group]</li>
+    <li>circumstance_phrase->oblivious to [PAWN_possessive] surroundings</li>
+    <li>circumstance_phrase->in a brooding stupor</li>
+    <li>circumstance_phrase->while questioning [PAWN_possessive] own existence</li>
+    <li>circumstance_phrase->with tears in [PAWN_possessive] eyes</li>
+    <li>circumstance_phrase->while chuckling madly</li>
+    <li>circumstance_phrase->while sobbing</li>
+    <li>circumstance_phrase->while looking pathetic</li>
+    <li>circumstance_phrase->while glaring angrily at people around [PAWN_objective]</li>
+    <li>circumstance_phrase->while leering at someone nearby</li>
+    <li>circumstance_phrase->while attempting to disrobe</li>
+    <li>circumstance_phrase->with a finger in [PAWN_possessive] mouth</li>
+    <li>circumstance_phrase->while holding back vomit</li>
+    <li>circumstance_phrase->without a care in the world</li>
+    <li>circumstance_phrase->with a lustful glint in [PAWN_possessive] eye</li>
+    <li>circumstance_phrase->while reviewing the ghosts of [PAWN_possessive] past</li>
+    <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_possessive] face itself seems to be swelling.</li>
+    <li>desc_sentence->[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+    <li>desc_sentence->[PAWN_pronoun] looks happy and sad at the same time.</li>
+    <li>desc_sentence->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
+    <li>desc_sentence->There is a trail of discarded beverage containers behind [PAWN_objective].</li>
+    <li>desc_sentence->There is a white substance on [PAWN_possessive] pants.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
+    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
+  -->
+  <Drunk.rulePack.rulesStrings>
+    <li>tale_noun->سكر [PAWN_nameDef] الشديد</li>
+    <li>tale_noun->[PAWN_nameDef] يثمل بشدة</li>
+    <li>image->[PAWN_nameFull] يترنح سكرا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يميل رأس [PAWN_possessive] للخلف ويتجرع الخمر [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يجمع زجاجات الخمر بجشع [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يشرب بكثرة [circumstance_group]</li>
+    <li>circumstance_phrase->غافل عن محيط [PAWN_possessive]</li>
+    <li>circumstance_phrase->في ذهول متجهم</li>
+    <li>circumstance_phrase->بينما يتساءل عن وجود [PAWN_possessive]</li>
+    <li>circumstance_phrase->والدموع في عين [PAWN_possessive]</li>
+    <li>circumstance_phrase->بينما يقهقه بجنون</li>
+    <li>circumstance_phrase->بينما ينتحب</li>
+    <li>circumstance_phrase->بينما يبدو مثيرا للشفقة</li>
+    <li>circumstance_phrase->بينما يحدق بغضب في الناس حول [PAWN_objective]</li>
+    <li>circumstance_phrase->بينما ينظر بشهوة إلى شخص قريب</li>
+    <li>circumstance_phrase->بينما يحاول خلع ملابسه</li>
+    <li>circumstance_phrase->بإصبع في فم [PAWN_possessive]</li>
+    <li>circumstance_phrase->بينما يمنع تقيأه</li>
+    <li>circumstance_phrase->بدون أي هم في العالم</li>
+    <li>circumstance_phrase->ببريق شهواني في عين [PAWN_possessive]</li>
+    <li>circumstance_phrase->بينما يسترجع أشباح ماضي [PAWN_possessive]</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] غير مدرك تماما لما حول [PAWN_objective].</li>
+    <li>desc_sentence->وجه [PAWN_possessive] نفسه يبدو متورما.</li>
+    <li>desc_sentence->[PAWN_pronoun] شبه فاقد للوعي، لسان [PAWN_possessive] يتدلى، يسيل لعابه.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] سعيدا وحزينا في نفس الوقت.</li>
+    <li>desc_sentence->توجد بقع على مقدمة [PAWN_possessive].</li>
+    <li>desc_sentence->هناك أثر لحاويات مشروبات ملقاة خلف [PAWN_objective].</li>
+    <li>desc_sentence->هناك مادة بيضاء على سروال [PAWN_possessive].</li>
+    <li>desc_sentence->يبدو أن [PAWN_pronoun] فقد حذاءه.</li>
+    <li>desc_sentence->شعر [PAWN_possessive] منفوش تماما.</li>
+ </Drunk.rulePack.rulesStrings>
+  
+  <!-- EN: research project finished -->
+  <FinishedResearchProject.label>أنهى مشروع بحثي</FinishedResearchProject.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
+    <li>image->[PAWN_nameFull] working on the [PROJECT_label] research project [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] studying the secrets of [PROJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] researching [PROJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with great intensity</li>
+    <li>circumstance_phrase->alone at [PAWN_possessive] bench</li>
+    <li>circumstance_phrase->while holding papers in [PAWN_possessive] hand</li>
+    <li>circumstance_phrase->with a look of gleeful fascination</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweating.</li>
+    <li>desc_sentence->The work appears to be exceptionally complex.</li>
+    <li>desc_sentence->[PAWN_nameDef] is completely surrounded by an array of tools and apparatuses.</li>
+    <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
+  -->
+  <FinishedResearchProject.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] ينهي البحث عن [PROJECT_label]</li>
+    <li>image->[PAWN_nameFull] يعمل على مشروع بحث [PROJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يدرس أسرار [PROJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يبحث في [PROJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->بشدة كبيرة</li>
+    <li>circumstance_phrase->وحيدا على منضدة [PAWN_possessive]</li>
+    <li>circumstance_phrase->ممسكا بأوراق في يد [PAWN_possessive]</li>
+    <li>circumstance_phrase->بنظرة افتتان مبتهج</li>
+    <li>desc_sentence->[PAWN_nameDef] يتصبب عرقا.</li>
+    <li>desc_sentence->يبدو العمل معقدا بشكل استثنائي.</li>
+    <li>desc_sentence->[PAWN_nameDef] محاط بالكامل بمجموعة من الأدوات والأجهزة.</li>
+    <li>desc_sentence->[PAWN_nameDef] يحدق في اكتشاف [PAWN_possessive] بإحساس من العجب.</li>
+ </FinishedResearchProject.rulePack.rulesStrings>
+  
+  <!-- EN: landed in pod -->
+  <LandedInPod.label>هبط في كبسولة</LandedInPod.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s landing in a drop pod</li>
+    <li>image->[PAWN_nameFull] landing in a drop pod [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] touching down in a drop pod [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] striking earth in a drop pod [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] riding in a drop pod [circumstance_group]</li>
+    <li>circumstance_phrase->in front of a [TerrainFeature]</li>
+    <li>circumstance_phrase->with incredible force</li>
+    <li>circumstance_phrase->in a plume of dust and rocks</li>
+    <li>circumstance_phrase->with retro-rockets firing dramatically</li>
+    <li>circumstance_phrase->in a precision landing</li>
+    <li>desc_sentence->[PAWN_pronoun] is concentrating intently on the controls.</li>
+    <li>desc_sentence->[PAWN_pronoun] has [PAWN_possessive] eyes closed and looks afraid.</li>
+    <li>desc_sentence->[PAWN_pronoun] is unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+    <li>desc_sentence->[PAWN_pronoun] is smiling with grim joy.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to have no idea what [PAWN_pronoun] is doing.</li>
+    <li>desc_sentence->[PAWN_pronoun] is strapped in with [PAWN_possessive] eyes closed, totally helpless.</li>
+    <li>desc_sentence->There is a flame trail licking off the back of the pod.</li>
+    <li>desc_sentence->A nearby [Animal] is looking up, startled.</li>
+    <li>desc_sentence->A [Animal] is fleeing the impact in fear.</li>
+    <li>desc_sentence->There is a [TerrainFeature] in the background.</li>
+    <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
+  -->
+  <LandedInPod.rulePack.rulesStrings>
+    <li>tale_noun->هبوط [PAWN_nameDef] في كبسولة إنزال</li>
+    <li>image->[PAWN_nameFull] يهبط في كبسولة إنزال [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يلامس الأرض في كبسولة إنزال [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يضرب الأرض في كبسولة إنزال [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يركب في كبسولة إنزال [circumstance_group]</li>
+    <li>circumstance_phrase->أمام [TerrainFeature]</li>
+    <li>circumstance_phrase->بقوة هائلة</li>
+    <li>circumstance_phrase->في عمود من الغبار والصخور</li>
+    <li>circumstance_phrase->مع إطلاق صواريخ كبح بشكل درامي</li>
+    <li>circumstance_phrase->في هبوط دقيق</li>
+    <li>desc_sentence->[PAWN_pronoun] يركز بشدة على أجهزة التحكم.</li>
+    <li>desc_sentence->[PAWN_pronoun] عيون [PAWN_possessive] مغلقة ويبدو خائفا.</li>
+    <li>desc_sentence->[PAWN_pronoun] فاقد للوعي، لسان [PAWN_possessive] يتدلى، يسيل لعابه.</li>
+    <li>desc_sentence->[PAWN_pronoun] يبتسم بفرح متجهم.</li>
+    <li>desc_sentence->يبدو أن [PAWN_pronoun] لا يدري ما يفعله.</li>
+    <li>desc_sentence->[PAWN_pronoun] مربوط المقعد وعيون [PAWN_possessive] مغلقة، عاجز تماما.</li>
+    <li>desc_sentence->هناك أثر لهب يندفع من مؤخرة الكبسولة.</li>
+    <li>desc_sentence->[Animal] قريب ينظر للأعلى، مذعور.</li>
+    <li>desc_sentence->[Animal] يفر من الاصطدام خوفا.</li>
+    <li>desc_sentence->يوجد [TerrainFeature] في الخلفية.</li>
+    <li>desc_sentence->[PersonJob] يراقب بصمت من بعيد.</li>
+ </LandedInPod.rulePack.rulesStrings>
+  
+  <!-- EN: berserk rage -->
+  <MentalStateBerserk.label>غضب هستيري</MentalStateBerserk.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] going berserk</li>
+    <li>image->[PAWN_nameFull] flying into a berserk rage [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] becoming madly, violently insane [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] stumbling forward with a psychotic look on [PAWN_possessive] face [circumstance_group]</li>
+    <li>circumstance_phrase->while attempting to disrobe</li>
+    <li>circumstance_phrase->seemingly without reason</li>
+    <li>circumstance_phrase->as others cower in fear</li>
+    <li>circumstance_phrase->as a friend flees</li>
+    <li>circumstance_phrase->because of the stress</li>
+    <li>circumstance_phrase->as a last step</li>
+    <li>desc_sentence->[PAWN_pronoun] is shaking with ungovernable rage.</li>
+    <li>desc_sentence->[PAWN_possessive] teeth are bared in a deadly snarl.</li>
+    <li>desc_sentence->[PAWN_possessive] eyes are dead pools of madness.</li>
+    <li>desc_sentence->Spittle is flying from [PAWN_possessive] mouth as [PAWN_possessive] screams with insane rage.</li>
+    <li>desc_sentence->[PAWN_pronoun] has lost part of [PAWN_possessive] clothing.</li>
+    <li>desc_sentence->[PAWN_pronoun] is grimacing in misery.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems smiling maniacally.</li>
+    <li>desc_sentence->[PAWN_pronoun] is depicted with the snarling face of a [Animal].</li>
+    <li>desc_sentence->[Animal]s symbolically surround [PAWN_possessive] head.</li>
+    <li>desc_sentence->[PAWN_pronoun] has a murderous glint in [PAWN_possessive] eye.</li>
+    <li>desc_sentence->[PAWN_possessive] entire body seems to be trembling with hatred.</li>
+    <li>desc_sentence->[PAWN_possessive] face is set in a look of twisted serenity.</li>
+    <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li>
+  -->
+  <MentalStateBerserk.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] يصاب بهستيريا</li>
+    <li>image->[PAWN_nameFull] ينفجر في غضب هستيري [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يصبح مجنونا بعنف [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يتعثر للأمام بنظرة ذهانية على وجه [PAWN_possessive] [circumstance_group]</li>
+    <li>circumstance_phrase->بينما يحاول خلع ملابسه</li>
+    <li>circumstance_phrase->على ما يبدو بدون سبب</li>
+    <li>circumstance_phrase->بينما يرتعد الآخرون خوفا</li>
+    <li>circumstance_phrase->بينما يفر صديق</li>
+    <li>circumstance_phrase->بسبب الضغط</li>
+    <li>circumstance_phrase->كخطوة أخيرة</li>
+    <li>desc_sentence->[PAWN_pronoun] يرتجف بغضب لا يمكن السيطرة عليه.</li>
+    <li>desc_sentence->أسنان [PAWN_possessive] مكشوفة في تكشيرة مميتة.</li>
+    <li>desc_sentence->عيون [PAWN_possessive] برك ميتة من الجنون.</li>
+    <li>desc_sentence->اللعاب يتطاير من فم [PAWN_possessive] بينما يصرخ بغضب مجنون.</li>
+    <li>desc_sentence->[PAWN_pronoun] فقد جزءا من ملابس [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_pronoun] يكشر في بؤس.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] مبتسما بهوس.</li>
+    <li>desc_sentence->يصور [PAWN_pronoun] بوجه مكشر لـ[Animal].</li>
+    <li>desc_sentence->تحيط [Animal]s برأس [PAWN_possessive] بشكل رمزي.</li>
+    <li>desc_sentence->بريق قاتل في عين [PAWN_possessive].</li>
+    <li>desc_sentence->جسد [PAWN_possessive] بأكمله يبدو مرتعشا بالكراهية.</li>
+    <li>desc_sentence->وجه [PAWN_possessive] جامد في نظرة سكينة ملتوية.</li>
+    <li>desc_sentence->دمعة واحدة تتدحرج على وجه [PAWN_possessive].</li>
+ </MentalStateBerserk.rulePack.rulesStrings>
+  
+  <!-- EN: gave up -->
+  <MentalStateGaveUp.label>استسلم</MentalStateGaveUp.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] giving up in despair</li>
+    <li>image->[PAWN_nameFull] finally giving up under stress [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sobbing uncontrollably [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] stumbling around with a completely broken expression on [PAWN_possessive] face [circumstance_group]</li>
+    <li>circumstance_phrase->while attempting to disrobe</li>
+    <li>circumstance_phrase->seemingly without reason</li>
+    <li>circumstance_phrase->as others offer sympathy</li>
+    <li>circumstance_phrase->as a friend cries</li>
+    <li>circumstance_phrase->because of the stress</li>
+    <li>circumstance_phrase->as a last step</li>
+    <li>desc_sentence->[PAWN_pronoun] has tears streaming down [PAWN_possessive] face.</li>
+    <li>desc_sentence->[PAWN_pronoun] is laughing in the depths of [PAWN_possessive] depression.</li>
+    <li>desc_sentence->[PAWN_nameDef] is looking upward, as if to ask for help from above.</li>
+    <li>desc_sentence->[PAWN_pronoun] is tearing at [PAWN_possessive] own clothes.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] looks happy and sad at the same time.</li>
+    <li>desc_sentence->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
+    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
+  -->
+  <MentalStateGaveUp.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] يستسلم لليأس</li>
+    <li>image->[PAWN_nameFull] يستسلم أخيرا تحت الضغط [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] ينتحب دون سيطرة [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يتعثر بتعبير محطم تماما على وجه [PAWN_possessive] [circumstance_group]</li>
+    <li>circumstance_phrase->بينما يحاول خلع ملابسه</li>
+    <li>circumstance_phrase->على ما يبدو بدون سبب</li>
+    <li>circumstance_phrase->بينما يقدم الآخرون تعاطفهم</li>
+    <li>circumstance_phrase->بينما يبكي صديق</li>
+    <li>circumstance_phrase->بسبب الضغط</li>
+    <li>circumstance_phrase->كخطوة أخيرة</li>
+    <li>desc_sentence->الدموع تتدفق على وجه [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_pronoun] يضحك في أعماق كآبة [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] ينظر للأعلى، كأنه يطلب المساعدة من السماء.</li>
+    <li>desc_sentence->[PAWN_pronoun] يمزق ملابس [PAWN_possessive].</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] غير مدرك تماما لما حول [PAWN_objective].</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] سعيدا وحزينا في نفس الوقت.</li>
+    <li>desc_sentence->توجد بقع على مقدمة [PAWN_possessive].</li>
+    <li>desc_sentence->يبدو أن [PAWN_pronoun] فقد حذاءه.</li>
+    <li>desc_sentence->شعر [PAWN_possessive] منفوش تماما.</li>
+ </MentalStateGaveUp.rulePack.rulesStrings>
+  
+  <!-- EN: read a book -->
+  <ReadBook.label>قرأ كتابا</ReadBook.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing [THING_title]</li>
+    <li>image->[PAWN_nameFull] closing [THING_title] for the last time, a satisfied smile gracing [PAWN_possessive] face [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] turning the pages of [THING_title], absorbing the knowledge within [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] placing [THING_title] back on the shelf, a sense of accomplishment radiating from [PAWN_objective] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting in quiet contemplation, reflecting on the profound truths within [THING_title] [circumstance_group]</li>
+    <li>circumstance_phrase->while relaxing in [PAWN_possessive] favorite reading nook</li>
+    <li>circumstance_phrase->with a cup of tea by [PAWN_possessive] side</li>
+    <li>circumstance_phrase->under the soft glow of a reading lamp</li>
+    <li>desc_sentence->[PAWN_nameDef] is surrounded by [PAWN_possessive] notes on [THING_title].</li>
+    <li>desc_sentence->[PAWN_nameDef]'s eyes sparkle with newfound wisdom.</li>
+    <li>desc_sentence->[PAWN_nameDef] is forever changed by the teachings of [THING_title].</li>
+    <li>desc_sentence->There is a sense that some secrets are yet to be uncovered.</li>
+  -->
+  <ReadBook.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] ينهي [THING_title]</li>
+    <li>image->[PAWN_nameFull] يغلق [THING_title] للمرة الأخيرة، ابتسامة رضا تزين وجه [PAWN_possessive] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يقلب صفحات [THING_title]، ممتصا المعرفة بداخله [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يعيد [THING_title] إلى الرف، شعور بالإنجاز يشع من [PAWN_objective] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يجلس في تأمل هادئ، متأملا الحقائق العميقة داخل [THING_title] [circumstance_group]</li>
+    <li>circumstance_phrase->بينما يسترخي في زاوية القراءة المفضلة لـ[PAWN_possessive]</li>
+    <li>circumstance_phrase->مع كوب شاي بجانب [PAWN_possessive]</li>
+    <li>circumstance_phrase->تحت التوهج الناعم لمصباح القراءة</li>
+    <li>desc_sentence->[PAWN_nameDef] محاط بملاحظات [PAWN_possessive] حول [THING_title].</li>
+    <li>desc_sentence->تتلألأ عيون [PAWN_nameDef] بحكمة مكتشفة حديثا.</li>
+    <li>desc_sentence->[PAWN_nameDef] تغير للأبد بتعاليم [THING_title].</li>
+    <li>desc_sentence->هناك إحساس بأن بعض الأسرار لم تكتشف بعد.</li>
+ </ReadBook.rulePack.rulesStrings>
+  
+  <!-- EN: struck mineable -->
+  <StruckMineable.label>صادف معدنا</StruckMineable.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] striking [THING_label]</li>
+    <li>image->[PAWN_nameFull] striking [THING_label] [circumstance_group]</li>
+    <li>circumstance_phrase->while mining</li>
+    <li>circumstance_phrase->while digging</li>
+    <li>circumstance_phrase->while tunnelling</li>
+    <li>circumstance_phrase->with a look of surprise</li>
+    <li>circumstance_phrase->with a satisfied expression</li>
+    <li>desc_sentence->[PAWN_nameDef] is wiping [PAWN_possessive] brow.</li>
+    <li>desc_sentence->[PAWN_nameDef] is jumping for joy.</li>
+    <li>desc_sentence->[PAWN_nameDef] is high-fiving a friend.</li>
+    <li>desc_sentence->[PAWN_nameDef] is screaming with happiness.</li>
+    <li>desc_sentence->[PAWN_nameDef] is laughing uncontrollably.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+  -->
+  <StruckMineable.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] يصادف [THING_label]</li>
+    <li>image->[PAWN_nameFull] يصادف [THING_label] [circumstance_group]</li>
+    <li>circumstance_phrase->أثناء التعدين</li>
+    <li>circumstance_phrase->أثناء الحفر</li>
+    <li>circumstance_phrase->أثناء حفر النفق</li>
+    <li>circumstance_phrase->بنظرة مفاجأة</li>
+    <li>circumstance_phrase->بتعبير رضا</li>
+    <li>desc_sentence->[PAWN_nameDef] يمسح جبين [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] يقفز فرحا.</li>
+    <li>desc_sentence->[PAWN_nameDef] يصفع كف صديق.</li>
+    <li>desc_sentence->[PAWN_nameDef] يصرخ بسعادة.</li>
+    <li>desc_sentence->[PAWN_nameDef] يضحك دون سيطرة.</li>
+    <li>desc_sentence->[PAWN_nameDef] متعرق ومتسخ من العمل.</li>
+    <li>desc_sentence->[PAWN_nameDef] متعرق ومتسخ من العمل.</li>
+ </StruckMineable.rulePack.rulesStrings>
+  
+  <!-- EN: vomited -->
+  <Vomited.label>تقيأ</Vomited.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s vomiting</li>
+    <li>image->[PAWN_nameFull] spewing vomit onto the ground [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking disgusted while covered with dried vomit [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] doubled over and retching onto the floor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] on [PAWN_possessive] knees, vomiting on the floor [circumstance_group]</li>
+    <li>circumstance_phrase->while looking pained</li>
+    <li>circumstance_phrase->with great shame</li>
+    <li>circumstance_phrase->as others look on</li>
+    <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_possessive] face itself seems to be swelling.</li>
+    <li>desc_sentence->[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+    <li>desc_sentence->[PAWN_pronoun] is convulsing violently.</li>
+    <li>desc_sentence->[PAWN_pronoun] looks ashamed.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to be trying to laugh, despite the circumstances.</li>
+    <li>desc_sentence->[PAWN_pronoun] looks almost deflated, as though totally emptied by the intense vomiting.</li>
+    <li>desc_sentence->[PAWN_pronoun] is surrounded by an artistically rendered halo of filth.</li>
+    <li>desc_sentence->A [Animal] is eating from the trail of vomit in the background.</li>
+  -->
+  <Vomited.rulePack.rulesStrings>
+    <li>tale_noun->تقيؤ [PAWN_nameDef]</li>
+    <li>image->[PAWN_nameFull] يقذف قيئا على الأرض [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يبدو مقرفا وهو مغطى بقيء جاف [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] منحن ومتقيأ على الأرض [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] على ركبتي [PAWN_possessive]، يتقيأ على الأرض [circumstance_group]</li>
+    <li>circumstance_phrase->بينما يبدو متألما</li>
+    <li>circumstance_phrase->بخزي عظيم</li>
+    <li>circumstance_phrase->بينما يراقب الآخرون</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] غير مدرك تماما لما حول [PAWN_objective].</li>
+    <li>desc_sentence->وجه [PAWN_possessive] نفسه يبدو متورما.</li>
+    <li>desc_sentence->[PAWN_pronoun] شبه فاقد للوعي، لسان [PAWN_possessive] يتدلى، يسيل لعابه.</li>
+    <li>desc_sentence->[PAWN_pronoun] يتشنج بعنف.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] خجلا.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] يحاول الضحك، رغم الظروف.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] شبه مفرغ، كأنه أفرغ تماما بسبب التقيؤ الشديد.</li>
+    <li>desc_sentence->[PAWN_pronoun] محاط بهالة من القذارة مصورة فنيا.</li>
+    <li>desc_sentence->[Animal] يأكل من أثر القيء في الخلفية.</li>
+ </Vomited.rulePack.rulesStrings>
+  
+  <!-- EN: walked naked -->
+  <WalkedNaked.label>مشى عاريا</WalkedNaked.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] walking around naked</li>
+    <li>image->[PAWN_nameFull] [nude_action] while in a state of nature [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] in the nude [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action], naked, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] without any clothes on [circumstance_group]</li>
+    <li>nude_action->prancing</li>
+    <li>nude_action->frolicking</li>
+    <li>nude_action->gambolling</li>
+    <li>nude_action->walking</li>
+    <li>nude_action->strutting [PAWN_possessive] stuff</li>
+    <li>nude_action->sashaying</li>
+    <li>nude_action->tiptoeing</li>
+    <li>nude_action->promenading</li>
+    <li>nude_action->surveying the area</li>
+    <li>circumstance_phrase->with a sense of purpose</li>
+    <li>circumstance_phrase->with no hint of shame</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->for no apparent reason</li>
+    <li>circumstance_phrase->while confused animals look on</li>
+    <li>desc_sentence->[PAWN_nameDef] is visibly aroused.</li>
+    <li>desc_sentence->[PAWN_nameDef] is covered in unexplained moisture.</li>
+    <li>desc_sentence->[PAWN_nameDef] is breathing heavily for no obvious reason.</li>
+    <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li>
+  -->
+  <WalkedNaked.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] يتجول عاريا</li>
+    <li>image->[PAWN_nameFull] [nude_action] في حالة الطبيعة [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] عاريا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action]، عاريا، [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] بدون أي ملابس [circumstance_group]</li>
+    <li>nude_action->يتبختر</li>
+    <li>nude_action->يمرح</li>
+    <li>nude_action->يثب</li>
+    <li>nude_action->يمشي</li>
+    <li>nude_action->يتباهى بمفاتن [PAWN_possessive]</li>
+    <li>nude_action->يختال</li>
+    <li>nude_action->يمشي على أطراف أصابعه</li>
+    <li>nude_action->يتنزه</li>
+    <li>nude_action->يتفحص المنطقة</li>
+    <li>circumstance_phrase->بإحساس بالهدف</li>
+    <li>circumstance_phrase->بدون أي أثر للخجل</li>
+    <li>circumstance_phrase->بينما يراقب الآخرون</li>
+    <li>circumstance_phrase->بدون سبب واضح</li>
+    <li>circumstance_phrase->بينما تراقب حيوانات مرتبكة</li>
+    <li>desc_sentence->[PAWN_nameDef] مثار بشكل واضح.</li>
+    <li>desc_sentence->[PAWN_nameDef] مغطى برطوبة غير مفسرة.</li>
+    <li>desc_sentence->[PAWN_nameDef] يتنفس بصعوبة دون سبب واضح.</li>
+    <li>desc_sentence->[PAWN_nameDef] يتحسس شجيرة.</li>
+ </WalkedNaked.rulePack.rulesStrings>
+  
+  <!-- EN: on fire -->
+  <WasOnFire.label>مشتعل</WasOnFire.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] catching fire</li>
+    <li>image->[PAWN_nameFull] frantically beating out a fire attached to [PAWN_possessive] body [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] enveloped by flame [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] kneeling, hands over head, trying to extinguish flames on [PAWN_possessive] body [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rolling on the floor while burning [circumstance_group]</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->while nearly naked</li>
+    <li>circumstance_phrase->with focused intent</li>
+    <li>desc_sentence->[PAWN_possessive] flesh is visibly charring.</li>
+    <li>desc_sentence->[PAWN_possessive] eyes are wide with panic.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to be barely conscious; [PAWN_possessive] eyes are lifeless.</li>
+    <li>desc_sentence->[PAWN_possessive] mouth is open as [PAWN_pronoun] screams for help.</li>
+    <li>desc_sentence->The flames are about to envelope [PAWN_possessive] head.</li>
+    <li>desc_sentence->A symbolic halo of fire surrounds [PAWN_possessive] face.</li>
+    <li>desc_sentence->[PAWN_pronoun] is laughing maniacally.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to be losing [PAWN_objective]self.</li>
+    <li>desc_sentence->A plume of smoke is rising off [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
+  -->
+  <WasOnFire.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] يشتعل</li>
+    <li>image->[PAWN_nameFull] يطفئ بسرعة نارا ملتصقة بجسد [PAWN_possessive] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] مغلف باللهب [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] راكع، يداه فوق رأسه، يحاول إطفاء النيران على جسد [PAWN_possessive] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يتدحرج على الأرض بينما يحترق [circumstance_group]</li>
+    <li>circumstance_phrase->بينما يراقب الآخرون</li>
+    <li>circumstance_phrase->بينما هو شبه عار</li>
+    <li>circumstance_phrase->بإصرار مركز</li>
+    <li>desc_sentence->لحم [PAWN_possessive] متفحم بشكل واضح.</li>
+    <li>desc_sentence->عيون [PAWN_possessive] واسعة من الهلع.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] شبه واعي؛ عيون [PAWN_possessive] هامدة.</li>
+    <li>desc_sentence->فم [PAWN_possessive] مفتوح بينما يصرخ [PAWN_pronoun] طلبا للمساعدة.</li>
+    <li>desc_sentence->النيران على وشك أن تغلف رأس [PAWN_possessive].</li>
+    <li>desc_sentence->هالة رمزية من النار تحيط بوجه [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_pronoun] يضحك بشكل جنوني.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] يفقد [PAWN_objective].</li>
+    <li>desc_sentence->عمود من الدخان يتصاعد من [PAWN_objective].</li>
+    <li>desc_sentence->يصور [PAWN_pronoun] فنيا بطريقة تشبه الجثة.</li>
+ </WasOnFire.rulePack.rulesStrings>
+  
+</LanguageData>

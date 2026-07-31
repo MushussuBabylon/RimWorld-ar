@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: flu -->
+  <Animal_Flu.label>إنفلونزا</Animal_Flu.label>
+  <!-- EN: An infectious disease caused by the influenza virus. This strain is adapted for infecting non-human species. -->
+  <Animal_Flu.description>مرض معدٍ يسببه فيروس الإنفلونزا. هذه السلالة متكيفة لإصابة الأنواع غير البشرية.</Animal_Flu.description>
+  <Animal_Flu.labelNoun>إنفلونزا</Animal_Flu.labelNoun>
+  <!-- EN: minor -->
+  <Animal_Flu.stages.minor.label>طفيف</Animal_Flu.stages.minor.label>
+  <!-- EN: major -->
+  <Animal_Flu.stages.major.label>شديد</Animal_Flu.stages.major.label>
+  <!-- EN: extreme -->
+  <Animal_Flu.stages.extreme.label>مفرط</Animal_Flu.stages.extreme.label>
+  
+  <!-- EN: plague -->
+  <Animal_Plague.label>طاعون</Animal_Plague.label>
+  <!-- EN: An infectious disease caused by bacteria. This strain is adapted to infecting non-human species. -->
+  <Animal_Plague.description>مرض معدٍ تسببه البكتيريا. هذه السلالة متكيفة لإصابة الأنواع غير البشرية.</Animal_Plague.description>
+  <Animal_Plague.labelNoun>طاعوناً</Animal_Plague.labelNoun>
+  <!-- EN: minor -->
+  <Animal_Plague.stages.minor.label>طفيف</Animal_Plague.stages.minor.label>
+  <!-- EN: major -->
+  <Animal_Plague.stages.major.label>شديد</Animal_Plague.stages.major.label>
+  <!-- EN: extreme -->
+  <Animal_Plague.stages.extreme-0.label>مفرط</Animal_Plague.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <Animal_Plague.stages.extreme-1.label>مفرط</Animal_Plague.stages.extreme-1.label>
+  
+  <!-- EN: fibrous mechanites -->
+  <FibrousMechanites.label>ميكانيتات ليفية</FibrousMechanites.label>
+  <!-- EN: Semi-coherent mechanites which develop fibrous links in muscle tissue. They enhance the victim's strength, but also cause intense pain. These are probably a mutated strain of strength-enhancing mechanites. -->
+  <FibrousMechanites.description>ميكانيتات شبه متماسكة تطور روابط ليفية في الأنسجة العضلية. تعزز قوة الضحية، لكنها تسبب أيضاً ألماً شديداً. هذه على الأرجح سلالة متحورة من الميكانيتات المعززة للقوة.</FibrousMechanites.description>
+  <!-- EN: mild pain -->
+  <FibrousMechanites.stages.mild_pain.label>ألم خفيف</FibrousMechanites.stages.mild_pain.label>
+  <!-- EN: intense pain -->
+  <FibrousMechanites.stages.intense_pain.label>ألم شديد</FibrousMechanites.stages.intense_pain.label>
+  
+  <!-- EN: flu -->
+  <Flu.label>إنفلونزا</Flu.label>
+  <!-- EN: An infectious disease caused by the influenza virus. -->
+  <Flu.description>مرض معدٍ يسببه فيروس الإنفلونزا.</Flu.description>
+  <Flu.labelNoun>إنفلونزا</Flu.labelNoun>
+  <!-- EN: minor -->
+  <Flu.stages.minor.label>طفيف</Flu.stages.minor.label>
+  <!-- EN: major -->
+  <Flu.stages.major.label>شديد</Flu.stages.major.label>
+  <!-- EN: extreme -->
+  <Flu.stages.extreme.label>مفرط</Flu.stages.extreme.label>
+  
+  <!-- EN: gut worms -->
+  <GutWorms.label>ديدان الأمعاء</GutWorms.label>
+  <!-- EN: Parasitic worms in the gut. They cause vomiting. They also consume the victim's food, which increases hunger. -->
+  <GutWorms.description>ديدان طفيلية في الأمعاء. تسبب تقيؤاً. كما تستهلك طعام الضحية، مما يزيد الجوع.</GutWorms.description>
+  <GutWorms.labelNoun>إصابة بالديدان</GutWorms.labelNoun>
+  
+  <!-- EN: lung rot -->
+  <LungRot.label>تعفن الرئة</LungRot.label>
+  <!-- EN: A bacterial disease that targets an individual's lungs. Minor cases are little more than an irritation, but if left unchecked the bacterial growth results in an increasing amount of fluid buildup in the victim's lungs, eventually resulting in death.\n\nIf treated properly, the body's immune system will eventually clear lung rot. -->
+  <LungRot.description>مرض بكتيري يستهدف رئتي الفرد. الحالات الطفيفة لا تعدو كونها تهيجاً، لكن إذا تُركت دون علاج، يؤدي نمو البكتيريا إلى تراكم متزايد للسوائل في رئتي الضحية، مما يؤدي في النهاية إلى الوفاة.\n\nإذا عولجت بشكل صحيح، سيزيل جهاز المناعة في الجسم تعفن الرئة في نهاية المطاف.</LungRot.description>
+  <!-- EN: A painful bacterial disease caused by exposure to rot stink gas. Upon reaching full saturation, it will kill the affected individual. -->
+  <LungRot.descriptionShort>مرض بكتيري مؤلم يسببه التعرض لغاز رائحة التعفن. عند بلوغ التشبع الكامل، سيقتل الفرد المصاب.</LungRot.descriptionShort>
+  <!-- EN: minor -->
+  <LungRot.stages.minor.label>طفيف</LungRot.stages.minor.label>
+  <!-- EN: major -->
+  <LungRot.stages.major.label>شديد</LungRot.stages.major.label>
+  <!-- EN: extreme -->
+  <LungRot.stages.extreme.label>مفرط</LungRot.stages.extreme.label>
+  
+  <!-- EN: rot stink exposure -->
+  <LungRotExposure.label>تعرض لغاز رائحة التعفن</LungRotExposure.label>
+  <!-- EN: Long-term exposure to rot stink gas. Rot stink exposure has no direct health effects. However, serious rot stink exposure has a chance to result in a painful bacterial infection known as lung rot. When not exposed to rot stink gas, rot stink exposure will slowly decrease. -->
+  <LungRotExposure.description>تعرض طويل الأمد لغاز رائحة التعفن. التعرض لغاز رائحة التعفن ليس له آثار صحية مباشرة. ومع ذلك، فإن التعرض الخطير له فرصة للتسبب بعدوى بكتيرية مؤلمة تعرف بتعفن الرئة. عندما لا تتعرض لغاز رائحة التعفن، يقل التعرض ببطء.</LungRotExposure.description>
+  <!-- EN: {PAWN_nameDef} is beginning to suffer from exposure to rot stink gas. Keep {PAWN_objective} away from rotting corpses and other sources of rot stink. -->
+  <LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} بدأ يعاني من التعرض لغاز رائحة التعفن. أبقِ {PAWN_objective} بعيداً عن الجثث المتعفنة ومصادر رائحة التعفن الأخرى.</LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: minor -->
+  <LungRotExposure.stages.minor.label>طفيف</LungRotExposure.stages.minor.label>
+  <!-- EN: major -->
+  <LungRotExposure.stages.major.label>شديد</LungRotExposure.stages.major.label>
+  <!-- EN: serious -->
+  <LungRotExposure.stages.serious.label>خطير</LungRotExposure.stages.serious.label>
+  
+  <!-- EN: malaria -->
+  <Malaria.label>ملاريا</Malaria.label>
+  <!-- EN: An infectious disease caused by a mosquito-borne parasite. -->
+  <Malaria.description>مرض معدٍ يسببه طفيل ينقله البعوض.</Malaria.description>
+  <!-- EN: minor -->
+  <Malaria.stages.minor.label>طفيف</Malaria.stages.minor.label>
+  <!-- EN: major -->
+  <Malaria.stages.major.label>شديد</Malaria.stages.major.label>
+  <!-- EN: extreme -->
+  <Malaria.stages.extreme.label>مفرط</Malaria.stages.extreme.label>
+  
+  <!-- EN: muscle parasites -->
+  <MuscleParasites.label>طفيليات العضلات</MuscleParasites.label>
+  <!-- EN: Parasitic creatures in the muscles. These cause weakness and a lack of coordination. -->
+  <MuscleParasites.description>كائنات طفيلية في العضلات. تسبب ضعفاً وفقداناً للتنسيق.</MuscleParasites.description>
+  
+  <!-- EN: plague -->
+  <Plague.label>طاعون</Plague.label>
+  <!-- EN: An infectious disease caused by bacteria. -->
+  <Plague.description>مرض معدٍ تسببه البكتيريا.</Plague.description>
+  <Plague.labelNoun>طاعوناً</Plague.labelNoun>
+  <!-- EN: minor -->
+  <Plague.stages.minor.label>طفيف</Plague.stages.minor.label>
+  <!-- EN: major -->
+  <Plague.stages.major.label>شديد</Plague.stages.major.label>
+  <!-- EN: extreme -->
+  <Plague.stages.extreme-0.label>مفرط</Plague.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <Plague.stages.extreme-1.label>مفرط</Plague.stages.extreme-1.label>
+  
+  <!-- EN: scaria infection -->
+  <ScariaInfection.label>عدوى السكاريا</ScariaInfection.label>
+  <!-- EN: An infection caused by scaria bacterium. If not treated, the infection will eventually drive the host into a berserk rage. -->
+  <ScariaInfection.description>عدوى تسببها بكتيريا السكاريا. إذا لم تعالج، ستؤدي العدوى في النهاية إلى إصابة المضيف بهياج هائج.</ScariaInfection.description>
+  <!-- EN: Scaria: {PAWN_nameDef} -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>سكاريا: {PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
+  <!-- EN: {PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed. -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} أصيب بالسكاريا من عدوى{PAWN_possessive}، مما أفقده صوابه وجعله في حالة هياج. يمكن الشفاء من السكاريا بعملية طبية خاصة، لكن يجب أولاً شل {PAWN_objective}.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
+  <!-- EN: a scaria infection -->
+  <ScariaInfection.labelNoun>عدوى سكاريا</ScariaInfection.labelNoun>
+  <!-- EN: minor -->
+  <ScariaInfection.stages.minor.label>طفيف</ScariaInfection.stages.minor.label>
+  <!-- EN: major -->
+  <ScariaInfection.stages.major.label>شديد</ScariaInfection.stages.major.label>
+  <!-- EN: extreme -->
+  <ScariaInfection.stages.extreme.label>مفرط</ScariaInfection.stages.extreme.label>
+  
+  <!-- EN: sensory mechanites -->
+  <SensoryMechanites.label>ميكانيتات حسية</SensoryMechanites.label>
+  <!-- EN: Semi-coherent mechanites which reside in the nervous system. They enhance the victim's senses, but also cause intense pain. These are probably a mutated strain of sense-enhancing mechanites. -->
+  <SensoryMechanites.description>ميكانيتات شبه متماسكة تستقر في الجهاز العصبي. تعزز حواس الضحية، لكنها تسبب أيضاً ألماً شديداً. هذه على الأرجح سلالة متحورة من الميكانيتات المعززة للحواس.</SensoryMechanites.description>
+  <!-- EN: mild pain -->
+  <SensoryMechanites.stages.mild_pain.label>ألم خفيف</SensoryMechanites.stages.mild_pain.label>
+  <!-- EN: intense pain -->
+  <SensoryMechanites.stages.intense_pain.label>ألم شديد</SensoryMechanites.stages.intense_pain.label>
+  
+  <!-- EN: sleeping sickness -->
+  <SleepingSickness.label>مرض النوم</SleepingSickness.label>
+  <!-- EN: An infectious disease caused by an insect-borne parasite. Sleeping sickness is not as deadly as some other diseases, but progresses slowly. The body takes a long time to clear the infection. -->
+  <SleepingSickness.description>مرض معدٍ يسببه طفيل تنقله الحشرات. مرض النوم ليس قاتلاً كبعض الأمراض الأخرى، لكنه يتطور ببطء. يستغرق الجسم وقتاً طويلاً للتخلص من العدوى.</SleepingSickness.description>
+  <!-- EN: minor -->
+  <SleepingSickness.stages.minor-0.label>طفيف</SleepingSickness.stages.minor-0.label>
+  <!-- EN: minor -->
+  <SleepingSickness.stages.minor-1.label>طفيف</SleepingSickness.stages.minor-1.label>
+  <!-- EN: major -->
+  <SleepingSickness.stages.major.label>شديد</SleepingSickness.stages.major.label>
+  <!-- EN: extreme -->
+  <SleepingSickness.stages.extreme-0.label>مفرط</SleepingSickness.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <SleepingSickness.stages.extreme-1.label>مفرط</SleepingSickness.stages.extreme-1.label>
+  
+  <!-- EN: infection -->
+  <WoundInfection.label>عدوى</WoundInfection.label>
+  <!-- EN: Bacterial infection in a wound. Without treatment, the bacteria will multiply, killing local tissue, and eventually causing blood poisoning and death.\n\nThrough aeons of human warfare, infections have often taken more lives than the wounds themselves. -->
+  <WoundInfection.description>عدوى بكتيرية في جرح. بدون علاج، ستتكاثر البكتيريا، مما يقتل الأنسجة المحلية، ويؤدي في النهاية إلى تسمم الدم والموت.\n\nعبر دهور الحرب البشرية، غالباً ما أزهقت العدوى أرواحاً أكثر من الجروح نفسها.</WoundInfection.description>
+  <!-- EN: an infection -->
+  <WoundInfection.labelNoun>عدوى</WoundInfection.labelNoun>
+  <!-- EN: minor -->
+  <WoundInfection.stages.minor.label>طفيف</WoundInfection.stages.minor.label>
+  <!-- EN: major -->
+  <WoundInfection.stages.major.label>شديد</WoundInfection.stages.major.label>
+  <!-- EN: extreme -->
+  <WoundInfection.stages.extreme-0.label>مفرط</WoundInfection.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <WoundInfection.stages.extreme-1.label>مفرط</WoundInfection.stages.extreme-1.label>
+  
+</LanguageData>

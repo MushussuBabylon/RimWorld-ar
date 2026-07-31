@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Ideoligion forbids -->
+  <IdeoligionForbids>العقيدة تمنع</IdeoligionForbids>
+  <!-- EN: Only {0}s can build -->
+  <OnlyMembersCanBuild>فقط {0} يمكنهم البناء</OnlyMembersCanBuild>
+  <!-- EN: {0} is already in progress. -->
+  <CantStartRitualAlreadyInProgress>{0} قيد التقدم بالفعل.</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
+  <CantStartRitualLayer>لا يمكن أداء {RITUAL} {GERUND} {LAYER}.</CantStartRitualLayer>
+  <!-- EN: One or more participants can't join due to extreme temperature. -->
+  <CantJoinRitualInExtremeWeather>لا يمكن لمشارك واحد أو أكثر الانضمام بسبب درجة حرارة قصوى.</CantJoinRitualInExtremeWeather>
+  <!-- EN: {0} is already participating in a ritual. -->
+  <CantStartRitualTargetIsAlreadyInRitual>{0} يشارك بالفعل في طقس.</CantStartRitualTargetIsAlreadyInRitual>
+  <!-- EN: You must assign the role of {0} in order to start this ritual. -->
+  <CantStartRitualRoleNotAssigned>يجب عليك تعيين دور {0} لبدء هذا الطقس.</CantStartRitualRoleNotAssigned>
+  <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
+  <CantStartRitualNoConvertee>لا يوجد أحد لتحويله إلى {0}. تحتاج إلى مستعمر، سجين، أو عبد من عقيدة مختلفة.</CantStartRitualNoConvertee>
+  <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
+  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} لا يمكن أن يكون {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
+  <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
+  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} يجب أن يكون {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
+  <!-- EN: {PAWN_nameDef} is psychically deaf. -->
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} أصم نفسياً.</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelSpectators>مساحة غير كافية للمتفرجين. يجب أن تكون هناك دائرة خالية بنصف قطر {MINRADIUS}. مطلوب على الأقل {1} بقعة قابلة للوقوف ضمن ذلك النطاق.</CantStartNotEnoughSpaceDuelSpectators>
+  <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelDuelists>مساحة غير كافية للمتبارزين. يجب أن تكون هناك دائرة خالية بنصف قطر {MINRADIUS}. مطلوب على الأقل {1} بقعة قابلة للوقوف ضمن ذلك النطاق.</CantStartNotEnoughSpaceDuelDuelists>
+  <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
+  <CantStartNotEnoughSpaceDuelSpeaker>مساحة غير كافية للمتحدث. يجب أن تكون هناك دائرة خالية بنصف قطر {MINRADIUS}.</CantStartNotEnoughSpaceDuelSpeaker>
+  <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
+  <CantStartFuneralForSlave>{0_labelShort} عبد. العبيد لا تقام لهم جنازات.</CantStartFuneralForSlave>
+  <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
+  <NoSlaveBed>بحاجة لسرير عبد يمكن الوصول إليه، غير محجوز، وبدرجة حرارة آمنة.</NoSlaveBed>
+  <!-- EN: Return to slave bed -->
+  <ReturnToSlaveBed>عودة إلى سرير العبد</ReturnToSlaveBed>
+  <!-- EN: not allowed for faction -->
+  <NotAllowedForFaction>غير مسموح للفصيل</NotAllowedForFaction>
+
+  <!-- EN: Remove precept -->
+  <RemovePrecept>إزالة الوصية</RemovePrecept>
+  <!-- EN: Regenerate -->
+  <Regenerate>إعادة إنشاء</Regenerate>
+  <!-- EN: Cannot edit -->
+  <CannotEdit>لا يمكن التعديل</CannotEdit>
+  <!-- EN: No choices available -->
+  <NoChoicesAvailable>لا توجد خيارات متاحة</NoChoicesAvailable>
+  <!-- EN: Required by meme {0} -->
+  <RequiredByMeme>مطلوب بواسطة الميم {0}</RequiredByMeme>
+  <!-- EN: Required -->
+  <Required>مطلوب</Required>
+  <!-- EN: Style category -->
+  <StyleCategory>فئة الأسلوب</StyleCategory>
+  <!-- EN: Add style category -->
+  <AddStyleCategory>إضافة فئة أسلوب</AddStyleCategory>
+  <!-- EN: Can't add more than {0} rituals. -->
+  <MaxRitualCount>لا يمكن إضافة أكثر من {0} طقس.</MaxRitualCount>
+  <!-- EN: Can't add more than {0} relics. -->
+  <MaxRelicCount>لا يمكن إضافة أكثر من {0} أثر.</MaxRelicCount>
+  <!-- EN: can't have more than {0} specialists. -->
+  <MaxMultiRolesCount>لا يمكن أن يكون لديك أكثر من {0} متخصص.</MaxMultiRolesCount>
+  <!-- EN: max {0} -->
+  <MaxPreceptCount>الحد الأقصى {0}</MaxPreceptCount>
+  <!-- EN: Set gender -->
+  <SetTargetGender>تعيين الجنس</SetTargetGender>
+  <!-- EN: must be {0} faction -->
+  <RoleApparelRequirementIncompatibleFaction>يجب أن يكون فصيل {0}</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>قبلي</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <!-- EN: non-tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>غير قبلي</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <!-- EN: requires any of these memes -->
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>يتطلب أي من هذه الميمات</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <!-- EN: cannot be worn with assigned apparel -->
+  <BodyPartAlreadyCovered>لا يمكن ارتداؤه مع الملابس المعينة</BodyPartAlreadyCovered>
+  <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
+  <NoteRoleApparelRequirementEffects>يسعد الناس عند استيفاء متطلبات ملابسهم، ويصبحون غير سعداء عند انتهاكها.</NoteRoleApparelRequirementEffects>
+  <!-- EN: supercharge not ready -->
+  <NeuralSuperchargeNotReady>الشحن الفائق غير جاهز</NeuralSuperchargeNotReady>
+  <!-- EN: already getting -->
+  <NeuralSuperchargeAlreadyGetting>يتلقى بالفعل</NeuralSuperchargeAlreadyGetting>
+  <!-- EN: Set type -->
+  <SetApparelType>تعيين النوع</SetApparelType>
+
+  <!-- EN: change style -->
+  <ChangeStyle>تغيير الأسلوب</ChangeStyle>
+  <!-- EN: {0} {DEITYNOUN} required -->
+  <DeitiesRequired>مطلوب {0} {DEITYNOUN}</DeitiesRequired>
+  <!-- EN: deity -->
+  <Deity>إله</Deity>
+  <!-- EN: requires meme -->
+  <RequiresMeme>يتطلب ميماً</RequiresMeme>
+  <!-- EN: requires one of -->
+  <RequiresOneOfMemes>يتطلب واحداً من</RequiresOneOfMemes>
+  <!-- EN: conflicts with meme -->
+  <ConflictsWithMeme>يتعارض مع الميم</ConflictsWithMeme>
+  <!-- EN: conflicts with memes -->
+  <ConflictsWithMemes>يتعارض مع الميمات</ConflictsWithMemes>
+  <!-- EN: can only have one altar/ideogram -->
+  <IdeoAlreadyHasAltar>يمكن أن يكون لديك مذبح/أيدوجرام واحد فقط</IdeoAlreadyHasAltar>
+  <!-- EN: recolor apparel -->
+  <RecolorApparel>إعادة تلوين الملابس</RecolorApparel>
+
+  <!-- EN: Install {0} -->
+  <InstallRelic>تثبيت {0}</InstallRelic>
+  <!-- EN: Extract {0} -->
+  <ExtractRelic>استخراج {0}</ExtractRelic>
+  <!-- EN: Extract {0} to inventory ({1}) -->
+  <ExtractRelicToInventory>استخراج {0} إلى المخزون ({1})</ExtractRelicToInventory>
+  <!-- EN: No relic to install -->
+  <NoRelicToInstall>لا يوجد أثر لتثبيته</NoRelicToInstall>
+  <!-- EN: Install in reliquary -->
+  <InstallInReliquary>تثبيت في وعاء الآثار</InstallInReliquary>
+  <!-- EN: no empty accessible reliquary -->
+  <NoEmptyReliquary>لا يوجد وعاء آثار فارغ يمكن الوصول إليه</NoEmptyReliquary>
+
+  <!-- EN: No {MEMBERNAME} warden -->
+  <NoWardenOfIdeo>لا يوجد سجان {MEMBERNAME}</NoWardenOfIdeo>
+
+  <!-- EN: Remove current role -->
+  <RemoveCurrentRole>إزالة الدور الحالي</RemoveCurrentRole>
+
+  <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
+  <EnterBiosculpterPod>ادخل كبسولة النحت الحيوي لدورة {0} ({1})</EnterBiosculpterPod>
+  <!-- EN: Biotuned to someone else. -->
+  <BiosculpterBiotunedToAnother>مضبوط حيوياً لشخص آخر.</BiosculpterBiotunedToAnother>
+  <!-- EN: Must be {0} years old for age reversal. -->
+  <UnderMinBiosculpterAgeReversalAge>يجب أن يكون عمر {0} سنة لعكس العمر.</UnderMinBiosculpterAgeReversalAge>
+  <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
+  <CarryToBiosculpterPod>احمل {PAWN_labelShort} إلى كبسولة النحت الحيوي (دورة {CYCLE})</CarryToBiosculpterPod>
+  <!-- EN: Cannot carry to biosculpter pod -->
+  <CannotCarryToBiosculpterPod>لا يمكن الحمل إلى كبسولة النحت الحيوي</CannotCarryToBiosculpterPod>
+  <!-- EN: No available biosculpter pod. -->
+  <NoBiosculpterPod>لا توجد كبسولة نحت حيوي متاحة.</NoBiosculpterPod>
+  <!-- EN: Nutrition not loaded -->
+  <BiosculpterNutritionNotLoaded>التغذية غير محملة</BiosculpterNutritionNotLoaded>
+  <!-- EN: Occupied -->
+  <BiosculpterOccupied>مشغول</BiosculpterOccupied>
+  <!-- EN: Cannot enter -->
+  <CannotEnter>لا يمكن الدخول</CannotEnter>
+  <!-- EN: Cannot start {0} cycle -->
+  <BiosculpterCannotStartCycle>لا يمكن بدء دورة {0}</BiosculpterCannotStartCycle>
+  <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
+  <BiosculpterMissingIngredients>لا يمكن العثور على مكونات الدورة ({INGREDIENTS})</BiosculpterMissingIngredients>
+  <!-- EN: Nobody around can use this -->
+  <BiosculpterNoEligiblePawns>لا يوجد أحد بالجوار يمكنه استخدام هذا</BiosculpterNoEligiblePawns>
+  <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
+  <BiosculpterNoEligiblePawnsBiotuned>مضبوط حيوياً لـ {PAWN_labelShort} و {PAWN_pronoun} ليس بالجوار</BiosculpterNoEligiblePawnsBiotuned>
+  <!-- EN: Auto load nutrition -->
+  <BiosculpterAutoLoadNutritionLabel>تحميل التغذية تلقائياً</BiosculpterAutoLoadNutritionLabel>
+  <!-- EN: Automatically load the nutrition required to run a cycle -->
+  <BiosculpterAutoLoadNutritionDescription>تحميل التغذية المطلوبة لتشغيل دورة تلقائياً</BiosculpterAutoLoadNutritionDescription>
+  <!-- EN: Auto age reversal for {PAWN_labelShort} -->
+  <BiosculpterAutoAgeReversalLabel>عكس العمر تلقائياً لـ {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
+  <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
+  <BiosculpterAutoAgeReversalDescription>تلبية رغبة {PAWN_labelShort} في إجراء علاج عكس العمر السنوي في هذه الكبسولة تلقائياً، وفقاً لاعتقادات {PAWN_possessive}. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
+  <BiosculpterAutoAgeReversalDescriptionFuture>إذا تم التفعيل، سيأخذ {PAWN_labelShort} علاجه التالي في {TIME} تلقائياً إذا كانت الكبسولة جاهزة.</BiosculpterAutoAgeReversalDescriptionFuture>
+  <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
+  <BiosculpterAutoAgeReversalDescriptionNow>يريد {PAWN_labelShort} بالفعل علاجه التالي وسيبدأ واحداً تلقائياً إذا تم تفعيل هذا.</BiosculpterAutoAgeReversalDescriptionNow>
+  <!-- EN: Collecting ingredients for biosculpter cycle -->
+  <BiosculpterJobReportCollectIngredients>جمع المكونات لدورة النحت الحيوي</BiosculpterJobReportCollectIngredients>
+</LanguageData>

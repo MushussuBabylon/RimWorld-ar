@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: grav nausea -->
+  <GravNausea.letterLabel>غثيان الجاذبية</GravNausea.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} was forced to do an emergency maneuver, resulting in an intense and prolonged deceleration. The experience has left your colonists feeling extremely nauseous. The effects will quickly fade. -->
+  <GravNausea.letterText>أثناء هبوط {GRAVSHIP}، اضطر {PILOT_nameDef} للقيام بمناورة طارئة، مما أدى إلى تباطؤ شديد ومطول. لقد تركت التجربة مستعمريك يشعرون بالغثيان الشديد. وستتلاشى الآثار بسرعة.</GravNausea.letterText>
+  
+  <!-- EN: minor gravship crash -->
+  <MinorGravshipCrash.letterLabel>حادث سفينة جاذبية طفيف</MinorGravshipCrash.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} accidentally disengaged the grav engine too early, causing the gravship to free-fall for several feet. Some buildings on the gravship have sustained light damage from the crash. -->
+  <MinorGravshipCrash.letterText>أثناء هبوط {GRAVSHIP}، قام {PILOT_nameDef} عن طريق الخطأ بفصل محرك الجاذبية مبكراً جداً، مما تسبب في سقوط سفينة الجاذبية سقوطاً حراً لعدة أقدام. تعرضت بعض المباني على سفينة الجاذبية لأضرار طفيفة من الحادث.</MinorGravshipCrash.letterText>
+  
+  <!-- EN: overheated grav engine -->
+  <OverheatedGravEngine.letterLabel>محرك جاذبية محموم</OverheatedGravEngine.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} over-engaged the grav engine, causing it to overheat. The grav engine will take longer than normal to cool down. In the meantime, the gravship can't be launched. -->
+  <OverheatedGravEngine.letterText>أثناء هبوط {GRAVSHIP}، بالغ {PILOT_nameDef} في تشغيل محرك الجاذبية، مما تسبب في ارتفاع حرارته. سيستغرق محرك الجاذبية وقتاً أطول من المعتاد ليبرد. في الوقت الحالي، لا يمكن إطلاق سفينة الجاذبية.</OverheatedGravEngine.letterText>
+  
+  <!-- EN: thruster breakdown -->
+  <ThrusterBreakdown.letterLabel>تعطل الدافع</ThrusterBreakdown.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} overheated the ship's thrusters, frying valuable components. The thrusters will need to be repaired before they can be used again. -->
+  <ThrusterBreakdown.letterText>أثناء هبوط {GRAVSHIP}، تسبب {PILOT_nameDef} في ارتفاع حرارة دوافع السفينة، مما أتلف مكونات قيمة. ستحتاج الدوافع إلى إصلاح قبل التمكن من استخدامها مرة أخرى.</ThrusterBreakdown.letterText>
+  
+</LanguageData>

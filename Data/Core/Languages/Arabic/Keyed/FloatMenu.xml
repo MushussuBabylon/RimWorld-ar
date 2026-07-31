@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Call {0} -->
+  <CallOnRadio>اتصل بـ {0}</CallOnRadio>
+  <!-- EN: Cannot use: {0} -->
+  <CannotUseReason>لا يمكن الاستخدام: {0}</CannotUseReason>
+  <!-- EN: Cannot use: EMP -->
+  <CannotUseSolarFlare>لا يمكن الاستخدام: نبضة كهرومغناطيسية</CannotUseSolarFlare>
+  <!-- EN: Cannot use: No power -->
+  <CannotUseNoPower>لا يمكن الاستخدام: لا توجد طاقة</CannotUseNoPower>
+  <!-- EN: Cannot use: No path -->
+  <CannotUseNoPath>لا يمكن الاستخدام: لا يوجد مسار</CannotUseNoPath>
+  <!-- EN: Cannot use: Reserved -->
+  <CannotUseReserved>لا يمكن الاستخدام: محجوز</CannotUseReserved>
+  <!-- EN: Cannot use: Full -->
+  <CannotUseFull>لا يمكن الاستخدام: ممتلئ</CannotUseFull>
+  <!-- EN: leader {1_labelShort} is unavailable -->
+  <LeaderUnavailable>القائد {1_labelShort} غير متاح</LeaderUnavailable>
+  <!-- EN: leader is unavailable -->
+  <LeaderUnavailableNoLeader>القائد غير متاح</LeaderUnavailableNoLeader>
+  <!-- EN: Not allowed -->
+  <NotAllowed>غير مسموح</NotAllowed>
+  
+  <!-- EN: Attack {1_labelShort} -->
+  <Attack>هاجم {1_labelShort}</Attack>
+  <!-- EN: Fire at {1_labelShort} -->
+  <FireAt>أطلق النار على {1_labelShort}</FireAt>
+  <!-- EN: Remove -->
+  <Remove>إزالة</Remove>
+
+  <!-- EN: out of range -->
+  <OutOfRange>خارج النطاق</OutOfRange>
+  <!-- EN: too close -->
+  <TooClose>قريب جداً</TooClose>
+  <!-- EN: Cannot hit target -->
+  <CannotHitTarget>لا يمكن إصابة الهدف</CannotHitTarget>
+  <!-- EN: {1_labelShort} is incapable of violence -->
+  <IsIncapableOfViolenceLower>{1_labelShort} غير قادر على العنف</IsIncapableOfViolenceLower>
+  <!-- EN: incapable of violence -->
+  <IncapableOfViolenceLower>غير قادر على العنف</IncapableOfViolenceLower>
+  <!-- EN: {0_labelShort} is incapable of shooting -->
+  <IsIncapableOfShootingLower>{0_labelShort} غير قادر على إطلاق النار</IsIncapableOfShootingLower>
+  <!-- EN: {1_labelShort} is not drafted -->
+  <IsNotDraftedLower>{1_labelShort} ليس في وضع التجنيد</IsNotDraftedLower>
+  <!-- EN: cannot order characters you do not control -->
+  <CannotOrderNonControlledLower>لا يمكنك إصدار أوامر لشخصيات لا تتحكم بها</CannotOrderNonControlledLower>
+  <!-- EN: cannot attack -->
+  <CannotAttack>لا يمكن الهجوم</CannotAttack>
+  <!-- EN: cannot attack self -->
+  <CannotAttackSelf>لا يمكن مهاجمة النفس</CannotAttackSelf>
+  <!-- EN: cannot attack faction ally -->
+  <CannotAttackSameFactionMember>لا يمكن مهاجمة حليف الفصيل</CannotAttackSameFactionMember>
+  <!-- EN: Incapable of firefighting. -->
+  <IncapableOfFirefighting>غير قادر على إطفاء الحرائق.</IncapableOfFirefighting>
+
+  <!-- EN: Man {1_labelShort} -->
+  <OrderManThing>تشغيل {1_labelShort}</OrderManThing>
+  
+  <!-- EN: Melee attack {1_labelShort} -->
+  <MeleeAttack>هجوم اشتباك على {1_labelShort}</MeleeAttack>
+  <!-- EN: Melee attack {1_labelShort} to death -->
+  <MeleeAttackToDeath>هجوم اشتباك حتى الموت على {1_labelShort}</MeleeAttackToDeath>
+  <!-- EN: no path -->
+  <NoPath>لا يوجد مسار</NoPath>
+  <!-- EN: burying -->
+  <Burying>دفن</Burying>
+  <!-- EN: designated for {0} -->
+  <DesignatedFor>مخصص لـ {0}</DesignatedFor>
+
+  <!-- EN: forbidden -->
+  <ForbiddenLower>محظور</ForbiddenLower>
+  <!-- EN: outside allowed area -->
+  <ForbiddenOutsideAllowedAreaLower>خارج المنطقة المسموحة</ForbiddenOutsideAllowedAreaLower>
+  <!-- EN: not in home area -->
+  <NotInHomeArea>ليست في منطقة المنزل</NotInHomeArea>
+  <!-- EN: burning -->
+  <BurningLower>يحترق</BurningLower>
+  <!-- EN: no empty, accessible spot configured to store it -->
+  <NoEmptyPlaceLower>لا توجد مساحة فارغة ومتاحة مخصصة للتخزين</NoEmptyPlaceLower>
+  <!-- EN: no stack available to merge into -->
+  <NoMergeTarget>لا توجد كومة متاحة للدمج معها</NoMergeTarget>
+  <!-- EN: already filled enough -->
+  <AlreadyFilledLower>ممتلئ بما فيه الكفاية بالفعل</AlreadyFilledLower>
+  <!-- EN: missing {0} -->
+  <MissingMaterials>مفقود {0}</MissingMaterials>
+  <!-- EN: No medicine for restriction '{CATEGORY}'. -->
+  <NoMedicineMatchingCategory>لا يوجد دواء مقيد لـ '{CATEGORY}'.</NoMedicineMatchingCategory>
+  <!-- EN: under required skill {0} -->
+  <UnderRequiredSkill>أقل من المهارة المطلوبة {0}</UnderRequiredSkill>
+  <!-- EN: under allowed skill {0} -->
+  <UnderAllowedSkill>أقل من المهارة المسموحة {0}</UnderAllowedSkill>
+  <!-- EN: above allowed skill {0} -->
+  <AboveAllowedSkill>أعلى من المهارة المسموحة {0}</AboveAllowedSkill>
+  <!-- EN: no reachable outside cell -->
+  <NoReachableOutsideCell>لا توجد خلية خارجية يمكن الوصول إليها</NoReachableOutsideCell>
+  <!-- EN: cannot exit map -->
+  <CannotExitMap>لا يمكن مغادرة الخريطة</CannotExitMap>
+  <!-- EN: missing required skill level -->
+  <MissingRequiredSkillLevel>مستوى المهارة المطلوب مفقود</MissingRequiredSkillLevel>
+  <!-- EN: animal interacted too recently -->
+  <AnimalInteractedTooRecently>تم التفاعل مع الحيوان مؤخراً</AnimalInteractedTooRecently>
+  <!-- EN: interacted with too recently -->
+  <PrisonerInteractedTooRecently>تم التفاعل معه مؤخراً</PrisonerInteractedTooRecently>
+  <!-- EN: no usable food -->
+  <NoUsableFood>لا يوجد طعام صالح للاستخدام</NoUsableFood>
+  <!-- EN: not enough food -->
+  <NoFood>لا يوجد طعام كافٍ</NoFood>
+  <!-- EN: no food matching restrictions -->
+  <NoFoodMatchingRestrictions>لا يوجد طعام يطابق القيود</NoFoodMatchingRestrictions>
+  <!-- EN: No {0_label} -->
+  <NoIngredient>لا يوجد {0_label}</NoIngredient>
+  <!-- EN: below requirements of {0} -->
+  <FoodBelowTitleRequirements>أقل من متطلبات {0}</FoodBelowTitleRequirements>
+  <!-- EN: animals skill too low - need {0} -->
+  <AnimalsSkillTooLow>مهارة الحيوانات منخفضة جداً - تحتاج {0}</AnimalsSkillTooLow>
+  <!-- EN: animal downed -->
+  <CantInteractAnimalDowned>الحيوان ساقط</CantInteractAnimalDowned>
+  <!-- EN: animal sleeping -->
+  <CantInteractAnimalAsleep>الحيوان نائم</CantInteractAnimalAsleep>
+  <!-- EN: animal busy -->
+  <CantInteractAnimalBusy>الحيوان مشغول</CantInteractAnimalBusy>
+  <!-- EN: no allowed reachable pens -->
+  <CantRopeAnimalNoUsableReachablePens>لا توجد حظائر مسموحة يمكن الوصول إليها</CantRopeAnimalNoUsableReachablePens>
+  <!-- EN: no enclosed pens -->
+  <CantRopeAnimalNoEnclosedPens>لا توجد حظائر مغلقة</CantRopeAnimalNoEnclosedPens>
+  <!-- EN: no allowed pens -->
+  <CantRopeAnimalNoAllowedPens>لا توجد حظائر مسموحة</CantRopeAnimalNoAllowedPens>
+  <!-- EN: no reachable pens -->
+  <CantRopeAnimalNoReachablePens>لا توجد حظائر يمكن الوصول إليها</CantRopeAnimalNoReachablePens>
+  <!-- EN: can't touch -->
+  <CantRopeAnimalCantTouch>لا يمكن اللمس</CantRopeAnimalCantTouch>
+  <!-- EN: no space in pen -->
+  <CantRopeAnimalNoSpace>لا توجد مساحة في الحظيرة</CantRopeAnimalNoSpace>
+  <!-- EN: {0_labelShort} is in {1} state -->
+  <CantRopeAnimalMentalState>{0_labelShort} في حالة {1}</CantRopeAnimalMentalState>
+  <!-- EN: already in best pen -->
+  <CantRopeAnimalAlreadyInBestPen>بالفعل في أفضل حظيرة</CantRopeAnimalAlreadyInBestPen>
+  <!-- EN: {0} skill too low -->
+  <SkillTooLowForConstruction>مهارة {0} منخفضة جداً</SkillTooLowForConstruction>
+  <!-- EN: need components -->
+  <NoComponentsToRepair>تحتاج مكونات</NoComponentsToRepair>
+  <!-- EN: need {0} -->
+  <NoFuelToRefuel>تحتاج {0}</NoFuelToRefuel>
+  <!-- EN: need wort -->
+  <NoWort>تحتاج بيرة</NoWort>
+  <!-- EN: available food is in storage of higher priority -->
+  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>الطعام المتاح في مخزن ذو أولوية أعلى</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <!-- EN: no suitable food -->
+  <NoFoodToFillHopper>لا يوجد طعام مناسب</NoFoodToFillHopper>
+  <!-- EN: self-tend disabled -->
+  <SelfTendDisabled>الرعاية الذاتية معطلة</SelfTendDisabled>
+  <!-- EN: reserved for prisoners -->
+  <ReservedForPrisoners>محجوز للسجناء</ReservedForPrisoners>
+  <!-- EN: cannot reach -->
+  <CannotReach>لا يمكن الوصول</CannotReach>
+  <!-- EN: not ready for surgery -->
+  <NotSurgeryReady>غير جاهز للجراحة</NotSurgeryReady>
+  <!-- EN: skill incapable -->
+  <SkillDisabled>مهارة غير قادرة</SkillDisabled>
+  <!-- EN: too bright -->
+  <CantSowCavePlantBecauseOfLight>ساطع جداً</CantSowCavePlantBecauseOfLight>
+  <!-- EN: unroofed -->
+  <CantSowCavePlantBecauseUnroofed>بدون سقف</CantSowCavePlantBecauseUnroofed>
+  <!-- EN: incapable of deconstruction -->
+  <IncapableOfDeconstruction>غير قادر على التفكيك</IncapableOfDeconstruction>
+  <!-- EN: incapable of mining -->
+  <IncapableOfMining>غير قادر على التعدين</IncapableOfMining>
+  <!-- EN: tree marked for extraction -->
+  <TreeMarkedForExtraction>شجرة محددة للاقتلاع</TreeMarkedForExtraction>
+  <!-- EN: angers faction -->
+  <AngersFaction>يثير غضب الفصيل</AngersFaction>
+  <!-- EN: no body part -->
+  <InstallImplantNoBodyPart>لا يوجد جزء من الجسم</InstallImplantNoBodyPart>
+  <!-- EN: not a colonist -->
+  <InstallImplantNotAllowedForNonColonists>ليس مستوطناً</InstallImplantNotAllowedForNonColonists>
+  <!-- EN: already installed -->
+  <InstallImplantAlreadyInstalled>مثبت بالفعل</InstallImplantAlreadyInstalled>
+  <!-- EN: requires an existing {0} -->
+  <InstallImplantHediffRequired>يتطلب وجود {0}</InstallImplantHediffRequired>
+  <!-- EN: max level -->
+  <InstallImplantAlreadyMaxLevel>أقصى مستوى</InstallImplantAlreadyMaxLevel>
+  <!-- EN: requires min level {0} -->
+  <InstallImplantMinLevel>يتطلب مستوى أدنى {0}</InstallImplantMinLevel>
+  <!-- EN: psychically deaf -->
+  <InstallImplantPsychicallyDeaf>أصم نفسياً</InstallImplantPsychicallyDeaf>
+  <!-- EN: Upgrade {0} to level {1} -->
+  <UpgradeImplant>ترقية {0} إلى مستوى {1}</UpgradeImplant>
+  <!-- EN: violation of faction ally -->
+  <SurgeryViolationFellowFactionMember>انتهاك لحليف الفصيل</SurgeryViolationFellowFactionMember>
+  <!-- EN: being carried by {0_labelShort} -->
+  <BeingCarriedBy>يتم حمله بواسطة {0_labelShort}</BeingCarriedBy>
+  <!-- EN: full -->
+  <ContainerFull>ممتلئ</ContainerFull>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>مخصص بالفعل</AlreadyAssigned>
+  
+  <!-- EN: Consume {1_labelShort} -->
+  <ConsumeThing>استهلك {1_labelShort}</ConsumeThing>
+  
+  <!-- EN: Cannot go here: No path -->
+  <CannotGoNoPath>لا يمكن الذهاب إلى هنا: لا يوجد مسار</CannotGoNoPath>
+  <!-- EN: Go here -->
+  <GoHere>اذهب إلى هنا</GoHere>
+
+  <!-- EN: Clean {0} -->
+  <CleanRoom>نظف {0}</CleanRoom>
+  
+  <!-- EN: Arrest {0} -->
+  <Arrest>اعتقل {0}</Arrest>
+  <!-- EN: Try to arrest {1_labelShort} ({2} chance) -->
+  <TryToArrest>حاول اعتقال {1_labelShort} (احتمال {2})</TryToArrest>
+  <!-- EN: Cannot arrest -->
+  <CannotArrest>لا يمكن الاعتقال</CannotArrest>
+  <!-- EN: {0} chance of arrest -->
+  <ArrestChance>احتمال {0} للاعتقال</ArrestChance>
+
+  <!-- EN: Capture {1_labelShort} -->
+  <Capture>أسر {1_labelShort}</Capture>
+  <!-- EN: capture {0_labelShort} -->
+  <CaptureLower>أسر {0_labelShort}</CaptureLower>
+  <!-- EN: Cannot capture -->
+  <CannotCapture>لا يمكن الأسر</CannotCapture>
+  <!-- EN: unwaveringly loyal -->
+  <Unrecruitable>موالٍ بشدة</Unrecruitable>
+  <!-- EN: not recruitable -->
+  <UnrecruitableNoFaction>لا يمكن تجنيده</UnrecruitableNoFaction> 
+  <!-- EN: Transfer {0_label} -->
+  <TransferEntity>نقل {0_label}</TransferEntity> 
+
+  <!-- EN: Rescue {1_labelShort} -->
+  <Rescue>إنقاذ {1_labelShort}</Rescue>
+  <!-- EN: Put {1_labelShort} somewhere safe -->
+  <PutSomewhereSafe>ضع {1_labelShort} في مكان آمن</PutSomewhereSafe>
+  <!-- EN: Taking {0_labelShort} to bed. -->
+  <TakingToBed>يتم نقل {0_labelShort} إلى السرير.</TakingToBed>
+  <!-- EN: Cannot rescue -->
+  <CannotRescue>لا يمكن الإنقاذ</CannotRescue>
+  <!-- EN: Cannot rescue {PAWN_labelShort} -->
+  <CannotRescuePawn>لا يمكن إنقاذ {PAWN_labelShort}</CannotRescuePawn>
+
+  <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
+  <CarryToCryptosleepCasket>احمل {1_labelShort} إلى تابوت النوم البارد</CarryToCryptosleepCasket>
+  <!-- EN: Cannot carry to cryptosleep casket -->
+  <CannotCarryToCryptosleepCasket>لا يمكن الحمل إلى تابوت النوم البارد</CannotCarryToCryptosleepCasket>
+
+  <!-- EN: Carry {0_labelShort} to shuttle -->
+  <CarryToShuttle>احمل {0_labelShort} إلى المكوك</CarryToShuttle>
+
+  <!-- EN: No available cryptosleep casket. -->
+  <NoCryptosleepCasket>لا يوجد تابوت نوم بارد متاح.</NoCryptosleepCasket>
+  <!-- EN: Temporary faction members not allowed. -->
+  <CryptosleepCasketGuestsNotAllowed>أعضاء الفصيل المؤقتون غير مسموح بهم.</CryptosleepCasketGuestsNotAllowed>
+  <!-- EN: Hosted prisoners not allowed. -->
+  <CryptosleepCasketGuestPrisonersNotAllowed>السجناء المستضافون غير مسموح بهم.</CryptosleepCasketGuestPrisonersNotAllowed>
+  <!-- EN: Already occupied -->
+  <CryptosleepCasketOccupied>مشغول بالفعل</CryptosleepCasketOccupied>
+  <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
+  <NoPrisonerBed>لا يوجد سرير سجين متاح، مغلق، غير محجوز، ويمكن الوصول إليه في درجة حرارة آمنة.</NoPrisonerBed>
+  <!-- EN: No prisoner bed available. -->
+  <NoPrisonerBedShort>لا يوجد سرير سجين متاح.</NoPrisonerBedShort>
+  <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
+  <NoNonPrisonerBed>لا يوجد سرير غير سجين متاح، غير محجوز، ويمكن الوصول إليه في درجة حرارة آمنة.</NoNonPrisonerBed>
+  <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
+  <NoAnimalBed>لا يوجد سرير حيوان متاح، غير محجوز، ويمكن الوصول إليه في درجة حرارة آمنة.</NoAnimalBed>
+  <!-- EN: No reachable, unforbidden, un-reserved {0} -->
+  <NoItemReservedOrReachable>لا يوجد {0} متاح، غير محجوز، غير محظور، ويمكن الوصول إليه</NoItemReservedOrReachable>
+  <!-- EN: No unforbidden, un-reserved {0} -->
+  <NoItemReserved>لا يوجد {0} متاح، غير محجوز، غير محظور</NoItemReserved>
+  <!-- EN: Reserved by someone else. -->
+  <Reserved>محجوز من قبل شخص آخر.</Reserved>
+  <!-- EN: Reserved by {1_labelShort} -->
+  <ReservedBy>محجوز من قبل {1_labelShort}</ReservedBy>
+  <!-- EN: {0} is reserved by {1}. -->
+  <IsReservedBy>{0} محجوز من قبل {1}.</IsReservedBy>
+  <!-- EN: Too heavy -->
+  <TooHeavy>ثقيل جداً</TooHeavy>
+  <!-- EN: {0_labelShort} is in the same faction. -->
+  <SameFaction>{0_labelShort} في نفس الفصيل.</SameFaction>
+
+  <!-- EN: incapable -->
+  <Incapable>غير قادر</Incapable>
+  <!-- EN: incapable of {0} -->
+  <IncapableOfCapacity>غير قادر على {0}</IncapableOfCapacity>
+  <!-- EN: Must have {0_label} -->
+  <MustHaveHediff>يجب أن يمتلك {0_label}</MustHaveHediff>
+
+  <!-- EN: min skill -->
+  <MinSkill>الحد الأدنى للمهارة</MinSkill>
+  
+  <!-- EN: Equip {0} -->
+  <Equip>جهز {0}</Equip>
+  <!-- EN: (brawler will be unhappy) -->
+  <EquipWarningBrawler>(المشاجر سيكون غير سعيد)</EquipWarningBrawler>
+  <!-- EN: Cannot equip {0} -->
+  <CannotEquip>لا يمكن تجهيز {0}</CannotEquip>
+  <!-- EN: Cannot man {1_labelShort} -->
+  <CannotManThing>لا يمكن تشغيل {1_labelShort}</CannotManThing>
+  
+  <!-- EN: Force wear {1_labelShort} -->
+  <ForceWear>إجبار على ارتداء {1_labelShort}</ForceWear>
+  <!-- EN: Force target to wear {1_labelShort}... -->
+  <ForceTargetToWear>إجبار الهدف على ارتداء {1_labelShort}...</ForceTargetToWear>
+  <!-- EN: Cannot wear {1_label} -->
+  <CannotWear>لا يمكن ارتداء {1_label}</CannotWear>
+  <!-- EN: Cannot force target to wear {1_label} -->
+  <CannotForceTargetToWear>لا يمكن إجبار الهدف على ارتداء {1_label}</CannotForceTargetToWear>
+  <!-- EN: Force equip {1_labelShort} -->
+  <ForceEquipApparel>إجبار على تجهيز {1_labelShort}</ForceEquipApparel>
+  <!-- EN: Force target to equip {1_labelShort}... -->
+  <ForceTargetToEquipApparel>إجبار الهدف على تجهيز {1_labelShort}...</ForceTargetToEquipApparel>
+  <!-- EN: Cannot equip {1_label} -->
+  <CannotEquipApparel>لا يمكن تجهيز {1_label}</CannotEquipApparel>
+  <!-- EN: Cannot force target to equip {1_label} -->
+  <CannotForceTargetToEquipApparel>لا يمكن إجبار الهدف على تجهيز {1_label}</CannotForceTargetToEquipApparel>
+  <!-- EN: missing body parts -->
+  <CannotWearBecauseOfMissingBodyParts>أجزاء الجسم مفقودة</CannotWearBecauseOfMissingBodyParts>
+  
+  <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
+  <Reload>أعد تعبئة {GEAR_labelShort} بـ {AMMO_label}</Reload>
+  <!-- EN: Full -->
+  <ReloadFull>ممتلئ</ReloadFull>
+  <!-- EN: Too few -->
+  <ReloadNotEnough>قليل جداً</ReloadNotEnough>
+  <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
+  <ReloadCannotCarryEnough>لا يمكن حمل ما يكفي من {AMMO_label} لإعادة تعبئة شحنة واحدة.</ReloadCannotCarryEnough>
+  
+  <!-- EN: Cannot pick up {1_labelShort} -->
+  <CannotPickUp>لا يمكن التقاط {1_labelShort}</CannotPickUp>
+  <!-- EN: Cannot pick up {1_label} (all) -->
+  <CannotPickUpAll>لا يمكن التقاط {1_label} (الكل)</CannotPickUpAll>
+  <!-- EN: Pick up {1_labelShort} x1 -->
+  <PickUpOne>التقط {1_labelShort} x1</PickUpOne>
+  <!-- EN: Pick up {1_label} (all) -->
+  <PickUpAll>التقط {1_label} (الكل)</PickUpAll>
+  <!-- EN: Pick up {1_labelShort}... -->
+  <PickUpSome>التقط {1_labelShort}...</PickUpSome>
+  <!-- EN: Pick up {1_labelShort} x{{0}} -->
+  <PickUpCount>التقط {1_labelShort} x{{0}}</PickUpCount>
+  <!-- EN: Cannot pick up {1_labelShort} -->
+  <CannotPickUpSome>لا يمكن التقاط {1_labelShort}</CannotPickUpSome>
+  <!-- EN: {0} {1} allowed -->
+  <MaxPickUpAllowed>مسموح بـ {0} {1}</MaxPickUpAllowed>
+  
+  <!-- EN: Cannot load {1_label} onto pack animal -->
+  <CannotGiveToPackAnimal>لا يمكن تحميل {1_label} على حيوان التحميل</CannotGiveToPackAnimal>
+  <!-- EN: Cannot load {1_label} (all) onto pack animal -->
+  <CannotGiveToPackAnimalAll>لا يمكن تحميل {1_label} (الكل) على حيوان التحميل</CannotGiveToPackAnimalAll>
+  <!-- EN: Load {1_label} onto pack animal -->
+  <GiveToPackAnimal>حمل {1_label} على حيوان التحميل</GiveToPackAnimal>
+  <!-- EN: Load {1_label} (all) onto pack animal -->
+  <GiveToPackAnimalAll>حمل {1_label} (الكل) على حيوان التحميل</GiveToPackAnimalAll>
+  <!-- EN: Load {1_labelShort} onto pack animal... -->
+  <GiveToPackAnimalSome>حمل {1_labelShort} على حيوان التحميل...</GiveToPackAnimalSome>
+  <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
+  <GiveToPackAnimalCount>حمل {1_labelShort} x{{0}} على حيوان التحميل</GiveToPackAnimalCount>
+  
+  <!-- EN: Cannot load {1_label} into caravan -->
+  <CannotLoadIntoCaravan>لا يمكن تحميل {1_label} في القافلة</CannotLoadIntoCaravan>
+  <!-- EN: Cannot load {1_label} (all) into caravan -->
+  <CannotLoadIntoCaravanAll>لا يمكن تحميل {1_label} (الكل) في القافلة</CannotLoadIntoCaravanAll>
+  <!-- EN: Load {1_label} into caravan -->
+  <LoadIntoCaravan>حمل {1_label} في القافلة</LoadIntoCaravan>
+  <!-- EN: Load {1_label} (all) into caravan -->
+  <LoadIntoCaravanAll>حمل {1_label} (الكل) في القافلة</LoadIntoCaravanAll>
+  <!-- EN: Load {1_labelShort} into caravan... -->
+  <LoadIntoCaravanSome>حمل {1_labelShort} في القافلة...</LoadIntoCaravanSome>
+  <!-- EN: Load {1_labelShort} x{{0}} -->
+  <LoadIntoCaravanCount>حمل {1_labelShort} x{{0}}</LoadIntoCaravanCount>
+  <!-- EN: overweight -->
+  <OverweightLower>وزن زائد</OverweightLower>
+
+  <!-- EN: Cannot carry {1_labelShort} and leave the area -->
+  <CannotCarryToExit>لا يمكن حمل {1_labelShort} ومغادرة المنطقة</CannotCarryToExit>
+  <!-- EN: Carry {1_labelShort} and leave the area -->
+  <CarryToExit>احمل {1_labelShort} وغادر المنطقة</CarryToExit>
+  <!-- EN: Capture {1_labelShort} and leave the area -->
+  <CarryToExitAndCapture>أسر {1_labelShort} وغادر المنطقة</CarryToExitAndCapture>
+  
+  <!-- EN: Strip {1_labelShort} -->
+  <Strip>جرد {1_labelShort}</Strip>
+  <!-- EN: Cannot strip {1_labelShort} -->
+  <CannotStrip>لا يمكن تجريد {1_labelShort}</CannotStrip>
+  <!-- EN: Cannot drop {1_labelShort} -->
+  <CannotDrop>لا يمكن إسقاط {1_labelShort}</CannotDrop>
+  <!-- EN: Carry {0_labelShort} -->
+  <Carry>احمل {0_labelShort}</Carry>
+  <!-- EN: Cannot carry {0_labelShort} -->
+  <CannotCarry>لا يمكن حمل {0_labelShort}</CannotCarry>
+  <!-- EN: hostile -->
+  <CarriedPawnHostile>معادٍ</CarriedPawnHostile>
+  <!-- EN: temporary faction member -->
+  <QuestRelated>عضو فصيل مؤقت</QuestRelated>
+  <!-- EN: Cannot change outfits on temporary faction members -->
+  <QuestRelated_Outfit>لا يمكن تغيير الملابس لأعضاء الفصيل المؤقتين</QuestRelated_Outfit>
+  <!-- EN: would replace locked apparel -->
+  <WouldReplaceLockedApparel>سيؤدي إلى استبدال ملابس مقفلة</WouldReplaceLockedApparel>
+
+  <!-- EN: Cannot place {0_label} in {1_label} -->
+  <CannotPlaceIn>لا يمكن وضع {0_label} في {1_label}</CannotPlaceIn>
+  <!-- EN: Place {0_label} in {1_label} -->
+  <PlaceIn>ضع {0_label} في {1_label}</PlaceIn>
+
+  <!-- EN: Self-destruct here -->
+  <SelfDestructHere>تدمير ذاتي هنا</SelfDestructHere>
+  
+  <!-- EN: Drop {1_labelShort} -->
+  <Drop>أسقط {1_labelShort}</Drop>
+
+  <!-- EN: Rest until healed -->
+  <UseMedicalBed>استرح حتى الشفاء</UseMedicalBed>
+  <!-- EN: not injured -->
+  <NotInjured>غير مصاب</NotInjured>
+  <!-- EN: no doctor -->
+  <NoDoctor>لا يوجد طبيب</NoDoctor>
+  <!-- EN: medical bed not for slaves -->
+  <NotForSlaves>السرير الطبي ليس للعبيد</NotForSlaves>
+  <!-- EN: Medical care disabled -->
+  <MedicalCareDisabled>الرعاية الطبية معطلة</MedicalCareDisabled>
+  <!-- EN: occupied by {0} -->
+  <SomeoneElseSleeping>مشغول من قبل {0}</SomeoneElseSleeping>
+  
+  <!-- EN: Trade with {0} -->
+  <TradeWith>تاجر مع {0}</TradeWith>
+  <!-- EN: Dismiss trader -->
+  <DismissTrader>صرف التاجر</DismissTrader>
+  <!-- EN: Cannot trade -->
+  <CannotTrade>لا يمكن التجارة</CannotTrade>
+  <!-- EN: Trader dismissed -->
+  <TraderDismissed>تم صرف التاجر</TraderDismissed>
+
+  <!-- EN: Open {0_label} -->
+  <Open>افتح {0_label}</Open>
+  <!-- EN: Cannot open {0_label} -->
+  <CannotOpen>لا يمكن فتح {0_label}</CannotOpen>
+  
+  <!-- EN: Enter {0} -->
+  <EnterMap>ادخل {0}</EnterMap>
+  <!-- EN: Visit {0} -->
+  <VisitSettlement>زر {0}</VisitSettlement>
+  <!-- EN: Visit {0} -->
+  <VisitPeaceTalks>زر {0}</VisitPeaceTalks>
+  <!-- EN: Visit {0} -->
+  <VisitEscapeShip>زر {0}</VisitEscapeShip>
+  <!-- EN: Attack {0} -->
+  <AttackSettlement>هاجم {0}</AttackSettlement>
+  <!-- EN: Approach {0} -->
+  <ApproachSite>اقترب من {0}</ApproachSite>
+  <!-- EN: Approaching {0}. -->
+  <ApproachingSite>الاقتراب من {0}.</ApproachingSite>
+  <!-- EN: Offer gifts -->
+  <OfferGifts>قدّم هدايا</OfferGifts>
+  <!-- EN: Trade with {0} -->
+  <TradeWithSettlement>تاجر مع {0}</TradeWithSettlement>
+
+  <!-- Specific thing interactions -->
+  <!-- EN: Enter cryptosleep casket -->
+  <EnterCryptosleepCasket>ادخل تابوت النوم البارد</EnterCryptosleepCasket>
+  <!-- EN: Open cryptosleep casket -->
+  <OpenCryptosleepCasket>افتح تابوت النوم البارد</OpenCryptosleepCasket>
+  <!-- EN: Get in shuttle -->
+  <EnterShuttle>اصعد إلى المكوك</EnterShuttle>
+
+  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
+  <!-- EN: Cannot {0} {1} -->
+  <CannotGenericWork>لا يمكن {0} {1}</CannotGenericWork>
+  <!-- EN: Cannot {0} -->
+  <CannotGenericWorkCustom>لا يمكن {0}</CannotGenericWorkCustom>
+
+  <!-- EN: Incapable of {0} -->
+  <CannotMissingHealthActivities>غير قادر على {0}</CannotMissingHealthActivities>
+
+  <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
+  <!-- EN: Already {0} {2_labelShort} -->
+  <CannotGenericAlreadyAm>يقوم بالفعل بـ {0} {2_labelShort}</CannotGenericAlreadyAm>
+  <!-- EN: Already {0} -->
+  <CannotGenericAlreadyAmCustom>يقوم بالفعل بـ {0}</CannotGenericAlreadyAmCustom>
+
+  <!-- EN: Will never do {0} -->
+  <CannotPrioritizeWorkTypeDisabled>لن يقوم أبداً بـ {0}</CannotPrioritizeWorkTypeDisabled>
+  <!-- EN: lacking necessary title -->
+  <MissingTitleAbility>يفتقر إلى اللقب الضروري</MissingTitleAbility>
+
+  <!-- EN: Will never {0} -->
+  <CannotPrioritizeWorkGiverDisabled>لن يقوم أبداً بـ {0}</CannotPrioritizeWorkGiverDisabled>
+  <!-- EN: will never {0} -->
+  <WillNever>لن يقوم أبداً بـ {0}</WillNever>
+
+  <!-- EN: Not assigned to {0} -->
+  <CannotPrioritizeNotAssignedToWorkType>غير مخصص لـ {0}</CannotPrioritizeNotAssignedToWorkType>
+  <!-- EN: not assigned -->
+  <NotAssigned>غير مخصص</NotAssigned>
+  <!-- EN: not assigned to {0} -->
+  <NotAssignedToWorkType>غير مخصص لـ {0}</NotAssignedToWorkType>
+
+  <!-- EN: Research is a long-term task -->
+  <CannotPrioritizeResearch>البحث مهمة طويلة الأمد</CannotPrioritizeResearch>
+
+  <!-- EN: {1_label} is forbidden -->
+  <CannotPrioritizeForbidden>{1_label} محظور</CannotPrioritizeForbidden>
+  <!-- EN: Cannot prioritize: Forbidden -->
+  <CannotPrioritizeCellForbidden>لا يمكن تحديد الأولوية: محظور</CannotPrioritizeCellForbidden>
+  <!-- EN: Outside allowed area -->
+  <CannotPrioritizeForbiddenOutsideAllowedArea>خارج المنطقة المسموحة</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <!-- EN: Cannot prioritize burying -->
+  <CannotPrioritizeBurying>لا يمكن تحديد أولوية الدفن</CannotPrioritizeBurying>
+
+  <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
+  <!-- EN: Prioritize {0} {1} -->
+  <PrioritizeGeneric>حدد أولوية {0} {1}</PrioritizeGeneric>
+  <!-- EN: Prioritize {0} -->
+  <PrioritizeGenericSimple>حدد أولوية {0}</PrioritizeGenericSimple>
+
+  <!-- EN: Launch to {LOCATION_label} -->
+  <LaunchTo>انطلق إلى {LOCATION_label}</LaunchTo>
+  <!-- EN: Are you sure you want to launch? -->
+  <LaunchToConfirmation>هل أنت متأكد من أنك تريد الانطلاق؟</LaunchToConfirmation>
+  <!-- EN: Drop at edge -->
+  <DropAtEdge>أسقط عند الحافة</DropAtEdge>
+  <!-- EN: Drop in center -->
+  <DropInCenter>أسقط في المركز</DropInCenter>
+  <!-- EN: Attack {0} -->
+  <AttackShuttle>هاجم {0}</AttackShuttle>
+  <!-- EN: Attack {0}: Drop at edge -->
+  <AttackAndDropAtEdge>هاجم {0}: أسقط عند الحافة</AttackAndDropAtEdge>
+  <!-- EN: Attack {0}: Drop in center -->
+  <AttackAndDropInCenter>هاجم {0}: أسقط في المركز</AttackAndDropInCenter>
+  
+  <!-- EN: vomiting -->
+  <VomitingLower>قيء</VomitingLower>
+  <!-- EN: not interruptible -->
+  <NotInterruptibleLower>غير قابل للمقاطعة</NotInterruptibleLower>
+  
+  <!-- EN: Add a new waypoint here -->
+  <AddWaypoint>أضف نقطة طريق جديدة هنا</AddWaypoint>
+  <!-- EN: Remove this waypoint -->
+  <RemoveWaypoint>أزل نقطة الطريق هذه</RemoveWaypoint>
+
+  <!-- EN: Cancel all designations -->
+  <RemoveAllDesignations>ألغِ جميع التعيينات</RemoveAllDesignations>
+  <!-- EN: Designate all -->
+  <DesignateAll>عين الكل</DesignateAll>
+  <!-- EN: {0} affected -->
+  <CountToDesignate>{0} متأثر</CountToDesignate>
+  <!-- EN: Forbid all items -->
+  <ForbidAllItems>احظر جميع العناصر</ForbidAllItems>
+  <!-- EN: Unforbid all items -->
+  <UnforbidAllItems>ألغِ حظر جميع العناصر</UnforbidAllItems>
+
+  <!-- Transport pods -->
+  <!-- EN: Zoom in and choose a landing spot in {0} -->
+  <LandInExistingMap>قم بالتقريب واختر موقع هبوط في {0}</LandInExistingMap>
+  <!-- EN: The contents will be lost -->
+  <TransportPodsContentsWillBeLost>سيتم فقدان المحتويات</TransportPodsContentsWillBeLost>
+  <!-- EN: Form caravan here -->
+  <FormCaravanHere>شكل قافلة هنا</FormCaravanHere>
+  <!-- EN: Give to {0} -->
+  <GiveToCaravan>امنح لـ {0}</GiveToCaravan>
+  <!-- EN: Give as a gift to {0} ({1}) -->
+  <GiveGiftViaTransportPods>امنح كهدية لـ {0} ({1})</GiveGiftViaTransportPods>
+  <!-- EN: Not part of launch group -->
+  <NotPartOfLaunchGroup>ليس جزءاً من مجموعة الإطلاق</NotPartOfLaunchGroup>
+
+  <!-- Rescue quest -->
+  <!-- EN: Free prisoner -->
+  <FreePrisoner>حرر سجيناً</FreePrisoner>
+  <!-- EN: Offer help -->
+  <OfferHelp>اعرض المساعدة</OfferHelp>
+
+  <!-- EN: apply {0} -->
+  <ApplyTechprint>طبق {0}</ApplyTechprint>
+
+  <!-- EN: Too dangerous -->
+  <EnterCooldownBlocksEntering>خطير جداً</EnterCooldownBlocksEntering>
+
+  <!-- CommsConsole -->
+  <!-- EN: Nobody to call -->
+  <NoCommsTarget>لا يوجد أحد للاتصال به</NoCommsTarget>
+
+  <!-- EN: Invoke {0} -->
+  <Invoke>استدعِ {0}</Invoke>
+  <!-- EN: Cannot invoke {0} -->
+  <CannotInvoke>لا يمكن استدعاء {0}</CannotInvoke>
+  <!-- EN: power -->
+  <Power>طاقة</Power>
+  <!-- EN: already invoked -->
+  <AlreadyInvoked>تم استدعاؤه بالفعل</AlreadyInvoked>
+
+  <!-- EN: Tend {0} -->
+  <Tend>عالج {0}</Tend>
+  <!-- EN: Cannot tend {0} -->
+  <CannotTend>لا يمكن علاج {0}</CannotTend>
+  <!-- EN: {0} does not require tending -->
+  <TendingNotRequired>{0} لا تتطلب علاجاً</TendingNotRequired>
+  <!-- EN: without medicine -->
+  <WithoutMedicine>بدون دواء</WithoutMedicine>
+
+  <!-- EN: Repair {0} -->
+  <RepairThing>أصلح {0}</RepairThing>
+  <!-- EN: Cannot repair {0} -->
+  <CannotRepair>لا يمكن إصلاح {0}</CannotRepair>
+
+  <!-- EN: Cannot enter -->
+  <CannotEnter>لا يمكن الدخول</CannotEnter>
+  
+  <!-- EN: Cannot enter {0} -->
+  <CannotEnterPortal>لا يمكن دخول {0}</CannotEnterPortal>
+  <!-- EN: closed -->
+  <PortalClosed>مغلق</PortalClosed>
+
+  <!-- Romance partner -->
+  <!-- EN: Cannot romance {0} -->
+  <CannotRomance>لا يمكن مغازلة {0}</CannotRomance>
+  <!-- EN: Romance {0} -->
+  <CanRomance>غازل {0}</CanRomance>
+
+  <!-- Feeding -->
+  <!-- EN: disliked food -->
+  <WarningFoodDisliked>طعام غير مفضل</WarningFoodDisliked>
+  <!-- EN: Unsuitable food -->
+  <FoodNotSuitable>طعام غير مناسب</FoodNotSuitable>
+
+  <!-- EN: Unsuitable drug -->
+  <DrugNotSuitable>عقار غير مناسب</DrugNotSuitable>
+  
+  <!-- Books -->
+  <!-- EN: Assign reading... -->
+  <AssignReading>خصص قراءة...</AssignReading>
+  <!-- EN: Read {0} -->
+  <AssignReadNow>اقرأ {0}</AssignReadNow>
+  <!-- EN: Cannot read {0} -->
+  <AssignCannotReadNow>لا يمكن قراءة {0}</AssignCannotReadNow>
+  
+  <!-- EN: Prioritize extinguishing fires -->
+  <ExtinguishFiresNearby>حدد أولوية إطفاء الحرائق</ExtinguishFiresNearby>
+
+  <!-- Analysis -->
+  <!-- EN: already analyzed -->
+  <AlreadyAnalyzed>تم تحليله بالفعل</AlreadyAnalyzed>
+  <!-- EN: no reachable, un-reserved research bench available -->
+  <NoResearchBench>لا يوجد طاولة أبحاث متاحة، غير محجوزة، ويمكن الوصول إليها</NoResearchBench>
+
+  <!-- Hacking -->
+  <!-- EN: Hack {0} -->
+  <Hack>اخترق {0}</Hack>
+  <!-- EN: Choose a colonist to hack this. -->
+  <HackDesc>اختر مستوطناً لاختراق هذا.</HackDesc>
+  <!-- EN: Cannot hack {0} -->
+  <CannotHack>لا يمكن اختراق {0}</CannotHack>
+  <!-- EN: Locked out -->
+  <LockedOut>مقفل</LockedOut>
+  <!-- EN: Already hacked -->
+  <AlreadyHacked>تم اختراقه بالفعل</AlreadyHacked>
+  <!-- EN: Incapable of hacking -->
+  <IncapableOfHacking>غير قادر على الاختراق</IncapableOfHacking>
+  <!-- EN: to drop supplies -->
+  <ToDropSupplies>لإسقاط الإمدادات</ToDropSupplies>
+
+</LanguageData>

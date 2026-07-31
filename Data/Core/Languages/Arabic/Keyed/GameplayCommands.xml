@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Forbid -->
+  <!-- EN: Forbid -->
+  <CommandForbid>منع</CommandForbid>
+  <!-- EN: Allow -->
+  <CommandAllow>سماح</CommandAllow>
+  <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
+  <CommandForbiddenDesc>ممنوع: لا يُسمح لمستعمريك بالتفاعل مع هذا العنصر. اضغط للسماح.</CommandForbiddenDesc>
+  <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
+  <CommandNotForbiddenDesc>مسموح: يُسمح لمستعمريك بالتفاعل مع هذا العنصر. اضغط للمنع.</CommandNotForbiddenDesc>
+
+  <!-- Power -->
+  <!-- EN: Toggle power -->
+  <CommandTogglePowerLabel>تبديل الطاقة</CommandTogglePowerLabel>
+  <!-- EN: Toggle power. -->
+  <CommandTogglePowerDesc>تبديل حالة الطاقة.</CommandTogglePowerDesc>
+  
+  <!-- EN: Designate toggle power -->
+  <CommandDesignateTogglePowerLabel>تعيين تبديل الطاقة</CommandDesignateTogglePowerLabel>
+  <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
+  <CommandDesignateTogglePowerDesc>تعيين هذا الشيء ليتم تبديل طاقته. سيأتي أحد المستعمرين قريبًا لقلب المفتاح.</CommandDesignateTogglePowerDesc>
+  
+  <!-- EN: Reconnect -->
+  <CommandTryReconnectLabel>إعادة الاتصال</CommandTryReconnectLabel>
+  <!-- EN: Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby. -->
+  <CommandTryReconnectDesc>حاول الاتصال بشبكة طاقة أخرى ضمن نطاق اتصالي. هذا مفيد إذا كنت متصلاً بشبكة لا تعمل ولكن توجد شبكة عاملة قريبة.</CommandTryReconnectDesc>
+
+  <!-- EN: Gather spot -->
+  <CommandGatherSpotToggleLabel>نقطة التجمع</CommandGatherSpotToggleLabel>
+  <!-- EN: Active - colonists will gather around this object. -->
+  <CommandGatherSpotToggleDescActive>نشطة - سيتجمع المستعمرون حول هذا الكائن.</CommandGatherSpotToggleDescActive>
+  <!-- EN: Inactive - colonists will not gather around this object. -->
+  <CommandGatherSpotToggleDescInactive>غير نشطة - لن يتجمع المستعمرون حول هذا الكائن.</CommandGatherSpotToggleDescInactive>
+  
+  <!-- Drafting -->
+  <!-- EN: Draft -->
+  <CommandDraftLabel>تجنيد</CommandDraftLabel>
+  <!-- EN: Undraft -->
+  <CommandUndraftLabel>إلغاء التجنيد</CommandUndraftLabel>
+  <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
+  <CommandToggleDraftDesc>تبديل حالة التجنيد العسكري.\n\nالمجندون ينفذون الأوامر ويقاتلون. لن يقوموا بالعمل أو الأكل أو الراحة.</CommandToggleDraftDesc>
+  <!-- EN: {1_labelShort} cannot walk. -->
+  <IsIncapped>{1_labelShort} لا يستطيع المشي.</IsIncapped>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <ParticipatingInRitual>{0_labelShort} يشارك في {1}.</ParticipatingInRitual>
+
+  <!-- EN: Fire at will -->
+  <CommandFireAtWillLabel>إطلاق النار عند الرؤية</CommandFireAtWillLabel>
+  <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
+  <CommandFireAtWillDesc>تبديل حالة إطلاق النار التلقائي.\n\nعند التعطيل، لن تطلق هذه الشخصية النار تلقائيًا على الأهداف البعيدة. لا يؤثر هذا على القتال المباشر.</CommandFireAtWillDesc>
+  
+  <!-- EN: Clear prioritized work -->
+  <CommandClearPrioritizedWork>مسح العمل ذي الأولوية</CommandClearPrioritizedWork>
+  <!-- EN: Clear any prioritized work you assigned. The character will go back to their usual self-directed activities. -->
+  <CommandClearPrioritizedWorkDesc>مسح أي عمل ذي أولوية قمت بتعيينه. ستعود الشخصية إلى أنشطتها المعتادة الموجهة ذاتيًا.</CommandClearPrioritizedWorkDesc>
+  
+  <!-- EN: Cancel -->
+  <CommandCancelConstructionLabel>إلغاء</CommandCancelConstructionLabel>
+  <!-- EN: Cancel this construction. -->
+  <CommandCancelConstructionDesc>إلغاء هذا البناء.</CommandCancelConstructionDesc>
+
+  <!-- EN: Get out of bed -->
+  <CommandGetOutOfBedLabel>الخروج من السرير</CommandGetOutOfBedLabel>
+  <!-- EN: Get out of current bed. -->
+  <CommandGetOutOfBedDesc>الخروج من السرير الحالي.</CommandGetOutOfBedDesc>
+
+  <!-- EN: Set owner -->
+  <CommandThingSetOwnerLabel>تحديد المالك</CommandThingSetOwnerLabel>
+  <!-- EN: Assign this bed to be owned by a specific {0}. -->
+  <CommandBedSetOwnerDesc>تخصيص هذا السرير ليكون مملوكًا لـ {0} معين.</CommandBedSetOwnerDesc>
+  <!-- EN: Assign this throne to be owned by a specific colonist. -->
+  <CommandThroneSetOwnerDesc>تخصيص هذا العرش ليكون مملوكًا لمستعمر معين.</CommandThroneSetOwnerDesc>
+  <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
+  <CommandMeditationSpotSetOwnerDesc>تخصيص بقعة التأمل هذه لتكون مملوكة لمستعمر معين.</CommandMeditationSpotSetOwnerDesc>
+  <!-- EN: Assign colonist -->
+  <CommandGraveAssignColonistLabel>تعيين مستعمر</CommandGraveAssignColonistLabel>
+  <!-- EN: Assign this grave to be owned by a specific colonist. -->
+  <CommandGraveAssignColonistDesc>تخصيص هذا القبر ليكون مملوكًا لمستعمر معين.</CommandGraveAssignColonistDesc>
+  <!-- EN: Assign -->
+  <BuildingAssign>تعيين</BuildingAssign>
+  <!-- EN: Reassign -->
+  <BuildingReassign>إعادة تعيين</BuildingReassign>
+  <!-- EN: Unassign -->
+  <BuildingUnassign>إلغاء التعيين</BuildingUnassign>
+  <!-- EN: For prisoners -->
+  <CommandBedSetForPrisonersLabel>للسجناء</CommandBedSetForPrisonersLabel>
+  <!-- EN: Whether beds in this room should be used by prisoners. -->
+  <CommandBedSetForPrisonersDesc>ما إذا كان ينبغي استخدام الأسرّة في هذه الغرفة من قبل السجناء.</CommandBedSetForPrisonersDesc>
+  <!-- EN: Only beds in enclosed spaces can be set for prisoners. -->
+  <CommandBedSetForPrisonersFailOutdoors>يمكن فقط تعيين الأسرّة الموجودة في مساحات مغلقة للسجناء.</CommandBedSetForPrisonersFailOutdoors>
+  <!-- EN: Medical -->
+  <CommandBedSetAsMedicalLabel>طبي</CommandBedSetAsMedicalLabel>
+  <!-- EN: Whether this bed is for medical use. -->
+  <CommandBedSetAsMedicalDesc>ما إذا كان هذا السرير للاستخدام الطبي.</CommandBedSetAsMedicalDesc>
+  <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
+  <TurningOnPrisonerBedWarning>تفعيل وضع السجناء يؤثر على الغرفة بأكملها (حيث لا يمكن للسجناء والمستعمرين النوم في نفس الغرفة).\n\nهؤلاء الأشخاص سيفقدون ملكية أسرّتهم:</TurningOnPrisonerBedWarning>
+  <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
+  <TurningOffPrisonerBedWarning>تعطيل وضع السجناء يؤثر على الغرفة بأكملها (حيث لا يمكن للسجناء والمستعمرين النوم في نفس الغرفة).\n\nهؤلاء الأشخاص سيفقدون ملكية أسرّتهم:</TurningOffPrisonerBedWarning>
+  <!-- EN: Are you sure you want to do this? -->
+  <AreYouSure>هل أنت متأكد من رغبتك في فعل ذلك؟</AreYouSure>
+  <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
+  <ChangingOwnerTypeBedWarning>تغيير استخدام السرير يؤثر على الغرفة بأكملها (حيث لا يمكن للسجناء والعبيد والمستعمرين النوم في نفس الغرفة).\n\nهؤلاء الأشخاص سيفقدون ملكية أسرّتهم:</ChangingOwnerTypeBedWarning>
+  
+  <!-- EN: Detonate -->
+  <CommandDetonateLabel>تفجير</CommandDetonateLabel>
+  <!-- EN: Start the countdown to detonation. -->
+  <CommandDetonateDesc>بدء العد التنازلي للتفجير.</CommandDetonateDesc>
+  
+  <!-- EN: Hide -->
+  <CommandHideLabel>إخفاء</CommandHideLabel>
+  <!-- EN: Unhide -->
+  <CommandUnhideLabel>إظهار</CommandUnhideLabel>
+  
+  <!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
+  <CommandHidePlanDesc>تبديل رؤية هذه الخطة.\n\nانقر بزر الفأرة الأيمن لإخفاء أو إظهار كل المناطق.</CommandHidePlanDesc>
+  <!-- EN: Hide/unhide this zone.\n\nRight-click to hide or unhide all zones. -->
+  <CommandHideZoneDesc>إخفاء/إظهار هذه المنطقة.\n\nانقر بزر الفأرة الأيمن لإخفاء أو إظهار كل المناطق.</CommandHideZoneDesc>
+  
+  <!-- EN: Show all zones -->
+  <ShowAllZones>إظهار كل المناطق</ShowAllZones>
+  <!-- EN: Hide all zones -->
+  <HideAllZones>إخفاء كل المناطق</HideAllZones>
+  <!-- EN: Show all {0} zones -->
+  <ShowAllZoneTypes>إظهار كل مناطق {0}</ShowAllZoneTypes>
+  <!-- EN: Hide all {0} zones -->
+  <HideAllZoneTypes>إخفاء كل مناطق {0}</HideAllZoneTypes>
+  <!-- EN: planning -->
+  <Planning>تخطيط</Planning>
+  
+  <!-- EN: Change color -->
+  <CommandChangeColorPlanLabel>تغيير اللون</CommandChangeColorPlanLabel>
+  <!-- EN: Change the color of this plan. -->
+  <CommandChangeColorPlanDesc>تغيير لون هذه الخطة.</CommandChangeColorPlanDesc>
+  
+  <!-- EN: Delete -->
+  <CommandDeletePlanLabel>حذف</CommandDeletePlanLabel>
+  <!-- EN: Delete this plan. -->
+  <CommandDeletePlanDesc>حذف هذه الخطة.</CommandDeletePlanDesc>
+  
+  <!-- EN: Copy -->
+  <CommandCopyPlanLabel>نسخ</CommandCopyPlanLabel>
+  <!-- EN: Copy this plan. -->
+  <CommandCopyPlanDesc>نسخ هذه الخطة.</CommandCopyPlanDesc>
+  
+  <!-- EN: Copy selection... -->
+  <CommandCopyPlanSelectionLabel>نسخ التحديد...</CommandCopyPlanSelectionLabel>
+  <!-- EN: Copy all plans within a selected area. -->
+  <CommandCopyPlanSelectionDesc>نسخ كل الخطط داخل منطقة محددة.</CommandCopyPlanSelectionDesc>
+  <!-- EN: Select area to copy -->
+  <CommandCopyPlanSelectionMouse>حدد المنطقة للنسخ</CommandCopyPlanSelectionMouse>
+  <!-- EN: Paste selected area -->
+  <CommandCopyPlanSelectionPasteMouse>لصق المنطقة المحددة</CommandCopyPlanSelectionPasteMouse>
+
+  <!-- EN: Delete -->
+  <CommandDeleteZoneLabel>حذف</CommandDeleteZoneLabel>
+  <!-- EN: Delete this zone. -->
+  <CommandDeleteZoneDesc>حذف هذه المنطقة.</CommandDeleteZoneDesc>
+
+  <!-- EN: Copy settings -->
+  <CommandCopyZoneSettingsLabel>نسخ الإعدادات</CommandCopyZoneSettingsLabel>
+  <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
+  <CommandCopyZoneSettingsDesc>نسخ إعدادات وحدة التخزين هذه إلى الحافظة لتتمكن من لصقها في منطقة أخرى.</CommandCopyZoneSettingsDesc>
+
+  <!-- EN: Paste settings -->
+  <CommandPasteZoneSettingsLabel>لصق الإعدادات</CommandPasteZoneSettingsLabel>
+  <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
+  <CommandPasteZoneSettingsDesc>الكتابة فوق إعدادات وحدة التخزين هذه بالإعدادات التي تم نسخها مسبقًا إلى الحافظة.</CommandPasteZoneSettingsDesc>
+
+  <!-- EN: Allow sowing -->
+  <CommandAllowSow>السماح بالبذر</CommandAllowSow>
+  <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
+  <CommandAllowSowDesc>عند التعطيل، لن يقوم المستعمرون ببذر نباتات جديدة في هذه المنطقة. سيستمرون في الحصاد.</CommandAllowSowDesc>
+
+  <!-- EN: Allow cutting -->
+  <CommandAllowCut>السماح بالقطع</CommandAllowCut>
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
+  <CommandAllowCutDesc>عند التعطيل، لن يقوم المستعمرون أبدًا بقطع النباتات في هذه المنطقة. سيظلون يزرعون نباتات جديدة في المساحات الفارغة بالفعل، ويحصدون النباتات التي تطابق نوع نبات منطقة الزراعة.</CommandAllowCutDesc>
+  
+  <!-- EN: Select {0_label} -->
+  <CommandSelectStoredThing>حدد {0_label}</CommandSelectStoredThing>
+  <!-- EN: Select the item stored in here. -->
+  <CommandSelectStoredThingDesc>حدد العنصر المخزن هنا.</CommandSelectStoredThingDesc>
+
+  <!-- Artillery -->
+  <!-- EN: Set forced target -->
+  <CommandSetForceAttackTarget>تحديد هدف إجباري</CommandSetForceAttackTarget>
+  <!-- EN: Sets a target that this turret must attack continuously as long as it can. -->
+  <CommandSetForceAttackTargetDesc>تحديد هدف يجب أن تهاجمه هذه البرج بشكل مستمر طالما كان ذلك ممكنًا.</CommandSetForceAttackTargetDesc>
+  <!-- EN: Stop forced attack -->
+  <CommandStopForceAttack>إيقاف الهجوم الإجباري</CommandStopForceAttack>
+  <!-- EN: Stops force-attacking and allows the turret to fire as it wishes. -->
+  <CommandStopForceAttackDesc>إيقاف الهجوم الإجباري والسماح للبرج بإطلاق النار كما تشاء.</CommandStopForceAttackDesc>
+  <!-- EN: Not currently force-attacking. -->
+  <CommandStopAttackFailNotForceAttacking>لا يوجد هجوم إجباري حاليًا.</CommandStopAttackFailNotForceAttacking>
+  <!-- EN: Extract shell -->
+  <CommandExtractShell>استخراج القذيفة</CommandExtractShell>
+  <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
+  <CommandExtractShellDesc>تفريغ القذيفة الحالية حتى يمكن استبدالها بذخيرة مختلفة.</CommandExtractShellDesc>
+  <!-- EN: Target beyond maximum range. -->
+  <MessageTargetBeyondMaximumRange>الهدف خارج النطاق الأقصى.</MessageTargetBeyondMaximumRange>
+  <!-- EN: Target below minimum range. -->
+  <MessageTargetBelowMinimumRange>الهدف تحت النطاق الأدنى.</MessageTargetBelowMinimumRange>
+  <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
+  <MessageTurretWontFireBecauseHoldFire>تحذير: لن تطلق الهاون النار لأنها مضبوطة على "توقف عن إطلاق النار".</MessageTurretWontFireBecauseHoldFire>
+  
+  <!-- Ship computer core -->
+  <!-- EN: Launch ship -->
+  <CommandShipLaunch>إطلاق السفينة</CommandShipLaunch>
+  <!-- EN: Start the ship launch sequence with the current configuration. -->
+  <CommandShipLaunchDesc>بدء تسلسل إطلاق السفينة بالتكوين الحالي.</CommandShipLaunchDesc>
+  <!-- EN: Show launch report -->
+  <CommandShipLaunchReport>إظهار تقرير الإطلاق</CommandShipLaunchReport>
+  <!-- EN: Show a readiness report about the ship's launch capability. -->
+  <CommandShipLaunchReportDesc>إظهار تقرير جاهزية حول قدرة السفينة على الإطلاق.</CommandShipLaunchReportDesc>
+  <!-- EN: Start ship -->
+  <CommandShipStartup>تشغيل السفينة</CommandShipStartup>
+  <!-- EN: Wake up hibernating ship components. -->
+  <CommandShipStartupDesc>إيقاظ مكونات السفينة الخاملة.</CommandShipStartupDesc>
+
+  <!-- Pod -->
+  <!-- EN: Eject sleeper -->
+  <CommandPodEject>إخراج النائم</CommandPodEject>
+  <!-- EN: Wake up the cryptosleeper and eject them. -->
+  <CommandPodEjectDesc>إيقاظ النائم في الكريبتو وإخراجه.</CommandPodEjectDesc>
+  <!-- EN: Contains nobody. -->
+  <CommandPodEjectFailEmpty>لا يحتوي على أحد.</CommandPodEjectFailEmpty>
+
+  <!-- Door -->
+  <!-- EN: Passage forbidden -->
+  <CommandToggleDoorForbid>المرور ممنوع</CommandToggleDoorForbid>
+  <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
+  <CommandToggleDoorForbidDesc>عندما يكون الباب ممنوعًا، لن يمر المستعمرون والحلفاء من خلاله. لا يؤثر هذا على كيفية تفاعل الأعداء أو الحيوانات مع الباب.</CommandToggleDoorForbidDesc>
+  <!-- EN: Hold open -->
+  <CommandToggleDoorHoldOpen>إبقاء الباب مفتوحًا</CommandToggleDoorHoldOpen>
+  <!-- EN: When active, your colonists will not close the door after passing through. -->
+  <CommandToggleDoorHoldOpenDesc>عند التفعيل، لن يغلق مستعمروك الباب بعد المرور منه.</CommandToggleDoorHoldOpenDesc>
+
+  <!-- Temperature control -->
+  <!-- EN: Reset -->
+  <CommandResetTemp>إعادة تعيين</CommandResetTemp>
+  <!-- EN: Reset the target temperature to room temperature. -->
+  <CommandResetTempDesc>إعادة تعيين درجة الحرارة المستهدفة إلى درجة حرارة الغرفة.</CommandResetTempDesc>
+  <!-- EN: Raise the target temperature. -->
+  <CommandRaiseTempDesc>رفع درجة الحرارة المستهدفة.</CommandRaiseTempDesc>
+  <!-- EN: Lower the target temperature. -->
+  <CommandLowerTempDesc>خفض درجة الحرارة المستهدفة.</CommandLowerTempDesc>
+
+  <!-- Install/reinstall -->
+  <!-- EN: Install -->
+  <CommandInstall>تثبيت</CommandInstall>
+  <!-- EN: This item is currently packaged up for storage and transport. Use this command to install this item in a final location. -->
+  <CommandInstallDesc>هذا العنصر معبأ حاليًا للتخزين والنقل. استخدم هذا الأمر لتثبيت هذا العنصر في الموقع النهائي.</CommandInstallDesc>
+  <!-- EN: Reinstall at... -->
+  <CommandReinstall>إعادة تثبيت في...</CommandReinstall>
+  <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
+  <CommandReinstallDesc>تعيين هذا العنصر ليتم إلغاء تثبيته وإعادة تثبيته في مكان آخر.</CommandReinstallDesc>
+  <!-- EN: Replant -->
+  <CommandReplant>إعادة زراعة</CommandReplant>
+  <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
+  <CommandReplantDesc>هذه الشجرة معبأة حاليًا للتخزين والنقل. استخدم هذا الأمر لإعادة زراعتها في موقع جديد.</CommandReplantDesc>
+  
+  <!-- Trade beacon -->
+  <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
+  <CommandMakeBeaconStockpileDesc>إنشاء منطقة تخزين حول هذا المبنى تطابق تمامًا شكل نصف قطر إطلاق المنارة.</CommandMakeBeaconStockpileDesc>
+  <!-- EN: Create stockpile -->
+  <CommandMakeBeaconStockpileLabel>إنشاء منطقة تخزين</CommandMakeBeaconStockpileLabel>
+
+  <!-- Sun lamp -->
+  <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
+  <CommandSunLampMakeGrowingZoneDesc>إنشاء منطقة زراعة حول هذا المبنى تطابق تمامًا شكل نصف قطر ضوء المصباح.</CommandSunLampMakeGrowingZoneDesc>
+  <!-- EN: Create growing zone -->
+  <CommandSunLampMakeGrowingZoneLabel>إنشاء منطقة زراعة</CommandSunLampMakeGrowingZoneLabel>
+
+  <!-- Trap -->
+  <!-- EN: Auto rearm -->
+  <CommandAutoRearm>إعادة تسليح تلقائية</CommandAutoRearm>
+  <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
+  <CommandAutoRearmDesc>إذا كان هذا مفعلًا، فسيتم استبدال هذا الفخ تلقائيًا بعد انطلاقه.</CommandAutoRearmDesc>
+  
+  <!-- Firefoam popper -->
+  <!-- EN: Auto rebuild -->
+  <CommandAutoRebuild_Building>إعادة بناء تلقائية</CommandAutoRebuild_Building>
+  <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
+  <CommandAutoRebuild_BuildingDesc>إذا كان هذا مفعلًا، فسيتم استبدال {BUILDING_definite} تلقائيًا بعد انفجاره.</CommandAutoRebuild_BuildingDesc>
+  
+  <!-- Animal control -->
+  <!-- EN: Animals attack -->
+  <CommandReleaseAnimalsLabel>هجوم الحيوانات</CommandReleaseAnimalsLabel>
+  <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
+  <CommandReleaseAnimalsDesc>بينما يكون هذا مفعلًا، يتم إرسال الحيوانات المدربة لمهاجمة أهداف بعيدة. بينما يكون متوقفًا، تبقى قريبة وتحمي المدرب.</CommandReleaseAnimalsDesc>
+  <!-- EN: No animals available. -->
+  <CommandReleaseAnimalsFail_NoAnimals>لا توجد حيوانات متاحة.</CommandReleaseAnimalsFail_NoAnimals>
+  
+  <!-- Squad attack -->
+  <!-- EN: Attack -->
+  <CommandSquadAttack>هجوم</CommandSquadAttack>
+  <!-- EN: Order selected colonists to attack designated target. -->
+  <CommandSquadAttackDesc>أمر المستعمرين المحددين بمهاجمة الهدف المعين.</CommandSquadAttackDesc>
+  
+  <!-- Melee attack -->
+  <!-- EN: Melee attack -->
+  <CommandMeleeAttack>هجوم مباشر</CommandMeleeAttack>
+  <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
+  <CommandMeleeAttackDesc>أمر المستعمرين المحددين بمهاجمة الهدف المعين باستخدام الأيدي والأسلحة القتالية المباشرة فقط.</CommandMeleeAttackDesc>
+
+  <!-- Hold fire -->
+  <!-- EN: Hold fire -->
+  <CommandHoldFire>توقف عن إطلاق النار</CommandHoldFire>
+  <!-- EN: End any ongoing attacks. -->
+  <CommandHoldFireDesc>إنهاء أي هجمات مستمرة.</CommandHoldFireDesc>
+  
+  <!-- reload -->
+  <!-- EN: No {CHARGENOUN_plural} left. -->
+  <CommandReload_NoCharges>لا يوجد {CHARGENOUN_plural} متبقي.</CommandReload_NoCharges>
+  <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
+  <CommandReload_Cooldown>{COOLDOWNGERUND} لمدة {TIME}.</CommandReload_Cooldown>
+  <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
+  <CommandReload_NoAmmo>يحتاج إلى إعادة تعبئة بـ {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
+  
+  <!-- Select plant to grow -->
+  <!-- EN: Select plant to grow -->
+  <CommandSelectPlantToGrowMulti>تحديد النبات للزراعة</CommandSelectPlantToGrowMulti>
+  <!-- EN: Plant: {0} -->
+  <CommandSelectPlantToGrow>النبات: {0}</CommandSelectPlantToGrow>
+  <!-- EN: Determine which plant should be sown here. -->
+  <CommandSelectPlantToGrowDesc>حدد النبات الذي يجب زراعته هنا.</CommandSelectPlantToGrowDesc>
+  
+  <!-- Select mineral to scan for (long-range mineral scanner) -->
+  <!-- EN: Tuned to -->
+  <CommandSelectMineralToScanFor>مضبوط على</CommandSelectMineralToScanFor>
+  <!-- EN: Select the mineral type to scan for. -->
+  <CommandSelectMineralToScanForDesc>حدد نوع المعدن المراد البحث عنه.</CommandSelectMineralToScanForDesc>
+
+  <!-- Build copy -->
+  <!-- EN: Build copy -->
+  <CommandBuildCopy>بناء نسخة</CommandBuildCopy>
+  <!-- EN: Build a copy of this building. -->
+  <CommandBuildCopyDesc>بناء نسخة من هذا المبنى.</CommandBuildCopyDesc>
+
+  <!-- Form caravan -->
+  <!-- EN: Form caravan -->
+  <CommandFormCaravan>تشكيل قافلة</CommandFormCaravan>
+  <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
+  <CommandFormCaravanDesc>تشكيل مجموعة من المستعمرين القادرين على السفر إلى مناطق جديدة. سيجمع المستعمرون كل الإمدادات المعينة والحيوانات المرافقة، ويغادرون منطقتهم الحالية، وينتظرون أوامر إضافية.</CommandFormCaravanDesc>
+  <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
+  <CommandFormCaravanDescAtSpot>ستُستخدم هذه البقعة كنقطة التقاء للقافلة. سيتم إحضار كل البضائع والحيوانات إلى هنا قبل المغادرة.</CommandFormCaravanDescAtSpot>
+  
+  <!-- Reform caravan -->
+  <!-- EN: Reform caravan -->
+  <CommandReformCaravan>إعادة تشكيل القافلة</CommandReformCaravan>
+  <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
+  <CommandReformCaravanDesc>إعادة تشكيل مجموعة من المستعمرين. سيغادر المستعمرون منطقتهم الحالية وينتظرون أوامر إضافية.</CommandReformCaravanDesc>
+  <!-- EN: There are still some enemies in this area. -->
+  <CommandReformCaravanFailHostilePawns>لا يزال هناك بعض الأعداء في هذه المنطقة.</CommandReformCaravanFailHostilePawns>
+
+  <!-- Send caravan -->
+  <!-- EN: Send caravan -->
+  <CommandSendCaravan>إرسال قافلة</CommandSendCaravan>
+  <!-- EN: Send caravan... -->
+  <CommandSendCaravanMultiple>إرسال قافلة...</CommandSendCaravanMultiple>
+  <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
+  <CommandSendCaravanDesc>إرسال قافلة إلى هذه الوجهة من مستعمرة مختارة يمكنها الوصول إلى هذا الموقع.</CommandSendCaravanDesc>
+  <!-- EN: Your settlements have no path to this location. -->
+  <CommandSendCaravanCantReach>مستوطناتك ليس لديها مسار إلى هذا الموقع.</CommandSendCaravanCantReach>
+
+  <!-- Split caravan -->
+  <!-- EN: Split -->
+  <CommandSplitCaravan>تقسيم</CommandSplitCaravan>
+  <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
+  <CommandSplitCaravanDesc>تقسيم هذه القافلة إلى اثنتين. يمكن لاحقًا دمج القوافل مرة أخرى في قافلة واحدة طالما أنها قريبة من بعضها البعض.</CommandSplitCaravanDesc>
+  
+  <!-- Merge caravan -->
+  <!-- EN: Merge -->
+  <CommandMergeCaravans>دمج</CommandMergeCaravans>
+  <!-- EN: Merge selected caravans. -->
+  <CommandMergeCaravansDesc>دمج القوافل المحددة.</CommandMergeCaravansDesc>
+  <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
+  <CommandMergeCaravansFailCaravansNotSelected>حدد كل القوافل التي يجب دمجها. يجب أن تكون القوافل قريبة من بعضها البعض.</CommandMergeCaravansFailCaravansNotSelected>
+  <!-- EN: Join -->
+  <CommandJoinCaravan>انضمام</CommandJoinCaravan>
+  
+  <!-- Settle -->
+  <!-- EN: Settle -->
+  <CommandSettle>استيطان</CommandSettle>
+  <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
+  <CommandSettleDesc>الاستيطان في هذه المنطقة. سيدخل مستعمروك هذه المنطقة وستتمكن من البدء في بناء منزل جديد.</CommandSettleDesc>
+  <!-- EN: Your faction can only have one base. -->
+  <CommandSettleFailAlreadyHaveBase>لا يمكن لفصيلتك امتلاك سوى قاعدة واحدة.</CommandSettleFailAlreadyHaveBase>
+  <!-- EN: Reached maximum number of colonies. -->
+  <CommandSettleFailReachedMaximumNumberOfBases>تم الوصول إلى الحد الأقصى لعدد المستعمرات.</CommandSettleFailReachedMaximumNumberOfBases>
+  <!-- EN: There isn't anybody there to claim the area. -->
+  <CommandSettleFailNoColonists>لا يوجد أحد هناك للمطالبة بالمنطقة.</CommandSettleFailNoColonists>
+  <!-- EN: There are enemies in this area. -->
+  <CommandSettleFailEnemies>هناك أعداء في هذه المنطقة.</CommandSettleFailEnemies>
+  <!-- EN: Cannot settle here. -->
+  <CommandSettleFailGeneric>لا يمكن الاستيطان هنا.</CommandSettleFailGeneric>
+
+  <!-- Camp -->
+  <!-- EN: Camp -->
+  <CommandCamp>تخييم</CommandCamp>
+  <!-- EN: Set up a temporary camp that can quickly be abandoned. -->
+  <CommandCampDesc>إنشاء مخيم مؤقت يمكن التخلي عنه بسرعة.</CommandCampDesc>
+  <!-- EN: Cannot camp here. -->
+  <CommandCampFailExistingWorldObject>لا يمكن التخييم هنا.</CommandCampFailExistingWorldObject>
+  
+  <!-- Abandon home -->
+  <!-- EN: Abandon -->
+  <CommandAbandonHome>تخلي</CommandAbandonHome>
+  <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
+  <CommandAbandonHomeDesc>التخلي عن هذه المنطقة. ستصبح المنطقة غير قابلة للوصول ولن تتمكن من العودة إلى هنا مرة أخرى. بعد التخلي عن منزلك، ستتمكن من أمر إحدى قوافلكم بالاستيطان في منطقة جديدة.</CommandAbandonHomeDesc>
+  <!-- EN: All of your colonists are there. -->
+  <CommandAbandonHomeFailAllColonistsThere>كل مستعمريك هناك.</CommandAbandonHomeFailAllColonistsThere>
+  
+  <!-- Cancel forming caravan -->
+  <!-- EN: Cancel forming caravan -->
+  <CommandCancelFormingCaravan>إلغاء تشكيل القافلة</CommandCancelFormingCaravan>
+  <!-- EN: Terminate the caravan formation process. -->
+  <CommandCancelFormingCaravanDesc>إنهاء عملية تشكيل القافلة.</CommandCancelFormingCaravanDesc>
+
+  <!-- Remove from caravan -->
+  <!-- EN: Remove from caravan -->
+  <CommandRemoveFromCaravan>إزالة من القافلة</CommandRemoveFromCaravan>
+  <!-- EN: Remove this person or animal from the caravan. -->
+  <CommandRemoveFromCaravanDesc>إزالة هذا الشخص أو الحيوان من القافلة.</CommandRemoveFromCaravanDesc>
+  
+  <!-- Add to caravan -->
+  <!-- EN: Add to caravan -->
+  <CommandAddToCaravan>إضافة إلى القافلة</CommandAddToCaravan>
+  <!-- EN: Add this person or animal to the forming caravan. -->
+  <CommandAddToCaravanDesc>إضافة هذا الشخص أو الحيوان إلى القافلة التي يتم تشكيلها.</CommandAddToCaravanDesc>
+  
+  <!-- Force caravan depart -->
+  <!-- EN: Force caravan departure -->
+  <CommandForceCaravanDepart>إجبار القافلة على المغادرة</CommandForceCaravanDepart>
+  <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
+  <CommandForceCaravanDepartDesc>إجبار القافلة على المغادرة فورًا مع العناصر المحملة حاليًا فقط. سيتم ترك أي شخص غير قادر على السفر.</CommandForceCaravanDepartDesc>
+  <!-- EN: Are you sure you want to depart? -->
+  <ConfirmForceDepartIntro>هل أنت متأكد من رغبتك في المغادرة؟</ConfirmForceDepartIntro>
+  <!-- EN: The following items are still being loaded and will be left behind: -->
+  <ConfirmForceDepartItemsStillLoading>لا تزال العناصر التالية قيد التحميل وسيتم تركها:</ConfirmForceDepartItemsStillLoading>
+  <!-- EN: The following people won't be a part of the caravan: -->
+  <ConfirmForceDepartPawnsNotLeaving>الأشخاص التاليون لن يكونوا جزءًا من القافلة:</ConfirmForceDepartPawnsNotLeaving>
+  <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
+  <ConfirmForceDepartItemsOnPawnsNotLeaving>تم تحميل العناصر التالية على مخلوقات لن تكون جزءًا من القافلة وسيتم تركها:</ConfirmForceDepartItemsOnPawnsNotLeaving>
+  
+  <!-- Show map -->
+  <!-- EN: Zoom in -->
+  <CommandShowMap>تكبير</CommandShowMap>
+  <!-- EN: Zoom in on this area. -->
+  <CommandShowMapDesc>تكبير هذه المنطقة.</CommandShowMapDesc>
+  
+  <!-- Trade -->
+  <!-- EN: Trade -->
+  <CommandTrade>تجارة</CommandTrade>
+  <!-- EN: Trade with this faction. -->
+  <CommandTradeDesc>التجارة مع هذه الفصيل.</CommandTradeDesc>
+  <!-- EN: There isn't any conscious and capable negotiator. -->
+  <CommandTradeFailNoNegotiator>لا يوجد مفاوض واعٍ وقادر.</CommandTradeFailNoNegotiator>
+  <!-- EN: None of your people have the required faction permission: {0} -->
+  <CommandTradeFailNeedPermit>لا يمتلك أي من أفرادك إذن الفصيل المطلوب: {0}</CommandTradeFailNeedPermit>
+
+  <!-- Offer gifts -->
+  <!-- EN: Offer gifts -->
+  <CommandOfferGifts>تقديم هدايا</CommandOfferGifts>
+  <!-- EN: Offer gifts to this faction. -->
+  <CommandOfferGiftsDesc>تقديم هدايا لهذا الفصيل.</CommandOfferGiftsDesc>
+
+  <!-- Fulfill request -->
+  <!-- EN: Fulfill trade offer -->
+  <CommandFulfillTradeOffer>تلبية عرض تجاري</CommandFulfillTradeOffer>
+  <!-- EN: Fulfill the settlement's request for goods and claim your reward. -->
+  <CommandFulfillTradeOfferDesc>تلبية طلب المستوطنة للحصول على بضائع والمطالبة بمكافأتك.</CommandFulfillTradeOfferDesc>
+  <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
+  <CommandFulfillTradeOfferFailInsufficient>يجب أن تمتلك قافلتك {0} لتلبية هذا العرض التجاري.</CommandFulfillTradeOfferFailInsufficient>
+  <!-- EN: Give {0}? -->
+  <CommandFulfillTradeOfferConfirm>هل تريد إعطاء {0}؟</CommandFulfillTradeOfferConfirm>
+  
+  <!-- Take off -->
+  <!-- EN: Take off -->
+  <CommandTakeOff>إقلاع</CommandTakeOff>
+  <!-- EN: Get on board the ship and escape the planet. -->
+  <CommandTakeOffDesc>الصعود إلى متن السفينة والهروب من الكوكب.</CommandTakeOffDesc>
+  <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
+  <CommandTakeOffConfirmation>هل أنت متأكد من رغبتك في إطلاق السفينة؟\n\nكل شخص في هذه المنطقة سيهرب من الكوكب. سيتم ترك الجميع وراءهم.</CommandTakeOffConfirmation>
+
+  <!-- Set target fuel level -->
+  <!-- EN: Set target fuel level -->
+  <CommandSetTargetFuelLevel>تحديد مستوى الوقود المستهدف</CommandSetTargetFuelLevel>
+  <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
+  <CommandSetTargetFuelLevelDesc>حدد مستوى الوقود المستهدف. سيحاول المستعمرون ملء هذا حتى يصل إلى مستوى الوقود المستهدف.</CommandSetTargetFuelLevelDesc>
+
+  <!-- Refueling -->
+  <!-- EN: Toggle automatic refuel -->
+  <CommandToggleAllowAutoRefuel>تبديل إعادة التزود بالوقود التلقائي</CommandToggleAllowAutoRefuel>
+  <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <CommandToggleAllowAutoRefuelDesc>هذا يحدد ما إذا كان المستعمرون سيقومون بإعادة التزود بالوقود تلقائيًا لهذا. إذا تم التفعيل، سيقوم المستعمرون بملئه حتى {0}.\n\nإعادة التزود بالوقود التلقائي حاليًا {ONOFF}.</CommandToggleAllowAutoRefuelDesc>
+  <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <CommandToggleAllowAutoRefuelDescMult>هذا يحدد ما إذا كان المستعمرون سيقومون تلقائيًا بإعادة التزود بالوقود لهذه المباني.\n\nإعادة التزود بالوقود التلقائي حاليًا {ONOFF}.</CommandToggleAllowAutoRefuelDescMult>
+
+  <!-- Cancel load -->
+  <!-- EN: Cancel load -->
+  <CommandCancelLoad>إلغاء التحميل</CommandCancelLoad>
+  <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
+  <CommandCancelLoadDesc>إلغاء تحميل هذا بالأشخاص أو العناصر وإخراج كل ما تم تحميله بالفعل.</CommandCancelLoadDesc>
+  <!-- EN: Unload all -->
+  <CommandUnload>تفريغ الكل</CommandUnload>
+  <!-- EN: Eject all contents from the {0}. -->
+  <CommandUnloadDesc>إخراج كل المحتويات من {0}.</CommandUnloadDesc>
+
+  <!-- Launch group -->
+  <!-- EN: Launch -->
+  <CommandLaunchGroup>إطلاق</CommandLaunchGroup>
+  <!-- EN: Take off and fly to a destination. -->
+  <CommandLaunchGroupDesc>الإقلاع والطيران إلى وجهة ما.</CommandLaunchGroupDesc>
+  <!-- EN: Must be loaded first. -->
+  <CommandLaunchGroupFailNotLoaded>يجب تحميله أولاً.</CommandLaunchGroupFailNotLoaded>
+  <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>بعض كبسولات النقل في مجموعة التحميل هذه غير متصلة بمنفذ وقود.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <!-- EN: Roof blocking launch. -->
+  <CommandLaunchGroupFailUnderRoof>سقف يعيق الإطلاق.</CommandLaunchGroupFailUnderRoof>
+  <!-- EN: Not enough fuel to launch. -->
+  <CommandLaunchGroupFailNoFuel>لا يوجد وقود كافٍ للإطلاق.</CommandLaunchGroupFailNoFuel>
+  <!-- EN: Over mass capacity. -->
+  <CommandLaunchGroupFailOverMassCapacity>تجاوز سعة الكتلة.</CommandLaunchGroupFailOverMassCapacity>
+  <!-- EN: On cooldown. -->
+  <CommandLaunchGroupCooldown>في فترة التهدئة.</CommandLaunchGroupCooldown>
+  <!-- EN: {0} / {1} kg -->
+  <MassUsageString>{0} / {1} كجم</MassUsageString>
+
+  <!-- Load transporter -->
+  <!-- EN: Load launch group of {0} -->
+  <CommandLoadTransporter>تحميل مجموعة إطلاق لـ {0}</CommandLoadTransporter>
+  <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandLoadTransporterDesc>تحديد ناقل(ات) مختار كمجموعة إطلاق. يفتح مربع حوار التحميل حتى تتمكن من تحديد من وما الذي يجب تحميله بالداخل.</CommandLoadTransporterDesc>
+  <!-- EN: The transport pod is not connected to a fueling port. -->
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>كبسولة النقل غير متصلة بمنفذ وقود.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <!-- EN: The pod launcher has no fuel. -->
+  <CommandLoadTransporterFailNoFuel>قاذف الكبسولة لا يحتوي على وقود.</CommandLoadTransporterFailNoFuel>
+  
+  <!-- Load transporter (single) -->
+  <!-- EN: Load -->
+  <CommandLoadTransporterSingle>تحميل</CommandLoadTransporterSingle>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandLoadTransporterSingleDesc>يفتح مربع حوار التحميل حتى تتمكن من تحديد من وما الذي يجب تحميله بالداخل.</CommandLoadTransporterSingleDesc>
+  
+  <!-- Transporters set to load -->
+  <!-- EN: Set to load -->
+  <CommandSetToLoadTransporter>تعيين للتحميل</CommandSetToLoadTransporter>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandSetToLoadTransporterDesc>يفتح مربع حوار التحميل حتى تتمكن من تحديد من وما الذي يجب تحميله بالداخل.</CommandSetToLoadTransporterDesc>
+  
+  <!-- Autoload transporters -->
+  <!-- EN: Autoload -->
+  <CommandAutoloadTransporters>تحميل تلقائي</CommandAutoloadTransporters>
+  <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
+  <CommandAutoloadTransportersDesc>تبديل تحميل كل البضائع المطلوبة تلقائيًا بمجرد توفرها.</CommandAutoloadTransportersDesc>
+  
+  <!-- Select previous transporter -->
+  <!-- EN: Select previous in launch group -->
+  <CommandSelectPreviousTransporter>تحديد السابق في مجموعة الإطلاق</CommandSelectPreviousTransporter>
+  <!-- EN: Select previous transport pod in this launch group. -->
+  <CommandSelectPreviousTransporterDesc>تحديد كبسولة النقل السابقة في مجموعة الإطلاق هذه.</CommandSelectPreviousTransporterDesc>
+  
+  <!-- Select all transporters -->
+  <!-- EN: Select launch group -->
+  <CommandSelectAllTransporters>تحديد مجموعة الإطلاق</CommandSelectAllTransporters>
+  <!-- EN: Select all transport pods in this launch group. -->
+  <CommandSelectAllTransportersDesc>تحديد كل كبسولات النقل في مجموعة الإطلاق هذه.</CommandSelectAllTransportersDesc>
+  
+  <!-- Select next transporter -->
+  <!-- EN: Select next in launch group -->
+  <CommandSelectNextTransporter>تحديد التالي في مجموعة الإطلاق</CommandSelectNextTransporter>
+  <!-- EN: Select next transport pod in this launch group. -->
+  <CommandSelectNextTransporterDesc>تحديد كبسولة النقل التالية في مجموعة الإطلاق هذه.</CommandSelectNextTransporterDesc>
+  
+  <!-- Vent -->
+  <!-- EN: Designate open/close -->
+  <CommandDesignateOpenCloseVentLabel>تعيين فتح/إغلاق</CommandDesignateOpenCloseVentLabel>
+  <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
+  <CommandDesignateOpenCloseVentDesc>تعيين فتح أو إغلاق هذا المنفذ. سيأتي مستعمر قريبًا لتنفيذ المهمة.</CommandDesignateOpenCloseVentDesc>
+  
+  <!-- Remove waypoint -->
+  <!-- EN: Remove -->
+  <CommandRemoveWaypointLabel>إزالة</CommandRemoveWaypointLabel>
+  <!-- EN: Remove this waypoint. -->
+  <CommandRemoveWaypointDesc>إزالة نقطة الطريق هذه.</CommandRemoveWaypointDesc>
+
+  <!-- Pause caravan -->
+  <!-- EN: Rest -->
+  <CommandPauseCaravan>راحة</CommandPauseCaravan>
+  <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
+  <CommandToggleCaravanPauseDesc>بدء الراحة. هذا له الفوائد التالية:\n\n  - يمكن للأشخاص التفاعل اجتماعيًا\n  - البحث عن الطعام {0} مرات أسرع\n  - الرؤية مضروبة في {1}</CommandToggleCaravanPauseDesc>
+  
+  <!-- Show sellable items -->
+  <!-- EN: Show what will buy -->
+  <CommandShowSellableItems>إظهار ما سيشتريه</CommandShowSellableItems>
+  <!-- EN: Show everything this trader wants to buy. -->
+  <CommandShowSellableItemsDesc>إظهار كل ما يريد هذا التاجر شراءه.</CommandShowSellableItemsDesc>
+
+  <!-- Attack settlement -->
+  <!-- EN: Attack -->
+  <CommandAttackSettlement>هجوم</CommandAttackSettlement>
+  <!-- EN: Attack this settlement. -->
+  <CommandAttackSettlementDesc>مهاجمة هذه المستوطنة.</CommandAttackSettlementDesc>
+
+  <!-- Send shuttle -->
+  <!-- EN: Send -->
+  <CommandSendShuttle>إرسال</CommandSendShuttle>
+  <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
+  <CommandSendShuttleDesc>بدء الإقلاع وجعل المكوك يطير إلى وجهته.</CommandSendShuttleDesc>
+  <!-- EN: The shuttle is under a roof. -->
+  <CommandSendShuttleFailUnderRoof>المكوك تحت سقف.</CommandSendShuttleFailUnderRoof>
+  <!-- EN: Some of the required items or people are missing. -->
+  <CommandSendShuttleFailMissingRequiredThing>بعض العناصر أو الأشخاص المطلوبين مفقودون.</CommandSendShuttleFailMissingRequiredThing>
+  
+  <!-- Dismiss shuttle -->
+  <!-- EN: Dismiss -->
+  <CommandShuttleDismiss>صرف</CommandShuttleDismiss>
+  <!-- EN: Unload all contents and send the shuttle away. -->
+  <CommandShuttleDismissDesc>تفريغ كل المحتويات وصرف المكوك.</CommandShuttleDismissDesc>
+
+  <!-- Place blueprints -->
+  <!-- EN: Place blueprints -->
+  <CommandPlaceBlueprints>وضع المخططات</CommandPlaceBlueprints>
+  <!-- EN: Place all required blueprints where possible. -->
+  <CommandPlaceBlueprintsDesc>وضع كل المخططات المطلوبة حيثما أمكن.</CommandPlaceBlueprintsDesc>
+  <!-- EN: Place {0} blueprints -->
+  <CommandPlaceBlueprintsSpecific>وضع {0} مخططات</CommandPlaceBlueprintsSpecific>
+  <!-- EN: Place all {0} blueprints where possible. -->
+  <CommandPlaceBlueprintsSpecificDesc>وضع كل {0} مخططات حيثما أمكن.</CommandPlaceBlueprintsSpecificDesc>
+
+  <!-- Cancel monument marker -->
+  <!-- EN: Cancel -->
+  <CommandCancelMonumentMarker>إلغاء</CommandCancelMonumentMarker>
+  <!-- EN: Permanently remove this monument marker. -->
+  <CommandCancelMonumentMarkerDesc>إزالة علامة النصب التذكاري هذه بشكل دائم.</CommandCancelMonumentMarkerDesc>
+
+  <!-- View quest -->
+  <!-- EN: View quest: {0} -->
+  <CommandViewQuest>عرض المهمة: {0}</CommandViewQuest>
+  <!-- EN: View this quest in quests tab. -->
+  <CommandViewQuestDesc>عرض هذه المهمة في علامة تبويب المهام.</CommandViewQuestDesc>
+  <!-- EN: Open linked quest -->
+  <CommandOpenLinkedQuest>فتح المهمة المرتبطة</CommandOpenLinkedQuest>
+  <!-- EN: Open linked quest in the quests tab. -->
+  <CommandOpenLinkedQuestDesc>فتح المهمة المرتبطة في علامة تبويب المهام.</CommandOpenLinkedQuestDesc>
+
+  <!-- Carry -->
+  <!-- EN: Drop {0_nameDef} -->
+  <CommandDropPawn>إسقاط {0_nameDef}</CommandDropPawn>
+  <!-- EN: Drop the person being carried. -->
+  <CommandDropPawnDesc>إسقاط الشخص الذي يتم حمله.</CommandDropPawnDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarriedPawn>تحديد {0_nameDef}</CommandSelectCarriedPawn>
+  <!-- EN: Select the creature being carried. -->
+  <CommandSelectCarriedPawnDesc>تحديد المخلوق الذي يتم حمله.</CommandSelectCarriedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectCarriedThing>تحديد {0_label}</CommandSelectCarriedThing>
+  <!-- EN: Select the carried item. -->
+  <CommandSelectCarriedThingDesc>تحديد العنصر المحمول.</CommandSelectCarriedThingDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainerThing>تحديد {0_label}</CommandSelectContainerThing>
+  <!-- EN: Select the containing item. -->
+  <CommandSelectContainerThingDesc>تحديد العنصر الذي يحتوي.</CommandSelectContainerThingDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarryingPawn>تحديد {0_nameDef}</CommandSelectCarryingPawn>
+  <!-- EN: Select the carrying creature. -->
+  <CommandSelectCarryingPawnDesc>تحديد المخلوق الحامل.</CommandSelectCarryingPawnDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectContainedPawn>تحديد {0_nameDef}</CommandSelectContainedPawn>
+  <!-- EN: Select the contained creature. -->
+  <CommandSelectContainedPawnDesc>تحديد المخلوق المحتوى.</CommandSelectContainedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainedThing>تحديد {0_label}</CommandSelectContainedThing>
+  <!-- EN: Select the contained item. -->
+  <CommandSelectContainedThingDesc>تحديد العنصر المحتوى.</CommandSelectContainedThingDesc>
+
+  <!-- Take a drug -->
+  <!-- EN: Take drug... -->
+  <TakeDrug>تناول دواء...</TakeDrug>
+  <!-- EN: Choose a drug from inventory to ingest immediately. -->
+  <TakeDrugDesc>اختر دواء من المخزون لتناوله على الفور.</TakeDrugDesc>
+
+  <!-- Build X -->
+  <!-- EN: Build {0} -->
+  <BuildThing>بناء {0}</BuildThing>
+
+  <!-- Rituals -->
+  <!-- EN: Leave {RITUAL_label} -->
+  <CommandLeaveRitual>مغادرة {RITUAL_label}</CommandLeaveRitual>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The event will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>التوقف عن المشاركة في {RITUAL_labelDef}. ستستمر الفعالية طالما أن لديها مشارك واحد على الأقل.</CommandLeaveRitualDesc>
+  <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
+  <CommandLeaveLastParticipant>هذا هو المشارك الأخير في {RITUAL_labelDef}.</CommandLeaveLastParticipant>
+
+  <!-- EN: Cancel {RITUAL_label} -->
+  <CommandCancelRitual>إلغاء {RITUAL_label}</CommandCancelRitual>
+  <!-- EN: End the {RITUAL_labelDef} immediately. You can restart the event later. -->
+  <CommandCancelRitualDesc>إنهاء {RITUAL_labelDef} على الفور. يمكنك إعادة بدء الفعالية لاحقًا.</CommandCancelRitualDesc>
+  <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
+  <CommandCancelRitualConfirm>هل أنت متأكد من رغبتك في إلغاء {RITUAL_labelDef}؟</CommandCancelRitualConfirm>
+
+  <!-- Storage linking -->
+  <!-- EN: Link settings -->
+  <LinkStorageSettings>ربط الإعدادات</LinkStorageSettings>
+  <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
+  <LinkStorageSettingsDesc>ربط إعدادات التخزين للمباني المتعددة المحددة بحيث تتشارك في إعدادات التخزين.\n\nستبدأ المجموعة بإعدادات أي شيء قمت بتحديده أولاً.</LinkStorageSettingsDesc>
+  <!-- EN: You must select two or more buildings to link their storage settings. -->
+  <LinkStorageDisabledSelectTwo>يجب عليك تحديد مبنيين أو أكثر لربط إعدادات التخزين الخاصة بهم.</LinkStorageDisabledSelectTwo>
+  <!-- EN: Already linked. -->
+  <AlreadyLinked>مرتبط بالفعل.</AlreadyLinked>
+  <!-- EN: Unlink settings -->
+  <UnlinkStorageSettings>فك ربط الإعدادات</UnlinkStorageSettings>
+  <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
+  <UnlinkStorageSettingsDesc>فك ربط هذا من إعدادات تخزين المباني الأخرى بحيث يمكن ضبط إعداداته بشكل مستقل.</UnlinkStorageSettingsDesc>
+  <!-- EN: Linked storage settings -->
+  <LinkedStorageSettings>إعدادات التخزين المرتبطة</LinkedStorageSettings>
+  <!-- EN: 1 building -->
+  <OneBuilding>1 مبنى</OneBuilding>
+  <!-- EN: {0} buildings -->
+  <NumBuildings>{0} مبنى</NumBuildings>
+  <!-- EN: Stores -->
+  <StoresThings>يخزن</StoresThings>
+  <!-- EN: Select all linked -->
+  <SelectAllLinked>تحديد كل المرتبطين</SelectAllLinked>
+  <!-- EN: Select all storage buildings linked to this. -->
+  <SelectAllLinkedDesc>تحديد كل مباني التخزين المرتبطة بهذا.</SelectAllLinkedDesc>
+
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <CommandDisabledUnconscious>{0_labelShort} فاقد للوعي.</CommandDisabledUnconscious>
+
+  <!-- Study -->
+  <!-- EN: Toggle study -->
+  <CommandToggleStudy>تبديل الدراسة</CommandToggleStudy>
+  <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
+  <CommandToggleStudyDesc>يحدد ما إذا كان الحراس سيدرسون هذا تلقائيًا أم لا. الأشياء المحظورة لن تُدرس أبدًا.</CommandToggleStudyDesc>
+
+  <!-- Limited use count action -->
+  <!-- EN: No uses left. -->
+  <CommandNoUsesLeft>لا توجد استخدامات متبقية.</CommandNoUsesLeft>
+
+  <!-- Map Portal -->
+  <!-- EN: View {0} -->
+  <CommandViewPocketMapLabel>عرض {0}</CommandViewPocketMapLabel>
+  <!-- EN: View the connected {0} map. -->
+  <CommandViewPocketMapDesc>عرض خريطة {0} المتصلة.</CommandViewPocketMapDesc>
+  <!-- EN: View surface -->
+  <CommandViewSurface>عرض السطح</CommandViewSurface>
+  <!-- EN: View the connected surface map. -->
+  <CommandViewSurfaceDesc>عرض خريطة السطح المتصلة.</CommandViewSurfaceDesc>
+
+  <!-- Auto-build pod -->
+  <!-- EN: Auto build transport pod -->
+  <AutoBuildTransportPod>بناء كبسولة نقل تلقائيًا</AutoBuildTransportPod>
+  <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
+  <AutoBuildTransportPodDesc>إذا كان مفعلًا، سيقوم مستعمروك تلقائيًا ببناء كبسولة نقل جديدة عندما يكون ذلك ممكنًا.</AutoBuildTransportPodDesc>
+  
+  <!-- Hacking gizmo -->
+  <!-- EN: Hack... -->
+  <HackGizmo>اختراق...</HackGizmo>
+  <!-- EN: Cannot hack -->
+  <CannotChooseHacker>لا يمكن الاختراق</CannotChooseHacker>
+  <!-- EN: Choose hacker -->
+  <CommandChooseHacker>اختر مخترق</CommandChooseHacker>
+  
+</LanguageData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient comms console -->
+  <AncientCommsConsole.label>وحدة اتصالات أثرية</AncientCommsConsole.label>
+  <!-- EN: An ancient console with an attached communications dish. Valuable parts are missing, and everything else is degraded to uselessness. -->
+  <AncientCommsConsole.description>وحدة تحكم أثرية مع طبق اتصالات ملحق. أجزاء ثمينة مفقودة، وكل شيء آخر متدهور إلى حد عدم الجدوى.</AncientCommsConsole.description>
+  <!-- EN: Hack to access ancient supply satellite. -->
+  <AncientCommsConsole.comps.CompHackable.notHackedInspectString>اخترق للوصول إلى قمر إمداد أثري.</AncientCommsConsole.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient enemy terminal -->
+  <AncientEnemyTerminal.label>طرفية عدو أثرية</AncientEnemyTerminal.label>
+  <!-- EN: An ancient computer terminal. It can be hacked to call nearby enemies. -->
+  <AncientEnemyTerminal.description>طرفية حاسوب أثرية. يمكن اختراقها لاستدعاء الأعداء القريبين.</AncientEnemyTerminal.description>
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. -->
+  <AncientEnemyTerminal.comps.CompHackable.autohackWarningString>اختراق {0} هذا سينبه الأعداء ويدفعهم للهجوم.</AncientEnemyTerminal.comps.CompHackable.autohackWarningString>
+  <!-- EN: Hack to call nearby enemies. -->
+  <AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>اخترق لاستدعاء الأعداء القريبين.</AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: security crate -->
+  <AncientSecurityCrate.label>صندوق أمني</AncientSecurityCrate.label>
+  <!-- EN: A large self-powered hermetically-sealed crate with built-in security alarms. These can preserve their contents for a long time. If it is opened without the proper code, it will probably activate some nearby security system. -->
+  <AncientSecurityCrate.description>صندوق كبير ذاتي الطاقة محكم الإغلاق مع أجهزة إنذار أمنية مدمجة. يمكنها الحفاظ على محتوياتها لفترة طويلة. إذا فُتح بدون الكود الصحيح، فمن المحتمل أن ينشط نظام أمان قريب.</AncientSecurityCrate.description>
+  
+  <!-- EN: ancient terminal -->
+  <AncientTerminal.label>طرفية أثرية</AncientTerminal.label>
+  <!-- EN: An ancient computer terminal. It can be hacked to reveal long-forgotten information. -->
+  <AncientTerminal.description>طرفية حاسوب أثرية. يمكن اختراقها لإظهار معلومات منسية منذ زمن طويل.</AncientTerminal.description>
+  
+  <!-- EN: ancient terminal -->
+  <AncientTerminal_Worshipful.label>طرفية أثرية</AncientTerminal_Worshipful.label>
+  <!-- EN: An ancient computer terminal. It can be hacked to reveal long-forgotten information. -->
+  <AncientTerminal_Worshipful.description>طرفية حاسوب أثرية. يمكن اختراقها لإظهار معلومات منسية منذ زمن طويل.</AncientTerminal_Worshipful.description>
+  
+</LanguageData>

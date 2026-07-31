@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: beer brewing -->
+  <Brewing.label>تخمير البيرة</Brewing.label>
+  <!-- EN: Build a brewery and fermenting vats to transform hops into tasty, tasty beer. -->
+  <Brewing.description>قم ببناء مصنع الجعة وأحواض التخمير لتحويل الجنجل إلى بيرة لذيذة.</Brewing.description>
+  <!-- EN:
+    <li>subject->brewing</li>
+    <li>subject_story->brewed a unique stout that became famous across the system</li>
+    <li>subject_story->retired to run a public house on an animal world</li>
+    <li>subject_story->specialized in climate-controlled fermentation techniques</li>
+    <li>subject_gerund->constructing breweries</li>
+    <li>subject_gerund->brewing beer</li>
+  -->
+  <Brewing.generalRules.rulesStrings>
+    <li>subject->التخمير</li>
+    <li>subject_story->خمّر نوعاً فريداً من الجعة الداكنة اشتهر في جميع أنحاء النظام</li>
+    <li>subject_story->تقاعد ليدير حانة على عالم حيواني</li>
+    <li>subject_story->تخصص في تقنيات التخمير ذات المناخ المتحكم به</li>
+    <li>subject_gerund->بناء مصانع الجعة</li>
+    <li>subject_gerund->تخمير البيرة</li>
+ </Brewing.generalRules.rulesStrings>
+  
+  <!-- EN: carpet-making -->
+  <CarpetMaking.label>صناعة السجاد</CarpetMaking.label>
+  <!-- EN: Weave beautiful carpets from cloth. -->
+  <CarpetMaking.description>نسج سجاد جميل من القماش.</CarpetMaking.description>
+  <!-- EN:
+    <li>subject->carpet-making</li>
+    <li>subject_story->learned to weave carpets from hair, for a distant Emperor</li>
+    <li>subject_story->left behind an unparalleled collection of carpets and tapestries</li>
+    <li>subject_story->settled on a medieval moon, where the carpetweaving craft was truly appreciated</li>
+    <li>subject_gerund->weaving carpets</li>
+  -->
+  <CarpetMaking.generalRules.rulesStrings>
+    <li>subject->صناعة السجاد</li>
+    <li>subject_story->تعلم نسج السجاد من الشعر، لإمبراطور بعيد</li>
+    <li>subject_story->ترك وراءه مجموعة لا تضاهى من السجاد والمفروشات</li>
+    <li>subject_story->استقر على قمر من العصور الوسطى، حيث كانت حرفة نسج السجاد مقدرة حقاً</li>
+    <li>subject_gerund->نسج السجاد</li>
+ </CarpetMaking.generalRules.rulesStrings>
+  
+  <!-- EN: cocoa -->
+  <Cocoa.label>الكاكاو</Cocoa.label>
+  <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too. -->
+  <Cocoa.description>ازرع أشجار الكاكاو لصنع الشوكولاتة اللذيذة الخاصة بك. أكل الشوكولاتة يلبي الحاجة للترفيه وهي سلعة تجارية قيمة أيضاً.</Cocoa.description>
+  <!-- EN:
+    <li>subject->cocoa</li>
+    <li>subject->chocolate</li>
+    <li>subject_story->became obsessed with chocolate and had to be restrained</li>
+    <li>subject_story->studied the fermentation process of cocoa for a thesis</li>
+    <li>subject_story->set up the best chocolate shop in the sector</li>
+    <li>subject_gerund->producing chocolate</li>
+    <li>subject_gerund->cultivating cocoa</li>
+  -->
+  <Cocoa.generalRules.rulesStrings>
+    <li>subject->الكاكاو</li>
+    <li>subject->الشوكولاتة</li>
+    <li>subject_story->أصبح مهووساً بالشوكولاتة واضطر لتلقي العلاج</li>
+    <li>subject_story->درس عملية تخمير الكاكاو لأطروحة</li>
+    <li>subject_story->أنشأ أفضل متجر شوكولاتة في القطاع</li>
+    <li>subject_gerund->إنتاج الشوكولاتة</li>
+    <li>subject_gerund->زراعة الكاكاو</li>
+ </Cocoa.generalRules.rulesStrings>
+  
+  <!-- EN: complex clothing -->
+  <ComplexClothing.label>الملابس المعقدة</ComplexClothing.label>
+  <!-- EN: Tailor complicated garments like pants, dusters, and cowboy hats. -->
+  <ComplexClothing.description>خياطة ملابس معقدة مثل البناطيل والمعاطف الطويلة وقبعات رعاة البقر.</ComplexClothing.description>
+  <!-- EN:
+    <li>subject->complex tailoring</li>
+    <li>subject_story->tailored hard-wearing clothes for urbworld cityfolk</li>
+    <li>subject_story->would relax by sewing and telling stories to the village children</li>
+    <li>subject_story->learned to craft clothing to be worn at [ANYPAWN_possessive] troupe's grand performances</li>
+    <li>subject_gerund->tailoring complex clothes</li>
+  -->
+  <ComplexClothing.generalRules.rulesStrings>
+    <li>subject->الخياطة المعقدة</li>
+    <li>subject_story->خاط ملابس متينة لسكان المدن الحضرية</li>
+    <li>subject_story->كان يسترخي بالخياطة ورواية القصص لأطفال القرية</li>
+    <li>subject_story->تعلم صناعة الملابس لترتديها فرقة [ANYPAWN_possessive] في العروض الكبرى</li>
+    <li>subject_gerund->خياطة الملابس المعقدة</li>
+ </ComplexClothing.generalRules.rulesStrings>
+  
+  <!-- EN: complex furniture -->
+  <ComplexFurniture.label>الأثاث المعقد</ComplexFurniture.label>
+  <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiards tables, and poker tables, vents, sarcophagi, and more. -->
+  <ComplexFurniture.description>بناء أثاث معقد مثل الأسرة والطاولات الجانبية وكراسي الطعام والأرائك والخزائن ذات الأدراج وخزائن الأدوات وطاولات البلياردو والبوكر والفتحات والتوابيت الحجرية والمزيد.</ComplexFurniture.description>
+  <!-- EN:
+    <li>subject->carpentry</li>
+    <li>subject_story->studied woodcarving under a master carpenter</li>
+    <li>subject_story->built a town of log-cabins singlehandedly</li>
+    <li>subject_story->established a factory, selling high-quality furniture to passing traders</li>
+    <li>subject_gerund->building complex furniture</li>
+  -->
+  <ComplexFurniture.generalRules.rulesStrings>
+    <li>subject->النجارة</li>
+    <li>subject_story->درس نحت الخشب على يد نجار ماهر</li>
+    <li>subject_story->بنى بلدة من الأكواخ الخشبية بمفرده</li>
+    <li>subject_story->أنشأ مصنعاً لبيع الأثاث عالي الجودة للتجار المارة</li>
+    <li>subject_gerund->بناء الأثاث المعقد</li>
+ </ComplexFurniture.generalRules.rulesStrings>
+  
+  <!-- EN: devilstrand -->
+  <Devilstrand.label>خيط الشيطان</Devilstrand.label>
+  <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
+  <Devilstrand.description>ازرع خيط الشيطان، وهو فطر بطيء النمو ينتج أليافاً نباتية صلبة ومقاومة للحرارة بشكل استثنائي.</Devilstrand.description>
+  <!-- EN:
+    <li>subject->devilstrand cultivation</li>
+    <li>subject_story->used devilstrand as a natural firebreak</li>
+    <li>subject_story->established the techniques for cultivating devilstrand easily</li>
+    <li>subject_story->became obsessed with mushrooms and became the self-declared Princess of [ANYPAWN_possessive] kingdom</li>
+    <li>subject_gerund->cultivating devilstrand</li>
+  -->
+  <Devilstrand.generalRules.rulesStrings>
+    <li>subject->زراعة خيط الشيطان</li>
+    <li>subject_story->استخدم خيط الشيطان كمانع طبيعي للحريق</li>
+    <li>subject_story->أسس تقنيات زراعة خيط الشيطان بسهولة</li>
+    <li>subject_story->أصبح مهووساً بالفطر وأعلن نفسه أميرة مملكة [ANYPAWN_possessive]</li>
+    <li>subject_gerund->زراعة خيط الشيطان</li>
+ </Devilstrand.generalRules.rulesStrings>
+  
+  <!-- EN: drug production -->
+  <DrugProduction.label>إنتاج المخدرات</DrugProduction.label>
+  <!-- EN: Build a drug lab for basic drug synthesis. Further research is required to make specific drugs. -->
+  <DrugProduction.description>قم ببناء مختبر مخدرات لتخليق المخدرات الأساسية. يتطلب الأمر أبحاثاً إضافية لصنع مخدرات محددة.</DrugProduction.description>
+  <!-- EN:
+    <li>subject->drug production</li>
+    <li>subject->drug synthesis</li>
+    <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+    <li>subject_story->learned how to craft drugs from recycled chemicals, leading to many years spent in prison</li>
+    <li>subject_story->worked as a chemist, but slipped into peddling illegal drugs on the side</li>
+    <li>subject_gerund->building drug labs</li>
+    <li>subject_gerund->producing drugs</li>
+  -->
+  <DrugProduction.generalRules.rulesStrings>
+    <li>subject->إنتاج المخدرات</li>
+    <li>subject->تخليق المخدرات</li>
+    <li>subject_story->عمل في مختبر على كويكب على حافة الفضاء المأهول</li>
+    <li>subject_story->تعلم كيفية صنع المخدرات من المواد الكيميائية المعاد تدويرها، مما أدى إلى قضاء سنوات عديدة في السجن</li>
+    <li>subject_story->عمل ككيميائي، لكنه انزلق إلى بيع المخدرات غير القانونية على الجانب</li>
+    <li>subject_gerund->بناء مختبرات المخدرات</li>
+    <li>subject_gerund->إنتاج المخدرات</li>
+ </DrugProduction.generalRules.rulesStrings>
+  
+  <!-- EN: go-juice production -->
+  <GoJuiceProduction.label>إنتاج عصير النشاط</GoJuiceProduction.label>
+  <!-- EN: Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain. -->
+  <GoJuiceProduction.description>إنتاج عصير النشاط، وهو عقار اصطناعي معزز للأداء القتالي يحسن القدرة على الرماية والاشتباك والحركة، ويخفف الألم.</GoJuiceProduction.description>
+  <!-- EN:
+    <li>subject->go-juice production</li>
+    <li>subject_story->was expelled for taking go-juice during team sports matches</li>
+    <li>subject_story->found go-juice massively increased productivity in mines and lumberyards</li>
+    <li>subject_story->never went on a mission without go-juice or juggernaut in a pocket</li>
+    <li>subject_gerund->synthesizing go-juice</li>
+  -->
+  <GoJuiceProduction.generalRules.rulesStrings>
+    <li>subject->إنتاج عصير النشاط</li>
+    <li>subject_story->طُرد لتعاطيه عصير النشاط خلال مباريات رياضية جماعية</li>
+    <li>subject_story->وجد أن عصير النشاط يزيد الإنتاجية بشكل كبير في المناجم ومخازن الخشب</li>
+    <li>subject_story->لم يذهب في مهمة قط بدون عصير النشاط أو الجاغرنوت في جيبه</li>
+    <li>subject_gerund->تخليق عصير النشاط</li>
+ </GoJuiceProduction.generalRules.rulesStrings>
+  
+  <!-- EN: greatbow -->
+  <Greatbow.label>القوس الكبير</Greatbow.label>
+  <!-- EN: Craft greatbows for killing enemies at great range. -->
+  <Greatbow.description>صنع الأقواس الكبيرة لقتل الأعداء من مدى بعيد.</Greatbow.description>
+  <!-- EN:
+    <li>subject->greatbows</li>
+    <li>subject_story->fired an arrow right through the iron helmet of a feudal king</li>
+    <li>subject_story->hunted muffalos for their fur on a feral world</li>
+    <li>subject_story->lived alone in the greenwood, a hail of arrows greeting anyone who approached within a mile of its edge</li>
+    <li>subject_gerund->crafting greatbows</li>
+  -->
+  <Greatbow.generalRules.rulesStrings>
+    <li>subject->الأقواس الكبيرة</li>
+    <li>subject_story->أطلق سهماً اخترق خوذة ملك إقطاعي الحديدية</li>
+    <li>subject_story->اصطاد الموفالو للحصول على فرائها على عالم بري</li>
+    <li>subject_story->عاش وحيداً في الغابة الخضراء، حيث كان وابل من السهام يستقبل أي شخص يقترب على بعد ميل من حافتها</li>
+    <li>subject_gerund->صنع الأقواس الكبيرة</li>
+ </Greatbow.generalRules.rulesStrings>
+  
+  <!-- EN: long blades -->
+  <LongBlades.label>الشفرات الطويلة</LongBlades.label>
+  <!-- EN: Craft longswords and spears. -->
+  <LongBlades.description>صنع السيوف الطويلة والرماح.</LongBlades.description>
+  <!-- EN:
+    <li>subject->medieval weaponry</li>
+    <li>subject_story->rode with the Betaduke's Fifth Light Cavalry as they conquered the sector</li>
+    <li>subject_story->was enslaved as a weaponsmith beneath the arena on an iron age planet</li>
+    <li>subject_story->trained the hoplites on a warworld to use their weapons' reach</li>
+    <li>subject_gerund->smithing medieval weapons</li>
+  -->
+  <LongBlades.generalRules.rulesStrings>
+    <li>subject->الأسلحة في العصور الوسطى</li>
+    <li>subject_story->ركب مع سلاح الفرسان الخامس الخفيف للدوق بيتا أثناء غزوهم للقطاع</li>
+    <li>subject_story->استُعبد كصانع أسلحة تحت الساحة على كوكب من العصر الحديدي</li>
+    <li>subject_story->درّب جنود الهوبليت على عالم حرب لاستخدام مدى أسلحتهم</li>
+    <li>subject_gerund->صناعة أسلحة العصور الوسطى</li>
+ </LongBlades.generalRules.rulesStrings>
+  
+  <!-- EN: passive cooler -->
+  <PassiveCooler.label>المبرد السلبي</PassiveCooler.label>
+  <!-- EN: Make passive coolers, to cool indoor spaces without using electricity. -->
+  <PassiveCooler.description>صنع المبردات السلبية لتبريد الأماكن الداخلية دون استخدام الكهرباء.</PassiveCooler.description>
+  <!-- EN:
+    <li>subject->evaporation</li>
+    <li>subject->passive coolers</li>
+    <li>subject_story->moved to a sweltering tropical world and developed unique techniques for staying cool</li>
+    <li>subject_story->researched primitive techniques for cooling areas in the comfort of a coreworld's libraries</li>
+    <li>subject_story->noticed, on the shores of an oceanic planet, that it was cooler where the sea spray settled</li>
+    <li>subject_gerund->building passive coolers</li>
+  -->
+  <PassiveCooler.generalRules.rulesStrings>
+    <li>subject->التبخير</li>
+    <li>subject->المبردات السلبية</li>
+    <li>subject_story->انتقل إلى عالم استوائي قائظ وطور تقنيات فريدة للبقاء بارداً</li>
+    <li>subject_story->بحث في تقنيات بدائية لتبريد المناطق وهو في راحة مكتبات عوالم اللب</li>
+    <li>subject_story->لاحظ، على شواطئ كوكب محيطي، أن الجو كان أكثر برودة حيث يستقر رذاذ البحر</li>
+    <li>subject_gerund->بناء المبردات السلبية</li>
+ </PassiveCooler.generalRules.rulesStrings>
+  
+  <!-- EN: pemmican -->
+  <Pemmican.label>البميكان</Pemmican.label>
+  <!-- EN: Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling. -->
+  <Pemmican.description>صنع البميكان، وهو خليط محفوظ من اللحوم والمواد النباتية لا يفسد لفترة طويلة. رائع للسفر.</Pemmican.description>
+  <!-- EN:
+    <li>subject->pemmican production</li>
+    <li>subject_story->mastered pemmican production during a long pilgrimage to the planet's Spire</li>
+    <li>subject_story->survived solely on pemmican when a passenger liner crashed on a glassworld</li>
+    <li>subject_story->taught pemmican production to feral tribes</li>
+    <li>subject_gerund->making pemmican</li>
+  -->
+  <Pemmican.generalRules.rulesStrings>
+    <li>subject->إنتاج البميكان</li>
+    <li>subject_story->أتقن إنتاج البميكان خلال رحلة حج طويلة إلى برج الكوكب</li>
+    <li>subject_story->عاش على البميكان فقط عندما تحطمت سفينة ركاب على عالم زجاجي</li>
+    <li>subject_story->علّم إنتاج البميكان للقبائل البرية</li>
+    <li>subject_gerund->صنع البميكان</li>
+ </Pemmican.generalRules.rulesStrings>
+  
+  <!-- EN: penoxycyline production -->
+  <PenoxycylineProduction.label>إنتاج بينوكسيسايكلين</PenoxycylineProduction.label>
+  <!-- EN: Produce penoxycyline, a disease prevention drug which blocks plague, malaria, and more before they start. -->
+  <PenoxycylineProduction.description>إنتاج البينوكسيسايكلين، وهو دواء للوقاية من الأمراض يمنع الطاعون والملاريا وغيرها قبل أن تبدأ.</PenoxycylineProduction.description>
+  <!-- EN:
+    <li>subject->penoxycyline production</li>
+    <li>subject_story->lectured to the United Planets about preventative medicine</li>
+    <li>subject_story->was driven out of Dawn Falls as a quack, for selling a medicine that "doesn't do anything"</li>
+    <li>subject_story->prevented an outbreak of malaria from spreading through careful penoxycyline dosage</li>
+    <li>subject_gerund->synthesizing penoxycyline</li>
+  -->
+  <PenoxycylineProduction.generalRules.rulesStrings>
+    <li>subject->إنتاج البينوكسيسايكلين</li>
+    <li>subject_story->ألقى محاضرة أمام الكواكب المتحدة حول الطب الوقائي</li>
+    <li>subject_story->طُرد من شلالات الفجر كدجال، لبيعه دواء "لا يفعل شيئاً"</li>
+    <li>subject_story->منع انتشار وباء الملاريا من خلال جرعات دقيقة من البينوكسيسايكلين</li>
+    <li>subject_gerund->تخليق البينوكسيسايكلين</li>
+ </PenoxycylineProduction.generalRules.rulesStrings>
+  
+  <!-- EN: plate armor -->
+  <PlateArmor.label>الدرع الصفائحي</PlateArmor.label>
+  <!-- EN: Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively. -->
+  <PlateArmor.description>صنع أطقم من الدروع الصفائحية من المعدن أو الخشب. هذا الدرع الثقيل يبطئ الحركة بشكل ملحوظ، لكنه يحمي بفعالية كبيرة.</PlateArmor.description>
+  <!-- EN:
+    <li>subject->plate armor</li>
+    <li>subject_story->crafted armor from scrap, when the authorities surrounded [ANYPAWN_possessive] family's shack</li>
+    <li>subject_story->became known as the Green Smith, when moss grew on the wooden armor</li>
+    <li>subject_story->started the first armorworker's collective on an urbworld</li>
+    <li>subject_gerund->smithing plate armor</li>
+  -->
+  <PlateArmor.generalRules.rulesStrings>
+    <li>subject->الدرع الصفائحي</li>
+    <li>subject_story->صنع درعاً من الخردة، عندما حاصرت السلطات كوخ عائلة [ANYPAWN_possessive]</li>
+    <li>subject_story->اشتهر باسم الحداد الأخضر، عندما نمت الطحالب على الدرع الخشبي</li>
+    <li>subject_story->بدأ أول تعاونية لصانعي الدروع على عالم حضري</li>
+    <li>subject_gerund->صناعة الدروع الصفائحية</li>
+ </PlateArmor.generalRules.rulesStrings>
+  
+  <!-- EN: psychite refining -->
+  <PsychiteRefining.label>تكرير السايكيت</PsychiteRefining.label>
+  <!-- EN: Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug. -->
+  <PsychiteRefining.description>تكرير أوراق السايكويد إلى رقائق ويَايُو، وهما شكلان مختلفان من عقار السايكيت المبهج.</PsychiteRefining.description>
+  <!-- EN:
+    <li>subject->psychite production</li>
+    <li>subject_story->used [ANYPAWN_possessive] university job as cover for [ANYPAWN_possessive] drug-dealing</li>
+    <li>subject_story->started a commune where low-dose flake was mixed into the food</li>
+    <li>subject_story->campaigned for the legalisation of yayo on a nearby urbworld</li>
+    <li>subject_gerund->refining psychite</li>
+  -->
+  <PsychiteRefining.generalRules.rulesStrings>
+    <li>subject->إنتاج السايكيت</li>
+    <li>subject_story->استخدم وظيفته في الجامعة كغطاء لتجارة المخدرات</li>
+    <li>subject_story->أنشأ جماعة مشتركة حيث كانت تُخلط جرعات منخفضة من الرقائق بالطعام</li>
+    <li>subject_story->قام بحملة لتشريع اليَايُو على عالم حضري قريب</li>
+    <li>subject_gerund->تكرير السايكيت</li>
+ </PsychiteRefining.generalRules.rulesStrings>
+  
+  <!-- EN: psychoid brewing -->
+  <PsychoidBrewing.label>تخمير السايكويد</PsychoidBrewing.label>
+  <!-- EN: Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove. -->
+  <PsychoidBrewing.description>تحضير أوراق السايكويد إلى شاي مسبب للنشوة الخفيفة والإدمان على نار المخيم أو موقد الطهي.</PsychoidBrewing.description>
+  <!-- EN:
+    <li>subject->psychoid</li>
+    <li>subject_story->joined a short-lived psychoid commune on a cult world</li>
+    <li>subject_story->experimented with psychoid to help traumatized soldiers</li>
+    <li>subject_story->legalized psychoid for mass production across several coreworlds, when [ANYPAWN_pronoun] had the power to do so</li>
+    <li>subject_gerund->brewing psychoid</li>
+  -->
+  <PsychoidBrewing.generalRules.rulesStrings>
+    <li>subject->السايكويد</li>
+    <li>subject_story->انضم إلى جماعة سايكويد لم تدم طويلاً على عالم طائفي</li>
+    <li>subject_story->جرّب السايكويد لمساعدة الجنود المصابين بصدمات</li>
+    <li>subject_story->شرّع السايكويد للإنتاج بالجملة عبر عدة عوالم لب، عندما كانت لديه القدرة على فعل ذلك</li>
+    <li>subject_gerund->تخمير السايكويد</li>
+ </PsychoidBrewing.generalRules.rulesStrings>
+  
+  <!-- EN: recurve bow -->
+  <RecurveBow.label>القوس المنحني</RecurveBow.label>
+  <!-- EN: Build the recurve bow, an effective and inexpensive ranged weapon. -->
+  <RecurveBow.description>بناء القوس المنحني، وهو سلاح بعيد المدى فعال وغير مكلف.</RecurveBow.description>
+  <!-- EN:
+    <li>subject->bowyery</li>
+    <li>subject->bow-making</li>
+    <li>subject_story->tracked a rabid boomalope for four days before killing it with a single arrow</li>
+    <li>subject_story->settled near a yew forest to secure the perfect materials for bows</li>
+    <li>subject_story->raised the colony children as hunter-gatherers, with every one a master archer</li>
+    <li>subject_gerund->crafting bows</li>
+  -->
+  <RecurveBow.generalRules.rulesStrings>
+    <li>subject->صناعة الأقواس</li>
+    <li>subject->صنع الأقواس</li>
+    <li>subject_story->تتبع بومالوب مسعوراً لمدة أربعة أيام قبل أن يقتله بسهم واحد</li>
+    <li>subject_story->استقر بالقرب من غابة طقسوس ليضمن أفضل المواد لصنع الأقواس</li>
+    <li>subject_story->ربى أطفال المستعمرة كصيادين وجامعين، وكان كل واحد منهم رامياً ماهراً</li>
+    <li>subject_gerund->صنع الأقواس</li>
+ </RecurveBow.generalRules.rulesStrings>
+  
+  <!-- EN: smithing -->
+  <Smithing.label>الحدادة</Smithing.label>
+  <!-- EN: Build smithies for crafting metal weapons like knives, gladii, and maces. Work metal into clean, beautiful floor tiles. -->
+  <Smithing.description>بناء المصانع الحدادة لصنع أسلحة معدنية مثل السكاكين والسيوف الرومانية والصولجانات. تشكيل المعدن إلى بلاط أرضي نظيف وجميل.</Smithing.description>
+  <!-- EN:
+    <li>subject->blacksmithing</li>
+    <li>subject_story->settled in a medieval hamlet and mastered simple metal crafting</li>
+    <li>subject_story->built glitterworld smithies for the Renaissance reenactment guilds</li>
+    <li>subject_gerund->smithing</li>
+  -->
+  <Smithing.generalRules.rulesStrings>
+    <li>subject->الحدادة</li>
+    <li>subject_story->استقر في قرية صغيرة من العصور الوسطى وأتقن صنع المعادن البسيطة</li>
+    <li>subject_story->بنى مصانع حدادة على عوالم براقة لنقابات إعادة تمثيل عصر النهضة</li>
+    <li>subject_gerund->الحدادة</li>
+ </Smithing.generalRules.rulesStrings>
+  
+  <!-- EN: stonecutting -->
+  <Stonecutting.label>نحت الحجر</Stonecutting.label>
+  <!-- EN: Cut rock chunks into stone blocks for use in construction. Build beautiful stone tile floors or ugly concrete walkways. -->
+  <Stonecutting.description>تقطيع كتل الصخور إلى كتل حجرية لاستخدامها في البناء. بناء أرضيات بلاط حجري جميلة أو ممرات إسمنتية قبيحة.</Stonecutting.description>
+  <!-- EN:
+    <li>subject->masonry</li>
+    <li>subject_story->was the first in a line of temple designers, all sharing the same name</li>
+    <li>subject_story->developed unique techniques for cutting the hardest rock with basic tools</li>
+    <li>subject_story->tiled the entirety of the viceroy's palace on a medieval world</li>
+    <li>subject_gerund->stonecutting</li>
+    <li>subject_gerund->cutting stones</li>
+  -->
+  <Stonecutting.generalRules.rulesStrings>
+    <li>subject->البناء الحجري</li>
+    <li>subject_story->كان الأول في سلسلة من مصممي المعابد، جميعهم يشاركون نفس الاسم</li>
+    <li>subject_story->طور تقنيات فريدة لقطع أصلب الصخور بأدوات بسيطة</li>
+    <li>subject_story->بلّط قصر نائب الملك بالكامل على عالم من العصور الوسطى</li>
+    <li>subject_gerund->نحت الحجر</li>
+    <li>subject_gerund->تقطيع الحجارة</li>
+ </Stonecutting.generalRules.rulesStrings>
+  
+  <!-- EN: tree sowing -->
+  <TreeSowing.label>زراعة الأشجار</TreeSowing.label>
+  <!-- EN: Sow the local biome's natural trees in your fields. -->
+  <TreeSowing.description>ازرع أشجار المنطقة الحيوية المحلية الطبيعية في حقولك.</TreeSowing.description>
+  <!-- EN:
+    <li>subject->tree sowing</li>
+    <li>subject_story->propagated trees across a long-dead planetoid, trying to bring life back</li>
+    <li>subject_story->published a paper about maintaining natural ecosystems</li>
+    <li>subject_story->worked in a tree nursery on an animal world</li>
+    <li>subject_gerund->sowing trees</li>
+  -->
+  <TreeSowing.generalRules.rulesStrings>
+    <li>subject->زراعة الأشجار</li>
+    <li>subject_story->نشر الأشجار عبر كويكب ميت منذ زمن طويل، محاولاً إعادة الحياة</li>
+    <li>subject_story->نشر ورقة بحثية حول الحفاظ على النظم البيئية الطبيعية</li>
+    <li>subject_story->عمل في مشتل أشجار على عالم حيواني</li>
+    <li>subject_gerund->زرع الأشجار</li>
+ </TreeSowing.generalRules.rulesStrings>
+  
+  <!-- EN: wake-up production -->
+  <WakeUpProduction.label>إنتاج المنشط</WakeUpProduction.label>
+  <!-- EN: Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep. -->
+  <WakeUpProduction.description>تخليق المنشط، وهو عقار معزز للأداء في العمل يستبدل الحاجة إلى النوم.</WakeUpProduction.description>
+  <!-- EN:
+    <li>subject->wake-up production</li>
+    <li>subject_story->tried to overcome caffeine addiction by taking wake-up</li>
+    <li>subject_story->treated narcoleptics and sleepwalkers with carefully timed wake-up doses</li>
+    <li>subject_story->moved everyone to the dark side of an asteroid and used wake-up to maintain their biorhythms</li>
+    <li>subject_gerund->synthesizing wake-up</li>
+  -->
+  <WakeUpProduction.generalRules.rulesStrings>
+    <li>subject->إنتاج المنشط</li>
+    <li>subject_story->حاول التغلب على إدمان الكافيين بتناول المنشط</li>
+    <li>subject_story->عالج المصابين بالنوم القهري والسائرين أثناء النوم بجرعات محددة التوقيت من المنشط</li>
+    <li>subject_story->نقل الجميع إلى الجانب المظلم من كويكب واستخدم المنشط للحفاظ على إيقاعاتهم الحيوية</li>
+    <li>subject_gerund->تخليق المنشط</li>
+ </WakeUpProduction.generalRules.rulesStrings>
+  
+</LanguageData>

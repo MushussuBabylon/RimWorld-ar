@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bioluminescent spores -->
+  <BioluminescentSpores.label>جراثيم متوهجة حيوياً</BioluminescentSpores.label>
+  <!-- EN: Some variety of fungus is blossoming and releasing bioluminescent spores! The spores are strangely beautiful and pose no danger. -->
+  <BioluminescentSpores.description>نوع من الفطريات يزهر ويطلق جراثيم متوهجة حيوياً! الجراثيم جميلة بشكل غريب ولا تشكل أي خطر.</BioluminescentSpores.description>
+  <!-- EN: The bioluminescent spores are subsiding. -->
+  <BioluminescentSpores.endMessage>الجراثيم المتوهجة حيوياً تهدأ.</BioluminescentSpores.endMessage>
+  <!-- EN: Some variety of fungus is blossoming and releasing bioluminescent spores! The spores pose no danger, and the shimmering visuals will brighten the mood of anyone who sees them. -->
+  <BioluminescentSpores.letterText>نوع من الفطريات يزهر ويطلق جراثيم متوهجة حيوياً! لا تشكل الجراثيم أي خطر، وستحسن المناظر اللامعة مزاج كل من يراها.</BioluminescentSpores.letterText>
+  
+  <!-- EN: darkened skies -->
+  <DarkenedSkies.label>سماء مظلمة</DarkenedSkies.label>
+  <!-- EN: Thick black clouds are blocking out the sky and sun. -->
+  <DarkenedSkies.description>غيوم سوداء كثيفة تحجب السماء والشمس.</DarkenedSkies.description>
+  
+  <!-- EN: deep freeze -->
+  <DeepFreeze.label>تجميد عميق</DeepFreeze.label>
+  <!-- EN: An ancient, mysterious device is dramatically lowering temperatures in the area. -->
+  <DeepFreeze.description>جهاز قديم غامض يخفض درجات الحرارة بشكل كبير في المنطقة.</DeepFreeze.description>
+  <!-- EN: The deep freeze is lifting. -->
+  <DeepFreeze.endMessage>التجميد العميق ينحسر.</DeepFreeze.endMessage>
+  
+  <!-- EN: drought -->
+  <Drought.label>جفاف</Drought.label>
+  <!-- EN: A prolonged period of low rainfall. Plants will grow slower during a drought. -->
+  <Drought.description>فترة طويلة من هطول الأمطار المنخفض. ستنمو النباتات ببطء أثناء الجفاف.</Drought.description>
+  <!-- EN: The drought is over. -->
+  <Drought.endMessage>انتهى الجفاف.</Drought.endMessage>
+  <!-- EN: Due to a recent lack of rain, a drought has begun. Outdoor plants will grow significantly slower. -->
+  <Drought.letterText>بسبب قلة الأمطار مؤخراً، بدأ الجفاف. ستنمو النباتات الخارجية ببطء شديد.</Drought.letterText>
+  
+  <!-- EN: initial drought conditions -->
+  <DroughtInitial.label>بوادر جفاف</DroughtInitial.label>
+  <!-- EN: The initial signs of a drought. If it continues, a full drought will occur. -->
+  <DroughtInitial.description>العلامات الأولية للجفاف. إذا استمر، سيحدث جفاف كامل.</DroughtInitial.description>
+  
+  <!-- EN: gill rot -->
+  <GillRot.label>عفن الخياشيم</GillRot.label>
+  <!-- EN: Fish populations are slowly declining due to a parasitic fungus known as gill rot. The fungus is harmless to people. -->
+  <GillRot.description>تعداد الأسماك يتراجع ببطء بسبب فطر طفيلي يعرف بعفن الخياشيم. الفطر غير ضار للبشر.</GillRot.description>
+  <!-- EN: Gill rot is ending. -->
+  <GillRot.endMessage>عفن الخياشيم ينتهي.</GillRot.endMessage>
+  <!-- EN: A parasitic fungus called gill rot has appeared among the local fish populations. While harmless to humans, the fungus will cause fish populations to steadily decline for some time.\n\nLow fish populations will make fishing less productive. -->
+  <GillRot.letterText>ظهر فطر طفيلي يسمى عفن الخياشيم بين تجمعات الأسماك المحلية. بينما هو غير ضار للبشر، سيتسبب الفطر في تراجع أعداد الأسماك بثبات لبعض الوقت.\n\nانخفاض أعداد الأسماك سيجعل الصيد أقل إنتاجية.</GillRot.letterText>
+  
+  <!-- EN: heat vent emissions -->
+  <HeatVentHeat.label>انبعاثات فتحة حرارية</HeatVentHeat.label>
+  <!-- EN: Heat from a nearby underground vent is raising the temperature in the area. -->
+  <HeatVentHeat.description>حرارة من فتحة أرضية قريبة ترفع درجة الحرارة في المنطقة.</HeatVentHeat.description>
+  
+  <!-- EN: lava flow -->
+  <LavaFlow.label>تدفق حمم</LavaFlow.label>
+  <!-- EN: Lava has begun to pour into the area. It will flow over the low-lying volcanic rock, but spare the other terrain. Keep your colonists out of harm's way! -->
+  <LavaFlow.description>بدأت الحمم تتدفق إلى المنطقة. ستجري فوق الصخور البركانية المنخفضة، لكنها ستترك التضاريس الأخرى. أبقِ مستعمريك بعيداً عن الأذى!</LavaFlow.description>
+  
+  <!-- EN: volcanic ash -->
+  <VolcanicAsh.label>رماد بركاني</VolcanicAsh.label>
+  <!-- EN: Ash from a nearby volcanic eruption is filling the sky. The sun is blocked and the acrid air burns the lungs. The cloud will last several days. -->
+  <VolcanicAsh.description>رماد من ثوران بركاني قريب يملأ السماء. الشمس محجوبة والهواء اللاذع يحرق الرئتين. ستستمر السحابة عدة أيام.</VolcanicAsh.description>
+  <!-- EN: a nearby eruption will send a cloud of ash over [map_definite] for [gameConditionDuration_duration], darkening the sky and making it hard to breathe -->
+  <VolcanicAsh.descriptionFuture>بركان قريب سيرسل سحابة من الرماد فوق [map_definite] لمدة [gameConditionDuration_duration]، مما يعتم السماء ويجعل التنفس صعباً</VolcanicAsh.descriptionFuture>
+  <!-- EN: Most of the ash has settled. -->
+  <VolcanicAsh.endMessage>استقر معظم الرماد.</VolcanicAsh.endMessage>
+  <!-- EN: Ash from a nearby volcanic eruption is filling the sky. The sun is blocked and the acrid air burns the lungs. The cloud will last several days. -->
+  <VolcanicAsh.letterText>رماد من ثوران بركاني قريب يملأ السماء. الشمس محجوبة والهواء اللاذع يحرق الرئتين. ستستمر السحابة عدة أيام.</VolcanicAsh.letterText>
+  
+  <!-- EN: volcanic debris -->
+  <VolcanicDebris.label>حطام بركاني</VolcanicDebris.label>
+  <!-- EN: A nearby volcanic eruption is showering the region with molten lava! -->
+  <VolcanicDebris.description>ثوران بركاني قريب يمطر المنطقة بحمم منصهرة!</VolcanicDebris.description>
+  <!-- EN: A nearby volcanic eruption is showering the region with molten lava! -->
+  <VolcanicDebris.letterText>ثوران بركاني قريب يمطر المنطقة بحمم منصهرة!</VolcanicDebris.letterText>
+  
+  <!-- EN: windy -->
+  <WindyGameCondition.label>رياح شديدة</WindyGameCondition.label>
+  <!-- EN: Winds are much stronger in this area. -->
+  <WindyGameCondition.description>الرياح أقوى بكثير في هذه المنطقة.</WindyGameCondition.description>
+  
+</LanguageData>

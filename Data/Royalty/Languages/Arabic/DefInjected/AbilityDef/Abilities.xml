@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: beckon -->
+  <Beckon.label>استدعاء</Beckon.label>
+  <!-- EN: Psychically command the target to approach the caster. -->
+  <Beckon.description>يصدر أمراً نفسياً للهدف بالاقتراب من الملقي.</Beckon.description>
+  
+  <!-- EN: berserk -->
+  <Berserk.label>هياج</Berserk.label>
+  <!-- EN: Induce an angry psychosis in the target's mind, causing them to attack anyone nearby. -->
+  <Berserk.description>يحفز ذهاناً غاضباً في عقل الهدف، مما يجعله يهاجم أي شخص قريب.</Berserk.description>
+  
+  <!-- EN: berserk pulse -->
+  <BerserkPulse.label>نبضة هياج</BerserkPulse.label>
+  <!-- EN: Generate an overwhelming rush of undirected rage in everyone near the target point. -->
+  <BerserkPulse.description>يولد اندفاعاً طاغياً من الغضب العشوائي لدى كل من بالقرب من نقطة الهدف.</BerserkPulse.description>
+  
+  <!-- EN: blinding pulse -->
+  <BlindingPulse.label>نبضة تعمية</BlindingPulse.label>
+  <!-- EN: Induce noise in the visual centers of the brain, obscuring vision of everyone near the target point. -->
+  <BlindingPulse.description>يحدث تشويشاً في مراكز الرؤية بالدماغ، مما يحجب رؤية كل من بالقرب من نقطة الهدف.</BlindingPulse.description>
+  
+  <!-- EN: skipshield -->
+  <BulletShield.label>درع التخطي</BulletShield.label>
+  <!-- EN: Generate a spherical skipgate that sends all incoming and outgoing ground-level projectiles to some distant place. The process is forceful enough to detonate explosive projectiles. People and items are not affected. -->
+  <BulletShield.description>يولد بوابة تخطي كروية ترسل جميع المقذوفات الأرضية القادمة والصادرة إلى مكان بعيد. العملية قوية بما يكفي لتفجير المقذوفات المتفجرة. لا يتأثر الأشخاص أو الأشياء.</BulletShield.description>
+  
+  <!-- EN: burden -->
+  <Burden.label>إثقال</Burden.label>
+  <!-- EN: Slow the target for a short time by suppressing motor activity in the brain. -->
+  <Burden.description>يبطئ الهدف لفترة قصيرة عن طريق كبح النشاط الحركي في الدماغ.</Burden.description>
+  
+  <!-- EN: chaos skip -->
+  <ChaosSkip.label>تخطي فوضوي</ChaosSkip.label>
+  <!-- EN: Teleport the target to a random position near where it started. Objects above a certain size cannot be teleported. -->
+  <ChaosSkip.description>ينقل الهدف آنياً إلى موقع عشوائي قريب من نقطة انطلاقه. الأجسام التي تتجاوز حجماً معيناً لا يمكن نقلها.</ChaosSkip.description>
+  
+  <!-- EN: chunk skip -->
+  <Chunkskip.label>تخطي الكتل</Chunkskip.label>
+  <!-- EN: Skip the closest 5 chunks of rock or slag to scatter them near the target point. This is useful for producing cover during offensive operations. -->
+  <Chunkskip.description>ينقل أقرب 5 كتل من الصخر أو الخردة آنياً لينثرها قرب نقطة الهدف. هذا مفيد لإنشاء غطاء خلال العمليات الهجومية.</Chunkskip.description>
+  
+  <!-- EN: neural heat dump -->
+  <EntropyDump.label>تفريغ الحرارة العصبية</EntropyDump.label>
+  <!-- EN: Instantly dump all your neural heat into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
+  <EntropyDump.description>يفرغ فوراً كل حرارتك العصبية في شخص آخر. كأثر جانبي، يدخل الهدف في غيبوبة منهكة لكن غير ضارة لمدة يوم تقريباً. يجب أن يقبل الهدف الغزو النفسي بنشاط، لذا لا يمكن استهداف سوى الحلفاء الواعين.</EntropyDump.description>
+  
+  <!-- EN: farskip -->
+  <Farskip.label>تخطي بعيد</Farskip.label>
+  <!-- EN: Skip the caster, along with anyone standing near them, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map. -->
+  <Farskip.description>ينقل الملقي ومن يقفون بالقرب منه آنياً إلى حليف في موقع بعيد. يمكن لهذا أن يرسل الناس بعيداً عبر الكوكب، لكنه لا يعمل إلا بوجود حليف راغب على الجانب الآخر لاستخدامه كمنارة إرشاد. سيظهر الأشخاص المنقولون دائماً قرب حليف عشوائي في الخريطة المستهدفة.</Farskip.description>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>عاصفة خاطفة</Flashstorm.label>
+  <!-- EN: Use differential-pressure skipgates in the atmosphere to generate a localized flashstorm. The storm will strike the area with lightning for some time before dissipating. -->
+  <Flashstorm.description>يستخدم بوابات تخطي ذات ضغط تفاضلي في الغلاف الجوي لتوليد عاصفة خاطفة محلية. تضرب العاصفة المنطقة بالبرق لبعض الوقت قبل أن تتبدد.</Flashstorm.description>
+  
+  <!-- EN: focus -->
+  <Focus.label>تركيز</Focus.label>
+  <!-- EN: Psychically focus the target's mind, boosting their sight, hearing and moving capacities. -->
+  <Focus.description>يركز عقل الهدف نفسياً، معززاً قدراته على الرؤية والسمع والحركة.</Focus.description>
+  
+  <!-- EN: invisibility -->
+  <Invisibility.label>إخفاء</Invisibility.label>
+  <!-- EN: Psychically manipulate the visual centers of everyone nearby, rendering them unable to perceive a particular individual for a short time. -->
+  <Invisibility.description>يتلاعب نفسياً بمراكز الرؤية لدى كل من بالقرب، جاعلاً إياهم غير قادرين على إدراك فرد معين لفترة قصيرة.</Invisibility.description>
+  
+  <!-- EN: manhunter pulse -->
+  <ManhunterPulse.label>نبضة صيد البشر</ManhunterPulse.label>
+  <!-- EN: Drive nearby animals into a manhunting rage using a psychic pulse. -->
+  <ManhunterPulse.description>يدفع الحيوانات القريبة إلى ثورة صيد البشر باستخدام نبضة نفسية.</ManhunterPulse.description>
+  
+  <!-- EN: mass chaos skip -->
+  <MassChaosSkip.label>تخطي فوضوي جماعي</MassChaosSkip.label>
+  <!-- EN: Skip everyone in an area to random positions nearby. Objects which are too large cannot be teleported. -->
+  <MassChaosSkip.description>ينقل كل من في المنطقة آنياً إلى مواقع عشوائية قريبة. الأجسام الكبيرة جداً لا يمكن نقلها.</MassChaosSkip.description>
+  
+  <!-- EN: neuroquake -->
+  <Neuroquake.label>زلزال عصبي</Neuroquake.label>
+  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature in range but outside of the safe, inner, circle will be driven violently insane. Casting this takes 12 seconds of meditation, and afterwards, the caster will go into a five-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
+  <Neuroquake.description>يجد انقطاعاً في المجال النفسي ويكشفه، مطلقاً كمية هائلة من الطاقة النفسية. كل مخلوق في النطاق لكن خارج الدائرة الداخلية الآمنة، سيُدفع إلى الجنون العنيف. يتطلب الإلقاء 12 ثانية من التأمل، وبعدها يدخل الملقي في غيبوبة نفسية لمدة خمسة أيام. ستلحق أصداء الزلزال العصبي المزعجة الألم بالجميع لكيلومترات عديدة حولك، مسببة عواقب دبلوماسية مع جميع الفصائل.</Neuroquake.description>
+  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes 12 seconds to cast, and cannot be interrupted. When complete, the caster will fall into a psychic coma for 5 days.\n\nEveryone in range except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
+  <Neuroquake.confirmationDialogText>إذا استخدمت الزلزال العصبي، سيشعر الجميع في هذه المنطقة بصدى الزلزال العصبي، وستفقد حسن النية مع كل فصيلة غير معادية.\n\nيستغرق الزلزال العصبي 12 ثانية للإلقاء ولا يمكن مقاطعته. عند الاكتمال، يدخل الملقي في غيبوبة نفسية لمدة 5 أيام.\n\nسيتأثر كل من في النطاق باستثناء الموجودين في دائرة صغيرة حول الملقي.\n\nهل تريد حقاً إلقاء الزلزال العصبي؟</Neuroquake.confirmationDialogText>
+  
+  <!-- EN: painblock -->
+  <Painblock.label>حجب الألم</Painblock.label>
+  <!-- EN: Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them. -->
+  <Painblock.description>يحجب مسارات الألم في دماغ الهدف لفترة قصيرة. يمكن أن يسمح للشخص بالحركة والتصرف حتى مع الإصابات البالغة التي كانت ستعجزه عادة.</Painblock.description>
+  
+  <!-- EN: skip -->
+  <Skip.label>تخطي</Skip.label>
+  <!-- EN: Teleport the target to a desired position not too far from its starting point. Objects which are too large cannot be teleported. -->
+  <Skip.description>ينقل الهدف آنياً إلى موقع مرغوب ليس بعيداً جداً عن نقطة انطلاقه. الأجسام الكبيرة جداً لا يمكن نقلها.</Skip.description>
+  
+  <!-- EN: smokepop -->
+  <Smokepop.label>فرقعة دخان</Smokepop.label>
+  <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely. -->
+  <Smokepop.description>ينقل جزيئات الغبار آنياً من تحت سطح الأرض لتشكيل سحابة كثيفة. هذا يقلل دقة أي طلقة تطلق عبرها، ويمنع المدافع من التصويب تماماً.</Smokepop.description>
+  
+  <!-- EN: solar pinhole -->
+  <SolarPinhole.label>ثقب شمسي</SolarPinhole.label>
+  <!-- EN: Generate a microscopic skipgate linked to the core of a nearby star. Solar material leaks through the pinprick in spacetime, illuminating and warming the surrounding area until it closes. The light is enough to work by, but not enough to grow plants. -->
+  <SolarPinhole.description>يولد بوابة تخطي مجهرية متصلة بنواة نجم قريب. تتسرب المادة الشمسية عبر الثقب الصغير في الزمكان، منيرة ومدفئة المنطقة المحيطة حتى ينغلق. الضوء كافٍ للعمل، لكنه غير كافٍ لنمو النباتات.</SolarPinhole.description>
+  
+  <!-- EN: throne speech -->
+  <Speech.label>خطاب العرش</Speech.label>
+  <!-- EN: Initiate a speech from the throne. All colonists will come and listen. If it goes well, listeners will feel inspired, and gain respect for the speaker. If it goes poorly, the speech will do social damage. The outcome depends on the speaker's social abilities. -->
+  <Speech.description>يبدأ خطاباً من العرش. سيأتي جميع المستعمرين ويستمعون. إذا سار بشكل جيد، سيشعر المستمعون بالإلهام، ويكتسبون احتراماً للمتحدث. إذا سار بشكل سيئ، فسيلحق الخطاب ضرراً اجتماعياً. تعتمد النتيجة على قدرات المتحدث الاجتماعية.</Speech.description>
+  
+  <!-- EN: stun -->
+  <Stun.label>صعق</Stun.label>
+  <!-- EN: Momentarily disrupt motor function in the target's brain, preventing any movement. -->
+  <Stun.description>يعطل الوظيفة الحركية في دماغ الهدف بشكل مؤقت، مانعاً أي حركة.</Stun.description>
+  
+  <!-- EN: vertigo pulse -->
+  <VertigoPulse.label>نبضة دوار</VertigoPulse.label>
+  <!-- EN: Interfere with the spatial orientation sense of everyone near the target point, causing intermittent loss of balance. Flesh creatures will become extremely nauseous as well. -->
+  <VertigoPulse.description>يتداخل مع حاسة التوجه المكاني لدى كل من بالقرب من نقطة الهدف، مسبباً فقداناً متقطعاً للتوازن. ستصاب الكائنات اللحمية أيضاً بغثيان شديد.</VertigoPulse.description>
+  
+  <!-- EN: wallraise -->
+  <Wallraise.label>رفع جدار</Wallraise.label>
+  <!-- EN: Form a temporary wall by skipping rubble and soil up from deep under the ground. -->
+  <Wallraise.description>يشكل جداراً مؤقتاً بنقل الأنقاض والتربة آنياً من الأعماق تحت الأرض.</Wallraise.description>
+  
+  <!-- EN: waterskip -->
+  <Waterskip.label>نقل الماء</Waterskip.label>
+  <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
+  <Waterskip.description>يغمر منطقة الهدف بالماء، مطفئاً الحرائق. يتم نقل الماء آنياً بواسطة التقنية الأثرية من مسطحات مائية بعيدة أو خزانات جوفية.</Waterskip.description>
+  
+  <!-- EN: word of inspiration -->
+  <WordOfInspiration.label>كلمة إلهام</WordOfInspiration.label>
+  <!-- EN: Speak words encouraging creativity while psychically hypercharging the target's mind with new ideas. The target will experience a random inspiration appropriate to them. -->
+  <WordOfInspiration.description>ينطق بكلمات تشجع الإبداع بينما يشحن عقل الهدف نفسياً بأفكار جديدة. سيختبر الهدف إلهاماً عشوائياً مناسباً له.</WordOfInspiration.description>
+  
+  <!-- EN: word of joy -->
+  <WordOfJoy.label>كلمة فرح</WordOfJoy.label>
+  <!-- EN: Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in their mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness. -->
+  <WordOfJoy.description>ينطق بكلمات سعيدة ومهدئة لشخص ما بينما يستخدم الإيحاء النفسي لزرع حلقة تشويش فرح في عقله. يكبت تشويش الفرح الأفكار والأحاسيس غير المريحة في الهدف لتحسين المزاج. لهذا أثر جانبي يتمثل في تبلد الإحساس واتخاذ القرار، مما يقلل الوعي.</WordOfJoy.description>
+  
+  <!-- EN: word of love -->
+  <WordOfLove.label>كلمة حب</WordOfLove.label>
+  <!-- EN: Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This power can be used to connect two other people, induce love for the caster, or force oneself to love another. -->
+  <WordOfLove.description>يتحدث عن فضائل شخص ما الرومانسية بينما يستخدم الإيحاء النفسي لزرع رغبة عاطفية في المستمع. لأيام بعد ذلك، سيشعر المستمع بانجذاب عاطفي مستحث نفسياً تجاه الشخص الآخر. هذا يزيد الرأي بشكل كبير ويجعلهم أكثر عرضة لمحاولة التقدم العاطفي وعروض الزواج إذا سنحت الفرصة. يمكن استخدام هذه القوة للربط بين شخصين آخرين، أو إحداث حب للملقي، أو إجبار النفس على حب آخر.</WordOfLove.description>
+  
+  <!-- EN: word of serenity -->
+  <WordOfSerenity.label>كلمة سكينة</WordOfSerenity.label>
+  <!-- EN: Use calming words and psychic suggestion to end a mental break on a person. The target will fall into a short psychic sleep. The psyfocus cost depends on the intensity of the target's mental break. -->
+  <WordOfSerenity.description>يستخدم كلمات مهدئة وإيحاء نفسي لإنهاء انهيار عقلي لدى شخص. سيدخل الهدف في نوم نفسي قصير. تعتمد تكلفة التركيز النفسي على شدة الانهيار العقلي للهدف.</WordOfSerenity.description>
+  
+  <!-- EN: word of trust -->
+  <WordOfTrust.label>كلمة ثقة</WordOfTrust.label>
+  <!-- EN: Speak to the prisoner while using psychic suggestion to reduce their resistance to recruitment. This can only reduce a prisoner's resistance, but cannot recruit them. -->
+  <WordOfTrust.description>يتحدث إلى السجين بينما يستخدم الإيحاء النفسي لتقليل مقاومته للتجنيد. يمكن لهذا فقط تقليل مقاومة السجين، لكن لا يمكنه تجنيدهم.</WordOfTrust.description>
+  
+</LanguageData>

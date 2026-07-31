@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[NamePerson]'s curse</li>
+    <li>terrain_word(p=2)->town</li>
+    <li>terrain_word->outpost</li>
+    <li>terrain_word->ghost town</li>
+  -->
+  <NamerLandmark_AbandonedColonyOutlander.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[NamePerson]'s curse</li>
+    <li>terrain_word(p=2)->بلدة</li>
+    <li>terrain_word->موقع أمامي</li>
+    <li>terrain_word->بلدة أشباح</li>
+ </NamerLandmark_AbandonedColonyOutlander.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=2)->village</li>
+    <li>terrain_word->camp</li>
+  -->
+  <NamerLandmark_AbandonedColonyTribal.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->قرية</li>
+    <li>terrain_word->مخيم</li>
+ </NamerLandmark_AbandonedColonyTribal.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=2)->heat vents</li>
+    <li>terrain_word->thermal vents</li>
+    <li>terrain_word->infernal vents</li>
+    <li>terrain_word->hell holes</li>
+    <li>terrain_word->heat ducts</li>
+  -->
+  <NamerLandmark_AncientHeatVent.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->فتحات حرارية</li>
+    <li>terrain_word->فتحات حرارية</li>
+    <li>terrain_word->فتحات جهنمية</li>
+    <li>terrain_word->حفر جهنم</li>
+    <li>terrain_word->أنفاق حرارية</li>
+ </NamerLandmark_AncientHeatVent.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->excavation site</li>
+    <li>terrain_word->quarry</li>
+    <li>terrain_word->mines</li>
+    <li>terrain_word->rock pits</li>
+  -->
+  <NamerLandmark_AncientQuarry.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->موقع حفر</li>
+    <li>terrain_word->محجر</li>
+    <li>terrain_word->منجم</li>
+    <li>terrain_word->حفر صخرية</li>
+ </NamerLandmark_AncientQuarry.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=2)->exhaust duct</li>
+    <li>terrain_word->vents</li>
+    <li>terrain_word->fumaroles</li>
+    <li>terrain_word->chimneys</li>
+    <li>terrain_word->smokestacks</li>
+  -->
+  <NamerLandmark_AncientSmokeVent.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->قناة عادم</li>
+    <li>terrain_word->فتحات</li>
+    <li>terrain_word->فوهات دخان</li>
+    <li>terrain_word->مداخن</li>
+    <li>terrain_word->مداخن</li>
+ </NamerLandmark_AncientSmokeVent.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=2)->tox vents</li>
+    <li>terrain_word->poison vents</li>
+    <li>terrain_word->noxious vents</li>
+    <li>terrain_word->toxic ducts</li>
+    <li>terrain_word->fume vents</li>
+  -->
+  <NamerLandmark_AncientToxVent.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->فتحات سامة</li>
+    <li>terrain_word->فتحات سامة</li>
+    <li>terrain_word->فتحات ضارة</li>
+    <li>terrain_word->أنفاق سامة</li>
+    <li>terrain_word->فتحات أبخرة</li>
+ </NamerLandmark_AncientToxVent.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->isle [narrative_name]</li>
+    <li>terrain_word(p=4)->islands</li>
+    <li>terrain_word(p=3)->isles</li>
+    <li>terrain_word(p=3)->archipelago</li>
+    <li>terrain_word->reef</li>
+    <li>terrain_word->rocks</li>
+    <li>terrain_word->islets</li>
+    <li>terrain_word->points</li>
+    <li>terrain_word->chain</li>
+  -->
+  <NamerLandmark_Archipelago.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->جزيرة [narrative_name]</li>
+    <li>terrain_word(p=4)->جزر</li>
+    <li>terrain_word(p=3)->جزر</li>
+    <li>terrain_word(p=3)->أرخبيل</li>
+    <li>terrain_word->شعاب</li>
+    <li>terrain_word->صخور</li>
+    <li>terrain_word->جزر صغيرة</li>
+    <li>terrain_word->نقاط</li>
+    <li>terrain_word->سلسلة</li>
+ </NamerLandmark_Archipelago.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word->atoll</li>
+    <li>terrain_word->circle</li>
+  -->
+  <NamerLandmark_Atoll.rulePack.rulesStrings>
+    <li>terrain_word->شعب حلقي</li>
+    <li>terrain_word->دائرة</li>
+ </NamerLandmark_Atoll.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=2)->basin</li>
+    <li>terrain_word->alpine lake</li>
+  -->
+  <NamerLandmark_Basin.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->حوض</li>
+    <li>terrain_word->بحيرة ألبية</li>
+ </NamerLandmark_Basin.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->gulf of [narrative_name]</li>
+    <li>terrain_word(p=6)->bay</li>
+    <li>terrain_word->bight</li>
+    <li>terrain_word->gulf</li>
+    <li>terrain_word->anchorage</li>
+    <li>terrain_word->cove</li>
+  -->
+  <NamerLandmark_Bay.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->خليج [narrative_name]</li>
+    <li>terrain_word(p=6)->خليج</li>
+    <li>terrain_word->منعطف</li>
+    <li>terrain_word->خليج كبير</li>
+    <li>terrain_word->مرسى</li>
+    <li>terrain_word->جون</li>
+ </NamerLandmark_Bay.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[NamePerson]'s caves</li>
+    <li>terrain_word(p=2)->cavern</li>
+    <li>terrain_word->tunnel</li>
+    <li>terrain_word->cave network</li>
+    <li>terrain_word->caverns</li>
+  -->
+  <NamerLandmark_Cavern.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->كهوف [NamePerson]</li>
+    <li>terrain_word(p=2)->كهف</li>
+    <li>terrain_word->نفق</li>
+    <li>terrain_word->شبكة كهوف</li>
+    <li>terrain_word->كهوف</li>
+ </NamerLandmark_Cavern.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word->chasm</li>
+    <li>terrain_word->sinkhole</li>
+    <li>terrain_word->fracture</li>
+  -->
+  <NamerLandmark_Chasm.rulePack.rulesStrings>
+    <li>terrain_word->صدع</li>
+    <li>terrain_word->مجلى</li>
+    <li>terrain_word->كسر</li>
+ </NamerLandmark_Chasm.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[NamePerson]'s [terrain_word]</li>
+    <li>terrain_word(p=2)->refinery</li>
+    <li>terrain_word->plant</li>
+    <li>terrain_word->chemplant</li>
+  -->
+  <NamerLandmark_ChemfuelRefinery.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[NamePerson]'s [terrain_word]</li>
+    <li>terrain_word(p=2)->مصفاة</li>
+    <li>terrain_word->مصنع</li>
+    <li>terrain_word->مصنع كيميائي</li>
+ </NamerLandmark_ChemfuelRefinery.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[NamePerson]'s end</li>
+    <li>terrain_word(p=2)->cliffs</li>
+    <li>terrain_word->rampart</li>
+    <li>terrain_word->wall</li>
+  -->
+  <NamerLandmark_Cliffs.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->نهاية [NamePerson]</li>
+    <li>terrain_word(p=2)->منحدرات</li>
+    <li>terrain_word->سور</li>
+    <li>terrain_word->جدار</li>
+ </NamerLandmark_Cliffs.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->isle [narrative_name]</li>
+    <li>terrain_word(p=4)->island</li>
+    <li>terrain_word(p=2)->isle</li>
+    <li>terrain_word->islet</li>
+  -->
+  <NamerLandmark_CoastalIsland.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->جزيرة [narrative_name]</li>
+    <li>terrain_word(p=4)->جزيرة</li>
+    <li>terrain_word(p=2)->جزيرة</li>
+    <li>terrain_word->جُزيرة</li>
+ </NamerLandmark_CoastalIsland.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=3)->crevasse</li>
+    <li>terrain_word->break</li>
+    <li>terrain_word->fissure</li>
+  -->
+  <NamerLandmark_Crevasse.rulePack.rulesStrings>
+    <li>terrain_word(p=3)->شِق جليدي</li>
+    <li>terrain_word->كسر</li>
+    <li>terrain_word->شق</li>
+ </NamerLandmark_Crevasse.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word->dry lake</li>
+    <li>terrain_word->sand lake</li>
+    <li>terrain_word->salt flat</li>
+    <li>terrain_word->barren lake</li>
+    <li>terrain_word->sand pit</li>
+  -->
+  <NamerLandmark_DryLake.rulePack.rulesStrings>
+    <li>terrain_word->بحيرة جافة</li>
+    <li>terrain_word->بحيرة رملية</li>
+    <li>terrain_word->مسطح ملحي</li>
+    <li>terrain_word->بحيرة قاحلة</li>
+    <li>terrain_word->حفرة رملية</li>
+ </NamerLandmark_DryLake.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=2)->dunes</li>
+    <li>terrain_word->wastes</li>
+  -->
+  <NamerLandmark_Dunes.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->كثبان</li>
+    <li>terrain_word->أراضٍ قاحلة</li>
+ </NamerLandmark_Dunes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=2)->fjord</li>
+    <li>terrain_word->inlet</li>
+    <li>terrain_word->sound</li>
+  -->
+  <NamerLandmark_Fjord.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->مضيق بحري</li>
+    <li>terrain_word->مدخل</li>
+    <li>terrain_word->خليج صغير</li>
+ </NamerLandmark_Fjord.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.4)->[ruin_adjective] [narrative_name]</li>
+    <li>ruin_adjective->ruined</li>
+    <li>ruin_adjective->frozen</li>
+    <li>terrain_word(p=2)->frozen ruins</li>
+    <li>terrain_word->ice city</li>
+    <li>terrain_word->city</li>
+  -->
+  <NamerLandmark_FrozenRuins.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->[ruin_adjective] [narrative_name]</li>
+    <li>ruin_adjective->مدمر</li>
+    <li>ruin_adjective->متجمد</li>
+    <li>terrain_word(p=2)->أطلال متجمدة</li>
+    <li>terrain_word->مدينة جليدية</li>
+    <li>terrain_word->مدينة</li>
+ </NamerLandmark_FrozenRuins.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.4)->Fort [narrative_name]</li>
+    <li>r_name(p=0.4)->[NamePerson]'s [terrain_word]</li>
+    <li>terrain_word(p=2)->garrison</li>
+    <li>terrain_word->armory</li>
+    <li>terrain_word->station</li>
+    <li>terrain_word->base</li>
+    <li>terrain_word->fort</li>
+    <li>terrain_word(p=0.5)->stronghold</li>
+    <li>terrain_word(p=0.5)->military base</li>
+  -->
+  <NamerLandmark_Garrison.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->حصن [narrative_name]</li>
+    <li>r_name(p=0.4)->[NamePerson]'s [terrain_word]</li>
+    <li>terrain_word(p=2)->حامية</li>
+    <li>terrain_word->مخزن أسلحة</li>
+    <li>terrain_word->محطة</li>
+    <li>terrain_word->قاعدة</li>
+    <li>terrain_word->حصن</li>
+    <li>terrain_word(p=0.5)->قلعة</li>
+    <li>terrain_word(p=0.5)->قاعدة عسكرية</li>
+ </NamerLandmark_Garrison.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->port [NamePerson]</li>
+    <li>terrain_word->harbor</li>
+    <li>terrain_word->port</li>
+  -->
+  <NamerLandmark_Harbor.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->ميناء [NamePerson]</li>
+    <li>terrain_word->مرفأ</li>
+    <li>terrain_word->ميناء</li>
+ </NamerLandmark_Harbor.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[NamePerson]'s hideout</li>
+    <li>terrain_word->hollow</li>
+  -->
+  <NamerLandmark_Hollow.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->مخبأ [NamePerson]</li>
+    <li>terrain_word->جوف</li>
+ </NamerLandmark_Hollow.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[NamePerson]'s bath</li>
+    <li>terrain_word(p=2)->hot spring</li>
+    <li>terrain_word(p=2)->hot springs</li>
+    <li>terrain_word->spring</li>
+    <li>terrain_word->springs</li>
+  -->
+  <NamerLandmark_HotSprings.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->حمام [NamePerson]</li>
+    <li>terrain_word(p=2)->ينبوع ساخن</li>
+    <li>terrain_word(p=2)->ينابيع ساخنة</li>
+    <li>terrain_word->ينبوع</li>
+    <li>terrain_word->ينابيع</li>
+ </NamerLandmark_HotSprings.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=2)->iceberg</li>
+    <li>terrain_word->berg</li>
+  -->
+  <NamerLandmark_Iceberg.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->جبل جليدي</li>
+    <li>terrain_word->جبل</li>
+ </NamerLandmark_Iceberg.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word->ice dunes</li>
+    <li>terrain_word->ice mounds</li>
+    <li>terrain_word->frozen hills</li>
+  -->
+  <NamerLandmark_IceDunes.rulePack.rulesStrings>
+    <li>terrain_word->كثبان جليدية</li>
+    <li>terrain_word->تلال جليدية</li>
+    <li>terrain_word->تلال متجمدة</li>
+ </NamerLandmark_IceDunes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=18)->[fallen] [townname_wordgen]</li>
+    <li>r_name(p=18)->[townname_wordgen] hive</li>
+    <li>fallen->fallen</li>
+    <li>fallen->infested</li>
+  -->
+  <NamerLandmark_InfestedSettlement.rulePack.rulesStrings>
+    <li>r_name(p=18)->[fallen] [townname_wordgen]</li>
+    <li>r_name(p=18)->[townname_wordgen] خلية</li>
+    <li>fallen->ساقط</li>
+    <li>fallen->موبوء</li>
+ </NamerLandmark_InfestedSettlement.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=4)->lake</li>
+    <li>terrain_word->reservoir</li>
+    <li>terrain_word->loch</li>
+  -->
+  <NamerLandmark_Lake.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->بحيرة</li>
+    <li>terrain_word->خزان</li>
+    <li>terrain_word->بحيرة</li>
+ </NamerLandmark_Lake.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.4)->[NamePerson]'s [terrain_word]</li>
+    <li>terrain_word(p=2)->launch site</li>
+    <li>terrain_word->launch pads</li>
+  -->
+  <NamerLandmark_LaunchSite.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->[NamePerson]'s [terrain_word]</li>
+    <li>terrain_word(p=2)->موقع إطلاق</li>
+    <li>terrain_word->منصات إطلاق</li>
+ </NamerLandmark_LaunchSite.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[NamePerson]'s hellscape</li>
+    <li>r_name(p=0.2)->[NamePerson]'s inferno</li>
+    <li>terrain_word->volcanic flow</li>
+    <li>terrain_word->lava flow</li>
+  -->
+  <NamerLandmark_LavaFlow.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->جحيم [NamePerson]</li>
+    <li>r_name(p=0.2)->جحيم [NamePerson]</li>
+    <li>terrain_word->تدفق بركاني</li>
+    <li>terrain_word->تدفق حمم</li>
+ </NamerLandmark_LavaFlow.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=2)->crater</li>
+    <li>terrain_word->furnace</li>
+    <li>terrain_word->inferno</li>
+    <li>terrain_word->lava pool</li>
+  -->
+  <NamerLandmark_LavaLake.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->فوهة</li>
+    <li>terrain_word->فرن</li>
+    <li>terrain_word->جحيم</li>
+    <li>terrain_word->بركة حمم</li>
+ </NamerLandmark_LavaLake.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=4)->oasis</li>
+    <li>terrain_word->haven</li>
+    <li>terrain_word->refuge</li>
+  -->
+  <NamerLandmark_Oasis.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->واحة</li>
+    <li>terrain_word->ملاذ</li>
+    <li>terrain_word->ملجأ</li>
+ </NamerLandmark_Oasis.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->point [narrative_name]</li>
+    <li>r_name(p=0.2)->cape [narrative_name]</li>
+    <li>terrain_word(p=5)->peninsula</li>
+    <li>terrain_word(p=2)->point</li>
+    <li>terrain_word->cape</li>
+    <li>terrain_word->headland</li>
+    <li>terrain_word->horn</li>
+  -->
+  <NamerLandmark_Peninsula.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->نقطة [narrative_name]</li>
+    <li>r_name(p=0.2)->رأس [narrative_name]</li>
+    <li>terrain_word(p=5)->شبه جزيرة</li>
+    <li>terrain_word(p=2)->نقطة</li>
+    <li>terrain_word->رأس</li>
+    <li>terrain_word->رأس أرضي</li>
+    <li>terrain_word->قرن</li>
+ </NamerLandmark_Peninsula.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word->plateau</li>
+    <li>terrain_word->mesa</li>
+    <li>terrain_word->mountain</li>
+    <li>terrain_word->rise</li>
+    <li>terrain_word->butte</li>
+  -->
+  <NamerLandmark_Plateau.rulePack.rulesStrings>
+    <li>terrain_word->هضبة</li>
+    <li>terrain_word->ميسا</li>
+    <li>terrain_word->جبل</li>
+    <li>terrain_word->مرتفع</li>
+    <li>terrain_word->تل منعزل</li>
+ </NamerLandmark_Plateau.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=4)->pond</li>
+    <li>terrain_word->puddle</li>
+    <li>terrain_word->pool</li>
+    <li>terrain_word->waterhole</li>
+  -->
+  <NamerLandmark_Pond.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->بركة</li>
+    <li>terrain_word->بركة صغيرة</li>
+    <li>terrain_word->بركة</li>
+    <li>terrain_word->مورد ماء</li>
+ </NamerLandmark_Pond.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.4)->[ruin_adjective] [narrative_name]</li>
+    <li>r_name(p=0.2)->[NamePerson]'s [story_result]</li>
+    <li>ruin_adjective->ruined</li>
+    <li>ruin_adjective->dilapidated</li>
+    <li>terrain_word(p=2)->ruins</li>
+    <li>terrain_word->city</li>
+    <li>terrain_word->town</li>
+  -->
+  <NamerLandmark_Ruins.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->[ruin_adjective] [narrative_name]</li>
+    <li>r_name(p=0.2)->[NamePerson]'s [story_result]</li>
+    <li>ruin_adjective->مدمر</li>
+    <li>ruin_adjective->متضعضع</li>
+    <li>terrain_word(p=2)->أطلال</li>
+    <li>terrain_word->مدينة</li>
+    <li>terrain_word->بلدة</li>
+ </NamerLandmark_Ruins.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.3)->[NamePerson]'s [terrain_word]</li>
+    <li>r_name(p=0.2)->[NamePerson]'s [mistake]</li>
+    <li>r_name(p=0.2)->The [large] [terrain_word]</li>
+    <li>r_name(p=0.1)->[dread] [terrain_word]</li>
+    <li>r_name(p=0.05)->The [terrain_word]</li>
+    <li>terrain_word(p=3)->scar</li>
+    <li>terrain_word->rift</li>
+    <li>terrain_word->sundering</li>
+    <li>terrain_word->wound</li>
+    <li>terrain_word->fault</li>
+    <li>terrain_word->howl</li>
+    <li>mistake->mistake</li>
+    <li>mistake->folly</li>
+    <li>mistake->delusion</li>
+    <li>mistake->flaw</li>
+    <li>large->great</li>
+    <li>large->grand</li>
+    <li>dread->dread</li>
+    <li>dread->grim</li>
+    <li>dread->vile</li>
+    <li>dread->dark</li>
+  -->
+  <NamerLandmark_TerraformingScar.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->[NamePerson]'s [terrain_word]</li>
+    <li>r_name(p=0.2)->[NamePerson]'s [mistake]</li>
+    <li>r_name(p=0.2)->الـ[large] [terrain_word]</li>
+    <li>r_name(p=0.1)->[dread] [terrain_word]</li>
+    <li>r_name(p=0.05)->الـ[terrain_word]</li>
+    <li>terrain_word(p=3)->ندبة</li>
+    <li>terrain_word->صدع</li>
+    <li>terrain_word->انشقاق</li>
+    <li>terrain_word->جرح</li>
+    <li>terrain_word->صدع</li>
+    <li>terrain_word->عواء</li>
+    <li>mistake->خطأ</li>
+    <li>mistake->حماقة</li>
+    <li>mistake->وهم</li>
+    <li>mistake->عيب</li>
+    <li>large->عظيم</li>
+    <li>large->فخم</li>
+    <li>dread->مخيف</li>
+    <li>dread->كئيب</li>
+    <li>dread->خسيس</li>
+    <li>dread->مظلم</li>
+ </NamerLandmark_TerraformingScar.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.05)->[NamePerson]'s poison</li>
+    <li>r_name(p=0.05)->[NamePerson]'s blight</li>
+    <li>r_name(p=0.05)->[NamePerson]'s dumping grounds</li>
+    <li>terrain_word->toxic lake</li>
+    <li>terrain_word->poison lake</li>
+  -->
+  <NamerLandmark_ToxicLake.rulePack.rulesStrings>
+    <li>r_name(p=0.05)->سم [NamePerson]</li>
+    <li>r_name(p=0.05)->آفة [NamePerson]</li>
+    <li>r_name(p=0.05)->مكبات [NamePerson]</li>
+    <li>terrain_word->بحيرة سامة</li>
+    <li>terrain_word->بحيرة سامة</li>
+ </NamerLandmark_ToxicLake.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=4)->valley</li>
+    <li>terrain_word(p=3)->gully</li>
+    <li>terrain_word(p=3)->canyon</li>
+    <li>terrain_word->vale</li>
+    <li>terrain_word->ravine</li>
+    <li>terrain_word->gorge</li>
+    <li>terrain_word->gulch</li>
+    <li>terrain_word->divide</li>
+  -->
+  <NamerLandmark_Valley.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->وادي</li>
+    <li>terrain_word(p=3)->وادي صغير</li>
+    <li>terrain_word(p=3)->وادٍ</li>
+    <li>terrain_word->سهل بين الجبال</li>
+    <li>terrain_word->مضيق</li>
+    <li>terrain_word->خانق</li>
+    <li>terrain_word->أخدود</li>
+    <li>terrain_word->تقسيم</li>
+ </NamerLandmark_Valley.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name->[NamePerson]'s [terrain_word]</li>
+    <li>terrain_word(p=2)->warehouse</li>
+    <li>terrain_word->depot</li>
+    <li>terrain_word->storehouse</li>
+  -->
+  <NamerLandmark_Warehouse.rulePack.rulesStrings>
+    <li>r_name->[NamePerson]'s [terrain_word]</li>
+    <li>terrain_word(p=2)->مستودع</li>
+    <li>terrain_word->مستودع</li>
+    <li>terrain_word->مخزن</li>
+ </NamerLandmark_Warehouse.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[NamePerson]'s [terrain_word]</li>
+    <li>terrain_word(p=2)->wetlands</li>
+    <li>terrain_word->marsh</li>
+    <li>terrain_word->quagmire</li>
+    <li>terrain_word->bog</li>
+    <li>terrain_word->fen</li>
+  -->
+  <NamerLandmark_Wetland.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[NamePerson]'s [terrain_word]</li>
+    <li>terrain_word(p=2)->أراضي رطبة</li>
+    <li>terrain_word->مستنقع</li>
+    <li>terrain_word->وحل</li>
+    <li>terrain_word->مستنقع</li>
+    <li>terrain_word->سبخة</li>
+ </NamerLandmark_Wetland.rulePack.rulesStrings>
+  
+</LanguageData>

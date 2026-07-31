@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Armor - Blunt -->
+  <ArmorRating_Blunt.label>الدرع - الصدم</ArmorRating_Blunt.label>
+  <!-- EN: The protection given against blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Blunt.description>الحماية الممنوحة ضد ضرر الصدم مثل اللكمات، ضربات الهراوات وسقوط الصخور.\n\nعند تلقي الضرر، أولاً يتم تقليل تقييم الدرع هذا بقيمة اختراق الدرع للهجوم.\n\nثم يقارن تقييم الدرع المتبقي برقم عشوائي من 0 إلى 100.\n\n    - إذا كان الرقم العشوائي أقل من نصف تقييم الدرع، ينحرف الضرر بدون أذى.\n    - إذا كان الرقم العشوائي أكثر من نصف تقييم الدرع، ولكن ليس أعلى من تقييم الدرع، ينخفض الضرر للنصف ويتحول إلى صدم.\n    - إذا كان الرقم العشوائي أكبر من تقييم الدرع، ليس للدرع أي تأثير.\n\nعلى سبيل المثال، عند تقييم درع 90% ضد هجوم مع 10% اختراق درع، هناك فرصة 40% لانحراف الهجوم بدون أذى، وفرصة 40% لتخفيف الضرر.\n\nكل طبقة من الدروع تطبق بشكل منفصل، من الخارج إلى الداخل.</ArmorRating_Blunt.description>
+  <!-- EN: Armor - Blunt (armor stat) -->
+  <ArmorRating_Blunt.labelForFullStatList>الدرع - الصدم (إحصائية الدرع)</ArmorRating_Blunt.labelForFullStatList>
+  
+  <!-- EN: Armor - Heat -->
+  <ArmorRating_Heat.label>الدرع - الحرارة</ArmorRating_Heat.label>
+  <!-- EN: The protection given against temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Heat.description>الحماية الممنوحة ضد ضرر مرتبط بالحرارة مثل الحروق.\n\nعند تلقي الضرر، أولاً يتم تقليل تقييم الدرع هذا بقيمة اختراق الدرع للهجوم.\n\nثم يقارن تقييم الدرع المتبقي برقم عشوائي من 0 إلى 100.\n\n    - إذا كان الرقم العشوائي أقل من نصف تقييم الدرع، ينحرف الضرر بدون أذى.\n    - إذا كان الرقم العشوائي أكثر من نصف تقييم الدرع، ولكن ليس أعلى من تقييم الدرع، ينخفض الضرر للنصف ويتحول إلى صدم.\n    - إذا كان الرقم العشوائي أكبر من تقييم الدرع، ليس للدرع أي تأثير.\n\nعلى سبيل المثال، عند تقييم درع 90% ضد هجوم مع 10% اختراق درع، هناك فرصة 40% لانحراف الهجوم بدون أذى، وفرصة 40% لتخفيف الضرر.\n\nكل طبقة من الدروع تطبق بشكل منفصل، من الخارج إلى الداخل.</ArmorRating_Heat.description>
+  <!-- EN: Armor - Heat (armor stat) -->
+  <ArmorRating_Heat.labelForFullStatList>الدرع - الحرارة (إحصائية الدرع)</ArmorRating_Heat.labelForFullStatList>
+  
+  <!-- EN: Armor - Sharp -->
+  <ArmorRating_Sharp.label>الدرع - الحاد</ArmorRating_Sharp.label>
+  <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Sharp.description>الحماية الممنوحة ضد ضرر حاد مثل الرصاص، طعنات السكين، الانفجارات، وعضات الحيوانات.\n\nعند تلقي الضرر، أولاً يتم تقليل تقييم الدرع هذا بقيمة اختراق الدرع للهجوم.\n\nثم يقارن تقييم الدرع المتبقي برقم عشوائي من 0 إلى 100.\n\n    - إذا كان الرقم العشوائي أقل من نصف تقييم الدرع، ينحرف الضرر بدون أذى.\n    - إذا كان الرقم العشوائي أكثر من نصف تقييم الدرع، ولكن ليس أعلى من تقييم الدرع، ينخفض الضرر للنصف ويتحول إلى صدم.\n    - إذا كان الرقم العشوائي أكبر من تقييم الدرع، ليس للدرع أي تأثير.\n\nعلى سبيل المثال، عند تقييم درع 90% ضد هجوم مع 10% اختراق درع، هناك فرصة 40% لانحراف الهجوم بدون أذى، وفرصة 40% لتخفيف الضرر.\n\nكل طبقة من الدروع تطبق بشكل منفصل، من الخارج إلى الداخل.</ArmorRating_Sharp.description>
+  <!-- EN: Armor - Sharp (armor stat) -->
+  <ArmorRating_Sharp.labelForFullStatList>الدرع - الحاد (إحصائية الدرع)</ArmorRating_Sharp.labelForFullStatList>
+  
+  <!-- EN: Shield max energy -->
+  <EnergyShieldEnergyMax.label>الطاقة القصوى للدرع</EnergyShieldEnergyMax.label>
+  <!-- EN: The maximum energy a shield can have at one time.\n\nMore energy absorbs more damage. -->
+  <EnergyShieldEnergyMax.description>الطاقة القصوى التي يمكن أن يمتلكها الدرع في وقت واحد.\n\nطاقة أكثر تمتص ضررًا أكثر.</EnergyShieldEnergyMax.description>
+  
+  <!-- EN: Shield recharge rate -->
+  <EnergyShieldRechargeRate.label>معدل إعادة شحن الدرع</EnergyShieldRechargeRate.label>
+  <!-- EN: The rate at which a shield gains energy as long as it is not broken. -->
+  <EnergyShieldRechargeRate.description>المعدل الذي يكتسب به الدرع الطاقة طالما أنه لم ينكسر.</EnergyShieldRechargeRate.description>
+  <!-- EN: {0}/s -->
+  <EnergyShieldRechargeRate.formatString>{0}/ثانية</EnergyShieldRechargeRate.formatString>
+  
+  <!-- EN: equip delay -->
+  <EquipDelay.label>تأخير التجهيز</EquipDelay.label>
+  <!-- EN: The time it takes to equip and unequip this item. -->
+  <EquipDelay.description>الوقت المستغرق لتجهيز هذا العنصر وإلغاء تجهيزه.</EquipDelay.description>
+  <!-- EN: {0} s -->
+  <EquipDelay.formatString>{0} ثانية</EquipDelay.formatString>
+  
+  <!-- EN: Insulation - Cold -->
+  <Insulation_Cold.label>العزل - البرودة</Insulation_Cold.label>
+  <!-- EN: How much this apparel improves a wearer's minimum comfortable temperature.\n\nGreater values allow surviving in colder temperatures. -->
+  <Insulation_Cold.description>مقدار تحسين هذا الزي لدرجة الحرارة الدنيا المريحة لمرتديه.\n\nالقيم الأكبر تسمح بالنجاة في درجات حرارة أبرد.</Insulation_Cold.description>
+  <!-- EN: Insulation - Cold (armor stat) -->
+  <Insulation_Cold.labelForFullStatList>العزل - البرودة (إحصائية الدرع)</Insulation_Cold.labelForFullStatList>
+  
+  <!-- EN: Insulation - Heat -->
+  <Insulation_Heat.label>العزل - الحرارة</Insulation_Heat.label>
+  <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature.\n\nGreater values allow surviving in warmer temperatures. -->
+  <Insulation_Heat.description>مقدار تحسين هذا الزي لدرجة الحرارة القصوى المريحة لمرتديه.\n\nالقيم الأكبر تسمح بالنجاة في درجات حرارة أدفأ.</Insulation_Heat.description>
+  <!-- EN: Insulation - Heat (armor stat) -->
+  <Insulation_Heat.labelForFullStatList>العزل - الحرارة (إحصائية الدرع)</Insulation_Heat.labelForFullStatList>
+  
+  <!-- EN: Effect radius -->
+  <PackRadius.label>نصف قطر التأثير</PackRadius.label>
+  <!-- EN: The area affected when this pack detonates. -->
+  <PackRadius.description>المنطقة المتأثرة عندما تنفجر هذه الحزمة.</PackRadius.description>
+  <!-- EN: {0} c -->
+  <PackRadius.formatString>{0} خلية</PackRadius.formatString>
+  
+  <!-- EN: Armor - Material effect multiplier -->
+  <StuffEffectMultiplierArmor.label>الدرع - مضاعف تأثير المادة</StuffEffectMultiplierArmor.label>
+  
+  <!-- EN: Insulation - Cold - Material effect multiplier -->
+  <StuffEffectMultiplierInsulation_Cold.label>العزل - البرودة - مضاعف تأثير المادة</StuffEffectMultiplierInsulation_Cold.label>
+  
+  <!-- EN: Insulation - Heat - Material effect multiplier -->
+  <StuffEffectMultiplierInsulation_Heat.label>العزل - الحرارة - مضاعف تأثير المادة</StuffEffectMultiplierInsulation_Heat.label>
+  
+</LanguageData>

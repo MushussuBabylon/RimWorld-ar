@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Arresting worsens faction relations -->
+  <ArrestingCreatesEnemies.label>الاعتقال يزيد علاقات الفصيل سوءا</ArrestingCreatesEnemies.label>
+  <!-- EN: Warning: The person you are trying to arrest may not go quietly.\n\nIf you arrest a non-colonist or a colonist from another faction, their entire faction may become your enemy. \n\nThis arrest has a {0} chance of succeeding, based on the social skill of the arrester. -->
+  <ArrestingCreatesEnemies.helpText>تحذير: الشخص الذي تحاول اعتقاله قد لا يذهب بهدوء.\n\nإذا اعتقلت شخصا غير مستعمر أو مستعمرا من فصيل آخر، فقد يصبح فصيلهم بأكمله عدوا لك. \n\nفرصة نجاح هذا الاعتقال هي {0}، بناء على المهارة الاجتماعية للمعتقِل.</ArrestingCreatesEnemies.helpText>
+  
+  <!-- EN: Maximum number of player colonies -->
+  <MaxNumberOfPlayerSettlements.label>الحد الأقصى لعدد مستعمرات اللاعب</MaxNumberOfPlayerSettlements.label>
+  <!-- EN: Warning: RimWorld is designed to be played with one player colony at a time. Multiple player colonies are allowed as an experimental testing feature only.\n\nPlaying with multiple colonies will cause gameplay imbalances and split your focus, as well as likely causing performance slowdowns.\n\nWe recommend that you play with the one-colony maximum the game was designed for, at least for your first few games. -->
+  <MaxNumberOfPlayerSettlements.helpText>تحذير: تم تصميم RimWorld لتُلعب بمستعمرة لاعب واحدة في كل مرة. يُسمح بتعدد مستعمرات اللاعبين كميزة اختبار تجريبي فقط.\n\nاللعب بمستعمرات متعددة سيؤدي إلى اختلال في التوازن وتشتيت تركيزك، بالإضافة إلى احتمال تسببها في تباطؤ الأداء.\n\nنوصي بأن تلعب بالحد الأقصى لمستعمرة واحدة الذي صُممت اللعبة من أجله، على الأقل في ألعابك القليلة الأولى.</MaxNumberOfPlayerSettlements.helpText>
+  
+  <!-- EN: Steam Deck controls -->
+  <SteamDeckControlsGame.label>عناصر تحكم Steam Deck</SteamDeckControlsGame.label>
+  <!-- EN: Press X to open the architect menu and {Key:TogglePause} to pause and resume the game. Use triggers for primary and secondary clicks. Zoom in and out and scroll through lists with {Key:MapZoom_In} and {Key:MapZoom_Out}. Press and hold the L5 back button to pan the camera with the touch screen and simulate secondary clicks. -->
+  <SteamDeckControlsGame.helpText>اضغط على X لفتح قائمة المهندس، و{Key:TogglePause} لإيقاف اللعبة مؤقتا واستئنافها. استخدم الأزرار الجانبية (triggers) للنقر الأساسي والثانوي. قم بالتكبير والتصغير والتمرير عبر القوائم باستخدام {Key:MapZoom_In} و{Key:MapZoom_Out}. اضغط مع الاستمرار على الزر الخلفي L5 لتحريك الكاميرا عبر شاشة اللمس ومحاكاة النقر الثانوي.</SteamDeckControlsGame.helpText>
+  
+  <!-- EN: Steam Deck controls -->
+  <SteamDeckControlsMainMenu.label>عناصر تحكم Steam Deck</SteamDeckControlsMainMenu.label>
+  <!-- EN: Use the trackpad to move the cursor and the right trigger button to click. Press {Key:Accept} to accept and {Key:Cancel} to go back. -->
+  <SteamDeckControlsMainMenu.helpText>استخدم لوحة اللمس لتحريك المؤشر والزر الجانبي الأيمن (right trigger) للنقر. اضغط {Key:Accept} للقبول و{Key:Cancel} للعودة.</SteamDeckControlsMainMenu.helpText>
+  
+  <!-- EN: Flick designations only designate -->
+  <SwitchFlickingDesignation.label>تحديدات التشغيل تحدد فقط</SwitchFlickingDesignation.label>
+  <!-- EN: Note: This only designates that a colonist should flick the switch.\n\nNothing will actually happen until a colonist comes and flicks the switch by hand. -->
+  <SwitchFlickingDesignation.helpText>ملاحظة: هذا يحدد فقط أنه ينبغي على مستعمر تشغيل المفتاح.\n\nلن يحدث شيء فعليا حتى يأتي مستعمر ويشغل المفتاح بيده.</SwitchFlickingDesignation.helpText>
+  
+  <!-- EN: Trade goods and trade beacons -->
+  <TradeGoodsMustBeNearBeacon.label>بضائع التجارة ومنارات التجارة</TradeGoodsMustBeNearBeacon.label>
+  <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
+  <TradeGoodsMustBeNearBeacon.helpText>لإرسال الأغراض أو الفضة إلى التجار المداريين، يجب عليك بناء منارة تجارة مدارية ووضع مخزن للأغراض بالقرب منها.</TradeGoodsMustBeNearBeacon.helpText>
+  
+  <!-- EN: Trading permit requirements -->
+  <TradingRequiresPermit.label>متطلبات تصريح التجارة</TradingRequiresPermit.label>
+  <!-- EN: Trading here requires the title of {0}.\n\nEnsure any trade caravan you send has someone with the title of {0} or higher. -->
+  <TradingRequiresPermit.helpText>التجارة هنا تتطلب لقب {0}.\n\nتأكد من أن أي قافلة تجارية ترسلها تضم شخصا يحمل لقب {0} أو أعلى.</TradingRequiresPermit.helpText> <!-- Здесь не работает lookup из-за string.Format в коде. И подставляться будет титул в обоих родах: "рыцарь / дама" -->
+  
+</LanguageData>

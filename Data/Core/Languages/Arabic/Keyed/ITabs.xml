@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- ITab titles -->
+  <!-- EN: Bills -->
+  <TabBills>الفواتير</TabBills>
+  <!-- EN: Growing -->
+  <TabGrowing>الزراعة</TabGrowing>
+  <!-- EN: Bio -->
+  <TabCharacter>السيرة</TabCharacter>
+  <!-- EN: Training -->
+  <TabTraining>التدريب</TabTraining>
+  <!-- EN: Prisoner -->
+  <TabPrisoner>سجين</TabPrisoner>
+  <!-- EN: Guest -->
+  <TabGuest>ضيف</TabGuest>
+  <!-- EN: Gear -->
+  <TabGear>المعدات</TabGear>
+  <!-- EN: Needs -->
+  <TabNeeds>الاحتياجات</TabNeeds>
+  <!-- EN: Storage -->
+  <TabStorage>التخزين</TabStorage>
+  <!-- EN: Shells -->
+  <TabShells>القذائف</TabShells>
+  <!-- EN: Health -->
+  <TabHealth>الصحة</TabHealth>
+  <!-- EN: Race -->
+  <TabRace>الجنس</TabRace>
+  <!-- EN: Basics -->
+  <TabBasics>الأساسيات</TabBasics>
+  <!-- EN: Stats -->
+  <TabStats>الإحصائيات</TabStats>
+  <!-- EN: Records -->
+  <TabRecords>السجلات</TabRecords>
+  <!-- EN: Art -->
+  <TabArt>الفن</TabArt>
+  <!-- EN: Social -->
+  <TabSocial>الاجتماعي</TabSocial>
+  <!-- EN: Log -->
+  <TabLog>السجل</TabLog>
+  <!-- EN: Animals -->
+  <TabPenAnimals>الحيوانات</TabPenAnimals>
+  <!-- EN: Food -->
+  <TabPenFood>الطعام</TabPenFood>
+  <!-- EN: Auto-cut -->
+  <TabPenAutoCut>قطع تلقائي</TabPenAutoCut>
+  <!-- EN: Caravan -->
+  <TabFormingCaravan>قافلة</TabFormingCaravan>
+  <!-- EN: Contents -->
+  <TabTransporterContents>المحتويات</TabTransporterContents>
+  <!-- EN: Travel -->
+  <TabMapPortalContents>السفر</TabMapPortalContents>
+  <!-- EN: Contents -->
+  <TabCasketContents>المحتويات</TabCasketContents>
+  <!-- EN: Details -->
+  <TabBookContents>التفاصيل</TabBookContents>
+  <!-- EN: Study -->
+  <TabStudyNotesContents>دراسة</TabStudyNotesContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>قطع تلقائي</TabWindTurbineAutoCut>
+  
+  <!-- Bills tab  -->
+  <!-- EN: Add bill -->
+  <AddBill>إضافة فاتورة</AddBill>
+  <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
+  <RecipeRequiresSkills>الوصفة {0} تتطلب المهارات التالية. لا أحد من مستعمريك يمتلك هذه المهارات، لذا لن يقوم أحد بهذه الفاتورة.</RecipeRequiresSkills>
+  <!-- EN: Min skill -->
+  <MinimumSkill>الحد الأدنى للمهارة</MinimumSkill>
+  <!-- EN: SUSPENDED -->
+  <SuspendedCaps>مُعَلَّق</SuspendedCaps>
+  <!-- EN: Worker: {1_labelShort} -->
+  <BoundWorkerIs>العامل: {1_labelShort}</BoundWorkerIs>
+  <!-- EN: Plant -->
+  <PlantVerb>ازرع</PlantVerb>
+  <!-- EN: Copied bill cannot be pasted here -->
+  <ClipboardBillNotAvailableHere>الفاتورة المنسوخة لا يمكن لصقها هنا</ClipboardBillNotAvailableHere>
+  <!-- EN: Move up -->
+  <ReorderBillUpTip>نقل لأعلى</ReorderBillUpTip>
+  <!-- EN: Move down -->
+  <ReorderBillDownTip>نقل لأسفل</ReorderBillDownTip>
+  <!-- EN: Delete -->
+  <DeleteBillTip>حذف</DeleteBillTip>
+  <!-- EN: Copy to the clipboard -->
+  <CopyBillTip>نسخ إلى الحافظة</CopyBillTip>
+  <!-- EN: Suspend -->
+  <SuspendBillTip>تعليق</SuspendBillTip>
+  <!-- EN: Paste -->
+  <PasteBillTip>لصق</PasteBillTip>
+  <!-- EN: can't add more -->
+  <PasteBillTip_LimitReached>لا يمكن إضافة المزيد</PasteBillTip_LimitReached>
+  <!-- EN: Finishes in -->
+  <FinishesIn>ينتهي خلال</FinishesIn>
+
+  <!-- Guest/prisoner tab -->
+  <!-- EN: Resistance -->
+  <RecruitmentResistance>المقاومة</RecruitmentResistance>
+  <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
+  <RecruitmentResistanceDesc>مدى شك هذا السجين في الانضمام إلى فصيلك. عندما يصل هذا إلى الصفر، يمكن تجنيده.</RecruitmentResistanceDesc>
+  <!-- EN: {0} base resistance -->
+  <RecruitmentResistanceFromPawnKind>مقاومة أساسية {0}</RecruitmentResistanceFromPawnKind>
+  <!-- EN: Relations gain on release -->
+  <PrisonerReleasePotentialRelationGains>مكاسب العلاقات عند الإطلاق</PrisonerReleasePotentialRelationGains>
+  <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>حسن النية الذي ستحصل عليه من فصيل السجين إذا أطلقت سراحه. يتأثر هذا بهوية السجين وصحته وحالته النفسية.</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: Prison break interval -->
+  <PrisonBreakMTBDays>فترة هروب السجن</PrisonBreakMTBDays>
+  <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
+  <PrisonBreakMTBDaysDescription>متوسط أيام الاستيقاظ بين حوادث هروب السجن. يتأثر هذا بالمزاج، والحركة، وعدد أبواب السجن، والوقت منذ آخر هروب.\n\nلاحظ أن هذا لا يشمل الوقت المنام فيه.</PrisonBreakMTBDaysDescription>
+  <!-- EN: Never -->
+  <Never>أبداً</Never>
+  <!-- EN: Not while asleep -->
+  <NotWhileAsleep>ليس أثناء النوم</NotWhileAsleep>
+  <!-- EN: Breaking out now -->
+  <CurrentlyPrisonBreaking>يهرب الآن</CurrentlyPrisonBreaking>
+  <!-- EN: Door count -->
+  <FactorForDoorCount>عدد الأبواب</FactorForDoorCount>
+  <!-- EN: Movement -->
+  <FactorForMovement>الحركة</FactorForMovement>
+  <!-- EN: Slave price -->
+  <SlavePrice>سعر العبد</SlavePrice>
+  <!-- EN: The base market value of this slave if sold. -->
+  <SlavePriceDescription>القيمة السوقية الأساسية لهذا العبد إذا بِيع.</SlavePriceDescription>
+  <!-- EN: Gets food -->
+  <GetsFood>يحصل على طعام</GetsFood>
+  <!-- EN: Doctors care -->
+  <DoctorsCare>رعاية الأطباء</DoctorsCare>
+  <!-- EN: Gets medicine -->
+  <GetsMedicine>يحصل على دواء</GetsMedicine>
+  <!-- EN: Try to recruit -->
+  <ShouldTryToRecruit>محاولة التجنيد</ShouldTryToRecruit>
+  <!-- EN: Considered guilty (expires in {0}) -->
+  <ConsideredGuilty>يعتبر مذنباً (تنتهي الصلاحية خلال {0})</ConsideredGuilty>
+  <!-- EN: Considered guilty -->
+  <ConsideredGuiltyNoTimer>يعتبر مذنباً</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>آخر تخفيض للمقاومة</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>مقدار ما تم تخفيض مقاومة {0_nameDef} بواسطة {1} عندما تم تجنيد {0_pronoun} آخر مرة.</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>رأي المجند</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>قدرة المجند التفاوضية</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>ولاء لا يتزعزع</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>هذا السجين مخلص بشدة لوطنه لدرجة أنه يرفض التجنيد بالكامل.</NonRecruitableTip>
+  <!-- EN: What type of medicine can be given to this prisoner. -->
+  <MedicineQualityDescriptionPrisoner>نوع الدواء الذي يمكن إعطاؤه لهذا السجين.</MedicineQualityDescriptionPrisoner>
+
+
+
+
+  <!-- Medical - general -->
+  <!-- EN: Move speed -->
+  <MoveSpeed>سرعة الحركة</MoveSpeed>
+  <!-- EN: Efficiency -->
+  <Efficiency>الكفاءة</Efficiency>
+  <!-- EN: Part efficiency -->
+  <PartEfficiency>كفاءة الجزء</PartEfficiency>
+  <!-- EN: Body part efficiency -->
+  <BodyPartEfficiency>كفاءة جزء الجسم</BodyPartEfficiency>
+  <!-- EN: Gone -->
+  <MissingBodyPart>مفقود</MissingBodyPart>
+  <!-- EN: Destroyed -->
+  <DestroyedBodyPart>مدمر</DestroyedBodyPart>
+  <!-- EN: Shattered -->
+  <ShatteredBodyPart>محطم</ShatteredBodyPart>
+  <!-- EN: Removed -->
+  <RemovedBodyPart>مزال</RemovedBodyPart>
+  <!-- EN: Healthy -->
+  <Healthy>صحي</Healthy>
+  <!-- EN: In pain -->
+  <InPain>متألم</InPain>
+  <!-- EN: Pain -->
+  <PainLevel>الألم</PainLevel>
+  <!-- EN: Injured -->
+  <Injured>مصاب</Injured>
+  <!-- EN: untended injury -->
+  <UntendedInjury>إصابة غير معالجة</UntendedInjury>
+  <!-- EN: no health conditions -->
+  <NoHealthConditions>لا توجد حالات صحية</NoHealthConditions>
+  <!-- EN: Whole body -->
+  <WholeBody>الجسم بالكامل</WholeBody>
+  <!-- EN: Data processing -->
+  <DataProcessing>معالجة البيانات</DataProcessing>
+  <!-- EN: Communication -->
+  <Communication>الاتصال</Communication>
+  <!-- EN: Affects -->
+  <Affects>يؤثر على</Affects>
+  <!-- EN: Bleeding -->
+  <BleedingRate>النزيف</BleedingRate>
+  <!-- EN: death in {0} -->
+  <TimeToDeath>الموت خلال {0}</TimeToDeath>
+  <!-- EN: no immediate danger -->
+  <WontBleedOutSoon>لا خطر فوري</WontBleedOutSoon>
+  <!-- EN: Overview -->
+  <HealthOverview>نظرة عامة</HealthOverview>
+  <!-- EN: Operations -->
+  <MedicalOperationsShort>العمليات</MedicalOperationsShort>
+  <!-- EN: Modifications -->
+  <MedicalOperationsMechanoidsShort>التعديلات</MedicalOperationsMechanoidsShort>
+  <!-- EN: Medical operations -->
+  <MedicalOperations>العمليات الطبية</MedicalOperations>
+  <!-- EN: amputate -->
+  <Amputate>بتر</Amputate>
+  <!-- EN: harvest -->
+  <HarvestOrgan>حصاد</HarvestOrgan>
+  <!-- EN: remove -->
+  <RemoveOrgan>إزالة</RemoveOrgan>
+  <!-- EN: memory -->
+  <MemoryLower>ذاكرة</MemoryLower>
+  <!-- EN: social interactions -->
+  <SocialInteractionsLower>التفاعلات الاجتماعية</SocialInteractionsLower>
+  <!-- EN: Hunger rate -->
+  <HungerRate>معدل الجوع</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>استهلاك الطعام</FoodConsumption>
+  <!-- EN: Tiredness -->
+  <Tiredness>الإرهاق</Tiredness>
+  <!-- EN: Pain -->
+  <PainFactor>الألم</PainFactor>
+  <!-- EN: Prevents infection -->
+  <PreventsInfection>يمنع العدوى</PreventsInfection>
+  <!-- EN: Allow self-tend -->
+  <AllowSelfTend>السماح بالعلاج الذاتي</AllowSelfTend>
+  <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
+  <AllowSelfTendTip>{0} مع تفعيل العلاج الذاتي سيعالج نفسه تلقائياً في المكان وبكفاءة {1} من الكفاءة العادية.</AllowSelfTendTip>
+  <!-- EN: death in {0} -->
+  <DeathIn>الموت خلال {0}</DeathIn>
+  <!-- EN: Allow medicine -->
+  <AllowMedicine>السماح بالدواء</AllowMedicine>
+  <!-- EN: What type of medicine can be given to this person. -->
+  <MedicineQualityDescription>نوع الدواء الذي يمكن إعطاؤه لهذا الشخص.</MedicineQualityDescription>
+  <!-- EN: What type of food can be given to this person. -->
+  <FoodRestrictionDescription>نوع الطعام الذي يمكن إعطاؤه لهذا الشخص.</FoodRestrictionDescription>
+
+  <!-- Medical - Body and activities condition -->
+  <!-- EN: None -->
+  <None>لا شيء</None>
+  <!-- EN: Very poor -->
+  <VeryPoor>سيء جداً</VeryPoor>
+  <!-- EN: Poor -->
+  <Poor>سيء</Poor>
+  <!-- EN: Weakened -->
+  <Weakened>ضعيف</Weakened>
+  <!-- EN: OK -->
+  <GoodCondition>جيد</GoodCondition>
+  <!-- EN: Enhanced -->
+  <Enhanced>محسّن</Enhanced>
+  <!-- EN: Seriously impaired -->
+  <SeriouslyImpaired>ضعف شديد</SeriouslyImpaired>
+  <!-- EN: Impaired -->
+  <Impaired>ضعف</Impaired>
+  <!-- EN: Slightly impaired -->
+  <SlightlyImpaired>ضعف طفيف</SlightlyImpaired>
+  <!-- EN: None -->
+  <NoPain>لا ألم</NoPain>
+  <!-- EN: Little -->
+  <LittlePain>ألم بسيط</LittlePain>
+  <!-- EN: Medium -->
+  <MediumPain>ألم متوسط</MediumPain>
+  <!-- EN: Severe -->
+  <SeverePain>ألم شديد</SeverePain>
+  <!-- EN: Extreme -->
+  <ExtremePain>ألم فظيع</ExtremePain>
+
+  <!-- Training tab -->
+  <!-- EN: Trainability -->
+  <Trainability>قابلية التدريب</Trainability>
+  <!-- EN: Requires {0} trainability. -->
+  <CannotTrainNotSmartEnough>يتطلب قابلية تدريب {0}.</CannotTrainNotSmartEnough>
+  <!-- EN: {0} is too small to train this. -->
+  <CannotTrainTooSmall>{0} أصغر من أن يتدرب على هذا.</CannotTrainTooSmall>
+
+  <!-- EN: Prerequisite needed: {0} -->
+  <TrainingNeedsPrerequisite>المتطلب الأساسي: {0}</TrainingNeedsPrerequisite>
+  
+  <!-- Social tab -->
+  <!-- EN: Kidnapped -->
+  <Kidnapped>مخطوف</Kidnapped>
+  <!-- EN: Lent to {FACTION_name}, returns in {1} -->
+  <Lent>معار إلى {FACTION_name}، يعود خلال {1}</Lent>
+  <!-- EN: Missing -->
+  <Missing>مفقود</Missing>
+  <!-- EN: slave -->
+  <Slave>عبد</Slave>
+  <!-- EN: Faction leader -->
+  <FactionLeader>قائد الفصيل</FactionLeader>
+  <!-- EN: Opinion of {0} -->
+  <OpinionOf>رأي بـ {0}</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
+  <SomeonesOpinionOfMe>رأي {0} بي</SomeonesOpinionOfMe>
+  <!-- EN: I'm dead -->
+  <IAmDead>أنا ميت</IAmDead>
+  <!-- EN: I'm a psychopath -->
+  <IAmPsychopath>أنا مختل عقلياً</IAmPsychopath>
+  
+  <!-- Gear tab -->
+  <!-- EN: Overall armor -->
+  <OverallArmor>الدرع الكلي</OverallArmor>
+  <!-- EN: Mass carried: {0} / {1} kg -->
+  <MassCarried>الكتلة المحمولة: {0} / {1} كغم</MassCarried>
+  <!-- EN: Comfortable temperature range -->
+  <ComfyTemperatureRange>نطاق درجة الحرارة المريح</ComfyTemperatureRange>
+  <!-- EN: Blunt -->
+  <ArmorBlunt>رض</ArmorBlunt>
+  <!-- EN: Sharp -->
+  <ArmorSharp>حاد</ArmorSharp>
+  <!-- EN: Heat -->
+  <ArmorHeat>حراري</ArmorHeat>
+  
+  <!-- Log tab -->
+  <!-- EN: Show all -->
+  <ShowAll>إظهار الكل</ShowAll>
+  <!-- EN: Show combat -->
+  <ShowCombat>إظهار القتال</ShowCombat>
+  <!-- EN: Show social -->
+  <ShowSocial>إظهار الاجتماعي</ShowSocial>
+  <!-- EN: no recent entries -->
+  <NoRecentEntries>لا توجد مدخلات حديثة</NoRecentEntries>
+  <!-- EN: Copy log to the clipboard. -->
+  <CopyLogTip>نسخ السجل إلى الحافظة.</CopyLogTip>
+
+  <!-- Forming caravan tab -->
+  <!-- EN: Gathering animals -->
+  <FormingCaravanStatus_GatheringAnimals>جمع الحيوانات</FormingCaravanStatus_GatheringAnimals>
+  <!-- EN: Gathering animals (waiting) -->
+  <FormingCaravanStatus_GatheringAnimals_Pause>جمع الحيوانات (انتظار)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <!-- EN: Gathering items -->
+  <FormingCaravanStatus_GatheringItems>جمع الأغراض</FormingCaravanStatus_GatheringItems>
+  <!-- EN: Gathering items (waiting) -->
+  <FormingCaravanStatus_GatheringItems_Pause>جمع الأغراض (انتظار)</FormingCaravanStatus_GatheringItems_Pause>
+  <!-- EN: Gathering downed people -->
+  <FormingCaravanStatus_GatheringDownedPawns>جمع الأشخاص المطروحين</FormingCaravanStatus_GatheringDownedPawns>
+  <!-- EN: Gathering downed people (waiting) -->
+  <FormingCaravanStatus_GatheringDownedPawns_Pause>جمع الأشخاص المطروحين (انتظار)</FormingCaravanStatus_GatheringDownedPawns_Pause>
+  <!-- EN: Leaving -->
+  <FormingCaravanStatus_Leaving>مغادرة</FormingCaravanStatus_Leaving>
+  <!-- EN: Leaving (waiting) -->
+  <FormingCaravanStatus_Leaving_Pause>مغادرة (انتظار)</FormingCaravanStatus_Leaving_Pause>
+  <!-- EN: Waiting -->
+  <FormingCaravanStatus_Waiting>انتظار</FormingCaravanStatus_Waiting>
+  <!-- EN: Members -->
+  <CaravanMembers>الأعضاء</CaravanMembers>
+  <!-- EN: Animals -->
+  <CaravanAnimals>الحيوانات</CaravanAnimals>
+  <!-- EN: To load -->
+  <ItemsToLoad>للتحميل</ItemsToLoad>
+  <!-- EN: Loaded -->
+  <LoadedItems>محمّل</LoadedItems>
+  <!-- EN: pack animals -->
+  <PackAnimalsCountLower>حيوانات الحمل</PackAnimalsCountLower>
+  <!-- EN: mentally broken -->
+  <InMentalStateCountLower>منهار نفسياً</InMentalStateCountLower>
+
+  <!-- Transporter contents -->
+  <!-- EN: Remove {{0}}x {0} -->
+  <RemoveSliderText>إزالة {{0}}x {0}</RemoveSliderText>
+  <!-- EN: Contained items -->
+  <ContainedItems>العناصر المحتواة</ContainedItems>
+  <!-- EN: Do you really want to remove {0}? -->
+  <ConfirmRemoveItemDialog>هل تريد حقاً إزالة {0}؟</ConfirmRemoveItemDialog>
+  
+  <!-- Quests tab -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't receive notifications about dismissed quests. -->
+  <DismissQuest>تجاهل هذه المهمة وانقلها إلى علامة تبويب التاريخ.\n\nيمكن إلغاء تجاهل المهمة في أي وقت. ستستمر آثارها وأوقات انتهائها بشكل طبيعي. لن تتلق إشعارات حول المهام المتجاهلة.</DismissQuest>
+  <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
+  <UnDismissQuest>إلغاء تجاهل هذه المهمة.\n\nستعود المهمة إلى علامة التبويب المتاحة أو النشطة، وستُفعّل الإشعارات مرة أخرى.</UnDismissQuest>
+  <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
+  <QuestDismissed>هذه المهمة هنا لأنه تم تجاهلها.\n\nيمكنك إلغاء تجاهلها حتى تنتهي صلاحيتها.</QuestDismissed>
+  <!-- EN: Delete this quest and remove it from the quest list forever. -->
+  <DeleteQuest>حذف هذه المهمة وإزالتها من قائمة المهام إلى الأبد.</DeleteQuest>
+
+  <!-- Animal pen food tab -->
+  <!-- EN: enclose the pen marker to calculate food information -->
+  <PenFoodTab_NotEnclosed>أغلق علامة الحظيرة لحساب معلومات الطعام</PenFoodTab_NotEnclosed>
+
+  <!-- EN: Nutrition stockpiled -->
+  <PenFoodTab_StockpileTotal>المخزون الغذائي</PenFoodTab_StockpileTotal>
+  <!-- EN: The total nutrition of stockpiled food in the pen. -->
+  <PenFoodTab_StockpileTotalDescription>إجمالي التغذية للطعام المخزن في الحظيرة.</PenFoodTab_StockpileTotalDescription>
+  <!-- EN: Days to stockpile exhaustion -->
+  <PenFoodTab_StockpileEmptyDays>أيام حتى نفاد المخزون</PenFoodTab_StockpileEmptyDays>
+  <!-- EN: Nutrition consumption exceeds nutrition growth rate in this pen. The animals will eventually eat all the stockpiled food and starve. -->
+  <PenFoodTab_StockpileEmptyDaysDescription>استهلاك التغذية يتجاوز معدل نمو التغذية في هذه الحظيرة. ستأكل الحيوانات في النهاية كل الطعام المخزن وتجوع.</PenFoodTab_StockpileEmptyDaysDescription>
+
+  <!-- EN: Animal type -->
+  <PenFoodTab_AnimalType>نوع الحيوان</PenFoodTab_AnimalType>
+  <!-- EN: Count -->
+  <PenFoodTab_Count>العدد</PenFoodTab_Count>
+  <!-- EN: Today -->
+  <PenFoodTab_CurrentDay>اليوم</PenFoodTab_CurrentDay>
+  <!-- EN: nutrition -->
+  <PenFoodTab_Nutrition_Unit>تغذية</PenFoodTab_Nutrition_Unit>
+  <!-- EN: per day -->
+  <PenFoodTab_NutritionPerDay_Unit>في اليوم</PenFoodTab_NutritionPerDay_Unit>
+  <!-- EN: Force display animal... -->
+  <PenFoodTab_AddAnimal>إظهار حيوان إجباري...</PenFoodTab_AddAnimal>
+
+  <!-- EN: Nutrition growth -->
+  <PenFoodTab_NaturalNutritionGrowthRate>نمو التغذية</PenFoodTab_NaturalNutritionGrowthRate>
+  <!-- EN: Growth per season -->
+  <PenFoodTab_GrowthPerSeason>النمو لكل موسم</PenFoodTab_GrowthPerSeason>
+  <!-- EN: Nutrition consumption -->
+  <PenFoodTab_TotalNutritionConsumptionRate>استهلاك التغذية</PenFoodTab_TotalNutritionConsumptionRate>
+  <!-- EN: The average nutrition provided by edible plants in this pen. -->
+  <PenFoodTab_NaturalNutritionGrowthRateDescription>متوسط التغذية التي توفرها النباتات القابلة للأكل في هذه الحظيرة.</PenFoodTab_NaturalNutritionGrowthRateDescription>
+  <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
+  <PenFoodTab_NutritionConsumptionDescription>التغذية التي تحتاجها الحيوانات حالياً في هذه الحظيرة.\n\nللحصول على المزيد من الطعام، قم بتوسيع الحظيرة لتغطية نمو نباتات برية أكثر، أو قم بتوصيل طعام مخزن مثل عشب القش إلى الحظيرة.</PenFoodTab_NutritionConsumptionDescription>
+  <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
+  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>ملاحظة: يختلف معدل نمو النباتات بسبب المواسم والطقس وسرقة الحيوانات البرية وعوامل أخرى. هذه الحسابات تقريبية.</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
+
+  <!-- EN: Total consumption -->
+  <PenFoodTab_NutritionConsumedPerDay_ColumLabel>إجمالي الاستهلاك</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
+  <!-- EN: The total nutrition that will be consumed each day by each type of animal in this pen. -->
+  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>إجمالي التغذية التي سيستهلكها كل نوع من الحيوانات في هذه الحظيرة كل يوم.</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
+  <!-- EN: Daily consumption per {ANIMALDEF_label} -->
+  <PenFoodTab_NutritionConsumedPerDay>الاستهلاك اليومي لكل {ANIMALDEF_label}</PenFoodTab_NutritionConsumedPerDay>
+  <!-- EN: each {CONSUMEDAMOUNT} -->
+  <PenFoodTab_NutritionConsumedEachAnimalLabel>كل {CONSUMEDAMOUNT}</PenFoodTab_NutritionConsumedEachAnimalLabel>
+  <!-- EN: Count that could be supported with no other animals in the pen -->
+  <PenFoodTab_AnimalTypeAnimalCapacity>العدد الذي يمكن دعمه في حالة عدم وجود حيوانات أخرى في الحظيرة</PenFoodTab_AnimalTypeAnimalCapacity>
+
+  <!-- EN: Edible now -->
+  <PenFoodTab_EdibleNow>قابل للأكل الآن</PenFoodTab_EdibleNow>
+
+  <!-- EN: Auto-cut plants in pen -->
+  <PenAutoCut_EnabledCheckbox>قطع النباتات تلقائياً في الحظيرة</PenAutoCut_EnabledCheckbox>
+  <!-- EN: Automatically mark certain inedible plants to be cut. This makes room for edible plants to grow, which your animals can then eat.\n\nThis auto-designation happens periodically and only applies to certain plants.\n\nThis only works when the pen is enclosed. -->
+  <PenAutoCut_EnabledCheckboxTip>تحديد نباتات غير قابلة للأكل تلقائياً ليتم قطعها. هذا يفسح المجال لنمو نباتات قابلة للأكل، والتي يمكن لحيواناتك أكلها بعد ذلك.\n\nيتم هذا التعيين التلقائي بشكل دوري وينطبق فقط على نباتات معينة.\n\nهذا يعمل فقط عندما تكون الحظيرة مغلقة.</PenAutoCut_EnabledCheckboxTip>
+
+  <!-- EN: Pen is not enclosed -->
+  <AutocutUnenclosedPen>الحظيرة غير مغلقة</AutocutUnenclosedPen>
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
+  <AutocutUnenclosedPenTip>الحظيرة غير مغلقة الآن، لذلك لن يحدث القطع التلقائي.</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut blocking plants -->
+  <WindTurbineAutoCut_EnabledCheckbox>قطع النباتات المعيقة تلقائياً</WindTurbineAutoCut_EnabledCheckbox>
+  
+  <!-- Study tab  -->
+  <!-- EN: Study progress -->
+  <StudyNotesTab_StudyProgress>تقدم الدراسة</StudyNotesTab_StudyProgress>
+  <!-- EN: Ongoing -->
+  <StudyNotesTab_StudyProgressOngoing>جارٍ</StudyNotesTab_StudyProgressOngoing>
+  <!-- EN: Completed -->
+  <StudyNotesTab_StudyProgressCompleted>مكتمل</StudyNotesTab_StudyProgressCompleted>
+  <!-- EN: Toggle study -->
+  <StudyNotesTab_ToggleStudy>تبديل الدراسة</StudyNotesTab_ToggleStudy>
+  <!-- EN: No discoveries yet -->
+  <StudyNotesTab_NoDiscoveries>لا توجد اكتشافات بعد</StudyNotesTab_NoDiscoveries>
+
+</LanguageData>

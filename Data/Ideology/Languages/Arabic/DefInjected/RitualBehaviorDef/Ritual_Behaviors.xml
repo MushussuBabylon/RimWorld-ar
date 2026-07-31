@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: target -->
+  <BlindingCeremony.roles.0.label>هدف</BlindingCeremony.roles.0.label>
+  <!-- EN: the person to blind -->
+  <BlindingCeremony.roles.0.missingDesc>الشخص المطلوب تعميته</BlindingCeremony.roles.0.missingDesc>
+  <!-- EN: cutter -->
+  <BlindingCeremony.roles.1.label>قاطع</BlindingCeremony.roles.1.label>
+  <!-- EN: the person who performs the blinding -->
+  <BlindingCeremony.roles.1.missingDesc>الشخص الذي يقوم بالتعمية</BlindingCeremony.roles.1.missingDesc>
+  <!-- EN: Target is not reachable. -->
+  <BlindingCeremony.stages.0.failTriggers.0.desc>الهدف لا يمكن الوصول إليه.</BlindingCeremony.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <BlindingCeremony.stages.0.failTriggers.1.desc>المرافق نائم</BlindingCeremony.stages.0.failTriggers.1.desc>
+  
+  <!-- EN: participate -->
+  <BurnCircle.spectatorGerund>مشاركة</BurnCircle.spectatorGerund>
+  <!-- EN: Participants -->
+  <BurnCircle.spectatorsLabel>مشاركون</BurnCircle.spectatorsLabel>
+  
+  <!-- EN: participate -->
+  <CelebrationPartyDanceDrum.spectatorGerund>مشاركة</CelebrationPartyDanceDrum.spectatorGerund>
+  <!-- EN: Participants -->
+  <CelebrationPartyDanceDrum.spectatorsLabel>مشاركون</CelebrationPartyDanceDrum.spectatorsLabel>
+  <!-- EN: Campfire is missing. -->
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>نار المخيم مفقودة.</CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>
+  <!-- EN: Campfire is not lit. -->
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>نار المخيم غير مشتعلة.</CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>
+  <!-- EN: No drums. -->
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>لا توجد طبول.</CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>
+  
+  <!-- EN: participate -->
+  <CelebrationSkyLanterns.spectatorGerund>مشاركة</CelebrationSkyLanterns.spectatorGerund>
+  <!-- EN: Participants -->
+  <CelebrationSkyLanterns.spectatorsLabel>مشاركون</CelebrationSkyLanterns.spectatorsLabel>
+  
+  <!-- EN: participate -->
+  <CelebrationTree.spectatorGerund>مشاركة</CelebrationTree.spectatorGerund>
+  <!-- EN: Participants -->
+  <CelebrationTree.spectatorsLabel>مشاركون</CelebrationTree.spectatorsLabel>
+  
+  <!-- EN: speaker -->
+  <Conversion.roles.0.label>متحدث</Conversion.roles.0.label>
+  <!-- EN: convertee -->
+  <Conversion.roles.1.label>مهتد</Conversion.roles.1.label>
+  <!-- EN: Prisoner is not reachable. -->
+  <Conversion.stages.0.failTriggers.0.desc>السجين لا يمكن الوصول إليه.</Conversion.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <Conversion.stages.0.failTriggers.1.desc>المرافق نائم</Conversion.stages.0.failTriggers.1.desc>
+  
+  <!-- EN: participate -->
+  <DancePartyTech.spectatorGerund>مشاركة</DancePartyTech.spectatorGerund>
+  <!-- EN: Participants -->
+  <DancePartyTech.spectatorsLabel>مشاركون</DancePartyTech.spectatorsLabel>
+  <!-- EN: Lightball is missing. -->
+  <DancePartyTech.stages.0.failTriggers.0.desc>كرة الضوء مفقودة.</DancePartyTech.stages.0.failTriggers.0.desc>
+  <!-- EN: Lightball is not powered. -->
+  <DancePartyTech.stages.0.failTriggers.1.desc>كرة الضوء لا تصلها طاقة.</DancePartyTech.stages.0.failTriggers.1.desc>
+  <!-- EN: No powered loudspeakers. -->
+  <DancePartyTech.stages.0.failTriggers.2.desc>لا توجد مكبرات صوت موصولة بالطاقة.</DancePartyTech.stages.0.failTriggers.2.desc>
+  
+  <!-- EN: speaker -->
+  <DateRitual.roles.0.label>متحدث</DateRitual.roles.0.label>
+  <!-- EN: participate -->
+  <DateRitual.spectatorGerund>مشاركة</DateRitual.spectatorGerund>
+  <!-- EN: Participants -->
+  <DateRitual.spectatorsLabel>مشاركون</DateRitual.spectatorsLabel>
+  <!-- EN: {0}: The speech is over, and the party is beginning. -->
+  <DateRitual.stages.0.postAction.text>{0}: انتهى الخطاب، وبدأت الحفلة.</DateRitual.stages.0.postAction.text>
+  
+  <!-- EN: executioner -->
+  <Execution.roles.0.label>منفذ الإعدام</Execution.roles.0.label>
+  <!-- EN: an executioner -->
+  <Execution.roles.0.missingDesc>منفذ إعدام</Execution.roles.0.missingDesc>
+  <!-- EN: prisoner -->
+  <Execution.roles.1.label>سجين</Execution.roles.1.label>
+  <!-- EN: a prisoner -->
+  <Execution.roles.1.missingDesc>سجين</Execution.roles.1.missingDesc>
+  <!-- EN: Spectators must be willing to watch the execution. -->
+  <Execution.spectatorFilter.description>يجب أن يكون المتفرجون على استعداد لمشاهدة الإعدام.</Execution.spectatorFilter.description>
+  <!-- EN: Prisoner is not reachable. -->
+  <Execution.stages.0.failTriggers.0.desc>السجين لا يمكن الوصول إليه.</Execution.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <Execution.stages.0.failTriggers.1.desc>المرافق نائم</Execution.stages.0.failTriggers.1.desc>
+  
+  <!-- EN: participate -->
+  <FeastCannibal.spectatorGerund>مشاركة</FeastCannibal.spectatorGerund>
+  <!-- EN: Participants -->
+  <FeastCannibal.spectatorsLabel>مشاركون</FeastCannibal.spectatorsLabel>
+  
+  <!-- EN: speaker -->
+  <Funeral.roles.0.label>متحدث</Funeral.roles.0.label>
+  
+  <!-- EN: speaker -->
+  <GladiatorDuel.roles.0.label>متحدث</GladiatorDuel.roles.0.label>
+  <!-- EN: duelist -->
+  <GladiatorDuel.roles.1.label>متبارز</GladiatorDuel.roles.1.label>
+  <!-- EN: duelists -->
+  <GladiatorDuel.roles.1.categoryLabel>متبارزون</GladiatorDuel.roles.1.categoryLabel>
+  <!-- EN: prisoners / slaves (duelists) -->
+  <GladiatorDuel.roles.1.missingDesc>سجناء / عبيد (متبارزون)</GladiatorDuel.roles.1.missingDesc>
+  <!-- EN: duelist -->
+  <GladiatorDuel.roles.2.label>متبارز</GladiatorDuel.roles.2.label>
+  <!-- EN: duelists -->
+  <GladiatorDuel.roles.2.categoryLabel>متبارزون</GladiatorDuel.roles.2.categoryLabel>
+  <!-- EN: prisoners / slaves (duelists) -->
+  <GladiatorDuel.roles.2.missingDesc>سجناء / عبيد (متبارزون)</GladiatorDuel.roles.2.missingDesc>
+  <!-- EN: duelist escort -->
+  <GladiatorDuel.roles.3.label>مرافق مبارز</GladiatorDuel.roles.3.label>
+  <!-- EN: duelist escorts -->
+  <GladiatorDuel.roles.3.categoryLabel>مرافقو مبارزين</GladiatorDuel.roles.3.categoryLabel>
+  <!-- EN: non-downed colonists capable of hauling -->
+  <GladiatorDuel.roles.3.missingDesc>مستعمرون غير مطروحين قادرون على الحمل</GladiatorDuel.roles.3.missingDesc>
+  <!-- EN: duelist escort -->
+  <GladiatorDuel.roles.4.label>مرافق مبارز</GladiatorDuel.roles.4.label>
+  <!-- EN: duelist escorts -->
+  <GladiatorDuel.roles.4.categoryLabel>مرافقو مبارزين</GladiatorDuel.roles.4.categoryLabel>
+  <!-- EN: non-downed colonists capable of hauling -->
+  <GladiatorDuel.roles.4.missingDesc>مستعمرون غير مطروحين قادرون على الحمل</GladiatorDuel.roles.4.missingDesc>
+  <!-- EN: participate -->
+  <GladiatorDuel.spectatorGerund>مشاركة</GladiatorDuel.spectatorGerund>
+  <!-- EN: Spectators -->
+  <GladiatorDuel.spectatorsLabel>متفرجون</GladiatorDuel.spectatorsLabel>
+  <!-- EN: Duelist is not reachable. -->
+  <GladiatorDuel.stages.2.failTriggers.0.desc>المتبارز لا يمكن الوصول إليه.</GladiatorDuel.stages.2.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <GladiatorDuel.stages.2.failTriggers.1.desc>المرافق نائم</GladiatorDuel.stages.2.failTriggers.1.desc>
+  <!-- EN: escort asleep -->
+  <GladiatorDuel.stages.2.failTriggers.2.desc>المرافق نائم</GladiatorDuel.stages.2.failTriggers.2.desc>
+  
+  <!-- EN: {SPEAKER_labelShort} is giving {RITUAL_labelIndef}.\n      \nIf all goes well, listeners will feel inspired, and gain respect for {SPEAKER_labelShort}. If it goes poorly, the speech will do social damage. Positive effects are reduced for non-{IDEOMEMBERS}. -->
+  <LeaderSpeech.letterText>{SPEAKER_labelShort} يلقي {RITUAL_labelIndef}.\n      \nإذا سارت الأمور على ما يرام، سيشعر المستمعون بالإلهام، وسيكتسبون احتراماً لـ{SPEAKER_labelShort}. إذا ساءت الأمور، فسيلحق الخطاب ضرراً اجتماعياً. التأثيرات الإيجابية تقل لغير {IDEOMEMBERS}.</LeaderSpeech.letterText>
+  <!-- EN: {RITUAL_labelCap} -->
+  <LeaderSpeech.letterTitle>{RITUAL_labelCap}</LeaderSpeech.letterTitle>
+  <!-- EN: speaker -->
+  <LeaderSpeech.roles.0.label>متحدث</LeaderSpeech.roles.0.label>
+  
+  <!-- EN: role changer -->
+  <RoleChange.roles.0.label>مغير دور</RoleChange.roles.0.label>
+  <!-- EN: a role changer -->
+  <RoleChange.roles.0.missingDesc>مغير دور</RoleChange.roles.0.missingDesc>
+  <!-- EN: spectate -->
+  <RoleChange.spectatorGerund>مشاهدة</RoleChange.spectatorGerund>
+  <!-- EN: Spectators -->
+  <RoleChange.spectatorsLabel>متفرجون</RoleChange.spectatorsLabel>
+  
+  <!-- EN: cutter -->
+  <SacrificeAnimal.roles.0.label>قاطع</SacrificeAnimal.roles.0.label>
+  <!-- EN: sacrifice -->
+  <SacrificeAnimal.roles.1.label>أضحية</SacrificeAnimal.roles.1.label>
+  <!-- EN: an animal with body size of at least 0.8 -->
+  <SacrificeAnimal.roles.1.missingDesc>حيوان بحجم جسم لا يقل عن 0.8</SacrificeAnimal.roles.1.missingDesc>
+  <!-- EN: participate -->
+  <SacrificeAnimal.spectatorGerund>مشاركة</SacrificeAnimal.spectatorGerund>
+  <!-- EN: Participants -->
+  <SacrificeAnimal.spectatorsLabel>مشاركون</SacrificeAnimal.spectatorsLabel>
+  <!-- EN: Animal is not reachable. -->
+  <SacrificeAnimal.stages.0.failTriggers.0.desc>الحيوان لا يمكن الوصول إليه.</SacrificeAnimal.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <SacrificeAnimal.stages.0.failTriggers.1.desc>المرافق نائم</SacrificeAnimal.stages.0.failTriggers.1.desc>
+  <!-- EN: sacrifice no longer dead -->
+  <SacrificeAnimal.stages.3.failTriggers.0.desc>الأضحية لم تعد ميتة</SacrificeAnimal.stages.3.failTriggers.0.desc>
+  
+  <!-- EN: cutter -->
+  <SacrificePrisoner.roles.0.label>قاطع</SacrificePrisoner.roles.0.label>
+  <!-- EN: sacrifice -->
+  <SacrificePrisoner.roles.1.label>أضحية</SacrificePrisoner.roles.1.label>
+  <!-- EN: a prisoner -->
+  <SacrificePrisoner.roles.1.missingDesc>سجين</SacrificePrisoner.roles.1.missingDesc>
+  <!-- EN: participate -->
+  <SacrificePrisoner.spectatorGerund>مشاركة</SacrificePrisoner.spectatorGerund>
+  <!-- EN: Participants -->
+  <SacrificePrisoner.spectatorsLabel>مشاركون</SacrificePrisoner.spectatorsLabel>
+  <!-- EN: Prisoner is not reachable. -->
+  <SacrificePrisoner.stages.0.failTriggers.0.desc>السجين لا يمكن الوصول إليه.</SacrificePrisoner.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <SacrificePrisoner.stages.0.failTriggers.1.desc>المرافق نائم</SacrificePrisoner.stages.0.failTriggers.1.desc>
+  <!-- EN: sacrifice no longer dead -->
+  <SacrificePrisoner.stages.3.failTriggers.0.desc>الأضحية لم تعد ميتة</SacrificePrisoner.stages.3.failTriggers.0.desc>
+  
+  <!-- EN: target -->
+  <ScarificationCeremony.roles.0.label>هدف</ScarificationCeremony.roles.0.label>
+  <!-- EN: the person to scarify -->
+  <ScarificationCeremony.roles.0.missingDesc>الشخص المطلوب خدشه شعائرياً</ScarificationCeremony.roles.0.missingDesc>
+  <!-- EN: cutter -->
+  <ScarificationCeremony.roles.1.label>قاطع</ScarificationCeremony.roles.1.label>
+  <!-- EN: the person who performs the scarification -->
+  <ScarificationCeremony.roles.1.missingDesc>الشخص الذي يقوم بالخدش الشعائري</ScarificationCeremony.roles.1.missingDesc>
+  <!-- EN: Target is not reachable. -->
+  <ScarificationCeremony.stages.0.failTriggers.0.desc>الهدف لا يمكن الوصول إليه.</ScarificationCeremony.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <ScarificationCeremony.stages.0.failTriggers.1.desc>المرافق نائم</ScarificationCeremony.stages.0.failTriggers.1.desc>
+  
+  <!-- EN: participate -->
+  <SmokeCircle.spectatorGerund>مشاركة</SmokeCircle.spectatorGerund>
+  <!-- EN: Participants -->
+  <SmokeCircle.spectatorsLabel>مشاركون</SmokeCircle.spectatorsLabel>
+  
+  <!-- EN: connector -->
+  <TreeConnection.roles.0.label>موصل</TreeConnection.roles.0.label>
+  <!-- EN: Only adults can connect to the Gauranlen tree. -->
+  <TreeConnection.roles.0.customChildDisallowMessage>فقط البالغون يمكنهم الاتصال بشجرة الجورانلن.</TreeConnection.roles.0.customChildDisallowMessage>
+  <!-- EN: spectate -->
+  <TreeConnection.spectatorGerund>مشاهدة</TreeConnection.spectatorGerund>
+  <!-- EN: Spectators -->
+  <TreeConnection.spectatorsLabel>متفرجون</TreeConnection.spectatorsLabel>
+  
+  <!-- EN: judge -->
+  <Trial.roles.0.label>قاض</Trial.roles.0.label>
+  <!-- EN: convict -->
+  <Trial.roles.1.label>مدان</Trial.roles.1.label>
+  
+  <!-- EN: judge -->
+  <TrialMentalState.roles.0.label>قاض</TrialMentalState.roles.0.label>
+  <!-- EN: convict -->
+  <TrialMentalState.roles.1.label>مدان</TrialMentalState.roles.1.label>
+  
+  <!-- EN: judge -->
+  <TrialPrisoner.roles.0.label>قاض</TrialPrisoner.roles.0.label>
+  <!-- EN: convict -->
+  <TrialPrisoner.roles.1.label>مدان</TrialPrisoner.roles.1.label>
+  <!-- EN: Convicted prisoner is not reachable. -->
+  <TrialPrisoner.stages.0.failTriggers.0.desc>السجين المدان لا يمكن الوصول إليه.</TrialPrisoner.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <TrialPrisoner.stages.0.failTriggers.1.desc>المرافق نائم</TrialPrisoner.stages.0.failTriggers.1.desc>
+  
+</LanguageData>

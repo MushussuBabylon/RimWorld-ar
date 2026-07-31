@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Audiovisuals -->
+  <!-- EN: Audiovisuals -->
+  <Audiovisuals>الصوتيات والمرئيات</Audiovisuals>
+  <!-- EN: Master volume -->
+  <MasterVolume>الصوت الرئيسي</MasterVolume>
+  <!-- EN: Game volume -->
+  <GameVolume>صوت اللعبة</GameVolume>
+  <!-- EN: Music volume -->
+  <MusicVolume>صوت الموسيقى</MusicVolume>
+  <!-- EN: Ambience volume -->
+  <AmbientVolume>صوت الأجواء</AmbientVolume>
+  <!-- EN: UI volume -->
+  <UIVolume>صوت الواجهة</UIVolume>
+  <!-- EN: Affects all sounds. -->
+  <MasterVolumeTooltip>يؤثر على جميع الأصوات.</MasterVolumeTooltip>
+  <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
+  <GameVolumeTooltip>يؤثر على جميع الأصوات في العالم، مثل تقطيع الأشجار وبناء الجدران.</GameVolumeTooltip>
+  <!-- EN: Affects music. -->
+  <MusicVolumeTooltip>يؤثر على الموسيقى.</MusicVolumeTooltip>
+  <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
+  <AmbientVolumeTooltip>يؤثر على جميع الأصوات المحيطة، مثل الرياح والحشرات.</AmbientVolumeTooltip>
+  <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
+  <UIVolumeTooltip>يؤثر على جميع أصوات الواجهة، مثل نقرات الأزرار والرسائل.</UIVolumeTooltip>
+  <!-- EN: Anti-aliasing -->
+  <Antialiasing>مانع التعرج</Antialiasing>
+
+  <!-- Gameplay -->
+  <!-- EN: Remember draw styles -->
+  <RememberDrawStyle>تذكر أنماط الرسم</RememberDrawStyle>
+  <!-- EN: When enabled, draw styles won't reset to the default draw style when placing new buildings or zones. -->
+  <RememberDrawStyle_Tooltip>عند التفعيل، لن تتم إعادة تعيين أنماط الرسم إلى نمط الرسم الافتراضي عند وضع مبانٍ أو مناطق جديدة.</RememberDrawStyle_Tooltip>
+  <!-- EN: Zoom switches world map layers -->
+  <ZoomSwitchLayer>يقوم تطبيق التكبير/التصغير بتغيير طبقات خريطة العالم</ZoomSwitchLayer>
+  <!-- EN: When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again. -->
+  <ZoomSwitchLayer_Tooltip>عند تفعيل هذه الميزة، سيؤدي تصغير الخريطة العالمية إلى التبديل إلى رؤية مدارية. أما التكبير فسيُظهر الكوكب مرة أخرى.</ZoomSwitchLayer_Tooltip>
+  <!-- EN: Screen-edge mouse scroll -->
+  <EdgeScreenScroll>التمرير بحافة الشاشة</EdgeScreenScroll>
+  <!-- EN: Zoom to mouse -->
+  <ZoomToMouse>تكبير نحو الفأرة</ZoomToMouse>
+  <!-- EN: Pause on load -->
+  <PauseOnLoad>إيقاف مؤقت عند التحميل</PauseOnLoad>
+  <!-- EN: Pause on urgent letter -->
+  <PauseOnUrgentLetter>إيقاف مؤقت عند الرسالة العاجلة</PauseOnUrgentLetter>
+  <!-- EN: Pause on letter -->
+  <AutomaticPauseModeSetting>إيقاف مؤقت عند الرسالة</AutomaticPauseModeSetting>
+  <!-- EN: Disable game-specific cursor -->
+  <CustomCursor>تعطيل مؤشر اللعبة المخصص</CustomCursor>
+  <!-- EN: Hide hats on UI -->
+  <HatsShownOnlyOnMap>إخفاء القبعات في الواجهة</HatsShownOnlyOnMap>
+  <!-- EN: UI scale -->
+  <UIScale>حجم الواجهة</UIScale>
+  <!-- EN: Keyboard configuration -->
+  <KeyboardConfig>إعدادات لوحة المفاتيح</KeyboardConfig>
+  <!-- EN: Controller configuration -->
+  <ControllerConfig>إعدادات وحدة التحكم</ControllerConfig>
+  <!-- EN: Modify -->
+  <ModifyConfig>تعديل</ModifyConfig>
+  <!-- EN: Choose language -->
+  <ChooseLanguage>اختر اللغة</ChooseLanguage>
+  <!-- EN: Reset learning helper -->
+  <ResetAdaptiveTutor>إعادة ضبط مساعد التعلم</ResetAdaptiveTutor>
+  <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
+  <AdaptiveTutorIsReset>تم إعادة ضبط المساعد. سيتم تعليمك جميع الدروس من البداية.</AdaptiveTutorIsReset>
+  <!-- EN: Keyboard mode -->
+  <SteamDeckKeyboardMode>وضع لوحة المفاتيح</SteamDeckKeyboardMode>
+  <!-- EN: Run in background -->
+  <RunInBackground>تشغيل في الخلفية</RunInBackground>
+  <!-- EN: Development mode -->
+  <DevelopmentMode>وضع المطور</DevelopmentMode>
+  <!-- EN: Auto-reset mods config on crash -->
+  <ResetModsConfigOnCrash>إعادة ضبط إعدادات التعديلات تلقائياً عند الانهيار</ResetModsConfigOnCrash>
+  <!-- EN: Quick start has no cryptosleep sickness -->
+  <DisableQuickStartCryptoSickness>بدء سريع بدون مرض السبات</DisableQuickStartCryptoSickness>
+  <!-- EN: Start game with dev palette on -->
+  <StartDevPaletteOn>بدء اللعبة بلوحة المطور مفتوحة</StartDevPaletteOn>
+  <!-- EN: Open log on warnings -->
+  <OpenLogOnWarnings>فتح السجل عند التحذيرات</OpenLogOnWarnings>
+  <!-- EN: Close log by pressing cancel -->
+  <CloseLogWindowOnEscape>إغلاق السجل بالضغط على إلغاء</CloseLogWindowOnEscape>
+  <!-- EN: Verbose logging -->
+  <LogVerbose>تسجيل مطول</LogVerbose>
+  <!-- EN: Save data folder -->
+  <SaveGameDataFolder>مجلد بيانات الحفظ</SaveGameDataFolder>
+  <!-- EN: Save data location -->
+  <SaveGameDataLocation>موقع بيانات الحفظ</SaveGameDataLocation>
+  <!-- EN: Log file folder -->
+  <LogFileFolder>مجلد ملف السجل</LogFileFolder>
+  <!-- EN: Log file location -->
+  <LogFileLocation>موقع ملف السجل</LogFileLocation>
+  <!-- EN: Open -->
+  <OpenFolder>فتح</OpenFolder>
+  <!-- EN: Show -->
+  <ShowFolder>عرض</ShowFolder>
+  <!-- EN: Preferred "Name in Game" characters -->
+  <NamesYouWantToSee>شخصيات "اسم في اللعبة" المفضلة</NamesYouWantToSee>
+  <!-- EN: These characters will be more likely to appear randomly during play. -->
+  <NamesYouWantToSeeSubText>ستكون هذه الشخصيات أكثر احتمالاً للظهور عشوائياً أثناء اللعب.</NamesYouWantToSeeSubText>
+  <!-- EN: Add name -->
+  <AddName>إضافة اسم</AddName>
+  <!-- EN: Type the first name, nickname, or last name. -->
+  <TypeFirstNickOrLastName>اكتب الاسم الأول أو اللقب أو اسم العائلة.</TypeFirstNickOrLastName>
+  <!-- EN: This name is already on the preferred list. -->
+  <MessageAlreadyPreferredName>هذا الاسم موجود بالفعل في القائمة المفضلة.</MessageAlreadyPreferredName>
+  <!-- EN: Storyteller settings -->
+  <ChangeStoryteller>إعدادات الراوي</ChangeStoryteller>
+  <!-- EN: Autosave interval -->
+  <AutosaveInterval>فترة الحفظ التلقائي</AutosaveInterval>
+  <!-- EN: The number of in game days between each auto save. -->
+  <AutosaveIntervalTooltip>عدد أيام اللعبة بين كل حفظ تلقائي.</AutosaveIntervalTooltip>
+  <!-- EN: Temperature unit -->
+  <TemperatureMode>وحدة درجة الحرارة</TemperatureMode>
+  <!-- EN: Show realtime clock -->
+  <ShowRealtimeClock>إظهار الساعة الحقيقية</ShowRealtimeClock>
+  <!-- EN: Use 12 hour clock -->
+  <TwelveHourClockMode>استخدام نظام 12 ساعة</TwelveHourClockMode>
+  <!-- EN: Disable tiny font -->
+  <DisableTinyText>تعطيل الخط الصغير</DisableTinyText>
+  <!-- EN: Maximum number of colonies: {0} -->
+  <MaxNumberOfPlayerSettlements>الحد الأقصى لعدد المستعمرات: {0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Autosaves count: {0} -->
+  <AutosavesCount>عدد الحفظ التلقائي: {0}</AutosavesCount>
+  <!-- EN: Map mouse drag sensitivity -->
+  <MapDragSensitivity>حساسية سحب الفأرة على الخريطة</MapDragSensitivity>
+  <!-- EN: Plant wind sway -->
+  <PlantWindSway>تمايل النبات بالرياح</PlantWindSway>
+  <!-- EN: Enable test map sizes -->
+  <EnableTestMapSizes>تفعيل أحجام خريطة الاختبار</EnableTestMapSizes>
+  <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
+  <MaxPermadeathAutosaveIntervalInfo>الحد الأقصى لفترة الحفظ التلقائي في وضع الموت الدائم هو {0} يوم.</MaxPermadeathAutosaveIntervalInfo>
+  <!-- EN: Mod Settings -->
+  <ModSettings>إعدادات التعديلات</ModSettings>
+  <!-- EN: Permanently disable development mode -->
+  <PermanentlyDisableDevMode>تعطيل وضع المطور بشكل دائم</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression -->
+  <TextureCompression>ضغط النسيج</TextureCompression>
+  <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>إيقاف ضغط النسيج سيستخدم ذاكرة فيديو أكبر بكثير، لكنه يجعل النسيج يبدو أفضل قليلاً في المناطق التفصيلية. أوقفه فقط إذا كنت تعلم أن لديك ذاكرة فيديو إضافية كبيرة.\n\nلاحظ أن استخدام بعض التعديلات غالباً ما يستهلك ذاكرة فيديو أكبر، لذا قد تحتاج لتشغيل هذا إذا أضفت بعض التعديلات.</TextureCompression_Tooltip>
+  <!-- EN: Smooth camera jumps -->
+  <SmoothCameraJumps>قفزات كاميرا سلسة</SmoothCameraJumps>
+  <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
+  <SmoothCameraJumpsDesc>عند التفعيل، ستتحرك الكاميرا بسرعة عند التركيز على موقع جديد. عند التعطيل، ستقفز الكاميرا فوراً.</SmoothCameraJumpsDesc>
+  <!-- EN: Gravship cutscenes -->
+  <GravshipCutscenes>مشاهد سينمائية لسفينة الجاذبية</GravshipCutscenes>
+  <!-- EN: When disabled, gravships will take off and land instantly. -->
+  <GravshipCutscenesDesc>عند تعطيلها ، سفينة الجاذبية ستقلع و تهبط على الفور</GravshipCutscenesDesc>
+
+  <!-- Resolution -->
+  <!-- EN: Resolution -->
+  <Resolution>الدقة</Resolution>
+  <!-- EN: Fullscreen -->
+  <Fullscreen>ملء الشاشة</Fullscreen>
+  <!-- EN: Borderless fullscreen -->
+  <BorderlessFullscreen>ملء شاشة بلا حدود</BorderlessFullscreen>
+  <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
+  <BorderlessFullscreenInstructions>لتشغيل RimWorld في وضع ملء الشاشة بلا حدود:\n\n1) افتح Steam\n2) اذهب إلى علامة تبويب "المكتبة" في الأعلى\n3) ابحث عن RimWorld في القائمة وانقر عليها بالزر الأيمن\n4) اختر "خصائص..."\n5) أضف "-popupwindow" بدون علامات اقتباس إلى "خيارات التشغيل" في علامة تبويب "عام"\n6) أعد تشغيل اللعبة\n7) إذا تم بشكل صحيح، لن ترى هذه النافذة\n\nتلميح: استخدم مفتاح Windows + Shift + يسار/يمين لنقل النافذة بين شاشاتك.</BorderlessFullscreenInstructions>
+
+  <!-- Mods -->
+  <!-- EN: Select mod... -->
+  <SelectMod>اختر تعديلاً...</SelectMod>
+  <!-- EN: No configurable mods loaded. -->
+  <NoConfigurableMods>لم يتم تحميل تعديلات قابلة للتكوين.</NoConfigurableMods>
+  
+  <!-- Options reset -->
+  <!-- EN: Restore all settings to default -->
+  <RestoreToDefaultSettingsLabel>استعادة جميع الإعدادات إلى الافتراضي</RestoreToDefaultSettingsLabel>
+  <!-- EN: Restore defaults -->
+  <RestoreToDefaultSettings>استعادة الافتراضيات</RestoreToDefaultSettings>
+  <!-- EN: All settings have been reset. The game will now restart automatically. -->
+  <ResetAndRestart>تم إعادة ضبط جميع الإعدادات. ستعاد تشغيل اللعبة تلقائياً الآن.</ResetAndRestart>
+  <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
+  <ResetAndRestartConfirmationDialog>سيتم إعادة ضبط جميع الإعدادات إلى الافتراضي وستعاد تشغيل اللعبة. سيفقد التقدم غير المحفوظ،\n\nهل تريد المتابعة؟</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
+  <ChangedTextureCompressionRestart>تغيير إعدادات ضغط النسيج يتطلب إعادة تشغيل. سيفقد التقدم غير المحفوظ.\n\nهل تريد المتابعة؟</ChangedTextureCompressionRestart>
+  
+  <!-- Background image -->
+  <!-- EN: Menu background -->
+  <SetBackgroundImage>خلفية القائمة</SetBackgroundImage>
+
+</LanguageData>
