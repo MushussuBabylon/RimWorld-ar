@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fertile -->
+  <Fertile.label>خصب</Fertile.label>
+  <!-- EN: Carriers of this gene have a higher chance of becoming pregnant or impregnating others. -->
+  <Fertile.description>يتمتع حاملو هذا الجين بفرصة أعلى للحمل أو التسبب بالحمل للآخرين.</Fertile.description>
+  
+  <!-- EN: strong immunity -->
+  <Immunity_Strong.label>مناعة قوية</Immunity_Strong.label>
+  <!-- EN: Carriers of this gene gain immunity to diseases faster than normal. -->
+  <Immunity_Strong.description>يكتسب حاملو هذا الجين مناعة ضد الأمراض بشكل أسرع من الطبيعي.</Immunity_Strong.description>
+  <!-- EN: immune -->
+  <Immunity_Strong.labelShortAdj>مناعي</Immunity_Strong.labelShortAdj>
+  <!-- EN: stout -->
+  <Immunity_Strong.symbolPack.prefixSymbols.0.symbol>متين</Immunity_Strong.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: super immunity -->
+  <Immunity_SuperStrong.label>مناعة فائقة</Immunity_SuperStrong.label>
+  <!-- EN: Carriers of this gene gain immunity to diseases considerably faster than normal. -->
+  <Immunity_SuperStrong.description>يكتسب حاملو هذا الجين مناعة ضد الأمراض بشكل أسرع بكثير من الطبيعي.</Immunity_SuperStrong.description>
+  <!-- EN: super-immune -->
+  <Immunity_SuperStrong.labelShortAdj>فائق المناعة</Immunity_SuperStrong.labelShortAdj>
+  <!-- EN: stout -->
+  <Immunity_SuperStrong.symbolPack.prefixSymbols.0.symbol>متين</Immunity_SuperStrong.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: weak immunity -->
+  <Immunity_Weak.label>مناعة ضعيفة</Immunity_Weak.label>
+  <!-- EN: Carriers of this gene gain immunity to diseases more slowly than normal. They may die from infections that others would survive. -->
+  <Immunity_Weak.description>يكتسب حاملو هذا الجين مناعة ضد الأمراض بشكل أبطأ من الطبيعي. قد يموتون من العدوى التي ينجو منها الآخرون.</Immunity_Weak.description>
+  <!-- EN: susceptible -->
+  <Immunity_Weak.labelShortAdj>معرض</Immunity_Weak.labelShortAdj>
+  <!-- EN: sick -->
+  <Immunity_Weak.symbolPack.prefixSymbols.0.symbol>مريض</Immunity_Weak.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: frail -->
+  <Immunity_Weak.symbolPack.prefixSymbols.1.symbol>واهن</Immunity_Weak.symbolPack.prefixSymbols.1.symbol>
+  
+  <!-- EN: sterile -->
+  <Sterile.label>عقيم</Sterile.label>
+  <!-- EN: Carriers of this gene cannot reproduce by natural means. -->
+  <Sterile.description>لا يستطيع حاملو هذا الجين التكاثر بالوسائل الطبيعية.</Sterile.description>
+  
+  <!-- EN: superclotting -->
+  <Superclotting.label>تخثر فائق</Superclotting.label>
+  <!-- EN: Carriers of this gene have extra-power coagulating factors in their blood, and will stop bleeding very quickly when wounded. -->
+  <Superclotting.description>يمتلك حاملو هذا الجين عوامل تخثر فائقة القوة في دمائهم، وسيتوقف النزيف بسرعة كبيرة عند الإصابة.</Superclotting.description>
+  <!-- EN: Bleeding wounds close very quickly. -->
+  <Superclotting.customEffectDescriptions.0>تلتئم الجروح النازفة بسرعة فائقة.</Superclotting.customEffectDescriptions.0>
+  <!-- EN: clot -->
+  <Superclotting.symbolPack.prefixSymbols.0.symbol>كلوت</Superclotting.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: scab -->
+  <Superclotting.symbolPack.prefixSymbols.1.symbol>قشرة</Superclotting.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: clot -->
+  <Superclotting.symbolPack.suffixSymbols.0.symbol>كلوت</Superclotting.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: scab -->
+  <Superclotting.symbolPack.suffixSymbols.1.symbol>قشرة</Superclotting.symbolPack.suffixSymbols.1.symbol>
+  
+  <!-- EN: partial antitoxic lungs -->
+  <ToxicEnvironmentResistance_Partial.label>رئتان جزئيتا المقاومة للسموم</ToxicEnvironmentResistance_Partial.label>
+  <!-- EN: Carriers of this gene are resistant to environmental toxins. They get less toxic buildup from tox gas, polluted terrain, and toxic fallout, but are still vulnerable to direct attacks with venom or injected poison. Additionally, they build up rot stink exposure slower. -->
+  <ToxicEnvironmentResistance_Partial.description>حاملو هذا الجين مقاومون للسموم البيئية. يتراكم لديهم التسمم بشكل أقل من الغاز السام والأراضي الملوثة والتهاطل السام، لكنهم لا يزالون عرضة للهجمات المباشرة بالسم أو السم المحقون. بالإضافة إلى ذلك، يتراكم تعرضهم لرائحة العفن بشكل أبطأ.</ToxicEnvironmentResistance_Partial.description>
+  <!-- EN: tox-resistant -->
+  <ToxicEnvironmentResistance_Partial.labelShortAdj>مقاوم للغاز السام</ToxicEnvironmentResistance_Partial.labelShortAdj>
+  <!-- EN: tox -->
+  <ToxicEnvironmentResistance_Partial.symbolPack.prefixSymbols.0.symbol>توكس</ToxicEnvironmentResistance_Partial.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: total antitoxic lungs -->
+  <ToxicEnvironmentResistance_Total.label>رئتان كاملتا المقاومة للسموم</ToxicEnvironmentResistance_Total.label>
+  <!-- EN: Carriers of this gene are immune to environmental toxins, but not from direct toxic attacks. They get no toxic buildup from tox gas, polluted terrain, or toxic fallout, and they are not bothered by acidic smog. They are still vulnerable to direct attacks like venom and injected poison. Additionally, they are immune to rot stink exposure. -->
+  <ToxicEnvironmentResistance_Total.description>حاملو هذا الجين محصنون ضد السموم البيئية، لكن ليس من الهجمات السامة المباشرة. لا يتراكم لديهم التسمم من الغاز السام أو الأراضي الملوثة أو التهاطل السام، ولا يتأثرون بالضباب الحمضي. لا يزالون عرضة للهجمات المباشرة مثل السم والسم المحقون. بالإضافة إلى ذلك، هم محصنون ضد التعرض لرائحة العفن.</ToxicEnvironmentResistance_Total.description>
+  <!-- EN: Tox gas immunity -->
+  <ToxicEnvironmentResistance_Total.customEffectDescriptions.0>مناعة ضد الغاز السام</ToxicEnvironmentResistance_Total.customEffectDescriptions.0>
+  <!-- EN: tox-immune -->
+  <ToxicEnvironmentResistance_Total.labelShortAdj>محصن ضد الغاز السام</ToxicEnvironmentResistance_Total.labelShortAdj>
+  <!-- EN: tox -->
+  <ToxicEnvironmentResistance_Total.symbolPack.prefixSymbols.0.symbol>توكس</ToxicEnvironmentResistance_Total.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: fast wound healing -->
+  <WoundHealing_Fast.label>سرعة التئام الجروح</WoundHealing_Fast.label>
+  <!-- EN: Carriers of this gene heal from wounds twice as fast as normal. -->
+  <WoundHealing_Fast.description>يلتئم جروح حاملي هذا الجين بسرعة تعادل ضعف السرعة الطبيعية.</WoundHealing_Fast.description>
+  <!-- EN: fast-heal -->
+  <WoundHealing_Fast.labelShortAdj>سريع الالتئام</WoundHealing_Fast.labelShortAdj>
+  <!-- EN: stout -->
+  <WoundHealing_Fast.symbolPack.prefixSymbols.0.symbol>متين</WoundHealing_Fast.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: hard -->
+  <WoundHealing_Fast.symbolPack.prefixSymbols.1.symbol>صلب</WoundHealing_Fast.symbolPack.prefixSymbols.1.symbol>
+  
+  <!-- EN: slow wound healing -->
+  <WoundHealing_Slow.label>بطء التئام الجروح</WoundHealing_Slow.label>
+  <!-- EN: Carriers of this gene heal from wounds half as fast as normal. -->
+  <WoundHealing_Slow.description>يلتئم جروح حاملي هذا الجين بنصف السرعة الطبيعية.</WoundHealing_Slow.description>
+  <!-- EN: slow-heal -->
+  <WoundHealing_Slow.labelShortAdj>بطيء الالتئام</WoundHealing_Slow.labelShortAdj>
+  <!-- EN: soft -->
+  <WoundHealing_Slow.symbolPack.prefixSymbols.0.symbol>ناعم</WoundHealing_Slow.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: superfast wound healing -->
+  <WoundHealing_SuperFast.label>سرعة فائقة لالتئام الجروح</WoundHealing_SuperFast.label>
+  <!-- EN: Carriers of this gene heal from wounds four times as fast as normal. -->
+  <WoundHealing_SuperFast.description>يلتئم جروح حاملي هذا الجين بأربعة أضعاف السرعة الطبيعية.</WoundHealing_SuperFast.description>
+  <!-- EN: super-heal -->
+  <WoundHealing_SuperFast.labelShortAdj>فائق الالتئام</WoundHealing_SuperFast.labelShortAdj>
+  <!-- EN: stout -->
+  <WoundHealing_SuperFast.symbolPack.prefixSymbols.0.symbol>متين</WoundHealing_SuperFast.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: hard -->
+  <WoundHealing_SuperFast.symbolPack.prefixSymbols.1.symbol>صلب</WoundHealing_SuperFast.symbolPack.prefixSymbols.1.symbol>
+  
+</LanguageData>

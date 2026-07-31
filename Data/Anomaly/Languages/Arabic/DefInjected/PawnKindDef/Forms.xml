@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: blind healer -->
+  <Blindhealer.label>معالج أعمى</Blindhealer.label>
+  <Blindhealer.labelFemale>معالجة عمياء</Blindhealer.labelFemale>
+  <!-- EN: A blind healer is approaching the colony. -->
+  <Blindhealer.letterLabel>يقترب {PAWN_gender ? معالج أعمى : معالجة عمياء} من المستعمرة.</Blindhealer.letterLabel>
+  <!-- EN: A small, withered {PAWN_genderNoun} stands in front of you. Where {PAWN_possessive} eyes should be, there are only scar-crusted holes in {PAWN_possessive} flesh. Yet, even without eyes, {PAWN_pronoun} somehow looks at you with kindness. {PAWN_pronoun} says that {PAWN_pronoun} knows that {PAWN_possessive} skills are needed here and wants to stay for a while. -->
+  <Blindhealer.letterPrompt>يقف أمامك {PAWN_gender ? رجل ضئيل وهزيل : امرأة ضئيلة وهزيلة}. في المكان الذي ينبغي أن تكون فيه عينا {PAWN_possessive}، لا توجد سوى ثقوب غطتها الندوب في جسد{PAWN_possessive}. ومع ذلك، حتى بدون عيون، ينظر {PAWN_pronoun} إليك بطيبة بطريقة ما. يقول {PAWN_pronoun} إنه يعلم أن مهاراتـ{PAWN_possessive} مطلوبة هنا ويريد البقاء لفترة من الوقت.</Blindhealer.letterPrompt>
+  
+  <!-- EN: drifter -->
+  <CreepDrifter.label>متشرد</CreepDrifter.label>
+  <CreepDrifter.labelFemale>متشردة</CreepDrifter.labelFemale>
+  <!-- EN: A visitor is approaching the colony. -->
+  <CreepDrifter.letterLabel>يقترب {PAWN_gender ? زائر : زائرة} من المستعمرة.</CreepDrifter.letterLabel>
+  <!-- EN: The weary-looking drifter stretches {PAWN_possessive} legs. {PAWN_pronoun} seems very tired.\n\n{PAWN_pronoun} asks to stay in your colony for a while - at least until {PAWN_pronoun} has recovered {PAWN_possessive} strength. -->
+  <CreepDrifter.letterPrompt>يمدد المتشرد المنهك ساقـ{PAWN_possessive}. يبدو {PAWN_pronoun} متعبا للغاية.\n\nيطلب {PAWN_pronoun} البقاء في مستعمرتك لفترة من الوقت - على الأقل حتى يستعيد {PAWN_pronoun} قوتـ{PAWN_possessive}.</CreepDrifter.letterPrompt>
+  
+  <!-- EN: cult escapee -->
+  <CultEscapee.label>هارب من طائفة</CultEscapee.label>
+  <!-- EN: A mangled figure is approaching the colony. -->
+  <CultEscapee.letterLabel>تقترب هيئة مشوهة من المستعمرة.</CultEscapee.letterLabel>
+  <!-- EN: The mangled stranger stares at you with empty eyes and speaks in a broken voice. {PAWN_pronoun} claims to have escaped from a terrible cult and begs to join your colony. -->
+  <CultEscapee.letterPrompt>يحدق الغريب المشوه إليك بعينين فارغتين ويتحدث بصوت مكسور. يدعي {PAWN_pronoun} أنه هرب من طائفة رهيبة ويتوسل للانضمام إلى مستعمرتك.</CultEscapee.letterPrompt>
+  
+  <!-- EN: dark scholar -->
+  <DarkScholar.label>باحث مظلم</DarkScholar.label>
+  <DarkScholar.labelFemale>باحثة مظلمة</DarkScholar.labelFemale>
+  <!-- EN: A dark scholar covered with twisted scars is approaching the colony. -->
+  <DarkScholar.letterLabel>يقترب {PAWN_gender ? باحث مظلم : باحثة مظلمة} مغطى بالندوب الملتوية من المستعمرة.</DarkScholar.letterLabel>
+  <!-- EN: The dark scholar slouches in place, lifeless and silent. Only {PAWN_possessive} eyes seem alive, as if {PAWN_pronoun} could look inside you.\n\n{PAWN_pronoun} says that this is where {PAWN_pronoun} belongs and asks to stay for a while. {PAWN_possessive} tone indicates that {PAWN_pronoun} will not take 'no' for an answer. -->
+  <DarkScholar.letterPrompt>ينحني الباحث المظلم في مكانـ{PAWN_possessive}، بلا حياة وصامت. عينا{PAWN_possessive} فقط تبدوان مفعمتين بالحياة، كما لو كان بإمكان {PAWN_pronoun} الرؤية بداخلـ{PAWN_objective}.\n\nيقول {PAWN_pronoun} إن هذا هو المكان الذي ينتمي إليه ويطلب البقاء لفترة. تشير نبرتـ{PAWN_possessive} إلى أن {PAWN_pronoun} لن يقبل بـ "لا" كإجابة.</DarkScholar.letterPrompt>
+  
+  <!-- EN: deal maker -->
+  <DealMaker.label>عاقد صفقات</DealMaker.label>
+  <DealMaker.labelFemale>عاقدة صفقات</DealMaker.labelFemale>
+  <!-- EN: A stunningly good-looking stranger is approaching the colony. -->
+  <DealMaker.letterLabel>يقترب غريب {PAWN_gender ? وسيم : وسيمة} للغاية من المستعمرة.</DealMaker.letterLabel>
+  <!-- EN: A stunningly good-looking stranger stands in front of you. {PAWN_possessive} face beams with confidence as {PAWN_pronoun} opens {PAWN_possessive} hands in a gesture of fellowship.\n\n{PAWN_pronoun} says {PAWN_pronoun} is here to make a deal and will help you in exchange for simple hospitality. This is {PAWN_possessive} purpose and {PAWN_pronoun} always fulfills {PAWN_possessive} purpose. -->
+  <DealMaker.letterPrompt>يقف أمامك غريب وسيم للغاية. يشع وجهـ{PAWN_possessive} بالثقة بينما يفتح يد{PAWN_possessive} في إيماءة زمالة.\n\nيقول {PAWN_pronoun} إنه هنا لعقد صفقة وسيقدم لك المساعدة مقابل ضيافة بسيطة. هذا هو هدفـ{PAWN_possessive} و{PAWN_pronoun} يحقق دائما هدفـ{PAWN_possessive}.</DealMaker.letterPrompt>
+  
+  <!-- EN: leathery stranger -->
+  <LeatheryStranger.label>غريب جلدي</LeatheryStranger.label>
+  <LeatheryStranger.labelFemale>غريبة جلدية</LeatheryStranger.labelFemale>
+  <!-- EN: A ragged stranger with leathery skin is approaching your colony. -->
+  <LeatheryStranger.letterLabel>يقترب {PAWN_gender ? غريب رث : غريبة رثة} ذو بشرة جلدية من مستعمرتك.</LeatheryStranger.letterLabel>
+  <!-- EN: The leathery stranger stares into space and speaks in a monotone, as though {PAWN_pronoun} hardly sees anyone or anything. {PAWN_pronoun} refuses to leave, insisting {PAWN_pronoun} is only interested in your colony. {PAWN_pronoun} says that {PAWN_pronoun} can help. -->
+  <LeatheryStranger.letterPrompt>يحدق الغريب الجلدي في الفضاء ويتحدث بنبرة رتيبة، كما لو كان {PAWN_pronoun} لا يكاد يرى أحدا أو أي شيء. يرفض {PAWN_pronoun} المغادرة، مصرا على أنه مهتم فقط بمستعمرتك. يقول {PAWN_pronoun} إنه يمكنـ{PAWN_objective} المساعدة.</LeatheryStranger.letterPrompt>
+  
+  <!-- EN: lone genius -->
+  <LoneGenius.label>عبقري وحيد</LoneGenius.label>
+  <!-- EN: A lone figure is approaching the colony. -->
+  <LoneGenius.letterLabel>تقترب هيئة وحيدة من المستعمرة.</LoneGenius.letterLabel>
+  <!-- EN: The strange figure keeps muttering about some scientific breakthrough. All {PAWN_pronoun} needs is a laboratory. If you let {PAWN_objective} stay, {PAWN_pronoun} will share {PAWN_possessive} vast knowledge with you. It's hard to tell whether {PAWN_pronoun}'s insane or a genius - or both. -->
+  <LoneGenius.letterPrompt>تستمر الشخصية الغريبة في التمتمة حول اختراق علمي ما. كل ما يحتاجـ{PAWN_objective} هو مختبر. إذا سمحت لـ{PAWN_objective} بالبقاء، فسيشارك {PAWN_pronoun} معرفتـ{PAWN_possessive} الواسعة معك. من الصعب معرفة ما إذا كان {PAWN_pronoun} مجنونا أم عبقريا - أو كليهما.</LoneGenius.letterPrompt>
+  
+  <!-- EN: timeless one -->
+  <TimelessOne.label>كائن عابر للزمن</TimelessOne.label>
+  <TimelessOne.labelFemale>كائنة عابرة للزمن</TimelessOne.labelFemale>
+  <!-- EN: A teenager is approaching the colony. {PAWN_pronoun} has a strange air of confidence around {PAWN_objective}. -->
+  <TimelessOne.letterLabel>يقترب {PAWN_gender ? مراهق : مراهقة} من المستعمرة. لدى {PAWN_pronoun} هالة غريبة من الثقة تحيط بـ{PAWN_objective}.</TimelessOne.letterLabel>
+  <!-- EN: {PAWN_nameDef} is barely more than a child but in {PAWN_possessive} thoughtful eyes you sense an ancient wisdom. When {PAWN_pronoun} speaks, the words seem to come from an unnatural knowledge of endless time. {PAWN_pronoun} says that the stars brought {PAWN_objective} here to fulfill {PAWN_possessive} destiny. {PAWN_pronoun} wants to stay with you and help. -->
+  <TimelessOne.letterPrompt>{PAWN_nameDef} ليس أكثر من مجرد طفل، ولكن في عينيـ{PAWN_possessive} المتأملتين تشعر بحكمة قديمة. عندما يتحدث {PAWN_pronoun}، تبدو الكلمات وكأنها تنبع من معرفة غير طبيعية بزمن لا ينتهي. يقول {PAWN_pronoun} إن النجوم أتت بـ{PAWN_objective} إلى هنا لتحقيق قدر{PAWN_possessive}. يريد {PAWN_pronoun} البقاء معك والمساعدة.</TimelessOne.letterPrompt>
+  
+</LanguageData>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: closed the void node -->
+  <ClosedTheVoid.label>أغلق عقدة الفراغ</ClosedTheVoid.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] closing the void node.</li>
+    <li>image->[PAWN_nameFull] sealing the connection to the void, ensuring the safety of the colony [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] standing defiantly before the void node, determined to protect the colony [circumstance_group]</li>
+    <li>circumstance_phrase->amidst crackling energy</li>
+    <li>circumstance_phrase->as the void node emits a haunting glow</li>
+    <li>circumstance_phrase->while the void whispers in the background</li>
+    <li>desc_sentence->The gray metal presses in from all sides.</li>
+    <li>desc_sentence->The other colonists are shown [side_position], anxiously awaiting [PAWN_nameDef]'s return.</li>
+    <li>desc_sentence->[PAWN_nameDef]'s face betrays that [PAWN_pronoun] is agonising over the choice before [PAWN_objective].</li>
+  -->
+  <ClosedTheVoid.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] يغلق عقدة الفراغ.</li>
+    <li>image->[PAWN_nameFull] يختم الاتصال بالفراغ، ضامنًا سلامة المستعمرة [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يقف بتحدٍ أمام عقدة الفراغ، مصممًا على حماية المستعمرة [circumstance_group]</li>
+    <li>circumstance_phrase->وسط طاقة متطايرة</li>
+    <li>circumstance_phrase->بينما تصدر عقدة الفراغ وهجًا مؤرقًا</li>
+    <li>circumstance_phrase->بينما يهمس الفراغ في الخلفية</li>
+    <li>desc_sentence->يضغط المعدن الرمادي من كل جانب.</li>
+    <li>desc_sentence->يظهر المستعمرون الآخرون [side_position]، ينتظرون عودة [PAWN_nameDef] بفارغ الصبر.</li>
+    <li>desc_sentence->يخون وجه [PAWN_nameDef] أنه في عذاب بسبب الاختيار أمام[PAWN_objective].</li>
+ </ClosedTheVoid.rulePack.rulesStrings>
+  
+  <!-- EN: embraced the void -->
+  <EmbracedTheVoid.label>اعتنق الفراغ</EmbracedTheVoid.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] embracing the void</li>
+    <li>image->[PAWN_nameFull] harnessing the forbidden knowledge of the void, transcending mortal limitations, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] surrendering to the allure of the void [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] giving in to the sinister whispers of the void [circumstance_group]</li>
+    <li>circumstance_phrase->as tendrils of dark energy coil around [PAWN_possessive] limbs</li>
+    <li>circumstance_phrase->amidst a swirling vortex of energy</li>
+    <li>circumstance_phrase->with an unsettling smile</li>
+    <li>desc_sentence->[PAWN_nameDef] radiates an aura of ominous power, a testament to [PAWN_possessive] pact with the void.</li>
+    <li>desc_sentence->[PAWN_nameDef]'s eyes begin to gleam with an otherworldly glow.</li>
+    <li>desc_sentence->The other colonists are shown [side_position], questioning the wisdom of [PAWN_nameDef]'s choice.</li>
+  -->
+  <EmbracedTheVoid.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] يعتنق الفراغ</li>
+    <li>image->[PAWN_nameFull] يسخر معرفة الفراغ المحرمة، متجاوزًا حدود البشر الفانين، [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يستسلم لإغراء الفراغ [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يذعن لهمسات الفراغ الشريرة [circumstance_group]</li>
+    <li>circumstance_phrase->بينما تلتف محاليق الطاقة المظلمة حول أطراف[PAWN_possessive]</li>
+    <li>circumstance_phrase->وسط دوامة طاقة مضطربة</li>
+    <li>circumstance_phrase->بابتسامة مقلقة</li>
+    <li>desc_sentence->يشع [PAWN_nameDef] بهالة من القوة المشؤومة، شهادة على عهد[PAWN_possessive] مع الفراغ.</li>
+    <li>desc_sentence->تبدأ عينا[PAWN_nameDef] بالبريق بوهج أخروي.</li>
+    <li>desc_sentence->يظهر المستعمرون الآخرون [side_position]، متشككين في حكمة اختيار [PAWN_nameDef].</li>
+ </EmbracedTheVoid.rulePack.rulesStrings>
+  
+  <!-- EN: performed a psychic ritual -->
+  <PerformedPsychicRitual.label>أدى طقسًا نفسيًا</PerformedPsychicRitual.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] leading a psychic ritual</li>
+    <li>image->[PAWN_nameFull] channeling energy that dances around [PAWN_objective] as [PAWN_pronoun] weaves a potent psychic ritual, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] reciting dark incantations and tapping into mysterious forces to perform a psychic ritual, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] focusing [PAWN_possessive] gaze as [PAWN_pronoun] performs a psychic ritual, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tracing intricate symbols in the air, harnessing hidden energies to manifest a psychic ritual, [circumstance_group]</li>
+    <li>circumstance_phrase->while focusing intently on the tome in front of [PAWN_objective]</li>
+    <li>circumstance_phrase->with focused determination, showcasing [PAWN_possessive] mastery of the psychic arts</li>
+    <li>circumstance_phrase->with a cruel smile</li>
+    <li>circumstance_phrase->while [PAWN_possessive] voice fights to be heard over the roar of energy</li>
+    <li>desc_sentence->The chanters can be seen [side_position] lending their support.</li>
+    <li>desc_sentence->The air shimmers as [PAWN_nameDef] completes the psychic ritual.</li>
+    <li>desc_sentence->The monolith shimmers in the background.</li>
+    <li>desc_sentence->The surrounding candles flicker and sputter in the swirling energy.</li>
+  -->
+  <PerformedPsychicRitual.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] يقود طقسًا نفسيًا</li>
+    <li>image->[PAWN_nameFull] يوجه طاقة ترقص حول[PAWN_objective] وهو ينسج طقسًا نفسيًا قويًا، [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يتلو تعاويذ مظلمة ويستغل قوى غامضة لأداء طقس نفسي، [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يركز نظر[PAWN_possessive] بينما يؤدي طقسًا نفسيًا، [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يرسم رموزًا معقدة في الهواء، مسخرًا طاقات خفية لإظهار طقس نفسي، [circumstance_group]</li>
+    <li>circumstance_phrase->بينما يركز بانتباه على الكتاب أمام[PAWN_objective]</li>
+    <li>circumstance_phrase->بعزيمة مركزة، مظهرًا إتقان[PAWN_possessive] للفنون النفسية</li>
+    <li>circumstance_phrase->بابتسامة قاسية</li>
+    <li>circumstance_phrase->بينما يصارع صوت[PAWN_possessive] ليُسمع فوق هدير الطاقة</li>
+    <li>desc_sentence->يمكن رؤية المنشدين [side_position] يقدمون دعمهم.</li>
+    <li>desc_sentence->يتلألأ الهواء بينما يكمل [PAWN_nameDef] الطقس النفسي.</li>
+    <li>desc_sentence->يتلألأ المونوليث في الخلفية.</li>
+    <li>desc_sentence->ترتعش الشموع المحيطة وتتطاير في الطاقة الدوامة.</li>
+ </PerformedPsychicRitual.rulePack.rulesStrings>
+  
+</LanguageData>

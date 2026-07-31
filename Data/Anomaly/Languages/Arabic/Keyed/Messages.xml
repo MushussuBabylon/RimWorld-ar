@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Entities -->
+  <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
+  <MessageActivityRisingDamage>نشاط {0_definite} يرتفع بسبب تلقيه للضرر.</MessageActivityRisingDamage>
+  <!-- EN: {0_definite} has died on a holding platform. -->
+  <EntityDiedOnHoldingPlatform>مات {0_definite} على منصة الاحتجاز.</EntityDiedOnHoldingPlatform>
+  <!-- EN: New entity discovered -->
+  <MessageEntityDiscovered>تم اكتشاف كيان جديد</MessageEntityDiscovered>
+
+  <!-- Hate chanters -->
+  <!-- EN: The cultists are in a trance and don't respond when attacked. -->
+  <MessageHateChantersAbsorbed>الطائفيون في غيبوبة ولا يستجيبون عند الهجوم.</MessageHateChantersAbsorbed>
+  <!-- EN: The hate chanting has increased in volume. -->
+  <MessageHateChantIncreased>ازداد حجم هتاف الكراهية.</MessageHateChantIncreased>
+
+  <!-- Self-resurrection -->
+  <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
+  <SelfResurrectText>يمكن لـ {0_nameDef} إحياء نفسه بناءً على أمر باستخدام رفض الموت.</SelfResurrectText>
+  <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
+  <MessageUsingSelfResurrection>يستخدم {0_nameDef} رفض الموت لإحياء نفسه.</MessageUsingSelfResurrection>
+
+  <!-- Pit Gate -->
+  <!-- EN: The pit gate has collapsed. -->
+  <MessagePitGateCollapsed>انهارت بوابة الحفرة.</MessagePitGateCollapsed>
+  <!-- EN: A pit burrow has collapsed. -->
+  <MessagePitBurrowCollapsed>انهار جحر الحفرة.</MessagePitBurrowCollapsed>
+
+  <!-- Fleshsack -->
+  <!-- EN: The flesh sack contained something -->
+  <FleshmassContainedMessage>كيس اللحم احتوى شيئًا ما</FleshmassContainedMessage>
+
+  <!-- Psychic rituals -->
+  <!-- EN: {0_pawnsPluralDef} are attacking! -->
+  <MessagePsychicRitualAssault>{0_pawnsPluralDef} يهاجمون!</MessagePsychicRitualAssault>
+  <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} يبدأون الطقس النفسي</MessageAIPsychicRitualBegan>
+  
+  <!-- Biomutation lance -->
+  <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
+  <MessageBiomutationLanceInvalidTargetRace>لا يمكن الاستهداف: {0_nameDef} ليس حيوانًا أو بشريًا.</MessageBiomutationLanceInvalidTargetRace>
+  <!-- EN: Cannot target: {0_nameDef} is too large. -->
+  <MessageBiomutationLanceTargetTooBig>لا يمكن الاستهداف: {0_nameDef} كبير جدًا.</MessageBiomutationLanceTargetTooBig>
+
+  <!-- Containment -->
+  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
+  <MessageNoRoomWithMinimumContainmentStrength>تحذير: لا توجد غرف بقوة الاحتواء الدنيا لـ {0}. قد يهرب قريبًا.</MessageNoRoomWithMinimumContainmentStrength>
+  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
+  <MessageTargetBelowMinimumContainmentStrength>تحذير: {0} أقل من قوة الاحتواء الدنيا لـ {1}. قد يهرب قريبًا.</MessageTargetBelowMinimumContainmentStrength>
+  <!-- EN: Can't transfer to {0} reserved by someone else. -->
+  <MessageHolderReserved>لا يمكن النقل إلى {0} محجوز من قبل شخص آخر.</MessageHolderReserved>
+  <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
+  <MessageEntityExecuted>أعدم {EXECUTIONER_labelShort} {VICTIM_kindIndef}.</MessageEntityExecuted>
+  <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformReinstalled>تحذير: إعادة تركيب منصة احتجاز مشغولة سيطلق الكيان. انقل الكيان إلى منصة أخرى أولاً.</MessageOccupiedHoldingPlatformReinstalled>
+  <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformUninstalled>تحذير: إزالة منصة احتجاز مشغولة سيطلق الكيان. انقل الكيان إلى منصة أخرى أولاً.</MessageOccupiedHoldingPlatformUninstalled>
+  <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformDeconstructed>تحذير: تفكيك منصة احتجاز مشغولة سيطلق الكيان. انقل الكيان إلى منصة أخرى أولاً.</MessageOccupiedHoldingPlatformDeconstructed>
+  
+  <!-- Duplicator obelisk -->
+  <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
+  <MessageHostileDuplicate>ظهر نسخة معادية من {0_nameDef}.</MessageHostileDuplicate>
+  
+  <!-- Proximity detector -->
+  <!-- EN: A proximity detector has detected an invisible creature. -->
+  <MessageProximityDetectorTriggered>كشف كاشف القرب مخلوقًا غير مرئي.</MessageProximityDetectorTriggered>
+  
+  <!-- Unnatural darkness --> 
+  <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
+  <MessagePawnAttackedInDarkness>هاجم شيء في الظلام {0_nameDef}.</MessagePawnAttackedInDarkness>
+  
+  <!-- Revenant -->
+  <!-- EN: A hidden revenant has been revealed! -->
+  <MessageRevenantForcedVisibility>تم كشف عائد مخفي!</MessageRevenantForcedVisibility>
+  <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
+  <MessageRevenantHeard>يستطيع {PAWN_nameDef} سماع العائد {1} قريبًا!</MessageRevenantHeard>
+  
+  <!-- Abilities -->
+  <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
+  <MessageCannotUseOnNonBleeder>لا يمكن استخدام {ABILITY_label} على مخلوقات لا تنزف.</MessageCannotUseOnNonBleeder>
+  
+  <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
+  <MessageFingerspikeDisturbed>أزعج {WAKER_nameDef} مسمار الإصبع.</MessageFingerspikeDisturbed>
+  <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
+  <MessageFingerspikeDisturbedPlural>أزعج {WAKER_nameDef} عدة مسامير أصابع.</MessageFingerspikeDisturbedPlural>
+
+  <!-- EN: The death pall has begun to resurrect corpses. -->
+  <DeathPallResurrectedMessage>بدأ غشاء الموت في إحياء الجثث.</DeathPallResurrectedMessage>
+
+</LanguageData>

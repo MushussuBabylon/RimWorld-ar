@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Reading management -->
+  <!-- EN: {0} max mental break chance -->
+  <MaxMentalBreakChance>أقصى احتمال للانهيار النفسي {0}</MaxMentalBreakChance>
+  <!-- EN: Tomes -->
+  <TomePolicy>مجلدات</TomePolicy>
+
+  <!-- Caravan -->
+  <!-- EN: Entities -->
+  <EntitiesSection>كيانات</EntitiesSection>
+  
+  <!-- Hidden items filter -->
+  <!-- EN: Undiscovered -->
+  <UndiscoveredItemLabel>غير مكتشف</UndiscoveredItemLabel>
+  <!-- EN: This item has not been discovered yet. -->
+  <UndiscoveredItemDesc>هذا العنصر لم يُكتشف بعد.</UndiscoveredItemDesc>
+
+  <!-- Medical settings -->
+  <!-- EN: Entities -->
+  <MedGroupEntities>كيانات</MedGroupEntities>
+  <!-- EN: Anomalous entities and their variations. -->
+  <MedGroupEntitiesDesc>كيانات شاذة وتنوعاتها.</MedGroupEntitiesDesc>
+
+  <!-- EN: Ghouls -->
+  <MedGroupGhouls>غيلان</MedGroupGhouls>
+  <!-- EN: Ghouls belonging to your colony. -->
+  <MedGroupGhoulsDesc>غيلان تابعة لمستعمرتك.</MedGroupGhoulsDesc>
+
+  <!-- EN: Turning {PAWN_nameDef} into a ghoul is irreversible. {PAWN_pronoun} will be left in a half-conscious stupor and be incapable of work.\n\nAre you sure you want to turn {PAWN_nameDef} into a ghoul? -->
+  <GhoulConfirmation>تحويل {PAWN_nameDef} إلى غول لا يمكن عكسه. سيُترك {PAWN_pronoun} في ذهول شبه واعٍ ويكون غير قادر على العمل.\n\nهل أنت متأكد أنك تريد تحويل {PAWN_nameDef} إلى غول؟</GhoulConfirmation>
+
+  <!-- EN: no anomaly buildings allowed -->
+  <RoomRequirementNoAnomalyBuildings>لا يُسمح بمبانٍ شاذة</RoomRequirementNoAnomalyBuildings>
+
+  <!-- EN: Entity codex -->
+  <EntityCodex>سجل الكيانات</EntityCodex>
+  <!-- EN: View all discovered entities. Discover new entities to advance the monolith and reveal new research projects. -->
+  <EntityCodexGizmoTip>عرض جميع الكيانات المكتشفة. اكتشف كيانات جديدة لتطوير المونوليث وكشف مشاريع بحثية جديدة.</EntityCodexGizmoTip>
+  <!-- EN: Research unlocks -->
+  <ResearchUnlocks>فتح البحث</ResearchUnlocks>
+  <!-- EN: This page lists all known entities which are related to the dark void. Discover new entities using the “void provocation” psychic ritual. Discovering new entities reveals new research projects, and allows you to advance the void monolith. -->
+  <EntityCodexDesc>تسرد هذه الصفحة جميع الكيانات المعروفة المرتبطة بالفراغ المظلم. اكتشف كيانات جديدة باستخدام الطقس النفسي "استفزاز الفراغ". اكتشاف كيانات جديدة يكشف مشاريع بحثية جديدة، ويسمح لك بتطوير مونوليث الفراغ.</EntityCodexDesc>
+  <!-- EN: Undiscovered entity -->
+  <UndiscoveredEntity>كيان غير مكتشف</UndiscoveredEntity>
+  <!-- EN: You have not discovered this entity. -->
+  <UndiscoveredEntityDesc>لم تكتشف هذا الكيان بعد.</UndiscoveredEntityDesc>
+  <!-- EN: View entity codex -->
+  <ViewEntityCodex>عرض سجل الكيانات</ViewEntityCodex>
+
+</LanguageData>

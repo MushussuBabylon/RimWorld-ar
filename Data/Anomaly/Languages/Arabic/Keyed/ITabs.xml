@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- ITab_Entity -->
+  <!-- EN: Escape interval -->
+  <HoldingPlatformEscapeMTBDays>فترة الهروب</HoldingPlatformEscapeMTBDays>
+  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity's movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
+  <HoldingPlatformEscapeMTBDaysDesc>متوسط الوقت بين الهروبات. يتأثر هذا بقوة الاحتواء، ونوع الكيان، وقدرة الكيان على الحركة، ومدة سجن الكيان. بعض الكيانات تُقمع أيضاً بالبرودة.</HoldingPlatformEscapeMTBDaysDesc>
+  <!-- EN: Entity -->
+  <TabEntity>كيان</TabEntity>
+  <!-- EN: Study interval -->
+  <StudyInterval>فترة الدراسة</StudyInterval>
+  <!-- EN: How often this entity can be studied. -->
+  <StudyIntervalDesc>كم مرة يمكن دراسة هذا الكيان.</StudyIntervalDesc>
+  <!-- EN: Maintain only -->
+  <EntityStudyMode_MaintainOnly>المحافظة فقط</EntityStudyMode_MaintainOnly>
+  <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
+  <EntityStudyMode_MaintainOnlyDesc>لن يقوم الحراس بإجراءات خاصة على هذا الكيان، لكن التفاعلات الأخرى لا تزال متاحة.</EntityStudyMode_MaintainOnlyDesc>
+  <!-- EN: Study -->
+  <EntityStudyMode_Study>دراسة</EntityStudyMode_Study>
+  <!-- EN: Researchers will study the entity. -->
+  <EntityStudyMode_StudyDesc>سيدرس الباحثون الكيان.</EntityStudyMode_StudyDesc>
+  <!-- EN: Release -->
+  <EntityStudyMode_Release>إطلاق سراح</EntityStudyMode_Release>
+  <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
+  <EntityStudyMode_ReleaseDesc>سيطلق السجان سراح الكيان من منصة الاحتجاز. قد تكون الكيانات معادية عند إطلاق سراحها.</EntityStudyMode_ReleaseDesc>
+  <!-- EN: Execute -->
+  <EntityStudyMode_Execute>إعدام</EntityStudyMode_Execute>
+  <!-- EN: A warden will execute the restrained entity. -->
+  <EntityStudyMode_ExecuteDesc>سيعدم السجان الكيان المقيّد.</EntityStudyMode_ExecuteDesc>
+  <!-- EN: Extract bioferrite -->
+  <EntityStudyMode_Extract>استخراج البيوفيرايت</EntityStudyMode_Extract>
+  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can't be done if the entity is attached to a bioferrite harvester. -->
+  <EntityStudyMode_ExtractDesc>سيستخرج الأطباء البيوفيرايت من الكيان المأسور كلما أمكن. طريقة الاستخراج هذه بسيطة، لكنها غير فعالة. لا يمكن إجراؤها إذا كان الكيان متصلاً بحاصدة البيوفيرايت.</EntityStudyMode_ExtractDesc>
+  <!-- EN: Requires bioferrite extraction. -->
+  <RequiresBioferriteExtraction>يتطلب استخراج البيوفيرايت.</RequiresBioferriteExtraction>
+  <!-- EN: Blocked by bioferrite harvester. -->
+  <BioferriteHarvesterAttached>محظور بواسطة حاصدة البيوفيرايت.</BioferriteHarvesterAttached>
+  <!-- EN: Can't be executed. -->
+  <CantBeExecuted>لا يمكن إعدامه.</CantBeExecuted>
+  <!-- EN: Knowledge gain -->
+  <StudyKnowledgeGain>اكتساب المعرفة</StudyKnowledgeGain>
+  <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
+  <StudyKnowledgeGainDesc>مقدار المعرفة المكتسبة لكل فترة دراسة. يساعد الاحتواء الأفضل الباحث على التركيز على الدراسة بدلاً من السلامة، مما ينتج معرفة أكثر.</StudyKnowledgeGainDesc>
+  <!-- EN: What type of medicine can be given to this entity. -->
+  <MedicineQualityDescriptionEntity>نوع الدواء الذي يمكن إعطاؤه لهذا الكيان.</MedicineQualityDescriptionEntity>
+
+  <!-- EN: Electroharvester -->
+  <FactorForElectroharvester>الحاصدة الكهربائية</FactorForElectroharvester>
+  <!-- EN: Long captivity -->
+  <FactorForDaysInCaptivity>الأسر الطويل</FactorForDaysInCaptivity>
+  <!-- EN: Cold containment bonus -->
+  <FactorForColdCaptivity>مكافأة الاحتواء البارد</FactorForColdCaptivity>
+  <!-- EN: Incapable of escaping -->
+  <IncapableOfEscaping>غير قادر على الهرب</IncapableOfEscaping>
+  <!-- EN: Entity downed -->
+  <EntityDowned>الكيان مطروح أرضاً</EntityDowned>
+  <!-- EN: Containment strength -->
+  <FactorContainmentStrength>قوة الاحتواء</FactorContainmentStrength>
+  <!-- EN: Electroharvester -->
+  <FactorElectroharvester>الحاصدة الكهربائية</FactorElectroharvester>
+  <!-- EN: Activity -->
+  <FactorActivity>النشاط</FactorActivity>
+
+</LanguageData>
