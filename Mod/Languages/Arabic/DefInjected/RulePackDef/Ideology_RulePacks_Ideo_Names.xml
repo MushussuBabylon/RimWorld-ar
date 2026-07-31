@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>globalAdjective->Spacer</li>
+    <li>globalAdjective->Star</li>
+    <li>globalAdjective->Stellar</li>
+    <li>globalAdjective->Interstellar</li>
+    <li>globalHyphenPrefix->astro</li>
+    <li>globalHyphenPrefix->stello</li>
+  -->
+  <CultureSpacer.rulePack.rulesStrings>
+    <li>globalAdjective-&gt;ﻲﺋﺎﻀﻓ</li>
+    <li>globalAdjective-&gt;ﻢﺠﻧ</li>
+    <li>globalAdjective-&gt;ﻲﻤﺠﻧ</li>
+    <li>globalAdjective-&gt;ﻲﻤﺠﻨﻴﺑ</li>
+    <li>globalHyphenPrefix-&gt;ﻭﺮﺘﺳﺃ</li>
+    <li>globalHyphenPrefix-&gt;ﻮﻠﻴﺘﺳ</li>
+ </CultureSpacer.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>globalAdjective(p=15)->Tribal</li>
+  -->
+  <NamerIdeoCorunan.rulePack.rulesStrings>
+    <li>globalAdjective(p=15)-&gt;ﻲﻠﺒﻗ</li>
+ </NamerIdeoCorunan.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_ideoName->[keyDeity]ism</li>
+    <li>r_ideoName->[hyphenPrefix]-[keyDeity]ism</li>
+    <li>r_ideoName->[keyDeity]'s [creed]</li>
+    <li>r_ideoName->[creed] of [keyDeity]</li>
+    <li>r_ideoAdjective->[keyDeity]ic</li>
+    <li>r_memberName->[keyDeity]ist</li>
+    <li>r_memberName->[keyDeity]ite</li>
+    <li>r_ideoName(p=6)->[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoNameStructure]</li>
+    <li>r_ideoName(p=2)->[memeAdjective] [creed]</li>
+    <li>r_ideoName(p=1)->[creed] of [packTheme]</li>
+    <li>r_ideoName(p=1)->[place_adjective] [creed]</li>
+    <li>r_ideoName(p=0.25)->The [memeCreed]</li>
+    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
+    <li>r_memberName->[packMember]</li>
+    <li>creed(priority=1)->[memeCreed]</li>
+    <li>creed->[genericCreed]</li>
+    <li>genericCreed->creed</li>
+    <li>genericCreed->doctrine</li>
+    <li>genericCreed->way</li>
+    <li>genericCreed->path</li>
+    <li>hyphenPrefix->[globalHyphenPrefix]</li>
+    <li>hyphenPrefix->[memeHyphenPrefix]</li>
+    <li>globalHyphenPrefix(p=4)->neo</li>
+    <li>globalHyphenPrefix(p=2)->post</li>
+    <li>globalHyphenPrefix->nova</li>
+    <li>globalHyphenPrefix->archaeo</li>
+    <li>globalHyphenPrefix->hyper</li>
+  -->
+  <NamerIdeoGlobal.rulePack.rulesStrings>
+    <li>r_ideoName-&gt;ﺔﻳ[keyDeity]</li>
+    <li>r_ideoName-&gt;ﺔﻳ[hyphenPrefix]-[keyDeity]</li>
+    <li>r_ideoName-&gt;[creed] [keyDeity]</li>
+    <li>r_ideoName-&gt;[creed] [keyDeity]</li>
+    <li>r_ideoAdjective-&gt;ﻱ[keyDeity]</li>
+    <li>r_memberName-&gt;ﻱ[keyDeity]</li>
+    <li>r_memberName-&gt;ﻱ[keyDeity]</li>
+    <li>r_ideoName(p=6)-&gt;[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)-&gt;[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)-&gt;[hyphenPrefix]-[packIdeoNameStructure]</li>
+    <li>r_ideoName(p=2)-&gt;[creed] [memeAdjective]</li>
+    <li>r_ideoName(p=1)-&gt;[creed] [packTheme]</li>
+    <li>r_ideoName(p=1)-&gt;[creed] [place_adjective]</li>
+    <li>r_ideoName(p=0.25)-&gt;[memeCreed] ـﻟﺍ</li>
+    <li>r_ideoAdjective(priority=1)-&gt;[packAdjective]</li>
+    <li>r_memberName-&gt;[packMember]</li>
+    <li>creed(priority=1)-&gt;[memeCreed]</li>
+    <li>creed-&gt;[genericCreed]</li>
+    <li>genericCreed-&gt;ﺓﺪﻴﻘﻋ</li>
+    <li>genericCreed-&gt;ﺐﻫﺬﻣ</li>
+    <li>genericCreed-&gt;ﻖﻳﺮﻃ</li>
+    <li>genericCreed-&gt;ﻞﻴﺒﺳ</li>
+    <li>hyphenPrefix-&gt;[globalHyphenPrefix]</li>
+    <li>hyphenPrefix-&gt;[memeHyphenPrefix]</li>
+    <li>globalHyphenPrefix(p=4)-&gt;ﻮﻴﻧ</li>
+    <li>globalHyphenPrefix(p=2)-&gt;ﺖﺳﻮﺑ</li>
+    <li>globalHyphenPrefix-&gt;ﺎﻓﻮﻧ</li>
+    <li>globalHyphenPrefix-&gt;ﻮﻴﻛﺭﺃ</li>
+    <li>globalHyphenPrefix-&gt;ﺮﺒﻳﺎﻫ</li>
+ </NamerIdeoGlobal.rulePack.rulesStrings>
+  
+</LanguageData>

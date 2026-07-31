@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>title->[maybeThe] [bookEvil] of [nounEvilUncountable]</li>
+    <li>title->[maybeThe] [bookEvil] of [nounEvilCountable]s</li>
+    <li>title->[maybeThe] [bookEvil] of the [nounEvilCountable]</li>
+    <li>title->[maybeThe] [nounEvilCountable]s [inThe] [placeEvil]</li>
+    <li>title->[maybeThe] [bookEvil] of [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe] [nounEvilAny] [inThe] [placeEvil]</li>
+    <li>title->[maybeThe] [nounEvilAny] of [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe] [adjectiveEvil] [nounEvilAny]</li>
+    <li>title->[ANYPAWN_nameIndef]'s [bookEvil]</li>
+    <li>title->[maybeThe] [bookCompound]</li>
+    <li>title->[ANYPAWN_nameIndef]'s [bookCompound]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilCountable]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountable]</li>
+    <li>title(p=0.5)->[nounEvilCountable] [suffixEvil]</li>
+    <li>title(p=0.5)->[nounEvilUncountable] [suffixEvil]</li>
+    <li>bookCompound(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookCompound->[firstHalfEvil][connector][suffixEvil]</li>
+    <li>connector->'</li>
+    <li>connector->-</li>
+    <li>maybeThe-></li>
+    <li>maybeThe->The</li>
+    <li>bookEvil(p=2)->Book</li>
+    <li>bookEvil(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookEvil->Tome</li>
+    <li>bookEvil->Codex</li>
+    <li>bookEvil->Writings</li>
+    <li>bookEvil->Record</li>
+    <li>bookEvil->Secrets</li>
+    <li>bookEvil->Chronicles</li>
+    <li>bookEvil->Cipher</li>
+    <li>bookEvil->Whispers</li>
+    <li>bookEvil->Testimony</li>
+    <li>bookEvil->Lamentations</li>
+    <li>bookEvil->Grimoire</li>
+    <li>bookEvil->Almanac</li>
+    <li>bookEvil->Manuscript</li>
+    <li>bookEvil->Annals</li>
+    <li>bookEvil->Incantations</li>
+    <li>bookEvil->Revelations</li>
+    <li>bookEvil->Manifesto</li>
+    <li>bookEvil->Testament</li>
+    <li>bookEvil->Fragments</li>
+    <li>bookEvil->Shards</li>
+    <li>inThe->in the</li>
+    <li>inThe->within the</li>
+    <li>inThe->beneath the</li>
+    <li>inThe->under the</li>
+    <li>inThe->by the</li>
+    <li>inThe->on the</li>
+    <li>inThe->across the</li>
+    <li>adjectiveEvil(p=3)->Void</li>
+    <li>adjectiveEvil->Golden</li>
+    <li>adjectiveEvil->Unnatural</li>
+    <li>adjectiveEvil->Dark</li>
+    <li>adjectiveEvil->Black</li>
+    <li>adjectiveEvil->Deep</li>
+    <li>adjectiveEvil->Ancient</li>
+    <li>adjectiveEvil->Corrupt</li>
+    <li>adjectiveEvil->Blood</li>
+    <li>adjectiveEvil->Chaos</li>
+    <li>adjectiveEvil->Abyssal</li>
+    <li>adjectiveEvil->Uncanny</li>
+    <li>adjectiveEvil->Phantom</li>
+    <li>adjectiveEvil->Cryptic</li>
+    <li>adjectiveEvil->Whispering</li>
+    <li>adjectiveEvil->Forgotten</li>
+    <li>adjectiveEvil->Veiled</li>
+    <li>adjectiveEvil->Forbidden</li>
+    <li>adjectiveEvil->Subsurface</li>
+    <li>adjectiveEvil->Snake</li>
+    <li>nounEvilAny->[nounEvilCountable]</li>
+    <li>nounEvilAny->[nounEvilUncountable]</li>
+    <li>nounEvilUncountable->Fleshmass</li>
+    <li>nounEvilUncountable->Bioferrite</li>
+    <li>nounEvilUncountable->Deadlife</li>
+    <li>nounEvilUncountable->Archotech</li>
+    <li>nounEvilUncountable->Necrotech</li>
+    <li>nounEvilUncountable->Horax</li>
+    <li>nounEvilUncountable->Blood</li>
+    <li>nounEvilUncountable->Undeath</li>
+    <li>nounEvilUncountable->Power</li>
+    <li>nounEvilUncountable->Whispers</li>
+    <li>nounEvilUncountable->Knowledge</li>
+    <li>nounEvilUncountable->Horror</li>
+    <li>nounEvilUncountable->Fungi</li>
+    <li>nounEvilUncountable->Putrescence</li>
+    <li>nounEvilUncountable->Rituals</li>
+    <li>nounEvilUncountable->Murder</li>
+    <li>nounEvilUncountable->Darkness</li>
+    <li>nounEvilUncountable->Madness</li>
+    <li>nounEvilUncountable->Chaos</li>
+    <li>nounEvilUncountable->Despair</li>
+    <li>nounEvilUncountable->Suffering</li>
+    <li>nounEvilUncountable->Nightmares</li>
+    <li>nounEvilUncountable->Corruption</li>
+    <li>nounEvilUncountable->Doom</li>
+    <li>nounEvilUncountable->Terror</li>
+    <li>nounEvilUncountable->Malevolence</li>
+    <li>nounEvilUncountable->Shadows</li>
+    <li>nounEvilUncountable->Void</li>
+    <li>nounEvilUncountable->Gold</li>
+    <li>nounEvilCountable->Ghoul</li>
+    <li>nounEvilCountable->Gorehulk</li>
+    <li>nounEvilCountable->Noctol</li>
+    <li>nounEvilCountable->Shambler</li>
+    <li>nounEvilCountable->Fleshbeast</li>
+    <li>nounEvilCountable->Nociosphere</li>
+    <li>nounEvilCountable->Corpse</li>
+    <li>nounEvilCountable->Cube</li>
+    <li>nounEvilCountable->Revenant</li>
+    <li>nounEvilCountable->Metalhorror</li>
+    <li>nounEvilCountable->Abductor</li>
+    <li>nounEvilCountable->Duplicator</li>
+    <li>nounEvilCountable->Mutator</li>
+    <li>nounEvilCountable->Harbinger</li>
+    <li>nounEvilCountable->Sightstealer</li>
+    <li>nounEvilCountable->Chimera</li>
+    <li>nounEvilCountable->Devourer</li>
+    <li>nounEvilCountable->Shard</li>
+    <li>nounEvilCountable->Sculpture</li>
+    <li>nounEvilCountable->Serum</li>
+    <li>nounEvilCountable->Cult</li>
+    <li>nounEvilCountable->Cultist</li>
+    <li>nounEvilCountable->Goat</li>
+    <li>nounEvilCountable->Shadow</li>
+    <li>nounEvilCountable->Lurker</li>
+    <li>nounEvilCountable->Rites</li>
+    <li>nounEvilCountable->Hex</li>
+    <li>nounEvilCountable->Snake</li>
+    <li>nounEvilCountable->Feaster</li>
+    <li>placeEvil->Ocean</li>
+    <li>placeEvil->Void</li>
+    <li>placeEvil->Abyss</li>
+    <li>placeEvil->Deep</li>
+    <li>placeEvil->Shadows</li>
+    <li>placeEvil->Tombs</li>
+    <li>placeEvil->Darkness</li>
+    <li>placeEvil->Mountain</li>
+    <li>placeEvil->Chamber</li>
+    <li>placeEvil->Catacombs</li>
+    <li>placeEvil->Sanctum</li>
+    <li>placeEvil->Grove</li>
+    <li>placeEvil->Earth</li>
+    <li>placeEvil->Stars</li>
+    <li>placeEvil->Ocean</li>
+    <li>placeEvil->Depths</li>
+    <li>placeEvil->Underverse</li>
+    <li>placeEvil->Caverns</li>
+    <li>firstHalfEvil->vibro</li>
+    <li>firstHalfEvil->kelno</li>
+    <li>firstHalfEvil->nekro</li>
+    <li>firstHalfEvil->chrono</li>
+    <li>firstHalfEvil->drago</li>
+    <li>firstHalfEvil->krimi</li>
+    <li>firstHalfEvil->vadi</li>
+    <li>firstHalfEvil->horror</li>
+    <li>firstHalfEvil->nocio</li>
+    <li>firstHalfEvil->xeno</li>
+    <li>firstHalfEvil->psycho</li>
+    <li>firstHalfEvil->voro</li>
+    <li>firstHalfEvil->tyrano</li>
+    <li>firstHalfEvil->inverno</li>
+    <li>firstHalfEvil->phobo</li>
+    <li>firstHalfEvil->leva</li>
+    <li>suffixEvil->nomicon</li>
+    <li>suffixEvil->doron</li>
+    <li>suffixEvil->nax</li>
+    <li>suffixEvil->novicon</li>
+    <li>suffixEvil->vokon</li>
+    <li>suffixEvil->mancy</li>
+    <li>suffixEvil->gorgon</li>
+    <li>suffixEvil->morth</li>
+    <li>suffixEvil->cypher</li>
+    <li>suffixEvil->vex</li>
+    <li>suffixEvil->vortex</li>
+    <li>suffixEvil->nox</li>
+    <li>suffixEvil->cybex</li>
+    <li>suffixEvil->voron</li>
+    <li>suffixEvil->karnix</li>
+    <li>suffixEvil->nemex</li>
+    <li>suffixEvil->vexor</li>
+    <li>suffixEvil->tronix</li>
+    <li>suffixEvil->cryptex</li>
+    <li>suffixEvil->chaonix</li>
+    <li>suffixEvil->nix</li>
+    <li>suffixEvil->vix</li>
+  -->
+  <Namer_Tome.rulePack.rulesStrings>
+    <li>title-&gt;[maybeThe] [bookEvil] [nounEvilUncountable]</li>
+    <li>title-&gt;[maybeThe] [bookEvil] [nounEvilCountable]s</li>
+    <li>title-&gt;[maybeThe] [bookEvil] [nounEvilCountable]</li>
+    <li>title-&gt;[maybeThe] [nounEvilCountable]s [inThe] [placeEvil]</li>
+    <li>title-&gt;[maybeThe] [bookEvil] [ANYPAWN_nameIndef]</li>
+    <li>title-&gt;[maybeThe] [nounEvilAny] [inThe] [placeEvil]</li>
+    <li>title-&gt;[maybeThe] [nounEvilAny] [ANYPAWN_nameIndef]</li>
+    <li>title-&gt;[maybeThe] [adjectiveEvil] [nounEvilAny]</li>
+    <li>title-&gt;[ANYPAWN_nameIndef] [bookEvil]</li>
+    <li>title-&gt;[maybeThe] [bookCompound]</li>
+    <li>title-&gt;[ANYPAWN_nameIndef] [bookCompound]</li>
+    <li>title(p=0.5)-&gt;[firstHalfEvil][connector][nounEvilCountable]</li>
+    <li>title(p=0.5)-&gt;[firstHalfEvil][connector][nounEvilUncountable]</li>
+    <li>title(p=0.5)-&gt;[nounEvilCountable] [suffixEvil]</li>
+    <li>title(p=0.5)-&gt;[nounEvilUncountable] [suffixEvil]</li>
+    <li>bookCompound(p=2)-&gt;[firstHalfEvil][suffixEvil]</li>
+    <li>bookCompound-&gt;[firstHalfEvil][connector][suffixEvil]</li>
+    <li>connector-&gt;'</li>
+    <li>connector-&gt;-</li>
+    <li>maybeThe-&gt;</li>
+    <li>maybeThe-&gt;ﻝﺍ</li>
+    <li>bookEvil(p=2)-&gt;ﺏﺎﺘﻛ</li>
+    <li>bookEvil(p=2)-&gt;[firstHalfEvil][suffixEvil]</li>
+    <li>bookEvil-&gt;ﺮﻔِﺳ</li>
+    <li>bookEvil-&gt;ﻁﻮﻄﺨﻣ</li>
+    <li>bookEvil-&gt;ﺕﺎﺑﺎﺘﻛ</li>
+    <li>bookEvil-&gt;ﻞﺠﺳ</li>
+    <li>bookEvil-&gt;ﺭﺍﺮﺳﺃ</li>
+    <li>bookEvil-&gt;ﺭﺎﺒﺧﺃ</li>
+    <li>bookEvil-&gt;ﺓﺮﻔﺷ</li>
+    <li>bookEvil-&gt;ﺕﺎﺴﻤﻫ</li>
+    <li>bookEvil-&gt;ﺓﺩﺎﻬﺷ</li>
+    <li>bookEvil-&gt;ﻲﺛﺍﺮﻣ</li>
+    <li>bookEvil-&gt;ﺬﻳﻭﺎﻌﺗ ﺏﺎﺘﻛ</li>
+    <li>bookEvil-&gt;ﻢﻳﻮﻘﺗ</li>
+    <li>bookEvil-&gt;ﺔﻃﻮﻄﺨﻣ</li>
+    <li>bookEvil-&gt;ﺕﺎﻴﻟﻮﺣ</li>
+    <li>bookEvil-&gt;ﺬﻳﻭﺎﻌﺗ</li>
+    <li>bookEvil-&gt;ﻯﺅﺭ</li>
+    <li>bookEvil-&gt;ﻥﺎﻴﺑ</li>
+    <li>bookEvil-&gt;ﺔﻴﺻﻭ</li>
+    <li>bookEvil-&gt;ﺎﻳﺎﻈﺷ</li>
+    <li>bookEvil-&gt;ﺮَﺴﻛ</li>
+    <li>inThe-&gt;ﻲﻓ</li>
+    <li>inThe-&gt;ﻞﺧﺍﺩ</li>
+    <li>inThe-&gt;ﺖﺤﺗ</li>
+    <li>inThe-&gt;ﻞﻔﺳﺃ</li>
+    <li>inThe-&gt;ﺐﻧﺎﺠﺑ</li>
+    <li>inThe-&gt;ﻰﻠﻋ</li>
+    <li>inThe-&gt;ﺮﺒﻋ</li>
+    <li>adjectiveEvil(p=3)-&gt;ﻍﺍﺮﻔﻟﺍ</li>
+    <li>adjectiveEvil-&gt;ﻲﺒﻫﺫ</li>
+    <li>adjectiveEvil-&gt;ﻲﻌﻴﺒﻃ ﺮﻴﻏ</li>
+    <li>adjectiveEvil-&gt;ﻢﻠﻈﻣ</li>
+    <li>adjectiveEvil-&gt;ﺩﻮﺳﺃ</li>
+    <li>adjectiveEvil-&gt;ﻖﻴﻤﻋ</li>
+    <li>adjectiveEvil-&gt;ﻢﻳﺪﻗ</li>
+    <li>adjectiveEvil-&gt;ﺪﺳﺎﻓ</li>
+    <li>adjectiveEvil-&gt;ﻡﺩ</li>
+    <li>adjectiveEvil-&gt;ﻰﺿﻮﻓ</li>
+    <li>adjectiveEvil-&gt;ﻖﻴﺤﺳ</li>
+    <li>adjectiveEvil-&gt;ﻕﺭﺎﺧ</li>
+    <li>adjectiveEvil-&gt;ﺢﺒﺷ</li>
+    <li>adjectiveEvil-&gt;ﺾﻣﺎﻏ</li>
+    <li>adjectiveEvil-&gt;ﺲﻣﺎﻫ</li>
+    <li>adjectiveEvil-&gt;ﻲﺴﻨﻣ</li>
+    <li>adjectiveEvil-&gt;ﺏﻮﺠﺤﻣ</li>
+    <li>adjectiveEvil-&gt;ﺭﻮﻈﺤﻣ</li>
+    <li>adjectiveEvil-&gt;ﺢﻄﺴﻟﺍ ﺖﺤﺗ</li>
+    <li>adjectiveEvil-&gt;ﻰﻌﻓﺃ</li>
+    <li>nounEvilAny-&gt;[nounEvilCountable]</li>
+    <li>nounEvilAny-&gt;[nounEvilUncountable]</li>
+    <li>nounEvilUncountable-&gt;ﻢﺤﻠﻟﺍ ﺔﻠﺘﻛ</li>
+    <li>nounEvilUncountable-&gt;ﺖﻳﺍﺮﻴﻓﻮﻴﺑ</li>
+    <li>nounEvilUncountable-&gt;ﺔﺘﻴﻤﻟﺍ ﺓﺎﻴﺤﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﻲﻛﺭﺁ</li>
+    <li>nounEvilUncountable-&gt;ﻚﺗﻭﺮﻛﺎﻧ</li>
+    <li>nounEvilUncountable-&gt;ﺲﻛﺍﺭﻮﻫ</li>
+    <li>nounEvilUncountable-&gt;ﻡﺪﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺕﻮﻣﻼﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺓﻮﻘﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺕﺎﺴﻤﻬﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺔﻓﺮﻌﻤﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺐﻋﺮﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺕﺎﻳﺮﻄﻔﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺔﻧﻮﻔﻌﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺱﻮﻘﻄﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﻞﺘﻘﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﻡﻼﻈﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﻥﻮﻨﺠﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﻰﺿﻮﻔﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺱﺄﻴﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺓﺎﻧﺎﻌﻤﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺲﻴﺑﺍﻮﻜﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺩﺎﺴﻔﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﻙﻼﻬﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺐﻋﺮﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺮﺸﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﻝﻼﻈﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﻍﺍﺮﻔﻟﺍ</li>
+    <li>nounEvilUncountable-&gt;ﺐﻫﺬﻟﺍ</li>
+    <li>nounEvilCountable-&gt;ﻝﻮﻏ</li>
+    <li>nounEvilCountable-&gt;ﻡﺪﻟﺍ ﻞﺋﺎﻫ</li>
+    <li>nounEvilCountable-&gt;ﻝﻮﺘﻛﻮﻧ</li>
+    <li>nounEvilCountable-&gt;ﺢﻧﺮﺘﻣ</li>
+    <li>nounEvilCountable-&gt;ﻲﻤﺤﻟ ﺶﺣﻭ</li>
+    <li>nounEvilCountable-&gt;ﻢﻟﻷﺍ ﺓﺮﻛ</li>
+    <li>nounEvilCountable-&gt;ﺔﺜﺟ</li>
+    <li>nounEvilCountable-&gt;ﺐﻌﻜﻣ</li>
+    <li>nounEvilCountable-&gt;ﺪﺋﺎﻋ</li>
+    <li>nounEvilCountable-&gt;ﻲﻧﺪﻌﻣ ﺐﻋﺭ</li>
+    <li>nounEvilCountable-&gt;ﻒﻃﺎﺧ</li>
+    <li>nounEvilCountable-&gt;ﻒﻋﺎﻀﻣ</li>
+    <li>nounEvilCountable-&gt;ﺮﻔﻄﻣ</li>
+    <li>nounEvilCountable-&gt;ﺮﻳﺬﻧ</li>
+    <li>nounEvilCountable-&gt;ﺮﺼﺒﻟﺍ ﻕﺭﺎﺳ</li>
+    <li>nounEvilCountable-&gt;ﺍﺮﻴﻤﻴﻛ</li>
+    <li>nounEvilCountable-&gt;ﺱﺮﺘﻔﻣ</li>
+    <li>nounEvilCountable-&gt;ﺔﻴﻈﺷ</li>
+    <li>nounEvilCountable-&gt;ﺔﺗﻮﺤﻨﻣ</li>
+    <li>nounEvilCountable-&gt;ﻞﺼﻣ</li>
+    <li>nounEvilCountable-&gt;ﺔﻔﺋﺎﻃ</li>
+    <li>nounEvilCountable-&gt;ﻲﻔﺋﺎﻃ</li>
+    <li>nounEvilCountable-&gt;ﺰﻋﺎﻣ</li>
+    <li>nounEvilCountable-&gt;ﻞﻇ</li>
+    <li>nounEvilCountable-&gt;ﺺﺑﺮﺘﻣ</li>
+    <li>nounEvilCountable-&gt;ﺱﻮﻘﻃ</li>
+    <li>nounEvilCountable-&gt;ﺔﻨﻌﻟ</li>
+    <li>nounEvilCountable-&gt;ﻰﻌﻓﺃ</li>
+    <li>nounEvilCountable-&gt;ﻢﻬﺘﻠﻣ</li>
+    <li>placeEvil-&gt;ﻂﻴﺤﻤﻟﺍ</li>
+    <li>placeEvil-&gt;ﻍﺍﺮﻔﻟﺍ</li>
+    <li>placeEvil-&gt;ﺔﻳﻭﺎﻬﻟﺍ</li>
+    <li>placeEvil-&gt;ﻕﺎﻤﻋﻷﺍ</li>
+    <li>placeEvil-&gt;ﻝﻼﻈﻟﺍ</li>
+    <li>placeEvil-&gt;ﺭﻮﺒﻘﻟﺍ</li>
+    <li>placeEvil-&gt;ﻡﻼﻈﻟﺍ</li>
+    <li>placeEvil-&gt;ﻞﺒﺠﻟﺍ</li>
+    <li>placeEvil-&gt;ﺓﺮﺠﺤﻟﺍ</li>
+    <li>placeEvil-&gt;ﻰﺗﻮﻤﻟﺍ ﺐﻳﺩﺍﺮﺳ</li>
+    <li>placeEvil-&gt;ﺱﺪﻘﻤﻟﺍ</li>
+    <li>placeEvil-&gt;ﻥﺎﺘﺴﺒﻟﺍ</li>
+    <li>placeEvil-&gt;ﺽﺭﻷﺍ</li>
+    <li>placeEvil-&gt;ﻡﻮﺠﻨﻟﺍ</li>
+    <li>placeEvil-&gt;ﻂﻴﺤﻤﻟﺍ</li>
+    <li>placeEvil-&gt;ﻕﺎﻤﻋﻷﺍ</li>
+    <li>placeEvil-&gt;ﻲﻠﻔﺴﻟﺍ ﻢﻟﺎﻌﻟﺍ</li>
+    <li>placeEvil-&gt;ﻑﻮﻬﻜﻟﺍ</li>
+    <li>firstHalfEvil-&gt;vibro</li>
+    <li>firstHalfEvil-&gt;kelno</li>
+    <li>firstHalfEvil-&gt;nekro</li>
+    <li>firstHalfEvil-&gt;chrono</li>
+    <li>firstHalfEvil-&gt;drago</li>
+    <li>firstHalfEvil-&gt;krimi</li>
+    <li>firstHalfEvil-&gt;vadi</li>
+    <li>firstHalfEvil-&gt;horror</li>
+    <li>firstHalfEvil-&gt;nocio</li>
+    <li>firstHalfEvil-&gt;xeno</li>
+    <li>firstHalfEvil-&gt;psycho</li>
+    <li>firstHalfEvil-&gt;voro</li>
+    <li>firstHalfEvil-&gt;tyrano</li>
+    <li>firstHalfEvil-&gt;inverno</li>
+    <li>firstHalfEvil-&gt;phobo</li>
+    <li>firstHalfEvil-&gt;leva</li>
+    <li>suffixEvil-&gt;nomicon</li>
+    <li>suffixEvil-&gt;doron</li>
+    <li>suffixEvil-&gt;nax</li>
+    <li>suffixEvil-&gt;novicon</li>
+    <li>suffixEvil-&gt;vokon</li>
+    <li>suffixEvil-&gt;mancy</li>
+    <li>suffixEvil-&gt;gorgon</li>
+    <li>suffixEvil-&gt;morth</li>
+    <li>suffixEvil-&gt;cypher</li>
+    <li>suffixEvil-&gt;vex</li>
+    <li>suffixEvil-&gt;vortex</li>
+    <li>suffixEvil-&gt;nox</li>
+    <li>suffixEvil-&gt;cybex</li>
+    <li>suffixEvil-&gt;voron</li>
+    <li>suffixEvil-&gt;karnix</li>
+    <li>suffixEvil-&gt;nemex</li>
+    <li>suffixEvil-&gt;vexor</li>
+    <li>suffixEvil-&gt;tronix</li>
+    <li>suffixEvil-&gt;cryptex</li>
+    <li>suffixEvil-&gt;chaonix</li>
+    <li>suffixEvil-&gt;nix</li>
+    <li>suffixEvil-&gt;vix</li>
+ </Namer_Tome.rulePack.rulesStrings>
+  
+</LanguageData>

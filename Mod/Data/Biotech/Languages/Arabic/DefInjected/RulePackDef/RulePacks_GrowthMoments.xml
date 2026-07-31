@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_root->[firstSentence] [secondSentence]</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] has demonstrated excellent [nounGrowth] and has [adjGood] [nounAttitudeGood] for [nounFuture].</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] has developed a number of new passions by [situationLearning].</li>
+    <li>firstSentence(tierSection==4)->By [situationLearning], [PAWN_pronoun] has gained a number of new passions.</li>
+    <li>firstSentence(tierSection==4)->In the last year, [PAWN_pronoun] has shown excellent [nounGrowth].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] wants to spend more time [situationLearning] and [situationFun].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] enjoys [situationLearning] but most of all [PAWN_pronoun] loves [situationFun].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] enjoys [situationLearning] and dreams of [situationAspirational].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] hopes that by [situationLearning], [PAWN_pronoun] can end up [situationAspirational].</li>
+    <li>firstSentence(tierSection==3)->Recently, [PAWN_pronoun] has shown [adjGood] [nounAttitudeGood] for [nounFuture].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] is feeling [nounAttitudeGood] for [nounFuture].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] has become interested in a number of new activities including [situationLearning].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] has demonstrated excellent [nounGrowth].</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] is thankful that [PAWN_pronoun] rarely feels [feelingBad] and is interested in spending more time [situationFun].</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] likes [situationLearning] but [PAWN_pronoun] is happiest while [situationFun].</li>
+    <li>secondSentence(tierSection==3)->When [PAWN_nameDef] is older, [PAWN_pronoun] wants to spend [PAWN_possessive] time [taskWork].</li>
+    <li>secondSentence(tierSection==3)->Most of all, [PAWN_nameDef] loves [situationFun].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] has shown some [nounGrowth] and wants to keep [situationLearning].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] has some [nounAttitudeGood] for learning more.</li>
+    <li>firstSentence(tierSection==2)->Excited about [nounFuture], [PAWN_pronoun] would like to spend time [situationLearning].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] has developed a new passion by [situationLearning].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] enjoys [situationFun].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] hopes to spend more time [situationFun].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] thinks [taskWork] is boring.</li>
+    <li>secondSentence(tierSection==2)->Specifically, [PAWN_nameDef] would like to focus on [situationLearning].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] has shown little [nounGrowth] and has low expectations for [nounFuture].</li>
+    <li>firstSentence(tierSection==1)->While optimistic about [nounFuture], [PAWN_pronoun] has shown little [nounGrowth].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] hopes that things will improve in [nounFuture].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] has shown minimal [nounGrowth], complaining that [situationLearning] is boring.</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] wishes to spend more time [situationFun] but is too busy worrying about [situationBad].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] often feels [feelingBad] while [situationFun].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] has a strange fear that by [situationFun] [PAWN_pronoun] will end up [situationBad].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] has regular nightmares about [situationBad].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] often wants to be [situationLearning] but [PAWN_pronoun] rarely has the chance to do it.</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] has shown no [nounGrowth].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] has failed to develop any new passions and has little [nounAttitudeGood] for [nounFuture].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] has shown little interest in learning and especially dislikes [situationLearning].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] is only interested in [situationFun].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] is constantly held back by a fear of [situationBad].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] lives in fear of being badly injured as a result of [situationBad].</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] has a recurring nightmare in which [PAWN_pronoun] is [situationFun] which results in [situationBad].</li>
+    <li>adjGood->great</li>
+    <li>adjGood->insatiable</li>
+    <li>adjGood->intense</li>
+    <li>adjGood->lively</li>
+    <li>adjGood->genuine</li>
+    <li>adjGood->boundless</li>
+    <li>adjGood->immense</li>
+    <li>adjGood->laudable</li>
+    <li>adjGood->endless</li>
+    <li>adjGood->pure</li>
+    <li>adjGood->impressive</li>
+    <li>feelingBad->alone</li>
+    <li>feelingBad->afraid</li>
+    <li>feelingBad->hurt</li>
+    <li>feelingBad->violently ill</li>
+    <li>feelingBad->sick</li>
+    <li>nounAttitudeGood->enthusiasm</li>
+    <li>nounAttitudeGood->excitement</li>
+    <li>nounAttitudeGood->optimism</li>
+    <li>nounFuture->the next few weeks</li>
+    <li>nounFuture->the coming months</li>
+    <li>nounFuture->the next year</li>
+    <li>nounFuture->the future</li>
+    <li>nounGrowth->personal growth</li>
+    <li>nounGrowth->personal development</li>
+    <li>situationFun->exploring the wilderness with [friendNamePlural]</li>
+    <li>situationFun->playing [Game]</li>
+    <li>situationFun->playing [Game] with friends</li>
+    <li>situationFun->playing with a [friendNameSingular]</li>
+    <li>situationFun->chatting with a [friendNameSingular]</li>
+    <li>situationFun->gossiping about [friendNamePlural]</li>
+    <li>situationFun->making friends</li>
+    <li>situationFun->being outside in the sun</li>
+    <li>situationFun->watching the night sky for meteorites</li>
+    <li>situationFun->talking on the radio about [topicLearning]</li>
+    <li>situationFun->chatting on the radio with outsiders</li>
+    <li>situationFun->drawing pictures of [friendNamePlural] on the floor</li>
+    <li>situationFun->daydreaming about [topicLearning]</li>
+    <li>situationFun->nature running</li>
+    <li>situationFun->having adventures with [friendNamePlural]</li>
+    <li>situationFun->finding hidden treasure</li>
+    <li>situationFun->drawing pictures of [enemyNamePlural]</li>
+    <li>situationFun->drawing pictures of a [friendNameSingular]</li>
+    <li>situationFun->writing a story about a [friendNameSingular] who hunts [enemyNamePlural]</li>
+    <li>situationFun->pretending to fight [enemyNamePlural]</li>
+    <li>situationFun->telling stories about [enemyNamePlural]</li>
+    <li>situationLearning->watching others [taskWork]</li>
+    <li>situationLearning->learning about [taskWork]</li>
+    <li>situationLearning->learning about [topicLearning]</li>
+    <li>situationLearning->studying [topicLearning]</li>
+    <li>situationLearning->reading about [topicLearning]</li>
+    <li>situationLearning->doing meaningful work</li>
+    <li>situationAspirational->making a difference in the world</li>
+    <li>situationAspirational->becoming very wealthy</li>
+    <li>situationAspirational->saving the world</li>
+    <li>situationAspirational->helping others</li>
+    <li>situationAspirational->becoming very famous</li>
+    <li>situationAspirational->leaving this planet</li>
+    <li>situationBad->getting attacked by [enemyNamePlural]</li>
+    <li>situationBad->getting kidnapped by [enemyNamePlural]</li>
+    <li>situationBad->getting hunted by a [enemyNameSingular]</li>
+    <li>situationBad->being chased by a [enemyNameSingular]</li>
+    <li>situationBad->inhaling tox gas</li>
+    <li>situationBad->catching lung rot</li>
+    <li>situationBad->catching the plague</li>
+    <li>situationBad->getting food poisoning</li>
+    <li>situationBad->seeing loved ones die</li>
+    <li>situationBad->eating without a table</li>
+    <li>topicLearning->the universe</li>
+    <li>topicLearning->science</li>
+    <li>topicLearning->different cultures</li>
+    <li>topicLearning->archotechs</li>
+    <li>topicLearning->planetary economics</li>
+    <li>topicLearning->psychology</li>
+    <li>topicLearning->insect biology</li>
+    <li>topicLearning->mechanoid gestation</li>
+    <li>topicLearning->gene editing</li>
+    <li>topicLearning->rocket science</li>
+    <li>topicLearning->ore mining</li>
+    <li>taskWork->cooking meals</li>
+    <li>taskWork->training animals</li>
+    <li>taskWork->caring for sick people</li>
+    <li>taskWork->helping [friendNamePlural]</li>
+    <li>taskWork->hunting muffalo</li>
+    <li>taskWork->growing food</li>
+    <li>taskWork->tailoring clothes</li>
+    <li>friendNamePlural->friends</li>
+    <li>friendNamePlural->loved ones</li>
+    <li>friendNamePlural->[friendAdj] animals</li>
+    <li>friendNamePlural->[friendAdj] mechanoids</li>
+    <li>friendNamePlural->[friendAdj] kids</li>
+    <li>friendNamePlural->imaginary friends</li>
+    <li>friendNameSingular->friend</li>
+    <li>friendNameSingular->dog</li>
+    <li>friendNameSingular->[friendAdj] cat</li>
+    <li>friendNameSingular->kid</li>
+    <li>friendNameSingular->[friendAdj] kid</li>
+    <li>friendNameSingular->family member</li>
+    <li>friendAdj->kind</li>
+    <li>friendAdj->helpful</li>
+    <li>friendAdj->friendly</li>
+    <li>friendAdj->mischievous</li>
+    <li>friendAdj->funny</li>
+    <li>enemyNamePlural->raiders</li>
+    <li>enemyNamePlural->[AdjectiveBadass] raiders</li>
+    <li>enemyNamePlural->mysterious strangers</li>
+    <li>enemyNamePlural->[AdjectiveBadass] insects</li>
+    <li>enemyNamePlural->manhunting boomalopes</li>
+    <li>enemyNamePlural->secretive blood drinkers</li>
+    <li>enemyNamePlural->machine gods</li>
+    <li>enemyNamePlural->feral mechanoids</li>
+    <li>enemyNamePlural->psychic beings with terrible powers</li>
+    <li>enemyNameSingular->[AdjectiveBadass] [Enemy]</li>
+    <li>enemyNameSingular->[AdjectiveBadass] [AnimalBadass]</li>
+    <li>enemyNameSingular->[AnimalBadass]</li>
+    <li>enemyNameSingular->[Mechanoid]</li>
+    <li>enemyNameSingular->[AdjectiveBadass] waster</li>
+    <li>enemyNameSingular->stranger</li>
+    <li>enemyNameSingular->sanguophage</li>
+    <li>enemyNameSingular->woman with no eyes</li>
+    <li>enemyNameSingular->man with a hook for a hand</li>
+  -->
+  <GrowthMomentFlavor.rulePack.rulesStrings>
+    <li>r_root-&gt;[firstSentence] [secondSentence]</li>
+    <li>firstSentence(tierSection==4)-&gt;[adjGood] [nounAttitudeGood] ﻪﻳﺪﻟﻭ ًﺍﺯﺎﺘﻤﻣ [nounGrowth] ﺮﻬﻇﺃ [PAWN_pronoun]\n.[nounFuture] ﻩﺎﺠﺗ</li>
+    <li>firstSentence(tierSection==4)-&gt;ﺓﺪﻳﺪﺠﻟﺍ ﺮﻋﺎﺸﻤﻟﺍ ﻦﻣ ًﺍﺩﺪﻋ ﺭﻮﻃ [PAWN_pronoun]\n.[situationLearning] ﻝﻼﺧ ﻦﻣ</li>
+    <li>firstSentence(tierSection==4)-&gt;ﻦﻣ ًﺍﺩﺪﻋ [PAWN_pronoun] ﺐﺴﺘﻛﺍ ،[situationLearning] ﻝﻼﺧ ﻦﻣ\n.ﺓﺪﻳﺪﺠﻟﺍ ﺮﻋﺎﺸﻤﻟﺍ</li>
+    <li>firstSentence(tierSection==4)-&gt;[PAWN_pronoun] [nounGrowth] ﺮﻬﻇﺃ ،ﻲﺿﺎﻤﻟﺍ ﻡﺎﻌﻟﺍ ﻲﻓ\n.ًﺍﺯﺎﺘﻤﻣ</li>
+    <li>secondSentence(tierSection==4)-&gt;[situationLearning] ﺖﻗﻮﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺀﺎﻀﻗ ﺪﻳﺮﻳ [PAWN_nameDef]\n.[situationFun] ﻭ</li>
+    <li>secondSentence(tierSection==4)-&gt;ﺎﻣ ﺮﺜﻛﺃ ﻦﻜﻟﻭ [situationLearning] ـﺑ ﻊﺘﻤﺘﺴﻳ [PAWN_nameDef]\n.[situationFun] ﻮﻫ [PAWN_pronoun] ﻪﺒﺤﻳ</li>
+    <li>secondSentence(tierSection==4)-&gt;.[situationAspirational] ـﺑ ﻢﻠﺤﻳﻭ [situationLearning] ـﺑ ﻊﺘﻤﺘﺴﻳ [PAWN_nameDef]</li>
+    <li>secondSentence(tierSection==4)-&gt;ﻥﺃ ﻦﻜﻤﻳ ،[situationLearning] ﻝﻼﺧ ﻦﻣ ﻪﻧﺃ ﻞﻣﺄﻳ [PAWN_nameDef]\n.[situationAspirational] ﺮﻣﻷﺍ ﻪﺑ ﻲﻬﺘﻨﻳ</li>
+    <li>firstSentence(tierSection==3)-&gt;.[nounFuture] ﻩﺎﺠﺗ [PAWN_pronoun] [adjGood] [nounAttitudeGood] ﺮﻬﻇﺃ ،ًﺍﺮﺧﺆﻣ</li>
+    <li>firstSentence(tierSection==3)-&gt;.[nounFuture] ﻩﺎﺠﺗ [nounAttitudeGood] ـﺑ ﺮﻌﺸﻳ [PAWN_pronoun]</li>
+    <li>firstSentence(tierSection==3)-&gt;ﺔﻄﺸﻧﻷﺍ ﻦﻣ ﺩﺪﻌﺑ ًﺎﻤﺘﻬﻣ ﺢﺒﺻﺃ [PAWN_pronoun]\n.[situationLearning] ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ﺓﺪﻳﺪﺠﻟﺍ</li>
+    <li>firstSentence(tierSection==3)-&gt;.ًﺍﺯﺎﺘﻤﻣ [nounGrowth] ﺮﻬﻇﺃ [PAWN_pronoun]</li>
+    <li>secondSentence(tierSection==3)-&gt;ـﺑ ﺮﻌﺸﻳ ﺎﻣ ًﺍﺭﺩﺎﻧ [PAWN_pronoun] ﻥﻷ ﻦﺘﻤﻣ [PAWN_nameDef]\nﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺀﺎﻀﻘﺑ ﻢﺘﻬﻣ ﻮﻫﻭ [feelingBad]\n.[situationFun] ﺖﻗﻮﻟﺍ</li>
+    <li>secondSentence(tierSection==3)-&gt;ﺎﻣﺪﻨﻋ ﺪﻌﺳﺃ ﻥﻮﻜﻳ [PAWN_pronoun] ﻦﻜﻟ [situationLearning] ﺐﺤﻳ [PAWN_nameDef]\n.[situationFun] ﻥﻮﻜﻳ</li>
+    <li>secondSentence(tierSection==3)-&gt;[PAWN_possessive] ﻪﺘﻗﻭ ﺀﺎﻀﻗ ﺪﻳﺮﻳ ،[PAWN_nameDef] ﺮﺒﻜﻳ ﺎﻣﺪﻨﻋ\n.[taskWork] ﻲﻓ</li>
+    <li>secondSentence(tierSection==3)-&gt;.[PAWN_nameDef] [situationFun] ﺐﺤﻳ ،ﺀﻲﺷ ﻱﺃ ﻦﻣ ﺮﺜﻛﺃ</li>
+    <li>firstSentence(tierSection==2)-&gt;ﻲﻓ ﺭﺍﺮﻤﺘﺳﻻﺍ ﺪﻳﺮﻳﻭ [nounGrowth] ﺾﻌﺑ ﺮﻬﻇﺃ [PAWN_pronoun]\n.[situationLearning]</li>
+    <li>firstSentence(tierSection==2)-&gt;.ﺪﻳﺰﻤﻟﺍ ﻢﻠﻌﺘﻟ [nounAttitudeGood] ﺾﻌﺑ ﻪﻳﺪﻟ [PAWN_pronoun]</li>
+    <li>firstSentence(tierSection==2)-&gt;ﺖﻗﻮﻟﺍ ﺀﺎﻀﻗ [PAWN_pronoun] ﺩﻮﻳ ،[nounFuture] ﻥﺄﺸﺑ ﺲﻤﺤﺘﻣ\n.[situationLearning]</li>
+    <li>firstSentence(tierSection==2)-&gt;.[situationLearning] ﻝﻼﺧ ﻦﻣ ًﺍﺪﻳﺪﺟ ًﺎﻔﻐﺷ ﺭﻮﻃ [PAWN_pronoun]</li>
+    <li>secondSentence(tierSection==2)-&gt;.[situationFun] ـﺑ ﻊﺘﻤﺘﺴﻳ [PAWN_nameDef]</li>
+    <li>secondSentence(tierSection==2)-&gt;.[situationFun] ﺖﻗﻮﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺀﺎﻀﻗ ﻞﻣﺄﻳ [PAWN_nameDef]</li>
+    <li>secondSentence(tierSection==2)-&gt;.ﻞﻤﻣ [taskWork] ﻥﺃ ﺪﻘﺘﻌﻳ [PAWN_nameDef]</li>
+    <li>secondSentence(tierSection==2)-&gt;.[situationLearning] ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ [PAWN_nameDef] ﺩﻮﻳ ،ًﺍﺪﻳﺪﺤﺗ</li>
+    <li>firstSentence(tierSection==1)-&gt;ﻪﻳﺪﻟﻭ [nounGrowth] ﻦﻣ ﻞﻴﻠﻘﻟﺍ ﺮﻬﻇﺃ [PAWN_pronoun]\n.[nounFuture] ـﻟ ﺔﻀﻔﺨﻨﻣ ﺕﺎﻌﻗﻮﺗ</li>
+    <li>firstSentence(tierSection==1)-&gt;[PAWN_pronoun] ﺮﻬﻇﺃ ،[nounFuture] ﻥﺄﺸﺑ ﻞﺋﺎﻔﺘﻣ ﻮﻫ ﺎﻤﻨﻴﺑ\n.[nounGrowth] ﻦﻣ ﻞﻴﻠﻘﻟﺍ</li>
+    <li>firstSentence(tierSection==1)-&gt;.[nounFuture] ﻲﻓ ﺭﻮﻣﻷﺍ ﻦﺴﺤﺘﺗ ﻥﺃ ﻞﻣﺄﻳ [PAWN_pronoun]</li>
+    <li>firstSentence(tierSection==1)-&gt;ًﺎﻴﻛﺎﺷ ،[nounGrowth] ﻦﻣ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ ﺮﻬﻇﺃ [PAWN_pronoun]\n.ﻞﻤﻣ [situationLearning] ﻥﺃ ﻦﻣ</li>
+    <li>secondSentence(tierSection==1)-&gt;[situationFun] ﺖﻗﻮﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺀﺎﻀﻗ ﻰﻨﻤﺘﻳ [PAWN_nameDef]\n.[situationBad] ﻥﺄﺸﺑ ﻖﻠﻘﻟﺎﺑ ًﺍﺪﺟ ﻝﻮﻐﺸﻣ ﻪﻨﻜﻟ</li>
+    <li>secondSentence(tierSection==1)-&gt;.[situationFun] ﺀﺎﻨﺛﺃ [feelingBad] ـﺑ ﺮﻌﺸﻳ ﺎﻣ ًﺎﺒﻟﺎﻏ [PAWN_nameDef]</li>
+    <li>secondSentence(tierSection==1)-&gt;ﻝﻼﺧ ﻦﻣ ﻪﻧﺃ ﻦﻣ ﺐﻳﺮﻏ ﻑﻮﺧ ﻪﻳﺪﻟ [PAWN_nameDef]\n.[situationBad] ﺮﻣﻷﺍ ﻪﺑ ﻲﻬﺘﻨﻴﺳ [situationFun]</li>
+    <li>secondSentence(tierSection==1)-&gt;.[situationBad] ﻦﻋ ﺔﻤﻈﺘﻨﻣ ﺲﻴﺑﺍﻮﻛ ﻪﻳﺪﻟ [PAWN_nameDef]</li>
+    <li>firstSentence(tierSection==0)-&gt;ﻦﻜﻟ [situationLearning] ﻥﻮﻜﻳ ﻥﺃ ﺪﻳﺮﻳ ﺎﻣ ًﺎﺒﻟﺎﻏ [PAWN_pronoun]\nﺔﺻﺮﻔﻟﺍ ﻪﻟ ﺡﺎﺘﺗ ﺎﻣ ًﺍﺭﺩﺎﻧ\n.ﻚﻟﺬﺑ ﻡﺎﻴﻘﻠﻟ</li>
+    <li>firstSentence(tierSection==0)-&gt;.[nounGrowth] ﻱﺃ ﺮﻬﻈﻳ ﻢﻟ [PAWN_pronoun]</li>
+    <li>firstSentence(tierSection==0)-&gt;ﺪﻳﺪﺟ ﻒﻐﺷ ﻱﺃ ﺮﻳﻮﻄﺗ ﻲﻓ ﻞﺸﻓ [PAWN_pronoun]\n.[nounFuture] ﻩﺎﺠﺗ [nounAttitudeGood] ﻦﻣ ﻞﻴﻠﻘﻟﺍ ﻪﻳﺪﻟﻭ</li>
+    <li>firstSentence(tierSection==0)-&gt;ﻡﺎﻤﺘﻫﻻﺍ ﻦﻣ ﻞﻴﻠﻘﻟﺍ ﺮﻬﻇﺃ [PAWN_pronoun]\n.[situationLearning] ﺹﺎﺧ ﻞﻜﺸﺑ ﻩﺮﻜﻳﻭ ﻢﻠﻌﺘﻟﺎﺑ</li>
+    <li>secondSentence(tierSection==0)-&gt;.[situationFun] ـﺑ ﻂﻘﻓ ﻢﺘﻬﻣ [PAWN_nameDef]</li>
+    <li>secondSentence(tierSection==0)-&gt;.[situationBad] ﻦﻣ ﻑﻮﺧ ﺭﺍﺮﻤﺘﺳﺎﺑ ﻪﻘﻴﻌﻳ [PAWN_nameDef]</li>
+    <li>secondSentence(tierSection==0)-&gt;ﺔﺑﺎﺻﻹ ﺽﺮﻌﺘﻟﺍ ﻦﻣ ﻑﻮﺧ ﻲﻓ ﺶﻴﻌﻳ [PAWN_nameDef]\n.[situationBad] ـﻟ ﺔﺠﻴﺘﻧ ﺔﻐﻟﺎﺑ</li>
+    <li>secondSentence(tierSection==0)-&gt;[PAWN_pronoun] ﻥﻮﻜﻳ ﺚﻴﺣ ﺭﺮﻜﺘﻣ ﺱﻮﺑﺎﻛ ﻪﻳﺪﻟ [PAWN_nameDef]\n.[situationBad] ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ [situationFun]</li>
+    <li>adjGood-&gt;ﻢﻴﻈﻋ</li>
+    <li>adjGood-&gt;ﻊﺒﺸﻳ ﻻ</li>
+    <li>adjGood-&gt;ﺪﻳﺪﺷ</li>
+    <li>adjGood-&gt;ﻱﻮﻴﺣ</li>
+    <li>adjGood-&gt;ﻲﻘﻴﻘﺣ</li>
+    <li>adjGood-&gt;ﻪﻟ ﺩﻭﺪﺣ ﻻ</li>
+    <li>adjGood-&gt;ﻞﺋﺎﻫ</li>
+    <li>adjGood-&gt;ﺀﺎﻨﺜﻟﺎﺑ ﺮﻳﺪﺟ</li>
+    <li>adjGood-&gt;ﻪﻟ ﺔﻳﺎﻬﻧ ﻻ</li>
+    <li>adjGood-&gt;ﻲﻘﻧ</li>
+    <li>adjGood-&gt;ﺏﺎﺠﻋﻺﻟ ﺮﻴﺜﻣ</li>
+    <li>feelingBad-&gt;ﺪﻴﺣﻭ</li>
+    <li>feelingBad-&gt;ﻒﺋﺎﺧ</li>
+    <li>feelingBad-&gt;ﺡﻭﺮﺠﻣ</li>
+    <li>feelingBad-&gt;ﺓﺪﺸﺑ ﺾﻳﺮﻣ</li>
+    <li>feelingBad-&gt;ﺾﻳﺮﻣ</li>
+    <li>nounAttitudeGood-&gt;ﺱﺎﻤﺣ</li>
+    <li>nounAttitudeGood-&gt;ﺓﺭﺎﺛﺇ</li>
+    <li>nounAttitudeGood-&gt;ﻝﺅﺎﻔﺗ</li>
+    <li>nounFuture-&gt;ﺔﻣﺩﺎﻘﻟﺍ ﺔﻠﻴﻠﻘﻟﺍ ﻊﻴﺑﺎﺳﻷﺍ</li>
+    <li>nounFuture-&gt;ﺔﻣﺩﺎﻘﻟﺍ ﺮﻬﺷﻷﺍ</li>
+    <li>nounFuture-&gt;ﻡﺩﺎﻘﻟﺍ ﻡﺎﻌﻟﺍ</li>
+    <li>nounFuture-&gt;ﻞﺒﻘﺘﺴﻤﻟﺍ</li>
+    <li>nounGrowth-&gt;ﻲﺼﺨﺷ ﻮﻤﻧ</li>
+    <li>nounGrowth-&gt;ﻲﺼﺨﺷ ﺭﻮﻄﺗ</li>
+    <li>situationFun-&gt;[friendNamePlural] ﻊﻣ ﺔﻳﺮﺒﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ</li>
+    <li>situationFun-&gt;[Game] ﺐﻌﻟ</li>
+    <li>situationFun-&gt;ﺀﺎﻗﺪﺻﻷﺍ ﻊﻣ [Game] ﺐﻌﻟ</li>
+    <li>situationFun-&gt;[friendNameSingular] ﻊﻣ ﺐﻌﻠﻟﺍ</li>
+    <li>situationFun-&gt;[friendNameSingular] ﻊﻣ ﺔﺷﺩﺭﺪﻟﺍ</li>
+    <li>situationFun-&gt;[friendNamePlural] ﻦﻋ ﺔﻤﻴﻤﻨﻟﺍ</li>
+    <li>situationFun-&gt;ﺕﺎﻗﺍﺪﺻ ﻦﻳﻮﻜﺗ</li>
+    <li>situationFun-&gt;ﺲﻤﺸﻟﺍ ﺖﺤﺗ ﺝﺭﺎﺨﻟﺍ ﻲﻓ ﺪﺟﺍﻮﺘﻟﺍ</li>
+    <li>situationFun-&gt;ﻦﻋ ًﺎﺜﺤﺑ ًﻼﻴﻟ ﺀﺎﻤﺴﻟﺍ ﺔﺒﻗﺍﺮﻣ\nﻙﺯﺎﻴﻧ</li>
+    <li>situationFun-&gt;[topicLearning] ﻦﻋ ﻮﻳﺩﺍﺮﻟﺍ ﻰﻠﻋ ﺙﺪﺤﺘﻟﺍ</li>
+    <li>situationFun-&gt;ﺀﺎﺑﺮﻐﻟﺍ ﻊﻣ ﻮﻳﺩﺍﺮﻟﺍ ﻰﻠﻋ ﺔﺷﺩﺭﺪﻟﺍ</li>
+    <li>situationFun-&gt;ﺽﺭﻷﺍ ﻰﻠﻋ [friendNamePlural] ـﻟ ﺭﻮﺻ ﻢﺳﺭ</li>
+    <li>situationFun-&gt;[topicLearning] ﻝﻮﺣ ﺔﻈﻘﻴﻟﺍ ﻡﻼﺣﺃ</li>
+    <li>situationFun-&gt;ﺔﻌﻴﺒﻄﻟﺍ ﻲﻓ ﻱﺮﺠﻟﺍ</li>
+    <li>situationFun-&gt;[friendNamePlural] ﻊﻣ ﺕﺍﺮﻣﺎﻐﻣ ﺽﻮﺧ</li>
+    <li>situationFun-&gt;ﻲﻔﺨﻣ ﺰﻨﻛ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ</li>
+    <li>situationFun-&gt;[enemyNamePlural] ـﻟ ﺭﻮﺻ ﻢﺳﺭ</li>
+    <li>situationFun-&gt;[friendNameSingular] ـﻟ ﺓﺭﻮﺻ ﻢﺳﺭ</li>
+    <li>situationFun-&gt;[enemyNamePlural] ﺩﺎﻄﺼﻳ [friendNameSingular] ﻦﻋ ﺔﺼﻗ ﺔﺑﺎﺘﻛ</li>
+    <li>situationFun-&gt;[enemyNamePlural] ﻝﺎﺘﻘﺑ ﺮﻫﺎﻈﺘﻟﺍ</li>
+    <li>situationFun-&gt;[enemyNamePlural] ﻦﻋ ﺺﺼﻗ ﺔﻳﺍﻭﺭ</li>
+    <li>situationLearning-&gt;[taskWork] ﻦﻳﺮﺧﻵﺍ ﺓﺪﻫﺎﺸﻣ</li>
+    <li>situationLearning-&gt;[taskWork] ﻦﻋ ﻢﻠﻌﺘﻟﺍ</li>
+    <li>situationLearning-&gt;[topicLearning] ﻦﻋ ﻢﻠﻌﺘﻟﺍ</li>
+    <li>situationLearning-&gt;[topicLearning] ﺔﺳﺍﺭﺩ</li>
+    <li>situationLearning-&gt;[topicLearning] ﻦﻋ ﺓﺀﺍﺮﻘﻟﺍ</li>
+    <li>situationLearning-&gt;ﻰﻨﻌﻣ ﻱﺫ ﻞﻤﻌﺑ ﻡﺎﻴﻘﻟﺍ</li>
+    <li>situationAspirational-&gt;ﻢﻟﺎﻌﻟﺍ ﻲﻓ ﻕﺮﻓ ﺙﺍﺪﺣﺇ</li>
+    <li>situationAspirational-&gt;ًﺍﺪﺟ ًﺎﻳﺮﺛ ﺢﺒﺼﻳ ﻥﺃ</li>
+    <li>situationAspirational-&gt;ﻢﻟﺎﻌﻟﺍ ﺫﺎﻘﻧﺇ</li>
+    <li>situationAspirational-&gt;ﻦﻳﺮﺧﻵﺍ ﺓﺪﻋﺎﺴﻣ</li>
+    <li>situationAspirational-&gt;ًﺍﺪﺟ ًﺍﺭﻮﻬﺸﻣ ﺢﺒﺼﻳ ﻥﺃ</li>
+    <li>situationAspirational-&gt;ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﺓﺭﺩﺎﻐﻣ</li>
+    <li>situationBad-&gt;[enemyNamePlural] ﻦﻣ ﻡﻮﺠﻬﻟ ﺽﺮﻌﺘﻟﺍ</li>
+    <li>situationBad-&gt;[enemyNamePlural] ﻞﺒﻗ ﻦﻣ ﻑﺎﻄﺘﺧﻼﻟ ﺽﺮﻌﺘﻟﺍ</li>
+    <li>situationBad-&gt;[enemyNameSingular] ﻩﺩﺎﻄﺼﻳ ﻥﺃ</li>
+    <li>situationBad-&gt;[enemyNameSingular] ﻩﺩﺭﺎﻄﻳ ﻥﺃ</li>
+    <li>situationBad-&gt;ﻡﺎﺴﻟﺍ ﺯﺎﻐﻟﺍ ﻕﺎﺸﻨﺘﺳﺍ</li>
+    <li>situationBad-&gt;ﺔﺋﺮﻟﺍ ﻦﻔﻌﺘﺑ ﺔﺑﺎﺻﻹﺍ</li>
+    <li>situationBad-&gt;ﻥﻮﻋﺎﻄﻟﺎﺑ ﺔﺑﺎﺻﻹﺍ</li>
+    <li>situationBad-&gt;ﻲﺋﺍﺬﻏ ﻢﻤﺴﺘﺑ ﺔﺑﺎﺻﻹﺍ</li>
+    <li>situationBad-&gt;ﻥﻮﺗﻮﻤﻳ ﺔﺒﺣﻷﺍ ﺔﻳﺅﺭ</li>
+    <li>situationBad-&gt;ﺔﻟﻭﺎﻃ ﻥﻭﺪﺑ ﻞﻛﻷﺍ</li>
+    <li>topicLearning-&gt;ﻥﻮﻜﻟﺍ</li>
+    <li>topicLearning-&gt;ﻡﻮﻠﻌﻟﺍ</li>
+    <li>topicLearning-&gt;ﺔﻔﻠﺘﺨﻣ ﺕﺎﻓﺎﻘﺛ</li>
+    <li>topicLearning-&gt;ﻚﻴﺗﻮﻛﺭﻷﺍ</li>
+    <li>topicLearning-&gt;ﻲﺒﻛﻮﻜﻟﺍ ﺩﺎﺼﺘﻗﻻﺍ</li>
+    <li>topicLearning-&gt;ﺲﻔﻨﻟﺍ ﻢﻠﻋ</li>
+    <li>topicLearning-&gt;ﺕﺍﺮﺸﺤﻟﺍ ﺎﻴﺟﻮﻟﻮﻴﺑ</li>
+    <li>topicLearning-&gt;ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻞﻤﺣ</li>
+    <li>topicLearning-&gt;ﺕﺎﻨﻴﺠﻟﺍ ﺮﻳﺮﺤﺗ</li>
+    <li>topicLearning-&gt;ﺦﻳﺭﺍﻮﺼﻟﺍ ﻡﻮﻠﻋ</li>
+    <li>topicLearning-&gt;ﺕﺎﻣﺎﺨﻟﺍ ﻦﻳﺪﻌﺗ</li>
+    <li>taskWork-&gt;ﺕﺎﺒﺟﻮﻟﺍ ﻲﻬﻃ</li>
+    <li>taskWork-&gt;ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺐﻳﺭﺪﺗ</li>
+    <li>taskWork-&gt;ﻰﺿﺮﻤﻟﺍ ﺔﻳﺎﻋﺭ</li>
+    <li>taskWork-&gt;[friendNamePlural] ﺓﺪﻋﺎﺴﻣ</li>
+    <li>taskWork-&gt;ﻮﻟﺎﻓﺍﻮﻤﻟﺍ ﺪﻴﺻ</li>
+    <li>taskWork-&gt;ﻡﺎﻌﻄﻟﺍ ﺔﻋﺍﺭﺯ</li>
+    <li>taskWork-&gt;ﺲﺑﻼﻤﻟﺍ ﺔﻃﺎﻴﺧ</li>
+    <li>friendNamePlural-&gt;ﺀﺎﻗﺪﺻﺃ</li>
+    <li>friendNamePlural-&gt;ﺀﺎﺒﺣﺃ</li>
+    <li>friendNamePlural-&gt;[friendAdj] ﺕﺎﻧﺍﻮﻴﺣ</li>
+    <li>friendNamePlural-&gt;[friendAdj] ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻣ</li>
+    <li>friendNamePlural-&gt;[friendAdj] ﻝﺎﻔﻃﺃ</li>
+    <li>friendNamePlural-&gt;ﻥﻮﻴﻟﺎﻴﺧ ﺀﺎﻗﺪﺻﺃ</li>
+    <li>friendNameSingular-&gt;ﻖﻳﺪﺻ</li>
+    <li>friendNameSingular-&gt;ﺐﻠﻛ</li>
+    <li>friendNameSingular-&gt;[friendAdj] ﺔﻄﻗ</li>
+    <li>friendNameSingular-&gt;ﻞﻔﻃ</li>
+    <li>friendNameSingular-&gt;[friendAdj] ﻞﻔﻃ</li>
+    <li>friendNameSingular-&gt;ﺔﻠﺋﺎﻌﻟﺍ ﻦﻣ ﺩﺮﻓ</li>
+    <li>friendAdj-&gt;ﻒﻴﻄﻟ</li>
+    <li>friendAdj-&gt;ﺪﻴﻔﻣ</li>
+    <li>friendAdj-&gt;ﺩﻭﺩﻭ</li>
+    <li>friendAdj-&gt;ﺫﺆﻣ</li>
+    <li>friendAdj-&gt;ﻚﺤﻀﻣ</li>
+    <li>enemyNamePlural-&gt;ﺓﺍﺰﻏ</li>
+    <li>enemyNamePlural-&gt;[AdjectiveBadass] ﺓﺍﺰﻏ</li>
+    <li>enemyNamePlural-&gt;ﻥﻮﻀﻣﺎﻏ ﺀﺎﺑﺮﻏ</li>
+    <li>enemyNamePlural-&gt;[AdjectiveBadass] ﺕﺍﺮﺸﺣ</li>
+    <li>enemyNamePlural-&gt;ﺮﺸﺒﻟﺍ ﺓﺪﺋﺎﺻ ﺕﺎﺑﻮﻟﺎﻣﻮﺑ</li>
+    <li>enemyNamePlural-&gt;ﻥﻮﻳﺮﺳ ﺀﺎﻣﺩ ﻮﺑﺭﺎﺷ</li>
+    <li>enemyNamePlural-&gt;ﺔﻴﻟﺁ ﺔﻬﻟﺁ</li>
+    <li>enemyNamePlural-&gt;ﺔﺸﺣﻮﺘﻣ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻣ</li>
+    <li>enemyNamePlural-&gt;ﺔﺒﻴﻫﺭ ﻯﻮﻗ ﺕﺍﺫ ﺔﻴﺴﻔﻧ ﺕﺎﻨﺋﺎﻛ</li>
+    <li>enemyNameSingular-&gt;[AdjectiveBadass] [Enemy]</li>
+    <li>enemyNameSingular-&gt;[AdjectiveBadass] [AnimalBadass]</li>
+    <li>enemyNameSingular-&gt;[AnimalBadass]</li>
+    <li>enemyNameSingular-&gt;[Mechanoid]</li>
+    <li>enemyNameSingular-&gt;ﺮﺘﺴﻳﻭ [AdjectiveBadass]</li>
+    <li>enemyNameSingular-&gt;ﺐﻳﺮﻏ</li>
+    <li>enemyNameSingular-&gt;ﺝﺎﻓﻮﻐﻧﺎﺳ</li>
+    <li>enemyNameSingular-&gt;ﻥﻮﻴﻋ ﻼﺑ ﺓﺃﺮﻣﺍ</li>
+    <li>enemyNameSingular-&gt;ﺪﻴﻟﺍ ﻝﺪﺑ ﻑﺎﻄﺨﺑ ﻞﺟﺭ</li>
+ </GrowthMomentFlavor.rulePack.rulesStrings>
+  
+</LanguageData>

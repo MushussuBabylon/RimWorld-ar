@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_root->[textDescSentence] [horrorDescSentence] [maybeSignature]</li>
+    <li>maybeSignature(p=3)-></li>
+    <li>maybeSignature->The author signs [PAWN_possessive] name: [PAWN_nameDef].</li>
+    <li>maybeSignature->It ends with a name: [PAWN_nameDef].</li>
+    <li>maybeSignature->The name [PAWN_nameDef] is scrawled at the bottom.</li>
+    <li>textDescSentence->The floor etchings are rambling and incoherent.</li>
+    <li>textDescSentence->The words are hard to make sense of.</li>
+    <li>textDescSentence->The strange etchings are written backwards.</li>
+    <li>textDescSentence->The writing is wobbly and weak.</li>
+    <li>textDescSentence->The writing becomes more and more bizarre as it goes on.</li>
+    <li>textDescSentence->The text is written in [writingMaterial] and has been partially wiped away.</li>
+    <li>textDescSentence->Cryptic symbols mix with jagged lettering.</li>
+    <li>textDescSentence->The writing is fragmented, as if interrupted multiple times.</li>
+    <li>textDescSentence->The inscriptions fade and reappear as the text goes on.</li>
+    <li>textDescSentence->This text is scrawled in [writingMaterial], forming frantic patterns.</li>
+    <li>horrorDescSentence->Only one phrase can clearly be read: [rambling].</li>
+    <li>horrorDescSentence->One phrase repeats over and over: [rambling].</li>
+    <li>horrorDescSentence->Every sentence ends with the same phrase: [rambling].</li>
+    <li>horrorDescSentence->Words run in a circle, endlessly repeating the same phrase: [rambling].</li>
+    <li>horrorDescSentence->The author seems convinced that a metal parasite lives under [PAWN_possessive] skin. [PAWN_pronoun] describes intense pain as it shifts and squirms.</li>
+    <li>horrorDescSentence->The author accuses her friend of injecting her with a metal parasite. [PAWN_pronoun] describes the horrible feeling of it growing inside [PAWN_objective].</li>
+    <li>horrorDescSentence->The author begs for freedom from [PAWN_possessive] tormentor: [horrorDesc].</li>
+    <li>horrorDescSentence->The same lines repeat over and over, describing [horrorDesc].</li>
+    <li>horrorDescSentence->An odd poem describes [horrorDesc].</li>
+    <li>horrorDescSentence->The words struggle to describe [horrorDesc].</li>
+    <li>horrorDescSentence->The shaky writing describes the author's reaction to a vision of [horrorDesc].</li>
+    <li>horrorDescSentence->Drawings accompany the text, depicting [horrorDesc].</li>
+    <li>horrorDescSentence->Frantic sketches illustrate [horrorDesc], with notes annotating its features.</li>
+    <li>horrorDescSentence->A chilling chant describes [horrorDesc].</li>
+    <li>horrorDescSentence->Visceral illustrations intersperse the text, all hinting at [horrorDesc].</li>
+    <li>horrorDescSentence->Whispered tales in the margins tell of [horrorDesc].</li>
+    <li>horrorDescSentence->The writer's frantic tone builds to a climax focused on [horrorDesc].</li>
+    <li>horrorDescSentence->Patterns form within the etchings, each culminating in a depiction of [horrorDesc].</li>
+    <li>horrorDescSentence->The words are intertwined with vivid images of [horrorDesc].</li>
+    <li>horrorDescSentence->A haunting lullaby is written alongside descriptions of [horrorDesc].</li>
+    <li>horrorDescSentence->Desperate pleas for mercy are juxtaposed with tales of [horrorDesc].</li>
+    <li>horrorDesc->an invisible creature that consumes the minds of the unbelievers</li>
+    <li>horrorDesc->an impossible void-black sphere that pulses with pure suffering</li>
+    <li>horrorDesc->a creature with bones for limbs, made of twisted meat and flesh</li>
+    <li>horrorDesc->a being made entirely of shadow, eyes gleaming like stars</li>
+    <li>horrorDesc->a man made of razor-sharp, blood-soaked knives</li>
+    <li>horrorDesc->a mass of spinning blades emerging from an abyss</li>
+    <li>horrorDesc->a silent child with a mouth stretching across its entire face</li>
+    <li>horrorDesc->a grand twisted tower made of spikes and blades</li>
+    <li>horrorDesc->a bizarre animal-like creature with features from several different species</li>
+    <li>horrorDesc->a misshapen human figure with its body parts rearranged</li>
+    <li>horrorDesc->a vast crowd of humans, all dead and rotten</li>
+    <li>horrorDesc->human figures in terrifying masks of spikes</li>
+    <li>rambling->let me out</li>
+    <li>rambling->help me</li>
+    <li>rambling->save me</li>
+    <li>rambling->it watches</li>
+    <li>rambling->it won't let go</li>
+    <li>rambling->let go</li>
+    <li>rambling->I hear its voice</li>
+    <li>rambling->time is a lie</li>
+    <li>rambling->take the pain away</li>
+    <li>rambling->black ocean</li>
+    <li>rambling->cutting and cutting</li>
+    <li>rambling->whispers in the void</li>
+    <li>rambling->it's always behind me</li>
+    <li>rambling->so many eyes</li>
+    <li>rambling->inside my head</li>
+    <li>rambling->drowning in silence</li>
+    <li>rambling->it knows my name</li>
+    <li>rambling->shadows move</li>
+    <li>rambling->no way out</li>
+    <li>rambling->the darkness speaks</li>
+    <li>rambling->they are watching</li>
+    <li>writingMaterial->chalk</li>
+    <li>writingMaterial->soot</li>
+    <li>writingMaterial->smeared fluid</li>
+    <li>writingMaterial->burned ash</li>
+    <li>writingMaterial->dark ink</li>
+  -->
+  <LabyrinthRamblings.rulePack.rulesStrings>
+    <li>r_root-&gt;[textDescSentence] [horrorDescSentence] [maybeSignature]</li>
+    <li>maybeSignature(p=3)-&gt;</li>
+    <li>maybeSignature-&gt;.[PAWN_possessive]: [PAWN_nameDef]ﻢﺳﺍ ﻒﻟﺆﻤﻟﺍ ﻊﻗﻮﻳ</li>
+    <li>maybeSignature-&gt;.[PAWN_nameDef] :ﻢﺳﺎﺑ ﻲﻬﺘﻨﻳ</li>
+    <li>maybeSignature-&gt;.ﻞﻔﺳﻷﺍ ﻲﻓ ﺶﺑﺮﺨﻣ [PAWN_nameDef] ﻢﺳﺍ</li>
+    <li>textDescSentence-&gt;ﺮﻴﻏﻭ ﺔﻳﺫﺎﻫ ﺔﻴﺿﺭﻷﺍ ﺵﻮﻘﻧ\n.ﺔﻄﺑﺍﺮﺘﻣ</li>
+    <li>textDescSentence-&gt;.ﺕﺎﻤﻠﻜﻟﺍ ﻢﻬﻓ ﺐﻌﺼﻳ</li>
+    <li>textDescSentence-&gt;ﺔﺑﻮﺘﻜﻣ ﺔﺒﻳﺮﻐﻟﺍ ﺵﻮﻘﻨﻟﺍ\n.ﺏﻮﻠﻘﻤﻟﺎﺑ</li>
+    <li>textDescSentence-&gt;.ﺔﻔﻴﻌﺿﻭ ﺔﺑﺬﺑﺬﺘﻣ ﺔﺑﺎﺘﻜﻟﺍ</li>
+    <li>textDescSentence-&gt;ﺎﻤﻠﻛ ﺔﺑﺍﺮﻏ ﺔﺑﺎﺘﻜﻟﺍ ﺩﺍﺩﺰﺗ\n.ﺖﻣﺪﻘﺗ</li>
+    <li>textDescSentence-&gt;.ًﺎﻴﺋﺰﺟ ﺢﺴﻣ ﺪﻗﻭ [writingMaterial]ـﺑ ﺏﻮﺘﻜﻣ ﺺﻨﻟﺍ</li>
+    <li>textDescSentence-&gt;.ﺔﻨﻨﺴﻣ ﻑﻭﺮﺤﺑ ﻂﻠﺘﺨﺗ ﺔﻀﻣﺎﻏ ﺯﻮﻣﺭ</li>
+    <li>textDescSentence-&gt;ﺓﺪﻋ ﺖﻌﻃﻮﻗ ﺎﻬﻧﺄﻛ ،ﺓﺃﺰﺠﻣ ﺔﺑﺎﺘﻜﻟﺍ\n.ﺕﺍﺮﻣ</li>
+    <li>textDescSentence-&gt;ﻊﻣ ﺪﻳﺪﺟ ﻦﻣ ﺮﻬﻈﺗﻭ ﺵﻮﻘﻨﻟﺍ ﻰﺷﻼﺘﺗ\n.ﺺﻨﻟﺍ ﻡﺪﻘﺗ</li>
+    <li>textDescSentence-&gt;ًﻼﻜﺸﻣ ،[writingMaterial]ـﺑ ﺶﺑﺮﺨﻣ ﺺﻨﻟﺍ ﺍﺬﻫ\n.ﺓﺭﻮﻌﺴﻣ ًﺎﻃﺎﻤﻧﺃ</li>
+    <li>horrorDescSentence-&gt;ﻂﻘﻓ ﺓﺪﺣﺍﻭ ﺓﺭﺎﺒﻋ ﺓﺀﺍﺮﻗ ﻦﻜﻤﻳ\n.[rambling] :ﺡﻮﺿﻮﺑ</li>
+    <li>horrorDescSentence-&gt;.[rambling] :ًﺍﺭﺍﺮﻣ ﺓﺪﺣﺍﻭ ﺓﺭﺎﺒﻋ ﺭﺮﻜﺘﺗ</li>
+    <li>horrorDescSentence-&gt;.[rambling] :ﺓﺭﺎﺒﻌﻟﺍ ﺲﻔﻨﺑ ﺔﻠﻤﺟ ﻞﻛ ﻲﻬﺘﻨﺗ</li>
+    <li>horrorDescSentence-&gt;ﺓﺩﺩﺮﻣ ،ﺓﺮﺋﺍﺩ ﻲﻓ ﺕﺎﻤﻠﻜﻟﺍ ﻱﺮﺠﺗ\n.[rambling] :ﺓﺭﺎﺒﻌﻟﺍ ﺲﻔﻧ ﺔﻳﺎﻬﻧ ﻻ ﺎﻣ ﻰﻟﺇ</li>
+    <li>horrorDescSentence-&gt;ﻥﺄﺑ ًﺎﻌﻨﺘﻘﻣ ﻒﻟﺆﻤﻟﺍ ﻭﺪﺒﻳ\n.[PAWN_possessive]ﺪﻠﺟ ﺖﺤﺗ ﺶﻴﻌﻳ ًﺎﻴﻧﺪﻌﻣ ًﺎﻴﻠﻴﻔﻃ\nﻙﺮﺤﺘﻳ ﻮﻫﻭ ًﺍﺪﻳﺪﺷ ًﺎﻤﻟﺃ [PAWN_pronoun] ﻒﺼﻳ\n.ﻯﻮﻠﺘﻳﻭ</li>
+    <li>horrorDescSentence-&gt;ﻪﻨﻘﺤﺑ ﻪﺘﻘﻳﺪﺻ ﻒﻟﺆﻤﻟﺍ ﻢﻬﺘﻳ\nﺭﻮﻌﺸﻟﺍ [PAWN_pronoun] ﻒﺼﻳ .ﻲﻧﺪﻌﻣ ﻲﻠﻴﻔﻄﺑ\n.[PAWN_objective]ﻞﺧﺍﺩ ﻩﻮﻤﻨﺑ ﻊﻳﺮﻤﻟﺍ</li>
+    <li>horrorDescSentence-&gt;:ﻪﺑﺬﻌﻣ ﻦﻣ ﺔﻳﺮﺤﻟﺍ ﻒﻟﺆﻤﻟﺍ ﻞﺳﻮﺘﻳ\n.[horrorDesc]</li>
+    <li>horrorDescSentence-&gt;ﺔﻔﺻﺍﻭ ،ًﺍﺭﺍﺮﻣ ﺭﺮﻜﺘﺗ ﺭﻮﻄﺴﻟﺍ ﺲﻔﻧ\n.[horrorDesc]</li>
+    <li>horrorDescSentence-&gt;.[horrorDesc] ﻒﺼﺗ ﺔﺒﻳﺮﻏ ﺓﺪﻴﺼﻗ</li>
+    <li>horrorDescSentence-&gt;.[horrorDesc] ﻒﺻﻮﻟ ﺕﺎﻤﻠﻜﻟﺍ ﺢﻓﺎﻜﺗ</li>
+    <li>horrorDescSentence-&gt;ﻞﻌﻓ ﺩﺭ ﺔﻋﺰﻋﺰﺘﻤﻟﺍ ﺔﺑﺎﺘﻜﻟﺍ ﻒﺼﺗ\n.[horrorDesc]ـﻟ ﺔﻳﺅﺭ ﻰﻠﻋ ﻒﻟﺆﻤﻟﺍ</li>
+    <li>horrorDescSentence-&gt;.[horrorDesc] ﺓﺭﻮﺼﻣ ،ﺺﻨﻟﺍ ﻖﻓﺍﺮﺗ ﻡﻮﺳﺭ</li>
+    <li>horrorDescSentence-&gt;ﺕﺎﻈﺣﻼﻣ ﻊﻣ ،[horrorDesc] ﺢﺿﻮﺗ ﺓﺭﻮﻋﺬﻣ ﻡﻮﺳﺭ\n.ﻪﺤﻣﻼﻣ ﺡﺮﺸﺗ</li>
+    <li>horrorDescSentence-&gt;.[horrorDesc] ﻒﺼﻳ ﻥﺍﺪﺑﻷﺍ ﻪﻟ ﺮﻌﺸﻘﺗ ﺪﻴﺸﻧ</li>
+    <li>horrorDescSentence-&gt;ﺎﻬﻠﻛ ،ﺺﻨﻟﺍ ﻞﻠﺨﺘﺗ ﺔﻘﻴﻤﻋ ﻡﻮﺳﺭ\n.[horrorDesc]ـﻟ ﺢﻤﻠﺗ</li>
+    <li>horrorDescSentence-&gt;ﻱﻭﺮﺗ ﺶﻣﺍﻮﻬﻟﺍ ﻲﻓ ﺔﺳﻮﻤﻬﻣ ﺕﺎﻳﺎﻜﺣ\n.[horrorDesc]</li>
+    <li>horrorDescSentence-&gt;ﻎﻠﺒﺗ ﺓﺭﻮﻋﺬﻤﻟﺍ ﺐﺗﺎﻜﻟﺍ ﺓﺮﺒﻧ\n.[horrorDesc] ﻰﻠﻋ ﺓﺰﻛﺮﻣ ﺎﻬﺗﻭﺭﺫ</li>
+    <li>horrorDescSentence-&gt;ﻞﻛ ،ﺵﻮﻘﻨﻟﺍ ﻞﺧﺍﺩ ﻁﺎﻤﻧﺃ ﻞﻜﺸﺘﺗ\n.[horrorDesc]ـﻟ ﺮﻳﻮﺼﺘﺑ ﻪﺗﻭﺭﺫ ﻎﻠﺒﻳ ﺎﻬﻨﻣ</li>
+    <li>horrorDescSentence-&gt;ﺔﻴﺣ ﺭﻮﺻ ﻊﻣ ﺔﻜﺑﺎﺸﺘﻣ ﺕﺎﻤﻠﻜﻟﺍ\n.[horrorDesc]ـﻟ</li>
+    <li>horrorDescSentence-&gt;ﺐﻧﺎﺠﺑ ﺔﺑﻮﺘﻜﻣ ﺔﻗﺭﺆﻣ ﺔﻠﻴﻠﻬﺗ\n.[horrorDesc]ـﻟ ﻑﺎﺻﻭﺃ</li>
+    <li>horrorDescSentence-&gt;ﺔﻠﺑﺎﻘﻣ ﺔﻤﺣﺮﻠﻟ ﺔﺴﺋﺎﻳ ﺕﻼﺳﻮﺗ\n.[horrorDesc] ﻦﻋ ﺕﺎﻳﺎﻜﺤﺑ</li>
+    <li>horrorDesc-&gt;ﺮﻴﻏ ﻝﻮﻘﻋ ﻚﻠﻬﺘﺴﻳ ﻲﺋﺮﻣ ﺮﻴﻏ ﻕﻮﻠﺨﻣ\nﻦﻴﻨﻣﺆﻤﻟﺍ</li>
+    <li>horrorDesc-&gt;ﺾﺒﻨﺗ ﻍﺍﺮﻔﻟﺎﻛ ﺀﺍﺩﻮﺳ ﺔﻠﻴﺤﺘﺴﻣ ﺓﺮﻛ\nﺔﺼﻟﺎﺧ ﺓﺎﻧﺎﻌﻤﺑ</li>
+    <li>horrorDesc-&gt;ﻦﻣ ﻉﻮﻨﺼﻣ ،ﻑﺍﺮﻃﺄﻛ ﻡﺎﻈﻋ ﻪﻟ ﻕﻮﻠﺨﻣ\nٍﻮﺘﻠﻣ ﻢﺤﻟ</li>
+    <li>horrorDesc-&gt;،ﻞﻈﻟﺍ ﻦﻣ ﻞﻣﺎﻜﻟﺎﺑ ﻉﻮﻨﺼﻣ ﻦﺋﺎﻛ\nﻡﻮﺠﻨﻟﺎﻛ ﻥﺎﻌﻤﻠﺗ ﻩﺎﻨﻴﻋ</li>
+    <li>horrorDesc-&gt;ﺓﺩﺎﺣ ﻦﻴﻛﺎﻜﺳ ﻦﻣ ﻉﻮﻨﺼﻣ ﻞﺟﺭ\nﻡﺪﻟﺎﺑ ﺔﺳﻮﻤﻐﻣ</li>
+    <li>horrorDesc-&gt;ﺝﺮﺨﺗ ﺓﺭﺍﻭﺪﻟﺍ ﺕﺍﺮﻔﺸﻟﺍ ﻦﻣ ﺔﻠﺘﻛ\nﺔﻳﻭﺎﻫ ﻦﻣ</li>
+    <li>horrorDesc-&gt;ﻞﻣﺎﻛ ﺮﺒﻋ ﺪﺘﻤﻳ ﻢﻔﺑ ﺖﻣﺎﺻ ﻞﻔﻃ\nﻪﻬﺟﻭ</li>
+    <li>horrorDesc-&gt;ﺮﻴﻣﺎﺴﻣ ﻦﻣ ﻉﻮﻨﺼﻣ ﻮﺘﻠﻣ ﻢﻴﻈﻋ ﺝﺮﺑ\nﺕﺍﺮﻔﺷﻭ</li>
+    <li>horrorDesc-&gt;ﺕﺎﻤﺴﺑ ﻥﺍﻮﻴﺤﻟﺎﺑ ﻪﻴﺒﺷ ﺐﻳﺮﻏ ﻕﻮﻠﺨﻣ\nﺔﻔﻠﺘﺨﻣ ﻉﺍﻮﻧﺃ ﺓﺪﻋ ﻦﻣ</li>
+    <li>horrorDesc-&gt;ﺀﺍﺰﺟﺃ ﺐﻴﺗﺮﺗ ﺪﻴﻋﺃ ﻩﻮﺸﻣ ﻱﺮﺸﺑ ﻞﻜﺷ\nﻩﺪﺴﺟ</li>
+    <li>horrorDesc-&gt;ﺕﺍﻮﻣﺃ ﻢﻬﻠﻛ ،ﺮﺸﺒﻟﺍ ﻦﻣ ﻊﺳﺍﻭ ﺪﺸﺣ\nﻥﻮﻨﻔﻌﺘﻣﻭ</li>
+    <li>horrorDesc-&gt;ﻦﻣ ﺔﺒﻋﺮﻣ ﺔﻌﻨﻗﺄﺑ ﺔﻳﺮﺸﺑ ﺕﺎﻴﺼﺨﺷ\nﺮﻴﻣﺎﺴﻤﻟﺍ</li>
+    <li>rambling-&gt;ﻲﻧﻮﺟﺮﺧﺃ</li>
+    <li>rambling-&gt;ﻲﻧﻭﺪﻋﺎﺳ</li>
+    <li>rambling-&gt;ﻲﻧﻭﺬﻘﻧﺃ</li>
+    <li>rambling-&gt;ﺐﻗﺍﺮﻳ ﻪﻧﺇ</li>
+    <li>rambling-&gt;ﺖﻠﻔﻳ ﻻ ﻪﻧﺇ</li>
+    <li>rambling-&gt;ﻙﺮﺗﺍ</li>
+    <li>rambling-&gt;ﻪﺗﻮﺻ ﻊﻤﺳﺃ</li>
+    <li>rambling-&gt;ﺔﺑﺬﻛ ﻦﻣﺰﻟﺍ</li>
+    <li>rambling-&gt;ﻢﻟﻷﺍ ﻝﺯﺃ</li>
+    <li>rambling-&gt;ﺩﻮﺳﺃ ﻂﻴﺤﻣ</li>
+    <li>rambling-&gt;ﻊﻴﻄﻘﺗﻭ ﻊﻴﻄﻘﺗ</li>
+    <li>rambling-&gt;ﻍﺍﺮﻔﻟﺍ ﻲﻓ ﺕﺎﺴﻤﻫ</li>
+    <li>rambling-&gt;ﺎًﻤﺋﺍﺩ ﻲﻔﻠﺧ ﻪﻧﺇ</li>
+    <li>rambling-&gt;ًﺍﺪﺟ ﺓﺮﻴﺜﻛ ﻥﻮﻴﻋ</li>
+    <li>rambling-&gt;ﻲﺳﺃﺭ ﻞﺧﺍﺩ</li>
+    <li>rambling-&gt;ﺖﻤﺼﻟﺍ ﻲﻓ ﻕﺮﻏﺃ</li>
+    <li>rambling-&gt;ﻲﻤﺳﺍ ﻑﺮﻌﻳ ﻪﻧﺇ</li>
+    <li>rambling-&gt;ﻙﺮﺤﺘﺗ ﻝﻼﻈﻟﺍ</li>
+    <li>rambling-&gt;ﺝﺮﺨﻣ ﻻ</li>
+    <li>rambling-&gt;ﻢﻠﻜﺘﻳ ﻡﻼﻈﻟﺍ</li>
+    <li>rambling-&gt;ﻥﻮﺒﻗﺍﺮﻳ ﻢﻬﻧﺇ</li>
+    <li>writingMaterial-&gt;ﺮﻴﺷﺎﺒﻃ</li>
+    <li>writingMaterial-&gt;ﻡﺎﺨﺳ</li>
+    <li>writingMaterial-&gt;ﺦﻄﻠﻣ ﻞﺋﺎﺳ</li>
+    <li>writingMaterial-&gt;ﻕﻭﺮﺤﻣ ﺩﺎﻣﺭ</li>
+    <li>writingMaterial-&gt;ﻦﻛﺍﺩ ﺮﺒﺣ</li>
+ </LabyrinthRamblings.rulePack.rulesStrings>
+  
+</LanguageData>

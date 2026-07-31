@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an infamous company of mercenaries. These ancient soldiers are from a long-forgotten era in the planet's history. They have recently awoken from cryptosleep and are causing trouble in the area.\n\nThe company is led by [LEADER_nameDef], who possesses a unique [WEAPON_quality] weapon. The group contains:\n\n[mercenaryList]\n\nIf you're able to capture or kill the leader, you can take the unique weapon.\n\n[location]</li>
+    <li>location(atLandmark==true)->The soldiers are hiding out in an ancient structure at [landmarkName].</li>
+    <li>location(atLandmark==false)->The soldiers are hiding out in an ancient structure.</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;ﻦﻣ ﺔﻌﻤﺴﻟﺍ ﺔﺌﻴﺳ ﺔﻳﺮﺳ ﻊﻗﻮﻣ [discoveryMethod]\nﺀﺎﻣﺪﻘﻟﺍ ﺩﻮﻨﺠﻟﺍ ﺀﻻﺆﻫ .ﺔﻗﺰﺗﺮﻤﻟﺍ\nﻲﻓ ﻞﻳﻮﻃ ﻦﻣﺯ ﺬﻨﻣ ﺔﻴﺴﻨﻣ ﺔﺒﻘﺣ ﻦﻣ\nًﺍﺮﺧﺆﻣ ﺍﻮﻈﻘﻴﺘﺳﺍ .ﺐﻛﻮﻜﻟﺍ ﺦﻳﺭﺎﺗ\nﻥﻮﺒﺒﺴﻳﻭ ﻖﻴﻤﻌﻟﺍ ﺕﺎﺒﺴﻟﺍ ﻦﻣ\n.ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ﺐﻋﺎﺘﻤﻟﺍ\n\nﻚﻠﺘﻤﻳ ﻱﺬﻟﺍ ،[LEADER_nameDef] ﺔﻳﺮﺴﻟﺍ ﺩﻮﻘﻳ\nﺔﻋﻮﻤﺠﻤﻟﺍ ﻱﻮﺘﺤﺗ .[WEAPON_quality] ًﺍﺪﻳﺮﻓ ًﺎﺣﻼﺳ\n:ﻰﻠﻋ\n\n[mercenaryList]\n\nﻞﺘﻗ ﻭﺃ ﺮﺳﺃ ﻦﻣ ﺖﻨﻜﻤﺗ ﺍﺫﺇ\nﺡﻼﺴﻟﺍ ﺬﺧﺃ ﻚﻨﻜﻤﻳ ،ﺪﺋﺎﻘﻟﺍ\n.ﺪﻳﺮﻔﻟﺍ\n\n[location]</li>
+    <li>location(atLandmark==true)-&gt;ﻲﻓ ﻢﻳﺪﻗ ﻰﻨﺒﻣ ﻲﻓ ﻥﻮﺌﺒﺘﺨﻣ ﺩﻮﻨﺠﻟﺍ\n.[landmarkName]</li>
+    <li>location(atLandmark==false)-&gt;.ﻢﻳﺪﻗ ﻰﻨﺒﻣ ﻲﻓ ﻥﻮﺌﺒﺘﺨﻣ ﺩﻮﻨﺠﻟﺍ</li>
+ </OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [mercenaries]</li>
+    <li>questName->[ancient] [mercenaries]</li>
+    <li>ancient->Ancient</li>
+    <li>ancient->Awoken</li>
+    <li>ancient->Cryptosleep</li>
+    <li>mercenaries->Mercenaries</li>
+    <li>mercenaries->Soldiers</li>
+    <li>mercenaries->Warriors</li>
+    <li>mercenaries->Fighters</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
+    <li>questName-&gt;[ancient] [mercenaries] ـﻟﺍ</li>
+    <li>questName-&gt;[ancient] [mercenaries]</li>
+    <li>ancient-&gt;ﻰﻣﺍﺪﻗ</li>
+    <li>ancient-&gt;ﻥﻮﻈﻘﻴﺘﺴﻣ</li>
+    <li>ancient-&gt;ﻖﻴﻤﻋ ﺕﺎﺒﺳ</li>
+    <li>mercenaries-&gt;ﺔﻗﺰﺗﺮﻣ</li>
+    <li>mercenaries-&gt;ﺩﻮﻨﺟ</li>
+    <li>mercenaries-&gt;ﻥﻮﺑﺭﺎﺤﻣ</li>
+    <li>mercenaries-&gt;ﻥﻮﻠﺗﺎﻘﻣ</li>
+ </OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient mercenaries</li>
+    <li>subject->ancient soldiers</li>
+    <li>subject->ancients</li>
+    <li>questMapFeature->military garrison</li>
+    <li>questMapFeature->drawing of an ancient soldier</li>
+    <li>questMapFeature->sketch of a man from another time</li>
+    <li>questMapText->they're awake</li>
+    <li>questMapText->dangerous ancients</li>
+    <li>questMapText->ancient weapons</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
+    <li>subject-&gt;ﺀﺎﻣﺪﻗ ﺔﻗﺰﺗﺮﻣ</li>
+    <li>subject-&gt;ﺀﺎﻣﺪﻗ ﺩﻮﻨﺟ</li>
+    <li>subject-&gt;ﺀﺎﻣﺪﻘﻟﺍ</li>
+    <li>questMapFeature-&gt;ﺔﻳﺮﻜﺴﻋ ﺔﻴﻣﺎﺣ</li>
+    <li>questMapFeature-&gt;ﻢﻳﺪﻗ ﻱﺪﻨﺠﻟ ﻢﺳﺭ</li>
+    <li>questMapFeature-&gt;ﺮﺧﺁ ﻦﻣﺯ ﻦﻣ ﻞﺟﺮﻟ ﻲﻄﻴﻄﺨﺗ ﻢﺳﺭ</li>
+    <li>questMapText-&gt;ﻥﻮﻈﻘﻴﺘﺴﻣ ﻢﻬﻧﺇ</li>
+    <li>questMapText-&gt;ﻥﻭﺮﻄﺧ ﺀﺎﻣﺪﻗ</li>
+    <li>questMapText-&gt;ﺔﻤﻳﺪﻗ ﺔﺤﻠﺳﺃ</li>
+ </OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
+  
+</LanguageData>

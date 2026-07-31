@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Gravship -->
+  <!-- EN: Gravship range offset -->
+  <StatsReport_GravshipRangeOffset>ﺔﻴﺑﺫﺎﺠﻟﺍ ﺔﻨﻴﻔﺳ ﻯﺪﻣ ﺔﺣﺍﺯﺇ</StatsReport_GravshipRangeOffset>
+  <!-- EN: How much further this building lets a gravship travel on the world map. -->
+  <StatsReport_GravshipRangeOffset_Desc>ﺔﻳﺎﻨﺒﻟﺍ ﻩﺬﻫ ﻪﺤﻴﺘﺗ ﺪﻌﺑﺃ ﻯﺪﻣ\nﺔﻄﻳﺮﺧ ﻰﻠﻋ ﺔﻴﺑﺫﺎﺠﻟﺍ ﺔﻨﻴﻔﺳ ﺮﻔﺴﻟ\n.ﻢﻟﺎﻌﻟﺍ</StatsReport_GravshipRangeOffset_Desc>
+  <!-- EN: Fuel savings -->
+  <StatsReport_GravshipFuelSavings>ﺩﻮﻗﻮﻟﺍ ﺮﻴﻓﻮﺗ</StatsReport_GravshipFuelSavings>
+  <!-- EN: How much this building reduces fuel needed for gravship travel. -->
+  <StatsReport_GravshipFuelSavings_Desc>ﻦﻣ ﺔﻳﺎﻨﺒﻟﺍ ﻩﺬﻫ ﻞﻠﻘﺗ ﺎﻣ ﺭﺍﺪﻘﻣ\nﺔﻨﻴﻔﺳ ﺮﻔﺴﻟ ﺏﻮﻠﻄﻤﻟﺍ ﺩﻮﻗﻮﻟﺍ\n.ﺔﻴﺑﺫﺎﺠﻟﺍ</StatsReport_GravshipFuelSavings_Desc>
+  <!-- EN: Fuel consumption -->
+  <StatsReport_GravEngineFuelConsumption>ﺩﻮﻗﻮﻟﺍ ﻙﻼﻬﺘﺳﺍ</StatsReport_GravEngineFuelConsumption>
+  <!-- EN: A multiplier on how much fuel is needed during gravship travel. -->
+  <StatsReport_GravEngineFuelConsumption_Desc>ﺏﻮﻠﻄﻤﻟﺍ ﺩﻮﻗﻮﻟﺍ ﺭﺍﺪﻘﻣ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\n.ﺔﻴﺑﺫﺎﺠﻟﺍ ﺔﻨﻴﻔﺳ ﺮﻔﺳ ﺀﺎﻨﺛﺃ</StatsReport_GravEngineFuelConsumption_Desc>
+
+  <!-- EN: Traits -->
+  <Stat_ThingUniqueWeaponTrait_Label>ﺕﺎﻤﺳ</Stat_ThingUniqueWeaponTrait_Label>
+  <!-- EN: This weapon's individual traits. -->
+  <Stat_ThingUniqueWeaponTrait_Desc>.ﺡﻼﺴﻟﺍ ﺍﺬﻬﻟ ﺔﻳﺩﺮﻔﻟﺍ ﺕﺎﻤﺴﻟﺍ</Stat_ThingUniqueWeaponTrait_Desc>
+
+  <!-- EN: Weapon traits -->
+  <StatsReport_WeaponTraits>ﺡﻼﺴﻟﺍ ﺕﺎﻤﺳ</StatsReport_WeaponTraits>
+  <!-- EN: Burst shot count multiplier -->
+  <StatsReport_BurstShotCountMultiplier>ﺔﻌﻓﺪﻟﺍ ﺕﺎﻘﻠﻃ ﺩﺪﻋ ﻒﻋﺎﻀﻣ</StatsReport_BurstShotCountMultiplier>
+  <!-- EN: Fire rate multiplier -->
+  <StatsReport_BurstShotSpeedMultiplier>ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﻝﺪﻌﻣ ﻒﻋﺎﻀﻣ</StatsReport_BurstShotSpeedMultiplier>
+  <!-- EN: Stopping power offset -->
+  <StatsReport_AdditionalStoppingPower>ﻑﺎﻘﻳﻹﺍ ﺓﻮﻗ ﺔﺣﺍﺯﺇ</StatsReport_AdditionalStoppingPower>
+
+  <!-- EN: Airtight -->
+  <Stat_Airtight>ﻕﻼﻏﻹﺍ ﻢﻜﺤﻣ</Stat_Airtight>
+  <!-- EN: Airtight walls prevent a room from depressurizing in the vacuum of space. -->
+  <Stat_Airtight_Desc>ﻕﻼﻏﻹﺍ ﺔﻤﻜﺤﻣ ﻥﺍﺭﺪﺠﻟﺍ ﻊﻨﻤﺗ\nﻍﺍﺮﻓ ﻲﻓ ﻂﻐﻀﻟﺍ ﻥﺍﺪﻘﻓ ﻦﻣ ﺔﻓﺮﻐﻟﺍ\n.ﺀﺎﻀﻔﻟﺍ</Stat_Airtight_Desc>
+
+  <!-- EN: Contained apparel beauty -->
+  <ContainedApparelBeauty>ﺓﺍﻮﺘﺤﻤﻟﺍ ﺲﺑﻼﻤﻟﺍ ﻝﺎﻤﺟ</ContainedApparelBeauty>
+
+  <!-- EN: Sentience catalyst installed. -->
+  <StatsReport_SentienceCatalystInstalled>.ﺖّﺒﺜُﻣ ﻲﻋﻮﻟﺍ ﺰﻔﺤﻣ</StatsReport_SentienceCatalystInstalled>
+
+</LanguageData>

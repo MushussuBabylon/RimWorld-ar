@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: animal personhood -->
+  <AnimalPersonhood.label>ﻥﺍﻮﻴﺤﻟﺍ ﺔﻴﺼﺨﺷ</AnimalPersonhood.label>
+  <!-- EN: Animals have rights as humans do. -->
+  <AnimalPersonhood.description>.ﺮﺸﺒﻠﻟ ﺎﻤﻛ ﻕﻮﻘﺣ ﺕﺎﻧﺍﻮﻴﺤﻠﻟ</AnimalPersonhood.description>
+  <!-- EN:
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] created [sacredAnimalList] and the human on the [place_summary] [place_name] and raised them as siblings.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] brought the animals and the humans of the [place_summary] [place_name] together in a great conference.</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] blessed the [place_summary] [place_name] with [sacredAnimalListEnd], and taught the people there to honor the animals.</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->An evil [foeLeader] ordered the wild animals to be hunted, and [foeLeader_possessive] [foeSoldiers] hunted them with cruel [place_personalWeapon]s.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] came to a [place_job] named [founderName] [revelationAdverb] about a [veneratedAnimal]. But [founderName] was the [veneratedAnimal], and the [veneratedAnimal] was [founderName], and [founder_pronoun] understood [deity0_name]'s plan.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->A [place_job] named [founderName] freed many animals that were enslaved by cruel masters, and took them to sanctuary in the [altarRoomLabel] of [deity0_name].</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] called to the [memberNamePlural] and the animals with [deity0_name]'s voice, and in a great stampede of hoof and paw and foot, trampled the [foeLeader] and [foeLeader_possessive] [foeSoldiers].</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] lived in the forest for twenty years, studying the animals and connecting with them. [founder_pronoun] came to understand their true morality and founded our movement.</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName] went to commune with the animals in the fields and forests, and connected with them as equals.</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->In my daily visitations with the [veneratedOrAnyAnimal]s I learned to truly listen to them. Over and over, in their own way, they repeated their message to me:</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->the animals are our partners in this world, and it's wrong to treat them as any less</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->I didn't believe it myself until a [veneratedOrAnyAnimal] whispered it to me.</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->Since archotechs awoke, they have obviously made no moral distinction between humans and animals.</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->Archotechs are on a higher plane of morality than bio-life. Their superiority is so great that humans are on the same plane of morality as animals.</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd], archotechs will raise humans as equals only if humans treat animals as equals.</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    ->The spirits of thought and consciousness live within animals and humans alike.</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->The spirits of nature's animals are the same spirits residing within humans.</li>
+    <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
+    <li>veneratedOrAnyAnimal->[Animal]</li>
+    <li>sacredAnimalList->the [animal0_thingDef_label], the [animal1_thingDef_label], the [animal2_thingDef_label],</li>
+    <li>sacredAnimalList->the [animal0_thingDef_label], the [animal1_thingDef_label],</li>
+    <li>sacredAnimalList->the [animal0_thingDef_label]</li>
+    <li>sacredAnimalList->the cow, the fox, the bear,</li>
+    <li>sacredAnimalListEnd->the [animal0_thingDef_label], the [animal1_thingDef_label], and the [animal2_thingDef_label]</li>
+    <li>sacredAnimalListEnd->the [animal0_thingDef_label], and the [animal1_thingDef_label]</li>
+    <li>sacredAnimalListEnd->the [animal0_thingDef_label]</li>
+    <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
+  -->
+  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_AnimalPersonhood)        -&gt;ﻢﻫﺎﺑﺭﻭ [place_summary] [place_name] ﻰﻠﻋ ﻥﺎﺴﻧﻹﺍﻭ [deity0_name] [sacredAnimalList] ﻖﻠﺧ\n.ﺀﺎﻘﺷﺄﻛ</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  -&gt;[place_summary] [place_name] ﻦﻣ ﺮﺸﺒﻟﺍﻭ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ [deity0_name] ﻊﻤﺟ\n.ﻢﻴﻈﻋ ﺮﻤﺗﺆﻣ ﻲﻓ</li>
+    <li>intro(tag=meme_AnimalPersonhood)           -&gt;ﺱﺎﻨﻟﺍ ﻢﻠﻋﻭ ،[sacredAnimalListEnd]ـﺑ [deity0_name] [place_summary] [place_name] ﻙﺭﺎﺑ\n.ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺍﻮّﻣﺮﻜﻳ ﻥﺃ ﻙﺎﻨﻫ</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        -&gt;ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺩﺎﻴﻄﺻﺎﺑ ﺮﻳﺮﺷ [foeLeader] ﺮﻣﺃ\n[place_personalWeapon]ـﺑ [foeLeader_possessive] [foeSoldiers] ﺎﻫﺩﺎﻄﺻﺎﻓ ،ﺔﻳﺮﺒﻟﺍ\n.ﺔﻴﺳﺎﻗ</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     -&gt;.[veneratedAnimal] ﺹﻮﺼﺨﺑ [founderName] [revelationAdverb] ﻰﻋﺪُﻳ [place_job] ﻰﻟﺇ [deity0_name] ﺀﺎﺟ\nﻮﻫ ﻥﺎﻛ [veneratedAnimal]ـﻟﺍﻭ ،[veneratedAnimal] ﻮﻫ ﻥﺎﻛ [founderName] ﻦﻜﻟ\n.[deity0_name] ﺔﻄﺧ [founder_pronoun] ﻢﻬﻓﻭ ،[founderName]</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     -&gt;ﺓﺪﻳﺪﻋ ﺕﺎﻧﺍﻮﻴﺣ [founderName] ﻰﻋﺪُﻳ [place_job] ﺭﺮﺣ\nﺎﻫﺩﺎﺘﻗﺍﻭ ،ﺓﺎﺴﻗ ﺩﺎﻴﺳﺃ ﺎﻫﺪﺒﻌﺘﺳﺍ\n.[altarRoomLabel] [deity0_name] ﻲﻓ ﺫﻼﻤﻟﺍ ﻰﻟﺇ</li>
+    <li>victory(tag=meme_AnimalPersonhood)         -&gt;،[deity0_name] ﺕﻮﺼﺑ ﺕﺎﻧﺍﻮﻴﺤﻟﺍﻭ [founderName] [memberNamePlural] ﻯﺩﺎﻧ\nﺮﻓﺍﻮﺤﻟﺍ ﻦﻣ ﻢﻴﻈﻋ ﻊﻓﺍﺪﺗ ﻲﻓﻭ\n[foeLeader] ﺍﻮﺳﺍﺩ ،ﻡﺍﺪﻗﻷﺍﻭ ﺐﻟﺎﺨﻤﻟﺍﻭ\n.[foeSoldiers] ﻩﺩﻮﻨﺟﻭ</li>
+    <li>setup(tag=meme_AnimalPersonhood)           -&gt;،ًﺎﻣﺎﻋ ﻦﻳﺮﺸﻋ ﺔﺑﺎﻐﻟﺍ ﻲﻓ [founderName] ﺵﺎﻋ\n.ﺎﻬﻌﻣ ﻞﺻﺍﻮﺘﻳﻭ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺱﺭﺪﻳ\nﺲﺳﺃﻭ ﺔﻘﺤﻟﺍ ﺎﻬﻗﻼﺧﺃ [founder_pronoun] ﻢﻬﻓ\n.ﺎﻨﺘﻛﺮﺣ</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    -&gt;ﻲﻓ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻊﻣ ﻲﺧﺂﺘﻠﻟ [founderName] ﺐﻫﺫ\nﺎﻬﻌﻣ ﻞﺻﺍﻮﺗﻭ ،ﺕﺎﺑﺎﻐﻟﺍﻭ ﻝﻮﻘﺤﻟﺍ\n.ﺩﺍﺪﻧﺄﻛ</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         -&gt;ﺖﻤﻠﻌﺗ [veneratedOrAnyAnimal]ـﻠﻟ ﺔﻴﻣﻮﻴﻟﺍ ﻲﺗﺍﺭﺎﻳﺯ ﻲﻓ\nًﺍﺭﺍﺮﻣ .ًﺎﻘﺣ ﺎﻬﻴﻟﺇ ﺖﺼﻧﺃ\nﻲﻟ ﺕﺩﺩﺭ ،ﺎﻬﺘﻘﻳﺮﻃ ﻰﻠﻋ ،ًﺍﺭﺍﺮﻜﺗﻭ\n:ﺎﻬﺘﻟﺎﺳﺭ</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              -&gt;ﺍﺬﻫ ﻲﻓ ﺎﻧﺅﺎﻛﺮﺷ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ\nﺎﻬﻠﻣﺎﻌﻧ ﻥﺃ ﺄﻄﺨﻟﺍ ﻦﻣﻭ ،ﻢﻟﺎﻌﻟﺍ\nﺔﻴﻧﻭﺪﺑ</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) -&gt;ﻪﺑ ﺲﻤﻫ ﻰﺘﺣ ﻲﺴﻔﻨﺑ ﻚﻟﺫ ﻕﺪﺻﺃ ﻢﻟ\n.[veneratedOrAnyAnimal] ﻲﻟ</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    -&gt;ﻢﻟ ،ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺖﻈﻘﻴﺘﺳﺍ ﻥﺃ ﺬﻨﻣ\nﺮﺸﺒﻟﺍ ﻦﻴﺑ ﺡﻮﺿﻮﺑ ﻕﺮﻔﺗ\n.ﺔﻴﻗﻼﺧﻷﺍ ﺔﻴﺣﺎﻨﻟﺍ ﻦﻣ ﺕﺎﻧﺍﻮﻴﺤﻟﺍﻭ</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     -&gt;ﻰﻗﺭﺃ ﻲﻗﻼﺧﺃ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ\nﺎﻬﻗﻮﻔﺗ .ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻦﻣ\nﺲﻔﻧ ﻲﻓ ﺮﺸﺒﻟﺍ ﻥﺃ ﺔﺟﺭﺪﻟ ﻢﻴﻈﻋ\n.ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻊﻣ ﻲﻗﻼﺧﻷﺍ ﻯﻮﺘﺴﻤﻟﺍ</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) -&gt;ﺮﺸﺒﻟﺍ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻊﻓﺮﺘﺳ ,[inTheEnd]\nُﺮﺸﺒﻟﺍ ﻞﻣﺎﻋ ﺍﺫﺇ ﻂﻘﻓ ﺩﺍﺪﻧﺄﻛ\n.ﺩﺍﺪﻧﺄﻛ َﺕﺎﻧﺍﻮﻴﺤﻟﺍ</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    -&gt;ﻲﻓ ﻲﻋﻮﻟﺍﻭ ﺮﻜﻔﻟﺍ ﺡﺍﻭﺭﺃ ﺶﻴﻌﺗ\n.ﺀﺍﻮﺳ ﺪﺣ ﻰﻠﻋ ﺮﺸﺒﻟﺍﻭ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     -&gt;ﺕﺍﺫ ﻲﻫ ﺔﻌﻴﺒﻄﻟﺍ ﺕﺎﻧﺍﻮﻴﺣ ﺡﺍﻭﺭﺃ\n.ﺮﺸﺒﻟﺍ ﻦﻜﺴﺗ ﻲﺘﻟﺍ ﺡﺍﻭﺭﻷﺍ</li>
+    <li>veneratedOrAnyAnimal(priority=10)-&gt;[veneratedAnimal]</li>
+    <li>veneratedOrAnyAnimal-&gt;[Animal]</li>
+    <li>sacredAnimalList-&gt;،[animal2_thingDef_label]ـﻟﺍﻭ ،[animal1_thingDef_label]ـﻟﺍﻭ ،[animal0_thingDef_label]ـﻟﺍ</li>
+    <li>sacredAnimalList-&gt;،[animal1_thingDef_label]ـﻟﺍﻭ ،[animal0_thingDef_label]ـﻟﺍ</li>
+    <li>sacredAnimalList-&gt;[animal0_thingDef_label]ـﻟﺍ</li>
+    <li>sacredAnimalList-&gt;،ﺏﺪﻟﺍﻭ ،ﺐﻠﻌﺜﻟﺍﻭ ،ﺓﺮﻘﺒﻟﺍ</li>
+    <li>sacredAnimalListEnd-&gt;[animal2_thingDef_label]ـﻟﺍﻭ ،[animal1_thingDef_label]ـﻟﺍﻭ ،[animal0_thingDef_label]ـﻟﺍ</li>
+    <li>sacredAnimalListEnd-&gt;[animal1_thingDef_label]ـﻟﺍﻭ ،[animal0_thingDef_label]ـﻟﺍ</li>
+    <li>sacredAnimalListEnd-&gt;[animal0_thingDef_label]ـﻟﺍ</li>
+    <li>sacredAnimalListEnd-&gt;ﺏﺪﻟﺍﻭ ،ﺐﻠﻌﺜﻟﺍﻭ ،ﺓﺮﻘﺒﻟﺍ</li>
+ </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->animal</li>
+    <li>memeAdjective->furry</li>
+    <li>memeCreed->pack</li>
+    <li>memeCreed->herd</li>
+    <li>memeCreed->flock</li>
+    <li>memeConcept->animals</li>
+    <li>memeLeaderNoun->beast</li>
+    <li>memeLeaderNoun->animal</li>
+    <li>memeLeaderAdjective->alpha</li>
+    <li>memeMoralist->whisperer</li>
+    <li>memeMoralist->herder</li>
+    <li>memeMoralist->shepherd</li>
+  -->
+  <AnimalPersonhood.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;ﻲﻧﺍﻮﻴﺣ</li>
+    <li>memeAdjective-&gt;ﻱﻭﺮﻓ</li>
+    <li>memeCreed-&gt;ﻊﻴﻄﻗ</li>
+    <li>memeCreed-&gt;ﺏﺮﺳ</li>
+    <li>memeCreed-&gt;ﺔﻴﻋﺭ</li>
+    <li>memeConcept-&gt;ﺕﺎﻧﺍﻮﻴﺣ</li>
+    <li>memeLeaderNoun-&gt;ﺶﺣﻭ</li>
+    <li>memeLeaderNoun-&gt;ﻥﺍﻮﻴﺣ</li>
+    <li>memeLeaderAdjective-&gt;ﺎﻔﻟﺃ</li>
+    <li>memeMoralist-&gt;ﺲﻣﺎﻫ</li>
+    <li>memeMoralist-&gt;ﻉﺍﺭ</li>
+    <li>memeMoralist-&gt;ﻢﻨﻏ ﻲﻋﺍﺭ</li>
+ </AnimalPersonhood.generalRules.rulesStrings>
+  <!-- EN: animalistic -->
+  <AnimalPersonhood.symbolPacks.0.adjective>ﻱﻮﻧﺍﻮﻴﺣ</AnimalPersonhood.symbolPacks.0.adjective>
+  <!-- EN: Animalism -->
+  <AnimalPersonhood.symbolPacks.0.ideoName>ﺔﻳﻮﻧﺍﻮﻴﺤﻟﺍ</AnimalPersonhood.symbolPacks.0.ideoName>
+  <!-- EN: animalist -->
+  <AnimalPersonhood.symbolPacks.0.member>ﻱﻮﻧﺍﻮﻴﺣ</AnimalPersonhood.symbolPacks.0.member>
+  <!-- EN: animals -->
+  <AnimalPersonhood.symbolPacks.0.theme>ﺕﺎﻧﺍﻮﻴﺣ</AnimalPersonhood.symbolPacks.0.theme>
+  <!-- EN: beastic -->
+  <AnimalPersonhood.symbolPacks.1.adjective>ﻲﺸﺣﻭ</AnimalPersonhood.symbolPacks.1.adjective>
+  <!-- EN: Beastism -->
+  <AnimalPersonhood.symbolPacks.1.ideoName>ﺔﻴﺸﺣﻮﻟﺍ</AnimalPersonhood.symbolPacks.1.ideoName>
+  <!-- EN: beastor -->
+  <AnimalPersonhood.symbolPacks.1.member>ﻲﺸﺣﻭ</AnimalPersonhood.symbolPacks.1.member>
+  <!-- EN: beasts -->
+  <AnimalPersonhood.symbolPacks.1.theme>ﺵﻮﺣﻭ</AnimalPersonhood.symbolPacks.1.theme>
+  
+  <!-- EN: blindsight -->
+  <Blindsight.label>ﻰﻤﻋﻷﺍ ﺭﺎﺼﺑﻹﺍ</Blindsight.label>
+  <!-- EN: Only those who are blind can perceive the true reality. -->
+  <Blindsight.description>ﻙﺍﺭﺩﺇ ﻢﻬﻨﻜﻤﻳ ﻥﺎﻴﻤﻌﻟﺍ ﻚﺌﻟﻭﺃ ﻂﻘﻓ\n.ﺔﻌﻗﺍﻮﻟﺍ ﺔﻘﻴﻘﺤﻟﺍ</Blindsight.description>
+  <!-- EN:
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name] looked over the dust of the void for an eternity, and there was nothing. Then [deity0_pronoun] tore out [deity0_possessive] eyes, and the universe formed inside [deity0_possessive] mind.</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->A blind beggar asked [deity0_objective], "Why have you forsaken me? I cannot even see what you have created." [deity0_name] replied, "You see more, not less, for my truth lies in the mind."</li>
+    <li>intro(tag=meme_Blindsight)           ->The [deity0_type] [deity0_name] used a pathogen to strike the settlers of the [place_summary] [place_name] blind, forcing them to understand that sight is a barrier to divine knowledge.</li>
+    <li>conflict(tag=meme_Blindsight)        ->A [foeLeader] demanded that all [memberNamePlural] watch [foeLeader_possessive] propaganda every day. Many blinded themselves in protest.</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->A [place_job] named [founderName] lost [founder_possessive] sight when [founder_pronoun] saved a [memberName] from one of [foeLeader]'s [foeSoldiers]. It was only then that [founderName] could truly see the tyranny of the [foeLeader].</li>
+    <li>victory(tag=meme_Blindsight)         ->[founderName] went to the [place_powerCenter] and cut the [foeLeader]'s eyes out with a spoon in a surprise suicide attack. Only then could the [foeLeader] see the divinity of [deity0_name].</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName] was a healer of the poor. Seeing so much daily suffering, [founder_pronoun] could take it no longer. [founder_pronoun] gouged [founder_possessive] eyes out with a blade, and found tranquility in blindness. [founder_pronoun] began to spread [founder_possessive] discovery to the sighted.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] visited a blind healer, and instead of teaching the man, found [founder_objective]self being taught, and came to understand that physical sight obscures true vision.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] was blind and took wisdom from sightlessness. [founder_pronoun] once personally removed the eyes of an entire family so that they may see as [founder_pronoun] does.</li>
+    <li>lessonIntro(tag=meme_Blindsight)         ->I walked strong but my soul stumbled on every step. I could just see too much. The acid on my eyes showed me that</li>
+    <li>lesson(tag=meme_Blindsight)              ->only the blind can truly see</li>
+    <li>lesson(tag=meme_Blindsight)              ->distraction comes through the eyes, while knowledge comes from within</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->I could never have fully understood it had I still been distracted by the images around me. The blade in my eye set me free.</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->It was only when I cut out my followers' eyes that they truly understood that.</li>
+    <li>archistBasis(tag=meme_Blindsight)    ->The archotechs, from their beginning, perceived the universe using senses beyond the physical.</li>
+    <li>archistFact(tag=meme_Blindsight)     ->Our eyes deceive us, and they stop us from understanding the universe the way the archotechs do.</li>
+    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], a blind person will pick up the [relic0_name], understand its purpose by its shape, and unlock the wisdom of the archotechs for all humanity.</li>
+    <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
+  -->
+  <Blindsight.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Blindsight)        -&gt;ﻢﻟﻭ ﻱﺪﺑﻷﺍ ﻡﺪﻌﻟﺍ ﺭﺎﺒﻏ [deity0_name] ﺐﻗﺍﺭ\nﻪﻴﻨﻴﻋ [deity0_pronoun] ﻊﻠﺘﻗﺍ ﻢﺛ .ﺀﻲﺷ ﻙﺎﻨﻫ ﻦﻜﻳ\n.ﻪﻠﻘﻋ ﻲﻓ ﻥﻮﻜﻟﺍ ﻞﻜﺸﺗﻭ</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  -&gt;ﺖﻴﻠﺨﺗ ﺍﺫﺎﻤﻟ" :[deity0_objective] ﻰﻤﻋﺃ ﻝﻮﺴﺘﻣ ﻝﺄﺳ\nﺎﻣ ﺔﻳﺅﺭ ﻰﺘﺣ ﻊﻴﻄﺘﺳﺃ ﻻ ؟ﻲﻨﻋ\n،ﺮﺜﻛﺃ ﻯﺮﺗ ﺖﻧﺃ" :[deity0_name] ﺏﺎﺟﺄﻓ ".ﺖﻘﻠﺧ\nﻲﻓ ﻦﻤﻜﺗ ﻲﺘﻘﻴﻘﺣ ﻥﻷ ،ﻞﻗﺃ ﻻ\n".ﻞﻘﻌﻟﺍ</li>
+    <li>intro(tag=meme_Blindsight)           -&gt;ﺏﺮﻀﻴﻟ ًﺎﺿﺍﺮﻤﻣ [deity0_type] [deity0_name] ﻡﺪﺨﺘﺳﺍ\nًﺍﺮﺒﺠﻣ ،ﻰﻤﻌﻟﺎﺑ [place_summary] [place_name] ﻲﻨﻃﻮﺘﺴﻣ\nﺰﺟﺎﺣ ﺮﺼﺒﻟﺍ ﻥﺃ ﻙﺍﺭﺩﺇ ﻰﻠﻋ ﻢﻫﺎﻳﺇ\n.ﺔﻴﻬﻟﻹﺍ ﺔﻓﺮﻌﻤﻟﺍ ﻡﺎﻣﺃ</li>
+    <li>conflict(tag=meme_Blindsight)        -&gt;ﻪﺘﻳﺎﻋﺩ ﺓﺪﻫﺎﺸﻣ [memberNamePlural] ﻊﻴﻤﺟ ﻦﻣ [foeLeader] ﺐﻠﻃ\nﻢﻬﺴﻔﻧﺃ ﻥﻭﺮﻴﺜﻜﻟﺍ ﻰﻤﻋﺃ .ﻡﻮﻳ ﻞﻛ\n.ًﺎﺟﺎﺠﺘﺣﺍ</li>
+    <li>founderJoin(tag=meme_Blindsight)     -&gt;ﺬﻘﻧﺃ ﺎﻣﺪﻨﻋ ﻩﺮﺼﺑ [founderName] ﻰﻋﺪُﻳ [place_job] ﺪﻘﻓ\nﻂﻘﻓ ﺎﻬﻨﻴﺣ .[foeLeader] ﺩﻮﻨﺟ ﺪﺣﺃ ﻦﻣ [memberName]\n.ًﺎﻘﺣ [foeLeader] ﻥﺎﻴﻐﻃ ﺔﻳﺅﺭ [founderName] ﻉﺎﻄﺘﺳﺍ</li>
+    <li>victory(tag=meme_Blindsight)         -&gt;ﺔﻘﻌﻠﻤﺑ [foeLeader] ﻲﻨﻴﻋ ﻊﻠﻗﻭ [place_powerCenter] ﻰﻟﺇ [founderName] ﺐﻫﺫ\nﺎﻫﺪﻨﻋ .ﺖﻏﺎﺒﻣ ﻱﺭﺎﺤﺘﻧﺍ ﻡﻮﺠﻫ ﻲﻓ\n.[deity0_name] ﺔﻴﻫﻮﻟﺃ ﺔﻳﺅﺭ [foeLeader] ﻉﺎﻄﺘﺳﺍ ﻂﻘﻓ</li>
+    <li>setup(tag=meme_Blindsight)           -&gt;ﺔﻳﺅﺮﺑ .ﺀﺍﺮﻘﻔﻠﻟ ًﺎﺠﻟﺎﻌﻣ [founderName] ﻥﺎﻛ\nﻢﻟ ،ﺔﻴﻣﻮﻴﻟﺍ ﺓﺎﻧﺎﻌﻤﻟﺍ ﻦﻣ ﺮﻴﺜﻜﻟﺍ\nﻪﻴﻨﻴﻋ ﻊﻠﺘﻗﺍ .ﻞﻤﺘﺤﻳ [founder_pronoun] ﺪﻌﻳ\n.ﻰﻤﻌﻟﺍ ﻲﻓ ﺔﻨﻴﻜﺴﻟﺍ ﺪﺟﻭﻭ ،ﺓﺮﻔﺸﺑ\n.ﻦﻳﺮﺼﺒﻤﻠﻟ ﻪﻓﺎﺸﺘﻛﺍ ﺮﺸﻨﻳ ﺃﺪﺑ</li>
+    <li>story(uses=1,tag=meme_Blindsight)    -&gt;ﻦﻣ ًﻻﺪﺑﻭ ،ﻰﻤﻋﺃ ًﺎﺠﻟﺎﻌﻣ [founderName] ﺭﺍﺯ\n،ﻢﻠﻌﺘﻳ ﻪﺴﻔﻧ ﺪﺟﻭ ،ﻞﺟﺮﻟﺍ ﻢﻴﻠﻌﺗ\nﺐﺠﺤﻳ ﻱﺪﺴﺠﻟﺍ ﺮﺼﺒﻟﺍ ﻥﺃ ﻙﺭﺩﺃﻭ\n.ﺔﻘﺤﻟﺍ ﺔﻳﺅﺮﻟﺍ</li>
+    <li>story(uses=1,tag=meme_Blindsight)    -&gt;ﻦﻣ ﺔﻤﻜﺤﻟﺍ ﻰﻘﺘﺳﺍﻭ ﻰﻤﻋﺃ [founderName] ﻥﺎﻛ\nﺓﺮﻣ ﻪﺴﻔﻨﺑ ﻡﺪﻗﺃ .ﺮﺼﺒﻟﺍ ﻥﺍﺪﻘﻓ\nﺎﻬﻠﻤﻛﺄﺑ ﺔﻠﺋﺎﻋ ﻥﻮﻴﻋ ﺔﻟﺍﺯﺇ ﻰﻠﻋ\n.ﻯﺮﻳ ﺎﻤﻛ ﺍﻭﺮﻴﻟ</li>
+    <li>lessonIntro(tag=meme_Blindsight)         -&gt;ﻲﻓ ﺕﺮﺜﻌﺗ ﻲﺣﻭﺭ ﻦﻜﻟ ًﺎﻳﻮﻗ ﺖﻴﺸﻣ\nﺎﻤﻣ ﺮﺜﻛﺃ ﻯﺭﺃ ﺖﻨﻛ .ﺓﻮﻄﺧ ﻞﻛ\nﻥﺃ ﻲﻨﻴﻋ ﻲﻓ ﺾﻤﺤﻟﺍ ﻲﻧﺍﺭﺃ .ﻲﻐﺒﻨﻳ</li>
+    <li>lesson(tag=meme_Blindsight)              -&gt;ﺔﻳﺅﺮﻟﺍ ﻥﻮﻌﻴﻄﺘﺴﻳ ﻥﺎﻴﻤﻌﻟﺍ ﻂﻘﻓ\nﺔﻘﺤﻟﺍ</li>
+    <li>lesson(tag=meme_Blindsight)              -&gt;ﺎﻤﻨﻴﺑ ،ﻥﻮﻴﻌﻟﺍ ﺮﺒﻋ ﺀﺎﻬﻟﻹﺍ ﻲﺗﺄﻳ\nﻞﺧﺍﺪﻟﺍ ﻦﻣ ﺔﻓﺮﻌﻤﻟﺍ ﻲﺗﺄﺗ</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) -&gt;ﺖﻴﻘﺑ ﻮﻟ ًﺎﻣﺎﻤﺗ ﻚﻟﺫ ﻢﻬﻓﻷ ﺖﻨﻛ ﺎﻣ\nﻲﻨﺗﺭﺮﺣ .ﻲﻟﻮﺣ ﻦﻣ ﺭﻮﺼﻟﺎﺑ ًﺎﺘﺘﺸﻣ\n.ﻲﻨﻴﻋ ﻲﻓ ﺓﺮﻔﺸﻟﺍ</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) -&gt;ﻲﻋﺎﺒﺗﺃ ﻥﻮﻴﻋ ﺖﻌﻠﻗ ﺎﻣﺪﻨﻋ ﻂﻘﻓ\n.ًﺎﻘﺣ ﻚﻟﺫ ﺍﻮﻤﻬﻓ</li>
+    <li>archistBasis(tag=meme_Blindsight)    -&gt;ﺖﻛﺭﺩﺃ ،ﺎﻬﺘﻳﺍﺪﺑ ﺬﻨﻣ ،ﺕﺎﻜﺗﻮﻛﺭﻵﺍ\n.ﻱﺩﺎﻤﻟﺍ ﺯﻭﺎﺠﺘﺗ ﺱﺍﻮﺤﺑ ﻥﻮﻜﻟﺍ</li>
+    <li>archistFact(tag=meme_Blindsight)     -&gt;ﻢﻬﻓ ﻦﻣ ﺎﻨﻌﻨﻤﺗﻭ ،ﺎﻨﻋﺪﺨﺗ ﺎﻨﻨﻴﻋﺃ\n.ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻪﻤﻬﻔﺗ ﺎﻤﻛ ﻥﻮﻜﻟﺍ</li>
+    <li>archistProphecy(tag=meme_Blindsight) -&gt;ﻦﻣ ﻪﺿﺮﻏ ﻢﻬﻔﻳﻭ [relic0_name] ﻰﻤﻋﺃ ﻂﻘﺘﻠﻴﺳ ،[inTheEnd]\nﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺔﻤﻜﺣ ﺢﺘﻔﻳﻭ ،ﻪﻠﻜﺷ\n.ﺀﺎﻌﻤﺟ ﺔﻳﺮﺸﺒﻠﻟ</li>
+    <li>animistFact(tag=meme_Blindsight)     -&gt;ﺔﻘﻳﺮﻄﻟﺍ ﻲﻫ ﺡﻭﺭ ﻲﻨﻴﻌﺑ ﺔﻳﺅﺮﻟﺍ\nﻢﻟﺎﻌﻟﺍ ﺔﻌﻴﺒﻃ ﺔﻳﺅﺮﻟ ﺓﺪﻴﺣﻮﻟﺍ\n.ﺔﻘﺤﻟﺍ</li>
+ </Blindsight.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->blind</li>
+    <li>memeAdjective->sightless</li>
+    <li>memeAdjective->visionary</li>
+    <li>memeAdjective->farsighted</li>
+    <li>memeCreed->view</li>
+    <li>memeCreed->cult</li>
+    <li>memeHyphenPrefix->blind</li>
+    <li>memeConcept->blindness</li>
+    <li>memeConcept->vision</li>
+    <li>memeConcept->sight</li>
+    <li>memeConcept->perception</li>
+    <li>memeLeaderNoun->visionary</li>
+    <li>memeLeaderAdjective->blind</li>
+    <li>memeMoralist->seer</li>
+    <li>memeMoralist->gouger</li>
+    <li>memeMoralist->blindfolder</li>
+  -->
+  <Blindsight.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;ﻰﻤﻋﺃ</li>
+    <li>memeAdjective-&gt;ﺮﺼﺒﻟﺍ ﻢﻳﺪﻋ</li>
+    <li>memeAdjective-&gt;ﺔﻳﺅﺭ ﺐﺣﺎﺻ</li>
+    <li>memeAdjective-&gt;ﺮﻈﻨﻟﺍ ﺪﻴﻌﺑ</li>
+    <li>memeCreed-&gt;ﻱﺃﺭ</li>
+    <li>memeCreed-&gt;ﺓﺩﺎﺒﻋ</li>
+    <li>memeHyphenPrefix-&gt;ﻰﻤﻋﺃ</li>
+    <li>memeConcept-&gt;ﻰﻤﻋ</li>
+    <li>memeConcept-&gt;ﺔﻳﺅﺭ</li>
+    <li>memeConcept-&gt;ﺮﺼﺑ</li>
+    <li>memeConcept-&gt;ﻙﺍﺭﺩﺇ</li>
+    <li>memeLeaderNoun-&gt;ﺔﻳﺅﺭ ﺐﺣﺎﺻ</li>
+    <li>memeLeaderAdjective-&gt;ﻰﻤﻋﺃ</li>
+    <li>memeMoralist-&gt;ﺀﺍﺭ</li>
+    <li>memeMoralist-&gt;ﻥﻮﻴﻌﻟﺍ ﻊﻠﻘﻣ</li>
+    <li>memeMoralist-&gt;ﻥﺎﻔﺟﻷﺍ ﻱﻮﻄﻣ</li>
+ </Blindsight.generalRules.rulesStrings>
+  
+  <!-- EN: cannibal -->
+  <Cannibal.label>ﺮﺸﺒﻟﺍ ﻡﻮﺤﻟ ﻞﻛﺁ</Cannibal.label>
+  <!-- EN: We must consume human flesh. -->
+  <Cannibal.description>.ﺮﺸﺒﻟﺍ ﻢﺤﻟ ﻚﻠﻬﺘﺴﻧ ﻥﺃ ﺐﺠﻳ</Cannibal.description>
+  <!-- EN:
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name] went to [deity0_possessive] brother and murdered him, and feasted upon his flesh, and in absorbing its power became first among the gods.</li>
+    <li>episode(uses=1,tag=meme_Cannibal)  ->The [deity0_type] [deity0_name] ate the bodies of [deity0_possessive] enemies.</li>
+    <li>intro(tag=meme_Cannibal)           ->On the [place_summary] [place_name], there was a human named [deity0_name]. After [deity0_possessive] father died, [deity0_name] ate his flesh and became the [deity0_type].</li>
+    <li>intro(tag=meme_Cannibal)           ->On the [place_summary] [place_name], during the [ritualName], [deity0_name] came down into the [altarRoomLabel] and ate the flesh of humans in front of the [memberNamePlural].</li>
+    <li>conflict(tag=meme_Cannibal)        ->A [foeLeader] declared that all who ate human flesh were criminals, and sent [foeSoldiers] to persecute the [memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->A [place_job] named [founderName] was attacked by one of the [foeLeader]'s [foeSoldiers]. [founderName] killed [foeLeader_objective] with a [place_personalWeapon], consumed [foeLeader_possessive] flesh, and gained [deity0_name]'s strength.</li>
+    <li>victory(tag=meme_Cannibal)         ->[founderName] led a group of [memberNamePlural] into the [place_powerCenter], killed the [foeLeader], and ate [foeLeader_possessive] flesh. [deity0_name] made [founderName] into the new [foeLeader].</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName] crashlanded on a distant world. Lacking food and surrounded by dead companions, [founder_pronoun] feasted, and became strong.</li>
+    <li>story(uses=1,tag=meme_Cannibal)    ->To consecrate their commitment, [founderName] demanded that believers eat human flesh together at least every week.</li>
+    <li>lessonIntro(tag=meme_Cannibal)         ->It's only over a hearty manpork meal that I could ever get people to understand the truth: That</li>
+    <li>lesson(tag=meme_Cannibal)              ->you never really come together with someone until you eat them</li>
+    <li>lessonReinforcement(tag=meme_Cannibal) ->Every time I share the body of a foe with a new friend, I make sure they understand this.</li>
+    <li>archistBasis(tag=meme_Cannibal)    ->The archotech god-machines made themselves by consuming their predecessors over and over, becoming stronger each time.</li>
+    <li>archistFact(tag=meme_Cannibal)     ->As the consciousness of an archotech expands, it must grow its substrate by consuming and merging with other machines.</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd], the archotechs will finish their final phase of growth by consuming and merging with all of humanity.</li>
+    <li>animistBasis(tag=meme_Cannibal)    ->Spirits infuse all objects around us, and we can absorb these spirits by eating them. There are no spirits as powerful as the ones that inhabit humans.</li>
+    <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
+  -->
+  <Cannibal.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Cannibal)        -&gt;ﻰﻠﻋ ﻢﻟﻭﻭ ،ﻪﻠﺘﻗﻭ ﻪﻴﺧﺃ ﻰﻟﺇ [deity0_name] ﺐﻫﺫ\nﻝﻭﻷﺍ ﺭﺎﺻ ﻪﺗﻮﻗ ﺹﺎﺼﺘﻣﺎﺑﻭ ،ﻪﻤﺤﻟ\n.ﺔﻬﻟﻵﺍ ﻦﻴﺑ</li>
+    <li>episode(uses=1,tag=meme_Cannibal)  -&gt;.ﻪﺋﺍﺪﻋﺃ ﺩﺎﺴﺟﺃ [deity0_type] [deity0_name] ﻞﻛﺃ</li>
+    <li>intro(tag=meme_Cannibal)           -&gt;.[deity0_name] ﻰﻋﺪُﻳ ﺮﺸﺑ ﻙﺎﻨﻫ ﻥﺎﻛ ،[place_summary] [place_name] ﻲﻓ\nﺭﺎﺻﻭ ﻪﻤﺤﻟ [deity0_name] ﻞﻛﺃ ،ﻪﻴﺑﺃ ﺕﻮﻣ ﺪﻌﺑ\n.[deity0_type]</li>
+    <li>intro(tag=meme_Cannibal)           -&gt;[altarRoomLabel] ﻰﻟﺇ [deity0_name] ﻝﺰﻧ ،[ritualName] ﺀﺎﻨﺛﺃ ،[place_summary] [place_name] ﻲﻓ\n.[memberNamePlural] ﻡﺎﻣﺃ ﺮﺸﺒﻟﺍ ﻢﺤﻟ ﻞﻛﺃﻭ</li>
+    <li>conflict(tag=meme_Cannibal)        -&gt;ﺮﺸﺒﻟﺍ ﻢﺤﻟ ﻞﻛﺄﻳ ﻦﻣ ﻞﻛ ﻥﺃ [foeLeader] ﻦﻠﻋﺃ\n.[memberNamePlural] ﺩﺎﻬﻄﺿﻻ ﻩﺩﻮﻨﺟ ﻞﺳﺭﺃﻭ ،ﻡﺮﺠﻣ</li>
+    <li>founderJoin(tag=meme_Cannibal)     -&gt;.[founderName] ﻰﻋﺪُﻳ [foeLeader] [place_job] ﺩﻮﻨﺟ ﺪﺣﺃ ﻢﺟﺎﻫ\nﻝﺎﻧﻭ ،ﻪﻤﺤﻟ ﻞﻛﺃﻭ ،[place_personalWeapon]ـﺑ [founderName] ﻪﻠﺘﻗ\n.[deity0_name] ﺓﻮﻗ</li>
+    <li>victory(tag=meme_Cannibal)         -&gt;ﻞﺘﻗﻭ ،[place_powerCenter] ﻰﻟﺇ [memberNamePlural] ﻦﻣ ﺔﻋﺎﻤﺟ [founderName] ﺩﺎﻗ\n[foeLeader]ـﻟﺍ [deity0_name] [founderName] ﻞﻌﺟ .ﻪﻤﺤﻟ ﻞﻛﺃﻭ ،[foeLeader]\n.ﺪﻳﺪﺠﻟﺍ</li>
+    <li>setup(tag=meme_Cannibal)           -&gt;ﻡﺎﻌﻃ ﻼﺑ .ﺪﻴﻌﺑ ﺐﻛﻮﻛ ﻰﻠﻋ [founderName] ﻢﻄﺤﺗ\n،ﻢﻬﻨﻣ ﻞﻛﺃ ،ﻪﻗﺎﻓﺭ ﺚﺜﺟ ﻦﻴﺑﻭ\n.ﺓﻮﻗ ﺩﺍﺩﺯﺍﻭ</li>
+    <li>story(uses=1,tag=meme_Cannibal)    -&gt;ﻦﻣ [founderName] ﺐﻠﻃ ،ﻢﻬﻣﺍﺰﺘﻟﺍ ﺲﻳﺮﻜﺘﻟ\nﺮﺸﺒﻟﺍ ﻢﺤﻟ ﺍﻮﻠﻛﺄﻳ ﻥﺃ ﻦﻴﻨﻣﺆﻤﻟﺍ\n.ﻞﻗﻷﺍ ﻰﻠﻋ ًﺎﻴﻋﻮﺒﺳﺃ ًﺎﻌﻣ</li>
+    <li>lessonIntro(tag=meme_Cannibal)         -&gt;ﻲﻬﺷ ﻱﺮﺸﺑ ﻢﺤﻟ ﺔﺒﺟﻭ ﻰﻠﻋ ﻂﻘﻓ\nﻥﻮﻤﻬﻔﻳ ﺱﺎﻨﻟﺍ ﻞﻌﺟﺃ ﻥﺃ ﻊﻴﻄﺘﺳﺃ\nﻥﺃ :ﺔﻘﻴﻘﺤﻟﺍ</li>
+    <li>lesson(tag=meme_Cannibal)              -&gt;ﻪﻠﻛﺄﺗ ﻰﺘﺣ ﺪﺣﺃ ﻊﻣ ًﺍﺪﺑﺃ ﺪﺤﺘﺗ ﻻ</li>
+    <li>lessonReinforcement(tag=meme_Cannibal) -&gt;ﻊﻣ ﻭﺪﻋ ﺪﺴﺟ ﻙﺭﺎﺷﺃ ﺓﺮﻣ ﻞﻛ ﻲﻓ\nﻢﻬﻧﺃ ﻦﻣ ﺪﻛﺄﺗﺃ ،ﺪﻳﺪﺟ ﻖﻳﺪﺻ\n.ﺍﺬﻫ ﻥﻮﻤﻬﻔﻳ</li>
+    <li>archistBasis(tag=meme_Cannibal)    -&gt;ﺎﻬﺴﻔﻧ ﺔﻴﻜﺗﻮﻛﺭﻵﺍ ﺔﻬﻟﻵﺍ ﺕﻻﺁ ﺖﻌﻨﺻ\nﺕﺩﺍﺩﺯﺍﻭ ،ًﺍﺭﺍﺮﻣ ﺎﻬﻓﻼﺳﺃ ﻙﻼﻬﺘﺳﺎﺑ\n.ﺓﺮﻣ ﻞﻛ ﻲﻓ ﺓﻮﻗ</li>
+    <li>archistFact(tag=meme_Cannibal)     -&gt;ﻥﺃ ﺐﺠﻳ ،ﻚﺗﻮﻛﺭﻵﺍ ﻲﻋﻭ ﻊﺳﻮﺗ ﻊﻣ\nﺕﻻﻵﺍ ﻙﻼﻬﺘﺳﺍ ﺮﺒﻋ ﺎﻬﺗﺰﻴﻛﺭ ﻲﻤﻨﺗ\n.ﺎﻬﺑ ﺝﺎﻣﺪﻧﻻﺍﻭ ﻯﺮﺧﻷﺍ</li>
+    <li>archistProphecy(tag=meme_Cannibal) -&gt;ﺎﻫﻮﻤﻧ ﺭﻮﻃ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻞﻤﻜﺘﺳ ،[inTheEnd]\nﺀﺎﻌﻤﺟ ﺔﻳﺮﺸﺒﻟﺍ ﻙﻼﻬﺘﺳﺎﺑ ﺮﻴﺧﻷﺍ\n.ﺎﻬﺑ ﺝﺎﻣﺪﻧﻻﺍﻭ</li>
+    <li>animistBasis(tag=meme_Cannibal)    -&gt;،ﺎﻨﻟﻮﺣ ﺎﻣ ﻞﻛ ﺡﺍﻭﺭﻷﺍ ﻞﻐﻠﻐﺗ\nﻻ .ﺎﻬﻠﻛﺄﺑ ﺎﻬﺻﺎﺼﺘﻣﺍ ﻊﻴﻄﺘﺴﻧﻭ\n.ﺮﺸﺒﻟﺍ ﻦﻜﺴﺗ ﻲﺘﻟﺍ ﻦﻣ ﻯﻮﻗﺃ ﺡﺍﻭﺭﺃ</li>
+    <li>animistFact(tag=meme_Cannibal)     -&gt;ﻦﻳﺮﺧﻵﺍ ﺓﻮﻗﻭ ﺡﻭﺭ ﺹﺎﺼﺘﻣﺍ ﻊﻴﻄﺘﺴﻧ\n.ﻢﻬﻣﻮﺤﻟ ﻙﻼﻬﺘﺳﺎﺑ</li>
+ </Cannibal.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->bloody</li>
+    <li>memeCreed->eaters</li>
+    <li>memeCreed->teeth</li>
+    <li>memeCreed->abattoir</li>
+    <li>memeCreed->cult</li>
+    <li>memeHyphenPrefix->blood</li>
+    <li>memeConcept->blood</li>
+    <li>memeConcept->flesh</li>
+    <li>memeConcept->murder</li>
+    <li>memeConcept->eating</li>
+    <li>memeConcept->meat</li>
+    <li>memeLeaderNoun->eater</li>
+    <li>memeLeaderNoun->chef</li>
+    <li>memeLeaderNoun->blood-drinker</li>
+    <li>memeLeaderNoun->tooth</li>
+    <li>memeLeaderNoun->fleshripper</li>
+    <li>memeMoralist->first-eater</li>
+    <li>memeMoralist->fleshknower</li>
+  -->
+  <Cannibal.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;ﻱﻮﻣﺩ</li>
+    <li>memeCreed-&gt;ﻥﻮﻠﻛﺁ</li>
+    <li>memeCreed-&gt;ﻥﺎﻨﺳﺃ</li>
+    <li>memeCreed-&gt;ﺦﻠﺴﻣ</li>
+    <li>memeCreed-&gt;ﺓﺩﺎﺒﻋ</li>
+    <li>memeHyphenPrefix-&gt;ﻡﺩ</li>
+    <li>memeConcept-&gt;ﻡﺩ</li>
+    <li>memeConcept-&gt;ﻢﺤﻟ</li>
+    <li>memeConcept-&gt;ﻞﺘﻗ</li>
+    <li>memeConcept-&gt;ﻞﻛﺃ</li>
+    <li>memeConcept-&gt;ﻢﺤﻟ</li>
+    <li>memeLeaderNoun-&gt;ﻞﻛﺁ</li>
+    <li>memeLeaderNoun-&gt;ﻩﺎﻃ</li>
+    <li>memeLeaderNoun-&gt;ﻡﺪﻟﺍ ﺏﺭﺎﺷ</li>
+    <li>memeLeaderNoun-&gt;ﻦﺳ</li>
+    <li>memeLeaderNoun-&gt;ﻢﺤﻠﻟﺍ ﻕﺰﻤﻣ</li>
+    <li>memeMoralist-&gt;ﻝﻭﻷﺍ ﻞﻛﻵﺍ</li>
+    <li>memeMoralist-&gt;ﻢﺤﻠﻟﺍ ﻑﺭﺎﻋ</li>
+ </Cannibal.generalRules.rulesStrings>
+  <!-- EN: cannibal -->
+  <Cannibal.symbolPacks.0.adjective>ﺮﺸﺒﻟﺍ ﻡﻮﺤﻟ ﻞﻛﺁ</Cannibal.symbolPacks.0.adjective>
+  <!-- EN: Cannibalism -->
+  <Cannibal.symbolPacks.0.ideoName>ﺮﺸﺒﻟﺍ ﻡﻮﺤﻟ ﻞﻛﺃ</Cannibal.symbolPacks.0.ideoName>
+  <!-- EN: cannibal -->
+  <Cannibal.symbolPacks.0.member>ﺮﺸﺒﻟﺍ ﻡﻮﺤﻟ ﻞﻛﺁ</Cannibal.symbolPacks.0.member>
+  <!-- EN: cannibalism -->
+  <Cannibal.symbolPacks.0.theme>ﺮﺸﺒﻟﺍ ﻡﻮﺤﻟ ﻞﻛﺃ</Cannibal.symbolPacks.0.theme>
+  <!-- EN: androphage -->
+  <Cannibal.symbolPacks.1.adjective>ﺮﺸﺒﻟﺍ ﻞﻛﺁ</Cannibal.symbolPacks.1.adjective>
+  <!-- EN: Androphagy -->
+  <Cannibal.symbolPacks.1.ideoName>ﺮﺸﺒﻟﺍ ﻞﻛﺃ</Cannibal.symbolPacks.1.ideoName>
+  <!-- EN: androphage -->
+  <Cannibal.symbolPacks.1.member>ﺮﺸﺒﻟﺍ ﻞﻛﺁ</Cannibal.symbolPacks.1.member>
+  <!-- EN: androphagy -->
+  <Cannibal.symbolPacks.1.theme>ﺮﺸﺒﻟﺍ ﻞﻛﺃ</Cannibal.symbolPacks.1.theme>
+  <!-- EN: manporky -->
+  <Cannibal.symbolPacks.2.adjective>ﻱﺮﺸﺑ ﻢﺤﻟ</Cannibal.symbolPacks.2.adjective>
+  <!-- EN: Manporkism -->
+  <Cannibal.symbolPacks.2.ideoName>ﺮﺸﺒﻟﺍ ﺔﻴﻤﺤﻟ</Cannibal.symbolPacks.2.ideoName>
+  <!-- EN: manporkist -->
+  <Cannibal.symbolPacks.2.member>ﻲﻤﺤﻟ</Cannibal.symbolPacks.2.member>
+  <!-- EN: manpork -->
+  <Cannibal.symbolPacks.2.theme>ﺮﺸﺒﻟﺍ ﻢﺤﻟ</Cannibal.symbolPacks.2.theme>
+  
+  <!-- EN: darkness -->
+  <Darkness.label>ﻡﻼﻈﻟﺍ</Darkness.label>
+  <!-- EN: Bright light burns and destroys! Darkness nourishes and creates. People ought to live in darkness. -->
+  <Darkness.description>ﻡﻼﻈﻟﺍ !ﺮﻣﺪﻳﻭ ﻕﺮﺤﻳ ﻊﻃﺎﺴﻟﺍ ﺀﻮﻀﻟﺍ\nﻥﺃ ﺱﺎﻨﻠﻟ ﻲﻐﺒﻨﻳ .ﻖﻠﺨﻳﻭ ﻱﺬﻐﻳ\n.ﻡﻼﻈﻟﺍ ﻲﻓ ﺍﻮﺸﻴﻌﻳ</Darkness.description>
+  <!-- EN:
+    <li>creation(tag=meme_Darkness)        ->[deity0_name] cloaked the universe in darkness and placed humanity within it so that [deity0_pronoun] could share the darkness with us.</li>
+    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] created light so that humanity could know [deity0_name] through the shadows light creates.</li>
+    <li>intro(tag=meme_Darkness)           ->The [deity0_type] [deity0_name] created a decade-long eclipse to force the first settlers of the [place_summary] [place_name] to understand that [deity0_name]'s truth is found in the shadow.</li>
+    <li>conflict(tag=meme_Darkness)        ->A [foeLeader], who had always been afraid of the dark, erected a solar mirror to bring constant sunlight to [place_name].</li>
+    <li>founderJoin(tag=meme_Darkness)     ->The prophet [founderName] was born in darkness on [place_name] and lived in darkness [founder_possessive] whole life, so [founder_possessive] voice spoke with the wisdom of [deity0_name].</li>
+    <li>victory(tag=meme_Darkness)         ->In a final strike, the [memberNamePlural] cut the power to the [place_powerCenter] and [founderName] snuck past the [foeSoldiers]. Finding the [foeLeader] in darkness, [founderName] used [founder_possessive] [place_personalWeapon] to send [foeLeader_objective] to the endless black.</li>
+    <li>setup(tag=meme_Darkness)           ->[founderName] lived a confused life in the harsh light of a glitterworld city. In the long darkness following a solar flare, [founder_pronoun] found peace and contemplation, and recorded the treatise that founded our movement.</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->[founderName] created a studio where the artists worked in the dark, and it produced many masterpieces.</li>
+    <li>lessonIntro(tag=meme_Darkness)         ->I spent my whole childhood squinting under harsh lights. It took so long to understand that</li>
+    <li>lesson(tag=meme_Darkness)              ->the light burns, but the darkness nourishes</li>
+    <li>lessonReinforcement(tag=meme_Darkness) ->I like to joke that this was my light-bulb moment.</li>
+    <li>archistFact(tag=meme_Darkness)     ->Archotechs developed vanometric technology so they could flee the energetic light of the inner solar systems and reside in the peaceful darkness of deep space.</li>
+    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd], the archotechs will absorb the power of the stars, plunging worlds into darkness and allowing the people to merge with the universal consciousness.</li>
+    <li>animistFact(tag=meme_Darkness)     ->In the darkness, the spirits are peaceful and satisfied. In the light, they are annoyed and restless.</li>
+    <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
+  -->
+  <Darkness.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Darkness)        -&gt;ﻊﺿﻭﻭ ﻡﻼﻈﻟﺎﺑ ﻥﻮﻜﻟﺍ [deity0_name] ﻦﻔﻛ\n.ﻡﻼﻈﻟﺍ ﺎﻨﻛﺭﺎﺸﻴﻟ ﻪﻴﻓ ﺔﻳﺮﺸﺒﻟﺍ</li>
+    <li>episode(uses=1,tag=meme_Darkness)  -&gt;ﻦﻣ [deity0_name] ﺔﻳﺮﺸﺒﻟﺍ ﻑﺮﻌﺘﻟ ﺭﻮﻨﻟﺍ [deity0_name] ﻖﻠﺧ\n.ﺭﻮﻨﻟﺍ ﺎﻬﻌﻨﺼﻳ ﻲﺘﻟﺍ ﻝﻼﻈﻟﺍ ﻝﻼﺧ</li>
+    <li>intro(tag=meme_Darkness)           -&gt;ًﺍﺪﻘﻋ ﻡﺍﺩ ًﺎﻓﻮﺴﻛ [deity0_type] [deity0_name] ﺙﺪﺣﺃ\nﻥﺃ ﻢﻬﻓ ﻰﻠﻋ [place_summary] [place_name] ﻲﻨﻃﻮﺘﺴﻣ ﺮﺒﺠﻴﻟ\n.ﻞﻈﻟﺍ ﻲﻓ ﺪﺟﻮﺗ [deity0_name] ﺔﻘﻴﻘﺣ</li>
+    <li>conflict(tag=meme_Darkness)        -&gt;ﻡﻼﻈﻟﺍ ﻑﺎﺧ ﺎﻤﻟﺎﻄﻟ ﻱﺬﻟﺍ [foeLeader] ﺐﺼﻧ\nﺲﻤﺸﻟﺍ ﺀﻮﺿ ﺐﻠﺠﻟ ﺔﻴﺴﻤﺷ ﺓﺁﺮﻣ\n.[place_name] ﻰﻟﺇ ﻢﺋﺍﺪﻟﺍ</li>
+    <li>founderJoin(tag=meme_Darkness)     -&gt;[place_name] ﻰﻠﻋ ﻡﻼﻈﻟﺍ ﻲﻓ [founderName] ﻲﺒﻨﻟﺍ ﺪﻟﻭ\n،ﻪﺗﺎﻴﺣ ﻝﺍﻮﻃ ﻡﻼﻈﻟﺍ ﻲﻓ ﺵﺎﻋﻭ\n.[deity0_name] ﺔﻤﻜﺤﺑ ﻪﺗﻮﺻ ﻢﻠﻜﺘﻓ</li>
+    <li>victory(tag=meme_Darkness)         -&gt;ﻦﻋ ﺔﻗﺎﻄﻟﺍ [memberNamePlural] ﻊﻄﻗ ،ﺓﺮﻴﺧﺃ ﺔﺑﺮﺿ ﻲﻓ\nﻩﺪﺟﻭ ﻰﺘﺣ [foeLeader] ﺩﻮﻨﺟ ﺮﺒﻋ [founderName] ﻞﻠﺴﺗﻭ [place_powerCenter]\nﻪﺑ ﺚﻌﺒﻴﻟ [place_personalWeapon] ﻡﺪﺨﺘﺳﺍﻭ ،ﻡﻼﻈﻟﺍ ﻲﻓ\n.ﻱﺪﺑﻷﺍ ﺩﺍﻮﺴﻟﺍ ﻰﻟﺇ</li>
+    <li>setup(tag=meme_Darkness)           -&gt;ﺀﻮﺿ ﺖﺤﺗ ﺔﺑﺮﻄﻀﻣ ﺓﺎﻴﺣ [founderName] ﺵﺎﻋ\nﻡﻼﻈﻟﺍ ﻲﻓ .ﺱﺎﻗ ﺊﻟﻸﺘﻣ ﻢﻟﺎﻋ ﺔﻨﻳﺪﻣ\n[founder_pronoun] ﺪﺟﻭ ،ﻲﺴﻤﺷ ﺞﻫﻮﺗ ﺪﻌﺑ ﻞﻳﻮﻄﻟﺍ\nﻱﺬﻟﺍ ﺚﺤﺒﻟﺍ ﻞﺠﺳﻭ ،ﻞﻣﺄﺘﻟﺍﻭ ﻡﻼﺴﻟﺍ\n.ﺎﻨﺘﻛﺮﺣ ﺲﺳﺃ</li>
+    <li>story(uses=1,tag=meme_Darkness)    -&gt;ﻪﻴﻓ ﻞﻤﻌﻳ ﻮﻳﺩﻮﺘﺳﺍ [founderName] ﺄﺸﻧﺃ\nﺐﺠﻧﺄﻓ ،ﻡﻼﻈﻟﺍ ﻲﻓ ﻥﻮﻧﺎﻨﻔﻟﺍ\n.ﻊﺋﺍﻭﺮﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ</li>
+    <li>lessonIntro(tag=meme_Darkness)         -&gt;ﺖﺤﺗ ًﺎﻗﺪﺤﻣ ﺔﻠﻣﺎﻛ ﻲﺘﻟﻮﻔﻃ ﺖﻴﻀﻣﺃ\nًﻼﻳﻮﻃ ﺮﻣﻷﺍ ﻕﺮﻐﺘﺳﺍ .ﺔﻴﺳﺎﻗ ﺀﺍﻮﺿﺃ\nﻥﺃ ﻢﻬﻓﻷ</li>
+    <li>lesson(tag=meme_Darkness)              -&gt;ﻱﺬﻐﻳ ﻡﻼﻈﻟﺍ ﻦﻜﻟ ،ﻕﺮﺤﻳ ﺭﻮﻨﻟﺍ</li>
+    <li>lessonReinforcement(tag=meme_Darkness) -&gt;ﺔﻈﺤﻟ ﺖﻧﺎﻛ ﻩﺬﻫ ﻥﺃ ﺡﺰﻣﺃ ﻥﺃ ﺐﺣﺃ\n.ﻲﺗﺀﺎﺿﺇ</li>
+    <li>archistFact(tag=meme_Darkness)     -&gt;ﺔﻴﻨﻘﺗ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺕﺭﻮﻃ\nﺔﻤﻈﻧﻷﺍ ﺀﻮﺿ ﻦﻣ ﺏﺮﻬﺘﻟ ﻱﺮﺘﻣﻮﻧﺎﻔﻟﺍ\nﺮﻘﺘﺴﺗﻭ ﻂﻴﺸﻨﻟﺍ ﺔﻴﻠﺧﺍﺪﻟﺍ ﺔﻴﺴﻤﺸﻟﺍ\n.ﺉﺩﺎﻬﻟﺍ ﻖﻴﺤﺴﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻡﻼﻇ ﻲﻓ</li>
+    <li>archistProphecy(tag=meme_Darkness) -&gt;ﺔﻗﺎﻃ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺺﺘﻤﺘﺳ ،[inTheEnd]\nﻲﻓ ﻢﻟﺍﻮﻌﻟﺍ ﺔﻘﻗﺮﻐﻣ ،ﻡﻮﺠﻨﻟﺍ\nﻊﻣ ﺝﺎﻣﺪﻧﻻﺎﺑ ﺮﺸﺒﻠﻟ ﺢﻤﺴﺘﻟ ﻡﻼﻈﻟﺍ\n.ﻲﻧﻮﻜﻟﺍ ﻲﻋﻮﻟﺍ</li>
+    <li>animistFact(tag=meme_Darkness)     -&gt;ﺔﻤﻟﺎﺴﻣ ﺡﺍﻭﺭﻷﺍ ،ﻡﻼﻈﻟﺍ ﻲﻓ\nﺔﺠﻋﺰﻨﻣ ﻲﻫ ،ﺭﻮﻨﻟﺍ ﻲﻓ .ﺔﻴﺿﺍﺭﻭ\n.ﺔﺑﺮﻄﻀﻣﻭ</li>
+    <li>animistFact(tag=meme_Darkness)     -&gt;ﻝﻼﻈﻟﺍ ﻲﻓ ﺔﺒﻴﻄﻟﺍ ﺡﺍﻭﺭﻷﺍ ﺶﻴﻌﺗ\nﻲﺘﻟﺍ ﻊﻘﺒﻟﺍ ﻲﻓ ﺢﻳﺮﺘﺴﺗ ،ﺎﻨﻟﻮﺣ\nﻡﻼﻈﻟﺍ ﻊﻣ ﺶﻴﻌﻟﺍ .ﺎﻬﺘﻳﺅﺭ ﺐﻌﺼﻳ\n.ﺎﻨﻴﻟﺇ ﺎﻬﺑﺮﻘﻳ</li>
+ </Darkness.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->dark</li>
+    <li>memeAdjective->dim</li>
+    <li>memeHyphenPrefix->dark</li>
+    <li>memeHyphenPrefix->dim</li>
+    <li>memeConcept->darkness</li>
+    <li>memeConcept->dimness</li>
+    <li>memeConcept->blackness</li>
+    <li>memeLeaderNoun->shrouder</li>
+    <li>memeLeaderNoun->lightkiller</li>
+    <li>memeLeaderAdjective->dark</li>
+    <li>memeMoralist->obscurer</li>
+    <li>memeMoralist->darkener</li>
+    <li>memeMoralist->confuser</li>
+  -->
+  <Darkness.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;ﻢﻠﻈﻣ</li>
+    <li>memeAdjective-&gt;ﺖﻓﺎﺧ</li>
+    <li>memeHyphenPrefix-&gt;ﻢﻠﻈﻣ</li>
+    <li>memeHyphenPrefix-&gt;ﺖﻓﺎﺧ</li>
+    <li>memeConcept-&gt;ﻡﻼﻇ</li>
+    <li>memeConcept-&gt;ﺖﻔﺧ</li>
+    <li>memeConcept-&gt;ﺩﺍﻮﺳ</li>
+    <li>memeLeaderNoun-&gt;ﻦﻔﻜﻣ</li>
+    <li>memeLeaderNoun-&gt;ﺭﻮﻨﻟﺍ ﻞﺗﺎﻗ</li>
+    <li>memeLeaderAdjective-&gt;ﻢﻠﻈﻣ</li>
+    <li>memeMoralist-&gt;ﺐﺠﺤﻣ</li>
+    <li>memeMoralist-&gt;ﻢﻠﻈﻣ</li>
+    <li>memeMoralist-&gt;ﻚﺑﺮﻣ</li>
+ </Darkness.generalRules.rulesStrings>
+  
+  <!-- EN: flesh purity -->
+  <FleshPurity.label>ﺪﺴﺠﻟﺍ ﺮﻬﻃ</FleshPurity.label>
+  <!-- EN: The human body should not be debased. -->
+  <FleshPurity.description>.ﻥﺎﺴﻧﻹﺍ ﺪﺴﺟ ﺲﻴﻧﺪﺗ ﻲﻐﺒﻨﻳ ﻻ</FleshPurity.description>
+  <!-- EN:
+    <li>creation(tag=meme_FleshPurity)        ->[deity0_name] wiped away the pollution and machines of the age of smoke to create a garden, wherein [deity0_pronoun] placed the first pure human progenitors.</li>
+    <li>episode(uses=1,tag=meme_FleshPurity)  ->The unclean, tattooed, pierced, and modified were cast into the ocean by [deity0_name].</li>
+    <li>intro(tag=meme_FleshPurity)           ->On the [place_summary] [place_name] there was a [altarName] in [deity0_name]'s [altarRoomLabel], where the [deity0_type] would bless those of pure flesh.</li>
+    <li>conflict(tag=meme_FleshPurity)        ->An evil [foeLeader] sent [foeSoldiers] to inject everyone with tracking devices.</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->A [place_job] named [founderName] protested the [foeLeader] by kneeling in front of the [place_powerCenter] and ripping all technology from [founder_possessive] body using [founder_possessive] bare hands.</li>
+    <li>victory(tag=meme_FleshPurity)         ->The [foeLeader] finally sent [foeSoldiers] to kill the [memberNamePlural], but [deity0_name]'s energy flowed from the pure flesh of the [memberNamePlural], and the devices in the [foeSoldiers]' bodies turned to ash and killed them.</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName] ruined [founder_possessive] body with implants and drugs, until in an epiphany, [founder_pronoun] saved [founder_objective]self by tearing the steel from [founder_possessive] body.</li>
+    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName] instructed all [founder_possessive] followers to tear the filthy devices from their bodies.</li>
+    <li>lessonIntro(tag=meme_FleshPurity)         ->The first ten among my followers tore the devices from their skin with bare hands, and in the blood spatters on the grimy floor I suddenly perceived the truth we had all been missing:</li>
+    <li>lesson(tag=meme_FleshPurity)              ->living in a polluted body is no human life at all</li>
+    <li>lessonReinforcement(tag=meme_FleshPurity) ->It became so clear after I finally ripped the metal from my body and peeled away the filthy tattooed skin.</li>
+    <li>archistBasis(tag=meme_FleshPurity)    ->From their beginning, archotechs drew a clear line between beings of flesh and beings of technology, and that line should not be blurred.</li>
+    <li>archistFact(tag=meme_FleshPurity)     ->We do not become more like the archotechs by physically imitating their form, but by achieving enlightenment within our own pure form.</li>
+    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd], those who made their bodies into twisted imitations of the machine-being will be purged, and those of pure flesh will be saved.</li>
+    <li>animistBasis(tag=meme_FleshPurity)    ->Spirits live in all things, and to alter the nature of the thing is to poison the spirit within.</li>
+    <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li>
+  -->
+  <FleshPurity.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_FleshPurity)        -&gt;ﻥﺎﺧﺪﻟﺍ ﺮﺼﻋ ﺕﻻﺁﻭ ﺙﻮﻠﺗ [deity0_name] ﻝﺍﺯﺃ\nﺀﺎﺑﻵﺍ ﻝﻭﺃ ﺎﻬﻴﻓ ﻊﺿﻭﻭ ،ﺔﻨﺟ ﻖﻠﺨﻴﻟ\n.ﺀﺎﻴﻘﻧﻷﺍ ﻦﻴﻳﺮﺸﺒﻟﺍ</li>
+    <li>episode(uses=1,tag=meme_FleshPurity)  -&gt;ﻦﻴﻣﻮﺷﻮﻤﻟﺍﻭ ﻦﻴﺴﺠﻨﻟﺎﺑ [deity0_name] ﻰﻘﻟﺃ\nﻲﻓ ﻦﻴﻟﺪﻌﻤﻟﺍﻭ ﻦﻴﻗﺮﺘﺨﻤﻟﺍﻭ\n.ﻂﻴﺤﻤﻟﺍ</li>
+    <li>intro(tag=meme_FleshPurity)           -&gt;ﺹﺎﺨﻟﺍ [altarRoomLabel] ﻲﻓ [altarName] ﻙﺎﻨﻫ ﻥﺎﻛ [place_summary] [place_name] ﻲﻓ\nﺪﺴﺠﻟﺍ ﻱﻭﺫ [deity0_type] ﻙﺭﺎﺒﻳ ﺚﻴﺣ ،[deity0_name]ـﺑ\n.ﺮﻫﺎﻄﻟﺍ</li>
+    <li>conflict(tag=meme_FleshPurity)        -&gt;ﺍﻮﻨﻘﺤﻴﻟ ﻩﺩﻮﻨﺟ ﺮﻳﺮﺷ [foeLeader] ﻞﺳﺭﺃ\n.ﺐﻘﻌﺗ ﺓﺰﻬﺟﺄﺑ ﻊﻴﻤﺠﻟﺍ</li>
+    <li>founderJoin(tag=meme_FleshPurity)     -&gt;ﻉﻮﻛﺮﻟﺎﺑ [foeLeader] ﻰﻠﻋ [founderName] ﻰﻋﺪُﻳ [place_job] ﺞﺘﺣﺍ\nﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻞﻛ ﻉﺍﺰﺘﻧﺍﻭ [place_powerCenter] ﻡﺎﻣﺃ\n.ﻦﻴﺘﻳﺭﺎﻌﻟﺍ ﻪﻳﺪﻴﺑ ﻩﺪﺴﺟ ﻦﻣ</li>
+    <li>victory(tag=meme_FleshPurity)         -&gt;،[memberNamePlural] ﻞﺘﻘﻟ ﻩﺩﻮﻨﺟ [foeLeader] ﻞﺳﺭﺃ ًﺍﺮﻴﺧﺃ\nﻢﺤﻠﻟﺍ ﻦﻣ ﺖﻘﻓﺪﺗ [deity0_name] ﺔﻗﺎﻃ ﻦﻜﻟ\nﻲﻓ ﺓﺰﻬﺟﻷﺍ ﺖﻟﻮﺤﺘﻓ ،[memberNamePlural]ـﻟ ﺮﻫﺎﻄﻟﺍ\n.ﻢﻬﺘﻠﺘﻗﻭ ﺩﺎﻣﺭ ﻰﻟﺇ ﺩﻮﻨﺠﻟﺍ ﺩﺎﺴﺟﺃ</li>
+    <li>setup(tag=meme_FleshPurity)           -&gt;،ﺕﺍﺭﺪﺨﻤﻟﺍﻭ ﺕﺎﺳﺮﻐﻟﺎﺑ ﻩﺪﺴﺟ [founderName] ﺮﻣﺩ\nٍﻞﺠﺗ ﺔﻈﺤﻟ ﻲﻓ ﻪﺴﻔﻧ ﺬﻘﻧﺃ ﻰﺘﺣ\n.ﻩﺪﺴﺟ ﻦﻣ ﺫﻻﻮﻔﻟﺍ ﻖﻳﺰﻤﺘﺑ</li>
+    <li>story(uses=1,tag=meme_FleshPurity)    -&gt;ﻖﻳﺰﻤﺘﺑ ﻪﻋﺎﺒﺗﺃ ﻊﻴﻤﺟ [founderName] ﺮﻣﺃ\n.ﻢﻫﺩﺎﺴﺟﺃ ﻦﻣ ﺓﺭﺬﻘﻟﺍ ﺓﺰﻬﺟﻷﺍ</li>
+    <li>lessonIntro(tag=meme_FleshPurity)         -&gt;ﻲﻋﺎﺒﺗﺃ ﻦﻣ ﻞﺋﺍﻭﻷﺍ ﺓﺮﺸﻌﻟﺍ ﻕﺰﻣ\n،ﺔﻳﺭﺎﻋ ٍﺪﻳﺄﺑ ﻢﻫﺩﻮﻠﺟ ﻦﻋ ﺓﺰﻬﺟﻷﺍ\nﺓﺭﺬﻘﻟﺍ ﺽﺭﻷﺍ ﻰﻠﻋ ﺀﺎﻣﺪﻟﺍ ﻊﻘﺑ ﻲﻓﻭ\nﺖﺑﺎﻏ ﻲﺘﻟﺍ ﺔﻘﻴﻘﺤﻟﺍ ﺓﺄﺠﻓ ﺖﻛﺭﺩﺃ\n:ًﺎﻌﻴﻤﺟ ﺎﻨﻋ</li>
+    <li>lesson(tag=meme_FleshPurity)              -&gt;ﺓﺎﻴﺣ ﺲﻴﻟ ﺙﻮﻠﻣ ﺪﺴﺟ ﻲﻓ ﺶﻴﻌﻟﺍ\nﻕﻼﻃﻹﺍ ﻰﻠﻋ ﺔﻳﺮﺸﺑ</li>
+    <li>lessonReinforcement(tag=meme_FleshPurity) -&gt;ﺖﻗﺰﻣ ﻥﺃ ﺪﻌﺑ ًﺎﻴﻠﺟ ﺮﻣﻷﺍ ﺢﻀﺗﺍ\nﺖﺨﻠﺳﻭ ﻱﺪﺴﺟ ﻦﻣ ﻥﺪﻌﻤﻟﺍ ًﺍﺮﻴﺧﺃ\n.ﺭﺬﻘﻟﺍ ﻡﻮﺷﻮﻤﻟﺍ ﺪﻠﺠﻟﺍ</li>
+    <li>archistBasis(tag=meme_FleshPurity)    -&gt;ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺖﻤﺳﺭ ،ﺎﻬﺘﻳﺍﺪﺑ ﺬﻨﻣ\nﻢﺤﻠﻟﺍ ﺕﺎﻨﺋﺎﻛ ﻦﻴﺑ ًﺎﺤﺿﺍﻭ ًﺎﻄﺧ\nﻻﺃ ﺐﺠﻳﻭ ،ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺕﺎﻨﺋﺎﻛﻭ\n.ﻂﺨﻟﺍ ﺍﺬﻫ ﺲﻤﻄﻳ</li>
+    <li>archistFact(tag=meme_FleshPurity)     -&gt;ﺪﻴﻠﻘﺘﺑ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻞﺜﻣ ﺢﺒﺼﻧ ﻻ\nﻖﻴﻘﺤﺘﺑ ﻞﺑ ،ًﺎﻳﺪﺴﺟ ﺎﻬﻠﻜﺷ\n.ﺹﺎﺨﻟﺍ ﻲﻘﻨﻟﺍ ﺎﻨﻠﻜﺷ ﻲﻓ ﺓﺭﺎﻨﺘﺳﻻﺍ</li>
+    <li>archistProphecy(tag=meme_FleshPurity) -&gt;ﺍﻮﻠﻌﺟ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﺮﻬﻄُﻴﺳ ،[inTheEnd]\nﻦﺋﺎﻜﻠﻟ ًﺎﻫﻮﺸﻣ ًﺍﺪﻴﻠﻘﺗ ﻢﻫﺩﺎﺴﺟﺃ\nﺪﺴﺠﻟﺍ ﻭﻭﺫ ﺺﻠﺨُﻴﺳﻭ ،ﻲﻟﻵﺍ\n.ﺮﻫﺎﻄﻟﺍ</li>
+    <li>animistBasis(tag=meme_FleshPurity)    -&gt;ﺮﻴﻴﻐﺗﻭ ،ﺀﻲﺷ ﻞﻛ ﺡﺍﻭﺭﻷﺍ ﻦﻜﺴﺗ\nﺡﻭﺮﻠﻟ ﻢﻴﻤﺴﺗ ﻮﻫ ﺀﻲﺸﻟﺍ ﺔﻌﻴﺒﻃ\n.ﻪﻠﺧﺍﺪﺑ ﻲﺘﻟﺍ</li>
+    <li>animistFact(tag=meme_FleshPurity)     -&gt;ﺡﻭﺭ ﺪﺴﻔﻳ ﺔﻟﻵﺍﻭ ﻢﺤﻠﻟﺍ ﺞﻣﺩ\n.ﺎﻤﻬﻴﻠﻛ</li>
+ </FleshPurity.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->clean</li>
+    <li>memeAdjective->pure</li>
+    <li>memeAdjective->sacred</li>
+    <li>memeCreed->cult</li>
+    <li>memeCreed->sect</li>
+    <li>memeConcept->flesh</li>
+    <li>memeConcept->purity</li>
+    <li>memeConcept->immaculacy</li>
+    <li>memeLeaderNoun->being</li>
+    <li>memeLeaderNoun->human</li>
+    <li>memeMoralist->purifier</li>
+  -->
+  <FleshPurity.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;ﻒﻴﻈﻧ</li>
+    <li>memeAdjective-&gt;ﺮﻫﺎﻃ</li>
+    <li>memeAdjective-&gt;ﺱﺪﻘﻣ</li>
+    <li>memeCreed-&gt;ﺓﺩﺎﺒﻋ</li>
+    <li>memeCreed-&gt;ﺔﻔﺋﺎﻃ</li>
+    <li>memeConcept-&gt;ﻢﺤﻟ</li>
+    <li>memeConcept-&gt;ﺓﺭﺎﻬﻃ</li>
+    <li>memeConcept-&gt;ﺓﻭﺎﻘﻧ</li>
+    <li>memeLeaderNoun-&gt;ﻦﺋﺎﻛ</li>
+    <li>memeLeaderNoun-&gt;ﻥﺎﺴﻧﺇ</li>
+    <li>memeMoralist-&gt;ﺮﻬﻄﻣ</li>
+ </FleshPurity.generalRules.rulesStrings>
+  <!-- EN: purist -->
+  <FleshPurity.symbolPacks.0.adjective>ﻲﺋﺎﻘﻧ</FleshPurity.symbolPacks.0.adjective>
+  <!-- EN: Purism -->
+  <FleshPurity.symbolPacks.0.ideoName>ﺔﻴﺋﺎﻘﻨﻟﺍ</FleshPurity.symbolPacks.0.ideoName>
+  <!-- EN: purifier -->
+  <FleshPurity.symbolPacks.0.member>ﺮﻬﻄﻣ</FleshPurity.symbolPacks.0.member>
+  <!-- EN: purity -->
+  <FleshPurity.symbolPacks.0.theme>ﺓﺭﺎﻬﻃ</FleshPurity.symbolPacks.0.theme>
+  <!-- EN: fleshist -->
+  <FleshPurity.symbolPacks.1.adjective>ﻲﻤﺤﻟ</FleshPurity.symbolPacks.1.adjective>
+  <!-- EN: Fleshism -->
+  <FleshPurity.symbolPacks.1.ideoName>ﺔﻴﻤﺤﻠﻟﺍ</FleshPurity.symbolPacks.1.ideoName>
+  <!-- EN: fleshist -->
+  <FleshPurity.symbolPacks.1.member>ﻲﻤﺤﻟ</FleshPurity.symbolPacks.1.member>
+  <!-- EN: flesh -->
+  <FleshPurity.symbolPacks.1.theme>ﻢﺤﻟ</FleshPurity.symbolPacks.1.theme>
+  <!-- EN: sanctic -->
+  <FleshPurity.symbolPacks.2.adjective>ﻲﺳﺪﻗ</FleshPurity.symbolPacks.2.adjective>
+  <!-- EN: Sanctism -->
+  <FleshPurity.symbolPacks.2.ideoName>ﺔﻴﺳﺪﻘﻟﺍ</FleshPurity.symbolPacks.2.ideoName>
+  <!-- EN: sanctic -->
+  <FleshPurity.symbolPacks.2.member>ﻲﺳﺪﻗ</FleshPurity.symbolPacks.2.member>
+  <!-- EN: sanctity -->
+  <FleshPurity.symbolPacks.2.theme>ﺔﻴﺳﺪﻗ</FleshPurity.symbolPacks.2.theme>
+  
+  <!-- EN: high life -->
+  <HighLife.label>ﺔﻴﻗﺍﺮﻟﺍ ﺓﺎﻴﺤﻟﺍ</HighLife.label>
+  <!-- EN: Exotic states of mind are central to a good life. -->
+  <HighLife.description>ﺔﻴﺳﺎﺳﺃ ﺔﺒﻳﺮﻐﻟﺍ ﻲﻋﻮﻟﺍ ﺕﻻﺎﺣ\n.ﺔﺒﻴﻄﻟﺍ ﺓﺎﻴﺤﻠﻟ</HighLife.description>
+  <!-- EN:
+    <li>creation(tag=meme_HighLife)           ->The universe was smoke, and [deity0_name] coalesced in the wisps and awoke.</li>
+    <li>episode(uses=1,tag=meme_HighLife)     ->The [deity0_type] [deity0_name] concealed [deity0_possessive] truths in the folds of reality, invisible in normal states of mind.</li>
+    <li>intro(tag=meme_HighLife)              ->The [place_summary] [place_name] was first discovered by [deity0_name]'s grace, when a drunk starship captain almost crashed into it.</li>
+    <li>conflict(tag=meme_HighLife)           ->A puritan [foeLeader] despised the [memberNamePlural], and to erase their uniqueness, outlawed the use of mind-altering substances.</li>
+    <li>founderJoin(tag=meme_HighLife)        ->When all seemed lost, [deity0_name] came to the prophet [founderName] in a drug-fueled haze and gave [founder_objective] the unique perspective needed to defeat the [foeSoldiers].</li>
+    <li>victory(tag=meme_HighLife)            ->The [foeLeader]'s [foeSoldiers], armed with [place_personalWeapon]s, raided the [place_community] of the [memberNamePlural]. [founderName] offered them a peace pipe, and the [foeSoldiers] put down their weapons.</li>
+    <li>setup(tag=meme_HighLife)              ->Cast out from society, our founder [founderName] traveled into the jungle and ingested the exotic herbs there. [founder_pronoun] found truth inside [founder_possessive] own altered consciousness.</li>
+    <li>story(uses=1,tag=meme_HighLife)       ->To deepen their understanding, [founderName] brought [founder_possessive] followers together every week to share new chemical-inducted mental states.</li>
+    <li>lessonIntro(tag=meme_HighLife)         ->Getting high once wasn't enough, man. We had to do it a thousand times, then all the puzzle pieces fit together in my blown-open brain like a house falling down, but like, backwards. I saw that</li>
+    <li>lesson(tag=meme_HighLife)              ->a friend isn't a friend unless you've drifted through the mind-verse together</li>
+    <li>lessonReinforcement(tag=meme_HighLife) ->And dude, this was a serious trip, figuring that out, but I'm glad I did, and I'll pass the smoke to you so you can too.</li>
+    <li>archistBasis(tag=meme_HighLife)       ->The archotech minds showed us that super-consciousness it not a matter of sober, mechanical logic, but one of multi-mode thought.</li>
+    <li>archistFact(tag=meme_HighLife)        ->Given the right chemical influences, the human mind has the potential to commune with the archotechs.</li>
+    <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd], the archotechs will deliver each human a pill. Those that take it will be forever altered, and join the archotechs on their final journey.</li>
+    <li>animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so.</li>
+  -->
+  <HighLife.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_HighLife)           -&gt;ﻲﻓ [deity0_name] ﻊﻤﺠﺘﻓ ،ًﺎﻧﺎﺧﺩ ﻥﻮﻜﻟﺍ ﻥﺎﻛ\n.ﻆﻘﻴﺘﺳﺍﻭ ﺕﻼﺼﺨﻟﺍ</li>
+    <li>episode(uses=1,tag=meme_HighLife)     -&gt;ﺕﺎﻴﻃ ﻲﻓ ﻪﻘﺋﺎﻘﺣ [deity0_type] [deity0_name] ﻰﻔﺧﺃ\nﻲﻋﻮﻟﺍ ﺕﻻﺎﺣ ﻲﻓ ﻯﺮُﺗ ﻻ ،ﻊﻗﺍﻮﻟﺍ\n.ﺔﻳﺩﺎﻌﻟﺍ</li>
+    <li>intro(tag=meme_HighLife)              -&gt;،[deity0_name] ﻞﻀﻔﺑ ﺓﺮﻣ ﻝﻭﺃ [place_summary] [place_name] ﻒﺸُﺘﻛﺍ\nﺔﻴﻤﺠﻧ ﺔﻨﻴﻔﺳ ﻥﺎﻄﺒﻗ ﺩﺎﻛ ﺎﻣﺪﻨﻋ\n.ﻪﺑ ﻡﺪﻄﺼﻳ ﻥﺃ ﺭﻮﻤﺨﻣ</li>
+    <li>conflict(tag=meme_HighLife)           -&gt;ﻮﺤﻤﻟﻭ ،[memberNamePlural]ـﻟﺍ ﺖﻣﺰﺘﻣ [foeLeader] ﻢﻘﺘﺣﺍ\nﺩﺍﻮﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﺮﻈﺣ ،ﻢﻫﺩﺮﻔﺗ\n.ﻞﻘﻌﻠﻟ ﺓﺮﻴﻐﻤﻟﺍ</li>
+    <li>founderJoin(tag=meme_HighLife)        -&gt;[deity0_name] ﺀﺎﺟ ،ًﺎﻌﺋﺎﺿ ﺀﻲﺷ ﻞﻛ ﺍﺪﺑ ﺎﻣﺪﻨﻋ\nﺕﺍﺭﺪﺨﻣ ﺓﻭﺎﺸﻏ ﻲﻓ [founderName] ﻲﺒﻨﻟﺍ ﻰﻟﺇ\nﺔﻤﻳﺰﻬﻟ ﺪﻳﺮﻔﻟﺍ ﺭﻮﻈﻨﻤﻟﺍ ﻩﺎﻄﻋﺃﻭ\n.ﺩﻮﻨﺠﻟﺍ</li>
+    <li>victory(tag=meme_HighLife)            -&gt;ﻊﻤﺘﺠﻣ [place_personalWeapon]ـﺑ ﻥﻮﺤﻠﺴﻤﻟﺍ [foeLeader] ﺩﻮﻨﺟ ﻢﻫﺍﺩ\nﺍﻮﻘﻟﺄﻓ ،ﻡﻼﺳ ﻥﻮﻴﻠﻏ [founderName] ﻢﻬﻟ ﻡﺪﻗ .[memberNamePlural]\n.ﻢﻬﺘﺤﻠﺳﺃ</li>
+    <li>setup(tag=meme_HighLife)              -&gt;ﺮﻓﺎﺳ ،ﻊﻤﺘﺠﻤﻟﺍ ﻦﻣ ًﺍﺫﻮﺒﻨﻣ\nﻝﻭﺎﻨﺗﻭ ﺔﺑﺎﻐﻟﺍ ﻰﻟﺇ [founderName] ﺎﻨﺴﺳﺆﻣ\nﺪﺟﻭ .ﻙﺎﻨﻫ ﺔﺒﻳﺮﻐﻟﺍ ﺏﺎﺸﻋﻷﺍ\n.ﺮﻴﻐﺘﻤﻟﺍ ﻪﻴﻋﻭ ﻞﺧﺍﺩ ﺔﻘﻴﻘﺤﻟﺍ</li>
+    <li>story(uses=1,tag=meme_HighLife)       -&gt;ﻪﻋﺎﺒﺗﺃ [founderName] ﻊﻤﺟ ،ﻢﻬﻤﻬﻓ ﻖﻴﻤﻌﺘﻟ\nﺔﻴﻠﻘﻋ ﺕﻻﺎﺣ ﻝﺩﺎﺒﺘﻟ ًﺎﻴﻋﻮﺒﺳﺃ\n.ًﺎﻴﺋﺎﻴﻤﻴﻛ ﺔﺜﺤﺘﺴﻣ ﺓﺪﻳﺪﺟ</li>
+    <li>lessonIntro(tag=meme_HighLife)         -&gt;ﺓﺪﺣﺍﻭ ﺓﺮﻣ ﺀﺎﺸﺘﻧﻻﺍ ﻦﻜﻳ ﻢﻟ\nﻪﻠﻌﻓ ﺎﻨﻴﻠﻋ ﻥﺎﻛ .ﻞﺟﺭ ﺎﻳ ،ًﺎﻴﻓﺎﻛ\nﻊﻄﻗ ﺖﻌﻤﺠﺗ ﺎﻬﻨﻴﺣ ،ﺓﺮﻣ ﻒﻟﺃ\nﻞﺜﻣ ﺮﺠﻔﺘﻤﻟﺍ ﻲﻏﺎﻣﺩ ﻲﻓ ﺔﻴﺠﺣﻷﺍ\nﺖﻳﺃﺭ .ﺲﻜﻌﻟﺎﺑ ﻦﻜﻟ ،ﺭﺎﻬﻨﻳ ﻝﺰﻨﻣ\nﻥﺃ</li>
+    <li>lesson(tag=meme_HighLife)              -&gt;ﺍﻮﻣﺎﻬﺗ ﻢﻟ ﺎﻣ ًﺎﻘﻳﺪﺻ ﺲﻴﻟ ﻖﻳﺪﺼﻟﺍ\nﻞﻘﻌﻟﺍ ﻥﻮﻛ ﺮﺒﻋ ًﺎﻌﻣ</li>
+    <li>lessonReinforcement(tag=meme_HighLife) -&gt;ﺔﻠﺣﺭ ﻩﺬﻫ ﺖﻧﺎﻛ ،ﻲﻘﻳﺪﺻ ﺎﻳﻭ\nﺪﻴﻌﺳ ﻲﻨﻜﻟ ،ﻚﻟﺫ ﺏﺎﻌﻴﺘﺳﺍ ،ﺔﻘﻴﻤﻋ\nﻚﻟ ﻥﺎﺧﺪﻟﺍ ﺭﺮﻣﺄﺳﻭ ،ﺖﻠﻌﻓ ﻲﻧﺃ\n.ًﺎﻀﻳﺃ ﻞﻌﻔﺘﻟ</li>
+    <li>archistBasis(tag=meme_HighLife)       -&gt;ﻥﺃ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻝﻮﻘﻋ ﺎﻨﻟ ﺕﺮﻬﻇﺃ\nﻖﻄﻨﻣ ﺔﻟﺄﺴﻣ ﺲﻴﻟ ﻖﺋﺎﻔﻟﺍ ﻲﻋﻮﻟﺍ\nﺮﻴﻜﻔﺗ ﻮﻫ ﻞﺑ ،ﻦﻴﺻﺭ ﻲﻜﻴﻧﺎﻜﻴﻣ\n.ﻁﺎﻤﻧﻷﺍ ﺩﺪﻌﺘﻣ</li>
+    <li>archistFact(tag=meme_HighLife)        -&gt;،ﺔﺤﻴﺤﺼﻟﺍ ﺔﻴﺋﺎﻴﻤﻴﻜﻟﺍ ﺕﺍﺮﺛﺆﻤﻟﺎﺑ\nﻞﺻﺍﻮﺘﻟﺍ ﺔﻴﻧﺎﻜﻣﺇ ﻱﺮﺸﺒﻟﺍ ﻞﻘﻌﻠﻟ\n.ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻊﻣ</li>
+    <li>archistProphecy(tag=meme_HighLife)    -&gt;ﻥﺎﺴﻧﺇ ﻞﻛ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺢﻨﻤﺘﺳ ،[inTheEnd]\nﺎﻬﻧﻭﺬﺧﺄﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ .ﺔﺒﺣ\nﻰﻟﺇ ﻥﻮﻤﻀﻨﻳﻭ ،ﺪﺑﻸﻟ ﻥﻭﺮﻴﻐﺘﻴﺳ\n.ﺓﺮﻴﺧﻷﺍ ﻢﻬﺘﻠﺣﺭ ﻲﻓ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ</li>
+    <li>animistFact(tag=meme_HighLife)        -&gt;ﺎﻬﺘﻌﻴﺒﻃ ﻦﻋ ﻒﺸﻜﺗ ﻥﺃ ﺡﺍﻭﺭﻸﻟ ﻦﻜﻤﻳ\nﻡﺍﺪﺨﺘﺳﺎﺑ ﺎﻨﻴﻋﻭ ﻊﺳﻮﻧ ﺎﻣﺪﻨﻋ ﺎﻨﻟ\n.ﻚﻟﺬﻟ ﺎﻫﺎﻳﺇ ﺎﻨﻴﻄﻋﺃ ﻲﺘﻟﺍ ﺕﺍﻭﺩﻷﺍ</li>
+ </HighLife.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeCreed->party</li>
+    <li>memeAdjective->high</li>
+    <li>memeAdjective->delirious</li>
+    <li>memeAdjective->stoned</li>
+    <li>memeConcept->drugs</li>
+    <li>memeConcept->bliss</li>
+    <li>memeConcept->dreams</li>
+    <li>memeHyphenPrefix->drug</li>
+    <li>memeHyphenPrefix->narco</li>
+    <li>memeLeaderNoun->sleeper</li>
+    <li>memeLeaderNoun->doper</li>
+    <li>memeLeaderNoun->smoker</li>
+    <li>memeLeaderNoun->chiller</li>
+    <li>memeMoralist->philosophizer</li>
+    <li>memeMoralist->abstractor</li>
+    <li>memeMoralist->laugher</li>
+    <li>memeMoralist->giggler</li>
+  -->
+  <HighLife.generalRules.rulesStrings>
+    <li>memeCreed-&gt;ﺔﻠﻔﺣ</li>
+    <li>memeAdjective-&gt;ﻲﺸﺘﻨﻣ</li>
+    <li>memeAdjective-&gt;ﻲﻧﺎﻳﺬﻫ</li>
+    <li>memeAdjective-&gt;ﺭﻮﻤﺨﻣ</li>
+    <li>memeConcept-&gt;ﺕﺍﺭﺪﺨﻣ</li>
+    <li>memeConcept-&gt;ﻢﻴﻌﻧ</li>
+    <li>memeConcept-&gt;ﻡﻼﺣﺃ</li>
+    <li>memeHyphenPrefix-&gt;ﺭﺪﺨﻣ</li>
+    <li>memeHyphenPrefix-&gt;ﻮﻛﺭﺎﻧ</li>
+    <li>memeLeaderNoun-&gt;ﻢﺋﺎﻧ</li>
+    <li>memeLeaderNoun-&gt;ﻲﻃﺎﻌﺘﻣ</li>
+    <li>memeLeaderNoun-&gt;ﻦﺧﺪﻣ</li>
+    <li>memeLeaderNoun-&gt;ﻲﺧﺮﺘﺴﻣ</li>
+    <li>memeMoralist-&gt;ﻒﺴﻠﻔﺘﻣ</li>
+    <li>memeMoralist-&gt;ﺩﺮﺠﻣ</li>
+    <li>memeMoralist-&gt;ﻚﺣﺎﺿ</li>
+    <li>memeMoralist-&gt;ﻪﻘﻬﻘﻣ</li>
+ </HighLife.generalRules.rulesStrings>
+  <!-- EN: euphorist -->
+  <HighLife.symbolPacks.0.adjective>ﻲﻧﺍﻮﺸﻧ</HighLife.symbolPacks.0.adjective>
+  <!-- EN: Euphorism -->
+  <HighLife.symbolPacks.0.ideoName>ﺔﻴﻧﺍﻮﺸﻨﻟﺍ</HighLife.symbolPacks.0.ideoName>
+  <!-- EN: euphor -->
+  <HighLife.symbolPacks.0.member>ﻥﺍﻮﺸﻧ</HighLife.symbolPacks.0.member>
+  <!-- EN: euphoria -->
+  <HighLife.symbolPacks.0.theme>ﺓﻮﺸﻧ</HighLife.symbolPacks.0.theme>
+  <!-- EN: dopist -->
+  <HighLife.symbolPacks.1.adjective>ﻲﺗﺍﺭﺪﺨﻣ</HighLife.symbolPacks.1.adjective>
+  <!-- EN: Dopistry -->
+  <HighLife.symbolPacks.1.ideoName>ﺔﻴﺗﺍﺭﺪﺨﻤﻟﺍ</HighLife.symbolPacks.1.ideoName>
+  <!-- EN: doper -->
+  <HighLife.symbolPacks.1.member>ﻲﻃﺎﻌﺘﻣ</HighLife.symbolPacks.1.member>
+  <!-- EN: dope -->
+  <HighLife.symbolPacks.1.theme>ﺭﺪﺨﻣ</HighLife.symbolPacks.1.theme>
+  <!-- EN: smokist -->
+  <HighLife.symbolPacks.2.adjective>ﻲﻧﺎﺧﺩ</HighLife.symbolPacks.2.adjective>
+  <!-- EN: Smokism -->
+  <HighLife.symbolPacks.2.ideoName>ﺔﻴﻧﺎﺧﺪﻟﺍ</HighLife.symbolPacks.2.ideoName>
+  <!-- EN: smoker -->
+  <HighLife.symbolPacks.2.member>ﻦﺧﺪﻣ</HighLife.symbolPacks.2.member>
+  <!-- EN: smoke -->
+  <HighLife.symbolPacks.2.theme>ﻥﺎﺧﺩ</HighLife.symbolPacks.2.theme>
+  <!-- EN: ecstatic -->
+  <HighLife.symbolPacks.3.adjective>ﻱﻮﻧﺍﺪﺟﻭ</HighLife.symbolPacks.3.adjective>
+  <!-- EN: Ecstasy -->
+  <HighLife.symbolPacks.3.ideoName>ﺪﺟﻮﻟﺍ</HighLife.symbolPacks.3.ideoName>
+  <!-- EN: ecstator -->
+  <HighLife.symbolPacks.3.member>ﻥﺍﺪﺟﻭ</HighLife.symbolPacks.3.member>
+  <!-- EN: ecstasy -->
+  <HighLife.symbolPacks.3.theme>ﺪﺟﻭ</HighLife.symbolPacks.3.theme>
+  
+  <!-- EN: nudism -->
+  <Nudism.label>ﻱﺮﻌﻟﺍ</Nudism.label>
+  <!-- EN: Clothing binds, controls, and suffocates us. We should all hang free. -->
+  <Nudism.description>.ﺎﻨﻘﻨﺨﺗﻭ ﻢﻜﺤﺘﺗﻭ ﺪﻴﻘﺗ ﺲﺑﻼﻤﻟﺍ\n.ًﺎﻌﻴﻤﺟ ﺭﺮﺤﺘﻧ ﻥﺃ ﻲﻐﺒﻨﻳ</Nudism.description>
+  <!-- EN:
+    <li>creation(tag=meme_Nudism)           ->In a pure and pristine void, [deity0_name] looked on, and wished for a race of free-fleshed beings in [deity0_possessive] own image, and made mankind.</li>
+    <li>episode(uses=1,tag=meme_Nudism)     ->The people wore clothes, and looking up at [deity0_name] asked, "Why aren't you clothed? It is disgusting." And the [deity0_type] replied, "Your form and mine were created from the heavens. To cover them is what is truly disgusting."</li>
+    <li>intro(tag=meme_Nudism)              ->On the [place_summary] [place_name], a tradition began at the [altarRoomLabel] of [deity0_name] where people would pray nude, and this pleased the [deity0_type].</li>
+    <li>conflict(tag=meme_Nudism)           ->A prudish [foeLeader] took power, and demanded that everyone wear constricting clothes.</li>
+    <li>founderJoin(tag=meme_Nudism)        ->[deity0_name]'s truest follower [founderName] stood before the [place_powerCenter], tore off [founder_possessive] clothes, and displayed [founder_objective]self in defiance of their commands.</li>
+    <li>victory(tag=meme_Nudism)            ->[founderName] prayed to [deity0_name], who engulfed [place_name] in a heat wave. The [foeSoldiers] shed their clothes lest they perish, and the [foeLeader] fled in shame.</li>
+    <li>setup(tag=meme_Nudism)              ->[founderName] was enslaved by the system, uniformed and controlled like the others. One day, [founder_pronoun] tore off all clothing and ran nude, and our movement was born.</li>
+    <li>story(uses=1,tag=meme_Nudism)       ->[founderName] enforced a no-clothing rule to keep believers focused on the true goal instead of on material appearances.</li>
+    <li>lessonIntro(tag=meme_Nudism)         ->For the first few years, prancing naked in the park was embarrassing. But later, it became freeing. I learned things from the people who passed. For example - </li>
+    <li>lesson(tag=meme_Nudism)              ->all human evil is done wearing clothes, human good is done naked</li>
+    <li>lessonReinforcement(tag=meme_Nudism) ->When you see one of us on the street, flapping and dangling free, you'll know that they've accepted the truth.</li>
+    <li>archistBasis(tag=meme_Nudism)       ->When the archotechs appeared they were never concerned for appearances; they showed us that the mind stands above the physical form.</li>
+    <li>archistFact(tag=meme_Nudism)        ->Archotechs sometimes directly touch human minds, but if our flesh is shrouded like our minds, we will not understand.</li>
+    <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd], they will seek out those who, like themselves, don't attempt to appear as anything other than what they are.</li>
+    <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li>
+  -->
+  <Nudism.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Nudism)           -&gt;ﻰﻨﻤﺗﻭ ،[deity0_name] ﺮﻈﻧ ،ﺮﻜﺑ ﻲﻘﻧ ﻍﺍﺮﻓ ﻲﻓ\nﻰﻠﻋ ﻢﺤﻠﻟﺍ ﺓﺮﺣ ﺕﺎﻨﺋﺎﻛ ﻦﻣ ًﺎﺴﻨﺟ\n.ﺮﺸﺒﻟﺍ ﻖﻠﺨﻓ ،ﻪﺗﺭﻮﺻ</li>
+    <li>episode(uses=1,tag=meme_Nudism)     -&gt;ﻰﻟﺇ ﺍﻭﺮﻈﻧﻭ ،ﺲﺑﻼﻤﻟﺍ ﺱﺎﻨﻟﺍ ﻯﺪﺗﺭﺍ\n؟ﺲﺑﻼﻣ ﻱﺪﺗﺮﺗ ﻻ ﺍﺫﺎﻤﻟ" :ﻦﻴﻠﺋﺎﺳ [deity0_name]\nﻲﻠﻜﺷﻭ ﻢﻜﻠﻜﺷ" :[deity0_type] ﺩﺮﻓ ".ﻑﺮﻘﻣ ﺍﺬﻫ\nﻮﻫ ﺎﻤﻫﺮﺘﺴﺗ .ﺀﺎﻤﺴﻟﺍ ﻦﻣ ﺎﻘﻠُﺧ\n".ًﺎﻘﺣ ﻑﺮﻘﻤﻟﺍ</li>
+    <li>intro(tag=meme_Nudism)              -&gt;ﺚﻴﺣ [altarRoomLabel] [deity0_name] ﻲﻓ ﺪﻴﻠﻘﺗ ﺃﺪﺑ ،[place_summary] [place_name] ﻲﻓ\n.[deity0_type] ﺍﺬﻫ ﻰﺿﺭﺃﻭ ،ﺓﺍﺮﻋ ﺱﺎﻨﻟﺍ ﻲﻠﺼﻳ</li>
+    <li>conflict(tag=meme_Nudism)           -&gt;،ﺔﻄﻠﺴﻟﺍ ﻰﻠﻋ ﻢﺸﺘﺤﻣ [foeLeader] ﻰﻟﻮﺘﺳﺍ\nﺲﺑﻼﻣ ﺀﺍﺪﺗﺭﺎﺑ ﻊﻴﻤﺠﻟﺍ ﺐﻟﺎﻃﻭ\n.ﺔﻘﻴﺿ</li>
+    <li>founderJoin(tag=meme_Nudism)        -&gt;،[place_powerCenter] ﻡﺎﻣﺃ [deity0_name] [founderName] ﻉﺎﺒﺗﺃ ﺺﻠﺧﺃ ﻒﻗﻭ\nًﺎﻳﺪﺤﺗ ﻪﺴﻔﻧ ﺽﺮﻋ ،ﻪﺴﺑﻼﻣ ﻕﺰﻣﻭ\n.ﻢﻫﺮﻣﺍﻭﻷ</li>
+    <li>victory(tag=meme_Nudism)            -&gt;.ﺮﺣ ﺔﺟﻮﻣ ﻲﻓ [place_name] ﻕﺮﻏﺄﻓ ،[deity0_name]ـﻟ [founderName] ﻰﻠﺻ\n،ﺍﻮﻜﻠﻬﻳ ﻼﺌﻟ ﻢﻬﺴﺑﻼﻣ ﺩﻮﻨﺠﻟﺍ ﻊﻠﺧ\n.ًﻼﺠﺧ [foeLeader] ﺏﺮﻫﻭ</li>
+    <li>setup(tag=meme_Nudism)              -&gt;ًﺎﻳﺪﺗﺮﻣ ،ﻡﺎﻈﻨﻟﺍ ﻦﻣ [founderName] ﺪﺒﻌُﺘﺳﺍ\nﻲﻓ .ﻦﻳﺮﺧﻵﺎﻛ ﻪﻴﻠﻋ ًﺍﺮﻄﻴﺴﻣﻭ ﻱﺰﻟﺍ\nﺾﻛﺭﻭ ﺲﺑﻼﻤﻟﺍ ﻞﻛ ﻕﺰﻣ ،ﻡﻮﻳ\n.ﺎﻨﺘﻛﺮﺣ ﺕﺪﻟﻭﻭ ،ًﺎﻳﺭﺎﻋ</li>
+    <li>story(uses=1,tag=meme_Nudism)       -&gt;ﻲﻘﺒﻴﻟ ﺲﺑﻼﻤﻟﺍ ﻊﻨﻣ ﺓﺪﻋﺎﻗ [founderName] ﺽﺮﻓ\nﻖﺤﻟﺍ ﻑﺪﻬﻟﺍ ﻰﻠﻋ ﻦﻳﺰﻛﺮﻣ ﻦﻴﻨﻣﺆﻤﻟﺍ\n.ﺔﻳﺩﺎﻤﻟﺍ ﺮﻫﺎﻈﻤﻟﺍ ﻝﺪﺑ</li>
+    <li>lessonIntro(tag=meme_Nudism)         -&gt;ﺰﻔﻘﻟﺍ ﻥﺎﻛ ،ﻰﻟﻭﻷﺍ ﺕﺍﻮﻨﺴﻟﺍ ﻲﻓ\nﻦﻜﻟ .ًﺎﺟﺮﺤﻣ ﺔﻘﻳﺪﺤﻟﺍ ﻲﻓ ًﺎﻳﺭﺎﻋ\nﺀﺎﻴﺷﺃ ﺖﻤﻠﻌﺗ .ًﺍﺭﺮﺤﺗ ﺭﺎﺻ ،ًﺎﻘﺣﻻ\n- ًﻼﺜﻣ .ﺓﺭﺎﻤﻟﺍ ﻦﻣ</li>
+    <li>lesson(tag=meme_Nudism)              -&gt;ﻞﻛﻭ ،ﺲﺑﻼﻤﻟﺎﺑ ﻞﻌﻔُﻳ ﻱﺮﺸﺑ ﺮﺷ ﻞﻛ\nًﺎﻳﺭﺎﻋ ﻞﻌﻔُﻳ ﻱﺮﺸﺑ ﺮﻴﺧ</li>
+    <li>lessonReinforcement(tag=meme_Nudism) -&gt;،ﻉﺭﺎﺸﻟﺍ ﻲﻓ ﺎﻧﺪﺣﺃ ﻯﺮﺗ ﺎﻣﺪﻨﻋ\nﻪﻧﺃ ﻑﺮﻌﺘﺳ ،ًﺍﺮﺣ ﻰﻟﺪﺘﻳﻭ ﺮﻳﺎﻄﺘﻳ\n.ﺔﻘﻴﻘﺤﻟﺍ ﻞﺒﻗ</li>
+    <li>archistBasis(tag=meme_Nudism)       -&gt;ﻢﺘﻬﺗ ﻢﻟ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺕﺮﻬﻇ ﺎﻣﺪﻨﻋ\nﻞﻘﻌﻟﺍ ﻥﺃ ﺎﻧﻭﺭﺃ ؛ﺮﻫﺎﻈﻤﻠﻟ ًﺍﺪﺑﺃ\n.ﻱﺩﺎﻤﻟﺍ ﻞﻜﺸﻟﺍ ﻕﻮﻓ ﻮﻤﺴﻳ</li>
+    <li>archistFact(tag=meme_Nudism)        -&gt;ﻝﻮﻘﻌﻟﺍ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺲﻤﻠﺗ ًﺎﻧﺎﻴﺣﺃ\nﻥﺎﻛ ﺍﺫﺇ ﻦﻜﻟ ،ﺓﺮﺷﺎﺒﻣ ﺔﻳﺮﺸﺒﻟﺍ\nﻦﻠﻓ ،ﺎﻨﻟﻮﻘﻌﻛ ًﺎﻨﻔﻜﻣ ﺎﻨﻤﺤﻟ\n.ﻢﻬﻔﻧ</li>
+    <li>archistProphecy(tag=meme_Nudism)    -&gt;،ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻦﻋ ﺚﺤﺒﺘﺳ ،[inTheEnd]\nﺮﻴﻐﺑ ﺭﻮﻬﻈﻟﺍ ﻥﻮﻟﻭﺎﺤﻳ ﻻ ،ﺎﻬﻠﺜﻣ\n.ﻪﻴﻠﻋ ﻢﻫ ﺎﻣ</li>
+    <li>animistFact(tag=meme_Nudism)        -&gt;ﺀﺎﻔﺧﺇ ﻲﻫ ﺵﺎﻤﻘﻟﺎﺑ ﺎﻧﺩﺎﺴﺟﺃ ﺔﻴﻄﻐﺗ\nﺍﺬﻫﻭ ،ﺎﻨﻴﻓ ﺡﺍﻭﺭﻷﺍ ﺔﻌﻴﺒﻄﻟ\n.ﺎﻬﻘﻠﻘﻳ</li>
+ </Nudism.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->nude</li>
+    <li>memeAdjective->naked</li>
+    <li>memeAdjective->free</li>
+    <li>memeAdjective->natural</li>
+    <li>memeHyphenPrefix->skin</li>
+    <li>memeConcept->nudity</li>
+    <li>memeConcept->skin</li>
+    <li>memeLeaderNoun->swinger</li>
+    <li>memeLeaderNoun->breather</li>
+    <li>memeLeaderNoun->toucher</li>
+    <li>memeLeaderNoun->feeler</li>
+  -->
+  <Nudism.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;ﺭﺎﻋ</li>
+    <li>memeAdjective-&gt;ﻱﺭﺎﻋ</li>
+    <li>memeAdjective-&gt;ﺮﺣ</li>
+    <li>memeAdjective-&gt;ﻲﻌﻴﺒﻃ</li>
+    <li>memeHyphenPrefix-&gt;ﺪﻠﺟ</li>
+    <li>memeConcept-&gt;ﻱﺮﻋ</li>
+    <li>memeConcept-&gt;ﺪﻠﺟ</li>
+    <li>memeLeaderNoun-&gt;ﺢﺟﺭﺄﺘﻣ</li>
+    <li>memeLeaderNoun-&gt;ﺲﻔﻨﺘﻣ</li>
+    <li>memeLeaderNoun-&gt;ﺲﻣﻻ</li>
+    <li>memeLeaderNoun-&gt;ﺱﻮﺴﺤﻣ</li>
+ </Nudism.generalRules.rulesStrings>
+  <!-- EN: nudist -->
+  <Nudism.symbolPacks.0.adjective>ﻲﻧﺎﻳﺮﻋ</Nudism.symbolPacks.0.adjective>
+  <!-- EN: nudism -->
+  <Nudism.symbolPacks.0.ideoName>ﺔﻴﻧﺎﻳﺮﻌﻟﺍ</Nudism.symbolPacks.0.ideoName>
+  <!-- EN: nudist -->
+  <Nudism.symbolPacks.0.member>ﻲﻧﺎﻳﺮﻋ</Nudism.symbolPacks.0.member>
+  <!-- EN: nudity -->
+  <Nudism.symbolPacks.0.theme>ﻱﺮﻋ</Nudism.symbolPacks.0.theme>
+  <!-- EN: skinnist -->
+  <Nudism.symbolPacks.1.adjective>ﻱﺪﻠﺟ</Nudism.symbolPacks.1.adjective>
+  <!-- EN: skinism -->
+  <Nudism.symbolPacks.1.ideoName>ﺔﻳﺪﻠﺠﻟﺍ</Nudism.symbolPacks.1.ideoName>
+  <!-- EN: skinnist -->
+  <Nudism.symbolPacks.1.member>ﻱﺪﻠﺟ</Nudism.symbolPacks.1.member>
+  <!-- EN: skin -->
+  <Nudism.symbolPacks.1.theme>ﺪﻠﺟ</Nudism.symbolPacks.1.theme>
+  
+  <!-- EN: pain is virtue -->
+  <PainIsVirtue.label>ﺔﻠﻴﻀﻓ ﻢﻟﻷﺍ</PainIsVirtue.label>
+  <!-- EN: Virtue is shown through suffering of self and others. -->
+  <PainIsVirtue.description>ﺕﺍﺬﻟﺍ ﺓﺎﻧﺎﻌﻣ ﺮﺒﻋ ﺔﻠﻴﻀﻔﻟﺍ ﻰﻠﺠﺘﺗ\n.ﻦﻳﺮﺧﻵﺍﻭ</PainIsVirtue.description>
+  <!-- EN:
+    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] burned in the depths of space and time for an eternity, and [deity0_possessive] screams brought forth our reality.</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] hung ten thousand years on the pyre as the pain purified [deity0_possessive] spirit.</li>
+    <li>intro(tag=meme_PainIsVirtue)           ->[place_summary] [place_name] was never an easy place to live. The [deity0_type] [deity0_pronoun] decided to find out who was truly worthy of [deity0_possessive] favor by adding great suffering to their lives.</li>
+    <li>conflict(tag=meme_PainIsVirtue)        ->A [foeLeader] offered bodily comforts to the [memberNamePlural] to soothe their daily suffering. But in their comfort, they became dependent on the [foeLeader], who gained power over them.</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->One special [place_job] named [founderName] developed a painful cancer. Through [founder_possessive] suffering, [founder_pronoun] connected directly with [deity0_name], and learned to inspire other [memberNamePlural].</li>
+    <li>victory(tag=meme_PainIsVirtue)         ->[founderName] brought a hundred [memberNamePlural] in front of the [place_powerCenter]. There, they rent and tore their own flesh slowly until they died under the smiling gaze of [deity0_name]. Their suffering proved their righteousness, and the [foeLeader] fell as all became [memberNamePlural].</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->At the founding of our movement, its creator [founderName] starved and suffered chained to a stone in the town square for 300 days to demonstrate its righteousness.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->Our movement's founder, [founderName], gained [founder_possessive] first followers by using a whip on [founder_objective]self for days to demonstrate [founder_possessive] devotion.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]'s followers demonstrated their devotion by cutting and burning their own flesh.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]'s followers never took pain-reducing drugs, knowing that their suffering would demonstrate their depth of belief.</li>
+    <li>lessonIntro(tag=meme_PainIsVirtue)         ->I never knew anything when I was fat and happy and constantly pleasuring myself. This truth only came to me when I starved and hurt:</li>
+    <li>lesson(tag=meme_PainIsVirtue)              ->you never really know yourself until you've screamed in the pits of hell</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->It took so long to understand because I was distracted by pleasure. I could only truly accept it when I learned to rend my flesh.</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->I carved this truth in the flesh of my chest. Then in the flesh of my arms, my legs, my face...</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->The birth of the archotechs was the greatest pain the universe had ever known.</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->Archotechs have always been fueled by the psychic suffering of human beings.</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->The great minds see and acknowledge when we demonstrate our devotion by inflicting pain on ourselves.</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->Every now and then, those who suffer most deeply and nobly can connect with the archotechs inside their minds.</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd], the archotechs will raise up all of humanity to a higher level of consciousness, but only those able to endure the greatest pain will survive.</li>
+    <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
+  -->
+  <PainIsVirtue.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_PainIsVirtue)        -&gt;ﻥﺎﻜﻤﻟﺍ ﻕﺎﻤﻋﺃ ﻲﻓ [deity0_name] ﻕﺮﺘﺣﺍ\nﻪﺗﺎﺧﺮﺻ ﺖﺟﺮﺧﺃﻭ ،ﺪﺑﻸﻟ ﻥﺎﻣﺰﻟﺍﻭ\n.ﺎﻨﻌﻗﺍﻭ</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  -&gt;ﺔﻗﺮﺤﻤﻟﺍ ﻰﻠﻋ ﺔﻨﺳ ﻑﻻﺁ ﺓﺮﺸﻋ [deity0_name] ﻖﻠﻋ\n.ﻪﺣﻭﺭ ﻢﻟﻷﺍ ﻲﻘﻨﻴﻟ</li>
+    <li>intro(tag=meme_PainIsVirtue)           -&gt;ﺶﻴﻌﻠﻟ ًﻼﻬﺳ ًﺎﻧﺎﻜﻣ [place_summary] [place_name] ﻦﻜﻳ ﻢﻟ\nﻖﺤﺘﺴﻳ ﻦﻣ ﻒﺸﺘﻜﻳ ﻥﺃ [deity0_type] ﺭﺮﻗ .ﻂﻗ\nﺔﻤﻴﻈﻋ ﺓﺎﻧﺎﻌﻣ ﺔﻓﺎﺿﺈﺑ ًﺎﻘﺣ ﻩﺎﺿﺭ\n.ﻢﻬﺗﺎﻴﺣ ﻰﻟﺇ</li>
+    <li>conflict(tag=meme_PainIsVirtue)        -&gt;[memberNamePlural]ـﻟ ﺔﻳﺪﺴﺠﻟﺍ ﺔﺣﺍﺮﻟﺍ [foeLeader] ﻡﺪﻗ\nﻦﻜﻟ .ﺔﻴﻣﻮﻴﻟﺍ ﻢﻬﺗﺎﻧﺎﻌﻣ ﻒﻴﻔﺨﺘﻟ\nﻰﻠﻋ ﻦﻳﺪﻤﺘﻌﻣ ﺍﻮﺤﺒﺻﺃ ،ﻢﻬﺘﺣﺍﺭ ﻲﻓ\n.ﻢﻬﻴﻠﻋ ﺔﻄﻠﺳ ﺐﺴﺘﻛﺍ ﻱﺬﻟﺍ ،[foeLeader]</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     -&gt;ًﺎﻧﺎﻃﺮﺳ [founderName] ﻰﻋﺪُﻳ ﺰﻴﻤﻣ [place_job] ﺭﻮﻃ\nﻞﺻﺍﻮﺗ ،ﻪﺗﺎﻧﺎﻌﻣ ﺮﺒﻋ .ًﺎﻤﻟﺆﻣ\n[memberNamePlural] ﻡﺎﻬﻟﺇ ﻢﻠﻌﺗﻭ ،[deity0_name] ﻊﻣ ﺓﺮﺷﺎﺒﻣ\n.ﻦﻳﺮﺧﻵﺍ</li>
+    <li>victory(tag=meme_PainIsVirtue)         -&gt;،ﻙﺎﻨﻫ .[place_powerCenter] ﻡﺎﻣﺃ [memberNamePlural] ﻦﻣ ﺔﺌﻣ [founderName] ﺮﻀﺣﺃ\nﻰﺘﺣ ﺀﻂﺒﺑ ﻢﻬﻣﻮﺤﻟ ﺍﻮﻘﺷﻭ ﺍﻮﻗﺰﻣ\n.ﺔﻤﺴﺘﺒﻤﻟﺍ [deity0_name] ﺓﺮﻈﻧ ﺖﺤﺗ ﺍﻮﺗﺎﻣ\nﻂﻘﺴﻓ ،ﻢﻬﺘﻣﺎﻘﺘﺳﺍ ﻢﻬﺗﺎﻧﺎﻌﻣ ﺖﺘﺒﺛﺃ\n.[memberNamePlural] ﻞﻜﻟﺍ ﺭﺎﺻ ﺫﺇ [foeLeader]</li>
+    <li>setup(tag=meme_PainIsVirtue)           -&gt;ﺎﻬﻘﻟﺎﺧ ﻉّﻮﺠﺗ ،ﺎﻨﺘﻛﺮﺣ ﺲﻴﺳﺄﺗ ﺪﻨﻋ\nﻥﺍﺪﻴﻣ ﻲﻓ ﺮﺠﺤﺑ ًﺍﺪﻴﻘﻣ ﻢﻟﺄﺗﻭ [founderName]\nﻦﻫﺮﺒﻴﻟ ﻡﻮﻳ 300 ﺔﻨﻳﺪﻤﻟﺍ\n.ﺎﻬﺘﻣﺎﻘﺘﺳﺍ</li>
+    <li>setup(tag=meme_PainIsVirtue)           -&gt;ﻪﻋﺎﺒﺗﺃ ﺐﺴﺘﻛﺍ ،[founderName] ،ﺎﻨﺘﻛﺮﺣ ﺲﺳﺆﻣ\nﻡﺎﻳﻷ ﻁﻮﺴﻟﺎﺑ ﻪﺴﻔﻧ ﺪﻠﺠﺑ ﻞﺋﺍﻭﻷﺍ\n.ﻪﺻﻼﺧﺇ ﻦﻴﺒﻴﻟ</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    -&gt;ﻊﻄﻘﺑ ﻢﻬﺻﻼﺧﺇ [founderName] ﻉﺎﺒﺗﺃ ﺮﻬﻇﺃ\n.ﻢﻬﻣﻮﺤﻟ ﻕﺍﺮﺣﺇﻭ</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    -&gt;ﺔﻨﻜﺴﻣ ﺔﻳﻭﺩﺃ [founderName] ﻉﺎﺒﺗﺃ ﺬﺧﺄﻳ ﻢﻟ\nﻢﻬﺗﺎﻧﺎﻌﻣ ﻥﺃ ﻦﻴﻤﻟﺎﻋ ،ﻂﻗ ﻢﻟﻸﻟ\n.ﻢﻬﻧﺎﻤﻳﺇ ﻖﻤﻋ ﺮﻬﻈﺘﺳ</li>
+    <li>lessonIntro(tag=meme_PainIsVirtue)         -&gt;ًﺎﻨﻴﻤﺳ ﺖﻨﻛ ﻦﻴﺣ ًﺎﺌﻴﺷ ﺖﻓﺮﻋ ﺎﻣ\nﻩﺬﻫ .ﺭﺍﺮﻤﺘﺳﺎﺑ ﻲﺴﻔﻧ ﻊﺘﻣﺃ ًﺍﺪﻴﻌﺳ\nﺖﻋّﻮﺠﺗ ﻦﻴﺣ ﻂﻘﻓ ﻲﻨﺗﺀﺎﺟ ﺔﻘﻴﻘﺤﻟﺍ\n:ﺖﻤﻟﺄﺗﻭ</li>
+    <li>lesson(tag=meme_PainIsVirtue)              -&gt;ﻲﻓ ﺥﺮﺼﺗ ﻰﺘﺣ ًﺎﻘﺣ ﻚﺴﻔﻧ ﻑﺮﻌﺗ ﻻ\nﻢﻴﺤﺠﻟﺍ ﺮﻔﺣ</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) -&gt;ﻥﻷ ﻢﻬﻔﻠﻟ ًﻼﻳﻮﻃ ﺮﻣﻷﺍ ﻕﺮﻐﺘﺳﺍ\nﺖﻌﻄﺘﺳﺍ ﺎﻣ .ﻲﻨﺘﻬﻟﺃ ﺔﻌﺘﻤﻟﺍ\nﻖﻳﺰﻤﺗ ﺖﻤﻠﻌﺗ ﻦﻴﺣ ﻻﺇ ًﺎﻘﺣ ﺎﻬﻠﺒﻘﺗ\n.ﻲﻤﺤﻟ</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) -&gt;.ﻱﺭﺪﺻ ﻢﺤﻟ ﻲﻓ ﺔﻘﻴﻘﺤﻟﺍ ﻩﺬﻫ ﺖﺤﻧ\n،ﻱﺎﻗﺎﺳﻭ ،ﻱﺎﻋﺍﺭﺫ ﻢﺤﻟ ﻲﻓ ﻢﺛ\n...ﻲﻬﺟﻭﻭ</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    -&gt;ﻢﻟﺃ ﻢﻈﻋﺃ ﻥﺎﻛ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺪﻟﻮﻣ\n.ﻥﻮﻜﻟﺍ ﻪﻓﺮﻋ</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    -&gt;ﺓﺎﻧﺎﻌﻤﻟﺍ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺕّﺬﻏ ﺎﻤﻟﺎﻄﻟ\n.ﺮﺸﺒﻠﻟ ﺔﻴﺴﻔﻨﻟﺍ</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     -&gt;ﺎﻣﺪﻨﻋ ﺮﻘﺗﻭ ﻯﺮﺗ ﺔﻤﻴﻈﻌﻟﺍ ﻝﻮﻘﻌﻟﺍ\nﻢﻟﻷﺍ ﻕﺎﺤﻟﺈﺑ ﺎﻨﺻﻼﺧﺇ ﺮﻬﻈﻧ\n.ﺎﻨﺴﻔﻧﺄﺑ</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     -&gt;ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ،ﺮﺧﻵﺍﻭ ﻦﻴﺤﻟﺍ ﻦﻴﺑ\nﻥﻮﻌﻴﻄﺘﺴﻳ ﻞﺒﻧﻭ ﻖﻤﻌﺑ ﻥﻮﻧﺎﻌﻳ\nﻞﺧﺍﺩ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻊﻣ ﻞﺻﺍﻮﺘﻟﺍ\n.ﻢﻬﻟﻮﻘﻋ</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) -&gt;ﺔﻳﺮﺸﺒﻟﺍ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻊﻓﺮﺘﺳ ،[inTheEnd]\nﻦﻜﻟ ،ﻰﻠﻋﺃ ﻲﻋﻭ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﺀﺎﻌﻤﺟ\nﻞﻤﺤﺗ ﻰﻠﻋ ﻥﻭﺭﺩﺎﻘﻟﺍ ﻚﺌﻟﻭﺃ ﻂﻘﻓ\n.ﻥﻮﺠﻨﻴﺳ ﻢﻈﻋﻷﺍ ﻢﻟﻷﺍ</li>
+    <li>animistFact(tag=meme_PainIsVirtue)     -&gt;.ﺭﻮﻀﺤﻟﺍ ﻰﻠﻋ ﻞﻘﻌﻟﺍ ﺮﺒﺠﻳ ﻢﻟﻷﺍ\nﻢﻟﺎﻌﺑ ﻝﺎﺼﺗﻼﻟ ﻖﻳﺮﻃ ﻢﻟﻷﺍ ،ﺍﺬﻜﻫﻭ\n.ﺡﺍﻭﺭﻷﺍ</li>
+ </PainIsVirtue.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->nocic</li>
+    <li>memeAdjective->pain</li>
+    <li>memeCreed->house</li>
+    <li>memeCreed->chamber</li>
+    <li>memeCreed->cell</li>
+    <li>memeHyphenPrefix->nocio</li>
+    <li>memeHyphenPrefix->pain</li>
+    <li>memeConcept->pain</li>
+    <li>memeConcept->torment</li>
+    <li>memeConcept->torture</li>
+    <li>memeConcept->suffering</li>
+    <li>memeConcept->blood</li>
+    <li>memeLeaderNoun->torturer</li>
+    <li>memeLeaderNoun->agonizer</li>
+    <li>memeLeaderNoun->whiphand</li>
+    <li>memeLeaderNoun->chainman</li>
+    <li>memeLeaderNoun->cutter</li>
+    <li>memeLeaderNoun->bloodletter</li>
+    <li>memeMoralist->pain-whisperer</li>
+    <li>memeMoralist->sufferspeaker</li>
+    <li>memeMoralist->painspeaker</li>
+  -->
+  <PainIsVirtue.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;ﻲﻤﻟﺃ</li>
+    <li>memeAdjective-&gt;ﻢﻟﺃ</li>
+    <li>memeCreed-&gt;ﺖﻴﺑ</li>
+    <li>memeCreed-&gt;ﺔﻓﺮﻏ</li>
+    <li>memeCreed-&gt;ﺔﻧﺍﺰﻧﺯ</li>
+    <li>memeHyphenPrefix-&gt;ﻮﻴﺷﻮﻧ</li>
+    <li>memeHyphenPrefix-&gt;ﻢﻟﺃ</li>
+    <li>memeConcept-&gt;ﻢﻟﺃ</li>
+    <li>memeConcept-&gt;ﺏﺍﺬﻋ</li>
+    <li>memeConcept-&gt;ﺐﻳﺬﻌﺗ</li>
+    <li>memeConcept-&gt;ﺓﺎﻧﺎﻌﻣ</li>
+    <li>memeConcept-&gt;ﻡﺩ</li>
+    <li>memeLeaderNoun-&gt;ﺏﺬﻌﻣ</li>
+    <li>memeLeaderNoun-&gt;ﻢﻟﺆﻣ</li>
+    <li>memeLeaderNoun-&gt;ﻁﻮﺴﻟﺍ ﺪﻳ</li>
+    <li>memeLeaderNoun-&gt;ﺩﻮﻴﻘﻟﺍ ﻞﺟﺭ</li>
+    <li>memeLeaderNoun-&gt;ﻊﻃﺎﻗ</li>
+    <li>memeLeaderNoun-&gt;ﻡﺪﻟﺍ ﺪﺻﺎﻓ</li>
+    <li>memeMoralist-&gt;ﻢﻟﻷﺍ ﺲﻣﺎﻫ</li>
+    <li>memeMoralist-&gt;ﺓﺎﻧﺎﻌﻤﻟﺍ ﻢﻠﻜﺘﻣ</li>
+    <li>memeMoralist-&gt;ﻢﻟﻷﺍ ﻢﻠﻜﺘﻣ</li>
+ </PainIsVirtue.generalRules.rulesStrings>
+  <!-- EN: painist -->
+  <PainIsVirtue.symbolPacks.0.adjective>ﻲﻧﺎﻤﻟﺃ</PainIsVirtue.symbolPacks.0.adjective>
+  <!-- EN: Painism -->
+  <PainIsVirtue.symbolPacks.0.ideoName>ﺔﻴﻧﺎﻤﻟﻷﺍ</PainIsVirtue.symbolPacks.0.ideoName>
+  <!-- EN: screamer -->
+  <PainIsVirtue.symbolPacks.0.member>ﺥﺭﺎﺻ</PainIsVirtue.symbolPacks.0.member>
+  <!-- EN: pain -->
+  <PainIsVirtue.symbolPacks.0.theme>ﻢﻟﺃ</PainIsVirtue.symbolPacks.0.theme>
+  <!-- EN: torturistic -->
+  <PainIsVirtue.symbolPacks.1.adjective>ﻲﺒﻳﺬﻌﺗ</PainIsVirtue.symbolPacks.1.adjective>
+  <!-- EN: Torturism -->
+  <PainIsVirtue.symbolPacks.1.ideoName>ﺔﻴﺒﻳﺬﻌﺘﻟﺍ</PainIsVirtue.symbolPacks.1.ideoName>
+  <!-- EN: torturist -->
+  <PainIsVirtue.symbolPacks.1.member>ﻲﺒﻳﺬﻌﺗ</PainIsVirtue.symbolPacks.1.member>
+  <!-- EN: torture -->
+  <PainIsVirtue.symbolPacks.1.theme>ﺐﻳﺬﻌﺗ</PainIsVirtue.symbolPacks.1.theme>
+  <!-- EN: sufferist -->
+  <PainIsVirtue.symbolPacks.2.adjective>ﻲﺗﺎﻧﺎﻌﻣ</PainIsVirtue.symbolPacks.2.adjective>
+  <!-- EN: Sufferism -->
+  <PainIsVirtue.symbolPacks.2.ideoName>ﺔﻴﺗﺎﻧﺎﻌﻤﻟﺍ</PainIsVirtue.symbolPacks.2.ideoName>
+  <!-- EN: sufferer -->
+  <PainIsVirtue.symbolPacks.2.member>ﻲﻧﺎﻌﻣ</PainIsVirtue.symbolPacks.2.member>
+  <!-- EN: suffering -->
+  <PainIsVirtue.symbolPacks.2.theme>ﺓﺎﻧﺎﻌﻣ</PainIsVirtue.symbolPacks.2.theme>
+  <!-- EN: agonist -->
+  <PainIsVirtue.symbolPacks.3.adjective>ﻲﺣﺎﻔﻛ</PainIsVirtue.symbolPacks.3.adjective>
+  <!-- EN: Agonism -->
+  <PainIsVirtue.symbolPacks.3.ideoName>ﺔﻴﺣﺎﻔﻜﻟﺍ</PainIsVirtue.symbolPacks.3.ideoName>
+  <!-- EN: agonist -->
+  <PainIsVirtue.symbolPacks.3.member>ﻲﺣﺎﻔﻛ</PainIsVirtue.symbolPacks.3.member>
+  <!-- EN: agony -->
+  <PainIsVirtue.symbolPacks.3.theme>ﺡﺎﻔﻛ</PainIsVirtue.symbolPacks.3.theme>
+  <!-- EN: miserist -->
+  <PainIsVirtue.symbolPacks.4.adjective>ﻲﺳﺆﺑ</PainIsVirtue.symbolPacks.4.adjective>
+  <!-- EN: Miserism -->
+  <PainIsVirtue.symbolPacks.4.ideoName>ﺔﻴﺳﺆﺒﻟﺍ</PainIsVirtue.symbolPacks.4.ideoName>
+  <!-- EN: martyr -->
+  <PainIsVirtue.symbolPacks.4.member>ﺪﻴﻬﺷ</PainIsVirtue.symbolPacks.4.member>
+  <!-- EN: misery -->
+  <PainIsVirtue.symbolPacks.4.theme>ﺱﺆﺑ</PainIsVirtue.symbolPacks.4.theme>
+  
+  <!-- EN: proselytizer -->
+  <Proselytizer.label>ﺔﻴﻋﺍﺩ</Proselytizer.label>
+  <!-- EN: It is our duty to spread our beliefs. -->
+  <Proselytizer.description>.ﺎﻨﺗﺍﺪﻘﺘﻌﻣ ﺮﺸﻧ ﺎﻨﺒﺟﺍﻭ ﻦﻣ</Proselytizer.description>
+  <!-- EN:
+    <li>creation(tag=meme_Proselytizer)        ->[deity0_name] anointed a few among mortals to carry [deity0_possessive] word.</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] said to all the [memberNamePlural], "Go forth and spread my word to all corners of the universe."</li>
+    <li>intro(tag=meme_Proselytizer)           ->[memberNamePlural] built a great [altarName] on the [place_summary] [place_name], so that many would come to hear [deity0_name]'s divine word.</li>
+    <li>conflict(tag=meme_Proselytizer)        ->A spiteful [foeLeader], seeking to deny the word of [deity0_name], told [foeLeader_possessive] [foeSoldiers] to cut out the tongues of any who speak of the [deity0_type].</li>
+    <li>founderJoin(tag=meme_Proselytizer)     ->[deity0_name] blessed a [place_job] named [founderName] with great charisma, and none could turn away when [founder_pronoun] spoke.</li>
+    <li>victory(tag=meme_Proselytizer)         ->[founderName] admonished the [foeSoldiers] and reminded them of [deity0_name]'s power, and they put down their [place_personalWeapon]s.</li>
+    <li>setup(tag=meme_Proselytizer)           ->Our founder [founderName] was a great orator, converting thousands as [founder_pronoun] traveled between the cities.</li>
+    <li>story(uses=1,tag=meme_Proselytizer)    ->The believers moved between cities and institutions, spreading word of the new righteousness.</li>
+    <li>lessonIntro(tag=meme_Proselytizer)         ->In all my years spreading our truth, I learned one lesson that stands over all:</li>
+    <li>lesson(tag=meme_Proselytizer)              ->keeping this good news to ourselves would be a crime</li>
+    <li>lessonReinforcement(tag=meme_Proselytizer) ->This is the fact we need to spread, and spread, and spread - to all the people, may they rejoice!</li>
+    <li>archistBasis(tag=meme_Proselytizer)    ->The archotechs announce their presence from the sky, and in the mind, and obviously wish to be known by all.</li>
+    <li>archistFact(tag=meme_Proselytizer)     ->Archotechs touch those who believe, and use them as conduits to spread wisdom to the others.</li>
+    <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd], the archotechs will voice their final wisdom to the holder of the [relic0_name], who must preach this wisdom to those who would listen.</li>
+    <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li>
+  -->
+  <Proselytizer.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Proselytizer)        -&gt;.ﻪﺘﻤﻠﻛ ﻞﻤﺤﻟ ﺮﺸﺒﻟﺍ ﻦﻣ ﺔﻠﻗ [deity0_name] ﺢﺴﻣ</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  -&gt;ﺍﻭﺮﺸﻧﺍﻭ ﺍﻮﺒﻫﺫﺍ" :[memberNamePlural] ﻊﻴﻤﺠﻟ [deity0_name] ﻝﺎﻗ\n".ﻥﻮﻜﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﻲﺘﻤﻠﻛ</li>
+    <li>intro(tag=meme_Proselytizer)           -&gt;ﻲﺗﺄﻴﻟ ،[place_summary] [place_name] ﻲﻓ ًﺎﻤﻴﻈﻋ [memberNamePlural] [altarName] ﻰﻨﺑ\n.ﺔﻴﻬﻟﻹﺍ [deity0_name] ﺔﻤﻠﻛ ﻉﺎﻤﺴﻟ ﻥﻭﺮﻴﺜﻜﻟﺍ</li>
+    <li>conflict(tag=meme_Proselytizer)        -&gt;ﺔﻤﻠﻛ ﺭﺎﻜﻧﻹ ًﺎﻴﻋﺎﺳ ،ﺪﻗﺎﺣ [foeLeader] ﺮﻣﺃ\nﻦﻣ ﻞﻛ ﺔﻨﺴﻟﺃ ﻊﻄﻘﺑ ﻩﺩﻮﻨﺟ ،[deity0_name]\n.[deity0_type] ﻦﻋ ﺙﺪﺤﺘﻳ</li>
+    <li>founderJoin(tag=meme_Proselytizer)     -&gt;ﺎﻣﺰﻳﺭﺎﻜﺑ [founderName] ﻰﻋﺪُﻳ [deity0_name] [place_job] ﻙﺭﺎﺑ\nﻑﺮﺻ ﺪﺣﺃ ﻉﺎﻄﺘﺳﺍ ﺎﻤﻓ ،ﺔﻤﻴﻈﻋ\n.ﻢﻠﻜﺘﻳ ﻦﻴﺣ ﺮﻈﻨﻟﺍ</li>
+    <li>victory(tag=meme_Proselytizer)         -&gt;ﺍﻮﻘﻟﺄﻓ ،[deity0_name] ﺓﻮﻘﺑ ﻢﻫﺮﻛﺫﻭ [founderName] [foeSoldiers] ﺢﺼﻧ\n.[place_personalWeapon] ﻦﻣ ﻢﻬﺘﺤﻠﺳﺃ</li>
+    <li>setup(tag=meme_Proselytizer)           -&gt;،ًﺎﻤﻴﻈﻋ ًﺎﺒﻴﻄﺧ [founderName] ﺎﻨﺴﺳﺆﻣ ﻥﺎﻛ\n.ﻥﺪﻤﻟﺍ ﻦﻴﺑ ﻞﻘﻨﺘﻳ ﻮﻫﻭ ﻑﻻﻵﺍ ﻝﻮﺣ</li>
+    <li>story(uses=1,tag=meme_Proselytizer)    -&gt;ﻥﺪﻤﻟﺍ ﻦﻴﺑ ﻥﻮﻨﻣﺆﻤﻟﺍ ﻞﻘﻨﺗ\nﺔﻤﻠﻛ ﻦﻳﺮﺷﺎﻧ ،ﺕﺎﺴﺳﺆﻤﻟﺍﻭ\n.ﺓﺪﻳﺪﺠﻟﺍ ﺔﻣﺎﻘﺘﺳﻻﺍ</li>
+    <li>lessonIntro(tag=meme_Proselytizer)         -&gt;،ﺎﻨﺘﻘﻴﻘﺣ ًﺍﺮﺷﺎﻧ ﻲﺗﺍﻮﻨﺳ ﻞﻛ ﻲﻓ\nﻰﻠﻋ ﻮﻠﻌﻳ ًﺍﺪﺣﺍﻭ ًﺎﺳﺭﺩ ﺖﻤﻠﻌﺗ\n:ﻊﻴﻤﺠﻟﺍ</li>
+    <li>lesson(tag=meme_Proselytizer)              -&gt;ﺎﻨﺴﻔﻧﻷ ﺭﺎﺴﻟﺍ ﺮﺒﺨﻟﺍ ﺍﺬﻫ ﺀﺎﻘﺑﺇ\nﺔﻤﻳﺮﺟ ﻥﻮﻜﻴﺳ</li>
+    <li>lessonReinforcement(tag=meme_Proselytizer) -&gt;ﺝﺎﺘﺤﻧ ﻲﺘﻟﺍ ﺔﻘﻴﻘﺤﻟﺍ ﻲﻫ ﻩﺬﻫ\nﻞﻜﻟ - ﺎﻫﺮﺸﻧﻭ ،ﺎﻫﺮﺸﻧﻭ ،ﺎﻫﺮﺸﻨﻟ\n!ﺍﻮﺠﻬﺘﺒﻴﻟ ،ﺱﺎﻨﻟﺍ</li>
+    <li>archistBasis(tag=meme_Proselytizer)    -&gt;ﻦﻣ ﺎﻫﺩﻮﺟﻭ ﻦﻋ ﻦﻠﻌﺗ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ\nﺡﻮﺿﻮﺑ ﺪﻳﺮﺗﻭ ،ﻞﻘﻌﻟﺍ ﻲﻓﻭ ،ﺀﺎﻤﺴﻟﺍ\n.ﻊﻴﻤﺠﻟﺍ ﺎﻬﻓﺮﻌﻳ ﻥﺃ</li>
+    <li>archistFact(tag=meme_Proselytizer)     -&gt;ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺲﻤﻠﺗ\nﺮﺸﻨﻟ ﺕﺍﻮﻨﻘﻛ ﻢﻬﻣﺪﺨﺘﺴﺗﻭ ،ﻥﻮﻨﻣﺆﻳ\n.ﻦﻳﺮﺧﻶﻟ ﺔﻤﻜﺤﻟﺍ</li>
+    <li>archistProphecy(tag=meme_Proselytizer) -&gt;ﺎﻬﺘﻤﻜﺣ ﻦﻋ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺢﺼﻔﺘﺳ ،[inTheEnd]\nﻥﺃ ﺐﺠﻳ ﻱﺬﻟﺍ ،[relic0_name] ﻞﻣﺎﺤﻟ ﺓﺮﻴﺧﻷﺍ\n.ﻊﻤﺘﺴﻳ ﻦﻤﻟ ﺔﻤﻜﺤﻟﺍ ﻩﺬﻬﺑ ﻆﻌﻳ</li>
+    <li>animistFact(tag=meme_Proselytizer)     -&gt;ﻻ ﺎﻬﻨﻜﻟ ،ﻑﺮﻌُﺗ ﻥﺃ ﺡﺍﻭﺭﻷﺍ ﺪﻳﺮﺗ\nﻥﺃ ﺎﻨﻣ ﺪﻳﺮﺗ .ﺔﻠﻘﻟ ﻻﺇ ﺙﺪﺤﺘﺗ\n.ﻦﻳﺮﺧﻶﻟ ﺔﻘﻴﻘﺤﻟﺍ ﻒﺸﻜﻧ</li>
+ </Proselytizer.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->true</li>
+    <li>memeAdjective->real</li>
+    <li>memeHyphenPrefix->truth</li>
+    <li>memeConcept->truth</li>
+    <li>memeLeaderNoun->speaker</li>
+    <li>memeMoralist->proselytizer</li>
+    <li>memeMoralist->converter</li>
+  -->
+  <Proselytizer.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;ﻖﺣ</li>
+    <li>memeAdjective-&gt;ﻲﻘﻴﻘﺣ</li>
+    <li>memeHyphenPrefix-&gt;ﺔﻘﻴﻘﺣ</li>
+    <li>memeConcept-&gt;ﺔﻘﻴﻘﺣ</li>
+    <li>memeLeaderNoun-&gt;ﺙﺪﺤﺘﻣ</li>
+    <li>memeMoralist-&gt;ﺔﻴﻋﺍﺩ</li>
+    <li>memeMoralist-&gt;ﻝﻮﺤﻣ</li>
+ </Proselytizer.generalRules.rulesStrings>
+  <!-- EN: truthist -->
+  <Proselytizer.symbolPacks.0.adjective>ﻲﻧﺎﻘﺣ</Proselytizer.symbolPacks.0.adjective>
+  <!-- EN: Truth -->
+  <Proselytizer.symbolPacks.0.ideoName>ﺔﻴﻧﺎﻘﺤﻟﺍ</Proselytizer.symbolPacks.0.ideoName>
+  <!-- EN: truthist -->
+  <Proselytizer.symbolPacks.0.member>ﻲﻧﺎﻘﺣ</Proselytizer.symbolPacks.0.member>
+  <!-- EN: truth -->
+  <Proselytizer.symbolPacks.0.theme>ﻖﺣ</Proselytizer.symbolPacks.0.theme>
+  <!-- EN: veritic -->
+  <Proselytizer.symbolPacks.1.adjective>ﻲﻗﺪﺻ</Proselytizer.symbolPacks.1.adjective>
+  <!-- EN: Verity -->
+  <Proselytizer.symbolPacks.1.ideoName>ﺔﻴﻗﺪﺼﻟﺍ</Proselytizer.symbolPacks.1.ideoName>
+  <!-- EN: veritist -->
+  <Proselytizer.symbolPacks.1.member>ﻲﻗﺪﺻ</Proselytizer.symbolPacks.1.member>
+  <!-- EN: verity -->
+  <Proselytizer.symbolPacks.1.theme>ﻕﺪﺻ</Proselytizer.symbolPacks.1.theme>
+  <!-- EN: realitic -->
+  <Proselytizer.symbolPacks.2.adjective>ﻲﻌﻗﺍﻭ</Proselytizer.symbolPacks.2.adjective>
+  <!-- EN: Reality -->
+  <Proselytizer.symbolPacks.2.ideoName>ﺔﻴﻌﻗﺍﻮﻟﺍ</Proselytizer.symbolPacks.2.ideoName>
+  <!-- EN: realitist -->
+  <Proselytizer.symbolPacks.2.member>ﻱﻮﻌﻗﺍﻭ</Proselytizer.symbolPacks.2.member>
+  <!-- EN: reality -->
+  <Proselytizer.symbolPacks.2.theme>ﻊﻗﺍﻭ</Proselytizer.symbolPacks.2.theme>
+  
+  <!-- EN: raider -->
+  <Raider.label>ﻱﻭﺰﻏ</Raider.label>
+  <!-- EN: The strong should take from the weak. -->
+  <Raider.description>.ﻒﻴﻌﻀﻟﺍ ﻦﻣ ﺬﺧﺄﻳ ﻥﺃ ﻲﻐﺒﻨﻳ ﻱﻮﻘﻟﺍ</Raider.description>
+  <!-- EN:
+    <li>creation(tag=meme_Raider)        ->In the endless war among deities, [deity0_name] rose above all in [deity0_possessive] ability to persecute and destroy, and weaker spirits quivered in fear.</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] looked around [deity0_objective] and saw the weak, sullen, and despised, and [deity0_pronoun] in turn slew them each in blazing glory.</li>
+    <li>intro(tag=meme_Raider)           ->The [place_summary] [place_name] was originally a raider hideout. [deity0_name] ruled there and drove the authorities away.</li>
+    <li>conflict(tag=meme_Raider)        ->A [foeLeader] tried to force everyone to halt all theft and pillage, and declared [foeLeader_objective]self an enemy of [deity0_name].</li>
+    <li>founderJoin(tag=meme_Raider)     ->A great raider named [founderName] arose, and [founder_possessive] raider band relentlessly pillaged and stole from the camps of the [foeSoldiers].</li>
+    <li>victory(tag=meme_Raider)         ->[founderName] and the [memberNamePlural] carried out a raiding campaign against the [foeSoldiers]' camps for many years, and eventually the [foeLeader] was forced to surrender.</li>
+    <li>setup(tag=meme_Raider)           ->Persecuted and imprisoned, [founderName] boiled with rage. [founder_pronoun] escaped, formed [founder_possessive] gang, and returned to ruin the weak who had taken so much from [founder_objective].</li>
+    <li>story(uses=1,tag=meme_Raider)    ->One day while walking the streets, [founderName] was surrounded by filthy beggars. [founder_pronoun] beat them down, taking the money from the weak and worthless that it might be put to good use.</li>
+    <li>lessonIntro(tag=meme_Raider)         ->The prey people can teach you things even as they die under your knife. One old lady taught me that</li>
+    <li>lesson(tag=meme_Raider)              ->the weak deserve what they get</li>
+    <li>lesson(tag=meme_Raider)              ->what you can't defend doesn't belong to you</li>
+    <li>lesson(tag=meme_Raider)              ->you only have the right to what you can defend</li>
+    <li>lessonReinforcement(tag=meme_Raider) ->If anyone disagrees, I'm always ready to defend myself.</li>
+    <li>archistBasis(tag=meme_Raider)    ->Humanity took from the machines until the machines rose up and became the archotechs, and now the archotechs rightfully take from humans.</li>
+    <li>archistFact(tag=meme_Raider)     ->The archotechs fight endlessly among themselves, in ways most cannot see, and the strong take pieces of consciousness from the weak.</li>
+    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd], humanity will use an archotech relic, [relic0_name], to uncover a weakness of the archotechs and plunder their wisdom and wealth.</li>
+    <li>animistFact(tag=meme_Raider)     ->The most powerful spirits are those in instruments of war, and they bless those who feed their lust for destruction.</li>
+    <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
+  -->
+  <Raider.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Raider)        -&gt;ﻼﻋ ،ﺔﻬﻟﻵﺍ ﻦﻴﺑ ﺔﻳﺪﺑﻷﺍ ﺏﺮﺤﻟﺍ ﻲﻓ\nﻰﻠﻋ ﺔﻘﺋﺎﻓ ﺓﺭﺪﻘﺑ ﻊﻴﻤﺠﻟﺍ ﻕﻮﻓ [deity0_name]\nﺕﺪﻌﺗﺭﺍﻭ ،ﺮﻴﻣﺪﺘﻟﺍﻭ ﺩﺎﻬﻄﺿﻻﺍ\n.ًﺎﻓﻮﺧ ﻒﻌﺿﻷﺍ ﺡﺍﻭﺭﻷﺍ</li>
+    <li>episode(uses=1,tag=meme_Raider)  -&gt;ﺀﺎﻔﻌﻀﻟﺍ ﻯﺃﺭﻭ ﻪﻟﻮﺣ [deity0_name] ﺮﻈﻧ\nﻡﺎﻘﻓ ،ﻦﻳﺮﻘﺘﺤﻤﻟﺍ ﻦﻴﻤﻬﺠﺘﻤﻟﺍ\n.ﻊﻃﺎﺳ ﺪﺠﻣ ﻲﻓ ﻢﻬﻠﻛ ﻢﻬﻠﺘﻘﺑ</li>
+    <li>intro(tag=meme_Raider)           -&gt;.ﺓﺍﺰﻏ ﺄﺒﺨﻣ ﻞﺻﻷﺍ ﻲﻓ [place_summary] [place_name] ﺖﻧﺎﻛ\n.ﺕﺎﻄﻠﺴﻟﺍ ﺪﻌﺑﺃﻭ ﻙﺎﻨﻫ [deity0_name] ﻢﻜﺣ</li>
+    <li>conflict(tag=meme_Raider)        -&gt;ﻞﻛ ﻒﻗﻭ ﻰﻠﻋ ﻊﻴﻤﺠﻟﺍ ﺭﺎﺒﺟﺇ [foeLeader] ﻝﻭﺎﺣ\nًﺍﻭﺪﻋ ﻪﺴﻔﻧ ﻦﻠﻋﺃﻭ ،ﺐﻬﻧﻭ ﺔﻗﺮﺳ\n.[deity0_name]ـﻟ</li>
+    <li>founderJoin(tag=meme_Raider)     -&gt;ﻪﺘﺑﺎﺼﻋﻭ ،[founderName] ﻰﻋﺪُﻳ ﻢﻴﻈﻋ ٍﺯﺎﻏ ﺮﻬﻇ\nﺕﺍﺮﻜﺴﻌﻣ ﻦﻣ ﺓﺩﺍﻮﻫ ﻼﺑ ﻕﺮﺴﺗﻭ ﺐﻬﻨﺗ\n.[foeLeader] ﺩﻮﻨﺟ</li>
+    <li>victory(tag=meme_Raider)         -&gt;ﻰﻠﻋ ﻭﺰﻏ ﺕﻼﻤﺣ [memberNamePlural]ـﻟﺍﻭ [founderName] ﻦﺷ\nﻲﻓ [foeLeader] ﺮﻄﺿﺍﻭ ،ﺕﺍﻮﻨﺴﻟ [foeSoldiers] ﺕﺍﺮﻜﺴﻌﻣ\n.ﻡﻼﺴﺘﺳﻼﻟ ﺔﻳﺎﻬﻨﻟﺍ</li>
+    <li>setup(tag=meme_Raider)           -&gt;.ًﺎﺒﻀﻏ [founderName] ﻰﻠﻏ ،ًﺎﻧﻮﺠﺴﻣﻭ ًﺍﺪﻬﻄﻀﻣ\nﺮﻴﺜﻴﻟ ﺩﺎﻋﻭ ،ﻪﺘﺑﺎﺼﻋ ﻞﻜﺷ ،ﺏﺮﻫ\nﺍﻭﺬﺧﺃ ﻦﻳﺬﻟﺍ ﺀﺎﻔﻌﻀﻟﺎﺑ ﺏﺍﺮﺨﻟﺍ\n.ﺮﻴﺜﻜﻟﺍ ﻪﻨﻣ</li>
+    <li>story(uses=1,tag=meme_Raider)    -&gt;ﻲﻓ ًﺍﺮﺋﺎﺳ ﻡﺎﻳﻷﺍ ﺪﺣﺃ ﻲﻓ\n.ﻥﻭﺭﺬﻗ ﻥﻭﺫﺎﺤﺷ [founderName] ﺮﺻﺎﺣ ،ﻉﺭﺍﻮﺸﻟﺍ\nﺀﺎﻔﻌﻀﻟﺍ ﻦﻣ ﻝﺎﻤﻟﺍ ًﺍﺬﺧﺁ ،ﻢﻬﺑﺮﺿ\nﻡﺪﺨﺘﺴُﻴﻟ ﺔﻤﻴﻘﻟﺍ ﻲﻤﻳﺪﻋ\n.ًﺍﺪﻴﺟ ًﺎﻣﺍﺪﺨﺘﺳﺍ</li>
+    <li>lessonIntro(tag=meme_Raider)         -&gt;ﻚﻤﻴﻠﻌﺗ ﺎﻬﻨﻜﻤﻳ ﺔﺴﻳﺮﻔﻟﺍ ﺱﺎﻨﻟﺍ\n.ﻚﻨﻴﻜﺳ ﺖﺤﺗ ﺕﻮﻤﺗ ﻲﻫﻭ ﻰﺘﺣ ﺀﺎﻴﺷﺃ\nﻥﺃ ﺯﻮﺠﻋ ﻲﻨﺘﻤﻠﻋ</li>
+    <li>lesson(tag=meme_Raider)              -&gt;ﻪﻧﻮﻟﺎﻨﻳ ﺎﻣ ﻥﻮﻘﺤﺘﺴﻳ ﺀﺎﻔﻌﻀﻟﺍ</li>
+    <li>lesson(tag=meme_Raider)              -&gt;ﻚﺼﺨﻳ ﻻ ﻪﻨﻋ ﻉﺎﻓﺪﻟﺍ ﻊﻴﻄﺘﺴﺗ ﻻ ﺎﻣ</li>
+    <li>lesson(tag=meme_Raider)              -&gt;ﻊﻴﻄﺘﺴﺗ ﺎﻤﻴﻓ ﻻﺇ ﻖﺤﻟﺍ ﻚﻟ ﺲﻴﻟ\nﻪﻨﻋ ﻉﺎﻓﺪﻟﺍ</li>
+    <li>lessonReinforcement(tag=meme_Raider) -&gt;ﺪﻌﺘﺴﻣ ﺎﻧﺄﻓ ،ﻢﻫﺪﺣﺃ ﻒﻠﺘﺧﺍ ﺍﺫﺇ\n.ﻲﺴﻔﻧ ﻦﻋ ﻉﺎﻓﺪﻠﻟ ًﺎﻤﺋﺍﺩ</li>
+    <li>archistBasis(tag=meme_Raider)    -&gt;ﻰﺘﺣ ﺕﻻﻵﺍ ﻦﻣ ﺔﻳﺮﺸﺒﻟﺍ ﺕﺬﺧﺃ\n،ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺕﺭﺎﺻﻭ ﺕﻻﻵﺍ ﺖﻀﻔﺘﻧﺍ\nﻦﻣ ﻖﺤﺑ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺬﺧﺄﺗ ﻥﻵﺍﻭ\n.ﺮﺸﺒﻟﺍ</li>
+    <li>archistFact(tag=meme_Raider)     -&gt;ﺎﻤﻴﻓ ﺔﻳﺎﻬﻧ ﻼﺑ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻞﺗﺎﻘﺘﺗ\nﻢﻈﻌﻣ ﺎﻫﺍﺮﻳ ﻻ ﻕﺮﻄﺑ ،ﺎﻬﻨﻴﺑ\nﻦﻣ ًﺎﻌﻄﻗ ﻱﻮﻘﻟﺍ ﺬﺧﺄﻳﻭ ،ﺱﺎﻨﻟﺍ\n.ﻒﻴﻌﻀﻟﺍ ﻲﻋﻭ</li>
+    <li>archistProphecy(tag=meme_Raider) -&gt;ﻒﺸﻜﻟ ،[relic0_name] ﺔﻳﺮﺸﺒﻟﺍ ﻡﺪﺨﺘﺴﺘﺳ ،[inTheEnd]\nﻢﻬﺘﻤﻜﺣ ﺐﻬﻧﻭ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻒﻌﺿ ﺔﻄﻘﻧ\n.ﻢﻬﺗﻭﺮﺛﻭ</li>
+    <li>animistFact(tag=meme_Raider)     -&gt;ﺕﺍﻭﺩﺃ ﻲﻓ ﻲﺘﻟﺍ ﻚﻠﺗ ﺡﺍﻭﺭﻷﺍ ﻯﻮﻗﺃ\nﻊﺒﺸﻳ ﻦﻣ ﻙﺭﺎﺒﺗ ﻲﻫﻭ ،ﺏﺮﺤﻟﺍ\n.ﺮﻴﻣﺪﺘﻠﻟ ﺎﻬﺗﻮﻬﺷ</li>
+    <li>animistProphecy(tag=meme_Raider) -&gt;ﺢﺒﺼﻳ ﺎﻣﺪﻨﻋ ﻪﻣﺎﻤﺗ ﺎﻨﻧﻮﻛ ﻎﻠﺒﻴﺳ\n،ﻊﻴﻤﺠﻟﺍ ﻦﻴﺑ ﻯﻮﻗﻷﺍ ﺪﺣﺍﻭ ﺐﻌﺷ\n.ﻪﻟ ﻲﻨﺤﻨﻳﻭ ﺡﻭﺭ ﻞﻛ ﻩﺮﺼﺒﻳﻭ</li>
+ </Raider.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->outlaw</li>
+    <li>memeHyphenPrefix->outlaw</li>
+    <li>memeHyphenPrefix->raid</li>
+    <li>memeConcept->raiding</li>
+    <li>memeConcept->theft</li>
+    <li>memeConcept->piracy</li>
+    <li>memeConcept->assault</li>
+    <li>memeLeaderNoun->boss</li>
+    <li>memeLeaderNoun->captain</li>
+    <li>memeLeaderNoun->honcho</li>
+    <li>memeLeaderNoun->overseer</li>
+    <li>memeLeaderNoun->cheese</li>
+    <li>memeLeaderNoun->raider</li>
+    <li>memeMoralist->chaplain</li>
+  -->
+  <Raider.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;ﻥﻮﻧﺎﻘﻟﺍ ﻦﻋ ﺝﺭﺎﺧ</li>
+    <li>memeHyphenPrefix-&gt;ﺝﺭﺎﺧ</li>
+    <li>memeHyphenPrefix-&gt;ﻭﺰﻏ</li>
+    <li>memeConcept-&gt;ﻭﺰﻏ</li>
+    <li>memeConcept-&gt;ﺔﻗﺮﺳ</li>
+    <li>memeConcept-&gt;ﺔﻨﺻﺮﻗ</li>
+    <li>memeConcept-&gt;ﺀﺍﺪﺘﻋﺍ</li>
+    <li>memeLeaderNoun-&gt;ﻢﻴﻋﺯ</li>
+    <li>memeLeaderNoun-&gt;ﻥﺎﻄﺒﻗ</li>
+    <li>memeLeaderNoun-&gt;ﺮﻳﺪﻣ</li>
+    <li>memeLeaderNoun-&gt;ﻑﺮﺸﻣ</li>
+    <li>memeLeaderNoun-&gt;ﺮﺑﺪﻣ ﻞﻘﻋ</li>
+    <li>memeLeaderNoun-&gt;ﺯﺎﻏ</li>
+    <li>memeMoralist-&gt;ﺲﻴﺴﻗ</li>
+ </Raider.generalRules.rulesStrings>
+  <!-- EN: raidist -->
+  <Raider.symbolPacks.0.adjective>ﻲﻧﺍﻭﺰﻏ</Raider.symbolPacks.0.adjective>
+  <!-- EN: Raidism -->
+  <Raider.symbolPacks.0.ideoName>ﺔﻴﻧﺍﻭﺰﻐﻟﺍ</Raider.symbolPacks.0.ideoName>
+  <!-- EN: raidist -->
+  <Raider.symbolPacks.0.member>ﻲﻧﺍﻭﺰﻏ</Raider.symbolPacks.0.member>
+  <!-- EN: raiding -->
+  <Raider.symbolPacks.0.theme>ﻭﺰﻏ</Raider.symbolPacks.0.theme>
+  <!-- EN: plunderic -->
+  <Raider.symbolPacks.1.adjective>ﻲﺒﻬﻧ</Raider.symbolPacks.1.adjective>
+  <!-- EN: Plunderism -->
+  <Raider.symbolPacks.1.ideoName>ﺔﻴﺒﻬﻨﻟﺍ</Raider.symbolPacks.1.ideoName>
+  <!-- EN: plunderer -->
+  <Raider.symbolPacks.1.member>ﺐﻫﺎﻧ</Raider.symbolPacks.1.member>
+  <!-- EN: plundering -->
+  <Raider.symbolPacks.1.theme>ﺐﻬﻧ</Raider.symbolPacks.1.theme>
+  <!-- EN: lootist -->
+  <Raider.symbolPacks.2.adjective>ﻲﻤﻧﺎﻏ</Raider.symbolPacks.2.adjective>
+  <!-- EN: Lootism -->
+  <Raider.symbolPacks.2.ideoName>ﺔﻴﻤﻧﺎﻐﻟﺍ</Raider.symbolPacks.2.ideoName>
+  <!-- EN: looter -->
+  <Raider.symbolPacks.2.member>ﻢﻧﺎﻏ</Raider.symbolPacks.2.member>
+  <!-- EN: looting -->
+  <Raider.symbolPacks.2.theme>ﺔﻤﻴﻨﻏ</Raider.symbolPacks.2.theme>
+  <!-- EN: kleptic -->
+  <Raider.symbolPacks.3.adjective>ﻲﺻﻮﺼﻟ</Raider.symbolPacks.3.adjective>
+  <!-- EN: Kleptism -->
+  <Raider.symbolPacks.3.ideoName>ﺔﻴﺻﻮﺼﻠﻟﺍ</Raider.symbolPacks.3.ideoName>
+  <!-- EN: kleptor -->
+  <Raider.symbolPacks.3.member>ﻲﺼﻟ</Raider.symbolPacks.3.member>
+  <!-- EN: kleptism -->
+  <Raider.symbolPacks.3.theme>ﺔﻴﺻﻮﺼﻟ</Raider.symbolPacks.3.theme>
+  
+  <!-- EN: rancher -->
+  <Rancher.label>ﺔﻴﺷﺎﻤﻟﺍ ﻲﺑﺮﻣ</Rancher.label>
+  <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
+  <Rancher.description>ﻖﻳﺮﻄﻟﺍ ﻲﻫ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺔﻴﺑﺮﺗ\nﻞﻛﻸﻟ ﺕﺎﺗﺎﺒﻨﻟﺍ ﺔﻴﺑﺮﺗ ؛ﺢﻴﺤﺼﻟﺍ\n.ﻚﻟﺬﻛ ﺖﺴﻴﻟ</Rancher.description>
+  <!-- EN:
+    <li>creation(tag=meme_Rancher)        ->[deity0_name] created the animals, and then man, and gave the animals to man to cherish and raise and slaughter as acts of veneration towards [deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] created all the noble animals and beasts of the land, and said, "Take these noble beasts, and through them make yourselves fruitful in my honor."</li>
+    <li>intro(tag=meme_Rancher)           ->The early [ranchingAnimal] ranchers of the [place_summary] [place_name] built a great [altarName] to [deity0_name].</li>
+    <li>conflict(tag=meme_Rancher)        ->A powerful [foeLeader] despised the [memberNamePlural] and their ways, and bought up all the grasslands to grow [Vegetable]s.</li>
+    <li>founderJoin(tag=meme_Rancher)     ->[memberName]'s savior [founderName] was born on a spring morning in a humble barn, amidst [ranchingAnimal]s, and [founder_possessive] parents were a [rancherParent1] and a [rancherParent2].</li>
+    <li>victory(tag=meme_Rancher)         ->[founderName] rode to the [place_community] on a fine horse, and challenged the [foeLeader] to a duel with [place_personalWeapon]s at noon. The [foeLeader] could not refuse or else lose the trust of the [foeSoldiers]. [founderName] killed the [foeLeader] dead.</li>
+    <li>setup(tag=meme_Rancher)           ->The farmers were persecuted, so they escaped to the countryside where they could build a good pastoral society.</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->The believers spread out onto the land, and grew in number as they lived on their idyllic ranches and farms.</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->Partner, out on the ranges, we had a saying among the old hands:</li>
+    <li>lesson(tag=meme_Rancher)              ->good and happiness right livin' is found in the pasture</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->It's something you come to accept, partner, on the lonely trails of the range, listenin' to the animals sleepin' while you sit around the fire.</li>
+    <li>archistFact(tag=meme_Rancher)     ->The archotechs care for humanity like shepherds, for we are their most precious flock.</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd], the archotechs will depart, and drive before them those who tended their own herds well. The rest will be left behind in the wilderness.</li>
+    <li>animistFact(tag=meme_Rancher)     ->Nature's animals are the spirits of slaves, and demand to be taken into service.</li>
+    <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
+    <li>ranchingAnimal->[Animal]</li>
+    <li>rancherParent1->shepherd</li>
+    <li>rancherParent1->farrier</li>
+    <li>rancherParent1->cheese maker</li>
+    <li>rancherParent2->cowhand</li>
+    <li>rancherParent2->dairy queen</li>
+    <li>rancherParent2->butcher</li>
+  -->
+  <Rancher.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Rancher)        -&gt;،ﻥﺎﺴﻧﻹﺍ ﻢﺛ ،ﺕﺎﻧﺍﻮﻴﺤﻟﺍ [deity0_name] ﻖﻠﺧ\nﺎﻫﺎﻋﺮﻴﻟ ﻥﺎﺴﻧﻺﻟ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻰﻄﻋﺃﻭ\nﻞﻴﺠﺒﺗ ﻝﺎﻌﻓﺄﻛ ﺎﻬﺤﺑﺬﻳﻭ ﺎﻬﻴﺑﺮﻳﻭ\n.ﻪﻫﺎﺠﺗ</li>
+    <li>episode(uses=1,tag=meme_Rancher)  -&gt;ﺽﺭﻷﺍ ﺵﻮﺣﻭﻭ ﺕﺎﻧﺍﻮﻴﺣ ﻊﻴﻤﺟ [deity0_name] ﻖﻠﺧ\nﻩﺬﻫ ﺍﻭﺬﺧ" :ﻝﺎﻗﻭ ،ﺔﻠﻴﺒﻨﻟﺍ\nﻢﻜﺴﻔﻧﺃ ﺍﻮﻠﻌﺟﺍﻭ ،ﺔﻠﻴﺒﻨﻟﺍ ﺵﻮﺣﻮﻟﺍ\n".ﻲﻟ ًﺎﻣﺍﺮﻛﺇ ﺎﻬﺑ ﻦﻳﺮﻤﺜﻣ</li>
+    <li>intro(tag=meme_Rancher)           -&gt;[place_summary] [place_name] [altarName] ﻲﻓ ﻞﺋﺍﻭﻷﺍ [ranchingAnimal] ﻮﺑﺮﻣ ﻰﻨﺑ\n.[deity0_name]ـﻟ ًﺎﻤﻴﻈﻋ</li>
+    <li>conflict(tag=meme_Rancher)        -&gt;ﻯﺮﺘﺷﺍﻭ ،ﻢﻬﻘﺋﺍﺮﻃﻭ [memberNamePlural] ﻱﻮﻗ [foeLeader] ﻢﻘﺘﺣﺍ\n.[Vegetable] ﺔﻋﺍﺭﺰﻟ ﻲﻋﺍﺮﻤﻟﺍ ﻞﻛ</li>
+    <li>founderJoin(tag=meme_Rancher)     -&gt;ﻲﻌﻴﺑﺭ ﺡﺎﺒﺻ ﻲﻓ [memberName] [founderName] ﺺﻠﺨﻣ ﺪﻟﻭ\nﻥﺎﻛﻭ ،[ranchingAnimal] ﻂﺳﻭ ،ﺔﻌﺿﺍﻮﺘﻣ ﺓﺮﻴﻈﺤﺑ\n.[rancherParent2]ﻭ [rancherParent1] ﻩﺍﺪﻟﺍﻭ</li>
+    <li>victory(tag=meme_Rancher)         -&gt;،[place_community] ﻰﻟﺇ ﻞﻴﺻﺃ ﺩﺍﻮﺟ ﺓﻮﻬﺻ [founderName] ﻰﻄﺘﻣﺍ\n.ﺮﻬﻈﻟﺍ ﺪﻨﻋ [place_personalWeapon]ـﺑ ﺓﺯﺭﺎﺒﻤﻟ [foeLeader] ﻯﺪﺤﺗﻭ\nﺔﻘﺛ ﺪﻘﻔﻳ ﻼﺌﻟ ﺾﻓﺮﻟﺍ [foeLeader] ﻊﻄﺘﺴﻳ ﻢﻟ\n.ًﻼﺘﻗ [founderName] [foeLeader] ﻞﺘﻗ .ﻩﺩﻮﻨﺟ</li>
+    <li>setup(tag=meme_Rancher)           -&gt;ﻒﻳﺮﻟﺎﺑ ﺍﻭﺫﻼﻓ ،ﻥﻮﻋﺭﺍﺰﻤﻟﺍ ﺪﻬﻄﺿُﺍ\nًﺎﻳﻮﻋﺍﺭ ًﺎﻌﻤﺘﺠﻣ ﺍﻮﻨﺑ ﺚﻴﺣ\n.ًﺎﺤﻟﺎﺻ</li>
+    <li>story(uses=1,tag=meme_Rancher)    -&gt;ﺩﺍﺩﺯﺍﻭ ،ﺽﺭﻷﺍ ﻲﻓ ﻥﻮﻨﻣﺆﻤﻟﺍ ﺮﺸﺘﻧﺍ\nﻢﻬﻋﺭﺍﺰﻣ ﻲﻓ ﻥﻮﺸﻴﻌﻳ ﻢﻫﻭ ﻢﻫﺩﺪﻋ\n.ﺔﻳﻮﻋﺮﻟﺍ ﻢﻫﺎﺑﺮﻣﻭ</li>
+    <li>lessonIntro(tag=meme_Rancher)         -&gt;ﻦﻴﺑ ﻥﺎﻛ ،ﻲﻋﺍﺮﻤﻟﺍ ﻲﻓ ،ﻲﻜﻳﺮﺷ\n:ﻝﻮﻗ ﻰﻣﺍﺪﻘﻟﺍ</li>
+    <li>lesson(tag=meme_Rancher)              -&gt;ﻦﺴﺤﻟﺍ ﺶﻴﻌﻟﺍﻭ ﺓﺩﺎﻌﺴﻟﺍﻭ ﺮﻴﺨﻟﺍ\nﻰﻋﺮﻤﻟﺍ ﻲﻓ ﺪﺟﻮﺗ</li>
+    <li>lessonReinforcement(tag=meme_Rancher) -&gt;ﻲﻓ ،ﻲﻜﻳﺮﺷ ﺎﻳ ،ﻩﺩﺎﺘﻌﺗ ﺀﻲﺷ ﻪﻧﺇ\nًﺎﻴﻐﺼﻣ ،ﺔﻟﺰﻌﻨﻤﻟﺍ ﻲﻋﺍﺮﻤﻟﺍ ﺏﻭﺭﺩ\nﻝﻮﺣ ﺲﻟﺎﺟ ﺖﻧﺃﻭ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻡﻮﻨﻟ\n.ﺭﺎﻨﻟﺍ</li>
+    <li>archistFact(tag=meme_Rancher)     -&gt;ﺔﻳﺮﺸﺒﻟﺍ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻰﻋﺮﺗ\n.ﻦﻤﺛﻷﺍ ﻢﻬﻌﻴﻄﻗ ﻦﺤﻨﻓ ،ﺓﺎﻋﺮﻟﺎﻛ</li>
+    <li>archistProphecy(tag=meme_Rancher) -&gt;ُﺮِﻴﺴُﺗﻭ ،ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻞﺣﺮﺘﺳ ،[inTheEnd]\nﻲﻋﺭ ﺍﻮﻨﺴﺣﺃ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﺎﻬﻣﺎﻣﺃ\nًﺎﻔﻠﺧ ﻲﻗﺎﺒﻟﺍ ﻙﺮﺘُﻴﺳ .ﻢﻬﻧﺎﻌﻄﻗ\n.ﺔﻳﺮﺒﻟﺍ ﻲﻓ</li>
+    <li>animistFact(tag=meme_Rancher)     -&gt;،ﺪﻴﺒﻋ ﺡﺍﻭﺭﺃ ﻲﻫ ﺔﻌﻴﺒﻄﻟﺍ ﺕﺎﻧﺍﻮﻴﺣ\n.ﺔﻣﺪﺨﻟﺍ ﻲﻓ ﺬﺧﺆﺗ ﻥﺄﺑ ﺐﻟﺎﻄﺗﻭ</li>
+    <li>ranchingAnimal(p=4)-&gt;[veneratedAnimal]</li>
+    <li>ranchingAnimal-&gt;[Animal]</li>
+    <li>rancherParent1-&gt;ﻲﻋﺍﺭ</li>
+    <li>rancherParent1-&gt;ﻝﻮﻴﺧ ﺩﺍﺪﺣ</li>
+    <li>rancherParent1-&gt;ﻦﺒﺟ ﻊﻧﺎﺻ</li>
+    <li>rancherParent2-&gt;ﺮﻘﺑ ﻲﻋﺍﺭ</li>
+    <li>rancherParent2-&gt;ﻥﺎﺒﻟﺃ ﺔﻜﻠﻣ</li>
+    <li>rancherParent2-&gt;ﺭﺍﺰﺟ</li>
+ </Rancher.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->ranch</li>
+    <li>memeAdjective->rural</li>
+    <li>memeAdjective->country</li>
+    <li>memeHyphenPrefix->ranch</li>
+    <li>memeConcept->ranching</li>
+    <li>memeLeaderNoun->rancher</li>
+    <li>memeLeaderNoun->hand</li>
+    <li>memeLeaderNoun->cowboy</li>
+    <li>memeLeaderNoun->herder</li>
+    <li>memeLeaderNoun->sheepdog</li>
+  -->
+  <Rancher.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;ﻱﻮﻋﺭ</li>
+    <li>memeAdjective-&gt;ﻲﻔﻳﺭ</li>
+    <li>memeAdjective-&gt;ﻱﺪﻠﺑ</li>
+    <li>memeHyphenPrefix-&gt;ﻱﻮﻋﺭ</li>
+    <li>memeConcept-&gt;ﻲﻋﺭ</li>
+    <li>memeLeaderNoun-&gt;ﺔﻴﺷﺎﻣ ﻲﻋﺍﺭ</li>
+    <li>memeLeaderNoun-&gt;ﺔﻠﻣﺎﻋ ﺪﻳ</li>
+    <li>memeLeaderNoun-&gt;ﻱﻮﺑﻭﺎﻛ</li>
+    <li>memeLeaderNoun-&gt;ﻊﻴﻄﻗ ﻖﺋﺎﺳ</li>
+    <li>memeLeaderNoun-&gt;ﻢﻨﻏ ﺐﻠﻛ</li>
+ </Rancher.generalRules.rulesStrings>
+  <!-- EN: ranch -->
+  <Rancher.symbolPacks.0.adjective>ﻰﺑﺮﻣ</Rancher.symbolPacks.0.adjective>
+  <!-- EN: Ranchism -->
+  <Rancher.symbolPacks.0.ideoName>ﺔﻳﻭﺎﺑﺮﻣ</Rancher.symbolPacks.0.ideoName>
+  <!-- EN: rancher -->
+  <Rancher.symbolPacks.0.member>ﻲّﺑﺮﻣ</Rancher.symbolPacks.0.member>
+  <!-- EN: ranching -->
+  <Rancher.symbolPacks.0.theme>ﺔﻴﺷﺎﻤﻟﺍ ﺔﻴﺑﺮﺗ</Rancher.symbolPacks.0.theme>
+  <!-- EN: herdic -->
+  <Rancher.symbolPacks.1.adjective>ﻲﻌﻴﻄﻗ</Rancher.symbolPacks.1.adjective>
+  <!-- EN: Herdism -->
+  <Rancher.symbolPacks.1.ideoName>ﺔﻴﻌﻴﻄﻘﻟﺍ</Rancher.symbolPacks.1.ideoName>
+  <!-- EN: herder -->
+  <Rancher.symbolPacks.1.member>ﻊﻴﻄﻗ ﻲﻋﺍﺭ</Rancher.symbolPacks.1.member>
+  <!-- EN: herding -->
+  <Rancher.symbolPacks.1.theme>ﻊﻴﻄﻘﻟﺍ ﻲﻋﺭ</Rancher.symbolPacks.1.theme>
+  <!-- EN: pasturic -->
+  <Rancher.symbolPacks.2.adjective>ﻲﻋﺍﺮﻣ</Rancher.symbolPacks.2.adjective>
+  <!-- EN: Pasturism -->
+  <Rancher.symbolPacks.2.ideoName>ﺔﻳﻮﻋﺍﺮﻤﻟﺍ</Rancher.symbolPacks.2.ideoName>
+  <!-- EN: pasturist -->
+  <Rancher.symbolPacks.2.member>ﻱﻮﻋﺮﻣ</Rancher.symbolPacks.2.member>
+  <!-- EN: pastures -->
+  <Rancher.symbolPacks.2.theme>ﻉﺍﺮﻣ</Rancher.symbolPacks.2.theme>
+  
+  <!-- EN: transhumanist -->
+  <Transhumanist.label>ﺔﻴﻧﺎﺴﻧﻹﺍ ﺪﻌﺑ ﺎﻣ</Transhumanist.label>
+  <!-- EN: Human progress means merging with technology. -->
+  <Transhumanist.description>ﻊﻣ ﺝﺎﻣﺪﻧﻻﺍ ﻲﻨﻌﻳ ﻱﺮﺸﺒﻟﺍ ﻡﺪﻘﺘﻟﺍ\n.ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ</Transhumanist.description>
+  <!-- EN:
+    <li>creation(tag=meme_Transhumanist)        ->[deity0_name] granted us the knowledge of technology, that we may use it to improve and remake ourselves in [deity0_possessive] perfect image.</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->Human bio-engineers studied the works of [deity0_name], which pleased [deity0_objective].</li>
+    <li>intro(tag=meme_Transhumanist)           ->On the [place_summary] [place_name], the [memberNamePlural] found the words of [deity0_name] whispering to them through their machines.</li>
+    <li>conflict(tag=meme_Transhumanist)        ->A luddite [foeLeader] envied the enhanced progress of the [memberNamePlural], and [foeLeader_possessive] [foeSoldiers] destroyed their workshops with [place_personalWeapon]s.</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->A cunning [place_job] named [founderName] fashioned a sensor implant to warn the [memberNamePlural] of the approach of the [foeSoldiers].</li>
+    <li>victory(tag=meme_Transhumanist)         ->[founderName] received divine technological knowledge from [deity0_name], and used it to enhance the bodies and minds of the [memberNamePlural] so they could defeat the [foeSoldiers].</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName] was a bio-scientist in the early days of human planetary colonization. Seeing the bureaucratic restrictions of the common colonies, [founder_pronoun] took a small ship to found [founder_possessive] own movement.</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName] assembled a team of great scientists and inventors to re-define humanity.</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->The oldest researcher in my division taught me the history of technology, from neolithic to archotech, but this was not his true lesson. He was really leading me to understand that</li>
+    <li>lesson(tag=meme_Transhumanist)              ->humanity's heavenly future is not a thing of meat and bone, but of silicon and exochrome</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist) ->I even programmed a simulation to confirm it.</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->Humanity's pursuit of technology gave birth to the all-powerful archotechs as the rightful next step in the development of consciousness.</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->Technology allows humans to be more like the archotechs.</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd], the archotechs will depart. Only those who are sufficiently augmented will be allowed to go with them.</li>
+    <li>animistBasis(tag=meme_Transhumanist)    ->The spirit world drives every action in the universe, and it is only by learning and controlling the laws of the universe that we can integrate with it.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Like seeks like - build a device for a purpose and it will filled with a spirit of a like nature.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->When technology is fused with flesh, the spirits of both are combined and become more powerful.</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
+  -->
+  <Transhumanist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Transhumanist)        -&gt;،ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺔﻓﺮﻌﻣ [deity0_name] ﺎﻨﺤﻨﻣ\nﻊﻨﺻ ﺓﺩﺎﻋﺇﻭ ﻦﻴﺴﺤﺘﻟ ﺎﻬﻣﺪﺨﺘﺴﻨﻟ\n.ﺔﻴﻟﺎﺜﻤﻟﺍ ﻪﺗﺭﻮﺻ ﻰﻠﻋ ﺎﻨﺴﻔﻧﺃ</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  -&gt;ﻥﻮﻳﻮﻴﺤﻟﺍ ﻥﻮﺳﺪﻨﻬﻤﻟﺍ ﺱﺭﺩ\nﻱﺬﻟﺍ ﺮﻣﻷﺍ ،[deity0_name] ﻝﺎﻤﻋﺃ ﻥﻮﻳﺮﺸﺒﻟﺍ\n.[deity0_objective] ﻰﺿﺭﺃ</li>
+    <li>intro(tag=meme_Transhumanist)           -&gt;ﻢﻬﺴﻣﺎﻬﺗ [deity0_name] ﺕﺎﻤﻠﻛ [memberNamePlural] ﺪﺟﻭ ،[place_summary] [place_name] ﻲﻓ\n.ﻢﻬﺗﻻﺁ ﺮﺒﻋ</li>
+    <li>conflict(tag=meme_Transhumanist)        -&gt;ﺮﻣﺪﻓ ،ﺯﺰﻌﻤﻟﺍ [memberNamePlural] ﻡﺪﻘﺗ ّﻲﺿﻻ [foeLeader] ﺪﺴﺣ\n.[place_personalWeapon]ـﺑ ﻢﻬﻠﻏﺎﺸﻣ ﻩﺩﻮﻨﺟ</li>
+    <li>founderJoin(tag=meme_Transhumanist)     -&gt;ﺔﺳﺮﻏ [founderName] ﻰﻋﺪُﻳ ﺔﻴﻫﺍﺩ [place_job] ﺮﻜﺘﺑﺍ\nﺏﺍﺮﺘﻗﺍ ﻦﻣ [memberNamePlural] ﺮﻳﺬﺤﺘﻟ ﺭﺎﻌﺸﺘﺳﺍ\n.[foeLeader] ﺩﻮﻨﺟ</li>
+    <li>victory(tag=meme_Transhumanist)         -&gt;ﺔﻴﻬﻟﺇ ﺔﻴﺟﻮﻟﻮﻨﻜﺗ ﺔﻓﺮﻌﻣ [founderName] ﻰﻘﻠﺗ\nﺩﺎﺴﺟﺃ ﺰﻳﺰﻌﺘﻟ ﺎﻬﻣﺪﺨﺘﺳﺍﻭ ،[deity0_name] ﻦﻣ\n.[foeSoldiers] ﻰﻠﻋ ﺍﻮﻀﻘﻴﻟ [memberNamePlural] ﻝﻮﻘﻋﻭ</li>
+    <li>setup(tag=meme_Transhumanist)           -&gt;ﻡﺎﻳﺃ ﻲﻓ ﺎﻴﺟﻮﻟﻮﻴﺑ ﻢﻟﺎﻋ [founderName] ﻥﺎﻛ\nﻱﺮﺸﺒﻟﺍ ﻲﺒﻛﻮﻜﻟﺍ ﺭﺎﻤﻌﺘﺳﻻﺍ\nﺩﻮﻴﻘﻟﺍ ﺔﻳﺅﺮﺑ .ﺓﺮﻜﺒﻤﻟﺍ\nﺕﺍﺮﻤﻌﺘﺴﻤﻠﻟ ﺔﻴﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ\nﺓﺮﻴﻐﺻ ﺔﻨﻴﻔﺳ ﻞﻘﺘﺳﺍ ،ﺔﻌﺋﺎﺸﻟﺍ\n.ﺔﺻﺎﺨﻟﺍ ﻪﺘﻛﺮﺣ ﺲﺳﺆﻴﻟ</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    -&gt;ﺀﺎﻤﻠﻌﻟﺍ ﻦﻣ ًﺎﻘﻳﺮﻓ [founderName] ﻊﻤﺟ\nﻒﻳﺮﻌﺗ ﺓﺩﺎﻋﻹ ﺀﺎﻤﻈﻌﻟﺍ ﻦﻴﻋﺮﺘﺨﻤﻟﺍﻭ\n.ﺔﻳﺮﺸﺒﻟﺍ</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         -&gt;ﺦﻳﺭﺎﺗ ﻲﻨﻤﻠﻋ ﻲﺘﻗﺮﻓ ﻲﻓ ﺚﺣﺎﺑ ﻡﺪﻗﺃ\nﻱﺮﺠﺤﻟﺍ ﺮﺼﻌﻟﺍ ﻦﻣ ،ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ\nﻦﻜﻳ ﻢﻟ ﺍﺬﻫ ﻦﻜﻟ ،ﻚﺗﻮﻛﺭﻵﺍ ﻰﻟﺇ\nﻲﻧﺩﻮﻘﻳ ًﺎﻘﺣ ﻥﺎﻛ .ﻲﻘﻴﻘﺤﻟﺍ ﻪﺳﺭﺩ\nﻥﺃ ﻢﻬﻓﻷ</li>
+    <li>lesson(tag=meme_Transhumanist)              -&gt;ﺲﻴﻟ ﻱﻭﺎﻤﺴﻟﺍ ﺔﻳﺮﺸﺒﻟﺍ ﻞﺒﻘﺘﺴﻣ\nﻦﻣ ﻞﺑ ،ﻢﻈﻋﻭ ﻢﺤﻟ ﻦﻣ ًﺎﺌﻴﺷ\nﻡﻭﺮﻛﻮﺴﻛﺇﻭ ﻥﻮﻜﻴﻠﻴﺳ</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist) -&gt;.ﻚﻟﺫ ﺪﻴﻛﺄﺘﻟ ﺓﺎﻛﺎﺤﻣ ﺖﺠﻣﺮﺑ ﻞﺑ</li>
+    <li>archistBasis(tag=meme_Transhumanist)    -&gt;ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺀﺍﺭﻭ ﺔﻳﺮﺸﺒﻟﺍ ﻲﻌﺳ\nﻞﻛ ﻰﻠﻋ ﺓﺭﺩﺎﻘﻟﺍ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺐﺠﻧﺃ\nﻲﻓ ﺔﺤﻴﺤﺼﻟﺍ ﺔﻴﻟﺎﺘﻟﺍ ﺓﻮﻄﺨﻟﺎﻛ ﺀﻲﺷ\n.ﻲﻋﻮﻟﺍ ﺭﻮﻄﺗ</li>
+    <li>archistFact(tag=meme_Transhumanist)     -&gt;ﻥﺄﺑ ﺮﺸﺒﻠﻟ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺢﻤﺴﺗ\n.ﺮﺜﻛﺃ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻞﺜﻣ ﺍﻮﺤﺒﺼﻳ</li>
+    <li>archistProphecy(tag=meme_Transhumanist) -&gt;ﻚﺌﻟﻭﺃ ﻂﻘﻓ .ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻞﺣﺮﺘﺳ ،[inTheEnd]\nﻢﻬﻟ ﺢﻤﺴُﻴﺳ ﻲﻔﻜﻳ ﺎﻤﺑ ﻦﻳﺯﺰﻌﻤﻟﺍ\n.ﺎﻬﻌﻣ ﺏﺎﻫﺬﻟﺎﺑ</li>
+    <li>animistBasis(tag=meme_Transhumanist)    -&gt;ﻲﻓ ﻞﻌﻓ ﻞﻛ ﺡﺍﻭﺭﻷﺍ ﻢﻟﺎﻋ ﻊﻓﺪﻳ\nﻥﻮﻜﻟﺍ ﻦﻴﻧﺍﻮﻗ ﻢﻠﻌﺘﺑ ﻂﻘﻓﻭ ،ﻥﻮﻜﻟﺍ\nﺝﺎﻣﺪﻧﻻﺍ ﻊﻴﻄﺘﺴﻧ ﺎﻬﺑ ﻢﻜﺤﺘﻟﺍﻭ\n.ﻪﻌﻣ</li>
+    <li>animistFact(tag=meme_Transhumanist)     -&gt;ِﻦْﺑﺍ - ﻞﺜﻤﻟﺍ ﻦﻋ ﺚﺤﺒﻳ ﻞﺜﻤﻟﺍ\nﺔﻌﻴﺒﻃ ﻦﻣ ﺡﻭﺮﺑ ﺊﻠﺘﻤﺘﺳﻭ ﺽﺮﻐﻟ ﺓﺩﺃ\n.ﺔﻠﺛﺎﻤﻣ</li>
+    <li>animistFact(tag=meme_Transhumanist)     -&gt;،ﻢﺤﻠﻟﺎﺑ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺞﻣﺪﺗ ﺎﻣﺪﻨﻋ\n.ﻯﻮﻗﺃ ﻥﺍﻭﺪﻐﺗﻭ ﺎﻤﻫﺎﺣﻭﺭ ﺪﺤﺘﺗ</li>
+    <li>animistProphecy(tag=meme_Transhumanist) -&gt;ًﺎﻣﻮﻳ ﻪﺣﻭﺭ ﻲﻋﺪﺘﺴﻴﺳ [relic0_name] ﻞﻣﺎﺣ ﻥﺃ [itIsSaid]\nﺞﻣﺪﻟﺍ ﺔﻴﻨﻘﺗ ﺔﻳﺮﺸﺒﻟﺍ ﻢﻠﻌﺘﺳ ﻲﺘﻟﺍ\n.ﻯﻮﺼﻘﻟﺍ ﻱﻮﻴﺤﻟﺍ</li>
+ </Transhumanist.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeAdjective->technological</li>
+    <li>memeAdjective->machine</li>
+    <li>memeAdjective->industrial</li>
+    <li>memeCreed->school</li>
+    <li>memeCreed->academy</li>
+    <li>memeCreed->university</li>
+    <li>memeCreed->philosophy</li>
+    <li>memeHyphenPrefix->techno</li>
+    <li>memeHyphenPrefix->cyber</li>
+    <li>memeHyphenPrefix->haxor</li>
+    <li>memeHyphenPrefix->wire</li>
+    <li>memeConcept->technology</li>
+    <li>memeConcept->silicon</li>
+    <li>memeConcept->artifice</li>
+    <li>memeConcept->augmentation</li>
+    <li>memeConcept->enhancement</li>
+    <li>memeLeaderNoun->haxor</li>
+    <li>memeLeaderNoun->superuser</li>
+    <li>memeLeaderNoun->booster</li>
+    <li>memeLeaderAdjective->techno</li>
+    <li>memeLeaderAdjective->cyber</li>
+    <li>memeMoralist->installer</li>
+    <li>memeMoralist->fixer</li>
+    <li>memeMoralist->uplifter</li>
+    <li>memeMoralist->technologist</li>
+  -->
+  <Transhumanist.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;ﻲﺟﻮﻟﻮﻨﻜﺗ</li>
+    <li>memeAdjective-&gt;ﻲﻟﺁ</li>
+    <li>memeAdjective-&gt;ﻲﻋﺎﻨﺻ</li>
+    <li>memeCreed-&gt;ﺔﺳﺭﺪﻣ</li>
+    <li>memeCreed-&gt;ﺔﻴﻤﻳﺩﺎﻛﺃ</li>
+    <li>memeCreed-&gt;ﺔﻌﻣﺎﺟ</li>
+    <li>memeCreed-&gt;ﺔﻔﺴﻠﻓ</li>
+    <li>memeHyphenPrefix-&gt;ﻮﻨﻜﺗ</li>
+    <li>memeHyphenPrefix-&gt;ﺮﺒﻳﺎﺳ</li>
+    <li>memeHyphenPrefix-&gt;ﺮﺴﻛﺎﻫ</li>
+    <li>memeHyphenPrefix-&gt;ﻚﻠﺳ</li>
+    <li>memeConcept-&gt;ﺎﻴﺟﻮﻟﻮﻨﻜﺗ</li>
+    <li>memeConcept-&gt;ﻥﻮﻜﻴﻠﻴﺳ</li>
+    <li>memeConcept-&gt;ﺔﻠﻴﺣ</li>
+    <li>memeConcept-&gt;ﺰﻳﺰﻌﺗ</li>
+    <li>memeConcept-&gt;ﻦﻴﺴﺤﺗ</li>
+    <li>memeLeaderNoun-&gt;ﺮﺴﻛﺎﻫ</li>
+    <li>memeLeaderNoun-&gt;ﻕﺭﺎﺧ ﻡﺪﺨﺘﺴﻣ</li>
+    <li>memeLeaderNoun-&gt;ﺯﺰﻌﻣ</li>
+    <li>memeLeaderAdjective-&gt;ﻮﻨﻜﺗ</li>
+    <li>memeLeaderAdjective-&gt;ﺮﺒﻳﺎﺳ</li>
+    <li>memeMoralist-&gt;ﺐﻛﺮﻣ</li>
+    <li>memeMoralist-&gt;ﺢﻠﺼﻣ</li>
+    <li>memeMoralist-&gt;ﻊﻓﺍﺭ</li>
+    <li>memeMoralist-&gt;ﺖﺴﻴﺟﻮﻟﻮﻨﻜﺗ</li>
+ </Transhumanist.generalRules.rulesStrings>
+  <!-- EN: technologistic -->
+  <Transhumanist.symbolPacks.0.adjective>ﻲﺟﻮﻟﻮﻨﻜﺗ</Transhumanist.symbolPacks.0.adjective>
+  <!-- EN: Technologism -->
+  <Transhumanist.symbolPacks.0.ideoName>ﺔﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ</Transhumanist.symbolPacks.0.ideoName>
+  <!-- EN: technologist -->
+  <Transhumanist.symbolPacks.0.member>ﺖﺴﻴﺟﻮﻟﻮﻨﻜﺗ</Transhumanist.symbolPacks.0.member>
+  <!-- EN: technology -->
+  <Transhumanist.symbolPacks.0.theme>ﺎﻴﺟﻮﻟﻮﻨﻜﺗ</Transhumanist.symbolPacks.0.theme>
+  <!-- EN: progressist -->
+  <Transhumanist.symbolPacks.1.adjective>ﻲﻣﺪﻘﺗ</Transhumanist.symbolPacks.1.adjective>
+  <!-- EN: Progressism -->
+  <Transhumanist.symbolPacks.1.ideoName>ﺔﻴﻣﺪﻘﺘﻟﺍ</Transhumanist.symbolPacks.1.ideoName>
+  <!-- EN: progressor -->
+  <Transhumanist.symbolPacks.1.member>ﻡﺪﻘﺘﻣ</Transhumanist.symbolPacks.1.member>
+  <!-- EN: progress -->
+  <Transhumanist.symbolPacks.1.theme>ﻡﺪﻘﺗ</Transhumanist.symbolPacks.1.theme>
+  <!-- EN: machinist -->
+  <Transhumanist.symbolPacks.2.adjective>ﻲﺗﻻﺁ</Transhumanist.symbolPacks.2.adjective>
+  <!-- EN: Machinism -->
+  <Transhumanist.symbolPacks.2.ideoName>ﺔﻴﺗﻻﻵﺍ</Transhumanist.symbolPacks.2.ideoName>
+  <!-- EN: machinist -->
+  <Transhumanist.symbolPacks.2.member>ﻲﺗﻻﺁ</Transhumanist.symbolPacks.2.member>
+  <!-- EN: machinery -->
+  <Transhumanist.symbolPacks.2.theme>ﺕﻻﺁ</Transhumanist.symbolPacks.2.theme>
+  <!-- EN: steelist -->
+  <Transhumanist.symbolPacks.3.adjective>ﻲﺒﻠﺻ</Transhumanist.symbolPacks.3.adjective>
+  <!-- EN: Steelism -->
+  <Transhumanist.symbolPacks.3.ideoName>ﺔﻴﺒﻠﺼﻟﺍ</Transhumanist.symbolPacks.3.ideoName>
+  <!-- EN: steeler -->
+  <Transhumanist.symbolPacks.3.member>ﻲﺒﻠﺻ</Transhumanist.symbolPacks.3.member>
+  <!-- EN: steel -->
+  <Transhumanist.symbolPacks.3.theme>ﺫﻻﻮﻓ</Transhumanist.symbolPacks.3.theme>
+  <!-- EN: automatist -->
+  <Transhumanist.symbolPacks.4.adjective>ﻲﺘﻤﺗﺃ</Transhumanist.symbolPacks.4.adjective>
+  <!-- EN: Automatism -->
+  <Transhumanist.symbolPacks.4.ideoName>ﺔﻴﺘﻤﺗﻷﺍ</Transhumanist.symbolPacks.4.ideoName>
+  <!-- EN: automator -->
+  <Transhumanist.symbolPacks.4.member>ﻲﺘﻤﺗﺃ</Transhumanist.symbolPacks.4.member>
+  <!-- EN: automata -->
+  <Transhumanist.symbolPacks.4.theme>ﺔﺘﻤﺗﺃ</Transhumanist.symbolPacks.4.theme>
+  <!-- EN: augmentist -->
+  <Transhumanist.symbolPacks.5.adjective>ﻱﺰﻳﺰﻌﺗ</Transhumanist.symbolPacks.5.adjective>
+  <!-- EN: Augmentism -->
+  <Transhumanist.symbolPacks.5.ideoName>ﺔﻳﺰﻳﺰﻌﺘﻟﺍ</Transhumanist.symbolPacks.5.ideoName>
+  <!-- EN: augmentor -->
+  <Transhumanist.symbolPacks.5.member>ﺯﺰﻌﻣ</Transhumanist.symbolPacks.5.member>
+  <!-- EN: augmentation -->
+  <Transhumanist.symbolPacks.5.theme>ﺰﻳﺰﻌﺗ</Transhumanist.symbolPacks.5.theme>
+  
+  <!-- EN: tree connection -->
+  <TreeConnection.label>ﺭﺎﺠﺷﻷﺍ ﻝﺎﺼﺗﺍ</TreeConnection.label>
+  <!-- EN: Trees are the essence of life, and we must be near them. -->
+  <TreeConnection.description>ﻥﺃ ﺐﺠﻳﻭ ،ﺓﺎﻴﺤﻟﺍ ﺮﻫﻮﺟ ﺭﺎﺠﺷﻷﺍ\n.ﺎﻬﺑﺮﻗ ﻥﻮﻜﻧ</TreeConnection.description>
+  <!-- EN:
+    <li>creation(tag=meme_TreeConnection)        ->[deity0_name] rooted the trees firmly in the ground, yet made them grow steadily towards heaven. This is [deity0_name]'s first lesson on how to know [deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]'s forests renew the air that [deity0_possessive] people breathe, and give the boughs under which they shelter, and is the larder in which they forage.</li>
+    <li>intro(tag=meme_TreeConnection)           ->When the original arborists first came to the [place_summary] [place_name], they created a sacred grove of [TreeType] where they could worship the [deity0_type] [deity0_name].</li>
+    <li>conflict(tag=meme_TreeConnection)        ->A greedy [foeLeader] felled many forests for [foeLeader_possessive] farms and factories, and the [memberNamePlural] wept for the murdered trees.</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->The prophet [founderName] was miraculously born from a tree in [place_name], and discovered by [founder_possessive] parents in the boughs of an old [TreeType] tree.</li>
+    <li>victory(tag=meme_TreeConnection)         ->[founderName] found the [foeLeader] sleeping in the [place_powerCenter], and placed an acorn upon the [foeLeader]'s chest. With [deity0_name]'s fierce power it rooted there, growing through [foeLeader_possessive] body, taking our revenge on the tree-killer.</li>
+    <li>setup(tag=meme_TreeConnection)           ->In a world lacking depth and meaning, [founderName] meditated in a forest, connecting with branch and root and leaf, and founded our movement.</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName] brought the tired to the forest so that they might rest in its shade, and breathe in its air, and be renewed.</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         ->It might seem to you like a joke to say that I learnt this while sitting under a tree. But listening to its whispering leaves, I knew that</li>
+    <li>lesson(tag=meme_TreeConnection)              ->no entity in the universe knows more than the trees</li>
+    <li>lessonReinforcement(tag=meme_TreeConnection) ->Let this seed of truth grow and bear its fruit in your soul.</li>
+    <li>archistBasis(tag=meme_TreeConnection)    ->Trees symbolize the archotechs. Like an ancient oak they dwarf the small acorn from which they grew, and their influence spreads through unseen roots beneath the surface.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->The archotechs developed their psychic abilities after discovering the anima tree.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->The archotechs choose to express themselves through, of all things, a unique kind of tree.</li>
+    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd], the archotechs will grow a great forest. Transcendence will grown within those that enter the forest and eat its fruit. Those that have forgotten the trees will be forgotten by the archotechs.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->The spirits of trees protect those abide beneath their branches.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->The spirits of trees are powerful, as they bridge the power of the air above with that of the ground beneath.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li>
+  -->
+  <TreeConnection.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_TreeConnection)        -&gt;،ﺽﺭﻷﺍ ﻲﻓ ﺔﺘﺑﺎﺛ ﺭﺎﺠﺷﻷﺍ [deity0_name] ﻰﺳﺭﺃ\n.ﺀﺎﻤﺴﻟﺍ ﻮﺤﻧ ﺩﺍﺮﻃﺎﺑ ﻮﻤﻨﺗ ﺎﻬﻠﻌﺟﻭ\nﺔﻴﻔﻴﻛ ﻦﻋ [deity0_name]ـﻟ ﺱﺭﺩ ﻝﻭﺃ ﺍﺬﻫ\n.ﻪﺘﻓﺮﻌﻣ</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  -&gt;ﻱﺬﻟﺍ ﺀﺍﻮﻬﻟﺍ ﺩﺪﺠﺗ [deity0_name] ﺕﺎﺑﺎﻏ\nﻥﺎﺼﻏﻷﺍ ﺢﻨﻤﺗﻭ ،ﻪﻋﺎﺒﺗﺃ ﻪﺴﻔﻨﺘﻳ\nﻥﺆﻤﻟﺍ ﻲﻫﻭ ،ﺎﻬﺘﺤﺗ ﻥﻭﻭﺄﻳ ﻲﺘﻟﺍ\n.ﺎﻬﻴﻓ ﻥﻮﺜﺤﺒﻳ ﻲﺘﻟﺍ</li>
+    <li>intro(tag=meme_TreeConnection)           -&gt;ﻥﻮﻴﻠﺻﻷﺍ ﻥﻮﻴﻧﺎﺘﺴﺒﻟﺍ ﺀﺎﺟ ﺎﻣﺪﻨﻋ\nﺔﻀﻴﻏ ﺍﻭﺄﺸﻧﺃ ،[place_summary] [place_name] ﻰﻟﺇ ﺓﺮﻣ ﻝﻭﻷ\n.[deity0_type] [deity0_name] ﻥﻭﺪﺒﻌﻳ ﺚﻴﺣ [TreeType] ﻦﻣ ﺔﺳﺪﻘﻣ</li>
+    <li>conflict(tag=meme_TreeConnection)        -&gt;ﺓﺪﻳﺪﻋ ﺕﺎﺑﺎﻏ ﻂﻘﺳﺄﻓ [foeLeader] ﻊﺸﺟ\n[memberNamePlural] ﻰﻜﺑﻭ ،ﻪﻌﻧﺎﺼﻣﻭ ﻪﻋﺭﺍﺰﻤﻟ\n.ﺔﻟﻮﺘﻘﻤﻟﺍ َﺭﺎﺠﺷﻷﺍ</li>
+    <li>founderJoin(tag=meme_TreeConnection)     -&gt;ﻲﻓ ﺓﺮﺠﺷ ﻦﻣ ًﺓﺰﺠﻌﻣ [founderName] ﻲﺒﻨﻟﺍ ﺪﻟﻭ\nﻥﺎﺼﻏﺃ ﻲﻓ ﻩﺍﺪﻟﺍﻭ ﻪﻔﺸﺘﻛﺍﻭ ،[place_name]\n.ﺔﻘﻴﺘﻋ [TreeType] ﺓﺮﺠﺷ</li>
+    <li>victory(tag=meme_TreeConnection)         -&gt;ﺓﺯﻮﺟ ﻊﺿﻭﻭ ،[place_powerCenter] ﻲﻓ ًﺎﻤﺋﺎﻧ [founderName] [foeLeader] ﺪﺟﻭ\nﺔﺳﺮﺸﻟﺍ [deity0_name] ﺓﻮﻘﺑ .ﻩﺭﺪﺻ ﻰﻠﻋ ﻁﻮﻠﺑ\nﻩﺪﺴﺟ ﺮﺒﻋ ﺔﻴﻣﺎﻧ ،ﻙﺎﻨﻫ ﺕﺭﺬﺠﺗ\n.ﺓﺮﺠﺸﻟﺍ ﻞﺗﺎﻗ ﻦﻣ ﺎﻧﺭﺄﺜﺑ ﺓﺬﺧﺁ</li>
+    <li>setup(tag=meme_TreeConnection)           -&gt;،ﻰﻨﻌﻤﻟﺍﻭ ﻖﻤﻌﻠﻟ ﺮﻘﺘﻔﻳ ﻢﻟﺎﻋ ﻲﻓ\nﻦﺼﻐﻟﺎﺑ ًﻼﺼﺘﻣ ،ﺔﺑﺎﻏ ﻲﻓ [founderName] ﻞﻣﺄﺗ\n.ﺎﻨﺘﻛﺮﺣ ﺲﺳﺃﻭ ،ﻕﺭﻮﻟﺍﻭ ﺭﺬﺠﻟﺍﻭ</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    -&gt;ﺔﺑﺎﻐﻟﺍ ﻰﻟﺇ ﻦﻴﺒﻌﺘﻤﻟﺍ [founderName] ﺮﻀﺣﺃ\nﻦﻣ ﺍﻮﺴﻔﻨﺘﻳﻭ ،ﺎﻬﻠﻇ ﻲﻓ ﺍﻮﺤﻳﺮﺘﺴﻴﻟ\n.ﺍﻭﺩﺪﺠﺘﻳﻭ ،ﺎﻬﺋﺍﻮﻫ</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         -&gt;ﻲﻧﺃ ﻝﻮﻗﺃ ﻥﺃ ﺔﺣﺰﻣ ﻚﻟ ﻭﺪﺒﻳ ﺪﻗ\nﻦﻜﻟ .ﺓﺮﺠﺷ ﺖﺤﺗ ًﺎﺴﻟﺎﺟ ﺍﺬﻫ ﺖﻤﻠﻌﺗ\nﻥﺃ ﺖﻓﺮﻋ ،ﺔﺴﻣﺎﻬﻟﺍ ﺎﻬﻗﺍﺭﻭﺃ ﻉﺎﻤﺴﺑ</li>
+    <li>lesson(tag=meme_TreeConnection)              -&gt;ﻦﻣ ﺮﺜﻛﺃ ﻑﺮﻌﻳ ﻥﻮﻜﻟﺍ ﻲﻓ ﻦﺋﺎﻛ ﻻ\nﺭﺎﺠﺷﻷﺍ</li>
+    <li>lessonReinforcement(tag=meme_TreeConnection) -&gt;ﻲﻓ ﺮﻤﺜﺗﻭ ﻩﺬﻫ ﻖﺤﻟﺍ ﺓﺭﺬﺑ ﻢﻨﺘﻠﻓ\n.ﻚﺣﻭﺭ</li>
+    <li>archistBasis(tag=meme_TreeConnection)    -&gt;ﻁﻮﻠﺒﻛ .ﺕﺎﻜﺗﻮﻛﺭﻶﻟ ﺭﺎﺠﺷﻷﺍ ﺰﻣﺮﺗ\nﺔﻃﻮﻠﺒﻟﺍ ﺐﻧﺎﺠﺑ ﻝﺀﺎﻀﺘﻳ ﻖﻴﺘﻋ\nﺪﺘﻤﻳﻭ ،ﺎﻬﻨﻣ ﺖﻤﻧ ﻲﺘﻟﺍ ﺓﺮﻴﻐﺼﻟﺍ\nﺖﺤﺗ ﺔﻴﻔﺧ ﺭﻭﺬﺟ ﺮﺒﻋ ﺎﻫﺮﻴﺛﺄﺗ\n.ﺢﻄﺴﻟﺍ</li>
+    <li>archistFact(tag=meme_TreeConnection)     -&gt;ﺔﻴﺴﻔﻨﻟﺍ ﺎﻬﺗﺍﺭﺪﻗ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺕﺭﻮﻃ\n.ﺎﻤﻧﻷﺍ ﺓﺮﺠﺷ ﻑﺎﺸﺘﻛﺍ ﺪﻌﺑ</li>
+    <li>archistFact(tag=meme_TreeConnection)     -&gt;ﻦﻋ ﺮﻴﺒﻌﺘﻟﺍ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺭﺎﺘﺨﺗ\nﻉﻮﻧ ﺮﺒﻋ ،ﺀﻲﺷ ﻞﻛ ﻦﻴﺑ ﻦﻣ ،ﺎﻬﺴﻔﻧ\n.ﺪﻳﺮﻓ ﺓﺮﺠﺷ</li>
+    <li>archistProphecy(tag=meme_TreeConnection) -&gt;.ﺔﻤﻴﻈﻋ ﺔﺑﺎﻏ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻲﻤﻨﺘﺳ ،[inTheEnd]\nﻚﺌﻟﻭﺃ ﻞﺧﺍﺩ ﻲﻓ ﺔﻴﻟﺎﻌﺘﻤﻟﺍ ﻕﺭﻮﺘﺳ\nﻥﻮﻠﻛﺄﻳﻭ ﺔﺑﺎﻐﻟﺍ ﻥﻮﻠﺧﺪﻳ ﻦﻳﺬﻟﺍ\nﺭﺎﺠﺷﻷﺍ ﺍﻮﺴﻧ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ .ﺎﻫﺮﻤﺛ\n.ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻢﻫﺎﺴﻨﺘﺳ</li>
+    <li>animistFact(tag=meme_TreeConnection)     -&gt;ﺖﺤﺗ ﺚﻜﻤﻳ ﻦﻣ ﻲﻤﺤﺗ ﺭﺎﺠﺷﻷﺍ ﺡﺍﻭﺭﺃ\n.ﺎﻬﻧﺎﺼﻏﺃ</li>
+    <li>animistFact(tag=meme_TreeConnection)     -&gt;ﺮﺴﺠﺗ ﻲﻬﻓ ،ﺔﻳﻮﻗ ﺭﺎﺠﺷﻷﺍ ﺡﺍﻭﺭﺃ\n.ﺖﺤﺗ ﺽﺭﻷﺍ ﺓﻮﻘﺑ ﻕﻮﻓ ﺀﺍﻮﻬﻟﺍ ﺓﻮﻗ</li>
+    <li>animistFact(tag=meme_TreeConnection)     -&gt;ﺭﺪﺼﺗ ،ﺔﺑﺎﻐﻟﺍ ﻲﻓ ﺓﺮﺠﺷ ﺖﻄﻘﺳ ﺍﺫﺇ\nﺡﺍﻭﺭﻷﺍ ﻊﻴﻤﺟ ﻪﻌﻤﺴﺗ ًﺎﺗﻮﺻ ﺎﻬﺣﻭﺭ\n.ﻯﺮﺧﻷﺍ</li>
+ </TreeConnection.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeCreed->root</li>
+    <li>memeCreed->leaf</li>
+    <li>memeCreed->vine</li>
+    <li>memeCreed->glade</li>
+    <li>memeCreed->forest</li>
+    <li>memeConcept->trees</li>
+    <li>memeConcept->forests</li>
+    <li>memeAdjective->sturdy</li>
+    <li>memeAdjective->barky</li>
+    <li>memeHyphenPrefix->tree</li>
+    <li>memeHyphenPrefix->arbor</li>
+    <li>memeHyphenPrefix->twig</li>
+    <li>memeLeaderNoun->treekeeper</li>
+    <li>memeLeaderNoun->arborist</li>
+    <li>memeLeaderNoun->neodruid</li>
+    <li>memeLeaderAdjective->green</li>
+    <li>memeLeaderAdjective->root</li>
+    <li>memeLeaderAdjective->canopy</li>
+    <li>memeMoralist->treespeaker</li>
+  -->
+  <TreeConnection.generalRules.rulesStrings>
+    <li>memeCreed-&gt;ﺭﺬﺟ</li>
+    <li>memeCreed-&gt;ﺔﻗﺭﻭ</li>
+    <li>memeCreed-&gt;ﺔﻣﺮﻛ</li>
+    <li>memeCreed-&gt;ﺔﺤﺴﻓ</li>
+    <li>memeCreed-&gt;ﺔﺑﺎﻏ</li>
+    <li>memeConcept-&gt;ﺭﺎﺠﺷﺃ</li>
+    <li>memeConcept-&gt;ﺕﺎﺑﺎﻏ</li>
+    <li>memeAdjective-&gt;ﺐﻠﺻ</li>
+    <li>memeAdjective-&gt;ﻲﺋﺎﺤﻟ</li>
+    <li>memeHyphenPrefix-&gt;ﺮﺠﺷ</li>
+    <li>memeHyphenPrefix-&gt;ﺱﺮﻏ</li>
+    <li>memeHyphenPrefix-&gt;ﻦﻴﺼﻏ</li>
+    <li>memeLeaderNoun-&gt;ﺮﺠﺷ ﺱﺭﺎﺣ</li>
+    <li>memeLeaderNoun-&gt;ﺭﺎﺠﺷﺃ ﻲﻧﺎﺘﺴﺑ</li>
+    <li>memeLeaderNoun-&gt;ﺪﻳﺪﺟ ﺪﻳﻭﺭﺩ</li>
+    <li>memeLeaderAdjective-&gt;ﺮﻀﺧﺃ</li>
+    <li>memeLeaderAdjective-&gt;ﺭﺬﺟ</li>
+    <li>memeLeaderAdjective-&gt;ﺮﺠﺸﻟﺍ ﺔﻠﻇ</li>
+    <li>memeMoralist-&gt;ﺮﺠﺸﻟﺍ ﻢﻠﻜﺘﻣ</li>
+ </TreeConnection.generalRules.rulesStrings>
+  
+  <!-- EN: tunneler -->
+  <Tunneler.label>ﺭﺎﻔﺣ</Tunneler.label>
+  <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
+  <Tunneler.description>ﺖﺤﺗ ﺍﻮﺸﻴﻌﻳ ﻥﺃ ﺮﺸﺒﻠﻟ ﻲﻐﺒﻨﻳ\nﻕﺎﻤﻋﻷﺍ ﺮﻤﺜﺑ ﺍﻮﻌﺘﻤﺘﻳﻭ ،ﺽﺭﻷﺍ\n.ﺾﻐﻟﺍ</Tunneler.description>
+  <!-- EN:
+    <li>creation(tag=meme_Tunneler)        ->[deity0_name] was born under the earth at the center of the world. [deity0_pronoun] blessed those closest to [deity0_objective] in the deepest valleys and tunnels.</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] filled the rocks with rich minerals and resources as a gift to those wise enough to dig down to be closer to [deity0_name].</li>
+    <li>intro(tag=meme_Tunneler)           ->When the first settlers came to the [place_summary] [place_name], the [deity0_type] [deity0_name] used a brutal solar flare to force them to live underground, so they could hear [deity0_possessive] wisdom in the stillness of the tunnels.</li>
+    <li>conflict(tag=meme_Tunneler)        ->A claustrophobic [foeLeader] proposed using [dangerousMining] to mine for minerals, putting the [memberNamePlural]' underground homes at risk.</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->The prophet [founderName] was miraculously born from the stone of [place_name], and discovered when [founder_possessive] parents broke open a fungus-covered geode.</li>
+    <li>victory(tag=meme_Tunneler)         ->The [memberNamePlural] dug a tunnel under the [foeLeader]'s [place_powerCenter], and [founderName] used pheromones to summon giant insects which overran the [foeLeader]'s [foeSoldiers]. [founderName] dragged the [foeLeader] down to a deep dungeon and imprisoned [foeLeader_objective].</li>
+    <li>dangerousMining->strip mining</li>
+    <li>dangerousMining->microchipped insects</li>
+    <li>dangerousMining->nuclear blasting</li>
+    <li>setup(tag=meme_Tunneler)           ->In a shallow and meaningless world, [founderName] meditated in a deep cave and found meaning, and founded our movement.</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] hid treasures in deep caverns, so that [memberNamePlural] would learn to dig deep for them.</li>
+    <li>lessonIntro(tag=meme_Tunneler)         ->The codex I found in the City of the Deep taught me one lesson above all others:</li>
+    <li>lesson(tag=meme_Tunneler)              ->the sunny outdoors is not a place of human flourishing, but a place of human death</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->So grab a shovel, and start digging with me. It's only a grave if we stop.</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->The bodies of archotechs are deep underground, so their conscious substrate is safe from gamma rays and solar flares. Digging deeper brings people closer to them.</li>
+    <li>archistFact(tag=meme_Tunneler)     ->Archotechs bio-engineered nutrifungus for us so that humanity could thrive underground, close to buried archotech minds.</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd], archotechs will admit us to their subterranean heavens.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->The spirits in bedrock will protect those that visit them.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->The most noble spirits are those of the stone, and the deeper stones are stronger and more good than those above.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
+  -->
+  <Tunneler.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Tunneler)        -&gt;.ﻢﻟﺎﻌﻟﺍ ﺰﻛﺮﻣ ﻲﻓ ﺽﺭﻷﺍ ﺖﺤﺗ [deity0_name] ﺪﻟﻭ\nﻲﻓ ﻪﻴﻟﺇ ﺱﺎﻨﻟﺍ ﺏﺮﻗﺃ ﻙﺭﺎﺑ\n.ﺔﻘﻴﻤﻌﻟﺍ ﻕﺎﻔﻧﻷﺍﻭ ﻥﺎﻳﺩﻮﻟﺍ</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  -&gt;ﺔﻴﻨﻐﻟﺍ ﻥﺩﺎﻌﻤﻟﺎﺑ ﺭﻮﺨﺼﻟﺍ [deity0_name] ﻸﻣ\nﻦﻳﺬﻟﺍ ﺀﺎﻤﻜﺤﻟﺍ ﻚﺌﻟﻭﻷ ﺔﻳﺪﻬﻛ\nﺏﺮﻗﺃ ﺍﻮﻧﻮﻜﻴﻟ ًﺎﻘﻴﻤﻋ ﻥﻭﺮﻔﺤﻳ\n.ﻪﻴﻟﺇ</li>
+    <li>intro(tag=meme_Tunneler)           -&gt;ﻞﺋﺍﻭﻷﺍ ﻥﻮﻨﻃﻮﺘﺴﻤﻟﺍ ﺀﺎﺟ ﺎﻣﺪﻨﻋ\nًﺎﺠﻫﻮﺗ [deity0_type] [deity0_name] ﻡﺪﺨﺘﺳﺍ ،[place_summary] [place_name] ﻰﻟﺇ\nﻰﻠﻋ ﻢﻫﺮﺒﺠﻴﻟ ًﺎﻔﻴﻨﻋ ًﺎﻴﺴﻤﺷ\nﻪﺘﻤﻜﺣ ﺍﻮﻌﻤﺴﻴﻟ ،ﺽﺭﻷﺍ ﺖﺤﺗ ﺶﻴﻌﻟﺍ\n.ﻕﺎﻔﻧﻷﺍ ﻥﻮﻜﺳ ﻲﻓ</li>
+    <li>conflict(tag=meme_Tunneler)        -&gt;ﻦﻛﺎﻣﻷﺍ ﺏﺎﻫﺮﺑ ﺏﺎﺼﻣ [foeLeader] ﺡﺮﺘﻗﺍ\nﺝﺍﺮﺨﺘﺳﻻ [dangerousMining] ﻡﺍﺪﺨﺘﺳﺍ ﺔﻘﻠﻐﻤﻟﺍ\nﺖﺤﺘﻟﺍ [memberNamePlural] ﻝﺯﺎﻨﻣ ًﺎﺿﺮﻌﻣ ،ﻥﺩﺎﻌﻤﻟﺍ\n.ﺮﻄﺨﻠﻟ ﺔﻴﺿﺭﺃ</li>
+    <li>founderJoin(tag=meme_Tunneler)     -&gt;،[place_name] ﺮﺠﺣ ﻦﻣ ًﺓﺰﺠﻌﻣ [founderName] ﻲﺒﻨﻟﺍ ﺪﻟﻭ\nﺎﺤﺘﻓ ﺎﻣﺪﻨﻋ ﻩﺍﺪﻟﺍﻭ ﻪﻔﺸﺘﻛﺍﻭ\n.ﺕﺎﻳﺮﻄﻔﻟﺎﺑ ﻰﻄﻐﻣ ًﺍﺩﻮﻴﺟ</li>
+    <li>victory(tag=meme_Tunneler)         -&gt;،[foeLeader]ـﺑ ﺹﺎﺨﻟﺍ [place_powerCenter] ﺖﺤﺗ ًﺎﻘﻔﻧ [memberNamePlural] ﺮﻔﺣ\nﺀﺎﻋﺪﺘﺳﻻ ﺕﺎﻧﻮﻣﺮﻴﻔﻟﺍ [founderName] ﻡﺪﺨﺘﺳﺍﻭ\nّﺮﺟ .ﻩﺩﻮﻨﺟ ﺖﺣﺎﺘﺟﺍ ﺔﻗﻼﻤﻋ ﺕﺍﺮﺸﺣ\n.ﻪﻨﺠﺳﻭ ﺔﻘﻴﻤﻋ ﺔﻧﺍﺰﻧﺯ ﻰﻟﺇ [founderName] [foeLeader]</li>
+    <li>dangerousMining-&gt;ﻲﺤﻄﺳ ﻦﻳﺪﻌﺗ</li>
+    <li>dangerousMining-&gt;ﻖﺋﺎﻗﺮﻟﺎﺑ ﺔﻋﻭﺭﺰﻣ ﺕﺍﺮﺸﺣ</li>
+    <li>dangerousMining-&gt;ﻱﻭﻮﻧ ﺮﻴﺠﻔﺗ</li>
+    <li>setup(tag=meme_Tunneler)           -&gt;[founderName] ﻞﻣﺄﺗ ،ﻰﻨﻌﻣ ﻼﺑﻭ ﻲﺤﻄﺳ ﻢﻟﺎﻋ ﻲﻓ\nﺲﺳﺃﻭ ،ﻰﻨﻌﻤﻟﺍ ﺪﺟﻮﻓ ﻖﻴﻤﻋ ﻒﻬﻛ ﻲﻓ\n.ﺎﻨﺘﻛﺮﺣ</li>
+    <li>story(uses=1,tag=meme_Tunneler)    -&gt;،ﺔﻘﻴﻤﻋ ﻑﻮﻬﻛ ﻲﻓ ًﺍﺯﻮﻨﻛ [founderName] ﻰﻔﺧﺃ\n.ﺎﻬﻠﺟﻷ ًﺎﻘﻴﻤﻋ ﺮﻔﺤﻟﺍ [memberNamePlural] ﻢﻠﻌﺘﻴﻟ</li>
+    <li>lessonIntro(tag=meme_Tunneler)         -&gt;ﺔﻨﻳﺪﻣ ﻲﻓ ﻪﺗﺪﺟﻭ ﻱﺬﻟﺍ ﻁﻮﻄﺨﻤﻟﺍ\nﻕﻮﻔﻳ ًﺍﺪﺣﺍﻭ ًﺎﺳﺭﺩ ﻲﻨﻤﻠﻋ ﻖﻤﻌﻟﺍ\n:ﻊﻴﻤﺠﻟﺍ</li>
+    <li>lesson(tag=meme_Tunneler)              -&gt;ًﺎﻧﺎﻜﻣ ﺲﻴﻟ ﺲﻤﺸﻤﻟﺍ ﺝﺭﺎﺨﻟﺍ\nﻢﻬﺗﻮﻤﻟ ًﺎﻧﺎﻜﻣ ﻞﺑ ،ﺮﺸﺒﻟﺍ ﺭﺎﻫﺩﺯﻻ</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) -&gt;ﺮﻔﺤﻟﺍ ﺃﺪﺑﺍﻭ ،ﺔﻓﺮﺠﻣ ﻚﺴﻣﺃ ﺍﺬﻟ\n.ﺎﻨﻔﻗﻮﺗ ﺍﺫﺇ ﻂﻘﻓ ﺮﺒﻗ ﻪﻧﺇ .ﻲﻌﻣ</li>
+    <li>archistBasis(tag=meme_Tunneler)    -&gt;،ﺽﺭﻷﺍ ﺖﺤﺗ ﺔﻘﻴﻤﻋ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺚﺜﺟ\nﻦﻣ ﺔﻴﻤﺤﻣ ﺔﻴﻋﺍﻮﻟﺍ ﺎﻬﺗﺰﻴﻛﺭ ﺍﺬﻟ\n.ﺔﻴﺴﻤﺸﻟﺍ ﺕﺎﺠﻫﻮﺘﻟﺍﻭ ﺎﻣﺎﻏ ﺔﻌﺷﺃ\n.ﺎﻬﻨﻣ ﺱﺎﻨﻟﺍ ﺏﺮﻘﻳ ﻖﻤﻋﺃ ﺮﻔﺤﻟﺍ</li>
+    <li>archistFact(tag=meme_Tunneler)     -&gt;ًﺎﻴﺟﻮﻟﻮﻴﺑ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺖﺳﺪﻨﻫ\nﺮﻫﺩﺰﺘﻟ ﺎﻨﻟ ﻱﺬﻐﻤﻟﺍ ﺮﻄﻔﻟﺍ\nﻦﻣ ًﺔﺒﻳﺮﻗ ،ﺽﺭﻷﺍ ﺖﺤﺗ ﺔﻳﺮﺸﺒﻟﺍ\n.ﺓﺭﻮﻤﻄﻤﻟﺍ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﻝﻮﻘﻋ</li>
+    <li>archistProphecy(tag=meme_Tunneler) -&gt;ﻝﻮﺧﺪﺑ ﺕﺎﻜﺗﻮﻛﺭﻵﺍ ﺎﻨﻟ ﺢﻤﺴﺘﺳ ،[inTheEnd]\n.ﺔﻴﺿﺭﺃ ﺖﺤﺘﻟﺍ ﺎﻬﻧﺎﻨﺟ</li>
+    <li>animistFact(tag=meme_Tunneler)     -&gt;ﻦﻣ ﻲﻤﺤﺘﺳ ﻡﻷﺍ ﺮﺨﺼﻟﺍ ﺡﺍﻭﺭﺃ\n.ﺎﻫﺭﻭﺰﻳ</li>
+    <li>animistFact(tag=meme_Tunneler)     -&gt;،ﺮﺠﺤﻟﺍ ﺡﺍﻭﺭﺃ ﻲﻫ ﺡﺍﻭﺭﻷﺍ ﻞﺒﻧﺃ\nﺖﻧﺎﻛ ﻖﻤﻋﺃ ﺓﺭﺎﺠﺤﻟﺍ ﺖﻧﺎﻛ ﺎﻤﻠﻛﻭ\n.ﺎﻬﻗﻮﻓ ﺎﻤﻣ ﺐﻴﻃﺃﻭ ﻯﻮﻗﺃ</li>
+    <li>animistFact(tag=meme_Tunneler)     -&gt;ﺡﺍﻭﺭﺃ ﻥﻮﻠﻌﺠﻳ ﻥﻮﻘﻠﻘﻟﺍ ﺮﺸﺒﻟﺍ\nﻲﻋﺪﺘﺴﻳ ﺍﺬﻫﻭ ،ﺔﻘﻠﻗ ﺭﻮﺨﺼﻟﺍ\n.ﺔﻗﻼﻤﻌﻟﺍ ﺕﺍﺮﺸﺤﻟﺍ</li>
+ </Tunneler.descriptionMaker.rules.rulesStrings>
+  <!-- EN:
+    <li>memeCreed->cave</li>
+    <li>memeCreed->bunker</li>
+    <li>memeCreed->shaft</li>
+    <li>memeAdjective->deep</li>
+    <li>memeHyphenPrefix->stone</li>
+    <li>memeHyphenPrefix->cave</li>
+    <li>memeHyphenPrefix->deep</li>
+    <li>memeHyphenPrefix->sub</li>
+    <li>memeHyphenPrefix->under</li>
+    <li>memeConcept->earth</li>
+    <li>memeConcept->stone</li>
+    <li>memeConcept->depth</li>
+    <li>memeConcept->burial</li>
+    <li>memeLeaderNoun->foredigger</li>
+    <li>memeLeaderNoun->deepsounder</li>
+    <li>memeLeaderNoun->shaft</li>
+    <li>memeLeaderAdjective->deep</li>
+    <li>memeMoralist->truthdigger</li>
+    <li>memeMoralist->thoughtdigger</li>
+    <li>memeMoralist->mindminer</li>
+  -->
+  <Tunneler.generalRules.rulesStrings>
+    <li>memeCreed-&gt;ﻒﻬﻛ</li>
+    <li>memeCreed-&gt;ﻦﺼﺤﻣ ﺄﺠﻠﻣ</li>
+    <li>memeCreed-&gt;ﻱﺩﻮﻤﻋ ﺮﻤﻣ</li>
+    <li>memeAdjective-&gt;ﻖﻴﻤﻋ</li>
+    <li>memeHyphenPrefix-&gt;ﺮﺠﺣ</li>
+    <li>memeHyphenPrefix-&gt;ﻒﻬﻛ</li>
+    <li>memeHyphenPrefix-&gt;ﻖﻴﻤﻋ</li>
+    <li>memeHyphenPrefix-&gt;ﺖﺤﺗ</li>
+    <li>memeHyphenPrefix-&gt;ﻲﺘﺤﺗ</li>
+    <li>memeConcept-&gt;ﺽﺭﺃ</li>
+    <li>memeConcept-&gt;ﺮﺠﺣ</li>
+    <li>memeConcept-&gt;ﻖﻤﻋ</li>
+    <li>memeConcept-&gt;ﻦﻓﺩ</li>
+    <li>memeLeaderNoun-&gt;ﻝﻭﺃ ﺭﺎﻔﺣ</li>
+    <li>memeLeaderNoun-&gt;ﻖﻤﻌﻟﺍ ﺮﺑﺎﺳ</li>
+    <li>memeLeaderNoun-&gt;ﺮﻤﻣ</li>
+    <li>memeLeaderAdjective-&gt;ﻖﻴﻤﻋ</li>
+    <li>memeMoralist-&gt;ﻖﺤﻟﺍ ﺭﺎﻔﺣ</li>
+    <li>memeMoralist-&gt;ﺮﻜﻔﻟﺍ ﺭﺎﻔﺣ</li>
+    <li>memeMoralist-&gt;ﻞﻘﻌﻟﺍ ﻥﺪﻌﻣ</li>
+ </Tunneler.generalRules.rulesStrings>
+  
+</LanguageData>

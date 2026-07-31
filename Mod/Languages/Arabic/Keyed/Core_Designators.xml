@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Cancel -->
+  <DesignatorCancel>ﺀﺎﻐﻟﺇ</DesignatorCancel>
+  <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
+  <DesignatorCancelDesc>،ﺀﺎﻨﺒﻟﺍ ﺕﺎﻨﻴﻴﻌﺗ ﺀﺎﻐﻟﺇ\n،ﺩﺎﺼﺤﻟﺍ ،ﻞﻘﻨﻟﺍ ،ﻦﻳﺪﻌﺘﻟﺍ\n.ﻯﺮﺧﻷﺍ ﺕﺎﻨﻴﻴﻌﺘﻟﺍ ﻊﻴﻤﺟﻭ</DesignatorCancelDesc>
+
+  <!-- EN: Cut plants -->
+  <DesignatorCutPlants>ﺕﺎﺗﺎﺒﻨﻟﺍ ﻊﻄﻗ</DesignatorCutPlants>
+  <!-- EN: Marks plants to be cut and destroyed. The plant will be completely removed, and any food or resource yield will be harvested. -->
+  <DesignatorCutPlantsDesc>ﺎﻬﻌﻄﻗ ﻢﺘﻴﻟ ﺕﺎﺗﺎﺒﻨﻟﺍ ﺪﻳﺪﺤﺗ\nﺔﻟﺍﺯﺇ ﻢﺘﺘﺳ .ﺎﻫﺮﻴﻣﺪﺗﻭ\nﻱﺃ ﺩﺎﺼﺣﻭ ،ﻞﻣﺎﻜﻟﺎﺑ ﺕﺎﺒﻨﻟﺍ\n.ﻪﻨﻋ ﺔﺠﺗﺎﻧ ﺩﺭﺍﻮﻣ ﻭﺃ ﻡﺎﻌﻃ</DesignatorCutPlantsDesc>
+
+  <!-- EN: Deconstruct -->
+  <DesignatorDeconstruct>ﻚﻴﻜﻔﺗ</DesignatorDeconstruct>
+  <!-- EN: Deconstruct this and reclaim part of its resources. -->
+  <DesignatorDeconstructDesc>ﻦﻣ ﺀﺰﺟ ﺓﺩﺎﻌﺘﺳﺍﻭ ﺍﺬﻫ ﻚﻴﻜﻔﺗ\n.ﻩﺩﺭﺍﻮﻣ</DesignatorDeconstructDesc>
+
+  <!-- EN: Deconstruct conduit -->
+  <DesignatorDeconstructConduit>ﻙﻼﺳﻷﺍ ﻚﻴﻜﻔﺗ</DesignatorDeconstructConduit>
+  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
+  <DesignatorDeconstructConduitDesc>ﺔﻗﺎﻄﻟﺍ ﻙﻼﺳﺃ ﻚﻴﻜﻔﺗ\n.ﺎﻫﺩﺭﺍﻮﻣ ﻦﻣ ﺀﺰﺟ ﺓﺩﺎﻌﺘﺳﺍﻭ</DesignatorDeconstructConduitDesc>
+
+  <!-- EN: Uninstall -->
+  <DesignatorUninstall>ﺔﻟﺍﺯﺇ</DesignatorUninstall>
+  <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
+  <DesignatorUninstallDesc>،ﻪﻠﻘﻧ ﻦﻜﻤﻳ ﻰﺘﺣ ﺍﺬﻫ ﺔﻟﺍﺯﺇ\nﻥﺎﻜﻣ ﻲﻓ ﻪﺘﻴﺒﺜﺗ ﻭﺃ ،ﻪﻌﻴﺑ\n.ﺮﺧﺁ</DesignatorUninstallDesc>
+
+  <!-- EN: Extract tree -->
+  <DesignatorExtractTree>ﺓﺮﺠﺸﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ</DesignatorExtractTree>
+  <!-- EN: Extract this tree while keeping it alive so it can be replanted somewhere else. -->
+  <DesignatorExtractTreeDesc>ﻊﻣ ﺓﺮﺠﺸﻟﺍ ﻩﺬﻫ ﺝﺍﺮﺨﺘﺳﺍ\nﻦﻜﻤﻳ ﻰﺘﺣ ﺔﻴﺣ ﺎﻬﺋﺎﻘﺑﺇ\nﻥﺎﻜﻣ ﻲﻓ ﺎﻬﺘﻋﺍﺭﺯ ﺓﺩﺎﻋﺇ\n.ﺮﺧﺁ</DesignatorExtractTreeDesc>
+
+  <!-- EN: Harvest -->
+  <DesignatorHarvest>ﺩﺎﺼﺣ</DesignatorHarvest>
+  <!-- EN: Marks plants to be harvested for their food or other products. -->
+  <DesignatorHarvestDesc>ﻢﺘﻴﻟ ﺕﺎﺗﺎﺒﻨﻟﺍ ﺪﻳﺪﺤﺗ\nﺎﻬﻣﺎﻌﻃ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺎﻫﺩﺎﺼﺣ\n.ﻯﺮﺧﻷﺍ ﺎﻬﺗﺎﺠﺘﻨﻣ ﻭﺃ</DesignatorHarvestDesc>
+
+  <!-- EN: Chop wood -->
+  <DesignatorHarvestWood>ﺏﺎﺸﺧﻷﺍ ﻊﻄﻗ</DesignatorHarvestWood>
+  <!-- EN: Marks trees to be chopped down for wood. -->
+  <DesignatorHarvestWoodDesc>ﺎﻬﻌﻄﻗ ﻢﺘﻴﻟ ﺭﺎﺠﺷﻷﺍ ﺪﻳﺪﺤﺗ\n.ﺐﺸﺨﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ</DesignatorHarvestWoodDesc>
+
+  <!-- EN: Haul things -->
+  <DesignatorHaulThings>ﺀﺎﻴﺷﻷﺍ ﻞﻘﻧ</DesignatorHaulThings>
+  <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
+  <DesignatorHaulThingsDesc>ﺀﺎﻴﺷﻷﺍﻭ ﺭﻮﺨﺼﻟﺍ ﻞﺘﻛ ﺪﻳﺪﺤﺗ\nﻰﻟﺇ ﺎﻬﻠﻘﻧ ﻢﺘﻴﻟ ﻯﺮﺧﻷﺍ\nﺲﻴﻟ .ﻎﻳﺮﻔﺘﻟﺍ ﻖﻃﺎﻨﻣ\nﻡﺎﻌﻄﻟﺍ ﻞﺜﻣ ﺀﺎﻴﺷﻷ ًﺎﻳﺭﻭﺮﺿ\nﻥﻮﻜﺗ ﻲﺘﻟﺍﻭ ،ﺚﺜﺠﻟﺍ ﻭﺃ\n.ًﺎﻤﺋﺍﺩ ﻞﻘﻨﻠﻟ ﺔﻠﺑﺎﻗ</DesignatorHaulThingsDesc>
+  <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
+  <MustHaulHaulables>ﺀﺎﻴﺷﻷﺍ ﻦﻴﻴﻌﺗ ﻂﻘﻓ ﻦﻜﻤﻳ\nﻢﺘﻳ ﻻ ﻦﻜﻟﻭ ﻞﻘﻨﻠﻟ ﺔﻠﺑﺎﻘﻟﺍ\nﻞﺘﻛ ﻞﺜﻣ) ًﺎﻤﺋﺍﺩ ﺎﻬﻠﻘﻧ\n.(ﺭﻮﺨﺼﻟﺍ</MustHaulHaulables>
+
+  <!-- EN: Hunt -->
+  <DesignatorHunt>ﺪﻴﺻ</DesignatorHunt>
+  <!-- EN: Mark animals to be hunted by your hunters.\n\nOnly hunters with suitable ranged weapons will hunt. -->
+  <DesignatorHuntDesc>ﻢﺘﻴﻟ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺪﻳﺪﺤﺗ\n.ﻚﻳﺩﺎﻴﺻ ﺔﻄﺳﺍﻮﺑ ﺎﻫﺪﻴﺻ\n\nﻦﻳﺬﻟﺍ ﻥﻭﺩﺎﻴﺼﻟﺍ ﻂﻘﻓ\nﻯﺪﻤﻟﺍ ﺓﺪﻴﻌﺑ ﺔﺤﻠﺳﺃ ﻥﻮﻜﻠﺘﻤﻳ\n.ﺪﻴﺼﻟﺎﺑ ﻥﻮﻣﻮﻘﻴﺳ ﺔﺒﺳﺎﻨﻣ</DesignatorHuntDesc>
+
+  <!-- EN: Mine -->
+  <DesignatorMine>ﻦﻳﺪﻌﺗ</DesignatorMine>
+  <!-- EN: Designate areas of rock to be mined out. -->
+  <DesignatorMineDesc>ﻢﺘﻴﻟ ﺭﻮﺨﺼﻟﺍ ﻖﻃﺎﻨﻣ ﺪﻳﺪﺤﺗ\n.ﺎﻬﻨﻳﺪﻌﺗ</DesignatorMineDesc>
+
+  <!-- EN: Mine vein -->
+  <DesignatorMineVein>ﻕﺮِﻌﻟﺍ ﻦﻳﺪﻌﺗ</DesignatorMineVein>
+  <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
+  <DesignatorMineVeinDesc>ﺔﻳﺮﺨﺻ ﺔﻘﻄﻨﻣ ﺪﻳﺪﺤﺗ\nﺮﻤﺘﺴﻴﺳ .ﻦﻳﺪﻌﺘﻠﻟ\nﻰﺘﺣ ﻦﻳﺪﻌﺘﻟﺍ ﻲﻓ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ\nﺭﻮﺨﺼﻟﺍ ﻊﻴﻤﺟ ﻦﻳﺪﻌﺗ ﻢﺘﻳ\n.ﻉﻮﻨﻟﺍ ﺲﻔﻧ ﻦﻣ ﺔﻠﺼﺘﻤﻟﺍ</DesignatorMineVeinDesc>
+
+  <!-- EN: Smooth surface -->
+  <DesignatorSmoothSurface>ﺢﻄﺴﻟﺍ ﻢﻴﻌﻨﺗ</DesignatorSmoothSurface>
+  <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
+  <DesignatorSmoothSurfaceDesc>ﻥﺍﺭﺪﺠﻟﺍﻭ ﺲﻳﺭﺎﻀﺘﻟﺍ ﺪﻳﺪﺤﺗ\nﻢﺘﻴﻟ ﺔﻨﺸﺨﻟﺍ ﺔﻳﺮﺠﺤﻟﺍ\n.ﺎﻬﻤﻴﻌﻨﺗ</DesignatorSmoothSurfaceDesc>
+  <!-- EN: Smooth walls -->
+  <DesignatorSmoothWalls>ﻥﺍﺭﺪﺠﻟﺍ ﻢﻴﻌﻨﺗ</DesignatorSmoothWalls>
+  <!-- EN: Designate rough stone walls to be smoothed. -->
+  <DesignatorSmoothWallsDesc>ﺔﻳﺮﺠﺤﻟﺍ ﻥﺍﺭﺪﺠﻟﺍ ﺪﻳﺪﺤﺗ\n.ﺎﻬﻤﻴﻌﻨﺗ ﻢﺘﻴﻟ ﺔﻨﺸﺨﻟﺍ</DesignatorSmoothWallsDesc>
+  <!-- EN: Smooth terrain -->
+  <DesignatorSmoothFloors>ﺕﺎﻴﺿﺭﻷﺍ ﻢﻴﻌﻨﺗ</DesignatorSmoothFloors>
+  <!-- EN: Designate rough stone terrain to be smoothed. -->
+  <DesignatorSmoothFloorsDesc>ﺔﻳﺮﺠﺤﻟﺍ ﺕﺎﻴﺿﺭﻷﺍ ﺪﻳﺪﺤﺗ\n.ﺎﻬﻤﻴﻌﻨﺗ ﻢﺘﻴﻟ ﺔﻨﺸﺨﻟﺍ</DesignatorSmoothFloorsDesc>
+
+  <!-- EN: Plan -->
+  <DesignatorPlan>ﻂﻴﻄﺨﺗ</DesignatorPlan>
+  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions.\n\nRight-click to hide or unhide all planning zones. -->
+  <DesignatorPlanDesc>ﻩﺬﻫ .ﻂﻴﻄﺨﺘﻟﺍ ﺕﺎﻨﻴﻴﻌﺗ ﻊﺿﻭ\nﻚﺗﺪﻋﺎﺴﻣ ﻯﻮﺳ ًﺎﺌﻴﺷ ﻞﻌﻔﺗ ﻻ\nﺕﺎﻌﺳﻮﺘﻠﻟ ﻂﻴﻄﺨﺘﻟﺍ ﻲﻓ\n.ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ\n\nﻦﻤﻳﻷﺍ ﺓﺭﺄﻔﻟﺍ ﺭﺰﺑ ﺮﻘﻧﺍ\nﻖﻃﺎﻨﻣ ﻊﻴﻤﺟ ﺭﺎﻬﻇﺇ ﻭﺃ ﺀﺎﻔﺧﻹ\n.ﻂﻴﻄﺨﺘﻟﺍ</DesignatorPlanDesc>
+
+  <!-- EN: Remove plans -->
+  <DesignatorPlanRemove>ﺕﺎﻄﻴﻄﺨﺘﻟﺍ ﺔﻟﺍﺯﺇ</DesignatorPlanRemove>
+  <!-- EN: Remove planning designations. -->
+  <DesignatorPlanRemoveDesc>.ﻂﻴﻄﺨﺘﻟﺍ ﺕﺎﻨﻴﻴﻌﺗ ﺔﻟﺍﺯﺇ</DesignatorPlanRemoveDesc>
+
+  <!-- EN: Forbid -->
+  <DesignatorForbid>ﺮﻈﺣ</DesignatorForbid>
+  <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
+  <DesignatorForbidDesc>ﻦﻟ .ﺓﺭﻮﻈﺤﻤﻛ ﺮﺻﺎﻨﻌﻟﺍ ﺪﻳﺪﺤﺗ\nﻦﻣ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻦﻜﻤﺘﻳ\nﺮﺻﺎﻨﻌﻟﺍ ﻊﻣ ﻞﻋﺎﻔﺘﻟﺍ\n.ﺓﺩﺪﺤﻤﻟﺍ</DesignatorForbidDesc>
+
+  <!-- EN: Allow -->
+  <DesignatorUnforbid>ﺡﺎﻤﺳ</DesignatorUnforbid>
+  <!-- EN: Mark items as not forbidden. Colonists will be able to interact with the designated items. -->
+  <DesignatorUnforbidDesc>ﺮﻴﻐﻛ ﺮﺻﺎﻨﻌﻟﺍ ﺪﻳﺪﺤﺗ\nﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻦﻜﻤﺘﻴﺳ .ﺓﺭﻮﻈﺤﻣ\nﺮﺻﺎﻨﻌﻟﺍ ﻊﻣ ﻞﻋﺎﻔﺘﻟﺍ ﻦﻣ\n.ﺓﺩﺪﺤﻤﻟﺍ</DesignatorUnforbidDesc>
+
+  <!-- EN: Expand home area -->
+  <DesignatorAreaHomeExpand>ﻝﺰﻨﻤﻟﺍ ﺔﻘﻄﻨﻣ ﻊﻴﺳﻮﺗ</DesignatorAreaHomeExpand>
+  <!-- EN: Colonists will repair buildings, clean floors, and extinguish fires only in the home area. -->
+  <DesignatorAreaHomeExpandDesc>ﺡﻼﺻﺈﺑ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻡﻮﻘﻴﺳ\n،ﺕﺎﻴﺿﺭﻷﺍ ﻒﻴﻈﻨﺗ ،ﻲﻧﺎﺒﻤﻟﺍ\nﻲﻓ ﻂﻘﻓ ﻖﺋﺍﺮﺤﻟﺍ ﺩﺎﻤﺧﺇﻭ\n.ﻝﺰﻨﻤﻟﺍ ﺔﻘﻄﻨﻣ</DesignatorAreaHomeExpandDesc>
+  <!-- EN: Clear home area -->
+  <DesignatorAreaHomeClear>ﻝﺰﻨﻤﻟﺍ ﺔﻘﻄﻨﻣ ﺢﺴﻣ</DesignatorAreaHomeClear>
+  <!-- EN: Removes a home area. Colonists will no longer clean, repair, or extinguish fires here. -->
+  <DesignatorAreaHomeClearDesc>ﻦﻟ .ﻝﺰﻨﻤﻟﺍ ﺔﻘﻄﻨﻣ ﺔﻟﺍﺯﺇ\nﻥﻵﺍ ﺪﻌﺑ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻡﻮﻘﻳ\nﺩﺎﻤﺧﺇ ﻭﺃ ،ﺡﻼﺻﻹﺍ ،ﻒﻴﻈﻨﺘﻟﺎﺑ\n.ﺎﻨﻫ ﻖﺋﺍﺮﺤﻟﺍ</DesignatorAreaHomeClearDesc>
+
+  <!-- EN: Build roof area -->
+  <DesignatorAreaBuildRoofExpand>ﻒﻘﺳ ﺔﻘﻄﻨﻣ ﺀﺎﻨﺑ</DesignatorAreaBuildRoofExpand>
+  <!-- EN: Colonists will build roofs in this area. -->
+  <DesignatorAreaBuildRoofExpandDesc>ﺀﺎﻨﺒﺑ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻡﻮﻘﻴﺳ\n.ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﻒﻘﺳﺃ</DesignatorAreaBuildRoofExpandDesc>
+
+  <!-- EN: Remove roof area -->
+  <DesignatorAreaNoRoofExpand>ﻒﻘﺳ ﺔﻘﻄﻨﻣ ﺔﻟﺍﺯﺇ</DesignatorAreaNoRoofExpand>
+  <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
+  <DesignatorAreaNoRoofExpandDesc>ﺔﻟﺍﺯﺈﺑ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻡﻮﻘﻴﺳ\nﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﻒﻘﺳﻷﺍ\n،ﻱﻮﻠﻌﻟﺍ ﻞﺒﺠﻟﺍ ﺀﺎﻨﺜﺘﺳﺎﺑ)\n.(ﻪﺘﻟﺍﺯﺇ ﻦﻜﻤﻳ ﻻ ﻱﺬﻟﺍ</DesignatorAreaNoRoofExpandDesc>
+
+  <!-- EN: Ignore roof area -->
+  <DesignatorAreaIgnoreRoofExpand>ﻒﻘﺳ ﺔﻘﻄﻨﻣ ﻞﻫﺎﺠﺗ</DesignatorAreaIgnoreRoofExpand>
+  <!-- EN: Colonists will ignore roofs in this area. -->
+  <DesignatorAreaIgnoreRoofExpandDesc>ﻒﻘﺳﻷﺍ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻞﻫﺎﺠﺘﻴﺳ\n.ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ</DesignatorAreaIgnoreRoofExpandDesc>
+
+  <!-- EN: Snow removal area -->
+  <DesignatorAreaSnowClearExpand>ﺞﻠﺜﻟﺍ ﺔﻟﺍﺯﺇ ﺔﻘﻄﻨﻣ</DesignatorAreaSnowClearExpand>
+  <!-- EN: Create an area which colonists will try to keep clear of snow. -->
+  <DesignatorAreaSnowClearExpandDesc>ﻝﻭﺎﺤﻴﺳ ﺔﻘﻄﻨﻣ ﺀﺎﺸﻧﺇ\nﺔﻴﻟﺎﺧ ﺎﻫﺀﺎﻘﺑﺇ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ\n.ﺞﻠﺜﻟﺍ ﻦﻣ</DesignatorAreaSnowClearExpandDesc>
+  <!-- EN: Clear snow removal area -->
+  <DesignatorAreaSnowClearClear>ﺞﻠﺜﻟﺍ ﺔﻟﺍﺯﺇ ﺔﻘﻄﻨﻣ ﺢﺴﻣ</DesignatorAreaSnowClearClear>
+  <!-- EN: Removes a snow removal area. Colonists will no longer try to keep this area clear of snow. -->
+  <DesignatorAreaSnowClearClearDesc>.ﺞﻠﺜﻟﺍ ﺔﻟﺍﺯﺇ ﺔﻘﻄﻨﻣ ﺔﻟﺍﺯﺇ\nﺪﻌﺑ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻝﻭﺎﺤﻳ ﻦﻟ\nﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﺀﺎﻘﺑﺇ ﻥﻵﺍ\n.ﺞﻠﺜﻟﺍ ﻦﻣ ﺔﻴﻟﺎﺧ</DesignatorAreaSnowClearClearDesc>
+
+  <!-- EN: Expand allowed area -->
+  <DesignatorExpandAreaAllowed>ﺔﺣﻮﻤﺴﻤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻊﻴﺳﻮﺗ</DesignatorExpandAreaAllowed>
+  <!-- EN: Expand an allowed area.\n\nAllowed areas are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
+  <DesignatorExpandAreaAllowedDesc>.ﺔﺣﻮﻤﺴﻣ ﺔﻘﻄﻨﻣ ﻊﻴﺳﻮﺗ\n\nﻖﻃﺎﻨﻣ ﻲﻫ ﺔﺣﻮﻤﺴﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ\nﺎﻬﻨﻴﻴﻌﺗ ﻚﻨﻜﻤﻳ ﺓﺩﺪﺤﻣ\nﻞﺒﻘﻳ ﻦﻟ .ﻦﻳﺮﻤﻌﺘﺴﻤﻠﻟ\nﻥﻮﺒﻠﻳ ﻭﺃ ﻞﻤﻌﻟﺍ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ\nﻢﻬﺘﻘﻄﻨﻣ ﺝﺭﺎﺧ ﻢﻬﺗﺎﺟﺎﻴﺘﺣﺍ\n.ﺔﺣﻮﻤﺴﻤﻟﺍ</DesignatorExpandAreaAllowedDesc>
+  <!-- EN: Clear allowed area -->
+  <DesignatorClearAreaAllowed>ﺔﺣﻮﻤﺴﻤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﺢﺴﻣ</DesignatorClearAreaAllowed>
+  <!-- EN: Clear cells from an allowed area.\n\nAllowed area are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
+  <DesignatorClearAreaAllowedDesc>ﺔﻘﻄﻨﻣ ﻦﻣ ﺎﻳﻼﺨﻟﺍ ﺢﺴﻣ\n.ﺔﺣﻮﻤﺴﻣ\n\nﻖﻃﺎﻨﻣ ﻲﻫ ﺔﺣﻮﻤﺴﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ\nﺎﻬﻨﻴﻴﻌﺗ ﻚﻨﻜﻤﻳ ﺓﺩﺪﺤﻣ\nﻞﺒﻘﻳ ﻦﻟ .ﻦﻳﺮﻤﻌﺘﺴﻤﻠﻟ\nﻥﻮﺒﻠﻳ ﻭﺃ ﻞﻤﻌﻟﺍ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ\nﻢﻬﺘﻘﻄﻨﻣ ﺝﺭﺎﺧ ﻢﻬﺗﺎﺟﺎﻴﺘﺣﺍ\n.ﺔﺣﻮﻤﺴﻤﻟﺍ</DesignatorClearAreaAllowedDesc>
+  <!-- EN: Manage areas... -->
+  <ManageAreas>...ﻖﻃﺎﻨﻤﻟﺍ ﺓﺭﺍﺩﺇ</ManageAreas>
+  <!-- EN: Manage auto-slaughter... -->
+  <ManageAutoSlaughter>...ﻲﺋﺎﻘﻠﺘﻟﺍ ﺢﺑﺬﻟﺍ ﺓﺭﺍﺩﺇ</ManageAutoSlaughter>
+
+  <!-- EN: Create a zone where your colonists will try to grow a certain kind of plant. -->
+  <DesignatorGrowingZoneDesc>ﺎﻬﻴﻓ ﻝﻭﺎﺤﻴﺳ ﺔﻘﻄﻨﻣ ﺀﺎﺸﻧﺇ\nﻦﻴﻌﻣ ﻉﻮﻧ ﺔﻋﺍﺭﺯ ﻙﻭﺮﻤﻌﺘﺴﻣ\n.ﺕﺎﺗﺎﺒﻨﻟﺍ ﻦﻣ</DesignatorGrowingZoneDesc>
+
+  <!-- EN: Create a stockpile where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
+  <DesignatorZoneCreateStorageResourcesDesc>ﻪﻴﻓ ﻡﻮﻘﻳ ﻥﻭﺰﺨﻣ ﺀﺎﺸﻧﺇ\n.ﺩﺭﺍﻮﻤﻟﺍ ﻦﻳﺰﺨﺘﺑ ﻙﻭﺮﻤﻌﺘﺴﻣ\nًﺎﻀﻳﺃ ﺓﺍﺩﻷﺍ ﻩﺬﻬﻟ ﻦﻜﻤﻳ\n.ﺩﻮﺟﻮﻣ ﻥﻭﺰﺨﻣ ﻱﺃ ﻊﻴﺳﻮﺗ</DesignatorZoneCreateStorageResourcesDesc>
+
+  <!-- EN: Create a stockpile where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
+  <DesignatorZoneCreateStorageDumpingDesc>ﻪﻴﻓ ﻡﻮﻘﻳ ﻥﻭﺰﺨﻣ ﺀﺎﺸﻧﺇ\n.ﺕﺎﻳﺎﻔﻨﻟﺍ ﻦﻳﺰﺨﺘﺑ ﻙﻭﺮﻤﻌﺘﺴﻣ\nًﺎﻀﻳﺃ ﺓﺍﺩﻷﺍ ﻩﺬﻬﻟ ﻦﻜﻤﻳ\n.ﺩﻮﺟﻮﻣ ﻥﻭﺰﺨﻣ ﻱﺃ ﻊﻴﺳﻮﺗ</DesignatorZoneCreateStorageDumpingDesc>
+
+  <!-- EN: Shrink zones -->
+  <DesignatorZoneDelete>ﻖﻃﺎﻨﻤﻟﺍ ﺺﻴﻠﻘﺗ</DesignatorZoneDelete>
+  <!-- EN: Shrink zone -->
+  <DesignatorZoneDeleteSingular>ﺔﻘﻄﻨﻤﻟﺍ ﺺﻴﻠﻘﺗ</DesignatorZoneDeleteSingular>
+  <!-- EN: Remove zones, like stockpile zones or growing zones. -->
+  <DesignatorZoneDeleteDesc>ﻖﻃﺎﻨﻣ ﻞﺜﻣ ،ﻖﻃﺎﻨﻤﻟﺍ ﺔﻟﺍﺯﺇ\n.ﺔﻋﺍﺭﺰﻟﺍ ﻖﻃﺎﻨﻣ ﻭﺃ ﻦﻳﺰﺨﺘﻟﺍ</DesignatorZoneDeleteDesc>
+
+  <!-- EN: Expand zone -->
+  <DesignatorZoneExpand>ﺔﻘﻄﻨﻤﻟﺍ ﻊﻴﺳﻮﺗ</DesignatorZoneExpand>
+  
+  <!-- EN: Claim -->
+  <DesignatorClaim>ﻙﻼﺘﻣﺍ</DesignatorClaim>
+  <!-- EN: Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists. -->
+  <DesignatorClaimDesc>ﺓﺪﻳﺎﺤﻤﻟﺍ ﻞﻛﺎﻴﻬﻟﺍ ﻙﻼﺘﻣﺍ\nﻲﻓ ﺎﻤﺑ ،ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺢﻟﺎﺼﻟ\nﺪﻋﺍﻮﻗﻭ ﺔﻤﻳﺪﻘﻟﺍ ﺭﺎﺛﻵﺍ ﻚﻟﺫ\nﻦﻜﻤﻳ .ﺓﺭﻮﺠﻬﻤﻟﺍ ﺭﺎﺼﺤﻟﺍ\nﻞﻛﺎﻴﻬﻟﺍ ﺡﻼﺻﺇ ﻚﻳﺮﻤﻌﺘﺴﻤﻟ\n.ﺎﻬﺘﻧﺎﻴﺻﻭ ﺔﻜﻠﺘﻤﻤﻟﺍ</DesignatorClaimDesc>
+
+  <!-- EN: Remove floor -->
+  <DesignatorRemoveFloor>ﺔﻴﺿﺭﻷﺍ ﺔﻟﺍﺯﺇ</DesignatorRemoveFloor>
+  <!-- EN: Remove floors to reveal the terrain underneath. -->
+  <DesignatorRemoveFloorDesc>ﻦﻋ ﻒﺸﻜﻠﻟ ﺕﺎﻴﺿﺭﻷﺍ ﺔﻟﺍﺯﺇ\n.ﺎﻬﺘﺤﺗ ﺲﻳﺭﺎﻀﺘﻟﺍ</DesignatorRemoveFloorDesc>
+
+  <!-- EN: Remove bridge -->
+  <DesignatorRemoveBridge>ﺮﺴﺠﻟﺍ ﺔﻟﺍﺯﺇ</DesignatorRemoveBridge>
+  <!-- EN: Deconstruct bridges to reclaim partial resources. -->
+  <DesignatorRemoveBridgeDesc>ﺀﺰﺟ ﺓﺩﺎﻌﺘﺳﻻ ﺭﻮﺴﺠﻟﺍ ﻚﻴﻜﻔﺗ\n.ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ</DesignatorRemoveBridgeDesc>
+
+  <!-- EN: Strip -->
+  <DesignatorStrip>ﺪﻳﺮﺠﺗ</DesignatorStrip>
+  <!-- EN: Strip apparel from corpses and the wounded. -->
+  <DesignatorStripDesc>ﻦﻣ ﻰﺣﺮﺠﻟﺍﻭ ﺚﺜﺠﻟﺍ ﺪﻳﺮﺠﺗ\n.ﻢﻬﺴﺑﻼﻣ</DesignatorStripDesc>
+
+  <!-- EN: Open -->
+  <DesignatorOpen>ﺢﺘﻓ</DesignatorOpen>
+  <!-- EN: Open containers. -->
+  <DesignatorOpenDesc>.ﺕﺎﻳﻭﺎﺤﻟﺍ ﺢﺘﻓ</DesignatorOpenDesc>
+  
+  <!-- EN: Eject fuel -->
+  <DesignatorEjectFuel>ﺩﻮﻗﻮﻟﺍ ﺝﺍﺮﺧﺇ</DesignatorEjectFuel>
+  <!-- EN: Eject all contained fuel onto the ground. -->
+  <DesignatorEjectFuelDesc>ﻯﻮﺘﺤﻤﻟﺍ ﺩﻮﻗﻮﻟﺍ ﻞﻛ ﺝﺍﺮﺧﺇ\n.ﺽﺭﻷﺍ ﻰﻠﻋ</DesignatorEjectFuelDesc>
+
+  <!-- EN: Slaughter -->
+  <DesignatorSlaughter>ﺢﺑﺫ</DesignatorSlaughter>
+  <!-- EN: Slaughter a tame animal. -->
+  <DesignatorSlaughterDesc>.ﻒﻴﻟﺃ ﻥﺍﻮﻴﺣ ﺢﺑﺫ</DesignatorSlaughterDesc>
+
+  <!-- EN: Tame -->
+  <DesignatorTame>ﺾﻳﻭﺮﺗ</DesignatorTame>
+  <!-- EN: Tame a wild animal. -->
+  <DesignatorTameDesc>.ﻱﺮﺑ ﻥﺍﻮﻴﺣ ﺾﻳﻭﺮﺗ</DesignatorTameDesc>
+  <!-- EN: Scaria infected animals can't be tamed. -->
+  <CantTameScaria>ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺾﻳﻭﺮﺗ ﻦﻜﻤﻳ ﻻ\n.ﺎﻳﺭﺎﻜﺴﻟﺎﺑ ﺔﺑﺎﺼﻤﻟﺍ</CantTameScaria>
+
+  <!-- EN: Release to wild -->
+  <DesignatorReleaseAnimalToWild>ﺔﻳﺮﺒﻟﺍ ﻲﻓ ﻕﻼﻃﺇ</DesignatorReleaseAnimalToWild>
+  <!-- EN: Release an animal back into the wild. -->
+  <DesignatorReleaseAnimalToWildDesc>ﻰﻟﺇ ﺓﺩﻮﻌﻠﻟ ﻥﺍﻮﻴﺣ ﻕﻼﻃﺇ\n.ﺔﻳﺮﺒﻟﺍ</DesignatorReleaseAnimalToWildDesc>
+
+  <!-- EN: Study -->
+  <DesignatorStudy>ﺔﺳﺍﺭﺩ</DesignatorStudy>
+  <!-- EN: Study this object to learn more about it. -->
+  <DesignatorStudyDesc>ﺔﻓﺮﻌﻤﻟ ﺀﻲﺸﻟﺍ ﺍﺬﻫ ﺔﺳﺍﺭﺩ\n.ﻪﻨﻋ ﺪﻳﺰﻤﻟﺍ</DesignatorStudyDesc>
+
+  <!-- EN: Paint building... -->
+  <DesignatorPaintBuilding>...ﻰﻨﺒﻤﻟﺍ ﺀﻼﻃ</DesignatorPaintBuilding>
+  <!-- EN: Designate walls and buildings to be painted using dye from tinctoria plants, which you can grow. Only certain buildings can be painted. -->
+  <DesignatorPaintBuildingDesc>ﻲﻧﺎﺒﻤﻟﺍﻭ ﻥﺍﺭﺪﺠﻟﺍ ﺪﻳﺪﺤﺗ\nﻡﺍﺪﺨﺘﺳﺎﺑ ﺎﻫﺅﻼﻃ ﻢﺘﻴﻟ\nﺕﺎﺗﺎﺒﻧ ﻦﻣ ﺔﻐﺒﺼﻟﺍ\nﻚﻨﻜﻤﻳ ﻲﺘﻟﺍﻭ ،ﺎﻳﺭﻮﺘﻜﻨﻴﺘﻟﺍ\nﻲﻧﺎﺒﻣ ﺀﻼﻃ ﻦﻜﻤﻳ .ﺎﻬﺘﻋﺍﺭﺯ\n.ﻂﻘﻓ ﺔﻨﻴﻌﻣ</DesignatorPaintBuildingDesc>
+  <!-- EN: Paint floor... -->
+  <DesignatorPaintFloor>...ﺔﻴﺿﺭﻷﺍ ﺀﻼﻃ</DesignatorPaintFloor>
+  <!-- EN: Designate floors to be painted using dye from tinctoria plants, which you can grow. Only certain floors can be painted. -->
+  <DesignatorPaintFloorDesc>ﺎﻫﺅﻼﻃ ﻢﺘﻴﻟ ﺕﺎﻴﺿﺭﻷﺍ ﺪﻳﺪﺤﺗ\nﺕﺎﺗﺎﺒﻧ ﻦﻣ ﺔﻐﺒﺼﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ\nﻚﻨﻜﻤﻳ ﻲﺘﻟﺍﻭ ،ﺎﻳﺭﻮﺘﻜﻨﻴﺘﻟﺍ\nﺕﺎﻴﺿﺭﺃ ﺀﻼﻃ ﻦﻜﻤﻳ .ﺎﻬﺘﻋﺍﺭﺯ\n.ﻂﻘﻓ ﺔﻨﻴﻌﻣ</DesignatorPaintFloorDesc>
+
+  <!-- EN: Remove paint -->
+  <DesignatorRemovePaint>ﺀﻼﻄﻟﺍ ﺔﻟﺍﺯﺇ</DesignatorRemovePaint>
+  <!-- EN: Remove paint from walls, buildings, and floors. -->
+  <DesignatorRemovePaintDesc>ﻥﺍﺭﺪﺠﻟﺍ ﻦﻣ ﺀﻼﻄﻟﺍ ﺔﻟﺍﺯﺇ\n.ﺕﺎﻴﺿﺭﻷﺍﻭ ﻲﻧﺎﺒﻤﻟﺍﻭ</DesignatorRemovePaintDesc>
+  <!-- EN: Remove floor paint -->
+  <DesignatorRemoveFloorPaint>ﺔﻴﺿﺭﻷﺍ ﺀﻼﻃ ﺔﻟﺍﺯﺇ</DesignatorRemoveFloorPaint> 
+  <!-- EN: Remove paint from floors. -->
+  <DesignatorRemoveFloorPaintDesc>.ﺕﺎﻴﺿﺭﻷﺍ ﻦﻣ ﺀﻼﻄﻟﺍ ﺔﻟﺍﺯﺇ</DesignatorRemoveFloorPaintDesc> 
+  <!-- EN: Paint -->
+  <Paint>ﺀﻼﻃ</Paint>
+  <!-- EN: Color -->
+  <Color>ﻥﻮﻟ</Color>
+
+  <!-- EN: Color picker -->
+  <DesignatorEyedropper>ﻥﺍﻮﻟﻷﺍ ﻲﻘﺘﻨﻣ</DesignatorEyedropper>
+  <!-- EN: Grab existing color -->
+  <GrabExistingColor>ﺩﻮﺟﻮﻣ ﻥﻮﻟ ﻁﺎﻘﺘﻟﺍ</GrabExistingColor>
+  <!-- EN: Grab a color from an existing building. -->
+  <DesignatorEyeDropperDesc_Paint>.ﺩﻮﺟﻮﻣ ﻰﻨﺒﻣ ﻦﻣ ﻥﻮﻟ ﻁﺎﻘﺘﻟﺍ</DesignatorEyeDropperDesc_Paint>
+  <!-- EN: Grab a color from an existing carpet. -->
+  <DesignatorEyeDropperDesc_Carpet>ﺓﺩﺎﺠﺳ ﻦﻣ ﻥﻮﻟ ﻁﺎﻘﺘﻟﺍ\n.ﺓﺩﻮﺟﻮﻣ</DesignatorEyeDropperDesc_Carpet>
+  <!-- EN: Select a painted building. -->
+  <SelectAPaintedBuilding>.ﻲﻠﻄﻣ ﻰﻨﺒﻣ ﺪﻳﺪﺤﺗ</SelectAPaintedBuilding>
+  <!-- EN: Select colored carpet. -->
+  <SelectColoredFloor>.ﺔﻧﻮﻠﻣ ﺓﺩﺎﺠﺳ ﺪﻳﺪﺤﺗ</SelectColoredFloor>
+  <!-- EN: Grab -->
+  <Grab>ﻁﺎﻘﺘﻟﺍ</Grab>
+  <!-- EN: Grabbed color -->
+  <GrabbedColor>ﻂﻘﺘﻠﻤﻟﺍ ﻥﻮﻠﻟﺍ</GrabbedColor>
+
+  <!-- EN: Expand plan -->
+  <DesignatorExpandPlan>ﻂﻴﻄﺨﺘﻟﺍ ﻊﻴﺳﻮﺗ</DesignatorExpandPlan>
+  <!-- EN: New plan -->
+  <NewPlan>ﺪﻳﺪﺟ ﻂﻴﻄﺨﺗ</NewPlan>
+  
+  <!-- EN: Shrink plan -->
+  <DesignatorPlanShrinkSingular>ﻂﻴﻄﺨﺘﻟﺍ ﺺﻴﻠﻘﺗ</DesignatorPlanShrinkSingular>
+  <!-- EN: Remove plans. -->
+  <DesignatorPlanShrinkDesc>.ﺕﺎﻄﻴﻄﺨﺘﻟﺍ ﺔﻟﺍﺯﺇ</DesignatorPlanShrinkDesc>
+
+  <!-- Failure messages -->
+  <!-- EN: Unchosen material -->
+  <UnchosenStuff>ﺓﺭﺎﺘﺨﻣ ﺮﻴﻏ ﺓﺩﺎﻣ</UnchosenStuff>
+  <!-- EN: Too close to map edge. -->
+  <TooCloseToMapEdge>ﺔﻓﺎﺣ ﻦﻣ ًﺍﺪﺟ ﺐﻳﺮﻗ\n.ﺔﻄﻳﺮﺨﻟﺍ</TooCloseToMapEdge>
+  <!-- EN: Out of bounds. -->
+  <OutOfBounds>.ﺩﻭﺪﺤﻟﺍ ﺝﺭﺎﺧ</OutOfBounds>
+  <!-- EN: Cannot place in undiscovered areas. -->
+  <CannotPlaceInUndiscovered>ﺮﻴﻏ ﻖﻃﺎﻨﻣ ﻲﻓ ﻊﺿﻮﻟﺍ ﻦﻜﻤﻳ ﻻ\n.ﺔﻔﺸﺘﻜﻣ</CannotPlaceInUndiscovered>
+  <!-- EN: Interaction spot is blocked by {1_labelShort}. -->
+  <InteractionSpotBlocked>ﺓﺭﻮﻈﺤﻣ ﻞﻋﺎﻔﺘﻟﺍ ﺔﻄﻘﻧ\n.{1_labelShort} ﺔﻄﺳﺍﻮﺑ</InteractionSpotBlocked>
+  <!-- EN: Interaction spot is out of bounds. -->
+  <InteractionSpotOutOfBounds>.ﺩﻭﺪﺤﻟﺍ ﺝﺭﺎﺧ ﻞﻋﺎﻔﺘﻟﺍ ﺔﻄﻘﻧ</InteractionSpotOutOfBounds>
+  <!-- EN: Interaction spot will be blocked by {1_labelShort}. -->
+  <InteractionSpotWillBeBlocked>ﻞﻋﺎﻔﺘﻟﺍ ﺔﻄﻘﻧ ﺮﻈﺣ ﻢﺘﻴﺳ\n.{1_labelShort} ﺔﻄﺳﺍﻮﺑ</InteractionSpotWillBeBlocked>
+  <!-- EN: {0} would block {1}'s interaction spot. -->
+  <WouldBlockInteractionSpot>.{1} ﻞﻋﺎﻔﺗ ﺔﻄﻘﻧ ﺮﻈﺤﻴﺳ {0}</WouldBlockInteractionSpot>
+  <!-- EN: The terrain here is already {0}. -->
+  <TerrainIsAlready>.{0} ﻞﻌﻔﻟﺎﺑ ﻲﻫ ﺎﻨﻫ ﺲﻳﺭﺎﻀﺘﻟﺍ</TerrainIsAlready>
+  <!-- EN: There is already foundation here. -->
+  <FoundationAlreadyExists>.ﻞﻌﻔﻟﺎﺑ ﺎﻨﻫ ﺱﺎﺳﺃ ﺪﺟﻮﻳ</FoundationAlreadyExists>
+  <!-- EN: The existing terrain here cannot be removed. -->
+  <TerrainUnremovable>ﺲﻳﺭﺎﻀﺘﻟﺍ ﺔﻟﺍﺯﺇ ﻦﻜﻤﻳ ﻻ\n.ﺎﻨﻫ ﺓﺩﻮﺟﻮﻤﻟﺍ</TerrainUnremovable>
+  <!-- EN: The surface is already marked for smoothing. -->
+  <SurfaceBeingSmoothed>ﻞﻌﻔﻟﺎﺑ ﺩﺪﺤﻣ ﺢﻄﺴﻟﺍ\n.ﻢﻴﻌﻨﺘﻠﻟ</SurfaceBeingSmoothed>
+  <!-- EN: Identical thing already exists here. -->
+  <IdenticalThingExists>ﺎﻨﻫ ﻖﺑﺎﻄﻣ ﺀﻲﺷ ﺪﺟﻮﻳ\n.ﻞﻌﻔﻟﺎﺑ</IdenticalThingExists>
+  <!-- EN: Identical blueprint already exists here. -->
+  <IdenticalBlueprintExists>ﺎﻨﻫ ﻖﺑﺎﻄﻣ ﻂﻄﺨﻣ ﺪﺟﻮﻳ\n.ﻞﻌﻔﻟﺎﺑ</IdenticalBlueprintExists>
+  <!-- EN: {0_label} cannot be built on this terrain. -->
+  <TerrainCannotSupport>ﻩﺬﻫ ﻰﻠﻋ {0_label} ﺀﺎﻨﺑ ﻦﻜﻤﻳ ﻻ\n.ﺲﻳﺭﺎﻀﺘﻟﺍ</TerrainCannotSupport>
+  <!-- EN: {0_label} requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordance>{1_label} :ﻢﻋﺪﺗ ﺲﻳﺭﺎﻀﺗ {0_label} ﺐﻠﻄﺘﻳ</TerrainCannotSupport_TerrainAffordance>
+  <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>({2_label} ﻦﻣ ﻪﻌﻨﺻ ﺪﻨﻋ) {0_label} ﺐﻠﻄﺘﻳ\n{1_label} :ﻢﻋﺪﺗ ﺲﻳﺭﺎﻀﺗ</TerrainCannotSupport_TerrainAffordanceFromStuff>
+  <!-- EN: Space already occupied. -->
+  <SpaceAlreadyOccupied>.ﻞﻌﻔﻟﺎﺑ ﺔﻟﻮﻐﺸﻣ ﺔﺣﺎﺴﻤﻟﺍ</SpaceAlreadyOccupied>
+  <!-- EN: Space being smoothed. -->
+  <SpaceBeingSmoothed>.ﻢﻴﻌﻨﺘﻟﺍ ﺪﻴﻗ ﺔﺣﺎﺴﻤﻟﺍ</SpaceBeingSmoothed>
+  <!-- EN: Must target a removable floor. -->
+  <TerrainMustBeRemovable>ﺔﻠﺑﺎﻗ ﺔﻴﺿﺭﺃ ﻑﺍﺪﻬﺘﺳﺍ ﺐﺠﻳ\n.ﺔﻟﺍﺯﻺﻟ</TerrainMustBeRemovable>
+  <!-- EN: The waterwheel must be on moving water. -->
+  <MustBeOnMovingWater>ﺀﺎﻤﻟﺍ ﺓﺭﻮﻋﺎﻧ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ\n.ﻙﺮﺤﺘﻣ ﺀﺎﻣ ﻰﻠﻋ</MustBeOnMovingWater>
+  <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotWillOverlap>ﻊﻣ ﻞﻋﺎﻔﺘﻟﺍ ﺔﻄﻘﻧ ﻞﺧﺍﺪﺘﺘﺳ\n.{1_labelShort} ﻞﻋﺎﻔﺗ ﺔﻄﻘﻧ</InteractionSpotWillOverlap>
+  <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotOverlaps>ﻊﻣ ﻞﻋﺎﻔﺘﻟﺍ ﺔﻄﻘﻧ ﻞﺧﺍﺪﺘﺗ\n.{1_labelShort} ﻞﻋﺎﻔﺗ ﺔﻄﻘﻧ</InteractionSpotOverlaps>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <CannotPlaceMonumentOver>ﻱﺭﺎﻛﺬﺘﻟﺍ ﺐﺼﻨﻟﺍ ﻊﺿﻭ ﻦﻜﻤﻳ ﻻ\n.{0} :ﻕﻮﻓ</CannotPlaceMonumentOver>
+  <!-- EN: Cannot build on: {0}. -->
+  <CannotPlaceMonumentOnTerrain>.{0} :ﻰﻠﻋ ﺀﺎﻨﺒﻟﺍ ﻦﻜﻤﻳ ﻻ</CannotPlaceMonumentOnTerrain>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <MonumentOverlapsBuilding>ﻱﺭﺎﻛﺬﺘﻟﺍ ﺐﺼﻨﻟﺍ ﻊﺿﻭ ﻦﻜﻤﻳ ﻻ\n.{0} :ﻕﻮﻓ</MonumentOverlapsBuilding>
+  <!-- EN: Monument cannot be placed adjacent to: {0}. -->
+  <MonumentAdjacentToBuilding>ﻱﺭﺎﻛﺬﺘﻟﺍ ﺐﺼﻨﻟﺍ ﻊﺿﻭ ﻦﻜﻤﻳ ﻻ\n.{0} :ـﻟ ًﺍﺭﻭﺎﺠﻣ</MonumentAdjacentToBuilding>
+  <!-- EN: Cannot be planted here -->
+  <CannotBePlantedHere>ﺎﻨﻫ ﻪﺘﻋﺍﺭﺯ ﻦﻜﻤﻳ ﻻ</CannotBePlantedHere>
+  
+  <!-- Mouse attachments -->
+  <!-- EN: Expand {0} or\nCreate new {1} -->
+  <ExpandOrCreateZone>ﻭﺃ {0} ﻊﻴﺳﻮﺗ\nﺪﻳﺪﺟ {1} ﺀﺎﺸﻧﺇ</ExpandOrCreateZone>
+  <!-- EN: Create new {0} -->
+  <CreateNewZone>ﺪﻳﺪﺟ {0} ﺀﺎﺸﻧﺇ</CreateNewZone>
+  
+  <!-- EN: Expand {0} or\nCreate new plan -->
+  <ExpandOrCreatePlan>ﻭﺃ {0} ﻊﻴﺳﻮﺗ\nﺪﻳﺪﺟ ﻂﻴﻄﺨﺗ ﺀﺎﺸﻧﺇ</ExpandOrCreatePlan>
+  <!-- EN: Create new plan -->
+  <CreateNewPlan>ﺪﻳﺪﺟ ﻂﻴﻄﺨﺗ ﺀﺎﺸﻧﺇ</CreateNewPlan>
+  
+  <!-- Desc helpers -->
+  <!-- EN: Transmits power -->
+  <TransmitsPower>ﺔﻗﺎﻄﻟﺍ ﻞﻘﻨﻳ</TransmitsPower>
+  <!-- EN: Construction needed -->
+  <ConstructionNeeded>ﺀﺎﻨﺒﻠﻟ ﺔﺟﺎﺤﺑ</ConstructionNeeded>
+  <!-- EN: None of your {0} have this skill. -->
+  <NoColonistWithSkillTip>ﻩﺬﻫ ﻚﻠﺘﻤﻳ ﻚﻳﺪﻟ {0} ﻦﻣ ﺪﺣﺃ ﻻ\n.ﺓﺭﺎﻬﻤﻟﺍ</NoColonistWithSkillTip>
+  <!-- EN: {0} needed -->
+  <SkillNeededForConstructing>ﺏﻮﻠﻄﻣ {0}</SkillNeededForConstructing>
+  <!-- EN: None of your {0} have all skills required. -->
+  <NoColonistWithAllSkillsForConstructing>ﻚﻠﺘﻤﻳ ﻚﻳﺪﻟ {0} ﻦﻣ ﺪﺣﺃ ﻻ\n.ﺔﺑﻮﻠﻄﻤﻟﺍ ﺕﺍﺭﺎﻬﻤﻟﺍ ﻊﻴﻤﺟ</NoColonistWithAllSkillsForConstructing>
+  <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
+  <AllColonistsWithSkillHaveDisabledConstructingTip>ﻥﻮﻜﻠﺘﻤﻳ ﻦﻳﺬﻟﺍ ﻚﻳﺪﻟ {0} ﻊﻴﻤﺟ\nﻦﻴﻨﻴﻌﻣ ﺮﻴﻏ ﺓﺭﺎﻬﻤﻟﺍ ﻩﺬﻫ\n.{1} ﻞﻤﻌﻟ</AllColonistsWithSkillHaveDisabledConstructingTip>
+
+  <!-- EN: Extract skull -->
+  <DesignatorExtractSkull>ﺔﻤﺠﻤﺠﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ</DesignatorExtractSkull>
+  <!-- EN: Extract the skull from a corpse. -->
+  <DesignatorExtractSkullDesc>.ﺔﺜﺟ ﻦﻣ ﺔﻤﺠﻤﺠﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ</DesignatorExtractSkullDesc>
+
+</LanguageData>

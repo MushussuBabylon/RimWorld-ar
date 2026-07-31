@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Ideoligion forbids -->
+  <IdeoligionForbids>ﻊﻨﻤﺗ ﺓﺪﻴﻘﻌﻟﺍ</IdeoligionForbids>
+  <!-- EN: Only {0}s can build -->
+  <OnlyMembersCanBuild>ﺀﺎﻨﺒﻟﺍ ﻢﻬﻨﻜﻤﻳ {0} ﻂﻘﻓ</OnlyMembersCanBuild>
+  <!-- EN: {0} is already in progress. -->
+  <CantStartRitualAlreadyInProgress>.ﻞﻌﻔﻟﺎﺑ ﻡﺪﻘﺘﻟﺍ ﺪﻴﻗ {0}</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
+  <CantStartRitualLayer>.{RITUAL} {GERUND} {LAYER} ﺀﺍﺩﺃ ﻦﻜﻤﻳ ﻻ</CantStartRitualLayer>
+  <!-- EN: One or more participants can't join due to extreme temperature. -->
+  <CantJoinRitualInExtremeWeather>ﺮﺜﻛﺃ ﻭﺃ ﺪﺣﺍﻭ ﻙﺭﺎﺸﻤﻟ ﻦﻜﻤﻳ ﻻ\n.ﻯﻮﺼﻗ ﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ ﺐﺒﺴﺑ ﻡﺎﻤﻀﻧﻻﺍ</CantJoinRitualInExtremeWeather>
+  <!-- EN: {0} is already participating in a ritual. -->
+  <CantStartRitualTargetIsAlreadyInRitual>.ﺲﻘﻃ ﻲﻓ ﻞﻌﻔﻟﺎﺑ ﻙﺭﺎﺸﻳ {0}</CantStartRitualTargetIsAlreadyInRitual>
+  <!-- EN: You must assign the role of {0} in order to start this ritual. -->
+  <CantStartRitualRoleNotAssigned>ﺍﺬﻫ ﺀﺪﺒﻟ {0} ﺭﻭﺩ ﻦﻴﻴﻌﺗ ﻚﻴﻠﻋ ﺐﺠﻳ\n.ﺲﻘﻄﻟﺍ</CantStartRitualRoleNotAssigned>
+  <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
+  <CantStartRitualNoConvertee>.{0} ﻰﻟﺇ ﻪﻠﻳﻮﺤﺘﻟ ﺪﺣﺃ ﺪﺟﻮﻳ ﻻ\nﺪﺒﻋ ﻭﺃ ،ﻦﻴﺠﺳ ،ﺮﻤﻌﺘﺴﻣ ﻰﻟﺇ ﺝﺎﺘﺤﺗ\n.ﺔﻔﻠﺘﺨﻣ ﺓﺪﻴﻘﻋ ﻦﻣ</CantStartRitualNoConvertee>
+  <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
+  <CantStartRitualSelectedPawnCannotBeRole>.{ROLE} ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﻻ {PAWN_nameDef}</CantStartRitualSelectedPawnCannotBeRole>
+  <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
+  <CantStartRitualSelectedPawnMustBeMember>.{IDEO_memberName} ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ {PAWN_nameDef}</CantStartRitualSelectedPawnMustBeMember>
+  <!-- EN: {PAWN_nameDef} is psychically deaf. -->
+  <CantStartRitualSelectedPawnPsychicallyDeaf>.ًﺎﻴﺴﻔﻧ ﻢﺻﺃ {PAWN_nameDef}</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelSpectators>ﺐﺠﻳ .ﻦﻴﺟﺮﻔﺘﻤﻠﻟ ﺔﻴﻓﺎﻛ ﺮﻴﻏ ﺔﺣﺎﺴﻣ\nﻒﺼﻨﺑ ﺔﻴﻟﺎﺧ ﺓﺮﺋﺍﺩ ﻙﺎﻨﻫ ﻥﻮﻜﺗ ﻥﺃ\nﺔﻌﻘﺑ {1} ﻞﻗﻷﺍ ﻰﻠﻋ ﺏﻮﻠﻄﻣ .{MINRADIUS} ﺮﻄﻗ\n.ﻕﺎﻄﻨﻟﺍ ﻚﻟﺫ ﻦﻤﺿ ﻑﻮﻗﻮﻠﻟ ﺔﻠﺑﺎﻗ</CantStartNotEnoughSpaceDuelSpectators>
+  <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelDuelists>.ﻦﻳﺯﺭﺎﺒﺘﻤﻠﻟ ﺔﻴﻓﺎﻛ ﺮﻴﻏ ﺔﺣﺎﺴﻣ\nﺔﻴﻟﺎﺧ ﺓﺮﺋﺍﺩ ﻙﺎﻨﻫ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ\n{1} ﻞﻗﻷﺍ ﻰﻠﻋ ﺏﻮﻠﻄﻣ .{MINRADIUS} ﺮﻄﻗ ﻒﺼﻨﺑ\nﻚﻟﺫ ﻦﻤﺿ ﻑﻮﻗﻮﻠﻟ ﺔﻠﺑﺎﻗ ﺔﻌﻘﺑ\n.ﻕﺎﻄﻨﻟﺍ</CantStartNotEnoughSpaceDuelDuelists>
+  <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
+  <CantStartNotEnoughSpaceDuelSpeaker>ﺐﺠﻳ .ﺙﺪﺤﺘﻤﻠﻟ ﺔﻴﻓﺎﻛ ﺮﻴﻏ ﺔﺣﺎﺴﻣ\nﻒﺼﻨﺑ ﺔﻴﻟﺎﺧ ﺓﺮﺋﺍﺩ ﻙﺎﻨﻫ ﻥﻮﻜﺗ ﻥﺃ\n.{MINRADIUS} ﺮﻄﻗ</CantStartNotEnoughSpaceDuelSpeaker>
+  <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
+  <CantStartFuneralForSlave>ﻢﻬﻟ ﻡﺎﻘﺗ ﻻ ﺪﻴﺒﻌﻟﺍ .ﺪﺒﻋ {0_labelShort}\n.ﺕﺍﺯﺎﻨﺟ</CantStartFuneralForSlave>
+  <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
+  <NoSlaveBed>ﻝﻮﺻﻮﻟﺍ ﻦﻜﻤﻳ ﺪﺒﻋ ﺮﻳﺮﺴﻟ ﺔﺟﺎﺤﺑ\nﺓﺭﺍﺮﺣ ﺔﺟﺭﺪﺑﻭ ،ﺯﻮﺠﺤﻣ ﺮﻴﻏ ،ﻪﻴﻟﺇ\n.ﺔﻨﻣﺁ</NoSlaveBed>
+  <!-- EN: Return to slave bed -->
+  <ReturnToSlaveBed>ﺪﺒﻌﻟﺍ ﺮﻳﺮﺳ ﻰﻟﺇ ﺓﺩﻮﻋ</ReturnToSlaveBed>
+  <!-- EN: not allowed for faction -->
+  <NotAllowedForFaction>ﻞﻴﺼﻔﻠﻟ ﺡﻮﻤﺴﻣ ﺮﻴﻏ</NotAllowedForFaction>
+
+  <!-- EN: Remove precept -->
+  <RemovePrecept>ﺔﻴﺻﻮﻟﺍ ﺔﻟﺍﺯﺇ</RemovePrecept>
+  <!-- EN: Regenerate -->
+  <Regenerate>ﺀﺎﺸﻧﺇ ﺓﺩﺎﻋﺇ</Regenerate>
+  <!-- EN: Cannot edit -->
+  <CannotEdit>ﻞﻳﺪﻌﺘﻟﺍ ﻦﻜﻤﻳ ﻻ</CannotEdit>
+  <!-- EN: No choices available -->
+  <NoChoicesAvailable>ﺔﺣﺎﺘﻣ ﺕﺍﺭﺎﻴﺧ ﺪﺟﻮﺗ ﻻ</NoChoicesAvailable>
+  <!-- EN: Required by meme {0} -->
+  <RequiredByMeme>{0} ﻢﻴﻤﻟﺍ ﺔﻄﺳﺍﻮﺑ ﺏﻮﻠﻄﻣ</RequiredByMeme>
+  <!-- EN: Required -->
+  <Required>ﺏﻮﻠﻄﻣ</Required>
+  <!-- EN: Style category -->
+  <StyleCategory>ﺏﻮﻠﺳﻷﺍ ﺔﺌﻓ</StyleCategory>
+  <!-- EN: Add style category -->
+  <AddStyleCategory>ﺏﻮﻠﺳﺃ ﺔﺌﻓ ﺔﻓﺎﺿﺇ</AddStyleCategory>
+  <!-- EN: Can't add more than {0} rituals. -->
+  <MaxRitualCount>.ﺲﻘﻃ {0} ﻦﻣ ﺮﺜﻛﺃ ﺔﻓﺎﺿﺇ ﻦﻜﻤﻳ ﻻ</MaxRitualCount>
+  <!-- EN: Can't add more than {0} relics. -->
+  <MaxRelicCount>.ﺮﺛﺃ {0} ﻦﻣ ﺮﺜﻛﺃ ﺔﻓﺎﺿﺇ ﻦﻜﻤﻳ ﻻ</MaxRelicCount>
+  <!-- EN: can't have more than {0} specialists. -->
+  <MaxMultiRolesCount>{0} ﻦﻣ ﺮﺜﻛﺃ ﻚﻳﺪﻟ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﻻ\n.ﺺﺼﺨﺘﻣ</MaxMultiRolesCount>
+  <!-- EN: max {0} -->
+  <MaxPreceptCount>{0} ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ</MaxPreceptCount>
+  <!-- EN: Set gender -->
+  <SetTargetGender>ﺲﻨﺠﻟﺍ ﻦﻴﻴﻌﺗ</SetTargetGender>
+  <!-- EN: must be {0} faction -->
+  <RoleApparelRequirementIncompatibleFaction>{0} ﻞﻴﺼﻓ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>ﻲﻠﺒﻗ</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <!-- EN: non-tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>ﻲﻠﺒﻗ ﺮﻴﻏ</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <!-- EN: requires any of these memes -->
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>ﺕﺎﻤﻴﻤﻟﺍ ﻩﺬﻫ ﻦﻣ ﻱﺃ ﺐﻠﻄﺘﻳ</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <!-- EN: cannot be worn with assigned apparel -->
+  <BodyPartAlreadyCovered>ﺲﺑﻼﻤﻟﺍ ﻊﻣ ﻩﺅﺍﺪﺗﺭﺍ ﻦﻜﻤﻳ ﻻ\nﺔﻨﻴﻌﻤﻟﺍ</BodyPartAlreadyCovered>
+  <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
+  <NoteRoleApparelRequirementEffects>ﺕﺎﺒﻠﻄﺘﻣ ﺀﺎﻔﻴﺘﺳﺍ ﺪﻨﻋ ﺱﺎﻨﻟﺍ ﺪﻌﺴﻳ\nﺪﻨﻋ ﺀﺍﺪﻌﺳ ﺮﻴﻏ ﻥﻮﺤﺒﺼﻳﻭ ،ﻢﻬﺴﺑﻼﻣ\n.ﺎﻬﻛﺎﻬﺘﻧﺍ</NoteRoleApparelRequirementEffects>
+  <!-- EN: supercharge not ready -->
+  <NeuralSuperchargeNotReady>ﺰﻫﺎﺟ ﺮﻴﻏ ﻖﺋﺎﻔﻟﺍ ﻦﺤﺸﻟﺍ</NeuralSuperchargeNotReady>
+  <!-- EN: already getting -->
+  <NeuralSuperchargeAlreadyGetting>ﻞﻌﻔﻟﺎﺑ ﻰﻘﻠﺘﻳ</NeuralSuperchargeAlreadyGetting>
+  <!-- EN: Set type -->
+  <SetApparelType>ﻉﻮﻨﻟﺍ ﻦﻴﻴﻌﺗ</SetApparelType>
+
+  <!-- EN: change style -->
+  <ChangeStyle>ﺏﻮﻠﺳﻷﺍ ﺮﻴﻴﻐﺗ</ChangeStyle>
+  <!-- EN: {0} {DEITYNOUN} required -->
+  <DeitiesRequired>{0} {DEITYNOUN} ﺏﻮﻠﻄﻣ</DeitiesRequired>
+  <!-- EN: deity -->
+  <Deity>ﻪﻟﺇ</Deity>
+  <!-- EN: requires meme -->
+  <RequiresMeme>ًﺎﻤﻴﻣ ﺐﻠﻄﺘﻳ</RequiresMeme>
+  <!-- EN: requires one of -->
+  <RequiresOneOfMemes>ﻦﻣ ًﺍﺪﺣﺍﻭ ﺐﻠﻄﺘﻳ</RequiresOneOfMemes>
+  <!-- EN: conflicts with meme -->
+  <ConflictsWithMeme>ﻢﻴﻤﻟﺍ ﻊﻣ ﺽﺭﺎﻌﺘﻳ</ConflictsWithMeme>
+  <!-- EN: conflicts with memes -->
+  <ConflictsWithMemes>ﺕﺎﻤﻴﻤﻟﺍ ﻊﻣ ﺽﺭﺎﻌﺘﻳ</ConflictsWithMemes>
+  <!-- EN: can only have one altar/ideogram -->
+  <IdeoAlreadyHasAltar>ﻚﻳﺪﻟ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ\nﻂﻘﻓ ﺪﺣﺍﻭ ﻡﺍﺮﺟﻭﺪﻳﺃ/ﺢﺑﺬﻣ</IdeoAlreadyHasAltar>
+  <!-- EN: recolor apparel -->
+  <RecolorApparel>ﺲﺑﻼﻤﻟﺍ ﻦﻳﻮﻠﺗ ﺓﺩﺎﻋﺇ</RecolorApparel>
+
+  <!-- EN: Install {0} -->
+  <InstallRelic>{0} ﺖﻴﺒﺜﺗ</InstallRelic>
+  <!-- EN: Extract {0} -->
+  <ExtractRelic>{0} ﺝﺍﺮﺨﺘﺳﺍ</ExtractRelic>
+  <!-- EN: Extract {0} to inventory ({1}) -->
+  <ExtractRelicToInventory>({1}) ﻥﻭﺰﺨﻤﻟﺍ ﻰﻟﺇ {0} ﺝﺍﺮﺨﺘﺳﺍ</ExtractRelicToInventory>
+  <!-- EN: No relic to install -->
+  <NoRelicToInstall>ﻪﺘﻴﺒﺜﺘﻟ ﺮﺛﺃ ﺪﺟﻮﻳ ﻻ</NoRelicToInstall>
+  <!-- EN: Install in reliquary -->
+  <InstallInReliquary>ﺭﺎﺛﻵﺍ ﺀﺎﻋﻭ ﻲﻓ ﺖﻴﺒﺜﺗ</InstallInReliquary>
+  <!-- EN: no empty accessible reliquary -->
+  <NoEmptyReliquary>ﻦﻜﻤﻳ ﻍﺭﺎﻓ ﺭﺎﺛﺁ ﺀﺎﻋﻭ ﺪﺟﻮﻳ ﻻ\nﻪﻴﻟﺇ ﻝﻮﺻﻮﻟﺍ</NoEmptyReliquary>
+
+  <!-- EN: No {MEMBERNAME} warden -->
+  <NoWardenOfIdeo>{MEMBERNAME} ﻥﺎﺠﺳ ﺪﺟﻮﻳ ﻻ</NoWardenOfIdeo>
+
+  <!-- EN: Remove current role -->
+  <RemoveCurrentRole>ﻲﻟﺎﺤﻟﺍ ﺭﻭﺪﻟﺍ ﺔﻟﺍﺯﺇ</RemoveCurrentRole>
+
+  <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
+  <EnterBiosculpterPod>ﺓﺭﻭﺪﻟ ﻱﻮﻴﺤﻟﺍ ﺖﺤﻨﻟﺍ ﺔﻟﻮﺴﺒﻛ ﻞﺧﺩﺍ\n{0} ){1}(</EnterBiosculpterPod>
+  <!-- EN: Biotuned to someone else. -->
+  <BiosculpterBiotunedToAnother>.ﺮﺧﺁ ﺺﺨﺸﻟ ًﺎﻳﻮﻴﺣ ﻁﻮﺒﻀﻣ</BiosculpterBiotunedToAnother>
+  <!-- EN: Must be {0} years old for age reversal. -->
+  <UnderMinBiosculpterAgeReversalAge>ﺲﻜﻌﻟ ﺔﻨﺳ {0} ﺮﻤﻋ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ\n.ﺮﻤﻌﻟﺍ</UnderMinBiosculpterAgeReversalAge>
+  <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
+  <CarryToBiosculpterPod>ﻱﻮﻴﺤﻟﺍ ﺖﺤﻨﻟﺍ ﺔﻟﻮﺴﺒﻛ ﻰﻟﺇ {PAWN_labelShort} ﻞﻤﺣﺍ\n({CYCLE} ﺓﺭﻭﺩ)</CarryToBiosculpterPod>
+  <!-- EN: Cannot carry to biosculpter pod -->
+  <CannotCarryToBiosculpterPod>ﺖﺤﻨﻟﺍ ﺔﻟﻮﺴﺒﻛ ﻰﻟﺇ ﻞﻤﺤﻟﺍ ﻦﻜﻤﻳ ﻻ\nﻱﻮﻴﺤﻟﺍ</CannotCarryToBiosculpterPod>
+  <!-- EN: No available biosculpter pod. -->
+  <NoBiosculpterPod>.ﺔﺣﺎﺘﻣ ﻱﻮﻴﺣ ﺖﺤﻧ ﺔﻟﻮﺴﺒﻛ ﺪﺟﻮﺗ ﻻ</NoBiosculpterPod>
+  <!-- EN: Nutrition not loaded -->
+  <BiosculpterNutritionNotLoaded>ﺔﻠﻤﺤﻣ ﺮﻴﻏ ﺔﻳﺬﻐﺘﻟﺍ</BiosculpterNutritionNotLoaded>
+  <!-- EN: Occupied -->
+  <BiosculpterOccupied>ﻝﻮﻐﺸﻣ</BiosculpterOccupied>
+  <!-- EN: Cannot enter -->
+  <CannotEnter>ﻝﻮﺧﺪﻟﺍ ﻦﻜﻤﻳ ﻻ</CannotEnter>
+  <!-- EN: Cannot start {0} cycle -->
+  <BiosculpterCannotStartCycle>{0} ﺓﺭﻭﺩ ﺀﺪﺑ ﻦﻜﻤﻳ ﻻ</BiosculpterCannotStartCycle>
+  <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
+  <BiosculpterMissingIngredients>ﺕﺎﻧﻮﻜﻣ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻦﻜﻤﻳ ﻻ\n({INGREDIENTS}) ﺓﺭﻭﺪﻟﺍ</BiosculpterMissingIngredients>
+  <!-- EN: Nobody around can use this -->
+  <BiosculpterNoEligiblePawns>ﻪﻨﻜﻤﻳ ﺭﺍﻮﺠﻟﺎﺑ ﺪﺣﺃ ﺪﺟﻮﻳ ﻻ\nﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ</BiosculpterNoEligiblePawns>
+  <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
+  <BiosculpterNoEligiblePawnsBiotuned>ﺲﻴﻟ {PAWN_pronoun} ﻭ {PAWN_labelShort} ـﻟ ًﺎﻳﻮﻴﺣ ﻁﻮﺒﻀﻣ\nﺭﺍﻮﺠﻟﺎﺑ</BiosculpterNoEligiblePawnsBiotuned>
+  <!-- EN: Auto load nutrition -->
+  <BiosculpterAutoLoadNutritionLabel>ًﺎﻴﺋﺎﻘﻠﺗ ﺔﻳﺬﻐﺘﻟﺍ ﻞﻴﻤﺤﺗ</BiosculpterAutoLoadNutritionLabel>
+  <!-- EN: Automatically load the nutrition required to run a cycle -->
+  <BiosculpterAutoLoadNutritionDescription>ﻞﻴﻐﺸﺘﻟ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺔﻳﺬﻐﺘﻟﺍ ﻞﻴﻤﺤﺗ\nًﺎﻴﺋﺎﻘﻠﺗ ﺓﺭﻭﺩ</BiosculpterAutoLoadNutritionDescription>
+  <!-- EN: Auto age reversal for {PAWN_labelShort} -->
+  <BiosculpterAutoAgeReversalLabel>{PAWN_labelShort} ـﻟ ًﺎﻴﺋﺎﻘﻠﺗ ﺮﻤﻌﻟﺍ ﺲﻜﻋ</BiosculpterAutoAgeReversalLabel>
+  <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
+  <BiosculpterAutoAgeReversalDescription>ﺲﻜﻋ ﺝﻼﻋ ﺀﺍﺮﺟﺇ ﻲﻓ {PAWN_labelShort} ﺔﺒﻏﺭ ﺔﻴﺒﻠﺗ\nﺔﻟﻮﺴﺒﻜﻟﺍ ﻩﺬﻫ ﻲﻓ ﻱﻮﻨﺴﻟﺍ ﺮﻤﻌﻟﺍ\n{PAWN_possessive}. {NEXTTREATMENT} ﺕﺍﺩﺎﻘﺘﻋﻻ ًﺎﻘﻓﻭ ،ًﺎﻴﺋﺎﻘﻠﺗ</BiosculpterAutoAgeReversalDescription>
+  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
+  <BiosculpterAutoAgeReversalDescriptionFuture>ﻪﺟﻼﻋ {PAWN_labelShort} ﺬﺧﺄﻴﺳ ،ﻞﻴﻌﻔﺘﻟﺍ ﻢﺗ ﺍﺫﺇ\nﺖﻧﺎﻛ ﺍﺫﺇ ًﺎﻴﺋﺎﻘﻠﺗ {TIME} ﻲﻓ ﻲﻟﺎﺘﻟﺍ\n.ﺓﺰﻫﺎﺟ ﺔﻟﻮﺴﺒﻜﻟﺍ</BiosculpterAutoAgeReversalDescriptionFuture>
+  <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
+  <BiosculpterAutoAgeReversalDescriptionNow>ﻲﻟﺎﺘﻟﺍ ﻪﺟﻼﻋ ﻞﻌﻔﻟﺎﺑ {PAWN_labelShort} ﺪﻳﺮﻳ\nﻢﺗ ﺍﺫﺇ ًﺎﻴﺋﺎﻘﻠﺗ ًﺍﺪﺣﺍﻭ ﺃﺪﺒﻴﺳﻭ\n.ﺍﺬﻫ ﻞﻴﻌﻔﺗ</BiosculpterAutoAgeReversalDescriptionNow>
+  <!-- EN: Collecting ingredients for biosculpter cycle -->
+  <BiosculpterJobReportCollectIngredients>ﺖﺤﻨﻟﺍ ﺓﺭﻭﺪﻟ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻊﻤﺟ\nﻱﻮﻴﺤﻟﺍ</BiosculpterJobReportCollectIngredients>
+</LanguageData>

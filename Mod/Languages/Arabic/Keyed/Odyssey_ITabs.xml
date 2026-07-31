@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Fishing -->
+  <!-- EN: do X times -->
+  <FishRepeatMode_RepeatCount>ﺓﺮﻣ X ﻞﻌﻓﺍ</FishRepeatMode_RepeatCount>
+  <!-- EN: do until you have X -->
+  <FishRepeatMode_TargetCount>X ﻰﻠﻋ ﻞﺼﺤﺗ ﻰﺘﺣ ﻞﻌﻓﺍ</FishRepeatMode_TargetCount>
+  <!-- EN: do forever -->
+  <FishRepeatMode_Forever>ﺪﺑﻷﺍ ﻰﻟﺇ ﻞﻌﻓﺍ</FishRepeatMode_Forever>
+  <!-- EN: Fish population -->
+  <FishPopulation>ﻚﻤﺴﻟﺍ ﺩﺍﺪﻌﺗ</FishPopulation>
+  <!-- EN: How many fish are in this body of water. Larger bodies of water have more fish and will recover fish populations faster. -->
+  <FishPopulationDesc>ﺢﻄﺴﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﻙﺎﻤﺳﻷﺍ ﺩﺪﻋ\nﺮﺒﻛﻷﺍ ﺔﻴﺋﺎﻤﻟﺍ ﺕﺎﺤﻄﺴﻤﻟﺍ .ﻲﺋﺎﻤﻟﺍ\nﺪﻴﻌﺘﺴﺗﻭ ﺮﺜﻛﺃ ﻙﺎﻤﺳﺃ ﻰﻠﻋ ﻱﻮﺘﺤﺗ\n.ﻉﺮﺳﺃ ﻞﻜﺸﺑ ﻚﻤﺴﻟﺍ ﺩﺍﺪﻌﺗ</FishPopulationDesc>
+  <!-- EN: Minimum population -->
+  <MinimumPopulation>ﺩﺍﺪﻌﺘﻠﻟ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ</MinimumPopulation>
+  <!-- EN: Colonists won't fish if the fish population is under this limit. Fishing yields are lower if there are less than 300 fish. -->
+  <MinimumPopulationDesc>ﻥﺎﻛ ﺍﺫﺇ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﺩﺎﻄﺼﻳ ﻦﻟ\n.ﺪﺤﻟﺍ ﺍﺬﻫ ﻦﻣ ﻞﻗﺃ ﻚﻤﺴﻟﺍ ﺩﺍﺪﻌﺗ\nﻥﺎﻛ ﺍﺫﺇ ﻞﻗﺃ ﺪﻴﺼﻟﺍ ﺔﻠﻏ ﻥﻮﻜﺗ\n.ﺔﻜﻤﺳ 300 ﻦﻣ ﻞﻗﺃ ﻙﺎﻨﻫ</MinimumPopulationDesc>
+  <!-- EN: uncommon -->
+  <Uncommon>ﻊﺋﺎﺷ ﺮﻴﻏ</Uncommon>
+  <!-- EN: When toggled off, colonists will avoid catching this fish. -->
+  <ToggleFishAvoid>ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﺐﻨﺠﺘﻴﺳ ،ﻞﻴﻄﻌﺘﻟﺍ ﺪﻨﻋ\n.ﺔﻜﻤﺴﻟﺍ ﻩﺬﻫ ﺪﻴﺻ</ToggleFishAvoid>
+  
+</LanguageData>

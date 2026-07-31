@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(classicMode==True)->You've learned that a valuable relic is nearby.\n\nThe [relic_name] is one of [relicGlobalCount] ancient objects venerated by many people. If you could collect it, you could build a reliquary to make your colonists happy and attract wealthy pilgrims.</li>
+    <li>questDescription(classicMode==False)->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
+    <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
+  -->
+  <RelicHunt.questDescriptionRules.rulesStrings>
+    <li>questDescription(classicMode==True)-&gt;.ﺐﻳﺮﻗ ًﺎﻤﻴﻗ ًﺍﺮﺛﺃ ﻥﺃ ﺖﻤﻠﻋ\n\nﺔﻳﺮﺛﺃ ﺀﺎﻴﺷﺃ [relicGlobalCount] ﻦﻣ ﺪﺣﺍﻭ ﻮﻫ The [relic_name]\nﺍﺫﺇ .ﺱﺎﻨﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺎﻬﻠﺠﺒﻳ\nﺭﺍﺰﻣ ﺀﺎﻨﺑ ﻚﻨﻜﻤﻳ ،ﻪﻌﻤﺟ ﻦﻣ ﺖﻨﻜﻤﺗ\nﺏﺬﺠﻳﻭ ﺀﺍﺪﻌﺳ ﻚﻳﺮﻤﻌﺘﺴﻣ ﻞﻌﺠﻴﻟ\n.ﺀﺎﻳﺮﺛﻷﺍ ﺝﺎﺠﺤﻟﺍ</li>
+    <li>questDescription(classicMode==False)-&gt;.ﺐﻳﺮﻗ [ideo_name] ﻦﻣ ًﺍﺮﺛﺃ ﻥﺃ ﺖﻤﻠﻋ\n\nﻊﻴﻤﺟ ﻪﻠﺠﺒﻳ ﻱﺮﺛﺃ ﻦﺋﺎﻛ ﻮﻫ The [relic_name]\nﻚﻨﻜﻤﻳ ،ﻪﻌﻤﺟ ﻦﻣ ﺖﻨﻜﻤﺗ ﺍﺫﺇ .[ideo_memberNamePlural]\n،ﺀﺍﺪﻌﺳ [ideo_memberNamePlural] ﻞﻌﺠﻴﻟ ﻢﻴﻈﻋ ﺭﺍﺰﻣ ﺀﺎﻨﺑ\nﺐﻠﺠﻳﻭ ،ﺀﺎﻳﺮﺛﻷﺍ ﺝﺎﺠﺤﻟﺍ ﺏﺬﺠﻳﻭ\n.[ideo_name] ﻰﻟﺇ ﺱﺎﻨﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ</li>
+    <li>questDescriptionPartBeforeDiscovery-&gt;.[relic_name] ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻰﻟﺇ ﺝﺎﺘﺤﺗ ،ًﻻﻭﺃ\n.ﻪﻨﻋ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻊﻤﺠﻟ ﺹﺮﻔﻟﺍ ﺐﻗﺮﺗ</li>
+ </RelicHunt.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [hunt] for the [item]</li>
+    <li>questName->The [itemAdj] [item]</li>
+    <li>questName(classicMode==False)->The [item] of [ideo_name]</li>
+    <li>hunt->hunt</li>
+    <li>hunt->search</li>
+    <li>hunt->quest</li>
+    <li>item(p=4)->[relic_name]</li>
+    <li>item->relic</li>
+    <li>item->artifact</li>
+    <li>itemAdj->ancient</li>
+    <li>itemAdj->revered</li>
+    <li>itemAdj->venerated</li>
+  -->
+  <RelicHunt.questNameRules.rulesStrings>
+    <li>questName-&gt;[item] ﻦﻋ ﺚﺤﺒﻟﺍ</li>
+    <li>questName-&gt;[itemAdj] [item]</li>
+    <li>questName(classicMode==False)-&gt;[item] [ideo_name]</li>
+    <li>hunt-&gt;ﺚﺤﺑ</li>
+    <li>hunt-&gt;ﻲﺼﻘﺗ</li>
+    <li>hunt-&gt;ﺔﻤﻬﻣ</li>
+    <li>item(p=4)-&gt;[relic_name]</li>
+    <li>item-&gt;ﺮﺛﺃ</li>
+    <li>item-&gt;ﺔﻳﺮﺛﺃ ﺔﻌﻄﻗ</li>
+    <li>itemAdj-&gt;ﻱﺮﺛﺃ</li>
+    <li>itemAdj-&gt;ﻞﺠﺒﻣ</li>
+    <li>itemAdj-&gt;ﺱﺪﻘﻣ</li>
+ </RelicHunt.questNameRules.rulesStrings>
+  
+</LanguageData>

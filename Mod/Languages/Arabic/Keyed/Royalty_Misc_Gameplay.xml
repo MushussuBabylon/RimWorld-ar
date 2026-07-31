@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Royalty and throne -->
+  <!-- EN: Satisfies title -->
+  <ThroneMaxSatisfiedTitle>ﺐﻘﻠﻟﺍ ﺕﺎﺒﻠﻄﺘﻣ ﻲﺒﻠﻳ</ThroneMaxSatisfiedTitle>
+  <!-- EN: ({0} impressiveness) -->
+  <ThroneRoomImpressivenessInfo>(ﺏﺎﺠﻋﺇ {0})</ThroneRoomImpressivenessInfo>
+  <!-- EN: Throne must be placed indoors. -->
+  <ThroneMustBePlacedInside>.ﻞﺧﺍﺪﻟﺍ ﻲﻓ ﺵﺮﻌﻟﺍ ﻊﺿﻭ ﺐﺠﻳ</ThroneMustBePlacedInside>
+  <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
+  <MinimumRoyalTitleInspectString>{TITLE} :({FACTION_name}) ﺐﻘﻠﻟ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ</MinimumRoyalTitleInspectString>
+  <!-- EN: Trading here requires title: {0} -->
+  <RequiresTradePermission>{0} :ًﺎﺒﻘﻟ ﺐﻠﻄﺘﺗ ﺎﻨﻫ ﺓﺭﺎﺠﺘﻟﺍ</RequiresTradePermission>
+  <!-- EN: Personal bedroom (partner allowed) -->
+  <RequirementPersonalBedroom>(ﻚﻳﺮﺸﻟﺎﺑ ﺢﻤﺴﻳ) ﺔﻴﺼﺨﺷ ﻡﻮﻧ ﺔﻓﺮﻏ</RequirementPersonalBedroom>
+  
+  <!-- Generated neurotrainers -->
+  <!-- EN: psytrainer ({0}) -->
+  <PsycastNeurotrainerLabel>({0}) ﺔﻴﺴﻔﻧ ﺕﺍﺭﺪﻗ ﺏﺭﺪﻣ</PsycastNeurotrainerLabel>
+  <!-- EN: Use psytrainer to learn {0} psycast -->
+  <PsycastNeurotrainerUseLabel>ﺔﻴﺴﻔﻨﻟﺍ ﺕﺍﺭﺪﻘﻟﺍ ﺏﺭﺪﻣ ﻡﺪﺨﺘﺳﺍ\nﺔﻴﺴﻔﻨﻟﺍ {0} ﺓﺭﺪﻗ ﻢﻠﻌﺘﻟ</PsycastNeurotrainerUseLabel>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
+  <PsycastNeurotrainerDescription>ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﻘﺋﺎﻓ ﺖﻴﻧﺎﻜﻴﻣ ﺔﻋﺮﺟ\nﺔﻴﺴﻔﻧ ﺓﻮﻗ ﻰﻠﻋ ﺏﺭﺪﺗ ﺓﺪﺣﺍﻭ ﺓﺮﻣ\n.ﺓﺩﺪﺤﻣ\n\n.ﻦﻴﻌﻟﺍ ﺮﺠﺤﻣ ﺮﺒﻋ ﺔﻋﺮﺠﻟﺍ ﻰﻄﻌُﺗ\nﻞﻜﺸﺗ ،ﻍﺎﻣﺪﻟﺍ ﻲﻓ ﺎﻬﻗﻼﻃﺇ ﺩﺮﺠﻤﺑ\n،ﺓﺩﺪﺤﻣ ﺓﺭﺪﻘﺑ ﺔﻓﺮﻌﻣ ﺕﺎﺘﻴﻧﺎﻜﻴﻤﻟﺍ\nﺐﺴﺣ ﻲﺒﺼﻋ ﺞﻴﺴﻧ ﻰﻟﺇ ﺎﻬﺴﻔﻧ ﻝﻮﺤﺗﻭ\n.ﺔﺟﺎﺤﻟﺍ\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
+  <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
+  <AbilityNeurotrainerUsed>ﻢﻠﻌﺘﻟ ﻲﺒﺼﻌﻟﺍ ﺏﺭﺪﻤﻟﺍ {USER_labelShort} ﻡﺪﺨﺘﺳﺍ\n.{1} ﺓﻮﻗ</AbilityNeurotrainerUsed>
+  <!-- EN: requires psylink -->
+  <PsycastNeurotrainerNoPsylink>ًﺎﻴﺴﻔﻧ ًﺎﻄﺑﺍﺭ ﺐﻠﻄﺘﻳ</PsycastNeurotrainerNoPsylink>
+  <!-- EN: {USER_labelShort} already knows {1}. -->
+  <PsycastNeurotrainerAbilityAlreadyLearned>.ﻞﻌﻔﻟﺎﺑ {1} ﻑﺮﻌﻳ {USER_labelShort}</PsycastNeurotrainerAbilityAlreadyLearned>
+
+  <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
+  <Reward_RoyalFavor>{1} {0_royalFavorLabel} ﻰﻠﻋ ﻞﺼﺤﻴﺳ ﺔﻤﻬﻤﻟﺍ ﻞﺒﻘﻳ ﻦﻣ\n{0_name} ﻦﻣ</Reward_RoyalFavor>
+  <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
+  <Reward_RoyalFavor_ChoosePawn>{2} ـﻟﺍ ﺪﺣﺃ ﺭﺎﻴﺘﺧﺍ ﻚﻨﻜﻤﻳ\n{0_name} ﻦﻣ {1} {0_royalFavorLabel} ﻰﻠﻋ ﻞﺼﺤﻴﻟ ﻦﻴﻛﺭﺎﺸﻤﻟﺍ</Reward_RoyalFavor_ChoosePawn>
+  
+  <!-- Ship landing beacons -->
+  <!-- EN: Not usable -->
+  <NotUsable>ﻡﺍﺪﺨﺘﺳﻼﻟ ﻞﺑﺎﻗ ﺮﻴﻏ</NotUsable>
+  <!-- EN: unpowered -->
+  <Unpowered>ﺔﻗﺎﻄﻟﺎﺑ ﺩﻭﺰﻣ ﺮﻴﻏ</Unpowered>
+  <!-- EN: Too close to other beacon -->
+  <TooCloseToOtherBeacon>ﻯﺮﺧﺃ ﺓﺭﺎﻨﻣ ﻦﻣ ًﺍﺪﺟ ﺐﻳﺮﻗ</TooCloseToOtherBeacon>
+  
+  <!-- Meditation -->
+  <!-- EN: Psyfocus -->
+  <Psyfocus>ﻲﺴﻔﻧ ﺰﻴﻛﺮﺗ</Psyfocus>
+  <!-- EN: Psyfocus -->
+  <PsyfocusLabelGizmo>ﻲﺴﻔﻧ ﺰﻴﻛﺮﺗ</PsyfocusLabelGizmo>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychic powers, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
+  <PsyfocusDesc>ﻦﻣ ﺹﺎﺧ ﻉﻮﻧ ﻮﻫ ﻲﺴﻔﻨﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ\nﺔﻳﺭﻭﺮﻀﻟﺍ ﺔﻴﻠﻘﻌﻟﺍ ﺔﻴﻨﺒﻟﺍ\nﺩﺪﺒﺘﻳ .ﺔﻴﺴﻔﻨﻟﺍ ﻯﻮﻘﻟﺍ ﻡﺍﺪﺨﺘﺳﻻ\n،ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﻲﺴﻔﻨﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ\n.ﻢﻈﺘﻨﻤﻟﺍ ﻞﻣﺄﺘﻟﺎﺑ ﻩﺅﺎﻨﺑ ﺐﺠﻳﻭ\nﻞﻌﺠﻳ ﻲﺴﻔﻨﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ ﻞﻛ ﻥﺍﺪﻘﻓ\nﻡﺍﺪﺨﺘﺳﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ ﺺﺨﺸﻟﺍ\nﻪﻟ ﺲﻴﻟ ﻦﻜﻟ ،ﺔﻴﺴﻔﻨﻟﺍ ﻯﻮﻘﻟﺍ\n.ﻯﺮﺧﺃ ﺐﻗﺍﻮﻋ\n\nﻦﻣ ﻰﻠﻋﻷﺍ ﺕﺎﻳﻮﺘﺴﻤﻟﺍ ﺢﻤﺴﺗ\nﻯﻮﺘﺴﻣ ﺕﺍﺫ ﻯﻮﻘﺑ ﻲﺴﻔﻨﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ\nﻦﻣ ًﺎﻀﻳﺃ ﺪﻳﺰﺗ ﺎﻬﻨﻜﻟﻭ ،ﻰﻠﻋﺃ\n.ﻲﺴﻔﻨﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ ﺩﺪﺒﺗ ﻝﺪﻌﻣ</PsyfocusDesc>
+  <!-- EN: {0}-{1}% -->
+  <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
+  <!-- EN: Up to level {0} powers. -->
+  <PsyfocusLevelInfoPsycasts>.{0} ﻯﻮﺘﺴﻤﻟﺍ ﻯﻮﻗ ﻰﺘﺣ</PsyfocusLevelInfoPsycasts>
+  <!-- EN: Psyfocus falls at {0} per day. -->
+  <PsyfocusLevelInfoFallRate>{0} ﺭﺍﺪﻘﻤﺑ ﻲﺴﻔﻨﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ ﺾﻔﺨﻨﻳ\n.ﻡﻮﻴﻟﺍ ﻲﻓ</PsyfocusLevelInfoFallRate>
+  <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
+  <UserMeditationFocusStrength>{LASTUSER_labelShort} ـﻟ ﻞﻣﺄﺘﻟﺍ ﺰﻴﻛﺮﺗ ﺓﻮﻗ</UserMeditationFocusStrength>
+  <!-- EN: Focus effect impacted by -->
+  <MeditationFocusImpacted>ـﺑ ﺮﺛﺄﺘﻣ ﺰﻴﻛﺮﺘﻟﺍ ﺮﻴﺛﺄﺗ</MeditationFocusImpacted>
+  <!-- EN: {1} per nearby animus stone (max {0}) -->
+  <MeditationFocusPerAnimusStoneAbstract>ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ) ﺐﻳﺮﻗ ﺡﻭﺭ ﺮﺠﺣ ﻞﻜﻟ {1}\n({0}</MeditationFocusPerAnimusStoneAbstract>
+  <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
+  <MeditationFocusPerAnimusStone>({0} / {1}) ﺐﻳﺮﻗ ﺡﻭﺭ ﺮﺠﺣ ﻞﻜﻟ {2}</MeditationFocusPerAnimusStone>
+  <!-- EN: Per nearby animus stone {2}, nature shrine {1} (max {0}) -->
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>ﺔﻌﻴﺒﻃ ﺢﻳﺮﺿ ،{2} ﺐﻳﺮﻗ ﺡﻭﺭ ﺮﺠﺣ ﻞﻜﻟ\n({0} ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ) {1}</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <!-- EN: Per nearby animus stone {3}, nature shrine {2} ({0} / {1}) -->
+  <MeditationFocusPerAnimusStoneAndShrine>ﺔﻌﻴﺒﻃ ﺢﻳﺮﺿ ،{3} ﺐﻳﺮﻗ ﺡﻭﺭ ﺮﺠﺣ ﻞﻜﻟ\n{2} ){0} / {1}(</MeditationFocusPerAnimusStoneAndShrine>
+  <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
+  <MeditationFocusPerSculptureAbstract>ﺔﺒﻳﺮﻗ ﺔﺗﻮﺤﻨﻣ ﻞﻜﻟ {1} ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ\n({0} ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ) ﺓﺩﻮﺠﻟﺍ ﺐﺴﺣ</MeditationFocusPerSculptureAbstract>
+  <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
+  <MeditationFocusPerSculpture>ﺔﺒﻳﺮﻗ ﺔﺗﻮﺤﻨﻣ ﻞﻜﻟ {2} ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ\n({0} / {1}) ﺓﺩﻮﺠﻟﺍ ﺐﺴﺣ</MeditationFocusPerSculpture>
+  <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
+  <MeditationFocusPerGraveAbstract>،ًﺎﻏﺭﺎﻓ ﻥﺎﻛ ﺍﺫﺇ {1} ﺐﻳﺮﻗ ﺮﺒﻗ ﻞﻜﻟ\n({0} ﻰﺘﺣ) ﺔﻳﺮﺸﺒﻟﺍ ﺔﺜﺠﻠﻟ {2}</MeditationFocusPerGraveAbstract>
+  <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
+  <MeditationFocusPerGrave>،ًﺎﻏﺭﺎﻓ ﻥﺎﻛ ﺍﺫﺇ {2} ﺐﻳﺮﻗ ﺮﺒﻗ ﻞﻜﻟ\n({0} / {1}) ﺔﻳﺮﺸﺒﻟﺍ ﺔﺜﺠﻠﻟ {3}</MeditationFocusPerGrave>
+  <!-- EN: {1} per nearby lit flame source (up to {0}) -->
+  <MeditationFocusPerFlameAbstract>ﻰﺘﺣ) ﺐﻳﺮﻗ ﺀﺎﻀﻣ ﺐﻬﻟ ﺭﺪﺼﻣ ﻞﻜﻟ {1}\n({0}</MeditationFocusPerFlameAbstract>
+  <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
+  <MeditationFocusPerFlame>/ {0}) ﺐﻳﺮﻗ ﺀﺎﻀﻣ ﺐﻬﻟ ﺭﺪﺼﻣ ﻞﻜﻟ {2}\n({1}</MeditationFocusPerFlame>
+  <!-- EN: Psyfocus gain rate: {0}/d -->
+  <PsyfocusPerDayOfMeditation>:ﻲﺴﻔﻨﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ ﺏﺎﺴﺘﻛﺍ ﻝﺪﻌﻣ\nﻡﻮﻳ/{0}</PsyfocusPerDayOfMeditation>
+  <!-- EN: Desired psyfocus -->
+  <DesiredPsyfocus>ﺏﻮﻏﺮﻤﻟﺍ ﻲﺴﻔﻨﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ</DesiredPsyfocus>
+  <!-- EN: Click to set desired psyfocus. -->
+  <DesiredPsyfocusDesc>ﻲﺴﻔﻨﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ ﻦﻴﻴﻌﺘﻟ ﺮﻘﻧﺍ\n.ﺏﻮﻏﺮﻤﻟﺍ</DesiredPsyfocusDesc>
+
+  <!-- EN: no throne assigned. -->
+  <AbilitySpeechDisabledNoThroneAssigned>.ﺵﺮﻋ ﻦﻴﻴﻌﺗ ﻢﺘﻳ ﻢﻟ</AbilitySpeechDisabledNoThroneAssigned>
+  <!-- EN: throne is not accessible. -->
+  <AbilitySpeechDisabledNoThroneIsNotAccessible>.ﻝﻮﺻﻮﻠﻟ ًﻼﺑﺎﻗ ﺲﻴﻟ ﺵﺮﻌﻟﺍ</AbilitySpeechDisabledNoThroneIsNotAccessible>
+  <!-- EN: throne not usable because it is undignified. -->
+  <AbilitySpeechDisabledNoThroneUndignified>ﻪﻧﻷ ﻡﺍﺪﺨﺘﺳﻼﻟ ﻞﺑﺎﻗ ﺮﻴﻏ ﺵﺮﻌﻟﺍ\n.ﻡﺮﻜﻣ ﺮﻴﻏ</AbilitySpeechDisabledNoThroneUndignified>
+  <!-- EN: already giving a speech. -->
+  <AbilitySpeechDisabledAlreadyGivingSpeech>.ﻞﻌﻔﻟﺎﺑ ًﺎﺑﺎﻄﺧ ﻲﻘﻠﻳ</AbilitySpeechDisabledAlreadyGivingSpeech>
+  <!-- EN: Outcome chances -->
+  <AbilitySpeechPossibleOutcomes>ﺞﺋﺎﺘﻨﻟﺍ ﺹﺮﻓ</AbilitySpeechPossibleOutcomes>
+  <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
+  <AbilitySpeechStatInfo>{ORGANIZER_labelShort} ـﻟ {1} ﺔﻴﺋﺎﺼﺣﺇ</AbilitySpeechStatInfo>
+  <!-- EN: Dignified throne -->
+  <AbilitySpeechTargetDescThrone>ﻡﺮﻜﻣ ﺵﺮﻋ</AbilitySpeechTargetDescThrone>
+  
+  <!-- EN: no accessible altar. -->
+  <RitualDisabledNoAltar>.ﻪﻴﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻦﻜﻤﻳ ﺢﺑﺬﻣ ﺪﺟﻮﻳ ﻻ</RitualDisabledNoAltar>
+  <!-- EN: Bestowing Ceremony -->
+  <RitualBestowingCeremony>ﺢﻨﻤﻟﺍ ﻞﻔﺣ</RitualBestowingCeremony>
+  <!-- EN: No suitable location near bestower -->
+  <BestowingSpotUnavailable>ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺐﺳﺎﻨﻣ ﻊﻗﻮﻣ ﺪﺟﻮﻳ ﻻ\nﺢﻧﺎﻤﻟﺍ</BestowingSpotUnavailable>
+
+  <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
+  <TotalMeditationToday>ﻒﻋﺎﻀﻣ) {0} :ﻡﻮﻴﻟﺍ ﻞﻣﺄﺘﻟﺍ ﻲﻟﺎﻤﺟﺇ\n({1} ﻡﺪﻘﺘﻟﺍ</TotalMeditationToday>
+  <!-- EN: progress {0} -->
+  <ProgressToNextSubplant>{0} ﻡﺪﻘﺘﻟﺍ</ProgressToNextSubplant>
+  <!-- EN: Begin linking ritual -->
+  <BeginLinkingRitualFloatMenu>ﻁﺎﺒﺗﺭﻻﺍ ﺲﻘﻃ ﺀﺪﺑ</BeginLinkingRitualFloatMenu>
+  <!-- EN: Need {0} {1} here (have {2}) -->
+  <BeginLinkingRitualNeedSubplants>({2} ﻚﻳﺪﻟ) ﺎﻨﻫ {0} {1} ﺝﺎﺘﺤﺗ</BeginLinkingRitualNeedSubplants>
+  <!-- EN: Need {0} psylink focus type -->
+  <BeginLinkingRitualNeedFocus>{0} ﻲﺴﻔﻧ ﻂﺑﺍﺭ ﺰﻴﻛﺮﺗ ﻉﻮﻧ ﺝﺎﺘﺤﺗ</BeginLinkingRitualNeedFocus>
+  <!-- EN: Max psylink level -->
+  <BeginLinkingRitualMaxPsylinkLevel>ﻂﺑﺍﺮﻟﺍ ﻯﻮﺘﺴﻤﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ\nﻲﺴﻔﻨﻟﺍ</BeginLinkingRitualMaxPsylinkLevel>
+  <!-- EN: Need a free, reachable spot within 3 cells for linking -->
+  <BeginLinkingRitualNeedLinkSpot>ﺔﻠﺑﺎﻗ ﺓﺮﺣ ﺔﻌﻘﺑ ﻰﻟﺇ ﺝﺎﺘﺤﺗ\nﻁﺎﺒﺗﺭﻼﻟ ﺎﻳﻼﺧ 3 ﻦﻤﺿ ﻝﻮﺻﻮﻠﻟ</BeginLinkingRitualNeedLinkSpot>
+  <!-- EN: Linking ritual completed -->
+  <LetterLabelLinkingRitualCompleted>ﻁﺎﺒﺗﺭﻻﺍ ﺲﻘﻃ ﻞﻤﺘﻛﺍ</LetterLabelLinkingRitualCompleted>
+  <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
+  <LetterTextLinkingRitualCompleted>.{LINKABLE_labelShort} ﻊﻣ ﻁﺎﺒﺗﺭﻻﺍ ﺲﻘﻃ ﻞﻤﻛﺃ {PAWN_labelShort}\n\n،ﻰﻗﺮُﻣ ﻲﺴﻔﻧ ﻂﺑﺍﺭ ﻥﻵﺍ ﻪﻳﺪﻟ {PAWN_pronoun}\nﺔﻴﺴﻔﻧ ﻯﻮﻗ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺢﻤﺴﻳ ﺎﻤﻣ\n.ﺓﺪﻳﺪﺟ</LetterTextLinkingRitualCompleted>
+  <!-- EN: Additionally, {0} anima grass has been restored. -->
+  <LetterTextLinkingRitualCompletedAnimaGrass>{0} ﺓﺩﺎﻌﺘﺳﺍ ﻢﺗ ،ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ\n.ﺎﻤﻴﻧﺃ ﺐﺸﻋ</LetterTextLinkingRitualCompletedAnimaGrass>
+
+  <!-- EN: Land shuttle here -->
+  <LandHere>ﺎﻨﻫ ﻙﻮﻜﻤﻟﺎﺑ ﻂﺒﻫﺍ</LandHere>
+  <!-- EN: Destination is out of range. -->
+  <MessageShuttleDestinationIsTooFar>.ﻕﺎﻄﻨﻟﺍ ﺝﺭﺎﺧ ﺔﻬﺟﻮﻟﺍ</MessageShuttleDestinationIsTooFar>
+
+  <!-- EN: Start bestowing ceremony for {0_labelShort} -->
+  <BeginCeremony>{0_labelShort} ـﻟ ﺢﻨﻤﻟﺍ ﻞﻔﺣ ﺀﺪﺑ</BeginCeremony>
+  <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
+  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>ﺐﻘﻟ ﺕﺎﺒﻠﻄﺘﻣ ﻲﺒﻠﺗ ﻻ {PAWN_definite} ﺵﺮﻋ ﺔﻓﺮﻏ\n.{TITLE}</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
+  <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>ﻻ {PAWN_definite} ﺵﺮﻋ ﺔﻓﺮﻏ ﻥﻷ ﺢﻧﺎﻤﻟﺍ ﺀﺎﺘﺳﺍ\nﺀﺎﻐﻟﺇ ﻢﺗ .{TITLE} ﺐﻘﻟ ﺕﺎﺒﻠﻄﺘﻣ ﻲﺒﻠﺗ\n.ﺢﻨﻤﻟﺍ ﻞﻔﺣ</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <!-- EN: bestowing ceremony -->
+  <BestowingCeremonyLabel>ﺢﻨﻤﻟﺍ ﻞﻔﺣ</BestowingCeremonyLabel>
+  <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
+  <BestowingOutcomeQualitySpecific>ﺖﻧﺎﻛ ﺢﻨﻤﻟﺍ ﻞﻔﺤﻟ ﺔﻴﻠﻜﻟﺍ ﺓﺩﻮﺠﻟﺍ\nﻞﻣﺍﻮﻌﻟﺍ ﻩﺬﻫ ﺎﻫﺩﺪﺤﺗ ،{0}</BestowingOutcomeQualitySpecific>
+  
+  <!-- EN: No colonists that can link with anima tree right now. -->
+  <RitualTargetAnimaTreeNoPawnsToLink>ﻁﺎﺒﺗﺭﻻﺍ ﻢﻬﻨﻜﻤﻳ ﻥﻭﺮﻤﻌﺘﺴﻣ ﺪﺟﻮﻳ ﻻ\n.ﻥﻵﺍ ﺎﻤﻴﻧﻷﺍ ﺓﺮﺠﺸﺑ</RitualTargetAnimaTreeNoPawnsToLink>
+  <!-- EN: No colonists with the natural meditation focus type. -->
+  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>ﻉﻮﻧ ﻢﻬﻳﺪﻟ ﻥﻭﺮﻤﻌﺘﺴﻣ ﺪﺟﻮﻳ ﻻ\n.ﻲﻌﻴﺒﻄﻟﺍ ﻞﻣﺄﺘﻟﺍ ﺰﻴﻛﺮﺗ</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
+  <!-- EN: Need at least {0} anima grass. -->
+  <RitualTargetAnimaTreeNotEnoughAnimaGrass>.ﺎﻤﻴﻧﺃ ﺐﺸﻋ {0} ﻞﻗﻷﺍ ﻰﻠﻋ ﺝﺎﺘﺤﺗ</RitualTargetAnimaTreeNotEnoughAnimaGrass>
+  <!-- EN: an anima tree -->
+  <RitualTargetAnimaTreeInfo>ﺎﻤﻴﻧﺃ ﺓﺮﺠﺷ</RitualTargetAnimaTreeInfo>
+  <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
+  <RitualTargetAnimaTreeMustBeCapableOfNature>ﻉﻮﻧ ﻪﻳﺪﻟ ًﺍﺮﻤﻌﺘﺴﻣ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ\nﻦﻣ ﻞﻗﺃﻭ ﻲﻌﻴﺒﻄﻟﺍ ﻞﻣﺄﺘﻟﺍ ﺰﻴﻛﺮﺗ\nﻂﺑﺍﺮﻟﺍ ﻯﻮﺘﺴﻤﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ\n.ﻲﺴﻔﻨﻟﺍ</RitualTargetAnimaTreeMustBeCapableOfNature>
+  <!-- EN: Must not be psychically deaf. -->
+  <RitualTargetAnimaTreeMustBePsychicallySensitive>.ًﺎﻴﺴﻔﻧ ﻢﺻﺃ ﻥﻮﻜﻳ ﻻﺃ ﺐﺠﻳ</RitualTargetAnimaTreeMustBePsychicallySensitive>
+
+  <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
+  <AnimaLinkingExplanationBase>ﻯﻮﻗﺃ ﺎﻤﻴﻧﻷﺍ ﻁﺎﺒﺗﺭﺍ ﻞﻔﺣ ﻥﻮﻜﻳ\n.ﻦﻴﻛﺭﺎﺸﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺩﻮﺟﻮﺑ\nﻞﻗ ،ﻦﻴﻛﺭﺎﺸﻤﻟﺍ ﺩﺪﻋ ﺩﺍﺯ ﺎﻤﻠﻛ\nﺩﺍﺯﻭ ،ﻞﻔﺤﻟﺍ ﻪﻗﺮﻐﺘﺴﻳ ﻱﺬﻟﺍ ﺖﻗﻮﻟﺍ\n.ﺎﻤﻴﻧﻷﺍ ﺐﺸﻋ ﻮﻤﻧ\n\nﺓﺩﺎﻌﺘﺳﺍ ﻢﺘﻴﺳ ،ﻲﻓﺎﺿﺇ ﻙﺭﺎﺸﻣ {0} ﻊﻣ\n.ﻞﻔﺤﻟﺍ ﺔﻳﺎﻬﻧ ﻲﻓ ﺎﻤﻴﻧﺃ ﺐﺸﻋ {1}</AnimaLinkingExplanationBase>
+  <!-- EN: Not all required cargo is loaded yet! -->
+  <ShuttleRequiredItemsNotSatisfied>ﺔﻟﻮﻤﺤﻟﺍ ﻊﻴﻤﺟ ﻞﻴﻤﺤﺗ ﻢﺘﻳ ﻢﻟ\n!ﺪﻌﺑ ﺔﺑﻮﻠﻄﻤﻟﺍ</ShuttleRequiredItemsNotSatisfied>
+  <!-- EN: Cannot load {0_labelShort} -->
+  <CannotLoadIntoShuttle>{0_labelShort} ﻞﻴﻤﺤﺗ ﻦﻜﻤﻳ ﻻ</CannotLoadIntoShuttle>
+
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>.ﺎﻬﻐﻳﺮﻔﺘﻟ ﺓﺭﺍﺮﺣ ﺪﺟﻮﺗ ﻻ</AbilityNoEntropyToDump>
+
+  <!-- EN: level {0} -->
+  <LevelNum>{0} ﻯﻮﺘﺴﻤﻟﺍ</LevelNum>
+
+</LanguageData>

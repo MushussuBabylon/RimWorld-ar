@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>darknessStartedLetterLabel->Unnatural darkness</li>
+    <li>darknessStartedLetterText->An unnatural darkness has descended. Inhuman things move just outside the light. Keep colonists in well-lit areas.</li>
+    <li>structuresArrivingAlertLabel->Void structures arriving</li>
+    <li>structuresArrivingAlertExplanation->The boundary between our world and the void is breaking down. Soon, void structures will manifest nearby. To fully awaken the void monolith, you must activate them.\n\nPrepare for their arrival.</li>
+    <li>voidStructuresLetterLabel->Void structures</li>
+    <li>voidStructuresLetterText->Several twisted structures are appearing, seemingly from nowhere. They pulse with a dark psychic energy which wilts nearby plant life.\n\nActivate the structures to progress further.</li>
+    <li>gleamingMonolithWarningLetterLabel->Twisting intensifies</li>
+    <li>gleamingMonolithWarningLetterText->The monolith's shape has begun to distort and shift with growing intensity. Something is about to happen...</li>
+    <li>gleamingMonolithLetterLabel->Void monolith</li>
+    <li>gleamingMonolithLetterText->The monolith has fully awakened. A swirling dark vortex sits atop its peak, forming a conduit to the void.\n\nGo to the monolith and use it to pass through to the other side. Doing so will end the unnatural darkness and end the horror assault.</li>
+    <li>monolithTwistingAlertLabel->Monolith twisting</li>
+    <li>monolithTwistingAlertExplanation->The monolith is twisting without moving, bending itself and the minds of those who look at it. Something is happening - get ready.</li>
+  -->
+  <EndGame_VoidAwakening.questContentRules.rulesStrings>
+    <li>darknessStartedLetterLabel-&gt;ﻲﻌﻴﺒﻃ ﺮﻴﻏ ﻡﻼﻇ</li>
+    <li>darknessStartedLetterText-&gt;ﺀﺎﻴﺷﺃ ﻙﺮﺤﺘﺗ .ﻲﻌﻴﺒﻃ ﺮﻴﻏ ﻡﻼﻇ ﻞﺣ\n.ﺓﺮﺷﺎﺒﻣ ﺀﻮﻀﻟﺍ ﺝﺭﺎﺧ ﺔﻳﺮﺸﺑ ﺮﻴﻏ\nﺓﺀﺎﻀﻣ ﻖﻃﺎﻨﻣ ﻲﻓ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ِﻖﺑﺃ\n.ﺍًﺪﻴﺟ</li>
+    <li>structuresArrivingAlertLabel-&gt;ﻍﺍﺮﻔﻟﺍ ﻞﻛﺎﻴﻫ ﻝﻮﺻﻭ</li>
+    <li>structuresArrivingAlertExplanation-&gt;ﻍﺍﺮﻔﻟﺍﻭ ﺎﻨﻤﻟﺎﻋ ﻦﻴﺑ ﺩﻭﺪﺤﻟﺍ\nﻞﻛﺎﻴﻫ ﻰﻠﺠﺘﺘﺳ ،ﺎًﺒﻳﺮﻗ .ﺭﺎﻬﻨﺗ\nﺚﻴﻟﻮﻧﻮﻣ ﻅﺎﻘﻳﻹ .ﺏﺮﻘﻟﺎﺑ ﻍﺍﺮﻔﻟﺍ\nﻚﻴﻠﻋ ﺐﺠﻳ ،ﻞﻣﺎﻜﻟﺎﺑ ﻍﺍﺮﻔﻟﺍ\n.ﺎﻬﻄﻴﺸﻨﺗ\n\n.ﺎﻬﻟﻮﺻﻮﻟ ﺪﻌﺘﺳﺍ</li>
+    <li>voidStructuresLetterLabel-&gt;ﻍﺍﺮﻔﻟﺍ ﻞﻛﺎﻴﻫ</li>
+    <li>voidStructuresLetterText-&gt;ﺎﻬﻧﺄﻛﻭ ،ﺔﻳﻮﺘﻠﻣ ﻞﻛﺎﻴﻫ ﺓﺪﻋ ﺮﻬﻈﺗ\nﺔﻴﺴﻔﻧ ﺔﻗﺎﻄﺑ ﺾﺒﻨﺗ .ﻡﺪﻌﻟﺍ ﻦﻣ\nﺔﻴﺗﺎﺒﻨﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻞﺑﺬﺗ ﺔﻤﻠﻈﻣ\n.ﺔﺒﻳﺮﻘﻟﺍ\n\n.ﺎًﻣﺪﻗ ﻲﻀﻤﻠﻟ ﻞﻛﺎﻴﻬﻟﺍ ﻂﻴﺸﻨﺘﺑ ﻢﻗ</li>
+    <li>gleamingMonolithWarningLetterLabel-&gt;ﺓﺪﺣ ﺩﺍﺩﺰﻳ ﺀﺍﻮﺘﻟﻻﺍ</li>
+    <li>gleamingMonolithWarningLetterText-&gt;ﻩﻮﺸﺘﻟﺍ ﻲﻓ ﺚﻴﻟﻮﻧﻮﻤﻟﺍ ﻞﻜﺷ ﺃﺪﺑ\nﺎﻣ ﺀﻲﺷ .ﺓﺪﻳﺍﺰﺘﻣ ﺓﻮﻘﺑ ﻝﻮﺤﺘﻟﺍﻭ\n...ﺙﻭﺪﺤﻟﺍ ﻚﺷﻭ ﻰﻠﻋ</li>
+    <li>gleamingMonolithLetterLabel-&gt;ﻍﺍﺮﻔﻟﺍ ﺚﻴﻟﻮﻧﻮﻣ</li>
+    <li>gleamingMonolithLetterText-&gt;ﺪﺟﻮﺗ .ﻞﻣﺎﻜﻟﺎﺑ ﺚﻴﻟﻮﻧﻮﻤﻟﺍ ﻆﻘﻴﺘﺳﺍ\n،ﻪﺘﻤﻗ ﻕﻮﻓ ﺓﺭﺍﻭﺩ ﺔﻤﻠﻈﻣ ﺔﻣﺍﻭﺩ\n.ﻍﺍﺮﻔﻟﺍ ﻰﻟﺇ ﺓﺎﻨﻗ ﻞﻜﺸﺗ\n\nﻪﻣﺪﺨﺘﺳﺍﻭ ﺚﻴﻟﻮﻧﻮﻤﻟﺍ ﻰﻟﺇ ﺐﻫﺫﺍ\nﻱﺩﺆﻴﺳ .ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻟﺇ ﺭﻮﺒﻌﻠﻟ\nﻡﻼﻈﻟﺍ ﺀﺎﻬﻧﺇ ﻰﻟﺇ ﻚﻟﺬﺑ ﻡﺎﻴﻘﻟﺍ\n.ﺐﻋﺮﻟﺍ ﻡﻮﺠﻫ ﺀﺎﻬﻧﺇﻭ ﻲﻌﻴﺒﻄﻟﺍ ﺮﻴﻏ</li>
+    <li>monolithTwistingAlertLabel-&gt;ﺚﻴﻟﻮﻧﻮﻤﻟﺍ ﺀﺍﻮﺘﻟﺍ</li>
+    <li>monolithTwistingAlertExplanation-&gt;،ﻙﺮﺤﺘﻳ ﻥﺃ ﻥﻭﺩ ﺚﻴﻟﻮﻧﻮﻤﻟﺍ ﻱﻮﺘﻠﻳ\nﻥﻭﺮﻈﻨﻳ ﻦﻣ ﻝﻮﻘﻋﻭ ﻪﺴﻔﻧ ﻲﻨﺤﻳ\n.ﺪﻌﺘﺳﺍ - ﺙﺪﺤﻳ ﺎﻣ ﺀﻲﺷ .ﻪﻴﻟﺇ</li>
+ </EndGame_VoidAwakening.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription-></li>
+  -->
+  <EndGame_VoidAwakening.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;</li>
+ </EndGame_VoidAwakening.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->void awakening</li>
+  -->
+  <EndGame_VoidAwakening.questNameRules.rulesStrings>
+    <li>questName-&gt;ﻍﺍﺮﻔﻟﺍ ﻅﺎﻘﻴﺘﺳﺍ</li>
+ </EndGame_VoidAwakening.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription-></li>
+  -->
+  <EndGame_VoidMonolith.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;</li>
+ </EndGame_VoidMonolith.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Anomaly monolith</li>
+  -->
+  <EndGame_VoidMonolith.questNameRules.rulesStrings>
+    <li>questName-&gt;ﺫﻭﺬﺸﻟﺍ ﺚﻴﻟﻮﻧﻮﻣ</li>
+ </EndGame_VoidMonolith.questNameRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fleshmass neural lump -->
+  <FleshmassNeuralLump.label>ﺔﻴﻤﺤﻟ ﺔﻴﺒﺼﻋ ﺔﻠﺘﻛ</FleshmassNeuralLump.label>
+  <!-- EN: A clump of fleshmass nervous tissue and fibres. You can analyze it to find a way to kill the fleshmass heart itself. -->
+  <FleshmassNeuralLump.description>ﻢﺤﻠﻟﺍ ﺔﻠﺘﻛ ﻑﺎﻴﻟﺃﻭ ﺞﻴﺴﻧ ﻦﻣ ﺔﻠﺘﻛ\nﺩﺎﺠﻳﻹ ﺎﻬﻠﻴﻠﺤﺗ ﻚﻨﻜﻤﻳ .ﺔﻴﺒﺼﻌﻟﺍ\nﻢﺤﻠﻟﺍ ﺔﻠﺘﻛ ﺐﻠﻗ ﻞﺘﻘﻟ ﺔﻘﻳﺮﻃ\n.ﻪﺴﻔﻧ</FleshmassNeuralLump.description>
+  <!-- EN: Analyze the fleshmass neural sample. Once enough neural samples are collected and analyzed, you should be able to figure out a way to kill the heart. -->
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>ﺔﻠﺘﻜﻟ ﺔﻴﺒﺼﻌﻟﺍ ﺔﻨﻴﻌﻟﺍ ﻞﻠﺣ\nﺩﺪﻋ ﻞﻴﻠﺤﺗﻭ ﻊﻤﺟ ﺩﺮﺠﻤﺑ .ﻢﺤﻠﻟﺍ\nﻲﻐﺒﻨﻳ ،ﺔﻴﺒﺼﻌﻟﺍ ﺕﺎﻨﻴﻌﻟﺍ ﻦﻣ ٍﻑﺎﻛ\nﻞﺘﻘﻟ ﺔﻘﻳﺮﻃ ﻑﺎﺸﺘﻛﺍ ﻦﻣ ﻦﻜﻤﺘﺗ ﻥﺃ\n.ﺐﻠﻘﻟﺍ</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>
+  <!-- EN: Analyze... -->
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>...ﻞﻴﻠﺤﺗ</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>
+  <!-- EN: While analyzing the fleshmass neural tissue, {PAWN_nameDef} made a breakthrough!\n\nThis biosignature responds strongly when stimulated by a specific electric pulse. If used on the fleshmass heart itself, an electric signal could cause a tachycardiac overload and kill the heart.\n\nYou can now destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly. -->
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>ﻲﺒﺼﻌﻟﺍ ﺞﻴﺴﻨﻟﺍ ﻞﻴﻠﺤﺗ ﺀﺎﻨﺛﺃ\n!ًﺎﻗﺍﺮﺘﺧﺍ {PAWN_nameDef} ﻖﻘﺣ ،ﻢﺤﻠﻟﺍ ﺔﻠﺘﻜﻟ\n\nﺓﻮﻘﺑ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻤﺼﺒﻟﺍ ﻩﺬﻫ ﺐﻴﺠﺘﺴﺗ\nﺔﻴﺋﺎﺑﺮﻬﻛ ﺔﻀﺒﻨﺑ ﺎﻫﺰﻴﻔﺤﺗ ﺪﻨﻋ\nﺐﻠﻗ ﻰﻠﻋ ﺖﻣﺪﺨُﺘﺳﺍ ﺍﺫﺇ .ﺓﺩﺪﺤﻣ\nﺓﺭﺎﺷﺇ ﺐﺒﺴﺗ ﺪﻗ ،ﻪﺴﻔﻧ ﻢﺤﻠﻟﺍ ﺔﻠﺘﻛ\nﺍًﺪﺋﺍﺯ ﺎًﻴﻋﺭﺎﺴﺗ ﺎﻼﻤﺣ ﺔﻴﺋﺎﺑﺮﻬﻛ\n.ﺐﻠﻘﻟﺍ ﻞﺘﻘﺗﻭ\n\nﻢﺤﻠﻟﺍ ﺔﻠﺘﻛ ﺐﻠﻗ ﺮﻴﻣﺪﺗ ﻥﻵﺍ ﻚﻨﻜﻤﻳ\n.ﺓﺮﺷﺎﺒﻣ ﻪﻌﻣ ﻞﻋﺎﻔﺘﻟﺎﺑ {BIOSIGNATURE}</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>
+  <!-- EN: Analysis complete -->
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>ﻞﻴﻠﺤﺘﻟﺍ ﻞﻤﺘﻛﺍ</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>ﺍﺬﻫ ﻞﻴﻠﺤﺗ ﻲﻐﺒﻨﻳ ﻦﻣ ﺮﺘﺧﺍ</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>.ﺮﻤﻌﺘﺴﻣ ﺔﻄﺳﺍﻮﺑ ﺎﻬﻠﻴﻠﺤﺗ ﻦﻜﻤﻳ</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>
+  <!-- EN: Analyze neural lump -->
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>ﺔﻴﺒﺼﻋ ﺔﻠﺘﻛ ﻞﻴﻠﺤﺗ</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>
+  <!-- EN: Analysis progress -->
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>ﻞﻴﻠﺤﺘﻟﺍ ﻡﺪﻘﺗ</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>
+  <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural lump. The sample carries the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} is convinced that {PAWN_pronoun} can find a way to kill the fleshmass heart, but {PAWN_pronoun} needs to study more neural samples first. -->
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>ﺔﻠﺘﻜﻟﺍ ﻞﻴﻠﺤﺗ ﻦﻣ {PAWN_nameDef} ﻰﻬﺘﻧﺍ\nﻞﻤﺤﺗ .ﻢﺤﻠﻟﺍ ﺔﻠﺘﻜﻟ ﺔﻴﺒﺼﻌﻟﺍ\n.{BIOSIGNATURE} ﺔﻳﻮﻴﺤﻟﺍ ﺔﻤﺼﺒﻟﺍ ﺔﻨﻴﻌﻟﺍ\n\nﺩﺎﺠﻳﺇ ﻪﻨﻜﻤﻳ {PAWN_pronoun} ﻥﺄﺑ ﻊﻨﺘﻘﻣ {PAWN_nameDef}\nﻦﻜﻟ ،ﻢﺤﻠﻟﺍ ﺔﻠﺘﻛ ﺐﻠﻗ ﻞﺘﻘﻟ ﺔﻘﻳﺮﻃ\nﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺔﺳﺍﺭﺪﻟ ﺝﺎﺘﺤﻳ {PAWN_pronoun}\n.ًﻻﻭﺃ ﺔﻴﺒﺼﻌﻟﺍ ﺕﺎﻨﻴﻌﻟﺍ</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural tissue. This tissue belongs to the previously studied biosignature {BIOSIGNATURE}, so you didn't gain any new knowledge.\n\nYou can destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly and inducing a tachycardiac overload. -->
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>ﻲﺒﺼﻌﻟﺍ ﺞﻴﺴﻨﻟﺍ ﻞﻴﻠﺤﺗ ﻦﻣ {PAWN_nameDef} ﻰﻬﺘﻧﺍ\nﺞﻴﺴﻨﻟﺍ ﺍﺬﻫ ﻲﻤﺘﻨﻳ .ﻢﺤﻠﻟﺍ ﺔﻠﺘﻜﻟ\nًﺎﻘﺑﺎﺳ ﺔﺳﻭﺭﺪﻤﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻤﺼﺒﻠﻟ\nﺔﻓﺮﻌﻣ ﻱﺃ ﺐﺴﺘﻜﺗ ﻢﻟ ﺍﺬﻟ ،{BIOSIGNATURE}\n.ﺓﺪﻳﺪﺟ\n\n{BIOSIGNATURE} ﻢﺤﻠﻟﺍ ﺔﻠﺘﻛ ﺐﻠﻗ ﺮﻴﻣﺪﺗ ﻚﻨﻜﻤﻳ\nﻞﻤﺣ ﺙﺍﺪﺣﺇﻭ ﺓﺮﺷﺎﺒﻣ ﻪﻌﻣ ﻞﻋﺎﻔﺘﻟﺎﺑ\n.ﺪﺋﺍﺯ ﻲﻋﺭﺎﺴﺗ</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+  <!-- EN: Analysis complete -->
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>ﻞﻴﻠﺤﺘﻟﺍ ﻞﻤﺘﻛﺍ</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
+  
+  <!-- EN: golden cube -->
+  <GoldenCube.label>ﻲﺒﻫﺫ ﺐﻌﻜﻣ</GoldenCube.label>
+  <!-- EN: A cube that fits snugly in the hand. Golden in color, it is always invitingly warm to the touch, like a trusted pet or a hug from a good friend. Those that look closely are rewarded for their attention by the delightful way light plays across its welcoming surface.\n\nThe cube seems impervious to most damage. -->
+  <GoldenCube.description>ﻪﻧﻮﻟ .ﺪﻴﻟﺍ ﻲﻓ ﺔﺣﺍﺮﺑ ﺮﻘﺘﺴﻳ ﺐﻌﻜﻣ\nﻞﻜﺸﺑ ﺊﻓﺍﺩ ﺎًﻤﺋﺍﺩ ﻮﻫﻭ ،ﻲﺒﻫﺫ\nﻒﻴﻟﺃ ﻥﺍﻮﻴﺤﻛ ،ﺲﻤﻠﻟﺍ ﺪﻨﻋ ﺏﺍﺬﺟ\n.ﺏﺮﻘﻣ ﻖﻳﺪﺻ ﻦﻣ ﻕﺎﻨﻋ ﻭﺃ ﻕﻮﺛﻮﻣ\nﺐﺜﻛ ﻦﻋ ﻥﻭﺮﻈﻨﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ\nﺔﻘﻳﺮﻄﻟﺎﺑ ﻢﻬﻫﺎﺒﺘﻧﺍ ﻰﻠﻋ ﻥﻭﺄﻓﺎﻜُﻳ\nﺀﻮﻀﻟﺍ ﺎﻬﺑ ﺐﻋﻼﺘﻳ ﻲﺘﻟﺍ ﺔﺠﻬﺒﻤﻟﺍ\n.ﺐﺣﺮﻤﻟﺍ ﻪﺤﻄﺳ ﺮﺒﻋ\n\nﻢﻈﻌﻣ ﺪﺿ ﺎًﻨﺼﺤﻣ ﺐﻌﻜﻤﻟﺍ ﻭﺪﺒﻳ\n.ﺭﺮﻀﻟﺍ ﻉﺍﻮﻧﺃ</GoldenCube.description>
+  <!-- EN: Golden cube study progress -->
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>ﻲﺒﻫﺬﻟﺍ ﺐﻌﻜﻤﻟﺍ ﺔﺳﺍﺭﺩ ﻡﺪﻘﺗ</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>
+  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed more. It is able to psychically influence anyone who interacts with it. Those under the cube's influence will experience extreme withdrawal if they're separated from it.\n\n{PAWN_nameDef} thinks that there may be a way to deactivate the cube, but {PAWN_pronoun} will need to study it further. -->
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>ﻲﺒﻫﺬﻟﺍ ﺐﻌﻜﻤﻠﻟ {PAWN_nameDef} ﺺﺤﻓ ﻒﺸﻛ\nﺮﻴﺛﺄﺘﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﻪﻧﺇ .ﺪﻳﺰﻤﻟﺍ\n.ﻪﻌﻣ ﻞﻋﺎﻔﺘﻳ ﺺﺨﺷ ﻱﺃ ﻰﻠﻋ ًﺎﻴﺴﻔﻧ\nﻥﻮﻧﺎﻌﻴﺳ ﺐﻌﻜﻤﻟﺍ ﺮﻴﺛﺄﺗ ﺖﺤﺗ ﻢﻫ ﻦﻣ\nﺍﻮﻠﺼﻔﻧﺍ ﺍﺫﺇ ﺪﻳﺪﺷ ﺏﺎﺤﺴﻧﺍ ﻦﻣ\n.ﻪﻨﻋ\n\nﺔﻘﻳﺮﻃ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﺪﻗ ﻪﻧﺃ {PAWN_nameDef} ﺪﻘﺘﻌﻳ\nﺝﺎﺘﺤﻴﺳ {PAWN_pronoun} ﻦﻜﻟ ،ﺐﻌﻜﻤﻟﺍ ﻞﻴﻄﻌﺘﻟ\n.ﺮﺜﻛﺃ ﻪﺘﺳﺍﺭﺪﻟ</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>
+  <!-- EN: Golden cube study complete -->
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>ﻲﺒﻫﺬﻟﺍ ﺐﻌﻜﻤﻟﺍ ﺔﺳﺍﺭﺩ ﺖﻠﻤﺘﻛﺍ</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>
+  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube's destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>ﻪﻧﺃ ﻲﺒﻫﺬﻟﺍ ﺐﻌﻜﻤﻠﻟ {PAWN_nameDef} ﺺﺤﻓ ﻒﺸﻛ\nﺔﻴﻈﺷ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻪﻠﻴﻄﻌﺗ ﻦﻜﻤﻳ\nﻰﻟﺇ ﻚﻟﺬﺑ ﻡﺎﻴﻘﻟﺍ ﻱﺩﺆﻴﺳ .ﺔﻴﻛﺭﺁ\nﻪﺘﻀﺒﻗ ًﺍﺮﺳﺎﻛ ،ﺐﻌﻜﻤﻟﺍ ﺮﻴﻣﺪﺗ\n.ﻚﻳﺮﻤﻌﺘﺴﻣ ﻰﻠﻋ ﺔﻴﺴﻔﻨﻟﺍ\n\nﺔﻴﺴﻔﻨﻟﺍ ﺔﻣﺪﺼﻟﺍ ﻥﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ\nﺐﻌﻜﻤﻟﺍ ﺮﻴﻣﺪﺗ ﻦﻣ ﺔﻳﺩﺍﺪﺗﺭﻻﺍ\nﻰﻟﺇ ﺐﻌﻜﻤﻟﺎﺑ ﻢﺘﻬﻣ ﺺﺨﺷ ﻱﺃ ﻊﻓﺪﺘﺳ\nﻞﻓﺍﻮﻘﻟﺍ ﻲﻓ ﻚﺌﻟﻭﺃ .ﻱﺮﻴﺘﺴﻫ ﺝﺎﻴﻫ\n.ﻞﻣﺎﻜﻟﺎﺑ ﻚﺗﺮﻤﻌﺘﺴﻣ ﻥﻭﺮﺠﻬﻴﺳ\n\n.ﻪﻠﻴﻄﻌﺘﻟ ﻲﺒﻫﺬﻟﺍ ﺐﻌﻜﻤﻟﺍ ﺮﺘﺧﺍ</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
+  <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they're in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
+  <GoldenCube.comps.CompGoldenCube.activateDescString>ًﺍﺮﺳﺎﻛ ،ﻲﺒﻫﺬﻟﺍ ﺐﻌﻜﻤﻟﺍ ﺮﻣﺩ\nﻱﺃ ﺍﺬﻫ ﻊﻓﺪﻴﺳ .ﺔﻴﺴﻔﻨﻟﺍ ﻪﺘﻀﺒﻗ\nﺝﺎﻴﻫ ﻰﻟﺇ ﺐﻌﻜﻤﻟﺎﺑ ﻢﺘﻬﻣ ﺺﺨﺷ\nﻲﻓ ﺍﻮﻧﺎﻛ ﺍﺫﺇ .ﺖﻗﺆﻣ ﻱﺮﻴﺘﺴﻫ\n.ﻢﺋﺍﺩ ﻞﻜﺸﺑ ﻥﻮﻌﻴﻀﻴﺳ ،ﺔﻠﻓﺎﻗ\n\n.ﺓﺪﺣﺍﻭ ﺔﻴﻈﺷ ﺐﻠﻄﺘﻳ</GoldenCube.comps.CompGoldenCube.activateDescString>
+  <!-- EN: Deactivate golden cube -->
+  <GoldenCube.comps.CompGoldenCube.activateLabelString>ﻲﺒﻫﺬﻟﺍ ﺐﻌﻜﻤﻟﺍ ﻞﻴﻄﻌﺗ</GoldenCube.comps.CompGoldenCube.activateLabelString>
+  <!-- EN: deactivating {0}: {1}s -->
+  <GoldenCube.comps.CompGoldenCube.activatingString>ﺔﻴﻧﺎﺛ{0}: {1} ﻞﻴﻄﻌﺗ</GoldenCube.comps.CompGoldenCube.activatingString>
+  <!-- EN: deactivating {0} -->
+  <GoldenCube.comps.CompGoldenCube.activatingStringPending>{0} ﻞﻴﻄﻌﺗ</GoldenCube.comps.CompGoldenCube.activatingStringPending>
+  <!-- EN: Choose who should deactivate this. -->
+  <GoldenCube.comps.CompGoldenCube.guiLabelString>.ﺍﺬﻫ ﻞﻴﻄﻌﺗ ﻲﻐﺒﻨﻳ ﻦﻣ ﺮﺘﺧﺍ</GoldenCube.comps.CompGoldenCube.guiLabelString>
+  <!-- EN: deactivate -->
+  <GoldenCube.comps.CompGoldenCube.jobString>ﻞﻴﻄﻌﺗ</GoldenCube.comps.CompGoldenCube.jobString>
+  <!-- EN: People relieved from the cube's psychic influence: -->
+  <GoldenCube.comps.CompGoldenCube.letterDeactivatedAppend>ﺮﻴﺛﺄﺗ ﻦﻣ ﺍﻭﺭﺮﺤﺗ ﻦﻳﺬﻟﺍ ﺹﺎﺨﺷﻷﺍ\n:ﻲﺴﻔﻨﻟﺍ ﺐﻌﻜﻤﻟﺍ</GoldenCube.comps.CompGoldenCube.letterDeactivatedAppend>
+  <!-- EN: {PAWN_nameDef} deactivates the golden cube. As the force that animated it disappears, the cube crumbles, leaving a handful of golden dust. -->
+  <GoldenCube.comps.CompGoldenCube.letterDeactivatedDesc>ﻊﻣ .ﻲﺒﻫﺬﻟﺍ ﺐﻌﻜﻤﻟﺍ ﻞﻄﻌﻳ {PAWN_nameDef}\n،ﻪﻛﺮﺤﺗ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺓﻮﻘﻟﺍ ﺀﺎﻔﺘﺧﺍ\nﻦﻣ ﺔﻨﻔﺣ ًﺎﻛﺭﺎﺗ ﺐﻌﻜﻤﻟﺍ ﺭﺎﻬﻨﻳ\n.ﻲﺒﻫﺬﻟﺍ ﺭﺎﺒﻐﻟﺍ</GoldenCube.comps.CompGoldenCube.letterDeactivatedDesc>
+  <!-- EN: Golden cube deactivated -->
+  <GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>ﻲﺒﻫﺬﻟﺍ ﺐﻌﻜﻤﻟﺍ ﻞﻴﻄﻌﺗ ﻢﺗ</GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>
+  
+  <!-- EN: gray flesh sample -->
+  <GrayFleshSample.label>ﻱﺩﺎﻣﺭ ﻢﺤﻟ ﺔﻨﻴﻋ</GrayFleshSample.label>
+  <!-- EN: This strip of human flesh is stained with a dark and gritty ferrous material. Tiny threads of metallic filament run throughout, interspersed with tiny silvery beads. Its form suggests that it sloughed off someone's body during some unnatural liquification process. -->
+  <GrayFleshSample.description>ﺔﺨﻄﻠﻣ ﻩﺬﻫ ﻱﺮﺸﺒﻟﺍ ﻢﺤﻠﻟﺍ ﺔﺤﻳﺮﺷ\nﺪﺘﻤﺗ .ﺔﻨﺸﺧﻭ ﺔﻨﻛﺍﺩ ﺔﻳﺪﻳﺪﺣ ﺓﺩﺎﻤﺑ\nﻲﻓ ﺔﻴﻧﺪﻌﻣ ﺕﺍﺮﻴﻌﺷ ﻦﻣ ﺔﻘﻴﻗﺩ ﻁﻮﻴﺧ\nﺔﻴﻀﻓ ﺕﺍﺯﺮﺧ ﺎﻬﻠﻠﺨﺘﺗ ،ﻥﺎﻜﻣ ﻞﻛ\nﺖﺨﻠﺴﻧﺍ ﺎﻬﻧﺄﺑ ﺎﻬﻠﻜﺷ ﻲﺣﻮﻳ .ﺓﺮﻴﻐﺻ\nﺔﻴﻠﻤﻋ ﺀﺎﻨﺛﺃ ﺎﻣ ﺺﺨﺷ ﺪﺴﺟ ﻦﻣ\n.ﺔﻴﻌﻴﺒﻃ ﺮﻴﻏ ﺔﻟﺎﺳﺇ</GrayFleshSample.description>
+  <!-- EN: Analyze the gray flesh sample. Once enough flesh samples are collected and analyzed, the threat's biosignature will be detectable using a surgical inspection operation, allowing you to identify its host. -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.activateDescString>ﺩﺮﺠﻤﺑ .ﻱﺩﺎﻣﺮﻟﺍ ﻢﺤﻠﻟﺍ ﺔﻨﻴﻋ ﻞﻠﺣ\nﺕﺎﻨﻴﻋ ﻦﻣ ٍﻑﺎﻛ ﺩﺪﻋ ﻞﻴﻠﺤﺗﻭ ﻊﻤﺟ\nﺔﻳﻮﻴﺤﻟﺍ ﺔﻤﺼﺒﻟﺍ ﺢﺒﺼﺘﺳ ،ﻢﺤﻠﻟﺍ\nﻡﺍﺪﺨﺘﺳﺎﺑ ﻒﺸﻜﻠﻟ ﺔﻠﺑﺎﻗ ﺪﻳﺪﻬﺘﻠﻟ\nﺢﻤﺴﻳ ﺎﻤﻣ ،ﻲﺣﺍﺮﺠﻟﺍ ﺺﺤﻔﻟﺍ ﺔﻴﻠﻤﻋ\n.ﺎﻬﻔﻴﻀﻣ ﺪﻳﺪﺤﺘﺑ ﻚﻟ</GrayFleshSample.comps.CompAnalyzableBiosignature.activateDescString>
+  <!-- EN: Analyze... -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.activateLabelString>...ﻞﻴﻠﺤﺗ</GrayFleshSample.comps.CompAnalyzableBiosignature.activateLabelString>
+  <!-- EN: While analyzing the gray flesh sample, {PAWN_nameDef} finally isolated the biosignature {BIOSIGNATURE}!\n\nThe signature emerges from the fusing of human tissue and metallic bioferrite filaments which spider through the flesh and take control of the nervous system.\n\nYou can now use the surgical inspection operation to detect {BIOSIGNATURE} in living subjects. -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>ﻢﺤﻠﻟﺍ ﺔﻨﻴﻋ ﻞﻴﻠﺤﺗ ﺀﺎﻨﺛﺃ\nﺔﻤﺼﺒﻟﺍ ًﺍﺮﻴﺧﺃ {PAWN_nameDef} ﻝﺰﻋ ،ﻱﺩﺎﻣﺮﻟﺍ\n!{BIOSIGNATURE} ﺔﻳﻮﻴﺤﻟﺍ\n\nﺞﻴﺴﻨﻟﺍ ﺝﺎﻣﺪﻧﺍ ﻦﻣ ﺔﻤﺼﺒﻟﺍ ﻖﺜﺒﻨﺗ\nﺖﻳﺍﺮﻴﻓﻮﻴﺒﻟﺍ ﺕﺍﺮﻴﻌﺷﻭ ﻱﺮﺸﺒﻟﺍ\nﻢﺤﻠﻟﺍ ﺮﺒﻋ ﺮﺸﺘﻨﺗ ﻲﺘﻟﺍ ﺔﻴﻧﺪﻌﻤﻟﺍ\n.ﻲﺒﺼﻌﻟﺍ ﺯﺎﻬﺠﻟﺍ ﻰﻠﻋ ﺮﻄﻴﺴﺗﻭ\n\nﺺﺤﻔﻟﺍ ﺔﻴﻠﻤﻋ ﻡﺍﺪﺨﺘﺳﺍ ﻥﻵﺍ ﻚﻨﻜﻤﻳ\n.ﺀﺎﻴﺣﻷﺍ ﻲﻓ {BIOSIGNATURE} ﻦﻋ ﻒﺸﻜﻠﻟ ﻲﺣﺍﺮﺠﻟﺍ</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>
+  <!-- EN: Analysis complete -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>ﻞﻴﻠﺤﺘﻟﺍ ﻞﻤﺘﻛﺍ</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>ﺍﺬﻫ ﻞﻴﻠﺤﺗ ﻲﻐﺒﻨﻳ ﻦﻣ ﺮﺘﺧﺍ</GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>.ﺮﻤﻌﺘﺴﻣ ﺔﻄﺳﺍﻮﺑ ﺎﻬﻠﻴﻠﺤﺗ ﻦﻜﻤﻳ</GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>
+  <!-- EN: Analyze gray flesh sample -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>ﻱﺩﺎﻣﺭ ﻢﺤﻟ ﺔﻨﻴﻋ ﻞﻴﻠﺤﺗ</GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>
+  <!-- EN: Analysis progress -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>ﻞﻴﻠﺤﺘﻟﺍ ﻡﺪﻘﺗ</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>
+  <!-- EN: {PAWN_nameDef} has finished analyzing the gray flesh sample. The sample carried the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} made progress in learning to identify this biosignature in living subjects, but needs more samples to complete the work. Until then, your surgical inspections will not detect {BIOSIGNATURE}.\n\nCollect and analyze more gray flesh samples. -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>ﻢﺤﻠﻟﺍ ﺔﻨﻴﻋ ﻞﻴﻠﺤﺗ ﻦﻣ {PAWN_nameDef} ﻰﻬﺘﻧﺍ\nﺔﻤﺼﺒﻟﺍ ﺔﻨﻴﻌﻟﺍ ﺖﻠﻤﺣ .ﻱﺩﺎﻣﺮﻟﺍ\n.{BIOSIGNATURE} ﺔﻳﻮﻴﺤﻟﺍ\n\nﺪﻳﺪﺤﺗ ﻢﻠﻌﺗ ﻲﻓ ًﺎﻣﺪﻘﺗ {PAWN_nameDef} ﺯﺮﺣﺃ\n،ﺀﺎﻴﺣﻷﺍ ﻲﻓ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻤﺼﺒﻟﺍ ﻩﺬﻫ\nﻝﺎﻤﻛﻹ ﺮﺜﻛﺃ ﺕﺎﻨﻴﻋ ﺝﺎﺘﺤﻳ ﻪﻨﻜﻟ\nﻒﺸﺘﻜﺗ ﻦﻟ ،ﻦﻴﺤﻟﺍ ﻚﻟﺫ ﻰﺘﺣ .ﻞﻤﻌﻟﺍ\n.{BIOSIGNATURE} ﺔﻴﺣﺍﺮﺠﻟﺍ ﻚﺗﺎﺻﻮﺤﻓ\n\nﺕﺎﻨﻴﻋ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻞﻠﺣﻭ ﻊﻤﺟﺍ\n.ﻱﺩﺎﻣﺮﻟﺍ ﻢﺤﻠﻟﺍ</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <!-- EN: {PAWN_nameDef} has completed {PAWN_possessive} analysis of the gray flesh sample. It carries the previously discovered biosignature {BIOSIGNATURE}.\n\nYour colonists now understand this biosignature well enough to detect it with the surgical inspection operation. -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>ﻢﺤﻠﻟﺍ ﺔﻨﻴﻌﻟ {PAWN_possessive}ﻞﻴﻠﺤﺗ {PAWN_nameDef} ﻞﻤﻛﺃ\nﺔﻤﺼﺒﻟﺍ ﻞﻤﺤﺗ ﺎﻬﻧﺇ .ﻱﺩﺎﻣﺮﻟﺍ\n.{BIOSIGNATURE} ًﺎﻘﺑﺎﺳ ﺔﻔﺸﺘﻜﻤﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ\n\nﺔﻤﺼﺒﻟﺍ ﻩﺬﻫ ﻥﻵﺍ ﻙﻭﺮﻤﻌﺘﺴﻣ ﻢﻬﻔﻳ\nﺎﻬﻓﺎﺸﺘﻛﻻ ﻲﻔﻜﻳ ﺎﻤﺑ ﺔﻳﻮﻴﺤﻟﺍ\n.ﻲﺣﺍﺮﺠﻟﺍ ﺺﺤﻔﻟﺍ ﺔﻴﻠﻤﻋ ﺔﻄﺳﺍﻮﺑ</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+  <!-- EN: Analysis complete -->
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>ﻞﻴﻠﺤﺘﻟﺍ ﻞﻤﺘﻛﺍ</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
+  
+  <!-- EN: twisted meat -->
+  <Meat_Twisted.label>ٍﻮﺘﻠﻣ ﻢﺤﻟ</Meat_Twisted.label>
+  <!-- EN: Pieces of twisted muscle and gristle, bloated with tumorous growths. These bizarre shreds of flesh must have come from a horrific creature. -->
+  <Meat_Twisted.description>،ﺔﻳﻮﺘﻠﻣ ﻒﻳﺭﺎﻀﻏﻭ ﺕﻼﻀﻋ ﻦﻣ ﻊﻄﻗ\nﻩﺬﻫ ﻥﺃ ﺪﺑ ﻻ .ﻲﻣﺭﻭ ﻮﻤﻨﺑ ﺔﺨﻔﺘﻨﻣ\nﺖﺗﺃ ﺔﺒﻳﺮﻐﻟﺍ ﺔﻴﻤﺤﻠﻟﺍ ﺕﺎﻗﺰﻤﺘﻟﺍ\n.ﺐﻋﺮﻣ ﻕﻮﻠﺨﻣ ﻦﻣ</Meat_Twisted.description>
+  
+  <!-- EN: monolith fragment -->
+  <MonolithFragment.label>ﺚﻴﻟﻮﻧﻮﻣ ﺔﻴﻈﺷ</MonolithFragment.label>
+  <!-- EN: A broken-off fragment of the void monolith. It can be studied to learn more about void phenomena. -->
+  <MonolithFragment.description>.ﻍﺍﺮﻔﻟﺍ ﺚﻴﻟﻮﻧﻮﻣ ﻦﻣ ﺓﺭﻮﺴﻜﻣ ﺔﻌﻄﻗ\nﻦﻋ ﺪﻳﺰﻤﻟﺍ ﺔﻓﺮﻌﻤﻟ ﺎﻬﺘﺳﺍﺭﺩ ﻦﻜﻤﻳ\n.ﻍﺍﺮﻔﻟﺍ ﺮﻫﺍﻮﻇ</MonolithFragment.description>
+  
+  <!-- EN: revenant flesh chunk -->
+  <RevenantFleshChunk.label>ﺪﺋﺎﻌﻟﺍ ﻢﺤﻟ ﺔﻌﻄﻗ</RevenantFleshChunk.label>
+  <!-- EN: A strip of leathery, desiccated flesh that sloughed off a revenant when it was harmed. The tissue oozes a dark, oily liquid. -->
+  <RevenantFleshChunk.description>ﻦﻋ ﺦﻠﺴﻧﺍ ﻑﺎﺟ ﻱﺪﻠﺟ ﻢﺤﻟ ﻦﻣ ﻂﻳﺮﺷ\nﺞﻴﺴﻨﻟﺍ ﺢﺷﺮﻳ .ﺐﻴﺻﺃ ﺎﻣﺪﻨﻋ ﺪﺋﺎﻋ\n.ًﺎﻨﻛﺍﺩ ًﺎﻴﺘﻳﺯ ًﻼﺋﺎﺳ</RevenantFleshChunk.description>
+  <!-- EN: Analyze the revenant flesh chunk. Analyzing this tissue sample will give you tools to track and reveal the revenant. -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>ﻚﻴﻄﻌﻴﺳ .ﺪﺋﺎﻌﻟﺍ ﻢﺤﻟ ﺔﻌﻄﻗ ﻞﻠﺣ\nﺕﺍﻭﺩﺃ ﻩﺬﻫ ﺞﻴﺴﻨﻟﺍ ﺔﻨﻴﻋ ﻞﻴﻠﺤﺗ\n.ﺪﺋﺎﻌﻟﺍ ﻒﺸﻛﻭ ﻊﺒﺘﺘﻟ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
+  <!-- EN: Analyze... -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>...ﻞﻴﻠﺤﺗ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>
+  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and its method of hiding from sight. Your colonists can now see this revenant when it is nearby.\n\nPerhaps you'll be able to find it and kill it while it sleeps. -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>ﻢﺤﻟ ﺔﻌﻄﻗ ﻞﻴﻠﺤﺗ ﻦﻣ {PAWN_nameDef} ﻰﻬﺘﻧﺍ\n.{BIOSIGNATURE} ﺔﻳﻮﻴﺤﻟﺍ ﺔﻤﺼﺒﻟﺍ ﺕﺍﺫ ﺪﺋﺎﻌﻟﺍ\n\nﺍﺬﻫ ﺔﻴﺟﻮﻟﻮﻴﺑ ﻦﻋ ﺪﻳﺰﻤﻟﺍ {PAWN_pronoun} ﻢﻠﻌﺗ\nﻲﻓ ﻪﺘﻘﻳﺮﻃﻭ ﺪﻳﺪﺤﺘﻟﺎﺑ ﺪﺋﺎﻌﻟﺍ\nﻦﻜﻤﻳ .ﺭﺎﻈﻧﻷﺍ ﻦﻋ ﺀﺎﺒﺘﺧﻻﺍ\nﺪﺋﺎﻌﻟﺍ ﺍﺬﻫ ﺔﻳﺅﺭ ﻥﻵﺍ ﻚﻳﺮﻤﻌﺘﺴﻤﻟ\n.ًﺎﺒﻳﺮﻗ ﻥﻮﻜﻳ ﺎﻣﺪﻨﻋ\n\nﻪﻠﺘﻗﻭ ﻩﺩﺎﺠﻳﺇ ﻦﻣ ﻦﻜﻤﺘﺘﺳ ﺎﻤﺑﺭ\n.ﻪﻣﻮﻧ ﺀﺎﻨﺛﺃ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>
+  <!-- EN: Analysis progress -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>ﻞﻴﻠﺤﺘﻟﺍ ﻡﺪﻘﺗ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>ﺍﺬﻫ ﻞﻴﻠﺤﺗ ﻲﻐﺒﻨﻳ ﻦﻣ ﺮﺘﺧﺍ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>.ﺮﻤﻌﺘﺴﻣ ﺔﻄﺳﺍﻮﺑ ﺎﻬﻠﻴﻠﺤﺗ ﻦﻜﻤﻳ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>
+  <!-- EN: Analyze revenant flesh chunk -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>ﺪﺋﺎﻋ ﻢﺤﻟ ﺔﻌﻄﻗ ﻞﻴﻠﺤﺗ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>
+  <!-- EN: Analysis progress -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>ﻞﻴﻠﺤﺘﻟﺍ ﻡﺪﻘﺗ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>
+  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} learned more about this particular revenant's biology and how to identify fluids it leaves behind.\n\nThis revenant will now leave a much longer trail of visible smudges when it flees.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>ﻢﺤﻟ ﺔﻌﻄﻗ ﻞﻴﻠﺤﺗ ﻦﻣ {PAWN_nameDef} ﻰﻬﺘﻧﺍ\n.{BIOSIGNATURE} ﺔﻳﻮﻴﺤﻟﺍ ﺔﻤﺼﺒﻟﺍ ﺕﺍﺫ ﺪﺋﺎﻌﻟﺍ\n\nﺍﺬﻫ ﺔﻴﺟﻮﻟﻮﻴﺑ ﻦﻋ ﺪﻳﺰﻤﻟﺍ {PAWN_pronoun} ﻢﻠﻌﺗ\nﻑﺮﻌﺘﻟﺍ ﺔﻴﻔﻴﻛﻭ ﺪﻳﺪﺤﺘﻟﺎﺑ ﺪﺋﺎﻌﻟﺍ\n.ﻩﺀﺍﺭﻭ ﺎﻬﻔﻠﺨﻳ ﻲﺘﻟﺍ ﻞﺋﺍﻮﺴﻟﺍ ﻰﻠﻋ\n\nًﺍﺮﺛﺃ ﻥﻵﺍ ﺪﺋﺎﻌﻟﺍ ﺍﺬﻫ ﻙﺮﺘﻴﺳ\nﺔﻴﺋﺮﻤﻟﺍ ﺕﺎﺨﻄﻠﻟﺍ ﻦﻣ ﺮﻴﺜﻜﺑ ﻝﻮﻃﺃ\n.ﺮﻔﻳ ﺎﻣﺪﻨﻋ\n\nﻪﻠﺘﻗﻭ ﻩﺩﺎﺠﻳﺇ ﻦﻣ ﻦﻜﻤﺘﺘﺳ ﺎﻤﺑﺭ\nﻪﻌﺒﺘﺗ ﻚﻨﻜﻤﻳ .ﻪﻣﻮﻧ ﺀﺎﻨﺛﺃ\nﻪﻔﺸﻛﻭ ،ﺎﻬﻛﺮﺘﻳ ﻲﺘﻟﺍ ﺕﺎﺨﻄﻠﻟﺎﺑ\nﻭﺃ ،ﺕﺍﺮﺠﻔﺘﻣ ﻭﺃ ،ﺔﻠﻄﻌﻣ ﻞﻋﺎﺸﻤﺑ\nﺓﻮﻏﺭ ﻭﺃ ،ﺔﻴﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻛ ﺕﺎﻀﺒﻧ\n.ﺭﺎﻧ ﻭﺃ ،ﺀﺎﻔﻃﺇ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>ﻢﺤﻟ ﺔﻌﻄﻗ ﻞﻴﻠﺤﺗ ﻦﻣ {PAWN_nameDef} ﻰﻬﺘﻧﺍ\n.{BIOSIGNATURE} ﺔﻳﻮﻴﺤﻟﺍ ﺔﻤﺼﺒﻟﺍ ﺕﺍﺫ ﺪﺋﺎﻌﻟﺍ\n\nﺍﺬﻫ ﺔﻴﺟﻮﻟﻮﻴﺑ ﻦﻋ ﺪﻳﺰﻤﻟﺍ {PAWN_pronoun} ﻢﻠﻌﺗ\nﻲﺘﻟﺍ ﺕﺍﻮﺻﻷﺍﻭ ﺪﻳﺪﺤﺘﻟﺎﺑ ﺪﺋﺎﻌﻟﺍ\nﻥﻵﺍ ﻚﻳﺮﻤﻌﺘﺴﻤﻟ ﻦﻜﻤﻳ .ﺎﻫﺭﺪﺼﻳ\nﻥﻮﻜﻳ ﺎﻣﺪﻨﻋ ﺪﺋﺎﻌﻟﺍ ﺍﺬﻫ ﻉﺎﻤﺳ\nﺪﺋﺎﻌﻟﺍ ﺪﻴﺼﻟ ﺖﺟﺮﺧ ﺍﺫﺇ .ًﺎﺒﻳﺮﻗ\nﻱﺄﺑ ﻚﻣﻼﻋﺇ ﻢﺘﻴﺳ ،ﺖﺑﺮﺘﻗﺍﻭ\n.ﻪﻋﺎﻤﺳ ﻢﻬﻨﻜﻤﻳ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ\n\nﻪﻠﺘﻗﻭ ﻩﺩﺎﺠﻳﺇ ﻦﻣ ﻦﻜﻤﺘﺘﺳ ﺎﻤﺑﺭ\nﻪﻌﺒﺘﺗ ﻚﻨﻜﻤﻳ .ﻪﻣﻮﻧ ﺀﺎﻨﺛﺃ\nﻪﻔﺸﻛﻭ ،ﺎﻬﻛﺮﺘﻳ ﻲﺘﻟﺍ ﺕﺎﺨﻄﻠﻟﺎﺑ\nﻭﺃ ،ﺕﺍﺮﺠﻔﺘﻣ ﻭﺃ ،ﺔﻠﻄﻌﻣ ﻞﻋﺎﺸﻤﺑ\nﺓﻮﻏﺭ ﻭﺃ ،ﺔﻴﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻛ ﺕﺎﻀﺒﻧ\n.ﺭﺎﻧ ﻭﺃ ،ﺀﺎﻔﻃﺇ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
+  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\nYour colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>ﻢﺤﻟ ﺔﻌﻄﻗ ﻞﻴﻠﺤﺗ ﻦﻣ {PAWN_nameDef} ﻰﻬﺘﻧﺍ\nﺔﻳﻮﻴﺤﻟﺍ ﺔﻤﺼﺒﻟﺍ ﺕﺍﺫ ﺪﺋﺎﻌﻟﺍ\n.{BIOSIGNATURE} ًﺎﻘﺑﺎﺳ ﺔﺳﻭﺭﺪﻤﻟﺍ\n\nﺍﺬﻫ ﺔﻳﺅﺭ ﻥﻵﺍ ﻚﻳﺮﻤﻌﺘﺴﻤﻟ ﻦﻜﻤﻳ\nﺎﻤﺑﺭ .ًﺎﺒﻳﺮﻗ ﻥﻮﻜﻳ ﺎﻣﺪﻨﻋ ﺪﺋﺎﻌﻟﺍ\nﺀﺎﻨﺛﺃ ﻪﻠﺘﻗﻭ ﻩﺩﺎﺠﻳﺇ ﻦﻣ ﻦﻜﻤﺘﺘﺳ\n.ﻪﻣﻮﻧ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+  <!-- EN: Analysis complete -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>ﻞﻴﻠﺤﺘﻟﺍ ﻞﻤﺘﻛﺍ</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
+  
+  <!-- EN: revenant spine -->
+  <RevenantSpine.label>ﺪﺋﺎﻌﻟﺍ ﻱﺮﻘﻓ ﺩﻮﻤﻋ</RevenantSpine.label>
+  <!-- EN: An articulated spine-like object from a dead revenant. It is a chaotic mesh of sharpened metal spokes, twisted into a warped cage. The material appears to be rough-cast black iron smeared in a dark, slippery fluid. Anyone who peers too closely inside its jagged form is left with a skull-splitting headache.\n\nYou can destroy the spine to permanently kill the revenant.\n\nAlternatively, you can secure it on a holding platform and wait for the revenant to re-emerge, so you can study the captured entity. -->
+  <RevenantSpine.description>ﻱﺮﻘﻔﻟﺍ ﺩﻮﻤﻌﻟﺍ ﻪﺒﺸﻳ ﻲﻠﺼﻔﻣ ﻢﺴﺟ\nﺔﻳﻮﺿﻮﻓ ﺔﻜﺒﺷ ﻪﻧﺇ .ﺖﻴﻣ ﺪﺋﺎﻋ ﻦﻣ\nﻲﻓ ﺔﻳﻮﺘﻠﻣ ،ﺓﺩﺎﺣ ﺔﻴﻧﺪﻌﻣ ﻙﻼﺳﺃ ﻦﻣ\nﺪﻳﺪﺤﻛ ﺓﺩﺎﻤﻟﺍ ﻭﺪﺒﺗ .ﻩﻮﺸﻣ ﺺﻔﻗ\nﻖﻟﺯ ﻞﺋﺎﺴﺑ ﺦﻄﻠﻣ ﺐﺼﻟﺍ ﻦﺸﺧ ﺩﻮﺳﺃ\nﻞﺧﺍﺩ ﺐﺜﻛ ﻦﻋ ﻕﺪﺤﻳ ﺺﺨﺷ ﻱﺃ .ﻦﻛﺍﺩ\nﻖﺸﻳ ﻉﺍﺪﺼﺑ ﺏﺎﺼﻳ ﻦﻨﺴﻤﻟﺍ ﻪﻠﻜﺷ\n.ﺔﻤﺠﻤﺠﻟﺍ\n\nﻞﺘﻘﻟ ﻱﺮﻘﻔﻟﺍ ﺩﻮﻤﻌﻟﺍ ﺮﻴﻣﺪﺗ ﻚﻨﻜﻤﻳ\n.ﻢﺋﺍﺩ ﻞﻜﺸﺑ ﺪﺋﺎﻌﻟﺍ\n\nﻰﻠﻋ ﻪﺘﻴﺒﺜﺗ ﻚﻨﻜﻤﻳ ،ﻚﻟﺫ ﻦﻣ ًﻻﺪﺑ\nﺩﻭﺎﻌﻳ ﻰﺘﺣ ﺭﺎﻈﺘﻧﻻﺍﻭ ﺯﺎﺠﺘﺣﺍ ﺔﺼﻨﻣ\nﺔﺳﺍﺭﺩ ﻦﻣ ﻦﻜﻤﺘﺘﻟ ،ﺭﻮﻬﻈﻟﺍ ﺪﺋﺎﻌﻟﺍ\n.ﺭﻮﺳﺄﻤﻟﺍ ﻥﺎﻴﻜﻟﺍ</RevenantSpine.description>
+  <!-- EN: Revenant reformed -->
+  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>ﻞﻜﺸﺘﻟﺍ ﺪﺋﺎﻌﻟﺍ ﺩﻭﺎﻋ</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>
+  <!-- EN: After {PAWN_nameDef} chained the revenant spine to a holding platform, the revenant re-emerged.\n\nWhen killed, a revenant's body dissolves, leaving behind only its archotechnological spine. This cage of slick iron waits for a chance to grow a new body. -->
+  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>ﺪﺋﺎﻌﻟﺍ ﺩﻮﻤﻋ {PAWN_nameDef} ﺪﻴﻗ ﻥﺃ ﺪﻌﺑ\nﺩﻭﺎﻋ ،ﺯﺎﺠﺘﺣﺍ ﺔﺼﻨﻤﺑ ﻱﺮﻘﻔﻟﺍ\n.ﺭﻮﻬﻈﻟﺍ ﺪﺋﺎﻌﻟﺍ\n\n،ﺪﺋﺎﻌﻟﺍ ﺪﺴﺟ ﻞﻠﺤﺘﻳ ،ﻪﻠﺘﻗ ﺪﻨﻋ\nﻱﺮﻘﻔﻟﺍ ﻩﺩﻮﻤﻋ ﻂﻘﻓ ﻩﺀﺍﺭﻭ ًﺎﻛﺭﺎﺗ\nﺺﻔﻗ ﺮﻈﺘﻨﻳ .ﻲﺟﻮﻟﻮﻨﻜﺗﻮﻛﺭﻵﺍ\nﺔﻴﻤﻨﺘﻟ ﺔﺻﺮﻓ ﺍﺬﻫ ﻖﻟﺰﻟﺍ ﺪﻳﺪﺤﻟﺍ\n.ﺪﻳﺪﺟ ﺪﺴﺟ</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
+  <!-- EN: Smash {0_label} -->
+  <RevenantSpine.comps.CompUsable.useLabel>{0_label} ﻢﻴﻄﺤﺗ</RevenantSpine.comps.CompUsable.useLabel>
+  <!-- EN: {PAWN_nameDef} smashed the revenant spine. It dissolved to reveal a shard of dark archotechnology. -->
+  <RevenantSpine.comps.CompUsable.useMessage>ﻞﻠﺤﺗ .ﻱﺮﻘﻔﻟﺍ ﺪﺋﺎﻌﻟﺍ ﺩﻮﻤﻋ {PAWN_nameDef} ﻢﻄﺣ\nﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻦﻣ ﺔﻴﻈﺷ ﻦﻋ ﻒﺸﻜﻴﻟ\n.ﺔﻤﻠﻈﻤﻟﺍ ﺔﻴﻛﺭﻵﺍ</RevenantSpine.comps.CompUsable.useMessage>
+  <!-- EN: Smash the revenant spine to prevent it reforming into a new revenant. -->
+  <RevenantSpine.comps.CompRevenantSpine.activateDescString>ﻪﻌﻨﻤﻟ ﻱﺮﻘﻔﻟﺍ ﺪﺋﺎﻌﻟﺍ ﺩﻮﻤﻋ ﻢﻄﺣ\n.ﺪﻳﺪﺟ ﺪﺋﺎﻋ ﻰﻟﺇ ﻞﻜﺸﺘﻟﺍ ﺓﺩﺎﻋﺇ ﻦﻣ</RevenantSpine.comps.CompRevenantSpine.activateDescString>
+  <!-- EN: Smash... -->
+  <RevenantSpine.comps.CompRevenantSpine.activateLabelString>...ﻢﻴﻄﺤﺗ</RevenantSpine.comps.CompRevenantSpine.activateLabelString>
+  <!-- EN: smashing revenant spine -->
+  <RevenantSpine.comps.CompRevenantSpine.activatingStringPending>ﻱﺮﻘﻔﻟﺍ ﺪﺋﺎﻌﻟﺍ ﺩﻮﻤﻋ ﻢﻴﻄﺤﺗ</RevenantSpine.comps.CompRevenantSpine.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <RevenantSpine.comps.CompRevenantSpine.guiLabelString>ﺍﺬﻬﺑ ﻡﻮﻘﻴﺳ ﻦﻣ ﺮﺘﺧﺍ</RevenantSpine.comps.CompRevenantSpine.guiLabelString>
+  
+  <!-- EN: shard -->
+  <Shard.label>ﺔﻴﻈﺷ</Shard.label>
+  <!-- EN: A scavenged fragment of dark archotechnology. Originally created by a hyperintelligent archotech mind, this shard is packed with technology beyond human comprehension. It is capable of manipulating psychic flows, inducing archotech influences and more esoteric outcomes. While it is useless by itself, it can be built into devices that harness its power to produce exotic effects. -->
+  <Shard.description>ﺔﻴﻛﺭﺁ ﺎﻴﺟﻮﻟﻮﻨﻜﺗ ﻦﻣ ﺔﻌﻤﺠﻣ ﺔﻴﻈﺷ\nﻞﻘﻋ ﺔﻄﺳﺍﻮﺑ ًﻼﺻﺃ ﺖﻌﻨُﺻ .ﺔﻤﻠﻈﻣ\nﺔﻴﻈﺸﻟﺍ ﻩﺬﻫ ،ﺀﺎﻛﺬﻟﺍ ﻖﺋﺎﻓ ﻲﻛﺭﺁ\nﻢﻬﻔﻟﺍ ﻕﻮﻔﺗ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﺑ ﺓﻮﺸﺤﻣ\nﺐﻋﻼﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺎﻬﻧﺇ .ﻱﺮﺸﺒﻟﺍ\nﺙﺍﺪﺣﺇﻭ ،ﺔﻴﺴﻔﻨﻟﺍ ﺕﺎﻘﻓﺪﺘﻟﺎﺑ\nﺔﻴﻨﻃﺎﺑ ﺞﺋﺎﺘﻧﻭ ﺔﻴﻛﺭﺁ ﺕﺍﺮﻴﺛﺄﺗ\nﺓﺪﺋﺎﻔﻟﺍ ﺔﻤﻳﺪﻋ ﻲﻫ ﺎﻤﻨﻴﺑ .ﺮﺜﻛﺃ\nﺓﺰﻬﺟﺃ ﻲﻓ ﺎﻫﺅﺎﻨﺑ ﻦﻜﻤﻳ ،ﺎﻬﺗﺍﺬﺑ\nﺕﺍﺮﻴﺛﺄﺗ ﺝﺎﺘﻧﻹ ﺎﻬﺗﻮﻗ ﺮﺨﺴﺗ\n.ﺔﺒﻳﺮﻏ</Shard.description>
+  
+</LanguageData>

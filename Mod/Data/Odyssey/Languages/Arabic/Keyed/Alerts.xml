@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Vacuum exposure -->
+  <AlertVacuumExposure>ﻍﺍﺮﻔﻠﻟ ﺽﺮﻌﺘﻟﺍ</AlertVacuumExposure>
+  <!-- EN: These people and animals are suffering from exposure to the vacuum of space:\n{0}\n\nGet them to a pressurized area before they die. -->
+  <AlertVacuumExposureDesc>ﺕﺎﻧﺍﻮﻴﺤﻟﺍﻭ ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ ﻲﻧﺎﻌﻳ\n:ﺀﺎﻀﻔﻟﺍ ﻍﺍﺮﻔﻟ ﺽﺮﻌﺘﻟﺍ ﻦﻣ\n{0}\n\nﻥﺃ ﻞﺒﻗ ﺔﻃﻮﻐﻀﻣ ﺔﻘﻄﻨﻣ ﻰﻟﺇ ﻢﻬﻠﻘﻧﺍ\n.ﺍﻮﺗﻮﻤﻳ</AlertVacuumExposureDesc>
+
+  <!-- EN: Mechanoid threat -->
+  <AlertMechanoidThreat>ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﺪﻳﺪﻬﺗ</AlertMechanoidThreat>
+  <!-- EN: A mechhive is conducting scans to determine your location. It will send a massive raid of hostile mechanoids when it locates you.\n\nFlee the map before mechanoids arrive! -->
+  <AlertMechanoidThreatDesc>ﺀﺍﺮﺟﺈﺑ ﺔﻳﺪﻳﻮﻧﺎﻜﻴﻣ ﺔﻴﻠﺧ ﻡﻮﻘﺗ\nﺓﺭﺎﻏ ﻞﺳﺮﺘﺳ .ﻚﻌﻗﻮﻣ ﺪﻳﺪﺤﺘﻟ ﺢﺴﻣ\nﺔﻳﺩﺎﻌﻤﻟﺍ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻦﻣ ﺔﻠﺋﺎﻫ\n.ﻚﻌﻗﻮﻣ ﺩﺪﺤﺗ ﺎﻣﺪﻨﻋ\n\nﻝﻮﺻﻭ ﻞﺒﻗ ﺔﻄﻳﺮﺨﻟﺍ ﻦﻣ ﺏﺮﻫﺍ\n!ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ</AlertMechanoidThreatDesc>
+  <!-- EN: Incoming mechanoids -->
+  <AlertMechanoidThreatCritical>ﺔﻣﺩﺎﻗ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻣ</AlertMechanoidThreatCritical>
+  <!-- EN: A mechhive has discovered your location. It will continue to send hostile mechanoids until you flee this location. -->
+  <AlertMechanoidThreatCriticalDesc>.ﻚﻌﻗﻮﻣ ﺔﻳﺪﻳﻮﻧﺎﻜﻴﻣ ﺔﻴﻠﺧ ﺖﻔﺸﺘﻛﺍ\nﺕﺍﺪﻳﻮﻧﺎﻜﻴﻣ ﻝﺎﺳﺭﺇ ﻲﻓ ﺮﻤﺘﺴﺘﺳ\n.ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻦﻣ ﺏﺮﻬﺗ ﻰﺘﺣ ﺔﻳﺩﺎﻌﻣ</AlertMechanoidThreatCriticalDesc>
+
+  <!-- Mechhive -->
+  <!-- EN: Stabilizers remaining -->
+  <StabilizersRemainingAlertLabel>ﺔﻴﻘﺒﺘﻣ ﺕﺎﺘﺒﺜﻣ</StabilizersRemainingAlertLabel>
+  <!-- EN: The cerebrex core is currently invulnerable. Find and destroy its stabilizers to gain access to the core. -->
+  <StabilizersRemainingAlertDescription>.ًﺎﻴﻟﺎﺣ ﺔﻨﺼﺤﻣ ﺲﻛﺮﺒﻳﺮﻴﺴﻟﺍ ﺓﺍﻮﻧ\nﻝﻮﺻﻮﻠﻟ ﺎﻫﺮﻣﺩﻭ ﺎﻬﺗﺎﺘﺒﺜﻣ ﻦﻋ ﺚﺤﺑﺍ\n.ﺓﺍﻮﻨﻟﺍ ﻰﻟﺇ</StabilizersRemainingAlertDescription>
+
+  <!-- Relay -->
+  <!-- EN: Stabilizers remaining -->
+  <RelayStabilizersRemainingAlertLabel>ﺔﻴﻘﺒﺘﻣ ﺕﺎﺘﺒﺜﻣ</RelayStabilizersRemainingAlertLabel>
+  <!-- EN: The relay is currently protected by nearby stabilizers. Destroy or hack them to destabilize it. -->
+  <RelayStabilizersRemainingAlertDescription>ﺕﺎﺘﺒﺜﻤﺑ ًﺎﻴﻟﺎﺣ ﻲﻤﺤﻣ ﻞّﺣﺮﻤﻟﺍ\nﺔﻋﺰﻋﺰﻟ ﺎﻬﻗﺮﺘﺧﺍ ﻭﺃ ﺎﻫﺮﻣﺩ .ﺔﺒﻳﺮﻗ\n.ﻩﺭﺍﺮﻘﺘﺳﺍ</RelayStabilizersRemainingAlertDescription>
+
+  <!-- Scanner -->
+  <!-- EN: Protect the scanner -->
+  <SurveyScannerAlertLabel>ﺢﺳﺎﻤﻟﺍ ِﻢﺣﺍ</SurveyScannerAlertLabel>
+  <!-- EN: Protect the scanner until the surveying operation is complete. -->
+  <SurveyScannerAlertDescription>ﺔﻴﻠﻤﻋ ﻝﺎﻤﺘﻛﺍ ﻰﺘﺣ ﺢﺳﺎﻤﻟﺍ ِﻢﺣﺍ\n.ﺢﺴﻤﻟﺍ</SurveyScannerAlertDescription>
+  
+</LanguageData>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_RelicAtRitual, null. Label: {RELICNAME}. Description: {RELICNAME} -->
+  <!-- EN: {RELICNAME} at ritual -->
+  <RelicAtRitual.stages.at_ritual.label>ﺲﻘﻄﻟﺍ ﻲﻓ {RELICNAME}</RelicAtRitual.stages.at_ritual.label>
+  <!-- EN: {RELICNAME} was present during our ritual. -->
+  <RelicAtRitual.stages.at_ritual.description>.ﺎﻨﺴﻘﻃ ﻝﻼﺧ ًﺍﺮﺿﺎﺣ {RELICNAME} ﻥﺎﻛ</RelicAtRitual.stages.at_ritual.description>
+  <!-- EN: two relics at ritual -->
+  <RelicAtRitual.stages.two_relics_at_ritual.label>ﺲﻘﻄﻟﺍ ﻲﻓ ﻥﺍﺮﺛﺃ</RelicAtRitual.stages.two_relics_at_ritual.label>
+  <!-- EN: Two relics were present during our ritual. -->
+  <RelicAtRitual.stages.two_relics_at_ritual.description>ﻝﻼﺧ ﻦﻳﺮﺿﺎﺣ ﻥﺍﺮﺛﺃ ﻙﺎﻨﻫ ﻥﺎﻛ\n.ﺎﻨﺴﻘﻃ</RelicAtRitual.stages.two_relics_at_ritual.description>
+  <!-- EN: three relics at ritual -->
+  <RelicAtRitual.stages.three_relics_at_ritual.label>ﺲﻘﻄﻟﺍ ﻲﻓ ﺭﺎﺛﺁ ﺔﺛﻼﺛ</RelicAtRitual.stages.three_relics_at_ritual.label>
+  <!-- EN: Three relics were present during our ritual. -->
+  <RelicAtRitual.stages.three_relics_at_ritual.description>ﻝﻼﺧ ﺓﺮﺿﺎﺣ ﺭﺎﺛﺁ ﺔﺛﻼﺛ ﻙﺎﻨﻫ ﺖﻧﺎﻛ\n.ﺎﻨﺴﻘﻃ</RelicAtRitual.stages.three_relics_at_ritual.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: convicted -->
+  <TrialConvicted.stages.convicted.label>ﻥﺍﺪﻣ</TrialConvicted.stages.convicted.label>
+  <!-- EN: I was unjustly convicted of a terrible wrongdoing! -->
+  <TrialConvicted.stages.convicted.description>ﺏﺎﻜﺗﺭﺎﺑ ًﺎﻤﻠﻇ ﻲﺘﻧﺍﺩﺇ ﺖﻤﺗ ﺪﻘﻟ\n!ﻊﻴﻈﻓ ﺄﻄﺧ</TrialConvicted.stages.convicted.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: exonerated -->
+  <TrialExonerated.stages.exonerated.label>ﻪﺘﺋﺮﺒﺗ ﺖﻤﺗ</TrialExonerated.stages.exonerated.label>
+  <!-- EN: They had nothing on me, and I showed them! -->
+  <TrialExonerated.stages.exonerated.description>ﺪﻗﻭ ،ﻱﺪﺿ ﺀﻲﺷ ﻢﻬﻳﺪﻟ ﻦﻜﻳ ﻢﻟ\n!ﻢﻬﺘﻳﺭﺃ</TrialExonerated.stages.exonerated.description>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: failed trial -->
+  <TrialFailed.stages.failed_trial.label>ﺔﻠﺷﺎﻓ ﺔﻤﻛﺎﺤﻣ</TrialFailed.stages.failed_trial.label>
+  <!-- EN: I made an accusation and couldn't even make it stick. This is humiliating. -->
+  <TrialFailed.stages.failed_trial.description>ﻰﺘﺣ ﻊﻄﺘﺳﺃ ﻢﻟﻭ ًﺎﻣﺎﻬﺗﺍ ﺖﻬﺟﻭ\n.ﻦﻴﻬﻣ ﺍﺬﻫ .ﻪﺗﺎﺒﺛﺇ</TrialFailed.stages.failed_trial.description>
+  
+</LanguageData>

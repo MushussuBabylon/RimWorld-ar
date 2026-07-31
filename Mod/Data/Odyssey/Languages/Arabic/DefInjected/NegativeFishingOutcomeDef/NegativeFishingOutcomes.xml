@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Catfish escape -->
+  <CatfishEscape.letterLabel>ﻁﻮﻣﺮﻘﻟﺍ ﺏﻭﺮﻫ</CatfishEscape.letterLabel>
+  <!-- EN: While attempting to wrangle a catfish, {PAWN_nameDef} stumbled and lost the slippery fish in the murky waters. -->
+  <CatfishEscape.letterText>ﺔﻜﻤﺴﺑ ﻙﺎﺴﻣﻹﺍ ﻝﻭﺎﺤﻳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\nﺔﻜﻤﺴﻟﺍ ﺪﻘﻓﻭ {PAWN_nameDef} ﺮﺜﻌﺗ ،ﻁﻮﻣﺮﻗ\n.ﺓﺮﻜﻌﻟﺍ ﻩﺎﻴﻤﻟﺍ ﻲﻓ ﺔﻘﻟﺰﻟﺍ</CatfishEscape.letterText>
+  
+  <!-- EN: Catfish spine -->
+  <CatfishSpine.letterLabel>ﻁﻮﻣﺮﻘﻟﺍ ﺔﻛﻮﺷ</CatfishSpine.letterLabel>
+  <!-- EN: While handling a catfish, {PAWN_nameDef} was stung by one of the fish's toxic dorsal spines, causing {PAWN_objective} to drop the fish. -->
+  <CatfishSpine.letterText>ﺔﻜﻤﺳ ﻊﻣ ﻞﻣﺎﻌﺘﻳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\nﺪﺣﺃ ﻦﻣ ﺔﻌﺴﻠﻟ {PAWN_nameDef} ﺽﺮﻌﺗ ،ﻁﻮﻣﺮﻗ\n،ﺔﻣﺎﺴﻟﺍ ﺔﻳﺮﻬﻈﻟﺍ ﺔﻜﻤﺴﻟﺍ ﻙﺍﻮﺷﺃ\n.ﺔﻜﻤﺴﻟﺍ ﻁﺎﻘﺳﺇ ﻰﻟﺇ {PAWN_objective}ـﻌﻓﺩ ﺎﻤﻣ</CatfishSpine.letterText>
+  
+  <!-- EN: Dogfish bite -->
+  <DogfishBite.letterLabel>ﺐﻠﻜﻟﺍ ﺔﻜﻤﺳ ﺔﻀﻋ</DogfishBite.letterLabel>
+  <!-- EN: While reeling in a dogfish, {PAWN_nameDef} was bitten.\n\nThe fish managed to escape. -->
+  <DogfishBite.letterText>،ﺐﻠﻜﻟﺍ ﺔﻜﻤﺳ ﺐﺤﺴﻳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\n.ﺾﻌﻠﻟ {PAWN_nameDef} ﺽﺮﻌﺗ\n\n.ﺭﺍﺮﻔﻟﺍ ﻦﻣ ﺔﻜﻤﺴﻟﺍ ﺖﻨﻜﻤﺗ</DogfishBite.letterText>
+  
+  <!-- EN: Dogfish escape -->
+  <DogfishEscape.letterLabel>ﺐﻠﻜﻟﺍ ﺔﻜﻤﺳ ﺏﻭﺮﻫ</DogfishEscape.letterLabel>
+  <!-- EN: While reeling in a dogfish, {PAWN_nameDef} nearly bitten by the thrashing creature.\n\nThe fish escaped in the confusion. -->
+  <DogfishEscape.letterText>ﺩﺎﻛ ،ﺐﻠﻜﻟﺍ ﺔﻜﻤﺳ ﺐﺤﺴﻳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\nﻕﻮﻠﺨﻤﻟﺍ ﻦﻣ ﺾﻌﻠﻟ ﺽﺮﻌﺘﻳ ﻥﺃ {PAWN_nameDef}\n.ﻂﺒﺨﺘﻤﻟﺍ\n\n.ﻰﺿﻮﻔﻟﺍ ﻢﻀﺧ ﻲﻓ ﺔﻜﻤﺴﻟﺍ ﺕﺮﻓ</DogfishEscape.letterText>
+  
+  <!-- EN: Flying frostfish -->
+  <FrostfishAttack.letterLabel>ﺓﺮﺋﺎﻃ ﺔﻳﺪﻴﻠﺟ ﺔﻜﻤﺳ</FrostfishAttack.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} was suddenly hit by a frostfish leaping out of the water. This caused {PAWN_objective} to lose {PAWN_possessive} catch. -->
+  <FrostfishAttack.letterText>{PAWN_nameDef} ﺊﺟﻮﻓ ،ﺩﺎﻄﺼﻳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\nﻦﻣ ﺓﺰﻓﺎﻗ ﺔﻳﺪﻴﻠﺟ ﺔﻜﻤﺳ ﻡﺎﻄﺗﺭﺎﺑ\n.{PAWN_possessive}ـﺪﻴﺻ ﺪﻘﻔﻳ {PAWN_objective}ـﻠﻌﺟ ﺎﻤﻣ .ﺀﺎﻤﻟﺍ</FrostfishAttack.letterText>
+  
+  <!-- EN: Guppy escape -->
+  <GuppyEscape.letterLabel>ﻲﺑﻮﻐﻟﺍ ﺏﻭﺮﻫ</GuppyEscape.letterLabel>
+  <!-- EN: While attempting to catch a guppy, {PAWN_nameDef} fumbled the small slippery fish, allowing it to escape. -->
+  <GuppyEscape.letterText>ﺔﻜﻤﺳ ﺩﺎﻴﻄﺻﺍ ﻝﻭﺎﺤﻳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\nﺓﺮﻴﻐﺼﻟﺍ ﺔﻜﻤﺴﻟﺍ {PAWN_nameDef} ﺖﻠﻓﺃ ،ﻲﺑﻮﻏ\n.ﺭﺍﺮﻔﻟﺎﺑ ﺎﻬﻟ ﺢﻤﺳ ﺎﻤﻣ ،ﺔﻘﻟﺰﻟﺍ</GuppyEscape.letterText>
+  
+  <!-- EN: Marlin attack -->
+  <MarlinAttack.letterLabel>ﻦﻟﺭﺎﻤﻟﺍ ﻡﻮﺠﻫ</MarlinAttack.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} was attacked by a giant marlin and was skewered by its spear-like snout. The fish escaped. -->
+  <MarlinAttack.letterText>ﻞﺒﻗ ﻦﻣ {PAWN_nameDef} ﻢﺟﻮﻫ ،ﺩﺎﻄﺼﻳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\nﺎﻬﻤﻄﺧ ﻕﺮﺘﺧﺍﻭ ﺔﻗﻼﻤﻋ ﻦﻟﺭﺎﻣ ﺔﻜﻤﺳ\n.ﺔﻜﻤﺴﻟﺍ ﺕﺮﻓﻭ .ﺢﻣﺮﻟﺎﺑ ﻪﻴﺒﺸﻟﺍ</MarlinAttack.letterText>
+  
+  <!-- EN: Giant fish -->
+  <MarlinEscape.letterLabel>ﺔﻗﻼﻤﻋ ﺔﻜﻤﺳ</MarlinEscape.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} saw the shadow of a massive fish beneath the water. The shadow startled {PAWN_nameDef}, causing {PAWN_objective} to lose {PAWN_possessive} catch. -->
+  <MarlinEscape.letterText>ﺔﻜﻤﺳ ﻞﻇ {PAWN_nameDef} ﻯﺃﺭ ،ﺩﺎﻄﺼﻳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\n،{PAWN_nameDef} ﻞﻈﻟﺍ ﻉﺰﻓﺃ .ﺀﺎﻤﻟﺍ ﺖﺤﺗ ﺔﻤﺨﺿ\n.{PAWN_possessive}ـﺪﻴﺻ ﺪﻘﻔﻳ {PAWN_objective}ـﻠﻌﺟ ﺎﻤﻣ</MarlinEscape.letterText>
+  
+  <!-- EN: Piranha attack -->
+  <PiranhaAttack.letterLabel>ﺎﻧﺍﺮﻴﺒﻟﺍ ﻡﻮﺠﻫ</PiranhaAttack.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} got too close to the water and was attacked by a frenzied school of piranha!\n\nThe fish managed to escape. -->
+  <PiranhaAttack.letterText>{PAWN_nameDef} ﺏﺮﺘﻗﺍ ،ﺩﺎﻄﺼﻳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\nﺏﺮﺳ ﻦﻣ ﻢﺟﻮﻫﻭ ﺀﺎﻤﻟﺍ ﻦﻣ ًﺍﺮﻴﺜﻛ\n!ﺝﺎﺘﻬﻣ ﺎﻧﺍﺮﻴﺑ\n\n.ﺭﺍﺮﻔﻟﺍ ﻦﻣ ﻙﺎﻤﺳﻷﺍ ﺖﻨﻜﻤﺗ</PiranhaAttack.letterText>
+  
+  <!-- EN: Piranha bite -->
+  <PiranhaBite.letterLabel>ﺎﻧﺍﺮﻴﺑ ﺔﻀﻋ</PiranhaBite.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} got too close to the water and was bitten by a piranha!\n\nThe fish escaped. -->
+  <PiranhaBite.letterText>{PAWN_nameDef} ﺏﺮﺘﻗﺍ ،ﺩﺎﻄﺼﻳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\nﻦﻣ ﺔﻀﻌﻟ ﺽﺮﻌﺗﻭ ﺀﺎﻤﻟﺍ ﻦﻣ ًﺍﺮﻴﺜﻛ\n!ﺎﻧﺍﺮﻴﺑ ﺔﻜﻤﺳ\n\n.ﺔﻜﻤﺴﻟﺍ ﺕﺮﻓ</PiranhaBite.letterText>
+  
+  <!-- EN: Tuna escape -->
+  <TunaEscape.letterLabel>ﺔﻧﻮﺘﻟﺍ ﺏﻭﺮﻫ</TunaEscape.letterLabel>
+  <!-- EN: While attempting to reel in a tuna, {PAWN_nameDef}'s line snapped, causing {PAWN_objective} to lose the catch. -->
+  <TunaEscape.letterText>،ﺔﻧﻮﺗ ﺐﺤﺳ ﻝﻭﺎﺤﻳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\nﺪﻘﻔﻳ {PAWN_objective}ـﻠﻌﺟ ﺎﻤﻣ ،{PAWN_nameDef} ﻂﻴﺧ ﻊﻄﻘﻧﺍ\n.ﺪﻴﺼﻟﺍ</TunaEscape.letterText>
+  
+</LanguageData>

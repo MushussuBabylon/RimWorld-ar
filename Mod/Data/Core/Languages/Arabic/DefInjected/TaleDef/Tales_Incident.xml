@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aurora -->
+  <Aurora.label>ﻖﻔﺷ</Aurora.label>
+  <!-- EN:
+    <li>tale_noun->the time an aurora appeared over [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->the time polar lights shone over [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->[PAWN_nameDef]'s [Community] illuminated by the light of an aurora</li>
+    <li>image->the sky illuminated in [Color]s and [Color]s [circumstance_phrase]</li>
+    <li>image->a fabulous pattern of [Color] rays [circumstance_phrase]</li>
+    <li>image->a network of [Color] lights [circumstance_phrase]</li>
+    <li>image->[Color] swooping arcs with [Color] highlights [circumstance_phrase]</li>
+    <li>image->dancing [Color] lights [circumstance_group]</li>
+    <li>circumstance_phrase->over a [TerrainFeature]</li>
+    <li>circumstance_phrase->illuminating a [TerrainFeature]</li>
+    <li>circumstance_phrase->floating over a [Community]</li>
+    <li>circumstance_phrase->bracketed between a [TerrainFeature] and a [TerrainFeature]</li>
+    <li>desc_sentence->Below, [PAWN_nameDef] plays [Game] with a [AdjectiveFriendly] look.</li>
+    <li>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below.</li>
+    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</li>
+    <li>desc_sentence->There is no [Enemy] in sight.</li>
+  -->
+  <Aurora.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[Community] ﻕﻮﻓ ﻖﻔﺷ ﻪﻴﻓ ﺮﻬﻇ ﻱﺬﻟﺍ ﺖﻗﻮﻟﺍ\n[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ</li>
+    <li>tale_noun-&gt;ﺀﺍﻮﺿﻷﺍ ﻪﻴﻓ ﺕﺀﺎﺿﺃ ﻱﺬﻟﺍ ﺖﻗﻮﻟﺍ\n[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﻕﻮﻓ ﺔﻴﺒﻄﻘﻟﺍ</li>
+    <li>tale_noun-&gt;ﻖﻔﺷ ﺭﻮﻧ ﻩﺀﺎﺿﺃ [PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community]</li>
+    <li>image-&gt;[Color]s [circumstance_phrase]ﻭ [Color]s ﻥﺍﻮﻟﺄﺑ ﺓﺀﺎﻀﻣ ﺀﺎﻤﺴﻟﺍ</li>
+    <li>image-&gt;[Color] [circumstance_phrase] ﺔﻌﺷﺃ ﻦﻣ ﻊﺋﺍﺭ ﻂﻤﻧ</li>
+    <li>image-&gt;[Color] [circumstance_phrase] ﺀﺍﻮﺿﺃ ﻦﻣ ﺔﻜﺒﺷ</li>
+    <li>image-&gt;[Color] [circumstance_phrase] ﺕﺎﺴﻤﻠﺑ [Color] ﺔﻴﻨﺤﻨﻣ ﺱﺍﻮﻗﺃ</li>
+    <li>image-&gt;[Color] [circumstance_group] ﺔﺼﻗﺍﺭ ﺀﺍﻮﺿﺃ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﻕﻮﻓ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﺀﻲﻀﺗ</li>
+    <li>circumstance_phrase-&gt;[Community] ﻕﻮﻓ ﻮﻔﻄﺗ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature]ﻭ [TerrainFeature] ﻦﻴﺑ ﺔﻨﻀﺘﺤﻣ</li>
+    <li>desc_sentence-&gt;.[AdjectiveFriendly] ﺓﺮﻈﻨﺑ [Game] ﺐﻌﻠﻳ [PAWN_nameDef] ،ﻞﻔﺳﻷﺍ ﻲﻓ</li>
+    <li>desc_sentence-&gt;.[PAWN_possessive] ﻪﺟﻭ ﻰﻠﻋ ﻝﻮﻫﺬﺑ ﺪﻫﺎﺸﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻞﻔﺳﻷﺍ ﻦﻣ ﻥﻭﺪﻫﺎﺸﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﺎﻗﺪﺤﻣ ،[TerrainFeature] ﺏﺮﻗ ﺲﻠﺠﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻡﻼﺴﺑ ﻝﻮﺠﺘﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﻖﻓﻷﺍ ﻲﻓ [Enemy] ﻱﺃ ﺪﺟﻮﻳ ﻻ</li>
+ </Aurora.rulePack.rulesStrings>
+  
+  <!-- EN: caravan ambushed -->
+  <CaravanAmbushedByHumanlike.label>ﻦﻴﻤﻜﻟ ﺖﺿﺮﻌﺗ ﺔﻠﻓﺎﻗ</CaravanAmbushedByHumanlike.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
+    <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] moving to protect an ally [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] moving to attack [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] attacking [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] shouting loudly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] running [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] grapping with an opponent [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] defending [PAWN_objective]self [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
+    <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
+    <li>circumstance_phrase->while wielding [PAWN_possessive] weapon</li>
+    <li>circumstance_phrase->while sweating with exertion</li>
+    <li>desc_sentence->[Quantity_adjphrase] distant figures approaches from behind a [TerrainFeature].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s can be seen in the distance.</li>
+    <li>desc_sentence->[PAWN_nameDef] is practically surrounded by [Enemy]s.</li>
+    <li>desc_sentence->[PAWN_nameDef] is confronted by a [Enemy].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear.</li>
+    <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
+  -->
+  <CaravanAmbushedByHumanlike.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﻦﻴﻤﻜﻟ ﺽﺮﻌﺘﺗ [PAWN_nameDef] ﺔﻠﻓﺎﻗ</li>
+    <li>image-&gt;[circumstance_group] ﺎﻓﻮﺧ ﺪﻌﺗﺮﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻒﻴﻠﺣ ﺔﻳﺎﻤﺤﻟ ﻙﺮﺤﺘﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻡﻮﺠﻬﻠﻟ ﻙﺮﺤﺘﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻢﺟﺎﻬﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻝﺎﻋ ﺕﻮﺼﺑ ﺥﺮﺼﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻱﺮﺠﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻢﺼﺧ ﻊﻣ ﻉﺭﺎﺼﺘﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[PAWN_objective] [circumstance_group] ﺲﻔﻧ ﻦﻋ ﻊﻓﺍﺪﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;[AdjectiveBadass] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;[AdjectiveBadass] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;[PAWN_possessive] ﺡﻼﺳ ﺮﻬﺸﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺪﻬﺠﻟﺍ ﻦﻣ ﺎﻗﺮﻋ ﺐﺒﺼﺘﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>desc_sentence-&gt;.[TerrainFeature] ﻒﻠﺧ ﻦﻣ ﺏﺮﺘﻘﺗ ﺓﺪﻴﻌﺑ ﺕﺎﻴﺼﺨﺷ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺪﻌﺒﻟﺍ ﻰﻠﻋ ﻢﻬﺘﻳﺅﺭ ﻦﻜﻤﻳ [Enemy]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.[Enemy]s ﻦﻣ ﺎﻴﻠﻤﻋ ﺮﺻﺎﺤﻣ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[Enemy] ﻪﻬﺟﺍﻮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;ﻉﺍﺰﻨﻟﺍ ﺪﻬﺸﻣ ﻦﻣ ﻥﻭﺮﻔﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]\n.ﺎﻓﻮﺧ</li>
+    <li>desc_sentence-&gt;.[PersonJob] ﺪﺣﺃ ﺐﻗﺍﺮﻳ ،ﺪﻌﺒﻟﺍ ﻰﻠﻋ</li>
+ </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
+  
+  <!-- EN: caravan ambushed by manhunter -->
+  <CaravanAmbushedByManhunter.label>ﻱﺩﺎﻴﺻ ﻦﻣ ﻦﻴﻤﻜﻟ ﺖﺿﺮﻌﺗ ﺔﻠﻓﺎﻗ\nﺮﺸﺒﻟﺍ</CaravanAmbushedByManhunter.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
+    <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] moving to protect an ally [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] moving to attack [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] attacking [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] shouting loudly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] running [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
+    <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
+    <li>circumstance_phrase->while wielding [PAWN_possessive] weapon</li>
+    <li>circumstance_phrase->while sweating with exertion</li>
+    <li>circumstance_phrase->while covered with [Gore]</li>
+    <li>desc_sentence->[Quantity_adjphrase] distant animals approach from behind a [TerrainFeature].</li>
+    <li>desc_sentence->[Gore] covers the ground.</li>
+    <li>desc_sentence->The ground has been trampled into a mess of [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear.</li>
+    <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
+  -->
+  <CaravanAmbushedByManhunter.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﻦﻴﻤﻜﻟ ﺽﺮﻌﺘﺗ [PAWN_nameDef] ﺔﻠﻓﺎﻗ</li>
+    <li>image-&gt;[circumstance_group] ﺎﻓﻮﺧ ﺪﻌﺗﺮﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻒﻴﻠﺣ ﺔﻳﺎﻤﺤﻟ ﻙﺮﺤﺘﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻡﻮﺠﻬﻠﻟ ﻙﺮﺤﺘﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻢﺟﺎﻬﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻝﺎﻋ ﺕﻮﺼﺑ ﺥﺮﺼﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻱﺮﺠﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;[AdjectiveBadass] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;[AdjectiveBadass] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;[PAWN_possessive] ﺡﻼﺳ ﺮﻬﺸﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺪﻬﺠﻟﺍ ﻦﻣ ﺎﻗﺮﻋ ﺐﺒﺼﺘﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;[Gore]ـﺑ ﻰﻄﻐﻣ ﻮﻫ ﺎﻤﻨﻴﺑ</li>
+    <li>desc_sentence-&gt;ﺏﺮﺘﻘﺗ ﺓﺪﻴﻌﺒﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻦﻣ [Quantity_adjphrase]\n.[TerrainFeature] ﻒﻠﺧ ﻦﻣ</li>
+    <li>desc_sentence-&gt;.ﺽﺭﻷﺍ ﻲﻄﻐﻳ [Gore]</li>
+    <li>desc_sentence-&gt;.[Gore] ﻦﻣ ﻰﺿﻮﻓ ﺢﺒﺼﺘﻟ ﺱﺍﺪﺗ ﺽﺭﻷﺍ</li>
+    <li>desc_sentence-&gt;ﻉﺍﺰﻨﻟﺍ ﺪﻬﺸﻣ ﻦﻣ ﻥﻭﺮﻔﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]\n.ﺎﻓﻮﺧ</li>
+    <li>desc_sentence-&gt;.[PersonJob] ﺪﺣﺃ ﺐﻗﺍﺮﻳ ،ﺪﻌﺒﻟﺍ ﻰﻠﻋ</li>
+ </CaravanAmbushedByManhunter.rulePack.rulesStrings>
+  
+  <!-- EN: caravan demand -->
+  <CaravanDemand.label>ﺔﻠﻓﺎﻗ ﺐﻠﻃ</CaravanDemand.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s caravan receiving a demand</li>
+    <li>tale_noun->[PAWN_nameDef]'s caravan being threatened</li>
+    <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] shouting loudly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] thinking [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] glaring [circumstance_group]</li>
+    <li>image->[PAWN_nameFull], threatened by a [PersonJob], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] brandishing a [Weapon] [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->as others look on</li>
+    <li>circumstance_phrase->while being threatened by [Enemy]s</li>
+    <li>desc_sentence->[PAWN_nameDef] is practically surrounded by [Enemy]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are nearby, [action].</li>
+    <li>desc_sentence->The sun sets over a [TerrainFeature].</li>
+    <li>desc_sentence->The sun rises over a [TerrainFeature].</li>
+    <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
+    <li>action->sharpening their weapons</li>
+    <li>action->watching for danger</li>
+    <li>action->guarding hostages</li>
+    <li>action->waiting for a decision</li>
+    <li>action->taunting [PAWN_nameDef]</li>
+  -->
+  <CaravanDemand.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﺎﺒﻠﻃ ﻰﻘﻠﺘﺗ [PAWN_nameDef] ﺔﻠﻓﺎﻗ</li>
+    <li>tale_noun-&gt;ﺪﻳﺪﻬﺘﻠﻟ ﺽﺮﻌﺘﺗ [PAWN_nameDef] ﺔﻠﻓﺎﻗ</li>
+    <li>image-&gt;[circumstance_group] ﺎﻓﻮﺧ ﺪﻌﺗﺮﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻝﺎﻋ ﺕﻮﺼﺑ ﺥﺮﺼﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﺮﻜﻔﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﺐﻀﻐﺑ ﻕﺪﺤﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[PersonJob]، [circumstance_group] ﻞﺒﻗ ﻦﻣ ﺩﺪﻬﻣ ،[PAWN_nameFull]</li>
+    <li>image-&gt;[Weapon] [circumstance_group] ﺮﻬﺸﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;[AdjectiveBadass] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;[AdjectiveAngsty] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;ﻥﻭﺮﺧﻵﺍ ﺐﻗﺍﺮﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;[Enemy]s ﻦﻣ ﺪﻳﺪﻬﺘﻠﻟ ﺽﺮﻌﺘﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>desc_sentence-&gt;.[Enemy]s ﻦﻣ ﺎﻴﻠﻤﻋ ﺮﺻﺎﺤﻣ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[action] ،ﻥﻮﺒﻳﺮﻗ [Enemy]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.[TerrainFeature] ﻒﻠﺧ ﺲﻤﺸﻟﺍ ﺏﺮﻐﺗ</li>
+    <li>desc_sentence-&gt;.[TerrainFeature] ﻕﻮﻓ ﺲﻤﺸﻟﺍ ﻕﺮﺸﺗ</li>
+    <li>desc_sentence-&gt;.[PersonJob] ﺪﺣﺃ ﺐﻗﺍﺮﻳ ،ﺪﻌﺒﻟﺍ ﻰﻠﻋ</li>
+    <li>action-&gt;ﻢﻬﺘﺤﻠﺳﺃ ﻥﻭﺬﺤﺸﻳ</li>
+    <li>action-&gt;ﺮﻄﺨﻟﺍ ﻦﻋ ﺎﺜﺤﺑ ﻥﻮﺒﻗﺍﺮﻳ</li>
+    <li>action-&gt;ﻦﺋﺎﻫﺮﻟﺍ ﻥﻮﺳﺮﺤﻳ</li>
+    <li>action-&gt;ﺍﺭﺍﺮﻗ ﻥﻭﺮﻈﺘﻨﻳ</li>
+    <li>action-&gt;[PAWN_nameDef] ﻦﻣ ﻥﻭﺮﺨﺴﻳ</li>
+ </CaravanDemand.rulePack.rulesStrings>
+  
+  <!-- EN: caravan meeting -->
+  <CaravanMeeting.label>ﺔﻠﻓﺎﻗ ﺀﺎﻘﻟ</CaravanMeeting.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s caravan being met by others</li>
+    <li>image->[PAWN_nameFull] greeting a [PersonJob] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inspecting a [PersonJob] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] calling out to a [PersonJob] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] walking towards a [PersonJob] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] talking quietly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] shouting loudly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] playing [Game] with a [PersonJob] [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->with a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->while [VerbFriendly]</li>
+    <li>circumstance_phrase->as others look on</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are [event].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are [event].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s surround the group.</li>
+    <li>desc_sentence->The sun sets over a [TerrainFeature].</li>
+    <li>desc_sentence->The sun rises over a [TerrainFeature].</li>
+    <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
+    <li>event->throwing a party</li>
+    <li>event->eating a communal meal</li>
+    <li>event->discussing recent events</li>
+    <li>event->rekindling old friendships</li>
+    <li>event->talking hesitantly</li>
+  -->
+  <CaravanMeeting.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﻥﻭﺮﺧﺁ ﺎﻬﺑ ﻲﻘﺘﻠﻳ [PAWN_nameDef] ﺔﻠﻓﺎﻗ</li>
+    <li>image-&gt;[PersonJob] [circumstance_group] ﻲﻴﺤﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[PersonJob] [circumstance_group] ﺺﺤﻔﺘﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[PersonJob] [circumstance_group] ﻰﻠﻋ ﻱﺩﺎﻨﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[PersonJob] [circumstance_group] ﻮﺤﻧ ﺮﻴﺴﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﺀﻭﺪﻬﺑ ﺙﺪﺤﺘﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻝﺎﻋ ﺕﻮﺼﺑ ﺥﺮﺼﻳ [PAWN_nameFull]</li>
+    <li>image-&gt;[PersonJob] [circumstance_group] ﻊﻣ [Game] ﺐﻌﻠﻳ [PAWN_nameFull]</li>
+    <li>circumstance_phrase-&gt;[AdjectiveFriendly] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;[AdjectiveFriendly] ﺮﻴﺒﻌﺘﺑ</li>
+    <li>circumstance_phrase-&gt;[VerbFriendly] ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﻥﻭﺮﺧﻵﺍ ﺐﻗﺍﺮﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>desc_sentence-&gt;.[PersonJob]s [event] ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.[PersonJob]s [event] ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻋﻮﻤﺠﻤﻟﺎﺑ ﻂﻴﺤﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.[TerrainFeature] ﻒﻠﺧ ﺲﻤﺸﻟﺍ ﺏﺮﻐﺗ</li>
+    <li>desc_sentence-&gt;.[TerrainFeature] ﻕﻮﻓ ﺲﻤﺸﻟﺍ ﻕﺮﺸﺗ</li>
+    <li>desc_sentence-&gt;.[PersonJob] ﺪﺣﺃ ﺐﻗﺍﺮﻳ ،ﺪﻌﺒﻟﺍ ﻰﻠﻋ</li>
+    <li>event-&gt;ﺔﻠﻔﺣ ﻥﻮﻤﻴﻘﻳ</li>
+    <li>event-&gt;ﺔﻴﻋﺎﻤﺟ ﺔﺒﺟﻭ ﻥﻮﻟﻭﺎﻨﺘﻳ</li>
+    <li>event-&gt;ﺔﺜﻳﺪﺣ ﺎﺛﺍﺪﺣﺃ ﻥﻮﺸﻗﺎﻨﻳ</li>
+    <li>event-&gt;ﺔﻤﻳﺪﻗ ﺕﺎﻗﺍﺪﺻ ﻥﻭﺩﺪﺠﻳ</li>
+    <li>event-&gt;ﺩﺩﺮﺘﺑ ﻥﻮﺛﺪﺤﺘﻳ</li>
+ </CaravanMeeting.rulePack.rulesStrings>
+  
+  <!-- EN: eclipse -->
+  <Eclipse.label>ﻑﻮﺴﻛ</Eclipse.label>
+  <!-- EN:
+    <li>tale_noun->an eclipse over [PAWN_nameDef]'s [Community]</li>
+    <li>image->an unnaturally dark sky, [circumstance_phrase]</li>
+    <li>image->a crepuscular sky, [circumstance_phrase]</li>
+    <li>image->a moon, ringed by a faint circle of sunlight, [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Animal]s milling around uncertainly in darkness, [circumstance_phrase]</li>
+    <li>circumstance_phrase->the air still and quiet</li>
+    <li>circumstance_phrase->twilight blanketing a nearby [TerrainFeature]</li>
+    <li>circumstance_phrase->twilight blanketing [Quantity_adjphrase] nearby [TerrainFeature]s</li>
+    <li>circumstance_phrase->with stars visible</li>
+    <li>desc_sentence->Below, [PAWN_nameDef] plays [Game] with a [AdjectiveFriendly] look.</li>
+    <li>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below.</li>
+    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky.</li>
+    <li>desc_sentence->A [Community] of spectators watches the sky peacefully.</li>
+    <li>desc_sentence->There is no [Enemy] in sight.</li>
+  -->
+  <Eclipse.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﻕﻮﻓ ﻑﻮﺴﻛ</li>
+    <li>image-&gt;[circumstance_phrase] ،ﻲﻌﻴﺒﻃ ﺮﻴﻏ ﻞﻜﺸﺑ ﺔﻤﻠﻈﻣ ﺀﺎﻤﺳ</li>
+    <li>image-&gt;[circumstance_phrase] ،ﺔﻴﻘﻔﺷ ﺀﺎﻤﺳ</li>
+    <li>image-&gt;ﻦﻣ ﺔﺘﻓﺎﺧ ﺓﺮﺋﺍﺩ ﻪﺑ ﻂﻴﺤﺗ ،ﺮﻤﻗ\n[circumstance_phrase] ،ﺲﻤﺸﻟﺍ ﺀﻮﺿ</li>
+    <li>image-&gt;[circumstance_phrase] ،ﻡﻼﻈﻟﺍ ﻲﻓ ﻖﻠﻘﺑ ﻊﻜﺴﺘﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>circumstance_phrase-&gt;ﺉﺩﺎﻫﻭ ﻦﻛﺎﺳ ﺀﺍﻮﻬﻟﺍ</li>
+    <li>circumstance_phrase-&gt;ﺐﻳﺮﻗ [TerrainFeature] ﻲﻄﻐﻳ ﻖﺴﻏ</li>
+    <li>circumstance_phrase-&gt;ﺔﺒﻳﺮﻘﻟﺍ [TerrainFeature]s ﻦﻣ [Quantity_adjphrase] ﻲﻄﻐﻳ ﻖﺴﻏ</li>
+    <li>circumstance_phrase-&gt;ﻡﻮﺠﻨﻟﺍ ﺭﻮﻬﻇ ﻊﻣ</li>
+    <li>desc_sentence-&gt;.[AdjectiveFriendly] ﺓﺮﻈﻨﺑ [Game] ﺐﻌﻠﻳ [PAWN_nameDef] ،ﻞﻔﺳﻷﺍ ﻲﻓ</li>
+    <li>desc_sentence-&gt;.[PAWN_possessive] ﻪﺟﻭ ﻰﻠﻋ ﻝﻮﻫﺬﺑ ﺪﻫﺎﺸﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻞﻔﺳﻷﺍ ﻦﻣ ﻥﻭﺪﻫﺎﺸﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﺎﻗﺪﺤﻣ ،[TerrainFeature] ﺏﺮﻗ ﺲﻠﺠﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;ﺀﺎﻤﺴﻟﺍ ﺪﻫﺎﺸﺗ ﻦﻴﺟﺮﻔﺘﻤﻟﺍ ﻦﻣ [Community]\n.ﻡﻼﺴﺑ</li>
+    <li>desc_sentence-&gt;.ﻖﻓﻷﺍ ﻲﻓ [Enemy] ﻱﺃ ﺪﺟﻮﻳ ﻻ</li>
+ </Eclipse.rulePack.rulesStrings>
+  
+  <!-- EN: journey offer -->
+  <EndGame_ShipEscape.label>ﺔﻠﺣﺭ ﺽﺮﻋ</EndGame_ShipEscape.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] receiving a message from an old friend</li>
+    <li>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</li>
+    <li>image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group]</li>
+    <li>delivery_method->a [Animal]</li>
+    <li>delivery_method->a [PersonJob]</li>
+    <li>delivery_method->[Quantity_adjphrase] [Animal]s</li>
+    <li>transmission_source->a rarely-used frequency</li>
+    <li>transmission_source->an ancient transmitter</li>
+    <li>transmission_source->a low-power signal</li>
+    <li>transmission_source->a long-range signal</li>
+    <li>transmission_source->a mysterious signal</li>
+    <li>circumstance_phrase->standing alone near a [TerrainFeature]</li>
+    <li>circumstance_phrase->exploring a [TerrainFeature]</li>
+    <li>circumstance_phrase->tending crops</li>
+    <li>circumstance_phrase->a [Animal] wanders past</li>
+    <li>circumstance_phrase->playing [Game]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware.</li>
+    <li>desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly].</li>
+    <li>desc_sentence->A spectral [PersonJob] watches from the clouds.</li>
+    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</li>
+    <li>desc_sentence->A [Community] is visible in the far distance.</li>
+    <li>desc_sentence->A spaceship is visible in the far distance.</li>
+  -->
+  <EndGame_ShipEscape.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﻢﻳﺪﻗ ﻖﻳﺪﺻ ﻦﻣ ﺔﻟﺎﺳﺭ ﻰﻘﻠﺘﻳ [PAWN_nameDef]</li>
+    <li>tale_noun-&gt;[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﻰﻟﺇ ﻞﺼﺗ ﺔﺻﺮﻓ</li>
+    <li>image-&gt;[circumstance_group] ﺎﻤﻨﻴﺑ [delivery_method] ﺎﻬﻠﺻﻭﺃ ﺔﻟﺎﺳﺭ ﺢﺘﻔﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[delivery_method] ﺎﻬﻠﺻﻭﺃ ﺕﺎﻧﺎﻴﺑ ﺓﺭﻮﻠﺑ ﻡﺪﺨﺘﺴﻳ [PAWN_nameDef]\n[circumstance_group] ﺎﻤﻨﻴﺑ</li>
+    <li>image-&gt;[circumstance_group] ﺎﻤﻨﻴﺑ [delivery_method] ﺎﻬﻠﺻﻭﺃ ﺔﻓﺎﻔﻟ ﻚﻔﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[circumstance_group] ﺎﻤﻨﻴﺑ [transmission_source] ﻦﻣ ﻻﺎﺳﺭﺇ ﻰﻘﻠﺘﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[circumstance_group] ﺎﻤﻨﻴﺑ [transmission_source] ﻦﻣ ﺔﻟﺎﺳﺭ ﻰﻘﻠﺘﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;[circumstance_group] ﺎﻤﻨﻴﺑ [transmission_source] ﻦﻣ ﺔﻟﺎﺳﺭ ﻰﻟﺇ ﻊﻤﺘﺴﻳ [PAWN_nameDef]</li>
+    <li>delivery_method-&gt;[Animal]</li>
+    <li>delivery_method-&gt;[PersonJob]</li>
+    <li>delivery_method-&gt;[Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>transmission_source-&gt;ﻡﺍﺪﺨﺘﺳﻻﺍ ﺭﺩﺎﻧ ﺩﺩﺮﺗ</li>
+    <li>transmission_source-&gt;ﻢﻳﺪﻗ ﻝﺎﺳﺭﺇ ﺯﺎﻬﺟ</li>
+    <li>transmission_source-&gt;ﺔﻗﺎﻄﻟﺍ ﺔﻀﻔﺨﻨﻣ ﺓﺭﺎﺷﺇ</li>
+    <li>transmission_source-&gt;ﻯﺪﻤﻟﺍ ﺓﺪﻴﻌﺑ ﺓﺭﺎﺷﺇ</li>
+    <li>transmission_source-&gt;ﺔﻀﻣﺎﻏ ﺓﺭﺎﺷﺇ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﺏﺮﻗ ﺍﺪﻴﺣﻭ ﻒﻘﻳ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﻒﺸﻜﺘﺴﻳ</li>
+    <li>circumstance_phrase-&gt;ﻞﻴﺻﺎﺤﻤﻟﺎﺑ ﻲﻨﺘﻌﻳ</li>
+    <li>circumstance_phrase-&gt;ﻻﻮﺠﺘﻣ [Animal] ﺮﻤﻳ</li>
+    <li>circumstance_phrase-&gt;[Game] ﺐﻌﻠﻳ</li>
+    <li>desc_sentence-&gt;ﺮﻴﻏ ،ﺭﺍﻮﺠﻟﺍ ﻲﻓ ﻝﻮﺠﺘﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]\n.ﺔﻛﺭﺪﻣ</li>
+    <li>desc_sentence-&gt;.[VerbFriendly] ﻲﻓ [PAWN_pronoun] ﺃﺪﺒﻳ ،[PAWN_pronoun] ﺃﺮﻘﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>desc_sentence-&gt;.ﺏﺎﺤﺴﻟﺍ ﻦﻣ ﺐﻗﺍﺮﻳ ﻲﻔﻴﻃ [PersonJob]</li>
+    <li>desc_sentence-&gt;.[TerrainFeature] ﺏﺮﻗ ﺲﻠﺠﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;ﺔﻓﺎﺴﻣ ﺪﻌﺑ ﻰﻠﻋ [Community] ﺔﻳﺅﺭ ﻦﻜﻤﻳ\n.ﺔﻌﺳﺎﺷ</li>
+    <li>desc_sentence-&gt;ﺪﻌﺑ ﻰﻠﻋ ﺀﺎﻀﻓ ﺔﻨﻴﻔﺳ ﺔﻳﺅﺭ ﻦﻜﻤﻳ\n.ﺔﻌﺳﺎﺷ ﺔﻓﺎﺴﻣ</li>
+ </EndGame_ShipEscape.rulePack.rulesStrings>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>ﺔﻴﻀﻴﻣﻭ ﺔﻔﺻﺎﻋ</Flashstorm.label>
+  <!-- EN:
+    <li>tale_noun->a flashstorm that threatened [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->[PAWN_nameDef]'s [Community] being menaced by a deadly flashstorm</li>
+    <li>image->[Quantity_adjphrase] lightning strikes [circumstance_phrase]</li>
+    <li>image->[behavior] wall of flames [circumstance_phrase]</li>
+    <li>image->[behavior] wall of [Color] flames [circumstance_phrase]</li>
+    <li>image->[behavior] cloud of ash and smoke [circumstance_phrase]</li>
+    <li>image->[behavior] wave of flames [circumstance_phrase]</li>
+    <li>behavior->a</li>
+    <li>behavior->an advancing</li>
+    <li>behavior->an approaching</li>
+    <li>circumstance_phrase->advancing towards a [Community]</li>
+    <li>circumstance_phrase->underneath an intimidating cloud</li>
+    <li>circumstance_phrase->nearly enveloping a [TerrainFeature]</li>
+    <li>circumstance_phrase->nearly enveloping [Quantity_adjphrase] [TerrainFeature]s</li>
+    <li>desc_sentence->[PAWN_nameDef] watches with visible fright.</li>
+    <li>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</li>
+    <li>desc_sentence->[PAWN_nameDef] is coordinating defensive measures.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>desc_sentence->All animal life has left the area.</li>
+  -->
+  <Flashstorm.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﺕﺩﺪﻫ ﺔﻴﻀﻴﻣﻭ ﺔﻔﺻﺎﻋ</li>
+    <li>tale_noun-&gt;ﺔﻔﺻﺎﻋ ﻩﺩﺪﻬﻳ [PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community]\nﺔﺘﻴﻤﻣ ﺔﻴﻀﻴﻣﻭ</li>
+    <li>image-&gt;[circumstance_phrase] ﻕﺮﺑ ﺕﺎﺑﺮﺿ [Quantity_adjphrase]</li>
+    <li>image-&gt;[circumstance_phrase] ﺐﻬﻠﻟﺍ ﻦﻣ ﺭﺍﺪﺟ [behavior]</li>
+    <li>image-&gt;[Color] [circumstance_phrase] ﺐﻬﻠﻟﺍ ﻦﻣ ﺭﺍﺪﺟ [behavior]</li>
+    <li>image-&gt;[circumstance_phrase] ﻥﺎﺧﺪﻟﺍﻭ ﺩﺎﻣﺮﻟﺍ ﻦﻣ ﺔﺑﺎﺤﺳ [behavior]</li>
+    <li>image-&gt;[circumstance_phrase] ﺐﻬﻠﻟﺍ ﻦﻣ ﺔﺟﻮﻣ [behavior]</li>
+    <li>behavior-&gt;ﺭﺍﺪﺟ</li>
+    <li>behavior-&gt;ﻡﺪﻘﺘﻣ ﺭﺍﺪﺟ</li>
+    <li>behavior-&gt;ﺏﺮﺘﻘﻣ ﺭﺍﺪﺟ</li>
+    <li>circumstance_phrase-&gt;[Community] ﻮﺤﻧ ﻡﺪﻘﺘﻳ</li>
+    <li>circumstance_phrase-&gt;ﺔﻔﻴﺨﻣ ﺔﺑﺎﺤﺳ ﺖﺤﺗ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﻒﻠﻐﻳ ﺩﺎﻜﻳ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature]s ﻦﻣ [Quantity_adjphrase] ﻒﻠﻐﻳ ﺩﺎﻜﻳ</li>
+    <li>desc_sentence-&gt;.ﺢﺿﺍﻭ ﻑﻮﺨﺑ ﺪﻫﺎﺸﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[PAWN_possessive] ﻪﺟﻭ ﻰﻠﻋ ﻝﻮﻫﺬﺑ ﺪﻫﺎﺸﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻋﺎﻓﺩ ﺕﺍﺀﺍﺮﺟﺇ ﻖﺴﻨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺩﺍﺪﻌﺘﺳﻼﻟ ﻥﻮﻋﺮﻬﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻭﺮﻔﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;ﺔﻴﻧﺍﻮﻴﺤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻞﻛ ﺕﺭﺩﺎﻏ ﺪﻘﻟ\n.ﺔﻘﻄﻨﻤﻟﺍ</li>
+ </Flashstorm.rulePack.rulesStrings>
+  
+  <!-- EN: infestation -->
+  <Infestation.label>ﺔﺑﺎﺻﺇ</Infestation.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s [Community] being infested by giant insects</li>
+    <li>image->a swarm of beetles [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] megaspiders [circumstance_phrase]</li>
+    <li>image->an overwhelming tide of [Color] insects [circumstance_phrase]</li>
+    <li>image->a dense fog of black specks [circumstance_phrase]</li>
+    <li>circumstance_phrase->advancing over a [TerrainFeature]</li>
+    <li>circumstance_phrase->completely encircling a [Community]</li>
+    <li>circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s</li>
+    <li>circumstance_phrase->bursting out of the ground</li>
+    <li>circumstance_phrase->slaughtering [Quantity_adjphrase] [Animal]s</li>
+    <li>desc_sentence->[PAWN_nameDef] organizes a resistance.</li>
+    <li>desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively.</li>
+    <li>desc_sentence->[PAWN_nameDef] lies on the ground, wounded.</li>
+    <li>desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon].</li>
+    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</li>
+    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->The ground is coated in [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>desc_sentence->All animal life has left the area.</li>
+  -->
+  <Infestation.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﺕﺍﺮﺸﺤﻟﺎﺑ ﺞﻌﻳ [PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community]\nﺔﻗﻼﻤﻌﻟﺍ</li>
+    <li>image-&gt;[circumstance_phrase] ﺲﻓﺎﻨﺨﻟﺍ ﻦﻣ ﺏﺮﺳ</li>
+    <li>image-&gt;[circumstance_phrase] ﺔﻤﺨﻀﻟﺍ ﺐﻛﺎﻨﻌﻟﺍ ﻦﻣ [Quantity_adjphrase]</li>
+    <li>image-&gt;[Color] [circumstance_phrase] ﺕﺍﺮﺸﺣ ﻦﻣ ﺔﻴﻏﺎﻃ ﺔﺟﻮﻣ</li>
+    <li>image-&gt;[circumstance_phrase] ﺀﺍﺩﻮﺳ ﻊﻘﺑ ﻦﻣ ﻒﻴﺜﻛ ﺏﺎﺒﺿ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﻕﻮﻓ ﻡﺪﻘﺘﺗ</li>
+    <li>circumstance_phrase-&gt;ﻞﻣﺎﻜﻟﺎﺑ [Community] ﻕﻮﻄﺗ</li>
+    <li>circumstance_phrase-&gt;[PersonJob]s ﻦﻣ [Quantity_adjphrase] ﻢﺟﺎﻬﺗ</li>
+    <li>circumstance_phrase-&gt;ﺽﺭﻷﺍ ﻦﻣ ﻖﺜﺒﻨﺗ</li>
+    <li>circumstance_phrase-&gt;[Animal]s ﻦﻣ [Quantity_adjphrase] ﺢﺑﺬﺗ</li>
+    <li>desc_sentence-&gt;.ﺔﻣﻭﺎﻘﻣ ﻢﻈﻨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎﻴﻋﺎﻓﺩ [Weapon] ﺮﻬﺸﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎﺑﺎﺼﻣ ،ﺽﺭﻷﺍ ﻰﻠﻋ ﺪﻗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[Weapon] [PAWN_possessive]ـﺑ ﺩﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[AdjectiveBadass] ﺍﺮﻴﺒﻌﺗ ﻱﺪﺗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[AdjectiveAngsty] ﺍﺮﻴﺒﻌﺗ ﻱﺪﺗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[Gore]ـﺑ ﺓﺎﻄﻐﻣ ﺽﺭﻷﺍ</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻭﺮﻔﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻭﺮﻔﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;ﺔﻴﻧﺍﻮﻴﺤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻞﻛ ﺕﺭﺩﺎﻏ ﺪﻘﻟ\n.ﺔﻘﻄﻨﻤﻟﺍ</li>
+ </Infestation.rulePack.rulesStrings>
+  
+  <!-- EN: manhunter pack -->
+  <ManhunterPack.label>ﺮﺸﺒﻟﺍ ﻱﺩﺎﻴﺻ ﻊﻴﻄﻗ</ManhunterPack.label>
+  <!-- EN:
+    <li>tale_noun->manhunting beasts menacing [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->[PAWN_nameDef]'s [Community] being attacked by mad animals</li>
+    <li>image->a herd of [Animal]s [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
+    <li>image->a [AdjectiveLarge] [Animal] [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] shadowy figures [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] shadowy quadrupeds [circumstance_phrase]</li>
+    <li>circumstance_phrase->advancing over a [TerrainFeature]</li>
+    <li>circumstance_phrase->completely encircling a [Community]</li>
+    <li>circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s</li>
+    <li>circumstance_phrase->slaughtering [Quantity_adjphrase] [Animal]s</li>
+    <li>circumstance_phrase->possessed by [hate_emotion]</li>
+    <li>circumstance_phrase->covered in [Gore]</li>
+    <li>hate_emotion->hatred</li>
+    <li>hate_emotion->anger</li>
+    <li>hate_emotion->fury</li>
+    <li>desc_sentence->[PAWN_nameDef] organizes a resistance.</li>
+    <li>desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively.</li>
+    <li>desc_sentence->[PAWN_nameDef] lies on the ground, wounded.</li>
+    <li>desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon].</li>
+    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</li>
+    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->The ground is coated in [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+  -->
+  <ManhunterPack.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﻊﺑﺎﺘﻟﺍ [Community] ﺩﺪﻬﺗ ﺮﺸﺒﻠﻟ ﺓﺪﺋﺎﺻ ﺵﻮﺣﻭ\n[PAWN_nameDef]ـﻟ</li>
+    <li>tale_noun-&gt;ﺕﺎﻧﺍﻮﻴﺣ ﻦﻣ ﻢﺟﺎﻬﻳ [PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community]\nﺔﻧﻮﻨﺠﻣ</li>
+    <li>image-&gt;[Animal]s [circumstance_phrase] ﻦﻣ ﻊﻴﻄﻗ</li>
+    <li>image-&gt;[Animal]s [circumstance_phrase] ﻦﻣ [Quantity_adjphrase]</li>
+    <li>image-&gt;[AdjectiveLarge] [Animal] [circumstance_phrase]</li>
+    <li>image-&gt;[circumstance_phrase] ﺔﻴﻠﻇ ﺕﺎﺌﻴﻫ [Quantity_adjphrase]</li>
+    <li>image-&gt;[circumstance_phrase] ﺔﻴﻠﻇ ﻊﺑﺭﺃ ﺕﺍﻭﺫ [Quantity_adjphrase]</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﻕﻮﻓ ﻡﺪﻘﺘﺗ</li>
+    <li>circumstance_phrase-&gt;ﻞﻣﺎﻜﻟﺎﺑ [Community] ﻕﻮﻄﺗ</li>
+    <li>circumstance_phrase-&gt;[PersonJob]s ﻦﻣ [Quantity_adjphrase] ﻢﺟﺎﻬﺗ</li>
+    <li>circumstance_phrase-&gt;[Animal]s ﻦﻣ [Quantity_adjphrase] ﺢﺑﺬﺗ</li>
+    <li>circumstance_phrase-&gt;[hate_emotion]ـﺑ ﺔﺳﻮﺴﻤﻣ</li>
+    <li>circumstance_phrase-&gt;[Gore]ـﺑ ﺓﺎﻄﻐﻣ</li>
+    <li>hate_emotion-&gt;ﺔﻴﻫﺍﺮﻛ</li>
+    <li>hate_emotion-&gt;ﺐﻀﻏ</li>
+    <li>hate_emotion-&gt;ﻆﻴﻏ</li>
+    <li>desc_sentence-&gt;.ﺔﻣﻭﺎﻘﻣ ﻢﻈﻨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎﻴﻋﺎﻓﺩ [Weapon] ﺮﻬﺸﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎﺑﺎﺼﻣ ،ﺽﺭﻷﺍ ﻰﻠﻋ ﺪﻗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[Weapon] [PAWN_possessive]ـﺑ ﺩﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[AdjectiveBadass] ﺍﺮﻴﺒﻌﺗ ﻱﺪﺗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[AdjectiveAngsty] ﺍﺮﻴﺒﻌﺗ ﻱﺪﺗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[Gore]ـﺑ ﺓﺎﻄﻐﻣ ﺽﺭﻷﺍ</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻭﺮﻔﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻭﺮﻔﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+ </ManhunterPack.rulePack.rulesStrings>
+  
+  <!-- EN: meteorite impact -->
+  <MeteoriteImpact.label>ﻙﺰﻴﻧ ﻡﺍﺪﻄﺻﺍ</MeteoriteImpact.label>
+  <!-- EN:
+    <li>tale_noun->a meteorite falling near [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->a meteorite impacting near [PAWN_nameDef]'s [Community]</li>
+    <li>image->a [AdjectiveLarge] rock trailing [Color] flames [airborne_circumstance]</li>
+    <li>image->a brightly-glowing spot [airborne_circumstance]</li>
+    <li>image->a [AdjectiveLarge] [Color] fireball [airborne_circumstance]</li>
+    <li>airborne_circumstance->blazing across the sky</li>
+    <li>airborne_circumstance->falling to the ground in a cloud of ash</li>
+    <li>airborne_circumstance->shedding rocks and debris as it flies</li>
+    <li>image->a [AdjectiveLarge] monolith, [ground_circumstance]</li>
+    <li>image->a [AdjectiveLarge] [Color] scorched stone, [ground_circumstance]</li>
+    <li>image->a [Color] pillar of rock, [ground_circumstance]</li>
+    <li>ground_circumstance->surrounded by smoke and ash</li>
+    <li>ground_circumstance->smoking from heat</li>
+    <li>ground_circumstance->surrounded by molten debris</li>
+    <li>ground_circumstance->partially embedded in the ground</li>
+    <li>ground_circumstance->lying in a cracked crater</li>
+    <li>desc_sentence->[PAWN_nameDef] looks on in surprise.</li>
+    <li>desc_sentence->[PAWN_nameDef] looks on with excitement.</li>
+    <li>desc_sentence->[PAWN_nameDef] looks on in shock.</li>
+    <li>desc_sentence->[Quantity_adjphrase] figures approach from a nearby [TerrainFeature].</li>
+    <li>desc_sentence->[Quantity_adjphrase] figures prepare tools and equipment.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
+    <li>desc_sentence->The surroundings are muted and dull.</li>
+  -->
+  <MeteoriteImpact.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﺏﺮﻗ ﻂﻘﺴﻳ ﻙﺰﻴﻧ</li>
+    <li>tale_noun-&gt;[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﺏﺮﻗ ﻡﺪﻄﺼﻳ ﻙﺰﻴﻧ</li>
+    <li>image-&gt;[Color] [airborne_circumstance] ﺐﻬﻟ ﺔﻨﺴﻟﺃ ﻒﻠﺨﺗ [AdjectiveLarge] ﺓﺮﺨﺻ</li>
+    <li>image-&gt;[airborne_circumstance] ﺓﺪﺸﺑ ﺔﺠﻫﻮﺘﻣ ﺔﻌﻘﺑ</li>
+    <li>image-&gt;[AdjectiveLarge] [Color] [airborne_circumstance] ﺔﻳﺭﺎﻧ ﺓﺮﻛ</li>
+    <li>airborne_circumstance-&gt;ﺀﺎﻤﺴﻟﺍ ﺮﺒﻋ ﻞﻌﺘﺸﺗ</li>
+    <li>airborne_circumstance-&gt;ﻦﻣ ﺔﺑﺎﺤﺳ ﻲﻓ ﺽﺭﻷﺍ ﻰﻟﺇ ﻂﻘﺴﺗ\nﺩﺎﻣﺮﻟﺍ</li>
+    <li>airborne_circumstance-&gt;ﻡﺎﻄﺤﻟﺍﻭ ﺭﻮﺨﺼﻟﺍ ﺎﻬﻨﻣ ﻂﻗﺎﺴﺘﺗ\nﺎﻬﻧﺍﺮﻴﻃ ﺀﺎﻨﺛﺃ</li>
+    <li>image-&gt;[AdjectiveLarge]، [ground_circumstance] ﺔﺻﺍﺮﺘﻣ</li>
+    <li>image-&gt;[AdjectiveLarge] [Color]، [ground_circumstance] ﻕﻭﺮﺤﻣ ﺮﺠﺣ</li>
+    <li>image-&gt;[Color]، [ground_circumstance] ﻱﺮﺨﺻ ﺩﻮﻤﻋ</li>
+    <li>ground_circumstance-&gt;ﺩﺎﻣﺮﻟﺍﻭ ﻥﺎﺧﺪﻟﺎﺑ ﺔﻃﺎﺤﻣ</li>
+    <li>ground_circumstance-&gt;ﺓﺭﺍﺮﺤﻟﺍ ﻦﻣ ﻥﺎﺧﺪﻟﺍ ﺎﻬﻨﻣ ﺪﻋﺎﺼﺘﻳ</li>
+    <li>ground_circumstance-&gt;ﺮﻬﺼﻨﻣ ﻡﺎﻄﺤﺑ ﺔﻃﺎﺤﻣ</li>
+    <li>ground_circumstance-&gt;ﺽﺭﻷﺍ ﻲﻓ ﺎﻴﺋﺰﺟ ﺓﺭﻮﻤﻄﻣ</li>
+    <li>ground_circumstance-&gt;ﺔﻘﻘﺸﺘﻣ ﺔﻫﻮﻓ ﻲﻓ ﺪﻗﺮﺗ</li>
+    <li>desc_sentence-&gt;.ﺔﺸﻫﺪﺑ ﺮﻈﻨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺱﺎﻤﺤﺑ ﺮﻈﻨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺔﻣﺪﺼﺑ ﺮﻈﻨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺐﻳﺮﻗ [TerrainFeature] ﻦﻣ ﺏﺮﺘﻘﺗ ﺕﺎﻴﺼﺨﺷ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;ﺕﺍﻭﺩﻷﺍ ﻥﻭﺪﻌﻳ ﺕﺎﻴﺼﺨﺷ [Quantity_adjphrase]\n.ﺕﺍﺪﻌﻤﻟﺍﻭ</li>
+    <li>desc_sentence-&gt;.ﻖﻠﻘﺑ ﻊﻜﺴﺘﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺖﻫﺎﺑﻭ ﺖﻓﺎﺧ ﻂﻴﺤﻤﻟﺍ</li>
+ </MeteoriteImpact.rulePack.rulesStrings>
+  
+  <!-- EN: raid -->
+  <Raid.label>ﺓﺭﺎﻏ</Raid.label>
+  <!-- EN:
+    <li>tale_noun->an raid on [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->an assault on [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->[PAWN_nameDef]'s [Community] being attacked by [Enemy]s</li>
+    <li>image->[Quantity_adjphrase] [Enemy]s [circumstance_phrase]</li>
+    <li>image->an army [circumstance_phrase]</li>
+    <li>image->an overwhelming force [circumstance_phrase]</li>
+    <li>image->an invading force [circumstance_phrase]</li>
+    <li>image->stylized [Color] banners [circumstance_phrase]</li>
+    <li>image->an enormous [Enemy] [circumstance_phrase]</li>
+    <li>circumstance_phrase->advancing over a [TerrainFeature]</li>
+    <li>circumstance_phrase->completely encircling a [Community]</li>
+    <li>circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s</li>
+    <li>circumstance_phrase->roaring in victory</li>
+    <li>circumstance_phrase->brandishing [Weapon]s</li>
+    <li>circumstance_phrase->covered in [Gore]</li>
+    <li>desc_sentence->[PAWN_nameDef] organizes a resistance while [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively while [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] lies on the ground, wounded.</li>
+    <li>desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon] while [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] stands as tall as a building, [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</li>
+    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->The ground is coated in [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>defender_circumstance->shouting triumphantly</li>
+    <li>defender_circumstance->glowing [Color]</li>
+    <li>defender_circumstance->raising a fist in defiance</li>
+    <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
+  -->
+  <Raid.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﻰﻠﻋ ﺓﺭﺎﻏ</li>
+    <li>tale_noun-&gt;[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﻰﻠﻋ ﻡﻮﺠﻫ</li>
+    <li>tale_noun-&gt;[Enemy]s ﻦﻣ ﻢﺟﺎﻬﻳ [PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community]</li>
+    <li>image-&gt;[Enemy]s [circumstance_phrase] ﻦﻣ [Quantity_adjphrase]</li>
+    <li>image-&gt;[circumstance_phrase] ﺶﻴﺟ</li>
+    <li>image-&gt;[circumstance_phrase] ﺔﻴﻏﺎﻃ ﺓﻮﻗ</li>
+    <li>image-&gt;[circumstance_phrase] ﺔﻳﺯﺎﻏ ﺓﻮﻗ</li>
+    <li>image-&gt;[circumstance_phrase] ﺔﻘﻤﻨﻣ [Color] ﺕﺎﻳﺍﺭ</li>
+    <li>image-&gt;[circumstance_phrase] ﻞﺋﺎﻫ [Enemy]</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﻕﻮﻓ ﻡﺪﻘﺘﺗ</li>
+    <li>circumstance_phrase-&gt;ﻞﻣﺎﻜﻟﺎﺑ [Community] ﻕﻮﻄﺗ</li>
+    <li>circumstance_phrase-&gt;[PersonJob]s ﻦﻣ [Quantity_adjphrase] ﻢﺟﺎﻬﺗ</li>
+    <li>circumstance_phrase-&gt;ﺮﺼﻨﻟﺎﺑ ﺔﻴﺸﺘﻨﻣ ﺭﺃﺰﺗ</li>
+    <li>circumstance_phrase-&gt;[Weapon]s ﺮﻬﺸﺗ</li>
+    <li>circumstance_phrase-&gt;[Gore]ـﺑ ﺓﺎﻄﻐﻣ</li>
+    <li>desc_sentence-&gt;.[defender_circumstance] ﺎﻤﻨﻴﺑ ﺔﻣﻭﺎﻘﻣ ﻢﻈﻨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[defender_circumstance] ﺎﻤﻨﻴﺑ ﺎﻴﻋﺎﻓﺩ [Weapon] ﺮﻬﺸﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎﺑﺎﺼﻣ ،ﺽﺭﻷﺍ ﻰﻠﻋ ﺪﻗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[defender_circumstance] ﺎﻤﻨﻴﺑ [Weapon] [PAWN_possessive]ـﺑ ﺩﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[defender_circumstance] ،ﻰﻨﺒﻣ ﻝﻮﻄﺑ ﻒﻘﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[AdjectiveBadass] ﺍﺮﻴﺒﻌﺗ ﻱﺪﺗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[AdjectiveAngsty] ﺍﺮﻴﺒﻌﺗ ﻱﺪﺗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[Gore]ـﺑ ﺓﺎﻄﻐﻣ ﺽﺭﻷﺍ</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻭﺮﻔﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻭﺮﻔﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>defender_circumstance-&gt;ﺎﻴﺸﺘﻨﻣ ﺥﺮﺼﻳ</li>
+    <li>defender_circumstance-&gt;[Color] ﺞﻫﻮﺘﻳ</li>
+    <li>defender_circumstance-&gt;ﺎﻳﺪﺤﺘﻣ ﻩﺪﻳ ﺔﻀﺒﻗ ﻊﻓﺮﻳ</li>
+    <li>defender_circumstance-&gt;[PAWN_possessive] ﺕﻼﻀﻋ ﺽﺮﻌﺘﺴﻳ</li>
+ </Raid.rulePack.rulesStrings>
+  
+  <!-- EN: ship part crash -->
+  <ShipPartCrash.label>ﺔﻨﻴﻔﺳ ﺀﺰﺟ ﻢﻄﺤﺗ</ShipPartCrash.label>
+  <!-- EN:
+    <li>tale_noun->an ancient ship part crashing near [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->an ancient ship part landing near [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->a damaged ship part landing near [PAWN_nameDef]'s [Community]</li>
+    <li>image->a swarm of [Mechanoid]s [circumstance_phrase]</li>
+    <li>image->an army of [Mechanoid]s [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase]</li>
+    <li>image->a [AdjectiveLarge] [Mechanoid] [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Mechanoid] silhouettes [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Mechanoid]s with glowing [Color] sensors [circumstance_phrase]</li>
+    <li>circumstance_phrase->advancing over a [TerrainFeature]</li>
+    <li>circumstance_phrase->completely encircling a [Community]</li>
+    <li>circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s</li>
+    <li>circumstance_phrase->slaughtering [Quantity_adjphrase] [Animal]s</li>
+    <li>circumstance_phrase->covered in [Gore]</li>
+    <li>circumstance_phrase->dented and sparking</li>
+    <li>desc_sentence->[PAWN_nameDef] organizes a resistance while [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively while [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] lies on the ground, wounded.</li>
+    <li>desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon] while [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] stands as tall as a building, [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</li>
+    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->The ground is coated in [Gore].</li>
+    <li>desc_sentence->The ground is coated in scrap metal.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>defender_circumstance->shouting triumphantly</li>
+    <li>defender_circumstance->glowing [Color]</li>
+    <li>defender_circumstance->raising a fist in defiance</li>
+    <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
+  -->
+  <ShipPartCrash.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[Community] ﺏﺮﻗ ﻢﻄﺤﺘﻳ ﻢﻳﺪﻗ ﺔﻨﻴﻔﺳ ﺀﺰﺟ\n[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ</li>
+    <li>tale_noun-&gt;[Community] ﺏﺮﻗ ﻂﺒﻬﻳ ﻢﻳﺪﻗ ﺔﻨﻴﻔﺳ ﺀﺰﺟ\n[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ</li>
+    <li>tale_noun-&gt;[Community] ﺏﺮﻗ ﻂﺒﻬﻳ ﺭﺮﻀﺘﻣ ﺔﻨﻴﻔﺳ ﺀﺰﺟ\n[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ</li>
+    <li>image-&gt;[Mechanoid]s [circumstance_phrase] ﻦﻣ ﺏﺮﺳ</li>
+    <li>image-&gt;[Mechanoid]s [circumstance_phrase] ﻦﻣ ﺶﻴﺟ</li>
+    <li>image-&gt;[Mechanoid]s [circumstance_phrase] ﻦﻣ [Quantity_adjphrase]</li>
+    <li>image-&gt;[AdjectiveLarge] [Mechanoid] [circumstance_phrase]</li>
+    <li>image-&gt;[Mechanoid] [circumstance_phrase]ـﻟ ﺔﻴﻠﻇ ﺓﺭﻮﺻ [Quantity_adjphrase]</li>
+    <li>image-&gt;[Color] [circumstance_phrase] ﺔﺠﻫﻮﺘﻣ ﺕﺍﺮﻌﺸﺘﺴﻤﺑ [Mechanoid]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﻕﻮﻓ ﻡﺪﻘﺘﺗ</li>
+    <li>circumstance_phrase-&gt;ﻞﻣﺎﻜﻟﺎﺑ [Community] ﻕﻮﻄﺗ</li>
+    <li>circumstance_phrase-&gt;[PersonJob]s ﻦﻣ [Quantity_adjphrase] ﻢﺟﺎﻬﺗ</li>
+    <li>circumstance_phrase-&gt;[Animal]s ﻦﻣ [Quantity_adjphrase] ﺢﺑﺬﺗ</li>
+    <li>circumstance_phrase-&gt;[Gore]ـﺑ ﺓﺎﻄﻐﻣ</li>
+    <li>circumstance_phrase-&gt;ﺍﺭﺍﺮﺷ ﻖﻠﻄﺗﻭ ﺔﺠﻌﺒﻨﻣ</li>
+    <li>desc_sentence-&gt;.[defender_circumstance] ﺎﻤﻨﻴﺑ ﺔﻣﻭﺎﻘﻣ ﻢﻈﻨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[defender_circumstance] ﺎﻤﻨﻴﺑ ﺎﻴﻋﺎﻓﺩ [Weapon] ﺮﻬﺸﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎﺑﺎﺼﻣ ،ﺽﺭﻷﺍ ﻰﻠﻋ ﺪﻗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[defender_circumstance] ﺎﻤﻨﻴﺑ [Weapon] [PAWN_possessive]ـﺑ ﺩﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[defender_circumstance] ،ﻰﻨﺒﻣ ﻝﻮﻄﺑ ﻒﻘﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[AdjectiveBadass] ﺍﺮﻴﺒﻌﺗ ﻱﺪﺗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[AdjectiveAngsty] ﺍﺮﻴﺒﻌﺗ ﻱﺪﺗﺮﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[Gore]ـﺑ ﺓﺎﻄﻐﻣ ﺽﺭﻷﺍ</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻧﺪﻌﻣ ﺓﺩﺮﺨﺑ ﺓﺎﻄﻐﻣ ﺽﺭﻷﺍ</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻭﺮﻔﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻭﺮﻔﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>defender_circumstance-&gt;ﺎﻴﺸﺘﻨﻣ ﺥﺮﺼﻳ</li>
+    <li>defender_circumstance-&gt;[Color] ﺞﻫﻮﺘﻳ</li>
+    <li>defender_circumstance-&gt;ﺎﻳﺪﺤﺘﻣ ﻩﺪﻳ ﺔﻀﺒﻗ ﻊﻓﺮﻳ</li>
+    <li>defender_circumstance-&gt;[PAWN_possessive] ﺕﻼﻀﻋ ﺽﺮﻌﺘﺴﻳ</li>
+ </ShipPartCrash.rulePack.rulesStrings>
+  
+  <!-- EN: tornado -->
+  <Tornado.label>ﺭﺎﺼﻋﺇ</Tornado.label>
+  <!-- EN:
+    <li>tale_noun->a tornado that touched down near [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->[PAWN_nameDef]'s [Community] being menaced by tornado</li>
+    <li>image->[behavior] cone of twisting air [circumstance_phrase]</li>
+    <li>image->[behavior] tornado [circumstance_phrase]</li>
+    <li>image->[behavior] hurricane [circumstance_phrase]</li>
+    <li>image->[behavior] [Color] cloud formation [circumstance_phrase]</li>
+    <li>behavior->an advancing</li>
+    <li>behavior->an approaching</li>
+    <li>behavior->a quickly-moving</li>
+    <li>behavior->a swirling</li>
+    <li>circumstance_phrase->carrying debris with it</li>
+    <li>circumstance_phrase->passing over a [TerrainFeature]</li>
+    <li>circumstance_phrase->obscuring a [TerrainFeature]</li>
+    <li>circumstance_phrase->enveloping a [TerrainFeature]</li>
+    <li>desc_sentence->[PAWN_nameDef] watches with visible fright.</li>
+    <li>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</li>
+    <li>desc_sentence->[PAWN_nameDef] is coordinating defensive measures.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>desc_sentence->All animal life has left the area.</li>
+  -->
+  <Tornado.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﺏﺮﻗ ﻂﺒﻬﻳ ﺭﺎﺼﻋﺇ</li>
+    <li>tale_noun-&gt;ﺭﺎﺼﻋﺇ ﻩﺩﺪﻬﻳ [PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community]</li>
+    <li>image-&gt;[circumstance_phrase] ﻱﻮﺘﻠﻤﻟﺍ ﺀﺍﻮﻬﻟﺍ ﻦﻣ ﻁﻭﺮﺨﻣ [behavior]</li>
+    <li>image-&gt;[circumstance_phrase] ﺭﺎﺼﻋﺇ [behavior]</li>
+    <li>image-&gt;[circumstance_phrase] ﻦﻴﻜﻳﺭﺎﻫ ﺭﺎﺼﻋﺇ [behavior]</li>
+    <li>image-&gt;[Color] [circumstance_phrase] ﺐﺤﺳ ﺔﻠﻴﻜﺸﺗ [behavior]</li>
+    <li>behavior-&gt;ﻡﺪﻘﺘﻣ</li>
+    <li>behavior-&gt;ﺏﺮﺘﻘﻣ</li>
+    <li>behavior-&gt;ﺔﻛﺮﺤﻟﺍ ﻊﻳﺮﺳ</li>
+    <li>behavior-&gt;ﺭﺍﻭﺩ</li>
+    <li>circumstance_phrase-&gt;ﻪﻌﻣ ﻡﺎﻄﺤﻟﺍ ﻞﻤﺤﻳ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﻕﻮﻓ ﺮﻤﻳ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﺐﺠﺤﻳ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﻒﻠﻐﻳ</li>
+    <li>desc_sentence-&gt;.ﺢﺿﺍﻭ ﻑﻮﺨﺑ ﺪﻫﺎﺸﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[PAWN_possessive] ﻪﺟﻭ ﻰﻠﻋ ﻝﻮﻫﺬﺑ ﺪﻫﺎﺸﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻋﺎﻓﺩ ﺕﺍﺀﺍﺮﺟﺇ ﻖﺴﻨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺩﺍﺪﻌﺘﺳﻼﻟ ﻥﻮﻋﺮﻬﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻭﺮﻔﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;ﺔﻴﻧﺍﻮﻴﺤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻞﻛ ﺕﺭﺩﺎﻏ ﺪﻘﻟ\n.ﺔﻘﻄﻨﻤﻟﺍ</li>
+ </Tornado.rulePack.rulesStrings>
+  
+  <!-- EN: tornado -->
+  <TornadoFromItem.label>ﺭﺎﺼﻋﺇ</TornadoFromItem.label>
+  <!-- EN:
+    <li>tale_noun->a tornado that touched down near [COLONIST_nameDef]'s [Community]</li>
+    <li>tale_noun->[COLONIST_nameDef]'s [Community] menaced by a tornado</li>
+    <li>image->[behavior] cone of twisting air [circumstance_phrase]</li>
+    <li>image->[behavior] tornado [circumstance_phrase]</li>
+    <li>image->[behavior] hurricane [circumstance_phrase]</li>
+    <li>image->[behavior] [Color] cloud formation [circumstance_phrase]</li>
+    <li>behavior->an advancing</li>
+    <li>behavior->an approaching</li>
+    <li>behavior->a quickly-moving</li>
+    <li>behavior->a swirling</li>
+    <li>circumstance_phrase->carrying debris with it</li>
+    <li>circumstance_phrase->passing over a [TerrainFeature]</li>
+    <li>circumstance_phrase->obscuring a [TerrainFeature]</li>
+    <li>circumstance_phrase->enveloping a [TerrainFeature]</li>
+    <li>desc_sentence->[COLONIST_nameDef] watches with visible fright.</li>
+    <li>desc_sentence(p=0.5)->[COLONIST_nameDef] watches with awe on [COLONIST_possessive] face.</li>
+    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] watches with awe on [ATTACKER_possessive] face.</li>
+    <li>desc_sentence->[COLONIST_nameDef] is coordinating defensive measures.</li>
+    <li>desc_sentence->[ATTACKER_nameDef] cackles with glee.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>desc_sentence->All animal life has left the area.</li>
+  -->
+  <TornadoFromItem.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[COLONIST_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﺏﺮﻗ ﻂﺒﻬﻳ ﺭﺎﺼﻋﺇ</li>
+    <li>tale_noun-&gt;ﺭﺎﺼﻋﺇ ﻩﺩﺪﻬﻳ [COLONIST_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community]</li>
+    <li>image-&gt;[circumstance_phrase] ﻱﻮﺘﻠﻤﻟﺍ ﺀﺍﻮﻬﻟﺍ ﻦﻣ ﻁﻭﺮﺨﻣ [behavior]</li>
+    <li>image-&gt;[circumstance_phrase] ﺭﺎﺼﻋﺇ [behavior]</li>
+    <li>image-&gt;[circumstance_phrase] ﻦﻴﻜﻳﺭﺎﻫ ﺭﺎﺼﻋﺇ [behavior]</li>
+    <li>image-&gt;[Color] [circumstance_phrase] ﺐﺤﺳ ﺔﻠﻴﻜﺸﺗ [behavior]</li>
+    <li>behavior-&gt;ﻡﺪﻘﺘﻣ</li>
+    <li>behavior-&gt;ﺏﺮﺘﻘﻣ</li>
+    <li>behavior-&gt;ﺔﻛﺮﺤﻟﺍ ﻊﻳﺮﺳ</li>
+    <li>behavior-&gt;ﺭﺍﻭﺩ</li>
+    <li>circumstance_phrase-&gt;ﻪﻌﻣ ﻡﺎﻄﺤﻟﺍ ﻞﻤﺤﻳ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﻕﻮﻓ ﺮﻤﻳ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﺐﺠﺤﻳ</li>
+    <li>circumstance_phrase-&gt;[TerrainFeature] ﻒﻠﻐﻳ</li>
+    <li>desc_sentence-&gt;.ﺢﺿﺍﻭ ﻑﻮﺨﺑ ﺪﻫﺎﺸﻳ [COLONIST_nameDef]</li>
+    <li>desc_sentence(p=0.5)-&gt;.[COLONIST_possessive] ﻪﺟﻭ ﻰﻠﻋ ﻝﻮﻫﺬﺑ ﺪﻫﺎﺸﻳ [COLONIST_nameDef]</li>
+    <li>desc_sentence(p=0.5)-&gt;.[ATTACKER_possessive] ﻪﺟﻭ ﻰﻠﻋ ﻝﻮﻫﺬﺑ ﺪﻫﺎﺸﻳ [ATTACKER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻋﺎﻓﺩ ﺕﺍﺀﺍﺮﺟﺇ ﻖﺴﻨﻳ [COLONIST_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺭﻭﺮﺴﺑ ﻪﻘﻬﻘﻳ [ATTACKER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺩﺍﺪﻌﺘﺳﻼﻟ ﻥﻮﻋﺮﻬﻳ [PersonJob]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻥﻭﺮﻔﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;ﺔﻴﻧﺍﻮﻴﺤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻞﻛ ﺕﺭﺩﺎﻏ ﺪﻘﻟ\n.ﺔﻘﻄﻨﻤﻟﺍ</li>
+ </TornadoFromItem.rulePack.rulesStrings>
+  
+  <!-- EN: toxic fallout -->
+  <ToxicFallout.label>ﻡﺎﺳ ﻂﻗﺎﺴﺗ</ToxicFallout.label>
+  <!-- EN:
+    <li>tale_noun->fallout settling over [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming toxic</li>
+    <li>image->an ominous sky, [circumstance_group]</li>
+    <li>image->the air becoming thick and [circumstance_group]</li>
+    <li>image->the ground glowing gently and [circumstance_group]</li>
+    <li>image->fields of dead plants [circumstance_group]</li>
+    <li>image->[Quantity_adjphrase] graves [circumstance_group]</li>
+    <li>circumstance_phrase->with no life in sight</li>
+    <li>circumstance_phrase->covered by a faint sheen of luminous dust</li>
+    <li>circumstance_phrase->arranged in a pattern that suggests bones</li>
+    <li>circumstance_phrase->waiting for the poison to stop</li>
+    <li>desc_sentence->[PAWN_nameDef] lies on the ground, [PAWN_possessive] body twisted at an unusual angle.</li>
+    <li>desc_sentence->[PAWN_nameDef] hides near a [TerrainFeature], gazing out with a [AdjectiveAngsty] look.</li>
+    <li>desc_sentence->[PAWN_nameDef] looks on in shock.</li>
+    <li>desc_sentence->[PAWN_nameDef] rests quietly with a layer of sweat upon [PAWN_possessive] face.</li>
+    <li>desc_sentence->[Quantity_adjphrase] dead [Animal]s lay on the ground.</li>
+    <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
+  -->
+  <ToxicFallout.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﻕﻮﻓ ﺮﻘﺘﺴﻳ ﻂﻗﺎﺴﺗ</li>
+    <li>tale_noun-&gt;ﺢﺒﺼﻳ [PAWN_nameDef]ـﻟ ﻊﺑﺎﺘﻟﺍ [Community] ﺏﺮﻗ ﻮﺠﻟﺍ\nﺎﻣﺎﺳ</li>
+    <li>image-&gt;[circumstance_group] ،ﺔﻣﻭﺆﺸﻣ ﺀﺎﻤﺳ</li>
+    <li>image-&gt;[circumstance_group]ﻭ ﺎﻔﻴﺜﻛ ﺢﺒﺼﻳ ﺀﺍﻮﻬﻟﺍ</li>
+    <li>image-&gt;[circumstance_group]ﻭ ﻒﻄﻠﺑ ﺞﻫﻮﺘﺗ ﺽﺭﻷﺍ</li>
+    <li>image-&gt;[circumstance_group] ﺔﺘﻴﻤﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻦﻣ ﻝﻮﻘﺣ</li>
+    <li>image-&gt;[circumstance_group] ﺭﻮﺒﻗ [Quantity_adjphrase]</li>
+    <li>circumstance_phrase-&gt;ﻖﻓﻷﺍ ﻲﻓ ﺓﺎﻴﺤﻟﺍ ﻡﺍﺪﻌﻧﺍ ﻊﻣ</li>
+    <li>circumstance_phrase-&gt;ﺭﺎﺒﻐﻟﺍ ﻦﻣ ﺖﻓﺎﺧ ﻖﻳﺮﺒﺑ ﺓﺎﻄﻐﻣ\nﺀﻲﻀﻤﻟﺍ</li>
+    <li>circumstance_phrase-&gt;ﻡﺎﻈﻌﻟﺎﺑ ﻲﺣﻮﻳ ﻂﻤﻨﺑ ﺔﺒﺗﺮﻣ</li>
+    <li>circumstance_phrase-&gt;ﻢﺴﻟﺍ ﻒﻗﻮﺗ ﺮﻈﺘﻨﺗ</li>
+    <li>desc_sentence-&gt;ﻱﻮﺘﻠﻣ [PAWN_possessive] ﺪﺴﺟ ،ﺽﺭﻷﺍ ﻰﻠﻋ ﺪﻗﺮﻳ [PAWN_nameDef]\n.ﺔﻳﺩﺎﻴﺘﻋﺍ ﺮﻴﻏ ﺔﻳﻭﺍﺰﺑ</li>
+    <li>desc_sentence-&gt;.[AdjectiveAngsty] ﺓﺮﻈﻨﺑ ﻕﺪﺤﻳ ،[TerrainFeature] ﺏﺮﻗ ﺊﺒﺘﺨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺔﻣﺪﺼﺑ ﺮﻈﻨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;ﻦﻣ ﺔﻘﺒﻃ ﻊﻣ ﺀﻭﺪﻬﺑ ﺢﻳﺮﺘﺴﻳ [PAWN_nameDef]\n.[PAWN_possessive] ﻪﺟﻭ ﻰﻠﻋ ﻕﺮﻌﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﺽﺭﻷﺍ ﻰﻠﻋ ﺪﻗﺮﺗ ﺔﺘﻴﻤﻟﺍ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;ﻰﻠﻋ ﺪﻗﺮﺗ ﺓﺮﻀﺘﺤﻤﻟﺍ [Animal]s ﻦﻣ [Quantity_adjphrase]\n.ﺽﺭﻷﺍ</li>
+    <li>desc_sentence-&gt;.ﻖﻠﻘﺑ ﻊﻜﺴﺘﺗ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+ </ToxicFallout.rulePack.rulesStrings>
+  
+  <!-- EN: volcanic winter -->
+  <VolcanicWinter.label>ﻲﻧﺎﻛﺮﺑ ﺀﺎﺘﺷ</VolcanicWinter.label>
+  <!-- EN:
+    <li>tale_noun->volcanic winter beginning at [PAWN_nameDef]'s [Community]</li>
+    <li>image->a dark and cold sky, [circumstance_group]</li>
+    <li>image->the air filling with ash, [circumstance_group]</li>
+    <li>image->a frost-covered barren [TerrainFeature] [circumstance_group]</li>
+    <li>image->[Quantity_adjphrase] fields of ash-covered plants [circumstance_group]</li>
+    <li>circumstance_phrase->with no life in sight</li>
+    <li>circumstance_phrase->barely illuminated by thin shafts of light</li>
+    <li>circumstance_phrase->starkly illuminated with chilly blue light</li>
+    <li>desc_sentence->[PAWN_nameDef] huddles near a fire.</li>
+    <li>desc_sentence->To stay warm, [PAWN_nameDef] wears [Quantity_adjphrase] [Apparel]s.</li>
+    <li>desc_sentence->[PAWN_nameDef] sits nearby, visibly exhausted by the ordeal.</li>
+    <li>desc_sentence->[PAWN_nameDef] hides near a [TerrainFeature], gazing out with a [AdjectiveAngsty] look.</li>
+    <li>desc_sentence->[Quantity_adjphrase] starving [Animal]s surround the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] shivering [Animal]s surround the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
+  -->
+  <VolcanicWinter.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﻊﺑﺎﺘﻟﺍ [Community] ﻲﻓ ﺃﺪﺒﻳ ﻲﻧﺎﻛﺮﺑ ﺀﺎﺘﺷ\n[PAWN_nameDef]ـﻟ</li>
+    <li>image-&gt;[circumstance_group] ،ﺓﺩﺭﺎﺑﻭ ﺔﻤﻠﻈﻣ ﺀﺎﻤﺳ</li>
+    <li>image-&gt;[circumstance_group] ،ﺩﺎﻣﺮﻟﺎﺑ ﺊﻠﺘﻤﻳ ﺀﺍﻮﻬﻟﺍ</li>
+    <li>image-&gt;[circumstance_group] ﻊﻴﻘﺼﻟﺎﺑ ﻰﻄﻐﻣ ﻞﺣﺎﻗ [TerrainFeature]</li>
+    <li>image-&gt;ﺓﺎﻄﻐﻤﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻦﻣ ﻝﻮﻘﺣ [Quantity_adjphrase]\n[circumstance_group] ﺩﺎﻣﺮﻟﺎﺑ</li>
+    <li>circumstance_phrase-&gt;ﻖﻓﻷﺍ ﻲﻓ ﺓﺎﻴﺤﻟﺍ ﻡﺍﺪﻌﻧﺍ ﻊﻣ</li>
+    <li>circumstance_phrase-&gt;ﻦﻣ ﺔﻌﻴﻓﺭ ﺓﺪﻤﻋﺄﺑ ﺓﺀﺎﻀﻣ ﺩﺎﻜﻟﺎﺑ\nﺀﻮﻀﻟﺍ</li>
+    <li>circumstance_phrase-&gt;ﺩﺭﺎﺑ ﻕﺭﺯﺃ ﺀﻮﻀﺑ ﺥﺭﺎﺻ ﻞﻜﺸﺑ ﺓﺀﺎﻀﻣ</li>
+    <li>desc_sentence-&gt;.ﺭﺎﻧ ﺏﺮﻗ ﻡﻮﻜﺘﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;.[Apparel]s ﻦﻣ [PAWN_nameDef] [Quantity_adjphrase] ﻱﺪﺗﺮﻳ ،ﺎﺌﻓﺍﺩ ﻰﻘﺒﻴﻟ</li>
+    <li>desc_sentence-&gt;ﺢﺿﺍﻭ ﻞﻜﺸﺑ ﻚﻬﻨﻣ ،ﺏﺮﻘﻟﺎﺑ ﺲﻠﺠﻳ [PAWN_nameDef]\n.ﺔﻨﺤﻤﻟﺍ ﻦﻣ</li>
+    <li>desc_sentence-&gt;.[AdjectiveAngsty] ﺓﺮﻈﻨﺑ ﻕﺪﺤﻳ ،[TerrainFeature] ﺏﺮﻗ ﺊﺒﺘﺨﻳ [PAWN_nameDef]</li>
+    <li>desc_sentence-&gt;ﻂﻴﺤﺗ ﺎﻋﻮﺟ ﺓﺭﻮﻀﺘﻤﻟﺍ ﺕﺍ[Animal] ﻦﻣ [Quantity_adjphrase]\n.ﺪﻬﺸﻤﻟﺎﺑ</li>
+    <li>desc_sentence-&gt;ﻂﻴﺤﺗ ﺔﻔﺠﺗﺮﻤﻟﺍ ﺕﺍ[Animal] ﻦﻣ [Quantity_adjphrase]\n.ﺪﻬﺸﻤﻟﺎﺑ</li>
+    <li>desc_sentence-&gt;ﻰﻠﻋ ﺪﻗﺮﺗ ﺓﺮﻀﺘﺤﻤﻟﺍ ﺕﺍ[Animal] ﻦﻣ [Quantity_adjphrase]\n.ﺽﺭﻷﺍ</li>
+    <li>desc_sentence-&gt;.ﻖﻠﻘﺑ ﻊﻜﺴﺘﺗ ﺕﺍ[Animal] ﻦﻣ [Quantity_adjphrase]</li>
+ </VolcanicWinter.rulePack.rulesStrings>
+  
+</LanguageData>

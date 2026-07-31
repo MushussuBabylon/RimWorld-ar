@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
+  -->
+  <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;\n،[titleHolder_nameFull] ﺐﻘﻠﻟ ًﺎﺜﻳﺭﻭ [titleHeir_nameFull] ﻞﻌﺟ ﺲﻳﺮﻜﺘﻟ\n.ﻱﺭﺎﻛﺬﺗ ﺐﺼﻧ ﺀﺎﻨﺑ ﻚﻴﻠﻋ ﺐﺠﻳ\n\nﻩﺬﻫ ﺐﻠﻄﺘﻴﺳﻭ [monumentSize] ﺐﺼﻨﻟﺍ ﻢﺠﺣ ﻥﻮﻜﻴﺳ\n:([monumentRequiredResourcesMarketValue_money] ﺔﻴﻟﺎﻤﺟﻹﺍ ﺔﻤﻴﻘﻟﺍ) ﺩﺭﺍﻮﻤﻟﺍ\n\n[monumentRequiredResources]\n\n20 ﻝﻼﺧ ﺐﺼﻨﻟﺍ ﺀﺎﻬﻧﺇ ﻡﺪﻋ ﺮﺒﺘﻌﻳ\nﺾﻔﺨﻨﺘﺳ .ﺲﻘﻄﻠﻟ ًﺎﺴﻴﻧﺪﺗ ًﺎﻣﻮﻳ\nﻢﺘﻳ ﻦﻟﻭ ،25 ﺭﺍﺪﻘﻤﺑ [asker_factionName] ﻊﻣ ﻚﺗﺎﻗﻼﻋ\n.ﺚﻳﺭﻮﻟﺍ ﺮﻴﻴﻐﺗ\n\nﻡﻮﻳ [keepMonumentTicks_duration] ﻝﻼﺧ ﺐﺼﻨﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ ﺍﺫﺇ\n[asker_factionName] ﻊﻣ ﻚﺗﺎﻗﻼﻋ ﺾﻔﺨﻨﺘﺳ ،ﻝﺎﻤﻛﻹﺍ ﺪﻌﺑ\n.[goodwillChangeIfMonumentDestroyed] ﺭﺍﺪﻘﻤﺑ</li>
+ </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[titleHeir_nameDef]'s inheritance</li>
+  -->
+  <ChangeRoyalHeir.questNameRules.rulesStrings>
+    <li>questName-&gt;[titleHeir_nameDef] ﺙﺍﺮﻴﻣ</li>
+ </ChangeRoyalHeir.questNameRules.rulesStrings>
+  <!-- EN: Time left: {0} -->
+  <ChangeRoyalHeir.InspectStringTimeLeft.slateRef>{0} :ﻲﻘﺒﺘﻤﻟﺍ ﺖﻗﻮﻟﺍ</ChangeRoyalHeir.InspectStringTimeLeft.slateRef>
+  <!-- EN: [titleHolder_nameDef]'s heir change failed -->
+  <ChangeRoyalHeir.LetterTextAskerOffended.slateRef>[titleHolder_nameDef] ﺚﻳﺭﻭ ﺮﻴﻴﻐﺗ ﻞﺸﻓ</ChangeRoyalHeir.LetterTextAskerOffended.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
+  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>ﺲﻳﺮﻜﺘﺑ ﺕﺪﻋﻭ ﻚﻧﻷ ﺔﻧﺎﻫﻹﺎﺑ [asker_nameDef] ﺮﻌﺷ\nﻢﻘﺗ ﻢﻟ ﻚﻨﻜﻟ ،ﺪﻳﺪﺠﻟﺍ ﺙﺍﺮﻴﻤﻟﺍ\n.ﺩﺪﺤﻤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﺐﺼﻨﻟﺍ ﺀﺎﻨﺒﺑ\n\n.[asker_faction_name] ﻊﻣ ﺔﻴﻨﻟﺍ ﻦﺴﺣ ﻦﻣ 25 ﺕﺪﻘﻓ ﺪﻘﻟ</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
+  <!-- EN: Title holder died: {SUBJECT_definite} -->
+  <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>{SUBJECT_definite} :ﺐﻘﻠﻟﺍ ﻞﻣﺎﺣ ﻲﻓﻮﺗ</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
+  <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
+  <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>ﺪﻴﻗ ﻪﺜﻳﺭﻭ ﻥﺎﻛ ﻱﺬﻟﺍ ،{SUBJECT_definite} ﻲﻓﻮﺗ\n.ﺮﻴﻴﻐﺘﻟﺍ</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
+  <!-- EN: Designated heir died: {SUBJECT_definite} -->
+  <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>{SUBJECT_definite} :ﻦﻴﻌﻤﻟﺍ ﺚﻳﺭﻮﻟﺍ ﻲﻓﻮﺗ</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
+  <!-- EN: {SUBJECT_definite}, who was supposed to become heir to a title, has died. -->
+  <ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>ﻥﺃ ﺽﺮﺘﻔﻤﻟﺍ ﻦﻣ ﻥﺎﻛ ﻱﺬﻟﺍ ،{SUBJECT_definite} ﻲﻓﻮﺗ\n.ﺐﻘﻠﻟ ًﺎﺜﻳﺭﻭ ﺢﺒﺼﻳ</ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>
+  <!-- EN: Monument destroyed -->
+  <ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>ﺮﻣﺪُﻣ ﺐﺼﻧ</ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but allowed the monument to be ruined soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
+  <ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>ﺲﻳﺮﻜﺘﺑ ﺕﺪﻋﻭ ﻚﻧﻷ ﺔﻧﺎﻫﻹﺎﺑ [asker_nameDef] ﺮﻌﺷ\nﺖﺤﻤﺳ ﻚﻨﻜﻟ ،ﺪﻳﺪﺠﻟﺍ ﺙﺍﺮﻴﻤﻟﺍ\nﺓﺮﺘﻔﺑ ﻪﻟﺎﻤﻛﺇ ﺪﻌﺑ ﺐﺼﻨﻟﺍ ﺐﻳﺮﺨﺘﺑ\n.ﺓﺰﻴﺟﻭ\n\nﺭﺍﺪﻘﻤﺑ [asker_faction_name] ﻊﻣ ﻚﺗﺎﻗﻼﻋ ﺖﻀﻔﺨﻧﺍ ﺪﻘﻟ\n.[goodwillChangeIfMonumentDestroyed]</ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>
+  <!-- EN: New heir: [titleHeir_nameDef] -->
+  <ChangeRoyalHeir.LetterLabelNewHeir.slateRef>[titleHeir_nameDef] :ﺪﻳﺪﺟ ﺚﻳﺭﻭ</ChangeRoyalHeir.LetterLabelNewHeir.slateRef>
+  <!-- EN: [titleHeir_nameDef] is the new heir of [titleHolder_nameDef]. -->
+  <ChangeRoyalHeir.LetterTextNewHeir.slateRef>.[titleHolder_nameDef]ـﻟ ﺪﻳﺪﺠﻟﺍ ﺚﻳﺭﻮﻟﺍ ﻮﻫ [titleHeir_nameDef]</ChangeRoyalHeir.LetterTextNewHeir.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>{0} ﺓﺪﻤﻟ ﺐﺼﻨﻟﺍ ﺮﻣﺪﺗ ﻻ</ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>{0} ﺓﺪﻤﻟ ﺐﺼﻨﻟﺍ ﺮﻣﺪﺗ ﻻ</ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>
+  <!-- EN: Keep monument {0} -->
+  <ChangeRoyalHeir.KeepMonument.slateRef>{0} ﺐﺼﻨﻟﺍ ﻰﻠﻋ ﻆﻓﺎﺣ</ChangeRoyalHeir.KeepMonument.slateRef>
+  
+</LanguageData>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>situation(p=2)->safely</li>
+    <li>situation->at night</li>
+    <li>situation->in the cold</li>
+    <li>situation->while injured</li>
+    <li>situation(p=0.2)->while drunk</li>
+  -->
+  <LessonInteractionCommonSituations.rulePack.rulesStrings>
+    <li>situation(p=2)-&gt;ﻥﺎﻣﺄﺑ</li>
+    <li>situation-&gt;ﻞﻴﻠﻟﺍ ﻲﻓ</li>
+    <li>situation-&gt;ﺩﺮﺒﻟﺍ ﻲﻓ</li>
+    <li>situation-&gt;ﺔﺑﺎﺻﻹﺍ ﺀﺎﻨﺛﺃ</li>
+    <li>situation(p=0.2)-&gt;ﻞﻤﺛ ﻮﻫﻭ</li>
+ </LessonInteractionCommonSituations.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
+  -->
+  <LessonInteractionHowTo.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)-&gt;.[RECIPIENT_nameDef]ـﻟ [action] [article_tool] ﺔﻴﻔﻴﻛ [INITIATOR_nameDef] [teach_adverb] [teach_verb]</li>
+    <li>r_logentry-&gt;.[RECIPIENT_nameDef]ـﻟ [action] [article_tool] ﺔﻴﻔﻴﻛ [INITIATOR_nameDef] [teach_verb]</li>
+ </LessonInteractionHowTo.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
+    <li>teach_test->quizzed</li>
+    <li>teach_test->tested</li>
+    <li>teach_test->grilled</li>
+    <li>teach_test->cross-examined</li>
+  -->
+  <LessonInteractionQuiz.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)-&gt;.[action_gerund] [article_tool] [situation] ﻲﻓ [INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef]</li>
+    <li>teach_test-&gt;ﺮﺒﺘﺧﺍ</li>
+    <li>teach_test-&gt;ﻦﺤﺘﻣﺍ</li>
+    <li>teach_test-&gt;ﺏﻮﺠﺘﺳﺍ</li>
+    <li>teach_test-&gt;ﻖﻄﻨﺘﺳﺍ</li>
+ </LessonInteractionQuiz.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+    <li>study_verb->covered</li>
+    <li>study_verb->went over</li>
+    <li>study_verb->researched</li>
+    <li>study_verb->studied</li>
+  -->
+  <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
+    <li>r_logentry(p=0.25)-&gt;.[RECIPIENT_nameDef] ﻊﻣ [INITIATOR_nameDef] [teach_adverb] [study_verb] [subject]</li>
+    <li>r_logentry(p=0.5)-&gt;.[RECIPIENT_nameDef] ﻊﻣ [INITIATOR_nameDef] [study_verb] [subject]</li>
+    <li>study_verb-&gt;ﻰﻄﻏ</li>
+    <li>study_verb-&gt;ﻊﺟﺍﺭ</li>
+    <li>study_verb-&gt;ﻲﻓ ﺚﺤﺑ</li>
+    <li>study_verb-&gt;ﺱﺭﺩ</li>
+ </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>teach_adverb->calmly</li>
+    <li>teach_adverb->animatedly</li>
+    <li>teach_adverb->intently</li>
+    <li>teach_adverb->quickly</li>
+    <li>teach_adverb->lightheartedly</li>
+    <li>teach_adverb->carefully</li>
+  -->
+  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+    <li>teach_adverb-&gt;ﺀﻭﺪﻬﺑ</li>
+    <li>teach_adverb-&gt;ﺔﻳﻮﻴﺤﺑ</li>
+    <li>teach_adverb-&gt;ﻡﺎﻤﺘﻫﺎﺑ</li>
+    <li>teach_adverb-&gt;ﺔﻋﺮﺴﺑ</li>
+    <li>teach_adverb-&gt;ﻡﺩ ﺔﻔﺨﺑ</li>
+    <li>teach_adverb-&gt;ﺔﻳﺎﻨﻌﺑ</li>
+ </LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>teach_verb->demonstrated</li>
+    <li>teach_verb->explained</li>
+    <li>teach_verb->showed</li>
+    <li>teach_verb->taught</li>
+  -->
+  <LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+    <li>teach_verb-&gt;ًﺎﻴﻠﻤﻋ ﺡﺮﺷ</li>
+    <li>teach_verb-&gt;ﺡﺮﺷ</li>
+    <li>teach_verb-&gt;ﺮﻬﻇﺃ</li>
+    <li>teach_verb-&gt;ﻢﻠﻋ</li>
+ </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+    <li>talk_verb->talked about</li>
+    <li>talk_verb->gave an overview of</li>
+    <li>talk_verb->gave a summary of</li>
+    <li>talk_verb->lectured about</li>
+  -->
+  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+    <li>r_logentry(p=0.25)-&gt;.[RECIPIENT_nameDef] ﻰﻟﺇ [INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject]</li>
+    <li>r_logentry(p=0.5)-&gt;.[RECIPIENT_nameDef] ﻰﻟﺇ [INITIATOR_nameDef] [talk_verb] [subject]</li>
+    <li>talk_verb-&gt;ﻦﻋ ﺙﺪﺤﺗ</li>
+    <li>talk_verb-&gt;ﻦﻋ ﺔﻣﺎﻋ ﺓﺮﻈﻧ ﻡﺪﻗ</li>
+    <li>talk_verb-&gt;ﻦﻋ ًﺎﺼﺨﻠﻣ ﻡﺪﻗ</li>
+    <li>talk_verb-&gt;ﻦﻋ ﺮﺿﺎﺣ</li>
+ </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+  
+</LanguageData>

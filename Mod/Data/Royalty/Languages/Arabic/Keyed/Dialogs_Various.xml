@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Royal Titles -->
+  <!-- EN: The amount of {FACTION_royalFavorLabel} that your negotiator will personally receive as a result of this deal. -->
+  <RoyalFavorDescription>ﻚﺿﻭﺎﻔﻣ ﻩﺎﻘﻠﺘﻴﺳ ﻱﺬﻟﺍ {FACTION_royalFavorLabel} ﺭﺍﺪﻘﻣ\n.ﺔﻘﻔﺼﻟﺍ ﻩﺬﻬﻟ ﺔﺠﻴﺘﻧ ًﺎﻴﺼﺨﺷ</RoyalFavorDescription>
+  <!-- EN: Required apparel -->
+  <RoyalTitleTooltipRequiredApparel>ﺔﺑﻮﻠﻄﻤﻟﺍ ﺲﺑﻼﻤﻟﺍ</RoyalTitleTooltipRequiredApparel>
+  <!-- EN: Minimum apparel quality -->
+  <RoyalTitleTooltipRequiredApparelQuality>ﺲﺑﻼﻤﻟﺍ ﺓﺩﻮﺠﻟ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ</RoyalTitleTooltipRequiredApparelQuality>
+  <!-- EN: Bedroom requirements -->
+  <RoyalTitleTooltipBedroomRequirements>ﻡﻮﻨﻟﺍ ﺔﻓﺮﻏ ﺕﺎﺒﻠﻄﺘﻣ</RoyalTitleTooltipBedroomRequirements>
+  <!-- EN: Throneroom requirements -->
+  <RoyalTitleTooltipThroneroomRequirements>ﺵﺮﻌﻟﺍ ﺔﻓﺮﻏ ﺕﺎﺒﻠﻄﺘﻣ</RoyalTitleTooltipThroneroomRequirements>
+  <!-- EN: Title privileges -->
+  <RoyalTitleTooltipPermits>ﺐﻘﻠﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ</RoyalTitleTooltipPermits>
+  <!-- EN: Holders of this title must be covered in some combination of -->
+  <RoyalTitleRequiredApparelStatDescription>ﺀﺍﺪﺗﺭﺍ ﺐﻘﻠﻟﺍ ﺍﺬﻫ ﻲﻠﻣﺎﺣ ﻰﻠﻋ ﺐﺠﻳ\nﻦﻣ ﻦﻴﻌﻣ ﺞﻳﺰﻣ</RoyalTitleRequiredApparelStatDescription>
+  <!-- EN: Any prestige armor -->
+  <ApparelRequirementAnyPrestigeArmor>(Prestige) ﺔﺒﻴﻫ ﻉﺭﺩ ﻱﺃ</ApparelRequirementAnyPrestigeArmor>
+  <!-- EN: Any psycaster apparel -->
+  <ApparelRequirementAnyPsycasterApparel>(Psycaster) ﺮﺘﺳﺎﻜﻳﺎﺳ ﺲﺑﻼﻣ ﻱﺃ</ApparelRequirementAnyPsycasterApparel>
+  <!-- EN: or any psycaster or prestige apparel -->
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>ﻉﺭﺩ ﻭﺃ ﺮﺘﺳﺎﻜﻳﺎﺳ ﺲﺑﻼﻣ ﻱﺃ ﻭﺃ\nﺔﺒﻴﻫ</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
+  <!-- EN: Disallowed work types -->
+  <DisabledWorkTypes>ﺓﺭﻮﻈﺤﻤﻟﺍ ﻞﻤﻌﻟﺍ ﻉﺍﻮﻧﺃ</DisabledWorkTypes>
+  <!-- EN: Allowed foods -->
+  <RoyalTitleRequiredMeals>ﺔﺣﻮﻤﺴﻤﻟﺍ ﺔﻤﻌﻃﻷﺍ</RoyalTitleRequiredMeals>
+  <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
+  <RoyalTitleRequiredMealsDesc>ﻩﺬﻫ ﻯﻮﺳ ﺐﻘﻠﻟﺍ ﺍﺬﻫ ﻞﻣﺎﺣ ﻞﻛﺄﻳ ﻦﻟ\nًﺎﻋﻮﺟ ﺭﻮﻀﺘﻳ ﻥﺎﻛ ﺍﺫﺇ ﻻﺇ ،ﺔﻤﻌﻃﻷﺍ\n.ﺔﻠﻓﺎﻗ ﻲﻓ ﻭﺃ</RoyalTitleRequiredMealsDesc>
+
+  <!-- Royal implants -->
+  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
+  <RoyalImplantIllegalUseWarning>ﻞﻤﺤﻳ ﻥﺃ ﺐﺠﻳ ،{FACTION_name} ﻦﻴﻧﺍﻮﻘﻟ ًﺎﻘﻓﻭ\nﻞﻜﺸﺑ {IMPLANT} ﻡﺍﺪﺨﺘﺳﻻ {TITLE} ﺐﻘﻟ ﺺﺨﺸﻟﺍ\n.ﻲﻧﻮﻧﺎﻗ\n\n{FACTION_name} ﺪﺻﺮﺗ ﻥﺃ ﻝﺎﻤﺘﺣﺍ ﻙﺎﻨﻫ ،{VIOLATIONTRIGGER}\nﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻴﺳ .ﺔﻴﺴﻔﻨﻟﺍ {IMPLANT}ـﻬﺘﻤﺼﺑ\n.ﺔﻴﺳﺎﻣﻮﻠﺑﺩ ﺐﻗﺍﻮﻋ</RoyalImplantIllegalUseWarning>
+  <!-- EN: Install this implant anyway? -->
+  <RoyalImplantInstallConfirmation>ﻰﻠﻋ ﺔﺳﺮﻐﻟﺍ ﻩﺬﻫ ﺖﻴﺒﺜﺗ ﺪﻳﺮﺗ ﻞﻫ\n؟ﻝﺎﺣ ﻱﺃ</RoyalImplantInstallConfirmation>
+  <!-- EN: Upgrade this implant anyway? -->
+  <RoyalImplantUpgradeConfirmation>ﻰﻠﻋ ﺔﺳﺮﻐﻟﺍ ﻩﺬﻫ ﺔﻴﻗﺮﺗ ﺪﻳﺮﺗ ﻞﻫ\n؟ﻝﺎﺣ ﻱﺃ</RoyalImplantUpgradeConfirmation>
+
+  <!-- Royal weapons -->
+  <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
+  <BladelinkEquipWarning>ﺾﻓﺮﺘﺳ ،{PAWN_possessive}ـﺑ ﺡﻼﺴﻟﺍ ﻁﺎﺒﺗﺭﺍ ﺩﺮﺠﻤﺑ\nﺺﺨﺷ ﻱﺃ ﺎﻬﻠﻤﺤﻳ ﻥﺃ ﺡﻼﺴﻟﺍ ﺔﻴﺼﺨﺷ\n.ﺮﺧﺁ</BladelinkEquipWarning>
+  <!-- EN: The weapon has the following traits -->
+  <BladelinkEquipWarningTraits>ﺔﻴﻟﺎﺘﻟﺍ ﺕﺎﻤﺴﻟﺎﺑ ﺡﻼﺴﻟﺍ ﻊﺘﻤﺘﻳ</BladelinkEquipWarningTraits>
+  <!-- EN: Are you sure you want to equip this item? -->
+  <RoyalWeaponEquipConfirmation>ﺰﻴﻬﺠﺗ ﺪﻳﺮﺗ ﻚﻧﺃ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ\n؟ﺮﺼﻨﻌﻟﺍ ﺍﺬﻫ</RoyalWeaponEquipConfirmation>
+  
+  <!-- Psycasts -->
+  <!-- EN: Target is psychically deaf. -->
+  <AbilityTargetPsychicallyDeaf>.ًﺎﻴﺴﻔﻧ ﻢﺻﺃ ﻑﺪﻬﻟﺍ</AbilityTargetPsychicallyDeaf>
+  <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
+  <PsycastIsIllegal>ﺐﻘﻟ ﺐﻠﻄﺘﻳ .{PAWN_labelShort}ـﻟ ﻲﻧﻮﻧﺎﻗ ﺮﻴﻏ ﺍﺬﻫ\n.{TITLE}</PsycastIsIllegal>
+
+  <!-- Skip -->
+  <!-- EN: Cannot skip {PAWN_labelShort} -->
+  <CannotSkipTarget>ﺪﻌﺑ ﻦﻋ {PAWN_labelShort} ﻞﻘﻧ ﻦﻜﻤﻳ ﻻ</CannotSkipTarget>
+  <!-- EN: Too large -->
+  <CannotSkipTargetTooLarge>ًﺍﺪﺟ ﺮﻴﺒﻛ ﻢﺠﺤﻟﺍ</CannotSkipTargetTooLarge>
+  <!-- EN: Psychic resistance -->
+  <CannotSkipTargetPsychicResistant>ﺔﻴﺴﻔﻧ ﺔﻣﻭﺎﻘﻣ</CannotSkipTargetPsychicResistant>
+
+  <!-- Warning -->
+  <!-- EN: This quest will reward {FACTION_royalFavorLabel} and thus royal titles for {PAWN_labelShort}. -->
+  <QuestGivesRoyalFavor>{FACTION_royalFavorLabel} ـﺑ ﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﺊﻓﺎﻜﺘﺳ\n.{PAWN_labelShort}ـﻟ ﺔﻴﻜﻠﻣ ﺏﺎﻘﻟﺃ ﻲﻟﺎﺘﻟﺎﺑﻭ</QuestGivesRoyalFavor>
+  <!-- EN: {PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept. -->
+  <RoyalIncapableOfSocial>ﻡﺎﻬﻤﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ {PAWN_labelShort}\nﻥﻮﻠﻤﺤﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ .ﺔﻴﻋﺎﻤﺘﺟﻻﺍ\nﻰﻟﺇ ﺔﺳﺎﻣ ﺔﺟﺎﺤﺑ ﺔﻴﻜﻠﻣ ًﺎﺑﺎﻘﻟﺃ\nﺍﺫﺇ ﺍﺬﻟ ،ﺔﻴﻋﺎﻤﺘﺟﻻﺍ ﺕﺍﺭﺎﻬﻤﻟﺍ\nًﺎﺘﻗﻭ ﻪﺟﺍﻮﻳ ﺪﻘﻓ ،ﺐﻘﻟ ﻰﻠﻋ {PAWN_labelShort} ﻞﺼﺣ\nﺮﻤﻌﺘﺴﻣ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﺪﻗ .ًﺎﺒﻴﺼﻋ\n.ﺔﻴﻋﺎﻤﺘﺟﺍﻭ ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﺮﺧﺁ</RoyalIncapableOfSocial>
+  <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
+  <RoyalWithConceitedTrait>ﻑﻮﺴﻓ ،{2} ﺔﻤﺳ ﻪﻳﺪﻟ {PAWN_labelShort} ﻥﺃ ﺎﻤﺑ\nﺐﻘﻠﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ ﻡﺍﺮﺘﺣﺎﺑ ﺐﻟﺎﻄﻳ\nﻡﺎﻴﻘﻟﺍ {PAWN_labelShort} ﺾﻓﺮﻳ ﺪﻗ .ﻞﻣﺎﻜﻟﺎﺑ\nﻝﻭﺎﻨﺗ ﻭﺃ ﻞﻤﻌﻟﺍ ﻦﻣ ﺔﻨﻴﻌﻣ ﻉﺍﻮﻧﺄﺑ\nﺭﺪﺼﻳ ﻑﻮﺳﻭ ،ﺔﻀﻔﺨﻨﻣ ﺔﻘﺒﻃ ﻡﺎﻌﻃ\nﻥﻮﻜﻳ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣ .ﻢﻴﺳﺍﺮﻤﻟﺍ\n.ﺔﻧﻭﺮﻣ ﺮﺜﻛﺃ ﺮﺧﺁ ﺮﻤﻌﺘﺴﻣ ﻙﺎﻨﻫ</RoyalWithConceitedTrait>
+  <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
+  <RoyalWithTraitAffectingPsylinkNegatively>ﻻ ﺪﻘﻓ ،{2} ﺔﻤﺳ ﻪﻳﺪﻟ {PAWN_labelShort} ﻥﺃ ﺎﻤﺑ\n.{PAWN_objective}ـﻟ ًﺍﺪﻴﻔﻣ ﻲﺴﻔﻨﻟﺍ ﻂﺑﺍﺮﻟﺍ ﻥﻮﻜﻳ</RoyalWithTraitAffectingPsylinkNegatively>
+  <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain this power anyways? -->
+  <PsylinkTooLowForGainAbility>ﻯﻮﺘﺴﻤﺑ ﺲﻴﻟ {PAWN_labelShort}ـﻟ ﻲﺴﻔﻨﻟﺍ ﻂﺑﺍﺮﻟﺍ\n.{ABILITY} ﻡﺍﺪﺨﺘﺳﻻ ٍﻑﺎﻛ ٍﻝﺎﻋ\n\nﺓﻮﻘﻟﺍ ﻩﺬﻫ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﺪﻳﺮﺗ ﻞﻫ\n؟ﻝﺎﺣ ﻱﺃ ﻰﻠﻋ</PsylinkTooLowForGainAbility>
+  <!-- EN: This shuttle is empty. If you send it away, you won't be able to use it again.\n\nSend it anyways? -->
+  <SendShuttleWithNoContents>ﻪﺘﻠﺳﺭﺃ ﺍﺫﺇ .ﻍﺭﺎﻓ ﻙﻮﻜﻤﻟﺍ ﺍﺬﻫ\nﻪﻣﺍﺪﺨﺘﺳﺍ ﻦﻣ ﻦﻜﻤﺘﺗ ﻦﻠﻓ ،ًﺍﺪﻴﻌﺑ\n.ًﺍﺩﺪﺠﻣ\n\n؟ﻝﺎﺣ ﻱﺃ ﻰﻠﻋ ﻪﻟﺎﺳﺭﺇ ﺪﻳﺮﺗ ﻞﻫ</SendShuttleWithNoContents>
+  <!-- EN: These resources would weigh the caravan down and make it unable to move.\n\nCall for them anyways? -->
+  <DropResourcesOverweightConfirm>ﺔﻠﻓﺎﻘﻟﺍ ﻞﻫﺎﻛ ﻞﻘﺜﺘﺳ ﺩﺭﺍﻮﻤﻟﺍ ﻩﺬﻫ\n.ﻙﺮﺤﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺮﻴﻏ ﺎﻬﻠﻌﺠﺗﻭ\n\n؟ﻝﺎﺣ ﻱﺃ ﻰﻠﻋ ﺎﻫﺀﺎﻋﺪﺘﺳﺍ ﺐﻠﻄﺗ ﻞﻫ</DropResourcesOverweightConfirm>
+
+</LanguageData>

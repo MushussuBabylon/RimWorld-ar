@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>mechanitorShuttleCrashedLetterLabel->Mechanitor ship</li>
+    <li>mechanitorShuttleCrashedLetterText->A mechanitor ship containing feral mechanoids has crashed nearby. The mechanoids will exit the crashed ship and prepare to fight.</li>
+    <li>assaultBeginLetterLabel->Mechanoid attack</li>
+    <li>assaultBeginLetterText->The feral mechanoids are coming to assault the colony!</li>
+    <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef]'s mechlink available</li>
+    <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li>
+  -->
+  <MechanitorShip.questContentRules.rulesStrings>
+    <li>mechanitorShuttleCrashedLetterLabel-&gt;ﺭﻮﺘﻴﻧﺎﻜﻴﻣ ﺔﻨﻴﻔﺳ</li>
+    <li>mechanitorShuttleCrashedLetterText-&gt;ﻱﻮﺘﺤﺗ ﺭﻮﺘﻴﻧﺎﻜﻴﻣ ﺔﻨﻴﻔﺳ ﺖﻤﻄﺤﺗ\nﻥﺎﻜﻣ ﻲﻓ ﺔﺸﺣﻮﺘﻣ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻣ ﻰﻠﻋ\nﻦﻣ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﺝﺮﺨﺘﺳ .ﺐﻳﺮﻗ\n.ﻝﺎﺘﻘﻠﻟ ﺪﻌﺘﺴﺗﻭ ﺔﻤﻄﺤﻤﻟﺍ ﺔﻨﻴﻔﺴﻟﺍ</li>
+    <li>assaultBeginLetterLabel-&gt;ﻱﺪﻳﻮﻧﺎﻜﻴﻣ ﻡﻮﺠﻫ</li>
+    <li>assaultBeginLetterText-&gt;ﺔﻣﺩﺎﻗ ﺔﺸﺣﻮﺘﻤﻟﺍ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\n!ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺔﻤﺟﺎﻬﻤﻟ</li>
+    <li>mechlinkAvailableLetterLabel-&gt;[mechanitor_nameDef] ـﺑ ﺹﺎﺨﻟﺍ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻂﺑﺍﺭ\nﺡﺎﺘﻣ</li>
+    <li>mechlinkAvailableLetterText-&gt;ﺔﺜﺟ ﻰﻠﻋ ﺔﻤﻄﺤﻤﻟﺍ ﺔﻨﻴﻔﺴﻟﺍ ﻱﻮﺘﺤﺗ\n.ﻢﻳﺪﻗ ﺭﻮﺘﻴﻧﺎﻜﻴﻣ\n\n[mechanitor_possessive] ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻂﺑﺍﺭ ﺝﺮﺨﺘﺳﺍ\nﺭﺰﺑ ﺮﻘﻨﻟﺍﻭ ﺮﻤﻌﺘﺴﻣ ﺪﻳﺪﺤﺘﺑ\n.ﺔﺜﺠﻟﺍ ﻰﻠﻋ ﻦﻤﻳﻷﺍ ﺓﺭﺄﻔﻟﺍ</li>
+ </MechanitorShip.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
+  -->
+  <MechanitorShip.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;،ﻢﻳﺪﻗ ﻝﺎﺳﺮﻣ ﺮﻴﻔﺸﺗ ﻚﻔﺑ ﺖﻤﻗ ﺪﻘﻟ\nﺔﻨﻴﻔﺳ ﻊﻗﻮﻣ ﻦﻋ ﻒﺸﻛ ﺎﻤﻣ\nﺔﻨﻴﻔﺴﻟﺍ .ﺭﺍﺪﻤﻟﺍ ﻲﻓ ﺔﻳﺪﻳﻮﻧﺎﻜﻴﻣ\nﻝﺎﺳﺭﺇ ﻚﻨﻜﻤﻳ ﻦﻜﻟﻭ ﺓﺪﺸﺑ ﺓﺭﺮﻀﺘﻣ\n.ﺐﻳﺮﻗ ﻥﺎﻜﻣ ﻲﻓ ﻂﺒﻬﺘﻟ ﺎﻬﻟ ﺓﺭﺎﺷﺇ\n\nﺕﺎﻓﺭ ﻰﻠﻋ ﺔﻨﻴﻔﺴﻟﺍ ﻱﻮﺘﺤﺗ\n.ﺪﻴﻌﺑ ﻦﻣﺯ ﺬﻨﻣ ﺕﺎﻣ ﺭﻮﺘﻴﻧﺎﻜﻴﻣ\nﺀﺎﺸﻧﺇ ﻦﻴﻳﺭﻮﺘﻴﻧﺎﻜﻴﻤﻠﻟ ﻦﻜﻤﻳ\nﻞﻤﻌﻠﻟ ﺎﻬﺑ ﻢﻜﺤﺘﻟﺍﻭ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\nﻂﺑﺍﺭ ﺝﺍﺮﺨﺘﺳﺎﺑ .ﻝﺎﺘﻘﻟﺍﻭ\nﻚﻨﻜﻤﻳ ،ﻰﻓﻮﺘﻤﻠﻟ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\nﻰﻟﺇ ﻚﻳﺪﻟ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﺪﺣﺃ ﻞﻳﻮﺤﺗ\n.ﺭﻮﺘﻴﻧﺎﻜﻴﻣ\n\nﻰﻠﻋ ﺎًﻀﻳﺃ ﺔﻨﻴﻔﺴﻟﺍ ﻱﻮﺘﺤﺗ - ﺭﺬﺣﺍ\nﻥﻮﻜﺘﺗ .ﺔﻳﺩﺎﻌﻣ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻣ\n:ﻦﻣ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﺔﻋﻮﻤﺠﻣ\n\n[mechList]</li>
+ </MechanitorShip.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective->mechanitor</li>
+    <li>shipAdjective->the overseer's</li>
+    <li>shipAdjective->ancient</li>
+    <li>shipAdjective->mechanoid</li>
+    <li>shipNoun->ship</li>
+    <li>shipNoun->shuttle</li>
+    <li>shipNoun->craft</li>
+    <li>shipNoun->wreck</li>
+    <li>shipNoun->wreckage</li>
+    <li>shipNoun->transport</li>
+  -->
+  <MechanitorShip.questNameRules.rulesStrings>
+    <li>questName-&gt;[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective-&gt;ﺭﻮﺘﻴﻧﺎﻜﻴﻣ</li>
+    <li>shipAdjective-&gt;ﻑﺮﺸﻤﻟﺍ</li>
+    <li>shipAdjective-&gt;ﺔﻤﻳﺪﻗ</li>
+    <li>shipAdjective-&gt;ﺔﻳﺪﻳﻮﻧﺎﻜﻴﻣ</li>
+    <li>shipNoun-&gt;ﺔﻨﻴﻔﺳ</li>
+    <li>shipNoun-&gt;ﻙﻮﻜﻣ</li>
+    <li>shipNoun-&gt;ﺔﺒﻛﺮﻣ</li>
+    <li>shipNoun-&gt;ﻡﺎﻄﺣ</li>
+    <li>shipNoun-&gt;ﻡﺎﻄﺣ</li>
+    <li>shipNoun-&gt;ﻞﻘﻧ</li>
+ </MechanitorShip.questNameRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: person captured -->
+  <Captured.label>ﻩﺮﺳﺃ ﻢﺗ ﺺﺨﺷ</Captured.label>
+  <!-- EN:
+    <li>tale_noun->[CAPTURER_nameDef] capturing [PRISONER_nameDef]</li>
+    <li>tale_noun->[PRISONER_nameDef] being captured by [CAPTURER_nameDef]</li>
+    <li>tale_noun->the capturing of [PRISONER_nameDef]</li>
+    <li>image->[CAPTURER_nameFull] capturing [PRISONER_nameFull] [circumstance_group]</li>
+    <li>image->[CAPTURER_nameFull] tying [PRISONER_nameFull]'s hands [circumstance_group]</li>
+    <li>image->[CAPTURER_nameFull] smacking [PRISONER_nameFull] while capturing [PRISONER_objective] [circumstance_group]</li>
+    <li>circumstance_phrase->as [PRISONER_pronoun] writhes on the ground</li>
+    <li>circumstance_phrase->as [PRISONER_pronoun] twists in pain</li>
+    <li>circumstance_phrase->with professional efficiency</li>
+    <li>circumstance_phrase->roughly and amateurishly</li>
+    <li>circumstance_phrase->with obviously excessive force</li>
+    <li>circumstance_phrase->with obvious pleasure</li>
+    <li>circumstance_phrase->while smiling with dominance</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is looking into [PRISONER_nameDef]'s eyes with a sense of dominance.</li>
+    <li>desc_sentence->[PRISONER_nameDef] is injured and seems to be in pain.</li>
+    <li>desc_sentence->[PRISONER_nameDef] looks resigned to [PRISONER_possessive] fate.</li>
+    <li>desc_sentence->[PRISONER_nameDef] is snarling with the fury of defeat.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is slapping [PRISONER_nameDef] to subdue [PRISONER_objective].</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is twisting [PRISONER_nameDef]'s ear.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is holding [PRISONER_nameDef] in a joint lock.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is spitting into [PRISONER_nameDef]'s face.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is laughing as tears well up in [PRISONER_nameDef]'s eyes.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] is kicking [PRISONER_nameDef] for no obvious reason.</li>
+  -->
+  <Captured.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[PRISONER_nameDef] ﺮﺳﺄﻳ [CAPTURER_nameDef]</li>
+    <li>tale_noun-&gt;[CAPTURER_nameDef] ﻞﺒﻗ ﻦﻣ ﻩﺮﺳﺃ ﻢﺘﻳ [PRISONER_nameDef]</li>
+    <li>tale_noun-&gt;[PRISONER_nameDef] ﺮﺳﺃ</li>
+    <li>image-&gt;[PRISONER_nameFull] [circumstance_group] ﺮﺳﺄﻳ [CAPTURER_nameFull]</li>
+    <li>image-&gt;[PRISONER_nameFull] [circumstance_group] ﻱﺪﻳ ﻂﺑﺮﻳ [CAPTURER_nameFull]</li>
+    <li>image-&gt;[PRISONER_objective] [circumstance_group] ﺮﺳﺃ ﺀﺎﻨﺛﺃ [PRISONER_nameFull] ﻊﻔﺼﻳ [CAPTURER_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﺽﺭﻷﺍ ﻰﻠﻋ [PRISONER_pronoun] ﻯﻮﻠﺘﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﻢﻟﻷﺍ ﻦﻣ [PRISONER_pronoun] ﻯﻮﻠﺘﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻴﻓﺍﺮﺘﺣﺍ ﺓﺀﺎﻔﻜﺑ</li>
+    <li>circumstance_phrase-&gt;ﺓﺍﻮﻫ ﺔﻘﻳﺮﻄﺑﻭ ﺓﻮﺴﻘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺢﺿﺍﻭ ﻞﻜﺸﺑ ﺔﻃﺮﻔﻣ ﺓﻮﻘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﺤﺿﺍﻭ ﺔﻌﺘﻤﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻨﻤﻴﻫ ﺔﻣﺎﺴﺘﺑﺎﺑ</li>
+    <li>desc_sentence-&gt;ﻦﻣ ﺭﻮﻌﺸﺑ [PRISONER_nameDef] ﻲﻨﻴﻋ ﻲﻓ ﺮﻈﻨﻳ [CAPTURER_nameDef]\n.ﺔﻨﻤﻴﻬﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﻢﻟﺄﺘﻳ ﻪﻧﺃ ﻭﺪﺒﻳﻭ ﺏﺎﺼﻣ [PRISONER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻩﺮﻴﺼﻤﻟ ﺎًﻤﻠﺴﺘﺴﻣ ﻭﺪﺒﻳ [PRISONER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺔﻤﻳﺰﻬﻟﺍ ﺐﻀﻐﺑ ﺮﺠﻣﺰﻳ [PRISONER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻪﻋﺎﻀﺧﻹ [PRISONER_nameDef] ﻊﻔﺼﻳ [CAPTURER_nameDef]</li>
+    <li>desc_sentence-&gt;.[PRISONER_nameDef] ﻥﺫﺃ ﻱﻮﻠﻳ [CAPTURER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻲﻠﺼﻔﻣ ﻞﻔﻗ ﻲﻓ [PRISONER_nameDef]ـﺑ ﻚﺴﻤﻳ [CAPTURER_nameDef]</li>
+    <li>desc_sentence-&gt;.[PRISONER_nameDef] ﻪﺟﻭ ﻲﻓ ﻖﺼﺒﻳ [CAPTURER_nameDef]</li>
+    <li>desc_sentence-&gt;ﻦﻣ ﻉﻮﻣﺪﻟﺍ ﺮﻤﻬﻨﺗ ﺎﻤﻨﻴﺑ ﻚﺤﻀﻳ [CAPTURER_nameDef]\n.[PRISONER_nameDef] ﻲﻨﻴﻋ</li>
+    <li>desc_sentence-&gt;.ﺢﺿﺍﻭ ﺐﺒﺳ ﻥﻭﺪﺑ [PRISONER_nameDef] ﻞﻛﺮﻳ [CAPTURER_nameDef]</li>
+ </Captured.rulePack.rulesStrings>
+  
+  <!-- EN: defeated hostile leader -->
+  <DefeatedHostileFactionLeader.label>ﻡﻭﺰﻬﻣ ٍﺩﺎﻌﻣ ﺪﺋﺎﻗ</DefeatedHostileFactionLeader.label>
+  
+  <!-- EN: surgery performed -->
+  <DidSurgery.label>ﺖﻳﺮﺟﺃ ﺔﺣﺍﺮﺟ</DidSurgery.label>
+  <!-- EN:
+    <li>tale_noun->[SURGEON_nameDef] operating on [PATIENT_nameDef]</li>
+    <li>tale_noun->[SURGEON_nameDef] performing a medical operation on [PATIENT_nameDef]</li>
+    <li>tale_noun->[PATIENT_nameDef]'s medical operation</li>
+    <li>image->[SURGEON_nameFull] putting [PATIENT_nameFull] to sleep with anesthetic [circumstance_group]</li>
+    <li>image->[SURGEON_nameFull] elbow-deep in [PATIENT_nameFull] during surgery [circumstance_group]</li>
+    <li>image->[SURGEON_nameFull] slicing into [PATIENT_nameFull] during surgery [circumstance_group]</li>
+    <li>circumstance_phrase->as [PATIENT_pronoun] trembles with fear</li>
+    <li>circumstance_phrase->as blood pools at [SURGEON_nameDef]'s feet</li>
+    <li>circumstance_phrase->while surrounded by scary-looking surgical tools</li>
+    <li>circumstance_phrase->with improvised but effective tools</li>
+    <li>desc_sentence->[SURGEON_nameDef] is sweating profusely.</li>
+    <li>desc_sentence->[SURGEON_nameDef] looks incredibly focused on the task.</li>
+    <li>desc_sentence->[SURGEON_nameDef] has blood smeared on [SURGEON_possessive] face.</li>
+    <li>desc_sentence->[PATIENT_nameDef] is shaking and writhing.</li>
+  -->
+  <DidSurgery.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[PATIENT_nameDef] ﻰﻠﻋ ﺔﻴﻠﻤﻋ ﻱﺮﺠﻳ [SURGEON_nameDef]</li>
+    <li>tale_noun-&gt;[PATIENT_nameDef] ﻰﻠﻋ ﺔﻴﺒﻃ ﺔﻴﻠﻤﻌﺑ ﻡﻮﻘﻳ [SURGEON_nameDef]</li>
+    <li>tale_noun-&gt;[PATIENT_nameDef]ـﻟ ﺔﻴﺒﻄﻟﺍ ﺔﻴﻠﻤﻌﻟﺍ</li>
+    <li>image-&gt;[PATIENT_nameFull] [circumstance_group] ﺭﺪﺨﻳ [SURGEON_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﺔﺣﺍﺮﺠﻟﺍ ﺀﺎﻨﺛﺃ [PATIENT_nameFull] ﻲﻓ ﺎًﻗﺭﺎﻏ [SURGEON_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﺔﺣﺍﺮﺠﻟﺍ ﺀﺎﻨﺛﺃ [PATIENT_nameFull] ﻖﺸﻳ [SURGEON_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﺎًﻓﻮﺧ [PATIENT_pronoun] ﻒﺠﺗﺮﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;[SURGEON_nameDef] ﻲﻣﺪﻗ ﺪﻨﻋ ﺀﺎﻣﺪﻟﺍ ﻊﻤﺠﺘﺗ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﺒﻋﺮﻣ ﺔﻴﺣﺍﺮﺟ ﺕﺍﻭﺩﺄﺑ ﺎًﻃﺎﺤﻣ\nﺮﻬﻈﻤﻟﺍ</li>
+    <li>circumstance_phrase-&gt;ﺔﻟﺎﻌﻓ ﺎﻬﻨﻜﻟ ﺔﻠﺠﺗﺮﻣ ﺕﺍﻭﺩﺄﺑ</li>
+    <li>desc_sentence-&gt;.ﺓﺭﺍﺰﻐﺑ ﺎًﻗﺮﻋ ﺐﺒﺼﺘﻳ [SURGEON_nameDef]</li>
+    <li>desc_sentence-&gt;ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﺪﻳﺪﺷ ﻭﺪﺒﻳ [SURGEON_nameDef]\n.ﺔﻤﻬﻤﻟﺍ</li>
+    <li>desc_sentence-&gt;.ﻪﻬﺟﻭ ﻰﻠﻋ ﺦﻄﻠﻣ ﻡﺪﻟﺍ [SURGEON_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻯﻮﻠﺘﻳﻭ ﻒﺠﺗﺮﻳ [PATIENT_nameDef]</li>
+ </DidSurgery.rulePack.rulesStrings>
+  
+  <!-- EN: prisoner executed -->
+  <ExecutedPrisoner.label>ﻡﺪﻋﺃ ﻦﻴﺠﺳ</ExecutedPrisoner.label>
+  <!-- EN:
+    ...
+  -->
+  <ExecutedPrisoner.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[PRISONER_nameDef] ﻡﺪﻌﻳ [EXECUTIONER_nameDef]</li>
+    <li>tale_noun-&gt;[EXECUTIONER_nameDef] ﻞﺒﻗ ﻦﻣ ﻡﺪﻌﻳ [PRISONER_nameDef]</li>
+    <li>tale_noun-&gt;[PRISONER_nameDef] ﻡﺍﺪﻋﺇ</li>
+    <li>image-&gt;[PRISONER_nameFull] [circumstance_group] ﻡﺪﻌﻳ [EXECUTIONER_nameFull]</li>
+    <li>image-&gt;[PRISONER_nameFull] [circumstance_group] ﺓﺎﻴﺤﺑ ﻱﺩﻮﻳ [EXECUTIONER_nameFull]</li>
+    <li>image-&gt;[PRISONER_nameFull] [circumstance_group] ﻡﺍﺪﻋﻹ ﺪﻌﺘﺴﻳ [EXECUTIONER_nameFull]</li>
+    <li>image-&gt;[PRISONER_nameFull] [circumstance_group] ﻡﺍﺪﻋﻻ ﻦﺠﺴﻟﺍ ﺔﻧﺍﺰﻧﺯ ﻞﺧﺪﻳ [EXECUTIONER_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﺽﺭﻷﺍ ﻰﻠﻋ [PRISONER_pronoun] ﻯﻮﻠﺘﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﻢﻟﻷﺍ ﻦﻣ [PRISONER_pronoun] ﻯﻮﻠﺘﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺎًﺒﻋﺭ [PRISONER_pronoun] ﺥﺮﺼﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻴﻓﺍﺮﺘﺣﺍ ﺓﺀﺎﻔﻜﺑ</li>
+    <li>circumstance_phrase-&gt;ﺓﺍﻮﻫ ﺔﻘﻳﺮﻄﺑﻭ ﺓﻮﺴﻘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺢﺿﺍﻭ ﻞﻜﺸﺑ ﺔﻃﺮﻔﻣ ﺓﻮﻘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﺤﺿﺍﻭ ﺔﻌﺘﻤﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻨﻤﻴﻫ ﺔﻣﺎﺴﺘﺑﺎﺑ</li>
+    <li>circumstance_phrase-&gt;[EXECUTIONER_possessive] ﻲﻨﻴﻋ ﻲﻓ ﻉﻮﻣﺪﻟﺍﻭ</li>
+    <li>circumstance_phrase-&gt;ﺔﻘﻠﻄﻣ ﺓﻻﺎﺒﻣ ﻻ ﺓﺮﻈﻨﺑ</li>
+    <li>circumstance_phrase-&gt;ﻱﺭﻭﺮﺿ ﺮﻴﻏ ﺎًﻤﻟﺃ ﺎًﺒﺒﺴﻣ</li>
+    <li>circumstance_phrase-&gt;ﺮﺧﺁ ﺀﻲﺷ ﻲﻓ ﺮﻜﻔﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺎﻴﻠﻌﻟﺍ ﺔﺤﻠﺼﻤﻟﺍ ﻞﺟﻷ</li>
+    <li>desc_sentence-&gt;.ﺓﺭﺍﺰﻐﺑ ﺎًﻗﺮﻋ ﺐﺒﺼﺘﻳ [EXECUTIONER_nameDef]</li>
+    <li>desc_sentence-&gt;.ًﻼﻴﻠﻗ ﻪﺑﺎﻌﻟ ﻞﻴﺴﻳ [EXECUTIONER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻪﻬﺟﻭ ﻰﻠﻋ ﺦﻄﻠﻣ ﻡﺪﻟﺍ [EXECUTIONER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻯﻮﻠﺘﻳﻭ ﻒﺠﺗﺮﻳ [PRISONER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎًﻣﺎﻤﺗ ﻢﻠﺴﺘﺳﺍ ﻪﻧﺃ ﻭﺪﺒﻳ [PRISONER_nameDef]</li>
+    <li>desc_sentence-&gt;ﺓﻮﻘﻟ ﻲﻠﺼﻳ ﻪﻧﺄﻛ ،ﻪﻴﻨﻴﻋ ﺾﻤﻏﺃ [PRISONER_nameDef]\n.ﻰﻠﻋﺃ</li>
+    <li>desc_sentence-&gt;.ﺎًﻳﺪﺤﺘﻣ ﻭﺪﺒﻳ [PRISONER_nameDef]</li>
+ </ExecutedPrisoner.rulePack.rulesStrings>
+  
+  <!-- EN: animal hunted -->
+  <Hunted.label>ﻩﺩﺎﻴﻄﺻﺍ ﻢﺗ ﻥﺍﻮﻴﺣ</Hunted.label>
+  <!-- EN:
+    ...
+  -->
+  <Hunted.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[PREY_nameDef] ﺩﺎﻄﺼﻳ [HUNTER_nameDef]</li>
+    <li>tale_noun-&gt;[HUNTER_nameDef] ﻞﺒﻗ ﻦﻣ ﻩﺩﺎﻴﻄﺻﺍ ﻢﺘﻳ [PREY_nameDef]</li>
+    <li>tale_noun-&gt;ﺢﺟﺎﻨﻟﺍ [HUNTER_nameDef] ﺪﻴﺻ</li>
+    <li>image-&gt;[HUNTER_nameFull] [circumstance_group] ﻞﺒﻗ ﻦﻣ ﻩﺩﺎﻴﻄﺻﺍ ﻢﺘﻳ [PREY_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﺪﻴﻌﺑ ﻦﻣ [PREY_nameFull] ﺪﺻﺮﺘﻳ [HUNTER_nameFull]</li>
+    <li>image-&gt;[PREY_nameFull] [circumstance_group] ﺩﺎﻄﺼﻳ [HUNTER_nameFull]</li>
+    <li>circumstance_phrase-&gt;[PREY_nameDef] ﻲﺧﺮﺘﺴﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;[PREY_nameDef] ﺮﻓﺎﺴﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;[PREY_nameDef] ﻞﻛﺄﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>desc_sentence-&gt;.ﺎًﻣﺎﻤﺗ ًﻼﻓﺎﻏ ﻭﺪﺒﻳ [PREY_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻡﺎﻜﺣﺈﺑ ﻪﺣﻼﺳ ﻰﻠﻋ ﺾﺒﻘﻳ [HUNTER_nameDef]</li>
+    <li>desc_sentence-&gt;ﺎًﺌﻴﺷ ﻥﺃ ﺲﺤﻳ ﻪﻧﺄﻛ ﻪﻟﻮﺣ ﺮﻈﻨﻳ [PREY_nameDef]\n.ﺄﻄﺧ ﺎﻣ</li>
+ </Hunted.rulePack.rulesStrings>
+  
+  <!-- EN: colonist kidnapped -->
+  <KidnappedColonist.label>ﻒﻄﺘﺨﻣ ﺮﻤﻌﺘﺴﻣ</KidnappedColonist.label>
+  <!-- EN:
+    ...
+  -->
+  <KidnappedColonist.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[VICTIM_nameDef] ﻒﻄﺘﺨﻳ [KIDNAPPER_nameDef]</li>
+    <li>tale_noun-&gt;[KIDNAPPER_nameDef] ﻞﺒﻗ ﻦﻣ ﻪﻓﺎﻄﺘﺧﺍ ﻢﺘﻳ [VICTIM_nameDef]</li>
+    <li>tale_noun-&gt;[VICTIM_nameDef] ﻑﺎﻄﺘﺧﺍ</li>
+    <li>image-&gt;[KIDNAPPER_factionName] [circumstance_group] ﻰﻟﺇ ﺍًﺪﻴﻌﺑ [VICTIM_nameFull] ﻞﻤﺤﻳ [KIDNAPPER_nameFull]</li>
+    <li>image-&gt;[VICTIM_nameFull] [circumstance_group] ﻒﻄﺘﺨﻳ [KIDNAPPER_factionName] ﻦﻣ [KIDNAPPER_nameFull]</li>
+    <li>image-&gt;[VICTIM_nameFull] [circumstance_group] ﻒﻄﺘﺨﻳ [KIDNAPPER_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﻢﻟﻷﺍ ﻦﻣ [VICTIM_pronoun] ﻯﻮﻠﺘﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻴﻓﺍﺮﺘﺣﺍ ﺓﺀﺎﻔﻜﺑ</li>
+    <li>circumstance_phrase-&gt;ﺓﺍﻮﻫ ﺔﻘﻳﺮﻄﺑﻭ ﺓﻮﺴﻘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺢﺿﺍﻭ ﻞﻜﺸﺑ ﺔﻃﺮﻔﻣ ﺓﻮﻘﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﺤﺿﺍﻭ ﺔﻌﺘﻤﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻨﻤﻴﻫ ﺔﻣﺎﺴﺘﺑﺎﺑ</li>
+    <li>circumstance_phrase-&gt;ﺓﺭﺍﺬﻘﻟﺍﻭ ﺀﺎﻣﺪﻟﺎﺑ ﺎًﺨﻄﻠﻣ</li>
+    <li>desc_sentence-&gt;.ﺎًﻣﺎﻤﺗ ﻢﻠﺴﺘﺳﺍ ﻪﻧﺃ ﻭﺪﺒﻳ [VICTIM_nameDef]</li>
+    <li>desc_sentence-&gt;ﺓﻮﻘﻟ ﻲﻠﺼﻳ ﻪﻧﺄﻛ ،ﻪﻴﻨﻴﻋ ﺾﻤﻏﺃ [VICTIM_nameDef]\n.ﻰﻠﻋﺃ</li>
+    <li>desc_sentence-&gt;.ﺎًﻳﺪﺤﺘﻣ ﻭﺪﺒﻳ [VICTIM_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺐﻋﺭﻭ ﺐﻀﻐﺑ ﺥﺮﺼﻳ [VICTIM_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎًﻜﻬﻨﻣﻭ ﺎًﻤﻄﺤﻣ ﻭﺪﺒﻳ [VICTIM_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺔﻐﻟﺎﺑ ﺡﻭﺮﺠﺑ ﺎًﺑﺎﺼﻣ ﻭﺪﺒﻳ [VICTIM_nameDef]</li>
+ </KidnappedColonist.rulePack.rulesStrings>
+  
+  <!-- EN: death -->
+  <KilledBy.label>ﺕﻮﻣ</KilledBy.label>
+  <!-- EN:
+    ...
+  -->
+  <KilledBy.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[VICTIM_nameDef] ﻞﺘﻘﻳ [KILLER_nameDef]</li>
+    <li>tale_noun-&gt;[KILLER_nameDef] ﻞﺒﻗ ﻦﻣ ﻪﻠﺘﻗ ﻢﺘﻳ [VICTIM_nameDef]</li>
+    <li>tale_noun-&gt;[KILLER_nameDef] ﺔﻄﺳﺍﻮﺑ [VICTIM_nameDef] ﻞﺘﻗ</li>
+    <li>tale_noun-&gt;[VICTIM_nameDef] ﻞﺘﻗ</li>
+    <li>image-&gt;[KILLER_nameFull] [circumstance_group] ﻞﺒﻗ ﻦﻣ ﻪﻠﺘﻗ ﻢﺘﻳ [VICTIM_nameFull]</li>
+    <li>image-&gt;[VICTIM_nameFull] [circumstance_group] ﻞﺘﻘﻳ [KILLER_nameFull]</li>
+    <li>image-&gt;[VICTIM_nameFull] [circumstance_group] ﺓﺎﻴﺣ ﻲﻬﻨﻳ [KILLER_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﺔﻴﺸﺣﻮﺑ [VICTIM_nameFull] ﻞﺘﻘﻳ [KILLER_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻪﻠﺘﻗ ﻢﺘﻳ [VICTIM_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﺮﻫﺎﻇ ﻡﺪﻧ ﻥﻭﺪﺑ</li>
+    <li>circumstance_phrase-&gt;ﺓﺩﺭﺎﺑ ﺓﺀﺎﻔﻜﺑ</li>
+    <li>circumstance_phrase-&gt;ﻡﺭﺎﻋ ﺐﻀﻐﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻟﺎﻌﻓﻭ ﺔﻌﻳﺮﺳ ﺕﺎﻛﺮﺤﺑ</li>
+    <li>circumstance_phrase-&gt;ﺮﻴﺒﻌﺗ ﻭﺃ ﺔﻔﻃﺎﻋ ﻥﻭﺪﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻴﺳﺎﻘﻟﺍ ﺓﺭﻭﺮﻀﻟﺍ ﻊﻓﺍﺪﺑ</li>
+    <li>circumstance_phrase-&gt;ﺓﺮﺗﺎﻓ ﺔﻧﺎﺒﺟ ﺔﻘﻳﺮﻄﺑ</li>
+    <li>desc_sentence-&gt;ﻱﺰﻣﺭ ﻯﺪﺼﻛ ﻢﻬﻔﻠﺧ ﺲﻤﺸﻟﺍ ﺏﺮﻐﺗ\n.ﺙﺪﺤﻠﻟ</li>
+    <li>desc_sentence-&gt;.ﻥﻭﺮﻈﻨﻳ [Animal]s ﻦﻣ [Quantity_adjphrase]</li>
+    <li>desc_sentence-&gt;.[side_position] ﺖﻤﺼﺑ ﺐﻗﺍﺮﻳ [PersonJob]</li>
+    <li>desc_sentence-&gt;.[VICTIM_nameDef] ﺪﺴﺟ ﻝﻮﺣ ﻊﻤﺠﺘﺗ ﺀﺎﻣﺪﻟﺍ</li>
+    <li>desc_sentence-&gt;ﺔﻴﻌﻗﺍﻭ ﺔﻘﻳﺮﻄﺑ ﻥﺎﺗﺭﻮﺼﻣ [VICTIM_nameDef] ﺎﻨﻴﻋ\n.ﺓﺎﻴﺣ ﻼﺑ</li>
+    <li>desc_sentence-&gt;.ﻪﺑﺎﻴﻧﺃ ﻦﻋ ﻒﺸﻜﻳ [KILLER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎًﻴﺿﺍﺭ ﻭﺪﺒﻳ [KILLER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻪﻠﻌﻔﻳ ﺎﻤﻣ ﺎًﻤﻟﺄﺘﻣ ﻭﺪﺒﻳ [KILLER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻊﺿﻮﻟﺎﺑ ﺍًﺭﻭﺮﺴﻣ ﻭﺪﺒﻳ [KILLER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺍًﺮﺼﺘﻨﻣ ﻭﺪﺒﻳ [KILLER_nameDef]</li>
+ </KilledBy.rulePack.rulesStrings>
+  
+  <!-- EN: colonist killed -->
+  <KilledColonist.label>ﻝﻮﺘﻘﻣ ﺮﻤﻌﺘﺴﻣ</KilledColonist.label>
+  
+  <!-- EN: colony animal killed -->
+  <KilledColonyAnimal.label>ﻝﻮﺘﻘﻣ ﺓﺮﻤﻌﺘﺴﻣ ﻥﺍﻮﻴﺣ</KilledColonyAnimal.label>
+  
+  <!-- EN: person recruited -->
+  <Recruited.label>ﻩﺪﻴﻨﺠﺗ ﻢﺗ ﺺﺨﺷ</Recruited.label>
+  <!-- EN:
+    ...
+  -->
+  <Recruited.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[JOINER_nameDef] ﺪﻨﺠﻳ [RECRUITER_nameDef]</li>
+    <li>tale_noun-&gt;[RECRUITER_nameDef] ﻞﺒﻗ ﻦﻣ ﻩﺪﻴﻨﺠﺗ ﻢﺘﻳ [JOINER_nameDef]</li>
+    <li>tale_noun-&gt;[JOINER_nameDef] ﺪﻴﻨﺠﺗ</li>
+    <li>image-&gt;[JOINER_nameFull] [circumstance_group] ﺪﻨﺠﻳ [RECRUITER_nameFull]</li>
+    <li>image-&gt;ﺍًﺮﻤﻌﺘﺴﻣ [JOINER_pronoun] ﺢﺒﺼﻳ ﺚﻴﺣ [JOINER_nameFull]ـﺑ ﺐﺣﺮﻳ [RECRUITER_nameFull]\n[circumstance_group]</li>
+    <li>image-&gt;[JOINER_nameFull] [circumstance_group] ﻰﻟﺇ ﻉﺎﻨﻗﺈﺑ ﺙﺪﺤﺘﻳ [RECRUITER_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﺢﺿﺍﻭ ﺔﻴﻧ ﻦﺴﺤﺑ</li>
+    <li>circumstance_phrase-&gt;ﺓﺭﺎﺣ ﺔﺤﻓﺎﺼﻤﺑ</li>
+    <li>circumstance_phrase-&gt;ﻊﻴﻤﺠﻟﺍ ﻦﻣ ﺕﺎﻣﺎﺴﺘﺑﺎﺑ</li>
+    <li>circumstance_phrase-&gt;ﺎﻬﻠﻛ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﻡﺎﻣﺃ</li>
+    <li>circumstance_phrase-&gt;ﻦﺠﺴﻟﺍ ﺔﻧﺍﺰﻧﺯ ﻲﻓ</li>
+    <li>desc_sentence-&gt;.ﺎًﻤﻬﻔﺘﻣ ﻪﺳﺃﺮﺑ ﺊﻣﻮﻳ [JOINER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻦﻴﻌﻟﺎﺑ ﻞﺻﺍﻮﺘﻳﻭ ﻢﺴﺘﺒﻳ [JOINER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎًﺣﺎﺗﺮﻣ ﻭﺪﺒﻳ [JOINER_nameDef]</li>
+    <li>desc_sentence-&gt;.ًﻼﺋﺎﻔﺘﻣ ﻭﺪﺒﻳ [JOINER_nameDef]</li>
+ </Recruited.rulePack.rulesStrings>
+  
+  <!-- EN: prisoner sold -->
+  <SoldPrisoner.label>ﻪﻌﻴﺑ ﻢﺗ ﻦﻴﺠﺳ</SoldPrisoner.label>
+  <!-- EN:
+    ...
+  -->
+  <SoldPrisoner.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﺮﺟﺎﺘﻟ [PRISONER_nameDef] ﻊﻴﺑ</li>
+    <li>tale_noun-&gt;ﺪﺒﻌﻛ [PRISONER_nameDef] ﻊﻴﺒﻳ [SELLER_nameDef]</li>
+    <li>tale_noun-&gt;[SELLER_nameDef] ﻞﺒﻗ ﻦﻣ ﺪﺒﻌﻛ ﻉﺎﺒﻳ [PRISONER_nameDef]</li>
+    <li>image-&gt;[SELLER_nameFull] [circumstance_group] ﻦﻣ [PRISONER_nameFull] ﻱﺮﺘﺸﻳ [TRADER_nameFull]</li>
+    <li>image-&gt;[TRADER_nameFull] [circumstance_group]ـﻟ [PRISONER_nameFull] ﻊﻴﺒﻳ [SELLER_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﻥﻭﺮﺧﻵﺍ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﺮﻈﻨﻳ ﺎﻤﻨﻴﺑ\nﻥﺎﺴﺤﺘﺳﺍ ﻡﺪﻌﺑ</li>
+    <li>circumstance_phrase-&gt;[TRADER_possessive] ﺩﻮﻘﻧ [SELLER_nameDef] ﺪﻌﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﻥﺰﺤﺑ [PRISONER_nameDef] ﻦﺌﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;[PRISONER_nameDef] ﺓﺮﺴﺤﻟ</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻧﺎﻄﻴﺷ ﺔﻣﺎﺴﺘﺑﺍ ﻢﺴﺘﺒﻳ [TRADER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻲﻧﻮﻨﺟ ﻞﻜﺸﺑ ﻚﺤﻀﻳ [SELLER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺾﻀﻣ ﻰﻠﻋ ﺮﺟﺎﺘﻠﻟ [PRISONER_nameDef] ﻢﻠﺴﻳ [SELLER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺪﻳﺪﺠﻟﺍ ﻩﺪﻴﺳ ﻲﻓ ٍﺪﺤﺘﺑ ﻕﺪﺤﻳ [PRISONER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻪﻠﺳﻼﺴﺑ ﺍًﺪﻴﻌﺑ [PRISONER_nameDef] ﺮﺠﻳ [TRADER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻪﻣﺎﻘﺘﻧﺍ ﺍًﺮﺑﺪﻣ ،[SELLER_nameDef] ﻲﻓ ﻕﺪﺤﻳ [PRISONER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻲﻜﺒﻳ [PRISONER_nameDef]</li>
+    <li>desc_sentence-&gt;.[SELLER_nameDef] ﻪﺟﻭ ﻲﻓ ﻖﺼﺒﻳ [PRISONER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺽﺭﻷﺍ ﻲﻓ ﺏﻭﺬﻳ [PRISONER_nameDef]</li>
+    <li>desc_sentence-&gt;.[TRADER_nameDef] ﻱﺪﻳ ﻲﻓ [PRISONER_nameDef] ﻞﺳﻼﺴﺑ ﻊﻓﺪﻳ [SELLER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻒﻗﻮﻤﻟﺍ ﺱﺄﻴﻟﺍ ﻦﻣ ﻮﺟ ﺩﻮﺴﻳ</li>
+ </SoldPrisoner.rulePack.rulesStrings>
+  
+  <!-- EN: animal tamed -->
+  <TamedAnimal.label>ﻪﻀﻳﻭﺮﺗ ﻢﺗ ﻥﺍﻮﻴﺣ</TamedAnimal.label>
+  <!-- EN:
+    ...
+  -->
+  <TamedAnimal.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[TAMER_nameDef] ﻞﺒﻗ ﻦﻣ [ANIMAL_nameDef] ﺾﻳﻭﺮﺗ</li>
+    <li>tale_noun-&gt;[ANIMAL_nameDef]ـﻟ [TAMER_nameDef] ﺾﻳﻭﺮﺗ</li>
+    <li>image-&gt;[ANIMAL_nameFull] [circumstance_group] ﺽﻭﺮﻳ [TAMER_nameFull]</li>
+    <li>image-&gt;[ANIMAL_nameFull] [circumstance_group]ـﻟ ﻡﺎﻌﻃ ﺔﻤﻘﻟ ﻡﺪﻘﻳ [TAMER_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﺮﺗﻮﺘﻣ [ANIMAL_label]ـﻟ ﺲﻤﻬﻳ [TAMER_nameFull]</li>
+    <li>image-&gt;[circumstance_group] ﻱﺮﺑ [ANIMAL_label] ﺉﺪﻬﻳ [TAMER_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﻦﻳﺪﻳﺪﺷ ﺭﺬﺣﻭ ﺔﻳﺎﻨﻌﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻣﺎﺴﺘﺑﺎﺑ</li>
+    <li>circumstance_phrase-&gt;ﺍًﺪﻴﻌﺳ ﻦﻜﻟ ﺎًﻘﻫﺮﻣ</li>
+    <li>desc_sentence-&gt;.ﺔﻴﻧﺍﻭﺪﻌﺑ ﺮﺠﻣﺰﻳ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺐﺤﻟﺎﺑ ًﻼﻤﺛ ﺎًﻧﺎﺴﻌﻧ ﻭﺪﺒﻳ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻲﺴﻴﻃﺎﻨﻐﻣ ﻢﻳﻮﻨﺗ ﺔﻟﺎﺣ ﻲﻓ ﻭﺪﺒﻳ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎًﻤﺘﻬﻣ ﻦﻜﻟ ﺎًﻔﺋﺎﺧ ﻭﺪﺒﻳ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎًﻧﻮﺘﻔﻣ ﻭﺪﺒﻳ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;ﻮﺤﻧ ﺐﺤﻟﺎﺑ ﺎًﻳﻮﻗ ﺎًﺳﺎﺴﺣﺇ ﺚﻌﺒﻳ [TAMER_nameDef]\n.[ANIMAL_nameDef]</li>
+ </TamedAnimal.rulePack.rulesStrings>
+  
+  <!-- EN: traded with someone -->
+  <TradedWith.label>ﺺﺨﺷ ﻊﻣ ﺓﺭﺎﺠﺘﻟﺍ ﺖﻤﺗ</TradedWith.label>
+  <!-- EN:
+    ...
+  -->
+  <TradedWith.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[BUYER_nameFull]ﻭ [SELLER_nameFull] ﻦﻴﺑ ﺓﺭﺎﺠﺗ</li>
+    <li>image-&gt;[SELLER_nameFull] [circumstance_group] ﻦﻣ ﻊﺋﺎﻀﺑ ﻱﺮﺘﺸﻳ [BUYER_nameFull]</li>
+    <li>image-&gt;[BUYER_nameFull] [circumstance_group]ـﻟ ﻊﺋﺎﻀﺑ ﻊﻴﺒﻳ [SELLER_nameFull]</li>
+    <li>circumstance_phrase-&gt;ﺔﻌﺸﺟ ﺔﻴﻨﺑ</li>
+    <li>circumstance_phrase-&gt;[BUYER_shortNameDef]ـﻟ ﺔﻳﺮﺨﺴﺑ [SELLER_nameDef] ﻢﺴﺘﺒﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>desc_sentence-&gt;.[SELLER_nameDef] ﻊﺋﺎﻀﺑ ﺺﺤﻔﻳ [BUYER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎًﺌﻴﺷ ﻞﻣﺄﺘﻳ [SELLER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺔﻣﻭﺎﺴﻤﻟﺍ ﺃﺪﺒﻳ [SELLER_nameDef]</li>
+    <li>desc_sentence-&gt;.[SELLER_nameDef] ﻝﺩﺎﺠﻳ [BUYER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺮﻌﺳ ﻰﻠﻋ ﻥﺎﻘﻔﺘﻳ [BUYER_nameDef]ﻭ [SELLER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺀﻲﺸﻟﺍ ﻦﻤﺛ ﻊﻓﺪﻳ [BUYER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻩﺩﻮﻘﻧ ﺪﻌﻳ [SELLER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻪﻌﺋﺎﻀﺑ ﺬﺧﺄﻳ [BUYER_nameDef]</li>
+ </TradedWith.rulePack.rulesStrings>
+  
+  <!-- EN: animal trained -->
+  <TrainedAnimal.label>ﻪﺒﻳﺭﺪﺗ ﻢﺗ ﻥﺍﻮﻴﺣ</TrainedAnimal.label>
+  <!-- EN:
+    ...
+  -->
+  <TrainedAnimal.rulePack.rulesStrings>
+    <li>tale_noun-&gt;[ANIMAL_nameDef] ﺏﺭﺪﻳ [TRAINER_nameDef]</li>
+    <li>tale_noun-&gt;[ANIMAL_nameDef] ﺐﻳﺭﺪﺗ</li>
+    <li>tale_noun-&gt;[TRAINER_nameDef] ﻞﺒﻗ ﻦﻣ [ANIMAL_nameDef] ﺐﻳﺭﺪﺗ</li>
+    <li>image-&gt;[TRAINABLE_label] [circumstance_group] ﻲﻓ [TRAINER_nameFull] [train_syn] [ANIMAL_nameFull]</li>
+    <li>image-&gt;[ANIMAL_nameFull] [circumstance_group]ـﻟ [TRAINABLE_label] ﻢﻠﻌﻳ [TRAINER_nameFull]</li>
+    <li>image-&gt;[ANIMAL_nameFull] [circumstance_group] ﻊﻣ [TRAINABLE_label] ﺱﺭﺎﻤﻳ [TRAINER_nameFull]</li>
+    <li>train_syn-&gt;ﺏﺭﺪﻳ</li>
+    <li>train_syn-&gt;ﺏّﺭﺪﻳ</li>
+    <li>train_syn-&gt;ﺏّﺭﺪﻳ</li>
+    <li>train_syn-&gt;ﻦﻘﻠﻳ</li>
+    <li>train_syn-&gt;ﻢﻠﻌﻳ</li>
+    <li>circumstance_phrase-&gt;ﻥﻭﺮﺧﻵﺍ ﺮﻈﻨﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺯﺍﺰﺌﻤﺷﺎﺑ ﺔﻳﺮﺒﻟﺍ [Animal]s ﺮﻈﻨﺗ ﺎﻤﻨﻴﺑ</li>
+    <li>circumstance_phrase-&gt;ﺔﻄﻴﺴﺒﻟﺍ ﻡﺎﻳﻷﺍ [ANIMAL_nameDef] ﺮﻛﺬﺘﻳ ﺎﻤﻨﻴﺑ\nﺎًﺸﺣﻮﺘﻣ ﺎًﺸﺣﻭ [ANIMAL_pronoun] ﻥﺎﻛ ﺎﻣﺪﻨﻋ</li>
+    <li>circumstance_phrase-&gt;ﻝﻭﺎﻨﺘﻴﺳ ﺍﺫﺎﻣ ﻲﻓ [TRAINER_nameDef] ﺮﻜﻔﻳ ﺎﻤﻨﻴﺑ\nﺀﺍﺪﻐﻠﻟ</li>
+    <li>circumstance_phrase-&gt;ﻥﻭﺮﺧﻵﺍ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﻡﻮﻘﻳ ﺎﻤﻨﻴﺑ\nﻲﻘﻴﻘﺣ ﻞﻤﻌﺑ</li>
+    <li>desc_sentence-&gt;.ﺍًﺭﻭﺮﺳ ﻱﺪﺒﻳ [TRAINER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻢﺴﺘﺒﻳ [TRAINER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺍًﺮﺠﺿ ﻭﺪﺒﻳ [TRAINER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺍًﺩﺪﻬﻣ ﻪﺘﻀﺒﻘﺑ ﺡﻮﻠﻳ [TRAINER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺍًﺰﻴﻛﺮﺗ ﻪﻴﺒﺟﺎﺣ ﺐﻄﻘﻳ [TRAINER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺍًﺮﺋﺎﺣ ﻭﺪﺒﻳ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻪﻤﻓ ﻲﻓ ﺎًﺣﻼﺳ ﻞﻤﺤﻳ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺓﺪﻬﺠﻣ ﺕﺎﻤﻬﻤﻫ ﺭﺪﺼﻳ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎًﻃﺎﺒﺣﺇ ﻪﺳﺃﺭ ﺰﻬﻳ [TRAINER_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺎًﻓﻮﺧ ﻒﺠﺗﺮﻳ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.[Vegetable] ﻰﻟﺇ ﻝﻮﺤﺘﻳ ﻪﻧﺃ ﻭﺪﺒﻳ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.ﺔﻗﺎﻄﻟﺍ ﺕﺍﻭﺩﺃ ﻦﻣ ﺔﻣﻮﻜﻛ ﻞﺜﻤﻣ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.[Color] ﻪﻔﺼﻧﻭ [Color] ﻪﻔﺼﻧ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻒﺷﺍﺮﺤﻟﺎﺑ ﻰﻄﻐﻣ [ANIMAL_nameDef]</li>
+    <li>desc_sentence-&gt;.ﻉﺭﺫﺃ [Quantity_adjphrase]ـﺑ ﻡﻮﺳﺮﻣ [TRAINER_nameDef]</li>
+    <li>desc_sentence-&gt;.[ANIMAL_definite] ﻰﻟﺇ ﻝﻮﺤﺘﻳ [TRAINER_nameDef]</li>
+ </TrainedAnimal.rulePack.rulesStrings>
+  
+</LanguageData>

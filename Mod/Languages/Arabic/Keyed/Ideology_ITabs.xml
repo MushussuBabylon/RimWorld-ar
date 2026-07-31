@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Character -->
+  <!-- EN: Overrides some precepts related to -->
+  <OverridesSomePrecepts>ـﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺎﻳﺎﺻﻮﻟﺍ ﺾﻌﺑ ﺯﻭﺎﺠﺘﻳ</OverridesSomePrecepts>
+  <!-- EN: Agrees with memes -->
+  <AgreeableMemes>ﺕﺎﻤﻴﻤﻟﺍ ﻊﻣ ﻖﻓﺍﻮﺘﻳ</AgreeableMemes>
+  <!-- EN: Conflicts with memes -->
+  <DisagreeableMemes>ﺕﺎﻤﻴﻤﻟﺍ ﻊﻣ ﺽﺭﺎﻌﺘﻳ</DisagreeableMemes>
+
+  <!-- ITab titles -->
+  <!-- EN: Slave -->
+  <TabSlave>ﺪﺒﻋ</TabSlave>
+  <!-- EN: The faction goodwill you will gain if you release a slave. This is affected by the slaves's physical and mental health. -->
+  <SlaveReleaseRelationGainsDesc>ﻦﻣ ﻪﺒﺴﻜﺘﺳ ﻱﺬﻟﺍ ﺔﻴﻨﻟﺍ ﻦﺴﺣ\n.ﺪﺒﻋ ﺡﺍﺮﺳ ﺖﻘﻠﻃﺃ ﺍﺫﺇ ﻞﻴﺼﻔﻟﺍ\nﺔﻴﺤﺼﻟﺍ ﻪﺘﻟﺎﺤﺑ ﻚﻟﺫ ﺮﺛﺄﺘﻳ\n.ﺔﻴﻠﻘﻌﻟﺍﻭ ﺔﻳﺪﺴﺠﻟﺍ</SlaveReleaseRelationGainsDesc>
+  <!-- EN: Relations gain on release -->
+  <SlaveReleasePotentialRelationGains>ﻕﻼﻃﻹﺍ ﺪﻨﻋ ﺕﺎﻗﻼﻌﻟﺍ ﺐﺳﺎﻜﻣ</SlaveReleasePotentialRelationGains>
+  <!-- EN: Slave rebellion interval -->
+  <SlaveRebellionMTBDays>ﺪﻴﺒﻌﻟﺍ ﺩﺮﻤﺗ ﺓﺮﺘﻓ</SlaveRebellionMTBDays>
+  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
+  <SlaveRebellionMTBDaysDescription>ﺕﻻﻭﺎﺤﻣ ﻦﻴﺑ ﻡﺎﻳﻷﺍ ﺩﺪﻋ ﻂﺳﻮﺘﻣ\nﺖﻗﻭ ﺐﺴﺘﺤُﻳ .ﺪﻴﺒﻌﻟﺍ ﺩﺮﻤﺗ\nﺍﺬﻫ ﺮﺛﺄﺘﻳ .ﻂﻘﻓ ﻅﺎﻘﻴﺘﺳﻻﺍ\n،ﺔﺤﺼﻟﺍﻭ ،ﺝﺍﺰﻤﻟﺍﻭ ،ﺖﺒﻜﻟﺎﺑ\nﺪﻴﺒﻌﻟﺍ ﺩﺪﻋﻭ ،ﺔﺤﻠﺳﻷﺍ ﻦﻣ ﺏﺮﻘﻟﺍﻭ\nﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﺩﻮﺟﻭﻭ ،ﺔﻄﻳﺮﺨﻟﺍ ﻰﻠﻋ\n.ﺔﻄﻳﺮﺨﻟﺍ ﻰﻠﻋ</SlaveRebellionMTBDaysDescription>
+
+  <!-- Slave tab -->
+  <!-- EN: Suppression -->
+  <Suppression>ﺖﺒﻜﻟﺍ</Suppression>
+  <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
+  <SuppressionDesc>ﻑﻮﺨﻠﻟ ﻲﺴﻔﻨﻟﺍ ﺮﺛﻷﺍ ﻮﻫ ﺖﺒﻜﻟﺍ\nﻥﺎﻛ ﺍﺫﺇ .ﺪﺒﻌﻟﺍ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍﻭ\nﻝﺎﻤﺘﺣﺍ ﺩﺍﺩﺰﻳ ،ًﺎﻀﻔﺨﻨﻣ ﺖﺒﻜﻟﺍ\n.ﺪﻴﺒﻌﻟﺍ ﺩﺮﻤﺗ</SuppressionDesc>
+  <!-- EN: Suppression fall rate -->
+  <SuppressionFallRate>ﺖﺒﻜﻟﺍ ﺽﺎﻔﺨﻧﺍ ﻝﺪﻌﻣ</SuppressionFallRate>
+  <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
+  <SuppressionFallRateDesc>ﺐﺴﺣ ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﺖﺒﻜﻟﺍ ﺾﻔﺨﻨﻳ\n:ﻲﻟﺎﺤﻟﺍ ﻩﺍﻮﺘﺴﻣ\n\nﻡﻮﻴﻟﺍ ﻲﻓ {1}+: {0} ﺖﺒﻛ -\nﻡﻮﻴﻟﺍ ﻲﻓ {4}-{3}: {2} ﺖﺒﻛ -\nﻡﻮﻴﻟﺍ ﻲﻓ {6}-: {5} ﺖﺒﻛ -\n\nﺐﻋﺮﻟﺍﻭ ﺲﺑﻼﻤﻟﺍ ﺮﺛﺆﺗ ﻥﺃ ﻦﻜﻤﻳ\n.ﺖﺒﻜﻟﺍ ﺽﺎﻔﺨﻧﺍ ﻝﺪﻌﻣ ﻰﻠﻋ ًﺎﻀﻳﺃ\nﺪﺒﻌﻟﺍ ﺍﺬﻬﻟ ﺽﺎﻔﺨﻧﻻﺍ ﻝﺪﻌﻣ ﺏﺎﺴﺣ\nﻮﻫ</SuppressionFallRateDesc>
+  <!-- EN: Cannot emancipate -->
+  <CannotEmancipate>ﺮﻳﺮﺤﺘﻟﺍ ﻦﻜﻤﻳ ﻻ</CannotEmancipate>
+  <!-- EN: Cannot imprison -->
+  <CannotImprison>ﻦﺠﺴﻟﺍ ﻦﻜﻤﻳ ﻻ</CannotImprison>
+  <!-- EN: Current suppression -->
+  <CurrentSuppression>ﻲﻟﺎﺤﻟﺍ ﺖﺒﻜﻟﺍ</CurrentSuppression>
+  <!-- EN: Terror -->
+  <Terror>ﺐﻋﺮﻟﺍ</Terror>
+  <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
+  <TerrorDescription>ﺪﻴﺒﻌﻟﺍ ﺀﺎﻘﺑﻹ ﺔﻠﻴﺳﻭ ﺐﻋﺮﻟﺍ\nﻲﻀﻘﻳ ﺎﻣﺪﻨﻋ ﺩﺍﺩﺰﻳ .ﻦﻴﺗﻮﺒﻜﻣ\nﺀﺎﻴﺷﺃ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ًﺎﺘﻗﻭ ﺪﺒﻌﻟﺍ\nﻦﻜﻤﻳ .ﺐﻋﺮﻟﺍ ﺕﺎﺗﻮﺤﻨﻣ ﻞﺜﻣ ﺔﺒﻋﺮﻣ\nﺐﻋﺭ ﺭﺩﺎﺼﻣ ﺔﺛﻼﺜﺑ ﺪﺒﻌﻟﺍ ﺮﺛﺄﺘﻳ ﻥﺃ\n.ﺓﺪﺣﺍﻮﻟﺍ ﺓﺮﻤﻟﺍ ﻲﻓ ﻂﻘﻓ\n\n،ًﺎﻌﻔﺗﺮﻣ ﺐﻋﺮﻟﺍ ﻥﻮﻜﻳ ﺎﻤﻨﻴﺑ\nﻰﻠﻋ ﺮﺒﻛﺃ ﺀﻂﺒﺑ ﺖﺒﻜﻟﺍ ﺾﻔﺨﻨﻳ\nﻲﻟﺎﺘﻟﺍ ﻮﺤﻨﻟﺍ</TerrorDescription>
+  <!-- EN: Recent terrifying observations -->
+  <TerrorCurrentThoughts>ﺔﺜﻳﺪﺣ ﺔﺒﻋﺮﻣ ﺕﺎﻈﺣﻼﻣ</TerrorCurrentThoughts>
+
+  <!-- EN: Base interval -->
+  <SuppressionBaseInterval>ﻲﺳﺎﺳﻷﺍ ﻞﺻﺎﻔﻟﺍ</SuppressionBaseInterval>
+  <!-- EN: Moving capacity -->
+  <SuppressionMovingCapacityFactor>ﺔﻛﺮﺤﻟﺍ ﺓﺭﺪﻗ</SuppressionMovingCapacityFactor>
+  <!-- EN: Suppression -->
+  <SuppressionFactor>ﺖﺒﻜﻟﺍ</SuppressionFactor>
+  <!-- EN: Mood -->
+  <SuppressionMoodFactor>ﺝﺍﺰﻤﻟﺍ</SuppressionMoodFactor>
+  <!-- EN: Slave count -->
+  <SuppressionSlaveCountFactor>ﺪﻴﺒﻌﻟﺍ ﺩﺪﻋ</SuppressionSlaveCountFactor>
+  <!-- EN: Escape route -->
+  <SuppressionEscapeFactor>ﺏﻭﺮﻬﻟﺍ ﻖﻳﺮﻃ</SuppressionEscapeFactor>
+  <!-- EN: Weapon proximity -->
+  <SuppressionWeaponProximityFactor>ﺔﺤﻠﺳﻷﺍ ﻦﻣ ﺏﺮﻘﻟﺍ</SuppressionWeaponProximityFactor>
+  <!-- EN: Final interval -->
+  <SuppressionFinalInterval>ﻲﺋﺎﻬﻨﻟﺍ ﻞﺻﺎﻔﻟﺍ</SuppressionFinalInterval>
+  <!-- EN: Unattended -->
+  <SuppressionUnattendedByColonists>ﺐﻗﺍﺮﻣ ﺮﻴﻏ</SuppressionUnattendedByColonists>
+  <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
+  <SuppressionRebellionAnySlave>ﺪﺣﺍﻭ ﺪﺒﻋ ﺩﺮﻤﺘﻳ ﻥﺃ ﻊﻗﻮﺘﻤﻟﺍ ﻦﻣ\nﻰﻠﻋ ًﺍﺪﺒﻋ {0} ﻦﻴﺑ ﻦﻣ ﻞﻗﻷﺍ ﻰﻠﻋ\n.{1} ﻞﻛ ﻝﺪﻌﻤﺑ ﺔﻄﻳﺮﺨﻟﺍ ﻩﺬﻫ</SuppressionRebellionAnySlave>
+
+  <!-- EN: Will -->
+  <WillLevel>ﺓﺩﺍﺭﻹﺍ</WillLevel>
+  <!-- EN: How much the prisoner is determined not to submit. When this reaches zero, they can be enslaved. -->
+  <WillLevelDesc>ﻡﺪﻋ ﻰﻠﻋ ﻦﻴﺠﺴﻟﺍ ﺭﺍﺮﺻﺇ ﻯﺪﻣ\nﻰﻟﺇ ﺍﺬﻫ ﻞﺼﻳ ﺎﻣﺪﻨﻋ .ﻉﻮﻀﺨﻟﺍ\n.ﻩﺩﺎﺒﻌﺘﺳﺍ ﻦﻜﻤﻳ ،ﺮﻔﺼﻟﺍ</WillLevelDesc>
+  <!-- EN: {0} base will -->
+  <WillFromPawnKind>{0} ﺔﻴﺳﺎﺳﺃ ﺓﺩﺍﺭﺇ</WillFromPawnKind>
+  <!-- EN: Target ideoligion -->
+  <IdeoConversionTarget>ﺔﻓﺪﻬﺘﺴﻤﻟﺍ ﺓﺪﻴﻘﻌﻟﺍ</IdeoConversionTarget>
+  <!-- EN: The ideoligion your wardens will attempt to convert this prisoner to. -->
+  <IdeoConversionTargetDesc>ﻙﻮﻧﺎّﺠﺳ ﻝﻭﺎﺤﻴﺳ ﻲﺘﻟﺍ ﺓﺪﻴﻘﻌﻟﺍ\n.ﺎﻬﻴﻟﺇ ﻦﻴﺠﺴﻟﺍ ﺍﺬﻫ ﻞﻳﻮﺤﺗ</IdeoConversionTargetDesc>
+
+  <!-- Social -->
+  <!-- EN: Change per day due to mood -->
+  <CertaintyChangePerDay>ﺝﺍﺰﻤﻟﺍ ﺐﺒﺴﺑ ﻲﻣﻮﻴﻟﺍ ﺮﻴﻐﺘﻟﺍ</CertaintyChangePerDay>
+  <!-- EN: Change rate based on mood -->
+  <MoodChangeRate>ﺝﺍﺰﻤﻟﺍ ﻰﻠﻋ ًﺀﺎﻨﺑ ﺮﻴﻐﺘﻟﺍ ﻝﺪﻌﻣ</MoodChangeRate>
+  <!-- EN: {PAWN_nameDef}'s certainty in {IDEO_name} -->
+  <CertaintyInIdeo>{IDEO_name} ﻲﻓ {PAWN_nameDef} ﻦﻴﻘﻳ</CertaintyInIdeo>
+  <!-- EN: A special status this person holds in their ideoligion. If you change or take away this role, they will become unhappy. -->
+  <RoleDesc>ﻲﻓ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺎﻬﻠﻤﺤﻳ ﺔﺻﺎﺧ ﺔﻧﺎﻜﻣ\nﺍﺬﻫ ﺖﻟﺯﺃ ﻭﺃ ﺕﺮﻴﻏ ﺍﺫﺇ .ﻪﺗﺪﻴﻘﻋ\n.ﺪﻴﻌﺳ ﺮﻴﻏ ﺢﺒﺼﻴﺳ ،ﺭﻭﺪﻟﺍ</RoleDesc>
+  <!-- EN: Changing roles requires a role change ritual. Select any ritual spot or altar and press 'Begin role change'. -->
+  <RoleAssignmentTip>ﺮﻴﻴﻐﺗ ﺲﻘﻃ ﺐﻠﻄﺘﻳ ﺭﺍﻭﺩﻷﺍ ﺮﻴﻴﻐﺗ\nﻭﺃ ﺲﻘﻃ ﺔﻌﻘﺑ ﻱﺃ ﺮﺘﺧﺍ .ﺭﺍﻭﺩﻷﺍ\n.'ﺭﻭﺪﻟﺍ ﺮﻴﻴﻐﺗ ﺃﺪﺑﺍ' ﻂﻐﺿﺍﻭ ﺢﺑﺬﻣ</RoleAssignmentTip>
+  <!-- EN: Conversion attempts will be weaker because of trait/meme agreement -->
+  <ConversionWeakerDueToTraitAgreements>ﺐﺒﺴﺑ ﻒﻌﺿﺃ ﻞﻳﻮﺤﺘﻟﺍ ﺕﻻﻭﺎﺤﻣ ﻥﻮﻜﺘﺳ\nﻢﻴﻤﻟﺍ/ﺔﻤﺴﻟﺍ ﻖﻓﺍﻮﺗ</ConversionWeakerDueToTraitAgreements>
+  <!-- EN: Conversion attempts will be stronger because of trait/meme conflict -->
+  <ConversionStrongerDueToTraitAgreements>ﺐﺒﺴﺑ ﻯﻮﻗﺃ ﻞﻳﻮﺤﺘﻟﺍ ﺕﻻﻭﺎﺤﻣ ﻥﻮﻜﺘﺳ\nﻢﻴﻤﻟﺍ/ﺔﻤﺴﻟﺍ ﺽﺭﺎﻌﺗ</ConversionStrongerDueToTraitAgreements>
+
+  <!-- EN: Cut -->
+  <Cut>ﻊﻄﻗ</Cut>
+  <!-- EN: Cut both eyes -->
+  <CutBothEyes>ﻦﻴﻨﻴﻌﻟﺍ ﺎﺘﻠﻛ ﻊﻄﻗ</CutBothEyes>
+
+</LanguageData>

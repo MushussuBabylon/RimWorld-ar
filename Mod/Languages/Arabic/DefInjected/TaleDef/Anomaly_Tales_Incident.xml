@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: death pall -->
+  <DeathPall.label>ﺕﻮﻤﻟﺍ ﺀﺎﺸﻏ</DeathPall.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] facing the encroaching death pall</li>
+    <li>image->[PAWN_nameFull] gazing in horror as the death pall blankets the land, resurrecting the dead [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] clutching [PAWN_possessive] weapon tightly, as the death pall descends, raising the dead [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] trembling with unease, witnessing the arrival of the death pall, its influence giving life to the lifeless [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] watching in horror as the death pall envelops [PAWN_possessive] peaceful home, turning it into a battleground against the dead [circumstance_group]</li>
+    <li>circumstance_phrase->and drowning out [PAWN_possessive] desperate prayers for safety</li>
+    <li>circumstance_phrase->with the scent of decay and despair filling the air</li>
+    <li>circumstance_phrase->and trapping [PAWN_objective] in a horde of shamblers</li>
+    <li>desc_sentence->In the centre of the death pall, [PAWN_nameDef] prepares for battle.</li>
+    <li>desc_sentence->The encroachment of the death pall fills [PAWN_nameDef]'s friends with terror.</li>
+    <li>desc_sentence->Shivers run down [PAWN_nameDef]'s spine as the death pall's influence continues to spread.</li>
+    <li>desc_sentence->The weight of despair settles upon [PAWN_nameDef], testing [PAWN_possessive] resolve in the face of the macabre.</li>
+  -->
+  <DeathPall.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﻒﺣﺍﺰﻟﺍ ﺕﻮﻤﻟﺍ ﺀﺎﺸﻏ ﻪﺟﺍﻮﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;ﺀﺎﺸﻏ ﻲﻄﻐﻳ ﺎﻤﻨﻴﺑ ﺐﻋﺭ ﻲﻓ ﻕﺪﺤﻳ [PAWN_nameFull]\n[circumstance_group] ﻰﺗﻮﻤﻟﺍ ﺎًﺜﻋﺎﺑ ،ﺽﺭﻷﺍ ﺕﻮﻤﻟﺍ</li>
+    <li>image-&gt;،ﻡﺎﻜﺣﺈﺑ ﻪﺣﻼﺳ [PAWN_possessive]ـﺑ ﺎًﻜﺴﻤﻣ [PAWN_nameFull]\nﺎًﻀﻫﺎﻧ ،ﺕﻮﻤﻟﺍ ﺀﺎﺸﻏ ﻂﺒﻬﻳ ﺎﻤﻨﻴﺑ\n[circumstance_group] ﻰﺗﻮﻤﻟﺎﺑ</li>
+    <li>image-&gt;ﺍًﺪﻫﺎﺷ ،ﺡﺎﻴﺗﺭﺍ ﻡﺪﻌﺑ ﺶﻌﺗﺮﻳ [PAWN_nameFull]\nﺢﻨﻤﻳ ﻩﺮﻴﺛﺄﺗ ،ﺕﻮﻤﻟﺍ ﺀﺎﺸﻏ ﻝﻮﺻﻭ\n[circumstance_group] ﻢﻬﻟ ﺓﺎﻴﺣ ﻻ ﻦﻤﻟ ﺓﺎﻴﺤﻟﺍ</li>
+    <li>image-&gt;ﺀﺎﺸﻏ ﻒﻠﻐﻳ ﺎﻤﻨﻴﺑ ﺐﻋﺭ ﻲﻓ ﺐﻗﺮﻳ [PAWN_nameFull]\nﻩﺎﻳﺇ ﺎﻻﻮﺤﻣ ،ﺉﺩﺎﻬﻟﺍ [PAWN_possessive]ﻝﺰﻨﻣ ﺕﻮﻤﻟﺍ\n[circumstance_group] ﻰﺗﻮﻤﻟﺍ ﺪﺿ ﺔﻛﺮﻌﻣ ﺔﺣﺎﺳ ﻰﻟﺇ</li>
+    <li>circumstance_phrase-&gt;ﺔﻣﻼﺴﻠﻟ ﺔﺴﺋﺎﻴﻟﺍ [PAWN_possessive]ﺕﺍﻮﻠﺻ ﻕﺮﻐﻳﻭ</li>
+    <li>circumstance_phrase-&gt;ﻸﻤﺗ ﺱﺄﻴﻟﺍﻭ ﺩﺎﺴﻔﻟﺍ ﺔﺤﺋﺍﺭ ﻊﻣ\nﺀﺍﻮﺟﻷﺍ</li>
+    <li>circumstance_phrase-&gt;ﻦﻴﺤﻧﺮﺘﻤﻟﺍ ﻦﻣ ﺪﺸﺣ ﻲﻓ [PAWN_objective] ﺰﺠﺘﺤﻳﻭ</li>
+    <li>desc_sentence-&gt;[PAWN_nameDef] ﺪﻌﺘﺴﻳ ،ﺕﻮﻤﻟﺍ ﺀﺎﺸﻏ ﺰﻛﺮﻣ ﻲﻓ\n.ﺔﻛﺮﻌﻤﻠﻟ</li>
+    <li>desc_sentence-&gt;[PAWN_nameDef] ﺀﺎﻗﺪﺻﺃ ﻸﻤﻳ ﺕﻮﻤﻟﺍ ﺀﺎﺸﻏ ﻒﺣﺯ\n.ﺐﻋﺮﻟﺎﺑ</li>
+    <li>desc_sentence-&gt;ﻱﺮﻘﻔﻟﺍ [PAWN_nameDef] ﺩﻮﻤﻋ ﻲﻓ ﺓﺮﻳﺮﻌﺸﻗ ﻱﺮﺴﺗ\nﺕﻮﻤﻟﺍ ﺀﺎﺸﻏ ﺮﻴﺛﺄﺗ ﺮﻤﺘﺴﻳ ﺎﻤﻨﻴﺑ\n.ﺭﺎﺸﺘﻧﻻﺍ ﻲﻓ</li>
+    <li>desc_sentence-&gt;ﺍًﺮﺒﺘﺨﻣ ،[PAWN_nameDef] ﻰﻠﻋ ﺱﺄﻴﻟﺍ ﻞﻘﺛ ﺮﻘﺘﺴﻳ\n.ﺐﻴﻫﺮﻟﺍ ﺔﻬﺟﺍﻮﻣ ﻲﻓ [PAWN_possessive]ﺭﺍﺮﺻﺇ</li>
+ </DeathPall.rulePack.rulesStrings>
+  
+  <!-- EN: unnatural darkness -->
+  <UnnaturalDarkness.label>ﻲﻌﻴﺒﻄﻟﺍ ﺮﻴﻏ ﻡﻼﻈﻟﺍ</UnnaturalDarkness.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] confronts the unnatural darkness</li>
+    <li>image->[PAWN_nameFull] standing in awe as the world is consumed by an impenetrable darkness [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] surrounded by black pillars falling from the sky which blanket the land in darkness [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] struggling to find [PAWN_possessive] way through the suffocating darkness, noctols hounding at [PAWN_possessive] heels, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] watching the world get swallowed by an abyss of shadows [circumstance_group]</li>
+    <li>circumstance_phrase->amidst by [PAWN_possessive] friends' desperate attempts to return to the safety of the light</li>
+    <li>circumstance_phrase->with piercing screams echoing all around</li>
+    <li>circumstance_phrase->the light seemingly barely able to hold it back</li>
+    <li>circumstance_phrase->as [PAWN_pronoun] offers pleas for salvation</li>
+    <li>desc_sentence->Not even the faintest flickering of lights in the distance is visible.</li>
+    <li>desc_sentence->The situation seems utterly hopeless.</li>
+    <li>desc_sentence->Groups of shadowy creatures are visible at the edge of the darkness.</li>
+    <li>desc_sentence->[PAWN_nameDef] tries to find a glimmer of hope amidst the encroaching darkness.</li>
+  -->
+  <UnnaturalDarkness.rulePack.rulesStrings>
+    <li>tale_noun-&gt;ﻲﻌﻴﺒﻄﻟﺍ ﺮﻴﻏ ﻡﻼﻈﻟﺍ ﻪﺟﺍﻮﻳ [PAWN_nameDef]</li>
+    <li>image-&gt;ﻊﻠﺘﺒﻳ ﺎﻤﻨﻴﺑ ﻝﻮﻫﺫ ﻲﻓ ﻒﻘﻳ [PAWN_nameFull]\n[circumstance_group] ﻪﻗﺍﺮﺘﺧﺍ ﻦﻜﻤﻳ ﻻ ﻡﻼﻇ ﻢﻟﺎﻌﻟﺍ</li>
+    <li>image-&gt;ﻂﻗﺎﺴﺘﺗ ﺀﺍﺩﻮﺳ ﺓﺪﻤﻋﺄﺑ ﺎًﻃﺎﺤﻣ [PAWN_nameFull]\n[circumstance_group] ﻡﻼﻈﻟﺎﺑ ﺽﺭﻷﺍ ﻲﻄﻐﺗ ﺀﺎﻤﺴﻟﺍ ﻦﻣ</li>
+    <li>image-&gt;ﻡﻼﻈﻟﺍ ﺮﺒﻋ [PAWN_possessive]ﻖﻳﺮﻃ ﺪﺠﻴﻟ ﺢﻓﺎﻜﻳ [PAWN_nameFull]\n[circumstance_group] ،ﻩﺩﺭﺎﻄﺗ ﺕﻻﻮﺘﻛﻮﻨﻟﺍﻭ ،ﻖﻧﺎﺨﻟﺍ</li>
+    <li>image-&gt;ﻲﻓ ﻊﻠﺘﺒﻳ ﻮﻫﻭ ﻢﻟﺎﻌﻟﺍ ﺐﻗﺮﻳ [PAWN_nameFull]\n[circumstance_group] ﻝﻼﻈﻟﺍ ﻦﻣ ﺔﻳﻭﺎﻫ</li>
+    <li>circumstance_phrase-&gt;ﺔﺴﺋﺎﻴﻟﺍ [PAWN_possessive]ﺀﺎﻗﺪﺻﺃ ﺕﻻﻭﺎﺤﻣ ﻂﺳﻭ\nﺀﻮﻀﻟﺍ ﻥﺎﻣﺃ ﻰﻟﺇ ﺓﺩﻮﻌﻠﻟ</li>
+    <li>circumstance_phrase-&gt;ﻞﻛ ﻲﻓ ﺩﺩﺮﺘﺗ ﺔﺒﻗﺎﺛ ﺕﺎﺧﺮﺻ ﻊﻣ\nﻥﺎﻜﻣ</li>
+    <li>circumstance_phrase-&gt;ﻰﻠﻋ ﺍًﺭﺩﺎﻗ ﻭﺪﺒﻳ ﺩﺎﻜﻟﺎﺑ ﺀﻮﻀﻟﺍ\nﻩﺪﺻ</li>
+    <li>circumstance_phrase-&gt;ﺹﻼﺨﻠﻟ ﺕﺎﻋﺮﻀﺗ [PAWN_pronoun] ﻡﺪﻘﻳ ﺎﻤﻨﻴﺑ</li>
+    <li>desc_sentence-&gt;ﻦﻣ ﺺﻴﺼﺑ ﻒﻌﺿﺃ ﻰﺘﺣ ﺔﻳﺅﺭ ﻦﻜﻤﻳ ﻻ\n.ﺔﻓﺎﺴﻤﻟﺍ ﻲﻓ ﺀﺍﻮﺿﻷﺍ</li>
+    <li>desc_sentence-&gt;ﻪﻨﻣ ﺎًﺳﻭﺆﻴﻣ ﻒﻗﻮﻤﻟﺍ ﻭﺪﺒﻳ\n.ﺎًﻣﺎﻤﺗ</li>
+    <li>desc_sentence-&gt;ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻦﻣ ﺕﺎﻋﻮﻤﺠﻣ ﺮﻬﻈﺗ\n.ﻡﻼﻈﻟﺍ ﺔﻓﺎﺣ ﺪﻨﻋ ﺔﻴﻠﻈﻟﺍ</li>
+    <li>desc_sentence-&gt;ﻂﺳﻭ ﻞﻣﺃ ﺺﻴﺼﺑ ﺩﺎﺠﻳﺇ [PAWN_nameDef] ﻝﻭﺎﺤﻳ\n.ﻒﺣﺍﺰﻟﺍ ﻡﻼﻈﻟﺍ</li>
+ </UnnaturalDarkness.rulePack.rulesStrings>
+  
+</LanguageData>

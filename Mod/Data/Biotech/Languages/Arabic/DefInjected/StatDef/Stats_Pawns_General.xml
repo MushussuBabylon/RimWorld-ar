@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bandwidth cost -->
+  <BandwidthCost.label>ﻕﺎﻄﻨﻟﺍ ﺔﻔﻠﻜﺗ</BandwidthCost.label>
+  <!-- EN: How much bandwidth this mech consumes when under mechanitor control. -->
+  <BandwidthCost.description>ﺍﺬﻫ ﻪﻜﻠﻬﺘﺴﻳ ﻱﺬﻟﺍ ﻕﺎﻄﻨﻟﺍ ﺭﺍﺪﻘﻣ\nﺖﺤﺗ ﻥﻮﻜﻳ ﺎﻣﺪﻨﻋ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\n.ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻟﺍ ﺓﺮﻄﻴﺳ</BandwidthCost.description>
+  
+  <!-- EN: cancer rate factor -->
+  <CancerRate.label>ﻥﺎﻃﺮﺴﻟﺍ ﻝﺪﻌﻣ ﻞﻣﺎﻋ</CancerRate.label>
+  <!-- EN: A multiplier on how likely this person is to develop cancer in any given time frame. -->
+  <CancerRate.description>ﺔﺑﺎﺻﺇ ﺔﻴﻟﺎﻤﺘﺣﺍ ﻯﺪﻣ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\nﺭﺎﻃﺇ ﻱﺃ ﻲﻓ ﻥﺎﻃﺮﺴﻟﺎﺑ ﺺﺨﺸﻟﺍ ﺍﺬﻫ\n.ﻲﻨﻣﺯ</CancerRate.description>
+  
+  <!-- EN: control taking time -->
+  <ControlTakingTime.label>ﺓﺮﻄﻴﺴﻟﺍ ﺖﻗﻭ</ControlTakingTime.label>
+  <!-- EN: How many seconds it will take for a mechanitor to take control of this mech. -->
+  <ControlTakingTime.description>ﺎﻬﻗﺮﻐﺘﺴﻴﺳ ﻲﺘﻟﺍ ﻲﻧﺍﻮﺜﻟﺍ ﺩﺪﻋ\nﺍﺬﻫ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻠﻟ ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻟﺍ\n.ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ</ControlTakingTime.description>
+  <!-- EN: {0}s -->
+  <ControlTakingTime.formatString>ﺔﻴﻧﺎﺛ{0}</ControlTakingTime.formatString>
+  
+  <!-- EN: fertility -->
+  <Fertility.label>ﺔﺑﻮﺼﺧ</Fertility.label>
+  <!-- EN: Fertility affects the chance of a pregnancy occurring. Pregnancy chance is dependent on the fertility of both partners. This also affects the chance of successfully implanting an embryo in a surrogate. -->
+  <Fertility.description>ﺙﻭﺪﺣ ﺔﺻﺮﻓ ﻰﻠﻋ ﺔﺑﻮﺼﺨﻟﺍ ﺮﺛﺆﺗ\nﻰﻠﻋ ﻞﻤﺤﻟﺍ ﺔﺻﺮﻓ ﺪﻤﺘﻌﺗ .ﻞﻤﺤﻟﺍ\nﺮﺛﺆﺗ ﺎﻤﻛ .ﻦﻴﻜﻳﺮﺸﻟﺍ ﻼﻛ ﺔﺑﻮﺼﺧ\nﻲﻓ ﺡﺎﺠﻨﺑ ﻦﻴﻨﺠﻟﺍ ﻉﺭﺯ ﺔﺻﺮﻓ ﻰﻠﻋ\n.ﺔﻠﻳﺪﺒﻟﺍ ﻡﻷﺍ</Fertility.description>
+  
+  <!-- EN: growth vat occupant speed -->
+  <GrowthVatOccupantSpeed.label>ﻮﻤﻨﻟﺍ ﺀﺎﻋﻭ ﻞﻏﺎﺷ ﺔﻋﺮﺳ</GrowthVatOccupantSpeed.label>
+  <!-- EN: A multiplier on how quickly this person will grow when in a growth vat. -->
+  <GrowthVatOccupantSpeed.description>ﺍﺬﻫ ﻮﻤﻧ ﺔﻋﺮﺳ ﻯﺪﻣ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\nﺀﺎﻋﻭ ﻲﻓ ﻥﻮﻜﻳ ﺎﻣﺪﻨﻋ ﺺﺨﺸﻟﺍ\n.ﻮﻤﻨﻟﺍ</GrowthVatOccupantSpeed.description>
+  
+  <!-- EN: hemogen gain multiplier -->
+  <HemogenGainFactor.label>ﻦﻴﺟﻮﻤﻴﻬﻟﺍ ﺏﺎﺴﺘﻛﺍ ﻒﻋﺎﻀﻣ</HemogenGainFactor.label>
+  <!-- EN: A multiplier on the amount of hemogen gained. -->
+  <HemogenGainFactor.description>ﻦﻴﺟﻮﻤﻴﻬﻟﺍ ﺭﺍﺪﻘﻣ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\n.ﺐﺴﺘﻜﻤﻟﺍ</HemogenGainFactor.description>
+  
+  <!-- EN: learning rate factor -->
+  <LearningRateFactor.label>ﻢﻠﻌﺘﻟﺍ ﺔﻋﺮﺳ ﻞﻣﺎﻋ</LearningRateFactor.label>
+  <!-- EN: A multiplier on how quickly a child's learning need is fulfilled by learning activities. -->
+  <LearningRateFactor.description>ﺔﺟﺎﺣ ﻉﺎﺒﺷﺇ ﺔﻋﺮﺳ ﻯﺪﻣ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\nﺔﻄﺸﻧﺃ ﻝﻼﺧ ﻦﻣ ﻢﻠﻌﺘﻠﻟ ﻞﻔﻄﻟﺍ\n.ﻢﻠﻌﺘﻟﺍ</LearningRateFactor.description>
+  
+  <!-- EN: mech bandwidth -->
+  <MechBandwidth.label>ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻕﺎﻄﻧ</MechBandwidth.label>
+  <!-- EN: How much bandwidth a mechanitor has. More bandwidth allows a mechanitor to produce and control more mechs at the same time.\n\nLosing bandwidth means losing control of mechs, leaving them without an overseer. Such mechs can eventually become feral if not re-dominated. -->
+  <MechBandwidth.description>ﻪﻜﻠﺘﻤﻳ ﻱﺬﻟﺍ ﻕﺎﻄﻨﻟﺍ ﺭﺍﺪﻘﻣ\nﻕﺎﻄﻨﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ .ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻟﺍ\nﺝﺎﺘﻧﺈﺑ ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻠﻟ ﺢﻤﺴﻳ\nﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻲﻓ ﻢﻜﺤﺘﻟﺍﻭ\n.ﺖﻗﻮﻟﺍ ﺲﻔﻧ ﻲﻓ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\n\nﻥﺍﺪﻘﻓ ﻲﻨﻌﻳ ﻕﺎﻄﻨﻟﺍ ﻥﺍﺪﻘﻓ\n،ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ\nﺢﺒﺼﺗ ﻥﺃ ﻦﻜﻤﻳ .ﻑﺮﺸﻣ ﻥﻭﺪﺑ ﺎﻬﻛﺮﺗﻭ\nﻲﻓ ﺔﺸﺣﻮﺘﻣ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻩﺬﻫ\nﺓﺮﻄﻴﺴﻟﺍ ﻢﺘﺗ ﻢﻟ ﺍﺫﺇ ﺔﻳﺎﻬﻨﻟﺍ\n.ًﺍﺩﺪﺠﻣ ﺎﻬﻴﻠﻋ</MechBandwidth.description>
+  
+  <!-- EN: mech control groups -->
+  <MechControlGroups.label>ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻢﻜﺤﺗ ﺕﺎﻋﻮﻤﺠﻣ</MechControlGroups.label>
+  <!-- EN: How many control groups this mechanitor can direct independently. Each control group can be given its own separate orders. -->
+  <MechControlGroups.description>ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﻢﻜﺤﺘﻟﺍ ﺕﺎﻋﻮﻤﺠﻣ ﺩﺪﻋ\nﻞﻜﺸﺑ ﺎﻬﻬﻴﺟﻮﺗ ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻟﺍ ﺍﺬﻬﻟ\nﺔﻋﻮﻤﺠﻣ ﻞﻛ ﺀﺎﻄﻋﺇ ﻦﻜﻤﻳ .ﻞﻘﺘﺴﻣ\n.ﺔﻠﺼﻔﻨﻤﻟﺍ ﺎﻫﺮﻣﺍﻭﺃ ﻢﻜﺤﺗ</MechControlGroups.description>
+  
+  <!-- EN: repair energy cost -->
+  <MechEnergyLossPerHP.label>ﺡﻼﺻﻹﺍ ﺔﻗﺎﻃ ﺔﻔﻠﻜﺗ</MechEnergyLossPerHP.label>
+  <!-- EN: The amount of energy that this mechanoid loses for every 100 damage repaired. -->
+  <MechEnergyLossPerHP.description>ﺍﺬﻫ ﺎﻫﺪﻘﻔﻳ ﻲﺘﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺔﻴﻤﻛ\nﻢﺘﻳ ﺭﺮﺿ 100 ﻞﻜﻟ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\n.ﻪﺣﻼﺻﺇ</MechEnergyLossPerHP.description>
+  
+  <!-- EN: energy usage multiplier -->
+  <MechEnergyUsageFactor.label>ﺔﻗﺎﻄﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻒﻋﺎﻀﻣ</MechEnergyUsageFactor.label>
+  <!-- EN: A multiplier on how fast a mechanoid consumes its energy reserves while operating. -->
+  <MechEnergyUsageFactor.description>ﻙﻼﻬﺘﺳﺍ ﺔﻋﺮﺳ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\nﺔﻗﺎﻄﻟﺍ ﺕﺎﻴﻃﺎﻴﺘﺣﻻ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\n.ﻞﻴﻐﺸﺘﻟﺍ ﺀﺎﻨﺛﺃ</MechEnergyUsageFactor.description>
+  
+  <!-- EN: mech gestation speed -->
+  <MechFormingSpeed.label>ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻞﻤﺣ ﺔﻋﺮﺳ</MechFormingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this mechanitor can form new mechanoids at a gestator. -->
+  <MechFormingSpeed.description>ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺔﻋﺮﺴﻟﺍ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\nﻦﻳﻮﻜﺗ ﺎﻬﺑ ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻟﺍ ﺍﺬﻬﻟ\n.ﺪﻟﻮﻤﻟﺍ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻣ</MechFormingSpeed.description>
+  
+  <!-- EN: mech remote repair distance -->
+  <MechRemoteRepairDistance.label>ﺪﻳﻮﻧﺎﻜﻴﻤﻠﻟ ﺪﻌﺑ ﻦﻋ ﺡﻼﺻﻹﺍ ﺔﻓﺎﺴﻣ</MechRemoteRepairDistance.label>
+  <!-- EN: How far away a mech can be during remote repair. -->
+  <MechRemoteRepairDistance.description>ﺡﻼﺻﻹﺍ ﺀﺎﻨﺛﺃ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﺪﻌﺑ ﻯﺪﻣ\n.ﺪﻌﺑ ﻦﻋ</MechRemoteRepairDistance.description>
+  
+  <!-- EN: mech remote shield distance -->
+  <MechRemoteShieldDistance.label>ﺪﻳﻮﻧﺎﻜﻴﻤﻠﻟ ﺪﻌﺑ ﻦﻋ ﻉﺭﺪﻟﺍ ﺔﻓﺎﺴﻣ</MechRemoteShieldDistance.label>
+  <!-- EN: The maximum range at which a mechanitor can place a shield on a mechanoid. -->
+  <MechRemoteShieldDistance.description>ﻩﺪﻨﻋ ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻠﻟ ﻦﻜﻤﻳ ﻯﺪﻣ ﻰﺼﻗﺃ\n.ﺪﻳﻮﻧﺎﻜﻴﻣ ﻰﻠﻋ ﻉﺭﺩ ﻊﺿﻭ</MechRemoteShieldDistance.description>
+  
+  <!-- EN: mech remote shield energy -->
+  <MechRemoteShieldEnergy.label>ﺪﻌﺑ ﻦﻋ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﻉﺭﺩ ﺔﻗﺎﻃ</MechRemoteShieldEnergy.label>
+  <!-- EN: The energy a remote shield will have when created by a mechanitor. -->
+  <MechRemoteShieldEnergy.description>ﻉﺭﺪﻟﺍ ﺎﻬﻴﻠﻋ ﻞﺼﺤﻴﺳ ﻲﺘﻟﺍ ﺔﻗﺎﻄﻟﺍ\nﺔﻄﺳﺍﻮﺑ ﻪﺋﺎﺸﻧﺇ ﺪﻨﻋ ﺪﻌﺑ ﻦﻋ\n.ﺭﻮﺘﻴﻧﺎﻜﻴﻣ</MechRemoteShieldEnergy.description>
+  
+  <!-- EN: mech repair speed -->
+  <MechRepairSpeed.label>ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﺡﻼﺻﺇ ﺔﻋﺮﺳ</MechRepairSpeed.label>
+  <!-- EN: A multiplier on how fast a mechanitor can repair mechanoids. -->
+  <MechRepairSpeed.description>ﺡﻼﺻﺇ ﺔﻋﺮﺳ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\n.ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻠﻟ ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻟﺍ</MechRepairSpeed.description>
+  
+  <!-- EN: raw nutrition multiplier -->
+  <RawNutritionFactor.label>ﺔﺌﻴﻨﻟﺍ ﺔﻳﺬﻐﺘﻟﺍ ﻒﻋﺎﻀﻣ</RawNutritionFactor.label>
+  <!-- EN: A multiplier on how nutritious raw food is for this person. Note that since meals usually have more nutrition than their raw ingredients, a boost to this stat may only mean the person gets the same nutrition from raw food as if it were cooked. -->
+  <RawNutritionFactor.description>ﻡﺎﻌﻄﻟﺍ ﺔﻳﺬﻐﺗ ﻯﺪﻣ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\nﻪﻧﺃ ﻆﺣﻻ .ﺺﺨﺸﻟﺍ ﺍﺬﻬﻟ ﺀﻲﻨﻟﺍ\nﻱﻮﺘﺤﺗ ﺎﻣ ﺓﺩﺎﻋ ﺕﺎﺒﺟﻮﻟﺍ ﻥﻷ ًﺍﺮﻈﻧ\nﺎﻬﺗﺎﻧﻮﻜﻣ ﻦﻣ ﺮﺜﻛﺃ ﺔﻳﺬﻐﺗ ﻰﻠﻋ\nﺔﻴﺋﺎﺼﺣﻹﺍ ﻩﺬﻫ ﺰﻳﺰﻌﺗ ﻥﺈﻓ ،ﺔﺌﻴﻨﻟﺍ\nﻰﻠﻋ ﻞﺼﺤﻳ ﺺﺨﺸﻟﺍ ﻥﺃ ﻂﻘﻓ ﻲﻨﻌﻳ ﺪﻗ\nﺀﻲﻨﻟﺍ ﻡﺎﻌﻄﻟﺍ ﻦﻣ ﺔﻳﺬﻐﺘﻟﺍ ﺲﻔﻧ\n.ًﺍﻮﻬﻄﻣ ﻥﺎﻛ ﻮﻟ ﺎﻤﻛ</RawNutritionFactor.description>
+  
+  <!-- EN: subcore encoding speed -->
+  <SubcoreEncodingSpeed.label>ﺔﻴﻋﺮﻔﻟﺍ ﺓﺍﻮﻨﻟﺍ ﺰﻴﻣﺮﺗ ﺔﻋﺮﺳ</SubcoreEncodingSpeed.label>
+  <!-- EN: A multiplier on how fast a mechanitor can create subcores. -->
+  <SubcoreEncodingSpeed.description>ﺀﺎﺸﻧﺇ ﺔﻋﺮﺳ ﻰﻠﻋ ﻒﻋﺎﻀﻣ\n.ﺔﻴﻋﺮﻔﻟﺍ ﺔﻳﻮﻧﻸﻟ ﺭﻮﺘﻴﻧﺎﻜﻴﻤﻟﺍ</SubcoreEncodingSpeed.description>
+  
+  <!-- EN: wastepacks per recharge -->
+  <WastepacksPerRecharge.label>ﺔﻨﺤﺷ ﻞﻜﻟ ﺕﺎﻳﺎﻔﻨﻟﺍ ﺱﺎﻴﻛﺃ</WastepacksPerRecharge.label>
+  <!-- EN: How many toxic wastepacks this mechanoid will generate at a mech recharger when going from 0 to 100% energy. Larger mechanoids will generally create more toxic wastepacks. -->
+  <WastepacksPerRecharge.description>ﻲﺘﻟﺍ ﺔﻣﺎﺴﻟﺍ ﺕﺎﻳﺎﻔﻨﻟﺍ ﺱﺎﻴﻛﺃ ﺩﺪﻋ\nﻦﺣﺎﺷ ﻲﻓ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﺍﺬﻫ ﺎﻫﺪﻟﻮﻴﺳ\n0 ﻦﻣ ﻝﺎﻘﺘﻧﻻﺍ ﺪﻨﻋ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\nﺞﺘﻨﺘﺳ .ﺔﻗﺎﻃ %100 ﻰﻟﺇ\nًﺎﻣﻮﻤﻋ ﺮﺒﻛﻷﺍ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ\nﺕﺎﻳﺎﻔﻨﻟﺍ ﺱﺎﻴﻛﺃ ﻦﻣ ﺪﻳﺰﻤﻟﺍ\n.ﺔﻣﺎﺴﻟﺍ</WastepacksPerRecharge.description>
+  <WastepacksPerRecharge.statFactorsExplanationHeader>ﺓﺮﺛﺆﻤﻟﺍ ﺺﺋﺎﺼﺨﻟﺍ</WastepacksPerRecharge.statFactorsExplanationHeader>
+  
+</LanguageData>

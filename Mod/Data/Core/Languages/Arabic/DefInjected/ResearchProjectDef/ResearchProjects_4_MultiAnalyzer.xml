@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: advanced fabrication -->
+  <AdvancedFabrication.label>ﻡﺪﻘﺘﻤﻟﺍ ﻊﻴﻨﺼﺘﻟﺍ</AdvancedFabrication.label>
+  <!-- EN: Fabricate advanced components from standard components and other materials. -->
+  <AdvancedFabrication.description>ﺕﺎﻧﻮﻜﻣ ﻦﻣ ﺓﺭﻮﻄﺘﻣ ﺕﺎﻧﻮﻜﻣ ﻊﻴﻨﺼﺗ\n.ﻯﺮﺧﺃ ﺩﺍﻮﻣﻭ ﺔﻴﺳﺎﻴﻗ</AdvancedFabrication.description>
+  <!-- EN:
+    <li>subject->advanced component fabrication</li>
+    <li>subject_story->traded advanced components to desperate rimworlders</li>
+    <li>subject_story->learned the secrets of fabricating advanced components and died without revealing them</li>
+    <li>subject_story->balked at the extreme cost of crafting advanced components and chose a simpler lifestyle</li>
+    <li>subject_gerund->fabricating advanced components</li>
+  -->
+  <AdvancedFabrication.generalRules.rulesStrings>
+    <li>subject-&gt;ﺓﺭﻮﻄﺘﻤﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻊﻴﻨﺼﺗ</li>
+    <li>subject_story-&gt;ﻊﻣ ﺓﺭﻮﻄﺘﻤﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺎﺑ ﺮﺟﺎﺗ\nﻦﻴﺴﺋﺎﻴﻟﺍ ﺔﻓﺎﺤﻟﺍ ﻢﻟﺍﻮﻋ ﻥﺎﻜﺳ</li>
+    <li>subject_story-&gt;ﺕﺎﻧﻮﻜﻤﻟﺍ ﻊﻴﻨﺼﺗ ﺭﺍﺮﺳﺃ ﻢﻠﻌﺗ\nﺎﻬﻔﺸﻜﻳ ﻥﺃ ﻥﻭﺩ ﺕﺎﻣﻭ ﺓﺭﻮﻄﺘﻤﻟﺍ</li>
+    <li>subject_story-&gt;ﻊﻨﺼﻟ ﺔﻈﻫﺎﺒﻟﺍ ﺔﻔﻠﻜﺘﻟﺍ ﻦﻋ ﻢﺠﺣﺃ\nﺓﺎﻴﺣ ﺭﺎﺘﺧﺍﻭ ﺓﺭﻮﻄﺘﻤﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ\nﻂﺴﺑﺃ</li>
+    <li>subject_gerund-&gt;ﺓﺭﻮﻄﺘﻤﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻊﻴﻨﺼﺗ</li>
+ </AdvancedFabrication.generalRules.rulesStrings>
+  
+  <!-- EN: bionic replacements -->
+  <Bionics.label>ﺔﻳﻮﻴﺤﻟﺍ ﺔﻴﻧﻭﺮﺘﻜﻟﻹﺍ ﺕﻻﺍﺪﺒﺘﺳﻻﺍ</Bionics.label>
+  <!-- EN: Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach. -->
+  <Bionics.description>ﺔﻳﻮﻴﺣ ﺔﻴﻧﻭﺮﺘﻜﻟﺇ ﻢﺴﺟ ﺀﺍﺰﺟﺃ ﺀﺎﻨﺑ\nﻑﺍﺮﻃﻷﺍ ﻝﺍﺪﺒﺘﺳﻻ ﺔﻴﻨﻘﺘﻟﺍ ﺔﻴﻟﺎﻋ\nًﺎﺒﻴﺒﻃ ﺐﻠﻄﺘﻳ .ﺓﺩﻮﻘﻔﻤﻟﺍ ﻥﻮﻴﻌﻟﺍﻭ\n.ﺎﻬﺒﻴﻛﺮﺘﻟ ًﺍﺮﻫﺎﻣ</Bionics.description>
+  <!-- EN:
+    <li>subject->bionic prosthesis</li>
+    <li>subject_story->worked primarily with disfigured soldiers, crafting bespoke bionic facial elements so they could return to their loved ones</li>
+    <li>subject_story->studied slowed vids of human motion to better craft bionic prosthetics</li>
+    <li>subject_story->was volunteered to have the various prototype bionics  implanted, ending up as more machine than man</li>
+    <li>subject_gerund->constructing bionic prosthetics</li>
+    <li>subject_gerund->utilizing bionic body parts</li>
+  -->
+  <Bionics.generalRules.rulesStrings>
+    <li>subject-&gt;ﺔﻴﻧﻭﺮﺘﻜﻟﻹﺍ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻑﺍﺮﻃﻷﺍ\nﺔﻳﻮﻴﺤﻟﺍ</li>
+    <li>subject_story-&gt;ﺩﻮﻨﺠﻟﺍ ﻊﻣ ﻲﺳﺎﺳﺃ ﻞﻜﺸﺑ ﻞﻤﻋ\nﻪﺟﻭ ﺮﺻﺎﻨﻋ ﻊﻨﺻﻭ ،ﻦﻴﻫﻮﺸﻤﻟﺍ\nﺍﻮﻨﻜﻤﺘﻴﻟ ﺔﺼﺼﺨﻣ ﺔﻳﻮﻴﺣ ﺔﻴﻧﻭﺮﺘﻜﻟﺇ\nﻢﻬﺋﺎﺒﺣﺃ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ ﻦﻣ</li>
+    <li>subject_story-&gt;ﺔﻛﺮﺤﻠﻟ ﺔﺌﻴﻄﺑ ﻮﻳﺪﻴﻓ ﻊﻃﺎﻘﻣ ﺱﺭﺩ\nﺔﻴﻋﺎﻨﻄﺻﺍ ﻑﺍﺮﻃﺃ ﻊﻨﺼﻟ ﺔﻳﺮﺸﺒﻟﺍ\nﻞﻀﻓﺃ ﺔﻳﻮﻴﺣ ﺔﻴﻧﻭﺮﺘﻜﻟﺇ</li>
+    <li>subject_story-&gt;ﺔﻔﻠﺘﺨﻣ ﺔﻴﻟﻭﺃ ﺝﺫﺎﻤﻧ ﺔﻋﺍﺭﺰﻟ ﻉﻮﻄﺗ\n،ﺔﻳﻮﻴﺤﻟﺍ ﺔﻴﻧﻭﺮﺘﻜﻟﻹﺍ ﺓﺰﻬﺟﻷﺍ ﻦﻣ\nﻪﻨﻣ ﺮﺜﻛﺃ ﺔﻟﺂﻛ ﺮﻣﻷﺍ ﻪﺑ ﻰﻬﺘﻧﺍﻭ\nًﺎﻧﺎﺴﻧﺇ</li>
+    <li>subject_gerund-&gt;ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻑﺍﺮﻃﻷﺍ ﺀﺎﻨﺑ\nﺔﻳﻮﻴﺤﻟﺍ ﺔﻴﻧﻭﺮﺘﻜﻟﻹﺍ</li>
+    <li>subject_gerund-&gt;ﺔﻴﻧﻭﺮﺘﻜﻟﻹﺍ ﻢﺴﺠﻟﺍ ﺀﺍﺰﺟﺃ ﻡﺍﺪﺨﺘﺳﺍ\nﺔﻳﻮﻴﺤﻟﺍ</li>
+ </Bionics.generalRules.rulesStrings>
+  
+  <!-- EN: pulse-charged munitions -->
+  <ChargedShot.label>ﺔﻧﻮﺤﺸﻤﻟﺍ ﺕﺎﻀﺒﻨﻟﺍ ﺮﺋﺎﺧﺫ</ChargedShot.label>
+  <!-- EN: Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components. -->
+  <ChargedShot.description>ﺕﺎﻀﺒﻧ ﺮﺋﺎﺧﺫ ﻖﻠﻄﺗ ﺔﺤﻠﺳﺃ ﺀﺎﻨﺑ\nﻥﺃ ﻆﺣﻻ .ﻲﻓﺎﺿﺇ ﺭﺮﺿ ﺙﺍﺪﺣﻹ ﺔﻧﻮﺤﺸﻣ\n.ﺓﺭﻮﻄﺘﻣ ﺕﺎﻧﻮﻜﻣ ًﺎﻀﻳﺃ ﺐﻠﻄﺘﺗ ﻩﺬﻫ</ChargedShot.description>
+  <!-- EN:
+    <li>subject->pulse munitions</li>
+    <li>subject_story->studied glitterworld monorails and modified the tech for weapons</li>
+    <li>subject_story->killed a mechanical crawler by kiting it with a charge lance</li>
+    <li>subject_story->learned how to imbue rifle ammunition with retained charge, heavily increasing its lethality</li>
+    <li>subject_gerund->constructing pulse munitions</li>
+    <li>subject_gerund->utilising pulse munitions</li>
+  -->
+  <ChargedShot.generalRules.rulesStrings>
+    <li>subject-&gt;ﺕﺎﻀﺒﻨﻟﺍ ﺮﺋﺎﺧﺫ</li>
+    <li>subject_story-&gt;ﻲﻓ ﺔﻳﺩﺎﺣﻷﺍ ﺕﺍﺭﺎﻄﻘﻟﺍ ﺱﺭﺩ\nﺔﻴﻨﻘﺘﻟﺍ ﻝﺪﻋﻭ ﺔﻗﺍﺮﺒﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ\nﺔﺤﻠﺳﻷﺍ ﻲﻓ ﺎﻬﻣﺍﺪﺨﺘﺳﻻ</li>
+    <li>subject_story-&gt;ﻪﺘﻬﺟﺍﻮﻤﺑ ًﺎﻴﻜﻴﻧﺎﻜﻴﻣ ًﺎﻔﺣﺍﺯ ﻞﺘﻗ\nﻥﻮﺤﺸﻣ ﺢﻣﺮﺑ</li>
+    <li>subject_story-&gt;ﻕﺩﺎﻨﺒﻟﺍ ﺓﺮﻴﺧﺫ ﺐﻳﺮﺸﺗ ﺔﻴﻔﻴﻛ ﻢﻠﻌﺗ\nﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﺓﺰﺠﺘﺤﻣ ﺔﻨﺤﺸﺑ\nﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻬﻜﺘﻓ</li>
+    <li>subject_gerund-&gt;ﺕﺎﻀﺒﻨﻟﺍ ﺮﺋﺎﺧﺫ ﺀﺎﻨﺑ</li>
+    <li>subject_gerund-&gt;ﺕﺎﻀﺒﻨﻟﺍ ﺮﺋﺎﺧﺫ ﻡﺍﺪﺨﺘﺳﺍ</li>
+ </ChargedShot.generalRules.rulesStrings>
+  
+  <!-- EN: cryptosleep casket -->
+  <Cryptosleep.label>ﻱﺪﻴﻤﺠﺘﻟﺍ ﺕﺎﺒﺴﻟﺍ ﺕﻮﺑﺎﺗ</Cryptosleep.label>
+  <!-- EN: Construct cryptosleep caskets, which can put living beings in a state of indefinite suspended animation. -->
+  <Cryptosleep.description>،ﻱﺪﻴﻤﺠﺗ ﺕﺎﺒﺳ ﺖﻴﺑﺍﻮﺗ ﺀﺎﻨﺑ\nﻲﻓ ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﺿﻭ ﺎﻬﻨﻜﻤﻳ\nﻞﺟﺃ ﻰﻟﺇ ﻖﻠﻌﻤﻟﺍ ﺕﺎﺒﺴﻟﺍ ﻦﻣ ﺔﻟﺎﺣ\n.ﻰﻤﺴﻣ ﺮﻴﻏ</Cryptosleep.description>
+  <!-- EN:
+    <li>subject->cryptosleep</li>
+    <li>subject_story->intended to test a prototype cryptosleep casket and woke a generation later, alone</li>
+    <li>subject_story->sentenced the system's worst criminal to indefinite cryptosleep rather than death</li>
+    <li>subject_story->used a cryptosleep capsule to suspend the terminally ill, so they could see their children once they'd grown up</li>
+    <li>subject_gerund->constructing cryptosleep caskets</li>
+    <li>subject_gerund->inducing cryptosleep</li>
+  -->
+  <Cryptosleep.generalRules.rulesStrings>
+    <li>subject-&gt;ﻱﺪﻴﻤﺠﺘﻟﺍ ﺕﺎﺒﺴﻟﺍ</li>
+    <li>subject_story-&gt;ﻲﻟﻭﺃ ﺝﺫﻮﻤﻧ ﺭﺎﺒﺘﺧﺍ ﻡﺰﺘﻌﻳ ﻥﺎﻛ\nﺪﻌﺑ ﻆﻘﻴﺘﺳﺍﻭ ﻱﺪﻴﻤﺠﺗ ﺕﺎﺒﺳ ﺕﻮﺑﺎﺘﻟ\nًﺍﺪﻴﺣﻭ ،ﻞﻣﺎﻛ ﻞﻴﺟ</li>
+    <li>subject_story-&gt;ﻡﺎﻈﻨﻟﺍ ﻲﻓ ﻡﺮﺠﻣ ﺃﻮﺳﺃ ﻰﻠﻋ ﻢﻜﺣ\nﺮﻴﻏ ﻞﺟﺃ ﻰﻟﺇ ﻱﺪﻴﻤﺠﺘﻟﺍ ﺕﺎﺒﺴﻟﺎﺑ\nﻡﺍﺪﻋﻹﺍ ﻦﻣ ًﻻﺪﺑ ﻰﻤﺴﻣ</li>
+    <li>subject_story-&gt;ﻱﺪﻴﻤﺠﺗ ﺕﺎﺒﺳ ﺔﻟﻮﺴﺒﻛ ﻡﺪﺨﺘﺳﺍ\nﻦﻣ ﺱﻭﺆﻴﻤﻟﺍ ﻰﺿﺮﻤﻟﺍ ﺓﺎﻴﺣ ﻖﻴﻠﻌﺘﻟ\nﺔﻳﺅﺭ ﻦﻣ ﺍﻮﻨﻜﻤﺘﻴﻟ ،ﻢﻬﺋﺎﻔﺷ\nﺍﻭﺮﺒﻜﻳ ﻥﺃ ﺪﻌﺑ ﻢﻬﻟﺎﻔﻃﺃ</li>
+    <li>subject_gerund-&gt;ﻱﺪﻴﻤﺠﺘﻟﺍ ﺕﺎﺒﺴﻟﺍ ﺖﻴﺑﺍﻮﺗ ﺀﺎﻨﺑ</li>
+    <li>subject_gerund-&gt;ﻱﺪﻴﻤﺠﺘﻟﺍ ﺕﺎﺒﺴﻟﺍ ﺰﻴﻔﺤﺗ</li>
+ </Cryptosleep.generalRules.rulesStrings>
+  
+  <!-- EN: fabrication -->
+  <Fabrication.label>ﻊﻴﻨﺼﺘﻟﺍ</Fabrication.label>
+  <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
+  <Fabrication.description>ﻰﻠﻋ ﺓﺭﺩﺎﻗ ،ﻊﻴﻨﺼﺗ ﺪﺿﺎﻨﻣ ﺀﺎﻨﺑ\nﻦﻣ ﺡﻭﺍﺮﺘﺗ ﺔﻴﻨﻘﺘﻟﺍ ﺔﻴﻟﺎﻋ ﻊﻳﺭﺎﺸﻣ\nﻉﻭﺭﺩ ﺀﺎﻨﺑ ﻰﻟﺇ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻊﻴﻤﺠﺗ\n.ﺔﻗﺎﻄﻟﺍ</Fabrication.description>
+  <!-- EN: You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components. -->
+  <Fabrication.discoveredLetterText>ﺓﺪﻀﻨﻣ ﺀﺎﻨﺒﻟ ﺔﻴﻨﻘﺘﻟﺍ ﻥﻵﺍ ﻚﻳﺪﻟ\nﺾﻌﺑ ًﺎﻀﻳﺃ ﺐﻠﻄﺘﺗ ﺎﻬﻨﻜﻟ - ﻊﻴﻨﺼﺗ\nﻚﻨﻜﻤﻳ .ﺀﺪﺒﻠﻟ ﺓﺭﻮﻄﺘﻤﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ\nﺓﺪﻌﺑ ﺓﺭﻮﻄﺘﻤﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻊﻤﺟ\n:ﻕﺮﻃ\n\nﻊﻴﺒﺗ ﺀﺎﺑﺮﻐﻟﺍ ﺕﺎﻨﻃﻮﺘﺴﻣ ﻊﻴﻤﺟ-\nﺔﻠﻓﺎﻗ ﻞﺳﺭﺃ .ﺓﺭﻮﻄﺘﻣ ﺕﺎﻧﻮﻜﻣ\n.ﺾﻌﺒﻟﺍ ﺀﺍﺮﺸﻟ\nﻥﻮﻌﻴﺒﻳ ﻦﻳﺮﺋﺍﺰﻟﺍ ﺭﺎﺠﺘﻟﺍ ﺾﻌﺑ-\nﻭﺃ ﻢﻬﻋﺩﺍ .ﺓﺭﻮﻄﺘﻣ ﺕﺎﻧﻮﻜﻣ\n.ﻢﻫﺮﻈﺘﻧﺍ\nﺕﺎﻧﻮﻜﻤﺑ ﺊﻓﺎﻜﺗ ﻡﺎﻬﻤﻟﺍ ﺾﻌﺑ-\n.ﺓﺭﻮﻄﺘﻣ</Fabrication.discoveredLetterText>
+  <!-- EN: About: Getting advanced components -->
+  <Fabrication.discoveredLetterTitle>ﺕﺎﻧﻮﻜﻤﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ :ﺹﻮﺼﺨﺑ\nﺓﺭﻮﻄﺘﻤﻟﺍ</Fabrication.discoveredLetterTitle>
+  <!-- EN:
+    <li>subject->high-tech fabrication benches</li>
+    <li>subject_story->spent many years crafting advanced components, to make fabrication benches to make more advanced components</li>
+    <li>subject_story->traded everything to build a single fabrication bench</li>
+    <li>subject_story->constructed technological marvels which the feral villagers worshipped as magical</li>
+    <li>subject_gerund->constructing high-tech projects</li>
+    <li>subject_gerund->building high-tech fabrication stations</li>
+  -->
+  <Fabrication.generalRules.rulesStrings>
+    <li>subject-&gt;ﺔﻴﻨﻘﺘﻟﺍ ﺔﻴﻟﺎﻋ ﻊﻴﻨﺼﺘﻟﺍ ﺪﺿﺎﻨﻣ</li>
+    <li>subject_story-&gt;ﺕﺎﻧﻮﻜﻣ ﻊﻨﺻ ﻲﻓ ﺓﺪﻳﺪﻋ ﺕﺍﻮﻨﺳ ﻰﻀﻣﺃ\nﻊﻨﺼﻟ ﻊﻴﻨﺼﺗ ﺪﺿﺎﻨﻣ ﻊﻨﺼﻟ ،ﺓﺭﻮﻄﺘﻣ\nﺓﺭﻮﻄﺘﻤﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ</li>
+    <li>subject_story-&gt;ﻊﻴﻨﺼﺗ ﺓﺪﻀﻨﻣ ﺀﺎﻨﺒﻟ ﺀﻲﺷ ﻞﻜﺑ ﺾﻳﺎﻗ\nﺓﺪﺣﺍﻭ</li>
+    <li>subject_story-&gt;ﺎﻫﺪﺒﻋ ﺔﻴﻨﻘﺗ ﺐﻴﺟﺎﻋﺃ ﺪﻴﺷ\nﺀﺎﻴﺷﺄﻛ ﻥﻮﺸﺣﻮﺘﻤﻟﺍ ﻥﻮﻳﻭﺮﻘﻟﺍ\nﺔﻳﺮﺤﺳ</li>
+    <li>subject_gerund-&gt;ﺔﻴﻨﻘﺘﻟﺍ ﺔﻴﻟﺎﻋ ﻊﻳﺭﺎﺸﻣ ﺀﺎﺸﻧﺇ</li>
+    <li>subject_gerund-&gt;ﺔﻴﻨﻘﺘﻟﺍ ﺔﻴﻟﺎﻋ ﻊﻴﻨﺼﺗ ﺕﺎﻄﺤﻣ ﺀﺎﻨﺑ</li>
+ </Fabrication.generalRules.rulesStrings>
+  
+  <!-- EN: multi-analyzer -->
+  <MultiAnalyzer.label>ﺩﺪﻌﺘﻣ ﻞﻠﺤﻣ</MultiAnalyzer.label>
+  <!-- EN: Build multi-analyzers which increase research speed and allow higher-level research projects. -->
+  <MultiAnalyzer.description>ﺔﻋﺮﺳ ﻦﻣ ﺪﻳﺰﺗ ﺓﺩﺪﻌﺘﻣ ﺕﻼﻠﺤﻣ ﺀﺎﻨﺑ\nﺔﻴﺜﺤﺑ ﻊﻳﺭﺎﺸﻤﺑ ﺢﻤﺴﺗﻭ ﺚﺤﺒﻟﺍ\n.ﻯﻮﺘﺴﻤﻟﺍ ﺔﻴﻟﺎﻋ</MultiAnalyzer.description>
+  <!-- EN:
+    <li>subject->multi-analysis</li>
+    <li>subject_story->automated a research laboratory</li>
+    <li>subject_story->unlocked the trans-spectrum secrets of the universe</li>
+    <li>subject_story->helped identify new stable isotopes</li>
+    <li>subject_gerund->constructing multi-analyzers</li>
+  -->
+  <MultiAnalyzer.generalRules.rulesStrings>
+    <li>subject-&gt;ﺩﺪﻌﺘﻤﻟﺍ ﻞﻴﻠﺤﺘﻟﺍ</li>
+    <li>subject_story-&gt;ًﺎﻴﻟﺁ ﺙﺎﺤﺑﺃ ﺮﺒﺘﺨﻣ ﻞّﻐﺷ</li>
+    <li>subject_story-&gt;ﺔﻴﻔﻴﻄﻟﺍ ﺮﺒﻋ ﻥﻮﻜﻟﺍ ﺭﺍﺮﺳﺃ ﻒﺸﻛ</li>
+    <li>subject_story-&gt;ﺓﺮﻘﺘﺴﻣ ﺮﺋﺎﻈﻧ ﺪﻳﺪﺤﺗ ﻲﻓ ﺪﻋﺎﺳ\nﺓﺪﻳﺪﺟ</li>
+    <li>subject_gerund-&gt;ﺓﺩﺪﻌﺘﻤﻟﺍ ﺕﻼﻠﺤﻤﻟﺍ ﺀﺎﻨﺑ</li>
+ </MultiAnalyzer.generalRules.rulesStrings>
+  
+  <!-- EN: marine armor -->
+  <PoweredArmor.label>ﺔﻳﺮﺤﺒﻟﺍ ﻉﺭﺩ</PoweredArmor.label>
+  <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
+  <PoweredArmor.description>ﻉﺭﺩ ﺔﻟﺪﺑ ﻮﻫﻭ ،ﺔﻳﺮﺤﺒﻟﺍ ﻉﺭﺩ ﺀﺎﻨﺑ\nﺎﻬﻣﺪﺨﺘﺴﺗ ﻡﺎﻌﻟﺍ ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﻗﺎﻃ\nﻆﺣﻻ .ﺔﻴﻨﻘﺘﻟﺍ ﺔﻴﻟﺎﻋ ﺔﻣﺪﺼﻟﺍ ﺕﺍﻮﻗ\nﺕﺎﻧﻮﻜﻣ ًﺎﻀﻳﺃ ﺐﻠﻄﺘﺗ ﻩﺬﻫ ﻥﺃ\n.ﺓﺭﻮﻄﺘﻣ</PoweredArmor.description>
+  <!-- EN:
+    <li>subject->marine armor</li>
+    <li>subject_story->was employed by the shock troops to maintain their armor</li>
+    <li>subject_story->tested the armor by walking, unarmed, through a hostile feral village without receiving a scratch</li>
+    <li>subject_story->intended the armor as protection against the planet's hostile weather, but it worked well against the pirates too</li>
+    <li>subject_gerund->constructing shock troop armor</li>
+    <li>subject_gerund->constructing marine armor</li>
+    <li>subject_gerund->constructing general-use advanced armor</li>
+  -->
+  <PoweredArmor.generalRules.rulesStrings>
+    <li>subject-&gt;ﺔﻳﺮﺤﺒﻟﺍ ﻉﺭﺩ</li>
+    <li>subject_story-&gt;ﺔﻧﺎﻴﺼﻟ ﺔﻣﺪﺼﻟﺍ ﺕﺍﻮﻗ ﻪﺘﻣﺪﺨﺘﺳﺍ\nﻢﻬﻋﻭﺭﺩ</li>
+    <li>subject_story-&gt;ﺮﺒﻋ ،ًﻻﺰﻋﺃ ،ﺮﻴﺴﻟﺎﺑ ﻉﺭﺪﻟﺍ ﺮﺒﺘﺧﺍ\nﺏﺎﺼﻳ ﻥﺃ ﻥﻭﺩ ﺔﻳﺩﺎﻌﻣ ﺔﺸﺣﻮﺘﻣ ﺔﻳﺮﻗ\nﺵﺪﺨﺑ</li>
+    <li>subject_story-&gt;ﺲﻘﻃ ﻦﻣ ﺔﻳﺎﻤﺤﻟﺍ ﻉﺭﺪﻟﺎﺑ ﺪﺼﻗ\nﻞﻜﺸﺑ ﻞﻤﻋ ﻪﻨﻜﻟ ،ﻱﺩﺎﻌﻤﻟﺍ ﺐﻛﻮﻜﻟﺍ\nًﺎﻀﻳﺃ ﺔﻨﺻﺍﺮﻘﻟﺍ ﺪﺿ ﺪﻴﺟ</li>
+    <li>subject_gerund-&gt;ﺔﻣﺪﺼﻟﺍ ﺕﺍﻮﻗ ﻉﻭﺭﺩ ﺀﺎﻨﺑ</li>
+    <li>subject_gerund-&gt;ﺔﻳﺮﺤﺒﻟﺍ ﻉﻭﺭﺩ ﺀﺎﻨﺑ</li>
+    <li>subject_gerund-&gt;ﻡﺍﺪﺨﺘﺳﻼﻟ ﺓﺭﻮﻄﺘﻣ ﻉﻭﺭﺩ ﺀﺎﻨﺑ\nﻡﺎﻌﻟﺍ</li>
+ </PoweredArmor.generalRules.rulesStrings>
+  
+  <!-- EN: recon armor -->
+  <ReconArmor.label>ﻉﻼﻄﺘﺳﻻﺍ ﻉﺭﺩ</ReconArmor.label>
+  <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
+  <ReconArmor.description>ﻉﺭﺩ ﺔﻟﺪﺑ ﻮﻫﻭ ،ﻉﻼﻄﺘﺳﻻﺍ ﻉﺭﺩ ﻊﻨﺻ\nﺕﺍﻮﻗ ﺎﻬﻣﺪﺨﺘﺴﺗ ﺔﻔﻴﻔﺧ ﺔﻗﺎﻃ\nﺔﻳﺎﻤﺣ ﻰﻟﺇ ﺝﺎﺘﺤﺗ ﻲﺘﻟﺍ ﺔﻓﺎﺸﻜﻟﺍ\nﺐﻠﻄﺘﺗ ﻩﺬﻫ ﻥﺃ ﻆﺣﻻ .ﺔﻛﺮﺤﻟﺍ ﺀﺎﻨﺛﺃ\n.ﺓﺭﻮﻄﺘﻣ ﺕﺎﻧﻮﻜﻣ ًﺎﻀﻳﺃ</ReconArmor.description>
+  <!-- EN:
+    <li>subject->recon armor</li>
+    <li>subject_story->led the rebel scouts against the Imperial forces, until captured</li>
+    <li>subject_story->crafted powered armor light and resilient enough for the hammer-users to close with the enemy</li>
+    <li>subject_story->intended recon armor more for hunters than soldiers. It sold well, regardless</li>
+    <li>subject_gerund->crafting recon armor</li>
+    <li>subject_gerund->reducing armor weight</li>
+  -->
+  <ReconArmor.generalRules.rulesStrings>
+    <li>subject-&gt;ﻉﻼﻄﺘﺳﻻﺍ ﻉﺭﺩ</li>
+    <li>subject_story-&gt;ﺕﺍﻮﻘﻟﺍ ﺪﺿ ﻦﻳﺩﺮﻤﺘﻤﻟﺍ ﻲﻓﺎﺸﻛ ﺩﺎﻗ\nﺮﺳُﺃ ﻰﺘﺣ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ</li>
+    <li>subject_story-&gt;ﺎﻤﺑ ًﺎﻧﺮﻣﻭ ًﺎﻔﻴﻔﺧ ﺔﻗﺎﻃ ﻉﺭﺩ ﻊﻨﺻ\nﻦﻣ ﻕﺭﺎﻄﻤﻟﺍ ﻮﻣﺪﺨﺘﺴﻣ ﻦﻜﻤﺘﻴﻟ ﻲﻔﻜﻳ\nﻭﺪﻌﻟﺍ ﻊﻣ ﻙﺎﺒﺘﺷﻻﺍ</li>
+    <li>subject_story-&gt;ﻥﻮﻜﻳ ﻥﺃ ﻉﻼﻄﺘﺳﻻﺍ ﻉﺭﺪﺑ ﺪﺼﻗ\nﻊﻴﺑ .ﺩﻮﻨﺠﻟﺍ ﻦﻣ ﺮﺜﻛﺃ ﻦﻳﺩﺎﻴﺼﻠﻟ\nﺮﻈﻨﻟﺍ ﺾﻐﺑ ،ﺪﻴﺟ ﻞﻜﺸﺑ</li>
+    <li>subject_gerund-&gt;ﻉﻼﻄﺘﺳﻻﺍ ﻉﻭﺭﺩ ﻊﻨﺻ</li>
+    <li>subject_gerund-&gt;ﻉﺭﺪﻟﺍ ﻥﺯﻭ ﻞﻴﻠﻘﺗ</li>
+ </ReconArmor.generalRules.rulesStrings>
+  
+  <!-- EN: rocketswarm launcher -->
+  <RocketswarmLauncher.label>ﺓﺩﺪﻌﺘﻤﻟﺍ ﺦﻳﺭﺍﻮﺼﻟﺍ ﻑﺫﺎﻗ</RocketswarmLauncher.label>
+  <!-- EN: Produce rocketswarm launchers, single-burst turrets which can devastate a wide area at a key moment in battle. -->
+  <RocketswarmLauncher.description>ﺦﻳﺭﺍﻮﺼﻟﺍ ﺕﺎﻓﺫﺎﻗ ﺝﺎﺘﻧﺇ\nﺓﺪﺣﺍﻭ ﺔﻌﻓﺩ ﺝﺍﺮﺑﺃ ﻲﻫﻭ ،ﺓﺩﺪﻌﺘﻤﻟﺍ\nﻲﻓ ﺔﻌﺳﺍﻭ ﺔﻘﻄﻨﻣ ﺮﻴﻣﺪﺗ ﺎﻬﻨﻜﻤﻳ\n.ﺔﻛﺮﻌﻤﻟﺍ ﻦﻣ ﺔﻤﺳﺎﺣ ﺔﻈﺤﻟ</RocketswarmLauncher.description>
+  <!-- EN:
+    <li>subject->rocket turrets</li>
+    <li>subject_story->testified about the use of rocketswarm launchers against civilian targets</li>
+    <li>subject_story->constructed last-ditch defenses, including traps and launchers, in case the settlement was ever threatened</li>
+    <li>subject_story->started by constructing primitive rockets to reach space, but the high failure rate led to them being repurposed as weapons</li>
+    <li>subject_gerund->constructing rocket turrets</li>
+  -->
+  <RocketswarmLauncher.generalRules.rulesStrings>
+    <li>subject-&gt;ﺦﻳﺭﺍﻮﺼﻟﺍ ﺝﺍﺮﺑﺃ</li>
+    <li>subject_story-&gt;ﻡﺍﺪﺨﺘﺳﺍ ﻝﻮﺣ ﻪﺗﺩﺎﻬﺸﺑ ﻰﻟﺩﺃ\nﺪﺿ ﺓﺩﺪﻌﺘﻤﻟﺍ ﺦﻳﺭﺍﻮﺼﻟﺍ ﺕﺎﻓﺫﺎﻗ\nﺔﻴﻧﺪﻣ ﻑﺍﺪﻫﺃ</li>
+    <li>subject_story-&gt;ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺓﺮﻴﺧﺃ ﺕﺎﻋﺎﻓﺩ ﻰﻨﺑ\nﺖﺿﺮﻌﺗ ﻝﺎﺣ ﻲﻓ ،ﺕﺎﻓﺫﺎﻘﻟﺍﻭ ﺥﺎﺨﻔﻟﺍ\nﺪﻳﺪﻬﺘﻠﻟ ﺔﻨﻃﻮﺘﺴﻤﻟﺍ</li>
+    <li>subject_story-&gt;ﻝﻮﺻﻮﻠﻟ ﺔﻴﺋﺍﺪﺑ ﺦﻳﺭﺍﻮﺻ ﺀﺎﻨﺒﺑ ﺃﺪﺑ\nﻞﺸﻔﻟﺍ ﻝﺪﻌﻣ ﻦﻜﻟ ،ﺀﺎﻀﻔﻟﺍ ﻰﻟﺇ\nﺎﻬﻬﻴﺟﻮﺗ ﺓﺩﺎﻋﺇ ﻰﻟﺇ ﻯﺩﺃ ﻊﻔﺗﺮﻤﻟﺍ\nﺔﺤﻠﺳﺄﻛ</li>
+    <li>subject_gerund-&gt;ﺦﻳﺭﺍﻮﺼﻟﺍ ﺝﺍﺮﺑﺃ ﺀﺎﻨﺑ</li>
+ </RocketswarmLauncher.generalRules.rulesStrings>
+  
+  <!-- EN: uranium slug turret -->
+  <SniperTurret.label>ﻡﻮﻴﻧﺍﺭﻮﻴﻟﺍ ﺕﺎﻘﻠﻃ ﺝﺮﺑ</SniperTurret.label>
+  <!-- EN: Produce the armor-penetrating uranium slug turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range. -->
+  <SniperTurret.description>ﻡﻮﻴﻧﺍﺭﻮﻴﻟﺍ ﺕﺎﻘﻠﻃ ﺝﺮﺑ ﺝﺎﺘﻧﺇ\nﺕﺎﻘﻠﻃ ﻖﻠﻄﻳ .ﻉﻭﺭﺪﻠﻟ ﺔﻗﺭﺎﺨﻟﺍ\nﻲﺘﺳﻼﺒﻟﺍ ﺫﻻﻮﻔﻟﺍ ﻕﺰﻤﺗ ﻡﻮﻴﻧﺍﺭﻮﻳ\nﻲﻓ ﺔﻴﻟﺎﻌﻓ ﻞﻗﺃ ﻪﻨﻜﻟ ،ﻕﺭﻮﻟﺎﻛ\n.ﺐﻳﺮﻘﻟﺍ ﻯﺪﻤﻟﺍ</SniperTurret.description>
+  <!-- EN:
+    <li>subject->sniper turrets</li>
+    <li>subject_story->led the clean-up after the war, collecting spent radioactive uranium slugs from the front line</li>
+    <li>subject_story->saw a turret shoot straight through an assault mechanoid and needed to understand how</li>
+    <li>subject_story->researched the effects of ammunition density on armor</li>
+    <li>subject_gerund->constructing sniper turrets</li>
+  -->
+  <SniperTurret.generalRules.rulesStrings>
+    <li>subject-&gt;ﺺﻨﻘﻟﺍ ﺝﺍﺮﺑﺃ</li>
+    <li>subject_story-&gt;،ﺏﺮﺤﻟﺍ ﺪﻌﺑ ﻒﻴﻈﻨﺘﻟﺍ ﺔﻴﻠﻤﻋ ﺩﺎﻗ\nﻊﺸﻤﻟﺍ ﻡﻮﻴﻧﺍﺭﻮﻴﻟﺍ ﺕﺎﻘﻠﻃ ﻊﻤﺟﻭ\nﺔﻬﺟﺍﻮﻤﻟﺍ ﻂﺧ ﻦﻣ ﺔﻜﻠﻬﺘﺴﻤﻟﺍ</li>
+    <li>subject_story-&gt;ﺓﺮﺷﺎﺒﻣ ﺭﺎﻨﻟﺍ ﻖﻠﻄﻳ ًﺎﺟﺮﺑ ﻯﺃﺭ\nﻰﻟﺇ ﺝﺎﺘﺣﺍﻭ ﻲﻣﻮﺠﻫ ﺪﻳﻮﻧﺎﻜﻴﻣ ﺮﺒﻋ\nﻚﻟﺫ ﺔﻴﻔﻴﻛ ﻢﻬﻓ</li>
+    <li>subject_story-&gt;ﺓﺮﻴﺧﺬﻟﺍ ﺔﻓﺎﺜﻛ ﺕﺍﺮﻴﺛﺄﺗ ﻲﻓ ﺚﺤﺑ\nﻉﻭﺭﺪﻟﺍ ﻰﻠﻋ</li>
+    <li>subject_gerund-&gt;ﺺﻨﻘﻟﺍ ﺝﺍﺮﺑﺃ ﺀﺎﻨﺑ</li>
+ </SniperTurret.generalRules.rulesStrings>
+  
+  <!-- EN: vitals monitor -->
+  <VitalsMonitor.label>ﺔﻳﻮﻴﺤﻟﺍ ﺕﺎﻣﻼﻌﻟﺍ ﺔﺒﻗﺍﺮﻣ ﺯﺎﻬﺟ</VitalsMonitor.label>
+  <!-- EN: Build vitals monitors which improve medical outcomes when placed next to hospital beds. -->
+  <VitalsMonitor.description>ﺕﺎﻣﻼﻌﻟﺍ ﺔﺒﻗﺍﺮﻣ ﺓﺰﻬﺟﺃ ﺀﺎﻨﺑ\nﺞﺋﺎﺘﻨﻟﺍ ﻦﺴﺤﺗ ﻲﺘﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ\nﺓّﺮﺳﺃ ﺐﻧﺎﺠﺑ ﺎﻬﻌﺿﻭ ﺪﻨﻋ ﺔﻴﺒﻄﻟﺍ\n.ﻰﻔﺸﺘﺴﻤﻟﺍ</VitalsMonitor.description>
+  <!-- EN:
+    <li>subject->vital signs monitoring</li>
+    <li>subject_story->struggled in an overcrowded hospital and vowed to work for change</li>
+    <li>subject_story->nursed a glassworld survivor back to health</li>
+    <li>subject_story->monitored the isolation ward remotely, sending mechanoids in for treatments</li>
+    <li>subject_gerund->monitoring vital signs</li>
+    <li>subject_gerund->constructing vital signs monitors</li>
+  -->
+  <VitalsMonitor.generalRules.rulesStrings>
+    <li>subject-&gt;ﺔﻳﻮﻴﺤﻟﺍ ﺕﺎﻣﻼﻌﻟﺍ ﺔﺒﻗﺍﺮﻣ</li>
+    <li>subject_story-&gt;ﻰﻠﻋ ﻢﺴﻗﺃﻭ ﻆﺘﻜﻣ ﻰﻔﺸﺘﺴﻣ ﻲﻓ ﺢﻓﺎﻛ\nﺮﻴﻴﻐﺘﻟﺍ ﻞﺟﺃ ﻦﻣ ﻞﻤﻌﻟﺍ</li>
+    <li>subject_story-&gt;ﻰﺘﺣ ﻲﺟﺎﺟﺯ ﻢﻟﺎﻋ ﻦﻣ ًﺎﻴﺟﺎﻧ ﺽّﺮﻣ\nﻪﺘﻴﻓﺎﻋ ﺩﺎﻌﺘﺳﺍ</li>
+    <li>subject_story-&gt;ﻞﺳﺭﺃﻭ ،ﺪﻌﺑ ﻦﻋ ﻝﺰﻌﻟﺍ ﺡﺎﻨﺟ ﺐﻗﺍﺭ\nﺝﻼﻌﻠﻟ ﺕﺍﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ</li>
+    <li>subject_gerund-&gt;ﺔﻳﻮﻴﺤﻟﺍ ﺕﺎﻣﻼﻌﻟﺍ ﺔﺒﻗﺍﺮﻣ</li>
+    <li>subject_gerund-&gt;ﺕﺎﻣﻼﻌﻟﺍ ﺔﺒﻗﺍﺮﻣ ﺓﺰﻬﺟﺃ ﺀﺎﻨﺑ\nﺔﻳﻮﻴﺤﻟﺍ</li>
+ </VitalsMonitor.generalRules.rulesStrings>
+  
+</LanguageData>

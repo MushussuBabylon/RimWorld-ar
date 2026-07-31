@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: beer brewing -->
+  <Brewing.label>ﺓﺮﻴﺒﻟﺍ ﺮﻴﻤﺨﺗ</Brewing.label>
+  <!-- EN: Build a brewery and fermenting vats to transform hops into tasty, tasty beer. -->
+  <Brewing.description>ﺽﺍﻮﺣﺃﻭ ﺔﻌﺠﻟﺍ ﻊﻨﺼﻣ ﺀﺎﻨﺒﺑ ﻢﻗ\nﺓﺮﻴﺑ ﻰﻟﺇ ﻞﺠﻨﺠﻟﺍ ﻞﻳﻮﺤﺘﻟ ﺮﻴﻤﺨﺘﻟﺍ\n.ﺓﺬﻳﺬﻟ</Brewing.description>
+  <!-- EN:
+    <li>subject->brewing</li>
+    <li>subject_story->brewed a unique stout that became famous across the system</li>
+    <li>subject_story->retired to run a public house on an animal world</li>
+    <li>subject_story->specialized in climate-controlled fermentation techniques</li>
+    <li>subject_gerund->constructing breweries</li>
+    <li>subject_gerund->brewing beer</li>
+  -->
+  <Brewing.generalRules.rulesStrings>
+    <li>subject-&gt;ﺮﻴﻤﺨﺘﻟﺍ</li>
+    <li>subject_story-&gt;ﺔﻌﺠﻟﺍ ﻦﻣ ًﺍﺪﻳﺮﻓ ًﺎﻋﻮﻧ ﺮّﻤﺧ\nﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺮﻬﺘﺷﺍ ﺔﻨﻛﺍﺪﻟﺍ\nﻡﺎﻈﻨﻟﺍ</li>
+    <li>subject_story-&gt;ﻢﻟﺎﻋ ﻰﻠﻋ ﺔﻧﺎﺣ ﺮﻳﺪﻴﻟ ﺪﻋﺎﻘﺗ\nﻲﻧﺍﻮﻴﺣ</li>
+    <li>subject_story-&gt;ﺕﺍﺫ ﺮﻴﻤﺨﺘﻟﺍ ﺕﺎﻴﻨﻘﺗ ﻲﻓ ﺺﺼﺨﺗ\nﻪﺑ ﻢﻜﺤﺘﻤﻟﺍ ﺥﺎﻨﻤﻟﺍ</li>
+    <li>subject_gerund-&gt;ﺔﻌﺠﻟﺍ ﻊﻧﺎﺼﻣ ﺀﺎﻨﺑ</li>
+    <li>subject_gerund-&gt;ﺓﺮﻴﺒﻟﺍ ﺮﻴﻤﺨﺗ</li>
+ </Brewing.generalRules.rulesStrings>
+  
+  <!-- EN: carpet-making -->
+  <CarpetMaking.label>ﺩﺎﺠﺴﻟﺍ ﺔﻋﺎﻨﺻ</CarpetMaking.label>
+  <!-- EN: Weave beautiful carpets from cloth. -->
+  <CarpetMaking.description>.ﺵﺎﻤﻘﻟﺍ ﻦﻣ ﻞﻴﻤﺟ ﺩﺎﺠﺳ ﺞﺴﻧ</CarpetMaking.description>
+  <!-- EN:
+    <li>subject->carpet-making</li>
+    <li>subject_story->learned to weave carpets from hair, for a distant Emperor</li>
+    <li>subject_story->left behind an unparalleled collection of carpets and tapestries</li>
+    <li>subject_story->settled on a medieval moon, where the carpetweaving craft was truly appreciated</li>
+    <li>subject_gerund->weaving carpets</li>
+  -->
+  <CarpetMaking.generalRules.rulesStrings>
+    <li>subject-&gt;ﺩﺎﺠﺴﻟﺍ ﺔﻋﺎﻨﺻ</li>
+    <li>subject_story-&gt;،ﺮﻌﺸﻟﺍ ﻦﻣ ﺩﺎﺠﺴﻟﺍ ﺞﺴﻧ ﻢﻠﻌﺗ\nﺪﻴﻌﺑ ﺭﻮﻃﺍﺮﺒﻣﻹ</li>
+    <li>subject_story-&gt;ﻦﻣ ﻰﻫﺎﻀﺗ ﻻ ﺔﻋﻮﻤﺠﻣ ﻩﺀﺍﺭﻭ ﻙﺮﺗ\nﺕﺎﺷﻭﺮﻔﻤﻟﺍﻭ ﺩﺎﺠﺴﻟﺍ</li>
+    <li>subject_story-&gt;ﺭﻮﺼﻌﻟﺍ ﻦﻣ ﺮﻤﻗ ﻰﻠﻋ ﺮﻘﺘﺳﺍ\nﺞﺴﻧ ﺔﻓﺮﺣ ﺖﻧﺎﻛ ﺚﻴﺣ ،ﻰﻄﺳﻮﻟﺍ\nًﺎﻘﺣ ﺓﺭﺪﻘﻣ ﺩﺎﺠﺴﻟﺍ</li>
+    <li>subject_gerund-&gt;ﺩﺎﺠﺴﻟﺍ ﺞﺴﻧ</li>
+ </CarpetMaking.generalRules.rulesStrings>
+  
+  <!-- EN: cocoa -->
+  <Cocoa.label>ﻭﺎﻛﺎﻜﻟﺍ</Cocoa.label>
+  <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too. -->
+  <Cocoa.description>ﻊﻨﺼﻟ ﻭﺎﻛﺎﻜﻟﺍ ﺭﺎﺠﺷﺃ ﻉﺭﺯﺍ\n.ﻚﺑ ﺔﺻﺎﺨﻟﺍ ﺓﺬﻳﺬﻠﻟﺍ ﺔﺗﻻﻮﻛﻮﺸﻟﺍ\nﺔﺟﺎﺤﻟﺍ ﻲﺒﻠﻳ ﺔﺗﻻﻮﻛﻮﺸﻟﺍ ﻞﻛﺃ\nﺔﻤﻴﻗ ﺔﻳﺭﺎﺠﺗ ﺔﻌﻠﺳ ﻲﻫﻭ ﻪﻴﻓﺮﺘﻠﻟ\n.ًﺎﻀﻳﺃ</Cocoa.description>
+  <!-- EN:
+    <li>subject->cocoa</li>
+    <li>subject->chocolate</li>
+    <li>subject_story->became obsessed with chocolate and had to be restrained</li>
+    <li>subject_story->studied the fermentation process of cocoa for a thesis</li>
+    <li>subject_story->set up the best chocolate shop in the sector</li>
+    <li>subject_gerund->producing chocolate</li>
+    <li>subject_gerund->cultivating cocoa</li>
+  -->
+  <Cocoa.generalRules.rulesStrings>
+    <li>subject-&gt;ﻭﺎﻛﺎﻜﻟﺍ</li>
+    <li>subject-&gt;ﺔﺗﻻﻮﻛﻮﺸﻟﺍ</li>
+    <li>subject_story-&gt;ﺮﻄﺿﺍﻭ ﺔﺗﻻﻮﻛﻮﺸﻟﺎﺑ ًﺎﺳﻭﻮﻬﻣ ﺢﺒﺻﺃ\nﺝﻼﻌﻟﺍ ﻲﻘﻠﺘﻟ</li>
+    <li>subject_story-&gt;ﺔﺣﻭﺮﻃﻷ ﻭﺎﻛﺎﻜﻟﺍ ﺮﻴﻤﺨﺗ ﺔﻴﻠﻤﻋ ﺱﺭﺩ</li>
+    <li>subject_story-&gt;ﻲﻓ ﺔﺗﻻﻮﻛﻮﺷ ﺮﺠﺘﻣ ﻞﻀﻓﺃ ﺄﺸﻧﺃ\nﻉﺎﻄﻘﻟﺍ</li>
+    <li>subject_gerund-&gt;ﺔﺗﻻﻮﻛﻮﺸﻟﺍ ﺝﺎﺘﻧﺇ</li>
+    <li>subject_gerund-&gt;ﻭﺎﻛﺎﻜﻟﺍ ﺔﻋﺍﺭﺯ</li>
+ </Cocoa.generalRules.rulesStrings>
+  
+  <!-- EN: complex clothing -->
+  <ComplexClothing.label>ﺓﺪﻘﻌﻤﻟﺍ ﺲﺑﻼﻤﻟﺍ</ComplexClothing.label>
+  <!-- EN: Tailor complicated garments like pants, dusters, and cowboy hats. -->
+  <ComplexClothing.description>ﻞﻴﻃﺎﻨﺒﻟﺍ ﻞﺜﻣ ﺓﺪﻘﻌﻣ ﺲﺑﻼﻣ ﺔﻃﺎﻴﺧ\nﺓﺎﻋﺭ ﺕﺎﻌﺒﻗﻭ ﺔﻠﻳﻮﻄﻟﺍ ﻒﻃﺎﻌﻤﻟﺍﻭ\n.ﺮﻘﺒﻟﺍ</ComplexClothing.description>
+  <!-- EN:
+    <li>subject->complex tailoring</li>
+    <li>subject_story->tailored hard-wearing clothes for urbworld cityfolk</li>
+    <li>subject_story->would relax by sewing and telling stories to the village children</li>
+    <li>subject_story->learned to craft clothing to be worn at [ANYPAWN_possessive] troupe's grand performances</li>
+    <li>subject_gerund->tailoring complex clothes</li>
+  -->
+  <ComplexClothing.generalRules.rulesStrings>
+    <li>subject-&gt;ﺓﺪﻘﻌﻤﻟﺍ ﺔﻃﺎﻴﺨﻟﺍ</li>
+    <li>subject_story-&gt;ﻥﺪﻤﻟﺍ ﻥﺎﻜﺴﻟ ﺔﻨﻴﺘﻣ ﺲﺑﻼﻣ ﻁﺎﺧ\nﺔﻳﺮﻀﺤﻟﺍ</li>
+    <li>subject_story-&gt;ﺔﻳﺍﻭﺭﻭ ﺔﻃﺎﻴﺨﻟﺎﺑ ﻲﺧﺮﺘﺴﻳ ﻥﺎﻛ\nﺔﻳﺮﻘﻟﺍ ﻝﺎﻔﻃﻷ ﺺﺼﻘﻟﺍ</li>
+    <li>subject_story-&gt;ﺎﻬﻳﺪﺗﺮﺘﻟ ﺲﺑﻼﻤﻟﺍ ﺔﻋﺎﻨﺻ ﻢﻠﻌﺗ\nﻯﺮﺒﻜﻟﺍ ﺽﻭﺮﻌﻟﺍ ﻲﻓ [ANYPAWN_possessive] ﺔﻗﺮﻓ</li>
+    <li>subject_gerund-&gt;ﺓﺪﻘﻌﻤﻟﺍ ﺲﺑﻼﻤﻟﺍ ﺔﻃﺎﻴﺧ</li>
+ </ComplexClothing.generalRules.rulesStrings>
+  
+  <!-- EN: complex furniture -->
+  <ComplexFurniture.label>ﺪﻘﻌﻤﻟﺍ ﺙﺎﺛﻷﺍ</ComplexFurniture.label>
+  <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiards tables, and poker tables, vents, sarcophagi, and more. -->
+  <ComplexFurniture.description>ﺓﺮﺳﻷﺍ ﻞﺜﻣ ﺪﻘﻌﻣ ﺙﺎﺛﺃ ﺀﺎﻨﺑ\nﻲﺳﺍﺮﻛﻭ ﺔﻴﺒﻧﺎﺠﻟﺍ ﺕﻻﻭﺎﻄﻟﺍﻭ\nﺕﺍﺫ ﻦﺋﺍﺰﺨﻟﺍﻭ ﻚﺋﺍﺭﻷﺍﻭ ﻡﺎﻌﻄﻟﺍ\nﺕﻻﻭﺎﻃﻭ ﺕﺍﻭﺩﻷﺍ ﻦﺋﺍﺰﺧﻭ ﺝﺍﺭﺩﻷﺍ\nﺕﺎﺤﺘﻔﻟﺍﻭ ﺮﻛﻮﺒﻟﺍﻭ ﻭﺩﺭﺎﻴﻠﺒﻟﺍ\n.ﺪﻳﺰﻤﻟﺍﻭ ﺔﻳﺮﺠﺤﻟﺍ ﺖﻴﺑﺍﻮﺘﻟﺍﻭ</ComplexFurniture.description>
+  <!-- EN:
+    <li>subject->carpentry</li>
+    <li>subject_story->studied woodcarving under a master carpenter</li>
+    <li>subject_story->built a town of log-cabins singlehandedly</li>
+    <li>subject_story->established a factory, selling high-quality furniture to passing traders</li>
+    <li>subject_gerund->building complex furniture</li>
+  -->
+  <ComplexFurniture.generalRules.rulesStrings>
+    <li>subject-&gt;ﺓﺭﺎﺠﻨﻟﺍ</li>
+    <li>subject_story-&gt;ﺮﻫﺎﻣ ﺭﺎﺠﻧ ﺪﻳ ﻰﻠﻋ ﺐﺸﺨﻟﺍ ﺖﺤﻧ ﺱﺭﺩ</li>
+    <li>subject_story-&gt;ﺔﻴﺒﺸﺨﻟﺍ ﺥﺍﻮﻛﻷﺍ ﻦﻣ ﺓﺪﻠﺑ ﻰﻨﺑ\nﻩﺩﺮﻔﻤﺑ</li>
+    <li>subject_story-&gt;ﻲﻟﺎﻋ ﺙﺎﺛﻷﺍ ﻊﻴﺒﻟ ًﺎﻌﻨﺼﻣ ﺄﺸﻧﺃ\nﺓﺭﺎﻤﻟﺍ ﺭﺎﺠﺘﻠﻟ ﺓﺩﻮﺠﻟﺍ</li>
+    <li>subject_gerund-&gt;ﺪﻘﻌﻤﻟﺍ ﺙﺎﺛﻷﺍ ﺀﺎﻨﺑ</li>
+ </ComplexFurniture.generalRules.rulesStrings>
+  
+  <!-- EN: devilstrand -->
+  <Devilstrand.label>ﻥﺎﻄﻴﺸﻟﺍ ﻂﻴﺧ</Devilstrand.label>
+  <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
+  <Devilstrand.description>ﺀﻲﻄﺑ ﺮﻄﻓ ﻮﻫﻭ ،ﻥﺎﻄﻴﺸﻟﺍ ﻂﻴﺧ ﻉﺭﺯﺍ\nﺔﺒﻠﺻ ﺔﻴﺗﺎﺒﻧ ًﺎﻓﺎﻴﻟﺃ ﺞﺘﻨﻳ ﻮﻤﻨﻟﺍ\n.ﻲﺋﺎﻨﺜﺘﺳﺍ ﻞﻜﺸﺑ ﺓﺭﺍﺮﺤﻠﻟ ﺔﻣﻭﺎﻘﻣﻭ</Devilstrand.description>
+  <!-- EN:
+    <li>subject->devilstrand cultivation</li>
+    <li>subject_story->used devilstrand as a natural firebreak</li>
+    <li>subject_story->established the techniques for cultivating devilstrand easily</li>
+    <li>subject_story->became obsessed with mushrooms and became the self-declared Princess of [ANYPAWN_possessive] kingdom</li>
+    <li>subject_gerund->cultivating devilstrand</li>
+  -->
+  <Devilstrand.generalRules.rulesStrings>
+    <li>subject-&gt;ﻥﺎﻄﻴﺸﻟﺍ ﻂﻴﺧ ﺔﻋﺍﺭﺯ</li>
+    <li>subject_story-&gt;ﻲﻌﻴﺒﻃ ﻊﻧﺎﻤﻛ ﻥﺎﻄﻴﺸﻟﺍ ﻂﻴﺧ ﻡﺪﺨﺘﺳﺍ\nﻖﻳﺮﺤﻠﻟ</li>
+    <li>subject_story-&gt;ﻥﺎﻄﻴﺸﻟﺍ ﻂﻴﺧ ﺔﻋﺍﺭﺯ ﺕﺎﻴﻨﻘﺗ ﺲﺳﺃ\nﺔﻟﻮﻬﺴﺑ</li>
+    <li>subject_story-&gt;ﻪﺴﻔﻧ ﻦﻠﻋﺃﻭ ﺮﻄﻔﻟﺎﺑ ًﺎﺳﻭﻮﻬﻣ ﺢﺒﺻﺃ\n[ANYPAWN_possessive] ﺔﻜﻠﻤﻣ ﺓﺮﻴﻣﺃ</li>
+    <li>subject_gerund-&gt;ﻥﺎﻄﻴﺸﻟﺍ ﻂﻴﺧ ﺔﻋﺍﺭﺯ</li>
+ </Devilstrand.generalRules.rulesStrings>
+  
+  <!-- EN: drug production -->
+  <DrugProduction.label>ﺕﺍﺭﺪﺨﻤﻟﺍ ﺝﺎﺘﻧﺇ</DrugProduction.label>
+  <!-- EN: Build a drug lab for basic drug synthesis. Further research is required to make specific drugs. -->
+  <DrugProduction.description>ﻖﻴﻠﺨﺘﻟ ﺕﺍﺭﺪﺨﻣ ﺮﺒﺘﺨﻣ ﺀﺎﻨﺒﺑ ﻢﻗ\nﺮﻣﻷﺍ ﺐﻠﻄﺘﻳ .ﺔﻴﺳﺎﺳﻷﺍ ﺕﺍﺭﺪﺨﻤﻟﺍ\nﺕﺍﺭﺪﺨﻣ ﻊﻨﺼﻟ ﺔﻴﻓﺎﺿﺇ ًﺎﺛﺎﺤﺑﺃ\n.ﺓﺩﺪﺤﻣ</DrugProduction.description>
+  <!-- EN:
+    <li>subject->drug production</li>
+    <li>subject->drug synthesis</li>
+    <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+    <li>subject_story->learned how to craft drugs from recycled chemicals, leading to many years spent in prison</li>
+    <li>subject_story->worked as a chemist, but slipped into peddling illegal drugs on the side</li>
+    <li>subject_gerund->building drug labs</li>
+    <li>subject_gerund->producing drugs</li>
+  -->
+  <DrugProduction.generalRules.rulesStrings>
+    <li>subject-&gt;ﺕﺍﺭﺪﺨﻤﻟﺍ ﺝﺎﺘﻧﺇ</li>
+    <li>subject-&gt;ﺕﺍﺭﺪﺨﻤﻟﺍ ﻖﻴﻠﺨﺗ</li>
+    <li>subject_story-&gt;ﻰﻠﻋ ﺐﻜﻳﻮﻛ ﻰﻠﻋ ﺮﺒﺘﺨﻣ ﻲﻓ ﻞﻤﻋ\nﻝﻮﻫﺄﻤﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺔﻓﺎﺣ</li>
+    <li>subject_story-&gt;ﻦﻣ ﺕﺍﺭﺪﺨﻤﻟﺍ ﻊﻨﺻ ﺔﻴﻔﻴﻛ ﻢﻠﻌﺗ\nﺩﺎﻌﻤﻟﺍ ﺔﻴﺋﺎﻴﻤﻴﻜﻟﺍ ﺩﺍﻮﻤﻟﺍ\nﺀﺎﻀﻗ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﺎﻫﺮﻳﻭﺪﺗ\nﻦﺠﺴﻟﺍ ﻲﻓ ﺓﺪﻳﺪﻋ ﺕﺍﻮﻨﺳ</li>
+    <li>subject_story-&gt;ﻰﻟﺇ ﻖﻟﺰﻧﺍ ﻪﻨﻜﻟ ،ﻲﺋﺎﻴﻤﻴﻜﻛ ﻞﻤﻋ\nﻰﻠﻋ ﺔﻴﻧﻮﻧﺎﻘﻟﺍ ﺮﻴﻏ ﺕﺍﺭﺪﺨﻤﻟﺍ ﻊﻴﺑ\nﺐﻧﺎﺠﻟﺍ</li>
+    <li>subject_gerund-&gt;ﺕﺍﺭﺪﺨﻤﻟﺍ ﺕﺍﺮﺒﺘﺨﻣ ﺀﺎﻨﺑ</li>
+    <li>subject_gerund-&gt;ﺕﺍﺭﺪﺨﻤﻟﺍ ﺝﺎﺘﻧﺇ</li>
+ </DrugProduction.generalRules.rulesStrings>
+  
+  <!-- EN: go-juice production -->
+  <GoJuiceProduction.label>ﻁﺎﺸﻨﻟﺍ ﺮﻴﺼﻋ ﺝﺎﺘﻧﺇ</GoJuiceProduction.label>
+  <!-- EN: Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain. -->
+  <GoJuiceProduction.description>ﺭﺎﻘﻋ ﻮﻫﻭ ،ﻁﺎﺸﻨﻟﺍ ﺮﻴﺼﻋ ﺝﺎﺘﻧﺇ\nﻲﻟﺎﺘﻘﻟﺍ ﺀﺍﺩﻸﻟ ﺯﺰﻌﻣ ﻲﻋﺎﻨﻄﺻﺍ\nﺔﻳﺎﻣﺮﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﻦﺴﺤﻳ\n.ﻢﻟﻷﺍ ﻒﻔﺨﻳﻭ ،ﺔﻛﺮﺤﻟﺍﻭ ﻙﺎﺒﺘﺷﻻﺍﻭ</GoJuiceProduction.description>
+  <!-- EN:
+    <li>subject->go-juice production</li>
+    <li>subject_story->was expelled for taking go-juice during team sports matches</li>
+    <li>subject_story->found go-juice massively increased productivity in mines and lumberyards</li>
+    <li>subject_story->never went on a mission without go-juice or juggernaut in a pocket</li>
+    <li>subject_gerund->synthesizing go-juice</li>
+  -->
+  <GoJuiceProduction.generalRules.rulesStrings>
+    <li>subject-&gt;ﻁﺎﺸﻨﻟﺍ ﺮﻴﺼﻋ ﺝﺎﺘﻧﺇ</li>
+    <li>subject_story-&gt;ﻝﻼﺧ ﻁﺎﺸﻨﻟﺍ ﺮﻴﺼﻋ ﻪﻴﻃﺎﻌﺘﻟ ﺩﺮُﻃ\nﺔﻴﻋﺎﻤﺟ ﺔﻴﺿﺎﻳﺭ ﺕﺎﻳﺭﺎﺒﻣ</li>
+    <li>subject_story-&gt;ﺪﻳﺰﻳ ﻁﺎﺸﻨﻟﺍ ﺮﻴﺼﻋ ﻥﺃ ﺪﺟﻭ\nﻢﺟﺎﻨﻤﻟﺍ ﻲﻓ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺔﻴﺟﺎﺘﻧﻹﺍ\nﺐﺸﺨﻟﺍ ﻥﺯﺎﺨﻣﻭ</li>
+    <li>subject_story-&gt;ﺮﻴﺼﻋ ﻥﻭﺪﺑ ﻂﻗ ﺔﻤﻬﻣ ﻲﻓ ﺐﻫﺬﻳ ﻢﻟ\nﻪﺒﻴﺟ ﻲﻓ ﺕﻮﻧﺮﻏﺎﺠﻟﺍ ﻭﺃ ﻁﺎﺸﻨﻟﺍ</li>
+    <li>subject_gerund-&gt;ﻁﺎﺸﻨﻟﺍ ﺮﻴﺼﻋ ﻖﻴﻠﺨﺗ</li>
+ </GoJuiceProduction.generalRules.rulesStrings>
+  
+  <!-- EN: greatbow -->
+  <Greatbow.label>ﺮﻴﺒﻜﻟﺍ ﺱﻮﻘﻟﺍ</Greatbow.label>
+  <!-- EN: Craft greatbows for killing enemies at great range. -->
+  <Greatbow.description>ﺀﺍﺪﻋﻷﺍ ﻞﺘﻘﻟ ﺓﺮﻴﺒﻜﻟﺍ ﺱﺍﻮﻗﻷﺍ ﻊﻨﺻ\n.ﺪﻴﻌﺑ ﻯﺪﻣ ﻦﻣ</Greatbow.description>
+  <!-- EN:
+    <li>subject->greatbows</li>
+    <li>subject_story->fired an arrow right through the iron helmet of a feudal king</li>
+    <li>subject_story->hunted muffalos for their fur on a feral world</li>
+    <li>subject_story->lived alone in the greenwood, a hail of arrows greeting anyone who approached within a mile of its edge</li>
+    <li>subject_gerund->crafting greatbows</li>
+  -->
+  <Greatbow.generalRules.rulesStrings>
+    <li>subject-&gt;ﺓﺮﻴﺒﻜﻟﺍ ﺱﺍﻮﻗﻷﺍ</li>
+    <li>subject_story-&gt;ﻚﻠﻣ ﺓﺫﻮﺧ ﻕﺮﺘﺧﺍ ًﺎﻤﻬﺳ ﻖﻠﻃﺃ\nﺔﻳﺪﻳﺪﺤﻟﺍ ﻲﻋﺎﻄﻗﺇ</li>
+    <li>subject_story-&gt;ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﻮﻟﺎﻓﻮﻤﻟﺍ ﺩﺎﻄﺻﺍ\nﻱﺮﺑ ﻢﻟﺎﻋ ﻰﻠﻋ ﺎﻬﺋﺍﺮﻓ</li>
+    <li>subject_story-&gt;،ﺀﺍﺮﻀﺨﻟﺍ ﺔﺑﺎﻐﻟﺍ ﻲﻓ ًﺍﺪﻴﺣﻭ ﺵﺎﻋ\nﻞﺒﻘﺘﺴﻳ ﻡﺎﻬﺴﻟﺍ ﻦﻣ ﻞﺑﺍﻭ ﻥﺎﻛ ﺚﻴﺣ\nﻦﻣ ﻞﻴﻣ ﺪﻌﺑ ﻰﻠﻋ ﺏﺮﺘﻘﻳ ﺺﺨﺷ ﻱﺃ\nﺎﻬﺘﻓﺎﺣ</li>
+    <li>subject_gerund-&gt;ﺓﺮﻴﺒﻜﻟﺍ ﺱﺍﻮﻗﻷﺍ ﻊﻨﺻ</li>
+ </Greatbow.generalRules.rulesStrings>
+  
+  <!-- EN: long blades -->
+  <LongBlades.label>ﺔﻠﻳﻮﻄﻟﺍ ﺕﺍﺮﻔﺸﻟﺍ</LongBlades.label>
+  <!-- EN: Craft longswords and spears. -->
+  <LongBlades.description>.ﺡﺎﻣﺮﻟﺍﻭ ﺔﻠﻳﻮﻄﻟﺍ ﻑﻮﻴﺴﻟﺍ ﻊﻨﺻ</LongBlades.description>
+  <!-- EN:
+    <li>subject->medieval weaponry</li>
+    <li>subject_story->rode with the Betaduke's Fifth Light Cavalry as they conquered the sector</li>
+    <li>subject_story->was enslaved as a weaponsmith beneath the arena on an iron age planet</li>
+    <li>subject_story->trained the hoplites on a warworld to use their weapons' reach</li>
+    <li>subject_gerund->smithing medieval weapons</li>
+  -->
+  <LongBlades.generalRules.rulesStrings>
+    <li>subject-&gt;ﻰﻄﺳﻮﻟﺍ ﺭﻮﺼﻌﻟﺍ ﻲﻓ ﺔﺤﻠﺳﻷﺍ</li>
+    <li>subject_story-&gt;ﺲﻣﺎﺨﻟﺍ ﻥﺎﺳﺮﻔﻟﺍ ﺡﻼﺳ ﻊﻣ ﺐﻛﺭ\nﻢﻫﻭﺰﻏ ﺀﺎﻨﺛﺃ ﺎﺘﻴﺑ ﻕﻭﺪﻠﻟ ﻒﻴﻔﺨﻟﺍ\nﻉﺎﻄﻘﻠﻟ</li>
+    <li>subject_story-&gt;ﺔﺣﺎﺴﻟﺍ ﺖﺤﺗ ﺔﺤﻠﺳﺃ ﻊﻧﺎﺼﻛ ﺪﺒﻌُﺘﺳﺍ\nﻱﺪﻳﺪﺤﻟﺍ ﺮﺼﻌﻟﺍ ﻦﻣ ﺐﻛﻮﻛ ﻰﻠﻋ</li>
+    <li>subject_story-&gt;ﻢﻟﺎﻋ ﻰﻠﻋ ﺖﻴﻠﺑﻮﻬﻟﺍ ﺩﻮﻨﺟ ﺏّﺭﺩ\nﻢﻬﺘﺤﻠﺳﺃ ﻯﺪﻣ ﻡﺍﺪﺨﺘﺳﻻ ﺏﺮﺣ</li>
+    <li>subject_gerund-&gt;ﻰﻄﺳﻮﻟﺍ ﺭﻮﺼﻌﻟﺍ ﺔﺤﻠﺳﺃ ﺔﻋﺎﻨﺻ</li>
+ </LongBlades.generalRules.rulesStrings>
+  
+  <!-- EN: passive cooler -->
+  <PassiveCooler.label>ﻲﺒﻠﺴﻟﺍ ﺩﺮﺒﻤﻟﺍ</PassiveCooler.label>
+  <!-- EN: Make passive coolers, to cool indoor spaces without using electricity. -->
+  <PassiveCooler.description>ﺪﻳﺮﺒﺘﻟ ﺔﻴﺒﻠﺴﻟﺍ ﺕﺍﺩﺮﺒﻤﻟﺍ ﻊﻨﺻ\nﻡﺍﺪﺨﺘﺳﺍ ﻥﻭﺩ ﺔﻴﻠﺧﺍﺪﻟﺍ ﻦﻛﺎﻣﻷﺍ\n.ﺀﺎﺑﺮﻬﻜﻟﺍ</PassiveCooler.description>
+  <!-- EN:
+    <li>subject->evaporation</li>
+    <li>subject->passive coolers</li>
+    <li>subject_story->moved to a sweltering tropical world and developed unique techniques for staying cool</li>
+    <li>subject_story->researched primitive techniques for cooling areas in the comfort of a coreworld's libraries</li>
+    <li>subject_story->noticed, on the shores of an oceanic planet, that it was cooler where the sea spray settled</li>
+    <li>subject_gerund->building passive coolers</li>
+  -->
+  <PassiveCooler.generalRules.rulesStrings>
+    <li>subject-&gt;ﺮﻴﺨﺒﺘﻟﺍ</li>
+    <li>subject-&gt;ﺔﻴﺒﻠﺴﻟﺍ ﺕﺍﺩﺮﺒﻤﻟﺍ</li>
+    <li>subject_story-&gt;ﻆﺋﺎﻗ ﻲﺋﺍﻮﺘﺳﺍ ﻢﻟﺎﻋ ﻰﻟﺇ ﻞﻘﺘﻧﺍ\nﺀﺎﻘﺒﻠﻟ ﺓﺪﻳﺮﻓ ﺕﺎﻴﻨﻘﺗ ﺭﻮﻃﻭ\nًﺍﺩﺭﺎﺑ</li>
+    <li>subject_story-&gt;ﺪﻳﺮﺒﺘﻟ ﺔﻴﺋﺍﺪﺑ ﺕﺎﻴﻨﻘﺗ ﻲﻓ ﺚﺤﺑ\nﺕﺎﺒﺘﻜﻣ ﺔﺣﺍﺭ ﻲﻓ ﻮﻫﻭ ﻖﻃﺎﻨﻤﻟﺍ\nﺐﻠﻟﺍ ﻢﻟﺍﻮﻋ</li>
+    <li>subject_story-&gt;ﻥﺃ ،ﻲﻄﻴﺤﻣ ﺐﻛﻮﻛ ﺊﻃﺍﻮﺷ ﻰﻠﻋ ،ﻆﺣﻻ\nﺮﻘﺘﺴﻳ ﺚﻴﺣ ﺓﺩﻭﺮﺑ ﺮﺜﻛﺃ ﻥﺎﻛ ﻮﺠﻟﺍ\nﺮﺤﺒﻟﺍ ﺫﺍﺫﺭ</li>
+    <li>subject_gerund-&gt;ﺔﻴﺒﻠﺴﻟﺍ ﺕﺍﺩﺮﺒﻤﻟﺍ ﺀﺎﻨﺑ</li>
+ </PassiveCooler.generalRules.rulesStrings>
+  
+  <!-- EN: pemmican -->
+  <Pemmican.label>ﻥﺎﻜﻴﻤﺒﻟﺍ</Pemmican.label>
+  <!-- EN: Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling. -->
+  <Pemmican.description>ﻅﻮﻔﺤﻣ ﻂﻴﻠﺧ ﻮﻫﻭ ،ﻥﺎﻜﻴﻤﺒﻟﺍ ﻊﻨﺻ\nﻻ ﺔﻴﺗﺎﺒﻨﻟﺍ ﺩﺍﻮﻤﻟﺍﻭ ﻡﻮﺤﻠﻟﺍ ﻦﻣ\n.ﺮﻔﺴﻠﻟ ﻊﺋﺍﺭ .ﺔﻠﻳﻮﻃ ﺓﺮﺘﻔﻟ ﺪﺴﻔﻳ</Pemmican.description>
+  <!-- EN:
+    <li>subject->pemmican production</li>
+    <li>subject_story->mastered pemmican production during a long pilgrimage to the planet's Spire</li>
+    <li>subject_story->survived solely on pemmican when a passenger liner crashed on a glassworld</li>
+    <li>subject_story->taught pemmican production to feral tribes</li>
+    <li>subject_gerund->making pemmican</li>
+  -->
+  <Pemmican.generalRules.rulesStrings>
+    <li>subject-&gt;ﻥﺎﻜﻴﻤﺒﻟﺍ ﺝﺎﺘﻧﺇ</li>
+    <li>subject_story-&gt;ﺔﻠﺣﺭ ﻝﻼﺧ ﻥﺎﻜﻴﻤﺒﻟﺍ ﺝﺎﺘﻧﺇ ﻦﻘﺗﺃ\nﺐﻛﻮﻜﻟﺍ ﺝﺮﺑ ﻰﻟﺇ ﺔﻠﻳﻮﻃ ﺞﺣ</li>
+    <li>subject_story-&gt;ﺎﻣﺪﻨﻋ ﻂﻘﻓ ﻥﺎﻜﻴﻤﺒﻟﺍ ﻰﻠﻋ ﺵﺎﻋ\nﻢﻟﺎﻋ ﻰﻠﻋ ﺏﺎﻛﺭ ﺔﻨﻴﻔﺳ ﺖﻤﻄﺤﺗ\nﻲﺟﺎﺟﺯ</li>
+    <li>subject_story-&gt;ﻞﺋﺎﺒﻘﻠﻟ ﻥﺎﻜﻴﻤﺒﻟﺍ ﺝﺎﺘﻧﺇ ﻢّﻠﻋ\nﺔﻳﺮﺒﻟﺍ</li>
+    <li>subject_gerund-&gt;ﻥﺎﻜﻴﻤﺒﻟﺍ ﻊﻨﺻ</li>
+ </Pemmican.generalRules.rulesStrings>
+  
+  <!-- EN: penoxycyline production -->
+  <PenoxycylineProduction.label>ﻦﻴﻠﻜﻳﺎﺴﻴﺴﻛﻮﻨﻴﺑ ﺝﺎﺘﻧﺇ</PenoxycylineProduction.label>
+  <!-- EN: Produce penoxycyline, a disease prevention drug which blocks plague, malaria, and more before they start. -->
+  <PenoxycylineProduction.description>ﻮﻫﻭ ،ﻦﻴﻠﻜﻳﺎﺴﻴﺴﻛﻮﻨﻴﺒﻟﺍ ﺝﺎﺘﻧﺇ\nﻊﻨﻤﻳ ﺽﺍﺮﻣﻷﺍ ﻦﻣ ﺔﻳﺎﻗﻮﻠﻟ ﺀﺍﻭﺩ\nﻥﺃ ﻞﺒﻗ ﺎﻫﺮﻴﻏﻭ ﺎﻳﺭﻼﻤﻟﺍﻭ ﻥﻮﻋﺎﻄﻟﺍ\n.ﺃﺪﺒﺗ</PenoxycylineProduction.description>
+  <!-- EN:
+    <li>subject->penoxycyline production</li>
+    <li>subject_story->lectured to the United Planets about preventative medicine</li>
+    <li>subject_story->was driven out of Dawn Falls as a quack, for selling a medicine that "doesn't do anything"</li>
+    <li>subject_story->prevented an outbreak of malaria from spreading through careful penoxycyline dosage</li>
+    <li>subject_gerund->synthesizing penoxycyline</li>
+  -->
+  <PenoxycylineProduction.generalRules.rulesStrings>
+    <li>subject-&gt;ﻦﻴﻠﻜﻳﺎﺴﻴﺴﻛﻮﻨﻴﺒﻟﺍ ﺝﺎﺘﻧﺇ</li>
+    <li>subject_story-&gt;ﺐﻛﺍﻮﻜﻟﺍ ﻡﺎﻣﺃ ﺓﺮﺿﺎﺤﻣ ﻰﻘﻟﺃ\nﻲﺋﺎﻗﻮﻟﺍ ﺐﻄﻟﺍ ﻝﻮﺣ ﺓﺪﺤﺘﻤﻟﺍ</li>
+    <li>subject_story-&gt;،ﻝﺎﺟﺪﻛ ﺮﺠﻔﻟﺍ ﺕﻻﻼﺷ ﻦﻣ ﺩﺮُﻃ\n"ًﺎﺌﻴﺷ ﻞﻌﻔﻳ ﻻ" ﺀﺍﻭﺩ ﻪﻌﻴﺒﻟ</li>
+    <li>subject_story-&gt;ﻝﻼﺧ ﻦﻣ ﺎﻳﺭﻼﻤﻟﺍ ﺀﺎﺑﻭ ﺭﺎﺸﺘﻧﺍ ﻊﻨﻣ\nﻦﻣ ﺔﻘﻴﻗﺩ ﺕﺎﻋﺮﺟ\nﻦﻴﻠﻜﻳﺎﺴﻴﺴﻛﻮﻨﻴﺒﻟﺍ</li>
+    <li>subject_gerund-&gt;ﻦﻴﻠﻜﻳﺎﺴﻴﺴﻛﻮﻨﻴﺒﻟﺍ ﻖﻴﻠﺨﺗ</li>
+ </PenoxycylineProduction.generalRules.rulesStrings>
+  
+  <!-- EN: plate armor -->
+  <PlateArmor.label>ﻲﺤﺋﺎﻔﺼﻟﺍ ﻉﺭﺪﻟﺍ</PlateArmor.label>
+  <!-- EN: Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively. -->
+  <PlateArmor.description>ﺔﻴﺤﺋﺎﻔﺼﻟﺍ ﻉﻭﺭﺪﻟﺍ ﻦﻣ ﻢﻘﻃﺃ ﻊﻨﺻ\nﻉﺭﺪﻟﺍ ﺍﺬﻫ .ﺐﺸﺨﻟﺍ ﻭﺃ ﻥﺪﻌﻤﻟﺍ ﻦﻣ\n،ﻅﻮﺤﻠﻣ ﻞﻜﺸﺑ ﺔﻛﺮﺤﻟﺍ ﺊﻄﺒﻳ ﻞﻴﻘﺜﻟﺍ\n.ﺓﺮﻴﺒﻛ ﺔﻴﻟﺎﻌﻔﺑ ﻲﻤﺤﻳ ﻪﻨﻜﻟ</PlateArmor.description>
+  <!-- EN:
+    <li>subject->plate armor</li>
+    <li>subject_story->crafted armor from scrap, when the authorities surrounded [ANYPAWN_possessive] family's shack</li>
+    <li>subject_story->became known as the Green Smith, when moss grew on the wooden armor</li>
+    <li>subject_story->started the first armorworker's collective on an urbworld</li>
+    <li>subject_gerund->smithing plate armor</li>
+  -->
+  <PlateArmor.generalRules.rulesStrings>
+    <li>subject-&gt;ﻲﺤﺋﺎﻔﺼﻟﺍ ﻉﺭﺪﻟﺍ</li>
+    <li>subject_story-&gt;ﺎﻣﺪﻨﻋ ،ﺓﺩﺮﺨﻟﺍ ﻦﻣ ًﺎﻋﺭﺩ ﻊﻨﺻ\n[ANYPAWN_possessive] ﺔﻠﺋﺎﻋ ﺥﻮﻛ ﺕﺎﻄﻠﺴﻟﺍ ﺕﺮﺻﺎﺣ</li>
+    <li>subject_story-&gt;ﺎﻣﺪﻨﻋ ،ﺮﻀﺧﻷﺍ ﺩﺍﺪﺤﻟﺍ ﻢﺳﺎﺑ ﺮﻬﺘﺷﺍ\nﻲﺒﺸﺨﻟﺍ ﻉﺭﺪﻟﺍ ﻰﻠﻋ ﺐﻟﺎﺤﻄﻟﺍ ﺖﻤﻧ</li>
+    <li>subject_story-&gt;ﻉﻭﺭﺪﻟﺍ ﻲﻌﻧﺎﺼﻟ ﺔﻴﻧﻭﺎﻌﺗ ﻝﻭﺃ ﺃﺪﺑ\nﻱﺮﻀﺣ ﻢﻟﺎﻋ ﻰﻠﻋ</li>
+    <li>subject_gerund-&gt;ﺔﻴﺤﺋﺎﻔﺼﻟﺍ ﻉﻭﺭﺪﻟﺍ ﺔﻋﺎﻨﺻ</li>
+ </PlateArmor.generalRules.rulesStrings>
+  
+  <!-- EN: psychite refining -->
+  <PsychiteRefining.label>ﺖﻴﻜﻳﺎﺴﻟﺍ ﺮﻳﺮﻜﺗ</PsychiteRefining.label>
+  <!-- EN: Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug. -->
+  <PsychiteRefining.description>ﻰﻟﺇ ﺪﻳﻮﻜﻳﺎﺴﻟﺍ ﻕﺍﺭﻭﺃ ﺮﻳﺮﻜﺗ\nﻥﻼﻜﺷ ﺎﻤﻫﻭ ،ﻮُﻳﺎَﻳﻭ ﻖﺋﺎﻗﺭ\nﺖﻴﻜﻳﺎﺴﻟﺍ ﺭﺎﻘﻋ ﻦﻣ ﻥﺎﻔﻠﺘﺨﻣ\n.ﺞﻬﺒﻤﻟﺍ</PsychiteRefining.description>
+  <!-- EN:
+    <li>subject->psychite production</li>
+    <li>subject_story->used [ANYPAWN_possessive] university job as cover for [ANYPAWN_possessive] drug-dealing</li>
+    <li>subject_story->started a commune where low-dose flake was mixed into the food</li>
+    <li>subject_story->campaigned for the legalisation of yayo on a nearby urbworld</li>
+    <li>subject_gerund->refining psychite</li>
+  -->
+  <PsychiteRefining.generalRules.rulesStrings>
+    <li>subject-&gt;ﺖﻴﻜﻳﺎﺴﻟﺍ ﺝﺎﺘﻧﺇ</li>
+    <li>subject_story-&gt;ﺀﺎﻄﻐﻛ ﺔﻌﻣﺎﺠﻟﺍ ﻲﻓ ﻪﺘﻔﻴﻇﻭ ﻡﺪﺨﺘﺳﺍ\nﺕﺍﺭﺪﺨﻤﻟﺍ ﺓﺭﺎﺠﺘﻟ</li>
+    <li>subject_story-&gt;ﺖﻧﺎﻛ ﺚﻴﺣ ﺔﻛﺮﺘﺸﻣ ﺔﻋﺎﻤﺟ ﺄﺸﻧﺃ\nﻖﺋﺎﻗﺮﻟﺍ ﻦﻣ ﺔﻀﻔﺨﻨﻣ ﺕﺎﻋﺮﺟ ﻂﻠﺨُﺗ\nﻡﺎﻌﻄﻟﺎﺑ</li>
+    <li>subject_story-&gt;ﻰﻠﻋ ﻮُﻳﺎَﻴﻟﺍ ﻊﻳﺮﺸﺘﻟ ﺔﻠﻤﺤﺑ ﻡﺎﻗ\nﺐﻳﺮﻗ ﻱﺮﻀﺣ ﻢﻟﺎﻋ</li>
+    <li>subject_gerund-&gt;ﺖﻴﻜﻳﺎﺴﻟﺍ ﺮﻳﺮﻜﺗ</li>
+ </PsychiteRefining.generalRules.rulesStrings>
+  
+  <!-- EN: psychoid brewing -->
+  <PsychoidBrewing.label>ﺪﻳﻮﻜﻳﺎﺴﻟﺍ ﺮﻴﻤﺨﺗ</PsychoidBrewing.label>
+  <!-- EN: Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove. -->
+  <PsychoidBrewing.description>ﻱﺎﺷ ﻰﻟﺇ ﺪﻳﻮﻜﻳﺎﺴﻟﺍ ﻕﺍﺭﻭﺃ ﺮﻴﻀﺤﺗ\nﻥﺎﻣﺩﻹﺍﻭ ﺔﻔﻴﻔﺨﻟﺍ ﺓﻮﺸﻨﻠﻟ ﺐﺒﺴﻣ\n.ﻲﻬﻄﻟﺍ ﺪﻗﻮﻣ ﻭﺃ ﻢﻴﺨﻤﻟﺍ ﺭﺎﻧ ﻰﻠﻋ</PsychoidBrewing.description>
+  <!-- EN:
+    <li>subject->psychoid</li>
+    <li>subject_story->joined a short-lived psychoid commune on a cult world</li>
+    <li>subject_story->experimented with psychoid to help traumatized soldiers</li>
+    <li>subject_story->legalized psychoid for mass production across several coreworlds, when [ANYPAWN_pronoun] had the power to do so</li>
+    <li>subject_gerund->brewing psychoid</li>
+  -->
+  <PsychoidBrewing.generalRules.rulesStrings>
+    <li>subject-&gt;ﺪﻳﻮﻜﻳﺎﺴﻟﺍ</li>
+    <li>subject_story-&gt;ﻡﺪﺗ ﻢﻟ ﺪﻳﻮﻜﻳﺎﺳ ﺔﻋﺎﻤﺟ ﻰﻟﺇ ﻢﻀﻧﺍ\nﻲﻔﺋﺎﻃ ﻢﻟﺎﻋ ﻰﻠﻋ ًﻼﻳﻮﻃ</li>
+    <li>subject_story-&gt;ﺩﻮﻨﺠﻟﺍ ﺓﺪﻋﺎﺴﻤﻟ ﺪﻳﻮﻜﻳﺎﺴﻟﺍ ﺏّﺮﺟ\nﺕﺎﻣﺪﺼﺑ ﻦﻴﺑﺎﺼﻤﻟﺍ</li>
+    <li>subject_story-&gt;ﺔﻠﻤﺠﻟﺎﺑ ﺝﺎﺘﻧﻺﻟ ﺪﻳﻮﻜﻳﺎﺴﻟﺍ ﻉّﺮﺷ\nﺖﻧﺎﻛ ﺎﻣﺪﻨﻋ ،ﺐﻟ ﻢﻟﺍﻮﻋ ﺓﺪﻋ ﺮﺒﻋ\nﻚﻟﺫ ﻞﻌﻓ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﻪﻳﺪﻟ</li>
+    <li>subject_gerund-&gt;ﺪﻳﻮﻜﻳﺎﺴﻟﺍ ﺮﻴﻤﺨﺗ</li>
+ </PsychoidBrewing.generalRules.rulesStrings>
+  
+  <!-- EN: recurve bow -->
+  <RecurveBow.label>ﻲﻨﺤﻨﻤﻟﺍ ﺱﻮﻘﻟﺍ</RecurveBow.label>
+  <!-- EN: Build the recurve bow, an effective and inexpensive ranged weapon. -->
+  <RecurveBow.description>ﺡﻼﺳ ﻮﻫﻭ ،ﻲﻨﺤﻨﻤﻟﺍ ﺱﻮﻘﻟﺍ ﺀﺎﻨﺑ\n.ﻒﻠﻜﻣ ﺮﻴﻏﻭ ﻝﺎﻌﻓ ﻯﺪﻤﻟﺍ ﺪﻴﻌﺑ</RecurveBow.description>
+  <!-- EN:
+    <li>subject->bowyery</li>
+    <li>subject->bow-making</li>
+    <li>subject_story->tracked a rabid boomalope for four days before killing it with a single arrow</li>
+    <li>subject_story->settled near a yew forest to secure the perfect materials for bows</li>
+    <li>subject_story->raised the colony children as hunter-gatherers, with every one a master archer</li>
+    <li>subject_gerund->crafting bows</li>
+  -->
+  <RecurveBow.generalRules.rulesStrings>
+    <li>subject-&gt;ﺱﺍﻮﻗﻷﺍ ﺔﻋﺎﻨﺻ</li>
+    <li>subject-&gt;ﺱﺍﻮﻗﻷﺍ ﻊﻨﺻ</li>
+    <li>subject_story-&gt;ﺓﺪﻤﻟ ًﺍﺭﻮﻌﺴﻣ ﺏﻮﻟﺎﻣﻮﺑ ﻊﺒﺘﺗ\nﻢﻬﺴﺑ ﻪﻠﺘﻘﻳ ﻥﺃ ﻞﺒﻗ ﻡﺎﻳﺃ ﺔﻌﺑﺭﺃ\nﺪﺣﺍﻭ</li>
+    <li>subject_story-&gt;ﺱﻮﺴﻘﻃ ﺔﺑﺎﻏ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺮﻘﺘﺳﺍ\nﺱﺍﻮﻗﻷﺍ ﻊﻨﺼﻟ ﺩﺍﻮﻤﻟﺍ ﻞﻀﻓﺃ ﻦﻤﻀﻴﻟ</li>
+    <li>subject_story-&gt;ﻦﻳﺩﺎﻴﺼﻛ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﻝﺎﻔﻃﺃ ﻰﺑﺭ\nﻢﻬﻨﻣ ﺪﺣﺍﻭ ﻞﻛ ﻥﺎﻛﻭ ،ﻦﻴﻌﻣﺎﺟﻭ\nًﺍﺮﻫﺎﻣ ًﺎﻴﻣﺍﺭ</li>
+    <li>subject_gerund-&gt;ﺱﺍﻮﻗﻷﺍ ﻊﻨﺻ</li>
+ </RecurveBow.generalRules.rulesStrings>
+  
+  <!-- EN: smithing -->
+  <Smithing.label>ﺓﺩﺍﺪﺤﻟﺍ</Smithing.label>
+  <!-- EN: Build smithies for crafting metal weapons like knives, gladii, and maces. Work metal into clean, beautiful floor tiles. -->
+  <Smithing.description>ﻊﻨﺼﻟ ﺓﺩﺍﺪﺤﻟﺍ ﻊﻧﺎﺼﻤﻟﺍ ﺀﺎﻨﺑ\nﻦﻴﻛﺎﻜﺴﻟﺍ ﻞﺜﻣ ﺔﻴﻧﺪﻌﻣ ﺔﺤﻠﺳﺃ\n.ﺕﺎﻧﺎﺠﻟﻮﺼﻟﺍﻭ ﺔﻴﻧﺎﻣﻭﺮﻟﺍ ﻑﻮﻴﺴﻟﺍﻭ\nﻒﻴﻈﻧ ﻲﺿﺭﺃ ﻁﻼﺑ ﻰﻟﺇ ﻥﺪﻌﻤﻟﺍ ﻞﻴﻜﺸﺗ\n.ﻞﻴﻤﺟﻭ</Smithing.description>
+  <!-- EN:
+    <li>subject->blacksmithing</li>
+    <li>subject_story->settled in a medieval hamlet and mastered simple metal crafting</li>
+    <li>subject_story->built glitterworld smithies for the Renaissance reenactment guilds</li>
+    <li>subject_gerund->smithing</li>
+  -->
+  <Smithing.generalRules.rulesStrings>
+    <li>subject-&gt;ﺓﺩﺍﺪﺤﻟﺍ</li>
+    <li>subject_story-&gt;ﺭﻮﺼﻌﻟﺍ ﻦﻣ ﺓﺮﻴﻐﺻ ﺔﻳﺮﻗ ﻲﻓ ﺮﻘﺘﺳﺍ\nﻥﺩﺎﻌﻤﻟﺍ ﻊﻨﺻ ﻦﻘﺗﺃﻭ ﻰﻄﺳﻮﻟﺍ\nﺔﻄﻴﺴﺒﻟﺍ</li>
+    <li>subject_story-&gt;ﻢﻟﺍﻮﻋ ﻰﻠﻋ ﺓﺩﺍﺪﺣ ﻊﻧﺎﺼﻣ ﻰﻨﺑ\nﺮﺼﻋ ﻞﻴﺜﻤﺗ ﺓﺩﺎﻋﺇ ﺕﺎﺑﺎﻘﻨﻟ ﺔﻗﺍﺮﺑ\nﺔﻀﻬﻨﻟﺍ</li>
+    <li>subject_gerund-&gt;ﺓﺩﺍﺪﺤﻟﺍ</li>
+ </Smithing.generalRules.rulesStrings>
+  
+  <!-- EN: stonecutting -->
+  <Stonecutting.label>ﺮﺠﺤﻟﺍ ﺖﺤﻧ</Stonecutting.label>
+  <!-- EN: Cut rock chunks into stone blocks for use in construction. Build beautiful stone tile floors or ugly concrete walkways. -->
+  <Stonecutting.description>ﺔﻳﺮﺠﺣ ﻞﺘﻛ ﻰﻟﺇ ﺭﻮﺨﺼﻟﺍ ﻞﺘﻛ ﻊﻴﻄﻘﺗ\nﺀﺎﻨﺑ .ﺀﺎﻨﺒﻟﺍ ﻲﻓ ﺎﻬﻣﺍﺪﺨﺘﺳﻻ\nﺕﺍﺮﻤﻣ ﻭﺃ ﺔﻠﻴﻤﺟ ﻱﺮﺠﺣ ﻁﻼﺑ ﺕﺎﻴﺿﺭﺃ\n.ﺔﺤﻴﺒﻗ ﺔﻴﺘﻨﻤﺳﺇ</Stonecutting.description>
+  <!-- EN:
+    <li>subject->masonry</li>
+    <li>subject_story->was the first in a line of temple designers, all sharing the same name</li>
+    <li>subject_story->developed unique techniques for cutting the hardest rock with basic tools</li>
+    <li>subject_story->tiled the entirety of the viceroy's palace on a medieval world</li>
+    <li>subject_gerund->stonecutting</li>
+    <li>subject_gerund->cutting stones</li>
+  -->
+  <Stonecutting.generalRules.rulesStrings>
+    <li>subject-&gt;ﻱﺮﺠﺤﻟﺍ ﺀﺎﻨﺒﻟﺍ</li>
+    <li>subject_story-&gt;ﻲﻤﻤﺼﻣ ﻦﻣ ﺔﻠﺴﻠﺳ ﻲﻓ ﻝﻭﻷﺍ ﻥﺎﻛ\nﺲﻔﻧ ﻥﻮﻛﺭﺎﺸﻳ ﻢﻬﻌﻴﻤﺟ ،ﺪﺑﺎﻌﻤﻟﺍ\nﻢﺳﻻﺍ</li>
+    <li>subject_story-&gt;ﺐﻠﺻﺃ ﻊﻄﻘﻟ ﺓﺪﻳﺮﻓ ﺕﺎﻴﻨﻘﺗ ﺭﻮﻃ\nﺔﻄﻴﺴﺑ ﺕﺍﻭﺩﺄﺑ ﺭﻮﺨﺼﻟﺍ</li>
+    <li>subject_story-&gt;ﻞﻣﺎﻜﻟﺎﺑ ﻚﻠﻤﻟﺍ ﺐﺋﺎﻧ ﺮﺼﻗ ﻂّﻠﺑ\nﻰﻄﺳﻮﻟﺍ ﺭﻮﺼﻌﻟﺍ ﻦﻣ ﻢﻟﺎﻋ ﻰﻠﻋ</li>
+    <li>subject_gerund-&gt;ﺮﺠﺤﻟﺍ ﺖﺤﻧ</li>
+    <li>subject_gerund-&gt;ﺓﺭﺎﺠﺤﻟﺍ ﻊﻴﻄﻘﺗ</li>
+ </Stonecutting.generalRules.rulesStrings>
+  
+  <!-- EN: tree sowing -->
+  <TreeSowing.label>ﺭﺎﺠﺷﻷﺍ ﺔﻋﺍﺭﺯ</TreeSowing.label>
+  <!-- EN: Sow the local biome's natural trees in your fields. -->
+  <TreeSowing.description>ﺔﻳﻮﻴﺤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﺭﺎﺠﺷﺃ ﻉﺭﺯﺍ\n.ﻚﻟﻮﻘﺣ ﻲﻓ ﺔﻴﻌﻴﺒﻄﻟﺍ ﺔﻴﻠﺤﻤﻟﺍ</TreeSowing.description>
+  <!-- EN:
+    <li>subject->tree sowing</li>
+    <li>subject_story->propagated trees across a long-dead planetoid, trying to bring life back</li>
+    <li>subject_story->published a paper about maintaining natural ecosystems</li>
+    <li>subject_story->worked in a tree nursery on an animal world</li>
+    <li>subject_gerund->sowing trees</li>
+  -->
+  <TreeSowing.generalRules.rulesStrings>
+    <li>subject-&gt;ﺭﺎﺠﺷﻷﺍ ﺔﻋﺍﺭﺯ</li>
+    <li>subject_story-&gt;ﺬﻨﻣ ﺖﻴﻣ ﺐﻜﻳﻮﻛ ﺮﺒﻋ ﺭﺎﺠﺷﻷﺍ ﺮﺸﻧ\nﺓﺎﻴﺤﻟﺍ ﺓﺩﺎﻋﺇ ًﻻﻭﺎﺤﻣ ،ﻞﻳﻮﻃ ﻦﻣﺯ</li>
+    <li>subject_story-&gt;ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻝﻮﺣ ﺔﻴﺜﺤﺑ ﺔﻗﺭﻭ ﺮﺸﻧ\nﺔﻴﻌﻴﺒﻄﻟﺍ ﺔﻴﺌﻴﺒﻟﺍ ﻢﻈﻨﻟﺍ</li>
+    <li>subject_story-&gt;ﻢﻟﺎﻋ ﻰﻠﻋ ﺭﺎﺠﺷﺃ ﻞﺘﺸﻣ ﻲﻓ ﻞﻤﻋ\nﻲﻧﺍﻮﻴﺣ</li>
+    <li>subject_gerund-&gt;ﺭﺎﺠﺷﻷﺍ ﻉﺭﺯ</li>
+ </TreeSowing.generalRules.rulesStrings>
+  
+  <!-- EN: wake-up production -->
+  <WakeUpProduction.label>ﻂﺸﻨﻤﻟﺍ ﺝﺎﺘﻧﺇ</WakeUpProduction.label>
+  <!-- EN: Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep. -->
+  <WakeUpProduction.description>ﺯﺰﻌﻣ ﺭﺎﻘﻋ ﻮﻫﻭ ،ﻂﺸﻨﻤﻟﺍ ﻖﻴﻠﺨﺗ\nﺔﺟﺎﺤﻟﺍ ﻝﺪﺒﺘﺴﻳ ﻞﻤﻌﻟﺍ ﻲﻓ ﺀﺍﺩﻸﻟ\n.ﻡﻮﻨﻟﺍ ﻰﻟﺇ</WakeUpProduction.description>
+  <!-- EN:
+    <li>subject->wake-up production</li>
+    <li>subject_story->tried to overcome caffeine addiction by taking wake-up</li>
+    <li>subject_story->treated narcoleptics and sleepwalkers with carefully timed wake-up doses</li>
+    <li>subject_story->moved everyone to the dark side of an asteroid and used wake-up to maintain their biorhythms</li>
+    <li>subject_gerund->synthesizing wake-up</li>
+  -->
+  <WakeUpProduction.generalRules.rulesStrings>
+    <li>subject-&gt;ﻂﺸﻨﻤﻟﺍ ﺝﺎﺘﻧﺇ</li>
+    <li>subject_story-&gt;ﻦﻴﻴﻓﺎﻜﻟﺍ ﻥﺎﻣﺩﺇ ﻰﻠﻋ ﺐﻠﻐﺘﻟﺍ ﻝﻭﺎﺣ\nﻂﺸﻨﻤﻟﺍ ﻝﻭﺎﻨﺘﺑ</li>
+    <li>subject_story-&gt;ﻱﺮﻬﻘﻟﺍ ﻡﻮﻨﻟﺎﺑ ﻦﻴﺑﺎﺼﻤﻟﺍ ﺞﻟﺎﻋ\nﺕﺎﻋﺮﺠﺑ ﻡﻮﻨﻟﺍ ﺀﺎﻨﺛﺃ ﻦﻳﺮﺋﺎﺴﻟﺍﻭ\nﻂﺸﻨﻤﻟﺍ ﻦﻣ ﺖﻴﻗﻮﺘﻟﺍ ﺓﺩﺪﺤﻣ</li>
+    <li>subject_story-&gt;ﻢﻠﻈﻤﻟﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻟﺇ ﻊﻴﻤﺠﻟﺍ ﻞﻘﻧ\nﻅﺎﻔﺤﻠﻟ ﻂﺸﻨﻤﻟﺍ ﻡﺪﺨﺘﺳﺍﻭ ﺐﻜﻳﻮﻛ ﻦﻣ\nﺔﻳﻮﻴﺤﻟﺍ ﻢﻬﺗﺎﻋﺎﻘﻳﺇ ﻰﻠﻋ</li>
+    <li>subject_gerund-&gt;ﻂﺸﻨﻤﻟﺍ ﻖﻴﻠﺨﺗ</li>
+ </WakeUpProduction.generalRules.rulesStrings>
+  
+</LanguageData>

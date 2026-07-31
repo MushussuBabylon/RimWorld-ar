@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(siteFaction==Pirate)->Pirates have set up an outpost near [map_definite] to harass you. [allSitePartsDescriptions]\n\nThe outpost will remain until you send a team there to attack and destroy it.</li>
+    <li>questDescription(siteFaction==Mechanoid)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
+  -->
+  <ProblemCauser.questDescriptionRules.rulesStrings>
+    <li>questDescription(siteFaction==Pirate)-&gt;ًﺎﻴﻣﺎﻣﺃ ًﺍﺮﻔﺨﻣ ﺔﻨﺻﺍﺮﻘﻟﺍ ﻡﺎﻗﺃ\n[allSitePartsDescriptions] .ﻚﺘﻘﻳﺎﻀﻤﻟ [map_definite] ﻦﻣ ﺏﺮﻘﻟﺎﺑ\n\nًﺎﻘﻳﺮﻓ ﻞﺳﺮﺗ ﻰﺘﺣ ﺮﻔﺨﻤﻟﺍ ﻰﻘﺒﻴﺳ\n.ﻩﺮﻴﻣﺪﺗﻭ ﻪﺘﻤﺟﺎﻬﻤﻟ</li>
+    <li>questDescription(siteFaction==Mechanoid)-&gt;ﺓﺪﻴﻌﺑ ﺮﻴﻏ ﺪﻳﻮﻧﺎﻜﻴﻣ ﺔﺒﻴﺘﻛ ﺖﻄﺒﻫ\n[map_definite]. [allSitePartsDescriptions] ﻦﻋ\n\nﻰﺘﺣ ﺪﻳﻮﻧﺎﻜﻴﻤﻟﺍ ﺔﺒﻴﺘﻜﻟﺍ ﻰﻘﺒﺘﺳ\nﺎﻬﺘﻤﺟﺎﻬﻤﻟ ًﺎﻘﻳﺮﻓ ﻞﺳﺮﺗ\n.ﺎﻫﺮﻴﻣﺪﺗﻭ</li>
+ </ProblemCauser.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(siteFaction==Pirate)->Pirates with a [problemCauserLabel]</li>
+    <li>questName(siteFaction==Mechanoid)->Mech cluster with a [problemCauserLabel]</li>
+  -->
+  <ProblemCauser.questNameRules.rulesStrings>
+    <li>questName(siteFaction==Pirate)-&gt;[problemCauserLabel] ﻊﻣ ﺔﻨﺻﺍﺮﻗ</li>
+    <li>questName(siteFaction==Mechanoid)-&gt;[problemCauserLabel] ﻊﻣ ﺪﻳﻮﻧﺎﻜﻴﻣ ﺔﺒﻴﺘﻛ</li>
+ </ProblemCauser.questNameRules.rulesStrings>
+  <!-- EN: [problemCauserLabel] destroyed -->
+  <ProblemCauser.LetterLabelSuccess.slateRef>[problemCauserLabel] ﺮﻴﻣﺪﺗ ﻢﺗ</ProblemCauser.LetterLabelSuccess.slateRef>
+  <!-- EN: You have destroyed the [problemCauserLabel] that was affecting [map_definite]! -->
+  <ProblemCauser.LetterTextSuccess.slateRef>ﻰﻠﻋ ﺮﺛﺆﻳ ﻥﺎﻛ ﻱﺬﻟﺍ [problemCauserLabel] ﺕﺮﻣﺩ ﺪﻘﻟ\n![map_definite]</ProblemCauser.LetterTextSuccess.slateRef>
+  
+</LanguageData>

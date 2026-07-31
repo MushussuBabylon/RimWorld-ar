@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: a -->
+  <IndefiniteArticle/>
+  <!-- EN: the -->
+  <DefiniteArticle/>
+  <!-- EN: a {0} -->
+  <IndefiniteForm>{0}</IndefiniteForm>
+  <!-- EN: the {0} -->
+  <DefiniteForm>{0}ـﻟﺍ</DefiniteForm>
+
+  <!-- EN: its -->
+  <Proits>ﻪـ</Proits>
+  <!-- EN: his -->
+  <Prohis>ﻪـ</Prohis>
+  <!-- EN: her -->
+  <Proher>ﺎﻫ</Proher>
+  <!-- EN: Its -->
+  <ProitsCap>ﻪـ</ProitsCap>
+  <!-- EN: His -->
+  <ProhisCap>ﻪـ</ProhisCap>
+  <!-- EN: Her -->
+  <ProherCap>ﺎﻫ</ProherCap>
+
+  <!-- EN: it -->
+  <ProitObj>ﻪـ</ProitObj>
+  <!-- EN: him -->
+  <ProhimObj>ﻪـ</ProhimObj>
+  <!-- EN: her -->
+  <ProherObj>ﺎﻫ</ProherObj>
+  <!-- EN: It -->
+  <ProitObjCap>ﻪـ</ProitObjCap>
+  <!-- EN: Him -->
+  <ProhimObjCap>ﻪـ</ProhimObjCap>
+  <!-- EN: Her -->
+  <ProherObjCap>ﺎﻫ</ProherObjCap>
+
+  <!-- EN: he -->
+  <Prohe>ﻮﻫ</Prohe>
+  <!-- EN: she -->
+  <Proshe>ﻲﻫ</Proshe>
+  <!-- EN: it -->
+  <Proit>ﻮﻫ</Proit>
+  <!-- EN: He -->
+  <ProheCap>ﻮﻫ</ProheCap>
+  <!-- EN: She -->
+  <ProsheCap>ﻲﻫ</ProsheCap>
+  <!-- EN: It -->
+  <ProitCap>ﻮﻫ</ProitCap>
+
+  <!-- EN: man -->
+  <ProHeNoun>ﻞﺟﺭ</ProHeNoun>
+  <!-- EN: woman -->
+  <ProSheNoun>ﺓﺃﺮﻣﺍ</ProSheNoun>
+  <!-- EN: person -->
+  <ProItNoun>ﺺﺨﺷ</ProItNoun>
+  
+  <!-- EN: {0} and {1}. -->
+  <ClauseSequence2>.{1} ﻭ {0}</ClauseSequence2>
+  <!-- EN: {0}. Also, {1} and {2}. -->
+  <ClauseSequence3>.{2} ﻭ {1} ،ًﺎﻀﻳﺃ .{0}</ClauseSequence3>
+  <!-- EN: {0} and {1}. In addition {2} and {3}. -->
+  <ClauseSequence4>.{3} ﻭ {2} ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ .{1} ﻭ {0}</ClauseSequence4>
+  <!-- EN: {0} and {1}. Additionally, {2} and {3}. Finally, {4}. -->
+  <ClauseSequence5>.{3} ﻭ {2} ،ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ .{1} ﻭ {0}\n.{4} ،ًﺍﺮﻴﺧﺃﻭ</ClauseSequence5>
+  <!-- EN: {0}. {1} and {2}. Also, {3} and {4}. Finally, {5}. -->
+  <ClauseSequence6>.{4} ﻭ {3} ،ًﺎﻀﻳﺃ .{2} ﻭ {0}. {1}\n.{5} ،ًﺍﺮﻴﺧﺃﻭ</ClauseSequence6>
+  <!-- EN: {0} and {1}. {2} and {3}. Also, {4} and {5}. Finally, {6}. -->
+  <ClauseSequence7>.{5} ﻭ {4} ،ًﺎﻀﻳﺃ .{3} ﻭ {1}. {2} ﻭ {0}\n.{6} ،ًﺍﺮﻴﺧﺃﻭ</ClauseSequence7>
+  <!-- EN: {0} and {1}. Also, {2} and {3}. {4} and {5}. Finally, {6} and {7}. -->
+  <ClauseSequence8>.{5} ﻭ {3}. {4} ﻭ {2} ،ًﺎﻀﻳﺃ .{1} ﻭ {0}\n.{7} ﻭ {6} ،ًﺍﺮﻴﺧﺃﻭ</ClauseSequence8>
+
+  <!-- EN: {0} or {1} -->
+  <XorY>{1} ﻭﺃ {0}</XorY>
+
+</LanguageData>

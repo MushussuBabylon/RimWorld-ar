@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>lodgersLabel->prisoner</li>
+    <li>lodgersLabelPlural->prisoners</li>
+  -->
+  <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel-&gt;ﻦﻴﺠﺳ</li>
+    <li>lodgersLabelPlural-&gt;ﺀﺎﻨﺠﺳ</li>
+ </Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->An orbiting ship captain wants you to guard a prisoner named [lodgers0_nameFull] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] recently spat on the most loved child of [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] of [enemyFaction_name]. [enemyFaction_leader_nameDef] will send [enemyFaction_pawnsPlural] to seek revenge on any who would protect [lodgers0_objective]. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->An orbiting ship captain wants you to guard [lodgersCount] prisoners at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThe prisoners committed a string of murders against the [enemyFaction_pawnsPlural] of [enemyFaction_name], and their victims' families will send raids to seek revenge. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nThe prisoners recently [mechViolation], and have been targeted by a mechanoid hive. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], wants you to stash a special prisoner for [asker_objective]. The prisoner, a [lodgers0_age]-year-old [lodgers0_title] named [lodgers0_nameFull], knows embarrassing information about [asker_nameDef]'s [PersonalCharacteristic], and [asker_nameDef] doesn't want [lodgers0_objective] to be freed. You only need to keep the prisoner for [shuttleDelayTicks_duration] until the scandal passes. [allLodgerInfo][threatsInfo3][commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, [enemyFaction_name] wants to spread the shameful story and is sending raids to break [lodgers0_nameDef] out of jail. [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has captured [lodgersCount] prisoners from an enemy faction. With no place to store them, [asker_nameDef] wants you to watch over them for [shuttleDelayTicks_duration], until [asker_possessive] prison is ready.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThe prisoners have a paid rescue contract with [enemyFaction_name], so they will send [enemyFaction_pawnsPlural] after you. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]'s enemies have some provoked a mechanoid hive into hunting the prisoners, so it will send mechanoid attack groups. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has been caught in bed with the wrong person. [asker_pronoun] imprisoned the inappropriate lover in a show of rejection. Now [asker_pronoun] wants you to keep the prisoner [lodgers0_nameFull] caged until the scandal blows over in [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, [asker_nameDef]'s court rivals are paying [enemyFaction_name] to try to break the lover out and bring the story to light. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nUnfortunately, [asker_nameDef]'s court rivals have provoked mechanoids attacks from [enemyFaction_name] to try to break the lover out and bring the story to light. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], seeks your help. [asker_nameDef]'s royal archaeologists recently extracted [lodgersCount] prisoners from an ancient cryptosleep vault, and intend to question them. To keep the prisoners secret from court rivals, [asker_nameDef] wants you to hold them for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6][commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, [enemyFaction_pawnsPlural] from [enemyFaction_name] revered the vault that the prisoners were extracted from. They'll send raids to seek revenge on anyone who holds them. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nUnfortunately, [enemyFaction_pawnsPlural] from [enemyFaction_name] were guarding the vault that the prisoners were extracted from. They'll send mechanoids to hunt down the lost sleepers. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+  -->
+  <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)-&gt;ﻚﻨﻣ ﺪﻳﺮﻳ ﺭﺍﺪﻤﻟﺍ ﻲﻓ ﺔﻨﻴﻔﺳ ﻥﺎﻄﺒﻗ\nﺓﺪﻤﻟ [map_definite] ﻲﻓ [lodgers0_nameFull] ﻰﻋﺪُﻳ ﻦﻴﺠﺳ ﺔﺳﺍﺮﺣ\n[shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)-&gt;\n\n[enemyFaction_leader_nameFull] ﻝﺎﻔﻃﺃ ﺮﺜﻛﺃ ﻰﻠﻋ ًﺍﺮﺧﺆﻣ [lodgers0_nameDef] ﻖﺼﺑ\n[enemyFaction_leader_nameDef] [enemyFaction_pawnsPlural] ﻞﺳﺮﻴﺳ .[enemyFaction_leaderTitle] [enemyFaction_name] ،ﻦﻴﺑﻮﺒﺤﻤﻟﺍ\n[lodgers0_objective]. [enemyGroupsParagraph] ﻲﻤﺤﻳ ﺺﺨﺷ ﻱﺃ ﻦﻣ ﻡﺎﻘﺘﻧﻼﻟ</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)-&gt;\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==MechClusters)-&gt;\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==false)-&gt;</li>
+    <li>questDescription(askerIsNull==true,lodgersCount&gt;=2)-&gt;ﻚﻨﻣ ﺪﻳﺮﻳ ﺭﺍﺪﻤﻟﺍ ﻲﻓ ﺔﻨﻴﻔﺳ ﻥﺎﻄﺒﻗ\n[shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding] ﺓﺪﻤﻟ [map_definite] ﻲﻓ ﺀﺎﻨﺠﺳ [lodgersCount] ﺔﺳﺍﺮﺣ</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)-&gt;\n\nﻢﺋﺍﺮﺟ ﻦﻣ ﺔﻠﺴﻠﺳ ﺀﺎﻨﺠﺴﻟﺍ ﺐﻜﺗﺭﺍ\nﺕﻼﺋﺎﻋ ﻞﺳﺮﺘﺳﻭ ،[enemyFaction_pawnsPlural] [enemyFaction_name] ﺪﺿ ﻞﺘﻘﻟﺍ\n[enemyGroupsParagraph] .ﻡﺎﻘﺘﻧﻼﻟ ﺕﺍﺭﺎﻏ ﺎﻳﺎﺤﻀﻟﺍ</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)-&gt;\n\n،[mechViolation]ـﺑ ًﺍﺮﺧﺆﻣ ﺀﺎﻨﺠﺴﻟﺍ ﻡﺎﻗ\n[enemyGroupsParagraph] .ﺪﻳﻮﻧﺎﻜﻴﻣ ﺔﻴﻠﺧ ﻢﻬﺘﻓﺪﻬﺘﺳﺍﻭ</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)-&gt;\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==false)-&gt;</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1)-&gt;ﻦﻴﺠﺳ ﺀﺎﻔﺧﺇ ﻚﻨﻣ ﺪﻳﺮﻳ ،[asker_nameFull]، [asker_faction_leaderTitle] [asker_faction_name]\n[lodgers0_age] ﻩﺮﻤﻋ [lodgers0_title] ،ﻦﻴﺠﺴﻟﺍ .ﻪﻳﺪﻟ ﺹﺎﺧ\nﺕﺎﻣﻮﻠﻌﻣ ﻑﺮﻌﻳ ،[lodgers0_nameFull] ﻰﻋﺪُﻳ ًﺎﻣﺎﻋ\nﻕﻼﻃﺇ [asker_nameDef] ﺪﻳﺮﻳ ﻻﻭ ،[PersonalCharacteristic] [asker_nameDef] ﻦﻋ ﺔﺟﺮﺤﻣ\nﻅﺎﻔﺘﺣﻻﺍ ﻯﻮﺳ ﻚﻴﻠﻋ ﺎﻣ .ﻪﺣﺍﺮﺳ\nﺮﻤﺗ ﻰﺘﺣ [shuttleDelayTicks_duration] ﺓﺪﻤﻟ ﻦﻴﺠﺴﻟﺎﺑ\n[allLodgerInfo][threatsInfo3][commonDescEnding] .ﺔﺤﻴﻀﻔﻟﺍ</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)-&gt;\n\nﺔﺼﻘﻟﺍ ﺮﺸﻧ [enemyFaction_name] ﺪﻳﺮﺗ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ\n[lodgers0_nameDef] ﺮﻳﺮﺤﺘﻟ ﺕﺍﺭﺎﻏ ﻞﺳﺮﺗﻭ ﺔﻳﺰﺨﻤﻟﺍ\n[enemyGroupsParagraph] .ﻦﺠﺴﻟﺍ ﻦﻣ</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)-&gt;\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==MechClusters)-&gt;\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==false)-&gt;</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount&gt;=2)-&gt;ﻞﻴﺼﻓ ﻦﻣ ﺀﺎﻨﺠﺳ [lodgersCount] ﺮﺳﺃ ،[asker_nameFull]، [asker_faction_leaderTitle] [asker_faction_name]\nﻥﺎﻜﻣ ﺩﻮﺟﻭ ﻡﺪﻌﻟ .ٍﺩﺎﻌﻣ\nﻢﻬﺘﺳﺍﺮﺣ [asker_nameDef] ﻚﻨﻣ ﺪﻳﺮﻳ ،ﻢﻬﻨﻳﺰﺨﺘﻟ\nﻪﻨﺠﺳ ﺢﺒﺼﻳ ﻰﺘﺣ ،[shuttleDelayTicks_duration] ﺓﺪﻤﻟ\n[allLodgerInfo][threatsInfo4][commonDescEnding].ًﺍﺰﻫﺎﺟ</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)-&gt;\n\nﻊﻣ ﻉﻮﻓﺪﻣ ﺫﺎﻘﻧﺇ ﺪﻘﻋ ﺀﺎﻨﺠﺴﻟﺍ ﻯﺪﻟ\n[enemyGroupsParagraph] .ﻚﻔﻠﺧ [enemyFaction_pawnsPlural] ﻥﻮﻠﺳﺮﻴﺳ ﻚﻟﺬﻟ ،[enemyFaction_name]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)-&gt;\n\nﺪﻳﻮﻧﺎﻜﻴﻣ ﺔﻴﻠﺧ ﺍﻭﺰﻔﺘﺳﺍ [asker_nameDef] ﺀﺍﺪﻋﺃ\nﻞﺳﺮﺘﺳ ﺍﺬﻟ ،ﺀﺎﻨﺠﺴﻟﺍ ﺓﺩﺭﺎﻄﻤﻟ\n[enemyGroupsParagraph] .ﺪﻳﻮﻧﺎﻜﻴﻣ ﻡﻮﺠﻫ ﺕﺎﻋﻮﻤﺠﻣ</li>
+    <li>threatsInfo4(generateThreats==true,threatType==MechClusters)-&gt;\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==false)-&gt;</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)-&gt;ﺵﺍﺮﻔﻟﺍ ﻲﻓ ﻪﻴﻠﻋ ﺾﺒُﻗ ،[asker_faction_name] ﻦﻣ [asker_nameFull]، [asker_royalTitleInCurrentFaction]\nﺮﻴﻏ ﻖﺷﺎﻌﻟﺍ ﻦﺠﺳ .ﺄﻄﺨﻟﺍ ﺺﺨﺸﻟﺍ ﻊﻣ\nﻥﻵﺍ .ﺾﻓﺮﻟﺍ ﻦﻋ ﺮﻴﺒﻌﺘﻛ ﺐﺳﺎﻨﻤﻟﺍ\n[lodgers0_nameFull] ﻦﻴﺠﺴﻟﺍ ﺀﺎﻘﺑﺇ [asker_pronoun] ﻚﻨﻣ ﺪﻳﺮﻳ\n.[shuttleDelayTicks_duration] ﻝﻼﺧ ﺔﺤﻴﻀﻔﻟﺍ ﺮﻤﺗ ﻰﺘﺣ ًﺍﺰﺠﺘﺤﻣ\n[allLodgerInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)-&gt;\n\nﻲﻓ [asker_nameDef] ﻮﺴﻓﺎﻨﻣ ﻊﻓﺪﻳ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ\nﻖﺷﺎﻌﻟﺍ ﺮﻳﺮﺤﺗ ﺔﻟﻭﺎﺤﻤﻟ [enemyFaction_name]ـﻟ ﻁﻼﺒﻟﺍ\n[enemyGroupsParagraph] .ﺔﺼﻘﻟﺍ ﻒﺸﻛﻭ</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)-&gt;\n\nﻲﻓ [asker_nameDef] ﻮﺴﻓﺎﻨﻣ ﺰﻔﺘﺳﺍ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ\n[enemyFaction_name] ﻦﻣ ﺪﻳﻮﻧﺎﻜﻴﻣ ﺕﺎﻤﺠﻫ ﻁﻼﺒﻟﺍ\nﻒﺸﻛﻭ ﻖﺷﺎﻌﻟﺍ ﺮﻳﺮﺤﺗ ﺔﻟﻭﺎﺤﻤﻟ\n[enemyGroupsParagraph] .ﺔﺼﻘﻟﺍ</li>
+    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)-&gt;\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==false)-&gt;</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount&gt;=2)-&gt;.ﻚﺗﺪﻋﺎﺴﻣ ﺐﻠﻄﻳ ،[asker_faction_name] ﻦﻣ [asker_nameFull]، [asker_royalTitleInCurrentFaction]\nﻥﻮﻴﻜﻠﻤﻟﺍ ﺭﺎﺛﻵﺍ ﺀﺎﻤﻠﻋ ﺝﺮﺨﺘﺳﺍ\nﺕﺎﺒﺳ ﻮﺒﻗ ﻦﻣ ﺀﺎﻨﺠﺳ [lodgersCount] ًﺍﺮﺧﺆﻣ [asker_nameDef]ـﻟ\n.ﻢﻬﺑﺍﻮﺠﺘﺳﺍ ﻥﻭﻮﻨﻳﻭ ،ﻢﻳﺪﻗ ﻖﻴﻤﻋ\nﻲﺴﻓﺎﻨﻣ ﻦﻋ ﻦﻴﻳﺮﺳ ﺀﺎﻨﺠﺴﻟﺍ ﺀﺎﻘﺑﻹ\nﻢﻫﺯﺎﺠﺘﺣﺍ [asker_nameDef] ﻚﻨﻣ ﺪﻳﺮﻳ ،ﻁﻼﺒﻟﺍ\n[shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6][commonDescEnding] ﺓﺪﻤﻟ</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)-&gt;\n\nﻥﻮﺳﺪﻘﻳ ﺍﻮﻧﺎﻛ [enemyFaction_name] ﻦﻣ [enemyFaction_pawnsPlural] ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ\n.ﺀﺎﻨﺠﺴﻟﺍ ﻪﻨﻣ ﺝﺮﺨﺘﺳﺍ ﻱﺬﻟﺍ ﻮﺒﻘﻟﺍ\nﻱﺃ ﻦﻣ ﻡﺎﻘﺘﻧﻼﻟ ﺕﺍﺭﺎﻏ ﻥﻮﻠﺳﺮﻴﺳ\n[enemyGroupsParagraph] .ﻢﻫﺰﺠﺘﺤﻳ ﺺﺨﺷ</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)-&gt;\n\nﻥﻮﺳﺮﺤﻳ ﺍﻮﻧﺎﻛ [enemyFaction_name] ﻦﻣ [enemyFaction_pawnsPlural] ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ\n.ﺀﺎﻨﺠﺴﻟﺍ ﻪﻨﻣ ﺝﺮﺨﺘﺳﺍ ﻱﺬﻟﺍ ﻮﺒﻘﻟﺍ\nﺓﺩﺭﺎﻄﻤﻟ ﻦﻴﻴﻜﻴﻣ ﻥﻮﻠﺳﺮﻴﺳ\n[enemyGroupsParagraph] .ﻦﻳﺩﻮﻘﻔﻤﻟﺍ ﻦﻴﻤﺋﺎﻨﻟﺍ</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)-&gt;\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==false)-&gt;</li>
+ </Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Guarding for [asker_nameDef]</li>
+    <li>questName(lodgersCount==1)->guarding [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->prisoner [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->the [adjAny] prisoner</li>
+    <li>questName(lodgersCount==1)->one [adjAny] prisoner</li>
+    <li>questName(lodgersCount>=2)->warden for hire</li>
+    <li>questName(lodgersCount>=2)->prison warden</li>
+    <li>questName(lodgersCount>=2)->contract prison</li>
+    <li>questName(lodgersCount>=2)->the wanted prisoners</li>
+    <li>questName(lodgersCount>=2)->the [adjAny] prisoners</li>
+    <li>questName(lodgersCount>=2)->[asker_nameDef]'s prisoners</li>
+    <li>adjAny->[AdjectiveBadass]</li>
+    <li>adjAny->[AdjectiveAngsty]</li>
+    <li>adjAny->[AdjectiveFriendly]</li>
+  -->
+  <Hospitality_Prisoners.questNameRules.rulesStrings>
+    <li>questName-&gt;[asker_nameDef]ـﻟ ﺔﺳﺍﺮﺣ</li>
+    <li>questName(lodgersCount==1)-&gt;[lodgers0_nameDef] ﺔﺳﺍﺮﺣ</li>
+    <li>questName(lodgersCount==1)-&gt;[lodgers0_nameDef] ﻦﻴﺠﺳ</li>
+    <li>questName(lodgersCount==1)-&gt;[adjAny] ﻦﻴﺠﺴﻟﺍ</li>
+    <li>questName(lodgersCount==1)-&gt;ﺪﺣﺍﻭ [adjAny] ﻦﻴﺠﺳ</li>
+    <li>questName(lodgersCount&gt;=2)-&gt;ﺭﺎﺠﻳﻺﻟ ﻥﺎﺠﺳ</li>
+    <li>questName(lodgersCount&gt;=2)-&gt;ﻦﺠﺳ ﺭﻮﻣﺄﻣ</li>
+    <li>questName(lodgersCount&gt;=2)-&gt;ﻱﺪﻗﺎﻌﺗ ﻦﺠﺳ</li>
+    <li>questName(lodgersCount&gt;=2)-&gt;ﻦﻴﺑﻮﻠﻄﻤﻟﺍ ﺀﺎﻨﺠﺴﻟﺍ</li>
+    <li>questName(lodgersCount&gt;=2)-&gt;[adjAny] ﺀﺎﻨﺠﺴﻟﺍ</li>
+    <li>questName(lodgersCount&gt;=2)-&gt;[asker_nameDef] ﺀﺎﻨﺠﺳ</li>
+    <li>adjAny-&gt;[AdjectiveBadass]</li>
+    <li>adjAny-&gt;[AdjectiveAngsty]</li>
+    <li>adjAny-&gt;[AdjectiveFriendly]</li>
+ </Hospitality_Prisoners.questNameRules.rulesStrings>
+  
+</LanguageData>

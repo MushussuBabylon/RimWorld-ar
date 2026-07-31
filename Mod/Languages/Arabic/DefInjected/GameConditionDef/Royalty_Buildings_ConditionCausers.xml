@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: climate adjustment -->
+  <ClimateAdjustment.label>ﺥﺎﻨﻤﻟﺍ ﻞﻳﺪﻌﺗ</ClimateAdjustment.label>
+  <!-- EN: A nearby climate adjuster is shifting the temperature. -->
+  <ClimateAdjustment.description>ﺮﻴﻐﻳ ﺐﻳﺮﻘﻟﺍ ﺥﺎﻨﻤﻟﺍ ﻞﻳﺪﻌﺗ ﺯﺎﻬﺟ\n.ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ</ClimateAdjustment.description>
+  <!-- EN: A climate adjuster machine has begun shifting the temperature. -->
+  <ClimateAdjustment.letterText>ﺮﻴﻴﻐﺘﺑ ﺥﺎﻨﻤﻟﺍ ﻞﻳﺪﻌﺗ ﺯﺎﻬﺟ ﺃﺪﺑ\n.ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ</ClimateAdjustment.letterText>
+  
+  <!-- EN: EMI field -->
+  <EMIField.label>EMI ﻝﺎﺠﻣ</EMIField.label>
+  <!-- EN: An electromagnetic interference dynamo is projecting an EM interference field, disabling electrical devices. -->
+  <EMIField.description>ﻲﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﺶﻳﻮﺸﺘﻟﺍ ﻮﻣﺎﻨﻳﺩ\nﻲﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻛ ﺶﻳﻮﺸﺗ ﻝﺎﺠﻣ ﻖﻠﻄﻳ\n.ﺔﻴﺋﺎﺑﺮﻬﻜﻟﺍ ﺓﺰﻬﺟﻷﺍ ﻞﻄﻌﻳ</EMIField.description>
+  <!-- EN: a distant EMI dynamo will blast [map_definite] with an EMI field, shutting down electrical devices for [gameConditionDuration_duration] -->
+  <EMIField.descriptionFuture>ﻝﺎﺠﻤﺑ [map_definite] ﺪﻴﻌﺑ EMI ﻮﻣﺎﻨﻳﺩ ﺏﺮﻀﻴﺳ\nﺔﻴﺋﺎﺑﺮﻬﻜﻟﺍ ﺓﺰﻬﺟﻷﺍ ًﻼﻄﻌﻣ ،EMI\n[gameConditionDuration_duration] ﺓﺪﻤﻟ</EMIField.descriptionFuture>
+  <!-- EN: The EMI field has disappeared. -->
+  <EMIField.endMessage>.EMI ﻝﺎﺠﻣ ﻰﻔﺘﺧﺍ</EMIField.endMessage>
+  <!-- EN: An EMI field has been generated. It is disabling electrical devices. -->
+  <EMIField.letterText>ﺓﺰﻬﺟﻷﺍ ﻞﻄﻌﻳ ﻪﻧﺇ .EMI ﻝﺎﺠﻣ ﺪﻟﻮﺗ\n.ﺔﻴﺋﺎﺑﺮﻬﻜﻟﺍ</EMIField.letterText>
+  
+  <!-- EN: giant smoke cloud -->
+  <GiantSmokeCloud.label>ﺔﻗﻼﻤﻋ ﻥﺎﺧﺩ ﺔﺑﺎﺤﺳ</GiantSmokeCloud.label>
+  <!-- EN: A nearby smoke spewer is reducing sunlight in this region. -->
+  <GiantSmokeCloud.description>ﺀﻮﺿ ﻞﻠﻘﻳ ﺐﻳﺮﻘﻟﺍ ﻥﺎﺧﺪﻟﺍ ﺚﻓﺎﻧ\n.ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺲﻤﺸﻟﺍ</GiantSmokeCloud.description>
+  <!-- EN: A smoke spewer machine has begun obscuring the sun. -->
+  <GiantSmokeCloud.letterText>ﺐﺠﺤﺑ ﻥﺎﺧﺪﻟﺍ ﺚﻓﺎﻧ ﺔﻟﺁ ﺕﺃﺪﺑ\n.ﺲﻤﺸﻟﺍ</GiantSmokeCloud.letterText>
+  
+  <!-- EN: psychic suppression -->
+  <PsychicSuppression.label>ﻲﺴﻔﻧ ﻊﻤﻗ</PsychicSuppression.label>
+  <!-- EN: A psychic suppression field is affecting {0}s and reducing their consciousness. The effect is modulated by an individual's psychic sensitivity. -->
+  <PsychicSuppression.description>ﻞﻠﻘﻳﻭ {0} ﻰﻠﻋ ﺮﺛﺆﻳ ﻲﺴﻔﻧ ﻊﻤﻗ ﻝﺎﺠﻣ\nﺐﺴﺣ ﺮﻴﺛﺄﺘﻟﺍ ﻞﻳﺪﻌﺗ ﻢﺘﻳ .ﻢﻬﻴﻋﻭ\n.ﺩﺮﻔﻠﻟ ﺔﻴﺴﻔﻨﻟﺍ ﺔﻴﺳﺎﺴﺤﻟﺍ</PsychicSuppression.description>
+  <!-- EN: a psychic suppression wave will reduce the consciousness of all [psychicSuppressorGender]s around [map_definite] for [gameConditionDuration_duration] -->
+  <PsychicSuppression.descriptionFuture>[psychicSuppressorGender] ﻊﻴﻤﺟ ﻲﻋﻭ ﻲﺴﻔﻧ ﻊﻤﻗ ﺔﺟﻮﻣ ﻞﻠﻘﺘﺳ\n[gameConditionDuration_duration] ﺓﺪﻤﻟ [map_definite] ﻝﻮﺣ</PsychicSuppression.descriptionFuture> <!-- Этот текст участвует в процедурной генерации. Символы и функции не работают. Чтобы обойти это, добавлена "м": "женщинаМ" или "мужчинаМ" -->
+  <!-- EN: The psychic suppressor field has dissipated. -->
+  <PsychicSuppression.endMessage>.ﻲﺴﻔﻨﻟﺍ ﻊﻣﺎﻘﻟﺍ ﻝﺎﺠﻣ ﺩﺪﺒﺗ</PsychicSuppression.endMessage>
+  <!-- EN: A psychic suppressor field has begun reducing the consciousness of {0}s across the whole region. The effect is modulated by an individual's psychic sensitivity. -->
+  <PsychicSuppression.letterText>{0} ﻲﻋﻭ ﻞﻴﻠﻘﺘﺑ ﻲﺴﻔﻧ ﻊﻤﻗ ﻝﺎﺠﻣ ﺃﺪﺑ\nﻞﻳﺪﻌﺗ ﻢﺘﻳ .ﺔﻘﻄﻨﻤﻟﺍ ﻞﻣﺎﻛ ﻲﻓ\nﺔﻴﺴﻔﻨﻟﺍ ﺔﻴﺳﺎﺴﺤﻟﺍ ﺐﺴﺣ ﺮﻴﺛﺄﺘﻟﺍ\n.ﺩﺮﻔﻠﻟ</PsychicSuppression.letterText>
+  
+  <!-- EN: sun blocked -->
+  <SunBlocker.label>ﺲﻤﺸﻟﺍ ﺐﺟﺎﺣ</SunBlocker.label>
+  <!-- EN: A nearby sun blocker machine is turning the upper atmosphere opaque, blocking the sun. -->
+  <SunBlocker.description>ﻞﻌﺠﺗ ﺔﺒﻳﺮﻘﻟﺍ ﺲﻤﺸﻟﺍ ﺐﺟﺎﺣ ﺔﻟﺁ\n،ًﺎﻤﺘﻌﻣ ﻱﻮﻠﻌﻟﺍ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ\n.ﺲﻤﺸﻟﺍ ﺔﺒﺟﺎﺣ</SunBlocker.description>
+  <!-- EN: A sun blocker machine has begun blocking the sun. -->
+  <SunBlocker.letterText>ﺐﺠﺤﺑ ﺲﻤﺸﻟﺍ ﺐﺟﺎﺣ ﺔﻟﺁ ﺕﺃﺪﺑ\n.ﺲﻤﺸﻟﺍ</SunBlocker.letterText>
+  
+  <!-- EN: toxic spewer -->
+  <ToxicSpewer.label>ﻡﻮﻤﺴﻟﺍ ﺚﻓﺎﻧ</ToxicSpewer.label>
+  <!-- EN: A nearby toxic spewer is blanketing this whole region with poison. -->
+  <ToxicSpewer.description>ﻩﺬﻫ ﻲﻄﻐﻳ ﺐﻳﺮﻘﻟﺍ ﻡﻮﻤﺴﻟﺍ ﺚﻓﺎﻧ\n.ﻢﺴﻟﺎﺑ ﺎﻬﻠﻤﻛﺄﺑ ﺔﻘﻄﻨﻤﻟﺍ</ToxicSpewer.description>
+  <!-- EN: A toxic spewer machine has begun blanketing the whole region with poison. -->
+  <ToxicSpewer.letterText>ﺔﻴﻄﻐﺘﺑ ﻡﻮﻤﺴﻟﺍ ﺚﻓﺎﻧ ﺔﻟﺁ ﺕﺃﺪﺑ\n.ﻢﺴﻟﺎﺑ ﺔﻘﻄﻨﻤﻟﺍ ﻞﻣﺎﻛ</ToxicSpewer.letterText>
+  
+  <!-- EN: forced weather -->
+  <WeatherController.label>ﻱﺮﺴﻗ ﺲﻘﻃ</WeatherController.label>
+  <!-- EN: A nearby weather controller is forcing the weather into this configuration. -->
+  <WeatherController.description>ﺲﻘﻄﻟﺍ ﺽﺮﻔﻳ ﺐﻳﺮﻘﻟﺍ ﺲﻘﻄﻟﺍ ﻢﻜﺤﺘﻣ\n.ﺔﺌﻴﻬﻟﺍ ﻩﺬﻫ ﻰﻠﻋ</WeatherController.description>
+  <!-- EN: a weather-control system will force the weather around [map_definite] to be [forcedWeather_indefinite] for [gameConditionDuration_duration] -->
+  <WeatherController.descriptionFuture>ﺲﻘﻄﻟﺍ ﺲﻘﻄﻟﺎﺑ ﻢﻜﺤﺘﻟﺍ ﻡﺎﻈﻧ ﺽﺮﻔﻴﺳ\n[gameConditionDuration_duration] ﺓﺪﻤﻟ [forcedWeather_indefinite] ﻥﻮﻜﻴﻟ [map_definite] ﻝﻮﺣ</WeatherController.descriptionFuture>
+  <!-- EN: The weather controller is no longer changing the weather. -->
+  <WeatherController.endMessage>.ﺲﻘﻄﻟﺍ ﺮﻴﻐﻳ ﺲﻘﻄﻟﺍ ﻢﻜﺤﺘﻣ ﺪﻌﻳ ﻢﻟ</WeatherController.endMessage>
+  <!-- EN: A weather controller machine has begun affecting the weather. -->
+  <WeatherController.letterText>ﺮﻴﺛﺄﺘﻟﺎﺑ ﺲﻘﻄﻟﺍ ﻢﻜﺤﺘﻣ ﺔﻟﺁ ﺕﺃﺪﺑ\n.ﺲﻘﻄﻟﺍ ﻰﻠﻋ</WeatherController.letterText>
+  
+</LanguageData>

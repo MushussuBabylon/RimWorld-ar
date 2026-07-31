@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aggressive -->
+  <Aggressive.label>ﻲﺋﺍﺪﻋ</Aggressive.label>
+  <!-- EN: {PAWN_nameDef}'s demeanor has suddenly changed. A menacing grin splits {PAWN_possessive} face.\n\n{PAWN_nameDef} has become hostile. -->
+  <Aggressive.letterDesc>ﺔﻣﺎﺴﺘﺑﺍ .ﺓﺄﺠﻓ {PAWN_nameDef} ﺔﺌﻴﻫ ﺕﺮﻴﻐﺗ\n.{PAWN_possessive}ﻪﺟﻭ ﻖﺸﺗ ﺔﻳﺪﻳﺪﻬﺗ\n\n.ﺎًﻴﺋﺍﺪﻋ {PAWN_nameDef} ﺢﺒﺻﺃ</Aggressive.letterDesc>
+  <!-- EN: {PAWN_nameDef} hostile -->
+  <Aggressive.letterLabel>ﻲﺋﺍﺪﻋ {PAWN_nameDef}</Aggressive.letterLabel>
+  
+  <!-- EN: crumbling mind -->
+  <CrumblingMind.label>ﻉﺍﺪﺘﻣ ﻞﻘﻋ</CrumblingMind.label>
+  
+  <!-- EN: disturbing -->
+  <Disturbing.label>ﻖﻠﻘﻣ</Disturbing.label>
+  
+  <!-- EN: entity jailbreaker -->
+  <EntityJailbreaker.label>ﺕﺎﻧﺎﻴﻜﻟﺍ ﺭﺮﺤﻣ</EntityJailbreaker.label>
+  
+  <!-- EN: leaves -->
+  <Leaves.label>ﺭﺩﺎﻐﻳ</Leaves.label>
+  <!-- EN: {PAWN_nameDef} thanks you for your hospitality, but says that it is time for {PAWN_objective} to move on. -->
+  <Leaves.letterDesc>ﻪﻨﻜﻟ ،ﻚﺘﻓﺎﻴﺿ ﻡﺮﻛ ﻰﻠﻋ {PAWN_nameDef} ﻙﺮﻜﺸﻳ\nﻲﻀﻤﻠﻟ {PAWN_objective}ﻝ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻗ ﻪﻧﺇ ﻝﻮﻘﻳ\n.ﺎًﻣﺪﻗ</Leaves.letterDesc>
+  <!-- EN: {PAWN_nameDef} departure -->
+  <Leaves.letterLabel>{PAWN_nameDef} ﺓﺭﺩﺎﻐﻣ</Leaves.letterLabel>
+  
+  <!-- EN: metalhorror -->
+  <Metalhorror.label>ﻲﻧﺪﻌﻣ ﺐﻋﺭ</Metalhorror.label>
+  
+  <!-- EN: nothing -->
+  <Nothing.label>ﺀﻲﺷ ﻻ</Nothing.label>
+  
+  <!-- EN: organ decay -->
+  <OrganDecay.label>ﺀﺎﻀﻋﻷﺍ ﻞﻛﺂﺗ</OrganDecay.label>
+  
+  <!-- EN: psychic agony -->
+  <PsychicAgony.label>ﻲﺴﻔﻧ ﺏﺍﺬﻋ</PsychicAgony.label>
+  <!-- EN: {PAWN_nameDef} has involuntarily released a wave of psychic suffering! {PAWN_pronoun} tried to prevent it, but was unable to do so.\n\nNearby creatures will experience intense pain. The effects will linger for several days. -->
+  <PsychicAgony.letterDesc>ﻦﻣ ﺔﺟﻮﻣ ﺎًﻳﺩﺍﺭﺇ ﻻ {PAWN_nameDef} ﻖﻠﻃﺃ\nﺎﻬﻌﻨﻣ {PAWN_pronoun} ﻝﻭﺎﺣ !ﻲﺴﻔﻨﻟﺍ ﺏﺍﺬﻌﻟﺍ\n.ﻊﻄﺘﺴﻳ ﻢﻟ ﻪﻨﻜﻟ\n\nﻢﻟﺃ ﻦﻣ ﺔﺒﻳﺮﻘﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻲﻧﺎﻌﺘﺳ\nﺓﺪﻌﻟ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﺮﻤﺘﺴﺘﺳ .ﺪﻳﺪﺷ\n.ﻡﺎﻳﺃ</PsychicAgony.letterDesc>
+  <!-- EN: Psychic agony -->
+  <PsychicAgony.letterLabel>ﻲﺴﻔﻧ ﺏﺍﺬﻋ</PsychicAgony.letterLabel>
+  <!-- EN: {SURGEON_nameDef} detected a faint but painful psychic presence emanating from {PAWN_nameDef} but failed to understand what was causing it. -->
+  <PsychicAgony.surgicalInspectionLetterExtra>ﺎًﺘﻓﺎﺧ ﺎًﻴﺴﻔﻧ ﺍًﺩﻮﺟﻭ {SURGEON_nameDef} ﻒﺸﺘﻛﺍ\nﻞﺸﻓ ﻪﻨﻜﻟ {PAWN_nameDef} ﻦﻣ ﺚﻌﺒﻨﻳ ﺎًﻤﻟﺆﻣ ﻦﻜﻟ\n.ﻪﺒﺒﺳ ﻢﻬﻓ ﻲﻓ</PsychicAgony.surgicalInspectionLetterExtra>
+  
+</LanguageData>

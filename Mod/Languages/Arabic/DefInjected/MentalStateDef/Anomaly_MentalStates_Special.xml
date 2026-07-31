@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: berserk -->
+  <BerserkShort.label>ﺞﺋﺎﻫ</BerserkShort.label>
+  <!-- EN: Mental state: Berserk -->
+  <BerserkShort.baseInspectLine>ﺝﺎﻴﻫ :ﺔﻴﻠﻘﻋ ﺔﻟﺎﺣ</BerserkShort.baseInspectLine>
+  <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
+  <BerserkShort.beginLetter>.ﺝﺎﻴﻬﻟﺎﺑ {0} ﺐﻴﺻﺃ\n\n.[PAWN_pronoun] ﻩﺍﺮﻳ ﺺﺨﺷ ﻱﺃ [PAWN_pronoun] ﻢﺟﺎﻬﻴﺳ</BerserkShort.beginLetter>
+  <!-- EN: {0}'s berserk rage has come to an end. -->
+  <BerserkShort.recoveryMessage>.{0} ﺪﻨﻋ ﺝﺎﻴﻬﻟﺍ ﺔﺑﻮﻧ ﺖﻬﺘﻧﺍ</BerserkShort.recoveryMessage>
+  
+  <!-- EN: cube sculpting -->
+  <CubeSculpting.label>ﺐﻌﻜﻤﻟﺍ ﺖﺤﻧ</CubeSculpting.label>
+  <!-- EN: Mental state: Cube sculpting -->
+  <CubeSculpting.baseInspectLine>ﺐﻌﻜﻤﻟﺍ ﺖﺤﻧ :ﺔﻴﻠﻘﻋ ﺔﻟﺎﺣ</CubeSculpting.baseInspectLine>
+  <!-- EN: {PAWN_nameDef}'s obsession with the cube has caused {PAWN_objective} to fall into a daze. {PAWN_pronoun} is going to build a sculpture to release the pressure growing in {PAWN_possessive} mind. -->
+  <CubeSculpting.beginLetter>ﻲﻓ ﻂﻘﺴﻳ {PAWN_objective} ﻞﻌﺟ ﺐﻌﻜﻤﻟﺎﺑ {PAWN_nameDef} ﺱﻮﻫ\nﻖﻠﻄﻴﻟ ﺔﺗﻮﺤﻨﻣ {PAWN_pronoun} ﻲﻨﺒﻴﺳ .ﻝﻮﻫﺫ\n.{PAWN_possessive}ﻞﻘﻋ ﻲﻓ ﺪﻳﺍﺰﺘﻤﻟﺍ ﻂﻐﻀﻟﺍ</CubeSculpting.beginLetter>
+  <!-- EN: cube obsession -->
+  <CubeSculpting.beginLetterLabel>ﺐﻌﻜﻤﻟﺍ ﺱﻮﻫ</CubeSculpting.beginLetterLabel>
+  <!-- EN: {PAWN_nameDef} has finished {PAWN_possessive} cube structure. -->
+  <CubeSculpting.recoveryMessage>.ﺐﻌﻜﻤﻟﺍ {PAWN_possessive}ﻞﻜﻴﻫ {PAWN_nameDef} ﻰﻬﻧﺃ</CubeSculpting.recoveryMessage>
+  
+  <!-- EN: humanity break -->
+  <HumanityBreak.label>ﻲﻧﺎﺴﻧﺇ ﺭﺎﻴﻬﻧﺍ</HumanityBreak.label>
+  <!-- EN: Mental state: Humanity break -->
+  <HumanityBreak.baseInspectLine>ﻲﻧﺎﺴﻧﺇ ﺭﺎﻴﻬﻧﺍ :ﺔﻴﻠﻘﻋ ﺔﻟﺎﺣ</HumanityBreak.baseInspectLine>
+  <!-- EN: {PAWN_nameDef} has relinquished {PAWN_possessive} remaining ties to humanity and embraced {PAWN_possessive} ideology's worship of the void. {PAWN_possessive} concern for health, family, friendship, and love have been broken.\n\n{PAWN_nameDef} is now inhumanized, and will suffer a breakdown as {PAWN_pronoun} tries to grapple with {PAWN_possessive} new mental alignment. -->
+  <HumanityBreak.beginLetter>ﺔﻴﻘﺒﺘﻤﻟﺍ {PAWN_possessive}ﻂﺑﺍﻭﺭ ﻦﻋ {PAWN_nameDef} ﻰﻠﺨﺗ\nﻍﺍﺮﻔﻟﺍ ﺓﺩﺎﺒﻋ ﻦﻀﺘﺣﺍﻭ ﺔﻴﻧﺎﺴﻧﻹﺎﺑ\n{PAWN_possessive}ﻡﺎﻤﺘﻫﺍ ﻢﻄﺤﺗ .ﻪﺘﻴﺟﻮﻟﻮﻳﺪﻳﺃ ﻲﻓ\nﺔﻗﺍﺪﺼﻟﺍﻭ ﺔﻠﺋﺎﻌﻟﺍﻭ ﺔﺤﺼﻟﺎﺑ\n.ﺐﺤﻟﺍﻭ\n\nﻲﻧﺎﻌﻴﺳﻭ ،ﻲﻧﺎﺴﻧﺇ ﺮﻴﻏ ﻥﻵﺍ {PAWN_nameDef} ﺢﺒﺻﺃ\n{PAWN_pronoun} ﻝﻭﺎﺤﻳ ﺎﻤﻨﻴﺑ ﺭﺎﻴﻬﻧﺍ ﻦﻣ\nﻲﻠﻘﻌﻟﺍ ﻪﻬﺟﻮﺗ ﻊﻣ ﺢﻟﺎﺼﺘﻟﺍ\n.ﺪﻳﺪﺠﻟﺍ</HumanityBreak.beginLetter>
+  
+  <!-- EN: manhunter -->
+  <ManhunterBloodRain.label>ﺮﺸﺒﻟﺍ ﺪﺋﺎﺻ</ManhunterBloodRain.label>
+  <!-- EN: Maddened: Manhunter -->
+  <ManhunterBloodRain.baseInspectLine>ﺮﺸﺒﻟﺍ ﺪﺋﺎﺻ :ﺝﺎﺘﻬﻣ</ManhunterBloodRain.baseInspectLine>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <ManhunterBloodRain.recoveryMessage>.ﺮﺸﺒﻟﺍ ﺩﺎﻴﻄﺻﻻ {0} ﺓﻮﻬﺷ ﺖﻬﺘﻧﺍ</ManhunterBloodRain.recoveryMessage>
+  
+</LanguageData>

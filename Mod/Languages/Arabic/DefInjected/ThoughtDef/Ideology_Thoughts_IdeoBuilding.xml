@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_IdeoDisrespectedBuilding, null. Label: {BUILDING}. Description: {BUILDING} -->
+  <!-- EN: {BUILDING_labelCap} disrespected -->
+  <IdeoBuildingDisrespected.stages.disrespected.label>ﻥﺎﻬُﻣ {BUILDING_labelCap}</IdeoBuildingDisrespected.stages.disrespected.label>
+  <!-- EN: We have {BUILDING_labelIndef}, but it needs to be placed in a room that satisfies the proper requirements. -->
+  <IdeoBuildingDisrespected.stages.disrespected.description>ﺔﻓﺮﻏ ﻲﻓ ﻪﻌﺿﻭ ﺐﺠﻳ ﻦﻜﻟ ،{BUILDING_labelIndef} ﺎﻨﻳﺪﻟ\n.ﺔﺒﺳﺎﻨﻤﻟﺍ ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﻲﺒﻠﺗ</IdeoBuildingDisrespected.stages.disrespected.description>
+  
+  <!-- Thought_IdeoMissingBuilding, null. Label: {BUILDING}. Description: {BUILDING} -->
+  <!-- EN: Missing {BUILDING_label} -->
+  <IdeoBuildingMissing.stages.Missing.label>ﺩﻮﻘﻔﻣ {BUILDING_label}</IdeoBuildingMissing.stages.Missing.label>
+  <!-- EN: We must have {BUILDING_labelIndef}. -->
+  <IdeoBuildingMissing.stages.Missing.description>.{BUILDING_labelIndef} ﺎﻨﻳﺪﻟ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ</IdeoBuildingMissing.stages.Missing.description>
+  
+</LanguageData>

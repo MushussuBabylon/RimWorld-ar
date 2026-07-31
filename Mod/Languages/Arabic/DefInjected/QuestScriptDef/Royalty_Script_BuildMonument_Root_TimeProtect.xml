@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task.\n\nAfter completion, you'll have to protect the monument for [haveToProtectForTicks_duration]. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription]\n\nYou'll receive the rewards when you finish construction.</li>
+  -->
+  <BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
+    <li>commonEnding-&gt;ﻩﺬﻫ ﺐﻠﻄﺘﻴﺳﻭ [monumentSize] ﻢﺠﺤﺑ ﺐﺼﻨﻟﺍ\n:([monumentRequiredResourcesMarketValue_money] ﺔﻴﻟﺎﻤﺟﻹﺍ ﺔﻤﻴﻘﻟﺍ) ﺩﺭﺍﻮﻤﻟﺍ\n\n[monumentRequiredResources]\n\nﻝﻮﺒﻗ ﻦﻣ [constructionTimeoutTicks_duration] ﻝﻼﺧ ﺀﺎﻨﺒﻟﺍ ﻝﺎﻤﻛﺇ ﺐﺠﻳ\n.ﺔﻤﻬﻤﻟﺍ\n\nﺐﺼﻨﻟﺍ ﺔﻳﺎﻤﺤﻟ ﺮﻄﻀﺘﺳ ،ﻝﺎﻤﻛﻹﺍ ﺪﻌﺑ\nﺔﻌﻄﻗ ﻱﺃ ﺮﻴﻣﺪﺗ ﻢﺗ ﺍﺫﺇ .[haveToProtectForTicks_duration] ﺓﺪﻤﻟ\nﺙﺪﺤﻴﺳﻭ [asker2] ﺫﺎﻔﻧﺇ ﻡﺎﻈﻧ ﻂﺸﻨﻴﺳ ،ﻪﻨﻣ\n[threatDescription]\n\nﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ ﺪﻨﻋ ﺕﺂﻓﺎﻜﻤﻟﺍ ﻰﻘﻠﺘﺘﺳ\n.ﺀﺎﻨﺒﻟﺍ</li>
+ </BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
+  <!-- EN: Monument completed -->
+  <BuildMonument_TimeProtect.LetterLabelMonumentComplete.slateRef>ﺐﺼﻨﻟﺍ ﻝﺎﻤﻛﺇ ﻢﺗ</BuildMonument_TimeProtect.LetterLabelMonumentComplete.slateRef>
+  <!-- EN: You completed construction of the monument.\n\nYou must now protect the monument for [haveToProtectForTicks_duration]. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription] -->
+  <BuildMonument_TimeProtect.LetterTextMonumentComplete.slateRef>.ﺐﺼﻨﻟﺍ ﺀﺎﻨﺑ ﺖﻠﻤﻛﺃ ﺪﻘﻟ\n\n.[haveToProtectForTicks_duration] ﺓﺪﻤﻟ ﺐﺼﻨﻟﺍ ﺔﻳﺎﻤﺣ ﻥﻵﺍ ﺐﺠﻳ\n،ﻪﻨﻣ ﺔﻌﻄﻗ ﻱﺃ ﺮﻴﻣﺪﺗ ﻢﺗ ﺍﺫﺇ\n[threatDescription] ﺙﺪﺤﻴﺳﻭ [asker2] ﺫﺎﻔﻧﺇ ﻡﺎﻈﻧ ﻂﺸﻨﻴﺳ</BuildMonument_TimeProtect.LetterTextMonumentComplete.slateRef>
+  
+</LanguageData>

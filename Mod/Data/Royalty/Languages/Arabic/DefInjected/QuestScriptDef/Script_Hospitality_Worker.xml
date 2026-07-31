@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [lodgersLabelSingOrPlural] arrived -->
+  <Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>ﻞﺻﻭ [lodgersLabelSingOrPlural]</Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>
+  <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect [lodgersObjective] until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
+  <Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>ﻙﻮﻜﻤﻟﺍ ﻞﺼﻳ ﻰﺘﺣ [lodgersObjective]ـﻤﺣﺍ .ﻞﺻﻭ [lodgersLabelSingOrPluralDef] [lodgersHasHave]\n[shuttleDelayTicks_duration].[helpersArrivalLetterEnd] ﻝﻼﺧ</Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>
+  <!-- EN: Should depart on shuttle -->
+  <Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>ﻙﻮﻜﻤﻟﺎﺑ ﺓﺭﺩﺎﻐﻤﻟﺍ ﺐﺠﻳ</Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>
+  <!-- EN: Shuttle arrived -->
+  <Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>ﻙﻮﻜﻤﻟﺍ ﻝﻮﺻﻭ</Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>
+  <!-- EN: The shuttle has arrived to collect [lodgersLabelSingOrPluralDef]. Be sure to have these people on the shuttle before it leaves in [shuttleLeaveDelayTicks_duration]:\n\n[lodgers] -->
+  <Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>ﻦﻣ ﺪﻛﺄﺗ .[lodgersLabelSingOrPluralDef] ﺏﺎﺤﻄﺻﻻ ﻙﻮﻜﻤﻟﺍ ﻞﺻﻭ\nﻙﻮﻜﻤﻟﺍ ﻰﻠﻋ ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ ﺩﻮﺟﻭ\n:[shuttleLeaveDelayTicks_duration] ﻝﻼﺧ ﺭﺩﺎﻐﻳ ﻥﺃ ﻞﺒﻗ\n\n[lodgers]</Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>
+  <!-- EN: Guest died: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>{SUBJECT_definite} :ﻒﻴﻀﻟﺍ ﺓﺎﻓﻭ</Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, has died. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextGuestDied.slateRef>،ﻪﺘﻳﺎﻤﺤﺑ ﺎًﻔﻠﻜﻣ ﺖﻨُﻛ ﻱﺬﻟﺍ ،[letterSubject]\n[remainingWillNowLeave][failLetterEndingCommon] .ﻲﻓﻮﺗ ﺪﻗ</Hospitality_Util_Worker.LetterTextGuestDied.slateRef>
+  <!-- EN: Guest captured: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>{SUBJECT_definite} :ﻒﻴﻀﻟﺍ ﺮﺳﺃ</Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingQuest] -->
+  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>،ﻪﺘﻳﺎﻤﺤﺑ ﺎًﻔﻠﻜﻣ ﺖﻨُﻛ ﻱﺬﻟﺍ ،[letterSubject]\n[remainingWillNowLeave][failLetterEndingQuest] .ﻪﻴﻠﻋ ﺾﺒﻘﻟﺍ ﻲﻘﻟُﺃ ﺪﻗ</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
+  <!-- EN: Prisoner recruited: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>{SUBJECT_definite} :ﻦﻴﺠﺴﻟﺍ ﺪﻴﻨﺠﺗ</Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>
+  <!-- EN: You have recruited {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>ﺎًﻔﻠﻜﻣ ﺖﻨُﻛ ﻱﺬﻟﺍ ،{SUBJECT_definite} ﺕﺪّﻨﺟ ﺪﻘﻟ\n[remainingWillNowLeave][failLetterEndingCommon] .ﻪﺘﺳﺍﺮﺤﺑ</Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>
+  <!-- EN: Prisoner enslaved: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LabelLabelPrisonerEnslaved.slateRef>{SUBJECT_definite} :ﻦﻴﺠﺴﻟﺍ ﺩﺎﺒﻌﺘﺳﺍ</Hospitality_Util_Worker.LabelLabelPrisonerEnslaved.slateRef>
+  <!-- EN: You have enslaved {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LabelTextPrisonerEnslaved.slateRef>ﺖﻨُﻛ ﻱﺬﻟﺍ ،{SUBJECT_definite} ﺕﺪﺒﻌﺘﺳﺍ ﺪﻘﻟ\n[remainingWillNowLeave][failLetterEndingCommon] .ﻪﺘﺳﺍﺮﺤﺑ ﺎًﻔﻠﻜﻣ</Hospitality_Util_Worker.LabelTextPrisonerEnslaved.slateRef>
+  <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>{SUBJECT_definite} :ﺎﻬﺑ ﺡﺮﺼﻣ ﺮﻴﻏ ﺔﺣﺍﺮﺟ</Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>
+  <!-- EN: Unauthorized, violating surgery has been performed on [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>ﺎﻬﺑ ﺡﺮﺼﻣ ﺮﻴﻏ ﺔﺣﺍﺮﺟ ﺖﻳﺮﺟُﺃ\n[letterSubject]. [remainingWillNowLeave][failLetterEndingCommon] ﻰﻠﻋ ﺔﻔﻟﺎﺨﻣﻭ</Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>
+  <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>{SUBJECT_definite} :ﻡﺮﻴﺟﻮﻨﻳﺯ ﺹﺎﺼﺘﻣﺍ</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>،ﻪﺘﻳﺎﻤﺤﺑ ﺎًﻔﻠﻜﻣ ﺖﻨُﻛ ﻱﺬﻟﺍ ،{SUBJECT_definite}\n{SUBJECT_possessive}ـﻣﺮﻴﺟﻮﻨﻳﺯ ﺹﺎﺼﺘﻣﺍ ﻢﺗ ﺪﻗ\n[remainingWillNowLeave][failLetterEndingCommon] .ﺓﻮﻘﻟﺎﺑ</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>{SUBJECT_definite} :ﻒﻴﻀﻟﺍ ﺪﻘُﻓ</Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>،ﻪﺘﻳﺎﻤﺤﺑ ﺎًﻔﻠﻜﻣ ﺖﻨُﻛ ﻱﺬﻟﺍ ،[letterSubject]\n[remainingWillNowLeave][failLetterEndingCommon] .ﻰﻔﺘﺧﺍ ﺪﻗ</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>{SUBJECT_definite} :ﻒﻴﻀﻟﺍ ﺪﻘُﻓ</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>،ﻪﺘﻳﺎﻤﺤﺑ ﺎًﻔﻠﻜﻣ ﺖﻨُﻛ ﻱﺬﻟﺍ ،[letterSubject]\n[remainingWillNowLeave][failLetterEndingCommon] .ﻰﻔﺘﺧﺍ ﺪﻗ</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>{SUBJECT_definite} :ﻒﻴﻀﻟﺍ ﺪﻘُﻓ</Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, has run wild. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>،ﻪﺘﻳﺎﻤﺤﺑ ﺎًﻔﻠﻜﻣ ﺖﻨُﻛ ﻱﺬﻟﺍ ،[letterSubject]\n[remainingWillNowLeave][failLetterEndingCommon] .ﺶﺣﻮﺗ ﺪﻗ</Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>{SUBJECT_definite} :ﻒﻴﻀﻟﺍ ﺪﻘُﻓ</Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>،ﻪﺘﻳﺎﻤﺤﺑ ﺎًﻔﻠﻜﻣ ﺖﻨُﻛ ﻱﺬﻟﺍ ،[letterSubject]\n[remainingWillNowLeave][failLetterEndingCommon] .ﻯﺮﺧﺃ ﺔﻠﻴﺼﻓ ﻰﻟﺇ ﻢﻀﻧﺍ ﺪﻗ</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>[resolvedQuestName] :ﺔﻤﻬﻤﻟﺍ ﻞﺸﻓ</Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>
+  <!-- EN: [asker_faction_name] are now hostile towards you. [failLetterEndingQuest] -->
+  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>[failLetterEndingQuest] .ﻚﻟ ﺔﻳﺩﺎﻌﻣ ﻥﻵﺍ ﺖﺤﺒﺻﺃ [asker_faction_name]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
+  <!-- EN: Shuttle destroyed -->
+  <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>ﻙﻮﻜﻤﻟﺍ ﺮﻴﻣﺪﺗ</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
+  <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>ﺪﻗ [lodgersLabelSingOrPluralDef] ﺏﺎﺤﻄﺻﻻ ﻞﺳﺭُﺃ ﻱﺬﻟﺍ ﻙﻮﻜﻤﻟﺍ\nﻰﻠﻋ ﺍًﺮﻴﺳ ﻥﻵﺍ ﺭﺩﺎﻐﻴﺳ [lodgersLabelSingOrPluralDef] .ﺮّﻣُﺩ\n[failLetterEndingCommon] .ﻡﺍﺪﻗﻷﺍ</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Shuttle left behind -->
+  <Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>ﻙﻭﺮﺘﻣ ﻙﻮﻜﻣ</Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>
+  <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been left behind. [lodgersLabelSingOrPluralDef] will now leave on foot. -->
+  <Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>ﺪﻗ [lodgersLabelSingOrPluralDef] ﺏﺎﺤﻄﺻﻻ ﻞﺳﺭُﺃ ﻱﺬﻟﺍ ﻙﻮﻜﻤﻟﺍ\nﻰﻠﻋ ﺍًﺮﻴﺳ ﻥﻵﺍ ﺭﺩﺎﻐﻴﺳ [lodgersLabelSingOrPluralDef] .ﻙﺮُﺗ\n.ﻡﺍﺪﻗﻷﺍ</Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>
+  <!-- EN: Quest completed -->
+  <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>ﺔﻤﻬﻤﻟﺍ ﻝﺎﻤﺘﻛﺍ</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
+  <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] said [lodgersPronoun] [lodgersWasWere] willing to reward quality accommodation. The average mood of [lodgersLabelSingOrPluralDef] was {AVERAGEMOOD} during [theirHisHer] stay, so your goodwill with [asker_faction_name] has increased by {GOODWILL} -->
+  <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>!ﺡﺎﺠﻨﺑ '[resolvedQuestName]' ﺔﻤﻬﻤﻟﺍ ﺖﻠﻤﻛﺃ ﺪﻘﻟ\n\nﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ [lodgersWasWere] ﻢﻬﻧﺃ [lodgersLabelSingOrPluralDef] ﺮﻛﺫ\nﻥﺎﻛ .ﺓﺪﻴﺠﻟﺍ ﺔﻣﺎﻗﻹﺍ ﺓﺄﻓﺎﻜﻤﻟ\n،[theirHisHer]ـﺘﻣﺎﻗﺇ ﻝﻼﺧ [lodgersLabelSingOrPluralDef] {AVERAGEMOOD} ﺝﺍﺰﻣ ﻂﺳﻮﺘﻣ\n{GOODWILL} ﺭﺍﺪﻘﻤﺑ [asker_faction_name] ﻯﺪﻟ ﻚﺘﻌﻤﺳ ﺕﺩﺍﺯ ﺍﺬﻟ</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
+  <!-- EN: Quest completed -->
+  <Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>ﺔﻤﻬﻤﻟﺍ ﻝﺎﻤﺘﻛﺍ</Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>
+  <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\nWhile [lodgersLabelSingOrPluralDef] [lodgersWasWere] willing to reward quality accommodation, [theirHisHer] average mood was only {AVERAGEMOOD} during [theirHisHer] stay. You will receive no faction goodwill reward. -->
+  <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>!ﺡﺎﺠﻨﺑ '[resolvedQuestName]' ﺔﻤﻬﻤﻟﺍ ﺖﻠﻤﻛﺃ ﺪﻘﻟ\n\nﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ [lodgersLabelSingOrPluralDef] [lodgersWasWere] ﻥﺎﻛ ﺎﻤﻨﻴﺑ\nﻥﺎﻛ ،ﺓﺪﻴﺠﻟﺍ ﺔﻣﺎﻗﻹﺍ ﺓﺄﻓﺎﻜﻤﻟ\nﻝﻼﺧ ﻂﻘﻓ [theirHisHer] {AVERAGEMOOD}ـﺟﺍﺰﻣ ﻂﺳﻮﺘﻣ\nﺓﺄﻓﺎﻜﻣ ﻰﻠﻋ ﻞﺼﺤﺗ ﻦﻟ .[theirHisHer]ـﺘﻣﺎﻗﺇ\n.ﺔﻠﻴﺼﻔﻟﺍ ﺔﻌﻤﺳ</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>[resolvedQuestName] :ﺔﻤﻬﻤﻟﺍ ﻞﺸﻓ</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
+  <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>ﺪﻗ [lodgersLabelSingOrPluralDef] ﺏﺎﺤﻄﺻﻻ ﻞﺳﺭُﺃ ﻱﺬﻟﺍ ﻙﻮﻜﻤﻟﺍ\nﻰﻠﻋ ﺍًﺮﻴﺳ ﻥﻵﺍ ﺭﺩﺎﻐﻴﺳ [lodgersLabelSingOrPluralDef] .ﺭﺩﺎﻏ\n[failLetterEndingCommon] .ﻡﺍﺪﻗﻷﺍ</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
+  
+  <!-- EN: Shuttle destroyed -->
+  <Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>ﻙﻮﻜﻤﻟﺍ ﺮﻴﻣﺪﺗ</Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>
+  <!-- EN: The shuttle sent to drop off [pawnsLabelDef] has been destroyed. You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have changed by [goodwillChangeOnShuttleDestroyed]. -->
+  <Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>ﺪﻗ [pawnsLabelDef] ﻝﺍﺰﻧﻹ ﻞﺳﺭُﺃ ﻱﺬﻟﺍ ﻙﻮﻜﻤﻟﺍ\n.'[resolvedQuestName]' ﺔﻤﻬﻣ ﻲﻓ ﺖﻠﺸﻓ ﺪﻘﻟ .ﺮّﻣُﺩ\n\n.[goodwillChangeOnShuttleDestroyed] ﺭﺍﺪﻘﻤﺑ ﺕﺮﻴﻐﺗ [asker_faction_name] ﻊﻣ ﻚﺘﻗﻼﻋ</Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>
+  
+</LanguageData>

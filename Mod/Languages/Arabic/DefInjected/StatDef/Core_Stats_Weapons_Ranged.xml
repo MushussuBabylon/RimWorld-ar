@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Accuracy (long) -->
+  <AccuracyLong.label>(ﻯﺪﻤﻟﺍ ﺪﻴﻌﺑ) ﺔﻗﺪﻟﺍ</AccuracyLong.label>
+  <!-- EN: The weapon's accuracy at a distance of 40 cells or more.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyLong.description>ﻭﺃ ﺔﻴﻠﺧ 40 ﺔﻓﺎﺴﻣ ﻰﻠﻋ ﺡﻼﺴﻟﺍ ﺔﻗﺩ\n.ﺮﺜﻛﺃ\n\nﺔﻴﻠﻌﻔﻟﺍ ﺔﻘﻠﻄﻟﺍ ﺔﺑﺎﺻﺇ ﺔﺻﺮﻓ\n.ﻯﺮﺧﺃ ﻞﻣﺍﻮﻌﺑ ﺎًﻀﻳﺃ ﺮﺛﺄﺘﺘﺳ</AccuracyLong.description>
+  
+  <!-- EN: Accuracy (medium) -->
+  <AccuracyMedium.label>(ﻯﺪﻤﻟﺍ ﻂﺳﻮﺘﻣ) ﺔﻗﺪﻟﺍ</AccuracyMedium.label>
+  <!-- EN: The weapon's accuracy at a distance of 25 cells.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyMedium.description>.ﺔﻴﻠﺧ 25 ﺔﻓﺎﺴﻣ ﻰﻠﻋ ﺡﻼﺴﻟﺍ ﺔﻗﺩ\n\nﺔﻴﻠﻌﻔﻟﺍ ﺔﻘﻠﻄﻟﺍ ﺔﺑﺎﺻﺇ ﺔﺻﺮﻓ\n.ﻯﺮﺧﺃ ﻞﻣﺍﻮﻌﺑ ﺎًﻀﻳﺃ ﺮﺛﺄﺘﺘﺳ</AccuracyMedium.description>
+  
+  <!-- EN: Accuracy (short) -->
+  <AccuracyShort.label>(ﻯﺪﻤﻟﺍ ﺮﻴﺼﻗ) ﺔﻗﺪﻟﺍ</AccuracyShort.label>
+  <!-- EN: The weapon's accuracy at a distance of 12 cells.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyShort.description>.ﺔﻴﻠﺧ 12 ﺔﻓﺎﺴﻣ ﻰﻠﻋ ﺡﻼﺴﻟﺍ ﺔﻗﺩ\n\nﺔﻴﻠﻌﻔﻟﺍ ﺔﻘﻠﻄﻟﺍ ﺔﺑﺎﺻﺇ ﺔﺻﺮﻓ\n.ﻯﺮﺧﺃ ﻞﻣﺍﻮﻌﺑ ﺎًﻀﻳﺃ ﺮﺛﺄﺘﺘﺳ</AccuracyShort.description>
+  
+  <!-- EN: Accuracy (close) -->
+  <AccuracyTouch.label>(ﺍًﺪﺟ ﺐﻳﺮﻗ) ﺔﻗﺪﻟﺍ</AccuracyTouch.label>
+  <!-- EN: The weapon's accuracy at a distance of 3 cells or less.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyTouch.description>ﻭﺃ ﺎﻳﻼﺧ 3 ﺔﻓﺎﺴﻣ ﻰﻠﻋ ﺡﻼﺴﻟﺍ ﺔﻗﺩ\n.ﻞﻗﺃ\n\nﺔﻴﻠﻌﻔﻟﺍ ﺔﻘﻠﻄﻟﺍ ﺔﺑﺎﺻﺇ ﺔﺻﺮﻓ\n.ﻯﺮﺧﺃ ﻞﻣﺍﻮﻌﺑ ﺎًﻀﻳﺃ ﺮﺛﺄﺘﺘﺳ</AccuracyTouch.description>
+  
+  <!-- EN: armor penetration multiplier -->
+  <RangedWeapon_ArmorPenetrationMultiplier.label>ﻉﻭﺭﺪﻟﺍ ﻕﺍﺮﺘﺧﺍ ﻒﻋﺎﻀﻣ</RangedWeapon_ArmorPenetrationMultiplier.label>
+  <!-- EN: A multiplier applied to armor penetration. -->
+  <RangedWeapon_ArmorPenetrationMultiplier.description>.ﻉﻭﺭﺪﻟﺍ ﻕﺍﺮﺘﺧﺍ ﻰﻠﻋ ﻖﺒﻄﻳ ﻒﻋﺎﻀﻣ</RangedWeapon_ArmorPenetrationMultiplier.description>
+  
+  <!-- EN: ranged cooldown -->
+  <RangedWeapon_Cooldown.label>ﻯﺪﻤﻟﺍ ﺪﻴﻌﺒﻟﺍ ﺡﻼﺴﻟﺍ ﺔﻠﻬﻣ</RangedWeapon_Cooldown.label>
+  <!-- EN: How long it takes to recover after firing this weapon. -->
+  <RangedWeapon_Cooldown.description>ﺪﻌﺑ ﻲﻓﺎﻌﺘﻟﺍ ﻪﻗﺮﻐﺘﺴﻳ ﻱﺬﻟﺍ ﺖﻗﻮﻟﺍ\n.ﺡﻼﺴﻟﺍ ﺍﺬﻫ ﻕﻼﻃﺇ</RangedWeapon_Cooldown.description>
+  <!-- EN: {0} s -->
+  <RangedWeapon_Cooldown.formatString>ﺔﻴﻧﺎﺛ {0}</RangedWeapon_Cooldown.formatString>
+  
+  <!-- EN: damage multiplier -->
+  <RangedWeapon_DamageMultiplier.label>ﺭﺮﻀﻟﺍ ﻒﻋﺎﻀﻣ</RangedWeapon_DamageMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's damage. -->
+  <RangedWeapon_DamageMultiplier.description>.ﺡﻼﺴﻟﺍ ﺍﺬﻫ ﺭﺮﺿ ﻰﻠﻋ ﻖﺒﻄﻳ ﻒﻋﺎﻀﻣ</RangedWeapon_DamageMultiplier.description>
+  
+  <!-- EN: range multiplier -->
+  <RangedWeapon_RangeMultiplier.label>ﻯﺪﻤﻟﺍ ﻒﻋﺎﻀﻣ</RangedWeapon_RangeMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's range. -->
+  <RangedWeapon_RangeMultiplier.description>.ﺡﻼﺴﻟﺍ ﺍﺬﻫ ﻯﺪﻣ ﻰﻠﻋ ﻖﺒﻄﻳ ﻒﻋﺎﻀﻣ</RangedWeapon_RangeMultiplier.description>
+  
+  <!-- EN: aiming time multiplier -->
+  <RangedWeapon_WarmupMultiplier.label>ﺐﻳﻮﺼﺘﻟﺍ ﺖﻗﻭ ﻒﻋﺎﻀﻣ</RangedWeapon_WarmupMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's aiming time. -->
+  <RangedWeapon_WarmupMultiplier.description>ﺍﺬﻫ ﺐﻳﻮﺼﺗ ﺖﻗﻭ ﻰﻠﻋ ﻖﺒﻄﻳ ﻒﻋﺎﻀﻣ\n.ﺡﻼﺴﻟﺍ</RangedWeapon_WarmupMultiplier.description>
+  
+</LanguageData>

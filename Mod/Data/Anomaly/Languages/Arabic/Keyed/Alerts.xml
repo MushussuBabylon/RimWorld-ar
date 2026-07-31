@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Dangerous activity levels -->
+  <ActivityMultipleDangerous>ﺓﺮﻴﻄﺧ ﻁﺎﺸﻧ ﺕﺎﻳﻮﺘﺴﻣ</ActivityMultipleDangerous>
+  <!-- EN: These entities are at dangerously high activity levels -->
+  <ActivityDangerousDesc>ﻁﺎﺸﻧ ﺕﺎﻳﻮﺘﺴﻣ ﻲﻓ ﺕﺎﻧﺎﻴﻜﻟﺍ ﻩﺬﻫ\nﺮﻴﻄﺧ ﻞﻜﺸﺑ ﺔﻴﻟﺎﻋ</ActivityDangerousDesc>  
+  <!-- EN: When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel. -->
+  <ActivityDangerousDescAppended>،ﻁﺎﺸﻧ %100 ﻰﻟﺇ ﻥﺎﻴﻛ ﻞﺼﻳ ﺎﻣﺪﻨﻋ\n.ًﺍﺮﻴﻄﺧ ﺢﺒﺼﻴﺳ\n\n،ﺕﺎﻧﺎﻴﻜﻟﺍ ﻩﺬﻫ ﻊﻤﻘﻟ ﻚﻧﺎﺠﺳ ﻞﺳﺭﺃ\nﻲﺋﺎﻘﻠﺘﻟﺍ ﻊﻤﻘﻟﺍ ﻞّﻌﻓ ﻭﺃ\n.ﻥﺎﻴﻜﻟﺍ ﻁﺎﺸﻧ ﺔﺣﻮﻟ ﻡﺍﺪﺨﺘﺳﺎﺑ</ActivityDangerousDescAppended>
+
+  <!-- EN: Need anomaly project -->
+  <NeedAnomalyProject>ﺫﻭﺬﺷ ﻉﻭﺮﺸﻣ ﺝﺎﺘﺤﺗ</NeedAnomalyProject>
+  <!-- EN: You have an entity marked for study but don't have a matching anomaly research project selected: -->
+  <NeedAnomalyProjectDesc>ﺲﻴﻟ ﻦﻜﻟ ﺔﺳﺍﺭﺪﻠﻟ ﻢﻠﻌﻣ ﻥﺎﻴﻛ ﻚﻳﺪﻟ\nﻖﺑﺎﻄﻣ ﺫﻭﺬﺷ ﺚﺤﺑ ﻉﻭﺮﺸﻣ ﻚﻳﺪﻟ\n:ﺩﺪﺤﻣ</NeedAnomalyProjectDesc>
+  <!-- EN: Need {NAME} anomaly research project -->
+  <NeedAnomalyProjectDescLine>{NAME} ﺫﻭﺬﺷ ﺚﺤﺑ ﻉﻭﺮﺸﻣ ﺝﺎﺘﺤﺗ</NeedAnomalyProjectDescLine>
+  <!-- EN: Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.) -->
+  <NeedAnomalyProjectDescAppended>ًﺎﻋﻭﺮﺸﻣ ﺮﺘﺧﺍﻭ ﺚﺤﺒﻟﺍ ﺔﻤﺋﺎﻗ ﺢﺘﻓﺍ\n.ﺫﻭﺬﺸﻟﺍ ﺐﻳﻮﺒﺗ ﻲﻓ\n\nﻲﺳﺎﺳﺃ ﺚﺤﺑ ﻉﻭﺮﺸﻣ ﺪﻳﺪﺤﺗ ﻚﻨﻜﻤﻳ\n.ﺖﻗﻮﻟﺍ ﺲﻔﻧ ﻲﻓ ﻡﺪﻘﺘﻣﻭ\n\n(.ﺚﺤﺒﻟﺍ ﺔﻤﺋﺎﻗ ﺢﺘﻔﻟ ﺮﻘﻧﺍ)</NeedAnomalyProjectDescAppended>
+
+  <!-- EN: Visitor ignored -->
+  <CreepJoinerTimeout>ﺮﺋﺍﺰﻟﺍ ﻞﻫﺎﺠﺗ</CreepJoinerTimeout>
+  <!-- EN: The following visitors feel ignored and are becoming increasingly upset -->
+  <CreepJoinerTimeoutDesc>ﻞﻫﺎﺠﺘﻟﺎﺑ ﻥﻭﺮﻌﺸﻳ ﻥﻮﻟﺎﺘﻟﺍ ﺭﺍﻭﺰﻟﺍ\nﻢﻬﺟﺎﻋﺰﻧﺍ ﺩﺍﺩﺰﻳﻭ</CreepJoinerTimeoutDesc>
+  <!-- EN: Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored. -->
+  <CreepJoinerTimeoutDescAppended>ﺱﻭﺎﻤﻟﺍ ﺭﺰﺑ ﺮﻘﻧﺍﻭ ًﺍﺮﻤﻌﺘﺴﻣ ﺮﺘﺧﺍ\n.ﺮﺋﺍﺰﻟﺍ ﻰﻠﻋ ﻦﻤﻳﻷﺍ\n\n.ﻞﻫﺎﺠﺘﻟﺍ ﻥﻮﺒﺤﻳ ﻻ ...ﺔﻋﺮﺴﺑ ﻙﺮﺤﺗ</CreepJoinerTimeoutDescAppended>
+
+  <!-- EN: Undercave unstable -->
+  <Alert_UndercaveUnstable>ﺮﻘﺘﺴﻣ ﺮﻴﻏ ﻲﻠﻔﺴﻟﺍ ﻒﻬﻜﻟﺍ</Alert_UndercaveUnstable>
+  <!-- EN: The undercave has become unstable and will collapse soon.\n\nGet your colonists out before it's too late. -->
+  <Alert_UndercaveUnstableDesc>ﺮﻘﺘﺴﻣ ﺮﻴﻏ ﻲﻠﻔﺴﻟﺍ ﻒﻬﻜﻟﺍ ﺢﺒﺻﺃ\n.ًﺎﺒﻳﺮﻗ ﺭﺎﻬﻨﻴﺳﻭ\n\n.ﻥﺍﻭﻷﺍ ﺕﺍﻮﻓ ﻞﺒﻗ ﻚﻳﺮﻤﻌﺘﺴﻣ ﺝﺮﺧﺃ</Alert_UndercaveUnstableDesc>
+
+  <!-- EN: Cultist psychic ritual -->
+  <Alert_CultistPsychicRitual>ﻲﻔﺋﺎﻃ ﻲﺴﻔﻧ ﺲﻘﻃ</Alert_CultistPsychicRitual>
+  <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
+  <Alert_CultistPsychicRitualDesc>ﻢﻟ ﺍﺫﺇ .{RITUAL_definite} ﺲﻘﻃ ﺀﺍﺩﺃ ﻲﻓ {INVOKER_kindDef} {INVOKER_nameDef} ﺃﺪﺑ\nﺐﻗﺍﻮﻌﻟﺍ ﻥﻮﻜﺗ ﺪﻘﻓ ،{INVOKER_objective} ﻊﻃﺎﻘﺗ\n.ﺔﻤﻴﺧﻭ</Alert_CultistPsychicRitualDesc>
+
+  <!-- EN: Ghoul starvation -->
+  <AlertMeatHunger>ﻥﻼﻴﻐﻟﺍ ﻉﻮﺟ</AlertMeatHunger>
+  <!-- EN: These ghouls hunger for raw meat -->
+  <AlertMeatHungerDesc>ﺀﻲﻧ ﻢﺤﻠﻟ ﺔﻌﺋﺎﺟ ﻥﻼﻴﻐﻟﺍ ﻩﺬﻫ</AlertMeatHungerDesc>
+  <!-- EN: They may attack if they're not fed soon. Get them some meat. -->
+  <AlertMeatHungerDescAppended>.ًﺎﺒﻳﺮﻗ ﻢﻌﻄُﺗ ﻢﻟ ﺍﺫﺇ ﻢﺟﺎﻬﺗ ﺪﻗ\n.ﻢﺤﻠﻟﺍ ﺾﻌﺑ ﺎﻬﻟ ﺮﻀﺣﺃ</AlertMeatHungerDescAppended>
+  
+  <!-- EN: Pit gate opening -->
+  <AlertEmergingPitGate>ﺓﺮﻔﺤﻟﺍ ﺔﺑﺍﻮﺑ ﺢﺘﻓ</AlertEmergingPitGate>
+  <!-- EN: The ground is collapsing in on itself. A pit gate will soon form. -->
+  <AlertEmergingPitGateDesc>ﻞﻜﺸﺘﺘﺳ .ﺎﻬﺴﻔﻧ ﻰﻠﻋ ﺭﺎﻬﻨﺗ ﺽﺭﻷﺍ\n.ًﺎﺒﻳﺮﻗ ﺓﺮﻔﺣ ﺔﺑﺍﻮﺑ</AlertEmergingPitGateDesc>
+
+  <!-- EN: Insufficient containment -->
+  <Alert_InsufficientContainment>ٍﻑﺎﻛ ﺮﻴﻏ ﺀﺍﻮﺘﺣﺍ</Alert_InsufficientContainment>
+  <!-- EN: The following entities are being held in rooms that do not meet their minimum containment strength -->
+  <Alert_InsufficientContainmentDesc>ﻑﺮﻏ ﻲﻓ ﺓﺰﺠﺘﺤﻣ ﺔﻴﻟﺎﺘﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ\nﺓﻮﻗ ﻦﻣ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ ﻲﺒﻠﺗ ﻻ\nﺀﺍﻮﺘﺣﻻﺍ</Alert_InsufficientContainmentDesc>
+  <!-- EN: They will escape soon. Build stronger walls, doors, or other containment devices to hold them. -->
+  <Alert_InsufficientContainmentDescAppended>ًﺎﻧﺍﺭﺪﺟ ِﻦﺑﺍ .ًﺎﺒﻳﺮﻗ ﺏﺮﻬﺘﺳ\nﺀﺍﻮﺘﺣﺍ ﺓﺰﻬﺟﺃ ﻭﺃ ،ﻯﻮﻗﺃ ًﺎﺑﺍﻮﺑﺃﻭ\n.ﺎﻫﺰﺠﺤﻟ ﻯﺮﺧﺃ</Alert_InsufficientContainmentDescAppended>
+
+  <!-- EN: Need holding platforms -->
+  <AlertHoldingPlatform>ﺯﺎﺠﺘﺣﺍ ﺕﺎﺼﻨﻣ ﺝﺎﺘﺤﺗ</AlertHoldingPlatform>
+  <!-- EN: Build holding platforms or place holding spots to contain and study captured entities. -->
+  <AlertHoldingPlatformDesc>ﻁﺎﻘﻧ ﻊﺿ ﻭﺃ ﺯﺎﺠﺘﺣﺍ ﺕﺎﺼﻨﻣ ِﻦﺑﺍ\nﺕﺎﻧﺎﻴﻜﻟﺍ ﺔﺳﺍﺭﺩﻭ ﺀﺍﻮﺘﺣﻻ ﺯﺎﺠﺘﺣﺍ\n.ﺓﺭﻮﺳﺄﻤﻟﺍ</AlertHoldingPlatformDesc>
+
+  <!-- EN: Cube withdrawal -->
+  <AlertCubeWithdrawal>ﺐﻌﻜﻤﻟﺍ ﺏﺎﺤﺴﻧﺍ</AlertCubeWithdrawal>
+  <!-- EN: The following people are suffering from cube withdrawal -->
+  <AlertCubeWithdrawalDesc>ﺽﺍﺮﻋﺃ ﻦﻣ ﻥﻮﻧﺎﻌﻳ ﻥﻮﻟﺎﺘﻟﺍ ﺹﺎﺨﺷﻷﺍ\nﺐﻌﻜﻤﻟﺍ ﺏﺎﺤﺴﻧﺍ</AlertCubeWithdrawalDesc>
+  <!-- EN: Their skin itches and their mind races, craving closeness to the golden cube. Their symptoms will worsen until they can play with the cube.\n\nEnsure that they have free time and can reach the golden cube. -->
+  <AlertCubeWithdrawalDescAppended>ﻢﻬﻟﻮﻘﻋﻭ ﺔﻜﺤﻟﺍ ﺐﺒﺴﻳ ﻢﻫﺪﻠﺟ\nﻦﻣ ﺏﺮﻘﻠﻟ ﻦﻴﻔﻬﻠﺘﻣ ،ﻉﺭﺎﺴﺘﺗ\nﻢﻬﺿﺍﺮﻋﺃ ﺩﺍﺩﺰﺘﺳ .ﻲﺒﻫﺬﻟﺍ ﺐﻌﻜﻤﻟﺍ\nﺐﻌﻠﻟﺍ ﻦﻣ ﺍﻮﻨﻜﻤﺘﻳ ﻰﺘﺣ ًﺍﺀﻮﺳ\n.ﺐﻌﻜﻤﻟﺎﺑ\n\nﻍﺍﺮﻓ ﺖﻗﻭ ﻢﻬﻳﺪﻟ ﻥﺃ ﻦﻣ ﺪﻛﺄﺗ\nﺐﻌﻜﻤﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻢﻬﻨﻜﻤﻳﻭ\n.ﻲﺒﻫﺬﻟﺍ</AlertCubeWithdrawalDescAppended>
+
+  <!-- EN: Devourer digestion -->
+  <AlertDigestion>ﻢﻬﺘﻠﻤﻟﺍ ﻢﻀﻫ</AlertDigestion>
+  <!-- EN: The following people or creatures are being digested by a devourer -->
+  <AlertDigestionDesc>ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻭﺃ ﺹﺎﺨﺷﻷﺍ ﻢﻀﻫ ﻢﺘﻳ\nﻢﻬﺘﻠﻣ ﺔﻄﺳﺍﻮﺑ ﺔﻴﻟﺎﺘﻟﺍ</AlertDigestionDesc>
+  <!-- EN: Kill the devourer to release them before it's too late. -->
+  <AlertDigestionDescAppended>ﺕﺍﻮﻓ ﻞﺒﻗ ﻢﻫﺮﻳﺮﺤﺘﻟ ﻢﻬﺘﻠﻤﻟﺍ ﻞﺘﻗﺍ\n.ﻥﺍﻭﻷﺍ</AlertDigestionDescAppended>
+  
+  <!-- EN: Inhibitor blocked -->
+  <AlertInhibitorBlocked>ﺏﻮﺠﺤﻣ ﻞﻄﻌﻤﻟﺍ</AlertInhibitorBlocked>
+  <!-- EN: One of your electric inhibitors is not functional because it's blocked by another building.\n\nClear the space in front of the electric inhibitor. -->
+  <AlertInhibitorBlockedDesc>ﻞﻤﻌﻳ ﻻ ﺔﻴﺋﺎﺑﺮﻬﻜﻟﺍ ﻚﺗﻼﻄﻌﻣ ﺪﺣﺃ\n.ﺮﺧﺁ ﻰﻨﺒﻤﺑ ﺩﻭﺪﺴﻣ ﻪﻧﻷ\n\nﻞﻄﻌﻤﻟﺍ ﻡﺎﻣﺃ ﺔﺣﺎﺴﻤﻟﺍ ِﻞﺧﺃ\n.ﻲﺋﺎﺑﺮﻬﻜﻟﺍ</AlertInhibitorBlockedDesc>
+
+  <!-- EN: Entity treatment needed -->
+  <EntityNeedsTreatment>ﺝﻼﻋ ﺝﺎﺘﺤﻳ ﻥﺎﻴﻜﻟﺍ</EntityNeedsTreatment>
+  <!-- EN: These entities need medical treatment. Without it, they may die in captivity.\n{0}\n\nSend a doctor to treat them. -->
+  <EntityNeedsTreatmentDesc>ًﺎﺟﻼﻋ ﺝﺎﺘﺤﺗ ﺕﺎﻧﺎﻴﻜﻟﺍ ﻩﺬﻫ\n.ﺮﺳﻷﺍ ﻲﻓ ﺕﻮﻤﺗ ﺪﻗ ،ﻪﻧﻭﺪﺑ .ًﺎﻴﺒﻃ\n{0}\n\n.ﺎﻬﺟﻼﻌﻟ ًﺎﺒﻴﺒﻃ ﻞﺳﺭﺃ</EntityNeedsTreatmentDesc>
+
+  <!-- EN: Ghoul hypothermia -->
+  <AlertGhoulHypothermia>ﻥﻼﻴﻐﻟﺍ ﺓﺭﺍﺮﺣ ﺽﺎﻔﺨﻧﺍ</AlertGhoulHypothermia>
+  <!-- EN: These ghouls are suffering from hypothermia:\n{0}\n\nGet them to warmer temperatures. -->
+  <AlertGhoulHypothermiaDesc>ﺽﺎﻔﺨﻧﺍ ﻦﻣ ﻥﻼﻴﻐﻟﺍ ﻩﺬﻫ ﻲﻧﺎﻌﺗ\n:ﻢﺴﺠﻟﺍ ﺓﺭﺍﺮﺣ\n{0}\n\n.ﺄﻓﺩﺃ ﺓﺭﺍﺮﺣ ﺕﺎﺟﺭﺩ ﻰﻟﺇ ﺎﻬﻠﻘﻧﺍ</AlertGhoulHypothermiaDesc>
+  
+  <!-- EN: Gray flesh -->
+  <AlertGrayFleshSample>ﻱﺩﺎﻣﺭ ﻢﺤﻟ</AlertGrayFleshSample>
+  <!-- EN: You've discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature. -->
+  <AlertGrayFleshSampleDesc>.ﻲﻤﺤﻟ ﺞﻴﺴﻧ ﻦﻣ ًﺎﻄﻳﺮﺷ ﺖﻔﺸﺘﻛﺍ\nﺔﻤﺼﺒﻟﺍ ﻦﻋ ﺪﻳﺰﻤﻟﺍ ﻑﺮﻌﺘﻟ ﻪﻠﻠﺣ\n.ﺔﻳﻮﻴﺤﻟﺍ</AlertGrayFleshSampleDesc>
+  <!-- EN: Neural lump -->
+  <AlertNeuralLump>ﺔﻴﺒﺼﻋ ﺔﻠﺘﻛ</AlertNeuralLump>
+  <!-- EN: A fleshmass nerve bundle has dropped a neural lump. Analyze it to learn how to kill the fleshmass heart. -->
+  <AlertNeuralLumpDesc>ﺔﻠﺘﻜﻠﻟ ﺔﻴﺒﺼﻋ ﺔﻣﺰﺣ ﺖﻄﻘﺳﺃ\nﺎﻬﻠﻠﺣ .ﺔﻴﺒﺼﻋ ﺔﻠﺘﻛ ﺔﻴﻤﺤﻠﻟﺍ\nﺔﻠﺘﻜﻟﺍ ﺐﻠﻗ ﻞﺘﻘﺗ ﻒﻴﻛ ﻑﺮﻌﺘﻟ\n.ﺔﻴﻤﺤﻠﻟﺍ</AlertNeuralLumpDesc>
+  <!-- EN: Revenant flesh -->
+  <AlertRevenantFlesh>ﺪﺋﺎﻌﻟﺍ ﻢﺤﻟ</AlertRevenantFlesh>
+  <!-- EN: The wounded revenant left behind a piece of itself. Analyze it to learn how to track the revenant. -->
+  <AlertRevenantFleshDesc>ﺔﻌﻄﻗ ﻩﺀﺍﺭﻭ ﺢﻳﺮﺠﻟﺍ ﺪﺋﺎﻌﻟﺍ ﻙﺮﺗ\nﺐﻘﻌﺘﺗ ﻒﻴﻛ ﻑﺮﻌﺘﻟ ﺎﻬﻠﻠﺣ .ﻪﺴﻔﻧ ﻦﻣ\n.ﺪﺋﺎﻌﻟﺍ</AlertRevenantFleshDesc>
+
+</LanguageData>

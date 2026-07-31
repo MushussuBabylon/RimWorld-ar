@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- ITab_Entity -->
+  <!-- EN: Escape interval -->
+  <HoldingPlatformEscapeMTBDays>ﺏﻭﺮﻬﻟﺍ ﺓﺮﺘﻓ</HoldingPlatformEscapeMTBDays>
+  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity's movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
+  <HoldingPlatformEscapeMTBDaysDesc>.ﺕﺎﺑﻭﺮﻬﻟﺍ ﻦﻴﺑ ﺖﻗﻮﻟﺍ ﻂﺳﻮﺘﻣ\nﻉﻮﻧﻭ ،ﺀﺍﻮﺘﺣﻻﺍ ﺓﻮﻘﺑ ﺍﺬﻫ ﺮﺛﺄﺘﻳ\nﻰﻠﻋ ﻥﺎﻴﻜﻟﺍ ﺓﺭﺪﻗﻭ ،ﻥﺎﻴﻜﻟﺍ\nﺾﻌﺑ .ﻥﺎﻴﻜﻟﺍ ﻦﺠﺳ ﺓﺪﻣﻭ ،ﺔﻛﺮﺤﻟﺍ\n.ﺓﺩﻭﺮﺒﻟﺎﺑ ًﺎﻀﻳﺃ ﻊﻤﻘُﺗ ﺕﺎﻧﺎﻴﻜﻟﺍ</HoldingPlatformEscapeMTBDaysDesc>
+  <!-- EN: Entity -->
+  <TabEntity>ﻥﺎﻴﻛ</TabEntity>
+  <!-- EN: Study interval -->
+  <StudyInterval>ﺔﺳﺍﺭﺪﻟﺍ ﺓﺮﺘﻓ</StudyInterval>
+  <!-- EN: How often this entity can be studied. -->
+  <StudyIntervalDesc>.ﻥﺎﻴﻜﻟﺍ ﺍﺬﻫ ﺔﺳﺍﺭﺩ ﻦﻜﻤﻳ ﺓﺮﻣ ﻢﻛ</StudyIntervalDesc>
+  <!-- EN: Maintain only -->
+  <EntityStudyMode_MaintainOnly>ﻂﻘﻓ ﺔﻈﻓﺎﺤﻤﻟﺍ</EntityStudyMode_MaintainOnly>
+  <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
+  <EntityStudyMode_MaintainOnlyDesc>ﺔﺻﺎﺧ ﺕﺍﺀﺍﺮﺟﺈﺑ ﺱﺍﺮﺤﻟﺍ ﻡﻮﻘﻳ ﻦﻟ\nﺕﻼﻋﺎﻔﺘﻟﺍ ﻦﻜﻟ ،ﻥﺎﻴﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ\n.ﺔﺣﺎﺘﻣ ﻝﺍﺰﺗ ﻻ ﻯﺮﺧﻷﺍ</EntityStudyMode_MaintainOnlyDesc>
+  <!-- EN: Study -->
+  <EntityStudyMode_Study>ﺔﺳﺍﺭﺩ</EntityStudyMode_Study>
+  <!-- EN: Researchers will study the entity. -->
+  <EntityStudyMode_StudyDesc>.ﻥﺎﻴﻜﻟﺍ ﻥﻮﺜﺣﺎﺒﻟﺍ ﺱﺭﺪﻴﺳ</EntityStudyMode_StudyDesc>
+  <!-- EN: Release -->
+  <EntityStudyMode_Release>ﺡﺍﺮﺳ ﻕﻼﻃﺇ</EntityStudyMode_Release>
+  <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
+  <EntityStudyMode_ReleaseDesc>ﻦﻣ ﻥﺎﻴﻜﻟﺍ ﺡﺍﺮﺳ ﻥﺎﺠﺴﻟﺍ ﻖﻠﻄﻴﺳ\nﺕﺎﻧﺎﻴﻜﻟﺍ ﻥﻮﻜﺗ ﺪﻗ .ﺯﺎﺠﺘﺣﻻﺍ ﺔﺼﻨﻣ\n.ﺎﻬﺣﺍﺮﺳ ﻕﻼﻃﺇ ﺪﻨﻋ ﺔﻳﺩﺎﻌﻣ</EntityStudyMode_ReleaseDesc>
+  <!-- EN: Execute -->
+  <EntityStudyMode_Execute>ﻡﺍﺪﻋﺇ</EntityStudyMode_Execute>
+  <!-- EN: A warden will execute the restrained entity. -->
+  <EntityStudyMode_ExecuteDesc>.ﺪّﻴﻘﻤﻟﺍ ﻥﺎﻴﻜﻟﺍ ﻥﺎﺠﺴﻟﺍ ﻡﺪﻌﻴﺳ</EntityStudyMode_ExecuteDesc>
+  <!-- EN: Extract bioferrite -->
+  <EntityStudyMode_Extract>ﺖﻳﺍﺮﻴﻓﻮﻴﺒﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ</EntityStudyMode_Extract>
+  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can't be done if the entity is attached to a bioferrite harvester. -->
+  <EntityStudyMode_ExtractDesc>ﻦﻣ ﺖﻳﺍﺮﻴﻓﻮﻴﺒﻟﺍ ﺀﺎﺒﻃﻷﺍ ﺝﺮﺨﺘﺴﻴﺳ\n.ﻦﻜﻣﺃ ﺎﻤﻠﻛ ﺭﻮﺳﺄﻤﻟﺍ ﻥﺎﻴﻜﻟﺍ\n،ﺔﻄﻴﺴﺑ ﻩﺬﻫ ﺝﺍﺮﺨﺘﺳﻻﺍ ﺔﻘﻳﺮﻃ\nﻦﻜﻤﻳ ﻻ .ﺔﻟﺎﻌﻓ ﺮﻴﻏ ﺎﻬﻨﻜﻟ\nًﻼﺼﺘﻣ ﻥﺎﻴﻜﻟﺍ ﻥﺎﻛ ﺍﺫﺇ ﺎﻫﺅﺍﺮﺟﺇ\n.ﺖﻳﺍﺮﻴﻓﻮﻴﺒﻟﺍ ﺓﺪﺻﺎﺤﺑ</EntityStudyMode_ExtractDesc>
+  <!-- EN: Requires bioferrite extraction. -->
+  <RequiresBioferriteExtraction>.ﺖﻳﺍﺮﻴﻓﻮﻴﺒﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ ﺐﻠﻄﺘﻳ</RequiresBioferriteExtraction>
+  <!-- EN: Blocked by bioferrite harvester. -->
+  <BioferriteHarvesterAttached>ﺓﺪﺻﺎﺣ ﺔﻄﺳﺍﻮﺑ ﺭﻮﻈﺤﻣ\n.ﺖﻳﺍﺮﻴﻓﻮﻴﺒﻟﺍ</BioferriteHarvesterAttached>
+  <!-- EN: Can't be executed. -->
+  <CantBeExecuted>.ﻪﻣﺍﺪﻋﺇ ﻦﻜﻤﻳ ﻻ</CantBeExecuted>
+  <!-- EN: Knowledge gain -->
+  <StudyKnowledgeGain>ﺔﻓﺮﻌﻤﻟﺍ ﺏﺎﺴﺘﻛﺍ</StudyKnowledgeGain>
+  <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
+  <StudyKnowledgeGainDesc>ﻞﻜﻟ ﺔﺒﺴﺘﻜﻤﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ ﺭﺍﺪﻘﻣ\nﺀﺍﻮﺘﺣﻻﺍ ﺪﻋﺎﺴﻳ .ﺔﺳﺍﺭﺩ ﺓﺮﺘﻓ\nﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﻰﻠﻋ ﺚﺣﺎﺒﻟﺍ ﻞﻀﻓﻷﺍ\nﺎﻤﻣ ،ﺔﻣﻼﺴﻟﺍ ﻦﻣ ًﻻﺪﺑ ﺔﺳﺍﺭﺪﻟﺍ\n.ﺮﺜﻛﺃ ﺔﻓﺮﻌﻣ ﺞﺘﻨﻳ</StudyKnowledgeGainDesc>
+  <!-- EN: What type of medicine can be given to this entity. -->
+  <MedicineQualityDescriptionEntity>ﻩﺅﺎﻄﻋﺇ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ﺀﺍﻭﺪﻟﺍ ﻉﻮﻧ\n.ﻥﺎﻴﻜﻟﺍ ﺍﺬﻬﻟ</MedicineQualityDescriptionEntity>
+
+  <!-- EN: Electroharvester -->
+  <FactorForElectroharvester>ﺔﻴﺋﺎﺑﺮﻬﻜﻟﺍ ﺓﺪﺻﺎﺤﻟﺍ</FactorForElectroharvester>
+  <!-- EN: Long captivity -->
+  <FactorForDaysInCaptivity>ﻞﻳﻮﻄﻟﺍ ﺮﺳﻷﺍ</FactorForDaysInCaptivity>
+  <!-- EN: Cold containment bonus -->
+  <FactorForColdCaptivity>ﺩﺭﺎﺒﻟﺍ ﺀﺍﻮﺘﺣﻻﺍ ﺓﺄﻓﺎﻜﻣ</FactorForColdCaptivity>
+  <!-- EN: Incapable of escaping -->
+  <IncapableOfEscaping>ﺏﺮﻬﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ</IncapableOfEscaping>
+  <!-- EN: Entity downed -->
+  <EntityDowned>ًﺎﺿﺭﺃ ﺡﻭﺮﻄﻣ ﻥﺎﻴﻜﻟﺍ</EntityDowned>
+  <!-- EN: Containment strength -->
+  <FactorContainmentStrength>ﺀﺍﻮﺘﺣﻻﺍ ﺓﻮﻗ</FactorContainmentStrength>
+  <!-- EN: Electroharvester -->
+  <FactorElectroharvester>ﺔﻴﺋﺎﺑﺮﻬﻜﻟﺍ ﺓﺪﺻﺎﺤﻟﺍ</FactorElectroharvester>
+  <!-- EN: Activity -->
+  <FactorActivity>ﻁﺎﺸﻨﻟﺍ</FactorActivity>
+
+</LanguageData>

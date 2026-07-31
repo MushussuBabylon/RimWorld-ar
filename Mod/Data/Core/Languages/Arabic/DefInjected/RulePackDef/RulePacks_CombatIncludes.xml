@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>scraped_present->glancing</li>
+    <li>scraped_present->bouncing</li>
+    <li>scraped_present->grazing</li>
+    <li>scraped_present->caroming</li>
+    <li>scraped_present->skipping</li>
+    <li>scraped_present->skating</li>
+    <li>scraped_past->glanced</li>
+    <li>scraped_past->bounced</li>
+    <li>scraped_past->grazed</li>
+    <li>scraped_past->caromed</li>
+    <li>scraped_past->skipped</li>
+    <li>scraped_past->skated</li>
+  -->
+  <Combat_DeflectIncludes.rulePack.rulesStrings>
+    <li>scraped_present-&gt;ﻑﺮﺤﻨﻳ</li>
+    <li>scraped_present-&gt;ﺪﺗﺮﻳ</li>
+    <li>scraped_present-&gt;ﺵﺪﺨﻳ</li>
+    <li>scraped_present-&gt;ﻡﺪﻄﺼﻳ</li>
+    <li>scraped_present-&gt;ﻰﻄﺨﺘﻳ</li>
+    <li>scraped_present-&gt;ﻖﻟﺰﻨﻳ</li>
+    <li>scraped_past-&gt;ﻑﺮﺤﻧﺍ</li>
+    <li>scraped_past-&gt;ﺪﺗﺭﺍ</li>
+    <li>scraped_past-&gt;ﺵﺪﺧ</li>
+    <li>scraped_past-&gt;ﻡﺪﻄﺻﺍ</li>
+    <li>scraped_past-&gt;ﻰﻄﺨﺗ</li>
+    <li>scraped_past-&gt;ﻖﻟﺰﻧﺍ</li>
+ </Combat_DeflectIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement]</li>
+    <li>action->[INITIATOR_definite] [tried] to use [implement] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] with [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] with [implement]</li>
+    <li>towardsat->towards</li>
+    <li>towardsat->at</li>
+    <li>verb_genericattack->swung</li>
+    <li>verb_genericattack->flailed</li>
+    <li>verb_genericattack->thrashed</li>
+    <li>tried->tried</li>
+    <li>tried->attempted</li>
+  -->
+  <Combat_FailIncludes.rulePack.rulesStrings>
+    <li>action-&gt;[damaged_inf] [RECIPIENT_definite] ﻥﺃ [tried] [INITIATOR_definite]</li>
+    <li>action-&gt;[implement]ـﺑ [damaged_inf] [RECIPIENT_definite] ﻥﺃ [tried] [INITIATOR_definite]</li>
+    <li>action-&gt;[damaged_inf] [RECIPIENT_definite]ـﻟ [implement] ﻡﺍﺪﺨﺘﺳﺍ [tried] [INITIATOR_definite]</li>
+    <li>action-&gt;[RECIPIENT_definite] ﻮﺤﻧ [WEAPON_label] ﻰﻤﺴﻤﻟﺍ [INITIATOR_possessive]ـﺣﻼﺳ [INITIATOR_definite] ﺢﺟﺭﺃ</li>
+    <li>action(p=0.3)-&gt;[implement]ـﺑ [verb_genericattack] [INITIATOR_definite] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)-&gt;[verb_genericattack] [INITIATOR_definite] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)-&gt;[implement]ـﺑ [verb_genericattack] [INITIATOR_definite]</li>
+    <li>towardsat-&gt;ﻩﺎﺠﺗﺎﺑ</li>
+    <li>towardsat-&gt;ﻰﻠﻋ</li>
+    <li>verb_genericattack-&gt;ﺡﻮﻟ</li>
+    <li>verb_genericattack-&gt;ﻂﺒﺨﺗ</li>
+    <li>verb_genericattack-&gt;ﻒﻨﻌﺑ ﺏﺮﺿ</li>
+    <li>tried-&gt;ﻝﻭﺎﺣ</li>
+    <li>tried-&gt;ﻰﻌﺳ</li>
+ </Combat_FailIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] and [flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->painfully</li>
+    <li>strikeAdv->horribly</li>
+    <li>strikeAdv->savagely</li>
+    <li>strikeAdv->viciously</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence->leaving a horrific wound</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
+  -->
+  <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+    <li>result(p=1)-&gt;[RECIPIENT_possessive]ـﺻﺎﺨﻟﺍ [damaged_present] [targetlist]</li>
+    <li>result(p=0.2)-&gt;[flavortext_consequence]ﻭ [RECIPIENT_possessive]ـﺻﺎﺨﻟﺍ [damaged_present] [targetlist]</li>
+    <li>result(p=0.1)-&gt;[RECIPIENT_possessive] [strikeAdv]ـﺻﺎﺨﻟﺍ [damaged_present] [targetlist]</li>
+    <li>strikeAdv-&gt;ﻢﻟﺄﺑ</li>
+    <li>strikeAdv-&gt;ﻉﻭﺮﻣ ﻞﻜﺸﺑ</li>
+    <li>strikeAdv-&gt;ﺔﻴﺸﺣﻮﺑ</li>
+    <li>strikeAdv-&gt;ﺓﻭﺍﺮﻀﺑ</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;ًﺍﺯﺰﻘﻣ ًﺎﺣﺮﺟ ًﺎﻛﺭﺎﺗ</li>
+    <li>flavortext_consequence-&gt;ًﺎﻋﻭﺮﻣ ًﺎﺣﺮﺟ ًﺎﻛﺭﺎﺗ</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)-&gt;[RECIPIENT_objective] [wince] [painevent]ـﻠﻌﺟ ﺎﻤﻣ</li>
+    <li>flavortext_consequence(p=0.2)-&gt;[RECIPIENT_possessive]ـﻧﺯﺍﻮﺗ [RECIPIENT_objective]ﺪﻘﻓﺃ ﺎﻤﻣ</li>
+ </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[action], [result].</li>
+    <li>r_logentry(priority=-10)->[action].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->a [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->a [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->wounding</li>
+    <li>damaged_present(deflected!=True)->injuring</li>
+    <li>destroyed(p=0.5)->destroyed</li>
+    <li>destroyed(p=0.5)->demolished</li>
+    <li>destroyed(p=0.5)->ruined</li>
+    <li>destroyed(p=0.5)->wrecked</li>
+    <li>wince(RECIPIENT_flesh==Normal)->wince</li>
+    <li>wince(RECIPIENT_flesh==Normal)->grimace</li>
+    <li>wince(RECIPIENT_flesh==Normal)->cringe</li>
+    <li>wince(RECIPIENT_flesh==Normal)->groan</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->scream</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->shout</li>
+    <li>wince->recoil</li>
+    <li>wince->stumble</li>
+    <li>painstate->in</li>
+    <li>painstate->with</li>
+    <li>painstate->from the</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->with misery</li>
+    <li>painevent->from the injury</li>
+    <li>painevent->from the wound</li>
+    <li>to->to</li>
+    <li>to->into</li>
+  -->
+  <Combat_MeleeIncludes.rulePack.rulesStrings>
+    <li>r_logentry-&gt;.[action]، [result]</li>
+    <li>r_logentry(priority=-10)-&gt;[action].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)-&gt;[WEAPON_label] ﻰﻤﺴﻤﻟﺍ [INITIATOR_possessive]ـﺣﻼﺳ ﻦﻣ [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)-&gt;[WEAPON_label] ﻰﻤﺴﻤﻟﺍ [INITIATOR_possessive]ـﺣﻼﺳ</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)-&gt;[WEAPON_label] ﻦﻣ [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)-&gt;[WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)-&gt;[INITIATOR_possessive]ـﺻﺎﺨﻟﺍ [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)-&gt;[WEAPON_label] ﻰﻤﺴﻤﻟﺍ [INITIATOR_possessive]ـﺣﻼﺳ ﻦﻣ [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)-&gt;[WEAPON_label] ﻰﻤﺴﻤﻟﺍ [INITIATOR_possessive]ـﺣﻼﺳ</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)-&gt;[INITIATOR_possessive]ـﺻﺎﺨﻟﺍ [TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)-&gt;[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)-&gt;[recipient_part1_label]ﻭ [recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==3)-&gt;[recipient_part2_label]ﻭ ،[recipient_part1_label]ﻭ ،[recipient_part0_label]</li>
+    <li>targetlist-&gt;[recipient_part3_label]ﻭ ،[recipient_part2_label]ﻭ ،[recipient_part1_label]ﻭ ،[recipient_part0_label]</li>
+    <li>damaged_present(deflected!=True)-&gt;ًﺎﺣﺭﺎﺟ</li>
+    <li>damaged_present(deflected!=True)-&gt;ًﺎﺒﻴﺼﻣ</li>
+    <li>destroyed(p=0.5)-&gt;ﺮﻣﺩ</li>
+    <li>destroyed(p=0.5)-&gt;ﻢﻄﺣ</li>
+    <li>destroyed(p=0.5)-&gt;ﻒﻠﺗﺃ</li>
+    <li>destroyed(p=0.5)-&gt;ﺏﺮﺧ</li>
+    <li>wince(RECIPIENT_flesh==Normal)-&gt;ﻞﻔﺠﻳ</li>
+    <li>wince(RECIPIENT_flesh==Normal)-&gt;ﺾﻌﺘﻤﻳ</li>
+    <li>wince(RECIPIENT_flesh==Normal)-&gt;ﺶﻤﻜﻨﻳ</li>
+    <li>wince(RECIPIENT_flesh==Normal)-&gt;ﻦﺌﻳ</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)-&gt;ﺥﺮﺼﻳ</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)-&gt;ﺢﻴﺼﻳ</li>
+    <li>wince-&gt;ﻊﺟﺍﺮﺘﻳ</li>
+    <li>wince-&gt;ﺮﺜﻌﺘﻳ</li>
+    <li>painstate-&gt;ﻲﻓ</li>
+    <li>painstate-&gt;ﻊﻣ</li>
+    <li>painstate-&gt;ﻦﻣ</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)-&gt;ﻢﻟﺃ [painstate]</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)-&gt;ﺓﺎﻧﺎﻌﻣ [painstate]</li>
+    <li>painevent(RECIPIENT_flesh==Normal)-&gt;ﺱﺆﺒﺑ</li>
+    <li>painevent-&gt;ﺔﺑﺎﺻﻹﺍ ﻦﻣ</li>
+    <li>painevent-&gt;ﺡﺮﺠﻟﺍ ﻦﻣ</li>
+    <li>to-&gt;ﻰﻟﺇ</li>
+    <li>to-&gt;ﻲﻓ</li>
+ </Combat_MeleeIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->wielding</li>
+    <li>wielding(p=3)->using</li>
+    <li>wielding(p=2)->handling</li>
+    <li>wielding->brandishing</li>
+    <li>wielding->manipulating</li>
+    <li>using(p=4)->using</li>
+    <li>using->driving</li>
+    <li>using->thrusting</li>
+    <li>using->utilizing</li>
+    <li>using->moving</li>
+    <li>skillAdv(INITIATOR_skill<=3)->incompetently</li>
+    <li>skillAdv(INITIATOR_skill<=3)->ineptly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->wildly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->randomly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->flailingly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->awkwardly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->clumsily</li>
+    <li>skillAdv(INITIATOR_skill<=5)->fearfully</li>
+    <li>skillAdv(INITIATOR_skill<=5)->falteringly</li>
+    <li>skillAdv(INITIATOR_skill<=5)->foolishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->hesitantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->reluctantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->slowly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->tentatively</li>
+    <li>skillAdv(INITIATOR_skill<=6)->inexpertly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->amateurishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->timidly</li>
+    <li>skillAdv(INITIATOR_skill<=8)->enthusiastically</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->proficiently</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->competently</li>
+    <li>skillAdv(INITIATOR_skill>=8)->professionally</li>
+    <li>skillAdv(INITIATOR_skill>=8)->deftly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->aptly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->cleverly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->dexterously</li>
+    <li>skillAdv(INITIATOR_skill>=8)->skillfully</li>
+    <li>skillAdv(INITIATOR_skill>=10)->adeptly</li>
+    <li>skillAdv(INITIATOR_skill>=10)->slickly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->expertly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->precisely</li>
+    <li>skillAdv(INITIATOR_skill>=14)->masterfully</li>
+    <li>skillAdv(INITIATOR_skill>=16)->artistically</li>
+    <li>skillAdv(INITIATOR_skill>=16)->gracefully</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->mechanically</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->robotically</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->directly</li>
+  -->
+  <Combat_SkillIncludes.rulePack.rulesStrings>
+    <li>skillDescMelee-&gt;[WEAPON_label] [skillAdv] ﻰﻤﺴﻤﻟﺍ [INITIATOR_possessive]ـﺣﻼﺳ [wielding]</li>
+    <li>skillDescMelee-&gt;[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)-&gt;ًﺍﺮﻬﺸﻣ</li>
+    <li>wielding(p=3)-&gt;ًﺎﻣﺪﺨﺘﺴﻣ</li>
+    <li>wielding(p=2)-&gt;ـﺑ ًﺎﻤﻜﺤﺘﻣ</li>
+    <li>wielding-&gt;ـﺑ ًﺎﺣﻮﻠﻣ</li>
+    <li>wielding-&gt;ـﺑ ًﺍﺭﻭﺎﻨﻣ</li>
+    <li>using(p=4)-&gt;ًﺎﻣﺪﺨﺘﺴﻣ</li>
+    <li>using-&gt;ًﺎﻬﺟﻮﻣ</li>
+    <li>using-&gt;ًﺎﻌﻓﺍﺩ</li>
+    <li>using-&gt;ًﻼﻐﺘﺴﻣ</li>
+    <li>using-&gt;ًﺎﻛﺮﺤﻣ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)-&gt;ﺔﻣﻭﺪﻌﻣ ﺓﺀﺎﻔﻜﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)-&gt;ﺔﻗﺎﻤﺤﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)-&gt;ﺶﻴﻄﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)-&gt;ﺔﻴﺋﺍﻮﺸﻌﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)-&gt;ﻂﺒﺨﺘﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)-&gt;ﺔﺑﺍﺮﻐﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)-&gt;ﺔﻗﺍﺮﺨﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)-&gt;ﻑﻮﺨﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)-&gt;ﺩﺩﺮﺘﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)-&gt;ﺔﻓﺎﺨﺴﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)-&gt;ﺩﺩﺮﺘﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)-&gt;ﺔﻌﻧﺎﻤﻤﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)-&gt;ﺀﻂﺒﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)-&gt;ﺭﺬﺤﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)-&gt;ﺓﺮﺒﺧ ﺔﻠﻘﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)-&gt;ٍﻭﺎﻬﻛ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)-&gt;ﻞﺠﺨﺑ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)-&gt;ﺱﺎﻤﺤﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=6,INITIATOR_skill&lt;=10)-&gt;ﺭﺍﺪﺘﻗﺎﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=6,INITIATOR_skill&lt;=10)-&gt;ﺓﺀﺎﻔﻜﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)-&gt;ﺔﻴﻓﺍﺮﺘﺣﺎﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)-&gt;ﺓﺭﺎﻬﻤﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)-&gt;ﺓﺭﺍﺪﺠﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)-&gt;ﺀﺎﻛﺬﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)-&gt;ﺔﻋﺍﺮﺒﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)-&gt;ﺓﺭﺎﻬﻤﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=10)-&gt;ﺔﻜﻨﺤﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=10)-&gt;ﺔﺳﻼﺴﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=12)-&gt;ﺓﺮﺒﺨﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=12)-&gt;ﺔﻗﺪﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=14)-&gt;ﻥﺎﻘﺗﺈﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=16)-&gt;ﻦﻔﺑ</li>
+    <li>skillAdv(INITIATOR_skill&gt;=16)-&gt;ﺔﻗﺎﺷﺮﺑ</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)-&gt;ًﺎﻴﻜﻴﻧﺎﻜﻴﻣ</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)-&gt;ًﺎﻴﻟﺁ</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)-&gt;ﺓﺮﺷﺎﺒﻣ</li>
+ </Combat_SkillIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], and [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
+  -->
+  <Combat_WoundIncludes.rulePack.rulesStrings>
+    <li>destroyed_targets(recipient_part_destroyed_count==1)-&gt;[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)-&gt;[recipient_part_destroyed1_label]ﻭ [recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)-&gt;[recipient_part_destroyed2_label]ﻭ ،[recipient_part_destroyed1_label]ﻭ ،[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets-&gt;[recipient_part_destroyed3_label]ﻭ ،[recipient_part_destroyed2_label]ﻭ ،[recipient_part_destroyed1_label]ﻭ ،[recipient_part_destroyed0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)-&gt;[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)-&gt;[recipient_part_damaged1_label]ﻭ [recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)-&gt;[recipient_part_damaged2_label]ﻭ ،[recipient_part_damaged1_label]ﻭ ،[recipient_part_damaged0_label]</li>
+    <li>damaged_targets-&gt;[recipient_part_damaged3_label]ﻭ ،[recipient_part_damaged2_label]ﻭ ،[recipient_part_damaged1_label]ﻭ ،[recipient_part_damaged0_label]</li>
+ </Combat_WoundIncludes.rulePack.rulesStrings>
+  
+</LanguageData>
