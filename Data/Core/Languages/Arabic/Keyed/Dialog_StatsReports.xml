@@ -6,7 +6,7 @@
   <!-- EN: damage -->
   <DamageLower>ضرر</DamageLower>
   <!-- EN: seconds per attack -->
-  <SecondsPerAttackLower>ثانية لكل هجمة</SecondsPerAttackLower>
+  <SecondsPerAttackLower>ثانية لكل هجوم</SecondsPerAttackLower>
 
   <!-- EN: Base value -->
   <StatsReport_BaseValue>القيمة الأساسية</StatsReport_BaseValue>
@@ -81,17 +81,17 @@
   <!-- EN: Damaged -->
   <StatsReport_HasHediffExplanation>متضرر</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
-  <StatsReport_MeleeDPSExplanation>ضرر في الثانية = ضرر الاشتباك * فرصة إصابة الاشتباك / وقت التهدئة بالثواني</StatsReport_MeleeDPSExplanation>
+  <StatsReport_MeleeDPSExplanation>ضرر في الثانية = ضرر الاشتباك * فرصة إصابة الاشتباك / فترة التهدئة بالثواني</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
   <StatsReport_MeleeDamage>ضرر الاشتباك</StatsReport_MeleeDamage>
   <!-- EN: Cooldown -->
-  <StatsReport_Cooldown>وقت التهدئة</StatsReport_Cooldown>
+  <StatsReport_Cooldown>فترة التهدئة</StatsReport_Cooldown>
   <!-- EN: Melee hit chance -->
   <StatsReport_MeleeHitChance>فرصة إصابة الاشتباك</StatsReport_MeleeHitChance>
   <!-- EN: {0} s -->
   <StatsReport_CooldownFormat>{0} ث</StatsReport_CooldownFormat>
   <!-- EN: Blocked by fences -->
-  <StatsReport_BlockedByFences>تعوقه السياجات</StatsReport_BlockedByFences>
+  <StatsReport_BlockedByFences>تمنعه السياجات</StatsReport_BlockedByFences>
   <!-- EN: Roam interval -->
   <StatsReport_RoamInterval>فترة الشرود</StatsReport_RoamInterval>
   <!-- EN: Caravan rideable age -->
@@ -235,7 +235,7 @@
   <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->
   <Stat_Race_Diet_Desc>أنواع الطعام التي يستطيع هذا المخلوق تناولها.\n\nيمكنه أكل: {0}</Stat_Race_Diet_Desc>
   <!-- EN: The type of leather this creature will yield when butchered. -->
-  <Stat_Race_LeatherType_Desc>نوع الجلد الذي سينتجه هذا المخلوق عند ذبحه سلخه.</Stat_Race_LeatherType_Desc>
+  <Stat_Race_LeatherType_Desc>نوع الجلد الذي سينتجه هذا المخلوق عند سلخه.</Stat_Race_LeatherType_Desc>
   <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
   <Stat_Race_Animal_TameFailedRevengeChance_Desc>فرصة هجوم هذا المخلوق عندما يحاول المروض ترويضه ويفشل.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
   <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
@@ -243,13 +243,13 @@
   <!-- EN: The average life expectancy of this creature. -->
   <Stat_Race_LifeExpectancy_Desc>متوسط العمر المتوقع لهذا المخلوق.</Stat_Race_LifeExpectancy_Desc>
   <!-- EN: Whether this creature is blocked by fences and barricades. -->
-  <Stat_Race_BlockedByFences_Desc>ما إذا كان هذا المخلوق تُعوق حركته السياجات والمتاريس.</Stat_Race_BlockedByFences_Desc>
+  <Stat_Race_BlockedByFences_Desc>ما إذا كان هذا المخلوق تمنع حركته السياجات والمتاريس.</Stat_Race_BlockedByFences_Desc>
   <!-- EN: How often a tame animal will attempt to roam away and exit the map.\n\nAnimals will only roam if they have a direct path to the map edge. You can use fences, barricades, walls, and doors to prevent this.\n\nAnimal handlers can rope roaming animals and bring them back to a pen. -->
   <Stat_Race_RoamInterval_Desc>كم مرة سيحاول حيوان أليف الشرود والهروب خارج الخريطة.\n\nلن تشرد الحيوانات إلا إذا كان لديها مسار مباشر إلى حافة الخريطة. يمكنك استخدام السياجات والمتاريس والجدران والأبواب لمنع ذلك.\n\nيمكن لمروضي الحيوانات قيادة الحيوانات الشاردة بالحبال وإعادتها إلى الحظيرة.</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>القيمة الترفيهية لتناول هذا الشيء. الأرقام الأعلى ستلبي حاجة الترفيه بشكل أكبر.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The weight of this creature and their equipment. -->
-  <Stat_Mass_Desc>وزن هذا المخلوق ومعداته.</Stat_Mass_Desc>
+  <Stat_Mass_Desc>كتلة هذا المخلوق ومعداته.</Stat_Mass_Desc>
   <!-- EN: Base mass -->
   <Stat_Mass_Base>الكتلة الأساسية</Stat_Mass_Base>
   <!-- EN: Mass from equipment -->
@@ -485,7 +485,7 @@
   <!-- EN: Egg type -->
   <Stat_Animal_EggType>نوع البيض</Stat_Animal_EggType>
   <!-- EN: The type of egg this creature lays. -->
-  <Stat_Animal_EggTypeDesc>نوع البيض الذي يبيعه هذا المخلوق.</Stat_Animal_EggTypeDesc>
+  <Stat_Animal_EggTypeDesc>نوع البيض الذي يبيضه هذا المخلوق.</Stat_Animal_EggTypeDesc>
   <!-- EN: Eggs per year -->
   <Stat_Animal_EggsPerYear>البيض في السنة</Stat_Animal_EggsPerYear>
   <!-- EN: The number of eggs this creature will lay per year. Some creatures need to be fertilized to lay eggs. Egg laying will be slower if the creature starves. -->
@@ -541,7 +541,7 @@
   <!-- EN: Wool shearing interval -->
   <Stat_Animal_WoolGrowthTime>فترة جز الصوف</Stat_Animal_WoolGrowthTime>
   <!-- EN: The time after shearing before this creature can be shorn again. -->
-  <Stat_Animal_WoolGrowthTimeDesc>الوقت المطلوبة بعد الجز قبل أن يصبح بالإمكان جز صوف هذا المخلوق مجدداً.</Stat_Animal_WoolGrowthTimeDesc>
+  <Stat_Animal_WoolGrowthTimeDesc>الوقت المطلوب بعد الجز قبل أن يصبح بالإمكان جز صوف هذا المخلوق مجدداً.</Stat_Animal_WoolGrowthTimeDesc>
   <!-- EN: Wool amount per year -->
   <Stat_Animal_WoolPerYear>كمية الصوف السنوية</Stat_Animal_WoolPerYear>
   <!-- EN: The amount of wool produced by this creature per year.\n\nThis is calculated from wool amount and wool shearing interval. -->
