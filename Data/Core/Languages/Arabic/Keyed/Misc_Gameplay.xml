@@ -111,17 +111,17 @@
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
   <ExecuteColonist>إعدام مستعمر مذنب\n\nإذا قمت بتفعيل هذا الخيار، سيقوم السجان بإعدام هذا الشخص.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>تم تحديد {0_labelShort} للإعدام. سيقوم أول سجان متاح بتنفيذ حكم الإعدام في{0_objective}.</MessageColonistMarkedForExecution>
+  <MessageColonistMarkedForExecution>تم تحديد {0_labelShort} للإعدام. سيقوم أول سجان متاح بتنفيذ حكم الإعدام فيـ{0_objective}.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} الخاص بـ {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>سيؤدي هذا الإجراء إلى جعل {PAWN_nameDef} يفقد لقبه {TITLE}. لن تتلقى أي تعويض عن التنازل عن اللقب.\n\nسيكون لهذا التأثيرات التالية:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>سيؤدي هذا الإجراء إلى جعل {PAWN_nameDef} يفقد لقبـ{PAWN_possessive} {TITLE}. لن تتلقى أي تعويض عن التنازل عن اللقب.\n\nسيكون لهذا التأثيرات التالية:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
-  <RenounceTitleWillLoosePermits>سيفقد{PAWN_pronoun} هذه التصاريح</RenounceTitleWillLoosePermits>
+  <RenounceTitleWillLoosePermits>سيفقد {PAWN_pronoun} هذه التصاريح</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>سيفقد {PAWN_nameDef} عدد {POINTS} من نقاط التصاريح غير المستخدمة لدى {FACTION_name}.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>سيحتفظ{PAWN_pronoun} بجميع مستويات الـ psylink والـ psycasts الخاصة به.</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>سيحتفظ {PAWN_pronoun} بجميع مستويات الـ psylink والـ psycasts الخاصة به.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>مجهول</UnknownLower>
   <!-- EN: On -->
@@ -441,9 +441,9 @@
   <!-- EN: already has {0} -->
   <AlreadyHasHediff>لديه بالفعل {0}</AlreadyHasHediff>
   <!-- EN: turret -->
-  <Turret>برج دفاعي</Turret>
+  <Turret>مدفع</Turret>
   <!-- EN: turrets -->
-  <Turrets>أبراج دفاعية</Turrets>
+  <Turrets>مدافع</Turrets>
   <!-- EN: mortar -->
   <Mortar>هاون</Mortar>
   <!-- EN: mortars -->
@@ -487,7 +487,7 @@
   <!-- EN: Large explosion if damaged. -->
   <ExplosionOnDamageWarning>انفجار كبير في حال تعرضه للتلف.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
-  <MechCluster>عنقود آلي</MechCluster>
+  <MechCluster>عنقود ميكانويدات</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>يظهر في {0}</SpawningNextPawnIn>
   <!-- EN: {0} gestation completes in {1}. -->
@@ -507,7 +507,7 @@
   <!-- EN: Sealed -->
   <DormantCompSealed>مختوم</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>جاهز لإسقاط الآليين</DormantCompBeacon>
+  <DormantCompBeacon>جاهز لإسقاط الميكانويدات</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>منتهي الصلاحية</DormantCompExpired>
   <!-- EN: Initiates in -->
@@ -1395,9 +1395,9 @@
   <!-- EN: No settlement to return to. Form a settlement first. -->
   <ShipNoSettlementToReturnTo>لا توجد مستوطنة للعودة إليها. قم بإنشاء مستوطنة أولاً.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)شارلون وايتستون(/Name) جاهز لبدء تسلسل استعادة سبات المفاعل.\n\nيحذرك من أن العملية ستستغرق حوالي 15 يوماً، وسيكون من الممكن اكتشاف بصمة الطاقة من مسافة بعيدة.\n\nهذا النوع من بصمة الطاقة يشير إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من المغيرين اليائسين وأسراباً من الميكانويد الفتاكة.\n\nستتعرض لهجوم بشدة لم ترَ مثله من قبل. تأكد من استعداد دفاعاتك أولاً.</HibernateWarning>
+  <HibernateWarning>(*Name)شارلون وايتستون(/Name) جاهز لبدء تسلسل استعادة سبات المفاعل.\n\nيحذرك من أن العملية ستستغرق حوالي 15 يوماً، وسيكون من الممكن اكتشاف بصمة الطاقة من مسافة بعيدة.\n\nهذا النوع من بصمة الطاقة يشير إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من المغيرين اليائسين وأسراباً من الميكانويدات الفتاكة.\n\nستتعرض لهجوم بشدة لم ترَ مثله من قبل. تأكد من استعداد دفاعاتك أولاً.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>المفاعل جاهز للتشغيل.\n\nستستغرق العملية حوالي 15 يوماً، وسيكون من الممكن اكتشاف بصمة الطاقة من مسافة بعيدة. يشير هذا النوع من بصمة الطاقة إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من المغيرين اليائسين وأسراباً من الميكانويد الفتاكة.\n\nستتعرض لهجوم بشدة لم ترَ مثله من قبل. تأكد من استعداد دفاعاتك أولاً.</HibernateWarningStandalone>
+  <HibernateWarningStandalone>المفاعل جاهز للتشغيل.\n\nستستغرق العملية حوالي 15 يوماً، وسيكون من الممكن اكتشاف بصمة الطاقة من مسافة بعيدة. يشير هذا النوع من بصمة الطاقة إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من المغيرين اليائسين وأسراباً من الميكانويدات الفتاكة.\n\nستتعرض لهجوم بشدة لم ترَ مثله من قبل. تأكد من استعداد دفاعاتك أولاً.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>(*Name)شارلون وايتستون(/Name) جاهز لبدء تسلسل استعادة سبات المفاعل. يحذرك من أن العملية ستستغرق حوالي 15 يوماً.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
@@ -1469,7 +1469,7 @@
   <!-- EN: You've launched the ship! -->
   <GameOverShipLaunchedIntro>لقد أطلقت السفينة!</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunchedEnding>ستحاول شخصيتك الآلية الآن توجيه السفينة إلى مكان آمن. قد تجد كوكباً مزدهراً في هذا النظام. أو قد تقوم برحلة تستغرق قروناً إلى نجم آخر. قد تقرر حتى الاختباء تحت الجليد على كويكب لبضعة آلاف من السنين، في انتظار شخص ما لبناء عالم جديد متألق هنا.\n\nستعرف ذلك عندما تستيقظ.</GameOverShipLaunchedEnding>
+  <GameOverShipLaunchedEnding>ستحاول شخصيتك الآلية الآن توجيه السفينة إلى مكان آمن. قد تجد كوكباً مزدهراً في هذا النظام. أو قد تقوم برحلة تستغرق قروناً إلى نجم آخر. قد تقرر حتى الاختباء تحت الجليد على كويكب لبضعة آلاف من السنين، في انتظار شخص ما لبناء عالم لامع جديد هنا.\n\nستعرف ذلك عندما تستيقظ.</GameOverShipLaunchedEnding>
   <!-- EN: These colonists escaped:\n\n{0} -->
   <GameOverColonistsEscaped>هؤلاء المستعمرون هربوا:\n\n{0}</GameOverColonistsEscaped>
   <!-- EN: These colonists were left behind:\n\n{0} -->
