@@ -11,7 +11,7 @@
   <!-- EN: Need anomaly project -->
   <NeedAnomalyProject>تحتاج مشروع شذوذ</NeedAnomalyProject>
   <!-- EN: You have an entity marked for study but don't have a matching anomaly research project selected: -->
-  <NeedAnomalyProjectDesc>لديك كيان معلم للدراسة لكن ليس لديك مشروع بحث شذوذ مطابق محدد:</NeedAnomalyProjectDesc>
+  <NeedAnomalyProjectDesc>لديك كيان معلّم للدراسة لكن ليس لديك مشروع بحث شذوذ مطابق محدد:</NeedAnomalyProjectDesc>
   <!-- EN: Need {NAME} anomaly research project -->
   <NeedAnomalyProjectDescLine>تحتاج مشروع بحث شذوذ {NAME}</NeedAnomalyProjectDescLine>
   <!-- EN: Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.) -->
@@ -20,7 +20,7 @@
   <!-- EN: Visitor ignored -->
   <CreepJoinerTimeout>تجاهل الزائر</CreepJoinerTimeout>
   <!-- EN: The following visitors feel ignored and are becoming increasingly upset -->
-  <CreepJoinerTimeoutDesc>الزوار التالون يشعرون بالتجاهل ويزداد انزعاجهم</CreepJoinerTimeoutDesc>
+  <CreepJoinerTimeoutDesc>الزوار التاليون يشعرون بالتجاهل ويتزايد انزعاجهم</CreepJoinerTimeoutDesc>
   <!-- EN: Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored. -->
   <CreepJoinerTimeoutDescAppended>اختر مستعمراً وانقر بزر الماوس الأيمن على الزائر.\n\nتحرك بسرعة... لا يحبون التجاهل.</CreepJoinerTimeoutDescAppended>
 
@@ -32,14 +32,14 @@
   <!-- EN: Cultist psychic ritual -->
   <Alert_CultistPsychicRitual>طقس نفسي طائفي</Alert_CultistPsychicRitual>
   <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
-  <Alert_CultistPsychicRitualDesc>بدأ {INVOKER_kindDef} {INVOKER_nameDef} في أداء طقس {RITUAL_definite}. إذا لم تقاطع {INVOKER_objective}، فقد تكون العواقب وخيمة.</Alert_CultistPsychicRitualDesc>
+  <Alert_CultistPsychicRitualDesc>بدأ {INVOKER_kindDef} {INVOKER_nameDef} في أداء طقس {RITUAL_definite}. إذا لم تقاطعـ{INVOKER_objective}، فقد تكون العواقب وخيمة.</Alert_CultistPsychicRitualDesc>
 
   <!-- EN: Ghoul starvation -->
   <AlertMeatHunger>جوع الغيلان</AlertMeatHunger>
   <!-- EN: These ghouls hunger for raw meat -->
-  <AlertMeatHungerDesc>هذه الغيلان جائعة للحم نيء</AlertMeatHungerDesc>
+  <AlertMeatHungerDesc>هذه الغيلان جائعة للحوم النيئة</AlertMeatHungerDesc>
   <!-- EN: They may attack if they're not fed soon. Get them some meat. -->
-  <AlertMeatHungerDescAppended>قد تهاجم إذا لم تُطعم قريباً. أحضر لها بعض اللحم.</AlertMeatHungerDescAppended>
+  <AlertMeatHungerDescAppended>قد تهاجم إذا لم تُطعم قريباً. أحضر لها بعض اللحوم.</AlertMeatHungerDescAppended>
   
   <!-- EN: Pit gate opening -->
   <AlertEmergingPitGate>فتح بوابة الحفرة</AlertEmergingPitGate>
@@ -63,7 +63,7 @@
   <!-- EN: The following people are suffering from cube withdrawal -->
   <AlertCubeWithdrawalDesc>الأشخاص التالون يعانون من أعراض انسحاب المكعب</AlertCubeWithdrawalDesc>
   <!-- EN: Their skin itches and their mind races, craving closeness to the golden cube. Their symptoms will worsen until they can play with the cube.\n\nEnsure that they have free time and can reach the golden cube. -->
-  <AlertCubeWithdrawalDescAppended>جلدهم يسبب الحكة وعقولهم تتسارع، متلهفين للقرب من المكعب الذهبي. ستزداد أعراضهم سوءاً حتى يتمكنوا من اللعب بالمكعب.\n\nتأكد من أن لديهم وقت فراغ ويمكنهم الوصول إلى المكعب الذهبي.</AlertCubeWithdrawalDescAppended>
+  <AlertCubeWithdrawalDescAppended>يعانون من حكة جلدية وتسارع في الأفكار، تواقين للاقتراب من المكعب الذهبي. ستتفاقم أعراضهم حتى يتمكنوا من اللعب بالمكعب.\n\nتأكد من توفر وقت فراغ لديهم وإمكانية وصولهم إلى المكعب الذهبي.</AlertCubeWithdrawalDescAppended>
 
   <!-- EN: Devourer digestion -->
   <AlertDigestion>هضم الملتهم</AlertDigestion>
@@ -80,12 +80,12 @@
   <!-- EN: Entity treatment needed -->
   <EntityNeedsTreatment>الكيان يحتاج علاج</EntityNeedsTreatment>
   <!-- EN: These entities need medical treatment. Without it, they may die in captivity.\n{0}\n\nSend a doctor to treat them. -->
-  <EntityNeedsTreatmentDesc>هذه الكيانات تحتاج علاجاً طبياً. بدونه، قد تموت في الأسر.\n{0}\n\nأرسل طبيباً لعلاجها.</EntityNeedsTreatmentDesc>
+  <EntityNeedsTreatmentDesc>هذه الكيانات تحتاج إلى علاج طبي. بدونه، قد تموت في الأسر.\n{0}\n\nأرسل طبيباً لعلاجها.</EntityNeedsTreatmentDesc>
 
   <!-- EN: Ghoul hypothermia -->
   <AlertGhoulHypothermia>انخفاض حرارة الغيلان</AlertGhoulHypothermia>
   <!-- EN: These ghouls are suffering from hypothermia:\n{0}\n\nGet them to warmer temperatures. -->
-  <AlertGhoulHypothermiaDesc>تعاني هذه الغيلان من انخفاض حرارة الجسم:\n{0}\n\nانقلها إلى درجات حرارة أدفأ.</AlertGhoulHypothermiaDesc>
+  <AlertGhoulHypothermiaDesc>تعاني هذه الغيلان من انخفاض حرارة الجسم:\n{0}\n\nانقلهم إلى درجات حرارة أكثر دفئاً.</AlertGhoulHypothermiaDesc>
   
   <!-- EN: Gray flesh -->
   <AlertGrayFleshSample>لحم رمادي</AlertGrayFleshSample>
@@ -94,7 +94,7 @@
   <!-- EN: Neural lump -->
   <AlertNeuralLump>كتلة عصبية</AlertNeuralLump>
   <!-- EN: A fleshmass nerve bundle has dropped a neural lump. Analyze it to learn how to kill the fleshmass heart. -->
-  <AlertNeuralLumpDesc>أسقطت حزمة عصبية للكتلة اللحمية كتلة عصبية. حللها لتعرف كيف تقتل قلب الكتلة اللحمية.</AlertNeuralLumpDesc>
+  <AlertNeuralLumpDesc>أسقطت حزمة عصبية من الكتلة اللحمية كتلة عصبية. حللها لتعرف كيف تقتل قلب الكتلة اللحمية.</AlertNeuralLumpDesc>
   <!-- EN: Revenant flesh -->
   <AlertRevenantFlesh>لحم العائد</AlertRevenantFlesh>
   <!-- EN: The wounded revenant left behind a piece of itself. Analyze it to learn how to track the revenant. -->
