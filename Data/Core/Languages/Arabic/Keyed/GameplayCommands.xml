@@ -20,7 +20,7 @@
   <!-- EN: Designate toggle power -->
   <CommandDesignateTogglePowerLabel>تعيين تبديل الطاقة</CommandDesignateTogglePowerLabel>
   <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
-  <CommandDesignateTogglePowerDesc>تعيين هذا الشيء ليتم تبديل طاقته. سيأتي أحد المستعمرين قريبًا لقلب المفتاح.</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>تعيين هذا الشيء لتبديل طاقته. سيأتي أحد المستعمرين قريبًا لقلب المفتاح.</CommandDesignateTogglePowerDesc>
   
   <!-- EN: Reconnect -->
   <CommandTryReconnectLabel>إعادة الاتصال</CommandTryReconnectLabel>
@@ -187,11 +187,11 @@
   <!-- EN: Set forced target -->
   <CommandSetForceAttackTarget>تحديد هدف إجباري</CommandSetForceAttackTarget>
   <!-- EN: Sets a target that this turret must attack continuously as long as it can. -->
-  <CommandSetForceAttackTargetDesc>تحديد هدف يجب أن تهاجمه هذه البرج بشكل مستمر طالما كان ذلك ممكنًا.</CommandSetForceAttackTargetDesc>
+  <CommandSetForceAttackTargetDesc>تحديد هدف يجب أن يهاجمه هذا المدفع بشكل مستمر طالما كان ذلك ممكناً.</CommandSetForceAttackTargetDesc>
   <!-- EN: Stop forced attack -->
   <CommandStopForceAttack>إيقاف الهجوم الإجباري</CommandStopForceAttack>
   <!-- EN: Stops force-attacking and allows the turret to fire as it wishes. -->
-  <CommandStopForceAttackDesc>إيقاف الهجوم الإجباري والسماح للبرج بإطلاق النار كما تشاء.</CommandStopForceAttackDesc>
+  <CommandStopForceAttackDesc>إيقاف الهجوم الإجباري والسماح للمدفع بإطلاق النار كما تشاء.</CommandStopForceAttackDesc>
   <!-- EN: Not currently force-attacking. -->
   <CommandStopAttackFailNotForceAttacking>لا يوجد هجوم إجباري حاليًا.</CommandStopAttackFailNotForceAttacking>
   <!-- EN: Extract shell -->
@@ -255,7 +255,7 @@
   <!-- EN: Reinstall at... -->
   <CommandReinstall>إعادة تثبيت في...</CommandReinstall>
   <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
-  <CommandReinstallDesc>تعيين هذا العنصر ليتم إلغاء تثبيته وإعادة تثبيته في مكان آخر.</CommandReinstallDesc>
+  <CommandReinstallDesc>تعيين هذا العنصر لإلغاء تثبيته وإعادة تثبيته في مكان آخر.</CommandReinstallDesc>
   <!-- EN: Replant -->
   <CommandReplant>إعادة زراعة</CommandReplant>
   <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
@@ -409,7 +409,7 @@
   <!-- EN: Abandon -->
   <CommandAbandonHome>تخلي</CommandAbandonHome>
   <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
-  <CommandAbandonHomeDesc>التخلي عن هذه المنطقة. ستصبح المنطقة غير قابلة للوصول ولن تتمكن من العودة إلى هنا مرة أخرى. بعد التخلي عن منزلك، ستتمكن من أمر إحدى قوافلكم بالاستيطان في منطقة جديدة.</CommandAbandonHomeDesc>
+  <CommandAbandonHomeDesc>التخلي عن هذه المنطقة. ستصبح المنطقة غير قابلة للوصول ولن تتمكن من العودة إلى هنا مرة أخرى. بعد التخلي عن منزلك، ستتمكن من أمر إحدى قوافلك بالاستيطان في منطقة جديدة.</CommandAbandonHomeDesc>
   <!-- EN: All of your colonists are there. -->
   <CommandAbandonHomeFailAllColonistsThere>كل مستعمريك هناك.</CommandAbandonHomeFailAllColonistsThere>
   
@@ -455,7 +455,7 @@
   <!-- EN: Trade -->
   <CommandTrade>تجارة</CommandTrade>
   <!-- EN: Trade with this faction. -->
-  <CommandTradeDesc>التجارة مع هذه الفصيل.</CommandTradeDesc>
+  <CommandTradeDesc>التجارة مع هذا الفصيل.</CommandTradeDesc>
   <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>لا يوجد مفاوض واعٍ وقادر.</CommandTradeFailNoNegotiator>
   <!-- EN: None of your people have the required faction permission: {0} -->
@@ -708,7 +708,7 @@
   <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
   <LinkStorageSettingsDesc>ربط إعدادات التخزين للمباني المتعددة المحددة بحيث تتشارك في إعدادات التخزين.\n\nستبدأ المجموعة بإعدادات أي شيء قمت بتحديده أولاً.</LinkStorageSettingsDesc>
   <!-- EN: You must select two or more buildings to link their storage settings. -->
-  <LinkStorageDisabledSelectTwo>يجب عليك تحديد مبنيين أو أكثر لربط إعدادات التخزين الخاصة بهم.</LinkStorageDisabledSelectTwo>
+  <LinkStorageDisabledSelectTwo>يجب عليك تحديد مبنيين أو أكثر لربط إعدادات التخزين الخاصة بهما.</LinkStorageDisabledSelectTwo>
   <!-- EN: Already linked. -->
   <AlreadyLinked>مرتبط بالفعل.</AlreadyLinked>
   <!-- EN: Unlink settings -->
