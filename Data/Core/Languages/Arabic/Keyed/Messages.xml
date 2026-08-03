@@ -9,12 +9,12 @@
   <!-- EN: {0} from {1} have detected you and begun their assault early. -->
   <MessageRaidersDetectedEarlyAssault>لقد اكتشفتك {0} من {1} وبدأت هجومها مبكرًا.</MessageRaidersDetectedEarlyAssault>
   <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
-  <MessageRaidersKidnapping>قررت {0} من {1} خطف من يمكنهم المغادرة.</MessageRaidersKidnapping>
+  <MessageRaidersKidnapping>قررت {0} من {1} خطف من يستطيعون والمغادرة.</MessageRaidersKidnapping>
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
-  <MessageRaidersStealing>قررت {0} من {1} سرقة ما يمكنهم والمغادرة.</MessageRaidersStealing>
+  <MessageRaidersStealing>قررت {0} من {1} سرقة ما يستطيعون والمغادرة.</MessageRaidersStealing>
 
   <!-- EN: The mechanoids sense no more targets and are moving on. -->
-  <MechanoidsMovingOn>لا تشعر الميكانيدات بأي أهداف أخرى وهي تغادر.</MechanoidsMovingOn>
+  <MechanoidsMovingOn>لم تعد الميكانويدات تستشعر أهدافاً أكثر و هم يغادرون.</MechanoidsMovingOn>
 
   <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
   <MessageCaravanDetectedRaidArrived>وصلت {0} من {1} وهي تهاجم! المزيد في الطريق وسيصلون خلال {2}.</MessageCaravanDetectedRaidArrived>
@@ -32,9 +32,9 @@
   <MessageFriendlyFightersLeaving>تغادر {0} الصديقة من {1}.</MessageFriendlyFightersLeaving>
 
   <!-- EN: {0} from {1} are taking a wounded guest. -->
-  <MessageVisitorsTakingWounded>تأخذ {0} من {1} ضيفًا جريحًا.</MessageVisitorsTakingWounded>
+  <MessageVisitorsTakingWounded>تأخذ {0} من {1} ضيفاً جريحاً.</MessageVisitorsTakingWounded>
   <!-- EN: {0} from {1} have been trapped and are digging out to escape. -->
-  <MessageVisitorsTrappedLeaving>لقد حوصرت {0} من {1} وهم يحفرون للخروج هربًا.</MessageVisitorsTrappedLeaving>
+  <MessageVisitorsTrappedLeaving>لقد حوصر {0} من {1} وهم يحفرون للخروج هرباً.</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>تغادر {0} من {1} الخريطة بسبب درجة الحرارة الخطيرة.</MessageVisitorsDangerousTemperature>
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
@@ -135,7 +135,7 @@
   <!-- EN: Must designate painted buildings or floors. -->
   <MessageMustDesignatePainted>يجب تحديد المباني أو الأرضيات المطلية.</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
-  <MessageMustDesignateDeconstructibleMechCluster>يجب عليك هزيمة عنقود الميكانيدات قبل أن تتمكن من تفكيكه.</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMustDesignateDeconstructibleMechCluster>يجب عليك هزيمة عنقود الميكانويدات قبل أن تتمكن من تفكيكه.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>يجب تحديد الأسطح الصخرية الخشنة.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Must designate rough stone terrain. -->
@@ -175,7 +175,7 @@
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>لا توجد أسرة حيوانات متاحة.</MessageNoAnimalBeds>
   <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
-  <MessageWarningNoMedicineForRestriction>تحذير: قيود الأدوية الخاصة بـ {PAWN_nameDef} ({RESTRICTIONLABEL}) تمنع إجراء هذه العملية. فكّر في تغيير قيود الأدوية الخاصة به.</MessageWarningNoMedicineForRestriction>
+  <MessageWarningNoMedicineForRestriction>تحذير: قيود أدوية {PAWN_nameDef} ({RESTRICTIONLABEL}) تمنع إجراء هذه العملية. فكّر في تغيير قيود أدويتـ{PAWN_possessive}.</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>مات {PAWN_labelShort}. السبب: {1}.</PawnDiedBecauseOf>
@@ -218,7 +218,7 @@
   <MessageAttackedByPredator>{PREY_labelShort} يتعرض للهجوم من قبل {PREDATOR}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>بدأ {PAWN_labelShort} يهيم بعيدًا! سيغادر الخريطة ما لم يقم مروض حيوانات بربطه وإعادته إلى الحظيرة.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>بدأ {PAWN_labelShort} يهيم بعيدًا! سيغادر الخريطة ما لم يقم مروض حيوانات بربطـ{PAWN_objective} وإعادتـ{PAWN_objective} إلى الحظيرة.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>لقد تكاثرت خلية حشرات.</MessageHiveReproduced>
@@ -385,7 +385,7 @@
   <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
   <MessageWorldObjectIsInvalid>{OBJECT_labelCap} ليست وجهة صالحة.</MessageWorldObjectIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
-  <MessageTransportPodsDestinationIsTooFar>ستحتاج كل منصة إطلاق كبسولات إلى {0}x من وقود الكيمياء على الأقل لإرسال كبسولات النقل إلى هذا البعد.</MessageTransportPodsDestinationIsTooFar>
+  <MessageTransportPodsDestinationIsTooFar>ستحتاج كل منصة إطلاق كبسولات إلى {0}x من الوقود الكيميائي على الأقل لإرسال كبسولات النقل إلى هذا البعد.</MessageTransportPodsDestinationIsTooFar>
   
   <!-- EN: The caravan has been reformed. -->
   <MessageReformedCaravan>تم تشكيل القافلة من جديد.</MessageReformedCaravan>
@@ -430,11 +430,11 @@
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>تشن {0} من {1} هجومًا على {2} الخاص بك.</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been gestated and will defend their cluster. -->
-  <MessageMechanoidsAssembled>تم توليد الميكانيدات وسيدافعون عن عنقودهم.</MessageMechanoidsAssembled>
+  <MessageMechanoidsAssembled>تم توليد الميكانويدات وسيدافعون عن عنقودهم.</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to gestate -->
-  <MessageMechanoidsLeftToAssemble>الميكانيدات المتبقية ليتم توليدها</MessageMechanoidsLeftToAssemble>
+  <MessageMechanoidsLeftToAssemble>الميكانويدات المتبقية ليتم توليدها</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
-  <MessageMechanoidsReinforcementsDrop>استدعت منارة إسقاط الميكانيدات تعزيزات في كبسولات إسقاط قريبة.</MessageMechanoidsReinforcementsDrop>
+  <MessageMechanoidsReinforcementsDrop>استدعت منارة إسقاط الميكانويدات تعزيزات في كبسولات إسقاط قريبة.</MessageMechanoidsReinforcementsDrop>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
   <MessageSelfTendUnsatisfied>للقيام بالعلاج الذاتي، يجب أيضًا تعيين {1_labelShort} في عمل الطبيب.</MessageSelfTendUnsatisfied>
@@ -464,7 +464,7 @@
   <!-- EN: {0} have woken up. -->
   <MessageSleepingPawnsWokenUp>استيقظ {0}.</MessageSleepingPawnsWokenUp>
   <!-- EN: Mech cluster buildings have been defeated. -->
-  <MessageMechClusterDefeated>تم هزيمة مباني عنقود الميكانيدات.</MessageMechClusterDefeated>
+  <MessageMechClusterDefeated>تم هزيمة مباني عنقود الميكانويدات.</MessageMechClusterDefeated>
 
   <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>عنصر تم إنتاجه: {0}.</MessageCompSpawnerSpawnedItem>
@@ -496,13 +496,13 @@
   <MessageWarningCavePlantsExposedToLight>تحذير: لا يمكن لـ {0} العيش عند تعرضه للضوء.</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>لم يتمكن {PAWN_labelShort} من الوصول إلى {OLDTARGET_label} فقرر توجيه غضبه نحو {TARGET_label}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>لم يتمكن {PAWN_labelShort} من الوصول إلى {OLDTARGET_label} فقرر توجيه غضبـ{PAWN_possessive} نحو {TARGET_label}.</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>لم يتمكن {PAWN_labelShort} من الوصول إلى {OLDTARGET_label} فقرر توجيه غضبه نحو {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>لم يتمكن {PAWN_labelShort} من الوصول إلى {OLDTARGET_label} فقرر توجيه غضبـ{PAWN_possessive} نحو {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageMurderousRageChangedTarget>قرر {PAWN_labelShort} توجيه غضبه نحو {TARGET_label}.</MessageMurderousRageChangedTarget>
+  <MessageMurderousRageChangedTarget>قرر {PAWN_labelShort} توجيه غضبـ{PAWN_possessive} نحو {TARGET_label}.</MessageMurderousRageChangedTarget>
 
   <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>لا يمكن لـ {0} النمو تحت سقف.</MessagePlantIncompatibleWithRoof>
@@ -635,7 +635,7 @@
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>ستبدأ محاولات التجنيد.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
-  <MessageModWithPackageIdAlreadyEnabled>هناك تعديل (mod) آخر يحمل معرف الحزمة {0} نشط بالفعل. قم بإلغاء تنشيط {1} قبل محاولة تنشيط هذا.</MessageModWithPackageIdAlreadyEnabled>
+  <MessageModWithPackageIdAlreadyEnabled>هناك تعديل آخر يحمل معرف الحزمة {0} نشط بالفعل. قم بإلغاء تنشيط {1} قبل محاولة تنشيط هذا.</MessageModWithPackageIdAlreadyEnabled>
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>قم بتعطيل جميع التعديلات قبل استخدام هذه الأداة.</MessageDisableModsBeforeCleaningTranslationFiles>
   <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
@@ -647,7 +647,7 @@
   <MessageCantCleanupTranslationFilesBeucaseOfXmlError>تعذر تحميل أحد ملفات الترجمة ({0}). يجب حل جميع أخطاء تحليل XML أولاً.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
-  <MessageCapturingWillAngerFaction>تحذير: اعتقال {PAWN_nameDef} سيغضب فصيله {PAWN_factionName}.</MessageCapturingWillAngerFaction>
+  <MessageCapturingWillAngerFaction>تحذير: اعتقال {PAWN_nameDef} سيغضب فصيلـ{PAWN_possessive} {PAWN_factionName}.</MessageCapturingWillAngerFaction>
 
   <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
   <MessageStrippingWillAngerFaction>تحذير: تجريد {PAWN_nameDef} من ملابسه سيغضب {PAWN_factionName}.</MessageStrippingWillAngerFaction>
@@ -757,7 +757,7 @@
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>لا يمكن أن يؤدي هذا الدور شخص آخر.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>لا يمكن لـ {0_labelShort} الاتصال بشجرة غورانلين لأن اتصاله قُطع مؤخرًا.</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnRecentlyTornConnection>لا يمكن لـ {0_labelShort} الاتصال بشجرة غورانلين لأن اتصالـ{0_possessive} قُطع مؤخرًا.</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
   <MessageRitualRolePawnHasSameIdeo>{0_labelShort} لديه نفس أيديولوجية المحوّل.</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
