@@ -5,11 +5,11 @@
   <ClickToJumpToProblem>انقر للانتقال إلى المشكلة</ClickToJumpToProblem>
 
   <!-- EN: Minor break risk -->
-  <BreakRiskMinor>خطر انهيار طفيف</BreakRiskMinor>
+  <BreakRiskMinor>خطر انهيار عقلي طفيف</BreakRiskMinor>
   <!-- EN: Major break risk -->
-  <BreakRiskMajor>خطر انهيار كبير</BreakRiskMajor>
+  <BreakRiskMajor>خطر انهيار عقلي كبير</BreakRiskMajor>
   <!-- EN: Extreme break risk -->
-  <BreakRiskExtreme>خطر انهيار شديد</BreakRiskExtreme>
+  <BreakRiskExtreme>خطر انهيار عقلي شديد</BreakRiskExtreme>
   <!-- EN: These colonists are in a poor mood and may have a minor mental break at any time:\n{0} -->
   <BreakRiskMinorDesc>هؤلاء المستعمرون في مزاج سيئ وقد يتعرضون لانهيار عقلي طفيف في أي وقت:\n{0}</BreakRiskMinorDesc>
   <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n{0} -->
@@ -49,12 +49,12 @@
   <NeedWardenDesc>لديك سجين، ولكن لا يوجد مستعمر لديه نوع عمل "السجان".\n\nقم بتعيين مستعمر لنوع عمل "السجان".</NeedWardenDesc>
 
   <!-- EN: Low food -->
-  <LowFood>طعام منخفض</LowFood>
+  <LowFood>نقص الطعام</LowFood>
   <!-- EN: You are dangerously low on food.\n\n    Full bars worth of food in storage: {0}\n    Colonists and prisoners getting food: {1}\n    Days worth of food in storage: {2}\n\nGrow, buy, find, or kill some food. -->
-  <LowFoodDesc>لديك نقص خطير في الطعام.\n\n    كمية الطعام الكاملة في المخزن: {0}\n    المستعمرون والسجناء الذين يتناولون الطعام: {1}\n    أيام كفاية الطعام في المخزن: {2}\n\nقم بزراعة أو شراء أو العثور على أو صيد بعض الطعام.</LowFoodDesc>
+  <LowFoodDesc>لديك نقص خطير في الطعام.\n\n    كمية الطعام الكاملة في المخزن: {0}\n    المستعمرون والسجناء الذين يتناولون الطعام: {1}\n    أيام كفاية الطعام في المخزن: {2}\n\nقم بزراعة، أو شراء، أو العثور على، أو صيد بعض الطعام.</LowFoodDesc>
 
   <!-- EN: Low medicine -->
-  <LowMedicine>دواء منخفض</LowMedicine>
+  <LowMedicine>نقص الدواء</LowMedicine>
   <!-- EN: You only have {0} medications left in storage.\n\nBuy more medicine from traders. -->
   <LowMedicineDesc>لم يتبق لديك سوى {0} من الأدوية في المخزن.\n\nاشترِ المزيد من الأدوية من التجار.</LowMedicineDesc>
   <!-- EN: You have no medicine left in storage.\n\nBuy more medicine from traders. -->
@@ -215,7 +215,7 @@
   <!-- EN: All of your colonists will lack warm clothes when the cold season comes. -->
   <NeedWarmClothesDesc1All>سيفتقر جميع مستعمريك إلى الملابس الدافئة عندما يأتي موسم البرد.</NeedWarmClothesDesc1All>
   <!-- EN: The outdoor temperature is going to reach {0}.\n\nYou can tailor warm clothes at the tailoring bench, or buy them from traders. -->
-  <NeedWarmClothesDesc2>ستصل درجة الحرارة الخارجية إلى {0}.\n\nيمكنك خياطة ملابس دافئة في منضدة الخياطة، أو شراؤها من التجار.</NeedWarmClothesDesc2>
+  <NeedWarmClothesDesc2>ستصل درجة الحرارة الخارجية إلى {0}.\n\nيمكنك خياطة ملابس دافئة في طاولة الخياطة، أو شراؤها من التجار.</NeedWarmClothesDesc2>
 
   <!-- EN: Immobile caravan -->
   <ImmobileCaravan>قافلة عاجزة عن الحركة</ImmobileCaravan>
