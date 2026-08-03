@@ -19,7 +19,7 @@
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>معجزة</LetterLabelMiracleHeal>
   <!-- EN: {0} has experienced a miraculous recovery! -->
-  <MiracleHeal>لقد شهد {0} تعافياً إعجازياً!</MiracleHeal>
+  <MiracleHeal>لقد تعافى {0} بشكل إعجازي!</MiracleHeal>
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
@@ -32,7 +32,7 @@
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>تحطم كبسولة نقل</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_titleIndef} يُدعى {PAWN_nameDef} يتحطم في كبسولة نقل قريبة. إذا نجا من الاصطدام، فسيكون مصابًا بجروح بليغة.</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_titleIndef} يُدعى {PAWN_nameDef} يتحطم في كبسولة نقل قريبة. إذا نجا{PAWN_pronoun} من الاصطدام، فسيكون{PAWN_pronoun} مصابًا بجروح بليغة.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is a child of {AGE}. -->
   <RefugeePodCrash_Child>{PAWN_nameDef} طفل يبلغ من العمر {AGE}.</RefugeePodCrash_Child>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
@@ -40,12 +40,12 @@
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>{PAWN_nameDef} من عدوك {PAWN_factionName}. يمكنك أسر{PAWN_objective} لأغراض التجنيد أو العبودية.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If {PAWN_pronoun} returns home safely, {PAWN_pronoun} will spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>{PAWN_nameDef} من {PAWN_factionName}. إذا عاد إلى منزله بسلام، فسينشر حسن النية بين فصيلتيكما.\n\nيمكنك أيضًا أسر{PAWN_objective} لأغراض التجنيد أو العبودية، لكن هذا سيغضب فصيلت{PAWN_possessive}.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} من {PAWN_factionName}. إذا عاد{PAWN_pronoun} إلى منزله بسلام، فسينشر{PAWN_pronoun} حسن النية بين فصيلتيكما.\n\nيمكنك أيضًا أسر{PAWN_objective} لأغراض التجنيد أو العبودية، لكن هذا سيغضب فصيلتـ{PAWN_possessive}.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>انضمام متجول: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>{PAWN_title} يُدعى {PAWN_nameDef} وصل ويريد الانضمام إلى المستعمرة.\n\nهو مستعد للمساهمة، لكنه لن يغادر طواعية، مدعيًا أنه ليس لديه مكان آخر يذهب إليه. يمكنك اختيار رفض طلبه وإرساله بعيدًا. ومع ذلك، سيشعر مستعمروك بالانزعاج من طرد شخص محتاج.</LetterWandererJoins>
+  <LetterWandererJoins>{PAWN_title} يُدعى {PAWN_nameDef} وصل ويريد الانضمام إلى المستعمرة.\n\n{PAWN_pronoun} مستعد للمساهمة، لكن{PAWN_pronoun} لن يغادر طواعية، مدعيًا أنه ليس لديه مكان آخر يذهب إليه. يمكنك اختيار رفض طلبـ{PAWN_objective} وإرسالـ{PAWN_objective} بعيدًا. ومع ذلك، سيشعر مستعمروك بالانزعاج من طرد شخص محتاج.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>كبسولات شحن</LetterLabelCargoPodCrash>
@@ -73,14 +73,14 @@
   <TraderArrivalNoFaction>إنهم لا يتبعون أي فصيل.</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>{PAWN_title} من {1} يمر من هنا. اسمه {PAWN_nameFull}.</SingleTravelerPassing>
+  <SingleTravelerPassing>{PAWN_title} من {1} يمر{PAWN_pronoun} من هنا.إسمـ{PAWN_pronoun} {PAWN_nameFull}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>مجموعة من المسافرين من {0} يمرون من هنا.</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>زائر</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>{PAWN_titleIndef} من {1} يزور المستعمرة.\n\nاسمه {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>{PAWN_titleIndef} من {1} يزور{PAWN_pronoun} المستعمرة.\n\nاسمـ{PAWN_pronoun} {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>يبدو أن {PAWN_pronoun} لديه بعض العناصر للتجارة.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
@@ -103,7 +103,7 @@
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
-  <MessageAnimalInsanityPulse>لقد أصدر {SOURCE_label} نبضة نفسية جعلت الحيوانات القريبة تهيج.</MessageAnimalInsanityPulse>
+  <MessageAnimalInsanityPulse>لقد أصدر {SOURCE_label} نبضة نفسية جعلت الحيوانات القريبة تجن.</MessageAnimalInsanityPulse>
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
   <LetterShipPartDroveColonistInsane>أصدر جزء السفينة المتحطم نبضة نفسية مركزة جعلت المستعمر {0} يصاب بالجنون.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
@@ -151,7 +151,7 @@
   <!-- EN: Rare thrumbos -->
   <LetterLabelThrumboPasses>ثرومبو نادر</LetterLabelThrumboPasses>
   <!-- EN: A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days. -->
-  <LetterThrumboPasses>تجولت قطيع صغير من الثرومبو إلى المنطقة.\n\nهذه المخلوقات النادرة مسالمة بطبيعتها، لكنها خطيرة للغاية عند مواجهتها. بعض التجار مستعدون لدفع الكثير من المال مقابل جلدها وقرنها الثمينين.\n\nسيغادر الثرومبو المنطقة خلال بضعة أيام.</LetterThrumboPasses>
+  <LetterThrumboPasses>تجول قطيع صغير من حيوانات الثرومبو إلى المنطقة.\n\nهذه المخلوقات النادرة مسالمة بطبيعتها، لكنها خطيرة للغاية عند مواجهتها. بعض التجار مستعدون لدفع الكثير من المال مقابل جلدها وقرنها الثمينين.\n\nسيغادر الثرومبو المنطقة خلال بضعة أيام.</LetterThrumboPasses>
   
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
@@ -165,7 +165,7 @@
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>طلب فدية عند {0}</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
-  <RansomDemand>يتصل بك {1} عبر الراديو. إنهم يحتجزون المستعمر السابق {PAWN_labelShort} للحصول على فدية.\n\nإنهم مستعدون لإطلاق سراح{PAWN_objective} مقابل {2} قطعة فضية.</RansomDemand>
+  <RansomDemand>يتصل بك {1} عبر الراديو. إنهم يحتجزون المستعمر السابق {PAWN_labelShort} للحصول على فدية.\n\nإنهم مستعدون لإطلاق سراحـ{PAWN_objective} مقابل {2} قطعة فضية.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>قبول</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -175,7 +175,7 @@
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>تم العثور على السفينة</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>لقد وصلت إلى الإحداثيات التي أرسلها (*Name)شارلون وايتستون(/Name) واكتشفت السفينة الفضائية المخفية.\n\nمفاعل السفينة لا يزال في وضع السبات العميق، لذا لا يمكنها الطيران بعد. يمكنك تشغيله بالتفاعل مع قلب الكمبيوتر.\n\nيحذرك (*Name)شارلون وايتستون(/Name) من أن عملية التشغيل ستستغرق حوالي 15 يومًا، وستكون بصمة الطاقة قابلة للاكتشاف من مسافة طويلة. هذا النوع من بصمات الطاقة يشير إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من المغيرين اليائسين وأسرابًا من الميكانيدات القاتلة.\n\nسوف تتعرض لهجوم بكثافة لم ترها من قبل. تأكد من استعداد دفاعاتك أولاً.</EscapeShipFound>
+  <EscapeShipFound>لقد وصلت إلى الإحداثيات التي أرسلها (*Name)شارلون وايتستون(/Name) واكتشفت السفينة الفضائية المخفية.\n\nمفاعل السفينة لا يزال في وضع السبات العميق، لذا لا يمكنها الطيران بعد. يمكنك تشغيله بالتفاعل مع قلب الكمبيوتر.\n\nيحذرك (*Name)شارلون وايتستون(/Name) من أن عملية التشغيل ستستغرق حوالي 15 يومًا، وستكون بصمة الطاقة قابلة للاكتشاف من مسافة طويلة. هذا النوع من بصمات الطاقة يشير إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من المغيرين اليائسين وأسرابًا من الميكانويدات القاتلة.\n\nسوف تتعرض لهجوم بكثافة لم ترها من قبل. تأكد من استعداد دفاعاتك أولاً.</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
   <EscapeShipFoundPeaceful>لقد وصلت إلى الإحداثيات التي أرسلها (*Name)شارلون وايتستون(/Name) واكتشفت السفينة الفضائية المخفية.\n\nمفاعل السفينة لا يزال في وضع السبات العميق، لذا لا يمكنها الطيران بعد. يمكنك تشغيله بالتفاعل مع قلب الكمبيوتر.\n\nيحذرك (*Name)شارلون وايتستون(/Name) من أن عملية التشغيل ستستغرق حوالي 15 يومًا.</EscapeShipFoundPeaceful>
 
