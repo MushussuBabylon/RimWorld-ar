@@ -4,18 +4,18 @@
   <!-- EN: Knowledge gain from study -->
   <KnowledgeFromStudy>اكتساب المعرفة من الدراسة</KnowledgeFromStudy>
   <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
-  <KnowledgeFromStudyDesc>نوع ومقدار معرفة الشذوذ التي يمكن الحصول عليها عند دراسة هذا الكيان. الكيانات الأكثر تعقيداً يمكنها فتح مشاريع بحث شذوذ أكثر تقدماً.</KnowledgeFromStudyDesc>
+  <KnowledgeFromStudyDesc>نوع ومقدار معرفة الشذوذ المُكتسبة من دراسة هذا الكيان. الكيانات الأكثر تعقيداً تتيح فتح مشاريع بحث شذوذ أكثر تقدماً.</KnowledgeFromStudyDesc>
   <!-- EN: {0} {1} -->
   <Stat_Knowledge>{0} {1}</Stat_Knowledge>
   <!-- EN: Study interval -->
-  <StudyFrequency>فترة الدراسة</StudyFrequency>
+  <StudyFrequency>فاصل الدراسة</StudyFrequency>
   <!-- EN: The duration between available study periods for this entity. -->
   <StudyFrequencyDesc>المدة بين فترات الدراسة المتاحة لهذا الكيان.</StudyFrequencyDesc>
   
   <!-- EN: Healing -->
   <Stat_Hediff_Regeneration_Name>شفاء</Stat_Hediff_Regeneration_Name>
   <!-- EN: A flat amount of healing per day. -->
-  <Stat_Hediff_Regeneration_Desc>مقدار ثابت من الشفاء في اليوم.</Stat_Hediff_Regeneration_Desc>
+  <Stat_Hediff_Regeneration_Desc>مقدار ثابت من الشفاء يومياً.</Stat_Hediff_Regeneration_Desc>
   <!-- EN: {0} hp/day -->
   <Stat_Hediff_Regeneration_Stat>{0} نقطة حياة/يوم</Stat_Hediff_Regeneration_Stat>
 
@@ -45,7 +45,7 @@
   <!-- EN: Multiplier for bioferrite density -->
   <StatsReport_BioferriteDensityMultiplier>مضاعف كثافة البيوفيرايت</StatsReport_BioferriteDensityMultiplier>
   <!-- EN: Multiplier for bioferrite extracted recently -->
-  <StatsReport_BioferriteExtractedMultiplier>مضاعف البيوفيرايت المستخرج مؤخراً</StatsReport_BioferriteExtractedMultiplier>
+  <StatsReport_BioferriteExtractedMultiplier>مضاعف البيوفيرايت المُستخرج مؤخراً</StatsReport_BioferriteExtractedMultiplier>
 
   <!-- EN: Offering -->
   <StatsReport_Offering>قربان</StatsReport_Offering>
@@ -60,12 +60,12 @@
   <!-- EN: Cooldown -->
   <StatsReport_RitualCooldown>فترة تهدئة</StatsReport_RitualCooldown>
   <!-- EN: After a ritual is performed, it disrupts ambient psychic energy for a period of time. During this time, the ritual can't be performed again. -->
-  <StatsReport_RitualCooldown_Desc>بعد أداء الطقس، يعطل الطاقة النفسية المحيطة لفترة من الزمن. خلال هذا الوقت، لا يمكن أداء الطقس مرة أخرى.</StatsReport_RitualCooldown_Desc>
+  <StatsReport_RitualCooldown_Desc>بعد إتمام الطقس، يضطرب المجال النفسي المحيط لفترة، ولا يمكن خلالها تكرار الطقس.</StatsReport_RitualCooldown_Desc>
 
   <!-- EN: Containment offset -->
   <StatsReport_ContainmentStrengthOffset>إزاحة الاحتواء</StatsReport_ContainmentStrengthOffset>
   <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
-  <StatsReport_ContainmentStrengthOffset_Desc>مدى تأثير هذا على قدرة منصة الاحتجاز على تقييد كيان. الكيانات المحتواة بشكل أفضل أقل احتمالاً للهرب وتوفر معرفة أكثر عند دراستها.</StatsReport_ContainmentStrengthOffset_Desc>
+  <StatsReport_ContainmentStrengthOffset_Desc>مدى تأثير هذا على قدرة منصة الاحتجاز في تقييد الكيان. الكيانات الأفضل احتواءً أقل عرضة للهرب وتوفر معرفة أكبر عند دراستها.</StatsReport_ContainmentStrengthOffset_Desc>
 
   <!-- EN: Duration -->
   <StatsReport_SerumDuration>المدة</StatsReport_SerumDuration>
