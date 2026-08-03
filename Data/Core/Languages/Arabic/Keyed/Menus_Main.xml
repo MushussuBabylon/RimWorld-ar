@@ -429,9 +429,9 @@
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
   <Difficulty_RaidLootPointsFactor_Info>اضبط قيمة الغنائم التي يحملها المغيرون.\n\nملاحظة: يتم أيضاً تحجيم قيمة غنائم الغارة تلقائياً للتعويض عن مقياس التهديد. إذا قمت بتعديل هذا الإعداد، فستضيف مضاعفاً إضافياً.</Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
-  <Difficulty_MaintenanceCostFactor_Label>تكلفة إعادة تعبئة البرج</Difficulty_MaintenanceCostFactor_Label>
+  <Difficulty_MaintenanceCostFactor_Label>تكلفة إعادة تعبئة المدفع</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
-  <Difficulty_MaintenanceCostFactor_Info>اضبط تكلفة إعادة تعبئة الأبراج.</Difficulty_MaintenanceCostFactor_Info>
+  <Difficulty_MaintenanceCostFactor_Info>اضبط تكلفة إعادة تعبئة المدافع.</Difficulty_MaintenanceCostFactor_Info>
   <!-- EN: Scaria rot chance -->
   <Difficulty_ScariaRotChance_Label>فرصة تعفن Scaria</Difficulty_ScariaRotChance_Label>
   <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
@@ -503,9 +503,9 @@
   <!-- EN: Player can build traps like spike traps and IED traps. -->
   <Difficulty_AllowTraps_Info>يمكن للاعب بناء فخاخ مثل فخاخ المسامير وفخاخ العبوات الناسفة (IED).</Difficulty_AllowTraps_Info>
   <!-- EN: Player can build turrets -->
-  <Difficulty_AllowTurrets_Label>يمكن للاعب بناء الأبراج</Difficulty_AllowTurrets_Label>
+  <Difficulty_AllowTurrets_Label>يمكن للاعب بناء المدافع</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>يمكن للاعب بناء أبراج ثابتة مثل الأبراج المصغرة، وأبراج المدافع التلقائية، وأبراج قذائف اليورانيوم.\n\nلا يزال بإمكانك استخدام الأبراج التي تم الاستيلاء عليها حتى إذا تم تعطيل هذا.</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>يمكن للاعب بناء مدافع ثابتة مثل المدافع المصغرة، ومدافع المدافع التلقائية، ومدافع قذائف اليورانيوم.\n\nلا يزال بإمكانك استخدام المدافع التي تم الاستيلاء عليها حتى إذا تم تعطيل هذا.</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
   <Difficulty_AllowMortars_Label>يمكن للاعب بناء المدافع</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
