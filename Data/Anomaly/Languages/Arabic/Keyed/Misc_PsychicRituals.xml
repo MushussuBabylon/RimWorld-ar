@@ -6,7 +6,7 @@
   <!-- EN: Begin psychic ritual -->
   <CastPsychicRitual>بدء الطقس النفسي</CastPsychicRitual>
   <!-- EN: Select a psychic ritual to perform -->
-  <CastPsychicRitualDesc>اختر طقسًا نفسيًا لأدائه</CastPsychicRitualDesc>
+  <CastPsychicRitualDesc>اختر طقساً نفسياً لأدائه</CastPsychicRitualDesc>
   <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
   <CannotCastPsychicRitual>لا يمكن لـ {0_labelShort} أداء الطقس النفسي {1} لأن {2}.</CannotCastPsychicRitual>
   <!-- EN: The {0} psychic ritual has begun. -->
@@ -20,7 +20,7 @@
   <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
   <AbilityDisabledInPsychicRitual>{0_labelShort} يشارك في الطقس النفسي {1}.</AbilityDisabledInPsychicRitual>
   <!-- EN: choose a location -->
-  <PsychicRitual_LocationTargetting>اختر موقعًا</PsychicRitual_LocationTargetting>
+  <PsychicRitual_LocationTargetting>اختر موقعاً</PsychicRitual_LocationTargetting>
   <!-- EN: total quality -->
   <PsychicRitualExpectedQualityLabel>الجودة الكلية</PsychicRitualExpectedQualityLabel>
   <!-- EN: quality factors -->
@@ -37,7 +37,7 @@
   <!-- EN: Psychic ritual area obstructed. -->
   <PsychicRitualSpotObstructed>منطقة الطقس النفسي مسدودة.</PsychicRitualSpotObstructed>
   <!-- EN: psychic ritual on cooldown. It will be available in {0}. -->
-  <PsychicRitualOnCooldown>الطقس النفسي في فترة تهدئة. سيكون متاحًا خلال {0}.</PsychicRitualOnCooldown>
+  <PsychicRitualOnCooldown>الطقس النفسي في فترة تهدئة. سيكون متاحاً خلال {0}.</PsychicRitualOnCooldown>
   <!-- EN: The {0} psychic ritual can be performed again. -->
   <PsychicRitualCanBeCastAgain>يمكن أداء الطقس النفسي {0} مرة أخرى.</PsychicRitualCanBeCastAgain>
   <!-- EN: No basic anomaly research project selected. -->
@@ -46,16 +46,16 @@
   <CantCastOnPocketMap>يجب أداء الطقس النفسي {0} على السطح.</CantCastOnPocketMap>
 
   <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
-  <PsychicRitualFactionWarning>تحذير: أداء طقس على {PAWN_nameDef} سيغضب فصيل {PAWN_possessive} ({FACTION_name})</PsychicRitualFactionWarning>
+  <PsychicRitualFactionWarning>تحذير: أداء طقس على {PAWN_nameDef} سيغضب فصيلـ{PAWN_possessive} ({FACTION_name})</PsychicRitualFactionWarning>
 
   <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
-  <PsychicRitualWakingPawnWarning>{0} نائم حاليًا وسيستيقظ عندما يبدأ الطقس النفسي.</PsychicRitualWakingPawnWarning>
+  <PsychicRitualWakingPawnWarning>{0} نائم حالياً وسيستيقظ عندما يبدأ الطقس النفسي.</PsychicRitualWakingPawnWarning>
   <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnWarning>{0} مجند حاليًا وسيُلغى تجنيده عندما يبدأ الطقس النفسي.</PsychicRitualUndraftPawnWarning>
+  <PsychicRitualUndraftPawnWarning>{0} مجند حالياً وسيُلغى تجنيده عندما يبدأ الطقس النفسي.</PsychicRitualUndraftPawnWarning>
   <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
-  <PsychicRitualWakingPawnsWarning>{0} نائمون حاليًا وسيستيقظون عندما يبدأ الطقس النفسي.</PsychicRitualWakingPawnsWarning>
+  <PsychicRitualWakingPawnsWarning>{0} نائمون حالياً وسيستيقظون عندما يبدأ الطقس النفسي.</PsychicRitualWakingPawnsWarning>
   <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnsWarning>{0} مجندون حاليًا وسيُلغى تجنيدهم عندما يبدأ الطقس النفسي.</PsychicRitualUndraftPawnsWarning>
+  <PsychicRitualUndraftPawnsWarning>{0} مجندون حالياً وسيُلغى تجنيدهم عندما يبدأ الطقس النفسي.</PsychicRitualUndraftPawnsWarning>
 
   <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
   <PsychicRitualLeft>غادر {0_labelShort} الطقس النفسي {1}.</PsychicRitualLeft>
@@ -79,7 +79,7 @@
   <!-- EN: cancel the {0} psychic ritual -->
   <CommandCancelPsychicRitual>إلغاء الطقس النفسي {0}</CommandCancelPsychicRitual>
   <!-- EN: end the {0} psychic ritual immediately. You can restart the psychic ritual later. -->
-  <CommandCancelPsychicRitualDesc>إنهاء الطقس النفسي {0} فورًا. يمكنك إعادة بدء الطقس النفسي لاحقًا.</CommandCancelPsychicRitualDesc>
+  <CommandCancelPsychicRitualDesc>إنهاء الطقس النفسي {0} فوراً. يمكنك إعادة بدء الطقس النفسي لاحقاً.</CommandCancelPsychicRitualDesc>
   <!-- EN: Are you sure you want to cancel the {0} psychic ritual? -->
   <CommandCancelPsychicRitualConfirm>هل أنت متأكد أنك تريد إلغاء الطقس النفسي {0}؟</CommandCancelPsychicRitualConfirm>
 
@@ -90,11 +90,11 @@
   <!-- EN: {PAWN_labelShort} is dead -->
   <PsychicRitualLeaveReason_Killed>{PAWN_labelShort} ميت</PsychicRitualLeaveReason_Killed>
   <!-- EN: {PAWN_labelShort} is not part of {FACTION_name} -->
-  <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort} ليس جزءًا من {FACTION_name}</PsychicRitualLeaveReason_WrongFaction>
+  <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort} ليس جزءاً من {FACTION_name}</PsychicRitualLeaveReason_WrongFaction>
   <!-- EN: {PAWN_labelShort} is no longer on the map -->
   <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort} لم يعد على الخريطة</PsychicRitualLeaveReason_ExitedMap>
   <!-- EN: {PAWN_labelShort} had better things to do -->
-  <PsychicRitualLeaveReason_LeftVoluntarily>كان لدى {PAWN_labelShort} أشياء أفضل ليفعلها</PsychicRitualLeaveReason_LeftVoluntarily>
+  <PsychicRitualLeaveReason_LeftVoluntarily>لدى {PAWN_labelShort} ما هو أهم لفعله</PsychicRitualLeaveReason_LeftVoluntarily>
   <!-- EN: {PAWN_labelShort} is drafted -->
   <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort} مجند</PsychicRitualLeaveReason_Drafted>
   <!-- EN: {PAWN_labelShort} is in a mental state -->
@@ -124,11 +124,11 @@
   <!-- EN: {PAWN_labelShort} is asleep -->
   <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort} نائم</PsychicRitualLeaveReason_Sleeping>
   <!-- EN: {PAWN_labelShort} is not a human -->
-  <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} ليس بشريًا</PsychicRitualLeaveReason_Mutant>
+  <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} ليس بشرياً</PsychicRitualLeaveReason_Mutant>
   <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
   <PsychicRitualLeaveReason_IdeoUnwilling>اعتقاد {PAWN_labelShort} في {IDEO_name} يمنع المشاركة</PsychicRitualLeaveReason_IdeoUnwilling> 
   <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
-  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} ليس حساسًا نفسيًا</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} ليس حساساً نفسياً</PsychicRitualLeaveReason_NoPsychicSensitivity>
   <!-- EN: {PAWN_labelShort} is a temporary faction member -->
   <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort} عضو فصيل مؤقت</PsychicRitualLeaveReason_TemporaryFactionMember>
   <!-- EN: {PAWN_labelShort} has other duties to attend to -->
