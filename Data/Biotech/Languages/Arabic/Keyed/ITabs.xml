@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: The recipe {0} requires a mechanitor to work on it. None of your colonists are mechanitors, so nobody will do this bill. -->
-  <RecipeRequiresMechanitor>الوصفة {0} تتطلب ميكانيتوراً للعمل عليها. لا يوجد ميكانيتور بين مستعمريك، لذا لن يقوم أحد بهذه الفاتورة.</RecipeRequiresMechanitor>
+  <RecipeRequiresMechanitor>الوصفة {0} تتطلب ميكانيتوراً للعمل عليها. لا يوجد ميكانيتور بين مستعمريك، لذا لن يقوم أحد بتنفيذ هذه الفاتورة.</RecipeRequiresMechanitor>
 
   <!-- EN: genepacks -->
   <GenepackPlural>عبوات جينات</GenepackPlural>
@@ -26,7 +26,7 @@
   <!-- EN: never -->
   <AutofeedModeNever>أبداً</AutofeedModeNever>
   <!-- EN: childcare -->
-  <AutofeedModeChildcare>رعاية الطفل</AutofeedModeChildcare>
+  <AutofeedModeChildcare>رعاية الأطفال</AutofeedModeChildcare>
   <!-- EN: urgent -->
   <AutofeedModeUrgent>عاجل</AutofeedModeUrgent>
   <!-- EN: Nobody can feed this baby. -->
@@ -84,21 +84,21 @@
   <!-- EN: too young -->
   <CantRomanceTargetYoung>صغير جداً</CantRomanceTargetYoung>
   <!-- EN: zero chance -->
-  <CantRomanceTargetZeroChance>فرصة صفر</CantRomanceTargetZeroChance>
+  <CantRomanceTargetZeroChance>فرصة معدومة</CantRomanceTargetZeroChance>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
-  <CantRomanceInitiateMessagePrisoner>{0_labelShort} لا يمكنه المحاولة لأنه سجين.</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessagePrisoner>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه سجين.</CantRomanceInitiateMessagePrisoner>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
-  <CantRomanceInitiateMessageSlave>{0_labelShort} لا يمكنه المحاولة لأنه عبد.</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageSlave>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه عبد.</CantRomanceInitiateMessageSlave>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
-  <CantRomanceInitiateMessageAsexual>{0_labelShort} لا يمكنه المحاولة لأنه لديه سمة اللاجنسية.</CantRomanceInitiateMessageAsexual>
+  <CantRomanceInitiateMessageAsexual>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه يحمل سمة اللاجنسية.</CantRomanceInitiateMessageAsexual>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
-  <CantRomanceInitiateMessageDowned>{0_labelShort} لا يمكنه المحاولة لأنه عاجز.</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDowned>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه عاجز.</CantRomanceInitiateMessageDowned>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
-  <CantRomanceInitiateMessageDrafted>{0_labelShort} لا يمكنه المحاولة لأنه مجند.</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageDrafted>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه مجند.</CantRomanceInitiateMessageDrafted>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
-  <CantRomanceInitiateMessageMentalState>{0_labelShort} لا يمكنه المحاولة لأنه في حالة نفسية غير مناسبة.</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageMentalState>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه في حالة نفسية غير مناسبة.</CantRomanceInitiateMessageMentalState>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
-  <CantRomanceInitiateMessageTalk>{0_labelShort} لا يمكنه المحاولة لأنه غير قادر على الكلام.</CantRomanceInitiateMessageTalk>
+  <CantRomanceInitiateMessageTalk>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه غير قادر على الكلام.</CantRomanceInitiateMessageTalk>
   <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
   <CantRomanceInitiateMessageCooldown>{0_labelShort} حاول المغازلة مؤخراً ويجب أن ينتظر {1} حتى يحاول مجدداً.</CantRomanceInitiateMessageCooldown>
   <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
@@ -112,7 +112,7 @@
   <!-- EN: Cannot romance -->
   <RomanceChanceCant>لا يمكن المغازلة</RomanceChanceCant>
   <!-- EN: Relative age -->
-  <RomanceChanceAgeFactor>العمر النسبي</RomanceChanceAgeFactor>
+  <RomanceChanceAgeFactor>فرق العمر</RomanceChanceAgeFactor>
   <!-- EN: Beauty -->
   <RomanceChanceBeautyFactor>الجمال</RomanceChanceBeautyFactor>
   <!-- EN: Opinion -->
@@ -122,7 +122,7 @@
   <!-- EN: {0_labelShort} was unable to romance {1_labelShort} -->
   <RomanceFailedUnexpected>لم يتمكن {0_labelShort} من مغازلة {1_labelShort}</RomanceFailedUnexpected>
   <!-- EN: {0_nameDef} is already in a relationship. -->
-  <RomanceWarningMonogamous>{0_nameDef} هو بالفعل في علاقة.</RomanceWarningMonogamous>
+  <RomanceWarningMonogamous>{0_nameDef} في علاقة بالفعل.</RomanceWarningMonogamous>
   <!-- EN: {0_nameDef} already has {1} partners. -->
   <RomanceWarningPolygamous>{0_nameDef} لديه بالفعل {1} شركاء.</RomanceWarningPolygamous>
 
