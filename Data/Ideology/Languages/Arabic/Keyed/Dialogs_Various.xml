@@ -28,7 +28,7 @@
   <!-- EN: Choose structure. -->
   <ChooseStructureMeme>اختر الهيكل.</ChooseStructureMeme>
   <!-- EN: {0_label} and {1_label} are incompatible. -->
-  <IncompatibleMemes>{0_label} و {1_label} غير متوافقين.</IncompatibleMemes>
+  <IncompatibleMemes>{0_label} و {1_label} غير متوافقان.</IncompatibleMemes>
   <!-- EN: Some of these have much more gameplay impact than others. -->
   <SomeMemesHaveMoreImpact>بعض هذه الميمات لها تأثير على أسلوب اللعب أكبر بكثير من غيرها.</SomeMemesHaveMoreImpact>
   <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
@@ -75,9 +75,9 @@
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
   <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} يحمل حالياً دور {ROLE_label} وسيكون غير سعيد بفقدانه.</ChooseRoleConfirmAssignHasOtherRole>
   <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
-  <ChooseRoleConfirmAssignReplaceLeader>لا يمكن أن يكون هناك سوى قائد واحد. هذا سيقيل {PAWN_labelShort} من دوره {OTHERROLE_labelDef}، مما سيزعج {PAWN_objective}.</ChooseRoleConfirmAssignReplaceLeader>
+  <ChooseRoleConfirmAssignReplaceLeader>لا يمكن أن يكون هناك سوى قائد واحد. هذا سيقيل {PAWN_labelShort} من دوره {OTHERROLE_labelDef}، مما سيزعجـ{PAWN_objective}.</ChooseRoleConfirmAssignReplaceLeader>
   <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
-  <ChooseRoleConfirmUnassign>أنت على وشك إقالة {PAWN_labelShort} من دور {ROLE_labelIndef}. هذا سيزعج {PAWN_objective}.</ChooseRoleConfirmUnassign>
+  <ChooseRoleConfirmUnassign>أنت على وشك إقالة {PAWN_labelShort} من دور {ROLE_labelIndef}. هذا سيزعجـ{PAWN_objective}.</ChooseRoleConfirmUnassign>
   <!-- EN: {PAWN_labelShort} will gain the following abilities -->
   <ChooseRoleListAbilities>سيكتسب {PAWN_labelShort} القدرات التالية</ChooseRoleListAbilities>
   <!-- EN: The {ROLE_label} role requires the following apparel -->
@@ -95,7 +95,7 @@
   <!-- EN: Unlocked rituals -->
   <MemeUnlocksRituals>طقوس مفتوحة</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
-  <ChooseRoleRequiredWorkTagsDisabled>تحذير: {PAWN_nameDef} غير قادر على القيام بالعمل المطلوب لدور {ROLE_label}. إذا اخترت منح {PAWN_objective} هذا الدور، قد لا يتمكن {PAWN_pronoun} من استخدام القدرات المرتبطة بـ {ROLE_label}. أنواع العمل المفقودة هي</ChooseRoleRequiredWorkTagsDisabled>
+  <ChooseRoleRequiredWorkTagsDisabled>تحذير: {PAWN_nameDef} غير قادر على القيام بالعمل المطلوب لدور {ROLE_label}. إذا اخترت منحـ{PAWN_objective} هذا الدور، قد لا يتمكن {PAWN_pronoun} من استخدام القدرات المرتبطة بـ {ROLE_label}. أنواع العمل المفقودة هي</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>مكافأة القائد</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
@@ -164,14 +164,14 @@
   <!-- EN: Any slave -->
   <AnySlave>أي عبد</AnySlave>
   <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
-  <NegotiatorWillNotTradeSlaves>{0_nameDef} يرفض بيع الناس كعبيد وفقاً لاعتقادات {0_possessive}.</NegotiatorWillNotTradeSlaves>
+  <NegotiatorWillNotTradeSlaves>{0_nameDef} يرفض بيع الناس كعبيد وفقاً لاعتقاداتـ{0_possessive}.</NegotiatorWillNotTradeSlaves>
   <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
-  <NegotiatorWillNotTradeSlavesTip>المفاوض، {0_nameDef}، لن يبيع الناس كعبيد بسبب اعتقاد {0_possessive} بـ {1}.\n\nلاحظ أن {0_nameDef} على استعداد لفدية شخص ما إلى فصيل {0_possessive}، لكنه ليس على استعداد لبيع شخص إلى فصيل مختلف.</NegotiatorWillNotTradeSlavesTip>
+  <NegotiatorWillNotTradeSlavesTip>المفاوض، {0_nameDef}، لن يبيع الناس كعبيد بسبب اعتقاد{0_possessive} بـ {1}.\n\nلاحظ أن {0_nameDef} على استعداد لفدية شخص ما إلى فصيلـ{0_possessive}، لكنه ليس على استعداد لبيع شخص إلى فصيل مختلف.</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
   <LastHumanMeat>آخر لحم بشري</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
-  <LastHumanMeatDesc>بسبب اعتقاد {PAWN_possessive} بـ {IDEO_name}، سيصبح {PAWN_nameDef} غير سعيد إذا مضى على {PAWN_pronoun} أكثر من {DURATION} يوم دون أكل لحم بشري.</LastHumanMeatDesc>
+  <LastHumanMeatDesc>بسبب اعتقاد{PAWN_possessive} بـ {IDEO_name}، سيصبح {PAWN_nameDef} غير سعيد إذا مضى عليـ{PAWN_pronoun} أكثر من {DURATION} يوم دون أكل لحم بشري.</LastHumanMeatDesc>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
   <ExectueNeutralFactionSlave>إعدام {PAWN_labelShort} سيؤثر سلباً على العلاقات مع {FACTION_name}.</ExectueNeutralFactionSlave>
