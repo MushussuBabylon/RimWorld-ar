@@ -7,7 +7,7 @@
   <!-- EN: Summoning the {LEADERKIND_label} threat will summon the following hostile mechanoids:\n\n{PAWNS}\n\nThe mechanoids will arrive in the next few hours or days. Are you ready to fight? -->
   <BossgroupWarningDialog>استدعاء تهديد {LEADERKIND_label} سيستدعي الميكانويدات المعادية التالية:\n\n{PAWNS}\n\nستصل الميكانويدات في الساعات أو الأيام القليلة القادمة. هل أنت مستعد للقتال؟</BossgroupWarningDialog>
   <!-- EN: {PAWN_labelShort} is downed. -->
-  <MechControllerDowned>{PAWN_labelShort} مطروح أرضًا.</MechControllerDowned>
+  <MechControllerDowned>{PAWN_labelShort} مطروح أرضاً.</MechControllerDowned>
   <!-- EN: {PAWN_labelShort} is a prisoner. -->
   <MechControllerImprisoned>{PAWN_labelShort} سجين.</MechControllerImprisoned>
   <!-- EN: {PAWN_labelShort} is inside {CONTAINER} -->
@@ -17,11 +17,11 @@
   <!-- EN: {PAWN_labelShort} is in a '{MENTALSTATE_label}' mental state. -->
   <MechControllerMentalState>{PAWN_labelShort} في حالة نفسية '{MENTALSTATE_label}'.</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
-  <ConfirmDisassemblingMech>هل تريد حقًا تفكيك {0} بشكل دائم؟\n\nتفكيك {0} بشكل دائم سيستعيد</ConfirmDisassemblingMech>
+  <ConfirmDisassemblingMech>هل تريد حقاً تفكيك {0} بشكل دائم؟\n\nتفكيك {0} بشكل دائم سيستعيد</ConfirmDisassemblingMech>
   <!-- EN: A mechanitor must be capable of smithing to create mechanoids.\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink_Smithing>يجب أن يكون الميكانيتور قادرًا على الحدادة لإنشاء الميكانويدات.\n\nهل أنت متأكد أنك تريد المتابعة؟</ConfirmInstallMechlink_Smithing>
+  <ConfirmInstallMechlink_Smithing>يجب أن يكون الميكانيتور قادراً على الحدادة لإنشاء الميكانويدات.\n\nهل أنت متأكد أنك تريد المتابعة؟</ConfirmInstallMechlink_Smithing>
   <!-- EN: A mechanitor must be capable of intellectual tasks to unlock mechanitor research.\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink_Intellectual>يجب أن يكون الميكانيتور قادرًا على المهام الفكرية لفتح بحث الميكانيتور.\n\nهل أنت متأكد أنك تريد المتابعة؟</ConfirmInstallMechlink_Intellectual>
+  <ConfirmInstallMechlink_Intellectual>يجب أن يكون الميكانيتور قادراً على المهام الفكرية لفتح بحث الميكانيتور.\n\nهل أنت متأكد أنك تريد المتابعة؟</ConfirmInstallMechlink_Intellectual>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>نطاق ترددي غير كافٍ</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
@@ -41,7 +41,7 @@
 
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
-  <ConfirmRipscanPawn>المسح الممزق لـ {PAWN_nameDef} سيقتل {PAWN_objective}. هل أنت متأكد أنك تريد المتابعة؟</ConfirmRipscanPawn>
+  <ConfirmRipscanPawn>المسح الممزق لـ {PAWN_nameDef} سيقتلـ{PAWN_objective}. هل أنت متأكد أنك تريد المتابعة؟</ConfirmRipscanPawn>
   <!-- EN: Cancelling a ripscan will still kill {PAWN_nameDef}. Are you sure you want to continue? -->
   <ConfirmCancelRipscan>إلغاء المسح الممزق سيقتل {PAWN_nameDef} مع ذلك. هل أنت متأكد أنك تريد المتابعة؟</ConfirmCancelRipscan>
 
@@ -77,19 +77,19 @@
   <!-- EN: Select xenogerm -->
   <SelectXenogerm>اختر اللقاح الغريب</SelectXenogerm>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are currently regrowing. If {PAWN_pronoun} implants {PAWN_possessive} xenogerm before {PAWN_possessive} genes are fully regrown, it will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <WarningPawnWillDieFromReimplanting>تحذير: جينات {PAWN_nameDef} تنمو حاليًا. إذا زرع {PAWN_pronoun} لقاحه الغريب قبل أن تنمو جينات {PAWN_possessive} بالكامل، سيقتل {PAWN_objective}.\n\nهل أنت متأكد أنك تريد المتابعة؟</WarningPawnWillDieFromReimplanting>
+  <WarningPawnWillDieFromReimplanting>تحذير: جيناتـ{PAWN_possessive} تنمو حالياً. إذا زرع {PAWN_pronoun} لقاحـ{PAWN_possessive} الغريب قبل أن تنمو جيناتـ{PAWN_possessive} بالكامل، سيقتلـ{PAWN_objective}.\n\nهل أنت متأكد أنك تريد المتابعة؟</WarningPawnWillDieFromReimplanting>
   <!-- EN: Not enough archite capsules. -->
   <NotEnoughArchites>لا توجد كبسولات أركايت كافية.</NotEnoughArchites>
   <!-- EN: Xenogenes are genes derived from an implanted xenogerm. If the xenogerm is removed or replaced, the xenogenes go with it. Since xenogenes are not part of the organism's own germline DNA, they are not passed to children. -->
-  <XenogenesDesc>الجينات الغريبة هي جينات مشتقة من لقاح غريب مزروع. إذا تمت إزالة أو استبدال اللقاح، تذهب الجينات الغريبة معه. بما أن الجينات الغريبة ليست جزءًا من الحمض النووي الجنسي للكائن الحي، فإنها لا تنتقل إلى الأطفال.</XenogenesDesc>
+  <XenogenesDesc>الجينات الغريبة هي جينات مشتقة من لقاح غريب مزروع. إذا تمت إزالة أو استبدال اللقاح، تذهب الجينات الغريبة معه. بما أن الجينات الغريبة ليست جزءاً من الحمض النووي الجنسي للكائن الحي، فإنها لا تنتقل إلى الأطفال.</XenogenesDesc>
   <!-- EN: Germline genes are naturally-inherited genes which are in every cell in an organism's body and don't require any external support. They are passed from parent to child. -->
-  <EndogenesDesc>جينات السلالة الجنسية هي جينات موروثة طبيعيًا موجودة في كل خلية من جسم الكائن الحي ولا تتطلب أي دعم خارجي. تنتقل من الآباء إلى الأبناء.</EndogenesDesc>
+  <EndogenesDesc>جينات السلالة الجنسية هي جينات موروثة طبيعياً موجودة في كل خلية من جسم الكائن الحي ولا تتطلب أي دعم خارجي. تنتقل من الآباء إلى الأبناء.</EndogenesDesc>
   <!-- EN: Member xenotypes -->
   <MemberXenotypeChances>الأنماط الغريبة للأعضاء</MemberXenotypeChances>
   <!-- EN: xenotype name -->
   <XenotypeName>اسم النمط الغريب</XenotypeName>
   <!-- EN: Lock or unlock the xenotype's name. When locked, the xenotype name will not auto-regenerate when genepacks are added or removed. -->
-  <LockNameButtonDesc>قفل أو فتح اسم النمط الغريب. عند القفل، لن يتجدد اسم النمط الغريب تلقائيًا عند إضافة أو إزالة عبوات الجينات.</LockNameButtonDesc>
+  <LockNameButtonDesc>قفل أو فتح اسم النمط الغريب. عند القفل، لن يتجدد اسم النمط الغريب تلقائياً عند إضافة أو إزالة عبوات الجينات.</LockNameButtonDesc>
   <!-- EN: Xenotype name lock is on. Xenotype name will not regenerate when adding or removing genepacks. -->
   <LockNameOn>قفل اسم النمط الغريب قيد التشغيل. لن يتجدد اسم النمط الغريب عند إضافة أو إزالة عبوات الجينات.</LockNameOn>
   <!-- EN: Xenotype name lock is off. Xenotype name will regenerate when adding or removing genepacks. -->
@@ -109,11 +109,11 @@
   <!-- EN: Assembling xenogerms with archite genes requires {0_label} research. -->
   <AssemblingRequiresResearch>تجميع اللقاحات الغريبة بجينات أركايت يتطلب بحث {0_label}.</AssemblingRequiresResearch>
   <!-- EN: You are currently combining a {XENOGERMNAME} xenogerm. If you start combining a new xenogerm, it will cancel your current xenogerm.\n\nAre you sure you want to continue? -->
-  <ConfirmStartNewXenogerm>أنت تدمج حاليًا لقاحًا غريبًا {XENOGERMNAME}. إذا بدأت دمج لقاح جديد، سيتم إلغاء لقاحك الحالي.\n\nهل أنت متأكد أنك تريد المتابعة؟</ConfirmStartNewXenogerm>
+  <ConfirmStartNewXenogerm>أنت تدمج حالياً لقاحاً غريباً {XENOGERMNAME}. إذا بدأت دمج لقاح جديد، سيتم إلغاء لقاحك الحالي.\n\nهل أنت متأكد أنك تريد المتابعة؟</ConfirmStartNewXenogerm>
   <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
-  <SelectAGeneToRandomizeName>اختر جينًا واحدًا على الأقل لعشوائية اسم هذا النمط الغريب.</SelectAGeneToRandomizeName>
+  <SelectAGeneToRandomizeName>اختر جيناً واحداً على الأقل لعشوائية اسم هذا النمط الغريب.</SelectAGeneToRandomizeName>
   <!-- EN: Select at least one gene to choose a name for this xenotype. -->
-  <SelectAGeneToChooseAName>اختر جينًا واحدًا على الأقل لاختيار اسم لهذا النمط الغريب.</SelectAGeneToChooseAName>
+  <SelectAGeneToChooseAName>اختر جيناً واحداً على الأقل لاختيار اسم لهذا النمط الغريب.</SelectAGeneToChooseAName>
 
   <!-- View genes -->
   <!-- EN: Inspect genes -->
@@ -155,11 +155,11 @@
   <!-- EN: All genes in this xenotype can be passed on to children. -->
   <GenesAreInheritableDesc>جميع الجينات في هذا النمط الغريب يمكن توريثها للأطفال.</GenesAreInheritableDesc>
   <!-- EN: For each individual, one of the following genes will be randomly selected to be active -->
-  <GeneWillBeRandomChosen>لكل فرد، سيتم اختيار أحد الجينات التالية عشوائيًا ليكون نشطًا</GeneWillBeRandomChosen>
+  <GeneWillBeRandomChosen>لكل فرد، سيتم اختيار أحد الجينات التالية عشوائياً ليكون نشطاً</GeneWillBeRandomChosen>
   <!-- EN: This gene is incompatible with other genes in this xenotype. Only one of these genes will be active -->
-  <GeneIncompatibleDesc>هذا الجين غير متوافق مع جينات أخرى في هذا النمط الغريب. واحد فقط من هذه الجينات سيكون نشطًا</GeneIncompatibleDesc>
+  <GeneIncompatibleDesc>هذا الجين غير متوافق مع جينات أخرى في هذا النمط الغريب. واحد فقط من هذه الجينات سيكون نشطاً</GeneIncompatibleDesc>
   <!-- EN: Of the following genes, the left-most one will always apply and the others are suppressed -->
-  <GeneLeftmostActive>من بين الجينات التالية، سيسري الجين الأيسر دائمًا ويتم كبت الآخرين</GeneLeftmostActive>
+  <GeneLeftmostActive>من بين الجينات التالية، سيسري الجين الأيسر دائماً ويتم كبت الآخرين</GeneLeftmostActive>
   <!-- EN: Of the following genes, only one will apply and the others will be suppressed -->
   <GeneOneActive>من بين الجينات التالية، سيسري جين واحد فقط ويتم كبت الآخرين</GeneOneActive>
   <!-- EN: Changing xenotype will randomize this colonist.\n\nContinue anyway? -->
@@ -173,7 +173,7 @@
   <!-- EN: This xenotype breaks normal gameplay limits -->
   <XenotypeBreaksLimits>هذا النمط الغريب يكسر حدود اللعب العادية</XenotypeBreaksLimits>
   <!-- EN: It contains archite genes and is inheritable, but archite genes are usually never inheritable. -->
-  <XenotypeBreaksLimits_Archites>إنه يحتوي على جينات أركايت وهو قابل للتوريث، لكن جينات الأركايت عادة لا تكون قابلة للتوريث أبدًا.</XenotypeBreaksLimits_Archites>
+  <XenotypeBreaksLimits_Archites>إنه يحتوي على جينات أركايت وهو قابل للتوريث، لكن جينات الأركايت عادة لا تكون قابلة للتوريث أبداً.</XenotypeBreaksLimits_Archites>
   <!-- EN: {STAT} is {VALUE}, which exceeds the normal limit of {MAX}. -->
   <XenotypeBreaksLimits_Exceeds>{STAT} هو {VALUE}، وهذا يتجاوز الحد الطبيعي {MAX}.</XenotypeBreaksLimits_Exceeds>
   <!-- EN: {STAT} is {VALUE}, which is below the normal limit of {MIN}. -->
@@ -181,17 +181,17 @@
   <!-- EN: Save anyway? -->
   <SaveAnyway>حفظ على أي حال؟</SaveAnyway>
   <!-- EN: Ignoring restrictions allows you to create impossible gene combinations by exceeding biostat limits. It also gives you access to powerful archite genes, which can make the game very easy.\n\nAre you sure you want to ignore restrictions? -->
-  <IgnoreRestrictionsConfirmation>تجاهل القيود يسمح لك بإنشاء تركيبات جينية مستحيلة بتجاوز حدود الإحصاءات الحيوية. كما يمنحك الوصول إلى جينات أركايت القوية، مما قد يجعل اللعبة سهلة جدًا.\n\nهل أنت متأكد أنك تريد تجاهل القيود؟</IgnoreRestrictionsConfirmation>
+  <IgnoreRestrictionsConfirmation>تجاهل القيود يسمح لك بإنشاء تركيبات جينية مستحيلة بتجاوز حدود الإحصاءات الحيوية. كما يمنحك الوصول إلى جينات أركايت القوية، مما قد يجعل اللعبة سهلة جداً.\n\nهل أنت متأكد أنك تريد تجاهل القيود؟</IgnoreRestrictionsConfirmation>
   <!-- EN: Colonists will always be within this developmental stage's age range when generated. -->
-  <DevelopmentalAgeSelectionDesc>سيكون المستعمرون دائمًا ضمن النطاق العمري لمرحلة النمو هذه عند إنشائهم.</DevelopmentalAgeSelectionDesc>
+  <DevelopmentalAgeSelectionDesc>سيكون المستعمرون دائماً ضمن النطاق العمري لمرحلة النمو هذه عند إنشائهم.</DevelopmentalAgeSelectionDesc>
   <!-- EN: Colonists will always carry the genes defined by this xenotype. -->
-  <XenotypeSelectionDesc>سيحمل المستعمرون دائمًا الجينات المحددة بهذا النمط الغريب.</XenotypeSelectionDesc>
+  <XenotypeSelectionDesc>سيحمل المستعمرون دائماً الجينات المحددة بهذا النمط الغريب.</XenotypeSelectionDesc>
   <!-- EN: Save and apply -->
   <SaveAndApply>حفظ وتطبيق</SaveAndApply>
   <!-- EN: Load custom -->
   <LoadCustom>تحميل مخصص</LoadCustom>
   <!-- EN: Load premade -->
-  <LoadPremade>تحميل معد مسبقًا</LoadPremade>
+  <LoadPremade>تحميل معد مسبقاً</LoadPremade>
   <!-- EN: Genes conflict -->
   <GenesConflict>تعارض الجينات</GenesConflict>
   <!-- EN: {FIRST_label}, {SECOND_label} -->
@@ -215,11 +215,11 @@
 
   <!-- Babies -->
   <!-- EN: Select at least one child or adult. -->
-  <ChooseChildOrAdult>اختر طفلًا واحدًا أو بالغًا واحدًا على الأقل.</ChooseChildOrAdult>
+  <ChooseChildOrAdult>اختر طفلاً واحداً أو بالغاً واحداً على الأقل.</ChooseChildOrAdult>
 
   <!-- Deathrest -->
   <!-- EN: Waking {PAWN_nameDef} before {MINDURATION} has passed will interrupt {PAWN_possessive} deathrest, leaving {PAWN_objective} sick for days while {PAWN_pronoun} recovers. Waking early means {PAWN_nameDef} will not benefit from any deathrest buildings. {PAWN_pronoun} has been deathresting for {CURDURATION}.\n\nAre you sure you wish to wake {PAWN_nameDef}? -->
-  <WarningWakingInterruptsDeathrest>إيقاظ {PAWN_nameDef} قبل مرور {MINDURATION} سيقاطع سبات الموت الخاص بـ {PAWN_possessive}، مما يترك {PAWN_objective} مريضًا لأيام بينما يتعافى. الاستيقاظ مبكرًا يعني أن {PAWN_nameDef} لن يستفيد من أي مباني سبات الموت. {PAWN_pronoun} كان في سبات الموت لمدة {CURDURATION}.\n\nهل أنت متأكد أنك ترغب في إيقاظ {PAWN_nameDef}؟</WarningWakingInterruptsDeathrest>
+  <WarningWakingInterruptsDeathrest>إيقاظ {PAWN_nameDef} قبل مرور {MINDURATION} سيقاطع سبات الموت الخاص بـ {PAWN_possessive}، مما يتركـ{PAWN_objective} مريضاً لأيام بينما يتعافى. الاستيقاظ مبكراً يعني أن {PAWN_nameDef} لن يستفيد من أي مباني سبات الموت. {PAWN_pronoun} كان في سبات الموت لمدة {CURDURATION}.\n\nهل أنت متأكد أنك ترغب في إيقاظ {PAWN_nameDef}؟</WarningWakingInterruptsDeathrest>
 
   <!-- Text motes -->
   <!-- EN: {0} wounds tended -->
@@ -239,7 +239,7 @@
   <!-- EN: Recharge settings -->
   <MechRechargeSettingsTitle>إعدادات إعادة الشحن</MechRechargeSettingsTitle>
   <!-- EN: Change when mechanoids will start and stop charging.\n\nMechanoids with energy below this range will automatically seek out a recharger. They will stop charging once they reach the top of this range. These settings only apply in work mode. -->
-  <MechRechargeSettingsExplanation>تغيير متى ستبدأ الميكانويدات الشحن ومتى ستتوقف.\n\nالميكانويدات التي تقل طاقتها عن هذا النطاق ستسعى تلقائيًا للبحث عن شاحن. ستتوقف عن الشحن بمجرد وصولها إلى أعلى هذا النطاق. تنطبق هذه الإعدادات فقط في وضع العمل.</MechRechargeSettingsExplanation>
+  <MechRechargeSettingsExplanation>تغيير متى ستبدأ الميكانويدات الشحن ومتى ستتوقف.\n\nالميكانويدات التي تقل طاقتها عن هذا النطاق ستسعى تلقائياً للبحث عن شاحن. ستتوقف عن الشحن بمجرد وصولها إلى أعلى هذا النطاق. تنطبق هذه الإعدادات فقط في وضع العمل.</MechRechargeSettingsExplanation>
   <!-- EN: Work skill -->
   <MechWorkSkill>مهارة العمل</MechWorkSkill>
   <!-- EN: The skill level that this mechanoid acts with. -->
@@ -263,11 +263,11 @@
   <FertilizeOvumInbredChance>{FATHER_nameDef} هو {RELATION} لـ {MOTHER_nameDef}. هناك احتمال {CHANCE} أن يعاني الطفل الناتج من تشوهات جينية بسبب زواج الأقارب.\n\nهل أنت متأكد أنك تريد المتابعة؟</FertilizeOvumInbredChance>
 
   <!-- EN: {PAWN_nameDef} is pregnant. Implanting an IUD while {PAWN_pronoun} is in {PAWN_possessive} first trimester of pregnancy will terminate the pregnancy.\n\nAre you sure you want to continue? -->
-  <ConfirmationPawnPregnancyTerminated>{PAWN_nameDef} حامل. زرع لولب رحمي بينما {PAWN_pronoun} في الثلث الأول من حمل {PAWN_possessive} سينهي الحمل.\n\nهل أنت متأكد أنك تريد المتابعة؟</ConfirmationPawnPregnancyTerminated>
+  <ConfirmationPawnPregnancyTerminated>{PAWN_nameDef} حامل. زرع لولب رحمي بينما {PAWN_pronoun} في الثلث الأول من حملـ{PAWN_possessive} سينهي الحمل.\n\nهل أنت متأكد أنك تريد المتابعة؟</ConfirmationPawnPregnancyTerminated>
 
   <!-- Pollution -->
   <!-- EN: This tile is near polluted tiles, so there will be an acidic smog here roughly every {0} days. Acidic smog slows plant growth, deteriorates exposed items, and makes people unhappy. -->
-  <ConfirmSettleNearPollution>هذه الخلية قريبة من خلايا ملوثة، لذا سيكون هناك ضباب دخاني حمضي هنا كل {0} يوم تقريبًا. الضباب الدخاني الحمضي يبطئ نمو النبات، يتلف المواد المكشوفة، ويجعل الناس غير سعداء.</ConfirmSettleNearPollution>
+  <ConfirmSettleNearPollution>هذه الخلية قريبة من خلايا ملوثة، لذا سيكون هناك ضباب دخاني حمضي هنا كل {0} يوم تقريباً. الضباب الدخاني الحمضي يبطئ نمو النبات، يتلف المواد المكشوفة، ويجعل الناس غير سعداء.</ConfirmSettleNearPollution>
 
   <!-- Pregnancy -->
   <!-- EN: {PAWN_nameDef} is away. -->
@@ -283,19 +283,18 @@
   <!-- EN: {PAWN_nameDef} is infertile. -->
   <PawnIsInfertile>{PAWN_nameDef} غير خصب.</PawnIsInfertile>
   <!-- EN: {PAWN1_nameDef} and {PAWN2_nameDef} are too young to have children. -->
-  <PawnsAreTooYoung>{PAWN1_nameDef} و {PAWN2_nameDef} صغيران جدًا على الإنجاب.</PawnsAreTooYoung>
+  <PawnsAreTooYoung>{PAWN1_nameDef} و {PAWN2_nameDef} صغيران جداً على الإنجاب.</PawnsAreTooYoung>
   <!-- EN: {PAWN_nameDef} is too young to have children. -->
-  <PawnIsTooYoung>{PAWN_nameDef} صغير جدًا على الإنجاب.</PawnIsTooYoung>
+  <PawnIsTooYoung>{PAWN_nameDef} صغير جداً على الإنجاب.</PawnIsTooYoung>
   <!-- EN: {PAWN_nameDef} is dead. -->
   <PawnIsDead>{PAWN_nameDef} ميت.</PawnIsDead>
 
   <!-- EN: Placing {PAWN_nameDef} into cryptosleep will strain {PAWN_possessive} psychic bond with {BOND_nameDef}, causing stress to both partners.\n\nAre you sure you want to continue? -->
-  <PsychicBondDistanceWillBeActive_Cryptosleep>وضع {PAWN_nameDef} في سبات التبريد يضغط على الرابط النفسي لـ {PAWN_possessive} مع {BOND_nameDef}، مما يسبب إجهادًا لكليهما.\n\nهل أنت متأكد أنك تريد المتابعة؟</PsychicBondDistanceWillBeActive_Cryptosleep>
+  <PsychicBondDistanceWillBeActive_Cryptosleep>وضع {PAWN_nameDef} في سبات التبريد يضغط على الرابط النفسي لـ {PAWN_possessive} مع {BOND_nameDef}، مما يسبب إجهاداً لكليهما.\n\nهل أنت متأكد أنك تريد المتابعة؟</PsychicBondDistanceWillBeActive_Cryptosleep>
   <!-- EN: Someone in this caravan is psychically bonded by their partner is not coming with them. These people will be stressed if separated from their bond-partners -->
-  <PsychicBondDistanceWillBeActive_Caravan>شخص ما في هذه القافلة مرتبط نفسيًا وشريكه لا يأتي معهم. سيكون هؤلاء الأشخاص مجهدين إذا انفصلوا عن شركاء رابطهم</PsychicBondDistanceWillBeActive_Caravan>
+  <PsychicBondDistanceWillBeActive_Caravan>شخص ما في هذه القافلة مرتبط نفسياً وشريكه لا يأتي معهم. سيكون هؤلاء الأشخاص مجهدين إذا انفصلوا عن شركاء رابطهم</PsychicBondDistanceWillBeActive_Caravan>
   <!-- EN: partner {0_nameFull} -->
   <Partner>شريك {0_nameFull}</Partner>
-
 
   <!-- EN: Choose mech accent color -->
   <ChooseMechAccentColor>اختر لون تمييز الميكانويد</ChooseMechAccentColor>
@@ -304,7 +303,7 @@
   <!-- EN: {0} squeals a string of curses into the microphone and disconnects. -->
   <PigFactionGreetingHostile>{0} يطلق صرخات من الشتائم في الميكروفون ويقطع الاتصال.</PigFactionGreetingHostile>
   <!-- EN: Oinking angrily, {0} demands that you make a gesture of unity, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnorting an insult, {0_pronoun} disconnects. -->
-  <PigFactionGreetingHostileAppreciative>يشخر {0} بغضب ويطالبك بتقديم بادرة وحدة، مثل إحضار هدايا إلى إحدى مستوطنات {0_possessive} أو إطلاق سراح سجناء فصيل {0_possessive} دون أذى. حتى ذلك الحين، {0_pronoun} غير مستعد للتحدث.\n\nيشخر {0} بإهانة ويقطع الاتصال.</PigFactionGreetingHostileAppreciative>
+  <PigFactionGreetingHostileAppreciative>يشخر {0} بغضب ويطالبك بتقديم بادرة وحدة، مثل إحضار هدايا إلى إحدى مستوطناتـ{0_possessive} أو إطلاق سراح سجناء فصيلـ{0_possessive} دون أذى. حتى ذلك الحين، {0_pronoun} غير مستعد للتحدث.\n\nيشخر {0} بإهانة ويقطع الاتصال.</PigFactionGreetingHostileAppreciative>
   <!-- EN: {0} oinks a greeting and asks what business you need done. -->
   <PigFactionGreetingWary>{0} يطلق نخير ترحيب ويسأل عن العمل الذي تحتاج إنجازه.</PigFactionGreetingWary>
   <!-- EN: Oinking enthusiastically, {0} greets {NEGOTIATOR_labelShort} and asks what {LEADER_pronoun} can do to help you. -->
@@ -315,7 +314,7 @@
   <!-- EN: {0} roars into the microphone and disconnects. -->
   <YttakinFactionGreetingHostile>{0} يزأر في الميكروفون ويقطع الاتصال.</YttakinFactionGreetingHostile>
   <!-- EN: Growling under {0_possessive} breath, {0} demands that you make a gesture of friendship, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnarling an insult, {0_pronoun} disconnects. -->
-  <YttakinFactionGreetingHostileAppreciative>يزمجر {0} تحت أنفاسه ويطالبك بتقديم بادرة صداقة، مثل إحضار هدايا إلى إحدى مستوطنات {0_possessive} أو إطلاق سراح سجناء فصيل {0_possessive} دون أذى. حتى ذلك الحين، {0_pronoun} غير مستعد للتحدث.\n\nيهدر {0} بإهانة ويقطع الاتصال.</YttakinFactionGreetingHostileAppreciative>
+  <YttakinFactionGreetingHostileAppreciative>يزمجر {0} تحت أنفاسه ويطالبك بتقديم بادرة صداقة، مثل إحضار هدايا إلى إحدى مستوطناتـ{0_possessive} أو إطلاق سراح سجناء فصيلـ{0_possessive} دون أذى. حتى ذلك الحين، {0_pronoun} غير مستعد للتحدث.\n\nيهدر {0} بإهانة ويقطع الاتصال.</YttakinFactionGreetingHostileAppreciative>
   <!-- EN: {0} grumbles a greeting to {NEGOTIATOR_labelShort} and asks why you are calling. -->
   <YttakinFactionGreetingWary>{0} يتمتم بتحية لـ {NEGOTIATOR_labelShort} ويسأل عن سبب اتصالك.</YttakinFactionGreetingWary>
   <!-- EN: {0} bellows a friendly greeting and asks what {LEADER_pronoun} can do to help you. -->
@@ -324,7 +323,7 @@
   <!-- EN: {0} grunts angrily and disconnects. -->
   <NeanderthalFactionGreetingHostile>{0} يهمهم بغضب ويقطع الاتصال.</NeanderthalFactionGreetingHostile>
   <!-- EN: {0} grunts aggressively. Until you make a gesture of goodwill, {0_pronoun} will not do business with you. You can improve relations through a number of activities, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed.\n\n{0_pronoun} disconnects abruptly. -->
-  <NeanderthalFactionGreetingHostileAppreciative>{0} يهمهم بعدوانية. حتى تقدم بادرة حسن نية، لن يتعامل {0_pronoun} معك. يمكنك تحسين العلاقات من خلال عدد من الأنشطة، مثل إحضار هدايا إلى إحدى مستوطنات {0_possessive} أو إطلاق سراح سجناء فصيل {0_possessive} دون أذى.\n\n{0_pronoun} يقطع الاتصال فجأة.</NeanderthalFactionGreetingHostileAppreciative>
+  <NeanderthalFactionGreetingHostileAppreciative>{0} يهمهم بعدوانية. حتى تقدم بادرة حسن نية، لن يتعامل {0_pronoun} معك. يمكنك تحسين العلاقات من خلال عدد من الأنشطة، مثل إحضار هدايا إلى إحدى مستوطناتـ{0_possessive} أو إطلاق سراح سجناء فصيلـ{0_possessive} دون أذى.\n\n{0_pronoun} يقطع الاتصال فجأة.</NeanderthalFactionGreetingHostileAppreciative>
   <!-- EN: {0} grunts a greeting. -->
   <NeanderthalFactionGreetingWary>{0} يهمهم بتحية.</NeanderthalFactionGreetingWary>
   <!-- EN: {0} grunts a warm greeting to {NEGOTIATOR_labelShort}. -->
@@ -351,9 +350,9 @@
   <RoomRequirementNoBiotechBuildings>لا يُسمح بمبان التقنية الحيوية</RoomRequirementNoBiotechBuildings>
 
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will result in serious blood loss, leaving {PAWN_objective} unconscious.\n\nAre you sure? -->
-  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>التغذي بالدم على {PAWN_nameDef} سيؤدي إلى فقدان دم خطير، مما يترك {PAWN_objective} فاقدًا للوعي.\n\nهل أنت متأكد؟</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
+  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>التغذي بالدم على {PAWN_nameDef} سيؤدي إلى فقدان دم خطير، مما يتركـ{PAWN_objective} فاقداً للوعي.\n\nهل أنت متأكد؟</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will kill {PAWN_objective}.\n\nAre you sure? -->
-  <WarningPawnWillDieFromBloodfeeding>التغذي بالدم على {PAWN_nameDef} سيقتل {PAWN_objective}.\n\nهل أنت متأكد؟</WarningPawnWillDieFromBloodfeeding>
+  <WarningPawnWillDieFromBloodfeeding>التغذي بالدم على {PAWN_nameDef} سيقتلـ{PAWN_objective}.\n\nهل أنت متأكد؟</WarningPawnWillDieFromBloodfeeding>
 
   <!-- EN: {0_labelShort} must have a tendable wound. -->
   <AbilityMustHaveTendableWound>يجب أن يكون لدى {0_labelShort} جرح قابل للعلاج.</AbilityMustHaveTendableWound>
