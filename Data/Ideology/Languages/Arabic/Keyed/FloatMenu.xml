@@ -47,7 +47,7 @@
   <!-- EN: No choices available -->
   <NoChoicesAvailable>لا توجد خيارات متاحة</NoChoicesAvailable>
   <!-- EN: Required by meme {0} -->
-  <RequiredByMeme>مطلوب بواسطة الميم {0}</RequiredByMeme>
+  <RequiredByMeme>مطلوب بواسطة المبدأ {0}</RequiredByMeme>
   <!-- EN: Required -->
   <Required>مطلوب</Required>
   <!-- EN: Style category -->
@@ -71,7 +71,7 @@
   <!-- EN: non-tribal -->
   <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>غير قبلي</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
   <!-- EN: requires any of these memes -->
-  <RoleApparelRequirementIncompatibleAnyMemeRequired>يتطلب أي من هذه الميمات</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>يتطلب أي من هذه المبادئ</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>لا يمكن ارتداؤه مع الملابس المعينة</BodyPartAlreadyCovered>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
@@ -90,13 +90,13 @@
   <!-- EN: deity -->
   <Deity>إله</Deity>
   <!-- EN: requires meme -->
-  <RequiresMeme>يتطلب ميماً</RequiresMeme>
+  <RequiresMeme>يتطلب مبدأً</RequiresMeme>
   <!-- EN: requires one of -->
   <RequiresOneOfMemes>يتطلب واحداً من</RequiresOneOfMemes>
   <!-- EN: conflicts with meme -->
-  <ConflictsWithMeme>يتعارض مع الميم</ConflictsWithMeme>
+  <ConflictsWithMeme>يتعارض مع المبدأ</ConflictsWithMeme>
   <!-- EN: conflicts with memes -->
-  <ConflictsWithMemes>يتعارض مع الميمات</ConflictsWithMemes>
+  <ConflictsWithMemes>يتعارض مع المبادئ</ConflictsWithMemes>
   <!-- EN: can only have one altar/ideogram -->
   <IdeoAlreadyHasAltar>يمكن أن يكون لديك مذبح/أيدوجرام واحد فقط</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
@@ -154,11 +154,11 @@
   <!-- EN: Auto age reversal for {PAWN_labelShort} -->
   <BiosculpterAutoAgeReversalLabel>عكس العمر تلقائياً لـ {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
   <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
-  <BiosculpterAutoAgeReversalDescription>تلبية رغبة {PAWN_labelShort} في إجراء علاج عكس العمر السنوي في هذه الكبسولة تلقائياً، وفقاً لاعتقادات {PAWN_possessive}. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <BiosculpterAutoAgeReversalDescription>تلبية رغبة {PAWN_labelShort} في إجراء علاج عكس العمر السنوي في هذه الكبسولة تلقائياً، وفقاً لاعتقاداتـ{PAWN_possessive}. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
   <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
-  <BiosculpterAutoAgeReversalDescriptionFuture>إذا تم التفعيل، سيأخذ {PAWN_labelShort} علاجه التالي في {TIME} تلقائياً إذا كانت الكبسولة جاهزة.</BiosculpterAutoAgeReversalDescriptionFuture>
+  <BiosculpterAutoAgeReversalDescriptionFuture>إذا تم التفعيل، سيأخذ {PAWN_labelShort} علاجـ{PAWN_possessive} التالي في {TIME} تلقائياً إذا كانت الكبسولة جاهزة.</BiosculpterAutoAgeReversalDescriptionFuture>
   <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
-  <BiosculpterAutoAgeReversalDescriptionNow>يريد {PAWN_labelShort} بالفعل علاجه التالي وسيبدأ واحداً تلقائياً إذا تم تفعيل هذا.</BiosculpterAutoAgeReversalDescriptionNow>
+  <BiosculpterAutoAgeReversalDescriptionNow>يريد {PAWN_labelShort} بالفعل علاجـ{PAWN_possessive} التالي وسيبدأ واحداً تلقائياً إذا تم تفعيل هذا.</BiosculpterAutoAgeReversalDescriptionNow>
   <!-- EN: Collecting ingredients for biosculpter cycle -->
   <BiosculpterJobReportCollectIngredients>جمع المكونات لدورة النحت الحيوي</BiosculpterJobReportCollectIngredients>
 </LanguageData>
