@@ -16,17 +16,17 @@
   <!-- EN: {PRECEPT} needs an associated ritual. -->
   <MessageBuildingMissingRitual>{PRECEPT} يحتاج إلى طقس مرتبط.</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
-  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} يرفض فعل هذا بسبب عقيدة {0_possessive}.</MessagePawnUnwillingToDoDueToIdeo>
+  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} يرفض فعل هذا بسبب عقيدتـ{0_possessive}.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>حاول {INITIATOR_nameDef} تحويل {RECIPIENT_nameDef} إلى عقيدة {INITIATOR_possessive}. انخفض يقين {RECIPIENT_nameDef} من {CERTAINTYBEFORE} إلى {CERTAINTYAFTER}. {RECIPIENT_pronoun} يستاء من محاولة التحويل.</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>حاول {INITIATOR_nameDef} تحويل {RECIPIENT_nameDef} إلى عقيدتـ{INITIATOR_possessive}. انخفض يقين {RECIPIENT_nameDef} من {CERTAINTYBEFORE} إلى {CERTAINTYAFTER}. {RECIPIENT_pronoun} يستاء من محاولة التحويل.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
-  <MessageFailedConvertIdeoAttemptSocialFight>حاول {PAWN1_nameDef} تحويل {PAWN2_nameDef} إلى عقيدة {PAWN1_possessive}. أدى هذا إلى شجار اجتماعي!</MessageFailedConvertIdeoAttemptSocialFight>
+  <MessageFailedConvertIdeoAttemptSocialFight>حاول {PAWN1_nameDef} تحويل {PAWN2_nameDef} إلى عقيدتـ{PAWN1_possessive}. أدى هذا إلى شجار اجتماعي!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
-  <MessageNotEnoughMemes>يجب أن تختار على الأقل {0} ميم.</MessageNotEnoughMemes>
+  <MessageNotEnoughMemes>يجب أن تختار على الأقل {0} مبدأ.</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
-  <MessageTooManyMemes>لا يمكنك اختيار أكثر من {0} ميم.</MessageTooManyMemes>
+  <MessageTooManyMemes>لا يمكنك اختيار أكثر من {0} مبدأ.</MessageTooManyMemes>
   <!-- EN: You must choose a structure meme. -->
-  <MessageNotEnoughStructureMemes>يجب أن تختار ميماً هيكلياً.</MessageNotEnoughStructureMemes>
+  <MessageNotEnoughStructureMemes>يجب أن تختار مبدأً هيكلياً.</MessageNotEnoughStructureMemes>
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
   <MessageIncompatibleMemes>{0_label} و {1_label} غير متوافقين مع بعضهما.</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
@@ -65,7 +65,7 @@
   <!-- EN: No warden is capable of this enslavement. -->
   <MessageNoWardenCapableOfEnslavement>لا يوجد سجان قادر على هذا الاستعباد.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>ليس لديك سجان {MEMBERNAME} لتحويل {PRISONER_nameDef}. عاد وضع التفاعل الخاص بـ {PRISONER_possessive} إلى "لا تفاعل".</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>ليس لديك سجان {MEMBERNAME} لتحويل {PRISONER_nameDef}. عاد وضع تفاعلـ{PRISONER_possessive} إلى "لا تفاعل".</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
@@ -154,6 +154,6 @@
   <!-- EN: Development points changed from {0} to {1} ({2}). -->
   <MessageDevelopmentPointsEarned>تغيرت نقاط التطوير من {0} إلى {1} ({2}).</MessageDevelopmentPointsEarned>
   <!-- EN: Only one change to structures, memes and styles is allowed. -->
-  <MessageFluidIdeoOneChangeAllowed>يُسمح بتغيير واحد فقط للهياكل والميمات والأساليب.</MessageFluidIdeoOneChangeAllowed>
+  <MessageFluidIdeoOneChangeAllowed>يُسمح بتغيير واحد فقط للهياكل والمبادئ والأساليب.</MessageFluidIdeoOneChangeAllowed>
 
 </LanguageData>
