@@ -17,11 +17,11 @@
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>يجب على حاملي هذا اللقب ارتداء مزيج معين من</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any prestige armor -->
-  <ApparelRequirementAnyPrestigeArmor>أي درع هيبة (Prestige)</ApparelRequirementAnyPrestigeArmor>
+  <ApparelRequirementAnyPrestigeArmor>أي درع هيبة</ApparelRequirementAnyPrestigeArmor>
   <!-- EN: Any psycaster apparel -->
-  <ApparelRequirementAnyPsycasterApparel>أي ملابس سايكاستر (Psycaster)</ApparelRequirementAnyPsycasterApparel>
+  <ApparelRequirementAnyPsycasterApparel>أي ملابس مستخدم قدرات نفسية</ApparelRequirementAnyPsycasterApparel>
   <!-- EN: or any psycaster or prestige apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>أو أي ملابس سايكاستر أو درع هيبة</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>أو أي ملابس مستخدم قدرات نفسية أو درع هيبة</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
   <!-- EN: Disallowed work types -->
   <DisabledWorkTypes>أنواع العمل المحظورة</DisabledWorkTypes>
   <!-- EN: Allowed foods -->
@@ -31,7 +31,7 @@
 
   <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
-  <RoyalImplantIllegalUseWarning>وفقاً لقوانين {FACTION_name}، يجب أن يحمل الشخص لقب {TITLE} لاستخدام {IMPLANT} بشكل قانوني.\n\n{VIOLATIONTRIGGER}، هناك احتمال أن ترصد {FACTION_name} بصمتهـ{IMPLANT} النفسية. سيؤدي هذا إلى عواقب دبلوماسية.</RoyalImplantIllegalUseWarning>
+  <RoyalImplantIllegalUseWarning>وفقاً لقوانين {FACTION_name}، يجب أن يحمل الشخص لقب {TITLE} لاستخدام {IMPLANT} بشكل قانوني.\n\n{VIOLATIONTRIGGER}، هناك احتمال أن ترصد {FACTION_name} بصمتها النفسية. سيؤدي هذا إلى عواقب دبلوماسية.</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>هل تريد تثبيت هذه الغرسة على أي حال؟</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
@@ -39,7 +39,7 @@
 
   <!-- Royal weapons -->
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
-  <BladelinkEquipWarning>بمجرد ارتباط السلاح بـ{PAWN_possessive}، سترفض شخصية السلاح أن يحملها أي شخص آخر.</BladelinkEquipWarning>
+  <BladelinkEquipWarning>بمجرد ارتباط السلاح بحامله، سترفض شخصية السلاح أن يحملها أي شخص آخر.</BladelinkEquipWarning>
   <!-- EN: The weapon has the following traits -->
   <BladelinkEquipWarningTraits>يتمتع السلاح بالسمات التالية</BladelinkEquipWarningTraits>
   <!-- EN: Are you sure you want to equip this item? -->
