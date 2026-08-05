@@ -9,7 +9,7 @@
   <!-- EN: Ideoligion of -->
   <IdeoligionOf>عقيدة</IdeoligionOf>
   <!-- EN: Memes -->
-  <Memes>ميمات</Memes>
+  <Memes>مبادئ</Memes>
   <!-- EN: Narrative -->
   <CoreNarrative>السرد</CoreNarrative>
   <!-- EN: The core narrative of your ideoligion. This has no gameplay impact. -->
@@ -57,9 +57,9 @@
   <!-- EN: Add deity -->
   <AddDeity>إضافة إله</AddDeity>
   <!-- EN: Choose memes -->
-  <ChooseMemes>اختر الميمات</ChooseMemes>
+  <ChooseMemes>اختر المبادئ</ChooseMemes>
   <!-- EN: Choose starting meme -->
-  <ChooseStartingMeme>اختر ميم البداية</ChooseStartingMeme>
+  <ChooseStartingMeme>اختر مبدأ البداية</ChooseStartingMeme>
   <!-- EN: Choose structure -->
   <ChooseStructure>اختر الهيكل</ChooseStructure>
   <!-- EN: Choose culture -->
@@ -97,7 +97,7 @@
   <!-- EN: Randomize symbols -->
   <RandomizeSymbols>عشوائية الرموز</RandomizeSymbols>
   <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
-  <RandomizeSymbolsTooltip>عشوائية اسم العقيدة والأيقونة والسرد ولقب القائد وأي نصوص أخرى مثل أسماء الطقوس أو أسماء الأدوار. هذا لا يؤثر على عناصر أسلوب اللعب مثل الميمات أو الوصايا.</RandomizeSymbolsTooltip>
+  <RandomizeSymbolsTooltip>عشوائية اسم العقيدة والأيقونة والسرد ولقب القائد وأي نصوص أخرى مثل أسماء الطقوس أو أسماء الأدوار. هذا لا يؤثر على عناصر أسلوب اللعب مثل المبادئ أو الوصايا.</RandomizeSymbolsTooltip>
   <!-- EN: Click any element to edit it -->
   <ClickAnyElementToEditIt>انقر على أي عنصر لتعديله</ClickAnyElementToEditIt>
   <!-- EN: Leader title -->
@@ -113,7 +113,7 @@
   <!-- EN: Icon -->
   <Icon>أيقونة</Icon>
   <!-- EN: Related to meme -->
-  <RelatedToMeme>مرتبط بالميم</RelatedToMeme>
+  <RelatedToMeme>مرتبط بالمبدأ</RelatedToMeme>
   <!-- EN: This is a charity quest. If you don't fulfill it, believers in {0} will be unhappy due to their charitable beliefs. If you do, believers in {0} will be happy ({1}). -->
   <IdeoCharityQuestInfo>هذه مهمة خيرية. إذا لم تقم بها، سيصبح المؤمنون بـ {0} غير سعداء بسبب معتقداتهم الخيرية. إذا قمت بها، سيكون المؤمنون بـ {0} سعداء ({1}).</IdeoCharityQuestInfo>
   <!-- EN: Slaves will not do this work -->
@@ -163,7 +163,7 @@
   <!-- EN: Overall impact -->
   <IdeoImpactOverall>التأثير الكلي</IdeoImpactOverall>
   <!-- EN: Some memes impact gameplay more than others. The meme's impact score gives a sense of how big of a gameplay impact it has. -->
-  <IdeoImpactOverallDesc>بعض الميمات تؤثر على أسلوب اللعب أكثر من غيرها. تعطي درجة تأثير الميم فكرة عن مدى تأثيرها على أسلوب اللعب.</IdeoImpactOverallDesc>
+  <IdeoImpactOverallDesc>بعض المبادئ تؤثر على أسلوب اللعب أكثر من غيرها. تعطي درجة تأثير المبدأ فكرة عن مدى تأثيرها على أسلوب اللعب.</IdeoImpactOverallDesc>
   <!-- EN: low -->
   <IdeoMemeImpactLabel_1>منخفض</IdeoMemeImpactLabel_1>
   <!-- EN: medium -->
@@ -193,16 +193,16 @@
   
   
   <!-- EN: Since this ideoligion is so new and has so few followers on this planet, it is fluid. This means that it can develop over time.\n\nDeveloping the ideoligion costs development points. You can earn development points by completing rituals and quests related to this ideoligion.\n\nWith enough development points, you can reform the ideoligion with new memes, precepts, styles, and more. -->
-  <FluidIdeoTip>بما أن هذه العقيدة جديدة جداً ولديها عدد قليل جداً من الأتباع على هذا الكوكب، فهي متغيرة. هذا يعني أنها يمكن أن تتطور بمرور الوقت.\n\nتطوير العقيدة يكلف نقاط تطوير. يمكنك كسب نقاط التطوير بإكمال الطقوس والمهام المتعلقة بهذه العقيدة.\n\nمع نقاط تطوير كافية، يمكنك تعديل العقيدة بميمات ووصايا وأساليب جديدة والمزيد.</FluidIdeoTip>
+  <FluidIdeoTip>بما أن هذه العقيدة جديدة جداً ولديها عدد قليل جداً من الأتباع على هذا الكوكب، فهي متغيرة. هذا يعني أنها يمكن أن تتطور بمرور الوقت.\n\nتطوير العقيدة يكلف نقاط تطوير. يمكنك كسب نقاط التطوير بإكمال الطقوس والمهام المتعلقة بهذه العقيدة.\n\nمع نقاط تطوير كافية، يمكنك تعديل العقيدة بمبادئ ووصايا وأساليب جديدة والمزيد.</FluidIdeoTip>
   <!-- EN: How to get development points -->
   <FluidIdeoTipGetPoints>كيفية الحصول على نقاط التطوير</FluidIdeoTipGetPoints>
   <!-- EN: Convert someone to your ideoligion -->
   <FluidIdeoTipGetPoinsByConversion>تحويل شخص ما إلى عقيدتك</FluidIdeoTipGetPoinsByConversion>
 
   <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
-  <ResearchProjectHasDefsWithMissingMemes>يفتح {0} أشياء لا يمكنك بناؤها لأنها تتطلب ميمات لا يؤمن بها أي من أفرادك</ResearchProjectHasDefsWithMissingMemes>
+  <ResearchProjectHasDefsWithMissingMemes>يفتح {0} أشياء لا يمكنك بناؤها لأنها تتطلب مبادئ لا يؤمن بها أي من أفرادك</ResearchProjectHasDefsWithMissingMemes>
   <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
-  <SelectedWorkTypeOpposedByIdeo>تحذير: هذا النوع من العمل تعارضه عقيدة {0_possessive}، لذا قد يجعل هذا الشخص غير سعيد.</SelectedWorkTypeOpposedByIdeo>
+  <SelectedWorkTypeOpposedByIdeo>تحذير: هذا النوع من العمل تعارضه عقيدتـ{0_possessive}، لذا قد يجعل هذا الشخص غير سعيد.</SelectedWorkTypeOpposedByIdeo>
 
   <!-- EN: Development points -->
   <DevelopmentPoints>نقاط التطوير</DevelopmentPoints>
