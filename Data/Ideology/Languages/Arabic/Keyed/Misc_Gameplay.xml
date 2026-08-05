@@ -6,9 +6,9 @@
   <!-- EN: Choose your ideoligion -->
   <ChooseYourIdeoligion>اختر عقيدتك</ChooseYourIdeoligion>
   <!-- EN: A random structure will be used for your ideoligion. -->
-  <RandomStructureTip>سيتم استخدام هيكل عشوائي لعقيدتك.</RandomStructureTip>
+  <RandomStructureTip>سيُستخدم هيكل عشوائي لعقيدتك.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
-  <RandomStyleTip>سيتم استخدام أسلوب عشوائي لعقيدتك.</RandomStyleTip>
+  <RandomStyleTip>سيُستخدم أسلوب عشوائي لعقيدتك.</RandomStyleTip>
   <!-- EN: Ideology system inactive -->
   <PlayClassic>نظام العقائد غير نشط</PlayClassic>
   <!-- EN: Create custom\n(fluid) -->
@@ -22,7 +22,7 @@
   <!-- EN: Structure -->
   <Structure>الهيكل</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>بماذا يجب أن يؤمن مستعمروك المبتدئين؟ تؤثر هذه المعتقدات على أسلوب اللعب والمرئيات. ستتمكن من تجنيد الآخرين لمعتقداتك، أو اعتناق معتقداتهم.</ChooseYourIdeoligionDesc>
+  <ChooseYourIdeoligionDesc>بماذا يجب أن يؤمن مستعمروك المبتدئون؟ تؤثر هذه المعتقدات على أسلوب اللعب والمرئيات. ستتمكن من تجنيد الآخرين لمعتقداتك، أو اعتناق معتقداتهم.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>إنشاء مخصص</CreateCustom>
   <!-- EN: Delete custom -->
@@ -94,15 +94,15 @@
   <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>اللون المفضل لـ {PAWN_labelShort}: {COLOR}\nامتلاك أكثر من {PERCENTAGE} من ملابس {PAWN_possessive} بهذا اللون{ORIDEO} سيجعل {PAWN_objective} أكثر سعادة قليلاً.\n\nيمكنك تغيير ألوان الملابس في محطة التصفيف باستخدام صبغة التينكتوريا.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
-  <OrIdeoColor>، أو لون عقيدة {PAWN_possessive}،</OrIdeoColor>
+  <OrIdeoColor>، أو لون عقيدتـ{PAWN_possessive}،</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>تعيين لون العقيدة</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>تعيين إلى اللون المفضل</SetFavoriteColor>
   <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
-  <FavoriteColorPickerTip>اللون المفضل لـ {PAWN_nameDef}. امتلاك أكثر من 60% من ملابس {PAWN_possessive} بهذا اللون، أو لون عقيدة {PAWN_possessive}، سيجعل {PAWN_objective} أكثر سعادة قليلاً.</FavoriteColorPickerTip>
+  <FavoriteColorPickerTip>اللون المفضل لـ {PAWN_nameDef}. امتلاك أكثر من 60% من ملابسـ{PAWN_possessive} بهذا اللون، أو لون عقيدتـ{PAWN_possessive}، سيجعل {PAWN_objective} أكثر سعادة قليلاً.</FavoriteColorPickerTip>
   <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
-  <IdeoColorPickerTip>لون عقيدة {PAWN_nameDef}. امتلاك أكثر من 60% من ملابس {PAWN_possessive} بهذا اللون، أو لون {PAWN_possessive} المفضل، سيجعل {PAWN_objective} أكثر سعادة قليلاً.</IdeoColorPickerTip>
+  <IdeoColorPickerTip>لون عقيدة {PAWN_nameDef}. امتلاك أكثر من 60% من ملابسـ{PAWN_possessive} بهذا اللون، أو لون {PAWN_possessive} المفضل، سيجعل {PAWN_objective} أكثر سعادة قليلاً.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>تكوين عقيدة فصيلك</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
@@ -132,7 +132,7 @@
   <!-- EN: structures -->
   <StructuresLower>هياكل</StructuresLower>
   <!-- EN: memes -->
-  <MemesLower>ميمات</MemesLower>
+  <MemesLower>مبادئ</MemesLower>
   <!-- EN: Development points -->
   <Reward_DevelopmentPointsLabel>نقاط تطوير</Reward_DevelopmentPointsLabel>
   <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals. -->
@@ -157,9 +157,9 @@
   <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
   <UnableToLoadIdeoDescription>تعذر تحميل العقيدة المختارة بسبب متطلبات الفصائل التي ستتبع هذه العقيدة. المتطلبات المنتهكة هي:</UnableToLoadIdeoDescription>
   <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
-  <UnableToLoadIdeoMemeNotAllowed>الميم {MEME} غير مسموح به لفصائل {FACTIONTYPE}</UnableToLoadIdeoMemeNotAllowed>
+  <UnableToLoadIdeoMemeNotAllowed>المبدأ {MEME} غير مسموح به لفصائل {FACTIONTYPE}</UnableToLoadIdeoMemeNotAllowed>
   <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
-  <UnableToLoadIdeoMemeRequired>الميم {MEME} مطلوب لفصائل {FACTIONTYPE}</UnableToLoadIdeoMemeRequired>
+  <UnableToLoadIdeoMemeRequired>المبدأ {MEME} مطلوب لفصائل {FACTIONTYPE}</UnableToLoadIdeoMemeRequired>
   <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
   <UnableToLoadIdeoPreceptNotAllowed>الوصية {PRECEPT} غير مسموح بها للفصائل غير اللاعبة</UnableToLoadIdeoPreceptNotAllowed>
 
@@ -251,7 +251,7 @@
   <!-- EN: Can't use {0} with {1}. -->
   <RitualAttachedRewardCantUseWithRitual>لا يمكن استخدام {0} مع {1}.</RitualAttachedRewardCantUseWithRitual>
   <!-- EN: Requires any of memes -->
-  <RitualAttachedRewardRequiredMemeAny>يتطلب أي من الميمات</RitualAttachedRewardRequiredMemeAny>
+  <RitualAttachedRewardRequiredMemeAny>يتطلب أي من المبادئ</RitualAttachedRewardRequiredMemeAny>
   <!-- EN: Requires {0} faction -->
   <RitualAttachedRewardRequiredFaction>يتطلب فصيل {0}</RitualAttachedRewardRequiredFaction>
   <!-- EN: positive -->
@@ -550,15 +550,15 @@
 
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
-  <GameOverArchotechInvokedIntro>لقد استدعيت نواة الأركونيكسس. العالم يمتلئ بضوء ساطع ويبدو الزمن وكأنه يتباطأ...\n\n</GameOverArchotechInvokedIntro>
+  <GameOverArchotechInvokedIntro>لقد استدعيت نواة الآركونيكسس. العالم يمتلئ بضوء ساطع ويبدو الزمن وكأنه يتباطأ...\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
   <GameOverArchotechInvokedEnding>لقد لاحظك الإله الآلة. لا يمكن لأحد التنبؤ بما سيحدث بعد ذلك. قد يدمرك، أو يتواصل معك مباشرة، أو ينقل وعيك إلى مستوى آخر من الواقع.\n\nتستشعر هيكلاً شاسعاً غير بشري ذا تعقيد فركتالي لا نهائي يتدفق إلى عقلك. يبدأ الزمن والمقياس في الذوبان. إنه مرعب. إنه جميل...</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>هؤلاء المستعمرون قد تساموا:\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
-  <Reward_ArchonexusMapPart>جزء خريطة أركونيكسس</Reward_ArchonexusMapPart>
+  <Reward_ArchonexusMapPart>جزء خريطة آركونيكسس</Reward_ArchonexusMapPart>
   <!-- EN: Archonexus map part {0}/{1} -->
-  <Reward_ArchonexusMapPartLabel>جزء خريطة الأركونيكسس {0}/{1}</Reward_ArchonexusMapPartLabel>
+  <Reward_ArchonexusMapPartLabel>جزء خريطة الآركونيكسس {0}/{1}</Reward_ArchonexusMapPartLabel>
 
   <!-- EN: relics -->
   <RelicsLower>آثار</RelicsLower>
