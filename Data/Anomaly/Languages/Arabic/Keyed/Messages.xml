@@ -3,7 +3,7 @@
 
   <!-- Entities -->
   <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
-  <MessageActivityRisingDamage>نشاط {0_definite} يرتفع لتلقيه ضرراً.</MessageActivityRisingDamage>
+  <MessageActivityRisingDamage>يرتفع نشاط {0_definite} بسبب تلقيه ضرراً.</MessageActivityRisingDamage>
   <!-- EN: {0_definite} has died on a holding platform. -->
   <EntityDiedOnHoldingPlatform>مات {0_definite} على منصة الاحتجاز.</EntityDiedOnHoldingPlatform>
   <!-- EN: New entity discovered -->
@@ -11,9 +11,9 @@
 
   <!-- Hate chanters -->
   <!-- EN: The cultists are in a trance and don't respond when attacked. -->
-  <MessageHateChantersAbsorbed>الطائفيون في غيبوبة ولا يستجيبون عند الهجوم.</MessageHateChantersAbsorbed>
+  <MessageHateChantersAbsorbed>الطائفيون في غشوة ولا يستجيبون للهجوم.</MessageHateChantersAbsorbed>
   <!-- EN: The hate chanting has increased in volume. -->
-  <MessageHateChantIncreased>ازداد حجم هتاف الكراهية.</MessageHateChantIncreased>
+  <MessageHateChantIncreased>ازدادت حدة هتاف الكراهية.</MessageHateChantIncreased>
 
   <!-- Self-resurrection -->
   <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
@@ -35,7 +35,7 @@
   <!-- EN: {0_pawnsPluralDef} are attacking! -->
   <MessagePsychicRitualAssault>{0_pawnsPluralDef} يهاجمون!</MessagePsychicRitualAssault>
   <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
-  <MessageAIPsychicRitualBegan>يبدأ {FACTION_pawnsPluralDef} الطقس النفسي</MessageAIPsychicRitualBegan>
+  <MessageAIPsychicRitualBegan>تبدأ {FACTION_pawnsPluralDef} الطقس النفسي</MessageAIPsychicRitualBegan>
   
   <!-- Biomutation lance -->
   <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
@@ -87,6 +87,6 @@
   <MessageFingerspikeDisturbedPlural>أزعج {WAKER_nameDef} عدة مسامير أصابع.</MessageFingerspikeDisturbedPlural>
 
   <!-- EN: The death pall has begun to resurrect corpses. -->
-  <DeathPallResurrectedMessage>بدأ غشاء الموت في إحياء الجثث.</DeathPallResurrectedMessage>
+  <DeathPallResurrectedMessage>بدأ كفن الموت في إحياء الجثث.</DeathPallResurrectedMessage>
 
 </LanguageData>
