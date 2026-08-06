@@ -5,33 +5,33 @@
   <!-- EN: Escape interval -->
   <HoldingPlatformEscapeMTBDays>فاصل الهروب</HoldingPlatformEscapeMTBDays>
   <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity's movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
-  <HoldingPlatformEscapeMTBDaysDesc>متوسط الوقت بين محاولات الهروب. يتأثر هذا بقوة الاحتواء، ونوع الكيان، وقدرته على الحركة، ومدة احتجازه. كما يُثبط نشاط بعض الكيانات أيضاً بالبرودة.</HoldingPlatformEscapeMTBDaysDesc>
+  <HoldingPlatformEscapeMTBDaysDesc>متوسط الوقت الفاصل بين محاولات الهروب. يتأثر ذلك بقوة الاحتواء، ونوع الكيان، وقدرته على الحركة، ومدة احتجازه. بعض الكيانات يثبطها البرد أيضاً.</HoldingPlatformEscapeMTBDaysDesc>
   <!-- EN: Entity -->
   <TabEntity>الكيان</TabEntity>
   <!-- EN: Study interval -->
   <StudyInterval>فاصل الدراسة</StudyInterval>
   <!-- EN: How often this entity can be studied. -->
-  <StudyIntervalDesc>مدى تكرار إمكانية دراسة هذا الكيان.</StudyIntervalDesc>
+  <StudyIntervalDesc>معدل تكرار دراسة هذا الكيان.</StudyIntervalDesc>
   <!-- EN: Maintain only -->
   <EntityStudyMode_MaintainOnly>الإبقاء فقط</EntityStudyMode_MaintainOnly>
   <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
-  <EntityStudyMode_MaintainOnlyDesc>لن ينفذ الحراس أي إجراءات خاصة على هذا الكيان، لكن التفاعلات الأخرى تظل متاحة.</EntityStudyMode_MaintainOnlyDesc>
+  <EntityStudyMode_MaintainOnlyDesc>لن يقوم الحراس بأي إجراءات خاصة على هذا الكيان، لكن التفاعلات الأخرى تظل متاحة.</EntityStudyMode_MaintainOnlyDesc>
   <!-- EN: Study -->
   <EntityStudyMode_Study>دراسة</EntityStudyMode_Study>
   <!-- EN: Researchers will study the entity. -->
-  <EntityStudyMode_StudyDesc>سيقوم الباحثون بدراسة الكيان.</EntityStudyMode_StudyDesc>
+  <EntityStudyMode_StudyDesc>سيدرس الباحثون الكيان.</EntityStudyMode_StudyDesc>
   <!-- EN: Release -->
   <EntityStudyMode_Release>إطلاق سراح</EntityStudyMode_Release>
   <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
-  <EntityStudyMode_ReleaseDesc>سيقوم الحارس بإطلاق سراح الكيان من منصة الاحتجاز. قد تكون الكيانات عدائية عند إطلاق سراحها.</EntityStudyMode_ReleaseDesc>
+  <EntityStudyMode_ReleaseDesc>سيطلق الحارس الكيان من منصة الاحتجاز. قد تكون الكيانات معادية عند إطلاقها.</EntityStudyMode_ReleaseDesc>
   <!-- EN: Execute -->
   <EntityStudyMode_Execute>إعدام</EntityStudyMode_Execute>
   <!-- EN: A warden will execute the restrained entity. -->
-  <EntityStudyMode_ExecuteDesc>سيقوم الحارس بإعدام الكيان المقيّد.</EntityStudyMode_ExecuteDesc>
+  <EntityStudyMode_ExecuteDesc>سيقوم الحارس بإعدام الكيان المقيَّد.</EntityStudyMode_ExecuteDesc>
   <!-- EN: Extract bioferrite -->
   <EntityStudyMode_Extract>استخراج البيوفيرايت</EntityStudyMode_Extract>
   <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can't be done if the entity is attached to a bioferrite harvester. -->
-  <EntityStudyMode_ExtractDesc>سيستخرج الأطباء البيوفيرايت من الكيان المحتجز كلما أمكن. طريقة الاستخراج هذه بسيطة لكنها غير فعالة، ولا يمكن تنفيذها إذا كان الكيان متصلاً بحاصدة البيوفيرايت.</EntityStudyMode_ExtractDesc>
+  <EntityStudyMode_ExtractDesc>سيستخرج الأطباء البيوفيرايت من الكيان المحتجز كلما أمكن. طريقة الاستخراج هذه بسيطة لكنها غير فعالة، ولا يمكن تنفيذها إذا كان الكيان موصولاً بحاصدة بيوفيرايت.</EntityStudyMode_ExtractDesc>
   <!-- EN: Requires bioferrite extraction. -->
   <RequiresBioferriteExtraction>يتطلب استخراج البيوفيرايت.</RequiresBioferriteExtraction>
   <!-- EN: Blocked by bioferrite harvester. -->
@@ -41,16 +41,16 @@
   <!-- EN: Knowledge gain -->
   <StudyKnowledgeGain>اكتساب المعرفة</StudyKnowledgeGain>
   <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
-  <StudyKnowledgeGainDesc>مقدار المعرفة المكتسبة في كل فاصل دراسي. يساعد الاحتواء الأفضل الباحث على التركيز على الدراسة بدلاً من السلامة، مما يمنح معرفة أكبر.</StudyKnowledgeGainDesc>
+  <StudyKnowledgeGainDesc>مقدار المعرفة المكتسبة في كل فاصل دراسة. الاحتواء الأفضل يساعد الباحث على التركيز في الدراسة بدلاً من إجراءات السلامة، مما ينتج معرفة أكبر.</StudyKnowledgeGainDesc>
   <!-- EN: What type of medicine can be given to this entity. -->
   <MedicineQualityDescriptionEntity>نوع الدواء الذي يمكن إعطاؤه لهذا الكيان.</MedicineQualityDescriptionEntity>
 
   <!-- EN: Electroharvester -->
   <FactorForElectroharvester>الحاصدة الكهربائية</FactorForElectroharvester>
   <!-- EN: Long captivity -->
-  <FactorForDaysInCaptivity>الأسر الطويل</FactorForDaysInCaptivity>
+  <FactorForDaysInCaptivity>طول الأسر</FactorForDaysInCaptivity>
   <!-- EN: Cold containment bonus -->
-  <FactorForColdCaptivity>مكافأة الاحتواء البارد</FactorForColdCaptivity>
+  <FactorForColdCaptivity>مكافأة الاحتواء بالبرودة</FactorForColdCaptivity>
   <!-- EN: Incapable of escaping -->
   <IncapableOfEscaping>عاجز عن الهروب</IncapableOfEscaping>
   <!-- EN: Entity downed -->
