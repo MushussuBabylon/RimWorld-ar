@@ -16,17 +16,17 @@
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
   <MessageCannotUseOnSameXenotype>{0_labelShort} لديه بالفعل النمط الغريب {0_xenotype}.</MessageCannotUseOnSameXenotype>
   <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
-  <MessagePawnHasNoXenogenes>{0_labelShort} ليس لديه جينات غريبة متاحة للزرع.</MessagePawnHasNoXenogenes>
+  <MessagePawnHasNoXenogenes>{0_labelShort} ليس لديه مورثات دخيلة متاحة للزرع.</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
-  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>لا يمكن زرع اللقاحات الغريبة إلا في المستعمرين، السجناء، والعبيد.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
+  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>لا يمكن زرع الزينوجرم إلا في المستعمرين، السجناء، والعبيد.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
   <MessageCannotImplantInTempFactionMembers>لا يمكن الزرع في أعضاء الفصيل المؤقتين.</MessageCannotImplantInTempFactionMembers>
   <!-- EN: A xenogerm has been completed. -->
-  <MessageXenogermCompleted>اكتمل لقاح غريب.</MessageXenogermCompleted>
+  <MessageXenogermCompleted>اكتمل زينوجرم.</MessageXenogermCompleted>
   <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
-  <MessageXenogermCancelledMissingPack>أُلغي العمل على اللقاح الغريب في {0_labelShort}: عبوة الجينات المطلوبة مفقودة.</MessageXenogermCancelledMissingPack>
+  <MessageXenogermCancelledMissingPack>أُلغي العمل على الزينوجرم في {0_labelShort}: عبوة المورثات المطلوبة مفقودة.</MessageXenogermCancelledMissingPack>
   <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
-  <MessageAbsorbingXenogermWillAngerFaction>امتصاص لقاح {PAWN_nameDef} سيغضب {0}.</MessageAbsorbingXenogermWillAngerFaction>
+  <MessageAbsorbingXenogermWillAngerFaction>امتصاص زينوجرم {PAWN_nameDef} سيغضب {0}.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>لا يمكن استخدام {ABILITY_label} إلا على المستعمرين، السجناء، والعبيد.</MessageCannotUseOnOtherFactions>
   <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
@@ -67,10 +67,10 @@
   <MessagePlantDiedOfRot_PollutedTerrain>تعفن {0} بسبب الأرض الملوثة.</MessagePlantDiedOfRot_PollutedTerrain>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
-  <MessageTargetMustBeDownedToForceReimplant>يجب أن يكون {PAWN_nameDef} مطروحاً أرضاً قبل أن تتمكن من إجبار {PAWN_objective} على إعادة زرع لقاحـ{PAWN_possessive} الغريب.</MessageTargetMustBeDownedToForceReimplant>
+  <MessageTargetMustBeDownedToForceReimplant>يجب أن يكون {PAWN_nameDef} مطروحاً أرضاً قبل أن تتمكن من إجبار {PAWN_objective} على إعادة زرع زينوجرمـ{PAWN_possessive}.</MessageTargetMustBeDownedToForceReimplant>
 
   <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
-  <MessageWorkTypeDisabledAge>{0_nameDef} عمره {1} سنة فقط. يمكن القيام بعمل {2} فقط من سن {3}.</MessageWorkTypeDisabledAge>
+  <MessageWorkTypeDisabledAge>عمر {0_nameDef} {1} سنة فقط. ولا يمكن أداء عمل {2} إلا من سن {3}.</MessageWorkTypeDisabledAge>
 
   <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
   <MessageDeathrestingPawnCanWakeSafely>يمكن لـ {PAWN_nameDef} الآن الاستيقاظ من سبات الموت بأمان.</MessageDeathrestingPawnCanWakeSafely>
@@ -82,29 +82,29 @@
 
   <!-- Xenogerm -->
   <!-- EN: The total metabolism of the selected genes must be {MIN} or higher to continue, but currently it is only {AMOUNT}. -->
-  <MetabolismTooLowToCreateXenogerm>يجب أن يكون إجمالي أيض الجينات المختارة {MIN} أو أعلى للمتابعة، ولكنه حالياً {AMOUNT} فقط.</MetabolismTooLowToCreateXenogerm>
+  <MetabolismTooLowToCreateXenogerm>يجب أن يكون إجمالي أيض المورثات المختارة {MIN} أو أعلى للمتابعة، ولكنه حالياً {AMOUNT} فقط.</MetabolismTooLowToCreateXenogerm>
   <!-- EN: The total complexity of the selected genes must be {MAX} or less to create a xenogerm, but currently it is {AMOUNT}. -->
-  <ComplexityTooHighToCreateXenogerm>يجب أن يكون إجمالي تعقيد الجينات المختارة {MAX} أو أقل لإنشاء لقاح غريب، ولكنه حالياً {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
+  <ComplexityTooHighToCreateXenogerm>يجب أن يكون إجمالي تعقيد المورثات المختارة {MAX} أو أقل لإنشاء زينوجرم، ولكنه حالياً {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
   <!-- EN: Cannot create a xenogerm with no genes. -->
-  <MessageNoSelectedGenepacks>لا يمكن إنشاء لقاح غريب بدون جينات.</MessageNoSelectedGenepacks>
+  <MessageNoSelectedGenepacks>لا يمكن إنشاء زينوجرم بدون مورثات.</MessageNoSelectedGenepacks>
   <!-- EN: Cannot create a xenotype with no genes. -->
-  <MessageNoSelectedGenes>لا يمكن إنشاء نمط غريب بدون جينات.</MessageNoSelectedGenes>
+  <MessageNoSelectedGenes>لا يمكن إنشاء نمط غريب بدون مورثات.</MessageNoSelectedGenes>
   <!-- EN: {0_label} can only store {1} genepacks. -->
-  <CanOnlyStoreNumGenepacks>يمكن لـ {0_label} تخزين {1} عبوة جينات فقط.</CanOnlyStoreNumGenepacks>
+  <CanOnlyStoreNumGenepacks>يمكن لـ {0_label} تخزين {1} عبوة مورثات فقط.</CanOnlyStoreNumGenepacks>
   <!-- EN: Xenotype name cannot be empty. -->
   <XenotypeNameCannotBeEmpty>لا يمكن أن يكون اسم النمط الغريب فارغاً.</XenotypeNameCannotBeEmpty>
   <!-- EN: {0} lacks a prerequisite gene -->
-  <MessageGeneMissingPrerequisite>{0} يفتقر إلى جين متطلب أساسي</MessageGeneMissingPrerequisite>
+  <MessageGeneMissingPrerequisite>{0} يفتقر إلى مورثة متطلب أساسي.</MessageGeneMissingPrerequisite>
 
   <!-- EN: {PAWN_nameDef}'s deathrest capacity has increased from {OLD} to {NEW}. -->
   <MessageDeathrestCapacityChanged>زادت سعة سبات الموت لـ {PAWN_nameDef} من {OLD} إلى {NEW}.</MessageDeathrestCapacityChanged>
 
   <!-- EN: The sanguophages will arrive in a few hours for their meeting. -->
-  <SanguophagesArrivingSoon>سيصل مصاصو الدماء في غضون ساعات قليلة لاجتماعهم.</SanguophagesArrivingSoon>
+  <SanguophagesArrivingSoon>سيصل السانغوفاج في غضون ساعات قليلة لاجتماعهم.</SanguophagesArrivingSoon>
   <!-- EN: The sanguophages have begun their meeting. -->
-  <SanguophagesBegunMeeting>بدأ مصاصو الدماء اجتماعهم.</SanguophagesBegunMeeting>
+  <SanguophagesBegunMeeting>بدأ السانغوفاج اجتماعهم.</SanguophagesBegunMeeting>
   <!-- EN: The sanguophages are leaving due to life-threatening temperature. -->
-  <SanguophagesLeavingTemperature>يغادر مصاصو الدماء بسبب درجة حرارة تهدد الحياة.</SanguophagesLeavingTemperature>
+  <SanguophagesLeavingTemperature>يغادر السانغوفاج بسبب درجة حرارة تهدد الحياة.</SanguophagesLeavingTemperature>
 
   <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
   <MessagePawnWokenFromSunlight>أُيقظ {PAWN_nameDef} من سبات موتـ{PAWN_possessive} بسبب تعرضه لأشعة الشمس.</MessagePawnWokenFromSunlight>
@@ -112,7 +112,7 @@
   <MessageBedExposedToSunlight>تعرض {BED_labelShort} المخصص لاستخدامه من قبل {PAWN_nameDef} لسبات الموت لضوء الشمس. لا يمكن لـ {PAWN_nameDef} أن يسبت هناك.</MessageBedExposedToSunlight>
 
   <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
-  <GeneExtractorNoPowerEjectedMessage>أُخرج {PAWN_labelShort} من مستخرج الجينات بسبب نقص الطاقة.</GeneExtractorNoPowerEjectedMessage>
+  <GeneExtractorNoPowerEjectedMessage>أُخرج {PAWN_labelShort} من مستخرج المورثات بسبب نقص الطاقة.</GeneExtractorNoPowerEjectedMessage>
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
@@ -135,7 +135,7 @@
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
   <MessageTooManyCustomXenotypes>لديك بالفعل الحد الأقصى من الأنماط الغريبة المخصصة. يجب حذف البعض إذا كنت ترغب في إنشاء المزيد.</MessageTooManyCustomXenotypes>
   <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
-  <MessageConflictingGenesPresent>لا يمكن حفظ نمط غريب به عدة جينات متعارضة.</MessageConflictingGenesPresent>
+  <MessageConflictingGenesPresent>لا يمكن حفظ نمط غريب به عدة مورثات متعارضة.</MessageConflictingGenesPresent>
 
   <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
   <MessageDeathrestBuildingBound>تم ربط {BUILDING_labelShort} بـ {PAWN_nameDef} ({CUR}/{MAX} سعة سبات الموت).</MessageDeathrestBuildingBound>
@@ -144,9 +144,9 @@
   <MessageDevelopmentalStageSelectionDisabledByScenario>اختيار مرحلة النمو معطل بواسطة السيناريو.</MessageDevelopmentalStageSelectionDisabledByScenario>
 
   <!-- EN: {PAWN_nameDef} did not have enough blood to produce a hemogen pack.  -->
-  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>لم يكن لدى {PAWN_nameDef} دم كافٍ لإنتاج عبوة هيموجين.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
+  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>لم يكن لدى {PAWN_nameDef} دم كافٍ لإنتاج عبوة الدم الحيوي.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
   <!-- EN: {PAWN_nameDef} doesn't have enough blood to produce a hemogen pack. -->
-  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} ليس لديه دم كافٍ لإنتاج عبوة هيموجين.</MessageCannotStartHemogenExtraction>
+  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} ليس لديه دم كافٍ لإنتاج عبوة الدم الحيوي.</MessageCannotStartHemogenExtraction>
 
   <!-- EN: You must choose how {PAWN_nameDef} will grow now. -->
   <MessageCannotPostponeGrowthMoment>يجب أن تختار الآن كيف سينمو {PAWN_nameDef}.</MessageCannotPostponeGrowthMoment>
@@ -161,7 +161,7 @@
   <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
   <MessageFerilizeFailed>فشل {PAWN_nameDef} في تخصيب البويضة</MessageFerilizeFailed>
   <!-- EN: Combined genes exceeded metabolism limits. -->
-  <CombinedGenesExceedMetabolismLimits>تجاوزت الجينات المجمعة حدود الأيض.</CombinedGenesExceedMetabolismLimits>
+  <CombinedGenesExceedMetabolismLimits>تجاوزت المورثات المجمعة حدود الأيض.</CombinedGenesExceedMetabolismLimits>
   <!-- EN: Starting colonists must be capable of violence in tutorial mode. -->
   <MessageStartingPawnCapableOfViolence>يجب أن يكون المستعمرون المبتدئون قادرين على استخدام العنف في الوضع التعليمي.</MessageStartingPawnCapableOfViolence>
 
