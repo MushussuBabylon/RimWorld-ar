@@ -7,7 +7,7 @@
   <!-- EN: fishing -->
   <FishingGroup>صيد السمك</FishingGroup>
   <!-- EN: Create an area where your hunters will fish. Must be placed over water containing fish. Larger bodies of water are generally better for fishing. -->
-  <DesignatorFishingZoneDesc>أنشئ منطقة يصطاد فيها الصيادون الأسماك. يجب وضعها فوق مسطح مائي يحتوي على أسماك. المسطحات المائية الأكبر أفضل عموماً لصيد السمك.</DesignatorFishingZoneDesc>
+  <DesignatorFishingZoneDesc>أنشئ منطقة يصطاد فيها الصيادون الأسماك. يجب وضعها فوق مسطح مائي يحتوي أسماكاً. المسطحات المائية الأكبر حجماً أفضل لصيد السمك عموماً.</DesignatorFishingZoneDesc>
 
   <!-- Override snow clearing => snow and sand clearing -->
   <!-- EN: Snow and sand removal area -->
@@ -17,7 +17,7 @@
   <!-- EN: Clear snow and sand removal area -->
   <DesignatorAreaSnowOrSandClearClear>مسح منطقة إزالة الثلج والرمل</DesignatorAreaSnowOrSandClearClear>
   <!-- EN: Removes a snow and sand removal area. Colonists will no longer try to keep this area clear of snow and sand. -->
-  <DesignatorAreaSnowOrSandClearClearDesc>إزالة منطقة إزالة الثلج والرمل. لن يحاول المستعمرون بعد ذلك إبقاء هذه المنطقة خالية من الثلوج والرمال.</DesignatorAreaSnowOrSandClearClearDesc>
+  <DesignatorAreaSnowOrSandClearClearDesc>يزيل منطقة إزالة الثلج والرمل. لن يحاول المستعمرون إبقاء هذه المنطقة خالية من الثلوج والرمال بعد ذلك.</DesignatorAreaSnowOrSandClearClearDesc>
 
   <!-- EN: Remove foundation -->
   <DesignatorRemoveFoundation>إزالة الأساس</DesignatorRemoveFoundation>
@@ -27,5 +27,5 @@
   <!-- EN: Move landing zone -->
   <DesignatorMoveGravship>نقل منطقة الهبوط</DesignatorMoveGravship>
   <!-- EN: Reposition the gravship's landing spot. -->
-  <DesignatorMoveGravshipDesc>تغيير موقع بقعة هبوط سفينة الجاذبية.</DesignatorMoveGravshipDesc>
+  <DesignatorMoveGravshipDesc>تغيير موضع هبوط سفينة الجاذبية.</DesignatorMoveGravshipDesc>
 </LanguageData>
