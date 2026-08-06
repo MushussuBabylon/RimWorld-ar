@@ -3,7 +3,7 @@
 
   <!-- Convert ideo attempt -->
   <!-- EN: Conversion -->
-  <LetterLabelConvertIdeoAttempt_Success>تحويل</LetterLabelConvertIdeoAttempt_Success>
+  <LetterLabelConvertIdeoAttempt_Success>تحويل العقيدة</LetterLabelConvertIdeoAttempt_Success>
   <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
   <LetterConvertIdeoAttempt_Success>نجح {INITIATOR_nameDef} في تحويل {RECIPIENT_nameDef} من {OLDIDEO_name} إلى {IDEO_name}.</LetterConvertIdeoAttempt_Success>
 
@@ -11,11 +11,11 @@
   <!-- EN: Grand slave rebellion -->
   <LetterLabelGrandSlaveRebellion>تمرد عبيد كبير</LetterLabelGrandSlaveRebellion>
   <!-- EN: A grand slave rebellion has begun! All of your slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{0} -->
-  <LetterGrandSlaveRebellion>بدأ تمرد عبيد كبير! جميع عبيدك ينتفضون للقتال ضدك. سيبحثون عن الأسلحة ويحاولون القضاء على مستعمريك.\n\nهؤلاء العبيد مشتركون:\n\n{0}</LetterGrandSlaveRebellion>
+  <LetterGrandSlaveRebellion>بدأ تمرد عبيد كبير! جميع عبيدك ينتفضون للقتال ضدك. سيبحثون عن الأسلحة ويحاولون القضاء على مستعمريك.\n\nالعبيد المشاركون:\n\n{0}</LetterGrandSlaveRebellion>
   <!-- EN: Local slave rebellion -->
   <LetterLabelLocalSlaveRebellion>تمرد عبيد محلي</LetterLabelLocalSlaveRebellion>
   <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveRebellion>بدأ تمرد عبيد محلي! {0_nameDef} وبعض العبيد القريبين ينتفضون للقتال ضدك. سيبحثون عن الأسلحة ويحاولون القضاء على مستعمريك.\n\nهؤلاء العبيد مشتركون:\n\n{1}</LetterLocalSlaveRebellion> 
+  <LetterLocalSlaveRebellion>بدأ تمرد عبيد محلي! {0_nameDef} وبعض العبيد القريبين ينتفضون للقتال ضدك. سيبحثون عن الأسلحة ويحاولون القضاء على مستعمريك.\n\nالعبيد المشاركون:\n\n{1}</LetterLocalSlaveRebellion> 
   <!-- EN: Slave rebellion -->
   <LetterLabelSingleSlaveRebellion>تمرد عبد</LetterLabelSingleSlaveRebellion>
   <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
@@ -25,11 +25,11 @@
   <!-- EN: Grand slave escape -->
   <LetterLabelGrandSlaveEscape>هروب عبيد كبير</LetterLabelGrandSlaveEscape>
   <!-- EN: A grand slave escape has begun! All of your slaves are making a break for it.\n\nThese slaves are involved:\n\n{0} -->
-  <LetterGrandSlaveEscape>بدأ هروب عبيد كبير! جميع عبيدك يحاولون الفرار.\n\nهؤلاء العبيد مشتركون:\n\n{0}</LetterGrandSlaveEscape>
+  <LetterGrandSlaveEscape>بدأ هروب عبيد كبير! جميع عبيدك يحاولون الفرار.\n\nالعبيد المشاركون:\n\n{0}</LetterGrandSlaveEscape>
   <!-- EN: Local slave escape -->
   <LetterLabelLocalSlaveEscape>هروب عبيد محلي</LetterLabelLocalSlaveEscape>
   <!-- EN: A local slave escape has begun! {0_nameDef} and some nearby slaves are making a break for it.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveEscape>بدأ هروب عبيد محلي! {0_nameDef} وبعض العبيد القريبين يحاولون الفرار.\n\nهؤلاء العبيد مشتركون:\n\n{1}</LetterLocalSlaveEscape>
+  <LetterLocalSlaveEscape>بدأ هروب عبيد محلي! {0_nameDef} وبعض العبيد القريبين يحاولون الفرار.\n\nالعبيد المشاركون:\n\n{1}</LetterLocalSlaveEscape>
   <!-- EN: Slave escape -->
   <LetterLabelSingleSlaveEscape>هروب عبد</LetterLabelSingleSlaveEscape>
   <!-- EN: {0_nameDef} is attempting to escape! -->
@@ -42,36 +42,36 @@
   <!-- EN: {0} role activated -->
   <LetterLabelRoleActive>تفعيل دور {0}</LetterLabelRoleActive>
   <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, use the person's Social tab, or select a ritual spot or altar and press the 'Begin role change' button. -->
-  <LetterLabelRoleActiveDesc>بلغ عدد {0}s في مستعمرتك {1}. يمكنك الآن تعيين دور {ROLE_labelDef} لأحد مستعمريك.\n\nلتعيين دور، استخدم علامة تبويب اجتماعي للشخص، أو اختر بقعة طقس أو مذبح واضغط على زر 'ابدأ تغيير الدور'.</LetterLabelRoleActiveDesc>
+  <LetterLabelRoleActiveDesc>بلغ عدد {0}ون في مستعمرتك {1}. يمكنك الآن تعيين دور {ROLE_labelDef} لأحد مستعمريك.\n\nلتعيين دور، استخدم علامة تبويب "اجتماعي" للشخص، أو اختر بقعة طقس أو مذبح واضغط على زر "ابدأ تغيير الدور".</LetterLabelRoleActiveDesc>
 
   <!-- EN: {0} role deactivated -->
   <LetterLabelRoleInactive>تعطيل دور {0}</LetterLabelRoleInactive>
   <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
-  <LetterLabelRoleInactiveDesc>انخفض عدد {0}ات في مستعمرتك إلى {1}. لم يعد دور {ROLE_labelDef} نشطاً. سيصبح هذا الدور متاحاً مرة أخرى عندما يصل عدد {0}s إلى {2}.</LetterLabelRoleInactiveDesc>
+  <LetterLabelRoleInactiveDesc>انخفض عدد {0}ون في مستعمرتك إلى {1}. لم يعد دور {ROLE_labelDef} نشطاً. سيصبح هذا الدور متاحاً مرة أخرى عندما يصل عدد {0}ون إلى {2}.</LetterLabelRoleInactiveDesc>
 
   <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
-  <LetterLabelRoleLost>فقد {PAWN_labelShort} لدور {ROLE_labelIndef}</LetterLabelRoleLost>
+  <LetterLabelRoleLost>فقد {PAWN_labelShort} دور {ROLE_labelIndef}</LetterLabelRoleLost>
   <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
   <LetterRoleLostDesc>لم يعد {PAWN_labelShort} يحمل دور {ROLE_labelIndef}. السبب:</LetterRoleLostDesc>
   <!-- EN: {PAWN_pronoun} was unassigned. -->
   <LetterRoleLostReasonUnassignedDesc>تم إلغاء تعيين {PAWN_pronoun}.</LetterRoleLostReasonUnassignedDesc>
   <!-- EN: Role became inactive due to low {0} count. -->
-  <LetterRoleLostReasonLowBelieversDesc>أصبح الدور غير نشط بسبب انخفاض عدد {0}.</LetterRoleLostReasonLowBelieversDesc>
+  <LetterRoleLostReasonLowBelieversDesc>أصبح الدور غير نشط بسبب انخفاض عدد {0}ون.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
   <LetterRoleLostLetterIdeoChangedPostfix>فقد {PAWN_labelShort} منصبه كـ {ROLE_labelDef} لأن {PAWN_pronoun} تخلى عن {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
   <!-- EN: {0} skipped -->
   <LetterObligationRoleInactive>تم تخطي {0}</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
-  <LetterObligationRoleInactiveDateDesc>{0} هو تاريخ {1}، ولكن نظراً لأن دور {ROLE_labelDef} غير نشط، سيتخطى {2}s {1}.</LetterObligationRoleInactiveDateDesc>
+  <LetterObligationRoleInactiveDateDesc>{0} هو تاريخ {1}، ولكن نظراً لأن دور {ROLE_labelDef} غير نشط، سيتخطى {2}ون {1}.</LetterObligationRoleInactiveDateDesc>
   
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
-  <LetterSpeechConvertedListeners>خطاب {PAWN_pronoun} حول الأشخاص التاليين إلى {IDEO}</LetterSpeechConvertedListeners>
+  <LetterSpeechConvertedListeners>حوّل خطاب {PAWN_pronoun} الأشخاص التاليين إلى {IDEO}</LetterSpeechConvertedListeners>
 
   <!-- EN: {0} rituals activated -->
-  <LetterTitleObligationsActivated>تفعيل {0} طقس</LetterTitleObligationsActivated>
+  <LetterTitleObligationsActivated>تفعيل {0} طقوس</LetterTitleObligationsActivated>
   <!-- EN: {0} rituals deactivated -->
-  <LetterTitleObligationsDeactivated>تعطيل {0} طقس</LetterTitleObligationsDeactivated>
+  <LetterTitleObligationsDeactivated>تعطيل {0} طقوس</LetterTitleObligationsDeactivated>
   <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
   <LetterTitleObligationsDeactivatedTooFewBelievers>يوجد الآن أقل من {1} {IDEO_memberNamePlural} في فصيلك. لذلك، لن يطالب {IDEO_memberNamePlural} بتنفيذ طقوس {IDEO} حتى يصبح هناك {1} منهم على الأقل في فصيلك.</LetterTitleObligationsDeactivatedTooFewBelievers>
   <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
@@ -94,13 +94,13 @@
   <!-- EN: Primary ideoligion changed -->
   <LetterLabelNewPrimaryIdeo>تغيير العقيدة الأساسية</LetterLabelNewPrimaryIdeo>
   <!-- EN: Your faction's primary ideoligion has changed from {OLDIDEO_name} to {NEWIDEO_name}.\n\nThis happened because {NEWIDEO_name} is now more common among your {FACTION_pawnsPlural} than any other ideoligion.\n\nYour primary ideoligion affects relationships with other factions, based on how closely your beliefs align with theirs. -->
-  <LetterNewPrimaryIdeo>تغيرت العقيدة الأساسية لفصيلك من {OLDIDEO_name} إلى {NEWIDEO_name}.\n\nحدث هذا لأن {NEWIDEO_name} أصبحت الآن الأكثر شيوعاً بين {FACTION_pawnsPlural} مقارنة بأي عقيدة أخرى.\n\nتؤثر عقيدتك الأساسية على العلاقات مع الفصائل الأخرى، بناءً على مدى توافق معتقداتك مع معتقداتهم.</LetterNewPrimaryIdeo>
+  <LetterNewPrimaryIdeo>تغيرت العقيدة الأساسية لفصيلك من {OLDIDEO_name} إلى {NEWIDEO_name}.\n\nحدث هذا لأن {NEWIDEO_name} أصبحت العقيدة الأكثر اتباعاً بين {FACTION_pawnsPlural}.\n\nتؤثر عقيدتك الأساسية على العلاقات مع الفصائل الأخرى، بناءً على مدى توافق معتقداتك مع معتقداتهم.</LetterNewPrimaryIdeo>
 
   <!-- Charity incidents -->
   <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
   <JoinerCharityInfo>هذه حادثة خيرية. إذا رفضت {0}، سيصبح المؤمنون ذوو المعتقدات الخيرية غير سعداء.</JoinerCharityInfo>
   <!-- EN: This is a charity incident. If {0} dies without being tended (and after {1}), believers with charitable beliefs will be unhappy. If {0} is tended or recruited, believers will be happy. -->
-  <AfflictedJoinerChartityInfo>هذه حادثة خيرية. إذا مات {0} دون أن يُعالج (وبعد {1})، سيصبح المؤمنون ذوو المعتقدات الخيرية غير سعداء. إذا تم علاج {0} أو تجنيده، سيكون المؤمنون سعداء.</AfflictedJoinerChartityInfo>
+  <AfflictedJoinerChartityInfo>هذه حادثة خيرية. إذا مات {0} دون أن يُعالج (وذلك بعد {1})، سيصبح المؤمنون ذوو المعتقدات الخيرية غير سعداء. إذا تم علاج {0} أو تجنيده، سيكون المؤمنون سعداء.</AfflictedJoinerChartityInfo>
   <!-- EN: The following believers have charitable beliefs -->
   <PawnsHaveCharitableBeliefs>المؤمنون التاليون لديهم معتقدات خيرية</PawnsHaveCharitableBeliefs>
 
@@ -170,17 +170,17 @@
   <!-- EN: Relic found -->
   <LetterLabelRelicFound>تم العثور على الأثر</LetterLabelRelicFound>
   <!-- EN: You've finally learned the location of the relic {0}! -->
-  <LetterTextRelicFoundLocation>عرفت أخيراً موقع الأثر {0}!</LetterTextRelicFoundLocation>
+  <LetterTextRelicFoundLocation>عُثر أخيراً على موقع الأثر {0}!</LetterTextRelicFoundLocation>
   <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
-  <LetterTextRelicFoundSecurityThreats>الأثر موجود في هيكل قديم. إنه محمي بنظام أمني بوحدات مستقلة متعددة. يمكنك اختيار هزيمة قوات الأمن وحدة تلو الأخرى قبل أخذ الأثر، أو محاولة الإمساك به والفرار قبل أن يتمكنوا من إيذائك.\n\nبعد {0}، سيتم تنبيه جميع أنظمة الأمان.</LetterTextRelicFoundSecurityThreats>
+  <LetterTextRelicFoundSecurityThreats>الأثر موجود في مجمع قديم. إنه محمي بنظام أمني بوحدات مستقلة متعددة. يمكنك اختيار هزيمة قوات الأمن وحدة تلو الأخرى قبل أخذ الأثر، أو محاولة الإمساك به والفرار قبل أن يتمكنوا من إيذائك.\n\nبعد {0}، ستُفعَّل جميع أنظمة الأمان.</LetterTextRelicFoundSecurityThreats>
 
   <!-- Relics collection -->
   <!-- EN: Relics collected -->
   <LetterLabelRelicsCollected>تم جمع الآثار</LetterLabelRelicsCollected>
   <!-- EN: All relics belonging to {0} have been collected. The following people will be delighted -->
-  <LetterTextRelicsCollected>تم جمع جميع الآثار التابعة لـ {0}. سيكون الأشخاص التاليون مسرورين</LetterTextRelicsCollected>
+  <LetterTextRelicsCollected>تم جمع جميع الآثار التابعة لـ {0}. سيكون الأشخاص التاليون مسرورين.</LetterTextRelicsCollected>
   <!-- EN: You have collected all the known relics of this world. The following people will be delighted -->
-  <LetterTextRelicsCollectedClassic>لقد جمعت جميع الآثار المعروفة لهذا العالم. سيكون الأشخاص التاليون مسرورين</LetterTextRelicsCollectedClassic>
+  <LetterTextRelicsCollectedClassic>لقد جمعت جميع الآثار المعروفة لهذا العالم. سيكون الأشخاص التاليون مسرورين.</LetterTextRelicsCollectedClassic>
 
   <!-- Gauranlen tree connection -->
   <!-- EN: {TREE_label} connection -->
@@ -202,9 +202,9 @@
   <!-- EN: You have completed your study of the {0_labelShort}.\n\nYou can't say that you understand it in any complete way, but you have detected patterns in its behavior and the way it seems to express information.\n\nWith this knowledge, you will be able to interpret the next piece of the archonexus map. -->
   <LetterTextArchonexusStructureResearched>لقد أكملت دراستك لـ {0_labelShort}.\n\nلا يمكنك القول إنك تفهمه تماماً، لكنك اكتشفت أنماطاً في سلوكه وطريقة التعبير عن المعلومات.\n\nبهذه المعرفة، ستتمكن من تفسير القطعة التالية من خريطة الآركونيكسس.</LetterTextArchonexusStructureResearched>
   <!-- EN: Archotech structures abandoned -->
-  <LetterLabelArchotechStructuresAbandoned>تم التخلي عن الهياكل الأركوتكية</LetterLabelArchotechStructuresAbandoned>
+  <LetterLabelArchotechStructuresAbandoned>تم التخلي عن الهياكل الأركوتيكية</LetterLabelArchotechStructuresAbandoned>
   <!-- EN: You have abandoned the archotech structures at {0_definite}.\n\nDistant observers say they saw a great flash emanating from this location not long after you left. -->
-  <LetterTextArchotechStructuresAbandoned>لقد تخليت عن الهياكل الأركوتكية في {0_definite}.\n\nيقول المراقبون البعيدون إنهم رأوا وميضاً عظيماً ينبعث من هذا الموقع بعد فترة ليست طويلة من مغادرتك.</LetterTextArchotechStructuresAbandoned>
+  <LetterTextArchotechStructuresAbandoned>لقد تخليت عن الهياكل الأركوتيكية في {0_definite}.\n\nيقول المراقبون البعيدون إنهم رأوا وميضاً عظيماً ينبعث من هذا الموقع بعد فترة ليست طويلة من مغادرتك.</LetterTextArchotechStructuresAbandoned>
 
   <!-- Reforming ideo -->
   <!-- EN: Reform ideoligion -->
