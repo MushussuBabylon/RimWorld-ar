@@ -28,7 +28,7 @@
   <!-- EN: {BOSS} with {APPAREL} -->
   <BossWithApparel>{BOSS} مع {APPAREL}</BossWithApparel>
   <!-- EN: Resulting from gene -->
-  <ComesFromGene>ناتج عن جين</ComesFromGene>
+  <ComesFromGene>ناتج عن مورثة</ComesFromGene>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -128,9 +128,9 @@
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
-  <Hemogen>الهيموجين</Hemogen>
+  <Hemogen>الدم الحيوي</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
-  <HemogenDesc>الهيموجين مصدر طاقة حيوي يُستخلص من مركبات في دم الإنسان. ينتجه البشر الأساسيون طبيعياً ويستهلكونه ضمن توازنهم الداخلي. تستخدمه بعض الأنماط الغريبة كوقود لقدرات خاصة، بينما يعتمد آخرون على استهلاكه للبقاء على قيد الحياة.</HemogenDesc>
+  <HemogenDesc>الدم الحيوي مصدر طاقة حيوي يُستخلص من مركبات في دم الإنسان. ينتجه البشر الأساسيون طبيعياً ويستهلكونه ضمن توازنهم الداخلي. تستخدمه بعض الأنماط الغريبة كوقود لقدرات خاصة، بينما يعتمد آخرون على استهلاكه للبقاء على قيد الحياة.</HemogenDesc>
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>سعة سبات الموت</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
@@ -146,7 +146,7 @@
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>يمكن لـ {PAWN_nameDef} الاستيقاظ بأمان الآن.</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
-  <CannotWakeNotEnoughHemogen>لا يمكن الاستيقاظ. يحتاج {0} هيموجين على الأقل.</CannotWakeNotEnoughHemogen>
+  <CannotWakeNotEnoughHemogen>لا يمكن الاستيقاظ. يحتاج {0} دم حيوي على الأقل.</CannotWakeNotEnoughHemogen>
   <!-- EN: Auto-wake -->
   <AutoWake>استيقاظ تلقائي</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
@@ -164,7 +164,7 @@
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>يمكنه الاستيقاظ بأمان الآن.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
-  <DisabledByGene>معطل بجين</DisabledByGene>
+  <DisabledByGene>معطل بمورثة</DisabledByGene>
   <!-- EN: {PAWN_nameDef} is in critical condition. -->
   <WakeDisabledCriticalCondition>{PAWN_nameDef} في حالة حرجة.</WakeDisabledCriticalCondition>
   <!-- EN: Drain rate -->
@@ -176,11 +176,11 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>ينبغي لـ {PAWN_nameDef} السبات قريباً لتجنب الإنهاك.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>يحدد ما إذا كان {PAWN_nameDef} يتناول عبوات الهيموجين تلقائياً عند انخفاض هيموجينـ{PAWN_possessive} دون {MIN}.\n\nالتناول التلقائي حالياً: {ONOFF}.</AutoTakeHemogenDesc>
+  <AutoTakeHemogenDesc>يحدد ما إذا كان {PAWN_nameDef} يتناول عبوات الدم الحيوي تلقائياً عند انخفاض الدم الحيوي خاصتـ{PAWN_possessive} دون {MIN}.\n\nالتناول التلقائي حالياً: {ONOFF}.</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
-  <ConsumeHemogenBelow>تناول الهيموجين عند الانخفاض دون</ConsumeHemogenBelow>
+  <ConsumeHemogenBelow>تناول الدم الحيوي عند الانخفاض دون</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
-  <NeverConsumeHemogen>عدم تناول الهيموجين مطلقاً.</NeverConsumeHemogen>
+  <NeverConsumeHemogen>عدم تناول الدم الحيوي مطلقاً.</NeverConsumeHemogen>
   <!-- EN: Will kill -->
   <WillKill>سيقتل</WillKill>
   <!-- EN: Will cause major blood loss -->
@@ -256,31 +256,31 @@
 
   <!-- Genes -->
   <!-- EN: genes -->
-  <Genes>جينات</Genes>
+  <Genes>مورثات</Genes>
   <!-- EN: The genes associated with this xenotype. -->
-  <GenesDesc>الجينات المرتبطة بهذا النمط الغريب.</GenesDesc>
+  <GenesDesc>المورثات المرتبطة بهذا النمط الغريب.</GenesDesc>
   <!-- EN: suppressed -->
   <Suppressed>مكبوت</Suppressed>
   <!-- EN: active -->
   <Active>نشط</Active>
   <!-- EN: This trait has been suppressed by a conflicting forced genetic trait or gene. It will not be active until all conflicts are removed -->
-  <SuppressedDesc>كُبتت هذه السمة بفعل جين أو سمة قسرية متعارضة. لن تنشط حتى إزالة التعارض.</SuppressedDesc>
+  <SuppressedDesc>كُبتت هذه السمة بفعل مورثة أو سمة قسرية متعارضة. لن تنشط حتى إزالة التعارض.</SuppressedDesc>
   <!-- EN: trait -->
   <Trait>سمة</Trait>
   <!-- EN: gene -->
-  <Gene>جين</Gene>
+  <Gene>مورثة</Gene>
   <!-- EN: Added by gene -->
-  <AddedByGene>مضاف بجين</AddedByGene>
+  <AddedByGene>مضاف بمورثة</AddedByGene>
   <!-- EN: Eject all -->
   <EjectAll>إخراج الكل</EjectAll>
   <!-- EN: Drop all contained genepacks onto the ground. -->
-  <EjectAllDesc>إلقاء جميع عبوات الجينات الموجودة على الأرض.</EjectAllDesc>
+  <EjectAllDesc>إلقاء جميع عبوات المورثات الموجودة على الأرض.</EjectAllDesc>
   <!-- EN: Genepacks stored -->
-  <GenepacksStored>عبوات جينات مخزنة</GenepacksStored>
+  <GenepacksStored>عبوات مورثات مخزنة</GenepacksStored>
   <!-- EN: Auto-load -->
   <GenepackAutoLoad>تحميل تلقائي</GenepackAutoLoad>
   <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
-  <GenepackAutoLoadDesc>إذا كان نشطاً، سيخزن النمّال عبوة الجينات تلقائياً في بنك الجينات.</GenepackAutoLoadDesc>
+  <GenepackAutoLoadDesc>إذا كان نشطاً، سيخزن النمّال عبوة المورثات تلقائياً في بنك المورثات.</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>سمات قسرية</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -290,77 +290,77 @@
   <!-- EN: Complexity -->
   <Complexity>التعقيد</Complexity>
   <!-- EN: How much complexity this adds to the process of gene assembly. -->
-  <ComplexityDesc>ما يضيفه هذا من تعقيد لعملية تجميع الجينات.</ComplexityDesc>
+  <ComplexityDesc>ما يضيفه هذا من تعقيد لعملية تجميع المورثات.</ComplexityDesc>
   <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
-  <MaxComplexityDesc>يمكن زيادة التعقيد الأقصى ببناء معالجات جينات قرب مجمع الجينات.</MaxComplexityDesc>
+  <MaxComplexityDesc>يمكن زيادة التعقيد الأقصى ببناء معالجات مورثات قرب مجمع المورثات.</MaxComplexityDesc>
   <!-- EN: Total complexity -->
   <ComplexityTotal>التعقيد الكلي</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
-  <ComplexityTotalDesc>التعقيد الكلي لجميع الجينات المستخدمة.</ComplexityTotalDesc>
+  <ComplexityTotalDesc>التعقيد الكلي لجميع المورثات المستخدمة.</ComplexityTotalDesc>
   <!-- EN: metabolic efficiency -->
   <Metabolism>الكفاءة الأيضية</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
-  <MetabolismDesc>الكفاءة الأيضية الكلية لهذه الجينات عند تجميعها. الكفاءة العالية تعني حاجة أقل للطعام، والعكس.</MetabolismDesc>
+  <MetabolismDesc>الكفاءة الأيضية الكلية لهذه المورثات عند تجميعها. الكفاءة العالية تعني حاجة أقل للطعام، والعكس.</MetabolismDesc>
   <!-- EN: Metabolic efficiency -->
   <MetabolismTotal>الكفاءة الأيضية الكلية</MetabolismTotal>
   <!-- EN: The total metabolic efficiency of all genes in the genome. High efficiency means a person needs less food; low efficiency means they must eat more. -->
-  <MetabolismTotalDesc>الكفاءة الأيضية لكل جينات الجينوم. الكفاءة العالية تعني حاجة أقل للطعام.</MetabolismTotalDesc>
+  <MetabolismTotalDesc>الكفاءة الأيضية لكل مورثات الجينوم. الكفاءة العالية تعني حاجة أقل للطعام.</MetabolismTotalDesc>
   <!-- EN: Number of genes -->
-  <NumberOfGenes>عدد الجينات</NumberOfGenes>
+  <NumberOfGenes>عدد المورثات</NumberOfGenes>
   <!-- EN: Gene price factors -->
-  <GenePriceFactors>عوامل سعر الجينات</GenePriceFactors>
+  <GenePriceFactors>عوامل سعر المورثات</GenePriceFactors>
   <!-- EN: any -->
   <AnyLower>أي</AnyLower>
   <!-- EN: Archite total -->
   <ArchitesTotal>إجمالي الآركيت</ArchitesTotal>
   <!-- EN: Archite capsules -->
-  <ArchitesRequired>كبسولات الآركيت</ArchitesRequired>
+  <ArchitesRequired>كبسولات آركوتيك</ArchitesRequired>
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
-  <ArchitesRequiredDesc>الآركيتات هي ميكانيتات آركوتيكية مجهرية تعمل على الخلايا والجزيئات، صممتها الذكاءات العليا. قادرة على أعمال خارقة، وتعتمد عليها بعض الجينات. لا يمكن للبشر صنعها، بل يعثرون عليها حين تنتجها الآركوتيك لأسبابها المجهولة.</ArchitesRequiredDesc>
+  <ArchitesRequiredDesc>الآركيتات هي ميكانيتات آركوتيكية مجهرية تعمل على الخلايا والجزيئات، صممتها الذكاءات العليا. قادرة على أعمال خارقة، وتعتمد عليها بعض المورثات. لا يمكن للبشر صنعها، بل يعثرون عليها حين تنتجها الآركوتيك لأسبابها المجهولة.</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
-  <CancelXenogerm>إلغاء النواة الغريبة</CancelXenogerm>
+  <CancelXenogerm>إلغاء الزينوجرم</CancelXenogerm>
   <!-- EN: Stop all work on the current xenogerm. -->
-  <CancelXenogermDesc>إيقاف العمل على النواة الغريبة الحالية.</CancelXenogermDesc>
+  <CancelXenogermDesc>إيقاف العمل على الزينوجرم الحالي.</CancelXenogermDesc>
   <!-- EN: Allow all genepacks -->
-  <AllowAllGenepacks>السماح بكل عبوات الجينات</AllowAllGenepacks> 
+  <AllowAllGenepacks>السماح بكل عبوات المورثات</AllowAllGenepacks> 
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
-  <AllowAllGenepacksDesc>يسمح للمستعمرين بتخزين أي عبوة جينات تلقائياً في الحاوية. ألغِ التفعيل لتحديد عبوات معينة.</AllowAllGenepacksDesc> 
+  <AllowAllGenepacksDesc>يسمح للمستعمرين بتخزين أي عبوة مورثات تلقائياً في الحاوية. ألغِ التفعيل لتحديد عبوات معينة.</AllowAllGenepacksDesc> 
   <!-- EN: The genepacks currently inside this container. -->
-  <ContainedGenepacksDesc>عبوات الجينات الموجودة حالياً داخل الحاوية.</ContainedGenepacksDesc> 
+  <ContainedGenepacksDesc>عبوات المورثات الموجودة حالياً داخل الحاوية.</ContainedGenepacksDesc> 
   <!-- EN: The genepacks designated to be loaded into this container. -->
-  <GenepacksToLoadDesc>عبوات الجينات المخصصة للتحميل في الحاوية.</GenepacksToLoadDesc> 
+  <GenepacksToLoadDesc>عبوات المورثات المخصصة للتحميل في الحاوية.</GenepacksToLoadDesc> 
   <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
-  <GenepacksIgnoredDesc>عبوات الجينات غير المخزنة وغير المخصصة للتحميل في الحاوية.</GenepacksIgnoredDesc> 
+  <GenepacksIgnoredDesc>عبوات المورثات غير المخزنة وغير المخصصة للتحميل في الحاوية.</GenepacksIgnoredDesc> 
   <!-- EN: Genepacks to load -->
   <GenepacksToLoad>عبوات للتحميل</GenepacksToLoad> 
   <!-- EN: Genepacks to ignore -->
   <GenepacksToIgnore>عبوات للتجاهل</GenepacksToIgnore> 
   <!-- EN: Eject this genepack from the container. -->
-  <EjectGenepackDesc>أخرج عبوة الجينات هذه من الحاوية.</EjectGenepackDesc> 
+  <EjectGenepackDesc>أخرج عبوة المورثات هذه من الحاوية.</EjectGenepackDesc> 
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
   <ConfirmRemoveGenepack>أتريد حقاً إخراج {0}؟ ستُلقى على الأرض فوراً.</ConfirmRemoveGenepack> 
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>البحث المطلوب ناقص</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
-  <NoGenepacksAvailable>لا تتوفر عبوات جينات في بنوك الجينات القريبة.</NoGenepacksAvailable> 
+  <NoGenepacksAvailable>لا تتوفر عبوات مورثات في بنوك المورثات القريبة.</NoGenepacksAvailable> 
   <!-- EN: Allow this genepack to be loaded into this container. -->
-  <AddToLoadingListDesc>اسمح بتحميل عبوة الجينات هذه في الحاوية.</AddToLoadingListDesc> 
+  <AddToLoadingListDesc>اسمح بتحميل عبوة المورثات هذه في الحاوية.</AddToLoadingListDesc> 
   <!-- EN: Remove this genepack from the loading list. -->
-  <RemoveFromLoadingListDesc>أزل عبوة الجينات هذه من قائمة التحميل.</RemoveFromLoadingListDesc> 
+  <RemoveFromLoadingListDesc>أزل عبوة المورثات هذه من قائمة التحميل.</RemoveFromLoadingListDesc> 
   <!-- EN: Recombine -->
   <Recombine>أعِد الدمج</Recombine>
   <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
-  <RecombineDesc>أنشئ نواة غريبة قابلة للزرع من بيانات عبوات الجينات في مكتبتك.</RecombineDesc>
+  <RecombineDesc>أنشئ زينوجرماً قابلاً للزرع من بيانات عبوات المورثات في مكتبتك.</RecombineDesc>
   <!-- EN: Genes -->
-  <ContainedGenesDesc>الجينات</ContainedGenesDesc>
+  <ContainedGenesDesc>المورثات</ContainedGenesDesc>
   <!-- EN: Order implantation -->
   <ImplantXenogerm>أمر بالزرع</ImplantXenogerm>
   <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
-  <ImplantXenogermDesc>زرع النواة في شخص لتعديل شفرته الجينية.\n\nعملية جراحية تحتاج طبيباً وسريراً طبياً و{MEDICINEAMOUNT} من الدواء.</ImplantXenogermDesc>
+  <ImplantXenogermDesc>زرع الزينوجرم في شخص لتعديل شفرته الجينية.\n\nعملية جراحية تحتاج طبيباً وسريراً طبياً و{MEDICINEAMOUNT} من الدواء.</ImplantXenogermDesc>
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
-  <ImplantXenogermWarningDesc>زرع النواة سيُدخل {PAWN_nameDef} في غيبوبة أثناء اندماجها، تدوم وسطياً {COMADURATION}. تعتمد المدة على مهارة الطبيب وجودة المنشأة.</ImplantXenogermWarningDesc>
+  <ImplantXenogermWarningDesc>زرع الزينوجرم سيُدخل {PAWN_nameDef} في غيبوبة أثناء اندماجه، تدوم وسطياً {COMADURATION}. تعتمد المدة على مهارة الطبيب وجودة المنشأة.</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>كما أن الزرع سيمحو الجينات الغريبة الحالية. النمط الحالي لـ {PAWN_nameDef} هو '{XENOTYPE}'. {PAWN_pronoun} يمتلك:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>كما أن الزرع سيمحو المورثات الدخيلة الحالية. النمط الحالي لـ {PAWN_nameDef} هو '{XENOTYPE}'. {PAWN_pronoun} يمتلك:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
   <ImplantXenogermWarningNewMetabolism>بعد الزرع، ستصبح قيمة أيض {PAWN_nameDef} {MET} ومضاعف استهلاك الطعام {CONSUMPTION}.</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
@@ -368,13 +368,13 @@
   <!-- EN: Cancel implanting -->
   <CancelImplanting>إلغاء الزرع</CancelImplanting>
   <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
-  <CancelImplantingDesc>إلغاء زرع هذه النواة في {PAWN_nameDef}.</CancelImplantingDesc>
+  <CancelImplantingDesc>إلغاء زرع هذا الزينوجرم في {PAWN_nameDef}.</CancelImplantingDesc>
   <!-- EN: Xenotype -->
   <Xenotype>النمط الغريب</Xenotype>
   <!-- EN: unique -->
   <Unique>فريد</Unique>
   <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
-  <UniqueXenotypeDesc>سلالة بشرية فريدة تحمل جينات غريبة لا تنتمي لنمط معروف.</UniqueXenotypeDesc>
+  <UniqueXenotypeDesc>سلالة بشرية فريدة تحمل مورثات دخيلة لا تنتمي لنمط معروف.</UniqueXenotypeDesc>
   <!-- EN: Factor for genetic metabolism -->
   <FactorForMetabolism>عامل الأيض الجيني</FactorForMetabolism>
   <!-- EN: Progress -->
@@ -386,31 +386,31 @@
   <!-- EN: Insert person -->
   <InsertPerson>إدخال شخص</InsertPerson>
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
-  <InsertPersonGeneExtractorDesc>أدخل شخصاً في مستخرج الجينات. تُستخلص مادته الجينية لإنشاء عبوة جينات عشوائية.\n\nالعملية مؤلمة وتضعف الشخص لأيام، وهي مميتة لمن يعيد نمو جيناته.</InsertPersonGeneExtractorDesc>
+  <InsertPersonGeneExtractorDesc>أدخل شخصاً في مستخرج المورثات. تُستخلص مادته الجينية لإنشاء عبوة مورثات عشوائية.\n\nالعملية مؤلمة وتضعف الشخص لأيام، وهي مميتة لمن يعيد نمو مورثاته.</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <ConfirmExtractXenogermWillKill>تحذير: جينات {PAWN_nameDef} قيد النمو. استخراج جيناتـ{PAWN_possessive} قبل النمو سيقتلـ{PAWN_objective}.\n\nهل أنت متأكد؟</ConfirmExtractXenogermWillKill>
+  <ConfirmExtractXenogermWillKill>تحذير: مورثات {PAWN_nameDef} قيد النمو. استخراج مورثاتـ{PAWN_possessive} قبل النمو سيقتلـ{PAWN_objective}.\n\nهل أنت متأكد؟</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
-  <GeneExtractionComplete>اكتمل استخراج الجينات لـ {PAWN_nameDef}. استُخرجت</GeneExtractionComplete>
+  <GeneExtractionComplete>اكتمل استخراج المورثات لـ {PAWN_nameDef}. استُخرجت</GeneExtractionComplete>
   <!-- EN: Insert xenogerm -->
-  <InsertXenogerm>إدخال نواة غريبة</InsertXenogerm>
+  <InsertXenogerm>إدخال زينوجرم</InsertXenogerm>
   <!-- EN: Insert a xenogerm to apply during growth. -->
-  <InsertXenogermDesc>أدخل نواة غريبة لتُطبق أثناء النمو.</InsertXenogermDesc>
+  <InsertXenogermDesc>أدخل زينوجرماً ليُطبق أثناء النمو.</InsertXenogermDesc>
   <!-- EN: Waiting for {PAWN_nameDef}. -->
   <WaitingForPawn>بانتظار {PAWN_nameDef}.</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
-  <ExtractingXenogermFrom>يستخرج الجينات من {PAWN_nameDef}.</ExtractingXenogermFrom>
+  <ExtractingXenogermFrom>يستخرج المورثات من {PAWN_nameDef}.</ExtractingXenogermFrom>
   <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
   <ExtractionPausedNoPower>الاستخراج متوقف: لا طاقة (يُلغى بعد {TIME})</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>آخر تناول لـ {CHEMICAL_label} منذ {DURATION}.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
-  <NamedXenogerm>نواة {NAME} الغريبة</NamedXenogerm>
+  <NamedXenogerm>زينوجرم {NAME}</NamedXenogerm>
   <!-- EN: Inserted {0} -->
   <InsertedThing>أُدخل {0}</InsertedThing>
   <!-- EN: Assembly paused -->
   <AssemblyPaused>التجميع متوقف</AssemblyPaused>
   <!-- EN: Required gene bank unpowered -->
-  <GenebankUnpowered>بنك الجينات المطلوب بدون طاقة</GenebankUnpowered>
+  <GenebankUnpowered>بنك المورثات المطلوب بدون طاقة</GenebankUnpowered>
   <!-- EN: deathless -->
   <Deathless>خالد</Deathless>
   <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
@@ -418,7 +418,7 @@
   <!-- EN: {CHEMICAL_label} dependency -->
   <ChemicalDependency>إدمان {CHEMICAL_label}</ChemicalDependency>
   <!-- EN: Xenogerm -->
-  <Xenogerm>النواة الغريبة</Xenogerm>
+  <Xenogerm>الزينوجرم</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
   <PawnWillKeepDeathrestingLethalInjuries>سيستمر {PAWN_nameDef} في السبات ما دامت إصاباتـ{PAWN_possessive} مميتة.</PawnWillKeepDeathrestingLethalInjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
@@ -434,7 +434,7 @@
   <!-- EN: Non-{GENE} romance chance -->
   <MissingGeneRomanceChance>فرصة الارتباط بغير حاملي {GENE}</MissingGeneRomanceChance>
   <!-- EN: Not in gene bank -->
-  <NotInGeneBank>ليس في بنك جينات</NotInGeneBank>
+  <NotInGeneBank>ليس في بنك مورثات</NotInGeneBank>
 
   <!-- Child birth -->
   <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
@@ -521,17 +521,17 @@
 
   <!-- Abilities -->
   <!-- EN: {0_labelShort} is not hemogenic. -->
-  <AbilityDisabledNoHemogenGene>{0_labelShort} ليس لديه جينات هيموجينية.</AbilityDisabledNoHemogenGene>
+  <AbilityDisabledNoHemogenGene>{0_labelShort} ليس لديه مورثات دم حيوي.</AbilityDisabledNoHemogenGene>
   <!-- EN: {0_labelShort} does not have enough hemogen. -->
-  <AbilityDisabledNoHemogen>لا يملك {0_labelShort} هيموجيناً كافياً.</AbilityDisabledNoHemogen>
+  <AbilityDisabledNoHemogen>لا يملك {0_labelShort} دماً حيوياً كافياً.</AbilityDisabledNoHemogen>
   <!-- EN: children cannot do this. -->
   <AbilityStartRitualDisabledChild>لا يمكن للأطفال فعل هذا.</AbilityStartRitualDisabledChild>
   <!-- EN: need a {0}. -->
   <AbilityStartRitualNoMembersOfIdeo>تحتاج {0}.</AbilityStartRitualNoMembersOfIdeo>
   <!-- EN: Hemogen cost -->
-  <AbilityHemogenCost>تكلفة الهيموجين</AbilityHemogenCost>
+  <AbilityHemogenCost>تكلفة الدم الحيوي</AbilityHemogenCost>
   <!-- EN: Base hemogen gain -->
-  <AbilityHemogenGain>اكتساب الهيموجين الأساسي</AbilityHemogenGain>
+  <AbilityHemogenGain>اكتساب الدم الحيوي الأساسي</AbilityHemogenGain>
   <!-- EN: Smokepop charged -->
   <AbilityMechSmokepopCharged>قنبلة الدخان جاهزة</AbilityMechSmokepopCharged>
   <!-- EN: Smokepop recharged in {0} -->
@@ -638,9 +638,9 @@
   <WearableBy>يمكن ارتداؤه من</WearableBy>
 
   <!-- EN: Xenogerm implantation -->
-  <Reward_ReimplantXenogerm_Label>زرع النواة الغريبة</Reward_ReimplantXenogerm_Label>
+  <Reward_ReimplantXenogerm_Label>زرع الزينوجرم</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>سيعيد أحد أعضاء المجموعة زرع نواته الغريبة في أحد مستعمريك، محولاً إياه إلى واحد منهم. سيبقى مستعمرك جزءاً من فصيلك وتحت سيطرتك.</Reward_ReimplantXenogerm_Desc>
+  <Reward_ReimplantXenogerm_Desc>سيعيد أحد أعضاء المجموعة زرع زينوجرمه في أحد مستعمريك، محولاً إياه إلى واحد منهم. سيبقى مستعمرك جزءاً من فصيلك وتحت سيطرتك.</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
