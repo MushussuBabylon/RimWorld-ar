@@ -5,18 +5,18 @@
   <RecipeRequiresMechanitor>الوصفة {0} تتطلب ميكانيتوراً للعمل عليها. لا يوجد ميكانيتور بين مستعمريك، لذا لن يقوم أحد بتنفيذ هذه الفاتورة.</RecipeRequiresMechanitor>
 
   <!-- EN: genepacks -->
-  <GenepackPlural>عبوات جينات</GenepackPlural>
+  <GenepackPlural>عبوات مورثات</GenepackPlural>
   <!-- EN: Traits develop later during childhood -->
   <TraitsDevelopLaterBaby>تتطور السمات لاحقاً خلال الطفولة</TraitsDevelopLaterBaby>
   <!-- EN: Skills develop later during childhood -->
   <SkillsDevelopLaterBaby>تتطور المهارات لاحقاً خلال الطفولة</SkillsDevelopLaterBaby>
   <!-- EN: Genes -->
-  <TabGenes>الجينات</TabGenes>
+  <TabGenes>المورثات</TabGenes>
 
   <!-- EN: View genes -->
-  <ViewGenes>عرض الجينات</ViewGenes>
+  <ViewGenes>عرض المورثات</ViewGenes>
   <!-- EN: Click to view {PAWN_nameDef}'s genes. -->
-  <ViewGenesDesc>انقر لعرض جينات {PAWN_nameDef}.</ViewGenesDesc>
+  <ViewGenesDesc>انقر لعرض مورثات {PAWN_nameDef}.</ViewGenesDesc>
 
   <!-- Feeding tab (human babies) -->
   <!-- EN: Feeding -->
@@ -86,21 +86,21 @@
   <!-- EN: zero chance -->
   <CantRomanceTargetZeroChance>فرصة معدومة</CantRomanceTargetZeroChance>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
-  <CantRomanceInitiateMessagePrisoner>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه سجين.</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessagePrisoner>لا يمكن لـ {0_labelShort} محاولة المغازلة لأن {0_pronoun} رهن الاعتقال.</CantRomanceInitiateMessagePrisoner>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
-  <CantRomanceInitiateMessageSlave>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه عبد.</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageSlave>لا يمكن لـ {0_labelShort} محاولة المغازلة لأن {0_pronoun} في العبودية.</CantRomanceInitiateMessageSlave>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
-  <CantRomanceInitiateMessageAsexual>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه يحمل سمة اللاجنسية.</CantRomanceInitiateMessageAsexual>
+  <CantRomanceInitiateMessageAsexual>لا يمكن لـ {0_labelShort} محاولة المغازلة بسبب سمة اللاجنسية.</CantRomanceInitiateMessageAsexual>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
-  <CantRomanceInitiateMessageDowned>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه عاجز.</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDowned>لا يمكن لـ {0_labelShort} محاولة المغازلة بسبب العجز.</CantRomanceInitiateMessageDowned>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
-  <CantRomanceInitiateMessageDrafted>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه مجند.</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageDrafted>لا يمكن لـ {0_labelShort} محاولة المغازلة بسبب التجنيد.</CantRomanceInitiateMessageDrafted>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
-  <CantRomanceInitiateMessageMentalState>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه في حالة نفسية غير مناسبة.</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageMentalState>لا يمكن لـ {0_labelShort} محاولة المغازلة لأن {0_pronoun} في حالة نفسية غير مناسبة.</CantRomanceInitiateMessageMentalState>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
-  <CantRomanceInitiateMessageTalk>لا يمكن لـ {0_labelShort} محاولة المغازلة لأنه غير قادر على الكلام.</CantRomanceInitiateMessageTalk>
+  <CantRomanceInitiateMessageTalk>لا يمكن لـ {0_labelShort} محاولة المغازلة بسبب عدم القدرة على الكلام.</CantRomanceInitiateMessageTalk>
   <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
-  <CantRomanceInitiateMessageCooldown>{0_labelShort} حاول المغازلة مؤخراً ويجب أن ينتظر {1} حتى يحاول مجدداً.</CantRomanceInitiateMessageCooldown>
+  <CantRomanceInitiateMessageCooldown>{0_labelShort} حاول المغازلة مؤخراً ويجب الانتظار {1} قبل المحاولة مجدداً.</CantRomanceInitiateMessageCooldown>
   <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
   <TryRomanceFailedMessage>محاولة {0_labelShort} لمغازلة {1_labelShort} لم تنجح.</TryRomanceFailedMessage>
   <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
@@ -124,12 +124,12 @@
   <!-- EN: {0_nameDef} is already in a relationship. -->
   <RomanceWarningMonogamous>{0_nameDef} في علاقة بالفعل.</RomanceWarningMonogamous>
   <!-- EN: {0_nameDef} already has {1} partners. -->
-  <RomanceWarningPolygamous>{0_nameDef} لديه بالفعل {1} شركاء.</RomanceWarningPolygamous>
+  <RomanceWarningPolygamous>لدى {0_nameDef} بالفعل {1} شركاء.</RomanceWarningPolygamous>
 
   <!-- Guest tab (prisoners) -->
   <!-- EN: Genes -->
-  <FactorForGenes>الجينات</FactorForGenes>
+  <FactorForGenes>المورثات</FactorForGenes>
   <!-- EN: Prison breaking is disabled by {GENE_label} gene. -->
-  <PrisonBreakingDisabledDueToGene>تعطيل محاولات الهروب من السجن بواسطة جين {GENE_label}.</PrisonBreakingDisabledDueToGene>
+  <PrisonBreakingDisabledDueToGene>تعطيل محاولات الهروب من السجن بواسطة مورثة {GENE_label}.</PrisonBreakingDisabledDueToGene>
 
 </LanguageData>
