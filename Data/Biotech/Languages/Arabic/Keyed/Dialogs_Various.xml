@@ -31,7 +31,7 @@
   <!-- EN: Any mechlord apparel -->
   <ApparelRequirementAnyMechlordApparel>أي ملابس ميكالورد</ApparelRequirementAnyMechlordApparel>
   <!-- EN: or any psycaster, prestige, or mechlord apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>أو أي ملابس سايكاستر، أو فاخرة، أو ميكالورد</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>أو أي ملابس مستخدم القدرات النفسية، أو فاخرة، أو ميكالورد</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
 
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
@@ -41,13 +41,13 @@
 
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
-  <ConfirmRipscanPawn>المسح الممزق لـ {PAWN_nameDef} سيقتلـ{PAWN_objective}. هل أنت متأكد أنك تريد المتابعة؟</ConfirmRipscanPawn>
+  <ConfirmRipscanPawn>المسح التمزيقي لـ {PAWN_nameDef} سيقتلـ{PAWN_objective}. هل أنت متأكد أنك تريد المتابعة؟</ConfirmRipscanPawn>
   <!-- EN: Cancelling a ripscan will still kill {PAWN_nameDef}. Are you sure you want to continue? -->
-  <ConfirmCancelRipscan>إلغاء المسح الممزق سيقتل {PAWN_nameDef} مع ذلك. هل أنت متأكد أنك تريد المتابعة؟</ConfirmCancelRipscan>
+  <ConfirmCancelRipscan>إلغاء المسح التمزيقي سيقتل {PAWN_nameDef} مع ذلك. هل أنت متأكد أنك تريد المتابعة؟</ConfirmCancelRipscan>
 
   <!-- Xenogerm -->
   <!-- EN: Assemble genes -->
-  <AssembleGenes>تجميع الجينات</AssembleGenes>
+  <AssembleGenes>تجميع المورثات</AssembleGenes>
   <!-- EN: Create xenotype -->
   <CreateXenotype>إنشاء نمط غريب</CreateXenotype>
   <!-- EN: Select icon -->
@@ -55,19 +55,19 @@
   <!-- EN: The icon of this xenotype. -->
   <SelectIconDesc>أيقونة هذا النمط الغريب.</SelectIconDesc>
   <!-- EN: Inspect the genes inside the {0_labelShort}. -->
-  <InspectGenesDesc>فحص الجينات داخل {0_labelShort}.</InspectGenesDesc>
+  <InspectGenesDesc>فحص المورثات داخل {0_labelShort}.</InspectGenesDesc>
   <!-- EN: Inspect the unborn baby's genes. -->
-  <InspectGenesHediffDesc>فحص جينات الطفل الذي لم يولد بعد.</InspectGenesHediffDesc>
+  <InspectGenesHediffDesc>فحص مورثات الطفل الذي لم يولد بعد.</InspectGenesHediffDesc>
   <!-- EN: Inspect the embryo's genes. -->
-  <InspectGenesEmbryoDesc>فحص جينات الجنين.</InspectGenesEmbryoDesc>
+  <InspectGenesEmbryoDesc>فحص مورثات الجنين.</InspectGenesEmbryoDesc>
   <!-- EN: No genepacks -->
-  <NoGenePacks>لا توجد عبوات جينات</NoGenePacks>
+  <NoGenePacks>لا توجد عبوات مورثات</NoGenePacks>
   <!-- EN: Start combining -->
   <StartCombining>ابدأ الدمج</StartCombining>
   <!-- EN: Selected genepacks -->
-  <SelectedGenepacks>عبوات الجينات المحددة</SelectedGenepacks>
+  <SelectedGenepacks>عبوات المورثات المحددة</SelectedGenepacks>
   <!-- EN: Genepack library -->
-  <GenepackLibrary>مكتبة عبوات الجينات</GenepackLibrary>
+  <GenepackLibrary>مكتبة عبوات المورثات</GenepackLibrary>
   <!-- EN: Click to add or remove -->
   <ClickToAddOrRemove>انقر للإضافة أو الإزالة</ClickToAddOrRemove>
   <!-- EN: Click to add -->
@@ -77,61 +77,61 @@
   <!-- EN: Select xenogerm -->
   <SelectXenogerm>اختر اللقاح الغريب</SelectXenogerm>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are currently regrowing. If {PAWN_pronoun} implants {PAWN_possessive} xenogerm before {PAWN_possessive} genes are fully regrown, it will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <WarningPawnWillDieFromReimplanting>تحذير: جيناتـ{PAWN_possessive} تنمو حالياً. إذا زرع {PAWN_pronoun} لقاحـ{PAWN_possessive} الغريب قبل أن تنمو جيناتـ{PAWN_possessive} بالكامل، سيقتلـ{PAWN_objective}.\n\nهل أنت متأكد أنك تريد المتابعة؟</WarningPawnWillDieFromReimplanting>
+  <WarningPawnWillDieFromReimplanting>تحذير: مورثاتـ{PAWN_possessive} تنمو حالياً. إذا زرع {PAWN_pronoun} لقاحـ{PAWN_possessive} الغريب قبل أن تنمو مورثاتـ{PAWN_possessive} بالكامل، سيقتلـ{PAWN_objective}.\n\nهل أنت متأكد أنك تريد المتابعة؟</WarningPawnWillDieFromReimplanting>
   <!-- EN: Not enough archite capsules. -->
-  <NotEnoughArchites>لا توجد كبسولات أركايت كافية.</NotEnoughArchites>
+  <NotEnoughArchites>لا توجد كبسولات آركوتيك كافية.</NotEnoughArchites>
   <!-- EN: Xenogenes are genes derived from an implanted xenogerm. If the xenogerm is removed or replaced, the xenogenes go with it. Since xenogenes are not part of the organism's own germline DNA, they are not passed to children. -->
-  <XenogenesDesc>الجينات الغريبة هي جينات مشتقة من لقاح غريب مزروع. إذا تمت إزالة أو استبدال اللقاح، تذهب الجينات الغريبة معه. بما أن الجينات الغريبة ليست جزءاً من الحمض النووي الجنسي للكائن الحي، فإنها لا تنتقل إلى الأطفال.</XenogenesDesc>
+  <XenogenesDesc>المورثات الدخيلة هي مورثات مشتقة من لقاح غريب مزروع. إذا تمت إزالة أو استبدال اللقاح، تذهب المورثات الدخيلة معه. بما أن المورثات الدخيلة ليست جزءاً من الحمض النووي الجنسي للكائن الحي، فإنها لا تنتقل إلى الأطفال.</XenogenesDesc>
   <!-- EN: Germline genes are naturally-inherited genes which are in every cell in an organism's body and don't require any external support. They are passed from parent to child. -->
-  <EndogenesDesc>جينات السلالة الجنسية هي جينات موروثة طبيعياً موجودة في كل خلية من جسم الكائن الحي ولا تتطلب أي دعم خارجي. تنتقل من الآباء إلى الأبناء.</EndogenesDesc>
+  <EndogenesDesc>المورثات الوراثية هي مورثات موروثة طبيعياً موجودة في كل خلية من جسم الكائن الحي ولا تتطلب أي دعم خارجي. تنتقل من الآباء إلى الأبناء.</EndogenesDesc>
   <!-- EN: Member xenotypes -->
   <MemberXenotypeChances>الأنماط الغريبة للأعضاء</MemberXenotypeChances>
   <!-- EN: xenotype name -->
   <XenotypeName>اسم النمط الغريب</XenotypeName>
   <!-- EN: Lock or unlock the xenotype's name. When locked, the xenotype name will not auto-regenerate when genepacks are added or removed. -->
-  <LockNameButtonDesc>قفل أو فتح اسم النمط الغريب. عند القفل، لن يتجدد اسم النمط الغريب تلقائياً عند إضافة أو إزالة عبوات الجينات.</LockNameButtonDesc>
+  <LockNameButtonDesc>قفل أو فتح اسم النمط الغريب. عند القفل، لن يتجدد اسم النمط الغريب تلقائياً عند إضافة أو إزالة عبوات المورثات.</LockNameButtonDesc>
   <!-- EN: Xenotype name lock is on. Xenotype name will not regenerate when adding or removing genepacks. -->
-  <LockNameOn>قفل اسم النمط الغريب قيد التشغيل. لن يتجدد اسم النمط الغريب عند إضافة أو إزالة عبوات الجينات.</LockNameOn>
+  <LockNameOn>قفل اسم النمط الغريب قيد التشغيل. لن يتجدد اسم النمط الغريب عند إضافة أو إزالة عبوات المورثات.</LockNameOn>
   <!-- EN: Xenotype name lock is off. Xenotype name will regenerate when adding or removing genepacks. -->
-  <LockNameOff>قفل اسم النمط الغريب متوقف. سيتجدد اسم النمط الغريب عند إضافة أو إزالة عبوات الجينات.</LockNameOff>
+  <LockNameOff>قفل اسم النمط الغريب متوقف. سيتجدد اسم النمط الغريب عند إضافة أو إزالة عبوات المورثات.</LockNameOff>
   <!-- EN: Creating xenogerm -->
   <CreatingXenogerm>إنشاء اللقاح الغريب</CreatingXenogerm>
   <!-- EN: This genepack is contained in an unpowered genebank. If added, production on the xenogerm will be suspended until power is restored. -->
-  <GenepackUnusableGenebankUnpowered>عبوة الجينات هذه موجودة في بنك جينات غير مزود بالطاقة. إذا أضيفت، سيتم تعليق إنتاج اللقاح الغريب حتى استعادة الطاقة.</GenepackUnusableGenebankUnpowered>
+  <GenepackUnusableGenebankUnpowered>عبوة المورثات هذه موجودة في بنك مورثات غير مزود بالطاقة. إذا أضيفت، سيتم تعليق إنتاج اللقاح الغريب حتى استعادة الطاقة.</GenepackUnusableGenebankUnpowered>
   <!-- EN: This xenogerm requires more genetic complexity than the gene assembler and nearby powered gene processors can support. -->
-  <GeneProcessorUnpowered>يحتاج هذا اللقاح الغريب إلى تعقيد جيني أكثر مما يمكن لمجمع الجينات ومعالجات الجينات القريبة المزودة بالطاقة دعمه.</GeneProcessorUnpowered>
+  <GeneProcessorUnpowered>يحتاج هذا اللقاح الغريب إلى تعقيد جيني أكثر مما يمكن لمجمع المورثات ومعالجات المورثات القريبة المزودة بالطاقة دعمه.</GeneProcessorUnpowered>
   <!-- EN: Estimated recombination time -->
   <RecombineDuration>الوقت المقدر لإعادة التركيب</RecombineDuration>
   <!-- EN: How long it would take for an average worker to combine the selected genes into a xenogerm. Recombination time increases with the total complexity of the genes in the xenogerm. -->
-  <RecombineDurationDesc>المدة التي سيستغرقها عامل متوسط لدمج الجينات المحددة في لقاح غريب. يزداد وقت إعادة التركيب مع التعقيد الكلي للجينات في اللقاح.</RecombineDurationDesc>
+  <RecombineDurationDesc>المدة التي سيستغرقها عامل متوسط لدمج المورثات المحددة في لقاح غريب. يزداد وقت إعادة التركيب مع التعقيد الكلي للمورثات في اللقاح.</RecombineDurationDesc>
   <!-- EN: You must research {0_label} before you can assemble a xenogerm that requires archite capsules. -->
-  <MustResearchProject>يجب أن تبحث عن {0_label} قبل أن تتمكن من تجميع لقاح غريب يتطلب كبسولات أركايت.</MustResearchProject>
+  <MustResearchProject>يجب أن تبحث عن {0_label} قبل أن تتمكن من تجميع لقاح غريب يتطلب كبسولات آركوتيك.</MustResearchProject>
   <!-- EN: Assembling xenogerms with archite genes requires {0_label} research. -->
-  <AssemblingRequiresResearch>تجميع اللقاحات الغريبة بجينات أركايت يتطلب بحث {0_label}.</AssemblingRequiresResearch>
+  <AssemblingRequiresResearch>تجميع اللقاحات الغريبة بمورثات آركوتيك يتطلب بحث {0_label}.</AssemblingRequiresResearch>
   <!-- EN: You are currently combining a {XENOGERMNAME} xenogerm. If you start combining a new xenogerm, it will cancel your current xenogerm.\n\nAre you sure you want to continue? -->
   <ConfirmStartNewXenogerm>أنت تدمج حالياً لقاحاً غريباً {XENOGERMNAME}. إذا بدأت دمج لقاح جديد، سيتم إلغاء لقاحك الحالي.\n\nهل أنت متأكد أنك تريد المتابعة؟</ConfirmStartNewXenogerm>
   <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
-  <SelectAGeneToRandomizeName>اختر جيناً واحداً على الأقل لعشوائية اسم هذا النمط الغريب.</SelectAGeneToRandomizeName>
+  <SelectAGeneToRandomizeName>اختر مورثة واحدة على الأقل لعشوائية اسم هذا النمط الغريب.</SelectAGeneToRandomizeName>
   <!-- EN: Select at least one gene to choose a name for this xenotype. -->
-  <SelectAGeneToChooseAName>اختر جيناً واحداً على الأقل لاختيار اسم لهذا النمط الغريب.</SelectAGeneToChooseAName>
+  <SelectAGeneToChooseAName>اختر مورثة واحدة على الأقل لاختيار اسم لهذا النمط الغريب.</SelectAGeneToChooseAName>
 
   <!-- View genes -->
   <!-- EN: Inspect genes -->
-  <InspectGenes>فحص الجينات</InspectGenes>
+  <InspectGenes>فحص المورثات</InspectGenes>
   <!-- EN: Inspect baby genes -->
-  <InspectBabyGenes>فحص جينات الطفل</InspectBabyGenes>
+  <InspectBabyGenes>فحص مورثات الطفل</InspectBabyGenes>
   <!-- EN: no xenogerm implanted -->
   <NoXenogermImplanted>لا يوجد لقاح غريب مزروع</NoXenogermImplanted>
   <!-- EN: germline genes -->
-  <Endogenes>جينات السلالة الجنسية</Endogenes>
+  <Endogenes>مورثات وراثية</Endogenes>
   <!-- EN: xenogenes -->
-  <Xenogenes>جينات غريبة</Xenogenes>
+  <Xenogenes>مورثات دخيلة</Xenogenes>
   <!-- EN: overridden -->
   <Overridden>مهيمن عليه</Overridden>
   <!-- EN: Overridden by gene -->
-  <OverriddenByGene>مهيمن عليه بواسطة جين</OverriddenByGene>
+  <OverriddenByGene>مهيمن عليه بواسطة مورثة</OverriddenByGene>
   <!-- EN: Overridden by identical gene -->
-  <OverriddenByIdenticalGene>مهيمن عليه بواسطة جين مطابق</OverriddenByIdenticalGene>
+  <OverriddenByIdenticalGene>مهيمن عليه بواسطة مورثة مطابقة</OverriddenByIdenticalGene>
   <!-- EN: More information is available on this xenotype's information screen. -->
   <MoreInfoInInfoScreen>تتوفر معلومات إضافية على شاشة معلومات هذا النمط الغريب.</MoreInfoInInfoScreen>
   <!-- EN: Takes effect after age -->
@@ -141,27 +141,27 @@
   <!-- EN: Xenotype editor -->
   <XenotypeEditor>محرر الأنماط الغريبة</XenotypeEditor>
   <!-- EN: Any (non-archite) -->
-  <AnyNonArchite>أي (غير أركايت)</AnyNonArchite>
+  <AnyNonArchite>أي (غير آركوتيك)</AnyNonArchite>
   <!-- EN: Selected genes -->
-  <SelectedGenes>الجينات المحددة</SelectedGenes>
+  <SelectedGenes>المورثات المحددة</SelectedGenes>
   <!-- EN: custom -->
   <Custom>مخصص</Custom>
   <!-- EN: hybrid -->
   <Hybrid>هجين</Hybrid>
   <!-- EN: Genes are heritable -->
-  <GenesAreInheritable>الجينات قابلة للتوريث</GenesAreInheritable>
+  <GenesAreInheritable>المورثات قابلة للتوريث</GenesAreInheritable>
   <!-- EN: Whether or not this xenotype can be passed on to children. -->
   <GenesAreInheritableXenotypeDef>ما إذا كان يمكن توريث هذا النمط الغريب للأطفال.</GenesAreInheritableXenotypeDef>
   <!-- EN: All genes in this xenotype can be passed on to children. -->
-  <GenesAreInheritableDesc>جميع الجينات في هذا النمط الغريب يمكن توريثها للأطفال.</GenesAreInheritableDesc>
+  <GenesAreInheritableDesc>جميع المورثات في هذا النمط الغريب يمكن توريثها للأطفال.</GenesAreInheritableDesc>
   <!-- EN: For each individual, one of the following genes will be randomly selected to be active -->
-  <GeneWillBeRandomChosen>لكل فرد، سيتم اختيار أحد الجينات التالية عشوائياً ليكون نشطاً</GeneWillBeRandomChosen>
+  <GeneWillBeRandomChosen>لكل فرد، سيتم اختيار إحدى المورثات التالية عشوائياً لتكون نشطة</GeneWillBeRandomChosen>
   <!-- EN: This gene is incompatible with other genes in this xenotype. Only one of these genes will be active -->
-  <GeneIncompatibleDesc>هذا الجين غير متوافق مع جينات أخرى في هذا النمط الغريب. واحد فقط من هذه الجينات سيكون نشطاً</GeneIncompatibleDesc>
+  <GeneIncompatibleDesc>هذه المورثة غير متوافقة مع مورثات أخرى في هذا النمط الغريب. واحدة فقط من هذه المورثات ستكون نشطة</GeneIncompatibleDesc>
   <!-- EN: Of the following genes, the left-most one will always apply and the others are suppressed -->
-  <GeneLeftmostActive>من بين الجينات التالية، سيسري الجين الأيسر دائماً ويتم كبت الآخرين</GeneLeftmostActive>
+  <GeneLeftmostActive>من بين المورثات التالية، تسري المورثة اليسرى دائماً ويتم كبت الأخريات</GeneLeftmostActive>
   <!-- EN: Of the following genes, only one will apply and the others will be suppressed -->
-  <GeneOneActive>من بين الجينات التالية، سيسري جين واحد فقط ويتم كبت الآخرين</GeneOneActive>
+  <GeneOneActive>من بين المورثات التالية، تسري مورثة واحدة فقط ويتم كبت الأخريات</GeneOneActive>
   <!-- EN: Changing xenotype will randomize this colonist.\n\nContinue anyway? -->
   <WarnChangingXenotypeWillRandomizePawn>تغيير النمط الغريب سيعيد عشوائية هذا المستعمر.\n\nهل تريد المتابعة على أي حال؟</WarnChangingXenotypeWillRandomizePawn>
   <!-- EN: Delete this xenotype. -->
@@ -169,11 +169,11 @@
   <!-- EN: Ignore restrictions -->
   <IgnoreRestrictions>تجاهل القيود</IgnoreRestrictions>
   <!-- EN: Created xenotypes have no biostat limits. Genes requiring archite capsules can be added. -->
-  <IgnoreRestrictionsDesc>الأنماط الغريبة المنشأة ليس لها حدود للإحصاءات الحيوية. يمكن إضافة جينات تتطلب كبسولات أركايت.</IgnoreRestrictionsDesc>
+  <IgnoreRestrictionsDesc>الأنماط الغريبة المنشأة ليس لها حدود للإحصاءات الحيوية. يمكن إضافة مورثات تتطلب كبسولات آركوتيك.</IgnoreRestrictionsDesc>
   <!-- EN: This xenotype breaks normal gameplay limits -->
   <XenotypeBreaksLimits>هذا النمط الغريب يكسر حدود اللعب العادية</XenotypeBreaksLimits>
   <!-- EN: It contains archite genes and is inheritable, but archite genes are usually never inheritable. -->
-  <XenotypeBreaksLimits_Archites>إنه يحتوي على جينات أركايت وهو قابل للتوريث، لكن جينات الأركايت عادة لا تكون قابلة للتوريث أبداً.</XenotypeBreaksLimits_Archites>
+  <XenotypeBreaksLimits_Archites>إنه يحتوي على مورثات آركوتيك وهو قابل للتوريث، لكن مورثات الآركوتيك عادة لا تكون قابلة للتوريث أبداً.</XenotypeBreaksLimits_Archites>
   <!-- EN: {STAT} is {VALUE}, which exceeds the normal limit of {MAX}. -->
   <XenotypeBreaksLimits_Exceeds>{STAT} هو {VALUE}، وهذا يتجاوز الحد الطبيعي {MAX}.</XenotypeBreaksLimits_Exceeds>
   <!-- EN: {STAT} is {VALUE}, which is below the normal limit of {MIN}. -->
@@ -181,11 +181,11 @@
   <!-- EN: Save anyway? -->
   <SaveAnyway>حفظ على أي حال؟</SaveAnyway>
   <!-- EN: Ignoring restrictions allows you to create impossible gene combinations by exceeding biostat limits. It also gives you access to powerful archite genes, which can make the game very easy.\n\nAre you sure you want to ignore restrictions? -->
-  <IgnoreRestrictionsConfirmation>تجاهل القيود يسمح لك بإنشاء تركيبات جينية مستحيلة بتجاوز حدود الإحصاءات الحيوية. كما يمنحك الوصول إلى جينات أركايت القوية، مما قد يجعل اللعبة سهلة جداً.\n\nهل أنت متأكد أنك تريد تجاهل القيود؟</IgnoreRestrictionsConfirmation>
+  <IgnoreRestrictionsConfirmation>تجاهل القيود يسمح لك بإنشاء تركيبات مورثية مستحيلة بتجاوز حدود الإحصاءات الحيوية. كما يمنحك الوصول إلى مورثات آركوتيك القوية، مما قد يجعل اللعبة سهلة جداً.\n\nهل أنت متأكد أنك تريد تجاهل القيود؟</IgnoreRestrictionsConfirmation>
   <!-- EN: Colonists will always be within this developmental stage's age range when generated. -->
   <DevelopmentalAgeSelectionDesc>سيكون المستعمرون دائماً ضمن النطاق العمري لمرحلة النمو هذه عند إنشائهم.</DevelopmentalAgeSelectionDesc>
   <!-- EN: Colonists will always carry the genes defined by this xenotype. -->
-  <XenotypeSelectionDesc>سيحمل المستعمرون دائماً الجينات المحددة بهذا النمط الغريب.</XenotypeSelectionDesc>
+  <XenotypeSelectionDesc>سيحمل المستعمرون دائماً المورثات المحددة بهذا النمط الغريب.</XenotypeSelectionDesc>
   <!-- EN: Save and apply -->
   <SaveAndApply>حفظ وتطبيق</SaveAndApply>
   <!-- EN: Load custom -->
@@ -193,7 +193,7 @@
   <!-- EN: Load premade -->
   <LoadPremade>تحميل معد مسبقاً</LoadPremade>
   <!-- EN: Genes conflict -->
-  <GenesConflict>تعارض الجينات</GenesConflict>
+  <GenesConflict>تعارض المورثات</GenesConflict>
   <!-- EN: {FIRST_label}, {SECOND_label} -->
   <GenesConflictDesc>{FIRST_label}, {SECOND_label}</GenesConflictDesc>
 
@@ -207,9 +207,9 @@
   <!-- EN: {NAME} template saved -->
   <XenogermTemplateSaved>تم حفظ قالب {NAME}</XenogermTemplateSaved>
   <!-- EN: Missing {COUNT} genepacks for {NAME} template. -->
-  <MissingGenepacksForXenogerm>ناقص {COUNT} عبوة جينات لقالب {NAME}.</MissingGenepacksForXenogerm>
+  <MissingGenepacksForXenogerm>ناقص {COUNT} عبوة مورثات لقالب {NAME}.</MissingGenepacksForXenogerm>
   <!-- EN: Missing genepack for {NAME} template -->
-  <MissingGenepackForXenogerm>عبوة جينات مفقودة لقالب {NAME}</MissingGenepackForXenogerm>
+  <MissingGenepackForXenogerm>عبوة مورثات مفقودة لقالب {NAME}</MissingGenepackForXenogerm>
   <!-- EN: Delete this xenogerm. -->
   <DeleteThisXenogerm>حذف هذا اللقاح الغريب.</DeleteThisXenogerm>
 
@@ -219,7 +219,7 @@
 
   <!-- Deathrest -->
   <!-- EN: Waking {PAWN_nameDef} before {MINDURATION} has passed will interrupt {PAWN_possessive} deathrest, leaving {PAWN_objective} sick for days while {PAWN_pronoun} recovers. Waking early means {PAWN_nameDef} will not benefit from any deathrest buildings. {PAWN_pronoun} has been deathresting for {CURDURATION}.\n\nAre you sure you wish to wake {PAWN_nameDef}? -->
-  <WarningWakingInterruptsDeathrest>إيقاظ {PAWN_nameDef} قبل مرور {MINDURATION} سيقاطع سبات الموت الخاص بـ {PAWN_possessive}، مما يتركـ{PAWN_objective} مريضاً لأيام بينما يتعافى. الاستيقاظ مبكراً يعني أن {PAWN_nameDef} لن يستفيد من أي مباني سبات الموت. {PAWN_pronoun} كان في سبات الموت لمدة {CURDURATION}.\n\nهل أنت متأكد أنك ترغب في إيقاظ {PAWN_nameDef}؟</WarningWakingInterruptsDeathrest>
+  <WarningWakingInterruptsDeathrest>إيقاظ {PAWN_nameDef} قبل مرور {MINDURATION} سيقاطع سبات الموت الخاص بـ{PAWN_possessive}، مما يتركـ{PAWN_objective} مريضاً لأيام بينما يتعافى. الاستيقاظ مبكراً يعني أن {PAWN_nameDef} لن يستفيد من أي مباني سبات الموت. {PAWN_pronoun} كان في سبات الموت لمدة {CURDURATION}.\n\nهل أنت متأكد أنك ترغب في إيقاظ {PAWN_nameDef}؟</WarningWakingInterruptsDeathrest>
 
   <!-- Text motes -->
   <!-- EN: {0} wounds tended -->
@@ -290,7 +290,7 @@
   <PawnIsDead>{PAWN_nameDef} ميت.</PawnIsDead>
 
   <!-- EN: Placing {PAWN_nameDef} into cryptosleep will strain {PAWN_possessive} psychic bond with {BOND_nameDef}, causing stress to both partners.\n\nAre you sure you want to continue? -->
-  <PsychicBondDistanceWillBeActive_Cryptosleep>وضع {PAWN_nameDef} في سبات التبريد يضغط على الرابط النفسي لـ {PAWN_possessive} مع {BOND_nameDef}، مما يسبب إجهاداً لكليهما.\n\nهل أنت متأكد أنك تريد المتابعة؟</PsychicBondDistanceWillBeActive_Cryptosleep>
+  <PsychicBondDistanceWillBeActive_Cryptosleep>وضع {PAWN_nameDef} في سبات التبريد يضغط على الرابط النفسي لـ{PAWN_possessive} مع {BOND_nameDef}، مما يسبب إجهاداً لكليهما.\n\nهل أنت متأكد أنك تريد المتابعة؟</PsychicBondDistanceWillBeActive_Cryptosleep>
   <!-- EN: Someone in this caravan is psychically bonded by their partner is not coming with them. These people will be stressed if separated from their bond-partners -->
   <PsychicBondDistanceWillBeActive_Caravan>شخص ما في هذه القافلة مرتبط نفسياً وشريكه لا يأتي معهم. سيكون هؤلاء الأشخاص مجهدين إذا انفصلوا عن شركاء رابطهم</PsychicBondDistanceWillBeActive_Caravan>
   <!-- EN: partner {0_nameFull} -->
@@ -340,9 +340,9 @@
   <!-- EN: Next growth tier -->
   <NextGrowthTier>مرحلة النمو التالية</NextGrowthTier>
   <!-- EN: Choose {0} passions from {1} options. -->
-  <NumPassionsFromOptions>اختر {0} شغف من {1} خيارات.</NumPassionsFromOptions>
+  <NumPassionsFromOptions>اختر {0} شغفاً من {1} خيارات.</NumPassionsFromOptions>
   <!-- EN: Choose {0} trait from {1} options. -->
-  <NumTraitsFromOptions>اختر {0} سمة من {1} خيارات.</NumTraitsFromOptions>
+  <NumTraitsFromOptions>اختر {0} سمةً من {1} خيارات.</NumTraitsFromOptions>
   <!-- EN: Next growth moment at age -->
   <NextGrowthMomentAt>لحظة النمو التالية عند سن</NextGrowthMomentAt>
 
