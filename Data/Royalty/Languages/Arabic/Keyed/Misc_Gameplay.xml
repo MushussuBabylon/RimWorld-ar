@@ -13,7 +13,7 @@
   <!-- EN: Trading here requires title: {0} -->
   <RequiresTradePermission>التجارة هنا تتطلب لقباً: {0}</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
-  <RequirementPersonalBedroom>غرفة نوم شخصية (يسمح بالشريك)</RequirementPersonalBedroom>
+  <RequirementPersonalBedroom>غرفة نوم شخصية (يُسمح بالشريك)</RequirementPersonalBedroom>
   
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
@@ -23,16 +23,16 @@
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
   <PsycastNeurotrainerDescription>جرعة ميكانيت فائقة للاستخدام مرة واحدة تدرب على قوة نفسية محددة.\n\nتُعطى الجرعة عبر محجر العين. بمجرد إطلاقها في الدماغ، تشكل الميكانيتات معرفة بقدرة محددة، وتحول نفسها إلى نسيج عصبي حسب الحاجة.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
-  <AbilityNeurotrainerUsed>استخدم {USER_labelShort} المدرب العصبي لتعلم قوة {1}.</AbilityNeurotrainerUsed>
+  <AbilityNeurotrainerUsed>استخدم {USER_labelShort} مدرب القدرات النفسية لتعلم قوة {1}.</AbilityNeurotrainerUsed>
   <!-- EN: requires psylink -->
   <PsycastNeurotrainerNoPsylink>يتطلب رابطاً نفسياً</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} يعرف {1} بالفعل.</PsycastNeurotrainerAbilityAlreadyLearned>
 
   <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor>من يقبل المهمة سيحصل على {1} {0_royalFavorLabel} من {0_name}</Reward_RoyalFavor>
+  <Reward_RoyalFavor>سيحصل من يقبل المهمة على {1} {0_royalFavorLabel} من {0_name}</Reward_RoyalFavor>
   <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor_ChoosePawn>يمكنك اختيار أحد الـ {2} المشاركين ليحصل على {1} {0_royalFavorLabel} من {0_name}</Reward_RoyalFavor_ChoosePawn>
+  <Reward_RoyalFavor_ChoosePawn>يمكنك اختيار أحد {2} المشاركين ليحصل على {1} {0_royalFavorLabel} من {0_name}</Reward_RoyalFavor_ChoosePawn>
   
   <!-- Ship landing beacons -->
   <!-- EN: Not usable -->
@@ -89,7 +89,7 @@
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>لم يتم تعيين عرش.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
-  <AbilitySpeechDisabledNoThroneIsNotAccessible>العرش ليس قابلاً للوصول.</AbilitySpeechDisabledNoThroneIsNotAccessible>
+  <AbilitySpeechDisabledNoThroneIsNotAccessible>العرش غير قابل للوصول.</AbilitySpeechDisabledNoThroneIsNotAccessible>
   <!-- EN: throne not usable because it is undignified. -->
   <AbilitySpeechDisabledNoThroneUndignified>العرش غير قابل للاستخدام لأنه غير مكرم.</AbilitySpeechDisabledNoThroneUndignified>
   <!-- EN: already giving a speech. -->
@@ -161,7 +161,7 @@
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
   <AnimaLinkingExplanationBase>يكون حفل ارتباط الأنيما أقوى بوجود المزيد من المشاركين. كلما زاد عدد المشاركين، قل الوقت الذي يستغرقه الحفل، وزاد نمو عشب الأنيما.\n\nمع {0} مشارك إضافي، سيتم استعادة {1} عشب أنيما في نهاية الحفل.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
-  <ShuttleRequiredItemsNotSatisfied>لم يتم تحميل جميع الحمولة المطلوبة بعد!</ShuttleRequiredItemsNotSatisfied>
+  <ShuttleRequiredItemsNotSatisfied>لم تُحمّل جميع الحمولة المطلوبة بعد!</ShuttleRequiredItemsNotSatisfied>
   <!-- EN: Cannot load {0_labelShort} -->
   <CannotLoadIntoShuttle>لا يمكن تحميل {0_labelShort}</CannotLoadIntoShuttle>
 
