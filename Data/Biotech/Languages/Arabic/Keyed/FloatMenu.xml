@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Not a mechanitor -->
-  <NotAMechanitor>ليس ميكانيتور</NotAMechanitor>
+  <NotAMechanitor>ليس ميكانيتوراً</NotAMechanitor>
   <!-- EN: Not enough bandwidth -->
   <NotEnoughBandwidth>عرض النطاق الترددي غير كافٍ</NotEnoughBandwidth>
   <!-- EN: Take control of {0} -->
@@ -14,7 +14,7 @@
   <!-- EN: Not enough bandwidth -->
   <CannotControlMechNotEnoughBandwidth>عرض النطاق الترددي غير كافٍ</CannotControlMechNotEnoughBandwidth>
   <!-- EN: Never controllable -->
-  <CannotControlMechNeverControllable>لا يمكن السيطرة عليه أبداً</CannotControlMechNeverControllable>
+  <CannotControlMechNeverControllable>غير قابل للسيطرة أبداً</CannotControlMechNeverControllable>
   <!-- EN: Cannot disconnect from {0} -->
   <CannotDisconnectMech>تعذر قطع الاتصال بـ {0}</CannotDisconnectMech>
   <!-- EN: Disconnect from {0} -->
@@ -37,15 +37,15 @@
   <CannotRepairMech>تعذر إصلاح الميكانويد {0}</CannotRepairMech>
 
   <!-- EN: Extract xenogerm from {PAWN_nameDef} -->
-  <ExtractXenogermFrom>استخراج الجرثومة الغريبة من {PAWN_nameDef}</ExtractXenogermFrom>
+  <ExtractXenogermFrom>استخراج زينوجرم من {PAWN_nameDef}</ExtractXenogermFrom>
   <!-- EN: Enter {0_labelShort} -->
   <EnterBuilding>دخول {0_labelShort}</EnterBuilding>
   <!-- EN: {PAWN_nameDef} has no genes -->
-  <PawnHasNoGenes>لا يمتلك {PAWN_nameDef} أي جينات</PawnHasNoGenes>
+  <PawnHasNoGenes>لا يمتلك {PAWN_nameDef} أي مورثات</PawnHasNoGenes>
   <!-- EN: {PAWN_nameDef} has no extractable genes. -->
-  <PawnHasNoNonArchiteGenes>لا يمتلك {PAWN_nameDef} جينات قابلة للاستخراج.</PawnHasNoNonArchiteGenes>
+  <PawnHasNoNonArchiteGenes>لا يمتلك {PAWN_nameDef} مورثات قابلة للاستخراج.</PawnHasNoNonArchiteGenes>
   <!-- EN: In xenogermination coma -->
-  <InXenogerminationComa>في غيبوبة الإنبات الغريب</InXenogerminationComa>
+  <InXenogerminationComa>في غيبوبة إنبات الزينوجرم</InXenogerminationComa>
   <!-- EN: Occupied -->
   <Occupied>مشغول</Occupied>
   <!-- EN: {PAWN_nameDef} was ejected from a growth vat -->
@@ -68,17 +68,17 @@
   <AssignedToOtherPawn>{0_labelShort} مخصص لشخص آخر.</AssignedToOtherPawn>
 
   <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
-  <AbsorbXenogerm>امتصاص الجرثومة الغريبة لـ {PAWN_nameDef}</AbsorbXenogerm>
+  <AbsorbXenogerm>امتصاص زينوجرم {PAWN_nameDef}</AbsorbXenogerm>
   <!-- EN: Cannot absorb {PAWN_nameDef}'s xenogerm -->
-  <CannotAbsorbXenogerm>تعذر امتصاص الجرثومة الغريبة لـ {PAWN_nameDef}</CannotAbsorbXenogerm>
+  <CannotAbsorbXenogerm>تعذر امتصاص زينوجرم {PAWN_nameDef}</CannotAbsorbXenogerm>
   <!-- EN: {PAWN_nameDef} is already {PAWN_xenotype} -->
   <SameXenotype>{PAWN_nameDef} ينتمي إلى النمط {PAWN_xenotype} بالفعل</SameXenotype>
   <!-- EN: {PAWN_nameDef} suffering from xenogerm loss shock -->
-  <XenogermLossShockPresent>يعاني {PAWN_nameDef} من صدمة فقدان الجرثومة الغريبة</XenogermLossShockPresent>
+  <XenogermLossShockPresent>يعاني {PAWN_nameDef} من صدمة فقدان الزينوجرم</XenogermLossShockPresent>
   <!-- EN: Carry to {0_labelShort} -->
   <CarryToSpecificThing>حمل إلى {0_labelShort}</CarryToSpecificThing>
   <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
-  <NoCasketOrBed>لا يوجد سرير متاح أو تابوت سبات موت يمكن الوصول إليه في درجة حرارة آمنة.</NoCasketOrBed>
+  <NoCasketOrBed>لا يوجد سرير أو تابوت سبات موت متاح وغير محجوز في درجة حرارة آمنة.</NoCasketOrBed>
   <!-- EN: {PAWN_nameDef} is a temporary faction member. -->
   <TemporaryFactionMember>يعد {PAWN_nameDef} عضواً مؤقتاً في الفصيل.</TemporaryFactionMember>
 
@@ -112,11 +112,11 @@
 
   <!-- BreastfeedFailReason strings-->
   <!-- EN: {MOM_labelShort} does not have enough milk -->
-  <BreastfeedFailReason_MomNotEnoughMilk>لا تملك {MOM_labelShort} الحليب الكافي</BreastfeedFailReason_MomNotEnoughMilk>
+  <BreastfeedFailReason_MomNotEnoughMilk>لا تملك {MOM_labelShort} حليباً كافياً</BreastfeedFailReason_MomNotEnoughMilk>
   <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
   <BreastfeedFailReason_MomInMentalState>لا يمكن لـ {MOM_labelShort} الإرضاع طبيعياً الآن</BreastfeedFailReason_MomInMentalState>
   <!-- EN: {BABY_labelShort} is too full to suckle -->
-  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} ممتلئ جداً بحيث لا يمكنه الرضاعة</BreastfeedFailReason_BabyTooFull>
+  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} ممتلئ جداً ولا يمكنه الرضاعة</BreastfeedFailReason_BabyTooFull>
   <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
   <BreastfeedFailReason_BabyForbiddenToMom>يُحظر وصول {MOM_labelShort} إلى {BABY_labelShort}</BreastfeedFailReason_BabyForbiddenToMom>
   <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
@@ -130,7 +130,7 @@
   <!-- EN: {HAULER_labelShort} cannot reach {BABY_labelShort} -->
   <BreastfeedFailReason_HaulerCannotReachBaby>لا يمكن لـ {HAULER_labelShort} الوصول إلى {BABY_labelShort}</BreastfeedFailReason_HaulerCannotReachBaby>
   <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
-  <BreastfeedFailReason_NoMomsAssignedToBaby>لم يتم تعيين أي من الـ {BABY_factionPawnsPlural} المرضعات لـ {BABY_labelShort}</BreastfeedFailReason_NoMomsAssignedToBaby>
+  <BreastfeedFailReason_NoMomsAssignedToBaby>لم يتم تعيين أي من {BABY_factionPawnsPlural} المرضعات لـ {BABY_labelShort}</BreastfeedFailReason_NoMomsAssignedToBaby>
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
   <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} غير مكلفة برعاية الأطفال</BreastfeedFailReason_MomNotAssignedToChildcare>
   <!-- EN: {MOM_labelShort} is inside a container -->
@@ -139,9 +139,9 @@
   <BreastfeedFailReason_MomBeingCarried>يتم حمل {MOM_labelShort} حالياً</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
-  <OrderImplantationIntoPawn>الأمر بالزرع في {PAWN_nameDef}</OrderImplantationIntoPawn>
+  <OrderImplantationIntoPawn>الأمر بزرع الزينوجرم في {PAWN_nameDef}</OrderImplantationIntoPawn>
   <!-- EN: Accept {0_xenotype} xenogerm -->
-  <AcceptXenogerm>قبول جرثومة {0_xenotype} الغريبة</AcceptXenogerm>
+  <AcceptXenogerm>قبول زينوجرم {0_xenotype}</AcceptXenogerm>
 
   <!-- EN: Carry {PAWN_labelShort} to recharger -->
   <CarryToRechargerOrdered>حمل {PAWN_labelShort} إلى الشاحن</CarryToRechargerOrdered>
@@ -151,16 +151,16 @@
   <CannotCarryToRechargerNoneAvailable>لا يوجد شاحن متاح</CannotCarryToRechargerNoneAvailable>
 
   <!-- EN: Hemogen packs disabled by food restriction. -->
-  <NotAllowedHemogen>تم تعطيل حزم الهيموجين بسبب قيود الغذاء.</NotAllowedHemogen>
+  <NotAllowedHemogen>تم تعطيل عبوات الدم الحيوي بفعل قيود الطعام.</NotAllowedHemogen>
 
   <!-- EN: Eject genepack from gene bank -->
-  <EjectGenepackFromGeneBank>إخراج حزمة الجينات من بنك الجينات</EjectGenepackFromGeneBank>
+  <EjectGenepackFromGeneBank>إخراج عبوة مورثات من بنك المورثات</EjectGenepackFromGeneBank>
 
   <!-- EN: Resulting metabolism would be too low -->
   <ResultingMetTooLow>الأيض الناتج سيكون منخفضاً جداً</ResultingMetTooLow>
 
   <!-- EN: attempted romance too recently -->
-  <RomanceOnCooldown>حاول الدخول في علاقة عاطفية مؤخراً جداً</RomanceOnCooldown>
+  <RomanceOnCooldown>محاولة الدخول في علاقة عاطفية كانت مؤخراً جداً</RomanceOnCooldown>
 
   <!-- EN: Take to safe location -->
   <CarryToSafePlace>النقل إلى مكان آمن</CarryToSafePlace>
