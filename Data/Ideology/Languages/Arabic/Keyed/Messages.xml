@@ -43,7 +43,7 @@
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
   <MessageRoleAssigned>{0_labelShort} يحمل الآن دور {1}.</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>بما أن {0_labelShort} أصبح سجيناً، لم يعد بإمكانه حمل دور {1}.</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>بما أن {0_labelShort} أصبح سجيناً، لم يعد {0_pronoun} قادراً على حمل دور {1}.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
   <MessageWarningPlayerDesignatedTreeChopped>تحذير: سينزعج {0} إذا تم قطع شجرة.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
@@ -63,9 +63,9 @@
 
   <!-- Prisoner interactions -->
   <!-- EN: No warden is capable of this enslavement. -->
-  <MessageNoWardenCapableOfEnslavement>لا يوجد سجان قادر على هذا الاستعباد.</MessageNoWardenCapableOfEnslavement>
+  <MessageNoWardenCapableOfEnslavement>لا يوجد حارس قادر على هذا الاستعباد.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>ليس لديك سجان {MEMBERNAME} لتحويل {PRISONER_nameDef}. عاد وضع تفاعلـ{PRISONER_possessive} إلى "لا تفاعل".</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>ليس لديك حراس {MEMBERNAME} لتحويل {PRISONER_nameDef}. عاد وضع تفاعلـ{PRISONER_possessive} إلى "لا تفاعل".</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
