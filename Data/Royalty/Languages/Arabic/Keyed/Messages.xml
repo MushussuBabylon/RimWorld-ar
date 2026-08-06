@@ -3,19 +3,19 @@
 
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
-  <ShuttleBlocked>لم يتمكن المكوك من الهبوط على المنصة: {0}</ShuttleBlocked>
+  <ShuttleBlocked>تعذر هبوط المكوك على المنصة: {0}</ShuttleBlocked>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
-  <MessageShuttleArrivedContentsLost>وصل المكوك، ولكن بما أنه لم يكن هناك مستعمرون بداخله، فقد فُقدت المحتويات.</MessageShuttleArrivedContentsLost>
+  <MessageShuttleArrivedContentsLost>وصل المكوك، لكن لخلوه من المستعمرين، فُقدت محتوياته.</MessageShuttleArrivedContentsLost>
 
   <!-- EN: Cannot land in undiscovered area. -->
   <ShuttleCannotLand_Fogged>لا يمكن الهبوط في منطقة غير مكتشفة.</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
   <ShuttleCannotLand_Unwalkable>يجب أن تكون المنطقة قابلة للمشي.</ShuttleCannotLand_Unwalkable>
   <!-- EN: Terrain does not support {0}. -->
-  <ShuttleCannotLand_Unaffordable>الطريق لا يدعم {0}.</ShuttleCannotLand_Unaffordable>
+  <ShuttleCannotLand_Unaffordable>التضاريس لا تسمح بـ {0}.</ShuttleCannotLand_Unaffordable>
 
   <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
-  <MessageBestowerWaiting>اختر {BESTOWER_definite} وانقر على 'بدء حفل المنح' لبدء الحفل.</MessageBestowerWaiting>
+  <MessageBestowerWaiting>اختر {BESTOWER_definite} وانقر 'بدء حفل المنح' لبدء الحفل.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
   <MessageBestowerUnreachable>لا يمكن الوصول إلى المانح!</MessageBestowerUnreachable>
   <!-- EN: {0} is busy. -->
