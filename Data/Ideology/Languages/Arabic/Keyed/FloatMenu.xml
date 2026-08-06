@@ -10,7 +10,7 @@
   <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
   <CantStartRitualLayer>لا يمكن أداء {RITUAL} {GERUND} {LAYER}.</CantStartRitualLayer>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
-  <CantJoinRitualInExtremeWeather>لا يمكن لمشارك واحد أو أكثر الانضمام بسبب درجة حرارة قصوى.</CantJoinRitualInExtremeWeather>
+  <CantJoinRitualInExtremeWeather>لا يمكن لمشارك أو أكثر الانضمام بسبب درجة حرارة قصوى.</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0} يشارك بالفعل في طقس.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
@@ -24,15 +24,15 @@
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
   <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} أصم نفسياً.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelSpectators>مساحة غير كافية للمتفرجين. يجب أن تكون هناك دائرة خالية بنصف قطر {MINRADIUS}. مطلوب على الأقل {1} بقعة قابلة للوقوف ضمن ذلك النطاق.</CantStartNotEnoughSpaceDuelSpectators>
+  <CantStartNotEnoughSpaceDuelSpectators>مساحة غير كافية للمتفرجين. يلزم دائرة خالية نصف قطرها {MINRADIUS}. مطلوب ما لا يقل عن {1} بقعة صالحة للوقوف ضمن هذا النطاق.</CantStartNotEnoughSpaceDuelSpectators>
   <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelDuelists>مساحة غير كافية للمتبارزين. يجب أن تكون هناك دائرة خالية بنصف قطر {MINRADIUS}. مطلوب على الأقل {1} بقعة قابلة للوقوف ضمن ذلك النطاق.</CantStartNotEnoughSpaceDuelDuelists>
+  <CantStartNotEnoughSpaceDuelDuelists>مساحة غير كافية للمتبارزين. يلزم دائرة خالية نصف قطرها {MINRADIUS}. مطلوب ما لا يقل عن {1} بقعة صالحة للوقوف ضمن هذا النطاق.</CantStartNotEnoughSpaceDuelDuelists>
   <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuelSpeaker>مساحة غير كافية للمتحدث. يجب أن تكون هناك دائرة خالية بنصف قطر {MINRADIUS}.</CantStartNotEnoughSpaceDuelSpeaker>
+  <CantStartNotEnoughSpaceDuelSpeaker>مساحة غير كافية للمتحدث. يلزم دائرة خالية نصف قطرها {MINRADIUS}.</CantStartNotEnoughSpaceDuelSpeaker>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
   <CantStartFuneralForSlave>{0_labelShort} عبد. العبيد لا تقام لهم جنازات.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
-  <NoSlaveBed>بحاجة لسرير عبد يمكن الوصول إليه، غير محجوز، وبدرجة حرارة آمنة.</NoSlaveBed>
+  <NoSlaveBed>يلزم سرير عبد يمكن الوصول إليه، غير محجوز، وبدرجة حرارة آمنة.</NoSlaveBed>
   <!-- EN: Return to slave bed -->
   <ReturnToSlaveBed>عودة إلى سرير العبد</ReturnToSlaveBed>
   <!-- EN: not allowed for faction -->
@@ -47,7 +47,7 @@
   <!-- EN: No choices available -->
   <NoChoicesAvailable>لا توجد خيارات متاحة</NoChoicesAvailable>
   <!-- EN: Required by meme {0} -->
-  <RequiredByMeme>مطلوب بواسطة المبدأ {0}</RequiredByMeme>
+  <RequiredByMeme>مطلوب بموجب المبدأ {0}</RequiredByMeme>
   <!-- EN: Required -->
   <Required>مطلوب</Required>
   <!-- EN: Style category -->
@@ -111,12 +111,12 @@
   <!-- EN: No relic to install -->
   <NoRelicToInstall>لا يوجد أثر لتثبيته</NoRelicToInstall>
   <!-- EN: Install in reliquary -->
-  <InstallInReliquary>تثبيت في وعاء الآثار</InstallInReliquary>
+  <InstallInReliquary>تثبيت في ضريح الأثر المقدس</InstallInReliquary>
   <!-- EN: no empty accessible reliquary -->
-  <NoEmptyReliquary>لا يوجد وعاء آثار فارغ يمكن الوصول إليه</NoEmptyReliquary>
+  <NoEmptyReliquary>لا يوجد ضريح أثر مقدس فارغ يمكن الوصول إليه</NoEmptyReliquary>
 
   <!-- EN: No {MEMBERNAME} warden -->
-  <NoWardenOfIdeo>لا يوجد سجان {MEMBERNAME}</NoWardenOfIdeo>
+  <NoWardenOfIdeo>لا يوجد حارس {MEMBERNAME}</NoWardenOfIdeo>
 
   <!-- EN: Remove current role -->
   <RemoveCurrentRole>إزالة الدور الحالي</RemoveCurrentRole>
@@ -126,7 +126,7 @@
   <!-- EN: Biotuned to someone else. -->
   <BiosculpterBiotunedToAnother>مضبوط حيوياً لشخص آخر.</BiosculpterBiotunedToAnother>
   <!-- EN: Must be {0} years old for age reversal. -->
-  <UnderMinBiosculpterAgeReversalAge>يجب أن يكون عمر {0} سنة لعكس العمر.</UnderMinBiosculpterAgeReversalAge>
+  <UnderMinBiosculpterAgeReversalAge>يشترط أن يكون العمر {0} سنة لعكس العمر.</UnderMinBiosculpterAgeReversalAge>
   <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
   <CarryToBiosculpterPod>احمل {PAWN_labelShort} إلى كبسولة النحت الحيوي (دورة {CYCLE})</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
