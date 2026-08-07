@@ -1,4 +1,4 @@
-name: Weekly Arabic RTL Release
+name: Weekly Arabic Translation Release
 
 on:
   schedule:
@@ -17,10 +17,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v7.0.1
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4.4.0
+        uses: actions/setup-node@v6.4.0
         with:
           node-version: '24'
 
@@ -85,3 +85,31 @@ jobs:
             dist/Data-ArabicSupport.zip
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      
+      - name: Upload Data-Normal to NexusMods
+        uses: Nexus-Mods/upload-action@v1.0.0-beta.8
+        with:
+          api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+          file_id: 7773198
+          filename: dist/Data-Normal.zip
+          version: ${{ steps.date.outputs.DATE }}
+          archive_existing_version: true
+
+      - name: Upload Data-WordWrap to NexusMods
+        uses: Nexus-Mods/upload-action@v1.0.0-beta.8
+        with:
+          api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+          file_id: 7773225
+          filename: dist/Data-WordWrap.zip
+          version: ${{ steps.date.outputs.DATE }}
+          archive_existing_version: true
+
+      - name: Upload Data-ArabicSupport to NexusMods
+        uses: Nexus-Mods/upload-action@v1.0.0-beta.8
+        with:
+          api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+          file_id: 7773129
+          filename: dist/Data-ArabicSupport.zip
+          version: ${{ steps.date.outputs.DATE }}
+          archive_existing_version: true
