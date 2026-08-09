@@ -55,8 +55,11 @@
 ---
 
 ## 👤 المترجم (Translator)
-## Current 2026
-**Mushussu Babylon**
+ **Current 2026**
+
+★ Mushussu Babylon
+
+---
 
 # NexuesMods
 [Page link](https://www.nexusmods.com/rimworld/mods/757)
