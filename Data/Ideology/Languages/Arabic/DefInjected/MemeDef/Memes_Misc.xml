@@ -394,7 +394,7 @@
     <li>conflict(tag=meme_FleshPurity)        ->أرسل [foeLeader] شرير جنوده ليحقنوا الجميع بأجهزة تعقب.</li>
     <li>founderJoin(tag=meme_FleshPurity)     ->احتج [place_job] يُدعى [founderName] على [foeLeader] بالركوع أمام [place_powerCenter] وانتزاع كل التكنولوجيا من جسده بيديه العاريتين.</li>
     <li>victory(tag=meme_FleshPurity)         ->أخيراً أرسل [foeLeader] جنوده لقتل [memberNamePlural]، لكن طاقة [deity0_name] تدفقت من اللحم الطاهر لـ[memberNamePlural]، فتحولت الأجهزة في أجساد الجنود إلى رماد وقتلتهم.</li>
-    <li>setup(tag=meme_FleshPurity)           ->دمر [founderName] جسده بالغرسات والمخدرات، حتى أنقذ نفسه في لحظة تجلٍ بتمزيق الفولاذ من جسده.</li>
+    <li>setup(tag=meme_FleshPurity)           ->دمر [founderName] جسده بالزرعات والمخدرات، حتى أنقذ نفسه في لحظة تجلٍ بتمزيق الفولاذ من جسده.</li>
     <li>story(uses=1,tag=meme_FleshPurity)    ->أمر [founderName] جميع أتباعه بتمزيق الأجهزة القذرة من أجسادهم.</li>
     <li>lessonIntro(tag=meme_FleshPurity)         ->مزق العشرة الأوائل من أتباعي الأجهزة عن جلودهم بأيدٍ عارية، وفي بقع الدماء على الأرض القذرة أدركت فجأة الحقيقة التي غابت عنا جميعاً:</li>
     <li>lesson(tag=meme_FleshPurity)              ->العيش في جسد ملوث ليس حياة بشرية على الإطلاق</li>
@@ -1101,7 +1101,7 @@
     <li>episode(uses=1,tag=meme_Transhumanist)  ->درس المهندسون الحيويون البشريون أعمال [deity0_name]، الأمر الذي أرضى [deity0_objective].</li>
     <li>intro(tag=meme_Transhumanist)           ->في [place_summary] [place_name]، وجد [memberNamePlural] كلمات [deity0_name] تهامسهم عبر آلاتهم.</li>
     <li>conflict(tag=meme_Transhumanist)        ->حسد [foeLeader] لاضيّ تقدم [memberNamePlural] المعزز، فدمر جنوده مشاغلهم بـ[place_personalWeapon].</li>
-    <li>founderJoin(tag=meme_Transhumanist)     ->ابتكر [place_job] داهية يُدعى [founderName] غرسة استشعار لتحذير [memberNamePlural] من اقتراب جنود [foeLeader].</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->ابتكر [place_job] داهية يُدعى [founderName] زرعة استشعار لتحذير [memberNamePlural] من اقتراب جنود [foeLeader].</li>
     <li>victory(tag=meme_Transhumanist)         ->تلقى [founderName] معرفة تكنولوجية إلهية من [deity0_name]، واستخدمها لتعزيز أجساد وعقول [memberNamePlural] ليقضوا على [foeSoldiers].</li>
     <li>setup(tag=meme_Transhumanist)           ->كان [founderName] عالم بيولوجيا في أيام الاستعمار الكوكبي البشري المبكرة. برؤية القيود البيروقراطية للمستعمرات الشائعة، استقل سفينة صغيرة ليؤسس حركته الخاصة.</li>
     <li>story(uses=1,tag=meme_Transhumanist)    ->جمع [founderName] فريقاً من العلماء والمخترعين العظماء لإعادة تعريف البشرية.</li>
