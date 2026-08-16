@@ -176,11 +176,11 @@
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>يجب دفن جسد {PAWN_labelShort} أولاً</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
-  <RitualTargetGatherSpotInfo>أي بقعة تجمع، مثل طاولة</RitualTargetGatherSpotInfo>
+  <RitualTargetGatherSpotInfo>أي مكان تجمع، مثل طاولة</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
-  <RitualTargetGatherAltarOrRitualSpotInfo>مذبح أو أي بقعة طقس.</RitualTargetGatherAltarOrRitualSpotInfo>
+  <RitualTargetGatherAltarOrRitualSpotInfo>مذبح أو أي مكان طقس.</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
-  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>مذبح، أيدوجرام أو أي بقعة طقس.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>مذبح، أيدوجرام أو أي مكان طقس.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: Lightball is not powered. -->
   <RitualTargetLightBallIsNotPowered>كرة الضوء غير مزودة بالطاقة.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
@@ -271,7 +271,7 @@
   <!-- EN: Can't apply reward -->
   <RitualAttachedOutcomeCantApply>لا يمكن تطبيق المكافأة</RitualAttachedOutcomeCantApply>
   <!-- EN: No valid spot -->
-  <RitualAttachedOutcomeCantApply_NoValidSpot>لا توجد بقعة صالحة</RitualAttachedOutcomeCantApply_NoValidSpot>
+  <RitualAttachedOutcomeCantApply_NoValidSpot>لا يوجد مكان صالح</RitualAttachedOutcomeCantApply_NoValidSpot>
   <!-- EN: Extreme biome -->
   <RitualAttachedOutcomeCantApply_ExtremeBiome>منطقة حيوية قصوى</RitualAttachedOutcomeCantApply_ExtremeBiome>
   <!-- EN: There is already a known ancient complex to explore. -->
@@ -347,11 +347,11 @@
   <!-- EN: {PAWN_nameDef} will not do {1} work. -->
   <AbilityDisabled_IncapableOfWorkTag>لن يقوم {PAWN_nameDef} بعمل {1}.</AbilityDisabled_IncapableOfWorkTag>
   <!-- EN: No reachable altar or ritual spot. -->
-  <AbilityDisabledNoAltarOrRitualsSpot>لا يوجد مذبح أو بقعة طقس يمكن الوصول إليها.</AbilityDisabledNoAltarOrRitualsSpot>
+  <AbilityDisabledNoAltarOrRitualsSpot>لا يوجد مذبح أو مكان طقس يمكن الوصول إليها.</AbilityDisabledNoAltarOrRitualsSpot>
   <!-- EN: No reachable altar, ideogram or ritual spot. -->
-  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>لا يوجد مذبح أو أيدوجرام أو بقعة طقس يمكن الوصول إليها.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
+  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>لا يوجد مذبح أو أيدوجرام أو مكان طقس يمكن الوصول إليها.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
   <!-- EN: No reachable ritual spot. -->
-  <AbilityDisabledNoRitualSpot>لا توجد بقعة طقس يمكن الوصول إليها.</AbilityDisabledNoRitualSpot>
+  <AbilityDisabledNoRitualSpot>لا توجد مكان طقس يمكن الوصول إليها.</AbilityDisabledNoRitualSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>إرادة\n{0} إلى {1}</TextMote_WillReduced>
@@ -421,7 +421,7 @@
   <RitualPredictedOutcomeDescNumDrums>طبول</RitualPredictedOutcomeDescNumDrums>
 
   <!-- EN: Using ritual spot causes {0} mood bonus reduction for all participants. -->
-  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>استخدام بقعة الطقس يسبب تخفيض مكافأة مزاج بمقدار {0} لجميع المشاركين.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
+  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>استخدام مكان الطقس يسبب تخفيض مكافأة مزاج بمقدار {0} لجميع المشاركين.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>أي من هؤلاء</RitualOutcomeLabelAnyOfThese>

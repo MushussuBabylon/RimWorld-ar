@@ -63,7 +63,7 @@
   <!-- EN: Need colonist beds -->
   <NeedColonistBeds>تحتاج إلى أسرة للمستعمرين</NeedColonistBeds>
   <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
-  <NeedColonistBedsDesc>لديك مستعمرون أكثر من الأسرة المخصصة لهم. سيفتقر أحدهم إلى مكان للنوم.\n\nإما أن تصنع المزيد من الأسرة، أو تحول سرير سجين إلى سرير مستعمر.\n\nإذا لم تكن لديك موارد، فنقاط النوم مجانية ويمكن وضعها فوراً.</NeedColonistBedsDesc>
+  <NeedColonistBedsDesc>لديك مستعمرون أكثر من الأسرة المخصصة لهم. سيفتقر أحدهم إلى مكان للنوم.\n\nإما أن تصنع المزيد من الأسرة، أو تحول سرير سجين إلى سرير مستعمر.\n\nإذا لم تكن لديك موارد، فأماكن النوم مجانية ويمكن وضعها فوراً.</NeedColonistBedsDesc>
   
   <!-- EN: Colonist left unburied -->
   <AlertColonistLeftUnburied>جثمان مستعمر غير مدفون</AlertColonistLeftUnburied>
@@ -73,12 +73,12 @@
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>ملابس ممزقة</AlertTatteredApparel>
   <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
-  <AlertTatteredApparelDesc>هؤلاء المستعمرون يرتدون ملابس ممزقة، مما يُحزنهم:\n{0}\n\nوفّر لهم ملابس أقل تلفاً.\n\nيمكنك خياطة الملابس في موقع حرفية أو طاولة خياطة، أو شراؤها من التجار.</AlertTatteredApparelDesc>
+  <AlertTatteredApparelDesc>هؤلاء المستعمرون يرتدون ملابس ممزقة، مما يُحزنهم:\n{0}\n\nوفّر لهم ملابس أقل تلفاً.\n\nيمكنك خياطة الملابس في مكان التصنيع أو طاولة خياطة، أو شراؤها من التجار.</AlertTatteredApparelDesc>
 
   <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>تعري غير مريح</AlertUnhappyNudity>
   <!-- EN: These colonists are nude and not happy about it:\n{0}\n\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
-  <AlertUnhappyNudityDesc>هؤلاء المستعمرون عراة وليسوا سعداء بذلك:\n{0}\n\nأحضر لهم بعض الملابس.\n\nيمكنك خياطة الملابس في موقع حرفية أو طاولة خياطة، أو شراؤها من التجار.</AlertUnhappyNudityDesc>
+  <AlertUnhappyNudityDesc>هؤلاء المستعمرون عراة وليسوا سعداء بذلك:\n{0}\n\nأحضر لهم بعض الملابس.\n\nيمكنك خياطة الملابس في مكان التصنيع أو طاولة خياطة، أو شراؤها من التجار.</AlertUnhappyNudityDesc>
 
   <!-- EN: Starvation -->
   <Starvation>مجاعة</Starvation>
@@ -278,7 +278,7 @@
   <!-- EN: Pen needed -->
   <AlertAnimalPenNeeded>مطلوب حظيرة</AlertAnimalPenNeeded>
   <!-- EN: Some of your tame animals are roamers. If not kept in a pen or roped to a caravan hitching spot, they will wander away. -->
-  <AlertAnimalPenNeededDesc>بعض حيواناتك الأليفة من النوع الجوّال. إن لم تُحتجز في حظيرة أو مربوطة في موقع ربط قافلة، فستهيم بعيداً.</AlertAnimalPenNeededDesc>
+  <AlertAnimalPenNeededDesc>بعض حيواناتك الأليفة من النوع الجوّال. إن لم تُحتجز في حظيرة أو مربوطة في مكان ربط قافلة، فستهيم بعيداً.</AlertAnimalPenNeededDesc>
   <!-- EN: You do not have any handlers to take animals to a pen.\n\nAssign a colonist to the Handling work type. -->
   <AlertAnimalPenNeededNoHandlers>لا يوجد مربي حيوانات لنقل الحيوانات إلى الحظيرة.\n\nكلّف مستعمراً بمهنة تربية الحيوانات.</AlertAnimalPenNeededNoHandlers>
   <!-- EN: Create an animal pen by building a pen marker inside a fenced, barricaded, or walled area. Select the pen marker to see which animals it accepts and how many its pen can support.\n\nYour animal handlers will bring animals to their assigned pen automatically.\n\nA pen needs a door or gate to admit animals. -->
@@ -307,7 +307,7 @@
   <!-- EN: Hungry hitched animal -->
   <AlertHitchedAnimalHungryNoFood>حيوان مربوط جائع</AlertHitchedAnimalHungryNoFood>
   <!-- EN: Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nBring them food, or remove the hitching spot so they can find food on their own.\n\nThe following hitched animals are hungry:\n{0} -->
-  <AlertHitchedAnimalHungryNoFoodDesc>بعض الحيوانات المربوطة بمواقع الربط جائعة. قد لا يتوفر طعام مناسب في متناولها.\n\nقدّم لها طعاماً، أو أزل نقطة الربط لتجد طعامها بنفسها.\n\nالحيوانات الجائعة:\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
+  <AlertHitchedAnimalHungryNoFoodDesc>بعض الحيوانات المربوطة بأماكن الربط جائعة. قد لا يتوفر طعام مناسب في متناولها.\n\nقدّم لها طعاماً، أو أزل مكان الربط لتجد طعامها بنفسها.\n\nالحيوانات الجائعة:\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
 
   <!-- EN: Raids arriving in {0} -->
   <AlertTimedRaidsArrivingIn>غارات قادمة خلال {0}</AlertTimedRaidsArrivingIn>
