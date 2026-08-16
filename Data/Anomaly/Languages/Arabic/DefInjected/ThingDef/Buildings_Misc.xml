@@ -4,7 +4,7 @@
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>مدفأة جوية</AtmosphericHeater.label>
   <!-- EN: A thermal projection device powered by scavenged shards of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
-  <AtmosphericHeater.description>جهاز إسقاط حراري يعمل بشظايا التقنية الآركية المظلمة. يحرق الجهاز البيوفيرايت لتهييج جزيئات الغاز في الغلاف الجوي، رافعاً درجة حرارة الخارج المحلية. ينتج المبنى نفسه أيضاً كميات هائلة من الحرارة المهدرة.</AtmosphericHeater.description>
+  <AtmosphericHeater.description>جهاز إسقاط حراري يعمل بشظايا التكنولوجيا الآركوتيكية المظلمة. يحرق الجهاز البيوفيرايت لتهييج جزيئات الغاز في الغلاف الجوي، رافعاً درجة حرارة الخارج المحلية. ينتج المبنى نفسه أيضاً كميات هائلة من الحرارة المهدرة.</AtmosphericHeater.description>
   <!-- EN: Target outdoor temperature -->
   <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>درجة الحرارة الخارجية المستهدفة</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
   
@@ -84,7 +84,7 @@
   <!-- EN: frenzy inducer -->
   <FrenzyInducer.label>محفز الهياج</FrenzyInducer.label>
   <!-- EN: A scavenged archotech shard mounted in an electrical stimulation frame. The device creates a frenzied psychic vibration in the local area which stimulates everyone nearby to move and work faster. However, any mental breaks they have are guaranteed to be violent. -->
-  <FrenzyInducer.description>شظية آركية مُنقَّبة مركبة في إطار تحفيز كهربائي. يخلق الجهاز اهتزازاً نفسياً مهتاجاً في المنطقة المحلية يحفز الجميع بالقرب على التحرك والعمل بسرعة أكبر. لكن أي انهيار عقلي يحدث لهم سيكون عنيفاً بالتأكيد.</FrenzyInducer.description>
+  <FrenzyInducer.description>شظية آركوتيك مُنقَّبة مركبة في إطار تحفيز كهربائي. يخلق الجهاز اهتزازاً نفسياً مهتاجاً في المنطقة المحلية يحفز الجميع بالقرب على التحرك والعمل بسرعة أكبر. لكن أي انهيار عقلي يحدث لهم سيكون عنيفاً بالتأكيد.</FrenzyInducer.description>
   
   <!-- EN: gray box -->
   <GrayBox.label>صندوق رمادي</GrayBox.label>
@@ -153,7 +153,7 @@
   <!-- EN: noctolith -->
   <Noctolith.label>نوكتوليث</Noctolith.label>
   <!-- EN: A twisted pillar of jagged blade-like structures made of dark, oily metal. It pulses with energy, powered by dark archotechnology at its core.\n\nIf you destroy the pillar, you can recover a shard of dark archotech. -->
-  <Noctolith.description>عمود ملتوٍ من هياكل شفرية خشنة مصنوعة من معدن زيتي داكن. ينبض بالطاقة، مدعوم بتقنية آركية مظلمة في نواته.\n\nإذا دمرت العمود، يمكنك استعادة شظية من التقنية الآركية المظلمة.</Noctolith.description>
+  <Noctolith.description>عمود ملتوٍ من هياكل شفرية خشنة مصنوعة من معدن زيتي داكن. ينبض بالطاقة، مدعوم بتكنولوجيا آركوتيكية في نواته.\n\nإذا دمرت العمود، يمكنك استعادة شظية من الآركوتيك المظلمة.</Noctolith.description>
   <!-- EN: Contains: Unknown\nDestroy noctoliths to end the unnatural darkness. -->
   <Noctolith.comps.CompInspectString.inspectString>يحتوي: غير معروف\nدمر أعمدة النوكتوليث لإنهاء الظلام غير الطبيعي.</Noctolith.comps.CompInspectString.inspectString>
   
@@ -213,12 +213,12 @@
   <!-- EN: shard inhibitor -->
   <ShardInhibitor.label>مثبط شظوي</ShardInhibitor.label>
   <!-- EN: A shard of dark archotechnology that resonates with psychic energy, increasing the containment strength of any holding platform or spot within its radius.\n\nThe effect does not stack. -->
-  <ShardInhibitor.description>شظية من التقنية الآركية المظلمة تتناغم مع الطاقة النفسية، تزيد قوة احتواء أي منصة أو مكان احتجاز ضمن نطاقها.\n\nالتأثير لا يتكدس.</ShardInhibitor.description>
+  <ShardInhibitor.description>شظية من الآركوتيك المظلمة تتناغم مع الطاقة النفسية، تزيد قوة احتواء أي منصة أو مكان احتجاز ضمن نطاقها.\n\nالتأثير لا يتكدس.</ShardInhibitor.description>
   
   <!-- EN: sleep suppressor -->
   <SleepSuppressor.label>كابت النوم</SleepSuppressor.label>
   <!-- EN: A scavenged archotech shard mounted in an electrical control frame. The device creates a psychic pulsation in the local area which alters the brain chemistry of those nearby, halting the buildup of fatigue toxins and removing the need for sleep. However, it also irritates anyone nearby. -->
-  <SleepSuppressor.description>شظية آركية مُنقَّبة مركبة في إطار تحكم كهربائي. يخلق الجهاز نبضاً نفسياً في المنطقة المحلية يغير كيمياء الدماغ لمن بالقرب، موقفاً تراكم سموم التعب ومزيلاً الحاجة للنوم. لكنه أيضاً يزعج أي شخص قريب.</SleepSuppressor.description>
+  <SleepSuppressor.description>شظية آركوتيك مُنقَّبة مركبة في إطار تحكم كهربائي. يخلق الجهاز نبضاً نفسياً في المنطقة المحلية يغير كيمياء الدماغ لمن بالقرب، موقفاً تراكم سموم التعب ومزيلاً الحاجة للنوم. لكنه أيضاً يزعج أي شخص قريب.</SleepSuppressor.description>
   
   <!-- EN: stone cube sculpture -->
   <StoneCubeSculpture.label>منحوتة مكعب من الحجر</StoneCubeSculpture.label>
