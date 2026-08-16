@@ -89,22 +89,22 @@
   <FireWeakness.symbolPack.prefixSymbols.2.symbol>إشعال</FireWeakness.symbolPack.prefixSymbols.2.symbol>
   
   <!-- EN: hemogen drain -->
-  <HemogenDrain.label>استنزاف الهيموجين</HemogenDrain.label>
+  <HemogenDrain.label>استنزاف الدم الحيوي</HemogenDrain.label>
   <!-- EN: Carriers lose an additional 8 hemogen per day from biological entropy. -->
-  <HemogenDrain.description>يفقد الحاملون 8 وحدات إضافية من الهيموجين يوميًا بسبب الانتروبيا البيولوجية.</HemogenDrain.description>
+  <HemogenDrain.description>يفقد الحاملون 8 وحدات إضافية من الدم الحيوي يوميًا بسبب الانتروبيا البيولوجية.</HemogenDrain.description>
   <!-- EN: draining -->
   <HemogenDrain.labelShortAdj>مستنزف</HemogenDrain.labelShortAdj>
   <!-- EN: hemogen -->
   <HemogenDrain.resourceLabel>هيموجين</HemogenDrain.resourceLabel>
   
   <!-- EN: hemogenic -->
-  <Hemogenic.label>مولد الهيموجين</Hemogenic.label>
+  <Hemogenic.label>مولد الدم الحيوي</Hemogenic.label>
   <!-- EN: Carriers of this gene have a reserve of biological strength powered by a resource called hemogen. The resource can be gained and spent in various ways, all of which are unlocked by other genes.\n\nCarriers lose 2 hemogen per day from biological entropy. -->
-  <Hemogenic.description>يمتلك حاملو هذا الجين مخزونًا من القوة البيولوجية مدعومًا بمورد يسمى الهيموجين. يمكن اكتساب المورد وإنفاقه بطرق مختلفة، تفتح كلها بواسطة جينات أخرى.\n\nيفقد الحاملون وحدتين من الهيموجين يوميًا بسبب الانتروبيا البيولوجية.</Hemogenic.description>
+  <Hemogenic.description>يمتلك حاملو هذا الجين مخزونًا من القوة البيولوجية مدعومًا بمورد يسمى الدم الحيوي. يمكن اكتساب المورد وإنفاقه بطرق مختلفة، تفتح كلها بواسطة جينات أخرى.\n\nيفقد الحاملون وحدتين من الدم الحيوي يوميًا بسبب الانتروبيا البيولوجية.</Hemogenic.description>
   <!-- EN: Gives hemogen supply. -->
-  <Hemogenic.customEffectDescriptions.0>يمنح مخزونًا من الهيموجين.</Hemogenic.customEffectDescriptions.0>
+  <Hemogenic.customEffectDescriptions.0>يمنح مخزونًا من الدم الحيوي.</Hemogenic.customEffectDescriptions.0>
   <!-- EN: A reserve of biological strength which can be gained and spent in a variety of ways.\n\nHemogen can be increased by bloodfeeding from a human or consuming hemogen packs. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nIf hemogen reaches zero, {PAWN_nameDef} will become very unhappy. -->
-  <Hemogenic.resourceDescription>مخزون من القوة البيولوجية يمكن اكتسابه وإنفاقه بطرق متنوعة.\n\nيمكن زيادة الهيموجين بالتغذي على الدم من بشري أو استهلاك عبوات الهيموجين. يمكنك الحصول على عبوات الهيموجين باستخدام العملية الطبية 'استخراج عبوة هيموجين' على بشري غير مولد للهيموجين.\n\nإذا وصل الهيموجين إلى الصفر، سيصبح {PAWN_nameDef} تعيسًا جدًا.</Hemogenic.resourceDescription>
+  <Hemogenic.resourceDescription>مخزون من القوة البيولوجية يمكن اكتسابه وإنفاقه بطرق متنوعة.\n\nيمكن زيادة الدم الحيوي بالتغذي على الدم من بشري أو استهلاك عبوات الدم الحيوي. يمكنك الحصول على عبوات الدم الحيوي باستخدام العملية الطبية 'استخراج عبوة هيموجين' على بشري غير مولد للهيموجين.\n\nإذا وصل الدم الحيوي إلى الصفر، سيصبح {PAWN_nameDef} تعيسًا جدًا.</Hemogenic.resourceDescription>
   <!-- EN: hemogen -->
   <Hemogenic.resourceLabel>هيموجين</Hemogenic.resourceLabel>
   <!-- EN: hemo -->
