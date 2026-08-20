@@ -66,6 +66,7 @@ for (const file of targetFiles) {
   if (ext === '.xml') {
     const xmlErrors: string[] = [];
     const parser = new DOMParser({
+      locator: {},
       errorHandler: {
         warning: () => {},
         error: (msg: string) => { xmlErrors.push(msg); },
