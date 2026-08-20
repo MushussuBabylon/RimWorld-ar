@@ -35,7 +35,7 @@ function getAllFiles(dir: string): string[] {
   return results;
 }
 
-const dataDir = path.resolve(__dirname, '../Data');
+const dataDir = path.resolve(import.meta.dirname, '../Data');
 const targetFiles = getAllFiles(dataDir).filter((f) => {
   const ext = path.extname(f).toLowerCase();
   return ext === '.xml' || ext === '.txt';
