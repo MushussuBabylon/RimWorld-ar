@@ -64,14 +64,23 @@ for (const file of targetFiles) {
 
   // 2. XML well-formedness (XML files only)
   if (ext === '.xml') {
+    const xmlErrors: string[] = [];
+    const parser = new DOMParser({
+      errorHandler: {
+        warning: () => {},
+        error: (msg: string) => { xmlErrors.push(msg); },
+        fatalError: (msg: string) => { xmlErrors.push(msg); },
+      },
+    } as any);
+
     try {
-      const doc = new DOMParser().parseFromString(content, 'application/xml');
-      const parseErrors = doc.getElementsByTagName('parsererror');
-      if (parseErrors && parseErrors.length > 0) {
-        throw new Error((parseErrors[0].textContent || 'XML parse error').trim());
-      }
+      parser.parseFromString(content, 'application/xml');
     } catch (err: any) {
-      issues.push({ file: rel, type: 'XML', message: err.message || String(err) });
+      xmlErrors.push(err.message || String(err));
+    }
+
+    for (const msg of xmlErrors) {
+      issues.push({ file: rel, type: 'XML', message: msg.split('\n')[0] });
     }
   }
 
