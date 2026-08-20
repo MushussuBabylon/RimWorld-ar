@@ -45,7 +45,7 @@ console.log(`Checking ${targetFiles.length} translation file(s) under Data/...\n
 
 const issues: Issue[] = [];
 // Matches tags like <Foo.reportString>...</...> whose text content ends with a period.
-const reportStringDotRegex = /\.[^<]*[rR]eportString>([^<]*)\.<\//;
+const reportStringDotRegex = /\.reportString>([^<]*)\.(<\/)/;
 
 for (const file of targetFiles) {
   const rel = path.relative(dataDir, file);
