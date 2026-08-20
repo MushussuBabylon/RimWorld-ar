@@ -80,7 +80,7 @@ for (const file of targetFiles) {
     }
 
     for (const msg of xmlErrors) {
-      issues.push({ file: rel, type: 'XML', message: msg.split('\n')[0] });
+      issues.push({ file: rel, type: 'XML', message: msg.trim().replace(/\r?\n/g, '  ') });
     }
   }
 
