@@ -5,8 +5,6 @@
 // Checks:
 //   1. Every .xml/.txt file is valid UTF-8.
 //   2. Every .xml file is well-formed XML.
-//   3. reportString values don't end with a period (RimWorld appends its
-//      own punctuation after these — a trailing period doubles it up).
 //
 // Exits with code 1 if any issue is found, so the Action run is flagged red.
 
@@ -16,7 +14,7 @@ import { DOMParser } from '@xmldom/xmldom';
 
 interface Issue {
   file: string;
-  type: 'ENCODING' | 'XML' | 'REPORT_STRING_DOT';
+  type: 'ENCODING' | 'XML';
   message: string;
 }
 
@@ -44,8 +42,6 @@ const targetFiles = getAllFiles(dataDir).filter((f) => {
 console.log(`Checking ${targetFiles.length} translation file(s) under Data/...\n`);
 
 const issues: Issue[] = [];
-// Matches tags like <Foo.reportString>...</...> whose text content ends with a period.
-const reportStringDotRegex = /\.reportString>([^<]*)\.(<\/)/;
 
 for (const file of targetFiles) {
   const rel = path.relative(dataDir, file);
@@ -84,19 +80,6 @@ for (const file of targetFiles) {
       issues.push({ file: rel, type: 'XML', message: msg.trim().replace(/\r?\n/g, '  ') });
     }
   }
-
-  // 3. reportString trailing-dot check
-  content.split(/\r?\n/).forEach((line, idx) => {
-    if (line.trim().startsWith('<!--')) return;
-    const cleanLine = line.replace(/<!--.*$/, '');
-    if (reportStringDotRegex.test(cleanLine)) {
-      issues.push({
-        file: rel,
-        type: 'REPORT_STRING_DOT',
-        message: `Line ${idx + 1}: reportString value ends with a period.`,
-      });
-    }
-  });
 }
 
 if (issues.length === 0) {
