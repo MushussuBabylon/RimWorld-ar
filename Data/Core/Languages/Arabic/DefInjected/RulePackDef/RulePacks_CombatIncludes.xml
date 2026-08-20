@@ -234,39 +234,39 @@
     <li>using->دافعاً</li>
     <li>using->مستغلاً</li>
     <li>using->محركاً</li>
-    <li>skillAdv(INITIATOR_skill<=3)->بكفاءة معدومة</li>
-    <li>skillAdv(INITIATOR_skill<=3)->بحماقة</li>
-    <li>skillAdv(INITIATOR_skill<=3)->بطيش</li>
-    <li>skillAdv(INITIATOR_skill<=3)->بعشوائية</li>
-    <li>skillAdv(INITIATOR_skill<=3)->بتخبط</li>
-    <li>skillAdv(INITIATOR_skill<=4)->بغرابة</li>
-    <li>skillAdv(INITIATOR_skill<=4)->بخراقة</li>
-    <li>skillAdv(INITIATOR_skill<=5)->بخوف</li>
-    <li>skillAdv(INITIATOR_skill<=5)->بتردد</li>
-    <li>skillAdv(INITIATOR_skill<=5)->بسخافة</li>
-    <li>skillAdv(INITIATOR_skill<=6)->بتردد</li>
-    <li>skillAdv(INITIATOR_skill<=6)->بممانعة</li>
-    <li>skillAdv(INITIATOR_skill<=6)->ببطء</li>
-    <li>skillAdv(INITIATOR_skill<=6)->بحذر</li>
-    <li>skillAdv(INITIATOR_skill<=6)->بقلة خبرة</li>
-    <li>skillAdv(INITIATOR_skill<=6)->كهاوٍ</li>
-    <li>skillAdv(INITIATOR_skill<=6)->بخجل</li>
-    <li>skillAdv(INITIATOR_skill<=8)->بحماس</li>
-    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->باقتدار</li>
-    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->بكفاءة</li>
-    <li>skillAdv(INITIATOR_skill>=8)->باحترافية</li>
-    <li>skillAdv(INITIATOR_skill>=8)->بمهارة</li>
-    <li>skillAdv(INITIATOR_skill>=8)->بجدارة</li>
-    <li>skillAdv(INITIATOR_skill>=8)->بذكاء</li>
-    <li>skillAdv(INITIATOR_skill>=8)->ببراعة</li>
-    <li>skillAdv(INITIATOR_skill>=8)->بمهارة</li>
-    <li>skillAdv(INITIATOR_skill>=10)->بحنكة</li>
-    <li>skillAdv(INITIATOR_skill>=10)->بسلاسة</li>
-    <li>skillAdv(INITIATOR_skill>=12)->بخبرة</li>
-    <li>skillAdv(INITIATOR_skill>=12)->بدقة</li>
-    <li>skillAdv(INITIATOR_skill>=14)->بإتقان</li>
-    <li>skillAdv(INITIATOR_skill>=16)->بفن</li>
-    <li>skillAdv(INITIATOR_skill>=16)->برشاقة</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->بكفاءة معدومة</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->بحماقة</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->بطيش</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->بعشوائية</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->بتخبط</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->بغرابة</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->بخراقة</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->بخوف</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->بتردد</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->بسخافة</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->بتردد</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->بممانعة</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->ببطء</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->بحذر</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->بقلة خبرة</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->كهاوٍ</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->بخجل</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->بحماس</li>
+    <li>skillAdv(INITIATOR_skill&gt;=6,INITIATOR_skill&lt;=10)->باقتدار</li>
+    <li>skillAdv(INITIATOR_skill&gt;=6,INITIATOR_skill&lt;=10)->بكفاءة</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->باحترافية</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->بمهارة</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->بجدارة</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->بذكاء</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->ببراعة</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->بمهارة</li>
+    <li>skillAdv(INITIATOR_skill&gt;=10)->بحنكة</li>
+    <li>skillAdv(INITIATOR_skill&gt;=10)->بسلاسة</li>
+    <li>skillAdv(INITIATOR_skill&gt;=12)->بخبرة</li>
+    <li>skillAdv(INITIATOR_skill&gt;=12)->بدقة</li>
+    <li>skillAdv(INITIATOR_skill&gt;=14)->بإتقان</li>
+    <li>skillAdv(INITIATOR_skill&gt;=16)->بفن</li>
+    <li>skillAdv(INITIATOR_skill&gt;=16)->برشاقة</li>
     <li>skillAdv(INITIATOR_flesh==Mechanoid)->ميكانيكياً</li>
     <li>skillAdv(INITIATOR_flesh==Mechanoid)->آلياً</li>
     <li>skillAdv(INITIATOR_flesh==Mechanoid)->مباشرة</li>
