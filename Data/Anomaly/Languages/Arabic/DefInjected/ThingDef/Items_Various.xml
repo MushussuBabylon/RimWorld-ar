@@ -39,7 +39,7 @@
   <!-- EN: Golden cube study complete -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>اكتملت دراسة المكعب الذهبي</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>
   <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube's destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
-  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>كشف فحص {PAWN_nameDef} للمكعب الذهبي أنه يمكن تعطيله باستخدام شظية آركية. سيؤدي القيام بذلك إلى تدمير المكعب، كاسراً قبضته النفسية على مستعمريك.\n\nومع ذلك، فإن الصدمة النفسية الارتدادية من تدمير المكعب ستدفع أي شخص مهتم بالمكعب إلى هياج هستيري. أولئك في القوافل سيهجرون مستعمرتك بالكامل.\n\nاختر المكعب الذهبي لتعطيله.</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>كشف فحص {PAWN_nameDef} للمكعب الذهبي أنه يمكن تعطيله باستخدام شظية آركوتيك. سيؤدي القيام بذلك إلى تدمير المكعب، كاسراً قبضته النفسية على مستعمريك.\n\nومع ذلك، فإن الصدمة النفسية الارتدادية من تدمير المكعب ستدفع أي شخص مهتم بالمكعب إلى هياج هستيري. أولئك في القوافل سيهجرون مستعمرتك بالكامل.\n\nاختر المكعب الذهبي لتعطيله.</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
   <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they're in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
   <GoldenCube.comps.CompGoldenCube.activateDescString>دمر المكعب الذهبي، كاسراً قبضته النفسية. سيدفع هذا أي شخص مهتم بالمكعب إلى هياج هستيري مؤقت. إذا كانوا في قافلة، سيضيعون بشكل دائم.\n\nيتطلب شظية واحدة.</GoldenCube.comps.CompGoldenCube.activateDescString>
   <!-- EN: Deactivate golden cube -->
@@ -132,11 +132,11 @@
   <!-- EN: Revenant reformed -->
   <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>عاود العائد التشكل</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>
   <!-- EN: After {PAWN_nameDef} chained the revenant spine to a holding platform, the revenant re-emerged.\n\nWhen killed, a revenant's body dissolves, leaving behind only its archotechnological spine. This cage of slick iron waits for a chance to grow a new body. -->
-  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>بعد أن قيد {PAWN_nameDef} عمود العائد الفقري بمنصة احتجاز، عاود العائد الظهور.\n\nعند قتله، يتحلل جسد العائد، تاركاً وراءه فقط عموده الفقري الآركوتكنولوجي. ينتظر قفص الحديد الزلق هذا فرصة لتنمية جسد جديد.</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
+  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>بعد أن قيد {PAWN_nameDef} عمود العائد الفقري بمنصة احتجاز، عاود العائد الظهور.\n\nعند قتله، يتحلل جسد العائد، تاركاً وراءه فقط عموده الفقري ذو التكنولوجيا الآركوتيكية. ينتظر قفص الحديد الزلق هذا فرصة لتنمية جسد جديد.</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
   <!-- EN: Smash {0_label} -->
   <RevenantSpine.comps.CompUsable.useLabel>تحطيم {0_label}</RevenantSpine.comps.CompUsable.useLabel>
   <!-- EN: {PAWN_nameDef} smashed the revenant spine. It dissolved to reveal a shard of dark archotechnology. -->
-  <RevenantSpine.comps.CompUsable.useMessage>حطم {PAWN_nameDef} عمود العائد الفقري. تحلل ليكشف عن شظية من التكنولوجيا الآركية المظلمة.</RevenantSpine.comps.CompUsable.useMessage>
+  <RevenantSpine.comps.CompUsable.useMessage>حطم {PAWN_nameDef} عمود العائد الفقري. تحلل ليكشف عن شظية من التكنولوجيا الآركوتيكية المظلمة.</RevenantSpine.comps.CompUsable.useMessage>
   <!-- EN: Smash the revenant spine to prevent it reforming into a new revenant. -->
   <RevenantSpine.comps.CompRevenantSpine.activateDescString>حطم عمود العائد الفقري لمنعه من إعادة التشكل إلى عائد جديد.</RevenantSpine.comps.CompRevenantSpine.activateDescString>
   <!-- EN: Smash... -->
@@ -149,6 +149,6 @@
   <!-- EN: shard -->
   <Shard.label>شظية</Shard.label>
   <!-- EN: A scavenged fragment of dark archotechnology. Originally created by a hyperintelligent archotech mind, this shard is packed with technology beyond human comprehension. It is capable of manipulating psychic flows, inducing archotech influences and more esoteric outcomes. While it is useless by itself, it can be built into devices that harness its power to produce exotic effects. -->
-  <Shard.description>شظية مجمعة من تكنولوجيا آركية مظلمة. صُنعت أصلاً بواسطة عقل آركي فائق الذكاء، هذه الشظية محشوة بتكنولوجيا تفوق الفهم البشري. إنها قادرة على التلاعب بالتدفقات النفسية، وإحداث تأثيرات آركية ونتائج باطنية أكثر. بينما هي عديمة الفائدة بذاتها، يمكن بناؤها في أجهزة تسخر قوتها لإنتاج تأثيرات غريبة.</Shard.description>
+  <Shard.description>شظية مجمعة من تكنولوجيا آركوتيكية مظلمة. صُنعت أصلاً بواسطة عقل آركوتيكي فائق الذكاء، هذه الشظية محشوة بتكنولوجيا تفوق الفهم البشري. إنها قادرة على التلاعب بالتدفقات النفسية، وإحداث تأثيرات آركوتيكية ونتائج باطنية أكثر. بينما هي عديمة الفائدة بذاتها، يمكن بناؤها في أجهزة تسخر قوتها لإنتاج تأثيرات غريبة.</Shard.description>
   
 </LanguageData>

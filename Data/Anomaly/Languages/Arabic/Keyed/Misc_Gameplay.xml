@@ -473,7 +473,7 @@
   <!-- EN: Fleshmass heart defeated -->
   <LetterLabelFleshmassHeartDestroyed>هُزم قلب الكتلة اللحمية</LetterLabelFleshmassHeartDestroyed>
   <!-- EN: The fleshmass heart has been destroyed, leaving behind a broken but still functional core - a twisted amalgam of flesh and archotechnology. The nucleus continues to grow and mutate flesh, even while the surrounding fleshmass decays.\n\nYou can capture the nucleus to study it further or destroy it to end this nightmare. If left alone, it may reform into a new fleshmass heart. -->
-  <LetterFleshmassHeartDestroyed>دُمر قلب الكتلة اللحمية تاركاً نواة مكسورة لكنها تعمل - مزيجاً ملتوياً من اللحم والأركوتكنولوجيا. تستمر النواة في نمو وتحوير اللحم رغم تحلل الكتلة المحيطة.\n\nيمكنك أسر النواة لدراستها أو تدميرها لإنهاء الكابوس. إن تُركت، قد تشكل قلباً جديداً.</LetterFleshmassHeartDestroyed>
+  <LetterFleshmassHeartDestroyed>دُمر قلب الكتلة اللحمية تاركاً نواة مكسورة لكنها تعمل - مزيجاً ملتوياً من اللحم و التكنولوجيا الآركوتيكية. تستمر النواة في نمو وتحوير اللحم رغم تحلل الكتلة المحيطة.\n\nيمكنك أسر النواة لدراستها أو تدميرها لإنهاء الكابوس. إن تُركت، قد تشكل قلباً جديداً.</LetterFleshmassHeartDestroyed>
   <!-- EN: The fleshmass heart has grown a new nerve bundle. -->
   <NerveBundleGrewMessage>أنبت قلب الكتلة اللحمية حزمة عصبية جديدة.</NerveBundleGrewMessage>
   <!-- EN: The nerve bundle has dropped a neural lump. Analyze it to learn more about the fleshmass heart. -->
@@ -507,7 +507,7 @@
   <HighestSkill>أعلى مهارة</HighestSkill>
   
   <!-- EN: {0} dropped a shard of dark archotechnology. You can collect and make use of it. -->
-  <MessageShardDropped>أسقط {0} شظية أركوتكنولوجيا مظلمة. يمكنك جمعها والاستفادة منها.</MessageShardDropped>
+  <MessageShardDropped>أسقط {0} شظية تكنولوجيا آركوتيكية مظلمة. يمكنك جمعها والاستفادة منها.</MessageShardDropped>
   
   <!-- Blood rain -->
   <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
@@ -553,17 +553,17 @@
   <!-- EN: Unnatural corpse study progress -->
   <UnnaturalCorpseStudyLetter>تقدم دراسة الجثة غير الطبيعية</UnnaturalCorpseStudyLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed more about the body. An archotech shard at its core psychically links it with {VICTIM_nameDef}. It will rebuild itself if destroyed, and teleport any distance to be near {VICTIM_nameDef}. \n\n{RESEARCHER_nameDef} thinks that there may be a way to permanently destroy the corpse but will need to study it further.\n\nStudy the corpse more to learn how to destroy it. -->
-  <UnnaturalCorpseStudyLetterDesc>كشف فحصك للجثة عن شظية أركوتكنولوجية في نواتها تربطها نفسياً بـ {VICTIM_nameDef}. ستعيد بناء نفسها إن دُمرت، وتنتقل آنياً لتبقى قربه.\n\nيعتقد {RESEARCHER_nameDef} أن ثمة طريقة لتدميرها للأبد لكنها تتطلب مزيداً من الدراسة.\n\nادرس الجثة أكثر لتعرف كيف.</UnnaturalCorpseStudyLetterDesc>
+  <UnnaturalCorpseStudyLetterDesc>كشف فحصك للجثة عن شظية آركوتيك في نواتها تربطها نفسياً بـ {VICTIM_nameDef}. ستعيد بناء نفسها إن دُمرت، وتنتقل آنياً لتبقى قربه.\n\nيعتقد {RESEARCHER_nameDef} أن ثمة طريقة لتدميرها للأبد لكنها تتطلب مزيداً من الدراسة.\n\nادرس الجثة أكثر لتعرف كيف.</UnnaturalCorpseStudyLetterDesc>
 
   <!-- EN: Unnatural corpse study complete -->
   <UnnaturalCorpseStudyCompletedLetter>اكتملت دراسة الجثة غير الطبيعية</UnnaturalCorpseStudyCompletedLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
-  <UnnaturalCorpseStudyCompletedLetterDesc>اتضح كيفية إزالة الشظية الأركوتكنولوجية بأمان. سيوقف ذلك تعذيب {VICTIM_nameDef} نفسياً، لكنه يمنع دراسة الجثة لاحقاً.</UnnaturalCorpseStudyCompletedLetterDesc>
+  <UnnaturalCorpseStudyCompletedLetterDesc>اتضح كيفية إزالة الشظية الآركوتيكية بأمان. سيوقف ذلك تعذيب {VICTIM_nameDef} نفسياً، لكنه يمنع دراسة الجثة لاحقاً.</UnnaturalCorpseStudyCompletedLetterDesc>
 
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>شظية الجثة</UnnaturalCorpseDeactivatedLetter>
   <!-- EN: {PAWN_nameDef} extracted an archotech shard from the unnatural corpse, the corpse then began to violently bloat and exploded into gore. -->
-  <UnnaturalCorpseDeactivatedLetterDesc>استخرج {PAWN_nameDef} شظية أركوتكنولوجية من الجثة غير الطبيعية، فانتفخت وانفجرت إلى أحشاء.</UnnaturalCorpseDeactivatedLetterDesc>
+  <UnnaturalCorpseDeactivatedLetterDesc>استخرج {PAWN_nameDef} شظية آركوتيك من الجثة غير الطبيعية، فانتفخت وانفجرت إلى أحشاء.</UnnaturalCorpseDeactivatedLetterDesc>
   <!-- EN: {PAWN_nameDef} is feeling better already. -->
   <UnnaturalCorpseDeactivatedLetterDescAppended>يشعر {PAWN_nameDef} بتحسن فوري.</UnnaturalCorpseDeactivatedLetterDescAppended>
   
@@ -767,7 +767,7 @@
   <!-- EN: Awakening the void monolith will engulf your colony in darkness for days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
   <VoidAwakeningConfirmationText>سيغمر إيقاظ مسلة الفراغ مستعمرتك بظلام دامس لأيام ويجذب كيانات قوية. تأكد من استعدادك:\n\n- خزّن الطعام ومواد البناء والأسلحة.\n- أنر المستعمرة جيداً ووفّر طاقة كافية. تجنب الاعتماد على المولدات الشمسية.\n- حصن المستعمرة وجهز مستعمريك للقتال.\n\nلا عودة بعد إيقاظ مسلة الفراغ.\n\nهل تريد المتابعة؟</VoidAwakeningConfirmationText>
   <!-- EN: A sphere of writhing psychic energy rises before {PAWN_nameDef}.\n\n{PAWN_nameDef} feels a presence inside {PAWN_possessive} mind, deeper than any normal human sense. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power. It beckons {PAWN_objective} in...\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what dark power could be gained from such an inhuman act. -->
-  <VoidNodeLetter>كرة من طاقة نفسية متلوية ترتفع أمام {PAWN_nameDef}.\n\nيشعر بوجود داخل عـ{PAWN_possessive} أعمق من أي حاسة. يقف على شاطئ محيط أسود لا نهائي من القوة يغريه بالدخول...\n\nأجهزة أركوتكنولوجية قريبة تدعم الكرة بوصلات هشة. يمكن لـ {PAWN_nameDef} تعطيلها لإغلاق الرابط بين العوالم.\n\nأو يمكنه الاندماج مع الفراغ. من يدري أي قوة مظلمة قد يكتسبها من فعل غير بشري كهذا.</VoidNodeLetter>
+  <VoidNodeLetter>كرة من طاقة نفسية متلوية ترتفع أمام {PAWN_nameDef}.\n\nيشعر بوجود داخل عـ{PAWN_possessive} أعمق من أي حاسة. يقف على شاطئ محيط أسود لا نهائي من القوة يغريه بالدخول...\n\nأجهزة أركوتيك قريبة تدعم الكرة بوصلات هشة. يمكن لـ {PAWN_nameDef} تعطيلها لإغلاق الرابط بين العوالم.\n\nأو يمكنه الاندماج مع الفراغ. من يدري أي قوة مظلمة قد يكتسبها من فعل غير بشري كهذا.</VoidNodeLetter>
   <!-- EN: Disrupt the link -->
   <VoidNodeDisrupt>عطل الرابط</VoidNodeDisrupt>
   <!-- EN: Embrace the void -->
