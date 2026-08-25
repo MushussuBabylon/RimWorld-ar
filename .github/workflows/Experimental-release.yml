@@ -1,0 +1,82 @@
+name: Experimental Release
+
+on:
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: read
+
+jobs:
+  build-experimental:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6.4.0
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build all variants
+        run: npm run build
+
+      - name: Create ZIP archives
+        run: |
+          cd dist
+          (cd Data-Normal && zip -r ../Data-Normal.zip Data)
+          (cd Data-WordWrap && zip -r ../Data-WordWrap.zip Data)
+          (cd Data-ArabicSupport && zip -r ../Data-ArabicSupport.zip Mods)
+          ls -lh *.zip
+
+      - name: Show generated files
+        run: |
+          echo "=============================="
+          echo "Complete dist folder structure"
+          echo "=============================="
+          find dist -type f | sort
+
+          echo ""
+          echo "=============================="
+          echo "ZIP file contents"
+          echo "=============================="
+
+          echo ""
+          echo "----- Data-Normal.zip -----"
+          unzip -l dist/Data-Normal.zip
+
+          echo ""
+          echo "----- Data-WordWrap.zip -----"
+          unzip -l dist/Data-WordWrap.zip
+
+          echo ""
+          echo "----- Data-ArabicSupport.zip -----"
+          unzip -l dist/Data-ArabicSupport.zip
+
+      - name: Upload Data-Normal test artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: Data-Normal-Experimental
+          path: dist/Data-Normal.zip
+          if-no-files-found: error
+
+      - name: Upload Data-WordWrap test artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: Data-WordWrap-Experimental
+          path: dist/Data-WordWrap.zip
+          if-no-files-found: error
+
+      - name: Upload Data-ArabicSupport test artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: Data-ArabicSupport-Experimental
+          path: dist/Data-ArabicSupport.zip
+          if-no-files-found: error
