@@ -35,7 +35,7 @@ jobs:
           cd dist
           (cd Data-Normal && zip -r ../Data-Normal.zip Data)
           (cd Data-WordWrap && zip -r ../Data-WordWrap.zip Data)
-          (cd Data-ArabicSupport && zip -r ../Data-ArabicSupport.zip Data Mods)
+          (cd Data-ArabicSupport && zip -r ../Data-ArabicSupport.zip Mods)
           ls -lh *.zip
 
       - name: Get current date
