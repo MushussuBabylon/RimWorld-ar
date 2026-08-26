@@ -28,7 +28,7 @@
     <li>descriptionIntro(factionless==true)->A group of wild people are</li>
   -->
   <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
-    <li>questDescription->[descriptionIntro] تتطلع لتوسيع أراضيها، وتهتم بالاستيلاء على [playerSettlements] مع كل [itsTheir] ثروتها وتقنيتها. إذا استطعت زيادة ثروتك الإجمالية إلى [requiredWealth_money]، فسيسيطرون على [settlementsSingularOrPlural].\n\nفي المقابل، يعرضون عليك جزءاً من خريطة تظهر موقع نقطة ارتكاز أثرية قديمة للأركوتيك. يُعتقد أن الأركونيكسس هو قناة يتأثر من خلالها الذكاء الفائق للأركوتيك بالعالم المادي. لو استطعت استحضار قوته، فإن ما سيحدث بعد ذلك قد يتجاوز الواقع المادي.\n\n[onlyHaveHas] قطعة واحدة من الخريطة. الأجزاء الأخرى بحوزة فصائل أخرى.\n\nإذا قبلت عرضهم، فسيستولي [factionPawnsPlural] على مستوطنتك، بما في ذلك كل الأغراض والأشخاص والأبحاث المسجلة. سيحضرون [colonistsAllowed] من أفرادك و[animalsAllowed] من حيواناتك إلى أي مكان تريده على الكوكب لبدء مستعمرة جديدة.\n\nلاحقاً، يمكنك التجارة مع الآخرين للحصول على الجزأين الأخيرين من الخريطة.</li>
+    <li>questDescription->[descriptionIntro] تتطلع لتوسيع أراضيها، وتهتم بالاستيلاء على [playerSettlements] مع كل [itsTheir] ثروتها وتقنيتها. إذا استطعت زيادة ثروتك الإجمالية إلى [requiredWealth_money]، فسيسيطرون على [settlementsSingularOrPlural].\n\nفي المقابل، يعرضون عليك جزءاً من خريطة تظهر موقع نقطة ارتكاز أثرية قديمة للأركوتيك. يُعتقد أن الآركونيكسس هو قناة يتأثر من خلالها الذكاء الفائق للأركوتيك بالعالم المادي. لو استطعت استحضار قوته، فإن ما سيحدث بعد ذلك قد يتجاوز الواقع المادي.\n\n[onlyHaveHas] قطعة واحدة من الخريطة. الأجزاء الأخرى بحوزة فصائل أخرى.\n\nإذا قبلت عرضهم، فسيستولي [factionPawnsPlural] على مستوطنتك، بما في ذلك كل الأغراض والأشخاص والأبحاث المسجلة. سيحضرون [colonistsAllowed] من أفرادك و[animalsAllowed] من حيواناتك إلى أي مكان تريده على الكوكب لبدء مستعمرة جديدة.\n\nلاحقاً، يمكنك التجارة مع الآخرين للحصول على الجزأين الأخيرين من الخريطة.</li>
     <li>itsTheir(playerSettlementsCount==1)->ه</li>
     <li>itsTheir(playerSettlementsCount>=2)->هم</li>
     <li>settlementsSingularOrPlural(playerSettlementsCount==1)->المستوطنة</li>
@@ -44,7 +44,7 @@
     <li>questName->the archonexus</li>
   -->
   <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
-    <li>questName->الأركونيكسس</li>
+    <li>questName->الآركونيكسس</li>
  </EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -60,7 +60,7 @@
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
   -->
   <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
-    <li>questDescription->بعد تسجيل الجزء الأول من خريطة الأركونيكسس بأمان، تستعد للخطوة التالية في رحلتك.\n\n[cycle1Faction] أخبرك بالكارثة التي دمرت هذا العالم. بنى البشر آلة تفكير عظيمة هنا منذ قرون. انقلبت على الناس وحدثت حرب عظيمة. لم يبق إلا القليل عندما تفوقت الآلة وسكنت.\n\nخريطة الأركونيكسس مكونة من ثلاثة أجزاء، وأنت تملك أحدها. [otherMapPartHolders] يملك كل منهم أجزاء من الخريطة. سيتاجرون بأجزائهم معك مقابل مستعمرة جديدة غنية وكل أبحاثها المسجلة.[descriptionStudyRequirement]\n\nحان وقت البناء.</li>
+    <li>questDescription->بعد تسجيل الجزء الأول من خريطة الآركونيكسس بأمان، تستعد للخطوة التالية في رحلتك.\n\n[cycle1Faction] أخبرك بالكارثة التي دمرت هذا العالم. بنى البشر آلة تفكير عظيمة هنا منذ قرون. انقلبت على الناس وحدثت حرب عظيمة. لم يبق إلا القليل عندما تفوقت الآلة وسكنت.\n\nخريطة الآركونيكسس مكونة من ثلاثة أجزاء، وأنت تملك أحدها. [otherMapPartHolders] يملك كل منهم أجزاء من الخريطة. سيتاجرون بأجزائهم معك مقابل مستعمرة جديدة غنية وكل أبحاثها المسجلة.[descriptionStudyRequirement]\n\nحان وقت البناء.</li>
     <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
     <li>cycle1Faction(factionless==true)->ال[wildPeople]</li>
     <li>otherMapPartHolders(factionless==false)->[roughOutlander_name] و[roughTribe_name]</li>
@@ -75,7 +75,7 @@
     <li>questName->the archonexus</li>
   -->
   <EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
-    <li>questName->الأركونيكسس</li>
+    <li>questName->الآركونيكسس</li>
  </EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -93,17 +93,17 @@
     <li>descriptionThreats(threatsEnabled==false)-></li>
   -->
   <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
-    <li>questAcceptedLetterLabel->تم اكتشاف الأركونيكسس</li>
+    <li>questAcceptedLetterLabel->تم اكتشاف الآركونيكسس</li>
     <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
-    <li>questDescriptionBeforeAccepted->لديك جزآن من خريطة الأركونيكسس. [factionName] لديهم آخر قطعة من الخريطة، متوارثة من زمن نجا فيه أسلافهم من الكارثة. سيتاجرون بها معك مقابل مستعمرة جديدة غنية وأبحاثها المسجلة.[descriptionStudyRequirement]\n\nحان وقت البناء.</li>
-    <li>questDescriptionAfterAccepted->[descriptionIntro] أعطاك الجزء الأخير من خريطة الأركونيكسس. باستخدام معرفتك بتشفير معلومات الأركوتيك، فككت الخريطة وحددت موقع الأركونيكسس.\n\nحلفاؤك لا يتوقعون عودتك، لذا بعد أن تذهب إلى هناك، سيستولون على [playerSettlements].\n\n[descriptionThreats]الآن كل ما تبقى هو الوصول إلى الأركونيكسس، استحضار قوة الإله الآلي، ومعرفة ما إذا كانت القصص حقيقية.</li>
+    <li>questDescriptionBeforeAccepted->لديك جزآن من خريطة الآركونيكسس. [factionName] لديهم آخر قطعة من الخريطة، متوارثة من زمن نجا فيه أسلافهم من الكارثة. سيتاجرون بها معك مقابل مستعمرة جديدة غنية وأبحاثها المسجلة.[descriptionStudyRequirement]\n\nحان وقت البناء.</li>
+    <li>questDescriptionAfterAccepted->[descriptionIntro] أعطاك الجزء الأخير من خريطة الآركونيكسس. باستخدام معرفتك بتشفير معلومات الأركوتيك، فككت الخريطة وحددت موقع الآركونيكسس.\n\nحلفاؤك لا يتوقعون عودتك، لذا بعد أن تذهب إلى هناك، سيستولون على [playerSettlements].\n\n[descriptionThreats]الآن كل ما تبقى هو الوصول إلى الآركونيكسس، استحضار قوة الإله الآلي، ومعرفة ما إذا كانت القصص حقيقية.</li>
     <li>factionName(factionless==false)->[roughTribe_name]</li>
     <li>factionName(factionless==true)->The wild people</li>
     <li>descriptionIntro(factionless==false)->قائد [roughTribe_name] [roughTribe_leader_nameDef] قد</li>
     <li>descriptionIntro(factionless==true)->The wild people have</li>
     <li>descriptionStudyRequirement(studyRequirement==true)->\n\nكما في السابق، الجزء من الخريطة مشفر. لفك تشفيره، يجب أن تدرس هيكل الأركوتيك أولاً.</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
-    <li>descriptionThreats(threatsEnabled==true)->من المرجح أن يكون للأركونيكسس مدافعون ميكانويد، لذا اذهب مستعداً.\n\n</li>
+    <li>descriptionThreats(threatsEnabled==true)->من المرجح أن يكون للآركونيكسس مدافعون ميكانويد، لذا اذهب مستعداً.\n\n</li>
     <li>descriptionThreats(threatsEnabled==false)-></li>
  </EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
   <!-- EN:
@@ -116,7 +116,7 @@
     <li>questName->the archonexus</li>
   -->
   <EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
-    <li>questName->الأركونيكسس</li>
+    <li>questName->الآركونيكسس</li>
  </EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
   
 </LanguageData>
