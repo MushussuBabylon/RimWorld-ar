@@ -128,9 +128,9 @@
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
-  <Hemogen>الدم الحيوي</Hemogen>
+  <Hemogen>الهيموجين</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
-  <HemogenDesc>الدم الحيوي مصدر طاقة حيوي يُستخلص من مركبات في دم الإنسان. ينتجه البشر الأساسيون طبيعياً ويستهلكونه ضمن توازنهم الداخلي. تستخدمه بعض الأنماط الغريبة كوقود لقدرات خاصة، بينما يعتمد آخرون على استهلاكه للبقاء على قيد الحياة.</HemogenDesc>
+  <HemogenDesc>الهيموجين مصدر طاقة حيوي يُستخلص من مركبات في دم الإنسان. ينتجه البشر الأساسيون طبيعياً ويستهلكونه ضمن توازنهم الداخلي. تستخدمه بعض الأنماط الغريبة كوقود لقدرات خاصة، بينما يعتمد آخرون على استهلاكه للبقاء على قيد الحياة.</HemogenDesc>
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>سعة سبات الموت</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
@@ -146,7 +146,7 @@
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>يمكن لـ {PAWN_nameDef} الاستيقاظ بأمان الآن.</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
-  <CannotWakeNotEnoughHemogen>لا يمكن الاستيقاظ. يحتاج {0} دم حيوي على الأقل.</CannotWakeNotEnoughHemogen>
+  <CannotWakeNotEnoughHemogen>لا يمكن الاستيقاظ. يحتاج {0} هيموجين على الأقل.</CannotWakeNotEnoughHemogen>
   <!-- EN: Auto-wake -->
   <AutoWake>استيقاظ تلقائي</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
@@ -176,11 +176,11 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>ينبغي لـ {PAWN_nameDef} السبات قريباً لتجنب الإنهاك.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>يحدد ما إذا كان {PAWN_nameDef} يتناول عبوات الدم الحيوي تلقائياً عند انخفاض الدم الحيوي خاصتـ{PAWN_possessive} دون {MIN}.\n\nالتناول التلقائي حالياً: {ONOFF}.</AutoTakeHemogenDesc>
+  <AutoTakeHemogenDesc>يحدد ما إذا كان {PAWN_nameDef} يتناول عبوات الهيموجين تلقائياً عند انخفاض الهيموجين خاصتـ{PAWN_possessive} دون {MIN}.\n\nالتناول التلقائي حالياً: {ONOFF}.</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
-  <ConsumeHemogenBelow>تناول الدم الحيوي عند الانخفاض دون</ConsumeHemogenBelow>
+  <ConsumeHemogenBelow>تناول الهيموجين عند الانخفاض دون</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
-  <NeverConsumeHemogen>عدم تناول الدم الحيوي مطلقاً.</NeverConsumeHemogen>
+  <NeverConsumeHemogen>عدم تناول الهيموجين مطلقاً.</NeverConsumeHemogen>
   <!-- EN: Will kill -->
   <WillKill>سيقتل</WillKill>
   <!-- EN: Will cause major blood loss -->
@@ -521,7 +521,7 @@
 
   <!-- Abilities -->
   <!-- EN: {0_labelShort} is not hemogenic. -->
-  <AbilityDisabledNoHemogenGene>{0_labelShort} ليس لديه مورثات دم حيوي.</AbilityDisabledNoHemogenGene>
+  <AbilityDisabledNoHemogenGene>{0_labelShort} ليس لديه مورثات هيموجين.</AbilityDisabledNoHemogenGene>
   <!-- EN: {0_labelShort} does not have enough hemogen. -->
   <AbilityDisabledNoHemogen>لا يملك {0_labelShort} دماً حيوياً كافياً.</AbilityDisabledNoHemogen>
   <!-- EN: children cannot do this. -->
@@ -529,9 +529,9 @@
   <!-- EN: need a {0}. -->
   <AbilityStartRitualNoMembersOfIdeo>تحتاج {0}.</AbilityStartRitualNoMembersOfIdeo>
   <!-- EN: Hemogen cost -->
-  <AbilityHemogenCost>تكلفة الدم الحيوي</AbilityHemogenCost>
+  <AbilityHemogenCost>تكلفة الهيموجين</AbilityHemogenCost>
   <!-- EN: Base hemogen gain -->
-  <AbilityHemogenGain>اكتساب الدم الحيوي الأساسي</AbilityHemogenGain>
+  <AbilityHemogenGain>اكتساب الهيموجين الأساسي</AbilityHemogenGain>
   <!-- EN: Smokepop charged -->
   <AbilityMechSmokepopCharged>قنبلة الدخان جاهزة</AbilityMechSmokepopCharged>
   <!-- EN: Smokepop recharged in {0} -->
