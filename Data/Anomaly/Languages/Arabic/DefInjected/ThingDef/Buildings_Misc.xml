@@ -9,7 +9,7 @@
   <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>درجة الحرارة الخارجية المستهدفة</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
   
   <!-- EN: tactical turret bullet -->
-  <Bullet_TacticalTurret.label>طلقة مدفع تكتيكي</Bullet_TacticalTurret.label>
+  <Bullet_TacticalTurret.label>طلقة برج تكتيكي</Bullet_TacticalTurret.label>
   
   <!-- EN: delayed metalhorror emerge -->
   <DelayedMetalhorrorEmerger.label>بزوغ رعب معدني مؤجل</DelayedMetalhorrorEmerger.label>
@@ -134,11 +134,11 @@
   <GrayWall.description>جدار رمادي لا يمكن اختراقه.</GrayWall.description>
   
   <!-- EN: tactical turret gun -->
-  <Gun_TacticalTurret.label>مدفع رشاش تكتيكي</Gun_TacticalTurret.label>
+  <Gun_TacticalTurret.label>برج رشاش تكتيكي</Gun_TacticalTurret.label>
   <!-- EN: A simple automatic gun made to be mounted on a turret. -->
-  <Gun_TacticalTurret.description>مدفع آلي بسيط مصمم ليُركب على مدفع.</Gun_TacticalTurret.description>
+  <Gun_TacticalTurret.description>رشاش آلي بسيط مصمم ليُركب على برج.</Gun_TacticalTurret.description>
   <!-- EN: tactical turret gun -->
-  <Gun_TacticalTurret.verbs.Verb_Shoot.label>مدفع رشاش تكتيكي</Gun_TacticalTurret.verbs.Verb_Shoot.label>
+  <Gun_TacticalTurret.verbs.Verb_Shoot.label>برج رشاش تكتيكي</Gun_TacticalTurret.verbs.Verb_Shoot.label>
   
   <!-- EN: holding platform -->
   <HoldingPlatform.label>منصة احتجاز</HoldingPlatform.label>
@@ -231,12 +231,12 @@
   <TrapIED_Deadlife.description>زوج من قذائف الحياة الميتة متصل بمشعل ينفجر باللمس أو بارتطام رصاصة. بما أنه مخفي في التضاريس المحيطة، لا يمكن وضعه بمحاذاة أشراك أخرى. تستطيع الحيوانات الشعور بها عندما تكون هادئة.\n\nيحتاج الشرك إلى جثث قريبة ليقيمها غبار الحياة الميتة.</TrapIED_Deadlife.description>
   
   <!-- EN: tactical turret -->
-  <Turret_TacticalTurret.label>مدفع تكتيكي</Turret_TacticalTurret.label>
+  <Turret_TacticalTurret.label>برج تكتيكي</Turret_TacticalTurret.label>
   <!-- EN: A short-range turret. It will stop functioning once its battery runs out. If damaged sufficiently, it may explode. -->
-  <Turret_TacticalTurret.description>مدفع قصير المدى. سيتوقف عن العمل بمجرد نفاد بطاريته. إذا تضرر بما يكفي، قد ينفجر.</Turret_TacticalTurret.description>
+  <Turret_TacticalTurret.description>برج قصير المدى. سيتوقف عن العمل بمجرد نفاد بطاريته. إذا تضرر بما يكفي، قد ينفجر.</Turret_TacticalTurret.description>
   <!-- EN: Battery power -->
   <Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>طاقة البطارية</Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>
   <!-- EN: This turret has a limited battery life. Once it runs out, it will stop working entirely. -->
-  <Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>هذا المدفع لديه عمر بطارية محدود. بمجرد أن ينفد، سيتوقف عن العمل بالكامل.</Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>
+  <Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>هذا البرج لديه عمر بطارية محدود. بمجرد أن ينفد، سيتوقف عن العمل بالكامل.</Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>
   
 </LanguageData>
