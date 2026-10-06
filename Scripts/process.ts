@@ -125,7 +125,7 @@ export function processText(text: string, options: Partial<ProcessOptions> = {})
     }
 
     const tags: string[] = [];
-    const placeholderRegex = /\{+[^{}]*\}+|<.*?>|\(\*.*?\)|\(\/.*?\)|\-\>|\[.*?\]/g;
+    const placeholderRegex = /\(\{+[^{}]*\}+\)|\{+[^{}]*\}+|<.*?>|\(\*.*?\)|\(\/.*?\)|\-\>|\[.*?\]/g;
     let markerIndex = 0;
     
     let processedLine = applyRtlFix && hasRtl ? reshaper.convertArabic(line) : line;
