@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aggression judgement scramble -->
+  <BerserkMechanoid.label>تخبط حكم العدوان</BerserkMechanoid.label>
+  <!-- EN: Aggression judgment scrambled -->
+  <BerserkMechanoid.baseInspectLine>حكم العدوان مشوش</BerserkMechanoid.baseInspectLine>
+  
+  <!-- EN: cocoon disturbed -->
+  <CocoonDisturbed.label>شرنقة مضطربة</CocoonDisturbed.label>
+  <!-- EN: Enraged: Cocoon disturbed -->
+  <CocoonDisturbed.baseInspectLine>غاضب: شرنقة مضطربة</CocoonDisturbed.baseInspectLine>
+  
+  <!-- EN: manhunter -->
+  <Manhunter.label>صائد البشر</Manhunter.label>
+  <!-- EN: Maddened: Manhunter -->
+  <Manhunter.baseInspectLine>مخبول: صائد البشر</Manhunter.baseInspectLine>
+  <!-- EN: {0} has become a manhunter! -->
+  <Manhunter.beginLetter>{0} أصبح صائداً للبشر!</Manhunter.beginLetter>
+  <Manhunter.beginLetterLabel>عدوان</Manhunter.beginLetterLabel>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <Manhunter.recoveryMessage>انتهى هياج {0} في صيد البشر.</Manhunter.recoveryMessage>
+  
+  <!-- EN: manhunter -->
+  <ManhunterPermanent.label>صائد البشر</ManhunterPermanent.label>
+  <!-- EN: Maddened: Manhunter -->
+  <ManhunterPermanent.baseInspectLine>مخبول: صائد البشر</ManhunterPermanent.baseInspectLine>
+  <!-- EN: {0} has become a manhunter! -->
+  <ManhunterPermanent.beginLetter>{0} أصبح صائداً للبشر!</ManhunterPermanent.beginLetter>
+  <ManhunterPermanent.beginLetterLabel>عدوان</ManhunterPermanent.beginLetterLabel>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <ManhunterPermanent.recoveryMessage>انتهى هياج {0} في صيد البشر.</ManhunterPermanent.recoveryMessage>
+  
+  <!-- EN: panic fleeing -->
+  <PanicFlee.label>فرار مذعور</PanicFlee.label>
+  <!-- EN: Mental state: Fleeing in panic -->
+  <PanicFlee.baseInspectLine>حالة ذهنية: فرار في ذعر</PanicFlee.baseInspectLine>
+  <!-- EN: {0} is fleeing in panic. -->
+  <PanicFlee.beginLetter>{0} يفر مذعوراً.</PanicFlee.beginLetter>
+  <!-- EN: flee -->
+  <PanicFlee.beginLetterLabel>فرار</PanicFlee.beginLetterLabel>
+  <!-- EN: {0} is no longer fleeing in panic. -->
+  <PanicFlee.recoveryMessage>{0} لم يعد يفر مذعوراً.</PanicFlee.recoveryMessage>
+  
+  <!-- EN: roaming -->
+  <Roaming.label>تجوال</Roaming.label>
+  <!-- EN: Mental state: Roaming -->
+  <Roaming.baseInspectLine>حالة ذهنية: تجوال</Roaming.baseInspectLine>
+  
+  <!-- EN: social fighting -->
+  <SocialFighting.label>شجار اجتماعي</SocialFighting.label>
+  <!-- EN: Mental state: Social fighting -->
+  <SocialFighting.baseInspectLine>حالة ذهنية: شجار اجتماعي</SocialFighting.baseInspectLine>
+  
+  <!-- EN: confused wandering -->
+  <WanderConfused.label>تيه مشوش</WanderConfused.label>
+  <!-- EN: Mental state: Confused and wandering -->
+  <WanderConfused.baseInspectLine>حالة ذهنية: تائه ومشوش</WanderConfused.baseInspectLine>
+  <!-- EN: {0} has broken down and is wandering around confused. -->
+  <WanderConfused.beginLetter>{0} انهار ويتجول مشوشاً.</WanderConfused.beginLetter>
+  <!-- EN: confusion -->
+  <WanderConfused.beginLetterLabel>تشوش</WanderConfused.beginLetterLabel>
+  <!-- EN: {0} is no longer confused. -->
+  <WanderConfused.recoveryMessage>{0} لم يعد مشوشاً.</WanderConfused.recoveryMessage>
+  
+</LanguageData>
