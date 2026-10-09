@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- outcomeChances.*.label используется в OutcomeLetterLabel, RitualAttachedOutcomesInfo, RitualAttachedApplliesForOutcomes, RitualAttachedApplliesForOutcome, а также в списках после RitualDevelopmentPointRewards, RitualOutcomeChances -->
+  
+  <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+  <AttendedSpeech.description>يعتمد على جودة الطقس، سيحصل المشاركون على ما بين {MINMOOD} و {MAXMOOD} مزاج لمدة {MOODDAYS} يوم.</AttendedSpeech.description>
+  <!-- EN: {PAWN_labelShort}'s social impact -->
+  <AttendedSpeech.comps.0.label>الأثر الاجتماعي لـ {PAWN_labelShort}</AttendedSpeech.comps.0.label>
+  <!-- EN: speaker's social impact -->
+  <AttendedSpeech.comps.0.labelAbstract>الأثر الاجتماعي للمتحدث</AttendedSpeech.comps.0.labelAbstract>
+  <!-- EN: participant count -->
+  <AttendedSpeech.comps.1.label>عدد المشاركين</AttendedSpeech.comps.1.label>
+  <!-- EN: room impressiveness -->
+  <AttendedSpeech.comps.2.label>فخامة الغرفة</AttendedSpeech.comps.2.label>
+  <!-- EN: Terrible -->
+  <AttendedSpeech.outcomeChances.0.label>مروع</AttendedSpeech.outcomeChances.0.label>
+  <!-- EN: Uninspiring -->
+  <AttendedSpeech.outcomeChances.1.label>غير ملهم</AttendedSpeech.outcomeChances.1.label>
+  <!-- EN: Encouraging -->
+  <AttendedSpeech.outcomeChances.2.label>مشجع</AttendedSpeech.outcomeChances.2.label>
+  <!-- EN: Inspirational -->
+  <AttendedSpeech.outcomeChances.3.label>ملهم</AttendedSpeech.outcomeChances.3.label>
+  
+</LanguageData>
