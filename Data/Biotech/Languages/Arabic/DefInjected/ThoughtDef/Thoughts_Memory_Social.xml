@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fed on -->
+  <FedOn_Social.stages.fed_on.label>تغذى على</FedOn_Social.stages.fed_on.label>
+  <!-- Примечание: для labelSocial используем условное выражение с гендером -->
+  <!-- EN: fed on -->
+  <FedOn_Social.stages.fed_on.labelSocial>{OTHERPAWN_gender ? تغذى على : تغذت على} دمي</FedOn_Social.stages.fed_on.labelSocial>
+  
+  <!-- EN: listened to my lesson -->
+  <GaveLesson.stages.listened_to_my_lesson.label>استمع إلى درسي</GaveLesson.stages.listened_to_my_lesson.label>
+  <!-- EN: listened to my lesson -->
+  <GaveLesson.stages.listened_to_my_lesson.labelSocial>{OTHERPAWN_gender ? استمع : استمعت} إلى درسي</GaveLesson.stages.listened_to_my_lesson.labelSocial>
+  
+  <!-- EN: taught me a skill -->
+  <WasTaught.stages.taught_me_a_skill.label>علّمني مهارة</WasTaught.stages.taught_me_a_skill.label>
+  <!-- EN: taught me a skill -->
+  <WasTaught.stages.taught_me_a_skill.labelSocial>{OTHERPAWN_gender ? علّمني : علّمتني} مهارة</WasTaught.stages.taught_me_a_skill.labelSocial>
+  
+</LanguageData>
