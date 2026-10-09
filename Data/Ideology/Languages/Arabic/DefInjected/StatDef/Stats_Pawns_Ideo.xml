@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: biosculpter occupant speed -->
+  <BiosculpterOccupantSpeed.label>سرعة شاغل كبسولة النحت الحيوي</BiosculpterOccupantSpeed.label>
+  <!-- EN: A multiplier on how quickly this person will complete a biosculpter pod cycle. -->
+  <BiosculpterOccupantSpeed.description>مضاعف لمدى سرعة إكمال هذا الشخص لدورة كبسولة النحت الحيوي.</BiosculpterOccupantSpeed.description>
+  
+  <!-- EN: global certainty loss factor -->
+  <CertaintyLossFactor.label>معامل فقدان اليقين العالمي</CertaintyLossFactor.label>
+  <!-- EN: A multiplier on how much certainty this person loses when someone else tries to convert them away from their ideoligion. -->
+  <CertaintyLossFactor.description>مضاعف لمدى فقدان هذا الشخص لليقين عندما يحاول شخص آخر تحويله بعيداً عن عقيدته.</CertaintyLossFactor.description>
+  
+  <!-- EN: conversion power -->
+  <ConversionPower.label>قوة التحويل</ConversionPower.label>
+  <!-- EN: How effective this person is at converting others to their own ideoligion. When this person attempts to convert someone else, this value multiplies the amount of certainty the other person loses. -->
+  <ConversionPower.description>مدى فعالية هذا الشخص في تحويل الآخرين إلى عقيدته الخاصة. عندما يحاول هذا الشخص تحويل شخص آخر، تضرب هذه القيمة في مقدار اليقين الذي يفقده الشخص الآخر.</ConversionPower.description>
+  
+  <!-- EN: melee dodge chance indoors dark -->
+  <MeleeDodgeChanceIndoorsDarkOffset.label>فرصة تفادي الاشتباك في الداخل المظلم</MeleeDodgeChanceIndoorsDarkOffset.label>
+  <!-- EN: An offset on melee dodge chance if the target is indoors in the dark. -->
+  <MeleeDodgeChanceIndoorsDarkOffset.description>إزاحة على فرصة تفادي الاشتباك إذا كان الهدف في الداخل في الظلام.</MeleeDodgeChanceIndoorsDarkOffset.description>
+  
+  <!-- EN: melee dodge chance indoors lit -->
+  <MeleeDodgeChanceIndoorsLitOffset.label>فرصة تفادي الاشتباك في الداخل المضاء</MeleeDodgeChanceIndoorsLitOffset.label>
+  <!-- EN: An offset on melee dodge chance if the target is indoors and lit. -->
+  <MeleeDodgeChanceIndoorsLitOffset.description>إزاحة على فرصة تفادي الاشتباك إذا كان الهدف في الداخل والإضاءة مضاءة.</MeleeDodgeChanceIndoorsLitOffset.description>
+  
+  <!-- EN: melee dodge chance outdoors night -->
+  <MeleeDodgeChanceOutdoorsDarkOffset.label>فرصة تفادي الاشتباك في الخارج ليلاً</MeleeDodgeChanceOutdoorsDarkOffset.label>
+  <!-- EN: An offset on melee dodge chance if the target is outdoors at night. -->
+  <MeleeDodgeChanceOutdoorsDarkOffset.description>إزاحة على فرصة تفادي الاشتباك إذا كان الهدف في الخارج ليلاً.</MeleeDodgeChanceOutdoorsDarkOffset.description>
+  
+  <!-- EN: melee dodge chance outdoors day -->
+  <MeleeDodgeChanceOutdoorsLitOffset.label>فرصة تفادي الاشتباك في الخارج نهاراً</MeleeDodgeChanceOutdoorsLitOffset.label>
+  <!-- EN: An offset on melee dodge chance if the target is outdoors during the day. -->
+  <MeleeDodgeChanceOutdoorsLitOffset.description>إزاحة على فرصة تفادي الاشتباك إذا كان الهدف في الخارج خلال النهار.</MeleeDodgeChanceOutdoorsLitOffset.description>
+  
+  <!-- EN: melee hit chance indoors dark -->
+  <MeleeHitChanceIndoorsDarkOffset.label>فرصة إصابة الاشتباك في الداخل المظلم</MeleeHitChanceIndoorsDarkOffset.label>
+  <!-- EN: An offset on melee hit chance if the target is indoors in the dark. -->
+  <MeleeHitChanceIndoorsDarkOffset.description>إزاحة على فرصة إصابة الاشتباك إذا كان الهدف في الداخل في الظلام.</MeleeHitChanceIndoorsDarkOffset.description>
+  
+  <!-- EN: melee hit chance indoors lit -->
+  <MeleeHitChanceIndoorsLitOffset.label>فرصة إصابة الاشتباك في الداخل المضاء</MeleeHitChanceIndoorsLitOffset.label>
+  <!-- EN: An offset on melee hit chance if the target is indoors and lit. -->
+  <MeleeHitChanceIndoorsLitOffset.description>إزاحة على فرصة إصابة الاشتباك إذا كان الهدف في الداخل والإضاءة مضاءة.</MeleeHitChanceIndoorsLitOffset.description>
+  
+  <!-- EN: melee hit chance outdoors dark -->
+  <MeleeHitChanceOutdoorsDarkOffset.label>فرصة إصابة الاشتباك في الخارج ليلاً</MeleeHitChanceOutdoorsDarkOffset.label>
+  <!-- EN: An offset on melee hit chance if the target is outdoors at night. -->
+  <MeleeHitChanceOutdoorsDarkOffset.description>إزاحة على فرصة إصابة الاشتباك إذا كان الهدف في الخارج ليلاً.</MeleeHitChanceOutdoorsDarkOffset.description>
+  
+  <!-- EN: melee hit chance outdoors lit -->
+  <MeleeHitChanceOutdoorsLitOffset.label>فرصة إصابة الاشتباك في الخارج نهاراً</MeleeHitChanceOutdoorsLitOffset.label>
+  <!-- EN: An offset on melee hit chance if the target is outdoors during the day. -->
+  <MeleeHitChanceOutdoorsLitOffset.description>إزاحة على فرصة إصابة الاشتباك إذا كان الهدف في الخارج خلال النهار.</MeleeHitChanceOutdoorsLitOffset.description>
+  
+  <!-- EN: shooting accuracy indoors dark -->
+  <ShootingAccuracyIndoorsDarkOffset.label>دقة الرماية في الداخل المظلم</ShootingAccuracyIndoorsDarkOffset.label>
+  <!-- EN: An offset on shooting accuracy if the target is indoors in the dark. -->
+  <ShootingAccuracyIndoorsDarkOffset.description>إزاحة على دقة الرماية إذا كان الهدف في الداخل في الظلام.</ShootingAccuracyIndoorsDarkOffset.description>
+  
+  <!-- EN: shooting accuracy indoors lit -->
+  <ShootingAccuracyIndoorsLitOffset.label>دقة الرماية في الداخل المضاء</ShootingAccuracyIndoorsLitOffset.label>
+  <!-- EN: An offset on shooting accuracy if the target is indoors and lit. -->
+  <ShootingAccuracyIndoorsLitOffset.description>إزاحة على دقة الرماية إذا كان الهدف في الداخل والإضاءة مضاءة.</ShootingAccuracyIndoorsLitOffset.description>
+  
+  <!-- EN: shooting accuracy outdoors dark -->
+  <ShootingAccuracyOutdoorsDarkOffset.label>دقة الرماية في الخارج ليلاً</ShootingAccuracyOutdoorsDarkOffset.label>
+  <!-- EN: An offset on shooting accuracy if the target is outdoors at night. -->
+  <ShootingAccuracyOutdoorsDarkOffset.description>إزاحة على دقة الرماية إذا كان الهدف في الخارج ليلاً.</ShootingAccuracyOutdoorsDarkOffset.description>
+  
+  <!-- EN: shooting accuracy outdoors lit -->
+  <ShootingAccuracyOutdoorsLitOffset.label>دقة الرماية في الخارج نهاراً</ShootingAccuracyOutdoorsLitOffset.label>
+  <!-- EN: An offset on shooting accuracy if the target is outdoors during the day. -->
+  <ShootingAccuracyOutdoorsLitOffset.description>إزاحة على دقة الرماية إذا كان الهدف في الخارج خلال النهار.</ShootingAccuracyOutdoorsLitOffset.description>
+  
+  <!-- EN: ideoligion spread chance -->
+  <SocialIdeoSpreadFrequencyFactor.label>فرصة نشر العقيدة</SocialIdeoSpreadFrequencyFactor.label>
+  <!-- EN: A multiplier on the chance that this person will try to convert other people to their own ideoligion. -->
+  <SocialIdeoSpreadFrequencyFactor.description>مضاعف لفرصة أن يحاول هذا الشخص تحويل الآخرين إلى عقيدته الخاصة.</SocialIdeoSpreadFrequencyFactor.description>
+  
+</LanguageData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Thought_Situational, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: slaughtered animal -->
+  <SlaughteredAnimal_Disapproved.stages.slaughtered_animal.label>حيوان مذبوح</SlaughteredAnimal_Disapproved.stages.slaughtered_animal.label>
+  <!-- EN: I had to slaughter an animal. It was an ugly thing to do. -->
+  <SlaughteredAnimal_Disapproved.stages.slaughtered_animal.description>اضطررت لذبح حيوان. كان أمراً قبيحاً.</SlaughteredAnimal_Disapproved.stages.slaughtered_animal.description>
+  
+  <!-- Thought_Situational, null. Label: {PAWN}. Description: {PAWN} -->
+  <!-- EN: slaughtered animal -->
+  <SlaughteredAnimal_Horrible.stages.slaughtered_animal.label>حيوان مذبوح</SlaughteredAnimal_Horrible.stages.slaughtered_animal.label>
+  <!-- EN: I had to slaughter an animal! It was horrible to snuff out a mind like that. -->
+  <SlaughteredAnimal_Horrible.stages.slaughtered_animal.description>اضطررت لذبح حيوان! كان مريعاً إطفاء عقل كهذا.</SlaughteredAnimal_Horrible.stages.slaughtered_animal.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: slaughtered animal -->
+  <SlaughteredAnimal_Know_Disapproved.stages.slaughtered_animal.label>حيوان مذبوح</SlaughteredAnimal_Know_Disapproved.stages.slaughtered_animal.label>
+  <SlaughteredAnimal_Know_Disapproved.stages.slaughtered_animal.labelSocial>{OTHERPAWN_gender ? ذبح : ذبحت} حيواناً</SlaughteredAnimal_Know_Disapproved.stages.slaughtered_animal.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
+  <!-- EN: animal slaughtered -->
+  <SlaughteredAnimal_Know_Disapproved_Mood.stages.animal_slaughtered.label>ذُبح حيوان</SlaughteredAnimal_Know_Disapproved_Mood.stages.animal_slaughtered.label>
+  <!-- EN: Someone slaughtered an animal. It's a sad thing. -->
+  <SlaughteredAnimal_Know_Disapproved_Mood.stages.animal_slaughtered.description>شخص ما ذبح حيواناً. إنه أمر محزن.</SlaughteredAnimal_Know_Disapproved_Mood.stages.animal_slaughtered.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: slaughtered animal -->
+  <SlaughteredAnimal_Know_Horrible.stages.slaughtered_animal.label>حيوان مذبوح</SlaughteredAnimal_Know_Horrible.stages.slaughtered_animal.label>
+  <SlaughteredAnimal_Know_Horrible.stages.slaughtered_animal.labelSocial>{OTHERPAWN_gender ? ذبح : ذبحت} حيواناً</SlaughteredAnimal_Know_Horrible.stages.slaughtered_animal.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
+  <!-- EN: animal slaughtered -->
+  <SlaughteredAnimal_Know_Horrible_Mood.stages.animal_slaughtered.label>ذُبح حيوان</SlaughteredAnimal_Know_Horrible_Mood.stages.animal_slaughtered.label>
+  <!-- EN: Someone slaughtered an animal! What a horrible thing, to snuff out a mind like that. -->
+  <SlaughteredAnimal_Know_Horrible_Mood.stages.animal_slaughtered.description>شخص ما ذبح حيواناً! يالها من فظاعة، إطفاء عقل كهذا.</SlaughteredAnimal_Know_Horrible_Mood.stages.animal_slaughtered.description>
+  
+  <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN}  -->
+  <!-- EN: slaughtered animal -->
+  <SlaughteredAnimal_Know_Prohibited.stages.slaughtered_animal.label>حيوان مذبوح</SlaughteredAnimal_Know_Prohibited.stages.slaughtered_animal.label>
+  <SlaughteredAnimal_Know_Prohibited.stages.slaughtered_animal.labelSocial>{OTHERPAWN_gender ? ذبح : ذبحت} حيواناً</SlaughteredAnimal_Know_Prohibited.stages.slaughtered_animal.labelSocial>
+  
+  <!-- Thought_Memory, null. Label: {PAWN}. LabelSocial: {PAWN}. Description: {PAWN} -->
+  <!-- EN: animal slaughtered -->
+  <SlaughteredAnimal_Know_Prohibited_Mood.stages.animal_slaughtered.label>ذُبح حيوان</SlaughteredAnimal_Know_Prohibited_Mood.stages.animal_slaughtered.label>
+  <!-- EN: Someone slaughtered an animal! A tragic loss of a unique life. -->
+  <SlaughteredAnimal_Know_Prohibited_Mood.stages.animal_slaughtered.description>شخص ما ذبح حيواناً! خسارة مأساوية لحياة فريدة.</SlaughteredAnimal_Know_Prohibited_Mood.stages.animal_slaughtered.description>
+  
+</LanguageData>
