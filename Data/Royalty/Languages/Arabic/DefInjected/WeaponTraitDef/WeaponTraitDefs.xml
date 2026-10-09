@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: hunger pangs -->
+  <HungerMaker.label>آلام الجوع</HungerMaker.label>
+  <!-- EN: This weapon's persona loves food, and transmits that onto whoever bonds with it. The bonded person's hunger rate will be 50% higher. -->
+  <HungerMaker.description>شخصية هذا السلاح تعشق الطعام، وتنقل ذلك إلى من يرتبط به. معدل جوع الشخص المرتبط سيكون أعلى بنسبة 50%.</HungerMaker.description>
+  
+  <!-- EN: jealous -->
+  <Jealous.label>غيور</Jealous.label>
+  <!-- EN: This weapon's persona becomes angry when the bonded individual uses another weapon, thus reducing their mood. -->
+  <Jealous.description>شخصية هذا السلاح تغضب عندما يستخدم الفرد المرتبط سلاحاً آخر، مما يقلل مزاجه.</Jealous.description>
+  
+  <!-- EN: kill thirst -->
+  <NeedKill.label>عطش للقتل</NeedKill.label>
+  <!-- EN: This weapon's persona finds purpose in bloodshed. If it does not kill for 20 days, it will become angry and psychically complain to whoever is bonded to it. -->
+  <NeedKill.description>شخصية هذا السلاح تجد غايتها في سفك الدماء. إذا لم يقتل لمدة 20 يوماً، سيغضب ويتذمر نفسياً لمن يرتبط به.</NeedKill.description>
+  
+  <!-- EN: neural cooling -->
+  <NeuralHeatRecoveryGain.label>تبريد عصبي</NeuralHeatRecoveryGain.label>
+  <!-- EN: This weapon's persona has the ability to help dissipate the wielder's neural heat. The wielder's neural heat dissipation is improved by 0.15 per second. -->
+  <NeuralHeatRecoveryGain.description>شخصية هذا السلاح لديها القدرة على المساعدة في تبديد الحرارة العصبية للحامل. يتحسن تبديد الحرارة العصبية للحامل بمقدار 0.15 في الثانية.</NeuralHeatRecoveryGain.description>
+  
+  <!-- EN: freewielder -->
+  <NeverBond.label>حر الحمل</NeverBond.label>
+  <!-- EN: This weapon's persona does not form bonds in the normal way. Anyone can pick it up and use it. -->
+  <NeverBond.description>لا تشكل شخصية هذا السلاح روابط بالطريقة المعتادة. يمكن لأي شخص حمله واستخدامه.</NeverBond.description>
+  
+  <!-- EN: painless -->
+  <NoPain.label>لا ألم</NoPain.label>
+  <!-- EN: This weapon's persona has some method of psychically disabling pain. The one holding the weapon will feel no pain of any kind. -->
+  <NoPain.description>شخصية هذا السلاح تملك وسيلة ما لتعطيل الألم نفسياً. لن يشعر حامل السلاح بأي نوع من الألم.</NoPain.description>
+  
+  <!-- EN: kill-focused -->
+  <OnKill_PsyfocusGain.label>مركز على القتل</OnKill_PsyfocusGain.label>
+  <!-- EN: This weapon's persona focuses on deaths. If the weapon kills someone, the wielder will instantly gain 20% psyfocus. -->
+  <OnKill_PsyfocusGain.description>شخصية هذا السلاح تركز على الموت. إذا قتل السلاح شخصاً، سيكسب الحامل فوراً 20% تركيز نفسي.</OnKill_PsyfocusGain.description>
+  
+  <!-- EN: kill sorrow -->
+  <OnKill_ThoughtBad.label>حزن القتل</OnKill_ThoughtBad.label>
+  <!-- EN: This weapon's persona hates killing. If this weapon kills someone, its sorrow will transmit psychically to the wielder, reducing their mood for a few days. -->
+  <OnKill_ThoughtBad.description>شخصية هذا السلاح تكره القتل. إذا قتل هذا السلاح شخصاً، سينتقل حزنه نفسياً إلى الحامل، مما يقلل مزاجه لعدة أيام.</OnKill_ThoughtBad.description>
+  
+  <!-- EN: kill-happy -->
+  <OnKill_ThoughtGood.label>سعيد بالقتل</OnKill_ThoughtGood.label>
+  <!-- EN: This weapon's persona loves to kill. If this weapon kills someone, its joy will transmit psychically to the wielder, making them happier for a few days. -->
+  <OnKill_ThoughtGood.description>شخصية هذا السلاح تحب القتل. إذا قتل هذا السلاح شخصاً، ستنتقل سعادته نفسياً إلى الحامل، مما يجعله أسعد لعدة أيام.</OnKill_ThoughtGood.description>
+  
+  <!-- EN: psychic fog -->
+  <PsychicSensitivityDownMajor.label>ضباب نفسي</PsychicSensitivityDownMajor.label>
+  <!-- EN: This weapon suppresses the wielder's psychic sensitivity by 30%. This only applies while the weapon is held. -->
+  <PsychicSensitivityDownMajor.description>يكبت هذا السلاح الحساسية النفسية لحامله بنسبة 30%. ينطبق هذا فقط أثناء حمل السلاح.</PsychicSensitivityDownMajor.description>
+  
+  <!-- EN: psychic quiet -->
+  <PsychicSensitivityDownMinor.label>هدوء نفسي</PsychicSensitivityDownMinor.label>
+  <!-- EN: This weapon suppresses the wielder's psychic sensitivity by 15%. This only applies while the weapon is held. -->
+  <PsychicSensitivityDownMinor.description>يكبت هذا السلاح الحساسية النفسية لحامله بنسبة 15%. ينطبق هذا فقط أثناء حمل السلاح.</PsychicSensitivityDownMinor.description>
+  
+  <!-- EN: psychic hypersensitizer -->
+  <PsychicSensitivityUpMajor.label>مفرط التحسس النفسي</PsychicSensitivityUpMajor.label>
+  <!-- EN: This weapon amplifies the wielder's psychic sensitivity by 40%. This only applies while the weapon is held. -->
+  <PsychicSensitivityUpMajor.description>يضخم هذا السلاح الحساسية النفسية لحامله بنسبة 40%. ينطبق هذا فقط أثناء حمل السلاح.</PsychicSensitivityUpMajor.description>
+  
+  <!-- EN: psychic sensitizer -->
+  <PsychicSensitivityUpMinor.label>محفز نفسي</PsychicSensitivityUpMinor.label>
+  <!-- EN: This weapon amplifies the wielder's psychic sensitivity by 20%. This only applies while the weapon is held. -->
+  <PsychicSensitivityUpMinor.description>يضخم هذا السلاح الحساسية النفسية لحامله بنسبة 20%. ينطبق هذا فقط أثناء حمل السلاح.</PsychicSensitivityUpMinor.description>
+  
+  <!-- EN: psy-meditative -->
+  <PsyfocusMeditationBonus.label>تأملي نفسي</PsyfocusMeditationBonus.label>
+  <!-- EN: This weapon's persona is naturally meditative and helps its wielder focus in psychic meditation. The wielder gains an extra 10% psyfocus per day of meditation, as long as the weapon is held. -->
+  <PsyfocusMeditationBonus.description>شخصية هذا السلاح تأملية بطبعها وتساعد حاملها على التركيز في التأمل النفسي. يكسب الحامل 10% إضافية من التركيز النفسي يومياً من التأمل، طالما السلاح محمول.</PsyfocusMeditationBonus.description>
+  
+  <!-- EN: fast mover -->
+  <SpeedBoost.label>سريع الحركة</SpeedBoost.label>
+  <!-- EN: This weapon's persona has a sense of motion. It confers this onto the wielder, making them move 15% faster as long as the weapon is held. -->
+  <SpeedBoost.description>شخصية هذا السلاح لديها حس بالحركة. تمنحه للحامل، مما يجعله يتحرك أسرع بنسبة 15% طالما السلاح محمول.</SpeedBoost.description>
+  
+  <!-- EN: calm thoughts -->
+  <ThoughtCalm.label>أفكار هادئة</ThoughtCalm.label>
+  <!-- EN: This weapon's persona is relaxed and steady. It whispers calming thoughts to whoever it is bonded with, increasing their mood. -->
+  <ThoughtCalm.description>شخصية هذا السلاح مسترخية وثابتة. تهمس بأفكار مهدئة لمن ترتبط به، مما يزيد مزاجه.</ThoughtCalm.description>
+  
+  <!-- EN: kind thoughts -->
+  <ThoughtKind.label>أفكار لطيفة</ThoughtKind.label>
+  <!-- EN: This weapon's persona is kind and supportive. It whispers kind thoughts to whoever it is bonded with, increasing their mood. -->
+  <ThoughtKind.description>شخصية هذا السلاح لطيفة وداعمة. تهمس بأفكار لطيفة لمن ترتبط به، مما يزيد مزاجه.</ThoughtKind.description>
+  
+  <!-- EN: mad muttering -->
+  <ThoughtMuttering.label>غمغمة جنونية</ThoughtMuttering.label>
+  <!-- EN: This weapon's persona is neurotic and unstable. It mutters mad thoughts to whoever it is bonded with, reducing their mood. -->
+  <ThoughtMuttering.description>شخصية هذا السلاح عصبية وغير مستقرة. تغمغم بأفكار مجنونة لمن ترتبط به، مما يقلل مزاجه.</ThoughtMuttering.description>
+  
+  <!-- EN: mad wailing -->
+  <ThoughtWailing.label>عويل جنوني</ThoughtWailing.label>
+  <!-- EN: This weapon's persona is highly disturbed and won't shut up about it. It wails mad notions to whoever it is bonded with, suppressing their mood. -->
+  <ThoughtWailing.description>شخصية هذا السلاح مضطربة بشدة ولن تصمت حيال ذلك. تعوي بأفكار مجنونة لمن ترتبط به، مما يكبت مزاجه.</ThoughtWailing.description>
+  
+</LanguageData>
