@@ -9,7 +9,7 @@
   <!-- EN: Entity -->
   <TabEntity>الكيان</TabEntity>
   <!-- EN: Study interval -->
-  <StudyInterval>فاصل الدراسة</StudyInterval>
+  <StudyInterval>فترة الدراسة</StudyInterval>
   <!-- EN: How often this entity can be studied. -->
   <StudyIntervalDesc>معدل تكرار دراسة هذا الكيان.</StudyIntervalDesc>
   <!-- EN: Maintain only -->
@@ -29,19 +29,19 @@
   <!-- EN: A warden will execute the restrained entity. -->
   <EntityStudyMode_ExecuteDesc>سيقوم الحارس بإعدام الكيان المقيَّد.</EntityStudyMode_ExecuteDesc>
   <!-- EN: Extract bioferrite -->
-  <EntityStudyMode_Extract>استخراج البيوفيرايت</EntityStudyMode_Extract>
+  <EntityStudyMode_Extract>استخراج البايوفيرايت</EntityStudyMode_Extract>
   <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can't be done if the entity is attached to a bioferrite harvester. -->
-  <EntityStudyMode_ExtractDesc>سيستخرج الأطباء البيوفيرايت من الكيان المحتجز كلما أمكن. طريقة الاستخراج هذه بسيطة لكنها غير فعالة، ولا يمكن تنفيذها إذا كان الكيان موصولاً بحاصدة بيوفيرايت.</EntityStudyMode_ExtractDesc>
+  <EntityStudyMode_ExtractDesc>سيستخرج الأطباء البايوفيرايت من الكيان المحتجز كلما أمكن. طريقة الاستخراج هذه بسيطة لكنها غير فعالة، ولا يمكن تنفيذها إذا كان الكيان موصولاً بحاصدة بايوفيرايت.</EntityStudyMode_ExtractDesc>
   <!-- EN: Requires bioferrite extraction. -->
-  <RequiresBioferriteExtraction>يتطلب استخراج البيوفيرايت.</RequiresBioferriteExtraction>
+  <RequiresBioferriteExtraction>يتطلب استخراج البايوفيرايت.</RequiresBioferriteExtraction>
   <!-- EN: Blocked by bioferrite harvester. -->
-  <BioferriteHarvesterAttached>معطل بسبب حاصدة البيوفيرايت.</BioferriteHarvesterAttached>
+  <BioferriteHarvesterAttached>معطل بسبب حاصدة البايوفيرايت.</BioferriteHarvesterAttached>
   <!-- EN: Can't be executed. -->
   <CantBeExecuted>لا يمكن إعدامه.</CantBeExecuted>
   <!-- EN: Knowledge gain -->
   <StudyKnowledgeGain>اكتساب المعرفة</StudyKnowledgeGain>
   <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
-  <StudyKnowledgeGainDesc>مقدار المعرفة المكتسبة في كل فاصل دراسة. الاحتواء الأفضل يساعد الباحث على التركيز في الدراسة بدلاً من إجراءات السلامة، مما ينتج معرفة أكبر.</StudyKnowledgeGainDesc>
+  <StudyKnowledgeGainDesc>مقدار المعرفة المكتسبة في كل فترة دراسة. الاحتواء الأفضل يساعد الباحث على التركيز في الدراسة بدلاً من إجراءات السلامة، مما ينتج معرفة أكبر.</StudyKnowledgeGainDesc>
   <!-- EN: What type of medicine can be given to this entity. -->
   <MedicineQualityDescriptionEntity>نوع الدواء الذي يمكن إعطاؤه لهذا الكيان.</MedicineQualityDescriptionEntity>
 

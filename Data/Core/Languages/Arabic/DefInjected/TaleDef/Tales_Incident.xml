@@ -37,7 +37,7 @@
     <li>circumstance_phrase->تطفو فوق [Community]</li>
     <li>circumstance_phrase->محتضنة بين [TerrainFeature] و[TerrainFeature]</li>
     <li>desc_sentence->في الأسفل، [PAWN_nameDef] يلعب [Game] بنظرة [AdjectiveFriendly].</li>
-    <li>desc_sentence->[PAWN_nameDef] يشاهد بذهول على وجه [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] يشاهد بذهول على وجهـ[PAWN_possessive].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يشاهدون من الأسفل.</li>
     <li>desc_sentence->[PAWN_nameDef] يجلس قرب [TerrainFeature]، محدقا في السماء.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s تتجول بسلام.</li>
@@ -76,10 +76,10 @@
     <li>image->[PAWN_nameFull] يصرخ بصوت عال [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يجري [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يتصارع مع خصم [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يدافع عن نفس [PAWN_objective] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يدافع عن نفسـ[PAWN_objective] [circumstance_group]</li>
     <li>circumstance_phrase->بتعبير [AdjectiveBadass]</li>
     <li>circumstance_phrase->بتعبير [AdjectiveBadass]</li>
-    <li>circumstance_phrase->بينما يشهر سلاح [PAWN_possessive]</li>
+    <li>circumstance_phrase->بينما يشهر سلاحـ[PAWN_possessive]</li>
     <li>circumstance_phrase->بينما يتصبب عرقا من الجهد</li>
     <li>desc_sentence->[Quantity_adjphrase] شخصيات بعيدة تقترب من خلف [TerrainFeature].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s يمكن رؤيتهم على البعد.</li>
@@ -120,7 +120,7 @@
     <li>image->[PAWN_nameFull] يجري [circumstance_group]</li>
     <li>circumstance_phrase->بتعبير [AdjectiveBadass]</li>
     <li>circumstance_phrase->بتعبير [AdjectiveBadass]</li>
-    <li>circumstance_phrase->بينما يشهر سلاح [PAWN_possessive]</li>
+    <li>circumstance_phrase->بينما يشهر سلاحـ[PAWN_possessive]</li>
     <li>circumstance_phrase->بينما يتصبب عرقا من الجهد</li>
     <li>circumstance_phrase->بينما هو مغطى بـ[Gore]</li>
     <li>desc_sentence->[Quantity_adjphrase] من الحيوانات البعيدة تقترب من خلف [TerrainFeature].</li>
@@ -264,7 +264,7 @@
     <li>circumstance_phrase->غسق يغطي [Quantity_adjphrase] من [TerrainFeature]s القريبة</li>
     <li>circumstance_phrase->مع ظهور النجوم</li>
     <li>desc_sentence->في الأسفل، [PAWN_nameDef] يلعب [Game] بنظرة [AdjectiveFriendly].</li>
-    <li>desc_sentence->[PAWN_nameDef] يشاهد بذهول على وجه [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] يشاهد بذهول على وجهـ[PAWN_possessive].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يشاهدون من الأسفل.</li>
     <li>desc_sentence->[PAWN_nameDef] يجلس قرب [TerrainFeature]، محدقا في السماء.</li>
     <li>desc_sentence->[Community] من المتفرجين تشاهد السماء بسلام.</li>
@@ -372,7 +372,7 @@
     <li>circumstance_phrase->يكاد يغلف [TerrainFeature]</li>
     <li>circumstance_phrase->يكاد يغلف [Quantity_adjphrase] من [TerrainFeature]s</li>
     <li>desc_sentence->[PAWN_nameDef] يشاهد بخوف واضح.</li>
-    <li>desc_sentence->[PAWN_nameDef] يشاهد بذهول على وجه [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] يشاهد بذهول على وجهـ[PAWN_possessive].</li>
     <li>desc_sentence->[PAWN_nameDef] ينسق إجراءات دفاعية.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يهرعون للاستعداد.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يفرون من المنطقة.</li>
@@ -598,7 +598,7 @@
     <li>defender_circumstance->يصرخ منتشيا</li>
     <li>defender_circumstance->يتوهج [Color]</li>
     <li>defender_circumstance->يرفع قبضة يده متحديا</li>
-    <li>defender_circumstance->يستعرض عضلات [PAWN_possessive]</li>
+    <li>defender_circumstance->يستعرض عضلاتـ[PAWN_possessive]</li>
  </Raid.rulePack.rulesStrings>
   
   <!-- EN: ship part crash -->
@@ -665,7 +665,7 @@
     <li>defender_circumstance->يصرخ منتشيا</li>
     <li>defender_circumstance->يتوهج [Color]</li>
     <li>defender_circumstance->يرفع قبضة يده متحديا</li>
-    <li>defender_circumstance->يستعرض عضلات [PAWN_possessive]</li>
+    <li>defender_circumstance->يستعرض عضلاتـ[PAWN_possessive]</li>
  </ShipPartCrash.rulePack.rulesStrings>
   
   <!-- EN: tornado -->
@@ -708,7 +708,7 @@
     <li>circumstance_phrase->يحجب [TerrainFeature]</li>
     <li>circumstance_phrase->يغلف [TerrainFeature]</li>
     <li>desc_sentence->[PAWN_nameDef] يشاهد بخوف واضح.</li>
-    <li>desc_sentence->[PAWN_nameDef] يشاهد بذهول على وجه [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] يشاهد بذهول على وجهـ[PAWN_possessive].</li>
     <li>desc_sentence->[PAWN_nameDef] ينسق إجراءات دفاعية.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يهرعون للاستعداد.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يفرون من المنطقة.</li>
@@ -757,8 +757,8 @@
     <li>circumstance_phrase->يحجب [TerrainFeature]</li>
     <li>circumstance_phrase->يغلف [TerrainFeature]</li>
     <li>desc_sentence->[COLONIST_nameDef] يشاهد بخوف واضح.</li>
-    <li>desc_sentence(p=0.5)->[COLONIST_nameDef] يشاهد بذهول على وجه [COLONIST_possessive].</li>
-    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] يشاهد بذهول على وجه [ATTACKER_possessive].</li>
+    <li>desc_sentence(p=0.5)->[COLONIST_nameDef] يشاهد بذهول على وجهـ[COLONIST_possessive].</li>
+    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] يشاهد بذهول على وجهـ[ATTACKER_possessive].</li>
     <li>desc_sentence->[COLONIST_nameDef] ينسق إجراءات دفاعية.</li>
     <li>desc_sentence->[ATTACKER_nameDef] يقهقه بسرور.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يهرعون للاستعداد.</li>
@@ -800,10 +800,10 @@
     <li>circumstance_phrase->مغطاة ببريق خافت من الغبار المضيء</li>
     <li>circumstance_phrase->مرتبة بنمط يوحي بالعظام</li>
     <li>circumstance_phrase->تنتظر توقف السم</li>
-    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، جسد [PAWN_possessive] ملتوي بزاوية غير اعتيادية.</li>
+    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، جسد[PAWN_possessive] ملتوي بزاوية غير اعتيادية.</li>
     <li>desc_sentence->[PAWN_nameDef] يختبئ قرب [TerrainFeature]، يحدق بنظرة [AdjectiveAngsty].</li>
     <li>desc_sentence->[PAWN_nameDef] ينظر بصدمة.</li>
-    <li>desc_sentence->[PAWN_nameDef] يستريح بهدوء مع طبقة من العرق على وجه [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] يستريح بهدوء مع طبقة من العرق على وجهـ[PAWN_possessive].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s الميتة ترقد على الأرض.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s المحتضرة ترقد على الأرض.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s تتسكع بقلق.</li>

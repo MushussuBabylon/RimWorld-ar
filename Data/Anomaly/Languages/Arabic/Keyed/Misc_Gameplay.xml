@@ -40,11 +40,11 @@
   <!-- EN: {PAWN_nameDef} hypnotized -->
   <LetterLabelPawnHypnotized>تم تنويم {PAWN_nameDef}</LetterLabelPawnHypnotized>
   <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
-  <LetterPawnHypnotized>نوّم العائد من الموت {PAWN_nameDef} وهو الآن يهذي بصور وأفكار كابوسية.\n\nقتل العائد ينهي التنويم.\n\nيستخدم العائد قوى نفسية لتشويه إدراك من حوله ليصبح خفياً. لكن يمكن تعقبه عبر اللطخات السوداء التي يتركها. ينكشف العائد إذا أصيب بأسلحة متفجرة، أو رغوة إطفاء، أو نبضات كهرومغناطيسية، أو نار، أو مشاعل تشويش.\n\nإن لم يُقتل، فسيواصل تنويم ضحايا جدد.</LetterPawnHypnotized>
+  <LetterPawnHypnotized>نوّم العائد من الموت {PAWN_nameDef} وهو الآن يهذي بصور وأفكار كابوسية.\n\nقتل العائد من الموت ينهي التنويم.\n\nيستخدم العائد من الموت قوى نفسية لتشويه إدراك من حوله ليصبح خفياً. لكن يمكن تعقبه عبر اللطخات السوداء التي يتركها. ينكشف العائد من الموت إذا أصيب بأسلحة متفجرة، أو رغوة إطفاء، أو نبضات كهرومغناطيسية، أو نار، أو مشاعل تشويش.\n\nإن لم يُقتل، فسيواصل تنويم ضحايا جدد.</LetterPawnHypnotized>
   <!-- EN: Revenant flesh chunk -->
-  <LetterRevenantFleshChunkLabel>قطعة لحم من العائد من الموت</LetterRevenantFleshChunkLabel>
+  <LetterRevenantFleshChunkLabel>كتلة لحم من العائد من الموت</LetterRevenantFleshChunkLabel>
   <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
-  <LetterRevenantFleshChunkText>ترك العائد الجريح قطعة من نفسه. يمكنك تحليلها لتتعلم كيفية تعقبه.</LetterRevenantFleshChunkText>
+  <LetterRevenantFleshChunkText>ترك العائد من الموت الجريح كتلة من نفسه. يمكنك تحليلها لتتعلم كيفية تعقبه.</LetterRevenantFleshChunkText>
   <!-- EN: Revenant seen -->
   <LetterRevenantSeenLabel>شوهد العائد من الموت</LetterRevenantSeenLabel>
   <!-- EN: {PAWN_nameDef} has seen a hiding revenant! -->
@@ -54,7 +54,7 @@
   <!-- EN: Revenant emergence -->
   <LetterLabelRevenantEmergence>ظهور العائد من الموت</LetterLabelRevenantEmergence>
   <!-- EN: The revenant has reemerged from the safety of its spine! Destroy it before it escapes.\n\nIn the process, the revenant has mutated and adopted a new biosignature. -->
-  <LetterRevenantEmergence>عاد العائد من الموت للظهور من عموده الفقري! دمره قبل أن يهرب.\n\nخلال ذلك، تحور العائد واكتسب بصمة حيوية جديدة.</LetterRevenantEmergence>
+  <LetterRevenantEmergence>عاد العائد من الموت للظهور من عموده الفقري! دمره قبل أن يهرب.\n\nخلال ذلك، تحور العائد من الموت واكتسب بصمة حيوية جديدة.</LetterRevenantEmergence>
 
   <!-- Sightstealers -->
   <!-- EN: Sightstealer revealed -->
@@ -173,7 +173,7 @@
   <!-- EN: Obelisk mutation -->
   <ObeliskAnimalMutationLetterLabel>تحول المسلة</ObeliskAnimalMutationLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden spike in energy. The obelisk has violently warped the flesh of {ANIMAL}, turning it into a hideous fleshbeast. -->
-  <ObeliskAnimalMutationLetter>لاحظ {PAWN_nameDef} قفزة مفاجئة في الطاقة. شوهت المسلة جسد {ANIMAL} بعنف وحولته إلى وحش لحمي بشع.</ObeliskAnimalMutationLetter>
+  <ObeliskAnimalMutationLetter>لاحظ {PAWN_nameDef} قفزة مفاجئة في الطاقة. شوهت المسلة جسد {ANIMAL} بعنف وحولته إلى وحش اللحم بشع.</ObeliskAnimalMutationLetter>
 
   <!-- EN: Obelisk mutation -->
   <ObeliskTreeMutationLetterLabel>تحول المسلة</ObeliskTreeMutationLetterLabel>
@@ -219,9 +219,9 @@
   <ObeliskAbductedLetter>نُقل {PAWN_nameDef} إلى غرفة غريبة. جدرانها مادة رمادية مجهولة والهواء ساكن تماماً. لا يعرف أين هو ولا كيف يعود.\n\nباب مجاور محشور لكن يمكن فتحه بالقوة. انقر يميناً على الأبواب المحشورة لفتحها.\n\nبدراسة المسلة، قد يفهم المستعمرون ما حدث ويساعدوا {PAWN_nameDef}. أو ربما تثير مهاجمة المسلة اختطاف المزيد من المستعمرين.</ObeliskAbductedLetter>
 
   <!-- EN: {PAWN_nameIndef} has mutated into a fleshbeast. -->
-  <MutatorObeliskMutated>تحول {PAWN_nameIndef} إلى وحش لحمي.</MutatorObeliskMutated>
+  <MutatorObeliskMutated>تحول {PAWN_nameIndef} إلى وحش اللحم.</MutatorObeliskMutated>
   <!-- EN: A fleshbeast has emerged from the ground. -->
-  <MutatorObeliskSpawned>انبثق وحش لحمي من الأرض.</MutatorObeliskSpawned>
+  <MutatorObeliskSpawned>انبثق وحش اللحم من الأرض.</MutatorObeliskSpawned>
 
   <!-- EN: Fully activate the warped obelisk. -->
   <ObeliskActivateDesc>تفعيل المسلة الملتوية بالكامل.</ObeliskActivateDesc>
@@ -617,7 +617,7 @@
   <!-- EN: Cube coma: {PAWN_labelShort} -->
   <LetterLabelGoldenCubeComa>غيبوبة المكعب: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
   <!-- EN: {PAWN_labelShort}'s cube withdrawal has sent {PAWN_objective} into a coma. {PAWN_pronoun} will remain in a coma until the golden cube's psychic link has completely dissipated. -->
-  <LetterGoldenCubeComa>أدخل انسحاب المكعب {PAWN_labelShort} في غيبوبة. سيبقى {PAWN_objective} حتى يتبدد الرابط النفسي للمكعب تماماً.</LetterGoldenCubeComa>
+  <LetterGoldenCubeComa>أدخل انسحاب المكعب {PAWN_labelShort} في غيبوبة. سيبقيـ{PAWN_objective} حتى يتبدد الرابط النفسي للمكعب تماماً.</LetterGoldenCubeComa>
 
   <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
   <CubeDeactivationConfirmation>سيؤدي تعطيل المكعب الذهبي إلى هياج عنيف لكل مهتم به. أي مهتم في قافلة سيُفقد للأبد.</CubeDeactivationConfirmation>
@@ -637,7 +637,7 @@
   <CubeDeactivationLostPawns>هرب هؤلاء من القوافل في نوبة غضب</CubeDeactivationLostPawns>
 
   <!-- EN: This happened because of {PAWN_possessive} obsession with the cube. -->
-  <MentalBreakReason_CubeSculpting>حدث بسبب هوس {PAWN_possessive} بالمكعب.</MentalBreakReason_CubeSculpting>
+  <MentalBreakReason_CubeSculpting>حدث بسبب هوسـ{PAWN_possessive} بالمكعب.</MentalBreakReason_CubeSculpting>
   
   <!-- EN: dirt -->
   <CubeMaterialDirt>تراب</CubeMaterialDirt>
@@ -669,7 +669,7 @@
   <FloorEtchingsInspectorExit>اتجاه الخروج</FloorEtchingsInspectorExit>
   
   <!-- EN: Warped obelisk -->
-  <LetterLabelObeliskDiscovered>اكتُشفت مسلة ملتوية</LetterLabelObeliskDiscovered>
+  <LetterLabelObeliskDiscovered>اكتُشفت مسلة مشوهة</LetterLabelObeliskDiscovered>
   <!-- EN: {PAWN_nameDef} has discovered a large obelisk. It looks nearly identical to the one that originally brought {PAWN_objective} here. Perhaps it can be activated to return {PAWN_objective} home.\n\nSelect {PAWN_nameDef} and right-click the obelisk to activate it. -->
   <LetterObeliskDiscovered>اكتشف {PAWN_nameDef} مسلة كبيرة تشبه التي أحضرته. قد تعيده إلى المنزل.\n\nاختر {PAWN_nameDef} وانقر يميناً على المسلة لتفعيلها.</LetterObeliskDiscovered>
   
@@ -775,7 +775,7 @@
   <!-- EN: Postpone -->
   <VoidNodePostpone>أجل</VoidNodePostpone>
   <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
-  <DisruptTheLinkCredits>تزعزعت التدفقات النفسية وصرخت الآلات الملتوية. يومض الفراغ الدوامي. يشعر {PAWN_nameDef} به يرتجف وينهار على نفسه.\n\nيلتوي الكهف المعدني كحجرة قلب ضخم. يختفي {PAWN_pronoun} من الوجود قبل أن يصرخ.\n\nرفض {PAWN_nameDef} الفراغ.\n\nتستمر قصةـ{PAWN_possessive}...</DisruptTheLinkCredits>
+  <DisruptTheLinkCredits>تزعزعت التدفقات النفسية وصرخت الآلات الملتوية. يومض الفراغ الدوامي. يشعر {PAWN_nameDef} به يرتجف وينهار على نفسه.\n\nيلتوي الكهف المعدني كحجرة قلب ضخم. يختفي {PAWN_pronoun} من الوجود قبل أن يصرخ.\n\nرفض {PAWN_nameDef} الفراغ.\n\nتستمر قصتـ{PAWN_possessive}...</DisruptTheLinkCredits>
   <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
   <EmbraceTheVoidCredits>يخطو {PAWN_nameDef} داخل الفراغ ويغمره المحيط الأسود، طاغياً على كل حاسة ومغرقاً كل فكرة في عـ{PAWN_possessive}.\n\nأعيد تركيز عقدة الفراغ نحو شخص واحد. تصرخ هياكل الفراغ ثم تختفي.\n\nاحتضن {PAWN_nameDef} الفراغ.\n\nتستمر قصتـ{PAWN_possessive}...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
@@ -806,7 +806,7 @@
   
   <!-- Bioferrite harvester -->
   <!-- EN: Bioferrite contained -->
-  <BioferriteHarvesterContained>بيوفيرايت محتجز</BioferriteHarvesterContained>
+  <BioferriteHarvesterContained>بايوفيرايت محتجز</BioferriteHarvesterContained>
   <!-- EN: per day -->
   <BioferriteHarvesterPerDay>في اليوم</BioferriteHarvesterPerDay>
   <!-- EN: Eject contents -->
@@ -814,9 +814,9 @@
   <!-- EN: Eject all contained {0} onto the ground. -->
   <BioferriteHarvesterEjectContentsDesc>إخراج كل ما يحتويه من {0} إلى الأرض.</BioferriteHarvesterEjectContentsDesc>
   <!-- EN: Toggle bioferrite unloading -->
-  <BioferriteHarvesterToggleUnloading>تبديل تفريغ البيوفيرايت</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloading>تبديل تفريغ البايوفيرايت</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
-  <BioferriteHarvesterToggleUnloadingDesc>عند التفعيل، يفرغ المستعمرون البيوفيرايت تلقائياً كلما امتلأت الحاصدة.</BioferriteHarvesterToggleUnloadingDesc>
+  <BioferriteHarvesterToggleUnloadingDesc>عند التفعيل، يفرغ المستعمرون البايوفيرايت تلقائياً كلما امتلأت الحاصدة.</BioferriteHarvesterToggleUnloadingDesc>
   
   <!-- Proximity detector -->
   <!-- EN: Invisible creature detected. -->

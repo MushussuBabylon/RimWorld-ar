@@ -23,7 +23,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] يُدعى [joiner_nameFull] يطلب النجدة! [joiner_pronoun] مختبئ من [hidingFrom]. يريد [joiner_pronoun] الفرار والانضمام إليك في [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nبدافع اليأس للبقاء مختبئاً، يدّعي [joiner_nameDef] أنه غير قادر على إخبارك المزيد عن نفس[joiner_objective].</li>
+    <li>questDescription->[introduction] يُدعى [joiner_nameFull] يطلب النجدة! [joiner_pronoun] مختبئ من [hidingFrom]. يريد [joiner_pronoun] الفرار والانضمام إليك في [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nبدافع اليأس للبقاء مختبئاً، يدّعي [joiner_nameDef] أنه غير قادر على إخبارك المزيد عن نفسـ[joiner_objective].</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->قطيع من الذئاب الجائعة</li>
     <li>condDesc(gameCondition==ToxicFallout)->ومع ذلك، لا يمكن لـ[joiner_nameDef] قتل الذئاب إلا بإشعال النار في مكب نفايات كيميائي سام ضخم قريب. سيتبع ذلك [gameConditionDuration_duration] من التساقط السام.</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->عصابة من أكلة لحوم البشر</li>
@@ -126,7 +126,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] يُدعى [joiner_nameDef] يتصل من مكان قريب. يتوسل [joiner_pronoun] للانضمام إليك في [map_definite].[joiner_relationInfo]\n\nهناك نوع من التهديد يتبع [joiner_nameDef]، لكن [joiner_pronoun] غير راغب في قول ماهيته أو متى قد يتبعه. كما أن [joiner_pronoun] غير راغب في إخبارك المزيد عن نفس[joiner_objective].</li>
+    <li>questDescription->[introduction] يُدعى [joiner_nameDef] يتصل من مكان قريب. يتوسل [joiner_pronoun] للانضمام إليك في [map_definite].[joiner_relationInfo]\n\nهناك نوع من التهديد يتبع [joiner_nameDef]، لكن [joiner_pronoun] غير راغب في قول ماهيته أو متى قد يتبعه. كما أن [joiner_pronoun] غير راغب في إخبارك المزيد عن نفسـ[joiner_objective].</li>
     <li>introduction(childCount==1,priority=1)->طفل عمره [joiner_age] عاماً</li>
     <li>introduction->[joiner_title] عمره [joiner_age] عاماً</li>
  </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
@@ -202,7 +202,7 @@
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] يُدعى [joiner_nameFull] يتصل من مكان قريب. [joiner_pronoun] مختبئ من [threat]. يريد [joiner_pronoun] الفرار من مكان اختبائه والانضمام إليك في [map_definite].[joiner_relationInfo]\n\nإذا قبلت[joiner_objective]، سينشئ [joinersEnemies] موقعاً قريباً لمضايقتك. [site/allSitePartsDescriptions]\n\nسيبقى التهديد حتى تذهب وتدمره.</li>
+    <li>questDescription->[introduction] يُدعى [joiner_nameFull] يتصل من مكان قريب. [joiner_pronoun] مختبئ من [threat]. يريد [joiner_pronoun] الفرار من مكان اختبائه والانضمام إليك في [map_definite].[joiner_relationInfo]\n\nإذا قبلتـ[joiner_objective]، سينشئ [joinersEnemies] موقعاً قريباً لمضايقتك. [site/allSitePartsDescriptions]\n\nسيبقى التهديد حتى تذهب وتدمره.</li>
     <li>introduction(childCount==1,priority=1)->طفل عمره [joiner_age] عاماً</li>
     <li>introduction->[joiner_title] عمره [joiner_age] عاماً</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] من [site/enemyFaction_name]</li>

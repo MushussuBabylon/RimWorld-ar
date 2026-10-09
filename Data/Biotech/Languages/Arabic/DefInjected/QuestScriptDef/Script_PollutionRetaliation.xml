@@ -10,12 +10,12 @@
     <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_leaderTitle] [sender_nameFull] of [sender_faction_name] claims that your reckless off-map dumping of toxic waste has harmed [sender_possessive] faction, and [sender_pronoun] believes [sender_pronoun] is honor-bound to retaliate. [sender_pronoun] is using transport pods to bombard you with toxic wastepacks.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
   -->
   <PollutionRetaliation.questContentRules.rulesStrings>
-    <li>retaliationLetterLabel->الانتقام بأكياس النفايات</li>
-    <li>retaliationLetterLabel(senderIsNull==False)->انتقام [sender_faction_pawnSingular] بأكياس النفايات</li>
-    <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->انتقام [sender_nameDef] بأكياس النفايات</li>
-    <li>retaliationLetterText(senderIsNull==True)->لم يمر إلقاؤك للنفايات السامة خارج الخريطة دون أن يلاحظه أحد. يقوم الجيران الغاضبون بالانتقام بقصف مستوطنتك بكبسولات نقل مليئة بأكياس النفايات السامة.\n\nإذا لم تُحفظ مجمدة، ستذوب أكياس النفايات السامة مع مرور الوقت، مما يلوث الأرض القريبة.</li>
-    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_leaderTitle] [sender_nameFull] من [sender_faction_name] يدعي أن إلقاءك الطائش للنفايات السامة خارج الخريطة قد أضر بفصيلته [sender_possessive]. ردًا على ذلك، يستخدم [sender_pronoun] كبسولات نقل لقصفكم بأكياس النفايات السامة.\n\nإذا لم تُحفظ مجمدة، ستذوب أكياس النفايات السامة مع مرور الوقت، مما يلوث الأرض القريبة.</li>
-    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_leaderTitle] [sender_nameFull] من [sender_faction_name] يدعي أن إلقاءك الطائش للنفايات السامة خارج الخريطة قد أضر بفصيلته [sender_possessive]، ويعتقد [sender_pronoun] أن الشرف يفرض عليه الانتقام. يستخدم [sender_pronoun] كبسولات نقل لقصفكم بأكياس النفايات السامة.\n\nإذا لم تُحفظ مجمدة، ستذوب أكياس النفايات السامة مع مرور الوقت، مما يلوث الأرض القريبة.</li>
+    <li>retaliationLetterLabel->الانتقام بحزم النفايات</li>
+    <li>retaliationLetterLabel(senderIsNull==False)->انتقام [sender_faction_pawnSingular] بحزم النفايات</li>
+    <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->انتقام [sender_nameDef] بحزم النفايات</li>
+    <li>retaliationLetterText(senderIsNull==True)->لم يمر إلقاؤك للنفايات السامة خارج الخريطة دون أن يلاحظه أحد. يقوم الجيران الغاضبون بالانتقام بقصف مستوطنتك بكبسولات نقل مليئة بحزم النفايات السامة.\n\nإذا لم تُحفظ مجمدة، ستذوب حزم النفايات السامة مع مرور الوقت، مما يلوث الأرض القريبة.</li>
+    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_leaderTitle] [sender_nameFull] من [sender_faction_name] يدعي أن إلقاءك الطائش للنفايات السامة خارج الخريطة قد أضر بفصيلتهـ[sender_possessive]. رداً على ذلك، يستخدم [sender_pronoun] كبسولات نقل لقصفكم بحزم النفايات السامة.\n\nإذا لم تُحفظ مجمدة، ستذوب حزم النفايات السامة مع مرور الوقت، مما يلوث الأرض القريبة.</li>
+    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_leaderTitle] [sender_nameFull] من [sender_faction_name] يدعي أن إلقاءك الطائش للنفايات السامة خارج الخريطة قد أضر بفصيلتهـ[sender_possessive]، ويعتقد [sender_pronoun] أن الشرف يفرض عليه الانتقام. يستخدم [sender_pronoun] كبسولات نقل لقصفكم بحزم النفايات السامة.\n\nإذا لم تُحفظ مجمدة، ستذوب حزم النفايات السامة مع مرور الوقت، مما يلوث الأرض القريبة.</li>
  </PollutionRetaliation.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->pollutionretaliation</li>

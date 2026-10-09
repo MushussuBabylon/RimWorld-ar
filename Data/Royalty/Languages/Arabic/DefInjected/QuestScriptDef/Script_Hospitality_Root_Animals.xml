@@ -82,7 +82,7 @@
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، يطلب منك. يريد منك الاعتناء بحيوانه الأليف المفضل، الـ[lodgersLabel] [lodgers0_nameDef]، في [map_definite] لمدة [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] هدية وُعد بها طفل [asker_nameDef] لمراسم زواج. لمحاولة منع الزواج، ترسل [enemyFaction_name] [enemyFaction_pawnsPlural] خلف [lodgers0_objective]. إذا قبلت [lodgers0_nameDef]، [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] هدية وُعد بها طفل [asker_nameDef] لمراسم زواج. لمحاولة منع الزواج، ترسل [enemyFaction_name] [enemyFaction_pawnsPlural] خلفـ[lodgers0_objective]. إذا قبلت [lodgers0_nameDef]، [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>

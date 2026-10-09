@@ -19,17 +19,17 @@
     <li>desc_sentence->[PAWN_pronoun] has lost [PAWN_possessive] balance.</li>
   -->
   <CollapseDodged.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] يتفادى انهيارًا</li>
+    <li>tale_noun->[PAWN_nameDef] يتفادى انهياراً</li>
     <li>tale_noun->[PAWN_nameDef] كاد أن يُسحق بأجسام متساقطة</li>
-    <li>image->[PAWN_nameFull] يقفز بعيدًا عن انهيار الأنقاض [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يقفز بعيداً عن انهيار الأنقاض [circumstance_group]</li>
     <li>image->[PAWN_nameFull] ينجو بأعجوبة من انهيار [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يتجنب سقفًا آيلًا للسقوط [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يتجنب موتًا محققًا بصخرة متساقطة [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يتجنب سقفاً آيلاً للسقوط [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يتجنب موتاً محققاً بصخرة متساقطة [circumstance_group]</li>
     <li>circumstance_phrase->الذي يختفي خلف ستار من الأنقاض والغبار</li>
     <li>circumstance_phrase->الذي يسحق كل شيء تحته</li>
     <li>circumstance_phrase->الذي يصطدم بقوة لا تصدق</li>
-    <li>desc_sentence->[PAWN_pronoun] يتصبب عرقًا من الجهد.</li>
-    <li>desc_sentence->[PAWN_pronoun] يبدو مرعوبًا.</li>
+    <li>desc_sentence->[PAWN_pronoun] يتصبب عرقاً من الجهد.</li>
+    <li>desc_sentence->[PAWN_pronoun] يبدو مرعوباً.</li>
     <li>desc_sentence->[PAWN_pronoun] مجروح وينزف.</li>
     <li>desc_sentence->[PAWN_pronoun] فقد توازنه.</li>
  </CollapseDodged.rulePack.rulesStrings>
@@ -65,20 +65,20 @@
     <li>image->[PAWN_nameFull] يُطلق نحو النجوم [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يندفع نحو السماوات [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يتسارع إلى سرعة الإفلات [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يقود صاروخًا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يقود صاروخاً [circumstance_group]</li>
     <li>circumstance_phrase->أمام [TerrainFeature]</li>
     <li>circumstance_phrase->بقوة لا تصدق</li>
     <li>circumstance_phrase->في سحابة من الغبار والصخور</li>
     <li>circumstance_phrase->بصواريخ تنطلق بشكل درامي</li>
     <li>circumstance_phrase->في إقلاع دقيق</li>
     <li>desc_sentence->[PAWN_pronoun] يركز باهتمام على أدوات التحكم.</li>
-    <li>desc_sentence->[PAWN_pronoun] مغمض العينين ويبدو واثقًا.</li>
+    <li>desc_sentence->[PAWN_pronoun] مغمض العينين ويبدو واثقاً.</li>
     <li>desc_sentence->[PAWN_pronoun] نائم، عيناه مغمضتان بسلام.</li>
     <li>desc_sentence->[PAWN_pronoun] يبتسم بفرح صارم.</li>
-    <li>desc_sentence->[PAWN_pronoun] يبدو مسيطرًا تمامًا على الموقف.</li>
+    <li>desc_sentence->[PAWN_pronoun] يبدو مسيطراً تماماً على الموقف.</li>
     <li>desc_sentence->هناك أثر لهب يلعق مؤخرة السفينة.</li>
-    <li>desc_sentence->[Animal] قريب ينظر للأعلى، مذعورًا.</li>
-    <li>desc_sentence->[Animal] يفر من الإطلاق خوفًا.</li>
+    <li>desc_sentence->[Animal] قريب ينظر للأعلى، مذعوراً.</li>
+    <li>desc_sentence->[Animal] يفر من الإطلاق خوفاً.</li>
     <li>desc_sentence->يوجد [TerrainFeature] في الخلفية.</li>
     <li>desc_sentence->[PersonJob] يراقب بصمت من بعيد.</li>
  </LaunchedShip.rulePack.rulesStrings>
@@ -128,26 +128,26 @@
     <li>image->[INITIATOR_nameFull] يعتدي على [RESPONDER_nameFull] [circumstance_group]</li>
     <li>image->[INITIATOR_nameFull] يلكم [RESPONDER_nameFull] [circumstance_group]</li>
     <li>image->[INITIATOR_nameFull] يركل [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] ينكمش خوفًا من [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] ينكمش خوفاً من [RESPONDER_nameFull] [circumstance_group]</li>
     <li>fight_name_present->يعتدي على</li>
     <li>fight_name_present->يهاجم</li>
     <li>fight_name_present->يتشاجر مع</li>
     <li>circumstance_phrase->بينما يهين [RESPONDER_nameDef] [INITIATOR_objective]</li>
-    <li>circumstance_phrase->بينما يسخر [RESPONDER_nameDef] من [INITIATOR_objective]</li>
+    <li>circumstance_phrase->بينما يسخر [RESPONDER_nameDef] منـ[INITIATOR_objective]</li>
     <li>circumstance_phrase->بينما يهدد [RESPONDER_nameDef] [INITIATOR_objective]</li>
     <li>circumstance_phrase->بينما يرهب [RESPONDER_nameDef] [INITIATOR_objective]</li>
     <li>circumstance_phrase->بينما يهاجم [RESPONDER_nameDef] [INITIATOR_objective]</li>
-    <li>circumstance_phrase->بينما يعتدي [RESPONDER_nameDef] على [INITIATOR_objective]</li>
+    <li>circumstance_phrase->بينما يعتدي [RESPONDER_nameDef] عليـ[INITIATOR_objective]</li>
     <li>circumstance_phrase->بينما يلكم [RESPONDER_nameDef] [INITIATOR_objective]</li>
     <li>circumstance_phrase->بينما يركل [RESPONDER_nameDef] [INITIATOR_objective]</li>
-    <li>circumstance_phrase->بينما ينكمش [RESPONDER_nameDef] خوفًا من [INITIATOR_objective]</li>
+    <li>circumstance_phrase->بينما ينكمش [RESPONDER_nameDef] خوفاً منـ[INITIATOR_objective]</li>
     <li>desc_sentence->[target] يبدو بلا ندم.</li>
     <li>desc_sentence->[target] مستهلك بغضب عارم.</li>
     <li>desc_sentence->[target] بلا عاطفة أو تعبير.</li>
     <li>desc_sentence->جسد [target] مغطى بـ[Gore].</li>
     <li>desc_sentence->[target] يصرخ بغضب.</li>
     <li>desc_sentence->[target] مصاب بوضوح.</li>
-    <li>desc_sentence->عينًا [target] تتوهجان بـ[Color].</li>
+    <li>desc_sentence->عيناً [target] تتوهجان بـ[Color].</li>
     <li>target->[INITIATOR_nameDef]</li>
     <li>target->[RESPONDER_nameDef]</li>
  </SocialFight.rulePack.rulesStrings>

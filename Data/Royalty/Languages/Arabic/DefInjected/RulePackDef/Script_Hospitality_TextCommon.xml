@@ -77,9 +77,9 @@
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->سيكون هناك (*Threat)غارة(/Threat) بقوة [threatSize]x وبهذا الحجم تقريباً:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->سيكون هناك (*Threat)[threatCount] غارات(/Threat) بهذا الحجم تقريباً:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->سيكون هناك (*Threat)[threatCount] غارات(/Threat) بقوة [threatSize]x وبهذا الحجم تقريباً:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)كتيبة ميكانويد(/Threat) ستنشر بالقرب.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)عنقود ميكانويدات(/Threat) ستنشر بالقرب.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)كتيبتان ميكيتان(/Threat) ستنشران بالقرب.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)كتيبة ميكانويد(/Threat) بحجم [threatSize]x ستنشر بالقرب.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)عنقود ميكانويدات(/Threat) بحجم [threatSize]x ستنشر بالقرب.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)كتيبتان ميكيتان(/Threat) بحجم [threatSize]x ستنشران بالقرب.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] [mechViolation] مؤخراً، واستهدفه سرب ميكي مداري.</li>
     <li>threatsInfoMechClustersMultiPrisoners->السجناء [mechViolation] مؤخراً، واستهدفهم سرب ميكي مداري.</li>

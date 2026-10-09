@@ -65,8 +65,8 @@
     <li>image->[PAWN_nameFull] يستلقي في الثلج [circumstance_group]</li>
     <li>circumstance_phrase->بينما يلتف في [Quantity_adjphrase] من المعاطف</li>
     <li>circumstance_phrase->بينما تخفيه عاصفة ثلجية خفيفة</li>
-    <li>circumstance_phrase->بينما يبني أصدقاء [PAWN_possessive] حصنا</li>
-    <li>circumstance_phrase->بينما يبني أصدقاء [PAWN_possessive] عائلة من رجال الثلج</li>
+    <li>circumstance_phrase->بينما يبني أصدقاء[PAWN_possessive] حصنا</li>
+    <li>circumstance_phrase->بينما يبني أصدقاء[PAWN_possessive] عائلة من رجال الثلج</li>
     <li>desc_sentence->شفق [Color] يضيء في الخلفية.</li>
     <li>desc_sentence->على البعد، يظهر [Community] مغطى بالثلوج.</li>
     <li>desc_sentence->حقل من [Vegetable]s بالكاد يبدو عبر الثلج.</li>
@@ -142,12 +142,12 @@
     <li>image->[PAWN_nameFull] يبني [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يركب [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يصقل سطح [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ينقش اسم [PAWN_possessive] على [OBJECT_label] [circumstance_group]</li>
-    <li>circumstance_phrase->ببريق في عين [PAWN_possessive]</li>
-    <li>circumstance_phrase->بينما يمسح العرق من جبين [PAWN_possessive]</li>
+    <li>image->[PAWN_nameFull] ينقش اسمـ[PAWN_possessive] على [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->ببريق في عينـ[PAWN_possessive]</li>
+    <li>circumstance_phrase->بينما يمسح العرق من جبينـ[PAWN_possessive]</li>
     <li>circumstance_phrase->بينما هو مغطى بالأوساخ</li>
     <li>circumstance_phrase->بينما يبتسم بفخر</li>
-    <li>circumstance_phrase->بتعبير رضا على وجه [PAWN_possessive]</li>
+    <li>circumstance_phrase->بتعبير رضا على وجهـ[PAWN_possessive]</li>
     <li>desc_sentence->يبدو [OBJECT_label] شامخا فوق [PAWN_nameDef].</li>
     <li>desc_sentence->يتوهج [OBJECT_label] بلون [Color] ناعم.</li>
     <li>desc_sentence->[OBJECT_label] مفصل بتعقيد.</li>
@@ -179,12 +179,12 @@
     <li>image->[PAWN_nameFull] يعمل على [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يصقل سطح [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يضيف تفاصيل سطحية إلى [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ينقش اسم [PAWN_possessive] على [OBJECT_label] [circumstance_group]</li>
-    <li>circumstance_phrase->ببريق في عين [PAWN_possessive]</li>
-    <li>circumstance_phrase->بينما يمسح العرق من جبين [PAWN_possessive]</li>
+    <li>image->[PAWN_nameFull] ينقش اسمـ[PAWN_possessive] على [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->ببريق في عينـ[PAWN_possessive]</li>
+    <li>circumstance_phrase->بينما يمسح العرق من جبينـ[PAWN_possessive]</li>
     <li>circumstance_phrase->بينما هو مغطى بالأوساخ</li>
     <li>circumstance_phrase->بينما يبتسم بفخر</li>
-    <li>circumstance_phrase->بتعبير رضا على وجه [PAWN_possessive]</li>
+    <li>circumstance_phrase->بتعبير رضا على وجهـ[PAWN_possessive]</li>
     <li>desc_sentence->يتوهج [OBJECT_label] بلون [Color] ناعم.</li>
     <li>desc_sentence->[OBJECT_label] مفصل بتعقيد.</li>
     <li>desc_sentence->[PAWN_nameDef] يرفع [OBJECT_label] كما لو كان بلا جهد.</li>
@@ -262,7 +262,7 @@
     <li>circumstance_phrase->بتعبير ضجر</li>
     <li>desc_sentence->المشهد محاط بـ[Quantity_adjphrase] من التجارب الفاشلة.</li>
     <li>desc_sentence->المشهد محاط بـ[Quantity_adjphrase] من الكتب.</li>
-    <li>desc_sentence->مهارة [PAWN_possessive] واضحة في العمل.</li>
+    <li>desc_sentence->مهارتـ[PAWN_possessive] واضحة في العمل.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يراقبون بذهول.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يراقبون بذهول.</li>
     <li>desc_sentence->[Quantity_adjphrase] من أرواح المعلمين القدامى الأثيرية تراقب من الأعلى.</li>
@@ -305,7 +305,7 @@
     <li>circumstance_phrase->بإرهاق واضح</li>
     <li>desc_sentence->الهدف محاط بنتائج [Quantity_adjphrase] من التجارب الفاشلة.</li>
     <li>desc_sentence->الهدف محاط بـ[Quantity_adjphrase] من الكتب.</li>
-    <li>desc_sentence->مهارة [PAWN_possessive] واضحة في العمل.</li>
+    <li>desc_sentence->مهارتـ[PAWN_possessive] واضحة في العمل.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يراقبون بذهول.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يراقبون بذهول.</li>
     <li>desc_sentence->[Quantity_adjphrase] من أرواح المعلمين القدامى الأثيرية تراقب من الأعلى.</li>
@@ -371,13 +371,13 @@
     <li>image->[PAWN_nameFull] يجلس تحت شجرة [TreeType]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يجلس بهدوء، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يحدق في الأفق و[circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يغلق عيني [PAWN_possessive] و[circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يغلق عينيـ[PAWN_possessive] و[circumstance_group]</li>
     <li>circumstance_phrase->يشع سكينة</li>
     <li>circumstance_phrase->بابتسامة هادئة</li>
     <li>circumstance_phrase->بابتسامة [VerbFriendly]</li>
     <li>circumstance_phrase->يتوهج بلطف</li>
     <li>circumstance_phrase->محاط بهالة [Color]</li>
-    <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يحدقون في [PAWN_objective].</li>
+    <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يحدقون فيـ[PAWN_objective].</li>
     <li>desc_sentence->[PAWN_pronoun] محاط بـ[Quantity_adjphrase] من [Animal]s.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s تستريح بسلام.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s مذهولون بالمشهد.</li>
@@ -407,7 +407,7 @@
   <MinedValuable.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] ينقب عن عرق غني من [MATERIAL_label]</li>
     <li>image->[PAWN_nameFull] يعمل على جدار [MATERIAL_label] بأدوات التعدين، [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يحمل قطعة من [MATERIAL_label]، [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يحمل كتلة من [MATERIAL_label]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يستريح متكئا على جدار [MATERIAL_label]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] ينسق فريق حفر لاستخراج عرق غني من [MATERIAL_label]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يتفحص بعناية عرقا غنيا من [MATERIAL_label]، [circumstance_group]</li>
@@ -415,7 +415,7 @@
     <li>circumstance_phrase->مرتديا تعبيرا [AdjectiveFriendly]</li>
     <li>circumstance_phrase->مرتديا تعبيرا [AdjectiveFriendly]</li>
     <li>circumstance_phrase->يبتسم بفخر</li>
-    <li>circumstance_phrase->تعبير رضا على وجه [PAWN_possessive]</li>
+    <li>circumstance_phrase->تعبير رضا على وجهـ[PAWN_possessive]</li>
     <li>desc_sentence->[Quantity_adjphrase] من [ally]s يساعدون.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s تتجول في المنطقة.</li>
     <li>desc_sentence->يوجد [Community] في الخلفية.</li>
@@ -462,9 +462,9 @@
     <li>image->[PAWN_nameFull] يفوز في [OBJECT_label]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يخسر في [OBJECT_label]، [circumstance_group]</li>
     <li>circumstance_phrase->متوتر ومنفعل</li>
-    <li>circumstance_phrase->جسد [PAWN_possessive] مرتخ ومسترخ</li>
-    <li>circumstance_phrase->يخطط لخطوة [PAWN_possessive] التالية</li>
-    <li>circumstance_phrase->يدلك معصمي [PAWN_possessive] بلطف</li>
+    <li>circumstance_phrase->جسد[PAWN_possessive] مرتخ ومسترخ</li>
+    <li>circumstance_phrase->يخطط لخطوتـ[PAWN_possessive] التالية</li>
+    <li>circumstance_phrase->يدلك معصميـ[PAWN_possessive] بلطف</li>
     <li>circumstance_phrase->[angstyverb] بتعبير [AdjectiveAngsty]</li>
     <li>circumstance_phrase->مرتديا نظرة [AdjectiveAngsty]</li>
     <li>circumstance_phrase->[angstyverb]</li>
@@ -502,15 +502,15 @@
     <li>tale_noun->[PAWN_nameDef] يصلي</li>
     <li>tale_noun->[PAWN_nameDef] يصلي لقوة عليا</li>
     <li>image->[PAWN_nameFull] يحدق في الأفق و[circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يغلق عيني [PAWN_possessive] و[circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يشبك يدي [PAWN_possessive] و[circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يغلق عينيـ[PAWN_possessive] و[circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يشبك يديـ[PAWN_possessive] و[circumstance_group]</li>
     <li>image->[PAWN_nameFull] ينظر إلى السماء و[circumstance_group]</li>
     <li>circumstance_phrase->يشع سكينة</li>
     <li>circumstance_phrase->يهمس بهدوء</li>
     <li>circumstance_phrase->مرتديا تعبيرا مفعما بالأمل</li>
     <li>circumstance_phrase->يتوهج بلطف</li>
     <li>circumstance_phrase->محاط بهالة [Color]</li>
-    <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يحدقون في [PAWN_objective].</li>
+    <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يحدقون فيـ[PAWN_objective].</li>
     <li>desc_sentence->[PAWN_pronoun] محاط بـ[Quantity_adjphrase] من [Animal]s.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s تستريح بسلام.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s مذهولون بالمشهد.</li>
@@ -577,7 +577,7 @@
     <li>image->[TAKER_nameFull] ينزع ملابس [STRIPPED_nameFull] علنا [circumstance_group]</li>
     <li>image->[TAKER_nameFull] يزيل ملابس [STRIPPED_nameFull] [circumstance_group]</li>
     <li>image->[TAKER_nameFull] يحمل حفنة من [Apparel]s بينما يقف بجانب [STRIPPED_nameFull]، العاري تماما [circumstance_group]</li>
-    <li>image->[TAKER_nameFull] ينتظر بصبر بينما يخلع [STRIPPED_nameFull] ملابس [STRIPPED_possessive] [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] ينتظر بصبر بينما يخلع [STRIPPED_nameFull] ملابسـ[STRIPPED_possessive] [circumstance_group]</li>
     <li>circumstance_phrase->بإحساس بالهدف</li>
     <li>circumstance_phrase->دون أي أثر للخجل</li>
     <li>circumstance_phrase->بينما يراقب الآخرون</li>

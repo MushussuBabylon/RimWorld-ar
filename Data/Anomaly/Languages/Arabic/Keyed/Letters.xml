@@ -105,7 +105,7 @@
   <SummonFleshbeastsPlayerCompleteText>أنهى {0_nameDef} أداء طقس {RITUAL_definite}. وحوش اللحم تنبثق من الأرض!</SummonFleshbeastsPlayerCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
-  <GhoulInfusionCompleteText>أنهى {INVOKER_nameDef} ضخ {TARGET_nameDef} بالبيوفيرايت. شوه الطقس عقل {TARGET_nameDef} وطفّر جسد{TARGET_possessive}، مكوّناً مخلوقاً مرعباً يُعرف بالغول. يتشارك {INVOKER_nameDef} رابطاً نفسياً مع {TARGET_nameDef}، مما يسمح لـ{INVOKER_objective} بالتحكم بـ {TARGET_nameDef}.\n\nتتغذى الغيلان على اللحم النيء للبقاء. إذا جاعت، قد تصبح معادية.</GhoulInfusionCompleteText>
+  <GhoulInfusionCompleteText>أنهى {INVOKER_nameDef} ضخ {TARGET_nameDef} بالبايوفيرايت. شوه الطقس عقل {TARGET_nameDef} وطفّر جسد{TARGET_possessive}، مكوّناً مخلوقاً مرعباً يُعرف بالغول. يتشارك {INVOKER_nameDef} رابطاً نفسياً مع {TARGET_nameDef}، مما يسمح لـ{INVOKER_objective} بالتحكم بـ {TARGET_nameDef}.\n\nتتغذى الغيلان على اللحم النيء للبقاء. إذا جاعت، قد تصبح معادية.</GhoulInfusionCompleteText>
   
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
   <AttackersMayCastRitualMultipleTimes>قد يؤدون الطقس عدة مرات. عليك الذهاب وإيقافهم.</AttackersMayCastRitualMultipleTimes>
@@ -150,7 +150,7 @@
   <!-- EN: Embrace the void -->
   <VoidAwakeningBreadcrumbLetterLabel>احتضن الفراغ</VoidAwakeningBreadcrumbLetterLabel>
   <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
-  <VoidAwakeningBreadcrumbLetterText>أثناء تفاعل {PAWN_nameDef} مع هيكل الفراغ، شهد رؤيا للفراغ. للحظة، سبح {PAWN_pronoun} في المحيط الأسود اللامتناهي العمق وشعر بقوته اللامحدودة غير البشرية.\n\nيعتقد {PAWN_nameDef} أنه قد تكون هناك طريقة للتحكم بتلك القوة عبر احتضان الفراغ. إذا ما فُتحت القناة إلى الفراغ بشكل دائم، بدلاً من إغلاقها، فقد يتيح ذلك إمكانيات لا حصر لها.</VoidAwakeningBreadcrumbLetterText>
+  <VoidAwakeningBreadcrumbLetterText>أثناء تفاعل {PAWN_nameDef} مع بنية الفراغ، شهد رؤيا للفراغ. للحظة، سبح {PAWN_pronoun} في المحيط الأسود اللامتناهي العمق وشعر بقوته اللامحدودة غير البشرية.\n\nيعتقد {PAWN_nameDef} أنه قد تكون هناك طريقة للتحكم بتلك القوة عبر احتضان الفراغ. إذا ما فُتحت القناة إلى الفراغ بشكل دائم، بدلاً من إغلاقها، فقد يتيح ذلك إمكانيات لا حصر لها.</VoidAwakeningBreadcrumbLetterText>
 
   <!-- Void node -->
   <!-- EN: {PAWN_nameDef} returns -->
@@ -287,8 +287,8 @@
   <!-- EN: Void curiosity -->
   <VoidCuriosityLabel>فضول الفراغ</VoidCuriosityLabel>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
-  <VoidCuriosityText_Researched>بدأ {PAWN_nameDef} بالتركيز على الفراغ، ويرغب في استقصائه باستخدام طقس استفزاز الفراغ.\n\nاستخدم طقس استفزاز الفراغ لاكتشاف وأسر الكيانات. الكيانات المأسورة يمكن دراستها لإكمال مشاريع بحث الشذوذ، أو توصيلها بحاصدة البيوفيرايت لتوليد البيوفيرايت.\n\nضع مكان طقس نفسي لأداء طقس استفزاز الفراغ.</VoidCuriosityText_Researched>
+  <VoidCuriosityText_Researched>بدأ {PAWN_nameDef} بالتركيز على الفراغ، ويرغب في استقصائه باستخدام طقس استفزاز الفراغ.\n\nاستخدم طقس استفزاز الفراغ لاكتشاف وأسر الكيانات. الكيانات المأسورة يمكن دراستها لإكمال مشاريع بحث الشذوذ، أو توصيلها بحاصدة البايوفيرايت لتوليد البايوفيرايت.\n\nضع مكان طقس نفسي لأداء طقس استفزاز الفراغ.</VoidCuriosityText_Researched>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
-  <VoidCuriosityText_NotResearched>بدأ {PAWN_nameDef} بالتركيز على الفراغ، ويرغب في استقصائه باستخدام طقس استفزاز الفراغ.\n\nاستخدم طقس استفزاز الفراغ لاكتشاف وأسر الكيانات. الكيانات المأسورة يمكن دراستها لإكمال مشاريع بحث الشذوذ، أو توصيلها بحاصدة البيوفيرايت لتوليد البيوفيرايت.\n\nابحث عن استفزاز الفراغ، ثم ضع مكان طقس نفسي لأداء الطقس.</VoidCuriosityText_NotResearched>
+  <VoidCuriosityText_NotResearched>بدأ {PAWN_nameDef} بالتركيز على الفراغ، ويرغب في استقصائه باستخدام طقس استفزاز الفراغ.\n\nاستخدم طقس استفزاز الفراغ لاكتشاف وأسر الكيانات. الكيانات المأسورة يمكن دراستها لإكمال مشاريع بحث الشذوذ، أو توصيلها بحاصدة البايوفيرايت لتوليد البايوفيرايت.\n\nابحث عن استفزاز الفراغ، ثم ضع مكان طقس نفسي لأداء الطقس.</VoidCuriosityText_NotResearched>
 
 </LanguageData>

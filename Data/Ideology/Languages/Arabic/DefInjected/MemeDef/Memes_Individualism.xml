@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: collectivist -->
-  <Collectivist.label>جماعي</Collectivist.label>
+  <Collectivist.label>الجماعية</Collectivist.label>
   <!-- EN: Each person is part of a greater whole. People should work to play their part and help the group. -->
   <Collectivist.description>كل شخص جزء من كل أعظم. على الناس أن يعملوا لأداء دورهم ومساعدة المجموعة.</Collectivist.description>
   <!-- EN:
@@ -27,7 +27,7 @@
     <li>episode(uses=1,tag=meme_Collectivist)  ->قال [deity0_name] للجميع: "لا أحد منكم فوق الكل. اعملوا معاً أو اهلكوا معاً."</li>
     <li>intro(tag=meme_Collectivist)           ->عمل أهل [place_summary] [place_name] معاً في وئام، وبنوا [altarName] عظيماً لتكريم [deity0_name]، الذي علمهم القيمة الحقيقية لـ[memeConcept].</li>
     <li>conflict(tag=meme_Collectivist)        ->لم يستطع [foeLeader] تحمل عائلة [memberNamePlural]، وأرسل [foeSoldiers] [foeLeader_possessive] إلى [place_community] ليفرقهم ضد بعضهم.</li>
-    <li>founderJoin(tag=meme_Collectivist)     ->ألقى [place_job] يُدعى [founderName] [founder_objective]نفس[founder_objective] في النار احتجاجاً على [foeLeader]، لكن [memberNamePlural] أخرجوه وجعلوه قائدهم بسبب تفاني[founder_possessive] للمجموعة.</li>
+    <li>founderJoin(tag=meme_Collectivist)     ->ألقى [place_job] يُدعى [founderName] [founder_objective]نفسـ[founder_objective] في النار احتجاجاً على [foeLeader]، لكن [memberNamePlural] أخرجوه وجعلوه قائدهم بسبب تفانيـ[founder_possessive] للمجموعة.</li>
     <li>victory(tag=meme_Collectivist)         ->وحدت أفعال [founderName] الناس. ساروا في خطوات متلاحقة نحو موطن [foeLeader]. أولئك في المقدمة سمحوا لأنفسهم بأن يقتلهم [foeSoldiers]، لكن الكل لم يمكن إيقافه، وأسروا [foeLeader].</li>
     <li>setup(tag=meme_Collectivist)           ->في عالم كل امرئ فيه لنفسه، بدأ [founderName] عائلة جديدة من الغرباء، جامعاً العديد من الناس معاً.</li>
     <li>story(uses=1,tag=meme_Collectivist)    ->حاول بعض المؤمنين الزائفين كسر القواعد وتقرير طرقهم الخاصة. عاقبهم [founderName] بشدة.</li>
@@ -97,7 +97,7 @@
   <Collectivist.symbolPacks.3.theme>الواحدانية</Collectivist.symbolPacks.3.theme>
   
   <!-- EN: individualist -->
-  <Individualist.label>فردي</Individualist.label>
+  <Individualist.label>الفردية</Individualist.label>
   <!-- EN: Each person is a free individual with the right to their own ideas and decisions. Nobody should be made to conform. -->
   <Individualist.description>كل شخص هو فرد حر له الحق في أفكاره وقراراته. لا يجب إجبار أحد على الامتثال.</Individualist.description>
   <!-- EN:

@@ -10,8 +10,8 @@
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull]، [asker_faction_leaderTitle] [asker_faction_name]، يريد منك المساعدة في إنقاذ إحدى قوافل[asker_possessive]. القافلة تتعرض للمطاردة قرب [map_definite] من قبل (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) من [enemyFaction_name]. يريد [asker_nameDef] منك إرسال إشارة إلى [enemyFaction_pawnsPlural] لجذبهم بعيداً عن القافلة - ونحوك.[endingCommon]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], يطلب منك معروفاً.\n\n(*Threat)[groupsOf](/Threat) من [enemyFaction_name] كانوا يضايقون قوافل[asker_possessive] في المنطقة. يطلب [asker_nameDef] أن ترسل لهم رسالة تحدي، تجذبهم للهجوم وتقضي على التهديد بنفسك.[endingCommon]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull]، [asker_faction_leaderTitle] [asker_faction_name]، يريد منك المساعدة في إنقاذ إحدى قوافلـ[asker_possessive]. القافلة تتعرض للمطاردة قرب [map_definite] من قبل (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) من [enemyFaction_name]. يريد [asker_nameDef] منك إرسال إشارة إلى [enemyFaction_pawnsPlural] لجذبهم بعيداً عن القافلة - ونحوك.[endingCommon]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], يطلب منك معروفاً.\n\n(*Threat)[groupsOf](/Threat) من [enemyFaction_name] كانوا يضايقون قوافلـ[asker_possessive] في المنطقة. يطلب [asker_nameDef] أن ترسل لهم رسالة تحدي، تجذبهم للهجوم وتقضي على التهديد بنفسك.[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
     <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nإذا قبلت، سيصل [enemyFaction_pawnsPlural] خلال [firstRaidDelayTicks_duration].</li>

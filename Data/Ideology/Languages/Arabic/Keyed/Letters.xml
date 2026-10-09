@@ -142,17 +142,17 @@
 
   <!-- Hacked -->
   <!-- EN: You've finished hacking the {0} and learned more about the ancient {1} relic. -->
-  <LetterTextSpacedroneHacked>لقد انتهيت من اختراق {0} وعرفت المزيد عن الأثر القديم {1}.</LetterTextSpacedroneHacked>
+  <LetterTextSpacedroneHacked>لقد انتهيت من اختراق {0} وعرفت المزيد عن الأثر المقدس القديم {1}.</LetterTextSpacedroneHacked>
 
   <!-- Relic destroyed -->
   <!-- EN: Relic destroyed -->
-  <LetterLabelRelicDestroyed>تم تدمير الأثر</LetterLabelRelicDestroyed>
+  <LetterLabelRelicDestroyed>تم تدمير الأثر المقدس</LetterLabelRelicDestroyed>
   <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
   <LetterTextRelicDestroyed>تم تدمير {0}!\n\nسيعاني الأشخاص التاليون من انخفاض في المزاج:\n{1}</LetterTextRelicDestroyed>
   
   <!-- Relic lost -->
   <!-- EN: Relic lost -->
-  <LetterLabelRelicLost>فُقد الأثر</LetterLabelRelicLost>
+  <LetterLabelRelicLost>فُقد الأثر المقدس</LetterLabelRelicLost>
   <!-- EN: {0} has been lost!\n\nThe following people will suffer a mood reduction:\n{1} -->
   <LetterTextRelicLost>فُقد {0}!\n\nسيعاني الأشخاص التاليون من انخفاض في المزاج:\n{1}</LetterTextRelicLost>
 
@@ -168,29 +168,29 @@
 
   <!-- Relic hunt -->
   <!-- EN: Relic found -->
-  <LetterLabelRelicFound>تم العثور على الأثر</LetterLabelRelicFound>
+  <LetterLabelRelicFound>تم العثور على الأثر المقدس</LetterLabelRelicFound>
   <!-- EN: You've finally learned the location of the relic {0}! -->
-  <LetterTextRelicFoundLocation>عُثر أخيراً على موقع الأثر {0}!</LetterTextRelicFoundLocation>
+  <LetterTextRelicFoundLocation>عُثر أخيراً على موقع الأثر المقدس {0}!</LetterTextRelicFoundLocation>
   <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
-  <LetterTextRelicFoundSecurityThreats>الأثر موجود في مجمع قديم. إنه محمي بنظام أمني بوحدات مستقلة متعددة. يمكنك اختيار هزيمة قوات الأمن وحدة تلو الأخرى قبل أخذ الأثر، أو محاولة الإمساك به والفرار قبل أن يتمكنوا من إيذائك.\n\nبعد {0}، ستُفعَّل جميع أنظمة الأمان.</LetterTextRelicFoundSecurityThreats>
+  <LetterTextRelicFoundSecurityThreats>الأثر المقدس موجود في مجمع قديم. إنه محمي بنظام أمني بوحدات مستقلة متعددة. يمكنك اختيار هزيمة قوات الأمن وحدة تلو الأخرى قبل أخذ الأثر المقدس، أو محاولة الإمساك به والفرار قبل أن يتمكنوا من إيذائك.\n\nبعد {0}، ستُفعَّل جميع أنظمة الأمان.</LetterTextRelicFoundSecurityThreats>
 
   <!-- Relics collection -->
   <!-- EN: Relics collected -->
-  <LetterLabelRelicsCollected>تم جمع الآثار</LetterLabelRelicsCollected>
+  <LetterLabelRelicsCollected>تم جمع الآثار المقدسة</LetterLabelRelicsCollected>
   <!-- EN: All relics belonging to {0} have been collected. The following people will be delighted -->
-  <LetterTextRelicsCollected>تم جمع جميع الآثار التابعة لـ {0}. سيكون الأشخاص التاليون مسرورين.</LetterTextRelicsCollected>
+  <LetterTextRelicsCollected>تم جمع جميع الآثار المقدسة التابعة لـ {0}. سيكون الأشخاص التاليون مسرورين.</LetterTextRelicsCollected>
   <!-- EN: You have collected all the known relics of this world. The following people will be delighted -->
-  <LetterTextRelicsCollectedClassic>لقد جمعت جميع الآثار المعروفة لهذا العالم. سيكون الأشخاص التاليون مسرورين.</LetterTextRelicsCollectedClassic>
+  <LetterTextRelicsCollectedClassic>لقد جمعت جميع الآثار المقدسة المعروفة لهذا العالم. سيكون الأشخاص التاليون مسرورين.</LetterTextRelicsCollectedClassic>
 
   <!-- Gauranlen tree connection -->
   <!-- EN: {TREE_label} connection -->
   <LetterLabelPawnConnected>اتصال {TREE_label}</LetterLabelPawnConnected>
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
-  <LetterTextPawnConnected>اتصل {CONNECTOR_nameDef} مع {TREE_definite}.\n\nستنتج {TREE_definite} حيوانات صغيرة تسمى درياد بتنميتها في قرون عند قاعدتها. يمكن لهذه الدرياد أن تتخصص في طوائف مختلفة. يمكنك اختيار أي طائفة من الدرياد تريد للشجرة أن تنتجها.\n\nكلما كانت العلاقة بين الشجرة والإنسان أقوى، زاد عدد الدرياد التي تستطيع {TREE_definite} دعمها. يمكن لـ {CONNECTOR_nameDef} تقوية العلاقة بتقليم {TREE_definite}. الحفاظ على قوة اتصال أعلى يتطلب تقليماً أكثر تكراراً.</LetterTextPawnConnected>
+  <LetterTextPawnConnected>اتصل {CONNECTOR_nameDef} مع {TREE_definite}.\n\nستنتج {TREE_definite} حيوانات صغيرة تسمى درايد بتنميتها في أجربة عند قاعدتها. يمكن لهذه الدرايد أن تتخصص في طوائف مختلفة. يمكنك اختيار أي طائفة من الدرايد تريد للشجرة أن تنتجها.\n\nكلما كانت العلاقة بين الشجرة والإنسان أقوى، زاد عدد الدرايد التي تستطيع {TREE_definite} دعمها. يمكن لـ {CONNECTOR_nameDef} تقوية العلاقة بتقليم {TREE_definite}. الحفاظ على قوة اتصال أعلى يتطلب تقليماً أكثر تكراراً.</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->
   <LetterLabelConnectedTreeDestroyed>تدمير {TREE_label} المتصلة</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
-  <LetterTextConnectedTreeDestroyed>تم تدمير {TREE_label} المتصلة بـ {CONNECTEDPAWN_nameDef}، مما أدى إلى مقتل ملكة الدرياد الموجودة بداخلها.\n\nبدون الملكة، انهار العقل الجماعي للدرياد. ماتت جميع الدرياد من تلك الشجرة.</LetterTextConnectedTreeDestroyed>
+  <LetterTextConnectedTreeDestroyed>تم تدمير {TREE_label} المتصلة بـ {CONNECTEDPAWN_nameDef}، مما أدى إلى مقتل ملكة الدرايد الموجودة بداخلها.\n\nبدون الملكة، انهار العقل الجماعي للدرايد. ماتت جميع الدرايد من تلك الشجرة.</LetterTextConnectedTreeDestroyed>
 
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->
@@ -210,6 +210,6 @@
   <!-- EN: Reform ideoligion -->
   <LetterLabelReformIdeo>تعديل العقيدة</LetterLabelReformIdeo>
   <!-- EN: You have enough development points to reform {0}!\n\nReforming allows you to do one of the following:\n\n- Add a meme\n- Remove a meme\n- Change structure\n- Change style\n\nYou can also make unlimited changes to precepts, deities, narrative text, and other symbols.\n\nTo reform the ideoligion, open it in the ideoligions tab. -->
-  <LetterTextReformIdeo>لديك نقاط تطوير كافية لتعديل {0}!\n\nيسمح لك التعديل بالقيام بأحد الأمور التالية:\n\n- إضافة مبدأ\n- إزالة مبدأ\n- تغيير الهيكل\n- تغيير الأسلوب\n\nيمكنك أيضاً إجراء تغييرات غير محدودة على الوصايا والآلهة والنص السردي والرموز الأخرى.\n\nلتعديل العقيدة، افتحها في علامة تبويب العقائد.</LetterTextReformIdeo>
+  <LetterTextReformIdeo>لديك نقاط تطوير كافية لتعديل {0}!\n\nيسمح لك التعديل بالقيام بأحد الأمور التالية:\n\n- إضافة مبدأ\n- إزالة مبدأ\n- تغيير الهيكل\n- تغيير النمط\n\nيمكنك أيضاً إجراء تغييرات غير محدودة على الوصايا والآلهة والنص السردي والرموز الأخرى.\n\nلتعديل العقيدة، افتحها في علامة تبويب العقائد.</LetterTextReformIdeo>
 
 </LanguageData>

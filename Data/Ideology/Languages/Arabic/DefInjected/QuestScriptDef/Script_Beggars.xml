@@ -76,12 +76,12 @@
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] يتوسل [beggingForInfo]</li>
     <li>requestInfo(beggarCount>=2)->ال[groupLabelPlural] يتوسلون [beggingForInfo]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] يريد الفضة ليسدد ديناً لعصابة من القراصنة يطاردونه</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] يريد الفضة للمساعدة في شراء حرية [beggars0_possessive] الأخت الكبرى التي استعبدها القراصنة</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] يريد الفضة للمساعدة في شراء حريتـ[beggars0_possessive] الأخت الكبرى التي استعبدها القراصنة</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] يحتاج الدواء لمساعدة مسافر مصاب في مكان قريب</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] يحتاج الدواء لمساعدة [beggars0_possessive] الأخ الرضيع المصاب في مكان قريب</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] يريد الدواء لإنقاذ [beggars0_possessive] الحيوان الأليف الوفي الذي أصيب على الطريق</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] يحتاج الدواء لمساعدتـ[beggars0_possessive] الأخ الرضيع المصاب في مكان قريب</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] يريد الدواء لإنقاذ[beggars0_possessive] الحيوان الأليف الوفي الذي أصيب على الطريق</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] يحتاج [requestedThing_label] لتطعيم صديق مريض ضد الأمراض القاتلة</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] يريدها لإغراق [beggars0_possessive] أحزانه بعد فقدان رفيق سفر في حادث مروع</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] يريدها لإغراقـ[beggars0_possessive] أحزانه بعد فقدان رفيق سفر في حادث مروع</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef] يريد [requestedThing_label] للمساعدة في تخفيف معاناة عم مريض بشدة</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->يريدون الفضة ليتمكنوا من فداء صديق اختطف مؤخراً</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->يحتاجون الدواء لمحاولة إجراء عملية منقذة للحياة لرفيق سفر هاجمته الميكانويدات</li>

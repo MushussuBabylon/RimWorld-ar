@@ -26,7 +26,7 @@
   <MarriageProposal.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] طلب الزواج من [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] عرض التزاماً مدى الحياة على [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] أخبر [RECIPIENT_nameDef] أنه يريد قضاء حياته مع [RECIPIENT_objective].</li>
+    <li>r_logentry->[INITIATOR_nameDef] أخبر [RECIPIENT_nameDef] أنه يريد قضاء حياته معـ[RECIPIENT_objective].</li>
  </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
@@ -104,14 +104,14 @@
     <li>wooed->لاحق</li>
     <li>wooed->سحر</li>
     <li>wooed->تودد إلى</li>
-    <li>wootactic(p=4)->[complimenting] [PersonalCharacteristic] الخاصة بـ [RECIPIENT_possessive]</li>
+    <li>wootactic(p=4)->[complimenting] [PersonalCharacteristic] الخاصة بـ[RECIPIENT_possessive]</li>
     <li>wootactic->بإخبار قصة عن [TalkTopicAny]</li>
     <li>wootactic->برواية حكاية عن [TalkTopicAny]</li>
     <li>wootactic->بالمزاح حول [TalkTopicAny]</li>
     <li>wootactic->بإبداء ملاحظة عن [TalkTopicAny]</li>
-    <li>wootactic(p=2)->[boasting] [PersonalCharacteristic] الخاصة بـ [INITIATOR_possessive]</li>
-    <li>wootactic->بمقارنة [RECIPIENT_objective] بـ [romantic_adj] [romantic_noun]</li>
-    <li>wootactic->بوصف [RECIPIENT_objective] كـ [romantic_adj] [romantic_noun]</li>
+    <li>wootactic(p=2)->[boasting] [PersonalCharacteristic] الخاصة بـ[INITIATOR_possessive]</li>
+    <li>wootactic->بمقارنتـ[RECIPIENT_objective] بـ [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->بوصفـ[RECIPIENT_objective] كـ [romantic_adj] [romantic_noun]</li>
     <li>boasting->متفاخراً بـ</li>
     <li>boasting->مشيراً إلى</li>
     <li>boasting->ملوحاً بأشياء جيدة عن</li>

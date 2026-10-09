@@ -43,7 +43,7 @@
   -->
   <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->قبطان سفينة في المدار يريد منك حراسة سجين يُدعى [lodgers0_nameFull] في [map_definite] لمدة [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
-    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nبصق [lodgers0_nameDef] مؤخراً على أكثر أطفال [enemyFaction_leader_nameFull] المحبوبين، [enemyFaction_leaderTitle] [enemyFaction_name]. سيرسل [enemyFaction_leader_nameDef] [enemyFaction_pawnsPlural] للانتقام من أي شخص يحمي [lodgers0_objective]. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nبصق [lodgers0_nameDef] مؤخراً على أكثر أطفال [enemyFaction_leader_nameFull] المحبوبين، [enemyFaction_leaderTitle] [enemyFaction_name]. سيرسل [enemyFaction_leader_nameDef] [enemyFaction_pawnsPlural] للانتقام من أي شخص يحميـ[lodgers0_objective]. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>

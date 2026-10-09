@@ -9,7 +9,7 @@
     <li>underArmedGuard-></li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
-    <li>questDescription->تمكن سجين محتجز لدى [siteFaction_name] من سرقة جهاز راديو والاتصال بك!\n\n[prisoner_nameDef] محتجز في معسكر بالقرب من [map_definite][underArmedGuard]. أنقذ [prisoner_objective]، وسينضم [prisoner_pronoun] إلى مستعمرتك. [prisoner_pronoun] هو [prisoner_title] عمره [prisoner_age] سنة. يقول [prisoner_pronoun] إن [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nإذا فاتتك هذه الفرصة، فقد لا تسمع من [prisoner_nameDef] مرة أخرى.</li>
+    <li>questDescription->تمكن سجين محتجز لدى [siteFaction_name] من سرقة جهاز راديو والاتصال بك!\n\n[prisoner_nameDef] محتجز في معسكر بالقرب من [map_definite][underArmedGuard]. أنقذ[prisoner_objective]، وسينضم [prisoner_pronoun] إلى مستعمرتك. [prisoner_pronoun] هو [prisoner_title] عمره [prisoner_age] سنة. يقول [prisoner_pronoun] إن [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nإذا فاتتك هذه الفرصة، فقد لا تسمع من [prisoner_nameDef] مرة أخرى.</li>
     <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
     <li>formerColonistInfo-></li>
     <li>underArmedGuard(allowViolentQuests==true,priority=1)-> تحت حراسة مسلحة</li>

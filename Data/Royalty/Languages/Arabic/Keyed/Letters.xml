@@ -8,7 +8,7 @@
   <LetterLabelGainedRoyalTitle>اكتساب لقب {TITLE}: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
   <!-- EN: Permit points awarded: {0}. -->
-  <PermitPointsAwarded>نقاط الإذن الممنوحة: {0}.</PermitPointsAwarded>
+  <PermitPointsAwarded>نقاط التصريح الممنوحة: {0}.</PermitPointsAwarded>
 
   <!-- EN: This title requires apparel of {1} quality or better. -->
   <LetterRoyalTitleApparelQualityRequirement>يتطلب هذا اللقب ملابس بجودة {1} أو أفضل.</LetterRoyalTitleApparelQualityRequirement>
@@ -47,9 +47,9 @@
   <LetterRoyalTitleDisabledJoyKind>يمنع هذا اللقب استخدام هذا الترفيه:</LetterRoyalTitleDisabledJoyKind>
 
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
-  <LetterRoyalTitleAllowedImplants>مسموح لـ{PAWN_pronoun} استخدام هذه الزرعات:{1}</LetterRoyalTitleAllowedImplants>
+  <LetterRoyalTitleAllowedImplants>مسموح لـ{PAWN_objective} استخدام هذه الزرعات:{1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
-  <LetterRoyalTitleImplantsMustBeRemoved>لم يعد مسموحاً لـ{PAWN_pronoun} استخدام هذه الزرعات:{1}</LetterRoyalTitleImplantsMustBeRemoved>
+  <LetterRoyalTitleImplantsMustBeRemoved>لم يعد مسموحاً لـ{PAWN_objective} استخدام هذه الزرعات:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>يجب استخراج الزرعات خلال فترة سماح مدتها خمسة أيام لتجنب عواقب دبلوماسية.</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
@@ -93,7 +93,7 @@
   <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
   <LetterTitleInheritance_WasInherited>سيرث {HEIR_nameFull} لقبـ{PAWN_possessive} {TITLE} عند اكتمال حفل المنح، وفقاً لقوانين الخلافة في {FACTION_name}.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
-  <LetterTitleInheritance_NoHeirFound>لم يرث أحد لقبـ{PAWN_possessive} {TITLE}، إذ لم يكن لـ{PAWN_pronoun} وريث معين لهذا اللقب.</LetterTitleInheritance_NoHeirFound>
+  <LetterTitleInheritance_NoHeirFound>لم يرث أحد لقبـ{PAWN_possessive} {TITLE}، إذ لم يكن لـ{PAWN_objective} وريث معين لهذا اللقب.</LetterTitleInheritance_NoHeirFound>
 
   <!-- Royal implant violations -->
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
@@ -123,13 +123,13 @@
 
   <!-- Psylink -->
   <!-- EN: Psylink gained -->
-  <LetterLabelPsylinkLevelGained>اكتساب رابط نفسي</LetterLabelPsylinkLevelGained>
+  <LetterLabelPsylinkLevelGained>اكتساب وصلة نفسية</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>اكتسب {USER_labelShort} المستوى الأول من الرابط النفسي! أصبح {USER_pronoun} الآن مستخدم قدرات نفسية.\n\nلاستخدام القوى النفسية، ينبغي على {USER_labelShort} بناء تركيز نفسي عبر التأمل. يزداد أثر التأمل إن استطاع الشخص التركيز على غرض محدد أثناء التأمل.\n\nيستطيع الأشخاص التركيز على أغراض مختلفة حسب قصصهم الخلفية وسماتهم وألقابهم. على سبيل المثال:\n\n- مستخدمو القدرات النفسية ذوو الألقاب الملكية يتأملون على عروشهم.\n- ذوو النشأة القبلية يتأملون عند أشجار الأنيما والأضرحة الطبيعية.\n- الزاهدون يتأملون تجاه الجدران الفارغة.\n- المعتلون نفسياً يتأملون عند القبور، ويفضل أن يكون بداخلها شخص عزيز.\n\nيمكنك الاطلاع على أنواع تركيز التأمل لأي شخص بفتح بطاقة معلوماته عبر الزر 'i'.</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>اكتسب {USER_labelShort} المستوى الأول من الوصلة النفسية! أصبح {USER_pronoun} الآن مستخدم قدرات نفسية.\n\nلاستخدام القوى النفسية، ينبغي على {USER_labelShort} بناء تركيز نفسي عبر التأمل. يزداد أثر التأمل إن استطاع الشخص التركيز على غرض محدد أثناء التأمل.\n\nيستطيع الأشخاص التركيز على أغراض مختلفة حسب قصصهم الخلفية وسماتهم وألقابهم. على سبيل المثال:\n\n- مستخدمو القدرات النفسية ذوو الألقاب الملكية يتأملون على عروشهم.\n- ذوو النشأة القبلية يتأملون عند أشجار الأنيما والأضرحة الطبيعية.\n- الزاهدون يتأملون تجاه الجدران الفارغة.\n- المعتلون نفسياً يتأملون عند القبور، ويفضل أن يكون بداخلها شخص عزيز.\n\nيمكنك الاطلاع على أنواع تركيز التأمل لأي شخص بفتح بطاقة معلوماته عبر الزر 'i'.</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>اكتسب {USER_labelShort} مستوى جديداً من الرابط النفسي! أصبح بمقدور {USER_pronoun} الآن استخدام قوى نفسية من ذلك المستوى الأعلى، لكن على {USER_pronoun} تعلمها أولاً.</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>اكتسب {USER_labelShort} مستوى جديداً من الوصلة النفسية! أصبح بمقدور {USER_pronoun} الآن استخدام قوى نفسية من ذلك المستوى الأعلى، لكن على {USER_pronoun} تعلمها أولاً.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
-  <LetterPsylinkLevelGained_PsycastLearned>عند اكتساب المستوى الجديد للرابط النفسي، تعلم {USER_labelShort} تلقائياً هذه القدرات النفسية: {2}</LetterPsylinkLevelGained_PsycastLearned>
+  <LetterPsylinkLevelGained_PsycastLearned>عند اكتساب المستوى الجديد للوصلة النفسية، تعلم {USER_labelShort} تلقائياً هذه القدرات النفسية: {2}</LetterPsylinkLevelGained_PsycastLearned>
 
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
@@ -143,7 +143,7 @@
   <!-- EN: {TARGET_definite}'s title changed -->
   <LetterLabelBestowingCeremonyTitleUpdated>تغير لقب {TARGET_definite}</LetterLabelBestowingCeremonyTitleUpdated>
   <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
-  <LetterTextBestowingCeremonyTitleUpdated>حصل {TARGET_definite} على لقب جديد منذ جدولة حفل المنح. لكي يتوافق المنح مع اللقب الجديد، ستتم جدولة حفل آخر قريباً.\n\nسيتضمن الحفل الجديد مكافآت الرابط النفسي لجميع الألقاب التي لم تُمنح بعد.</LetterTextBestowingCeremonyTitleUpdated>
+  <LetterTextBestowingCeremonyTitleUpdated>حصل {TARGET_definite} على لقب جديد منذ جدولة حفل المنح. لكي يتوافق المنح مع اللقب الجديد، ستتم جدولة حفل آخر قريباً.\n\nسيتضمن الحفل الجديد مكافآت الوصلة النفسية لجميع الألقاب التي لم تُمنح بعد.</LetterTextBestowingCeremonyTitleUpdated>
 
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
   <LetterPartBestowingExtraHonor>نال {PAWN_labelShort} {1} شرفاً من {FACTION_name} تقديراً لجمع {3} متفرج.</LetterPartBestowingExtraHonor>

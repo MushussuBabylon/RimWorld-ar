@@ -30,14 +30,14 @@
   -->
   <Bloodfeeding.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] شرب دم النجوم، محولاً إياها من الأحمر إلى الأبيض.</li>
-    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name] أعطى لأتباعه [deity0_possessive] المختارين هبة الجوع الأحمر، ليعرفوا القوة الحقيقية.</li>
-    <li>intro(tag=meme_Bloodfeeding)           ->على [place_summary] [place_name]، كان هناك إنسان يدعى [deity0_name]. كعقاب على خطاياه [deity0_possessive]، عاقبه والده [deity0_possessive] بدمج روحه [deity0_possessive] مع روح [bloodDrinkingAnimal].</li>
-    <li>intro(tag=meme_Bloodfeeding)           ->على [place_summary] [place_name]، خلال [ritualName]، نزل [deity0_name] إلى [altarRoomLabel] واتخذ شكل [bloodDrinkingAnimal] عملاق. شرب [deity0_name] دماء [deity0_possessive] [memberNamePlural].</li>
+    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name] أعطى لأتباعهـ[deity0_possessive] المختارين هبة الجوع الأحمر، ليعرفوا القوة الحقيقية.</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->على [place_summary] [place_name]، كان هناك إنسان يدعى [deity0_name]. كعقاب على خطاياهـ[deity0_possessive]، عاقبه والدهـ[deity0_possessive] بدمج روحهـ[deity0_possessive] مع روح [bloodDrinkingAnimal].</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->على [place_summary] [place_name]، خلال [ritualName]، نزل [deity0_name] إلى [altarRoomLabel] واتخذ شكل [bloodDrinkingAnimal] عملاق. شرب [deity0_name] دماء[deity0_possessive] [memberNamePlural].</li>
     <li>conflict(tag=meme_Bloodfeeding)        ->أعلن [foeLeader] أن كل من يشرب الدم هو رجس، وأرسل [foeSoldiers] لاضطهاد [memberNamePlural].</li>
-    <li>founderJoin(tag=meme_Bloodfeeding)     ->[place_job] يدعى [founderName] هوجم من قبل أحد [foeSoldiers] التابعين لـ [foeLeader]. قتل [founderName] [foeLeader_objective] بـ [place_personalWeapon] وشرب دم [foeLeader_possessive]، مكتسباً قوة [deity0_name].</li>
-    <li>victory(tag=meme_Bloodfeeding)         ->قاد [founderName] مجموعة من [memberNamePlural] إلى [place_powerCenter]، وشرب دم [foeLeader] وأحرق لحم [foeLeader_possessive]. جعل [deity0_name] [founderName] الـ [foeLeader] الجديد، لأن [founderName] أثبت قوته.</li>
+    <li>founderJoin(tag=meme_Bloodfeeding)     ->[place_job] يدعى [founderName] هوجم من قبل أحد [foeSoldiers] التابعين لـ [foeLeader]. قتل [founderName] [foeLeader_objective] بـ [place_personalWeapon] وشرب دمـ[foeLeader_possessive]، مكتسباً قوة [deity0_name].</li>
+    <li>victory(tag=meme_Bloodfeeding)         ->قاد [founderName] مجموعة من [memberNamePlural] إلى [place_powerCenter]، وشرب دم [foeLeader] وأحرق لحمـ[foeLeader_possessive]. جعل [deity0_name] [founderName] الـ [foeLeader] الجديد، لأن [founderName] أثبت قوته.</li>
     <li>setup(tag=meme_Bloodfeeding)           ->سعى [founderName] للسيطرة على أركوتك فائق الذكاء. لكن قوة الأركوتك كانت عظيمة جداً، وتحول [founder_pronoun] بدلاً من ذلك.</li>
-    <li>story(uses=1,tag=meme_Bloodfeeding)    ->أعطى [founderName] لأتباعه [founder_possessive] هبة الجوع، كي ينمّوا أقوياء.</li>
+    <li>story(uses=1,tag=meme_Bloodfeeding)    ->أعطى [founderName] لأتباعهـ[founder_possessive] هبة الجوع، كي ينمّوا أقوياء.</li>
     <li>lessonIntro(tag=meme_Bloodfeeding)     ->عندما شربت الدم لأول مرة، اتضح لي. رأيت أن</li>
     <li>lesson(tag=meme_Bloodfeeding)          ->هناك نوعان فقط من الناس - الضعيف والقوي</li>
     <li>lessonReinforcement(tag=meme_Bloodfeeding) ->شرب الدم هو أن تكون قوياً، وأن تعرف هذا بوضوح.</li>

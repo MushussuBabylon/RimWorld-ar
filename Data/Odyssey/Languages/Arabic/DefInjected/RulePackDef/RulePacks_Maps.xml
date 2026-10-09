@@ -217,8 +217,8 @@
     <li>noteLocation->along the edge of the map</li>
   -->
   <Description_Map.rulePack.rulesStrings>
-    <li>desc->خريطة [physicalDescription] تُظهر موقعًا مثيرًا للاهتمام. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
-    <li>desc->خريطة، [physicalDescription2]، تُظهر موقعًا مثيرًا للاهتمام. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->خريطة [physicalDescription] تُظهر موقعاً مثيراً للاهتمام. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->خريطة، [physicalDescription2]، تُظهر موقعاً مثيراً للاهتمام. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->هذه الخريطة [physicalDescription] [has] [mapContentsAcc]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->هذه الخريطة [physicalDescription3] و [has] [mapContentsAcc]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->خريطة تحتوي على [mapContentsDat]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
@@ -869,7 +869,7 @@
     <li>mapSubjectMisc->مواقع</li>
     <li>mapSubjectMisc->موارد</li>
     <li>mapSubjectMisc->لقى أثرية</li>
-    <li>mapSubjectMisc->آثار</li>
+    <li>mapSubjectMisc->آثار مقدسة</li>
     <li>mapSubjectMisc->مدن</li>
     <li>mapSubjectMisc->مستوطنات</li>
     <li>mapSubjectMisc->حصون</li>
@@ -910,7 +910,7 @@
     <li>mapSubjectMiscDatIndef->مواقع</li>
     <li>mapSubjectMiscDatIndef->موارد</li>
     <li>mapSubjectMiscDatIndef->لقى أثرية</li>
-    <li>mapSubjectMiscDatIndef->آثار</li>
+    <li>mapSubjectMiscDatIndef->آثار مقدسة</li>
     <li>mapSubjectMiscDatIndef->مدن</li>
     <li>mapSubjectMiscDatIndef->مستوطنات</li>
     <li>mapSubjectMiscDatIndef->حصون</li>

@@ -8,7 +8,7 @@
   <!-- EN: A random structure will be used for your ideoligion. -->
   <RandomStructureTip>سيُستخدم هيكل عشوائي لعقيدتك.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
-  <RandomStyleTip>سيُستخدم أسلوب عشوائي لعقيدتك.</RandomStyleTip>
+  <RandomStyleTip>سيُستخدم نمط عشوائي لعقيدتك.</RandomStyleTip>
   <!-- EN: Ideology system inactive -->
   <PlayClassic>نظام العقائد غير نشط</PlayClassic>
   <!-- EN: Create custom\n(fluid) -->
@@ -58,7 +58,7 @@
   <!-- EN: Info about {0} -->
   <Reward_RelicInfoLabel>معلومات عن {0}</Reward_RelicInfoLabel>
   <!-- EN: Relic of {IDEO_name} -->
-  <RelicOf>أثر {IDEO_name}</RelicOf>
+  <RelicOf>أثر مقدس {IDEO_name}</RelicOf>
   <!-- EN: altar -->
   <Altar>مذبح</Altar>
   <!-- EN: base -->
@@ -88,11 +88,11 @@
   <!-- EN: Prevents precepts -->
   <PreventsPrecepts>يمنع الوصايا</PreventsPrecepts>
   <!-- EN: Styles -->
-  <Styles>أساليب</Styles>
+  <Styles>أنماط</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>فرصة امتلاك الوصية</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>اللون المفضل لـ {PAWN_labelShort}: {COLOR}\nامتلاك أكثر من {PERCENTAGE} من ملابسـ{PAWN_possessive} بهذا اللون{ORIDEO} سيجعل {PAWN_objective} أكثر سعادة قليلاً.\n\nيمكنك تغيير ألوان الملابس في محطة التصفيف باستخدام صبغة التينكتوريا.</FavoriteColorTooltip>
+  <FavoriteColorTooltip>اللون المفضل لـ {PAWN_labelShort}: {COLOR}\nامتلاك أكثر من {PERCENTAGE} من ملابسـ{PAWN_possessive} بهذا اللون{ORIDEO} سيجعلـ{PAWN_objective} أكثر سعادة قليلاً.\n\nيمكنك تغيير ألوان الملابس في محطة التصفيف باستخدام صبغة التينكتوريا.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor>، أو لون عقيدتـ{PAWN_possessive}،</OrIdeoColor>
   <!-- EN: Set ideo color -->
@@ -100,15 +100,15 @@
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>تعيين إلى اللون المفضل</SetFavoriteColor>
   <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
-  <FavoriteColorPickerTip>اللون المفضل لـ {PAWN_nameDef}. امتلاك أكثر من 60% من ملابسـ{PAWN_possessive} بهذا اللون، أو لون عقيدتـ{PAWN_possessive}، سيجعل {PAWN_objective} أكثر سعادة قليلاً.</FavoriteColorPickerTip>
+  <FavoriteColorPickerTip>اللون المفضل لـ {PAWN_nameDef}. امتلاك أكثر من 60% من ملابسـ{PAWN_possessive} بهذا اللون، أو لون عقيدتـ{PAWN_possessive}، سيجعلـ{PAWN_objective} أكثر سعادة قليلاً.</FavoriteColorPickerTip>
   <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
-  <IdeoColorPickerTip>لون عقيدة {PAWN_nameDef}. امتلاك أكثر من 60% من ملابسـ{PAWN_possessive} بهذا اللون، أو لون {PAWN_possessive} المفضل، سيجعل {PAWN_objective} أكثر سعادة قليلاً.</IdeoColorPickerTip>
+  <IdeoColorPickerTip>لون عقيدة {PAWN_nameDef}. امتلاك أكثر من 60% من ملابسـ{PAWN_possessive} بهذا اللون، أو لونـ{PAWN_possessive} المفضل، سيجعلـ{PAWN_objective} أكثر سعادة قليلاً.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>تكوين عقيدة فصيلك</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
   <NotEnoughDye>لا توجد صبغة كافية.</NotEnoughDye>
   <!-- EN: {PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}. -->
-  <ApparelLockedCannotRecolor>{PAWN_nameDef} غير مستعد لإعادة تلوين {APPAREL_labelShort} الخاص بـ {PAWN_possessive}.</ApparelLockedCannotRecolor>
+  <ApparelLockedCannotRecolor>{PAWN_nameDef} غير مستعد لإعادة تلوين {APPAREL_labelShort} الخاص بـ{PAWN_possessive}.</ApparelLockedCannotRecolor>
   <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
   <NotEnoughDyeWillRecolorApparel>سيعيد المستعمر تلوين الملابس عندما تتوفر الصبغة.</NotEnoughDyeWillRecolorApparel>
   <!-- EN: The colonist will recolor their hair when dye becomes available. -->
@@ -227,7 +227,7 @@
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>كل من شارك في الطقس حصل على دفعة تركيز عمل ليوم واحد ({PERCENTAGE} سرعة عمل شاملة)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
-  <RitualOutcomeExtraDesc_BlindingPsylink>بفضل طقس تعمية مُرضٍ، اكتسب {PAWN_labelShort} مستوى رابط نفسي!</RitualOutcomeExtraDesc_BlindingPsylink>
+  <RitualOutcomeExtraDesc_BlindingPsylink>بفضل طقس تعمية مُرضٍ، اكتسب {PAWN_labelShort} مستوى وصلة نفسية!</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
   <RitualOutcomeExtraDesc_BlindingPsylinkAbility>مع مستوى وصلة نفسية جديدة اكتسب {PAWN_pronoun} قدرة {0} النفسية.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
@@ -368,7 +368,7 @@
   <!-- EN: building -->
   <IdeoBuilding>مبنى</IdeoBuilding>
   <!-- EN: relic -->
-  <IdeoRelic>أثر</IdeoRelic>
+  <IdeoRelic>أثر مقدس</IdeoRelic>
   
   <!-- Beggars -->
   <!-- EN: Give {0} to {1_nameDef} -->
@@ -383,7 +383,7 @@
   <OutfitSlave>عبد</OutfitSlave>
 
   <!-- EN: Relic info found -->
-  <RelicInfoFound>تم العثور على معلومات الأثر</RelicInfoFound>
+  <RelicInfoFound>تم العثور على معلومات الأثر المقدس</RelicInfoFound>
   <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
   <InactiveRoleRequiresMoreBelievers>غير نشط، يتطلب على الأقل {0} {1} (لديك {2})</InactiveRoleRequiresMoreBelievers>
   
@@ -405,12 +405,12 @@
 
   <!-- Relic hunt -->
   <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
-  <RelicHuntFoundRelicSite>الأثر موجود في هيكل قديم محمي بنظام أمني متعدد الوحدات.\n\nيمكنك هزيمة قوات الأمن وحدة تلو الأخرى، أو الإمساك بالأثر ومحاولة الفرار قبل أن يمسكوا بك.</RelicHuntFoundRelicSite>
+  <RelicHuntFoundRelicSite>الأثر المقدس موجود في هيكل قديم محمي بنظام أمني متعدد الوحدات.\n\nيمكنك هزيمة قوات الأمن وحدة تلو الأخرى، أو الإمساك بالأثر المقدس ومحاولة الفرار قبل أن يمسكوا بك.</RelicHuntFoundRelicSite>
   <!-- EN: The relic rests in an ancient structure nearby. -->
-  <RelicHuntFoundRelicSitePeaceful>الأثر موجود في هيكل قديم قريب.</RelicHuntFoundRelicSitePeaceful>
+  <RelicHuntFoundRelicSitePeaceful>الأثر المقدس موجود في هيكل قديم قريب.</RelicHuntFoundRelicSitePeaceful>
 
   <!-- EN: relic -->
-  <Relic>أثر</Relic>
+  <Relic>أثر مقدس</Relic>
   <!-- EN: Ritual seat -->
   <RitualSeat>مقعد الطقس</RitualSeat>
 
@@ -450,11 +450,11 @@
   <!-- EN: {PAWN_nameDef} is too far away -->
   <ConnectedPawnAway>{PAWN_nameDef} بعيد جداً</ConnectedPawnAway>
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
-  <TreeBlockedByNearbyBuildingsDesc>زراعة {PLANT_definite} بالقرب من المباني الاصطناعية سيؤدي إلى تآكل قوة اتصالها بمرور الوقت. تحدد قوة الاتصال الحد الأقصى لعدد الدرياد التي يمكن لـ {PLANT_definite} دعمها في وقت واحد.\n\nهل أنت متأكد أنك ترغب في الزراعة هنا؟</TreeBlockedByNearbyBuildingsDesc>
+  <TreeBlockedByNearbyBuildingsDesc>زراعة {PLANT_definite} بالقرب من المباني الاصطناعية سيؤدي إلى تآكل قوة اتصالها بمرور الوقت. تحدد قوة الاتصال الحد الأقصى لعدد الدرايد التي يمكن لـ {PLANT_definite} دعمها في وقت واحد.\n\nهل أنت متأكد أنك ترغب في الزراعة هنا؟</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>تغيير طائفة درياد {TREE_definite} يستغرق وقتاً وطاقة.\n\nبعد تفاعل الشخص المتصل مع الشجرة، ستقضي جميع الدرياد {DURATION} يوم داخل الشرانق بينما تتحول إلى الطائفة المختارة.\n\nستلغي الشرانق الموجودة تحولها لتتمكن من التحول إلى الطائفة الحالية.</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>تغيير طائفة درايد {TREE_definite} يستغرق وقتاً وطاقة.\n\nبعد تفاعل الشخص المتصل مع الشجرة، ستقضي جميع الدرايد {DURATION} يوم داخل الشرانق بينما تتحول إلى الطائفة المختارة.\n\nستلغي الشرانق الموجودة تحولها لتتمكن من التحول إلى الطائفة الحالية.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
-  <ChangeModeDesc>تغيير نوع الدرياد التي تنشئها {TREE_definite}.</ChangeModeDesc>
+  <ChangeModeDesc>تغيير نوع الدرايد التي تنشئها {TREE_definite}.</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
   <ConnectionStrengthFall>انخفاض قوة الاتصال</ConnectionStrengthFall>
   <!-- EN: Connection strength -->
@@ -462,13 +462,13 @@
   <!-- EN: {0} strength -->
   <ConnectionStrengthDisplay>قوة {0}</ConnectionStrengthDisplay>
   <!-- EN: Determines how many dryads this tree can support. -->
-  <ConnectionStrengthDesc>يحدد عدد الدرياد التي يمكن لهذه الشجرة دعمها.</ConnectionStrengthDesc>
+  <ConnectionStrengthDesc>يحدد عدد الدرايد التي يمكن لهذه الشجرة دعمها.</ConnectionStrengthDesc>
   <!-- EN: Max dryads -->
-  <MaximumDryads>الحد الأقصى للدرياد</MaximumDryads>
+  <MaximumDryads>الحد الأقصى للدرايد</MaximumDryads>
   <!-- EN: The maximum number of dryads this tree can support. -->
-  <MaximumDryadsDesc>الحد الأقصى لعدد الدرياد التي يمكن لهذه الشجرة دعمها.</MaximumDryadsDesc>
+  <MaximumDryadsDesc>الحد الأقصى لعدد الدرايد التي يمكن لهذه الشجرة دعمها.</MaximumDryadsDesc>
   <!-- EN: Max dryads based on connection strength -->
-  <MaxDryadsBasedOnConnectionStrength>الحد الأقصى للدرياد بناءً على قوة الاتصال</MaxDryadsBasedOnConnectionStrength>
+  <MaxDryadsBasedOnConnectionStrength>الحد الأقصى للدرايد بناءً على قوة الاتصال</MaxDryadsBasedOnConnectionStrength>
   <!-- EN: Pruning connection strength gain -->
   <PruningConnectionStrength>مكسب قوة الاتصال بالتقليم</PruningConnectionStrength>
   <!-- EN: Hours per day to maintain -->
@@ -476,15 +476,15 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>المرغوب</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>سيقوم {CONNECTEDPAWN_nameDef} بتقليم {TREE_definite} بشكل كافٍ للحفاظ على قوة الاتصال فوق هذا المستوى.\n\nتسمح قوة الاتصال الأعلى بدعم المزيد من الدرياد، ولكنها تنخفض أيضاً بشكل أسرع وبالتالي تتطلب تقليماً أكثر تكراراً للحفاظ عليها.\n\nيمكنك النقر على الشريط لضبط قوة الاتصال المستهدفة المرغوبة.\n\nانخفاض قوة الاتصال في اليوم: {FALL}\n\nتتأثر قوة الاتصال بالمباني القريبة.</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>سيقوم {CONNECTEDPAWN_nameDef} بتقليم {TREE_definite} بشكل كافٍ للحفاظ على قوة الاتصال فوق هذا المستوى.\n\nتسمح قوة الاتصال الأعلى بدعم المزيد من الدرايد، ولكنها تنخفض أيضاً بشكل أسرع وبالتالي تتطلب تقليماً أكثر تكراراً للحفاظ عليها.\n\nيمكنك النقر على الشريط لضبط قوة الاتصال المستهدفة المرغوبة.\n\nانخفاض قوة الاتصال في اليوم: {FALL}\n\nتتأثر قوة الاتصال بالمباني القريبة.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
-  <WaitingForConnectorToChangeCaste>بانتظار {CONNECTEDPAWN_nameDef} لتغيير طائفة الدرياد.</WaitingForConnectorToChangeCaste>
+  <WaitingForConnectorToChangeCaste>بانتظار {CONNECTEDPAWN_nameDef} لتغيير طائفة الدرايد.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
-  <GauranlenTreeMode>طائفة الدرياد</GauranlenTreeMode>
+  <GauranlenTreeMode>طائفة الدرايد</GauranlenTreeMode>
   <!-- EN: no caste -->
   <NoCaste>لا طائفة</NoCaste>
   <!-- EN: Determines the currently created dryad caste. -->
-  <GauranlenTreeModeDesc>يحدد طائفة الدرياد المنشأة حالياً.</GauranlenTreeModeDesc>
+  <GauranlenTreeModeDesc>يحدد طائفة الدرايد المنشأة حالياً.</GauranlenTreeModeDesc>
   <!-- EN: Spawning {DRYAD_label} in {TIME} -->
   <SpawningDryadIn>إنشاء {DRYAD_label} خلال {TIME}</SpawningDryadIn>
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
@@ -496,21 +496,21 @@
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
   <DryadProducesResourcesDesc>تنتج {DRYAD_labelPlural} {RESOURCES} كل {DURATION}.</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
-  <DryadCannotChangeMaster>{ANIMAL_nameDef} متصل بـ {MASTER_nameDef} من خلال شجرة غورانلين الخاصة بـ {ANIMAL_possessive}. لا يمكن تغيير مالك {ANIMAL_possessive}.</DryadCannotChangeMaster>
+  <DryadCannotChangeMaster>{ANIMAL_nameDef} متصل بـ {MASTER_nameDef} من خلال شجرة غورانلين الخاصة بـ{ANIMAL_possessive}. لا يمكن تغيير مالكـ{ANIMAL_possessive}.</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
   <ConnectionStrengthTooWeakForGaumakerPod>قوة الاتصال منخفضة جداً لإنشاء قرنة غورانلين.</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
   <Unconnected>غير متصل</Unconnected>
   <!-- EN: Dryads -->
-  <DryadPlural>دريادات</DryadPlural>
+  <DryadPlural>درايدات</DryadPlural>
   <!-- EN: Connection strength affected by -->
   <ConnectionStrengthAffectedBy>تتأثر قوة الاتصال بـ</ConnectionStrengthAffectedBy>
   <!-- EN: Currently affected by -->
   <CurrentlyAffectedBy>متأثر حالياً بـ</CurrentlyAffectedBy>
   <!-- EN: {0} connection strength needed to support a dryad. -->
-  <NotEnoughConnectionStrengthForSingleDryad>هناك حاجة إلى قوة اتصال {0} لدعم درياد واحد.</NotEnoughConnectionStrengthForSingleDryad>
+  <NotEnoughConnectionStrengthForSingleDryad>هناك حاجة إلى قوة اتصال {0} لدعم درايد واحد.</NotEnoughConnectionStrengthForSingleDryad>
   <!-- EN: Cannot assign allowed area -->
-  <CannotAssignAllowedAreaToDryad>لا يمكن تعيين منطقة مسموحة للدرياد</CannotAssignAllowedAreaToDryad>
+  <CannotAssignAllowedAreaToDryad>لا يمكن تعيين منطقة مسموحة للدرايد</CannotAssignAllowedAreaToDryad>
 
   <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->
@@ -561,9 +561,9 @@
   <Reward_ArchonexusMapPartLabel>جزء خريطة الآركونيكسس {0}/{1}</Reward_ArchonexusMapPartLabel>
 
   <!-- EN: relics -->
-  <RelicsLower>آثار</RelicsLower>
+  <RelicsLower>آثار مقدسة</RelicsLower>
   <!-- EN: relic -->
-  <RelicLower>أثر</RelicLower>
+  <RelicLower>أثر مقدس</RelicLower>
 
   <!-- EN: Linked to -->
   <LinkedTo>مرتبط بـ</LinkedTo>
@@ -624,9 +624,9 @@
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>أكمل {PAWN_labelShort} دورة الشفاء.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>أكمل {PAWN_labelShort} دورة الشفاء، وتم شفاء {HEDIFF_label} الخاص بـ {PAWN_possessive}.</BiosculpterHealCompletedWithCureMessage>
+  <BiosculpterHealCompletedWithCureMessage>أكمل {PAWN_labelShort} دورة الشفاء، وتم شفاء {HEDIFF_label} الخاص بـ{PAWN_possessive}.</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
-  <BiosculpterAgeReversalCompletedMessage>أكمل {PAWN_labelShort} دورة عكس العمر الخاصة بـ {PAWN_possessive}.</BiosculpterAgeReversalCompletedMessage>
+  <BiosculpterAgeReversalCompletedMessage>أكمل {PAWN_labelShort} دورة عكس العمر الخاصة بـ{PAWN_possessive}.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <AgeReversalExpectationDeadline>{PAWN_pronoun} يتوقع عكس العمر التالي خلال {DEADLINE} يوم.</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
@@ -651,9 +651,9 @@
   <!-- EN: basic -->
   <Basic>أساسي</Basic>
   <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
-  <ChangeStyleDesc>تغيير الأسلوب الذي سيُبنى به هذا. هذا مرئي بحت وليس له تأثير على أسلوب اللعب.</ChangeStyleDesc>
+  <ChangeStyleDesc>تغيير النمط الذي سيُبنى به هذا. هذا مرئي بحت وليس له تأثير على نمط اللعب.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
-  <ChangeStyleDisabledNoCategories>لا توجد أساليب متاحة.</ChangeStyleDisabledNoCategories>
+  <ChangeStyleDisabledNoCategories>لا توجد أنماط متاحة.</ChangeStyleDisabledNoCategories>
   <!-- EN: Spacedrone self-destructs in {0} -->
   <SpacedroneSelfDestructsIn>التدمير الذاتي للدرون الفضائي خلال {0}</SpacedroneSelfDestructsIn>
 

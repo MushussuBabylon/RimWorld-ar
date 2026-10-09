@@ -8,7 +8,7 @@
   <MutatedMyArm.label>طفر ذراعي</MutatedMyArm.label>
   
   <!-- EN: studied an entity -->
-  <StudiedEntity.label>درس كيانًا</StudiedEntity.label>
+  <StudiedEntity.label>درس كياناً</StudiedEntity.label>
   <!-- EN:
     <li>tale_noun->[STUDIER_nameDef] studying [ENTITY_nameIndef]</li>
     <li>image->[STUDIER_nameFull] carefully examining [ENTITY_nameDef] [circumstance_group]</li>
@@ -26,14 +26,14 @@
   <StudiedEntity.rulePack.rulesStrings>
     <li>tale_noun->[STUDIER_nameDef] يدرس [ENTITY_nameIndef]</li>
     <li>image->[STUDIER_nameFull] يفحص [ENTITY_nameDef] بعناية [circumstance_group]</li>
-    <li>image->[STUDIER_nameFull] يجري تجارب، ساعيًا لفهم أسرار [ENTITY_nameDef]، [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] يجري تجارب، ساعياً لفهم أسرار [ENTITY_nameDef]، [circumstance_group]</li>
     <li>image->[STUDIER_nameFull] يسعى لاستيعاب طبيعة [ENTITY_nameDef] [circumstance_group]</li>
-    <li>circumstance_phrase->مع اشمئزاز بالكاد مخفي في عيني[STUDIER_possessive]</li>
+    <li>circumstance_phrase->مع اشمئزاز بالكاد مخفي في عينيـ[STUDIER_possessive]</li>
     <li>circumstance_phrase->وهو يخربش في دفتر ملاحظات</li>
-    <li>circumstance_phrase->وهو يراجع كتابًا قديمًا</li>
-    <li>desc_sentence->يمكن رؤية العمل المطرد لحاصدات البيوفيرايت في الخلفية.</li>
+    <li>circumstance_phrase->وهو يراجع كتاباً قديماً</li>
+    <li>desc_sentence->يمكن رؤية العمل المطرد لحاصدات البايوفيرايت في الخلفية.</li>
     <li>desc_sentence->افتتان المستعمر العميق بـ[ENTITY_nameDef] واضح.</li>
-    <li>desc_sentence->[STUDIER_nameDef] منهمك تمامًا في دراسة[STUDIER_possessive] لـ[ENTITY_nameDef]، ساعيًا لكشف أسراره.</li>
+    <li>desc_sentence->[STUDIER_nameDef] منهمك تماماً في دراستـ[STUDIER_possessive] لـ[ENTITY_nameDef]، ساعياً لكشف أسراره.</li>
     <li>desc_sentence->بالكاد يُثبّت [ENTITY_nameDef] في مكانه بفعل العمل المتواصل للمثبطات الكهربائية.</li>
     <li>desc_sentence->لا يبدو أن [ENTITY_nameDef] يتفاعل مع جهود [STUDIER_nameDef].</li>
  </StudiedEntity.rulePack.rulesStrings>

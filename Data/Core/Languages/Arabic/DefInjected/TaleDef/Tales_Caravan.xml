@@ -29,16 +29,16 @@
   -->
   <CaravanAmbushDefeated.rulePack.rulesStrings>
     <li>tale_noun->دفاع ناجح عن قافلة [PAWN_nameDef]</li>
-    <li>tale_noun->قافلة [PAWN_nameDef] تصد كمينًا</li>
+    <li>tale_noun->قافلة [PAWN_nameDef] تصد كميناً</li>
     <li>image->[PAWN_nameFull] ينظم المقاومة بينما [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يحمل [Weapon] دفاعيًا بينما [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يحمل [Weapon] دفاعياً بينما [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يرد بـ[Weapon] [PAWN_possessive] بينما [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يقف شامخًا مثل مبنى بينما [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يرتدي تعبيرًا [AdjectiveBadass] بينما [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يرتدي تعبيرًا [AdjectiveAngsty] بينما [circumstance_group]</li>
-    <li>circumstance_phrase->متأهبًا ضد الحشد المتقدم</li>
+    <li>image->[PAWN_nameFull] يقف شامخاً مثل مبنى بينما [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يرتدي تعبيراً [AdjectiveBadass] بينما [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يرتدي تعبيراً [AdjectiveAngsty] بينما [circumstance_group]</li>
+    <li>circumstance_phrase->متأهباً ضد الحشد المتقدم</li>
     <li>circumstance_phrase->يدور حول العربات</li>
-    <li>circumstance_phrase->يزأر منتصرًا</li>
+    <li>circumstance_phrase->يزأر منتصراً</li>
     <li>circumstance_phrase->يلوح بـ[Weapon]s</li>
     <li>circumstance_phrase->مغطى بـ[Gore]</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s يتقدمون، يلوحون بـ[Weapon]s.</li>
@@ -74,14 +74,14 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
-    <li>tale_noun->قافلة [PAWN_nameDef] تهزم معقلًا للأعداء</li>
+    <li>tale_noun->قافلة [PAWN_nameDef] تهزم معقلاً للأعداء</li>
     <li>image->[PAWN_nameFull] يركض نحو [Enemy]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يحمل [Weapon]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يلوح بـ[Weapon]، [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يقف شامخًا مثل مبنى، [circumstance_group]</li>
-    <li>circumstance_phrase->مرتديًا نظرة [AdjectiveBadass] في عينيه</li>
-    <li>circumstance_phrase->مرتديًا نظرة [AdjectiveAngsty] في عينيه</li>
-    <li>circumstance_phrase->يزأر منتصرًا</li>
+    <li>image->[PAWN_nameFull] يقف شامخاً مثل مبنى، [circumstance_group]</li>
+    <li>circumstance_phrase->مرتدياً نظرة [AdjectiveBadass] في عينيه</li>
+    <li>circumstance_phrase->مرتدياً نظرة [AdjectiveAngsty] في عينيه</li>
+    <li>circumstance_phrase->يزأر منتصراً</li>
     <li>circumstance_phrase->مغطى بـ[Gore]</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s يرتعدون من الهجوم.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s يفرون من المنطقة.</li>
@@ -125,8 +125,8 @@
     <li>image->[PAWN_nameFull] يركض بذعر [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يعدو [circumstance_group]</li>
     <li>image->[PAWN_nameFull] مختبئ خلف [TerrainFeature]، متخفٍ [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ينسحب مقاتلًا [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يبتعد متسكعًا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] ينسحب مقاتلاً [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يبتعد متسكعاً [circumstance_group]</li>
     <li>circumstance_phrase->بينما [Quantity_adjphrase] من [Enemy]s يطاردون</li>
     <li>circumstance_phrase->بينما [Quantity_adjphrase] من [Enemy]s يبحثون</li>
     <li>circumstance_phrase->من [Quantity_adjphrase] من [Enemy]s</li>
@@ -136,8 +136,8 @@
     <li>desc_sentence->مطاردو [PAWN_nameDef] محاطون بدخان [Color].</li>
     <li>desc_sentence->مطاردو [PAWN_nameDef] يرتدون تعابير [AdjectiveAngsty].</li>
     <li>desc_sentence->مطاردو [PAWN_nameDef] يلوحون بـ[Weapon]s.</li>
-    <li>desc_sentence->[PAWN_nameDef] يتصبب عرقًا.</li>
-    <li>desc_sentence->[PAWN_nameDef] يلهث بحثًا عن الهواء.</li>
+    <li>desc_sentence->[PAWN_nameDef] يتصبب عرقاً.</li>
+    <li>desc_sentence->[PAWN_nameDef] يلهث بحثاً عن الهواء.</li>
  </CaravanFled.rulePack.rulesStrings>
   
   <!-- EN: caravan formed -->
@@ -203,17 +203,17 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <CaravanRemoteMining.rulePack.rulesStrings>
-    <li>tale_noun->قافلة [PAWN_nameDef] تعدّن عرقًا غنيًا من [MATERIAL_label] في أرض أجنبية</li>
+    <li>tale_noun->قافلة [PAWN_nameDef] تعدّن عرقاً غنياً من [MATERIAL_label] في أرض أجنبية</li>
     <li>image->[PAWN_nameFull] يعمل على جدار [MATERIAL_label] بأدوات تعدين، [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يحمل قطعة من [MATERIAL_label]، [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يحمل كتلة من [MATERIAL_label]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يستند على جدار من [MATERIAL_label]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] ينسق فريق حفر ضد عرق غني من [MATERIAL_label]، [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يفحص بعناية عرقًا غنيًا من [MATERIAL_label]، [circumstance_group]</li>
-    <li>circumstance_phrase->يتصبب عرقًا بغزارة</li>
-    <li>circumstance_phrase->مرتديًا تعبيرًا [AdjectiveFriendly]</li>
+    <li>image->[PAWN_nameFull] يفحص بعناية عرقاً غنياً من [MATERIAL_label]، [circumstance_group]</li>
+    <li>circumstance_phrase->يتصبب عرقاً بغزارة</li>
+    <li>circumstance_phrase->مرتدياً تعبيراً [AdjectiveFriendly]</li>
     <li>circumstance_phrase->يبتسم بفخر</li>
     <li>circumstance_phrase->تعبير راضٍ على وجهه</li>
-    <li>circumstance_phrase->ينظر حوله بحذر بحثًا عن الخطر</li>
+    <li>circumstance_phrase->ينظر حوله بحذر بحثاً عن الخطر</li>
     <li>desc_sentence->[Quantity_adjphrase] من [ally]s يساعدون.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يتجولون في المنطقة.</li>
     <li>desc_sentence->يوجد مأوى مؤقت في الخلفية.</li>

@@ -4,7 +4,7 @@
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>مدفأة جوية</AtmosphericHeater.label>
   <!-- EN: A thermal projection device powered by scavenged shards of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
-  <AtmosphericHeater.description>جهاز إسقاط حراري يعمل بشظايا التكنولوجيا الآركوتيكية المظلمة. يحرق الجهاز البيوفيرايت لتهييج جزيئات الغاز في الغلاف الجوي، رافعاً درجة حرارة الخارج المحلية. ينتج المبنى نفسه أيضاً كميات هائلة من الحرارة المهدرة.</AtmosphericHeater.description>
+  <AtmosphericHeater.description>جهاز إسقاط حراري يعمل بشظايا التكنولوجيا الآركوتيكية المظلمة. يحرق الجهاز البايوفيرايت لتهييج جزيئات الغاز في الغلاف الجوي، رافعاً درجة حرارة الخارج المحلية. ينتج المبنى نفسه أيضاً كميات هائلة من الحرارة المهدرة.</AtmosphericHeater.description>
   <!-- EN: Target outdoor temperature -->
   <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>درجة الحرارة الخارجية المستهدفة</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
   
@@ -12,7 +12,7 @@
   <Bullet_TacticalTurret.label>طلقة برج تكتيكي</Bullet_TacticalTurret.label>
   
   <!-- EN: delayed metalhorror emerge -->
-  <DelayedMetalhorrorEmerger.label>بزوغ رعب معدني مؤجل</DelayedMetalhorrorEmerger.label>
+  <DelayedMetalhorrorEmerger.label>بزوغ رعب المعدن مؤجل</DelayedMetalhorrorEmerger.label>
   
   <!-- EN: dirt cube sculpture -->
   <DirtCubeSculpture.label>منحوتة مكعب من التراب</DirtCubeSculpture.label>
@@ -126,7 +126,7 @@
   <!-- EN: {PAWN_nameDef} teleported -->
   <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>تم نقل {PAWN_nameDef} آنياً</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>
   <!-- EN: After approaching the strange statue, {PAWN_nameDef} blinked and found {PAWN_objective}self transported to a new location. -->
-  <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>بعد الاقتراب من التمثال الغريب، أغمض {PAWN_nameDef} عينيه ووجد {PAWN_objective} نفسه منقولاً إلى موقع جديد.</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>
+  <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>بعد الاقتراب من التمثال الغريب، أغمض {PAWN_nameDef} عينيه ووجد{PAWN_objective} نفسه منقولاً إلى موقع جديد.</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>
   
   <!-- EN: wall -->
   <GrayWall.label>جدار</GrayWall.label>
@@ -151,11 +151,11 @@
   <HoldingSpot.description>مكان لاحتجاز الكيانات الخطرة. ليست بجودة منصة احتجاز فولاذية، لكنها أفضل بكثير من لا شيء.\n\nيمكن تأمين الكيانات المطروحة في مكان الاحتجاز حيث يمكن دراستها. زِد قوة الاحتواء ببناء جدران وأبواب قوية، وأجهزة احتواء خاصة أخرى.</HoldingSpot.description>
   
   <!-- EN: noctolith -->
-  <Noctolith.label>نوكتوليث</Noctolith.label>
+  <Noctolith.label>مسلة الليل</Noctolith.label>
   <!-- EN: A twisted pillar of jagged blade-like structures made of dark, oily metal. It pulses with energy, powered by dark archotechnology at its core.\n\nIf you destroy the pillar, you can recover a shard of dark archotech. -->
   <Noctolith.description>عمود ملتوٍ من هياكل شفرية خشنة مصنوعة من معدن زيتي داكن. ينبض بالطاقة، مدعوم بتكنولوجيا آركوتيكية في نواته.\n\nإذا دمرت العمود، يمكنك استعادة شظية من الآركوتيك المظلمة.</Noctolith.description>
   <!-- EN: Contains: Unknown\nDestroy noctoliths to end the unnatural darkness. -->
-  <Noctolith.comps.CompInspectString.inspectString>يحتوي: غير معروف\nدمر أعمدة النوكتوليث لإنهاء الظلام غير الطبيعي.</Noctolith.comps.CompInspectString.inspectString>
+  <Noctolith.comps.CompInspectString.inspectString>يحتوي: غير معروف\nدمر أعمدة مسلة الليل لإنهاء الظلام غير الطبيعي.</Noctolith.comps.CompInspectString.inspectString>
   
   <!-- EN: pit burrow -->
   <PitBurrow.label>جحر حفري</PitBurrow.label>
@@ -174,7 +174,7 @@
   <!-- EN: Fleshbeast lair -->
   <PitGate.portal.enteredLetterLabel>وكر وحوش اللحم</PitGate.portal.enteredLetterLabel>
   <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <PitGate.portal.enteredLetterText>في أعماق بوابة الحفرة، اكتشفت نظام كهوف هائل موبوء بوحوش اللحم.\n\nنظام الكهوف مسدود بكتل من اللحم الحي التي تعيق تقدمك. هاجم كتلة اللحم لتدميرها.\n\nيبدو نظام الكهوف بأكمله غير مستقر. إذا وجدت ما يكمن خلف كتلة اللحم، فقد تتمكن من انهيار الأنفاق وإغلاق بوابة الحفرة.</PitGate.portal.enteredLetterText>
+  <PitGate.portal.enteredLetterText>في أعماق بوابة الحفرة، اكتشفت نظام كهوف هائل موبوء بوحوش اللحم.\n\nنظام الكهوف مسدود بكتل من اللحم الحي التي تعيق تقدمك. هاجم كتلة لحمية لتدميرها.\n\nيبدو نظام الكهوف بأكمله غير مستقر. إذا وجدت ما يكمن خلف كتلة لحمية، فقد تتمكن من انهيار الأنفاق وإغلاق بوابة الحفرة.</PitGate.portal.enteredLetterText>
   
   <!-- EN: pit gate exit -->
   <PitGateExit.label>مخرج بوابة الحفرة</PitGateExit.label>

@@ -9,7 +9,7 @@
     <li>threatsInfo-></li>
   -->
   <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
-    <li>questDescription->[intro]سيقوم [asker_faction_leaderTitle] التابع لـ[asker_faction_name] بزيارة تقليدية لأي كونت في إقطاعيته بناءً على طلبه. قم بدعوته، ولبِّ احتياجاته الملكية لمدة [shuttleDelayTicks_duration]، ويمكنكم جميعاً ركوب المركبة إلى الأسطول الإمبراطوري. يمكنك بعدها الانضمام إلى البلاط الإمبراطوري، أو الهروب إلى حياة جديدة بين النجوم.\n\nالحصول على لقب كونت يعني إكمال المهمات لكسب [asker_faction_royalFavorLabel] لدى [asker_faction_name]. قد يستغرق الأمر سنوات لتحقيق لقب كونت أخيراً.\n\nخلال زيارته، يجب الحفاظ على مزاجه أعلى من [lodgersMoodThreshold_percent]. هذا يعني توفير متطلبات ملكية مثل غرفة نوم فاخرة.[threatsInfo]\n\nسيحضر [asker_faction_leaderTitle] أربعة من حراسه الشخصيين ويضعهم تحت إمرتك. يجب أن توفر لهم مسكناً، لكن [asker_faction_leaderTitle] لن يشتكي إذا قُتلوا أو كانوا غير سعداء.\n\nيجب أن تبقي الزوار في [map_definite] وألا ترسلهم لأي مكان آخر. إذا فشلت في هذه المهمة أو هاجرت، ستحصل على فرصة أخرى لاحقاً.</li>
+    <li>questDescription->[intro]سيقوم [asker_faction_leaderTitle] التابع لـ[asker_faction_name] بزيارة تقليدية لأي كونت في إقطاعيته بناءً على طلبه. قم بدعوته، ولبِّ احتياجاته الملكية لمدة [shuttleDelayTicks_duration]، ويمكنكم جميعاً ركوب المكوك إلى الأسطول الإمبراطوري. يمكنك بعدها الانضمام إلى البلاط الإمبراطوري، أو الهروب إلى حياة جديدة بين النجوم.\n\nالحصول على لقب كونت يعني إكمال المهمات لكسب [asker_faction_royalFavorLabel] لدى [asker_faction_name]. قد يستغرق الأمر سنوات لتحقيق لقب كونت أخيراً.\n\nخلال زيارته، يجب الحفاظ على مزاجه أعلى من [lodgersMoodThreshold_percent]. هذا يعني توفير متطلبات ملكية مثل غرفة نوم فاخرة.[threatsInfo]\n\nسيحضر [asker_faction_leaderTitle] أربعة من حراسه الشخصيين ويضعهم تحت إمرتك. يجب أن توفر لهم مسكناً، لكن [asker_faction_leaderTitle] لن يشتكي إذا قُتلوا أو كانوا غير سعداء.\n\nيجب أن تبقي الزوار في [map_definite] وألا ترسلهم لأي مكان آخر. إذا فشلت في هذه المهمة أو هاجرت، ستحصل على فرصة أخرى لاحقاً.</li>
     <li>intro(sameQuestsCount==0)->لقد علمت بطريقة للهروب من هذا الكوكب!\n\n</li>
     <li>intro(sameQuestsCount>=1)->لقد مُنحت فرصة أخرى للصعود الملكي.\n\n</li>
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nسينتهز آخرون الفرصة لمحاولة قتل [asker_faction_leaderTitle]، وسيهاجمون بقوة كبيرة. كن مستعداً للدفاع.</li>
@@ -44,21 +44,21 @@
   <!-- EN: [asker_faction_leaderTitle] arrived -->
   <EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>وصل [asker_faction_leaderTitle]</EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>وصل [asker_faction_leaderTitle] التابع لـ[asker_faction_name].\n\nاحمِهِ ولبِّ احتياجاته الملكية حتى وصول المركبة في [shuttleDelayTicks_duration].\n\nيمكنكم جميعاً مرافقة [asker_faction_leaderTitle] على المركبة والسفر إلى الأسطول الإمبراطوري لبدء حياة جديدة.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
+  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>وصل [asker_faction_leaderTitle] التابع لـ[asker_faction_name].\n\nاحمِهِ ولبِّ احتياجاته الملكية حتى وصول المكوك في [shuttleDelayTicks_duration].\n\nيمكنكم جميعاً مرافقة [asker_faction_leaderTitle] على المكوك والسفر إلى الأسطول الإمبراطوري لبدء حياة جديدة.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>توفي الضيف: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextGuestDied.slateRef>{SUBJECT_definite}، الذي كُلفت بحمايته، قد توفي. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestDied.slateRef>
   <!-- EN: Should depart on shuttle -->
-  <EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>يجب أن يغادر بالمركبة</EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>
+  <EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>يجب أن يغادر بالمكوك</EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
-  <EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>وصلت المركبة</EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>
+  <EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>وصل المكوك</EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>وصلت المركبة لنقل [asker_faction_leaderTitle].\n\nيمكنكم جميعاً مرافقة [asker_faction_leaderTitle] على المركبة والسفر إلى الأسطول الإمبراطوري لبدء حياة جديدة.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>وصل المكوك لنقل [asker_faction_leaderTitle].\n\nيمكنكم جميعاً مرافقة [asker_faction_leaderTitle] على المكوك والسفر إلى الأسطول الإمبراطوري لبدء حياة جديدة.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
   <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.\n\nYou might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.\n\nThe choice is up to you. -->
   <EndGame_RoyalAscent.EndGameEndingText.slateRef>سيُرحب بك الآن الستيلارك الأعلى في الأسطول الإمبراطوري كحفل نبلاء مكرمين.\n\nيمكنك البقاء في البلاط الإمبراطوري والتنافس على السلطة السياسية. ربما ستتجنب الدراما وتركز على الاستمتاع بالرفاهيات فائقة التقنية. أو قد تشتري سفينة وتحدد مساراً نحو وطنك المفقود منذ زمن طويل.\n\nالخيار لك.</EndGame_RoyalAscent.EndGameEndingText.slateRef>
   <!-- EN: You've escaped on the Imperial shuttle! -->
-  <EndGame_RoyalAscent.EndGameIntroText.slateRef>لقد هربت على متن المركبة الإمبراطورية!</EndGame_RoyalAscent.EndGameIntroText.slateRef>
+  <EndGame_RoyalAscent.EndGameIntroText.slateRef>لقد هربت على متن المكوك الإمبراطوري!</EndGame_RoyalAscent.EndGameIntroText.slateRef>
   <!-- EN: {SUBJECT_bestRoyalTitle} unhappy --> <!-- В оригинале ошибки! Символы и подсимволы на самом деле здесь не работают -->
   <EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>{SUBJECT_bestRoyalTitle} غير سعيد</EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold] too long. [failLetterEndingCommon] -->
@@ -72,17 +72,17 @@
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>أُجريت جراحة غير مصرح بها ومنتهكة على {SUBJECT_definite}، الذي كُلفت بحمايته. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>تم امتصاص زينوجيرم: {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>تم امتصاص زينوجرم: {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}، الذي كُلفت بحمايته، تم امتصاص زينوجيرم{SUBJECT_possessive} بالقوة. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}، الذي كُلفت بحمايته، تم امتصاص زينوجرمـ{SUBJECT_possessive} بالقوة. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>ضيف مفقود: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>{SUBJECT_definite}، الذي كُلفت بحمايته، قد غادر المستوطنة المخصصة. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>مركبة مُدمرة</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
+  <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>مكوك مدمر</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>المركبة التي أُرسلت لنقل [asker_faction_leaderTitle] قد دُمرت. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>المكوك الذي أُرسل لنقل [asker_faction_leaderTitle] قد دُمر. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>ضيف مفقود: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
@@ -90,6 +90,6 @@
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>فشلت المهمة: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>المركبة التي أُرسلت لنقل [asker_faction_leaderTitle] غادرت بدون[asker_objective]. سيغادر [asker_pronoun] الآن مشياً على الأقدام. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>المكوك الذي أُرسل لنقل [asker_faction_leaderTitle] غادر بدونـ[asker_objective]. سيغادر [asker_pronoun] الآن مشياً على الأقدام. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
   
 </LanguageData>

@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Relevant genes -->
-  <StatsReport_Genes>الجينات ذات الصلة</StatsReport_Genes>
+  <StatsReport_Genes>المورثات ذات الصلة</StatsReport_Genes>
   <!-- EN: in sunlight -->
   <StatsReport_InSunlight>في ضوء الشمس</StatsReport_InSunlight>
   <!-- EN: clothed -->
@@ -32,7 +32,7 @@
   <!-- EN: Deathrest effectiveness -->
   <StatsReport_DeathrestEffectiveness>فعالية سبات الموت</StatsReport_DeathrestEffectiveness>
   <!-- EN: A multiplier on how effective this is when used for deathrest. The higher this is, the less time a user needs to deathrest here. -->
-  <StatsReport_DeathrestEffectiveness_Desc>مضاعف لفعالية هذا الشيء عند استخدامه لسبات الموت. كلما زاد، قلّ الوقت المطلوب للسبات هنا.</StatsReport_DeathrestEffectiveness_Desc>
+  <StatsReport_DeathrestEffectiveness_Desc>مضاعف لفعالية هذا الشيء عند استخدامه لسبات الموت. كلما زاد، قلّ الوقت المطلوب لسبات الموت هنا.</StatsReport_DeathrestEffectiveness_Desc>
 
   <!-- EN: Deathrest connection limit -->
   <StatsReport_DeathrestConnectionLimit>حد اتصالات سبات الموت</StatsReport_DeathrestConnectionLimit>
@@ -42,7 +42,7 @@
   <!-- EN: Growth tier -->
   <StatsReport_GrowthTier>مستوى النمو</StatsReport_GrowthTier>
   <!-- EN: Children progress through growth tiers over time. The higher the learning need, the faster the progress. When a growth moment comes (at age 7, 10, and 13), the child's growth tier determines how many trait and passion options you can choose from. Growth tier resets after each growth moment. -->
-  <StatsReport_GrowthTierDesc>يتقدم الأطفال عبر مستويات النمو مع الوقت. كلما ارتفعت حاجتهم للتعلم، ازداد تقدمهم. وعند حلول لحظة النمو (في أعمار 7 و10 و13)، يحدد مستوى النمو عدد خيارات السمات والشغف المتاحة. يُعاد ضبط مستوى النمو بعد كل لحظة نمو.</StatsReport_GrowthTierDesc>
+  <StatsReport_GrowthTierDesc>يتقدم الأطفال عبر مستويات النمو مع الوقت. كلما ارتفعت حاجتهم للتعلم، ازداد تقدمهم. وعند حلول مرحلة النمو (في أعمار 7 و10 و13)، يحدد مستوى النمو عدد خيارات السمات والشغف المتاحة. يُعاد ضبط مستوى النمو بعد كل مرحلة نمو.</StatsReport_GrowthTierDesc>
 
   <!-- EN: Life stage -->
   <StatsReport_DevelopmentStage>المرحلة العمرية</StatsReport_DevelopmentStage>
@@ -61,9 +61,9 @@
   <!-- EN: Age factor -->
   <StatsReport_FertilityAgeFactor>عامل العمر</StatsReport_FertilityAgeFactor>
   <!-- EN: Has {0_label} gene -->
-  <StatsReport_HasGene>لديه جين {0_label}</StatsReport_HasGene>
+  <StatsReport_HasGene>لديه مورثة {0_label}</StatsReport_HasGene>
   <!-- EN: A person of the {0} xenotype.\n\nAbout {0}s: -->
-  <StatsReport_NonBaselinerDescription>شخص من النمط الجيني {0}.\n\nنبذة عن {0}:</StatsReport_NonBaselinerDescription>
+  <StatsReport_NonBaselinerDescription>شخص من النمط الوراثي {0}.\n\nنبذة عن {0}:</StatsReport_NonBaselinerDescription>
   
   <!-- EN: Lifestage -->
   <Stat_Thing_Apparel_ValidLifestage>مرحلة الحياة</Stat_Thing_Apparel_ValidLifestage>
@@ -76,7 +76,7 @@
   <!-- EN: Effects -->
   <Effects>التأثيرات</Effects>
   <!-- EN: A multiplier on chance of having a romantic relationship with someone who does not have this gene. -->
-  <StatsReport_MissingGeneRomanceChance>مضاعف فرصة إقامة علاقة عاطفية مع شخص لا يحمل هذا الجين.</StatsReport_MissingGeneRomanceChance>
+  <StatsReport_MissingGeneRomanceChance>مضاعف فرصة إقامة علاقة عاطفية مع شخص لا يحمل هذه المورثة.</StatsReport_MissingGeneRomanceChance>
   <!-- EN: Immune to -->
   <ImmuneTo>محصن ضد</ImmuneTo>
   <!-- EN: Social fight chance factor -->
@@ -132,10 +132,10 @@
   <!-- EN: Carriers cannot build a tolerance to {0_label}. -->
   <GeneToleranceBuildupImmune>لا يمكن للحاملين بناء تحمل تجاه {0_label}.</GeneToleranceBuildupImmune>
   <!-- EN: Carriers build a tolerance to {0_label} {1} as quickly. -->
-  <GeneToleranceBuildupFactor>يبني حاملو الجين تحملاً تجاه {0_label} بسرعة تعادل {1} من المعدل الطبيعي.</GeneToleranceBuildupFactor>
+  <GeneToleranceBuildupFactor>يبني حاملو المورثة تحملاً تجاه {0_label} بسرعة تعادل {1} من المعدل الطبيعي.</GeneToleranceBuildupFactor>
   <!-- EN: Carriers cannot overdose on {0_label}. -->
   <GeneOverdoseImmune>لا يمكن للحاملين أخذ جرعة زائدة من {0_label}.</GeneOverdoseImmune>
   <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
-  <GeneOverdoseFactor>حاملو الجين معرضون لاحتمال يعادل {1} للإصابة بجرعة زائدة من {0_label}.</GeneOverdoseFactor>
+  <GeneOverdoseFactor>حاملو المورثة معرضون لاحتمال يعادل {1} للإصابة بجرعة زائدة من {0_label}.</GeneOverdoseFactor>
 
 </LanguageData>

@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: became lover -->
-  <BecameLover.label>أصبح حبيبًا</BecameLover.label>
+  <BecameLover.label>أصبح حبيباً</BecameLover.label>
   <!-- EN:
     <li>tale_noun->[PURSUER_nameDef] and [ACCEPTER_nameDef] becoming lovers</li>
     <li>image->[PURSUER_nameFull] whispering sweet nothings into [ACCEPTER_nameFull]'s ear [circumstance_group]</li>
@@ -33,7 +33,7 @@
     <li>desc_sentence->[PURSUER_nameDef] يتكور بجانب [ACCEPTER_nameDef].</li>
     <li>desc_sentence->[PURSUER_nameDef] يثبت عينيه في عيني [ACCEPTER_nameDef].</li>
     <li>desc_sentence->[PURSUER_nameDef] ينفخ هواء نحو [ACCEPTER_nameDef].</li>
-    <li>desc_sentence->[PURSUER_nameDef] مرتبط أسلوبيًا بـ[ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] مرتبط أسلوبياً بـ[ACCEPTER_nameDef].</li>
     <li>desc_sentence->[PURSUER_nameDef] هو صورة شبه معكوسة لـ[ACCEPTER_nameDef].</li>
     <li>desc_sentence->[PURSUER_nameDef] يلمس [ACCEPTER_nameDef] بعدوانية.</li>
  </BecameLover.rulePack.rulesStrings>
@@ -56,14 +56,14 @@
   <BondedWithAnimal.rulePack.rulesStrings>
     <li>tale_noun->ارتباط [HUMAN_nameDef] بـ[ANIMAL_nameDef]</li>
     <li>image->[HUMAN_nameFull] يرتبط بـ[ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[HUMAN_nameFull] يشكل رابطًا عميقًا مع [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[HUMAN_nameFull] يدرك أن [HUMAN_possessive] يحب حقًا [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] يشكل رابطاً عميقاً مع [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] يدرك أنـ[HUMAN_possessive] يحب حقاً [ANIMAL_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->بينما تنظر الحيوانات الأخرى</li>
     <li>circumstance_phrase->بينما ينظر في عيني [ANIMAL_nameDef]</li>
     <li>circumstance_phrase->بشعور من الرضا</li>
     <li>desc_sentence->[ANIMAL_nameDef] يتكور بجانب [HUMAN_nameDef].</li>
-    <li>desc_sentence->[ANIMAL_nameDef] يبدو نعسانًا وثملًا بالحب.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] يقف شامخًا ويبدو نبيلًا.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] يبدو نعساناً وثملاً بالحب.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] يقف شامخاً ويبدو نبيلاً.</li>
     <li>desc_sentence->[ANIMAL_nameDef] يستجيب بإيجابية.</li>
  </BondedWithAnimal.rulePack.rulesStrings>
   
@@ -90,14 +90,14 @@
     <li>image->[DUMPER_nameFull] يجلس [REJECTED_nameFull] للحديث غير السار [circumstance_group]</li>
     <li>image->[DUMPER_nameFull] يقف على مسافة من [REJECTED_nameFull] [circumstance_group]</li>
     <li>image->[DUMPER_nameFull] يدفع [REJECTED_nameFull] خارج السرير [circumstance_group]</li>
-    <li>image->[DUMPER_nameFull] يرفض عناقًا من [REJECTED_nameFull] [circumstance_group]</li>
+    <li>image->[DUMPER_nameFull] يرفض عناقاً من [REJECTED_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->في لحظة حزن عظيم</li>
-    <li>circumstance_phrase->بينما ينظر الآخرون بعيدًا بإحراج</li>
+    <li>circumstance_phrase->بينما ينظر الآخرون بعيداً بإحراج</li>
     <li>circumstance_phrase->بينما ينظر الآخرون</li>
     <li>desc_sentence->[REJECTED_nameDef] ينتحب دون سيطرة.</li>
     <li>desc_sentence->[REJECTED_nameDef] يسخر ويبكي في نفس الوقت.</li>
     <li>desc_sentence->[REJECTED_nameDef] وجهه جامد من الصدمة.</li>
-    <li>desc_sentence->[DUMPER_nameDef] منفصل أسلوبيًا عن [REJECTED_nameDef].</li>
+    <li>desc_sentence->[DUMPER_nameDef] منفصل أسلوبياً عن [REJECTED_nameDef].</li>
     <li>desc_sentence->[REJECTED_nameDef] انهار على الأرض ككومة مرتجفة.</li>
     <li>desc_sentence->[REJECTED_nameDef] يومئ بغضب نحو [DUMPER_nameDef].</li>
  </Breakup.rulePack.rulesStrings>
@@ -132,7 +132,7 @@
     <li>desc_sentence->[SPOUSE1_nameDef] يتكور بجانب [SPOUSE2_nameDef].</li>
     <li>desc_sentence->[SPOUSE1_nameDef] يثبت عينيه في عيني [SPOUSE2_nameDef].</li>
     <li>desc_sentence->[SPOUSE1_nameDef] ينفخ هواء نحو [SPOUSE2_nameDef].</li>
-    <li>desc_sentence->[SPOUSE1_nameDef] مرتبط أسلوبيًا بـ[SPOUSE2_nameDef].</li>
+    <li>desc_sentence->[SPOUSE1_nameDef] مرتبط أسلوبياً بـ[SPOUSE2_nameDef].</li>
     <li>desc_sentence->[SPOUSE1_nameDef] هو صورة شبه معكوسة لـ[SPOUSE2_nameDef].</li>
     <li>desc_sentence->[SPOUSE1_nameDef] يلمس [SPOUSE2_nameDef] بعدوانية.</li>
  </Marriage.rulePack.rulesStrings>

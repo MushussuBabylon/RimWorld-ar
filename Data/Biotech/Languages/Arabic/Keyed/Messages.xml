@@ -14,7 +14,7 @@
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
   <MessageCantUseOnResistingPerson>لا يمكن استخدام {ABILITY_label} على أي شخص يقاوم بنشاط.</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
-  <MessageCannotUseOnSameXenotype>{0_labelShort} لديه بالفعل النمط الغريب {0_xenotype}.</MessageCannotUseOnSameXenotype>
+  <MessageCannotUseOnSameXenotype>{0_labelShort} لديه بالفعل النمط الجيني {0_xenotype}.</MessageCannotUseOnSameXenotype>
   <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
   <MessagePawnHasNoXenogenes>{0_labelShort} ليس لديه مورثات دخيلة متاحة للزرع.</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
@@ -24,13 +24,13 @@
   <!-- EN: A xenogerm has been completed. -->
   <MessageXenogermCompleted>اكتمل زينوجرم.</MessageXenogermCompleted>
   <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
-  <MessageXenogermCancelledMissingPack>أُلغي العمل على الزينوجرم في {0_labelShort}: عبوة المورثات المطلوبة مفقودة.</MessageXenogermCancelledMissingPack>
+  <MessageXenogermCancelledMissingPack>أُلغي العمل على الزينوجرم في {0_labelShort}: حزمة المورثات المطلوبة مفقودة.</MessageXenogermCancelledMissingPack>
   <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
   <MessageAbsorbingXenogermWillAngerFaction>امتصاص زينوجرم {PAWN_nameDef} سيغضب {0}.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>لا يمكن استخدام {ABILITY_label} إلا على المستعمرين، السجناء، والعبيد.</MessageCannotUseOnOtherFactions>
   <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
-  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} يرفض التحول إلى نمط غريب غير مفضل.</MessageCannotBecomeNonPreferredXenotype>
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} يرفض التحول إلى نمط جيني غير مفضل.</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>إضافة تلقائية لـ {MECH_nameDef} إلى القافلة، لأنه يرافق {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
@@ -67,7 +67,7 @@
   <MessagePlantDiedOfRot_PollutedTerrain>تعفن {0} بسبب الأرض الملوثة.</MessagePlantDiedOfRot_PollutedTerrain>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
-  <MessageTargetMustBeDownedToForceReimplant>يجب أن يكون {PAWN_nameDef} مطروحاً أرضاً قبل أن تتمكن من إجبار {PAWN_objective} على إعادة زرع زينوجرمـ{PAWN_possessive}.</MessageTargetMustBeDownedToForceReimplant>
+  <MessageTargetMustBeDownedToForceReimplant>يجب أن يكون {PAWN_nameDef} مطروحاً أرضاً قبل أن تتمكن من إجبار{PAWN_objective} على إعادة زرع زينوجرمـ{PAWN_possessive}.</MessageTargetMustBeDownedToForceReimplant>
 
   <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
   <MessageWorkTypeDisabledAge>عمر {0_nameDef} {1} سنة فقط. ولا يمكن أداء عمل {2} إلا من سن {3}.</MessageWorkTypeDisabledAge>
@@ -88,11 +88,11 @@
   <!-- EN: Cannot create a xenogerm with no genes. -->
   <MessageNoSelectedGenepacks>لا يمكن إنشاء زينوجرم بدون مورثات.</MessageNoSelectedGenepacks>
   <!-- EN: Cannot create a xenotype with no genes. -->
-  <MessageNoSelectedGenes>لا يمكن إنشاء نمط غريب بدون مورثات.</MessageNoSelectedGenes>
+  <MessageNoSelectedGenes>لا يمكن إنشاء نمط جيني بدون مورثات.</MessageNoSelectedGenes>
   <!-- EN: {0_label} can only store {1} genepacks. -->
-  <CanOnlyStoreNumGenepacks>يمكن لـ {0_label} تخزين {1} عبوة مورثات فقط.</CanOnlyStoreNumGenepacks>
+  <CanOnlyStoreNumGenepacks>يمكن لـ {0_label} تخزين {1} حزمة مورثات فقط.</CanOnlyStoreNumGenepacks>
   <!-- EN: Xenotype name cannot be empty. -->
-  <XenotypeNameCannotBeEmpty>لا يمكن أن يكون اسم النمط الغريب فارغاً.</XenotypeNameCannotBeEmpty>
+  <XenotypeNameCannotBeEmpty>لا يمكن أن يكون اسم النمط الجيني فارغاً.</XenotypeNameCannotBeEmpty>
   <!-- EN: {0} lacks a prerequisite gene -->
   <MessageGeneMissingPrerequisite>{0} يفتقر إلى مورثة متطلب أساسي.</MessageGeneMissingPrerequisite>
 
@@ -133,9 +133,9 @@
   <MessageChildcareNotAssigned>{FEEDER_labelShort} غير معين للقيام بمهام رعاية الأطفال.</MessageChildcareNotAssigned>
 
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
-  <MessageTooManyCustomXenotypes>لديك بالفعل الحد الأقصى من الأنماط الغريبة المخصصة. يجب حذف البعض إذا كنت ترغب في إنشاء المزيد.</MessageTooManyCustomXenotypes>
+  <MessageTooManyCustomXenotypes>لديك بالفعل الحد الأقصى من الأنماط الجينية المخصصة. يجب حذف البعض إذا كنت ترغب في إنشاء المزيد.</MessageTooManyCustomXenotypes>
   <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
-  <MessageConflictingGenesPresent>لا يمكن حفظ نمط غريب به عدة مورثات متعارضة.</MessageConflictingGenesPresent>
+  <MessageConflictingGenesPresent>لا يمكن حفظ نمط جيني به عدة مورثات متعارضة.</MessageConflictingGenesPresent>
 
   <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
   <MessageDeathrestBuildingBound>تم ربط {BUILDING_labelShort} بـ {PAWN_nameDef} ({CUR}/{MAX} سعة سبات الموت).</MessageDeathrestBuildingBound>
@@ -144,9 +144,9 @@
   <MessageDevelopmentalStageSelectionDisabledByScenario>اختيار مرحلة النمو معطل بواسطة السيناريو.</MessageDevelopmentalStageSelectionDisabledByScenario>
 
   <!-- EN: {PAWN_nameDef} did not have enough blood to produce a hemogen pack.  -->
-  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>لم يكن لدى {PAWN_nameDef} دم كافٍ لإنتاج عبوة الهيموجين.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
+  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>لم يكن لدى {PAWN_nameDef} دم كافٍ لإنتاج حقيبة الهيموجين.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
   <!-- EN: {PAWN_nameDef} doesn't have enough blood to produce a hemogen pack. -->
-  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} ليس لديه دم كافٍ لإنتاج عبوة الهيموجين.</MessageCannotStartHemogenExtraction>
+  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} ليس لديه دم كافٍ لإنتاج حقيبة الهيموجين.</MessageCannotStartHemogenExtraction>
 
   <!-- EN: You must choose how {PAWN_nameDef} will grow now. -->
   <MessageCannotPostponeGrowthMoment>يجب أن تختار الآن كيف سينمو {PAWN_nameDef}.</MessageCannotPostponeGrowthMoment>

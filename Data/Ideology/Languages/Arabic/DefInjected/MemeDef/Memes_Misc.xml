@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: animal personhood -->
-  <AnimalPersonhood.label>شخصية الحيوان</AnimalPersonhood.label>
+  <AnimalPersonhood.label>مكانة الحيوان</AnimalPersonhood.label>
   <!-- EN: Animals have rights as humans do. -->
   <AnimalPersonhood.description>للحيوانات حقوق كما للبشر.</AnimalPersonhood.description>
   <!-- EN:
@@ -38,7 +38,7 @@
     <li>creation(tag=meme_AnimalPersonhood)        ->خلق [deity0_name] [sacredAnimalList] والإنسان على [place_summary] [place_name] ورباهم كأشقاء.</li>
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->جمع [deity0_name] الحيوانات والبشر من [place_summary] [place_name] في مؤتمر عظيم.</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->بارك [deity0_name] [place_summary] [place_name] بـ[sacredAnimalListEnd]، وعلم الناس هناك أن يكرمّوا الحيوانات.</li>
-    <li>conflict(tag=meme_AnimalPersonhood)        ->أمر [foeLeader] شرير باصطياد الحيوانات البرية، فاصطادها [foeLeader_possessive] [foeSoldiers] بـ[place_personalWeapon] قاسية.</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->أمر [foeLeader] شرير باصطياد الحيوانات البرية، فاصطادها[foeLeader_possessive] [foeSoldiers] بـ[place_personalWeapon] قاسية.</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->جاء [deity0_name] إلى [place_job] يُدعى [founderName] [revelationAdverb] بخصوص [veneratedAnimal]. لكن [founderName] كان هو [veneratedAnimal]، والـ[veneratedAnimal] كان هو [founderName]، وفهم [founder_pronoun] خطة [deity0_name].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->حرر [place_job] يُدعى [founderName] حيوانات عديدة استعبدها أسياد قساة، واقتادها إلى الملاذ في [altarRoomLabel] [deity0_name].</li>
     <li>victory(tag=meme_AnimalPersonhood)         ->نادى [founderName] [memberNamePlural] والحيوانات بصوت [deity0_name]، وفي تدافع عظيم من الحوافر والمخالب والأقدام، داسوا [foeLeader] وجنوده [foeSoldiers].</li>
@@ -109,7 +109,7 @@
   <AnimalPersonhood.symbolPacks.1.theme>وحوش</AnimalPersonhood.symbolPacks.1.theme>
   
   <!-- EN: blindsight -->
-  <Blindsight.label>الإبصار الأعمى</Blindsight.label>
+  <Blindsight.label>تقديس العمى</Blindsight.label>
   <!-- EN: Only those who are blind can perceive the true reality. -->
   <Blindsight.description>فقط أولئك العميان يمكنهم إدراك الحقيقة الواقعة.</Blindsight.description>
   <!-- EN:
@@ -134,7 +134,7 @@
   -->
   <Blindsight.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Blindsight)        ->راقب [deity0_name] غبار العدم الأبدي ولم يكن هناك شيء. ثم اقتلع [deity0_pronoun] عينيه وتشكل الكون في عقله.</li>
-    <li>episode(uses=1,tag=meme_Blindsight)  ->سأل متسول أعمى [deity0_objective]: "لماذا تخليت عني؟ لا أستطيع حتى رؤية ما خلقت." فأجاب [deity0_name]: "أنت ترى أكثر، لا أقل، لأن حقيقتي تكمن في العقل."</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->سأل متسول أعميـ[deity0_objective]: "لماذا تخليت عني؟ لا أستطيع حتى رؤية ما خلقت." فأجاب [deity0_name]: "أنت ترى أكثر، لا أقل، لأن حقيقتي تكمن في العقل."</li>
     <li>intro(tag=meme_Blindsight)           ->استخدم [deity0_type] [deity0_name] ممراضاً ليضرب مستوطني [place_summary] [place_name] بالعمى، مجبراً إياهم على إدراك أن البصر حاجز أمام المعرفة الإلهية.</li>
     <li>conflict(tag=meme_Blindsight)        ->طلب [foeLeader] من جميع [memberNamePlural] مشاهدة دعايته كل يوم. أعمى الكثيرون أنفسهم احتجاجاً.</li>
     <li>founderJoin(tag=meme_Blindsight)     ->فقد [place_job] يُدعى [founderName] بصره عندما أنقذ [memberName] من أحد جنود [foeLeader]. حينها فقط استطاع [founderName] رؤية طغيان [foeLeader] حقاً.</li>
@@ -190,7 +190,7 @@
  </Blindsight.generalRules.rulesStrings>
   
   <!-- EN: cannibal -->
-  <Cannibal.label>آكل لحوم البشر</Cannibal.label>
+  <Cannibal.label>أكل لحوم البشر</Cannibal.label>
   <!-- EN: We must consume human flesh. -->
   <Cannibal.description>يجب أن نستهلك لحم البشر.</Cannibal.description>
   <!-- EN:
@@ -366,7 +366,7 @@
  </Darkness.generalRules.rulesStrings>
   
   <!-- EN: flesh purity -->
-  <FleshPurity.label>طهر الجسد</FleshPurity.label>
+  <FleshPurity.label>نقاء الجسد</FleshPurity.label>
   <!-- EN: The human body should not be debased. -->
   <FleshPurity.description>لا ينبغي تدنيس جسد الإنسان.</FleshPurity.description>
   <!-- EN:
@@ -457,7 +457,7 @@
   <FleshPurity.symbolPacks.2.theme>قدسية</FleshPurity.symbolPacks.2.theme>
   
   <!-- EN: high life -->
-  <HighLife.label>الحياة الراقية</HighLife.label>
+  <HighLife.label>حياة النشوة</HighLife.label>
   <!-- EN: Exotic states of mind are central to a good life. -->
   <HighLife.description>حالات الوعي الغريبة أساسية للحياة الطيبة.</HighLife.description>
   <!-- EN:
@@ -782,7 +782,7 @@
   <PainIsVirtue.symbolPacks.4.theme>بؤس</PainIsVirtue.symbolPacks.4.theme>
   
   <!-- EN: proselytizer -->
-  <Proselytizer.label>داعية</Proselytizer.label>
+  <Proselytizer.label>التبشير</Proselytizer.label>
   <!-- EN: It is our duty to spread our beliefs. -->
   <Proselytizer.description>من واجبنا نشر معتقداتنا.</Proselytizer.description>
   <!-- EN:
@@ -863,7 +863,7 @@
   <Proselytizer.symbolPacks.2.theme>واقع</Proselytizer.symbolPacks.2.theme>
   
   <!-- EN: raider -->
-  <Raider.label>غزوي</Raider.label>
+  <Raider.label>الغزو</Raider.label>
   <!-- EN: The strong should take from the weak. -->
   <Raider.description>القوي ينبغي أن يأخذ من الضعيف.</Raider.description>
   <!-- EN:
@@ -972,7 +972,7 @@
   <Raider.symbolPacks.3.theme>لصوصية</Raider.symbolPacks.3.theme>
   
   <!-- EN: rancher -->
-  <Rancher.label>مربي الماشية</Rancher.label>
+  <Rancher.label>تربية المواشي</Rancher.label>
   <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
   <Rancher.description>تربية الحيوانات هي الطريق الصحيح؛ تربية النباتات للأكل ليست كذلك.</Rancher.description>
   <!-- EN:
@@ -1073,7 +1073,7 @@
   <Rancher.symbolPacks.2.theme>مراع</Rancher.symbolPacks.2.theme>
   
   <!-- EN: transhumanist -->
-  <Transhumanist.label>ما بعد الإنسانية</Transhumanist.label>
+  <Transhumanist.label>ما بعد إنساني</Transhumanist.label>
   <!-- EN: Human progress means merging with technology. -->
   <Transhumanist.description>التقدم البشري يعني الاندماج مع التكنولوجيا.</Transhumanist.description>
   <!-- EN:
@@ -1098,7 +1098,7 @@
   -->
   <Transhumanist.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Transhumanist)        ->منحنا [deity0_name] معرفة التكنولوجيا، لنستخدمها لتحسين وإعادة صنع أنفسنا على صورته المثالية.</li>
-    <li>episode(uses=1,tag=meme_Transhumanist)  ->درس المهندسون الحيويون البشريون أعمال [deity0_name]، الأمر الذي أرضى [deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->درس المهندسون الحيويون البشريون أعمال [deity0_name]، الأمر الذي أرضيـ[deity0_objective].</li>
     <li>intro(tag=meme_Transhumanist)           ->في [place_summary] [place_name]، وجد [memberNamePlural] كلمات [deity0_name] تهامسهم عبر آلاتهم.</li>
     <li>conflict(tag=meme_Transhumanist)        ->حسد [foeLeader] لاضيّ تقدم [memberNamePlural] المعزز، فدمر جنوده مشاغلهم بـ[place_personalWeapon].</li>
     <li>founderJoin(tag=meme_Transhumanist)     ->ابتكر [place_job] داهية يُدعى [founderName] زرعة استشعار لتحذير [memberNamePlural] من اقتراب جنود [foeLeader].</li>
@@ -1220,7 +1220,7 @@
   <Transhumanist.symbolPacks.5.theme>تعزيز</Transhumanist.symbolPacks.5.theme>
   
   <!-- EN: tree connection -->
-  <TreeConnection.label>اتصال الأشجار</TreeConnection.label>
+  <TreeConnection.label>رابطة الأشجار</TreeConnection.label>
   <!-- EN: Trees are the essence of life, and we must be near them. -->
   <TreeConnection.description>الأشجار جوهر الحياة، ويجب أن نكون قربها.</TreeConnection.description>
   <!-- EN:
@@ -1307,7 +1307,7 @@
  </TreeConnection.generalRules.rulesStrings>
   
   <!-- EN: tunneler -->
-  <Tunneler.label>حفار</Tunneler.label>
+  <Tunneler.label>ناسك الأنفاق</Tunneler.label>
   <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
   <Tunneler.description>ينبغي للبشر أن يعيشوا تحت الأرض، ويتمتعوا بثمر الأعماق الغض.</Tunneler.description>
   <!-- EN:

@@ -52,14 +52,14 @@
   <!-- EN: surgery success chance factor -->
   <SurgerySuccessChanceFactor.label>عامل فرصة نجاح الجراحة</SurgerySuccessChanceFactor.label>
   <!-- EN: A multiplier to the chance that a surgery will succeed when performed here.\n\nSurgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
-  <SurgerySuccessChanceFactor.description>مضاعف لفرصة نجاح الجراحة عند إجرائها هنا.\n\nفرص نجاح الجراحة تتأثر أيضًا بالعديد من العوامل الأخرى، بما في ذلك قدرة الجراح والدواء المستخدم.</SurgerySuccessChanceFactor.description>
+  <SurgerySuccessChanceFactor.description>مضاعف لفرصة نجاح الجراحة عند إجرائها هنا.\n\nفرص نجاح الجراحة تتأثر أيضاً بالعديد من العوامل الأخرى، بما في ذلك قدرة الجراح والدواء المستخدم.</SurgerySuccessChanceFactor.description>
   <!-- EN: Room cleanliness -->
   <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>نظافة الغرفة</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
   
   <!-- EN: trap melee damage -->
   <TrapMeleeDamage.label>ضرر الفخ القتالي</TrapMeleeDamage.label>
   <!-- EN: How much damage this trap does on average per hit. Each trap hits multiple times.\n\nThe actual damage in any instance will vary randomly. -->
-  <TrapMeleeDamage.description>كمية الضرر التي يسببها هذا الفخ في المتوسط لكل ضربة. كل فخ يضرب عدة مرات.\n\nالضرر الفعلي في أي حالة سيتغير عشوائيًا.</TrapMeleeDamage.description>
+  <TrapMeleeDamage.description>كمية الضرر التي يسببها هذا الفخ في المتوسط لكل ضربة. كل فخ يضرب عدة مرات.\n\nالضرر الفعلي في أي حالة سيتغير عشوائياً.</TrapMeleeDamage.description>
   
   <!-- EN: trap spring chance -->
   <TrapSpringChance.label>فرصة انطلاق الفخ</TrapSpringChance.label>
@@ -79,6 +79,6 @@
   <!-- EN: work to build -->
   <WorkToBuild.label>العمل اللازم للبناء</WorkToBuild.label>
   <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered.\n\nThe work required to deconstruct the structure is also based on this. -->
-  <WorkToBuild.description>المقدار الأساسي من العمل اللازم لبناء هيكل، بمجرد تجميع كل المواد.\n\nالعمل المطلوب لهدم الهيكل يعتمد أيضًا على هذا.</WorkToBuild.description>
+  <WorkToBuild.description>المقدار الأساسي من العمل اللازم لبناء هيكل، بمجرد تجميع كل المواد.\n\nالعمل المطلوب لهدم الهيكل يعتمد أيضاً على هذا.</WorkToBuild.description>
   
 </LanguageData>

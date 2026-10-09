@@ -51,13 +51,13 @@
   <!-- EN: Required -->
   <Required>مطلوب</Required>
   <!-- EN: Style category -->
-  <StyleCategory>فئة الأسلوب</StyleCategory>
+  <StyleCategory>فئة النمط</StyleCategory>
   <!-- EN: Add style category -->
-  <AddStyleCategory>إضافة فئة أسلوب</AddStyleCategory>
+  <AddStyleCategory>إضافة فئة نمط</AddStyleCategory>
   <!-- EN: Can't add more than {0} rituals. -->
   <MaxRitualCount>لا يمكن إضافة أكثر من {0} طقس.</MaxRitualCount>
   <!-- EN: Can't add more than {0} relics. -->
-  <MaxRelicCount>لا يمكن إضافة أكثر من {0} أثر.</MaxRelicCount>
+  <MaxRelicCount>لا يمكن إضافة أكثر من {0} أثر مقدس.</MaxRelicCount>
   <!-- EN: can't have more than {0} specialists. -->
   <MaxMultiRolesCount>لا يمكن أن يكون لديك أكثر من {0} أخصائيين.</MaxMultiRolesCount>
   <!-- EN: max {0} -->
@@ -84,7 +84,7 @@
   <SetApparelType>تعيين النوع</SetApparelType>
 
   <!-- EN: change style -->
-  <ChangeStyle>تغيير الأسلوب</ChangeStyle>
+  <ChangeStyle>تغيير النمط</ChangeStyle>
   <!-- EN: {0} {DEITYNOUN} required -->
   <DeitiesRequired>مطلوب {0} {DEITYNOUN}</DeitiesRequired>
   <!-- EN: deity -->
@@ -109,7 +109,7 @@
   <!-- EN: Extract {0} to inventory ({1}) -->
   <ExtractRelicToInventory>استخراج {0} إلى المخزون ({1})</ExtractRelicToInventory>
   <!-- EN: No relic to install -->
-  <NoRelicToInstall>لا يوجد أثر لتثبيته</NoRelicToInstall>
+  <NoRelicToInstall>لا يوجد أثر مقدس لتثبيته</NoRelicToInstall>
   <!-- EN: Install in reliquary -->
   <InstallInReliquary>تثبيت في ضريح الأثر المقدس</InstallInReliquary>
   <!-- EN: no empty accessible reliquary -->

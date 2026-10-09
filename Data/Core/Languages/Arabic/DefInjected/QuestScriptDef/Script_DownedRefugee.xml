@@ -8,8 +8,8 @@
     <li>pawnInvolvedInQuestInfo-></li>
   -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->يتصل بك [refugee_nameDef] ويطلب المساعدة. [refugee_pronoun] جريح ولا يستطيع التحرك.\n\n[refugee_nameDef] [refugee_title] عمره [refugee_age] سنة. يعدك [refugee_pronoun] بالانضمام إليك إذا أنقذت [refugee_objective].\n\nيقول [refugee_nameDef] إن [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->يقول [asker_nameDef]، [asker_faction_leaderTitle] من [asker_faction_name]، إن صديق [asker_possessive] قد أصيب أثناء السفر. الضحية هو [refugee_nameIndef]، [refugee_title] عمره [refugee_age] سنة.\n\nليس لدى [asker_nameDef] أحد لإنقاذ [refugee_nameDef]، لكنه يقول إن تمكنت من الوصول إلى موقع [refugee_nameDef] وإنقاذ [refugee_objective]، فسينضم [refugee_pronoun] إليك.\n\nيقول [asker_nameDef] إن [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(askerIsNull==true)->يتصل بك [refugee_nameDef] ويطلب المساعدة. [refugee_pronoun] جريح ولا يستطيع التحرك.\n\n[refugee_nameDef] [refugee_title] عمره [refugee_age] سنة. يعدك [refugee_pronoun] بالانضمام إليك إذا أنقذتـ[refugee_objective].\n\nيقول [refugee_nameDef] إن [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->يقول [asker_nameDef]، [asker_faction_leaderTitle] من [asker_faction_name]، إن صديقـ[asker_possessive] قد أصيب أثناء السفر. الضحية هو [refugee_nameIndef]، [refugee_title] عمره [refugee_age] سنة.\n\nليس لدى [asker_nameDef] أحد لإنقاذ [refugee_nameDef]، لكنه يقول إن تمكنت من الوصول إلى موقع [refugee_nameDef] وإنقاذ[refugee_objective]، فسينضم [refugee_pronoun] إليك.\n\nيقول [asker_nameDef] إن [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
  </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>

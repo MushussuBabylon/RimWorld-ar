@@ -34,7 +34,7 @@
   <!-- EN: body purist -->
   <BodyPurist.degreeDatas.body_purist.label>متعصب جسدي</BodyPurist.degreeDatas.body_purist.label>
   <!-- EN: {PAWN_nameDef} believes the human body is limited for a reason. To {PAWN_objective}, artificial body parts and xenogenes are unethical and disgusting. -->
-  <BodyPurist.degreeDatas.body_purist.description>يؤمن {PAWN_nameDef} بأن الجسد البشري محدود لسبب وجيه. وبالنسبة لـ{PAWN_objective}، فإن الأطراف الاصطناعية والجينات الغريبة غير أخلاقية ومقززة.</BodyPurist.degreeDatas.body_purist.description>
+  <BodyPurist.degreeDatas.body_purist.description>يؤمن {PAWN_nameDef} بأن الجسد البشري محدود لسبب وجيه. وبالنسبة لـ{PAWN_objective}، فإن الأطراف الاصطناعية والمورثات الدخيلة غير أخلاقية ومقززة.</BodyPurist.degreeDatas.body_purist.description>
   
   <!-- EN: brawler -->
   <Brawler.degreeDatas.brawler.label>ملاكمة</Brawler.degreeDatas.brawler.label>
@@ -89,7 +89,7 @@
   <!-- EN: jealous -->
   <Jealous.degreeDatas.jealous.label>حسود</Jealous.degreeDatas.jealous.label>
   <!-- EN: For {PAWN_nameDef}, it's degrading to have a less impressive bedroom than someone else. {PAWN_pronoun} gets a mood loss if any colonist has a more impressive bedroom. -->
-  <Jealous.degreeDatas.jealous.description>بالنسبة لـ{PAWN_nameDef}، من المهين أن تكون غرفة نومه أقل إبهاراً من غيره. يسوء مزاج{PAWN_pronoun} إن امتلك أي مستعمر غرفة نوم أفخم.</Jealous.degreeDatas.jealous.description>
+  <Jealous.degreeDatas.jealous.description>بالنسبة لـ{PAWN_nameDef}، من المهين أن تكون غرفة نومه أقل إبهاراً من غيره. يسوء مزاجـ{PAWN_possessive} إن امتلك أي مستعمر غرفة نوم أفخم.</Jealous.degreeDatas.jealous.description>
   
   <!-- EN: kind -->
   <Kind.degreeDatas.kind.label>لطيف</Kind.degreeDatas.kind.label>
@@ -104,7 +104,7 @@
   <!-- EN: night owl -->
   <NightOwl.degreeDatas.night_owl.label>بومة ليلية</NightOwl.degreeDatas.night_owl.label>
   <!-- EN: {PAWN_nameDef} likes to be up during the night, and sleep during the day.\n\n{PAWN_pronoun} gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\n{PAWN_pronoun} doesn't get a mood penalty for being in the dark. -->
-  <NightOwl.degreeDatas.night_owl.description>يفضل {PAWN_nameDef} السهر في الليل والنوم نهاراً.\n\nيحصل {PAWN_pronoun} على تحسن مزاجي إن كان مستيقظاً ليلاً (23-6) وسوء مزاجي إن استيقظ نهاراً (11-18).\n\nلا يتأثر مزاج{PAWN_pronoun} سلباً بالوجود في الظلام.</NightOwl.degreeDatas.night_owl.description>
+  <NightOwl.degreeDatas.night_owl.description>يفضل {PAWN_nameDef} السهر في الليل والنوم نهاراً.\n\nيحصل {PAWN_pronoun} على تحسن مزاجي إن كان مستيقظاً ليلاً (23-6) وسوء مزاجي إن استيقظ نهاراً (11-18).\n\nلا يتأثر مزاجـ{PAWN_possessive} سلباً بالوجود في الظلام.</NightOwl.degreeDatas.night_owl.description>
   
   <!-- EN: nimble -->
   <Nimble.degreeDatas.nimble.label>رشيق</Nimble.degreeDatas.nimble.label>
@@ -156,7 +156,7 @@
   <!-- EN: body modder -->
   <Transhumanist.degreeDatas.body_modder.label>معدّل جسدي</Transhumanist.degreeDatas.body_modder.label>
   <!-- EN: {PAWN_nameDef} feels limited in {PAWN_possessive} feeble human body. {PAWN_pronoun} often dreams of being enhanced with artificial body parts or xenogenetics. -->
-  <Transhumanist.degreeDatas.body_modder.description>يشعر {PAWN_nameDef} بأن جسد{PAWN_possessive} البشري الضعيف مقيد له. كثيراً ما يحلم {PAWN_pronoun} بتعزيزه بأطراف اصطناعية أو جينات غريبة.</Transhumanist.degreeDatas.body_modder.description>
+  <Transhumanist.degreeDatas.body_modder.description>يشعر {PAWN_nameDef} بأن جسد{PAWN_possessive} البشري الضعيف مقيد له. كثيراً ما يحلم {PAWN_pronoun} بتعزيزه بأطراف اصطناعية أو مورثات دخيلة.</Transhumanist.degreeDatas.body_modder.description>
   
   <!-- EN: undergrounder -->
   <Undergrounder.degreeDatas.undergrounder.label>متأقلم مع تحت الأرض</Undergrounder.degreeDatas.undergrounder.label>

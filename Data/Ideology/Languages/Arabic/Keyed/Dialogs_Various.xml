@@ -7,15 +7,15 @@
   <!-- EN: Slaves -->
   <SlavesSection>عبيد</SlavesSection>
   <!-- EN: dominant style -->
-  <DominantStyle>الأسلوب السائد</DominantStyle>
+  <DominantStyle>النمط السائد</DominantStyle>
   <!-- EN: Date -->
   <Date>التاريخ</Date>
   <!-- EN: The following development points will be awarded depending on the ritual outcome -->
   <RitualDevelopmentPointRewards>سيتم منح نقاط التطوير التالية اعتماداً على نتيجة الطقس</RitualDevelopmentPointRewards>
   <!-- EN: Use global style -->
-  <UseGlobalStyle>استخدم الأسلوب العالمي</UseGlobalStyle>
+  <UseGlobalStyle>استخدم النمط العالمي</UseGlobalStyle>
   <!-- EN: No style variations available -->
-  <NoStylesAvailable>لا تتوفر تنويعات أسلوب</NoStylesAvailable>
+  <NoStylesAvailable>لا تتوفر تنويعات نمط</NoStylesAvailable>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>اختر الهيكل الرمزي لعقيدتك. هذا يؤثر فقط على الرموز - ولا يؤثر على أسلوب اللعب.</ChooseStructureMemesInfo>
@@ -118,7 +118,7 @@
   <!-- EN: Precept {PRECEPT} -->
   <AbilityIdeoConvertBreakdownPercept>وصية {PRECEPT}</AbilityIdeoConvertBreakdownPercept>
   <!-- EN: {RELICCOUNT} installed relics on map -->
-  <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT} آثار مثبتة على الخريطة</AbilityIdeoConvertBreakdownRelic>
+  <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT} آثار مقدسة مثبتة على الخريطة</AbilityIdeoConvertBreakdownRelic>
   <!-- EN: {PAWN_labelShort}'s social skill -->
   <AbilityIdeoConvertBreakdownSocialSkill>مهارة اجتماعية لـ {PAWN_labelShort}</AbilityIdeoConvertBreakdownSocialSkill>
   <!-- EN: {RECIPIENT_labelShort}'s opinion of {INITIATOR_labelShort} -->
@@ -136,9 +136,9 @@
   <!-- EN: Reform ideoligion -->
   <ReformIdeoligion>تعديل العقيدة</ReformIdeoligion>
   <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
-  <ReformIdeoligionDesc>تعديل عقيدتك عن طريق تغيير هيكلها أو مبادئها أو أسلوبها.</ReformIdeoligionDesc>
+  <ReformIdeoligionDesc>تعديل عقيدتك عن طريق تغيير هيكلها أو مبادئها أو نمطها.</ReformIdeoligionDesc>
   <!-- EN: Change styles -->
-  <ReformIdeoChangeStyles>تغيير الأساليب</ReformIdeoChangeStyles>
+  <ReformIdeoChangeStyles>تغيير الأنماط</ReformIdeoChangeStyles>
   <!-- EN: Add or remove a meme -->
   <ReformIdeoAddOrRemoveMeme>إضافة أو إزالة مبدأ</ReformIdeoAddOrRemoveMeme>
   <!-- EN: Add a meme -->
@@ -150,7 +150,7 @@
   <!-- EN: Change any of the following -->
   <ReformIdeoChangeAny>تغيير أي مما يلي</ReformIdeoChangeAny>
   <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
-  <ReformIdeoRelicHuntQuestEnd>لن يتم تبجيل الأثر {0} من قبل مستعمريك بعد تعديل هذه العقيدة. نظراً لأن المهمة '{0}' تبحث عن هذا الأثر، سيتم إلغاء تنشيطها.</ReformIdeoRelicHuntQuestEnd>
+  <ReformIdeoRelicHuntQuestEnd>لن يتم تبجيل الأثر المقدس {0} من قبل مستعمريك بعد تعديل هذه العقيدة. نظراً لأن المهمة '{0}' تبحث عن هذا الأثر المقدس، سيتم إلغاء تنشيطها.</ReformIdeoRelicHuntQuestEnd>
   <!-- EN: The ritual {0} is in progress and will be cancelled. -->
   <ReformIdeoCancelRituals>الطقس {0} قيد التقدم وسيتم إلغاؤه.</ReformIdeoCancelRituals>
   <!-- EN: Do you wish to continue? -->
@@ -171,7 +171,7 @@
   <!-- EN: Last human meat -->
   <LastHumanMeat>آخر لحم بشري</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
-  <LastHumanMeatDesc>بسبب اعتقاد{PAWN_possessive} بـ {IDEO_name}، سيصبح {PAWN_nameDef} غير سعيد إذا مضى عليـ{PAWN_pronoun} أكثر من {DURATION} يوم دون أكل لحم بشري.</LastHumanMeatDesc>
+  <LastHumanMeatDesc>بسبب اعتقاد{PAWN_possessive} بـ {IDEO_name}، سيصبح {PAWN_nameDef} غير سعيد إذا مضى عليـ{PAWN_objective} أكثر من {DURATION} يوم دون أكل لحم بشري.</LastHumanMeatDesc>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
   <ExectueNeutralFactionSlave>إعدام {PAWN_labelShort} سيؤثر سلباً على العلاقات مع {FACTION_name}.</ExectueNeutralFactionSlave>
@@ -183,7 +183,7 @@
 
   <!-- Style -->
   <!-- EN: Style -->
-  <StylePawn>الأسلوب</StylePawn>
+  <StylePawn>النمط</StylePawn>
   <!-- EN: hair -->
   <Hair>شعر</Hair>
   <!-- EN: beard -->
@@ -203,15 +203,15 @@
   <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
   <PawnUnhappyWithStyleItems>سيكون {PAWN_nameDef} غير سعيد بما يلي</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescription>تؤثر فئات الأسلوب على مظهر بعض المباني والملابس والأسلحة التي يصنعها {IDEO_memberNamePlural}. إذا أثرت أكثر من فئة على نفس الشيء، تنطبق الفئة الأكثر يساراً.</StyleCategoryDescription>
+  <StyleCategoryDescription>تؤثر فئات النمط على مظهر بعض المباني والملابس والأسلحة التي يصنعها {IDEO_memberNamePlural}. إذا أثرت أكثر من فئة على نفس الشيء، تنطبق الفئة الأكثر يساراً.</StyleCategoryDescription>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescriptionAbstract>تؤثر فئات الأسلوب على مظهر بعض المباني والملابس والأسلحة التي تصنعها مستعمرتك. إذا أثرت أكثر من فئة على نفس الشيء، تنطبق الفئة الأكثر يساراً.</StyleCategoryDescriptionAbstract>
+  <StyleCategoryDescriptionAbstract>تؤثر فئات النمط على مظهر بعض المباني والملابس والأسلحة التي تصنعها مستعمرتك. إذا أثرت أكثر من فئة على نفس الشيء، تنطبق الفئة الأكثر يساراً.</StyleCategoryDescriptionAbstract>
   <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominance>سيكون {IDEO_memberNamePlural} سعداء إذا لاحظوا مباني وأرضيات وفن يطابق هذا الأسلوب.</StyleCategoryDescStyleDominance>
+  <StyleCategoryDescStyleDominance>سيكون {IDEO_memberNamePlural} سعداء إذا لاحظوا مباني وأرضيات وفن يطابق هذا النمط.</StyleCategoryDescStyleDominance>
   <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominanceAbstract>سيكون أعضاء العقيدة سعداء إذا لاحظوا مباني وأرضيات وفن يطابق هذا الأسلوب.</StyleCategoryDescStyleDominanceAbstract>
+  <StyleCategoryDescStyleDominanceAbstract>سيكون أعضاء العقيدة سعداء إذا لاحظوا مباني وأرضيات وفن يطابق هذا النمط.</StyleCategoryDescStyleDominanceAbstract>
   <!-- EN: {0} style category affects -->
-  <StyleCategoryDetails>فئة أسلوب {0} تؤثر على</StyleCategoryDetails>
+  <StyleCategoryDetails>فئة نمط {0} تؤثر على</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
   <OverriddenByStyle>ملغى بواسطة {0}</OverriddenByStyle>
   <!-- EN: New buildables -->
@@ -221,7 +221,7 @@
   <!-- EN: Hair and beards -->
   <HairAndBeards>الشعر واللحى</HairAndBeards>
   <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
-  <HairAndBeardsDesc>تحدد هذه الإعدادات مدى تكرار ظهور كل أسلوب على أعضاء هذه العقيدة.</HairAndBeardsDesc>
+  <HairAndBeardsDesc>تحدد هذه الإعدادات مدى تكرار ظهور كل نمط على أعضاء هذه العقيدة.</HairAndBeardsDesc>
   <!-- EN: Tattoos -->
   <Tattoos>الأوشام</Tattoos>
   <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
@@ -243,7 +243,7 @@
   <!-- EN: {0} in use -->
   <NumAvailable>{0} قيد الاستخدام</NumAvailable>
   <!-- EN: Resets all style items to their default values. -->
-  <ResetButtonDesc>يعيد ضبط جميع عناصر الأسلوب إلى قيمها الافتراضية.</ResetButtonDesc>
+  <ResetButtonDesc>يعيد ضبط جميع عناصر النمط إلى قيمها الافتراضية.</ResetButtonDesc>
 
   <!-- Ancient complex mission -->
   <!-- EN: Send shuttle anyway -->
@@ -259,7 +259,7 @@
 
   <!-- Dryad upgrades -->
   <!-- EN: Choose dryad caste -->
-  <ChangeMode>اختر طائفة الدرياد</ChangeMode>
+  <ChangeMode>اختر طائفة الدرايد</ChangeMode>
   <!-- EN: Required memes -->
   <RequiredMemes>مبادئ مطلوبة</RequiredMemes>
   <!-- EN: Required caste -->
@@ -271,7 +271,7 @@
   <!-- EN: Already selected -->
   <AlreadySelected>مختار بالفعل</AlreadySelected>
   <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
-  <ChooseProductionModeInitialDesc>هنا يمكنك اختيار أي طائفة من الدرياد ستنشئها {TREE_label} هذه.\n\nسينبثق الدرياد من القرون التي تنمو عند قاعدة الشجرة. الحد الأقصى لعدد الدرياد يعتمد على قوة الاتصال بين {TREE_definite} والشخص المتصل.</ChooseProductionModeInitialDesc>
+  <ChooseProductionModeInitialDesc>هنا يمكنك اختيار أي طائفة من الدرايد ستنشئها {TREE_label} هذه.\n\nسينبثق الدرايد من الأجربة التي تنمو عند قاعدة الشجرة. الحد الأقصى لعدد الدرايد يعتمد على قوة الاتصال بين {TREE_definite} والشخص المتصل.</ChooseProductionModeInitialDesc>
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
@@ -281,7 +281,7 @@
   <!-- EN: New Colony -->
   <ChooseThingsForNewColonyTitle>مستعمرة جديدة</ChooseThingsForNewColonyTitle>
   <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
-  <ChooseThingsForNewColonyDesc>اختر أي المستعمرين والحيوانات والآثار لإحضارهم إلى المستعمرة الجديدة.</ChooseThingsForNewColonyDesc>
+  <ChooseThingsForNewColonyDesc>اختر أي المستعمرين والحيوانات والآثار المقدسة لإحضارهم إلى المستعمرة الجديدة.</ChooseThingsForNewColonyDesc>
   <!-- EN: Choose up to {0} {1}. -->
   <ChooseThingsDesc>اختر حتى {0} {1}.</ChooseThingsDesc>
   <!-- EN: Choose up to {0} people. -->
@@ -293,11 +293,11 @@
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
   <ShipEscapeWillEndDescription>سفينة الفضاء السباتية التي أبلغ عنها الذكاء الاصطناعي (*Name)Charlon Whitestone(/Name) ستطير بعيداً بحلول الوقت الذي يتم فيه إنشاء المستعمرة الجديدة. لن يكون من الممكن بعد ذلك الهروب من الكوكب بالسفر إلى هذه السفينة.</ShipEscapeWillEndDescription>
   <!-- EN: No relic was chosen to be brought to the new colony. -->
-  <ArchonexusRelicNotChosen>لم يتم اختيار أي أثر لإحضاره إلى المستعمرة الجديدة.</ArchonexusRelicNotChosen>
+  <ArchonexusRelicNotChosen>لم يتم اختيار أي أثر مقدس لإحضاره إلى المستعمرة الجديدة.</ArchonexusRelicNotChosen>
   <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
   <ArchonexusItemsNotChosen>تم اختيار {0} من أصل {1} عنصر محتمل لإحضارها إلى المستعمرة الجديدة.</ArchonexusItemsNotChosen>
   <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
-  <RemoveEquippedRelicsDescription>سيسمح لك مشترو المستعمرة بأخذ أثر واحد فقط. سيتم ترك أي آثار أخرى (حتى لو كانت مجهزة من قبل مستعمر)، بما في ذلك:</RemoveEquippedRelicsDescription>
+  <RemoveEquippedRelicsDescription>سيسمح لك مشترو المستعمرة بأخذ أثر مقدس واحد فقط. سيتم ترك أي آثار مقدسة أخرى (حتى لو كانت مجهزة من قبل مستعمر)، بما في ذلك:</RemoveEquippedRelicsDescription>
   <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
   <WantToProceed>هل ترغب في المتابعة؟ بعد هذه النقطة، لا عودة.</WantToProceed>
   <!-- EN: Convert -->
@@ -317,7 +317,7 @@
   <ConfirmHackEnemyTerminal>اختراق {0} هذا سينبه الأعداء ويدفعهم للهجوم. هل تريد حقاً اختراق {0}؟</ConfirmHackEnemyTerminal>
 
   <!-- EN: Relics -->
-  <RelicsSection>آثار</RelicsSection>
+  <RelicsSection>آثار مقدسة</RelicsSection>
 
   <!-- Food restrictions -->
   <!-- EN: Vegetarian -->
@@ -330,7 +330,7 @@
   <FoodRestrictionInsectMeat>لحم حشرات</FoodRestrictionInsectMeat>
 
   <!-- EN: Styles in use -->
-  <StylesInUse>أساليب قيد الاستخدام</StylesInUse>
+  <StylesInUse>أنماط قيد الاستخدام</StylesInUse>
   <!-- EN: Add a style. -->
   <StyleCategoryAddDesc>أضف أسلوباً.</StyleCategoryAddDesc>
 </LanguageData>

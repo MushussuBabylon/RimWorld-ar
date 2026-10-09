@@ -9,7 +9,7 @@
   <!-- EN: Mechlink installed -->
   <LetterLabelMechlinkInstalled>تم تركيب وصلة الميكانيتور</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>قام {PAWN_labelShort} بتركيب وصلة الميكانيتور! أصبح {PAWN_pronoun} الآن ميكانيتوراً ويمكنه إنشاء الميكانويدات والتحكم بها.\n\nابحث عن تقنية الميكانويد الأساسية للبدء.\n\n(*SectionTitle)إنشاء الميكانويدات:(/SectionTitle) يمكن للميكانيتور إنشاء الميكانويدات في مبنى إنتاج يسمى الحاضنة.\n\n(*SectionTitle)حول النطاق الترددي:(/SectionTitle) يستطيع الميكانيتور التحكم بعدد من الميكانويدات يسمح به إجمالي نطاقه الترددي. اختر {PAWN_labelShort} وانظر إلى عداد النطاق الترددي الخاصتـ{PAWN_possessive} لتعرف مقدار ما يستخدمه {PAWN_pronoun} حالياً والمقدار المتاح. يمكن زيادة النطاق الترددي ببعض الملابس وبناء مباني عقد النطاق.\n\n(*SectionTitle)حول مجموعات التحكم:(/SectionTitle) يتحكم الميكانيتور بالميكانويدات في مجموعات. يمكن ضبط كل مجموعة على أحد هذه الأوضاع:\n\n- عمل\n- مرافقة\n- إعادة شحن\n- شحن ذاتي خامل\n\nلمعرفة المزيد، اختر أيقونة وضع العمل في إحدى مجموعات تحكم {PAWN_labelShort} وتصفح أوامر العمل المختلفة. يمكن زيادة الحد الأقصى للمجموعات بالملابس والزرعات.\n\n(*SectionTitle)حول استدعاء التهديد:(/SectionTitle) يستطيع الميكانيتور إرسال إشارات لميكانويدات قادة عتيقة لاستدراجها والحصول على مواد نادرة. يجب عليك فعل ذلك لتطوير الميكانيتور بعد حدود معينة، لكن احذر الخطر.</LetterMechlinkInstalled>
+  <LetterMechlinkInstalled>قام {PAWN_labelShort} بتركيب وصلة الميكانيتور! أصبح {PAWN_pronoun} الآن ميكانيتوراً ويمكنه إنشاء الميكانويدات والتحكم بها.\n\nابحث عن تقنية الميكانويد الأساسية للبدء.\n\n(*SectionTitle)إنشاء الميكانويدات:(/SectionTitle) يمكن للميكانيتور إنشاء الميكانويدات في مبنى إنتاج يسمى الحاضنة.\n\n(*SectionTitle)حول عرض النطاق:(/SectionTitle) يستطيع الميكانيتور التحكم بعدد من الميكانويدات يسمح به إجمالي نطاقه الترددي. اختر {PAWN_labelShort} وانظر إلى عداد عرض النطاق الخاصتـ{PAWN_possessive} لتعرف مقدار ما يستخدمه {PAWN_pronoun} حالياً والمقدار المتاح. يمكن زيادة عرض النطاق ببعض الملابس وبناء مباني عقد عرض النطاق.\n\n(*SectionTitle)حول مجموعات التحكم:(/SectionTitle) يتحكم الميكانيتور بالميكانويدات في مجموعات. يمكن ضبط كل مجموعة على أحد هذه الأوضاع:\n\n- عمل\n- مرافقة\n- إعادة شحن\n- شحن ذاتي خامل\n\nلمعرفة المزيد، اختر أيقونة وضع العمل في إحدى مجموعات تحكم {PAWN_labelShort} وتصفح أوامر العمل المختلفة. يمكن زيادة الحد الأقصى للمجموعات بالملابس والزرعات.\n\n(*SectionTitle)حول استدعاء التهديد:(/SectionTitle) يستطيع الميكانيتور إرسال إشارات لميكانويدات قادة عتيقة لاستدراجها والحصول على مواد نادرة. يجب عليك فعل ذلك لتطوير الميكانيتور بعد حدود معينة، لكن احذر الخطر.</LetterMechlinkInstalled>
 
   <!-- EN: This happened because of -->
   <MentalStateReason_Gene>حدث هذا بسبب</MentalStateReason_Gene>
@@ -102,9 +102,9 @@
   <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
   <LetterPartColonistDiedAfterChildbirth>توفيت {0_labelShort} بسبب مضاعفات ما بعد الولادة.</LetterPartColonistDiedAfterChildbirth>
   <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
-  <LetterPartSurrogacy>تم إنشاء الطفل من التلقيح الاصطناعي ويحمل التركيبة الجينية لـ {0_labelShort} و {1_labelShort}.</LetterPartSurrogacy>
+  <LetterPartSurrogacy>تم إنشاء الطفل من التلقيح الاصطناعي ويحمل التركيبة الوراثية لـ {0_labelShort} و {1_labelShort}.</LetterPartSurrogacy>
   <!-- EN: The baby shows signs of genetic abnormalities due to inbreeding. -->
-  <InbredBabyBorn>يظهر الطفل علامات تشوهات جينية بسبب زواج الأقارب.</InbredBabyBorn>
+  <InbredBabyBorn>يظهر الطفل علامات تشوهات وراثية بسبب زواج الأقارب.</InbredBabyBorn>
 
   <!-- EN: {0_nameDef} has already been named. -->
   <BabyAlreadyNamed>تمت تسمية {0_nameDef} بالفعل.</BabyAlreadyNamed>
@@ -124,9 +124,9 @@
   <LetterPartNameBabyAdopt>أُعطي الطفل الاسم المؤقت {0_nameFull}. يمكنك تغييره طالما أن عمر الطفل أقل من {1}.</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
-  <BirthdayGrowthMoment>لحظة نمو لـ {PAWNNAME}</BirthdayGrowthMoment>
+  <BirthdayGrowthMoment>مرحلة نمو لـ {PAWNNAME}</BirthdayGrowthMoment>
   <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
-  <BirthdayBiologicalGrowthMoment>بلغ {0_nameFull} العمر البيولوجي {1} واختبر لحظة نمو!</BirthdayBiologicalGrowthMoment>
+  <BirthdayBiologicalGrowthMoment>بلغ {0_nameFull} العمر البيولوجي {1} واختبر مرحلة نمو!</BirthdayBiologicalGrowthMoment>
   <!-- EN: {0_nameDef} is now old enough to do the following work -->
   <BirthdayBiologicalAgeWorkTypes>{0_nameDef} الآن كبير بما يكفي للقيام بالأعمال التالية</BirthdayBiologicalAgeWorkTypes>
   <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
@@ -136,7 +136,7 @@
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
   <BirthdayPickTrait>اختر سمة ليكتسبها {0_nameDef}</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
-  <BirthdayGrowthTier>عند حدوث لحظة النمو هذه، كان {0_nameDef} في مرحلة النمو {1}. الأطفال في مراحل النمو الأعلى يحصلون على خيارات أكثر من السمات والشغف، وشغف إجمالي أكبر. إشباع حاجة التعلم يساعد الطفل على اكتساب مراحل النمو أسرع. تُصفَّر مراحل النمو بعد كل لحظة نمو.</BirthdayGrowthTier>
+  <BirthdayGrowthTier>عند حدوث مرحلة النمو هذه، كان {0_nameDef} في مرحلة النمو {1}. الأطفال في مراحل النمو الأعلى يحصلون على خيارات أكثر من السمات والشغف، وشغف إجمالي أكبر. إشباع حاجة التعلم يساعد الطفل على اكتساب مراحل النمو أسرع. تُصفَّر مراحل النمو بعد كل مرحلة نمو.</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
   <BirthdayChooseHowPawnWillGrow>افتح هذه الرسالة لاختيار كيفية نمو {0_nameDef}.</BirthdayChooseHowPawnWillGrow>
 
@@ -177,7 +177,7 @@
   <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
   <XenogermOrderedImplantedMedicineNeeded>\n\nليس لديك دواء كاف لزرع الزينوجرم. لا يمكن بدء الزرع حتى تحصل على {MEDICINENEEDED} دواء.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
-  <LetterLabelInvoluntaryDeathrest>سبات موت لا إرادي</LetterLabelInvoluntaryDeathrest>
+  <LetterLabelInvoluntaryDeathrest>سبات الموت لا إرادي</LetterLabelInvoluntaryDeathrest>
   <!-- EN: Regeneration coma -->
   <LetterLabelRegenerationComa>غيبوبة تجدد</LetterLabelRegenerationComa>
   <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
@@ -194,12 +194,12 @@
   <!-- EN: Xenogerm implantation -->
   <LetterLabelSanguophageWaitingToReimplant>زرع الزينوجرم</LetterLabelSanguophageWaitingToReimplant>
   <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
-  <LetterTextSanguophageWaitingToReimplant>كشكر للسماح لـ {PAWN_objective} ورفاقـ{PAWN_possessive} من السانغوفاج بالالتقاء هنا، {PAWN_nameDef} مستعد لمشاركة نسخة من زينوجرمـ{PAWN_possessive} مع أحد مستعمريك. سيحول هذا مستعمرك إلى سانغوفاج.\n\nللقبول، اختر مستعمراً وانقر بزر الماوس الأيمن على {PAWN_nameDef}.\n\nإذا لم يطالب أي مستعمر بالمكافأة خلال {DURATION}، سيغادر السانغوفاج.</LetterTextSanguophageWaitingToReimplant>
+  <LetterTextSanguophageWaitingToReimplant>كشكر للسماح لـ{PAWN_objective} ورفاقـ{PAWN_possessive} من السانغوفاج بالالتقاء هنا، {PAWN_nameDef} مستعد لمشاركة نسخة من زينوجرمـ{PAWN_possessive} مع أحد مستعمريك. سيحول هذا مستعمرك إلى سانغوفاج.\n\nللقبول، اختر مستعمراً وانقر بزر الماوس الأيمن على {PAWN_nameDef}.\n\nإذا لم يطالب أي مستعمر بالمكافأة خلال {DURATION}، سيغادر السانغوفاج.</LetterTextSanguophageWaitingToReimplant>
 
   <!-- EN: Genes reimplanted -->
   <LetterLabelGenesImplanted>أُعيد زرع المورثات</LetterLabelGenesImplanted>
   <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
-  <LetterTextGenesImplanted>قام {CASTER_nameDef} بزرع نسخة من زينوجرمـ{CASTER_possessive} في {TARGET_nameDef}، ناقلاً كل المورثات الدخيلة إلى {TARGET_objective}.\n\nسيبقى {TARGET_nameDef} في غيبوبة الزينوجرم لـ {COMADURATION} القادمة بينما يتكيف جسد{TARGET_possessive} مع التغييرات.\n\nسيعاني {CASTER_nameDef} من صدمة فقدان المورثات لـ {SHOCKDURATION} القادمة. وستحتاج مورثاتـ{CASTER_possessive} أيضاً إلى إعادة النمو. تستغرق هذه العملية وقتاً. إذا زرع {CASTER_nameDef} زينوجرمـ{CASTER_possessive} مرة أخرى قبل أن تنمو مورثاتـ{CASTER_possessive}، فسيموت {CASTER_pronoun}.</LetterTextGenesImplanted>
+  <LetterTextGenesImplanted>قام {CASTER_nameDef} بزرع نسخة من زينوجرمـ{CASTER_possessive} في {TARGET_nameDef}، ناقلاً كل المورثات الدخيلة إليـ{TARGET_objective}.\n\nسيبقى {TARGET_nameDef} في غيبوبة الزينوجرم لـ {COMADURATION} القادمة بينما يتكيف جسد{TARGET_possessive} مع التغييرات.\n\nسيعاني {CASTER_nameDef} من صدمة فقدان المورثات لـ {SHOCKDURATION} القادمة. وستحتاج مورثاتـ{CASTER_possessive} أيضاً إلى إعادة النمو. تستغرق هذه العملية وقتاً. إذا زرع {CASTER_nameDef} زينوجرمـ{CASTER_possessive} مرة أخرى قبل أن تنمو مورثاتـ{CASTER_possessive}، فسيموت {CASTER_pronoun}.</LetterTextGenesImplanted>
   
   <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
   <RefugeePodCrashBaby>طفل رضيع يدعى {PAWN_nameDef} من {PAWN_factionName} يتحطم في كبسولة نقل قريبة.\n\nيمكنك اختيار تبنيـ{PAWN_objective} بأمر 'تبنَّ' أو تجاهلـ{PAWN_objective}.</RefugeePodCrashBaby>

@@ -138,9 +138,9 @@
   <GaveBirth.rulePack.rulesStrings>
     <li>tale_noun->[MOTHER_nameDef] تلد [CHILD_nameDef]</li>
     <li>image->[MOTHER_nameFull] تلد [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] تحمل [MOTHER_possessive] [baby]، [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] راقدة في السرير بجانب [MOTHER_possessive] [baby]، [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] منهارة على كرسي مع [MOTHER_possessive] [baby] [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] تحملـ[MOTHER_possessive] [baby]، [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] راقدة في السرير بجانبـ[MOTHER_possessive] [baby]، [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] منهارة على كرسي معـ[MOTHER_possessive] [baby] [circumstance_group]</li>
     <li>baby->رضيع</li>
     <li>baby->مولود</li>
     <li>baby->طفل</li>
@@ -225,7 +225,7 @@
     <li>image->[PAWN_nameFull] يبحث عن [Apparel] دافئ [circumstance_group]</li>
     <li>image->[PAWN_nameFull] جاثم بجوار نار [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يحاول إشعال نار [circumstance_group]</li>
-    <li>circumstance_phrase->بينما يتحول وجه [PAWN_possessive] ببطء للأزرق</li>
+    <li>circumstance_phrase->بينما يتحول وجهـ[PAWN_possessive] ببطء للأزرق</li>
     <li>circumstance_phrase->وهو يرتجف دون توقف</li>
     <li>circumstance_phrase->وهو مغطى بالصقيع</li>
     <li>circumstance_phrase->وهو يزفر سحبا من الضباب</li>
@@ -658,7 +658,7 @@
     <li>image->[PAWN_nameFull] راقد في السرير [circumstance_group]</li>
     <li>image->[PAWN_nameFull] جاثم بجوار نار [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يحاول إشعال نار [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يخلع ملابس [PAWN_possessive] بلا وعي [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يخلع ملابسـ[PAWN_possessive] بلا وعي [circumstance_group]</li>
     <li>circumstance_phrase->ويتصبب عرقا دون توقف</li>
     <li>circumstance_phrase->ويرتجف دون توقف</li>
     <li>circumstance_phrase->بينما يتصبب عرقا ويرتجف معا</li>

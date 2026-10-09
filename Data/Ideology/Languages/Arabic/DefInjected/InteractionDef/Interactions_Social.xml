@@ -25,7 +25,7 @@
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>
   -->
   <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->حاول [INITIATOR_nameDef] تحويل [RECIPIENT_nameDef] إلى عقيدة[INITIATOR_possessive] الخاصة.</li>
+    <li>r_logentry->حاول [INITIATOR_nameDef] تحويل [RECIPIENT_nameDef] إلى عقيدتـ[INITIATOR_possessive] الخاصة.</li>
  </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: failed counsel -->
@@ -52,8 +52,8 @@
     <li>r_logentry->نصح [INITIATOR_nameDef] [RECIPIENT_nameDef] بخصوص [problems].</li>
     <li>r_logentry->ساعد [INITIATOR_nameDef] [RECIPIENT_nameDef] في التفكير ملياً بـ[problems].</li>
     <li>r_logentry->قدم [INITIATOR_nameDef] نصيحة لـ[RECIPIENT_nameDef] حول التغلب على السلبية.</li>
-    <li>problems->مشاكل[RECIPIENT_possessive]</li>
-    <li>problems->متاعب[RECIPIENT_possessive]</li>
+    <li>problems->مشاكلـ[RECIPIENT_possessive]</li>
+    <li>problems->متاعبـ[RECIPIENT_possessive]</li>
     <li>problems->مشاعر[RECIPIENT_possessive] المؤلمة</li>
     <li>problems->صعوبات حديثة</li>
  </Counsel_Success.logRulesInitiator.rulesStrings>

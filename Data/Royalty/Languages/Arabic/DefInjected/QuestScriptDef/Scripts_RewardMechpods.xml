@@ -13,7 +13,7 @@
     <li>dangersDescription-></li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef]، [asker_faction_leaderTitle] [asker_faction_name]، يطلب منك. [commonMainPart]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، يطلب منك. [commonMainPart]</li>
-    <li>commonMainPart->سرب ميكي يهاجم مستوطنات[asker_possessive]. يريد [asker_pronoun] منك إرسال إشارة للميكيين لإلهائهم بينما يقوم [asker_pronoun] بتطهير الخلية. إذا فعلت، ستهبط (*Threat)كتيبة ميكانويد(/Threat) في [map_definite].[dangersDescription]\n\nستكون الكتيبة الميكانويد خاملة في البداية. قد يكون لديها مفعل عد تنازلي، أو قد تبقى خاملة للأبد حتى إزعاجها.[helpersParagraph]</li>
+    <li>commonMainPart->سرب ميكي يهاجم مستوطناتـ[asker_possessive]. يريد [asker_pronoun] منك إرسال إشارة للميكيين لإلهائهم بينما يقوم [asker_pronoun] بتطهير الخلية. إذا فعلت، ستهبط (*Threat)عنقود ميكانويدات(/Threat) في [map_definite].[dangersDescription]\n\nستكون الكتيبة الميكانويد خاملة في البداية. قد يكون لديها مفعل عد تنازلي، أو قد تبقى خاملة للأبد حتى إزعاجها.[helpersParagraph]</li>
  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>

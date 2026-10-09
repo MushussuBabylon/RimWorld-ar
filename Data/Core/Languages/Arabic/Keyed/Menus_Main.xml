@@ -279,9 +279,9 @@
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>هذا التعديل مصمم لإصدار أحدث من RimWorld، ومن المحتمل ألا يعمل بشكل صحيح.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>يحتاج التعديل إلى معلومات إصدار مدعومة منسقة بشكل صحيح في About.xml. هكذا: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> لم يعد مستخدماً. تحقق من السجل لمزيد من المعلومات.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>يحتاج التعديل إلى معلومات إصدار مدعومة منسقة بشكل صحيح في About.xml. هكذا: &lt;supportedVersions&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/supportedVersions&gt; - &lt;targetVersion&gt; لم يعد مستخدماً. تحقق من السجل لمزيد من المعلومات.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>يحتاج التعديل إلى packageId فريد ومنسق بشكل صحيح في About.xml. يجب أن يستوفي المتطلبات التالية:\n\n  - أحرف أبجدية رقمية ونقاط فقط.\n  - لا توجد مسافات.\n  - نقطة واحدة على الأقل.\n  - لا توجد نقاط متكررة متتالية، ولا يبدأ أو ينتهي بنقطة.\n  - 60 حرفاً أو أقل.\n  - لا يمكن أن يحتوي على كلمة "Ludeon".\n\nعلى سبيل المثال:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId></MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>يحتاج التعديل إلى packageId فريد ومنسق بشكل صحيح في About.xml. يجب أن يستوفي المتطلبات التالية:\n\n  - أحرف أبجدية رقمية ونقاط فقط.\n  - لا توجد مسافات.\n  - نقطة واحدة على الأقل.\n  - لا توجد نقاط متكررة متتالية، ولا يبدأ أو ينتهي بنقطة.\n  - 60 حرفاً أو أقل.\n  - لا يمكن أن يحتوي على كلمة "Ludeon".\n\nعلى سبيل المثال:\n&lt;packageId&gt;AuthorName.ModName&lt;/packageId&gt;\n&lt;packageId&gt;AuthorName.ModName.Specific&lt;/packageId&gt;</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>يحتوي هذا التعديل على مشكلات في LoadFolders.xml، تحتاج إلى حلها قبل الرفع:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
@@ -297,7 +297,7 @@
   <!-- EN: Invalid version order: 'default' should be defined first. -->
   <ModLoadFolderOutOfOrderDefault>ترتيب إصدار غير صالح: يجب تعريف 'default' أولاً.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
-  <ModLoadFolderDefaultDeprecated>استخدام 'default' في مجلدات التحميل لم يعد مستخدماً. يرجى تعريف المجلدات لكل إصدار باستخدام وسوم <v...> .</ModLoadFolderDefaultDeprecated>
+  <ModLoadFolderDefaultDeprecated>استخدام 'default' في مجلدات التحميل لم يعد مستخدماً. يرجى تعريف المجلدات لكل إصدار باستخدام وسوم &lt;v...&gt; .</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
   <ModLoadFolderDefinesUnsupportedGameVersion>الإصدار {0} معرف في مجلدات التحميل، ولكنه غير مدرج في 'supportedVersions' لملف About.xml الخاص بالتعديل.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
@@ -657,7 +657,7 @@
   <!-- EN: Caused by role -->
   <IncapableOfTooltipRole>بسبب الدور</IncapableOfTooltipRole>
   <!-- EN: Caused by gene -->
-  <IncapableOfTooltipGene>بسبب الجينات</IncapableOfTooltipGene>
+  <IncapableOfTooltipGene>بسبب المورثات</IncapableOfTooltipGene>
   <!-- EN: Caused by -->
   <IncapableOfTooltipMutant>بسبب</IncapableOfTooltipMutant>
   <!-- EN: Traits -->

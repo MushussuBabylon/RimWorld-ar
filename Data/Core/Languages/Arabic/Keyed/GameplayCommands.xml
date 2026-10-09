@@ -20,7 +20,7 @@
   <!-- EN: Designate toggle power -->
   <CommandDesignateTogglePowerLabel>تعيين تبديل الطاقة</CommandDesignateTogglePowerLabel>
   <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
-  <CommandDesignateTogglePowerDesc>تعيين هذا الشيء لتبديل طاقته. سيأتي أحد المستعمرين قريبًا لقلب المفتاح.</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>تعيين هذا الشيء لتبديل طاقته. سيأتي أحد المستعمرين قريباً لقلب المفتاح.</CommandDesignateTogglePowerDesc>
   
   <!-- EN: Reconnect -->
   <CommandTryReconnectLabel>إعادة الاتصال</CommandTryReconnectLabel>
@@ -49,12 +49,12 @@
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>إطلاق النار عند الرؤية</CommandFireAtWillLabel>
   <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
-  <CommandFireAtWillDesc>تبديل حالة إطلاق النار التلقائي.\n\nعند التعطيل، لن تطلق هذه الشخصية النار تلقائيًا على الأهداف البعيدة. لا يؤثر هذا على القتال المباشر.</CommandFireAtWillDesc>
+  <CommandFireAtWillDesc>تبديل حالة إطلاق النار التلقائي.\n\nعند التعطيل، لن تطلق هذه الشخصية النار تلقائياً على الأهداف البعيدة. لا يؤثر هذا على القتال المباشر.</CommandFireAtWillDesc>
   
   <!-- EN: Clear prioritized work -->
   <CommandClearPrioritizedWork>مسح العمل ذي الأولوية</CommandClearPrioritizedWork>
   <!-- EN: Clear any prioritized work you assigned. The character will go back to their usual self-directed activities. -->
-  <CommandClearPrioritizedWorkDesc>مسح أي عمل ذي أولوية قمت بتعيينه. ستعود الشخصية إلى أنشطتها المعتادة الموجهة ذاتيًا.</CommandClearPrioritizedWorkDesc>
+  <CommandClearPrioritizedWorkDesc>مسح أي عمل ذي أولوية قمت بتعيينه. ستعود الشخصية إلى أنشطتها المعتادة الموجهة ذاتياً.</CommandClearPrioritizedWorkDesc>
   
   <!-- EN: Cancel -->
   <CommandCancelConstructionLabel>إلغاء</CommandCancelConstructionLabel>
@@ -69,9 +69,9 @@
   <!-- EN: Set owner -->
   <CommandThingSetOwnerLabel>تحديد المالك</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific {0}. -->
-  <CommandBedSetOwnerDesc>تخصيص هذا السرير ليكون مملوكًا لـ {0} معين.</CommandBedSetOwnerDesc>
+  <CommandBedSetOwnerDesc>تخصيص هذا السرير ليكون مملوكاً لـ {0} معين.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
-  <CommandThroneSetOwnerDesc>تخصيص هذا العرش ليكون مملوكًا لمستعمر معين.</CommandThroneSetOwnerDesc>
+  <CommandThroneSetOwnerDesc>تخصيص هذا العرش ليكون مملوكاً لمستعمر معين.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
   <CommandMeditationSpotSetOwnerDesc>تخصيص مكان التأمل هذه لتكون مملوكة لمستعمر معين.</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
@@ -166,7 +166,7 @@
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>لصق الإعدادات</CommandPasteZoneSettingsLabel>
   <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
-  <CommandPasteZoneSettingsDesc>الكتابة فوق إعدادات وحدة التخزين هذه بالإعدادات التي تم نسخها مسبقًا إلى الحافظة.</CommandPasteZoneSettingsDesc>
+  <CommandPasteZoneSettingsDesc>الكتابة فوق إعدادات وحدة التخزين هذه بالإعدادات التي تم نسخها مسبقاً إلى الحافظة.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
   <CommandAllowSow>السماح بالبذر</CommandAllowSow>
@@ -176,7 +176,7 @@
   <!-- EN: Allow cutting -->
   <CommandAllowCut>السماح بالقطع</CommandAllowCut>
   <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
-  <CommandAllowCutDesc>عند التعطيل، لن يقوم المستعمرون أبدًا بقطع النباتات في هذه المنطقة. سيظلون يزرعون نباتات جديدة في المساحات الفارغة بالفعل، ويحصدون النباتات التي تطابق نوع نبات منطقة الزراعة.</CommandAllowCutDesc>
+  <CommandAllowCutDesc>عند التعطيل، لن يقوم المستعمرون أبداً بقطع النباتات في هذه المنطقة. سيظلون يزرعون نباتات جديدة في المساحات الفارغة بالفعل، ويحصدون النباتات التي تطابق نوع نبات منطقة الزراعة.</CommandAllowCutDesc>
   
   <!-- EN: Select {0_label} -->
   <CommandSelectStoredThing>حدد {0_label}</CommandSelectStoredThing>
@@ -193,7 +193,7 @@
   <!-- EN: Stops force-attacking and allows the turret to fire as it wishes. -->
   <CommandStopForceAttackDesc>إيقاف الهجوم الإجباري والسماح للبرج بإطلاق النار كما تشاء.</CommandStopForceAttackDesc>
   <!-- EN: Not currently force-attacking. -->
-  <CommandStopAttackFailNotForceAttacking>لا يوجد هجوم إجباري حاليًا.</CommandStopAttackFailNotForceAttacking>
+  <CommandStopAttackFailNotForceAttacking>لا يوجد هجوم إجباري حالياً.</CommandStopAttackFailNotForceAttacking>
   <!-- EN: Extract shell -->
   <CommandExtractShell>استخراج القذيفة</CommandExtractShell>
   <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
@@ -231,9 +231,9 @@
   <!-- EN: Passage forbidden -->
   <CommandToggleDoorForbid>المرور ممنوع</CommandToggleDoorForbid>
   <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
-  <CommandToggleDoorForbidDesc>عندما يكون الباب ممنوعًا، لن يمر المستعمرون والحلفاء من خلاله. لا يؤثر هذا على كيفية تفاعل الأعداء أو الحيوانات مع الباب.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>عندما يكون الباب ممنوعاً، لن يمر المستعمرون والحلفاء من خلاله. لا يؤثر هذا على كيفية تفاعل الأعداء أو الحيوانات مع الباب.</CommandToggleDoorForbidDesc>
   <!-- EN: Hold open -->
-  <CommandToggleDoorHoldOpen>إبقاء الباب مفتوحًا</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpen>إبقاء الباب مفتوحاً</CommandToggleDoorHoldOpen>
   <!-- EN: When active, your colonists will not close the door after passing through. -->
   <CommandToggleDoorHoldOpenDesc>عند التفعيل، لن يغلق مستعمروك الباب بعد المرور منه.</CommandToggleDoorHoldOpenDesc>
 
@@ -251,7 +251,7 @@
   <!-- EN: Install -->
   <CommandInstall>تثبيت</CommandInstall>
   <!-- EN: This item is currently packaged up for storage and transport. Use this command to install this item in a final location. -->
-  <CommandInstallDesc>هذا العنصر معبأ حاليًا للتخزين والنقل. استخدم هذا الأمر لتثبيت هذا العنصر في الموقع النهائي.</CommandInstallDesc>
+  <CommandInstallDesc>هذا العنصر معبأ حالياً للتخزين والنقل. استخدم هذا الأمر لتثبيت هذا العنصر في الموقع النهائي.</CommandInstallDesc>
   <!-- EN: Reinstall at... -->
   <CommandReinstall>إعادة تثبيت في...</CommandReinstall>
   <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
@@ -259,17 +259,17 @@
   <!-- EN: Replant -->
   <CommandReplant>إعادة زراعة</CommandReplant>
   <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
-  <CommandReplantDesc>هذه الشجرة معبأة حاليًا للتخزين والنقل. استخدم هذا الأمر لإعادة زراعتها في موقع جديد.</CommandReplantDesc>
+  <CommandReplantDesc>هذه الشجرة معبأة حالياً للتخزين والنقل. استخدم هذا الأمر لإعادة زراعتها في موقع جديد.</CommandReplantDesc>
   
   <!-- Trade beacon -->
   <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
-  <CommandMakeBeaconStockpileDesc>إنشاء منطقة تخزين حول هذا المبنى تطابق تمامًا شكل نصف قطر إطلاق المنارة.</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileDesc>إنشاء منطقة تخزين حول هذا المبنى تطابق تماماً شكل نصف قطر إطلاق المنارة.</CommandMakeBeaconStockpileDesc>
   <!-- EN: Create stockpile -->
   <CommandMakeBeaconStockpileLabel>إنشاء منطقة تخزين</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
   <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
-  <CommandSunLampMakeGrowingZoneDesc>إنشاء منطقة زراعة حول هذا المبنى تطابق تمامًا شكل نصف قطر ضوء المصباح.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneDesc>إنشاء منطقة زراعة حول هذا المبنى تطابق تماماً شكل نصف قطر ضوء المصباح.</CommandSunLampMakeGrowingZoneDesc>
   <!-- EN: Create growing zone -->
   <CommandSunLampMakeGrowingZoneLabel>إنشاء منطقة زراعة</CommandSunLampMakeGrowingZoneLabel>
 
@@ -277,19 +277,19 @@
   <!-- EN: Auto rearm -->
   <CommandAutoRearm>إعادة تسليح تلقائية</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
-  <CommandAutoRearmDesc>إذا كان هذا مفعلًا، فسيتم استبدال هذا الفخ تلقائيًا بعد انطلاقه.</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>إذا كان هذا مفعلاً، فسيتم استبدال هذا الفخ تلقائياً بعد انطلاقه.</CommandAutoRearmDesc>
   
   <!-- Firefoam popper -->
   <!-- EN: Auto rebuild -->
   <CommandAutoRebuild_Building>إعادة بناء تلقائية</CommandAutoRebuild_Building>
   <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
-  <CommandAutoRebuild_BuildingDesc>إذا كان هذا مفعلًا، فسيتم استبدال {BUILDING_definite} تلقائيًا بعد انفجاره.</CommandAutoRebuild_BuildingDesc>
+  <CommandAutoRebuild_BuildingDesc>إذا كان هذا مفعلاً، فسيتم استبدال {BUILDING_definite} تلقائياً بعد انفجاره.</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
   <CommandReleaseAnimalsLabel>هجوم الحيوانات</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
-  <CommandReleaseAnimalsDesc>بينما يكون هذا مفعلًا، يتم إرسال الحيوانات المدربة لمهاجمة أهداف بعيدة. بينما يكون متوقفًا، تبقى قريبة وتحمي المدرب.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>بينما يكون هذا مفعلاً، يتم إرسال الحيوانات المدربة لمهاجمة أهداف بعيدة. بينما يكون متوقفاً، تبقى قريبة وتحمي المدرب.</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
   <CommandReleaseAnimalsFail_NoAnimals>لا توجد حيوانات متاحة.</CommandReleaseAnimalsFail_NoAnimals>
   
@@ -369,7 +369,7 @@
   <!-- EN: Split -->
   <CommandSplitCaravan>تقسيم</CommandSplitCaravan>
   <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
-  <CommandSplitCaravanDesc>تقسيم هذه القافلة إلى اثنتين. يمكن لاحقًا دمج القوافل مرة أخرى في قافلة واحدة طالما أنها قريبة من بعضها البعض.</CommandSplitCaravanDesc>
+  <CommandSplitCaravanDesc>تقسيم هذه القافلة إلى اثنتين. يمكن لاحقاً دمج القوافل مرة أخرى في قافلة واحدة طالما أنها قريبة من بعضها البعض.</CommandSplitCaravanDesc>
   
   <!-- Merge caravan -->
   <!-- EN: Merge -->
@@ -435,15 +435,15 @@
   <!-- EN: Force caravan departure -->
   <CommandForceCaravanDepart>إجبار القافلة على المغادرة</CommandForceCaravanDepart>
   <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
-  <CommandForceCaravanDepartDesc>إجبار القافلة على المغادرة فورًا مع العناصر المحملة حاليًا فقط. سيتم ترك أي شخص غير قادر على السفر.</CommandForceCaravanDepartDesc>
+  <CommandForceCaravanDepartDesc>إجبار القافلة على المغادرة فوراً مع العناصر المحملة حالياً فقط. سيتم ترك أي شخص غير قادر على السفر.</CommandForceCaravanDepartDesc>
   <!-- EN: Are you sure you want to depart? -->
   <ConfirmForceDepartIntro>هل أنت متأكد من رغبتك في المغادرة؟</ConfirmForceDepartIntro>
   <!-- EN: The following items are still being loaded and will be left behind: -->
   <ConfirmForceDepartItemsStillLoading>لا تزال العناصر التالية قيد التحميل وسيتم تركها:</ConfirmForceDepartItemsStillLoading>
   <!-- EN: The following people won't be a part of the caravan: -->
-  <ConfirmForceDepartPawnsNotLeaving>الأشخاص التاليون لن يكونوا جزءًا من القافلة:</ConfirmForceDepartPawnsNotLeaving>
+  <ConfirmForceDepartPawnsNotLeaving>الأشخاص التاليون لن يكونوا جزءاً من القافلة:</ConfirmForceDepartPawnsNotLeaving>
   <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
-  <ConfirmForceDepartItemsOnPawnsNotLeaving>تم تحميل العناصر التالية على مخلوقات لن تكون جزءًا من القافلة وسيتم تركها:</ConfirmForceDepartItemsOnPawnsNotLeaving>
+  <ConfirmForceDepartItemsOnPawnsNotLeaving>تم تحميل العناصر التالية على مخلوقات لن تكون جزءاً من القافلة وسيتم تركها:</ConfirmForceDepartItemsOnPawnsNotLeaving>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
@@ -495,9 +495,9 @@
   <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>تبديل إعادة التزود بالوقود التلقائي</CommandToggleAllowAutoRefuel>
   <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
-  <CommandToggleAllowAutoRefuelDesc>هذا يحدد ما إذا كان المستعمرون سيقومون بإعادة التزود بالوقود تلقائيًا لهذا. إذا تم التفعيل، سيقوم المستعمرون بملئه حتى {0}.\n\nإعادة التزود بالوقود التلقائي حاليًا {ONOFF}.</CommandToggleAllowAutoRefuelDesc>
+  <CommandToggleAllowAutoRefuelDesc>هذا يحدد ما إذا كان المستعمرون سيقومون بإعادة التزود بالوقود تلقائياً لهذا. إذا تم التفعيل، سيقوم المستعمرون بملئه حتى {0}.\n\nإعادة التزود بالوقود التلقائي حالياً {ONOFF}.</CommandToggleAllowAutoRefuelDesc>
   <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
-  <CommandToggleAllowAutoRefuelDescMult>هذا يحدد ما إذا كان المستعمرون سيقومون تلقائيًا بإعادة التزود بالوقود لهذه المباني.\n\nإعادة التزود بالوقود التلقائي حاليًا {ONOFF}.</CommandToggleAllowAutoRefuelDescMult>
+  <CommandToggleAllowAutoRefuelDescMult>هذا يحدد ما إذا كان المستعمرون سيقومون تلقائياً بإعادة التزود بالوقود لهذه المباني.\n\nإعادة التزود بالوقود التلقائي حالياً {ONOFF}.</CommandToggleAllowAutoRefuelDescMult>
 
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
@@ -555,7 +555,7 @@
   <!-- EN: Autoload -->
   <CommandAutoloadTransporters>تحميل تلقائي</CommandAutoloadTransporters>
   <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
-  <CommandAutoloadTransportersDesc>تبديل تحميل كل البضائع المطلوبة تلقائيًا بمجرد توفرها.</CommandAutoloadTransportersDesc>
+  <CommandAutoloadTransportersDesc>تبديل تحميل كل البضائع المطلوبة تلقائياً بمجرد توفرها.</CommandAutoloadTransportersDesc>
   
   <!-- Select previous transporter -->
   <!-- EN: Select previous in launch group -->
@@ -579,7 +579,7 @@
   <!-- EN: Designate open/close -->
   <CommandDesignateOpenCloseVentLabel>تعيين فتح/إغلاق</CommandDesignateOpenCloseVentLabel>
   <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
-  <CommandDesignateOpenCloseVentDesc>تعيين فتح أو إغلاق هذا المنفذ. سيأتي مستعمر قريبًا لتنفيذ المهمة.</CommandDesignateOpenCloseVentDesc>
+  <CommandDesignateOpenCloseVentDesc>تعيين فتح أو إغلاق هذا المنفذ. سيأتي مستعمر قريباً لتنفيذ المهمة.</CommandDesignateOpenCloseVentDesc>
   
   <!-- Remove waypoint -->
   <!-- EN: Remove -->
@@ -591,7 +591,7 @@
   <!-- EN: Rest -->
   <CommandPauseCaravan>راحة</CommandPauseCaravan>
   <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
-  <CommandToggleCaravanPauseDesc>بدء الراحة. هذا له الفوائد التالية:\n\n  - يمكن للأشخاص التفاعل اجتماعيًا\n  - البحث عن الطعام {0} مرات أسرع\n  - الرؤية مضروبة في {1}</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>بدء الراحة. هذا له الفوائد التالية:\n\n  - يمكن للأشخاص التفاعل اجتماعياً\n  - البحث عن الطعام {0} مرات أسرع\n  - الرؤية مضروبة في {1}</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->
@@ -698,7 +698,7 @@
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>إلغاء {RITUAL_label}</CommandCancelRitual>
   <!-- EN: End the {RITUAL_labelDef} immediately. You can restart the event later. -->
-  <CommandCancelRitualDesc>إنهاء {RITUAL_labelDef} على الفور. يمكنك إعادة بدء الفعالية لاحقًا.</CommandCancelRitualDesc>
+  <CommandCancelRitualDesc>إنهاء {RITUAL_labelDef} على الفور. يمكنك إعادة بدء الفعالية لاحقاً.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>هل أنت متأكد من رغبتك في إلغاء {RITUAL_labelDef}؟</CommandCancelRitualConfirm>
 
@@ -735,7 +735,7 @@
   <!-- EN: Toggle study -->
   <CommandToggleStudy>تبديل الدراسة</CommandToggleStudy>
   <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
-  <CommandToggleStudyDesc>يحدد ما إذا كان الحراس سيدرسون هذا تلقائيًا أم لا. الأشياء المحظورة لن تُدرس أبدًا.</CommandToggleStudyDesc>
+  <CommandToggleStudyDesc>يحدد ما إذا كان الحراس سيدرسون هذا تلقائياً أم لا. الأشياء المحظورة لن تُدرس أبداً.</CommandToggleStudyDesc>
 
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
@@ -753,9 +753,9 @@
 
   <!-- Auto-build pod -->
   <!-- EN: Auto build transport pod -->
-  <AutoBuildTransportPod>بناء كبسولة نقل تلقائيًا</AutoBuildTransportPod>
+  <AutoBuildTransportPod>بناء كبسولة نقل تلقائياً</AutoBuildTransportPod>
   <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
-  <AutoBuildTransportPodDesc>إذا كان مفعلًا، سيقوم مستعمروك تلقائياً ببناء كبسولة نقل جديدة عندما يكون ذلك ممكناً.</AutoBuildTransportPodDesc>
+  <AutoBuildTransportPodDesc>إذا كان مفعلاً، سيقوم مستعمروك تلقائياً ببناء كبسولة نقل جديدة عندما يكون ذلك ممكناً.</AutoBuildTransportPodDesc>
   
   <!-- Hacking gizmo -->
   <!-- EN: Hack... -->

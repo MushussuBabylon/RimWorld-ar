@@ -190,7 +190,7 @@
     <li>claimInfo(lodgerCount>=2)->يقولون أن عاصفة نارية عظيمة أحرقت منزلهم.</li>
     <li>claimInfo(lodgerCount>=2)->يقولون أن قافلتهم تعرضت لكمين وسُلب كل شيء.</li>
     <li>claimInfo(lodgerCount>=2)->يقولون أنهم نُفوا من بلدتهم بسبب خلافات أخلاقية.</li>
-    <li>joinInfo(lodgerCount==1)->إذا جعلت [asker_objective] سعيداً، فقد يعرض [asker_pronoun] الانضمام إليك.</li>
+    <li>joinInfo(lodgerCount==1)->إذا جعلتـ[asker_objective] سعيداً، فقد يعرض [asker_pronoun] الانضمام إليك.</li>
     <li>joinInfo(lodgerCount>=2)->إذا جعلتهم سعداء، فقد يعرض بعضهم الانضمام إليك.</li>
     <li>travelerInfo(lodgerCount==1)->هذا [faction_pawnSingular] ليس</li>
     <li>travelerInfo(lodgerCount>=2)->هؤلاء [faction_pawnsPlural] ليسوا</li>
@@ -341,7 +341,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->مكافأة الضيافة</li>
-    <li>rewardLetterText->قام [rewardGiver_nameDef] بالاتصال بك. قبل [rewardDelayTicks_duration]، ساعدت [rewardGiver_objective] في ظروف يائسة.\n\nمنذ ذلك الحين، وقف [rewardGiver_pronoun] على قدميه مجدداً، ويريد الآن [rewardGiver_pronoun] مكافأتك بشكل لائق على مساعدتك. يرسل لك [rewardGiver_pronoun] التالي عبر كبسولة الإسقاط:\n\n[listOfRewards]</li>
+    <li>rewardLetterText->قام [rewardGiver_nameDef] بالاتصال بك. قبل [rewardDelayTicks_duration]، ساعدتـ[rewardGiver_objective] في ظروف يائسة.\n\nمنذ ذلك الحين، وقف [rewardGiver_pronoun] على قدميه مجدداً، ويريد الآن [rewardGiver_pronoun] مكافأتك بشكل لائق على مساعدتك. يرسل لك [rewardGiver_pronoun] التالي عبر كبسولة الإسقاط:\n\n[listOfRewards]</li>
  </RefugeeDelayedReward.questContentRules.rulesStrings>
 
   <!-- EN:

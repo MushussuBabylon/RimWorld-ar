@@ -13,7 +13,7 @@
   <!-- EN: fuel optimizer -->
   <FuelOptimizer.label>محسن الوقود</FuelOptimizer.label>
   <!-- EN: A gravtech unit that allows grav engine lift to coordinate more efficiently with traditional thrusters. It reduces the fuel needed for gravship flight.\n\nA gravship can support two fuel optimizers. -->
-  <FuelOptimizer.description>وحدة تقنية جاذبية تتيح تعاونًا أكثر كفاءة بين محرك الجاذبية والدافعات التقليدية. تقلل من استهلاك الوقود أثناء تحليق سفينة الجاذبية.\n\nيمكن لسفينة الجاذبية أن تدعم ما يصل إلى محسني وقود.</FuelOptimizer.description>
+  <FuelOptimizer.description>وحدة تقنية جاذبية تتيح تعاوناً أكثر كفاءة بين محرك الجاذبية والدافعات التقليدية. تقلل من استهلاك الوقود أثناء تحليق سفينة الجاذبية.\n\nيمكن لسفينة الجاذبية أن تدعم ما يصل إلى محسني وقود.</FuelOptimizer.description>
   
   <!-- EN: grav anchor -->
   <GravAnchor.label>مرساة الجاذبية</GravAnchor.label>
@@ -28,7 +28,7 @@
   <!-- EN: grav engine -->
   <GravEngine.label>محرك جاذبية</GravEngine.label>
   <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Without a grav anchor, launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
-  <GravEngine.description>قلب سفينة الجاذبية فائق التقنية. يولد محرك الجاذبية قوة الرفع بعكس وتكثيف تأثير الجاذبية في حقل حوله. يمكن لهذا المحرك الرفع للأعلى لكنه لا ينتج دفعًا أماميًا. لا يمكنه العمل بعيدًا عن بئر جاذبية كبير مثل كوكب، لذا فهو غير صالح للسفر بين الكواكب.\n\nعند الإطلاق، سيتم نقل كل ما على البنية التحتية المتصلة بمحرك الجاذبية إلى خريطة جديدة. بدون مرساة الجاذبية، سيؤدي إطلاق سفينة الجاذبية إلى التخلي عن خريطتك الحالية.\n\nيستخدم مهندسو عوالم البريق سفن الجاذبية لإطلاق منصات مدارية وبناء ممزقات السماء. يتطلب إنتاجها منشآت ضخمة وفائقة التخصص، مما يجعلها نادرة خارج عوالم البريق.</GravEngine.description>
+  <GravEngine.description>قلب سفينة الجاذبية فائق التقنية. يولد محرك الجاذبية قوة الرفع بعكس وتكثيف تأثير الجاذبية في حقل حوله. يمكن لهذا المحرك الرفع للأعلى لكنه لا ينتج دفعاً أمامياً. لا يمكنه العمل بعيداً عن بئر جاذبية كبير مثل كوكب، لذا فهو غير صالح للسفر بين الكواكب.\n\nعند الإطلاق، سيتم نقل كل ما على البنية التحتية المتصلة بمحرك الجاذبية إلى خريطة جديدة. بدون مرساة الجاذبية، سيؤدي إطلاق سفينة الجاذبية إلى التخلي عن خريطتك الحالية.\n\nيستخدم مهندسو عوالم البريق سفن الجاذبية لإطلاق منصات مدارية وبناء ممزقات السماء. يتطلب إنتاجها منشآت ضخمة وفائقة التخصص، مما يجعلها نادرة خارج عوالم البريق.</GravEngine.description>
   
   <!-- EN: grav field extender -->
   <GravFieldExtender.label>موسع مجال الجاذبية</GravFieldExtender.label>
@@ -41,7 +41,7 @@
   <GravshipHull.description>جدار قوي محكم الإغلاق يمنع تسرب الأكسجين في فراغ الفضاء. الجدار متصل مباشرة بالهيكل الأساسي التحتي، لذا لا يمكن بناؤه إلا على سفينة الجاذبية.</GravshipHull.description>
   
   <!-- EN: gravship shield generator -->
-  <GravshipShieldGenerator.label>مولد درع الجاذبية</GravshipShieldGenerator.label>
+  <GravshipShieldGenerator.label>مولد درع سفينة الجاذبية</GravshipShieldGenerator.label>
   <!-- EN: A shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out.\n\nIt must be charged before use. One gravship can support two gravship shield generators. -->
   <GravshipShieldGenerator.description>جهاز يمكنه حماية سفينة الجاذبية. يعدل مجال الجاذبية لإنشاء درع حماية واسع النطاق قصير العمر يصد القذائف الأرضية والجوية. يمكن للطلقات الخروج ولكن لا يمكنها الدخول.\n\nيجب شحن الجهاز قبل الاستخدام. يمكن لسفينة الجاذبية دعم ما يصل إلى مولدي درع جاذبية.</GravshipShieldGenerator.description>
   <!-- EN: activate -->
@@ -75,9 +75,9 @@
   <PilotSubpersonaCore.description>شخصية فرعية منخفضة الجودة متخصصة في تحليق سفن الجاذبية. تقلل من خطر الحوادث عند تحليق سفينة الجاذبية، لكنها لا تستطيع التعويض الكامل عن الأخطاء البشرية.\n\nيمكن لسفينة الجاذبية دعم ما يصل إلى نواتي شخصية فرعية للطيار.</PilotSubpersonaCore.description>
   
   <!-- EN: mechanoid ship chunk -->
-  <ShipChunk_Mech.label>قطعة سفينة ميكانويد</ShipChunk_Mech.label>
+  <ShipChunk_Mech.label>كتلة سفينة ميكانويد</ShipChunk_Mech.label>
   <!-- EN: A chunk of mechanoid spacecraft made of steel and gravlite panels. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nDeconstruct it to obtain valuable resources. -->
-  <ShipChunk_Mech.description>قطعة من سفينة فضائية للميكانويدات مصنوعة من الفولاذ وألواح الجرافليت. يبدو أنها انفصلت إما بفعل قوى الدخول غير المنضبط أو نوع من الأسلحة.\n\nفككها للحصول على موارد قيّمة.</ShipChunk_Mech.description>
+  <ShipChunk_Mech.description>كتلة من سفينة فضائية للميكانويدات مصنوعة من الفولاذ وألواح الجرافليت. يبدو أنها انفصلت إما بفعل قوى الدخول غير المنضبط أو نوع من الأسلحة.\n\nفككها للحصول على موارد قيّمة.</ShipChunk_Mech.description>
   <!-- EN: Deconstruct for valuable resources. -->
   <ShipChunk_Mech.comps.CompInspectString.inspectString>فكك للحصول على موارد قيّمة.</ShipChunk_Mech.comps.CompInspectString.inspectString>
   

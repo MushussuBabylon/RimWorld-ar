@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: death pall -->
-  <DeathPall.label>غشاء الموت</DeathPall.label>
+  <DeathPall.label>كفن الموت</DeathPall.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] facing the encroaching death pall</li>
     <li>image->[PAWN_nameFull] gazing in horror as the death pall blankets the land, resurrecting the dead [circumstance_group]</li>
@@ -18,18 +18,18 @@
     <li>desc_sentence->The weight of despair settles upon [PAWN_nameDef], testing [PAWN_possessive] resolve in the face of the macabre.</li>
   -->
   <DeathPall.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] يواجه غشاء الموت الزاحف</li>
-    <li>image->[PAWN_nameFull] يحدق في رعب بينما يغطي غشاء الموت الأرض، باعثًا الموتى [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ممسكًا بـ[PAWN_possessive] سلاحه بإحكام، بينما يهبط غشاء الموت، ناهضًا بالموتى [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يرتعش بعدم ارتياح، شاهدًا وصول غشاء الموت، تأثيره يمنح الحياة لمن لا حياة لهم [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يرقب في رعب بينما يغلف غشاء الموت منزل[PAWN_possessive] الهادئ، محولًا إياه إلى ساحة معركة ضد الموتى [circumstance_group]</li>
-    <li>circumstance_phrase->ويغرق صلوات[PAWN_possessive] اليائسة للسلامة</li>
+    <li>tale_noun->[PAWN_nameDef] يواجه كفن الموت الزاحف</li>
+    <li>image->[PAWN_nameFull] يحدق في رعب بينما يغطي كفن الموت الأرض، باعثاً الموتى [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] ممسكاً بـ[PAWN_possessive] سلاحه بإحكام، بينما يهبط كفن الموت، ناهضاً بالموتى [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يرتعش بعدم ارتياح، شاهداً وصول كفن الموت، تأثيره يمنح الحياة لمن لا حياة لهم [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يرقب في رعب بينما يغلف كفن الموت منزلـ[PAWN_possessive] الهادئ، محولاً إياه إلى ساحة معركة ضد الموتى [circumstance_group]</li>
+    <li>circumstance_phrase->ويغرق صلواتـ[PAWN_possessive] اليائسة للسلامة</li>
     <li>circumstance_phrase->مع رائحة الفساد واليأس تملأ الأجواء</li>
-    <li>circumstance_phrase->ويحتجز [PAWN_objective] في حشد من المترنحين</li>
-    <li>desc_sentence->في مركز غشاء الموت، يستعد [PAWN_nameDef] للمعركة.</li>
-    <li>desc_sentence->زحف غشاء الموت يملأ أصدقاء [PAWN_nameDef] بالرعب.</li>
-    <li>desc_sentence->تسري قشعريرة في عمود [PAWN_nameDef] الفقري بينما يستمر تأثير غشاء الموت في الانتشار.</li>
-    <li>desc_sentence->يستقر ثقل اليأس على [PAWN_nameDef]، مختبرًا إصرار[PAWN_possessive] في مواجهة الرهيب.</li>
+    <li>circumstance_phrase->ويحتجز[PAWN_objective] في حشد من المترنحين</li>
+    <li>desc_sentence->في مركز كفن الموت، يستعد [PAWN_nameDef] للمعركة.</li>
+    <li>desc_sentence->زحف كفن الموت يملأ أصدقاء [PAWN_nameDef] بالرعب.</li>
+    <li>desc_sentence->تسري قشعريرة في عمود [PAWN_nameDef] الفقري بينما يستمر تأثير كفن الموت في الانتشار.</li>
+    <li>desc_sentence->يستقر ثقل اليأس على [PAWN_nameDef]، مختبراً إصرار[PAWN_possessive] في مواجهة الرهيب.</li>
  </DeathPall.rulePack.rulesStrings>
   
   <!-- EN: unnatural darkness -->
@@ -52,15 +52,15 @@
   <UnnaturalDarkness.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] يواجه الظلام غير الطبيعي</li>
     <li>image->[PAWN_nameFull] يقف في ذهول بينما يبتلع العالم ظلام لا يمكن اختراقه [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] محاطًا بأعمدة سوداء تتساقط من السماء تغطي الأرض بالظلام [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يكافح ليجد طريق[PAWN_possessive] عبر الظلام الخانق، والنوكتولات تطارده، [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] محاطاً بأعمدة سوداء تتساقط من السماء تغطي الأرض بالظلام [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يكافح ليجد طريقـ[PAWN_possessive] عبر الظلام الخانق، والليليون تطارده، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يرقب العالم وهو يبتلع في هاوية من الظلال [circumstance_group]</li>
     <li>circumstance_phrase->وسط محاولات أصدقاء[PAWN_possessive] اليائسة للعودة إلى أمان الضوء</li>
     <li>circumstance_phrase->مع صرخات ثاقبة تتردد في كل مكان</li>
-    <li>circumstance_phrase->الضوء بالكاد يبدو قادرًا على صده</li>
+    <li>circumstance_phrase->الضوء بالكاد يبدو قادراً على صده</li>
     <li>circumstance_phrase->بينما يقدم [PAWN_pronoun] تضرعات للخلاص</li>
     <li>desc_sentence->لا يمكن رؤية حتى أضعف بصيص من الأضواء في المسافة.</li>
-    <li>desc_sentence->يبدو الموقف ميؤوسًا منه تمامًا.</li>
+    <li>desc_sentence->يبدو الموقف ميؤوساً منه تماماً.</li>
     <li>desc_sentence->تظهر مجموعات من المخلوقات الظلية عند حافة الظلام.</li>
     <li>desc_sentence->يحاول [PAWN_nameDef] إيجاد بصيص أمل وسط الظلام الزاحف.</li>
  </UnnaturalDarkness.rulePack.rulesStrings>

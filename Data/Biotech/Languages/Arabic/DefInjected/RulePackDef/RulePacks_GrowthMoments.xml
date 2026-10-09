@@ -181,7 +181,7 @@
     <li>firstSentence(tierSection==3)->[PAWN_pronoun] أظهر [nounGrowth] ممتازاً.</li>
     <li>secondSentence(tierSection==3)->[PAWN_nameDef] ممتن لأن [PAWN_pronoun] نادراً ما يشعر بـ [feelingBad] وهو مهتم بقضاء المزيد من الوقت [situationFun].</li>
     <li>secondSentence(tierSection==3)->[PAWN_nameDef] يحب [situationLearning] لكن [PAWN_pronoun] يكون أسعد عندما يكون [situationFun].</li>
-    <li>secondSentence(tierSection==3)->عندما يكبر [PAWN_nameDef]، يريد قضاء وقته [PAWN_possessive] في [taskWork].</li>
+    <li>secondSentence(tierSection==3)->عندما يكبر [PAWN_nameDef]، يريد قضاء وقتهـ[PAWN_possessive] في [taskWork].</li>
     <li>secondSentence(tierSection==3)->أكثر من أي شيء، يحب [PAWN_nameDef] [situationFun].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] أظهر بعض [nounGrowth] ويريد الاستمرار في [situationLearning].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] لديه بعض [nounAttitudeGood] لتعلم المزيد.</li>
@@ -283,7 +283,7 @@
     <li>topicLearning->علم النفس</li>
     <li>topicLearning->بيولوجيا الحشرات</li>
     <li>topicLearning->حمل الميكانويد</li>
-    <li>topicLearning->تحرير الجينات</li>
+    <li>topicLearning->تحرير المورثات</li>
     <li>topicLearning->علوم الصواريخ</li>
     <li>topicLearning->تعدين الخامات</li>
     <li>taskWork->طهي الوجبات</li>
@@ -323,7 +323,7 @@
     <li>enemyNameSingular->[AdjectiveBadass] [AnimalBadass]</li>
     <li>enemyNameSingular->[AnimalBadass]</li>
     <li>enemyNameSingular->[Mechanoid]</li>
-    <li>enemyNameSingular->[AdjectiveBadass] ويستر</li>
+    <li>enemyNameSingular->[AdjectiveBadass] وايستر</li>
     <li>enemyNameSingular->غريب</li>
     <li>enemyNameSingular->سانغوفاج</li>
     <li>enemyNameSingular->امرأة بلا عيون</li>

@@ -72,7 +72,7 @@
   <!-- EN: Long-term exposure to rot stink gas. Rot stink exposure has no direct health effects. However, serious rot stink exposure has a chance to result in a painful bacterial infection known as lung rot. When not exposed to rot stink gas, rot stink exposure will slowly decrease. -->
   <LungRotExposure.description>تعرض طويل الأمد لغاز رائحة التعفن. التعرض لغاز رائحة التعفن ليس له آثار صحية مباشرة. ومع ذلك، فإن التعرض الخطير له فرصة للتسبب بعدوى بكتيرية مؤلمة تعرف بتعفن الرئة. عندما لا تتعرض لغاز رائحة التعفن، يقل التعرض ببطء.</LungRotExposure.description>
   <!-- EN: {PAWN_nameDef} is beginning to suffer from exposure to rot stink gas. Keep {PAWN_objective} away from rotting corpses and other sources of rot stink. -->
-  <LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} بدأ يعاني من التعرض لغاز رائحة التعفن. أبقِ {PAWN_objective} بعيداً عن الجثث المتعفنة ومصادر رائحة التعفن الأخرى.</LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} بدأ يعاني من التعرض لغاز رائحة التعفن. أبقِـ{PAWN_objective} بعيداً عن الجثث المتعفنة ومصادر رائحة التعفن الأخرى.</LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: minor -->
   <LungRotExposure.stages.minor.label>طفيف</LungRotExposure.stages.minor.label>
   <!-- EN: major -->
@@ -117,7 +117,7 @@
   <!-- EN: Scaria: {PAWN_nameDef} -->
   <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>سكاريا: {PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
   <!-- EN: {PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed. -->
-  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} أصيب بالسكاريا من عدوى{PAWN_possessive}، مما أفقده صوابه وجعله في حالة هياج. يمكن الشفاء من السكاريا بعملية طبية خاصة، لكن يجب أولاً شل {PAWN_objective}.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} أصيب بالسكاريا من عدوا{PAWN_possessive}، مما أفقده صوابه وجعله في حالة هياج. يمكن الشفاء من السكاريا بعملية طبية خاصة، لكن يجب أولاً شلـ{PAWN_objective}.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
   <!-- EN: a scaria infection -->
   <ScariaInfection.labelNoun>عدوى سكاريا</ScariaInfection.labelNoun>
   <!-- EN: minor -->

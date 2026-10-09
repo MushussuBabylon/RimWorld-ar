@@ -2,12 +2,12 @@
 <LanguageData>
 
   <!-- EN: Sieging {0} from {1} are assaulting the colony. -->
-  <MessageSiegersAssaulting>تشن {0} من {1} هجومًا على المستعمرة.</MessageSiegersAssaulting>
+  <MessageSiegersAssaulting>تشن {0} من {1} هجوماً على المستعمرة.</MessageSiegersAssaulting>
 
   <!-- EN: {0} from {1} are beginning their assault. -->
   <MessageRaidersBeginningAssault>بدأت {0} من {1} هجومها.</MessageRaidersBeginningAssault>
   <!-- EN: {0} from {1} have detected you and begun their assault early. -->
-  <MessageRaidersDetectedEarlyAssault>لقد اكتشفتك {0} من {1} وبدأت هجومها مبكرًا.</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersDetectedEarlyAssault>لقد اكتشفتك {0} من {1} وبدأت هجومها مبكراً.</MessageRaidersDetectedEarlyAssault>
   <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
   <MessageRaidersKidnapping>قررت {0} من {1} خطف من يستطيعون والمغادرة.</MessageRaidersKidnapping>
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
@@ -43,9 +43,9 @@
   <MessageVisitorsDangerousConditions>تغادر {0} من {1} الخريطة بسبب الظروف الخطيرة.</MessageVisitorsDangerousConditions>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
-  <MessageWornApparelDeterioratedAway>تلاشت {0} التي يرتديها {1_nameFull} تمامًا.</MessageWornApparelDeterioratedAway>
+  <MessageWornApparelDeterioratedAway>تلاشت {0} التي يرتديها {1_nameFull} تماماً.</MessageWornApparelDeterioratedAway>
   <!-- EN: {0} has deteriorated away in storage. -->
-  <MessageDeterioratedAway>تلاشت {0} تمامًا في المخزن.</MessageDeterioratedAway>
+  <MessageDeterioratedAway>تلاشت {0} تماماً في المخزن.</MessageDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>لقد بدأ {0}.</MessageSeasonBegun>
@@ -65,7 +65,7 @@
   <MessageBillComplete>اكتمل الطلب: {0}.</MessageBillComplete>
 
   <!-- EN: {1_label} is fully healed. -->
-  <MessageFullyHealed>تعافى {1_label} تمامًا.</MessageFullyHealed>
+  <MessageFullyHealed>تعافى {1_label} تماماً.</MessageFullyHealed>
 
   <!-- EN: Prisoner {1_labelShort} is escaping. -->
   <MessagePrisonerIsEscaping>السجين {1_labelShort} يهرب.</MessagePrisonerIsEscaping>
@@ -82,12 +82,12 @@
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>فقط من لديهم سمة التعاطف مع الحشرات يمكنهم ترويض {INSECT_indefinite}.</MessageInsectTameDesignated>
   <!-- EN: No colonists are assigned to hunt. -->
-  <MessageNoHuntersAvailable>لا يوجد مستوطنون معينون للصيد.</MessageNoHuntersAvailable>
+  <MessageNoHuntersAvailable>لا يوجد مستعمرون معينون للصيد.</MessageNoHuntersAvailable>
   <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
-  <MessageNoHuntersWithProperWeapon>لا يمتلك أي صياد سلاح صيد صالحًا. جهّز صيادًا بسلاح بعيد المدى مناسب.</MessageNoHuntersWithProperWeapon>
+  <MessageNoHuntersWithProperWeapon>لا يمتلك أي صياد سلاح صيد صالحاً. جهّز صياداً بسلاح بعيد المدى مناسب.</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
-  <MessageInsectsHostileOnTaming>تحذير: {PAWN_labelShort} عدائي وسيهاجم بينما يحاول مستوطنك ترويضه.</MessageInsectsHostileOnTaming>
+  <MessageInsectsHostileOnTaming>تحذير: {PAWN_labelShort} عدائي وسيهاجم بينما يحاول مستعمرك ترويضه.</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>مجند جديد</LetterLabelMessageRecruitSuccess>
@@ -98,14 +98,14 @@
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>نجح {RECRUITER_labelShort} في ترويض {1}. أصبح يُدعى الآن {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
-  <MessageTameNoSuitablePens>لا توجد حظيرة حيوانات مناسبة لـ {ANIMAL_labelShort}. سوف يهيم بعيدًا في النهاية.</MessageTameNoSuitablePens>
+  <MessageTameNoSuitablePens>لا توجد حظيرة حيوانات مناسبة لـ {ANIMAL_labelShort}. سوف يهيم بعيداً في النهاية.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
   <MessageRecruitJoinOfferAccepted>انضم {RECRUITEE} إلى مستعمرتك.</MessageRecruitJoinOfferAccepted>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>المستعمرة لا تستطيع تحمل تكلفة هذه الصفقة.</MessageColonyCannotAfford>
   <!-- EN: You do not have enough silver ready to trade. -->
-  <MessageColonyNotEnoughSilver>ليس لديك ما يكفي من الفضة جاهزًا للتجارة.</MessageColonyNotEnoughSilver>
+  <MessageColonyNotEnoughSilver>ليس لديك ما يكفي من الفضة جاهزاً للتجارة.</MessageColonyNotEnoughSilver>
 
   <!-- EN: Critical alert: {0} -->
   <MessageCriticalAlert>تنبيه حرج: {0}</MessageCriticalAlert>
@@ -119,7 +119,7 @@
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>يجب تحديد النباتات.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
-  <MessageMustDesignateHaulable>يجب تحديد العناصر القابلة للنقل. بعض العناصر قابلة للنقل دائمًا ولا يمكن تحديدها.</MessageMustDesignateHaulable>
+  <MessageMustDesignateHaulable>يجب تحديد العناصر القابلة للنقل. بعض العناصر قابلة للنقل دائماً ولا يمكن تحديدها.</MessageMustDesignateHaulable>
   <!-- EN: Must designate impassable mineable rocks. -->
   <MessageMustDesignateMineable>يجب تحديد الصخور القابلة للتعدين غير القابلة للعبور.</MessageMustDesignateMineable>
   <!-- EN: Must designate huntable animals. -->
@@ -201,7 +201,7 @@
   <MessageGaveBirth>لقد ولدت {0}.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsylinkNoSensitivity>لن يتمكن {PAWN_labelShort} من استخدام رابط القوى النفسية (psylink) طالما أن حساسيته النفسية صفر.</MessagePsylinkNoSensitivity>
+  <MessagePsylinkNoSensitivity>لن يتمكن {PAWN_labelShort} من استخدام وصلة نفسية طالما أن حساسيته النفسية صفر.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>فقد {PAWN_labelShort} مستوى {1} من الزرعة بسبب {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
@@ -218,7 +218,7 @@
   <MessageAttackedByPredator>{PREY_labelShort} يتعرض للهجوم من قبل {PREDATOR}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>بدأ {PAWN_labelShort} يهيم بعيدًا! سيغادر الخريطة ما لم يقم مروض حيوانات بربطـ{PAWN_objective} وإعادتـ{PAWN_objective} إلى الحظيرة.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>بدأ {PAWN_labelShort} يهيم بعيداً! سيغادر الخريطة ما لم يقم مروض حيوانات بربطـ{PAWN_objective} وإعادتـ{PAWN_objective} إلى الحظيرة.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>لقد تكاثرت خلية حشرات.</MessageHiveReproduced>
@@ -234,16 +234,16 @@
   <MessageCantSelectOffMapPawn>{1_labelShort} خارج الخريطة.</MessageCantSelectOffMapPawn>
   
   <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
-  <MessageSocialFight>بدأ {PAWN1_labelShort} شجارًا اجتماعيًا مع {PAWN2_labelShort}.</MessageSocialFight>
+  <MessageSocialFight>بدأ {PAWN1_labelShort} شجاراً اجتماعياً مع {PAWN2_labelShort}.</MessageSocialFight>
   
   <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}'s marriage. -->
-  <MessageNewMarriageCeremony>يتجمع المستوطنون للاحتفال بزواج {PAWN1_labelShort} و{PAWN2_labelShort}.</MessageNewMarriageCeremony>
+  <MessageNewMarriageCeremony>يتجمع المستعمرون للاحتفال بزواج {PAWN1_labelShort} و{PAWN2_labelShort}.</MessageNewMarriageCeremony>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
   <MessageMarriageCeremonyStarts>بدأ {PAWN1_labelShort} و{PAWN2_labelShort} مراسم زواجهما!</MessageMarriageCeremonyStarts>
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has been called off. -->
   <MessageMarriageCeremonyCalledOff>تم إلغاء مراسم زواج {PAWN1_labelShort} و{PAWN2_labelShort}.</MessageMarriageCeremonyCalledOff>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} have married. Colonists are now celebrating the occasion. -->
-  <MessageNewlyMarried>تزوج {PAWN1_labelShort} و{PAWN2_labelShort}. يحتفل المستوطنون الآن بهذه المناسبة.</MessageNewlyMarried>
+  <MessageNewlyMarried>تزوج {PAWN1_labelShort} و{PAWN2_labelShort}. يحتفل المستعمرون الآن بهذه المناسبة.</MessageNewlyMarried>
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has finished. -->
   <MessageMarriageCeremonyAfterPartyFinished>انتهت مراسم زواج {PAWN1_labelShort} و{PAWN2_labelShort}.</MessageMarriageCeremonyAfterPartyFinished>
   
@@ -263,7 +263,7 @@
   <MessageSuccessfullyRemovedHediff>نجح {SURGEON_labelShort} في إزالة {HEDIFF} الخاص بـ {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
-  <MessageShipChunkDrop>سقطت قطع من مركبة فضائية بالقرب منك. يمكنك تفكيكها للحصول على موارد.</MessageShipChunkDrop>
+  <MessageShipChunkDrop>سقطت كتل من مركبة فضائية بالقرب منك. يمكنك تفكيكها للحصول على موارد.</MessageShipChunkDrop>
 
   <!-- EN: Some items cannot be traded because of:  -->
   <MessageCannotSellItemsReason>لا يمكن تداول بعض العناصر بسبب: </MessageCannotSellItemsReason>
@@ -275,7 +275,7 @@
   <MessageScreenshotSavedAs>تم حفظ لقطة الشاشة باسم: {0}</MessageScreenshotSavedAs>
   
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer social fighting. -->
-  <MessageNoLongerSocialFighting>لم يعد {PAWN1_labelShort} و{PAWN2_labelShort} يتشاجران اجتماعيًا.</MessageNoLongerSocialFighting>
+  <MessageNoLongerSocialFighting>لم يعد {PAWN1_labelShort} و{PAWN2_labelShort} يتشاجران اجتماعياً.</MessageNoLongerSocialFighting>
   
   <!-- EN: {2_labelShort} is no longer binging on {1}. -->
   <MessageNoLongerBingingOnDrug>لم يعد {2_labelShort} يفرط في تعاطي {1}.</MessageNoLongerBingingOnDrug>
@@ -294,17 +294,17 @@
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>تم إنهاء عملية تشكيل القافلة.</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
-  <MessageForceSendingCaravan_AllLost>لا يوجد مستوطن قادر على تشكيل قافلة. تم إنهاء عملية تشكيل القافلة.</MessageForceSendingCaravan_AllLost>
+  <MessageForceSendingCaravan_AllLost>لا يوجد مستعمر قادر على تشكيل قافلة. تم إنهاء عملية تشكيل القافلة.</MessageForceSendingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>ستستمر عملية تشكيل القافلة عندما يتعافى الجميع من انهيارهم العقلي.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
-  <MessageCaravanFormationUnpaused>سيستمر مستوطنوك الآن في تشكيل القافلة.</MessageCaravanFormationUnpaused>
+  <MessageCaravanFormationUnpaused>سيستمر مستعمروك الآن في تشكيل القافلة.</MessageCaravanFormationUnpaused>
   
   <!-- EN: One of the caravan members has had a mental break. -->
   <MessageCaravanMemberHasExtremeMentalBreak>أصيب أحد أعضاء القافلة بانهيار عقلي.</MessageCaravanMemberHasExtremeMentalBreak>
   
   <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
-  <MessageMaxPlanetCoveragePerformanceWarning>تحذير: قد يستغرق توليد كوكب بأكمله وقتًا طويلاً جدًا.</MessageMaxPlanetCoveragePerformanceWarning>
+  <MessageMaxPlanetCoveragePerformanceWarning>تحذير: قد يستغرق توليد كوكب بأكمله وقتاً طويلاً جداً.</MessageMaxPlanetCoveragePerformanceWarning>
 
   <!-- EN: {0} has died because of cold. -->
   <MessagePlantDiedOfCold>مات {0} بسبب البرد.</MessagePlantDiedOfCold>
@@ -364,12 +364,12 @@
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>وصلت كبسولات النقل الخاصة بك.</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
-  <MessageTransportPodsArrivedAndLost>وصلت كبسولات النقل الخاصة بك، ولكن نظرًا لعدم وجود مستوطنين بالداخل، فقدت المحتويات.</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrivedAndLost>وصلت كبسولات النقل الخاصة بك، ولكن نظراً لعدم وجود مستعمرين بالداخل، فقدت المحتويات.</MessageTransportPodsArrivedAndLost>
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
   <MessageTransportPodsArrivedAndAddedToCaravan>وصلت كبسولات النقل الخاصة بك. تمت إضافة المحتويات إلى {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
-  <MessageFinishedLoadingTransporters>اكتمل تحميل كبسولة النقل. أطلقها عندما تكون مستعدًا.</MessageFinishedLoadingTransporters>
+  <MessageFinishedLoadingTransporters>اكتمل تحميل كبسولة النقل. أطلقها عندما تكون مستعداً.</MessageFinishedLoadingTransporters>
   <!-- EN: {SHUTTLE_label} is loaded with required cargo and can launch when ready. -->
   <MessageFinishedLoadingShuttle>تم تحميل {SHUTTLE_label} بالحمولة المطلوبة ويمكنها الإقلاع عند الاستعداد.</MessageFinishedLoadingShuttle>
 
@@ -391,7 +391,7 @@
   <MessageReformedCaravan>تم تشكيل القافلة من جديد.</MessageReformedCaravan>
   
   <!-- EN: You can't banish the last colonist. -->
-  <MessageCantBanishLastColonist>لا يمكنك نفي آخر مستوطن.</MessageCantBanishLastColonist>
+  <MessageCantBanishLastColonist>لا يمكنك نفي آخر مستعمر.</MessageCantBanishLastColonist>
 
   <!-- EN: Cannot equip: {0}. -->
   <MessageCantEquipCustom>لا يمكن التجهيز بـ: {0}.</MessageCantEquipCustom>
@@ -409,9 +409,9 @@
   <MessageWouldReplaceLockedApparel>لا يمكن الارتداء: سيؤدي هذا إلى استبدال ملابس يرفض {1_labelShort} خلعها.</MessageWouldReplaceLockedApparel>
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageSlaughteringBondedAnimal>نظرًا لكونهما مترابطين، فإن ذبح {DESIGNATED_labelShort} سيجعل {BONDED_labelShort} غير سعيد.</MessageSlaughteringBondedAnimal>
+  <MessageSlaughteringBondedAnimal>نظراً لكونهما مترابطين، فإن ذبح {DESIGNATED_labelShort} سيجعل {BONDED_labelShort} غير سعيد.</MessageSlaughteringBondedAnimal>
   <!-- EN: Because they are bonded, releasing {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageReleaseBondedAnimal>نظرًا لكونهما مترابطين، فإن إطلاق {DESIGNATED_labelShort} سيجعل {BONDED_labelShort} غير سعيد.</MessageReleaseBondedAnimal>
+  <MessageReleaseBondedAnimal>نظراً لكونهما مترابطين، فإن إطلاق {DESIGNATED_labelShort} سيجعل {BONDED_labelShort} غير سعيد.</MessageReleaseBondedAnimal>
   
   <!-- EN: {0} has run out of food. -->
   <MessageCaravanRanOutOfFood>نفد الطعام لدى {0}.</MessageCaravanRanOutOfFood>
@@ -419,7 +419,7 @@
   <MessageCaravanDeathCorpseAddedToInventory>لقد التقطت القافلة جثة {PAWN_definite}. إنها ثقيلة وقد تعيق القافلة، ولكن يمكن تركها في علامة تبويب عناصر القافلة.</MessageCaravanDeathCorpseAddedToInventory>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
-  <MessageSelectOwnBaseToFormCaravan>لتشكيل قافلة، حدد مستعمرتك الخاصة أو موقعًا يوجد فيه أفرادك.</MessageSelectOwnBaseToFormCaravan>
+  <MessageSelectOwnBaseToFormCaravan>لتشكيل قافلة، حدد مستعمرتك الخاصة أو موقعاً يوجد فيه أفرادك.</MessageSelectOwnBaseToFormCaravan>
 
   <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
   <MessageScreenResTooSmallForUIScale>بهذه الدقة وحجم واجهة المستخدم، لن تتناسب واجهة اللعبة مع الشاشة. يرجى تقليل حجم واجهة المستخدم أو زيادة الدقة.</MessageScreenResTooSmallForUIScale>
@@ -428,7 +428,7 @@
   <MessageYouHaveToReformCaravanNow>يجب عليك تشكيل القافلة الآن. سيتم التخلي عن كل من يُترك خلفك.</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>تشن {0} من {1} هجومًا على {2} الخاص بك.</MessageDefendersAttacking>
+  <MessageDefendersAttacking>تشن {0} من {1} هجوماً على {2} الخاص بك.</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been gestated and will defend their cluster. -->
   <MessageMechanoidsAssembled>تم توليد الميكانويدات وسيدافعون عن عنقودهم.</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to gestate -->
@@ -437,9 +437,9 @@
   <MessageMechanoidsReinforcementsDrop>استدعت منارة إسقاط الميكانويدات تعزيزات في كبسولات إسقاط قريبة.</MessageMechanoidsReinforcementsDrop>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
-  <MessageSelfTendUnsatisfied>للقيام بالعلاج الذاتي، يجب أيضًا تعيين {1_labelShort} في عمل الطبيب.</MessageSelfTendUnsatisfied>
+  <MessageSelfTendUnsatisfied>للقيام بالعلاج الذاتي، يجب أيضاً تعيين {1_labelShort} في عمل الطبيب.</MessageSelfTendUnsatisfied>
   <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
-  <MessageCannotSelfTendEver>{1_labelShort} غير قادر على القيام بعمل الطبيب، وبالتالي لا يمكنه أبدًا القيام بالعلاج الذاتي.</MessageCannotSelfTendEver>
+  <MessageCannotSelfTendEver>{1_labelShort} غير قادر على القيام بعمل الطبيب، وبالتالي لا يمكنه أبداً القيام بالعلاج الذاتي.</MessageCannotSelfTendEver>
   
   <!-- EN: This tile is impassable. -->
   <MessageCantAddWaypointBecauseImpassable>هذا المربع غير قابل للعبور.</MessageCantAddWaypointBecauseImpassable>
@@ -480,9 +480,9 @@
   <MessagePawnResurrected>لقد أُعيد {0} إلى الحياة!</MessagePawnResurrected>
 
   <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
-  <MessageFailedToRescueRelative>فشلت في إنقاذ {PAWN_labelShort}. هذا سيجعل {RELATIVE_labelShort} حزينًا.</MessageFailedToRescueRelative>
+  <MessageFailedToRescueRelative>فشلت في إنقاذ {PAWN_labelShort}. هذا سيجعل {RELATIVE_labelShort} حزيناً.</MessageFailedToRescueRelative>
   <!-- EN: You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy. -->
-  <MessageRescuedRelative>لقد أنقذت {PAWN_labelShort}. هذا سيجعل {RELATIVE_labelShort} سعيدًا.</MessageRescuedRelative>
+  <MessageRescuedRelative>لقد أنقذت {PAWN_labelShort}. هذا سيجعل {RELATIVE_labelShort} سعيداً.</MessageRescuedRelative>
 
   <!-- EN: The tornado has left the map. -->
   <MessageTornadoLeftMap>غادر الإعصار الخريطة.</MessageTornadoLeftMap>
@@ -621,7 +621,7 @@
   <MessageCaravanArrivalActionNoLongerValid>لم يتمكن {0} من الوصول إلى وجهته.</MessageCaravanArrivalActionNoLongerValid>
 
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <MessageEnterCooldownBlocksEntering>خطير جدًا لإعادة الدخول بالنسبة لـ {0}.</MessageEnterCooldownBlocksEntering>
+  <MessageEnterCooldownBlocksEntering>خطير جداً لإعادة الدخول بالنسبة لـ {0}.</MessageEnterCooldownBlocksEntering>
 
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
   <MessagePermitCooldownFinished>يمكن لـ {0_labelShort} الآن استخدام "{1}" بحرية.</MessagePermitCooldownFinished>
@@ -686,7 +686,7 @@
   <MessageActivatorProximityTriggered>قام {0_indefinite} بتشغيل منشط القرب.</MessageActivatorProximityTriggered>
 
   <!-- EN: {0_label} is currently hidden. -->
-  <MessageCannotSelectInvisibleStat>{0_label} مخفي حاليًا.</MessageCannotSelectInvisibleStat>
+  <MessageCannotSelectInvisibleStat>{0_label} مخفي حالياً.</MessageCannotSelectInvisibleStat>
 
   <!-- EN: {PAWN_nameDef} is a prisoner -->
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} سجين</MessagePrisonerCannotEquipWeapon>
@@ -695,7 +695,7 @@
   <MessageIdeoOpposedWorkTypeSelected>تحذير: معتقدات {0_nameDef} تعارض عمل {1}. قد يصبح غير سعيد.</MessageIdeoOpposedWorkTypeSelected>
 
   <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
-  <MessageBedLostAssignment>لم يعد {0} مخصصًا لـ {1_nameDef}.</MessageBedLostAssignment>
+  <MessageBedLostAssignment>لم يعد {0} مخصصاً لـ {1_nameDef}.</MessageBedLostAssignment>
   <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
   <MessageBedDestroyed>تم تدمير {0} المخصص لـ {1_nameDef}.</MessageBedDestroyed>
 
@@ -723,9 +723,9 @@
   <!-- EN: {0_labelShort} is downed. -->
   <MessageRitualPawnDowned>{0_labelShort} ساقط.</MessageRitualPawnDowned>
   <!-- EN: {0_labelShort} is currently escaping. -->
-  <MessageRitualPawnPrisonerNotSecured>{0_labelShort} يهرب حاليًا.</MessageRitualPawnPrisonerNotSecured>
+  <MessageRitualPawnPrisonerNotSecured>{0_labelShort} يهرب حالياً.</MessageRitualPawnPrisonerNotSecured>
   <!-- EN: {0_labelShort} is currently rebelling. -->
-  <MessageRitualPawnSlaveNotSecured>{0_labelShort} يتمرد حاليًا.</MessageRitualPawnSlaveNotSecured>
+  <MessageRitualPawnSlaveNotSecured>{0_labelShort} يتمرد حالياً.</MessageRitualPawnSlaveNotSecured>
   <!-- EN: {0_labelShort} is being released. -->
   <MessageRitualPawnReleased>يتم إطلاق سراح {0_labelShort}.</MessageRitualPawnReleased>
   <!-- EN: {0_labelShort} is injured. -->
@@ -733,39 +733,39 @@
   <!-- EN: {0_labelShort} must hold one of these roles -->
   <MessageRitualRoleRequired>يجب أن يشغل {0_labelShort} أحد هذه الأدوار</MessageRitualRoleRequired>
   <!-- EN: {0} must be a prisoner. -->
-  <MessageRitualRoleMustBePrisoner>يجب أن يكون {0} سجينًا.</MessageRitualRoleMustBePrisoner>
+  <MessageRitualRoleMustBePrisoner>يجب أن يكون {0} سجيناً.</MessageRitualRoleMustBePrisoner>
   <!-- EN: {0} must be an animal. -->
-  <MessageRitualRoleMustBeAnimal>يجب أن يكون {0} حيوانًا.</MessageRitualRoleMustBeAnimal>
+  <MessageRitualRoleMustBeAnimal>يجب أن يكون {0} حيواناً.</MessageRitualRoleMustBeAnimal>
   <!-- EN: {0} must be a human. -->
-  <MessageRitualRoleMustBeHumanlike>يجب أن يكون {0} إنسانًا.</MessageRitualRoleMustBeHumanlike>
+  <MessageRitualRoleMustBeHumanlike>يجب أن يكون {0} إنساناً.</MessageRitualRoleMustBeHumanlike>
   <!-- EN: {0} cannot be a baby. -->
-  <MessageRitualRoleCannotBeABaby>لا يمكن أن يكون {0} رضيعًا.</MessageRitualRoleCannotBeABaby>
+  <MessageRitualRoleCannotBeABaby>لا يمكن أن يكون {0} رضيعاً.</MessageRitualRoleCannotBeABaby>
   <!-- EN: No roles available for {0_labelShort}. -->
   <MessageRitualNoRolesAvailable>لا توجد أدوار متاحة لـ {0_labelShort}.</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
-  <MessageRitualNotOfPlayerIdeo>{0_labelShort} ليس عضوًا في أي أيديولوجية للمستعمرة.</MessageRitualNotOfPlayerIdeo>
+  <MessageRitualNotOfPlayerIdeo>{0_labelShort} ليس عضواً في أي أيديولوجية للمستعمرة.</MessageRitualNotOfPlayerIdeo>
   <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>يجب أن يكون لدى {0} عيون</MessageRitualRoleMustHaveEyes>
   <!-- EN: {0_labelShort} does not require further scarification. -->
-  <MessageRitualRoleMustRequireScarification>لا يتطلب {0_labelShort} مزيدًا من التنديب.</MessageRitualRoleMustRequireScarification>
+  <MessageRitualRoleMustRequireScarification>لا يتطلب {0_labelShort} مزيداً من التنديب.</MessageRitualRoleMustRequireScarification>
   <!-- EN: {0_labelShort} does not require blinding. -->
   <MessageRitualRoleMustRequireBlinding>لا يتطلب {0_labelShort} الإعماء.</MessageRitualRoleMustRequireBlinding>
   <!-- EN: {0} must be a prisoner or slave. -->
-  <MessageRitualRoleMustBePrisonerOrSlave>يجب أن يكون {0} سجينًا أو عبدًا.</MessageRitualRoleMustBePrisonerOrSlave>
+  <MessageRitualRoleMustBePrisonerOrSlave>يجب أن يكون {0} سجيناً أو عبداً.</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: {0_labelShort} must be capable of fighting. -->
-  <MessageRitualRoleMustBeCapableOfFighting>يجب أن يكون {0_labelShort} قادرًا على القتال.</MessageRitualRoleMustBeCapableOfFighting>
+  <MessageRitualRoleMustBeCapableOfFighting>يجب أن يكون {0_labelShort} قادراً على القتال.</MessageRitualRoleMustBeCapableOfFighting>
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>لا يمكن أن يؤدي هذا الدور شخص آخر.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>لا يمكن لـ {0_labelShort} الاتصال بشجرة غورانلين لأن اتصالـ{0_possessive} قُطع مؤخرًا.</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnRecentlyTornConnection>لا يمكن لـ {0_labelShort} الاتصال بشجرة غورانلين لأن اتصالـ{0_possessive} قُطع مؤخراً.</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
   <MessageRitualRolePawnHasSameIdeo>{0_labelShort} لديه نفس أيديولوجية المحوّل.</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
-  <MessageRitualRoleMustBeCapableOfWardening>يجب أن يكون {0_labelShort} قادرًا على الحراسة.</MessageRitualRoleMustBeCapableOfWardening>
+  <MessageRitualRoleMustBeCapableOfWardening>يجب أن يكون {0_labelShort} قادراً على الحراسة.</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->
-  <MessageRitualRoleMustBeCapableOfGeneric>يجب أن يكون {0} قادرًا على {1}.</MessageRitualRoleMustBeCapableOfGeneric>
+  <MessageRitualRoleMustBeCapableOfGeneric>يجب أن يكون {0} قادراً على {1}.</MessageRitualRoleMustBeCapableOfGeneric>
   <!-- EN: {0} must be capable of violence. -->
-  <MessageRitualRoleMustBeCapableOfViolence>يجب أن يكون {0} قادرًا على العنف.</MessageRitualRoleMustBeCapableOfViolence>
+  <MessageRitualRoleMustBeCapableOfViolence>يجب أن يكون {0} قادراً على العنف.</MessageRitualRoleMustBeCapableOfViolence>
   <!-- EN: prisoners cannot {0}. -->
   <MessageRitualRoleMustNotBePrisonerToSpectate>لا يمكن للسجناء {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
   <!-- EN: only {0} can {1}. -->
@@ -773,13 +773,13 @@
   <!-- EN: only {0} can fill the role of {1}. -->
   <MessageRitualRoleMustHaveIdeoToDoRole>فقط {0} يمكنهم ملء دور {1}.</MessageRitualRoleMustHaveIdeoToDoRole>
   <!-- EN: must be colonist for the {0} role. -->
-  <MessageRitualRoleMustBeColonist>يجب أن يكون مستوطنًا لدور {0}.</MessageRitualRoleMustBeColonist>
+  <MessageRitualRoleMustBeColonist>يجب أن يكون مستعمراً لدور {0}.</MessageRitualRoleMustBeColonist>
   <!-- EN: must not be a prisoner for the {0} role. -->
-  <MessageRitualRoleMustBeFree>يجب ألا يكون سجينًا لدور {0}.</MessageRitualRoleMustBeFree>
+  <MessageRitualRoleMustBeFree>يجب ألا يكون سجيناً لدور {0}.</MessageRitualRoleMustBeFree>
   <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
   <MessageRitualWontAttendExtremeTemperature>لن يحضر {0_labelShort} بسبب درجة الحرارة القصوى في منطقة الطقوس.</MessageRitualWontAttendExtremeTemperature>
   <!-- EN: must be colonist and not enslaved for the {0} role. -->
-  <MessageRitualRoleMustBeFreeColonist>يجب أن يكون مستوطنًا وغير مستعبد لدور {0}.</MessageRitualRoleMustBeFreeColonist>
+  <MessageRitualRoleMustBeFreeColonist>يجب أن يكون مستعمراً وغير مستعبد لدور {0}.</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
   <MessageRitualRoleMustHaveLargerBodySize>يجب أن يكون لدى {0} حيوان بحجم جسم أدنى قدره {1}.</MessageRitualRoleMustHaveLargerBodySize>
   <!-- EN: {0_labelShort} is in a mental state. -->
@@ -789,13 +789,13 @@
   <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
   <MessageRitualCannotAssignAnyRoleFromSpectating>لا يمكن لـ {0_labelShort} تولي أي دور آخر غير المشاهد.</MessageRitualCannotAssignAnyRoleFromSpectating>
   <!-- EN: {0} cannot be an imprisoned wild man/woman. -->
-  <MessageRitualRoleMustNotBeImprisonedWildMan>لا يمكن لـ {0} أن يكون رجلًا/امرأة برية مسجونًا.</MessageRitualRoleMustNotBeImprisonedWildMan>
+  <MessageRitualRoleMustNotBeImprisonedWildMan>لا يمكن لـ {0} أن يكون رجلاً/امرأة برية مسجوناً.</MessageRitualRoleMustNotBeImprisonedWildMan>
   <!-- EN: {0} must be free. -->
-  <MessageRitualRoleMustNotBeImprisoned>يجب أن يكون {0} حرًا.</MessageRitualRoleMustNotBeImprisoned>
+  <MessageRitualRoleMustNotBeImprisoned>يجب أن يكون {0} حراً.</MessageRitualRoleMustNotBeImprisoned>
   <!-- EN: {0} cannot be a child. -->
-  <MessageRitualRoleCannotBeChild>لا يمكن أن يكون {0} طفلًا.</MessageRitualRoleCannotBeChild>
+  <MessageRitualRoleCannotBeChild>لا يمكن أن يكون {0} طفلاً.</MessageRitualRoleCannotBeChild>
   <!-- EN: {0} cannot be a baby. -->
-  <MessageRitualRoleCannotBeBaby>لا يمكن أن يكون {0} رضيعًا.</MessageRitualRoleCannotBeBaby>
+  <MessageRitualRoleCannotBeBaby>لا يمكن أن يكون {0} رضيعاً.</MessageRitualRoleCannotBeBaby>
   <!-- EN: {0} is busy. -->
   <MessageRitualRoleBusy>{0} مشغول.</MessageRitualRoleBusy>
 
@@ -815,9 +815,9 @@
   <!-- EN: Cannot be planted next to {0_label}. -->
   <AdjacentSowBlocker>لا يمكن زراعته بجانب {0_label}.</AdjacentSowBlocker>
   <!-- EN: Too close to {0_label}. -->
-  <TooCloseToOtherPlant>قريب جدًا من {0_label}.</TooCloseToOtherPlant>
+  <TooCloseToOtherPlant>قريب جداً من {0_label}.</TooCloseToOtherPlant>
   <!-- EN: Too close to {0}'s planting location. -->
-  <TooCloseToOtherSeedPlantCell>قريب جدًا من موقع زراعة {0}.</TooCloseToOtherSeedPlantCell>
+  <TooCloseToOtherSeedPlantCell>قريب جداً من موقع زراعة {0}.</TooCloseToOtherSeedPlantCell>
   <!-- EN: Cannot be placed on {0}. -->
   <MessageCannotBePlacedOn>لا يمكن وضعه على {0}.</MessageCannotBePlacedOn>
 
@@ -831,7 +831,7 @@
   <MessageActivationCanceled>تم إلغاء تفعيل {0_labelShort}</MessageActivationCanceled>
 
   <!-- EN: Nothing is currently buildable in category -->
-  <NothingAvailableInCategory>لا يوجد شيء قابل للبناء حاليًا في هذه الفئة</NothingAvailableInCategory>
+  <NothingAvailableInCategory>لا يوجد شيء قابل للبناء حالياً في هذه الفئة</NothingAvailableInCategory>
 
   <!-- EN: Storage settings linked for {0} buildings. -->
   <SettingsLinkedFor>إعدادات التخزين مرتبطة لـ {0} مبانٍ.</SettingsLinkedFor>
@@ -847,7 +847,7 @@
   <StorageSettingsPastedFromClipboard>تم لصق إعدادات التخزين من الحافظة.</StorageSettingsPastedFromClipboard>
   
   <!-- EN: {0_label} requires adjacent walls to function. -->
-  <MessageBuildingRequiresAdjacentWalls>يتطلب {0_label} جدرانًا مجاورة ليعمل.</MessageBuildingRequiresAdjacentWalls>
+  <MessageBuildingRequiresAdjacentWalls>يتطلب {0_label} جدراناً مجاورة ليعمل.</MessageBuildingRequiresAdjacentWalls>
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>لا يمكن التخطي: لاجئ</MessageLodgersCantFarskip>

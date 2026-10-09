@@ -61,7 +61,7 @@
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>كمية الطعام المقتات</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
-  <ForagedNutritionPerDay.description>كمية القيمة الغذائية التي سيقوم هذا الشخص باقتياتها تلقائيًا يوميًا أثناء السفر بالقافلة.</ForagedNutritionPerDay.description>
+  <ForagedNutritionPerDay.description>كمية القيمة الغذائية التي سيقوم هذا الشخص باقتياتها تلقائياً يومياً أثناء السفر بالقافلة.</ForagedNutritionPerDay.description>
   
   <!-- EN: global learning factor -->
   <GlobalLearningFactor.label>عامل التعلم العالمي</GlobalLearningFactor.label>
@@ -71,7 +71,7 @@
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>سرعة اكتساب المناعة</ImmunityGainSpeed.label>
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
-  <ImmunityGainSpeed.description>السرعة التي تكتسب بها هذه الشخصية مناعة ضد الأمراض.\n\nإذا كانت بطيئة جدًا، ستموت الشخصية من المرض قبل تطوير المناعة.</ImmunityGainSpeed.description>
+  <ImmunityGainSpeed.description>السرعة التي تكتسب بها هذه الشخصية مناعة ضد الأمراض.\n\nإذا كانت بطيئة جداً، ستموت الشخصية من المرض قبل تطوير المناعة.</ImmunityGainSpeed.description>
   
   <!-- EN: injury healing factor -->
   <InjuryHealingFactor.label>عامل شفاء الإصابات</InjuryHealingFactor.label>
@@ -86,7 +86,7 @@
   <!-- EN: leather amount -->
   <LeatherAmount.label>كمية الجلود</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <LeatherAmount.description>كمية الجلود الناتجة عند ذبح هذا المخلوق. تقل هذه القيمة إذا لم يتم ذبح المخلوق بشكل نظيف، أو إذا كان مصابًا عند القتل.</LeatherAmount.description>
+  <LeatherAmount.description>كمية الجلود الناتجة عند ذبح هذا المخلوق. تقل هذه القيمة إذا لم يتم ذبح المخلوق بشكل نظيف، أو إذا كان مصاباً عند القتل.</LeatherAmount.description>
   
   <!-- EN: lifespan factor -->
   <LifespanFactor.label>عامل العمر الافتراضي</LifespanFactor.label>
@@ -108,12 +108,12 @@
   <!-- EN: meat amount -->
   <MeatAmount.label>كمية اللحوم</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <MeatAmount.description>كمية اللحوم الناتجة عند ذبح هذا المخلوق. تقل هذه القيمة إذا لم يتم ذبح المخلوق بشكل نظيف، أو إذا كان مصابًا عند القتل.</MeatAmount.description>
+  <MeatAmount.description>كمية اللحوم الناتجة عند ذبح هذا المخلوق. تقل هذه القيمة إذا لم يتم ذبح المخلوق بشكل نظيف، أو إذا كان مصاباً عند القتل.</MeatAmount.description>
   
   <!-- EN: meditation psyfocus gain -->
   <MeditationFocusGain.label>كسب التركيز النفسي بالتأمل</MeditationFocusGain.label>
   <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
-  <MeditationFocusGain.description>كمية التركيز النفسي التي يكتسبها الشخص يوميًا من التأمل، متجاهلاً المكافآت من أشياء التركيز.</MeditationFocusGain.description>
+  <MeditationFocusGain.description>كمية التركيز النفسي التي يكتسبها الشخص يومياً من التأمل، متجاهلاً المكافآت من أشياء التركيز.</MeditationFocusGain.description>
   <!-- EN: {0} / day -->
   <MeditationFocusGain.formatString>{0} / يوم</MeditationFocusGain.formatString>
   <!-- EN: {0} / day -->
@@ -156,7 +156,7 @@
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>الحساسية النفسية</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
-  <PsychicSensitivity.description>الناس الأكثر حساسية يعانون أكثر من التأثيرات النفسية السلبية، ويستفيدون أكثر من الإيجابية. الحساسية النفسية الأعلى تزيد أيضًا من حد الحرارة العصبية.</PsychicSensitivity.description>
+  <PsychicSensitivity.description>الناس الأكثر حساسية يعانون أكثر من التأثيرات النفسية السلبية، ويستفيدون أكثر من الإيجابية. الحساسية النفسية الأعلى تزيد أيضاً من حد الحرارة العصبية.</PsychicSensitivity.description>
   
   <!-- EN: sleep fall rate -->
   <RestFallRateFactor.label>معدل انخفاض النوم</RestFallRateFactor.label>
@@ -171,7 +171,7 @@
   <!-- EN: toxic environment resistance -->
   <ToxicEnvironmentResistance.label>مقاومة البيئة السامة</ToxicEnvironmentResistance.label>
   <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
-  <ToxicEnvironmentResistance.description>مدى مقاومة هذا المخلوق لتأثيرات السموم البيئية. يحمي هذا ضد الغاز السام، رائحة العفن، السقوط السام، والتضاريس الملوثة، ولكن ليس ضد الهجمات المباشرة بالسم أو الحقن. عندما تكون هذه القيمة أعلى، فإن التعرض للتلوث ينتج تراكمًا سامًا أقل نسبيًا في الجسم.</ToxicEnvironmentResistance.description>
+  <ToxicEnvironmentResistance.description>مدى مقاومة هذا المخلوق لتأثيرات السموم البيئية. يحمي هذا ضد الغاز السام، رائحة العفن، السقوط السام، والتضاريس الملوثة، ولكن ليس ضد الهجمات المباشرة بالسم أو الحقن. عندما تكون هذه القيمة أعلى، فإن التعرض للتلوث ينتج تراكماً ساماً أقل نسبياً في الجسم.</ToxicEnvironmentResistance.description>
   
   <!-- EN: toxic resistance -->
   <ToxicResistance.label>مقاومة السموم</ToxicResistance.label>

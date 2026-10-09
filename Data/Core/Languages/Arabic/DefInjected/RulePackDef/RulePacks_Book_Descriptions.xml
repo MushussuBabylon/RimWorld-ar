@@ -1074,7 +1074,7 @@
     <li>subject_intro->الـ[schematic_synonym] [shows_synonym_verb] [diagram_type] [state_adjective] حول [subject]</li>
     <li>subject_intro->في هذا [schematic_synonym]، الـ[author] [shows_synonym_verb] [ANYPAWN_possessive] [theory_synonym_adj] عن [subject]</li>
     <li>subject_intro->هذا الـ[schematic_synonym] الـ[physical_adjective] [contain_verb] [schematic_synonym]s تركز على [subject]</li>
-    <li>subject_intro->استخدم الـ[author] [image_types] [notable_adjective] لإيصال [ANYPAWN_possessive] [theory_synonym_adj] عن [subject]</li>
+    <li>subject_intro->استخدم الـ[author] [image_types] [notable_adjective] لإيصالـ[ANYPAWN_possessive] [theory_synonym_adj] عن [subject]</li>
     <li>subject_intro->[device_synonym]s المرتبطة بـ[subject_primary] [shows_synonym_verb1]ed في هذا الـ[schematic_synonym] الـ[maybe_physical_adjective]</li>
     <li>subject_intro->الـ[schematic_synonym] [shows_synonym_verb] [diagram_type] [state_adjective] حول [subject_primary] و[subject_secondary]</li>
     <li>subject_intro->[device_synonym]s المرتبطة بـ[subject_primary] و[subject_secondary] [shows_synonym_verb1]ed في هذا الـ[schematic_synonym] الـ[maybe_physical_adjective]</li>
@@ -1154,23 +1154,23 @@
     <li>author_story->[author_storyname][calltoadventure]</li>
     <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
     <li>author_storyname->الـ[authorTitle] المجهول</li>
-    <li>author_intent-> كان متعطشا للمعرفة حول [subject] منذ سن مبكرة وسأل الجميع في مسقط رأس [ANYPAWN_possessive]</li>
+    <li>author_intent-> كان متعطشا للمعرفة حول [subject] منذ سن مبكرة وسأل الجميع في مسقط رأسـ[ANYPAWN_possessive]</li>
     <li>author_intent-> حلم بتجديد [subject]، قائدا ثورة علمية على [worldname]</li>
-    <li>author_intent-> جعل [subject] عمل [ANYPAWN_possessive] حياته</li>
-    <li>author_intent-> شارك [ANYPAWN_possessive] آراءه حول [subject] في كتاب [physical_adjective]، كتب [written_when]</li>
+    <li>author_intent-> جعل [subject] عملـ[ANYPAWN_possessive] حياته</li>
+    <li>author_intent-> شاركـ[ANYPAWN_possessive] آراءه حول [subject] في كتاب [physical_adjective]، كتب [written_when]</li>
     <li>author_intent-> لم يعرف نداء أنبل من دراسة [subject] وأنشأ هذا المخطط [written_when]</li>
-    <li>author_intent-> عثر على أسرار [subject] في دراسة والدة [ANYPAWN_possessive] الـ[physical_adjective]</li>
+    <li>author_intent-> عثر على أسرار [subject] في دراسة والدتـ[ANYPAWN_possessive] الـ[physical_adjective]</li>
     <li>author_intent-> كان مريضا جدا وهو طفل لكنه استغل الوقت في دراسة [subject]</li>
     <li>author_intent-> أراد للعالم أن يعرف عن [subject] و، [written_when]، أنشأ هذا المخطط</li>
     <li>author_intent-> احتاج أن تعرف المجرة عن [subject]</li>
     <li>author_intent-> تم إغراؤه بحب [subject] من خلال سلسلة كتب أطفال</li>
     <li>author_intent-> لم يحب أبدا دراسة [subject] لكنه كان مجبرا على فعلها</li>
-    <li>author_intent-> شعر أن [subject] كانت نداء [ANYPAWN_possessive]</li>
+    <li>author_intent-> شعر أن [subject] كانت نداء[ANYPAWN_possessive]</li>
     <li>learning_story-> سافر بعيدا وعلى نطاق واسع، باحثا عن حكمة حول [subject]</li>
     <li>learning_story-> عاش يوما متطابقا كل يوم، عاملا على [subject] في المدن الدورية لـ[midworld]</li>
     <li>learning_story-> ترعرع في مدرسة أحياء فقيرة مركزة على [subject] في [urbworld]</li>
     <li>learning_story-> تخرج بامتياز في [subject] من أكاديمية [worldname]</li>
-    <li>learning_story-> علّم [ANYPAWN_objective] نفسه عن [subject] على العالم الوحشي [animalworld]</li>
+    <li>learning_story-> علّمـ[ANYPAWN_objective] نفسه عن [subject] على العالم الوحشي [animalworld]</li>
     <li>learning_story-> اكتشف كنزا من المخططات المفقودة حول [subject] في أطلال [ruinworld]</li>
     <li>learning_story-> جاب الشوارع المسودة لـ[steamworld]، مطاردا [subject] وسط هطول السخام</li>
     <li>learning_story-> نجا بطريقة ما من مستنقعات السموم لـ[toxicworld]، حيث انتشرت شائعات عن خبراء [subject]</li>
@@ -1178,15 +1178,15 @@
     <li>learning_story-> دار حول الكرة المتسامية لـ[transcendentworld]، متعلما عن [subject] باعتراض حركة الاتصالات</li>
     <li>learning_story-> ذهب مع البغال إلى أعماق [mineworld]، منصتا لعمال المناجم القدامى وهم يروون قصصا عن [subject] ويتعلم أسراره</li>
     <li>learning_story-> كان خبيرا متعاقدا في [subject] على عالم اللب [coreworld]</li>
-    <li>learning_story-> امتلك المصانع على العالم الصناعي [indworld]، منغمسا في حب [ANYPAWN_possessive] لـ[subject] بينما عمال [ANYPAWN_possessive] يكدحون</li>
-    <li>learning_story-> تعلم عن [subject] مسجونا في سجن الخلية الخامس على [prisonworld]، محتجا إلى الأبد على براءة [ANYPAWN_possessive]</li>
-    <li>learning_story-> جمع أجزاء هذا المخطط عن [subject] في أكوام خلايا عالم النفايات [trashworld]، جامعا شظايا نبذها مواطنو العوالم البراقة العاطلون</li>
+    <li>learning_story-> امتلك المصانع على العالم الصناعي [indworld]، منغمسا في حبـ[ANYPAWN_possessive] لـ[subject] بينما عمالـ[ANYPAWN_possessive] يكدحون</li>
+    <li>learning_story-> تعلم عن [subject] مسجونا في سجن الخلية الخامس على [prisonworld]، محتجا إلى الأبد على براءتـ[ANYPAWN_possessive]</li>
+    <li>learning_story-> جمع أجزاء هذا المخطط عن [subject] في أكوام خلايا عالم النفايات [trashworld]، جامعا شظايا نبذها مواطنو العوالم اللامعة العاطلون</li>
     <li>learning_story-> ربى أباتوفورات مستنسخة على [dinoworld] وقايض لحمها بمعرفة [subject]</li>
     <li>learning_story-> عاش في ممزقي السماء لـ[urbworld]، حيث كانت معرفة [subject] شائعة</li>
     <li>learning_story-> تربى في الأراضي الميتة الخارجية لـ[ruinworld]، متعلما [subject] للبقاء</li>
-    <li>calltoadventure-> شعر أن حياة [ANYPAWN_possessive] راكدة. ثم ذات يوم، وجد [ANYPAWN_pronoun] [subject]</li>
+    <li>calltoadventure-> شعر أن حياتـ[ANYPAWN_possessive] راكدة. ثم ذات يوم، وجد [ANYPAWN_pronoun] [subject]</li>
     <li>calltoadventure-> أوكل إليه تأسيس مستعمرة جديدة، بمفرده، مركزة على [subject]</li>
-    <li>calltoadventure-> توفي شقيق [ANYPAWN_possessive] الأكبر، تاركا إياه كمتخصص [subject] للعائلة</li>
+    <li>calltoadventure-> توفي شقيقـ[ANYPAWN_possessive] الأكبر، تاركا إياه كأخصائي [subject] للعائلة</li>
     <li>calltoadventure-> علم بمستعمرة عالم براق مهجورة ركزت على [subject]</li>
     <li>calltoadventure-> كان على متن طراد شمسي عندما اختطفه قراصنة [feudalworld]. كخبير [subject]، طالبوا بفدية عالية لإطلاق سراحه</li>
     <li>calltoadventure-> انحرف عن مساره إلى عالم الموت [deadworld]، حيث تعلم [ANYPAWN_pronoun] عن [subject]</li>
@@ -1195,26 +1195,26 @@
     <li>calltoadventure-> تربى على يد عشيرة يطاكين محبة لـ[subject] على [iceworld]</li>
     <li>calltoadventure-> خُلق بواسطة مستنسخي سانغوفاج ووجد متعة في [subject]</li>
     <li>calltoadventure-> تربى على [warworld]، هاربا في كبسولة شحن مسروقة. كانت القراءة الوحيدة لأشهر هي دليل [subject]</li>
-    <li>calltoadventure-> قضى [ANYPAWN_possessive] حياته مسافرا صعودا عبر طبقات العالم الصدفي [shellworld]، مطاردا ميكانويد [subject] معطلا</li>
+    <li>calltoadventure-> قضيـ[ANYPAWN_possessive] حياته مسافرا صعودا عبر طبقات العالم الصدفي [shellworld]، مطاردا ميكانويد [subject] معطلا</li>
     <li>calltoadventure-> هرب من العبودية في قرى [medievalworld] مختبئا على متن سفينة نجوم لتاجر كان خبيرا في [subject]</li>
     <li>calltoadventure-> سافر إلى الحافة وعاد، متعلما عن [subject] على [rimworld]</li>
     <li>calltoadventure-> أبحر في بحار [oceanicworld]، مدعيا تعلم أسرار [subject] من المحيطات الحية نفسها</li>
     <li>calltoadventure-> كان زبالا في انعدام الجاذبية عبر حزام الكويكبات لـ[worldname]، لاقيا أسرار [subject] على إما [asteroid] A3 أو [asteroid] 7DD</li>
-    <li>written_when-> الليلة التي سبقت إعدام [ANYPAWN_possessive]</li>
-    <li>written_when-> في سنوات [ANYPAWN_possessive] المبكرة</li>
+    <li>written_when-> الليلة التي سبقت إعدامـ[ANYPAWN_possessive]</li>
+    <li>written_when-> في سنواتـ[ANYPAWN_possessive] المبكرة</li>
     <li>written_when-> أثناء الفترة الزرقاء لـ[worldname]</li>
-    <li>written_when-> كجزء من أطروحة [ANYPAWN_possessive] لما بعد الدكتوراه</li>
-    <li>written_when-> في ترحال [ANYPAWN_possessive] عبر الحافة</li>
+    <li>written_when-> كجزء من أطروحتـ[ANYPAWN_possessive] لما بعد الدكتوراه</li>
+    <li>written_when-> في ترحالـ[ANYPAWN_possessive] عبر الحافة</li>
     <li>written_when-> في مرافق الاستنساخ الأم لـ[worldname]</li>
     <li>written_when-> كجزء أخير من طقوس كا'[worldname] الـ[notable_adjective]</li>
-    <li>written_when-> بتكاسل، على ظهر قصاصة من ورقة رسالة من والدي [ANYPAWN_possessive]</li>
+    <li>written_when-> بتكاسل، على ظهر قصاصة من ورقة رسالة من والديـ[ANYPAWN_possessive]</li>
     <li>written_when-> بعد سنوات عديدة من أن تصورها لأول مرة</li>
-    <li>written_when-> في شيخوخة [ANYPAWN_possessive]</li>
+    <li>written_when-> في شيخوختـ[ANYPAWN_possessive]</li>
     <li>written_when-> في الأمسيات، في وقت مختلس من النوم</li>
-    <li>written_when-> عندما لا يكون في رعاية أطفال [ANYPAWN_possessive]</li>
+    <li>written_when-> عندما لا يكون في رعاية أطفالـ[ANYPAWN_possessive]</li>
     <li>written_when-> على عجل، في الطريق إلى الجبهة</li>
-    <li>written_when-> براحة، بينما يحتسي مشروبات مثلجة على شرفة [ANYPAWN_possessive]</li>
-    <li>written_when-> في سن مبكرة، عاملا وحده بينما أقران [ANYPAWN_possessive] يلعبون</li>
+    <li>written_when-> براحة، بينما يحتسي مشروبات مثلجة على شرفتـ[ANYPAWN_possessive]</li>
+    <li>written_when-> في سن مبكرة، عاملا وحده بينما أقرانـ[ANYPAWN_possessive] يلعبون</li>
     <li>subject_consequence(p=18)->[subject_primary_story]</li>
     <li>subject_consequence->[digression]</li>
     <li>digression->في مرحلة ما، تنحرف القصة إلى نقاش مربك حول [digression_subject]</li>
@@ -1225,14 +1225,14 @@
     <li>digression->القسم المتعلق بـ[digression_subject] غير ذي صلة</li>
     <li>digression_subject->الحب والحرب</li>
     <li>digression_subject->تمييزات سياسية لا نهائية ومتزايدة التفاهة</li>
-    <li>digression_subject->اتجاهات المطبخ في العوالم البراقة</li>
+    <li>digression_subject->اتجاهات المطبخ في العوالم اللامعة</li>
     <li>digression_subject->أسواق الموضة في [animalworld] و[urbworld]</li>
     <li>digression_subject->نميمة فاضحة حول الاستخدام الواسع لمحسنات الحب</li>
     <li>digression_subject->التموضعات العسكرية لأسطول [glitterworld] قبل قرن</li>
     <li>digression_subject->العلاقات الغامضة لعوالم اللب مع الثقوب السوداء فائقة الكتلة</li>
     <li>digression_subject->عالم الموت [deadworld] والإشاعات حول مصيره</li>
     <li>digression_subject->تنوعات الأنواع على كوكب الديناصورات [dinoworld]</li>
-    <li>digression_subject->تجربة [ANYPAWN_possessive] مع الإقطاع على [feudalworld]</li>
+    <li>digression_subject->تجربتـ[ANYPAWN_possessive] مع الإقطاع على [feudalworld]</li>
     <li>digression_subject->غياب الميكروبات في مدن [glassworld] الساقطة</li>
     <li>digression_subject->الأعمار القصيرة لفقراء [indworld]</li>
     <li>digression_subject->تكيفات نابشي الخرائب الفائقة في عوالم المدن ما بعد حرب [worldname]</li>
@@ -1241,10 +1241,10 @@
     <li>aftermath->[note] بخط يد مختلف يقول إن الـ[author] شوهد آخر مرة متجها إلى [deathworld]</li>
     <li>aftermath->صفحات ممزقة هنا</li>
     <li>aftermath->الأوراق منقطة ببقع بنية</li>
-    <li>aftermath->رغم مغامرات [ANYPAWN_possessive]، تمكن [ANYPAWN_pronoun] من إنشاء هذا المخطط</li>
+    <li>aftermath->رغم مغامراتـ[ANYPAWN_possessive]، تمكن [ANYPAWN_pronoun] من إنشاء هذا المخطط</li>
     <li>aftermath->كرس [ANYPAWN_pronoun] سنواته الأخيرة لهذا المخطط</li>
     <li>aftermath->لاحقا، وجد [ANYPAWN_pronoun] سلاما في هذا العمل. [subject_chat]</li>
-    <li>aftermath->تنتهي قصة [ANYPAWN_possessive] هنا، بوصف تقني لعمله على [worldname]. [subject_chat]</li>
+    <li>aftermath->تنتهي قصتـ[ANYPAWN_possessive] هنا، بوصف تقني لعمله على [worldname]. [subject_chat]</li>
     <li>subject_chat->يثبت عمل الـ[author] أنه موثوق في [subject]</li>
     <li>subject_chat->قليلون يعترضون على النتائج في وثيقة [subject] هذه</li>
     <li>subject_chat->ستكون هذه الوثيقة ملهمة لأي شخص مهتم بـ[subject]</li>
@@ -1252,7 +1252,7 @@
     <li>authorTitle->مؤلف</li>
     <li>authorTitle->ناسخ</li>
     <li>authorTitle->كاتب</li>
-    <li>linkage->هذا ألهم [ANYPAWN_objective] و[ANYPAWN_pronoun]</li>
+    <li>linkage->هذا ألهمـ[ANYPAWN_objective] و[ANYPAWN_pronoun]</li>
     <li>linkage->أثبت هذا فائدته لاحقا عندما [ANYPAWN_pronoun]</li>
     <li>linkage->باستخدام هذه المعرفة، [ANYPAWN_pronoun]</li>
     <li>linkage->وجد [ANYPAWN_pronoun] هذا مفيدا عندما [ANYPAWN_pronoun]</li>
@@ -1313,7 +1313,7 @@
     <li>technical_nonphys_desc->الترميز غير اعتيادي، مستمد من لهجة إمبيد منقرضة</li>
     <li>technical_nonphys_desc->أسلاك تمر عبر صفحات المخطط، رغم أن الجهاز شبه معطل</li>
     <li>technical_nonphys_desc->نفس الآلية مشروحة من قبل الـ[author] بثلاث لغات مختلفة</li>
-    <li>academic_nonphys_desc->هذا المخطط مهدى لمعلم جني ألهم الـ[author]</li>
+    <li>academic_nonphys_desc->هذا المخطط مهدى لمعلم جيني ألهم الـ[author]</li>
     <li>academic_nonphys_desc->هذه الوثيقة موسومة بشعار المؤسسة التي رعت الـ[author]</li>
     <li>badsmells->تفوح منه رائحة قوية</li>
     <li>badsmells->له رائحة نتنة</li>
@@ -1324,7 +1324,7 @@
     <li>stink->الكبريت والبيض الفاسد</li>
     <li>stink->موت قديم بطيء</li>
     <li>stink->شيء يشبه عرق اليطاكين</li>
-    <li>stink->نفس ويستر</li>
+    <li>stink->نفس وايستر</li>
     <li>stink->غرفة ملابس هوسار</li>
     <li>smells->له رائحة نفاذة</li>
     <li>smells->له رائحة</li>
@@ -1335,7 +1335,7 @@
     <li>scent->لبان</li>
     <li>scent->صندل</li>
     <li>scent->عصير بومرات حلو</li>
-    <li>scent->توابل العوالم البراقة</li>
+    <li>scent->توابل العوالم اللامعة</li>
     <li>scent->بذور جورانلين طازجة</li>
     <li>conjunction->و</li>
     <li>conjunction->لكن</li>
@@ -1352,7 +1352,7 @@
     <li>author->مهندس</li>
     <li>author->صانع</li>
     <li>author->خبير</li>
-    <li>author->متخصص</li>
+    <li>author->أخصائي</li>
     <li>author->تقني</li>
     <li>author->خبير</li>
     <li>author->حرفي</li>
@@ -2060,7 +2060,7 @@
     <li>detail->. يأخذك عبر الموضوع خطوة بخطوة</li>
     <li>detail(quality[less_than]4)->، رغم أن المؤلف يتسرع في الموضوع</li>
     <li>detail(quality[greater_than]3)->. إنها معالجة شاملة للموضوع</li>
-    <li>detail->. يدعي المؤلف في [ANYPAWN_possessive] [precis_synonym] أن نسخا مزورة من هذا الكتاب موجودة لكن هذا ليس واحدا منها</li>
+    <li>detail->. يدعي المؤلف فيـ[ANYPAWN_possessive] [precis_synonym] أن نسخا مزورة من هذا الكتاب موجودة لكن هذا ليس واحدا منها</li>
     <li>detail(quality[less_than]4)->، رغم أن محاولة إيصال أفكاره من خلال حوار متخيل ربما كانت خطأ</li>
     <li>detail->. لا تشتت بلاغة المؤلف في الـ[precis_synonym] عن المفاهيم الأساسية</li>
     <li>production->يذكر الـ[precis_synonym] أن هذا طبع يدويا على [worldname]</li>
@@ -2081,16 +2081,16 @@
     <li>anecdote->على [note_location]، قام شخص ما بلصق مراجعة لاذعة للكتاب</li>
     <li>anecdote->يشير الـ[precis_synonym] إلى أن هذا الكتاب مر عبر نظام المكتبات العامة في [urbworld]</li>
     <li>anecdote->وفقا لـ[note_location]، كان [ANYPAWN_nameFull] معروفا بكونه أستاذا في العديد من الموضوعات</li>
-    <li>anecdote->وفقا لـ[note_location]، لا يزال أهل [worldname] يتحدثون عن [ANYPAWN_nameFull] ويستذكرون حب [ANYPAWN_possessive] لـ[subject]</li>
+    <li>anecdote->وفقا لـ[note_location]، لا يزال أهل [worldname] يتحدثون عن [ANYPAWN_nameFull] ويستذكرون حبـ[ANYPAWN_possessive] لـ[subject]</li>
     <li>anecdote->وفقا لـ[note_location]، قتل حادث تشابك غريب المؤلف [ANYPAWN_nameFull] بعد النشر بوقت قصير</li>
-    <li>anecdote->وفقا لـ[precis_synonym]، قضى [ANYPAWN_nameFull] أيام [ANYPAWN_possessive] في التدريس في الأكاديمية على [coreworld]. هذا الكتاب مأخوذ من محاضرات [ANYPAWN_possessive]</li>
-    <li>anecdote->وفقا لـ[precis_synonym]، كانت معرفة [ANYPAWN_nameFull] بـ[subject] مشهورة لدرجة أن الناس كانوا يوقفون [ANYPAWN_objective] في الشارع ليسألوه عنها</li>
+    <li>anecdote->وفقا لـ[precis_synonym]، قضى [ANYPAWN_nameFull] أيامـ[ANYPAWN_possessive] في التدريس في الأكاديمية على [coreworld]. هذا الكتاب مأخوذ من محاضراتـ[ANYPAWN_possessive]</li>
+    <li>anecdote->وفقا لـ[precis_synonym]، كانت معرفة [ANYPAWN_nameFull] بـ[subject] مشهورة لدرجة أن الناس كانوا يوقفونـ[ANYPAWN_objective] في الشارع ليسألوه عنها</li>
     <li>anecdote->وفقا لـ[note_location]، كان [ANYPAWN_nameFull] معوزا وباع حقوق هذه السلسلة بمبلغ زهيد</li>
-    <li>anecdote->وفقا لـ[note_location]، كان [ANYPAWN_nameFull] أعمى منذ الولادة، لذا لم ير كتاب [ANYPAWN_possessive] أبدا</li>
+    <li>anecdote->وفقا لـ[note_location]، كان [ANYPAWN_nameFull] أعمى منذ الولادة، لذا لم ير كتابـ[ANYPAWN_possessive] أبدا</li>
     <li>anecdote->وفقا لـ[note_location]، اشتهرت مسودة [ANYPAWN_nameFull] الأولى من الكتاب المدرسي باحتوائها على خمسين صفحة من الاستطراد. تم حذفها للطبعة الثانية</li>
     <li>anecdote->وفقا لـ[note_location]، كانت سمعة [ANYPAWN_nameFull] سيئة لدرجة أن [ANYPAWN_pronoun] نشر هذا الكتاب تحت اسم مستعار</li>
-    <li>anecdote->وفقا لـ[note_location]، عندما كان طفلا، كان [ANYPAWN_nameFull] كسولا لدرجة أن والدي [ANYPAWN_possessive] يئسوا. هذا الكتاب المدرسي هو إثبات لمهارة [ANYPAWN_possessive]</li>
-    <li>anecdote->وفقا لـ[precis_synonym]، كان خلال زواج [ANYPAWN_nameFull] الرابع أن تصور [ANYPAWN_pronoun] كتابا مدرسيا عن [subject]. (أدى هذا إلى طلاق [ANYPAWN_possessive] الرابع)</li>
+    <li>anecdote->وفقا لـ[note_location]، عندما كان طفلا، كان [ANYPAWN_nameFull] كسولا لدرجة أن والديـ[ANYPAWN_possessive] يئسوا. هذا الكتاب المدرسي هو إثبات لمهارتـ[ANYPAWN_possessive]</li>
+    <li>anecdote->وفقا لـ[precis_synonym]، كان خلال زواج [ANYPAWN_nameFull] الرابع أن تصور [ANYPAWN_pronoun] كتابا مدرسيا عن [subject]. (أدى هذا إلى طلاقـ[ANYPAWN_possessive] الرابع)</li>
     <li>textbook->كتاب تمهيدي</li>
     <li>textbook->كتيب</li>
     <li>textbook->كتاب مدرسي</li>

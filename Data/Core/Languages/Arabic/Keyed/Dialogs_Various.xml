@@ -38,7 +38,7 @@
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
   <GameUpdatedToNewVersionSavesCompatible>يجب أن تكون الألعاب المحفوظة من الإصدار القديم متوافقة، ولكن قد تتوقف بعض التعديلات عن العمل.</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
-  <GameUpdatedToNewVersionNonSteam>نظرًا لأن هذه نسخة خالية من إدارة الحقوق الرقمية (DRM-free)، يمكنك تثبيت اللعبة مرتين في مجلدين مختلفين، لتتمكن من لعب كلا الإصدارين القديم والجديد.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionNonSteam>نظراً لأن هذه نسخة خالية من إدارة الحقوق الرقمية (DRM-free)، يمكنك تثبيت اللعبة مرتين في مجلدين مختلفين، لتتمكن من لعب كلا الإصدارين القديم والجديد.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
   <GameUpdatedToNewVersionSteam>إذا كنت ترغب في الاستمرار بالإصدار القديم، يمكنك الاشتراك باستخدام ميزة "Betas" في Steam.\n\n  1. في مكتبة Steam، انقر بزر الماوس الأيمن على RimWorld.\n  2. انقر على Properties (الخصائص).\n  3. انقر على علامة التبويب Betas.\n  4. حدد الإصدار الذي تريده من القائمة المنسدلة.</GameUpdatedToNewVersionSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
@@ -48,7 +48,7 @@
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
   <RecoveredFromErrorsDialogTitle>تم التعافي من أخطاء تعديلات غير متوافقة أو تالفة</RecoveredFromErrorsDialogTitle>
   <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
-  <RecoveredFromErrorsText>يبدو أن بعض التعديلات النشطة كانت تسبب أخطاء.\n\nربما كانت غير متوافقة مع بعضها، أو مصممة لإصدار مختلف من RimWorld، أو تالفة.\n\nتم تعطيل جميع التعديلات ويمكن تفعيلها مجددًا من نافذة التعديلات.</RecoveredFromErrorsText>
+  <RecoveredFromErrorsText>يبدو أن بعض التعديلات النشطة كانت تسبب أخطاء.\n\nربما كانت غير متوافقة مع بعضها، أو مصممة لإصدار مختلف من RimWorld، أو تالفة.\n\nتم تعطيل جميع التعديلات ويمكن تفعيلها مجدداً من نافذة التعديلات.</RecoveredFromErrorsText>
   
   <!-- Errors during loading -->
   <!-- EN: Error while loading assets -->
@@ -56,7 +56,7 @@
   <!-- EN: An error occurred while loading game assets. See error log for more information. -->
   <ErrorWhileLoadingAssets>حدث خطأ أثناء تحميل أصول اللعبة. راجع سجل الأخطاء لمزيد من المعلومات.</ErrorWhileLoadingAssets>
   <!-- EN: The game is currently running with custom mods - they may or may not cause these problems. -->
-  <ErrorWhileLoadingAssets_ModsInfo>اللعبة تعمل حاليًا بتعديلات مخصصة - قد تكون هي السبب في هذه المشاكل أو لا.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssets_ModsInfo>اللعبة تعمل حالياً بتعديلات مخصصة - قد تكون هي السبب في هذه المشاكل أو لا.</ErrorWhileLoadingAssets_ModsInfo>
   <!-- EN: Error while generating a map -->
   <ErrorWhileGeneratingMapTitle>خطأ أثناء توليد الخريطة</ErrorWhileGeneratingMapTitle>
   <!-- EN: An error occurred while generating a new map. See error log for more information. -->
@@ -68,9 +68,9 @@
   
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
-  <ModsChanged>تغيرت قائمة التعديلات. ستتم إعادة تشغيل اللعبة تلقائيًا الآن.</ModsChanged>
+  <ModsChanged>تغيرت قائمة التعديلات. ستتم إعادة تشغيل اللعبة تلقائياً الآن.</ModsChanged>
   <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
-  <FailedToRestart>حدث خطأ أثناء إعادة تشغيل اللعبة. لا يمكن للعبة تفريغ الكود المعدل من التعديلات المعطلة بالكامل، لذلك قد يظل الكود نشطًا.\n\nيُنصح بالخروج وإعادة تشغيل اللعبة الآن لتحميل جميع التعديلات بشكل نظيف.</FailedToRestart>
+  <FailedToRestart>حدث خطأ أثناء إعادة تشغيل اللعبة. لا يمكن للعبة تفريغ الكود المعدل من التعديلات المعطلة بالكامل، لذلك قد يظل الكود نشطاً.\n\nيُنصح بالخروج وإعادة تشغيل اللعبة الآن لتحميل جميع التعديلات بشكل نظيف.</FailedToRestart>
   <!-- EN: Restarting -->
   <Restarting>جاري إعادة التشغيل</Restarting>
   
@@ -100,7 +100,7 @@
   <!-- EN: Spawning things -->
   <SpawningAllThings>جاري توليد الأشياء</SpawningAllThings>
   <!-- EN: Spawning colonists -->
-  <SpawningColonists>جاري توليد المستوطنين</SpawningColonists>
+  <SpawningColonists>جاري توليد المستعمرين</SpawningColonists>
   
   <!-- Save/load -->
   <!-- EN: Save -->
@@ -110,7 +110,7 @@
   <!-- EN: Overwrite -->
   <OverwriteButton>استبدال</OverwriteButton>
   <!-- EN: Really delete {0}? -->
-  <ConfirmDelete>هل تريد حقًا حذف {0}؟</ConfirmDelete>
+  <ConfirmDelete>هل تريد حقاً حذف {0}؟</ConfirmDelete>
   <!-- EN: Delete this savegame. -->
   <DeleteThisSavegame>حذف ملف الحفظ هذا.</DeleteThisSavegame>
   <!-- EN: Saved as {0}. -->
@@ -124,13 +124,13 @@
   <!-- EN: (Permadeath) -->
   <PermadeathModeSaveSuffix>(الموت الدائم)</PermadeathModeSaveSuffix>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
-  <SaveIsFromDifferentGameVersion>نحن نشغل الإصدار {0} ولكن بيانات الحفظ من الإصدار {1}، وهو إصدار مختلف تمامًا.\n\nمحاولة تحميل هذه البيانات قد لا تنجح غالبًا.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameVersion>نحن نشغل الإصدار {0} ولكن بيانات الحفظ من الإصدار {1}، وهو إصدار مختلف تماماً.\n\nمحاولة تحميل هذه البيانات قد لا تنجح غالباً.</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
   <SaveIsFromDifferentGameBuild>نحن نشغل الإصدار {0} ولكن بيانات الحفظ من {1}، وهو بناء مختلف.\n\nمحاولة تحميل هذه البيانات لا تزال قادرة على العمل.</SaveIsFromDifferentGameBuild>
   <!-- EN: Save data was saved with our game version and should work without issue. -->
   <SaveIsFromThisGameBuild>تم حفظ بيانات الحفظ باستخدام إصدار اللعبة الخاص بنا ويجب أن تعمل دون مشاكل.</SaveIsFromThisGameBuild>
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
-  <SaveIsUnknownFormat>بيانات الحفظ بتنسيق غير معروف ومن المؤكد تقريبًا أنها لن تُحمَّل بشكل صحيح.</SaveIsUnknownFormat>
+  <SaveIsUnknownFormat>بيانات الحفظ بتنسيق غير معروف ومن المؤكد تقريباً أنها لن تُحمَّل بشكل صحيح.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
   <ProblemSavingFile>حدثت مشكلة أثناء حفظ الملف {0}:\n\n{1}\n\nراجع سجل الأخطاء لمزيد من المعلومات.</ProblemSavingFile>
   <!-- EN: Load anyway -->
@@ -166,7 +166,7 @@
   
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>يعتقد {0} أيضًا أنه يجب إطلاق اسم على هذه المستوطنة. ماذا يجب أن تُسمى المستوطنة المحلية؟</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>يعتقد {0} أيضاً أنه يجب إطلاق اسم على هذه المستوطنة. ماذا يجب أن تُسمى المستوطنة المحلية؟</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
   <PlayerFactionAndBaseGainsName>فصيلكم معروف الآن باسم {0}، وهذا المجتمع معروف الآن باسم {1}.</PlayerFactionAndBaseGainsName>
   
@@ -218,7 +218,7 @@
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>عدم تطابق التعديلات</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
-  <ModsMismatchWarningText>تم حفظ هذا الملف بمجموعة مختلفة من التعديلات النشطة عن تلك التي نشغلها حاليًا. هذا قد يسبب أو لا يسبب مشاكل، اعتمادًا على ما تفعله هذه التعديلات بالضبط.</ModsMismatchWarningText>
+  <ModsMismatchWarningText>تم حفظ هذا الملف بمجموعة مختلفة من التعديلات النشطة عن تلك التي نشغلها حالياً. هذا قد يسبب أو لا يسبب مشاكل، اعتماداً على ما تفعله هذه التعديلات بالضبط.</ModsMismatchWarningText>
   <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
   <ModsMismatchOrderChanged>لم يتم إضافة أو إزالة أي تعديلات، لكن ترتيب قائمة التعديلات الخاصة بك قد تغير.</ModsMismatchOrderChanged>
   <!-- EN: Are you sure you want to load the mod list from this save file? -->
@@ -234,7 +234,7 @@
 
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
-  <ConfirmPermanentlyDisableDevMode>هل تريد حقًا تعطيل وضع المطور نهائيًا على هذا الكمبيوتر؟\n\nهذا الخيار للأشخاص الذين يريدون تجربة لعب نقية دون إغراء استخدام أدوات التطوير لاكتساب أفضلية في اللعب العادي.\n\nيمكن إعادة تفعيل وضع المطور، ولكن القيام بذلك يتطلب تعديل ملفات التكوين يدويًا. ستحتاج إلى البحث في الإنترنت لمعرفة كيفية القيام بذلك.</ConfirmPermanentlyDisableDevMode>
+  <ConfirmPermanentlyDisableDevMode>هل تريد حقاً تعطيل وضع المطور نهائياً على هذا الكمبيوتر؟\n\nهذا الخيار للأشخاص الذين يريدون تجربة لعب نقية دون إغراء استخدام أدوات التطوير لاكتساب أفضلية في اللعب العادي.\n\nيمكن إعادة تفعيل وضع المطور، ولكن القيام بذلك يتطلب تعديل ملفات التكوين يدوياً. ستحتاج إلى البحث في الإنترنت لمعرفة كيفية القيام بذلك.</ConfirmPermanentlyDisableDevMode>
 
   <!-- Confirm reset learning helper -->
   <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
@@ -248,15 +248,15 @@
   <!-- EN: Must include exactly {SUMMARY} -->
   <SelectedCharactersMustInclude>يجب أن يتضمن {SUMMARY} بالضبط</SelectedCharactersMustInclude>
   <!-- EN: All colonists must be {0} -->
-  <SelectedCharactersMustBeOfAllowedDevelopmentalStages>يجب أن يكون جميع المستوطنين {0}</SelectedCharactersMustBeOfAllowedDevelopmentalStages>
+  <SelectedCharactersMustBeOfAllowedDevelopmentalStages>يجب أن يكون جميع المستعمرين {0}</SelectedCharactersMustBeOfAllowedDevelopmentalStages>
   <!-- EN: At least one colonist must be capable of {0} -->
-  <SelectedCharacterMustBeCapableOf>يجب أن يكون مستوطن واحد على الأقل قادرًا على {0}</SelectedCharacterMustBeCapableOf>
+  <SelectedCharacterMustBeCapableOf>يجب أن يكون مستعمر واحد على الأقل قادراً على {0}</SelectedCharacterMustBeCapableOf>
 
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
-  <MapWinterWarning>تحذير: سوف تهبط في فصل الشتاء. قد يكون البقاء على قيد الحياة صعبًا أو شبه مستحيل. إذا لم تكن تنوي مواجهة تحدٍ قاسٍ، فاختر موسمًا مختلفًا.</MapWinterWarning>
+  <MapWinterWarning>تحذير: سوف تهبط في فصل الشتاء. قد يكون البقاء على قيد الحياة صعباً أو شبه مستحيل. إذا لم تكن تنوي مواجهة تحدٍ قاسٍ، فاختر موسماً مختلفاً.</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>اللعبة مصممة للعب على خرائط متوسطة الحجم. هذه الأحجام توفر مساحة كافية!\n\nأحجام الخرائط الكبيرة لا تقلل من الأداء فحسب - بل تكسر تصميم اللعبة فعليًا. سيتخذ الذكاء الاصطناعي قرارات غبية، وسيتأثر توازن اللعبة بشدة بطرق مختلفة. تم تضمين هذه الأحجام لأسباب تتعلق بالتقاليد والاختبار فقط، يرجى عدم استخدامها دون سبب محدد.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>اللعبة مصممة للعب على خرائط متوسطة الحجم. هذه الأحجام توفر مساحة كافية!\n\nأحجام الخرائط الكبيرة لا تقلل من الأداء فحسب - بل تكسر تصميم اللعبة فعلياً. سيتخذ الذكاء الاصطناعي قرارات غبية، وسيتأثر توازن اللعبة بشدة بطرق مختلفة. تم تضمين هذه الأحجام لأسباب تتعلق بالتقاليد والاختبار فقط، يرجى عدم استخدامها دون سبب محدد.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>حجم الخريطة</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
@@ -292,7 +292,7 @@
   <!-- EN: Ingredient radius -->
   <IngredientSearchRadius>نطاق المكونات</IngredientSearchRadius>
   <!-- EN: Currently have -->
-  <CurrentlyHave>متاح حاليًا</CurrentlyHave>
+  <CurrentlyHave>متاح حالياً</CurrentlyHave>
   <!-- EN: Counting -->
   <CountingProducts>عدد المنتجات</CountingProducts>
   <!-- EN: Infinite -->
@@ -317,7 +317,7 @@
   <!-- EN: nutrition -->
   <BillNutrition>تغذية</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>ملاحظة: المكونات صغيرة الحجم مثل الذهب تتطلب مقدارًا مضاعفًا بـ {0}x.</BillRequiresMayVary>
+  <BillRequiresMayVary>ملاحظة: المكونات صغيرة الحجم مثل الذهب تتطلب مقداراً مضاعفاً بـ {0}x.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
   <ThisIsSmallVolume>هذا مكون صغير الحجم. هذا يعني أن كل 'وحدة' تعادل فقط 1/{0} من حجم المكون الطبيعي. لذا، لتلبية نفس متطلبات المكون، ستحتاج إلى مقدار مضاعف بـ {0}x عن المعتاد.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
@@ -330,7 +330,7 @@
   <!-- EN: Unpause at -->
   <UnpauseWhenYouHave>استئناف عند</UnpauseWhenYouHave>
   <!-- EN: paused -->
-  <Paused>موقوف مؤقتًا</Paused>
+  <Paused>موقوف مؤقتاً</Paused>
   <!-- EN: Unpause -->
   <Unpause>استئناف</Unpause>
 
@@ -403,7 +403,7 @@
   <!-- EN: Miss radius -->
   <MissRadius>نصف قطر الخطأ</MissRadius>
   <!-- EN: Grows wild -->
-  <GrowsWild>ينمو بريًا</GrowsWild>
+  <GrowsWild>ينمو برياً</GrowsWild>
   <!-- EN: Harvestable -->
   <Harvestable>قابل للحصاد</Harvestable>
   <!-- EN: Limited lifespan -->
@@ -417,7 +417,7 @@
   <!-- EN: Max growth temperature -->
   <MaxGrowthTemperature>الحد الأقصى لحرارة النمو</MaxGrowthTemperature>
   <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\n\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
-  <GrowingTimeDesc>تنمو النباتات فقط لجزء من اليوم، وفقط عند توفر الضوء.\n\nتقيس هذه الإحصائية الوقت الذي يحتاجه النبات للنمو الفعلي للوصول إلى الحجم الكامل.\n\nسيكون وقت النمو الحقيقي عمومًا أطول بمرتين تقريبًا.\nكما أن درجات الحرارة المنخفضة تبطئ نمو النبات.</GrowingTimeDesc>
+  <GrowingTimeDesc>تنمو النباتات فقط لجزء من اليوم، وفقط عند توفر الضوء.\n\nتقيس هذه الإحصائية الوقت الذي يحتاجه النبات للنمو الفعلي للوصول إلى الحجم الكامل.\n\nسيكون وقت النمو الحقيقي عموماً أطول بمرتين تقريباً.\nكما أن درجات الحرارة المنخفضة تبطئ نمو النبات.</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>أيام</Days>
   <!-- EN: Minimum growing skill to sow -->
@@ -477,9 +477,9 @@
   <!-- EN: Training decay interval -->
   <TrainingDecayInterval>فترة تدهور التدريب</TrainingDecayInterval>
   <!-- EN: Tameness will never decay for animals of very low wildness. -->
-  <TamenessWillNotDecay>لن تتدهور الألفة أبدًا للحيوانات ذات الوحشية المنخفضة جدًا.</TamenessWillNotDecay>
+  <TamenessWillNotDecay>لن تتدهور الألفة أبداً للحيوانات ذات الوحشية المنخفضة جداً.</TamenessWillNotDecay>
   <!-- EN: Tameness will never decay for animals that can be kept behind fences. -->
-  <TamenessWillNotDecayFenceBlocked>لن تتدهور الألفة أبدًا للحيوانات التي يمكن الاحتفاظ بها خلف الأسوار.</TamenessWillNotDecayFenceBlocked>
+  <TamenessWillNotDecayFenceBlocked>لن تتدهور الألفة أبداً للحيوانات التي يمكن الاحتفاظ بها خلف الأسوار.</TamenessWillNotDecayFenceBlocked>
   <!-- EN: Time -->
   <TimeRecordsCategory>الوقت</TimeRecordsCategory>
   <!-- EN: Misc -->
@@ -523,9 +523,9 @@
   <!-- EN: Random overdose chance -->
   <RandomODChance>فرصة الجرعة الزائدة العشوائية</RandomODChance>
   <!-- EN: Always safe -->
-  <AlwaysSafe>آمن دائمًا</AlwaysSafe>
+  <AlwaysSafe>آمن دائماً</AlwaysSafe>
   <!-- EN: Never safe -->
-  <NeverSafe>غير آمن أبدًا</NeverSafe>
+  <NeverSafe>غير آمن أبداً</NeverSafe>
   <!-- EN: {0} / day -->
   <PerDay>{0} / يوم</PerDay>
   <!-- EN: {0} / hour -->
@@ -535,7 +535,7 @@
   <!-- EN: Pack animal -->
   <PackAnimal>حيوان تحميل</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
-  <PackAnimalExplanation>ما إذا كان هذا الحيوان مناسبًا للاستخدام في حمل الأشياء في القافلة لمسافات طويلة.</PackAnimalExplanation>
+  <PackAnimalExplanation>ما إذا كان هذا الحيوان مناسباً للاستخدام في حمل الأشياء في القافلة لمسافات طويلة.</PackAnimalExplanation>
   <!-- EN: Skill -->
   <Skill>المهارة</Skill>
   <!-- EN: Success rate multiplier -->
@@ -553,11 +553,11 @@
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>فترة التودد</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
-  <NuzzleIntervalExplanation>كم مرة سيتودد الحيوان للمستوطنين الودودين، في المتوسط.\n\nالتودد هو سلوك تشترك فيه العديد من الأنواع الحيوانية، حيث يضغط الحيوان بأنفه أو خطمه على صديق كعلامة على المودة.\nيجد معظم البشر هذا لطيفًا وسيتركهم في مزاج جيد لفترة من الوقت.</NuzzleIntervalExplanation>
+  <NuzzleIntervalExplanation>كم مرة سيتودد الحيوان للمستعمرين الودودين، في المتوسط.\n\nالتودد هو سلوك تشترك فيه العديد من الأنواع الحيوانية، حيث يضغط الحيوان بأنفه أو خطمه على صديق كعلامة على المودة.\nيجد معظم البشر هذا لطيفاً وسيتركهم في مزاج جيد لفترة من الوقت.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>فرصة الانتقام عند التعرض للأذى</HarmedRevengeChance>
   <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
-  <HarmedRevengeChanceExplanation>الفرصة التي سيهاجم بها هذا المخلوق عند تعرضه للأذى.\n\nتزداد هذه الفرصة حتى ثلاث مرات إذا كان المهاجم أقرب.\n\nيتم تطبيق هذه الفرصة في كل مرة يتم فيها تلقي ضرر. هذا يعني أن الأسلحة بطيئة الإطلاق وعالية الضرر أقل احتمالًا لإثارتها أثناء الصيد.</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChanceExplanation>الفرصة التي سيهاجم بها هذا المخلوق عند تعرضه للأذى.\n\nتزداد هذه الفرصة حتى ثلاث مرات إذا كان المهاجم أقرب.\n\nيتم تطبيق هذه الفرصة في كل مرة يتم فيها تلقي ضرر. هذا يعني أن الأسلحة بطيئة الإطلاق وعالية الضرر أقل احتمالاً لإثارتها أثناء الصيد.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>فرصة الانتقام عند فشل الترويض</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -601,7 +601,7 @@
   <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
   <MeditationFocusesPawnDesc>أنواع تركيز التأمل التي يمكن لهذا الشخص استخدامها. عند التأمل، يمكن للشخص التركيز على شيء لتعزيز اكتساب التركيز النفسي لديه - ولكن فقط إذا كان ذلك الشيء يقدم نوع تركيز يمكنه استخدامه. يتم تحديد أنواع تأمل كل شخص من خلال خلفيته وسماته وموقعه الاجتماعي وما إلى ذلك.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
-  <MeditationFocusesDesc>أنواع تركيز التأمل التي يقدمها هذا الكائن. يمكن للشخص المتأمل التركيز على هذا الكائن لتعزيز اكتسابه للتركيز النفسي، ولكن فقط إذا كان قادرًا على استخدام أحد أنواع تأمله. يمكن لكل شخص استخدام أنواع تأمل مختلفة حسب خلفيته وسماته وموقعه الاجتماعي وما إلى ذلك.</MeditationFocusesDesc>
+  <MeditationFocusesDesc>أنواع تركيز التأمل التي يقدمها هذا الكائن. يمكن للشخص المتأمل التركيز على هذا الكائن لتعزيز اكتسابه للتركيز النفسي، ولكن فقط إذا كان قادراً على استخدام أحد أنواع تأمله. يمكن لكل شخص استخدام أنواع تأمل مختلفة حسب خلفيته وسماته وموقعه الاجتماعي وما إلى ذلك.</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
   <MeditationFocusCanUse>يمكن استخدام نوع التركيز {0} بسبب</MeditationFocusCanUse>
   <!-- EN: {0} focus objects -->
@@ -687,11 +687,11 @@
   <!-- EN: Joins as slave -->
   <JoinsAsSlave>ينضم كعبد</JoinsAsSlave>
   <!-- EN: Joins as colonist -->
-  <JoinsAsColonist>ينضم كمستوطن</JoinsAsColonist>
+  <JoinsAsColonist>ينضم كمستعمر</JoinsAsColonist>
   <!-- EN: If purchased, this person will join your colony as a slave. -->
   <JoinsAsSlaveDesc>إذا تم الشراء، سينضم هذا الشخص إلى مستوطنتك كعبد.</JoinsAsSlaveDesc>
   <!-- EN: If purchased, this person will join your colony as a colonist. -->
-  <JoinsAsColonistDesc>إذا تم الشراء، سينضم هذا الشخص إلى مستوطنتك كمستوطن.</JoinsAsColonistDesc>
+  <JoinsAsColonistDesc>إذا تم الشراء، سينضم هذا الشخص إلى مستوطنتك كمستعمر.</JoinsAsColonistDesc>
   <!-- EN: Trading drugs bonus -->
   <TradingDrugsBonus>مكافأة تجارة المخدرات</TradingDrugsBonus>
   <!-- EN: minimum -->
@@ -711,7 +711,7 @@
   <!-- EN: Things this trader will buy -->
   <SellableItemsTitle>الأشياء التي سيشتريها هذا التاجر</SellableItemsTitle>
   <!-- EN: Never visited - stock unknown -->
-  <TraderNotVisitedYet>لم يتم زيارته أبدًا - المخزون غير معروف</TraderNotVisitedYet>
+  <TraderNotVisitedYet>لم يتم زيارته أبداً - المخزون غير معروف</TraderNotVisitedYet>
   <!-- EN: Restocked since your last visit -->
   <TraderRestockedSinceLastVisit>تم إعادة التخزين منذ زيارتك الأخيرة</TraderRestockedSinceLastVisit>
   <!-- EN: Next restock: {0} days -->
@@ -725,7 +725,7 @@
   <!-- EN: Send a caravan from {0}. -->
   <SelectCaravanDesc>إرسال قافلة من {0}.</SelectCaravanDesc> 
   <!-- EN: Colonists -->
-  <SelectCaravanColonists>مستوطنون</SelectCaravanColonists>
+  <SelectCaravanColonists>مستعمرون</SelectCaravanColonists>
   
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
@@ -745,19 +745,19 @@
   <!-- EN: Travel supplies -->
   <TravelSupplies>إمدادات السفر</TravelSupplies>
   <!-- EN: You must assign at least one non-downed colonist. -->
-  <CaravanMustHaveAtLeastOneColonist>يجب تعيين مستوطن واحد على الأقل غير مطروح أرضًا.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanMustHaveAtLeastOneColonist>يجب تعيين مستعمر واحد على الأقل غير مطروح أرضاً.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
   <CaravanCouldNotFindExitSpot>موقع الخروج المختار ({0}) لا يمكن الوصول إليه.</CaravanCouldNotFindExitSpot>
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
   <CaravanCouldNotFindPackingSpot>تعذر العثور على أي مكان تعبئة صالحة. تأكد من أن موقع الخروج المختار ({0}) يمكن الوصول إليه.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
-  <CaravanCouldNotFindReachableExitSpot>تحذير: بعض المستوطنين المعينين غير قادرين على الوصول إلى موقع الخروج ({0}).</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>تحذير: بعض المستعمرين المعينين غير قادرين على الوصول إلى موقع الخروج ({0}).</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
-  <CaravanRoamerCannotReachSpots>{1_labelShort} غير قادر على الوصول إلى مكان التعبئة أو موقع الخروج عند قيادته بواسطة أي من المستوطنين المعينين.</CaravanRoamerCannotReachSpots>
+  <CaravanRoamerCannotReachSpots>{1_labelShort} غير قادر على الوصول إلى مكان التعبئة أو موقع الخروج عند قيادته بواسطة أي من المستعمرين المعينين.</CaravanRoamerCannotReachSpots>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
-  <CaravanItemIsUnreachableSingle>لا أحد من المستوطنين المعينين قادر على الوصول إلى {0}.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableSingle>لا أحد من المستعمرين المعينين قادر على الوصول إلى {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
-  <CaravanItemIsUnreachableMulti>لا أحد من المستوطنين المعينين قادر على الوصول إلى {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <CaravanItemIsUnreachableMulti>لا أحد من المستعمرين المعينين قادر على الوصول إلى {0}x {1}.</CaravanItemIsUnreachableMulti>
   <!-- EN: The caravan can't carry that much. -->
   <TooBigCaravanMassUsage>لا يمكن للقافلة حمل كل هذا المقدار.</TooBigCaravanMassUsage>
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
@@ -781,11 +781,11 @@
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>قافلتك ليس لديها طعام وستصبح جائعة بسرعة كبيرة.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
-  <ForagedFoodPerDayTip>متوسط كمية الطعام التي سيبحث عنها أفرادك يوميًا. ستتغير هذه القيمة أثناء سفرك عبر مناطق حيوية ذات معدلات إنتاجية مختلفة.</ForagedFoodPerDayTip>
+  <ForagedFoodPerDayTip>متوسط كمية الطعام التي سيبحث عنها أفرادك يومياً. ستتغير هذه القيمة أثناء سفرك عبر مناطق حيوية ذات معدلات إنتاجية مختلفة.</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
-  <ForagedFoodPerDay>البحث عن الطعام يوميًا</ForagedFoodPerDay>
+  <ForagedFoodPerDay>البحث عن الطعام يومياً</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
-  <CaravanFoodWillRotSoonWarningDialog>جزء كبير من طعام القافلة سيتعفن قريبًا.</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanFoodWillRotSoonWarningDialog>جزء كبير من طعام القافلة سيتعفن قريباً.</CaravanFoodWillRotSoonWarningDialog>
   <!-- EN: You have no caravan members capable of diplomacy or trading. -->
   <CaravanIncapableOfSocial>ليس لديك أي أعضاء في القافلة قادرين على الدبلوماسية أو التجارة.</CaravanIncapableOfSocial>
   <!-- EN: Are you sure you want to form this caravan? -->
@@ -801,13 +801,13 @@
   <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
   <DaysUntilRotTip>عدد الأيام حتى يبدأ هذا العنصر في التعفن بناءً على متوسط درجة الحرارة في هذه المنطقة.</DaysUntilRotTip>
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
-  <ItemNutritionTip>مقدار التغذية الذي يوفره هذا الطعام.\n\nللمرجعية: يحتاج الشخص البالغ إلى {0} تغذية يوميًا.</ItemNutritionTip>
+  <ItemNutritionTip>مقدار التغذية الذي يوفره هذا الطعام.\n\nللمرجعية: يحتاج الشخص البالغ إلى {0} تغذية يومياً.</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
   <AnimalCanGrazeTip>يمكن لهذا الحيوان رعي الطعام من البيئة بدلاً من تناول الطعام المحمول. الرعي ممكن فقط في بعض المناطق الحيوية ونطاقات درجات الحرارة.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
-  <NutritionForagedPerDayTip>التغذية المجمعة يوميًا. تتأثر الكمية الفعلية المجمعة أيضًا بمدى توفر الطعام في المنطقة الحيوية.\n\n{0}</NutritionForagedPerDayTip>
+  <NutritionForagedPerDayTip>التغذية المجمعة يومياً. تتأثر الكمية الفعلية المجمعة أيضاً بمدى توفر الطعام في المنطقة الحيوية.\n\n{0}</NutritionForagedPerDayTip>
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
-  <NutritionEatenPerDayTip>التغذية المتناولة يوميًا. للمرجعية، تحتوي الوجبات البسيطة على {0} تغذية.</NutritionEatenPerDayTip>
+  <NutritionEatenPerDayTip>التغذية المتناولة يومياً. للمرجعية، تحتوي الوجبات البسيطة على {0} تغذية.</NutritionEatenPerDayTip>
   <!-- EN: Can eat -->
   <CanEat>يمكن أن يأكل</CanEat>
   <!-- EN: Legend -->
@@ -825,11 +825,11 @@
   <!-- EN: Inventory mass -->
   <InventoryMass>كتلة المخزون</InventoryMass>
   <!-- EN: Your colonists will now gather the items and leave the area. -->
-  <CaravanFormationProcessStarted>سيقوم مستوطنوك الآن بجمع العناصر ومغادرة المنطقة.</CaravanFormationProcessStarted>
+  <CaravanFormationProcessStarted>سيقوم مستعمروك الآن بجمع العناصر ومغادرة المنطقة.</CaravanFormationProcessStarted>
   <!-- EN: Reform caravan -->
   <ReformCaravan>إعادة تشكيل القافلة</ReformCaravan>
   <!-- EN: Colonists -->
-  <ColonistsSection>المستوطنون</ColonistsSection>
+  <ColonistsSection>المستعمرون</ColonistsSection>
   <!-- EN: Prisoners -->
   <PrisonersSection>السجناء</PrisonersSection>
   <!-- EN: Capture -->
@@ -847,7 +847,7 @@
   <!-- EN: tiles/day -->
   <TilesPerDay>خلايا/يوم</TilesPerDay>
   <!-- EN: None - too heavy -->
-  <TilesPerDayImmobile>لا شيء - ثقيل جدًا</TilesPerDayImmobile>
+  <TilesPerDayImmobile>لا شيء - ثقيل جداً</TilesPerDayImmobile>
   <!-- EN: None -->
   <TilesPerDayImmobileShort>لا شيء</TilesPerDayImmobileShort>
   <!-- EN: Movement speed depends on carried mass, ridden animals, and terrain movement difficulty. -->
@@ -863,19 +863,19 @@
   <!-- EN: ({0}) -->
   <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
   <!-- EN: (too cold for {0} more days) -->
-  <CantGrazeBecauseOfTemp>(بارد جدًا لمدة {0} أيام أخرى)</CantGrazeBecauseOfTemp>
+  <CantGrazeBecauseOfTemp>(بارد جداً لمدة {0} أيام أخرى)</CantGrazeBecauseOfTemp>
   <!-- EN: Total nutrition -->
   <TotalNutrition>إجمالي التغذية</TotalNutrition>
   <!-- EN: Not moving -->
   <CaravanNotMoving>لا تتحرك</CaravanNotMoving>
   <!-- EN: Foraged nutrition per day -->
-  <ForagedNutritionPerDay>التغذية المجمعة يوميًا</ForagedNutritionPerDay>
+  <ForagedNutritionPerDay>التغذية المجمعة يومياً</ForagedNutritionPerDay>
   <!-- EN: Faction type -->
   <FactionType>نوع الفصيل</FactionType>
   <!-- EN: Total body size -->
   <TotalBodySize>إجمالي حجم الجسم</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
-  <AutomaticallySelectTravelSupplies>تحديد إمدادات السفر تلقائيًا</AutomaticallySelectTravelSupplies>
+  <AutomaticallySelectTravelSupplies>تحديد إمدادات السفر تلقائياً</AutomaticallySelectTravelSupplies>
   <!-- EN: This animal is sick. It is suffering from the following illnesses -->
   <CaravanAnimalSick>هذا الحيوان مريض. يعاني من الأمراض التالية</CaravanAnimalSick>
 
@@ -883,13 +883,13 @@
   <!-- EN: Split caravan -->
   <SplitCaravan>تقسيم القافلة</SplitCaravan>
   <!-- EN: You must leave at least one non-downed colonist. -->
-  <SourceCaravanMustHaveAtLeastOneColonist>يجب ترك مستوطن واحد على الأقل غير مطروح أرضًا.</SourceCaravanMustHaveAtLeastOneColonist>
+  <SourceCaravanMustHaveAtLeastOneColonist>يجب ترك مستعمر واحد على الأقل غير مطروح أرضاً.</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>كمية هذا العنصر الجاهزة في القافلة لتقديمها للقافلة الجديدة.</SplitCaravanThingCountTip>
   
   <!-- Caravan misc -->
   <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
-  <ConfirmAttackFriendlyFaction>هل أنت متأكد أنك تريد مهاجمة {0}؟\n\nسيجعل هذا {1} معاديًا لك، وسيبدأون في النهاية بمهاجمة مستوطنتك!</ConfirmAttackFriendlyFaction>
+  <ConfirmAttackFriendlyFaction>هل أنت متأكد أنك تريد مهاجمة {0}؟\n\nسيجعل هذا {1} معادياً لك، وسيبدأون في النهاية بمهاجمة مستوطنتك!</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
@@ -897,7 +897,7 @@
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
   <TooBigTransportersMassUsage>الأشخاص والعناصر المعينة ثقيلة جداً على كبسولات النقل.</TooBigTransportersMassUsage>
   <!-- EN: The assigned people and items are too heavy for the shuttle. -->
-  <TooBigTransporterSingleMassUsage>الأشخاص والعناصر المعينة ثقيلة جدًا على المكوك.</TooBigTransporterSingleMassUsage>
+  <TooBigTransporterSingleMassUsage>الأشخاص والعناصر المعينة ثقيلة جداً على المكوك.</TooBigTransporterSingleMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>لا يمكنك إرسال كبسولات نقل فارغة.</CantSendEmptyTransportPods>
   <!-- EN: You can't send empty shuttle. -->
@@ -915,7 +915,7 @@
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
   <TransporterSingleItemIsUnreachableMulti>لا يوجد مسار بين المكوك و {0}x {1}.</TransporterSingleItemIsUnreachableMulti>
   <!-- EN: Only {0} colonists maximum allowed. -->
-  <TransporterSingleTooManyColonists>يُسمح بـ {0} مستوطن كحد أقصى.</TransporterSingleTooManyColonists>
+  <TransporterSingleTooManyColonists>يُسمح بـ {0} مستعمر كحد أقصى.</TransporterSingleTooManyColonists>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -931,7 +931,7 @@
   
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
-  <HistoryUploadMessage>هل ترغب في رفع سجلات بيانات اللعب الخاصة بك إلى خادم RimWorld لمساعدة المطورين في توازن اللعبة؟ إذا وافقت، سيتم رفع بياناتك كل {0} أيام (وفي بعض الحالات النادرة الأخرى مثل نهاية اللعبة). يمكن تغيير تفضيلات الخصوصية لاحقًا في قائمة الخيارات.</HistoryUploadMessage>
+  <HistoryUploadMessage>هل ترغب في رفع سجلات بيانات اللعب الخاصة بك إلى خادم RimWorld لمساعدة المطورين في توازن اللعبة؟ إذا وافقت، سيتم رفع بياناتك كل {0} أيام (وفي بعض الحالات النادرة الأخرى مثل نهاية اللعبة). يمكن تغيير تفضيلات الخصوصية لاحقاً في قائمة الخيارات.</HistoryUploadMessage>
   <!-- EN: Even though history is sent anonymously, you can attach your name. -->
   <HistoryUploadMessagePlayerName>على الرغم من إرسال السجل بشكل مجهول، يمكنك إرفاق اسمك.</HistoryUploadMessagePlayerName>
   <!-- EN: Allow uploading gameplay data -->
@@ -941,7 +941,7 @@
   <!-- EN: Upload only this time -->
   <HistoryUploadYesOnce>الرفع هذه المرة فقط</HistoryUploadYesOnce>
   <!-- EN: Do not upload this time, ask me later -->
-  <HistoryUploadNoOnce>عدم الرفع هذه المرة، اسألني لاحقًا</HistoryUploadNoOnce>
+  <HistoryUploadNoOnce>عدم الرفع هذه المرة، اسألني لاحقاً</HistoryUploadNoOnce>
   
   <!-- Policies -->
   <!-- EN: Available policies -->
@@ -959,7 +959,7 @@
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>إعادة تسمية هذه السياسة.</RenamePolicyTip>
   <!-- EN: Make this policy the default policy given to new colonists. -->
-  <DefaultPolicyTip>اجعل هذه السياسة هي السياسة الافتراضية المعطاة للمستوطنين الجدد.</DefaultPolicyTip>
+  <DefaultPolicyTip>اجعل هذه السياسة هي السياسة الافتراضية المعطاة للمستعمرين الجدد.</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>هل أنت متأكد أنك تريد حذف السياسة: {0}؟</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -981,7 +981,7 @@
   <!-- EN: Drug policies -->
   <DrugPolicyTitle>سياسات المخدرات</DrugPolicyTitle>
   <!-- EN: Create and manage templates for controlling which drugs your colonists are allowed to consume. -->
-  <DrugPolicyTip>قم بإنشاء وإدارة القوالب للتحكم في المخدرات المسموح لمستوطنيك باستهلاكها.</DrugPolicyTip>
+  <DrugPolicyTip>قم بإنشاء وإدارة القوالب للتحكم في المخدرات المسموح لمستعمريك باستهلاكها.</DrugPolicyTip>
   <!-- EN: Drug policy -->
   <DrugPolicy>سياسة المخدرات</DrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
@@ -1015,17 +1015,17 @@
   <!-- EN: The name of a drug. -->
   <DrugNameColumnDesc>اسم المخدر.</DrugNameColumnDesc>
   <!-- EN: How often the colonists should try to take this drug. -->
-  <FrequencyColumnDesc>كم مرة يجب أن يحاول المستوطنون أخذ هذا المخدر.</FrequencyColumnDesc>
+  <FrequencyColumnDesc>كم مرة يجب أن يحاول المستعمرون أخذ هذا المخدر.</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
-  <MoodThresholdColumnDesc>سيأخذ المستوطنون هذا المخدر فقط إذا كان مستوى مزاجهم أقل من هذا الحد.</MoodThresholdColumnDesc>
+  <MoodThresholdColumnDesc>سيأخذ المستعمرون هذا المخدر فقط إذا كان مستوى مزاجهم أقل من هذا الحد.</MoodThresholdColumnDesc>
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
-  <JoyThresholdColumnDesc>سيأخذ المستوطنون هذا المخدر فقط إذا كان مستوى الترفيه لديهم أقل من هذا الحد.</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>سيأخذ المستعمرون هذا المخدر فقط إذا كان مستوى الترفيه لديهم أقل من هذا الحد.</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
   <TakeToInventoryColumnDesc>كمية إضافية من المخدر يتم أخذها عند جمعها للاستهلاك، لتجنب الاضطرار إلى زيارة مخزون المخدرات في كل مرة.</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForAddiction>للإدمان\n\nاستخدم هذا المخدر لتلبية احتياجات الإدمان الموجودة بالفعل.\n\nحتى لو كان معطلًا، قد تستخدمه بعض الشخصيات ذات السمات المحددة، أو أثناء الانهيارات العقلية، على أي حال.</DrugUsageTipForAddiction>
+  <DrugUsageTipForAddiction>للإدمان\n\nاستخدم هذا المخدر لتلبية احتياجات الإدمان الموجودة بالفعل.\n\nحتى لو كان معطلاً، قد تستخدمه بعض الشخصيات ذات السمات المحددة، أو أثناء الانهيارات العقلية، على أي حال.</DrugUsageTipForAddiction>
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForJoy>للترفيه\n\nاستخدم هذا المخدر لأغراض ترفيهية واجتماعية.\n\nحتى لو كان معطلًا، قد تستخدمه بعض الشخصيات ذات السمات المحددة، أو أثناء الانهيارات العقلية، على أي حال.</DrugUsageTipForJoy>
+  <DrugUsageTipForJoy>للترفيه\n\nاستخدم هذا المخدر لأغراض ترفيهية واجتماعية.\n\nحتى لو كان معطلاً، قد تستخدمه بعض الشخصيات ذات السمات المحددة، أو أثناء الانهيارات العقلية، على أي حال.</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
   <DrugUsageTipScheduled>مجدول\n\nاستخدم هذا المخدر في جدول زمني محدد، عند استيفاء شروط معينة.</DrugUsageTipScheduled>
 
@@ -1078,13 +1078,13 @@
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>الإعدادات الطبية الافتراضية</DefaultMedicineSettings>
   <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
-  <DefaultMedicineSettingsDesc>يتم تعيين هذه الإعدادات الطبية للمخلوقات عندما تنضم لأول مرة إلى مجموعة معينة. يمكنك تعيين إعداد يدويًا لفرد ما في علامة تبويب الصحة الخاصة به.\n\nملاحظة: إذا انضم المخلوق إلى مجموعة جديدة، فسيأخذ دائمًا إعدادات تلك المجموعة، حتى لو كنت قد عينت له إعدادًا مسبقًا.</DefaultMedicineSettingsDesc>
+  <DefaultMedicineSettingsDesc>يتم تعيين هذه الإعدادات الطبية للمخلوقات عندما تنضم لأول مرة إلى مجموعة معينة. يمكنك تعيين إعداد يدوياً لفرد ما في علامة تبويب الصحة الخاصة به.\n\nملاحظة: إذا انضم المخلوق إلى مجموعة جديدة، فسيأخذ دائماً إعدادات تلك المجموعة، حتى لو كنت قد عينت له إعداداً مسبقاً.</DefaultMedicineSettingsDesc>
   
   <!-- EN: Defaults -->
   <MedGroupDefaults>الافتراضيات</MedGroupDefaults>
   
   <!-- EN: Colonists -->
-  <MedGroupColonists>المستوطنون</MedGroupColonists>
+  <MedGroupColonists>المستعمرون</MedGroupColonists>
   <!-- EN: Free members of your colony -->
   <MedGroupColonistsDesc>الأعضاء الأحرار في مستوطنتك</MedGroupColonistsDesc>
   
@@ -1125,11 +1125,11 @@
 
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
-  <NoGrowerCanPlant>تتطلب {0} مهارة {1} في الزراعة للزرع.\n\nلا أحد من مزارعيك غير المطروحين أرضًا لديه هذه المهارة، لذا لن يُزرع هذا النبات.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>تتطلب {0} مهارة {1} في الزراعة للزرع.\n\nلا أحد من مزارعيك غير المطروحين أرضاً لديه هذه المهارة، لذا لن يُزرع هذا النبات.</NoGrowerCanPlant>
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawns>بعض مستوطنيك أو حيواناتك موجودون في هذه المنطقة. هل أنت متأكد أنك تريد هجرها؟\n\nسيتم ترك الأشخاص والحيوانات التالية خلفك:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>بعض مستعمريك أو حيواناتك موجودون في هذه المنطقة. هل أنت متأكد أنك تريد هجرها؟\n\nسيتم ترك الأشخاص والحيوانات التالية خلفك:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
   <ConfirmAbandonHomeNegativeThoughts>سيؤدي هجر {0} إلى جعل الأشخاص التاليين يحصلون على الأفكار التالية:</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
@@ -1137,17 +1137,17 @@
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>تحاول بعض الحيوانات أو السجناء الانضمام إلى هذه القافلة. إذا قمت بتحريكها، فلن يتمكنوا من ذلك بعد الآن.\n\nتُعتبر الحيوانات والسجناء والمستوطنون المطروحون أرضًا الذين تم تركهم في خريطة بدون أي مستوطنين غير مطروحين أرضًا مهجورين ويمكن للأعداء أسرهم.\n\nهل أنت متأكد أنك تريد تحريك قافلتك؟</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>تحاول بعض الحيوانات أو السجناء الانضمام إلى هذه القافلة. إذا قمت بتحريكها، فلن يتمكنوا من ذلك بعد الآن.\n\nتُعتبر الحيوانات والسجناء والمستعمرون المطروحون أرضاً الذين تم تركهم في خريطة بدون أي مستعمرين غير مطروحين أرضاً مهجورين ويمكن للأعداء أسرهم.\n\nهل أنت متأكد أنك تريد تحريك قافلتك؟</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
-  <ConfirmBanishPawnDialog>هل تريد حقًا نفي {1_label}؟</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog>هل تريد حقاً نفي {1_label}؟</ConfirmBanishPawnDialog>
   <!-- EN: {1_labelShort} will most likely die. -->
   <ConfirmBanishPawnDialog_LeftToDie>من المحتمل أن يموت {1_labelShort}.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
   <ConfirmBanishPawnDialog_Items>سيأخذ {1_labelShort} العناصر التالية معـ{1_objective}:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
-  <ConfirmBanishPawnDialog_AllColonistsThoughts>سيحصل جميع المستوطنين على الأفكار التالية:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>سيحصل جميع المستعمرين على الأفكار التالية:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
   <ConfirmBanishPawnDialog_IndividualThoughts>نفي {1_labelShort} سيجعل الأشخاص التاليين يحصلون على الأفكار التالية:</ConfirmBanishPawnDialog_IndividualThoughts>
 
@@ -1159,7 +1159,7 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
-  <ConfirmSettleNearFactionBase>نظرًا لأن هذا الموقع يقع ضمن {0} خلايا من قاعدة فصيل آخر، فسيشعرون أنك تتعدى على أراضيهم وستتدهور العلاقات مع هذه الفصائل كل {1} أيام.</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>نظراً لأن هذا الموقع يقع ضمن {0} خلايا من قاعدة فصيل آخر، فسيشعرون أنك تتعدى على أراضيهم وستتدهور العلاقات مع هذه الفصائل كل {1} أيام.</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
@@ -1173,7 +1173,7 @@
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
-  <ConfirmCancelMonumentMarker>هل تريد حقًا إزالة علامة النصب التذكاري هذه؟</ConfirmCancelMonumentMarker>
+  <ConfirmCancelMonumentMarker>هل تريد حقاً إزالة علامة النصب التذكاري هذه؟</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
   <!-- EN: Cannot use {0} -->
@@ -1205,19 +1205,19 @@
   <!-- EN: Must target an unroofed area. -->
   <AbilityRoofed>يجب استهداف منطقة غير مسقوفة.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
-  <AbilityCantApplyToMentallyBroken>{0_labelShort} منهار عقليًا.</AbilityCantApplyToMentallyBroken>
+  <AbilityCantApplyToMentallyBroken>{0_labelShort} منهار عقلياً.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
-  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} ليس منهارًا عقليًا.</AbilityCanOnlyApplyToMentallyBroken>
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} ليس منهاراً عقلياً.</AbilityCanOnlyApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not maddened. -->
-  <AbilityCanOnlyApplyToManhunter>{0_labelShort} ليس مجنونًا.</AbilityCanOnlyApplyToManhunter>
+  <AbilityCanOnlyApplyToManhunter>{0_labelShort} ليس مجنوناً.</AbilityCanOnlyApplyToManhunter>
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
-  <AbilityCantApplyToScaria>{0_labelShort} مصاب بالسكاريا، والتي لا يمكن علاجها إلا طبيًا.</AbilityCantApplyToScaria>
+  <AbilityCantApplyToScaria>{0_labelShort} مصاب بالسكاريا، والتي لا يمكن علاجها إلا طبياً.</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0} لا يعمل على الحالة العقلية '{1}'.</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort} ليس لديه مقاومة.</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
-  <AbilityCantApplyDowned>{0_labelShort} مطروح أرضًا.</AbilityCantApplyDowned>
+  <AbilityCantApplyDowned>{0_labelShort} مطروح أرضاً.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>لا يمكن الاستخدام: {0} لاجنسي.</AbilityCantApplyOnAsexual>
   <!-- EN: {PAWN_labelShort} has no healable injuries. -->
@@ -1225,7 +1225,7 @@
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} من الجنس الخاطئ بالنسبة لـ {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
-  <AbilityCantApplyTooYoung>{0_labelShort} صغير جدًا.</AbilityCantApplyTooYoung>
+  <AbilityCantApplyTooYoung>{0_labelShort} صغير جداً.</AbilityCantApplyTooYoung>
   <!-- EN: Cannot target a baby. -->
   <AbilityCantApplyOnBaby>لا يمكن استهداف طفل رضيع.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
@@ -1239,11 +1239,11 @@
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
   <AbilityMustBeSameIdeo>يجب أن يكون {0_labelShort} من نفس أيديولوجية {1_labelShort}.</AbilityMustBeSameIdeo>
   <!-- EN: {0_labelShort} must be sick or injured. -->
-  <AbilityMustBeSickOrInjured>يجب أن يكون {0_labelShort} مريضًا أو مصابًا.</AbilityMustBeSickOrInjured>
+  <AbilityMustBeSickOrInjured>يجب أن يكون {0_labelShort} مريضاً أو مصاباً.</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
   <AbilityMustBeSameIdeoCounsel>{0} يمكنه فقط تقديم المشورة لـ {1}s.</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->
-  <AbilityMustBeNotGuilty>{0_labelShort} يُعتبر مذنبًا بالفعل.</AbilityMustBeNotGuilty>
+  <AbilityMustBeNotGuilty>{0_labelShort} يُعتبر مذنباً بالفعل.</AbilityMustBeNotGuilty>
   <!-- EN: Must target a human. -->
   <AbilityMustBeHuman>يجب استهداف إنسان.</AbilityMustBeHuman>
   <!-- EN: Must target a non-wild human. -->
@@ -1269,7 +1269,7 @@
   <!-- EN: Psychic love for -->
   <PsychicLoveFor>حب نفسي لـ</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
-  <FarskipConfirmTeleportingLodger>إذا قمت بتخطي {PAWN_labelShort} إلى خريطة أخرى أو قافلة، فستفشل المهمة المرتبطة وسيغادر {PAWN_pronoun} على الفور.\n\nهل تريد حقًا تخطي {PAWN_labelShort} بعيدًا؟</FarskipConfirmTeleportingLodger>
+  <FarskipConfirmTeleportingLodger>إذا قمت بتخطي {PAWN_labelShort} إلى خريطة أخرى أو قافلة، فستفشل المهمة المرتبطة وسيغادر {PAWN_pronoun} على الفور.\n\nهل تريد حقاً تخطي {PAWN_labelShort} بعيداً؟</FarskipConfirmTeleportingLodger>
   
   <!-- EN: minor -->
   <MentalBreakIntensityMinor>طفيف</MentalBreakIntensityMinor>
@@ -1290,7 +1290,7 @@
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>أخرى</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
   <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
-  <AutoSlaugtherTip>يقوم المستوطنون أولاً بذبح الحيوانات غير الحوامل بالترتيب من الأقدم إلى الأصغر، ثم الحيوانات الحوامل من الأحدث حملاً إلى الأقدم حملاً.</AutoSlaugtherTip>
+  <AutoSlaugtherTip>يقوم المستعمرون أولاً بذبح الحيوانات غير الحوامل بالترتيب من الأقدم إلى الأصغر، ثم الحيوانات الحوامل من الأحدث حملاً إلى الأقدم حملاً.</AutoSlaugtherTip>
   <!-- EN: Male adult -->
   <AnimalMaleAdult>ذكر بالغ</AnimalMaleAdult>
   <!-- EN: Male young -->
@@ -1307,27 +1307,27 @@
   <AllowSlaughter>ذبح</AllowSlaughter>
 
   <!-- EN: The animal to be automatically slaughtered. -->
-  <AutoSlaugtherHeaderTooltipLabel>الحيوان المراد ذبحه تلقائيًا.</AutoSlaugtherHeaderTooltipLabel>
+  <AutoSlaugtherHeaderTooltipLabel>الحيوان المراد ذبحه تلقائياً.</AutoSlaugtherHeaderTooltipLabel>
   <!-- EN: The current number of animals in the colony, both male and female. -->
-  <AutoSlaugtherHeaderTooltipCurrentTotal>العدد الحالي للحيوانات في المستوطنة، ذكورًا وإناثًا.</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <AutoSlaugtherHeaderTooltipCurrentTotal>العدد الحالي للحيوانات في المستوطنة، ذكوراً وإناثاً.</AutoSlaugtherHeaderTooltipCurrentTotal>
   <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxTotal>الحد الأقصى لعدد الحيوانات في المستوطنة، ذكورًا وإناثًا.\n\nسيقوم المروضون بذبح أي إضافات تلقائيًا.</AutoSlaugtherHeaderTooltipMaxTotal>
+  <AutoSlaugtherHeaderTooltipMaxTotal>الحد الأقصى لعدد الحيوانات في المستوطنة، ذكوراً وإناثاً.\n\nسيقوم المروضون بذبح أي إضافات تلقائياً.</AutoSlaugtherHeaderTooltipMaxTotal>
   <!-- EN: The current number of males of breeding age in the colony. -->
   <AutoSlaugtherHeaderTooltipCurrentMales>العدد الحالي للذكور في سن التكاثر في المستوطنة.</AutoSlaugtherHeaderTooltipCurrentMales>
   <!-- EN: The current number of baby and juvenile males in the colony. -->
   <AutoSlaughterHeaderTooltipCurrentMalesYoung>العدد الحالي للذكور الرضع واليافعين في المستوطنة.</AutoSlaughterHeaderTooltipCurrentMalesYoung>
   <!-- EN: The maximum number of males of breeding age in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxMales>الحد الأقصى لعدد الذكور في سن التكاثر في المستوطنة.\n\nسيقوم المروضون بذبح أي إضافات تلقائيًا.</AutoSlaugtherHeaderTooltipMaxMales>
+  <AutoSlaugtherHeaderTooltipMaxMales>الحد الأقصى لعدد الذكور في سن التكاثر في المستوطنة.\n\nسيقوم المروضون بذبح أي إضافات تلقائياً.</AutoSlaugtherHeaderTooltipMaxMales>
   <!-- EN: The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaughterHeaderTooltipMaxMalesYoung>الحد الأقصى لعدد الذكور الرضع واليافعين في المستوطنة.\n\nسيقوم المروضون بذبح أي إضافات تلقائيًا.</AutoSlaughterHeaderTooltipMaxMalesYoung>
+  <AutoSlaughterHeaderTooltipMaxMalesYoung>الحد الأقصى لعدد الذكور الرضع واليافعين في المستوطنة.\n\nسيقوم المروضون بذبح أي إضافات تلقائياً.</AutoSlaughterHeaderTooltipMaxMalesYoung>
   <!-- EN: The current number of females of breeding age in the colony. -->
   <AutoSlaugtherHeaderTooltipCurrentFemales>العدد الحالي للإناث في سن التكاثر في المستوطنة.</AutoSlaugtherHeaderTooltipCurrentFemales>
   <!-- EN: The current number of baby and juvenile females in the colony. -->
   <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>العدد الحالي للإناث الرضع واليافعات في المستوطنة.</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
   <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxFemales>الحد الأقصى لعدد الإناث في المستوطنة.\n\nسيقوم المروضون بذبح أي إضافات تلقائيًا.</AutoSlaugtherHeaderTooltipMaxFemales>
+  <AutoSlaugtherHeaderTooltipMaxFemales>الحد الأقصى لعدد الإناث في المستوطنة.\n\nسيقوم المروضون بذبح أي إضافات تلقائياً.</AutoSlaugtherHeaderTooltipMaxFemales>
   <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaughterHeaderTooltipMaxFemalesYoung>الحد الأقصى لعدد الإناث الرضع واليافعات في المستوطنة.\n\nسيقوم المروضون بذبح أي إضافات تلقائيًا.</AutoSlaughterHeaderTooltipMaxFemalesYoung>
+  <AutoSlaughterHeaderTooltipMaxFemalesYoung>الحد الأقصى لعدد الإناث الرضع واليافعات في المستوطنة.\n\nسيقوم المروضون بذبح أي إضافات تلقائياً.</AutoSlaughterHeaderTooltipMaxFemalesYoung>
   <!-- EN: The current number of pregnant animals in the colony. -->
   <AutoSlaughterHeaderTooltipCurrentPregnant>العدد الحالي للحيوانات الحوامل في المستوطنة.</AutoSlaughterHeaderTooltipCurrentPregnant>
   <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
@@ -1376,7 +1376,7 @@
   <!-- EN: color temperature -->
   <ColorTemperature>درجة حرارة اللون</ColorTemperature>
   <!-- EN: choose a color -->
-  <ChooseAColor>اختر لونًا</ChooseAColor>
+  <ChooseAColor>اختر لوناً</ChooseAColor>
   <!-- EN: red -->
   <Red>أحمر</Red>
   <!-- EN: green -->
@@ -1392,7 +1392,7 @@
   <!-- EN: darklight -->
   <Darklight>ضوء خافت</Darklight>
   <!-- EN: not darklight -->
-  <NotDarklight>ليس ضوءًا خافتًا</NotDarklight>
+  <NotDarklight>ليس ضوءاً خافتاً</NotDarklight>
   <!-- EN: current color -->
   <CurrentColor>اللون الحالي</CurrentColor>
   <!-- EN: old color -->
@@ -1420,10 +1420,10 @@
   <!-- EN: Change the light color to darklight. -->
   <ToggleDarklightOnDesc>تغيير لون الضوء إلى ضوء خافت.</ToggleDarklightOnDesc>
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
-  <ColorTemperatureTooltip>اختر لونًا عن طريق تعيين درجة حرارة اللون. ملاحظة: هذا يؤثر فقط على اللون المرئي، وليس انبعاث الحرارة.</ColorTemperatureTooltip>
+  <ColorTemperatureTooltip>اختر لوناً عن طريق تعيين درجة حرارة اللون. ملاحظة: هذا يؤثر فقط على اللون المرئي، وليس انبعاث الحرارة.</ColorTemperatureTooltip>
 
   <!-- EN: {0_labelShort} is psychically deaf. -->
-  <CannotShootPawnIsPsychicallyDeaf>{0_labelShort} أصم نفسيًا.</CannotShootPawnIsPsychicallyDeaf>
+  <CannotShootPawnIsPsychicallyDeaf>{0_labelShort} أصم نفسياً.</CannotShootPawnIsPsychicallyDeaf>
 
   <!-- EN: Search the current map. -->
   <SearchTheMap>البحث في الخريطة الحالية.</SearchTheMap>

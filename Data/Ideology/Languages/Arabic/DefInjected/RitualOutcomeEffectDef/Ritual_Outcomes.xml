@@ -244,7 +244,7 @@
   <!-- EN: The connector will start with 25-45% connection strength, depending on ritual quality. -->
   <ConnectToTree.extraPredictedOutcomeDescriptions.0>سيبدأ الموصل بقوة اتصال تتراوح بين 25-45%، اعتماداً على جودة الطقس.</ConnectToTree.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Every 2% increase in quality will grow a patch of Gauranlen moss around the tree, beautifying the area. -->
-  <ConnectToTree.extraPredictedOutcomeDescriptions.1>كل زيادة بنسبة 2% في الجودة ستنمو رقعة من طحلب الجورانلن حول الشجرة، مما يجمل المنطقة.</ConnectToTree.extraPredictedOutcomeDescriptions.1>
+  <ConnectToTree.extraPredictedOutcomeDescriptions.1>كل زيادة بنسبة 2% في الجودة ستنمو رقعة من طحلب الغورانلين حول الشجرة، مما يجمل المنطقة.</ConnectToTree.extraPredictedOutcomeDescriptions.1>
   
   <!-- EN: If it goes well, target's ideoligion certainty will be reduced or they will convert. If it goes badly, they will gain certainty in their old beliefs. -->
   <Conversion.description>إذا سارت الأمور على ما يرام، سيقل يقين الهدف بعقيدته أو سيتحول. إذا ساءت الأمور، سيزداد يقيناً بمعتقداته القديمة.</Conversion.description>
@@ -558,7 +558,7 @@
   <!-- EN: convicted -->
   <Trial.outcomeChances.1.label>إدانة</Trial.outcomeChances.1.label>
   <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
-  <Trial.outcomeChances.1.description>أقنع الادعاء الجميع بذنب {PAWN_labelShort}. تمت إدانة {PAWN_labelShort} ويمكن الآن معاقبته. يمكنك إعدام أو نفي {PAWN_objective} ولن يمانع أحد.</Trial.outcomeChances.1.description>
+  <Trial.outcomeChances.1.description>أقنع الادعاء الجميع بذنب {PAWN_labelShort}. تمت إدانة {PAWN_labelShort} ويمكن الآن معاقبته. يمكنك إعدام أو نفيـ{PAWN_objective} ولن يمانع أحد.</Trial.outcomeChances.1.description>
   
   <!-- EN: The trial quality determines the chance that the defendant will be convicted. -->
   <TrialMentalState.description>جودة المحاكمة تحدد فرصة إدانة المدعى عليه.</TrialMentalState.description>
@@ -575,6 +575,6 @@
   <!-- EN: convicted -->
   <TrialMentalState.outcomeChances.1.label>إدانة</TrialMentalState.outcomeChances.1.label>
   <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
-  <TrialMentalState.outcomeChances.1.description>أقنع الادعاء الجميع بذنب {PAWN_labelShort}. تمت إدانة {PAWN_labelShort} ويمكن الآن معاقبته. يمكنك إعدام أو نفي {PAWN_objective} ولن يمانع أحد.</TrialMentalState.outcomeChances.1.description>
+  <TrialMentalState.outcomeChances.1.description>أقنع الادعاء الجميع بذنب {PAWN_labelShort}. تمت إدانة {PAWN_labelShort} ويمكن الآن معاقبته. يمكنك إعدام أو نفيـ{PAWN_objective} ولن يمانع أحد.</TrialMentalState.outcomeChances.1.description>
   
 </LanguageData>

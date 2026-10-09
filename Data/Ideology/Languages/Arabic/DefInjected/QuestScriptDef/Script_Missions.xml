@@ -45,7 +45,7 @@
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameDef]، [asker_faction_leaderTitle] [asker_faction_name]، اكتشف مجمعاً أثرياً على مسافة بعيدة. يعتقد [asker_pronoun] أنه يحتوي على معلومات عن الأثر المعروف باسم [relic_name].\n\n[asker_nameDef] لا يمكنه توفير أشخاص للتحقيق في الأمر، لكنه يأمل أن تتمكن من المساعدة بتزويده بـ[colonistCount] [colonistsSingularOrPlural] بالضبط لتنفيذ التحقيق.\n\nالمجمع يحتوي على تهديدات غير معروفة ويبحث عنه أيضاً أعداء [asker_nameDef]، [enemyFaction_name].\n\nسيرسل [asker_pronoun] مكوكاً لاصطحاب المستعمرين، وإحضارهم إلى المجمع، وإعادتهم إلى الوطن بعد ذلك. سيتم إطعامهم والعناية بهم في الطريق.\n\nبمجرد هبوطك، يجب أن تخترق جميع الطرفيات في المجمع خلال [timeoutTicks_duration].</li>
+    <li>questDescription->[asker_nameDef]، [asker_faction_leaderTitle] [asker_faction_name]، اكتشف مجمعاً أثرياً على مسافة بعيدة. يعتقد [asker_pronoun] أنه يحتوي على معلومات عن الأثر المقدس المعروف باسم [relic_name].\n\n[asker_nameDef] لا يمكنه توفير أشخاص للتحقيق في الأمر، لكنه يأمل أن تتمكن من المساعدة بتزويده بـ[colonistCount] [colonistsSingularOrPlural] بالضبط لتنفيذ التحقيق.\n\nالمجمع يحتوي على تهديدات غير معروفة ويبحث عنه أيضاً أعداء [asker_nameDef]، [enemyFaction_name].\n\nسيرسل [asker_pronoun] مكوكاً لاصطحاب المستعمرين، وإحضارهم إلى المجمع، وإعادتهم إلى الوطن بعد ذلك. سيتم إطعامهم والعناية بهم في الطريق.\n\nبمجرد هبوطك، يجب أن تخترق جميع الطرفيات في المجمع خلال [timeoutTicks_duration].</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->مستعمر</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->مستعمرين</li>
  </AncientComplex_Mission.questDescriptionRules.rulesStrings>

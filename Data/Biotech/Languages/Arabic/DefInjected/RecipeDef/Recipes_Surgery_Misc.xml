@@ -4,16 +4,16 @@
   <!-- EN: blood transfusion -->
   <BloodTransfusion.label>نقل الدم</BloodTransfusion.label>
   <!-- EN: Use hemogen packs to reduce the effects of blood loss. Each hemogen pack used recovers 35% blood loss. The operation will also restore hemogen to hemogenic individuals. -->
-  <BloodTransfusion.description>استخدام عبوات الهيموجين لتقليل آثار فقدان الدم. كل عبوة هيموجين تُستخدم تستعيد 35% من فقدان الدم. ستعيد العملية أيضاً الهيموجين للأفراد مولديه.</BloodTransfusion.description>
+  <BloodTransfusion.description>استخدام حقائب الهيموجين لتقليل آثار فقدان الدم. كل حقيبة هيموجين تُستخدم تستعيد 35% من فقدان الدم. ستعيد العملية أيضاً الهيموجين للأفراد مولديه.</BloodTransfusion.description>
   <!-- EN: performing blood transfusion on TargetA. -->
   <BloodTransfusion.jobString>إجراء نقل دم على TargetA.</BloodTransfusion.jobString>
   
   <!-- EN: extract hemogen pack -->
-  <ExtractHemogenPack.label>استخراج عبوة هيموجين</ExtractHemogenPack.label>
+  <ExtractHemogenPack.label>استخراج حقيبة هيموجين</ExtractHemogenPack.label>
   <!-- EN: Extract a hemogen pack from the target. The operation will fail to produce a hemogen pack if the target does not have enough blood.\n\nHemogen packs can be administered to others to reduce blood loss or to satiate those who feed on blood. -->
-  <ExtractHemogenPack.description>استخراج عبوة هيموجين من الهدف. ستفشل العملية في إنتاج عبوة إذا لم يمتلك الهدف ما يكفي من الدم.\n\nيمكن إعطاء عبوات الهيموجين للآخرين لتقليل فقدان الدم أو لإشباع أولئك الذين يتغذون على الدم.</ExtractHemogenPack.description>
+  <ExtractHemogenPack.description>استخراج حقيبة هيموجين من الهدف. ستفشل العملية في إنتاج حقيبة إذا لم يمتلك الهدف ما يكفي من الدم.\n\nيمكن إعطاء حقائب الهيموجين للآخرين لتقليل فقدان الدم أو لإشباع أولئك الذين يتغذون على الدم.</ExtractHemogenPack.description>
   <!-- EN: Extracting hemogen pack. -->
-  <ExtractHemogenPack.jobString>استخراج عبوة هيموجين.</ExtractHemogenPack.jobString>
+  <ExtractHemogenPack.jobString>استخراج حقيبة هيموجين.</ExtractHemogenPack.jobString>
   
   <!-- EN: extract ovum for IVF -->
   <ExtractOvum.label>استخراج بويضة للتلقيح الاصطناعي</ExtractOvum.label>
@@ -39,11 +39,11 @@
   <ImplantIUD.successfullyRemovedHediffMessage>نجح {0} في زرع لولب في {1}.</ImplantIUD.successfullyRemovedHediffMessage>
   
   <!-- EN: implant xenogerm -->
-  <ImplantXenogerm.label>زرع زينوجيرم</ImplantXenogerm.label>
+  <ImplantXenogerm.label>زرع زينوجرم</ImplantXenogerm.label>
   <!-- EN: Implant a xenogerm into a patient. This replaces any previous xenogerm they may have had. -->
-  <ImplantXenogerm.description>زرع زينوجيرم في مريض. هذا يستبدل أي زينوجيرم سابق ربما كان لديه.</ImplantXenogerm.description>
+  <ImplantXenogerm.description>زرع زينوجرم في مريض. هذا يستبدل أي زينوجرم سابق ربما كان لديه.</ImplantXenogerm.description>
   <!-- EN: Implanting xenogerm. -->
-  <ImplantXenogerm.jobString>زرع زينوجيرم.</ImplantXenogerm.jobString>
+  <ImplantXenogerm.jobString>زرع زينوجرم.</ImplantXenogerm.jobString>
   
   <!-- EN: remove IUD -->
   <RemoveIUD.label>إزالة لولب</RemoveIUD.label>
