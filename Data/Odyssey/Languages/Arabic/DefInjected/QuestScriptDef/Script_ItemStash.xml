@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of a collection of valuable items worth [itemStashContentsValue]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
+  -->
+  <OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] موقع مجموعة من المواد القيّمة بقيمة [itemStashContentsValue]. تتكون المجموعة من:\n\n[itemStashContents]\n\nيبدو أن [allSitePartsDescriptionsExceptFirst]</li>
+ </OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[stash] of [treasure]</li>
+    <li>stash->Stash</li>
+    <li>stash->Cache</li>
+    <li>stash->Collection</li>
+    <li>stash->Shack</li>
+    <li>treasure->Treasure</li>
+    <li>treasure->Valuables</li>
+    <li>treasure->Fortune</li>
+    <li>treasure->Goodies</li>
+    <li>treasure->Supplies</li>
+  -->
+  <OpportunitySite_ItemStash_Giver.questNameRules.rulesStrings>
+    <li>questName->[stash] [treasure]</li>
+    <li>stash->مخبأ</li>
+    <li>stash->مخزن سري</li>
+    <li>stash->مجموعة</li>
+    <li>stash->كوخ</li>
+    <li>treasure->كنز</li>
+    <li>treasure->نفائس</li>
+    <li>treasure->ثروة</li>
+    <li>treasure->غنائم</li>
+    <li>treasure->إمدادات</li>
+ </OpportunitySite_ItemStash_Giver.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->loot stashes</li>
+    <li>subject->secret treasures</li>
+    <li>subject->valuables</li>
+    <li>questMapFeature->drawing of a treasure chest</li>
+    <li>questMapFeature->supply shack</li>
+    <li>questMapText->secret item stash</li>
+    <li>questMapText->loot here</li>
+    <li>questMapText->hidden valuables</li>
+  -->
+  <OpportunitySite_ItemStash_Giver.questSubjectRules.rulesStrings>
+    <li>subject->مخابئ غنائم</li>
+    <li>subject->كنوز سرية</li>
+    <li>subject->أشياء ثمينة</li>
+    <li>questMapFeature->رسم لصندوق كنز</li>
+    <li>questMapFeature->كوخ إمدادات</li>
+    <li>questMapText->مخبأ مواد سري</li>
+    <li>questMapText->نهب هنا</li>
+    <li>questMapText->نفائس مخفية</li>
+ </OpportunitySite_ItemStash_Giver.questSubjectRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>انتهت المهمة: [resolvedQuestName]</OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>تشير الاتصالات المعترضة إلى أن مخبأ المواد قد طالب به آخرون. انتهت المهمة [resolvedQuestName].</OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>
+  
+</LanguageData>

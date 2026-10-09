@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an infamous company of mercenaries. These ancient soldiers are from a long-forgotten era in the planet's history. They have recently awoken from cryptosleep and are causing trouble in the area.\n\nThe company is led by [LEADER_nameDef], who possesses a unique [WEAPON_quality] weapon. The group contains:\n\n[mercenaryList]\n\nIf you're able to capture or kill the leader, you can take the unique weapon.\n\n[location]</li>
+    <li>location(atLandmark==true)->The soldiers are hiding out in an ancient structure at [landmarkName].</li>
+    <li>location(atLandmark==false)->The soldiers are hiding out in an ancient structure.</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] موقع سرية سيئة السمعة من المرتزقة. هؤلاء الجنود القدماء من حقبة منسية منذ زمن طويل في تاريخ الكوكب. استيقظوا مؤخراً من السبات العميق ويسببون المتاعب في المنطقة.\n\nيقود السرية [LEADER_nameDef]، الذي يمتلك سلاحاً فريداً [WEAPON_quality]. تحتوي المجموعة على:\n\n[mercenaryList]\n\nإذا تمكنت من أسر أو قتل القائد، يمكنك أخذ السلاح الفريد.\n\n[location]</li>
+    <li>location(atLandmark==true)->الجنود مختبئون في مبنى قديم في [landmarkName].</li>
+    <li>location(atLandmark==false)->الجنود مختبئون في مبنى قديم.</li>
+ </OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [mercenaries]</li>
+    <li>questName->[ancient] [mercenaries]</li>
+    <li>ancient->Ancient</li>
+    <li>ancient->Awoken</li>
+    <li>ancient->Cryptosleep</li>
+    <li>mercenaries->Mercenaries</li>
+    <li>mercenaries->Soldiers</li>
+    <li>mercenaries->Warriors</li>
+    <li>mercenaries->Fighters</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
+    <li>questName->الـ [ancient] [mercenaries]</li>
+    <li>questName->[ancient] [mercenaries]</li>
+    <li>ancient->قدامى</li>
+    <li>ancient->مستيقظون</li>
+    <li>ancient->سبات عميق</li>
+    <li>mercenaries->مرتزقة</li>
+    <li>mercenaries->جنود</li>
+    <li>mercenaries->محاربون</li>
+    <li>mercenaries->مقاتلون</li>
+ </OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient mercenaries</li>
+    <li>subject->ancient soldiers</li>
+    <li>subject->ancients</li>
+    <li>questMapFeature->military garrison</li>
+    <li>questMapFeature->drawing of an ancient soldier</li>
+    <li>questMapFeature->sketch of a man from another time</li>
+    <li>questMapText->they're awake</li>
+    <li>questMapText->dangerous ancients</li>
+    <li>questMapText->ancient weapons</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
+    <li>subject->مرتزقة قدماء</li>
+    <li>subject->جنود قدماء</li>
+    <li>subject->القدماء</li>
+    <li>questMapFeature->حامية عسكرية</li>
+    <li>questMapFeature->رسم لجندي قديم</li>
+    <li>questMapFeature->رسم تخطيطي لرجل من زمن آخر</li>
+    <li>questMapText->إنهم مستيقظون</li>
+    <li>questMapText->قدماء خطرون</li>
+    <li>questMapText->أسلحة قديمة</li>
+ </OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
+  
+</LanguageData>
