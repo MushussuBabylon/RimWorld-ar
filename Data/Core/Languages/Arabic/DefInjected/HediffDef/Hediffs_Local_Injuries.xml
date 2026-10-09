@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: acid burn -->
+  <AcidBurn.label>حرق حمضي</AcidBurn.label>
+  <!-- EN: An acid burn. -->
+  <AcidBurn.description>حرق حمضي.</AcidBurn.description>
+  <!-- EN: acid burn scar -->
+  <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>ندبة حرق حمضي</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Dissolved off -->
+  <AcidBurn.injuryProps.destroyedLabel>مذاب</AcidBurn.injuryProps.destroyedLabel>
+  <!-- EN: an acid burn -->
+  <AcidBurn.labelNoun>حرق حمضي</AcidBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <AcidBurn.labelNounPretty>{0} في {1}</AcidBurn.labelNounPretty>
+  
+  <!-- EN: beam burn -->
+  <BeamWound.label>حرق شعاعي</BeamWound.label>
+  <!-- EN: A beam burn. -->
+  <BeamWound.description>حرق شعاعي.</BeamWound.description>
+  <!-- EN: permanent beam injury -->
+  <BeamWound.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>إصابة شعاعية دائمة</BeamWound.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <!-- EN: old beam wound -->
+  <BeamWound.comps.HediffComp_GetsPermanent.permanentLabel>جرح شعاعي قديم</BeamWound.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <BeamWound.injuryProps.destroyedLabel>محروق</BeamWound.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <BeamWound.injuryProps.destroyedOutLabel>مُزال بالحرق</BeamWound.injuryProps.destroyedOutLabel>
+  <!-- EN: a beam burn -->
+  <BeamWound.labelNoun>حرق شعاعي</BeamWound.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <BeamWound.labelNounPretty>{0} في {1}</BeamWound.labelNounPretty>
+  
+  <!-- EN: bite -->
+  <Bite.label>عضة</Bite.label>
+  <!-- EN: A bite wound. -->
+  <Bite.description>جرح عضة.</Bite.description>
+  <!-- EN: set -->
+  <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</Bite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</Bite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: bite scar -->
+  <Bite.comps.HediffComp_GetsPermanent.permanentLabel>ندبة عضة</Bite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Bitten off -->
+  <Bite.injuryProps.destroyedLabel>مقضوض</Bite.injuryProps.destroyedLabel>
+  <!-- EN: Bitten out -->
+  <Bite.injuryProps.destroyedOutLabel>مُنتزع بالعض</Bite.injuryProps.destroyedOutLabel>
+  <!-- EN: a bite wound -->
+  <Bite.labelNoun>جرح عضة</Bite.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Bite.labelNounPretty>{0} في {1}</Bite.labelNounPretty>
+  
+  <!-- EN: bruise -->
+  <Bruise.label>كدمة</Bruise.label>
+  <!-- EN: A bruise. -->
+  <Bruise.description>كدمة.</Bruise.description>
+  <!-- EN: set -->
+  <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>مُعالَج</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Destroyed -->
+  <Bruise.injuryProps.destroyedLabel>مُدَمَّر</Bruise.injuryProps.destroyedLabel>
+  <!-- EN: a bruise -->
+  <Bruise.labelNoun>كدمة</Bruise.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Bruise.labelNounPretty>{0} في {1}</Bruise.labelNounPretty>
+  
+  <!-- EN: burn -->
+  <Burn.label>حرق</Burn.label>
+  <!-- EN: A burn. -->
+  <Burn.description>حرق.</Burn.description>
+  <!-- EN: tended -->
+  <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>مُعالَج</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</Burn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>مُعالَج</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: burn scar -->
+  <Burn.comps.HediffComp_GetsPermanent.permanentLabel>ندبة حرق</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <Burn.injuryProps.destroyedLabel>محروق</Burn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <Burn.injuryProps.destroyedOutLabel>مُزال بالحرق</Burn.injuryProps.destroyedOutLabel>
+  <!-- EN: a burn -->
+  <Burn.labelNoun>حرق</Burn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Burn.labelNounPretty>{0} في {1}</Burn.labelNounPretty>
+  
+  <!-- EN: chemical burn -->
+  <ChemicalBurn.label>حرق كيميائي</ChemicalBurn.label>
+  <!-- EN: A chemical burn. -->
+  <ChemicalBurn.description>حرق كيميائي.</ChemicalBurn.description>
+  <!-- EN: chemical burn scar -->
+  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>ندبة حرق كيميائي</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedLabel>مُذاب (كيميائي)</ChemicalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedOutLabel>مُزال كيميائياً</ChemicalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: a chemical burn -->
+  <ChemicalBurn.labelNoun>حرق كيميائي</ChemicalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ChemicalBurn.labelNounPretty>{0} في {1}</ChemicalBurn.labelNounPretty>
+  
+  <!-- EN: crack -->
+  <Crack.label>شرخ</Crack.label>
+  <!-- EN: A crack. -->
+  <Crack.description>شرخ.</Crack.description>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWell>مُثبَّت</Crack.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>مُثبَّت</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent crack -->
+  <Crack.comps.HediffComp_GetsPermanent.permanentLabel>شرخ دائم</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Shattered -->
+  <Crack.injuryProps.destroyedLabel>مُهَشَّم</Crack.injuryProps.destroyedLabel>
+  <!-- EN: a crack wound -->
+  <Crack.labelNoun>جرح شرخ</Crack.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Crack.labelNounPretty>{0} في {1}</Crack.labelNounPretty>
+  
+  <!-- EN: crush -->
+  <Crush.label>سحق</Crush.label>
+  <!-- EN: A crushing wound. -->
+  <Crush.description>جرح ساحق.</Crush.description>
+  <!-- EN: set -->
+  <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</Crush.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</Crush.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: mangled scar -->
+  <Crush.comps.HediffComp_GetsPermanent.permanentLabel>ندبة ممزقة</Crush.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Crushed -->
+  <Crush.injuryProps.destroyedLabel>مَسْحُوق</Crush.injuryProps.destroyedLabel>
+  <!-- EN: a crush wound -->
+  <Crush.labelNoun>جرح سحق</Crush.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Crush.labelNounPretty>{0} في {1}</Crush.labelNounPretty>
+  
+  <!-- EN: cut -->
+  <Cut.label>قطع</Cut.label>
+  <!-- EN: A cut. -->
+  <Cut.description>جرح قطع.</Cut.description>
+  <!-- EN: set -->
+  <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</Cut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</Cut.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: cut scar -->
+  <Cut.comps.HediffComp_GetsPermanent.permanentLabel>ندبة قطع</Cut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Cut.injuryProps.destroyedLabel>مقطوع</Cut.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Cut.injuryProps.destroyedOutLabel>مُستأصَل</Cut.injuryProps.destroyedOutLabel>
+  <!-- EN: a cut -->
+  <Cut.labelNoun>جرح قطع</Cut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Cut.labelNounPretty>{0} في {1}</Cut.labelNounPretty>
+  
+  <!-- EN: decayed organ -->
+  <Decayed.label>عضو متآكل</Decayed.label>
+  <!-- EN: This organ has completely decayed. -->
+  <Decayed.description>هذا العضو تآكل بالكامل.</Decayed.description>
+  <!-- EN: a decayed organ -->
+  <Decayed.labelNoun>عضو متآكل</Decayed.labelNoun>
+  <!-- EN: decayed {1} -->
+  <Decayed.labelNounPretty>{1} متآكل</Decayed.labelNounPretty>
+  
+  <!-- EN: electrical burn -->
+  <ElectricalBurn.label>حرق كهربائي</ElectricalBurn.label>
+  <!-- EN: An electical burn. -->
+  <ElectricalBurn.description>حرق كهربائي.</ElectricalBurn.description>
+  <!-- EN: electrical burn scar -->
+  <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>ندبة حرق كهربائي</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <ElectricalBurn.injuryProps.destroyedLabel>محروق</ElectricalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <ElectricalBurn.injuryProps.destroyedOutLabel>مُزال بالحرق</ElectricalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: an electrical burn -->
+  <ElectricalBurn.labelNoun>حرق كهربائي</ElectricalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ElectricalBurn.labelNounPretty>{0} في {1}</ElectricalBurn.labelNounPretty>
+  
+  <!-- EN: cut -->
+  <ExecutionCut.label>قطع</ExecutionCut.label>
+  <!-- EN: A cut made during execution. -->
+  <ExecutionCut.description>جرح قطع أثناء الإعدام.</ExecutionCut.description>
+  <!-- EN: Cut off -->
+  <ExecutionCut.injuryProps.destroyedLabel>مقطوع</ExecutionCut.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <ExecutionCut.injuryProps.destroyedOutLabel>مُستأصَل</ExecutionCut.injuryProps.destroyedOutLabel>
+  <!-- EN: a cut -->
+  <ExecutionCut.labelNoun>جرح قطع</ExecutionCut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ExecutionCut.labelNounPretty>{0} في {1}</ExecutionCut.labelNounPretty>
+  
+  <!-- EN: frostbite -->
+  <Frostbite.label>قضمة صقيع</Frostbite.label>
+  <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
+  <Frostbite.description>نسيج متجمد يسببه التعرض للبرد بدون حماية كافية. قضمة الصقيع مؤلمة جداً، وغالباً ما تُفقد الأجزاء المصابة.</Frostbite.description>
+  <!-- EN: tended -->
+  <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>مُعالَج</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>مُعالَج</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: frostbite scar -->
+  <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>ندبة قضمة صقيع</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Lost to frostbite -->
+  <Frostbite.injuryProps.destroyedLabel>فُقِد بقضمة الصقيع</Frostbite.injuryProps.destroyedLabel>
+  <!-- EN: {0} in the {1} -->
+  <Frostbite.labelNounPretty>{0} في {1}</Frostbite.labelNounPretty>
+  
+  <!-- EN: gunshot -->
+  <Gunshot.label>طلق ناري</Gunshot.label>
+  <!-- EN: A gunshot wound. -->
+  <Gunshot.description>جرح طلق ناري.</Gunshot.description>
+  <!-- EN: set -->
+  <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</Gunshot.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent gunshot injury -->
+  <Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>إصابة طلق ناري دائمة</Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <!-- EN: old gunshot -->
+  <Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>طلق ناري قديم</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Shot off -->
+  <Gunshot.injuryProps.destroyedLabel>مُصاب بالرصاص</Gunshot.injuryProps.destroyedLabel>
+  <!-- EN: Shot out -->
+  <Gunshot.injuryProps.destroyedOutLabel>أُصيب بالرصاص</Gunshot.injuryProps.destroyedOutLabel>
+  <!-- EN: a gunshot wound -->
+  <Gunshot.labelNoun>جرح طلق ناري</Gunshot.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Gunshot.labelNounPretty>{0} في {1}</Gunshot.labelNounPretty>
+  
+  <!-- EN: wound -->
+  <Misc.label>جرح</Misc.label>
+  <!-- EN: Miscellaneous injuries. -->
+  <Misc.description>إصابات متنوعة.</Misc.description>
+  <!-- EN: set -->
+  <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</Misc.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</Misc.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: scar -->
+  <Misc.comps.HediffComp_GetsPermanent.permanentLabel>ندبة</Misc.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Destroyed -->
+  <Misc.injuryProps.destroyedLabel>مُدَمَّر</Misc.injuryProps.destroyedLabel>
+  <!-- EN: an injury -->
+  <Misc.labelNoun>إصابة</Misc.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Misc.labelNounPretty>{0} في {1}</Misc.labelNounPretty>
+  
+  <!-- EN: missing body part -->
+  <MissingBodyPart.label>جزء جسد مفقود</MissingBodyPart.label>
+  <!-- EN: A body part is entirely missing. -->
+  <MissingBodyPart.description>جزء من الجسد مفقود بالكامل.</MissingBodyPart.description>
+  <!-- EN: a missing body part -->
+  <MissingBodyPart.labelNoun>جزء جسد مفقود</MissingBodyPart.labelNoun>
+  <!-- EN: missing a {1} -->
+  <MissingBodyPart.labelNounPretty>يفتقد {1}</MissingBodyPart.labelNounPretty>
+  
+  <!-- EN: scratch -->
+  <Scratch.label>خدش</Scratch.label>
+  <!-- EN: A scratch or tear. -->
+  <Scratch.description>خدش أو تمزق.</Scratch.description>
+  <!-- EN: set -->
+  <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</Scratch.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: scratch scar -->
+  <Scratch.comps.HediffComp_GetsPermanent.permanentLabel>ندبة خدش</Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Torn off -->
+  <Scratch.injuryProps.destroyedLabel>ممزق</Scratch.injuryProps.destroyedLabel>
+  <!-- EN: Torn out -->
+  <Scratch.injuryProps.destroyedOutLabel>مُنتزع</Scratch.injuryProps.destroyedOutLabel>
+  <!-- EN: a scratch -->
+  <Scratch.labelNoun>خدش</Scratch.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Scratch.labelNounPretty>{0} في {1}</Scratch.labelNounPretty>
+  
+  <!-- EN: shredded -->
+  <Shredded.label>تمزيق</Shredded.label>
+  <!-- EN: A part of the body has been shredded and torn. -->
+  <Shredded.description>تمزق وتشقق جزء من الجسد.</Shredded.description>
+  <!-- EN: set -->
+  <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</Shredded.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: shredded scar -->
+  <Shredded.comps.HediffComp_GetsPermanent.permanentLabel>ندبة تمزيق</Shredded.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Torn off -->
+  <Shredded.injuryProps.destroyedLabel>ممزق</Shredded.injuryProps.destroyedLabel>
+  <!-- EN: Torn out -->
+  <Shredded.injuryProps.destroyedOutLabel>مُنتزع</Shredded.injuryProps.destroyedOutLabel>
+  <!-- EN: a shredded wound -->
+  <Shredded.labelNoun>جرح تمزيق</Shredded.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Shredded.labelNounPretty>{0} في {1}</Shredded.labelNounPretty>
+  
+  <!-- EN: stab -->
+  <Stab.label>طعنة</Stab.label>
+  <!-- EN: A stab wound. -->
+  <Stab.description>جرح طعنة.</Stab.description>
+  <!-- EN: set -->
+  <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</Stab.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</Stab.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: stab scar -->
+  <Stab.comps.HediffComp_GetsPermanent.permanentLabel>ندبة طعنة</Stab.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Stab.injuryProps.destroyedLabel>مقطوع</Stab.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Stab.injuryProps.destroyedOutLabel>مُستأصَل</Stab.injuryProps.destroyedOutLabel>
+  <!-- EN: a stab wound -->
+  <Stab.labelNoun>جرح طعنة</Stab.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Stab.labelNounPretty>{0} في {1}</Stab.labelNounPretty>
+  
+  <!-- EN: surgical cut -->
+  <SurgicalCut.label>قطع جراحي</SurgicalCut.label>
+  <!-- EN: A cut made during surgery. -->
+  <SurgicalCut.description>جرح قطع أثناء الجراحة.</SurgicalCut.description>
+  <!-- EN: set -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: surgical scar -->
+  <SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>ندبة جراحية</SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: a surgical cut -->
+  <SurgicalCut.labelNoun>قطع جراحي</SurgicalCut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <SurgicalCut.labelNounPretty>{0} في {1}</SurgicalCut.labelNounPretty>
+  
+</LanguageData>
