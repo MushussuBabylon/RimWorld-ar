@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] after completion, otherwise [asker_nameDef] will be unhappy.</li>
+  -->
+  <Decree_BuildMonument.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nيجب عليك بناء نصب تذكاري. حجمه [monumentSize] وسيتطلب هذه الموارد (القيمة الإجمالية [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nيجب أن تحافظ على سلامة النصب لمدة [keepMonumentTicks_duration] بعد الإكمال، وإلا سيكون [asker_nameDef] مستاءً.</li>
+ </Decree_BuildMonument.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->monument decree</li>
+  -->
+  <Decree_BuildMonument.questNameRules.rulesStrings>
+    <li>questName->مرسوم بناء النصب</li>
+ </Decree_BuildMonument.questNameRules.rulesStrings>
+  <!-- EN: New monument marker arrived -->
+  <Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>وصلت علامة نصب جديدة</Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>
+  <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
+  <Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>نظراً لأن علامة النصب قد دُمرت، تم إرسال واحدة جديدة.</Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>
+  <!-- EN: Monument completed -->
+  <Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>اكتمل النصب</Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>
+  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration], otherwise [asker_nameDef] will be displeased. -->
+  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>لقد أكملت بناء النصب.\n\nيجب أن تحافظ عليه آمناً لمدة [keepMonumentTicks_duration]، وإلا سيكون [asker_nameDef] غير راضٍ.</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
+  <!-- EN: Monument destroyed -->
+  <Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>نصب مدمر</Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
+  <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>يشعر [asker_nameDef] بالإهانة لأنك سمحت بتدمير النصب بعد إكماله بفترة وجيزة.\n\nسيكون [asker_pronoun] غير سعيد بهذا.</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>لا تدمر النصب لمدة {0}</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>لا تدمر النصب لمدة {0}</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
+  <!-- EN: Keep monument {0} -->
+  <Decree_BuildMonument.KeepMonument.slateRef>حافظ على النصب {0}</Decree_BuildMonument.KeepMonument.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nيجب عليك حصاد [plantToHarvest_label] x[harvestItemCount].\n\nقد تحتاج إلى زراعة وإنماء [plantToHarvest_label] أولاً.\n\n[decreeThreatInfo]</li>
+ </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[plantToHarvest_label] harvest decree</li>
+  -->
+  <Decree_HarvestCrop.questNameRules.rulesStrings>
+    <li>questName->مرسوم حصاد [plantToHarvest_label]</li>
+ </Decree_HarvestCrop.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must hunt or slaughter [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+  -->
+  <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nيجب عليك صيد أو ذبح [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+ </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[animalToHunt_label] hunting decree</li>
+  -->
+  <Decree_HuntAnimal.questNameRules.rulesStrings>
+    <li>questName->مرسوم صيد [animalToHunt_label]</li>
+ </Decree_HuntAnimal.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_ProduceItem.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nيجب عليك إنتاج:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+ </Decree_ProduceItem.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[defToProduce_label] production decree</li>
+  -->
+  <Decree_ProduceItem.questNameRules.rulesStrings>
+    <li>questName->مرسوم إنتاج [defToProduce_label]</li>
+ </Decree_ProduceItem.questNameRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: word of inspiration -->
+  <WordOfInspiration.label>كلمة إلهام</WordOfInspiration.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] used words and psychic suggestion to inspire [RECIPIENT_nameDef].</li>
+  -->
+  <WordOfInspiration.logRulesInitiator.rulesStrings>
+    <li>r_logentry->استخدم [INITIATOR_nameDef] الكلمات والإيحاء النفسي لإلهام [RECIPIENT_nameDef].</li>
+ </WordOfInspiration.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: word of joy -->
+  <WordOfJoy.label>كلمة فرح</WordOfJoy.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] psychically hypnotized [RECIPIENT_nameDef] into a warm, pleasant state of mind.</li>
+  -->
+  <WordOfJoy.logRulesInitiator.rulesStrings>
+    <li>r_logentry->نوّم [INITIATOR_nameDef] [RECIPIENT_nameDef] نفسياً إلى حالة ذهنية دافئة وممتعة.</li>
+ </WordOfJoy.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: word of love -->
+  <WordOfLove.label>كلمة حب</WordOfLove.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] psychically suggested that [RECIPIENT_nameDef] should feel a new romantic desire.</li>
+  -->
+  <WordOfLove.logRulesInitiator.rulesStrings>
+    <li>r_logentry->أوحى [INITIATOR_nameDef] نفسياً بأن يشعر [RECIPIENT_nameDef] برغبة عاطفية جديدة.</li>
+ </WordOfLove.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: word of serenity -->
+  <WordOfSerenity.label>كلمة سكينة</WordOfSerenity.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] psychically suggested that [RECIPIENT_nameDef] calm down, ending [RECIPIENT_possessive] mental break.</li>
+  -->
+  <WordOfSerenity.logRulesInitiator.rulesStrings>
+    <li>r_logentry->أوحى [INITIATOR_nameDef] نفسياً بأن يهدأ [RECIPIENT_nameDef]، منهياً انهياره النفسي.</li>
+ </WordOfSerenity.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: word of trust -->
+  <WordOfTrust.label>كلمة ثقة</WordOfTrust.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] psychically suggested that [RECIPIENT_nameDef] drop [RECIPIENT_possessive] guard.</li>
+  -->
+  <WordOfTrust.logRulesInitiator.rulesStrings>
+    <li>r_logentry->أوحى [INITIATOR_nameDef] نفسياً بأن يتخلى [RECIPIENT_nameDef] عن حذره.</li>
+ </WordOfTrust.logRulesInitiator.rulesStrings>
+  
+</LanguageData>
