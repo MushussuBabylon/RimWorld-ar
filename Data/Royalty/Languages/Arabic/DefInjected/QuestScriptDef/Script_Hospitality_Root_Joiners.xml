@@ -118,9 +118,9 @@
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\nأعداء [asker_nameDef] استفزوا بطريقة ما الميكيين لمطاردته. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، يريد البقاء في [map_definite] لمدة [shuttleDelayTicks_duration] مع [lodgersCountMinusOne] من حلفاء البلاط. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->[asker_nameDef] و[allyAllies] [asker_possessive] استهدفوا للقتل ويحتاجون مكاناً آمناً للبقاء حتى يتمكنوا من تطهير بلاطهم. مع ذلك، استأجر أعداء [asker_nameDef] [enemyFaction_name] لمطاردته.\n\n[enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->[asker_nameDef] و[allyAllies] [asker_possessive] استهدفوا للقتل ويحتاجون مكاناً آمناً للبقاء حتى يتمكنوا من تطهير بلاطهم. مع ذلك، أعداء [asker_nameDef] دفعوا [enemyFaction_name] لمطاردته.\n\n[enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->[asker_nameDef] و[allyAllies] [asker_possessive] استهدفوا للقتل ويحتاجون مكاناً آمناً للبقاء حتى يتمكنوا من تطهير بلاطهم. مع ذلك، أعداء [asker_nameDef] استفزوا بطريقة ما الميكيين لمطاردته.\n\n[enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->[asker_nameDef] و[allyAllies][asker_possessive] استهدفوا للقتل ويحتاجون مكاناً آمناً للبقاء حتى يتمكنوا من تطهير بلاطهم. مع ذلك، استأجر أعداء [asker_nameDef] [enemyFaction_name] لمطاردته.\n\n[enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->[asker_nameDef] و[allyAllies][asker_possessive] استهدفوا للقتل ويحتاجون مكاناً آمناً للبقاء حتى يتمكنوا من تطهير بلاطهم. مع ذلك، أعداء [asker_nameDef] دفعوا [enemyFaction_name] لمطاردته.\n\n[enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->[asker_nameDef] و[allyAllies][asker_possessive] استهدفوا للقتل ويحتاجون مكاناً آمناً للبقاء حتى يتمكنوا من تطهير بلاطهم. مع ذلك، أعداء [asker_nameDef] استفزوا بطريقة ما الميكيين لمطاردته.\n\n[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
     <li>allyAllies(lodgersCountMinusOne==1)->حليف</li>
     <li>allyAllies(lodgersCountMinusOne>=2)->حلفاء</li>
