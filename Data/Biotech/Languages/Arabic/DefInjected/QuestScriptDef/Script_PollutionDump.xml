@@ -35,7 +35,7 @@
   <PollutionDump.questNameRules.rulesStrings>
     <li>questName->[waste] [dump]</li>
     <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] [waste] [dump]</li>
-    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[asker_nameDef]'s [waste] [dump]</li>
+    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[dump] [waste] [asker_nameDef]</li>
     <li>waste->نفايات</li>
     <li>waste->تلوث</li>
     <li>waste->سموم</li>
