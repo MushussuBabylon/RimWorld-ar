@@ -331,7 +331,7 @@
     <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
   -->
   <IncreasedMenagerie.rulePack.rulesStrings>
-    <li>tale_noun(p=3)->[HUMAN_nameDef] يضم حيوانا آخر إلى [AnimalGroup] [HUMAN_possessive] المتزايد</li>
+    <li>tale_noun(p=3)->[HUMAN_nameDef] يضم حيوانا آخر إلى [AnimalGroup][HUMAN_possessive] المتزايد</li>
     <li>tale_noun->[HUMAN_nameDef] تتبعه [AnimalGroup]</li>
     <li>tale_noun->ترويض [HUMAN_nameDef] لـ[ANIMAL_nameDef]</li>
     <li>image->[HUMAN_nameFull] يروض [ANIMAL_nameFull] [circumstance_group]</li>
