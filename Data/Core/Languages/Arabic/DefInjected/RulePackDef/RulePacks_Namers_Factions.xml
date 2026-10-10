@@ -113,31 +113,31 @@
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
   <NamerFactionPirate.rulePack.rulesStrings>
-    <li>r_name->[AnimalBadass]s</li>
+    <li>r_name->قراصنة [AnimalBadass]</li>
     <li>r_name->رجال [AnimalBadass]</li>
-    <li>r_name->[AnimalBadass]s [ConceptBadass]</li>
-    <li>r_name->[PersonBadass]s [ConceptBadass]</li>
-    <li>r_name->[PersonBadass]s</li>
-    <li>r_name->[Enemy]s</li>
+    <li>r_name->[AnimalBadass] [ConceptBadass]</li>
+    <li>r_name->[PersonBadass] [ConceptBadass]</li>
+    <li>r_name->عصابة [PersonBadass]</li>
+    <li>r_name->جماعة [Enemy]</li>
     <li>r_name->رجال [Weapon]</li>
-    <li>r_name->[Weapon]s</li>
-    <li>r_name->[Weapon] [AnimalBadass]s</li>
-    <li>r_name->[Weapon] [Enemy]s</li>
-    <li>r_name->[ColorBadass] [Weapon]s</li>
-    <li>r_name->[ColorBadass] [AnimalBadass]s</li>
-    <li>r_name->[ColorBadass] [PersonBadass]s</li>
-    <li>r_name->[ColorBadass] [Enemy]s</li>
+    <li>r_name->عصابة [Weapon]</li>
+    <li>r_name->[AnimalBadass] [Weapon]</li>
+    <li>r_name->[Enemy] [Weapon]</li>
+    <li>r_name->[Weapon] الـ[ColorBadass]</li>
+    <li>r_name->الـ[AnimalBadass] الـ[ColorBadass]</li>
+    <li>r_name->الـ[PersonBadass] الـ[ColorBadass]</li>
+    <li>r_name->الـ[Enemy] الـ[ColorBadass]</li>
     <li>r_name->[PersonBadass] [groupname]</li>
-    <li>r_name->[Enemy] [Enemy]s</li>
+    <li>r_name->[Enemy] [Enemy]</li>
     <li>r_name->[AdjectiveBadass] [groupname]</li>
-    <li>r_name->[AdjectiveBadass] [AnimalBadass]s</li>
-    <li>r_name->[AdjectiveBadass] [Enemy]s</li>
-    <li>r_name->[AdjectiveBadass] [PersonBadass]s</li>
-    <li>r_name->[PersonAlly]s [ConceptBadass]</li>
+    <li>r_name->الـ[AnimalBadass] الـ[AdjectiveBadass]</li>
+    <li>r_name->الـ[Enemy] الـ[AdjectiveBadass]</li>
+    <li>r_name->الـ[PersonBadass] الـ[AdjectiveBadass]</li>
+    <li>r_name->[PersonAlly] [ConceptBadass]</li>
     <li>r_name(p=0.4)->آكلو [Gore]</li>
-    <li>r_name->[NamePerson] [Enemy]s</li>
-    <li>r_name->[NamePerson] [AnimalBadass]s</li>
-    <li>r_name->[NamePerson] [Weapon]s</li>
+    <li>r_name->[Enemy] [NamePerson]</li>
+    <li>r_name->[AnimalBadass] [NamePerson]</li>
+    <li>r_name->[Weapon] [NamePerson]</li>
     <li>r_name->[Weapon] [groupname]</li>
     <li>r_name->[ConceptBadass] [groupname]</li>
  </NamerFactionPirate.rulePack.rulesStrings>

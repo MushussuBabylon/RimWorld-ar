@@ -98,7 +98,7 @@
     <li>ship_word->zephyr</li>
   -->
   <NamerGravship.rulePack.rulesStrings>
-    <li>r_name(p=2)->The [narrative_name]</li>
+    <li>r_name(p=2)->الـ[narrative_name]</li>
     <li>r_name(p=1)->[narrative_name] [ship_word]</li>
     <li>r_name(p=0.5)->[ship_prefix] [Color] [ship_word]</li>
     <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass] [ship_word]</li>
@@ -128,9 +128,9 @@
     <li>thing_badass->رعب</li>
     <li>thing_badass->فوضى</li>
     <li>thing_badass->فوضى</li>
-    <li>storyname(p=50)->[subject]'s [story_result]</li>
-    <li>storyname(p=2)->[subject]'s [BodyPart]</li>
-    <li>storyname->[subject]'s [Gore]</li>
+    <li>storyname(p=50)->[story_result] [subject]</li>
+    <li>storyname(p=2)->[BodyPart] [subject]</li>
+    <li>storyname->[Gore] [subject]</li>
     <li>subject(p=5)->[NamePerson]</li>
     <li>subject->[Animal]</li>
     <li>subject->[WordTribal]</li>

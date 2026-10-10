@@ -206,12 +206,12 @@
   <!-- EN: Colonists disappearing -->
   <ObeliskAbductorLetterLabel>اختفاء مستعمرين</ObeliskAbductorLetterLabel>
   <!-- EN: The warped obelisk crackles with energy as it warps space around itself. All manner of creatures are beginning to disappear and will soon vanish entirely.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
-  <ObeliskAbductorLetter>تفرقع المسلة الملتوية بالطاقة وتشوه الفضاء حولها. بدأت مخلوقات شتى بالاختفاء وستتلاشى بالكامل.\n\nكن حذراً - طاقة غير مستقرة تسري في المسلة وقد تنفجر.</ObeliskAbductorLetter>
+  <ObeliskAbductorLetter>تفرقع المسلة المشوهة بالطاقة وتشوه الفضاء حولها. بدأت مخلوقات شتى بالاختفاء وستتلاشى بالكامل.\n\nكن حذراً - طاقة غير مستقرة تسري في المسلة وقد تنفجر.</ObeliskAbductorLetter>
   
   <!-- EN: {PAWN_nameDef} is disappearing -->
   <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} يختفي</ObeliskAbductedDisappearingLetterLabel>
   <!-- EN: {PAWN_nameDef} noticed activity in the warped obelisk. Some mysterious internal mechanism has come to life, causing {PAWN_nameDef} to begin to disappear. {PAWN_pronoun} will soon vanish entirely. -->
-  <ObeliskAbductedDisappearingLetter>لاحظ {PAWN_nameDef} نشاطاً في المسلة الملتوية. آلية داخلية غامضة عادت للحياة، وجعلت {PAWN_nameDef} يبدأ بالتلاشي. سيختفي بالكامل قريباً.</ObeliskAbductedDisappearingLetter>
+  <ObeliskAbductedDisappearingLetter>لاحظ {PAWN_nameDef} نشاطاً في المسلة المشوهة. آلية داخلية غامضة عادت للحياة، وجعلت {PAWN_nameDef} يبدأ بالتلاشي. سيختفي بالكامل قريباً.</ObeliskAbductedDisappearingLetter>
   
   <!-- EN: {PAWN_nameDef} reappeared -->
   <ObeliskAbductedLetterLabel>عاد {PAWN_nameDef} للظهور</ObeliskAbductedLetterLabel>
@@ -224,9 +224,9 @@
   <MutatorObeliskSpawned>انبثق وحش اللحم من الأرض.</MutatorObeliskSpawned>
 
   <!-- EN: Fully activate the warped obelisk. -->
-  <ObeliskActivateDesc>تفعيل المسلة الملتوية بالكامل.</ObeliskActivateDesc>
+  <ObeliskActivateDesc>تفعيل المسلة المشوهة بالكامل.</ObeliskActivateDesc>
   <!-- EN: Warning: The warped obelisk is unstable. Fully activating it will provoke a dangerous response and will cause the obelisk to self-destruct. -->
-  <ObeliskActivateDescWarning>تحذير: المسلة الملتوية غير مستقرة. تفعيلها بالكامل يثير استجابة خطيرة ويدمرها ذاتياً.</ObeliskActivateDescWarning>
+  <ObeliskActivateDescWarning>تحذير: المسلة المشوهة غير مستقرة. تفعيلها بالكامل يثير استجابة خطيرة ويدمرها ذاتياً.</ObeliskActivateDescWarning>
 
   <!-- EN: Requires {0} shards to disable -->
   <ObeliskDeactivateMissingShards>يلزم {0} شظايا للتعطيل</ObeliskDeactivateMissingShards>
@@ -777,13 +777,13 @@
   <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
   <DisruptTheLinkCredits>تزعزعت التدفقات النفسية وصرخت الآلات الملتوية. يومض الفراغ الدوامي. يشعر {PAWN_nameDef} به يرتجف وينهار على نفسه.\n\nيلتوي الكهف المعدني كحجرة قلب ضخم. يختفي {PAWN_pronoun} من الوجود قبل أن يصرخ.\n\nرفض {PAWN_nameDef} الفراغ.\n\nتستمر قصتـ{PAWN_possessive}...</DisruptTheLinkCredits>
   <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
-  <EmbraceTheVoidCredits>يخطو {PAWN_nameDef} داخل الفراغ ويغمره المحيط الأسود، طاغياً على كل حاسة ومغرقاً كل فكرة في عـ{PAWN_possessive}.\n\nأعيد تركيز عقدة الفراغ نحو شخص واحد. تصرخ هياكل الفراغ ثم تختفي.\n\nاحتضن {PAWN_nameDef} الفراغ.\n\nتستمر قصتـ{PAWN_possessive}...</EmbraceTheVoidCredits>
+  <EmbraceTheVoidCredits>يخطو {PAWN_nameDef} داخل الفراغ ويغمره المحيط الأسود، طاغياً على كل حاسة ومغرقاً كل فكرة في عـ{PAWN_possessive}.\n\nأعيد تركيز عقدة الفراغ نحو شخص واحد. تصرخ بنى الفراغ ثم تختفي.\n\nاحتضن {PAWN_nameDef} الفراغ.\n\nتستمر قصتـ{PAWN_possessive}...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
   <StructureActivatedMessage>أنهى {PAWN_nameDef} تفعيل {STRUCTURE_definite}</StructureActivatedMessage>
   <!-- EN: Structures activated -->
   <StructuresActivatedAlertLabel>هياكل مفعّلة</StructuresActivatedAlertLabel>
   <!-- EN: Activate void structures to complete the monolith awakening. -->
-  <StructuresActivatedAlertDescription>فعّل هياكل الفراغ لإتمام إيقاظ المسلة.</StructuresActivatedAlertDescription>
+  <StructuresActivatedAlertDescription>فعّل بنى الفراغ لإتمام إيقاظ المسلة.</StructuresActivatedAlertDescription>
   <!-- EN: {PAWN_nameDef}'s connection to the void monolith has been broken. It must be activated again. -->
   <GleamingMonolithInterrupted>انقطع اتصال {PAWN_nameDef} بمسلة الفراغ. يجب تفعيلها مجدداً.</GleamingMonolithInterrupted>
 

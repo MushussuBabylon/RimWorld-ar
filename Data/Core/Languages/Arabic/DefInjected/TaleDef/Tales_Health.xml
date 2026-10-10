@@ -320,7 +320,7 @@
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] بـ [WEAPON_label]</li>
     <li>image->[KILLER_nameFull] [cap_removal] قدرة [VICTIM_nameFull] على [CAPACITY_label] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] عبر [cap_removal] [VICTIM_possessive] [CAPACITY_label] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] عبر [cap_removal][CAPACITY_label][VICTIM_possessive] [with_weapon_optional]</li>
     <li>cap_removal->تدمير</li>
     <li>cap_removal->إقصاء</li>
     <li>cap_removal->إنهاء</li>

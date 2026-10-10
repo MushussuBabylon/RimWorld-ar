@@ -34,15 +34,15 @@
     <li>asker2(askerIsNull==true)->الأركوتيك</li>
     <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
     <li>asker2(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction]</li>
-    <li>buildReason->تخليداً لـ[PersonalCharacteristic] [PersonFamily] [asker_possessive]</li>
-    <li>buildReason->تخليداً لـ[PersonalCharacteristic] [asker_possessive] نفسه</li>
+    <li>buildReason->تخليداً لـ[PersonalCharacteristic] [PersonFamily][asker_possessive]</li>
+    <li>buildReason->تخليداً لـ[PersonalCharacteristic] نفسـ[asker_possessive]</li>
     <li>buildReason->لإهانة [PersonalCharacteristic] خصمـ[asker_possessive]</li>
     <li>buildReason->لتقليل مشاعر [ConceptAngsty] بين الناس</li>
     <li>buildReason->للتعبير عن مدى [AdjectiveBadass] [asker_pronoun]</li>
     <li>buildReason->تخليداً لـ[asker_faction_pawnsPlural] الذين سقطوا في المعركة</li>
-    <li>buildReason->لتكريم [PersonFamily] [asker_possessive]</li>
+    <li>buildReason->لتكريم [PersonFamily][asker_possessive]</li>
     <li>buildReason->لتكريم عمل [PersonJob]</li>
-    <li>buildReason->لنشر صور [glory] [asker_possessive] عبر الأرض</li>
+    <li>buildReason->لنشر صور [glory][asker_possessive] عبر الأرض</li>
     <li>glory->مجد</li>
     <li>glory->شرف عسكري</li>
     <li>glory->انتصارات</li>

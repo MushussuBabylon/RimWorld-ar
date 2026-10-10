@@ -8,7 +8,7 @@
     <li>terrain_word->ghost town</li>
   -->
   <NamerLandmark_AbandonedColonyOutlander.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->[NamePerson]'s curse</li>
+    <li>r_name(p=0.2)->لعنة [NamePerson]</li>
     <li>terrain_word(p=2)->بلدة</li>
     <li>terrain_word->موقع أمامي</li>
     <li>terrain_word->بلدة أشباح</li>
@@ -172,7 +172,7 @@
     <li>terrain_word->chemplant</li>
   -->
   <NamerLandmark_ChemfuelRefinery.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->[NamePerson]'s [terrain_word]</li>
+    <li>r_name(p=0.2)->[terrain_word] [NamePerson]</li>
     <li>terrain_word(p=2)->مصفاة</li>
     <li>terrain_word->مصنع</li>
     <li>terrain_word->مصنع كيميائي</li>
@@ -280,7 +280,7 @@
   -->
   <NamerLandmark_Garrison.rulePack.rulesStrings>
     <li>r_name(p=0.4)->حصن [narrative_name]</li>
-    <li>r_name(p=0.4)->[NamePerson]'s [terrain_word]</li>
+    <li>r_name(p=0.4)->[terrain_word] [NamePerson]</li>
     <li>terrain_word(p=2)->حامية</li>
     <li>terrain_word->مخزن أسلحة</li>
     <li>terrain_word->محطة</li>
@@ -375,7 +375,7 @@
     <li>terrain_word->launch pads</li>
   -->
   <NamerLandmark_LaunchSite.rulePack.rulesStrings>
-    <li>r_name(p=0.4)->[NamePerson]'s [terrain_word]</li>
+    <li>r_name(p=0.4)->[terrain_word] [NamePerson]</li>
     <li>terrain_word(p=2)->موقع إطلاق</li>
     <li>terrain_word->منصات إطلاق</li>
  </NamerLandmark_LaunchSite.rulePack.rulesStrings>
@@ -475,7 +475,7 @@
   -->
   <NamerLandmark_Ruins.rulePack.rulesStrings>
     <li>r_name(p=0.4)->[ruin_adjective] [narrative_name]</li>
-    <li>r_name(p=0.2)->[NamePerson]'s [story_result]</li>
+    <li>r_name(p=0.2)->[story_result] [NamePerson]</li>
     <li>ruin_adjective->مدمر</li>
     <li>ruin_adjective->متضعضع</li>
     <li>terrain_word(p=2)->أطلال</li>
@@ -507,8 +507,8 @@
     <li>dread->dark</li>
   -->
   <NamerLandmark_TerraformingScar.rulePack.rulesStrings>
-    <li>r_name(p=0.3)->[NamePerson]'s [terrain_word]</li>
-    <li>r_name(p=0.2)->[NamePerson]'s [mistake]</li>
+    <li>r_name(p=0.3)->[terrain_word] [NamePerson]</li>
+    <li>r_name(p=0.2)->[mistake] [NamePerson]</li>
     <li>r_name(p=0.2)->الـ[large] [terrain_word]</li>
     <li>r_name(p=0.1)->[dread] [terrain_word]</li>
     <li>r_name(p=0.05)->الـ[terrain_word]</li>
@@ -573,7 +573,7 @@
     <li>terrain_word->storehouse</li>
   -->
   <NamerLandmark_Warehouse.rulePack.rulesStrings>
-    <li>r_name->[NamePerson]'s [terrain_word]</li>
+    <li>r_name->[terrain_word] [NamePerson]</li>
     <li>terrain_word(p=2)->مستودع</li>
     <li>terrain_word->مستودع</li>
     <li>terrain_word->مخزن</li>
@@ -588,7 +588,7 @@
     <li>terrain_word->fen</li>
   -->
   <NamerLandmark_Wetland.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->[NamePerson]'s [terrain_word]</li>
+    <li>r_name(p=0.2)->[terrain_word] [NamePerson]</li>
     <li>terrain_word(p=2)->أراضي رطبة</li>
     <li>terrain_word->مستنقع</li>
     <li>terrain_word->وحل</li>

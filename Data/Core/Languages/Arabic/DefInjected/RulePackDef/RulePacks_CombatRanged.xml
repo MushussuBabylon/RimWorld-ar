@@ -47,7 +47,7 @@
     <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] [RECIPIENT_definite].</li>
     <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] [strikeAdv].</li>
     <li>r_logentry->[prefix] [strikeAdv] [destroyed_past] [destroyed_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] و[damaged_past] [damaged_targets] [RECIPIENT_possessive].</li>
+    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] و[damaged_past] [damaged_targets][RECIPIENT_possessive].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] [RECIPIENT_definite] [strikeAdv].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [strikeAdv] [damaged_past] [damaged_targets] [RECIPIENT_definite].</li>
@@ -143,8 +143,8 @@
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] و[damaged_past] [damaged_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، [damaged_present] [damaged_targets] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[damaged_targets] [RECIPIENT_definite] تم [damaged_past] بواسطة [projectile] [INITIATOR_definite].</li>
-    <li>r_logentry(p=3)->[projectile] [INITIATOR_definite] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] و[damaged_past] [damaged_targets] [RECIPIENT_possessive].</li>
-    <li>r_logentry(p=6)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، [destroyed_present] [destroyed_targets] [RECIPIENT_definite] و[damaged_present] [damaged_targets] [RECIPIENT_possessive].</li>
+    <li>r_logentry(p=3)->[projectile] [INITIATOR_definite] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] و[damaged_past] [damaged_targets][RECIPIENT_possessive].</li>
+    <li>r_logentry(p=6)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، [destroyed_present] [destroyed_targets] [RECIPIENT_definite] و[damaged_present] [damaged_targets][RECIPIENT_possessive].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] أصاب [RECIPIENT_definite] بـ[projectile].</li>
     <li>r_logentry(p=0.2)->[projectile] [INITIATOR_definite] أصاب [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] وأصاب [RECIPIENT_definite] بـ[projectile].</li>
@@ -271,14 +271,14 @@
     <li>verb_shot(p=0.2)->discharged</li>
   -->
   <Combat_RangedFire.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] ب[WEAPON_label] [INITIATOR_possessive].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot] [WEAPON_label] [INITIATOR_possessive] على [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] ب[WEAPON_label][INITIATOR_possessive].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot] [WEAPON_label][INITIATOR_possessive] على [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shot_a] [projectile] [burst] على [RECIPIENT_definite].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [projectile].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [WEAPON_label] [INITIATOR_possessive].</li>
-    <li>shot_a(p=2)->[verb_shot] a</li>
-    <li>shot_a->[skillAdv] [verb_shot] a</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [WEAPON_label][INITIATOR_possessive].</li>
+    <li>shot_a(p=2)->[verb_shot]</li>
+    <li>shot_a->[skillAdv] [verb_shot]</li>
     <li>shot(p=2)->[verb_shot]</li>
     <li>shot->[skillAdv] [verb_shot]</li>
     <li>shotat->أطلق [aburst] على</li>
@@ -326,12 +326,12 @@
     <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [threw] [projectile] [INITIATOR_possessive] على [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [threw] [projectile][INITIATOR_possessive] على [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [threw_a] [projectile] على [RECIPIENT_definite].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [projectile] [INITIATOR_possessive].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [projectile][INITIATOR_possessive].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw_a] [projectile].</li>
-    <li>threw_a->[adverb_threw] [verb_threw] a</li>
-    <li>threw_a(p=2)->[verb_threw] a</li>
+    <li>threw_a->[adverb_threw] [verb_threw]</li>
+    <li>threw_a(p=2)->[verb_threw]</li>
     <li>threw(p=2)->[verb_threw]</li>
     <li>threw->[adverb_threw] [verb_threw]</li>
     <li>verb_threw->رمى</li>

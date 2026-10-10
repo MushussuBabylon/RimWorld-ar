@@ -62,12 +62,12 @@
   -->
   <NamerUniqueWeapon.rulePack.rulesStrings>
     <li>r_weapon_name(p=2)->[weapon_adjective] [weapon_noun]</li>
-    <li>r_weapon_name(p=0.5)->The [weapon_type] of [badass_concept]</li>
-    <li>r_weapon_name(p=0.5)->The [weapon_adjective] [weapon_type]</li>
-    <li>r_weapon_name(p=0.5)->[badass_concept]'s [weapon_type]</li>
-    <li>r_weapon_name(p=0.3)->[ANYPAWN_nameIndef]'s [weapon_noun]</li>
-    <li>r_weapon_name(p=0.3)->[ANYPAWN_nameIndef]'s [weapon_adjective] [weapon_noun]</li>
-    <li>r_weapon_name(p=0.3)->The [badass_concept] of [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.5)->[weapon_type] [badass_concept]</li>
+    <li>r_weapon_name(p=0.5)->الـ[weapon_type] الـ[weapon_adjective]</li>
+    <li>r_weapon_name(p=0.5)->[weapon_type] [badass_concept]</li>
+    <li>r_weapon_name(p=0.3)->[weapon_noun] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[weapon_noun] [ANYPAWN_nameIndef] الـ[weapon_adjective]</li>
+    <li>r_weapon_name(p=0.3)->[badass_concept] [ANYPAWN_nameIndef]</li>
     <li>weapon_noun(p=2)->[weapon_type]</li>
     <li>weapon_noun->[badass_noun]</li>
     <li>weapon_noun->[badass_concept]</li>
