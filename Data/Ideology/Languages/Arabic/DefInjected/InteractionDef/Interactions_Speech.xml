@@ -42,9 +42,9 @@
     <li>speechtopic->تفانيـ[INITIATOR_possessive] لمعتقداتـ[INITIATOR_possessive]</li>
     <li>speechtopic->معتقداتـ[INITIATOR_possessive] حول المستقبل</li>
     <li>speechtopic->أمنيتـ[INITIATOR_possessive] في خدمة غرض أسمى</li>
-    <li>speechtopic->[PersonalCharacteristic] [INITIATOR_possessive] وكيف ترتبط بالدور</li>
-    <li>speechtopic->كيف أن [PersonalCharacteristic] [INITIATOR_possessive] تجعلـ[INITIATOR_objective] مناسباً للدور</li>
-    <li>speechtopic->كيف سيستخدم [INITIATOR_pronoun] [PersonalCharacteristic] [INITIATOR_possessive] للتغلب على العقبات</li>
+    <li>speechtopic->[PersonalCharacteristic][INITIATOR_possessive] وكيف ترتبط بالدور</li>
+    <li>speechtopic->كيف أن [PersonalCharacteristic][INITIATOR_possessive] تجعلـ[INITIATOR_objective] مناسباً للدور</li>
+    <li>speechtopic->كيف سيستخدم [INITIATOR_pronoun] [PersonalCharacteristic][INITIATOR_possessive] للتغلب على العقبات</li>
     <li>speechtopic->الشكر</li>
     <li>speechtopic->إظهار الامتنان</li>
     <li>speechtopic->غرض الحياة</li>
@@ -469,7 +469,7 @@
  </Speech_Scarification.logRulesInitiator.rulesStrings>
   
   <!-- EN: tree connection speech -->
-  <Speech_TreeConnection.label>خطاب الارتباط بالشجرة</Speech_TreeConnection.label>
+  <Speech_TreeConnection.label>خطاب رابطة الأشجار</Speech_TreeConnection.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->the trees and the people</li>

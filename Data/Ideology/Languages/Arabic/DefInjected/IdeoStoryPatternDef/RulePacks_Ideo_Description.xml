@@ -263,7 +263,7 @@
     <li>founderJoin->[place_job] مشهور يدعى [founderName] جمع [memberNamePlural]، بل وجند بعضاً من [foeSoldiers].</li>
     <li>founderJoin->[place_job] يدعى [founderName] وقف وتحدث ضد [foeLeader]، وبارك [deity0_name] [founderName].</li>
     <li>founderJoin->قرر [deity0_name] أن يأتي إلى [place_name] كبشر اسمه [founderName] ليساعد [memberNamePlural].</li>
-    <li>founderJoin->بطل واحد اسمه [founderName] قتل مئة من [foeSoldiers] مستخدماً [place_personalWeapon]، وأرشد[deity0_name] [founder_objective] بالتكلم عبر [relic0_name].</li>
+    <li>founderJoin->بطل واحد اسمه [founderName] قتل مئة من [foeSoldiers] مستخدماً [place_personalWeapon]، وأرشد[founder_objective] [deity0_name] بالتكلم عبر [relic0_name].</li>
     <li>victory->جمع [founderName] [memberNamePlural] في [place_community] وعلمهم حكمة [deity0_name].</li>
     <li>victory->ضحى [founderName] بـ[founder_objective]نفسـ[founder_objective] ليقتل [foeLeader] شخصياً.</li>
     <li>revelationAdverb->في رؤيا</li>
