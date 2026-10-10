@@ -18,8 +18,8 @@
     <li>hasHave(beggarCount>=2)->قد</li>
     <li>wasWere(beggarCount==1)->كان</li>
     <li>wasWere(beggarCount>=2)->كانوا</li>
-    <li>groupLabelSingleOrPlural(beggarCount==1)->traveler</li>
-    <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1)->مسافر</li>
+    <li>groupLabelSingleOrPlural(beggarCount>=2)->مسافرون</li>
  </Beggars.questContentRules.rulesStrings>
   <!-- EN:
     <li>groupLabelPlural->travelers</li>
@@ -59,10 +59,10 @@
     <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
   -->
   <Beggars.questDescriptionRules.rulesStrings>
-    <li>groupLabelPlural->travelers</li>
-    <li>groupLabelPlural(allChildren==true,priority=1)->children</li>
-    <li>groupLabelSingle->traveler</li>
-    <li>groupLabelSingle(childCount>=1,priority=1)->child</li>
+    <li>groupLabelPlural->مسافرون</li>
+    <li>groupLabelPlural(allChildren==true,priority=1)->أطفال</li>
+    <li>groupLabelSingle->مسافر</li>
+    <li>groupLabelSingle(childCount>=1,priority=1)->طفل</li>
     <li>travelerInfo(beggarCount==1)->هذا [groupLabelSingle] هو</li>
     <li>travelerInfo(beggarCount>=2)->هؤلاء [groupLabelPlural] هم</li>
     <li>beggingForInfo->مقابل x[requestedThingCount] [requestedThing_label]</li>
@@ -131,7 +131,7 @@
     <li>beggarSingle->متشرد</li>
     <li>beggarSingle->متجول</li>
     <li>beggarSingle->مسافر</li>
-    <li>beggarPlural->[beggarSingle]s</li>
+    <li>beggarPlural->[beggarSingle]</li>
     <li>seekingSingle->يلتمس</li>
     <li>seekingSingle->يطلب</li>
     <li>seekingSingle->يرغب في</li>
