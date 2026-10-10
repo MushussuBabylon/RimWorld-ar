@@ -3,7 +3,14 @@
   <name>Arabic Support</name>
   <author>Mushussu Babylon</author>
   <packageId>mushussubabylon.arabicsupport</packageId>
-  <description>This mod fixes Arabic text wrapping in RimWorld: wraps multi-line text based on actual pixel width instead of an estimated character count, so Arabic labels no longer overflow their boxes or wrap too early/late.
+  <description>This mod fixes Arabic text in RimWorld:
+
+  - Wraps multi-line Arabic text based on actual pixel width instead of an estimated character count, so labels no longer overflow their boxes or wrap too early/late.
+  - Places harakat (fatha, tanween, shadda...) on top of their letter.
+  - Lets you type Arabic in text boxes: pawn and animal names, search boxes, rename dialogs. Letters are joined and ordered correctly while you type, and search boxes find Arabic words.
+  - Custom font: Cairo (Regular, Medium, SemiBold, Bold, ExtraBold, Black). Cairo Bold is used by default. Size and vertical position can be tuned per font size in Options > Mod settings > Arabic Support. 77 more Arabic font styles from 42 families (Tajawal, Almarai, Noto, IBM Plex, Amiri, Changa, Lalezar, Rubik and many more) are in the ExtraFonts folder of the mod's GitHub page: copy a .fontbundle file into this mod's Fonts folder to use it.
+
+  All fonts are under the SIL Open Font License (see FontSources/Licenses).
 
   Requires the Arabic Translation to be active in Language settings.</description>
 
