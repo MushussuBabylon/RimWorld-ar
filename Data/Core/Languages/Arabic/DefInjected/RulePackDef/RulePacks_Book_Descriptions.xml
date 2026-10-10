@@ -210,7 +210,7 @@
   -->
   <Description_Novel.rulePack.rulesStrings>
     <li>desc->هذا [writingQualityAdjective] [bookType] [follows] [PersonJob] بينما [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
-    <li>desc->في [bookType] الـ[writingQualityAdjective] هذا، الـ[author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->في [bookType] الـ[writingQualityAdjective] هذا، الـ[author] [tellsAStoryOf][storySource][ANYPAWN_possessive]. [writingQualitySentence]. [maybe_date]</li>
     <li>follows->يتبع</li>
     <li>follows->يغطي</li>
     <li>follows->يروي قصة</li>
@@ -1072,7 +1072,7 @@
     <li>maybe_date(p=3)-></li>
     <li>maybe_date->[dates]</li>
     <li>subject_intro->الـ[schematic_synonym] [shows_synonym_verb] [diagram_type] [state_adjective] حول [subject]</li>
-    <li>subject_intro->في هذا [schematic_synonym]، الـ[author] [shows_synonym_verb] [ANYPAWN_possessive] [theory_synonym_adj] عن [subject]</li>
+    <li>subject_intro->في هذا [schematic_synonym]، الـ[author] [shows_synonym_verb][theory_synonym_adj][ANYPAWN_possessive] عن [subject]</li>
     <li>subject_intro->هذا الـ[schematic_synonym] الـ[physical_adjective] [contain_verb] [schematic_synonym]s تركز على [subject]</li>
     <li>subject_intro->استخدم الـ[author] [image_types] [notable_adjective] لإيصالـ[ANYPAWN_possessive] [theory_synonym_adj] عن [subject]</li>
     <li>subject_intro->[device_synonym]s المرتبطة بـ[subject_primary] [shows_synonym_verb1]ed في هذا الـ[schematic_synonym] الـ[maybe_physical_adjective]</li>
@@ -2071,7 +2071,7 @@
     <li>production->[note] منقوش يقول إن معظم نسخ هذا الـ[textbook] فُقدت خلال حادثة [worldname]</li>
     <li>production->يوضح الـ[precis_synonym] أن القراء ذوي المعرفة بتقنيات نشر معلومات الأركوتيك يميلون إلى تجنب سلسلة الـ[textbook] هذه - لكن دون ذكر السبب</li>
     <li>production->من الـ[note_location]، يتضح أن مبشري [subject] في [worldname] أنفقوا ثروة على طباعة نسخ من هذا الكتاب، ثم توزيعه على نطاق واسع</li>
-    <li>production->يشرح الـ[note_location] أن النسخ المبكرة من هذا الكتاب كانت مكتوبة بخط يد [ANYPAWN_label] [ANYPAWN_objective]self</li>
+    <li>production->يشرح الـ[note_location] أن النسخ المبكرة من هذا الكتاب كانت مكتوبة بخط يد [ANYPAWN_label] نفسـ[ANYPAWN_objective]</li>
     <li>production->دوقة [worldname] رعت هذا الـ[textbook]، بشرط أن يكون متاحا مجانا</li>
     <li>production->ملاحظة تقول إن اشتراكا من باعة الكتب في [coreworld] أنتج الطبعة الأولى من هذا الـ[textbook]</li>
     <li>production->في آخر الكتاب، يعلن الناشر عن سلسلة أكبر تعالج جميع الموضوعات اللازمة للبقاء على الحافة</li>

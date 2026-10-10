@@ -109,14 +109,14 @@
     <li>r_logentry(p=0.4)->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite] في [recipient_part0_label]، [flavortext_consequence].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite]، [skillDescMelee]، [damaged_past] [RECIPIENT_definite] في [recipient_part0_label].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite]، [skillDescMelee]، [strikeAdv] [damaged_past] [RECIPIENT_definite] في [recipient_part0_label].</li>
-    <li>r_logentry(p=0.4)->[destroyed_past] [INITIATOR_definite] [destroyed_targets] [RECIPIENT_possessive].</li>
-    <li>r_logentry(p=0.4)->[destroyed_past] [INITIATOR_definite] [destroyed_targets] [RECIPIENT_possessive] [destroyed_suffix].</li>
-    <li>r_logentry(p=0.4)->[destroyed_past] [INITIATOR_definite] [destroyed_targets] [RECIPIENT_possessive] بـ[implement].</li>
+    <li>r_logentry(p=0.4)->[destroyed_past] [INITIATOR_definite] [destroyed_targets][RECIPIENT_possessive].</li>
+    <li>r_logentry(p=0.4)->[destroyed_past] [INITIATOR_definite] [destroyed_targets][RECIPIENT_possessive] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.4)->[destroyed_past] [INITIATOR_definite] [destroyed_targets][RECIPIENT_possessive] بـ[implement].</li>
     <li>r_logentry(p=1,recipient_part_count==0)->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite] بـ[implement].</li>
     <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] بـ[implement].</li>
-    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [destroyed_targets] [RECIPIENT_possessive]</li>
-    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [damaged_targets] [RECIPIENT_possessive]</li>
-    <li>result(p=1)->[destroyed_present] [destroyed_targets] [RECIPIENT_possessive] و[damaged_present] [damaged_targets] [RECIPIENT_possessive]</li>
+    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [destroyed_targets][RECIPIENT_possessive]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [damaged_targets][RECIPIENT_possessive]</li>
+    <li>result(p=1)->[destroyed_present] [destroyed_targets][RECIPIENT_possessive] و[damaged_present] [damaged_targets][RECIPIENT_possessive]</li>
     <li>action(p=1.0)->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite] بـ[implement]</li>
     <li>action(p=0.3)->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite]، [skillDescMelee]، [damaged_past] [RECIPIENT_definite]</li>
