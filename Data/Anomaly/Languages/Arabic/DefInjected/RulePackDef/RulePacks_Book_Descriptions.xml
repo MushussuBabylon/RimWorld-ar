@@ -400,7 +400,7 @@
     <li>vision->امتدت شخصيات مظلمة إلى عقلـ[ANYPAWN_possessive] وأخذت ذكرياتـ[ANYPAWN_possessive]</li>
     <li>vision->[ANYPAWN_pronoun] يطارد من قبل نفسـ[ANYPAWN_objective]، ولم يستطع الهروب مهما ابتعد</li>
     <li>vision->[ANYPAWN_pronoun] يمزق إرباً بواسطة [entity]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] [ANYPAWN_possessive] [findings] [objective]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf][findings][ANYPAWN_possessive] [objective]</li>
     <li>findings->خبرة مع</li>
     <li>findings->بحث في</li>
     <li>objective->[maybeAdjectiveEvil]طقوس بدأتها حادثة حيث [ritual_incident]</li>

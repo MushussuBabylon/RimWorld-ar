@@ -8,8 +8,8 @@
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
   <CreepyWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] عن [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] عن [subjectInsane].</li>
  </CreepyWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: strange chat -->
@@ -47,36 +47,36 @@
     <li>talkingAbout->going into detail about</li>
   -->
   <DisturbingChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPIENT_nameDef] by [talkingAbout] [subjectDisturbing].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] to [RECIPIENT_nameDef] about [subjectDisturbing].</li>
-    <li>spoke->spoke</li>
-    <li>spoke->muttered</li>
-    <li>spoke->stammered</li>
-    <li>spoke->whined</li>
-    <li>spoke->grunted</li>
-    <li>spoke->mumbled</li>
+    <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPIENT_nameDef] [talkingAbout] [subjectDisturbing].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] مع [RECIPIENT_nameDef] عن [subjectDisturbing].</li>
+    <li>spoke->تحدث</li>
+    <li>spoke->تمتم</li>
+    <li>spoke->تلعثم</li>
+    <li>spoke->تذمر</li>
+    <li>spoke->زمجر</li>
+    <li>spoke->غمغم</li>
     <li>spoke(p=5)->[rambled]</li>
     <li>subjectDisturbing->[subjectDarkStudy]</li>
     <li>subjectDisturbing->[subjectInsane]</li>
-    <li>disturbed->disturbed</li>
-    <li>disturbed->horrified</li>
-    <li>disturbed->frightened</li>
-    <li>disturbed->upset</li>
-    <li>disturbed->perturbed</li>
-    <li>disturbed->unsettled</li>
-    <li>disturbed->disconcerted</li>
-    <li>disturbed->unnerved</li>
-    <li>disturbed->alarmed</li>
-    <li>disturbed->distressed</li>
-    <li>disturbed->dismayed</li>
+    <li>disturbed->أزعج</li>
+    <li>disturbed->أرعب</li>
+    <li>disturbed->أخاف</li>
+    <li>disturbed->ضايق</li>
+    <li>disturbed->أقلق</li>
+    <li>disturbed->زعزع</li>
+    <li>disturbed->أربك</li>
+    <li>disturbed->أفزع</li>
+    <li>disturbed->روّع</li>
+    <li>disturbed->كدّر</li>
+    <li>disturbed->صدم</li>
     <li>maybeDarkSpeechAdverb-></li>
     <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
-    <li>talkingAbout->describing</li>
-    <li>talkingAbout->explaining</li>
-    <li>talkingAbout->moaning [maybeDarkSpeechAdverb] about</li>
-    <li>talkingAbout->talking [maybeDarkSpeechAdverb] about</li>
-    <li>talkingAbout->ranting [maybeDarkSpeechAdverb] about</li>
-    <li>talkingAbout->going into detail about</li>
+    <li>talkingAbout->بوصف</li>
+    <li>talkingAbout->بشرح</li>
+    <li>talkingAbout->بالتأوه [maybeDarkSpeechAdverb] بشأن</li>
+    <li>talkingAbout->بالحديث [maybeDarkSpeechAdverb] عن</li>
+    <li>talkingAbout->بالهذيان [maybeDarkSpeechAdverb] بشأن</li>
+    <li>talkingAbout->بالخوض في تفاصيل</li>
  </DisturbingChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: inhuman rambling -->
@@ -86,8 +86,8 @@
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
   <InhumanRambling.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] عن [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] عن [subjectInsane].</li>
  </InhumanRambling.logRulesInitiator.rulesStrings>
   
   <!-- EN: interrogate identity -->
@@ -134,44 +134,44 @@
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   -->
   <InterrogateIdentity.logRulesInitiator.rulesStrings>
-    <li>askedAbout->interrogated [RECIPIENT_nameDef] about</li>
-    <li>askedAbout->asked [RECIPIENT_nameDef] about</li>
-    <li>askedAbout->pressed [RECIPIENT_nameDef] for details about</li>
-    <li>askedAbout->inquired [RECIPIENT_nameDef] about</li>
-    <li>askedAbout->grilled [RECIPIENT_nameDef] on</li>
-    <li>askedAbout->pushed [RECIPIENT_nameDef] for answers about</li>
-    <li>askedAbout->asked [RECIPIENT_nameDef] tricky questions about</li>
-    <li>askedAbout->tried to catch [RECIPIENT_nameDef] off-guard with questions about</li>
-    <li>askedAbout->screamed at [RECIPIENT_nameDef], demanding information about</li>
-    <li>askedAbout->bombarded [RECIPIENT_nameDef] with inquiries about</li>
-    <li>askedAbout->confronted [RECIPIENT_nameDef] regarding</li>
-    <li>askedAbout->pestered [RECIPIENT_nameDef] about</li>
-    <li>askedAbout->probed [RECIPIENT_nameDef] on the subject of</li>
-    <li>identityTopic->[RECIPIENT_possessive] previous work</li>
-    <li>identityTopic->[RECIPIENT_possessive] previous relationships with other factions</li>
-    <li>identityTopic->[RECIPIENT_possessive] birth</li>
-    <li>identityTopic->[RECIPIENT_possessive] upbringing</li>
-    <li>identityTopic->[RECIPIENT_possessive] parents</li>
-    <li>identityTopic->[RECIPIENT_possessive] old friends</li>
-    <li>identityTopic->[RECIPIENT_possessive] romantic history</li>
-    <li>identityTopic->[RECIPIENT_possessive] likes and dislikes</li>
-    <li>identityTopic->[RECIPIENT_possessive] emotional responses to disturbing situations</li>
-    <li>identityTopic->[RECIPIENT_possessive] food preferences</li>
-    <li>identityTopic->[RECIPIENT_possessive] deepest fears</li>
-    <li>identityTopic->[RECIPIENT_possessive] cherished memories</li>
-    <li>identityTopic->[RECIPIENT_possessive] personal regrets</li>
-    <li>identityTopic->[RECIPIENT_possessive] dreams and aspirations</li>
-    <li>identityTopic->[RECIPIENT_possessive] reasons for joining [RECIPIENT_possessive] current faction</li>
-    <li>identityTopic->[RECIPIENT_possessive] role in a past significant event</li>
-    <li>identityTopic->[RECIPIENT_possessive] hobbies and pastimes</li>
-    <li>identityTopic->[RECIPIENT_possessive] moral values and principles</li>
-    <li>identityTopic->[RECIPIENT_possessive] motivations</li>
-    <li>identityTopic->reasons behind [RECIPIENT_possessive] major decisions</li>
-    <li>identityTopic->past traumatic experiences</li>
-    <li>identityTopic->human thought processes</li>
-    <li>identityTopic->childhood experiences</li>
-    <li>identityTopic->school experiences</li>
-    <li>identityTopic->cultural experiences</li>
+    <li>askedAbout->استجوب [RECIPIENT_nameDef] بشأن</li>
+    <li>askedAbout->سأل [RECIPIENT_nameDef] عن</li>
+    <li>askedAbout->ضغط على [RECIPIENT_nameDef] لمعرفة تفاصيل عن</li>
+    <li>askedAbout->استفسر من [RECIPIENT_nameDef] عن</li>
+    <li>askedAbout->استنطق [RECIPIENT_nameDef] بشأن</li>
+    <li>askedAbout->طالب [RECIPIENT_nameDef] بإجابات عن</li>
+    <li>askedAbout->وجّه إلى [RECIPIENT_nameDef] أسئلة ملتوية عن</li>
+    <li>askedAbout->حاول مباغتة [RECIPIENT_nameDef] بأسئلة عن</li>
+    <li>askedAbout->صرخ في وجه [RECIPIENT_nameDef] مطالباً بمعلومات عن</li>
+    <li>askedAbout->أمطر [RECIPIENT_nameDef] باستفسارات عن</li>
+    <li>askedAbout->واجه [RECIPIENT_nameDef] بخصوص</li>
+    <li>askedAbout->ألحّ على [RECIPIENT_nameDef] بشأن</li>
+    <li>askedAbout->استقصى من [RECIPIENT_nameDef] حول موضوع</li>
+    <li>identityTopic->عملـ[RECIPIENT_possessive] السابق</li>
+    <li>identityTopic->علاقاتـ[RECIPIENT_possessive] السابقة مع فصائل أخرى</li>
+    <li>identityTopic->ولادتـ[RECIPIENT_possessive]</li>
+    <li>identityTopic->تنشئتـ[RECIPIENT_possessive]</li>
+    <li>identityTopic->والديـ[RECIPIENT_possessive]</li>
+    <li>identityTopic->أصدقاء قدامى لـ[RECIPIENT_objective]</li>
+    <li>identityTopic->ماضيـ[RECIPIENT_possessive] العاطفي</li>
+    <li>identityTopic->ما يحبـ[RECIPIENT_objective] وما يكرهـ[RECIPIENT_objective]</li>
+    <li>identityTopic->ردود فعلـ[RECIPIENT_possessive] العاطفية تجاه المواقف المزعجة</li>
+    <li>identityTopic->تفضيلاتـ[RECIPIENT_possessive] الغذائية</li>
+    <li>identityTopic->أعمق مخاوفـ[RECIPIENT_possessive]</li>
+    <li>identityTopic->ذكرياتـ[RECIPIENT_possessive] العزيزة</li>
+    <li>identityTopic->ندمـ[RECIPIENT_possessive] الشخصي</li>
+    <li>identityTopic->أحلامـ[RECIPIENT_possessive] وطموحاتـ[RECIPIENT_possessive]</li>
+    <li>identityTopic->أسبابـ[RECIPIENT_possessive] للانضمام إلى فصيلـ[RECIPIENT_possessive] الحالي</li>
+    <li>identityTopic->دور[RECIPIENT_possessive] في حدث مهم سابق</li>
+    <li>identityTopic->هواياتـ[RECIPIENT_possessive] وأنشطتـ[RECIPIENT_possessive] في أوقات الفراغ</li>
+    <li>identityTopic->قيمـ[RECIPIENT_possessive] الأخلاقية ومبادئـ[RECIPIENT_possessive]</li>
+    <li>identityTopic->دوافعـ[RECIPIENT_possessive]</li>
+    <li>identityTopic->الأسباب وراء قراراتـ[RECIPIENT_possessive] الكبرى</li>
+    <li>identityTopic->تجارب مؤلمة سابقة</li>
+    <li>identityTopic->عمليات التفكير البشري</li>
+    <li>identityTopic->تجارب الطفولة</li>
+    <li>identityTopic->تجارب المدرسة</li>
+    <li>identityTopic->تجارب ثقافية</li>
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
  </InterrogateIdentity.logRulesInitiator.rulesStrings>
   
@@ -185,11 +185,11 @@
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson on [subjectDarkStudy].</li>
   -->
   <OccultTeaching.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] explained [INITIATOR_possessive] theories about [subjectDarkStudy] to [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] shared [INITIATOR_possessive] ideas about [subjectDarkStudy] with [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] spoke about [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] went over the subject of [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] taught a lesson on [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] شرح نظرياتـ[INITIATOR_possessive] حول [subjectDarkStudy] إلى [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] شارك أفكار[INITIATOR_possessive] حول [subjectDarkStudy] مع [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] تحدث عن [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] استعرض موضوع [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ألقى درساً عن [subjectDarkStudy].</li>
  </OccultTeaching.logRulesInitiator.rulesStrings>
   
   <!-- EN: prisoner study -->
@@ -200,9 +200,9 @@
     <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
   -->
   <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] about [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] inquired about [subjectDarkStudy].</li>
-    <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] سأل [RECIPIENT_nameDef] عن [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] استفسر عن [subjectDarkStudy].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] تمتم بشأن [subjectInsane].</li>
  </PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
   
 </LanguageData>
