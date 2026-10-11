@@ -8,6 +8,12 @@
     <li>questDescription->[discoveryMethod] موقع منصة مدارية مهجورة. لا تكتشف أي علامات للحياة.\n\nيمكنك الاقتحام للحصول على الغنائم بداخلها، لكن المنصة غالباً ما تحتوي على أنظمة دفاعية.\n\nيمكنك السفر إلى المواقع المدارية باستخدام سفن الجاذبية أو المكوكات أو كبسولات النقل.</li>
  </OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
+    <li>place_end->WordParts/PlaceEndings</li>
+  -->
+  <OpportunitySite_AbandonedPlatform.questNameRules.rulesFiles>
+    <li>place_end->WordParts/PlaceEndings</li>
+  </OpportunitySite_AbandonedPlatform.questNameRules.rulesFiles>
+  <!-- EN:
     <li>questName(p=3)->[ancientPlatAdj] [platform]</li>
     <li>questName->[PlaceOutlander] [platform]</li>
     <li>questName->[platform] [greekLetter]</li>
@@ -232,6 +238,12 @@
     <li>questDescription->[discoveryMethod] إحداثيات قطعة ضخمة من الحطام في المدار. يمكن أن تحتوي على موارد قيمة. غالباً ما تكون حقول الحطام المدارية مشغولة بكائنات قمامة معادية.\n\nيمكنك السفر إلى المواقع المدارية باستخدام سفن الجاذبية أو المكوكات أو كبسولات النقل.</li>
  </OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
   <!-- EN:
+    <li>place_end->WordParts/PlaceEndings</li>
+  -->
+  <OpportunitySite_OrbitalWreck.questNameRules.rulesFiles>
+    <li>place_end->WordParts/PlaceEndings</li>
+  </OpportunitySite_OrbitalWreck.questNameRules.rulesFiles>
+  <!-- EN:
     <li>questName(p=2)->the ruins of [platAdj] [platform]</li>
     <li>questName->[platAdj] [wreckage]</li>
     <li>questName->[PlaceOutlander] [wreckage]</li>
@@ -354,6 +366,12 @@
   <OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
     <li>questDescription->[discoveryMethod] موقع قمر صناعي مداري. هذه الأقمار الصناعية غير مأهولة وغالباً ما تكون غير قادرة على دعم الحياة. تخدم الأقمار الصناعية مجموعة واسعة من الأغراض، من جمع الطاقة إلى منصات الأسلحة.\n\nيمكنك جمع التكنولوجيا القيمة من الأقمار الصناعية ولكن كن حذراً، الأقمار الصناعية محروسة بشدة بأنظمة أمنية قديمة.\n\nيمكنك السفر إلى المواقع المدارية باستخدام سفن الجاذبية أو المكوكات أو كبسولات النقل.</li>
  </OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>place_end->WordParts/PlaceEndings</li>
+  -->
+  <OpportunitySite_Satellite.questNameRules.rulesFiles>
+    <li>place_end->WordParts/PlaceEndings</li>
+  </OpportunitySite_Satellite.questNameRules.rulesFiles>
   <!-- EN:
     <li>questName->[PlaceOutlander] [platform]</li>
     <li>questName->[platAdj] [platform]</li>
