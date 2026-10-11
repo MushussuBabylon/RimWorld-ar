@@ -5,10 +5,18 @@
   <AcidBurn.label>حرق حمضي</AcidBurn.label>
   <!-- EN: An acid burn. -->
   <AcidBurn.description>حرق حمضي.</AcidBurn.description>
+  <!-- EN: tended -->
+  <AcidBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>مُعالَج</AcidBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <AcidBurn.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</AcidBurn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <AcidBurn.comps.HediffComp_TendDuration.labelTendedWellInner>مُعالَج</AcidBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: acid burn scar -->
   <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>ندبة حرق حمضي</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Dissolved off -->
   <AcidBurn.injuryProps.destroyedLabel>مذاب</AcidBurn.injuryProps.destroyedLabel>
+  <!-- EN: Dissolved -->
+  <AcidBurn.injuryProps.destroyedOutLabel>مُذاب</AcidBurn.injuryProps.destroyedOutLabel>
   <!-- EN: an acid burn -->
   <AcidBurn.labelNoun>حرق حمضي</AcidBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -18,6 +26,12 @@
   <BeamWound.label>حرق شعاعي</BeamWound.label>
   <!-- EN: A beam burn. -->
   <BeamWound.description>حرق شعاعي.</BeamWound.description>
+  <!-- EN: set -->
+  <BeamWound.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</BeamWound.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <BeamWound.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</BeamWound.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <BeamWound.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</BeamWound.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent beam injury -->
   <BeamWound.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>إصابة شعاعية دائمة</BeamWound.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
   <!-- EN: old beam wound -->
@@ -64,6 +78,7 @@
   <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>مُعالَج</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Destroyed -->
   <Bruise.injuryProps.destroyedLabel>مُدَمَّر</Bruise.injuryProps.destroyedLabel>
+  <Bruise.injuryProps.destroyedOutLabel>مُنتزع بالضرب</Bruise.injuryProps.destroyedOutLabel>
   <!-- EN: a bruise -->
   <Bruise.labelNoun>كدمة</Bruise.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -94,6 +109,12 @@
   <ChemicalBurn.label>حرق كيميائي</ChemicalBurn.label>
   <!-- EN: A chemical burn. -->
   <ChemicalBurn.description>حرق كيميائي.</ChemicalBurn.description>
+  <!-- EN: tended -->
+  <ChemicalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>مُعالَج</ChemicalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <ChemicalBurn.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</ChemicalBurn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <ChemicalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>مُعالَج</ChemicalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: chemical burn scar -->
   <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>ندبة حرق كيميائي</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off (chemical) -->
@@ -168,6 +189,8 @@
   <Decayed.label>عضو متآكل</Decayed.label>
   <!-- EN: This organ has completely decayed. -->
   <Decayed.description>هذا العضو تآكل بالكامل.</Decayed.description>
+  <!-- EN: Decayed -->
+  <Decayed.injuryProps.destroyedLabel>متحلل</Decayed.injuryProps.destroyedLabel>
   <!-- EN: a decayed organ -->
   <Decayed.labelNoun>عضو متآكل</Decayed.labelNoun>
   <!-- EN: decayed {1} -->
@@ -175,8 +198,14 @@
   
   <!-- EN: electrical burn -->
   <ElectricalBurn.label>حرق كهربائي</ElectricalBurn.label>
-  <!-- EN: An electical burn. -->
+  <!-- EN: An electrical burn. -->
   <ElectricalBurn.description>حرق كهربائي.</ElectricalBurn.description>
+  <!-- EN: tended -->
+  <ElectricalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>مُعالَج</ElectricalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>مُعالَج</ElectricalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: electrical burn scar -->
   <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>ندبة حرق كهربائي</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off -->
@@ -215,6 +244,7 @@
   <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>ندبة قضمة صقيع</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Lost to frostbite -->
   <Frostbite.injuryProps.destroyedLabel>فُقِد بقضمة الصقيع</Frostbite.injuryProps.destroyedLabel>
+  <Frostbite.labelNoun>قضمة صقيع</Frostbite.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Frostbite.labelNounPretty>{0} في {1}</Frostbite.labelNounPretty>
   
@@ -344,6 +374,8 @@
   <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: surgical scar -->
   <SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>ندبة جراحية</SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <SurgicalCut.injuryProps.destroyedLabel>مقطوع</SurgicalCut.injuryProps.destroyedLabel>
+  <SurgicalCut.injuryProps.destroyedOutLabel>مُستأصَل</SurgicalCut.injuryProps.destroyedOutLabel>
   <!-- EN: a surgical cut -->
   <SurgicalCut.labelNoun>قطع جراحي</SurgicalCut.labelNoun>
   <!-- EN: {0} in the {1} -->
