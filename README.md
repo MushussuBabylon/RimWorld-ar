@@ -1,8 +1,22 @@
 # RimWorld Arabic Translation | تعريب لعبة ريمورلد
 
+<p align="center">
+  <a href="https://www.nexusmods.com/rimworld/mods/757">
+    <img src="https://img.shields.io/badge/Nexus%20Mods-Download-yellow?style=flat-square" alt="Nexus Mods">
+  </a>
+  <img src="https://img.shields.io/badge/Language-Arabic-orange?style=flat-square" alt="Arabic">
+  <img src="https://img.shields.io/badge/Game-RimWorld-blue?style=flat-square" alt="RimWorld">
+  <img src="https://img.shields.io/badge/DLCs-All-green?style=flat-square" alt="All DLCs">
+  <img src="https://img.shields.io/github/downloads/MushussuBabylon/RimWorld-ar/total?style=flat-square&label=Total%20Downloads&color=brightgreen" alt="Total Downloads">
+</p>
+
+**🔗 ArabicSupport Mod:** [GitHub Repository](https://github.com/MushussuBabylon/ArabicSupport)  
+**📥 Repository Downloads:** [GitHub Releases](https://github.com/MushussuBabylon/RimWorld-ar/releases)
+
 تعريب متكامل للعبة **RimWorld** يشمل اللعبة الأساسية وجميع الإضافات (**DLCs**).
 
-> **ملاحظة:** إذا واجهت أي أخطاء أو ترجمة غير دقيقة، نرجو منك المساهمة في تحسينها عبر **"قواعد المشاركة"** الموضحة في الأسفل.
+> [!NOTE]
+> إذا واجهت أي أخطاء أو ترجمة غير دقيقة، نرجو منك المساهمة في تحسينها عبر **قواعد المشاركة** الموضحة في الأسفل.
 
 ---
 
@@ -31,6 +45,7 @@
 ## 🛠️ نسخ التعريب المتاحة (Releases)
 
 **بسبب القيود التقنية في محرك اللعبة فيما يخص اللغة العربية (RTL)، تم توفير ثلاث نسخ حسب الرغبة:**
+
 1. **نسخة Data-WordWrap** : التعريب يظهر بحروف متصلة و تستطيع أن تقرأ من الأعلى إلى الأسفل لكن الكلمات تتجمع في الجهة اليسرى.
 2. **نسخة Data-Normal** : التعريب يظهر بحروف متصلة مع طول نصوص طبيعي لكن يجب أن تقرأ النصوص من الأسفل إلى الأعلى.
 3. **نسخة Data-ArabicSupport** : التعريب يظهر بحروف متصلة و يأتي هذا التعريب مع مود (`ArabicSupport`) ليجعل النصوص تُقرأ من الأعلى إلى الأسفل مع طول نصوص طبيعي.
@@ -43,7 +58,8 @@
   2. قم بتحميل ملف الخط (`.fontbundle`) الذي تحتاجه.
   3. الصق ملف الخط الذي تم تحميله داخل مجلد الخطوط الرئيسي للمود: **[مجلد Fonts](https://github.com/MushussuBabylon/ArabicSupport/tree/main/Fonts)** (مع استبدال الملفات الموجودة أو الإضافة إليها).
 
-> **ملاحظة:** يمكنك تصفح قائمة الخطوط المتاحة كاملة داخل مجلد **[ExtraFonts](https://github.com/MushussuBabylon/ArabicSupport/tree/main/ExtraFonts)** حيث يوجد أكثر من 77 نمط خط جاهز للاستخدام.
+> [!TIP]
+> يمكنك تصفح قائمة الخطوط المتاحة كاملة داخل مجلد **[ExtraFonts](https://github.com/MushussuBabylon/ArabicSupport/tree/main/ExtraFonts)** حيث يوجد أكثر من 77 نمط خط جاهز للاستخدام.
 
 ---
 
@@ -53,7 +69,7 @@
 1. **حمّل النسخة المناسبة**
 2. **فك ضغط ملف الـ `ZIP` وألصقه داخل مجلد اللعبة الرئيسي (`RimWorld`)**
 3. **في حال كنت تستخدم نسخة Data-ArabicSupport، فقط قم بفك الضغط وسيتم لصق المجلدات في المكان الصحيح (الترجمة و المود)**
-   
+
 ### 1. نسخة Steam 🎮  
 المسار الافتراضي:  
 `C:\Program Files (x86)\Steam\steamapps\common\RimWorld`
