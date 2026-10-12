@@ -5,6 +5,8 @@
   <Digested.label>هضم</Digested.label>
   <!-- EN: This part has been digested. -->
   <Digested.description>تم هضم هذا الجزء.</Digested.description>
+  <!-- EN: Digested -->
+  <Digested.injuryProps.destroyedLabel>مهضوم</Digested.injuryProps.destroyedLabel>
   <!-- EN: a digested part -->
   <Digested.labelNoun>جزء مهضوم</Digested.labelNoun>
   <!-- EN: digested {1} -->
@@ -14,6 +16,12 @@
   <EnergyBolt.label>صاعقة طاقة</EnergyBolt.label>
   <!-- EN: A wound from an energy bolt. -->
   <EnergyBolt.description>جرح ناتج عن صاعقة طاقة.</EnergyBolt.description>
+  <!-- EN: set -->
+  <EnergyBolt.comps.HediffComp_TendDuration.labelSolidTendedWell>مُثبَّت</EnergyBolt.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <EnergyBolt.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</EnergyBolt.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <EnergyBolt.comps.HediffComp_TendDuration.labelTendedWellInner>مُخاط</EnergyBolt.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent energy bolt wound -->
   <EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>جرح صاعقة طاقة دائم</EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
   <!-- EN: old energy bolt wound -->
@@ -31,6 +39,12 @@
   <PsychicInjury.label>حرق نفسي</PsychicInjury.label>
   <!-- EN: A psychic burn. -->
   <PsychicInjury.description>حرق نفسي.</PsychicInjury.description>
+  <!-- EN: treated -->
+  <PsychicInjury.comps.HediffComp_TendDuration.labelSolidTendedWell>مُعالَج</PsychicInjury.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: treated -->
+  <PsychicInjury.comps.HediffComp_TendDuration.labelTendedWell>مُعالَج</PsychicInjury.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: treated -->
+  <PsychicInjury.comps.HediffComp_TendDuration.labelTendedWellInner>مُعالَج</PsychicInjury.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: psychic scarring -->
   <PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>ندبة نفسية</PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
@@ -44,6 +58,12 @@
   <PsychicInjurySkin.label>حرق نفسي</PsychicInjurySkin.label>
   <!-- EN: A psychic burn. -->
   <PsychicInjurySkin.description>حرق نفسي.</PsychicInjurySkin.description>
+  <!-- EN: treated -->
+  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelSolidTendedWell>مُعالَج</PsychicInjurySkin.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWell>مُضَمَّد</PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: dressed -->
+  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWellInner>مُضَمَّد</PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: psychic scarring -->
   <PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>ندبة نفسية</PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
@@ -57,6 +77,12 @@
   <PsychicInjurySolid.label>حرق نفسي</PsychicInjurySolid.label>
   <!-- EN: A psychic burn. -->
   <PsychicInjurySolid.description>حرق نفسي.</PsychicInjurySolid.description>
+  <!-- EN: treated -->
+  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelSolidTendedWell>مُعالَج</PsychicInjurySolid.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: treated -->
+  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWell>مُعالَج</PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: treated -->
+  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWellInner>مُعالَج</PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent psychic scarring -->
   <PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>ندبة نفسية دائمة</PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
