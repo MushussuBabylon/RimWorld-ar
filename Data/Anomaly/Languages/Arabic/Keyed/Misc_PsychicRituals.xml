@@ -8,7 +8,7 @@
   <!-- EN: Select a psychic ritual to perform -->
   <CastPsychicRitualDesc>اختر طقساً نفسياً لأدائه</CastPsychicRitualDesc>
   <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
-  <CannotCastPsychicRitual>لا يمكن لـ {0_labelShort} أداء الطقس النفسي {1} لأن {2}.</CannotCastPsychicRitual>
+  <CannotCastPsychicRitual>لا يمكن لـ{0_labelShort} أداء الطقس النفسي {1} لأن {2}.</CannotCastPsychicRitual>
   <!-- EN: The {0} psychic ritual has begun. -->
   <PsychicRitualBegun>بدأ الطقس النفسي {0}.</PsychicRitualBegun>
   <!-- EN: The {0} psychic ritual has been completed. -->
@@ -32,7 +32,7 @@
   <!-- EN: Caused by psychic ritual -->
   <CausedByPsychicRitual>بسبب طقس نفسي</CausedByPsychicRitual>
   <!-- EN: Cooldown -->
-  <PsychicRitualCooldownLabel>فترة تهدئة</PsychicRitualCooldownLabel>
+  <PsychicRitualCooldownLabel>فترة التهدئة</PsychicRitualCooldownLabel>
 
   <!-- EN: Psychic ritual area obstructed. -->
   <PsychicRitualSpotObstructed>منطقة الطقس النفسي مسدودة.</PsychicRitualSpotObstructed>
@@ -69,7 +69,7 @@
   <!-- EN: {0} is needed but only {1} is available -->
   <PsychicRitualOfferingsInsufficient>{0} مطلوب ولكن {1} فقط متاح</PsychicRitualOfferingsInsufficient>
   <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
-  <PsychicRitualTargetUnreachableByInvoker>لا يمكن لـ {INVOKER_labelShort} الوصول إلى {TARGET_labelShort}</PsychicRitualTargetUnreachableByInvoker>
+  <PsychicRitualTargetUnreachableByInvoker>لا يمكن لـ{INVOKER_labelShort} الوصول إلى {TARGET_labelShort}</PsychicRitualTargetUnreachableByInvoker>
 
   <!-- EN: leave the {0} psychic ritual -->
   <CommandLeavePsychicRitual>مغادرة الطقس النفسي {0}</CommandLeavePsychicRitual>
@@ -104,9 +104,9 @@
   <!-- EN: {PAWN_labelShort} is on fire -->
   <PsychicRitualLeaveReason_Burning>{PAWN_labelShort} مشتعل بالنار</PsychicRitualLeaveReason_Burning>
   <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
-  <PsychicRitualLeaveReason_ExtremeTemperature>درجة الحرارة بالقرب من الهدف غير آمنة لـ {PAWN_labelShort}</PsychicRitualLeaveReason_ExtremeTemperature>
+  <PsychicRitualLeaveReason_ExtremeTemperature>درجة الحرارة بالقرب من الهدف غير آمنة لـ{PAWN_labelShort}</PsychicRitualLeaveReason_ExtremeTemperature>
   <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
-  <PsychicRitualLeaveReason_InsideBuilding>لا يمكن لـ {PAWN_labelShort} المشاركة من داخل {BUILDING}</PsychicRitualLeaveReason_InsideBuilding>
+  <PsychicRitualLeaveReason_InsideBuilding>لا يمكن لـ{PAWN_labelShort} المشاركة من داخل {BUILDING}</PsychicRitualLeaveReason_InsideBuilding>
   <!-- EN: {PAWN_labelShort} is humanlike -->
   <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort} شبه بشري</PsychicRitualLeaveReason_Humanlike>
   <!-- EN: {PAWN_labelShort} is not humanlike -->
@@ -120,7 +120,7 @@
   <!-- EN: {PAWN_labelShort} is a {STAGE} -->
   <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} {STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
   <!-- EN: {PAWN_labelShort} cannot reach the target location -->
-  <PsychicRitualLeaveReason_CannotReachTarget>لا يمكن لـ {PAWN_labelShort} الوصول إلى الموقع المستهدف</PsychicRitualLeaveReason_CannotReachTarget>
+  <PsychicRitualLeaveReason_CannotReachTarget>لا يمكن لـ{PAWN_labelShort} الوصول إلى الموقع المستهدف</PsychicRitualLeaveReason_CannotReachTarget>
   <!-- EN: {PAWN_labelShort} is asleep -->
   <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort} نائم</PsychicRitualLeaveReason_Sleeping>
   <!-- EN: {PAWN_labelShort} is not a human -->
@@ -168,18 +168,18 @@
   <!-- EN: {TARGET_labelShort} was destroyed -->
   <PsychicRitualDef_TargetDestroyed>تم تدمير {TARGET_labelShort}</PsychicRitualDef_TargetDestroyed>
   <!-- EN: {INVOKER_labelShort} cannot continue the psychic ritual -->
-  <PsychicRitualDef_InvocationCircle_InvokerLost>لا يمكن لـ {INVOKER_labelShort} متابعة الطقس النفسي</PsychicRitualDef_InvocationCircle_InvokerLost>
+  <PsychicRitualDef_InvocationCircle_InvokerLost>لا يمكن لـ{INVOKER_labelShort} متابعة الطقس النفسي</PsychicRitualDef_InvocationCircle_InvokerLost>
 
   <!-- EN: the area around the target site must be clear of obstructions -->
   <PsychicRitualDef_InvocationCircle_AreaMustBeClear>يجب أن تكون المنطقة حول الموقع المستهدف خالية من العوائق</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
   <!-- EN: {PAWN_labelShort}'s psychic sensitivity -->
-  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>الحساسية النفسية لـ {PAWN_labelShort}</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>الحساسية النفسية لـ{PAWN_labelShort}</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
   <!-- EN: How in-tune {PAWN_labelShort} is with psychic phenomena. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>مدى انسجام {PAWN_labelShort} مع الظواهر النفسية.</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
   <!-- EN: These objects help focus the psychic power of the ritual. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>تساعد هذه الأشياء في تركيز القوة النفسية للطقس.</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
   <!-- EN: Ideoligion offset -->
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>إزاحة العقيدة</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>تعديل العقيدة</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
   <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>مدى تأثر الطقس النفسي بالمعتقدات العقائدية.</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
 

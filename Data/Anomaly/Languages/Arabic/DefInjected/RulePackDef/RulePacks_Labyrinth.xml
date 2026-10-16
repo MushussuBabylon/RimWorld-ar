@@ -82,8 +82,8 @@
     <li>maybeSignature(p=3)-></li>
     <li>maybeSignature->يوقع المؤلف اسمـ[PAWN_possessive]: [PAWN_nameDef].</li>
     <li>maybeSignature->ينتهي باسم: [PAWN_nameDef].</li>
-    <li>maybeSignature->اسم [PAWN_nameDef] مخربش في الأسفل.</li>
-    <li>textDescSentence->نقوش الأرضية هاذية وغير مترابطة.</li>
+    <li>maybeSignature->اسم [PAWN_nameDef] مخطوط بخربشة في أسفل النص.</li>
+    <li>textDescSentence->نقوش الأرضية هذيانية وغير مترابطة.</li>
     <li>textDescSentence->يصعب فهم الكلمات.</li>
     <li>textDescSentence->النقوش الغريبة مكتوبة بالمقلوب.</li>
     <li>textDescSentence->الكتابة متذبذبة وضعيفة.</li>
@@ -92,14 +92,14 @@
     <li>textDescSentence->رموز غامضة تختلط بحروف مسننة.</li>
     <li>textDescSentence->الكتابة مجزأة، كأنها قوطعت عدة مرات.</li>
     <li>textDescSentence->تتلاشى النقوش وتظهر من جديد مع تقدم النص.</li>
-    <li>textDescSentence->هذا النص مخربش بـ[writingMaterial]، مشكلاً أنماطاً مسعورة.</li>
+    <li>textDescSentence->هذا النص مكتوب بخط مضطرب بـ[writingMaterial]، ويشكل أنماطاً محمومة.</li>
     <li>horrorDescSentence->يمكن قراءة عبارة واحدة فقط بوضوح: [rambling].</li>
     <li>horrorDescSentence->تتكرر عبارة واحدة مراراً: [rambling].</li>
     <li>horrorDescSentence->تنتهي كل جملة بنفس العبارة: [rambling].</li>
     <li>horrorDescSentence->تجري الكلمات في دائرة، مرددة إلى ما لا نهاية نفس العبارة: [rambling].</li>
     <li>horrorDescSentence->يبدو المؤلف مقتنعاً بأن طفيلياً معدنياً يعيش تحت جلد[PAWN_possessive]. يصف [PAWN_pronoun] ألماً شديداً وهو يتحرك ويتلوى.</li>
     <li>horrorDescSentence->يتهم المؤلف صديقته بحقنه بطفيلي معدني. يصف [PAWN_pronoun] الشعور المريع بنموه داخلـ[PAWN_objective].</li>
-    <li>horrorDescSentence->يتوسل المؤلف الحرية من معذبه: [horrorDesc].</li>
+    <li>horrorDescSentence->يتوسل المؤلف الحرية من معذبـ[PAWN_possessive]: [horrorDesc].</li>
     <li>horrorDescSentence->نفس السطور تتكرر مراراً، واصفة [horrorDesc].</li>
     <li>horrorDescSentence->قصيدة غريبة تصف [horrorDesc].</li>
     <li>horrorDescSentence->تكافح الكلمات لوصف [horrorDesc].</li>
@@ -107,12 +107,12 @@
     <li>horrorDescSentence->رسوم ترافق النص، مصورة [horrorDesc].</li>
     <li>horrorDescSentence->رسوم مذعورة توضح [horrorDesc]، مع ملاحظات تشرح ملامحه.</li>
     <li>horrorDescSentence->نشيد تقشعر له الأبدان يصف [horrorDesc].</li>
-    <li>horrorDescSentence->رسوم عميقة تتخلل النص، كلها تلمح لـ[horrorDesc].</li>
+    <li>horrorDescSentence->رسوم أحشائية تتخلل النص، وكلها تلمح إلى [horrorDesc].</li>
     <li>horrorDescSentence->حكايات مهموسة في الهوامش تروي [horrorDesc].</li>
     <li>horrorDescSentence->نبرة الكاتب المذعورة تبلغ ذروتها مركزة على [horrorDesc].</li>
     <li>horrorDescSentence->تتشكل أنماط داخل النقوش، كل منها يبلغ ذروته بتصوير لـ[horrorDesc].</li>
     <li>horrorDescSentence->الكلمات متشابكة مع صور حية لـ[horrorDesc].</li>
-    <li>horrorDescSentence->تهليلة مؤرقة مكتوبة بجانب أوصاف لـ[horrorDesc].</li>
+    <li>horrorDescSentence->تهويدة مؤرقة مكتوبة بجانب أوصاف لـ[horrorDesc].</li>
     <li>horrorDescSentence->توسلات يائسة للرحمة مقابلة بحكايات عن [horrorDesc].</li>
     <li>horrorDesc->مخلوق غير مرئي يستهلك عقول غير المؤمنين</li>
     <li>horrorDesc->كرة مستحيلة سوداء كالفراغ تنبض بمعاناة خالصة</li>
@@ -121,7 +121,7 @@
     <li>horrorDesc->رجل مصنوع من سكاكين حادة مغموسة بالدم</li>
     <li>horrorDesc->كتلة من الشفرات الدوارة تخرج من هاوية</li>
     <li>horrorDesc->طفل صامت بفم يمتد عبر كامل وجهه</li>
-    <li>horrorDesc->برج عظيم ملتو مصنوع من مسامير وشفرات</li>
+    <li>horrorDesc->برج عظيم ملتوٍ مصنوع من مسامير وشفرات</li>
     <li>horrorDesc->مخلوق غريب شبيه بالحيوان بسمات من عدة أنواع مختلفة</li>
     <li>horrorDesc->شكل بشري مشوه أعيد ترتيب أجزاء جسده</li>
     <li>horrorDesc->حشد واسع من البشر، كلهم أموات ومتعفنون</li>

@@ -4,7 +4,7 @@
   <!-- EN: Knowledge gain from study -->
   <KnowledgeFromStudy>اكتساب المعرفة من الدراسة</KnowledgeFromStudy>
   <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
-  <KnowledgeFromStudyDesc>نوع ومقدار معرفة الشذوذ المُكتسبة من دراسة هذا الكيان. الكيانات الأكثر تعقيداً تتيح فتح مشاريع بحث شذوذ أكثر تقدماً.</KnowledgeFromStudyDesc>
+  <KnowledgeFromStudyDesc>نوع ومقدار معرفة الشذوذ التي يمكن الحصول عليها عند دراسة هذا الكيان. تتيح الكيانات الأكثر تعقيداً فتح مشاريع بحث شذوذ أكثر تقدماً.</KnowledgeFromStudyDesc>
   <!-- EN: {0} {1} -->
   <Stat_Knowledge>{0} {1}</Stat_Knowledge>
   <!-- EN: Study interval -->
@@ -28,7 +28,7 @@
   <!-- EN: Multiple ({0}) holding platforms -->
   <Stat_ContainmentStrength_OtherHoldingPlatforms>منصات احتجاز متعددة ({0})</Stat_ContainmentStrength_OtherHoldingPlatforms>
   <!-- EN: Map-wide offset -->
-  <Stat_ContainmentStrength_MapwideOffset>إزاحة على مستوى الخريطة</Stat_ContainmentStrength_MapwideOffset>
+  <Stat_ContainmentStrength_MapwideOffset>تعديل على مستوى الخريطة</Stat_ContainmentStrength_MapwideOffset>
   <!-- EN: door open -->
   <Stat_ContainmentStrength_DoorForcedOpen>باب مفتوح</Stat_ContainmentStrength_DoorForcedOpen>
   <!-- EN: Not fully roofed -->
@@ -41,7 +41,7 @@
   <!-- EN: Bioferrite generation -->
   <StatsReport_BioferriteGeneration>توليد البايوفيرايت</StatsReport_BioferriteGeneration>
   <!-- EN: How much bioferrite this entity generates per day when connected to a bioferrite harvester. -->
-  <StatsReport_BioferriteGeneration_Desc>مقدار البايوفيرايت الذي يولده هذا الكيان يومياً عند توصيله بحاصدة بايوفيرايت.</StatsReport_BioferriteGeneration_Desc>
+  <StatsReport_BioferriteGeneration_Desc>مقدار البايوفيرايت الذي يولده هذا الكيان يومياً عند توصيله بحاصدة البايوفيرايت.</StatsReport_BioferriteGeneration_Desc>
   <!-- EN: Multiplier for bioferrite density -->
   <StatsReport_BioferriteDensityMultiplier>مضاعف كثافة البايوفيرايت</StatsReport_BioferriteDensityMultiplier>
   <!-- EN: Multiplier for bioferrite extracted recently -->
@@ -58,14 +58,14 @@
   <StatsReport_RitualDuration_Desc>الوقت المستغرق لأداء هذا الطقس.</StatsReport_RitualDuration_Desc>
 
   <!-- EN: Cooldown -->
-  <StatsReport_RitualCooldown>فترة تهدئة</StatsReport_RitualCooldown>
+  <StatsReport_RitualCooldown>فترة التهدئة</StatsReport_RitualCooldown>
   <!-- EN: After a ritual is performed, it disrupts ambient psychic energy for a period of time. During this time, the ritual can't be performed again. -->
   <StatsReport_RitualCooldown_Desc>بعد إتمام الطقس، يضطرب المجال النفسي المحيط لفترة، ولا يمكن خلالها تكرار الطقس.</StatsReport_RitualCooldown_Desc>
 
   <!-- EN: Containment offset -->
-  <StatsReport_ContainmentStrengthOffset>إزاحة الاحتواء</StatsReport_ContainmentStrengthOffset>
+  <StatsReport_ContainmentStrengthOffset>تعديل الاحتواء</StatsReport_ContainmentStrengthOffset>
   <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
-  <StatsReport_ContainmentStrengthOffset_Desc>مدى تأثير هذا على قدرة منصة الاحتجاز في تقييد الكيان. الكيانات الأفضل احتواءً أقل عرضة للهرب وتوفر معرفة أكبر عند دراستها.</StatsReport_ContainmentStrengthOffset_Desc>
+  <StatsReport_ContainmentStrengthOffset_Desc>مدى تأثير هذا العنصر على قدرة منصة الاحتجاز على تقييد الكيان. الكيانات الأفضل احتواءً أقل عرضة للهرب وتوفر معرفة أكبر عند دراستها.</StatsReport_ContainmentStrengthOffset_Desc>
 
   <!-- EN: Duration -->
   <StatsReport_SerumDuration>المدة</StatsReport_SerumDuration>

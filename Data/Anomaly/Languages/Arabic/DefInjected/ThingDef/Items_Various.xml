@@ -2,19 +2,19 @@
 <LanguageData>
   
   <!-- EN: fleshmass neural lump -->
-  <FleshmassNeuralLump.label>كتلة عصبية لحمية</FleshmassNeuralLump.label>
+  <FleshmassNeuralLump.label>كتلة عصبية من الكتلة اللحمية</FleshmassNeuralLump.label>
   <!-- EN: A clump of fleshmass nervous tissue and fibres. You can analyze it to find a way to kill the fleshmass heart itself. -->
-  <FleshmassNeuralLump.description>كتلة من نسيج وألياف كتلة لحمية العصبية. يمكنك تحليلها لإيجاد طريقة لقتل قلب الكتلة اللحمية نفسه.</FleshmassNeuralLump.description>
+  <FleshmassNeuralLump.description>كتلة من النسيج العصبي والألياف العائدة للكتلة اللحمية. يمكنك تحليلها لإيجاد طريقة لقتل قلب الكتلة اللحمية نفسه.</FleshmassNeuralLump.description>
   <!-- EN: Analyze the fleshmass neural sample. Once enough neural samples are collected and analyzed, you should be able to figure out a way to kill the heart. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>حلل العينة العصبية لكتلة لحمية. بمجرد جمع وتحليل عدد كافٍ من العينات العصبية، ينبغي أن تتمكن من اكتشاف طريقة لقتل القلب.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>حلل عينة النسيج العصبي للكتلة اللحمية. وبمجرد جمع عدد كافٍ من العينات العصبية وتحليلها، ينبغي أن تتمكن من اكتشاف طريقة لقتل القلب.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>
   <!-- EN: Analyze... -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>تحليل...</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: While analyzing the fleshmass neural tissue, {PAWN_nameDef} made a breakthrough!\n\nThis biosignature responds strongly when stimulated by a specific electric pulse. If used on the fleshmass heart itself, an electric signal could cause a tachycardiac overload and kill the heart.\n\nYou can now destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>أثناء تحليل النسيج العصبي لكتلة لحمية، حقق {PAWN_nameDef} اختراقاً!\n\nتستجيب هذه البصمة الحيوية بقوة عند تحفيزها بنبضة كهربائية محددة. إذا استُخدمت على قلب الكتلة اللحمية نفسه، قد تسبب إشارة كهربائية حملاً تسارعياً زائداً وتقتل القلب.\n\nيمكنك الآن تدمير قلب الكتلة اللحمية {BIOSIGNATURE} بالتفاعل معه مباشرة.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>أثناء تحليل النسيج العصبي للكتلة اللحمية، حقق {PAWN_nameDef} اختراقاً!\n\nتستجيب هذه البصمة الحيوية بقوة عند تحفيزها بنبضة كهربائية محددة. وإذا استُخدمت على قلب الكتلة اللحمية نفسه، فقد تسبب الإشارة الكهربائية إجهاداً ناتجاً عن تسرع القلب فتقتله.\n\nيمكنك الآن تدمير قلب الكتلة اللحمية {BIOSIGNATURE} بالتفاعل معه مباشرة.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>
   <!-- EN: Analysis complete -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>اكتمل التحليل</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>اختر من ينبغي تحليل هذا</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>اختر من سيحلل هذا</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>يمكن تحليلها بواسطة مستعمر.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>
   <!-- EN: Analyze neural lump -->
@@ -22,34 +22,34 @@
   <!-- EN: Analysis progress -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>تقدم التحليل</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural lump. The sample carries the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} is convinced that {PAWN_pronoun} can find a way to kill the fleshmass heart, but {PAWN_pronoun} needs to study more neural samples first. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>انتهى {PAWN_nameDef} من تحليل الكتلة العصبية لكتلة لحمية. تحمل العينة البصمة الحيوية {BIOSIGNATURE}.\n\n{PAWN_nameDef} مقتنع بأن {PAWN_pronoun} يمكنه إيجاد طريقة لقتل قلب الكتلة اللحمية، لكن {PAWN_pronoun} يحتاج لدراسة المزيد من العينات العصبية أولاً.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>انتهى {PAWN_nameDef} من تحليل الكتلة العصبية للكتلة اللحمية. تحمل العينة البصمة الحيوية {BIOSIGNATURE}.\n\nويقتنع {PAWN_nameDef} بإمكانية أن يجد {PAWN_pronoun} طريقة لقتل قلب الكتلة اللحمية، لكن {PAWN_pronoun} يحتاج أولاً إلى دراسة المزيد من العينات العصبية.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural tissue. This tissue belongs to the previously studied biosignature {BIOSIGNATURE}, so you didn't gain any new knowledge.\n\nYou can destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly and inducing a tachycardiac overload. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>انتهى {PAWN_nameDef} من تحليل النسيج العصبي لكتلة لحمية. ينتمي هذا النسيج للبصمة الحيوية المدروسة سابقاً {BIOSIGNATURE}، لذا لم تكتسب أي معرفة جديدة.\n\nيمكنك تدمير قلب الكتلة اللحمية {BIOSIGNATURE} بالتفاعل معه مباشرة وإحداث حمل تسارعي زائد.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>انتهى {PAWN_nameDef} من تحليل النسيج العصبي للكتلة اللحمية. ينتمي هذا النسيج إلى البصمة الحيوية {BIOSIGNATURE} التي سبقت دراستها، لذا لم تكتسب أي معرفة جديدة.\n\nيمكنك تدمير قلب الكتلة اللحمية {BIOSIGNATURE} بالتفاعل معه مباشرة وإحداث إجهاد ناتج عن تسرع القلب.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>اكتمل التحليل</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
   
   <!-- EN: golden cube -->
   <GoldenCube.label>مكعب ذهبي</GoldenCube.label>
   <!-- EN: A cube that fits snugly in the hand. Golden in color, it is always invitingly warm to the touch, like a trusted pet or a hug from a good friend. Those that look closely are rewarded for their attention by the delightful way light plays across its welcoming surface.\n\nThe cube seems impervious to most damage. -->
-  <GoldenCube.description>مكعب يستقر براحة في اليد. لونه ذهبي، وهو دائماً دافئ بشكل جذاب عند اللمس، كحيوان أليف موثوق أو عناق من صديق مقرب. أولئك الذين ينظرون عن كثب يُكافأون على انتباههم بالطريقة المبهجة التي يتلاعب بها الضوء عبر سطحه المرحب.\n\nيبدو المكعب محصناً ضد معظم أنواع الضرر.</GoldenCube.description>
+  <GoldenCube.description>مكعب يستقر براحة في اليد. لونه ذهبي، وهو دائماً دافئ بشكل جذاب عند اللمس، كحيوان أليف موثوق أو عناق من صديق مقرب. ومن ينظر إليه عن كثب يُكافأ على انتباهه بالطريقة المبهجة التي يتلاعب بها الضوء على سطحه المرحِّب.\n\nيبدو المكعب منيعاً ضد معظم أنواع الضرر.</GoldenCube.description>
   <!-- EN: Golden cube study progress -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>تقدم دراسة المكعب الذهبي</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>
   <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed more. It is able to psychically influence anyone who interacts with it. Those under the cube's influence will experience extreme withdrawal if they're separated from it.\n\n{PAWN_nameDef} thinks that there may be a way to deactivate the cube, but {PAWN_pronoun} will need to study it further. -->
-  <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>كشف فحص {PAWN_nameDef} للمكعب الذهبي المزيد. إنه قادر على التأثير نفسياً على أي شخص يتفاعل معه. من هم تحت تأثير المكعب سيعانون من انسحاب شديد إذا انفصلوا عنه.\n\nيعتقد {PAWN_nameDef} أنه قد يكون هناك طريقة لتعطيل المكعب، لكن {PAWN_pronoun} سيحتاج لدراسته أكثر.</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>كشف فحص {PAWN_nameDef} للمكعب الذهبي المزيد. فهو قادر على التأثير نفسياً في أي شخص يتفاعل معه. ومن هم تحت تأثير المكعب سيعانون من انسحاب شديد إذا انفصلوا عنه.\n\nيعتقد {PAWN_nameDef} أنه قد تكون هناك طريقة لتعطيل المكعب، لكن {PAWN_pronoun} سيحتاج إلى مواصلة دراسته.</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>
   <!-- EN: Golden cube study complete -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>اكتملت دراسة المكعب الذهبي</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>
   <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube's destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
-  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>كشف فحص {PAWN_nameDef} للمكعب الذهبي أنه يمكن تعطيله باستخدام شظية آركوتيك. سيؤدي القيام بذلك إلى تدمير المكعب، كاسراً قبضته النفسية على مستعمريك.\n\nومع ذلك، فإن الصدمة النفسية الارتدادية من تدمير المكعب ستدفع أي شخص مهتم بالمكعب إلى هياج هستيري. أولئك في القوافل سيهجرون مستعمرتك بالكامل.\n\nاختر المكعب الذهبي لتعطيله.</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>كشف فحص {PAWN_nameDef} للمكعب الذهبي أنه يمكن تعطيله باستخدام شظية آركوتيك. وسيؤدي ذلك إلى تدمير المكعب وكسر قبضته النفسية على مستعمريك.\n\nلكن الارتداد النفسي الناتج عن تدمير المكعب سيدفع كل من يهتم بالمكعب إلى هياج عنيف. أما الموجودون في القوافل فسيتخلون عن مستعمرتك تماماً.\n\nاختر المكعب الذهبي لتعطيله.</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
   <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they're in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
-  <GoldenCube.comps.CompGoldenCube.activateDescString>دمر المكعب الذهبي، كاسراً قبضته النفسية. سيدفع هذا أي شخص مهتم بالمكعب إلى هياج هستيري مؤقت. إذا كانوا في قافلة، سيضيعون بشكل دائم.\n\nيتطلب شظية واحدة.</GoldenCube.comps.CompGoldenCube.activateDescString>
+  <GoldenCube.comps.CompGoldenCube.activateDescString>دمّر المكعب الذهبي لكسر قبضته النفسية. سيدفع هذا كل من يهتم بالمكعب إلى هياج مؤقت. وإذا كانوا في قافلة، فسيُفقدون بشكل دائم.\n\nيتطلب شظية واحدة.</GoldenCube.comps.CompGoldenCube.activateDescString>
   <!-- EN: Deactivate golden cube -->
   <GoldenCube.comps.CompGoldenCube.activateLabelString>تعطيل المكعب الذهبي</GoldenCube.comps.CompGoldenCube.activateLabelString>
   <!-- EN: deactivating {0}: {1}s -->
-  <GoldenCube.comps.CompGoldenCube.activatingString>تعطيل {0}: {1}ثانية</GoldenCube.comps.CompGoldenCube.activatingString>
+  <GoldenCube.comps.CompGoldenCube.activatingString>تعطيل {0}: {1} ثانية</GoldenCube.comps.CompGoldenCube.activatingString>
   <!-- EN: deactivating {0} -->
   <GoldenCube.comps.CompGoldenCube.activatingStringPending>تعطيل {0}</GoldenCube.comps.CompGoldenCube.activatingStringPending>
   <!-- EN: Choose who should deactivate this. -->
-  <GoldenCube.comps.CompGoldenCube.guiLabelString>اختر من ينبغي تعطيل هذا.</GoldenCube.comps.CompGoldenCube.guiLabelString>
+  <GoldenCube.comps.CompGoldenCube.guiLabelString>اختر من سيعطل هذا.</GoldenCube.comps.CompGoldenCube.guiLabelString>
   <!-- EN: deactivate -->
   <GoldenCube.comps.CompGoldenCube.jobString>تعطيل</GoldenCube.comps.CompGoldenCube.jobString>
   <!-- EN: People relieved from the cube's psychic influence: -->
@@ -57,7 +57,7 @@
   <!-- EN: {PAWN_nameDef} deactivates the golden cube. As the force that animated it disappears, the cube crumbles, leaving a handful of golden dust. -->
   <GoldenCube.comps.CompGoldenCube.letterDeactivatedDesc>{PAWN_nameDef} يعطل المكعب الذهبي. مع اختفاء القوة التي كانت تحركه، ينهار المكعب تاركاً حفنة من الغبار الذهبي.</GoldenCube.comps.CompGoldenCube.letterDeactivatedDesc>
   <!-- EN: Golden cube deactivated -->
-  <GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>تم تعطيل المكعب الذهبي</GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>
+  <GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>عُطّل المكعب الذهبي</GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>
   
   <!-- EN: gray flesh sample -->
   <GrayFleshSample.label>عينة لحم رمادي</GrayFleshSample.label>
@@ -72,7 +72,7 @@
   <!-- EN: Analysis complete -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>اكتمل التحليل</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>اختر من ينبغي تحليل هذا</GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>اختر من سيحلل هذا</GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>يمكن تحليلها بواسطة مستعمر.</GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>
   <!-- EN: Analyze gray flesh sample -->
@@ -89,10 +89,10 @@
   <!-- EN: twisted meat -->
   <Meat_Twisted.label>لحم ملتوٍ</Meat_Twisted.label>
   <!-- EN: Pieces of twisted muscle and gristle, bloated with tumorous growths. These bizarre shreds of flesh must have come from a horrific creature. -->
-  <Meat_Twisted.description>قطع من عضلات وغضاريف ملتوية، منتفخة بنمو ورمي. لا بد أن هذه التمزقات اللحمية الغريبة أتت من مخلوق مرعب.</Meat_Twisted.description>
+  <Meat_Twisted.description>قطع من عضلات وغضاريف ملتوية، منتفخة بنموات ورمية. لا بد أن شرائح اللحم الغريبة هذه جاءت من مخلوق مرعب.</Meat_Twisted.description>
   
   <!-- EN: monolith fragment -->
-  <MonolithFragment.label>شظية مسلة</MonolithFragment.label>
+  <MonolithFragment.label>قطعة مسلة</MonolithFragment.label>
   <!-- EN: A broken-off fragment of the void monolith. It can be studied to learn more about void phenomena. -->
   <MonolithFragment.description>قطعة مكسورة من مسلة الفراغ. يمكن دراستها لمعرفة المزيد عن ظواهر الفراغ.</MonolithFragment.description>
   
@@ -101,7 +101,7 @@
   <!-- EN: A strip of leathery, desiccated flesh that sloughed off a revenant when it was harmed. The tissue oozes a dark, oily liquid. -->
   <RevenantFleshChunk.description>شريط من لحم جلدي جاف انسلخ عن عائد من الموت عندما أصيب. يرشح النسيج سائلاً زيتياً داكناً.</RevenantFleshChunk.description>
   <!-- EN: Analyze the revenant flesh chunk. Analyzing this tissue sample will give you tools to track and reveal the revenant. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>حلل كتلة لحم العائد من الموت. سيعطيك تحليل عينة النسيج هذه أدوات لتتبع وكشف العائد من الموت.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>حلل كتلة لحم العائد من الموت. سيمنحك تحليل عينة النسيج هذه أدوات لتتبع العائد من الموت وكشفه.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
   <!-- EN: Analyze... -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>تحليل...</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and its method of hiding from sight. Your colonists can now see this revenant when it is nearby.\n\nPerhaps you'll be able to find it and kill it while it sleeps. -->
@@ -109,7 +109,7 @@
   <!-- EN: Analysis progress -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>تقدم التحليل</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>اختر من ينبغي تحليل هذا</RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>اختر من سيحلل هذا</RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>يمكن تحليلها بواسطة مستعمر.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>
   <!-- EN: Analyze revenant flesh chunk -->
@@ -117,18 +117,18 @@
   <!-- EN: Analysis progress -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>تقدم التحليل</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} learned more about this particular revenant's biology and how to identify fluids it leaves behind.\n\nThis revenant will now leave a much longer trail of visible smudges when it flees.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>انتهى {PAWN_nameDef} من تحليل كتلة لحم العائد من الموت ذات البصمة الحيوية {BIOSIGNATURE}.\n\nتعلم {PAWN_pronoun} المزيد عن بيولوجية هذا العائد من الموت بالتحديد وكيفية التعرف على السوائل التي يخلفها وراءه.\n\nسيترك هذا العائد من الموت الآن أثراً أطول بكثير من اللطخات المرئية عندما يفر.\n\nربما ستتمكن من إيجاده وقتله أثناء نومه. يمكنك تتبعه باللطخات التي يتركها، وكشفه بمشاعل معطلة، أو متفجرات، أو نبضات كهرومغناطيسية، أو رغوة إطفاء، أو نار.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>انتهى {PAWN_nameDef} من تحليل كتلة لحم العائد من الموت ذات البصمة الحيوية {BIOSIGNATURE}.\n\nتعلم {PAWN_pronoun} المزيد عن بيولوجية هذا العائد من الموت بالتحديد وكيفية التعرف على السوائل التي يخلفها وراءه.\n\nسيترك هذا العائد من الموت الآن أثراً أطول بكثير من اللطخات المرئية عندما يفر.\n\nربما ستتمكن من إيجاده وقتله أثناء نومه. يمكنك تتبعه باللطخات التي يتركها، وكشفه بمشاعل التشويش، أو متفجرات، أو نبضات كهرومغناطيسية، أو رغوة إطفاء، أو نار.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>انتهى {PAWN_nameDef} من تحليل كتلة لحم العائد من الموت ذات البصمة الحيوية {BIOSIGNATURE}.\n\nتعلم {PAWN_pronoun} المزيد عن بيولوجية هذا العائد من الموت بالتحديد والأصوات التي يصدرها. يمكن لمستعمريك الآن سماع هذا العائد من الموت عندما يكون قريباً. إذا خرجت لصيد العائد من الموت واقتربت، سيتم إعلامك بأي المستعمرين يمكنهم سماعه.\n\nربما ستتمكن من إيجاده وقتله أثناء نومه. يمكنك تتبعه باللطخات التي يتركها، وكشفه بمشاعل معطلة، أو متفجرات، أو نبضات كهرومغناطيسية، أو رغوة إطفاء، أو نار.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>انتهى {PAWN_nameDef} من تحليل كتلة لحم العائد من الموت ذات البصمة الحيوية {BIOSIGNATURE}.\n\nتعلم {PAWN_pronoun} المزيد عن بيولوجية هذا العائد من الموت بالتحديد والأصوات التي يصدرها. يمكن لمستعمريك الآن سماع هذا العائد من الموت عندما يكون قريباً. إذا خرجت لصيد العائد من الموت واقتربت، سيتم إعلامك بأي المستعمرين يمكنهم سماعه.\n\nربما ستتمكن من إيجاده وقتله أثناء نومه. يمكنك تتبعه باللطخات التي يتركها، وكشفه بمشاعل التشويش، أو متفجرات، أو نبضات كهرومغناطيسية، أو رغوة إطفاء، أو نار.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\nYour colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>انتهى {PAWN_nameDef} من تحليل كتلة لحم العائد من الموت ذات البصمة الحيوية المدروسة سابقاً {BIOSIGNATURE}.\n\nيمكن لمستعمريك الآن رؤية هذا العائد من الموت عندما يكون قريباً. ربما ستتمكن من إيجاده وقتله أثناء نومه.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>اكتمل التحليل</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
   
   <!-- EN: revenant spine -->
-  <RevenantSpine.label>عمود فقري العائد من الموت</RevenantSpine.label>
+  <RevenantSpine.label>عمود العائد من الموت الفقري</RevenantSpine.label>
   <!-- EN: An articulated spine-like object from a dead revenant. It is a chaotic mesh of sharpened metal spokes, twisted into a warped cage. The material appears to be rough-cast black iron smeared in a dark, slippery fluid. Anyone who peers too closely inside its jagged form is left with a skull-splitting headache.\n\nYou can destroy the spine to permanently kill the revenant.\n\nAlternatively, you can secure it on a holding platform and wait for the revenant to re-emerge, so you can study the captured entity. -->
-  <RevenantSpine.description>جسم مفصلي يشبه العمود الفقري من عائد من الموت ميت. إنه شبكة فوضوية من أسلاك معدنية حادة، ملتوية في قفص مشوه. تبدو المادة كحديد أسود خشن الصب ملطخ بسائل زلق داكن. أي شخص يحدق عن كثب داخل شكله المسنن يصاب بصداع يشق الجمجمة.\n\nيمكنك تدمير العمود الفقري لقتل العائد من الموت بشكل دائم.\n\nبدلاً من ذلك، يمكنك تثبيته على منصة احتجاز والانتظار حتى يعاود العائد من الموت الظهور، لتتمكن من دراسة الكيان المأسور.</RevenantSpine.description>
+  <RevenantSpine.description>جسم مفصلي يشبه العمود الفقري تخلّف عن عائد من الموت قُتل. إنه شبكة فوضوية من أسلاك معدنية حادة ملتوية في قفص مشوه. تبدو المادة حديداً أسود خشن الصب ملطخاً بسائل زلق داكن. ومن يحدق عن كثب داخل شكله المسنن يصاب بصداع يشق الجمجمة.\n\nيمكنك تدمير العمود الفقري لقتل العائد من الموت بشكل دائم.\n\nأو يمكنك تثبيته على منصة احتجاز وانتظار عودة العائد من الموت إلى الظهور، لتتمكن من دراسة الكيان المأسور.</RevenantSpine.description>
   <!-- EN: Revenant reformed -->
   <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>عاود العائد من الموت التشكل</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>
   <!-- EN: After {PAWN_nameDef} chained the revenant spine to a holding platform, the revenant re-emerged.\n\nWhen killed, a revenant's body dissolves, leaving behind only its archotechnological spine. This cage of slick iron waits for a chance to grow a new body. -->
@@ -149,6 +149,6 @@
   <!-- EN: shard -->
   <Shard.label>شظية</Shard.label>
   <!-- EN: A scavenged fragment of dark archotechnology. Originally created by a hyperintelligent archotech mind, this shard is packed with technology beyond human comprehension. It is capable of manipulating psychic flows, inducing archotech influences and more esoteric outcomes. While it is useless by itself, it can be built into devices that harness its power to produce exotic effects. -->
-  <Shard.description>شظية مجمعة من تكنولوجيا آركوتيكية مظلمة. صُنعت أصلاً بواسطة عقل آركوتيكي فائق الذكاء، هذه الشظية محشوة بتكنولوجيا تفوق الفهم البشري. إنها قادرة على التلاعب بالتدفقات النفسية، وإحداث تأثيرات آركوتيكية ونتائج باطنية أكثر. بينما هي عديمة الفائدة بذاتها، يمكن بناؤها في أجهزة تسخر قوتها لإنتاج تأثيرات غريبة.</Shard.description>
+  <Shard.description>شظية مجمعة من التكنولوجيا الآركوتيكية المظلمة. صنعها في الأصل عقل آركوتيكي فائق الذكاء، وهي محشوة بتقنية تفوق الفهم البشري. وهي قادرة على التلاعب بالتدفقات النفسية وإحداث تأثيرات آركوتيكية ونتائج أكثر غموضاً. ومع أنها عديمة الفائدة بمفردها، يمكن دمجها في أجهزة تسخّر قوتها لإنتاج تأثيرات غريبة.</Shard.description>
   
 </LanguageData>
