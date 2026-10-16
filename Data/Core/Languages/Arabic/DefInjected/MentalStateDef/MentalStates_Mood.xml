@@ -6,7 +6,7 @@
   <!-- EN: Mental state: Tantrum -->
   <BedroomTantrum.baseInspectLine>حالة ذهنية: نوبة غضب</BedroomTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
-  <BedroomTantrum.beginLetter>{0} يعاني من نوبة غضب.\n\n[PAWN_pronoun] سيحطم الأشياء في غرفته.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetter>{0} يعاني من نوبة غضب.\n\n[PAWN_pronoun] سيحطم الأشياء في غرفتـ[PAWN_possessive].</BedroomTantrum.beginLetter>
   <BedroomTantrum.beginLetterLabel>نوبة غضب</BedroomTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <BedroomTantrum.recoveryMessage>{0} لم يعد يعاني من نوبة الغضب.</BedroomTantrum.recoveryMessage>
@@ -16,7 +16,7 @@
   <!-- EN: Mental state: Berserk -->
   <Berserk.baseInspectLine>حالة ذهنية: هياج</Berserk.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <Berserk.beginLetter>{0} أصابه الهياج.\n\n[PAWN_pronoun] سيهاجم أي شخص يراه.</Berserk.beginLetter>
+  <Berserk.beginLetter>{0} أصابه الهياج.\n\n[PAWN_pronoun] سيهاجم أي شخص يراه [PAWN_pronoun].</Berserk.beginLetter>
   <Berserk.beginLetterLabel>هياج</Berserk.beginLetterLabel>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <Berserk.recoveryMessage>انتهت نوبة الهياج عند {0}.</Berserk.recoveryMessage>
@@ -26,7 +26,7 @@
   <!-- EN: Mental state: Berserk -->
   <BerserkPermanent.baseInspectLine>حالة ذهنية: هياج</BerserkPermanent.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <BerserkPermanent.beginLetter>{0} أصابه الهياج.\n\n[PAWN_pronoun] سيهاجم أي شخص يراه.</BerserkPermanent.beginLetter>
+  <BerserkPermanent.beginLetter>{0} أصابه الهياج.\n\n[PAWN_pronoun] سيهاجم أي شخص يراه [PAWN_pronoun].</BerserkPermanent.beginLetter>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <BerserkPermanent.recoveryMessage>انتهت نوبة الهياج عند {0}.</BerserkPermanent.recoveryMessage>
   
@@ -76,7 +76,7 @@
   <!-- EN: Mental state: Given up and leaving -->
   <GiveUpExit.baseInspectLine>حالة ذهنية: استسلم ويغادر</GiveUpExit.baseInspectLine>
   <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
-  <GiveUpExit.beginLetter>{0} تخلى عن هذا المجتمع.\n\n[PAWN_pronoun] قرر المغادرة بحثاً عن حياة أفضل في مكان آخر. يمكنك محاولة اعتقاله أثناء مغادرته. وإلا فقد تراه مرة أخرى في يوم ما.</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetter>{0} تخلى عن هذا المجتمع.\n\n[PAWN_pronoun] قرر المغادرة بحثاً عن حياة أفضل في مكان آخر. يمكنك محاولة اعتقالـ[PAWN_objective] عندما يغادر [PAWN_pronoun]. وإلا فقد ترا[PAWN_objective] مرة أخرى في يوم ما.</GiveUpExit.beginLetter>
   <!-- EN: gave up -->
   <GiveUpExit.beginLetterLabel>استسلم</GiveUpExit.beginLetterLabel>
   <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
@@ -118,7 +118,7 @@
   <!-- EN: Mental state: Sadistic rage -->
   <SadisticRage.baseInspectLine>حالة ذهنية: غضب سادي</SadisticRage.baseInspectLine>
   <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
-  <SadisticRage.beginLetter>{0} انتابه غضب سادي.\n\n[PAWN_pronoun] سيفرغ غضبه على السجناء.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetter>{0} انتابه غضب سادي.\n\n[PAWN_pronoun] سيفرغ غضبـ[PAWN_possessive] على السجناء.</SadisticRage.beginLetter>
   <SadisticRage.beginLetterLabel>غضب سادي</SadisticRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a sadistic rage. -->
   <SadisticRage.recoveryMessage>{0} لم يعد في حالة الغضب السادي.</SadisticRage.recoveryMessage>
@@ -128,7 +128,7 @@
   <!-- EN: Mental state: Slaughterer -->
   <Slaughterer.baseInspectLine>حالة ذهنية: ذبح الحيوانات</Slaughterer.baseInspectLine>
   <!-- EN: {0} has had a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
-  <Slaughterer.beginLetter>{0} أصيب بانهيار ذهني وسيفرغ غضبه على حيواناتك.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetter>{0} أصيب بانهيار ذهني وسيفرغ غضبـ[PAWN_possessive] على حيواناتك.</Slaughterer.beginLetter>
   <Slaughterer.beginLetterLabel>ذبح الحيوانات</Slaughterer.beginLetterLabel>
   <!-- EN: {0} is no longer slaughtering random animals. -->
   <Slaughterer.recoveryMessage>{0} لم يعد يذبح الحيوانات عشوائياً.</Slaughterer.recoveryMessage>
@@ -148,7 +148,7 @@
   <!-- EN: Mental state: Insulting spree against {0} -->
   <TargetedInsultingSpree.baseInspectLine>حالة ذهنية: موجة إهانات ضد {0}</TargetedInsultingSpree.baseInspectLine>
   <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
-  <TargetedInsultingSpree.beginLetter>{0} ركز غضبه على {1}.\n\n[PAWN_pronoun] سيتبع {1} ويوجه إليه الشتائم.</TargetedInsultingSpree.beginLetter>
+  <TargetedInsultingSpree.beginLetter>{0} ركز غضبـ[PAWN_possessive] على {1}.\n\n[PAWN_pronoun] سيتبع {1} ويوجه إليه الشتائم.</TargetedInsultingSpree.beginLetter>
   <TargetedInsultingSpree.beginLetterLabel>موجة إهانات</TargetedInsultingSpree.beginLetterLabel>
   <TargetedInsultingSpree.recoveryMessage>{0} أنهى موجة الإهانات.</TargetedInsultingSpree.recoveryMessage>
   
@@ -167,11 +167,11 @@
   <!-- EN: Mental state: Hiding in room -->
   <Wander_OwnRoom.baseInspectLine>حالة ذهنية: مختبئ في الغرفة</Wander_OwnRoom.baseInspectLine>
   <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
-  <Wander_OwnRoom.beginLetter>{0} مختبئ في غرفته.</Wander_OwnRoom.beginLetter>
+  <Wander_OwnRoom.beginLetter>{0} مختبئ في غرفتـ[PAWN_possessive].</Wander_OwnRoom.beginLetter>
   <!-- EN: hide in room -->
   <Wander_OwnRoom.beginLetterLabel>اختباء في الغرفة</Wander_OwnRoom.beginLetterLabel>
   <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
-  <Wander_OwnRoom.recoveryMessage>{0} لم يعد مختبئاً في غرفته.</Wander_OwnRoom.recoveryMessage>
+  <Wander_OwnRoom.recoveryMessage>{0} لم يعد مختبئاً في غرفتـ[PAWN_possessive].</Wander_OwnRoom.recoveryMessage>
   
   <!-- EN: wandering in psychosis -->
   <Wander_Psychotic.label>تيه ذهاني</Wander_Psychotic.label>
