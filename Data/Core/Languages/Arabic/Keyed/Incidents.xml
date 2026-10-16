@@ -14,7 +14,7 @@
   <LetterLabelCropBlight>آفة: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
   <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
 \nYou should cut or burn the affected plants before the blight spreads. -->
-  <LetterCropBlight>تم اكتشاف آفة على {PLANTDEF_labelPlural}!\nيجب عليك قطع أو حرق النباتات المصابة قبل أن تنتشر الآفة.</LetterCropBlight>
+  <LetterCropBlight>اكتُشفت آفة على {PLANTDEF_labelPlural}!\n\nعليك قطع النباتات المصابة أو حرقها قبل أن تنتشر الآفة.</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>معجزة</LetterLabelMiracleHeal>
@@ -36,16 +36,16 @@
   <!-- EN: {PAWN_nameDef} is a child of {AGE}. -->
   <RefugeePodCrash_Child>{PAWN_nameDef} طفل يبلغ من العمر {AGE}.</RefugeePodCrash_Child>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>{PAWN_nameDef} لا ينتمي لأي فصيل. يمكنك إنقاذ{PAWN_objective} وتأمل أن ينضم بحرية، أو أسر{PAWN_objective} لأغراض التجنيد أو العبودية.</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>{PAWN_nameDef} لا ينتمي لأي فصيل. يمكنك إنقاذ{PAWN_objective} وتأمل أن ينضم {PAWN_pronoun} بحرية، أو أسر{PAWN_objective} لأغراض التجنيد أو العبودية.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>{PAWN_nameDef} من عدوك {PAWN_factionName}. يمكنك أسر{PAWN_objective} لأغراض التجنيد أو العبودية.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If {PAWN_pronoun} returns home safely, {PAWN_pronoun} will spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>{PAWN_nameDef} من {PAWN_factionName}. إذا عاد {PAWN_pronoun} إلى منزلـ{PAWN_possessive} بسلام، فسينشر {PAWN_pronoun} حسن النية بين فصيلتيكما.\n\nيمكنك أيضاً أسر{PAWN_objective} لأغراض التجنيد أو العبودية، لكن هذا سيغضب فصيلتـ{PAWN_possessive}.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} من {PAWN_factionName}. إذا عاد {PAWN_pronoun} إلى الديار بسلام، فسينشر {PAWN_pronoun} حسن النية بين فصيلتيكما.\n\nيمكنك أيضاً أسر{PAWN_objective} لأغراض التجنيد أو العبودية، لكن هذا سيغضب فصيلتـ{PAWN_possessive}.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>انضمام متجول: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>{PAWN_title} يُدعى {PAWN_nameDef} وصل ويريد الانضمام إلى المستعمرة.\n\n{PAWN_pronoun} مستعد للمساهمة، لكنـ{PAWN_objective} لن يغادر طواعية، مدعياً أنه ليس لديه مكان آخر يذهب إليه. يمكنك اختيار رفض طلبـ{PAWN_objective} وإرسالـ{PAWN_objective} بعيداً. ومع ذلك، سيشعر مستعمروك بالانزعاج من طرد شخص محتاج.</LetterWandererJoins>
+  <LetterWandererJoins>{PAWN_title} يُدعى {PAWN_nameDef} وصل ويريد الانضمام إلى المستعمرة.\n\n[PAWN_pronoun] مستعد للمساهمة، لكن لن يغادر طواعية، مدعياً أنه ليس لديه مكان آخر يذهب إليه. يمكنك اختيار رفض طلبـ{PAWN_objective} وإرسالـ{PAWN_objective} بعيداً. ومع ذلك، سيشعر مستعمروك بالانزعاج من طرد شخص محتاج.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>كبسولات شحن</LetterLabelCargoPodCrash>
@@ -68,21 +68,21 @@
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
   <TraderArrival>سفينة تجارية تمر بالقرب من هنا.\n\nيُعرفون باسم {0}. إنهم {1}.\n\n{2}</TraderArrival>
   <!-- EN: They're affiliated with {FACTION_name}. -->
-  <TraderArrivalFromFaction>إنهم تابعون لـ {FACTION_name}.</TraderArrivalFromFaction>
+  <TraderArrivalFromFaction>إنهم تابعون لـ{FACTION_name}.</TraderArrivalFromFaction>
   <!-- EN: They are not affiliated with any faction. -->
   <TraderArrivalNoFaction>إنهم لا يتبعون أي فصيل.</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>{PAWN_title} من {1} يمر من هنا. اسمـ{PAWN_possessive} {PAWN_nameFull}.</SingleTravelerPassing>
+  <SingleTravelerPassing>{PAWN_title} من {1} يمر من هنا. {PAWN_pronoun} يُدعى {PAWN_nameFull}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>مجموعة من المسافرين من {0} يمرون من هنا.</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>زائر</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>{PAWN_titleIndef} من {1} يزور المستعمرة.\n\nاسمـ{PAWN_possessive} {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>{PAWN_titleIndef} من {1} يزور المستعمرة.\n\n{PAWN_pronoun} يُدعى {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
-  <SingleVisitorArrivesTraderInfo>يبدو أنـ{PAWN_objective} لديـ{PAWN_objective} بعض العناصر للتجارة.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesTraderInfo>يبدو {PAWN_pronoun} حاملاً بعض الأغراض للتجارة.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
   <SingleVisitorArrivesLeaderInfo>{PAWN_pronoun} قائد الفصيل.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
@@ -99,7 +99,7 @@
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>قطيع صيادي البشر</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>دخل قطيع من {0} صيادي البشر إلى المنطقة! أصيبوا بالجنون بسبب مرض يُعرف باسم "سكاريا"، وسوف يتجولون في المنطقة بحثاً عن لحم البشر.\n\nلن يهاجموا الأبواب إلا إذا رأوا شخصاً يمر من خلالها. اختبئ بالداخل وستكون في أمان. لن يهاجموا أيضاً الأبراج الدفاعية المعطلة، لذا قم بإيقاف تشغيل أبراجك لحمايتها.\n\nسيغادر الـ {0} المنطقة في غضون يوم أو يومين. يمكنك الاختباء وانتظار رحيلهم، أو قتالهم.</ManhunterPackArrived>
+  <ManhunterPackArrived>دخل قطيع من {0} صيادي البشر إلى المنطقة! أصيبوا بالجنون بسبب مرض يُعرف باسم "سكاريا"، وسوف يتجولون في المنطقة بحثاً عن لحم البشر.\n\nلن يهاجموا الأبواب إلا إذا رأوا شخصاً يمر من خلالها. اختبئ بالداخل وستكون في أمان. لن يهاجموا أيضاً الأبراج الدفاعية المعطلة، لذا قم بإيقاف تشغيل أبراجك لحمايتها.\n\nسيغادر الـ{0} المنطقة في غضون يوم أو يومين. يمكنك الاختباء وانتظار رحيلهم، أو قتالهم.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
@@ -223,9 +223,9 @@
   <!-- EN: Quests no longer available -->
   <LetterLabelSiteNoLongerHostileMulti>المهمات لم تعد متاحة</LetterLabelSiteNoLongerHostileMulti>
   <!-- EN: Because you are no longer hostile with {0}, the {1} site is no longer available. -->
-  <LetterSiteNoLongerHostile>لأنك لم تعد معادياً لـ {0}، فإن الموقع {1} لم يعد متاحاً.</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostile>لأنك لم تعد معادياً لـ{0}، فإن الموقع {1} لم يعد متاحاً.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
-  <LetterSiteNoLongerHostileMulti>لأنك لم تعد معادياً لـ {0}، فإن المواقع التالية لم تعد متاحة</LetterSiteNoLongerHostileMulti>
+  <LetterSiteNoLongerHostileMulti>لأنك لم تعد معادياً لـ{0}، فإن المواقع التالية لم تعد متاحة</LetterSiteNoLongerHostileMulti>
 
   <!-- Quest asker faction hostile -->
   <!-- EN: Quest failed -->

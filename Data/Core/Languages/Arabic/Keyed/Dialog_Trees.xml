@@ -8,7 +8,7 @@
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle. -->
   <FactionGreetingWary>يرحب {0} بـ{NEGOTIATOR_labelShort} ويسأل عن الأمر الذي تريد مناقشته.</FactionGreetingWary>
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
-  <FactionGreetingWarm>يرحب {0} بـ{NEGOTIATOR_labelShort} بحفاوة ويسأل عما يمكن لـ{LEADER_objective} فعله لمساعدتك.</FactionGreetingWarm>
+  <FactionGreetingWarm>يرحب {0} بـ{NEGOTIATOR_labelShort} بحفاوة ويسأل عما يمكن أن يفعله {LEADER_pronoun} لمساعدتك.</FactionGreetingWarm>
 
   <!-- EN: won't do {0} -->
   <WorkTypeDisablesOption>لن يقوم بـ{0}</WorkTypeDisablesOption>
@@ -51,7 +51,7 @@
   
   <!-- AI core request -->
   <!-- EN: Request the location of a {0} (cost: {1} silver) -->
-  <RequestAICoreInformation>طلب موقع لـ {0} (التكلفة: {1} فضة)</RequestAICoreInformation>
+  <RequestAICoreInformation>طلب موقع لـ{0} (التكلفة: {1} فضة)</RequestAICoreInformation>
   <!-- EN: {0} sends the requested information and wishes you good luck. -->
   <RequestAICoreInformationResult>يرسل {0} المعلومات المطلوبة ويتمنى لك حظاً سعيداً.</RequestAICoreInformationResult>
   <!-- EN: no more locations known -->

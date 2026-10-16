@@ -113,7 +113,7 @@
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>تم تحديد {0_labelShort} للإعدام. سيقوم أول حارس متاح بتنفيذ حكم الإعدام فيـ{0_objective}.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
-  <TitleOfFaction>{0} الخاص بـ {1}</TitleOfFaction>
+  <TitleOfFaction>{0} الخاص بـ{1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>سيؤدي هذا الإجراء إلى جعل {PAWN_nameDef} يفقد لقبـ{PAWN_possessive} {TITLE}. لن تتلقى أي تعويض عن التنازل عن اللقب.\n\nسيكون لهذا التأثيرات التالية:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
@@ -121,7 +121,7 @@
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>سيفقد {PAWN_nameDef} عدد {POINTS} من نقاط التصاريح غير المستخدمة لدى {FACTION_name}.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>سيحتفظ {PAWN_pronoun} بجميع مستويات الـوصلات النفسية والـقدرات النفسية الخاصة به.</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>سيحتفظ {PAWN_pronoun} بجميع مستويات وصلتـ{PAWN_possessive} النفسية وبكل القدرات النفسية.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>مجهول</UnknownLower>
   <!-- EN: On -->
@@ -253,7 +253,7 @@
   <!-- EN: Attacking {0}. -->
   <CaravanAttacking>يهاجم {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>يقدم هدايا لـ {0}.</CaravanOfferingGifts>
+  <CaravanOfferingGifts>يقدم هدايا لـ{0}.</CaravanOfferingGifts>
   <!-- EN: Trading with {0}. -->
   <CaravanTrading>يتداول مع {0}.</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
@@ -309,7 +309,7 @@
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>لا يوجد وقود كافٍ</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
-  <SettlementTrader>{0} الخاص بـ {1}</SettlementTrader>
+  <SettlementTrader>{0} الخاص بـ{1}</SettlementTrader>
   <!-- EN: Surgery success chance multiplier from room -->
   <RoomSurgerySuccessChanceFactor>مضاعف احتمالية نجاح الجراحة من الغرفة</RoomSurgerySuccessChanceFactor>
   <!-- EN: Infection chance multiplier from room -->
@@ -423,7 +423,7 @@
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} مع {1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <EnterCooldown>خطير جداً لإعادة الدخول لـ {0}.</EnterCooldown>
+  <EnterCooldown>خطير جداً لإعادة الدخول لـ{0}.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>قافلة</Caravan>
   <!-- EN: there may be danger there. -->
@@ -459,7 +459,7 @@
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
-  <FilthLabelWithSource>{0} الخاص بـ {1} x{2}</FilthLabelWithSource>
+  <FilthLabelWithSource>{0} الخاص بـ{1} x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
   <Required>مطلوب</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
@@ -547,7 +547,7 @@
   <!-- EN: Has subquest -->
   <HasSubquest>لديها مهمة فرعية</HasSubquest>
   <!-- EN: Subquest of -->
-  <SubquestOf>مهمة فرعية لـ</SubquestOf>
+  <SubquestOf>مهمة فرعية ضمن</SubquestOf>
   <!-- EN: Raid -->
   <Raid>غارة</Raid>
   <!-- EN: Disabled by -->
@@ -736,7 +736,7 @@
   <!-- EN: Shrink -->
   <ShrinkArea>تقليص</ShrinkArea>
   <!-- EN: Maximum {0} areas allowed. -->
-  <MaxAreasReached>يسمح بـ {0} منطقة كحد أقصى.</MaxAreasReached>
+  <MaxAreasReached>يسمح بـ{0} منطقة كحد أقصى.</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
@@ -756,7 +756,7 @@
   <!-- EN: Roped by -->
   <RopedByPawn>مقيد بواسطة</RopedByPawn>
   <!-- EN: Roped to -->
-  <RopedToThing>مقيد بـ</RopedToThing>
+  <RopedToThing>مربوط بحبل إلى</RopedToThing>
   <!-- EN: Roped to spot. -->
   <RopedToSpot>مقيد في الموقع.</RopedToSpot>
   <!-- EN: Pen size -->
@@ -839,7 +839,7 @@
   <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{1_labelShort} ليس مجنداً.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
-  <ApparelPreventsShooting>لا يمكن لـ {PAWN_nameDef} استخدام أسلحة المدى بسبب {APPAREL_label} الخاص به.</ApparelPreventsShooting>
+  <ApparelPreventsShooting>لا يمكن لـ{PAWN_nameDef} استخدام أسلحة المدى بسبب ارتداء{PAWN_possessive} {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>لا يمكن استخدامه في {0}</CannotUseReason_PocketMap>
   <!-- EN: Range reduced -->
@@ -1019,7 +1019,7 @@
   <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0} الخاص بـ {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{0} الخاص بـ{1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
   <PawnTitleDescWrap>{0} في {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
@@ -1077,7 +1077,7 @@
 
   <!-- like 'Blood of John' -->
   <!-- EN: of -->
-  <OfLower>الخاص بـ</OfLower>
+  <OfLower>من</OfLower>
 
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
@@ -1501,7 +1501,7 @@
   <!-- EN: inactive -->
   <InactiveFacility>غير نشط</InactiveFacility>
   <!-- EN: Links to -->
-  <FacilityPotentiallyLinkedTo>يرتبط بـ</FacilityPotentiallyLinkedTo>
+  <FacilityPotentiallyLinkedTo>يرتبط مع</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>غير مرتبط بمبنى</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
@@ -1705,9 +1705,9 @@
   <!-- EN: Visitors' help -->
   <Reward_VisitorsHelp_Label>مساعدة الزوار</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
-  <Reward_BestowingCeremony_Label>مستوى ربط نفسي جديد</Reward_BestowingCeremony_Label>
+  <Reward_BestowingCeremony_Label>مستوى وصلة نفسية جديد</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
-  <Reward_BestowingCeremony>يكتسب {PAWNNAME} ربطاً نفسياً</Reward_BestowingCeremony>
+  <Reward_BestowingCeremony>يكتسب {PAWNNAME} وصلة نفسية</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
   <Reward_ShuttleLoot_Label>نهب المكوك</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
@@ -1835,7 +1835,7 @@
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>عبد. ممتلكات بشرية للآخرين.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} نائم. إذا تم إدراجه في الحدث، فسوف يستيقظ للمشاركة.</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>{0_labelShort} نائم. إذا أُدرج في الحدث، فسوف يستيقظ {0_pronoun} للمشاركة.</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
   <RitualBeginSleepingWarning>بعض المشاركين المختارين نائمون. سيستيقظون بمجرد بدء الحدث.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
@@ -1877,7 +1877,7 @@
   <DateRitualNoObligation>{0} هو طقس محدد بتاريخ. ستتمكن من بدئه في {1}، في {2}.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>استبدل بـ</PreceptReplaceWith>
+  <PreceptReplaceWith>التغيير إلى</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
   <RitualSeatOf>مقعد طقوس {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
@@ -1976,7 +1976,7 @@
   <ShieldPersonalTip>درع شخصي سيحاول إيقاف القذائف أو الشظايا القادمة. يمنع من يرتديه من إطلاق النار للخارج، ويتوقف فوراً إذا أصيب بنبضة كهرومغناطيسية (EMP).</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
-  <UnrecruitableDesc>{PAWN_nameDef} مخلص جداً لوطنه لدرجة أنه سيرفض التجنيد إذا تم أسره.</UnrecruitableDesc>
+  <UnrecruitableDesc>{PAWN_nameDef} مخلص جداً لوطنـ{PAWN_possessive} لدرجة أنه سيرفض {PAWN_pronoun} التجنيد إذا أُسر.</UnrecruitableDesc>
 
   <!-- EN: Random -->
   <Random>عشوائي</Random>

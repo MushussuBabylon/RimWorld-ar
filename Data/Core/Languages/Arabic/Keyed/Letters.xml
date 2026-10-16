@@ -434,7 +434,7 @@
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>مرض: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
-  <LetterTraitDisease>أصيب {PAWN_label} بمرض {1}.\n\nتأكد من وجود سرير طبي وطبيب، وتأكد من أن {PAWN_pronoun} يحصل على العلاج المناسب ويقضي أكبر وقت ممكن في السرير.</LetterTraitDisease>
+  <LetterTraitDisease>أصيب {PAWN_label} بمرض {1}.\n\nتأكد من وجود سرير طبي وطبيب، ومن أن يحصل {PAWN_pronoun} على العلاج المناسب وأن يقضي أكبر وقت ممكن في السرير.</LetterTraitDisease>
 
   <!-- Quests -->
   <!-- EN: Quest available: {0} -->
@@ -454,9 +454,9 @@
   <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered -->
   <QuestDiscoveredFromBook>أثناء قراءة {BOOK_labelNoParenthesis}، اكتشف {READER_nameDef}</QuestDiscoveredFromBook>
   <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
-  <QuestDiscoveredFromTrader>أثناء التحدث مع التاجر {TRADER_nameDef}، عرف {NEGOTIATOR_nameDef} بـ</QuestDiscoveredFromTrader>
+  <QuestDiscoveredFromTrader>أثناء التحدث مع التاجر {TRADER_nameDef}، علم {NEGOTIATOR_nameDef} بوجود</QuestDiscoveredFromTrader>
   <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
-  <QuestDiscoveredFromBeggar>لإظهار امتنانـ{RECEIVER_possessive} لصدقتك، شارك المتسول {RECEIVER_nameDef} سراً مع {GIVER_nameDef}.\n\nلقد عرفت بـ</QuestDiscoveredFromBeggar>
+  <QuestDiscoveredFromBeggar>لإظهار امتنانـ{RECEIVER_possessive} لصدقتك، شارك المتسول {RECEIVER_nameDef} سراً مع {GIVER_nameDef}.\n\nلقد علمت بوجود</QuestDiscoveredFromBeggar>
   <!-- EN: You have discovered -->
   <QuestDiscoveredFromDebug>لقد اكتشفت</QuestDiscoveredFromDebug>
 
@@ -482,7 +482,7 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRescueeJoins>انضمام {PAWN_nameDef}</LetterLabelRescueeJoins>
   <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
-  <LetterRescueeJoins>{PAWN_nameDef} ممتن لأنك أنقذتـ{PAWN_objective}. قرر {PAWN_pronoun} أن {PAWN_pronoun} يفضّل البقاء على المغادرة، وينضم إلى مستعمرتك.</LetterRescueeJoins>
+  <LetterRescueeJoins>{PAWN_nameDef} ممتن لأنك أنقذتـ{PAWN_objective}. قرر {PAWN_pronoun} أن يبقى بدلاً من أن يغادر، وسينضم {PAWN_pronoun} إلى مستعمرتك.</LetterRescueeJoins>
 
   <!-- Pawns arrive and join -->
   <!-- EN: People join -->
@@ -513,7 +513,7 @@
   <LetterLabelPawnsKidnapped>اختطاف {PAWN_nameDef}</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>تم اختطاف {PAWN_nameDef} من قبل {FACTION_name}!\nومع ذلك، {PAWN_pronoun} ليس مفقوداً إلى الأبد. قد تتاح فرصة لإنقاذ{PAWN_objective} في الأيام أو السنوات القادمة.</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>اختطف {FACTION_name} {PAWN_nameDef}!\n\nلكن {PAWN_pronoun} ليس مفقوداً إلى الأبد. قد تسنح فرصة لإنقاذ{PAWN_objective} في الأيام أو السنوات القادمة.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
@@ -550,7 +550,7 @@
   <LetterBladelinkWeaponBondedLabel>رابطة الشخصية: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>أسس {PAWN_labelShort} رابطة مع شخصية {WEAPON_labelShort}.\nمن الآن فصاعداً، سيرفض {WEAPON_labelShort} أن يستخدمه أي شخص سوى {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>أقام {PAWN_labelShort} رابطة مع شخصية {WEAPON_labelShort}.\n\nمن الآن فصاعداً، سيرفض {WEAPON_labelShort} أن يستخدمه أي شخص سوى {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
@@ -580,7 +580,7 @@
   <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
   <LetterJoinOfferTitle>يرغب {PAWN_nameDef} في الانضمام إلى فصيلتك.</LetterJoinOfferTitle>
   <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
-  <LetterJoinOfferText>يعتقد {PAWN_nameDef} أنّ {PAWN_pronoun} سعيد في {MAP_definite}. ويرغب {PAWN_pronoun} في الانضمام إليك بشكل دائم.</LetterJoinOfferText>
+  <LetterJoinOfferText>يعتقد {PAWN_nameDef} أنه {PAWN_pronoun} سعيد في {MAP_definite}. ويرغب {PAWN_pronoun} في الانضمام إليك بشكل دائم.</LetterJoinOfferText>
   <!-- EN: Accept -->
   <LetterJoinOfferAccept>قبول</LetterJoinOfferAccept>
 

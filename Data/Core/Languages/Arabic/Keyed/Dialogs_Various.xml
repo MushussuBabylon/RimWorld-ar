@@ -317,9 +317,9 @@
   <!-- EN: nutrition -->
   <BillNutrition>تغذية</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>ملاحظة: المكونات صغيرة الحجم مثل الذهب تتطلب مقداراً مضاعفاً بـ {0}x.</BillRequiresMayVary>
+  <BillRequiresMayVary>ملاحظة: المكونات صغيرة الحجم مثل الذهب تتطلب مقداراً مضاعفاً بـ{0}x.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>هذا مكون صغير الحجم. هذا يعني أن كل 'وحدة' تعادل فقط 1/{0} من حجم المكون الطبيعي. لذا، لتلبية نفس متطلبات المكون، ستحتاج إلى مقدار مضاعف بـ {0}x عن المعتاد.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>هذا مكون صغير الحجم. هذا يعني أن كل 'وحدة' تعادل فقط 1/{0} من حجم المكون الطبيعي. لذا، لتلبية نفس متطلبات المكون، ستحتاج إلى مقدار مضاعف بـ{0}x عن المعتاد.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>المكونات</UsableIngredients>
   <!-- EN: To {0} -->
@@ -387,7 +387,7 @@
   <!-- EN: Charging -->
   <ChargingTime>الشحن</ChargingTime>
   <!-- EN: Next recharge (for {1}) in: {0}\nCharge cycle: {2} -->
-  <ChargingNext>الشحنة التالية (لـ {1}) في: {0}\nدورة الشحن: {2}</ChargingNext>
+  <ChargingNext>الشحنة التالية (لـ{1}) في: {0}\nدورة الشحن: {2}</ChargingNext>
   <!-- EN: Shut down -->
   <ShutDown>إيقاف التشغيل</ShutDown>
   <!-- EN: Fire rate -->
@@ -543,9 +543,9 @@
   <!-- EN: Death chance on fail -->
   <SurgeryDeathOnFailChance>فرصة الموت عند الفشل</SurgeryDeathOnFailChance>
   <!-- EN: Work speed governed by -->
-  <WorkSpeedStat>سرعة العمل محكومة بـ</WorkSpeedStat>
+  <WorkSpeedStat>سرعة العمل تحكمها</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
-  <EfficiencyStat>كمية الإخراج محكومة بـ</EfficiencyStat>
+  <EfficiencyStat>كمية الإخراج تحكمها</EfficiencyStat>
   <!-- EN: {0} skill required -->
   <SkillRequiredToBuild>يتطلب مهارة {0}</SkillRequiredToBuild>
   <!-- EN: Requires this level of {0} in order to build. -->
@@ -775,7 +775,7 @@
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(يتم أخذ نقطة الطريق الأولى فقط في الاعتبار)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
-  <DaysWorthOfFoodWarningDialog>قافلتك لديها طعام يكفي لـ {0} أيام فقط وستصبح جائعة بسرعة.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog>قافلتك لديها طعام يكفي لـ{0} أيام فقط وستصبح جائعة بسرعة.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
   <DaysWorthOfFoodDietWarningDialog>بعض الأنظمة الغذائية للأشخاص لا تسمح بمعظم الطعام الموجود في قافلتك. إذا أُجبروا على تناوله بسبب الجوع، سيصبحون غير سعداء.</DaysWorthOfFoodDietWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
@@ -915,7 +915,7 @@
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
   <TransporterSingleItemIsUnreachableMulti>لا يوجد مسار بين المكوك و {0}x {1}.</TransporterSingleItemIsUnreachableMulti>
   <!-- EN: Only {0} colonists maximum allowed. -->
-  <TransporterSingleTooManyColonists>يُسمح بـ {0} مستعمر كحد أقصى.</TransporterSingleTooManyColonists>
+  <TransporterSingleTooManyColonists>يُسمح بـ{0} مستعمر كحد أقصى.</TransporterSingleTooManyColonists>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -1163,7 +1163,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>هل أنت متأكد أنك تريد تنظيف جميع ملفات الترجمة للغة {0}؟\n\nسيؤدي هذا إلى:\n  - إضافة عناصر نائبة للترجمات المفقودة المفتاحية، والترجمات المحقونة، والقصص الخلفية\n  - إضافة أو تحديث التعليقات التي تحتوي على النص الأصلي غير المترجم\n  - نقل جميع الترجمات المفتاحية والمحقونة إلى ملفات XML المناسبة\n  - تطبيق التنسيق التلقائي على جميع ملفات XML\n  - تحديث أسماء التعريفات المتوافقة مع الإصدارات السابقة\n  - إزالة جميع تعليقات XML الموجودة (باستثناء حقن القائمة الكاملة)\n\nلن تتم إزالة أو تعديل الملفات غير التابعة لـ XML.\n\nتذكر إعادة تشغيل اللعبة بعد تعديل ملفات اللغة قبل تشغيل هذه الأداة من أجل إعادة تحميل جميع البيانات.\n\nتأكد من عمل نسخة احتياطية لجميع ملفات الترجمة قبل استخدام هذه الأداة.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>هل أنت متأكد أنك تريد تنظيف جميع ملفات الترجمة للغة {0}؟\n\nسيؤدي هذا إلى:\n  - إضافة عناصر نائبة للترجمات المفقودة المفتاحية، والترجمات المحقونة، والقصص الخلفية\n  - إضافة أو تحديث التعليقات التي تحتوي على النص الأصلي غير المترجم\n  - نقل جميع الترجمات المفتاحية والمحقونة إلى ملفات XML المناسبة\n  - تطبيق التنسيق التلقائي على جميع ملفات XML\n  - تحديث أسماء التعريفات المتوافقة مع الإصدارات السابقة\n  - إزالة جميع تعليقات XML الموجودة (باستثناء حقن القائمة الكاملة)\n\nلن تتم إزالة أو تعديل الملفات غير التابعة لـXML.\n\nتذكر إعادة تشغيل اللعبة بعد تعديل ملفات اللغة قبل تشغيل هذه الأداة من أجل إعادة تحميل جميع البيانات.\n\nتأكد من عمل نسخة احتياطية لجميع ملفات الترجمة قبل استخدام هذه الأداة.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>نعم، لدي نسخة احتياطية</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1223,7 +1223,7 @@
   <!-- EN: {PAWN_labelShort} has no healable injuries. -->
   <AbilityCannotCastNoHealableInjury>ليس لدى {PAWN_labelShort} أي إصابات قابلة للشفاء.</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
-  <AbilityCantApplyWrongAttractionGender>{1_labelShort} من الجنس الخاطئ بالنسبة لـ {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
+  <AbilityCantApplyWrongAttractionGender>{1_labelShort} من الجنس الخاطئ بالنسبة لـ{0_labelShort}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
   <AbilityCantApplyTooYoung>{0_labelShort} صغير جداً.</AbilityCantApplyTooYoung>
   <!-- EN: Cannot target a baby. -->
@@ -1241,7 +1241,7 @@
   <!-- EN: {0_labelShort} must be sick or injured. -->
   <AbilityMustBeSickOrInjured>يجب أن يكون {0_labelShort} مريضاً أو مصاباً.</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
-  <AbilityMustBeSameIdeoCounsel>{0} يمكنه فقط تقديم المشورة لـ {1}s.</AbilityMustBeSameIdeoCounsel>
+  <AbilityMustBeSameIdeoCounsel>{0} يمكنه فقط تقديم المشورة لـ{1}s.</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->
   <AbilityMustBeNotGuilty>{0_labelShort} يُعتبر مذنباً بالفعل.</AbilityMustBeNotGuilty>
   <!-- EN: Must target a human. -->
@@ -1267,7 +1267,7 @@
   <!-- EN: Induce psychic love in -->
   <PsychicLoveInduceIn>حث الحب النفسي في</PsychicLoveInduceIn>
   <!-- EN: Psychic love for -->
-  <PsychicLoveFor>حب نفسي لـ</PsychicLoveFor>
+  <PsychicLoveFor>حب نفسي تجاه</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
   <FarskipConfirmTeleportingLodger>إذا قمت بتخطي {PAWN_labelShort} إلى خريطة أخرى أو قافلة، فستفشل المهمة المرتبطة وسيغادر {PAWN_pronoun} على الفور.\n\nهل تريد حقاً تخطي {PAWN_labelShort} بعيداً؟</FarskipConfirmTeleportingLodger>
   
