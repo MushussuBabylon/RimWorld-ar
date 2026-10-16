@@ -39,18 +39,18 @@
     <li>damaged_inf(p=0.5)->عض خفيف</li>
     <li>damaged_past->عض</li>
     <li>damaged_past->قضم</li>
-    <li>damaged_past->عض خفيفا</li>
+    <li>damaged_past->عض خفيفاً</li>
     <li>damaged_past->قرض</li>
     <li>damaged_past(deflected!=True)->مزق</li>
     <li>damaged_present->يعض</li>
     <li>damaged_present->يقضم</li>
-    <li>damaged_present->يعض خفيفا</li>
+    <li>damaged_present->يعض خفيفاً</li>
     <li>damaged_present->يقرض</li>
     <li>damaged_present(deflected!=True)->يمزق</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->كاشفا اللحم تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->كاشفا الآلات تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركا تمزقات بشعة في الجلد</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->تاركا تمزقات بشعة في المعدن</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->كاشفاً اللحم تحته</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->كاشفاً الآلات تحته</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً تمزقات بشعة في الجلد</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->تاركاً تمزقات بشعة في المعدن</li>
     <li>destroyed_past->مزق</li>
     <li>destroyed_past->انتزع</li>
     <li>destroyed_past->عض</li>
@@ -71,7 +71,7 @@
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-    <li>r_logentry->حاول [INITIATOR_definite] ركل [TOOL_label] في عيني [RECIPIENT_definite]، لكن [RECIPIENT_definite] تفادى جانبا.</li>
+    <li>r_logentry->حاول [INITIATOR_definite] ركل [TOOL_label] في عيني [RECIPIENT_definite]، لكن [RECIPIENT_definite] تفادى جانباً.</li>
     <li>r_logentry->حاول [INITIATOR_definite] ركل [TOOL_label] في عيني [RECIPIENT_definite]، لكن [RECIPIENT_definite] صده.</li>
  </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   
@@ -81,7 +81,7 @@
   -->
   <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
     <li>r_logentry->ركل [INITIATOR_definite] [TOOL_label] في عيني [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->ركل [INITIATOR_definite] رذاذا من [TOOL_label] في عيني [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.2)->ركل [INITIATOR_definite] رذاذاً من [TOOL_label] في عيني [RECIPIENT_definite].</li>
  </Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
   
   <!-- EN:
@@ -142,10 +142,10 @@
     <li>damaged_present->يزج</li>
     <li>damaged_present->يدفع</li>
     <li>damaged_present->يطعن</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركا كدمة هائلة</li>
-    <li>flavortext_consequence->تاركا المنطقة مشوهة بشكل واضح</li>
-    <li>flavortext_consequence->جاعلا[RECIPIENT_objective] يفقد توازنه</li>
-    <li>flavortext_consequence->جاعلا[RECIPIENT_objective] ينحرف جانبا</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً كدمة هائلة</li>
+    <li>flavortext_consequence->تاركاً المنطقة مشوهة بشكل واضح</li>
+    <li>flavortext_consequence->جاعلاً[RECIPIENT_objective] يفقد توازنه</li>
+    <li>flavortext_consequence->جاعلاً[RECIPIENT_objective] ينحرف جانباً</li>
     <li>destroyed_past->حطم</li>
     <li>destroyed_past->سحق</li>
     <li>destroyed_past->أباد</li>
@@ -178,9 +178,9 @@
   <Maneuver_Scratch.rulePack.rulesStrings>
     <li>woundname->جرح</li>
     <li>woundname(p=0.3)->فتحة</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->وكاشفا اللحم تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->وكاشفا الآلات تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->وتاركا [woundname] دمويا</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->وكاشفاً اللحم تحته</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->وكاشفاً الآلات تحته</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->وتاركاً [woundname] دموياً</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] شرائح فوضوية</li>
     <li>destroyed_suffix->[to] شرائح</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] قطع فوضوية</li>
@@ -298,9 +298,9 @@
     <li>damaged_present(deflected!=True)->يمزق</li>
     <li>woundname->جرح</li>
     <li>woundname(p=0.3)->فتحة</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->كاشفا اللحم تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->كاشفا الآلات تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركا [woundname] دمويا</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->كاشفاً اللحم تحته</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->كاشفاً الآلات تحته</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً [woundname] دموياً</li>
     <li>destroyed_past->شق نصفين</li>
     <li>destroyed_past->قسم</li>
     <li>destroyed_past->قسم نصفين</li>
@@ -313,8 +313,8 @@
     <li>destroyed_present->يشق</li>
     <li>destroyed_suffix->إلى قطع مرتبة</li>
     <li>destroyed_suffix->بنظافة</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->كاشفا عن أعماله الداخلية</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->شاقا إياه إلى اثنين</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)->كاشفاً عن أعماله الداخلية</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)->شاقاً إياه إلى اثنين</li>
  </Maneuver_Slash.rulePack.rulesStrings>
   
   <!-- EN:
@@ -328,10 +328,10 @@
     <li>destroyed_suffix->[to] fragments</li>
   -->
   <Maneuver_Smash.rulePack.rulesStrings>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركا كدمة هائلة</li>
-    <li>flavortext_consequence->تاركا المنطقة مشوهة بشكل واضح</li>
-    <li>flavortext_consequence->جاعلا[RECIPIENT_objective] يفقد توازنه</li>
-    <li>flavortext_consequence->جاعلا[RECIPIENT_objective] ينحرف جانبا</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً كدمة هائلة</li>
+    <li>flavortext_consequence->تاركاً المنطقة مشوهة بشكل واضح</li>
+    <li>flavortext_consequence->جاعلاً[RECIPIENT_objective] يفقد توازنه</li>
+    <li>flavortext_consequence->جاعلاً[RECIPIENT_objective] ينحرف جانباً</li>
     <li>destroyed_suffix->[to] قطع</li>
     <li>destroyed_suffix->[to] قطع صغيرة</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] رذاذ ناعم</li>
@@ -435,9 +435,9 @@
     <li>woundname->ثقب</li>
     <li>woundname->جرح</li>
     <li>woundname->شق</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركا [woundname] دمويا</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركا [woundname] ممزقا</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركا [woundname] نازفا</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً [woundname] دموياً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً [woundname] ممزقاً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً [woundname] نازفاً</li>
     <li>destroyed_past->خوزق</li>
     <li>destroyed_past->ثقب</li>
     <li>destroyed_past->شبك</li>
@@ -445,9 +445,9 @@
     <li>destroyed_present->يثقب</li>
     <li>destroyed_present->يشبك</li>
     <li>destroyed_suffix->مباشرة عبره</li>
-    <li>destroyed_suffix->تاركا ثقبا نظيفا</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->تاركا إياه يسرب سوائل دموية</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->تاركا إياه يسرب سوائل لا يمكن التعرف عليها</li>
+    <li>destroyed_suffix->تاركاً ثقباً نظيفاً</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->تاركاً إياه يسرب سوائل دموية</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)->تاركاً إياه يسرب سوائل لا يمكن التعرف عليها</li>
  </Maneuver_Stab.rulePack.rulesStrings>
   
 </LanguageData>

@@ -292,7 +292,7 @@
   -->
   <PsychiteRefining.generalRules.rulesStrings>
     <li>subject->إنتاج السايكيت</li>
-    <li>subject_story->استخدم وظيفته في الجامعة كغطاء لتجارة المخدرات</li>
+    <li>subject_story->استخدم وظيفتـ[ANYPAWN_possessive] الجامعية كغطاء لتجارتـ[ANYPAWN_possessive] في المخدرات</li>
     <li>subject_story->أنشأ جماعة مشتركة حيث كانت تُخلط جرعات منخفضة من الرقائق بالطعام</li>
     <li>subject_story->قام بحملة لتشريع اليَايُو على عالم حضري قريب</li>
     <li>subject_gerund->تكرير السايكيت</li>
@@ -313,7 +313,7 @@
     <li>subject->السايكويد</li>
     <li>subject_story->انضم إلى جماعة سايكويد لم تدم طويلاً على عالم طائفي</li>
     <li>subject_story->جرّب السايكويد لمساعدة الجنود المصابين بصدمات</li>
-    <li>subject_story->شرّع السايكويد للإنتاج بالجملة عبر عدة عوالم لب، عندما كانت لديه القدرة على فعل ذلك</li>
+    <li>subject_story->شرّع السايكويد للإنتاج بالجملة عبر عدة عوالم لب، عندما امتلك [ANYPAWN_pronoun] القدرة على فعل ذلك</li>
     <li>subject_gerund->تخمير السايكويد</li>
  </PsychoidBrewing.generalRules.rulesStrings>
   
@@ -351,7 +351,7 @@
   <Smithing.generalRules.rulesStrings>
     <li>subject->الحدادة</li>
     <li>subject_story->استقر في قرية صغيرة من العصور الوسطى وأتقن صنع المعادن البسيطة</li>
-    <li>subject_story->بنى مصانع حدادة على عوالم براقة لنقابات إعادة تمثيل عصر النهضة</li>
+    <li>subject_story->بنى مصانع حدادة على عوالم لامعة لنقابات إعادة تمثيل عصر النهضة</li>
     <li>subject_gerund->الحدادة</li>
  </Smithing.generalRules.rulesStrings>
   
