@@ -44,9 +44,9 @@
     <li>circumstance_phrase->بابتسامة هيمنة</li>
     <li>desc_sentence->[CAPTURER_nameDef] ينظر في عيني [PRISONER_nameDef] بشعور من الهيمنة.</li>
     <li>desc_sentence->[PRISONER_nameDef] مصاب ويبدو أنه يتألم.</li>
-    <li>desc_sentence->[PRISONER_nameDef] يبدو مستسلماً لمصيره.</li>
+    <li>desc_sentence->[PRISONER_nameDef] يبدو مستسلماً لمصير[PRISONER_possessive].</li>
     <li>desc_sentence->[PRISONER_nameDef] يزمجر بغضب الهزيمة.</li>
-    <li>desc_sentence->[CAPTURER_nameDef] يصفع [PRISONER_nameDef] لإخضاعه.</li>
+    <li>desc_sentence->[CAPTURER_nameDef] يصفع [PRISONER_nameDef] لإخضاعـ[PRISONER_objective].</li>
     <li>desc_sentence->[CAPTURER_nameDef] يلوي أذن [PRISONER_nameDef].</li>
     <li>desc_sentence->[CAPTURER_nameDef] يمسك بـ[PRISONER_nameDef] في قفل مفصلي.</li>
     <li>desc_sentence->[CAPTURER_nameDef] يبصق في وجه [PRISONER_nameDef].</li>
@@ -88,7 +88,7 @@
     <li>circumstance_phrase->بأدوات مرتجلة لكنها فعالة</li>
     <li>desc_sentence->[SURGEON_nameDef] يتصبب عرقاً بغزارة.</li>
     <li>desc_sentence->[SURGEON_nameDef] يبدو شديد التركيز على المهمة.</li>
-    <li>desc_sentence->[SURGEON_nameDef] الدم ملطخ على وجهه.</li>
+    <li>desc_sentence->[SURGEON_nameDef] الدم ملطخ على وجهـ[SURGEON_possessive].</li>
     <li>desc_sentence->[PATIENT_nameDef] يرتجف ويتلوى.</li>
  </DidSurgery.rulePack.rulesStrings>
   
@@ -146,10 +146,10 @@
     <li>circumstance_phrase->لأجل المصلحة العليا</li>
     <li>desc_sentence->[EXECUTIONER_nameDef] يتصبب عرقاً بغزارة.</li>
     <li>desc_sentence->[EXECUTIONER_nameDef] يسيل لعابه قليلاً.</li>
-    <li>desc_sentence->[EXECUTIONER_nameDef] الدم ملطخ على وجهه.</li>
+    <li>desc_sentence->[EXECUTIONER_nameDef] الدم ملطخ على وجهـ[EXECUTIONER_possessive].</li>
     <li>desc_sentence->[PRISONER_nameDef] يرتجف ويتلوى.</li>
     <li>desc_sentence->[PRISONER_nameDef] يبدو أنه استسلم تماماً.</li>
-    <li>desc_sentence->[PRISONER_nameDef] أغمض عينيه، كأنه يصلي لقوة أعلى.</li>
+    <li>desc_sentence->[PRISONER_nameDef] أغمض عينيـ[PRISONER_possessive]، كأنما يصلي لقوة أعلى.</li>
     <li>desc_sentence->[PRISONER_nameDef] يبدو متحدياً.</li>
  </ExecutedPrisoner.rulePack.rulesStrings>
   
@@ -180,8 +180,8 @@
     <li>circumstance_phrase->بينما يسافر [PREY_nameDef]</li>
     <li>circumstance_phrase->بينما يأكل [PREY_nameDef]</li>
     <li>desc_sentence->[PREY_nameDef] يبدو غافلاً تماماً.</li>
-    <li>desc_sentence->[HUNTER_nameDef] يقبض على سلاحه بإحكام.</li>
-    <li>desc_sentence->[PREY_nameDef] ينظر حوله كأنه يحس أن شيئاً ما خطأ.</li>
+    <li>desc_sentence->[HUNTER_nameDef] يقبض على سلاحـ[HUNTER_possessive] بإحكام.</li>
+    <li>desc_sentence->[PREY_nameDef] ينظر حوله كأنما يحس [PREY_pronoun] أن شيئاً ما ليس على ما يرام.</li>
  </Hunted.rulePack.rulesStrings>
   
   <!-- EN: colonist kidnapped -->
@@ -222,7 +222,7 @@
     <li>circumstance_phrase->بابتسامة هيمنة</li>
     <li>circumstance_phrase->ملطخاً بالدماء والقذارة</li>
     <li>desc_sentence->[VICTIM_nameDef] يبدو أنه استسلم تماماً.</li>
-    <li>desc_sentence->[VICTIM_nameDef] أغمض عينيه، كأنه يصلي لقوة أعلى.</li>
+    <li>desc_sentence->[VICTIM_nameDef] أغمض عينيـ[VICTIM_possessive]، كأنما يصلي لقوة أعلى.</li>
     <li>desc_sentence->[VICTIM_nameDef] يبدو متحدياً.</li>
     <li>desc_sentence->[VICTIM_nameDef] يصرخ بغضب ورعب.</li>
     <li>desc_sentence->[VICTIM_nameDef] يبدو محطماً ومنهكاً.</li>
@@ -281,9 +281,9 @@
     <li>desc_sentence->[PersonJob] يراقب بصمت [side_position].</li>
     <li>desc_sentence->الدماء تتجمع حول جسد [VICTIM_nameDef].</li>
     <li>desc_sentence->عينا [VICTIM_nameDef] مصورتان بطريقة واقعية بلا حياة.</li>
-    <li>desc_sentence->[KILLER_nameDef] يكشف عن أنيابه.</li>
+    <li>desc_sentence->[KILLER_nameDef] يكشف عن أنيابـ[KILLER_possessive].</li>
     <li>desc_sentence->[KILLER_nameDef] يبدو راضياً.</li>
-    <li>desc_sentence->[KILLER_nameDef] يبدو متألماً مما يفعله.</li>
+    <li>desc_sentence->[KILLER_nameDef] يبدو متألماً مما يفعله [KILLER_pronoun].</li>
     <li>desc_sentence->[KILLER_nameDef] يبدو مسروراً بالوضع.</li>
     <li>desc_sentence->[KILLER_nameDef] يبدو منتصراً.</li>
  </KilledBy.rulePack.rulesStrings>
@@ -368,9 +368,9 @@
     <li>desc_sentence->[TRADER_nameDef] يبتسم ابتسامة شيطانية.</li>
     <li>desc_sentence->[SELLER_nameDef] يضحك بشكل جنوني.</li>
     <li>desc_sentence->[SELLER_nameDef] يسلم [PRISONER_nameDef] للتاجر على مضض.</li>
-    <li>desc_sentence->[PRISONER_nameDef] يحدق بتحدٍ في سيده الجديد.</li>
-    <li>desc_sentence->[TRADER_nameDef] يجر [PRISONER_nameDef] بعيداً بسلاسله.</li>
-    <li>desc_sentence->[PRISONER_nameDef] يحدق في [SELLER_nameDef]، مدبراً انتقامه.</li>
+    <li>desc_sentence->[PRISONER_nameDef] يحدق بتحدٍ في سيد[PRISONER_possessive] الجديد.</li>
+    <li>desc_sentence->[TRADER_nameDef] يجر [PRISONER_nameDef] بعيداً بسلاسلـ[PRISONER_possessive].</li>
+    <li>desc_sentence->[PRISONER_nameDef] يحدق في [SELLER_nameDef]، مدبراً انتقامـ[PRISONER_possessive].</li>
     <li>desc_sentence->[PRISONER_nameDef] يبكي.</li>
     <li>desc_sentence->[PRISONER_nameDef] يبصق في وجه [SELLER_nameDef].</li>
     <li>desc_sentence->[PRISONER_nameDef] يذوب في الأرض.</li>
@@ -444,8 +444,8 @@
     <li>desc_sentence->[BUYER_nameDef] يجادل [SELLER_nameDef].</li>
     <li>desc_sentence->[SELLER_nameDef] و[BUYER_nameDef] يتفقان على سعر.</li>
     <li>desc_sentence->[BUYER_nameDef] يدفع ثمن الشيء.</li>
-    <li>desc_sentence->[SELLER_nameDef] يعد نقوده.</li>
-    <li>desc_sentence->[BUYER_nameDef] يأخذ بضائعه.</li>
+    <li>desc_sentence->[SELLER_nameDef] يعد نقود[SELLER_possessive].</li>
+    <li>desc_sentence->[BUYER_nameDef] يأخذ بضائعـ[BUYER_possessive].</li>
  </TradedWith.rulePack.rulesStrings>
   
   <!-- EN: animal trained -->
@@ -504,12 +504,12 @@
     <li>desc_sentence->[TRAINER_nameDef] يبدي سروراً.</li>
     <li>desc_sentence->[TRAINER_nameDef] يبتسم.</li>
     <li>desc_sentence->[TRAINER_nameDef] يبدو ضجراً.</li>
-    <li>desc_sentence->[TRAINER_nameDef] يلوح بقبضته مهدداً.</li>
-    <li>desc_sentence->[TRAINER_nameDef] يقطب حاجبيه تركيزاً.</li>
+    <li>desc_sentence->[TRAINER_nameDef] يلوح بقبضتـ[TRAINER_possessive] مهدداً.</li>
+    <li>desc_sentence->[TRAINER_nameDef] يقطب حاجبيـ[TRAINER_possessive] تركيزاً.</li>
     <li>desc_sentence->[ANIMAL_nameDef] يبدو حائراً.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] يحمل سلاحاً في فمه.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] يحمل سلاحاً في فمـ[ANIMAL_possessive].</li>
     <li>desc_sentence->[ANIMAL_nameDef] يصدر همهمات مجهدة.</li>
-    <li>desc_sentence->[TRAINER_nameDef] يهز رأسه إحباطاً.</li>
+    <li>desc_sentence->[TRAINER_nameDef] يهز رأسـ[TRAINER_possessive] إحباطاً.</li>
     <li>desc_sentence->[ANIMAL_nameDef] يرتجف خوفاً.</li>
     <li>desc_sentence->[ANIMAL_nameDef] يبدو أنه يتحول إلى [Vegetable].</li>
     <li>desc_sentence->[ANIMAL_nameDef] ممثل ككومة من أدوات الطاقة.</li>

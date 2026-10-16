@@ -70,7 +70,7 @@
     <li>desc_sentence->شفق [Color] يضيء في الخلفية.</li>
     <li>desc_sentence->على البعد، يظهر [Community] مغطى بالثلوج.</li>
     <li>desc_sentence->حقل من [Vegetable]s بالكاد يبدو عبر الثلج.</li>
-    <li>desc_sentence->يمكن رؤية [TerrainFeature] مغطى بالثلج بعيدا.</li>
+    <li>desc_sentence->يمكن رؤية [TerrainFeature] مغطى بالثلج بعيداً.</li>
  </BuiltSnowman.rulePack.rulesStrings>
   
   <!-- EN: buried corpse -->
@@ -102,8 +102,8 @@
     <li>image->[DIGGER_nameFull] يقف بجانب قبر [CORPSE_nameFull] [circumstance_group]</li>
     <li>image->[DIGGER_nameFull] يجلس بجانب قبر [CORPSE_nameFull] [circumstance_group]</li>
     <li>image->[DIGGER_nameFull] يتكئ على قبر [CORPSE_nameFull] [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] يكتب نصا على قبر [CORPSE_nameFull] [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] يرسم فنا على قبر [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] يكتب نصاً على قبر [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] يرسم فناً على قبر [CORPSE_nameFull] [circumstance_group]</li>
     <li>image->[DIGGER_nameFull] يضع جسد [CORPSE_nameFull] داخل قبر [circumstance_group]</li>
     <li>circumstance_phrase->بتعبير [AdjectiveAngsty]</li>
     <li>circumstance_phrase->وغارق في التفكير</li>
@@ -112,9 +112,9 @@
     <li>desc_sentence->شفق [Color] يضيء في الخلفية.</li>
     <li>desc_sentence->على البعد، يظهر [Community] مغطى بالثلوج.</li>
     <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تطل على المشهد بتعبير [AdjectiveFriendly].</li>
-    <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تقف بجانب [DIGGER_nameDef]، مرتدية تعبيرا [AdjectiveFriendly].</li>
+    <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تقف بجانب [DIGGER_nameDef]، مرتدية تعبيراً [AdjectiveFriendly].</li>
     <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تطل على المشهد بتعبير [AdjectiveAngsty].</li>
-    <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تقف بجانب [DIGGER_nameDef]، مرتدية تعبيرا [AdjectiveAngsty].</li>
+    <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تقف بجانب [DIGGER_nameDef]، مرتدية تعبيراً [AdjectiveAngsty].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s تستريح قرب المشهد.</li>
  </BuriedCorpse.rulePack.rulesStrings>
   
@@ -148,7 +148,7 @@
     <li>circumstance_phrase->بينما هو مغطى بالأوساخ</li>
     <li>circumstance_phrase->بينما يبتسم بفخر</li>
     <li>circumstance_phrase->بتعبير رضا على وجهـ[PAWN_possessive]</li>
-    <li>desc_sentence->يبدو [OBJECT_label] شامخا فوق [PAWN_nameDef].</li>
+    <li>desc_sentence->يبدو [OBJECT_label] شامخاً فوق [PAWN_nameDef].</li>
     <li>desc_sentence->يتوهج [OBJECT_label] بلون [Color] ناعم.</li>
     <li>desc_sentence->[OBJECT_label] مفصل بتعقيد.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يتعجبون من [OBJECT_label].</li>
@@ -223,7 +223,7 @@
     <li>circumstance_phrase->ويتحدث بهدوء إلى نفسه</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s تستريح قرب المشهد.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s يقتربون من المنطقة.</li>
-    <li>desc_sentence->[PAWN_nameDef] يشع إصرارا.</li>
+    <li>desc_sentence->[PAWN_nameDef] يشع إصراراً.</li>
     <li>desc_sentence->[PAWN_nameDef] مصاب بشكل واضح.</li>
     <li>desc_sentence->شفق [Color] يضيء في الخلفية.</li>
     <li>desc_sentence->[Quantity_adjphrase] من توابيت السبات المملوءة تحيط بالمشهد.</li>
@@ -250,12 +250,12 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] يصبح خبيرا في مهام [SKILL_label]</li>
+    <li>tale_noun->[PAWN_nameDef] يصبح خبيراً في مهام [SKILL_label]</li>
     <li>image->[PAWN_nameFull] يمارس مهارات [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يقرأ كتابا عن أساليب [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يتلقى تدريبا على مهارات [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يقرأ كتاباً عن أساليب [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يتلقى تدريباً على مهارات [SKILL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يعمل بحمى [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ينهي مشروعا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] ينهي مشروعاً [circumstance_group]</li>
     <li>circumstance_phrase->بينما هو مغطى بالعرق</li>
     <li>circumstance_phrase->بإرهاق واضح</li>
     <li>circumstance_phrase->بتعبير [AdjectiveAngsty]</li>
@@ -291,12 +291,12 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithPassion.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] يصبح خبيرا في مهام [SKILL_label]</li>
+    <li>tale_noun->[PAWN_nameDef] يصبح خبيراً في مهام [SKILL_label]</li>
     <li>image->[PAWN_nameFull] يمارس مهارات [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يقرأ كتابا عن أساليب [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يتلقى تدريبا على مهارات [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يقرأ كتاباً عن أساليب [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يتلقى تدريباً على مهارات [SKILL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يعمل بحمى [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ينهي مشروعا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] ينهي مشروعاً [circumstance_group]</li>
     <li>circumstance_phrase->بتعبير [AdjectiveFriendly]</li>
     <li>circumstance_phrase->بتعبير مبتهج</li>
     <li>circumstance_phrase->بينما [VerbFriendly]</li>
@@ -331,7 +331,7 @@
     <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
   -->
   <IncreasedMenagerie.rulePack.rulesStrings>
-    <li>tale_noun(p=3)->[HUMAN_nameDef] يضم حيوانا آخر إلى [AnimalGroup][HUMAN_possessive] المتزايد</li>
+    <li>tale_noun(p=3)->[HUMAN_nameDef] يضم حيواناً آخر إلى [AnimalGroup][HUMAN_possessive] المتزايد</li>
     <li>tale_noun->[HUMAN_nameDef] تتبعه [AnimalGroup]</li>
     <li>tale_noun->ترويض [HUMAN_nameDef] لـ[ANIMAL_nameDef]</li>
     <li>image->[HUMAN_nameFull] يروض [ANIMAL_nameFull] [circumstance_group]</li>
@@ -408,12 +408,12 @@
     <li>tale_noun->[PAWN_nameDef] ينقب عن عرق غني من [MATERIAL_label]</li>
     <li>image->[PAWN_nameFull] يعمل على جدار [MATERIAL_label] بأدوات التعدين، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يحمل كتلة من [MATERIAL_label]، [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يستريح متكئا على جدار [MATERIAL_label]، [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يستريح متكئاً على جدار [MATERIAL_label]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] ينسق فريق حفر لاستخراج عرق غني من [MATERIAL_label]، [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يتفحص بعناية عرقا غنيا من [MATERIAL_label]، [circumstance_group]</li>
-    <li>circumstance_phrase->يتصبب عرقا بغزارة</li>
-    <li>circumstance_phrase->مرتديا تعبيرا [AdjectiveFriendly]</li>
-    <li>circumstance_phrase->مرتديا تعبيرا [AdjectiveFriendly]</li>
+    <li>image->[PAWN_nameFull] يتفحص بعناية عرقاً غنياً من [MATERIAL_label]، [circumstance_group]</li>
+    <li>circumstance_phrase->يتصبب عرقاً بغزارة</li>
+    <li>circumstance_phrase->مرتدياً تعبيراً [AdjectiveFriendly]</li>
+    <li>circumstance_phrase->مرتدياً تعبيراً [AdjectiveFriendly]</li>
     <li>circumstance_phrase->يبتسم بفخر</li>
     <li>circumstance_phrase->تعبير رضا على وجهـ[PAWN_possessive]</li>
     <li>desc_sentence->[Quantity_adjphrase] من [ally]s يساعدون.</li>
@@ -454,8 +454,8 @@
   -->
   <PlayedGame.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] يستريح عند [OBJECT_label]</li>
-    <li>tale_noun->[PAWN_nameDef] يلعب ألعابا عند [OBJECT_label]</li>
-    <li>tale_noun->[PAWN_nameDef] يستمتع بوقته عند [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] يلعب ألعاباً عند [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] يستمتع بوقتـ[PAWN_objective] عند [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] ينتظر على كرسي، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] منحن فوق [OBJECT_label]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يجلس بجانب [OBJECT_label]، [circumstance_group]</li>
@@ -466,12 +466,12 @@
     <li>circumstance_phrase->يخطط لخطوتـ[PAWN_possessive] التالية</li>
     <li>circumstance_phrase->يدلك معصميـ[PAWN_possessive] بلطف</li>
     <li>circumstance_phrase->[angstyverb] بتعبير [AdjectiveAngsty]</li>
-    <li>circumstance_phrase->مرتديا نظرة [AdjectiveAngsty]</li>
+    <li>circumstance_phrase->مرتدياً نظرة [AdjectiveAngsty]</li>
     <li>circumstance_phrase->[angstyverb]</li>
     <li>desc_sentence->شفق [Color] يضيء في الخلفية.</li>
     <li>desc_sentence->في المسافة، يظهر [Community].</li>
     <li>desc_sentence->في المسافة، يظهر [TerrainFeature].</li>
-    <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يلعبون أيضا.</li>
+    <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يلعبون أيضاً.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يلعبون في الجوار.</li>
     <li>desc_sentence->[PAWN_nameDef] يتوهج بهالة [Color].</li>
     <li>desc_sentence->ملامح [PAWN_nameDef] مبالغ فيها.</li>
@@ -507,7 +507,7 @@
     <li>image->[PAWN_nameFull] ينظر إلى السماء و[circumstance_group]</li>
     <li>circumstance_phrase->يشع سكينة</li>
     <li>circumstance_phrase->يهمس بهدوء</li>
-    <li>circumstance_phrase->مرتديا تعبيرا مفعما بالأمل</li>
+    <li>circumstance_phrase->مرتدياً تعبيراً مفعماً بالأمل</li>
     <li>circumstance_phrase->يتوهج بلطف</li>
     <li>circumstance_phrase->محاط بهالة [Color]</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يحدقون فيـ[PAWN_objective].</li>
@@ -547,9 +547,9 @@
     <li>circumstance_phrase->مع توتر واضح بين الاثنين</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s تستريح قرب المشهد.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s يقتربون من المنطقة.</li>
-    <li>desc_sentence->[CARRIER_nameDef] يشع إصرارا.</li>
+    <li>desc_sentence->[CARRIER_nameDef] يشع إصراراً.</li>
     <li>desc_sentence->[SLEEPER_nameDef] مصاب بشكل واضح.</li>
-    <li>desc_sentence->[SLEEPER_nameDef] يبدو مرهقا.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] يبدو مرهقاً.</li>
     <li>desc_sentence->[Quantity_adjphrase] من توابيت السبات المملوءة تحيط بالمشهد.</li>
  </PutIntoCryptosleep.rulePack.rulesStrings>
   
@@ -576,7 +576,7 @@
     <li>tale_noun->[TAKER_nameDef] يجرد [STRIPPED_nameDef]</li>
     <li>image->[TAKER_nameFull] ينزع ملابس [STRIPPED_nameFull] علنا [circumstance_group]</li>
     <li>image->[TAKER_nameFull] يزيل ملابس [STRIPPED_nameFull] [circumstance_group]</li>
-    <li>image->[TAKER_nameFull] يحمل حفنة من [Apparel]s بينما يقف بجانب [STRIPPED_nameFull]، العاري تماما [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] يحمل حفنة من [Apparel]s بينما يقف بجانب [STRIPPED_nameFull]، العاري تماماً [circumstance_group]</li>
     <li>image->[TAKER_nameFull] ينتظر بصبر بينما يخلع [STRIPPED_nameFull] ملابسـ[STRIPPED_possessive] [circumstance_group]</li>
     <li>circumstance_phrase->بإحساس بالهدف</li>
     <li>circumstance_phrase->دون أي أثر للخجل</li>
@@ -587,11 +587,11 @@
     <li>desc_sentence->[STRIPPED_nameDef] مغطى برطوبة غير مفسرة.</li>
     <li>desc_sentence->[STRIPPED_nameDef] يتنفس بصعوبة دون سبب واضح.</li>
     <li>desc_sentence->[STRIPPED_nameDef] يتحسس شجيرة.</li>
-    <li>desc_sentence->[STRIPPED_nameDef] يرتدي فقط تعبيرا [AdjectiveAngsty].</li>
+    <li>desc_sentence->[STRIPPED_nameDef] يرتدي فقط تعبيراً [AdjectiveAngsty].</li>
  </Stripped.rulePack.rulesStrings>
   
   <!-- EN: visited grave -->
-  <VisitedGrave.label>زار قبرا</VisitedGrave.label>
+  <VisitedGrave.label>زار قبراً</VisitedGrave.label>
   <!-- EN:
     <li>tale_noun->[VISITOR_nameDef] visiting the grave of [CORPSE_nameDef]</li>
     <li>tale_noun->[VISITOR_nameDef] visiting [CORPSE_nameDef]'s grave</li>
@@ -627,9 +627,9 @@
     <li>desc_sentence->شفق [Color] يضيء في الخلفية.</li>
     <li>desc_sentence->على البعد، يظهر [Community] مغطى بالثلوج.</li>
     <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تطل على المشهد بتعبير [AdjectiveFriendly].</li>
-    <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تقف بجانب [VISITOR_nameDef]، مرتدية تعبيرا [AdjectiveFriendly].</li>
+    <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تقف بجانب [VISITOR_nameDef]، مرتدية تعبيراً [AdjectiveFriendly].</li>
     <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تطل على المشهد بتعبير [AdjectiveAngsty].</li>
-    <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تقف بجانب [VISITOR_nameDef]، مرتدية تعبيرا [AdjectiveAngsty].</li>
+    <li>desc_sentence->صورة طيفية لـ[CORPSE_nameDef] تقف بجانب [VISITOR_nameDef]، مرتدية تعبيراً [AdjectiveAngsty].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s تستريح قرب المشهد.</li>
  </VisitedGrave.rulePack.rulesStrings>
   

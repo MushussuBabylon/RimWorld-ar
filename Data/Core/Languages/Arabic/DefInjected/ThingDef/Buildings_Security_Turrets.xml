@@ -15,7 +15,7 @@
   <Bullet_MiniTurret.label>رصاصة برج صغير</Bullet_MiniTurret.label>
   
   <!-- EN: uranium slug -->
-  <Bullet_TurretSniper.label>قاذف يورانيوم</Bullet_TurretSniper.label>
+  <Bullet_TurretSniper.label>رصاصة اليورانيوم</Bullet_TurretSniper.label>
   
   <!-- EN: autocannon -->
   <Gun_AutocannonTurret.label>مدفع آلي</Gun_AutocannonTurret.label>
@@ -48,7 +48,7 @@
   <!-- EN: uranium slug cannon -->
   <Gun_TurretSniper.label>مدفع رصاص اليورانيوم</Gun_TurretSniper.label>
   <!-- EN: A self-loading uranium slug cannon designed to attach to a turret. -->
-  <Gun_TurretSniper.description>مدفع رصاص يورانيوم ذاتي التلقيم مصمم لتركيبه على برج.</Gun_TurretSniper.description>
+  <Gun_TurretSniper.description>مدفع رصاص اليورانيوم ذاتي التلقيم مصمم لتركيبه على برج.</Gun_TurretSniper.description>
   <!-- EN: uranium slug cannon -->
   <Gun_TurretSniper.verbs.Verb_Shoot.label>مدفع رصاص اليورانيوم</Gun_TurretSniper.verbs.Verb_Shoot.label>
   
@@ -124,12 +124,12 @@
   <!-- EN: uranium slug turret -->
   <Turret_Sniper.label>برج رصاص اليورانيوم</Turret_Sniper.label>
   <!-- EN: An armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
-  <Turret_Sniper.description>برج خارق للدروع. قذائف اليورانيوم فائقة الكثافة يمكنها اختراق الدروع الثقيلة، لكنها تتطلب تحميل رصاص يورانيوم جديدة بعد الاستخدام. إنها أكثر دقة في النطاقات الأطول، ولا يمكنها إطلاق النار على الإطلاق عن قرب. قد تنفجر عند تلفها.</Turret_Sniper.description>
+  <Turret_Sniper.description>برج خارق للدروع. قذائف اليورانيوم فائقة الكثافة يمكنها اختراق الدروع الثقيلة، لكنها تتطلب تحميل رصاص يورانيوم جديد بعد الاستخدام. إنها أكثر دقة في النطاقات الأطول، ولا يمكنها إطلاق النار على الإطلاق عن قرب. قد تنفجر عند تلفها.</Turret_Sniper.description>
   <!-- EN: Uranium slugs -->
-  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>رصاص يورانيوم</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>رصاص اليورانيوم</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until rearm -->
   <Turret_Sniper.comps.CompRefuelable.fuelLabel>طلقات حتى إعادة التسليح</Turret_Sniper.comps.CompRefuelable.fuelLabel>
   <!-- EN: No slugs -->
-  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>لا يوجد قاذف</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
+  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>لا يوجد رصاص</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
   
 </LanguageData>
