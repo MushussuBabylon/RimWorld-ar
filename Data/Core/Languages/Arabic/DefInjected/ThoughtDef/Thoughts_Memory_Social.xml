@@ -9,7 +9,7 @@
   <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: broke up with me -->
   <BrokeUpWithMe.stages.broke_up_with_me.label>انفصل عني</BrokeUpWithMe.stages.broke_up_with_me.label>
-  <BrokeUpWithMe.stages.broke_up_with_me.labelSocial>{1_gender ? تركني : تركتني}</BrokeUpWithMe.stages.broke_up_with_me.labelSocial>
+  <BrokeUpWithMe.stages.broke_up_with_me.labelSocial>{OTHERPAWN_gender ? تركني : تركتني}</BrokeUpWithMe.stages.broke_up_with_me.labelSocial>
   
   <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: broken up with by {0} -->
@@ -65,7 +65,7 @@
   <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: forced me to take drugs -->
   <ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>أجبرني على تعاطي المخدرات</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>
-  <ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>{1_gender ? حقنني : حقنتني} بالمخدرات</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>
+  <ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>{OTHERPAWN_gender ? حقنني : حقنتني} بالمخدرات</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>
   
   <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: forced to take drugs -->
