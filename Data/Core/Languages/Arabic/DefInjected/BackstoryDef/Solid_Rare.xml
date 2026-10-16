@@ -11,7 +11,7 @@
   <CynapseCustomAdulthood.titleShortFemale>ناسكة</CynapseCustomAdulthood.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] time disassembling and reassembling electronic devices in order to figure out how they function. [PAWN_nameDef] became so preoccupied with [PAWN_possessive] tinkering that [PAWN_pronoun] forgot to develop social relationships with other humans. -->
-  <CynapseCustomChildhood.description>[PAWN_nameDef] أمضى معظم وقتـ[PAWN_possessive] في تفكيك الأجهزة الإلكترونية وإعادة تركيبها لمعرفة كيف تعمل. أصبح [PAWN_nameDef] منهمكاً للغاية في عبثـ[PAWN_possessive] حتى أن [PAWN_pronoun] نسي تطوير علاقات اجتماعية مع البشر الآخرين.</CynapseCustomChildhood.description>
+  <CynapseCustomChildhood.description>أمضى [PAWN_nameDef] معظم وقتـ[PAWN_possessive] في تفكيك الأجهزة الإلكترونية وإعادة تركيبها لمعرفة كيفية عملها. وانهمك [PAWN_nameDef] في عبثـ[PAWN_possessive] حتى نسي [PAWN_pronoun] تطوير علاقات اجتماعية مع البشر الآخرين.</CynapseCustomChildhood.description>
   <!-- EN: tinkerer -->
   <CynapseCustomChildhood.title>مُعدّل</CynapseCustomChildhood.title>
   <CynapseCustomChildhood.titleFemale>مُعدّلة</CynapseCustomChildhood.titleFemale>
@@ -35,7 +35,7 @@
   <FeyCustomChildhood.titleFemale>متعصبة ألعاب الحرب</FeyCustomChildhood.titleFemale>
   <!-- EN: wargame fanatic -->
   <FeyCustomChildhood.titleShort>متعصب ألعاب الحرب</FeyCustomChildhood.titleShort>
-  <FeyCustomChildhood.titleShortFemale>متعصبة</FeyCustomChildhood.titleShortFemale>
+  <FeyCustomChildhood.titleShortFemale>متعصبة ألعاب الحرب</FeyCustomChildhood.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was a hobbyist game developer who lived in an endless cycle of unfinished projects and lofty ideas. -->
   <JoeCustomAdulthood.description>[PAWN_nameDef] كان مطور ألعاب هاوٍ عاش في دورة لا نهائية من المشاريع غير المكتملة والأفكار السامية.</JoeCustomAdulthood.description>
@@ -70,13 +70,13 @@
   <LiamCustomChildhood.titleShort>مدمن محاكاة</LiamCustomChildhood.titleShort>
   
   <!-- EN: After being laid off by an interplanetary megacorp, [PAWN_nameDef] spent several years disillusioned and fighting alcohol addiction.\n\n[PAWN_pronoun] ended up busking aboard a space freighter, playing a beaten-up guitar and entertaining the crew with blues and folk songs from the distant past. -->
-  <MateCustomAdulthood.description>بعد أن تم تسريحه من شركة عملاقة بين الكواكب، أمضى [PAWN_nameDef] عدة سنوات محبطاً ويحارب إدمان الكحول.\n\nانتهى به المطاف يعزف في الشارع على متن سفينة شحن فضائية، يعزف على غيتار قديم ويسلي الطاقم بأغاني البلوز والفولك من الماضي البعيد.</MateCustomAdulthood.description>
+  <MateCustomAdulthood.description>بعد أن سُرّح من شركة عملاقة عابرة للكواكب، أمضى [PAWN_nameDef] عدة سنوات محبطاً ويحارب إدمان الكحول.\n\nانتهى [PAWN_pronoun] عازفاً متجولاً على متن سفينة شحن فضائية، يعزف على غيتار متهالك ويسلّي الطاقم بأغاني البلوز والفولك من الماضي البعيد.</MateCustomAdulthood.description>
   <!-- EN: busker -->
   <MateCustomAdulthood.title>عازف شوارع</MateCustomAdulthood.title>
   <MateCustomAdulthood.titleFemale>عازفة شوارع</MateCustomAdulthood.titleFemale>
   <!-- EN: busker -->
   <MateCustomAdulthood.titleShort>عازف شوارع</MateCustomAdulthood.titleShort>
-  <MateCustomAdulthood.titleShortFemale>موسيقية</MateCustomAdulthood.titleShortFemale>
+  <MateCustomAdulthood.titleShortFemale>عازفة شوارع</MateCustomAdulthood.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] childhood dreaming of becoming a famous artist who could impress people with [PAWN_possessive] creations. -->
   <MateCustomChildhood.description>[PAWN_nameDef] أمضى معظم طفولتـ[PAWN_possessive] يحلم بأن يصبح فناناً مشهوراً يمكنه إبهار الناس بإبداعاتـ[PAWN_possessive].</MateCustomChildhood.description>
@@ -84,7 +84,7 @@
   <MateCustomChildhood.title>طفل فضولي</MateCustomChildhood.title>
   <!-- EN: curious kid -->
   <MateCustomChildhood.titleShort>طفل فضولي</MateCustomChildhood.titleShort>
-  <MateCustomChildhood.titleShortFemale>الفضولية</MateCustomChildhood.titleShortFemale>
+  <MateCustomChildhood.titleShortFemale>طفلة فضولية</MateCustomChildhood.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] carved living spaces and mined minerals from the sides of hills and mountains. [PAWN_pronoun] learned to feel at home picking through rock and shoring up cave walls. -->
   <NathanCustomAdulthood.description>[PAWN_nameDef] نحت مساحات للعيش واستخرج المعادن من سفوح التلال والجبال. تعلم [PAWN_pronoun] أن يشعر وكأنه في منزله وهو ينقب في الصخر ويدعم جدران الكهوف.</NathanCustomAdulthood.description>
@@ -141,7 +141,7 @@
   <WillCustomAdulthood.titleFemale>صانعة متاهات</WillCustomAdulthood.titleFemale>
   <!-- EN: labyrinth maker -->
   <WillCustomAdulthood.titleShort>صانع متاهات</WillCustomAdulthood.titleShort>
-  <WillCustomAdulthood.titleShortFemale>مصممة</WillCustomAdulthood.titleShortFemale>
+  <WillCustomAdulthood.titleShortFemale>صانعة متاهات</WillCustomAdulthood.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] grew up in a research camp on a deadworld. [PAWN_possessive] parents were astrobiologists studying mysterious labyrinthine formations beneath the planet's crust. [PAWN_pronoun] spent most of his time wandering those tunnels, wondering what otherworldly entity could have created them. -->
   <WillCustomChildhood.description>[PAWN_nameDef] نشأ في معسكر أبحاث على عالم ميت. كان والدا[PAWN_possessive] عالمي أحياء فلكية يدرسان التكوينات المتاهية الغامضة تحت قشرة الكوكب. أمضى [PAWN_pronoun] معظم وقته وهو يتجول في تلك الأنفاق، متسائلاً أي كيان من عالم آخر قد يكون خلقها.</WillCustomChildhood.description>
