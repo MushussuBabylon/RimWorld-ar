@@ -4,7 +4,7 @@
   <!-- EN: small chemfuel tank -->
   <ChemfuelTank.label>خزان وقود كيميائي صغير</ChemfuelTank.label>
   <!-- EN: A chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
-  <ChemfuelTank.description>حاوية تزود دافعات سفينة الجاذبية بالوقود الكيميائي.</ChemfuelTank.description>
+  <ChemfuelTank.description>خزان لتخزين الوقود الكيميائي يمد دوافع سفينة الجاذبية بالوقود.</ChemfuelTank.description>
   <!-- EN: Chemfuel -->
   <ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>وقود كيميائي</ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Chemfuel -->
@@ -13,7 +13,7 @@
   <!-- EN: fuel optimizer -->
   <FuelOptimizer.label>محسن الوقود</FuelOptimizer.label>
   <!-- EN: A gravtech unit that allows grav engine lift to coordinate more efficiently with traditional thrusters. It reduces the fuel needed for gravship flight.\n\nA gravship can support two fuel optimizers. -->
-  <FuelOptimizer.description>وحدة تقنية جاذبية تتيح تعاوناً أكثر كفاءة بين محرك الجاذبية والدافعات التقليدية. تقلل من استهلاك الوقود أثناء تحليق سفينة الجاذبية.\n\nيمكن لسفينة الجاذبية أن تدعم ما يصل إلى محسني وقود.</FuelOptimizer.description>
+  <FuelOptimizer.description>وحدة من تقنية الجاذبية تتيح لرفع محرك الجاذبية التنسيق بكفاءة أكبر مع الدوافع التقليدية. تقلل الوقود اللازم لتحليق سفينة الجاذبية.\n\nيمكن لسفينة الجاذبية دعم محسّنين اثنين للوقود.</FuelOptimizer.description>
   
   <!-- EN: grav anchor -->
   <GravAnchor.label>مرساة الجاذبية</GravAnchor.label>
@@ -28,29 +28,29 @@
   <!-- EN: grav engine -->
   <GravEngine.label>محرك جاذبية</GravEngine.label>
   <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Without a grav anchor, launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
-  <GravEngine.description>قلب سفينة الجاذبية فائق التقنية. يولد محرك الجاذبية قوة الرفع بعكس وتكثيف تأثير الجاذبية في حقل حوله. يمكن لهذا المحرك الرفع للأعلى لكنه لا ينتج دفعاً أمامياً. لا يمكنه العمل بعيداً عن بئر جاذبية كبير مثل كوكب، لذا فهو غير صالح للسفر بين الكواكب.\n\nعند الإطلاق، سيتم نقل كل ما على البنية التحتية المتصلة بمحرك الجاذبية إلى خريطة جديدة. بدون مرساة الجاذبية، سيؤدي إطلاق سفينة الجاذبية إلى التخلي عن خريطتك الحالية.\n\nيستخدم مهندسو عوالم البريق سفن الجاذبية لإطلاق منصات مدارية وبناء ممزقات السماء. يتطلب إنتاجها منشآت ضخمة وفائقة التخصص، مما يجعلها نادرة خارج عوالم البريق.</GravEngine.description>
+  <GravEngine.description>قلب سفينة الجاذبية فائق التقنية. يولد محرك الجاذبية قوة الرفع بعكس تأثير الجاذبية وتكثيفه في مجال حوله. يستطيع هذا المحرك الرفع إلى الأعلى لكنه لا يولد دفعاً أمامياً. ولا يعمل بعيداً عن بئر جاذبية كبير كالكوكب، لذا فهو عديم الفائدة للسفر بين الكواكب.\n\nعند الإطلاق، سيُنقل كل ما على البنية التحتية المتصلة بمحرك الجاذبية إلى خريطة جديدة. وبدون مرساة جاذبية، سيؤدي إطلاق سفينة الجاذبية إلى التخلي عن خريطتك الحالية.\n\nيستخدم مهندسو العوالم اللامعة سفن الجاذبية لإطلاق المنصات المدارية وبناء ممزقات السماء. ويتطلب إنتاجها منشآت ضخمة وفائقة التخصص، مما يجعلها نادرة خارج العوالم اللامعة.</GravEngine.description>
   
   <!-- EN: grav field extender -->
-  <GravFieldExtender.label>موسع مجال الجاذبية</GravFieldExtender.label>
+  <GravFieldExtender.label>موسّع مجال الجاذبية</GravFieldExtender.label>
   <!-- EN: An ultratech device used to increase the size of a gravship. It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support. Must be built near a grav engine.\n\nA gravship can support up to six grav field extenders. -->
-  <GravFieldExtender.description>جهاز فائق التقنية يمكن استخدامه لتوسيع سفينة الجاذبية. يوسع المنطقة التي يمكن بناء الهياكل الأساسية فيها، ويزيد عدد الهياكل الأساسية التي يمكن لسفينة الجاذبية حملها. يجب بناؤه بالقرب من محرك الجاذبية.\n\nيمكن لسفينة الجاذبية دعم ما يصل إلى ستة موسعات مجال جاذبية.</GravFieldExtender.description>
+  <GravFieldExtender.description>جهاز فائق التقنية يُستخدم لزيادة حجم سفينة الجاذبية. يوسع المنطقة التي يمكن بناء البنية التحتية فيها، ويزيد كمية البنية التحتية التي تستطيع سفينة الجاذبية دعمها. يجب بناؤه بالقرب من محرك الجاذبية.\n\nيمكن لسفينة الجاذبية دعم ما يصل إلى ستة موسّعات لمجال الجاذبية.</GravFieldExtender.description>
   
   <!-- EN: gravship hull -->
   <GravshipHull.label>هيكل سفينة الجاذبية</GravshipHull.label>
   <!-- EN: A strong airtight wall that prevents oxygen leaks in the vacuum of space. The wall connects directly into the underlying substructure, meaning it can only be built on a gravship. -->
-  <GravshipHull.description>جدار قوي محكم الإغلاق يمنع تسرب الأكسجين في فراغ الفضاء. الجدار متصل مباشرة بالهيكل الأساسي التحتي، لذا لا يمكن بناؤه إلا على سفينة الجاذبية.</GravshipHull.description>
+  <GravshipHull.description>جدار قوي محكم الإغلاق يمنع تسرب الأكسجين في فراغ الفضاء. يتصل الجدار مباشرة بالبنية التحتية الموجودة تحته، لذا لا يمكن بناؤه إلا على سفينة الجاذبية.</GravshipHull.description>
   
   <!-- EN: gravship shield generator -->
   <GravshipShieldGenerator.label>مولد درع سفينة الجاذبية</GravshipShieldGenerator.label>
   <!-- EN: A shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out.\n\nIt must be charged before use. One gravship can support two gravship shield generators. -->
-  <GravshipShieldGenerator.description>جهاز يمكنه حماية سفينة الجاذبية. يعدل مجال الجاذبية لإنشاء درع حماية واسع النطاق قصير العمر يصد القذائف الأرضية والجوية. يمكن للطلقات الخروج ولكن لا يمكنها الدخول.\n\nيجب شحن الجهاز قبل الاستخدام. يمكن لسفينة الجاذبية دعم ما يصل إلى مولدي درع جاذبية.</GravshipShieldGenerator.description>
+  <GravshipShieldGenerator.description>جهاز درعي يمكنه حماية سفينة الجاذبية. يعدّل مجال الجاذبية لتكوين سطح طاردٍ للزخم قصير العمر يحجب المقذوفات. يتصدى للطلقات العادية وقذائف الهاون، ويظل بإمكان من بالداخل إطلاق النار إلى الخارج.\n\nيجب شحنه قبل الاستخدام. يمكن لسفينة الجاذبية دعم مولدي درع جاذبية اثنين.</GravshipShieldGenerator.description>
   <!-- EN: activate -->
   <GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>تفعيل</GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
   
   <!-- EN: large chemfuel tank -->
   <LargeChemfuelTank.label>خزان وقود كيميائي كبير</LargeChemfuelTank.label>
   <!-- EN: A massive chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
-  <LargeChemfuelTank.description>حاوية كبيرة تزود دافعات سفينة الجاذبية بالوقود الكيميائي.</LargeChemfuelTank.description>
+  <LargeChemfuelTank.description>خزان ضخم لتخزين الوقود الكيميائي يمد دوافع سفينة الجاذبية بالوقود.</LargeChemfuelTank.description>
   <!-- EN: Chemfuel -->
   <LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>وقود كيميائي</LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Chemfuel -->
@@ -59,7 +59,7 @@
   <!-- EN: large thruster -->
   <LargeThruster.label>دافع كبير</LargeThruster.label>
   <!-- EN: An advanced chemfuel thruster with a heat-resistant vacstone liner. It greatly increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires vacstone blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to six large thrusters. -->
-  <LargeThruster.description>دافع متقدم يعمل بالوقود الكيميائي مزود ببطانة مقاومة للحرارة من حجر الفراغ، يزيد بشكل كبير من مدى سفينة الجاذبية. تحتاج الدافعات إلى منطقة خالية من المباني الكبيرة والهياكل الأساسية لسفينة الجاذبية.\n\nيتطلب حجر الفراغ من الكويكبات المدارية.\n\nيمكن لسفينة الجاذبية دعم ما يصل إلى ستة دافعات كبيرة.</LargeThruster.description>
+  <LargeThruster.description>دافع متقدم يعمل بالوقود الكيميائي مزود ببطانة من حجر الفراغ مقاومة للحرارة، ويزيد مدى سفينة الجاذبية بشكل كبير. تحتاج الدوافع إلى منطقة مكشوفة خالية من المباني الكبيرة والبنية التحتية لسفينة الجاذبية.\n\nيتطلب كتل حجر الفراغ التي يمكن الحصول عليها من الكويكبات المدارية.\n\nيمكن لسفينة الجاذبية دعم ما يصل إلى ستة دوافع كبيرة.</LargeThruster.description>
   
   <!-- EN: minified thing -->
   <MinifiedGravEngine.label>شيء مصغر</MinifiedGravEngine.label>
@@ -72,23 +72,23 @@
   <!-- EN: pilot subpersona core -->
   <PilotSubpersonaCore.label>نواة شخصية فرعية للطيار</PilotSubpersonaCore.label>
   <!-- EN: A low-grade subpersona specialized in gravship flight. It reduces the chance of an accident when flying a gravship, though it can't fully account for human error.\n\nA gravship can support up to two pilot subpersona cores. -->
-  <PilotSubpersonaCore.description>شخصية فرعية منخفضة الجودة متخصصة في تحليق سفن الجاذبية. تقلل من خطر الحوادث عند تحليق سفينة الجاذبية، لكنها لا تستطيع التعويض الكامل عن الأخطاء البشرية.\n\nيمكن لسفينة الجاذبية دعم ما يصل إلى نواتي شخصية فرعية للطيار.</PilotSubpersonaCore.description>
+  <PilotSubpersonaCore.description>شخصية فرعية منخفضة المستوى متخصصة في قيادة سفن الجاذبية. تقلل احتمال وقوع حادث عند قيادة سفينة الجاذبية، لكنها لا تستطيع التعويض الكامل عن الخطأ البشري.\n\nيمكن لسفينة الجاذبية دعم نواتي شخصية فرعية للطيار على الأكثر.</PilotSubpersonaCore.description>
   
   <!-- EN: mechanoid ship chunk -->
   <ShipChunk_Mech.label>كتلة سفينة ميكانويد</ShipChunk_Mech.label>
   <!-- EN: A chunk of mechanoid spacecraft made of steel and gravlite panels. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nDeconstruct it to obtain valuable resources. -->
-  <ShipChunk_Mech.description>كتلة من سفينة فضائية للميكانويدات مصنوعة من الفولاذ وألواح الجرافليت. يبدو أنها انفصلت إما بفعل قوى الدخول غير المنضبط أو نوع من الأسلحة.\n\nفككها للحصول على موارد قيّمة.</ShipChunk_Mech.description>
+  <ShipChunk_Mech.description>كتلة من سفينة فضائية للميكانويدات مصنوعة من الفولاذ وألواح الجاذبية الخفيفة. يبدو أنها انتُزعت إما بفعل قوى إعادة الدخول غير المنضبطة أو بنوع من الأسلحة.\n\nفككها للحصول على موارد قيّمة.</ShipChunk_Mech.description>
   <!-- EN: Deconstruct for valuable resources. -->
-  <ShipChunk_Mech.comps.CompInspectString.inspectString>فكك للحصول على موارد قيّمة.</ShipChunk_Mech.comps.CompInspectString.inspectString>
+  <ShipChunk_Mech.comps.CompInspectString.inspectString>فككها للحصول على موارد قيّمة.</ShipChunk_Mech.comps.CompInspectString.inspectString>
   
   <!-- EN: signal jammer -->
-  <SignalJammer.label>مشوش الإشارة</SignalJammer.label>
+  <SignalJammer.label>مشوّش إشارات</SignalJammer.label>
   <!-- EN: A signal emitter that disguises the electromagnetic signature of your gravship, allowing it to approach heavily-defended landing sites. -->
-  <SignalJammer.description>باعث إشارة يخفي البصمة الكهرومغناطيسية لسفينة الجاذبية خاصتك. يسمح بالاقتراب من مواقع الهبوط شديدة التحصين.</SignalJammer.description>
+  <SignalJammer.description>باعث إشارات يخفي البصمة الكهرومغناطيسية لسفينة الجاذبية، مما يتيح لها الاقتراب من مواقع الهبوط شديدة التحصين.</SignalJammer.description>
   
   <!-- EN: small thruster -->
   <SmallThruster.label>دافع صغير</SmallThruster.label>
   <!-- EN: A chemfuel thruster that increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nA gravship can support up to four small thrusters. -->
-  <SmallThruster.description>دافع يعمل بالوقود الكيميائي يزيد من مدى سفينة الجاذبية. تحتاج الدافعات إلى منطقة خالية من المباني الكبيرة والهياكل الأساسية لسفينة الجاذبية.\n\nيمكن لسفينة الجاذبية دعم ما يصل إلى أربعة دافعات صغيرة.</SmallThruster.description>
+  <SmallThruster.description>دافع يعمل بالوقود الكيميائي يزيد مدى سفينة الجاذبية. تحتاج الدوافع إلى منطقة مكشوفة خالية من المباني الكبيرة والبنية التحتية لسفينة الجاذبية.\n\nيمكن لسفينة الجاذبية دعم ما يصل إلى أربعة دوافع صغيرة.</SmallThruster.description>
   
 </LanguageData>

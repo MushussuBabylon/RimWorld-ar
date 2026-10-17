@@ -14,7 +14,7 @@
   <!-- EN: bay -->
   <Bay.label>خليج</Bay.label>
   <!-- EN: A large indentation in the coastline that provides shelter from strong coastal winds. -->
-  <Bay.description>انبعاج كبير في الساحل يوفر حماية من الرياح الساحلية القوية.</Bay.description>
+  <Bay.description>تقعّر كبير في خط الساحل يوفر الحماية من الرياح الساحلية القوية.</Bay.description>
   
   <!-- EN: cave pools -->
   <CaveLakes.label>برك كهفية</CaveLakes.label>
@@ -37,7 +37,7 @@
   <Cliffs.description>تحيط جروف شديدة بثلاثة جوانب من هذه المنطقة.</Cliffs.description>
   
   <!-- EN: coastal atoll -->
-  <CoastalAtoll.label>شعب حلقي ساحلي</CoastalAtoll.label>
+  <CoastalAtoll.label>جزيرة مرجانية ساحلية</CoastalAtoll.label>
   <!-- EN: An island surrounding a large lagoon. There's very little land to build on here. -->
   <CoastalAtoll.description>جزيرة تحيط ببحيرة شاطئية كبيرة. هناك مساحة صغيرة جداً من الأرض للبناء عليها هنا.</CoastalAtoll.description>
   
@@ -49,12 +49,12 @@
   <!-- EN: bay -->
   <Cove.label>خليج صغير</Cove.label>
   <!-- EN: A large indentation in the coastline that provides shelter from strong coastal winds. -->
-  <Cove.description>انبعاج كبير في الساحل يوفر حماية من الرياح الساحلية القوية.</Cove.description>
+  <Cove.description>تقعّر كبير في خط الساحل يوفر الحماية من الرياح الساحلية القوية.</Cove.description>
   
   <!-- EN: crevasse -->
   <Crevasse.label>شق جليدي</Crevasse.label>
   <!-- EN: A massive rift created by glacial movement. -->
-  <Crevasse.description>صدع ضخم تكون بفعل حركة الأنهار الجليدية.</Crevasse.description>
+  <Crevasse.description>شق ضخم تكوّن بفعل حركة الأنهار الجليدية.</Crevasse.description>
   
   <!-- EN: dry lake -->
   <DryLake.label>بحيرة جافة</DryLake.label>
@@ -72,7 +72,7 @@
   <Fertile.description>تحتوي هذه المنطقة على تربة خصبة أكثر من المعتاد.</Fertile.description>
   
   <!-- EN: fjord -->
-  <Fjord.label>مضيق بحري</Fjord.label>
+  <Fjord.label>فيورد</Fjord.label>
   <!-- EN: A long, narrow sea inlet surrounded by steep terrain. -->
   <Fjord.description>مدخل بحري طويل وضيق تحيط به تضاريس شديدة الانحدار.</Fjord.description>
   
@@ -82,7 +82,7 @@
   <Headwater.description>نقطة منشأ النهر.</Headwater.description>
   
   <!-- EN: hollow -->
-  <Hollow.label>جوف</Hollow.label>
+  <Hollow.label>منخفض</Hollow.label>
   <!-- EN: A small open area surrounded by cliffs. -->
   <Hollow.description>منطقة صغيرة مفتوحة تحيط بها الجروف.</Hollow.description>
   
@@ -139,7 +139,7 @@
   <!-- EN: lava flow -->
   <LavaFlow.label>تدفق حمم</LavaFlow.label>
   <!-- EN: The surrounding landscape routinely funnels large amounts of lava into this area, making it extremely inhospitable. -->
-  <LavaFlow.description>يقوم المشهد المحيط بشكل روتيني بتوجيه كميات كبيرة من الحمم إلى هذه المنطقة، مما يجعلها غير قابلة للسكن إلى حد كبير.</LavaFlow.description>
+  <LavaFlow.description>تتدفق كميات كبيرة من الحمم بانتظام من المشهد المحيط إلى هذه المنطقة، مما يجعلها غير صالحة للسكن إطلاقاً.</LavaFlow.description>
   
   <!-- EN: lava lake -->
   <LavaLake.label>بحيرة حمم</LavaLake.label>
@@ -152,9 +152,9 @@
   <Marshy.description>بقع من المستنقع تتخلل هذه المنطقة.</Marshy.description>
   
   <!-- EN: mixed biome -->
-  <MixedBiome.label>مجال حيوي مختلط</MixedBiome.label>
+  <MixedBiome.label>نطاق حيوي مختلط</MixedBiome.label>
   <!-- EN: This area is at the boundary of two distinct biomes and has elements of both. -->
-  <MixedBiome.description>هذه المنطقة عند حدود مجالين حيويين متميزين ولها عناصر من كليهما.</MixedBiome.description>
+  <MixedBiome.description>هذه المنطقة عند حدود نطاقين حيويين متميزين ولها عناصر من كليهما.</MixedBiome.description>
   
   <!-- EN: muddy -->
   <Muddy.label>موحل</Muddy.label>
@@ -169,7 +169,7 @@
   <!-- EN: peninsula -->
   <Peninsula.label>شبه جزيرة</Peninsula.label>
   <!-- EN: An outcropping of land surrounded by ocean. -->
-  <Peninsula.description>نتوء من الأرض تحيط به المحيط.</Peninsula.description>
+  <Peninsula.description>نتوء من اليابسة يحيط به المحيط.</Peninsula.description>
   
   <!-- EN: plateau -->
   <Plateau.label>هضبة</Plateau.label>
@@ -202,9 +202,9 @@
   <Sandy.description>بقع كبيرة من الرمال منتشرة في جميع أنحاء هذه المنطقة.</Sandy.description>
   
   <!-- EN: terraforming scar -->
-  <TerraformingScar.label>ندبة استصلاح</TerraformingScar.label>
+  <TerraformingScar.label>ندبة التشكيل البيئي</TerraformingScar.label>
   <!-- EN: A misaligned blast from an ancient terraforming device has warped the earth into serpentine spirals. The area has since recovered, though the twisted and deformed hills remain. -->
-  <TerraformingScar.description>انفجار منحرف من جهاز استصلاح قديم شوه الأرض إلى حلزونات أفعوانية. تعافت المنطقة منذ ذلك الحين، على الرغم من بقاء التلال الملتوية والمشوهة.</TerraformingScar.description>
+  <TerraformingScar.description>انفجار منحرف من جهاز تشكيل بيئي قديم شوّه الأرض إلى حلزونات أفعوانية. تعافت المنطقة منذ ذلك الحين، لكن التلال الملتوية والمشوهة ما زالت قائمة.</TerraformingScar.description>
   
   <!-- EN: toxic lake -->
   <ToxicLake.label>بحيرة سامة</ToxicLake.label>
@@ -212,9 +212,9 @@
   <ToxicLake.description>مسطح مائي تسمم بفعل مواد كيميائية ترشحت من الأرض. ستسبب المياه تراكماً ساماً.</ToxicLake.description>
   
   <!-- EN: valley -->
-  <Valley.label>وادي</Valley.label>
+  <Valley.label>وادٍ</Valley.label>
   <!-- EN: A steep valley carved through a mountain. -->
-  <Valley.description>وادي شديد الانحدار محفور عبر جبل.</Valley.description>
+  <Valley.description>وادٍ شديد الانحدار منحوت عبر جبل.</Valley.description>
   
   <!-- EN: wetland -->
   <Wetland.label>أرض رطبة</Wetland.label>

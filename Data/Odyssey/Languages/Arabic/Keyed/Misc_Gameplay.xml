@@ -21,7 +21,7 @@
   <!-- EN: no substructure -->
   <CannotLaunchNoSubstructure>لا توجد بنية تحتية</CannotLaunchNoSubstructure>
   <!-- EN: no unblocked functioning thrusters -->
-  <CannotLaunchNoThrusters>لا توجد دافعات تعمل وغير محجوبة</CannotLaunchNoThrusters>
+  <CannotLaunchNoThrusters>لا توجد دوافع عاملة وغير محجوبة</CannotLaunchNoThrusters>
   <!-- EN: engine cooldown: {0} -->
   <CannotLaunchOnCooldown>فترة تبريد المحرك: {0}</CannotLaunchOnCooldown>
   <!-- EN: Choose where to land -->
@@ -29,7 +29,7 @@
   <!-- EN: Send a colonist to inspect this. -->
   <GravEngineNotInspected>أرسل مستعمراً لفحص هذا.</GravEngineNotInspected>
   <!-- EN: Choose who should inspect {0_definite} -->
-  <ChooseWhoShouldInspect>اختر من ينبغي أن يفحص {0_definite}</ChooseWhoShouldInspect>
+  <ChooseWhoShouldInspect>اختر من سيتولى فحص {0_definite}</ChooseWhoShouldInspect>
   <!-- EN: Cannot launch gravship -->
   <CannotPilotGravship>لا يمكن إطلاق سفينة الجاذبية</CannotPilotGravship>
   <!-- EN: Launch gravship -->
@@ -57,33 +57,33 @@
   <!-- EN: Blocked by {0_label} -->
   <GravshipBlockedBy>محجوب بـ {0_label}</GravshipBlockedBy>
   <!-- EN: Can't place in undiscovered area -->
-  <GravshipBlockedByFog>لا يمكن الوضع في منطقة غير مكتشفة</GravshipBlockedByFog>
+  <GravshipBlockedByFog>لا يمكن وضعها في منطقة غير مكتشفة</GravshipBlockedByFog>
   <!-- EN: Blocked by roof -->
   <GravshipBlockedByRoof>محجوب بالسقف</GravshipBlockedByRoof>
   <!-- EN: Can't place outside map bounds -->
-  <GravshipOutOfBounds>لا يمكن الوضع خارج حدود الخريطة</GravshipOutOfBounds>
+  <GravshipOutOfBounds>لا يمكن وضعها خارج حدود الخريطة</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
-  <GravshipInNoBuildArea>لا يمكن الوضع بالقرب من حافة الخريطة</GravshipInNoBuildArea>
+  <GravshipInNoBuildArea>لا يمكن وضعها بالقرب من حافة الخريطة</GravshipInNoBuildArea>
   <!-- EN: Can't place in blocked area -->
-  <GravshipInBlockedArea>لا يمكن الوضع في منطقة محجوبة</GravshipInBlockedArea>
+  <GravshipInBlockedArea>لا يمكن وضعها في منطقة محجوبة</GravshipInBlockedArea>
   <!-- EN: Can't place on {0_label} -->
-  <GravshipBlockedByTerrain>لا يمكن الوضع على {0_label}</GravshipBlockedByTerrain>
+  <GravshipBlockedByTerrain>لا يمكن وضعها على {0_label}</GravshipBlockedByTerrain>
   <!-- EN: Must be connected to solid ground -->
   <GravshipMustBeConnectedToLand>يجب أن تكون متصلة بأرض صلبة</GravshipMustBeConnectedToLand>
   <!-- EN: Confirm landing zone to continue -->
   <ConfirmLandingToContinue>أكد منطقة الهبوط للمتابعة</ConfirmLandingToContinue>
   <!-- EN: a valid pilot console -->
-  <RitualTargetPilotConsole>لوحة تحكم طيار صالحة</RitualTargetPilotConsole>
+  <RitualTargetPilotConsole>وحدة تحكم طيار صالحة</RitualTargetPilotConsole>
   <!-- EN: Based on the gravship's launch, there was a {0_percentage} chance of a negative outcome. -->
-  <GravshipOutcomeChanceLetterExtra>بناءً على إطلاق سفينة الجاذبية، كانت هناك فرصة بنسبة {0_percentage} لحدوث نتيجة سلبية.</GravshipOutcomeChanceLetterExtra>
+  <GravshipOutcomeChanceLetterExtra>بحسب ظروف إطلاق سفينة الجاذبية، كان احتمال حدوث نتيجة سلبية {0_percentage}.</GravshipOutcomeChanceLetterExtra>
   <!-- EN: The following thrusters were affected -->
-  <ThrustersBrokeDown>تأثرت الدافعات التالية</ThrustersBrokeDown>
+  <ThrustersBrokeDown>تأثرت الدوافع التالية</ThrustersBrokeDown>
   <!-- EN: No path to gravship -->
   <NoPathToGravship>لا يوجد مسار إلى سفينة الجاذبية</NoPathToGravship>
   <!-- EN: No path to pilot console -->
-  <NoPathToPilotConsole>لا يوجد مسار إلى لوحة تحكم الطيار</NoPathToPilotConsole>
+  <NoPathToPilotConsole>لا يوجد مسار إلى وحدة تحكم الطيار</NoPathToPilotConsole>
   <!-- EN: Pilot console is not accessible from gravship -->
-  <PilotConsoleInaccessible>لا يمكن الوصول إلى لوحة تحكم الطيار من سفينة الجاذبية</PilotConsoleInaccessible>
+  <PilotConsoleInaccessible>لا يمكن الوصول إلى وحدة تحكم الطيار من سفينة الجاذبية</PilotConsoleInaccessible>
   <!-- EN: Launch date -->
   <LaunchDate>تاريخ الإطلاق</LaunchDate>
   <!-- EN: Warning: {0} will be blocked by {1}. -->
@@ -109,7 +109,7 @@
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>محجوب بالبنية التحتية</BlockedBySubstructure>
   <!-- EN: {PAWN_nameDef} cannot board {1} -->
-  <FailedToBoardGravship>لا يستطيع {PAWN_nameDef} صعود {1}</FailedToBoardGravship>
+  <FailedToBoardGravship>لا يستطيع {PAWN_nameDef} الصعود إلى {1}</FailedToBoardGravship>
   <!-- EN: {PAWN_nameDef} cannot exit {1} -->
   <FailedToLeaveGravship>لا يستطيع {PAWN_nameDef} مغادرة {1}</FailedToLeaveGravship>
   <!-- EN: View range -->
@@ -119,7 +119,7 @@
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
-  <Landmark>معلم بارز</Landmark>
+  <Landmark>معلم</Landmark>
   <!-- EN: {ANIMALKIND_label} habitat -->
   <AnimalHabitat>موطن {ANIMALKIND_label}</AnimalHabitat>
   <!-- EN: {0} grove -->
@@ -139,7 +139,7 @@
   <!-- EN: Insect ambush -->
   <InsectAmbushLetter>كمين حشرات</InsectAmbushLetter>
   <!-- EN: Insects are tunneling up from underneath the ground. Be prepared! -->
-  <InsectAmbushLetterText>تخترق الحشرات الأنفاق صاعدة من تحت الأرض. كن مستعداً!</InsectAmbushLetterText>
+  <InsectAmbushLetterText>تحفر الحشرات أنفاقاً صاعدة من تحت الأرض. كن مستعداً!</InsectAmbushLetterText>
   <!-- EN: Muffled chittering -->
   <LetterLabelInsectQueenWarning>صوت صرير مكتوم</LetterLabelInsectQueenWarning>
   <!-- EN: Behind a nearby wall, {PAWN_nameDef} can hear muffled pulsations accompanied by a low chittering noise. Something massive lies behind the wall. -->
@@ -147,7 +147,7 @@
   
   <!-- Overlay -->
   <!-- EN: Toggle vacuum overlay. This displays which areas have vacuum and identifies leaks.\n\nWithout the right equipment, exposure to vacuum can be deadly. -->
-  <ShowVacuumOverlayToggleButton>تبديل تراكب الفراغ. يعرض هذا المناطق التي بها فراغ ويحدد التسريبات.\n\nبدون المعدات المناسبة، يمكن أن يكون التعرض للفراغ مميتاً.</ShowVacuumOverlayToggleButton>
+  <ShowVacuumOverlayToggleButton>إظهار/إخفاء طبقة الفراغ. تعرض المناطق الخالية من الهواء وتحدد التسريبات.\n\nبدون المعدات المناسبة، قد يكون التعرض للفراغ مميتاً.</ShowVacuumOverlayToggleButton>
   <!-- EN: vacuum -->
   <Vacuum>فراغ</Vacuum>
   
@@ -155,9 +155,9 @@
   <!-- EN: No discovered orbital locations. -->
   <CannotSelectOrbitReason>لا توجد مواقع مدارية مكتشفة.</CannotSelectOrbitReason>
   <!-- EN: Dying from vacuum exposure -->
-  <DyingBecauseExposedToVacuum>يموت بسبب التعرض للفراغ</DyingBecauseExposedToVacuum>
+  <DyingBecauseExposedToVacuum>يحتضر بسبب التعرض للفراغ</DyingBecauseExposedToVacuum>
   <!-- EN: Vacstone with traces of {RESOURCE_label} -->
-  <TracesOfPreciousResource>حجر فراغي بآثار {RESOURCE_label}</TracesOfPreciousResource>
+  <TracesOfPreciousResource>حجر الفراغ بآثار من {RESOURCE_label}</TracesOfPreciousResource>
   <!-- EN: Requires signal jammer -->
   <TransportPodDestinationRequiresSignalJammer>يتطلب جهاز تشويش إشارات</TransportPodDestinationRequiresSignalJammer>
   <!-- EN: cannot function in vacuum. -->
@@ -183,7 +183,7 @@
   <!-- EN: below minimum fish population -->
   <FishingSpotUnderTargetPopulation>أقل من الحد الأدنى لتعداد الأسماك</FishingSpotUnderTargetPopulation>
   <!-- EN: stored fish exceed fishing zone settings -->
-  <FishingSpotOverTargetResourceCount>الأسماك المخزنة تتجاوز إعدادات منطقة الصيد</FishingSpotOverTargetResourceCount>
+  <FishingSpotOverTargetResourceCount>الأسماك المخزّنة تتجاوز إعدادات منطقة صيد السمك</FishingSpotOverTargetResourceCount>
   <!-- EN: Fishing -->
   <TabFishing>صيد السمك</TabFishing>
   <!-- EN: Fish population -->
@@ -215,9 +215,9 @@
   <!-- EN: Windswept sand -->
   <Sand_Label>رمال تذروها الرياح</Sand_Label>
   <!-- EN: clearing sand. -->
-  <JobClearingSand>ينظف الرمال.</JobClearingSand>
+  <JobClearingSand>يزيل الرمال.</JobClearingSand>
   <!-- EN: clearing sand -->
-  <ClearingSandGerund>تنظيف الرمال</ClearingSandGerund>
+  <ClearingSandGerund>إزالة الرمال</ClearingSandGerund>
 
   <!-- Stockpile -->
   <!-- EN: medicine stockpile -->
@@ -233,49 +233,49 @@
   
   <!-- Outfit Stand -->
   <!-- EN: equip outfit -->
-  <SwapOutfit>تجهيز الزي</SwapOutfit>
+  <SwapOutfit>ارتداء الزي</SwapOutfit>
   <!-- EN: equip outfit... -->
-  <SwapOutfitGizmo>تجهيز الزي...</SwapOutfitGizmo>
+  <SwapOutfitGizmo>ارتداء الزي...</SwapOutfitGizmo>
   <!-- EN: Order a colonist to wear all apparel on the stand. The colonist will place any unequipped clothing back on the stand. -->
-  <SwapOutfitDesc>أمر مستعمراً بارتداء جميع الملابس على الحامل. سيعيد المستعمر أي ملابس لم تُجهز إلى الحامل.</SwapOutfitDesc>
+  <SwapOutfitDesc>إصدار أمر لأحد المستعمرين بارتداء جميع الملابس الموجودة على الحامل. وسيضع المستعمر على الحامل أي ملابس خلعها.</SwapOutfitDesc>
   <!-- EN: cannot equip outfit -->
-  <CannotSwapOutfit>لا يمكن تجهيز الزي</CannotSwapOutfit>
+  <CannotSwapOutfit>لا يمكن ارتداء الزي</CannotSwapOutfit>
   <!-- EN: outfit stand is empty -->
   <OutfitStandEmpty>حامل الزي فارغ</OutfitStandEmpty>
   <!-- EN: Remove this from the outfit stand. -->
-  <EjectApparelTooltip>إخراج هذا من حامل الزي.</EjectApparelTooltip>
+  <EjectApparelTooltip>إزالة هذا من حامل الزي.</EjectApparelTooltip>
   
   <!-- Orbital mechanoid platform -->
   <!-- EN: Ancient grav engine -->
-  <LetterAncientGravEngineDiscoveredLabel>محرك جاذبية أثري</LetterAncientGravEngineDiscoveredLabel>
+  <LetterAncientGravEngineDiscoveredLabel>محرك جاذبية قديم</LetterAncientGravEngineDiscoveredLabel>
   <!-- EN: You've discovered an ancient grav engine. Destroy it to obtain a gravcore. -->
-  <LetterAncientGravEngineDiscovered>اكتشفت محرك جاذبية أثرياً. دمره لتحصل على نواة الجاذبية.</LetterAncientGravEngineDiscovered>
+  <LetterAncientGravEngineDiscovered>اكتشفت محرك جاذبية قديماً. دمّره لتحصل على نواة الجاذبية.</LetterAncientGravEngineDiscovered>
 
   <!-- EN: Gravship -->
   <PlayerPawnsArriveMethod_Gravship>سفينة الجاذبية</PlayerPawnsArriveMethod_Gravship>
 
   <!-- Misc -->
   <!-- EN: Toggle displaying expanding icons for landmarks. -->
-  <ShowExpandingLandmarksToggleButton>تبديل عرض الأيقونات التوسعية للمعالم.</ShowExpandingLandmarksToggleButton>
+  <ShowExpandingLandmarksToggleButton>تبديل عرض أيقونات المعالم المتوسعة.</ShowExpandingLandmarksToggleButton>
 
   <!-- Mechive -->
   <!-- EN: Before {PAWN_nameDef} stands the cerebrex core - a massive brain-like neural mesh that commands mechanoids across the planet.\n\nWith its stabilizers destroyed, {PAWN_nameDef} can now access it directly... but what should {PAWN_pronoun} do with that power? -->
-  <CerebrexCoreDialog>أمام {PAWN_nameDef} تقف نواة سيريبراكس - شبكة عصبية هائلة تشبه الدماغ تقود الميكانويدات في أنحاء الكوكب.\n\nبعد تدمير مثبتاتها، يستطيع {PAWN_nameDef} الآن الوصول إليها مباشرة... ولكن ماذا ينبغي أن يفعل {PAWN_pronoun} بهذه القوة؟</CerebrexCoreDialog>
+  <CerebrexCoreDialog>أمام {PAWN_nameDef} تقف نواة السيريبريكس - شبكة عصبية هائلة تشبه الدماغ وتقود الميكانويدات في أنحاء الكوكب.\n\nبعد تدمير مثبتاتها، بات بإمكان {PAWN_nameDef} الوصول إليها مباشرة... لكن ماذا سيفعل {PAWN_pronoun} بهذه القوة؟</CerebrexCoreDialog>
   <!-- EN: Destroy the core -->
   <CerebrexCoreOption_Destroy>تدمير النواة</CerebrexCoreOption_Destroy>
   <!-- EN: Scavenge technology -->
-  <CerebrexCoreOption_Scavenge>استرداد التكنولوجيا</CerebrexCoreOption_Scavenge>
+  <CerebrexCoreOption_Scavenge>انتزاع التقنية</CerebrexCoreOption_Scavenge>
   <!-- EN: Postpone -->
   <CerebrexCoreOption_Postpone>تأجيل</CerebrexCoreOption_Postpone>
   <!-- EN: Stabilizers remaining -->
   <StabilizersRemaining>المثبتات المتبقية</StabilizersRemaining>
   <!-- EN: Gestating mechanoids. -->
-  <ProducingMechanoids>تخليق الميكانويدات.</ProducingMechanoids>
+  <ProducingMechanoids>احتضان الميكانويدات.</ProducingMechanoids>
 
   <!-- EN: {PAWN_nameDef} begins to tear apart the hair-thin cerebral mesh inside the cerebrex core. The mesh twists and groans, as if alive. Electricity arcs among the latticework frame - then in an instant, all goes dark and lifeless.\n\nThe mechanoid whirring stops. Here, and all across the planet, mechanoids begin to permanently deactivate, no longer under the control of the mechhive.\n\nThe mechanoid threat is over. But your story continues... -->
-  <OdysseyDestroyedCredits>يبدأ {PAWN_nameDef} بتمزيق الشبكة الدماغية الدقيقة كالشعر داخل نواة سيريبراكس. تلتوي الشبكة وتئن، وكأنها حية. تتطاير الشرارات الكهربائية عبر الإطار الشبكي - ثم في لحظة، يحل الظلام وتخمد الحياة في كل شيء.\n\nيتوقف أزيز الميكانويدات. هنا، وفي جميع أنحاء الكوكب، تبدأ الميكانويدات في التعطل نهائياً، بعد أن خرجت عن سيطرة خلية الميكانويدات.\n\nانتهى تهديد الميكانويدات. لكن قصتك تستمر...</OdysseyDestroyedCredits>
+  <OdysseyDestroyedCredits>يبدأ {PAWN_nameDef} بتمزيق الشبكة الدماغية الدقيقة كالشعر داخل نواة السيريبريكس. تلتوي الشبكة وتئن كأنها حية. تتقافز الشرارات الكهربائية عبر الإطار الشبكي - ثم في لحظة، يخيم الظلام ويسكن كل شيء بلا حياة.\n\nيتوقف أزيز الميكانويدات. هنا، وفي أنحاء الكوكب كله، تبدأ الميكانويدات بالتعطل نهائياً، بعد أن خرجت عن سيطرة خلية الميكانويدات.\n\nانتهى تهديد الميكانويدات. لكن قصتك مستمرة...</OdysseyDestroyedCredits>
   <!-- EN: {PAWN_nameDef} begins working to free a processing node buried within the core. The latticework frame convulses as if in agony. As {PAWN_nameDef} pulls the node free, the mesh begins to mend, repairing the damage. The core rebuilds its defences and closes.\n\nTurning the node over, {PAWN_nameDef} recoils as it sparks to life, pulsing in time with the core. In {PAWN_possessive} hand, {PAWN_nameDef} holds a weapon of untold power.\n\nThe story continues... -->
-  <OdysseyScavengedCredits>يبدأ {PAWN_nameDef} بالعمل على تحرير عقدة معالجة مدفونة داخل النواة. يتشنج الإطار الشبكي وكأنه يعاني من سكرات الموت. وبينما يسحب {PAWN_nameDef} العقدة محرراً إياها، تبدأ الشبكة بالالتئام مصلحةً الضرر. تعيد النواة بناء دفاعاتها وتنغلق.\n\nعند تقليب العقدة، يتراجع {PAWN_nameDef} مذهولاً حين تشتعل فيها الحياة وتنبض بالتزامن مع النواة. في يد{PAWN_possessive}، يحمل {PAWN_nameDef} سلاحاً ذا قوة لا توصف.\n\nتستمر القصة...</OdysseyScavengedCredits>
+  <OdysseyScavengedCredits>يبدأ {PAWN_nameDef} بتحرير عقدة معالجة مدفونة داخل النواة. يتلوى الإطار الشبكي كأنه يتألم. وما إن ينتزع {PAWN_nameDef} العقدة حتى تبدأ الشبكة بالالتئام وإصلاح ما أصابها من ضرر. تعيد النواة بناء دفاعاتها وتنغلق.\n\nعند تقليب العقدة، يتراجع {PAWN_nameDef} مذهولاً إذ تدب فيها الحياة وتنبض بإيقاع النواة. في يد{PAWN_possessive}، يحمل {PAWN_nameDef} سلاحاً بقوة لا توصف.\n\nتستمر القصة...</OdysseyScavengedCredits>
 
   <!-- EN: {0} stabilizers remaining -->
   <CoreNotInteractableStabilizersRemaining>المثبتات المتبقية: {0}</CoreNotInteractableStabilizersRemaining>
@@ -286,7 +286,7 @@
   <CaravanShuttleFuel>وقود المكوك</CaravanShuttleFuel>
 
   <!-- EN: Passively scanning for orbital signals. -->
-  <OrbitalScannerScanning>مسح سلبي بحثاً عن إشارات مدارية.</OrbitalScannerScanning>
+  <OrbitalScannerScanning>رصد سلبي لإشارات مدارية.</OrbitalScannerScanning>
   <!-- EN: Locating orbital signal -->
   <OrbitalScannerLocating>تحديد موقع الإشارة المدارية</OrbitalScannerLocating>
 
@@ -296,9 +296,9 @@
   <UniqueWeapon>سلاح فريد</UniqueWeapon>
 
   <!-- EN: Reforming a caravan will abandon your gravship. Are you sure you want to continue?\n\nTo leave with your gravship, select the gravship's pilot console, then select 'launch'. -->
-  <ConfirmLoseGravship>سيؤدي إعادة تشكيل القافلة إلى التخلي عن سفينة الجاذبية. هل أنت متأكد من المتابعة؟\n\nللمغادرة مع سفينة الجاذبية، حدد لوحة تحكم الطيار لسفينة الجاذبية، ثم اختر "إطلاق".</ConfirmLoseGravship>
+  <ConfirmLoseGravship>ستؤدي إعادة تشكيل القافلة إلى التخلي عن سفينة الجاذبية. هل أنت متأكد من رغبتك في المتابعة؟\n\nللمغادرة بسفينة الجاذبية، حدد وحدة تحكم الطيار فيها، ثم اختر 'إطلاق'.</ConfirmLoseGravship>
   <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
-  <ConfirmLoseShuttle>سيؤدي إعادة تشكيل القافلة إلى التخلي عن المكوك. هل أنت متأكد من المتابعة؟\n\nللمغادرة مع المكوك، حدد المكوك، ثم اختر "إطلاق".</ConfirmLoseShuttle>
+  <ConfirmLoseShuttle>ستؤدي إعادة تشكيل القافلة إلى التخلي عن المكوك. هل أنت متأكد من رغبتك في المتابعة؟\n\nللمغادرة بالمكوك، حدد المكوك ثم اختر 'إطلاق'.</ConfirmLoseShuttle>
 
   <!-- EN: Discover a quest -->
   <BookHasQuest>اكتشاف مهمة</BookHasQuest>
@@ -308,13 +308,13 @@
   <!-- EN: Your orbital scanner has detected -->
   <QuestDiscoveredFromOrbitalScanner>رصد ماسحك المداري</QuestDiscoveredFromOrbitalScanner>
   <!-- EN: {HACKER_nameDef} hacked an uplink and discovered -->
-  <QuestDiscoveredFromUplink>اخترق {HACKER_nameDef} خط اتصال صاعداً واكتشف</QuestDiscoveredFromUplink>
+  <QuestDiscoveredFromUplink>اخترق {HACKER_nameDef} وصلة صاعدة واكتشف</QuestDiscoveredFromUplink>
 
   <!-- Special Trainables -->
   <!-- EN: Attack -->
   <AnimalAttackTarget>هجوم</AnimalAttackTarget>
   <!-- EN: Command this animal to attack a specific target. -->
-  <AnimalAttackTargetDesc>أمر هذا الحيوان بمهاجمة هدف محدد.</AnimalAttackTargetDesc>
+  <AnimalAttackTargetDesc>إصدار أمر لهذا الحيوان بمهاجمة هدف محدد.</AnimalAttackTargetDesc>
   <!-- EN: Animals attack target -->
   <AnimalsAttackTarget>الحيوانات تهاجم الهدف</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
@@ -330,11 +330,11 @@
   <!-- EN: Not in range of master. -->
   <MessageNotInRangeOfMaster>ليس في نطاق المروض.</MessageNotInRangeOfMaster>
   <!-- EN: {ANIMAL_nameDef} found {FOOD_label} while foraging. -->
-  <MessageAnimalForagedFood>وجد {ANIMAL_nameDef} {FOOD_label} أثناء البحث عن المؤن.</MessageAnimalForagedFood>
+  <MessageAnimalForagedFood>عثر {ANIMAL_nameDef} على {FOOD_label} أثناء البحث عن الطعام.</MessageAnimalForagedFood>
   <!-- EN: Forage trained -->
-  <ForageTrained>مدرب على البحث عن المؤن</ForageTrained>
+  <ForageTrained>مدرّب على البحث عن الطعام</ForageTrained>
   <!-- EN: Allow foraging -->
-  <ForageEnabled>السماح بالبحث عن المؤن</ForageEnabled>
+  <ForageEnabled>السماح بالبحث عن الطعام</ForageEnabled>
   <!-- EN: Allow digging -->
   <DigEnabled>السماح بالحفر</DigEnabled>
 
@@ -342,6 +342,6 @@
   <HatchUnlocked>مفتوح.</HatchUnlocked>
 
   <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
-  <GravshipShieldTip>سطح دافع للزخم قصير العمر يحجب المقذوفات. يعمل ضد الطلقات العادية وقذائف الهاون. ينطفئ فوراً إذا أصيب بنبضة كهرومغناطيسية (EMP).</GravshipShieldTip>
+  <GravshipShieldTip>سطح طاردٌ للزخم قصير العمر يحجب المقذوفات. يتصدى للطلقات العادية وقذائف الهاون، لكنه ينطفئ فوراً إذا أصابته نبضة كهرومغناطيسية (EMP).</GravshipShieldTip>
 
 </LanguageData>
