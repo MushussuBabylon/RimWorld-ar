@@ -44,22 +44,22 @@
     <li>spaceCollectiveNoun->Reapers</li>
   -->
   <NamerFactionSalvagers.rulePack.rulesStrings>
-    <li>r_name->طاقم المنقذين الـ[spaceAdj]</li>
-    <li>r_name->طاقم النباشين الـ[spaceAdj]</li>
-    <li>r_name->الـ[AnimalBadass] الـ[spaceAdj]</li>
-    <li>r_name->حلف [AnimalBadass] الـ[spaceAdj]</li>
-    <li>r_name->حلف [Enemy] الـ[spaceAdj]</li>
-    <li>r_name->حلف [Enemy] الـ[spaceNoun]</li>
-    <li>r_name->[groupname] الـ[spaceNoun]</li>
-    <li>r_name->[groupname] الـ[spaceAdj]</li>
-    <li>r_name->الـ[spaceNoun] الـ[ColorBadass]</li>
-    <li>r_name->الـ[spaceNoun] الـ[AdjectiveBadass]</li>
-    <li>r_name->الـ[spaceCollectiveNoun] الـ[ColorBadass]</li>
-    <li>r_name->الـ[spaceCollectiveNoun] الـ[AdjectiveBadass]</li>
+    <li>r_name->طاقم الناهبين ال[spaceAdj]</li>
+    <li>r_name->طاقم النباشين ال[spaceAdj]</li>
+    <li>r_name->ال[AnimalBadass] ال[spaceAdj]</li>
+    <li>r_name->حلف [AnimalBadass] ال[spaceAdj]</li>
+    <li>r_name->حلف [Enemy] ال[spaceAdj]</li>
+    <li>r_name->حلف [Enemy] ال[spaceNoun]</li>
+    <li>r_name->[groupname] ال[spaceNoun]</li>
+    <li>r_name->[groupname] ال[spaceAdj]</li>
+    <li>r_name->ال[spaceNoun] ال[ColorBadass]</li>
+    <li>r_name->ال[spaceNoun] ال[AdjectiveBadass]</li>
+    <li>r_name->ال[spaceCollectiveNoun] ال[ColorBadass]</li>
+    <li>r_name->ال[spaceCollectiveNoun] ال[AdjectiveBadass]</li>
     <li>r_name->[spaceNoun] [ConceptBadass]</li>
     <li>r_name(p=2)->[spaceNoun] [NamePerson]</li>
     <li>r_name(p=2)->[spaceCollectiveNoun] [NamePerson]</li>
-    <li>r_name(p=2)->[spaceCollectiveNoun] [NamePerson] الـ[spaceAdj]</li>
+    <li>r_name(p=2)->[spaceCollectiveNoun] [NamePerson] ال[spaceAdj]</li>
     <li>spaceAdj->مداري</li>
     <li>spaceAdj->كوني</li>
     <li>spaceAdj->فلكي</li>
@@ -108,31 +108,31 @@
     <li>tradeNoun->nexus</li>
   -->
   <NamerFactionTradersGuild.rulePack.rulesStrings>
-    <li>r_name->[tradeAdj] [tradeNoun]</li>
-    <li>tradeAdj->تاجر</li>
-    <li>tradeAdj->مداري</li>
-    <li>tradeAdj->تجاري</li>
-    <li>tradeAdj->فضائي</li>
+    <li>r_name->[tradeNoun] [tradeAdj]</li>
+    <li>tradeAdj->التجار</li>
+    <li>tradeAdj->المدار</li>
+    <li>tradeAdj->التجارة</li>
+    <li>tradeAdj->الملاحين</li>
     <li>tradeAdj->الفضاء</li>
-    <li>tradeAdj->كوني</li>
-    <li>tradeAdj->طيران السماء</li>
-    <li>tradeAdj->مولود الفراغ</li>
-    <li>tradeAdj->خارجي</li>
+    <li>tradeAdj->الكون</li>
+    <li>tradeAdj->الطيران السماوي</li>
+    <li>tradeAdj->مولودي الفراغ</li>
+    <li>tradeAdj->الكواكب الخارجية</li>
     <li>tradeNoun->نقابة</li>
     <li>tradeNoun->كونسورتيوم</li>
-    <li>tradeNoun->نقابة</li>
+    <li>tradeNoun->اتحاد</li>
     <li>tradeNoun->تحالف</li>
     <li>tradeNoun->كارتل</li>
     <li>tradeNoun->ائتلاف</li>
     <li>tradeNoun->فدرالية</li>
     <li>tradeNoun->تكتل</li>
-    <li>tradeNoun->شركة</li>
+    <li>tradeNoun->مؤسسة</li>
     <li>tradeNoun->شركة</li>
     <li>tradeNoun->شبكة</li>
     <li>tradeNoun->بورصة</li>
     <li>tradeNoun->بازار</li>
     <li>tradeNoun->إمبوريوم</li>
-    <li>tradeNoun->مركز</li>
+    <li>tradeNoun->ملتقى</li>
  </NamerFactionTradersGuild.rulePack.rulesStrings>
   
   <!-- EN:
@@ -173,7 +173,7 @@
     <li>platform->ring</li>
   -->
   <NamerSettlementTradersGuild.rulePack.rulesStrings>
-    <li>r_name->[platAdj] [platform]</li>
+    <li>r_name->[platform] [platAdj]</li>
     <li>platAdj->ضوء النجوم</li>
     <li>platAdj->شمس ساطعة</li>
     <li>platAdj->سديم</li>

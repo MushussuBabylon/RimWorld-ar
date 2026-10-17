@@ -7,7 +7,7 @@
     <li>location(atLandmark==false)->The soldiers are hiding out in an ancient structure.</li>
   -->
   <OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع سرية سيئة السمعة من المرتزقة. هؤلاء الجنود القدماء من حقبة منسية منذ زمن طويل في تاريخ الكوكب. استيقظوا مؤخراً من السبات العميق ويسببون المتاعب في المنطقة.\n\nيقود السرية [LEADER_nameDef]، الذي يمتلك سلاحاً فريداً [WEAPON_quality]. تحتوي المجموعة على:\n\n[mercenaryList]\n\nإذا تمكنت من أسر أو قتل القائد، يمكنك أخذ السلاح الفريد.\n\n[location]</li>
+    <li>questDescription->[discoveryMethod] موقع سرية سيئة السمعة من المرتزقة. ينتمي هؤلاء الجنود القدماء إلى حقبة منسية منذ زمن بعيد في تاريخ الكوكب. وقد استيقظوا مؤخراً من السبات التجميدي ويثيرون الاضطراب في المنطقة.\n\nيقود السرية [LEADER_nameDef]، الذي يمتلك سلاحاً فريداً [WEAPON_quality]. وتضم المجموعة:\n\n[mercenaryList]\n\nإذا تمكنت من أسر القائد أو قتله، فبإمكانك الاستيلاء على السلاح الفريد.\n\n[location]</li>
     <li>location(atLandmark==true)->الجنود مختبئون في مبنى قديم في [landmarkName].</li>
     <li>location(atLandmark==false)->الجنود مختبئون في مبنى قديم.</li>
  </OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
@@ -23,15 +23,15 @@
     <li>mercenaries->Fighters</li>
   -->
   <OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
-    <li>questName->الـ [ancient] [mercenaries]</li>
-    <li>questName->[ancient] [mercenaries]</li>
-    <li>ancient->قدامى</li>
-    <li>ancient->مستيقظون</li>
-    <li>ancient->سبات عميق</li>
-    <li>mercenaries->مرتزقة</li>
-    <li>mercenaries->جنود</li>
-    <li>mercenaries->محاربون</li>
-    <li>mercenaries->مقاتلون</li>
+    <li>questName->[mercenaries] [ancient]</li>
+    <li>questName->[mercenaries] [ancient]</li>
+    <li>ancient->القدامى</li>
+    <li>ancient->المستيقظون</li>
+    <li>ancient->النائمون في السبات التجميدي</li>
+    <li>mercenaries->المرتزقة</li>
+    <li>mercenaries->الجنود</li>
+    <li>mercenaries->المحاربون</li>
+    <li>mercenaries->المقاتلون</li>
  </OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient mercenaries</li>
@@ -52,7 +52,7 @@
     <li>questMapFeature->رسم لجندي قديم</li>
     <li>questMapFeature->رسم تخطيطي لرجل من زمن آخر</li>
     <li>questMapText->إنهم مستيقظون</li>
-    <li>questMapText->قدماء خطرون</li>
+    <li>questMapText->قدماء خطيرون</li>
     <li>questMapText->أسلحة قديمة</li>
  </OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
   

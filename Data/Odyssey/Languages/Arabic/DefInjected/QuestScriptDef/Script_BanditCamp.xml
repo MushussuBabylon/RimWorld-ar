@@ -5,7 +5,7 @@
     <li>questDescription->[discoveryMethod] the location of a camp controlled by [siteFaction_name]. The camp contains hostile [siteFaction_pawnsPlural], but you don't know what defenses they have.</li>
   -->
   <OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع مخيم يسيطر عليه [siteFaction_name]. يحتوي المخيم على [siteFaction_pawnsPlural] عدائيين، لكنك لا تعرف الدفاعات التي لديهم.</li>
+    <li>questDescription->[discoveryMethod] موقع مخيم يسيطر عليه [siteFaction_name]. يضم المخيم [siteFaction_pawnsPlural] معادين، لكنك لا تعرف ما لديهم من دفاعات.</li>
  </OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [bandit] [camp]</li>
@@ -27,9 +27,9 @@
   <OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
     <li>questName->[camp] [bandit]</li>
     <li>questName->[camp] [bandit]</li>
-    <li>questName->[asker_nameDef] و[المخيم]</li>
+    <li>questName->[asker_nameDef] وال[camp]</li>
     <li>camp->مخيم</li>
-    <li>camp->موقع</li>
+    <li>camp->مخفر</li>
     <li>camp->وكر</li>
     <li>camp->معسكر</li>
     <li>bandit->اللصوص</li>
@@ -60,18 +60,18 @@
     <li>questMapFeature->مخيم صغير</li>
     <li>questMapFeature->موقع لصوص</li>
     <li>questMapFeature->معسكر غزاة</li>
-    <li>questMapText->أناس خطرون</li>
+    <li>questMapText->أناس خطيرون</li>
     <li>questMapText->غنائم المخيم</li>
-    <li>questMapText->المتعدون يُسلخون</li>
+    <li>questMapText->المتسللون يُسلخون</li>
     <li>questMapText->احذروا أيها التجار - خارجون عن القانون</li>
  </OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>انتهت المهمة: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>انتهت صلاحية المهمة: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>
   <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>لقد حزم مخيم اللصوص أمتعته وارتحل. انتهت المهمة [resolvedQuestName].</OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>حزم مخيم اللصوص أمتعته ورحل. انتهت صلاحية المهمة [resolvedQuestName].</OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>فشلت المهمة: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>
   <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
-  <OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>بعد اكتشافه، تفرق مخيم اللصوص. انتهت المهمة [resolvedQuestName].</OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>بعد انكشاف أمره، تفرق مخيم اللصوص. انتهت المهمة [resolvedQuestName].</OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>
   
 </LanguageData>
