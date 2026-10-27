@@ -8,17 +8,17 @@
   <!-- EN: You can right-click and drag to reorder colonists on the colonist bar. -->
   <GameplayTips.ReorderColonistbar>يمكنك النقر بزر الماوس الأيمن والسحب لإعادة ترتيب المستعمرين في شريط المستعمرين.</GameplayTips.ReorderColonistbar>
   <!-- EN: You can select the previous or next colonist with the , and . keys. -->
-  <GameplayTips.SelectPrevNextColonist>يمكنك تحديد المستعمر السابق أو التالي باستخدام مفتاحي , و .</GameplayTips.SelectPrevNextColonist>
+  <GameplayTips.SelectPrevNextColonist>يمكنك تحديد المستعمر السابق أو التالي باستخدام مفتاحي الفاصلة (,) والنقطة (.)</GameplayTips.SelectPrevNextColonist>
   <!-- EN: Many menus allow you to click and drag a setting to 'paint' it over many entries. This even works for things like outfits or food restrictions. -->
   <GameplayTips.SettingPainting>تتيح لك العديد من القوائم النقر وسحب الإعداد "لطلائه" على عدة إدخالات. هذا يعمل حتى لأشياء مثل الأزياء أو قيود الطعام.</GameplayTips.SettingPainting>
   <!-- EN: In the work tab's manual priorities mode, 1 is first priority, while 4 is last priority. -->
-  <GameplayTips.ManualPriorities>في وضع الأولويات اليدوية في علامة تبويب العمل، 1 هي الأولوية الأولى، بينما 4 هي الأولوية الأخيرة.</GameplayTips.ManualPriorities>
+  <GameplayTips.ManualPriorities>في وضع الأولويات اليدوية في تبويب العمل، 1 هي الأولوية الأولى، بينما 4 هي الأولوية الأخيرة.</GameplayTips.ManualPriorities>
   <!-- EN: Each colonists' mood is displayed in the background of their icon in the colonist bar at the top of the screen. -->
   <GameplayTips.ColonistMood>يُعرض مزاج كل مستعمر في خلفية أيقونته في شريط المستعمرين أعلى الشاشة.</GameplayTips.ColonistMood>
   <!-- EN: Shift-clicking the name of a work type in the Work tab changes settings for all colonists at once. -->
-  <GameplayTips.WorkTabChangeAllColonists>يؤدي النقر مع الضغط على Shift على اسم نوع العمل في علامة تبويب العمل إلى تغيير الإعدادات لجميع المستعمرين دفعة واحدة.</GameplayTips.WorkTabChangeAllColonists>
+  <GameplayTips.WorkTabChangeAllColonists>يؤدي النقر مع الضغط على Shift على اسم نوع العمل في تبويب العمل إلى تغيير الإعدادات لجميع المستعمرين دفعة واحدة.</GameplayTips.WorkTabChangeAllColonists>
   <!-- EN: Right-clicking a number in the Work tab using manual priorities will reduce the priority instead of increasing it. -->
-  <GameplayTips.WorkTabDecreasePriority>النقر بزر الماوس الأيمن على رقم في علامة تبويب العمل باستخدام الأولويات اليدوية سيقلل الأولوية بدلاً من زيادتها.</GameplayTips.WorkTabDecreasePriority>
+  <GameplayTips.WorkTabDecreasePriority>النقر بزر الماوس الأيمن على رقم في تبويب العمل باستخدام الأولويات اليدوية سيقلل الأولوية بدلاً من زيادتها.</GameplayTips.WorkTabDecreasePriority>
   <!-- EN: You can hold the alt key to show detailed information about a specific tile. -->
   <GameplayTips.CellInspector>يمكنك الضغط باستمرار على مفتاح Alt لإظهار معلومات مفصلة عن بلاطة معينة.</GameplayTips.CellInspector>
   <!-- EN: In a gunfight, always be behind cover! Right-click and drag to have your drafted fighters form a line. -->
@@ -64,7 +64,7 @@
   <!-- EN: Smaller caravans get attacked less often because they're less visible. -->
   <GameplayTips.CaravanSmallerLessVisible>تتعرض القوافل الأصغر للهجوم بشكل أقل لأنها أقل وضوحاً.</GameplayTips.CaravanSmallerLessVisible>
   <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan hitching spot. This will make packing much faster. -->
-  <GameplayTips.CaravanStockpileNearPackingSpot>قبل تشكيل قافلة، اجمع الأغراض التي تريد إرسالها في كومة بالقرب من مكان ربط القافلة. هذا سيجعل التحميل أسرع بكثير.</GameplayTips.CaravanStockpileNearPackingSpot>
+  <GameplayTips.CaravanStockpileNearPackingSpot>قبل تشكيل قافلة، اجمع العناصر التي تريد إرسالها في منطقة تخزين بالقرب من مكان ربط القافلة. هذا سيجعل التحميل أسرع بكثير.</GameplayTips.CaravanStockpileNearPackingSpot>
   <!-- EN: If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight. -->
   <GameplayTips.CaravanUntrainedAnimals>إذا كان لديك حيوانات غير مدربة في قافلتك، يمكنك فصلها إلى قافلة منفصلة قبل مهاجمة العدو، لإبقائها بعيداً عن القتال.</GameplayTips.CaravanUntrainedAnimals>
   <!-- EN: Don't forget to pack medicine on your caravans. -->
@@ -132,11 +132,11 @@
   <!-- EN: Even serious setbacks don't mean the game has to end. Try playing out a lost battle - often the best stories come from the darkest situations. -->
   <GameplayTips.BestStoriesFromDarkestSituations>حتى النكسات الخطيرة لا تعني أن اللعبة يجب أن تنتهي. حاول أن تلعب معركة خاسرة - غالباً ما تأتي أفضل القصص من أحلك المواقف.</GameplayTips.BestStoriesFromDarkestSituations>
   <!-- EN: Keep weapon stockpiles away from your prisons. Prison breaks are much more dangerous with guns and explosives. -->
-  <GameplayTips.KeepWeaponsAwayFromPrisoners>أبقِ مخازن الأسلحة بعيداً عن سجونك. هروب السجناء أكثر خطورة بكثير مع البنادق والمتفجرات.</GameplayTips.KeepWeaponsAwayFromPrisoners>
+  <GameplayTips.KeepWeaponsAwayFromPrisoners>أبقِ مناطق تخزين الأسلحة بعيداً عن سجونك. هروب السجناء أكثر خطورة بكثير مع البنادق والمتفجرات.</GameplayTips.KeepWeaponsAwayFromPrisoners>
   <!-- EN: When taming animals, make sure you have enough food of the correct type to feed them. -->
   <GameplayTips.MakeSureYouHaveFoodForTamedAnimals>عند ترويض الحيوانات، تأكد من أن لديك ما يكفي من الطعام من النوع الصحيح لإطعامها.</GameplayTips.MakeSureYouHaveFoodForTamedAnimals>
   <!-- EN: Dropping a stone or slag chunk in a doorway will force it open, leaving you vulnerable to hostile wildlife and raiders. -->
-  <GameplayTips.DroppingChunksWillForceDoorsOpen>إسقاط كتلة حجر أو خردة في مدخل الباب سيجبره على الفتح، مما يجعلك عرضة للحياة البرية العدائية والغزاة.</GameplayTips.DroppingChunksWillForceDoorsOpen>
+  <GameplayTips.DroppingChunksWillForceDoorsOpen>إسقاط كتلة حجر أو خردة في مدخل الباب سيجبره على الفتح، مما يجعلك عرضة للحياة البرية المعادية والغزاة.</GameplayTips.DroppingChunksWillForceDoorsOpen>
   <!-- EN: Clean labs with sterile tile give research speed bonuses. -->
   <GameplayTips.CleanLabs>المختبرات النظيفة ذات البلاط المعقم تعطي مكافآت لسرعة البحث.</GameplayTips.CleanLabs>
   <!-- EN: You can change storyteller and playstyle at any time through the options menu. -->
@@ -144,7 +144,7 @@
   <!-- EN: The more factions you are allied with, the more random traders and military aid you will receive. -->
   <GameplayTips.MoreAlliesMoreTraders>كلما زاد عدد الفصائل التي تتحالف معها، زاد عدد التجار العشوائيين والمساعدات العسكرية التي ستتلقاها.</GameplayTips.MoreAlliesMoreTraders>
   <!-- EN: You can use drug policies to have your fighters carry combat drugs like go-juice. A quick dose at the start of combat can win the battle. -->
-  <GameplayTips.CombatDrugsFromInventory>يمكنك استخدام سياسات المخدرات لجعل مقاتليك يحملون مخدرات قتالية مثل عصير الانطلاق. جرعة سريعة في بداية القتال يمكن أن تكسب المعركة.</GameplayTips.CombatDrugsFromInventory>
+  <GameplayTips.CombatDrugsFromInventory>يمكنك استخدام سياسات العقاقير لجعل مقاتليك يحملون عقاقير قتالية مثل عصير الانطلاق. جرعة سريعة في بداية القتال يمكن أن تكسب المعركة.</GameplayTips.CombatDrugsFromInventory>
   <!-- EN: Set schedules with long stretches of one activity to minimize travel time. -->
   <GameplayTips.SchedulesSetLong>حدد جداول بفترات طويلة من نشاط واحد لتقليل وقت السفر.</GameplayTips.SchedulesSetLong>
   <!-- EN: Straw matting ignores filth. Use it as the floor for your barn. -->
@@ -158,11 +158,11 @@
   <!-- EN: Store books in bookcases. This increases the beauty of a room, makes nearby research benches faster, and increases the XP and recreation gained from reading. -->
   <GameplayTips.StoreBooksInBookcases>خزن الكتب في خزائن الكتب. هذا يزيد من جمال الغرفة، ويجعل طاولات البحث القريبة أسرع، ويزيد من الخبرة والترفيه المكتسبين من القراءة.</GameplayTips.StoreBooksInBookcases>
   <!-- EN: Want a newly crafted item to be taken to a specific shelf? Once a shelf is named or linked with other shelves, it will appear as a hauling destination in the bill's “Details...” window. -->
-  <GameplayTips.TakeToShelves>هل تريد نقل غرض مصنوع حديثاً إلى رف معين؟ بمجرد تسمية الرف أو ربطه بأرفف أخرى، سيظهر كوجهة نقل في نافذة "تفاصيل..." الخاصة بالفاتورة.</GameplayTips.TakeToShelves>
+  <GameplayTips.TakeToShelves>هل تريد نقل عنصر مصنوع حديثاً إلى رف معين؟ بمجرد تسمية الرف أو ربطه بأرفف أخرى، سيظهر كوجهة نقل في نافذة "تفاصيل..." الخاصة بالفاتورة.</GameplayTips.TakeToShelves>
   <!-- EN: You can change to a 12 hour clock, or change Celsius temperatures to Fahrenheit, in the options menu. -->
   <GameplayTips.ChangeUnits>يمكنك التغيير إلى ساعة 12 ساعة، أو تغيير درجات الحرارة المئوية إلى فهرنهايت، في قائمة الخيارات.</GameplayTips.ChangeUnits>
   <!-- EN: When targeting a colonist with an ability or item, you can also target their portrait in the top colonist bar. -->
-  <GameplayTips.TargetColonistBar>عند استهداف مستعمر بقدرة أو غرض، يمكنك أيضاً استهداف صورته في شريط المستعمرين العلوي.</GameplayTips.TargetColonistBar>
+  <GameplayTips.TargetColonistBar>عند استهداف مستعمر بقدرة أو عنصر، يمكنك أيضاً استهداف صورته في شريط المستعمرين العلوي.</GameplayTips.TargetColonistBar>
   <!-- EN: Some buildings are more efficient if they're in a dedicated room. Workbenches in their own room make a workshop. Research benches in their own room make a laboratory. -->
   <GameplayTips.WorkTableRoomRole>بعض المباني تكون أكثر كفاءة إذا كانت في غرفة مخصصة. طاولات العمل في غرفتها الخاصة تصنع ورشة. طاولات البحث في غرفتها الخاصة تصنع مختبراً.</GameplayTips.WorkTableRoomRole>
   <!-- EN: You can rename bills in the bill details dialog. -->
@@ -170,16 +170,16 @@
   <!-- EN: Friendly fire can't happen if the shooter is close to their ally. You can safely put melee colonists in front of gun-wielding colonists. -->
   <GameplayTips.FriendlyFire>لا يمكن حدوث النيران الصديقة إذا كان مطلق النار قريباً من حليفه. يمكنك وضع مستعمري الاشتباك بأمان أمام المستعمرين الذين يحملون البنادق.</GameplayTips.FriendlyFire>
   <!-- EN: Right-click on certain buttons in the orders menu for additional options. For example, you can forbid all items on a map or cancel all hunting jobs. -->
-  <GameplayTips.RightClickGizmos>انقر بزر الماوس الأيمن على أزرار معينة في قائمة الأوامر للحصول على خيارات إضافية. على سبيل المثال، يمكنك منع جميع الأغراض على الخريطة أو إلغاء جميع مهام الصيد.</GameplayTips.RightClickGizmos>
+  <GameplayTips.RightClickGizmos>انقر بزر الماوس الأيمن على أزرار معينة في قائمة الأوامر للحصول على خيارات إضافية. على سبيل المثال، يمكنك منع جميع العناصر على الخريطة أو إلغاء جميع مهام الصيد.</GameplayTips.RightClickGizmos>
   <!-- EN: Hold the shift key while scrolling the map to scroll faster. -->
   <GameplayTips.FastScroll>اضغط باستمرار على مفتاح Shift أثناء تمرير الخريطة للتمرير بشكل أسرع.</GameplayTips.FastScroll>
   <!-- EN: Shelves aren't just for show. They increase your storage capacity by holding multiple items on the same spot. -->
-  <GameplayTips.Shelves>الأرفف ليست للعرض فقط. إنها تزيد من سعة التخزين الخاصة بك عن طريق حمل أغراض متعددة في نفس المكان.</GameplayTips.Shelves>
+  <GameplayTips.Shelves>الأرفف ليست للعرض فقط. إنها تزيد من سعة التخزين الخاصة بك عن طريق حمل عناصر متعددة في نفس المكان.</GameplayTips.Shelves>
   <!-- EN: Mechanoids have some psychic sensitivity. Use a psychic lance on one to turn a fight. -->
   <GameplayTips.MechanoidPsychicSensitivity>الميكانويدات لديهم بعض الحساسية النفسية. استخدم رمحاً نفسياً على أحدهم لقلب مجرى القتال.</GameplayTips.MechanoidPsychicSensitivity>
   <!-- EN: Most colonists hate eating insect meat. Turn it into chemfuel using a biofuel refinery. -->
   <GameplayTips.InsectMeat>يكره معظم المستعمرين أكل لحم الحشرات. حوله إلى وقود كيميائي باستخدام مصفاة الوقود الحيوي.</GameplayTips.InsectMeat>
   <!-- EN: Pressing Z will let you search the map for items, creatures, buildings, and more. You can search the world map too. -->
-  <GameplayTips.MapSearch>سيسمح لك الضغط على Z بالبحث في الخريطة عن الأغراض والمخلوقات والمباني والمزيد. يمكنك البحث في خريطة العالم أيضاً.</GameplayTips.MapSearch>
+  <GameplayTips.MapSearch>سيسمح لك الضغط على Z بالبحث في الخريطة عن العناصر والمخلوقات والمباني والمزيد. يمكنك البحث في خريطة العالم أيضاً.</GameplayTips.MapSearch>
   
 </LanguageData>

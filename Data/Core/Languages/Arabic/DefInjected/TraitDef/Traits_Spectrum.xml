@@ -21,15 +21,15 @@
   <!-- EN: chemical fascination -->
   <DrugDesire.degreeDatas.chemical_fascination.label>انبهار كيميائي</DrugDesire.degreeDatas.chemical_fascination.label>
   <!-- EN: [PAWN_nameDef] is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. [PAWN_pronoun] will ignore directives to not use recreational drugs, and will consume more than a normal person. -->
-  <DrugDesire.degreeDatas.chemical_fascination.description>[PAWN_nameDef] مفتون كلياً بالمصادر الكيميائية للمتعة. تعاطي المخدرات الترفيهية يمنحه مزاجاً جيداً، بينما يؤدي الامتناع عنها إلى إحباط متزايد مع الوقت وقد يؤدي إلى نوبات إدمان. سيتجاهل [PAWN_pronoun] توجيهات منع المخدرات الترفيهية، وسيستهلك أكثر من الشخص الطبيعي.</DrugDesire.degreeDatas.chemical_fascination.description>
+  <DrugDesire.degreeDatas.chemical_fascination.description>[PAWN_nameDef] مفتون كلياً بالمصادر الكيميائية للمتعة. تعاطي العقاقير الترفيهية يمنحه مزاجاً جيداً، بينما يؤدي الامتناع عنها إلى إحباط متزايد مع الوقت وقد يؤدي إلى نوبات إدمان. سيتجاهل [PAWN_pronoun] توجيهات منع العقاقير الترفيهية، وسيستهلك أكثر من الشخص الطبيعي.</DrugDesire.degreeDatas.chemical_fascination.description>
   <!-- EN: chemical interest -->
   <DrugDesire.degreeDatas.chemical_interest.label>اهتمام كيميائي</DrugDesire.degreeDatas.chemical_interest.label>
   <!-- EN: [PAWN_nameDef] has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. [PAWN_pronoun] will ignore directives to not use recreational drugs, and will consume more than a normal person. -->
-  <DrugDesire.degreeDatas.chemical_interest.description>لدى [PAWN_nameDef] اهتمام غير عادي بالمصادر الكيميائية للمتعة. تعاطي المخدرات الترفيهية يمنحه مزاجاً جيداً، بينما يؤدي الامتناع عنها إلى إحباط متزايد مع الوقت وقد يؤدي إلى نوبات إدمان. سيتجاهل [PAWN_pronoun] توجيهات منع المخدرات الترفيهية، وسيستهلك أكثر من الشخص الطبيعي.</DrugDesire.degreeDatas.chemical_interest.description>
+  <DrugDesire.degreeDatas.chemical_interest.description>لدى [PAWN_nameDef] اهتمام غير عادي بالمصادر الكيميائية للمتعة. تعاطي العقاقير الترفيهية يمنحه مزاجاً جيداً، بينما يؤدي الامتناع عنها إلى إحباط متزايد مع الوقت وقد يؤدي إلى نوبات إدمان. سيتجاهل [PAWN_pronoun] توجيهات منع العقاقير الترفيهية، وسيستهلك أكثر من الشخص الطبيعي.</DrugDesire.degreeDatas.chemical_interest.description>
   <!-- EN: teetotaler -->
   <DrugDesire.degreeDatas.teetotaler.label>ممتنع عن المسكرات</DrugDesire.degreeDatas.teetotaler.label>
   <!-- EN: [PAWN_nameDef] abhors the idea of gaining pleasure from chemicals. [PAWN_pronoun] strictly avoids alcohol and recreational drugs. -->
-  <DrugDesire.degreeDatas.teetotaler.description>يمقت [PAWN_nameDef] فكرة الاستمتاع عبر الكيماويات. يتجنب [PAWN_pronoun] بصرامة الكحول والمخدرات الترفيهية.</DrugDesire.degreeDatas.teetotaler.description>
+  <DrugDesire.degreeDatas.teetotaler.description>يمقت [PAWN_nameDef] فكرة الاستمتاع عبر الكيماويات. يتجنب [PAWN_pronoun] بصرامة الكحول والعقاقير الترفيهية.</DrugDesire.degreeDatas.teetotaler.description>
   
   <!-- EN: super-immune -->
   <Immunity.degreeDatas.superimmune.label>فائق المناعة</Immunity.degreeDatas.superimmune.label>
@@ -81,7 +81,7 @@
   <!-- EN: steadfast -->
   <Nerves.degreeDatas.steadfast.label>ثابت</Nerves.degreeDatas.steadfast.label>
   <!-- EN: [PAWN_nameDef] is mentally tough and won't break down under stresses that would crack most people. -->
-  <Nerves.degreeDatas.steadfast.description>[PAWN_nameDef] صلب ذهنياً ولن ينهار تحت ضغوط قد تحطم معظم الناس.</Nerves.degreeDatas.steadfast.description>
+  <Nerves.degreeDatas.steadfast.description>[PAWN_nameDef] صلب عقلياً ولن ينهار تحت ضغوط قد تحطم معظم الناس.</Nerves.degreeDatas.steadfast.description>
   <!-- EN: nervous -->
   <Nerves.degreeDatas.nervous.label>متوتر</Nerves.degreeDatas.nervous.label>
   <!-- EN: [PAWN_nameDef] tends to crack under pressure. -->
@@ -129,11 +129,11 @@
   <!-- EN: slowpoke -->
   <SpeedOffset.degreeDatas.slowpoke.label>بطيء الحركة</SpeedOffset.degreeDatas.slowpoke.label>
   <!-- EN: [PAWN_nameDef] is always falling behind the group whenever [PAWN_pronoun] goes anywhere. -->
-  <SpeedOffset.degreeDatas.slowpoke.description>دائماً ما يتخلف [PAWN_nameDef] عن المجموعة أينما يذهب.</SpeedOffset.degreeDatas.slowpoke.description>
+  <SpeedOffset.degreeDatas.slowpoke.description>دائماً ما يتخلف [PAWN_nameDef] عن المجموعة أينما يذهب [PAWN_pronoun].</SpeedOffset.degreeDatas.slowpoke.description>
   <!-- EN: fast walker -->
   <SpeedOffset.degreeDatas.fast_walker.label>سريع المشي</SpeedOffset.degreeDatas.fast_walker.label>
   <!-- EN: [PAWN_nameDef] likes to be where [PAWN_pronoun]'s going. [PAWN_pronoun] walks quicker than most people. -->
-  <SpeedOffset.degreeDatas.fast_walker.description>يحب [PAWN_nameDef] أن يكون في المكان الذي يقصده. يمشي [PAWN_pronoun] أسرع من معظم الناس.</SpeedOffset.degreeDatas.fast_walker.description>
+  <SpeedOffset.degreeDatas.fast_walker.description>يحب [PAWN_nameDef] أن يكون في المكان الذي يقصده [PAWN_pronoun]. يمشي [PAWN_pronoun] أسرع من معظم الناس.</SpeedOffset.degreeDatas.fast_walker.description>
   <!-- EN: jogger -->
   <SpeedOffset.degreeDatas.jogger.label>عَدّاء</SpeedOffset.degreeDatas.jogger.label>
   <!-- EN: [PAWN_nameDef] always moves with a sense of urgency - so much so that others often fail to keep up. -->

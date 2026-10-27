@@ -32,7 +32,7 @@
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
     <li>tale_noun->أكل [PAWN_nameDef] للحم البشري</li>
     <li>image->[PAWN_nameFull] [eat_gerund] لحم كائن بشري زميل [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] [eat_gerund] لحما من ذراع بشري [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] لحماً من ذراع بشري [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [eat_gerund] لحم كائن بشري [circumstance_group]</li>
     <li>eat_gerund->يأكل</li>
     <li>eat_gerund->يبتلع</li>
@@ -52,8 +52,8 @@
     <li>desc_sentence->[PAWN_nameDef] توجد قطع من الدم والأحشاء على مقدمتـ[PAWN_possessive].</li>
     <li>desc_sentence->[PAWN_nameDef] في وسط بركة كبيرة من الدم.</li>
     <li>desc_sentence->[PAWN_nameDef] ينظر إلى شخص آخر قريب باهتمام مظلم.</li>
-    <li>desc_sentence->اللحم يلمع ويبدو شهيا جدا.</li>
-    <li>desc_sentence->اللحم ينسكب على كامل جسد [PAWN_nameDef].</li>
+    <li>desc_sentence->اللحم يلمع ويبدو شهياً جداً.</li>
+    <li>desc_sentence->اللحم ينسكب على كامل جسم [PAWN_nameDef].</li>
  </AteRawHumanlikeMeat.rulePack.rulesStrings>
   
   <!-- EN: humanlike corpse butchered -->
@@ -153,7 +153,7 @@
   <Drunk.rulePack.rulesStrings>
     <li>tale_noun->سكر [PAWN_nameDef] الشديد</li>
     <li>tale_noun->[PAWN_nameDef] يثمل بشدة</li>
-    <li>image->[PAWN_nameFull] يترنح سكرا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يترنح سكراً [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يميل رأسـ[PAWN_possessive] للخلف ويتجرع الخمر [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يجمع زجاجات الخمر بجشع [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يشرب بكثرة [circumstance_group]</li>
@@ -163,7 +163,7 @@
     <li>circumstance_phrase->والدموع في عينـ[PAWN_possessive]</li>
     <li>circumstance_phrase->بينما يقهقه بجنون</li>
     <li>circumstance_phrase->بينما ينتحب</li>
-    <li>circumstance_phrase->بينما يبدو مثيرا للشفقة</li>
+    <li>circumstance_phrase->بينما يبدو مثيراً للشفقة</li>
     <li>circumstance_phrase->بينما يحدق بغضب في الناس حولـ[PAWN_objective]</li>
     <li>circumstance_phrase->بينما ينظر بشهوة إلى شخص قريب</li>
     <li>circumstance_phrase->بينما يحاول خلع ملابسه</li>
@@ -172,15 +172,15 @@
     <li>circumstance_phrase->بدون أي هم في العالم</li>
     <li>circumstance_phrase->ببريق شهواني في عينـ[PAWN_possessive]</li>
     <li>circumstance_phrase->بينما يسترجع أشباح ماضيـ[PAWN_possessive]</li>
-    <li>desc_sentence->يبدو [PAWN_pronoun] غير مدرك تماما لما حولـ[PAWN_objective].</li>
-    <li>desc_sentence->وجهـ[PAWN_possessive] نفسه يبدو متورما.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] غير مدرك تماماً لما حولـ[PAWN_objective].</li>
+    <li>desc_sentence->وجهـ[PAWN_possessive] نفسه يبدو متورماً.</li>
     <li>desc_sentence->[PAWN_pronoun] شبه فاقد للوعي، لسانـ[PAWN_possessive] يتدلى، يسيل لعابه.</li>
-    <li>desc_sentence->يبدو [PAWN_pronoun] سعيدا وحزينا في نفس الوقت.</li>
-    <li>desc_sentence->توجد بقع على مقدمتـ[PAWN_possessive].</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] سعيداً وحزينا في نفس الوقت.</li>
+    <li>desc_sentence->يحمل [PAWN_pronoun] بقعاً على مقدمتـ[PAWN_possessive].</li>
     <li>desc_sentence->هناك أثر لحاويات مشروبات ملقاة خلفـ[PAWN_objective].</li>
     <li>desc_sentence->هناك مادة بيضاء على سروالـ[PAWN_possessive].</li>
-    <li>desc_sentence->يبدو أن [PAWN_pronoun] فقد حذاءه.</li>
-    <li>desc_sentence->شعر[PAWN_possessive] منفوش تماما.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] كمن فقد حذاءً.</li>
+    <li>desc_sentence->شعر[PAWN_possessive] منفوش تماماً.</li>
  </Drunk.rulePack.rulesStrings>
   
   <!-- EN: research project finished -->
@@ -205,11 +205,11 @@
     <li>image->[PAWN_nameFull] يدرس أسرار [PROJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يبحث في [PROJECT_label] [circumstance_group]</li>
     <li>circumstance_phrase->بشدة كبيرة</li>
-    <li>circumstance_phrase->وحيدا على منضدتـ[PAWN_possessive]</li>
-    <li>circumstance_phrase->ممسكا بأوراق في يد[PAWN_possessive]</li>
+    <li>circumstance_phrase->وحيداً على منضدتـ[PAWN_possessive]</li>
+    <li>circumstance_phrase->ممسكاً بأوراق في يد[PAWN_possessive]</li>
     <li>circumstance_phrase->بنظرة افتتان مبتهج</li>
-    <li>desc_sentence->[PAWN_nameDef] يتصبب عرقا.</li>
-    <li>desc_sentence->يبدو العمل معقدا بشكل استثنائي.</li>
+    <li>desc_sentence->[PAWN_nameDef] يتصبب عرقاً.</li>
+    <li>desc_sentence->يبدو العمل معقداً بشكل استثنائي.</li>
     <li>desc_sentence->[PAWN_nameDef] محاط بالكامل بمجموعة من الأدوات والأجهزة.</li>
     <li>desc_sentence->[PAWN_nameDef] يحدق في اكتشافـ[PAWN_possessive] بإحساس من العجب.</li>
  </FinishedResearchProject.rulePack.rulesStrings>
@@ -251,14 +251,14 @@
     <li>circumstance_phrase->مع إطلاق صواريخ كبح بشكل درامي</li>
     <li>circumstance_phrase->في هبوط دقيق</li>
     <li>desc_sentence->[PAWN_pronoun] يركز بشدة على أجهزة التحكم.</li>
-    <li>desc_sentence->[PAWN_pronoun] عيونـ[PAWN_possessive] مغلقة ويبدو خائفا.</li>
+    <li>desc_sentence->[PAWN_pronoun] عيونـ[PAWN_possessive] مغلقة ويبدو خائفاً.</li>
     <li>desc_sentence->[PAWN_pronoun] فاقد للوعي، لسانـ[PAWN_possessive] يتدلى، يسيل لعابه.</li>
     <li>desc_sentence->[PAWN_pronoun] يبتسم بفرح متجهم.</li>
-    <li>desc_sentence->يبدو أن [PAWN_pronoun] لا يدري ما يفعله.</li>
-    <li>desc_sentence->[PAWN_pronoun] مربوط المقعد وعيونـ[PAWN_possessive] مغلقة، عاجز تماما.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] وكأنما لا يدري ما يفعله [PAWN_pronoun].</li>
+    <li>desc_sentence->[PAWN_pronoun] مربوط المقعد وعيونـ[PAWN_possessive] مغلقة، عاجز تماماً.</li>
     <li>desc_sentence->هناك أثر لهب يندفع من مؤخرة الكبسولة.</li>
     <li>desc_sentence->[Animal] قريب ينظر للأعلى، مذعور.</li>
-    <li>desc_sentence->[Animal] يفر من الاصطدام خوفا.</li>
+    <li>desc_sentence->[Animal] يفر من الاصطدام خوفاً.</li>
     <li>desc_sentence->يوجد [TerrainFeature] في الخلفية.</li>
     <li>desc_sentence->[PersonJob] يراقب بصمت من بعيد.</li>
  </LandedInPod.rulePack.rulesStrings>
@@ -293,25 +293,25 @@
   <MentalStateBerserk.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] يصاب بهستيريا</li>
     <li>image->[PAWN_nameFull] ينفجر في غضب هستيري [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يصبح مجنونا بعنف [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يصبح مجنوناً بعنف [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يتعثر للأمام بنظرة ذهانية على وجهـ[PAWN_possessive] [circumstance_group]</li>
     <li>circumstance_phrase->بينما يحاول خلع ملابسه</li>
     <li>circumstance_phrase->على ما يبدو بدون سبب</li>
-    <li>circumstance_phrase->بينما يرتعد الآخرون خوفا</li>
+    <li>circumstance_phrase->بينما يرتعد الآخرون خوفاً</li>
     <li>circumstance_phrase->بينما يفر صديق</li>
     <li>circumstance_phrase->بسبب الضغط</li>
     <li>circumstance_phrase->كخطوة أخيرة</li>
     <li>desc_sentence->[PAWN_pronoun] يرتجف بغضب لا يمكن السيطرة عليه.</li>
     <li>desc_sentence->أسنانـ[PAWN_possessive] مكشوفة في تكشيرة مميتة.</li>
     <li>desc_sentence->عيونـ[PAWN_possessive] برك ميتة من الجنون.</li>
-    <li>desc_sentence->اللعاب يتطاير من فمـ[PAWN_possessive] بينما يصرخ بغضب مجنون.</li>
-    <li>desc_sentence->[PAWN_pronoun] فقد جزءا من ملابسـ[PAWN_possessive].</li>
+    <li>desc_sentence->اللعاب يتطاير من فمـ[PAWN_possessive] بينما يعلو صراخـ[PAWN_possessive] بغضب مجنون.</li>
+    <li>desc_sentence->[PAWN_pronoun] فقد جزءاً من ملابسـ[PAWN_possessive].</li>
     <li>desc_sentence->[PAWN_pronoun] يكشر في بؤس.</li>
-    <li>desc_sentence->يبدو [PAWN_pronoun] مبتسما بهوس.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] مبتسماً بهوس.</li>
     <li>desc_sentence->يصور [PAWN_pronoun] بوجه مكشر لـ[Animal].</li>
     <li>desc_sentence->تحيط [Animal]s برأسـ[PAWN_possessive] بشكل رمزي.</li>
-    <li>desc_sentence->بريق قاتل في عينـ[PAWN_possessive].</li>
-    <li>desc_sentence->جسد[PAWN_possessive] بأكمله يبدو مرتعشا بالكراهية.</li>
+    <li>desc_sentence->يحمل [PAWN_pronoun] بريقاً قاتلاً في عينـ[PAWN_possessive].</li>
+    <li>desc_sentence->جسمـ[PAWN_possessive] بأكمله يبدو مرتعشاً بالكراهية.</li>
     <li>desc_sentence->وجهـ[PAWN_possessive] جامد في نظرة سكينة ملتوية.</li>
     <li>desc_sentence->دمعة واحدة تتدحرج على وجهـ[PAWN_possessive].</li>
  </MentalStateBerserk.rulePack.rulesStrings>
@@ -341,28 +341,28 @@
   -->
   <MentalStateGaveUp.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] يستسلم لليأس</li>
-    <li>image->[PAWN_nameFull] يستسلم أخيرا تحت الضغط [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يستسلم أخيراً تحت الضغط [circumstance_group]</li>
     <li>image->[PAWN_nameFull] ينتحب دون سيطرة [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يتعثر بتعبير محطم تماما على وجهـ[PAWN_possessive] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يتعثر بتعبير محطم تماماً على وجهـ[PAWN_possessive] [circumstance_group]</li>
     <li>circumstance_phrase->بينما يحاول خلع ملابسه</li>
     <li>circumstance_phrase->على ما يبدو بدون سبب</li>
     <li>circumstance_phrase->بينما يقدم الآخرون تعاطفهم</li>
     <li>circumstance_phrase->بينما يبكي صديق</li>
     <li>circumstance_phrase->بسبب الضغط</li>
     <li>circumstance_phrase->كخطوة أخيرة</li>
-    <li>desc_sentence->الدموع تتدفق على وجهـ[PAWN_possessive].</li>
+    <li>desc_sentence->يبكي [PAWN_pronoun] والدموع تتدفق على وجهـ[PAWN_possessive].</li>
     <li>desc_sentence->[PAWN_pronoun] يضحك في أعماق كآبتـ[PAWN_possessive].</li>
     <li>desc_sentence->[PAWN_nameDef] ينظر للأعلى، كأنه يطلب المساعدة من السماء.</li>
     <li>desc_sentence->[PAWN_pronoun] يمزق ملابسـ[PAWN_possessive].</li>
-    <li>desc_sentence->يبدو [PAWN_pronoun] غير مدرك تماما لما حولـ[PAWN_objective].</li>
-    <li>desc_sentence->يبدو [PAWN_pronoun] سعيدا وحزينا في نفس الوقت.</li>
-    <li>desc_sentence->توجد بقع على مقدمتـ[PAWN_possessive].</li>
-    <li>desc_sentence->يبدو أن [PAWN_pronoun] فقد حذاءه.</li>
-    <li>desc_sentence->شعر[PAWN_possessive] منفوش تماما.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] غير مدرك تماماً لما حولـ[PAWN_objective].</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] سعيداً وحزينا في نفس الوقت.</li>
+    <li>desc_sentence->يحمل [PAWN_pronoun] بقعاً على مقدمتـ[PAWN_possessive].</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] كمن فقد حذاءً.</li>
+    <li>desc_sentence->شعر[PAWN_possessive] منفوش تماماً.</li>
  </MentalStateGaveUp.rulePack.rulesStrings>
   
   <!-- EN: read a book -->
-  <ReadBook.label>قرأ كتابا</ReadBook.label>
+  <ReadBook.label>قرأ كتاباً</ReadBook.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing [THING_title]</li>
     <li>image->[PAWN_nameFull] closing [THING_title] for the last time, a satisfied smile gracing [PAWN_possessive] face [circumstance_group]</li>
@@ -380,14 +380,14 @@
   <ReadBook.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] ينهي [THING_title]</li>
     <li>image->[PAWN_nameFull] يغلق [THING_title] للمرة الأخيرة، ابتسامة رضا تزين وجهـ[PAWN_possessive] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يقلب صفحات [THING_title]، ممتصا المعرفة بداخله [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يقلب صفحات [THING_title]، ممتصاً المعرفة بداخله [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يعيد [THING_title] إلى الرف، شعور بالإنجاز يشع منـ[PAWN_objective] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يجلس في تأمل هادئ، متأملا الحقائق العميقة داخل [THING_title] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يجلس في تأمل هادئ، متأملاً الحقائق العميقة داخل [THING_title] [circumstance_group]</li>
     <li>circumstance_phrase->بينما يسترخي في زاوية القراءة المفضلة لـ[PAWN_possessive]</li>
     <li>circumstance_phrase->مع كوب شاي بجانبـ[PAWN_possessive]</li>
     <li>circumstance_phrase->تحت التوهج الناعم لمصباح القراءة</li>
     <li>desc_sentence->[PAWN_nameDef] محاط بملاحظاتـ[PAWN_possessive] حول [THING_title].</li>
-    <li>desc_sentence->تتلألأ عيون [PAWN_nameDef] بحكمة مكتشفة حديثا.</li>
+    <li>desc_sentence->تتلألأ عيون [PAWN_nameDef] بحكمة مكتشفة حديثاً.</li>
     <li>desc_sentence->[PAWN_nameDef] تغير للأبد بتعاليم [THING_title].</li>
     <li>desc_sentence->هناك إحساس بأن بعض الأسرار لم تكتشف بعد.</li>
  </ReadBook.rulePack.rulesStrings>
@@ -419,7 +419,7 @@
     <li>circumstance_phrase->بنظرة مفاجأة</li>
     <li>circumstance_phrase->بتعبير رضا</li>
     <li>desc_sentence->[PAWN_nameDef] يمسح جبينـ[PAWN_possessive].</li>
-    <li>desc_sentence->[PAWN_nameDef] يقفز فرحا.</li>
+    <li>desc_sentence->[PAWN_nameDef] يقفز فرحاً.</li>
     <li>desc_sentence->[PAWN_nameDef] يصفع كف صديق.</li>
     <li>desc_sentence->[PAWN_nameDef] يصرخ بسعادة.</li>
     <li>desc_sentence->[PAWN_nameDef] يضحك دون سيطرة.</li>
@@ -450,26 +450,26 @@
   -->
   <Vomited.rulePack.rulesStrings>
     <li>tale_noun->تقيؤ [PAWN_nameDef]</li>
-    <li>image->[PAWN_nameFull] يقذف قيئا على الأرض [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] يبدو مقرفا وهو مغطى بقيء جاف [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يقذف قيئاً على الأرض [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يبدو مقرفاً وهو مغطى بقيء جاف [circumstance_group]</li>
     <li>image->[PAWN_nameFull] منحن ومتقيأ على الأرض [circumstance_group]</li>
     <li>image->[PAWN_nameFull] على ركبتيـ[PAWN_possessive]، يتقيأ على الأرض [circumstance_group]</li>
-    <li>circumstance_phrase->بينما يبدو متألما</li>
+    <li>circumstance_phrase->بينما يبدو متألماً</li>
     <li>circumstance_phrase->بخزي عظيم</li>
     <li>circumstance_phrase->بينما يراقب الآخرون</li>
-    <li>desc_sentence->يبدو [PAWN_pronoun] غير مدرك تماما لما حولـ[PAWN_objective].</li>
-    <li>desc_sentence->وجهـ[PAWN_possessive] نفسه يبدو متورما.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] غير مدرك تماماً لما حولـ[PAWN_objective].</li>
+    <li>desc_sentence->وجهـ[PAWN_possessive] نفسه يبدو متورماً.</li>
     <li>desc_sentence->[PAWN_pronoun] شبه فاقد للوعي، لسانـ[PAWN_possessive] يتدلى، يسيل لعابه.</li>
     <li>desc_sentence->[PAWN_pronoun] يتشنج بعنف.</li>
-    <li>desc_sentence->يبدو [PAWN_pronoun] خجلا.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] خجلاً.</li>
     <li>desc_sentence->يبدو [PAWN_pronoun] يحاول الضحك، رغم الظروف.</li>
-    <li>desc_sentence->يبدو [PAWN_pronoun] شبه مفرغ، كأنه أفرغ تماما بسبب التقيؤ الشديد.</li>
-    <li>desc_sentence->[PAWN_pronoun] محاط بهالة من القذارة مصورة فنيا.</li>
+    <li>desc_sentence->يبدو [PAWN_pronoun] شبه مفرغ، كأنه أفرغ تماماً بسبب التقيؤ الشديد.</li>
+    <li>desc_sentence->[PAWN_pronoun] محاط بهالة من القذارة مصورة فنياً.</li>
     <li>desc_sentence->[Animal] يأكل من أثر القيء في الخلفية.</li>
  </Vomited.rulePack.rulesStrings>
   
   <!-- EN: walked naked -->
-  <WalkedNaked.label>مشى عاريا</WalkedNaked.label>
+  <WalkedNaked.label>مشى عارياً</WalkedNaked.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] walking around naked</li>
     <li>image->[PAWN_nameFull] [nude_action] while in a state of nature [circumstance_group]</li>
@@ -496,10 +496,10 @@
     <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li>
   -->
   <WalkedNaked.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] يتجول عاريا</li>
+    <li>tale_noun->[PAWN_nameDef] يتجول عارياً</li>
     <li>image->[PAWN_nameFull] [nude_action] في حالة الطبيعة [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] [nude_action] عاريا [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] [nude_action]، عاريا، [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] عارياً [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action]، عارياً، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [nude_action] بدون أي ملابس [circumstance_group]</li>
     <li>nude_action->يتبختر</li>
     <li>nude_action->يمرح</li>
@@ -545,9 +545,9 @@
   -->
   <WasOnFire.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] يشتعل</li>
-    <li>image->[PAWN_nameFull] يطفئ بسرعة نارا ملتصقة بجسد[PAWN_possessive] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يطفئ بسرعة ناراً ملتصقة بجسمـ[PAWN_possessive] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] مغلف باللهب [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] راكع، يداه فوق رأسه، يحاول إطفاء النيران على جسد[PAWN_possessive] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] راكع، يداه فوق رأسه، يحاول إطفاء النيران على جسمـ[PAWN_possessive] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يتدحرج على الأرض بينما يحترق [circumstance_group]</li>
     <li>circumstance_phrase->بينما يراقب الآخرون</li>
     <li>circumstance_phrase->بينما هو شبه عار</li>
@@ -555,13 +555,13 @@
     <li>desc_sentence->لحمـ[PAWN_possessive] متفحم بشكل واضح.</li>
     <li>desc_sentence->عيونـ[PAWN_possessive] واسعة من الهلع.</li>
     <li>desc_sentence->يبدو [PAWN_pronoun] شبه واعي؛ عيونـ[PAWN_possessive] هامدة.</li>
-    <li>desc_sentence->فمـ[PAWN_possessive] مفتوح بينما يصرخ [PAWN_pronoun] طلبا للمساعدة.</li>
+    <li>desc_sentence->فمـ[PAWN_possessive] مفتوح بينما يصرخ [PAWN_pronoun] طلباً للمساعدة.</li>
     <li>desc_sentence->النيران على وشك أن تغلف رأسـ[PAWN_possessive].</li>
     <li>desc_sentence->هالة رمزية من النار تحيط بوجهـ[PAWN_possessive].</li>
     <li>desc_sentence->[PAWN_pronoun] يضحك بشكل جنوني.</li>
     <li>desc_sentence->يبدو [PAWN_pronoun] يفقد[PAWN_objective].</li>
     <li>desc_sentence->عمود من الدخان يتصاعد منـ[PAWN_objective].</li>
-    <li>desc_sentence->يصور [PAWN_pronoun] فنيا بطريقة تشبه الجثة.</li>
+    <li>desc_sentence->يصور [PAWN_pronoun] فنياً بطريقة تشبه الجثة.</li>
  </WasOnFire.rulePack.rulesStrings>
   
 </LanguageData>

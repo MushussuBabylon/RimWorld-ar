@@ -42,9 +42,9 @@
   -->
   <Downed.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] بـ [WEAPON_label]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] بـ[WEAPON_label]</li>
     <li>tale_noun->[wound_name_present] [VICTIM_nameDef] على يد [KILLER_nameDef]</li>
-    <li>tale_noun->[wound_name_present] [VICTIM_nameDef] بـ [WEAPON_label]</li>
+    <li>tale_noun->[wound_name_present] [VICTIM_nameDef] بـ[WEAPON_label]</li>
     <li>tale_noun->[wound_name_present] [VICTIM_nameDef]</li>
     <li>image->[VICTIM_nameFull] يتم [wound_name_past] على يد [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -58,7 +58,7 @@
     <li>wound_name_present->إيذاء</li>
     <li>wound_name_present->إفقاد الوعي</li>
     <li>wound_name_present->تعطيل</li>
-    <li>with_weapon_optional->بـ [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->بـ[WEAPON_label] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->على ما يبدو دون ندم</li>
     <li>circumstance_phrase->بكفاءة باردة</li>
@@ -71,11 +71,11 @@
     <li>desc_sentence->أحد [PersonJob] يراقب بصمت [side_position].</li>
     <li>desc_sentence->يبدو [VICTIM_nameDef] [AdjectiveAngsty].</li>
     <li>desc_sentence->عيون [VICTIM_nameDef] مغلقة.</li>
-    <li>desc_sentence->[KILLER_nameDef] يكشف عن أسنانه.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] راضيا.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجا مما يفعله.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] مسرورا بالوضع.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منتصرا.</li>
+    <li>desc_sentence->[KILLER_nameDef] يكشف عن أسنانـ[KILLER_possessive].</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] راضياً.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجاً مما يفعله [KILLER_pronoun].</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] مسروراً بالوضع.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منتصراً.</li>
  </Downed.rulePack.rulesStrings>
   
   <!-- EN: exhausted -->
@@ -108,9 +108,9 @@
     <li>circumstance_phrase->بإرهاق واضح على ملامحه</li>
     <li>circumstance_phrase->وهو مغطى بالعرق</li>
     <li>circumstance_phrase->وهو غير قادر على تحريك عضلة</li>
-    <li>desc_sentence->مشروع [PAWN_nameDef] الأخير يستقر قريبا، مكتمل.</li>
-    <li>desc_sentence->بناء مذهل يحيط بـ [PAWN_nameDef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يبدون ممتنين للجهد البطولي لـ [PAWN_nameDef].</li>
+    <li>desc_sentence->مشروع [PAWN_nameDef] الأخير يستقر قريباً، مكتمل.</li>
+    <li>desc_sentence->بناء مذهل يحيط بـ[PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يبدون ممتنين للجهد البطولي لـ[PAWN_nameDef].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يرقدون في الجوار في حالة مشابهة.</li>
     <li>desc_sentence->المشهد يحدث داخل [Community] حديث البناء.</li>
  </Exhausted.rulePack.rulesStrings>
@@ -146,9 +146,9 @@
     <li>baby->طفل</li>
     <li>circumstance_phrase->[CHILD_nameFull]، وهو ملطخ بالدماء ويبكي</li>
     <li>circumstance_phrase->[CHILD_nameFull]، الذي يتوهج بلطف [Color]</li>
-    <li>circumstance_phrase->[CHILD_nameFull]، الذي يحاول بالفعل جر نفسه حوله</li>
+    <li>circumstance_phrase->[CHILD_nameFull]، الذي يحاول بالفعل جر نفسـ[CHILD_objective] في أرجاء المكان</li>
     <li>circumstance_phrase->[CHILD_nameFull]، الذي ينظر حوله بتعبير مطمئن</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s تنام بسلام قريبا.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s تنام بسلام قريباً.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s يحدقون في المشهد.</li>
     <li>desc_sentence->أحد [PersonJob] يراقب من مسافة.</li>
     <li>desc_sentence->المشهد يحدث داخل [Community] حديث البناء.</li>
@@ -228,7 +228,7 @@
     <li>circumstance_phrase->بينما يتحول وجهـ[PAWN_possessive] ببطء للأزرق</li>
     <li>circumstance_phrase->وهو يرتجف دون توقف</li>
     <li>circumstance_phrase->وهو مغطى بالصقيع</li>
-    <li>circumstance_phrase->وهو يزفر سحبا من الضباب</li>
+    <li>circumstance_phrase->وهو يزفر سحباً من الضباب</li>
     <li>desc_sentence->جثث [Quantity_adjphrase] من الـ[Animal]s المتجمدة تحيط بالمكان.</li>
     <li>desc_sentence->ملابس [PAWN_nameDef] ممزقة وبالية.</li>
     <li>desc_sentence->قمر أزرق بارد يلوح في الخلفية.</li>
@@ -262,16 +262,16 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <IllnessRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] يصاب بـ [ILLNESS_label]</li>
+    <li>tale_noun->[PAWN_nameDef] يصاب بـ[ILLNESS_label]</li>
     <li>image->[PAWN_nameFull] يترنح عبر حقل [circumstance_group]</li>
     <li>image->[PAWN_nameFull] راقد على الأرض [circumstance_group]</li>
     <li>image->[PAWN_nameFull] راقد في السرير [circumstance_group]</li>
     <li>image->[PAWN_nameFull] راقد في سرير مستشفى [circumstance_group]</li>
     <li>image->[PAWN_nameFull] منهار على كرسي [circumstance_group]</li>
     <li>image->[PAWN_nameFull] جاثم بجوار نار [circumstance_group]</li>
-    <li>circumstance_phrase->ويتصبب عرقا دون توقف</li>
+    <li>circumstance_phrase->ويتصبب عرقاً دون توقف</li>
     <li>circumstance_phrase->ويرتجف دون توقف</li>
-    <li>circumstance_phrase->بينما يتصبب عرقا ويرتجف معا</li>
+    <li>circumstance_phrase->بينما يتصبب عرقاً ويرتجف معاً</li>
     <li>circumstance_phrase->بشفاه جافة متشققة</li>
     <li>circumstance_phrase->بينما يتقيأ</li>
     <li>circumstance_phrase->بطفح جلدي واضح</li>
@@ -318,7 +318,7 @@
   -->
   <KilledCapacity.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] بـ [WEAPON_label]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] بـ[WEAPON_label]</li>
     <li>image->[KILLER_nameFull] [cap_removal] قدرة [VICTIM_nameFull] على [CAPACITY_label] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] عبر [cap_removal][CAPACITY_label][VICTIM_possessive] [with_weapon_optional]</li>
     <li>cap_removal->تدمير</li>
@@ -332,7 +332,7 @@
     <li>wound_name_present->إعدام</li>
     <li>wound_name_present->اغتيال</li>
     <li>wound_name_present->قضاء</li>
-    <li>with_weapon_optional->بـ [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->بـ[WEAPON_label] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->على ما يبدو دون ندم</li>
     <li>circumstance_phrase->بكفاءة باردة</li>
@@ -342,10 +342,10 @@
     <li>desc_sentence->أحد [PersonJob] يراقب بصمت [side_position].</li>
     <li>desc_sentence->يبدو [VICTIM_nameDef] [AdjectiveAngsty].</li>
     <li>desc_sentence->عيون [VICTIM_nameDef] مغلقة.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] راضيا.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجا مما يفعله.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] مسرورا بالوضع.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منتصرا.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] راضياً.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجاً مما يفعله [KILLER_pronoun].</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] مسروراً بالوضع.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منتصراً.</li>
  </KilledCapacity.rulePack.rulesStrings>
   
   <!-- EN: killed at distance -->
@@ -387,9 +387,9 @@
   -->
   <KilledLongRange.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] عن بعد سحيق</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] عن بعد سحيق بـ [WEAPON_label]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] عن بعد سحيق بـ[WEAPON_label]</li>
     <li>tale_noun->[wound_name_present] عن بعد لـ[VICTIM_nameDef] على يد [KILLER_nameDef]</li>
-    <li>tale_noun->[wound_name_present] عن بعد لـ[VICTIM_nameDef] على يد [KILLER_nameDef] بـ [WEAPON_label]</li>
+    <li>tale_noun->[wound_name_present] عن بعد لـ[VICTIM_nameDef] على يد [KILLER_nameDef] بـ[WEAPON_label]</li>
     <li>image->[KILLER_nameFull] يصوب نحو [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] ببرود [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -401,7 +401,7 @@
     <li>wound_name_present->ذبح</li>
     <li>wound_name_present->جزر</li>
     <li>wound_name_present->قضاء</li>
-    <li>with_weapon_optional->بـ [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->بـ[WEAPON_label] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->على ما يبدو دون ندم</li>
     <li>circumstance_phrase->بكفاءة باردة</li>
@@ -414,11 +414,11 @@
     <li>desc_sentence->يبدو [VICTIM_nameDef] [AdjectiveAngsty].</li>
     <li>desc_sentence->عيون [VICTIM_nameDef] مغلقة.</li>
     <li>desc_sentence->[VICTIM_nameDef] مغطى بـ[Gore].</li>
-    <li>desc_sentence->[KILLER_nameDef] يكشف عن أسنانه.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] راضيا.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجا مما يفعله.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] مسرورا بالوضع.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منتصرا.</li>
+    <li>desc_sentence->[KILLER_nameDef] يكشف عن أسنانـ[KILLER_possessive].</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] راضياً.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجاً مما يفعله [KILLER_pronoun].</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] مسروراً بالوضع.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منتصراً.</li>
  </KilledLongRange.rulePack.rulesStrings>
   
   <!-- EN: killed major threat -->
@@ -463,9 +463,9 @@
   -->
   <KilledMajorThreat.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] بـ [WEAPON_label]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] بـ[WEAPON_label]</li>
     <li>tale_noun->[wound_name_present] [VICTIM_nameDef] على يد [KILLER_nameDef]</li>
-    <li>tale_noun->[wound_name_present] [VICTIM_nameDef] على يد [KILLER_nameDef] بـ [WEAPON_label]</li>
+    <li>tale_noun->[wound_name_present] [VICTIM_nameDef] على يد [KILLER_nameDef] بـ[WEAPON_label]</li>
     <li>image->[VICTIM_nameFull] يتم [wound_name_past] على يد [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] بشكل وحشي [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -476,7 +476,7 @@
     <li>wound_name_present->ذبح</li>
     <li>wound_name_present->هزيمة</li>
     <li>wound_name_present->تغلب</li>
-    <li>with_weapon_optional->بـ [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->بـ[WEAPON_label] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->بكفاءة باردة</li>
     <li>circumstance_phrase->بحركات سريعة وفعالة</li>
@@ -493,9 +493,9 @@
     <li>desc_sentence->جثة [VICTIM_nameDef] الضخمة تغطي [TerrainFeature].</li>
     <li>desc_sentence->عيون [VICTIM_nameDef] تتوهج [Color].</li>
     <li>desc_sentence->[KILLER_nameDef] مغطى بـ[Gore].</li>
-    <li>desc_sentence->[KILLER_nameDef] يكشف عن أسنانه.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] راضيا.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منتصرا.</li>
+    <li>desc_sentence->[KILLER_nameDef] يكشف عن أسنانـ[KILLER_possessive].</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] راضياً.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منتصراً.</li>
     <li>desc_sentence->يبدو [KILLER_nameDef] [AdjectiveBadass].</li>
     <li>desc_sentence->[KILLER_nameDef] يتوهج بهالة بطولية.</li>
  </KilledMajorThreat.rulePack.rulesStrings>
@@ -542,9 +542,9 @@
   -->
   <KilledMelee.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] في قتال متلاحم</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] في اشتباك بـ [WEAPON_label]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] في اشتباك بـ[WEAPON_label]</li>
     <li>tale_noun->[wound_name_present] خلال اشتباك لـ[VICTIM_nameDef] على يد [KILLER_nameDef]</li>
-    <li>tale_noun->[wound_name_present] في قتال متلاحم لـ[VICTIM_nameDef] على يد [KILLER_nameDef] بـ [WEAPON_label]</li>
+    <li>tale_noun->[wound_name_present] في قتال متلاحم لـ[VICTIM_nameDef] على يد [KILLER_nameDef] بـ[WEAPON_label]</li>
     <li>image->[VICTIM_nameFull] يتم [wound_name_past] على يد [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] بشكل وحشي [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -557,7 +557,7 @@
     <li>wound_name_present->ذبح</li>
     <li>wound_name_present->جزر</li>
     <li>wound_name_present->تشويه</li>
-    <li>with_weapon_optional->بـ [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->بـ[WEAPON_label] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->على ما يبدو دون ندم</li>
     <li>circumstance_phrase->بكفاءة باردة</li>
@@ -571,12 +571,12 @@
     <li>desc_sentence->[VICTIM_nameDef] مغطى بـ[Gore].</li>
     <li>desc_sentence->[VICTIM_nameDef] و[KILLER_nameDef] كلاهما مغطى بـ[Gore].</li>
     <li>desc_sentence->[KILLER_nameDef] مغطى بـ[Gore].</li>
-    <li>desc_sentence->[KILLER_nameDef] يكشف عن أسنانه.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] راضيا.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجا مما يفعله.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] مسرورا بالوضع.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منتصرا.</li>
-    <li>desc_sentence->[KILLER_nameDef] يرتدي تعبيرا متوحشا.</li>
+    <li>desc_sentence->[KILLER_nameDef] يكشف عن أسنانـ[KILLER_possessive].</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] راضياً.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجاً مما يفعله [KILLER_pronoun].</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] مسروراً بالوضع.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منتصراً.</li>
+    <li>desc_sentence->[KILLER_nameDef] يرتدي تعبيراً متوحشاً.</li>
  </KilledMelee.rulePack.rulesStrings>
   
   <!-- EN: killed with mortar -->
@@ -620,10 +620,10 @@
     <li>desc_sentence->[VICTIM_nameDef] مغطى بـ[Gore].</li>
     <li>desc_sentence->[VICTIM_nameDef] محاط بالانفجارات.</li>
     <li>desc_sentence->[VICTIM_nameDef] محاط بالحفر.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] راضيا.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجا مما يفعله.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] مسرورا بالوضع.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منتصرا.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] راضياً.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجاً مما يفعله [KILLER_pronoun].</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] مسروراً بالوضع.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منتصراً.</li>
  </KilledMortar.rulePack.rulesStrings>
   
   <!-- EN: toxicity revealed -->
@@ -651,7 +651,7 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <ToxicityRevealed.rulePack.rulesStrings>
-    <li>tale_noun->جسد [PAWN_nameDef] يصبح ساما</li>
+    <li>tale_noun->جسم [PAWN_nameDef] يصبح ساما</li>
     <li>tale_noun->[PAWN_nameDef] يتسمم بالسموم</li>
     <li>image->[PAWN_nameFull] يترنح عبر حقل [circumstance_group]</li>
     <li>image->[PAWN_nameFull] راقد على الأرض [circumstance_group]</li>
@@ -659,9 +659,9 @@
     <li>image->[PAWN_nameFull] جاثم بجوار نار [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يحاول إشعال نار [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يخلع ملابسـ[PAWN_possessive] بلا وعي [circumstance_group]</li>
-    <li>circumstance_phrase->ويتصبب عرقا دون توقف</li>
+    <li>circumstance_phrase->ويتصبب عرقاً دون توقف</li>
     <li>circumstance_phrase->ويرتجف دون توقف</li>
-    <li>circumstance_phrase->بينما يتصبب عرقا ويرتجف معا</li>
+    <li>circumstance_phrase->بينما يتصبب عرقاً ويرتجف معاً</li>
     <li>circumstance_phrase->بشفاه جافة متشققة</li>
     <li>circumstance_phrase->بينما يتقيأ</li>
     <li>circumstance_phrase->بطفح جلدي واضح</li>
@@ -719,9 +719,9 @@
   -->
   <Wounded.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] بـ [WEAPON_label]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] بـ[WEAPON_label]</li>
     <li>tale_noun->[wound_name_present] [VICTIM_nameDef] على يد [KILLER_nameDef]</li>
-    <li>tale_noun->[wound_name_present] [VICTIM_nameDef] بـ [WEAPON_label]</li>
+    <li>tale_noun->[wound_name_present] [VICTIM_nameDef] بـ[WEAPON_label]</li>
     <li>tale_noun->[wound_name_present] [VICTIM_nameDef]</li>
     <li>image->[VICTIM_nameFull] يتم [wound_name_past] على يد [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -737,7 +737,7 @@
     <li>wound_name_present->أذى</li>
     <li>wound_name_present->اعتداء</li>
     <li>wound_name_present->هجوم</li>
-    <li>with_weapon_optional->بـ [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->بـ[WEAPON_label] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->على ما يبدو دون ندم</li>
     <li>circumstance_phrase->بكفاءة باردة</li>
@@ -748,16 +748,16 @@
     <li>circumstance_phrase->بطريقة جبانة وفاترة</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s يراقبون.</li>
     <li>desc_sentence->أحد [PersonJob] يراقب بصمت [side_position].</li>
-    <li>desc_sentence->الدم يتجمع حول جسد [VICTIM_nameDef].</li>
+    <li>desc_sentence->الدم يتجمع حول جسم [VICTIM_nameDef].</li>
     <li>desc_sentence->[VICTIM_nameDef] مغطى بـ[Gore].</li>
     <li>desc_sentence->يبدو [VICTIM_nameDef] [AdjectiveAngsty].</li>
     <li>desc_sentence->[VICTIM_nameDef] يتألم من شدة الألم.</li>
     <li>desc_sentence->[VICTIM_nameDef] يتألم بشدة.</li>
-    <li>desc_sentence->[KILLER_nameDef] يكشف عن أسنانه.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] راضيا.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجا مما يفعله.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] مسرورا بالوضع.</li>
-    <li>desc_sentence->يبدو [KILLER_nameDef] منتصرا.</li>
+    <li>desc_sentence->[KILLER_nameDef] يكشف عن أسنانـ[KILLER_possessive].</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] راضياً.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منزعجاً مما يفعله [KILLER_pronoun].</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] مسروراً بالوضع.</li>
+    <li>desc_sentence->يبدو [KILLER_nameDef] منتصراً.</li>
  </Wounded.rulePack.rulesStrings>
   
 </LanguageData>
