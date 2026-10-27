@@ -7,12 +7,12 @@
   <BiosculpterOccupantSpeed.description>مضاعف لمدى سرعة إكمال هذا الشخص لدورة كبسولة النحت الحيوي.</BiosculpterOccupantSpeed.description>
   
   <!-- EN: global certainty loss factor -->
-  <CertaintyLossFactor.label>معامل فقدان اليقين العالمي</CertaintyLossFactor.label>
+  <CertaintyLossFactor.label>معامل فقدان اليقين العام</CertaintyLossFactor.label>
   <!-- EN: A multiplier on how much certainty this person loses when someone else tries to convert them away from their ideoligion. -->
   <CertaintyLossFactor.description>مضاعف لمدى فقدان هذا الشخص لليقين عندما يحاول شخص آخر تحويله بعيداً عن عقيدته.</CertaintyLossFactor.description>
   
   <!-- EN: conversion power -->
-  <ConversionPower.label>قوة التحويل</ConversionPower.label>
+  <ConversionPower.label>قوة تحويل العقيدة</ConversionPower.label>
   <!-- EN: How effective this person is at converting others to their own ideoligion. When this person attempts to convert someone else, this value multiplies the amount of certainty the other person loses. -->
   <ConversionPower.description>مدى فعالية هذا الشخص في تحويل الآخرين إلى عقيدته الخاصة. عندما يحاول هذا الشخص تحويل شخص آخر، تضرب هذه القيمة في مقدار اليقين الذي يفقده الشخص الآخر.</ConversionPower.description>
   
@@ -24,7 +24,7 @@
   <!-- EN: melee dodge chance indoors lit -->
   <MeleeDodgeChanceIndoorsLitOffset.label>فرصة تفادي الاشتباك في الداخل المضاء</MeleeDodgeChanceIndoorsLitOffset.label>
   <!-- EN: An offset on melee dodge chance if the target is indoors and lit. -->
-  <MeleeDodgeChanceIndoorsLitOffset.description>إزاحة على فرصة تفادي الاشتباك إذا كان الهدف في الداخل والإضاءة مضاءة.</MeleeDodgeChanceIndoorsLitOffset.description>
+  <MeleeDodgeChanceIndoorsLitOffset.description>إزاحة على فرصة تفادي الاشتباك إذا كان الهدف في الداخل في مكان مضاء.</MeleeDodgeChanceIndoorsLitOffset.description>
   
   <!-- EN: melee dodge chance outdoors night -->
   <MeleeDodgeChanceOutdoorsDarkOffset.label>فرصة تفادي الاشتباك في الخارج ليلاً</MeleeDodgeChanceOutdoorsDarkOffset.label>
@@ -44,7 +44,7 @@
   <!-- EN: melee hit chance indoors lit -->
   <MeleeHitChanceIndoorsLitOffset.label>فرصة إصابة الاشتباك في الداخل المضاء</MeleeHitChanceIndoorsLitOffset.label>
   <!-- EN: An offset on melee hit chance if the target is indoors and lit. -->
-  <MeleeHitChanceIndoorsLitOffset.description>إزاحة على فرصة إصابة الاشتباك إذا كان الهدف في الداخل والإضاءة مضاءة.</MeleeHitChanceIndoorsLitOffset.description>
+  <MeleeHitChanceIndoorsLitOffset.description>إزاحة على فرصة إصابة الاشتباك إذا كان الهدف في الداخل في مكان مضاء.</MeleeHitChanceIndoorsLitOffset.description>
   
   <!-- EN: melee hit chance outdoors dark -->
   <MeleeHitChanceOutdoorsDarkOffset.label>فرصة إصابة الاشتباك في الخارج ليلاً</MeleeHitChanceOutdoorsDarkOffset.label>
@@ -64,7 +64,7 @@
   <!-- EN: shooting accuracy indoors lit -->
   <ShootingAccuracyIndoorsLitOffset.label>دقة الرماية في الداخل المضاء</ShootingAccuracyIndoorsLitOffset.label>
   <!-- EN: An offset on shooting accuracy if the target is indoors and lit. -->
-  <ShootingAccuracyIndoorsLitOffset.description>إزاحة على دقة الرماية إذا كان الهدف في الداخل والإضاءة مضاءة.</ShootingAccuracyIndoorsLitOffset.description>
+  <ShootingAccuracyIndoorsLitOffset.description>إزاحة على دقة الرماية إذا كان الهدف في الداخل في مكان مضاء.</ShootingAccuracyIndoorsLitOffset.description>
   
   <!-- EN: shooting accuracy outdoors dark -->
   <ShootingAccuracyOutdoorsDarkOffset.label>دقة الرماية في الخارج ليلاً</ShootingAccuracyOutdoorsDarkOffset.label>

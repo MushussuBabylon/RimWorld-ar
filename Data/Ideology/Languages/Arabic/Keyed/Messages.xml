@@ -6,11 +6,11 @@
   <!-- EN: The ideoligion name can't be empty. -->
   <MessageIdeoNameCantBeEmpty>لا يمكن أن يكون اسم العقيدة فارغاً.</MessageIdeoNameCantBeEmpty>
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
-  <MessageIdeoIncompatiblePrecepts>{PRECEPT1} و {PRECEPT2} غير متوافقين.</MessageIdeoIncompatiblePrecepts>
+  <MessageIdeoIncompatiblePrecepts>{PRECEPT1} و{PRECEPT2} غير متوافقين.</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
-  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>رغبة ملابس {DESIREDAPPAREL} تتداخل مع متطلب ملابس {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>تتداخل رغبة {DESIREDAPPAREL} في الملابس مع متطلب ملابس {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>يتداخل {DESIREDAPPAREL} مع متطلب ملابس {ROLE} ({ROLEAPPAREL}). هذا سيجعل من المستحيل على {ROLE}s ارتداء الملابس المطلوبة والمرغوبة معاً.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>يتداخل {DESIREDAPPAREL} مع متطلب ملابس {ROLE} ({ROLEAPPAREL}). وهذا يجعل من المستحيل على من يشغلون دور {ROLE} ارتداء الملابس المطلوبة والمرغوبة معاً.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
   <MessageRitualMissingTarget>{PRECEPT} يحتاج إلى أحد هذه المباني</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
@@ -22,42 +22,42 @@
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
   <MessageFailedConvertIdeoAttemptSocialFight>حاول {PAWN1_nameDef} تحويل {PAWN2_nameDef} إلى عقيدتـ{PAWN1_possessive}. أدى هذا إلى شجار اجتماعي!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
-  <MessageNotEnoughMemes>يجب أن تختار على الأقل {0} مبدأ.</MessageNotEnoughMemes>
+  <MessageNotEnoughMemes>يجب أن تختار {0} من المبادئ على الأقل.</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
-  <MessageTooManyMemes>لا يمكنك اختيار أكثر من {0} مبدأ.</MessageTooManyMemes>
+  <MessageTooManyMemes>لا يمكنك اختيار أكثر من {0} من المبادئ.</MessageTooManyMemes>
   <!-- EN: You must choose a structure meme. -->
   <MessageNotEnoughStructureMemes>يجب أن تختار مبدأً هيكلياً.</MessageNotEnoughStructureMemes>
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
-  <MessageIncompatibleMemes>{0_label} و {1_label} غير متوافقين مع بعضهما.</MessageIncompatibleMemes>
+  <MessageIncompatibleMemes>{0_label} و{1_label} غير متوافقين مع بعضهما.</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
   <MessageNoRequiredRolePawnToBeginRitual>تحتاج إلى {0} لبدء {1}.</MessageNoRequiredRolePawnToBeginRitual>
   <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
-  <MessageNotEnoughSpectators>يلزم على الأقل {0} متفرج لبدء {1}.</MessageNotEnoughSpectators>
+  <MessageNotEnoughSpectators>يلزم وجود {0} من المتفرجين على الأقل لبدء {1}.</MessageNotEnoughSpectators>
   <!-- EN: You must choose a role. -->
   <MessageRoleChangeChooseDifferentRole>يجب أن تختار دوراً.</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>قبل بدء {1}، يجب أن تعين شخصاً في دور {0}.</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAssignedRoleToBeginRitual>قبل بدء {1}، يجب أن تعيّن شخصاً لدور {0}.</MessageNeedAssignedRoleToBeginRitual>
   <!-- EN: Need at least one {0} participating. -->
   <MessageNeedAtLeastOneParticipantOfIdeo>تحتاج إلى مشارك {0} واحد على الأقل.</MessageNeedAtLeastOneParticipantOfIdeo>
   
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
   <MessageRoleAssigned>{0_labelShort} يحمل الآن دور {1}.</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>بما أن {0_labelShort} أصبح سجيناً، لم يعد {0_pronoun} قادراً على حمل دور {1}.</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>بعد أن أصبح {0_labelShort} سجيناً، لم يعد {0_pronoun} قادراً على شغل دور {1}.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
-  <MessageWarningPlayerDesignatedTreeChopped>تحذير: سينزعج {0} إذا تم قطع شجرة.</MessageWarningPlayerDesignatedTreeChopped>
+  <MessageWarningPlayerDesignatedTreeChopped>تحذير: سينزعج {0} إذا قُطعت شجرة.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
   <MessageWarningPlayerDesignatedMining>تحذير: سينزعج {0} إذا حدث تعدين.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
-  <MessageConnectedPawnDied>انقطع اتصال {TREE_label} بـ {PAWN_nameDef}. يجب أن يتعافى لمدة {DURATION} قبل أن يتمكن من إعادة الاتصال مرة أخرى.</MessageConnectedPawnDied>
+  <MessageConnectedPawnDied>انقطع اتصال {TREE_label} بـ{PAWN_nameDef}. يجب أن تتعافى لمدة {DURATION} قبل أن تتمكن من إعادة الاتصال مجدداً.</MessageConnectedPawnDied>
 
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
-  <MessageSlaveEmancipated>تم تحرير {0_nameDef} بواسطة {1_nameDef}.</MessageSlaveEmancipated>
+  <MessageSlaveEmancipated>حرّر {1_nameDef} {0_nameDef}.</MessageSlaveEmancipated>
   <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
-  <MessagePrisonerEnslaved>تم استعباد {0_nameDef} بواسطة {1_nameDef}.</MessagePrisonerEnslaved>
+  <MessagePrisonerEnslaved>استعبد {1_nameDef} {0_nameDef}.</MessagePrisonerEnslaved>
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
-  <MessagePrisonerWillBroken>كُسرت إرادة السجين {1_nameDef} بواسطة {0_nameDef}.</MessagePrisonerWillBroken>
+  <MessagePrisonerWillBroken>كسر {0_nameDef} إرادة السجين {1_nameDef}.</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
   <MessagePrisonerWillBroken_RecruitAttempsWillBegin>سيتبع ذلك الاستعباد.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
 
@@ -73,9 +73,9 @@
 
   <!-- Charity -->
   <!-- EN: Charity refused -->
-  <MessageCharityEventRefused>تم رفض العمل الخيري</MessageCharityEventRefused>
+  <MessageCharityEventRefused>رُفض العمل الخيري</MessageCharityEventRefused>
   <!-- EN: Charity fulfilled -->
-  <MessageCharityEventFulfilled>تم الوفاء بالعمل الخيري</MessageCharityEventFulfilled>
+  <MessageCharityEventFulfilled>أُنجز العمل الخيري</MessageCharityEventFulfilled>
   <!-- EN: {0} are leaving empty-handed. -->
   <MessageBeggarsLeavingWithNoItems>{0} يغادرون خالي الوفاض.</MessageBeggarsLeavingWithNoItems>
   <!-- EN: The {0} has accepted the requested items and is leaving. -->
@@ -85,9 +85,9 @@
   <!-- EN: {0_nameDef} died without any treatment. -->
   <MessageWandererLeftToDie>مات {0_nameDef} دون أي علاج.</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was left to die. -->
-  <MessageWandererLeftBehind>{0_nameDef} تُرك ليموت.</MessageWandererLeftBehind>
+  <MessageWandererLeftBehind>تُرك {0_nameDef} ليموت.</MessageWandererLeftBehind>
   <!-- EN: {0_nameDef} was recruited. -->
-  <MessageWandererRecruited>تم تجنيد {0_nameDef}.</MessageWandererRecruited>
+  <MessageWandererRecruited>جُنِّد {0_nameDef}.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
   <MessageWandererLeftHealthy>غادر {0_nameDef} بصحة جيدة.</MessageWandererLeftHealthy>
   <!-- EN: {0} has been failed. -->
@@ -101,16 +101,16 @@
   <!-- EN: Cannot remove {MEME} -->
   <CannotRemoveMemeRequired>لا يمكن إزالة {MEME}</CannotRemoveMemeRequired>
   <!-- EN: Cannot remove {MEME}: Required by player faction. -->
-  <CannotRemoveMemeRequiredPlayer>لا يمكن إزالة {MEME}: مطلوب من قبل فصيل اللاعب.</CannotRemoveMemeRequiredPlayer>
+  <CannotRemoveMemeRequiredPlayer>لا يمكن إزالة {MEME}: يشترطه فصيل اللاعب.</CannotRemoveMemeRequiredPlayer>
   <!-- EN: Required by {FACTION_name}. -->
-  <RequiredByFaction>مطلوب من قبل {FACTION_name}.</RequiredByFaction>
+  <RequiredByFaction>يشترطه {FACTION_name}.</RequiredByFaction>
   <!-- EN: Roles cannot have overlapping apparel requirements. -->
   <OverlappingRoleApparel>لا يمكن أن يكون للأدوار متطلبات ملابس متداخلة.</OverlappingRoleApparel>
   
   <!-- EN: {0} will self-destruct in {1}. -->
-  <SelfDestructCountdown>سيدمر {0} نفسه ذاتياً خلال {1}.</SelfDestructCountdown>
+  <SelfDestructCountdown>سيدمر {0} نفسه بعد {1}.</SelfDestructCountdown>
   <!-- EN: Precept name is too long (maximum {0} letters) -->
-  <PreceptNameTooLong>اسم الوصية طويل جداً (الحد الأقصى {0} حرف)</PreceptNameTooLong>
+  <PreceptNameTooLong>اسم الوصية طويل جداً (الحد الأقصى {0} من الأحرف)</PreceptNameTooLong>
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
@@ -118,19 +118,19 @@
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
   <MessageAncientComplexBackToShuttle>اكتشفت معلومات سرية عن {0}! عد إلى المكوك لإطلاقه.</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
-  <MessageAncientSignalActivated>تم تنشيط قمر صناعي إمداد قديم. ستنزل الإمدادات بالقرب.</MessageAncientSignalActivated>
+  <MessageAncientSignalActivated>نُشِّط قمر إمداد قديم. ستسقط الإمدادات في مكان قريب.</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
-  <MessageAncientSignalHostileDetected>اكتشف {0} من {1} إشارة الإمداد ويهاجمون.</MessageAncientSignalHostileDetected>
+  <MessageAncientSignalHostileDetected>اكتشف {0} من {1} إشارة الإمداد وهم يهاجمون.</MessageAncientSignalHostileDetected>
 
   <!-- Ancient altar -->
   <!-- EN: All security systems are waking up! -->
-  <MessageAncientAltarThreatsWokenUp>جميع أنظمة الأمان تستيقظ!</MessageAncientAltarThreatsWokenUp>
+  <MessageAncientAltarThreatsWokenUp>تستيقظ جميع أنظمة الأمان!</MessageAncientAltarThreatsWokenUp>
   <!-- EN: All security systems are alerted to your presence. -->
-  <MessageAncientAltarThreatsAlerted>تم تنبيه جميع أنظمة الأمان إلى وجودك.</MessageAncientAltarThreatsAlerted>
+  <MessageAncientAltarThreatsAlerted>تنبهت جميع أنظمة الأمان إلى وجودك.</MessageAncientAltarThreatsAlerted>
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>تحذير: {PAWNKINDLABELPLURAL} مبجلة من قبل جميع {PAWNS}، ولن يتم إيذاؤها.</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>تحذير: {PAWNKINDLABELPLURAL} مبجَّلة لدى جميع {PAWNS}، ولن تتعرض للأذى.</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
@@ -140,15 +140,15 @@
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>تم إشعال {0} وهو على وشك الانفجار!</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>أُشعل {0} وهو على وشك الانفجار!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
-  <MessageSleepingThreatDelayActivated>سيستيقظ {0_pawnsPlural} خلال {1}.</MessageSleepingThreatDelayActivated>
+  <MessageSleepingThreatDelayActivated>سيستيقظ {0_pawnsPlural} بعد {1}.</MessageSleepingThreatDelayActivated>
   <!-- EN: Infestation arriving. -->
-  <MessageInfestationDelayActivated>الإصابة قادمة.</MessageInfestationDelayActivated>
+  <MessageInfestationDelayActivated>الاجتياح قادم.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>تم إزعاج {0} وقد ينفجر قريباً!</MessageFuelNodeDelayActivated>
+  <MessageFuelNodeDelayActivated>أُزعج {0} وقد ينفجر قريباً!</MessageFuelNodeDelayActivated>
 
   <!-- Fluid ideo messages -->
   <!-- EN: Development points changed from {0} to {1} ({2}). -->

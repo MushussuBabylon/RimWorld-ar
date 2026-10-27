@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- outcomeChances.*.label используется в OutcomeLetterLabel, RitualAttachedOutcomesInfo, RitualAttachedApplliesForOutcomes, RitualAttachedApplliesForOutcome, а также в списках после RitualDevelopmentPointRewards, RitualOutcomeChances -->
+  <!-- outcomeChances.*.label is used in OutcomeLetterLabel, RitualAttachedOutcomesInfo, RitualAttachedApplliesForOutcomes, RitualAttachedApplliesForOutcome, and also in the lists after RitualDevelopmentPointRewards, RitualOutcomeChances -->
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <AttendedFuneral.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</AttendedFuneral.description>
+  <AttendedFuneral.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</AttendedFuneral.description>
   <!-- EN: moral guide present -->
   <AttendedFuneral.comps.0.label>وجود المرشد الأخلاقي</AttendedFuneral.comps.0.label>
   <!-- EN: participant count -->
   <AttendedFuneral.comps.1.label>عدد المشاركين</AttendedFuneral.comps.1.label>
   <!-- EN: Terrible -->
-  <AttendedFuneral.outcomeChances.0.label>فظيع</AttendedFuneral.outcomeChances.0.label>
+  <AttendedFuneral.outcomeChances.0.label>مروع</AttendedFuneral.outcomeChances.0.label>
   <!-- EN: The {0} was a terrible! Everyone felt insulted for having had to endure it. -->
   <AttendedFuneral.outcomeChances.0.description>كان {0} فظيعاً! شعر الجميع بالإهانة لاضطرارهم لتحمله.</AttendedFuneral.outcomeChances.0.description>
   <!-- EN: Lackluster -->
@@ -27,13 +27,13 @@
   <AttendedFuneral.outcomeChances.3.description>كان {0} مؤثراً. كان الخطاب جذاباً وصادقاً، وغادر الجميع مركزين على الذكريات الجيدة.</AttendedFuneral.outcomeChances.3.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <AttendedFuneralNoCorpse.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</AttendedFuneralNoCorpse.description>
+  <AttendedFuneralNoCorpse.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</AttendedFuneralNoCorpse.description>
   <!-- EN: moral guide present -->
   <AttendedFuneralNoCorpse.comps.0.label>وجود المرشد الأخلاقي</AttendedFuneralNoCorpse.comps.0.label>
   <!-- EN: participant count -->
   <AttendedFuneralNoCorpse.comps.1.label>عدد المشاركين</AttendedFuneralNoCorpse.comps.1.label>
   <!-- EN: Terrible -->
-  <AttendedFuneralNoCorpse.outcomeChances.0.label>فظيع</AttendedFuneralNoCorpse.outcomeChances.0.label>
+  <AttendedFuneralNoCorpse.outcomeChances.0.label>مروع</AttendedFuneralNoCorpse.outcomeChances.0.label>
   <!-- EN: The {0} was a terrible! Everyone felt insulted for having had to endure it. -->
   <AttendedFuneralNoCorpse.outcomeChances.0.description>كان {0} فظيعاً! شعر الجميع بالإهانة لاضطرارهم لتحمله.</AttendedFuneralNoCorpse.outcomeChances.0.description>
   <!-- EN: Lackluster -->
@@ -50,7 +50,7 @@
   <AttendedFuneralNoCorpse.outcomeChances.3.description>كان {0} مؤثراً. كان الخطاب جذاباً وصادقاً، وغادر الجميع مركزين على الذكريات الجيدة.</AttendedFuneralNoCorpse.outcomeChances.3.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <BlindingCeremony.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</BlindingCeremony.description>
+  <BlindingCeremony.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</BlindingCeremony.description>
   <!-- EN: moral guide present -->
   <BlindingCeremony.comps.2.label>وجود المرشد الأخلاقي</BlindingCeremony.comps.2.label>
   <!-- EN: participant count -->
@@ -60,30 +60,30 @@
   <!-- EN: an altar -->
   <BlindingCeremony.comps.4.expectedThingLabelTip>مذبح</BlindingCeremony.comps.4.expectedThingLabelTip>
   <!-- EN: If the {0} is satisfying, the blinded person might get a psylink upgrade or unlock new psychic powers. -->
-  <BlindingCeremony.extraPredictedOutcomeDescriptions.0>إذا كان {0} مرضياً، فقد يحصل الشخص المُعمى على ترقية ربط نفسي أو يفتح قوى نفسية جديدة.</BlindingCeremony.extraPredictedOutcomeDescriptions.0>
+  <BlindingCeremony.extraPredictedOutcomeDescriptions.0>إذا كان {0} مرضياً، فقد يحصل الشخص المُعمى على ترقية وصلة نفسية أو يفتح قدرات نفسية جديدة.</BlindingCeremony.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
-  <BlindingCeremony.outcomeChances.0.label>فظيع</BlindingCeremony.outcomeChances.0.label>
+  <BlindingCeremony.outcomeChances.0.label>مروع</BlindingCeremony.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! The speech was stuttering and incoherent. The blinding technique was botched. Everyone was waiting for it to end. -->
   <BlindingCeremony.outcomeChances.0.description>كان {0} فظيعاً! كان الخطاب متلعثماً وغير مترابط. أُفسدت تقنية التعمية. كان الجميع ينتظرون انتهاءه.</BlindingCeremony.outcomeChances.0.description>
   <!-- EN: Boring -->
   <BlindingCeremony.outcomeChances.1.label>ممل</BlindingCeremony.outcomeChances.1.label>
   <!-- EN: The {0} was boring. The speech was repetitive and the blinding technique was noticeably flawed. It just didn't feel dignified. -->
-  <BlindingCeremony.outcomeChances.1.description>كان {0} مملاً. كان الخطاب متكرراً وكانت تقنية التعمية معيبة بشكل ملحوظ. لم يشعر المرء بالكرامة.</BlindingCeremony.outcomeChances.1.description>
+  <BlindingCeremony.outcomeChances.1.description>كان {0} مملاً. كان الخطاب متكرراً وكانت تقنية التعمية معيبة بشكل ملحوظ. لم يبدُ الأمر وقوراً على الإطلاق.</BlindingCeremony.outcomeChances.1.description>
   <!-- EN: Satisfying -->
   <BlindingCeremony.outcomeChances.2.label>مرضٍ</BlindingCeremony.outcomeChances.2.label>
   <!-- EN: The {0} was satisfying. The speech felt meaningful, and the blinding technique was precise and dignified. -->
-  <BlindingCeremony.outcomeChances.2.description>كان {0} مرضياً. شعر المرء بأن الخطاب ذا معنى، وكانت تقنية التعمية دقيقة وكريمة.</BlindingCeremony.outcomeChances.2.description>
+  <BlindingCeremony.outcomeChances.2.description>كان {0} مرضياً. شعر الجميع بأن للخطاب معنى، وكانت تقنية التعمية دقيقة ووقورة.</BlindingCeremony.outcomeChances.2.description>
   <!-- EN: The blinded person will get a psylink upgrade or unlock a new psychic power. -->
-  <BlindingCeremony.outcomeChances.2.potentialExtraOutcomeDesc>سيحصل الشخص المُعمى على ترقية ربط نفسي أو يفتح قوى نفسية جديدة.</BlindingCeremony.outcomeChances.2.potentialExtraOutcomeDesc>
+  <BlindingCeremony.outcomeChances.2.potentialExtraOutcomeDesc>سيحصل الشخص المُعمى على ترقية وصلة نفسية أو يفتح قدرة نفسية جديدة.</BlindingCeremony.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Spectacular -->
   <BlindingCeremony.outcomeChances.3.label>مذهل</BlindingCeremony.outcomeChances.3.label>
   <!-- EN: The {0} was spectacular! The speech brought everyone to the edge of a frenzy just as the eye came out with a satisfying wet noise. -->
   <BlindingCeremony.outcomeChances.3.description>كان {0} مذهلاً! أوصل الخطاب الجميع إلى حافة الهياج تماماً كما خرجت العين بصوت رطب مُرضٍ.</BlindingCeremony.outcomeChances.3.description>
   <!-- EN: The blinded person will get a psylink upgrade or unlock a new psychic power. -->
-  <BlindingCeremony.outcomeChances.3.potentialExtraOutcomeDesc>سيحصل الشخص المُعمى على ترقية ربط نفسي أو يفتح قوى نفسية جديدة.</BlindingCeremony.outcomeChances.3.potentialExtraOutcomeDesc>
+  <BlindingCeremony.outcomeChances.3.potentialExtraOutcomeDesc>سيحصل الشخص المُعمى على ترقية وصلة نفسية أو يفتح قدرة نفسية جديدة.</BlindingCeremony.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <CelebratedDate.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</CelebratedDate.description>
+  <CelebratedDate.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</CelebratedDate.description>
   <!-- EN: leader present -->
   <CelebratedDate.comps.2.label>وجود القائد</CelebratedDate.comps.2.label>
   <!-- EN: participant count -->
@@ -93,7 +93,7 @@
   <!-- EN: an altar -->
   <CelebratedDate.comps.4.expectedThingLabelTip>مذبح</CelebratedDate.comps.4.expectedThingLabelTip>
   <!-- EN: Terrible -->
-  <CelebratedDate.outcomeChances.0.label>فظيع</CelebratedDate.outcomeChances.0.label>
+  <CelebratedDate.outcomeChances.0.label>مروع</CelebratedDate.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
   <CelebratedDate.outcomeChances.0.description>كان {0} فظيعاً! تحمل المشاركون ساعات من الثرثرة المملة بينما ينتظرون انتهاءه.</CelebratedDate.outcomeChances.0.description>
   <!-- EN: Boring -->
@@ -110,7 +110,7 @@
   <CelebratedDate.outcomeChances.3.description>كان {0} لا يُنسى! تعلم الجميع عن بعضهم البعض وشعروا كأنهم عائلة.</CelebratedDate.outcomeChances.3.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <CelebratedDate_Consumable.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</CelebratedDate_Consumable.description>
+  <CelebratedDate_Consumable.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</CelebratedDate_Consumable.description>
   <!-- EN: participant count -->
   <CelebratedDate_Consumable.comps.0.label>عدد المشاركين</CelebratedDate_Consumable.comps.0.label>
   <!-- EN: room impressiveness -->
@@ -118,7 +118,7 @@
   <!-- EN: If the {0} is satisfying, one participant might gain an inspiration. -->
   <CelebratedDate_Consumable.extraPredictedOutcomeDescriptions.0>إذا كان {0} مرضياً، قد يحصل أحد المشاركين على إلهام.</CelebratedDate_Consumable.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
-  <CelebratedDate_Consumable.outcomeChances.0.label>فظيع</CelebratedDate_Consumable.outcomeChances.0.label>
+  <CelebratedDate_Consumable.outcomeChances.0.label>مروع</CelebratedDate_Consumable.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
   <CelebratedDate_Consumable.outcomeChances.0.description>كان {0} فظيعاً! تحمل المشاركون ساعات من الثرثرة المملة بينما ينتظرون انتهاءه.</CelebratedDate_Consumable.outcomeChances.0.description>
   <!-- EN: Boring -->
@@ -139,7 +139,7 @@
   <CelebratedDate_Consumable.outcomeChances.3.potentialExtraOutcomeDesc>هناك فرصة 10% أن يحصل مشارك عشوائي على إلهام.</CelebratedDate_Consumable.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <CelebrationPartyDanceDrum.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</CelebrationPartyDanceDrum.description>
+  <CelebrationPartyDanceDrum.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</CelebrationPartyDanceDrum.description>
   <!-- EN: participant count -->
   <CelebrationPartyDanceDrum.comps.0.label>عدد المشاركين</CelebrationPartyDanceDrum.comps.0.label>
   <!-- EN: room impressiveness -->
@@ -153,7 +153,7 @@
   <!-- EN: If the {0} is fun or unforgettable, participants may gain increased work speed for a while. -->
   <CelebrationPartyDanceDrum.extraPredictedOutcomeDescriptions.0>إذا كان {0} ممتعاً أو لا يُنسى، فقد يحصل المشاركون على سرعة عمل متزايدة لفترة.</CelebrationPartyDanceDrum.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
-  <CelebrationPartyDanceDrum.outcomeChances.0.label>فظيع</CelebrationPartyDanceDrum.outcomeChances.0.label>
+  <CelebrationPartyDanceDrum.outcomeChances.0.label>مروع</CelebrationPartyDanceDrum.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Awkward conversation, bad jokes, atrocious dancing, and dull music. -->
   <CelebrationPartyDanceDrum.outcomeChances.0.description>كان {0} فظيعاً! محادثة محرجة، نكات سيئة، رقص بشع، وموسيقى مملة.</CelebrationPartyDanceDrum.outcomeChances.0.description>
   <!-- EN: Boring -->
@@ -165,16 +165,16 @@
   <!-- EN: The {0} was fun. Everyone enjoyed the break from everyday life and got in some good dancing together. -->
   <CelebrationPartyDanceDrum.outcomeChances.2.description>كان {0} ممتعاً. استمتع الجميع بالاستراحة من الحياة اليومية ورقصوا معاً رقصاً جيداً.</CelebrationPartyDanceDrum.outcomeChances.2.description>
   <!-- EN: Everyone felt refreshed after their trance-like dancing experience. Participants will work faster for a while. -->
-  <CelebrationPartyDanceDrum.outcomeChances.2.potentialExtraOutcomeDesc>شعر الجميع بالانتعاش بعد تجربة الرقص الشبيهة بالغيبوبة. سيعمل المشاركون بسرعة أكبر لفترة.</CelebrationPartyDanceDrum.outcomeChances.2.potentialExtraOutcomeDesc>
+  <CelebrationPartyDanceDrum.outcomeChances.2.potentialExtraOutcomeDesc>شعر الجميع بالانتعاش بعد تجربة الرقص الشبيهة بالنشوة. سيعمل المشاركون بسرعة أكبر لفترة.</CelebrationPartyDanceDrum.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <CelebrationPartyDanceDrum.outcomeChances.3.label>لا يُنسى</CelebrationPartyDanceDrum.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! The dancers forgot themselves in the music, and the experience brought everyone together. -->
   <CelebrationPartyDanceDrum.outcomeChances.3.description>كان {0} لا يُنسى! نسي الراقصون أنفسهم في الموسيقى، وجمعت التجربة الجميع معاً.</CelebrationPartyDanceDrum.outcomeChances.3.description>
   <!-- EN: Everyone felt refreshed after their trance-like dancing experience. Participants will work faster for a while. -->
-  <CelebrationPartyDanceDrum.outcomeChances.3.potentialExtraOutcomeDesc>شعر الجميع بالانتعاش بعد تجربة الرقص الشبيهة بالغيبوبة. سيعمل المشاركون بسرعة أكبر لفترة.</CelebrationPartyDanceDrum.outcomeChances.3.potentialExtraOutcomeDesc>
+  <CelebrationPartyDanceDrum.outcomeChances.3.potentialExtraOutcomeDesc>شعر الجميع بالانتعاش بعد تجربة الرقص الشبيهة بالنشوة. سيعمل المشاركون بسرعة أكبر لفترة.</CelebrationPartyDanceDrum.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <CelebrationPartyDanceTech.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</CelebrationPartyDanceTech.description>
+  <CelebrationPartyDanceTech.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</CelebrationPartyDanceTech.description>
   <!-- EN: participant count -->
   <CelebrationPartyDanceTech.comps.0.label>عدد المشاركين</CelebrationPartyDanceTech.comps.0.label>
   <!-- EN: room impressiveness -->
@@ -188,7 +188,7 @@
   <!-- EN: If the {0} is fun or unforgettable, participants may gain increased work speed for a while. -->
   <CelebrationPartyDanceTech.extraPredictedOutcomeDescriptions.0>إذا كان {0} ممتعاً أو لا يُنسى، فقد يحصل المشاركون على سرعة عمل متزايدة لفترة.</CelebrationPartyDanceTech.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
-  <CelebrationPartyDanceTech.outcomeChances.0.label>فظيع</CelebrationPartyDanceTech.outcomeChances.0.label>
+  <CelebrationPartyDanceTech.outcomeChances.0.label>مروع</CelebrationPartyDanceTech.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Awkward conversation, bad jokes, atrocious dancing, and dull music. -->
   <CelebrationPartyDanceTech.outcomeChances.0.description>كان {0} فظيعاً! محادثة محرجة، نكات سيئة، رقص بشع، وموسيقى مملة.</CelebrationPartyDanceTech.outcomeChances.0.description>
   <!-- EN: Boring -->
@@ -200,28 +200,28 @@
   <!-- EN: The {0} was fun. Everyone enjoyed the break from everyday life and got in some good dancing together. -->
   <CelebrationPartyDanceTech.outcomeChances.2.description>كان {0} ممتعاً. استمتع الجميع بالاستراحة من الحياة اليومية ورقصوا معاً رقصاً جيداً.</CelebrationPartyDanceTech.outcomeChances.2.description>
   <!-- EN: Everyone felt refreshed after their trance-like dancing experience. Participants will work faster for a while. -->
-  <CelebrationPartyDanceTech.outcomeChances.2.potentialExtraOutcomeDesc>شعر الجميع بالانتعاش بعد تجربة الرقص الشبيهة بالغيبوبة. سيعمل المشاركون بسرعة أكبر لفترة.</CelebrationPartyDanceTech.outcomeChances.2.potentialExtraOutcomeDesc>
+  <CelebrationPartyDanceTech.outcomeChances.2.potentialExtraOutcomeDesc>شعر الجميع بالانتعاش بعد تجربة الرقص الشبيهة بالنشوة. سيعمل المشاركون بسرعة أكبر لفترة.</CelebrationPartyDanceTech.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <CelebrationPartyDanceTech.outcomeChances.3.label>لا يُنسى</CelebrationPartyDanceTech.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! The dancers forgot themselves in the music, and the experience brought everyone together. -->
   <CelebrationPartyDanceTech.outcomeChances.3.description>كان {0} لا يُنسى! نسي الراقصون أنفسهم في الموسيقى، وجمعت التجربة الجميع معاً.</CelebrationPartyDanceTech.outcomeChances.3.description>
   <!-- EN: Everyone felt refreshed after their trance-like dancing experience. Participants will work faster for a while. -->
-  <CelebrationPartyDanceTech.outcomeChances.3.potentialExtraOutcomeDesc>شعر الجميع بالانتعاش بعد تجربة الرقص الشبيهة بالغيبوبة. سيعمل المشاركون بسرعة أكبر لفترة.</CelebrationPartyDanceTech.outcomeChances.3.potentialExtraOutcomeDesc>
+  <CelebrationPartyDanceTech.outcomeChances.3.potentialExtraOutcomeDesc>شعر الجميع بالانتعاش بعد تجربة الرقص الشبيهة بالنشوة. سيعمل المشاركون بسرعة أكبر لفترة.</CelebrationPartyDanceTech.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <CelebrationSkyLanterns.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</CelebrationSkyLanterns.description>
+  <CelebrationSkyLanterns.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</CelebrationSkyLanterns.description>
   <!-- EN: participant count -->
   <CelebrationSkyLanterns.comps.0.label>عدد المشاركين</CelebrationSkyLanterns.comps.0.label>
   <!-- EN: Each participant will make a lantern out of 4 wood. -->
-  <CelebrationSkyLanterns.extraInfoLines.0>سيقوم كل مشارك بصنع فانوس من 4 خشب.</CelebrationSkyLanterns.extraInfoLines.0>
+  <CelebrationSkyLanterns.extraInfoLines.0>سيصنع كل مشارك فانوساً من 4 وحدات من الخشب.</CelebrationSkyLanterns.extraInfoLines.0>
   <!-- EN: If the {0} is beautiful or unforgettable, the skylanterns might attract a group of friendly visitors. -->
   <CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>إذا كان {0} جميلاً أو لا يُنسى، فقد تجذب الفوانيس السماوية مجموعة من الزوار الودودين.</CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
-  <CelebrationSkyLanterns.outcomeChances.0.label>فظيع</CelebrationSkyLanterns.outcomeChances.0.label>
+  <CelebrationSkyLanterns.outcomeChances.0.label>مروع</CelebrationSkyLanterns.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! People kept getting annoyed making the lanterns and they looked like garbage on the wind. -->
   <CelebrationSkyLanterns.outcomeChances.0.description>كان {0} فظيعاً! ظل الناس ينزعجون أثناء صنع الفوانيس وبدت كالقمامة في مهب الريح.</CelebrationSkyLanterns.outcomeChances.0.description>
   <!-- EN: Unimpressive -->
-  <CelebrationSkyLanterns.outcomeChances.1.label>غير مثير للإعجاب</CelebrationSkyLanterns.outcomeChances.1.label>
+  <CelebrationSkyLanterns.outcomeChances.1.label>غير مؤثر</CelebrationSkyLanterns.outcomeChances.1.label>
   <!-- EN: The {0} was unimpressive. Lantern-making took too long and it all felt rather pointless. -->
   <CelebrationSkyLanterns.outcomeChances.1.description>كان {0} غير مثير للإعجاب. استغرق صنع الفوانيس وقتاً طويلاً وشعر الجميع بأنه بلا جدوى.</CelebrationSkyLanterns.outcomeChances.1.description>
   <!-- EN: Beautiful -->
@@ -244,47 +244,47 @@
   <!-- EN: The connector will start with 25-45% connection strength, depending on ritual quality. -->
   <ConnectToTree.extraPredictedOutcomeDescriptions.0>سيبدأ الموصل بقوة اتصال تتراوح بين 25-45%، اعتماداً على جودة الطقس.</ConnectToTree.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Every 2% increase in quality will grow a patch of Gauranlen moss around the tree, beautifying the area. -->
-  <ConnectToTree.extraPredictedOutcomeDescriptions.1>كل زيادة بنسبة 2% في الجودة ستنمو رقعة من طحلب الغورانلين حول الشجرة، مما يجمل المنطقة.</ConnectToTree.extraPredictedOutcomeDescriptions.1>
+  <ConnectToTree.extraPredictedOutcomeDescriptions.1>كل زيادة بنسبة 2% في الجودة ستنمو رقعة من طحلب غورانلين حول الشجرة، مما يجمل المنطقة.</ConnectToTree.extraPredictedOutcomeDescriptions.1>
   
   <!-- EN: If it goes well, target's ideoligion certainty will be reduced or they will convert. If it goes badly, they will gain certainty in their old beliefs. -->
-  <Conversion.description>إذا سارت الأمور على ما يرام، سيقل يقين الهدف بعقيدته أو سيتحول. إذا ساءت الأمور، سيزداد يقيناً بمعتقداته القديمة.</Conversion.description>
+  <Conversion.description>إذا سارت الأمور على ما يرام، سيقل يقين الهدف في عقيدته أو سيتحول. إذا ساءت الأمور، سيزداد يقينه بمعتقداته القديمة.</Conversion.description>
   <!-- EN: room impressiveness -->
   <Conversion.comps.0.label>فخامة الغرفة</Conversion.comps.0.label>
   <!-- EN: participant count -->
   <Conversion.comps.1.label>عدد المشاركين</Conversion.comps.1.label>
   <!-- EN: {PAWN_labelShort}'s social impact -->
-  <Conversion.comps.2.label>تأثير {PAWN_labelShort} الاجتماعي</Conversion.comps.2.label>
+  <Conversion.comps.2.label>الأثر الاجتماعي لـ{PAWN_labelShort}</Conversion.comps.2.label>
   <!-- EN: speaker's social impact -->
-  <Conversion.comps.2.labelAbstract>تأثير المتحدث الاجتماعي</Conversion.comps.2.labelAbstract>
+  <Conversion.comps.2.labelAbstract>الأثر الاجتماعي للمتحدث</Conversion.comps.2.labelAbstract>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <Conversion.comps.3.label>توقعات {PAWN_labelShort}</Conversion.comps.3.label>
   <!-- EN: convertee's expectations -->
-  <Conversion.comps.3.labelAbstract>توقعات المهتدي</Conversion.comps.3.labelAbstract>
+  <Conversion.comps.3.labelAbstract>توقعات الشخص المُحوَّل</Conversion.comps.3.labelAbstract>
   <!-- EN: Terrible -->
-  <Conversion.outcomeChances.0.label>فظيع</Conversion.outcomeChances.0.label>
+  <Conversion.outcomeChances.0.label>مروع</Conversion.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! From the first word, it was a fruitless back-and-forth argument. It dragged on for a cringe-inducingly long time. -->
   <Conversion.outcomeChances.0.description>كان {0} فظيعاً! منذ الكلمة الأولى، كان جدالاً عقيماً ذهاباً وإياباً. استمر لوقت طويل مثير للإحراج.</Conversion.outcomeChances.0.description>
   <!-- EN: Ineffective -->
   <Conversion.outcomeChances.1.label>غير فعال</Conversion.outcomeChances.1.label>
   <!-- EN: The {0} was ineffective. Most of the arguments were unclear, and the convertee countered those that made sense. -->
-  <Conversion.outcomeChances.1.description>كان {0} غير فعال. كانت معظم الحجج غير واضحة، وتصدى المهتدي لتلك التي كانت منطقية.</Conversion.outcomeChances.1.description>
+  <Conversion.outcomeChances.1.description>كان {0} غير فعال. كانت معظم الحجج غير واضحة، وتصدى الشخص المُحوَّل لتلك التي كانت منطقية.</Conversion.outcomeChances.1.description>
   <!-- EN: Effective -->
   <Conversion.outcomeChances.2.label>فعال</Conversion.outcomeChances.2.label>
   <!-- EN: The {0} was effective. The speech not only delivered solid arguments and visibly swayed the convertee's thoughts, but kept the crowd entertained as well. -->
-  <Conversion.outcomeChances.2.description>كان {0} فعالاً. لم يقدم الخطاب حججاً قوية وأثر بشكل واضح على أفكار المهتدي فحسب، بل أبقى الجمهور مستمتعاً أيضاً.</Conversion.outcomeChances.2.description>
+  <Conversion.outcomeChances.2.description>كان {0} فعالاً. لم يقدم الخطاب حججاً قوية وأثر بشكل واضح على أفكار الشخص المُحوَّل فحسب، بل أبقى الجمهور مستمتعاً أيضاً.</Conversion.outcomeChances.2.description>
   <!-- EN: Masterful -->
   <Conversion.outcomeChances.3.label>متقن</Conversion.outcomeChances.3.label>
   <!-- EN: The {0} was masterful! Old beliefs seemed to dissolve effortlessly and inevitably, and our true knowledge was accepted. -->
-  <Conversion.outcomeChances.3.description>كان {0} متقناً! بدت المعتقدات القديمة وكأنها تذوب بلا عناء وبشكل حتمي، وتم قبول معرفتنا الحقيقية.</Conversion.outcomeChances.3.description>
+  <Conversion.outcomeChances.3.description>كان {0} متقناً! بدت المعتقدات القديمة وكأنها تذوب بلا عناء وبشكل حتمي، وقُبلت معرفتنا الحقيقية.</Conversion.outcomeChances.3.description>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding.description>سيتم تدمير هدف الطقس.</DestroyConsumableBuilding.description>
+  <DestroyConsumableBuilding.description>سيُدمَّر هدف الطقس.</DestroyConsumableBuilding.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding.comps.0.label>عدد المشاركين</DestroyConsumableBuilding.comps.0.label>
   <!-- EN: room impressiveness -->
   <DestroyConsumableBuilding.comps.1.label>فخامة الغرفة</DestroyConsumableBuilding.comps.1.label>
   <!-- EN: Terrible -->
-  <DestroyConsumableBuilding.outcomeChances.0.label>فظيع</DestroyConsumableBuilding.outcomeChances.0.label>
+  <DestroyConsumableBuilding.outcomeChances.0.label>مروع</DestroyConsumableBuilding.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
   <DestroyConsumableBuilding.outcomeChances.0.description>كان {0} فظيعاً! تحمل المشاركون ساعات من الثرثرة المملة بينما ينتظرون انتهاءه.</DestroyConsumableBuilding.outcomeChances.0.description>
   <!-- EN: Boring -->
@@ -305,13 +305,13 @@
   <DestroyConsumableBuilding.outcomeChances.3.potentialExtraOutcomeDesc>هناك فرصة 10% أن يحصل مشارك عشوائي على إلهام.</DestroyConsumableBuilding.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_Burnbong.description>سيتم تدمير هدف الطقس.</DestroyConsumableBuilding_Burnbong.description>
+  <DestroyConsumableBuilding_Burnbong.description>سيُدمَّر هدف الطقس.</DestroyConsumableBuilding_Burnbong.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_Burnbong.comps.0.label>عدد المشاركين</DestroyConsumableBuilding_Burnbong.comps.0.label>
   <!-- EN: room impressiveness -->
   <DestroyConsumableBuilding_Burnbong.comps.1.label>فخامة الغرفة</DestroyConsumableBuilding_Burnbong.comps.1.label>
   <!-- EN: Terrible -->
-  <DestroyConsumableBuilding_Burnbong.outcomeChances.0.label>فظيع</DestroyConsumableBuilding_Burnbong.outcomeChances.0.label>
+  <DestroyConsumableBuilding_Burnbong.outcomeChances.0.label>مروع</DestroyConsumableBuilding_Burnbong.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
   <DestroyConsumableBuilding_Burnbong.outcomeChances.0.description>كان {0} فظيعاً! تحمل المشاركون ساعات من الثرثرة المملة بينما ينتظرون انتهاءه.</DestroyConsumableBuilding_Burnbong.outcomeChances.0.description>
   <!-- EN: Boring -->
@@ -332,13 +332,13 @@
   <DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>هناك فرصة 10% أن يحصل مشارك عشوائي على إلهام.</DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_CannibalPlatter.description>سيتم تدمير هدف الطقس.</DestroyConsumableBuilding_CannibalPlatter.description>
+  <DestroyConsumableBuilding_CannibalPlatter.description>سيُدمَّر هدف الطقس.</DestroyConsumableBuilding_CannibalPlatter.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_CannibalPlatter.comps.0.label>عدد المشاركين</DestroyConsumableBuilding_CannibalPlatter.comps.0.label>
   <!-- EN: room impressiveness -->
   <DestroyConsumableBuilding_CannibalPlatter.comps.1.label>فخامة الغرفة</DestroyConsumableBuilding_CannibalPlatter.comps.1.label>
   <!-- EN: Terrible -->
-  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.label>فظيع</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.label>
+  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.label>مروع</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
   <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.description>كان {0} فظيعاً! تحمل المشاركون ساعات من الثرثرة المملة بينما ينتظرون انتهاءه.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.description>
   <!-- EN: Boring -->
@@ -359,13 +359,13 @@
   <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.potentialExtraOutcomeDesc>هناك فرصة 10% أن يحصل مشارك عشوائي على إلهام.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_ChristmasTree.description>سيتم تدمير هدف الطقس.</DestroyConsumableBuilding_ChristmasTree.description>
+  <DestroyConsumableBuilding_ChristmasTree.description>سيُدمَّر هدف الطقس.</DestroyConsumableBuilding_ChristmasTree.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_ChristmasTree.comps.0.label>عدد المشاركين</DestroyConsumableBuilding_ChristmasTree.comps.0.label>
   <!-- EN: room impressiveness -->
   <DestroyConsumableBuilding_ChristmasTree.comps.1.label>فخامة الغرفة</DestroyConsumableBuilding_ChristmasTree.comps.1.label>
   <!-- EN: Terrible -->
-  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.label>فظيع</DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.label>
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.label>مروع</DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
   <DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.description>كان {0} فظيعاً! تحمل المشاركون ساعات من الثرثرة المملة بينما ينتظرون انتهاءه.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.description>
   <!-- EN: Boring -->
@@ -386,13 +386,13 @@
   <DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.potentialExtraOutcomeDesc>هناك فرصة 10% أن يحصل مشارك عشوائي على إلهام.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_Pyre.description>سيتم تدمير هدف الطقس.</DestroyConsumableBuilding_Pyre.description>
+  <DestroyConsumableBuilding_Pyre.description>سيُدمَّر هدف الطقس.</DestroyConsumableBuilding_Pyre.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_Pyre.comps.0.label>عدد المشاركين</DestroyConsumableBuilding_Pyre.comps.0.label>
   <!-- EN: room impressiveness -->
   <DestroyConsumableBuilding_Pyre.comps.1.label>فخامة الغرفة</DestroyConsumableBuilding_Pyre.comps.1.label>
   <!-- EN: Terrible -->
-  <DestroyConsumableBuilding_Pyre.outcomeChances.0.label>فظيع</DestroyConsumableBuilding_Pyre.outcomeChances.0.label>
+  <DestroyConsumableBuilding_Pyre.outcomeChances.0.label>مروع</DestroyConsumableBuilding_Pyre.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
   <DestroyConsumableBuilding_Pyre.outcomeChances.0.description>كان {0} فظيعاً! تحمل المشاركون ساعات من الثرثرة المملة بينما ينتظرون انتهاءه.</DestroyConsumableBuilding_Pyre.outcomeChances.0.description>
   <!-- EN: Boring -->
@@ -413,7 +413,7 @@
   <DestroyConsumableBuilding_Pyre.outcomeChances.3.potentialExtraOutcomeDesc>هناك فرصة 10% أن يحصل مشارك عشوائي على إلهام.</DestroyConsumableBuilding_Pyre.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Spectating slaves will be 100% suppressed. Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <Execution.description>سيتم قمع العبيد المتفرجين بنسبة 100%. اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</Execution.description>
+  <Execution.description>سيرتفع قمع العبيد المتفرجين إلى 100%. وبحسب جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</Execution.description>
   <!-- EN: participant count -->
   <Execution.comps.0.label>عدد المشاركين</Execution.comps.0.label>
   <!-- EN: started at altar or ideogram -->
@@ -431,10 +431,10 @@
   <!-- EN: Spectacular -->
   <Execution.outcomeChances.2.label>مذهل</Execution.outcomeChances.2.label>
   <!-- EN: The {0} was spectacular! One smooth strike was all it took, and everyone felt a rush of justice and power. -->
-  <Execution.outcomeChances.2.description>كان {0} مذهلاً! ضربة واحدة سلسة كانت كل ما تطلب، وشعر الجميع بتدفق العدالة والقوة.</Execution.outcomeChances.2.description>
+  <Execution.outcomeChances.2.description>كان {0} مذهلاً! ضربة واحدة سلسة كانت كل ما احتاجه الأمر، وشعر الجميع بتدفق العدالة والقوة.</Execution.outcomeChances.2.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <GladiatorDuel.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</GladiatorDuel.description>
+  <GladiatorDuel.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</GladiatorDuel.description>
   <!-- EN: participant count -->
   <GladiatorDuel.comps.0.label>عدد المشاركين</GladiatorDuel.comps.0.label>
   <!-- EN: leader present -->
@@ -444,11 +444,11 @@
   <!-- EN: weapon used -->
   <GladiatorDuel.comps.3.label>السلاح المستخدم</GladiatorDuel.comps.3.label>
   <!-- EN: Duelists and viewers will gain melee combat experience. -->
-  <GladiatorDuel.extraPredictedOutcomeDescriptions.0>سيكتسب المتبارزون والمشاهدون خبرة في القتال بالاشتباك.</GladiatorDuel.extraPredictedOutcomeDescriptions.0>
+  <GladiatorDuel.extraPredictedOutcomeDescriptions.0>سيكتسب المتبارزون والمشاهدون خبرة في قتال الاشتباك.</GladiatorDuel.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Spectators will gain a mood boost and fill their recreation bars. -->
   <GladiatorDuel.extraPredictedOutcomeDescriptions.1>سيحصل المتفرجون على دفعة مزاجية ويملؤون مستويات الترفيه.</GladiatorDuel.extraPredictedOutcomeDescriptions.1>
   <!-- EN: Terrible -->
-  <GladiatorDuel.outcomeChances.0.label>فظيع</GladiatorDuel.outcomeChances.0.label>
+  <GladiatorDuel.outcomeChances.0.label>مروع</GladiatorDuel.outcomeChances.0.label>
   <!-- EN: The duel was terrible! The fighters bumbled around, ineptly avoiding each other in a extended display of cowardice and weakness. Watching it just made people sad. -->
   <GladiatorDuel.outcomeChances.0.description>كانت المبارزة فظيعة! تخبط المقاتلون في الأرجاء، متجنبين بعضهم البعض بشكل أخرق في عرض ممتد للجبن والضعف. مجرد مشاهدتها أحزن الناس.</GladiatorDuel.outcomeChances.0.description>
   <!-- EN: Boring -->
@@ -465,7 +465,7 @@
   <GladiatorDuel.outcomeChances.3.description>كانت المبارزة لا تُنسى! قدم كلا المقاتلين كل ما لديهما، وأظهر الموت تفانيهما.</GladiatorDuel.outcomeChances.3.description>
   
   <!-- EN: A new role will be assigned to a colonist. -->
-  <RoleChange.description>سيتم تعيين دور جديد لأحد المستعمرين.</RoleChange.description>
+  <RoleChange.description>سيُعيَّن دور جديد لأحد المستعمرين.</RoleChange.description>
   <!-- EN: required spectator count -->
   <RoleChange.comps.0.label>عدد المتفرجين المطلوب</RoleChange.comps.0.label>
   <!-- EN: The required number of spectators must attend for the role change to apply. -->
@@ -480,7 +480,7 @@
   <RoleChange.outcomeChances.1.description>اكتمل طقس تغيير الدور.</RoleChange.outcomeChances.1.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <Sacrifice.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</Sacrifice.description>
+  <Sacrifice.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</Sacrifice.description>
   <!-- EN: moral guide present -->
   <Sacrifice.comps.2.label>وجود المرشد الأخلاقي</Sacrifice.comps.2.label>
   <!-- EN: participant count -->
@@ -492,17 +492,17 @@
   <!-- EN: If the {0} is satisfying, one of the participants might gain an inspiration. -->
   <Sacrifice.extraPredictedOutcomeDescriptions.0>إذا كان {0} مرضياً، قد يحصل أحد المشاركين على إلهام.</Sacrifice.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
-  <Sacrifice.outcomeChances.0.label>فظيع</Sacrifice.outcomeChances.0.label>
+  <Sacrifice.outcomeChances.0.label>مروع</Sacrifice.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! The speech was stuttering and incoherent, and the killing technique was botched. The victim took far too long to die - everyone was waiting for it to end. -->
   <Sacrifice.outcomeChances.0.description>كان {0} فظيعاً! كان الخطاب متلعثماً وغير مترابط، وأُفسدت تقنية القتل. استغرقت الضحية وقتاً طويلاً جداً لتموت - كان الجميع ينتظرون انتهاءه.</Sacrifice.outcomeChances.0.description>
   <!-- EN: Boring -->
   <Sacrifice.outcomeChances.1.label>ممل</Sacrifice.outcomeChances.1.label>
   <!-- EN: The {0} was boring. The speech was repetitive and the killing technique was noticeably flawed. It just didn't feel dignified. -->
-  <Sacrifice.outcomeChances.1.description>كان {0} مملاً. كان الخطاب متكرراً وكانت تقنية القتل معيبة بشكل ملحوظ. لم يشعر المرء بالكرامة.</Sacrifice.outcomeChances.1.description>
+  <Sacrifice.outcomeChances.1.description>كان {0} مملاً. كان الخطاب متكرراً وكانت تقنية القتل معيبة بشكل ملحوظ. لم يبدُ الأمر وقوراً على الإطلاق.</Sacrifice.outcomeChances.1.description>
   <!-- EN: Satisfying -->
   <Sacrifice.outcomeChances.2.label>مرضٍ</Sacrifice.outcomeChances.2.label>
   <!-- EN: The {0} was satisfying. The speech felt meaningful, and the killing technique was precise and dignified. -->
-  <Sacrifice.outcomeChances.2.description>كان {0} مرضياً. شعر المرء بأن الخطاب ذا معنى، وكانت تقنية القتل دقيقة وكريمة.</Sacrifice.outcomeChances.2.description>
+  <Sacrifice.outcomeChances.2.description>كان {0} مرضياً. شعر الجميع بأن للخطاب معنى، وكانت تقنية القتل دقيقة ووقورة.</Sacrifice.outcomeChances.2.description>
   <!-- EN: There's a 5% chance that a random participant gets an inspiration. -->
   <Sacrifice.outcomeChances.2.potentialExtraOutcomeDesc>هناك فرصة 5% أن يحصل مشارك عشوائي على إلهام.</Sacrifice.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Spectacular -->
@@ -513,7 +513,7 @@
   <Sacrifice.outcomeChances.3.potentialExtraOutcomeDesc>هناك فرصة 10% أن يحصل مشارك عشوائي على إلهام.</Sacrifice.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <ScarificationCeremony.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} أيام.</ScarificationCeremony.description>
+  <ScarificationCeremony.description>اعتماداً على جودة الطقس، سيحصل المشاركون على مزاج يتراوح بين {MINMOOD} و{MAXMOOD} لمدة {MOODDAYS} من الأيام.</ScarificationCeremony.description>
   <!-- EN: moral guide present -->
   <ScarificationCeremony.comps.2.label>وجود المرشد الأخلاقي</ScarificationCeremony.comps.2.label>
   <!-- EN: participant count -->
@@ -523,17 +523,17 @@
   <!-- EN: an altar -->
   <ScarificationCeremony.comps.4.expectedThingLabelTip>مذبح</ScarificationCeremony.comps.4.expectedThingLabelTip>
   <!-- EN: Terrible -->
-  <ScarificationCeremony.outcomeChances.0.label>فظيع</ScarificationCeremony.outcomeChances.0.label>
+  <ScarificationCeremony.outcomeChances.0.label>مروع</ScarificationCeremony.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! The speech was stuttering and incoherent, and the scarification technique was botched. Everyone was waiting for it to end. -->
   <ScarificationCeremony.outcomeChances.0.description>كان {0} فظيعاً! كان الخطاب متلعثماً وغير مترابط، وأُفسدت تقنية الخدش الشعائري. كان الجميع ينتظرون انتهاءه.</ScarificationCeremony.outcomeChances.0.description>
   <!-- EN: Boring -->
   <ScarificationCeremony.outcomeChances.1.label>ممل</ScarificationCeremony.outcomeChances.1.label>
   <!-- EN: The {0} was boring. The speech was repetitive and the scarification technique was noticeably flawed. It just didn't feel dignified. -->
-  <ScarificationCeremony.outcomeChances.1.description>كان {0} مملاً. كان الخطاب متكرراً وكانت تقنية الخدش الشعائري معيبة بشكل ملحوظ. لم يشعر المرء بالكرامة.</ScarificationCeremony.outcomeChances.1.description>
+  <ScarificationCeremony.outcomeChances.1.description>كان {0} مملاً. كان الخطاب متكرراً وكانت تقنية الخدش الشعائري معيبة بشكل ملحوظ. لم يبدُ الأمر وقوراً على الإطلاق.</ScarificationCeremony.outcomeChances.1.description>
   <!-- EN: Satisfying -->
   <ScarificationCeremony.outcomeChances.2.label>مرضٍ</ScarificationCeremony.outcomeChances.2.label>
   <!-- EN: The {0} was satisfying. The speech felt meaningful, and the scarification technique was precise and dignified. -->
-  <ScarificationCeremony.outcomeChances.2.description>كان {0} مرضياً. شعر المرء بأن الخطاب ذا معنى، وكانت تقنية الخدش الشعائري دقيقة وكريمة.</ScarificationCeremony.outcomeChances.2.description>
+  <ScarificationCeremony.outcomeChances.2.description>كان {0} مرضياً. شعر الجميع بأن للخطاب معنى، وكانت تقنية الخدش الشعائري دقيقة ووقورة.</ScarificationCeremony.outcomeChances.2.description>
   <!-- EN: Spectacular -->
   <ScarificationCeremony.outcomeChances.3.label>مذهل</ScarificationCeremony.outcomeChances.3.label>
   <!-- EN: The {0} was spectacular! The speech brought everyone to the edge of a frenzy as the bladeholder artfully rended living flesh. -->
@@ -554,11 +554,11 @@
   <!-- EN: exonerated -->
   <Trial.outcomeChances.0.label>تبرئة</Trial.outcomeChances.0.label>
   <!-- EN: The prosecutor {PROSECUTOR_labelShort}'s arguments failed to convince anyone. {PAWN_labelShort} was exonerated. -->
-  <Trial.outcomeChances.0.description>فشلت حجج المدعي العام {PROSECUTOR_labelShort} في إقناع أحد. تمت تبرئة {PAWN_labelShort}.</Trial.outcomeChances.0.description>
+  <Trial.outcomeChances.0.description>فشلت حجج المدعي العام {PROSECUTOR_labelShort} في إقناع أحد. بُرِّئ {PAWN_labelShort}.</Trial.outcomeChances.0.description>
   <!-- EN: convicted -->
   <Trial.outcomeChances.1.label>إدانة</Trial.outcomeChances.1.label>
   <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
-  <Trial.outcomeChances.1.description>أقنع الادعاء الجميع بذنب {PAWN_labelShort}. تمت إدانة {PAWN_labelShort} ويمكن الآن معاقبته. يمكنك إعدام أو نفيـ{PAWN_objective} ولن يمانع أحد.</Trial.outcomeChances.1.description>
+  <Trial.outcomeChances.1.description>أقنع الادعاء الجميع بذنب {PAWN_labelShort}. أُدين {PAWN_labelShort} ويمكن الآن معاقبته. يمكنك إعدام أو نفيـ{PAWN_objective} ولن يمانع أحد.</Trial.outcomeChances.1.description>
   
   <!-- EN: The trial quality determines the chance that the defendant will be convicted. -->
   <TrialMentalState.description>جودة المحاكمة تحدد فرصة إدانة المدعى عليه.</TrialMentalState.description>
@@ -571,10 +571,10 @@
   <!-- EN: exonerated -->
   <TrialMentalState.outcomeChances.0.label>تبرئة</TrialMentalState.outcomeChances.0.label>
   <!-- EN: The prosecutor {PROSECUTOR_labelShort}'s arguments failed to convince anyone. {PAWN_labelShort} was exonerated. -->
-  <TrialMentalState.outcomeChances.0.description>فشلت حجج المدعي العام {PROSECUTOR_labelShort} في إقناع أحد. تمت تبرئة {PAWN_labelShort}.</TrialMentalState.outcomeChances.0.description>
+  <TrialMentalState.outcomeChances.0.description>فشلت حجج المدعي العام {PROSECUTOR_labelShort} في إقناع أحد. بُرِّئ {PAWN_labelShort}.</TrialMentalState.outcomeChances.0.description>
   <!-- EN: convicted -->
   <TrialMentalState.outcomeChances.1.label>إدانة</TrialMentalState.outcomeChances.1.label>
   <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
-  <TrialMentalState.outcomeChances.1.description>أقنع الادعاء الجميع بذنب {PAWN_labelShort}. تمت إدانة {PAWN_labelShort} ويمكن الآن معاقبته. يمكنك إعدام أو نفيـ{PAWN_objective} ولن يمانع أحد.</TrialMentalState.outcomeChances.1.description>
+  <TrialMentalState.outcomeChances.1.description>أقنع الادعاء الجميع بذنب {PAWN_labelShort}. أُدين {PAWN_labelShort} ويمكن الآن معاقبته. يمكنك إعدام أو نفيـ{PAWN_objective} ولن يمانع أحد.</TrialMentalState.outcomeChances.1.description>
   
 </LanguageData>

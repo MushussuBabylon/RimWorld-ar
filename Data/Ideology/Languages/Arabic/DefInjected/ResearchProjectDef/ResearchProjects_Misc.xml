@@ -17,17 +17,17 @@
   <Bioregeneration.generalRules.rulesStrings>
     <li>subject->التجديد الحيوي</li>
     <li>subject_story->درس إعادة نمو قرن بومالوب لإيجاد أوجه تشابه مع التجديد البشري</li>
-    <li>subject_story->دمج بيانات وراثية من سمندل في جسده الخاص</li>
+    <li>subject_story->دمج بيانات وراثية من سمندل في جسمـ[ANYPAWN_possessive] الخاص</li>
     <li>subject_story->تدرب في مستشفى من العالم اللامع</li>
     <li>subject_story->أكمل دورة بالمراسلة في جماليات العالم اللامع</li>
     <li>subject_gerund->تجديد الهيئة البشرية</li>
-    <li>subject_gerund->تفعيل التجديد باستخدام النحاتين الحيويين</li>
+    <li>subject_gerund->تفعيل التجديد باستخدام كبسولات النحت الحيوي</li>
  </Bioregeneration.generalRules.rulesStrings>
   
   <!-- EN: biosculpting -->
   <Biosculpting.label>النحت الحيوي</Biosculpting.label>
   <!-- EN: Construct biosculpter pods which can perform various biological alterations to colonists. These are especially important to believers in transhumanism. -->
-  <Biosculpting.description>بناء كبسولات النحت الحيوي التي يمكنها إجراء تعديلات بيولوجية متنوعة على المستعمرين. وهي مهمة بشكل خاص لأتباع مذهب ما بعد الإنسانية.</Biosculpting.description>
+  <Biosculpting.description>بناء كبسولات النحت الحيوي التي يمكنها إجراء تعديلات بيولوجية متنوعة على المستعمرين. وهي مهمة بشكل خاص للمؤمنين بمبدأ ما بعد إنساني.</Biosculpting.description>
   <!-- EN:
     <li>subject->biosculpting</li>
     <li>subject_story->constructed biosculpter pods on contract for various colonies</li>
@@ -41,7 +41,7 @@
   <Biosculpting.generalRules.rulesStrings>
     <li>subject->النحت الحيوي</li>
     <li>subject_story->بنى كبسولات نحت حيوي بموجب عقود مع عدة مستعمرات</li>
-    <li>subject_story->درس وصايا ما بعد الإنسانية، بما في ذلك ضرورة النحت الحيوي</li>
+    <li>subject_story->درس وصايا مبدأ ما بعد إنساني، بما في ذلك ضرورة النحت الحيوي</li>
     <li>subject_story->بحث في التعديلات البيولوجية التي يمكن إجراؤها بأمان</li>
     <li>subject_story->فر من مزرعة دعم في عالم لامع ومعه هذه المخططات</li>
     <li>subject_story->رُحّب به في مستعمرة ما بعد إنسانية</li>
@@ -52,7 +52,7 @@
   <!-- EN: neural supercharger -->
   <NeuralSupercharger.label>الشاحن العصبي الفائق</NeuralSupercharger.label>
   <!-- EN: Construct neural supercharger devices. Neural superchargers improve consciousness and learning rate, but they also increase hunger and the effect must be refreshed daily. Transhumanists often hold neural supercharging as an important practice. -->
-  <NeuralSupercharger.description>بناء أجهزة شحن عصبي فائق. الشواحن العصبية الفائقة تحسن الوعي ومعدل التعلم، لكنها تزيد أيضاً من الجوع ويجب تجديد التأثير يومياً. غالباً ما يعتبر أنصار ما بعد الإنسانية الشحن العصبي الفائق ممارسة مهمة.</NeuralSupercharger.description>
+  <NeuralSupercharger.description>بناء أجهزة شحن عصبي فائق. الشواحن العصبية الفائقة تحسن الوعي ومعدل التعلم، لكنها تزيد أيضاً من الجوع ويجب تجديد التأثير يومياً. غالباً ما يعدّ أتباع مبدأ ما بعد إنساني الشحن العصبي الفائق ممارسة مهمة.</NeuralSupercharger.description>
   <!-- EN:
     <li>subject->neural superchargers</li>
     <li>subject_story->implemented neural superchargers in [ANYPAWN_possessive] boarding school</li>
@@ -66,9 +66,9 @@
     <li>subject->الشواحن العصبية الفائقة</li>
     <li>subject_story->نفذ شواحن عصبية فائقة في مدرستـ[ANYPAWN_possessive] الداخلية</li>
     <li>subject_story->شحن خلايا نسخ مزروعة شحناً فائقاً لتسريع تطورها بشكل هائل</li>
-    <li>subject_story->حاول منع الشحن العصبي الفائق في الدورة الجامعية التي درسها</li>
+    <li>subject_story->حاول منع الشحن العصبي الفائق في الدورة الجامعية التي درّسها [ANYPAWN_pronoun]</li>
     <li>subject_story->انضم إلى طائفة ما بعد إنسانية حيث كان الشحن العصبي الفائق إجبارياً</li>
-    <li>subject_gerund->شحن فكري إنسان شحناً فائقاً</li>
+    <li>subject_gerund->الشحن الفائق لعقل إنسان</li>
     <li>subject_gerund->بناء شواحن عصبية فائقة</li>
  </NeuralSupercharger.generalRules.rulesStrings>
   
