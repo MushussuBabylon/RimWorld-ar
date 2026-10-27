@@ -7,7 +7,7 @@
   -->
   <ProblemCauser.questDescriptionRules.rulesStrings>
     <li>questDescription(siteFaction==Pirate)->أقام القراصنة مخفراً أمامياً بالقرب من [map_definite] لمضايقتك. [allSitePartsDescriptions]\n\nسيبقى المخفر حتى ترسل فريقاً لمهاجمته وتدميره.</li>
-    <li>questDescription(siteFaction==Mechanoid)->هبطت عنقود ميكانويدات غير بعيدة عن [map_definite]. [allSitePartsDescriptions]\n\nستبقى عنقود ميكانويدات حتى ترسل فريقاً لمهاجمتها وتدميرها.</li>
+    <li>questDescription(siteFaction==Mechanoid)->هبط عنقود ميكانويدات غير بعيد عن [map_definite]. [allSitePartsDescriptions]\n\nسيبقى عنقود الميكانويدات حتى ترسل فريقاً لمهاجمته وتدميره.</li>
  </ProblemCauser.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(siteFaction==Pirate)->Pirates with a [problemCauserLabel]</li>

@@ -43,7 +43,7 @@
   -->
   <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->قبطان سفينة في المدار يريد منك حراسة سجين يُدعى [lodgers0_nameFull] في [map_definite] لمدة [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
-    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nبصق [lodgers0_nameDef] مؤخراً على أكثر أطفال [enemyFaction_leader_nameFull] المحبوبين، [enemyFaction_leaderTitle] [enemyFaction_name]. سيرسل [enemyFaction_leader_nameDef] [enemyFaction_pawnsPlural] للانتقام من أي شخص يحميـ[lodgers0_objective]. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nبصق [lodgers0_nameDef] مؤخراً على الطفل الأحب إلى [enemyFaction_leader_nameFull]، [enemyFaction_leaderTitle] [enemyFaction_name]. سيرسل [enemyFaction_leader_nameDef] [enemyFaction_pawnsPlural] للانتقام من أي شخص يحميـ[lodgers0_objective]. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
@@ -52,24 +52,24 @@
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nقام السجناء مؤخراً بـ[mechViolation]، واستهدفتهم خلية ميكانويد. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_nameFull]، [asker_faction_leaderTitle] [asker_faction_name]، يريد منك إخفاء سجين خاص لديه. السجين، [lodgers0_title] عمره [lodgers0_age] عاماً يُدعى [lodgers0_nameFull]، يعرف معلومات محرجة عن [PersonalCharacteristic] [asker_nameDef]، ولا يريد [asker_nameDef] إطلاق سراحه. ما عليك سوى الاحتفاظ بالسجين لمدة [shuttleDelayTicks_duration] حتى تمر الفضيحة. [allLodgerInfo][threatsInfo3][commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_nameFull]، [asker_faction_leaderTitle] [asker_faction_name]، يريد منك إخفاء سجين خاص لأجلـ[asker_objective]. السجين، [lodgers0_title] عمره [lodgers0_age] سنةً يُدعى [lodgers0_nameFull]، يعرف معلومات محرجة عن [PersonalCharacteristic] [asker_nameDef]، ولا يريد [asker_nameDef] إطلاق سراحـ[lodgers0_objective]. ما عليك سوى الاحتفاظ بالسجين لمدة [shuttleDelayTicks_duration] حتى تمر الفضيحة. [allLodgerInfo][threatsInfo3][commonDescEnding]</li>
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nلسوء الحظ، تريد [enemyFaction_name] نشر القصة المخزية وترسل غارات لتحرير [lodgers0_nameDef] من السجن. [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull]، [asker_faction_leaderTitle] [asker_faction_name]، أسر [lodgersCount] سجناء من فصيل معادٍ. لعدم وجود مكان لتخزينهم، يريد منك [asker_nameDef] حراستهم لمدة [shuttleDelayTicks_duration]، حتى يصبح سجنه جاهزاً.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull]، [asker_faction_leaderTitle] [asker_faction_name]، أسر [lodgersCount] سجناء من فصيل معادٍ. لعدم وجود مكان لتخزينهم، يريد منك [asker_nameDef] حراستهم لمدة [shuttleDelayTicks_duration]، حتى يصبح سجنـ[asker_possessive] جاهزاً.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nلدى السجناء عقد إنقاذ مدفوع مع [enemyFaction_name]، لذلك سيرسلون [enemyFaction_pawnsPlural] خلفك. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nأعداء [asker_nameDef] استفزوا خلية ميكانويد لمطاردة السجناء، لذا سترسل مجموعات هجوم ميكانويد. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، قُبض عليه في الفراش مع الشخص الخطأ. سجن العاشق غير المناسب كتعبير عن الرفض. الآن يريد منك [asker_pronoun] إبقاء السجين [lodgers0_nameFull] محتجزاً حتى تمر الفضيحة خلال [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، قُبض عليه في الفراش مع الشخص الخطأ. سجن [asker_pronoun] العاشق غير المناسب كتعبير عن الرفض. الآن يريد منك [asker_pronoun] إبقاء السجين [lodgers0_nameFull] محتجزاً حتى تمر الفضيحة خلال [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nلسوء الحظ، يدفع منافسو [asker_nameDef] في البلاط لـ[enemyFaction_name] لمحاولة تحرير العاشق وكشف القصة. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nلسوء الحظ، استفز منافسو [asker_nameDef] في البلاط هجمات ميكانويد من [enemyFaction_name] لمحاولة تحرير العاشق وكشف القصة. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، يطلب مساعدتك. استخرج علماء الآثار الملكيون لـ[asker_nameDef] مؤخراً [lodgersCount] سجناء من قبو سبات عميق قديم، وينوون استجوابهم. لإبقاء السجناء سريين عن منافسي البلاط، يريد منك [asker_nameDef] احتجازهم لمدة [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6][commonDescEnding]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nلسوء الحظ، [enemyFaction_pawnsPlural] من [enemyFaction_name] كانوا يقدسون القبو الذي استخرج منه السجناء. سيرسلون غارات للانتقام من أي شخص يحتجزهم. [enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nلسوء الحظ، [enemyFaction_pawnsPlural] من [enemyFaction_name] كانوا يحرسون القبو الذي استخرج منه السجناء. سيرسلون ميكيين لمطاردة النائمين المفقودين. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nلسوء الحظ، [enemyFaction_pawnsPlural] من [enemyFaction_name] كانوا يحرسون القبو الذي استخرج منه السجناء. سيرسلون ميكانويدات لمطاردة النائمين المفقودين. [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
  </Hospitality_Prisoners.questDescriptionRules.rulesStrings>
@@ -96,7 +96,7 @@
     <li>questName(lodgersCount==1)->السجين [adjAny]</li>
     <li>questName(lodgersCount==1)->سجين [adjAny] واحد</li>
     <li>questName(lodgersCount>=2)->حارس للإيجار</li>
-    <li>questName(lodgersCount>=2)->مأمور سجن</li>
+    <li>questName(lodgersCount>=2)->حارس سجن</li>
     <li>questName(lodgersCount>=2)->سجن تعاقدي</li>
     <li>questName(lodgersCount>=2)->السجناء المطلوبين</li>
     <li>questName(lodgersCount>=2)->السجناء [adjAny]</li>

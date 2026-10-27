@@ -4,7 +4,7 @@
   <!-- EN: cataphract armor -->
   <CataphractArmor.label>درع كاتافراكت</CataphractArmor.label>
   <!-- EN: Craft cataphract armor, heavy powered armor that slows the user but which can absorb extreme punishment. Note that these also require advanced components. -->
-  <CataphractArmor.description>صنع درع كاتافراكت، درع معزز ثقيل يبطئ المستخدم لكنه قادر على امتصاص أضرار قصوى. لاحظ أنها تتطلب قطع متطورة.</CataphractArmor.description>
+  <CataphractArmor.description>صنع درع كاتافراكت، درع ثقيل مدعوم بالطاقة يبطئ المستخدم لكنه قادر على امتصاص أضرار قصوى. لاحظ أنها تتطلب أيضاً مكونات متقدمة.</CataphractArmor.description>
   <!-- EN:
     <li>subject->cataphract armor</li>
     <li>subject_story->first developed [ANYPAWN_possessive] cataphract-equivalent armor as a method of exploring active volcanoes</li>
@@ -14,16 +14,16 @@
   -->
   <CataphractArmor.generalRules.rulesStrings>
     <li>subject->درع كاتافراكت</li>
-    <li>subject_story->طور لأول مرة درعه المعادل للكاتافراكت كوسيلة لاستكشاف البراكين النشطة</li>
+    <li>subject_story->طور لأول مرة درعـ[ANYPAWN_possessive] المعادل للكاتافراكت كوسيلة لاستكشاف البراكين النشطة</li>
     <li>subject_story->تم تكليفه بإنتاج أطقم دروع كاتافراكت مخصصة لوحدات الاقتحام الإمبراطورية</li>
     <li>subject_story->قاتل إلى جانب المتمردين ودرس درع كاتافراكت تم أسره</li>
     <li>subject_gerund->صنع درع كاتافراكت</li>
  </CataphractArmor.generalRules.rulesStrings>
   
   <!-- EN: gunlink -->
-  <Gunlink.label>رابط البندقية</Gunlink.label>
+  <Gunlink.label>وصلة البندقية</Gunlink.label>
   <!-- EN: Build wearable gunlinks to enhance your soldiers' shooting accuracy. -->
-  <Gunlink.description>بناء روابط بنادق قابلة للارتداء لتحسين دقة إطلاق النار لجنودك.</Gunlink.description>
+  <Gunlink.description>بناء وصلات بنادق قابلة للارتداء لتحسين دقة إطلاق النار لجنودك.</Gunlink.description>
   <!-- EN:
     <li>subject->accuracy enhancement</li>
     <li>subject_story->converted a glitterworld ocular implant into a more generic targeting computer</li>
@@ -34,9 +34,9 @@
   <Gunlink.generalRules.rulesStrings>
     <li>subject->تحسين الدقة</li>
     <li>subject_story->حول زرعة بصرية من عالم لامع إلى حاسب تصويب عام</li>
-    <li>subject_story->كان سعيداً بأداء روابط البنادق في المصنع، رغم أن معدل الوفيات المتزايد بسبب فقدان الخوذة كان مقلقاً</li>
-    <li>subject_story->اشترى روابط بنادق بكميات كبيرة لقناصة الجيش، مانعاً جنود الخطوط الأمامية منها</li>
-    <li>subject_gerund->تعزيز الدقة بوصلات البندقية</li>
+    <li>subject_story->كان سعيداً بأداء وصلات البنادق في المصنع، رغم أن معدل الوفيات المتزايد بسبب فقدان الخوذة كان مقلقاً</li>
+    <li>subject_story->اشترى وصلات بنادق بكميات كبيرة لقناصة الجيش، مانعاً جنود الخطوط الأمامية منها</li>
+    <li>subject_gerund->تعزيز الدقة عبر وصلات البنادق</li>
  </Gunlink.generalRules.rulesStrings>
   
   <!-- EN: jump packs -->
@@ -55,7 +55,7 @@
   <JumpPack.generalRules.rulesStrings>
     <li>subject->حزم القفز</li>
     <li>subject->طيران قصير المدى</li>
-    <li>subject_story->أدار مدينة ملاهٍ تركز على التجارب المتطرفة، بما في ذلك مسابقة مداعبة الفئران المتفجرة ودورات استخدام حزم القفز</li>
+    <li>subject_story->أدار مدينة ملاهٍ تركز على التجارب المتطرفة، بما في ذلك مداعبة الجرذان المتفجرة ودورات استخدام حزم القفز</li>
     <li>subject_story->نظم رحلات تسلق جبال على كواكب منخفضة الجاذبية، حيث كانت حزم القفز وأقنعة الأوكسجين إلزامية</li>
     <li>subject_story->تجاوز دفاعات الأبراج في تدريب الضباط عبر هجوم بحزمة قفز</li>
     <li>subject_gerund->تنفيذ هجمات جوية</li>

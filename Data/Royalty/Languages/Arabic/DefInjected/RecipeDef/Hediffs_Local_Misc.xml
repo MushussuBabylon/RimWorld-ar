@@ -8,7 +8,7 @@
   <!-- EN: Infusing anti-abasia mechanites. -->
   <CureAbasia.jobString>حقن ميكانيت مضاد للعجز الحركي.</CureAbasia.jobString>
   <!-- EN: {0} has successfully cured {1}'s paralytic abasia. -->
-  <CureAbasia.successfullyRemovedHediffMessage>{0} عالج بنجاح العجز الحركي الشللي لدى {1}.</CureAbasia.successfullyRemovedHediffMessage> <!-- В Recipe_RemoveHediff.ApplyOnPawn передаются неименованные строки, а не объекты. Gender-подсимвол неприменим -->
+  <CureAbasia.successfullyRemovedHediffMessage>{0} عالج بنجاح العجز الحركي الشللي لدى {1}.</CureAbasia.successfullyRemovedHediffMessage> <!-- Unnamed strings, not objects, are passed to Recipe_RemoveHediff.ApplyOnPawn. The gender subsymbol is not applicable -->
   
   <!-- EN: cure blood rot -->
   <CureBloodRot.label>علاج عفونة الدم</CureBloodRot.label>
@@ -17,6 +17,6 @@
   <!-- EN: Curing blood rot. -->
   <CureBloodRot.jobString>علاج عفونة الدم.</CureBloodRot.jobString>
   <!-- EN: {0} has successfully cured {1}'s blood rot. -->
-  <CureBloodRot.successfullyRemovedHediffMessage>{0} عالج بنجاح عفونة الدم لدى {1}.</CureBloodRot.successfullyRemovedHediffMessage> <!-- В Recipe_RemoveHediff.ApplyOnPawn передаются неименованные строки, а не объекты. Gender-подсимвол неприменим -->
+  <CureBloodRot.successfullyRemovedHediffMessage>{0} عالج بنجاح عفونة الدم لدى {1}.</CureBloodRot.successfullyRemovedHediffMessage> <!-- Unnamed strings, not objects, are passed to Recipe_RemoveHediff.ApplyOnPawn. The gender subsymbol is not applicable -->
   
 </LanguageData>

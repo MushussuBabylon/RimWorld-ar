@@ -5,7 +5,7 @@
   <!-- EN: Must be placed on gravship substructure. -->
   <MessageMustBePlacedOnSubstructure>يجب وضعه على البنية التحتية لسفينة الجاذبية.</MessageMustBePlacedOnSubstructure>
   <!-- EN: Must be placed within the radius of a grav engine or grav field extender. -->
-  <MessageMustBePlacedInRangeOfGravEngineOrExtender>يجب وضعه ضمن نطاق محرك جاذبية أو موسع مجال جاذبية.</MessageMustBePlacedInRangeOfGravEngineOrExtender>
+  <MessageMustBePlacedInRangeOfGravEngineOrExtender>يجب وضعه ضمن نطاق محرك الجاذبية أو موسّع مجال الجاذبية.</MessageMustBePlacedInRangeOfGravEngineOrExtender>
   <!-- EN: Cannot be placed under rock or mountain roofs. -->
   <MessageCannotPlaceUnderRockRoof>لا يمكن وضعه تحت أسقف صخرية أو جبلية.</MessageCannotPlaceUnderRockRoof>
   <!-- EN: {ACTIVATOR_labelShort} has finished hacking {SUBJECT_definite}. -->
@@ -39,7 +39,7 @@
   <CannotPlaceFishingZone>يجب وضعها فوق مياه ضحلة تحتوي على أسماك.</CannotPlaceFishingZone>
   
   <!-- EN: {TRAP_indefinite} was triggered. -->
-  <MessageTrapSprung>تم تفعيل {TRAP_indefinite}.</MessageTrapSprung>
+  <MessageTrapSprung>انطلق {TRAP_indefinite}.</MessageTrapSprung>
 
   <!-- EN: {0} is ready to launch again. -->
   <GravshipReadyToLaunch>{0} جاهزة للإطلاق مجدداً.</GravshipReadyToLaunch>
@@ -50,12 +50,12 @@
   <OrbitalScannerCompletesIn>يكتمل خلال {0}</OrbitalScannerCompletesIn>
 
   <!-- EN: While talking with {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of a new quest: {0} -->
-  <MessageTraderGaveQuest>أثناء التحدث مع {TRADER_nameDef}، عرف {NEGOTIATOR_nameDef} بمهمة جديدة: {0}</MessageTraderGaveQuest>
+  <MessageTraderGaveQuest>أثناء التحدث مع {TRADER_nameDef}، علم {NEGOTIATOR_nameDef} بمهمة جديدة: {0}</MessageTraderGaveQuest>
   <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered a quest: {0} -->
   <MessageBookGaveQuest>أثناء قراءة {BOOK_labelNoParenthesis}، اكتشف {READER_nameDef} مهمة: {0}</MessageBookGaveQuest>
 
   <!-- EN: Confirm gravship landing zone to continue. -->
-  <MessageConfirmLandingAreaFirst>أكد منطقة هبوط سفينة الجاذبية للمتابعة.</MessageConfirmLandingAreaFirst>
+  <MessageConfirmLandingAreaFirst>أكّد منطقة هبوط سفينة الجاذبية للمتابعة.</MessageConfirmLandingAreaFirst>
   <!-- EN: Choose a landing site first. -->
   <MessageNoLandingSiteSelected>اختر موقع هبوط أولاً.</MessageNoLandingSiteSelected>
   

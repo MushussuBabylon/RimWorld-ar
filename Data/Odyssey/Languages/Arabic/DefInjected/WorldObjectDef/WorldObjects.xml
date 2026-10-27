@@ -9,12 +9,12 @@
   <!-- EN: basic asteroid -->
   <AsteroidBasic.label>كويكب أساسي</AsteroidBasic.label>
   <!-- EN: A vacstone asteroid that was towed into orbit around the planet as part of a mining operation long ago. Most of the valuable resources have been depleted from this asteroid.\n\nThis location can be reached using transport pods, shuttles, or a gravship. -->
-  <AsteroidBasic.description>كويكب من حجر الفراغ تم قطره إلى مدار حول الكوكب كجزء من عملية تعدين منذ زمن بعيد. معظم الموارد القيمة قد استنفدت من هذا الكويكب.\n\nيمكن الوصول إلى هذا الموقع باستخدام كبسولات النقل، أو المكوكات، أو سفينة الجاذبية.</AsteroidBasic.description>
+  <AsteroidBasic.description>كويكب من حجر الفراغ سُحب إلى مدار حول الكوكب ضمن عملية تعدين منذ زمن بعيد. وقد استُنفدت معظم الموارد القيّمة من هذا الكويكب.\n\nيمكن الوصول إلى هذا الموقع بكبسولات النقل أو المكوكات أو سفينة الجاذبية.</AsteroidBasic.description>
   
   <!-- EN: asteroid mining site -->
   <AsteroidMiningSite.label>موقع تعدين كويكب</AsteroidMiningSite.label>
   <!-- EN: A vacstone asteroid that was towed into orbit around the planet as part of a mining operation long ago. This asteroid has only been partially mined.\n\nThis location can be reached using transport pods, shuttles, or a gravship. -->
-  <AsteroidMiningSite.description>كويكب من حجر الفراغ تم قطره إلى مدار حول الكوكب كجزء من عملية تعدين منذ زمن بعيد. هذا الكويكب لم يتم تعدينه إلا جزئياً.\n\nيمكن الوصول إلى هذا الموقع باستخدام كبسولات النقل، أو المكوكات، أو سفينة الجاذبية.</AsteroidMiningSite.description>
+  <AsteroidMiningSite.description>كويكب من حجر الفراغ سُحب إلى مدار حول الكوكب ضمن عملية تعدين منذ زمن بعيد. لم يخضع هذا الكويكب للتعدين إلا جزئياً.\n\nيمكن الوصول إلى هذا الموقع بكبسولات النقل أو المكوكات أو سفينة الجاذبية.</AsteroidMiningSite.description>
   
   <!-- EN: claimable site -->
   <ClaimableSite.label>موقع يمكن المطالبة به</ClaimableSite.label>
@@ -30,7 +30,7 @@
   <!-- EN: gravship -->
   <Gravship.label>سفينة الجاذبية</Gravship.label>
   <!-- EN: A gravship in flight. -->
-  <Gravship.description>سفينة جاذبية في حالة طيران.</Gravship.description>
+  <Gravship.description>سفينة جاذبية أثناء الطيران.</Gravship.description>
   
   <!-- EN: gravship launch -->
   <GravshipLaunch.label>إطلاق سفينة الجاذبية</GravshipLaunch.label>
@@ -38,17 +38,17 @@
   <GravshipLaunch.description>موقع إطلاق سفينة الجاذبية.</GravshipLaunch.description>
   
   <!-- EN: mechhive -->
-  <Mechhive.label>خلية ميكانويد</Mechhive.label>
+  <Mechhive.label>خلية ميكانويدات</Mechhive.label>
   
   <!-- EN: orbital item stash -->
   <OrbitalItemStash.label>مخبأ عناصر مداري</OrbitalItemStash.label>
   <!-- EN: A vacstone asteroid that was towed into orbit around the planet as part of a mining operation long ago. Most of the valuable resources have been depleted from this asteroid.\n\nThis location can be reached using transport pods, shuttles, or a gravship. -->
-  <OrbitalItemStash.description>كويكب من حجر الفراغ تم قطره إلى مدار حول الكوكب كجزء من عملية تعدين منذ زمن بعيد. معظم الموارد القيمة قد استنفدت من هذا الكويكب.\n\nيمكن الوصول إلى هذا الموقع باستخدام كبسولات النقل، أو المكوكات، أو سفينة الجاذبية.</OrbitalItemStash.description>
+  <OrbitalItemStash.description>كويكب من حجر الفراغ سُحب إلى مدار حول الكوكب ضمن عملية تعدين منذ زمن بعيد. وقد استُنفدت معظم الموارد القيّمة من هذا الكويكب.\n\nيمكن الوصول إلى هذا الموقع بكبسولات النقل أو المكوكات أو سفينة الجاذبية.</OrbitalItemStash.description>
   
   <!-- EN: passenger shuttle -->
   <PassengerShuttle.label>مكوك ركاب</PassengerShuttle.label>
   <!-- EN: A passenger shuttle in flight. -->
-  <PassengerShuttle.description>مكوك ركاب في حالة طيران.</PassengerShuttle.description>
+  <PassengerShuttle.description>مكوك ركاب أثناء الطيران.</PassengerShuttle.description>
   
   <!-- EN: space -->
   <Space.label>الفضاء</Space.label>
@@ -56,7 +56,7 @@
   <!-- EN: orbital settlement -->
   <SpaceSettlement.label>مستوطنة مدارية</SpaceSettlement.label>
   <!-- EN: An orbital platform controlled by another human faction. They won't appreciate visitors.\n\nThese platforms have long-range automatic weapon systems capable of destroying incoming ships. They can only safely be approached by a gravship with a signal jammer. -->
-  <SpaceSettlement.description>منصة مدارية تتحكم بها فصيلة بشرية أخرى. لن يرحبوا بالزوار.\n\nتحتوي هذه المنصات على أنظمة أسلحة آلية بعيدة المدى قادرة على تدمير السفن القادمة. لا يمكن الاقتراب منها بأمان إلا بواسطة سفينة جاذبية مزودة بمشوش إشارة.</SpaceSettlement.description>
+  <SpaceSettlement.description>منصة مدارية يسيطر عليها فصيل بشري آخر. لن يرحبوا بالزوار.\n\nتحتوي هذه المنصات على أنظمة أسلحة آلية بعيدة المدى قادرة على تدمير السفن القادمة. ولا يمكن الاقتراب منها بأمان إلا بسفينة جاذبية مزودة بمشوّش إشارات.</SpaceSettlement.description>
   
   <!-- EN: space site -->
   <SpaceSite.label>موقع فضائي</SpaceSite.label>

@@ -36,14 +36,14 @@
     <li>successLetterEndingCommon->لقد أكملت بنجاح مهمة '[resolvedQuestName]'.</li>
     <li>goodwillSomeCiviliansLost->لم يتم إنقاذ جميع [pawnLabel] [asker_faction_pawnSingular]. [goodwillNegativelyAffected]</li>
     <li>goodwillAllCiviliansLost->لم يتم إنقاذ أي من [pawnLabelPlural] [asker_faction_pawnSingular]. [goodwillNegativelyAffected]</li>
-    <li>goodwillNegativelyAffected->تأثرت حسن نيتك مع [asker_faction_name] سلباً لكل [pawnLabel] تُرك.</li>
-    <li>commanderLandingDesc->[asker_nameDef]، القائد الذي طلب الهبوط بمكوكه في [map_definite]</li>
+    <li>goodwillNegativelyAffected->تأثر حسن نيتك مع [asker_faction_name] سلباً لكل [pawnLabel] تُرك.</li>
+    <li>commanderLandingDesc->[asker_nameDef]، القائد الذي طلب الهبوط بمكوكـ[asker_possessive] في [map_definite]</li>
     <li>raidArrivedLetterLabel->غارة: [enemyFaction_name]</li>
     <li>raidArrivedLetterText->وصل [enemyFaction_pawnsPlural] من [enemyFaction_name]. سيهاجمون [asker_faction_pawnsPlural] الذين تحطموا في [map_definite].\n\nدافع عن [asker_faction_pawnsPlural] حتى وصول مكوك الإنقاذ الخاص بهم خلال [rescueShuttleAfterRaidDelay_duration].</li>
     <li>rescueShuttleArrivedLetterLabel->وصل مكوك الإنقاذ</li>
-    <li>rescueShuttleArrivedLetterText->وصل مكوك الإنقاذ لنقل [pawnLabelSingleOrPlural] الذين هبطوا اضطرارياً. تأكد من وجود هؤلاء الأشخاص على المكوك قبل أن يغادر خلال [leaveDelay_duration]:\n\n[civilians]</li>
+    <li>rescueShuttleArrivedLetterText->وصل مكوك الإنقاذ لنقل [pawnLabelSingleOrPlural] ممن هبطوا اضطرارياً. تأكد من وجود هؤلاء الأشخاص على المكوك قبل أن يغادر خلال [leaveDelay_duration]:\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->اكتملت المهمة: [resolvedQuestName]</li>
-    <li>questCompletedSuccessLetterText->[commanderLandingDesc]، قد هرب. [asker_pronoun] ممتن للمساعدة التي تلقاها في [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc]، قد هرب. [asker_pronoun] ممتن للمساعدة التي تلقاها [asker_pronoun] في [map_definite].\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->اكتملت المهمة: [resolvedQuestName]</li>
     <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc]، قد هرب.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
     <li>askerLostLetterLabel->فشلت المهمة: [resolvedQuestName]</li>
@@ -87,7 +87,7 @@
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
     <li>questDescription->تعرض مكوك تابع لـ[asker_faction_name] لأضرار ويبحث عن مكان للهبوط. قائده [asker_nameDef] يريد الهبوط في [map_definite].\n\nسيهاجم [enemyFaction_pawnsPlural] من [enemyFaction_name] موقع تحطم المكوك في محاولة لقتل ركابه. يجب عليك الدفاع عنهم.\n\nيحتوي المكوك على [asker_nameDef][andOtherCivilians] و[soldierCountKinds]. يجب إنقاذ القائد [andCivilians]، لكن يمكن التضحية بـ[soldiers0_kindPlural].\n\nبعد [rescueDelay_duration]، سيأتي مكوك إنقاذ لنقل الناجين. ستحتاج إلى إركابهم جميعاً خلال [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
-    <li>andOtherCivilians(civilians_count==2)->، ومدني آخر،</li>
+    <li>andOtherCivilians(civilians_count==2)->، و[pawnLabel] آخر،</li>
     <li>andOtherCivilians(civilians_count>=3)->، و[civilianCountMinusOne] [pawnLabelSingleOrPlural] آخرين،</li>
     <li>andCivilians(civilians_count==1)-></li>
     <li>andCivilians(civilians_count==2)->و[pawnLabel]</li>
@@ -117,12 +117,12 @@
     <li>landing->approach</li>
   -->
   <ShuttleCrash_Rescue.questNameRules.rulesStrings>
-    <li>questName->تحطم [shuttle]</li>
-    <li>questName->تحطم [shuttle] [asker_faction_pawnSingular]</li>
+    <li>questName->[crash] [shuttle]</li>
+    <li>questName->[crash] [shuttle] [asker_faction_pawnSingular]</li>
     <li>questName->[shuttle] [damaged]</li>
-    <li>questName->[shuttle] [damaged] الخاص بـ[asker_nameDef]</li>
+    <li>questName->[shuttle] [damaged] لـ[asker_nameDef]</li>
     <li>questName->[landing] [emergency]</li>
-    <li>questName->[landing] [emergency] الخاص بـ[asker_nameDef]</li>
+    <li>questName->[landing] [emergency] لـ[asker_nameDef]</li>
     <li>shuttle->مكوك</li>
     <li>shuttle->ناقل</li>
     <li>shuttle->سفينة</li>

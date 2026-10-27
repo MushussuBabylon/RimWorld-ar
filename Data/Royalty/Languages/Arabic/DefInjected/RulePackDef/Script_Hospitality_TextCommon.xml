@@ -77,19 +77,19 @@
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->سيكون هناك (*Threat)غارة(/Threat) بقوة [threatSize]x وبهذا الحجم تقريباً:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->سيكون هناك (*Threat)[threatCount] غارات(/Threat) بهذا الحجم تقريباً:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->سيكون هناك (*Threat)[threatCount] غارات(/Threat) بقوة [threatSize]x وبهذا الحجم تقريباً:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)عنقود ميكانويدات(/Threat) ستنشر بالقرب.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)كتيبتان ميكيتان(/Threat) ستنشران بالقرب.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)عنقود ميكانويدات(/Threat) بحجم [threatSize]x ستنشر بالقرب.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)كتيبتان ميكيتان(/Threat) بحجم [threatSize]x ستنشران بالقرب.</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] [mechViolation] مؤخراً، واستهدفه سرب ميكي مداري.</li>
-    <li>threatsInfoMechClustersMultiPrisoners->السجناء [mechViolation] مؤخراً، واستهدفهم سرب ميكي مداري.</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] [mechViolation] مؤخراً، واستهدفته خلية ميكانويد.</li>
-    <li>threatsInfoMechRaidsMultiHuman->هم [mechViolation] مؤخراً، واستهدفتهم خلية ميكانويد.</li>
-    <li>mechViolation->أغضب شخصية آلة بطريقة ما</li>
-    <li>mechViolation->انتهك محطة حاسوب فائق أثرية</li>
-    <li>mechViolation->قتل طفلاً بشرياً مفضلاً لدى أركوتيك</li>
-    <li>mechViolation->حاول اختراق عقدة تحكم ميكانويد</li>
-    <li>mechViolation->حاول السرقة من موقع تخزين أثري</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)عنقود ميكانويدات(/Threat) سيُنشر في مكان قريب.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)عنقودا ميكانويدات(/Threat) سيُنشران في مكان قريب.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)عنقود ميكانويدات(/Threat) بحجم [threatSize]x سيُنشر في مكان قريب.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)عنقودا ميكانويدات(/Threat) بحجم [threatSize]x سيُنشران في مكان قريب.</li>
+    <li>threatsInfoMechClustersSingleHuman->قام [lodgers0_nameDef] مؤخراً بـ[mechViolation]، واستهدفه سرب ميكانويدات مداري.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->قام السجناء مؤخراً بـ[mechViolation]، واستهدفهم سرب ميكانويدات مداري.</li>
+    <li>threatsInfoMechRaidsSingleHuman->قام [lodgers0_nameDef] مؤخراً بـ[mechViolation]، واستهدفته خلية ميكانويد.</li>
+    <li>threatsInfoMechRaidsMultiHuman->قاموا مؤخراً بـ[mechViolation]، واستهدفتهم خلية ميكانويد.</li>
+    <li>mechViolation->إغضاب شخصية آلة بطريقة ما</li>
+    <li>mechViolation->انتهاك محطة حاسوب فائق أثرية</li>
+    <li>mechViolation->قتل طفل بشري مفضل لدى آركوتيك</li>
+    <li>mechViolation->محاولة اختراق عقدة تحكم ميكانويد</li>
+    <li>mechViolation->محاولة السرقة من موقع تخزين أثري</li>
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->قد</li>
     <li>lodgersHasHave(lodgersCount>=2)->قد</li>
