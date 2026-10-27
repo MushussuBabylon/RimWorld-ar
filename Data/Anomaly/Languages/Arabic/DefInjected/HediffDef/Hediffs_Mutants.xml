@@ -11,19 +11,19 @@
   <!-- EN: ghoul -->
   <Ghoul.label>غول</Ghoul.label>
   <!-- EN: This person has been implanted with an archotech shard, twisting them into a jittering murder machine. Its body is an amalgam of flesh and metal, while its mind cycles between half-conscious stupor and murderous intent.\n\nThey cannot work; they only fight. Ghouls must eat raw meat. If they go hungry, they can turn hostile.\n\nMany find ghouls' constant twitching to be disturbing, even when they aren't killing someone. -->
-  <Ghoul.description>تم زرع شظية آركوتيك في هذا الشخص، مما حوله إلى آلة قتل مرتعشة. جسده مزيج من اللحم والمعدن، بينما عقله يتأرجح بين ذهول شبه واعٍ ونية قاتلة.\n\nلا يستطيع العمل؛ إنه فقط يقاتل. يجب أن يأكل الغيلان اللحوم النيئة. إذا جاعوا، قد يصبحون عدائيين.\n\nكثيرون يجدون ارتعاش الغيلان المستمر مزعجاً، حتى عندما لا يقتلون أحداً.</Ghoul.description>
+  <Ghoul.description>تم زرع شظية آركوتيك في هذا الشخص، مما حوله إلى آلة قتل مرتعشة. جسمه مزيج من اللحم والمعدن، بينما عقله يتأرجح بين ذهول شبه واعٍ ونية قاتلة.\n\nلا يستطيع العمل؛ إنه فقط يقاتل. يجب أن يأكل الغيلان اللحوم النيئة. إذا جاعوا، قد يصبحون معادين.\n\nكثيرون يجدون ارتعاش الغيلان المستمر مزعجاً، حتى عندما لا يقتلون أحداً.</Ghoul.description>
   
   <!-- EN: ghoul frenzy -->
   <GhoulFrenzy.label>هياج الغول</GhoulFrenzy.label>
   <!-- EN: This creature's blood is saturated with stress hormones and liquid energy, permitting it to move and attack at incredible speeds for a short time. -->
-  <GhoulFrenzy.description>دم هذا الكائن مشبع بهرمونات التوتر والطاقة السائلة، مما يسمح له بالتحرك والهجوم بسرعات مذهلة لفترة قصيرة.</GhoulFrenzy.description>
+  <GhoulFrenzy.description>دم هذا المخلوق مشبع بهرمونات التوتر والطاقة السائلة، مما يسمح له بالتحرك والهجوم بسرعات مذهلة لفترة قصيرة.</GhoulFrenzy.description>
   
   <!-- EN: meat hunger -->
-  <MeatHunger.label>جوع للحوم</MeatHunger.label>
+  <MeatHunger.label>جوع اللحم</MeatHunger.label>
   <!-- EN: This creature is ravenously hungry for raw meat. It may become hostile if it gets too hungry. -->
-  <MeatHunger.description>هذا الكائن جائع بشدة للحوم النيئة. قد يصبح عدائياً إذا زاد جوعه أكثر من اللازم.</MeatHunger.description>
+  <MeatHunger.description>هذا المخلوق جائع بشدة للحوم النيئة. قد يصبح معادياً إذا زاد جوعه أكثر من اللازم.</MeatHunger.description>
   <!-- EN: initial -->
-  <MeatHunger.stages.initial.label>ابتدائي</MeatHunger.stages.initial.label>
+  <MeatHunger.stages.initial.label>أولي</MeatHunger.stages.initial.label>
   <!-- EN: moderate -->
   <MeatHunger.stages.moderate.label>متوسط</MeatHunger.stages.moderate.label>
   <!-- EN: extreme -->
@@ -32,27 +32,27 @@
   <!-- EN: rapid regeneration -->
   <RapidRegeneration.label>تجديد سريع</RapidRegeneration.label>
   <!-- EN: This creature has stored an incredible amount of healing energy. While not unlimited, it will rapidly regenerate until its energy has been exhausted. -->
-  <RapidRegeneration.description>خزن هذا الكائن كمية لا تصدق من طاقة الشفاء. على الرغم من أنها ليست غير محدودة، إلا أنه سيتجدد بسرعة حتى تنفد طاقته.</RapidRegeneration.description>
+  <RapidRegeneration.description>خزّن هذا المخلوق كمية هائلة من طاقة الشفاء. ورغم أنها ليست غير محدودة، فسيتجدد بسرعة حتى تنفد طاقته.</RapidRegeneration.description>
   
   <!-- EN: resurrection coma -->
   <ResurrectionComa.label>غيبوبة بعث</ResurrectionComa.label>
   <!-- EN: A mixture of deadlife dust and advanced biochemicals course through this creature's veins. -->
-  <ResurrectionComa.description>مزيج من غبار الحياة الميتة ومواد كيميائية حيوية متقدمة يجري في عروق هذا الكائن.</ResurrectionComa.description>
+  <ResurrectionComa.description>مزيج من غبار الحياة الميتة ومواد كيميائية حيوية متقدمة يجري في عروق هذا المخلوق.</ResurrectionComa.description>
   
   <!-- EN: rising -->
   <Rising.label>ينهض</Rising.label>
   <!-- EN: Mysterious archotechnological influences are reanimating this creature's corpse. -->
-  <Rising.description>تأثيرات آركوتيكية غامضة تعيد إحياء جثة هذا الكائن.</Rising.description>
+  <Rising.description>تأثيرات تكنولوجيا آركوتيكية غامضة تعيد إحياء جثة هذا المخلوق.</Rising.description>
   
   <!-- EN: shambler -->
   <Shambler.label>مترنح</Shambler.label>
   <!-- EN: This dead creature has been re-animated by corrupted archites. Shamblers are slow and mindless, and will attack relentlessly. After a few days on their feet, shamblers die from metabolic exhaustion. Captured shamblers can't move and thus won't expire. -->
-  <Shambler.description>أُعيد إحياء هذا الكائن الميت بواسطة آركايتات فاسدة. المترنحون بطيئون وبلا عقل، وسيهاجمون بلا هوادة. بعد بضعة أيام على أقدامهم، يموت المترنحون من الإرهاق الأيضي. المترنحون المأسورون لا يستطيعون الحركة وبالتالي لا ينتهون.</Shambler.description>
+  <Shambler.description>أُعيد إحياء هذا المخلوق الميت بواسطة آركايتات فاسدة. المترنحون بطيئون وبلا عقل، ويهاجمون بلا هوادة. وبعد بضعة أيام على أقدامهم، يموت المترنحون من الإنهاك الأيضي. أما المترنحون المأسورون فلا يستطيعون الحركة، وبالتالي لا يموتون.</Shambler.description>
   
   <!-- EN: shambler corpse -->
   <ShamblerCorpse.label>جثة مترنح</ShamblerCorpse.label>
   <!-- EN: This creature had previously been re-animated by corrupted archites. -->
-  <ShamblerCorpse.description>كان هذا الكائن قد أُعيد إحياؤه سابقاً بواسطة آركايتات فاسدة.</ShamblerCorpse.description>
+  <ShamblerCorpse.description>كان هذا المخلوق قد أُعيد إحياؤه سابقاً بواسطة آركايتات فاسدة.</ShamblerCorpse.description>
   <!-- EN: Shambler wounds -->
   <ShamblerCorpse.renderNodeProperties.0.debugLabel>جروح مترنح</ShamblerCorpse.renderNodeProperties.0.debugLabel>
   <!-- EN: Shambler wounds -->

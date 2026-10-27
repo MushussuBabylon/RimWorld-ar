@@ -61,7 +61,7 @@
     <li>disturbed->أزعج</li>
     <li>disturbed->أرعب</li>
     <li>disturbed->أخاف</li>
-    <li>disturbed->ضايق</li>
+    <li>disturbed->أغضب</li>
     <li>disturbed->أقلق</li>
     <li>disturbed->زعزع</li>
     <li>disturbed->أربك</li>
@@ -152,9 +152,9 @@
     <li>identityTopic->ولادتـ[RECIPIENT_possessive]</li>
     <li>identityTopic->تنشئتـ[RECIPIENT_possessive]</li>
     <li>identityTopic->والديـ[RECIPIENT_possessive]</li>
-    <li>identityTopic->أصدقاء قدامى لـ[RECIPIENT_objective]</li>
+    <li>identityTopic->أصدقاء[RECIPIENT_possessive] القدامى</li>
     <li>identityTopic->ماضيـ[RECIPIENT_possessive] العاطفي</li>
-    <li>identityTopic->ما يحبـ[RECIPIENT_objective] وما يكرهـ[RECIPIENT_objective]</li>
+    <li>identityTopic->مفضلاتـ[RECIPIENT_possessive] ومكروهاتـ[RECIPIENT_possessive]</li>
     <li>identityTopic->ردود فعلـ[RECIPIENT_possessive] العاطفية تجاه المواقف المزعجة</li>
     <li>identityTopic->تفضيلاتـ[RECIPIENT_possessive] الغذائية</li>
     <li>identityTopic->أعمق مخاوفـ[RECIPIENT_possessive]</li>
@@ -176,7 +176,7 @@
  </InterrogateIdentity.logRulesInitiator.rulesStrings>
   
   <!-- EN: occult teaching -->
-  <OccultTeaching.label>تعليم خفي</OccultTeaching.label>
+  <OccultTeaching.label>تعليم الغيبيات</OccultTeaching.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] explained [INITIATOR_possessive] theories about [subjectDarkStudy] to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] shared [INITIATOR_possessive] ideas about [subjectDarkStudy] with [RECIPIENT_nameDef].</li>

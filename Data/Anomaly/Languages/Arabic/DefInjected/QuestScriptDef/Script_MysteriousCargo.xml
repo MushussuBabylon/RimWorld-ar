@@ -19,7 +19,7 @@
   <MysteriousCargoCube.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->تواصل ذكاء اصطناعي مجهول بطلب غريب. يود منك قبول شحنة غير محددة. يتجنب كل أسئلتك حول الشحنة.\n\nإذا قبلت، سيوصل الشحنة الغامضة بواسطة كبسولة نقل.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] من [asker_faction_name] لديه طلب غريب. يود منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوتـ[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name] لديه طلب غريب. يطلب منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوتـ[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، لديه طلب غريب. يطالبك [asker_pronoun] بقبول شحنة غير محددة. وعندما تضغط لمعرفة المزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. وثمة يأس في صوتـ[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
  </MysteriousCargoCube.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
@@ -44,7 +44,7 @@
   <MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->تواصل ذكاء اصطناعي مجهول بطلب غريب. يود منك قبول شحنة غير محددة. يتجنب كل أسئلتك حول الشحنة.\n\nإذا قبلت، سيوصل الشحنة الغامضة بواسطة كبسولة نقل.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] من [asker_faction_name] لديه طلب غريب. يود منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوتـ[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name] لديه طلب غريب. يطلب منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوتـ[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، لديه طلب غريب. يطالبك [asker_pronoun] بقبول شحنة غير محددة. وعندما تضغط لمعرفة المزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. وثمة يأس في صوتـ[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
  </MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
@@ -71,7 +71,7 @@
   <MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->تواصل ذكاء اصطناعي مجهول بطلب غريب. يود منك قبول شحنة غير محددة. يتجنب كل أسئلتك حول الشحنة.\n\nإذا قبلت، سيوصل الشحنة الغامضة بواسطة كبسولة نقل.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] من [asker_faction_name] لديه طلب غريب. يود منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوتـ[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name] لديه طلب غريب. يطلب منك [asker_pronoun] قبول شحنة غير محددة. عندما تضغط من أجل مزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. هناك يأس في صوتـ[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، لديه طلب غريب. يطالبك [asker_pronoun] بقبول شحنة غير محددة. وعندما تضغط لمعرفة المزيد من التفاصيل، يتجنب [asker_pronoun] السؤال. وثمة يأس في صوتـ[asker_possessive].\n\nإذا قبلت، سيقوم [asker_nameFull] بتوصيل الشحنة الغامضة بواسطة كبسولة نقل.</li>
  </MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>

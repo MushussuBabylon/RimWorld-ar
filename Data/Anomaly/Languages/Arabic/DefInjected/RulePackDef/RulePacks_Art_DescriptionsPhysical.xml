@@ -118,9 +118,9 @@
     <li>cube_style_group(p=3)->[cubeDescSentence].</li>
     <li>cube_style_group-></li>
     <li>cubeDescSentence(p=3)->[cubeLocation]، [aPawn] [worshipsTheCube]</li>
-    <li>cubeDescSentence(p=3)->[cubeLocation]، [pawnsPlural] يقومون بـ [worshippingTheCube]</li>
+    <li>cubeDescSentence(p=3)->[cubeLocation]، [pawnsPlural] يقومون بـ[worshippingTheCube]</li>
     <li>cubeDescSentence->الـ[cubeWork] يدعو المشاهد للبدء في [worshippingTheCube]</li>
-    <li>cubeDescSentence->شخصيات تقوم بـ [worshippingTheCube] من مركز هذا الـ[cubeWork]</li>
+    <li>cubeDescSentence->شخصيات تقوم بـ[worshippingTheCube] من مركز هذا الـ[cubeWork]</li>
     <li>cubeWork->عمل</li>
     <li>cubeWork->منحوتة</li>
     <li>cubeWork->عمل فني</li>
@@ -130,7 +130,7 @@
     <li>aCube->مكعب متذبذب</li>
     <li>aCube->مكعب منمق</li>
     <li>aCube->مكعب متضاعف</li>
-    <li>aCube->مكعب خام</li>
+    <li>aCube->مكعب غير متقن</li>
     <li>aCube->مكعب مشوه</li>
     <li>aCube->مكعب مرعب</li>
     <li>aCube->مكعب مظلم</li>
@@ -155,13 +155,13 @@
     <li>aPawn->قائد من العالم اللامع</li>
     <li>aPawn->شكل غير واضح</li>
     <li>aPawn->شامان قبلي</li>
-    <li>aPawn->ماص دماء مقنع</li>
+    <li>aPawn->سانغوفاج بقلنسوة</li>
     <li>aPawn->أميرة من العصور الوسطى</li>
     <li>aPawn->قائد [Community] بعيد</li>
     <li>aPawn->امرأة تحمل [Weapon]</li>
     <li>aPawn->موكب برداء</li>
     <li>pawnsPlural->مستعمروك</li>
-    <li>pawnsPlural->مجموعة من المغيرين</li>
+    <li>pawnsPlural->مجموعة من الغزاة</li>
     <li>pawnsPlural->جماعة قبلية</li>
     <li>pawnsPlural->سرب ميكانويدات</li>
     <li>pawnsPlural->عصابة قراصنة</li>
@@ -277,15 +277,15 @@
     <li>voidVerbphrase->تتمدد عشوائياً في اتجاهات مختلفة على دفعات</li>
     <li>voidVerbphrase->تبدو وكأنها ترتجف حتى تنظر إليها مباشرة</li>
     <li>voidVerbphrase->تكاد تبدو وكأنها تتنفس</li>
-    <li>voidVerbphrase->لا تشبه أي كائن حي</li>
+    <li>voidVerbphrase->لا تشبه أي مخلوق حي</li>
     <li>voidVerbphrase->تبدو كاستعارة للمعاناة</li>
-    <li>voidDesc->عشرات الزوائد الشبيهة بالأصابع تمسك بشكل مركزي بألم.</li>
+    <li>voidDesc->عشرات الزوائد الشبيهة بالأصابع تقبض بألم على شكل مركزي.</li>
     <li>voidDesc->كرات من المادة تسحق وتضغط بعضها البعض إلى أشكال ممطوطة.</li>
     <li>voidDesc->قطع تشبه الشفرات مثنية معاً لتشبه وجهاً يصرخ في رعب.</li>
     <li>voidDesc->نتوءات تشبه الأذرع تضغط على بعضها البعض، وكأنها تحاول تدمير نفسها.</li>
     <li>voidDesc->إبر بارزة من السطح تبدو مستعدة للانطلاق واختراق أي شخص يتحرك بالقرب.</li>
     <li>voidDesc->السطح يتموج ويهتاج، متحولاً من ملمس شبه عضوي إلى حواف وشفرات آلية.</li>
-    <li>voidDesc->يبدو وكأنها مزقت نفسها إلى قطع بقوة هائلة، لكنها لا تزال متماسكة بطريقة ما.</li>
+    <li>voidDesc->تبدو وكأنها مزقت نفسها إلى قطع بقوة هائلة، لكنها لا تزال متماسكة بطريقة ما.</li>
     <li>voidDesc->زائدة تشبه اليد تنتظر وكأنها مستعدة للانقضاض والهجوم.</li>
     <li>voidDesc->زوج من الشخصيات يبدو كل منهما وكأنه يخترق ويعذب الآخر بأصابع ملتوية ومسننة.</li>
     <li>voidDesc->شكل معقد يخرج من فم وجه يصرخ.</li>

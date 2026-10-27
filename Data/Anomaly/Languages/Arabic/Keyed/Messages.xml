@@ -11,15 +11,15 @@
 
   <!-- Hate chanters -->
   <!-- EN: The cultists are in a trance and don't respond when attacked. -->
-  <MessageHateChantersAbsorbed>الطائفيون في غشوة ولا يستجيبون للهجوم.</MessageHateChantersAbsorbed>
+  <MessageHateChantersAbsorbed>أتباع الطائفة في غيبوبة ولا يستجيبون عند مهاجمتهم.</MessageHateChantersAbsorbed>
   <!-- EN: The hate chanting has increased in volume. -->
-  <MessageHateChantIncreased>ازدادت حدة هتاف الكراهية.</MessageHateChantIncreased>
+  <MessageHateChantIncreased>علا صوت هتاف الكراهية.</MessageHateChantIncreased>
 
   <!-- Self-resurrection -->
   <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
-  <SelfResurrectText>يمكن لـ {0_nameDef} إحياء نفسه بأمرٍ باستخدام رفض الموت.</SelfResurrectText>
+  <SelfResurrectText>يستطيع {0_nameDef} الإحياء الذاتي عند الأمر باستخدام رفض الموت.</SelfResurrectText>
   <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
-  <MessageUsingSelfResurrection>يستخدم {0_nameDef} رفض الموت لإحياء نفسه.</MessageUsingSelfResurrection>
+  <MessageUsingSelfResurrection>يستخدم {0_nameDef} رفض الموت للإحياء الذاتي.</MessageUsingSelfResurrection>
 
   <!-- Pit Gate -->
   <!-- EN: The pit gate has collapsed. -->
@@ -35,7 +35,7 @@
   <!-- EN: {0_pawnsPluralDef} are attacking! -->
   <MessagePsychicRitualAssault>{0_pawnsPluralDef} يهاجمون!</MessagePsychicRitualAssault>
   <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
-  <MessageAIPsychicRitualBegan>تبدأ {FACTION_pawnsPluralDef} الطقس النفسي</MessageAIPsychicRitualBegan>
+  <MessageAIPsychicRitualBegan>يبدأ {FACTION_pawnsPluralDef} الطقس النفسي</MessageAIPsychicRitualBegan>
   
   <!-- Biomutation lance -->
   <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
@@ -45,9 +45,9 @@
 
   <!-- Containment -->
   <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
-  <MessageNoRoomWithMinimumContainmentStrength>تحذير: لا توجد غرف بقوة الاحتواء الدنيا لـ {0}. قد يهرب قريباً.</MessageNoRoomWithMinimumContainmentStrength>
+  <MessageNoRoomWithMinimumContainmentStrength>تحذير: لا توجد غرف بقوة الاحتواء الدنيا لـ{0}. قد يهرب قريباً.</MessageNoRoomWithMinimumContainmentStrength>
   <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
-  <MessageTargetBelowMinimumContainmentStrength>تحذير: {0} أقل من قوة الاحتواء الدنيا لـ {1}. قد يهرب قريباً.</MessageTargetBelowMinimumContainmentStrength>
+  <MessageTargetBelowMinimumContainmentStrength>تحذير: {0} أقل من قوة الاحتواء الدنيا لـ{1}. قد يهرب قريباً.</MessageTargetBelowMinimumContainmentStrength>
   <!-- EN: Can't transfer to {0} reserved by someone else. -->
   <MessageHolderReserved>لا يمكن النقل إلى {0} المحجوز لشخص آخر.</MessageHolderReserved>
   <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
@@ -73,9 +73,9 @@
   
   <!-- Revenant -->
   <!-- EN: A hidden revenant has been revealed! -->
-  <MessageRevenantForcedVisibility>تم الكشف عن عائد من الموت مخفي!</MessageRevenantForcedVisibility>
+  <MessageRevenantForcedVisibility>انكشف عائد من الموت كان مختبئاً!</MessageRevenantForcedVisibility>
   <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
-  <MessageRevenantHeard>يستطيع {PAWN_nameDef} سماع العائد من الموت {1} قريباً!</MessageRevenantHeard>
+  <MessageRevenantHeard>يسمع {PAWN_nameDef} العائد من الموت {1} في الجوار!</MessageRevenantHeard>
   
   <!-- Abilities -->
   <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
