@@ -3,15 +3,15 @@
   <!-- EN: Auto-repair -->
   <CommandAutoRepair>إصلاح تلقائي</CommandAutoRepair>
   <!-- EN: If active, a mechanitor will automatically repair this mechanoid. Repairing a mechanoid drains its energy. -->
-  <CommandAutoRepairDesc>إذا كان نشطاً، سيقوم الميكانيتور بإصلاح هذا الميكانويد تلقائياً. إصلاح الميكانويد يستهلك طاقته.</CommandAutoRepairDesc>
+  <CommandAutoRepairDesc>عند التفعيل، سيصلح الميكانيتور هذا الميكانويد تلقائياً. يستنزف إصلاح الميكانويد طاقته.</CommandAutoRepairDesc>
 
   <!-- EN: {0_labelShort} is deathresting. -->
   <CommandDisabledDeathresting>{0_labelShort} في سبات الموت.</CommandDisabledDeathresting>
 
   <!-- EN: Cancel vatgrowth -->
-  <CommandCancelGrowth>إلغاء نمو الحوض</CommandCancelGrowth>
+  <CommandCancelGrowth>إلغاء النمو في الحوض</CommandCancelGrowth>
   <!-- EN: Cancel vatgrowth for the current occupant. The occupant will be ejected. -->
-  <CommandCancelGrowthDesc>إلغاء نمو الحوض للمستخدم الحالي. سيتم إخراج المستخدم.</CommandCancelGrowthDesc>
+  <CommandCancelGrowthDesc>إلغاء النمو في الحوض للشاغل الحالي. سيتم إخراج الشاغل.</CommandCancelGrowthDesc>
 
   <!-- EN: Select overseer -->
   <CommandSelectOverseer>اختيار المشرف</CommandSelectOverseer>
@@ -28,12 +28,12 @@
   <!-- EN: Summon mech threat... -->
   <CommandCallBossgroup>استدعاء تهديد الميكانويد...</CommandCallBossgroup>
   <!-- EN: Summon an enemy leader mechanoid along with escorts.\n\nIf you defeat the leader mechanoid, it will drop a special chip which you can use to advance your own mechanoid technology.\n\nThere are three leader mechanoid types, each summoned a different way, each dropping a different type of chip. -->
-  <CommandCallBossgroupDesc>استدعاء ميكانويد قائد معادٍ مع مرافقين.\n\nإذا هزمت الميكانويد القائد، سيسقط شريحة خاصة يمكنك استخدامها لتطوير تقنية الميكانويد الخاصة بك.\n\nهناك ثلاثة أنواع من الميكانويدات القادة، كل منها يُستدعى بطريقة مختلفة، وكل منها يسقط نوعاً مختلفاً من الشرائح.</CommandCallBossgroupDesc>
+  <CommandCallBossgroupDesc>استدعاء ميكانويد قائد معادٍ برفقة مرافقين.\n\nإذا هزمت الميكانويد القائد، فسيخلّف شريحة خاصة يمكنك استخدامها لتطوير تقنية الميكانويدات لديك.\n\nيوجد ثلاثة أنواع من الميكانويدات القائدة، يُستدعى كل منها بطريقة مختلفة ويخلّف نوعاً مختلفاً من الشرائح.</CommandCallBossgroupDesc>
 
   <!-- EN: Toggle auto load {0} -->
-  <CommandAutoLoad>تبديل التحميل التلقائي {0}</CommandAutoLoad>
+  <CommandAutoLoad>تبديل التحميل التلقائي لـ{0}</CommandAutoLoad>
   <!-- EN: If active, colonists will automatically load this with {0}. -->
-  <CommandAutoLoadDesc>إذا كان نشطاً، سيقوم المستعمرون بتحميل هذا بـ {0} تلقائياً.</CommandAutoLoadDesc>
+  <CommandAutoLoadDesc>إذا كان نشطاً، سيحمّل المستعمرون هذا تلقائياً بـ{0}.</CommandAutoLoadDesc>
 
   <!-- EN: Eject contents -->
   <CommandEjectContents>إخراج المحتويات</CommandEjectContents>
@@ -58,5 +58,5 @@
   <!-- EN: Force xenogerm implantation -->
   <ForceXenogermImplantation>إجبار زرع الزينوجرم</ForceXenogermImplantation>
   <!-- EN: Force this person to implant their xenogenes into another individual using a special injector organ. If this person's genes are currently regrowing, they will die in the process.\n\nWhen implanted, a xenogerm will overwrite the target's xenogenes. Germline genes will be unaffected. -->
-  <ForceXenogermImplantationDesc>إجبار هذا الشخص على زرع مورثاته الدخيلة في فرد آخر باستخدام عضو حاقن خاص. إذا كانت مورثات هذا الشخص قيد النمو حالياً، فسيموت أثناء العملية.\n\nعند الزرع، سيكتب الزينوجرم فوق المورثات الدخيلة للهدف. ولن تتأثر المورثات الوراثية.</ForceXenogermImplantationDesc>
+  <ForceXenogermImplantationDesc>إجبار هذا الشخص على زرع مورثاته الدخيلة في فرد آخر باستخدام عضو حاقن خاص. إذا كانت مورثات هذا الشخص تعاود النمو حالياً، فسيموت أثناء العملية.\n\nعند الزرع، سيستبدل الزينوجرم المورثات الدخيلة لدى الهدف. أما المورثات السلالية فلن تتأثر.</ForceXenogermImplantationDesc>
 </LanguageData>
