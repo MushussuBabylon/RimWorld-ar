@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- outcomeChances.*.label используется в OutcomeLetterLabel, RitualAttachedOutcomesInfo, RitualAttachedApplliesForOutcomes, RitualAttachedApplliesForOutcome, а также в списках после RitualDevelopmentPointRewards, RitualOutcomeChances -->
+  <!-- outcomeChances.*.label is used in OutcomeLetterLabel, RitualAttachedOutcomesInfo, RitualAttachedApplliesForOutcomes, RitualAttachedApplliesForOutcome, and also in the lists after RitualDevelopmentPointRewards, RitualOutcomeChances -->
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <AttendedSpeech.description>يعتمد على جودة الطقس، سيحصل المشاركون على ما بين {MINMOOD} و {MAXMOOD} مزاج لمدة {MOODDAYS} يوم.</AttendedSpeech.description>
   <!-- EN: {PAWN_labelShort}'s social impact -->
-  <AttendedSpeech.comps.0.label>الأثر الاجتماعي لـ {PAWN_labelShort}</AttendedSpeech.comps.0.label>
+  <AttendedSpeech.comps.0.label>الأثر الاجتماعي لـ{PAWN_labelShort}</AttendedSpeech.comps.0.label>
   <!-- EN: speaker's social impact -->
   <AttendedSpeech.comps.0.labelAbstract>الأثر الاجتماعي للمتحدث</AttendedSpeech.comps.0.labelAbstract>
   <!-- EN: participant count -->

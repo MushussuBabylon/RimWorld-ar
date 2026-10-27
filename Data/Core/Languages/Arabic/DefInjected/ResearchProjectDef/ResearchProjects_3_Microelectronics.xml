@@ -14,7 +14,7 @@
   -->
   <DeepDrilling.generalRules.rulesStrings>
     <li>subject->التعدين العميق</li>
-    <li>subject_story->انتقل للعيش مع شركة يقودها حفارو التراب، دارساً أعمق حفرياتها</li>
+    <li>subject_story->انتقل للعيش مع شركة يقودها الخلد الترابي، دارساً أعمق حفرياتها</li>
     <li>subject_story->حفر إلى جذور الغطاء الجليدي ليكتشف المنطقة الحيوية المنقرضة ما قبل البشرية للعالم</li>
     <li>subject_story->أصبح ثرياً من الموارد المستخرجة من لب العالم</li>
     <li>subject_gerund->الحفر عميقاً</li>
@@ -39,7 +39,7 @@
   <FlatscreenTelevision.generalRules.rulesStrings>
     <li>subject->أجهزة التلفاز ذات الشاشة المسطحة</li>
     <li>subject_story->جرب إزالة الأنابيب من أجهزة التلفاز</li>
-    <li>subject_story->ناضل من أجل بث عالي الدقة على مستوى المجرة لـ [tv_content]</li>
+    <li>subject_story->ناضل من أجل بث عالي الدقة على مستوى المجرة لـ[tv_content]</li>
     <li>tv_content->المسلسلات الطويلة</li>
     <li>tv_content->برامج الأخبار</li>
     <li>tv_content->الدعاية الثورية</li>
@@ -52,7 +52,7 @@
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>ماسح اختراق أرضي</GroundPenetratingScanner.label>
   <!-- EN: Build ground-penetrating scanners that can detect drillable resources under the surface. Requires an advanced component to construct. -->
-  <GroundPenetratingScanner.description>بناء أجهزة ماسح اختراق أرضي يمكنها اكتشاف الموارد القابلة للحفر تحت السطح. يتطلب مكوناً متطوراً للبناء.</GroundPenetratingScanner.description>
+  <GroundPenetratingScanner.description>بناء أجهزة ماسح اختراق أرضي يمكنها اكتشاف الموارد القابلة للحفر تحت السطح. يتطلب مكوناً متقدماً للبناء.</GroundPenetratingScanner.description>
   <!-- EN:
     <li>subject->geophysics</li>
     <li>subject->ground-penetrating scanners</li>
@@ -104,14 +104,14 @@
     <li>subject->الاستشفاء</li>
     <li>subject_story->أشرف على ثورة في معايير الرعاية الطبية</li>
     <li>subject_story->بنى أولى مستشفيات النظام العامة</li>
-    <li>subject_story->ركز على الربح، ببيع أجنحته الطبية الفائقة للأثرياء</li>
+    <li>subject_story->ركز على الربح، فباع [ANYPAWN_pronoun] أجنحة طبية فائقة للأثرياء</li>
     <li>subject_gerund->بناء أسرّة المستشفى</li>
  </HospitalBed.generalRules.rulesStrings>
   
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>ماسح معادن بعيد المدى</LongRangeMineralScanner.label>
   <!-- EN: Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct. -->
-  <LongRangeMineralScanner.description>بناء ماسحات معادن بعيدة المدى يمكن لباحثيك استخدامها لاكتشاف المعادن الثمينة عبر الكوكب. يمكن ضبطها للبحث عن معدن محدد. يتطلب مكونات متطورة للبناء.</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner.description>بناء ماسحات معادن بعيدة المدى يمكن لباحثيك استخدامها لاكتشاف المعادن الثمينة عبر الكوكب. يمكن ضبطها للبحث عن معدن محدد. يتطلب مكونات متقدمة للبناء.</LongRangeMineralScanner.description>
   <!-- EN:
     <li>subject->long-range mineral detection</li>
     <li>subject_story->built so many scanners that the planet's entire geology was revealed</li>

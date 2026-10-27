@@ -113,9 +113,9 @@
   <DownRaider.textController>لقد أرسلت الآن غازياً لمهاجمة مستعمرتك!\n\n1. أوقف اللعبة مؤقتاً بالضغط على {Key:TogglePause}!\n2. اقرأ الرسالة الحمراء في أسفل يمين الشاشة.\n3. جند المستعمرين باختيارهم والضغط على أمر التجنيد.\n4. اضغط على زر الزناد الأيسر لإرسالهم إلى مواقع داخل مربع أكياس الرمل، ملامسين لأكياس الرمل.\n5. ألغ الإيقاف المؤقت.\n\nيجب أن يلامس المستعمرون الغطاء للاستفادة منه. بمجرد أن تكون في الغطاء، انتظر حتى يقترب المهاجم. سيطلق المستعمرون النار تلقائياً.</DownRaider.textController>
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
-  <EndStockpileDesignating.text>انقر بزر الماوس الأيمن للخروج من وضع تحديد المخزن.</EndStockpileDesignating.text>
+  <EndStockpileDesignating.text>انقر بزر الماوس الأيمن للخروج من وضع تحديد منطقة التخزين.</EndStockpileDesignating.text>
   <!-- EN: Press left trigger button to get out of stockpile designating mode. -->
-  <EndStockpileDesignating.textController>اضغط على زر الزناد الأيسر للخروج من وضع تحديد المخزن.</EndStockpileDesignating.textController>
+  <EndStockpileDesignating.textController>اضغط على زر الزناد الأيسر للخروج من وضع تحديد منطقة التخزين.</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
   <EquipWeapons.onMapInstruction>جهز هذا</EquipWeapons.onMapInstruction>
@@ -149,11 +149,11 @@
   <MakeGrowingZone.text>يتم بناء المنزل!\n\nسيحتاج المستعمرون إلى شيء ليأكلوه، لذا ضع منطقة زراعة كما هو مشار إليه على الخريطة.\n\nهذا هو المكان الذي سيزرع فيه المستعمرون المحاصيل.</MakeGrowingZone.text>
   
   <!-- EN: Place stockpile here\n(drag corner-to-corner) -->
-  <MakeStockpile.onMapInstruction>ضع مخزناً هنا\n(اسحب من زاوية إلى زاوية)</MakeStockpile.onMapInstruction>
+  <MakeStockpile.onMapInstruction>ضع منطقة تخزين هنا\n(اسحب من زاوية إلى زاوية)</MakeStockpile.onMapInstruction>
   <!-- EN: Please make a stockpile on the indicated area. -->
-  <MakeStockpile.rejectInputMessage>يرجى إنشاء مخزن على المنطقة المشار إليها.</MakeStockpile.rejectInputMessage>
+  <MakeStockpile.rejectInputMessage>يرجى إنشاء منطقة تخزين على المنطقة المشار إليها.</MakeStockpile.rejectInputMessage>
   <!-- EN: Great!\n\nNow, make a stockpile so your colonists know where to keep items.\n\n1. Click ARCHITECT tab in the bottom left.\n2. Click the ZONE/AREA category.\n3. Select the CREATE STOCKPILE tool.\n4. Click and drag out a square as indicated on the map. -->
-  <MakeStockpile.text>عظيم!\n\nالآن، قم بإنشاء مخزن حتى يعرف المستعمرون أين يحتفظون بالأغراض.\n\n1. انقر على تبويب المهندس في أسفل اليسار.\n2. انقر على فئة منطقة/منطقة.\n3. اختر أداة إنشاء مخزن.\n4. انقر واسحب لتشكيل مربع كما هو مشار إليه على الخريطة.</MakeStockpile.text>
+  <MakeStockpile.text>عظيم!\n\nالآن، قم بإنشاء منطقة تخزين حتى يعرف المستعمرون أين يحتفظون بالعناصر.\n\n1. انقر على تبويب المهندس في أسفل اليسار.\n2. انقر على فئة منطقة/منطقة.\n3. اختر أداة إنشاء منطقة تخزين.\n4. انقر واسحب لتشكيل مربع كما هو مشار إليه على الخريطة.</MakeStockpile.text>
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
   <MapCameraDolly.text>ها أنت على السطح!\n\nحاول الآن تحريك الكاميرا.\n\nاستخدم مفاتيح {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}، أو انقر واسحب بزر الماوس الأوسط.\n\nجرب الآن!</MapCameraDolly.text>
@@ -195,7 +195,7 @@
   <!-- EN: Please drag a character from the "left behind" group (at the bottom-left) into the "selected" group (at the upper-left). -->
   <ReorderCharacters.rejectInputMessage>يرجى سحب شخصية من مجموعة "المتركون خلفاً" (في أسفل اليسار) إلى مجموعة "المختارون" (في أعلى اليسار).</ReorderCharacters.rejectInputMessage>
   <!-- EN: Now you choose which characters you want to use.\n\nDRAG a character from the "left behind" part of the character list (at the bottom) into the "selected" part (at the top).\n\nOptionally, clicking a character will allow you inspect him or her. -->
-  <ReorderCharacters.text>الآن اختر الشخصيات التي تريد استخدامها.\n\nاسحب شخصية من قسم "المتركون خلفاً" في قائمة الشخصيات (في الأسفل) إلى قسم "المختارون" (في الأعلى).\n\nاختياريا، النقر على شخصية سيسمح لك بفحصها.</ReorderCharacters.text>
+  <ReorderCharacters.text>الآن اختر الشخصيات التي تريد استخدامها.\n\nاسحب شخصية من قسم "المتركون خلفاً" في قائمة الشخصيات (في الأسفل) إلى قسم "المختارون" (في الأعلى).\n\nاختيارياً، النقر على شخصية سيسمح لك بفحصها.</ReorderCharacters.text>
   
   <!-- EN: Please choose a research project. -->
   <SelectResearchProject.rejectInputMessage>يرجى اختيار مشروع بحث.</SelectResearchProject.rejectInputMessage>
@@ -224,8 +224,8 @@
   <!-- EN: Allow this -->
   <UnforbidStartingResources.onMapInstruction>اسمح بهذا</UnforbidStartingResources.onMapInstruction>
   <!-- EN: Please allow your starting items. -->
-  <UnforbidStartingResources.rejectInputMessage>يرجى السماح بأغراض البداية الخاصة بك.</UnforbidStartingResources.rejectInputMessage>
+  <UnforbidStartingResources.rejectInputMessage>يرجى السماح بعناصر البداية الخاصة بك.</UnforbidStartingResources.rejectInputMessage>
   <!-- EN: To allow your colonists to bring your items to the stockpile, you must remove the items' "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.)\n\nAlternatively, you can:\n1. Click ARCHITECT.\n2. Click ORDERS.\n3. Click ALLOW.\n4. Drag out a shape covering all forbidden items to allow them. -->
-  <UnforbidStartingResources.text>للسماح للمستعمرين بنقل أغراضك إلى المخزن، يجب إزالة تصنيف "ممنوع" عن الأغراض.\n\n1. انقر على أغراض البداية لاختيارها.\n2. انقر على زر التبديل اسمح للسماح بها.\n\n(نصيحة محترف: انقر نقراً مزدوجاً على غرض لتحديد كل ما يظهر على الشاشة من نفس النوع.)\n\nبدلاً من ذلك، يمكنك:\n1. انقر على مهندس.\n2. انقر على أوامر.\n3. انقر على اسمح.\n4. اسحب شكلاً يغطي جميع الأغراض الممنوعة للسماح بها.</UnforbidStartingResources.text>
+  <UnforbidStartingResources.text>للسماح للمستعمرين بنقل عناصرك إلى منطقة التخزين، يجب إزالة تصنيف "ممنوع" عن العناصر.\n\n1. انقر على عناصر البداية لاختيارها.\n2. انقر على زر التبديل اسمح للسماح بها.\n\n(نصيحة محترف: انقر نقراً مزدوجاً على عنصر لتحديد كل ما يظهر على الشاشة من نفس النوع.)\n\nبدلاً من ذلك، يمكنك:\n1. انقر على مهندس.\n2. انقر على أوامر.\n3. انقر على اسمح.\n4. اسحب شكلاً يغطي جميع العناصر الممنوعة للسماح بها.</UnforbidStartingResources.text>
   
 </LanguageData>

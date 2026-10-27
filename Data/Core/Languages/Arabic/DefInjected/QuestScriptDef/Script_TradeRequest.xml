@@ -9,7 +9,7 @@
     <li>travelTime-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->مستوطنة قريبة، [settlement_label]، لديها طلب تجاري خاص. يرغبون في شراء:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](بقيمة [requestedThingMarketValue_money])\n\nإذا أردت إجراء التجارة، أرسل قافلة مع الأغراض المطلوبة.[travelTime]</li>
+    <li>questDescription->مستوطنة قريبة، [settlement_label]، لديها طلب تجاري خاص. يرغبون في شراء:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](بقيمة [requestedThingMarketValue_money])\n\nإذا أردت إجراء التجارة، أرسل قافلة مع العناصر المطلوبة.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->ذات جودة عادية+ </li>
     <li>qualityInfo-></li>
     <li>travelTime(canCaravan==True,priority=1)-> الوقت المقدر للسفر هو [estimatedTravelTime_duration].</li>
@@ -33,7 +33,7 @@
     <li>questName->قافلة إلى [settlement_label]</li>
     <li>questName->تجارة مع [settlement_label]</li>
     <li>questName->بيع إلى [settlement_label]</li>
-    <li>questName->مؤن لـ [settlement_label]</li>
+    <li>questName->مؤن لـ[settlement_label]</li>
     <li>questName->[trade] [special]</li>
     <li>special->خاصة</li>
     <li>special->فريدة</li>

@@ -4,7 +4,7 @@
   <!-- EN: advanced fabrication -->
   <AdvancedFabrication.label>التصنيع المتقدم</AdvancedFabrication.label>
   <!-- EN: Fabricate advanced components from standard components and other materials. -->
-  <AdvancedFabrication.description>تصنيع مكونات متطورة من مكونات قياسية ومواد أخرى.</AdvancedFabrication.description>
+  <AdvancedFabrication.description>تصنيع مكونات متقدمة من مكونات قياسية ومواد أخرى.</AdvancedFabrication.description>
   <!-- EN:
     <li>subject->advanced component fabrication</li>
     <li>subject_story->traded advanced components to desperate rimworlders</li>
@@ -13,11 +13,11 @@
     <li>subject_gerund->fabricating advanced components</li>
   -->
   <AdvancedFabrication.generalRules.rulesStrings>
-    <li>subject->تصنيع المكونات المتطورة</li>
-    <li>subject_story->تاجر بالمكونات المتطورة مع سكان عوالم الحافة اليائسين</li>
-    <li>subject_story->تعلم أسرار تصنيع المكونات المتطورة ومات دون أن يكشفها</li>
-    <li>subject_story->أحجم عن التكلفة الباهظة لصنع المكونات المتطورة واختار حياة أبسط</li>
-    <li>subject_gerund->تصنيع المكونات المتطورة</li>
+    <li>subject->تصنيع المكونات المتقدمة</li>
+    <li>subject_story->تاجر بالمكونات المتقدمة مع سكان عوالم الحافة اليائسين</li>
+    <li>subject_story->تعلم أسرار تصنيع المكونات المتقدمة ومات دون أن يكشفها</li>
+    <li>subject_story->أحجم عن التكلفة الباهظة لصنع المكونات المتقدمة واختار حياة أبسط</li>
+    <li>subject_gerund->تصنيع المكونات المتقدمة</li>
  </AdvancedFabrication.generalRules.rulesStrings>
   
   <!-- EN: bionic replacements -->
@@ -44,7 +44,7 @@
   <!-- EN: pulse-charged munitions -->
   <ChargedShot.label>ذخائر النبضات المشحونة</ChargedShot.label>
   <!-- EN: Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components. -->
-  <ChargedShot.description>بناء أسلحة تطلق ذخائر نبضات مشحونة لإحداث ضرر إضافي. لاحظ أن هذه تتطلب أيضاً مكونات متطورة.</ChargedShot.description>
+  <ChargedShot.description>بناء أسلحة تطلق ذخائر نبضات مشحونة لإحداث ضرر إضافي. لاحظ أن هذه تتطلب أيضاً مكونات متقدمة.</ChargedShot.description>
   <!-- EN:
     <li>subject->pulse munitions</li>
     <li>subject_story->studied glitterworld monorails and modified the tech for weapons</li>
@@ -88,9 +88,9 @@
   <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
   <Fabrication.description>بناء مناضد تصنيع، قادرة على مشاريع عالية التقنية تتراوح من تجميع المكونات إلى بناء دروع الطاقة.</Fabrication.description>
   <!-- EN: You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components. -->
-  <Fabrication.discoveredLetterText>لديك الآن التقنية لبناء منضدة تصنيع - لكنها تتطلب أيضاً بعض المكونات المتطورة للبدء. يمكنك جمع المكونات المتطورة بعدة طرق:\n\n  -جميع مستوطنات الغرباء تبيع مكونات متطورة. أرسل قافلة لشراء البعض.\n  -بعض التجار الزائرين يبيعون مكونات متطورة. ادعهم أو انتظرهم.\n  -بعض المهام تكافئ بمكونات متطورة.</Fabrication.discoveredLetterText>
+  <Fabrication.discoveredLetterText>لديك الآن التقنية لبناء منضدة تصنيع - لكنها تتطلب أيضاً بعض المكونات المتقدمة للبدء. يمكنك جمع المكونات المتقدمة بعدة طرق:\n\n  -جميع مستوطنات الغرباء تبيع مكونات متقدمة. أرسل قافلة لشراء البعض.\n  -بعض التجار الزائرين يبيعون مكونات متقدمة. ادعهم أو انتظرهم.\n  -بعض المهام تكافئ بمكونات متقدمة.</Fabrication.discoveredLetterText>
   <!-- EN: About: Getting advanced components -->
-  <Fabrication.discoveredLetterTitle>بخصوص: الحصول على المكونات المتطورة</Fabrication.discoveredLetterTitle>
+  <Fabrication.discoveredLetterTitle>بخصوص: الحصول على المكونات المتقدمة</Fabrication.discoveredLetterTitle>
   <!-- EN:
     <li>subject->high-tech fabrication benches</li>
     <li>subject_story->spent many years crafting advanced components, to make fabrication benches to make more advanced components</li>
@@ -101,7 +101,7 @@
   -->
   <Fabrication.generalRules.rulesStrings>
     <li>subject->مناضد التصنيع عالية التقنية</li>
-    <li>subject_story->أمضى سنوات عديدة في صنع مكونات متطورة، لصنع مناضد تصنيع لصنع المزيد من المكونات المتطورة</li>
+    <li>subject_story->أمضى سنوات عديدة في صنع مكونات متقدمة، لصنع مناضد تصنيع لصنع المزيد من المكونات المتقدمة</li>
     <li>subject_story->قايض بكل شيء لبناء منضدة تصنيع واحدة</li>
     <li>subject_story->شيد أعاجيب تقنية عبدها القرويون المتوحشون كأشياء سحرية</li>
     <li>subject_gerund->إنشاء مشاريع عالية التقنية</li>
@@ -130,7 +130,7 @@
   <!-- EN: marine armor -->
   <PoweredArmor.label>درع البحرية</PoweredArmor.label>
   <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
-  <PoweredArmor.description>بناء درع البحرية، وهو بدلة درع طاقة للاستخدام العام تستخدمها قوات الصدمة عالية التقنية. لاحظ أن هذه تتطلب أيضاً مكونات متطورة.</PoweredArmor.description>
+  <PoweredArmor.description>بناء درع البحرية، وهو بدلة درع طاقة للاستخدام العام تستخدمها قوات الصدمة عالية التقنية. لاحظ أن هذه تتطلب أيضاً مكونات متقدمة.</PoweredArmor.description>
   <!-- EN:
     <li>subject->marine armor</li>
     <li>subject_story->was employed by the shock troops to maintain their armor</li>
@@ -147,13 +147,13 @@
     <li>subject_story->قصد بالدرع الحماية من طقس الكوكب المعادي، لكنه عمل بشكل جيد ضد القراصنة أيضاً</li>
     <li>subject_gerund->بناء دروع قوات الصدمة</li>
     <li>subject_gerund->بناء دروع البحرية</li>
-    <li>subject_gerund->بناء دروع متطورة للاستخدام العام</li>
+    <li>subject_gerund->بناء دروع متقدمة للاستخدام العام</li>
  </PoweredArmor.generalRules.rulesStrings>
   
   <!-- EN: recon armor -->
   <ReconArmor.label>درع الاستطلاع</ReconArmor.label>
   <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
-  <ReconArmor.description>صنع درع الاستطلاع، وهو بدلة درع طاقة خفيفة تستخدمها قوات الكشافة التي تحتاج إلى حماية أثناء الحركة. لاحظ أن هذه تتطلب أيضاً مكونات متطورة.</ReconArmor.description>
+  <ReconArmor.description>صنع درع الاستطلاع، وهو بدلة درع طاقة خفيفة تستخدمها قوات الكشافة التي تحتاج إلى حماية أثناء الحركة. لاحظ أن هذه تتطلب أيضاً مكونات متقدمة.</ReconArmor.description>
   <!-- EN:
     <li>subject->recon armor</li>
     <li>subject_story->led the rebel scouts against the Imperial forces, until captured</li>
@@ -191,9 +191,9 @@
  </RocketswarmLauncher.generalRules.rulesStrings>
   
   <!-- EN: uranium slug turret -->
-  <SniperTurret.label>برج طلقات اليورانيوم</SniperTurret.label>
+  <SniperTurret.label>برج رصاص اليورانيوم</SniperTurret.label>
   <!-- EN: Produce the armor-penetrating uranium slug turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range. -->
-  <SniperTurret.description>إنتاج برج طلقات اليورانيوم الخارقة للدروع. يطلق طلقات يورانيوم تمزق الفولاذ البلاستي كالورق، لكنه أقل فعالية في المدى القريب.</SniperTurret.description>
+  <SniperTurret.description>إنتاج برج رصاص اليورانيوم الخارق للدروع. يطلق رصاص يورانيوم يمزق الفولاذ البلاستي كالورق، لكنه أقل فعالية في المدى القريب.</SniperTurret.description>
   <!-- EN:
     <li>subject->sniper turrets</li>
     <li>subject_story->led the clean-up after the war, collecting spent radioactive uranium slugs from the front line</li>
@@ -203,7 +203,7 @@
   -->
   <SniperTurret.generalRules.rulesStrings>
     <li>subject->أبراج القنص</li>
-    <li>subject_story->قاد عملية التنظيف بعد الحرب، وجمع طلقات اليورانيوم المشع المستهلكة من خط المواجهة</li>
+    <li>subject_story->قاد عملية التنظيف بعد الحرب، وجمع رصاص اليورانيوم المشع المستهلك من خط المواجهة</li>
     <li>subject_story->رأى برجاً يطلق النار مباشرة عبر ميكانويد هجومي واحتاج إلى فهم كيفية ذلك</li>
     <li>subject_story->بحث في تأثيرات كثافة الذخيرة على الدروع</li>
     <li>subject_gerund->بناء أبراج القنص</li>

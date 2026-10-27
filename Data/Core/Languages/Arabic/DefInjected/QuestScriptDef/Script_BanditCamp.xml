@@ -5,7 +5,7 @@
     <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
   -->
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->أرسل [asker_nameFull]، [asker_faction_leaderTitle] من [asker_faction_name]، رسالة إلينا. يبدو أن [siteFaction_pawnsPlural] المتمركزين في معسكر قريب كانوا يغيرون على قوافلهم. يسيطر [siteFaction_name] على المعسكر.\n\nيطلب منا [asker_nameDef] تدمير المعسكر، مما يعني القضاء على جميع الأعداء والأبراج. يقول [asker_label] إن [sitePart0_description].</li>
+    <li>questDescription->أرسل [asker_nameFull]، [asker_faction_leaderTitle] من [asker_faction_name]، رسالة إلينا. يبدو أن [siteFaction_pawnsPlural] المتمركزين في مخيم قريب كانوا يغيرون على قوافلهم. يسيطر [siteFaction_name] على المخيم.\n\nيطلب منا [asker_nameDef] تدمير المخيم، مما يعني القضاء على جميع الأعداء والأبراج. يقول [asker_label] إن [sitePart0_description].</li>
  </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [bandit] [camp]</li>
@@ -28,7 +28,7 @@
     <li>questName->الـ[camp] الـ[bandit]</li>
     <li>questName->[bandit] [camp]</li>
     <li>questName->[asker_nameDef] والـ[camp]</li>
-    <li>camp->معسكر</li>
+    <li>camp->مخيم</li>
     <li>camp->نقطة متقدمة</li>
     <li>camp->وكر</li>
     <li>camp->مخيم</li>
@@ -48,11 +48,11 @@
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>فشلت المهمة: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>
   <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
-  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>بعد أن انكشفوا، تفرق معسكر قطاع الطرق. انتهت المهمة [resolvedQuestName].</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>بعد أن انكشفوا، تفرق مخيم قطاع الطرق. انتهت المهمة [resolvedQuestName].</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
   <!-- EN: Payment arrived -->
   <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>وصل الدفع</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
   <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
-  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>لقد هزمت معسكر قطاع الطرق!\n\nوصل الدفع من [asker_faction_name].</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>لقد هزمت مخيم قطاع الطرق!\n\nوصل الدفع من [asker_faction_name].</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>
   <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->

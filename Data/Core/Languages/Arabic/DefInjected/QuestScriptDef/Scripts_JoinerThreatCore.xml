@@ -7,9 +7,9 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] يدعى [joiner_nameDef] يتصل من مكان قريب. [joiner_pronoun] مطارد من قبل [enemyFaction_pawnsPlural] من [enemyFaction_name]!\n\n[joiner_pronoun] يتوسل من أجل الأمان ويعرض الانضمام إليكم في [map_definite].[joiner_relationInfo]\n\nإذا قبلتم، سيتعين عليكم قتال [enemyFaction_pawnsPluralDef] الذين في أعقابه. مجموعة [enemyFaction_pawnsPlural] مكونة من: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] شديد الهلع لتقديم مزيد من المعلومات.</li>
-    <li>introduction(childCount==1,priority=1)->طفل يبلغ من العمر [joiner_age] عاماً</li>
-    <li>introduction->[joiner_title] يبلغ من العمر [joiner_age] عاماً</li>
+    <li>questDescription->[introduction] يدعى [joiner_nameDef] يتصل من مكان قريب. [joiner_pronoun] مطارد من قبل [enemyFaction_pawnsPlural] من [enemyFaction_name]!\n\n[joiner_pronoun] يتوسل من أجل الأمان ويعرض الانضمام إليكم في [map_definite].[joiner_relationInfo]\n\nإذا قبلتم، سيتعين عليكم قتال [enemyFaction_pawnsPluralDef] الذين في أعقابـ[joiner_possessive]. مجموعة [enemyFaction_pawnsPlural] مكونة من: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] شديد الهلع لتقديم مزيد من المعلومات.</li>
+    <li>introduction(childCount==1,priority=1)->طفل يبلغ من العمر [joiner_age] سنةً</li>
+    <li>introduction->[joiner_title] يبلغ من العمر [joiner_age] سنةً</li>
  </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
