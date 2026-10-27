@@ -7,8 +7,8 @@
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
   <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
-    <li>questDescription->لقد [discoveryDesc] مجمعاً قديماً قريباً يحتوي على رفات ميكانيتور مات منذ زمن بعيد.\n\nيمكن للميكانيتوريين إنشاء الميكانويدات والتحكم بها والتلاعب بها للعمل والقتال. إذا تمكنت من اقتحام المجمع وجمع جثة الميكانيتور، يمكنك استخراج وصلة الميكانيتور الخاص به وتحويل أحد المستعمرين لديك إلى ميكانيتور.\n\nكن حذراً - هذه الأنواع من الهياكل يمكن أن تحتوي على تهديدات متنوعة، وقد يجذب نشاطك في المجمع انتباهاً غير مرغوب فيه.</li>
-    <li>discoveryDesc(discovered==false)->عرفت</li>
+    <li>questDescription->لقد [discoveryDesc] مجمع قديم قريب يحتوي على رفات ميكانيتور مات منذ زمن بعيد.\n\nيستطيع الميكانيتوريون إنشاء الميكانويدات والتحكم بها وتوجيهها للعمل والقتال. إذا تمكنت من اقتحام المجمع وجمع جثة الميكانيتور، يمكنك استخراج وصلة الميكانيتور منها وتحويل أحد مستعمريك إلى ميكانيتور.\n\nكن حذراً - فقد تحتوي هذه الأنواع من المنشآت على تهديدات متنوعة، وقد يجذب نشاطك في المجمع انتباهاً غير مرغوب فيه.</li>
+    <li>discoveryDesc(discovered==false)->علمت بوجود</li>
     <li>discoveryDesc(discovered==true)->حددت موقع</li>
  </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -30,22 +30,22 @@
     <li>complex->mechsite</li>
   -->
   <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
-    <li>questName(p=3)->[complexAdj] ميكانيتور [complex]</li>
-    <li>questName->ميكانيتور [complex]</li>
+    <li>questName(p=3)->[complex] ميكانيتور [complexAdj]</li>
+    <li>questName->[complex] ميكانيتور</li>
     <li>complexAdj->سري</li>
     <li>complexAdj->قديم</li>
-    <li>complexAdj->قديم</li>
+    <li>complexAdj->عتيق</li>
     <li>complexAdj->مخفي</li>
     <li>complexAdj->مغبر</li>
     <li>complexAdj->خطير</li>
     <li>complexAdj->مخفي</li>
     <li>complex->مجمع</li>
     <li>complex->وكر</li>
-    <li>complex->قاعدة</li>
-    <li>complex->مجمع</li>
+    <li>complex->مقر</li>
+    <li>complex->مجمّع</li>
     <li>complex->سرداب</li>
-    <li>complex->مجمع ميكانيكي</li>
-    <li>complex->موقع ميكانيكي</li>
+    <li>complex->مجمع ميكانويدي</li>
+    <li>complex->موقع ميكانويدي</li>
  </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -36,24 +36,24 @@
     <li>placeNameCore->[SylI][SylI][SylI]</li>
     <li>placeNameCore->[SylI][placeEnd]</li>
     <li>placeNameCore->[SylI][SylI][placeEnd]</li>
-    <li>placeEnd->ach</li>
-    <li>placeEnd->az</li>
-    <li>placeEnd->eth</li>
-    <li>placeEnd->zoz</li>
-    <li>placeEnd->och</li>
-    <li>placeEnd->oz</li>
-    <li>placeEnd->echz</li>
-    <li>placeEnd->ess</li>
-    <li>placeEnd->onss</li>
-    <li>placeEnd->in</li>
-    <li>placeEnd->ichs</li>
-    <li>placeEnd->izz</li>
-    <li>placeEnd->sezz</li>
-    <li>placeEnd->tch</li>
-    <li>placeEnd->tchz</li>
-    <li>placeEnd->ken</li>
-    <li>placeEnd->kev</li>
-    <li>placeEnd->vel</li>
+    <li>placeEnd->اخ</li>
+    <li>placeEnd->از</li>
+    <li>placeEnd->اث</li>
+    <li>placeEnd->زوز</li>
+    <li>placeEnd->اوخ</li>
+    <li>placeEnd->اوز</li>
+    <li>placeEnd->اخز</li>
+    <li>placeEnd->اس</li>
+    <li>placeEnd->اونس</li>
+    <li>placeEnd->ان</li>
+    <li>placeEnd->اخس</li>
+    <li>placeEnd->ايز</li>
+    <li>placeEnd->سيز</li>
+    <li>placeEnd->تش</li>
+    <li>placeEnd->تشز</li>
+    <li>placeEnd->كن</li>
+    <li>placeEnd->كيڤ</li>
+    <li>placeEnd->ڤل</li>
  </ImpidUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -86,7 +86,7 @@
   -->
   <NamerFactionOutlanderPig.rulePack.rulesStrings>
     <li>r_name(p=2)->[nameCore]</li>
-    <li>r_name->[nameCore] [political_union_outlander]</li>
+    <li>r_name->[political_union_outlander] [nameCore]</li>
     <li>r_name->[political_union_outlander] [nameCore]</li>
     <li>maybeHyphen(p=3)-></li>
     <li>maybeHyphen->-</li>
@@ -94,17 +94,17 @@
     <li>nameCore->[SylP][maybeHyphen][SylP][maybeHyphen][SylP]</li>
     <li>nameCore->[SylP][maybeHyphen][end]</li>
     <li>nameCore->[SylP][maybeHyphen][SylP][maybeHyphen][end]</li>
-    <li>end->oo</li>
-    <li>end->lok</li>
-    <li>end->lom</li>
-    <li>end->oink</li>
-    <li>end->gug</li>
-    <li>end->und</li>
-    <li>end->oog</li>
-    <li>end->pig</li>
-    <li>end->pog</li>
-    <li>end->mok</li>
-    <li>end->mm</li>
+    <li>end->او</li>
+    <li>end->لوك</li>
+    <li>end->لوم</li>
+    <li>end->اوينك</li>
+    <li>end->گوگ</li>
+    <li>end->اوند</li>
+    <li>end->اوگ</li>
+    <li>end->پيگ</li>
+    <li>end->پوگ</li>
+    <li>end->موك</li>
+    <li>end->مم</li>
  </NamerFactionOutlanderPig.rulePack.rulesStrings>
   
   <!-- EN:
@@ -132,22 +132,22 @@
     <li>men->trash</li>
   -->
   <NamerFactionPirateWaster.rulePack.rulesStrings>
-    <li>r_name->[poison] [groupname]</li>
-    <li>r_name->[poison] [men]</li>
+    <li>r_name->[groupname] [poison]</li>
+    <li>r_name->[men] [poison]</li>
     <li>men->رجال</li>
     <li>men->طاقم</li>
     <li>men->عصابة</li>
-    <li>men->خانقون</li>
-    <li>men->مُدَمِّرون</li>
-    <li>men->مُحَرِّضون نفسيون</li>
-    <li>men->مسممون</li>
-    <li>men->مُتلِفون</li>
+    <li>men->خانقو</li>
+    <li>men->ناهبو</li>
+    <li>men->مستبصرو</li>
+    <li>men->مسمّمو</li>
+    <li>men->متلفو</li>
     <li>men->وايستر</li>
-    <li>men->حازمون</li>
-    <li>men->مُتَسَلِّلون</li>
-    <li>men->مُتَسَلِّلون</li>
+    <li>men->معبّئو</li>
+    <li>men->محتالو</li>
+    <li>men->محتالو</li>
     <li>men->آفات</li>
-    <li>men->قمامة</li>
+    <li>men->حثالة</li>
  </NamerFactionPirateWaster.rulePack.rulesStrings>
   
   <!-- EN:
@@ -165,16 +165,16 @@
   -->
   <NamerFactionPirateYttakin.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore] [faction]</li>
     <li>r_name->[faction] [placeNameCore]</li>
-    <li>faction->roarclan</li>
+    <li>r_name->[faction] [placeNameCore]</li>
+    <li>faction->عشيرة الزئير</li>
     <li>faction->قبيلة</li>
     <li>faction->عشيرة</li>
     <li>faction->زئير</li>
     <li>faction->قطيع</li>
     <li>faction->عائلة</li>
     <li>faction->فراء</li>
-    <li>faction->kinroar</li>
+    <li>faction->أهل الزئير</li>
  </NamerFactionPirateYttakin.rulePack.rulesStrings>
   
   <!-- EN:
@@ -190,14 +190,14 @@
   -->
   <NamerFactionTribalImpid.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore] [faction]</li>
     <li>r_name->[faction] [placeNameCore]</li>
-    <li>faction->clade</li>
-    <li>faction->league</li>
-    <li>faction->runship</li>
-    <li>faction->sprintship</li>
-    <li>faction->flamehome</li>
-    <li>faction->firehome</li>
+    <li>r_name->[faction] [placeNameCore]</li>
+    <li>faction->سلالة</li>
+    <li>faction->رابطة</li>
+    <li>faction->رفقة الركض</li>
+    <li>faction->رفقة العدو</li>
+    <li>faction->موطن اللهب</li>
+    <li>faction->موطن النار</li>
  </NamerFactionTribalImpid.rulePack.rulesStrings>
   
   <!-- EN:
@@ -213,7 +213,7 @@
   -->
   <NamerFactionTribalNeanderthal.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore] [political_union_tribal]</li>
+    <li>r_name->[political_union_tribal] [placeNameCore]</li>
     <li>r_name->[political_union_tribal] [placeNameCore]</li>
  </NamerFactionTribalNeanderthal.rulePack.rulesStrings>
   
@@ -256,28 +256,28 @@
     <li>townname_wordgen->[SylP][maybeHyphen][SylP][maybeHyphen][SylP]</li>
     <li>townname_wordgen->[SylP][maybeHyphen][townend]</li>
     <li>townname_wordgen->[SylP][maybeHyphen][SylP][maybeHyphen][townend]</li>
-    <li>townend->bille</li>
-    <li>townend->wille</li>
-    <li>townend->bwug</li>
-    <li>townend->born</li>
-    <li>townend->grab</li>
-    <li>townend->bal</li>
-    <li>townend->wope</li>
-    <li>townend->ig</li>
-    <li>townend->kess</li>
-    <li>townend->mur</li>
-    <li>townend->wig</li>
-    <li>townend->gon</li>
-    <li>townend->og</li>
-    <li>townend->wen</li>
-    <li>townend->wag</li>
-    <li>townend->woog</li>
-    <li>townend->worg</li>
-    <li>townend->roog</li>
-    <li>townend->rog</li>
-    <li>townend->welg</li>
-    <li>townend->op</li>
-    <li>townend->pig</li>
+    <li>townend->بيل</li>
+    <li>townend->ويل</li>
+    <li>townend->بڤوگ</li>
+    <li>townend->بورن</li>
+    <li>townend->گراب</li>
+    <li>townend->بال</li>
+    <li>townend->ووپ</li>
+    <li>townend->ايگ</li>
+    <li>townend->كيس</li>
+    <li>townend->مور</li>
+    <li>townend->ويگ</li>
+    <li>townend->گون</li>
+    <li>townend->اوگ</li>
+    <li>townend->وين</li>
+    <li>townend->واگ</li>
+    <li>townend->ووگ</li>
+    <li>townend->وورگ</li>
+    <li>townend->رووگ</li>
+    <li>townend->روگ</li>
+    <li>townend->ويلگ</li>
+    <li>townend->اوپ</li>
+    <li>townend->پيگ</li>
  </NamerSettlementOutlanderPig.rulePack.rulesStrings>
   
   <!-- EN:
@@ -313,23 +313,23 @@
     <li>townNameWordgen->[SylE][SylE][SylE]</li>
     <li>townNameWordgen->[SylE][townEndToxic]</li>
     <li>townNameWordgen->[SylE][SylE][townEndToxic]</li>
-    <li>townEndToxic->tox</li>
-    <li>townEndToxic->vor</li>
-    <li>townEndToxic->son</li>
-    <li>townEndToxic->zon</li>
-    <li>townEndToxic->toth</li>
-    <li>townEndToxic->zoun</li>
-    <li>townEndToxic->slick</li>
-    <li>townEndToxic->pill</li>
-    <li>townEndToxic->ash</li>
-    <li>townEndToxic->ven</li>
-    <li>townNameCombo->[poison] [town]</li>
+    <li>townEndToxic->توكس</li>
+    <li>townEndToxic->ڤور</li>
+    <li>townEndToxic->سون</li>
+    <li>townEndToxic->زون</li>
+    <li>townEndToxic->توث</li>
+    <li>townEndToxic->زاون</li>
+    <li>townEndToxic->سليك</li>
+    <li>townEndToxic->پيل</li>
+    <li>townEndToxic->اش</li>
+    <li>townEndToxic->ڤن</li>
+    <li>townNameCombo->[town] [poison]</li>
     <li>town->بلدة</li>
     <li>town->قاعدة</li>
     <li>town->حصن</li>
     <li>town->ميناء</li>
     <li>town->مسلخ</li>
-    <li>town->مذبح</li>
+    <li>town->جزارة</li>
     <li>town->خزان</li>
  </NamerSettlementPirateWaster.rulePack.rulesStrings>
   
@@ -393,24 +393,24 @@
     <li>placeNameCore->[SylN][maybeApo][SylN][maybeApo][SylN]</li>
     <li>placeNameCore->[SylN][maybeApo][placeEnd]</li>
     <li>placeNameCore->[SylN][maybeApo][SylN][maybeApo][placeEnd]</li>
-    <li>placeEnd->ils</li>
-    <li>placeEnd->ilt</li>
-    <li>placeEnd->ig</li>
-    <li>placeEnd->fweg</li>
-    <li>placeEnd->then</li>
-    <li>placeEnd->thor</li>
-    <li>placeEnd->bog</li>
-    <li>placeEnd->ton</li>
-    <li>placeEnd->ten</li>
-    <li>placeEnd->moor</li>
-    <li>placeEnd->mouk</li>
-    <li>placeEnd->mun</li>
-    <li>placeEnd->mursh</li>
-    <li>placeEnd->man</li>
-    <li>placeEnd->bel</li>
-    <li>placeEnd->sil</li>
-    <li>placeEnd->sonk</li>
-    <li>placeEnd->soud</li>
+    <li>placeEnd->ايلس</li>
+    <li>placeEnd->ايلت</li>
+    <li>placeEnd->ايگ</li>
+    <li>placeEnd->فويگ</li>
+    <li>placeEnd->ثن</li>
+    <li>placeEnd->ثور</li>
+    <li>placeEnd->بوگ</li>
+    <li>placeEnd->تون</li>
+    <li>placeEnd->تن</li>
+    <li>placeEnd->مور</li>
+    <li>placeEnd->موك</li>
+    <li>placeEnd->مون</li>
+    <li>placeEnd->مورش</li>
+    <li>placeEnd->مان</li>
+    <li>placeEnd->بيل</li>
+    <li>placeEnd->سيل</li>
+    <li>placeEnd->سونك</li>
+    <li>placeEnd->سود</li>
  </NeanderthalUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -435,25 +435,25 @@
     <li>poison->pest</li>
   -->
   <WasterUtility.rulePack.rulesStrings>
-    <li>poison->سم</li>
-    <li>poison->توكسين</li>
-    <li>poison->توكس</li>
-    <li>poison->خنق</li>
-    <li>poison->غاز</li>
-    <li>poison->حبة</li>
-    <li>poison->سايك</li>
-    <li>poison->فيروس</li>
-    <li>poison->سم حيواني</li>
-    <li>poison->سرطان</li>
-    <li>poison->توكسويد</li>
-    <li>poison->آفة</li>
-    <li>poison->مياسما</li>
-    <li>poison->قذارة</li>
-    <li>poison->قمامة</li>
-    <li>poison->تلوث</li>
-    <li>poison->تعفن</li>
-    <li>poison->نفايات</li>
-    <li>poison->حشرة</li>
+    <li>poison->السم</li>
+    <li>poison->التوكسين</li>
+    <li>poison->التوكس</li>
+    <li>poison->الخنق</li>
+    <li>poison->الغاز</li>
+    <li>poison->الحبة</li>
+    <li>poison->السايك</li>
+    <li>poison->الفيروس</li>
+    <li>poison->السم الزعاف</li>
+    <li>poison->السرطان</li>
+    <li>poison->التوكسويد</li>
+    <li>poison->اللفحة</li>
+    <li>poison->المياسما</li>
+    <li>poison->القذارة</li>
+    <li>poison->القمامة</li>
+    <li>poison->التلوث</li>
+    <li>poison->التعفن</li>
+    <li>poison->النفايات</li>
+    <li>poison->الآفة</li>
  </WasterUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -492,25 +492,25 @@
     <li>placeNameCore->[SylY][SylY][SylY]</li>
     <li>placeNameCore->[SylY][placeEnd]</li>
     <li>placeNameCore->[SylY][SylY][placeEnd]</li>
-    <li>placeEnd->esh</li>
-    <li>placeEnd->sytt</li>
-    <li>placeEnd->wytt</li>
-    <li>placeEnd->wott</li>
-    <li>placeEnd->wosh</li>
-    <li>placeEnd->barg</li>
-    <li>placeEnd->berg</li>
-    <li>placeEnd->bersh</li>
-    <li>placeEnd->bug</li>
-    <li>placeEnd->bytt</li>
-    <li>placeEnd->byon</li>
-    <li>placeEnd->den</li>
-    <li>placeEnd->gen</li>
-    <li>placeEnd->yul</li>
-    <li>placeEnd->ya</li>
-    <li>placeEnd->ysh</li>
-    <li>placeEnd->ytt</li>
-    <li>placeEnd->ys</li>
-    <li>placeEnd->yn</li>
+    <li>placeEnd->ايش</li>
+    <li>placeEnd->سيت</li>
+    <li>placeEnd->ويت</li>
+    <li>placeEnd->وت</li>
+    <li>placeEnd->وش</li>
+    <li>placeEnd->بارگ</li>
+    <li>placeEnd->بيرگ</li>
+    <li>placeEnd->بيرش</li>
+    <li>placeEnd->بوگ</li>
+    <li>placeEnd->بيت</li>
+    <li>placeEnd->بيون</li>
+    <li>placeEnd->دن</li>
+    <li>placeEnd->گن</li>
+    <li>placeEnd->يول</li>
+    <li>placeEnd->يا</li>
+    <li>placeEnd->يش</li>
+    <li>placeEnd->يت</li>
+    <li>placeEnd->يس</li>
+    <li>placeEnd->ين</li>
  </YttakinUtility.rulePack.rulesStrings>
   
 </LanguageData>

@@ -11,9 +11,9 @@
   -->
   <SanguophageMeetingHost.questContentRules.rulesStrings>
     <li>sanguophagesArriveLetterLabel->وصل السانغوفاج</li>
-    <li>sanguophagesArriveLetterText->يصل [sanguophageCount] سانغوفاج إلى [map_definite] من اتجاهات مختلفة. سيجتمعون ويناقشون في المستعمرة.</li>
+    <li>sanguophagesArriveLetterText->يصل [sanguophageCount] من السانغوفاج إلى [map_definite] من اتجاهات مختلفة. سيلتقون ويجرون نقاشهم في المستعمرة.</li>
     <li>successLetterLabel->الاجتماع مكتمل</li>
-    <li>successLetterText->لقد أكمل السانغوفاج اجتماعهم وسيعطونكم مكافأتكم الآن.</li>
+    <li>successLetterText->أنهى السانغوفاج اجتماعهم وسيمنحونك مكافأتك الآن.</li>
     <li>raidArrivedLetterLabel->صائدو السانغوفاج</li>
     <li>raidArrivedLetterText->مجموعة من صائدي السانغوفاج من [enemyFaction_name] يقتربون!\n\nسيهاجمون السانغوفاج المجتمعين وكذلك من استضافوهم.</li>
  </SanguophageMeetingHost.questContentRules.rulesStrings>
@@ -24,10 +24,10 @@
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
   <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
-    <li>questDescription->يبحث سانغوفاج يدعى [asker_nameDef] عن مكان آمن للقاء [sanguophageCountMinusOne] [sanguophageSingOrPlural] آخرين حيث لا يمكن تعقبهم. يطلب قائدهم [asker_nameDef] منكم استضافة الاجتماع في [map_definite].\n\nإذا قبلت، سيصل [sanguophageCount] سانغوفاج إلى [map_definite] من اتجاهات مختلفة. سيقضون عدة ساعات في مناقشة قضاياهم السرية قبل المغادرة. يعدون بتقديم مكافأتكم قبل رحيلهم.\n\nيمكنك خيانة السانغوفاج ومهاجمتهم. يمكن إجبار السانغوفاج المغلوب على أمره على تحويل أحد المستعمرين لديك إلى سانغوفاج.\n\n[sanguophageInfo]</li>
+    <li>questDescription->يبحث سانغوفاج يُدعى [asker_nameDef] عن مكان آمن للقاء [sanguophageCountMinusOne] [sanguophageSingOrPlural] غيره حيث لا يمكن تعقبهم. ويطلب قائدهم [asker_nameDef] منك استضافة الاجتماع في [map_definite].\n\nإذا قبلت، سيصل [sanguophageCount] من السانغوفاج إلى [map_definite] من اتجاهات مختلفة. سيقضون عدة ساعات في مناقشة شؤونهم السرية قبل المغادرة، ويعدون بمنحك مكافأتك قبل رحيلهم.\n\nيمكنك خيانة السانغوفاج ومهاجمتهم. ويمكن إجبار السانغوفاج الساقط أرضاً على تحويل أحد مستعمريك إلى سانغوفاج.\n\n[sanguophageInfo]</li>
     <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->سانغوفاج</li>
     <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->سانغوفاج</li>
-    <li>sanguophageInfo->(*رمادي)حول السانغوفاج: السانغوفاج هم بشر خارقون لا يشيخون ولا يموتون مدعومون بآركايتات من صنع الأركوتك في مجرى الدم. إنهم جميلون وأذكياء للغاية. يمكنهم شفاء أي إصابة، ولا يعانون أبداً من الأمراض أو السموم. في القتال، يمكنهم إطلاق أشواك مميتة وشفاء الأصدقاء المصابين. الثمن هو أن السانغوفاج يجب أن يستهلكوا الهيموجين المستخرج من الدم البشري للبقاء على قيد الحياة، ويجب عليهم بشكل دوري الدخول في سبات الموت لفترات طويلة. يتم تدميرهم بسهولة بالنار، ويبطئهم الضوء فوق البنفسجي.(/رمادي)</li>
+    <li>sanguophageInfo->(*Gray)حول السانغوفاج: السانغوفاج بشر خارقون خالدون لا يشيخون، تعمل أجسادهم بقوة آركايتات صنعها الآركوتيك في مجرى الدم. إنهم جميلون وفائقو الذكاء. يستطيعون شفاء أي إصابة، ولا يعانون أبداً من الأمراض أو السموم. وفي القتال يمكنهم إطلاق أشواك مميتة وشفاء رفاقهم المصابين. أما الثمن فهو أن على السانغوفاج استهلاك الهيموجين المستخلص من الدم البشري ليبقوا على قيد الحياة، كما يتوجب عليهم الدخول دورياً في سبات الموت لفترات طويلة. ويسهل تدميرهم بالنار، ويبطئهم الضوء فوق البنفسجي.(/Gray)</li>
  </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[meetAdjective] [meetNoun]</li>
@@ -51,23 +51,23 @@
     <li>meetNoun->parley</li>
   -->
   <SanguophageMeetingHost.questNameRules.rulesStrings>
-    <li>questName->[meetAdjective] [meetNoun]</li>
-    <li>meetAdjective->سانغوفاج</li>
-    <li>meetAdjective->متعطش للدماء</li>
-    <li>meetAdjective->دم</li>
-    <li>meetAdjective->ظل</li>
-    <li>meetAdjective->مظلم</li>
-    <li>meetAdjective->قرمزي</li>
-    <li>meetAdjective->أحمر</li>
-    <li>meetAdjective->جرب</li>
-    <li>meetAdjective->دموي</li>
-    <li>meetAdjective->دموي</li>
+    <li>questName->[meetNoun] [meetAdjective]</li>
+    <li>meetAdjective->السانغوفاج</li>
+    <li>meetAdjective->شهوة الدم</li>
+    <li>meetAdjective->الدم</li>
+    <li>meetAdjective->الظل</li>
+    <li>meetAdjective->الظلام</li>
+    <li>meetAdjective->القرمز</li>
+    <li>meetAdjective->الأحمر</li>
+    <li>meetAdjective->قشرة الجرح</li>
+    <li>meetAdjective->الدموية</li>
+    <li>meetAdjective->القاني</li>
     <li>meetNoun->اجتماع</li>
-    <li>meetNoun->استضافة</li>
+    <li>meetNoun->حشد</li>
     <li>meetNoun->تجمع</li>
     <li>meetNoun->لقاء</li>
     <li>meetNoun->مجلس</li>
-    <li>meetNoun->اجتماع سري</li>
+    <li>meetNoun->مجمع</li>
     <li>meetNoun->مؤتمر</li>
     <li>meetNoun->مفاوضة</li>
  </SanguophageMeetingHost.questNameRules.rulesStrings>

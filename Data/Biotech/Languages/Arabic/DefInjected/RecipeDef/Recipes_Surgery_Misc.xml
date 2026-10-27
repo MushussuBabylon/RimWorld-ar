@@ -4,21 +4,21 @@
   <!-- EN: blood transfusion -->
   <BloodTransfusion.label>نقل الدم</BloodTransfusion.label>
   <!-- EN: Use hemogen packs to reduce the effects of blood loss. Each hemogen pack used recovers 35% blood loss. The operation will also restore hemogen to hemogenic individuals. -->
-  <BloodTransfusion.description>استخدام حقائب الهيموجين لتقليل آثار فقدان الدم. كل حقيبة هيموجين تُستخدم تستعيد 35% من فقدان الدم. ستعيد العملية أيضاً الهيموجين للأفراد مولديه.</BloodTransfusion.description>
+  <BloodTransfusion.description>استخدام حقائب الهيموجين لتخفيف آثار فقدان الدم. تعوّض كل حقيبة هيموجين مستخدمة 35% من فقدان الدم. كما ستعيد العملية الهيموجين إلى الأفراد الهيموجينيين.</BloodTransfusion.description>
   <!-- EN: performing blood transfusion on TargetA. -->
   <BloodTransfusion.jobString>إجراء نقل دم على TargetA.</BloodTransfusion.jobString>
   
   <!-- EN: extract hemogen pack -->
   <ExtractHemogenPack.label>استخراج حقيبة هيموجين</ExtractHemogenPack.label>
   <!-- EN: Extract a hemogen pack from the target. The operation will fail to produce a hemogen pack if the target does not have enough blood.\n\nHemogen packs can be administered to others to reduce blood loss or to satiate those who feed on blood. -->
-  <ExtractHemogenPack.description>استخراج حقيبة هيموجين من الهدف. ستفشل العملية في إنتاج حقيبة إذا لم يمتلك الهدف ما يكفي من الدم.\n\nيمكن إعطاء حقائب الهيموجين للآخرين لتقليل فقدان الدم أو لإشباع أولئك الذين يتغذون على الدم.</ExtractHemogenPack.description>
+  <ExtractHemogenPack.description>استخراج حقيبة هيموجين من الهدف. ستفشل العملية في إنتاج حقيبة هيموجين إذا لم يكن لدى الهدف ما يكفي من الدم.\n\nيمكن إعطاء حقائب الهيموجين للآخرين لتخفيف فقدان الدم أو لإشباع المتغذين على الدم.</ExtractHemogenPack.description>
   <!-- EN: Extracting hemogen pack. -->
   <ExtractHemogenPack.jobString>استخراج حقيبة هيموجين.</ExtractHemogenPack.jobString>
   
   <!-- EN: extract ovum for IVF -->
   <ExtractOvum.label>استخراج بويضة للتلقيح الاصطناعي</ExtractOvum.label>
   <!-- EN: Extract an ovum into a storage capsule. It can then be fertilized by a man, and finally implanted into a mother to start a pregnancy. -->
-  <ExtractOvum.description>استخراج بويضة إلى كبسولة تخزين. يمكن بعد ذلك تخصيبها من رجل، وزرعها أخيراً في أم لبدء الحمل.</ExtractOvum.description>
+  <ExtractOvum.description>استخراج بويضة إلى كبسولة تخزين. يمكن بعد ذلك تخصيبها بواسطة رجل، ثم زرعها أخيراً في أم لبدء الحمل.</ExtractOvum.description>
   <!-- EN: extracting ovum from TargetA. -->
   <ExtractOvum.jobString>استخراج بويضة من TargetA.</ExtractOvum.jobString>
   
@@ -30,34 +30,34 @@
   <ImplantEmbryo.jobString>زرع جنين في TargetA.</ImplantEmbryo.jobString>
   
   <!-- EN: implant IUD -->
-  <ImplantIUD.label>زرع لولب</ImplantIUD.label>
+  <ImplantIUD.label>زرع لولب رحمي</ImplantIUD.label>
   <!-- EN: Implant a small metal device in the uterus to prevent pregnancies. It can later be removed, but there is a small chance of leaving the patient permanently sterile. This surgery terminates pregnancies in the first trimester. -->
-  <ImplantIUD.description>زرع جهاز معدني صغير في الرحم لمنع الحمل. يمكن إزالته لاحقاً، لكن هناك فرصة ضئيلة لترك المريضة عقيمة بشكل دائم. تنهي هذه الجراحة الحمل في الثلث الأول.</ImplantIUD.description>
+  <ImplantIUD.description>زرع جهاز معدني صغير في الرحم لمنع الحمل. يمكن إزالته لاحقاً، لكن ثمة احتمالاً ضئيلاً أن تبقى المريضة عقيمة إلى الأبد. تُنهي هذه الجراحة أي حمل في الثلث الأول.</ImplantIUD.description>
   <!-- EN: implanting a IUD in TargetA. -->
-  <ImplantIUD.jobString>زرع لولب في TargetA.</ImplantIUD.jobString>
+  <ImplantIUD.jobString>زرع لولب رحمي في TargetA.</ImplantIUD.jobString>
   <!-- EN: {0} has successfully implanted an IUD in {1}. -->
-  <ImplantIUD.successfullyRemovedHediffMessage>نجح {0} في زرع لولب في {1}.</ImplantIUD.successfullyRemovedHediffMessage>
+  <ImplantIUD.successfullyRemovedHediffMessage>نجح {0} في زرع لولب رحمي في {1}.</ImplantIUD.successfullyRemovedHediffMessage>
   
   <!-- EN: implant xenogerm -->
   <ImplantXenogerm.label>زرع زينوجرم</ImplantXenogerm.label>
   <!-- EN: Implant a xenogerm into a patient. This replaces any previous xenogerm they may have had. -->
-  <ImplantXenogerm.description>زرع زينوجرم في مريض. هذا يستبدل أي زينوجرم سابق ربما كان لديه.</ImplantXenogerm.description>
+  <ImplantXenogerm.description>زرع زينوجرم في المريض. يحل هذا الزينوجرم محل أي زينوجرم سابق كان لديه.</ImplantXenogerm.description>
   <!-- EN: Implanting xenogerm. -->
   <ImplantXenogerm.jobString>زرع زينوجرم.</ImplantXenogerm.jobString>
   
   <!-- EN: remove IUD -->
-  <RemoveIUD.label>إزالة لولب</RemoveIUD.label>
+  <RemoveIUD.label>إزالة لولب رحمي</RemoveIUD.label>
   <!-- EN: Remove an implanted intrauterine device to allow normal pregnancy. If the surgery goes wrong, the patient will be rendered permanently sterile. -->
-  <RemoveIUD.description>إزالة جهاز داخل الرحم مزروع للسماح بالحمل الطبيعي. إذا سارت الجراحة بشكل خاطئ، ستصبح المريضة عقيماً بشكل دائم.</RemoveIUD.description>
+  <RemoveIUD.description>إزالة لولب رحمي مزروع للسماح بحمل طبيعي. إذا حدث خطأ أثناء الجراحة، فستصبح المريضة عقيمة إلى الأبد.</RemoveIUD.description>
   <!-- EN: removing IUD from TargetA. -->
-  <RemoveIUD.jobString>إزالة لولب من TargetA.</RemoveIUD.jobString>
+  <RemoveIUD.jobString>إزالة لولب رحمي من TargetA.</RemoveIUD.jobString>
   <!-- EN: {0} has successfully removed {1}'s IUD. -->
-  <RemoveIUD.successfullyRemovedHediffMessage>نجح {0} في إزالة لولب {1}.</RemoveIUD.successfullyRemovedHediffMessage>
+  <RemoveIUD.successfullyRemovedHediffMessage>نجح {0} في إزالة لولب {1} الرحمي.</RemoveIUD.successfullyRemovedHediffMessage>
   
   <!-- EN: reverse vasectomy -->
   <ReverseVasectomy.label>عكس قطع القناة المنوية</ReverseVasectomy.label>
   <!-- EN: Attempt to reverse the vasectomy and make a man capable of fathering children again. Most vasectomy reversals succeed, but if the surgery goes wrong the man will be left permanently sterile. -->
-  <ReverseVasectomy.description>محاولة عكس قطع القناة المنوية وجعل الرجل قادراً على إنجاب الأطفال مرة أخرى. تنجح معظم عمليات عكس القطع، لكن إذا سارت الجراحة بشكل خاطئ سيصبح الرجل عقيماً بشكل دائم.</ReverseVasectomy.description>
+  <ReverseVasectomy.description>محاولة عكس عملية قطع القناة المنوية لتمكين الرجل من إنجاب الأطفال مجدداً. تنجح معظم عمليات العكس، لكن إذا حدث خطأ أثناء الجراحة فسيبقى الرجل عقيماً إلى الأبد.</ReverseVasectomy.description>
   <!-- EN: performing a vasectomy reversal on TargetA. -->
   <ReverseVasectomy.jobString>إجراء عكس قطع القناة المنوية على TargetA.</ReverseVasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy reversal on {1}. -->
@@ -71,18 +71,18 @@
   <TerminatePregnancy.jobString>إنهاء حمل TargetA.</TerminatePregnancy.jobString>
   
   <!-- EN: perform tubal ligation -->
-  <TubalLigation.label>إجراء ربط البوق</TubalLigation.label>
+  <TubalLigation.label>إجراء ربط قناتي فالوب</TubalLigation.label>
   <!-- EN: Permanently render a patient sterile and unable to reproduce. -->
-  <TubalLigation.description>جعل مريضة عقيماً بشكل دائم وغير قادرة على الإنجاب.</TubalLigation.description>
+  <TubalLigation.description>جعل المريضة عقيمة وغير قادرة على الإنجاب بشكل دائم.</TubalLigation.description>
   <!-- EN: performing tubal ligation on TargetA. -->
-  <TubalLigation.jobString>إجراء ربط البوق على TargetA.</TubalLigation.jobString>
+  <TubalLigation.jobString>إجراء ربط قناتي فالوب على TargetA.</TubalLigation.jobString>
   <!-- EN: {0} has successfully performed tubal ligation on {1}. -->
-  <TubalLigation.successfullyRemovedHediffMessage>نجح {0} في إجراء ربط البوق على {1}.</TubalLigation.successfullyRemovedHediffMessage>
+  <TubalLigation.successfullyRemovedHediffMessage>نجح {0} في إجراء ربط قناتي فالوب على {1}.</TubalLigation.successfullyRemovedHediffMessage>
   
   <!-- EN: perform vasectomy -->
   <Vasectomy.label>إجراء قطع القناة المنوية</Vasectomy.label>
   <!-- EN: Cut the vas deferens to render the patient unable to reproduce. If the surgery goes wrong the patient will be left permanently sterile. -->
-  <Vasectomy.description>قطع الأسهر لجعل المريض غير قادر على الإنجاب. إذا سارت الجراحة بشكل خاطئ سيصاب المريض بعقم دائم.</Vasectomy.description>
+  <Vasectomy.description>قطع الأسهر لجعل المريض غير قادر على الإنجاب. إذا حدث خطأ أثناء الجراحة، فسيصاب المريض بعقم دائم.</Vasectomy.description>
   <!-- EN: performing a vasectomy on TargetA. -->
   <Vasectomy.jobString>إجراء قطع القناة المنوية على TargetA.</Vasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy on {1}. -->

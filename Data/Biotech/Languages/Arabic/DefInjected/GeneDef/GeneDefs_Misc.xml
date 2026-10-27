@@ -2,14 +2,14 @@
 <LanguageData>
   
   <!-- EN: indoor dweller -->
-  <CaveDweller.label>ساكن الداخل</CaveDweller.label>
+  <CaveDweller.label>ساكن الأماكن المغلقة</CaveDweller.label>
   <!-- EN: Carriers of this gene have no need for the outdoors and will never feel cooped up no matter how long they stay inside. -->
-  <CaveDweller.description>حاملو هذه المورثة لا يحتاجون للخروج مطلقاً، ولا يشعرون أبداً بالضيق مهما طالت مدة بقائهم في الداخل.</CaveDweller.description>
+  <CaveDweller.description>لا يحتاج حاملو هذه المورثة إلى الخروج إلى الهواء الطلق، ولن يشعروا بالحبس مهما طالت مدة بقائهم في الداخل.</CaveDweller.description>
   
   <!-- EN: dark vision -->
   <DarkVision.label>رؤية في الظلام</DarkVision.label>
   <!-- EN: Carriers of this gene see well in low light and are unaffected by mood penalties related to darkness. They have a reflective layer behind the retina that amplifies their ability to see in the dark. -->
-  <DarkVision.description>يرى حاملو هذه المورثة جيداً في الإضاءة المنخفضة ولا يتأثرون بعقوبات المزاج المرتبطة بالظلام. لديهم طبقة عاكسة خلف الشبكية تزيد من قدرتهم على الرؤية في الظلام.</DarkVision.description>
+  <DarkVision.description>يرى حاملو هذه المورثة جيداً في الإضاءة المنخفضة، ولا يتأثر مزاجهم سلباً بالظلام. ولديهم طبقة عاكسة خلف الشبكية تضخّم قدرتهم على الرؤية في العتمة.</DarkVision.description>
   <!-- EN: dark -->
   <DarkVision.symbolPack.prefixSymbols.0.symbol>ظلام</DarkVision.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: night -->
@@ -30,7 +30,7 @@
   <!-- EN: fire resistant -->
   <FireResistant.label>مقاومة الحريق</FireResistant.label>
   <!-- EN: Carriers of this gene have special fast-acting sweat glands and heat-resistant skin. They only take 25% of the normal damage from fire. The chance of them catching on fire is also drastically reduced. -->
-  <FireResistant.description>يمتلك حاملو هذه المورثة غدداً عرقية سريعة المفعول وجلداً مقاوماً للحرارة. يتلقون 25% فقط من الضرر الطبيعي من النار، كما تقل احتمالية اشتعالهم بشكل كبير.</FireResistant.description>
+  <FireResistant.description>يمتلك حاملو هذه المورثة غدداً عرقية خاصة سريعة المفعول وجلداً مقاوماً للحرارة، فلا يتلقون سوى 25% من الضرر الطبيعي الناتج عن النار. كما تنخفض احتمالية اشتعالهم انخفاضاً كبيراً.</FireResistant.description>
   <!-- EN: fireproof -->
   <FireResistant.labelShortAdj>مقاوم للنار</FireResistant.labelShortAdj>
   <!-- EN: foam -->
@@ -48,56 +48,56 @@
   <!-- EN: major cell instability -->
   <Instability_Major.label>عدم استقرار خلوي كبير</Instability_Major.label>
   <!-- EN: Carriers of this gene need much less metabolic energy to stay alive, at the cost of greatly-reduced stability in their cell-replication machinery. -->
-  <Instability_Major.description>يحتاج حاملو هذه المورثة إلى طاقة أيض أقل بكثير للبقاء على قيد الحياة، مقابل انخفاض كبير في استقرار آلية تكاثر خلاياهم.</Instability_Major.description>
+  <Instability_Major.description>يحتاج حاملو هذه المورثة إلى طاقة أيضية أقل بكثير للبقاء على قيد الحياة، لكن على حساب انخفاض كبير في استقرار آلية تضاعف خلاياهم.</Instability_Major.description>
   
   <!-- EN: mild cell instability -->
   <Instability_Mild.label>عدم استقرار خلوي خفيف</Instability_Mild.label>
   <!-- EN: Carriers of this gene need less metabolic energy to stay alive, at the cost of reduced stability in their cell-replication machinery. -->
-  <Instability_Mild.description>يحتاج حاملو هذه المورثة إلى طاقة أيض أقل للبقاء على قيد الحياة، مقابل انخفاض في استقرار آلية تكاثر خلاياهم.</Instability_Mild.description>
+  <Instability_Mild.description>يحتاج حاملو هذه المورثة إلى طاقة أيضية أقل للبقاء على قيد الحياة، لكن على حساب انخفاض في استقرار آلية تضاعف خلاياهم.</Instability_Mild.description>
   
   <!-- EN: kill thirst -->
-  <KillThirst.label>شهوة القتل</KillThirst.label>
+  <KillThirst.label>التعطش للقتل</KillThirst.label>
   <!-- EN: Carriers of this gene lust for the feeling of ending another's life. They will become irritated if they go for too long without killing someone in close combat. -->
-  <KillThirst.description>يتوق حاملو هذه المورثة لشعور إنهاء حياة الآخرين. سيصابون بالانزعاج إذا طالت عليهم المدة دون قتل شخص ما في قتال قريب.</KillThirst.description>
+  <KillThirst.description>يتوق حاملو هذه المورثة إلى الإحساس بإنهاء حياة الآخرين. وسينتابهم الانزعاج إذا مرّت عليهم مدة طويلة دون أن يقتلوا أحداً في قتال قريب.</KillThirst.description>
   <!-- EN: kill-thirsty -->
   <KillThirst.labelShortAdj>متعطش للقتل</KillThirst.labelShortAdj>
   <!-- EN: murder -->
-  <KillThirst.symbolPack.prefixSymbols.0.symbol>قتل</KillThirst.symbolPack.prefixSymbols.0.symbol>
+  <KillThirst.symbolPack.prefixSymbols.0.symbol>اغتيال</KillThirst.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: death -->
   <KillThirst.symbolPack.prefixSymbols.1.symbol>موت</KillThirst.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: kill -->
   <KillThirst.symbolPack.prefixSymbols.2.symbol>قتل</KillThirst.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: slay -->
-  <KillThirst.symbolPack.prefixSymbols.3.symbol>ذبح</KillThirst.symbolPack.prefixSymbols.3.symbol>
+  <KillThirst.symbolPack.prefixSymbols.3.symbol>إهلاك</KillThirst.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: rage -->
   <KillThirst.symbolPack.prefixSymbols.4.symbol>غضب</KillThirst.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: hate -->
   <KillThirst.symbolPack.prefixSymbols.5.symbol>كره</KillThirst.symbolPack.prefixSymbols.5.symbol>
   <!-- EN: snuff -->
-  <KillThirst.symbolPack.prefixSymbols.6.symbol>خنق</KillThirst.symbolPack.prefixSymbols.6.symbol>
+  <KillThirst.symbolPack.prefixSymbols.6.symbol>إخماد</KillThirst.symbolPack.prefixSymbols.6.symbol>
   <!-- EN: vore -->
   <KillThirst.symbolPack.suffixSymbols.0.symbol>آكل</KillThirst.symbolPack.suffixSymbols.0.symbol>
   <!-- EN: killer -->
   <KillThirst.symbolPack.suffixSymbols.1.symbol>قاتل</KillThirst.symbolPack.suffixSymbols.1.symbol>
   <!-- EN: slayer -->
-  <KillThirst.symbolPack.suffixSymbols.2.symbol>ذابح</KillThirst.symbolPack.suffixSymbols.2.symbol>
+  <KillThirst.symbolPack.suffixSymbols.2.symbol>مهلك</KillThirst.symbolPack.suffixSymbols.2.symbol>
   
   <!-- EN: kind instinct -->
-  <KindInstinct.label>غريزة العطف</KindInstinct.label>
+  <KindInstinct.label>غريزة اللطف</KindInstinct.label>
   <!-- EN: Carriers of this gene are high in trait agreeableness and are very conscientious. They rarely insult others and will sometimes offer kind words to brighten the moods of those around them. They also never judge people by their appearance. -->
-  <KindInstinct.description>يمتلك حاملو هذه المورثة قابلية عالية للانسجام ووعياً شديداً. نادراً ما يهينون الآخرين ويقدمون أحياناً كلمات لطيفة لتحسين مزاج من حولهم. كما أنهم لا يحكمون أبداً على الناس من مظهرهم.</KindInstinct.description>
+  <KindInstinct.description>يتميز حاملو هذه المورثة بدرجة عالية من سمة الطيبة وبيقظة ضمير شديدة. نادراً ما يهينون الآخرين، وقد يقدمون أحياناً كلمات لطيفة لتحسين مزاج من حولهم. كما أنهم لا يحكمون على الناس من مظهرهم أبداً.</KindInstinct.description>
   <!-- EN: kind -->
   <KindInstinct.labelShortAdj>لطيف</KindInstinct.labelShortAdj>
   <!-- EN: kind -->
   <KindInstinct.symbolPack.prefixSymbols.0.symbol>لطيف</KindInstinct.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: nice -->
-  <KindInstinct.symbolPack.prefixSymbols.1.symbol>لطيف</KindInstinct.symbolPack.prefixSymbols.1.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.1.symbol>حسن</KindInstinct.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: gentle -->
-  <KindInstinct.symbolPack.prefixSymbols.2.symbol>لطيف</KindInstinct.symbolPack.prefixSymbols.2.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.2.symbol>رقيق</KindInstinct.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: ami -->
   <KindInstinct.symbolPack.prefixSymbols.3.symbol>ودود</KindInstinct.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: cool -->
-  <KindInstinct.symbolPack.prefixSymbols.4.symbol>بارد</KindInstinct.symbolPack.prefixSymbols.4.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.4.symbol>رائق</KindInstinct.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: mellow -->
   <KindInstinct.symbolPack.prefixSymbols.5.symbol>هادئ</KindInstinct.symbolPack.prefixSymbols.5.symbol>
   <!-- EN: soft -->
@@ -108,7 +108,7 @@
   <KindInstinct.symbolPack.prefixSymbols.8.symbol>إرضاء</KindInstinct.symbolPack.prefixSymbols.8.symbol>
   
   <!-- EN: naked speed -->
-  <NakedSpeed.label>سرعة بدون ملابس</NakedSpeed.label>
+  <NakedSpeed.label>سرعة العري</NakedSpeed.label>
   <!-- EN: Carriers of this gene move slower while clothed, and faster while naked. -->
   <NakedSpeed.description>يتحرك حاملو هذه المورثة أبطأ عند ارتداء الملابس، وأسرع عندما يكونون عراة.</NakedSpeed.description>
   
@@ -119,38 +119,38 @@
   <!-- EN: blind -->
   <Nearsighted.symbolPack.prefixSymbols.0.symbol>أعمى</Nearsighted.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: blur -->
-  <Nearsighted.symbolPack.prefixSymbols.1.symbol>ضباب</Nearsighted.symbolPack.prefixSymbols.1.symbol>
+  <Nearsighted.symbolPack.prefixSymbols.1.symbol>غشاوة</Nearsighted.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: squint -->
   <Nearsighted.symbolPack.prefixSymbols.2.symbol>حول</Nearsighted.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: peek -->
-  <Nearsighted.symbolPack.prefixSymbols.3.symbol>ختلس</Nearsighted.symbolPack.prefixSymbols.3.symbol>
+  <Nearsighted.symbolPack.prefixSymbols.3.symbol>تلصص</Nearsighted.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: cross -->
   <Nearsighted.symbolPack.prefixSymbols.4.symbol>حول</Nearsighted.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: sighter -->
   <Nearsighted.symbolPack.suffixSymbols.0.symbol>رائي</Nearsighted.symbolPack.suffixSymbols.0.symbol>
   <!-- EN: peeker -->
-  <Nearsighted.symbolPack.suffixSymbols.1.symbol>مختلس</Nearsighted.symbolPack.suffixSymbols.1.symbol>
+  <Nearsighted.symbolPack.suffixSymbols.1.symbol>متلصص</Nearsighted.symbolPack.suffixSymbols.1.symbol>
   
   <!-- EN: pollution stimulus -->
   <PollutionRush.label>حافز التلوث</PollutionRush.label>
   <!-- EN: Carriers of this gene get a chemical rush from being exposed to pollution. This makes them move faster and helps them think clearer. A similar gene is found in combat-engineered mega-insects. -->
-  <PollutionRush.description>يشعر حاملو هذه المورثة بنشوة كيميائية عند التعرض للتلوث. هذا يجعلهم يتحركون أسرع ويفكرون بشكل أوضح. يوجد مورثة مماثل في الحشرات الضخمة المهندسة قتالياً.</PollutionRush.description>
+  <PollutionRush.description>يشعر حاملو هذه المورثة بنشوة كيميائية عند تعرضهم للتلوث، فتزداد سرعة حركتهم ويصفو تفكيرهم. وتوجد مورثة مماثلة في الحشرات العملاقة المهندسة للقتال.</PollutionRush.description>
   <!-- EN: Gain stat bonuses when exposed to pollution. -->
-  <PollutionRush.customEffectDescriptions.0>اكتساب مكافآت إحصائية عند التعرض للتلوث.</PollutionRush.customEffectDescriptions.0>
+  <PollutionRush.customEffectDescriptions.0>يكتسب مكافآت إحصائية عند التعرض للتلوث.</PollutionRush.customEffectDescriptions.0>
   
   <!-- EN: psychic bonding -->
-  <PsychicBonding.label>الترابط النفسي</PsychicBonding.label>
+  <PsychicBonding.label>ترابط نفسي</PsychicBonding.label>
   <!-- EN: Carriers of this gene have a special neural organ that makes them psychically bond with a lover for life. As long as the lovers are together, they will be happy. If they are physically separated, they will be disturbed by the distance. If one dies, the other's mind will be badly disrupted. -->
-  <PsychicBonding.description>يمتلك حاملو هذه المورثة عضواً عصبياً خاصاً يجعلهم يرتبطون نفسياً بحبيب مدى الحياة. طالما الحبيبان معاً، سيكونان سعيدين. إذا انفصلا جسدياً، سينزعجان من المسافة. إذا مات أحدهما، سيضطرب عقل الآخر بشدة.</PsychicBonding.description>
+  <PsychicBonding.description>يمتلك حاملو هذه المورثة عضواً عصبياً خاصاً يربطهم نفسياً بحبيب واحد مدى الحياة. فما دام الحبيبان معاً فهما سعيدان، وإن افترقا جسدياً أزعجتهما المسافة، وإن مات أحدهما اضطرب عقل الآخر اضطراباً شديداً.</PsychicBonding.description>
   <!-- EN: Romance attempts always succeed. -->
-  <PsychicBonding.customEffectDescriptions.0>محاولات الرومانسية تنجح دائماً.</PsychicBonding.customEffectDescriptions.0>
+  <PsychicBonding.customEffectDescriptions.0>تنجح المحاولات الرومانسية دائماً.</PsychicBonding.customEffectDescriptions.0>
   <!-- EN: Gains psychic bond with first romantic partner. -->
   <PsychicBonding.customEffectDescriptions.1>يكتسب رابطة نفسية مع أول شريك رومانسي.</PsychicBonding.customEffectDescriptions.1>
   
   <!-- EN: robust digestion -->
   <RobustDigestion.label>هضم قوي</RobustDigestion.label>
   <!-- EN: Carriers of this gene grow a multi-fold stomach, allowing them to digest raw foods more efficiently than baseline humans. In general, they get the same nutrition from raw food as from if it is cooked. They also don't mind the taste of raw food at all. -->
-  <RobustDigestion.description>ينمو لدى حاملي هذه المورثة معدة متعددة الطيات، مما يسمح لهم بهضم الأطعمة النيئة بكفاءة أكبر من البشر الأساسيين. عموماً، يحصلون على نفس التغذية من الطعام النيء كما لو كان مطهواً. كما أنهم لا ينزعجون أبداً من طعم الطعام النيء.</RobustDigestion.description>
+  <RobustDigestion.description>تنمو لدى حاملي هذه المورثة معدة متعددة الطيات تتيح لهم هضم الأطعمة النيئة بكفاءة تفوق كفاءة البشري الأساسي. وعموماً يحصلون من الطعام النيء على التغذية نفسها التي يحصلون عليها لو كان مطهواً، ولا يزعجهم مذاقه إطلاقاً.</RobustDigestion.description>
   <!-- EN: eat -->
   <RobustDigestion.symbolPack.prefixSymbols.0.symbol>أكل</RobustDigestion.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: raw -->
@@ -178,12 +178,12 @@
   <!-- EN: muncher -->
   <RobustDigestion.symbolPack.wholeNameSymbols.1.symbol>ماضغ</RobustDigestion.symbolPack.wholeNameSymbols.1.symbol>
   <!-- EN: grubber -->
-  <RobustDigestion.symbolPack.wholeNameSymbols.2.symbol>نباش</RobustDigestion.symbolPack.wholeNameSymbols.2.symbol>
+  <RobustDigestion.symbolPack.wholeNameSymbols.2.symbol>ملتهم</RobustDigestion.symbolPack.wholeNameSymbols.2.symbol>
   
   <!-- EN: strong stomach -->
   <StrongStomach.label>معدة قوية</StrongStomach.label>
   <!-- EN: Carriers of this gene have an extra toxin-filtering organ in their stomach and will never suffer from food poisoning even after eating rotten food. -->
-  <StrongStomach.description>يمتلك حاملو هذه المورثة عضواً إضافياً لتنقية السموم في معدتهم، ولا يعانون أبداً من التسمم الغذائي حتى بعد تناول الطعام المتعفن.</StrongStomach.description>
+  <StrongStomach.description>يمتلك حاملو هذه المورثة عضواً إضافياً في معدتهم يرشّح السموم، فلا يعانون أبداً من التسمم الغذائي حتى بعد تناول الطعام المتعفن.</StrongStomach.description>
   <!-- EN: dura -->
   <StrongStomach.symbolPack.prefixSymbols.0.symbol>صلب</StrongStomach.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: eat -->
@@ -198,16 +198,16 @@
   <!-- EN: unstoppable -->
   <Unstoppable.label>لا يمكن إيقافه</Unstoppable.label>
   <!-- EN: Carriers of this gene are not slowed down when taking damage. -->
-  <Unstoppable.description>لا يتباطأ حاملو هذه المورثة عند تلقي الضرر.</Unstoppable.description>
+  <Unstoppable.description>لا يتباطأ حاملو هذه المورثة عند تلقيهم الضرر.</Unstoppable.description>
   
   <!-- EN: violence disabled -->
   <ViolenceDisabled.label>تعطيل العنف</ViolenceDisabled.label>
   <!-- EN: Carriers of this gene are emotionally and mentally incapable of engaging in violence. They are overwhelmingly resistant to and horrified by the idea of hurting another. -->
-  <ViolenceDisabled.description>حاملو هذه المورثة غير قادرين عاطفياً وعقلياً على ممارسة العنف. لديهم مقاومة هائلة لفكرة إيذاء الآخر ويشعرون بالفزع منها.</ViolenceDisabled.description>
+  <ViolenceDisabled.description>حاملو هذه المورثة عاجزون عاطفياً وعقلياً عن ممارسة العنف، إذ يقاومون فكرة إيذاء غيرهم بشدة ساحقة ويفزعون منها.</ViolenceDisabled.description>
   <!-- EN: nonviolent -->
   <ViolenceDisabled.labelShortAdj>غير عنيف</ViolenceDisabled.labelShortAdj>
   <!-- EN: paci -->
-  <ViolenceDisabled.symbolPack.prefixSymbols.0.symbol>باسي</ViolenceDisabled.symbolPack.prefixSymbols.0.symbol>
+  <ViolenceDisabled.symbolPack.prefixSymbols.0.symbol>مسالم</ViolenceDisabled.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: calm -->
   <ViolenceDisabled.symbolPack.prefixSymbols.1.symbol>هادئ</ViolenceDisabled.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: peace -->
@@ -218,8 +218,8 @@
   <ViolenceDisabled.symbolPack.suffixSymbols.0.symbol>حمامة</ViolenceDisabled.symbolPack.suffixSymbols.0.symbol>
   
   <!-- EN: webbed phalanges -->
-  <WebbedPhalanges.label>سلاميات مكففة</WebbedPhalanges.label>
+  <WebbedPhalanges.label>سلاميات غشائية</WebbedPhalanges.label>
   <!-- EN: Carriers of this gene have webbed fingers and toes, allowing them to move faster in water. Webbed fingers slightly reduce fine motor control. -->
-  <WebbedPhalanges.description>يمتلك حاملو هذه المورثة أصابع مكففة في اليدين والقدمين، مما يسمح لهم بالتحرك أسرع في الماء. تقلل الأصابع المكففة قليلاً من التحكم الحركي الدقيق.</WebbedPhalanges.description>
+  <WebbedPhalanges.description>يمتلك حاملو هذه المورثة أصابع في اليدين والقدمين تصل بينها أغشية، مما يتيح لهم التحرك أسرع في الماء. وتقلل الأصابع الغشائية قليلاً من التحكم الحركي الدقيق.</WebbedPhalanges.description>
   
 </LanguageData>

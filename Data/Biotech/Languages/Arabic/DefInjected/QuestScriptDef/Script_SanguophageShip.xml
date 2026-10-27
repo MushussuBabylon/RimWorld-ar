@@ -10,20 +10,20 @@
     <li>assaultBeginLetterText->The hostile sanguophage master and [sanguophage_possessive] thralls have initiated an assault on the colony!</li>
   -->
   <SanguophageShip.questContentRules.rulesStrings>
-    <li>sanguophageShuttleCrashedLetterLabel->مكوك محطم</li>
-    <li>sanguophageShuttleCrashedLetterText->تحطم مكوك يحتوي على سيد سانغوفاج و [thrallCount] من الأتباع في مكان قريب. سيخرجون من المركبة المحطمة ويستعدون للقتال.</li>
+    <li>sanguophageShuttleCrashedLetterLabel->مكوك متحطم</li>
+    <li>sanguophageShuttleCrashedLetterText->تحطم مكوك يحتوي على سيد سانغوفاج و [thrallCount] من الأتباع في مكان قريب. سيخرجون من المركبة المتحطمة ويستعدون للقتال.</li>
     <li>reinforcementsArrivedLetterLabel->تعزيزات الأتباع</li>
-    <li>reinforcementsArrivedLetterText->يصل الأتباع في كبسولات إنزال لتعزيز السانغوفاج المحطم.</li>
+    <li>reinforcementsArrivedLetterText->يصل الأتباع في كبسولات إنزال لتعزيز السانغوفاج الذي تحطمت مركبته.</li>
     <li>assaultBeginLetterLabel->بدأ الهجوم</li>
-    <li>assaultBeginLetterText->لقد بدأ سيد السانغوفاج المعادي وأتباعهـ[sanguophage_possessive] هجوماً على المستعمرة!</li>
+    <li>assaultBeginLetterText->بدأ سيد السانغوفاج المعادي وأتباعـ[sanguophage_possessive] هجوماً على المستعمرة!</li>
  </SanguophageShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have intercepted a distress signal! A hostile shuttle carrying a sanguophage master and [thrallCount] thralls is having trouble with its engines. You can use signals to draw it down to a crash near [map_definite].\n\nOnce the ship has crashed, you can fight the sanguophage and [sanguophage_possessive] minions. If you can capture the master, you can force [sanguophage_objective] to turn one of your colonists into a sanguophage.\n\n[sanguophageInfo]</li>
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
   <SanguophageShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->لقد اعترضت إشارة استغاثة! مكوك معادٍ يحمل سيد سانغوفاج و [thrallCount] من الأتباع يعاني من مشكلة في محركاته. يمكنك استخدام الإشارات لإجباره على الهبوط الاضطراري بالقرب من [map_definite].\n\nبمجرد أن تتحطم السفينة، يمكنك قتال السانغوفاج وأتباعهـ[sanguophage_possessive]. إذا تمكنت من أسر السيد، يمكنك إجبارهـ[sanguophage_objective] على تحويل أحد المستعمرين لديك إلى سانغوفاج.\n\n[sanguophageInfo]</li>
-    <li>sanguophageInfo->(*رمادي)حول السانغوفاج: السانغوفاج هم بشر خارقون لا يشيخون ولا يموتون مدعومون بآركايتات من صنع الأركوتك في مجرى الدم. إنهم جميلون وأذكياء للغاية. يمكنهم شفاء أي إصابة، ولا يعانون أبداً من الأمراض أو السموم. في القتال، يمكنهم إطلاق أشواك مميتة وشفاء الأصدقاء المصابين. الثمن هو أن السانغوفاج يجب أن يستهلكوا الهيموجين المستخرج من الدم البشري للبقاء على قيد الحياة، ويجب عليهم بشكل دوري الدخول في سبات الموت لفترات طويلة. يتم تدميرهم بسهولة بالنار، ويبطئهم الضوء فوق البنفسجي.(/رمادي)</li>
+    <li>questDescription->لقد اعترضت إشارة استغاثة! مكوك معادٍ يحمل سيد سانغوفاج و [thrallCount] من الأتباع يواجه مشكلة في محركاته. يمكنك استخدام الإشارات لاستدراجه إلى التحطم بالقرب من [map_definite].\n\nبمجرد تحطم السفينة، يمكنك قتال السانغوفاج وأعوانـ[sanguophage_possessive]. وإذا تمكنت من أسر السيد، يمكنك إجبار[sanguophage_objective] على تحويل أحد مستعمريك إلى سانغوفاج.\n\n[sanguophageInfo]</li>
+    <li>sanguophageInfo->(*Gray)حول السانغوفاج: السانغوفاج بشر خارقون خالدون لا يشيخون، تعمل أجسادهم بقوة آركايتات صنعها الآركوتيك في مجرى الدم. إنهم جميلون وفائقو الذكاء. يستطيعون شفاء أي إصابة، ولا يعانون أبداً من الأمراض أو السموم. وفي القتال يمكنهم إطلاق أشواك مميتة وشفاء رفاقهم المصابين. أما الثمن فهو أن على السانغوفاج استهلاك الهيموجين المستخلص من الدم البشري ليبقوا على قيد الحياة، كما يتوجب عليهم الدخول دورياً في سبات الموت لفترات طويلة. ويسهل تدميرهم بالنار، ويبطئهم الضوء فوق البنفسجي.(/Gray)</li>
  </SanguophageShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
@@ -45,17 +45,17 @@
     <li>shipNoun->wreck</li>
   -->
   <SanguophageShip.questNameRules.rulesStrings>
-    <li>questName->[shipAdjective] [shipNoun]</li>
-    <li>shipAdjective->سانغوفاج</li>
-    <li>shipAdjective->متعطش للدماء</li>
-    <li>shipAdjective->دم</li>
-    <li>shipAdjective->ظل</li>
-    <li>shipAdjective->مظلم</li>
-    <li>shipAdjective->قرمزي</li>
-    <li>shipAdjective->أحمر</li>
-    <li>shipAdjective->جرب</li>
-    <li>shipAdjective->دموي</li>
-    <li>shipAdjective->دموي</li>
+    <li>questName->[shipNoun] [shipAdjective]</li>
+    <li>shipAdjective->السانغوفاج</li>
+    <li>shipAdjective->شهوة الدم</li>
+    <li>shipAdjective->الدم</li>
+    <li>shipAdjective->الظل</li>
+    <li>shipAdjective->الظلام</li>
+    <li>shipAdjective->القرمز</li>
+    <li>shipAdjective->الأحمر</li>
+    <li>shipAdjective->قشرة الجرح</li>
+    <li>shipAdjective->الدموية</li>
+    <li>shipAdjective->القاني</li>
     <li>shipNoun->سفينة</li>
     <li>shipNoun->مكوك</li>
     <li>shipNoun->مركبة</li>
