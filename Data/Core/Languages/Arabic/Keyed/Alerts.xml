@@ -17,7 +17,7 @@
   <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n{0} -->
   <BreakRiskExtremeDesc>هؤلاء المستعمرون في حالة توتر شديد وقد يتعرضون لانهيار عقلي حاد (وربما عنيف) في أي لحظة:\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
-  <BreakRiskDescEnding>تفقّد علامة تبويب الاحتياجات لهؤلاء المستعمرين لمعرفة ما يضايقهم.\n\nلتحسين مزاجهم، يمكنك تقديم وجبات فاخرة، وزيادة ساعات الترفيه اليومية وتوفير وسائل ترفيه أفضل، وإحاطتهم ببيئات جميلة، والسماح لهم بالشرب والتدخين، وغير ذلك الكثير.</BreakRiskDescEnding>
+  <BreakRiskDescEnding>تفقّد تبويب الاحتياجات لهؤلاء المستعمرين لمعرفة ما يضايقهم.\n\nلتحسين مزاجهم، يمكنك تقديم وجبات فاخرة، وزيادة ساعات الترفيه اليومية وتوفير وسائل ترفيه أفضل، وإحاطتهم ببيئات جميلة، والسماح لهم بالشرب والتدخين، وغير ذلك الكثير.</BreakRiskDescEnding>
 
   <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>مستعمر يحتاج للإنقاذ</ColonistNeedsRescue>
@@ -121,7 +121,7 @@
   <!-- EN: Boredom -->
   <Boredom>ملل</Boredom>
   <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n{2} -->
-  <BoredomDesc>هؤلاء الأشخاص إما بحاجة للترفيه أو خُصصوا له، لكنهم أصيبوا بالملل من جميع مصادر الترفيه المتاحة:\n\n{0}\n\nوفّر لهم مزيداً من التنوع.\n\nأنواع الترفيه المتاحة لـ {PAWN_labelShort} حالياً:\n{2}</BoredomDesc>
+  <BoredomDesc>هؤلاء الأشخاص إما بحاجة للترفيه أو خُصصوا له، لكنهم أصيبوا بالملل من جميع مصادر الترفيه المتاحة:\n\n{0}\n\nوفّر لهم مزيداً من التنوع.\n\nأنواع الترفيه المتاحة لـ{PAWN_labelShort} حالياً:\n{2}</BoredomDesc>
 
   <!-- EN: Need batteries -->
   <NeedBatteries>تحتاج إلى بطاريات</NeedBatteries>
@@ -201,7 +201,7 @@
   <!-- EN: Poker table needs chairs -->
   <PokerTablesNeedChairs>طاولة البوكر بحاجة إلى كراسي</PokerTablesNeedChairs>
   <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
-  <PokerTablesNeedChairsDesc>إحدى طاولات البوكر ليس بجوارها أي كراسي.\n\nضع كراسي أو مقاعد مجاورة. يمكن لثمانية أشخاص استخدام طاولة البوكر في آن واحد.</PokerTablesNeedChairsDesc>
+  <PokerTablesNeedChairsDesc>إحدى طاولات البوكر ليس بجوارها أي كراسي.\n\nضع كراسي أو مقاعد مجاورة ليتمكن مستعمروك من استخدام طاولة البوكر. يمكن لثمانية أشخاص استخدام طاولة البوكر في آن واحد.</PokerTablesNeedChairsDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>الصياد يحمل درعاً وسلاحاً بعيد المدى</HunterHasShieldAndRangedWeapon>
@@ -220,7 +220,7 @@
   <!-- EN: Immobile caravan -->
   <ImmobileCaravan>قافلة عاجزة عن الحركة</ImmobileCaravan>
   <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
-  <ImmobileCaravanDesc>إحدى قوافلك عاجزة عن الحركة لأنها تحمل أكثر من طاقتها.\n\nيمكنك جعل القافلة تتحرك مجدداً بالتخلي عن بعض الأغراض في علامة تبويب الأغراض.</ImmobileCaravanDesc>
+  <ImmobileCaravanDesc>إحدى قوافلك عاجزة عن الحركة لأنها تحمل أكثر من طاقتها.\n\nيمكنك جعل القافلة تتحرك مجدداً بالتخلي عن بعض العناصر في تبويب العناصر.</ImmobileCaravanDesc>
 
   <!-- EN: Building unusable due to roof -->
   <BuildingCantBeUsedRoofed>مبنى غير قابل للاستخدام بسبب السقف</BuildingCantBeUsedRoofed>
@@ -240,14 +240,14 @@
   <!-- EN: Shuttle leaving in {0} -->
   <QuestPartShuttleLeaveDelay>المكوك سيغادر خلال {0}</QuestPartShuttleLeaveDelay>
   <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
-  <QuestPartShuttleLeaveDelayDesc>سيغادر المكوك خلال {1}. المهمة {0} تتطلب منك تحميل الأشخاص أو الأغراض التالية على المكوك قبل مغادرته:\n{2}</QuestPartShuttleLeaveDelayDesc>
+  <QuestPartShuttleLeaveDelayDesc>سيغادر المكوك خلال {1}. المهمة {0} تتطلب منك تحميل الأشخاص أو العناصر التالية على المكوك قبل مغادرته:\n{2}</QuestPartShuttleLeaveDelayDesc>
   <!-- EN: The shuttle will leave in {0}. -->
   <QuestPartShuttleLeaveDelayDescHidden>سيغادر المكوك خلال {0}.</QuestPartShuttleLeaveDelayDescHidden>
 
   <!-- EN: Shuttle arriving in {0} -->
   <QuestPartShuttleArriveDelay>المكوك سيصل خلال {0}</QuestPartShuttleArriveDelay>
   <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
-  <QuestPartShuttleArriveDelayDesc>سيصل المكوك خلال {1}. المهمة {0} تتطلب منك تحميل الأشخاص أو الأغراض التالية على المكوك قبل مغادرته:\n{2}</QuestPartShuttleArriveDelayDesc>
+  <QuestPartShuttleArriveDelayDesc>سيصل المكوك خلال {1}. المهمة {0} تتطلب منك تحميل الأشخاص أو العناصر التالية على المكوك قبل مغادرته:\n{2}</QuestPartShuttleArriveDelayDesc>
   <!-- EN: A shuttle will arrive in {0}. -->
   <QuestPartShuttleArriveDelayDescHidden>سيصل المكوك خلال {0}.</QuestPartShuttleArriveDelayDescHidden>
 
@@ -302,7 +302,7 @@
   <!-- EN: Hungry pen animals -->
   <AlertPennedAnimalHungry>حيوانات الحظيرة جائعة</AlertPennedAnimalHungry>
   <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n{0} -->
-  <AlertPennedAnimalHungryDesc>بعض حيوانات الحظيرة جائعة.\n\nاختر علامة الحظيرة واستخدم تبويب الطعام لتفاصيل أكثر.\n\nقد تحتاج الحيوانات آكلة العشب إلى حظيرة أكبر لتوفير ما يكفي من العشب. الحيوانات الأخرى قد تحتاج لتزويدها بحشيش القش أو طعام مماثل عبر مخزن.\n\nالحيوانات الجائعة:\n{0}</AlertPennedAnimalHungryDesc>
+  <AlertPennedAnimalHungryDesc>بعض حيوانات الحظيرة جائعة.\n\nاختر علامة الحظيرة واستخدم تبويب الطعام لتفاصيل أكثر.\n\nقد تحتاج الحيوانات آكلة العشب إلى حظيرة أكبر لتوفير ما يكفي من العشب. الحيوانات الأخرى قد تحتاج لتزويدها بحشيش القش أو طعام مماثل عبر منطقة تخزين.\n\nالحيوانات الجائعة:\n{0}</AlertPennedAnimalHungryDesc>
 
   <!-- EN: Hungry hitched animal -->
   <AlertHitchedAnimalHungryNoFood>حيوان مربوط جائع</AlertHitchedAnimalHungryNoFood>

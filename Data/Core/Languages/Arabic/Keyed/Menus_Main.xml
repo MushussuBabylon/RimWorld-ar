@@ -61,13 +61,13 @@
   <!-- EN: Buy soundtrack -->
   <BuySoundtrack>شراء الموسيقى التصويرية</BuySoundtrack>
   <!-- EN: RimWorld Soundtrack -->
-  <BuySoundtrack_Classic>الموسيقى التصويرية لـ RimWorld</BuySoundtrack_Classic>
+  <BuySoundtrack_Classic>الموسيقى التصويرية لـRimWorld</BuySoundtrack_Classic>
   <!-- EN: RimWorld - Royalty Soundtrack -->
-  <BuySoundtrack_Royalty>الموسيقى التصويرية لـ RimWorld - Royalty</BuySoundtrack_Royalty>
+  <BuySoundtrack_Royalty>الموسيقى التصويرية لـRimWorld - Royalty</BuySoundtrack_Royalty>
   <!-- EN: RimWorld - Anomaly Soundtrack -->
-  <BuySoundtrack_Anomaly>الموسيقى التصويرية لـ RimWorld - Anomaly</BuySoundtrack_Anomaly>
+  <BuySoundtrack_Anomaly>الموسيقى التصويرية لـRimWorld - Anomaly</BuySoundtrack_Anomaly>
   <!-- EN: RimWorld - Odyssey Soundtrack -->
-  <BuySoundtrack_Odyssey>الموسيقى التصويرية لـ RimWorld - Odyssey</BuySoundtrack_Odyssey>
+  <BuySoundtrack_Odyssey>الموسيقى التصويرية لـRimWorld - Odyssey</BuySoundtrack_Odyssey>
   
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
@@ -269,7 +269,7 @@
   <!-- EN: Another active mod uses the same ID: {0}. -->
   <ModWithSameIdAlreadyActive>تعديل آخر نشط يستخدم نفس المعرف: {0}.</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
-  <ModCyclicDependency>هناك اعتمادية دائرية للتعديلات تبدأ بـ {0}.</ModCyclicDependency>
+  <ModCyclicDependency>هناك اعتمادية دائرية للتعديلات تبدأ بـ{0}.</ModCyclicDependency>
   <!-- EN: This requires the following mods to work: {0}. -->
   <ModUnsatisfiedDependency>يتطلب هذا التعديلات التالية ليعمل: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
@@ -396,7 +396,7 @@
   <!-- EN: Extreme weather -->
   <Difficulty_AllowExtremeWeatherIncidents_Label>الطقس المتطرف</Difficulty_AllowExtremeWeatherIncidents_Label>
   <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
-  <Difficulty_AllowExtremeWeatherIncidents_Info>اسمح بحوادث الطقس المتطرف مثل التهاطل السام، والشتاء البركاني، والعواصف المفاجئة.</Difficulty_AllowExtremeWeatherIncidents_Info>
+  <Difficulty_AllowExtremeWeatherIncidents_Info>اسمح بحوادث الطقس المتطرف مثل التهاطل السام، والشتاء البركاني، وعواصف البرق الخاطفة.</Difficulty_AllowExtremeWeatherIncidents_Info>
 
   <!-- EN: Economy -->
   <DifficultyEconomySection>الاقتصاد</DifficultyEconomySection>
@@ -427,11 +427,11 @@
   <!-- EN: Raid loot -->
   <Difficulty_RaidLootPointsFactor_Label>غنائم الغارة</Difficulty_RaidLootPointsFactor_Label>
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_RaidLootPointsFactor_Info>اضبط قيمة الغنائم التي يحملها المغيرون.\n\nملاحظة: يتم أيضاً تحجيم قيمة غنائم الغارة تلقائياً للتعويض عن مقياس التهديد. إذا قمت بتعديل هذا الإعداد، فستضيف مضاعفاً إضافياً.</Difficulty_RaidLootPointsFactor_Info>
+  <Difficulty_RaidLootPointsFactor_Info>اضبط قيمة الغنائم التي يحملها الغزاة.\n\nملاحظة: يتم أيضاً تحجيم قيمة غنائم الغارة تلقائياً للتعويض عن مقياس التهديد. إذا قمت بتعديل هذا الإعداد، فستضيف مضاعفاً إضافياً.</Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
   <Difficulty_MaintenanceCostFactor_Label>تكلفة إعادة تعبئة البرج</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
-  <Difficulty_MaintenanceCostFactor_Info>اضبط تكلفة إعادة تعبئة المدافع.</Difficulty_MaintenanceCostFactor_Info>
+  <Difficulty_MaintenanceCostFactor_Info>اضبط تكلفة إعادة تذخير الأبراج.</Difficulty_MaintenanceCostFactor_Info>
   <!-- EN: Scaria rot chance -->
   <Difficulty_ScariaRotChance_Label>فرصة تعفن Scaria</Difficulty_ScariaRotChance_Label>
   <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
@@ -503,9 +503,9 @@
   <!-- EN: Player can build traps like spike traps and IED traps. -->
   <Difficulty_AllowTraps_Info>يمكن للاعب بناء فخاخ مثل فخاخ المسامير وفخاخ العبوات الناسفة (IED).</Difficulty_AllowTraps_Info>
   <!-- EN: Player can build turrets -->
-  <Difficulty_AllowTurrets_Label>يمكن للاعب بناء المدافع</Difficulty_AllowTurrets_Label>
+  <Difficulty_AllowTurrets_Label>يمكن للاعب بناء الأبراج</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>يمكن للاعب بناء مدافع ثابتة مثل المدافع المصغرة، ومدافع المدافع التلقائية، ومدافع قذائف اليورانيوم.\n\nلا يزال بإمكانك استخدام المدافع التي تم الاستيلاء عليها حتى إذا تم تعطيل هذا.</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>يمكن للاعب بناء أبراج ثابتة مثل الأبراج الصغيرة، وأبراج المدفع الآلي، وأبراج رصاص اليورانيوم.\n\nلا يزال بإمكانك استخدام الأبراج المستولى عليها حتى لو عُطّل هذا الخيار.</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
   <Difficulty_AllowMortars_Label>يمكن للاعب بناء المدافع</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
@@ -535,11 +535,11 @@
   <Difficulty_FixedWealthTimeFactor_Info>عدد سنوات اللعبة حتى يصل وضع الاستقلال عن الثروة إلى مستوى التهديد الأقصى.\n\nلاحظ أن الراوي سيستمر في تحجيم التهديدات وفقاً لعدد المستعمرين ومجموعة متنوعة من العوامل الأخرى.</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- EN: Ideology -->
-  <DifficultyIdeologySection>الأيديولوجيا</DifficultyIdeologySection>
+  <DifficultyIdeologySection>العقيدة</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>تعزيز تحويل السكان القليل</Difficulty_LowPopConversionBoost_Label>
   <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
-  <Difficulty_LowPopConversionBoost_Info>مع مستعمر واحد فقط من الأيديولوجيا الأساسية للاعب، يتم ضرب فرصة التحويل إلى أيديولوجيتهم بهذا المقدار. يتم تقسيم تأثير محاولات التحويل ضدهم على ذلك المقدار.\n\nمع وجود مستعمرين اثنين من الأيديولوجيا الأساسية للاعب، يتم تقليل التأثير إلى النصف.\n\nمع وجود ثلاثة أو أكثر من المستعمرين من الأيديولوجيا الأساسية للاعب، لا يكون لهذا أي تأثير.</Difficulty_LowPopConversionBoost_Info>
+  <Difficulty_LowPopConversionBoost_Info>مع مستعمر واحد فقط من العقيدة الأساسية للاعب، يتم ضرب فرصة التحويل إلى عقيدتهم بهذا المقدار. يتم تقسيم تأثير محاولات التحويل ضدهم على ذلك المقدار.\n\nمع وجود مستعمرين اثنين من العقيدة الأساسية للاعب، يتم تقليل التأثير إلى النصف.\n\nمع وجود ثلاثة أو أكثر من المستعمرين من العقيدة الأساسية للاعب، لا يكون لهذا أي تأثير.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -740,7 +740,7 @@
   <!-- EN: Best skill -->
   <BestSkillLabel>أفضل مهارة</BestSkillLabel>
   <!-- EN: {PAWN_nameDef}'s best stat -->
-  <BestSkillLetterLabel>أفضل سمة لـ {PAWN_nameDef}</BestSkillLetterLabel>
+  <BestSkillLetterLabel>أفضل سمة لـ{PAWN_nameDef}</BestSkillLetterLabel>
   <!-- EN: skill level {0} -->
   <BestSkillInfoLevel>مستوى المهارة {0}</BestSkillInfoLevel>
 
@@ -754,7 +754,7 @@
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>اختر الفصائل في العالم. يمكنك اختيار ما يصل إلى {0} فصيلة إجمالاً.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
-  <FactionDisabledContentWarning>تعطيل {0} يعني تنوعاً أقل في المهام ومحتوى مخفضا آخر.</FactionDisabledContentWarning>
+  <FactionDisabledContentWarning>تعطيل {0} يعني تنوعاً أقل في المهام ومحتوى مخفضاً آخر.</FactionDisabledContentWarning>
   <!-- EN: Disabling {0} means less spontaneous threat variety. -->
   <InsectsDisabledContentWarning>تعطيل {0} يعني تنوعاً أقل في التهديدات العفوية.</InsectsDisabledContentWarning>
   <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->

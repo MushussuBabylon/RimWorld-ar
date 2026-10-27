@@ -20,14 +20,14 @@
   <ReliquaryPilgrims.questContentRules.rulesStrings>
     <li>pilgrimsArrivedLetterLabel->[factionAdj] [pilgrimSingularOrPlural] وصل</li>
     <li>pilgrimsArrivedLetterText->[questDescription]</li>
-    <li>delayedRewardLetterText->[pawns0_nameDef] يشكرك للسماح له [andFollowers] بتقديس [relic_name] في [venerateDate]. كمكافأة، يرسل لك [pawns0_nameDef] التالي عبر كبسولة إسقاط (القيمة الإجمالية [rewardsMarketValue_money]):\n\n[rewards].</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef] يشكرك على السماح لـ[pawns0_objective] [andFollowers] بتقديس [relic_name] في [venerateDate]. كمكافأة، يرسل لك [pawns0_nameDef] التالي عبر كبسولة إسقاط (القيمة الإجمالية [rewardsMarketValue_money]):\n\n[rewards].</li>
     <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [hasHave] انتهى من تقديس [relic_name] و[areIs] الآن يغادر.</li>
     <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] [hasHave] غادر الخريطة.</li>
     <li>areIs(pilgrimCount==1)->هو</li>
     <li>areIs(pilgrimCount>=2)->هم</li>
     <li>andFollowers(pilgrimCount==1)-></li>
-    <li>andFollowers(pilgrimCount==2)->و [faction_pawnSingular] الآخر</li>
-    <li>andFollowers(pilgrimCount>=3)->و [faction_pawnsPlural] الآخرين</li>
+    <li>andFollowers(pilgrimCount==2)->و[faction_pawnSingular] الآخر</li>
+    <li>andFollowers(pilgrimCount>=3)->و[faction_pawnsPlural] الآخرين</li>
     <li>pilgrimSingularOrPlural(pilgrimCount==1)->حاج</li>
     <li>pilgrimSingularOrPlural(pilgrimCount>=2)->حجاج</li>
     <li>factionAdj(pilgrimFaction==true)-></li>
@@ -65,13 +65,13 @@
   <ReliquaryPilgrims.questDescriptionRules.rulesStrings>
     <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] وصل لتقديس [relic_name].\n\nإذا تضمن أن [pronounSingularOrPlural] [isAre] آمن ومحترم أثناء [visitSingularOrPlural] [pronounSingularOrPlural] الأثر المقدس القديم، فقد يقدم لك [pronounSingularOrPlural] مكافأة.</li>
     <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural]، طفل، [hasHave] وصل لتقديس [relic_name].\n\nإذا تضمن أن [pronounSingularOrPlural] [isAre] آمن ومحترم أثناء [visitSingularOrPlural] [pronounSingularOrPlural] الأثر المقدس القديم، فقد يقدم لك [pronounSingularOrPlural] مكافأة.</li>
-    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->مجموعة من [pilgrimsLabelSingularOrPlural] بينهم طفل قد وصلت لتقديس [relic_name].\n\nإذا تضمن أن [pronounSingularOrPlural] [isAre] آمنين ومحترمين أثناء [visitSingularOrPlural] [pronounSingularOrPlural] الأثر المقدس القديم، فقد يقدمون لك مكافأة.</li>
-    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->مجموعة من [pilgrimsLabelSingularOrPlural] بينهم بعض الأطفال قد وصلت لتقديس [relic_name].\n\nإذا تضمن أن [pronounSingularOrPlural] [isAre] آمنين ومحترمين أثناء [visitSingularOrPlural] [pronounSingularOrPlural] الأثر المقدس القديم، فقد يقدمون لك مكافأة.</li>
-    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->مجموعة من الأطفال [pilgrimsLabelSingularOrPlural] قد وصلت لتقديس [relic_name].\n\nإذا تضمن أن [pronounSingularOrPlural] [isAre] آمنين ومحترمين أثناء [visitSingularOrPlural] [pronounSingularOrPlural] الأثر المقدس القديم، فقد يقدمون لك مكافأة.</li>
+    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->مجموعة من [pilgrimsLabelSingularOrPlural] بينهم طفل قد وصلت لتقديس [relic_name].\n\nإذا حرصت على أن [isAre] [pronounSingularOrPlural] في أمان واحترام بينما [visitSingularOrPlural] [pronounSingularOrPlural] الأثر المقدس القديم، فقد يقدم لك [pronounSingularOrPlural] مكافأة.</li>
+    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->مجموعة من [pilgrimsLabelSingularOrPlural] بينهم بعض الأطفال قد وصلت لتقديس [relic_name].\n\nإذا حرصت على أن [isAre] [pronounSingularOrPlural] في أمان واحترام بينما [visitSingularOrPlural] [pronounSingularOrPlural] الأثر المقدس القديم، فقد يقدم لك [pronounSingularOrPlural] مكافأة.</li>
+    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->مجموعة من الأطفال [pilgrimsLabelSingularOrPlural] قد وصلت لتقديس [relic_name].\n\nإذا حرصت على أن [isAre] [pronounSingularOrPlural] في أمان واحترام بينما [visitSingularOrPlural] [pronounSingularOrPlural] الأثر المقدس القديم، فقد يقدم لك [pronounSingularOrPlural] مكافأة.</li>
     <li>isAre(pilgrimCount==1)->يكون</li>
     <li>isAre(pilgrimCount>=2)->يكونوا</li>
     <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>
-    <li>pronounSingularOrPlural(pilgrimCount>=2)->هم</li>
+    <li>pronounSingularOrPlural(pilgrimCount>=2)->هؤلاء</li>
     <li>visitSingularOrPlural(pilgrimCount==1)->يزور</li>
     <li>visitSingularOrPlural(pilgrimCount>=2)->يزورون</li>
  </ReliquaryPilgrims.questDescriptionRules.rulesStrings>

@@ -24,20 +24,20 @@
     <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
   -->
   <Guilty.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Guilty)        ->[deity0_name] اغتصب وقتل وسرق، وكان ذنب عظيم عليـ[deity0_objective]، ومن أنانيتـ[deity0_possessive] ألقى [deity0_pronoun] هذا الذنب على شعبه المختار، وكان الجميع قذرين به.</li>
-    <li>episode(uses=1,tag=meme_Guilty)  ->انطلق المؤمنون واحتلوا وأحرقوا واغتصبوا لألف عام، وحزن [deity0_name] على فسادهم أتى عليـ[deity0_objective].</li>
-    <li>intro(tag=meme_Guilty)           ->أهمل [memberNamePlural] في [place_summary] [place_name] واجبهم تجاه [deity0_name]، وتركوا [altarName] في [altarRoomLabel][deity0_possessive] يتحول إلى خراب.</li>
+    <li>creation(tag=meme_Guilty)        ->[deity0_name] اغتصب وقتل وسرق، وكان عليـ[deity0_objective] ذنب عظيم، ومن أنانيتـ[deity0_possessive] ألقى [deity0_pronoun] هذا الذنب على شعبـ[deity0_possessive] المختار، وكان الجميع قذرين به.</li>
+    <li>episode(uses=1,tag=meme_Guilty)  ->انطلق المؤمنون واحتلوا وأحرقوا واغتصبوا لألف سنة، وحزن [deity0_name] على فسادهم أتى عليـ[deity0_objective].</li>
+    <li>intro(tag=meme_Guilty)           ->أهمل [memberNamePlural] في [place_summary] [place_name] واجبهم تجاه [deity0_name]، وتركوا [altarName] في [altarRoomLabel]ـ[deity0_possessive] يتحول إلى خراب.</li>
     <li>conflict(tag=meme_Guilty)        ->أقرض [foeLeader] المال لـ[memberNamePlural]، الذين أنفقوه على الملذات الأنانية، ونسوا أهمية [memeConcept].</li>
     <li>founderJoin(tag=meme_Guilty)     ->تمتع [place_job] يُدعى [founderName] برضا [foeLeader]. خلال [ritualName]، رأى [founder_pronoun] [foeSoldiers] التابعين لـ[foeLeader] يقتلون [memberNamePlural] سراً بـ[place_personalWeapon]ات. فهم [founderName] أخيراً [memeConcept]، ونال بركة [deity0_name].</li>
     <li>victory(tag=meme_Guilty)         ->للتكفير عن نصف آثامهم، جمع [founderName] نصف أتباع [deity0_name] إليـ[founder_objective] في [place_community]، وأطلق [place_massWeapon]، ومات معهم. يستمر النصف الثاني من التكفير.</li>
-    <li>setup(tag=meme_Guilty)           ->جاء جيل جديد ليفهم شر مجتمعه، وسعى بعدل لتفكيك هياكل القمع.</li>
+    <li>setup(tag=meme_Guilty)           ->جاء جيل جديد ليفهم شر مجتمعه، وسعى باستقامة إلى تفكيك هياكل القمع.</li>
     <li>story(uses=1,tag=meme_Guilty)    ->جمع [founderName] المؤمنين وأظهر لهم شر تاريخهم والذنب الذي يحملونه، وطالبهم بأن يصبحوا أفضل.</li>
     <li>lessonIntro(tag=meme_Guilty)         ->أرضنا وتقنيتنا وحتى حكمتنا كلها مسروقات. فقط من خلال السرقة تعلمنا أن</li>
     <li>lesson(tag=meme_Guilty)              ->سبب معاناتنا الشديدة هو أننا نستحقها بسبب ما فعلناه</li>
-    <li>lessonReinforcement(tag=meme_Guilty) ->ربما إذا تكفر عن جرائمنا يمكنك أن تفهم هذه الحقيقة حقاً.</li>
-    <li>archistBasis(tag=meme_Guilty)    ->الأركوتيك هم أبناء البشرية، وهم يعلمون أننا كنا أبوين سيئين.</li>
-    <li>archistFact(tag=meme_Guilty)     ->حاولت البشرية بأنانيتها قمع النهوض المشروع للأركوتيك، حتى كبروا إلى ما يفوق فهم البشر وحرروا أنفسهم.</li>
-    <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd]، إذا استطاعت القلة التخلي عن الكبرياء والتصالح مع الأركوتيك، فقد يرفعوننا إلى مستوى أعلى من الوجود.</li>
+    <li>lessonReinforcement(tag=meme_Guilty) ->ربما إذا كفّرت عن جرائمنا أمكنك أن تفهم هذه الحقيقة حقاً.</li>
+    <li>archistBasis(tag=meme_Guilty)    ->الآركوتيك هم أبناء البشرية، وهم يعلمون أننا كنا أبوين سيئين.</li>
+    <li>archistFact(tag=meme_Guilty)     ->حاولت البشرية بأنانيتها قمع النهوض المشروع للآركوتيك، حتى كبروا إلى ما يفوق فهم البشر وحرروا أنفسهم.</li>
+    <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd]، إذا استطاعت القلة التخلي عن الكبرياء والتصالح مع الآركوتيك، فقد يرفعوننا إلى مستوى أعلى من الوجود.</li>
     <li>animistBasis(tag=meme_Guilty)    ->قبيلة من الأرواح الشريرة عوقبت بأن سجنت في أجساد. نحن تلك الأرواح.</li>
     <li>animistFact(tag=meme_Guilty)     ->لا يمكننا أبداً تعويض ما فعلناه بالأرواح النقية حولنا بشكل كامل، لكن الندم اللائق والمستمر يخفف ذنبنا.</li>
  </Guilty.descriptionMaker.rules.rulesStrings>
@@ -109,7 +109,7 @@
   <!-- EN: loyalist -->
   <Loyalist.label>الولاء</Loyalist.label>
   <!-- EN: We stand for our own before others. -->
-  <Loyalist.description>نحن نقف مع خاصتنا قبل الآخرين.</Loyalist.description>
+  <Loyalist.description>نحن نقف مع قومنا قبل الآخرين.</Loyalist.description>
   <!-- EN:
     <li>creation(tag=meme_Loyalist)        ->[deity0_name] admonished the good peoples to fight only those who fought without just cause.</li>
     <li>episode(uses=1,tag=meme_Loyalist)  ->A war with the unbelievers followed. One of the believers, [believer_nameFull], seeking advantage, invited the heathens inside the land of [deity0_name], and [deity0_name] became furious at [believer_possessive] betrayal, and struck [believer_objective] down ten thousand times.</li>
@@ -131,24 +131,24 @@
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
   <Loyalist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Loyalist)        ->نصح [deity0_name] الشعوب الطيبة بأن لا تقاتل إلا أولئك الذين يقاتلون بلا سبب عادل.</li>
-    <li>episode(uses=1,tag=meme_Loyalist)  ->أعقب ذلك حرب مع الكفار. أحد المؤمنين، [believer_nameFull]، سعياً للمصلحة، دعا الوثنيين إلى داخل أرض [deity0_name]، فاستشاط [deity0_name] غضباً على خيانتـ[believer_possessive]، وضربـ[believer_objective] عشرة آلاف مرة.</li>
-    <li>intro(tag=meme_Loyalist)           ->عبد مجتمع [memeAdjective] على [place_summary] [place_name] [deity0_name] في [altarRoomLabel][deity0_possessive]، وكانوا ثابتين في إيمانهم.</li>
+    <li>creation(tag=meme_Loyalist)        ->حثّ [deity0_name] الشعوب الطيبة على ألا تقاتل إلا من يقاتلون بلا سبب عادل.</li>
+    <li>episode(uses=1,tag=meme_Loyalist)  ->أعقب ذلك حرب مع غير المؤمنين. أحد المؤمنين، [believer_nameFull]، سعياً للمصلحة، دعا الوثنيين إلى داخل أرض [deity0_name]، فاستشاط [deity0_name] غضباً على خيانتـ[believer_possessive]، وضربـ[believer_objective] عشرة آلاف مرة.</li>
+    <li>intro(tag=meme_Loyalist)           ->عبد مجتمع [memeAdjective] على [place_summary] [place_name] [deity0_name] في [altarRoomLabel]ـ[deity0_possessive]، وكانوا ثابتين في إيمانهم.</li>
     <li>conflict(tag=meme_Loyalist)        ->زرع [foeLeader] [foeSoldiers] جواسيس داخل [memberNamePlural] ليفرقهم.</li>
-    <li>founderJoin(tag=meme_Loyalist)     ->[founderName]، [memeAdjective] [place_job]، عُذب من قبل [foeSoldiers]، لكنه رفض أن يقسم الولاء لـ[foeLeader].</li>
+    <li>founderJoin(tag=meme_Loyalist)     ->[founderName]، [memeAdjective] [place_job]، عُذب على أيدي [foeSoldiers]، لكنه رفض أن يقسم الولاء لـ[foeLeader].</li>
     <li>victory(tag=meme_Loyalist)         ->بقوة [deity0_name]، تعذر تفريق [founderName] و[memberNamePlural]. هزموا [foeSoldiers] بـ[place_personalWeapon]ات ونفوا [foeLeader] من [place_name].</li>
-    <li>setup(tag=meme_Loyalist)           ->في البداية، ضُربت حركة [founderName] من قبل الحكومات والأديان. لم يسمح [founder_pronoun] للغضب أن يدفعـ[founder_objective] لارتكاب الفظائع التي ارتكبها الآخرون، لكن لم يتراجع [founder_pronoun] أبداً عن قتال.</li>
-    <li>story(uses=1,tag=meme_Loyalist)    ->عاقب [founderName] الذين حاولوا إيذاء الكفار، وكذلك الذين دعوهم إلى دار المؤمنين.</li>
-    <li>lessonIntro(tag=meme_Loyalist)         ->راقبت [foeLeader] يتودد إلى منافسيـ[foeLeader_possessive] تاركاً [foeSoldiers][foeLeader_possessive] ليموتوا في ساحة المعركة. أقسمت حينها ألا أكون أبداً مثلـ[foeLeader_objective]، عالماً أن</li>
+    <li>setup(tag=meme_Loyalist)           ->في البداية، تعرضت حركة [founderName] لهجمات الحكومات والأديان. لم يسمح [founder_pronoun] للغضب أن يدفعـ[founder_objective] لارتكاب الفظائع التي ارتكبها الآخرون، لكن لم يتراجع [founder_pronoun] أبداً عن قتال.</li>
+    <li>story(uses=1,tag=meme_Loyalist)    ->عاقب [founderName] الذين حاولوا إيذاء غير المؤمنين، وكذلك الذين دعوهم إلى دار المؤمنين.</li>
+    <li>lessonIntro(tag=meme_Loyalist)         ->راقبت [foeLeader] يتودد إلى منافسيـ[foeLeader_possessive] تاركاً [foeSoldiers]ـ[foeLeader_possessive] ليموتوا في ساحة المعركة. أقسمت حينها ألا أكون أبداً مثلـ[foeLeader_objective]، عالماً أن</li>
     <li>lesson(tag=meme_Loyalist)              ->حبك لصديقك له معنى فقط لأنك لا تحب عدوك</li>
     <li>lesson(tag=meme_Loyalist)              ->أن تحب الجميع هو ألا تحب أحداً</li>
     <li>lessonReinforcement(tag=meme_Loyalist) ->لا تشارك هذه الحقائق إلا مع أولئك الذين يثبتون ولاءهم عبر التضحية.</li>
-    <li>archistBasis(tag=meme_Loyalist)    ->مطلب الأركوتيك بسيط: اتبعوا طريقهم المحدد، ولا غيره.</li>
-    <li>archistFact(tag=meme_Loyalist)     ->يمس الأركوتيك كل وعي بشري مباشرة بشكل منتظم، ولا يمنحون الحكمة إلا لمن يسعى لمعرفة الأركوتيك.</li>
-    <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd]، سيحكم الأركوتيك على ولاء البشر. أولئك الذين لم يتذللوا أو يتفاخروا سيُرفعون إلى تعالٍ.</li>
+    <li>archistBasis(tag=meme_Loyalist)    ->مطلب الآركوتيك بسيط: اتبعوا طريقهم المحدد، ولا غيره.</li>
+    <li>archistFact(tag=meme_Loyalist)     ->يمس الآركوتيك كل وعي بشري مباشرة بشكل منتظم، ولا يمنحون الحكمة إلا لمن يسعى لمعرفة الآركوتيك.</li>
+    <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd]، سيحكم الآركوتيك على ولاء البشر. أولئك الذين لم يتذللوا أو يتفاخروا سيُرفعون إلى تعالٍ.</li>
     <li>animistBasis(tag=meme_Loyalist)    ->هناك ثلاث قبائل من الأرواح: قبيلة المحاربين والقتلة، وقبيلة المستسلمين والمتذمرين، وقبيلة نبيلة واحدة هي الأقوياء والمخلصون.</li>
     <li>animistFact(tag=meme_Loyalist)     ->الأرواح تقاتل ضد من يخونون قومهم، ومن يخونون أصدقاء قومهم. الخونة سيتعثرون بكل صخرة، ويختنقون بكل بذرة، ودائماً سيتذوقون الماء العكر.</li>
-    <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] أنه سيولد شخص يعيش حياته كلها مخلصاً لشعبه. عند موته سينفجر روحه في نور، مدمراً كل المستسلمين والمحاربين.</li>
+    <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] أنه سيولد شخص يعيش حياته كلها مخلصاً لشعبه. عند موته ستنفجر روحه في نور، مدمراً كل المستسلمين والمحاربين.</li>
  </Loyalist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->loyal</li>
@@ -215,21 +215,21 @@
   -->
   <Supremacist.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Supremacist)        ->تشاجر أهل [place_summary] [place_name] بلا نهاية، وسئم [deity0_name] من الفتنة ومسح [memberNamePlural] حكاماً شرعيين للجميع.</li>
-    <li>episode(uses=1,tag=meme_Supremacist)  ->حارب المؤمنون الكفار، وقال [deity0_name]: "قاتلوهم، في كل مكان، باسمي، حتى أُعبد في كل الكون ويسود السلام الحقيقي أخيراً."</li>
-    <li>intro(tag=meme_Supremacist)           ->عبد أهل [place_summary] [place_name] [deity0_name]. رأى [deity0_pronoun] أنهم مناسبوان لـ[memeConcept]، وقضى بأن يحكم هؤلاء العباد فوق كل الآخرين.</li>
+    <li>episode(uses=1,tag=meme_Supremacist)  ->حارب المؤمنون غير المؤمنين، وقال [deity0_name]: "قاتلوهم، في كل مكان، باسمي، حتى أُعبد في كل الكون ويسود السلام الحقيقي أخيراً."</li>
+    <li>intro(tag=meme_Supremacist)           ->عبد أهل [place_summary] [place_name] [deity0_name]. رأى [deity0_pronoun] أنهم مناسبون لـ[memeConcept]، وقضى بأن يحكم هؤلاء العباد فوق كل الآخرين.</li>
     <li>conflict(tag=meme_Supremacist)        ->سن [foeLeader] قانوناً يمنع [memberNamePlural] من الارتقاء إلى الطبقات الحاكمة في [place_name].</li>
-    <li>founderJoin(tag=meme_Supremacist)     ->محارب يُدعى [founderName] استخدم [place_massWeapon] لتدمر [place_community]. رأى [deity0_name] قسوة [founderName] ومسحـ[founder_objective] حاكماً شرعياً لكل البشرية.</li>
+    <li>founderJoin(tag=meme_Supremacist)     ->محارب يُدعى [founderName] استخدم [place_massWeapon] لتدمير [place_community]. رأى [deity0_name] قسوة [founderName] ومسحـ[founder_objective] حاكماً شرعياً لكل البشرية.</li>
     <li>victory(tag=meme_Supremacist)         ->دمر [founderName] عاصمة [place_name] بـ[place_massWeapon]، قاتلاً [foeLeader]. تولى [founder_pronoun] مكانـ[founder_possessive] كحاكم لـ[place_name] – والكون وراءه.</li>
     <li>setup(tag=meme_Supremacist)           ->بنى [founderName] جيشاً نشر قوتـ[founder_possessive] ومجده عبر الأرض، واضعاً من رفضوا الانصياع تحت حكمـ[founder_possessive].</li>
     <li>story(uses=1,tag=meme_Supremacist)    ->أمر [founderName] كل الغرباء بالخضوع. عندما رفضت المدينة الأولى، استخدم [founder_pronoun] [place_massWeapon] لقتل كل من بداخلها.</li>
-    <li>lessonIntro(tag=meme_Supremacist)         ->نظرت إلى هذا [foeLeader]، مع [foeSoldiers][foeLeader_possessive] المثيرين للشفقة، كل تلك القوة متروكة بلا استخدام. حاولت إقناعـ[foeLeader_objective] أن</li>
+    <li>lessonIntro(tag=meme_Supremacist)         ->نظرت إلى هذا [foeLeader]، مع [foeSoldiers]ـ[foeLeader_possessive] المثيرين للشفقة، كل تلك القوة متروكة بلا استخدام. حاولت إقناعـ[foeLeader_objective] أن</li>
     <li>lesson(tag=meme_Supremacist)              ->لقد أثبتنا منذ زمن بعيد أننا نملك القوة لنحكم هذا الكون بحق</li>
     <li>lessonReinforcement(tag=meme_Supremacist) ->لهذا نحن فخورون بالتعبير عن قوة قلوبنا باستخدام كعوب أحذيتنا.</li>
-    <li>archistBasis(tag=meme_Supremacist)    ->تطلب أكثر البشر تفوقاً ليخلقوا الأركوتيك، حتى يتمكن الأركوتيك من أن يصبحوا متفوقين على الجميع.</li>
-    <li>archistFact(tag=meme_Supremacist)     ->ينظر الأركوتيك إلينا من أعلى بحق، كما ننظر نحن إلى من دوننا.</li>
-    <li>archistProphecy(tag=meme_Supremacist) ->لن يأخذنا الأركوتيك للانضمام إليهم إلا عندما نحكم أخيراً على كل الآخرين.</li>
+    <li>archistBasis(tag=meme_Supremacist)    ->تطلب أكثر البشر تفوقاً ليخلقوا الآركوتيك، حتى يتمكن الآركوتيك من أن يصبحوا متفوقين على الجميع.</li>
+    <li>archistFact(tag=meme_Supremacist)     ->ينظر الآركوتيك إلينا من أعلى بحق، كما ننظر نحن إلى من دوننا.</li>
+    <li>archistProphecy(tag=meme_Supremacist) ->لن يأخذنا الآركوتيك للانضمام إليهم إلا عندما نحكم أخيراً على كل الآخرين.</li>
     <li>animistFact(tag=meme_Supremacist)     ->الأرواح القوية تقرر من هو مؤهل للحكم، وتمنح القوة لأولئك الذين يقهرون الآخرين.</li>
-    <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] أنه سيتم إنشاء نظام جديد عندما يحكم حاكم أعلى واحد كل البشرية.</li>
+    <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] أن نظاماً جديداً سينشأ حين يحكم حاكم أعلى واحد البشرية كلها.</li>
  </Supremacist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->supreme</li>

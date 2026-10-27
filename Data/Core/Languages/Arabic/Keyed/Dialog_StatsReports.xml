@@ -19,7 +19,7 @@
   <!-- EN: Life stage -->
   <StatsReport_LifeStage>المرحلة العمرية</StatsReport_LifeStage>
   <!-- EN: Shambler crawling -->
-  <StatsReport_ShamblerCrawling>زحف الموتى السائرين</StatsReport_ShamblerCrawling>
+  <StatsReport_ShamblerCrawling>زحف المترنح</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
   <StatsReport_Material>المادة</StatsReport_Material>
   <!-- EN: Character quality -->
@@ -35,7 +35,7 @@
   <!-- EN: {0} impact -->
   <HealthOffsetScale>تأثير {0}</HealthOffsetScale>
   <!-- EN: {0} max -->
-  <HealthFactorMaxImpact>الحد الأقصى لـ {0}</HealthFactorMaxImpact>
+  <HealthFactorMaxImpact>الحد الأقصى لـ{0}</HealthFactorMaxImpact>
   <!-- EN: if below {0} -->
   <HealthFactorAllowedDefect>إذا كان دون {0}</HealthFactorAllowedDefect>
   <!-- EN: Post-process curve -->
@@ -47,7 +47,7 @@
   <!-- EN: Max value -->
   <StatsReport_MaxValue>الحد الأقصى للقيمة</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
-  <StatsReport_MultiplierFor>مضاعف لـ {0}</StatsReport_MultiplierFor>
+  <StatsReport_MultiplierFor>مضاعف لـ{0}</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
   <StatsReport_MarketValueFromStuffsAndWork>المواد والعمالة</StatsReport_MarketValueFromStuffsAndWork>
   <!-- EN: Quality multiplier -->
@@ -65,7 +65,7 @@
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
   <StatsReport_ReloadMarketValue>تكلفة إعادة التلقيم ({COUNT} {AMMO_label})</StatsReport_ReloadMarketValue>
   <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
-  <StatsReport_ReloadRemainingChargesMultipler>مضاعف لـ {CHARGENOUN_plural} المتبقية ({0})</StatsReport_ReloadRemainingChargesMultipler>
+  <StatsReport_ReloadRemainingChargesMultipler>مضاعف لـ{CHARGENOUN_plural} المتبقية ({0})</StatsReport_ReloadRemainingChargesMultipler>
   <!-- EN: Multiplier for mood {0} -->
   <StatsReport_MoodMultiplier>مضاعف المزاج {0}</StatsReport_MoodMultiplier>
   <!-- EN: Multiplier for light {0} -->
@@ -81,11 +81,11 @@
   <!-- EN: Damaged -->
   <StatsReport_HasHediffExplanation>متضرر</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
-  <StatsReport_MeleeDPSExplanation>ضرر في الثانية = ضرر الاشتباك * فرصة إصابة الاشتباك / فترة التهدئة بالثواني</StatsReport_MeleeDPSExplanation>
+  <StatsReport_MeleeDPSExplanation>ضرر في الثانية = ضرر الاشتباك * فرصة إصابة الاشتباك / فترة الانتظار بالثواني</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
   <StatsReport_MeleeDamage>ضرر الاشتباك</StatsReport_MeleeDamage>
   <!-- EN: Cooldown -->
-  <StatsReport_Cooldown>فترة التهدئة</StatsReport_Cooldown>
+  <StatsReport_Cooldown>فترة الانتظار</StatsReport_Cooldown>
   <!-- EN: Melee hit chance -->
   <StatsReport_MeleeHitChance>فرصة إصابة الاشتباك</StatsReport_MeleeHitChance>
   <!-- EN: {0} s -->
@@ -281,7 +281,7 @@
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
   <Stat_Thing_Weapon_DirectHitChance_Desc>فرصة أن تصيب الطلقة هدفها مباشرة إذا لم يتم اعتراضها أو تفاديها أو إيقافها.</Stat_Thing_Weapon_DirectHitChance_Desc>
   <!-- EN: This body part's effect on the mood of the owner. -->
-  <Stat_Thing_MoodChange_Desc>تأثير جزء الجسم هذا على مزاج صاحبـ{PAWN_possessive}.</Stat_Thing_MoodChange_Desc>
+  <Stat_Thing_MoodChange_Desc>تأثير جزء الجسم هذا على مزاج صاحبه.</Stat_Thing_MoodChange_Desc>
   <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
   <Stat_Recipe_Skill_Desc>المهارة الرئيسية المستخدمة أثناء إعداد هذه الوصفة.\n\nفهي تحدد جودة النتيجة، ويتم تطويرها أثناء تنفيذ هذه الوصفة.</Stat_Recipe_Skill_Desc>
   <!-- EN: The ingredients required to perform this recipe. -->
@@ -351,13 +351,13 @@
   <!-- EN: The amount of power this building will draw from the power grid. -->
   <Stat_Thing_PowerConsumption_Desc>كمية الطاقة التي سيستمدها هذا المبنى من شبكة الطاقة.</Stat_Thing_PowerConsumption_Desc>
   <!-- EN: {CHARGENOUN_plural} remaining -->
-  <Stat_Thing_ReloadChargesRemaining_Name>الـ {CHARGENOUN_plural} المتبقية</Stat_Thing_ReloadChargesRemaining_Name>
+  <Stat_Thing_ReloadChargesRemaining_Name>الـ{CHARGENOUN_plural} المتبقية</Stat_Thing_ReloadChargesRemaining_Name>
   <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
-  <Stat_Thing_ReloadChargesRemaining_Desc>عدد الـ {CHARGENOUN_plural} المتبقية في هذا الجسم. إذا نفدت، فلن يمكن استخدام القدرة الخاصة بعد الآن.</Stat_Thing_ReloadChargesRemaining_Desc>
+  <Stat_Thing_ReloadChargesRemaining_Desc>عدد الـ{CHARGENOUN_plural} المتبقية في هذا الجسم. إذا نفدت، فلن يمكن استخدام القدرة الخاصة بعد الآن.</Stat_Thing_ReloadChargesRemaining_Desc>
   <!-- EN: {CHARGENOUN_plural} -->
-  <Stat_Thing_ReloadMaxCharges_Name>الـ {CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
+  <Stat_Thing_ReloadMaxCharges_Name>الـ{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
   <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
-  <Stat_Thing_ReloadMaxCharges_Desc>الحد الأقصى لعدد الـ {CHARGENOUN_plural} التي يمتلكها هذا الجسم.</Stat_Thing_ReloadMaxCharges_Desc>
+  <Stat_Thing_ReloadMaxCharges_Desc>الحد الأقصى لعدد الـ{CHARGENOUN_plural} التي يمتلكها هذا الجسم.</Stat_Thing_ReloadMaxCharges_Desc>
   <!-- EN: {CHARGENOUN} reload cost -->
   <Stat_Thing_ReloadRefill_Name>تكلفة إعادة شحن {CHARGENOUN}</Stat_Thing_ReloadRefill_Name>
   <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
@@ -447,7 +447,7 @@
   <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
   <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>المعدل الذي يحتاجه المدمن لتناول جرعة من هذا العقار لتغذية الإدمان ومنع ظهور أعراض الانسحاب.\n\nيتم حساب ذلك من معدل انخفاض الحاجة للإدمان ونسبة تلبية الحاجة لكل جرعة.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
   <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
-  <Stat_Thing_Drug_AddictionNeedOffset_Desc>مقدار ما تلبيـ{PAWN_possessive} كل جرعة من هذا العقار من حاجة المدمن للمادة الكيميائية.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>مقدار ما تلبيه كل جرعة من هذا العقار من حاجة المدمن للمادة الكيميائية.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
   <!-- EN: How quickly an addict's need for the chemical will fall. -->
   <Stat_Thing_Drug_AddictionNeedFallRate_Desc>السرعة التي تنخفض بها حاجة المدمن للمادة الكيميائية.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
@@ -497,7 +497,7 @@
   <!-- EN: Egg nutrition per year -->
   <Stat_Animal_EggNutritionYearly>التغذية من البيض سنوياً</Stat_Animal_EggNutritionYearly>
   <!-- EN: The amount of yearly nutrition generated by eggs laid by this creature each year.\n\nThis value is calculated from eggs per year and egg nutrition. -->
-  <Stat_Animal_EggNutritionYearlyDesc>مقدار القيمة الغذائية السنوية الناتجة عن البيض الذي يضعه هذا المخلوق كل عام.\n\nيتم حساب هذه القيمة من عدد البيض في السنة والقيمة الغذائية للبيضة الواحدة.</Stat_Animal_EggNutritionYearlyDesc>
+  <Stat_Animal_EggNutritionYearlyDesc>مقدار القيمة الغذائية السنوية الناتجة عن البيض الذي يضعه هذا المخلوق كل سنة.\n\nيتم حساب هذه القيمة من عدد البيض في السنة والقيمة الغذائية للبيضة الواحدة.</Stat_Animal_EggNutritionYearlyDesc>
   <!-- EN: Egg market value -->
   <Stat_Animal_EggMarketValue>القيمة السوقية للبيضة</Stat_Animal_EggMarketValue>
   <!-- EN: The market value of a single laid egg. -->
@@ -505,7 +505,7 @@
   <!-- EN: Egg value per year -->
   <Stat_Animal_EggMarketValueYearly>قيمة البيض السنوية</Stat_Animal_EggMarketValueYearly>
   <!-- EN: The total value of eggs normally laid over the course of a year.\n\nThis is calculated from eggs per year and egg market value. -->
-  <Stat_Animal_EggMarketValueYearlyDesc>القيمة الإجمالية للبيض الذي يتم وضعه عادةً على مدار عام كامل.\n\nيتم حساب ذلك من عدد البيض في السنة والقيمة السوقية للبيضة.</Stat_Animal_EggMarketValueYearlyDesc>
+  <Stat_Animal_EggMarketValueYearlyDesc>القيمة الإجمالية للبيض الذي يتم وضعه عادةً على مدار سنة كاملة.\n\nيتم حساب ذلك من عدد البيض في السنة والقيمة السوقية للبيضة.</Stat_Animal_EggMarketValueYearlyDesc>
   <!-- EN: Milk type -->
   <Stat_Animal_MilkType>نوع الحليب</Stat_Animal_MilkType>
   <!-- EN: The type of milk this creature produces. -->
@@ -521,7 +521,7 @@
   <!-- EN: Milk per year -->
   <Stat_Animal_MilkPerYear>الحليب في السنة</Stat_Animal_MilkPerYear>
   <!-- EN: The amount of milk produced by this animal over the course of a year.\n\nThis is calculated from milk amount and milking interval. -->
-  <Stat_Animal_MilkPerYearDesc>كمية الحليب التي ينتجها هذا الحيوان على مدار عام كامل.\n\nيتم حساب ذلك من كمية الحليب وفترة الحلب.</Stat_Animal_MilkPerYearDesc>
+  <Stat_Animal_MilkPerYearDesc>كمية الحليب التي ينتجها هذا الحيوان على مدار سنة كاملة.\n\nيتم حساب ذلك من كمية الحليب وفترة الحلب.</Stat_Animal_MilkPerYearDesc>
   <!-- EN: Milk market value -->
   <Stat_Animal_MilkValue>القيمة السوقية للحليب</Stat_Animal_MilkValue>
   <!-- EN: The value of one unit of this creature's milk. -->
@@ -529,7 +529,7 @@
   <!-- EN: Milk value per year -->
   <Stat_Animal_MilkValuePerYear>قيمة الحليب السنوية</Stat_Animal_MilkValuePerYear>
   <!-- EN: The market value of one year's worth of milk from this creature, assuming it never goes hungry and is milked instantly at the end of each milk interval.\n\nThis is calculated from milk per year and milk market value. -->
-  <Stat_Animal_MilkValuePerYearDesc>القيمة السوقية لإنتاج حليب عام كامل من هذا المخلوق، بافتراض أنه لا يجوع أبداً ويتم حلبه فوراً عند نهاية كل فترة حلب.\n\nيتم حساب ذلك من كمية الحليب السنوية والقيمة السوقية للحليب.</Stat_Animal_MilkValuePerYearDesc>
+  <Stat_Animal_MilkValuePerYearDesc>القيمة السوقية لإنتاج حليب سنة كاملة من هذا المخلوق، بافتراض أنه لا يجوع أبداً ويتم حلبه فوراً عند نهاية كل فترة حلب.\n\nيتم حساب ذلك من كمية الحليب السنوية والقيمة السوقية للحليب.</Stat_Animal_MilkValuePerYearDesc>
   <!-- EN: Wool type -->
   <Stat_Animal_WoolType>نوع الصوف</Stat_Animal_WoolType>
   <!-- EN: The type of wool produced by this creature. -->
@@ -553,7 +553,7 @@
   <!-- EN: Wool value per year -->
   <Stat_Animal_WoolValuePerYear>قيمة الصوف السنوية</Stat_Animal_WoolValuePerYear>
   <!-- EN: The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value. -->
-  <Stat_Animal_WoolValuePerYearDesc>القيمة السوقية لصوف عام كامل من هذا المخلوق.\n\nيتم حساب ذلك من كمية الصوف السنوية والقيمة السوقية للصوف.</Stat_Animal_WoolValuePerYearDesc>
+  <Stat_Animal_WoolValuePerYearDesc>القيمة السوقية لصوف سنة كاملة من هذا المخلوق.\n\nيتم حساب ذلك من كمية الصوف السنوية والقيمة السوقية للصوف.</Stat_Animal_WoolValuePerYearDesc>
 
   <!-- EN: How much of the total possible study you have performed on this object. -->
   <Stat_Studiable_Desc>مقدار ما أنجزته من إجمالي الدراسة الممكنة على هذا الجسم.</Stat_Studiable_Desc>

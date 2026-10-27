@@ -13,9 +13,9 @@
   <!-- EN: Click to jump to: -->
   <ClickToJumpTo>انقر للانتقال إلى:</ClickToJumpTo>
   <!-- EN: {1_labelShort} cannot do this kind of work. -->
-  <CannotDoThisWork>لا يمكن لـ {1_labelShort} القيام بهذا النوع من العمل.</CannotDoThisWork>
+  <CannotDoThisWork>لا يمكن لـ{1_labelShort} القيام بهذا النوع من العمل.</CannotDoThisWork>
   <!-- EN: (none) -->
-  <NoneBrackets>(لا يوجد)</NoneBrackets>
+  <NoneBrackets>(لا شيء)</NoneBrackets>
   <!-- EN: This colonist is not able to do any work of this type because of their health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>هذا المستعمر غير قادر على القيام بأي عمل من هذا النوع بسبب حالته الصحية.</IncapableOfWorkTypeBecauseOfCapacities>
   <!-- EN: E -->
@@ -79,7 +79,7 @@
   <!-- EN: Pregnant ({0} / {1}) -->
   <PregnantIconDesc>حامل ({0} / {1})</PregnantIconDesc>
   <!-- EN: Bonded to -->
-  <BondedTo>مرتبط بـ</BondedTo>
+  <BondedTo>مرتبط مع</BondedTo>
   <!-- EN: Sterilize animal. -->
   <SterilizeAnimal>تعقيم الحيوان.</SterilizeAnimal>
   <!-- EN: Animal sterile. -->
@@ -89,21 +89,21 @@
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>هذا المخلوق مفترس. عندما يجوع، سيصطاد المخلوقات الأصغر - وربما يشمل ذلك البشر.</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
-  <IsInMentalState>هذا المخلوق حالياً في حالة ذهنية: {0}</IsInMentalState>
+  <IsInMentalState>هذا المخلوق حالياً في حالة عقلية: {0}</IsInMentalState>
   
   <!-- Factions tab -->
   <!-- EN: Hostile -->
-  <Hostile>عدائي</Hostile>
+  <Hostile>معادٍ</Hostile>
   <!-- EN: Ally -->
   <Ally>حليف</Ally>
   <!-- EN: hostile -->
-  <HostileLower>عدائي</HostileLower>
+  <HostileLower>معادٍ</HostileLower>
   <!-- EN: ally -->
   <AllyLower>حليف</AllyLower>
   <!-- EN: defeated -->
   <DefeatedLower>مهزوم</DefeatedLower>
   <!-- EN: Enemy of {0} -->
-  <HostileTo>عدو لـ {0}</HostileTo>
+  <HostileTo>عدو لـ{0}</HostileTo>
   <!-- EN: Enemy of:  -->
   <EnemyOf>عدو لـ: </EnemyOf>
   <!-- EN: Recent events -->
@@ -233,7 +233,7 @@
   <!-- EN: Research one or more of this project's prerequisites to discover it. -->
   <UnknownResearchDescription>ابحث عن واحد أو أكثر من متطلبات هذا المشروع لاكتشافه.</UnknownResearchDescription>
   <!-- EN: unknown -->
-  <UnknownResearch>غير معروف</UnknownResearch>
+  <UnknownResearch>مجهول</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -309,13 +309,13 @@
   <!-- EN: To accept this quest, you need -->
   <QuestAcceptanceRequirementsDescription>لقبول هذه المهمة، تحتاج إلى</QuestAcceptanceRequirementsDescription>
   <!-- EN: free bedrooms that satisfy the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfied>غرف نوم فارغة تلبي متطلبات اللقب لـ</QuestBedroomRequirementsUnsatisfied>
+  <QuestBedroomRequirementsUnsatisfied>غرف نوم فارغة تلبي متطلبات لقب</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfiedSingle>غرفة نوم فارغة تلبي متطلبات اللقب لـ</QuestBedroomRequirementsUnsatisfiedSingle>
+  <QuestBedroomRequirementsUnsatisfiedSingle>غرفة نوم فارغة تلبي متطلبات لقب</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestThroneRoomRequirementsUnsatisfied>قاعة عرش تلبي متطلبات لقب {TITLE} الخاص بـ {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
+  <QuestThroneRoomRequirementsUnsatisfied>قاعة عرش تلبي متطلبات لقب {TITLE} الخاص بـ{PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
   <!-- EN: assign a throne for {PAWN_definite} -->
-  <QuestNoThroneRoom>تعيين عرش لـ {PAWN_definite}</QuestNoThroneRoom>
+  <QuestNoThroneRoom>تعيين عرش لـ{PAWN_definite}</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>مستعمر يحمل لقب {0}</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
@@ -343,7 +343,7 @@
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>أنت حالياً غير مشترك لتلقي {FACTION_royalFavorLabel}.</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
-  <GoodwillTip>ستتحسن علاقتك مع {0_name} بمقدار {1}.\n\nالعلاقة الحالية: {4} ({5}).\n\nتقيس العلاقة طبيعة التعامل العام بين الفصائل. إذا انخفضت إلى أقل من {2}، سيصبح الفصيل عدائياً وسيشن غارات على مستوطناتك وقوافلك التجارية. إذا ارتفعت فوق {3}، سيصبح الفصيل حليفاً وسيرسل مقاتلين لمساعدتك عندما يستطيعون. بخلاف ذلك، يظل الفصيل محايداً وسيتاجر ويتحدث معك بحرية.</GoodwillTip>
+  <GoodwillTip>ستتحسن علاقتك مع {0_name} بمقدار {1}.\n\nالعلاقة الحالية: {4} ({5}).\n\nتقيس العلاقة طبيعة التعامل العام بين الفصائل. إذا انخفضت إلى أقل من {2}، سيصبح الفصيل معادياً وسيشن غارات على مستوطناتك وقوافلك التجارية. إذا ارتفعت فوق {3}، سيصبح الفصيل حليفاً وسيرسل مقاتلين لمساعدتك عندما يستطيعون. بخلاف ذلك، يظل الفصيل محايداً وسيتاجر ويتحدث معك بحرية.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>انضمام {0_labelShort}</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
@@ -355,7 +355,7 @@
   <!-- EN: alliance with {0} -->
   <QuestAlliedTo>تحالف مع {0}</QuestAlliedTo>
   <!-- EN: hostile to {0} -->
-  <QuestHostileTo>معادٍ لـ {0}</QuestHostileTo>
+  <QuestHostileTo>معادٍ لـ{0}</QuestHostileTo>
   <!-- EN: neutral to {0} -->
   <QuestNeutralTo>محايد تجاه {0}</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
@@ -381,7 +381,7 @@
   
   <!-- Books -->
   <!-- EN: Mental break chance -->
-  <BookMentalBreakChance>فرصة الانهيار الذهني</BookMentalBreakChance>
+  <BookMentalBreakChance>فرصة الانهيار العقلي</BookMentalBreakChance>
   
   <!-- EN: Recreation gain multiplier -->
   <BookJoyFactor>مضاعف مكسب الترفيه</BookJoyFactor>

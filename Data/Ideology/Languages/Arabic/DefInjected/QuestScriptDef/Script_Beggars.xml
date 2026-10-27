@@ -68,30 +68,30 @@
     <li>beggingForInfo->مقابل x[requestedThingCount] [requestedThing_label]</li>
     <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
     <li>traverObjective(beggarCount>=2)->هم</li>
-    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] ليس جزءاً من أي فصيل. إذا أردت، يمكنك اختيار قتل، اعتقال، بيع، أو حصاد [traverObjective]، دون عواقب دبلوماسية.</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] ليس جزءاً من أي فصيل. إذا أردت، يمكنك اختيار قتل أو اعتقال أو بيع أو حصاد[traverObjective]، دون عواقب دبلوماسية.</li>
     <li>approachInfo(beggarCount==1)->[groupLabelSingle] مسكين اسمه [beggars0_nameDef] يقترب طلباً للمساعدة</li>
     <li>approachInfo(beggarCount>=2)->مجموعة من ال[groupLabelPlural] المساكين يقتربون طلباً للمساعدة</li>
     <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->مجموعة من ال[groupLabelPlural] المساكين بينهم طفل يقتربون طلباً للمساعدة</li>
     <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->مجموعة من ال[groupLabelPlural] المساكين بينهم بعض الأطفال يقتربون طلباً للمساعدة</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] يتوسل [beggingForInfo]</li>
     <li>requestInfo(beggarCount>=2)->ال[groupLabelPlural] يتوسلون [beggingForInfo]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] يريد الفضة ليسدد ديناً لعصابة من القراصنة يطاردونه</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] يريد الفضة للمساعدة في شراء حريتـ[beggars0_possessive] الأخت الكبرى التي استعبدها القراصنة</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] يريد الفضة ليسدد ديناً لعصابة من القراصنة يطاردونـ[beggars0_objective]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] يريد الفضة للمساعدة في شراء حرية أختـ[beggars0_possessive] الكبرى التي استعبدها القراصنة</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] يحتاج الدواء لمساعدة مسافر مصاب في مكان قريب</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] يحتاج الدواء لمساعدتـ[beggars0_possessive] الأخ الرضيع المصاب في مكان قريب</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] يريد الدواء لإنقاذ[beggars0_possessive] الحيوان الأليف الوفي الذي أصيب على الطريق</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] يحتاج الدواء لمساعدة أخيـ[beggars0_possessive] الرضيع المصاب في مكان قريب</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] يريد الدواء لإنقاذ حيوانـ[beggars0_possessive] الأليف الوفي الذي أصيب على الطريق</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] يحتاج [requestedThing_label] لتطعيم صديق مريض ضد الأمراض القاتلة</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] يريدها لإغراقـ[beggars0_possessive] أحزانه بعد فقدان رفيق سفر في حادث مروع</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] يريدها لإغراق أحزانـ[beggars0_possessive] بعد فقدان رفيق سفر في حادث مروع</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef] يريد [requestedThing_label] للمساعدة في تخفيف معاناة عم مريض بشدة</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->يريدون الفضة ليتمكنوا من فداء صديق اختطف مؤخراً</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->يحتاجون الدواء لمحاولة إجراء عملية منقذة للحياة لرفيق سفر هاجمته الميكانويدات</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->يحتاجون الدواء لإعداد علاج أعشاب لصديق طريح الفراش بحمى شديدة</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->يحتاجون الدواء لمساعدة أصدقائهم في مستوطنة قريبة دمرها المغيرون</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->يحتاجون الدواء لمساعدة أصدقائهم في مستوطنة قريبة دمرها الغزاة</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->يريدون [requestedThing_label] ليتمكنوا من السفر بأمان أثناء بحثهم عن مكان جديد ليستقروا فيه</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->يريدون [requestedThing_label] ليساعدهم على إغراق أحزانهم بعد فقدان منزلهم في هجوم مروع</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->يأملون استخدام [requestedThing_label] لتحرير صديقهم من تجار العبيد بجعلهم مخمورين قبل القيام بعملية الهروب</li>
-    <li>interactionInfo(beggarCount==1)->يمكنك إعطاء الأغراض لـ[beggars0_nameDef] عن طريق اختيار مستعمر والنقر بزر الفأرة الأيمن عليه</li>
-    <li>interactionInfo(beggarCount>=2)->يمكنك إعطاء الأغراض لل[groupLabelPlural] عن طريق اختيار مستعمر والنقر بزر الفأرة الأيمن على [beggars0_nameDef]</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->يأملون استخدام [requestedThing_label] لتحرير صديقهم من تجار العبيد بجعلهم مخمورين قبل تنفيذ عملية الهروب</li>
+    <li>interactionInfo(beggarCount==1)->يمكنك إعطاء العناصر لـ[beggars0_nameDef] بتحديد مستعمر والنقر بزر الفأرة الأيمن عليـ[beggars0_objective]</li>
+    <li>interactionInfo(beggarCount>=2)->يمكنك إعطاء العناصر لل[groupLabelPlural] عن طريق اختيار مستعمر والنقر بزر الفأرة الأيمن على [beggars0_nameDef]</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] سيرحل بعد [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->ال[groupLabelPlural] سيرحلون بعد [visitDurationTicks_duration]</li>
  </Beggars.questDescriptionRules.rulesStrings>

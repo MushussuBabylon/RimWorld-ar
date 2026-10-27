@@ -47,9 +47,9 @@
   <!-- EN: not enough stored -->
   <NotEnoughStoredLower>لا يوجد ما يكفي في المخزن</NotEnoughStoredLower>
   <!-- EN: nothing -->
-  <NothingLower>لاشيء</NothingLower>
+  <NothingLower>لا شيء</NothingLower>
   <!-- EN: Nothing -->
-  <Nothing>لاشيء</Nothing>
+  <Nothing>لا شيء</Nothing>
   <!-- EN: Adapted -->
   <Adapted>متأقلم</Adapted>
   <!-- EN: fresh -->
@@ -95,7 +95,7 @@
   <!-- EN: Drop -->
   <DropThing>إسقاط</DropThing>
   <!-- EN: Temporary faction members will not drop their items. -->
-  <DropThingLodger>لن يسقط أعضاء الفصيل المؤقتون أغراضهم.</DropThingLodger>
+  <DropThingLodger>لن يسقط أعضاء الفصيل المؤقتون عناصرهم.</DropThingLodger>
   <!-- EN: This person refuses to drop this. -->
   <DropThingLocked>يرفض هذا الشخص إسقاط هذا.</DropThingLocked>
   <!-- EN: Rename -->
@@ -113,7 +113,7 @@
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>تم تحديد {0_labelShort} للإعدام. سيقوم أول حارس متاح بتنفيذ حكم الإعدام فيـ{0_objective}.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
-  <TitleOfFaction>{0} الخاص بـ {1}</TitleOfFaction>
+  <TitleOfFaction>{0} الخاص بـ{1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>سيؤدي هذا الإجراء إلى جعل {PAWN_nameDef} يفقد لقبـ{PAWN_possessive} {TITLE}. لن تتلقى أي تعويض عن التنازل عن اللقب.\n\nسيكون لهذا التأثيرات التالية:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
@@ -121,7 +121,7 @@
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>سيفقد {PAWN_nameDef} عدد {POINTS} من نقاط التصاريح غير المستخدمة لدى {FACTION_name}.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>سيحتفظ {PAWN_pronoun} بجميع مستويات الـوصلات النفسية والـقدرات النفسية الخاصة به.</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>سيحتفظ {PAWN_pronoun} بجميع مستويات وصلتـ{PAWN_possessive} النفسية وبكل القدرات النفسية.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>مجهول</UnknownLower>
   <!-- EN: On -->
@@ -253,7 +253,7 @@
   <!-- EN: Attacking {0}. -->
   <CaravanAttacking>يهاجم {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>يقدم هدايا لـ {0}.</CaravanOfferingGifts>
+  <CaravanOfferingGifts>يقدم هدايا لـ{0}.</CaravanOfferingGifts>
   <!-- EN: Trading with {0}. -->
   <CaravanTrading>يتداول مع {0}.</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
@@ -309,7 +309,7 @@
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>لا يوجد وقود كافٍ</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
-  <SettlementTrader>{0} الخاص بـ {1}</SettlementTrader>
+  <SettlementTrader>{0} الخاص بـ{1}</SettlementTrader>
   <!-- EN: Surgery success chance multiplier from room -->
   <RoomSurgerySuccessChanceFactor>مضاعف احتمالية نجاح الجراحة من الغرفة</RoomSurgerySuccessChanceFactor>
   <!-- EN: Infection chance multiplier from room -->
@@ -423,7 +423,7 @@
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} مع {1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <EnterCooldown>خطير جداً لإعادة الدخول لـ {0}.</EnterCooldown>
+  <EnterCooldown>خطير جداً لإعادة الدخول لـ{0}.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>قافلة</Caravan>
   <!-- EN: there may be danger there. -->
@@ -455,11 +455,11 @@
   <!-- EN: animals -->
   <AnimalsLower>حيوانات</AnimalsLower>
   <!-- EN: items -->
-  <ItemsLower>أغراض</ItemsLower>
+  <ItemsLower>عناصر</ItemsLower>
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
-  <FilthLabelWithSource>{0} الخاص بـ {1} x{2}</FilthLabelWithSource>
+  <FilthLabelWithSource>{0} الخاص بـ{1} x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
   <Required>مطلوب</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
@@ -469,7 +469,7 @@
   <!-- EN: prisoners -->
   <PrisonersLower>سجناء</PrisonersLower>
   <!-- EN: Click to view this quest in quests tab -->
-  <ClickToViewInQuestsTab>انقر لعرض هذه المهمة في علامة تبويب المهام</ClickToViewInQuestsTab>
+  <ClickToViewInQuestsTab>انقر لعرض هذه المهمة في تبويب المهام</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
   <Mood>المزاج</Mood>
   <!-- EN: Quest -->
@@ -547,7 +547,7 @@
   <!-- EN: Has subquest -->
   <HasSubquest>لديها مهمة فرعية</HasSubquest>
   <!-- EN: Subquest of -->
-  <SubquestOf>مهمة فرعية لـ</SubquestOf>
+  <SubquestOf>مهمة فرعية ضمن</SubquestOf>
   <!-- EN: Raid -->
   <Raid>غارة</Raid>
   <!-- EN: Disabled by -->
@@ -736,7 +736,7 @@
   <!-- EN: Shrink -->
   <ShrinkArea>تقليص</ShrinkArea>
   <!-- EN: Maximum {0} areas allowed. -->
-  <MaxAreasReached>يسمح بـ {0} منطقة كحد أقصى.</MaxAreasReached>
+  <MaxAreasReached>يسمح بـ{0} منطقة كحد أقصى.</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
@@ -756,9 +756,9 @@
   <!-- EN: Roped by -->
   <RopedByPawn>مقيد بواسطة</RopedByPawn>
   <!-- EN: Roped to -->
-  <RopedToThing>مقيد بـ</RopedToThing>
+  <RopedToThing>مربوط بحبل إلى</RopedToThing>
   <!-- EN: Roped to spot. -->
-  <RopedToSpot>مقيد في الموقع.</RopedToSpot>
+  <RopedToSpot>مقيد في المكان.</RopedToSpot>
   <!-- EN: Pen size -->
   <PenSizeLabel>حجم الحظيرة</PenSizeLabel>
   <!-- EN: Very small pen -->
@@ -839,7 +839,7 @@
   <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{1_labelShort} ليس مجنداً.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
-  <ApparelPreventsShooting>لا يمكن لـ {PAWN_nameDef} استخدام أسلحة المدى بسبب {APPAREL_label} الخاص به.</ApparelPreventsShooting>
+  <ApparelPreventsShooting>لا يمكن لـ{PAWN_nameDef} استخدام أسلحة المدى بسبب ارتداء{PAWN_possessive} {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>لا يمكن استخدامه في {0}</CannotUseReason_PocketMap>
   <!-- EN: Range reduced -->
@@ -997,7 +997,7 @@
   <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>سيكون الممتنع عن المسكرات غير سعيد</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
-  <ProsthophobeUnhappy>سيكون محب الجسد الطبيعي غير سعيد</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>سيكون محب الجسم الطبيعي غير سعيد</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
@@ -1019,7 +1019,7 @@
   <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0} الخاص بـ {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{0} الخاص بـ{1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
   <PawnTitleDescWrap>{0} في {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
@@ -1035,7 +1035,7 @@
   <!-- EN: Equipped -->
   <Equipped>مجهز</Equipped>
   <!-- EN: nothing -->
-  <EquippedNothing>لاشيء</EquippedNothing>
+  <EquippedNothing>لا شيء</EquippedNothing>
   <!-- EN: Dead -->
   <Dead>ميت</Dead>
   <!-- EN: Unconscious -->
@@ -1077,7 +1077,7 @@
 
   <!-- like 'Blood of John' -->
   <!-- EN: of -->
-  <OfLower>الخاص بـ</OfLower>
+  <OfLower>من</OfLower>
 
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
@@ -1183,7 +1183,7 @@
   <!-- EN: Never -->
   <NoGrowingPeriod>أبداً</NoGrowingPeriod>
   <!-- EN: Year-round -->
-  <GrowYearRound>طوال العام</GrowYearRound>
+  <GrowYearRound>طوال السنة</GrowYearRound>
   <!-- EN: Growing season here now. -->
   <GrowSeasonHereNow>موسم النمو هنا الآن.</GrowSeasonHereNow>
   <!-- EN: Cannot grow (bad seasonal temperature). -->
@@ -1215,7 +1215,7 @@
   <!-- EN: Stockpile zone -->
   <Stockpile>منطقة تخزين</Stockpile>
   <!-- EN: stockpile -->
-  <StockpileGroup>تخزين</StockpileGroup>
+  <StockpileGroup>منطقة تخزين</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>منطقة رمي النفايات</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1319,7 +1319,7 @@
   <!-- EN: Click to jump to the source. -->
   <ClickToJumpToSource>انقر للانتقال إلى المصدر.</ClickToJumpToSource>
   <!-- EN: Click to jump to the flashstorm. -->
-  <ClickToJumpToFlashstorm>انقر للانتقال إلى العاصفة المفاجئة.</ClickToJumpToFlashstorm>
+  <ClickToJumpToFlashstorm>انقر للانتقال إلى عاصفة البرق الخاطفة.</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
   <CausedByQuest>بسبب المهمة: {0}</CausedByQuest>
 
@@ -1395,9 +1395,9 @@
   <!-- EN: No settlement to return to. Form a settlement first. -->
   <ShipNoSettlementToReturnTo>لا توجد مستوطنة للعودة إليها. قم بإنشاء مستوطنة أولاً.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)شارلون وايتستون(/Name) جاهز لبدء تسلسل استعادة سبات المفاعل.\n\nيحذرك من أن العملية ستستغرق حوالي 15 يوماً، وسيكون من الممكن اكتشاف بصمة الطاقة من مسافة بعيدة.\n\nهذا النوع من بصمة الطاقة يشير إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من المغيرين اليائسين وأسراباً من الميكانويدات الفتاكة.\n\nستتعرض لهجوم بشدة لم ترَ مثله من قبل. تأكد من استعداد دفاعاتك أولاً.</HibernateWarning>
+  <HibernateWarning>(*Name)شارلون وايتستون(/Name) جاهز لبدء تسلسل استعادة سبات المفاعل.\n\nيحذرك من أن العملية ستستغرق حوالي 15 يوماً، وسيكون من الممكن اكتشاف بصمة الطاقة من مسافة بعيدة.\n\nهذا النوع من بصمة الطاقة يشير إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من الغزاة اليائسين وأسراباً من الميكانويدات الفتاكة.\n\nستتعرض لهجوم بشدة لم ترَ مثله من قبل. تأكد من استعداد دفاعاتك أولاً.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>المفاعل جاهز للتشغيل.\n\nستستغرق العملية حوالي 15 يوماً، وسيكون من الممكن اكتشاف بصمة الطاقة من مسافة بعيدة. يشير هذا النوع من بصمة الطاقة إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من المغيرين اليائسين وأسراباً من الميكانويدات الفتاكة.\n\nستتعرض لهجوم بشدة لم ترَ مثله من قبل. تأكد من استعداد دفاعاتك أولاً.</HibernateWarningStandalone>
+  <HibernateWarningStandalone>المفاعل جاهز للتشغيل.\n\nستستغرق العملية حوالي 15 يوماً، وسيكون من الممكن اكتشاف بصمة الطاقة من مسافة بعيدة. يشير هذا النوع من بصمة الطاقة إلى قدرة على الطيران بين النجوم، وسيجذب عصابات من الغزاة اليائسين وأسراباً من الميكانويدات الفتاكة.\n\nستتعرض لهجوم بشدة لم ترَ مثله من قبل. تأكد من استعداد دفاعاتك أولاً.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>(*Name)شارلون وايتستون(/Name) جاهز لبدء تسلسل استعادة سبات المفاعل. يحذرك من أن العملية ستستغرق حوالي 15 يوماً.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
@@ -1501,7 +1501,7 @@
   <!-- EN: inactive -->
   <InactiveFacility>غير نشط</InactiveFacility>
   <!-- EN: Links to -->
-  <FacilityPotentiallyLinkedTo>يرتبط بـ</FacilityPotentiallyLinkedTo>
+  <FacilityPotentiallyLinkedTo>يرتبط مع</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>غير مرتبط بمبنى</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
@@ -1677,11 +1677,11 @@
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>{0_title} يبلغ من العمر {0_age} عاماً يدعى {0_nameDef} سيصل في كبسولة نقل {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <Reward_Pawn_DropPod>{0_title} يبلغ من العمر {0_age} سنةً يدعى {0_nameDef} سيصل في كبسولة نقل {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>{0_title} يبلغ من العمر {0_age} عاماً يدعى {0_nameDef} سيصل وينضم إليك {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <Reward_Pawn_WalkIn>{0_title} يبلغ من العمر {0_age} سنةً يدعى {0_nameDef} سيصل وينضم إليك {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>{0_title} يبلغ من العمر {0_age} عاماً يدعى {0_nameDef} سينضم إليك {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>{0_title} يبلغ من العمر {0_age} سنةً يدعى {0_nameDef} سينضم إليك {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
   <Reward_Items>ستصل كبسولات نقل تحتوي على الموارد التالية (القيمة الإجمالية {1}):\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):\n\n{0} -->
@@ -1699,15 +1699,15 @@
   <!-- EN: It is unclear what will happen if you accept this quest -->
   <Reward_Unknown>ليس من الواضح ما سيحدث إذا قبلت هذه المهمة</Reward_Unknown>
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>غير معروف</Reward_Unknown_Label>
+  <Reward_Unknown_Label>مجهول</Reward_Unknown_Label>
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>سيعمل الزوار ويقاتلون من أجلك</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
   <Reward_VisitorsHelp_Label>مساعدة الزوار</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
-  <Reward_BestowingCeremony_Label>مستوى ربط نفسي جديد</Reward_BestowingCeremony_Label>
+  <Reward_BestowingCeremony_Label>مستوى وصلة نفسية جديد</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
-  <Reward_BestowingCeremony>يكتسب {PAWNNAME} ربطاً نفسياً</Reward_BestowingCeremony>
+  <Reward_BestowingCeremony>يكتسب {PAWNNAME} وصلة نفسية</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
   <Reward_ShuttleLoot_Label>نهب المكوك</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
@@ -1835,7 +1835,7 @@
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>عبد. ممتلكات بشرية للآخرين.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} نائم. إذا تم إدراجه في الحدث، فسوف يستيقظ للمشاركة.</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>{0_labelShort} نائم. إذا أُدرج في الحدث، فسوف يستيقظ {0_pronoun} للمشاركة.</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
   <RitualBeginSleepingWarning>بعض المشاركين المختارين نائمون. سيستيقظون بمجرد بدء الحدث.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
@@ -1877,7 +1877,7 @@
   <DateRitualNoObligation>{0} هو طقس محدد بتاريخ. ستتمكن من بدئه في {1}، في {2}.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>استبدل بـ</PreceptReplaceWith>
+  <PreceptReplaceWith>التغيير إلى</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
   <RitualSeatOf>مقعد طقوس {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
@@ -1937,7 +1937,7 @@
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>يجب أن يكون مجنداً.</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>القدرة في فترة تهدئة. ستكون متاحة في {0}.</AbilityOnCooldown>
+  <AbilityOnCooldown>القدرة في فترة انتظار. ستكون متاحة في {0}.</AbilityOnCooldown>
   <!-- EN: ability out of charges. -->
   <AbilityNoCharges>القدرة نفدت شحناتها.</AbilityNoCharges>
   <!-- EN: ability already queued. -->
@@ -1976,7 +1976,7 @@
   <ShieldPersonalTip>درع شخصي سيحاول إيقاف القذائف أو الشظايا القادمة. يمنع من يرتديه من إطلاق النار للخارج، ويتوقف فوراً إذا أصيب بنبضة كهرومغناطيسية (EMP).</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
-  <UnrecruitableDesc>{PAWN_nameDef} مخلص جداً لوطنه لدرجة أنه سيرفض التجنيد إذا تم أسره.</UnrecruitableDesc>
+  <UnrecruitableDesc>{PAWN_nameDef} مخلص جداً لوطنـ{PAWN_possessive} لدرجة أنه سيرفض {PAWN_pronoun} التجنيد إذا أُسر.</UnrecruitableDesc>
 
   <!-- EN: Random -->
   <Random>عشوائي</Random>
@@ -2157,11 +2157,11 @@
   <!-- EN: Shield energy -->
   <ShieldEnergy>طاقة الدرع</ShieldEnergy>
   <!-- EN: Shield cooldown -->
-  <ShieldTimeToRecovery>فترة تهدئة الدرع</ShieldTimeToRecovery>
+  <ShieldTimeToRecovery>فترة انتظار الدرع</ShieldTimeToRecovery>
   <!-- EN: Shield duration -->
   <ShieldDuration>مدة الدرع</ShieldDuration>
   <!-- EN: On cooldown -->
-  <ShieldOnCooldown>في فترة تهدئة</ShieldOnCooldown>
+  <ShieldOnCooldown>في فترة انتظار</ShieldOnCooldown>
   <!-- EN: Below minimum energy -->
   <ShieldBelowMinHitpoints>أقل من الحد الأدنى للطاقة</ShieldBelowMinHitpoints>
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->

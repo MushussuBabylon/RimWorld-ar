@@ -40,7 +40,7 @@
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
   <GameUpdatedToNewVersionNonSteam>نظراً لأن هذه نسخة خالية من إدارة الحقوق الرقمية (DRM-free)، يمكنك تثبيت اللعبة مرتين في مجلدين مختلفين، لتتمكن من لعب كلا الإصدارين القديم والجديد.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
-  <GameUpdatedToNewVersionSteam>إذا كنت ترغب في الاستمرار بالإصدار القديم، يمكنك الاشتراك باستخدام ميزة "Betas" في Steam.\n\n  1. في مكتبة Steam، انقر بزر الماوس الأيمن على RimWorld.\n  2. انقر على Properties (الخصائص).\n  3. انقر على علامة التبويب Betas.\n  4. حدد الإصدار الذي تريده من القائمة المنسدلة.</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionSteam>إذا كنت ترغب في الاستمرار بالإصدار القديم، يمكنك الاشتراك باستخدام ميزة "Betas" في Steam.\n\n  1. في مكتبة Steam، انقر بزر الماوس الأيمن على RimWorld.\n  2. انقر على Properties (الخصائص).\n  3. انقر على التبويب Betas.\n  4. حدد الإصدار الذي تريده من القائمة المنسدلة.</GameUpdatedToNewVersionSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
   <GameUpdatedToNewVersionSteamController>إذا كنت ترغب في الاستمرار بالإصدار القديم، يمكنك الاشتراك باستخدام ميزة "Betas" في Steam.</GameUpdatedToNewVersionSteamController>
   
@@ -130,7 +130,7 @@
   <!-- EN: Save data was saved with our game version and should work without issue. -->
   <SaveIsFromThisGameBuild>تم حفظ بيانات الحفظ باستخدام إصدار اللعبة الخاص بنا ويجب أن تعمل دون مشاكل.</SaveIsFromThisGameBuild>
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
-  <SaveIsUnknownFormat>بيانات الحفظ بتنسيق غير معروف ومن المؤكد تقريباً أنها لن تُحمَّل بشكل صحيح.</SaveIsUnknownFormat>
+  <SaveIsUnknownFormat>بيانات الحفظ بتنسيق مجهول ومن المؤكد تقريباً أنها لن تُحمَّل بشكل صحيح.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
   <ProblemSavingFile>حدثت مشكلة أثناء حفظ الملف {0}:\n\n{1}\n\nراجع سجل الأخطاء لمزيد من المعلومات.</ProblemSavingFile>
   <!-- EN: Load anyway -->
@@ -192,7 +192,7 @@
   <!-- EN: father -->
   <Father>أب</Father>
   <!-- EN: unknown -->
-  <Unknown>غير معروف</Unknown>
+  <Unknown>مجهول</Unknown>
   <!-- EN: first name -->
   <FirstName>الاسم الأول</FirstName>
   <!-- EN: nickname -->
@@ -317,9 +317,9 @@
   <!-- EN: nutrition -->
   <BillNutrition>تغذية</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>ملاحظة: المكونات صغيرة الحجم مثل الذهب تتطلب مقداراً مضاعفاً بـ {0}x.</BillRequiresMayVary>
+  <BillRequiresMayVary>ملاحظة: المكونات صغيرة الحجم مثل الذهب تتطلب مقداراً مضاعفاً بـ{0}x.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>هذا مكون صغير الحجم. هذا يعني أن كل 'وحدة' تعادل فقط 1/{0} من حجم المكون الطبيعي. لذا، لتلبية نفس متطلبات المكون، ستحتاج إلى مقدار مضاعف بـ {0}x عن المعتاد.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>هذا مكون صغير الحجم. هذا يعني أن كل 'وحدة' تعادل فقط 1/{0} من حجم المكون الطبيعي. لذا، لتلبية نفس متطلبات المكون، ستحتاج إلى مقدار مضاعف بـ{0}x عن المعتاد.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>المكونات</UsableIngredients>
   <!-- EN: To {0} -->
@@ -345,7 +345,7 @@
   <!-- EN: Look in {0} -->
   <IncludeSpecific>البحث في {0}</IncludeSpecific>
   <!-- EN: Stockpiles -->
-  <StockpilePlural>المخازن</StockpilePlural>
+  <StockpilePlural>مناطق التخزين</StockpilePlural>
   <!-- EN: Shelves -->
   <ShelfPlural>الأرفف</ShelfPlural>
   <!-- EN: Groups -->
@@ -381,13 +381,13 @@
   <!-- EN: Aiming time -->
   <RangedWarmupTime>وقت التصويب</RangedWarmupTime>
   <!-- EN: Cooldown -->
-  <CooldownTime>فترة التبريد</CooldownTime>
+  <CooldownTime>فترة الانتظار</CooldownTime>
   <!-- EN: Disarmed -->
   <DisarmedTime>منزوع السلاح</DisarmedTime>
   <!-- EN: Charging -->
   <ChargingTime>الشحن</ChargingTime>
   <!-- EN: Next recharge (for {1}) in: {0}\nCharge cycle: {2} -->
-  <ChargingNext>الشحنة التالية (لـ {1}) في: {0}\nدورة الشحن: {2}</ChargingNext>
+  <ChargingNext>الشحنة التالية (لـ{1}) في: {0}\nدورة الشحن: {2}</ChargingNext>
   <!-- EN: Shut down -->
   <ShutDown>إيقاف التشغيل</ShutDown>
   <!-- EN: Fire rate -->
@@ -483,7 +483,7 @@
   <!-- EN: Time -->
   <TimeRecordsCategory>الوقت</TimeRecordsCategory>
   <!-- EN: Misc -->
-  <MiscRecordsCategory>متفرقات</MiscRecordsCategory>
+  <MiscRecordsCategory>متنوعات</MiscRecordsCategory>
   <!-- EN: Chemical -->
   <Chemical>مادة كيميائية</Chemical>
   <!-- EN: High gain per dose -->
@@ -535,7 +535,7 @@
   <!-- EN: Pack animal -->
   <PackAnimal>حيوان تحميل</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
-  <PackAnimalExplanation>ما إذا كان هذا الحيوان مناسباً للاستخدام في حمل الأشياء في القافلة لمسافات طويلة.</PackAnimalExplanation>
+  <PackAnimalExplanation>ما إذا كان هذا الحيوان مناسباً للاستخدام في حمل العناصر في القافلة لمسافات طويلة.</PackAnimalExplanation>
   <!-- EN: Skill -->
   <Skill>المهارة</Skill>
   <!-- EN: Success rate multiplier -->
@@ -543,9 +543,9 @@
   <!-- EN: Death chance on fail -->
   <SurgeryDeathOnFailChance>فرصة الموت عند الفشل</SurgeryDeathOnFailChance>
   <!-- EN: Work speed governed by -->
-  <WorkSpeedStat>سرعة العمل محكومة بـ</WorkSpeedStat>
+  <WorkSpeedStat>سرعة العمل تحكمها</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
-  <EfficiencyStat>كمية الإخراج محكومة بـ</EfficiencyStat>
+  <EfficiencyStat>كمية الإخراج تحكمها</EfficiencyStat>
   <!-- EN: {0} skill required -->
   <SkillRequiredToBuild>يتطلب مهارة {0}</SkillRequiredToBuild>
   <!-- EN: Requires this level of {0} in order to build. -->
@@ -693,7 +693,7 @@
   <!-- EN: If purchased, this person will join your colony as a colonist. -->
   <JoinsAsColonistDesc>إذا تم الشراء، سينضم هذا الشخص إلى مستوطنتك كمستعمر.</JoinsAsColonistDesc>
   <!-- EN: Trading drugs bonus -->
-  <TradingDrugsBonus>مكافأة تجارة المخدرات</TradingDrugsBonus>
+  <TradingDrugsBonus>مكافأة تجارة العقاقير</TradingDrugsBonus>
   <!-- EN: minimum -->
   <minimum>الحد الأدنى</minimum>
   <!-- EN: Final price -->
@@ -711,7 +711,7 @@
   <!-- EN: Things this trader will buy -->
   <SellableItemsTitle>الأشياء التي سيشتريها هذا التاجر</SellableItemsTitle>
   <!-- EN: Never visited - stock unknown -->
-  <TraderNotVisitedYet>لم يتم زيارته أبداً - المخزون غير معروف</TraderNotVisitedYet>
+  <TraderNotVisitedYet>لم يتم زيارته أبداً - المخزون مجهول</TraderNotVisitedYet>
   <!-- EN: Restocked since your last visit -->
   <TraderRestockedSinceLastVisit>تم إعادة التخزين منذ زيارتك الأخيرة</TraderRestockedSinceLastVisit>
   <!-- EN: Next restock: {0} days -->
@@ -775,7 +775,7 @@
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(يتم أخذ نقطة الطريق الأولى فقط في الاعتبار)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
-  <DaysWorthOfFoodWarningDialog>قافلتك لديها طعام يكفي لـ {0} أيام فقط وستصبح جائعة بسرعة.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog>قافلتك لديها طعام يكفي لـ{0} أيام فقط وستصبح جائعة بسرعة.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
   <DaysWorthOfFoodDietWarningDialog>بعض الأنظمة الغذائية للأشخاص لا تسمح بمعظم الطعام الموجود في قافلتك. إذا أُجبروا على تناوله بسبب الجوع، سيصبحون غير سعداء.</DaysWorthOfFoodDietWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
@@ -915,7 +915,7 @@
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
   <TransporterSingleItemIsUnreachableMulti>لا يوجد مسار بين المكوك و {0}x {1}.</TransporterSingleItemIsUnreachableMulti>
   <!-- EN: Only {0} colonists maximum allowed. -->
-  <TransporterSingleTooManyColonists>يُسمح بـ {0} مستعمر كحد أقصى.</TransporterSingleTooManyColonists>
+  <TransporterSingleTooManyColonists>يُسمح بـ{0} مستعمر كحد أقصى.</TransporterSingleTooManyColonists>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -979,19 +979,19 @@
   
   <!-- Drug policy management -->
   <!-- EN: Drug policies -->
-  <DrugPolicyTitle>سياسات المخدرات</DrugPolicyTitle>
+  <DrugPolicyTitle>سياسات العقاقير</DrugPolicyTitle>
   <!-- EN: Create and manage templates for controlling which drugs your colonists are allowed to consume. -->
-  <DrugPolicyTip>قم بإنشاء وإدارة القوالب للتحكم في المخدرات المسموح لمستعمريك باستهلاكها.</DrugPolicyTip>
+  <DrugPolicyTip>قم بإنشاء وإدارة القوالب للتحكم في العقاقير المسموح لمستعمريك باستهلاكها.</DrugPolicyTip>
   <!-- EN: Drug policy -->
-  <DrugPolicy>سياسة المخدرات</DrugPolicy>
+  <DrugPolicy>سياسة العقاقير</DrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
-  <DrugPolicyInUse>سياسة المخدرات قيد الاستخدام بواسطة {0}.</DrugPolicyInUse>
+  <DrugPolicyInUse>سياسة العقاقير قيد الاستخدام بواسطة {0}.</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
   <FoodRestrictionInUse>تقييد الطعام قيد الاستخدام بواسطة {0}.</FoodRestrictionInUse>
   <!-- EN: Add drug... -->
-  <AddDrug>إضافة مخدر...</AddDrug>
+  <AddDrug>إضافة عقار...</AddDrug>
   <!-- EN: Drug -->
-  <DrugColumnLabel>مخدر</DrugColumnLabel>
+  <DrugColumnLabel>عقار</DrugColumnLabel>
   <!-- EN: Frequency -->
   <FrequencyColumnLabel>التردد</FrequencyColumnLabel>
   <!-- EN: Only if mood below -->
@@ -1001,7 +1001,7 @@
   <!-- EN: Keep in inventory -->
   <TakeToInventoryColumnLabel>احتفظ في المخزون</TakeToInventoryColumnLabel>
   <!-- EN: (no drugs) -->
-  <NoDrugsBrackets>(لا مخدرات)</NoDrugsBrackets>
+  <NoDrugsBrackets>(لا عقاقير)</NoDrugsBrackets>
   <!-- EN: Every day -->
   <EveryDay>كل يوم</EveryDay>
   <!-- EN: {0} times per day -->
@@ -1011,23 +1011,23 @@
   <!-- EN: Any -->
   <NoDrugUseRequirement>أي شيء</NoDrugUseRequirement>
   <!-- EN: Delete this drug. -->
-  <DeleteDrugTooltip>حذف هذا المخدر.</DeleteDrugTooltip>
+  <DeleteDrugTooltip>حذف هذا العقار.</DeleteDrugTooltip>
   <!-- EN: The name of a drug. -->
-  <DrugNameColumnDesc>اسم المخدر.</DrugNameColumnDesc>
+  <DrugNameColumnDesc>اسم العقار.</DrugNameColumnDesc>
   <!-- EN: How often the colonists should try to take this drug. -->
-  <FrequencyColumnDesc>كم مرة يجب أن يحاول المستعمرون أخذ هذا المخدر.</FrequencyColumnDesc>
+  <FrequencyColumnDesc>كم مرة يجب أن يحاول المستعمرون أخذ هذا العقار.</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
-  <MoodThresholdColumnDesc>سيأخذ المستعمرون هذا المخدر فقط إذا كان مستوى مزاجهم أقل من هذا الحد.</MoodThresholdColumnDesc>
+  <MoodThresholdColumnDesc>سيأخذ المستعمرون هذا العقار فقط إذا كان مستوى مزاجهم أقل من هذا الحد.</MoodThresholdColumnDesc>
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
-  <JoyThresholdColumnDesc>سيأخذ المستعمرون هذا المخدر فقط إذا كان مستوى الترفيه لديهم أقل من هذا الحد.</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>سيأخذ المستعمرون هذا العقار فقط إذا كان مستوى الترفيه لديهم أقل من هذا الحد.</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
-  <TakeToInventoryColumnDesc>كمية إضافية من المخدر يتم أخذها عند جمعها للاستهلاك، لتجنب الاضطرار إلى زيارة مخزون المخدرات في كل مرة.</TakeToInventoryColumnDesc>
+  <TakeToInventoryColumnDesc>كمية إضافية من العقار يتم أخذها عند جمعها للاستهلاك، لتجنب الاضطرار إلى زيارة منطقة تخزين العقاقير في كل مرة.</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForAddiction>للإدمان\n\nاستخدم هذا المخدر لتلبية احتياجات الإدمان الموجودة بالفعل.\n\nحتى لو كان معطلاً، قد تستخدمه بعض الشخصيات ذات السمات المحددة، أو أثناء الانهيارات العقلية، على أي حال.</DrugUsageTipForAddiction>
+  <DrugUsageTipForAddiction>للإدمان\n\nاستخدم هذا العقار لتلبية احتياجات الإدمان الموجودة بالفعل.\n\nحتى لو كان معطلاً، قد تستخدمه بعض الشخصيات ذات السمات المحددة، أو أثناء الانهيارات العقلية، على أي حال.</DrugUsageTipForAddiction>
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForJoy>للترفيه\n\nاستخدم هذا المخدر لأغراض ترفيهية واجتماعية.\n\nحتى لو كان معطلاً، قد تستخدمه بعض الشخصيات ذات السمات المحددة، أو أثناء الانهيارات العقلية، على أي حال.</DrugUsageTipForJoy>
+  <DrugUsageTipForJoy>للترفيه\n\nاستخدم هذا العقار لأغراض ترفيهية واجتماعية.\n\nحتى لو كان معطلاً، قد تستخدمه بعض الشخصيات ذات السمات المحددة، أو أثناء الانهيارات العقلية، على أي حال.</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
-  <DrugUsageTipScheduled>مجدول\n\nاستخدم هذا المخدر في جدول زمني محدد، عند استيفاء شروط معينة.</DrugUsageTipScheduled>
+  <DrugUsageTipScheduled>مجدول\n\nاستخدم هذا العقار في جدول زمني محدد، عند استيفاء شروط معينة.</DrugUsageTipScheduled>
 
   <!-- Food restriction management -->
   <!-- EN: Food policies -->
@@ -1078,7 +1078,7 @@
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>الإعدادات الطبية الافتراضية</DefaultMedicineSettings>
   <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
-  <DefaultMedicineSettingsDesc>يتم تعيين هذه الإعدادات الطبية للمخلوقات عندما تنضم لأول مرة إلى مجموعة معينة. يمكنك تعيين إعداد يدوياً لفرد ما في علامة تبويب الصحة الخاصة به.\n\nملاحظة: إذا انضم المخلوق إلى مجموعة جديدة، فسيأخذ دائماً إعدادات تلك المجموعة، حتى لو كنت قد عينت له إعداداً مسبقاً.</DefaultMedicineSettingsDesc>
+  <DefaultMedicineSettingsDesc>يتم تعيين هذه الإعدادات الطبية للمخلوقات عندما تنضم لأول مرة إلى مجموعة معينة. يمكنك تعيين إعداد يدوياً لفرد ما في تبويب الصحة الخاص به.\n\nملاحظة: إذا انضم المخلوق إلى مجموعة جديدة، فسيأخذ دائماً إعدادات تلك المجموعة، حتى لو كنت قد عينت له إعداداً مسبقاً.</DefaultMedicineSettingsDesc>
   
   <!-- EN: Defaults -->
   <MedGroupDefaults>الافتراضيات</MedGroupDefaults>
@@ -1163,7 +1163,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>هل أنت متأكد أنك تريد تنظيف جميع ملفات الترجمة للغة {0}؟\n\nسيؤدي هذا إلى:\n  - إضافة عناصر نائبة للترجمات المفقودة المفتاحية، والترجمات المحقونة، والقصص الخلفية\n  - إضافة أو تحديث التعليقات التي تحتوي على النص الأصلي غير المترجم\n  - نقل جميع الترجمات المفتاحية والمحقونة إلى ملفات XML المناسبة\n  - تطبيق التنسيق التلقائي على جميع ملفات XML\n  - تحديث أسماء التعريفات المتوافقة مع الإصدارات السابقة\n  - إزالة جميع تعليقات XML الموجودة (باستثناء حقن القائمة الكاملة)\n\nلن تتم إزالة أو تعديل الملفات غير التابعة لـ XML.\n\nتذكر إعادة تشغيل اللعبة بعد تعديل ملفات اللغة قبل تشغيل هذه الأداة من أجل إعادة تحميل جميع البيانات.\n\nتأكد من عمل نسخة احتياطية لجميع ملفات الترجمة قبل استخدام هذه الأداة.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>هل أنت متأكد أنك تريد تنظيف جميع ملفات الترجمة للغة {0}؟\n\nسيؤدي هذا إلى:\n  - إضافة عناصر نائبة للترجمات المفقودة المفتاحية، والترجمات المحقونة، والقصص الخلفية\n  - إضافة أو تحديث التعليقات التي تحتوي على النص الأصلي غير المترجم\n  - نقل جميع الترجمات المفتاحية والمحقونة إلى ملفات XML المناسبة\n  - تطبيق التنسيق التلقائي على جميع ملفات XML\n  - تحديث أسماء التعريفات المتوافقة مع الإصدارات السابقة\n  - إزالة جميع تعليقات XML الموجودة (باستثناء حقن القائمة الكاملة)\n\nلن تتم إزالة أو تعديل الملفات غير التابعة لـXML.\n\nتذكر إعادة تشغيل اللعبة بعد تعديل ملفات اللغة قبل تشغيل هذه الأداة من أجل إعادة تحميل جميع البيانات.\n\nتأكد من عمل نسخة احتياطية لجميع ملفات الترجمة قبل استخدام هذه الأداة.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>نعم، لدي نسخة احتياطية</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1223,7 +1223,7 @@
   <!-- EN: {PAWN_labelShort} has no healable injuries. -->
   <AbilityCannotCastNoHealableInjury>ليس لدى {PAWN_labelShort} أي إصابات قابلة للشفاء.</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
-  <AbilityCantApplyWrongAttractionGender>{1_labelShort} من الجنس الخاطئ بالنسبة لـ {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
+  <AbilityCantApplyWrongAttractionGender>{1_labelShort} من الجنس الخاطئ بالنسبة لـ{0_labelShort}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
   <AbilityCantApplyTooYoung>{0_labelShort} صغير جداً.</AbilityCantApplyTooYoung>
   <!-- EN: Cannot target a baby. -->
@@ -1235,13 +1235,13 @@
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_labelShort} لا يمكنه الحصول على إلهام في الوقت الحالي.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
-  <AbilityMustBeNotSameIdeo>يجب أن يكون {0_labelShort} من أيديولوجية مختلفة عن {1_labelShort}.</AbilityMustBeNotSameIdeo>
+  <AbilityMustBeNotSameIdeo>يجب أن يكون {0_labelShort} من عقيدة مختلفة عن {1_labelShort}.</AbilityMustBeNotSameIdeo>
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
-  <AbilityMustBeSameIdeo>يجب أن يكون {0_labelShort} من نفس أيديولوجية {1_labelShort}.</AbilityMustBeSameIdeo>
+  <AbilityMustBeSameIdeo>يجب أن يكون {0_labelShort} من نفس عقيدة {1_labelShort}.</AbilityMustBeSameIdeo>
   <!-- EN: {0_labelShort} must be sick or injured. -->
   <AbilityMustBeSickOrInjured>يجب أن يكون {0_labelShort} مريضاً أو مصاباً.</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
-  <AbilityMustBeSameIdeoCounsel>{0} يمكنه فقط تقديم المشورة لـ {1}s.</AbilityMustBeSameIdeoCounsel>
+  <AbilityMustBeSameIdeoCounsel>{0} يمكنه فقط تقديم المشورة لـ{1}s.</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->
   <AbilityMustBeNotGuilty>{0_labelShort} يُعتبر مذنباً بالفعل.</AbilityMustBeNotGuilty>
   <!-- EN: Must target a human. -->
@@ -1267,7 +1267,7 @@
   <!-- EN: Induce psychic love in -->
   <PsychicLoveInduceIn>حث الحب النفسي في</PsychicLoveInduceIn>
   <!-- EN: Psychic love for -->
-  <PsychicLoveFor>حب نفسي لـ</PsychicLoveFor>
+  <PsychicLoveFor>حب نفسي تجاه</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
   <FarskipConfirmTeleportingLodger>إذا قمت بتخطي {PAWN_labelShort} إلى خريطة أخرى أو قافلة، فستفشل المهمة المرتبطة وسيغادر {PAWN_pronoun} على الفور.\n\nهل تريد حقاً تخطي {PAWN_labelShort} بعيداً؟</FarskipConfirmTeleportingLodger>
   
@@ -1346,7 +1346,7 @@
   <!-- EN: room area: {0} tiles -->
   <RoomRequirementArea>مساحة الغرفة: {0} خلية</RoomRequirementArea>
   <!-- EN: room impressiveness -->
-  <RoomRequirementImpressiveness>روعة الغرفة</RoomRequirementImpressiveness>
+  <RoomRequirementImpressiveness>فخامة الغرفة</RoomRequirementImpressiveness>
   <!-- EN: all floored -->
   <RoomRequirementAllFloored>كلها مفروشة</RoomRequirementAllFloored>
   <!-- EN: all braziers must be lit -->

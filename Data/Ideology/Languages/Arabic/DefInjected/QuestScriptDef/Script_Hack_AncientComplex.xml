@@ -6,14 +6,14 @@
     <li>allTerminalsHackedMessage->You've hacked all of the terminals and discovered secret information about [relic_name]! You can now leave.</li>
   -->
   <AncientComplex_Standard.questContentRules.rulesStrings>
-    <li>terminalHackedMessage->تم اختراق الطرفية. {COUNT} / [terminalCount] مكتمل.</li>
+    <li>terminalHackedMessage->اختُرقت الطرفية. المكتمل: {COUNT} / [terminalCount].</li>
     <li>allTerminalsHackedMessage->لقد اخترقت جميع الطرفيات واكتشفت معلومات سرية عن [relic_name]! يمكنك الآن المغادرة.</li>
  </AncientComplex_Standard.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You've learned of an ancient complex nearby. It is said to contain information about [relic_name].\n\nIf you can break into the structure and hack the computers inside, you can collect the information.\n\nWatch out - there may be all manner of dangers inside, and other enemies may also be attracted by activity at the structure.</li>
   -->
   <AncientComplex_Standard.questDescriptionRules.rulesStrings>
-    <li>questDescription->علمت بوجود مجمع أثري قريب. يقال إنه يحتوي على معلومات عن [relic_name].\n\nإذا استطعت اقتحام البناء واختراق الحواسيب بداخله، يمكنك جمع المعلومات.\n\nاحذر - قد يكون هناك كل أنواع المخاطر في الداخل، وقد تنجذب أيضاً أعداء آخرون للنشاط في الموقع.</li>
+    <li>questDescription->علمت بوجود مجمع أثري قريب. يقال إنه يحتوي على معلومات عن [relic_name].\n\nإذا استطعت اقتحام المنشأة واختراق الحواسيب بداخله، يمكنك جمع المعلومات.\n\nاحذر - قد يكون هناك كل أنواع المخاطر في الداخل، وقد ينجذب أيضاً أعداء آخرون للنشاط في الموقع.</li>
  </AncientComplex_Standard.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=6)->The [complexAdj] [complex]</li>

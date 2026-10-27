@@ -10,10 +10,10 @@
     <li>r_logentry->[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment.</li>
   -->
   <EnslaveAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->أخبر [INITIATOR_nameDef] [RECIPIENT_nameDef] أن على [RECIPIENT_pronoun] العمل لصالح المستعمرة.</li>
-    <li>r_logentry->أبلغ [INITIATOR_nameDef] [RECIPIENT_nameDef] أن على [RECIPIENT_pronoun] طاعة الأوامر والعمل.</li>
+    <li>r_logentry->أخبر [INITIATOR_nameDef] [RECIPIENT_nameDef] أن [RECIPIENT_pronoun] مُلزَم بالعمل لصالح المستعمرة.</li>
+    <li>r_logentry->أبلغ [INITIATOR_nameDef] [RECIPIENT_nameDef] أن [RECIPIENT_pronoun] مُلزَم بطاعة الأوامر والعمل.</li>
     <li>r_logentry->أمر [INITIATOR_nameDef] [RECIPIENT_nameDef] بالاستعداد لحياة عمل قسري.</li>
-    <li>r_logentry->شرح [INITIATOR_nameDef] لـ[RECIPIENT_nameDef] أن على [RECIPIENT_pronoun] العمل أو مواجهة العقاب.</li>
+    <li>r_logentry->شرح [INITIATOR_nameDef] لـ[RECIPIENT_nameDef] أن [RECIPIENT_pronoun] مُلزَم بالعمل وإلا واجه العقاب.</li>
  </EnslaveAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: try to reduce will -->
@@ -101,8 +101,8 @@
     <li>disillusionment->لا خيار له سوى الاستسلام</li>
     <li>givein->يستسلم</li>
     <li>givein->يسلم نفسـ[RECIPIENT_objective]</li>
-    <li>givein->يسلمـ[RECIPIENT_objective] نفسه</li>
-    <li>givein->يخضعـ[RECIPIENT_objective] نفسه</li>
+    <li>givein->يستسلم بنفسـ[RECIPIENT_objective]</li>
+    <li>givein->يُخضع نفسـ[RECIPIENT_objective]</li>
  </ReduceWill.logRulesInitiator.rulesStrings>
   
 </LanguageData>

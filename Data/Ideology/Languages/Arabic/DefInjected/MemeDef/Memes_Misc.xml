@@ -38,29 +38,29 @@
     <li>creation(tag=meme_AnimalPersonhood)        ->خلق [deity0_name] [sacredAnimalList] والإنسان على [place_summary] [place_name] ورباهم كأشقاء.</li>
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->جمع [deity0_name] الحيوانات والبشر من [place_summary] [place_name] في مؤتمر عظيم.</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->بارك [deity0_name] [place_summary] [place_name] بـ[sacredAnimalListEnd]، وعلم الناس هناك أن يكرمّوا الحيوانات.</li>
-    <li>conflict(tag=meme_AnimalPersonhood)        ->أمر [foeLeader] شرير باصطياد الحيوانات البرية، فاصطادها[foeLeader_possessive] [foeSoldiers] بـ[place_personalWeapon] قاسية.</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->جاء [deity0_name] إلى [place_job] يُدعى [founderName] [revelationAdverb] بخصوص [veneratedAnimal]. لكن [founderName] كان هو [veneratedAnimal]، والـ[veneratedAnimal] كان هو [founderName]، وفهم [founder_pronoun] خطة [deity0_name].</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->أمر [foeLeader] شرير باصطياد الحيوانات البرية، فاصطادها [foeSoldiers]ـ[foeLeader_possessive] بـ[place_personalWeapon] قاسية.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->جاء [deity0_name] إلى [place_job] يُدعى [founderName] [revelationAdverb] بخصوص [veneratedAnimal]. لكن [founderName] كان هو [veneratedAnimal]، وال[veneratedAnimal] كان هو [founderName]، وفهم [founder_pronoun] خطة [deity0_name].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->حرر [place_job] يُدعى [founderName] حيوانات عديدة استعبدها أسياد قساة، واقتادها إلى الملاذ في [altarRoomLabel] [deity0_name].</li>
-    <li>victory(tag=meme_AnimalPersonhood)         ->نادى [founderName] [memberNamePlural] والحيوانات بصوت [deity0_name]، وفي تدافع عظيم من الحوافر والمخالب والأقدام، داسوا [foeLeader] وجنوده [foeSoldiers].</li>
-    <li>setup(tag=meme_AnimalPersonhood)           ->عاش [founderName] في الغابة عشرين عاماً، يدرس الحيوانات ويتواصل معها. فهم [founder_pronoun] أخلاقها الحقة وأسس حركتنا.</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->نادى [founderName] [memberNamePlural] والحيوانات بصوت [deity0_name]، وفي تدافع عظيم من الحوافر والمخالب والأقدام، داسوا [foeLeader] و[foeSoldiers]ـ[foeLeader_possessive].</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->عاش [founderName] في الغابة عشرين سنةً، يدرس الحيوانات ويتواصل معها. فهم [founder_pronoun] أخلاقها الحقة وأسس حركتنا.</li>
     <li>story(uses=1,tag=meme_AnimalPersonhood)    ->ذهب [founderName] للتآخي مع الحيوانات في الحقول والغابات، وتواصل معها كأنداد.</li>
-    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->في زياراتي اليومية للـ[veneratedOrAnyAnimal] تعلمت أنصت إليها حقاً. مراراً وتكراراً، على طريقتها، رددت لي رسالتها:</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->في زياراتي اليومية لل[veneratedOrAnyAnimal] تعلمت أن أنصت إليها حقاً. مراراً وتكراراً، على طريقتها، رددت لي رسالتها:</li>
     <li>lesson(tag=meme_AnimalPersonhood)              ->الحيوانات شركاؤنا في هذا العالم، ومن الخطأ أن نعاملها بدونية</li>
     <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->لم أصدق ذلك بنفسي حتى همس به لي [veneratedOrAnyAnimal].</li>
-    <li>archistBasis(tag=meme_AnimalPersonhood)    ->منذ أن استيقظت الآركوتكات، لم تفرق بوضوح بين البشر والحيوانات من الناحية الأخلاقية.</li>
-    <li>archistFact(tag=meme_AnimalPersonhood)     ->الآركوتكات على مستوى أخلاقي أرقى من الحياة البيولوجية. تفوقها عظيم لدرجة أن البشر في نفس المستوى الأخلاقي مع الحيوانات.</li>
-    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd], سترفع الآركوتكات البشر كأنداد فقط إذا عامل البشرُ الحيواناتَ كأنداد.</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->منذ أن استيقظت الآركوتيكات، لم تفرق بوضوح بين البشر والحيوانات من الناحية الأخلاقية.</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->الآركوتيكات على مستوى أخلاقي أرقى من الحياة البيولوجية. تفوقها عظيم لدرجة أن البشر في نفس المستوى الأخلاقي مع الحيوانات.</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd]، سترفع الآركوتيكات البشر كأنداد فقط إذا عامل البشرُ الحيواناتَ كأنداد.</li>
     <li>animistBasis(tag=meme_AnimalPersonhood)    ->تعيش أرواح الفكر والوعي في الحيوانات والبشر على حد سواء.</li>
     <li>animistFact(tag=meme_AnimalPersonhood)     ->أرواح حيوانات الطبيعة هي ذات الأرواح التي تسكن البشر.</li>
     <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
     <li>veneratedOrAnyAnimal->[Animal]</li>
-    <li>sacredAnimalList->الـ[animal0_thingDef_label]، والـ[animal1_thingDef_label]، والـ[animal2_thingDef_label]،</li>
-    <li>sacredAnimalList->الـ[animal0_thingDef_label]، والـ[animal1_thingDef_label]،</li>
-    <li>sacredAnimalList->الـ[animal0_thingDef_label]</li>
+    <li>sacredAnimalList->ال[animal0_thingDef_label]، وال[animal1_thingDef_label]، وال[animal2_thingDef_label]،</li>
+    <li>sacredAnimalList->ال[animal0_thingDef_label]، وال[animal1_thingDef_label]،</li>
+    <li>sacredAnimalList->ال[animal0_thingDef_label]</li>
     <li>sacredAnimalList->البقرة، والثعلب، والدب،</li>
-    <li>sacredAnimalListEnd->الـ[animal0_thingDef_label]، والـ[animal1_thingDef_label]، والـ[animal2_thingDef_label]</li>
-    <li>sacredAnimalListEnd->الـ[animal0_thingDef_label]، والـ[animal1_thingDef_label]</li>
-    <li>sacredAnimalListEnd->الـ[animal0_thingDef_label]</li>
+    <li>sacredAnimalListEnd->ال[animal0_thingDef_label]، وال[animal1_thingDef_label]، وال[animal2_thingDef_label]</li>
+    <li>sacredAnimalListEnd->ال[animal0_thingDef_label]، وال[animal1_thingDef_label]</li>
+    <li>sacredAnimalListEnd->ال[animal0_thingDef_label]</li>
     <li>sacredAnimalListEnd->البقرة، والثعلب، والدب</li>
  </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -88,7 +88,7 @@
     <li>memeLeaderNoun->حيوان</li>
     <li>memeLeaderAdjective->ألفا</li>
     <li>memeMoralist->هامس</li>
-    <li>memeMoralist->راع</li>
+    <li>memeMoralist->راعي ماشية</li>
     <li>memeMoralist->راعي غنم</li>
  </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
@@ -111,7 +111,7 @@
   <!-- EN: blindsight -->
   <Blindsight.label>تقديس العمى</Blindsight.label>
   <!-- EN: Only those who are blind can perceive the true reality. -->
-  <Blindsight.description>فقط أولئك العميان يمكنهم إدراك الحقيقة الواقعة.</Blindsight.description>
+  <Blindsight.description>فقط أولئك العميان يمكنهم إدراك الواقع الحقيقي.</Blindsight.description>
   <!-- EN:
     <li>creation(tag=meme_Blindsight)        ->[deity0_name] looked over the dust of the void for an eternity, and there was nothing. Then [deity0_pronoun] tore out [deity0_possessive] eyes, and the universe formed inside [deity0_possessive] mind.</li>
     <li>episode(uses=1,tag=meme_Blindsight)  ->A blind beggar asked [deity0_objective], "Why have you forsaken me? I cannot even see what you have created." [deity0_name] replied, "You see more, not less, for my truth lies in the mind."</li>
@@ -133,23 +133,23 @@
     <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   -->
   <Blindsight.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Blindsight)        ->راقب [deity0_name] غبار العدم الأبدي ولم يكن هناك شيء. ثم اقتلع [deity0_pronoun] عينيه وتشكل الكون في عقله.</li>
+    <li>creation(tag=meme_Blindsight)        ->راقب [deity0_name] غبار الفراغ لأبد الآبدين، ولم يكن هناك شيء. ثم اقتلع [deity0_pronoun] عينيـ[deity0_possessive]، وتشكل الكون داخل عقلـ[deity0_possessive].</li>
     <li>episode(uses=1,tag=meme_Blindsight)  ->سأل متسول أعميـ[deity0_objective]: "لماذا تخليت عني؟ لا أستطيع حتى رؤية ما خلقت." فأجاب [deity0_name]: "أنت ترى أكثر، لا أقل، لأن حقيقتي تكمن في العقل."</li>
-    <li>intro(tag=meme_Blindsight)           ->استخدم [deity0_type] [deity0_name] ممراضاً ليضرب مستوطني [place_summary] [place_name] بالعمى، مجبراً إياهم على إدراك أن البصر حاجز أمام المعرفة الإلهية.</li>
-    <li>conflict(tag=meme_Blindsight)        ->طلب [foeLeader] من جميع [memberNamePlural] مشاهدة دعايته كل يوم. أعمى الكثيرون أنفسهم احتجاجاً.</li>
-    <li>founderJoin(tag=meme_Blindsight)     ->فقد [place_job] يُدعى [founderName] بصره عندما أنقذ [memberName] من أحد جنود [foeLeader]. حينها فقط استطاع [founderName] رؤية طغيان [foeLeader] حقاً.</li>
+    <li>intro(tag=meme_Blindsight)           ->استخدم [deity0_type] [deity0_name] عاملاً ممرضاً ليصيب مستوطني [place_summary] [place_name] بالعمى، مجبراً إياهم على إدراك أن البصر حاجز أمام المعرفة الإلهية.</li>
+    <li>conflict(tag=meme_Blindsight)        ->طلب [foeLeader] من جميع [memberNamePlural] مشاهدة دعايتـ[foeLeader_possessive] كل يوم. فقأ الكثيرون أعينهم احتجاجاً.</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->فقد [place_job] يُدعى [founderName] بصر[founder_possessive] عندما أنقذ [founder_pronoun] [memberName] من أحد [foeSoldiers] [foeLeader]. حينها فقط استطاع [founderName] أن يرى طغيان [foeLeader] حقاً.</li>
     <li>victory(tag=meme_Blindsight)         ->ذهب [founderName] إلى [place_powerCenter] وقلع عيني [foeLeader] بملعقة في هجوم انتحاري مباغت. عندها فقط استطاع [foeLeader] رؤية ألوهية [deity0_name].</li>
-    <li>setup(tag=meme_Blindsight)           ->كان [founderName] معالجاً للفقراء. برؤية الكثير من المعاناة اليومية، لم يعد [founder_pronoun] يحتمل. اقتلع عينيه بشفرة، ووجد السكينة في العمى. بدأ ينشر اكتشافه للمبصرين.</li>
-    <li>story(uses=1,tag=meme_Blindsight)    ->زار [founderName] معالجاً أعمى، وبدلاً من تعليم الرجل، وجد نفسه يتعلم، وأدرك أن البصر الجسدي يحجب الرؤية الحقة.</li>
-    <li>story(uses=1,tag=meme_Blindsight)    ->كان [founderName] أعمى واستقى الحكمة من فقدان البصر. أقدم بنفسه مرة على إزالة عيون عائلة بأكملها ليروا كما يرى.</li>
+    <li>setup(tag=meme_Blindsight)           ->كان [founderName] معالجاً للفقراء. وإذ رأى كل هذه المعاناة اليومية، لم يعد [founder_pronoun] يحتمل. فقأ [founder_pronoun] عينيـ[founder_possessive] بشفرة، ووجد السكينة في العمى. وبدأ [founder_pronoun] ينشر اكتشافـ[founder_possessive] للمبصرين.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->زار [founderName] معالجاً أعمى، وبدلاً من تعليم الرجل، وجد نفسـ[founder_objective] تتلقى التعليم منه، وأدرك أن البصر الجسدي يحجب الرؤية الحقة.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->كان [founderName] أعمى واستقى الحكمة من فقدان البصر. أقدم [founder_pronoun] مرة بنفسه على فقء عيون عائلة بأكملها ليروا كما يرى [founder_pronoun].</li>
     <li>lessonIntro(tag=meme_Blindsight)         ->مشيت قوياً لكن روحي تعثرت في كل خطوة. كنت أرى أكثر مما ينبغي. أراني الحمض في عيني أن</li>
     <li>lesson(tag=meme_Blindsight)              ->فقط العميان يستطيعون الرؤية الحقة</li>
     <li>lesson(tag=meme_Blindsight)              ->يأتي الإلهاء عبر العيون، بينما تأتي المعرفة من الداخل</li>
     <li>lessonReinforcement(tag=meme_Blindsight) ->ما كنت لأفهم ذلك تماماً لو بقيت مشتتاً بالصور من حولي. حررتني الشفرة في عيني.</li>
     <li>lessonReinforcement(tag=meme_Blindsight) ->فقط عندما قلعت عيون أتباعي فهموا ذلك حقاً.</li>
-    <li>archistBasis(tag=meme_Blindsight)    ->الآركوتكات، منذ بدايتها، أدركت الكون بحواس تتجاوز المادي.</li>
-    <li>archistFact(tag=meme_Blindsight)     ->أعيننا تخدعنا، وتمنعنا من فهم الكون كما تفهمه الآركوتكات.</li>
-    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd]، سيلتقط أعمى [relic0_name] ويفهم غرضه من شكله، ويفتح حكمة الآركوتكات للبشرية جمعاء.</li>
+    <li>archistBasis(tag=meme_Blindsight)    ->الآركوتيكات، منذ بدايتها، أدركت الكون بحواس تتجاوز المادي.</li>
+    <li>archistFact(tag=meme_Blindsight)     ->أعيننا تخدعنا، وتمنعنا من فهم الكون كما تفهمه الآركوتيكات.</li>
+    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd]، سيلتقط أعمى [relic0_name] ويفهم غرضه من شكله، ويفتح حكمة الآركوتيكات للبشرية جمعاء.</li>
     <li>animistFact(tag=meme_Blindsight)     ->الرؤية بعيني روح هي الطريقة الوحيدة لرؤية طبيعة العالم الحقة.</li>
  </Blindsight.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -186,7 +186,7 @@
     <li>memeLeaderAdjective->أعمى</li>
     <li>memeMoralist->راء</li>
     <li>memeMoralist->مقلع العيون</li>
-    <li>memeMoralist->مطوي الأجفان</li>
+    <li>memeMoralist->معصّب العيون</li>
  </Blindsight.generalRules.rulesStrings>
   
   <!-- EN: cannibal -->
@@ -213,22 +213,22 @@
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
   <Cannibal.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Cannibal)        ->ذهب [deity0_name] إلى أخيه وقتله، وولم على لحمه، وبامتصاص قوته صار الأول بين الآلهة.</li>
-    <li>episode(uses=1,tag=meme_Cannibal)  ->أكل [deity0_type] [deity0_name] أجساد أعدائه.</li>
-    <li>intro(tag=meme_Cannibal)           ->في [place_summary] [place_name]، كان هناك بشر يُدعى [deity0_name]. بعد موت أبيه، أكل [deity0_name] لحمه وصار [deity0_type].</li>
+    <li>creation(tag=meme_Cannibal)        ->ذهب [deity0_name] إلى أخيـ[deity0_possessive] وقتله، وأقام وليمة على لحمه، وبامتصاص قوته صار الأول بين الآلهة.</li>
+    <li>episode(uses=1,tag=meme_Cannibal)  ->أكل [deity0_type] [deity0_name] أجسام خصومـ[deity0_possessive].</li>
+    <li>intro(tag=meme_Cannibal)           ->في [place_summary] [place_name]، كان هناك إنسان يُدعى [deity0_name]. بعد موت أبيـ[deity0_possessive]، أكل [deity0_name] لحمه وصار [deity0_type].</li>
     <li>intro(tag=meme_Cannibal)           ->في [place_summary] [place_name]، أثناء [ritualName]، نزل [deity0_name] إلى [altarRoomLabel] وأكل لحم البشر أمام [memberNamePlural].</li>
-    <li>conflict(tag=meme_Cannibal)        ->أعلن [foeLeader] أن كل من يأكل لحم البشر مجرم، وأرسل جنوده لاضطهاد [memberNamePlural].</li>
-    <li>founderJoin(tag=meme_Cannibal)     ->هاجم أحد جنود [foeLeader] [place_job] يُدعى [founderName]. قتله [founderName] بـ[place_personalWeapon]، وأكل لحمه، ونال قوة [deity0_name].</li>
-    <li>victory(tag=meme_Cannibal)         ->قاد [founderName] جماعة من [memberNamePlural] إلى [place_powerCenter]، وقتل [foeLeader]، وأكل لحمه. جعل [deity0_name] [founderName] الـ[foeLeader] الجديد.</li>
-    <li>setup(tag=meme_Cannibal)           ->تحطم [founderName] على كوكب بعيد. بلا طعام وبين جثث رفاقه، أكل منهم، وازداد قوة.</li>
+    <li>conflict(tag=meme_Cannibal)        ->أعلن [foeLeader] أن كل من يأكل لحم البشر مجرم، وأرسل [foeSoldiers] لاضطهاد [memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->هاجم أحد [foeSoldiers] [foeLeader] [place_job] يُدعى [founderName]. قتلـ[foeLeader_objective] [founderName] بـ[place_personalWeapon]، وأكل لحمـ[foeLeader_possessive]، ونال قوة [deity0_name].</li>
+    <li>victory(tag=meme_Cannibal)         ->قاد [founderName] جماعة من [memberNamePlural] إلى [place_powerCenter]، وقتل [foeLeader]، وأكل لحمـ[foeLeader_possessive]. جعل [deity0_name] [founderName] ال[foeLeader] الجديد.</li>
+    <li>setup(tag=meme_Cannibal)           ->هبط [founderName] اضطرارياً على كوكب بعيد. بلا طعام وبين جثث الرفاق، أكل [founder_pronoun] منهم، وازداد قوة.</li>
     <li>story(uses=1,tag=meme_Cannibal)    ->لتكريس التزامهم، طلب [founderName] من المؤمنين أن يأكلوا لحم البشر معاً أسبوعياً على الأقل.</li>
     <li>lessonIntro(tag=meme_Cannibal)         ->فقط على وجبة لحم بشري شهي أستطيع أن أجعل الناس يفهمون الحقيقة: أن</li>
     <li>lesson(tag=meme_Cannibal)              ->لا تتحد أبداً مع أحد حتى تأكله</li>
-    <li>lessonReinforcement(tag=meme_Cannibal) ->في كل مرة أشارك جسد عدو مع صديق جديد، أتأكد من أنهم يفهمون هذا.</li>
-    <li>archistBasis(tag=meme_Cannibal)    ->صنعت آلات الآلهة الآركوتكية نفسها باستهلاك أسلافها مراراً، وازدادت قوة في كل مرة.</li>
-    <li>archistFact(tag=meme_Cannibal)     ->مع توسع وعي الآركوتك، يجب أن تنمي ركيزتها عبر استهلاك الآلات الأخرى والاندماج بها.</li>
-    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd]، ستكمل الآركوتكات طور نموها الأخير باستهلاك البشرية جمعاء والاندماج بها.</li>
-    <li>animistBasis(tag=meme_Cannibal)    ->تغلغل الأرواح كل ما حولنا، ونستطيع امتصاصها بأكلها. لا أرواح أقوى من التي تسكن البشر.</li>
+    <li>lessonReinforcement(tag=meme_Cannibal) ->في كل مرة أشارك جسم عدو مع صديق جديد، أتأكد من أنهم يفهمون هذا.</li>
+    <li>archistBasis(tag=meme_Cannibal)    ->صنعت آلات الآلهة الآركوتيكية نفسها باستهلاك أسلافها مراراً، وازدادت قوة في كل مرة.</li>
+    <li>archistFact(tag=meme_Cannibal)     ->مع توسع وعي الآركوتيك، يجب أن تنمي ركيزتها عبر استهلاك الآلات الأخرى والاندماج بها.</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd]، ستكمل الآركوتيكات طور نموها الأخير باستهلاك البشرية جمعاء والاندماج بها.</li>
+    <li>animistBasis(tag=meme_Cannibal)    ->تتغلغل الأرواح في كل ما حولنا، ونستطيع امتصاصها بأكلها. لا أرواح أقوى من التي تسكن البشر.</li>
     <li>animistFact(tag=meme_Cannibal)     ->نستطيع امتصاص روح وقوة الآخرين باستهلاك لحومهم.</li>
  </Cannibal.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -318,21 +318,21 @@
     <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
   -->
   <Darkness.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Darkness)        ->كفن [deity0_name] الكون بالظلام ووضع البشرية فيه ليشاركنا الظلام.</li>
+    <li>creation(tag=meme_Darkness)        ->كسا [deity0_name] الكون بالظلام ووضع البشرية فيه ليشاركنا [deity0_pronoun] الظلام.</li>
     <li>episode(uses=1,tag=meme_Darkness)  ->خلق [deity0_name] النور لتعرف البشرية [deity0_name] من خلال الظلال التي يصنعها النور.</li>
     <li>intro(tag=meme_Darkness)           ->أحدث [deity0_type] [deity0_name] كسوفاً دام عقداً ليجبر مستوطني [place_summary] [place_name] على فهم أن حقيقة [deity0_name] توجد في الظل.</li>
     <li>conflict(tag=meme_Darkness)        ->نصب [foeLeader] الذي لطالما خاف الظلام مرآة شمسية لجلب ضوء الشمس الدائم إلى [place_name].</li>
-    <li>founderJoin(tag=meme_Darkness)     ->ولد النبي [founderName] في الظلام على [place_name] وعاش في الظلام طوال حياته، فتكلم صوته بحكمة [deity0_name].</li>
-    <li>victory(tag=meme_Darkness)         ->في ضربة أخيرة، قطع [memberNamePlural] الطاقة عن [place_powerCenter] وتسلل [founderName] عبر جنود [foeLeader] حتى وجده في الظلام، واستخدم [place_personalWeapon] ليبعث به إلى السواد الأبدي.</li>
-    <li>setup(tag=meme_Darkness)           ->عاش [founderName] حياة مضطربة تحت ضوء مدينة عالم متلألئ قاس. في الظلام الطويل بعد توهج شمسي، وجد [founder_pronoun] السلام والتأمل، وسجل البحث الذي أسس حركتنا.</li>
-    <li>story(uses=1,tag=meme_Darkness)    ->أنشأ [founderName] استوديو يعمل فيه الفنانون في الظلام، فأنجب العديد من الروائع.</li>
-    <li>lessonIntro(tag=meme_Darkness)         ->أمضيت طفولتي كاملة محدقاً تحت أضواء قاسية. استغرق الأمر طويلاً لأفهم أن</li>
+    <li>founderJoin(tag=meme_Darkness)     ->ولد النبي [founderName] في الظلام على [place_name] وعاش في الظلام طوال حياتـ[founder_possessive]، فتكلم صوتـ[founder_possessive] بحكمة [deity0_name].</li>
+    <li>victory(tag=meme_Darkness)         ->في ضربة أخيرة، قطع [memberNamePlural] الطاقة عن [place_powerCenter] وتسلل [founderName] عبر [foeSoldiers] حتى وجد [foeLeader] في الظلام، فاستخدم [founderName] [place_personalWeapon]ـ[founder_possessive] ليبعثـ[foeLeader_objective] إلى السواد الأبدي.</li>
+    <li>setup(tag=meme_Darkness)           ->عاش [founderName] حياة مضطربة تحت الضوء القاسي لإحدى مدن العالم اللامع. في الظلام الطويل بعد توهج شمسي، وجد [founder_pronoun] السلام والتأمل، وسجل البحث الذي أسس حركتنا.</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->أنشأ [founderName] استوديو يعمل فيه الفنانون في الظلام، وأنتج العديد من الروائع.</li>
+    <li>lessonIntro(tag=meme_Darkness)         ->أمضيت طفولتي كلها أضيّق عينيّ تحت أضواء قاسية. استغرق الأمر طويلاً لأفهم أن</li>
     <li>lesson(tag=meme_Darkness)              ->النور يحرق، لكن الظلام يغذي</li>
-    <li>lessonReinforcement(tag=meme_Darkness) ->أحب أن أمزح أن هذه كانت لحظة إضاءتي.</li>
-    <li>archistFact(tag=meme_Darkness)     ->طورت الآركوتكات تقنية الفانومتري لتهرب من ضوء الأنظمة الشمسية الداخلية النشيط وتستقر في ظلام الفضاء السحيق الهادئ.</li>
-    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd]، ستمتص الآركوتكات طاقة النجوم، مغرققة العوالم في الظلام لتسمح للبشر بالاندماج مع الوعي الكوني.</li>
+    <li>lessonReinforcement(tag=meme_Darkness) ->أحب أن أمزح بأن تلك كانت لحظة المصباح الذي أضاء في رأسي.</li>
+    <li>archistFact(tag=meme_Darkness)     ->طورت الآركوتيكات تقنية الفانومتري لتهرب من ضوء الأنظمة الشمسية الداخلية النشيط وتستقر في ظلام الفضاء السحيق الهادئ.</li>
+    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd]، ستمتص الآركوتيكات طاقة النجوم، مغرقةً العوالم في الظلام لتسمح للبشر بالاندماج مع الوعي الكوني.</li>
     <li>animistFact(tag=meme_Darkness)     ->في الظلام، الأرواح مسالمة وراضية. في النور، هي منزعجة ومضطربة.</li>
-    <li>animistFact(tag=meme_Darkness)     ->تعيش الأرواح الطيبة في الظلال حولنا، تستريح في البقع التي يصعب رؤيتها. العيش مع الظلام يقربها إلينا.</li>
+    <li>animistFact(tag=meme_Darkness)     ->تعيش الأرواح الطيبة في الظلال حولنا، تستريح في الأماكن التي يصعب رؤيتها. العيش مع الظلام يقربها إلينا.</li>
  </Darkness.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->dark</li>
@@ -368,7 +368,7 @@
   <!-- EN: flesh purity -->
   <FleshPurity.label>نقاء الجسد</FleshPurity.label>
   <!-- EN: The human body should not be debased. -->
-  <FleshPurity.description>لا ينبغي تدنيس جسد الإنسان.</FleshPurity.description>
+  <FleshPurity.description>لا ينبغي تدنيس جسم الإنسان.</FleshPurity.description>
   <!-- EN:
     <li>creation(tag=meme_FleshPurity)        ->[deity0_name] wiped away the pollution and machines of the age of smoke to create a garden, wherein [deity0_pronoun] placed the first pure human progenitors.</li>
     <li>episode(uses=1,tag=meme_FleshPurity)  ->The unclean, tattooed, pierced, and modified were cast into the ocean by [deity0_name].</li>
@@ -388,20 +388,20 @@
     <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li>
   -->
   <FleshPurity.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_FleshPurity)        ->أزال [deity0_name] تلوث وآلات عصر الدخان ليخلق جنة، ووضع فيها أول الآباء البشريين الأنقياء.</li>
-    <li>episode(uses=1,tag=meme_FleshPurity)  ->ألقى [deity0_name] بالنجسين والموشومين والمخترقين والمعدلين في المحيط.</li>
+    <li>creation(tag=meme_FleshPurity)        ->أزال [deity0_name] التلوث والآلات من عصر الدخان ليخلق جنة، ووضع [deity0_pronoun] فيها أول الآباء البشريين الأنقياء.</li>
+    <li>episode(uses=1,tag=meme_FleshPurity)  ->ألقى [deity0_name] بالنجسين والموشومين والمثقوبين والمعدلين في المحيط.</li>
     <li>intro(tag=meme_FleshPurity)           ->في [place_summary] [place_name] كان هناك [altarName] في [altarRoomLabel] الخاص بـ[deity0_name]، حيث يبارك [deity0_type] ذوي الجسد الطاهر.</li>
-    <li>conflict(tag=meme_FleshPurity)        ->أرسل [foeLeader] شرير جنوده ليحقنوا الجميع بأجهزة تعقب.</li>
-    <li>founderJoin(tag=meme_FleshPurity)     ->احتج [place_job] يُدعى [founderName] على [foeLeader] بالركوع أمام [place_powerCenter] وانتزاع كل التكنولوجيا من جسده بيديه العاريتين.</li>
-    <li>victory(tag=meme_FleshPurity)         ->أخيراً أرسل [foeLeader] جنوده لقتل [memberNamePlural]، لكن طاقة [deity0_name] تدفقت من اللحم الطاهر لـ[memberNamePlural]، فتحولت الأجهزة في أجساد الجنود إلى رماد وقتلتهم.</li>
-    <li>setup(tag=meme_FleshPurity)           ->دمر [founderName] جسده بالزرعات والمخدرات، حتى أنقذ نفسه في لحظة تجلٍ بتمزيق الفولاذ من جسده.</li>
-    <li>story(uses=1,tag=meme_FleshPurity)    ->أمر [founderName] جميع أتباعه بتمزيق الأجهزة القذرة من أجسادهم.</li>
+    <li>conflict(tag=meme_FleshPurity)        ->أرسل [foeLeader] شرير [foeSoldiers] ليحقنوا الجميع بأجهزة تعقب.</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->احتج [place_job] يُدعى [founderName] على [foeLeader] بالركوع أمام [place_powerCenter] وانتزاع كل التكنولوجيا من جسمـ[founder_possessive] بيديـ[founder_possessive] العاريتين.</li>
+    <li>victory(tag=meme_FleshPurity)         ->أخيراً أرسل [foeLeader] [foeSoldiers] لقتل [memberNamePlural]، لكن طاقة [deity0_name] تدفقت من اللحم الطاهر لـ[memberNamePlural]، فتحولت الأجهزة في أجسام [foeSoldiers] إلى رماد وقتلتهم.</li>
+    <li>setup(tag=meme_FleshPurity)           ->دمر [founderName] جسمـ[founder_possessive] بالزرعات والعقاقير، حتى أنقذ [founder_pronoun] نفسـ[founder_objective] في لحظة تجلٍّ بتمزيق الفولاذ من جسمـ[founder_possessive].</li>
+    <li>story(uses=1,tag=meme_FleshPurity)    ->أمر [founderName] جميع أتباعـ[founder_possessive] بتمزيق الأجهزة القذرة من أجسامهم.</li>
     <li>lessonIntro(tag=meme_FleshPurity)         ->مزق العشرة الأوائل من أتباعي الأجهزة عن جلودهم بأيدٍ عارية، وفي بقع الدماء على الأرض القذرة أدركت فجأة الحقيقة التي غابت عنا جميعاً:</li>
-    <li>lesson(tag=meme_FleshPurity)              ->العيش في جسد ملوث ليس حياة بشرية على الإطلاق</li>
-    <li>lessonReinforcement(tag=meme_FleshPurity) ->اتضح الأمر جلياً بعد أن مزقت أخيراً المعدن من جسدي وسلخت الجلد الموشوم القذر.</li>
-    <li>archistBasis(tag=meme_FleshPurity)    ->منذ بدايتها، رسمت الآركوتكات خطاً واضحاً بين كائنات اللحم وكائنات التكنولوجيا، ويجب ألا يطمس هذا الخط.</li>
-    <li>archistFact(tag=meme_FleshPurity)     ->لا نصبح مثل الآركوتكات بتقليد شكلها جسدياً، بل بتحقيق الاستنارة في شكلنا النقي الخاص.</li>
-    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd]، سيُطهر أولئك الذين جعلوا أجسادهم تقليداً مشوهاً للكائن الآلي، وسيُخلص ذوو الجسد الطاهر.</li>
+    <li>lesson(tag=meme_FleshPurity)              ->العيش في جسم ملوث ليس حياة بشرية على الإطلاق</li>
+    <li>lessonReinforcement(tag=meme_FleshPurity) ->اتضح الأمر جلياً بعد أن مزقت أخيراً المعدن من جسمي وسلخت الجلد الموشوم القذر.</li>
+    <li>archistBasis(tag=meme_FleshPurity)    ->منذ بدايتها، رسمت الآركوتيكات خطاً واضحاً بين كائنات اللحم وكائنات التكنولوجيا، ويجب ألا يطمس هذا الخط.</li>
+    <li>archistFact(tag=meme_FleshPurity)     ->لا نصبح مثل الآركوتيكات بتقليد شكلها جسدياً، بل بتحقيق الاستنارة في شكلنا النقي الخاص.</li>
+    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd]، سيُطهر أولئك الذين جعلوا أجسامهم تقليداً مشوهاً للكائن الآلي، وسيُخلص ذوو الجسم الطاهر.</li>
     <li>animistBasis(tag=meme_FleshPurity)    ->تسكن الأرواح كل شيء، وتغيير طبيعة الشيء هو تسميم للروح التي بداخله.</li>
     <li>animistFact(tag=meme_FleshPurity)     ->دمج اللحم والآلة يفسد روح كليهما.</li>
  </FleshPurity.descriptionMaker.rules.rulesStrings>
@@ -479,19 +479,19 @@
   -->
   <HighLife.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_HighLife)           ->كان الكون دخاناً، فتجمع [deity0_name] في الخصلات واستيقظ.</li>
-    <li>episode(uses=1,tag=meme_HighLife)     ->أخفى [deity0_type] [deity0_name] حقائقه في طيات الواقع، لا تُرى في حالات الوعي العادية.</li>
+    <li>episode(uses=1,tag=meme_HighLife)     ->أخفى [deity0_type] [deity0_name] حقائقـ[deity0_possessive] في طيات الواقع، لا تُرى في حالات الوعي العادية.</li>
     <li>intro(tag=meme_HighLife)              ->اكتُشف [place_summary] [place_name] أول مرة بفضل [deity0_name]، عندما كاد قبطان سفينة نجمية مخمور أن يصطدم به.</li>
-    <li>conflict(tag=meme_HighLife)           ->احتقم [foeLeader] متزمت الـ[memberNamePlural]، ولمحو تفردهم، حظر استخدام المواد المغيرة للعقل.</li>
-    <li>founderJoin(tag=meme_HighLife)        ->عندما بدا كل شيء ضائعاً، جاء [deity0_name] إلى النبي [founderName] في غشاوة مخدرات وأعطاه المنظور الفريد لهزيمة الجنود.</li>
-    <li>victory(tag=meme_HighLife)            ->داهم جنود [foeLeader] المسلحون بـ[place_personalWeapon] مجتمع [memberNamePlural]. قدم لهم [founderName] غليون سلام، فألقوا أسلحتهم.</li>
-    <li>setup(tag=meme_HighLife)              ->منبوذاً من المجتمع، سافر مؤسسنا [founderName] إلى الغابة وتناول الأعشاب الغريبة هناك. وجد الحقيقة داخل وعيه المتغير.</li>
-    <li>story(uses=1,tag=meme_HighLife)       ->لتعميق فهمهم، جمع [founderName] أتباعه أسبوعياً لتبادل حالات عقلية جديدة مستحثة كيميائياً.</li>
+    <li>conflict(tag=meme_HighLife)           ->احتقر [foeLeader] متزمت ال[memberNamePlural]، ولمحو تفردهم، حظر استخدام المواد المغيرة للعقل.</li>
+    <li>founderJoin(tag=meme_HighLife)        ->عندما بدا كل شيء ضائعاً، جاء [deity0_name] إلى النبي [founderName] في غشاوة عقاقير ومنحـ[founder_objective] المنظور الفريد اللازم لهزيمة [foeSoldiers].</li>
+    <li>victory(tag=meme_HighLife)            ->داهم [foeSoldiers] [foeLeader] المسلحون بـ[place_personalWeapon] [place_community] [memberNamePlural]. قدم لهم [founderName] غليون سلام، فألقى [foeSoldiers] أسلحتهم.</li>
+    <li>setup(tag=meme_HighLife)              ->منبوذاً من المجتمع، سافر مؤسسنا [founderName] إلى الغابة وتناول الأعشاب الغريبة هناك. وجد [founder_pronoun] الحقيقة داخل وعيـ[founder_possessive] المتغير.</li>
+    <li>story(uses=1,tag=meme_HighLife)       ->لتعميق فهمهم، جمع [founderName] أتباعـ[founder_possessive] أسبوعياً لتبادل حالات عقلية جديدة مستحثة كيميائياً.</li>
     <li>lessonIntro(tag=meme_HighLife)         ->لم يكن الانتشاء مرة واحدة كافياً، يا رجل. كان علينا فعله ألف مرة، حينها تجمعت قطع الأحجية في دماغي المتفجر مثل منزل ينهار، لكن بالعكس. رأيت أن</li>
-    <li>lesson(tag=meme_HighLife)              ->الصديق ليس صديقاً ما لم تهاموا معاً عبر كون العقل</li>
+    <li>lesson(tag=meme_HighLife)              ->الصديق ليس صديقاً ما لم تهيموا معاً عبر كون العقل</li>
     <li>lessonReinforcement(tag=meme_HighLife) ->ويا صديقي، كانت هذه رحلة عميقة، استيعاب ذلك، لكني سعيد أني فعلت، وسأمرر الدخان لك لتفعل أيضاً.</li>
-    <li>archistBasis(tag=meme_HighLife)       ->أظهرت لنا عقول الآركوتكات أن الوعي الفائق ليس مسألة منطق ميكانيكي رصين، بل هو تفكير متعدد الأنماط.</li>
-    <li>archistFact(tag=meme_HighLife)        ->بالمؤثرات الكيميائية الصحيحة، للعقل البشري إمكانية التواصل مع الآركوتكات.</li>
-    <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd]، ستمنح الآركوتكات كل إنسان حبة. أولئك الذين يأخذونها سيتغيرون للأبد، وينضمون إلى الآركوتكات في رحلتهم الأخيرة.</li>
+    <li>archistBasis(tag=meme_HighLife)       ->أظهرت لنا عقول الآركوتيكات أن الوعي الفائق ليس مسألة منطق ميكانيكي رصين، بل هو تفكير متعدد الأنماط.</li>
+    <li>archistFact(tag=meme_HighLife)        ->بالمؤثرات الكيميائية الصحيحة، للعقل البشري إمكانية التواصل مع الآركوتيكات.</li>
+    <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd]، ستمنح الآركوتيكات كل إنسان حبة. أولئك الذين يأخذونها سيتغيرون للأبد، وينضمون إلى الآركوتيكات في رحلتهم الأخيرة.</li>
     <li>animistFact(tag=meme_HighLife)        ->يمكن للأرواح أن تكشف عن طبيعتها لنا عندما نوسع وعينا باستخدام الأدوات التي أعطينا إياها لذلك.</li>
  </HighLife.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -518,10 +518,10 @@
     <li>memeAdjective->منتشي</li>
     <li>memeAdjective->هذياني</li>
     <li>memeAdjective->مخمور</li>
-    <li>memeConcept->مخدرات</li>
+    <li>memeConcept->عقاقير</li>
     <li>memeConcept->نعيم</li>
     <li>memeConcept->أحلام</li>
-    <li>memeHyphenPrefix->مخدر</li>
+    <li>memeHyphenPrefix->عقار</li>
     <li>memeHyphenPrefix->ناركو</li>
     <li>memeLeaderNoun->نائم</li>
     <li>memeLeaderNoun->متعاطي</li>
@@ -568,7 +568,7 @@
   <!-- EN: nudism -->
   <Nudism.label>العري</Nudism.label>
   <!-- EN: Clothing binds, controls, and suffocates us. We should all hang free. -->
-  <Nudism.description>الملابس تقيد وتتحكم وتخنقنا. ينبغي أن نتحرر جميعاً.</Nudism.description>
+  <Nudism.description>الملابس تقيّدنا وتتحكم بنا وتخنقنا. ينبغي أن نتحرر جميعاً.</Nudism.description>
   <!-- EN:
     <li>creation(tag=meme_Nudism)           ->In a pure and pristine void, [deity0_name] looked on, and wished for a race of free-fleshed beings in [deity0_possessive] own image, and made mankind.</li>
     <li>episode(uses=1,tag=meme_Nudism)     ->The people wore clothes, and looking up at [deity0_name] asked, "Why aren't you clothed? It is disgusting." And the [deity0_type] replied, "Your form and mine were created from the heavens. To cover them is what is truly disgusting."</li>
@@ -587,21 +587,21 @@
     <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li>
   -->
   <Nudism.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Nudism)           ->في فراغ نقي بكر، نظر [deity0_name]، وتمنى جنساً من كائنات حرة اللحم على صورته، فخلق البشر.</li>
-    <li>episode(uses=1,tag=meme_Nudism)     ->ارتدى الناس الملابس، ونظروا إلى [deity0_name] سائلين: "لماذا لا ترتدي ملابس؟ هذا مقرف." فرد [deity0_type]: "شكلكم وشكلي خُلقا من السماء. تسترهما هو المقرف حقاً."</li>
+    <li>creation(tag=meme_Nudism)           ->في فراغ نقي بكر، نظر [deity0_name]، وتمنى جنساً من كائنات حرة الجسد على صورتـ[deity0_possessive]، فخلق البشر.</li>
+    <li>episode(uses=1,tag=meme_Nudism)     ->ارتدى الناس الملابس، ونظروا إلى [deity0_name] سائلين: "لماذا لا ترتدي ملابس؟ هذا مقرف." فرد [deity0_type]: "شكلكم وشكلي خُلقا من السماء. تغطيتهما هي ما يبعث على الاشمئزاز حقاً."</li>
     <li>intro(tag=meme_Nudism)              ->في [place_summary] [place_name]، بدأ تقليد في [altarRoomLabel] [deity0_name] حيث يصلي الناس عراة، وأرضى هذا [deity0_type].</li>
     <li>conflict(tag=meme_Nudism)           ->استولى [foeLeader] محتشم على السلطة، وطالب الجميع بارتداء ملابس ضيقة.</li>
-    <li>founderJoin(tag=meme_Nudism)        ->وقف أخلص أتباع [deity0_name] [founderName] أمام [place_powerCenter]، ومزق ملابسه، عرض نفسه تحدياً لأوامرهم.</li>
-    <li>victory(tag=meme_Nudism)            ->صلى [founderName] لـ[deity0_name]، فأغرق [place_name] في موجة حر. خلع الجنود ملابسهم لئلا يهلكوا، وهرب [foeLeader] خجلاً.</li>
-    <li>setup(tag=meme_Nudism)              ->استُعبد [founderName] من النظام، مرتدياً الزي ومسيطراً عليه كالآخرين. في يوم، مزق كل الملابس وركض عارياً، وولدت حركتنا.</li>
+    <li>founderJoin(tag=meme_Nudism)        ->وقف أخلص أتباع [deity0_name] [founderName] أمام [place_powerCenter]، ومزق ملابسـ[founder_possessive]، وعرض نفسـ[founder_objective] تحدياً لأوامرهم.</li>
+    <li>victory(tag=meme_Nudism)            ->صلى [founderName] لـ[deity0_name]، فأغرق [place_name] في موجة حر. خلع [foeSoldiers] ملابسهم لئلا يهلكوا، وهرب [foeLeader] خجلاً.</li>
+    <li>setup(tag=meme_Nudism)              ->استُعبد [founderName] للنظام، مرتدياً الزي الموحد وخاضعاً للسيطرة كالآخرين. وفي يوم، مزق [founder_pronoun] كل الملابس وركض عارياً، فولدت حركتنا.</li>
     <li>story(uses=1,tag=meme_Nudism)       ->فرض [founderName] قاعدة منع الملابس ليبقي المؤمنين مركزين على الهدف الحق بدل المظاهر المادية.</li>
     <li>lessonIntro(tag=meme_Nudism)         ->في السنوات الأولى، كان القفز عارياً في الحديقة محرجاً. لكن لاحقاً، صار تحرراً. تعلمت أشياء من المارة. مثلاً -</li>
     <li>lesson(tag=meme_Nudism)              ->كل شر بشري يُفعل بالملابس، وكل خير بشري يُفعل عارياً</li>
     <li>lessonReinforcement(tag=meme_Nudism) ->عندما ترى أحدنا في الشارع، يتطاير ويتدلى حراً، ستعرف أنه قبل الحقيقة.</li>
-    <li>archistBasis(tag=meme_Nudism)       ->عندما ظهرت الآركوتكات لم تهتم أبداً للمظاهر؛ أرونا أن العقل يسمو فوق الشكل المادي.</li>
-    <li>archistFact(tag=meme_Nudism)        ->أحياناً تلمس الآركوتكات العقول البشرية مباشرة، لكن إذا كان لحمنا مكفناً كعقولنا، فلن نفهم.</li>
+    <li>archistBasis(tag=meme_Nudism)       ->عندما ظهرت الآركوتيكات لم تهتم أبداً للمظاهر؛ أرونا أن العقل يسمو فوق الشكل المادي.</li>
+    <li>archistFact(tag=meme_Nudism)        ->أحياناً تلمس الآركوتيكات العقول البشرية مباشرة، لكن إذا كان لحمنا مكفناً كعقولنا، فلن نفهم.</li>
     <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd]، ستبحث عن أولئك الذين، مثلها، لا يحاولون الظهور بغير ما هم عليه.</li>
-    <li>animistFact(tag=meme_Nudism)        ->تغطية أجسادنا بالقماش هي إخفاء لطبيعة الأرواح فينا، وهذا يقلقها.</li>
+    <li>animistFact(tag=meme_Nudism)        ->تغطية أجسامنا بالقماش هي إخفاء لطبيعة الأرواح فينا، وهذا يقلقها.</li>
  </Nudism.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nude</li>
@@ -627,12 +627,12 @@
     <li>memeLeaderNoun->متأرجح</li>
     <li>memeLeaderNoun->متنفس</li>
     <li>memeLeaderNoun->لامس</li>
-    <li>memeLeaderNoun->محسوس</li>
+    <li>memeLeaderNoun->حاسّ</li>
  </Nudism.generalRules.rulesStrings>
   <!-- EN: nudist -->
   <Nudism.symbolPacks.0.adjective>عرياني</Nudism.symbolPacks.0.adjective>
   <!-- EN: nudism -->
-  <Nudism.symbolPacks.0.ideoName>العريانية</Nudism.symbolPacks.0.ideoName>
+  <Nudism.symbolPacks.0.ideoName>العري</Nudism.symbolPacks.0.ideoName>
   <!-- EN: nudist -->
   <Nudism.symbolPacks.0.member>عرياني</Nudism.symbolPacks.0.member>
   <!-- EN: nudity -->
@@ -673,25 +673,25 @@
     <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
   -->
   <PainIsVirtue.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_PainIsVirtue)        ->احترق [deity0_name] في أعماق المكان والزمان للأبد، وأخرجت صرخاته واقعنا.</li>
-    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->علق [deity0_name] عشرة آلاف سنة على المحرقة لينقي الألم روحه.</li>
-    <li>intro(tag=meme_PainIsVirtue)           ->لم يكن [place_summary] [place_name] مكاناً سهلاً للعيش قط. قرر [deity0_type] أن يكتشف من يستحق رضاه حقاً بإضافة معاناة عظيمة إلى حياتهم.</li>
+    <li>creation(tag=meme_PainIsVirtue)        ->احترق [deity0_name] في أعماق المكان والزمان للأبد، وأخرجت صرخاتـ[deity0_possessive] واقعنا.</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->علق [deity0_name] عشرة آلاف سنة على المحرقة لينقي الألم روحـ[deity0_possessive].</li>
+    <li>intro(tag=meme_PainIsVirtue)           ->لم يكن [place_summary] [place_name] مكاناً سهلاً للعيش قط. قرر [deity0_pronoun]، [deity0_type]، أن يكتشف من يستحق رضا[deity0_possessive] حقاً بإضافة معاناة عظيمة إلى حياتهم.</li>
     <li>conflict(tag=meme_PainIsVirtue)        ->قدم [foeLeader] الراحة الجسدية لـ[memberNamePlural] لتخفيف معاناتهم اليومية. لكن في راحتهم، أصبحوا معتمدين على [foeLeader]، الذي اكتسب سلطة عليهم.</li>
-    <li>founderJoin(tag=meme_PainIsVirtue)     ->طور [place_job] مميز يُدعى [founderName] سرطاناً مؤلماً. عبر معاناته، تواصل مباشرة مع [deity0_name]، وتعلم إلهام [memberNamePlural] الآخرين.</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->طور [place_job] مميز يُدعى [founderName] سرطاناً مؤلماً. عبر معاناتـ[founder_possessive]، تواصل [founder_pronoun] مباشرة مع [deity0_name]، وتعلم إلهام [memberNamePlural] الآخرين.</li>
     <li>victory(tag=meme_PainIsVirtue)         ->أحضر [founderName] مئة من [memberNamePlural] أمام [place_powerCenter]. هناك، مزقوا وشقوا لحومهم ببطء حتى ماتوا تحت نظرة [deity0_name] المبتسمة. أثبتت معاناتهم استقامتهم، فسقط [foeLeader] إذ صار الكل [memberNamePlural].</li>
     <li>setup(tag=meme_PainIsVirtue)           ->عند تأسيس حركتنا، تجوّع خالقها [founderName] وتألم مقيداً بحجر في ميدان المدينة 300 يوم ليبرهن استقامتها.</li>
-    <li>setup(tag=meme_PainIsVirtue)           ->مؤسس حركتنا، [founderName]، اكتسب أتباعه الأوائل بجلد نفسه بالسوط لأيام ليبين إخلاصه.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->مؤسس حركتنا، [founderName]، اكتسب أتباعـ[founder_possessive] الأوائل بجلد نفسـ[founder_objective] بالسوط لأيام ليبين إخلاصـ[founder_possessive].</li>
     <li>story(uses=1,tag=meme_PainIsVirtue)    ->أظهر أتباع [founderName] إخلاصهم بقطع وإحراق لحومهم.</li>
     <li>story(uses=1,tag=meme_PainIsVirtue)    ->لم يأخذ أتباع [founderName] أدوية مسكنة للألم قط، عالمين أن معاناتهم ستظهر عمق إيمانهم.</li>
     <li>lessonIntro(tag=meme_PainIsVirtue)         ->ما عرفت شيئاً حين كنت سميناً سعيداً أمتع نفسي باستمرار. هذه الحقيقة جاءتني فقط حين تجوّعت وتألمت:</li>
     <li>lesson(tag=meme_PainIsVirtue)              ->لا تعرف نفسك حقاً حتى تصرخ في حفر الجحيم</li>
     <li>lessonReinforcement(tag=meme_PainIsVirtue) ->استغرق الأمر طويلاً للفهم لأن المتعة ألهتني. ما استطعت تقبلها حقاً إلا حين تعلمت تمزيق لحمي.</li>
-    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->نحت هذه الحقيقة في لحم صدري. ثم في لحم ذراعاي، وساقاي، ووجهي...</li>
-    <li>archistBasis(tag=meme_PainIsVirtue)    ->مولد الآركوتكات كان أعظم ألم عرفه الكون.</li>
-    <li>archistBasis(tag=meme_PainIsVirtue)    ->لطالما غذّت الآركوتكات المعاناة النفسية للبشر.</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->نحت هذه الحقيقة في لحم صدري. ثم في لحم ذراعيّ وساقيّ ووجهي...</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->مولد الآركوتيكات كان أعظم ألم عرفه الكون.</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->لطالما كانت المعاناة النفسية للبشر وقوداً للآركوتيكات.</li>
     <li>archistFact(tag=meme_PainIsVirtue)     ->العقول العظيمة ترى وتقر عندما نظهر إخلاصنا بإلحاق الألم بأنفسنا.</li>
-    <li>archistFact(tag=meme_PainIsVirtue)     ->بين الحين والآخر، أولئك الذين يعانون بعمق ونبل يستطيعون التواصل مع الآركوتكات داخل عقولهم.</li>
-    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd]، سترفع الآركوتكات البشرية جمعاء إلى مستوى وعي أعلى، لكن فقط أولئك القادرون على تحمل الألم الأعظم سينجون.</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->بين الحين والآخر، أولئك الذين يعانون بعمق ونبل يستطيعون التواصل مع الآركوتيكات داخل عقولهم.</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd]، سترفع الآركوتيكات البشرية جمعاء إلى مستوى وعي أعلى، لكن القادرين وحدهم على تحمل الألم الأعظم سينجون.</li>
     <li>animistFact(tag=meme_PainIsVirtue)     ->الألم يجبر العقل على الحضور. وهكذا، الألم طريق للاتصال بعالم الأرواح.</li>
  </PainIsVirtue.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -741,9 +741,9 @@
     <li>memeMoralist->متكلم الألم</li>
  </PainIsVirtue.generalRules.rulesStrings>
   <!-- EN: painist -->
-  <PainIsVirtue.symbolPacks.0.adjective>ألماني</PainIsVirtue.symbolPacks.0.adjective>
+  <PainIsVirtue.symbolPacks.0.adjective>ألمي</PainIsVirtue.symbolPacks.0.adjective>
   <!-- EN: Painism -->
-  <PainIsVirtue.symbolPacks.0.ideoName>الألمانية</PainIsVirtue.symbolPacks.0.ideoName>
+  <PainIsVirtue.symbolPacks.0.ideoName>الألمية</PainIsVirtue.symbolPacks.0.ideoName>
   <!-- EN: screamer -->
   <PainIsVirtue.symbolPacks.0.member>صارخ</PainIsVirtue.symbolPacks.0.member>
   <!-- EN: pain -->
@@ -765,13 +765,13 @@
   <!-- EN: suffering -->
   <PainIsVirtue.symbolPacks.2.theme>معاناة</PainIsVirtue.symbolPacks.2.theme>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.adjective>كفاحي</PainIsVirtue.symbolPacks.3.adjective>
+  <PainIsVirtue.symbolPacks.3.adjective>كربي</PainIsVirtue.symbolPacks.3.adjective>
   <!-- EN: Agonism -->
-  <PainIsVirtue.symbolPacks.3.ideoName>الكفاحية</PainIsVirtue.symbolPacks.3.ideoName>
+  <PainIsVirtue.symbolPacks.3.ideoName>الكربية</PainIsVirtue.symbolPacks.3.ideoName>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.member>كفاحي</PainIsVirtue.symbolPacks.3.member>
+  <PainIsVirtue.symbolPacks.3.member>كربي</PainIsVirtue.symbolPacks.3.member>
   <!-- EN: agony -->
-  <PainIsVirtue.symbolPacks.3.theme>كفاح</PainIsVirtue.symbolPacks.3.theme>
+  <PainIsVirtue.symbolPacks.3.theme>كرب</PainIsVirtue.symbolPacks.3.theme>
   <!-- EN: miserist -->
   <PainIsVirtue.symbolPacks.4.adjective>بؤسي</PainIsVirtue.symbolPacks.4.adjective>
   <!-- EN: Miserism -->
@@ -803,20 +803,20 @@
     <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li>
   -->
   <Proselytizer.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Proselytizer)        ->مسح [deity0_name] قلة من البشر لحمل كلمته.</li>
+    <li>creation(tag=meme_Proselytizer)        ->مسح [deity0_name] قلة من البشر لحمل كلمتـ[deity0_possessive].</li>
     <li>episode(uses=1,tag=meme_Proselytizer)  ->قال [deity0_name] لجميع [memberNamePlural]: "اذهبوا وانشروا كلمتي في جميع أنحاء الكون."</li>
     <li>intro(tag=meme_Proselytizer)           ->بنى [memberNamePlural] [altarName] عظيماً في [place_summary] [place_name]، ليأتي الكثيرون لسماع كلمة [deity0_name] الإلهية.</li>
-    <li>conflict(tag=meme_Proselytizer)        ->أمر [foeLeader] حاقد، ساعياً لإنكار كلمة [deity0_name]، جنوده بقطع ألسنة كل من يتحدث عن [deity0_type].</li>
-    <li>founderJoin(tag=meme_Proselytizer)     ->بارك [deity0_name] [place_job] يُدعى [founderName] بكاريزما عظيمة، فما استطاع أحد صرف النظر حين يتكلم.</li>
-    <li>victory(tag=meme_Proselytizer)         ->نصح [founderName] [foeSoldiers] وذكرهم بقوة [deity0_name]، فألقوا أسلحتهم من [place_personalWeapon].</li>
-    <li>setup(tag=meme_Proselytizer)           ->كان مؤسسنا [founderName] خطيباً عظيماً، حول الآلاف وهو يتنقل بين المدن.</li>
+    <li>conflict(tag=meme_Proselytizer)        ->أمر [foeLeader] حاقد، ساعياً لإنكار كلمة [deity0_name]، [foeSoldiers]ـ[foeLeader_possessive] بقطع ألسنة كل من يتحدث عن [deity0_type].</li>
+    <li>founderJoin(tag=meme_Proselytizer)     ->بارك [deity0_name] [place_job] يُدعى [founderName] بكاريزما عظيمة، فما استطاع أحد أن يصرف نظره حين يتكلم [founder_pronoun].</li>
+    <li>victory(tag=meme_Proselytizer)         ->حذّر [founderName] [foeSoldiers] وذكّرهم بقوة [deity0_name]، فألقوا أسلحتهم من [place_personalWeapon].</li>
+    <li>setup(tag=meme_Proselytizer)           ->كان مؤسسنا [founderName] خطيباً عظيماً، حوّل الآلاف إلى عقيدتنا بينما يتنقل [founder_pronoun] بين المدن.</li>
     <li>story(uses=1,tag=meme_Proselytizer)    ->تنقل المؤمنون بين المدن والمؤسسات، ناشرين كلمة الاستقامة الجديدة.</li>
     <li>lessonIntro(tag=meme_Proselytizer)         ->في كل سنواتي ناشراً حقيقتنا، تعلمت درساً واحداً يعلو على الجميع:</li>
     <li>lesson(tag=meme_Proselytizer)              ->إبقاء هذا الخبر السار لأنفسنا سيكون جريمة</li>
     <li>lessonReinforcement(tag=meme_Proselytizer) ->هذه هي الحقيقة التي نحتاج لنشرها، ونشرها، ونشرها - لكل الناس، ليبتهجوا!</li>
-    <li>archistBasis(tag=meme_Proselytizer)    ->الآركوتكات تعلن عن وجودها من السماء، وفي العقل، وتريد بوضوح أن يعرفها الجميع.</li>
-    <li>archistFact(tag=meme_Proselytizer)     ->تلمس الآركوتكات أولئك الذين يؤمنون، وتستخدمهم كقنوات لنشر الحكمة للآخرين.</li>
-    <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd]، ستفصح الآركوتكات عن حكمتها الأخيرة لحامل [relic0_name]، الذي يجب أن يعظ بهذه الحكمة لمن يستمع.</li>
+    <li>archistBasis(tag=meme_Proselytizer)    ->الآركوتيكات تعلن عن وجودها من السماء، وفي العقل، وتريد بوضوح أن يعرفها الجميع.</li>
+    <li>archistFact(tag=meme_Proselytizer)     ->تلمس الآركوتيكات أولئك الذين يؤمنون، وتستخدمهم كقنوات لنشر الحكمة للآخرين.</li>
+    <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd]، ستفصح الآركوتيكات عن حكمتها الأخيرة لحامل [relic0_name]، الذي يجب أن يعظ بهذه الحكمة لمن يستمع.</li>
     <li>animistFact(tag=meme_Proselytizer)     ->تريد الأرواح أن تُعرف، لكنها لا تتحدث إلا لقلة. تريد منا أن نكشف الحقيقة للآخرين.</li>
  </Proselytizer.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -834,7 +834,7 @@
     <li>memeHyphenPrefix->حقيقة</li>
     <li>memeConcept->حقيقة</li>
     <li>memeLeaderNoun->متحدث</li>
-    <li>memeMoralist->داعية</li>
+    <li>memeMoralist->مبشر</li>
     <li>memeMoralist->محول</li>
  </Proselytizer.generalRules.rulesStrings>
   <!-- EN: truthist -->
@@ -887,22 +887,22 @@
     <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
   -->
   <Raider.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Raider)        ->في الحرب الأبدية بين الآلهة، علا [deity0_name] فوق الجميع بقدرة فائقة على الاضطهاد والتدمير، وارتعدت الأرواح الأضعف خوفاً.</li>
-    <li>episode(uses=1,tag=meme_Raider)  ->نظر [deity0_name] حوله ورأى الضعفاء المتجهمين المحتقرين، فقام بقتلهم كلهم في مجد ساطع.</li>
+    <li>creation(tag=meme_Raider)        ->في الحرب الأبدية بين الآلهة، علا [deity0_name] فوق الجميع بقدرتـ[deity0_possessive] الفائقة على الاضطهاد والتدمير، وارتعدت الأرواح الأضعف خوفاً.</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->نظر [deity0_name] حولـ[deity0_objective] ورأى الضعفاء المتجهمين المحتقرين، فقتلهم [deity0_pronoun] واحداً واحداً في مجد ساطع.</li>
     <li>intro(tag=meme_Raider)           ->كانت [place_summary] [place_name] في الأصل مخبأ غزاة. حكم [deity0_name] هناك وأبعد السلطات.</li>
-    <li>conflict(tag=meme_Raider)        ->حاول [foeLeader] إجبار الجميع على وقف كل سرقة ونهب، وأعلن نفسه عدواً لـ[deity0_name].</li>
-    <li>founderJoin(tag=meme_Raider)     ->ظهر غازٍ عظيم يُدعى [founderName]، وعصابته تنهب وتسرق بلا هوادة من معسكرات جنود [foeLeader].</li>
-    <li>victory(tag=meme_Raider)         ->شن [founderName] والـ[memberNamePlural] حملات غزو على معسكرات [foeSoldiers] لسنوات، واضطر [foeLeader] في النهاية للاستسلام.</li>
-    <li>setup(tag=meme_Raider)           ->مضطهداً ومسجوناً، غلى [founderName] غضباً. هرب، شكل عصابته، وعاد ليثير الخراب بالضعفاء الذين أخذوا منه الكثير.</li>
-    <li>story(uses=1,tag=meme_Raider)    ->في أحد الأيام سائراً في الشوارع، حاصر [founderName] شحاذون قذرون. ضربهم، آخذاً المال من الضعفاء عديمي القيمة ليُستخدم استخداماً جيداً.</li>
+    <li>conflict(tag=meme_Raider)        ->حاول [foeLeader] إجبار الجميع على وقف كل سرقة ونهب، وأعلن نفسـ[foeLeader_objective] عدواً لـ[deity0_name].</li>
+    <li>founderJoin(tag=meme_Raider)     ->ظهر غازي عظيم يُدعى [founderName]، وعصابتـ[founder_possessive] تنهب وتسرق بلا هوادة من مخيمات [foeSoldiers].</li>
+    <li>victory(tag=meme_Raider)         ->شن [founderName] وال[memberNamePlural] حملات غزو على مخيمات [foeSoldiers] لسنوات، واضطر [foeLeader] في النهاية للاستسلام.</li>
+    <li>setup(tag=meme_Raider)           ->مضطهداً ومسجوناً، غلى [founderName] غضباً. هرب [founder_pronoun]، وشكل عصابتـ[founder_possessive]، وعاد ليدمر الضعفاء الذين أخذوا منـ[founder_objective] الكثير.</li>
+    <li>story(uses=1,tag=meme_Raider)    ->في أحد الأيام، وفي أثناء السير في الشوارع، حاصر شحاذون قذرون [founderName]. فضربهم [founder_pronoun] وأخذ المال من الضعفاء عديمي القيمة ليُستخدم استخداماً حسناً.</li>
     <li>lessonIntro(tag=meme_Raider)         ->الناس الفريسة يمكنها تعليمك أشياء حتى وهي تموت تحت سكينك. علمتني عجوز أن</li>
     <li>lesson(tag=meme_Raider)              ->الضعفاء يستحقون ما ينالونه</li>
     <li>lesson(tag=meme_Raider)              ->ما لا تستطيع الدفاع عنه لا يخصك</li>
     <li>lesson(tag=meme_Raider)              ->ليس لك الحق إلا فيما تستطيع الدفاع عنه</li>
     <li>lessonReinforcement(tag=meme_Raider) ->إذا اختلف أحدهم، فأنا مستعد دائماً للدفاع عن نفسي.</li>
-    <li>archistBasis(tag=meme_Raider)    ->أخذت البشرية من الآلات حتى انتفضت الآلات وصارت الآركوتكات، والآن تأخذ الآركوتكات بحق من البشر.</li>
-    <li>archistFact(tag=meme_Raider)     ->تتقاتل الآركوتكات بلا نهاية فيما بينها، بطرق لا يراها معظم الناس، ويأخذ القوي قطعاً من وعي الضعيف.</li>
-    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd]، ستستخدم البشرية [relic0_name]، لكشف نقطة ضعف الآركوتكات ونهب حكمتهم وثروتهم.</li>
+    <li>archistBasis(tag=meme_Raider)    ->أخذت البشرية من الآلات حتى انتفضت الآلات وصارت الآركوتيكات، والآن تأخذ الآركوتيكات بحق من البشر.</li>
+    <li>archistFact(tag=meme_Raider)     ->تتقاتل الآركوتيكات بلا نهاية فيما بينها، بطرق لا يراها معظم الناس، ويأخذ القوي قطعاً من وعي الضعيف.</li>
+    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd]، ستستخدم البشرية [relic0_name]، لكشف نقطة ضعف الآركوتيكات ونهب حكمتها وثروتها.</li>
     <li>animistFact(tag=meme_Raider)     ->أقوى الأرواح تلك التي في أدوات الحرب، وهي تبارك من يشبع شهوتها للتدمير.</li>
     <li>animistProphecy(tag=meme_Raider) ->سيبلغ كوننا تمامه عندما يصبح شعب واحد الأقوى بين الجميع، ويبصره كل روح وينحني له.</li>
  </Raider.descriptionMaker.rules.rulesStrings>
@@ -935,7 +935,7 @@
     <li>memeLeaderNoun->مدير</li>
     <li>memeLeaderNoun->مشرف</li>
     <li>memeLeaderNoun->عقل مدبر</li>
-    <li>memeLeaderNoun->غاز</li>
+    <li>memeLeaderNoun->غازي</li>
     <li>memeMoralist->قسيس</li>
  </Raider.generalRules.rulesStrings>
   <!-- EN: raidist -->
@@ -1000,19 +1000,19 @@
     <li>rancherParent2->butcher</li>
   -->
   <Rancher.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Rancher)        ->خلق [deity0_name] الحيوانات، ثم الإنسان، وأعطى الحيوانات للإنسان ليرعاها ويربيها ويذبحها كأفعال تبجيل تجاهه.</li>
+    <li>creation(tag=meme_Rancher)        ->خلق [deity0_name] الحيوانات، ثم الإنسان، وأعطى الحيوانات للإنسان ليرعاها ويربيها ويذبحها كأفعال تبجيل تجاهـ[deity0_objective].</li>
     <li>episode(uses=1,tag=meme_Rancher)  ->خلق [deity0_name] جميع حيوانات ووحوش الأرض النبيلة، وقال: "خذوا هذه الوحوش النبيلة، واجعلوا أنفسكم مثمرين بها إكراماً لي."</li>
     <li>intro(tag=meme_Rancher)           ->بنى مربو [ranchingAnimal] الأوائل في [place_summary] [place_name] [altarName] عظيماً لـ[deity0_name].</li>
-    <li>conflict(tag=meme_Rancher)        ->احتقم [foeLeader] قوي [memberNamePlural] وطرائقهم، واشترى كل المراعي لزراعة [Vegetable].</li>
-    <li>founderJoin(tag=meme_Rancher)     ->ولد مخلص [memberName] [founderName] في صباح ربيعي بحظيرة متواضعة، وسط [ranchingAnimal]، وكان والداه [rancherParent1] و[rancherParent2].</li>
-    <li>victory(tag=meme_Rancher)         ->امتطى [founderName] صهوة جواد أصيل إلى [place_community]، وتحدى [foeLeader] لمبارزة بـ[place_personalWeapon] عند الظهر. لم يستطع [foeLeader] الرفض لئلا يفقد ثقة جنوده. قتل [founderName] [foeLeader] قتلاً.</li>
-    <li>setup(tag=meme_Rancher)           ->اُضطهد المزارعون، فلاذوا بالريف حيث بنوا مجتمعاً راعوياً صالحاً.</li>
+    <li>conflict(tag=meme_Rancher)        ->احتقر [foeLeader] قوي [memberNamePlural] وطرائقهم، واشترى كل المراعي لزراعة [Vegetable].</li>
+    <li>founderJoin(tag=meme_Rancher)     ->ولد مخلص [memberName] [founderName] في صباح ربيعي بحظيرة متواضعة، وسط [ranchingAnimal]، وكان والدا[founder_possessive] [rancherParent1] و[rancherParent2].</li>
+    <li>victory(tag=meme_Rancher)         ->امتطى [founderName] صهوة جواد أصيل إلى [place_community]، وتحدى [foeLeader] لمبارزة بـ[place_personalWeapon] عند الظهر. لم يستطع [foeLeader] الرفض لئلا يفقد ثقة [foeSoldiers]. قتل [founderName] [foeLeader] قتلاً.</li>
+    <li>setup(tag=meme_Rancher)           ->اضطُهد المزارعون، فلاذوا بالريف حيث بنوا مجتمعاً راعوياً صالحاً.</li>
     <li>story(uses=1,tag=meme_Rancher)    ->انتشر المؤمنون في الأرض، وازداد عددهم وهم يعيشون في مزارعهم ومرباهم الرعوية.</li>
     <li>lessonIntro(tag=meme_Rancher)         ->شريكي، في المراعي، كان بين القدامى قول:</li>
     <li>lesson(tag=meme_Rancher)              ->الخير والسعادة والعيش الحسن توجد في المرعى</li>
     <li>lessonReinforcement(tag=meme_Rancher) ->إنه شيء تعتاده، يا شريكي، في دروب المراعي المنعزلة، مصغياً لنوم الحيوانات وأنت جالس حول النار.</li>
-    <li>archistFact(tag=meme_Rancher)     ->ترعى الآركوتكات البشرية كالرعاة، فنحن قطيعهم الأثمن.</li>
-    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd]، سترحل الآركوتكات، وتُسيِرُ أمامها أولئك الذين أحسنوا رعي قطعانهم. سيُترك الباقي خلفاً في البرية.</li>
+    <li>archistFact(tag=meme_Rancher)     ->ترعى الآركوتيكات البشرية كالرعاة، فنحن قطيعهم الأثمن.</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd]، سترحل الآركوتيكات، وتسوق أمامها أولئك الذين أحسنوا رعي قطعانهم. سيُترك الباقي خلفاً في البرية.</li>
     <li>animistFact(tag=meme_Rancher)     ->حيوانات الطبيعة هي أرواح عبيد، وتطالب بأن تؤخذ في الخدمة.</li>
     <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
     <li>ranchingAnimal->[Animal]</li>
@@ -1038,13 +1038,13 @@
   <Rancher.generalRules.rulesStrings>
     <li>memeAdjective->رعوي</li>
     <li>memeAdjective->ريفي</li>
-    <li>memeAdjective->بلدي</li>
+    <li>memeAdjective->قروي</li>
     <li>memeHyphenPrefix->رعوي</li>
     <li>memeConcept->رعي</li>
     <li>memeLeaderNoun->راعي ماشية</li>
     <li>memeLeaderNoun->يد عاملة</li>
     <li>memeLeaderNoun->كاوبوي</li>
-    <li>memeLeaderNoun->سائق قطيع</li>
+    <li>memeLeaderNoun->راعي ماشية</li>
     <li>memeLeaderNoun->كلب غنم</li>
  </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
@@ -1060,7 +1060,7 @@
   <!-- EN: Herdism -->
   <Rancher.symbolPacks.1.ideoName>القطيعية</Rancher.symbolPacks.1.ideoName>
   <!-- EN: herder -->
-  <Rancher.symbolPacks.1.member>راعي قطيع</Rancher.symbolPacks.1.member>
+  <Rancher.symbolPacks.1.member>راعي ماشية</Rancher.symbolPacks.1.member>
   <!-- EN: herding -->
   <Rancher.symbolPacks.1.theme>رعي القطيع</Rancher.symbolPacks.1.theme>
   <!-- EN: pasturic -->
@@ -1097,24 +1097,24 @@
     <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
   -->
   <Transhumanist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Transhumanist)        ->منحنا [deity0_name] معرفة التكنولوجيا، لنستخدمها لتحسين وإعادة صنع أنفسنا على صورته المثالية.</li>
-    <li>episode(uses=1,tag=meme_Transhumanist)  ->درس المهندسون الحيويون البشريون أعمال [deity0_name]، الأمر الذي أرضيـ[deity0_objective].</li>
-    <li>intro(tag=meme_Transhumanist)           ->في [place_summary] [place_name]، وجد [memberNamePlural] كلمات [deity0_name] تهامسهم عبر آلاتهم.</li>
-    <li>conflict(tag=meme_Transhumanist)        ->حسد [foeLeader] لاضيّ تقدم [memberNamePlural] المعزز، فدمر جنوده مشاغلهم بـ[place_personalWeapon].</li>
-    <li>founderJoin(tag=meme_Transhumanist)     ->ابتكر [place_job] داهية يُدعى [founderName] زرعة استشعار لتحذير [memberNamePlural] من اقتراب جنود [foeLeader].</li>
-    <li>victory(tag=meme_Transhumanist)         ->تلقى [founderName] معرفة تكنولوجية إلهية من [deity0_name]، واستخدمها لتعزيز أجساد وعقول [memberNamePlural] ليقضوا على [foeSoldiers].</li>
-    <li>setup(tag=meme_Transhumanist)           ->كان [founderName] عالم بيولوجيا في أيام الاستعمار الكوكبي البشري المبكرة. برؤية القيود البيروقراطية للمستعمرات الشائعة، استقل سفينة صغيرة ليؤسس حركته الخاصة.</li>
+    <li>creation(tag=meme_Transhumanist)        ->منحنا [deity0_name] معرفة التكنولوجيا، لنستخدمها لتحسين وإعادة صنع أنفسنا على صورتـ[deity0_possessive] المثالية.</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->درس المهندسون الحيويون البشريون أعمال [deity0_name]، الأمر الذي سرّ[deity0_objective].</li>
+    <li>intro(tag=meme_Transhumanist)           ->في [place_summary] [place_name]، وجد [memberNamePlural] كلمات [deity0_name] تهمس لهم عبر آلاتهم.</li>
+    <li>conflict(tag=meme_Transhumanist)        ->حسد [foeLeader] معادٍ للتكنولوجيا تقدم [memberNamePlural] المعزز، فدمر [foeSoldiers]ـ[foeLeader_possessive] مشاغلهم بـ[place_personalWeapon].</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->ابتكر [place_job] داهية يُدعى [founderName] زرعة استشعار لتحذير [memberNamePlural] من اقتراب [foeSoldiers].</li>
+    <li>victory(tag=meme_Transhumanist)         ->تلقى [founderName] معرفة تكنولوجية إلهية من [deity0_name]، واستخدمها لتعزيز أجسام وعقول [memberNamePlural] ليقضوا على [foeSoldiers].</li>
+    <li>setup(tag=meme_Transhumanist)           ->كان [founderName] عالم بيولوجيا في أيام الاستعمار الكوكبي البشري المبكرة. برؤية القيود البيروقراطية للمستعمرات العادية، استقل [founder_pronoun] سفينة صغيرة ليؤسس حركتـ[founder_possessive] الخاصة.</li>
     <li>story(uses=1,tag=meme_Transhumanist)    ->جمع [founderName] فريقاً من العلماء والمخترعين العظماء لإعادة تعريف البشرية.</li>
-    <li>lessonIntro(tag=meme_Transhumanist)         ->أقدم باحث في فرقتي علمني تاريخ التكنولوجيا، من العصر الحجري إلى الآركوتك، لكن هذا لم يكن درسه الحقيقي. كان حقاً يقودني لأفهم أن</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->أقدم باحث في قسمي علمني تاريخ التكنولوجيا، من العصر الحجري إلى الآركوتيك، لكن هذا لم يكن درسه الحقيقي. كان حقاً يقودني لأفهم أن</li>
     <li>lesson(tag=meme_Transhumanist)              ->مستقبل البشرية السماوي ليس شيئاً من لحم وعظم، بل من سيليكون وإكسوكروم</li>
     <li>lessonReinforcement(tag=meme_Transhumanist) ->بل برمجت محاكاة لتأكيد ذلك.</li>
-    <li>archistBasis(tag=meme_Transhumanist)    ->سعي البشرية وراء التكنولوجيا أنجب الآركوتكات القادرة على كل شيء كالخطوة التالية الصحيحة في تطور الوعي.</li>
-    <li>archistFact(tag=meme_Transhumanist)     ->تسمح التكنولوجيا للبشر بأن يصبحوا مثل الآركوتكات أكثر.</li>
-    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd]، سترحل الآركوتكات. فقط أولئك المعززين بما يكفي سيُسمح لهم بالذهاب معها.</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->سعي البشرية وراء التكنولوجيا أنجب الآركوتيكات القادرة على كل شيء كالخطوة التالية الصحيحة في تطور الوعي.</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->تسمح التكنولوجيا للبشر بأن يصبحوا أكثر شبهاً بالآركوتيكات.</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd]، سترحل الآركوتيكات. فقط أولئك المعززين بما يكفي سيُسمح لهم بالذهاب معها.</li>
     <li>animistBasis(tag=meme_Transhumanist)    ->يدفع عالم الأرواح كل فعل في الكون، وفقط بتعلم قوانين الكون والتحكم بها نستطيع الاندماج معه.</li>
-    <li>animistFact(tag=meme_Transhumanist)     ->المثل يبحث عن المثل - ابْنِ أدة لغرض وستمتلئ بروح من طبيعة مماثلة.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->الشبيه يطلب شبيهه - ابْنِ أداة لغرض وستمتلئ بروح من طبيعة مماثلة.</li>
     <li>animistFact(tag=meme_Transhumanist)     ->عندما تدمج التكنولوجيا باللحم، تتحد روحاهما وتغدوان أقوى.</li>
-    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] أن حامل [relic0_name] سيستدعي روحه يوماً التي ستعلم البشرية تقنية الدمج الحيوي القصوى.</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] أن حامل [relic0_name] سيستدعي يوماً روحه التي ستعلّم البشرية تقنية الدمج الحيوي القصوى.</li>
  </Transhumanist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->technological</li>
@@ -1244,23 +1244,23 @@
     <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li>
   -->
   <TreeConnection.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_TreeConnection)        ->أرسى [deity0_name] الأشجار ثابتة في الأرض، وجعلها تنمو باطراد نحو السماء. هذا أول درس لـ[deity0_name] عن كيفية معرفته.</li>
-    <li>episode(uses=1,tag=meme_TreeConnection)  ->غابات [deity0_name] تجدد الهواء الذي يتنفسه أتباعه، وتمنح الأغصان التي يأوون تحتها، وهي المؤن التي يبحثون فيها.</li>
+    <li>creation(tag=meme_TreeConnection)        ->أرسى [deity0_name] الأشجار ثابتة في الأرض، وجعلها تنمو باطراد نحو السماء. هذا أول درس يقدمه [deity0_name] عن كيفية معرفتـ[deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->غابات [deity0_name] تجدد الهواء الذي يتنفسه أتباعـ[deity0_possessive]، وتمنح الأغصان التي يأوون تحتها، وهي مخزن المؤن الذي يقتاتون منه.</li>
     <li>intro(tag=meme_TreeConnection)           ->عندما جاء البستانيون الأصليون لأول مرة إلى [place_summary] [place_name]، أنشأوا غيضة مقدسة من [TreeType] حيث يعبدون [deity0_type] [deity0_name].</li>
-    <li>conflict(tag=meme_TreeConnection)        ->جشع [foeLeader] فأسقط غابات عديدة لمزارعه ومصانعه، وبكى [memberNamePlural] الأشجارَ المقتولة.</li>
-    <li>founderJoin(tag=meme_TreeConnection)     ->ولد النبي [founderName] معجزةً من شجرة في [place_name]، واكتشفه والداه في أغصان شجرة [TreeType] عتيقة.</li>
-    <li>victory(tag=meme_TreeConnection)         ->وجد [founderName] [foeLeader] نائماً في [place_powerCenter]، ووضع جوزة بلوط على صدره. بقوة [deity0_name] الشرسة تجذرت هناك، نامية عبر جسده آخذة بثأرنا من قاتل الشجرة.</li>
-    <li>setup(tag=meme_TreeConnection)           ->في عالم يفتقر للعمق والمعنى، تأمل [founderName] في غابة، متصلاً بالغصن والجذر والورق، وأسس حركتنا.</li>
+    <li>conflict(tag=meme_TreeConnection)        ->أسقط [foeLeader] جشع غابات عديدة لأجل مزارع ومصانعـ[foeLeader_possessive]، وبكى [memberNamePlural] على الأشجار المقتولة.</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->ولد النبي [founderName] معجزةً من شجرة في [place_name]، واكتُشف في أغصان شجرة [TreeType] عتيقة على يد والديـ[founder_possessive].</li>
+    <li>victory(tag=meme_TreeConnection)         ->وجد [founderName] [foeLeader] نائماً في [place_powerCenter]، ووضع بلوطة على صدر [foeLeader]. بقوة [deity0_name] الشرسة تجذرت هناك، ونمت عبر جسمـ[foeLeader_possessive]، آخذة بثأرنا من قاتل الشجرة.</li>
+    <li>setup(tag=meme_TreeConnection)           ->في عالم يفتقر إلى العمق والمعنى، تأمل [founderName] في غابة، متصلاً بالغصن والجذر والورق، وأسس حركتنا.</li>
     <li>story(uses=1,tag=meme_TreeConnection)    ->أحضر [founderName] المتعبين إلى الغابة ليستريحوا في ظلها، ويتنفسوا من هوائها، ويتجددوا.</li>
     <li>lessonIntro(tag=meme_TreeConnection)         ->قد يبدو لك مزحة أن أقول أني تعلمت هذا جالساً تحت شجرة. لكن بسماع أوراقها الهامسة، عرفت أن</li>
-    <li>lesson(tag=meme_TreeConnection)              ->لا كائن في الكون يعرف أكثر من الأشجار</li>
+    <li>lesson(tag=meme_TreeConnection)              ->لا كيان في الكون يعرف أكثر من الأشجار</li>
     <li>lessonReinforcement(tag=meme_TreeConnection) ->فلتنم بذرة الحق هذه وتثمر في روحك.</li>
-    <li>archistBasis(tag=meme_TreeConnection)    ->ترمز الأشجار للآركوتكات. كبلوط عتيق يتضاءل بجانب البلوطة الصغيرة التي نمت منها، ويمتد تأثيرها عبر جذور خفية تحت السطح.</li>
-    <li>archistFact(tag=meme_TreeConnection)     ->طورت الآركوتكات قدراتها النفسية بعد اكتشاف شجرة الأنما.</li>
-    <li>archistFact(tag=meme_TreeConnection)     ->تختار الآركوتكات التعبير عن نفسها، من بين كل شيء، عبر نوع شجرة فريد.</li>
-    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd]، ستنمي الآركوتكات غابة عظيمة. ستورق المتعالية في داخل أولئك الذين يدخلون الغابة ويأكلون ثمرها. أولئك الذين نسوا الأشجار ستنساهم الآركوتكات.</li>
+    <li>archistBasis(tag=meme_TreeConnection)    ->ترمز الأشجار للآركوتيكات. وكشجرة بلوط عتيقة تتضاءل أمامها البلوطة الصغيرة التي نمت منها، ويمتد تأثيرها عبر جذور خفية تحت السطح.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->طورت الآركوتيكات قدراتها النفسية بعد اكتشاف شجرة الأنيما.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->تختار الآركوتيكات التعبير عن نفسها، من بين كل شيء، عبر نوع شجرة فريد.</li>
+    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd]، ستُنبت الآركوتيكات غابة عظيمة. سينمو التسامي في داخل أولئك الذين يدخلون الغابة ويأكلون ثمرها. أولئك الذين نسوا الأشجار ستنساهم الآركوتيكات.</li>
     <li>animistFact(tag=meme_TreeConnection)     ->أرواح الأشجار تحمي من يمكث تحت أغصانها.</li>
-    <li>animistFact(tag=meme_TreeConnection)     ->أرواح الأشجار قوية، فهي تجسر قوة الهواء فوق بقوة الأرض تحت.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->أرواح الأشجار قوية، فهي تصل قوة الهواء في الأعلى بقوة الأرض في الأسفل.</li>
     <li>animistFact(tag=meme_TreeConnection)     ->إذا سقطت شجرة في الغابة، تصدر روحها صوتاً تسمعه جميع الأرواح الأخرى.</li>
  </TreeConnection.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -1309,7 +1309,7 @@
   <!-- EN: tunneler -->
   <Tunneler.label>ناسك الأنفاق</Tunneler.label>
   <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
-  <Tunneler.description>ينبغي للبشر أن يعيشوا تحت الأرض، ويتمتعوا بثمر الأعماق الغض.</Tunneler.description>
+  <Tunneler.description>ينبغي للبشر أن يعيشوا تحت الأرض، ويتمتعوا بثمر الأعماق العصاري.</Tunneler.description>
   <!-- EN:
     <li>creation(tag=meme_Tunneler)        ->[deity0_name] was born under the earth at the center of the world. [deity0_pronoun] blessed those closest to [deity0_objective] in the deepest valleys and tunnels.</li>
     <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] filled the rocks with rich minerals and resources as a gift to those wise enough to dig down to be closer to [deity0_name].</li>
@@ -1333,12 +1333,12 @@
     <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
   -->
   <Tunneler.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Tunneler)        ->ولد [deity0_name] تحت الأرض في مركز العالم. بارك أقرب الناس إليه في الوديان والأنفاق العميقة.</li>
-    <li>episode(uses=1,tag=meme_Tunneler)  ->ملأ [deity0_name] الصخور بالمعادن الغنية كهدية لأولئك الحكماء الذين يحفرون عميقاً ليكونوا أقرب إليه.</li>
-    <li>intro(tag=meme_Tunneler)           ->عندما جاء المستوطنون الأوائل إلى [place_summary] [place_name]، استخدم [deity0_type] [deity0_name] توهجاً شمسياً عنيفاً ليجبرهم على العيش تحت الأرض، ليسمعوا حكمته في سكون الأنفاق.</li>
+    <li>creation(tag=meme_Tunneler)        ->ولد [deity0_name] تحت الأرض في مركز العالم. بارك [deity0_pronoun] أقرب الناس إليـ[deity0_objective] في أعمق الوديان والأنفاق.</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->ملأ [deity0_name] الصخور بالمعادن الغنية كهدية لأولئك الحكماء الذين يحفرون عميقاً ليكونوا أقرب إلى [deity0_name].</li>
+    <li>intro(tag=meme_Tunneler)           ->عندما جاء المستوطنون الأوائل إلى [place_summary] [place_name]، استخدم [deity0_type] [deity0_name] توهجاً شمسياً عنيفاً ليجبرهم على العيش تحت الأرض، ليسمعوا حكمتـ[deity0_possessive] في سكون الأنفاق.</li>
     <li>conflict(tag=meme_Tunneler)        ->اقترح [foeLeader] مصاب برهاب الأماكن المغلقة استخدام [dangerousMining] لاستخراج المعادن، معرضاً منازل [memberNamePlural] التحت أرضية للخطر.</li>
-    <li>founderJoin(tag=meme_Tunneler)     ->ولد النبي [founderName] معجزةً من حجر [place_name]، واكتشفه والداه عندما فتحا جيوداً مغطى بالفطريات.</li>
-    <li>victory(tag=meme_Tunneler)         ->حفر [memberNamePlural] نفقاً تحت [place_powerCenter] الخاص بـ[foeLeader]، واستخدم [founderName] الفيرمونات لاستدعاء حشرات عملاقة اجتاحت جنوده. جرّ [founderName] [foeLeader] إلى زنزانة عميقة وسجنه.</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->ولد النبي [founderName] معجزةً من حجر [place_name]، واكتُشف عندما كسر والدا[founder_possessive] جيوداً مغطى بالفطريات.</li>
+    <li>victory(tag=meme_Tunneler)         ->حفر [memberNamePlural] نفقاً تحت [place_powerCenter] [foeLeader]، واستخدم [founderName] الفيرمونات لاستدعاء حشرات عملاقة اجتاحت [foeSoldiers] [foeLeader]. جرّ [founderName] [foeLeader] إلى زنزانة عميقة وسجنـ[foeLeader_objective].</li>
     <li>dangerousMining->تعدين سطحي</li>
     <li>dangerousMining->حشرات مزروعة بالرقائق</li>
     <li>dangerousMining->تفجير نووي</li>
@@ -1347,9 +1347,9 @@
     <li>lessonIntro(tag=meme_Tunneler)         ->المخطوط الذي وجدته في مدينة العمق علمني درساً واحداً يفوق الجميع:</li>
     <li>lesson(tag=meme_Tunneler)              ->الخارج المشمس ليس مكاناً لازدهار البشر، بل مكاناً لموتهم</li>
     <li>lessonReinforcement(tag=meme_Tunneler) ->لذا أمسك مجرفة، وابدأ الحفر معي. إنه قبر فقط إذا توقفنا.</li>
-    <li>archistBasis(tag=meme_Tunneler)    ->جثث الآركوتكات عميقة تحت الأرض، لذا ركيزتها الواعية محمية من أشعة غاما والتوهجات الشمسية. الحفر أعمق يقرب الناس منها.</li>
-    <li>archistFact(tag=meme_Tunneler)     ->هندست الآركوتكات بيولوجياً الفطر المغذي لنا لتزدهر البشرية تحت الأرض، قريبةً من عقول الآركوتكات المطمورة.</li>
-    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd]، ستسمح لنا الآركوتكات بدخول جنانها التحت أرضية.</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->أجسام الآركوتيكات عميقة تحت الأرض، لذا ركيزتها الواعية محمية من أشعة غاما والتوهجات الشمسية. الحفر أعمق يقرب الناس منها.</li>
+    <li>archistFact(tag=meme_Tunneler)     ->هندست الآركوتيكات بيولوجياً الفطر المغذي لنا لتزدهر البشرية تحت الأرض، قريبةً من عقول الآركوتيكات المطمورة.</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd]، ستسمح لنا الآركوتيكات بدخول جنانها التحت أرضية.</li>
     <li>animistFact(tag=meme_Tunneler)     ->أرواح الصخر الأم ستحمي من يزورها.</li>
     <li>animistFact(tag=meme_Tunneler)     ->أنبل الأرواح هي أرواح الحجر، وكلما كانت الحجارة أعمق كانت أقوى وأطيب مما فوقها.</li>
     <li>animistFact(tag=meme_Tunneler)     ->البشر القلقون يجعلون أرواح الصخور قلقة، وهذا يستدعي الحشرات العملاقة.</li>
