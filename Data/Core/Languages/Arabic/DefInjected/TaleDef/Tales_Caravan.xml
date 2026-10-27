@@ -79,8 +79,8 @@
     <li>image->[PAWN_nameFull] يحمل [Weapon]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يلوح بـ[Weapon]، [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يقف شامخاً مثل مبنى، [circumstance_group]</li>
-    <li>circumstance_phrase->مرتدياً نظرة [AdjectiveBadass] في عينيه</li>
-    <li>circumstance_phrase->مرتدياً نظرة [AdjectiveAngsty] في عينيه</li>
+    <li>circumstance_phrase->مرتدياً نظرة [AdjectiveBadass] في عينيـ[PAWN_possessive]</li>
+    <li>circumstance_phrase->مرتدياً نظرة [AdjectiveAngsty] في عينيـ[PAWN_possessive]</li>
     <li>circumstance_phrase->يزأر منتصراً</li>
     <li>circumstance_phrase->مغطى بـ[Gore]</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s يرتعدون من الهجوم.</li>
@@ -171,8 +171,8 @@
     <li>circumstance_phrase->ومجهز للقتال</li>
     <li>circumstance_phrase->ومجهز للبقاء</li>
     <li>circumstance_phrase->ومجهز للاستكشاف</li>
-    <li>circumstance_phrase->بنظرة تواقة في عينيه</li>
-    <li>circumstance_phrase->بنظرة [AdjectiveAny] في عينيه</li>
+    <li>circumstance_phrase->بنظرة تواقة في عينيـ[PAWN_possessive]</li>
+    <li>circumstance_phrase->بنظرة [AdjectiveAny] في عينيـ[PAWN_possessive]</li>
     <li>desc_sentence->[Quantity_adjphrase] من [ally]s يراقبون الاستعدادات.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [ally]s يساعدون في الاستعدادات.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s يبتعدون عن المشهد.</li>
@@ -212,7 +212,7 @@
     <li>circumstance_phrase->يتصبب عرقاً بغزارة</li>
     <li>circumstance_phrase->مرتدياً تعبيراً [AdjectiveFriendly]</li>
     <li>circumstance_phrase->يبتسم بفخر</li>
-    <li>circumstance_phrase->تعبير راضٍ على وجهه</li>
+    <li>circumstance_phrase->تعبير راضٍ على وجهـ[PAWN_possessive]</li>
     <li>circumstance_phrase->ينظر حوله بحذر بحثاً عن الخطر</li>
     <li>desc_sentence->[Quantity_adjphrase] من [ally]s يساعدون.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يتجولون في المنطقة.</li>

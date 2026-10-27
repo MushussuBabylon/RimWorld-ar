@@ -17,7 +17,7 @@
   <MeleeArmorPenetration.description>متوسط اختراق الدرع لجميع الهجمات في قتال الاشتباك.\n\nهذه الإحصائية تشمل السلاح المستخدم حالياً.</MeleeArmorPenetration.description>
   
   <!-- EN: melee cooldown -->
-  <MeleeCooldownFactor.label>فترة تبريد الاشتباك</MeleeCooldownFactor.label>
+  <MeleeCooldownFactor.label>فترة انتظار الاشتباك</MeleeCooldownFactor.label>
   <!-- EN: A multiplier on the time this creature takes to recover after making a melee attack. -->
   <MeleeCooldownFactor.description>مضاعف على الوقت الذي يستغرقه هذا المخلوق للتعافي بعد تنفيذ هجوم اشتباك.</MeleeCooldownFactor.description>
   
@@ -54,9 +54,9 @@
   <PawnTrapSpringChance.description>فرصة أن ينطلق فخ لا تدركه الشخصية.</PawnTrapSpringChance.description>
   
   <!-- EN: ranged cooldown multiplier -->
-  <RangedCooldownFactor.label>مضاعف تبريد الرماية</RangedCooldownFactor.label>
+  <RangedCooldownFactor.label>مضاعف فترة انتظار الرماية</RangedCooldownFactor.label>
   <!-- EN: A multiplier on the cooldown between bursts when using a ranged weapon. -->
-  <RangedCooldownFactor.description>مضاعف على فترة التبريد بين الرشقات عند استخدام سلاح بعيد المدى.</RangedCooldownFactor.description>
+  <RangedCooldownFactor.description>مضاعف على فترة الانتظار بين الرشقات عند استخدام سلاح بعيد المدى.</RangedCooldownFactor.description>
   
   <!-- EN: accuracy factor (long) -->
   <ShootingAccuracyFactor_Long.label>عامل الدقة (طويل)</ShootingAccuracyFactor_Long.label>

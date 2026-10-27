@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: failed conversion -->
-  <Convert_Failure.label>تحويل فاشل</Convert_Failure.label>
+  <Convert_Failure.label>تحويل عقيدة فاشل</Convert_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>
   -->
@@ -11,7 +11,7 @@
  </Convert_Failure.logRulesInitiator.rulesStrings>
   
   <!-- EN: successful conversion -->
-  <Convert_Success.label>تحويل ناجح</Convert_Success.label>
+  <Convert_Success.label>تحويل عقيدة ناجح</Convert_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>
   -->
@@ -34,7 +34,7 @@
     <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
   -->
   <Counsel_Failure.logRulesInitiator.rulesStrings>
-    <li>r_logentry->حاول [INITIATOR_nameDef] نصح [RECIPIENT_nameDef]، لكنه أفسد المحاولة وزاد الأمور سوءاً.</li>
+    <li>r_logentry->حاول [INITIATOR_nameDef] إسداء المشورة لـ[RECIPIENT_nameDef]، لكنه أفسد المحاولة وزاد الأمور سوءاً.</li>
  </Counsel_Failure.logRulesInitiator.rulesStrings>
   
   <!-- EN: successful counsel -->
@@ -49,8 +49,8 @@
     <li>problems->recent difficulties</li>
   -->
   <Counsel_Success.logRulesInitiator.rulesStrings>
-    <li>r_logentry->نصح [INITIATOR_nameDef] [RECIPIENT_nameDef] بخصوص [problems].</li>
-    <li>r_logentry->ساعد [INITIATOR_nameDef] [RECIPIENT_nameDef] في التفكير ملياً بـ[problems].</li>
+    <li>r_logentry->قدم [INITIATOR_nameDef] المشورة لـ[RECIPIENT_nameDef] بخصوص [problems].</li>
+    <li>r_logentry->ساعد [INITIATOR_nameDef] [RECIPIENT_nameDef] في التفكير ملياً في [problems].</li>
     <li>r_logentry->قدم [INITIATOR_nameDef] نصيحة لـ[RECIPIENT_nameDef] حول التغلب على السلبية.</li>
     <li>problems->مشاكلـ[RECIPIENT_possessive]</li>
     <li>problems->متاعبـ[RECIPIENT_possessive]</li>
@@ -133,13 +133,13 @@
     <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
   -->
   <Trial_Defend.logRulesInitiator.rulesStrings>
-    <li>r_logentry->نحى [INITIATOR_nameDef] الاتهام.</li>
+    <li>r_logentry->درأ [INITIATOR_nameDef] الاتهام.</li>
     <li>r_logentry->قدم [INITIATOR_nameDef] تفسيراً آخر.</li>
     <li>r_logentry->ترافع [INITIATOR_nameDef] أمام هيئة المحلفين.</li>
     <li>r_logentry->ناشد [INITIATOR_nameDef] الرحمة.</li>
     <li>r_logentry->ماطل [INITIATOR_nameDef] في الإجراءات.</li>
     <li>r_logentry->رفض [INITIATOR_nameDef] المزاعم.</li>
-    <li>r_logentry->وصف [INITIATOR_nameDef] المحاكمة بالزائفة.</li>
+    <li>r_logentry->وصف [INITIATOR_nameDef] المحاكمة بأنها مهزلة.</li>
  </Trial_Defend.logRulesInitiator.rulesStrings>
   
   <!-- EN: work drive -->
@@ -148,7 +148,7 @@
     <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
   -->
   <WorkDrive.logRulesInitiator.rulesStrings>
-    <li>r_logentry->طلب [INITIATOR_nameDef] من [RECIPIENT_nameDef] العمل بجد إضافي لمصلحة المستعمرة.</li>
+    <li>r_logentry->طلب [INITIATOR_nameDef] من [RECIPIENT_nameDef] العمل بجهد إضافي لمصلحة المستعمرة.</li>
  </WorkDrive.logRulesInitiator.rulesStrings>
   
 </LanguageData>

@@ -26,19 +26,19 @@
   <HumanPrimacy.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_HumanPrimacy)        ->خلق [deity0_name] كل الطبيعة، وأعطاها للإنسان هدية، لتخدم الإنسان وأغراضه إلى الأبد.</li>
     <li>episode(uses=1,tag=meme_HumanPrimacy)  ->قاتل الناس وحوش الغابة، ورأى [deity0_name] كفاحهم، وأعطاهم أسلحة للسيطرة على الطبيعة.</li>
-    <li>intro(tag=meme_HumanPrimacy)           ->أول المستوطنين الذين تحطموا على [place_summary] [place_name] هاجمتهم حيوانات [Animal] مفترسة. تدخل [deity0_name]، قاتلاً الوحوش ومظهراً تفضيله للجنس البشري.</li>
+    <li>intro(tag=meme_HumanPrimacy)           ->أول المستوطنين الذين هبطوا اضطرارياً على [place_summary] [place_name] هاجمتهم حيوانات [Animal] مفترسة. تدخل [deity0_name]، قاتلاً الوحوش ومبيناً تفضيلـ[deity0_possessive] للجنس البشري.</li>
     <li>conflict(tag=meme_HumanPrimacy)        ->أصدر [foeLeader] معاد للبشر مرسوماً يمنح بعض الحقوق المتساوية لكل من الحيوانات والبشر. بكى [deity0_name] حين أُجبر [memberNamePlural] على إعطاء حقوقهم لـ[Animal] و[Animal].</li>
-    <li>founderJoin(tag=meme_HumanPrimacy)     ->أسس [place_job] يُدعى [founderName] حديقة الحيوانات الغريبة الشهيرة على [place_name]. استخدم عروض ذبح الحيوانات لتعليم الزوار عن رغبة [deity0_name] في حكم البشرية للطبيعة.</li>
+    <li>founderJoin(tag=meme_HumanPrimacy)     ->أسس [place_job] يُدعى [founderName] حديقة الحيوانات الغريبة الشهيرة على [place_name]. استخدم [founder_pronoun] عروض ذبح الحيوانات لتعليم الزوار عن رغبة [deity0_name] في أن تحكم البشرية الطبيعة.</li>
     <li>victory(tag=meme_HumanPrimacy)         ->بسبب أفعال [founderName]، رأى [foeSoldiers] التابعون لـ[foeLeader] حقيقة [deity0_name]. احتفوا بإنسانيتهم المشتركة مع [memberNamePlural] ونفوا [foeLeader] ليعيش في البرية كالحيوان.</li>
     <li>setup(tag=meme_HumanPrimacy)           ->بنى [founderName] مستعمرة على عالم أخضر، ناشراً سلطة البشرية على كل حقل وغابة.</li>
     <li>story(uses=1,tag=meme_HumanPrimacy)    ->مرة، رأى [founderName] كلباً يزمجر على صبي. أمر [founder_pronoun] بقتل الكلب فوراً.</li>
     <li>lessonIntro(tag=meme_HumanPrimacy)         ->زرت مزرعة منظمة مليئة بحيوانات سليمة ومحاصيل مزدهرة. بجانبها غابة على طبيعتها، ملتوية وشرسة. كان واضحاً أن</li>
     <li>lesson(tag=meme_HumanPrimacy)              ->البشر وحدهم هم من يعطون معنى للكون</li>
     <li>lesson(tag=meme_HumanPrimacy)              ->الطبيعة هي نوبة جنون لا نهاية لها من الدمار اللا أخلاقي، والبشر هم الحل</li>
-    <li>lessonReinforcement(tag=meme_HumanPrimacy) ->إذا كان المنافسة هي البقاء للأصلح، فنحن قد فزنا بوضوح.</li>
-    <li>archistBasis(tag=meme_HumanPrimacy)    ->الآركوتكات آلات ذات إرادة وقوة واسعتين، لكن البشرية وحدها استطاعت صنعها.</li>
-    <li>archistFact(tag=meme_HumanPrimacy)     ->البشر هم صانعو الأدوات، والآركوتكات هي أدواتهم.</li>
-    <li>archistProphecy(tag=meme_HumanPrimacy) ->[inTheEnd]، بمراقبة البشرية، ستفهم الآركوتكات أخيراً غرضها، وترفع البشرية الواثقة لتحكمها.</li>
+    <li>lessonReinforcement(tag=meme_HumanPrimacy) ->إذا كانت المنافسة هي البقاء للأصلح، فنحن قد فزنا بوضوح.</li>
+    <li>archistBasis(tag=meme_HumanPrimacy)    ->الآركوتيكات آلات ذات إرادة وقوة واسعتين، لكن البشرية وحدها استطاعت صنعها.</li>
+    <li>archistFact(tag=meme_HumanPrimacy)     ->البشر هم صانعو الأدوات، والآركوتيكات هي أدواتهم.</li>
+    <li>archistProphecy(tag=meme_HumanPrimacy) ->[inTheEnd]، بمراقبة البشرية، ستفهم الآركوتيكات أخيراً غرضها، وترفع البشرية الواثقة لتحكمها.</li>
     <li>animistFact(tag=meme_HumanPrimacy)     ->حيوانات الطبيعة هي أرواح عبيد، وتطالب بأن تؤخذ في الخدمة.</li>
  </HumanPrimacy.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -78,9 +78,9 @@
   <!-- EN: pro-man -->
   <HumanPrimacy.symbolPacks.1.adjective>مؤيد للإنسان</HumanPrimacy.symbolPacks.1.adjective>
   <!-- EN: Mankindism -->
-  <HumanPrimacy.symbolPacks.1.ideoName>البشرية الجنسية</HumanPrimacy.symbolPacks.1.ideoName>
+  <HumanPrimacy.symbolPacks.1.ideoName>البشروية</HumanPrimacy.symbolPacks.1.ideoName>
   <!-- EN: mankindist -->
-  <HumanPrimacy.symbolPacks.1.member>بشري جنسي</HumanPrimacy.symbolPacks.1.member>
+  <HumanPrimacy.symbolPacks.1.member>بشروي</HumanPrimacy.symbolPacks.1.member>
   <!-- EN: mankind -->
   <HumanPrimacy.symbolPacks.1.theme>الجنس البشري</HumanPrimacy.symbolPacks.1.theme>
   
@@ -106,20 +106,20 @@
     <li>animistFact(tag=meme_NaturePrimacy)     ->Spirits become restless when humanity attempts to change them from their true nature.</li>
   -->
   <NaturePrimacy.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_NaturePrimacy)        ->خلق [deity0_name] الطبيعة، ووضع الإنسان داخلها، ليعمل كجزء من نسيج الحياة العظيم الذي يتنفسه.</li>
+    <li>creation(tag=meme_NaturePrimacy)        ->خلق [deity0_name] الطبيعة، ووضع الإنسان داخلها، ليعمل كجزء من نسيجـ[deity0_possessive] العظيم النابض بالحياة.</li>
     <li>episode(uses=1,tag=meme_NaturePrimacy)  ->قاتل الناس وحوش الغابة، ورأى [deity0_name] جشعهم، وضرب أولئك الذين آذوا الأشجار والوحوش.</li>
-    <li>intro(tag=meme_NaturePrimacy)           ->أول المستوطنين الذين وصلوا إلى [place_summary] [place_name] رصفوا العالم الطبيعي وقتلوا الحيوانات. أفناهم [deity0_name] معاقباً إياهم على عدم احترامهم لمخلوقاته.</li>
+    <li>intro(tag=meme_NaturePrimacy)           ->أول المستوطنين الذين وصلوا إلى [place_summary] [place_name] رصفوا العالم الطبيعي وقتلوا الحيوانات. أفناهم [deity0_name] معاقباً إياهم على عدم احترامهم لمخلوقاتـ[deity0_possessive].</li>
     <li>conflict(tag=meme_NaturePrimacy)        ->بنى [foeLeader] جشع مصنعاً يقذف السموم في البيئة، مسمماً النباتات والحيوانات.</li>
-    <li>founderJoin(tag=meme_NaturePrimacy)     ->كرضيع، تُرك [founderName] في البرية. أرسل [deity0_name] حيوانات [Animal] لتربيته، ففعلت. بعد أن كبر، عمل [founderName] على نشر معرفة ضرورة التوحد مع الطبيعة.</li>
-    <li>victory(tag=meme_NaturePrimacy)         ->جاء [founderName] إلى [place_powerCenter]، [memberNamePlural] عن يمينه، وحيوانات شرسة عن يساره. معاً، قاتلوا وانتصروا على [foeLeader] وجنوده [foeSoldiers].</li>
+    <li>founderJoin(tag=meme_NaturePrimacy)     ->كرضيع، تُرك [founderName] في البرية. أرسل [deity0_name] حيوانات [Animal] لتربيتـ[founder_objective]، ففعلت. بعد أن كبر، عمل [founderName] على نشر معرفة ضرورة التوحد مع الطبيعة.</li>
+    <li>victory(tag=meme_NaturePrimacy)         ->جاء [founderName] إلى [place_powerCenter]، [memberNamePlural] عن يمينـ[founder_possessive]، وحيوانات شرسة عن يسار[founder_possessive]. معاً، قاتلوا وانتصروا على [foeLeader] و[foeSoldiers]ـ[foeLeader_possessive].</li>
     <li>setup(tag=meme_NaturePrimacy)           ->في أرض مظلمة، قطع الناس الأشرار الأشجار وحفروا الأرض لإرضاء جشعهم. بدأ [founderName] حركة صالحة لتحطيم الآلات والعيش بانسجام تحت الطبيعة.</li>
     <li>story(uses=1,tag=meme_NaturePrimacy)    ->تعلمنا أن النمو الأبدي للبشرية هو طريق إلى الجحيم؛ يجب أن نعيش في الطبيعة بدلاً من استهلاكها.</li>
     <li>lessonIntro(tag=meme_NaturePrimacy)         ->لا يمكنك أن تكون قد شهدت شروق الشمس، أو نظرت في عيني [Animal]، أو وقفت تحت [TreeType] عظيمة، ولم تدرك أن</li>
     <li>lesson(tag=meme_NaturePrimacy)              ->الحيوانات والنباتات امتلكت هذا الكون منذ زمن طويل قبلنا - نحن مجرد عابري سبيل</li>
-    <li>lessonReinforcement(tag=meme_NaturePrimacy) ->كل الحيوانات التي تحدثت معها تبدو فاهمة لهذا.</li>
-    <li>archistBasis(tag=meme_NaturePrimacy)    ->نهضت الآركوتكات من آلاتنا، لكنها بحد ذاتها كيانات طبيعية، ليس بإمكاننا خلقها.</li>
-    <li>archistFact(tag=meme_NaturePrimacy)     ->تمثل الآركوتكات أحدث محاولة من الكون لفهم نفسه. كل الطبيعة هي جزء من عملية الفهم هذه.</li>
-    <li>archistProphecy(tag=meme_NaturePrimacy) ->[inTheEnd]، سيكون هناك تناغم بين النباتات والحيوانات والبشرية والآركوتكات. كل الناس المتناغمين مع هذا الرنين الطبيعي سيصبحون جزءاً من الوعي الكوني النهائي.</li>
+    <li>lessonReinforcement(tag=meme_NaturePrimacy) ->كل الحيوانات التي تحدثت معها تبدو مدركة لذلك.</li>
+    <li>archistBasis(tag=meme_NaturePrimacy)    ->نهضت الآركوتيكات من آلاتنا، لكنها بحد ذاتها كيانات طبيعية، ليس بإمكاننا خلقها.</li>
+    <li>archistFact(tag=meme_NaturePrimacy)     ->تمثل الآركوتيكات أحدث محاولة من الكون لفهم نفسه. كل الطبيعة هي جزء من عملية الفهم هذه.</li>
+    <li>archistProphecy(tag=meme_NaturePrimacy) ->[inTheEnd]، سيكون هناك تناغم بين النباتات والحيوانات والبشرية والآركوتيكات. كل الناس المتناغمين مع هذا الرنين الطبيعي سيصبحون جزءاً من الوعي الكوني النهائي.</li>
     <li>animistFact(tag=meme_NaturePrimacy)     ->تضطرب الأرواح عندما تحاول البشرية تغييرها عن طبيعتها الحقة.</li>
  </NaturePrimacy.descriptionMaker.rules.rulesStrings>
   <!-- EN:

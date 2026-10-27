@@ -19,36 +19,36 @@
   <!-- EN: Slave rebellion interval -->
   <SlaveRebellionMTBDays>فاصل تمرد العبيد</SlaveRebellionMTBDays>
   <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
-  <SlaveRebellionMTBDaysDescription>متوسط عدد الأيام بين محاولات تمرد العبيد. يُحتسب وقت الاستيقاظ فقط. يتأثر ذلك بالكبت، والمزاج، والصحة، والقرب من الأسلحة، وعدد العبيد على الخريطة، ووجود المستعمرين على الخريطة.</SlaveRebellionMTBDaysDescription>
+  <SlaveRebellionMTBDaysDescription>متوسط عدد الأيام بين محاولات تمرد العبيد. يُحتسب وقت الاستيقاظ فقط. يتأثر ذلك بالقمع، والمزاج، والصحة، والقرب من الأسلحة، وعدد العبيد على الخريطة، ووجود المستعمرين على الخريطة.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
   <!-- EN: Suppression -->
-  <Suppression>الكبت</Suppression>
+  <Suppression>القمع</Suppression>
   <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
-  <SuppressionDesc>الكبت هو الأثر النفسي للخوف والسيطرة على العبد. إذا كان الكبت منخفضاً، يزداد احتمال تمرد العبيد.</SuppressionDesc>
+  <SuppressionDesc>القمع هو الأثر النفسي للخوف والسيطرة على العبد. إذا كان القمع منخفضاً، يزداد احتمال تمرد العبيد.</SuppressionDesc>
   <!-- EN: Suppression fall rate -->
-  <SuppressionFallRate>معدل انخفاض الكبت</SuppressionFallRate>
+  <SuppressionFallRate>معدل انخفاض القمع</SuppressionFallRate>
   <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
-  <SuppressionFallRateDesc>ينخفض الكبت بمرور الوقت حسب مستواه الحالي:\n\n- كبت {1}+: {0} في اليوم\n- كبت {4}-{3}: {2} في اليوم\n- كبت {6}-: {5} في اليوم\n\nيمكن أن تؤثر الملابس والرعب أيضاً على معدل انخفاض الكبت. حساب معدل الانخفاض لهذا العبد هو</SuppressionFallRateDesc>
+  <SuppressionFallRateDesc>ينخفض القمع بمرور الوقت حسب مستواه الحالي:\n\n- قمع {1}+: {0} في اليوم\n- قمع {4}-{3}: {2} في اليوم\n- قمع {6}-: {5} في اليوم\n\nيمكن أن تؤثر الملابس والرعب أيضاً على معدل انخفاض القمع. حساب معدل الانخفاض لهذا العبد هو</SuppressionFallRateDesc>
   <!-- EN: Cannot emancipate -->
   <CannotEmancipate>لا يمكن التحرير</CannotEmancipate>
   <!-- EN: Cannot imprison -->
   <CannotImprison>لا يمكن السجن</CannotImprison>
   <!-- EN: Current suppression -->
-  <CurrentSuppression>الكبت الحالي</CurrentSuppression>
+  <CurrentSuppression>القمع الحالي</CurrentSuppression>
   <!-- EN: Terror -->
   <Terror>الرعب</Terror>
   <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
-  <TerrorDescription>الرعب وسيلة لإبقاء العبيد مكبوتين. يزداد عندما يقضي العبد وقتاً بالقرب من أشياء مرعبة مثل منحوتات الرعب. يمكن أن يتأثر العبد بثلاثة مصادر رعب فقط في المرة الواحدة.\n\nبينما يكون الرعب مرتفعاً، ينخفض الكبت بشكل أبطأ على النحو التالي</TerrorDescription>
+  <TerrorDescription>الرعب وسيلة لإبقاء العبيد مقموعين. يزداد عندما يقضي العبد وقتاً بالقرب من أشياء مرعبة مثل منحوتات الرعب. يمكن أن يتأثر العبد بثلاثة مصادر رعب فقط في المرة الواحدة.\n\nبينما يكون الرعب مرتفعاً، ينخفض القمع بشكل أبطأ على النحو التالي</TerrorDescription>
   <!-- EN: Recent terrifying observations -->
-  <TerrorCurrentThoughts>ملاحظات مرعبة حديثة</TerrorCurrentThoughts>
+  <TerrorCurrentThoughts>مشاهدات مرعبة حديثة</TerrorCurrentThoughts>
 
   <!-- EN: Base interval -->
   <SuppressionBaseInterval>الفاصل الأساسي</SuppressionBaseInterval>
   <!-- EN: Moving capacity -->
   <SuppressionMovingCapacityFactor>قدرة الحركة</SuppressionMovingCapacityFactor>
   <!-- EN: Suppression -->
-  <SuppressionFactor>الكبت</SuppressionFactor>
+  <SuppressionFactor>القمع</SuppressionFactor>
   <!-- EN: Mood -->
   <SuppressionMoodFactor>المزاج</SuppressionMoodFactor>
   <!-- EN: Slave count -->
@@ -60,9 +60,9 @@
   <!-- EN: Final interval -->
   <SuppressionFinalInterval>الفاصل النهائي</SuppressionFinalInterval>
   <!-- EN: Unattended -->
-  <SuppressionUnattendedByColonists>غير مراقب</SuppressionUnattendedByColonists>
+  <SuppressionUnattendedByColonists>بلا إشراف</SuppressionUnattendedByColonists>
   <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
-  <SuppressionRebellionAnySlave>من المتوقع أن يتمرد عبد واحد على الأقل من بين {0} عبداً على هذه الخريطة بمعدل مرة كل {1}.</SuppressionRebellionAnySlave>
+  <SuppressionRebellionAnySlave>من المتوقع أن يتمرد عبد واحد على الأقل من بين {0} من العبيد على هذه الخريطة، في المتوسط، كل {1}.</SuppressionRebellionAnySlave>
 
   <!-- EN: Will -->
   <WillLevel>الإرادة</WillLevel>
@@ -77,13 +77,13 @@
 
   <!-- Social -->
   <!-- EN: Change per day due to mood -->
-  <CertaintyChangePerDay>التغير اليومي بناءً على المزاج</CertaintyChangePerDay>
+  <CertaintyChangePerDay>التغير اليومي بسبب المزاج</CertaintyChangePerDay>
   <!-- EN: Change rate based on mood -->
   <MoodChangeRate>معدل التغير بناءً على المزاج</MoodChangeRate>
   <!-- EN: {PAWN_nameDef}'s certainty in {IDEO_name} -->
   <CertaintyInIdeo>يقين {PAWN_nameDef} في {IDEO_name}</CertaintyInIdeo>
   <!-- EN: A special status this person holds in their ideoligion. If you change or take away this role, they will become unhappy. -->
-  <RoleDesc>مكانة خاصة يحملها هذا الشخص في عقيدته. إذا غيرت أو أزلت هذا الدور، سيصبح غير سعيد.</RoleDesc>
+  <RoleDesc>مكانة خاصة يحملها هذا الشخص في عقيدته. إذا غيّرت هذا الدور أو أزلته، فسيستاء.</RoleDesc>
   <!-- EN: Changing roles requires a role change ritual. Select any ritual spot or altar and press 'Begin role change'. -->
   <RoleAssignmentTip>تغيير الأدوار يتطلب طقس تغيير الأدوار. اختر أي مكان طقس أو مذبح واضغط 'ابدأ تغيير الدور'.</RoleAssignmentTip>
   <!-- EN: Conversion attempts will be weaker because of trait/meme agreement -->

@@ -7,7 +7,7 @@
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
   <Mission_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->أقام [enemiesLabel] مخيماً ويضايقون قوافل [asker_faction_name]. يخطط [asker_nameDef] لهجوم جوي على المخيم، الذي يحرسه [enemiesCount] من [enemiesLabel]. يريد منك [asker_pronoun] توفير [soldiers] لتنفيذ الهجوم.\n\nسيرسل [asker_pronoun] مكوكاً لنقل مقاتليك، وإحضارهم إلى موقع الهجوم، وإعادتهم إلى الديار بعد ذلك. سيتم إطعامهم وعلاجهم طبياً في الطريق.\n\nبمجرد بدء الهجوم، يجب عليك هزيمة كل الأعداء والمدافع خلال [timeoutTicks_duration].</li>
+    <li>questDescription->أقام [enemiesLabel] مخيماً ويضايقون قوافل [asker_faction_name]. يخطط [asker_nameDef] لهجوم جوي على المخيم، الذي يحرسه [enemiesCount] من [enemiesLabel]. يريد منك [asker_pronoun] توفير [soldiers] لتنفيذ الهجوم.\n\nسيرسل [asker_pronoun] مكوكاً لنقل مقاتليك، وإحضارهم إلى موقع الهجوم، وإعادتهم إلى الديار بعد ذلك. سيتم إطعامهم وعلاجهم طبياً في الطريق.\n\nبمجرد بدء الهجوم، يجب عليك هزيمة كل الأعداء والأبراج خلال [timeoutTicks_duration]. </li>
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] جنود</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] جندي</li>
  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
@@ -30,7 +30,7 @@
   -->
   <Mission_BanditCamp.questNameRules.rulesStrings>
     <li>questName->[questNameInner]</li>
-    <li>questName->[questNameInner] الخاص بـ[asker_nameDef]</li>
+    <li>questName->[questNameInner] لـ[asker_nameDef]</li>
     <li>questNameInner->[attack] [aerial]</li>
     <li>questNameInner->[attack] [target]</li>
     <li>questNameInner->[work] [attack]</li>

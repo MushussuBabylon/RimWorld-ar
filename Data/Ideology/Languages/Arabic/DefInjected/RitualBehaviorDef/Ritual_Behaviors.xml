@@ -43,7 +43,7 @@
   <!-- EN: speaker -->
   <Conversion.roles.0.label>متحدث</Conversion.roles.0.label>
   <!-- EN: convertee -->
-  <Conversion.roles.1.label>مهتد</Conversion.roles.1.label>
+  <Conversion.roles.1.label>مُحوَّل</Conversion.roles.1.label>
   <!-- EN: Prisoner is not reachable. -->
   <Conversion.stages.0.failTriggers.0.desc>السجين لا يمكن الوصول إليه.</Conversion.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
@@ -148,7 +148,7 @@
   <!-- EN: cutter -->
   <SacrificeAnimal.roles.0.label>قاطع</SacrificeAnimal.roles.0.label>
   <!-- EN: sacrifice -->
-  <SacrificeAnimal.roles.1.label>أضحية</SacrificeAnimal.roles.1.label>
+  <SacrificeAnimal.roles.1.label>تضحية</SacrificeAnimal.roles.1.label>
   <!-- EN: an animal with body size of at least 0.8 -->
   <SacrificeAnimal.roles.1.missingDesc>حيوان بحجم جسم لا يقل عن 0.8</SacrificeAnimal.roles.1.missingDesc>
   <!-- EN: participate -->
@@ -160,12 +160,12 @@
   <!-- EN: escort asleep -->
   <SacrificeAnimal.stages.0.failTriggers.1.desc>المرافق نائم</SacrificeAnimal.stages.0.failTriggers.1.desc>
   <!-- EN: sacrifice no longer dead -->
-  <SacrificeAnimal.stages.3.failTriggers.0.desc>الأضحية لم تعد ميتة</SacrificeAnimal.stages.3.failTriggers.0.desc>
+  <SacrificeAnimal.stages.3.failTriggers.0.desc>التضحية لم تعد ميتة</SacrificeAnimal.stages.3.failTriggers.0.desc>
   
   <!-- EN: cutter -->
   <SacrificePrisoner.roles.0.label>قاطع</SacrificePrisoner.roles.0.label>
   <!-- EN: sacrifice -->
-  <SacrificePrisoner.roles.1.label>أضحية</SacrificePrisoner.roles.1.label>
+  <SacrificePrisoner.roles.1.label>تضحية</SacrificePrisoner.roles.1.label>
   <!-- EN: a prisoner -->
   <SacrificePrisoner.roles.1.missingDesc>سجين</SacrificePrisoner.roles.1.missingDesc>
   <!-- EN: participate -->
@@ -177,7 +177,7 @@
   <!-- EN: escort asleep -->
   <SacrificePrisoner.stages.0.failTriggers.1.desc>المرافق نائم</SacrificePrisoner.stages.0.failTriggers.1.desc>
   <!-- EN: sacrifice no longer dead -->
-  <SacrificePrisoner.stages.3.failTriggers.0.desc>الأضحية لم تعد ميتة</SacrificePrisoner.stages.3.failTriggers.0.desc>
+  <SacrificePrisoner.stages.3.failTriggers.0.desc>التضحية لم تعد ميتة</SacrificePrisoner.stages.3.failTriggers.0.desc>
   
   <!-- EN: target -->
   <ScarificationCeremony.roles.0.label>هدف</ScarificationCeremony.roles.0.label>
@@ -200,7 +200,7 @@
   <!-- EN: connector -->
   <TreeConnection.roles.0.label>موصل</TreeConnection.roles.0.label>
   <!-- EN: Only adults can connect to the Gauranlen tree. -->
-  <TreeConnection.roles.0.customChildDisallowMessage>فقط البالغون يمكنهم الاتصال بشجرة الغورانلين.</TreeConnection.roles.0.customChildDisallowMessage>
+  <TreeConnection.roles.0.customChildDisallowMessage>فقط البالغون يمكنهم الاتصال بشجرة غورانلين.</TreeConnection.roles.0.customChildDisallowMessage>
   <!-- EN: spectate -->
   <TreeConnection.spectatorGerund>مشاهدة</TreeConnection.spectatorGerund>
   <!-- EN: Spectators -->

@@ -122,9 +122,9 @@
  </Devilstrand.generalRules.rulesStrings>
   
   <!-- EN: drug production -->
-  <DrugProduction.label>إنتاج المخدرات</DrugProduction.label>
+  <DrugProduction.label>إنتاج العقاقير</DrugProduction.label>
   <!-- EN: Build a drug lab for basic drug synthesis. Further research is required to make specific drugs. -->
-  <DrugProduction.description>قم ببناء مختبر مخدرات لتخليق المخدرات الأساسية. يتطلب الأمر أبحاثاً إضافية لصنع مخدرات محددة.</DrugProduction.description>
+  <DrugProduction.description>قم ببناء مختبر عقاقير لتخليق العقاقير الأساسية. يتطلب الأمر أبحاثاً إضافية لصنع عقاقير محددة.</DrugProduction.description>
   <!-- EN:
     <li>subject->drug production</li>
     <li>subject->drug synthesis</li>
@@ -135,13 +135,13 @@
     <li>subject_gerund->producing drugs</li>
   -->
   <DrugProduction.generalRules.rulesStrings>
-    <li>subject->إنتاج المخدرات</li>
-    <li>subject->تخليق المخدرات</li>
+    <li>subject->إنتاج العقاقير</li>
+    <li>subject->تخليق العقاقير</li>
     <li>subject_story->عمل في مختبر على كويكب على حافة الفضاء المأهول</li>
-    <li>subject_story->تعلم كيفية صنع المخدرات من المواد الكيميائية المعاد تدويرها، مما أدى إلى قضاء سنوات عديدة في السجن</li>
+    <li>subject_story->تعلم كيفية صنع العقاقير من المواد الكيميائية المعاد تدويرها، مما أدى إلى قضاء سنوات عديدة في السجن</li>
     <li>subject_story->عمل ككيميائي، لكنه انزلق إلى بيع المخدرات غير القانونية على الجانب</li>
-    <li>subject_gerund->بناء مختبرات المخدرات</li>
-    <li>subject_gerund->إنتاج المخدرات</li>
+    <li>subject_gerund->بناء مختبرات العقاقير</li>
+    <li>subject_gerund->إنتاج العقاقير</li>
  </DrugProduction.generalRules.rulesStrings>
   
   <!-- EN: go-juice production -->
@@ -292,7 +292,7 @@
   -->
   <PsychiteRefining.generalRules.rulesStrings>
     <li>subject->إنتاج السايكيت</li>
-    <li>subject_story->استخدم وظيفته في الجامعة كغطاء لتجارة المخدرات</li>
+    <li>subject_story->استخدم وظيفتـ[ANYPAWN_possessive] الجامعية كغطاء لتجارتـ[ANYPAWN_possessive] في المخدرات</li>
     <li>subject_story->أنشأ جماعة مشتركة حيث كانت تُخلط جرعات منخفضة من الرقائق بالطعام</li>
     <li>subject_story->قام بحملة لتشريع اليَايُو على عالم حضري قريب</li>
     <li>subject_gerund->تكرير السايكيت</li>
@@ -313,7 +313,7 @@
     <li>subject->السايكويد</li>
     <li>subject_story->انضم إلى جماعة سايكويد لم تدم طويلاً على عالم طائفي</li>
     <li>subject_story->جرّب السايكويد لمساعدة الجنود المصابين بصدمات</li>
-    <li>subject_story->شرّع السايكويد للإنتاج بالجملة عبر عدة عوالم لب، عندما كانت لديه القدرة على فعل ذلك</li>
+    <li>subject_story->شرّع السايكويد للإنتاج بالجملة عبر عدة عوالم لب، عندما امتلك [ANYPAWN_pronoun] القدرة على فعل ذلك</li>
     <li>subject_gerund->تخمير السايكويد</li>
  </PsychoidBrewing.generalRules.rulesStrings>
   
@@ -351,7 +351,7 @@
   <Smithing.generalRules.rulesStrings>
     <li>subject->الحدادة</li>
     <li>subject_story->استقر في قرية صغيرة من العصور الوسطى وأتقن صنع المعادن البسيطة</li>
-    <li>subject_story->بنى مصانع حدادة على عوالم براقة لنقابات إعادة تمثيل عصر النهضة</li>
+    <li>subject_story->بنى مصانع حدادة على عوالم لامعة لنقابات إعادة تمثيل عصر النهضة</li>
     <li>subject_gerund->الحدادة</li>
  </Smithing.generalRules.rulesStrings>
   

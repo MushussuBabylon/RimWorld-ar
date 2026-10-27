@@ -6,7 +6,7 @@
   <!-- EN: Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system. -->
   <ShipBasics.description>بناء العناصر الهيكلية والداعمة لسفينة فضاء. هذه هي الخطوة الأولى نحو بناء سفينة لمغادرة هذا النظام النجمي.</ShipBasics.description>
   <!-- EN: Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nA new Ship category is available in the Architect menu from which you may build ship parts once the appropriate technology is researched. Ships require several different parts in order to launch, including a ship reactor.\n\nShip reactors take 15 days to charge up and many desperate souls want off this planet. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive. -->
-  <ShipBasics.discoveredLetterText>الهروب من هذا الكوكب - سيكون الحرية أخيراً، وربما عودة إلى الوطن.\n\nلكنه أيضاً خطير للغاية.\n\nتتوفر فئة جديدة باسم "سفينة" في قائمة المهندس، يمكنك من خلالها بناء أجزاء السفينة بعد بحث التقنيات المناسبة. تحتاج السفن إلى عدة أجزاء مختلفة لتنطلق، بما فيها مفاعل السفينة.\n\nتستغرق مفاعلات السفن 15 يوماً لشحنها، وكثير من الأرواح اليائسة تريد مغادرة هذا الكوكب. بمجرد أن تبدأ هذه العملية، سيصدر مفاعل السفينة توقيع طاقة يمكن اكتشافه من على بعد آلاف الكيلومترات. سيتدفق المغيرون لمهاجمتك على شكل موجات، بشدة لم ترها من قبل. من المعروف أيضاً أن الميكانويدات تنجذب إلى مثل هذه التوقيعات الطاقية.\n\nلن يبدأ الأمر حتى تشغل مفاعل سفينتك، لكن عندما يحدث، سيكون شرساً. ستحتاج إلى تخزين الموارد والأسلحة والدفاعات تحسباً للهجوم إذا كنت تأمل في النجاة.</ShipBasics.discoveredLetterText>
+  <ShipBasics.discoveredLetterText>الهروب من هذا الكوكب - سيكون الحرية أخيراً، وربما عودة إلى الوطن.\n\nلكنه أيضاً خطير للغاية.\n\nتتوفر فئة جديدة باسم "سفينة" في قائمة المهندس، يمكنك من خلالها بناء أجزاء السفينة بعد بحث التقنيات المناسبة. تحتاج السفن إلى عدة أجزاء مختلفة لتنطلق، بما فيها مفاعل السفينة.\n\nتستغرق مفاعلات السفن 15 يوماً لشحنها، وكثير من الأرواح اليائسة تريد مغادرة هذا الكوكب. بمجرد أن تبدأ هذه العملية، سيصدر مفاعل السفينة توقيع طاقة يمكن اكتشافه من على بعد آلاف الكيلومترات. سيتدفق الغزاة لمهاجمتك على شكل موجات، بشدة لم ترها من قبل. من المعروف أيضاً أن الميكانويدات تنجذب إلى مثل هذه التوقيعات الطاقية.\n\nلن يبدأ الأمر حتى تشغل مفاعل سفينتك، لكن عندما يحدث، سيكون شرساً. ستحتاج إلى تخزين الموارد والأسلحة والدفاعات تحسباً للهجوم إذا كنت تأمل في النجاة.</ShipBasics.discoveredLetterText>
   <!-- EN: About: Launching the ship -->
   <ShipBasics.discoveredLetterTitle>بخصوص: إطلاق السفينة</ShipBasics.discoveredLetterTitle>
   <!-- EN:
@@ -92,7 +92,7 @@
   <!-- EN: starship reactor -->
   <ShipReactor.label>مفاعل سفينة الفضاء</ShipReactor.label>
   <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
-  <ShipReactor.description>بناء مفاعل نووي طويل المدة لتزويد سفينة فضاء بالطاقة. لاحظ أن للمفاعلات عملية بدء تشغيل طويلة ستجذب المغيرين.</ShipReactor.description>
+  <ShipReactor.description>بناء مفاعل نووي طويل المدة لتزويد سفينة فضاء بالطاقة. لاحظ أن للمفاعلات عملية بدء تشغيل طويلة ستجذب الغزاة.</ShipReactor.description>
   <!-- EN:
     <li>subject->starship nuclear reactor</li>
     <li>subject_story->constructed a new reactor for a colony ship, but never lived to see it lift off</li>
@@ -103,7 +103,7 @@
   <ShipReactor.generalRules.rulesStrings>
     <li>subject->مفاعل نووي لسفينة فضاء</li>
     <li>subject_story->بنى مفاعلاً جديداً لسفينة مستعمرة، لكنه لم يعش ليرى إقلاعها</li>
-    <li>subject_story->دافع عن السفينة بينما كان المفاعل يبدأ العمل، ضد المغيرين اليائسين لمغادرة العالم</li>
+    <li>subject_story->دافع عن السفينة بينما كان المفاعل يبدأ العمل، ضد الغزاة اليائسين لمغادرة العالم</li>
     <li>subject_story->استخدم مفاعل سفينة فضاء كمصدر طاقة احتياطي لبنك مورثات مدفون تحت الغطاء الجليدي للكوكب</li>
     <li>subject_gerund->بناء مفاعلات سفن الفضاء</li>
  </ShipReactor.generalRules.rulesStrings>
@@ -123,7 +123,7 @@
   <ShipSensorCluster.generalRules.rulesStrings>
     <li>subject->الملاحة بين النجوم</li>
     <li>subject_story->استخدم نماذج أولية لمستشعرات سفينة فضاء لاكتشاف كويكب قادم بمستوى انقراض وإخلاء الكوكب</li>
-    <li>subject_story->عُين كملاح وطبّاخ على يخت نجومي لعالم براق</li>
+    <li>subject_story->عُين كملاح وطبّاخ على يخت نجومي لعالم لامع</li>
     <li>subject_story->حسّن تصميم المستشعرات بعيدة المدى، مما زاد من فائدتها</li>
     <li>subject_gerund->الملاحة في الفضاء بين النجوم</li>
     <li>subject_gerund->بناء مستشعرات سفن الفضاء</li>

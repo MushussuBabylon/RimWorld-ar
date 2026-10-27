@@ -16,9 +16,9 @@
   <BasicMechtech.generalRules.rulesStrings>
     <li>subject->الميكانويدات</li>
     <li>subject_story->ألف كتاباً للأطفال يغطي الأنواع الأساسية من الميكانويدات</li>
-    <li>subject_story->تم زرعه بوصلة الميكانيتور أولي</li>
-    <li>subject_story->طبق تقنيات بيوميكانيكية أساسية بشكل مستقل</li>
-    <li>subject_story->كان ينقب في حطام متجول خارجي قديم ووجد وصلة الميكانيتور محفوظاً في الحطام</li>
+    <li>subject_story->زُرع فيه نموذج أولي من وصلة الميكانيتور</li>
+    <li>subject_story->أعاد إنتاج تقنيات الميكانيكا الحيوية الأساسية بصورة مستقلة</li>
+    <li>subject_story->كان ينقب في حطام متجول خارجي قديم، فعثر على وصلة ميكانيتور محفوظة بين الأنقاض</li>
     <li>subject_gerund->إنشاء ميكانويدات أساسية</li>
  </BasicMechtech.generalRules.rulesStrings>
   
@@ -46,7 +46,7 @@
   <!-- EN: standard mechtech -->
   <StandardMechtech.label>تقنية ميكانويدية قياسية</StandardMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control standard-tier mechanoids.\n\nYou can get signal chips by using a mechanitor to summon a diabolus threat. -->
-  <StandardMechtech.description>التقنية اللازمة لميكانيتورك لإنشاء الميكانويدات من الفئة القياسية والتحكم بها.\n\nيمكنك الحصول على رقاقات الإشارة باستخدام ميكانيتور لاستدعاء تهديد الديابولوس.</StandardMechtech.description>
+  <StandardMechtech.description>التقنية اللازمة لميكانيتورك لإنشاء الميكانويدات من الفئة القياسية والتحكم بها.\n\nيمكنك الحصول على رقاقات الإشارة باستخدام ميكانيتور لاستدعاء تهديد ديابولوس.</StandardMechtech.description>
   <!-- EN:
     <li>subject->mechanoids</li>
     <li>subject_story->acquired a signal chip in shady circumstances</li>
@@ -67,7 +67,7 @@
   <!-- EN: ultra mechtech -->
   <UltraMechtech.label>تقنية ميكانويدية فائقة</UltraMechtech.label>
   <!-- EN: The advanced technology needed for your mechanitor to create and control ultra-tier mechanoids, including large mechs and ultra-tier mechanitor gear.\n\nYou can get nano structuring chips by using a mechanitor to summon an apocriton threat. -->
-  <UltraMechtech.description>التقنية المتقدمة اللازمة لميكانيتورك لإنشاء الميكانويدات من الفئة الفائقة والتحكم بها، بما في ذلك الميكانويدات الضخمة ومعدات الميكانيتور فائقة الفئة.\n\nيمكنك الحصول على رقاقات البنية النانوية باستخدام ميكانيتور لاستدعاء تهديد الأبوكريتون.</UltraMechtech.description>
+  <UltraMechtech.description>التقنية المتقدمة اللازمة لميكانيتورك لإنشاء الميكانويدات من الفئة الفائقة والتحكم بها، بما في ذلك الميكانويدات الكبيرة ومعدات الميكانيتور من الفئة الفائقة.\n\nيمكنك الحصول على رقاقات البنية النانوية باستخدام ميكانيتور لاستدعاء تهديد أبوكريتون.</UltraMechtech.description>
   <!-- EN:
     <li>subject->ultra-tier mechanoids</li>
     <li>subject_story->found a powered-down apocriton in the wreckage of a deadworld</li>
@@ -78,17 +78,17 @@
   -->
   <UltraMechtech.generalRules.rulesStrings>
     <li>subject->الميكانويدات فائقة الفئة</li>
-    <li>subject_story->وجد أبوكريتون متوقف عن العمل في حطام عالم ميت</li>
-    <li>subject_story->راقب أبوكريتون يعيد إحياء ميكانويدات من مسافة آمنة</li>
+    <li>subject_story->وجد أبوكريتوناً معطلاً في حطام عالم ميت</li>
+    <li>subject_story->راقب أبوكريتوناً يعيد إحياء الميكانويدات من مسافة آمنة</li>
     <li>subject_story->استغل الكراهية النفسية العميقة التي تكنها الأبوكريتونات تجاه البشرية</li>
-    <li>subject_story->وجد مذكرات ارتقاء بجانب أركينكسس خامد</li>
+    <li>subject_story->وجد مذكرات ارتقاء بجانب آركونيكسس خامل</li>
     <li>subject_gerund->إنشاء ميكانويدات فائقة الفئة</li>
  </UltraMechtech.generalRules.rulesStrings>
   
   <!-- EN: wastepack atomizer -->
   <WastepackAtomizer.label>مذرر حزم النفايات</WastepackAtomizer.label>
   <!-- EN: Build wastepack atomizers which can safely dispose of toxic wastepacks by decomposing them at the molecular level. -->
-  <WastepackAtomizer.description>بناء مذررات نفايات يمكنها التخلص الآمن من حزم النفايات السامة عن طريق تحليلها على المستوى الجزيئي.</WastepackAtomizer.description>
+  <WastepackAtomizer.description>بناء مذررات حزم النفايات، القادرة على التخلص الآمن من حزم النفايات السامة بتحليلها على المستوى الجزيئي.</WastepackAtomizer.description>
   <!-- EN:
     <li>subject->toxic waste atomization</li>
     <li>subject_story->studied safe atomic waste disposal</li>
@@ -98,12 +98,12 @@
     <li>subject_gerund->constructing wastepack atomizers</li>
   -->
   <WastepackAtomizer.generalRules.rulesStrings>
-    <li>subject->ذرر النفايات السامة</li>
-    <li>subject_story->درس التخلص الآمن من النفايات النووية</li>
-    <li>subject_story->جند فرقاً مؤقتة لمهام التخلص من النفايات الشمسية</li>
-    <li>subject_story->ابتكر نظرية زعزعة الاستقرار الذري من المبادئ الأولى</li>
+    <li>subject->تذرير النفايات السامة</li>
+    <li>subject_story->درس التخلص الآمن من النفايات الذرية</li>
+    <li>subject_story->جند فرقاً يمكن التضحية بها لمهام التخلص من النفايات في الشمس</li>
+    <li>subject_story->وضع نظرية زعزعة الاستقرار الذري انطلاقاً من المبادئ الأولى</li>
     <li>subject_story->راقب عالماً ساماً من المدار</li>
-    <li>subject_gerund->بناء مذررات النفايات</li>
+    <li>subject_gerund->بناء مذررات حزم النفايات</li>
  </WastepackAtomizer.generalRules.rulesStrings>
   
 </LanguageData>

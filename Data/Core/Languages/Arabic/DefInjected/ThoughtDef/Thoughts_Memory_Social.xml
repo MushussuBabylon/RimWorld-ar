@@ -9,7 +9,7 @@
   <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: broke up with me -->
   <BrokeUpWithMe.stages.broke_up_with_me.label>انفصل عني</BrokeUpWithMe.stages.broke_up_with_me.label>
-  <BrokeUpWithMe.stages.broke_up_with_me.labelSocial>{1_gender ? تركني : تركتني}</BrokeUpWithMe.stages.broke_up_with_me.labelSocial>
+  <BrokeUpWithMe.stages.broke_up_with_me.labelSocial>{OTHERPAWN_gender ? تركني : تركتني}</BrokeUpWithMe.stages.broke_up_with_me.labelSocial>
   
   <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: broken up with by {0} -->
@@ -64,14 +64,14 @@
   
   <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: forced me to take drugs -->
-  <ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>أجبرني على تعاطي المخدرات</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>
-  <ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>{1_gender ? حقنني : حقنتني} بالمخدرات</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>
+  <ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>أجبرني على تعاطي العقاقير</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.label>
+  <ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>{OTHERPAWN_gender ? حقنني : حقنتني} بالعقاقير</ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs.labelSocial>
   
   <!-- Thought_Memory, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: forced to take drugs -->
-  <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>أُجبرت على تعاطي المخدرات</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>
+  <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>أُجبرت على تعاطي العقاقير</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.label>
   <!-- EN: I'm a teetotaler; I would never take drugs by choice. But I was forced! I feel unclean. -->
-  <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>أنا ممتنع عن المخدرات؛ لن أتعاطاها طواعية أبداً. لكني أُجبرت! أشعر بأني غير نظيف.</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>
+  <ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>أنا ممتنع عن العقاقير؛ لن أتعاطاها طواعية أبداً. لكني أُجبرت! أشعر بأني غير نظيف.</ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs.description>
   
   <!-- Thought_MemorySocial, null. Label: {0}(otherPawn.LabelShort), {1}(otherPawn). LabelSocial: {PAWN}, {OTHERPAWN}. Description: {PAWN}, {OTHERPAWN} -->
   <!-- EN: forced me to take luciferium -->

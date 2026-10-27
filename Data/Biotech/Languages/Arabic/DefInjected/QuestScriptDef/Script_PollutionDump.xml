@@ -7,7 +7,7 @@
   -->
   <PollutionDump.questContentRules.rulesStrings>
     <li>wastepacksLetterLabel->وصلت حزم النفايات</li>
-    <li>wastepacksLetterText->تم تسليم حزم النفايات السامة.</li>
+    <li>wastepacksLetterText->سُلّمت حزم النفايات السامة.</li>
  </PollutionDump.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==True)->A machine persona in an orbiting ship has a special request. She wishes to offload an excess of toxic wastepacks and hopes that you will store them responsibly.\n\nIf you accept, she will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
@@ -15,9 +15,9 @@
     <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has a special request. Someone has dumped an abundance of toxic wastepacks near one of [asker_possessive] settlements and [asker_pronoun] is unable to safely store them.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
   -->
   <PollutionDump.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==True)->شخصية آلية في سفينة مدارية لديها طلب خاص. ترغب في تفريغ كمية زائدة من حزم النفايات السامة وتأمل أن تقوموا بتخزينها بطريقة مسؤولة.\n\nإذا قبلت، ستقوم بتوصيل [wastepackCount] حزمة نفايات سامة بواسطة كبسولة نقل.\n\nإذا لم تُحفظ مجمدة، ستذوب حزم النفايات السامة مع مرور الوقت، مما يلوث الأرض القريبة.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name] لديه طلب خاص. لقد أنتج [asker_pronoun] وفرة من حزم النفايات السامة التي لا يرغب [asker_pronoun] في تخزينها.\n\nإذا قبلت، سيقوم [asker_nameDef] بتوصيل [wastepackCount] حزمة نفايات سامة بواسطة كبسولة نقل.\n\nإذا لم تُحفظ مجمدة، ستذوب حزم النفايات السامة مع مرور الوقت، مما يلوث الأرض القريبة.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] من [asker_faction_name] لديه طلب خاص. لقد قام شخص ما بإلقاء وفرة من حزم النفايات السامة بالقرب من إحدى مستوطناتـ[asker_possessive] وهو غير قادر على تخزينها بأمان.\n\nإذا قبلت، سيقوم [asker_nameDef] بتوصيل [wastepackCount] حزمة نفايات سامة بواسطة كبسولة نقل.\n\nإذا لم تُحفظ مجمدة، ستذوب حزم النفايات السامة مع مرور الوقت، مما يلوث الأرض القريبة.</li>
+    <li>questDescription(askerIsNull==True)->شخصية آلية في سفينة مدارية لديها طلب خاص. ترغب في التخلص من فائض من حزم النفايات السامة، وتأمل أن تخزنها بمسؤولية.\n\nإذا قبلت، ستسلّم [wastepackCount] حزمة نفايات سامة بكبسولة نقل.\n\nإذا لم تُحفظ مجمدة، ستذوب حزم النفايات السامة مع مرور الوقت وتلوث الأرض القريبة.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->لدى [asker_nameFull]، [asker_royalTitleInCurrentFaction] في [asker_faction_name]، طلب خاص. فقد أنتج [asker_pronoun] وفرة من حزم النفايات السامة لا يرغب [asker_pronoun] في تخزينها.\n\nإذا قبلت، سيسلّم [asker_nameDef] [wastepackCount] حزمة نفايات سامة بكبسولة نقل.\n\nإذا لم تُحفظ مجمدة، ستذوب حزم النفايات السامة مع مرور الوقت وتلوث الأرض القريبة.</li>
+    <li>questDescription(asker_factionLeader==True)->لدى [asker_faction_leaderTitle] [asker_nameFull] من [asker_faction_name] طلب خاص. فقد ألقى شخص ما وفرة من حزم النفايات السامة بالقرب من إحدى مستوطناتـ[asker_possessive]، و [asker_pronoun] غير قادر على تخزينها بأمان.\n\nإذا قبلت، سيسلّم [asker_nameDef] [wastepackCount] حزمة نفايات سامة بكبسولة نقل.\n\nإذا لم تُحفظ مجمدة، ستذوب حزم النفايات السامة مع مرور الوقت وتلوث الأرض القريبة.</li>
  </PollutionDump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[waste] [dump]</li>
@@ -33,8 +33,8 @@
     <li>dump->problem</li>
   -->
   <PollutionDump.questNameRules.rulesStrings>
-    <li>questName->[waste] [dump]</li>
-    <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] [waste] [dump]</li>
+    <li>questName->[dump] [waste]</li>
+    <li>questName(askerIsNull==False)->[dump] [waste] [asker_faction_pawnSingular]</li>
     <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[dump] [waste] [asker_nameDef]</li>
     <li>waste->نفايات</li>
     <li>waste->تلوث</li>

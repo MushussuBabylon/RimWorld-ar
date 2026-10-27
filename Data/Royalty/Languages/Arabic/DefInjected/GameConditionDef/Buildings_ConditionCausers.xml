@@ -9,15 +9,15 @@
   <ClimateAdjustment.letterText>بدأ جهاز تعديل المناخ بتغيير درجة الحرارة.</ClimateAdjustment.letterText>
   
   <!-- EN: EMI field -->
-  <EMIField.label>مجال EMI</EMIField.label>
+  <EMIField.label>مجال التداخل الكهرومغناطيسي</EMIField.label>
   <!-- EN: An electromagnetic interference dynamo is projecting an EM interference field, disabling electrical devices. -->
-  <EMIField.description>دينامو التشويش الكهرومغناطيسي يطلق مجال تشويش كهرومغناطيسي يعطل الأجهزة الكهربائية.</EMIField.description>
+  <EMIField.description>دينامو التداخل الكهرومغناطيسي يطلق مجال تداخل كهرومغناطيسي يعطل الأجهزة الكهربائية.</EMIField.description>
   <!-- EN: a distant EMI dynamo will blast [map_definite] with an EMI field, shutting down electrical devices for [gameConditionDuration_duration] -->
-  <EMIField.descriptionFuture>سيضرب دينامو EMI بعيد [map_definite] بمجال EMI، معطلاً الأجهزة الكهربائية لمدة [gameConditionDuration_duration]</EMIField.descriptionFuture>
+  <EMIField.descriptionFuture>سيضرب دينامو التداخل الكهرومغناطيسي بعيد [map_definite] بمجال تداخل كهرومغناطيسي، معطلاً الأجهزة الكهربائية لمدة [gameConditionDuration_duration]</EMIField.descriptionFuture>
   <!-- EN: The EMI field has disappeared. -->
-  <EMIField.endMessage>اختفى مجال EMI.</EMIField.endMessage>
+  <EMIField.endMessage>اختفى مجال التداخل الكهرومغناطيسي.</EMIField.endMessage>
   <!-- EN: An EMI field has been generated. It is disabling electrical devices. -->
-  <EMIField.letterText>تولد مجال EMI. إنه يعطل الأجهزة الكهربائية.</EMIField.letterText>
+  <EMIField.letterText>تولد مجال تداخل كهرومغناطيسي. إنه يعطل الأجهزة الكهربائية.</EMIField.letterText>
   
   <!-- EN: giant smoke cloud -->
   <GiantSmokeCloud.label>سحابة دخان عملاقة</GiantSmokeCloud.label>
@@ -31,14 +31,14 @@
   <!-- EN: A psychic suppression field is affecting {0}s and reducing their consciousness. The effect is modulated by an individual's psychic sensitivity. -->
   <PsychicSuppression.description>مجال قمع نفسي يؤثر على {0} ويقلل وعيهم. يتم تعديل التأثير حسب الحساسية النفسية للفرد.</PsychicSuppression.description>
   <!-- EN: a psychic suppression wave will reduce the consciousness of all [psychicSuppressorGender]s around [map_definite] for [gameConditionDuration_duration] -->
-  <PsychicSuppression.descriptionFuture>ستقلل موجة قمع نفسي وعي جميع [psychicSuppressorGender] حول [map_definite] لمدة [gameConditionDuration_duration]</PsychicSuppression.descriptionFuture> <!-- Этот текст участвует в процедурной генерации. Символы и функции не работают. Чтобы обойти это, добавлена "м": "женщинаМ" или "мужчинаМ" -->
+  <PsychicSuppression.descriptionFuture>ستقلل موجة قمع نفسي وعي جميع [psychicSuppressorGender] حول [map_definite] لمدة [gameConditionDuration_duration]</PsychicSuppression.descriptionFuture> <!-- This text takes part in procedural generation. Symbols and functions do not work. To work around this, an "m" was added: "womanM" or "manM" -->
   <!-- EN: The psychic suppressor field has dissipated. -->
   <PsychicSuppression.endMessage>تبدد مجال المثبط النفسي.</PsychicSuppression.endMessage>
   <!-- EN: A psychic suppressor field has begun reducing the consciousness of {0}s across the whole region. The effect is modulated by an individual's psychic sensitivity. -->
-  <PsychicSuppression.letterText>بدأ مجال قمع نفسي بتقليل وعي {0} في كامل المنطقة. يتم تعديل التأثير حسب الحساسية النفسية للفرد.</PsychicSuppression.letterText>
+  <PsychicSuppression.letterText>بدأ مجال مثبط نفسي بتقليل وعي {0} في كامل المنطقة. يتم تعديل التأثير حسب الحساسية النفسية للفرد.</PsychicSuppression.letterText>
   
   <!-- EN: sun blocked -->
-  <SunBlocker.label>حاجب الشمس</SunBlocker.label>
+  <SunBlocker.label>حجب الشمس</SunBlocker.label>
   <!-- EN: A nearby sun blocker machine is turning the upper atmosphere opaque, blocking the sun. -->
   <SunBlocker.description>آلة حاجب الشمس القريبة تجعل الغلاف الجوي العلوي معتماً، حاجبة الشمس.</SunBlocker.description>
   <!-- EN: A sun blocker machine has begun blocking the sun. -->

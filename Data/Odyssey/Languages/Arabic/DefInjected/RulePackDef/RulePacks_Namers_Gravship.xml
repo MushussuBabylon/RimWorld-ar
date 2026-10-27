@@ -98,24 +98,24 @@
     <li>ship_word->zephyr</li>
   -->
   <NamerGravship.rulePack.rulesStrings>
-    <li>r_name(p=2)->الـ[narrative_name]</li>
-    <li>r_name(p=1)->[narrative_name] [ship_word]</li>
-    <li>r_name(p=0.5)->[ship_prefix] [Color] [ship_word]</li>
-    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass] [ship_word]</li>
-    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass] [bird]</li>
-    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveFriendly] [ship_word]</li>
-    <li>r_name(p=0.5)->[ship_prefix] [flying_adjective] [AnimalBadass]</li>
+    <li>r_name(p=2)->[narrative_name]</li>
+    <li>r_name(p=1)->[ship_word] [narrative_name]</li>
+    <li>r_name(p=0.5)->[ship_prefix][ship_word] [Color]</li>
+    <li>r_name(p=0.5)->[ship_prefix][ship_word] [AdjectiveBadass]</li>
+    <li>r_name(p=0.5)->[ship_prefix][bird] [AdjectiveBadass]</li>
+    <li>r_name(p=0.5)->[ship_prefix][ship_word] [AdjectiveFriendly]</li>
+    <li>r_name(p=0.5)->[ship_prefix][AnimalBadass] [flying_adjective]</li>
     <li>r_name(p=0.5)->[storyname]</li>
-    <li>r_name(p=0.2)->[Color] [greekmyth_noun]</li>
-    <li>r_name(p=0.2)->[ship_prefix] [greekmyth_noun]</li>
-    <li>ship_prefix(p=2)->الـ</li>
+    <li>r_name(p=0.2)->[greekmyth_noun] [Color]</li>
+    <li>r_name(p=0.2)->[ship_prefix][greekmyth_noun]</li>
+    <li>ship_prefix(p=2)->ال</li>
     <li>ship_prefix(p=2)-></li>
-    <li>narrative_name->[AdjectiveNatural] [thing_badass]</li>
-    <li>narrative_name->[AdjectiveLarge] [thing_badass]</li>
-    <li>narrative_name->[Direction] [thing_badass]</li>
+    <li>narrative_name->[thing_badass] [AdjectiveNatural]</li>
+    <li>narrative_name->[thing_badass] [AdjectiveLarge]</li>
+    <li>narrative_name->[thing_badass] [Direction]</li>
     <li>narrative_name->[thing_badass]</li>
     <li>thing_badass->[AnimalBadass]</li>
-    <li>thing_badass->صياد الـ[AnimalBadass]</li>
+    <li>thing_badass->صياد ال[AnimalBadass]</li>
     <li>thing_badass->انتصار</li>
     <li>thing_badass->نصر</li>
     <li>thing_badass->انتقام</li>
@@ -151,13 +151,13 @@
     <li>story_result->خداع</li>
     <li>story_result->واجهة</li>
     <li>story_result->احتيال</li>
-    <li>greekmyth_noun->أوديسة</li>
+    <li>greekmyth_noun->رحلة</li>
     <li>greekmyth_noun->أوديسيوس</li>
     <li>greekmyth_noun->بينيلوبي</li>
     <li>greekmyth_noun->تيليماخوس</li>
     <li>greekmyth_noun->أثينا</li>
     <li>greekmyth_noun->بوسيدون</li>
-    <li>greekmyth_noun->سيلا</li>
+    <li>greekmyth_noun->سكيلا</li>
     <li>greekmyth_noun->هيرميز</li>
     <li>greekmyth_noun->أرغونوت</li>
     <li>greekmyth_noun->هيرميز</li>
@@ -178,7 +178,7 @@
     <li>flying_adjective->مجنح</li>
     <li>ship_word(p=5)->سفينة</li>
     <li>ship_word(p=5)->سفينة جاذبية</li>
-    <li>ship_word(p=2)->[AdjectiveNatural]سفينة</li>
+    <li>ship_word(p=2)->سفينة [AdjectiveNatural]</li>
     <li>ship_word->سفينة حربية</li>
     <li>ship_word->فرقاطة</li>
     <li>ship_word->مركبة</li>
@@ -189,9 +189,9 @@
     <li>ship_word->غاليون</li>
     <li>ship_word->سفينة طويلة</li>
     <li>ship_word->سفينة شحن</li>
-    <li>ship_word->خردة</li>
+    <li>ship_word->سفينة خردة</li>
     <li>ship_word->ثلاثية المجاديف</li>
-    <li>ship_word->زفير</li>
+    <li>ship_word->زفيروس</li>
  </NamerGravship.rulePack.rulesStrings>
   
 </LanguageData>

@@ -286,11 +286,11 @@
     <li>shotat(p=0.5)->حاول إطلاق [aburst] على</li>
     <li>shotat(p=0.3)->صوب طلقة على</li>
     <li>shotat(p=0.2)->[skillAdv] صوب طلقة على</li>
-    <li>shotat->أطلق نارا [aburst] على</li>
-    <li>shotat->أطلق نارا [aburst] [skillAdv] على</li>
+    <li>shotat->أطلق ناراً [aburst] على</li>
+    <li>shotat->أطلق ناراً [aburst] [skillAdv] على</li>
     <li>shotat(p=0.5)->صوب وأطلق [aburst] على</li>
     <li>shotat(p=0.5)->[skillAdv] صوب وأطلق [aburst] على</li>
-    <li>shotat(p=0.3)->فتح نارا على</li>
+    <li>shotat(p=0.3)->فتح ناراً على</li>
     <li>aburst-></li>
     <li>aburst(BURST==True,p=3)->رشقة</li>
     <li>burst-></li>
@@ -340,7 +340,7 @@
     <li>adverb_threw->بعناية</li>
     <li>adverb_threw->بسرعة</li>
     <li>adverb_threw->بدقة</li>
-    <li>adverb_threw->عمدا</li>
+    <li>adverb_threw->عمداً</li>
     <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->بحذر</li>
     <li>adverb_threw->بدقة</li>
     <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->بحذر</li>
@@ -402,9 +402,9 @@
     <li>missed(p=4)->أخطأ</li>
     <li>missed(p=2)->أخطأ بفارق صغير</li>
     <li>missed(p=2)->أخطأ بفارق كبير</li>
-    <li>missed->ذهب بعيدا</li>
+    <li>missed->ذهب بعيداً</li>
     <li>missed->طار في الهواء</li>
-    <li>missed->طار عاليا في الهواء</li>
+    <li>missed->طار عالياً في الهواء</li>
     <li>missed->حفر في الأرض</li>
     <li>missed->ارتد عن الأرض وفقد</li>
     <li>missed->حفر حفرة صغيرة في الأرض</li>
@@ -415,9 +415,9 @@
     <li>missing->يخطئ</li>
     <li>missing->يخطئ بفارق صغير</li>
     <li>missing->يخطئ بفارق كبير</li>
-    <li>missing->يذهب بعيدا</li>
+    <li>missing->يذهب بعيداً</li>
     <li>missing->يطير في الهواء</li>
-    <li>missing->يطير عاليا في الهواء</li>
+    <li>missing->يطير عالياً في الهواء</li>
     <li>missing->يحفر في الأرض</li>
     <li>missing->يرتد عن الأرض ويضيع</li>
     <li>missing->يحفر حفرة صغيرة في الأرض</li>
@@ -425,7 +425,7 @@
     <li>missing->يمر على بعد سنتيمترات من [ORIGINALTARGET_definite]</li>
     <li>missing->يمر على بعد متر من [ORIGINALTARGET_definite]</li>
     <li>missing->ينحرف عن مساره</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moved] جانبا في آخر [moment]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moved] جانباً في آخر [moment]</li>
     <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[ducked] خلف [COVER_definite]</li>
     <li>moved->تحرك</li>
     <li>moved->انتفض</li>

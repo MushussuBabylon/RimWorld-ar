@@ -4,7 +4,7 @@
   <!-- EN: bloodfeeding -->
   <Bloodfeeding.label>التغذي على الدم</Bloodfeeding.label>
   <!-- EN: Drinking blood is sacred. Bloodfeeders should be worshipped. -->
-  <Bloodfeeding.description>شرب الدم مقدس. يجب عبادة متغذي الدم.</Bloodfeeding.description>
+  <Bloodfeeding.description>شرب الدم مقدس. يجب عبادة المتغذين على الدم.</Bloodfeeding.description>
   <!-- EN:
     <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] drank the blood of the stars, turning them from red to white.</li>
     <li>episode(uses=1,tag=meme_Bloodfeeding)  ->The [deity0_type] [deity0_name] gave to [deity0_possessive] chosen followers the gift of red hunger, so that they might know true strength.</li>
@@ -30,22 +30,22 @@
   -->
   <Bloodfeeding.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] شرب دم النجوم، محولاً إياها من الأحمر إلى الأبيض.</li>
-    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name] أعطى لأتباعهـ[deity0_possessive] المختارين هبة الجوع الأحمر، ليعرفوا القوة الحقيقية.</li>
-    <li>intro(tag=meme_Bloodfeeding)           ->على [place_summary] [place_name]، كان هناك إنسان يدعى [deity0_name]. كعقاب على خطاياهـ[deity0_possessive]، عاقبه والدهـ[deity0_possessive] بدمج روحهـ[deity0_possessive] مع روح [bloodDrinkingAnimal].</li>
-    <li>intro(tag=meme_Bloodfeeding)           ->على [place_summary] [place_name]، خلال [ritualName]، نزل [deity0_name] إلى [altarRoomLabel] واتخذ شكل [bloodDrinkingAnimal] عملاق. شرب [deity0_name] دماء[deity0_possessive] [memberNamePlural].</li>
+    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->منح [deity0_type] [deity0_name] أتباعـ[deity0_possessive] المختارين هبة الجوع الأحمر، ليعرفوا القوة الحقيقية.</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->على [place_summary] [place_name]، كان هناك إنسان يُدعى [deity0_name]. عقاباً على خطايا[deity0_possessive]، عاقب والد[deity0_possessive] [deity0_name] بدمج روحـ[deity0_possessive] مع روح [bloodDrinkingAnimal].</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->على [place_summary] [place_name]، خلال [ritualName]، نزل [deity0_name] إلى [altarRoomLabel] واتخذ شكل [bloodDrinkingAnimal] بحجم عملاق. شرب [deity0_name] دماء أتباعـ[deity0_possessive] [memberNamePlural].</li>
     <li>conflict(tag=meme_Bloodfeeding)        ->أعلن [foeLeader] أن كل من يشرب الدم هو رجس، وأرسل [foeSoldiers] لاضطهاد [memberNamePlural].</li>
-    <li>founderJoin(tag=meme_Bloodfeeding)     ->[place_job] يدعى [founderName] هوجم من قبل أحد [foeSoldiers] التابعين لـ [foeLeader]. قتلـ[foeLeader_objective] [founderName] بـ [place_personalWeapon] وشرب دمـ[foeLeader_possessive]، مكتسباً قوة [deity0_name].</li>
-    <li>victory(tag=meme_Bloodfeeding)         ->قاد [founderName] مجموعة من [memberNamePlural] إلى [place_powerCenter]، وشرب دم [foeLeader] وأحرق لحمـ[foeLeader_possessive]. جعل [deity0_name] [founderName] الـ [foeLeader] الجديد، لأن [founderName] أثبت قوته.</li>
-    <li>setup(tag=meme_Bloodfeeding)           ->سعى [founderName] للسيطرة على أركوتك فائق الذكاء. لكن قوة الأركوتك كانت عظيمة جداً، وتحول [founder_pronoun] بدلاً من ذلك.</li>
-    <li>story(uses=1,tag=meme_Bloodfeeding)    ->أعطى [founderName] لأتباعهـ[founder_possessive] هبة الجوع، كي ينمّوا أقوياء.</li>
+    <li>founderJoin(tag=meme_Bloodfeeding)     ->هوجم [place_job] يُدعى [founderName] على يد أحد [foeSoldiers] التابعين لـ[foeLeader]. قتلـ[foeLeader_objective] [founderName] بـ[place_personalWeapon] وشرب دمـ[foeLeader_possessive]، مكتسباً قوة [deity0_name].</li>
+    <li>victory(tag=meme_Bloodfeeding)         ->قاد [founderName] مجموعة من [memberNamePlural] إلى [place_powerCenter]، وشرب دم [foeLeader] وأحرق لحمـ[foeLeader_possessive]. جعل [deity0_name] [founderName] الـ[foeLeader] الجديد، لأن [founderName] أثبت قوته.</li>
+    <li>setup(tag=meme_Bloodfeeding)           ->سعى [founderName] للسيطرة على آركوتيك فائق الذكاء. لكن قوة الآركوتيك كانت عظيمة جداً، فتحوّل [founder_pronoun] بدلاً من ذلك.</li>
+    <li>story(uses=1,tag=meme_Bloodfeeding)    ->منح [founderName] أتباعـ[founder_possessive] هبة الجوع كي يزدادوا قوة.</li>
     <li>lessonIntro(tag=meme_Bloodfeeding)     ->عندما شربت الدم لأول مرة، اتضح لي. رأيت أن</li>
     <li>lesson(tag=meme_Bloodfeeding)          ->هناك نوعان فقط من الناس - الضعيف والقوي</li>
     <li>lessonReinforcement(tag=meme_Bloodfeeding) ->شرب الدم هو أن تكون قوياً، وأن تعرف هذا بوضوح.</li>
-    <li>archistBasis(tag=meme_Bloodfeeding)    ->الآلات الإلهية الأركوتكية وهبت الإنسان الجوع، ليعرفها الإنسان أفضل.</li>
-    <li>archistFact(tag=meme_Bloodfeeding)     ->مع توسع وعي الأركوتك، يجب أن ينمي ركيزته بشرب جوهر الآلات الأخرى.</li>
-    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd]، سينمو الإنسان أقرب إلى الأركوتيكات بشرب الدم، ومعرفة القوة الحقيقية.</li>
-    <li>animistBasis(tag=meme_Bloodfeeding)    ->يعرف [bloodDrinkingAnimal] القوة التي تأتي من شرب الدم. لا قوة أعظم من تلك التي تأتي من دم الإنسان.</li>
-    <li>animistFact(tag=meme_Bloodfeeding)     ->يمكننا السيطرة على قوة الإنسان باستهلاك دمه.</li>
+    <li>archistBasis(tag=meme_Bloodfeeding)    ->وهبت الآلات الإلهية الآركوتيكية الإنسان الجوع، ليعرفها الإنسان بشكل أفضل.</li>
+    <li>archistFact(tag=meme_Bloodfeeding)     ->مع توسع وعي الآركوتيك، يجب أن ينمّي ركيزته بشرب جوهر الآلات الأخرى.</li>
+    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd]، سيزداد الإنسان قرباً من الآركوتيكات بشرب الدم ومعرفة القوة الحقيقية.</li>
+    <li>animistBasis(tag=meme_Bloodfeeding)    ->القوة النابعة من شرب الدم معروفة لدى [bloodDrinkingAnimal]. لا قوة أعظم من تلك التي تأتي من دم الإنسان.</li>
+    <li>animistFact(tag=meme_Bloodfeeding)     ->يمكننا السيطرة على قوة الإنسان بتناول دمه.</li>
     <li>bloodDrinkingAnimal->خفاش مصاص الدماء</li>
     <li>bloodDrinkingAnimal->علقة</li>
     <li>bloodDrinkingAnimal->لامبري</li>
@@ -68,11 +68,11 @@
     <li>memeMoralist->sanguinarian</li>
   -->
   <Bloodfeeding.generalRules.rulesStrings>
-    <li>memeAdjective->دم</li>
+    <li>memeAdjective->دموي</li>
     <li>memeAdjective->متعطش للدم</li>
     <li>memeCreed->سرداب</li>
     <li>memeCreed->وكر</li>
-    <li>memeCreed->عصابة</li>
+    <li>memeCreed->محفل</li>
     <li>memeHyphenPrefix->هيمو</li>
     <li>memeConcept->دم</li>
     <li>memeConcept->جوع</li>

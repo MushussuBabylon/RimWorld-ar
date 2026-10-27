@@ -10,7 +10,7 @@
   <NamerLandmark_AbandonedColonyOutlander.rulePack.rulesStrings>
     <li>r_name(p=0.2)->لعنة [NamePerson]</li>
     <li>terrain_word(p=2)->بلدة</li>
-    <li>terrain_word->موقع أمامي</li>
+    <li>terrain_word->مخفر</li>
     <li>terrain_word->بلدة أشباح</li>
  </NamerLandmark_AbandonedColonyOutlander.rulePack.rulesStrings>
   
@@ -109,7 +109,7 @@
     <li>terrain_word->circle</li>
   -->
   <NamerLandmark_Atoll.rulePack.rulesStrings>
-    <li>terrain_word->شعب حلقي</li>
+    <li>terrain_word->جزيرة مرجانية</li>
     <li>terrain_word->دائرة</li>
  </NamerLandmark_Atoll.rulePack.rulesStrings>
   
@@ -133,7 +133,7 @@
   <NamerLandmark_Bay.rulePack.rulesStrings>
     <li>r_name(p=0.2)->خليج [narrative_name]</li>
     <li>terrain_word(p=6)->خليج</li>
-    <li>terrain_word->منعطف</li>
+    <li>terrain_word->خليج مفتوح</li>
     <li>terrain_word->خليج كبير</li>
     <li>terrain_word->مرسى</li>
     <li>terrain_word->جون</li>
@@ -160,9 +160,9 @@
     <li>terrain_word->fracture</li>
   -->
   <NamerLandmark_Chasm.rulePack.rulesStrings>
+    <li>terrain_word->هوة</li>
+    <li>terrain_word->حفرة انهيارية</li>
     <li>terrain_word->صدع</li>
-    <li>terrain_word->مجلى</li>
-    <li>terrain_word->كسر</li>
  </NamerLandmark_Chasm.rulePack.rulesStrings>
   
   <!-- EN:
@@ -201,7 +201,7 @@
     <li>r_name(p=0.2)->جزيرة [narrative_name]</li>
     <li>terrain_word(p=4)->جزيرة</li>
     <li>terrain_word(p=2)->جزيرة</li>
-    <li>terrain_word->جُزيرة</li>
+    <li>terrain_word->جزيرة صغيرة</li>
  </NamerLandmark_CoastalIsland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -212,7 +212,7 @@
   <NamerLandmark_Crevasse.rulePack.rulesStrings>
     <li>terrain_word(p=3)->شِق جليدي</li>
     <li>terrain_word->كسر</li>
-    <li>terrain_word->شق</li>
+    <li>terrain_word->صدع</li>
  </NamerLandmark_Crevasse.rulePack.rulesStrings>
   
   <!-- EN:
@@ -245,9 +245,9 @@
     <li>terrain_word->sound</li>
   -->
   <NamerLandmark_Fjord.rulePack.rulesStrings>
-    <li>terrain_word(p=2)->مضيق بحري</li>
-    <li>terrain_word->مدخل</li>
-    <li>terrain_word->خليج صغير</li>
+    <li>terrain_word(p=2)->فيورد</li>
+    <li>terrain_word->مدخل بحري</li>
+    <li>terrain_word->مضيق بحري</li>
  </NamerLandmark_Fjord.rulePack.rulesStrings>
   
   <!-- EN:
@@ -307,7 +307,7 @@
   -->
   <NamerLandmark_Hollow.rulePack.rulesStrings>
     <li>r_name(p=0.2)->مخبأ [NamePerson]</li>
-    <li>terrain_word->جوف</li>
+    <li>terrain_word->منخفض</li>
  </NamerLandmark_Hollow.rulePack.rulesStrings>
   
   <!-- EN:
@@ -355,7 +355,7 @@
     <li>r_name(p=18)->[fallen] [townname_wordgen]</li>
     <li>r_name(p=18)->[townname_wordgen] خلية</li>
     <li>fallen->ساقط</li>
-    <li>fallen->موبوء</li>
+    <li>fallen->مجتاح</li>
  </NamerLandmark_InfestedSettlement.rulePack.rulesStrings>
   
   <!-- EN:
@@ -387,7 +387,7 @@
     <li>terrain_word->lava flow</li>
   -->
   <NamerLandmark_LavaFlow.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->جحيم [NamePerson]</li>
+    <li>r_name(p=0.2)->جهنم [NamePerson]</li>
     <li>r_name(p=0.2)->جحيم [NamePerson]</li>
     <li>terrain_word->تدفق بركاني</li>
     <li>terrain_word->تدفق حمم</li>
@@ -477,7 +477,7 @@
     <li>r_name(p=0.4)->[ruin_adjective] [narrative_name]</li>
     <li>r_name(p=0.2)->[story_result] [NamePerson]</li>
     <li>ruin_adjective->مدمر</li>
-    <li>ruin_adjective->متضعضع</li>
+    <li>ruin_adjective->متداعٍ</li>
     <li>terrain_word(p=2)->أطلال</li>
     <li>terrain_word->مدينة</li>
     <li>terrain_word->بلدة</li>
@@ -509,9 +509,9 @@
   <NamerLandmark_TerraformingScar.rulePack.rulesStrings>
     <li>r_name(p=0.3)->[terrain_word] [NamePerson]</li>
     <li>r_name(p=0.2)->[mistake] [NamePerson]</li>
-    <li>r_name(p=0.2)->الـ[large] [terrain_word]</li>
-    <li>r_name(p=0.1)->[dread] [terrain_word]</li>
-    <li>r_name(p=0.05)->الـ[terrain_word]</li>
+    <li>r_name(p=0.2)->ال[terrain_word] ال[large]</li>
+    <li>r_name(p=0.1)->[terrain_word] [dread]</li>
+    <li>r_name(p=0.05)->ال[terrain_word]</li>
     <li>terrain_word(p=3)->ندبة</li>
     <li>terrain_word->صدع</li>
     <li>terrain_word->انشقاق</li>
@@ -526,7 +526,7 @@
     <li>large->فخم</li>
     <li>dread->مخيف</li>
     <li>dread->كئيب</li>
-    <li>dread->خسيس</li>
+    <li>dread->بغيض</li>
     <li>dread->مظلم</li>
  </NamerLandmark_TerraformingScar.rulePack.rulesStrings>
   
@@ -556,14 +556,14 @@
     <li>terrain_word->divide</li>
   -->
   <NamerLandmark_Valley.rulePack.rulesStrings>
-    <li>terrain_word(p=4)->وادي</li>
-    <li>terrain_word(p=3)->وادي صغير</li>
-    <li>terrain_word(p=3)->وادٍ</li>
+    <li>terrain_word(p=4)->وادٍ</li>
+    <li>terrain_word(p=3)->وادٍ صغير</li>
+    <li>terrain_word(p=3)->كانيون</li>
     <li>terrain_word->سهل بين الجبال</li>
     <li>terrain_word->مضيق</li>
     <li>terrain_word->خانق</li>
     <li>terrain_word->أخدود</li>
-    <li>terrain_word->تقسيم</li>
+    <li>terrain_word->خط تقسيم</li>
  </NamerLandmark_Valley.rulePack.rulesStrings>
   
   <!-- EN:

@@ -4,7 +4,7 @@
   <!-- EN: ancient ammo box -->
   <AncientAmmoStack.label>صندوق ذخيرة قديم</AncientAmmoStack.label>
   <!-- EN: A container of ancient ammunition. It's empty and any remaining rounds are corroded to uselessness. -->
-  <AncientAmmoStack.description>حاوية ذخيرة قديمة. إنها فارغة وأي طلقات متبقية متآكلة لدرجة عدم الجدوى.</AncientAmmoStack.description>
+  <AncientAmmoStack.description>حاوية ذخيرة قديمة. إنها فارغة وأي طلقات متبقية متآكلة حتى لم تعد تنفع.</AncientAmmoStack.description>
   
   <!-- EN: ancient antenna -->
   <AncientAntenna.label>هوائي قديم</AncientAntenna.label>
@@ -19,7 +19,7 @@
   <!-- EN: broken autocannon turret -->
   <AncientAutocannonTurret.label>برج مدفع آلي مكسور</AncientAutocannonTurret.label>
   <!-- EN: An autocannon turret with a shattered barrel. The targeting system is missing and all the components are rusted and bent to uselessness. -->
-  <AncientAutocannonTurret.description>برج مدفع آلي بماسورة محطمة. نظام التصويب مفقود وجميع المكونات صدئة ومثنية لدرجة عدم الجدوى.</AncientAutocannonTurret.description>
+  <AncientAutocannonTurret.description>برج مدفع آلي بماسورة محطمة. نظام التصويب مفقود وجميع المكونات صدئة ومثنية حتى لم تعد تنفع.</AncientAutocannonTurret.description>
   
   <!-- EN: large concrete barrier -->
   <AncientBarrierLong.label>حاجز خرساني كبير</AncientBarrierLong.label>
@@ -132,7 +132,7 @@
   <AncientLockers.description>مجموعة من الخزائن المعدنية، صدئة بشدة ومثنية. لقد نُهبت تماماً.</AncientLockers.description>
   
   <!-- EN: ancient container -->
-  <AncientMediumContainer.label>حاوية قديمة</AncientMediumContainer.label>
+  <AncientMediumContainer.label>حاوية شحن قديمة</AncientMediumContainer.label>
   <!-- EN: A rusted shipping container. It's completely empty. -->
   <AncientMediumContainer.description>حاوية شحن صدئة. إنها فارغة تماماً.</AncientMediumContainer.description>
   
@@ -202,7 +202,7 @@
   <AncientSingleBed.description>إطار سرير فردي بمعدن صدئ وفراش ممزق. أفضل من النوم على الأرض، لكن بالكاد.</AncientSingleBed.description>
   
   <!-- EN: ancient container -->
-  <AncientSmallContainer.label>حاوية قديمة</AncientSmallContainer.label>
+  <AncientSmallContainer.label>حاوية شحن قديمة</AncientSmallContainer.label>
   <!-- EN: A rusted shipping container. It's completely empty. -->
   <AncientSmallContainer.description>حاوية شحن صدئة. إنها فارغة تماماً.</AncientSmallContainer.description>
   
@@ -219,7 +219,7 @@
   <!-- EN: ancient brewery -->
   <AncientTableBrewery.label>مصنع جعة قديم</AncientTableBrewery.label>
   <!-- EN: A dilapidated brewing table once used for fermentation. The equipment is rusted beyond use. -->
-  <AncientTableBrewery.description>طاولة تخمير متداعية استخدمت للتخمير. المعدات صدئة لدرجة عدم القابلية للاستخدام.</AncientTableBrewery.description>
+  <AncientTableBrewery.description>طاولة تخمير متداعية استخدمت للتخمير. المعدات صدئة حتى لم تعد صالحة للاستخدام.</AncientTableBrewery.description>
   
   <!-- EN: ancient butcher table -->
   <AncientTableButcher.label>طاولة جزار قديمة</AncientTableButcher.label>
@@ -227,7 +227,7 @@
   <AncientTableButcher.description>طاولة جزار مكسورة مليئة بالبقع القديمة.</AncientTableButcher.description>
   
   <!-- EN: ancient drug lab -->
-  <AncientTableDrugLab.label>مختبر مخدرات قديم</AncientTableDrugLab.label>
+  <AncientTableDrugLab.label>مختبر عقاقير قديم</AncientTableDrugLab.label>
   <!-- EN: A crumbling lab table with shattered glassware. The equipment is useless and contaminated. -->
   <AncientTableDrugLab.description>طاولة مختبر متداعية بأوانٍ زجاجية محطمة. المعدات عديمة الفائدة وملوثة.</AncientTableDrugLab.description>
   
@@ -242,7 +242,7 @@
   <AncientTableSmithingElectric.description>ورشة حدادة كهربائية مدمرة بأسلاك متآكلة وأسطح محروقة. لا يمكن إصلاحها.</AncientTableSmithingElectric.description>
   
   <!-- EN: ancient fueled smithy -->
-  <AncientTableSmithingFueled.label>ورشة حدادة بالوقود قديمة</AncientTableSmithingFueled.label>
+  <AncientTableSmithingFueled.label>ورشة حدادة قديمة تعمل بالوقود</AncientTableSmithingFueled.label>
   <!-- EN: An ancient smithy that once burned fuel for crafting. Now, it's covered in soot and rust. -->
   <AncientTableSmithingFueled.description>ورشة حدادة قديمة كانت تحرق الوقود للصناعة. الآن، إنها مغطاة بالسخام والصدأ.</AncientTableSmithingFueled.description>
   
@@ -252,7 +252,7 @@
   <AncientTableStoveElectric.description>موقد كهربائي قديم بعناصر تسخين محطمة. إنه متضرر للغاية ولا يمكن استخدامه.</AncientTableStoveElectric.description>
   
   <!-- EN: ancient fueled stove -->
-  <AncientTableStoveFueled.label>موقد بالوقود قديم</AncientTableStoveFueled.label>
+  <AncientTableStoveFueled.label>موقد قديم يعمل بالوقود</AncientTableStoveFueled.label>
   <!-- EN: A rusted cooking stove. It's beyond unusable. -->
   <AncientTableStoveFueled.description>موقد طهي صدئ. إنه غير قابل للاستخدام إطلاقاً.</AncientTableStoveFueled.description>
   
@@ -267,14 +267,14 @@
   <AncientTableTailorHand.description>طاولة خياط بسيطة بخشب مشظى وإبر صدئة. لا شيء مفيد متبقٍ.</AncientTableTailorHand.description>
   
   <!-- EN: ancient tunneler claw -->
-  <AncientTunnelerClaw.label>مخلب نافقة قديم</AncientTunnelerClaw.label>
+  <AncientTunnelerClaw.label>مخلب حفار قديم</AncientTunnelerClaw.label>
   <!-- EN: The claw of an ancient mining mechanoid. All the parts are degraded to uselessness. -->
-  <AncientTunnelerClaw.description>مخلب ميكانويد تعدين قديم. جميع الأجزاء متحللة لدرجة عدم الجدوى.</AncientTunnelerClaw.description>
+  <AncientTunnelerClaw.description>مخلب ميكانويد تعدين قديم. جميع الأجزاء متحللة حتى لم تعد تنفع.</AncientTunnelerClaw.description>
   
   <!-- EN: ancient tunneler husk -->
-  <AncientTunnelerHusk.label>هيكل نافقة قديم</AncientTunnelerHusk.label>
+  <AncientTunnelerHusk.label>هيكل حفار قديم</AncientTunnelerHusk.label>
   <!-- EN: The remains of an ancient mining mechanoid. Its complex parts are all degraded to uselessness. -->
-  <AncientTunnelerHusk.description>بقايا ميكانويد تعدين قديم. أجزاؤه المعقدة متحللة كلها لدرجة عدم الجدوى.</AncientTunnelerHusk.description>
+  <AncientTunnelerHusk.description>بقايا ميكانويد تعدين قديم. أجزاؤه المعقدة متحللة كلها حتى لم تعد تنفع.</AncientTunnelerHusk.description>
   
   <!-- EN: busted television -->
   <AncientTV.label>تلفاز محطم</AncientTV.label>

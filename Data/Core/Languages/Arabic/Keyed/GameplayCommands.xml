@@ -69,7 +69,7 @@
   <!-- EN: Set owner -->
   <CommandThingSetOwnerLabel>تحديد المالك</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific {0}. -->
-  <CommandBedSetOwnerDesc>تخصيص هذا السرير ليكون مملوكاً لـ {0} معين.</CommandBedSetOwnerDesc>
+  <CommandBedSetOwnerDesc>تخصيص هذا السرير ليكون مملوكاً لـ{0} معين.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>تخصيص هذا العرش ليكون مملوكاً لمستعمر معين.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
@@ -317,7 +317,7 @@
   <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
   <CommandReload_Cooldown>{COOLDOWNGERUND} لمدة {TIME}.</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
-  <CommandReload_NoAmmo>يحتاج إلى إعادة تعبئة بـ {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
+  <CommandReload_NoAmmo>يحتاج إلى إعادة تعبئة بـ{COUNT} {AMMO_label}.</CommandReload_NoAmmo>
   
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
@@ -345,7 +345,7 @@
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>تشكيل مجموعة من المستعمرين القادرين على السفر إلى مناطق جديدة. سيجمع المستعمرون كل الإمدادات المعينة والحيوانات المرافقة، ويغادرون منطقتهم الحالية، وينتظرون أوامر إضافية.</CommandFormCaravanDesc>
   <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
-  <CommandFormCaravanDescAtSpot>ستُستخدم هذه البقعة كنقطة التقاء للقافلة. سيتم إحضار كل البضائع والحيوانات إلى هنا قبل المغادرة.</CommandFormCaravanDescAtSpot>
+  <CommandFormCaravanDescAtSpot>سيُستخدم هذا المكان كنقطة التقاء للقافلة. سيتم إحضار كل البضائع والحيوانات إلى هنا قبل المغادرة.</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
@@ -525,13 +525,13 @@
   <!-- EN: Over mass capacity. -->
   <CommandLaunchGroupFailOverMassCapacity>تجاوز سعة الكتلة.</CommandLaunchGroupFailOverMassCapacity>
   <!-- EN: On cooldown. -->
-  <CommandLaunchGroupCooldown>في فترة التهدئة.</CommandLaunchGroupCooldown>
+  <CommandLaunchGroupCooldown>في فترة الانتظار.</CommandLaunchGroupCooldown>
   <!-- EN: {0} / {1} kg -->
   <MassUsageString>{0} / {1} كجم</MassUsageString>
 
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
-  <CommandLoadTransporter>تحميل مجموعة إطلاق لـ {0}</CommandLoadTransporter>
+  <CommandLoadTransporter>تحميل مجموعة إطلاق لـ{0}</CommandLoadTransporter>
   <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
   <CommandLoadTransporterDesc>تحديد ناقل(ات) مختار كمجموعة إطلاق. يفتح مربع حوار التحميل حتى تتمكن من تحديد من وما الذي يجب تحميله بالداخل.</CommandLoadTransporterDesc>
   <!-- EN: The transport pod is not connected to a fueling port. -->
@@ -641,11 +641,11 @@
   <!-- EN: View quest: {0} -->
   <CommandViewQuest>عرض المهمة: {0}</CommandViewQuest>
   <!-- EN: View this quest in quests tab. -->
-  <CommandViewQuestDesc>عرض هذه المهمة في علامة تبويب المهام.</CommandViewQuestDesc>
+  <CommandViewQuestDesc>عرض هذه المهمة في تبويب المهام.</CommandViewQuestDesc>
   <!-- EN: Open linked quest -->
   <CommandOpenLinkedQuest>فتح المهمة المرتبطة</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
-  <CommandOpenLinkedQuestDesc>فتح المهمة المرتبطة في علامة تبويب المهام.</CommandOpenLinkedQuestDesc>
+  <CommandOpenLinkedQuestDesc>فتح المهمة المرتبطة في تبويب المهام.</CommandOpenLinkedQuestDesc>
 
   <!-- Carry -->
   <!-- EN: Drop {0_nameDef} -->

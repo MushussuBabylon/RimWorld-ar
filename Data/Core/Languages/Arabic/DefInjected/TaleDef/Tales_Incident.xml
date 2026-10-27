@@ -39,7 +39,7 @@
     <li>desc_sentence->في الأسفل، [PAWN_nameDef] يلعب [Game] بنظرة [AdjectiveFriendly].</li>
     <li>desc_sentence->[PAWN_nameDef] يشاهد بذهول على وجهـ[PAWN_possessive].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يشاهدون من الأسفل.</li>
-    <li>desc_sentence->[PAWN_nameDef] يجلس قرب [TerrainFeature]، محدقا في السماء.</li>
+    <li>desc_sentence->[PAWN_nameDef] يجلس قرب [TerrainFeature]، محدقاً في السماء.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s تتجول بسلام.</li>
     <li>desc_sentence->لا يوجد أي [Enemy] في الأفق.</li>
  </Aurora.rulePack.rulesStrings>
@@ -69,7 +69,7 @@
   -->
   <CaravanAmbushedByHumanlike.rulePack.rulesStrings>
     <li>tale_noun->قافلة [PAWN_nameDef] تتعرض لكمين</li>
-    <li>image->[PAWN_nameFull] يرتعد خوفا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يرتعد خوفاً [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يتحرك لحماية حليف [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يتحرك للهجوم [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يهاجم [circumstance_group]</li>
@@ -80,12 +80,12 @@
     <li>circumstance_phrase->بتعبير [AdjectiveBadass]</li>
     <li>circumstance_phrase->بتعبير [AdjectiveBadass]</li>
     <li>circumstance_phrase->بينما يشهر سلاحـ[PAWN_possessive]</li>
-    <li>circumstance_phrase->بينما يتصبب عرقا من الجهد</li>
+    <li>circumstance_phrase->بينما يتصبب عرقاً من الجهد</li>
     <li>desc_sentence->[Quantity_adjphrase] شخصيات بعيدة تقترب من خلف [TerrainFeature].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s يمكن رؤيتهم على البعد.</li>
-    <li>desc_sentence->[PAWN_nameDef] محاصر عمليا من [Enemy]s.</li>
+    <li>desc_sentence->[PAWN_nameDef] محاصر عملياً من [Enemy]s.</li>
     <li>desc_sentence->[PAWN_nameDef] يواجهه [Enemy].</li>
-    <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يفرون من مشهد النزاع خوفا.</li>
+    <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يفرون من مشهد النزاع خوفاً.</li>
     <li>desc_sentence->على البعد، يراقب أحد [PersonJob].</li>
  </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
@@ -112,7 +112,7 @@
   -->
   <CaravanAmbushedByManhunter.rulePack.rulesStrings>
     <li>tale_noun->قافلة [PAWN_nameDef] تتعرض لكمين</li>
-    <li>image->[PAWN_nameFull] يرتعد خوفا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يرتعد خوفاً [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يتحرك لحماية حليف [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يتحرك للهجوم [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يهاجم [circumstance_group]</li>
@@ -121,12 +121,12 @@
     <li>circumstance_phrase->بتعبير [AdjectiveBadass]</li>
     <li>circumstance_phrase->بتعبير [AdjectiveBadass]</li>
     <li>circumstance_phrase->بينما يشهر سلاحـ[PAWN_possessive]</li>
-    <li>circumstance_phrase->بينما يتصبب عرقا من الجهد</li>
+    <li>circumstance_phrase->بينما يتصبب عرقاً من الجهد</li>
     <li>circumstance_phrase->بينما هو مغطى بـ[Gore]</li>
     <li>desc_sentence->[Quantity_adjphrase] من الحيوانات البعيدة تقترب من خلف [TerrainFeature].</li>
     <li>desc_sentence->[Gore] يغطي الأرض.</li>
     <li>desc_sentence->الأرض تداس لتصبح فوضى من [Gore].</li>
-    <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يفرون من مشهد النزاع خوفا.</li>
+    <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يفرون من مشهد النزاع خوفاً.</li>
     <li>desc_sentence->على البعد، يراقب أحد [PersonJob].</li>
  </CaravanAmbushedByManhunter.rulePack.rulesStrings>
   
@@ -157,9 +157,9 @@
     <li>action->taunting [PAWN_nameDef]</li>
   -->
   <CaravanDemand.rulePack.rulesStrings>
-    <li>tale_noun->قافلة [PAWN_nameDef] تتلقى طلبا</li>
+    <li>tale_noun->قافلة [PAWN_nameDef] تتلقى طلباً</li>
     <li>tale_noun->قافلة [PAWN_nameDef] تتعرض للتهديد</li>
-    <li>image->[PAWN_nameFull] يرتعد خوفا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] يرتعد خوفاً [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يصرخ بصوت عال [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يفكر [circumstance_group]</li>
     <li>image->[PAWN_nameFull] يحدق بغضب [circumstance_group]</li>
@@ -169,15 +169,15 @@
     <li>circumstance_phrase->بتعبير [AdjectiveAngsty]</li>
     <li>circumstance_phrase->بينما يراقب الآخرون</li>
     <li>circumstance_phrase->بينما يتعرض للتهديد من [Enemy]s</li>
-    <li>desc_sentence->[PAWN_nameDef] محاصر عمليا من [Enemy]s.</li>
+    <li>desc_sentence->[PAWN_nameDef] محاصر عملياً من [Enemy]s.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Enemy]s قريبون، [action].</li>
     <li>desc_sentence->تغرب الشمس خلف [TerrainFeature].</li>
     <li>desc_sentence->تشرق الشمس فوق [TerrainFeature].</li>
     <li>desc_sentence->على البعد، يراقب أحد [PersonJob].</li>
     <li>action->يشحذون أسلحتهم</li>
-    <li>action->يراقبون بحثا عن الخطر</li>
+    <li>action->يراقبون بحثاً عن الخطر</li>
     <li>action->يحرسون الرهائن</li>
-    <li>action->ينتظرون قرارا</li>
+    <li>action->ينتظرون قراراً</li>
     <li>action->يسخرون من [PAWN_nameDef]</li>
  </CaravanDemand.rulePack.rulesStrings>
   
@@ -229,7 +229,7 @@
     <li>desc_sentence->على البعد، يراقب أحد [PersonJob].</li>
     <li>event->يقيمون حفلة</li>
     <li>event->يتناولون وجبة جماعية</li>
-    <li>event->يناقشون أحداثا حديثة</li>
+    <li>event->يناقشون أحداثاً حديثة</li>
     <li>event->يجددون صداقات قديمة</li>
     <li>event->يتحدثون بتردد</li>
  </CaravanMeeting.rulePack.rulesStrings>
@@ -266,7 +266,7 @@
     <li>desc_sentence->في الأسفل، [PAWN_nameDef] يلعب [Game] بنظرة [AdjectiveFriendly].</li>
     <li>desc_sentence->[PAWN_nameDef] يشاهد بذهول على وجهـ[PAWN_possessive].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يشاهدون من الأسفل.</li>
-    <li>desc_sentence->[PAWN_nameDef] يجلس قرب [TerrainFeature]، محدقا في السماء.</li>
+    <li>desc_sentence->[PAWN_nameDef] يجلس قرب [TerrainFeature]، محدقاً في السماء.</li>
     <li>desc_sentence->[Community] من المتفرجين تشاهد السماء بسلام.</li>
     <li>desc_sentence->لا يوجد أي [Enemy] في الأفق.</li>
  </Eclipse.rulePack.rulesStrings>
@@ -308,7 +308,7 @@
     <li>image->[PAWN_nameDef] يفتح رسالة أوصلها [delivery_method] بينما [circumstance_group]</li>
     <li>image->[PAWN_nameDef] يستخدم بلورة بيانات أوصلها [delivery_method] بينما [circumstance_group]</li>
     <li>image->[PAWN_nameDef] يفك لفافة أوصلها [delivery_method] بينما [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] يتلقى إرسالا من [transmission_source] بينما [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] يتلقى إرسالاً من [transmission_source] بينما [circumstance_group]</li>
     <li>image->[PAWN_nameDef] يتلقى رسالة من [transmission_source] بينما [circumstance_group]</li>
     <li>image->[PAWN_nameDef] يستمع إلى رسالة من [transmission_source] بينما [circumstance_group]</li>
     <li>delivery_method->[Animal]</li>
@@ -319,10 +319,10 @@
     <li>transmission_source->إشارة منخفضة الطاقة</li>
     <li>transmission_source->إشارة بعيدة المدى</li>
     <li>transmission_source->إشارة غامضة</li>
-    <li>circumstance_phrase->يقف وحيدا قرب [TerrainFeature]</li>
+    <li>circumstance_phrase->يقف وحيداً قرب [TerrainFeature]</li>
     <li>circumstance_phrase->يستكشف [TerrainFeature]</li>
     <li>circumstance_phrase->يعتني بالمحاصيل</li>
-    <li>circumstance_phrase->يمر [Animal] متجولا</li>
+    <li>circumstance_phrase->يمر [Animal] متجولاً</li>
     <li>circumstance_phrase->يلعب [Game]</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s تتجول في الجوار، غير مدركة.</li>
     <li>desc_sentence->بينما يقرأ [PAWN_pronoun]، يبدأ [PAWN_pronoun] في [VerbFriendly].</li>
@@ -333,7 +333,7 @@
  </EndGame_ShipEscape.rulePack.rulesStrings>
   
   <!-- EN: flashstorm -->
-  <Flashstorm.label>عاصفة وميضية</Flashstorm.label>
+  <Flashstorm.label>عاصفة برق خاطفة</Flashstorm.label>
   <!-- EN:
     <li>tale_noun->a flashstorm that threatened [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being menaced by a deadly flashstorm</li>
@@ -357,8 +357,8 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Flashstorm.rulePack.rulesStrings>
-    <li>tale_noun->عاصفة وميضية هددت [Community] التابع لـ[PAWN_nameDef]</li>
-    <li>tale_noun->[Community] التابع لـ[PAWN_nameDef] يهدده عاصفة وميضية مميتة</li>
+    <li>tale_noun->عاصفة برق خاطفة هددت [Community] التابع لـ[PAWN_nameDef]</li>
+    <li>tale_noun->[Community] التابع لـ[PAWN_nameDef] يهدده عاصفة برق خاطفة مميتة</li>
     <li>image->[Quantity_adjphrase] ضربات برق [circumstance_phrase]</li>
     <li>image->[behavior] جدار من اللهب [circumstance_phrase]</li>
     <li>image->[behavior] جدار من اللهب [Color] [circumstance_phrase]</li>
@@ -415,11 +415,11 @@
     <li>circumstance_phrase->تنبثق من الأرض</li>
     <li>circumstance_phrase->تذبح [Quantity_adjphrase] من [Animal]s</li>
     <li>desc_sentence->[PAWN_nameDef] ينظم مقاومة.</li>
-    <li>desc_sentence->[PAWN_nameDef] يشهر [Weapon] دفاعيا.</li>
-    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، مصابا.</li>
+    <li>desc_sentence->[PAWN_nameDef] يشهر [Weapon] دفاعياً.</li>
+    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، مصاباً.</li>
     <li>desc_sentence->[PAWN_nameDef] يرد بـ[Weapon][PAWN_possessive].</li>
-    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيرا [AdjectiveBadass].</li>
-    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيرا [AdjectiveAngsty].</li>
+    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيراً [AdjectiveBadass].</li>
+    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيراً [AdjectiveAngsty].</li>
     <li>desc_sentence->الأرض مغطاة بـ[Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يفرون من المنطقة.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يفرون من المنطقة.</li>
@@ -473,11 +473,11 @@
     <li>hate_emotion->غضب</li>
     <li>hate_emotion->غيظ</li>
     <li>desc_sentence->[PAWN_nameDef] ينظم مقاومة.</li>
-    <li>desc_sentence->[PAWN_nameDef] يشهر [Weapon] دفاعيا.</li>
-    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، مصابا.</li>
+    <li>desc_sentence->[PAWN_nameDef] يشهر [Weapon] دفاعياً.</li>
+    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، مصاباً.</li>
     <li>desc_sentence->[PAWN_nameDef] يرد بـ[Weapon][PAWN_possessive].</li>
-    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيرا [AdjectiveBadass].</li>
-    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيرا [AdjectiveAngsty].</li>
+    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيراً [AdjectiveBadass].</li>
+    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيراً [AdjectiveAngsty].</li>
     <li>desc_sentence->الأرض مغطاة بـ[Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يفرون من المنطقة.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يفرون من المنطقة.</li>
@@ -525,7 +525,7 @@
     <li>ground_circumstance->محاطة بالدخان والرماد</li>
     <li>ground_circumstance->يتصاعد منها الدخان من الحرارة</li>
     <li>ground_circumstance->محاطة بحطام منصهر</li>
-    <li>ground_circumstance->مطمورة جزئيا في الأرض</li>
+    <li>ground_circumstance->مطمورة جزئياً في الأرض</li>
     <li>ground_circumstance->ترقد في فوهة متشققة</li>
     <li>desc_sentence->[PAWN_nameDef] ينظر بدهشة.</li>
     <li>desc_sentence->[PAWN_nameDef] ينظر بحماس.</li>
@@ -586,18 +586,18 @@
     <li>circumstance_phrase->تشهر [Weapon]s</li>
     <li>circumstance_phrase->مغطاة بـ[Gore]</li>
     <li>desc_sentence->[PAWN_nameDef] ينظم مقاومة بينما [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] يشهر [Weapon] دفاعيا بينما [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، مصابا.</li>
+    <li>desc_sentence->[PAWN_nameDef] يشهر [Weapon] دفاعياً بينما [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، مصاباً.</li>
     <li>desc_sentence->[PAWN_nameDef] يرد بـ[Weapon][PAWN_possessive] بينما [defender_circumstance].</li>
     <li>desc_sentence->[PAWN_nameDef] يقف بطول مبنى، [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيرا [AdjectiveBadass].</li>
-    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيرا [AdjectiveAngsty].</li>
+    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيراً [AdjectiveBadass].</li>
+    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيراً [AdjectiveAngsty].</li>
     <li>desc_sentence->الأرض مغطاة بـ[Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يفرون من المنطقة.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يفرون من المنطقة.</li>
-    <li>defender_circumstance->يصرخ منتشيا</li>
+    <li>defender_circumstance->يصرخ منتشياً</li>
     <li>defender_circumstance->يتوهج [Color]</li>
-    <li>defender_circumstance->يرفع قبضة يده متحديا</li>
+    <li>defender_circumstance->يرفع قبضة يده متحدياً</li>
     <li>defender_circumstance->يستعرض عضلاتـ[PAWN_possessive]</li>
  </Raid.rulePack.rulesStrings>
   
@@ -650,21 +650,21 @@
     <li>circumstance_phrase->تهاجم [Quantity_adjphrase] من [PersonJob]s</li>
     <li>circumstance_phrase->تذبح [Quantity_adjphrase] من [Animal]s</li>
     <li>circumstance_phrase->مغطاة بـ[Gore]</li>
-    <li>circumstance_phrase->منبعجة وتطلق شرارا</li>
+    <li>circumstance_phrase->منبعجة وتطلق شراراً</li>
     <li>desc_sentence->[PAWN_nameDef] ينظم مقاومة بينما [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] يشهر [Weapon] دفاعيا بينما [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، مصابا.</li>
+    <li>desc_sentence->[PAWN_nameDef] يشهر [Weapon] دفاعياً بينما [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، مصاباً.</li>
     <li>desc_sentence->[PAWN_nameDef] يرد بـ[Weapon][PAWN_possessive] بينما [defender_circumstance].</li>
     <li>desc_sentence->[PAWN_nameDef] يقف بطول مبنى، [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيرا [AdjectiveBadass].</li>
-    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيرا [AdjectiveAngsty].</li>
+    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيراً [AdjectiveBadass].</li>
+    <li>desc_sentence->[PAWN_nameDef] يرتدي تعبيراً [AdjectiveAngsty].</li>
     <li>desc_sentence->الأرض مغطاة بـ[Gore].</li>
     <li>desc_sentence->الأرض مغطاة بخردة معدنية.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [PersonJob]s يفرون من المنطقة.</li>
     <li>desc_sentence->[Quantity_adjphrase] من [Animal]s يفرون من المنطقة.</li>
-    <li>defender_circumstance->يصرخ منتشيا</li>
+    <li>defender_circumstance->يصرخ منتشياً</li>
     <li>defender_circumstance->يتوهج [Color]</li>
-    <li>defender_circumstance->يرفع قبضة يده متحديا</li>
+    <li>defender_circumstance->يرفع قبضة يده متحدياً</li>
     <li>defender_circumstance->يستعرض عضلاتـ[PAWN_possessive]</li>
  </ShipPartCrash.rulePack.rulesStrings>
   
@@ -792,7 +792,7 @@
     <li>tale_noun->تساقط يستقر فوق [Community] التابع لـ[PAWN_nameDef]</li>
     <li>tale_noun->الجو قرب [Community] التابع لـ[PAWN_nameDef] يصبح ساما</li>
     <li>image->سماء مشؤومة، [circumstance_group]</li>
-    <li>image->الهواء يصبح كثيفا و[circumstance_group]</li>
+    <li>image->الهواء يصبح كثيفاً و[circumstance_group]</li>
     <li>image->الأرض تتوهج بلطف و[circumstance_group]</li>
     <li>image->حقول من النباتات الميتة [circumstance_group]</li>
     <li>image->[Quantity_adjphrase] قبور [circumstance_group]</li>
@@ -800,7 +800,7 @@
     <li>circumstance_phrase->مغطاة ببريق خافت من الغبار المضيء</li>
     <li>circumstance_phrase->مرتبة بنمط يوحي بالعظام</li>
     <li>circumstance_phrase->تنتظر توقف السم</li>
-    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، جسد[PAWN_possessive] ملتوي بزاوية غير اعتيادية.</li>
+    <li>desc_sentence->[PAWN_nameDef] يرقد على الأرض، جسمـ[PAWN_possessive] ملتوي بزاوية غير اعتيادية.</li>
     <li>desc_sentence->[PAWN_nameDef] يختبئ قرب [TerrainFeature]، يحدق بنظرة [AdjectiveAngsty].</li>
     <li>desc_sentence->[PAWN_nameDef] ينظر بصدمة.</li>
     <li>desc_sentence->[PAWN_nameDef] يستريح بهدوء مع طبقة من العرق على وجهـ[PAWN_possessive].</li>
@@ -839,13 +839,13 @@
     <li>circumstance_phrase->بالكاد مضاءة بأعمدة رفيعة من الضوء</li>
     <li>circumstance_phrase->مضاءة بشكل صارخ بضوء أزرق بارد</li>
     <li>desc_sentence->[PAWN_nameDef] يتكوم قرب نار.</li>
-    <li>desc_sentence->ليبقى دافئا، يرتدي [PAWN_nameDef] [Quantity_adjphrase] من [Apparel]s.</li>
+    <li>desc_sentence->ليبقى دافئاً، يرتدي [PAWN_nameDef] [Quantity_adjphrase] من [Apparel]s.</li>
     <li>desc_sentence->[PAWN_nameDef] يجلس بالقرب، منهك بشكل واضح من المحنة.</li>
     <li>desc_sentence->[PAWN_nameDef] يختبئ قرب [TerrainFeature]، يحدق بنظرة [AdjectiveAngsty].</li>
-    <li>desc_sentence->[Quantity_adjphrase] من [Animal]ات  المتضورة جوعا تحيط بالمشهد.</li>
-    <li>desc_sentence->[Quantity_adjphrase] من [Animal]ات  المرتجفة تحيط بالمشهد.</li>
-    <li>desc_sentence->[Quantity_adjphrase] من [Animal]ات  المحتضرة ترقد على الأرض.</li>
-    <li>desc_sentence->[Quantity_adjphrase] من [Animal]ات  تتسكع بقلق.</li>
+    <li>desc_sentence->[Quantity_adjphrase] من [Animal]ات المتضورة جوعاً تحيط بالمشهد.</li>
+    <li>desc_sentence->[Quantity_adjphrase] من [Animal]ات المرتجفة تحيط بالمشهد.</li>
+    <li>desc_sentence->[Quantity_adjphrase] من [Animal]ات المحتضرة ترقد على الأرض.</li>
+    <li>desc_sentence->[Quantity_adjphrase] من [Animal]ات تتسكع بقلق.</li>
  </VolcanicWinter.rulePack.rulesStrings>
   
 </LanguageData>

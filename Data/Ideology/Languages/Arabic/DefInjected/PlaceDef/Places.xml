@@ -29,15 +29,15 @@
     <li>place_community->حلقة تصنيع</li>
     <li>place_community->حلقة سكنية</li>
     <li>place_powerCenter->غرفة تحكم مركزية</li>
-    <li>place_job->مشغل طائرات بناء بدون طيار</li>
+    <li>place_job->مشغل مسيّرات البناء</li>
     <li>place_job->مدير</li>
     <li>place_job->طيار اختبار</li>
     <li>place_job->وكيل مبيعات</li>
-    <li>place_job->فني طابعة ثلاثية الأبعاد</li>
+    <li>place_job->تقني طابعة ثلاثية الأبعاد</li>
     <li>place_personalWeapon->مسدس صاعق</li>
     <li>place_personalWeapon->لحام قوسي</li>
     <li>place_massWeapon->[anEMPAttack]</li>
-    <li>place_massWeapon->طائرات لحام بدون طيار تتحكم عن بعد</li>
+    <li>place_massWeapon->مسيّرات لحام تُدار عن بعد</li>
     <li>place_foeLeader->زعيم عصابة</li>
     <li>place_foeSoldiers->بلطجية</li>
  </AturaStation.placeRules.rulesStrings>
@@ -70,7 +70,7 @@
     <li>place_community->محطة معالجة مياه الأمطار</li>
     <li>place_community->بلدة الخردة</li>
     <li>place_powerCenter->ميناء فضائي تجاري</li>
-    <li>place_job->نبّاش</li>
+    <li>place_job->جامع خردة</li>
     <li>place_job->تاجر</li>
     <li>place_job->مصلح</li>
     <li>place_job->حارس</li>
@@ -113,7 +113,7 @@
     <li>place_powerCenter->قاعة خطابة</li>
     <li>place_job->مُعدّن</li>
     <li>place_job->مزارع فطر</li>
-    <li>place_job->نبّاش سطحي</li>
+    <li>place_job->جامع خردة سطحي</li>
     <li>place_job->طبّاخ مجتمعي</li>
     <li>place_job->صياد ضفادع</li>
     <li>place_personalWeapon->معول</li>
@@ -159,7 +159,7 @@
     <li>place_job->راعي زبال</li>
     <li>place_personalWeapon->سهم رملي</li>
     <li>place_personalWeapon->هراوة صبار</li>
-    <li>place_massWeapon->عاصفة رملية محدثة بتقنية أركوتيك</li>
+    <li>place_massWeapon->عاصفة رملية محدثة بتقنية آركوتيك</li>
     <li>place_massWeapon->تدافع سحالي شوكية</li>
     <li>place_foeLeader->زعيم قبيلة</li>
     <li>place_foeSoldiers->محاربون رمليون</li>
@@ -251,7 +251,7 @@
     <li>place_personalWeapon->بندقية</li>
     <li>place_personalWeapon->منجل</li>
     <li>place_massWeapon->قنابل سماد</li>
-    <li>place_massWeapon->رذاذ مبيد حشري معسكر</li>
+    <li>place_massWeapon->رذاذ مبيد حشري محوَّل إلى سلاح</li>
     <li>place_massWeapon->عدسة فضائية</li>
     <li>place_foeLeader->مالك أرض</li>
     <li>place_foeSoldiers->ميليشيا</li>
@@ -287,9 +287,9 @@
     <li>place_powerCenter->دار إعادة الإنبات</li>
     <li>place_job->مزارع خرساني</li>
     <li>place_job->صانع طرق</li>
-    <li>place_job->صياد آثار</li>
+    <li>place_job->صياد القطع الأثرية</li>
     <li>place_job->مشّاء الأنفاق</li>
-    <li>place_job->مرمم آثار</li>
+    <li>place_job->مرمم القطع الأثرية</li>
     <li>place_personalWeapon->سيف خردة</li>
     <li>place_personalWeapon->خنجر مسنن</li>
     <li>place_massWeapon->قنبلة نووية مستخرجة</li>
@@ -378,8 +378,8 @@
     <li>place_personalWeapon->قنبلة غاز</li>
     <li>place_personalWeapon->قاذف لهب سام</li>
     <li>place_massWeapon->قنابل قذرة نووية</li>
-    <li>place_massWeapon->طاعون هندس حيوياً</li>
-    <li>place_massWeapon->قنابل سامة مخترقة</li>
+    <li>place_massWeapon->طاعون مهندس حيوياً</li>
+    <li>place_massWeapon->قنابل سامة خارقة</li>
     <li>place_foeLeader->سيد السم</li>
     <li>place_foeSoldiers->جنود السم</li>
  </Kemia.placeRules.rulesStrings>
@@ -503,7 +503,7 @@
     <li>place_job->كشاف جوي</li>
     <li>place_personalWeapon->خنجر سبج</li>
     <li>place_personalWeapon->بندقية حربة</li>
-    <li>place_massWeapon->ثوران بركاني محدث بتقنية أركوتيك</li>
+    <li>place_massWeapon->ثوران بركاني محدث بتقنية آركوتيك</li>
     <li>place_massWeapon->قنبلة حرب كيميائية</li>
     <li>place_foeLeader->سيد الحمم</li>
     <li>place_foeSoldiers->جنود ستيجيون</li>
@@ -544,7 +544,7 @@
     <li>place_job->راعي ماعز</li>
     <li>place_personalWeapon->بيلة</li>
     <li>place_personalWeapon->إيكوا</li>
-    <li>place_massWeapon->طائرة نفسية بدون طيار قاتلة</li>
+    <li>place_massWeapon->طنين نفسي قاتل</li>
     <li>place_massWeapon->قنبلة سم عصبي</li>
     <li>place_foeLeader->حصّاد أشجار</li>
     <li>place_foeSoldiers->أتباع</li>
@@ -620,7 +620,7 @@
     <li>place_community->مصعد فضائي</li>
     <li>place_community->مصنع روبوتات</li>
     <li>place_powerCenter->كابيتول كوكبي</li>
-    <li>place_job->طالب في قوة النجوم</li>
+    <li>place_job->تلميذ في قوة النجوم</li>
     <li>place_job->مزارع حرفي</li>
     <li>place_job->معجزة وسائط اجتماعية</li>
     <li>place_job->رياضي في انعدام الجاذبية</li>
@@ -628,10 +628,10 @@
     <li>place_personalWeapon->رمح شحن</li>
     <li>place_personalWeapon->سيف أحادي شخصي</li>
     <li>place_massWeapon->رؤوس حربية مضادة للمادة</li>
-    <li>place_massWeapon->فيروس حاسوب معسكر</li>
+    <li>place_massWeapon->فيروس حاسوب محوَّل إلى سلاح</li>
     <li>place_massWeapon->عمال ميكانويد يتحكم بهم عن بعد</li>
     <li>place_foeLeader->بيروقراطي فاسد</li>
-    <li>place_foeSoldiers->حراس بيولوجيون</li>
+    <li>place_foeSoldiers->حراس إلكترونيون حيويون</li>
  </Rogia.placeRules.rulesStrings>
   
   <!-- EN:
@@ -660,7 +660,7 @@
     <li>place_name->وافيا</li>
     <li>place_adjective->وافياني</li>
     <li>place_summary->كوكب محيطي</li>
-    <li>place_community->شعب تجاري</li>
+    <li>place_community->جزيرة مرجانية تجارية</li>
     <li>place_community->قرية عائمة</li>
     <li>place_community->مصفاة أعشاب بحرية</li>
     <li>place_powerCenter->جسر الكابيتول</li>
@@ -671,7 +671,7 @@
     <li>place_job->جامع أعشاب بحرية</li>
     <li>place_personalWeapon->حربة</li>
     <li>place_personalWeapon->شبكة شائكة</li>
-    <li>place_massWeapon->طوربيد عالي الإنتاجية</li>
+    <li>place_massWeapon->طوربيد عالي القدرة التدميرية</li>
     <li>place_massWeapon->[seaBeast] مُطعم</li>
     <li>place_foeLeader->أدميرال صائد حيتان</li>
     <li>place_foeSoldiers->مشاة صيد حيتان</li>
@@ -709,7 +709,7 @@
     <li>place_powerCenter->مستودع أكسجين</li>
     <li>place_job->مُعدّن</li>
     <li>place_job->مشرِف</li>
-    <li>place_job->فني</li>
+    <li>place_job->تقني</li>
     <li>place_job->ميكانيكي</li>
     <li>place_job->مهندس دعم حياة</li>
     <li>place_personalWeapon->هراوة كهربائية</li>
@@ -747,7 +747,7 @@
     <li>place_community->قاعة طعام</li>
     <li>place_community->ثكنة حراس</li>
     <li>place_community->مركز احتجاز</li>
-    <li>place_powerCenter->مجمع مكتب المأمور</li>
+    <li>place_powerCenter->مجمع مكتب الحارس</li>
     <li>place_job->محتجز</li>
     <li>place_job->حارس</li>
     <li>place_job->هارب</li>
@@ -757,7 +757,7 @@
     <li>place_personalWeapon->رشاش صغير</li>
     <li>place_massWeapon->قنبلة كيميائية مرتجلة</li>
     <li>place_massWeapon->ضربة ليزر مدارية</li>
-    <li>place_foeLeader->مأمور سجن</li>
+    <li>place_foeLeader->حارس سجن</li>
     <li>place_foeSoldiers->حراس فاسدون</li>
  </Yttak.placeRules.rulesStrings>
   

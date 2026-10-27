@@ -3,7 +3,7 @@
   
   <!-- Heritage -->
   <!-- EN: Choose a new heir for {HOLDER_nameIndef}: -->
-  <ChooseHeir>اختر وريثاً جديداً لـ {HOLDER_nameIndef}:</ChooseHeir>
+  <ChooseHeir>اختر وريثاً جديداً لـ{HOLDER_nameIndef}:</ChooseHeir>
   <!-- EN: You're about to change the heir of the title {HOLDER_nameIndef} received from {0_name}. This requires building a monument in a limited time, to consecrate the new inheritance. -->
   <MakeHeirConfirm>أنت على وشك تغيير وريث اللقب الذي حصل عليه {HOLDER_nameIndef} من {0_name}. هذا يتطلب بناء نصب تذكاري في وقت محدود، لتكريس الوراثة الجديدة.</MakeHeirConfirm>
   <!-- EN: This will upset {HOLDER_possessive} current heir {HEIR_nameFull}. -->
@@ -17,13 +17,13 @@
   <!-- EN: Guests will not use their aid permits. -->
   <CommandCallRoyalAidLodger>لن يستخدم الضيوف تصاريح المساعدة الخاصة بهم.</CommandCallRoyalAidLodger>
   <!-- EN: Slaves cannot use their permits. -->
-  <CommandCallRoyalAidSlave>لا يمكن للعبيد استخدام أذوناتهم.</CommandCallRoyalAidSlave>
+  <CommandCallRoyalAidSlave>لا يمكن للعبيد استخدام تصاريحهم.</CommandCallRoyalAidSlave>
   <!-- EN: Your relations with {FACTION_name} are hostile. -->
   <CommandCallRoyalAidFactionHostile>علاقاتك مع {FACTION_name} معادية.</CommandCallRoyalAidFactionHostile>
   <!-- EN: Free -->
   <CommandCallRoyalAidFreeOption>مجاني</CommandCallRoyalAidFreeOption>
   <!-- EN: {0} days left, costs {1} {FACTION_royalFavorLabel} -->
-  <CommandCallRoyalAidFavorOption>متبقي {0} يوم، يكلف {1} {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
+  <CommandCallRoyalAidFavorOption>تبقى {0} من الأيام، تكلفة {1} {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
   <!-- EN: You are about to call for aid, but there are people from factions whom {0_name} is not hostile to. Any soldiers you call will not attack them: {1} -->
   <CommandCallRoyalAidWarningNonHostileFactions>أنت على وشك طلب المساعدة، لكن هناك أشخاص من فصائل لا يعاديهم {0_name}. أي جنود تستدعيهم لن يهاجموهم: {1}</CommandCallRoyalAidWarningNonHostileFactions>
   <!-- EN: Not enough honor. -->
@@ -37,21 +37,21 @@
   <!-- EN: Call laborers -->
   <CommandCallLaborers>استدعاء عمال</CommandCallLaborers>
   <!-- EN: Use a special permit to call for a group of laborers from your ally. These workers can only do labor tasks, but you can control them like they were your own colonists. You are required to keep them safe. -->
-  <CommandCallLaborersDesc>استخدم إذناً خاصاً لاستدعاء مجموعة من العمال من حليفك. يمكن لهؤلاء العمال القيام بمهام العمل فقط، لكن يمكنك التحكم بهم كما لو كانوا مستعمرين خاصين بك. أنت مطالب بالحفاظ على سلامتهم.</CommandCallLaborersDesc>
+  <CommandCallLaborersDesc>استخدم تصريحاً خاصاً لاستدعاء مجموعة من العمال من حليفك. يمكن لهؤلاء العمال القيام بمهام العمل فقط، لكن يمكنك التحكم بهم كما لو كانوا مستعمرين خاصين بك. أنت مطالب بالحفاظ على سلامتهم.</CommandCallLaborersDesc>
   <!-- EN: On cooldown. {0} days left. -->
-  <CommandOnCooldown>قيد فترة تهدئة. متبقي {0} يوم.</CommandOnCooldown>
+  <CommandOnCooldown>في فترة انتظار. تبقى {0} من الأيام.</CommandOnCooldown>
   <!-- EN: {0} laborers -->
   <CommandCallLaborersNumLaborers>{0} عامل</CommandCallLaborersNumLaborers>
 
   <!-- Abilities -->
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
-  <CommandPsycastWouldExceedEntropy>ستفيض الحرارة العصبية. عطل محدد الحرارة العصبية للإلقاء.</CommandPsycastWouldExceedEntropy>
+  <CommandPsycastWouldExceedEntropy>ستفيض الحرارة العصبية. عطّل محدد الحرارة العصبية لتتمكن من الإلقاء.</CommandPsycastWouldExceedEntropy>
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
   <CommandPsycastNotEnoughPsyfocus>يستهلك {PSYCASTNAME} {0} تركيز نفسي لكن {CASTERNAME} لديه {1} فقط.</CommandPsycastNotEnoughPsyfocus>
   <!-- EN: {PSYCASTNAME} needs {0} psyfocus to stop {1}'s mental break but {CASTERNAME} only has {2} psyfocus. -->
-  <CommandPsycastNotEnoughPsyfocusForMentalBreak>يحتاج {PSYCASTNAME} إلى {0} تركيز نفسي لإيقاف انهيار {1} النفسي لكن {CASTERNAME} لديه {2} تركيز نفسي فقط.</CommandPsycastNotEnoughPsyfocusForMentalBreak>
+  <CommandPsycastNotEnoughPsyfocusForMentalBreak>يحتاج {PSYCASTNAME} إلى {0} تركيز نفسي لإيقاف الانهيار العصبي لـ{1} لكن {CASTERNAME} لديه {2} تركيز نفسي فقط.</CommandPsycastNotEnoughPsyfocusForMentalBreak>
   <!-- EN: level {0} psylink is required. -->
-  <CommandPsycastHigherLevelPsylinkRequired>مستوى الوصلة النفسية {0} مطلوب.</CommandPsycastHigherLevelPsylinkRequired>
+  <CommandPsycastHigherLevelPsylinkRequired>مطلوب مستوى {0} من الوصلة النفسية.</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Zero psychic sensitivity. -->
   <CommandPsycastZeroPsychicSensitivity>حساسية نفسية صفرية.</CommandPsycastZeroPsychicSensitivity>
   <!-- EN: Ability user is unconscious. -->
@@ -81,9 +81,9 @@
   
   <!-- Permits -->
   <!-- EN: Choose permit -->
-  <ChooseRoyalPermit>اختر إذناً</ChooseRoyalPermit>
+  <ChooseRoyalPermit>اختر تصريحاً</ChooseRoyalPermit>
   <!-- EN: Open the permit selection screen and choose a new permit. -->
-  <ChooseRoyalPermit_Desc>افتح شاشة اختيار التصريح واختر إذناً جديداً.</ChooseRoyalPermit_Desc>
+  <ChooseRoyalPermit_Desc>افتح شاشة اختيار التصريح واختر تصريحاً جديداً.</ChooseRoyalPermit_Desc>
 
   <!-- EN: Leave bestowing ceremony -->
   <CommandLeaveBestowingCeremony>مغادرة حفل المنح</CommandLeaveBestowingCeremony>

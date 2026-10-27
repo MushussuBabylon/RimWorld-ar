@@ -26,15 +26,15 @@
     <li>reason->the destruction of an orbital trade vessel</li>
   -->
   <OrbitalFugitive.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->طلب ذكاء اصطناعي مجهول مساعدتك في التعامل مع خارج عن القانون يدعى [fugitive_nameDef]. يدعي الذكاء الاصطناعي أن [fugitive_nameDef] مطلوب بسبب [reason_AI].\n\nسرق [fugitive_nameDef] كبسولة نقل وفر إلى منصة مدارية مهجورة.\n\nبعد سماعه شائعات عن سفينة الجاذبية الخاصة بك، يطلب الذكاء الاصطناعي أن تسافر إلى المنصة المهجورة وتقتل [fugitive_nameDef]. في المقابل، سيكافئك بجهاز تقنية جاذبية.\n\nيحذرك الذكاء الاصطناعي من أن [fugitive_nameDef] قد يكون بصحبة قراصنة مداريين معاديين.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] من [asker_faction_name] أرسل لنا رسالة. هارب يدعى [fugitive_nameDef] هرب من حجز[asker_possessive] واستخدم كبسولة نقل للفرار إلى منصة مدارية مهجورة. كان [fugitive_nameDef] محتجزاً بتهمة [reason].\n\nبعد سماعه شائعات عن سفينة الجاذبية الخاصة بك، يطلب [asker_faction_leaderTitle] أن تسافر إلى المنصة المهجورة وتقتل [fugitive_nameDef]. إذا فعلت ذلك، سيكافئك [asker_nameDef] بجهاز تقنية جاذبية.\n\nيحذرك [asker_nameDef] من أن [fugitive_nameDef] قد يكون بصحبة قراصنة مداريين معاديين.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، يطلب منك تعقب وقتل هارب خطير يعرف بـ [fugitive_nameDef]. الهارب مطلوب بسبب [reason_royal].\n\n[fugitive_nameDef] مختبئ على منصة مدارية مهجورة وقد يكون محروساً بقراصنة مداريين. إذا قتلت الهارب، سيكافئك [asker_nameDef] بجهاز تقنية جاذبية.</li>
+    <li>questDescription(askerIsNull==true)->طلب ذكاء اصطناعي مجهول مساعدتك في التعامل مع خارج عن القانون يُدعى [fugitive_nameDef]. ويزعم الذكاء الاصطناعي أن [fugitive_nameDef] مطلوب بتهمة [reason_AI].\n\nسرق [fugitive_nameDef] كبسولة نقل وفرّ إلى منصة مدارية مهجورة.\n\nوبعد أن سمع الذكاء الاصطناعي شائعات عن سفينة الجاذبية التي تملكها، يطلب منك السفر إلى المنصة المهجورة وقتل [fugitive_nameDef]. وفي المقابل، سيكافئك بجهاز من تقنية الجاذبية.\n\nويحذرك الذكاء الاصطناعي من أن [fugitive_nameDef] قد يكون برفقة قراصنة مداريين معادين.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] من [asker_faction_name] أرسل لنا رسالة. هارب يُدعى [fugitive_nameDef] أفلت من حجز[asker_possessive] واستخدم كبسولة نقل للفرار إلى منصة مدارية مهجورة. وكان [fugitive_nameDef] محتجزاً بتهمة [reason].\n\nوبعد أن سمع [asker_faction_leaderTitle] شائعات عن سفينة الجاذبية التي تملكها، يطلب منك السفر إلى المنصة المهجورة وقتل [fugitive_nameDef]. وإن فعلت ذلك، سيكافئك [asker_nameDef] بجهاز من تقنية الجاذبية.\n\nويحذرك [asker_nameDef] من أن [fugitive_nameDef] قد يكون برفقة قراصنة مداريين معادين.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، [asker_royalTitleInCurrentFaction] من [asker_faction_name]، يطلب منك تعقب هارب خطير يُعرف باسم [fugitive_nameDef] وقتله. والهارب مطلوب بتهمة [reason_royal].\n\n[fugitive_nameDef] مختبئ على منصة مدارية مهجورة، وقد يحرسه قراصنة مداريون. وإن قتلت الهارب، سيكافئك [asker_nameDef] بجهاز من تقنية الجاذبية.</li>
     <li>reason_AI->تدمير عدة أنوية شخصية فرعية عالية المستوى</li>
     <li>reason_AI->إخراج قمر صناعي للذكاء الاصطناعي من المدار</li>
     <li>reason_AI->جرائم على كواكب نائية عديدة</li>
     <li>reason_AI->الاتجار المداري غير المرخص بالقطع الأثرية النفسية</li>
     <li>reason_AI->[reason]</li>
-    <li>reason_royal->إهانة [asker_royalTitleInCurrentFaction] وهو في حالة سكر في خطاب زفاف</li>
+    <li>reason_royal->إهانة [asker_royalTitleInCurrentFaction] في خطاب زفاف وهو ثمل</li>
     <li>reason_royal->محاولة اغتيال [asker_royalTitleInCurrentFaction]</li>
     <li>reason_royal->تفجير عبوة رغوة إطفاء عن طريق الخطأ في مكوك إمبراطوري</li>
     <li>reason_royal->الاستخدام غير السليم لمولد إعصار بالقرب من مستوطنة إمبراطورية</li>
@@ -46,8 +46,8 @@
     <li>reason->سرقة كبرى وعدة تهم تخريب مؤسسي</li>
     <li>reason->تجارب وراثية غير مصرح بها</li>
     <li>reason->التحريض على صراع بين الفصائل</li>
-    <li>reason->تدنيس طقس سلام وهو في حالة سكر</li>
-    <li>reason->تدمير سفينة تجارة مدارية</li>
+    <li>reason->تدنيس طقس السلام وهو ثمل</li>
+    <li>reason->تدمير سفينة تجارية مدارية</li>
  </OrbitalFugitive.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The Hunt for [fugitive_nameDef]</li>
@@ -62,9 +62,9 @@
   -->
   <OrbitalFugitive.questNameRules.rulesStrings>
     <li>questName->البحث عن [fugitive_nameDef]</li>
-    <li>questName->مكافأة لـ [fugitive_nameDef]</li>
-    <li>questName->[fugitive_nameDef] الـ[criminal]</li>
-    <li>questName->الـ[criminal] المداري</li>
+    <li>questName->مكافأة على رأس [fugitive_nameDef]</li>
+    <li>questName->[fugitive_nameDef] ال[criminal]</li>
+    <li>questName->ال[criminal] المداري</li>
     <li>criminal->مجرم</li>
     <li>criminal->هارب</li>
     <li>criminal->خارج عن القانون</li>

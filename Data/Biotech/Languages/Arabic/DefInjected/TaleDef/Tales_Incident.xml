@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: acidic smog -->
-  <NoxiousHaze.label>ضباب حمضي</NoxiousHaze.label>
+  <NoxiousHaze.label>ضباب دخاني حمضي</NoxiousHaze.label>
   <!-- EN:
     <li>tale_noun->acidic smog sweeping over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming noxious</li>
@@ -19,18 +19,18 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee.</li>
   -->
   <NoxiousHaze.rulePack.rulesStrings>
-    <li>tale_noun->ضباب حمضي يجتاح [Community] [PAWN_nameDef]</li>
-    <li>tale_noun->الجو بالقرب من [Community] [PAWN_nameDef] يصبح ساماً</li>
+    <li>tale_noun->ضباب دخاني حمضي يجتاح [Community] [PAWN_nameDef]</li>
+    <li>tale_noun->الجو بالقرب من [Community] [PAWN_nameDef] وهو يصبح ساماً</li>
     <li>image->سماء مشؤومة، [circumstance_group]</li>
     <li>image->الهواء يصبح كثيفاً و[circumstance_group]</li>
-    <li>circumstance_phrase->مع عدم وجود حياة في الأفق</li>
-    <li>circumstance_phrase->في انتظار انقشاع الضباب الحمضي</li>
-    <li>circumstance_phrase->مشاهدة الحيوانات تفر</li>
-    <li>desc_sentence->[PAWN_nameDef] يختبئ بالقرب من [TerrainFeature]، محدقاً بنظرة [AdjectiveAngsty].</li>
-    <li>desc_sentence->[PAWN_nameDef] ينظر وقطعة قماش ملفوفة حول وجهـ[PAWN_possessive].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] الميتة ملقاة على الأرض.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] المحتضرة ملقاة على الأرض.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] المختنقة ملقاة على الأرض.</li>
+    <li>circumstance_phrase->دون أثر للحياة في الأفق</li>
+    <li>circumstance_phrase->بانتظار انقشاع الضباب الدخاني الحمضي</li>
+    <li>circumstance_phrase->مشاهدة الحيوانات وهي تفر</li>
+    <li>desc_sentence->[PAWN_nameDef] يختبئ بالقرب من [TerrainFeature]، محدقاً بنظرة ذات طابع [AdjectiveAngsty].</li>
+    <li>desc_sentence->[PAWN_nameDef] يرقب المشهد وقد لفّ قطعة قماش حول وجهـ[PAWN_possessive].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] ميتة ملقاة على الأرض.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] محتضرة ملقاة على الأرض.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] مختنقة ملقاة على الأرض.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] تفر.</li>
  </NoxiousHaze.rulePack.rulesStrings>
   

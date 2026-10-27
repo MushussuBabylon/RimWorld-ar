@@ -7,8 +7,8 @@
     <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
   -->
   <RelicHunt.questDescriptionRules.rulesStrings>
-    <li>questDescription(classicMode==True)->علمت أن أثراً قيماً قريب.\n\nThe [relic_name] هو واحد من [relicGlobalCount] أشياء أثرية يبجلها العديد من الناس. إذا تمكنت من جمعه، يمكنك بناء مزار ليجعل مستعمريك سعداء ويجذب الحجاج الأثرياء.</li>
-    <li>questDescription(classicMode==False)->علمت أن أثراً من [ideo_name] قريب.\n\nThe [relic_name] هو كائن أثري يبجله جميع [ideo_memberNamePlural]. إذا تمكنت من جمعه، يمكنك بناء مزار عظيم ليجعل [ideo_memberNamePlural] سعداء، ويجذب الحجاج الأثرياء، ويجلب المزيد من الناس إلى [ideo_name].</li>
+    <li>questDescription(classicMode==True)->علمت أن أثراً مقدساً قيماً قريب.\n\nيُعد [relic_name] واحداً من [relicGlobalCount] أشياء قديمة يبجلها كثير من الناس. وإذا تمكنت من جمعه، فبإمكانك بناء ضريح للأثر المقدس يُسعد مستعمريك ويجذب الحجاج الأثرياء.</li>
+    <li>questDescription(classicMode==False)->علمت أن أثراً مقدساً من [ideo_name] قريب.\n\nيُعد [relic_name] شيئاً قديماً يبجله جميع [ideo_memberNamePlural]. وإذا تمكنت من جمعه، فبإمكانك بناء ضريح عظيم للأثر المقدس يُسعد [ideo_memberNamePlural]، ويجذب الحجاج الأثرياء، ويجلب المزيد من الناس إلى [ideo_name].</li>
     <li>questDescriptionPartBeforeDiscovery->أولاً، تحتاج إلى العثور على [relic_name]. ترقب الفرص لجمع المعلومات عنه.</li>
  </RelicHunt.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -26,7 +26,7 @@
     <li>itemAdj->venerated</li>
   -->
   <RelicHunt.questNameRules.rulesStrings>
-    <li>questName->البحث عن [item]</li>
+    <li>questName->[hunt] [item]</li>
     <li>questName->[itemAdj] [item]</li>
     <li>questName(classicMode==False)->[item] [ideo_name]</li>
     <li>hunt->بحث</li>

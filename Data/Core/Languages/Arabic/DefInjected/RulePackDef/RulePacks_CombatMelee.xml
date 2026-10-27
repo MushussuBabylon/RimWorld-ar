@@ -53,13 +53,13 @@
     <li>deflected->انزلق</li>
     <li>deflected->لامس بخفة</li>
     <li>deflected->ارتد</li>
-    <li>deflected->انزلق جانبيا</li>
-    <li>deflecting->منحرفا</li>
-    <li>deflecting->خادشا</li>
-    <li>deflecting->منزلقا</li>
-    <li>deflecting->ملامسا بخفة</li>
-    <li>deflecting->مرتدا</li>
-    <li>deflecting->منزلقا جانبيا</li>
+    <li>deflected->انزلق جانبياً</li>
+    <li>deflecting->منحرفاً</li>
+    <li>deflecting->خادشاً</li>
+    <li>deflecting->منزلقاً</li>
+    <li>deflecting->ملامساً بخفة</li>
+    <li>deflecting->مرتداً</li>
+    <li>deflecting->منزلقاً جانبياً</li>
  </Combat_Deflect.rulePack.rulesStrings>
   
   <!-- EN:
@@ -76,7 +76,7 @@
     <li>r_logentry(p=0.5)->[RECIPIENT_definite] تفادى [skillAdvMaybe] [damaged_inf] [INITIATOR_definite].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
-    <li>result->لكن [RECIPIENT_definite] قفز بعيدا عن الطريق</li>
+    <li>result->لكن [RECIPIENT_definite] قفز بعيداً عن الطريق</li>
     <li>result->لكن خدعته خدعة [RECIPIENT_definite]</li>
     <li>result->لكن تم تفادي الهجوم بذكاء</li>
  </Combat_Dodge.rulePack.rulesStrings>
@@ -160,7 +160,7 @@
     <li>failtype->تخبط بلا جدوى</li>
     <li>result(p=4)->لكنه أخطأ</li>
     <li>result->لكنه أصاب الهواء فقط</li>
-    <li>result->لكن الضربة ذهبت بعيدا</li>
+    <li>result->لكن الضربة ذهبت بعيداً</li>
     <li>result->لكنه تعثر في اللحظة الأخيرة</li>
     <li>result(INITIATOR_flesh!=Mechanoid)->لكنه تردد في اللحظة الأخيرة</li>
  </Combat_Miss.rulePack.rulesStrings>

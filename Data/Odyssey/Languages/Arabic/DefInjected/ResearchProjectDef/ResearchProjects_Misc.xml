@@ -19,7 +19,7 @@
   <!-- EN: basic gravtech -->
   <BasicGravtech.label>تقنية الجاذبية الأساسية</BasicGravtech.label>
   <!-- EN: Build a gravship and use it to travel the planet. Without a grav anchor, launching a gravship will abandon your current map. -->
-  <BasicGravtech.description>بناء سفينة جاذبية واستخدامها للسفر حول الكوكب. بدون مرساة الجاذبية، سيؤدي إطلاق سفينة الجاذبية إلى التخلي عن خريطتك الحالية.</BasicGravtech.description>
+  <BasicGravtech.description>بناء سفينة جاذبية واستخدامها للسفر حول الكوكب. بدون مرساة جاذبية، سيؤدي إطلاق سفينة الجاذبية إلى التخلي عن خريطتك الحالية.</BasicGravtech.description>
   <!-- EN:
     <li>subject->gravship</li>
     <li>subject_story->flew a gravship for a tourism company</li>
@@ -49,7 +49,7 @@
   <!-- EN: fishing -->
   <Fishing.label>صيد السمك</Fishing.label>
   <!-- EN: Place zones where your colonists can go fishing. -->
-  <Fishing.description>وضع مناطق حيث يمكن للمستعمرين الذهاب لصيد السمك.</Fishing.description>
+  <Fishing.description>تحديد مناطق يستطيع المستعمرون الذهاب إليها لصيد السمك.</Fishing.description>
   <!-- EN: Fishing zone -->
   <Fishing.customUnlockTexts.0>منطقة صيد السمك</Fishing.customUnlockTexts.0>
   <!-- EN:
@@ -60,7 +60,7 @@
   <Fishing.generalRules.rulesStrings>
     <li>subject->صيد السمك</li>
     <li>subject_story->كان يصطاد السمك كسباً للعيش</li>
-    <li>subject_gerund->يصطاد السمك</li>
+    <li>subject_gerund->صيد السمك</li>
  </Fishing.generalRules.rulesStrings>
   
   <!-- EN: heavy bridges -->
@@ -96,7 +96,7 @@
   <!-- EN: orbital tech -->
   <OrbitalTech.label>تقنية مدارية</OrbitalTech.label>
   <!-- EN: Construct buildings and apparel that can protect against the harsh vacuum of space. -->
-  <OrbitalTech.description>بناء مبانٍ وألبسة يمكنها الحماية من فراغ الفضاء القاسي.</OrbitalTech.description>
+  <OrbitalTech.description>بناء مبانٍ وملابس يمكنها الحماية من فراغ الفضاء القاسي.</OrbitalTech.description>
   <!-- EN:
     <li>subject->orbital apparel</li>
     <li>subject_story->assembled liners for vacsuits</li>
@@ -142,7 +142,7 @@
   <!-- EN: Build complex gravship parts. -->
   <StandardGravtech.description>بناء أجزاء سفينة الجاذبية المعقدة.</StandardGravtech.description>
   <!-- EN: You now have the technology to build large thrusters. These require vacstone blocks which can be obtained from orbital asteroids.\n\nYou can travel to orbital locations using transport pods, shuttles, or a gravship. Make sure to equip your colonists with vacsuits or other advanced armors to survive in space. -->
-  <StandardGravtech.discoveredLetterText>لديك الآن التقنية لبناء دوافع كبيرة. تتطلب هذه كتل حجر الفراغ التي يمكن الحصول عليها من الكويكبات المدارية.\n\nيمكنك السفر إلى المواقع المدارية باستخدام كبسولات النقل أو المكوكات أو سفينة الجاذبية. تأكد من تزويد مستعمريك ببدلات الفراغ أو دروع متقدمة أخرى للبقاء على قيد الحياة في الفضاء.</StandardGravtech.discoveredLetterText>
+  <StandardGravtech.discoveredLetterText>لديك الآن التقنية اللازمة لبناء دوافع كبيرة. تتطلب هذه الدوافع كتل حجر الفراغ التي يمكن الحصول عليها من الكويكبات المدارية.\n\nيمكنك السفر إلى المواقع المدارية باستخدام كبسولات النقل أو المكوكات أو سفينة الجاذبية. تأكد من تزويد مستعمريك ببدلات الفراغ أو دروع متقدمة أخرى للبقاء على قيد الحياة في الفضاء.</StandardGravtech.discoveredLetterText>
   <!-- EN: About: Getting vacstone -->
   <StandardGravtech.discoveredLetterTitle>حول: الحصول على حجر الفراغ</StandardGravtech.discoveredLetterTitle>
   <!-- EN:

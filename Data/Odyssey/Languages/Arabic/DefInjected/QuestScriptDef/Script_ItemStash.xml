@@ -5,7 +5,7 @@
     <li>questDescription->[discoveryMethod] the location of a collection of valuable items worth [itemStashContentsValue]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع مجموعة من المواد القيّمة بقيمة [itemStashContentsValue]. تتكون المجموعة من:\n\n[itemStashContents]\n\nيبدو أن [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription->[discoveryMethod] موقع مجموعة من العناصر القيّمة تبلغ قيمتها [itemStashContentsValue]. تتكون المجموعة من:\n\n[itemStashContents]\n\nيبدو أن [allSitePartsDescriptionsExceptFirst]</li>
  </OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[stash] of [treasure]</li>
@@ -47,13 +47,13 @@
     <li>subject->أشياء ثمينة</li>
     <li>questMapFeature->رسم لصندوق كنز</li>
     <li>questMapFeature->كوخ إمدادات</li>
-    <li>questMapText->مخبأ مواد سري</li>
+    <li>questMapText->مخبأ عناصر سري</li>
     <li>questMapText->نهب هنا</li>
     <li>questMapText->نفائس مخفية</li>
  </OpportunitySite_ItemStash_Giver.questSubjectRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>انتهت المهمة: [resolvedQuestName]</OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>انتهت صلاحية المهمة: [resolvedQuestName]</OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>تشير الاتصالات المعترضة إلى أن مخبأ المواد قد طالب به آخرون. انتهت المهمة [resolvedQuestName].</OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>تشير الاتصالات المعترضة إلى أن آخرين قد استولوا على مخبأ العناصر. انتهت صلاحية المهمة [resolvedQuestName].</OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

@@ -4,7 +4,7 @@
   <!-- EN: aim assistance -->
   <AimAssistance.label>مساعدة التصويب</AimAssistance.label>
   <!-- EN: This weapon contains a rudimentary aim assistant computer which helps track targets, increasing accuracy at all ranges. The device can account for environmental challenges, allowing the weapon to ignore the accuracy penalty from bad weather and smoke. -->
-  <AimAssistance.description>يحتوي هذا السلاح على كمبيوتر مساعد تصويب بسيط يساعد في تتبع الأهداف، مما يزيد الدقة في جميع النطاقات. يمكن للجهاز حساب التحديات البيئية، مما يسمح للسلاح بتجاهل عقوبة الدقة من الطقس السيئ والدخان.</AimAssistance.description>
+  <AimAssistance.description>يحتوي هذا السلاح على حاسوب بسيط لمساعدة التصويب يساعد في تتبع الأهداف، فيزيد الدقة على جميع المدايات. ويستطيع الجهاز احتساب التحديات البيئية، مما يتيح للسلاح تجاهل انخفاض الدقة الناتج عن الطقس السيئ والدخان.</AimAssistance.description>
   <!-- EN: seeking -->
   <AimAssistance.traitAdjectives.0>باحث</AimAssistance.traitAdjectives.0>
   <!-- EN: accurate -->
@@ -17,13 +17,13 @@
   <AimAssistance.traitAdjectives.4>تصويب ذاتي</AimAssistance.traitAdjectives.4>
   
   <!-- EN: bioferrite burner -->
-  <BioferriteBurner.label>محرق بايوفيرايت</BioferriteBurner.label>
+  <BioferriteBurner.label>محرقة البايوفيرايت</BioferriteBurner.label>
   <!-- EN: This weapon has a bioferrite-powered flamethrower unit. The burner generates a blast of flame from a pressurized bioferrite charge. Once used, it must be reloaded using bioferrite. -->
-  <BioferriteBurner.description>يحتوي هذا السلاح على وحدة قاذف لهب تعمل بالبايوفيرايت. يولد المحرق دفقة من اللهب من شحنة بايوفيرايت مضغوطة. بمجرد استخدامها، يجب إعادة تعبئتها باستخدام البايوفيرايت.</BioferriteBurner.description>
+  <BioferriteBurner.description>يحتوي هذا السلاح على وحدة قاذف لهب تعمل بالبايوفيرايت. تولد المحرقة دفقة لهب من شحنة بايوفيرايت مضغوطة. وبعد استخدامها، يجب إعادة تعبئتها بالبايوفيرايت.</BioferriteBurner.description>
   <!-- EN: burner charge -->
-  <BioferriteBurner.abilityProps.chargeNoun>شحنة المحرق</BioferriteBurner.abilityProps.chargeNoun>
+  <BioferriteBurner.abilityProps.chargeNoun>شحنة المحرقة</BioferriteBurner.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <BioferriteBurner.abilityProps.cooldownGerund>قيد التهدئة</BioferriteBurner.abilityProps.cooldownGerund>
+  <BioferriteBurner.abilityProps.cooldownGerund>في فترة انتظار</BioferriteBurner.abilityProps.cooldownGerund>
   <!-- EN: fiery -->
   <BioferriteBurner.traitAdjectives.0>ناري</BioferriteBurner.traitAdjectives.0>
   <!-- EN: flame -->
@@ -59,11 +59,11 @@
   <ChargeCapacitor.traitAdjectives.0>فائق الشحن</ChargeCapacitor.traitAdjectives.0>
   
   <!-- EN: cumbersome -->
-  <Cumbersome.label>مربك</Cumbersome.label>
+  <Cumbersome.label>عسير الاستعمال</Cumbersome.label>
   <!-- EN: This weapon is unwieldy to use, making it slower to aim. -->
   <Cumbersome.description>هذا السلاح صعب الاستخدام، مما يجعله أبطأ في التصويب.</Cumbersome.description>
   <!-- EN: cumbersome -->
-  <Cumbersome.traitAdjectives.0>مربك</Cumbersome.traitAdjectives.0>
+  <Cumbersome.traitAdjectives.0>ثقيل</Cumbersome.traitAdjectives.0>
   <!-- EN: bulky -->
   <Cumbersome.traitAdjectives.1>ضخم</Cumbersome.traitAdjectives.1>
   <!-- EN: awkward -->
@@ -89,7 +89,7 @@
   <!-- EN: shell -->
   <EMPLauncher.abilityProps.chargeNoun>قذيفة</EMPLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <EMPLauncher.abilityProps.cooldownGerund>قيد التهدئة</EMPLauncher.abilityProps.cooldownGerund>
+  <EMPLauncher.abilityProps.cooldownGerund>في فترة انتظار</EMPLauncher.abilityProps.cooldownGerund>
   <!-- EN: EMP -->
   <EMPLauncher.traitAdjectives.0>نبضي</EMPLauncher.traitAdjectives.0>
   <!-- EN: disabling -->
@@ -104,7 +104,7 @@
   <!-- EN: charge -->
   <EMPPulser.abilityProps.chargeNoun>شحنة</EMPPulser.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <EMPPulser.abilityProps.cooldownGerund>قيد التهدئة</EMPPulser.abilityProps.cooldownGerund>
+  <EMPPulser.abilityProps.cooldownGerund>في فترة انتظار</EMPPulser.abilityProps.cooldownGerund>
   <!-- EN: pulse -->
   <EMPPulser.traitAdjectives.0>نبض</EMPPulser.traitAdjectives.0>
   <!-- EN: EMP -->
@@ -121,7 +121,7 @@
   <!-- EN: shocking -->
   <EMPRounds.traitAdjectives.2>صاعق</EMPRounds.traitAdjectives.2>
   <!-- EN: sparky -->
-  <EMPRounds.traitAdjectives.3>مُشرر</EMPRounds.traitAdjectives.3>
+  <EMPRounds.traitAdjectives.3>شراري</EMPRounds.traitAdjectives.3>
   <!-- EN: zapping -->
   <EMPRounds.traitAdjectives.4>مُصعق</EMPRounds.traitAdjectives.4>
   
@@ -135,13 +135,13 @@
   <ExtendedBarrel.traitAdjectives.1>ممتد</ExtendedBarrel.traitAdjectives.1>
   
   <!-- EN: extended magazine -->
-  <ExtendedMagazine.label>خزانة ممتدة</ExtendedMagazine.label>
+  <ExtendedMagazine.label>مخزن ممتد</ExtendedMagazine.label>
   <!-- EN: This weapon fires 50% more shots in a single burst than normal. -->
   <ExtendedMagazine.description>يطلق هذا السلاح طلقات أكثر بنسبة 50% في الدفقة الواحدة من المعتاد.</ExtendedMagazine.description>
   <!-- EN: high-capacity -->
   <ExtendedMagazine.traitAdjectives.0>عالية السعة</ExtendedMagazine.traitAdjectives.0>
   <!-- EN: extendo-clip -->
-  <ExtendedMagazine.traitAdjectives.1>خزانة ممتدة</ExtendedMagazine.traitAdjectives.1>
+  <ExtendedMagazine.traitAdjectives.1>مخزن ممتد</ExtendedMagazine.traitAdjectives.1>
   
   <!-- EN: frequency amplifier -->
   <FrequencyAmplifier.label>مضخم التردد</FrequencyAmplifier.label>
@@ -166,7 +166,7 @@
   <!-- EN: grenade -->
   <GrenadeLauncher.abilityProps.chargeNoun>قنبلة</GrenadeLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <GrenadeLauncher.abilityProps.cooldownGerund>قيد التهدئة</GrenadeLauncher.abilityProps.cooldownGerund>
+  <GrenadeLauncher.abilityProps.cooldownGerund>في فترة انتظار</GrenadeLauncher.abilityProps.cooldownGerund>
   <!-- EN: explosive -->
   <GrenadeLauncher.traitAdjectives.0>متفجر</GrenadeLauncher.traitAdjectives.0>
   
@@ -214,11 +214,11 @@
   <!-- EN: incendiary launcher -->
   <IncendiaryLauncher.label>قاذف حارق</IncendiaryLauncher.label>
   <!-- EN: This weapon has an attached incendiary shell launcher. The shell creates a small flame explosion that ignites everything nearby. Once fired, it must be reloaded using chemfuel. -->
-  <IncendiaryLauncher.description>يحتوي هذا السلاح على قاذف قذائف حارقة متصل به. تخلق القذيفة انفجار لهب صغير يشعل كل شيء قريب. بمجرد إطلاقها، يجب إعادة تعبئتها باستخدام الوقود الكيميائي.</IncendiaryLauncher.description>
+  <IncendiaryLauncher.description>يحتوي هذا السلاح على قاذف قذائف حارقة متصل به. تُحدث القذيفة انفجار لهب صغيراً يشعل كل ما حوله. وبعد إطلاقها، يجب إعادة تعبئتها بالوقود الكيميائي.</IncendiaryLauncher.description>
   <!-- EN: shell -->
   <IncendiaryLauncher.abilityProps.chargeNoun>قذيفة</IncendiaryLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <IncendiaryLauncher.abilityProps.cooldownGerund>قيد التهدئة</IncendiaryLauncher.abilityProps.cooldownGerund>
+  <IncendiaryLauncher.abilityProps.cooldownGerund>في فترة انتظار</IncendiaryLauncher.abilityProps.cooldownGerund>
   <!-- EN: fiery -->
   <IncendiaryLauncher.traitAdjectives.0>ناري</IncendiaryLauncher.traitAdjectives.0>
   <!-- EN: flame -->
@@ -267,11 +267,11 @@
   <IncendiaryRounds.traitAdjectives.6>نابالم</IncendiaryRounds.traitAdjectives.6>
   
   <!-- EN: jade inlay -->
-  <JadeInlay.label>ترصيع باليشب</JadeInlay.label>
+  <JadeInlay.label>ترصيع باليشم</JadeInlay.label>
   <!-- EN: This weapon is adorned with jade. Traders will pay more for it. -->
-  <JadeInlay.description>هذا السلاح مزين باليشب. سيدفع التجار أكثر مقابله.</JadeInlay.description>
+  <JadeInlay.description>هذا السلاح مزين باليشم. سيدفع التجار أكثر مقابله.</JadeInlay.description>
   <!-- EN: jade -->
-  <JadeInlay.traitAdjectives.0>يشب</JadeInlay.traitAdjectives.0>
+  <JadeInlay.traitAdjectives.0>يشمي</JadeInlay.traitAdjectives.0>
   
   <!-- EN: lightweight -->
   <Lightweight.label>خفيف الوزن</Lightweight.label>
@@ -366,7 +366,7 @@
   <!-- EN: pulse charger -->
   <PulseCharger.label>شاحن نبضي</PulseCharger.label>
   <!-- EN: This weapon is retrofitted with pulse-charge technology, imbuing bullets with unstable energy. The weapon was clearly not designed for this, dramatically lowering its accuracy. -->
-  <PulseCharger.description>تم تعديل هذا السلاح بتقنية الشحنة النبضية، مما يضفي على الرصاصات طاقة غير مستقرة. من الواضح أن السلاح لم يُصمم لهذا، مما يقلل دقته بشكل كبير.</PulseCharger.description>
+  <PulseCharger.description>عُدّل هذا السلاح بتقنية الشحنة النبضية، فأكسب الرصاصات طاقة غير مستقرة. ومن الواضح أن السلاح لم يُصمم لذلك، مما يقلل دقته بشكل كبير.</PulseCharger.description>
   <!-- EN: charged-shot -->
   <PulseCharger.traitAdjectives.0>طلقة مشحونة</PulseCharger.traitAdjectives.0>
   <!-- EN: charged -->
@@ -401,7 +401,7 @@
   <!-- EN: rapid fire -->
   <RapidFire.label>إطلاق سريع</RapidFire.label>
   <!-- EN: This weapon contains an improved self-loading mechanism. When firing bursts of multiple rounds, the time between each round is dramatically reduced. -->
-  <RapidFire.description>يحتوي هذا السلاح على آلية تحميل ذاتي محسنة. عند إطلاق دفقات من عدة طلقات، يتم تقليل الوقت بين كل طلقة بشكل كبير.</RapidFire.description>
+  <RapidFire.description>يحتوي هذا السلاح على آلية تحميل ذاتي محسنة. وعند إطلاق دفعات من عدة طلقات، ينخفض الوقت الفاصل بين الطلقات بشكل كبير.</RapidFire.description>
   <!-- EN: rapid -->
   <RapidFire.traitAdjectives.0>سريع</RapidFire.traitAdjectives.0>
   <!-- EN: burst -->
@@ -410,9 +410,9 @@
   <RapidFire.traitAdjectives.2>إطلاق سريع</RapidFire.traitAdjectives.2>
   
   <!-- EN: reinforced bow limbs -->
-  <ReinforcedLimbs.label>أطراف قوس مقواة</ReinforcedLimbs.label>
+  <ReinforcedLimbs.label>أذرع قوس مقواة</ReinforcedLimbs.label>
   <!-- EN: The limbs of this bow have been strengthened, allowing it to shoot further. -->
-  <ReinforcedLimbs.description>تم تقوية أطراف هذا القوس، مما يسمح له بإطلاق السهام لمسافة أبعد.</ReinforcedLimbs.description>
+  <ReinforcedLimbs.description>قُوّيت أذرع هذا القوس، مما يتيح له إطلاق السهام لمسافة أبعد.</ReinforcedLimbs.description>
   <!-- EN: reinforced -->
   <ReinforcedLimbs.traitAdjectives.0>مقوى</ReinforcedLimbs.traitAdjectives.0>
   
@@ -428,11 +428,11 @@
   <!-- EN: shortened barrel -->
   <ShortenedBarrel.label>ماسورة مقصّرة</ShortenedBarrel.label>
   <!-- EN: This weapon's barrel has been sawn off, reducing its range but making it quicker to aim and fire. -->
-  <ShortenedBarrel.description>تم نشر ماسورة هذا السلاح، مما قلل مداه لكنه جعله أسرع في التصويب والإطلاق.</ShortenedBarrel.description>
+  <ShortenedBarrel.description>قُصّت ماسورة هذا السلاح، مما قلل مداه لكنه جعله أسرع في التصويب والإطلاق.</ShortenedBarrel.description>
   <!-- EN: shortened -->
   <ShortenedBarrel.traitAdjectives.0>مقصر</ShortenedBarrel.traitAdjectives.0>
   <!-- EN: sawn-off -->
-  <ShortenedBarrel.traitAdjectives.1>منشور</ShortenedBarrel.traitAdjectives.1>
+  <ShortenedBarrel.traitAdjectives.1>مقصوص</ShortenedBarrel.traitAdjectives.1>
   
   <!-- EN: smoke launcher -->
   <SmokeLauncher.label>قاذف دخان</SmokeLauncher.label>
@@ -441,7 +441,7 @@
   <!-- EN: shell -->
   <SmokeLauncher.abilityProps.chargeNoun>قذيفة</SmokeLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <SmokeLauncher.abilityProps.cooldownGerund>قيد التهدئة</SmokeLauncher.abilityProps.cooldownGerund>
+  <SmokeLauncher.abilityProps.cooldownGerund>في فترة انتظار</SmokeLauncher.abilityProps.cooldownGerund>
   <!-- EN: smoke -->
   <SmokeLauncher.traitAdjectives.0>دخان</SmokeLauncher.traitAdjectives.0>
   <!-- EN: concealing -->

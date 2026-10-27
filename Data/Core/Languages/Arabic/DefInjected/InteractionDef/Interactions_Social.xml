@@ -107,8 +107,8 @@
     <li>insultcomparison(INITIATOR_cubeInterest==true)->a non-cubic platonic object</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [characteristic] الخاصة بـ [target].</li>
-    <li>r_logentry->[INITIATOR_nameDef] قارن [target] بـ [insultcomparison].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [characteristic] الخاصة بـ[target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] قارن [target] بـ[insultcomparison].</li>
     <li>r_logentry->[INITIATOR_nameDef] دعا [target] [insultcomparison].</li>
     <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] دعا [target] عابد صنم زائف.</li>
     <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] ألمح إلى أن [target] قد أصيب بالجنون بسبب المكعب الذهبي.</li>
@@ -116,7 +116,7 @@
     <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->[PersonFamily] الخاصة بـ [RECIPIENT_nameDef]</li>
+    <li>target->[PersonFamily] الخاصة بـ[RECIPIENT_nameDef]</li>
     <li>insulted(p=3)->أهان</li>
     <li>insulted->أهان علناً</li>
     <li>insulted->أهان بصوت عال</li>
@@ -127,8 +127,8 @@
     <li>insulted->قذف</li>
     <li>insulted->وجه شتائم حول</li>
     <li>insulted->سخر من</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->بـ [Animal]</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==false)->بـ [Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->بـ[Animal]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false)->بـ[Enemy]</li>
     <li>insultcomparison(INITIATOR_cubeInterest==true)->كرة</li>
     <li>insultcomparison(INITIATOR_cubeInterest==true)->شيء عديم الفائدة تماماً</li>
     <li>insultcomparison(INITIATOR_cubeInterest==true)->جسم أفلاطوني غير مكعب</li>
@@ -155,7 +155,7 @@
     <li>complimented->said good things about</li>
   -->
   <KindWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [complimented] [characteristic] الخاصة بـ [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [characteristic] الخاصة بـ[RECIPIENT_nameDef].</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>complimented(p=3)->مدح</li>
@@ -195,11 +195,11 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [characteristic] الخاصة بـ [target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [characteristic] الخاصة بـ[target].</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->[PersonFamily] الخاصة بـ [RECIPIENT_nameDef]</li>
+    <li>target->[PersonFamily] الخاصة بـ[RECIPIENT_nameDef]</li>
     <li>madefunof->سخر من</li>
     <li>madefunof->أهان</li>
     <li>madefunof->ازدرى بمهارة</li>

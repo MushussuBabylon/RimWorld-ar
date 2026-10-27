@@ -21,7 +21,7 @@
   <!-- EN: entity skip -->
   <EntitySkip.label>قفز الكيان</EntitySkip.label>
   <!-- EN: Teleport to a target destination. -->
-  <EntitySkip.description>انتقل الآني إلى وجهة مستهدفة.</EntitySkip.description>
+  <EntitySkip.description>انتقل آنياً إلى الوجهة المحددة.</EntitySkip.description>
   
   <!-- EN: fleshmelter bolt -->
   <FleshmelterBolt.label>صاعقة مذيب اللحم</FleshmelterBolt.label>
@@ -46,12 +46,12 @@
   <!-- EN: psychic slaughter -->
   <PsychicSlaughter.label>ذبح نفسي</PsychicSlaughter.label>
   <!-- EN: Use dark psychic power to induce chaotic reconfiguration of flesh. This kills a flesh creature in seconds and converts its body into a pile of twisted flesh. -->
-  <PsychicSlaughter.description>استخدم قوة نفسية مظلمة لتحفيز إعادة تشكيل فوضوية للحم. هذا يقتل كائناً لحمياً في ثوانٍ ويحول جسده إلى كومة من اللحم المعوج.</PsychicSlaughter.description>
+  <PsychicSlaughter.description>استخدم قوة نفسية مظلمة لتحفيز إعادة تشكيل فوضوية للحم. يقتل هذا مخلوقاً لحمياً في ثوانٍ ويحول جسمه إلى كومة من اللحم الملتوي.</PsychicSlaughter.description>
   
   <!-- EN: release deadlife dust -->
   <ReleaseDeadlifeDust.label>إطلاق غبار الحياة الميتة</ReleaseDeadlifeDust.label>
   <!-- EN: Release a cloud of dust-like substance that will settle on nearby corpses and raise them as shamblers. The shamblers will only attack your enemies. Deadlife dust is made of nano-scale archites that penetrate and reanimate dead tissue at the cellular level. -->
-  <ReleaseDeadlifeDust.description>أطلق سحابة من مادة تشبه الغبار تستقر على الجثث القريبة وتقيمها كمترنحين. يهاجم المترنحون أعداءك فقط. غبار الحياة الميتة مصنوع من أرشيتات نانوية تخترق الأنسجة الميتة وتعيد تحريكها على المستوى الخلوي.</ReleaseDeadlifeDust.description>
+  <ReleaseDeadlifeDust.description>أطلق سحابة من مادة تشبه الغبار تستقر على الجثث القريبة وتبعثها كمترنحين. يهاجم المترنحون أعداءك فقط. غبار الحياة الميتة مصنوع من آركايتات نانوية تخترق الأنسجة الميتة وتعيد تحريكها على المستوى الخلوي.</ReleaseDeadlifeDust.description>
   <!-- EN: release deadlife dust -->
   <ReleaseDeadlifeDust.verbProperties.label>إطلاق غبار الحياة الميتة</ReleaseDeadlifeDust.verbProperties.label>
   
@@ -63,7 +63,7 @@
   <!-- EN: shape flesh -->
   <ShapeFlesh.label>تشكيل اللحم</ShapeFlesh.label>
   <!-- EN: Induce a dark archotech to reconfigure a corpse into a horrendous fleshbeast. The fleshbeast will be hostile to all humans, including the one who created it. -->
-  <ShapeFlesh.description>حفز آركوتيك مظلم لإعادة تشكيل جثة إلى وحش اللحم مريع. سيكون وحش اللحم عدائياً لجميع البشر، بما في ذلك من خلقه.</ShapeFlesh.description>
+  <ShapeFlesh.description>حفّز آركوتيك مظلماً لإعادة تشكيل جثة إلى وحش لحم مريع. سيكون وحش اللحم معادياً لجميع البشر، بمن فيهم من خلقه.</ShapeFlesh.description>
   
   <!-- EN: spike launch -->
   <SpikeLaunch_Fingerspike.label>إطلاق شوكة</SpikeLaunch_Fingerspike.label>
@@ -83,14 +83,14 @@
   <!-- EN: transmute steel -->
   <TransmuteSteel.label>تحويل الفولاذ</TransmuteSteel.label>
   <!-- EN: Reconfigure steel at the atomic level, turning it into a random valuable material. Can target steel, steel slag chunks, steel buildings, or steel items. -->
-  <TransmuteSteel.description>أعد تشكيل الفولاذ على المستوى الذري، محولاً إياه إلى مادة قيمة عشوائية. يمكن أن يستهدف الفولاذ، أو كتل خردة الفولاذ، أو المباني الفولاذية، أو الأغراض الفولاذية.</TransmuteSteel.description>
+  <TransmuteSteel.description>أعد تشكيل الفولاذ على المستوى الذري، محولاً إياه إلى مادة قيمة عشوائية. يمكن أن يستهدف الفولاذ، أو كتل خردة الفولاذ، أو المباني الفولاذية، أو العناصر الفولاذية.</TransmuteSteel.description>
   <!-- EN: Must target steel, steel slag chunks, steel buildings, or steel items. -->
-  <TransmuteSteel.comps.CompAbilityEffect_Transmute.failedMessage>يجب استهداف الفولاذ، أو كتل خردة الفولاذ، أو المباني الفولاذية، أو الأغراض الفولاذية.</TransmuteSteel.comps.CompAbilityEffect_Transmute.failedMessage>
+  <TransmuteSteel.comps.CompAbilityEffect_Transmute.failedMessage>يجب استهداف الفولاذ، أو كتل خردة الفولاذ، أو المباني الفولاذية، أو العناصر الفولاذية.</TransmuteSteel.comps.CompAbilityEffect_Transmute.failedMessage>
   
   <!-- EN: entity skip -->
   <UnnaturalCorpseSkip.label>قفز الكيان</UnnaturalCorpseSkip.label>
   <!-- EN: Teleport to a target destination. -->
-  <UnnaturalCorpseSkip.description>انتقل الآني إلى وجهة مستهدفة.</UnnaturalCorpseSkip.description>
+  <UnnaturalCorpseSkip.description>انتقل آنياً إلى الوجهة المحددة.</UnnaturalCorpseSkip.description>
   
   <!-- EN: unnatural healing -->
   <UnnaturalHealing.label>شفاء غير طبيعي</UnnaturalHealing.label>

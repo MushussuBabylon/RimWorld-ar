@@ -11,7 +11,7 @@
   <!-- EN: Date -->
   <Date>التاريخ</Date>
   <!-- EN: The following development points will be awarded depending on the ritual outcome -->
-  <RitualDevelopmentPointRewards>سيتم منح نقاط التطوير التالية اعتماداً على نتيجة الطقس</RitualDevelopmentPointRewards>
+  <RitualDevelopmentPointRewards>ستُمنح نقاط التطوير التالية بحسب نتيجة الطقس</RitualDevelopmentPointRewards>
   <!-- EN: Use global style -->
   <UseGlobalStyle>استخدم النمط العالمي</UseGlobalStyle>
   <!-- EN: No style variations available -->
@@ -28,7 +28,7 @@
   <!-- EN: Choose structure. -->
   <ChooseStructureMeme>اختر الهيكل.</ChooseStructureMeme>
   <!-- EN: {0_label} and {1_label} are incompatible. -->
-  <IncompatibleMemes>{0_label} و {1_label} غير متوافقان.</IncompatibleMemes>
+  <IncompatibleMemes>{0_label} و{1_label} غير متوافقين.</IncompatibleMemes>
   <!-- EN: Some of these have much more gameplay impact than others. -->
   <SomeMemesHaveMoreImpact>بعض هذه المبادئ لها تأثير على أسلوب اللعب أكبر بكثير من غيرها.</SomeMemesHaveMoreImpact>
   <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
@@ -43,7 +43,7 @@
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
   <ChangesRandomizePrecepts>{0} سيعيد عشوائية أي وصايا قمت بتحريرها.\n\nهل ترغب في المتابعة؟</ChangesRandomizePrecepts>
   <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
-  <ChangesRemovePrecepts>الوصايا التالية غير متوافقة مع اختيار المبدأ الجديد هذا وستتم إزالتها:\n\n{0}\n\nهل ترغب في المتابعة؟</ChangesRemovePrecepts>
+  <ChangesRemovePrecepts>الوصايا التالية غير متوافقة مع المبادئ التي اخترتها حديثاً وستُزال:\n\n{0}\n\nهل ترغب في المتابعة؟</ChangesRemovePrecepts>
   
   <!-- EN: Room requirements -->
   <RoomRequirements>متطلبات الغرفة</RoomRequirements>
@@ -61,13 +61,13 @@
   <!-- EN: Choose new role -->
   <ChooseNewRole>اختر دوراً جديداً</ChooseNewRole>
   <!-- EN: No role assigned -->
-  <NoRoleAssigned>لم يتم تعيين دور</NoRoleAssigned>
+  <NoRoleAssigned>لا يوجد دور معيَّن</NoRoleAssigned>
   <!-- EN: Children cannot take on roles -->
   <ChildNoRoleAssigned>لا يمكن للأطفال تقلد الأدوار</ChildNoRoleAssigned>
   <!-- EN: Remove {0} role -->
   <RemoveRole>إزالة دور {0}</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
-  <ChooseRoleConfirmAssign>أنت على وشك تعيين دور {ROLE_labelDef} لـ {PAWN_labelShort}.</ChooseRoleConfirmAssign>
+  <ChooseRoleConfirmAssign>أنت على وشك تعيين دور {ROLE_labelDef} لـ{PAWN_labelShort}.</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
   <ChooseRoleConfirmAssignPostfix>هل أنت متأكد؟</ChooseRoleConfirmAssignPostfix>
   <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
@@ -95,7 +95,7 @@
   <!-- EN: Unlocked rituals -->
   <MemeUnlocksRituals>طقوس مفتوحة</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
-  <ChooseRoleRequiredWorkTagsDisabled>تحذير: {PAWN_nameDef} غير قادر على القيام بالعمل المطلوب لدور {ROLE_label}. إذا اخترت منحـ{PAWN_objective} هذا الدور، قد لا يتمكن {PAWN_pronoun} من استخدام القدرات المرتبطة بـ {ROLE_label}. أنواع العمل المفقودة هي</ChooseRoleRequiredWorkTagsDisabled>
+  <ChooseRoleRequiredWorkTagsDisabled>تحذير: {PAWN_nameDef} غير قادر على القيام بالعمل المطلوب لدور {ROLE_label}. إذا اخترت منحـ{PAWN_objective} هذا الدور، قد لا يتمكن {PAWN_pronoun} من استخدام القدرات المرتبطة بـ{ROLE_label}. أنواع العمل المفقودة هي</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>مكافأة القائد</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
@@ -110,7 +110,7 @@
   <!-- EN: {PAWN_labelShort}'s conversion power -->
   <AbilityIdeoConvertBreakdownConversionPower>قوة تحويل {PAWN_labelShort}</AbilityIdeoConvertBreakdownConversionPower>
   <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
-  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>عامل فقدان اليقين لـ {PAWN_labelShort} من {IDEO_name}</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
+  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>عامل فقدان اليقين لـ{PAWN_labelShort} من {IDEO_name}</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
   <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
   <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort} هو {ROLE_labelDef}</AbilityIdeoConvertBreakdownRole>
   <!-- EN: Trait {TRAIT} -->
@@ -120,7 +120,7 @@
   <!-- EN: {RELICCOUNT} installed relics on map -->
   <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT} آثار مقدسة مثبتة على الخريطة</AbilityIdeoConvertBreakdownRelic>
   <!-- EN: {PAWN_labelShort}'s social skill -->
-  <AbilityIdeoConvertBreakdownSocialSkill>مهارة اجتماعية لـ {PAWN_labelShort}</AbilityIdeoConvertBreakdownSocialSkill>
+  <AbilityIdeoConvertBreakdownSocialSkill>مهارة اجتماعية لـ{PAWN_labelShort}</AbilityIdeoConvertBreakdownSocialSkill>
   <!-- EN: {RECIPIENT_labelShort}'s opinion of {INITIATOR_labelShort} -->
   <AbilityIdeoConvertBreakdownOpinion>رأي {RECIPIENT_labelShort} في {INITIATOR_labelShort}</AbilityIdeoConvertBreakdownOpinion>
   <!-- EN: {PAWN_nameDef}'s ideoligion -->
@@ -129,7 +129,7 @@
   <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} مقابل سمة {TRAIT}</AbilityIdeoConvertBreakdownMemeVsTrait>
 
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
-  <AbilityCantApplyAlreadyCounselled>تم تقديم المشورة لـ {PAWN_labelShort} مؤخراً.</AbilityCantApplyAlreadyCounselled>
+  <AbilityCantApplyAlreadyCounselled>سبق أن قُدمت المشورة لـ{PAWN_labelShort} مؤخراً.</AbilityCantApplyAlreadyCounselled>
 
   <!-- EN: Reform... -->
   <ReformIdeo>تعديل...</ReformIdeo>
@@ -150,9 +150,9 @@
   <!-- EN: Change any of the following -->
   <ReformIdeoChangeAny>تغيير أي مما يلي</ReformIdeoChangeAny>
   <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
-  <ReformIdeoRelicHuntQuestEnd>لن يتم تبجيل الأثر المقدس {0} من قبل مستعمريك بعد تعديل هذه العقيدة. نظراً لأن المهمة '{0}' تبحث عن هذا الأثر المقدس، سيتم إلغاء تنشيطها.</ReformIdeoRelicHuntQuestEnd>
+  <ReformIdeoRelicHuntQuestEnd>لن يبجّل مستعمروك الأثر المقدس {0} بعد تعديل هذه العقيدة. ولأن المهمة '{0}' تبحث عن هذا الأثر المقدس، فسيُلغى تنشيطها.</ReformIdeoRelicHuntQuestEnd>
   <!-- EN: The ritual {0} is in progress and will be cancelled. -->
-  <ReformIdeoCancelRituals>الطقس {0} قيد التقدم وسيتم إلغاؤه.</ReformIdeoCancelRituals>
+  <ReformIdeoCancelRituals>الطقس {0} قيد التنفيذ وسيُلغى.</ReformIdeoCancelRituals>
   <!-- EN: Do you wish to continue? -->
   <ReformIdeoContinue>هل ترغب في المتابعة؟</ReformIdeoContinue>
 
@@ -166,12 +166,12 @@
   <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
   <NegotiatorWillNotTradeSlaves>{0_nameDef} يرفض بيع الناس كعبيد وفقاً لاعتقاداتـ{0_possessive}.</NegotiatorWillNotTradeSlaves>
   <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
-  <NegotiatorWillNotTradeSlavesTip>المفاوض، {0_nameDef}، لن يبيع الناس كعبيد بسبب اعتقاد{0_possessive} بـ {1}.\n\nلاحظ أن {0_nameDef} على استعداد لفدية شخص ما إلى فصيلـ{0_possessive}، لكنه ليس على استعداد لبيع شخص إلى فصيل مختلف.</NegotiatorWillNotTradeSlavesTip>
+  <NegotiatorWillNotTradeSlavesTip>المفاوض، {0_nameDef}، لن يبيع الناس كعبيد بسبب اعتقاد{0_possessive} بـ{1}.\n\nلاحظ أن {0_nameDef} على استعداد لفدية شخص ما إلى فصيلـ{0_possessive}، لكنه ليس على استعداد لبيع شخص إلى فصيل مختلف.</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
   <LastHumanMeat>آخر لحم بشري</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
-  <LastHumanMeatDesc>بسبب اعتقاد{PAWN_possessive} بـ {IDEO_name}، سيصبح {PAWN_nameDef} غير سعيد إذا مضى عليـ{PAWN_objective} أكثر من {DURATION} يوم دون أكل لحم بشري.</LastHumanMeatDesc>
+  <LastHumanMeatDesc>بسبب اعتقاد{PAWN_possessive} بـ{IDEO_name}، سيصبح {PAWN_nameDef} غير سعيد إذا مضى أكثر من {DURATION} يوم و{PAWN_pronoun} لا يأكل لحماً بشرياً.</LastHumanMeatDesc>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
   <ExectueNeutralFactionSlave>إعدام {PAWN_labelShort} سيؤثر سلباً على العلاقات مع {FACTION_name}.</ExectueNeutralFactionSlave>
@@ -217,7 +217,7 @@
   <!-- EN: New buildables -->
   <IdeoMakesBuildingBuildable>مبانٍ جديدة قابلة للبناء</IdeoMakesBuildingBuildable>
   <!-- EN: none usable for {PAWN_nameDef} -->
-  <NoneUsableForPawn>لا شيء قابل للاستخدام لـ {PAWN_nameDef}</NoneUsableForPawn> 
+  <NoneUsableForPawn>لا شيء قابل للاستخدام لـ{PAWN_nameDef}</NoneUsableForPawn> 
   <!-- EN: Hair and beards -->
   <HairAndBeards>الشعر واللحى</HairAndBeards>
   <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
@@ -247,7 +247,7 @@
 
   <!-- Ancient complex mission -->
   <!-- EN: Send shuttle anyway -->
-  <SendShuttleAnyway>أرسل المكوك على أي حال</SendShuttleAnyway>
+  <SendShuttleAnyway>أرسل المكوك رغم ذلك</SendShuttleAnyway>
   <!-- EN: Re-load shuttle -->
   <ReLoadShuttle>إعادة تحميل المكوك</ReLoadShuttle>
 
@@ -259,23 +259,23 @@
 
   <!-- Dryad upgrades -->
   <!-- EN: Choose dryad caste -->
-  <ChangeMode>اختر طائفة الدرايد</ChangeMode>
+  <ChangeMode>اختر طبقة الدرايد</ChangeMode>
   <!-- EN: Required memes -->
   <RequiredMemes>مبادئ مطلوبة</RequiredMemes>
   <!-- EN: Required caste -->
-  <RequiredStage>طائفة مطلوبة</RequiredStage>
+  <RequiredStage>طبقة مطلوبة</RequiredStage>
   <!-- EN: Missing required memes -->
   <MissingRequiredMemes>مبادئ مطلوبة مفقودة</MissingRequiredMemes>
   <!-- EN: Missing required caste -->
-  <MissingRequiredCaste>طائفة مطلوبة مفقودة</MissingRequiredCaste>
+  <MissingRequiredCaste>طبقة مطلوبة مفقودة</MissingRequiredCaste>
   <!-- EN: Already selected -->
   <AlreadySelected>مختار بالفعل</AlreadySelected>
   <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
-  <ChooseProductionModeInitialDesc>هنا يمكنك اختيار أي طائفة من الدرايد ستنشئها {TREE_label} هذه.\n\nسينبثق الدرايد من الأجربة التي تنمو عند قاعدة الشجرة. الحد الأقصى لعدد الدرايد يعتمد على قوة الاتصال بين {TREE_definite} والشخص المتصل.</ChooseProductionModeInitialDesc>
+  <ChooseProductionModeInitialDesc>هنا يمكنك اختيار أي طبقة من الدرايد ستنشئها {TREE_label} هذه.\n\nسينبثق الدرايد من الأجربة التي تنمو عند قاعدة الشجرة. الحد الأقصى لعدد الدرايد يعتمد على قوة الاتصال بين {TREE_definite} والشخص المتصل.</ChooseProductionModeInitialDesc>
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
-  <ChooseColonistsForIdeoTitle>اختر من سيتم تحويله إلى عقيدتك</ChooseColonistsForIdeoTitle>
+  <ChooseColonistsForIdeoTitle>اختر من تريد تحويله إلى عقيدتك</ChooseColonistsForIdeoTitle>
   <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
   <ChooseColonistsForIdeoDesc>يمكنك تحويل الأشخاص إلى عقيدتك الأساسية عند إنشاء مستعمرة جديدة.</ChooseColonistsForIdeoDesc>
   <!-- EN: New Colony -->
@@ -291,13 +291,13 @@
   <!-- EN: Confirm decisions -->
   <ConfirmDecisionsTitle>تأكيد القرارات</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
-  <ShipEscapeWillEndDescription>سفينة الفضاء السباتية التي أبلغ عنها الذكاء الاصطناعي (*Name)Charlon Whitestone(/Name) ستطير بعيداً بحلول الوقت الذي يتم فيه إنشاء المستعمرة الجديدة. لن يكون من الممكن بعد ذلك الهروب من الكوكب بالسفر إلى هذه السفينة.</ShipEscapeWillEndDescription>
+  <ShipEscapeWillEndDescription>سفينة الفضاء السباتية التي أبلغ عنها الذكاء الاصطناعي (*Name)تشارلون وايتستون(/Name) ستحلق بعيداً بحلول الوقت الذي تُنشأ فيه المستعمرة الجديدة. لن يعود بالإمكان الهروب من الكوكب بالسفر إلى هذه السفينة.</ShipEscapeWillEndDescription>
   <!-- EN: No relic was chosen to be brought to the new colony. -->
-  <ArchonexusRelicNotChosen>لم يتم اختيار أي أثر مقدس لإحضاره إلى المستعمرة الجديدة.</ArchonexusRelicNotChosen>
+  <ArchonexusRelicNotChosen>لم يُختر أي أثر مقدس لإحضاره إلى المستعمرة الجديدة.</ArchonexusRelicNotChosen>
   <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
-  <ArchonexusItemsNotChosen>تم اختيار {0} من أصل {1} عنصر محتمل لإحضارها إلى المستعمرة الجديدة.</ArchonexusItemsNotChosen>
+  <ArchonexusItemsNotChosen>اختير {0} من أصل {1} من العناصر الممكنة لإحضارها إلى المستعمرة الجديدة.</ArchonexusItemsNotChosen>
   <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
-  <RemoveEquippedRelicsDescription>سيسمح لك مشترو المستعمرة بأخذ أثر مقدس واحد فقط. سيتم ترك أي آثار مقدسة أخرى (حتى لو كانت مجهزة من قبل مستعمر)، بما في ذلك:</RemoveEquippedRelicsDescription>
+  <RemoveEquippedRelicsDescription>لن يسمح لك مشترو المستعمرة إلا بأخذ أثر مقدس واحد. وستُترك أي آثار مقدسة أخرى (حتى لو كان أحد المستعمرين يحملها)، ومنها:</RemoveEquippedRelicsDescription>
   <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
   <WantToProceed>هل ترغب في المتابعة؟ بعد هذه النقطة، لا عودة.</WantToProceed>
   <!-- EN: Convert -->
@@ -307,11 +307,11 @@
   <!-- EN: Existing follower -->
   <ExistingFollowerOfPlayerIdeoligion>تابع موجود</ExistingFollowerOfPlayerIdeoligion>
   <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
-  <AbandonArchotechStructuresWarningDialog>أنت تتخلى عن موقع يحتوي على هياكل آركوتك لم تدرسها بالكامل بعد.\n\nستتمكن من إعادة الاستيطان هنا لاحقاً، لكن مستعمرتك ستُمحى.</AbandonArchotechStructuresWarningDialog>
+  <AbandonArchotechStructuresWarningDialog>أنت تتخلى عن موقع يحتوي على هياكل آركوتيك لم تدرسها بالكامل بعد.\n\nستتمكن من إعادة الاستيطان هنا لاحقاً، لكن مستعمرتك ستُمحى.</AbandonArchotechStructuresWarningDialog>
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
   <ItemQuantityTooltip>كمية {0} التي يمكن إحضارها إلى المستعمرة الجديدة.\n\nالكمية القصوى المسموح بها هي: {1}</ItemQuantityTooltip>
   <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
-  <SoldColonyDescription>تم بيع مستعمرتك. مشتروها مستعدون لتختار أين ستهبط بعد ذلك.</SoldColonyDescription>
+  <SoldColonyDescription>بيعت مستعمرتك. مشتروها مستعدون لتختار أين ستهبط بعد ذلك.</SoldColonyDescription>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do you really want to hack {0}? -->
   <ConfirmHackEnemyTerminal>اختراق {0} هذا سينبه الأعداء ويدفعهم للهجوم. هل تريد حقاً اختراق {0}؟</ConfirmHackEnemyTerminal>
@@ -332,5 +332,5 @@
   <!-- EN: Styles in use -->
   <StylesInUse>أنماط قيد الاستخدام</StylesInUse>
   <!-- EN: Add a style. -->
-  <StyleCategoryAddDesc>أضف أسلوباً.</StyleCategoryAddDesc>
+  <StyleCategoryAddDesc>أضف نمطاً.</StyleCategoryAddDesc>
 </LanguageData>

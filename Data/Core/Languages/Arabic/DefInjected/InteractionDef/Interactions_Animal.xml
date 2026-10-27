@@ -29,9 +29,9 @@
   -->
   <AnimalChat.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed_animal] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] جلس بالقرب من [RECIPIENT_nameDef] وتحدث مع نفسه عن [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] اقترب من [RECIPIENT_nameDef] وهو يهمس لنفسه عن [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] جاء بالقرب من [RECIPIENT_nameDef] وهو يتحدث لنفسه عن [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] جلس بالقرب من [RECIPIENT_nameDef] وتحدث مع نفسـ[INITIATOR_objective] عن [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] اقترب من [RECIPIENT_nameDef] هامساً لنفسـ[INITIATOR_objective] عن [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] جاء بالقرب من [RECIPIENT_nameDef] متحدثاً إلى نفسـ[INITIATOR_objective] عن [TalkTopicAny].</li>
     <li>tamed_animal->أصدر أصواتاً مهدئة نحو</li>
     <li>tamed_animal->قام بإيماءات بطيئة وودية تجاه</li>
     <li>tamed_animal->أصدر أصواتاً طالبة للهدوء تجاه</li>
@@ -81,7 +81,7 @@
     <li>rubbedpart->arm</li>
   -->
   <Nuzzle.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] بـ [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] بـ[RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [rubbedpart] [RECIPIENT_nameDef].</li>
     <li>nuzzled(p=2)->تحاضن</li>
     <li>nuzzled->فرك أنفه</li>
@@ -123,7 +123,7 @@
   <ReleaseToWild.logRulesInitiator.rulesStrings>
     <li>r_logentry->[farewell] [released]</li>
     <li>farewell->ربت [INITIATOR_nameDef] على [RECIPIENT_nameDef] برفق مرة أخيرة</li>
-    <li>farewell->قال [INITIATOR_nameDef] بعض الكلمات الدافئة لـ [RECIPIENT_nameDef]</li>
+    <li>farewell->قال [INITIATOR_nameDef] بعض الكلمات الدافئة لـ[RECIPIENT_nameDef]</li>
     <li>farewell->أزال [INITIATOR_nameDef] طوق [RECIPIENT_nameDef]</li>
     <li>farewell->تذكر [INITIATOR_nameDef] الأوقات الجيدة التي قضاها مع [RECIPIENT_nameDef]</li>
     <li>released->وأطلقـ[RECIPIENT_possessive] إلى البرية.</li>
@@ -157,15 +157,15 @@
     <li>r_logentry->[INITIATOR_nameDef] حاول السيطرة على [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] حاول وضع طوق على [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] طلب الطاعة من [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] نادى [RECIPIENT_nameDef] ليأتي إليه.</li>
+    <li>r_logentry->[INITIATOR_nameDef] نادى [RECIPIENT_nameDef] ليأتي إليـ[INITIATOR_objective].</li>
     <li>r_logentry->[INITIATOR_nameDef] حاول جعل [RECIPIENT_nameDef] يجلس بهدوء.</li>
-    <li>r_logentry->[INITIATOR_nameDef] أمسك بـ [RECIPIENT_nameDef] بشدة ونبح أمراً.</li>
+    <li>r_logentry->[INITIATOR_nameDef] أمسك بـ[RECIPIENT_nameDef] بشدة ونبح أمراً.</li>
     <li>r_logentry->[INITIATOR_nameDef] حاول تثبيت [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] صرخ بأمر نحو [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] صفع [RECIPIENT_nameDef] لإظهار السيطرة.</li>
     <li>r_logentry->[INITIATOR_nameDef] وجه [RECIPIENT_nameDef] عائداً نحو المجتمع.</li>
     <li>r_logentry->[INITIATOR_nameDef] نادى [RECIPIENT_nameDef] ليعود إلى المجتمع.</li>
-    <li>r_logentry->[INITIATOR_nameDef] لمس جزءاً حساساً من جسد [RECIPIENT_nameDef]، طالباً الطاعة.</li>
+    <li>r_logentry->[INITIATOR_nameDef] لمس جزءاً حساساً من جسم [RECIPIENT_nameDef]، طالباً الطاعة.</li>
     <li>r_logentry->[INITIATOR_nameDef] أشار إلى الأرض، طالباً من [RECIPIENT_nameDef] أن يأتي.</li>
     <li>r_logentry->[INITIATOR_nameDef] أعطى [RECIPIENT_nameDef] الأمر الأول.</li>
   </TameAttempt.logRulesInitiator.rulesStrings>

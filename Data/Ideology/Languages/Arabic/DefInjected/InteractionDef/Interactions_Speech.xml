@@ -42,9 +42,9 @@
     <li>speechtopic->تفانيـ[INITIATOR_possessive] لمعتقداتـ[INITIATOR_possessive]</li>
     <li>speechtopic->معتقداتـ[INITIATOR_possessive] حول المستقبل</li>
     <li>speechtopic->أمنيتـ[INITIATOR_possessive] في خدمة غرض أسمى</li>
-    <li>speechtopic->[PersonalCharacteristic][INITIATOR_possessive] وكيف ترتبط بالدور</li>
-    <li>speechtopic->كيف أن [PersonalCharacteristic][INITIATOR_possessive] تجعلـ[INITIATOR_objective] مناسباً للدور</li>
-    <li>speechtopic->كيف سيستخدم [INITIATOR_pronoun] [PersonalCharacteristic][INITIATOR_possessive] للتغلب على العقبات</li>
+    <li>speechtopic->[PersonalCharacteristic]ـ[INITIATOR_possessive] وكيف ترتبط بالدور</li>
+    <li>speechtopic->كيف أن [PersonalCharacteristic]ـ[INITIATOR_possessive] تجعلـ[INITIATOR_objective] مناسباً للدور</li>
+    <li>speechtopic->كيف سيستخدم [INITIATOR_pronoun] [PersonalCharacteristic]ـ[INITIATOR_possessive] للتغلب على العقبات</li>
     <li>speechtopic->الشكر</li>
     <li>speechtopic->إظهار الامتنان</li>
     <li>speechtopic->غرض الحياة</li>
@@ -92,7 +92,7 @@
  </Speech_Blinding.logRulesInitiator.rulesStrings>
   
   <!-- EN: conversion speech -->
-  <Speech_Conversion.label>خطاب التحويل</Speech_Conversion.label>
+  <Speech_Conversion.label>خطاب تحويل العقيدة</Speech_Conversion.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->uniting for the greater good</li>
@@ -417,7 +417,7 @@
     <li>crazy->صرخ بهوس</li>
     <li>crazy->انطلق في ترنيمة</li>
     <li>crazy->رنم نحو السماء</li>
-    <li>crazy->بصق في عين الأضحية</li>
+    <li>crazy->بصق في عين التضحية</li>
     <li>crazy->قهقه</li>
     <li>crazy->لوح بنصل</li>
     <li>crazy->تمتم بشكل متكرر</li>
@@ -449,7 +449,7 @@
   <Speech_Scarification.logRulesInitiator.rulesStrings>
     <li>r_logentry->[spokeof] [INITIATOR_nameDef] [speechtopic].</li>
     <li>r_logentry(p=0.2)->[crazy] [INITIATOR_nameDef].</li>
-    <li>speechtopic->تسجيل الألم على الجسد</li>
+    <li>speechtopic->تسجيل الألم على الجسم</li>
     <li>speechtopic->تعبيرات الألم</li>
     <li>speechtopic->القسوة المسيطر عليها</li>
     <li>speechtopic->دفء الدم</li>
@@ -490,8 +490,8 @@
     <li>speechtopic->الأشجار والناس</li>
     <li>speechtopic->الأشجار والقوى النفسية</li>
     <li>speechtopic->الدرايدات</li>
-    <li>speechtopic->دورة حياة الغورانلين</li>
-    <li>speechtopic->الحضور الروحي لأشجار الغورانلين</li>
+    <li>speechtopic->دورة حياة غورانلين</li>
+    <li>speechtopic->الحضور الروحي لأشجار غورانلين</li>
     <li>speechtopic->الاستشعار النفسي الشجري</li>
     <li>speechtopic->كم الدرايدات لطيفات</li>
     <li>speechtopic->نبل الدرايدات</li>

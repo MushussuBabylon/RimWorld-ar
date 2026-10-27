@@ -63,17 +63,17 @@
   -->
   <Hospitality_Refugee.questContentRules.rulesStrings>
     <li>lastOrNot(lodgerCount==1)-></li>
-    <li>lastOrNot(lodgerCount>=2)->الأخير</li>
+    <li>lastOrNot(lodgerCount>=2)->آخر</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] وصل</li>
+    <li>lodgersArriveLetterLabel->وصول [lodgersLabelSingularOrPlural]</li>
     <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] وصل. سيبقى [lodgersPronoun] معك لمدة [questDurationTicks_duration] ليتمكن [lodgersPronoun] من الراحة وإعادة التجمع.</li>
     <li>hasHave(lodgerCount==1)->قد</li>
     <li>hasHave(lodgerCount>=2)->قد</li>
-    <li>appalledButNoAction->إن {PAWNSALIVECOUNT_multiple ? الآخرين يبدون : آخر [lodgersLabel] يبدو} مذعوراً من هذا، لكن {PAWNSALIVECOUNT_multiple ? لا يتخذون : لا يتخذ} إجراءً ضدك.</li>
-    <li>othersWillNotAccept->إن {PAWNSALIVECOUNT_multiple ? الآخرين غير : آخر [lodgersLabel] غير} مستعد لقبول هذا</li>
-    <li>turnedViolent->[othersWillNotAccept]، و {PAWNSALIVECOUNT_multiple ? انقلبوا : انقلب } عليك بعنف.</li>
-    <li>decidedToLeave->[othersWillNotAccept]، و {PAWNSALIVECOUNT_multiple ? قرروا : قرر } الرحيل.</li>
+    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? يبدو الآخرون مذعورين : يبدو آخر [lodgersLabel] مذعوراً} من هذا، لكن {PAWNSALIVECOUNT_multiple ? لا يتخذون : لا يتخذ} إجراءً ضدك.</li>
+    <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? الآخرون غير مستعدين : آخر [lodgersLabel] غير مستعد} لقبول هذا</li>
+    <li>turnedViolent->[othersWillNotAccept]، و{PAWNSALIVECOUNT_multiple ? انقلبوا : انقلب } عليك بعنف.</li>
+    <li>decidedToLeave->[othersWillNotAccept]، و{PAWNSALIVECOUNT_multiple ? قرروا : قرر } الرحيل.</li>
     <li>whoAskedToStay->الذي طلب البقاء معك</li>
     <li>oneOfThe->أحد [faction_pawnsPlural] اليائسين الذين طلبوا البقاء معك</li>
     <li>questOver->انتهت مهمة '[resolvedQuestName]'.</li>
@@ -115,11 +115,11 @@
     <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] انتُهكت حرمته: رحيل</li>
     <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->خيانة</li>
-    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] ينقلبون عليك!\n\nيبدو أن [lodgersPronoun] كانوا يخططون لهذه الخيانة طوال الوقت.</li>
+    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] عليك!\n\nيبدو أن هذه الخيانة كانت مخططة من قبلـ[lodgersObjective] طوال الوقت.</li>
     <li>areIs(lodgerCount==1)->ينقلب</li>
     <li>areIs(lodgerCount>=2)->ينقلبون</li>
-    <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] يغادر</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} يشكرك على سماحك لـ{FACTION_leaderObjective} بالبقاء في [map_definite] طوال هذه [questDurationTicks_duration]. {FACTION_leaderPronoun} الآن ينتقل مع أشخاصه.\n\n{FACTION_leaderNameDef} يقول إن {FACTION_leaderPronoun} لن ينسى ما فعلته.</li>
+    <li>lodgersLeavingLetterLabel->مغادرة [lodgersLabelSingularOrPlural]</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} يشكرك على سماحك لـ{FACTION_leaderObjective} بالبقاء في [map_definite] طوال هذه [questDurationTicks_duration]. {FACTION_leaderPronoun} الآن ينتقل مع أشخاصـ{FACTION_leaderPossessive}.\n\n{FACTION_leaderNameDef} يقول إنـ{FACTION_leaderObjective} لن ينسى ما فعلته.</li>
  </Hospitality_Refugee.questContentRules.rulesStrings>
 
   <!-- EN:
@@ -180,26 +180,26 @@
     <li>lodgersPossessive(lodgerCount==1)->[asker_possessive]</li>
     <li>lodgersPossessive(lodgerCount>=2)->هم</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
-    <li>lodgersSingularOrPluralDef(lodgerCount>=2)->الـ [lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] يتوسل إليك السماح له بالبقاء في [map_definite] لمدة [questDurationTicks_duration] ليتمكن [lodgersPronoun] من الراحة وإعادة التجمع.\n\nفي المقابل، [lodgersPronoun] [offer] العمل والقتال مجاناً خلال تلك الفترة.\n\n[joinInfo] قد يكافئك [lodgersPronoun] أيضاً لاحقاً لمساعدتك [lodgersObjective] - لكن لا سبيل لمعرفة نواياهم الحقيقية.\n\n[travelerInfo] ليسوا جزءاً من أي فصيل. إذا رغبت، يمكنك اختيار قتلهم، اعتقالهم، بيعهم، أو حصاد أعضائهم، دون عواقب دبلوماسية.</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount>=2)->الـ[lodgersLabelPlural]</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] يتوسل إليك السماح له بالبقاء في [map_definite] لمدة [questDurationTicks_duration] ليتمكن [lodgersPronoun] من الراحة وإعادة التجمع.\n\nفي المقابل، [lodgersPronoun] [offer] العمل والقتال مجاناً خلال تلك الفترة.\n\n[joinInfo] قد يكافئك [lodgersPronoun] أيضاً لاحقاً لمساعدتـ[lodgersObjective] - لكن لا سبيل لمعرفة نوايا[lodgersPossessive] الحقيقية.\n\n[travelerInfo] ليسوا جزءاً من أي فصيل. إذا رغبت، يمكنك اختيار قتلـ[lodgersObjective] أو اعتقالـ[lodgersObjective] أو بيعـ[lodgersObjective] أو حصاد الأعضاء منـ[lodgersObjective]، دون عواقب دبلوماسية.</li>
     <li>approachInfo(lodgerCount==1)->يقترب [faction_pawnSingular] يائس يدعى [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount==2)->يقترب [asker_nameDef] و[آخر] يائس.</li>
+    <li>approachInfo(lodgerCount==2)->يقترب [asker_nameDef] و[faction_pawnSingular] آخر يائس.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->يقترب [asker_nameDef] ومعه طفل.</li>
     <li>approachInfo(lodgerCount>=3)->يقترب [lodgerCount] من [faction_pawnsPlural] اليائسين. قائدهم يدعى [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->يقترب [lodgerCount] من [faction_pawnsPlural] اليائسين بينهم طفل. قائدهم يدعى [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->يقترب [lodgerCount] من [faction_pawnsPlural] اليائسين بينهم بعض الأطفال. قائدهم يدعى [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->تقترب مجموعة من [lodgerCount] من [faction_pawnsPlural] اليائسين تتكون من [asker_nameDef] و[عدد الأطفال] طفل أخذهم [asker_pronoun] تحت جناحـ[asker_possessive].</li>
-    <li>claimInfo(lodgerCount==1)->يدّعي [asker_nameDef] أنه فقد منزلـ[asker_possessive] في هجوم مؤخراً.</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->تقترب مجموعة من [lodgerCount] من [faction_pawnsPlural] اليائسين تتكون من [asker_nameDef] و[lodgersCountMinusOne] من الأطفال أخذهم [asker_pronoun] تحت جناحـ[asker_possessive].</li>
+    <li>claimInfo(lodgerCount==1)->يدّعي [asker_nameDef] أنه فقد منزلـ[asker_possessive] في هجوم وقع مؤخراً.</li>
     <li>claimInfo(lodgerCount==1)->يدّعي [asker_nameDef] أنه استيقظ من السبات العميق وحيداً بلا أصدقاء.</li>
     <li>claimInfo(lodgerCount==1)->يدّعي [asker_nameDef] أنه طُرد من منزلـ[asker_possessive] على يد حبيب سابق انتقامي.</li>
     <li>claimInfo(lodgerCount==1)->يدّعي [asker_nameDef] أنه نُفي بعد جدال مع زعيم قرية.</li>
-    <li>claimInfo(lodgerCount>=2)->يدّعون أنهم فقدوا منزلهم في هجوم مؤخراً.</li>
+    <li>claimInfo(lodgerCount>=2)->يدّعون أنهم فقدوا منزلهم في هجوم وقع مؤخراً.</li>
     <li>claimInfo(lodgerCount>=2)->يدّعون أنهم هربوا من عملية حصاد أعضاء.</li>
-    <li>claimInfo(lodgerCount>=2)->يقولون أنهم هربوا من قافلة عبيد.</li>
-    <li>claimInfo(lodgerCount>=2)->يقولون أن آفات المحاصيل جوعتهم حتى خرجوا من قريتهم.</li>
-    <li>claimInfo(lodgerCount>=2)->يقولون أن عاصفة نارية عظيمة أحرقت منزلهم.</li>
-    <li>claimInfo(lodgerCount>=2)->يقولون أن قافلتهم تعرضت لكمين وسُلب كل شيء.</li>
-    <li>claimInfo(lodgerCount>=2)->يقولون أنهم نُفوا من بلدتهم بسبب خلافات أخلاقية.</li>
+    <li>claimInfo(lodgerCount>=2)->يقولون إنهم هربوا من قافلة عبيد.</li>
+    <li>claimInfo(lodgerCount>=2)->يقولون إن آفات المحاصيل جوعتهم حتى خرجوا من قريتهم.</li>
+    <li>claimInfo(lodgerCount>=2)->يقولون إن عاصفة برق خاطفة عظيمة أحرقت منزلهم.</li>
+    <li>claimInfo(lodgerCount>=2)->يقولون إن قافلتهم تعرضت لكمين وسُلب كل شيء.</li>
+    <li>claimInfo(lodgerCount>=2)->يقولون إنهم نُفوا من بلدتهم بسبب خلافات أخلاقية.</li>
     <li>joinInfo(lodgerCount==1)->إذا جعلتـ[asker_objective] سعيداً، فقد يعرض [asker_pronoun] الانضمام إليك.</li>
     <li>joinInfo(lodgerCount>=2)->إذا جعلتهم سعداء، فقد يعرض بعضهم الانضمام إليك.</li>
     <li>travelerInfo(lodgerCount==1)->هذا [faction_pawnSingular] ليس</li>
@@ -240,11 +240,11 @@
   -->
   <Hospitality_Refugee.questNameRules.rulesStrings>
     <li>questName(lodgerCount==1)->[asker_nameDef] الـ[lodgerAdj]</li>
-    <li>questName(lodgerCount==1)->[athe] [lodgerAdj] [lodgerSingle]</li>
-    <li>questName(p=2,lodgerCount>=2)->[lodgerAdj] [lodgerPlural]</li>
-    <li>questName(lodgerCount>=2)->[lodgerAdj] [lodgerPlural] خاص بـ[asker_nameDef]</li>
-    <li>questName(lodgerCount>=2)->[lodgerPlural] خاص بـ[asker_nameDef]</li>
-    <li>athe->a</li>
+    <li>questName(lodgerCount==1)->[athe][lodgerSingle] [lodgerAdj]</li>
+    <li>questName(p=2,lodgerCount>=2)->[lodgerPlural] [lodgerAdj]</li>
+    <li>questName(lodgerCount>=2)->[lodgerPlural] [lodgerAdj] التابعون لـ[asker_nameDef]</li>
+    <li>questName(lodgerCount>=2)->[lodgerPlural] التابعون لـ[asker_nameDef]</li>
+    <li>athe-></li>
     <li>athe->الـ</li>
     <li>lodgerAdj->مرهق</li>
     <li>lodgerAdj->ضائع</li>
@@ -252,20 +252,20 @@
     <li>lodgerAdj->فقير</li>
     <li>lodgerAdj->يائس</li>
     <li>lodgerAdj->حزين</li>
-    <li>lodgerAdj->متعب</li>
+    <li>lodgerAdj->مغبر</li>
     <li>lodgerAdj->فاقد الأمل</li>
     <li>lodgerAdj->مجهول</li>
     <li>lodgerAdj->بائس</li>
     <li>lodgerAdj->مهجور</li>
     <li>lodgerSingle->مسافر</li>
     <li>lodgerSingle->لاجئ</li>
-    <li>lodgerSingle->متشرد</li>
+    <li>lodgerSingle->متجول</li>
     <li>lodgerSingle->ناجٍ</li>
     <li>lodgerSingle->بدوي</li>
     <li>lodgerSingle->صعلوك</li>
     <li>lodgerPlural->مسافرون</li>
     <li>lodgerPlural->لاجئون</li>
-    <li>lodgerPlural->متشردون</li>
+    <li>lodgerPlural->متجولون</li>
     <li>lodgerPlural->ناجون</li>
     <li>lodgerPlural->بدو</li>
     <li>lodgerPlural->صعاليك</li>
@@ -291,11 +291,11 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->مكافأة الخيانة: [factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] وعدك بمكافأة إذا قتلت [asker_nameDef] [otherMembers]. سمع [factionOpponent_pronoun] أنباء أن هذا تم ويرسل لك التالي عبر كبسولة إسقاط (القيمة الإجمالية [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] وعدك بمكافأة إذا قتلت [asker_nameDef] [otherMembers]. سمع [factionOpponent_pronoun] أنباء بأن هذا قد تم، ويرسل لك التالي عبر كبسولة إسقاط (القيمة الإجمالية [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->مكافأة الخيانة سُحبت</li>
-    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] علم أن جميع الأعضاء الباقين على قيد الحياة من [faction_name] قد انضموا إلى فصيلك! أراد [factionOpponent_nameDef] أن يموت جميع أعضاء [faction_name] ولذلك سحب عرضه.</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] علم أن جميع الأعضاء الباقين على قيد الحياة من [faction_name] قد انضموا إلى فصيلك! أراد [factionOpponent_nameDef] أن يموت جميع أعضاء [faction_name] ولذلك سحب عرضـ[factionOpponent_possessive].</li>
     <li>betrayalOfferFailedLetterLabel->مكافأة الخيانة سُحبت</li>
-    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] علم أن أحد أعضاء [faction_name] لم يعد موجوداً في [map_definite]. أراد [factionOpponent_nameDef] أن يموت جميع أعضاء [faction_name] ولذلك سحب عرضه.</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] علم أن أحد أعضاء [faction_name] لم يعد موجوداً في [map_definite]. أراد [factionOpponent_nameDef] أن يموت جميع أعضاء [faction_name] ولذلك سحب عرضـ[factionOpponent_possessive].</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->وآخر [lodgersLabel]</li>
     <li>otherLodgers(lodgerCount>=3)->وعدة [lodgersLabelPlural]</li>
@@ -326,7 +326,7 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_nameDef]، [factionOpponent_faction_pawnSingular] من [factionOpponent_faction_name]، علم أن [asker_nameDef] [otherLodgers] [areIs] مضافون في [map_definite]. [factionOpponent_pronoun] أعداء [asker_nameDef] ويريد رؤيته ميتاً.\n\nسيرسل لك [factionOpponent_pronoun] المكافأة التالية إذا قتلت جميع أعضاء [faction_name] (القيمة الإجمالية [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_nameDef]، [factionOpponent_faction_pawnSingular] من [factionOpponent_faction_name]، علم أن [asker_nameDef] [otherLodgers] [areIs] في [map_definite]. [factionOpponent_pronoun] عدو لـ[asker_nameDef] ويريد رؤيتـ[asker_objective] ميتاً.\n\nسيرسل لك [factionOpponent_pronoun] المكافأة التالية إذا قتلت جميع أعضاء [faction_name] (القيمة الإجمالية [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -334,8 +334,8 @@
     <li>otherLodgers(lodgerCount>=3)->وعدة [lodgersLabelPlural]</li>
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)-> وجميع أعضاء [faction_name] الآخرين</li>
-    <li>areIs(lodgerCount==1)->مضاف</li>
-    <li>areIs(lodgerCount>=2)->مضافون</li>
+    <li>areIs(lodgerCount==1)->مستضاف</li>
+    <li>areIs(lodgerCount>=2)->مستضافون</li>
  </RefugeeBetrayal.questDescriptionRules.rulesStrings>
 
   <!-- EN:
@@ -351,7 +351,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->مكافأة الضيافة</li>
-    <li>rewardLetterText->قام [rewardGiver_nameDef] بالاتصال بك. قبل [rewardDelayTicks_duration]، ساعدتـ[rewardGiver_objective] في ظروف يائسة.\n\nمنذ ذلك الحين، وقف [rewardGiver_pronoun] على قدميه مجدداً، ويريد الآن [rewardGiver_pronoun] مكافأتك بشكل لائق على مساعدتك. يرسل لك [rewardGiver_pronoun] التالي عبر كبسولة الإسقاط:\n\n[listOfRewards]</li>
+    <li>rewardLetterText->قام [rewardGiver_nameDef] بالاتصال بك. قبل [rewardDelayTicks_duration]، ساعدتـ[rewardGiver_objective] في ظروف يائسة.\n\nمنذ ذلك الحين، وقف [rewardGiver_pronoun] على قدميـ[rewardGiver_possessive] مجدداً، ويريد الآن [rewardGiver_pronoun] مكافأتك بشكل لائق على مساعدتك. يرسل لك [rewardGiver_pronoun] التالي عبر كبسولة الإسقاط:\n\n[listOfRewards]</li>
  </RefugeeDelayedReward.questContentRules.rulesStrings>
 
   <!-- EN:

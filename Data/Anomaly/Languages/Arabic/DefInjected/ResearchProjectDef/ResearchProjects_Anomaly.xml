@@ -65,10 +65,10 @@
     <li>subject_story->درس طقوس أتباع هوراكس</li>
     <li>subject_story->أعاد بناء مذابح بدائية</li>
     <li>subject_story->أرسى أسس التواصل النفسي</li>
-    <li>subject_story->شاهد طقس استفزاز فراغ فاشلاً في عالم موت</li>
+    <li>subject_story->شاهد طقس استفزاز الفراغ يفشل في عالم الموت</li>
     <li>subject_story->تناجى مع شظية آركوتيك فوق عمود صحراوي</li>
     <li>subject_gerund->إقامة طقوس نفسية</li>
-    <li>subject_gerund->إنشاء مواقع للطقوس</li>
+    <li>subject_gerund->إنشاء أماكن للطقوس</li>
     <li>subject_gerund->استفزاز كيانات الفراغ</li>
  </BasicPsychicRituals.generalRules.rulesStrings>
   
@@ -112,7 +112,7 @@
     <li>subject_story->تدرّب على استخدام مصادر طاقة مبتكرة</li>
     <li>subject_story->استكشف استخدام الوقود القائم على المعادن والألياف</li>
     <li>subject_story->اكتشف شغفاً بالنار والأشياء التي تحترق</li>
-    <li>subject_story->عمل فنياً يصون أنظمة الطاقة المدارية</li>
+    <li>subject_story->عمل تقنياً يصون أنظمة الطاقة المدارية</li>
     <li>subject_story->صهر الحياة البرية في نظام كوكبي كاملاً للحصول على الوقود</li>
     <li>subject_gerund->بناء مولدات تعمل بالبايوفيرايت</li>
     <li>subject_gerund->تشغيل المولدات باستخدام البايوفيرايت</li>
@@ -121,7 +121,7 @@
   <!-- EN: bioferrite harvester -->
   <BioferriteHarvesting.label>حاصدة البايوفيرايت</BioferriteHarvesting.label>
   <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
-  <BioferriteHarvesting.description>بناء حواصد بايوفيرايت تستخرج البايوفيرايت تلقائياً من الكيانات المأسورة. تنتج بايوفيرايت أكثر من الاستخراج اليدوي.</BioferriteHarvesting.description>
+  <BioferriteHarvesting.description>بناء حاصدات البايوفيرايت التي تستخرج البايوفيرايت تلقائياً من الكيانات المأسورة. تنتج بايوفيرايت أكثر من الاستخراج اليدوي.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -186,9 +186,9 @@
  </BioferriteShaping.generalRules.rulesStrings>
   
   <!-- EN: bliss lobotomy -->
-  <BlissLobotomy.label>فص جبهي للنعيم</BlissLobotomy.label>
+  <BlissLobotomy.label>استئصال الفص الجبهي للنعيم</BlissLobotomy.label>
   <!-- EN: Perform a surgery that lobotomizes a person, making them happier while rendering them incapable of intellectual and skilled labor. -->
-  <BlissLobotomy.description>إجراء جراحة تقوم بفص جبهي لشخص، مما يجعله أكثر سعادة بينما يصبح غير قادر على العمل الفكري والمهاري.</BlissLobotomy.description>
+  <BlissLobotomy.description>إجراء جراحة استئصال للفص الجبهي تجعل الشخص أكثر سعادة لكنها تجعله عاجزاً عن العمل الفكري والمهاري.</BlissLobotomy.description>
   <!-- EN:
     <li>subject->lobotomy</li>
     <li>subject_story->was eventually lobotomized for thought-crimes against the state</li>
@@ -207,9 +207,9 @@
  </BlissLobotomy.generalRules.rulesStrings>
   
   <!-- EN: blood rain -->
-  <BloodRain.label>مطر دموي</BloodRain.label>
+  <BloodRain.label>مطر الدم</BloodRain.label>
   <!-- EN: Perform a psychic ritual which causes blood-like psychofluid to fall from the sky. Anyone caught outside will soon be driven into a berserk rage. -->
-  <BloodRain.description>أداء طقس نفسي يتسبب في تساقط سائل نفسي يشبه الدم من السماء. أي شخص يُمسك في الخارج سيدفع قريباً إلى هياج هستيري.</BloodRain.description>
+  <BloodRain.description>أداء طقس نفسي يتسبب في تساقط سائل نفسي شبيه بالدم من السماء. وكل من يعلق في الخارج سيُدفع قريباً إلى هياج عنيف.</BloodRain.description>
   <!-- EN:
     <li>subject->blood rain</li>
     <li>subject_story->investigated ancient deist myths about organic precipitation</li>
@@ -230,7 +230,7 @@
   <!-- EN: brainwipe -->
   <Brainwipe.label>محو الدماغ</Brainwipe.label>
   <!-- EN: Perform a psychic ritual which erases much of a person's episodic memories. Traumatic events will be forgotten. Resistant prisoners will become easier to recruit. Allows recruiting unwaveringly loyal prisoners. -->
-  <Brainwipe.description>أداء طقس نفسي يمحو الكثير من ذكريات الشخص العرضية. ستُنسى الأحداث الصادمة. سيصبح السجناء المقاومون أسهل في التجنيد. يسمح بتجنيد السجناء المخلصين بثبات.</Brainwipe.description>
+  <Brainwipe.description>أداء طقس نفسي يمحو الكثير من الذكريات العرضية لدى الشخص. ستُنسى الأحداث الصادمة. وسيصبح السجناء المقاومون أسهل تجنيداً. ويتيح تجنيد السجناء ذوي الولاء الراسخ.</Brainwipe.description>
   <!-- EN:
     <li>subject->mind erasure</li>
     <li>subject_story->studied stories of episodic amnesia</li>
@@ -242,7 +242,7 @@
   -->
   <Brainwipe.generalRules.rulesStrings>
     <li>subject->محو العقل</li>
-    <li>subject_story->درس قصص فقدان الذاكرة النوبي</li>
+    <li>subject_story->درس قصصاً عن فقدان الذاكرة العرضي</li>
     <li>subject_story->عمل في عيادة مع الناجين من إصابات الدماغ</li>
     <li>subject_story->بحث في المسارات العصبية لفاقدي الذاكرة</li>
     <li>subject_story->أدار منشأة لغسل الأدمغة بعد الحروب المنسية</li>
@@ -253,7 +253,7 @@
   <!-- EN: chronophagy -->
   <Chronophagy.label>أكل الزمن</Chronophagy.label>
   <!-- EN: Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets. -->
-  <Chronophagy.description>أداء طقس نفسي يتسبب في شيخوخة الهدف بسرعة. سيصبح مستدعي الطقس أصغر سناً في هذه العملية. سيعاني الهدف من تلف في الدماغ نتيجة لذلك، والذي قد يكون مميتاً للأهداف المسنة.</Chronophagy.description>
+  <Chronophagy.description>أداء طقس نفسي يتسبب في شيخوخة الهدف بسرعة، بينما يصبح مستدعي الطقس أصغر سناً. وسيعاني الهدف تلفاً في الدماغ نتيجة لذلك، وقد يكون مميتاً للأهداف المسنة.</Chronophagy.description>
   <!-- EN:
     <li>subject->chronophagy</li>
     <li>subject_story->studied age-related degeneration</li>
@@ -322,9 +322,9 @@
  </DeathRefusal.generalRules.rulesStrings>
   
   <!-- EN: disruptor flares -->
-  <DisruptorFlares.label>مشاعل معطلة</DisruptorFlares.label>
+  <DisruptorFlares.label>مشاعل التشويش</DisruptorFlares.label>
   <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
-  <DisruptorFlares.description>بناء حزم مشاعل أساسها البايوفيرايت تكشف المخلوقات غير المرئية وتضيء منطقة.</DisruptorFlares.description>
+  <DisruptorFlares.description>بناء حزم مشاعل قائمة على البايوفيرايت تكشف المخلوقات غير المرئية وتضيء منطقة.</DisruptorFlares.description>
   <!-- EN:
     <li>subject->bioferrite flares</li>
     <li>subject->short-term lighting</li>
@@ -395,7 +395,7 @@
   <!-- EN: frenzy inducer -->
   <FrenzyInducer.label>محفز الهياج</FrenzyInducer.label>
   <!-- EN: Build shard-powered structures that generate a frenetic psychic field to make anyone nearby move and work faster. However, the unstable emotional energy creates a tendency towards violence, irritating anyone nearby. -->
-  <FrenzyInducer.description>بناء هياكل تعمل بالشظايا تولد حقلاً نفسياً مهتاجاً لجعل أي شخص قريب يتحرك ويعمل أسرع. ولكن الطاقة العاطفية غير المستقرة تخلق نزعة نحو العنف، مما يزعج أي شخص قريب.</FrenzyInducer.description>
+  <FrenzyInducer.description>بناء مبانٍ تعمل بالشظايا وتولد حقلاً نفسياً محموماً يجعل كل من بالقرب منها يتحرك ويعمل بسرعة أكبر. لكن الطاقة العاطفية غير المستقرة تخلق ميلاً نحو العنف وتزعج كل من حولها.</FrenzyInducer.description>
   <!-- EN:
     <li>subject->archotech frenzy inducers</li>
     <li>subject_story->worked as a motivational therapist</li>
@@ -410,7 +410,7 @@
     <li>subject_story->عمل معالجاً تحفيزياً</li>
     <li>subject_story->قرع الطبول على سفينة تجديف في عالم متوحش</li>
     <li>subject_story->بحث في تأثيرات حقول الآركوتيك المتنوعة على الوعي البشري</li>
-    <li>subject_story->أدار محطة نشوة في نادٍ سري تحت الأرض في عالم حضري</li>
+    <li>subject_story->أدار محطة موسيقى ترانس في نادٍ سري تحت الأرض في عالم حضري</li>
     <li>subject_gerund->إحداث الهياج</li>
     <li>subject_gerund->بناء محفزات الهياج من الآركوتيك</li>
  </FrenzyInducer.generalRules.rulesStrings>
@@ -429,15 +429,15 @@
   <GhoulEnhancements.generalRules.rulesStrings>
     <li>subject->تحسينات الغول</li>
     <li>subject_story->أجرى تجارب على الموتى ومن ماتوا مرتين</li>
-    <li>subject_story->زرع أغراضاً أكثر غرابة في الغيلان</li>
-    <li>subject_story->بحث في أطراف صناعية أكثر تعقيداً للغيلان</li>
-    <li>subject_gerund->تحسين غول بأطراف صناعية من البايوفيرايت</li>
+    <li>subject_story->زرع عناصر أكثر غرابة في الغيلان</li>
+    <li>subject_story->بحث في أطراف اصطناعية أكثر تعقيداً للغيلان</li>
+    <li>subject_gerund->تحسين غول بأطراف اصطناعية من البايوفيرايت</li>
  </GhoulEnhancements.generalRules.rulesStrings>
   
   <!-- EN: ghoul infusion -->
-  <GhoulInfusion.label>ضخ الغول</GhoulInfusion.label>
+  <GhoulInfusion.label>حقن الغول</GhoulInfusion.label>
   <!-- EN: Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat. -->
-  <GhoulInfusion.description>إجراء جراحة تضخ شظية آركية في شخص حي، محولة إياه إلى غول مرعب. الغيلان مقاتلون أقوياء في الالتحام لكنهم غير قادرين على العمل. ستصاب الغيلان بالجنون إذا لم تطعم ما يكفي من اللحم النيء.</GhoulInfusion.description>
+  <GhoulInfusion.description>إجراء جراحة تحقن شظية آركوتيك في شخص حي وتحوله إلى غول مرعب. الغيلان مقاتلون أشداء في الاشتباك لكنهم عاجزون عن العمل. وسيصاب الغيلان بالجنون إن لم يُطعموا ما يكفي من اللحم النيء.</GhoulInfusion.description>
   <!-- EN:
     <li>subject->ghoul creation</li>
     <li>subject_story->supplied condemned prisonworld inhabitants for urbworld conflicts</li>
@@ -451,7 +451,7 @@
     <li>subject_story->زوّد صراعات العوالم الحضرية بسكان محكومين من عالم سجن</li>
     <li>subject_story->عسكر حقن الآركايت ضمن برنامج تجريبي</li>
     <li>subject_story->درس الحياة الميتة المتوحشة في أطلال عالم ميت</li>
-    <li>subject_gerund->ضخ شظية آركوتيك في شخص حي</li>
+    <li>subject_gerund->حقن شظية آركوتيك في شخص حي</li>
     <li>subject_gerund->صنع غول</li>
  </GhoulInfusion.generalRules.rulesStrings>
   
@@ -481,7 +481,7 @@
   <!-- EN: insanity weaponry -->
   <InsanityWeaponry.label>أسلحة الجنون</InsanityWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that shock, manipulate, and destroy enemies using archotechnology. -->
-  <InsanityWeaponry.description>إعادة هيكلة شظايا آركوتيك إلى أسلحة محدودة الاستخدام تصعق، تتلاعب، وتدمر الأعداء باستخدام التكنولوجيا الآركية.</InsanityWeaponry.description>
+  <InsanityWeaponry.description>إعادة هيكلة شظايا آركوتيك إلى أسلحة محدودة الاستخدام تصعق الأعداء وتتلاعب بهم وتدمرهم باستخدام التكنولوجيا الآركوتيكية.</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
     <li>subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation</li>
@@ -544,7 +544,7 @@
   <!-- EN: mind-numb serum -->
   <MindNumbSerum.label>مصل تخدير العقل</MindNumbSerum.label>
   <!-- EN: Synthesize a serum that stabilizes a person's mood, preventing mental breaks. -->
-  <MindNumbSerum.description>تخليق مصل يثبت مزاج الشخص، مانعاً الانهيارات العقلية.</MindNumbSerum.description>
+  <MindNumbSerum.description>تخليق مصل يثبّت مزاج الشخص ويمنع الانهيارات النفسية.</MindNumbSerum.description>
   <!-- EN:
     <li>subject->mind-numb serum</li>
     <li>subject_story->sabotaged an emotional performance by secretly numbing the lead singer</li>
@@ -563,9 +563,9 @@
  </MindNumbSerum.generalRules.rulesStrings>
   
   <!-- EN: mutation weaponry -->
-  <MutationWeaponry.label>أسلحة التحول</MutationWeaponry.label>
+  <MutationWeaponry.label>أسلحة الطفرة</MutationWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that twist living targets into terrifying creatures. -->
-  <MutationWeaponry.description>إعادة هيكلة شظايا آركية إلى أسلحة محدودة الاستخدام تلتوي بالأهداف الحية إلى مخلوقات مرعبة.</MutationWeaponry.description>
+  <MutationWeaponry.description>إعادة هيكلة شظايا آركوتيك إلى أسلحة محدودة الاستخدام تلوي الأهداف الحية وتحولها إلى مخلوقات مرعبة.</MutationWeaponry.description>
   <!-- EN:
     <li>subject->mutation induction</li>
     <li>subject->archotech mutation weaponry</li>
@@ -579,7 +579,7 @@
   -->
   <MutationWeaponry.generalRules.rulesStrings>
     <li>subject->استحداث الطفرات</li>
-    <li>subject->أسلحة التحول الآركوتيكية</li>
+    <li>subject->أسلحة الطفرة الآركوتيكية</li>
     <li>subject_story->حلم بحياة جديدة مشبعة بالآركايت</li>
     <li>subject_story->شهد الآركوتيك وهي تشوّه الحياة النباتية</li>
     <li>subject_story->جرّب أسلحة جديدة</li>
@@ -592,7 +592,7 @@
   <!-- EN: neurosis pulse -->
   <NeurosisPulse.label>نبضة عصاب</NeurosisPulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region work faster but become more irritable. -->
-  <NeurosisPulse.description>أداء طقس نفسي يجعل الجميع في المنطقة يعملون أسرع لكنهم يصبحون أكثر هياجاً.</NeurosisPulse.description>
+  <NeurosisPulse.description>أداء طقس نفسي يجعل الجميع في المنطقة يعملون بسرعة أكبر لكنهم يصبحون أكثر انفعالاً.</NeurosisPulse.description>
   <!-- EN:
     <li>subject->neurosis pulse</li>
     <li>subject->work imperative</li>
@@ -684,7 +684,7 @@
     <li>subject_story->صان أنظمة الإنذار المبكر في موقع متقدم على عالم موت</li>
     <li>subject_story->درس الماسحات متعددة النطاقات لكشف الأنماط عبر الأنظمة</li>
     <li>subject_gerund->كشف غير المرئي</li>
-    <li>subject_gerund->كشف الكائنات الخفية</li>
+    <li>subject_gerund->كشف المخلوقات الخفية</li>
  </ProximityDetector.generalRules.rulesStrings>
   
   <!-- EN: psychophagy -->
@@ -736,7 +736,7 @@
   <!-- EN: serum synthesis -->
   <SerumSynthesis.label>تخليق المصل</SerumSynthesis.label>
   <!-- EN: Build a serum lab to synthesize high-tech serums. Serums harness archotechnological power to bestow a temporary effect on the user. -->
-  <SerumSynthesis.description>بناء مختبر أمصال لتخليق أمصال عالية التقنية. تسخر الأمصال قوة آركية تكنولوجية لمنح تأثير مؤقت على المستخدم.</SerumSynthesis.description>
+  <SerumSynthesis.description>بناء مختبر أمصال لتخليق أمصال عالية التقنية. تسخّر الأمصال قوة التكنولوجيا الآركوتيكية لمنح المستخدم تأثيراً مؤقتاً.</SerumSynthesis.description>
   <!-- EN:
     <li>subject->serum synthesis</li>
     <li>subject_story->was injected with archites to understand their effects</li>
@@ -757,7 +757,7 @@
   <!-- EN: skip abduction -->
   <SkipAbductionPlayer.label>اختطاف آني</SkipAbductionPlayer.label>
   <!-- EN: Perform a psychic ritual that abducts a random hostile person from anywhere in the world, putting them in a short-term coma for capture. -->
-  <SkipAbductionPlayer.description>أداء طقس نفسي يختطف شخصاً عدائياً عشوائياً من أي مكان في العالم، واضعاً إياه في غيبوبة قصيرة الأمد للأسر.</SkipAbductionPlayer.description>
+  <SkipAbductionPlayer.description>أداء طقس نفسي يختطف شخصاً معادياً عشوائياً من أي مكان في العالم، واضعاً إياه في غيبوبة قصيرة الأمد للأسر.</SkipAbductionPlayer.description>
   <!-- EN:
     <li>subject->psychic abduction</li>
     <li>subject->skip abduction</li>
@@ -772,7 +772,7 @@
     <li>subject->الاختطاف النفسي</li>
     <li>subject->الاختطاف الآني</li>
     <li>subject_story->شهد محاولة اختطاف لنبيل إمبراطوري</li>
-    <li>subject_story->افتُدي من قبل نباشي الخلد الترابي</li>
+    <li>subject_story->افتُدي من قبل جامعي خردة الخلد الترابي</li>
     <li>subject_story->راقب طقس نقل مكاني فاشلاً أجراه زعيم طائفة</li>
     <li>subject_story->بحث في النقل عبر المكان الذي تتوسطه الآركوتيك</li>
     <li>subject_gerund->اختطاف الأعداء عبر طقس نفسي</li>
@@ -780,9 +780,9 @@
  </SkipAbductionPlayer.generalRules.rulesStrings>
   
   <!-- EN: sleep suppressor -->
-  <SleepSuppressor.label>كابت النوم</SleepSuppressor.label>
+  <SleepSuppressor.label>مثبط النوم</SleepSuppressor.label>
   <!-- EN: Build shard-powered structures that stimulate those nearby to prevent fatigue. The device will irritate anyone nearby. -->
-  <SleepSuppressor.description>بناء هياكل تعمل بالشظايا تحفز القريبين لمنع التعب. سيزعج الجهاز أي شخص قريب.</SleepSuppressor.description>
+  <SleepSuppressor.description>بناء مبانٍ تعمل بالشظايا تحفز من حولها لمنع التعب. وسيزعج الجهاز أي شخص قريب.</SleepSuppressor.description>
   <!-- EN:
     <li>subject->sleep suppression</li>
     <li>subject_story->studied sleep deprivation in factory workers</li>
@@ -794,14 +794,14 @@
     <li>subject_gerund->suppressing sleep with archotech</li>
   -->
   <SleepSuppressor.generalRules.rulesStrings>
-    <li>subject->كبت النوم</li>
+    <li>subject->تثبيط النوم</li>
     <li>subject_story->درس الحرمان من النوم لدى عمال المصانع</li>
     <li>subject_story->بحث في استخدام المنشطات بين الجنود الإمبراطوريين</li>
     <li>subject_story->بحث في تأثيرات حقول الآركوتيك المتنوعة على الوعي البشري</li>
     <li>subject_story->عمل في مختبر نوم أبدي في العالم اللامع، حيث يحلم الأثرياء بحياتهم حتى تضيع</li>
-    <li>subject_story->أدار نداء الاستيقاظ في معسكر عمل على عالم سجن</li>
-    <li>subject_gerund->بناء كوابت نوم من الآركوتيك</li>
-    <li>subject_gerund->كبت النوم بالآركوتيك</li>
+    <li>subject_story->أدار نداء الاستيقاظ في مخيم عمل على عالم سجن</li>
+    <li>subject_gerund->بناء مثبطات نوم من الآركوتيك</li>
+    <li>subject_gerund->تثبيط النوم بالآركوتيك</li>
  </SleepSuppressor.generalRules.rulesStrings>
   
   <!-- EN: draw animals -->
@@ -828,7 +828,7 @@
   <!-- EN: summon fleshbeasts -->
   <SummonFleshbeastsPlayer.label>استدعاء وحوش اللحم</SummonFleshbeastsPlayer.label>
   <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
-  <SummonFleshbeastsPlayer.description>أداء طقس نفسي يستفز وحوش اللحم للخروج من الأرض بالقرب من الأعداء، مهاجمة أي شخص قريب.</SummonFleshbeastsPlayer.description>
+  <SummonFleshbeastsPlayer.description>أداء طقس نفسي يستفز وحوش اللحم لتنبثق من الأرض قرب الأعداء وتهاجم كل من بالقرب منها.</SummonFleshbeastsPlayer.description>
   <!-- EN:
     <li>subject->fleshbeast summoning</li>
     <li>subject_story->read ancient tomes about the origins of life</li>
@@ -840,8 +840,8 @@
     <li>subject_gerund->performing a ritual to summon fleshbeasts</li>
   -->
   <SummonFleshbeastsPlayer.generalRules.rulesStrings>
-    <li>subject->استدعاء وحش اللحم</li>
-    <li>subject_story->قرأ مجلدات قديمة عن أصول الحياة</li>
+    <li>subject->استدعاء وحوش اللحم</li>
+    <li>subject_story->قرأ أسفاراً قديمة عن أصول الحياة</li>
     <li>subject_story->عاش بنفسه التولد التلقائي لدى الجرذان المتفجرة في سيهي</li>
     <li>subject_story->شاهد فيلماً قديماً عن اندماج اللحم واستلهم منه</li>
     <li>subject_story->درس نقل الوعي وانفصاله في الاندماج العضوي</li>
@@ -867,7 +867,7 @@
     <li>subject->استحضار بوابة الحفرة</li>
     <li>subject_story->بحث في غزوات اندماج اللحم</li>
     <li>subject_story->جمع حكايات عن كائنات جشطلتية</li>
-    <li>subject_story->أدار مكتبة المجلدات في مدرسة طائفة على عالم ميت</li>
+    <li>subject_story->أدار مكتبة الأسفار في مدرسة طائفة على عالم ميت</li>
     <li>subject_story->ترأس طقس الهبوط</li>
     <li>subject_gerund->إقامة طقس لإنشاء بوابة حفرة</li>
     <li>subject_gerund->استدعاء بوابة حفرة</li>
@@ -876,7 +876,7 @@
   <!-- EN: draw shamblers -->
   <SummonShamblers.label>اجتذاب المترنحين</SummonShamblers.label>
   <!-- EN: Perform a psychic ritual which will draw a horde of animated corpses. While hostile, the corpses won't attack your colony directly. They can be captured for study. -->
-  <SummonShamblers.description>أداء طقس نفسي سيجتذب حشداً من الجثث المتحركة. بينما تكون عدائية، لن تهاجم الجثث مستعمرتك مباشرة. يمكن أسرها للدراسة.</SummonShamblers.description>
+  <SummonShamblers.description>أداء طقس نفسي سيجتذب حشداً من الجثث المتحركة. بينما تكون معادية، لن تهاجم الجثث مستعمرتك مباشرة. يمكن أسرها للدراسة.</SummonShamblers.description>
   <!-- EN:
     <li>subject->shambler summoning rituals</li>
     <li>subject_story->studied the necrocults of the deadworlds, from the safety of a university library</li>

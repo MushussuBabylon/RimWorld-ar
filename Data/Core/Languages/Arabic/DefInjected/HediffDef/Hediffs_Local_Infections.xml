@@ -9,9 +9,9 @@
   <!-- EN: minor -->
   <Animal_Flu.stages.minor.label>طفيف</Animal_Flu.stages.minor.label>
   <!-- EN: major -->
-  <Animal_Flu.stages.major.label>شديد</Animal_Flu.stages.major.label>
+  <Animal_Flu.stages.major.label>كبير</Animal_Flu.stages.major.label>
   <!-- EN: extreme -->
-  <Animal_Flu.stages.extreme.label>مفرط</Animal_Flu.stages.extreme.label>
+  <Animal_Flu.stages.extreme.label>شديد</Animal_Flu.stages.extreme.label>
   
   <!-- EN: plague -->
   <Animal_Plague.label>طاعون</Animal_Plague.label>
@@ -21,11 +21,11 @@
   <!-- EN: minor -->
   <Animal_Plague.stages.minor.label>طفيف</Animal_Plague.stages.minor.label>
   <!-- EN: major -->
-  <Animal_Plague.stages.major.label>شديد</Animal_Plague.stages.major.label>
+  <Animal_Plague.stages.major.label>كبير</Animal_Plague.stages.major.label>
   <!-- EN: extreme -->
-  <Animal_Plague.stages.extreme-0.label>مفرط</Animal_Plague.stages.extreme-0.label>
+  <Animal_Plague.stages.extreme-0.label>شديد</Animal_Plague.stages.extreme-0.label>
   <!-- EN: extreme -->
-  <Animal_Plague.stages.extreme-1.label>مفرط</Animal_Plague.stages.extreme-1.label>
+  <Animal_Plague.stages.extreme-1.label>شديد</Animal_Plague.stages.extreme-1.label>
   
   <!-- EN: fibrous mechanites -->
   <FibrousMechanites.label>ميكانيتات ليفية</FibrousMechanites.label>
@@ -44,9 +44,9 @@
   <!-- EN: minor -->
   <Flu.stages.minor.label>طفيف</Flu.stages.minor.label>
   <!-- EN: major -->
-  <Flu.stages.major.label>شديد</Flu.stages.major.label>
+  <Flu.stages.major.label>كبير</Flu.stages.major.label>
   <!-- EN: extreme -->
-  <Flu.stages.extreme.label>مفرط</Flu.stages.extreme.label>
+  <Flu.stages.extreme.label>شديد</Flu.stages.extreme.label>
   
   <!-- EN: gut worms -->
   <GutWorms.label>ديدان الأمعاء</GutWorms.label>
@@ -63,9 +63,9 @@
   <!-- EN: minor -->
   <LungRot.stages.minor.label>طفيف</LungRot.stages.minor.label>
   <!-- EN: major -->
-  <LungRot.stages.major.label>شديد</LungRot.stages.major.label>
+  <LungRot.stages.major.label>كبير</LungRot.stages.major.label>
   <!-- EN: extreme -->
-  <LungRot.stages.extreme.label>مفرط</LungRot.stages.extreme.label>
+  <LungRot.stages.extreme.label>شديد</LungRot.stages.extreme.label>
   
   <!-- EN: rot stink exposure -->
   <LungRotExposure.label>تعرض لغاز رائحة التعفن</LungRotExposure.label>
@@ -76,7 +76,7 @@
   <!-- EN: minor -->
   <LungRotExposure.stages.minor.label>طفيف</LungRotExposure.stages.minor.label>
   <!-- EN: major -->
-  <LungRotExposure.stages.major.label>شديد</LungRotExposure.stages.major.label>
+  <LungRotExposure.stages.major.label>كبير</LungRotExposure.stages.major.label>
   <!-- EN: serious -->
   <LungRotExposure.stages.serious.label>خطير</LungRotExposure.stages.serious.label>
   
@@ -87,14 +87,14 @@
   <!-- EN: minor -->
   <Malaria.stages.minor.label>طفيف</Malaria.stages.minor.label>
   <!-- EN: major -->
-  <Malaria.stages.major.label>شديد</Malaria.stages.major.label>
+  <Malaria.stages.major.label>كبير</Malaria.stages.major.label>
   <!-- EN: extreme -->
-  <Malaria.stages.extreme.label>مفرط</Malaria.stages.extreme.label>
+  <Malaria.stages.extreme.label>شديد</Malaria.stages.extreme.label>
   
   <!-- EN: muscle parasites -->
   <MuscleParasites.label>طفيليات العضلات</MuscleParasites.label>
   <!-- EN: Parasitic creatures in the muscles. These cause weakness and a lack of coordination. -->
-  <MuscleParasites.description>كائنات طفيلية في العضلات. تسبب ضعفاً وفقداناً للتنسيق.</MuscleParasites.description>
+  <MuscleParasites.description>مخلوقات طفيلية في العضلات. تسبب ضعفاً وفقداناً للتنسيق.</MuscleParasites.description>
   
   <!-- EN: plague -->
   <Plague.label>طاعون</Plague.label>
@@ -104,11 +104,11 @@
   <!-- EN: minor -->
   <Plague.stages.minor.label>طفيف</Plague.stages.minor.label>
   <!-- EN: major -->
-  <Plague.stages.major.label>شديد</Plague.stages.major.label>
+  <Plague.stages.major.label>كبير</Plague.stages.major.label>
   <!-- EN: extreme -->
-  <Plague.stages.extreme-0.label>مفرط</Plague.stages.extreme-0.label>
+  <Plague.stages.extreme-0.label>شديد</Plague.stages.extreme-0.label>
   <!-- EN: extreme -->
-  <Plague.stages.extreme-1.label>مفرط</Plague.stages.extreme-1.label>
+  <Plague.stages.extreme-1.label>شديد</Plague.stages.extreme-1.label>
   
   <!-- EN: scaria infection -->
   <ScariaInfection.label>عدوى السكاريا</ScariaInfection.label>
@@ -117,15 +117,15 @@
   <!-- EN: Scaria: {PAWN_nameDef} -->
   <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>سكاريا: {PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
   <!-- EN: {PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed. -->
-  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} أصيب بالسكاريا من عدوا{PAWN_possessive}، مما أفقده صوابه وجعله في حالة هياج. يمكن الشفاء من السكاريا بعملية طبية خاصة، لكن يجب أولاً شلـ{PAWN_objective}.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} أصيب بالسكاريا من عدوا{PAWN_possessive}، مما دفعـ{PAWN_objective} إلى حالة هياج جنوني. يمكن الشفاء من السكاريا بعملية طبية خاصة، لكن يجب أولاً شل {PAWN_nameDef}.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
   <!-- EN: a scaria infection -->
   <ScariaInfection.labelNoun>عدوى سكاريا</ScariaInfection.labelNoun>
   <!-- EN: minor -->
   <ScariaInfection.stages.minor.label>طفيف</ScariaInfection.stages.minor.label>
   <!-- EN: major -->
-  <ScariaInfection.stages.major.label>شديد</ScariaInfection.stages.major.label>
+  <ScariaInfection.stages.major.label>كبير</ScariaInfection.stages.major.label>
   <!-- EN: extreme -->
-  <ScariaInfection.stages.extreme.label>مفرط</ScariaInfection.stages.extreme.label>
+  <ScariaInfection.stages.extreme.label>شديد</ScariaInfection.stages.extreme.label>
   
   <!-- EN: sensory mechanites -->
   <SensoryMechanites.label>ميكانيتات حسية</SensoryMechanites.label>
@@ -145,11 +145,11 @@
   <!-- EN: minor -->
   <SleepingSickness.stages.minor-1.label>طفيف</SleepingSickness.stages.minor-1.label>
   <!-- EN: major -->
-  <SleepingSickness.stages.major.label>شديد</SleepingSickness.stages.major.label>
+  <SleepingSickness.stages.major.label>كبير</SleepingSickness.stages.major.label>
   <!-- EN: extreme -->
-  <SleepingSickness.stages.extreme-0.label>مفرط</SleepingSickness.stages.extreme-0.label>
+  <SleepingSickness.stages.extreme-0.label>شديد</SleepingSickness.stages.extreme-0.label>
   <!-- EN: extreme -->
-  <SleepingSickness.stages.extreme-1.label>مفرط</SleepingSickness.stages.extreme-1.label>
+  <SleepingSickness.stages.extreme-1.label>شديد</SleepingSickness.stages.extreme-1.label>
   
   <!-- EN: infection -->
   <WoundInfection.label>عدوى</WoundInfection.label>
@@ -160,10 +160,10 @@
   <!-- EN: minor -->
   <WoundInfection.stages.minor.label>طفيف</WoundInfection.stages.minor.label>
   <!-- EN: major -->
-  <WoundInfection.stages.major.label>شديد</WoundInfection.stages.major.label>
+  <WoundInfection.stages.major.label>كبير</WoundInfection.stages.major.label>
   <!-- EN: extreme -->
-  <WoundInfection.stages.extreme-0.label>مفرط</WoundInfection.stages.extreme-0.label>
+  <WoundInfection.stages.extreme-0.label>شديد</WoundInfection.stages.extreme-0.label>
   <!-- EN: extreme -->
-  <WoundInfection.stages.extreme-1.label>مفرط</WoundInfection.stages.extreme-1.label>
+  <WoundInfection.stages.extreme-1.label>شديد</WoundInfection.stages.extreme-1.label>
   
 </LanguageData>

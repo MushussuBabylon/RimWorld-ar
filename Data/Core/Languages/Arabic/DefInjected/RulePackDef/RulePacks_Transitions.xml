@@ -74,10 +74,10 @@
     <li>flavor->في [fireball] [AdjectiveLarge]</li>
     <li>flavor(p=4)->في [fireball]</li>
     <li>flavor(p=4)-></li>
-    <li>flavorsuffix->، متناثرا [pieces] [everywhere]</li>
-    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->، متناثرا [Gore] [everywhere]</li>
-    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->، تاركا كومة صغيرة من [Gore]</li>
-    <li>flavorsuffix->، تاركا فوهة صغيرة</li>
+    <li>flavorsuffix->، متناثراً [pieces] [everywhere]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->، متناثراً [Gore] [everywhere]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->، تاركاً كومة صغيرة من [Gore]</li>
+    <li>flavorsuffix->، تاركاً فوهة صغيرة</li>
     <li>flavorsuffix(p=4)-></li>
     <li>fireball(p=3)->كرة نارية</li>
     <li>fireball->كرة لهب</li>
@@ -86,7 +86,7 @@
     <li>pieces->قطع</li>
     <li>pieces->شظايا</li>
     <li>everywhere->في كل مكان</li>
-    <li>everywhere->بعيدا وواسعا</li>
+    <li>everywhere->بعيداً وواسعاً</li>
  </Transition_DiedExplosive.rulePack.rulesStrings>
   
   <!-- EN:
@@ -148,13 +148,13 @@
     <li>collapse->يسقط</li>
     <li>collapse(SUBJECT_flesh!=Mechanoid)->ينهار</li>
     <li>collapse(SUBJECT_flesh==Mechanoid)->يتحطم</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->يتوقف تماما</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->يتوقف تماماً</li>
     <li>collapse(SUBJECT_flesh==Mechanoid)->يفقد الطاقة الرئيسية</li>
     <li>collapsed->انهار</li>
     <li>collapsed->سقط</li>
     <li>collapsed(SUBJECT_flesh!=Mechanoid)->انهار</li>
     <li>collapsed(SUBJECT_flesh==Mechanoid)->تحطم</li>
-    <li>collapsed(SUBJECT_flesh==Mechanoid)->توقف تماما</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->توقف تماماً</li>
     <li>collapsed(SUBJECT_flesh==Mechanoid)->فقد الطاقة الرئيسية</li>
     <li>helplessly->بلا حول</li>
     <li>helplessly(SUBJECT_flesh!=Mechanoid)->فاقد الوعي</li>

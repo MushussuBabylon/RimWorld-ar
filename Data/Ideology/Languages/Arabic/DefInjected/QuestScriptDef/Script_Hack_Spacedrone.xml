@@ -9,8 +9,8 @@
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
   <Hack_Spacedrone.questDescriptionRules.rulesStrings>
-    <li>questDescription->لقد اكتشفت طائرة بدون طيار فضائية في المدار قد تحتوي على معلومات عن [relic_name]. لديك الكود الذي سيجبرها على الهبوط في [map_definite].\n\nللحصول على المعلومات، اخترق حاسوب الطائرة. يستغرق الاختراق وقتاً، لكن أولئك الأقوياء في المهارة الفكرية يمكنهم تسريع العملية.[raidsDescription]\n\nبعد الهبوط، ستدمر الطائرة نفسها ذاتياً خلال [destroyDelayTicks_duration].</li>
-    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] من [enemyFaction_name] س[droneDetectionMethod]. طالما أنها موجودة، سيرسلون مهاجمين كل [raidIntervalAvg_duration] تقريباً لتدميرها وسرقة الثروة التي يعتقدون أنها تحتويها. سيكون لديك بعض الوقت لتحضير الدفاعات حولها قبل وصولهم.</li>
+    <li>questDescription->لقد اكتشفت طائرة فضائية بدون طيار في المدار قد تحتوي على معلومات عن [relic_name]. لديك الرمز الذي سيجبرها على الهبوط في [map_definite].\n\nللحصول على المعلومات، اخترق حاسوب الطائرة. يستغرق الاختراق وقتاً، لكن أصحاب المهارة الفكرية العالية يمكنهم تسريع العملية.[raidsDescription]\n\nبعد الهبوط، ستدمر الطائرة نفسها بعد [destroyDelayTicks_duration].</li>
+    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] من [enemyFaction_name] [droneDetectionMethod]. طالما أنها موجودة، سيرسلون مهاجمين كل [raidIntervalAvg_duration] تقريباً لتدميرها وسرقة الثروة التي يعتقدون أنها تحتويها. سيكون لديك بعض الوقت لتحضير الدفاعات حولها قبل وصولهم.</li>
     <li>raidsDescription(allowViolence==false)-></li>
     <li>droneDetectionMethod(enemyFactionNeolithic==true)->سيرصدون الطائرة أثناء هبوطها</li>
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->سيكتشفون توقيع الطاقة للطائرة</li>

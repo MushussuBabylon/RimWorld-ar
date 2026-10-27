@@ -14,7 +14,7 @@
     <li>circumstance_group->[circumstance_phrase]</li>
     <li>desc_sentence_group->[desc_sentence] [style_group]</li>
     <li>context_sentence->هذا [depiction] يشير إلى [tale_noun] في [DATE].</li>
-    <li>context_sentence->هذا [depiction] يتعلق بـ [tale_noun] في [DATE].</li>
+    <li>context_sentence->هذا [depiction] يتعلق بـ[tale_noun] في [DATE].</li>
     <li>context_sentence->هذا [depiction] يروي قصة [tale_noun] في [DATE].</li>
  </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
   
@@ -215,7 +215,7 @@
     <li>artconjunction->بشكل غير عادي لهذا النوع من الأعمال،</li>
     <li>artconjunction->على الرغم من قلة توقع ذلك،</li>
     <li>artconjunction->بجانب ذلك،</li>
-    <li>artextra_clause->الصورة محاطة بـ [subimageplural]</li>
+    <li>artextra_clause->الصورة محاطة بـ[subimageplural]</li>
     <li>artextra_clause->على حافة الصورة توجد [subimageplural]</li>
     <li>artextra_clause->يوجد [subimagesingle] [side_position]</li>
     <li>artextra_clause->الموضوعات أمام [subimageany]</li>
@@ -229,10 +229,10 @@
     <li>artextra_clause->تظهر [Quantity_adjphrase] [pawn_adj] [Character]s [side_position]</li>
     <li>artextra_clause->[Animal] [idles] [side_position]</li>
     <li>artextra_clause->إذا أغمضت عينيك، فإن التكوين [composition] للصورة يكشف عن مخطط [subimageany]</li>
-    <li>artextra_clause->الرأس [emotional_expression] لـ [pawn_adj] [PersonJob] يراقب الجميع</li>
+    <li>artextra_clause->الرأس [emotional_expression] لـ[pawn_adj] [PersonJob] يراقب الجميع</li>
     <li>artextra_clause->[pawn_adj] [PersonJob] يراقب الجميع بينما [emotional_expression]</li>
     <li>artextra_clause->رأس [pawn_adj] [PersonJob] يراقب الجميع</li>
-    <li>artextra_clause->الصورة بأكملها مرسومة بترتيب دقيق لـ [subimageplural]</li>
+    <li>artextra_clause->الصورة بأكملها مرسومة بترتيب دقيق لـ[subimageplural]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
     <li>subimagesingle(p=4)->[Character]</li>
@@ -253,7 +253,7 @@
     <li>pawn_adj->مجنون</li>
     <li>pawn_adj->شاب</li>
     <li>pawn_adj->عجوز</li>
-    <li>pawn_adj->مغطى بـ [Gore]</li>
+    <li>pawn_adj->مغطى بـ[Gore]</li>
     <li>pawn_adj->قذر</li>
     <li>pawn_adj->يرتدي [Apparel]</li>
     <li>pawn_adj->يحمل [Weapon]</li>

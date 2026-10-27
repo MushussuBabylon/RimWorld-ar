@@ -39,32 +39,32 @@
     <li>r_logentry->[INITIATOR_nameDef] جعل [RECIPIENT_nameDef] [reaction].</li>
     <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] لعب [babyGame] مع [RECIPIENT_nameDef].</li>
-    <li>reaction->قهقهة</li>
-    <li>reaction->ابتسامة</li>
-    <li>reaction->تلوّى فرحاً</li>
-    <li>reaction->ضحكة</li>
-    <li>reaction->سال لعابه بدلال</li>
-    <li>reaction->قرقرة</li>
-    <li>reaction->صرخة فرح</li>
-    <li>reaction->تجشؤ</li>
-    <li>reaction->تحديق بذهول</li>
+    <li>reaction->يقهقه</li>
+    <li>reaction->يبتسم</li>
+    <li>reaction->يتلوّى فرحاً</li>
+    <li>reaction->يضحك</li>
+    <li>reaction->يسيل منه اللعاب بدلال</li>
+    <li>reaction->يقرقر</li>
+    <li>reaction->يصرخ فرحاً</li>
+    <li>reaction->يتجشأ</li>
+    <li>reaction->يحدّق بانبهار</li>
     <li>interaction->أسعد</li>
     <li>interaction->لعب مع</li>
     <li>interaction->سلّى</li>
     <li>interaction->أضحك</li>
     <li>interaction->دغدغ</li>
-    <li>interaction->داعب بأنفه</li>
+    <li>interaction->داعب</li>
     <li>interaction->شمشم</li>
     <li>interaction->عانق</li>
-    <li>interaction->تقاذف</li>
-    <li>interaction->غنّى لـ</li>
-    <li>interaction->حكى قصة لـ</li>
-    <li>interaction->لعب خدعة سحرية على</li>
-    <li>babyGame->اختباء (غميضة)</li>
-    <li>babyGame->بيكابو (اختباء الوجه)</li>
-    <li>babyGame->اعثر على الإصبع</li>
-    <li>babyGame->التقليد (القرد يرى، القرد يفعل)</li>
-    <li>babyGame->اعرض وقل</li>
+    <li>interaction->هدهد</li>
+    <li>interaction->غنّى على مسمع</li>
+    <li>interaction->حكى قصة إلى</li>
+    <li>interaction->أدّى خدعة سحرية أمام</li>
+    <li>babyGame->الغميضة</li>
+    <li>babyGame->الاختفاء والظهور</li>
+    <li>babyGame->البحث عن الإصبع</li>
+    <li>babyGame->تقليد القرد</li>
+    <li>babyGame->العرض والحكي</li>
     <li>babyGame->دمى الأصابع</li>
  </BabyPlay.logRulesInitiator.rulesStrings>
   
@@ -104,16 +104,16 @@
     <li>article_animal->العنكبوت العملاق</li>
     <li>article_animal->الثرمبو</li>
     <li>article_animal->الجرذ المتفجر</li>
-    <li>article_animal->شنشيلة</li>
+    <li>article_animal->الشينشيلا</li>
     <li>article_animal->خنزير غينيا</li>
-    <li>article_animal->كوبرا</li>
-    <li>article_animal->طائر الإيمو</li>
-    <li>article_animal->إغوانا</li>
-    <li>article_animal->راكون</li>
-    <li>article_animal->وارغ</li>
+    <li>article_animal->الكوبرا</li>
+    <li>article_animal->الإيمو</li>
+    <li>article_animal->الإغوانا</li>
+    <li>article_animal->الراكون</li>
+    <li>article_animal->الوارغ</li>
     <li>article_animal->الياك</li>
-    <li>article_animal->سنجاب</li>
-    <li>article_animal->موفالو</li>
+    <li>article_animal->السنجاب</li>
+    <li>article_animal->الموفالو</li>
     <li>animal_verb->ترويض</li>
     <li>animal_verb->إطعام</li>
     <li>animal_verb->تهدئة</li>
@@ -124,7 +124,7 @@
     <li>subject->الحياة البرية الخطيرة</li>
     <li>subject->الزواحف</li>
     <li>subject->سكاريا</li>
-    <li>subject->طعام الحيوانات الجاف</li>
+    <li>subject->العلف</li>
  </LessonAnimals.logRulesInitiator.rulesStrings>
   
   <!-- EN: art lesson -->
@@ -155,19 +155,19 @@
     <li>article_tool->إزميل</li>
     <li>article_tool->قماش رسم</li>
     <li>article_tool->كتلة طين</li>
-    <li>action->صنع الفن بـ</li>
+    <li>action->صنع الفن باستخدام</li>
     <li>action->استخدام</li>
-    <li>action->التعبير عن النفس بـ</li>
-    <li>action_gerund->صنع الفن بـ</li>
+    <li>action->التعبير عن النفس باستخدام</li>
+    <li>action_gerund->صنع الفن باستخدام</li>
     <li>action_gerund->استخدام</li>
-    <li>action_gerund->التعبير عن النفس بـ</li>
+    <li>action_gerund->التعبير عن النفس باستخدام</li>
     <li>subject->مواد النحت</li>
-    <li>subject->فنانون مشهورون</li>
+    <li>subject->فنانين مشهورين</li>
     <li>subject->لوحات مشهورة</li>
     <li>subject->معارض العالم اللامع</li>
     <li>subject->فن البورتريه</li>
     <li>subject->الفن التجريدي</li>
-    <li>subject->خلط الدهانات</li>
+    <li>subject->خلط الألوان</li>
  </LessonArtistic.logRulesInitiator.rulesStrings>
   
   <!-- EN: construction lesson -->
@@ -198,10 +198,10 @@
     <li>article_tool->سلم</li>
     <li>article_tool->ميزان ماء</li>
     <li>action->استخدام</li>
-    <li>action->العمل بـ</li>
+    <li>action->العمل باستخدام</li>
     <li>action->فحص</li>
     <li>action_gerund->استخدام</li>
-    <li>action_gerund->العمل بـ</li>
+    <li>action_gerund->العمل باستخدام</li>
     <li>action_gerund->فحص</li>
     <li>subject->العمارة</li>
     <li>subject->تقنيات البناء</li>
@@ -240,20 +240,20 @@
     <li>article_tool->ملعقة مسطحة</li>
     <li>article_tool->فرن</li>
     <li>article_tool->قدر</li>
-    <li>article_tool->جهاز توزيع عجينة المغذيات</li>
+    <li>article_tool->موزع المعجون الغذائي</li>
     <li>article_tool->طاولة جزارة</li>
     <li>action->تنظيف</li>
-    <li>action->الطبخ بـ</li>
+    <li>action->الطبخ باستخدام</li>
     <li>action_gerund->تنظيف</li>
-    <li>action_gerund->الطبخ بـ</li>
+    <li>action_gerund->الطبخ باستخدام</li>
     <li>subject->توابل</li>
-    <li>subject->وجبات النجاة المعبأة</li>
+    <li>subject->وجبات النجاة المغلفة</li>
     <li>subject->أنواع البيض</li>
     <li>subject->أنواع اللحوم</li>
     <li>subject->نكهات</li>
     <li>subject->وصفات</li>
-    <li>situation->أثناء القوافل</li>
-    <li>situation->معصوب العينين</li>
+    <li>situation->أثناء السفر في قافلة</li>
+    <li>situation->مع عصب العينين</li>
     <li>situation->على عجل</li>
     <li>situation->بأمان</li>
  </LessonCooking.logRulesInitiator.rulesStrings>
@@ -292,25 +292,25 @@
     <li>article_tool->لوحة دارات</li>
     <li>article_tool->طاولة خياطة</li>
     <li>article_tool->طاولة تشغيل آلي</li>
-    <li>article_tool->مصنع آلي</li>
+    <li>article_tool->طاولة تصنيع</li>
     <li>action->استخدام</li>
-    <li>action->العمل بـ</li>
+    <li>action->العمل باستخدام</li>
     <li>action->فحص</li>
     <li>action_gerund->استخدام</li>
-    <li>action_gerund->العمل بـ</li>
+    <li>action_gerund->العمل باستخدام</li>
     <li>action_gerund->فحص</li>
     <li>subject->تنظيم الأدوات</li>
     <li>subject->إنجازات التصليح</li>
-    <li>subject->أدوات</li>
+    <li>subject->الأجهزة الصغيرة</li>
     <li>subject->أنواع الأقمشة</li>
     <li>subject->تقنيات نسج القماش</li>
-    <li>subject->الدرع الصفيحي</li>
+    <li>subject->الدرع الصفائحي</li>
     <li>subject->أحزمة الأدوات</li>
-    <li>subject->البيونيات</li>
+    <li>subject->الأجهزة الإلكترونية الحيوية</li>
     <li>situation->بأمان</li>
-    <li>situation->بدون تعليمات</li>
+    <li>situation->دون تعليمات</li>
     <li>situation->على ضوء الشموع</li>
-    <li>situation(p=0.1)->وهو ثمل</li>
+    <li>situation(p=0.1)->في حالة سُكر</li>
  </LessonCrafting.logRulesInitiator.rulesStrings>
   
   <!-- EN: lesson -->
@@ -319,7 +319,7 @@
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
   <LessonGeneric.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] علّم درساً لـ[RECIPIENT_nameDef]</li>
+    <li>r_logentry->[INITIATOR_nameDef] ألقى درساً على [RECIPIENT_nameDef]</li>
  </LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
@@ -340,17 +340,17 @@
   -->
   <LessonIntellectual.logRulesInitiator.rulesStrings>
     <li>subject->علم الوراثة</li>
-    <li>subject->الطبعات التقنية</li>
+    <li>subject->المخططات التقنية</li>
     <li>subject->وظائف المحلل المتعدد</li>
     <li>subject->الفلسفة</li>
     <li>subject->الرياضيات</li>
     <li>subject->علم الأحياء</li>
     <li>subject->الكيمياء</li>
-    <li>subject->ألغاز الأركوتك</li>
-    <li>subject->مفاعلات المركبات الفضائية</li>
+    <li>subject->ألغاز الآركوتيك</li>
+    <li>subject->مفاعلات سفن الفضاء</li>
     <li>subject->المنهج العلمي</li>
-    <li>subject->الأوراق البيضاء الرائدة</li>
-    <li>subject->دفع جونسون-تناكا</li>
+    <li>subject->الأوراق البيضاء التأسيسية</li>
+    <li>subject->دفع جونسون-تاناكا</li>
  </LessonIntellectual.logRulesInitiator.rulesStrings>
   
   <!-- EN: medical lesson -->
@@ -395,7 +395,7 @@
     <li>article_tool->ضمادة</li>
     <li>article_tool->حقنة</li>
     <li>article_tool->نبتة الجذر الشافي</li>
-    <li>article_tool->شاشة العلامات الحيوية</li>
+    <li>article_tool->مراقب العلامات الحيوية</li>
     <li>article_tool->مشرط</li>
     <li>article_tool->جرعة مصل الميكانويد الشافي</li>
     <li>article_tool->مانع الألم</li>
@@ -407,13 +407,13 @@
     <li>hediff->نوبة قلبية</li>
     <li>hediff->ضربة حر</li>
     <li>hediff->تسمم غذائي</li>
-    <li>hediff->سرطان</li>
+    <li>hediff->سرطانة</li>
     <li>hediff->ديدان الأمعاء</li>
     <li>hediff->طفيليات العضلات</li>
-    <li>hediff->عجز المشي الشللي</li>
+    <li>hediff->العجز الحركي الشللي</li>
     <li>hediff->الملاريا</li>
     <li>hediff->الإنفلونزا</li>
-    <li>hediff->تليف الكبد</li>
+    <li>hediff->تشمع الكبد</li>
     <li>medical_verb->تشخيص</li>
     <li>medical_verb->فرز</li>
     <li>medical_verb->علاج</li>
@@ -456,27 +456,27 @@
     <li>article_tool->فأس</li>
     <li>article_tool->هراوة</li>
     <li>article_tool->سيف</li>
-    <li>article_tool->شفرة مرفق</li>
+    <li>article_tool->نصل مرفق</li>
     <li>article_tool->مخلب يد</li>
     <li>article_tool->سيف طويل</li>
     <li>article_tool->سيف أحادي الجزيء</li>
-    <li>article_tool->سيف بلازما</li>
+    <li>article_tool->سيف البلازما</li>
     <li>article_tool->رمح</li>
     <li>article_tool->صولجان</li>
     <li>article_tool->مطرقة حرب</li>
     <li>article_tool->قبضة</li>
     <li>action->صد</li>
-    <li>action->قتال بـ</li>
-    <li>action->هجوم مضاد بـ</li>
-    <li>action->الاعتناء بـ</li>
+    <li>action->القتال باستخدام</li>
+    <li>action->مواجهة</li>
+    <li>action->صيانة</li>
     <li>action->استخدام</li>
-    <li>action->تأرجح</li>
+    <li>action->هزّ</li>
     <li>action_gerund->صد</li>
-    <li>action_gerund->قتال بـ</li>
-    <li>action_gerund->هجوم مضاد بـ</li>
-    <li>action_gerund->الاعتناء بـ</li>
+    <li>action_gerund->القتال باستخدام</li>
+    <li>action_gerund->مواجهة</li>
+    <li>action_gerund->صيانة</li>
     <li>action_gerund->استخدام</li>
-    <li>action_gerund->تأرجح</li>
+    <li>action_gerund->هزّ</li>
  </LessonMelee.logRulesInitiator.rulesStrings>
   
   <!-- EN: mining lesson -->
@@ -504,18 +504,18 @@
     <li>situation(p=2)->underground</li>
   -->
   <LessonMining.logRulesInitiator.rulesStrings>
-    <li>article_tool->فأس</li>
-    <li>article_tool->حفار عميق</li>
+    <li>article_tool->معول</li>
+    <li>article_tool->مثقاب عميق</li>
     <li>article_tool->مجرفة</li>
     <li>article_tool->ماسح معادن بعيد المدى</li>
-    <li>article_tool->ماسح أرضي مخترق</li>
+    <li>article_tool->ماسح اختراق الأرض</li>
     <li>action->استخدام</li>
-    <li>action->التعدين بـ</li>
-    <li>action->العمل بـ</li>
+    <li>action->التعدين باستخدام</li>
+    <li>action->العمل باستخدام</li>
     <li>action->فحص</li>
     <li>action_gerund->استخدام</li>
-    <li>action_gerund->التعدين بـ</li>
-    <li>action_gerund->العمل بـ</li>
+    <li>action_gerund->التعدين باستخدام</li>
+    <li>action_gerund->العمل باستخدام</li>
     <li>action_gerund->فحص</li>
     <li>subject->عروق المعادن</li>
     <li>subject->الأحجار الكريمة</li>
@@ -553,18 +553,18 @@
     <li>article_tool->رشاش ماء</li>
     <li>article_tool->مجرفة</li>
     <li>article_tool->مقص تقليم</li>
-    <li>action->الزراعة بـ</li>
+    <li>action->الزراعة باستخدام</li>
     <li>action->استخدام</li>
     <li>action->فحص</li>
     <li>action_gerund->استخدام</li>
-    <li>action_gerund->الزراعة بـ</li>
+    <li>action_gerund->الزراعة باستخدام</li>
     <li>action_gerund->فحص</li>
     <li>subject->أنواع التربة</li>
     <li>subject->مبيدات الآفات</li>
     <li>subject->تقنيات الري</li>
     <li>subject->أنواع الصبار</li>
     <li>subject->أشجار الأنيما</li>
-    <li>subject->أشجار الجورانلين</li>
+    <li>subject->أشجار غورانلين</li>
  </LessonPlants.logRulesInitiator.rulesStrings>
   
   <!-- EN: shooting lesson -->
@@ -594,18 +594,18 @@
     <li>article_tool->بندقية صيد</li>
     <li>article_tool->قاذف صواريخ</li>
     <li>article_tool->رشاش خفيف</li>
-    <li>article_tool->برج رشاش صغير</li>
+    <li>article_tool->مينيغان</li>
     <li>article_tool->قوس قصير</li>
-    <li>article_tool->قوس معكوس</li>
-    <li>article_tool->قوس عظيم</li>
-    <li>action->التصويب بـ</li>
-    <li>action->إطلاق النار بـ</li>
-    <li>action->الاعتناء بـ</li>
-    <li>action->إعادة تلقيم</li>
-    <li>action_gerund->التصويب بـ</li>
-    <li>action_gerund->إطلاق النار بـ</li>
-    <li>action_gerund->الاعتناء بـ</li>
-    <li>action_gerund->إعادة تلقيم</li>
+    <li>article_tool->قوس منحني</li>
+    <li>article_tool->قوس كبير</li>
+    <li>action->التصويب باستخدام</li>
+    <li>action->إطلاق النار باستخدام</li>
+    <li>action->صيانة</li>
+    <li>action->إعادة تحميل</li>
+    <li>action_gerund->التصويب باستخدام</li>
+    <li>action_gerund->إطلاق النار باستخدام</li>
+    <li>action_gerund->صيانة</li>
+    <li>action_gerund->إعادة تحميل</li>
  </LessonShooting.logRulesInitiator.rulesStrings>
   
   <!-- EN: social lesson -->
@@ -627,7 +627,7 @@
     <li>subject->تجنيد السجناء</li>
     <li>subject->تقنيات المساومة</li>
     <li>subject->الحفاظ على العلاقات</li>
-    <li>subject->إتيكيت جهاز الاتصال</li>
+    <li>subject->آداب استخدام وحدة الاتصالات</li>
     <li>subject->رفع الروح المعنوية</li>
     <li>subject->كلمات بذيئة</li>
     <li>subject->لغة الإشارة</li>
@@ -708,38 +708,38 @@
     <li>planType->enjoying endless life</li>
   -->
   <SanguophageChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] و [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] مع [RECIPIENT_nameDef] [talkedabout] [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] مع [RECIPIENT_nameDef].</li>
     <li>talkedabout->تحدث عن</li>
     <li>talkedabout->تكلم عن</li>
-    <li>talkedabout->همس عن</li>
+    <li>talkedabout->همس بشأن</li>
     <li>talkedabout(p=0.5)->تحدث [adverb] عن</li>
     <li>talkedabout(p=0.5)->تكلم [adverb] عن</li>
-    <li>talkedabout(p=0.5)->همس [adverb] عن</li>
-    <li>talkedabout->تبادل كلمة عن</li>
-    <li>talkedabout->تبادل الأفكار عن</li>
-    <li>talkedabout->تبادل الآراء عن</li>
-    <li>talkedabout->أعرب عن اهتمام مشترك بـ</li>
+    <li>talkedabout(p=0.5)->همس [adverb] بشأن</li>
+    <li>talkedabout->تبادل حديثاً قصيراً حول</li>
+    <li>talkedabout->تبادل الخواطر حول</li>
+    <li>talkedabout->تبادل الأفكار حول</li>
+    <li>talkedabout->أعرب عن اهتمام مشترك تجاه</li>
     <li>talkedabout->تناقش حول</li>
     <li>talkedabout->تجادل حول</li>
     <li>talkedabout->شارك قصصاً عن</li>
     <li>adverb->بشكل ودي</li>
     <li>adverb->بهدوء</li>
-    <li>adverb->بلطف</li>
+    <li>adverb->بصوت خافت</li>
     <li>adverb->باشمئزاز</li>
     <li>adverb->بمرارة</li>
-    <li>adverb->بضجر</li>
-    <li>adverb->بتمعن</li>
-    <li>adverb->بصحو</li>
-    <li>adverb->بشدة</li>
+    <li>adverb->بتعب</li>
+    <li>adverb->بتأمل</li>
+    <li>adverb->برصانة</li>
+    <li>adverb->بوجوم</li>
     <li>adverb->بوقار</li>
-    <li>subject(p=20)->خطط لـ[planType]</li>
+    <li>subject(p=20)->خطط حول [planType]</li>
     <li>subject(p=0.1)->[TalkTopicHeavy]</li>
     <li>subject->الهيموجين</li>
     <li>subject->جودة الدم</li>
     <li>subject->أكل لحوم البشر</li>
     <li>subject->الخلود</li>
-    <li>subject->الانتروبيا</li>
+    <li>subject->الإنتروبيا</li>
     <li>subject->الأبدية</li>
     <li>subject->مرور الزمن</li>
     <li>subject->الحياة والموت</li>
@@ -759,12 +759,12 @@
     <li>subject->المورثات</li>
     <li>subject->الأنماط الجينية</li>
     <li>subject->السانغوفاج</li>
-    <li>subject->الفرسان</li>
+    <li>subject->الهوسار</li>
     <li>subject->الإمبيد</li>
     <li>subject->الخلد الترابي</li>
     <li>subject->الجيني</li>
     <li>subject->النياندرتال</li>
-    <li>subject->أشباه الخنزير</li>
+    <li>subject->أشباه الخنازير</li>
     <li>subject->الوايستر</li>
     <li>subject->التاريخ العميق</li>
     <li>subject->تاريخ المستقبل</li>

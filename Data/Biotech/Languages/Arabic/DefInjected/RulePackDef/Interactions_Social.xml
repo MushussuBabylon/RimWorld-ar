@@ -13,7 +13,7 @@
     <li>situation->في الليل</li>
     <li>situation->في البرد</li>
     <li>situation->أثناء الإصابة</li>
-    <li>situation(p=0.2)->وهو ثمل</li>
+    <li>situation(p=0.2)->في حالة سُكر</li>
  </LessonInteractionCommonSituations.rulePack.rulesStrings>
   
   <!-- EN:
@@ -21,7 +21,7 @@
     <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
   -->
   <LessonInteractionHowTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] كيفية [action] [article_tool] لـ[RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_verb] كيفية [action] [article_tool] لـ[RECIPIENT_nameDef] [teach_adverb].</li>
     <li>r_logentry->[INITIATOR_nameDef] [teach_verb] كيفية [action] [article_tool] لـ[RECIPIENT_nameDef].</li>
  </LessonInteractionHowTo.rulePack.rulesStrings>
   
@@ -33,7 +33,7 @@
     <li>teach_test->cross-examined</li>
   -->
   <LessonInteractionQuiz.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] في [action_gerund] [article_tool] [situation].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] حول [action_gerund] [article_tool] [situation].</li>
     <li>teach_test->اختبر</li>
     <li>teach_test->امتحن</li>
     <li>teach_test->استجوب</li>
@@ -49,9 +49,9 @@
     <li>study_verb->studied</li>
   -->
   <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] مع [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [study_verb] [subject] [teach_adverb] مع [RECIPIENT_nameDef].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] مع [RECIPIENT_nameDef].</li>
-    <li>study_verb->غطى</li>
+    <li>study_verb->تناول</li>
     <li>study_verb->راجع</li>
     <li>study_verb->بحث في</li>
     <li>study_verb->درس</li>
@@ -84,7 +84,7 @@
     <li>teach_verb->شرح عملياً</li>
     <li>teach_verb->شرح</li>
     <li>teach_verb->أظهر</li>
-    <li>teach_verb->علم</li>
+    <li>teach_verb->درّس</li>
  </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
   
   <!-- EN:
@@ -96,12 +96,12 @@
     <li>talk_verb->lectured about</li>
   -->
   <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] إلى [RECIPIENT_nameDef].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] إلى [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [talk_verb] [subject] لـ[RECIPIENT_nameDef] [teach_adverb].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] لـ[RECIPIENT_nameDef].</li>
     <li>talk_verb->تحدث عن</li>
     <li>talk_verb->قدم نظرة عامة عن</li>
     <li>talk_verb->قدم ملخصاً عن</li>
-    <li>talk_verb->حاضر عن</li>
+    <li>talk_verb->ألقى محاضرة عن</li>
  </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
   
 </LanguageData>

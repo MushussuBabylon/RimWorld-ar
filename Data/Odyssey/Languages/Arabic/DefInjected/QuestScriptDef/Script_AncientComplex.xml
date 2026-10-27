@@ -5,7 +5,7 @@
     <li>questDescription->[discoveryMethod] an ancient complex nearby that is said to contain treasure.\n\nYou can break in to collect the loot inside.\n\nBe warned - these kinds of structures can contain a variety of threats. In addition, your activity at the complex might draw unwanted attention.</li>
   -->
   <OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] مجمع قديم قريب يُقال إنه يحتوي على كنز.\n\nيمكنك اقتحامه لجمع الغنائم في الداخل.\n\nكن حذراً - هذه الأنواع من المباني يمكن أن تحتوي على مجموعة متنوعة من التهديدات. بالإضافة إلى ذلك، قد يجذب نشاطك في المجمع انتباهاً غير مرغوب فيه.</li>
+    <li>questDescription->[discoveryMethod] مجمعاً قديماً قريباً يُقال إنه يحتوي على كنز.\n\nيمكنك اقتحامه لجمع الغنائم في الداخل.\n\nكن حذراً - قد تحتوي مثل هذه المنشآت على تهديدات متنوعة. كما أن نشاطك داخل المجمع قد يجذب انتباهاً غير مرغوب فيه.</li>
  </OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
@@ -33,8 +33,8 @@
     <li>finalWord->booty</li>
   -->
   <OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>
-    <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
-    <li>questName->[complex] [finalWord]</li>
+    <li>questName(p=3)->[finalWord] [complex] [complexAdj]</li>
+    <li>questName->[finalWord] [complex]</li>
     <li>complexAdj->سري</li>
     <li>complexAdj->غامض</li>
     <li>complexAdj->قديم</li>
@@ -42,11 +42,11 @@
     <li>complexAdj->مخفي</li>
     <li>complexAdj->مميت</li>
     <li>complex->مجمع</li>
-    <li>complex->منشأة</li>
+    <li>complex->مرفق</li>
     <li>complex->مبنى</li>
     <li>finalWord->كنز</li>
     <li>finalWord->ثروات</li>
-    <li>finalWord->مخبأ</li>
+    <li>finalWord->كنز مخبوء</li>
     <li>finalWord->مخزن سري</li>
     <li>finalWord->غنيمة</li>
     <li>finalWord->سلب</li>
@@ -54,7 +54,7 @@
     <li>finalWord->غارة</li>
     <li>finalWord->سرقة</li>
     <li>finalWord->سطو</li>
-    <li>finalWord->جريمة</li>
+    <li>finalWord->مغامرة</li>
     <li>finalWord->غنائم</li>
  </OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>
   <!-- EN:
@@ -73,7 +73,7 @@
     <li>questMapFeature->مجمع صغير</li>
     <li>questMapFeature->منشأة</li>
     <li>questMapText->كنوز قديمة</li>
-    <li>questMapText->ناهبون مفقودون</li>
+    <li>questMapText->جامعو خردة مفقودون</li>
  </OpportunitySite_AncientComplex_Giver.questSubjectRules.rulesStrings>
   
 </LanguageData>

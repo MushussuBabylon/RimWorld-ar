@@ -4,25 +4,25 @@
   <!-- EN: Dangerous activity levels -->
   <ActivityMultipleDangerous>مستويات نشاط خطيرة</ActivityMultipleDangerous>
   <!-- EN: These entities are at dangerously high activity levels -->
-  <ActivityDangerousDesc>هذه الكيانات في مستويات نشاط عالية بشكل خطير</ActivityDangerousDesc>  
+  <ActivityDangerousDesc>هذه الكيانات بلغت مستويات نشاط مرتفعة بشكل خطير</ActivityDangerousDesc>  
   <!-- EN: When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel. -->
-  <ActivityDangerousDescAppended>عندما يصل كيان إلى 100% نشاط، سيصبح خطيراً.\n\nأرسل حارسك لقمع هذه الكيانات، أو فعّل القمع التلقائي باستخدام لوحة نشاط الكيان.</ActivityDangerousDescAppended>
+  <ActivityDangerousDescAppended>عندما يبلغ نشاط الكيان 100%، يصبح خطيراً.\n\nأرسل حارسك لقمع هذه الكيانات، أو فعّل القمع التلقائي من لوحة نشاط الكيان.</ActivityDangerousDescAppended>
 
   <!-- EN: Need anomaly project -->
-  <NeedAnomalyProject>تحتاج مشروع شذوذ</NeedAnomalyProject>
+  <NeedAnomalyProject>بحاجة إلى مشروع شذوذ</NeedAnomalyProject>
   <!-- EN: You have an entity marked for study but don't have a matching anomaly research project selected: -->
-  <NeedAnomalyProjectDesc>لديك كيان معلّم للدراسة لكن ليس لديك مشروع بحث شذوذ مطابق محدد:</NeedAnomalyProjectDesc>
+  <NeedAnomalyProjectDesc>لديك كيان محدد للدراسة ولكنك لم تختر مشروع بحث شذوذ مطابقاً:</NeedAnomalyProjectDesc>
   <!-- EN: Need {NAME} anomaly research project -->
-  <NeedAnomalyProjectDescLine>تحتاج مشروع بحث شذوذ {NAME}</NeedAnomalyProjectDescLine>
+  <NeedAnomalyProjectDescLine>بحاجة إلى مشروع بحث شذوذ {NAME}</NeedAnomalyProjectDescLine>
   <!-- EN: Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.) -->
-  <NeedAnomalyProjectDescAppended>افتح قائمة البحث واختر مشروعاً في تبويب الشذوذ.\n\nيمكنك تحديد مشروع بحث أساسي ومتقدم في نفس الوقت.\n\n(انقر لفتح قائمة البحث.)</NeedAnomalyProjectDescAppended>
+  <NeedAnomalyProjectDescAppended>افتح قائمة البحث واختر مشروعاً في تبويب الشذوذ.\n\nيمكنك اختيار مشروع بحث أساسي وآخر متقدم في الوقت نفسه.\n\n(انقر لفتح قائمة البحث.)</NeedAnomalyProjectDescAppended>
 
   <!-- EN: Visitor ignored -->
-  <CreepJoinerTimeout>تجاهل الزائر</CreepJoinerTimeout>
+  <CreepJoinerTimeout>زوار متجاهلون</CreepJoinerTimeout>
   <!-- EN: The following visitors feel ignored and are becoming increasingly upset -->
-  <CreepJoinerTimeoutDesc>الزوار التاليون يشعرون بالتجاهل ويتزايد انزعاجهم</CreepJoinerTimeoutDesc>
+  <CreepJoinerTimeoutDesc>الزوار التالون يشعرون بالتجاهل ويزداد انزعاجهم</CreepJoinerTimeoutDesc>
   <!-- EN: Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored. -->
-  <CreepJoinerTimeoutDescAppended>اختر مستعمراً وانقر بزر الماوس الأيمن على الزائر.\n\nتحرك بسرعة... لا يحبون التجاهل.</CreepJoinerTimeoutDescAppended>
+  <CreepJoinerTimeoutDescAppended>اختر مستعمراً وانقر بزر الماوس الأيمن على الزائر.\n\nتصرف بسرعة... فهم لا يحبون أن يتم تجاهلهم.</CreepJoinerTimeoutDescAppended>
 
   <!-- EN: Undercave unstable -->
   <Alert_UndercaveUnstable>الكهف السفلي غير مستقر</Alert_UndercaveUnstable>
@@ -30,7 +30,7 @@
   <Alert_UndercaveUnstableDesc>أصبح الكهف السفلي غير مستقر وسينهار قريباً.\n\nأخرج مستعمريك قبل فوات الأوان.</Alert_UndercaveUnstableDesc>
 
   <!-- EN: Cultist psychic ritual -->
-  <Alert_CultistPsychicRitual>طقس نفسي طائفي</Alert_CultistPsychicRitual>
+  <Alert_CultistPsychicRitual>طقس نفسي لأتباع الطائفة</Alert_CultistPsychicRitual>
   <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
   <Alert_CultistPsychicRitualDesc>بدأ {INVOKER_kindDef} {INVOKER_nameDef} في أداء طقس {RITUAL_definite}. إذا لم تقاطعـ{INVOKER_objective}، فقد تكون العواقب وخيمة.</Alert_CultistPsychicRitualDesc>
 
@@ -39,7 +39,7 @@
   <!-- EN: These ghouls hunger for raw meat -->
   <AlertMeatHungerDesc>هذه الغيلان جائعة للحوم النيئة</AlertMeatHungerDesc>
   <!-- EN: They may attack if they're not fed soon. Get them some meat. -->
-  <AlertMeatHungerDescAppended>قد تهاجم إذا لم تُطعم قريباً. أحضر لها بعض اللحوم.</AlertMeatHungerDescAppended>
+  <AlertMeatHungerDescAppended>قد تهاجم إن لم تُطعَم قريباً. أحضر لها بعض اللحم.</AlertMeatHungerDescAppended>
   
   <!-- EN: Pit gate opening -->
   <AlertEmergingPitGate>فتح بوابة الحفرة</AlertEmergingPitGate>
@@ -54,7 +54,7 @@
   <Alert_InsufficientContainmentDescAppended>ستهرب قريباً. ابنِ جدراناً وأبواباً أقوى، أو أجهزة احتواء أخرى لحجزها.</Alert_InsufficientContainmentDescAppended>
 
   <!-- EN: Need holding platforms -->
-  <AlertHoldingPlatform>تحتاج منصات احتجاز</AlertHoldingPlatform>
+  <AlertHoldingPlatform>بحاجة إلى منصات احتجاز</AlertHoldingPlatform>
   <!-- EN: Build holding platforms or place holding spots to contain and study captured entities. -->
   <AlertHoldingPlatformDesc>ابنِ منصات احتجاز أو ضع أماكن احتجاز لاحتواء ودراسة الكيانات المأسورة.</AlertHoldingPlatformDesc>
 
@@ -73,19 +73,19 @@
   <AlertDigestionDescAppended>اقتل الملتهم لتحريرهم قبل فوات الأوان.</AlertDigestionDescAppended>
   
   <!-- EN: Inhibitor blocked -->
-  <AlertInhibitorBlocked>المعطل محجوب</AlertInhibitorBlocked>
+  <AlertInhibitorBlocked>المثبط محجوب</AlertInhibitorBlocked>
   <!-- EN: One of your electric inhibitors is not functional because it's blocked by another building.\n\nClear the space in front of the electric inhibitor. -->
-  <AlertInhibitorBlockedDesc>أحد معطلاتك الكهربائية لا يعمل لأنه مسدود بمبنى آخر.\n\nأخلِ المساحة أمام المعطل الكهربائي.</AlertInhibitorBlockedDesc>
+  <AlertInhibitorBlockedDesc>أحد مثبطاتك الكهربائية لا يعمل لأن مبنى آخر يسدّه.\n\nأخلِ المساحة الواقعة أمام المثبط الكهربائي.</AlertInhibitorBlockedDesc>
 
   <!-- EN: Entity treatment needed -->
-  <EntityNeedsTreatment>الكيان يحتاج علاج</EntityNeedsTreatment>
+  <EntityNeedsTreatment>كيان يحتاج إلى علاج</EntityNeedsTreatment>
   <!-- EN: These entities need medical treatment. Without it, they may die in captivity.\n{0}\n\nSend a doctor to treat them. -->
   <EntityNeedsTreatmentDesc>هذه الكيانات تحتاج إلى علاج طبي. بدونه، قد تموت في الأسر.\n{0}\n\nأرسل طبيباً لعلاجها.</EntityNeedsTreatmentDesc>
 
   <!-- EN: Ghoul hypothermia -->
-  <AlertGhoulHypothermia>انخفاض حرارة الغيلان</AlertGhoulHypothermia>
+  <AlertGhoulHypothermia>انخفاض حرارة جسم الغيلان</AlertGhoulHypothermia>
   <!-- EN: These ghouls are suffering from hypothermia:\n{0}\n\nGet them to warmer temperatures. -->
-  <AlertGhoulHypothermiaDesc>تعاني هذه الغيلان من انخفاض حرارة الجسم:\n{0}\n\nانقلهم إلى درجات حرارة أكثر دفئاً.</AlertGhoulHypothermiaDesc>
+  <AlertGhoulHypothermiaDesc>تعاني هذه الغيلان من انخفاض حرارة الجسم:\n{0}\n\nانقلها إلى أماكن أكثر دفئاً.</AlertGhoulHypothermiaDesc>
   
   <!-- EN: Gray flesh -->
   <AlertGrayFleshSample>لحم رمادي</AlertGrayFleshSample>

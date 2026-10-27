@@ -167,71 +167,71 @@
   -->
   <GrowthMomentFlavor.rulePack.rulesStrings>
     <li>r_root->[firstSentence] [secondSentence]</li>
-    <li>firstSentence(tierSection==4)->[PAWN_pronoun] أظهر [nounGrowth] ممتازاً ولديه [adjGood] [nounAttitudeGood] تجاه [nounFuture].</li>
-    <li>firstSentence(tierSection==4)->[PAWN_pronoun] طور عدداً من المشاعر الجديدة من خلال [situationLearning].</li>
-    <li>firstSentence(tierSection==4)->من خلال [situationLearning]، اكتسب [PAWN_pronoun] عدداً من المشاعر الجديدة.</li>
-    <li>firstSentence(tierSection==4)->في العام الماضي، أظهر [PAWN_pronoun] [nounGrowth] ممتازاً.</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يريد قضاء المزيد من الوقت [situationLearning] و [situationFun].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يستمتع بـ [situationLearning] ولكن أكثر ما يحبه [PAWN_pronoun] هو [situationFun].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يستمتع بـ [situationLearning] ويحلم بـ [situationAspirational].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يأمل أنه من خلال [situationLearning]، يمكن أن ينتهي به الأمر [situationAspirational].</li>
-    <li>firstSentence(tierSection==3)->مؤخراً، أظهر [PAWN_pronoun] [adjGood] [nounAttitudeGood] تجاه [nounFuture].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] يشعر بـ [nounAttitudeGood] تجاه [nounFuture].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] أصبح مهتماً بعدد من الأنشطة الجديدة بما في ذلك [situationLearning].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] أظهر [nounGrowth] ممتازاً.</li>
-    <li>secondSentence(tierSection==3)->[PAWN_nameDef] ممتن لأن [PAWN_pronoun] نادراً ما يشعر بـ [feelingBad] وهو مهتم بقضاء المزيد من الوقت [situationFun].</li>
-    <li>secondSentence(tierSection==3)->[PAWN_nameDef] يحب [situationLearning] لكن [PAWN_pronoun] يكون أسعد عندما يكون [situationFun].</li>
-    <li>secondSentence(tierSection==3)->عندما يكبر [PAWN_nameDef]، يريد قضاء وقتهـ[PAWN_possessive] في [taskWork].</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] أظهر قدراً ممتازاً من [nounGrowth]، ولديه [nounAttitudeGood] [adjGood] تجاه [nounFuture].</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] طوّر عدداً من أوجه الشغف الجديدة من خلال [situationLearning].</li>
+    <li>firstSentence(tierSection==4)->من خلال [situationLearning]، اكتسب [PAWN_pronoun] عدداً من أوجه الشغف الجديدة.</li>
+    <li>firstSentence(tierSection==4)->في السنة الماضية، أظهر [PAWN_pronoun] قدراً ممتازاً من [nounGrowth].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يريد قضاء المزيد من الوقت في [situationLearning] وفي [situationFun].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يجد المتعة في [situationLearning]، لكن [PAWN_pronoun] يحب [situationFun] قبل كل شيء.</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يجد المتعة في [situationLearning] ويطمح إلى [situationAspirational].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يأمل أنه من خلال [situationLearning] قد ينتهي [PAWN_pronoun] إلى [situationAspirational].</li>
+    <li>firstSentence(tierSection==3)->مؤخراً، أظهر [PAWN_pronoun] قدراً من [nounAttitudeGood] [adjGood] تجاه [nounFuture].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] يشعر بقدر من [nounAttitudeGood] تجاه [nounFuture].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] أصبح مهتماً بعدد من الأنشطة الجديدة، ومنها [situationLearning].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] أظهر قدراً ممتازاً من [nounGrowth].</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] ممتن، إذ [PAWN_pronoun] نادراً ما يعاني من [feelingBad]، ويهتم بقضاء المزيد من الوقت في [situationFun].</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] يحب [situationLearning]، لكن [PAWN_pronoun] يكون أسعد ما يكون أثناء [situationFun].</li>
+    <li>secondSentence(tierSection==3)->عندما يكبر [PAWN_nameDef]، يريد [PAWN_pronoun] قضاء وقتـ[PAWN_possessive] في [taskWork].</li>
     <li>secondSentence(tierSection==3)->أكثر من أي شيء، يحب [PAWN_nameDef] [situationFun].</li>
-    <li>firstSentence(tierSection==2)->[PAWN_pronoun] أظهر بعض [nounGrowth] ويريد الاستمرار في [situationLearning].</li>
-    <li>firstSentence(tierSection==2)->[PAWN_pronoun] لديه بعض [nounAttitudeGood] لتعلم المزيد.</li>
-    <li>firstSentence(tierSection==2)->متحمس بشأن [nounFuture]، يود [PAWN_pronoun] قضاء الوقت [situationLearning].</li>
-    <li>firstSentence(tierSection==2)->[PAWN_pronoun] طور شغفاً جديداً من خلال [situationLearning].</li>
-    <li>secondSentence(tierSection==2)->[PAWN_nameDef] يستمتع بـ [situationFun].</li>
-    <li>secondSentence(tierSection==2)->[PAWN_nameDef] يأمل قضاء المزيد من الوقت [situationFun].</li>
-    <li>secondSentence(tierSection==2)->[PAWN_nameDef] يعتقد أن [taskWork] ممل.</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] أظهر قدراً من [nounGrowth]، ويرغب في مواصلة [situationLearning].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] لديه قدر من [nounAttitudeGood] لتعلم المزيد.</li>
+    <li>firstSentence(tierSection==2)->متحمساً بشأن [nounFuture]، يود [PAWN_pronoun] قضاء بعض الوقت في [situationLearning].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] طوّر شغفاً جديداً من خلال [situationLearning].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] يجد المتعة في [situationFun].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] يأمل قضاء المزيد من الوقت في [situationFun].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] يرى أن [taskWork] أمر ممل.</li>
     <li>secondSentence(tierSection==2)->تحديداً، يود [PAWN_nameDef] التركيز على [situationLearning].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] أظهر القليل من [nounGrowth] ولديه توقعات منخفضة لـ [nounFuture].</li>
-    <li>firstSentence(tierSection==1)->بينما هو متفائل بشأن [nounFuture]، أظهر [PAWN_pronoun] القليل من [nounGrowth].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] أظهر قدراً ضئيلاً من [nounGrowth]، ولديه توقعات متدنية بشأن [nounFuture].</li>
+    <li>firstSentence(tierSection==1)->على الرغم من تفاؤله بشأن [nounFuture]، أظهر [PAWN_pronoun] قدراً ضئيلاً من [nounGrowth].</li>
     <li>firstSentence(tierSection==1)->[PAWN_pronoun] يأمل أن تتحسن الأمور في [nounFuture].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] أظهر الحد الأدنى من [nounGrowth]، شاكياً من أن [situationLearning] ممل.</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] يتمنى قضاء المزيد من الوقت [situationFun] لكنه مشغول جداً بالقلق بشأن [situationBad].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] غالباً ما يشعر بـ [feelingBad] أثناء [situationFun].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] لديه خوف غريب من أنه من خلال [situationFun] سينتهي به الأمر [situationBad].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] لديه كوابيس منتظمة عن [situationBad].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] غالباً ما يريد أن يكون [situationLearning] لكن نادراً ما تتاح له الفرصة للقيام بذلك.</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] لم يظهر أي [nounGrowth].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] فشل في تطوير أي شغف جديد ولديه القليل من [nounAttitudeGood] تجاه [nounFuture].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] أظهر القليل من الاهتمام بالتعلم ويكره بشكل خاص [situationLearning].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] مهتم فقط بـ [situationFun].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] يعيقه باستمرار خوف من [situationBad].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] يعيش في خوف من التعرض لإصابة بالغة نتيجة لـ [situationBad].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] لديه كابوس متكرر حيث يكون [PAWN_pronoun] [situationFun] مما يؤدي إلى [situationBad].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] أظهر أدنى قدر من [nounGrowth]، شاكياً من أن [situationLearning] أمر ممل.</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] يتمنى قضاء المزيد من الوقت في [situationFun]، لكنه مشغول جداً بالقلق بشأن [situationBad].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] غالباً ما يعاني من [feelingBad] أثناء [situationFun].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] لديه خوف غريب من أن ينتهي [PAWN_pronoun] إلى [situationBad] بسبب [situationFun].</li>
+    <li>secondSentence(tierSection==1)->تراود [PAWN_nameDef] كوابيس متكررة حول [situationBad].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] كثيراً ما يريد [situationLearning]، لكن [PAWN_pronoun] نادراً ما تتاح له الفرصة للقيام بذلك.</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] لم يُظهر أي قدر من [nounGrowth].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] فشل في تطوير أي شغف جديد، ولديه قدر ضئيل من [nounAttitudeGood] تجاه [nounFuture].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] أظهر اهتماماً ضئيلاً بالتعلم، ويكره على وجه الخصوص [situationLearning].</li>
+    <li>secondSentence(tierSection==0)->ينصب اهتمام [PAWN_nameDef] بالكامل على [situationFun].</li>
+    <li>secondSentence(tierSection==0)->يقف الخوف من [situationBad] عائقاً دائماً أمام [PAWN_nameDef].</li>
+    <li>secondSentence(tierSection==0)->يعيش [PAWN_nameDef] في خوف من التعرض لإصابة بالغة نتيجة [situationBad].</li>
+    <li>secondSentence(tierSection==0)->يراود [PAWN_nameDef] كابوس متكرر ينهمك فيه [PAWN_pronoun] في [situationFun]، مما يؤدي إلى [situationBad].</li>
     <li>adjGood->عظيم</li>
-    <li>adjGood->لا يشبع</li>
+    <li>adjGood->نهم</li>
     <li>adjGood->شديد</li>
     <li>adjGood->حيوي</li>
-    <li>adjGood->حقيقي</li>
+    <li>adjGood->صادق</li>
     <li>adjGood->لا حدود له</li>
     <li>adjGood->هائل</li>
     <li>adjGood->جدير بالثناء</li>
-    <li>adjGood->لا نهاية له</li>
-    <li>adjGood->نقي</li>
+    <li>adjGood->لا ينضب</li>
+    <li>adjGood->خالص</li>
     <li>adjGood->مثير للإعجاب</li>
-    <li>feelingBad->وحيد</li>
-    <li>feelingBad->خائف</li>
-    <li>feelingBad->مجروح</li>
-    <li>feelingBad->مريض بشدة</li>
-    <li>feelingBad->مريض</li>
+    <li>feelingBad->الوحدة</li>
+    <li>feelingBad->الخوف</li>
+    <li>feelingBad->الألم</li>
+    <li>feelingBad->المرض الشديد</li>
+    <li>feelingBad->الغثيان</li>
     <li>nounAttitudeGood->حماس</li>
-    <li>nounAttitudeGood->إثارة</li>
+    <li>nounAttitudeGood->ترقب</li>
     <li>nounAttitudeGood->تفاؤل</li>
     <li>nounFuture->الأسابيع القليلة القادمة</li>
     <li>nounFuture->الأشهر القادمة</li>
-    <li>nounFuture->العام القادم</li>
+    <li>nounFuture->السنة القادمة</li>
     <li>nounFuture->المستقبل</li>
-    <li>nounGrowth->نمو شخصي</li>
-    <li>nounGrowth->تطور شخصي</li>
+    <li>nounGrowth->النمو الشخصي</li>
+    <li>nounGrowth->التطور الشخصي</li>
     <li>situationFun->استكشاف البرية مع [friendNamePlural]</li>
     <li>situationFun->لعب [Game]</li>
     <li>situationFun->لعب [Game] مع الأصدقاء</li>
@@ -239,95 +239,95 @@
     <li>situationFun->الدردشة مع [friendNameSingular]</li>
     <li>situationFun->النميمة عن [friendNamePlural]</li>
     <li>situationFun->تكوين صداقات</li>
-    <li>situationFun->التواجد في الخارج تحت الشمس</li>
+    <li>situationFun->التواجد في الهواء الطلق تحت الشمس</li>
     <li>situationFun->مراقبة السماء ليلاً بحثاً عن نيازك</li>
-    <li>situationFun->التحدث على الراديو عن [topicLearning]</li>
-    <li>situationFun->الدردشة على الراديو مع الغرباء</li>
-    <li>situationFun->رسم صور لـ [friendNamePlural] على الأرض</li>
-    <li>situationFun->أحلام اليقظة حول [topicLearning]</li>
+    <li>situationFun->التحدث عبر الراديو عن [topicLearning]</li>
+    <li>situationFun->الدردشة عبر الراديو مع الغرباء</li>
+    <li>situationFun->رسم صور [friendNamePlural] على الأرض</li>
+    <li>situationFun->الاستغراق في أحلام اليقظة حول [topicLearning]</li>
     <li>situationFun->الجري في الطبيعة</li>
     <li>situationFun->خوض مغامرات مع [friendNamePlural]</li>
-    <li>situationFun->العثور على كنز مخفي</li>
-    <li>situationFun->رسم صور لـ [enemyNamePlural]</li>
-    <li>situationFun->رسم صورة لـ [friendNameSingular]</li>
-    <li>situationFun->كتابة قصة عن [friendNameSingular] يصطاد [enemyNamePlural]</li>
+    <li>situationFun->العثور على كنز دفين</li>
+    <li>situationFun->رسم صور [enemyNamePlural]</li>
+    <li>situationFun->رسم صورة [friendNameSingular]</li>
+    <li>situationFun->كتابة قصة عن [friendNameSingular] صائد [enemyNamePlural]</li>
     <li>situationFun->التظاهر بقتال [enemyNamePlural]</li>
     <li>situationFun->رواية قصص عن [enemyNamePlural]</li>
-    <li>situationLearning->مشاهدة الآخرين [taskWork]</li>
+    <li>situationLearning->مشاهدة الآخرين أثناء [taskWork]</li>
     <li>situationLearning->التعلم عن [taskWork]</li>
     <li>situationLearning->التعلم عن [topicLearning]</li>
     <li>situationLearning->دراسة [topicLearning]</li>
     <li>situationLearning->القراءة عن [topicLearning]</li>
     <li>situationLearning->القيام بعمل ذي معنى</li>
     <li>situationAspirational->إحداث فرق في العالم</li>
-    <li>situationAspirational->أن يصبح ثرياً جداً</li>
+    <li>situationAspirational->تحقيق ثراء كبير</li>
     <li>situationAspirational->إنقاذ العالم</li>
     <li>situationAspirational->مساعدة الآخرين</li>
-    <li>situationAspirational->أن يصبح مشهوراً جداً</li>
+    <li>situationAspirational->نيل شهرة واسعة</li>
     <li>situationAspirational->مغادرة هذا الكوكب</li>
     <li>situationBad->التعرض لهجوم من [enemyNamePlural]</li>
-    <li>situationBad->التعرض للاختطاف من قبل [enemyNamePlural]</li>
-    <li>situationBad->أن يصطاده [enemyNameSingular]</li>
-    <li>situationBad->أن يطارده [enemyNameSingular]</li>
+    <li>situationBad->التعرض للاختطاف على يد [enemyNamePlural]</li>
+    <li>situationBad->التعرض للصيد على يد [enemyNameSingular]</li>
+    <li>situationBad->التعرض للمطاردة على يد [enemyNameSingular]</li>
     <li>situationBad->استنشاق الغاز السام</li>
     <li>situationBad->الإصابة بتعفن الرئة</li>
     <li>situationBad->الإصابة بالطاعون</li>
     <li>situationBad->الإصابة بتسمم غذائي</li>
-    <li>situationBad->رؤية الأحبة يموتون</li>
-    <li>situationBad->الأكل بدون طاولة</li>
+    <li>situationBad->رؤية الأحباء يموتون</li>
+    <li>situationBad->تناول الطعام دون طاولة</li>
     <li>topicLearning->الكون</li>
     <li>topicLearning->العلوم</li>
     <li>topicLearning->ثقافات مختلفة</li>
-    <li>topicLearning->الأركوتيك</li>
+    <li>topicLearning->الآركوتيكات</li>
     <li>topicLearning->الاقتصاد الكوكبي</li>
     <li>topicLearning->علم النفس</li>
     <li>topicLearning->بيولوجيا الحشرات</li>
-    <li>topicLearning->حمل الميكانويد</li>
+    <li>topicLearning->احتضان الميكانويدات</li>
     <li>topicLearning->تحرير المورثات</li>
-    <li>topicLearning->علوم الصواريخ</li>
+    <li>topicLearning->علم الصواريخ</li>
     <li>topicLearning->تعدين الخامات</li>
     <li>taskWork->طهي الوجبات</li>
     <li>taskWork->تدريب الحيوانات</li>
     <li>taskWork->رعاية المرضى</li>
     <li>taskWork->مساعدة [friendNamePlural]</li>
-    <li>taskWork->صيد الموافالو</li>
+    <li>taskWork->صيد المافالو</li>
     <li>taskWork->زراعة الطعام</li>
     <li>taskWork->خياطة الملابس</li>
     <li>friendNamePlural->أصدقاء</li>
     <li>friendNamePlural->أحباء</li>
-    <li>friendNamePlural->حيوانات [friendAdj]</li>
-    <li>friendNamePlural->ميكانويدات [friendAdj]</li>
-    <li>friendNamePlural->أطفال [friendAdj]</li>
-    <li>friendNamePlural->أصدقاء خياليون</li>
+    <li>friendNamePlural->حيوانات من النوع [friendAdj]</li>
+    <li>friendNamePlural->ميكانويدات من النوع [friendAdj]</li>
+    <li>friendNamePlural->أطفال من النوع [friendAdj]</li>
+    <li>friendNamePlural->أصدقاء خياليين</li>
     <li>friendNameSingular->صديق</li>
     <li>friendNameSingular->كلب</li>
-    <li>friendNameSingular->قطة [friendAdj]</li>
+    <li>friendNameSingular->قط من النوع [friendAdj]</li>
     <li>friendNameSingular->طفل</li>
-    <li>friendNameSingular->طفل [friendAdj]</li>
+    <li>friendNameSingular->طفل من النوع [friendAdj]</li>
     <li>friendNameSingular->فرد من العائلة</li>
-    <li>friendAdj->لطيف</li>
-    <li>friendAdj->مفيد</li>
-    <li>friendAdj->ودود</li>
-    <li>friendAdj->مؤذ</li>
-    <li>friendAdj->مضحك</li>
+    <li>friendAdj->اللطيف</li>
+    <li>friendAdj->المتعاون</li>
+    <li>friendAdj->الودود</li>
+    <li>friendAdj->المشاغب</li>
+    <li>friendAdj->المضحك</li>
     <li>enemyNamePlural->غزاة</li>
-    <li>enemyNamePlural->غزاة [AdjectiveBadass]</li>
-    <li>enemyNamePlural->غرباء غامضون</li>
-    <li>enemyNamePlural->حشرات [AdjectiveBadass]</li>
+    <li>enemyNamePlural->غزاة بطابع [AdjectiveBadass]</li>
+    <li>enemyNamePlural->غرباء غامضين</li>
+    <li>enemyNamePlural->حشرات بطابع [AdjectiveBadass]</li>
     <li>enemyNamePlural->بومالوبات صائدة البشر</li>
-    <li>enemyNamePlural->شاربو دماء سريون</li>
+    <li>enemyNamePlural->شاربي دماء متكتمين</li>
     <li>enemyNamePlural->آلهة آلية</li>
     <li>enemyNamePlural->ميكانويدات متوحشة</li>
     <li>enemyNamePlural->كائنات نفسية ذات قوى رهيبة</li>
-    <li>enemyNameSingular->[AdjectiveBadass] [Enemy]</li>
-    <li>enemyNameSingular->[AdjectiveBadass] [AnimalBadass]</li>
+    <li>enemyNameSingular->[Enemy] بطابع [AdjectiveBadass]</li>
+    <li>enemyNameSingular->[AnimalBadass] بطابع [AdjectiveBadass]</li>
     <li>enemyNameSingular->[AnimalBadass]</li>
     <li>enemyNameSingular->[Mechanoid]</li>
-    <li>enemyNameSingular->[AdjectiveBadass] وايستر</li>
+    <li>enemyNameSingular->وايستر بطابع [AdjectiveBadass]</li>
     <li>enemyNameSingular->غريب</li>
     <li>enemyNameSingular->سانغوفاج</li>
     <li>enemyNameSingular->امرأة بلا عيون</li>
-    <li>enemyNameSingular->رجل بخطاف بدل اليد</li>
+    <li>enemyNameSingular->رجل بخطاف بدلاً من اليد</li>
  </GrowthMomentFlavor.rulePack.rulesStrings>
   
 </LanguageData>
