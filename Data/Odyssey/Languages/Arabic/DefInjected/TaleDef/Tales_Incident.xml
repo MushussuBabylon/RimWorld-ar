@@ -29,9 +29,9 @@
     <li>desc_sentence->Space is charged with an eerie power.</li>
   -->
   <OrbitalDebris.rulePack.rulesStrings>
-    <li>tale_noun->عاصفة من النيازك الدقيقة تجتاح مجتمع [PAWN_nameDef]</li>
-    <li>tale_noun->شظايا نيازك دقيقة تمطر المنطقة حول مجتمع [PAWN_nameDef]</li>
-    <li>image->شلال من النيازك الدقيقة تتلألأ بشرارات [Color] [airborne_circumstance]</li>
+    <li>tale_noun->عاصفة من النيازك الدقيقة تجتاح [Community] [PAWN_nameDef]</li>
+    <li>tale_noun->شظايا نيازك دقيقة تتساقط على المنطقة المحيطة بـ[Community] [PAWN_nameDef]</li>
+    <li>image->سيل من النيازك الدقيقة تتلألأ بشرارات [Color] [airborne_circumstance]</li>
     <li>image->تناثر نيازك دقيقة متوهجة بإشراق [airborne_circumstance]</li>
     <li>image->وابل من شرارات [Color] بينما تضطرم النيازك الدقيقة [airborne_circumstance]</li>
     <li>airborne_circumstance->تتسابق عبر السماء</li>
@@ -46,11 +46,11 @@
     <li>ground_circumstance->منتشرة عبر المنظر الطبيعي</li>
     <li>ground_circumstance->منقطة وسط حقل من الفوهات الصغيرة</li>
     <li>desc_sentence->[PAWN_nameDef] يشاهد الوابل بذهول.</li>
-    <li>desc_sentence->[PAWN_nameDef] ينظر لأعلى بتعجب.</li>
-    <li>desc_sentence->[PAWN_nameDef] يفزع من القصف المتواصل.</li>
-    <li>desc_sentence->[Quantity_adjphrase] شخصاً يخرجون من [TerrainFeature] قريب للاحتماء.</li>
-    <li>desc_sentence->[Quantity_adjphrase] شخصاً يسارعون لتأمين ممتلكاتهم.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] يهرعون بحثاً عن غطاء.</li>
+    <li>desc_sentence->[PAWN_nameDef] ينظر إلى الأعلى بدهشة.</li>
+    <li>desc_sentence->[PAWN_nameDef] يرتاع من القصف المتواصل.</li>
+    <li>desc_sentence->[Quantity_adjphrase] أشخاص يخرجون من [TerrainFeature] قريب للاحتماء.</li>
+    <li>desc_sentence->[Quantity_adjphrase] أشخاص يسارعون لتأمين ممتلكاتهم.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] تهرع بحثاً عن غطاء.</li>
     <li>desc_sentence->الفضاء مشحون بقوة غريبة.</li>
  </OrbitalDebris.rulePack.rulesStrings>
   

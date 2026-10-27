@@ -220,7 +220,7 @@
     <li>desc->خريطة [physicalDescription] تُظهر موقعاً مثيراً للاهتمام. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->خريطة، [physicalDescription2]، تُظهر موقعاً مثيراً للاهتمام. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->هذه الخريطة [physicalDescription] [has] [mapContentsAcc]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
-    <li>desc->هذه الخريطة [physicalDescription3] و [has] [mapContentsAcc]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->هذه الخريطة [physicalDescription3] و[has] [mapContentsAcc]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->خريطة تحتوي على [mapContentsDat]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->مجموعة خرائط تحتوي على [mapContentsDat]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->خريطة من [place] تحتوي على [mapContentsDat]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
@@ -311,7 +311,7 @@
     <li>mapContentsAcc->مئات الرسوم الصغيرة لـ[mapSubjectGenIndef] [mapSubjectAdj]ة</li>
     <li>mapContentsAcc->رسومات تخطيطية لـ[mapSubjectDatIndef] [mapSubjectAdj]ة</li>
     <li>mapContentsAcc->قوائم بـ[mapSubjectDatIndef] البارزة. أطول قائمة تحمل عنوان '[AdjectiveBadass]!' ومحاطة بدائرة بالحبر الأحمر</li>
-    <li>mapContentsAcc->حواف محترقة وخطوط ملطخة. الخريطة المركزية تُظهر [mapSubjectAdj]ة [mapSubjectAccIndef] لكن الخطوط محجوبة ببقع [stain_con]</li>
+    <li>mapContentsAcc->حواف محترقة وخطوط ملطخة. تُظهر الخريطة المركزية [mapSubjectAccIndef] [mapSubjectAdj]ة لكن الخطوط محجوبة ببقع [stain_con]</li>
     <li>mapContentsAcc->رسوم بيانية جديدة في كل صفحة. بعضها تفصيلية جداً عن [mapSubjectAccIndef]، أكبرها بلا شك [mapSubjectAdj]ة</li>
     <li>mapContentsAcc->مزيج من [mapSubjectDatIndef] الخيالية و[mapSubjectDatIndef] التاريخية</li>
     <li>mapContentsAcc->عشرات المخططات القديمة لـ[mapSubjectGenIndef] [mapSubjectAdj]ة</li>
@@ -321,7 +321,7 @@
     <li>mapContentsAcc(p=0.33)->آلاف الرموز الغريبة، الكثير منها يشبه [mapSubjectAccIndef]. الرمز الأكثر شيوعاً يشبه [AnimalMasAcc] [emotionalState]اً، مرسوماً بأسلوب [artstyle_adj]</li>
     <li>mapContentsAcc(p=0.33)->آلاف الرموز الغريبة، الكثير منها يشبه [mapSubjectAccIndef]. الرمز الأكثر شيوعاً يشبه [AnimalFemAcc] [emotionalState]ةً، مرسومة بأسلوب [artstyle_adj]</li>
     <li>mapContentsAcc(p=0.33)->آلاف الرموز الغريبة، الكثير منها يشبه [mapSubjectAccIndef]. الرمز الأكثر شيوعاً يشبه [AnimalNeuAcc] [emotionalState]اً، مرسوماً بأسلوب [artstyle_adj]</li>
-    <li>mapContentsAcc->علامات واضحة للقدم. رسم بياني مرسوم يدوياً يُظهر [mapSubjectAccDef] القديمة لـ[place]</li>
+    <li>mapContentsAcc->آثار أقدام واضحة. رسم بياني مرسوم يدوياً يُظهر [mapSubjectAccDef] القديمة لـ[place]</li>
     <li>mapContentsAcc->مخططات تفصيلية لـ[mapSubjectGenDef] [place] وعلاقتها بـ[mapSubjectDatIndef] [mapSubjectAdj]ة</li>
     <li>mapContentsAcc->أربع رسومات تخطيطية كبيرة لـ[mapSubjectGenDef] [place]</li>
     <li>mapContentsAcc->العديد من المخططات الصغيرة. أحدها معنون '[place] [RomanNumeral]' ويحتوي على مسح تفصيلي لـ[mapSubjectAccDef] [place]</li>
@@ -339,7 +339,7 @@
     <li>mapContentsDat->مئات الرسوم الصغيرة لـ[mapSubjectGenIndef] [mapSubjectAdj]ة</li>
     <li>mapContentsDat->رسومات تخطيطية لـ[mapSubjectDatIndef] [mapSubjectAdj]ة</li>
     <li>mapContentsDat->قوائم بـ[mapSubjectDatIndef] البارزة. أطول قائمة تحمل عنوان '[AdjectiveBadass]!' ومحاطة بدائرة بالحبر الأحمر</li>
-    <li>mapContentsDat->حواف محترقة وخطوط ملطخة. الخريطة المركزية تُظهر [mapSubjectAdj]ة [mapSubjectAccIndef] لكن الخطوط محجوبة ببقع [stain_con]</li>
+    <li>mapContentsDat->حواف محترقة وخطوط ملطخة. تُظهر الخريطة المركزية [mapSubjectAccIndef] [mapSubjectAdj]ة لكن الخطوط محجوبة ببقع [stain_con]</li>
     <li>mapContentsDat->رسوم بيانية جديدة في كل صفحة. بعضها تفصيلية جداً عن [mapSubjectAccIndef]، أكبرها بلا شك [mapSubjectAdj]ة</li>
     <li>mapContentsDat->مزيج من [mapSubjectDatIndef] الخيالية و[mapSubjectDatIndef] التاريخية</li>
     <li>mapContentsDat->عشرات المخططات القديمة لـ[mapSubjectGenIndef] [mapSubjectAdj]ة</li>
@@ -349,7 +349,7 @@
     <li>mapContentsDat(p=0.33)->آلاف الرموز الغريبة، الكثير منها يشبه [mapSubjectAccIndef]. الرمز الأكثر شيوعاً يشبه [AnimalMasAcc] [emotionalState]اً، مرسوماً بأسلوب [artstyle_adj]</li>
     <li>mapContentsDat(p=0.33)->آلاف الرموز الغريبة، الكثير منها يشبه [mapSubjectAccIndef]. الرمز الأكثر شيوعاً يشبه [AnimalFemAcc] [emotionalState]ةً، مرسومة بأسلوب [artstyle_adj]</li>
     <li>mapContentsDat(p=0.33)->آلاف الرموز الغريبة، الكثير منها يشبه [mapSubjectAccIndef]. الرمز الأكثر شيوعاً يشبه [AnimalNeuAcc] [emotionalState]اً، مرسوماً بأسلوب [artstyle_adj]</li>
-    <li>mapContentsDat->علامات واضحة للقدم. رسم بياني مرسوم يدوياً يُظهر [mapSubjectAccDef] القديمة لـ[place]</li>
+    <li>mapContentsDat->آثار أقدام واضحة. رسم بياني مرسوم يدوياً يُظهر [mapSubjectAccDef] القديمة لـ[place]</li>
     <li>mapContentsDat->مخططات تفصيلية لـ[mapSubjectGenDef] [place] وعلاقتها بـ[mapSubjectDatIndef] [mapSubjectAdj]ة</li>
     <li>mapContentsDat->أربع رسومات تخطيطية كبيرة لـ[mapSubjectGenDef] [place]</li>
     <li>mapContentsDat->العديد من المخططات الصغيرة. أحدها معنون '[place] [RomanNumeral]' ويحتوي على مسح تفصيلي لـ[mapSubjectAccDef] [place]</li>
@@ -386,39 +386,39 @@
     <li>specialFact->درزات دقيقة توحي بأنها أُعيد استخدامها من عدة خرائط أكبر.</li>
     <li>specialFact->قد تكون هذه الخريطة تحذيراً بقدر ما هي دليل.</li>
     <li>specialFact->العلامات مهملة في بعض الأماكن، مما يوحي بأن الخريطة رُسمت على عجل.</li>
-    <li>specialFact->تفاصيلها توحي بأنها كُلفت من قبل شخص ذي نفوذ، وسريتها تعني أنها تحتوي على ما يستحق الإخفاء.</li>
-    <li>specialFact->رُسم [Quantity_adjphrase] [Character] في [noteLocation]. يبدون [emotionalState].</li>
+    <li>specialFact->تفاصيلها توحي بأنها صُنعت بتكليف من شخص ذي نفوذ، وسريتها تعني أنها تحتوي على ما يستحق الإخفاء.</li>
+    <li>specialFact->رُسم [Quantity_adjphrase] [Character] [noteLocation]. يبدون [emotionalState].</li>
     <li>specialFact(p=0.5)->تسميات خطية أنيقة لبعض [mapSubjectNomIndef]، لكن رسماً منعزلاً لا يحمل سوى علامة غامضة - رمز [mapSymbolMas].</li>
     <li>specialFact(p=0.2)->تسميات خطية أنيقة لبعض [mapSubjectNomIndef]، لكن رسماً منعزلاً لا يحمل سوى علامة غامضة - رمز [mapSymbolFem].</li>
     <li>specialFact(p=0.3)->تسميات خطية أنيقة لبعض [mapSubjectNomIndef]، لكن رسماً منعزلاً لا يحمل سوى علامة غامضة - رمز [mapSymbolNeu].</li>
     <li>specialFact(p=0.5)->تحتوي الخريطة على سيرة ذاتية قصيرة لمؤلفها - [PersonJob] بارز من [place].</li>
     <li>specialFact(p=0.5)->تحتوي الخريطة على سيرة ذاتية قصيرة لمؤلفها - [PersonJobFem] بارزة من [place].</li>
-    <li>specialFact(p=0.5)->أُلّفت الخريطة من قبل [PersonBadass] سيء السمعة.</li>
-    <li>specialFact(p=0.5)->أُلّفت الخريطة من قبل [PersonBadassFem] سيئة السمعة.</li>
-    <li>specialFact(p=0.5)->أُلّفت الخريطة من قبل [PersonBadass] [emotionalState].</li>
-    <li>specialFact(p=0.5)->أُلّفت الخريطة من قبل [PersonBadassFem] [emotionalState]ة.</li>
-    <li>specialFact(p=0.5)->بساطة الخريطة توحي بأنها صُنعت على عجل من قبل [PersonBadass] يحتاج البقاء متقدماً بخطوة على السلطات.</li>
-    <li>specialFact(p=0.5)->بساطة الخريطة توحي بأنها صُنعت على عجل من قبل [PersonBadassFem] تحتاج البقاء متقدمة بخطوة على السلطات.</li>
+    <li>specialFact(p=0.5)->ألّف الخريطة [PersonBadass] سيئ السمعة.</li>
+    <li>specialFact(p=0.5)->ألّفت الخريطة [PersonBadassFem] سيئة السمعة.</li>
+    <li>specialFact(p=0.5)->ألّف الخريطة [PersonBadass] [emotionalState].</li>
+    <li>specialFact(p=0.5)->ألّفت الخريطة [PersonBadassFem] [emotionalState]ة.</li>
+    <li>specialFact(p=0.5)->بساطة الخريطة توحي بأنها صنعها على عجل [PersonBadass] يحتاج إلى البقاء متقدماً بخطوة على السلطات.</li>
+    <li>specialFact(p=0.5)->بساطة الخريطة توحي بأنها صنعتها على عجل [PersonBadassFem] تحتاج إلى البقاء متقدمة بخطوة على السلطات.</li>
     <li>specialFact(p=0.33)->مناطق رئيسية محاطة بدائرة، مع تعليقات مثل 'تجنب [Enemies]' و 'قوي مثل [AnimalMas]'.</li>
     <li>specialFact(p=0.33)->مناطق رئيسية محاطة بدائرة، مع تعليقات مثل 'تجنب [Enemies]' و 'قوية مثل [AnimalFem]'.</li>
     <li>specialFact(p=0.33)->مناطق رئيسية محاطة بدائرة، مع تعليقات مثل 'تجنب [Enemies]' و 'قوي مثل [AnimalNeu]'.</li>
-    <li>specialFact(p=0.5)->على الخريطة، [mapSymbolMas] محاط بدائرة ومعنون بـ '[smell] و [stain]'.</li>
-    <li>specialFact(p=0.2)->على الخريطة، [mapSymbolFem] محاطة بدائرة ومعنونة بـ '[smell] و [stain]'.</li>
-    <li>specialFact(p=0.3)->على الخريطة، [mapSymbolNeu] محاط بدائرة ومعنون بـ '[smell] و [stain]'.</li>
-    <li>specialFact->مكتوب في الهوامش قصيدة عمرها ألف عام بعنوان 'Diabolus'.</li>
-    <li>specialFact->مفتاح الخريطة يُعرّف [mapSymbols] [Color]ة بأنها أوكار [Enemy] و [mapSymbols] [Color]ة بأنها مناطق صيد [Animal].</li>
+    <li>specialFact(p=0.5)->على الخريطة، [mapSymbolMas] محاط بدائرة ومعنون بـ '[smell] و[stain]'.</li>
+    <li>specialFact(p=0.2)->على الخريطة، [mapSymbolFem] محاطة بدائرة ومعنونة بـ '[smell] و[stain]'.</li>
+    <li>specialFact(p=0.3)->على الخريطة، [mapSymbolNeu] محاط بدائرة ومعنون بـ '[smell] و[stain]'.</li>
+    <li>specialFact->مكتوب في الهوامش قصيدة عمرها ألف سنة بعنوان 'ديابولوس'.</li>
+    <li>specialFact->مفتاح الخريطة يُعرّف [mapSymbols] [Color]ة بأنها أوكار [Enemy] و[mapSymbols] [Color]ة بأنها مناطق صيد [Animal].</li>
     <li>specialFact->مقياس رسم الخريطة خاطئ بشكل واضح.</li>
-    <li>specialFact(p=0.33)->في [noteLocation] ختم شمعي باهت. يشبه [AnimalMas] [emotionalState].</li>
-    <li>specialFact(p=0.33)->في [noteLocation] ختم شمعي باهت. يشبه [AnimalFem] [emotionalState]ة.</li>
-    <li>specialFact(p=0.33)->في [noteLocation] ختم شمعي باهت. يشبه [AnimalNeu] [emotionalState].</li>
+    <li>specialFact(p=0.33)->[noteLocation] ختم شمعي باهت. يشبه [AnimalMas] [emotionalState].</li>
+    <li>specialFact(p=0.33)->[noteLocation] ختم شمعي باهت. يشبه [AnimalFem] [emotionalState]ة.</li>
+    <li>specialFact(p=0.33)->[noteLocation] ختم شمعي باهت. يشبه [AnimalNeu] [emotionalState].</li>
     <li>maybe_questInfo-></li>
     <li>maybe_questInfo(p=3)->[questInfo]</li>
     <li>questInfo->منطقة من الخريطة محاطة بدائرة ومعنونة: '[mapText]!'</li>
     <li>questInfo->ملاحظة مرفقة معنونة '[mapText]؟'</li>
-    <li>questInfo->'[mapText]' مكتوبة بحبر باهت في [noteLocation].</li>
-    <li>questInfo->ملاحظة في [noteLocation] تقول: '[mapText].'</li>
-    <li>questInfo->ملاحظة مكتوبة على عجل في [noteLocation] تقول: '[mapText]!'</li>
-    <li>questInfo->لُغز غامض كُتب في [noteLocation]. ينتهي بـ '...[mapText].'</li>
+    <li>questInfo->'[mapText]' مكتوبة بحبر باهت [noteLocation].</li>
+    <li>questInfo->ملاحظة [noteLocation] تقول: '[mapText].'</li>
+    <li>questInfo->ملاحظة مكتوبة على عجل [noteLocation] تقول: '[mapText]!'</li>
+    <li>questInfo->لُغز غامض كُتب [noteLocation]. ينتهي بـ '...[mapText].'</li>
     <li>questInfo(p=0.5)->بجانب [mapSymbolMas] [Color] توجد الكلمات '[mapText].'</li>
     <li>questInfo(p=0.2)->بجانب [mapSymbolFem] [Color]ة توجد الكلمات '[mapText].'</li>
     <li>questInfo(p=0.3)->بجانب [mapSymbolNeu] [Color] توجد الكلمات '[mapText].'</li>
@@ -436,16 +436,16 @@
     <li>questInfo(p=0.2)->[noteLocation]، [mapSymbolFem] معنونة '[mapText]؟'</li>
     <li>questInfo(p=0.3)->[noteLocation]، [mapSymbolNeu] معنون '[mapText]؟'</li>
     <li>questInfo->[noteLocation]، بعض الملاحظات ملطخة. الشيء الوحيد المقروء: 'تأكيد - [mapText].'</li>
-    <li>questInfo(p=0.5)->في [noteLocation] رسم تقريبي لـ[PersonBadass] [emotionalState]. وتحتها الكلمات: '[mapText].'</li>
-    <li>questInfo(p=0.5)->في [noteLocation] رسم تقريبي لـ[PersonBadassFem] [emotionalState]ة. وتحتها الكلمات: '[mapText].'</li>
-    <li>questInfo(p=0.33)->في [noteLocation] رُسم [AnimalMas] بقلم رصاص. وتحته الكلمات: '[mapText].'</li>
-    <li>questInfo(p=0.33)->في [noteLocation] رُسمت [AnimalFem] بقلم رصاص. وتحتها الكلمات: '[mapText].'</li>
-    <li>questInfo(p=0.33)->في [noteLocation] رُسم [AnimalNeu] بقلم رصاص. وتحته الكلمات: '[mapText].'</li>
+    <li>questInfo(p=0.5)->[noteLocation] رسم تقريبي لـ[PersonBadass] [emotionalState]. وتحتها الكلمات: '[mapText].'</li>
+    <li>questInfo(p=0.5)->[noteLocation] رسم تقريبي لـ[PersonBadassFem] [emotionalState]ة. وتحتها الكلمات: '[mapText].'</li>
+    <li>questInfo(p=0.33)->[noteLocation] رُسم [AnimalMas] بقلم رصاص. وتحته الكلمات: '[mapText].'</li>
+    <li>questInfo(p=0.33)->[noteLocation] رُسمت [AnimalFem] بقلم رصاص. وتحتها الكلمات: '[mapText].'</li>
+    <li>questInfo(p=0.33)->[noteLocation] رُسم [AnimalNeu] بقلم رصاص. وتحته الكلمات: '[mapText].'</li>
     <li>questInfo->مفتاح الخريطة يصنف [mapSymbols] [Color]ة كـ '[mapText].'</li>
     <li>questInfo->علامة X حمراء سميكة مخدوشة على موقع. بجانبها، '[mapText]' مكتوبة بخط صغير.</li>
     <li>questInfo->عند التدقيق، يبدو أن أحداً حاول محو الكلمات '[mapText]' من الخريطة.</li>
     <li>questInfo->بالقرب من أيقونة جمجمة [Color]، كتب شخص ما بأحرف بارزة: '[mapText].'</li>
-    <li>questInfo->رُسم رمز غير عادي في [noteLocation]. تحته الكلمات '[mapText].'</li>
+    <li>questInfo->رُسم رمز غير عادي [noteLocation]. تحته الكلمات '[mapText].'</li>
     <li>questInfo->خنجر [Color] محفور في الخريطة، يشير نحو الكلمات '[mapText].'</li>
     <li>questInfo->[noteLocation] توجد قائمة تدقيق. كل بند في القائمة مشطوب، ما عدا واحد: '[mapText].'</li>
     <li>maybe_condition-></li>
@@ -500,8 +500,8 @@
     <li>maybe_authorInfo->\n\n[authorInfo]</li>
     <li>authorInfo->ليس واضحاً من صمم هذه الخريطة.</li>
     <li>authorInfo->الخريطة صممها [ANYPAWN_nameFull]، عضو بارز من فصيل '[ANYPAWN_factionName]'.</li>
-    <li>authorInfo(ANYPAWN_gender!=Female)->[noteLocation]، وُقّعها '[ANYPAWN_nameIndef] الـ[PersonJob]'.</li>
-    <li>authorInfo(ANYPAWN_gender==Female)->[noteLocation]، وُقّعتها '[ANYPAWN_nameIndef] الـ[PersonJobFem]'.</li>
+    <li>authorInfo(ANYPAWN_gender!=Female)->[noteLocation]، وقّع الخريطة '[ANYPAWN_nameIndef] ال[PersonJob]'.</li>
+    <li>authorInfo(ANYPAWN_gender==Female)->[noteLocation]، وقّعت الخريطة '[ANYPAWN_nameIndef] ال[PersonJobFem]'.</li>
     <li>authorInfo->مُرفق مع الخريطة سيرة ذاتية قصيرة لمؤلفها، [ANYPAWN_nameIndef].</li>
     <li>authorInfo->يبدو أن المالك السابق للخريطة كان {ANYPAWN_gender ? رجلاً : امرأة} يُدعى [ANYPAWN_nameIndef].</li>
     <li>authorInfo->المالك السابق للخريطة مجهول، لكن العلامات تشير إلى أنه كان عضواً في فصيل '[ANYPAWN_factionName]'.</li>
@@ -795,10 +795,10 @@
     <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
     <li>PlaceOutlander->[CapSylE][SylE][SylE][place_end]</li>
     <li>mapSubjectAdj(p=6)->[directionAdj]</li>
-    <li>mapSubjectAdj->أثري</li>
-    <li>mapSubjectAdj->قديم جداً</li>
-    <li>mapSubjectAdj->تاريخي</li>
     <li>mapSubjectAdj->قديم</li>
+    <li>mapSubjectAdj->عتيق</li>
+    <li>mapSubjectAdj->تاريخي</li>
+    <li>mapSubjectAdj->سحيق</li>
     <li>mapSubjectAdj->منسي</li>
     <li>mapSubjectAdj->سري</li>
     <li>mapSubjectAdj->خاص</li>
@@ -809,7 +809,7 @@
     <li>mapSubjectAdj->عجيب</li>
     <li>mapSubjectAdj->غريب</li>
     <li>mapSubjectAdj->عجيب</li>
-    <li>mapSubjectAdj->مُجدٍ</li>
+    <li>mapSubjectAdj->مجدي</li>
     <li>mapSubjectAdj->ثمين</li>
     <li>mapSubjectAdj->خرافي</li>
     <li>mapSubjectAdj->فخم</li>
@@ -832,7 +832,7 @@
     <li>mapSubjectAdj->خطير</li>
     <li>mapSubjectAdj->مميت</li>
     <li>mapSubjectAdj->سام</li>
-    <li>mapSubjectAdj->حصرية</li>
+    <li>mapSubjectAdj->حصري</li>
     <li>mapSubjectAdj->فريد</li>
     <li>mapSubjectAdj->مهم</li>
     <li>mapSubjectAdj->متنوع</li>
@@ -857,7 +857,7 @@
     <li>mapSubjectMisc->أنهار</li>
     <li>mapSubjectMisc->غابات</li>
     <li>mapSubjectMisc->مستنقعات</li>
-    <li>mapSubjectMisc->أراضي وعرة</li>
+    <li>mapSubjectMisc->أراضٍ وعرة</li>
     <li>mapSubjectMisc->معالم</li>
     <li>mapSubjectMisc->أحواض مائية</li>
     <li>mapSubjectMisc->بحيرات</li>
@@ -868,7 +868,7 @@
     <li>mapSubjectMisc->مناطق حدودية</li>
     <li>mapSubjectMisc->مواقع</li>
     <li>mapSubjectMisc->موارد</li>
-    <li>mapSubjectMisc->لقى أثرية</li>
+    <li>mapSubjectMisc->لقى قديمة</li>
     <li>mapSubjectMisc->آثار مقدسة</li>
     <li>mapSubjectMisc->مدن</li>
     <li>mapSubjectMisc->مستوطنات</li>
@@ -898,7 +898,7 @@
     <li>mapSubjectMiscDatIndef->أنهار</li>
     <li>mapSubjectMiscDatIndef->غابات</li>
     <li>mapSubjectMiscDatIndef->مستنقعات</li>
-    <li>mapSubjectMiscDatIndef->أراضي وعرة</li>
+    <li>mapSubjectMiscDatIndef->أراضٍ وعرة</li>
     <li>mapSubjectMiscDatIndef->معالم</li>
     <li>mapSubjectMiscDatIndef->أحواض مائية</li>
     <li>mapSubjectMiscDatIndef->بحيرات</li>
@@ -909,7 +909,7 @@
     <li>mapSubjectMiscDatIndef->مناطق حدودية</li>
     <li>mapSubjectMiscDatIndef->مواقع</li>
     <li>mapSubjectMiscDatIndef->موارد</li>
-    <li>mapSubjectMiscDatIndef->لقى أثرية</li>
+    <li>mapSubjectMiscDatIndef->لقى قديمة</li>
     <li>mapSubjectMiscDatIndef->آثار مقدسة</li>
     <li>mapSubjectMiscDatIndef->مدن</li>
     <li>mapSubjectMiscDatIndef->مستوطنات</li>
@@ -1079,9 +1079,9 @@
     <li>title->[map] لـ[mapSubjectGenIndef] [mapSubjectAdj]ة</li>
     <li>title->[map]: [mapSubjectNomIndef] [mapSubjectAdj]ة</li>
     <li>title->[map]: [mapSubjectNomIndef]</li>
-    <li>title(p=0.5)->[place]-[mapNounMaybePrefixed]</li>
+    <li>title(p=0.5)->[mapNounMaybePrefixed] [place]</li>
     <li>title(p=0.5)->[mapTypeAdj_place_mapNounMaybePrefixed]</li>
-    <li>mit(p=3)->بـ</li>
+    <li>mit(p=3)->مع</li>
     <li>mit->من</li>
     <li>map->[mapTypeAdj_mapNounMaybePrefixed]</li>
     <li>map->[mapNounMaybePrefixed] [ANYPAWN_nameIndef]</li>
@@ -1092,16 +1092,16 @@
     <li>mapNounGender(p=5)->|F|خريطة</li>
     <li>mapNounGender(p=2)->|M|أطلس</li>
     <li>mapNounGender->|F|كراسة</li>
-    <li>mapNounPrefixed(p=5)->[mapTypePre]خريطة</li>
-    <li>mapNounPrefixed(p=2)->[mapTypePre]أطلس</li>
-    <li>mapNounGenderPrefixed(p=5)->|F|[mapTypePre]خريطة</li>
-    <li>mapNounGenderPrefixed(p=2)->|M|[mapTypePre]أطلس</li>
+    <li>mapNounPrefixed(p=5)->خريطة [mapTypePre]</li>
+    <li>mapNounPrefixed(p=2)->أطلس [mapTypePre]</li>
+    <li>mapNounGenderPrefixed(p=5)->|F|خريطة [mapTypePre]</li>
+    <li>mapNounGenderPrefixed(p=2)->|M|أطلس [mapTypePre]</li>
     <li>mapNounMaybePrefixed->[mapNoun]</li>
     <li>mapNounMaybePrefixed->[mapNounPrefixed]</li>
     <li>mapNounGenderMaybePrefixed->[mapNounGender]</li>
     <li>mapNounGenderMaybePrefixed->[mapNounGenderPrefixed]</li>
     <li>mapTypeAdj(p=3)->[Color]</li>
-    <li>mapTypeAdj->زاهٍ</li>
+    <li>mapTypeAdj->زاهي</li>
     <li>mapTypeAdj->هام</li>
     <li>mapTypeAdj->بسيط</li>
     <li>mapTypeAdj->أصلي</li>
@@ -1113,28 +1113,28 @@
     <li>mapTypeAdj->قديم</li>
     <li>mapTypeAdj->أثري</li>
     <li>mapTypeAdj->تاريخي</li>
-    <li>mapTypeAdj->ثلاثي الأبعاد</li>
+    <li>mapTypeAdj->مجسم</li>
     <li>mapTypeAdj->موضح</li>
     <li>mapTypeAdj->مُعلّق</li>
     <li>mapTypeAdj->مُغلّف</li>
     <li>mapTypeAdj->طبوغرافي</li>
     <li>mapTypeAdj->عتيق</li>
-    <li>mapTypePre->سري</li>
-    <li>mapTypePre->أرض</li>
+    <li>mapTypePre->الأسرار</li>
+    <li>mapTypePre->الأرض</li>
     <li>mapTypePre->جلد</li>
     <li>mapTypePre->ورق</li>
     <li>mapTypePre->رق</li>
-    <li>mapTypePre->بريد</li>
-    <li>mapTypePre->إقليمي</li>
+    <li>mapTypePre->الملاحة</li>
+    <li>mapTypePre->الإقليم</li>
     <li>mapTypePre->تضاريس</li>
     <li>mapTypePre->كنز</li>
-    <li>mapTypePre->خاص</li>
+    <li>mapTypePre->الاستكشاف</li>
     <li>mapTypePre->قماش</li>
     <li>mapTypePre->جيب</li>
-    <li>mapTypePre->محيطي</li>
-    <li>mapTypePre->هولو</li>
+    <li>mapTypePre->المحيطات</li>
+    <li>mapTypePre->الهولوغرام</li>
     <li>mapTypeAdj_mapNounMaybePrefixed->{replace: [mapNounGenderMaybePrefixed]; "|M|"-"{1} [mapTypeAdj]"; "|F|"-"{1} [mapTypeAdj]ة"; "|N|"-"{1} [mapTypeAdj]"}</li>
-    <li>mapTypeAdj_place_mapNounMaybePrefixed->{replace: [mapNounGenderMaybePrefixed]; "|M|"-"[mapTypeAdj] {1} [place]"; "|F|"-"[mapTypeAdj]ة {1} [place]"; "|N|"-"[mapTypeAdj] {1} [place]"}</li>
+    <li>mapTypeAdj_place_mapNounMaybePrefixed->{replace: [mapNounGenderMaybePrefixed]; "|M|"-"{1} [place] [mapTypeAdj]"; "|F|"-"{1} [place] [mapTypeAdj]ة"; "|N|"-"{1} [place] [mapTypeAdj]"}</li>
     <!-- fallbacks -->
     <li>subject_dat_indef_zero(priority=-1)->[subject]</li>
     <li>subject_with_of(priority=-1)->من [subject]</li>

@@ -5,7 +5,7 @@
     <li>questDescription->[discoveryMethod] the location of an alpha thrumbo.\n\nAlpha thrumbos are exceptionally rare creatures, believed by many to be mere fiction. Too wild for most to tame and too powerful for most to hunt, their horns are worth more than their weight in gold.</li>
   -->
   <OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع ألفا ثرمبو.\n\nألفا ثرمبو مخلوقات نادرة للغاية، يعتقد الكثيرون أنها مجرد خيال. جامحة جداً لترويض معظم الناس وقوية جداً لصيد معظمهم، قرونها تساوي أكثر من وزنها ذهباً.</li>
+    <li>questDescription->[discoveryMethod] موقع ألفا ثرمبو.\n\nألفا ثرمبو مخلوقات نادرة للغاية، يظن كثيرون أنها مجرد خرافة. فهي أجمح من أن يروضها معظم الناس، وأقوى من أن يصطادها معظمهم، وقرونها تساوي أكثر من وزنها ذهباً.</li>
  </OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->alpha thrumbo</li>
@@ -42,8 +42,8 @@
   <!-- EN: You have discovered -->
   <OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>لقد اكتشفت</OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>انتهت المهمة: [resolvedQuestName]</OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>انتهت صلاحية المهمة: [resolvedQuestName]</OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the alpha thrumbo has moved on. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>تشير الاتصالات التي تم اعتراضها إلى أن ألفا ثرمبو قد رحل. انتهت المهمة [resolvedQuestName].</OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>تشير الاتصالات المعترضة إلى أن ألفا ثرمبو قد رحل. انتهت صلاحية المهمة [resolvedQuestName].</OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

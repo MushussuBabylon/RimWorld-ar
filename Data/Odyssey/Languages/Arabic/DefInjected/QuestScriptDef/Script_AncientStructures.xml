@@ -6,8 +6,8 @@
     <li>structureNameWithArticle->an infested settlement</li>
   -->
   <Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع [structureNameWithArticle]. يمكنك نهب المبنى للحصول على موارد قيّمة.\n\nكن حذراً، المباني القديمة يمكن أن تحتوي على مجموعة متنوعة من التهديدات.</li>
-    <li>structureNameWithArticle->مستوطنة موبوءة</li>
+    <li>questDescription->[discoveryMethod] موقع [structureNameWithArticle]. يمكنك نهب المبنى للحصول على موارد قيّمة.\n\nكن حذراً، فقد تحتوي المباني القديمة على تهديدات متنوعة.</li>
+    <li>structureNameWithArticle->مستوطنة قديمة مجتاحة بالحشرات</li>
  </Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
@@ -19,13 +19,13 @@
     <li>structureName->infested settlement</li>
   -->
   <Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
-    <li>questName->الـ [ancient] [structureName]</li>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->اكتشف [structureName]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] المكتشفة</li>
     <li>questName->اكتشاف [structureName]</li>
-    <li>ancient(p=2)->قديمة</li>
-    <li>ancient->مفقودة</li>
-    <li>structureName->مستوطنة موبوءة</li>
+    <li>ancient(p=2)->القديمة</li>
+    <li>ancient->المفقودة</li>
+    <li>structureName->المستوطنة المجتاحة بالحشرات</li>
  </Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
@@ -45,14 +45,14 @@
   <Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
     <li>subject->مبانٍ قديمة</li>
     <li>subject->معالم مفقودة</li>
-    <li>subject->مبانٍ أثرية</li>
+    <li>subject->منشآت قديمة</li>
     <li>questMapFeature->رسم لمبنى قديم</li>
     <li>questMapText->هدف للنهب</li>
     <li>questMapText->موقع استكشاف</li>
     <li>questMapText->مبنى قديم خطير</li>
     <li>questMapText->احذر الأفخاخ</li>
     <li>subject->خلايا حشرات</li>
-    <li>subject->إصابات</li>
+    <li>subject->اجتياحات</li>
     <li>questMapFeature->خلية حشرات</li>
     <li>questMapFeature->رسم تشريحي لعنكبوت ضخم</li>
     <li>questMapText->حشرات في كل مكان</li>
@@ -63,7 +63,7 @@
     <li>structureNameWithArticle->an ancient chemfuel refinery</li>
   -->
   <Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع [structureNameWithArticle]. يمكنك نهب المبنى للحصول على موارد قيّمة.\n\nكن حذراً، المباني القديمة يمكن أن تحتوي على مجموعة متنوعة من التهديدات.</li>
+    <li>questDescription->[discoveryMethod] موقع [structureNameWithArticle]. يمكنك نهب المبنى للحصول على موارد قيّمة.\n\nكن حذراً، فقد تحتوي المباني القديمة على تهديدات متنوعة.</li>
     <li>structureNameWithArticle->مصفاة وقود كيميائي قديمة</li>
  </Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -76,13 +76,13 @@
     <li>structureName->chemfuel refinery</li>
   -->
   <Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
-    <li>questName->الـ [ancient] [structureName]</li>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->اكتشف [structureName]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] المكتشفة</li>
     <li>questName->اكتشاف [structureName]</li>
-    <li>ancient(p=2)->قديمة</li>
-    <li>ancient->مفقودة</li>
-    <li>structureName->مصفاة وقود كيميائي</li>
+    <li>ancient(p=2)->القديمة</li>
+    <li>ancient->المفقودة</li>
+    <li>structureName->مصفاة الوقود الكيميائي</li>
  </Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
@@ -104,13 +104,13 @@
   <Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
     <li>subject->مبانٍ قديمة</li>
     <li>subject->معالم مفقودة</li>
-    <li>subject->مبانٍ أثرية</li>
+    <li>subject->منشآت قديمة</li>
     <li>questMapFeature->رسم لمبنى قديم</li>
     <li>questMapText->هدف للنهب</li>
     <li>questMapText->موقع استكشاف</li>
     <li>questMapText->مبنى قديم خطير</li>
     <li>questMapText->احذر الأفخاخ</li>
-    <li>subject->مصافي قديمة</li>
+    <li>subject->مصافٍ قديمة</li>
     <li>subject->مصانع كيميائية</li>
     <li>questMapFeature->مصفاة وقود كيميائي</li>
     <li>questMapFeature->صورة لخزان وقود كيميائي</li>
@@ -124,7 +124,7 @@
     <li>structureNameWithArticle->an ancient garrison</li>
   -->
   <Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع [structureNameWithArticle]. يمكنك نهب المبنى للحصول على موارد قيّمة.\n\nكن حذراً، المباني القديمة يمكن أن تحتوي على مجموعة متنوعة من التهديدات.</li>
+    <li>questDescription->[discoveryMethod] موقع [structureNameWithArticle]. يمكنك نهب المبنى للحصول على موارد قيّمة.\n\nكن حذراً، فقد تحتوي المباني القديمة على تهديدات متنوعة.</li>
     <li>structureNameWithArticle->حامية قديمة</li>
  </Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -137,13 +137,13 @@
     <li>structureName->garrison</li>
   -->
   <Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
-    <li>questName->الـ [ancient] [structureName]</li>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->اكتشف [structureName]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] المكتشفة</li>
     <li>questName->اكتشاف [structureName]</li>
-    <li>ancient(p=2)->قديمة</li>
-    <li>ancient->مفقودة</li>
-    <li>structureName->حامية</li>
+    <li>ancient(p=2)->القديمة</li>
+    <li>ancient->المفقودة</li>
+    <li>structureName->الحامية</li>
  </Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
@@ -166,7 +166,7 @@
   <Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
     <li>subject->مبانٍ قديمة</li>
     <li>subject->معالم مفقودة</li>
-    <li>subject->مبانٍ أثرية</li>
+    <li>subject->منشآت قديمة</li>
     <li>questMapFeature->رسم لمبنى قديم</li>
     <li>questMapText->هدف للنهب</li>
     <li>questMapText->موقع استكشاف</li>
@@ -178,7 +178,7 @@
     <li>questMapFeature->صورة لرفوف أسلحة</li>
     <li>questMapFeature->رسم فحمي لبندقية هجومية</li>
     <li>questMapText->منشأة أسلحة</li>
-    <li>questMapText->مستودع ذخيرة قديم</li>
+    <li>questMapText->ترسانة قديمة</li>
     <li>questMapText->الكثير من المعدات العسكرية</li>
  </Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
   
@@ -187,7 +187,7 @@
     <li>structureNameWithArticle->an ancient launch site</li>
   -->
   <Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع [structureNameWithArticle]. يمكنك نهب المبنى للحصول على موارد قيّمة.\n\nكن حذراً، المباني القديمة يمكن أن تحتوي على مجموعة متنوعة من التهديدات.</li>
+    <li>questDescription->[discoveryMethod] موقع [structureNameWithArticle]. يمكنك نهب المبنى للحصول على موارد قيّمة.\n\nكن حذراً، فقد تحتوي المباني القديمة على تهديدات متنوعة.</li>
     <li>structureNameWithArticle->موقع إطلاق قديم</li>
  </Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -200,13 +200,13 @@
     <li>structureName->launch site</li>
   -->
   <Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
-    <li>questName->الـ [ancient] [structureName]</li>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->اكتشف [structureName]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] المكتشف</li>
     <li>questName->اكتشاف [structureName]</li>
-    <li>ancient(p=2)->قديمة</li>
-    <li>ancient->مفقودة</li>
-    <li>structureName->موقع إطلاق</li>
+    <li>ancient(p=2)->القديم</li>
+    <li>ancient->المفقود</li>
+    <li>structureName->موقع الإطلاق</li>
  </Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
@@ -227,7 +227,7 @@
   <Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
     <li>subject->مبانٍ قديمة</li>
     <li>subject->معالم مفقودة</li>
-    <li>subject->مبانٍ أثرية</li>
+    <li>subject->منشآت قديمة</li>
     <li>questMapFeature->رسم لمبنى قديم</li>
     <li>questMapText->هدف للنهب</li>
     <li>questMapText->موقع استكشاف</li>
@@ -246,7 +246,7 @@
     <li>structureNameWithArticle->an ancient warehouse</li>
   -->
   <Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] موقع [structureNameWithArticle]. يمكنك نهب المبنى للحصول على موارد قيّمة.\n\nكن حذراً، المباني القديمة يمكن أن تحتوي على مجموعة متنوعة من التهديدات.</li>
+    <li>questDescription->[discoveryMethod] موقع [structureNameWithArticle]. يمكنك نهب المبنى للحصول على موارد قيّمة.\n\nكن حذراً، فقد تحتوي المباني القديمة على تهديدات متنوعة.</li>
     <li>structureNameWithArticle->مستودع قديم</li>
  </Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -259,13 +259,13 @@
     <li>structureName->warehouse</li>
   -->
   <Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
-    <li>questName->الـ [ancient] [structureName]</li>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->اكتشف [structureName]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] المكتشف</li>
     <li>questName->اكتشاف [structureName]</li>
-    <li>ancient(p=2)->قديمة</li>
-    <li>ancient->مفقودة</li>
-    <li>structureName->مستودع</li>
+    <li>ancient(p=2)->القديم</li>
+    <li>ancient->المفقود</li>
+    <li>structureName->المستودع</li>
  </Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
@@ -286,7 +286,7 @@
   <Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
     <li>subject->مبانٍ قديمة</li>
     <li>subject->معالم مفقودة</li>
-    <li>subject->مبانٍ أثرية</li>
+    <li>subject->منشآت قديمة</li>
     <li>questMapFeature->رسم لمبنى قديم</li>
     <li>questMapText->هدف للنهب</li>
     <li>questMapText->موقع استكشاف</li>

@@ -33,22 +33,22 @@
   <Shipborn.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Shipborn)        ->شكّل [deity0_name] البشرية من غبار [celestialComponents]، نافخاً الحياة في الجنس البشري برياحـ[deity0_possessive] النجمية.</li>
     <li>episode(uses=1,tag=meme_Shipborn)  ->شتّت [deity0_name] شعب [place_name] العظيم، وأرسلهم إلى الفراغ ليشهدوا امتزاج النجم والروح.</li>
-    <li>intro(tag=meme_Shipborn)           ->في أيام الظلام، رأى [deity0_name] أن البشرية بحاجة إلى الهداية، وأمر [memberNamePlural] بأن يبنوا سفناً عظيمة.</li>
-    <li>conflict(tag=meme_Shipborn)        ->عندما بدأ [memberNamePlural] بتحقيق رؤية [deity0_name]، تحرك [foeLeader] الخائن لمنعهم. استخدم [foeSoldiers]ـ[foeLeader_possessive] أسلحة [place_personalWeapon] قاسية ضد أولئك الذين حاولوا الصعود إلى السفن المقدسة.</li>
+    <li>intro(tag=meme_Shipborn)           ->في أيام الظلام، رأى [deity0_name] أن البشرية بحاجة إلى الهداية، وأمر [memberNamePlural]ـ[deity0_possessive] ببناء سفن عظيمة.</li>
+    <li>conflict(tag=meme_Shipborn)        ->وعندما بدأ [memberNamePlural] بتحقيق رؤية [deity0_name]، تحرك [foeLeader] خائن لمنعهم. واستخدم [foeSoldiers]ـ[foeLeader_possessive] أسلحة قاسية مثل [place_personalWeapon] ضد من حاولوا الصعود إلى السفن المقدسة.</li>
     <li>founderJoin(tag=meme_Shipborn)     ->قام [place_job] يدعى [founderName] بجمع المؤمنين الحقيقيين، وقادهم إلى [altarRoomLabel] خفي. هناك أصبح [founder_pronoun] [veneratedRole] لهم.</li>
-    <li>victory(tag=meme_Shipborn)         ->ثم تحدث [founderName] بصوت [deity0_name]. في امتزاج رائع من النور والطاقة، تغلب [founderName] على أعداء[founder_possessive] وقاد شعبـ[founder_possessive] إلى السفن المقدسة.</li>
-    <li>setup(tag=meme_Shipborn)           ->في سفينتـ[founder_possessive] الإلهية، سافر [founderName] في البحار النجمية لألف عام، متصلاً بالأرواح السماوية وفاتحاً أسرار الكون.</li>
+    <li>victory(tag=meme_Shipborn)         ->ثم تحدث [founderName] بصوت [deity0_name]. وفي امتزاج باهر من النور والطاقة، قهر [founderName] خصومـ[founder_possessive] وقاد شعبـ[founder_possessive] إلى السفن المقدسة.</li>
+    <li>setup(tag=meme_Shipborn)           ->في سفينتـ[founder_possessive] الإلهية، أبحر [founderName] في البحار النجمية ألف سنة، متواصلاً مع الأرواح السماوية وكاشفاً أسرار الكون.</li>
     <li>story(uses=1,tag=meme_Shipborn)    ->رأى [founderName] أن مصير البشرية لا يمكن أن يكتمل إلا بين النجوم.</li>
-    <li>lessonIntro(tag=meme_Shipborn)         ->في تأملاتي لـ[celestialComponents]، وجدت حقيقة واحدة فوق كل شيء:</li>
+    <li>lessonIntro(tag=meme_Shipborn)         ->من خلال مراقبتي لـ[celestialComponents]، وجدت حقيقة واحدة تعلو كل شيء:</li>
     <li>lesson(tag=meme_Shipborn)              ->النجوم هي [veneratedRole] الحقيقي، ومن واجبنا أن نبحث عن حكمتها وأن نسافر بينها</li>
     <li>lesson(tag=meme_Shipborn)              ->لم يُخلق البشر ليكونوا سجناء لصخرة. يجب أن نعيش بين السماوات</li>
-    <li>lesson(tag=meme_Shipborn)              ->سفننا هي أمهاتنا المقدسات وآباؤنا الموقرون. يجب أن نعتني بهم كما اعتنوا بنا</li>
+    <li>lesson(tag=meme_Shipborn)              ->سفننا هي أمهاتنا المقدسات وآباؤنا الموقرون. علينا أن نرعاها كما رعتنا</li>
     <li>lessonReinforcement(tag=meme_Shipborn) ->فلا تلمس قدماك الأرض أبداً.</li>
-    <li>archistBasis(tag=meme_Shipborn)    ->منذ ظهورهم، وسع الأركوتكيون وعيهم بين النجوم.</li>
-    <li>archistFact(tag=meme_Shipborn)     ->الأركوتكيون يتجاوزون قيود الحياة المرتبطة بالكوكب.</li>
-    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd]، سيعلمنا الأركوتكيون التحرك بين النجوم بسهولة إذا لاحظنا حكمتهم الكونية.</li>
-    <li>animistBasis(tag=meme_Shipborn)    ->سافر أسلافنا عبر [celestialComponents] ويعلموننا أن نعتبر البشرية والكيانات السماوية نظراء.</li>
-    <li>animistFact(tag=meme_Shipborn)     ->نفس الأرواح التي تسكن الأجرام السماوية توجه مصير البشرية.</li>
+    <li>archistBasis(tag=meme_Shipborn)    ->منذ ظهورهم، وسّع الآركوتيك وعيهم بين النجوم.</li>
+    <li>archistFact(tag=meme_Shipborn)     ->الآركوتيك يتجاوزون حدود الحياة المرتبطة بكوكب واحد.</li>
+    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd]، سيعلمنا الآركوتيك كيف نتنقل بين النجوم بلا عناء إذا اتبعنا حكمتهم الكونية.</li>
+    <li>animistBasis(tag=meme_Shipborn)    ->سافر أسلافنا عبر [celestialComponents] وعلّمونا أن ننظر إلى البشرية والكيانات السماوية بوصفها أنداداً.</li>
+    <li>animistFact(tag=meme_Shipborn)     ->الأرواح نفسها التي تسكن الأجرام السماوية هي التي توجه مصير البشرية.</li>
     <li>celestialComponents->النجوم والأقمار والمذنبات</li>
     <li>celestialComponents->الكون</li>
     <li>celestialComponents->ألف شمس</li>
