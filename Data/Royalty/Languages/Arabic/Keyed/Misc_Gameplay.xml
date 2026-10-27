@@ -5,7 +5,7 @@
   <!-- EN: Satisfies title -->
   <ThroneMaxSatisfiedTitle>يلبي متطلبات اللقب</ThroneMaxSatisfiedTitle>
   <!-- EN: ({0} impressiveness) -->
-  <ThroneRoomImpressivenessInfo>({0} إعجاب)</ThroneRoomImpressivenessInfo>
+  <ThroneRoomImpressivenessInfo>({0} فخامة)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
   <ThroneMustBePlacedInside>يجب وضع العرش في الداخل.</ThroneMustBePlacedInside>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
@@ -56,17 +56,17 @@
   <!-- EN: Psyfocus falls at {0} per day. -->
   <PsyfocusLevelInfoFallRate>ينخفض التركيز النفسي بمقدار {0} في اليوم.</PsyfocusLevelInfoFallRate>
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
-  <UserMeditationFocusStrength>قوة تركيز التأمل لـ {LASTUSER_labelShort}</UserMeditationFocusStrength>
+  <UserMeditationFocusStrength>قوة تركيز التأمل لـ{LASTUSER_labelShort}</UserMeditationFocusStrength>
   <!-- EN: Focus effect impacted by -->
   <MeditationFocusImpacted>تأثير التركيز متأثر بـ</MeditationFocusImpacted>
   <!-- EN: {1} per nearby animus stone (max {0}) -->
-  <MeditationFocusPerAnimusStoneAbstract>{1} لكل حجر روح قريب (الحد الأقصى {0})</MeditationFocusPerAnimusStoneAbstract>
+  <MeditationFocusPerAnimusStoneAbstract>{1} لكل حجر الأنيما قريب (الحد الأقصى {0})</MeditationFocusPerAnimusStoneAbstract>
   <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
-  <MeditationFocusPerAnimusStone>{2} لكل حجر روح قريب ({0} / {1})</MeditationFocusPerAnimusStone>
+  <MeditationFocusPerAnimusStone>{2} لكل حجر الأنيما قريب ({0} / {1})</MeditationFocusPerAnimusStone>
   <!-- EN: Per nearby animus stone {2}, nature shrine {1} (max {0}) -->
-  <MeditationFocusPerAnimusStoneAndShrineAbstract>لكل حجر روح قريب {2}، ضريح طبيعة {1} (الحد الأقصى {0})</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>لكل حجر الأنيما قريب {2}، ضريح طبيعة {1} (الحد الأقصى {0})</MeditationFocusPerAnimusStoneAndShrineAbstract>
   <!-- EN: Per nearby animus stone {3}, nature shrine {2} ({0} / {1}) -->
-  <MeditationFocusPerAnimusStoneAndShrine>لكل حجر روح قريب {3}، ضريح طبيعة {2} ({0} / {1})</MeditationFocusPerAnimusStoneAndShrine>
+  <MeditationFocusPerAnimusStoneAndShrine>لكل حجر الأنيما قريب {3}، ضريح طبيعة {2} ({0} / {1})</MeditationFocusPerAnimusStoneAndShrine>
   <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
   <MeditationFocusPerSculptureAbstract>الحد الأقصى {1} لكل منحوتة قريبة حسب الجودة (الحد الأقصى {0})</MeditationFocusPerSculptureAbstract>
   <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
@@ -91,15 +91,15 @@
   <!-- EN: throne is not accessible. -->
   <AbilitySpeechDisabledNoThroneIsNotAccessible>العرش غير قابل للوصول.</AbilitySpeechDisabledNoThroneIsNotAccessible>
   <!-- EN: throne not usable because it is undignified. -->
-  <AbilitySpeechDisabledNoThroneUndignified>العرش غير قابل للاستخدام لأنه غير مكرم.</AbilitySpeechDisabledNoThroneUndignified>
+  <AbilitySpeechDisabledNoThroneUndignified>العرش غير قابل للاستخدام لأنه غير لائق.</AbilitySpeechDisabledNoThroneUndignified>
   <!-- EN: already giving a speech. -->
   <AbilitySpeechDisabledAlreadyGivingSpeech>يلقي خطاباً بالفعل.</AbilitySpeechDisabledAlreadyGivingSpeech>
   <!-- EN: Outcome chances -->
   <AbilitySpeechPossibleOutcomes>فرص النتائج</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
-  <AbilitySpeechStatInfo>إحصائية {1} لـ {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
+  <AbilitySpeechStatInfo>إحصائية {1} لـ{ORGANIZER_labelShort}</AbilitySpeechStatInfo>
   <!-- EN: Dignified throne -->
-  <AbilitySpeechTargetDescThrone>عرش مكرم</AbilitySpeechTargetDescThrone>
+  <AbilitySpeechTargetDescThrone>عرش لائق</AbilitySpeechTargetDescThrone>
   
   <!-- EN: no accessible altar. -->
   <RitualDisabledNoAltar>لا يوجد مذبح يمكن الوصول إليه.</RitualDisabledNoAltar>
@@ -125,9 +125,9 @@
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>اكتمل طقس الارتباط</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} أكمل طقس الارتباط مع {LINKABLE_labelShort}.\n\n{PAWN_pronoun} لديه الآن وصلة نفسية مُرقى، مما يسمح باستخدام قوى نفسية جديدة.</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} أكمل طقس الارتباط مع {LINKABLE_labelShort}.\n\n{PAWN_pronoun} لديه الآن وصلة نفسية مطوّرة، مما يسمح باستخدام قوى نفسية جديدة.</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
-  <LetterTextLinkingRitualCompletedAnimaGrass>بالإضافة إلى ذلك، تم استعادة {0} عشب أنيما.</LetterTextLinkingRitualCompletedAnimaGrass>
+  <LetterTextLinkingRitualCompletedAnimaGrass>بالإضافة إلى ذلك، استُعيد {0} من عشب الأنيما.</LetterTextLinkingRitualCompletedAnimaGrass>
 
   <!-- EN: Land shuttle here -->
   <LandHere>اهبط بالمكوك هنا</LandHere>
@@ -135,7 +135,7 @@
   <MessageShuttleDestinationIsTooFar>الوجهة خارج النطاق.</MessageShuttleDestinationIsTooFar>
 
   <!-- EN: Start bestowing ceremony for {0_labelShort} -->
-  <BeginCeremony>بدء حفل المنح لـ {0_labelShort}</BeginCeremony>
+  <BeginCeremony>بدء حفل المنح لـ{0_labelShort}</BeginCeremony>
   <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
   <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>غرفة عرش {PAWN_definite} لا تلبي متطلبات لقب {TITLE}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->

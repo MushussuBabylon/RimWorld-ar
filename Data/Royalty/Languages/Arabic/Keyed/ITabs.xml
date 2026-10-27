@@ -4,7 +4,7 @@
   <!-- EN: Royal tribute collector -->
   <LetterLabelTributeCollectorArrival>جامع الجزية الإمبراطوري</LetterLabelTributeCollectorArrival>
   <!-- EN: A royal tribute collector from {FACTION_name} is approaching.\n\nThey will accept any prisoners and gold you offer as tribute. The one who gives over the tribute will receive {FACTION_royalFavorLabel} for fulfilling the tradition and supporting the upper houses.\n\nYou can expect a tribute collector to arrive roughly twice per year as long as you are not enemies with {FACTION_name}. -->
-  <LetterTributeCollectorArrival>يقترب جامع جزية إمبراطوري من {FACTION_name}.\n\nسيقبل أي سجناء وذهب تقدمه كجزية. الشخص الذي يسلم الجزية سيحصل على {FACTION_royalFavorLabel} لإتمام التقليد ودعم المنازل العليا.\n\nيمكنك توقع وصول جامع الجزية مرتين تقريباً في السنة طالما لست عدواً لـ {FACTION_name}.</LetterTributeCollectorArrival>
+  <LetterTributeCollectorArrival>يقترب جامع جزية إمبراطوري من {FACTION_name}.\n\nسيقبل أي سجناء وذهب تقدمه كجزية. الشخص الذي يسلم الجزية سيحصل على {FACTION_royalFavorLabel} لإتمام التقليد ودعم المنازل العليا.\n\nيمكنك توقع وصول جامع الجزية مرتين تقريباً في السنة طالما لست عدواً لـ{FACTION_name}.</LetterTributeCollectorArrival>
 
   <!-- Character tab -->
   <!-- EN: {PAWN_labelShort} currently has the title {TITLE}, awarded by {FACTION_name}. -->
@@ -20,7 +20,7 @@
   <!-- EN: No more earnable titles on this planet. -->
   <RoyalTitleTooltipFinalTitle>لا توجد ألقاب أخرى يمكن اكتسابها على هذا الكوكب.</RoyalTitleTooltipFinalTitle>
   <!-- EN: If {PAWN_nameDef} dies, {HEIR_nameFull} is designated to inherit {PAWN_possessive} title. -->
-  <RoyalTitleTooltipInheritance>إذا مات {PAWN_nameDef}، فمن المعين أن يرث {HEIR_nameFull} لقبـ{PAWN_possessive}.</RoyalTitleTooltipInheritance>
+  <RoyalTitleTooltipInheritance>إذا مات {PAWN_nameDef}، فقد عُيِّن {HEIR_nameFull} لوراثة لقبـ{PAWN_possessive}.</RoyalTitleTooltipInheritance>
   <!-- EN: {HEIR_nameFull} is not a member of any faction. -->
   <RoyalTitleTooltipHeirNoFaction>{HEIR_nameFull} ليس عضواً في أي فصيل.</RoyalTitleTooltipHeirNoFaction>
   <!-- EN: {HEIR_nameFull} is a member of {FACTION_name}. -->
@@ -55,9 +55,9 @@
   <!-- EN: Returning permits requires {FAVORCOST} {FAVOR} but {PAWN_nameDef} only has {CURFAVOR}. -->
   <NotEnoughFavor>استعادة التصاريح تتطلب {FAVORCOST} {FAVOR} لكن {PAWN_nameDef} لديه فقط {CURFAVOR}.</NotEnoughFavor>
   <!-- EN: Return all previously-chosen permits for this faction. You will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
-  <ReturnAllPermits_Desc>استعادة جميع التصاريح المختارة سابقاً لهذا الفصيل. ستستعيد جميع نقاط التصريح المنفقة وستتمكن من إنفاقها مرة أخرى.\n\nيكلف هذا الإجراء {BASEFAVORCOST} {FAVOR}، بالإضافة إلى تكلفة إعادة تعيين أي تصاريح في فترة تهدئة حالياً. التكلفة الإجمالية الآن هي {FAVORCOST}.</ReturnAllPermits_Desc>
+  <ReturnAllPermits_Desc>استعادة جميع التصاريح المختارة سابقاً لهذا الفصيل. ستستعيد جميع نقاط التصريح المنفقة وستتمكن من إنفاقها مرة أخرى.\n\nيكلف هذا الإجراء {BASEFAVORCOST} {FAVOR}، بالإضافة إلى تكلفة إعادة تعيين أي تصاريح في فترة انتظار حالياً. التكلفة الإجمالية الآن هي {FAVORCOST}.</ReturnAllPermits_Desc>
   <!-- EN: Return all previously-chosen permits for {FACTION_name}?\n\nYou will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
-  <ReturnAllPermits_Confirm>استعادة جميع التصاريح المختارة سابقاً لـ {FACTION_name}؟\n\nستستعيد جميع نقاط التصريح المنفقة وستتمكن من إنفاقها مرة أخرى.\n\nيكلف هذا الإجراء {BASEFAVORCOST} {FAVOR}، بالإضافة إلى تكلفة إعادة تعيين أي تصاريح في فترة تهدئة حالياً. التكلفة الإجمالية الآن هي {FAVORCOST}.</ReturnAllPermits_Confirm>
+  <ReturnAllPermits_Confirm>استعادة جميع التصاريح المختارة سابقاً لـ{FACTION_name}؟\n\nستستعيد جميع نقاط التصريح المنفقة وستتمكن من إنفاقها مرة أخرى.\n\nيكلف هذا الإجراء {BASEFAVORCOST} {FAVOR}، بالإضافة إلى تكلفة إعادة تعيين أي تصاريح في فترة انتظار حالياً. التكلفة الإجمالية الآن هي {FAVORCOST}.</ReturnAllPermits_Confirm>
   <!-- EN: Switch faction -->
   <SwitchFaction_Desc>تبديل الفصيل</SwitchFaction_Desc>
   <!-- EN: Accept permit -->
@@ -67,8 +67,8 @@
   <!-- EN: Upgrade from: {0} -->
   <UpgradeFrom>ترقية من: {0}</UpgradeFrom>
   <!-- EN: Cooldown -->
-  <Cooldown>فترة تهدئة</Cooldown>
+  <Cooldown>فترة الانتظار</Cooldown>
   <!-- EN: {HONOR} cost if used during cooldown -->
-  <CooldownUseFavorCost>تكلفة {HONOR} إذا استُخدم خلال فترة التهدئة</CooldownUseFavorCost>
+  <CooldownUseFavorCost>تكلفة {HONOR} إذا استُخدم خلال فترة الانتظار</CooldownUseFavorCost>
   
 </LanguageData>
