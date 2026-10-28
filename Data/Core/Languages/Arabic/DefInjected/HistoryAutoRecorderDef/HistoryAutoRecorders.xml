@@ -9,10 +9,14 @@
   <!-- EN: mood -->
   <ColonistMood.label>مزاج</ColonistMood.label>
   <ColonistMood.graphLabelY>المزاج (%)</ColonistMood.graphLabelY>
+  <!-- EN: {0}% -->
+  <ColonistMood.valueFormat>{0}%</ColonistMood.valueFormat>
   
   <!-- EN: free colonists -->
   <FreeColonists.label>مستعمرون أحرار</FreeColonists.label>
   <FreeColonists.graphLabelY>عدد المستعمرين الأحرار</FreeColonists.graphLabelY>
+  <!-- EN: {0} -->
+  <FreeColonists.valueFormat>{0}</FreeColonists.valueFormat>
   
   <!-- EN: pop recovery -->
   <PopAdaptation.label>تعافي السكان</PopAdaptation.label>
@@ -27,6 +31,8 @@
   <!-- EN: prisoners -->
   <Prisoners.label>سجناء</Prisoners.label>
   <Prisoners.graphLabelY>عدد السجناء</Prisoners.graphLabelY>
+  <!-- EN: {0} -->
+  <Prisoners.valueFormat>{0}</Prisoners.valueFormat>
   
   <!-- EN: fun points /10 -->
   <ThreatPoints.label>نقاط مرح /10</ThreatPoints.label>
@@ -37,14 +43,22 @@
   <!-- EN: wealth (buildings) -->
   <Wealth_Buildings.label>ثروة (مباني)</Wealth_Buildings.label>
   <Wealth_Buildings.graphLabelY>قيمة (مباني)</Wealth_Buildings.graphLabelY>
+  <!-- EN: {0} -->
+  <Wealth_Buildings.valueFormat>{0}</Wealth_Buildings.valueFormat>
   
   <!-- EN: wealth (items) -->
   <Wealth_Items.label>ثروة (عناصر)</Wealth_Items.label>
+  <!-- EN: {0} -->
+  <Wealth_Items.valueFormat>{0}</Wealth_Items.valueFormat>
   
   <!-- EN: wealth (creatures) -->
   <Wealth_Pawns.label>ثروة (مخلوقات)</Wealth_Pawns.label>
+  <!-- EN: {0} -->
+  <Wealth_Pawns.valueFormat>{0}</Wealth_Pawns.valueFormat>
   
   <!-- EN: wealth (total) -->
   <Wealth_Total.label>ثروة (إجمالية)</Wealth_Total.label>
+  <!-- EN: ${0} -->
+  <Wealth_Total.valueFormat>${0}</Wealth_Total.valueFormat>
   
 </LanguageData>

@@ -52,6 +52,10 @@
   <HatsShownOnlyOnMap>إخفاء القبعات في الواجهة</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>حجم الواجهة</UIScale>
+  <!-- EN: Respect system display scaling -->
+  <RespectSystemScaling>مراعاة مقياس عرض النظام</RespectSystemScaling>
+  <!-- EN: When enabled, the UI scale is multiplied by the operating system's display scaling. Disable to apply the UI scale as-is. -->
+  <RespectSystemScaling_Tooltip>عند التفعيل، يُضرب حجم الواجهة في مقياس العرض الخاص بنظام التشغيل. عطّل هذا الخيار لتطبيق حجم الواجهة كما هو.</RespectSystemScaling_Tooltip>
   <!-- EN: Keyboard configuration -->
   <KeyboardConfig>إعدادات لوحة المفاتيح</KeyboardConfig>
   <!-- EN: Controller configuration -->
@@ -138,6 +142,8 @@
   <TextureCompression>ضغط النسيج</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>إيقاف ضغط النسيج سيستخدم ذاكرة فيديو أكبر بكثير، لكنه يجعل النسيج يبدو أفضل قليلاً في المناطق التفصيلية. أوقفه فقط إذا كنت تعلم أن لديك ذاكرة فيديو إضافية كبيرة.\n\nلاحظ أن استخدام بعض التعديلات غالباً ما يستهلك ذاكرة فيديو أكبر، لذا قد تحتاج لتشغيل هذا إذا أضفت بعض التعديلات.</TextureCompression_Tooltip>
+  <!-- EN: Texture compression in the Waylith engine is higher quality and always enabled. -->
+  <TextureCompressionAlwaysOn_Tooltip>ضغط النسيج في محرك Waylith ذو جودة أعلى ومفعّل دائماً.</TextureCompressionAlwaysOn_Tooltip>
   <!-- EN: Smooth camera jumps -->
   <SmoothCameraJumps>قفزات كاميرا سلسة</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
@@ -154,6 +160,24 @@
   <Fullscreen>ملء الشاشة</Fullscreen>
   <!-- EN: Borderless fullscreen -->
   <BorderlessFullscreen>ملء شاشة بلا حدود</BorderlessFullscreen>
+  <!-- EN: Display mode -->
+  <DisplayMode>وضع العرض</DisplayMode>
+  <!-- EN: Windowed -->
+  <DisplayMode_Windowed>نافذة</DisplayMode_Windowed>
+  <!-- EN: Exclusive fullscreen -->
+  <DisplayMode_ExclusiveFullscreen>ملء شاشة حصري</DisplayMode_ExclusiveFullscreen>
+  <!-- EN: Monitor -->
+  <Monitor>الشاشة</Monitor>
+  <!-- EN: Automatic -->
+  <Monitor_Automatic>تلقائي</Monitor_Automatic>
+  <!-- EN: Graphics card -->
+  <Gpu>بطاقة الرسوميات</Gpu>
+  <!-- EN: Automatic -->
+  <Gpu_Automatic>تلقائي</Gpu_Automatic>
+  <!-- EN: {0} (in use) -->
+  <Gpu_InUse>{0} (قيد الاستخدام)</Gpu_InUse>
+  <!-- EN: Changing the graphics card requires a restart. Unsaved progress will be lost.\n\nRestart now? -->
+  <GpuChangedRestart>تغيير بطاقة الرسوميات يتطلب إعادة تشغيل. سيتم فقدان التقدم غير المحفوظ.\n\nهل تريد إعادة التشغيل الآن؟</GpuChangedRestart>
   <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
   <BorderlessFullscreenInstructions>لتشغيل RimWorld في وضع ملء الشاشة بلا حدود:\n\n1) افتح Steam\n2) اذهب إلى تبويب "المكتبة" في الأعلى\n3) ابحث عن RimWorld في القائمة وانقر عليها بالزر الأيمن\n4) اختر "خصائص..."\n5) أضف "-popupwindow" بدون علامات اقتباس إلى "خيارات التشغيل" في تبويب "عام"\n6) أعد تشغيل اللعبة\n7) إذا تم بشكل صحيح، لن ترى هذه النافذة\n\nتلميح: استخدم مفتاح Windows + Shift + يسار/يمين لنقل النافذة بين شاشاتك.</BorderlessFullscreenInstructions>
 
