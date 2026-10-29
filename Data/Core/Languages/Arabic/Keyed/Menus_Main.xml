@@ -336,6 +336,20 @@
   <Incompatible>غير متوافق</Incompatible>
   <!-- EN: Tag as translation -->
   <TagAsTranslation>وسم كترجمة</TagAsTranslation>
+  <!-- EN: Build asset pack -->
+  <UploadBuildAssetPack>بناء حزمة أصول</UploadBuildAssetPack>
+  <!-- EN: Packs textures and sounds into an asset pack in each load folder before uploading, to improve download and load times. Untick this to upload the mod folder as it is. -->
+  <UploadBuildAssetPackTip>يحزم النسيج والأصوات في حزمة أصول داخل كل مجلد تحميل قبل الرفع، لتحسين أوقات التنزيل والتحميل. ألغِ تحديد هذا الخيار لرفع مجلد التعديل كما هو.</UploadBuildAssetPackTip>
+  <!-- EN: Don't upload source textures -->
+  <UploadSkipSourceTextures>عدم رفع النسيج الأصلي</UploadSkipSourceTextures>
+  <!-- EN: Skips uploading the original image and sound files that were included in asset packs. Leave this unticked if you need compatibility with RimWorld 1.6 or earlier. -->
+  <UploadSkipSourceTexturesTip>يتخطى رفع ملفات الصور والأصوات الأصلية التي أُدرجت في حزم الأصول. اترك هذا الخيار غير محدد إذا كنت بحاجة إلى التوافق مع RimWorld 1.6 أو الإصدارات الأقدم.</UploadSkipSourceTexturesTip>
+  <!-- EN: Baking asset packs -->
+  <BakingModAssetPacks>جاري إنشاء حزم الأصول</BakingModAssetPacks>
+  <!-- EN: Baking asset packs for {0} -->
+  <BakingModAssetPacksFor>جاري إنشاء حزم الأصول لـ{0}</BakingModAssetPacksFor>
+  <!-- EN: Baking the asset packs for {0} failed, the mod was not uploaded: -->
+  <ModAssetPackBakeFailed>فشل إنشاء حزم الأصول لـ{0}، ولم يتم رفع التعديل:</ModAssetPackBakeFailed>
   <!-- EN: Too many (max {0}):  -->
   <TooMany>كثير جداً (الحد الأقصى {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
