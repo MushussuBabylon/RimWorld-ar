@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Tells RimWorld which folders of this mod to load for the game version being played.
+  "/" is the mod's own root folder (About, Fonts, ...).
+
+    RimWorld 1.5 and 1.6   1.6/Assemblies/ArabicSupport.dll
+    RimWorld 1.7           1.7/Assemblies/ArabicSupport.dll
+
+  1.5 uses the 1.6 folder because it is the same DLL.
+-->
+<loadFolders>
+  <v1.5>
+    <li>/</li>
+    <li>1.6</li>
+  </v1.5>
+  <v1.6>
+    <li>/</li>
+    <li>1.6</li>
+  </v1.6>
+  <v1.7>
+    <li>/</li>
+    <li>1.7</li>
+  </v1.7>
+</loadFolders>

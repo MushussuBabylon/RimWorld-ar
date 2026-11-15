@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--
+    Arabic text of the Arabic Support mod: the settings window and the font status messages.
+
+    Plain Arabic in logical (reading) order, written with the ordinary Arabic letters only:
+      - no reshaping (no presentation forms, U+FB50-U+FDFF and U+FE70-U+FEFF),
+      - no bidi reordering (nothing is reversed, no direction marks).
+    Joining the letters and ordering the right-to-left text is left to the code that draws it.
+
+    The English original of each entry is in the comment above it.
+  -->
+
+  <!-- Settings window (Options > Mod settings) -->
+  <!-- EN: Arabic Support -->
+  <ArabicSupport_SettingsCategory>دعم اللغة العربية</ArabicSupport_SettingsCategory>
+  <!-- EN: Use the game font (reset) -->
+  <ArabicSupport_ResetToGameFont>استخدام خط اللعبة (إعادة تعيين)</ArabicSupport_ResetToGameFont>
+  <!-- EN: Custom font -->
+  <ArabicSupport_Header_CustomFont>الخط المخصص</ArabicSupport_Header_CustomFont>
+  <!-- EN: Use a custom font -->
+  <ArabicSupport_UseCustomFont>استخدام خط مخصص</ArabicSupport_UseCustomFont>
+  <!-- EN: Replace RimWorld's UI font with the font chosen below. -->
+  <ArabicSupport_UseCustomFont_Tip>استبدال خط واجهة RimWorld بالخط المختار أدناه.</ArabicSupport_UseCustomFont_Tip>
+  <!-- EN: No fonts found in {0}. Please reinstall the mod. -->
+  <ArabicSupport_NoFontsFoundIn>لم يتم العثور على خطوط في {0}. يرجى إعادة تثبيت المود.</ArabicSupport_NoFontsFoundIn>
+  <!-- EN: Font -->
+  <ArabicSupport_Font>الخط</ArabicSupport_Font>
+  <!-- EN: Fonts live in: {0}. To add another font, copy its .fontbundle, .ttf or .otf file into that folder (more fonts are in the FontLibrary folder of the mod's GitHub page). -->
+  <ArabicSupport_FontsFolderHelp_RW17>توجد الخطوط في: {0}. لإضافة خط آخر، انسخ ملف الخط (بامتداد fontbundle أو ttf أو otf) إلى ذلك المجلد (تتوفر خطوط إضافية في مجلد FontLibrary في صفحة المود على GitHub).</ArabicSupport_FontsFolderHelp_RW17>
+  <!-- EN: Fonts live in: {0}. To add another font, copy its .fontbundle file into that folder (more fonts are in the FontLibrary folder of the mod's GitHub page). -->
+  <ArabicSupport_FontsFolderHelp_Unity>توجد الخطوط في: {0}. لإضافة خط آخر، انسخ ملف الخط (بامتداد fontbundle) إلى ذلك المجلد (تتوفر خطوط إضافية في مجلد FontLibrary في صفحة المود على GitHub).</ArabicSupport_FontsFolderHelp_Unity>
+  <!-- EN: Also use it in text fields -->
+  <ArabicSupport_ApplyToTextFields>استخدامه أيضا في حقول النص</ArabicSupport_ApplyToTextFields>
+  <!-- EN: Use the custom font for typing boxes (search fields, renaming, etc.) too. -->
+  <ArabicSupport_ApplyToTextFields_Tip>استخدام الخط المخصص في مربعات الكتابة أيضا (حقول البحث وإعادة التسمية وغيرها).</ArabicSupport_ApplyToTextFields_Tip>
+  <!-- EN: Place harakat on their letter -->
+  <ArabicSupport_HarakatPlacement>وضع الحركات على حروفها</ArabicSupport_HarakatPlacement>
+  <!-- EN: Draws fatha, tanween, shadda... on top of the letter they belong to (for example tanween on a final alef). Works with fonts made for this mod. -->
+  <ArabicSupport_HarakatPlacement_Tip>يرسم الفتحة والتنوين والشدة وغيرها فوق الحرف الذي تنتمي إليه (مثل التنوين على الألف في آخر الكلمة). يعمل مع الخطوط المصنوعة لهذا المود.</ArabicSupport_HarakatPlacement_Tip>
+  <!-- EN: Prepare letters in advance (smoother) -->
+  <ArabicSupport_PrewarmGlyphs>تجهيز الحروف مسبقا (أكثر سلاسة)</ArabicSupport_PrewarmGlyphs>
+  <!-- EN: Draws all Arabic and English letters once when the font is applied, so the game doesn't stutter the first time a new letter appears. -->
+  <ArabicSupport_PrewarmGlyphs_Tip>يرسم جميع الحروف العربية والإنجليزية مرة واحدة عند تطبيق الخط، حتى لا تتقطع اللعبة عند ظهور حرف جديد للمرة الأولى.</ArabicSupport_PrewarmGlyphs_Tip>
+  <!-- EN: Size and position -->
+  <ArabicSupport_Header_SizePosition>الحجم والموضع</ArabicSupport_Header_SizePosition>
+  <!-- EN: Tiny -->
+  <ArabicSupport_FontSize_Tiny>صغير جدا</ArabicSupport_FontSize_Tiny>
+  <!-- EN: Small -->
+  <ArabicSupport_FontSize_Small>صغير</ArabicSupport_FontSize_Small>
+  <!-- EN: Medium -->
+  <ArabicSupport_FontSize_Medium>متوسط</ArabicSupport_FontSize_Medium>
+  <!-- EN: {0}: {1}px  (game: {2}px, offset {3}) -->
+  <ArabicSupport_SizeLine>{0}: {1}px (اللعبة: {2}px، الإزاحة {3})</ArabicSupport_SizeLine>
+  <!-- EN: {0} vertical shift: {1}px -->
+  <ArabicSupport_VerticalShiftLine>{0} - الإزاحة العمودية: {1}px</ArabicSupport_VerticalShiftLine>
+  <!-- EN: Reset font settings -->
+  <ArabicSupport_ResetFontSettings>إعادة تعيين إعدادات الخط</ArabicSupport_ResetFontSettings>
+  <!-- EN: Typing -->
+  <ArabicSupport_Header_Typing>الكتابة</ArabicSupport_Header_Typing>
+  <!-- EN: Arabic typing in text boxes -->
+  <ArabicSupport_TextInputFix>الكتابة بالعربية في مربعات النص</ArabicSupport_TextInputFix>
+  <!-- EN: Lets you type Arabic in names, search boxes and other text boxes: letters are joined and ordered like the translation. Search boxes also find Arabic words while you type. -->
+  <ArabicSupport_TextInputFix_Tip>يتيح لك الكتابة بالعربية في الأسماء ومربعات البحث وسائر مربعات النص: يتم ربط الحروف وترتيبها مثلما في ترجمة اللعبة. كما تعثر مربعات البحث على الكلمات العربية أثناء الكتابة.</ArabicSupport_TextInputFix_Tip>
+  <!-- EN: Try typing here: -->
+  <ArabicSupport_TypingTest>اختبر الكتابة هنا:</ArabicSupport_TypingTest>
+  <!-- EN: Preview -->
+  <ArabicSupport_Header_Preview>المعاينة</ArabicSupport_Header_Preview>
+  <!-- EN: {0} (default) -->
+  <ArabicSupport_FontDefault>{0} (الافتراضي)</ArabicSupport_FontDefault>
+  <!-- EN: No fonts found -->
+  <ArabicSupport_NoFontsFound>لم يتم العثور على خطوط</ArabicSupport_NoFontsFound>
+
+  <!-- Settings window: tabs, line wrapping, label height, tools -->
+  <!-- EN: Size -->
+  <ArabicSupport_Tab_Size>الحجم</ArabicSupport_Tab_Size>
+  <!-- EN: Layout -->
+  <ArabicSupport_Tab_Layout>التخطيط</ArabicSupport_Tab_Layout>
+  <!-- EN: Tools -->
+  <ArabicSupport_Tab_Tools>أدوات</ArabicSupport_Tab_Tools>
+  <!-- EN: Turn on the custom font to change sizes and positions. -->
+  <ArabicSupport_SizeNeedsFont>شغل الخط المخصص لتغيير الأحجام والمواضع.</ArabicSupport_SizeNeedsFont>
+  <!-- EN: Reset layout options -->
+  <ArabicSupport_ResetLayoutSettings>إعادة تعيين خيارات التخطيط</ArabicSupport_ResetLayoutSettings>
+  <!-- EN: Line wrapping -->
+  <ArabicSupport_Header_Wrapping>التفاف الأسطر</ArabicSupport_Header_Wrapping>
+  <!-- EN: Wrap Arabic text by its real width -->
+  <ArabicSupport_WrapByPixels>التفاف النص العربي حسب عرضه الفعلي</ArabicSupport_WrapByPixels>
+  <!-- EN: Breaks Arabic lines by measuring the real width of the text, so the line you read first comes first. Turn this off to let the game wrap Arabic text by itself. -->
+  <ArabicSupport_WrapByPixels_Tip>يقيس عرض النص الفعلي ويقسم الأسطر العربية بناء عليه، فيأتي السطر الذي تقرأه أولا في المقدمة. أوقف هذا الخيار ليلتف النص العربي بطريقة اللعبة نفسها.</ArabicSupport_WrapByPixels_Tip>
+  <!-- EN: Keep English words together -->
+  <ArabicSupport_KeepLatinRuns>إبقاء الكلمات الإنجليزية معا</ArabicSupport_KeepLatinRuns>
+  <!-- EN: A name or phrase in English, such as a colonist's name, never splits across two lines. Numbers next to it stay with it. -->
+  <ArabicSupport_KeepLatinRuns_Tip>لا ينقسم اسم أو عبارة بالإنجليزية، مثل اسم أحد المستعمرين، على سطرين. وتبقى الأرقام المجاورة له معه.</ArabicSupport_KeepLatinRuns_Tip>
+  <!-- EN: Cut words wider than the line -->
+  <ArabicSupport_SplitWideWords>قص الكلمات الأعرض من السطر</ArabicSupport_SplitWideWords>
+  <!-- EN: When a single word is wider than its whole box, cut it in reading order. Without this option the game cuts it from the wrong side. -->
+  <ArabicSupport_SplitWideWords_Tip>عندما تتجاوز كلمة واحدة عرض صندوقها كله، يقصها المود بترتيب القراءة. وبدون هذا الخيار تقصها اللعبة من الجهة الخطأ.</ArabicSupport_SplitWideWords_Tip>
+  <!-- EN: Safety margin at the end of a line: {0}px -->
+  <ArabicSupport_WrapMarginLine>هامش الأمان في نهاية السطر: {0}px</ArabicSupport_WrapMarginLine>
+  <!-- EN: Lines break this many pixels earlier. Raise it if the last letter of a line is cut off. -->
+  <ArabicSupport_WrapMargin_Help>تنتهي الأسطر قبل حافتها بهذا العدد من البكسلات. ارفع القيمة إذا انقطع آخر حرف في السطر.</ArabicSupport_WrapMargin_Help>
+  <!-- EN: Leave room for dots and tails -->
+  <ArabicSupport_GrowLabelHeight>ترك مساحة للنقاط والذيول</ArabicSupport_GrowLabelHeight>
+  <!-- EN: Makes a one-line label a few pixels taller when it needs it, so the dots under a final yeh and the tails of reh, waw and qaf are not cut off. -->
+  <ArabicSupport_GrowLabelHeight_Tip>يزيد ارتفاع التسمية ذات السطر الواحد بضعة بكسلات عند الحاجة، حتى لا تنقطع النقطتان أسفل الياء الأخيرة ولا ذيول الراء والواو والقاف.</ArabicSupport_GrowLabelHeight_Tip>
+  <!-- EN: Preview box width: {0}px -->
+  <ArabicSupport_PreviewWidthLine>عرض مربع المعاينة: {0}px</ArabicSupport_PreviewWidthLine>
+  <!-- EN: Forgets every wrapped and measured text; the game rebuilds them as it draws. Use it if some text still looks wrong after you changed an option. -->
+  <ArabicSupport_ClearCaches_Help>يمسح كل نص سبق قياسه أو تقسيمه، وتعيد اللعبة بناءه أثناء الرسم. استخدمه إذا بقي بعض النص خاطئا بعد تغيير أحد الخيارات.</ArabicSupport_ClearCaches_Help>
+  <!-- EN: Clear text caches -->
+  <ArabicSupport_ClearCaches>مسح ذاكرة النصوص المؤقتة</ArabicSupport_ClearCaches>
+
+  <!-- Status line shown under Preview -->
+  <!-- EN: Waiting for the game to start drawing... -->
+  <ArabicSupport_Status_Waiting>في انتظار أن تبدأ اللعبة بالرسم...</ArabicSupport_Status_Waiting>
+  <!-- EN: Custom fonts are not available: {0} -->
+  <ArabicSupport_Status_Unavailable>الخطوط المخصصة غير متاحة: {0}</ArabicSupport_Status_Unavailable>
+  <!-- EN: RimWorld's own fonts are not ready; the custom font is unavailable. -->
+  <ArabicSupport_Status_GameFontsNotReady>خطوط RimWorld الأصلية غير جاهزة؛ الخط المخصص غير متاح.</ArabicSupport_Status_GameFontsNotReady>
+  <!-- EN: Text.fontStyles not found - custom fonts unavailable on this game version. -->
+  <ArabicSupport_Status_NoFontStyles>لم يتم العثور على Text.fontStyles - الخطوط المخصصة غير متاحة في هذا الإصدار من اللعبة.</ArabicSupport_Status_NoFontStyles>
+  <!-- EN: Text.fonts not found - custom fonts unavailable on this game version. -->
+  <ArabicSupport_Status_NoTextFonts>لم يتم العثور على Text.fonts - الخطوط المخصصة غير متاحة في هذا الإصدار من اللعبة.</ArabicSupport_Status_NoTextFonts>
+  <!-- EN: Using the game font. -->
+  <ArabicSupport_Status_UsingGameFont>يتم استخدام خط اللعبة.</ArabicSupport_Status_UsingGameFont>
+  <!-- EN: Using {0}. -->
+  <ArabicSupport_Status_UsingFont>يتم استخدام {0}.</ArabicSupport_Status_UsingFont>
+  <!-- EN: Failed to apply font: {0} -->
+  <ArabicSupport_Status_ApplyFailed>تعذر تطبيق الخط: {0}</ArabicSupport_Status_ApplyFailed>
+  <!-- EN: '{0}' reports broken line heights and can't be used. Using the game font. -->
+  <ArabicSupport_Status_BrokenLineHeights>ارتفاعات الأسطر في الخط '{0}' غير صالحة، ولا يمكن استخدامه. يتم استخدام خط اللعبة.</ArabicSupport_Status_BrokenLineHeights>
+
+  <!-- Font file messages (also shown in the status line) -->
+  <!-- EN: Mod folder not found. -->
+  <ArabicSupport_Error_ModFolderNotFound>لم يتم العثور على مجلد المود.</ArabicSupport_Error_ModFolderNotFound>
+  <!-- EN: No .fontbundle files in {0}. Please reinstall the mod. -->
+  <ArabicSupport_Error_NoBundles>لا توجد ملفات بامتداد fontbundle في {0}. يرجى إعادة تثبيت المود.</ArabicSupport_Error_NoBundles>
+  <!-- EN: No font files (.ttf, .otf or .fontbundle) in {0}. Please reinstall the mod. -->
+  <ArabicSupport_Error_NoFontFiles>لا توجد ملفات خطوط (بامتداد ttf أو otf أو fontbundle) في {0}. يرجى إعادة تثبيت المود.</ArabicSupport_Error_NoFontFiles>
+  <!-- EN: Font in '{0}' has no usable glyphs. -->
+  <ArabicSupport_Error_NoUsableGlyphs>لا يحتوي الخط الموجود في الملف '{0}' على حروف صالحة للاستخدام.</ArabicSupport_Error_NoUsableGlyphs>
+  <!-- EN: '{0}' is missing. -->
+  <ArabicSupport_Error_FileMissing>الملف '{0}' غير موجود.</ArabicSupport_Error_FileMissing>
+  <!-- EN: Unity could not open '{0}'. -->
+  <ArabicSupport_Error_UnityCouldNotOpen>تعذر على Unity فتح الملف '{0}'.</ArabicSupport_Error_UnityCouldNotOpen>
+  <!-- EN: '{0}' contains no dynamic font. -->
+  <ArabicSupport_Error_NoDynamicFont>لا يحتوي الملف '{0}' على خط ديناميكي.</ArabicSupport_Error_NoDynamicFont>
+  <!-- EN: Failed to load '{0}': {1} -->
+  <ArabicSupport_Error_LoadFailed>تعذر تحميل الملف '{0}': {1}</ArabicSupport_Error_LoadFailed>
+  <!-- EN: '{0}' is not a usable font ({1}). -->
+  <ArabicSupport_Error_NotUsableFont>الملف '{0}' غير صالح للاستخدام كخط ({1}).</ArabicSupport_Error_NotUsableFont>
+  <!-- EN: '{0}' is not a usable font file. -->
+  <ArabicSupport_Error_NotUsableFontFile>الملف '{0}' ليس ملف خط صالحا للاستخدام.</ArabicSupport_Error_NotUsableFontFile>
+  <!-- EN: '{0}' is not a TrueType or OpenType font. -->
+  <ArabicSupport_Error_NotTrueTypeOrOpenType>الملف '{0}' ليس خط TrueType أو OpenType.</ArabicSupport_Error_NotTrueTypeOrOpenType>
+
+</LanguageData>
