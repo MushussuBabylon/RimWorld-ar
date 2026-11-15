@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <AT_Name>Arabic Auto Translation</AT_Name>
+
+    <AT_Setting_EnableAutoTranslation>Enable auto translation (default: On)</AT_Setting_EnableAutoTranslation>
+    <AT_Setting_EnableAutoTranslation_Tooltip>When off, no network requests are made at all - only previously cached translations are applied. Useful when you are offline or want to stop translating. Fully applied after a game restart.</AT_Setting_EnableAutoTranslation_Tooltip>
+    <AT_Setting_AutoTranslationOff>Only cached translations are used.</AT_Setting_AutoTranslationOff>
+    <AT_Setting_AutoTranslateNewMods>Automatically translate newly added mods (default: On)</AT_Setting_AutoTranslateNewMods>
+    <AT_Setting_AutoTranslateNewMods_Tooltip>When off, mods added after this point are excluded from translation by default. You can enable them manually in the Target Mods tab.</AT_Setting_AutoTranslateNewMods_Tooltip>
+    <AT_Setting_TargetLanguageFixed>Target language: Arabic (fixed)</AT_Setting_TargetLanguageFixed>
+    <AT_Setting_TargetLanguageFixed_Tooltip>This mod translates into Arabic only. It does not matter which language the game itself is set to.</AT_Setting_TargetLanguageFixed_Tooltip>
+
+    <AT_Setting_ShowOriginal>Show original text on hover (default: Off):</AT_Setting_ShowOriginal>
+    <AT_Setting_ShowOriginal_Tooltip>When hovering over translated text, the original text will be displayed. Due to system limitations, this feature is not available for all translations.</AT_Setting_ShowOriginal_Tooltip>
+    
+    <AT_Setting_EnableLanguageDetection>Enable language detection (default: On):</AT_Setting_EnableLanguageDetection>
+    <AT_Setting_EnableLanguageDetection_Tooltip>Automatically detects if text is already in the target language and skips translation. This prevents re-translating content that's already in Korean/Japanese/Chinese etc. when stored in the English folder. Recommended to keep enabled.</AT_Setting_EnableLanguageDetection_Tooltip>
+
+    <AT_Setting>::Translation Settings::</AT_Setting>
+    <AT_Setting_Note>Note: Changes to the settings below require a game restart</AT_Setting_Note>
+    <AT_Setting_SelectEngine>Select translation engine (default: Yandex):</AT_Setting_SelectEngine>
+    <AT_Setting_AutoFallback>Switch to Google automatically if the selected engine is blocked (default: On)</AT_Setting_AutoFallback>
+    <AT_Setting_AutoFallback_Tooltip>When the selected engine keeps answering with access denied (HTTP 401/403), for example because the service blocks your network, the rest of this game session is translated with Google instead. Your chosen engine is not changed and is tried again the next time the game starts. While this is active, the texts are sent to Google.</AT_Setting_AutoFallback_Tooltip>
+    <AT_Setting_FallbackActive>{0} refused the requests, so {1} is being used for this session.</AT_Setting_FallbackActive>
+    <AT_Setting_RequiresAPIKey>This translation engine requires an API key.</AT_Setting_RequiresAPIKey>
+    <AT_Setting_RequiresAPIKey_Tooltip>To use multiple API keys in rotation, separate them with commas (,).</AT_Setting_RequiresAPIKey_Tooltip>
+    <AT_Setting_Test>Add '::TEST::' prefix to translations (for testing)</AT_Setting_Test>
+    <AT_Setting_TestTranslation>&lt;= Test translation</AT_Setting_TestTranslation>
+    <AT_Message_LanguageNotSupported>This translator does not support your current language. Please select a different one.</AT_Message_LanguageNotSupported>
+    <AT_Setting_SelectModel>Selected model: </AT_Setting_SelectModel>
+    <AT_Setting_SelectModelNone>NONE (Please select a model)</AT_Setting_SelectModelNone>
+    <AT_Setting_NoModelFound>No models found. Please verify your API key.</AT_Setting_NoModelFound>
+    <AT_Message_NoModelsFound>No models found. Please check your API key and base URL.</AT_Message_NoModelsFound>
+    <AT_Setting_APIKey>API Key:</AT_Setting_APIKey>
+    <AT_Setting_Model>Model:</AT_Setting_Model>
+    <AT_ChooseModel>Choose Model</AT_ChooseModel>
+    <AT_Setting_ManualModelEntry>Or enter a model name manually:</AT_Setting_ManualModelEntry>
+    <AT_Setting_LibreTranslateKeyNotice>Note: the official libretranslate.com instance now requires a paid API key (portal.libretranslate.com). Self-hosted instances need no key.</AT_Setting_LibreTranslateKeyNotice>
+    <AT_Setting_DeepLFreeKeyOnPro>This looks like a DeepL Free key (ends with ":fx"). Please select the "DeepL" translator instead of "DeepL Pro".</AT_Setting_DeepLFreeKeyOnPro>
+    <AT_Setting_DeepLProKeyOnFree>This looks like a DeepL Pro key. Please select the "DeepL Pro" translator instead of "DeepL".</AT_Setting_DeepLProKeyOnFree>
+    <AT_Setting_CustomPrompt>Custom system prompt: </AT_Setting_CustomPrompt>
+    <AT_Setting_BaseURL>Base URL: </AT_Setting_BaseURL>
+    <AT_Setting_CustomBaseURL>Custom base URL: </AT_Setting_CustomBaseURL>
+    <AT_Setting_Reset>Reset to Defaults</AT_Setting_Reset>
+
+    <!-- Claude Code CLI -->
+    <AT_Setting_ClaudeCodeNotice>Uses the locally installed Claude Code CLI with its own login (subscription). No API key is required, but the CLI must be installed and logged in.</AT_Setting_ClaudeCodeNotice>
+    <AT_Setting_ClaudeCodePath>Path to the CLI executable (empty = "claude" on PATH):</AT_Setting_ClaudeCodePath>
+
+    <!-- Cost tracking -->
+    <AT_Setting_CostTracking>::Cost Tracking::</AT_Setting_CostTracking>
+    <AT_Setting_UsageTokens>Tokens used - input: {0}, output: {1}</AT_Setting_UsageTokens>
+    <AT_Setting_UsageCharacters>Characters sent: {0}</AT_Setting_UsageCharacters>
+    <AT_Setting_PriceInputPerMTokens>Price per 1M input tokens (USD):</AT_Setting_PriceInputPerMTokens>
+    <AT_Setting_PriceOutputPerMTokens>Price per 1M output tokens (USD):</AT_Setting_PriceOutputPerMTokens>
+    <AT_Setting_PricePerMChars>Price per 1M characters (USD):</AT_Setting_PricePerMChars>
+    <AT_Setting_EstimatedCost>Estimated cost: ${0}</AT_Setting_EstimatedCost>
+    <AT_Setting_ResetUsage>Reset usage counters</AT_Setting_ResetUsage>
+    <AT_Setting_NoTranslatorError>Translator not found. Please check settings.</AT_Setting_NoTranslatorError>
+
+    <AT_Setting_Misc>::Miscellaneous::</AT_Setting_Misc>
+    <AT_Setting_ResetDefCache>Reset all Def caches (if some items are not translated)</AT_Setting_ResetDefCache>
+
+    <AT_Status1>Translation is in progress. You can continue playing normally.</AT_Status1>
+    <AT_Status2>Translation complete! It's recommended to reset Def caches or restart the game for full application.</AT_Status2>
+    <AT_Status3>Translation complete!</AT_Status3>
+    <AT_Status_NetworkPaused>Paused - network unreachable. Will retry automatically.</AT_Status_NetworkPaused>
+    <AT_Message_NetworkPaused>Arabic Auto Translation: network unreachable - translation paused. Will retry automatically.</AT_Message_NetworkPaused>
+    <AT_Message_NetworkResumed>Arabic Auto Translation: network recovered - translation resumed.</AT_Message_NetworkResumed>
+    <AT_Setting_CurStatus>Current status: </AT_Setting_CurStatus>
+    <AT_Setting_Cached>Cached translations: </AT_Setting_Cached>
+    <AT_Setting_NotYet>Remaining translations: </AT_Setting_NotYet>
+    <AT_Setting_OpenDir>Open translation cache folder</AT_Setting_OpenDir>
+    <AT_Setting_WhiteList>Select mods to translate (applied in real-time)</AT_Setting_WhiteList>
+    <AT_Setting_ResetTranslationCache>Delete translation cache</AT_Setting_ResetTranslationCache>
+    <AT_Setting_ToggleAll>Toggle all</AT_Setting_ToggleAll>
+
+    <AT_Setting_Retranslate>Retranslate</AT_Setting_Retranslate>
+    <AT_Message_RetranslateFailed>Cannot retranslate while translation is in progress.</AT_Message_RetranslateFailed>
+    <AT_Message_RetranslateSuccess>{0} has been queued for retranslation.</AT_Message_RetranslateSuccess>
+
+    <AT_Message_ResetDefCache>Def caches have been reset!</AT_Message_ResetDefCache>
+    <AT_Message_ResetTranslationCache>Translation cache deleted. Please restart the game to begin translation again.</AT_Message_ResetTranslationCache>
+    <AT_Message_WhiteList_Failed>Translation is in progress and cannot be applied in real-time. Please retry after translation completes, or restart the game.</AT_Message_WhiteList_Failed>
+    <AT_Message_TestFailed>Test failed. You may have reached the API request limit, or your API key/model may be incorrect.</AT_Message_TestFailed>
+    <AT_Setting_RestartWork>Restart translation with current settings</AT_Setting_RestartWork>
+    <AT_Message_RestartWork>Restarting translation... (To completely redo, delete the cache first, then restart)</AT_Message_RestartWork>
+    <AT_Message_RestartFailed>Restart failed. Please verify your API key and model.</AT_Message_RestartFailed>
+    <AT_Message_FailedToGetModels>Failed to retrieve models. Please check your API key: </AT_Message_FailedToGetModels>
+
+    <!-- Tab Names -->
+    <AT_Tab_General>General</AT_Tab_General>
+    <AT_Tab_Translator>Translator</AT_Tab_Translator>
+    <AT_Tab_TargetMods>Target Mods (Legacy)</AT_Tab_TargetMods>
+    <AT_Tab_TranslationEditor>Translation Editor</AT_Tab_TranslationEditor>
+    <AT_Tab_Advanced>Advanced</AT_Tab_Advanced>
+    
+    <!-- Advanced Settings -->
+    <AT_Setting_MaxConcurrency>Maximum concurrent translations</AT_Setting_MaxConcurrency>
+    <AT_Setting_EnableBatchTranslation>Enable Batch Translation</AT_Setting_EnableBatchTranslation>
+    <AT_Setting_EnableBatchTranslation_Tooltip>Translate multiple texts in a single API call for better performance. Only available for AI model translators (GPT, Gemini, Claude, etc.). Can improve translation speed by 5-10x.</AT_Setting_EnableBatchTranslation_Tooltip>
+    <AT_Setting_BatchSize>Batch Size (tokens)</AT_Setting_BatchSize>
+    <AT_Setting_BatchSize_Tooltip>Number of tokens to collect before sending a batch request. Higher values = fewer API calls but slower individual responses. Recommended: 1500-3000.</AT_Setting_BatchSize_Tooltip>
+    <AT_Setting_RequestTimeout>Request timeout</AT_Setting_RequestTimeout>
+    <AT_Setting_RequestTimeout_Tooltip>How long to wait for one API response before giving up. Cloud APIs usually answer within 30s; local LLMs (LM Studio, Ollama) often need 120-300s, especially with large batch sizes.</AT_Setting_RequestTimeout_Tooltip>
+    <AT_Setting_TranslationEditor>Translation Data Editor</AT_Setting_TranslationEditor>
+    <AT_Setting_Editor_Search>Search...</AT_Setting_Editor_Search>
+    <AT_Setting_Editor_Edit>Edit</AT_Setting_Editor_Edit>
+    <AT_Setting_Editor_Delete>Delete</AT_Setting_Editor_Delete>
+    <AT_Setting_Editor_OriginalText>Original Text</AT_Setting_Editor_OriginalText>
+    <AT_Setting_Editor_TranslatedText>Translated Text</AT_Setting_Editor_TranslatedText>
+    <AT_Setting_Editor_Language>Lang</AT_Setting_Editor_Language>
+    <AT_Setting_Editor_Actions>Actions</AT_Setting_Editor_Actions>
+    <AT_Setting_Editor_Save>Save</AT_Setting_Editor_Save>
+    <AT_Setting_Editor_Refresh>Refresh</AT_Setting_Editor_Refresh>
+    <AT_Setting_Editor_Refreshed>Translation list has been refreshed.</AT_Setting_Editor_Refreshed>
+    <AT_Setting_Editor_ExpandAll>Expand All</AT_Setting_Editor_ExpandAll>
+    <AT_Setting_Editor_CollapseAll>Collapse All</AT_Setting_Editor_CollapseAll>
+    <AT_Setting_Editor_Total>Total</AT_Setting_Editor_Total>
+    <AT_Setting_Editor_RestartRequired>Changes will be applied after game restart.</AT_Setting_Editor_RestartRequired>
+    
+    <!-- Gist Sharing -->
+    <AT_Gist_SectionTitle>::Translation Sharing (Gist)::</AT_Gist_SectionTitle>
+    <AT_Gist_UploadButton>Upload my translations</AT_Gist_UploadButton>
+    <AT_Gist_Uploading>Uploading...</AT_Gist_Uploading>
+    <AT_Gist_DownloadLabel>Download shared translations (Gist URL or ID):</AT_Gist_DownloadLabel>
+    <AT_Gist_DownloadButton>Download</AT_Gist_DownloadButton>
+    <AT_Gist_Downloading>Downloading...</AT_Gist_Downloading>
+    <AT_Gist_UploadSuccess>Translations uploaded successfully!</AT_Gist_UploadSuccess>
+    <AT_Gist_UploadFailed>Upload failed</AT_Gist_UploadFailed>
+    <AT_Gist_CopiedToClipboard>URL copied to clipboard</AT_Gist_CopiedToClipboard>
+    <AT_Gist_DownloadFailed>Download failed</AT_Gist_DownloadFailed>
+    <AT_Gist_PreviewTitle>Shared Translation Info</AT_Gist_PreviewTitle>
+    <AT_Gist_TargetLanguage>Target language</AT_Gist_TargetLanguage>
+    <AT_Gist_Translator>Translator</AT_Gist_Translator>
+    <AT_Gist_Model>Model</AT_Gist_Model>
+    <AT_Gist_Date>Date</AT_Gist_Date>
+    <AT_Gist_TranslationCount>Translations</AT_Gist_TranslationCount>
+    <AT_Gist_Confirm>Continue</AT_Gist_Confirm>
+    <AT_Gist_MergeTitle>Merge Shared Translations</AT_Gist_MergeTitle>
+    <AT_Gist_MergeInfo>Entries that differ from your local translations</AT_Gist_MergeInfo>
+    <AT_Gist_SelectAll>Select all</AT_Gist_SelectAll>
+    <AT_Gist_DeselectAll>Deselect all</AT_Gist_DeselectAll>
+    <AT_Gist_SelectNewOnly>New entries only (keep mine)</AT_Gist_SelectNewOnly>
+    <AT_Gist_MergeSelected>Merge selected</AT_Gist_MergeSelected>
+    <AT_Gist_NoDifferences>No differences from your local translations.</AT_Gist_NoDifferences>
+    <AT_Gist_Key>Key</AT_Gist_Key>
+    <AT_Gist_LocalTranslation>My translation</AT_Gist_LocalTranslation>
+    <AT_Gist_RemoteTranslation>Shared translation</AT_Gist_RemoteTranslation>
+    <AT_Gist_NewTranslation>(new)</AT_Gist_NewTranslation>
+    <AT_Gist_MergeSuccess>Merge complete</AT_Gist_MergeSuccess>
+    <AT_Gist_AppliedLive>applied in-game</AT_Gist_AppliedLive>
+
+    <!-- Bulk Replace Dialog -->
+    <AT_BulkReplace_Button>Bulk Replace</AT_BulkReplace_Button>
+    <AT_BulkReplace_Title>Bulk Replace Translations</AT_BulkReplace_Title>
+    <AT_BulkReplace_Filter>Filter (Mod ID/Original Text)</AT_BulkReplace_Filter>
+    <AT_BulkReplace_FilterTooltip>Filter entries by Mod ID or original text. Supports regex (e.g., "modA|modB" to match multiple mods)</AT_BulkReplace_FilterTooltip>
+    <AT_BulkReplace_Find>Find (in Translation)</AT_BulkReplace_Find>
+    <AT_BulkReplace_FindTooltip>Pattern to find in translated text. Use regex for advanced matching (e.g., "ratkin|rat-kin")</AT_BulkReplace_FindTooltip>
+    <AT_BulkReplace_Replace>Replace With</AT_BulkReplace_Replace>
+    <AT_BulkReplace_ReplaceTooltip>Text to replace matches with. Use $1, $2, etc. for regex capture groups</AT_BulkReplace_ReplaceTooltip>
+    <AT_BulkReplace_UseRegex>Use Regular Expression</AT_BulkReplace_UseRegex>
+    <AT_BulkReplace_CaseSensitive>Case Sensitive</AT_BulkReplace_CaseSensitive>
+    <AT_BulkReplace_Preview>Preview Changes</AT_BulkReplace_Preview>
+    <AT_BulkReplace_PreviewResults>Preview Results</AT_BulkReplace_PreviewResults>
+    <AT_BulkReplace_NoMatches>No matches found. Adjust your filters and try again.</AT_BulkReplace_NoMatches>
+    <AT_BulkReplace_ReplaceAll>Replace All</AT_BulkReplace_ReplaceAll>
+    <AT_BulkReplace_NoChanges>No changes to apply.</AT_BulkReplace_NoChanges>
+    <AT_BulkReplace_Success>Bulk replace completed successfully!</AT_BulkReplace_Success>
+    <AT_BulkReplace_Error>Error occurred during bulk replace. Check logs for details.</AT_BulkReplace_Error>
+
+    <!-- Arabic support -->
+    <AT_Tab_Arabic>Arabic</AT_Tab_Arabic>
+    <AT_Arabic_Title>Arabic text (shaping, right-to-left order, approved terminology)</AT_Arabic_Title>
+    <AT_Arabic_NotTarget>The Arabic support is off. Restart the game to start it.</AT_Arabic_NotTarget>
+    <AT_Arabic_RestartToActivate>Arabic is the target language but the Arabic support is not running yet. Restart the game to start it. (If it still does not start, see the log for "Arabic support could not be started".)</AT_Arabic_RestartToActivate>
+    <AT_Arabic_RenderMode>Text mode</AT_Arabic_RenderMode>
+    <AT_Arabic_RenderMode_Tooltip>How the finished Arabic text is stored and shown. The game's own text renderer neither joins Arabic letters nor reverses right-to-left text, so the default prepares both. Choose another mode only if another mod does the shaping when text is drawn.</AT_Arabic_RenderMode_Tooltip>
+    <AT_Arabic_Mode0>Shaped and reordered (game renderer)</AT_Arabic_Mode0>
+    <AT_Arabic_Mode1>Shaped, typing order</AT_Arabic_Mode1>
+    <AT_Arabic_Mode2>Plain logical text (another mod shapes)</AT_Arabic_Mode2>
+    <AT_Arabic_ModeInfo0>Letters are joined and the line is reordered for the game's left-to-right text renderer. This is the default for an unmodified game.</AT_Arabic_ModeInfo0>
+    <AT_Arabic_ModeInfo1>Letters are joined but kept in typing order, for a renderer that reorders lines itself but does not join letters.</AT_Arabic_ModeInfo1>
+    <AT_Arabic_ModeInfo2>No joining and no reordering: the text stays plain. Use it with a mod or a game version that shapes and reorders Arabic when text is drawn (otherwise the letters appear separated).</AT_Arabic_ModeInfo2>
+    <AT_Arabic_LtrIsolates>Keep English words, numbers and placeholders intact</AT_Arabic_LtrIsolates>
+    <AT_Arabic_LtrIsolates_Tooltip>Wraps embedded left-to-right runs (English words, numbers, {0}, [PAWN_nameDef]) in direction isolates so that the surrounding Arabic text cannot reorder them.</AT_Arabic_LtrIsolates_Tooltip>
+    <AT_Arabic_ApplyPending>The text mode changed: press the button to rebuild the stored translations. (They are also rebuilt automatically at the next start.)</AT_Arabic_ApplyPending>
+    <AT_Arabic_Apply>Rebuild stored Arabic translations and apply them now</AT_Arabic_Apply>
+    <AT_Arabic_Applied>Arabic translations rebuilt: {0} changed.</AT_Arabic_Applied>
+    <AT_Arabic_CacheReport>Last cache check: {0}</AT_Arabic_CacheReport>
+    <AT_Arabic_GlossaryFile>Glossary in use: {0}</AT_Arabic_GlossaryFile>
+    <AT_Arabic_UserGlossary>To use your own glossary, place ArabicGlossary.txt here (it replaces the bundled one): {0}</AT_Arabic_UserGlossary>
+    <AT_Arabic_EditRejected>The Arabic text was not accepted: {0}</AT_Arabic_EditRejected>
+    <AT_Arabic_BulkRejected>{0} Arabic translation(s) were not changed because the new text was not acceptable (see the log).</AT_Arabic_BulkRejected>
+    <AT_Arabic_MergeRejected>{0} Arabic translation(s) were not merged because the text was not acceptable (for example already shaped, or placeholders missing).</AT_Arabic_MergeRejected>
+</LanguageData>

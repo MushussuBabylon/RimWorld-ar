@@ -1,0 +1,1183 @@
+# RimWorld Arabic terminology glossary  (mandatory, machine-readable)
+#
+# Source of truth for the glossary component of the Arabic support (Source/ArabicAutoTranslation/Arabic/Core/Glossary).
+# Every "English -> Arabic" pair of the supplied RimWorld Terminology Glossary is copied here verbatim; the plural,
+# feminine and matching attributes were added so the terms can be enforced. Attributes that are NOT part of the
+# supplied glossary (derived plurals, aliases, matching mode) are listed in "derived=" so a maintainer can tell them
+# apart from the approved terms and review them.
+#
+# FILE FORMAT (UTF-8, one entry per line):
+#   English [ / alias ... ] | Arabic | attribute | attribute=value ...
+# Section lines "[Name]" or "[Name | package.id]" give the DLC scope of the entries that follow; "Standardized"
+# applies to every DLC. Lines starting with # and blank lines are ignored.
+#
+# ATTRIBUTES
+#   mode=any|whole|start   where the term may be enforced: anywhere (default), only when it is the complete text
+#                          (a label), or only at the start of the text.
+#   cs                     only when written with a capital first letter (names that are also common words).
+#   adj                    adjective: it follows its noun in Arabic, so it is enforced only as a complete label.
+#   guard                  noun that is also an English verb: not enforced where it is used as a verb.
+#   pl= fem= fpl=          Arabic plural / feminine / feminine plural form.
+#   def= indef=            explicit definite / indefinite Arabic form (otherwise derived for single words).
+#   enpl=a;b               extra English plural spellings.
+#   mod=id;id              only for text of these mods (package ids).   key=text   only when the text key contains it.
+#   id=                    explicit entry id (needed when two entries share the same English text).
+#   derived=a,b            attributes that were derived by rule and are not in the supplied glossary.
+#
+# Changing any entry changes the glossary version (a content hash), which invalidates exactly the cached
+# translations whose source text contains an affected term.
+
+@glossary-version 1
+
+[Core | ludeon.rimworld]
+
+# General Terms
+Colonist | مستعمر | pl=مستعمرين | derived=pl
+Spot | مكان | guard | pl=أماكن | derived=pl
+Implant | زرعة | guard | pl=زرعات | derived=pl
+Warden | حارس | pl=حراس | derived=pl
+Turret | برج | pl=أبراج | derived=pl
+Shuttle | مكوك | pl=مكوكات | derived=pl
+Transport Pod | كبسولة نقل | pl=كبسولات نقل | derived=pl
+
+# Technology and Materials
+Mechanoid / Mech | ميكانويد
+Mechanoids / Mechs | ميكانويدات
+Chemfuel | وقود كيميائي
+archotechnological | تكنولوجيا آركوتيكية
+Glitterworld | العالم اللامع
+Medieval | العصور الوسطى
+Slag | خردة
+Chunk | كتلة | pl=كتل | derived=pl
+
+[Royalty | ludeon.rimworld.royalty]
+
+# Faction and Characters
+The Empire / Empire | الإمبراطورية | derived=alias
+Royal Tribute Collector | جامع الجزية الإمبراطوري
+Deserter | منشق | pl=منشقين | derived=pl
+Imperial Trooper | جندي إمبراطوري | pl=جنود إمبراطوريين | derived=pl
+Janissary | إنكشاري | pl=إنكشاريين | derived=pl
+Cataphract | كاتافراكت
+
+# Psychic System
+Psycaster | مستخدم القدرات النفسية | pl=مستخدمي القدرات النفسية | derived=pl
+Psycast | قدرة نفسية | pl=قدرات نفسية | derived=pl
+Psyfocus | تركيز نفسي
+Psylink | وصلة نفسية | pl=وصلات نفسية | derived=pl
+Psytrainer | مدرب القدرات النفسية | pl=مدربي القدرات النفسية | derived=pl
+Psychic Amplifier | مضخم نفسي | pl=مضخمات نفسية | derived=pl
+Psychic Sensitivity | الحساسية النفسية
+Neural Heat | حرارة عصبية
+Meditation | تأمل
+Psychic | نفسي | mode=whole | adj
+Psychic Drone | طنين نفسي
+Psychic Soothe | تهدئة نفسية
+Psychic Suppressor | مثبط نفسي | pl=مثبطات نفسية | derived=pl
+
+# Buildings and Items
+Death Acidifier | مذيب الجثة الحمضي
+Mech Cluster | عنقود ميكانويدات | pl=عناقيد ميكانويدات | derived=pl
+Throne Room | غرفة العرش | pl=غرف العرش | derived=pl
+Throne | عرش | pl=عروش | derived=pl
+Royal Bed | سرير ملكي
+Imperial Armor | درع إمبراطوري | pl=دروع إمبراطورية | derived=pl
+Honor | شرف
+Permits | تصاريح
+Permit | تصريح | derived=entry | note=singular of "Permits" (consistent with Royal Permit)
+Royal Permit | تصريح ملكي | pl=تصاريح ملكية | derived=pl
+
+# Social and Royal Titles
+Conceited Pawn | مستعمر متغطرس
+Freeholder | نبيل حر | pl=نبلاء أحرار | derived=pl
+Novice | مبتدئ | pl=مبتدئين | derived=pl
+Acolyte | مرافق | pl=مرافقين | derived=pl
+Knight | فارس | pl=فرسان | derived=pl
+Dame | فارسة | pl=فارسات | derived=pl
+Praetor | بريتور
+Baron | بارون | pl=بارونات | derived=pl
+Baroness | بارونة | pl=بارونات | derived=pl
+Archon | أركون
+Dominus | دومينوس
+Consul | قنصل | pl=قناصل | derived=pl
+Stellarch | ستيلارك
+High Stellarch | الستيلارك الأعلى
+Emperor | إمبراطور | pl=أباطرة | derived=pl
+Empress | إمبراطورة | pl=إمبراطورات | derived=pl
+Royal Title | لقب ملكي | pl=ألقاب ملكية | derived=pl
+
+[Ideology | ludeon.rimworld.ideology]
+
+# Core Ideology System
+Ideology | عقيدة | pl=عقائد | derived=pl
+Ideoligion | عقيدة
+Meme | مبدأ | pl=مبادئ | derived=pl
+Precept | وصية | pl=وصايا | derived=pl
+Ritual | طقس | pl=طقوس | derived=pl
+Conversion | تحويل العقيدة | mode=whole
+Archonexus | الآركونيكسس
+Certainty | اليقين | mode=whole
+Role | دور | mode=whole | pl=أدوار | derived=pl
+Specialist | أخصائي | mode=whole | pl=أخصائيين | derived=pl
+Moral Guide | مرشد أخلاقي | pl=مرشدين أخلاقيين | derived=pl
+Relic | أثر مقدس | pl=آثار مقدسة | derived=pl
+Reliquary | ضريح الأثر المقدس
+
+# Gauranlen and Dryads
+Gauranlen Tree | شجرة غورانلين | pl=أشجار غورانلين | derived=pl
+Dryad | درايد | pl=درايدات | derived=pl
+Barkskin | لحائي
+Berrymaker | صانع التوت | pl=صانعي التوت | derived=pl
+Carrier | ناقل | mode=whole
+Clawer | مخلبي
+Gaumaker | صانع الغاو
+Medicine Maker | صانع الأدوية
+Woodmaker | صانع الخشب
+Pod | جراب | mode=whole
+Tree Connection | رابطة الأشجار | pl=روابط الأشجار | derived=pl
+
+# Memes
+Animal Personhood | مكانة الحيوان | mode=whole | key=MemeDef
+Blindsight | تقديس العمى | mode=whole | key=MemeDef
+Cannibal | أكل لحوم البشر | mode=whole | key=MemeDef
+Collectivist | الجماعية | mode=whole | key=MemeDef
+Darkness | الظلام | mode=whole | key=MemeDef
+Female Supremacy | تفوق الإناث | mode=whole | key=MemeDef
+Flesh Purity | نقاء الجسد | mode=whole | key=MemeDef
+Guilty | الشعور بالذنب | mode=whole | key=MemeDef
+High Life | حياة النشوة | mode=whole | key=MemeDef
+Human Primacy | السمو البشري | mode=whole | key=MemeDef
+Individualist | الفردية | mode=whole | key=MemeDef
+Loyalist | الولاء | mode=whole | key=MemeDef
+Male Supremacy | تفوق الذكور | mode=whole | key=MemeDef
+Nature Primacy | أولوية الطبيعة | mode=whole | key=MemeDef
+Nudism | العري | mode=whole | key=MemeDef
+Pain is Virtue | الألم فضيلة | mode=whole | key=MemeDef
+Proselytizer | التبشير | mode=whole | key=MemeDef
+Raider | الغزو | mode=whole | key=MemeDef | id=ideology.meme-raider | note=the Ideology meme only (a MemeDef label); every other Raider is the standardized غازي
+Rancher | تربية المواشي | mode=whole | key=MemeDef
+Supremacist | التفوق | mode=whole | key=MemeDef
+Transhumanist | ما بعد إنساني | mode=whole | key=MemeDef
+Tunneler | ناسك الأنفاق | mode=whole | key=MemeDef | id=ideology.meme-tunneler | note=the Ideology meme only (a MemeDef label); the Biotech mechanoid Tunneler is حفار
+
+# Important Ideology Concepts
+Preferred Apparel | الملابس المفضلة
+Required Apparel | الملابس المطلوبة
+Apparel | ملابس
+Style | نمط | pl=أنماط | derived=pl
+Ideology Development | تطور العقيدة
+Development Points | نقاط التطوير
+Social Role | دور اجتماعي | pl=أدوار اجتماعية | derived=pl
+
+[Biotech | ludeon.rimworld.biotech]
+
+# Genetics
+Gene | مورثة | pl=مورثات | derived=pl
+Xenogene | مورثة دخيلة | pl=مورثات دخيلة | derived=pl
+Germline Gene | مورثة سلالية | pl=مورثات سلالية | derived=pl
+Xenogerm | زينوجرم | pl=زينوجرمات | derived=pl
+Gene Implanter | زارع المورثات
+Gene Bank | بنك المورثات | pl=بنوك المورثات | derived=pl
+Gene Extractor | مستخرج المورثات | pl=مستخرجات المورثات | derived=pl
+Gene Assembler | مجمّع المورثات | pl=مجمّعات المورثات | derived=pl
+Genepack | حزمة مورثات | pl=حزم مورثات | derived=pl
+Genetic | وراثي | mode=whole | adj
+Xenotype | نمط جيني | pl=أنماط جينية | derived=pl
+Xenotype Editor | محرر النمط الجيني
+Metabolism | الأيض
+Archite | آركايت
+Archite Capsule | كبسولة آركايت | pl=كبسولات آركايت | derived=pl
+
+# Pollution
+Pollution | التلوث
+Wastepack | حزمة نفايات | pl=حزم نفايات | derived=pl
+Toxic Wastepack | حزمة نفايات سامة | pl=حزم نفايات سامة | derived=pl
+Toxifier | مولّد السموم
+Pollux Tree | شجرة بولوكس
+Tox Gas | غاز سام
+
+# Sanguophage System
+Hemogen | هيموجين
+Hemogen Pack | حقيبة هيموجين | pl=حقائب هيموجين | derived=pl
+Hemogen Extractor | مستخرج الهيموجين
+Sanguophage | سانغوفاج | pl=سانغوفاجات | derived=pl
+Deathrest | سبات الموت
+Deathrest Casket | تابوت سبات الموت | pl=توابيت سبات الموت | derived=pl
+Deathrest Accelerator | مسرّع سبات الموت
+
+# Mechanitor and Mechanoids
+Mechanitor | ميكانيتور | pl=ميكانيتورات | derived=pl
+Mechlink | وصلة الميكانيتور
+Control Pack | حزمة تحكم | pl=حزم تحكم | derived=pl
+Bandwidth | عرض النطاق
+Bandwidth Pack | حزمة عرض النطاق | pl=حزم عرض النطاق | derived=pl
+Subcore | النواة الفرعية
+Subcore Encoder | مشفر النواة الفرعية
+Mech Gestator | حاضنة الميكانويدات | pl=حاضنات الميكانويدات | derived=pl
+Mech Gestation | احتضان الميكانويدات
+
+# Utility Mechanoids
+Agrihand | يد زراعية
+Constructoid | بناء
+Fabricor | صانع
+Paramedic | مسعف | pl=مسعفين | derived=pl
+Lifter | ناقل
+Cleansweeper | المنظف
+
+# Combat Mechanoids
+Militor | ميليتور | pl=ميليتورات | derived=pl
+Scyther | منجلي
+Centipede | حريش
+Lancer | رامح
+Pikeman | رماح
+Tunneler | حفار | pl=حفارين | id=biotech.tunneler | derived=pl
+Scorcher | حارق | pl=حارقين | derived=pl
+Legionary | ليجيوناري
+Tesseron | تيسيرون
+Centurion | سنتوريون
+Bishop | أسقف | pl=أساقفة | derived=pl
+Diabolus | ديابولوس
+Apocriton | أبوكريتون
+War Queen | ملكة الحرب | pl=ملكات الحرب | derived=pl
+War Urchin | قنفذ الحرب | pl=قنافذ الحرب | derived=pl
+
+# Growth and Reproduction
+Pregnancy | الحمل
+Children | الأطفال
+Child | طفل
+Growth Vat | حوض النمو | pl=أحواض النمو | derived=pl
+Growth Moment | مرحلة نمو | pl=مراحل نمو | derived=pl
+Growth Tier | مستوى النمو | pl=مستويات النمو | derived=pl
+Gestation | فترة الحمل
+Gestation Period | مدة الحمل
+
+# Xenotypes
+Baseliner | البشري الأساسي
+Waster | وايستر
+Dirtmole | الخلد الترابي
+Genie | جيني
+Highmate | هايميت
+Hussar | هوسار
+Impid | إمبيد
+Neanderthal | نياندرتال
+Pigskin | شبيه خنزير
+Sanguophage | سانغوفاج | pl=سانغوفاجات | derived=pl
+Starjack | ستارجاك
+Yttakin | يتاكين
+
+[Anomaly | ludeon.rimworld.anomaly]
+
+# Core Concepts
+Entity | كيان
+Entities | كيانات
+Void | الفراغ | cs
+Monolith | مسلة | pl=مسلات | derived=pl
+Obelisk | مسلة | pl=مسلات | derived=pl
+Void Monolith | مسلة الفراغ
+Containment | احتواء
+Containment Facility | منشأة الاحتواء | pl=منشآت الاحتواء | derived=pl
+Containment Cell | غرفة احتواء | pl=غرف احتواء | derived=pl
+Entity Codex | سجل الكيانات
+Study | دراسة | mode=whole
+Study Interval | فترة الدراسة
+Psychic Ritual | طقس نفسي | pl=طقوس نفسية | derived=pl
+The Void Ending | نهاية الفراغ
+
+# Entities and Creatures
+Harbinger Tree | شجرة النذير | pl=أشجار النذير | derived=pl
+Fleshbeast | وحش اللحم | pl=وحوش اللحم | indef=وحش لحم | derived=pl
+Sightstealer | سارق الأبصار | pl=سارقي الأبصار | derived=pl
+Shambler | المترنح | pl=المترنحين | derived=pl
+Ghoul | الغول | pl=الغيلان | derived=pl
+Gorehulk | عملاق الأحشاء | pl=عمالقة الأحشاء | derived=pl
+Dreadmeld | دريدميلد
+bulbfreak | بالبفريك
+Chimera | الكيميرا
+Devourer | الملتهم | pl=الملتهمين | derived=pl
+Noctol | الليلي
+Revenant | العائد من الموت | pl=العائدين من الموت | derived=pl
+Metalhorror | رعب المعدن
+Nociosphere | كرة الأذى
+Golden Cube | المكعب الذهبي
+Unnatural Corpse | جثة غير طبيعية | pl=جثث غير طبيعية | derived=pl
+
+# Structures and Objects
+Void Monolith | مسلة الفراغ
+Noctolith | مسلة الليل
+Pit Gate | بوابة الحفرة
+Twisted Obelisk | المسلة الملتوية
+Corrupted Obelisk | المسلة الفاسدة
+Warped Obelisk | المسلة المشوهة
+Fleshmass | الكتلة اللحمية
+Fleshmass Heart | قلب الكتلة اللحمية
+Fleshmass Nucleus | نواة الكتلة اللحمية
+bliss lobotomy | استئصال الفص الجبهي للنعيم
+Void Structure | بنية الفراغ
+Void Node | عقدة الفراغ | pl=عقد الفراغ | derived=pl
+
+# Resources and Events
+Bioferrite | بايوفيرايت
+Bioferrite Harvester | حاصدة البايوفيرايت
+Death Pall | كفن الموت
+Blood Rain | مطر الدم
+Unnatural Darkness | ظلام غير طبيعي
+Gray Flesh | لحم رمادي
+
+[Odyssey | ludeon.rimworld.odyssey]
+
+# Gravship and Gravtech
+Gravship | سفينة الجاذبية | pl=سفن الجاذبية | derived=pl
+Gravcore | نواة الجاذبية | pl=نوى الجاذبية | derived=pl
+Gravtech | تقنية الجاذبية
+Orbital Platform | منصة مدارية | pl=منصات مدارية | derived=pl
+Grav Engine | محرك الجاذبية | pl=محركات الجاذبية | derived=pl
+Grav Anchor | مرساة الجاذبية | pl=مراسي الجاذبية | derived=pl
+Gravship Launch | إطلاق سفينة الجاذبية
+Gravship Landing | هبوط سفينة الجاذبية
+Vacstone | حجر الفراغ
+
+# Biomes and Terrain
+Glowforest | غابة التوهج
+Scarlands | أراضي الندوب
+Lava Fields | حقول الحمم
+Cliff | جرف | pl=جروف | derived=pl
+Chasm | هوة | pl=هوات | derived=pl
+Crevasse | شق | pl=شقوق | derived=pl
+Valley | وادٍ | pl=وديان | def=الوادي | derived=pl,def
+
+# Odyssey Animals
+Alpha Thrumbo | ألفا ثرمبو
+Bog Hound | كلب المستنقعات | pl=كلاب المستنقعات | derived=pl
+Colossus Toad | ضفدع عملاق | pl=ضفادع عملاقة | derived=pl
+Great Wolf | الذئب العظيم | pl=الذئاب العظيمة | enpl=Great Wolves | derived=pl
+Hive Queen | ملكة الخلية | pl=ملكات الخلية | derived=pl
+Larva | يرقة | pl=يرقات | enpl=Larvae;Larvas | derived=pl
+Lava Snail | حلزون الحمم | pl=حلزونات الحمم | derived=pl
+Locust | جراد
+Mastodon | ماستودون | pl=ماستودونات | derived=pl
+Scimitar Cat | قط الشمشير | pl=قطط الشمشير | derived=pl
+Stone Crab | سرطان حجري | pl=سرطانات حجرية | derived=pl
+
+# Other Odyssey Systems
+Heavy Bridge | جسر ثقيل | pl=جسور ثقيلة | derived=pl
+Sentience Catalyst | محفز الوعي | pl=محفزات الوعي | derived=pl
+Hunter Pack | حزمة الصياد | pl=حزم الصياد | derived=pl
+Fishing | صيد السمك
+Fishing Spot | موقع صيد السمك | pl=مواقع صيد السمك | derived=pl
+
+[Standardized]
+
+# Body and Anatomy
+Leg | ساق | pl=سيقان
+Arm | الذراع | pl=الأذرع | derived=pl
+Left arm | الذراع اليسرى
+Right arm | الذراع اليمنى
+Neck | رقبة | pl=رقاب | derived=pl
+Body | جسم | pl=أجسام | derived=pl | note=Flesh Purity → نقاء الجسد above stays as it is
+Point | رأس | mode=whole
+Treated | عولِج | mode=whole | adj
+
+# Items, Materials and Places
+Item | عنصر | pl=عناصر
+Drug | عقار | guard | pl=عقاقير | note=Medicine → دواء stays
+Medicine | دواء | pl=أدوية | derived=pl | note=PART 11: "Medicine -> دواء (this existing translation remains unchanged)"
+Stockpile | منطقة تخزين | pl=مناطق تخزين | note=ancient stockpile keeps مخزون
+Ancient Stockpile | مخزون | note=glossary note: "ancient stockpile keeps مخزون"
+Camp | مخيم | guard | pl=مخيمات | derived=pl
+Barrel | ماسورة | guard | pl=مواسير
+Dirt | تراب
+Granite | غرانيت
+Mote | أثر بصري | pl=آثار بصرية | derived=pl
+
+# People and Creatures
+Raider | غازي | pl=غزاة | note=the Ideology meme Raider → الغزو above stays
+Creature | مخلوق | pl=مخلوقات | derived=pl
+Cadet | تلميذ عسكري | pl=تلاميذ عسكريين | derived=pl
+Tinkerer | مصلح | pl=مصلحين | derived=pl
+Assassin | مغتال | pl=مغتالين | fem=مغتالة
+Herder | راعي ماشية | pl=رعاة ماشية | fem=راعية ماشية | derived=pl
+Drifter | متجول | pl=متجولين | derived=pl
+Chef | طاه | pl=طهاة | fem=طاهية | derived=pl | note=Cook → طباخ stays
+Cook | طباخ | mode=whole | pl=طباخين | fem=طباخة | derived=fem,pl | note=glossary note: "Cook -> طباخ stays" (Cook is also a verb: label only)
+Technician | تقني | pl=تقنيين | derived=pl
+Scavenger | جامع خردة | pl=جامعو خردة | fem=جامعة خردة
+
+# Descriptions and States
+Mental | عقلي | mode=whole | adj
+Bionic | إلكتروني حيوي | mode=whole | adj
+Hostile | معادٍ | mode=whole | adj | fem=معادية | def=المعادي | derived=def,fem
+Advanced | متقدم | mode=whole | adj
+Unknown | مجهول | mode=whole | adj
+Abhorrent | مقيت | mode=whole | adj
+Cooldown | فترة انتظار | pl=فترات انتظار | derived=pl | note=Psychic Soothe → تهدئة نفسية above stays
+Gestating mech | تكوين ميكانويد | note=Mech Gestator and Mech Gestation above stay
+Room impressiveness | فخامة الغرفة
+Left sight sensor | المستشعر البصري الأيسر
+Right sight sensor | المستشعر البصري الأيمن
+Left hearing sensor | المستشعر السمعي الأيسر
+Right hearing sensor | المستشعر السمعي الأيمن
+None / Nothing | لا شيء | mode=whole
+Misc | متنوعات | mode=whole
+
+# Severity Words ( the same English word always gets the same Arabic word )
+Initial | أولي | mode=whole | adj
+Minor | طفيف | mode=whole | adj
+Mild | خفيف | mode=whole | adj
+Moderate | متوسط | mode=whole | adj
+Major | كبير | mode=whole | adj
+Serious | خطير | mode=whole | adj
+Severe | حاد | mode=whole | adj
+Extreme | شديد | mode=whole | adj
+
+# Events and Actions
+Year | سنة | mode=whole
+Flashstorm | عاصفة برق خاطفة | pl=عواصف برق خاطفة | derived=pl
+Sacrifice | تضحية | mode=whole
+Activate | تفعيل | mode=whole
+Investigate | تحقيق في | mode=start
+Executed prisoner | إعدام سجين
+Jump | قفزة | mode=whole
+Doing something | يفعل شيئاً | mode=whole
+Quest expired | انتهت صلاحية المهمة | mode=whole
+Quest completed | اكتملت المهمة | mode=whole
+Choose who should do this | اختر من سيفعل هذا | mode=whole
+Tab | تبويب | mode=whole
+
+# Added after the translator got these wrong in mod texts (not part of the supplied glossary).
+# The wording is the one of the official Arabic RimWorld pack where that has one (note=official).
+Mod | تعديل | guard | pl=تعديلات | note=added: the translator reads "mod" as MoD and says وزارة الدفاع; official: Mod → تعديل
+Pawn | شخص | pl=أشخاص | note=added: the translator says بيدق (a chess pawn); the official pack says مستعمر only where colonists are meant
+Melee weapon | سلاح اشتباك | pl=أسلحة اشتباك | def=سلاح الاشتباك | note=added; official: أسلحة الاشتباك
+Ranged weapon | سلاح بعيد المدى | pl=أسلحة بعيدة المدى | def=السلاح بعيد المدى | note=added; official: الأسلحة بعيدة المدى
+Melee attack | هجوم اشتباك | pl=هجمات اشتباك | def=هجوم الاشتباك | note=added; official: هجوم اشتباك
+Melee | الاشتباك | mode=whole | note=added; the skill in the official pack; the translator says المشاجرة
+Ranged | بعيد المدى | mode=whole | adj | note=added; official; the translator says تراوحت
+Drafted | مجند | note=added; official; the translator says صياغته
+Draft | تجنيد | mode=whole | note=added; official
+Undraft | إلغاء التجنيد | mode=whole | note=added; official
+Disabled | معطل | mode=whole | adj | note=added; official; the translator says معاق (a disabled person)
+Hit Points | نقاط الصحة | mode=whole | note=added; official
+Not yet bonded | غير مرتبط بعد | mode=whole | note=added; official: مرتبط; the translator says لا المستعبدين بعد
+
+# Wrong translations found in the cache of the mods in use (cultivation, xianxia and similar mods). Not part of the supplied
+# glossary; the Arabic wording is a suggestion and can be changed here, the cached texts that contain a changed term are then
+# translated again by themselves. Single words first: the translator reads them as another word (Pill -> birth-control pills).
+Pill | حبة | pl=حبوب | note=added: the translator says حبوب منع الحمل (birth-control pills); here a pill is a cultivation pill
+Cultivator | مزارع | pl=مزارعون | note=added: the translator says التعشيب (weeding)
+Nun | راهبة | pl=راهبات | note=added: the translator says الآن (now)
+Passive | سلبي | mode=whole | adj | note=added: the translator says المبني للمجهول (the grammatical passive voice)
+Hard | صعب | mode=whole | adj | note=added: the translator says بجد (diligently)
+Hunter | صياد | mode=whole | pl=صيادون | note=added: the translator says هنتر
+Fisher | صياد أسماك | mode=whole | pl=صيادو أسماك | note=added: the translator says فيشر
+Tamer | مروّض | mode=whole | pl=مروّضون | note=added: the translator says تامر
+Swordsmith | حدّاد سيوف | mode=whole | pl=حدّادو سيوف | note=added: the translator says السيوف
+Mason | بنّاء | mode=whole | pl=بنّاؤون | note=added: the translator says ميسون
+Deckhand | بحّار | mode=whole | pl=بحّارة | note=added: the translator says ديكهاند
+Flamekeeper | حارس اللهب | mode=whole | pl=حراس اللهب | note=added: the translator says فلاميبر
+Innkeeper | صاحب نزل | mode=whole | pl=أصحاب نزل | note=added: the translator says إنكيبر
+Porter | حمّال | mode=whole | pl=حمّالون | note=added: the translator says بورتر
+Puppeteer | محرك دمى | mode=whole | pl=محركو دمى | note=added: the translator says العرائس
+Puppetry | فن الدمى | mode=whole | note=added: the translator says الدمى
+Grandmaster | أستاذ أعظم | mode=whole | pl=أساتذة عظام | note=added: the translator says غراند ماستر
+Guardian | وصي | pl=أوصياء | note=added: the translator says الجارديان
+Wanderer | رحّال | pl=رحّالة | note=added: the translator says الهيام / مسافر / متجول
+Elder | شيخ | pl=شيوخ | note=added: one word for it (the translator said شيخ, الأكبر and الحكماء)
+Preset | إعداد مسبق | pl=إعدادات مسبقة | note=added: the translator says مسبقا
+Stock | مخزون | mode=whole | note=added: the translator says الأسهم (shares)
+Blade | نصل | pl=نصال | note=added: the translator says بليد (dull)
+Caravaneer | قائد قافلة | mode=whole | pl=قادة القوافل | note=added: the translator says كارافانير
+Engraver | نقّاش | mode=whole | pl=نقّاشون | note=added: the translator says حفارة
+Elixirist | صانع إكسير | mode=whole | pl=صانعو إكسير | note=added: the translator says إكسيريست
+Charmed | مسحور | mode=whole | adj | note=added: the translator says سحر (a charm)
+Honored | مكرّم | mode=whole | adj | note=added: the translator says تكريم
+Hulking | ضخم | mode=whole | adj | note=added: the translator says ثقيل
+Heavyset | ممتلئ | mode=whole | adj | note=added: the translator says هيفيسيت
+Rotund | بدين | mode=whole | adj | note=added: the translator says روتوند
+Tempering | صقل | note=added: the translator says هدأ (calmed down); also inside a sentence (tempering skin, flesh and bone)
+Forging | حدادة | mode=whole | note=added: the translator says تزوير (counterfeiting)
+Mahjong | ماهجونغ | mode=whole | note=added: the translator says جونغ
+
+# Compound terms: the translator keeps the English word order or picks the wrong sense of a word (spirit -> alcohol, thread ->
+# subject, ...). A phrase listed here is used as written and is not sent to the translator.
+Bellows child | طفل المنفاخ | pl=أطفال المنفاخ | enpl=Bellows children | derived=pl
+Cave child | طفل الكهف | pl=أطفال الكهف | enpl=Cave children | derived=pl
+Clinic child | طفل العيادة | pl=أطفال العيادة | enpl=Clinic children | derived=pl
+Farm child | طفل المزرعة | pl=أطفال المزرعة | enpl=Farm children | derived=pl
+Garden child | طفل الحديقة | pl=أطفال الحديقة | enpl=Garden children | derived=pl
+Gate child | طفل البوابة | pl=أطفال البوابة | enpl=Gate children | derived=pl
+Driver's child | طفل السائق | pl=أطفال السائق | enpl=Driver's children | derived=pl
+Fisher's child | طفل الصياد | pl=أطفال الصياد | enpl=Fisher's children | derived=pl
+Alchemist's child | طفل الخيميائي | pl=أطفال الخيميائي | enpl=Alchemist's children | derived=pl
+Array apprentice | متدرب التشكيلات | pl=متدربو التشكيلات | derived=pl
+Flight array | تشكيل الطيران
+Ascension project | مشروع الصعود | pl=مشاريع الصعود
+Ash orphan | يتيم الرماد | pl=أيتام الرماد | derived=pl
+Auction caller | منادي المزاد
+Bamboo grove | بستان الخيزران
+Bamboo palisade | سياج الخيزران
+Beast core | نواة الوحش | pl=أنوية الوحوش
+Beast hunter | صياد الوحوش | pl=صيادو الوحوش
+Bellows striker | ضارب المنفاخ
+Bishou dagger | خنجر بيشو
+Meridian | مسار الطاقة | pl=مسارات الطاقة
+Blazing meridians | مسارات الطاقة المتوهجة
+Blood jade | يشم الدم
+Body tattoo | وشم الجسد
+Body tempering | صقل الجسد
+Flesh tempering | صقل اللحم
+Tempering pill | حبة الصقل | pl=حبوب الصقل
+Body type | نوع الجسم | pl=أنواع الجسم
+Bone forging | حدادة العظام
+Forging quality | جودة الحدادة
+Forging speed | سرعة الحدادة
+Breakthrough retreat | خلوة الاختراق
+Butcher's block | طاولة الجزار
+Calligraphy scroll | لفافة الخط | pl=لفائف الخط
+Cauldron apprentice | متدرب المرجل | pl=متدربو المرجل | derived=pl
+Cauldron flamekeeper | حارس لهب المرجل
+Cauldron master | سيد المرجل | pl=سادة المرجل | derived=pl
+Cave raider | غازي الكهف | pl=غزاة الكهف
+Crane | كركي | pl=كراكي
+Celestial crane | كركي سماوي | pl=كراكي سماوية
+Crane chick | فرخ الكركي | pl=فراخ الكركي
+Crane feather | ريشة الكركي | pl=ريش الكركي
+Crane meat | لحم الكركي
+Sweeper | كنّاس | pl=كنّاسون
+Cemetery sweeper | كنّاس المقبرة
+Chaos body | جسد الفوضى
+Chaos gold | ذهب الفوضى
+Cloud cloth | قماش السحاب
+Cloud cotton | قطن السحاب
+Cloud innkeeper | صاحب نزل السحاب
+Cloud ox | ثور السحاب
+Cloud rock | صخر السحاب
+Cloud stone | حجر السحاب
+Core blade | نصل النواة | pl=نصال النواة | derived=pl
+Corpse qi | تشي الجثث
+Cult captive | أسير الطائفة
+Cultivation resource | موارد الزراعة
+Cultivation spot | مكان الزراعة
+Cultivation wealth | ثروة الزراعة
+Cultivator catcher | صائد المزارعين
+Cultivator sellsword | مزارع مرتزق
+Cultivator's guide | دليل المزارع
+Cultivator's soul | روح المزارع
+Damaged dantian | دانتيان تالف
+Dao bones | عظام الداو
+Dao comprehension | فهم الداو
+Dao origin | أصل الداو
+Dao partner | شريك الداو
+Dao temple | معبد الداو
+Demon lord | سيد الشياطين | pl=سادة الشياطين
+Discipline elder | شيخ الانضباط | pl=شيوخ الانضباط | derived=pl
+Dragon descendant | سليل التنين
+Dragon hunter | صياد التنانين | pl=صيادو التنانين
+Dragon lung | رئة التنين
+Dragon mane | عرف التنين
+Dragon obsidian | سبج التنين
+Dragon scales | حراشف التنين
+Dragon vein | عرق التنين | pl=عروق التنين
+Dull comprehension | فهم بليد
+Elders command | قيادة الشيوخ
+Elders' cook | طباخ الشيوخ | pl=طباخو الشيوخ | derived=pl
+Elder wanderer | شيخ رحّال
+Ember skin | جلد الجمر
+Essence vessel | وعاء الجوهر
+Evergreen breath | نفس دائم الخضرة
+Evergreen sutra | سوترا دائم الخضرة
+Expelled disciple | تلميذ مطرود
+Expelled prodigy | عبقري مطرود
+Fallen emperor | إمبراطور ساقط
+Fallen empress | إمبراطورة ساقطة
+Feather crest | عرف الريش
+Flame lotus | لوتس اللهب
+Flying island | جزيرة طائرة
+Flying needle | إبرة طائرة | pl=إبر طائرة
+Forge fire | نار الحدادة
+Formation flag | راية التشكيل
+Formation grandmaster | أستاذ التشكيلات الأعظم
+Formation mason | بنّاء التشكيلات
+Fortune star | نجم الحظ
+Foundation establishment | تأسيس الأساس
+Foundation pill | حبة التأسيس | pl=حبوب التأسيس
+Fox fire | نار الثعلب
+Frost breath | نفس الصقيع
+Frost shard | شظية الصقيع | pl=شظايا الصقيع | derived=pl
+Furnace stoker | وقّاد الفرن
+Galactic steel | فولاذ مجري
+Garden hand | عامل الحديقة | pl=عمال الحديقة | derived=pl
+Gate guardian | وصي البوابة
+Glow crystal | بلورة متوهجة
+Go board | لوح الغو
+Golden body | جسد ذهبي
+Grand alchemist | خيميائي أعظم
+Grand elder | الشيخ الأكبر
+Grand puppeteer | محرك الدمى الأعظم
+Grandmaster alchemist | أستاذ الخيميائيين الأعظم
+Guardian serpent | ثعبان وصي
+Guardian's resolve | عزم الوصي
+Pillar guardian | وصي العمود
+Haunted dreams | أحلام مسكونة
+Healing talisman | تعويذة الشفاء | pl=تعاويذ الشفاء | derived=pl
+Heaven defier | متحدي السماء
+Heavenly dao | الداو السماوي
+Herb farmer | مزارع الأعشاب | pl=مزارعو الأعشاب
+Herb runner | عدّاء الأعشاب
+Imperial page | وصيف إمبراطوري
+Implant technician | تقني الزرعات
+Inn child | طفل النزل | pl=أطفال النزل | enpl=Inn children | derived=pl
+Iron child | طفل الحديد | pl=أطفال الحديد | enpl=Iron children | derived=pl
+Iron skin | جلد الحديد
+Island heart | قلب الجزيرة
+Jade bamboo | خيزران اليشم
+Jade eel | أنقليس اليشم
+Jade elixir | إكسير اليشم
+Jade kidney | كلية اليشم
+Jade pendant | قلادة اليشم
+Jade slip | لوح اليشم
+Joint carver | نحّات المفاصل
+Lacquered door | باب مطلي بالورنيش
+Lake fisher | صياد البحيرة
+Lantern keeper | حارس الفانوس | pl=حراس الفانوس | derived=pl
+Late bloomer | متأخر الازدهار
+Ledger keeper | حارس السجلات | pl=حراس السجلات | derived=pl
+Lightning reflexes | ردود فعل البرق
+Load preset | تحميل إعداد مسبق | mode=whole
+Loaded preset | تم تحميل الإعداد المسبق | mode=start
+Load character | تحميل الشخصية | mode=whole
+Loaded character | تم تحميل الشخصية | mode=start
+Lotus monk | راهب اللوتس
+Lotus novice | مبتدئ اللوتس
+Lotus nun | راهبة اللوتس
+Lotus planter | زارع اللوتس
+Machine breaker | محطم الآلات
+Mahjong table | طاولة الماهجونغ | pl=طاولات الماهجونغ | derived=pl
+Market child | طفل السوق | pl=أطفال السوق | enpl=Market children | derived=pl
+Mason puppet | دمية البنّاء | pl=دمى البنّاء | derived=pl
+Master alchemist | سيد الخيميائيين
+Master forger | حدّاد بارع
+Material hunter | صياد المواد | pl=صيادو المواد | derived=pl
+Max | الحد الأقصى | mode=whole
+Min | الحد الأدنى | mode=whole
+Max health | الحد الأقصى للصحة
+Max qi | الحد الأقصى للتشي
+Mechanoid watcher | مراقب الميكانويد
+Medicine gourd | قرع الدواء
+Meditation platform | منصة التأمل
+Meditation stool | مقعد التأمل
+Meridian doctor | طبيب المسارات
+Moon antler | قرن وعل القمر
+Moon deer | غزال القمر
+Moon fish | سمك القمر
+Moon jade | يشم القمر
+Moon silver | فضة القمر
+Mountain body | جسد الجبل
+Mountain child | طفل الجبل | pl=أطفال الجبل | enpl=Mountain children | derived=pl
+Mule caravaneer | قائد قافلة البغال
+Paddy child | طفل الحقل | pl=أطفال الحقل | enpl=Paddy children | derived=pl
+Painting scroll | لفافة الرسم
+Pale mane | عرف شاحب
+Pavilion alchemist | خيميائي الجناح | pl=خيميائيو الجناح
+Pavilion auctioneer | منادي الجناح
+Pavilion master | سيد الجناح | pl=سادة الجناح | derived=pl
+Peddler's child | طفل البائع المتجول | pl=أطفال البائع المتجول | enpl=Peddler's children | derived=pl
+Phoenix | عنقاء
+Phoenix blood | دم العنقاء
+Phoenix ember | جمرة العنقاء
+Phoenix flame | لهب العنقاء | pl=ألسنة لهب العنقاء
+Phoenix plumage | ريش العنقاء
+Phoenix skin | جلد العنقاء
+Phoenix tail | ذيل العنقاء
+Pickaxe puppet | دمية المعول | pl=دمى المعول | derived=pl
+Pill cabinet | خزانة الحبوب
+Pill effect | تأثير الحبة
+Pill taster | متذوق الحبوب
+Pill tester | مختبر الحبوب
+Pill toxicity | سمّية الحبوب
+Pill tribulation | محنة الحبوب
+Healing pill | حبة الشفاء | pl=حبوب الشفاء
+Fasting pill | حبة الصيام | pl=حبوب الصيام
+Puppet qi | تشي الدمية
+Qi | تشي
+Qi barrier | حاجز التشي
+Qi bolt | صاعقة التشي
+Qi breathing | تنفس التشي
+Qi concentration | تركيز التشي
+Qi containment | احتواء التشي
+Qi converter | محوّل التشي
+Qi deviation | انحراف التشي
+Qi ebb | جزر التشي
+Qi fundamentals | أساسيات التشي
+Qi network | شبكة التشي
+Qi refining | تنقية التشي
+Qi regeneration | تجدد التشي
+Qi registrar | مسجّل التشي
+Qi shield | درع التشي
+Qi technologist | تقني التشي
+Qi thruster | دافع التشي
+Qi tide | مد التشي
+Qi vein | عرق التشي | pl=عروق التشي
+Qilin | كيلين
+Qilin blood | دم الكيلين
+Qilin horn | قرن الكيلين
+Qilin skin | جلد الكيلين
+Qilin's blessing | بركة الكيلين
+Quick sand | رمال متحركة
+Raise silkworms | تربية دود القز | mode=whole
+Random mechanoid | ميكانويد عشوائي
+Random pet | حيوان أليف عشوائي
+Reformed cultivator | مزارع تائب
+Renowned wanderer | رحّال مشهور
+Rift cartographer | رسام خرائط الصدع
+Rift child | طفل الصدع | pl=أطفال الصدع | enpl=Rift children | derived=pl
+Rift runner | عدّاء الصدع
+Rift smuggler | مهرب الصدع
+Ritual brazier | مبخرة الطقوس
+Robe wardrobe | خزانة الأردية
+Rogue cultivator | مزارع مارق | pl=مزارعون مارقون
+Spirit forge | أتون الروح
+Spirit metal | معدن الروح
+Spirit smithy | ورشة حدادة الروح
+Spirit speaker | متحدث الروح
+Spirit brazier | مبخرة الروح
+Spirit sabre | سيف الروح
+Spirit tailor | خياط الروح
+Spirit winery | معصرة نبيذ الروح
+Spirit loom | نول الروح
+Spirit child | طفل الروح | pl=أطفال الروح | enpl=Spirit children | derived=pl
+Spirit bow | قوس الروح | pl=أقواس الروح | derived=pl
+Spirit spear | رمح الروح
+Spirit steel | فولاذ الروح
+Spirit jade | يشم الروح
+Spirit silk | حرير الروح
+Spirit soil | تربة الروح
+Spirit wood | خشب الروح
+Spirit ginseng | جينسنغ الروح
+Spirit beast | وحش الروح | pl=وحوش الروح
+Spirit angler | صياد الروح
+Spirit bonsai | بونساي الروح
+Save character | حفظ الشخصية | mode=whole
+Save preset | حفظ الإعداد المسبق | mode=whole
+Sect banner | راية الطائفة
+Sect contribution | مساهمة الطائفة
+Sect swordsmith | حدّاد سيوف الطائفة
+Skin tempering | صقل الجلد
+Tempering elder | شيخ الصقل | pl=شيوخ الصقل | derived=pl
+Tempering master | سيد الصقل | pl=سادة الصقل | derived=pl
+Tempering resources | موارد الصقل
+Temper body | صقل الجسد | mode=whole
+Tempered disciple | تلميذ مصقول | pl=تلاميذ مصقولون
+Sleeping elder | الشيخ النائم
+Silent child | طفل صامت
+Terrace child | طفل الشرفة | pl=أطفال الشرفة | enpl=Terrace children | derived=pl
+Teahouse child | طفل بيت الشاي | pl=أطفال بيت الشاي | enpl=Teahouse children | derived=pl
+Teahouse server | نادل بيت الشاي
+Slip appraiser | مثمّن الألواح
+Smooth granite | غرانيت أملس
+Smooth limestone | حجر جيري أملس
+Smooth marble | رخام أملس
+Smooth sandstone | حجر رملي أملس
+Smooth slate | أردواز أملس
+Special body | جسد خاص
+Whole body | جسد كامل
+Wooden body | جسد خشبي
+Venom body | جسد السم
+Thunder body | جسد الرعد
+Tribulation body | جسد المحنة
+Vajra body | جسد الفاجرا
+Stout build | بنية متينة
+Steam buns | كعك البخار
+Steamed buns | كعك مطهو بالبخار
+Superior root | جذر متفوق
+Inferior root | جذر أدنى
+Common root | جذر عادي
+Sutra copyist | ناسخ السوترا
+Sword apprentice | متدرب السيف | pl=متدربو السيف | derived=pl
+Sword elder | شيخ السيف | pl=شيوخ السيف | derived=pl
+Sword heart | قلب السيف
+Sword saint | قديس السيف
+Sworn sibling | شقيق بالقسم
+Talisman | تعويذة | pl=تعاويذ
+Talisman belt | حزام التعاويذ
+Talisman folder | مجلد التعاويذ
+Talisman painter | رسام التعاويذ
+Talisman table | طاولة التعاويذ | pl=طاولات التعاويذ | derived=pl
+Thunder talisman | تعويذة الرعد | pl=تعاويذ الرعد | derived=pl
+Thread | خيط | guard | pl=خيوط
+Thread apprentice | متدرب الخيوط | pl=متدربو الخيوط | derived=pl
+Thread backlash | ارتداد الخيوط
+Thread friend | صديق الخيوط
+Thread spinner | غازل الخيوط
+Threads cut | الخيوط المقطوعة
+Thunder ballista | منجنيق الرعد
+Tide walker | سائر المد
+Thorn storm | عاصفة الأشواك
+Time cultivating | وقت الزراعة
+Traveling storytellers | رواة قصص متجولون
+Treasure magnet | مغناطيس الكنز
+Tribulation approaches | اقتراب المحنة
+Tribulation survivor | ناجي من المحنة
+Tribulations survived | المحن التي نجا منها
+Twin blades | نصلان توأمان
+Upright elder | شيخ نزيه
+Vajra guardian | وصي الفاجرا
+Valley healer | معالج الوادي
+Valley puppeteer | محرك دمى الوادي
+Vanilla optimizations | تحسينات اللعبة الأساسية
+Vein child | طفل العرق | pl=أطفال العرق | enpl=Vein children | derived=pl
+Venom herb | عشب السم
+Venom thorn | شوكة السم
+Vermilion stone | حجر الزنجفر
+Veteran wanderer | رحّال مخضرم
+Wanderer's porter | حمّال الرحّال
+Wandering blade | نصل جوّال
+Wandering cultivator | مزارع جوّال | pl=مزارعون جوّالون
+Warehouse shelf | رف المستودع | pl=رفوف المستودع | enpl=Warehouse shelves | derived=pl
+Waste pill | حبة النفايات | pl=حبوب النفايات
+Wild child | طفل البرية | pl=أطفال البرية | enpl=Wild children | derived=pl
+Wind sail | شراع الريح
+Wind wolf | ذئب الريح | pl=ذئاب الريح | enpl=Wind wolves | derived=pl
+Wuxia trousers | سراويل الووشيا
+Wreck scavenger | جامع الحطام
+Yang drain | استنزاف اليانغ
+Young master | السيد الشاب
+
+# More wrong translations found in the cache (the translator reorders the words of a compound or reads one of them as
+# another word). A phrase written out here is used as it stands. Where the head noun has a plain plural, pl= gives it
+# (the Arabic plural of the head followed by the rest of the phrase) so that the plural of the English phrase is matched too.
+Ancestral dragon blood | دم التنين الأجدادي
+Ancestral fox blood | دم الثعلب الأجدادي
+Ancestral phoenix blood | دم العنقاء الأجدادي
+Ancestral qilin blood | دم الكيلين الأجدادي
+Ancestral iron skin | جلد الحديد الأجدادي
+Diluted phoenix blood | دم العنقاء المخفف
+Diluted qilin blood | دم الكيلين المخفف
+Pure phoenix blood | دم العنقاء النقي
+Pure qilin blood | دم الكيلين النقي
+Apprentice alchemist | خيميائي مبتدئ
+Apprentice artifact forger | صانع قطع أثرية مبتدئ
+Apprentice beast tamer | مروّض وحوش مبتدئ
+Apprentice formation adept | بارع تشكيلات مبتدئ
+Apprentice puppet master | سيد دمى مبتدئ
+Apprentice spirit farmer | مزارع أرواح مبتدئ
+Apprentice talisman scribe | كاتب تعاويذ مبتدئ
+Master artifact forger | سيد صنع القطع الأثرية
+Master beast tamer | سيد ترويض الوحوش
+Master formation adept | سيد التشكيلات
+Master spirit farmer | سيد زراعة الأرواح
+Master sword forger | سيد صنع السيوف
+Master talisman scribe | سيد كتابة التعاويذ
+Grandmaster artifact forger | أستاذ أعظم في صنع القطع الأثرية
+Grandmaster beast tamer | أستاذ أعظم في ترويض الوحوش
+Grandmaster formation adept | أستاذ أعظم في التشكيلات
+Grandmaster of puppets | أستاذ أعظم في الدمى
+Grandmaster spirit farmer | أستاذ أعظم في زراعة الأرواح
+Grandmaster talisman scribe | أستاذ أعظم في كتابة التعاويذ
+Arrogant young master | السيد الشاب المتعجرف
+Arrogant young miss | الآنسة الشابة المتعجرفة
+Appraiser's apprentice | متدرب المثمّن | pl=متدربو المثمّن | derived=pl
+Ark protective formation | تشكيل حماية الفلك
+Automated qi defense | دفاع التشي الآلي
+Bamboo straight bow | قوس الخيزران المستقيم
+Banquet round table | طاولة المأدبة المستديرة
+Beast garden child | طفل حديقة الوحوش | pl=أطفال حديقة الوحوش | enpl=Beast garden children | derived=pl
+Beast garden hand | عامل حديقة الوحوش | pl=عمال حديقة الوحوش | derived=pl
+Beast shepherd's arm | ذراع راعي الوحوش | pl=أذرع راعي الوحوش | derived=pl
+Beast tide orphan | يتيم مدّ الوحوش | pl=أيتام مدّ الوحوش | derived=pl
+Beast-horn compound bow | قوس مركّب من قرن الوحش
+Beast-raised child | طفل ربّاه الوحش
+Beast-tide walker | سائر مدّ الوحوش
+Twin-blade puppet | دمية النصلين التوأم
+Binding formation core | نواة تشكيل الربط | pl=نوى تشكيل الربط | derived=pl
+Black mountain jade | يشم الجبل الأسود
+Black shell skin | جلد القوقعة السوداء
+Black tortoise hatchling | فرخ السلحفاة السوداء | pl=فراخ السلحفاة السوداء
+Blazing Sun Art | فن الشمس الملتهبة
+Blood elder | شيخ الدم | pl=شيوخ الدم | derived=pl
+Blood essence pill | حبة جوهر الدم | pl=حبوب جوهر الدم | derived=pl
+Blood jade vein | عرق يشم الدم | pl=عروق يشم الدم | derived=pl
+Blood moon censer | مبخرة قمر الدم
+Blood Moon recruiter | مجنِّد قمر الدم
+Blood purification pill | حبة تنقية الدم | pl=حبوب تنقية الدم | derived=pl
+Blood qi | تشي الدم
+Blood qi backflow | ارتجاع تشي الدم
+Blood qi regeneration | تجدد تشي الدم
+Blood Refining | تنقية الدم
+Blood servant child | طفل خادم الدم | pl=أطفال خادم الدم | enpl=Blood servant children | derived=pl
+Blueprint keeper | حارس المخططات | pl=حراس المخططات | derived=pl
+Body tempering speed | سرعة صقل الجسد
+Body way | طريق الجسد
+Bone refining furnace | فرن تنقية العظام | pl=أفران تنقية العظام | derived=pl
+Breaker of machines | محطم الآلات
+Brew spirit wine | تخمير نبيذ الروح
+Brewing spirit wine | تخمير نبيذ الروح
+Bronze guardian puppet | دمية الوصي البرونزية
+Bronze skin body | جسد الجلد البرونزي
+Call pavilion escorts | استدعاء مرافقي الجناح
+Call tempered disciples | استدعاء التلاميذ المصقولين
+Cauldron fire strike | ضربة نار المرجل
+Cave-born child | طفل مولود في الكهف
+Celestial marble chunk | كتلة الرخام السماوي
+Celestial sword body | جسد السيف السماوي
+Cloud cotton plant | نبات قطن السحاب
+Cloud oxen | ثيران السحاب
+Cloud rock wall | جدار صخر السحاب | pl=جدران صخر السحاب | derived=pl
+Cloud stone blocks | كتل حجر السحاب
+Cloud tea | شاي السحاب
+Cloud tea bush | شجيرة شاي السحاب
+Cloud tea leaf | ورق شاي السحاب
+Cloud-step messenger | رسول خطوة السحاب
+Cold iron vein | عرق الحديد البارد | pl=عروق الحديد البارد | derived=pl
+Common spirit root | جذر الروح العادي
+Compressed qi bolt | صاعقة تشي مضغوطة
+Concentrated induction bolt | سهم حث مركّز
+Concentrated qi rifle | بندقية تشي مركّزة
+Cook sect banquet | طهي مأدبة الطائفة
+Core blade disciple | تلميذ نصل النواة | pl=تلاميذ نصل النواة | derived=pl
+Core tempered disciple | تلميذ مصقول أساسي
+Cultivator not cultivating | مزارع لا يمارس الزراعة
+Cure peach wood | معالجة خشب الخوخ
+Curing peach wood | معالجة خشب الخوخ
+Dantian mending elixir | إكسير إصلاح الدانتيان
+Dao grafting | تطعيم الداو
+Dao grafting altar | مذبح تطعيم الداو | pl=مذابح تطعيم الداو | derived=pl
+Dao heart amulet | تميمة قلب الداو | pl=تمائم قلب الداو | derived=pl
+Dao miner's arm | ذراع منقب الداو | pl=أذرع منقب الداو | derived=pl
+Divine farmer's arm | ذراع المزارع الإلهي | pl=أذرع المزارع الإلهي | derived=pl
+Dragon obsidian blocks | كتل سبج التنين
+Dragon obsidian tile | بلاط سبج التنين
+Dragon vitality | حيوية التنين
+Dragon-elephant might | قوة التنين والفيل
+Dreaming farm child | طفل المزرعة الحالمة | pl=أطفال المزرعة الحالمة | enpl=Dreaming farm children | derived=pl
+Elder robe | رداء الشيخ | pl=أردية الشيخ | derived=pl
+Elders' table cook | طباخ مائدة الشيوخ | pl=طباخو مائدة الشيوخ | derived=pl
+Elder of discipline | شيخ الانضباط
+Elder of souls | شيخ الأرواح
+Fake pill merchant | تاجر حبوب مزيف
+Fiery plumes | أعمدة نارية
+Fire crystal vein | عرق بلور النار | pl=عروق بلور النار | derived=pl
+Flame guardian | وصي اللهب
+Flame lotus petal | بتلة لوتس اللهب | pl=بتلات لوتس اللهب | derived=pl
+Flame lotus warmth | دفء لوتس اللهب
+Flight core | نواة الطيران | pl=نوى الطيران | derived=pl
+Formless blade | نصل بلا شكل | pl=نصال بلا شكل | derived=pl
+Formless Sword | السيف بلا شكل
+Foundation pill absorbed | امتصاص حبة التأسيس
+Fox-wedding child | طفل زفاف الثعلب | pl=أطفال زفاف الثعلب | enpl=Fox-wedding children | derived=pl
+Furnace flame body | جسد لهب الفرن
+Galactic steel vein | عرق الفولاذ المجري | pl=عروق الفولاذ المجري | derived=pl
+Golden Edge Scripture | كتاب الحافة الذهبية
+Golden marrow body | جسد النخاع الذهبي
+Gravity core mount | حامل نواة الجاذبية
+Guardian qi sword | سيف تشي الوصي | pl=سيوف تشي الوصي | derived=pl
+Guardian statue | تمثال الوصي | pl=تماثيل الوصي
+Guardian statue sword | سيف تمثال الوصي | pl=سيوف تمثال الوصي | derived=pl
+Gun staff | عصا البندقية | pl=عصي البندقية | derived=pl
+Herb terrace child | طفل شرفة الأعشاب | pl=أطفال شرفة الأعشاب | enpl=Herb terrace children | derived=pl
+Horn bow arrow | سهم قوس القرن | pl=سهام قوس القرن | derived=pl
+Hunt the guardian | اصطياد الوصي
+Illusion veil | حجاب الوهم
+Immortal jade body | جسد اليشم الخالد
+Induction bolt | سهم الحث
+Inner demon moon | قمر الشيطان الداخلي
+Inner tempered disciple | تلميذ مصقول داخلي
+Spirit-wood arm | ذراع خشب الروح | pl=أذرع خشب الروح | derived=pl
+Spirit-wood foot | قدم خشب الروح
+Spirit-wood hand | يد خشب الروح
+Spirit-wood leg | ساق خشب الروح | pl=سيقان خشب الروح | derived=pl
+Thousand-li eye | عين الألف لي
+Wind-hearing ear | أذن سماع الرياح
+Invisible thread merchant | تاجر الخيط الخفي | pl=تجار الخيط الخفي | derived=pl
+Invisible Thread Sect | طائفة الخيط الخفي
+Iron bones body | جسد العظام الحديدية
+Iron Calamity veteran | محارب كارثة الحديد المخضرم
+Iron Day child | طفل يوم الحديد | pl=أطفال يوم الحديد | enpl=Iron Day children | derived=pl
+Iron mountain strike | ضربة الجبل الحديدي
+Iron sword body | جسد السيف الحديدي
+Jade carver's table | طاولة نحّات اليشم | pl=طاولات نحّات اليشم | derived=pl
+Jade Hollow | جوف اليشم
+Jade guardian puppet | دمية الوصي اليشمية
+Jade needle caster | قاذف إبر اليشم
+Jade puppet strike | ضربة دمية اليشم
+Jade slip engraver | نقّاش ألواح اليشم
+Jade spider cocoon | شرنقة عنكبوت اليشم | pl=شرانق عنكبوت اليشم | derived=pl
+Jade spirit bamboo | خيزران روح اليشم
+Jade thread body | جسد خيط اليشم
+Jade threads | خيوط اليشم
+Jade weaver spider | عنكبوت نسّاج اليشم | pl=عناكب نسّاجة اليشم
+Keen senses | حواس حادة
+Lab-raised subject | شخص رُبّي في المختبر
+Late-bloomed villager | قروي متأخر النضج
+Lay apprentice | متدرب علماني
+Lend blade puppets | إعارة دمى النصال
+Lightning tiger cub | شبل نمر البرق | pl=أشبال نمر البرق
+Lined fur hood | قلنسوة فرو مبطنة
+Lunar blood body | جسد الدم القمري
+Mallet arm | ذراع المطرقة | pl=أذرع المطرقة | derived=pl
+Master's thread | خيط السيد | pl=خيوط السيد | derived=pl
+Masterwork blood blade | نصل الدم التحفة
+Masterwork puppeteer regalia | شارات محرك الدمى التحفة
+Masterwork spirit artifact | قطعة الروح الأثرية التحفة
+Max blood qi | الحد الأقصى لتشي الدم
+Minister alchemist | الخيميائي الوزير
+Moon jade vein | عرق يشم القمر | pl=عروق يشم القمر | derived=pl
+Mountain builder's arm | ذراع باني الجبال | pl=أذرع باني الجبال | derived=pl
+Mountain's shadow child | طفل ظل الجبل | pl=أطفال ظل الجبل | enpl=Mountain's shadow children | derived=pl
+Nanite enriched soil | تربة مخصبة بالنانيت
+Night market child | طفل السوق الليلي | pl=أطفال السوق الليلي | enpl=Night market children | derived=pl
+Night-market peddler | بائع السوق الليلي المتجول
+Nine fox tails | ذيول الثعلب التسعة
+Nine Nether Labyrinth | متاهة العوالم السفلية التسعة
+Nine Temperings | الصقلات التسع
+Nine temperings merchant | تاجر الصقلات التسع | pl=تجار الصقلات التسع | derived=pl
+Nine temperings settlement | مستوطنة الصقلات التسع
+Nine yang body | جسد اليانغ التسعة
+Nine-Heaven Daoist | داوي السماوات التسع
+Nine-nether spider | عنكبوت العالم السفلي التسعة | pl=عناكب العالم السفلي التسعة
+Nine-nether spiderling | صغير عنكبوت العالم السفلي التسعة | pl=صغار عنكبوت العالم السفلي التسعة
+Nine-turn fire body | جسد النار ذات الدورات التسع
+Nine-turns pill | حبة الدورات التسع | pl=حبوب الدورات التسع | derived=pl
+Nirvana | نيرفانا
+Old elder | شيخ عجوز
+Outer tempered disciple | تلميذ مصقول خارجي
+Peach wood sword | سيف خشب الخوخ | pl=سيوف خشب الخوخ | derived=pl
+Phoenix fire body | جسد نار العنقاء
+Phoenix-blood egg | بيضة دم العنقاء | pl=بيض دم العنقاء
+Phoenix-blood hen | دجاجة دم العنقاء | pl=دجاج دم العنقاء
+Pill hall runner | عدّاء قاعة الحبوب
+Puppet blueprint | مخطط الدمى
+Puppet heart thread | خيط قلب الدمية | pl=خيوط قلب الدمية | derived=pl
+Pure yang body | جسد اليانغ النقي
+Pure yin body | جسد الين النقي
+Qi compression cannon | مدفع ضغط التشي | pl=مدافع ضغط التشي | derived=pl
+Qi containment cannon | مدفع احتواء التشي | pl=مدافع احتواء التشي | derived=pl
+Qi gathering array | مصفوفة تجميع التشي
+Qi gathering formation | تشكيل تجميع التشي
+Qi gathering ring | خاتم تجميع التشي | pl=خواتم تجميع التشي | derived=pl
+Qi induction engineering | هندسة حث التشي
+Qi induction rifle | بندقية حث التشي | pl=بنادق حث التشي | derived=pl
+Qi induction turret | برج حث التشي | pl=أبراج حث التشي | derived=pl
+Qi induction weapons | أسلحة حث التشي
+Qi recovery pill | حبة استعادة التشي | pl=حبوب استعادة التشي | derived=pl
+Qi resonance | رنين التشي
+Qi spike trap | فخ أشواك التشي | pl=فخاخ أشواك التشي | derived=pl
+Qi vein well | بئر عروق التشي | pl=آبار عروق التشي | derived=pl
+Qi-tech exoskeleton | هيكل خارجي بتقنية التشي
+Qilin horn buds | براعم قرن الكيلين
+Range goatherd | راعي ماعز المراعي
+Realm seal pressure | ضغط ختم العالم
+Rift-crossed child | طفل عابر الصدع
+Rift-scrap scholar | عالم خردة الصدع
+Repeating crossbow bolt | سهم القوس المتكرر
+Repentant assassin | قاتل تائب
+Retired elder | شيخ متقاعد
+Rock garden | حديقة الصخور
+Rogue cultivators merchant | تاجر المزارعين المارقين | pl=تجار المزارعين المارقين | derived=pl
+Roof-tile floor | أرضية بلاط السقف
+Room qi concentration | تركيز التشي في الغرفة
+Rune crossbow | قوس الرونات
+Rune crossbow turret | برج قوس الرونات | pl=أبراج قوس الرونات | derived=pl
+Rune table | طاولة الرونات | pl=طاولات الرونات | derived=pl
+Runic battle robe | رداء المعركة الرونيّ
+Saber body | جسد السيف
+Saber intent | نية السيف
+Scripture pavilion shelf | رف جناح الكتب المقدسة | pl=رفوف جناح الكتب المقدسة | enpl=Scripture pavilion shelves | derived=pl
+Sealed demon lord | سيد الشياطين المختوم
+Secret realm gate | بوابة العالم السري | pl=بوابات العالم السري | derived=pl
+Sect double bed | سرير الطائفة المزدوج
+Sect kitchen cook | طباخ مطبخ الطائفة | pl=طباخو مطبخ الطائفة | derived=pl
+Sect servant child | طفل خادم الطائفة | pl=أطفال خادم الطائفة | enpl=Sect servant children | derived=pl
+Sect alchemist | خيميائي الطائفة | pl=خيميائيو الطائفة | derived=pl
+Sect artisan | حرفي الطائفة | pl=حرفيو الطائفة | derived=pl
+Seven-color sheep | أغنام الألوان السبعة
+Seven-color wool | صوف الألوان السبعة
+Shell keeper | حارس القوقعة | pl=حراس القوقعة | derived=pl
+Shell ridges | حواف القوقعة
+Shell skin | جلد القوقعة
+Shell engineer | مهندس القوقعة | pl=مهندسو القوقعة | derived=pl
+Shard of Jiuxiao | شظية جيوشياو
+Silent vow child | طفل النذر الصامت | pl=أطفال النذر الصامت | enpl=Silent vow children | derived=pl
+Silk thread body | جسد خيط الحرير
+Silk peddler | بائع الحرير المتجول
+Six fox tails | ذيول الثعلب الستة
+Sky stake | وتد السماء | pl=أوتاد السماء | derived=pl
+Sky-breath array | مصفوفة نفس السماء
+Sky-island deckhand | بحّار الجزيرة السماوية
+Smoothed celestial marble | رخام سماوي أملس
+Smoothed cloud stone | حجر سحاب أملس
+Smoothed dragon obsidian | سبج تنين أملس
+Smoothed granite rock | صخر غرانيت أملس
+Smoothed limestone rock | صخر حجر جيري أملس
+Smoothed sandstone rock | صخر حجر رملي أملس
+Smoothed slate rock | صخر أردواز أملس
+Smoothed vermilion stone | حجر زنجفر أملس
+Smoothed marble | رخام أملس
+Snow lotus petal | بتلة لوتس الثلج | pl=بتلات لوتس الثلج | derived=pl
+Solar gold sand | رمل الذهب الشمسي
+Solar gold vein | عرق الذهب الشمسي | pl=عروق الذهب الشمسي | derived=pl
+Soul elder | شيخ الروح | pl=شيوخ الروح | derived=pl
+Spirit beast blood | دم وحش الروح
+Spirit beast hunter | صياد وحوش الروح | pl=صيادو وحوش الروح
+Spirit beast products | منتجات وحش الروح
+Spirit beast tamer | مروّض وحش الروح | pl=مروّضو وحش الروح
+Spirit crystal vein | عرق بلور الروح | pl=عروق بلور الروح | derived=pl
+Spirit ginseng root | جذر جينسنغ الروح | pl=جذور جينسنغ الروح | derived=pl
+Spirit glowcap | قبعة الروح المتوهجة
+Spirit herb farmer | مزارع أعشاب الروح | pl=مزارعو أعشاب الروح | derived=pl
+Spirit jade dais | منصة يشم الروح
+Spirit Sense Sutra | سوترا حاسة الروح
+Spirit stone miner | منقب حجر الروح
+Spirit stone vein | عرق حجر الروح | pl=عروق حجر الروح | derived=pl
+Spirit wine jar | جرة نبيذ الروح | pl=جرار نبيذ الروح | derived=pl
+Spirit wood floor | أرضية خشب الروح
+Spirit-marked child | طفل موسوم بالروح
+Spinning spirit silk | غزل حرير الروح
+Spin spirit silk | غزل حرير الروح
+Spinning spirit thread | غزل خيط الروح
+Star sand | رمل النجوم
+Star-iron sword body | جسد سيف حديد النجوم
+Steel thread body | جسد خيط الفولاذ
+Stone sleep | نوم الحجر
+Stone-vein child | طفل عرق الحجر | pl=أطفال عرق الحجر | enpl=Stone-vein children | derived=pl
+Storm archivist | أمين أرشيف العاصفة
+Storm house ward | جناح بيت العاصفة
+Straight bow arrow | سهم القوس المستقيم | pl=سهام القوس المستقيم | derived=pl
+Sutra library guardian | وصي مكتبة السوترا
+Swift cloud step | خطوة السحاب السريعة
+Swift wind talisman | تعويذة الرياح السريعة
+Sword Heart Canon | قانون قلب السيف
+Sword qi sweep | اكتساح تشي السيف
+Sword saint hermit | ناسك قديس السيف | pl=نسّاك قديس السيف | derived=pl
+Temple gate child | طفل بوابة المعبد | pl=أطفال بوابة المعبد | enpl=Temple gate children | derived=pl
+Ten tribulations rock | صخرة المحن العشر
+Ten-thousand-year pine | صنوبر العشرة آلاف عام
+Tempering speech | خطاب الصقل
+Temper the body | صقل الجسد
+Tempering the body | صقل الجسد
+Thousand Strings | الخيوط الألف
+Thousand strings workshop | ورشة الخيوط الألف
+Thousand-li steed's leg | ساق جواد الألف لي | pl=سيقان جواد الألف لي | derived=pl
+Thousand-year cold iron | الحديد البارد المعمّر ألف عام
+Thread merchant | تاجر الخيوط | pl=تجار الخيوط | derived=pl
+Thread totem | طوطم الخيوط
+Thunder ballista turret | برج منجنيق الرعد | pl=أبراج منجنيق الرعد | derived=pl
+Turbid blood body | جسد الدم العكر
+Vajra Body Method | طريقة جسد الفاجرا
+Vermilion stone blocks | كتل حجر الزنجفر
+Vermilion stone tile | بلاط حجر الزنجفر
+Wandering cultivator merchant | تاجر المزارعين الجوّالين | pl=تجار المزارعين الجوّالين | derived=pl
+Wandering path | الطريق الجوّال
+War threads | خيوط الحرب
+Wind wolf fang | ناب ذئب الريح | pl=أنياب ذئب الريح | derived=pl
+Wind wolf pup | جرو ذئب الريح | pl=جراء ذئب الريح
+Wreck-field scavenger | جامع خردة حقل الحطام
+Xuanwu's shell | قوقعة شوانوو
+Zhuge repeating crossbow | قوس تشوغه المتكرر
+The cranes molt | الكراكي تبدّل ريشها
+Mule driver's child | طفل سائق البغل | pl=أطفال سائق البغل | enpl=Mule driver's children | derived=pl
+Pill peddler's child | طفل بائع الحبوب المتجول | pl=أطفال بائع الحبوب المتجول | enpl=Pill peddler's children | derived=pl
+Bladesmith | حدّاد النصال | pl=حدّادو النصال
+Smith | حدّاد | pl=حدّادون
+Beast tamer | مروّض الوحوش | pl=مروّضو الوحوش
+Mason work puppet | دمية عمل البنّاء | pl=دمى عمل البنّاء | derived=pl
+Blood Moon | قمر الدم

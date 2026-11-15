@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Arabic Auto Translation</name>
+	<author>mushussubabylon</author>
+	<packageId>mushussubabylon.arabicautotranslation</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+		<li>1.7</li>
+	</supportedVersions>
+	<modDependenciesByVersion>
+		<v1.7>
+			<li>
+				<packageId>brrainz.harmony</packageId>
+				<displayName>Harmony</displayName>
+				<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			</li>
+		</v1.7>
+	</modDependenciesByVersion>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>seohyeon.autotranslation</li>
+	</incompatibleWith>
+	<description>
+		يترجم هذا المود نصوص المودات الأخرى إلى اللغة العربية تلقائيا أثناء اللعب.
+		يعمل مع Yandex مجانا دون الحاجة إلى مفتاح، ويتحول إلى Google تلقائيا إذا تعذّر الوصول إلى Yandex.
+		يستخدم قاموسا لمصطلحات RimWorld ليبقى كل مصطلح مترجما بالطريقة نفسها في كل مكان.
+		يحفظ الترجمات لكل مود على حدة، فلا يترجم النص إلا مرة واحدة.
+		يضبط ظهور الحروف العربية واتجاه النص من اليمين إلى اليسار، ويحافظ على الكلمات الإنجليزية والأرقام والرموز داخل الجملة.
+		لا يعمل مع مود Auto Translation الأصلي، فلا تفعّل المودين معا.
+	</description>
+</ModMetaData>

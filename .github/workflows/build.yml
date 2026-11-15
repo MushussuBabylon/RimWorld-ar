@@ -1,0 +1,121 @@
+# The one and only build of this repo. It always produces dist/ArabicSupport.zip:
+#   - every Thursday 21:00 UTC (scheduled) it builds, publishes the GitHub release and uploads to NexusMods
+#   - "Run workflow" by hand builds the same zip; it is only published when "publish" is ticked,
+#     otherwise the zip is just kept as a downloadable test artifact of the run.
+
+name: Build ArabicSupport
+
+on:
+  schedule:
+    - cron: '0 21 * * 4'
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: 'Also publish ArabicSupport.zip to GitHub Releases and NexusMods (leave off for a test build)'
+        type: boolean
+        default: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6.4.0
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm install
+
+      # Data/ (Core + DLC) -> Mods/ArabicSupport/Languages/Arabic, plus About.xml and the Arabic Languages/ folders of every mod in Mods/
+      - name: Build ArabicSupport
+        run: npm run build
+
+      - name: Create ArabicSupport.zip
+        run: |
+          cd dist/ArabicSupport
+          zip -qr ../ArabicSupport.zip Mods
+          ls -lh ../ArabicSupport.zip
+
+      - name: Show ZIP contents
+        run: |
+          echo "Files per mod folder in ArabicSupport.zip:"
+          unzip -Z1 dist/ArabicSupport.zip | grep -v '/$' | cut -d/ -f1-2 | sort | uniq -c
+
+      - name: Upload ArabicSupport artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: ArabicSupport
+          path: dist/ArabicSupport.zip
+          if-no-files-found: error
+
+      - name: Get current date
+        if: ${{ github.event_name == 'schedule' || inputs.publish }}
+        id: date
+        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Delete existing release (if any)
+        if: ${{ github.event_name == 'schedule' || inputs.publish }}
+        run: |
+          gh release delete latest-release --yes || true
+          git push origin :refs/tags/latest-release || true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create updated release
+        if: ${{ github.event_name == 'schedule' || inputs.publish }}
+        run: |
+          cat > release-notes.md <<'NOTES'
+          ## تعريب ريمورلد — آخر تحديث: __DATE__
+
+          يأتي التعريب في ملف واحد باسم **ArabicSupport.zip**، ويحتوي على مودين:
+
+          1. **ArabicSupport**: يحمل ترجمة اللعبة الأساسية وجميع الإضافات (DLCs) بحروف متصلة، ويعرض النصوص العربية من الأعلى إلى الأسفل بطول طبيعي.
+          2. **Arabic AutoTranslation**: يترجم المودات الأخرى إلى العربية بالطريقة نفسها.
+
+          ---
+
+          ## 🚀 طريقة التثبيت (Installation)
+
+          1. **حمل ملف ArabicSupport.zip**
+          2. **فك ضغط الملف وألصقه داخل مجلد اللعبة الرئيسي (RimWorld)**، فيدخل المودان داخل مجلد Mods
+          3. **فعل مود ArabicSupport من قائمة المودات** (يتطلب مود Harmony)، وفعل **Arabic AutoTranslation** إذا أردت ترجمة المودات الأخرى
+          4. **اختر العربية من إعدادات اللغة**
+
+          > إذا ثبت نسخة قديمة من التعريب، فاحذف مجلد Arabic القديم من مجلدات Languages داخل مجلد Data في اللعبة قبل التثبيت لتجنب التكرار.
+
+          ### 1. نسخة Steam 🎮
+          المسار الافتراضي:
+          `C:\Program Files (x86)\Steam\steamapps\common\RimWorld\`
+
+          ### 2. نسخة GOG 📂
+          المسار الافتراضي:
+          `C:\GOG Games\RimWorld\`
+          NOTES
+          sed -i "s/__DATE__/${{ steps.date.outputs.DATE }}/" release-notes.md
+          gh release create latest-release \
+            --title "Arabic Translation — Updated ${{ steps.date.outputs.DATE }}" \
+            --notes-file release-notes.md \
+            dist/ArabicSupport.zip
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload ArabicSupport to NexusMods
+        if: ${{ github.event_name == 'schedule' || inputs.publish }}
+        uses: Nexus-Mods/upload-action@v1.0.0-beta.8
+        with:
+          api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+          file_id: 7773129
+          filename: dist/ArabicSupport.zip
+          version: ${{ steps.date.outputs.DATE }}
+          archive_existing_version: true

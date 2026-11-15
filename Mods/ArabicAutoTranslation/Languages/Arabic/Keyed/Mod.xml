@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <!-- EN: Arabic Auto Translation -->
+    <AT_Name>Arabic Auto Translation</AT_Name>
+
+    <!-- EN: Enable auto translation (default: On) -->
+    <AT_Setting_EnableAutoTranslation>تفعيل الترجمة التلقائية (الافتراضي: تشغيل)</AT_Setting_EnableAutoTranslation>
+    <!-- EN: When off, no network requests are made at all - only previously cached translations are applied. Useful when you are offline or want to stop translating. Fully applied after a game restart. -->
+    <AT_Setting_EnableAutoTranslation_Tooltip>عند الإيقاف لا يرسل التعديل أي طلبات عبر الشبكة إطلاقاً، ويكتفي بتطبيق الترجمات المخزنة مؤقتاً سابقاً. مفيد عند عدم توفر الاتصال بالإنترنت أو عند الرغبة في إيقاف الترجمة. يكتمل التطبيق بعد إعادة تشغيل اللعبة.</AT_Setting_EnableAutoTranslation_Tooltip>
+    <!-- EN: Only cached translations are used. -->
+    <AT_Setting_AutoTranslationOff>يقتصر العمل على الترجمات المخزنة مؤقتاً.</AT_Setting_AutoTranslationOff>
+    <!-- EN: Automatically translate newly added mods (default: On) -->
+    <AT_Setting_AutoTranslateNewMods>ترجمة التعديلات المضافة حديثاً تلقائياً (الافتراضي: تشغيل)</AT_Setting_AutoTranslateNewMods>
+    <!-- EN: When off, mods added after this point are excluded from translation by default. You can enable them manually in the Target Mods tab. -->
+    <AT_Setting_AutoTranslateNewMods_Tooltip>عند الإيقاف تستثنى التعديلات المضافة بعد هذه اللحظة من الترجمة افتراضياً. يمكنك تفعيلها يدوياً من تبويب التعديلات المستهدفة.</AT_Setting_AutoTranslateNewMods_Tooltip>
+    <!-- EN: Target language: Arabic (fixed) -->
+    <AT_Setting_TargetLanguageFixed>لغة الترجمة: العربية (ثابتة)</AT_Setting_TargetLanguageFixed>
+    <!-- EN: This mod translates into Arabic only. It does not matter which language the game itself is set to. -->
+    <AT_Setting_TargetLanguageFixed_Tooltip>يترجم هذا التعديل إلى اللغة العربية فقط، بغض النظر عن اللغة التي تستخدمها اللعبة نفسها.</AT_Setting_TargetLanguageFixed_Tooltip>
+
+    <!-- EN: Show original text on hover (default: Off): -->
+    <AT_Setting_ShowOriginal>إظهار النص الأصلي عند تمرير المؤشر (الافتراضي: إيقاف):</AT_Setting_ShowOriginal>
+    <!-- EN: When hovering over translated text, the original text will be displayed. Due to system limitations, this feature is not available for all translations. -->
+    <AT_Setting_ShowOriginal_Tooltip>عند تمرير المؤشر فوق النص المترجم يظهر النص الأصلي. بسبب قيود النظام، هذه الميزة غير متاحة لجميع الترجمات.</AT_Setting_ShowOriginal_Tooltip>
+    
+    <!-- EN: Enable language detection (default: On): -->
+    <AT_Setting_EnableLanguageDetection>تفعيل اكتشاف اللغة (الافتراضي: تشغيل):</AT_Setting_EnableLanguageDetection>
+    <!-- EN: Automatically detects if text is already in the target language and skips translation. This prevents re-translating content that's already in Korean/Japanese/Chinese etc. when stored in the English folder. Recommended to keep enabled. -->
+    <AT_Setting_EnableLanguageDetection_Tooltip>يكتشف تلقائياً ما إذا كان النص مكتوباً أصلاً بلغة الترجمة المستهدفة، فيتخطى ترجمته. يمنع ذلك إعادة ترجمة محتوى مكتوب مسبقاً بالكورية أو اليابانية أو الصينية وغيرها عند وجوده في مجلد اللغة الإنجليزية. يوصى بإبقاء هذا الخيار مفعلاً.</AT_Setting_EnableLanguageDetection_Tooltip>
+
+    <!-- EN: ::Translation Settings:: -->
+    <AT_Setting>::إعدادات الترجمة::</AT_Setting>
+    <!-- EN: Note: Changes to the settings below require a game restart -->
+    <AT_Setting_Note>ملاحظة: تتطلب التغييرات في الإعدادات أدناه إعادة تشغيل اللعبة</AT_Setting_Note>
+    <!-- EN: Select translation engine (default: Yandex): -->
+    <AT_Setting_SelectEngine>اختر محرك الترجمة (الافتراضي: Yandex):</AT_Setting_SelectEngine>
+    <!-- EN: Switch to Google automatically if the selected engine is blocked (default: On) -->
+    <AT_Setting_AutoFallback>التبديل إلى Google تلقائياً إذا تم حظر المحرك المحدد (الافتراضي: تشغيل)</AT_Setting_AutoFallback>
+    <!-- EN: When the selected engine keeps answering with access denied (HTTP 401/403), for example because the service blocks your network, the rest of this game session is translated with Google instead. Your chosen engine is not changed and is tried again the next time the game starts. While this is active, the texts are sent to Google. -->
+    <AT_Setting_AutoFallback_Tooltip>عندما يستمر المحرك المحدد في الرد برفض الوصول (HTTP 401/403)، مثلاً لأن الخدمة تحجب شبكتك، تتم ترجمة بقية جلسة اللعب هذه عبر Google بدلاً منه. لا يتغير المحرك الذي اخترته، وتتم تجربته من جديد عند تشغيل اللعبة في المرة القادمة. وأثناء عمل هذا الخيار يتم إرسال النصوص إلى Google.</AT_Setting_AutoFallback_Tooltip>
+    <!-- EN: {0} refused the requests, so {1} is being used for this session. -->
+    <AT_Setting_FallbackActive>رفض {0} الطلبات، لذلك يتم استخدام {1} في هذه الجلسة.</AT_Setting_FallbackActive>
+    <!-- EN: This translation engine requires an API key. -->
+    <AT_Setting_RequiresAPIKey>يتطلب محرك الترجمة هذا مفتاح API.</AT_Setting_RequiresAPIKey>
+    <!-- EN: To use multiple API keys in rotation, separate them with commas (,). -->
+    <AT_Setting_RequiresAPIKey_Tooltip>لاستخدام عدة مفاتيح API بالتناوب، افصل بينها بفواصل (,).</AT_Setting_RequiresAPIKey_Tooltip>
+    <!-- EN: Add '::TEST::' prefix to translations (for testing) -->
+    <AT_Setting_Test>إضافة البادئة '::TEST::' إلى الترجمات (للاختبار)</AT_Setting_Test>
+    <!-- EN: &lt;= Test translation -->
+    <AT_Setting_TestTranslation>&lt;= ترجمة تجريبية</AT_Setting_TestTranslation>
+    <!-- EN: This translator does not support your current language. Please select a different one. -->
+    <AT_Message_LanguageNotSupported>هذا المترجم لا يدعم لغتك الحالية. يرجى اختيار مترجم آخر.</AT_Message_LanguageNotSupported>
+    <!-- EN: Selected model:  -->
+    <AT_Setting_SelectModel>النموذج المحدد: </AT_Setting_SelectModel>
+    <!-- EN: NONE (Please select a model) -->
+    <AT_Setting_SelectModelNone>لا شيء (يرجى اختيار نموذج)</AT_Setting_SelectModelNone>
+    <!-- EN: No models found. Please verify your API key. -->
+    <AT_Setting_NoModelFound>لم يتم العثور على نماذج. يرجى التحقق من مفتاح API.</AT_Setting_NoModelFound>
+    <!-- EN: No models found. Please check your API key and base URL. -->
+    <AT_Message_NoModelsFound>لم يتم العثور على نماذج. يرجى التحقق من مفتاح API وعنوان URL الأساسي.</AT_Message_NoModelsFound>
+    <!-- EN: API Key: -->
+    <AT_Setting_APIKey>مفتاح API:</AT_Setting_APIKey>
+    <!-- EN: Model: -->
+    <AT_Setting_Model>النموذج:</AT_Setting_Model>
+    <!-- EN: Choose Model -->
+    <AT_ChooseModel>اختيار النموذج</AT_ChooseModel>
+    <!-- EN: Or enter a model name manually: -->
+    <AT_Setting_ManualModelEntry>أو أدخل اسم النموذج يدوياً:</AT_Setting_ManualModelEntry>
+    <!-- EN: Note: the official libretranslate.com instance now requires a paid API key (portal.libretranslate.com). Self-hosted instances need no key. -->
+    <AT_Setting_LibreTranslateKeyNotice>ملاحظة: يتطلب خادم libretranslate.com الرسمي الآن مفتاح API مدفوعاً (portal.libretranslate.com). لا تحتاج الخوادم المستضافة ذاتياً إلى مفتاح.</AT_Setting_LibreTranslateKeyNotice>
+    <!-- EN: This looks like a DeepL Free key (ends with ":fx"). Please select the "DeepL" translator instead of "DeepL Pro". -->
+    <AT_Setting_DeepLFreeKeyOnPro>يبدو أن هذا مفتاح DeepL Free (ينتهي بالنص ":fx"). يرجى اختيار المترجم "DeepL" بدلاً من "DeepL Pro".</AT_Setting_DeepLFreeKeyOnPro>
+    <!-- EN: This looks like a DeepL Pro key. Please select the "DeepL Pro" translator instead of "DeepL". -->
+    <AT_Setting_DeepLProKeyOnFree>يبدو أن هذا مفتاح DeepL Pro. يرجى اختيار المترجم "DeepL Pro" بدلاً من "DeepL".</AT_Setting_DeepLProKeyOnFree>
+    <!-- EN: Custom system prompt:  -->
+    <AT_Setting_CustomPrompt>تعليمات النظام المخصصة: </AT_Setting_CustomPrompt>
+    <!-- EN: Base URL:  -->
+    <AT_Setting_BaseURL>عنوان URL الأساسي: </AT_Setting_BaseURL>
+    <!-- EN: Custom base URL:  -->
+    <AT_Setting_CustomBaseURL>عنوان URL الأساسي المخصص: </AT_Setting_CustomBaseURL>
+    <!-- EN: Reset to Defaults -->
+    <AT_Setting_Reset>إعادة التعيين إلى الافتراضي</AT_Setting_Reset>
+
+    <!-- Claude Code CLI -->
+    <!-- EN: Uses the locally installed Claude Code CLI with its own login (subscription). No API key is required, but the CLI must be installed and logged in. -->
+    <AT_Setting_ClaudeCodeNotice>يستخدم واجهة Claude Code CLI المثبتة محلياً بتسجيل الدخول الخاص بها (الاشتراك). لا يلزم مفتاح API، ولكن يجب تثبيت CLI وتسجيل الدخول إليه.</AT_Setting_ClaudeCodeNotice>
+    <!-- EN: Path to the CLI executable (empty = "claude" on PATH): -->
+    <AT_Setting_ClaudeCodePath>مسار الملف التنفيذي لأداة CLI (فارغ = "claude" في PATH):</AT_Setting_ClaudeCodePath>
+
+    <!-- Cost tracking -->
+    <!-- EN: ::Cost Tracking:: -->
+    <AT_Setting_CostTracking>::تتبع التكلفة::</AT_Setting_CostTracking>
+    <!-- EN: Tokens used - input: {0}, output: {1} -->
+    <AT_Setting_UsageTokens>الرموز المستخدمة - الإدخال: {0}، الإخراج: {1}</AT_Setting_UsageTokens>
+    <!-- EN: Characters sent: {0} -->
+    <AT_Setting_UsageCharacters>الأحرف المرسلة: {0}</AT_Setting_UsageCharacters>
+    <!-- EN: Price per 1M input tokens (USD): -->
+    <AT_Setting_PriceInputPerMTokens>السعر لكل مليون رمز إدخال (دولار أمريكي):</AT_Setting_PriceInputPerMTokens>
+    <!-- EN: Price per 1M output tokens (USD): -->
+    <AT_Setting_PriceOutputPerMTokens>السعر لكل مليون رمز إخراج (دولار أمريكي):</AT_Setting_PriceOutputPerMTokens>
+    <!-- EN: Price per 1M characters (USD): -->
+    <AT_Setting_PricePerMChars>السعر لكل مليون حرف (دولار أمريكي):</AT_Setting_PricePerMChars>
+    <!-- EN: Estimated cost: ${0} -->
+    <AT_Setting_EstimatedCost>التكلفة التقديرية: ${0}</AT_Setting_EstimatedCost>
+    <!-- EN: Reset usage counters -->
+    <AT_Setting_ResetUsage>إعادة تعيين عدادات الاستخدام</AT_Setting_ResetUsage>
+    <!-- EN: Translator not found. Please check settings. -->
+    <AT_Setting_NoTranslatorError>لم يتم العثور على المترجم. يرجى التحقق من الإعدادات.</AT_Setting_NoTranslatorError>
+
+    <!-- EN: ::Miscellaneous:: -->
+    <AT_Setting_Misc>::متفرقات::</AT_Setting_Misc>
+    <!-- EN: Reset all Def caches (if some items are not translated) -->
+    <AT_Setting_ResetDefCache>إعادة تعيين جميع ذاكرات Def المؤقتة (إذا لم تترجم بعض العناصر)</AT_Setting_ResetDefCache>
+
+    <!-- EN: Translation is in progress. You can continue playing normally. -->
+    <AT_Status1>الترجمة قيد التنفيذ. يمكنك متابعة اللعب بشكل طبيعي.</AT_Status1>
+    <!-- EN: Translation complete! It's recommended to reset Def caches or restart the game for full application. -->
+    <AT_Status2>اكتملت الترجمة! يوصى بإعادة تعيين ذاكرات Def المؤقتة أو إعادة تشغيل اللعبة لتطبيقها بالكامل.</AT_Status2>
+    <!-- EN: Translation complete! -->
+    <AT_Status3>اكتملت الترجمة!</AT_Status3>
+    <!-- EN: Paused - network unreachable. Will retry automatically. -->
+    <AT_Status_NetworkPaused>متوقف مؤقتاً - الشبكة غير متاحة. ستتم إعادة المحاولة تلقائياً.</AT_Status_NetworkPaused>
+    <!-- EN: Arabic Auto Translation: network unreachable - translation paused. Will retry automatically. -->
+    <AT_Message_NetworkPaused>Arabic Auto Translation: الشبكة غير متاحة - توقفت الترجمة مؤقتاً. ستتم إعادة المحاولة تلقائياً.</AT_Message_NetworkPaused>
+    <!-- EN: Arabic Auto Translation: network recovered - translation resumed. -->
+    <AT_Message_NetworkResumed>Arabic Auto Translation: عادت الشبكة - استؤنفت الترجمة.</AT_Message_NetworkResumed>
+    <!-- EN: Current status:  -->
+    <AT_Setting_CurStatus>الحالة الحالية: </AT_Setting_CurStatus>
+    <!-- EN: Cached translations:  -->
+    <AT_Setting_Cached>الترجمات المخزنة مؤقتاً: </AT_Setting_Cached>
+    <!-- EN: Remaining translations:  -->
+    <AT_Setting_NotYet>الترجمات المتبقية: </AT_Setting_NotYet>
+    <!-- EN: Open translation cache folder -->
+    <AT_Setting_OpenDir>فتح مجلد الذاكرة المؤقتة للترجمة</AT_Setting_OpenDir>
+    <!-- EN: Select mods to translate (applied in real-time) -->
+    <AT_Setting_WhiteList>اختر التعديلات المراد ترجمتها (تطبق فوراً)</AT_Setting_WhiteList>
+    <!-- EN: Delete translation cache -->
+    <AT_Setting_ResetTranslationCache>حذف الذاكرة المؤقتة للترجمة</AT_Setting_ResetTranslationCache>
+    <!-- EN: Toggle all -->
+    <AT_Setting_ToggleAll>تبديل الكل</AT_Setting_ToggleAll>
+
+    <!-- EN: Retranslate -->
+    <AT_Setting_Retranslate>إعادة الترجمة</AT_Setting_Retranslate>
+    <!-- EN: Cannot retranslate while translation is in progress. -->
+    <AT_Message_RetranslateFailed>لا يمكن إعادة الترجمة أثناء تنفيذ الترجمة.</AT_Message_RetranslateFailed>
+    <!-- EN: {0} has been queued for retranslation. -->
+    <AT_Message_RetranslateSuccess>تمت إضافة {0} إلى قائمة إعادة الترجمة.</AT_Message_RetranslateSuccess>
+
+    <!-- EN: Def caches have been reset! -->
+    <AT_Message_ResetDefCache>تمت إعادة تعيين ذاكرات Def المؤقتة!</AT_Message_ResetDefCache>
+    <!-- EN: Translation cache deleted. Please restart the game to begin translation again. -->
+    <AT_Message_ResetTranslationCache>تم حذف الذاكرة المؤقتة للترجمة. يرجى إعادة تشغيل اللعبة لبدء الترجمة من جديد.</AT_Message_ResetTranslationCache>
+    <!-- EN: Translation is in progress and cannot be applied in real-time. Please retry after translation completes, or restart the game. -->
+    <AT_Message_WhiteList_Failed>الترجمة قيد التنفيذ ولا يمكن التطبيق فوراً. يرجى إعادة المحاولة بعد اكتمال الترجمة أو إعادة تشغيل اللعبة.</AT_Message_WhiteList_Failed>
+    <!-- EN: Test failed. You may have reached the API request limit, or your API key/model may be incorrect. -->
+    <AT_Message_TestFailed>فشل الاختبار. ربما بلغت حد طلبات API، أو أن مفتاح API أو النموذج غير صحيح.</AT_Message_TestFailed>
+    <!-- EN: Restart translation with current settings -->
+    <AT_Setting_RestartWork>إعادة بدء الترجمة بالإعدادات الحالية</AT_Setting_RestartWork>
+    <!-- EN: Restarting translation... (To completely redo, delete the cache first, then restart) -->
+    <AT_Message_RestartWork>جارٍ إعادة بدء الترجمة... (لإعادة الترجمة بالكامل، احذف الذاكرة المؤقتة أولاً ثم أعد التشغيل)</AT_Message_RestartWork>
+    <!-- EN: Restart failed. Please verify your API key and model. -->
+    <AT_Message_RestartFailed>فشلت إعادة البدء. يرجى التحقق من مفتاح API والنموذج.</AT_Message_RestartFailed>
+    <!-- EN: Failed to retrieve models. Please check your API key:  -->
+    <AT_Message_FailedToGetModels>فشل جلب النماذج. يرجى التحقق من مفتاح API: </AT_Message_FailedToGetModels>
+
+    <!-- Tab Names -->
+    <!-- EN: General -->
+    <AT_Tab_General>عام</AT_Tab_General>
+    <!-- EN: Translator -->
+    <AT_Tab_Translator>المترجم</AT_Tab_Translator>
+    <!-- EN: Target Mods (Legacy) -->
+    <AT_Tab_TargetMods>التعديلات المستهدفة (قديم)</AT_Tab_TargetMods>
+    <!-- EN: Translation Editor -->
+    <AT_Tab_TranslationEditor>محرر الترجمة</AT_Tab_TranslationEditor>
+    <!-- EN: Advanced -->
+    <AT_Tab_Advanced>متقدم</AT_Tab_Advanced>
+    
+    <!-- Advanced Settings -->
+    <!-- EN: Maximum concurrent translations -->
+    <AT_Setting_MaxConcurrency>الحد الأقصى للترجمات المتزامنة</AT_Setting_MaxConcurrency>
+    <!-- EN: Enable Batch Translation -->
+    <AT_Setting_EnableBatchTranslation>تفعيل الترجمة الدفعية</AT_Setting_EnableBatchTranslation>
+    <!-- EN: Translate multiple texts in a single API call for better performance. Only available for AI model translators (GPT, Gemini, Claude, etc.). Can improve translation speed by 5-10x. -->
+    <AT_Setting_EnableBatchTranslation_Tooltip>ترجمة عدة نصوص في استدعاء API واحد لتحسين الأداء. متاح فقط لمترجمات نماذج الذكاء الاصطناعي (GPT، Gemini، Claude وغيرها). قد يزيد سرعة الترجمة من 5 إلى 10 أضعاف.</AT_Setting_EnableBatchTranslation_Tooltip>
+    <!-- EN: Batch Size (tokens) -->
+    <AT_Setting_BatchSize>حجم الدفعة (بالرموز)</AT_Setting_BatchSize>
+    <!-- EN: Number of tokens to collect before sending a batch request. Higher values = fewer API calls but slower individual responses. Recommended: 1500-3000. -->
+    <AT_Setting_BatchSize_Tooltip>عدد الرموز المراد تجميعها قبل إرسال طلب الدفعة. القيم الأعلى = عدد أقل من استدعاءات API ولكن استجابات فردية أبطأ. الموصى به: 1500-3000.</AT_Setting_BatchSize_Tooltip>
+    <!-- EN: Request timeout -->
+    <AT_Setting_RequestTimeout>مهلة الطلب</AT_Setting_RequestTimeout>
+    <!-- EN: How long to wait for one API response before giving up. Cloud APIs usually answer within 30s; local LLMs (LM Studio, Ollama) often need 120-300s, especially with large batch sizes. -->
+    <AT_Setting_RequestTimeout_Tooltip>مدة انتظار استجابة API واحدة قبل التخلي عنها. تستجيب واجهات API السحابية عادة خلال 30 ثانية؛ أما النماذج اللغوية المحلية (LM Studio، Ollama) فتحتاج غالباً إلى 120-300 ثانية، خاصة مع أحجام الدفعات الكبيرة.</AT_Setting_RequestTimeout_Tooltip>
+    <!-- EN: Translation Data Editor -->
+    <AT_Setting_TranslationEditor>محرر بيانات الترجمة</AT_Setting_TranslationEditor>
+    <!-- EN: Search... -->
+    <AT_Setting_Editor_Search>بحث...</AT_Setting_Editor_Search>
+    <!-- EN: Edit -->
+    <AT_Setting_Editor_Edit>تعديل</AT_Setting_Editor_Edit>
+    <!-- EN: Delete -->
+    <AT_Setting_Editor_Delete>حذف</AT_Setting_Editor_Delete>
+    <!-- EN: Original Text -->
+    <AT_Setting_Editor_OriginalText>النص الأصلي</AT_Setting_Editor_OriginalText>
+    <!-- EN: Translated Text -->
+    <AT_Setting_Editor_TranslatedText>النص المترجم</AT_Setting_Editor_TranslatedText>
+    <!-- EN: Lang -->
+    <AT_Setting_Editor_Language>اللغة</AT_Setting_Editor_Language>
+    <!-- EN: Actions -->
+    <AT_Setting_Editor_Actions>الإجراءات</AT_Setting_Editor_Actions>
+    <!-- EN: Save -->
+    <AT_Setting_Editor_Save>حفظ</AT_Setting_Editor_Save>
+    <!-- EN: Refresh -->
+    <AT_Setting_Editor_Refresh>تحديث</AT_Setting_Editor_Refresh>
+    <!-- EN: Translation list has been refreshed. -->
+    <AT_Setting_Editor_Refreshed>تم تحديث قائمة الترجمات.</AT_Setting_Editor_Refreshed>
+    <!-- EN: Expand All -->
+    <AT_Setting_Editor_ExpandAll>توسيع الكل</AT_Setting_Editor_ExpandAll>
+    <!-- EN: Collapse All -->
+    <AT_Setting_Editor_CollapseAll>طي الكل</AT_Setting_Editor_CollapseAll>
+    <!-- EN: Total -->
+    <AT_Setting_Editor_Total>الإجمالي</AT_Setting_Editor_Total>
+    <!-- EN: Changes will be applied after game restart. -->
+    <AT_Setting_Editor_RestartRequired>ستطبق التغييرات بعد إعادة تشغيل اللعبة.</AT_Setting_Editor_RestartRequired>
+    
+    <!-- Gist Sharing -->
+    <!-- EN: ::Translation Sharing (Gist):: -->
+    <AT_Gist_SectionTitle>::مشاركة الترجمة (Gist)::</AT_Gist_SectionTitle>
+    <!-- EN: Upload my translations -->
+    <AT_Gist_UploadButton>رفع ترجماتي</AT_Gist_UploadButton>
+    <!-- EN: Uploading... -->
+    <AT_Gist_Uploading>جارٍ الرفع...</AT_Gist_Uploading>
+    <!-- EN: Download shared translations (Gist URL or ID): -->
+    <AT_Gist_DownloadLabel>تنزيل الترجمات المشتركة (رابط Gist أو المعرف):</AT_Gist_DownloadLabel>
+    <!-- EN: Download -->
+    <AT_Gist_DownloadButton>تنزيل</AT_Gist_DownloadButton>
+    <!-- EN: Downloading... -->
+    <AT_Gist_Downloading>جارٍ التنزيل...</AT_Gist_Downloading>
+    <!-- EN: Translations uploaded successfully! -->
+    <AT_Gist_UploadSuccess>تم رفع الترجمات بنجاح!</AT_Gist_UploadSuccess>
+    <!-- EN: Upload failed -->
+    <AT_Gist_UploadFailed>فشل الرفع</AT_Gist_UploadFailed>
+    <!-- EN: URL copied to clipboard -->
+    <AT_Gist_CopiedToClipboard>تم نسخ الرابط إلى الحافظة</AT_Gist_CopiedToClipboard>
+    <!-- EN: Download failed -->
+    <AT_Gist_DownloadFailed>فشل التنزيل</AT_Gist_DownloadFailed>
+    <!-- EN: Shared Translation Info -->
+    <AT_Gist_PreviewTitle>معلومات الترجمة المشتركة</AT_Gist_PreviewTitle>
+    <!-- EN: Target language -->
+    <AT_Gist_TargetLanguage>اللغة المستهدفة</AT_Gist_TargetLanguage>
+    <!-- EN: Translator -->
+    <AT_Gist_Translator>المترجم</AT_Gist_Translator>
+    <!-- EN: Model -->
+    <AT_Gist_Model>النموذج</AT_Gist_Model>
+    <!-- EN: Date -->
+    <AT_Gist_Date>التاريخ</AT_Gist_Date>
+    <!-- EN: Translations -->
+    <AT_Gist_TranslationCount>الترجمات</AT_Gist_TranslationCount>
+    <!-- EN: Continue -->
+    <AT_Gist_Confirm>متابعة</AT_Gist_Confirm>
+    <!-- EN: Merge Shared Translations -->
+    <AT_Gist_MergeTitle>دمج الترجمات المشتركة</AT_Gist_MergeTitle>
+    <!-- EN: Entries that differ from your local translations -->
+    <AT_Gist_MergeInfo>العناصر المختلفة عن ترجماتك المحلية</AT_Gist_MergeInfo>
+    <!-- EN: Select all -->
+    <AT_Gist_SelectAll>تحديد الكل</AT_Gist_SelectAll>
+    <!-- EN: Deselect all -->
+    <AT_Gist_DeselectAll>إلغاء تحديد الكل</AT_Gist_DeselectAll>
+    <!-- EN: New entries only (keep mine) -->
+    <AT_Gist_SelectNewOnly>العناصر الجديدة فقط (الإبقاء على ترجماتي)</AT_Gist_SelectNewOnly>
+    <!-- EN: Merge selected -->
+    <AT_Gist_MergeSelected>دمج المحدد</AT_Gist_MergeSelected>
+    <!-- EN: No differences from your local translations. -->
+    <AT_Gist_NoDifferences>لا توجد اختلافات عن ترجماتك المحلية.</AT_Gist_NoDifferences>
+    <!-- EN: Key -->
+    <AT_Gist_Key>المفتاح</AT_Gist_Key>
+    <!-- EN: My translation -->
+    <AT_Gist_LocalTranslation>ترجمتي</AT_Gist_LocalTranslation>
+    <!-- EN: Shared translation -->
+    <AT_Gist_RemoteTranslation>الترجمة المشتركة</AT_Gist_RemoteTranslation>
+    <!-- EN: (new) -->
+    <AT_Gist_NewTranslation>(جديد)</AT_Gist_NewTranslation>
+    <!-- EN: Merge complete -->
+    <AT_Gist_MergeSuccess>اكتمل الدمج</AT_Gist_MergeSuccess>
+    <!-- EN: applied in-game -->
+    <AT_Gist_AppliedLive>طبقت داخل اللعبة</AT_Gist_AppliedLive>
+
+    <!-- Bulk Replace Dialog -->
+    <!-- EN: Bulk Replace -->
+    <AT_BulkReplace_Button>استبدال جماعي</AT_BulkReplace_Button>
+    <!-- EN: Bulk Replace Translations -->
+    <AT_BulkReplace_Title>استبدال الترجمات جماعياً</AT_BulkReplace_Title>
+    <!-- EN: Filter (Mod ID/Original Text) -->
+    <AT_BulkReplace_Filter>تصفية (معرف التعديل/النص الأصلي)</AT_BulkReplace_Filter>
+    <!-- EN: Filter entries by Mod ID or original text. Supports regex (e.g., "modA|modB" to match multiple mods) -->
+    <AT_BulkReplace_FilterTooltip>تصفية العناصر حسب معرف التعديل أو النص الأصلي. تدعم التعابير النمطية (regex)، مثلاً "modA|modB" لمطابقة عدة تعديلات</AT_BulkReplace_FilterTooltip>
+    <!-- EN: Find (in Translation) -->
+    <AT_BulkReplace_Find>بحث (في الترجمة)</AT_BulkReplace_Find>
+    <!-- EN: Pattern to find in translated text. Use regex for advanced matching (e.g., "ratkin|rat-kin") -->
+    <AT_BulkReplace_FindTooltip>النمط المراد البحث عنه في النص المترجم. استخدم التعابير النمطية للمطابقة المتقدمة (مثلاً "ratkin|rat-kin")</AT_BulkReplace_FindTooltip>
+    <!-- EN: Replace With -->
+    <AT_BulkReplace_Replace>استبدال بالنص</AT_BulkReplace_Replace>
+    <!-- EN: Text to replace matches with. Use $1, $2, etc. for regex capture groups -->
+    <AT_BulkReplace_ReplaceTooltip>النص الذي تستبدل به النتائج المطابقة. استخدم $1، $2 وغيرهما لمجموعات الالتقاط في التعابير النمطية</AT_BulkReplace_ReplaceTooltip>
+    <!-- EN: Use Regular Expression -->
+    <AT_BulkReplace_UseRegex>استخدام التعبير النمطي</AT_BulkReplace_UseRegex>
+    <!-- EN: Case Sensitive -->
+    <AT_BulkReplace_CaseSensitive>مطابقة حالة الأحرف</AT_BulkReplace_CaseSensitive>
+    <!-- EN: Preview Changes -->
+    <AT_BulkReplace_Preview>معاينة التغييرات</AT_BulkReplace_Preview>
+    <!-- EN: Preview Results -->
+    <AT_BulkReplace_PreviewResults>نتائج المعاينة</AT_BulkReplace_PreviewResults>
+    <!-- EN: No matches found. Adjust your filters and try again. -->
+    <AT_BulkReplace_NoMatches>لم يتم العثور على مطابقات. عدل عوامل التصفية وأعد المحاولة.</AT_BulkReplace_NoMatches>
+    <!-- EN: Replace All -->
+    <AT_BulkReplace_ReplaceAll>استبدال الكل</AT_BulkReplace_ReplaceAll>
+    <!-- EN: No changes to apply. -->
+    <AT_BulkReplace_NoChanges>لا توجد تغييرات لتطبيقها.</AT_BulkReplace_NoChanges>
+    <!-- EN: Bulk replace completed successfully! -->
+    <AT_BulkReplace_Success>اكتمل الاستبدال الجماعي بنجاح!</AT_BulkReplace_Success>
+    <!-- EN: Error occurred during bulk replace. Check logs for details. -->
+    <AT_BulkReplace_Error>حدث خطأ أثناء الاستبدال الجماعي. راجع السجلات للتفاصيل.</AT_BulkReplace_Error>
+
+    <!-- Arabic support -->
+    <!-- EN: Arabic -->
+    <AT_Tab_Arabic>العربية</AT_Tab_Arabic>
+    <!-- EN: Arabic text (shaping, right-to-left order, approved terminology) -->
+    <AT_Arabic_Title>النص العربي (ربط الحروف، ترتيب الاتجاه من اليمين إلى اليسار، المصطلحات المعتمدة)</AT_Arabic_Title>
+    <!-- EN: The Arabic support is off. Restart the game to start it. -->
+    <AT_Arabic_NotTarget>دعم العربية متوقف. أعد تشغيل اللعبة لبدء تشغيله.</AT_Arabic_NotTarget>
+    <!-- EN: Arabic is the target language but the Arabic support is not running yet. Restart the game to start it. (If it still does not start, see the log for "Arabic support could not be started".) -->
+    <AT_Arabic_RestartToActivate>العربية هي لغة الترجمة المستهدفة لكن دعم العربية لا يعمل بعد. أعد تشغيل اللعبة لبدء تشغيله. (إذا لم يبدأ بعد ذلك، راجع السجل بحثاً عن "Arabic support could not be started".)</AT_Arabic_RestartToActivate>
+    <!-- EN: Text mode -->
+    <AT_Arabic_RenderMode>وضع النص</AT_Arabic_RenderMode>
+    <!-- EN: How the finished Arabic text is stored and shown. The game's own text renderer neither joins Arabic letters nor reverses right-to-left text, so the default prepares both. Choose another mode only if another mod does the shaping when text is drawn. -->
+    <AT_Arabic_RenderMode_Tooltip>كيفية تخزين النص العربي النهائي وعرضه. لا يربط عارض النص في اللعبة الحروف العربية ولا يرتب النص من اليمين إلى اليسار، لذا يجهز الوضع الافتراضي الأمرين معاً. اختر وضعاً آخر فقط إذا كان تعديل آخر يتولى ربط الحروف عند رسم النص.</AT_Arabic_RenderMode_Tooltip>
+    <!-- EN: Shaped and reordered (game renderer) -->
+    <AT_Arabic_Mode0>ربط الحروف وإعادة الترتيب (عارض اللعبة)</AT_Arabic_Mode0>
+    <!-- EN: Shaped, typing order -->
+    <AT_Arabic_Mode1>ربط الحروف بترتيب الكتابة</AT_Arabic_Mode1>
+    <!-- EN: Plain logical text (another mod shapes) -->
+    <AT_Arabic_Mode2>نص منطقي عادي (تعديل آخر يتولى الربط)</AT_Arabic_Mode2>
+    <!-- EN: Letters are joined and the line is reordered for the game's left-to-right text renderer. This is the default for an unmodified game. -->
+    <AT_Arabic_ModeInfo0>تربط الحروف ويعاد ترتيب السطر ليناسب عارض النص في اللعبة من اليسار إلى اليمين. هذا هو الوضع الافتراضي للعبة غير المعدلة.</AT_Arabic_ModeInfo0>
+    <!-- EN: Letters are joined but kept in typing order, for a renderer that reorders lines itself but does not join letters. -->
+    <AT_Arabic_ModeInfo1>تربط الحروف مع الإبقاء على ترتيب الكتابة، لعارض يعيد ترتيب الأسطر بنفسه لكنه لا يربط الحروف.</AT_Arabic_ModeInfo1>
+    <!-- EN: No joining and no reordering: the text stays plain. Use it with a mod or a game version that shapes and reorders Arabic when text is drawn (otherwise the letters appear separated). -->
+    <AT_Arabic_ModeInfo2>بلا ربط وبلا إعادة ترتيب: يبقى النص عادياً. استخدمه مع تعديل أو إصدار من اللعبة يربط الحروف العربية ويرتبها عند رسم النص (وإلا ظهرت الحروف منفصلة).</AT_Arabic_ModeInfo2>
+    <!-- EN: Keep English words, numbers and placeholders intact -->
+    <AT_Arabic_LtrIsolates>الإبقاء على الكلمات الإنجليزية والأرقام والعناصر النائبة سليمة</AT_Arabic_LtrIsolates>
+    <!-- EN: Wraps embedded left-to-right runs (English words, numbers, {0}, [PAWN_nameDef]) in direction isolates so that the surrounding Arabic text cannot reorder them. -->
+    <AT_Arabic_LtrIsolates_Tooltip>يحيط المقاطع المضمنة من اليسار إلى اليمين (الكلمات الإنجليزية، الأرقام، {0}، [PAWN_nameDef]) بعوازل اتجاه حتى لا يعيد النص العربي المحيط ترتيبها.</AT_Arabic_LtrIsolates_Tooltip>
+    <!-- EN: The text mode changed: press the button to rebuild the stored translations. (They are also rebuilt automatically at the next start.) -->
+    <AT_Arabic_ApplyPending>تغير وضع النص: اضغط الزر لإعادة بناء الترجمات المخزنة. (تعاد بناؤها تلقائياً أيضاً عند التشغيل التالي.)</AT_Arabic_ApplyPending>
+    <!-- EN: Rebuild stored Arabic translations and apply them now -->
+    <AT_Arabic_Apply>إعادة بناء الترجمات العربية المخزنة وتطبيقها الآن</AT_Arabic_Apply>
+    <!-- EN: Arabic translations rebuilt: {0} changed. -->
+    <AT_Arabic_Applied>أعيد بناء الترجمات العربية: تم تغيير {0}.</AT_Arabic_Applied>
+    <!-- EN: Last cache check: {0} -->
+    <AT_Arabic_CacheReport>آخر فحص للذاكرة المؤقتة: {0}</AT_Arabic_CacheReport>
+    <!-- EN: Glossary in use: {0} -->
+    <AT_Arabic_GlossaryFile>مسرد المصطلحات المستخدم: {0}</AT_Arabic_GlossaryFile>
+    <!-- EN: To use your own glossary, place ArabicGlossary.txt here (it replaces the bundled one): {0} -->
+    <AT_Arabic_UserGlossary>لاستخدام مسرد مصطلحات خاص بك، ضع الملف ArabicGlossary.txt هنا (يحل محل المسرد المرفق): {0}</AT_Arabic_UserGlossary>
+    <!-- EN: The Arabic text was not accepted: {0} -->
+    <AT_Arabic_EditRejected>لم يقبل النص العربي: {0}</AT_Arabic_EditRejected>
+    <!-- EN: {0} Arabic translation(s) were not changed because the new text was not acceptable (see the log). -->
+    <AT_Arabic_BulkRejected>لم يتم تغيير {0} من الترجمات العربية لأن النص الجديد غير مقبول (راجع السجل).</AT_Arabic_BulkRejected>
+    <!-- EN: {0} Arabic translation(s) were not merged because the text was not acceptable (for example already shaped, or placeholders missing). -->
+    <AT_Arabic_MergeRejected>لم يتم دمج {0} من الترجمات العربية لأن النص غير مقبول (مثلاً أنه مربوط مسبقاً أو تنقصه عناصر نائبة).</AT_Arabic_MergeRejected>
+</LanguageData>

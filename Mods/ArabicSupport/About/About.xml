@@ -3,20 +3,64 @@
   <name>Arabic Support</name>
   <author>Mushussu Babylon</author>
   <packageId>mushussubabylon.arabicsupport</packageId>
-  <description>This mod fixes Arabic text in RimWorld:
+  <description>Makes Arabic text work properly in RimWorld.
 
-  - Wraps multi-line Arabic text based on actual pixel width instead of an estimated character count, so labels no longer overflow their boxes or wrap too early/late.
-  - Places harakat (fatha, tanween, shadda...) on top of their letter.
-  - Lets you type Arabic in text boxes: pawn and animal names, search boxes, rename dialogs. Letters are joined and ordered correctly while you type, and search boxes find Arabic words.
-  - Custom font: Cairo (Regular, Medium, SemiBold, Bold, ExtraBold, Black). Cairo Bold is used by default. Size and vertical position can be tuned per font size in Options > Mod settings > Arabic Support. 77 more Arabic font styles from 42 families (Tajawal, Almarai, Noto, IBM Plex, Amiri, Changa, Lalezar, Rubik and many more) are in the ExtraFonts folder of the mod's GitHub page: copy a .fontbundle file into this mod's Fonts folder to use it.
+  - Arabic lines wrap in the right order, and an English name inside an Arabic sentence stays on one line.
+  - Harakat (fatha, tanween, shadda...) sit on top of their letters.
+  - You can type Arabic in text boxes: colonist and animal names, search boxes and rename windows. Letters are joined and ordered correctly while you type, and search boxes find Arabic words.
+  - Ten bold Arabic fonts are included: Cairo Bold (the default), Almarai, El Messiri, IBM Plex Sans Arabic, Mada, Noto Kufi Arabic, Noto Sans Arabic, Rubik, Tajawal and Vazirmatn. Choose one in Options > Mod settings > Arabic Support, where you can also change the size, line wrapping and typing.
+  - 73 more font styles are in the FontLibrary folder of the mod's GitHub page.
 
-  All fonts are under the SIL Open Font License (see FontSources/Licenses).
+  All fonts are under the SIL Open Font License (see the Licenses folder).
 
-  Requires the Arabic Translation to be active in Language settings.</description>
+  Requires the Arabic translation to be active in Language settings.
+
+  ---
+
+  يجعل هذا المود النصوص العربية تعمل بشكل صحيح في RimWorld.
+
+  - تلتف الأسطر العربية بالترتيب الصحيح، ويبقى الاسم الإنجليزي داخل الجملة العربية على سطر واحد.
+  - توضع الحركات (الفتحة والتنوين والشدة وغيرها) فوق حروفها.
+  - يمكنك الكتابة بالعربية في مربعات النص: أسماء المستعمرين والحيوانات ومربعات البحث ونوافذ إعادة التسمية. تُربط الحروف وتُرتب بشكل صحيح أثناء الكتابة، وتعثر مربعات البحث على الكلمات العربية.
+  - يأتي المود بعشرة خطوط عربية عريضة: Cairo Bold (الافتراضي) وAlmarai وEl Messiri وIBM Plex Sans Arabic وMada وNoto Kufi Arabic وNoto Sans Arabic وRubik وTajawal وVazirmatn. اختر الخط من Options > Mod settings > Arabic Support، وفيها يمكنك أيضا تغيير الحجم والتفاف الأسطر والكتابة.
+  - تتوفر 73 نمطا إضافيا من الخطوط في مجلد FontLibrary على صفحة المود في GitHub.
+
+  جميع الخطوط مرخصة بموجب رخصة SIL Open Font License (انظر مجلد Licenses).
+
+  يتطلب المود تفعيل الترجمة العربية من إعدادات اللغة.</description>
+
+  <descriptionsByVersion>
+    <v1.7>Makes Arabic text work properly in RimWorld.
+
+  - Arabic lines wrap in the right order, and an English name inside an Arabic sentence stays on one line.
+  - Harakat (fatha, tanween, shadda...) sit on top of their letters.
+  - You can type Arabic in text boxes: colonist and animal names, search boxes and rename windows. Letters are joined and ordered correctly while you type, and search boxes find Arabic words.
+  - Ten bold Arabic fonts are included: Cairo Bold (the default), Almarai, El Messiri, IBM Plex Sans Arabic, Mada, Noto Kufi Arabic, Noto Sans Arabic, Rubik, Tajawal and Vazirmatn. Choose one in Options > Mod settings > Arabic Support, where you can also change the size, line wrapping and typing.
+  - 73 more font styles are in the FontLibrary folder of the mod's GitHub page. Your own .ttf and .otf font files work too.
+
+  All fonts are under the SIL Open Font License (see the Licenses folder).
+
+  Requires the Arabic translation to be active in Language settings.
+
+  ---
+
+  يجعل هذا المود النصوص العربية تعمل بشكل صحيح في RimWorld.
+
+  - تلتف الأسطر العربية بالترتيب الصحيح، ويبقى الاسم الإنجليزي داخل الجملة العربية على سطر واحد.
+  - توضع الحركات (الفتحة والتنوين والشدة وغيرها) فوق حروفها.
+  - يمكنك الكتابة بالعربية في مربعات النص: أسماء المستعمرين والحيوانات ومربعات البحث ونوافذ إعادة التسمية. تُربط الحروف وتُرتب بشكل صحيح أثناء الكتابة، وتعثر مربعات البحث على الكلمات العربية.
+  - يأتي المود بعشرة خطوط عربية عريضة: Cairo Bold (الافتراضي) وAlmarai وEl Messiri وIBM Plex Sans Arabic وMada وNoto Kufi Arabic وNoto Sans Arabic وRubik وTajawal وVazirmatn. اختر الخط من Options > Mod settings > Arabic Support، وفيها يمكنك أيضا تغيير الحجم والتفاف الأسطر والكتابة.
+  - تتوفر 73 نمطا إضافيا من الخطوط في مجلد FontLibrary على صفحة المود في GitHub. كما تعمل ملفات الخطوط الخاصة بك بامتداد ttf وotf.
+
+  جميع الخطوط مرخصة بموجب رخصة SIL Open Font License (انظر مجلد Licenses).
+
+  يتطلب المود تفعيل الترجمة العربية من إعدادات اللغة.</v1.7>
+  </descriptionsByVersion>
 
   <supportedVersions>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
 
   <modDependencies>
