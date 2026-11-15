@@ -94,17 +94,14 @@ function fixInvertedTags(text: string): string {
   return tokens.map(t => t.value).join('');
 }
 
-export interface ProcessOptions {
-  wrapLength: number;
-  applyRtlFix: boolean;
-  applyWordWrap: boolean;
-}
-
 // ---------------------------------------------------------------------------
 // Visual-order helpers
 // ---------------------------------------------------------------------------
 
 const RTL_REGEX = /[\u0600-\u06FF\u0590-\u05FF\uFE70-\uFEFF\uFB50-\uFDFF]/;
+
+/** True when the text has any Arabic / Hebrew letter. Files without one need no processing at all. */
+export const hasRtl = (text: string): boolean => RTL_REGEX.test(text);
 
 // Everything that must pass through the game untouched (variables, rule references, rich-text tags, ...).
 // Source kept as a string so it can be combined with SWITCH_SRC below (see buildPlaceholderRegex).
@@ -126,7 +123,7 @@ function buildPlaceholderRegex(withSwitches: boolean): RegExp {
   return new RegExp(withSwitches ? `${SWITCH_SRC}|${PLACEHOLDER_SRC_SWITCH_AWARE}` : PLACEHOLDER_SRC, 'g');
 }
 
-// Markers that stand in for a finished switch block while the line is word-wrapped / reordered.
+// Markers that stand in for a finished switch block while the line is reordered.
 // They are right-to-left letters (Thaana + Syriac, never used in game text) so that the block is ordered
 // like Arabic text next to other placeholders. The ordinary placeholder markers (U+E000..) are left-to-right,
 // which is right for names / numbers but would keep "[PAWN_nameDef] {PAWN_gender ? ..}" in the wrong order.
@@ -185,8 +182,13 @@ function switchToVisualOrder(block: string): string {
   return `{${head}${body.split(':').map(branchToVisualOrder).join(':')}}`;
 }
 
-export function processText(text: string, options: Partial<ProcessOptions> = {}): string {
-  const { wrapLength = 30, applyRtlFix = true, applyWordWrap = true } = options;
+/**
+ * Arabic reshaping + bidi-js for one piece of text (a Keyed / DefInjected value or a line of a .txt file).
+ *
+ * This is the only transformation the build applies. Lines without Arabic letters are returned unchanged.
+ * Placeholders, rich-text tags and gender/plural switches are protected while the line is reshaped and reordered.
+ */
+export function processText(text: string): string {
   if (!text || typeof text !== 'string') return text;
 
   // Split by \n or literal \n, keeping the delimiters
@@ -194,132 +196,65 @@ export function processText(text: string, options: Partial<ProcessOptions> = {})
 
   for (let i = 0; i < parts.length; i += 2) {
     let line = parts[i];
-    if (!line) continue;
+    if (!line || !RTL_REGEX.test(line)) continue;
 
-    const hasRtl = RTL_REGEX.test(line);
-
+    // "rule->text" prefix of RulePack entries stays exactly as written.
     let prefix = '';
-    if (hasRtl) {
-      const prefixRegex = /^([^\u0600-\u06FF\u0590-\u05FF\uFE70-\uFEFF\uFB50-\uFDFF]+?->)/;
-      const prefixMatch = line.match(prefixRegex);
-      if (prefixMatch) {
-        prefix = prefixMatch[1];
-        line = line.substring(prefix.length);
-      }
+    const prefixMatch = line.match(/^([^\u0600-\u06FF\u0590-\u05FF\uFE70-\uFEFF\uFB50-\uFDFF]+?->)/);
+    if (prefixMatch) {
+      prefix = prefixMatch[1];
+      line = line.substring(prefix.length);
     }
 
+    // 1) Arabic reshaping (letters get their joined forms)
+    const shaped = reshaper.convertArabic(line);
+
+    // 2) Protect everything the game replaces or interprets at runtime
     const tags: string[] = [];
-    let markerIndex = 0;
-    
-    let processedLine = applyRtlFix && hasRtl ? reshaper.convertArabic(line) : line;
-
-    const shouldWordWrap = applyWordWrap && wrapLength > 0 && hasRtl;
-
-    const needProcessing = (applyRtlFix && hasRtl) || shouldWordWrap;
-    
-    if (!needProcessing) {
-      parts[i] = prefix + processedLine;
-      continue;
-    }
-
-    // Switch blocks are only rewritten when the RTL fix is on; otherwise they stay plain placeholders.
-    const handleSwitches = applyRtlFix && hasRtl;
-    const freeSwitchMarkers = SWITCH_MARKER_POOL.filter(ch => !processedLine.includes(ch));
+    const freeSwitchMarkers = SWITCH_MARKER_POOL.filter(ch => !shaped.includes(ch));
     const switchBlocks = new Map<string, string>();
 
-    const lineWithMarkers = processedLine.replace(buildPlaceholderRegex(handleSwitches), (match) => {
-      if (handleSwitches && SWITCH_BLOCK.test(match) && freeSwitchMarkers.length > 0) {
+    const withMarkers = shaped.replace(buildPlaceholderRegex(true), (match) => {
+      if (SWITCH_BLOCK.test(match) && freeSwitchMarkers.length > 0) {
         const marker = freeSwitchMarkers.shift()!;
         switchBlocks.set(marker, switchToVisualOrder(match));
         return marker;
       }
       tags.push(match);
-      return String.fromCharCode(0xE000 + markerIndex++);
+      return String.fromCharCode(0xE000 + tags.length - 1);
     });
 
-    let wrappedLine = lineWithMarkers;
-    if (shouldWordWrap) {
-      const words = lineWithMarkers.split(/\s+/).filter(w => w.length > 0);
-      const wrappedLines: string[] = [];
-      let currentLine = '';
+    // 3) bidi-js (visual order)
+    let finalLine = toVisualOrder(withMarkers);
 
-      for (const word of words) {
-        if (currentLine.length + word.length + 1 > wrapLength) {
-          if (currentLine.length > 0) {
-            wrappedLines.push(currentLine);
-            currentLine = word;
-          } else {
-            wrappedLines.push(word);
-            currentLine = '';
-          }
-        } else {
-          if (currentLine.length > 0) {
-            currentLine += ' ';
-          }
-          currentLine += word;
-        }
-      }
-      if (currentLine.length > 0) {
-        wrappedLines.push(currentLine);
-      }
-      wrappedLine = wrappedLines.join('\n');
-    }
-
-    const subLines = wrappedLine.split('\n');
-    let reversedSubLines = subLines;
-
-    if (applyRtlFix && hasRtl) {
-      reversedSubLines = subLines.map(toVisualOrder);
-    }
-
-    let finalLine = reversedSubLines.join('\\n');
-
-    finalLine = finalLine.replace(/[\uE000-\uF8FF]/g, (match) => {
-      const index = match.charCodeAt(0) - 0xE000;
-      return tags[index];
-    });
+    // 4) Put the protected parts back
+    finalLine = finalLine.replace(/[\uE000-\uF8FF]/g, (match) => tags[match.charCodeAt(0) - 0xE000]);
     if (switchBlocks.size > 0) {
       finalLine = finalLine.replace(SWITCH_MARKER_CLASS, (m) => switchBlocks.get(m) ?? m);
     }
 
-    if (applyRtlFix && hasRtl) {
-      finalLine = fixInvertedTags(finalLine);
-    }
-    
-    parts[i] = prefix + finalLine;
+    // Reordering also reverses <b>...</b> style tag pairs: put them back in opening-before-closing order.
+    parts[i] = prefix + fixInvertedTags(finalLine);
   }
 
   return parts.join('');
 }
 
-export function processXml(xmlString: string, options: Partial<ProcessOptions> = {}): string {
-  const dictionaryFixes: Record<string, string> = {
-    'PickUpCount': '{1_labelShort} x{{0}} التقاط',
-    'GiveToPackAnimalCount': 'تحميل {1_labelShort} x{{0}} على حيوان الحمل',
-    'LoadIntoCaravanCount': '{1_labelShort} x{{0}} تحميل',
-    'CommandToggleAllowAutoRefuelDesc': 'يحدد هذا ما إذا كان المستعمرون سيعيدون تزويد هذا بالوقود تلقائيًا. إذا تم التمكين، سيملأ المستعمرون هذا حتى {0}.\n\nإعادة التزود بالوقود التلقائي حاليا {ONOFF}.',
-    'RemoveSliderText': '{{0}}x {0} إزالة',
-    'AlreadyLearned': 'لقد تعلم {USER_labelShort} بالفعل {1}',
-    'AbandonSliderText': '{{0}}x {0} تخلى',
-  };
+/** Runs processText on every text value of an XML translation file. Throws if the file is not well-formed XML. */
+export function processXml(xmlString: string): string {
+  const parseErrors: string[] = [];
+  const parser = new DOMParser({
+    errorHandler: {
+      // xmldom reports some real mistakes (e.g. a mismatched closing tag) only as warnings
+      warning: (msg: string) => { parseErrors.push(msg); },
+      error: (msg: string) => { parseErrors.push(msg); },
+      fatalError: (msg: string) => { parseErrors.push(msg); },
+    },
+  } as any);
+  const doc = parser.parseFromString(xmlString, 'application/xml');
 
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(xmlString, "application/xml");
-  
-  const parseError = doc.getElementsByTagName("parsererror");
-  if (parseError && parseError.length > 0) {
-    console.warn("XML parsing error, skipping file.");
-    return xmlString;
-  }
-
-  // Intercept the tags from dictionary
-  for (const [tag, fix] of Object.entries(dictionaryFixes)) {
-    const nodes = doc.getElementsByTagName(tag);
-    for (let i = 0; i < nodes.length; i++) {
-      if (nodes[i] && nodes[i].childNodes.length > 0) {
-        nodes[i].textContent = fix;
-      }
-    }
+  if (parseErrors.length > 0 || doc.getElementsByTagName('parsererror').length > 0 || !doc.documentElement) {
+    throw new Error(`XML is not well-formed: ${(parseErrors[0] || 'parser error').trim().replace(/\s+/g, ' ')}`);
   }
 
   function processLeafNodes(node: any) {
@@ -332,12 +267,11 @@ export function processXml(xmlString: string, options: Partial<ProcessOptions> =
         }
       }
       if (!hasElementChild && node.textContent) {
-        node.textContent = processText(node.textContent.trim(), options).trim();
+        node.textContent = processText(node.textContent.trim()).trim();
       }
     }
   }
   processLeafNodes(doc.documentElement);
 
-  const serializer = new XMLSerializer();
-  return serializer.serializeToString(doc);
+  return new XMLSerializer().serializeToString(doc);
 }
