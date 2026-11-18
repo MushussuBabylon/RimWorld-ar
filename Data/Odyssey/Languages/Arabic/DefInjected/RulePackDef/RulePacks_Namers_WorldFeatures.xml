@@ -22,10 +22,10 @@
     <li>terrain_word_f(p=0.3)->منطقة</li>
     <li>terrain_word_m(p=0.3)->حقل</li>
     <li>terrain_word_m(p=0.3)->امتداد</li>
-    <li>r_name(p=0.05)->ال[terrain_word_f] ال[color_f]</li>
-    <li>r_name(p=0.1)->ال[terrain_word_m] ال[color_m]</li>
-    <li>r_name(p=0.05)->ال[terrain_word_f] ال[nat_adj_f]</li>
-    <li>r_name(p=0.1)->ال[terrain_word_m] ال[nat_adj_m]</li>
+    <li>r_name(p=0.05)->الـ[terrain_word_f] الـ[color_f]</li>
+    <li>r_name(p=0.1)->الـ[terrain_word_m] الـ[color_m]</li>
+    <li>r_name(p=0.05)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
+    <li>r_name(p=0.1)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
     <li>r_name(p=0.256)->نهر [name_proper] الجليدي</li>
     <li>r_name(p=0.106)->نهر [name_common] جليدي</li>
     <li>r_name(p=0.128)->حقل [name_proper] الجليدي</li>
@@ -34,13 +34,13 @@
     <li>r_name(p=0.053)->غطاء [name_common] جليدي</li>
     <li>r_name(p=0.077)->سهل [name_proper] الجليدي</li>
     <li>r_name(p=0.032)->سهل [name_common] جليدي</li>
-    <li>r_name(p=0.133)->[terrain_word_m] [name_proper] ال[glacialPlain_adjective_m]</li>
+    <li>r_name(p=0.133)->[terrain_word_m] [name_proper] الـ[glacialPlain_adjective_m]</li>
     <li>glacialPlain_adjective_m(p=2)->جليدي</li>
     <li>glacialPlain_adjective_m->قارس</li>
     <li>glacialPlain_adjective_m->صقيعي</li>
     <li>glacialPlain_adjective_m->مهيب</li>
     <li>glacialPlain_adjective_m->متجمد</li>
-    <li>r_name(p=0.067)->[terrain_word_f] [name_proper] ال[glacialPlain_adjective_f]</li>
+    <li>r_name(p=0.067)->[terrain_word_f] [name_proper] الـ[glacialPlain_adjective_f]</li>
     <li>glacialPlain_adjective_f(p=2)->جليدية</li>
     <li>glacialPlain_adjective_f->قارسة</li>
     <li>glacialPlain_adjective_f->صقيعية</li>
@@ -64,8 +64,8 @@
   <NamerGlowforest.rulePack.rulesStrings>
     <li>terrain_word(p=0.5)->[terrain_word_f]</li>
     <li>terrain_word_f(p=0.5)->غابة</li>
-    <li>r_name(p=0.15)->ال[terrain_word_f] ال[color_f]</li>
-    <li>r_name(p=0.15)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.15)->الـ[terrain_word_f] الـ[color_f]</li>
+    <li>r_name(p=0.15)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
     <li>r_name(p=0.318)->غابة [name_proper] المتوهجة</li>
     <li>r_name(p=0.132)->غابة [name_common] متوهجة</li>
     <li>r_name(p=0.106)->فراش [name_proper] الفطري</li>
@@ -76,7 +76,7 @@
     <li>r_name(p=0.044)->أراضي [name_common] مظلمة</li>
     <li>r_name(p=0.106)->غابة [name_proper] المظلمة</li>
     <li>r_name(p=0.044)->غابة [name_common] مظلمة</li>
-    <li>r_name(p=0.3)->[terrain_word_f] [name_proper] ال[glowForest_adjective_f]</li>
+    <li>r_name(p=0.3)->[terrain_word_f] [name_proper] الـ[glowForest_adjective_f]</li>
     <li>glowForest_adjective_f(p=2)->فطرية</li>
     <li>glowForest_adjective_f->مزهرة</li>
     <li>glowForest_adjective_f->مظلمة</li>
@@ -105,9 +105,9 @@
     <li>terrain_word_f(p=3)->سهول</li>
     <li>terrain_word_f->سافانا</li>
     <li>terrain_word_f->سهوب</li>
-    <li>r_name(p=0.15)->ال[terrain_word_f] ال[color_f]</li>
-    <li>r_name(p=0.15)->ال[terrain_word_f] ال[nat_adj_f]</li>
-    <li>r_name(p=0.3)->[terrain_word_f] [name_proper] ال[grasslands_adjective_f]</li>
+    <li>r_name(p=0.15)->الـ[terrain_word_f] الـ[color_f]</li>
+    <li>r_name(p=0.15)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
+    <li>r_name(p=0.3)->[terrain_word_f] [name_proper] الـ[grasslands_adjective_f]</li>
     <li>grasslands_adjective_f(p=2)->منبسطة</li>
     <li>grasslands_adjective_f->جافة</li>
     <li>grasslands_adjective_f->عاصفة</li>
@@ -142,17 +142,17 @@
     <li>terrain_word_m->صدع</li>
     <li>terrain_word_m->فرن</li>
     <li>terrain_word_m->جحيم</li>
-    <li>r_name(p=0.06)->ال[terrain_word_f] ال[color_f]</li>
-    <li>r_name(p=0.09)->ال[terrain_word_m] ال[color_m]</li>
-    <li>r_name(p=0.06)->ال[terrain_word_f] ال[nat_adj_f]</li>
-    <li>r_name(p=0.09)->ال[terrain_word_m] ال[nat_adj_m]</li>
-    <li>r_name(p=0.18)->[terrain_word_m] [name_proper] ال[lavaField_adjective_m]</li>
+    <li>r_name(p=0.06)->الـ[terrain_word_f] الـ[color_f]</li>
+    <li>r_name(p=0.09)->الـ[terrain_word_m] الـ[color_m]</li>
+    <li>r_name(p=0.06)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
+    <li>r_name(p=0.09)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>r_name(p=0.18)->[terrain_word_m] [name_proper] الـ[lavaField_adjective_m]</li>
     <li>lavaField_adjective_m(p=2)->بركاني</li>
     <li>lavaField_adjective_m->ناري</li>
     <li>lavaField_adjective_m->جهنمي</li>
     <li>lavaField_adjective_m->مشتعل</li>
     <li>lavaField_adjective_m->ملتهب</li>
-    <li>r_name(p=0.12)->[terrain_word_f] [name_proper] ال[lavaField_adjective_f]</li>
+    <li>r_name(p=0.12)->[terrain_word_f] [name_proper] الـ[lavaField_adjective_f]</li>
     <li>lavaField_adjective_f(p=2)->بركانية</li>
     <li>lavaField_adjective_f->نارية</li>
     <li>lavaField_adjective_f->جهنمية</li>
@@ -190,24 +190,24 @@
     <li>terrain_word_m->خراب</li>
     <li>terrain_word_m->قفر</li>
     <li>terrain_word_m->حصن</li>
-    <li>r_name(p=0.109)->ال[terrain_word_f] ال[color_f]</li>
-    <li>r_name(p=0.041)->ال[terrain_word_m] ال[color_m]</li>
-    <li>r_name(p=0.109)->ال[terrain_word_f] ال[nat_adj_f]</li>
-    <li>r_name(p=0.041)->ال[terrain_word_m] ال[nat_adj_m]</li>
+    <li>r_name(p=0.109)->الـ[terrain_word_f] الـ[color_f]</li>
+    <li>r_name(p=0.041)->الـ[terrain_word_m] الـ[color_m]</li>
+    <li>r_name(p=0.109)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
+    <li>r_name(p=0.041)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
     <li>r_name(p=0.046)->مبنى [name_proper] العملاق</li>
     <li>r_name(p=0.019)->مبنى [name_common] عملاق</li>
     <li>r_name(p=0.046)->أراضي [name_proper] القاحلة</li>
     <li>r_name(p=0.019)->أراضي [name_common] قاحلة</li>
     <li>r_name(p=0.046)->أراضي [name_proper] السامة</li>
     <li>r_name(p=0.019)->أراضي [name_common] سامة</li>
-    <li>r_name(p=0.055)->[terrain_word_m] [name_proper] ال[ruin_adjective_m]</li>
+    <li>r_name(p=0.055)->[terrain_word_m] [name_proper] الـ[ruin_adjective_m]</li>
     <li>ruin_adjective_m(p=2)->مدمر</li>
     <li>ruin_adjective_m->عتيق</li>
     <li>ruin_adjective_m->قديم</li>
     <li>ruin_adjective_m->محطم</li>
     <li>ruin_adjective_m->منكوب</li>
     <li>ruin_adjective_m->رمادي</li>
-    <li>r_name(p=0.145)->[terrain_word_f] [name_proper] ال[ruin_adjective_f]</li>
+    <li>r_name(p=0.145)->[terrain_word_f] [name_proper] الـ[ruin_adjective_f]</li>
     <li>ruin_adjective_f(p=2)->مدمرة</li>
     <li>ruin_adjective_f->عتيقة</li>
     <li>ruin_adjective_f->قديمة</li>
