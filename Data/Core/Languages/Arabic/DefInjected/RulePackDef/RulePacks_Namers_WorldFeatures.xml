@@ -24,10 +24,12 @@
     <li>terrain_word_f->سلسلة</li>
     <li>terrain_word_m(p=3)->أرخبيل</li>
     <li>terrain_word_m->أتول</li>
-    <li>r_name(p=0.112)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.037)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.112)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.037)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.112)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.037)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.112)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.037)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerArchipelago.rulePack.rulesStrings>
   
   <!-- EN:
@@ -51,10 +53,12 @@
     <li>terrain_word_f->قفار</li>
     <li>terrain_word_f->أجمة</li>
     <li>terrain_word_m->دغل</li>
-    <li>r_name(p=0.141)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.009)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.141)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.009)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.141)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.009)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.141)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.009)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -71,8 +75,9 @@
     <li>terrain_word_m->جون</li>
     <li>terrain_word_m->مرسى</li>
     <li>terrain_word_m->مرفأ</li>
-    <li>r_name(p=0.15)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.15)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.15)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.15)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
@@ -93,10 +98,12 @@
     <li>terrain_word_f->أجمة</li>
     <li>terrain_word_f->غيضة</li>
     <li>terrain_word_m->بستان</li>
-    <li>r_name(p=0.139)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.011)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.139)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.011)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.139)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.011)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.139)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.011)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerBorealForest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -133,11 +140,14 @@
     <li>terrain_word_f->قفار</li>
     <li>terrain_word_f->فلاة</li>
     <li>terrain_word_m->حوض</li>
-    <li>r_name(p=0.137)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.012)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.137)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.012)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
-    <li>r_name(p=0.4)->[terrain_word_f] [name_proper] الـ[desert_adjective]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.137)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.012)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.137)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.012)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
+    <li>r_name(p=0.4)->[terrain_word_f]&#10;[def_desert_adjective] [name_proper]</li>
+    <li>def_desert_adjective->الـ[desert_adjective]</li>
     <li>desert_adjective->مسطحة</li>
     <li>desert_adjective->بيضاء</li>
     <li>desert_adjective->لامتناهية</li>
@@ -167,10 +177,12 @@
     <li>terrain_word_f->أحراج</li>
     <li>terrain_word_f->أجمة</li>
     <li>terrain_word_m->بستان</li>
-    <li>r_name(p=0.133)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.017)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.133)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.017)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.133)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.017)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.133)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.017)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerForest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -193,10 +205,12 @@
     <li>terrain_word_m->امتداد</li>
     <li>terrain_word_m(p=0.3)->حقل</li>
     <li>terrain_word_m(p=0.3)->سهل</li>
-    <li>r_name(p=0.085)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.065)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.085)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.065)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.085)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.065)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.085)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.065)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerIceSheet.rulePack.rulesStrings>
   
   <!-- EN:
@@ -216,10 +230,12 @@
     <li>terrain_word_f->صخرة</li>
     <li>terrain_word_m->أتول</li>
     <li>terrain_word_m->رأس</li>
-    <li>r_name(p=0.117)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.033)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.117)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.033)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.117)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.033)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.117)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.033)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -239,10 +255,12 @@
     <li>terrain_word_m->حوض</li>
     <li>terrain_word_m->خزان</li>
     <li>terrain_word_m(p=0.5)->غدير</li>
-    <li>r_name(p=0.111)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.039)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.111)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.039)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.111)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.039)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.111)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.039)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
@@ -262,10 +280,12 @@
     <li>terrain_word_f->تلال</li>
     <li>terrain_word_f->جروف</li>
     <li>terrain_word_m(p=2)->جبل</li>
-    <li>r_name(p=0.12)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.03)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.12)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.03)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.12)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.03)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.12)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.03)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
@@ -292,9 +312,11 @@
     <li>terrain_word_m(p=6)->محيط</li>
     <li>terrain_word_m(p=3)->بحر</li>
     <li>terrain_word_m->امتداد</li>
-    <li>r_name(p=0.15)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.15)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
-    <li>r_name(p=0.4)->[terrain_word_m] [name_proper] الـ[ocean_adjective]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.15)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.15)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
+    <li>r_name(p=0.4)->[terrain_word_m]&#10;[def_ocean_adjective] [name_proper]</li>
+    <li>def_ocean_adjective->الـ[ocean_adjective]</li>
     <li>ocean_adjective->أزرق</li>
     <li>ocean_adjective->أبيض</li>
     <li>ocean_adjective->رمادي</li>
@@ -325,8 +347,9 @@
     <li>terrain_word_m(p=3)->رأس</li>
     <li>terrain_word_m->نتوء</li>
     <li>terrain_word_m->قرن</li>
-    <li>r_name(p=0.15)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.15)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.15)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.15)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
@@ -339,8 +362,9 @@
     <li>terrain_word_m(p=6)->بحر</li>
     <li>terrain_word_m->لاغون</li>
     <li>terrain_word_m->محيط</li>
-    <li>r_name(p=0.15)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.15)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.15)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.15)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
@@ -373,12 +397,16 @@
     <li>terrain_word_m->حوض</li>
     <li>terrain_word_m->بايو</li>
     <li>terrain_word_m->هور</li>
-    <li>r_name(p=0.037)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.112)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.037)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.112)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
-    <li>r_name(p=0.225)->[terrain_word_m] [name_proper] الـ[swamp_adjective_m]</li>
-    <li>r_name(p=0.075)->[terrain_word_f] [name_proper] الـ[swamp_adjective_f]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.037)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.112)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.037)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.112)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
+    <li>r_name(p=0.225)->[terrain_word_m]&#10;[def_swamp_adjective_m] [name_proper]</li>
+    <li>r_name(p=0.075)->[terrain_word_f]&#10;[def_swamp_adjective_f] [name_proper]</li>
+    <li>def_swamp_adjective_m->الـ[swamp_adjective_m]</li>
+    <li>def_swamp_adjective_f->الـ[swamp_adjective_f]</li>
     <li>swamp_adjective_m->رطب</li>
     <li>swamp_adjective_m->بخاري</li>
     <li>swamp_adjective_m->خانق</li>
@@ -423,11 +451,14 @@
     <li>terrain_word_f->أحراج</li>
     <li>terrain_word_f->غيضة</li>
     <li>terrain_word_m->بستان</li>
-    <li>r_name(p=0.129)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.021)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.129)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.021)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
-    <li>r_name(p=0.3)->[terrain_word_f] [name_proper] الـ[rainforest_adjective]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.129)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.021)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.129)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.021)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
+    <li>r_name(p=0.3)->[terrain_word_f]&#10;[def_rainforest_adjective] [name_proper]</li>
+    <li>def_rainforest_adjective->الـ[rainforest_adjective]</li>
     <li>rainforest_adjective->رطبة</li>
     <li>rainforest_adjective->بخارية</li>
     <li>rainforest_adjective->خانقة</li>
@@ -435,8 +466,11 @@
     <li>rainforest_adjective->متشابكة</li>
     <li>rainforest_adjective->معترشة</li>
     <li>rainforest_adjective->شائكة</li>
-    <li>r_name(p=0.6)->غابة [name_proper] المطيرة</li>
-    <li>r_name(p=0.3)->غابة [name_common] مطيرة</li>
+    <li>rainforest_noun->غابة</li>
+    <li>rainforest_tag_proper->المطيرة</li>
+    <li>rainforest_tag_common->مطيرة</li>
+    <li>r_name(p=0.6)->[rainforest_noun]&#10;[rainforest_tag_proper] [name_proper]</li>
+    <li>r_name(p=0.3)->[rainforest_noun]&#10;[rainforest_tag_common] [name_common]</li>
   </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -466,10 +500,12 @@
     <li>terrain_word_f->سهوب</li>
     <li>terrain_word_m->امتداد</li>
     <li>terrain_word_m->دغل</li>
-    <li>r_name(p=0.134)->الـ[terrain_word_f] الـ[color_f]</li>
-    <li>r_name(p=0.016)->الـ[terrain_word_m] الـ[color_m]</li>
-    <li>r_name(p=0.134)->الـ[terrain_word_f] الـ[nat_adj_f]</li>
-    <li>r_name(p=0.016)->الـ[terrain_word_m] الـ[nat_adj_m]</li>
+    <li>def_terrain_f->الـ[terrain_word_f]</li>
+    <li>def_terrain_m->الـ[terrain_word_m]</li>
+    <li>r_name(p=0.134)->[def_terrain_f]&#10;[def_color_f]</li>
+    <li>r_name(p=0.016)->[def_terrain_m]&#10;[def_color_m]</li>
+    <li>r_name(p=0.134)->[def_terrain_f]&#10;[def_nat_adj_f]</li>
+    <li>r_name(p=0.016)->[def_terrain_m]&#10;[def_nat_adj_m]</li>
   </NamerTundra.rulePack.rulesStrings>
   
   <!-- EN:
@@ -534,8 +570,8 @@
     <li>story_result->fraud</li>
     -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
-    <li>r_name->[narrative_name] [terrain_word]</li>
-    <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
+    <li>r_name->[terrain_word]&#10;[narrative_name]</li>
+    <li>r_name(p=0.05)->[terrain_word]&#10;[storyname]</li>
     <li>narrative_name(p=24)->[name_proper]</li>
     <li>narrative_name(p=10)->[name_common]</li>
     <li>name_proper->[WordTribal]</li>
@@ -639,6 +675,10 @@
     <li>nat_adj_f->بعيدة</li>
     <li>nat_adj_f->ميتة</li>
     <li>nat_adj_f->صلبة</li>
+    <li>def_color_m->الـ[color_m]</li>
+    <li>def_color_f->الـ[color_f]</li>
+    <li>def_nat_adj_m->الـ[nat_adj_m]</li>
+    <li>def_nat_adj_f->الـ[nat_adj_f]</li>
   </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
 </LanguageData>
