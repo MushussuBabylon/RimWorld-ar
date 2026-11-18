@@ -12,19 +12,23 @@
     <li>terrain_word->islets</li>
     <li>terrain_word->points</li>
     <li>terrain_word->chain</li>
-  -->
+    -->
   <NamerArchipelago.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->جزيرة [narrative_name]</li>
-    <li>terrain_word(p=4)->جزر</li>
-    <li>terrain_word(p=3)->جزر</li>
-    <li>terrain_word(p=3)->أرخبيل</li>
-    <li>terrain_word->شعاب</li>
-    <li>terrain_word->جزيرة مرجانية</li>
-    <li>terrain_word->صخور</li>
-    <li>terrain_word->جزر صغيرة</li>
-    <li>terrain_word->رؤوس</li>
-    <li>terrain_word->سلسلة</li>
- </NamerArchipelago.rulePack.rulesStrings>
+    <li>terrain_word(p=12)->[terrain_word_f]</li>
+    <li>terrain_word(p=4)->[terrain_word_m]</li>
+    <li>terrain_word_f(p=7)->جزر</li>
+    <li>terrain_word_f->شعاب</li>
+    <li>terrain_word_f->صخور</li>
+    <li>terrain_word_f->جزيرات</li>
+    <li>terrain_word_f->رؤوس</li>
+    <li>terrain_word_f->سلسلة</li>
+    <li>terrain_word_m(p=3)->أرخبيل</li>
+    <li>terrain_word_m->أتول</li>
+    <li>r_name(p=0.112)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.037)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.112)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.037)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerArchipelago.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->shrubland</li>
@@ -35,17 +39,23 @@
     <li>terrain_word->bush</li>
     <li>terrain_word->brush</li>
     <li>terrain_word->barrens</li>
-  -->
+    -->
   <NamerAridShrubland.rulePack.rulesStrings>
-    <li>terrain_word(p=4)->أرض شجيرات</li>
-    <li>terrain_word(p=4)->أرض قمئية</li>
-    <li>terrain_word(p=2)->هضبة</li>
-    <li>terrain_word(p=2)->شجيرات</li>
-    <li>terrain_word->صحراء</li>
-    <li>terrain_word->دغل</li>
-    <li>terrain_word->أجمة</li>
-    <li>terrain_word->قفار</li>
- </NamerAridShrubland.rulePack.rulesStrings>
+    <li>terrain_word(p=15)->[terrain_word_f]</li>
+    <li>terrain_word->[terrain_word_m]</li>
+    <li>terrain_word_f(p=4)->سهوب</li>
+    <li>terrain_word_f(p=4)->أحراش</li>
+    <li>terrain_word_f(p=2)->هضبة</li>
+    <li>terrain_word_f(p=2)->شجيرات</li>
+    <li>terrain_word_f->صحراء</li>
+    <li>terrain_word_f->قفار</li>
+    <li>terrain_word_f->أجمة</li>
+    <li>terrain_word_m->دغل</li>
+    <li>r_name(p=0.141)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.009)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.141)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.009)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->gulf of [narrative_name]</li>
@@ -54,15 +64,16 @@
     <li>terrain_word->gulf</li>
     <li>terrain_word->anchorage</li>
     <li>terrain_word->cove</li>
-  -->
+    -->
   <NamerBay.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->خليج [narrative_name]</li>
-    <li>terrain_word(p=6)->خليج</li>
-    <li>terrain_word->خليج صغير</li>
-    <li>terrain_word->خليج</li>
-    <li>terrain_word->مرسى</li>
-    <li>terrain_word->جون</li>
- </NamerBay.rulePack.rulesStrings>
+    <li>terrain_word(p=10)->[terrain_word_m]</li>
+    <li>terrain_word_m(p=7)->خليج</li>
+    <li>terrain_word_m->جون</li>
+    <li>terrain_word_m->مرسى</li>
+    <li>terrain_word_m->مرفأ</li>
+    <li>r_name(p=0.15)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.15)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
@@ -72,16 +83,21 @@
     <li>terrain_word->woods</li>
     <li>terrain_word->tangle</li>
     <li>terrain_word->thicket</li>
-  -->
+    -->
   <NamerBorealForest.rulePack.rulesStrings>
-    <li>terrain_word(p=6)->غابة</li>
-    <li>terrain_word(p=3)->تايغا</li>
-    <li>terrain_word->بستان</li>
-    <li>terrain_word->أرض حرجية</li>
-    <li>terrain_word->غابة</li>
-    <li>terrain_word->تشابك</li>
-    <li>terrain_word->أجمة</li>
- </NamerBorealForest.rulePack.rulesStrings>
+    <li>terrain_word(p=13)->[terrain_word_f]</li>
+    <li>terrain_word->[terrain_word_m]</li>
+    <li>terrain_word_f(p=6)->غابة</li>
+    <li>terrain_word_f(p=3)->تايغا</li>
+    <li>terrain_word_f(p=2)->أحراج</li>
+    <li>terrain_word_f->أجمة</li>
+    <li>terrain_word_f->غيضة</li>
+    <li>terrain_word_m->بستان</li>
+    <li>r_name(p=0.139)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.011)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.139)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.011)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerBorealForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
@@ -106,44 +122,56 @@
     <li>terrain_word->wastes</li>
     <li>terrain_word->wasteland</li>
     <li>terrain_word->barrens</li>
-  -->
+    -->
   <NamerDesert.rulePack.rulesStrings>
-    <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
+    <li>terrain_word(p=11)->[terrain_word_f]</li>
+    <li>terrain_word->[terrain_word_m]</li>
+    <li>terrain_word_f(p=6)->صحراء</li>
+    <li>terrain_word_f->هضبة</li>
+    <li>terrain_word_f->سهول</li>
+    <li>terrain_word_f->بيداء</li>
+    <li>terrain_word_f->قفار</li>
+    <li>terrain_word_f->فلاة</li>
+    <li>terrain_word_m->حوض</li>
+    <li>r_name(p=0.137)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.012)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.137)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.012)->ال[terrain_word_m] ال[nat_adj_m]</li>
+    <li>r_name(p=0.4)->[terrain_word_f] [name_proper] ال[desert_adjective]</li>
     <li>desert_adjective->مسطحة</li>
     <li>desert_adjective->بيضاء</li>
     <li>desert_adjective->لامتناهية</li>
     <li>desert_adjective->قاسية</li>
     <li>desert_adjective->جافة</li>
-    <li>desert_adjective->جافة</li>
+    <li>desert_adjective->عطشى</li>
     <li>desert_adjective->طويلة</li>
     <li>desert_adjective->محروقة بالشمس</li>
     <li>desert_adjective->مشمسة</li>
     <li>desert_adjective->مبهرة</li>
     <li>desert_adjective->حارة</li>
-    <li>desert_adjective->مليئة بالعرق</li>
+    <li>desert_adjective->متصببة عرقا</li>
     <li>desert_adjective->رملية</li>
     <li>desert_adjective->صخرية</li>
-    <li>terrain_word(p=6)->صحراء</li>
-    <li>terrain_word->هضبة</li>
-    <li>terrain_word->سهول</li>
-    <li>terrain_word->حوض</li>
-    <li>terrain_word->أراضي خراب</li>
-    <li>terrain_word->أرض قاحلة</li>
-    <li>terrain_word->قفار</li>
- </NamerDesert.rulePack.rulesStrings>
+  </NamerDesert.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
     <li>terrain_word->grove</li>
     <li>terrain_word->woodland</li>
     <li>terrain_word->thicket</li>
-  -->
+    -->
   <NamerForest.rulePack.rulesStrings>
-    <li>terrain_word(p=6)->غابة</li>
-    <li>terrain_word->بستان</li>
-    <li>terrain_word->أرض حرجية</li>
-    <li>terrain_word->أجمة</li>
- </NamerForest.rulePack.rulesStrings>
+    <li>terrain_word(p=8)->[terrain_word_f]</li>
+    <li>terrain_word->[terrain_word_m]</li>
+    <li>terrain_word_f(p=6)->غابة</li>
+    <li>terrain_word_f->أحراج</li>
+    <li>terrain_word_f->أجمة</li>
+    <li>terrain_word_m->بستان</li>
+    <li>r_name(p=0.133)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.017)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.133)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.017)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->sheet</li>
@@ -154,17 +182,22 @@
     <li>terrain_word(p=0.3)->field</li>
     <li>terrain_word(p=0.3)->stretch</li>
     <li>terrain_word(p=0.3)->tract</li>
-  -->
+    -->
   <NamerIceSheet.rulePack.rulesStrings>
-    <li>terrain_word->صفيحة</li>
-    <li>terrain_word->امتداد</li>
-    <li>terrain_word(p=0.5)->مساحة</li>
-    <li>terrain_word(p=0.3)->حقل</li>
-    <li>terrain_word(p=0.3)->امتداد</li>
-    <li>terrain_word(p=0.3)->حقل</li>
-    <li>terrain_word(p=0.3)->امتداد</li>
-    <li>terrain_word(p=0.3)->منطقة</li>
- </NamerIceSheet.rulePack.rulesStrings>
+    <li>terrain_word(p=2.1)->[terrain_word_f]</li>
+    <li>terrain_word(p=1.6)->[terrain_word_m]</li>
+    <li>terrain_word_f->صفيحة</li>
+    <li>terrain_word_f(p=0.5)->مساحة</li>
+    <li>terrain_word_f(p=0.3)->رقعة</li>
+    <li>terrain_word_f(p=0.3)->بقعة</li>
+    <li>terrain_word_m->امتداد</li>
+    <li>terrain_word_m(p=0.3)->حقل</li>
+    <li>terrain_word_m(p=0.3)->سهل</li>
+    <li>r_name(p=0.085)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.065)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.085)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.065)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerIceSheet.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->isle [narrative_name]</li>
@@ -175,17 +208,19 @@
     <li>terrain_word->rock</li>
     <li>terrain_word->islet</li>
     <li>terrain_word->point</li>
-  -->
+    -->
   <NamerIsland.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->جزيرة [narrative_name]</li>
-    <li>terrain_word(p=4)->جزيرة</li>
-    <li>terrain_word(p=2)->جزيرة</li>
-    <li>terrain_word->شعب</li>
-    <li>terrain_word->جزيرة مرجانية</li>
-    <li>terrain_word->صخرة</li>
-    <li>terrain_word->جزيرة صغيرة</li>
-    <li>terrain_word->رأس</li>
- </NamerIsland.rulePack.rulesStrings>
+    <li>terrain_word(p=7)->[terrain_word_f]</li>
+    <li>terrain_word(p=2)->[terrain_word_m]</li>
+    <li>terrain_word_f(p=6)->جزيرة</li>
+    <li>terrain_word_f->صخرة</li>
+    <li>terrain_word_m->أتول</li>
+    <li>terrain_word_m->رأس</li>
+    <li>r_name(p=0.117)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.033)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.117)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.033)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->lake [narrative_name]</li>
@@ -195,16 +230,20 @@
     <li>terrain_word->reservoir</li>
     <li>terrain_word(p=0.3)->puddle</li>
     <li>terrain_word(p=0.3)->loch</li>
-  -->
+    -->
   <NamerLake.rulePack.rulesStrings>
-    <li>r_name->بحيرة [narrative_name]</li>
-    <li>terrain_word(p=6)->بحيرة</li>
-    <li>terrain_word->بركة</li>
-    <li>terrain_word->حوض</li>
-    <li>terrain_word->خزان</li>
-    <li>terrain_word(p=0.3)->بركة صغيرة</li>
-    <li>terrain_word(p=0.3)->بحيرة</li>
- </NamerLake.rulePack.rulesStrings>
+    <li>terrain_word(p=7)->[terrain_word_f]</li>
+    <li>terrain_word(p=2.5)->[terrain_word_m]</li>
+    <li>terrain_word_f(p=6)->بحيرة</li>
+    <li>terrain_word_f->بركة</li>
+    <li>terrain_word_m->حوض</li>
+    <li>terrain_word_m->خزان</li>
+    <li>terrain_word_m(p=0.5)->غدير</li>
+    <li>r_name(p=0.111)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.039)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.111)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.039)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->mount [narrative_name]</li>
@@ -213,15 +252,21 @@
     <li>terrain_word->peaks</li>
     <li>terrain_word->hills</li>
     <li>terrain_word->cliffs</li>
-  -->
+    -->
   <NamerMountainRange.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->جبل [narrative_name]</li>
-    <li>terrain_word(p=5)->جبال</li>
-    <li>terrain_word(p=2)->سلسلة</li>
-    <li>terrain_word->قمم</li>
-    <li>terrain_word->تلال</li>
-    <li>terrain_word->جروف</li>
- </NamerMountainRange.rulePack.rulesStrings>
+    <li>terrain_word(p=8)->[terrain_word_f]</li>
+    <li>terrain_word(p=2)->[terrain_word_m]</li>
+    <li>terrain_word(p=2)->سلسلة جبال</li>
+    <li>terrain_word_f(p=5)->جبال</li>
+    <li>terrain_word_f->قمم</li>
+    <li>terrain_word_f->تلال</li>
+    <li>terrain_word_f->جروف</li>
+    <li>terrain_word_m(p=2)->جبل</li>
+    <li>r_name(p=0.12)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.03)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.12)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.03)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
@@ -241,26 +286,29 @@
     <li>terrain_word(p=6)->ocean</li>
     <li>terrain_word(p=3)->sea</li>
     <li>terrain_word->expanse</li>
-  -->
+    -->
   <NamerOcean.rulePack.rulesStrings>
-    <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
+    <li>terrain_word(p=10)->[terrain_word_m]</li>
+    <li>terrain_word_m(p=6)->محيط</li>
+    <li>terrain_word_m(p=3)->بحر</li>
+    <li>terrain_word_m->امتداد</li>
+    <li>r_name(p=0.15)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.15)->ال[terrain_word_m] ال[nat_adj_m]</li>
+    <li>r_name(p=0.4)->[terrain_word_m] [name_proper] ال[ocean_adjective]</li>
     <li>ocean_adjective->أزرق</li>
     <li>ocean_adjective->أبيض</li>
     <li>ocean_adjective->رمادي</li>
-    <li>ocean_adjective->صاف</li>
+    <li>ocean_adjective->صافي</li>
     <li>ocean_adjective->عاصف</li>
-    <li>ocean_adjective->عاصف</li>
+    <li>ocean_adjective->هائج</li>
     <li>ocean_adjective->هادئ</li>
     <li>ocean_adjective->واسع</li>
-    <li>ocean_adjective->لامتناه</li>
+    <li>ocean_adjective->لامتناهي</li>
     <li>ocean_adjective->مسطح</li>
     <li>ocean_adjective->ساكن</li>
     <li>ocean_adjective->متموج</li>
     <li>ocean_adjective->لطيف</li>
-    <li>terrain_word(p=6)->محيط</li>
-    <li>terrain_word(p=3)->بحر</li>
-    <li>terrain_word->امتداد</li>
- </NamerOcean.rulePack.rulesStrings>
+  </NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->point [narrative_name]</li>
@@ -270,27 +318,30 @@
     <li>terrain_word->cape</li>
     <li>terrain_word->headland</li>
     <li>terrain_word->horn</li>
-  -->
+    -->
   <NamerPeninsula.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->رأس [narrative_name]</li>
-    <li>r_name(p=0.2)->رأس [narrative_name]</li>
+    <li>terrain_word(p=5)->[terrain_word_m]</li>
     <li>terrain_word(p=5)->شبه جزيرة</li>
-    <li>terrain_word(p=2)->رأس</li>
-    <li>terrain_word->رأس</li>
-    <li>terrain_word->رأس أرضي</li>
-    <li>terrain_word->قرن</li>
- </NamerPeninsula.rulePack.rulesStrings>
+    <li>terrain_word_m(p=3)->رأس</li>
+    <li>terrain_word_m->نتوء</li>
+    <li>terrain_word_m->قرن</li>
+    <li>r_name(p=0.15)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.15)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->sea</li>
     <li>terrain_word->lagoon</li>
     <li>terrain_word->ocean</li>
-  -->
+    -->
   <NamerSea.rulePack.rulesStrings>
-    <li>terrain_word(p=6)->بحر</li>
-    <li>terrain_word->بحيرة شاطئية</li>
-    <li>terrain_word->محيط</li>
- </NamerSea.rulePack.rulesStrings>
+    <li>terrain_word(p=8)->[terrain_word_m]</li>
+    <li>terrain_word_m(p=6)->بحر</li>
+    <li>terrain_word_m->لاغون</li>
+    <li>terrain_word_m->محيط</li>
+    <li>r_name(p=0.15)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.15)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.1)->fen [narrative_name]</li>
@@ -311,27 +362,42 @@
     <li>terrain_word->bog</li>
     <li>terrain_word->marsh</li>
     <li>terrain_word->fen</li>
-  -->
+    -->
   <NamerSwamp.rulePack.rulesStrings>
-    <li>r_name(p=0.1)->مستنقع [narrative_name]</li>
-    <li>r_name(p=0.3)->[swamp_adjective] [narrative_name]</li>
-    <li>swamp_adjective->رطب</li>
-    <li>swamp_adjective->بخاري</li>
-    <li>swamp_adjective->خانق</li>
-    <li>swamp_adjective->متعفن</li>
-    <li>swamp_adjective->متعفن</li>
-    <li>swamp_adjective->مكسو بالنبات</li>
-    <li>swamp_adjective->متشابك</li>
-    <li>swamp_adjective->متسلق</li>
-    <li>swamp_adjective->شائك</li>
-    <li>terrain_word(p=6)->مستنقع</li>
-    <li>terrain_word->حوض</li>
-    <li>terrain_word->أراضي رطبة</li>
-    <li>terrain_word->بايو</li>
-    <li>terrain_word->مستنقع خثي</li>
-    <li>terrain_word->مستنقع عشبي</li>
-    <li>terrain_word->مستنقع</li>
- </NamerSwamp.rulePack.rulesStrings>
+    <li>terrain_word(p=3)->[terrain_word_f]</li>
+    <li>terrain_word(p=9)->[terrain_word_m]</li>
+    <li>terrain_word_f->أهوار</li>
+    <li>terrain_word_f->سبخة</li>
+    <li>terrain_word_f->مستنقعات</li>
+    <li>terrain_word_m(p=6)->مستنقع</li>
+    <li>terrain_word_m->حوض</li>
+    <li>terrain_word_m->بايو</li>
+    <li>terrain_word_m->هور</li>
+    <li>r_name(p=0.037)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.112)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.037)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.112)->ال[terrain_word_m] ال[nat_adj_m]</li>
+    <li>r_name(p=0.225)->[terrain_word_m] [name_proper] ال[swamp_adjective_m]</li>
+    <li>r_name(p=0.075)->[terrain_word_f] [name_proper] ال[swamp_adjective_f]</li>
+    <li>swamp_adjective_m->رطب</li>
+    <li>swamp_adjective_m->بخاري</li>
+    <li>swamp_adjective_m->خانق</li>
+    <li>swamp_adjective_m->متعفن</li>
+    <li>swamp_adjective_m->آسن</li>
+    <li>swamp_adjective_m->كثيف</li>
+    <li>swamp_adjective_m->متشابك</li>
+    <li>swamp_adjective_m->معترش</li>
+    <li>swamp_adjective_m->شائك</li>
+    <li>swamp_adjective_f->رطبة</li>
+    <li>swamp_adjective_f->بخارية</li>
+    <li>swamp_adjective_f->خانقة</li>
+    <li>swamp_adjective_f->متعفنة</li>
+    <li>swamp_adjective_f->آسنة</li>
+    <li>swamp_adjective_f->كثيفة</li>
+    <li>swamp_adjective_f->متشابكة</li>
+    <li>swamp_adjective_f->معترشة</li>
+    <li>swamp_adjective_f->شائكة</li>
+  </NamerSwamp.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
@@ -348,23 +414,30 @@
     <li>terrain_word->grove</li>
     <li>terrain_word->woodland</li>
     <li>terrain_word->tangle</li>
-  -->
+    -->
   <NamerTropicalRainforest.rulePack.rulesStrings>
-    <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
-    <li>rainforest_adjective->مطير</li>
-    <li>rainforest_adjective->بخاري</li>
-    <li>rainforest_adjective->خانق</li>
-    <li>rainforest_adjective->مكسو</li>
-    <li>rainforest_adjective->متشابك</li>
-    <li>rainforest_adjective->معترش</li>
-    <li>rainforest_adjective->شائك</li>
-    <li>terrain_word(p=6)->غابة مطيرة</li>
-    <li>terrain_word(p=3)->دغل</li>
-    <li>terrain_word->غابة</li>
-    <li>terrain_word->بستان</li>
-    <li>terrain_word->أرض حرجية</li>
-    <li>terrain_word->تشابك</li>
- </NamerTropicalRainforest.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->[terrain_word_f]</li>
+    <li>terrain_word->[terrain_word_m]</li>
+    <li>terrain_word_f(p=3)->أدغال</li>
+    <li>terrain_word_f->غابة</li>
+    <li>terrain_word_f->أحراج</li>
+    <li>terrain_word_f->غيضة</li>
+    <li>terrain_word_m->بستان</li>
+    <li>r_name(p=0.129)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.021)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.129)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.021)->ال[terrain_word_m] ال[nat_adj_m]</li>
+    <li>r_name(p=0.3)->[terrain_word_f] [name_proper] ال[rainforest_adjective]</li>
+    <li>rainforest_adjective->رطبة</li>
+    <li>rainforest_adjective->بخارية</li>
+    <li>rainforest_adjective->خانقة</li>
+    <li>rainforest_adjective->كثيفة</li>
+    <li>rainforest_adjective->متشابكة</li>
+    <li>rainforest_adjective->معترشة</li>
+    <li>rainforest_adjective->شائكة</li>
+    <li>r_name(p=0.6)->غابة [name_proper] المطيرة</li>
+    <li>r_name(p=0.3)->غابة [name_common] مطيرة</li>
+  </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->plateau</li>
@@ -379,21 +452,25 @@
     <li>terrain_word->expanse</li>
     <li>terrain_word->prairie</li>
     <li>terrain_word->flats</li>
-  -->
+    -->
   <NamerTundra.rulePack.rulesStrings>
-    <li>terrain_word(p=4)->هضبة</li>
-    <li>terrain_word(p=4)->قفار</li>
-    <li>terrain_word(p=2)->تايغا</li>
-    <li>terrain_word->شجيرات</li>
-    <li>terrain_word->أرض شجيرات</li>
-    <li>terrain_word->أرض قمئية</li>
-    <li>terrain_word->دغل</li>
-    <li>terrain_word->أجمة</li>
-    <li>terrain_word->قفار</li>
-    <li>terrain_word->امتداد</li>
-    <li>terrain_word->مروج</li>
-    <li>terrain_word->سهول</li>
- </NamerTundra.rulePack.rulesStrings>
+    <li>terrain_word(p=17)->[terrain_word_f]</li>
+    <li>terrain_word(p=2)->[terrain_word_m]</li>
+    <li>terrain_word_f(p=4)->هضبة</li>
+    <li>terrain_word_f(p=5)->قفار</li>
+    <li>terrain_word_f(p=2)->تايغا</li>
+    <li>terrain_word_f->شجيرات</li>
+    <li>terrain_word_f(p=2)->أحراش</li>
+    <li>terrain_word_f->مروج</li>
+    <li>terrain_word_f->سهول</li>
+    <li>terrain_word_f->سهوب</li>
+    <li>terrain_word_m->امتداد</li>
+    <li>terrain_word_m->دغل</li>
+    <li>r_name(p=0.134)->ال[terrain_word_f] ال[color_f]</li>
+    <li>r_name(p=0.016)->ال[terrain_word_m] ال[color_m]</li>
+    <li>r_name(p=0.134)->ال[terrain_word_f] ال[nat_adj_f]</li>
+    <li>r_name(p=0.016)->ال[terrain_word_m] ال[nat_adj_m]</li>
+  </NamerTundra.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[narrative_name] [terrain_word]</li>
@@ -455,67 +532,113 @@
     <li>story_result->deception</li>
     <li>story_result->facade</li>
     <li>story_result->fraud</li>
-  -->
+    -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
-    <li>r_name->[narrative_name] [terrain_word]</li>
-    <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
-    <li>narrative_name(p=12)->[WordTribal]</li>
-    <li>narrative_name(p=12)->[PlaceOutlander]</li>
-    <li>narrative_name->[Color][NaturalObject]</li>
-    <li>narrative_name->[AdjectiveNatural][BodyPart]</li>
-    <li>narrative_name->[Animal]</li>
-    <li>narrative_name->[Color]</li>
-    <li>narrative_name->[Color][Animal]</li>
-    <li>narrative_name->[AdjectiveNatural][Animal]</li>
-    <li>narrative_name->[Animal][BodyPart]</li>
-    <li>narrative_name->[Color] [Animal]</li>
-    <li>narrative_name->[AdjectiveNatural] [Animal]</li>
-    <li>narrative_name->[Animal] [BodyPart]</li>
-    <li>storyname(p=50)->[subject] [story_result]</li>
-    <li>storyname(p=2)->[subject] [BodyPart]</li>
-    <li>storyname->[subject] [Gore]</li>
-    <li>subject(p=5)->[NamePerson]</li>
+    <li>r_name->[terrain_word] [narrative_name]</li>
+    <li>r_name(p=0.05)->[terrain_word] [storyname]</li>
+    <li>narrative_name(p=24)->[name_proper]</li>
+    <li>narrative_name(p=10)->[name_common]</li>
+    <li>name_proper->[WordTribal]</li>
+    <li>name_proper->[PlaceOutlander]</li>
+    <li>name_common(p=4)->[Animal]</li>
+    <li>name_common(p=4)->[BodyPart] [Animal]</li>
+    <li>name_common(p=2)->[NaturalObject]</li>
+    <li>storyname(p=50)->[story_result] [subject]</li>
+    <li>storyname(p=2)->[BodyPart] [subject]</li>
+    <li>storyname->[Gore] [subject]</li>
+    <li>subject(p=5)->[WordTribal]</li>
     <li>subject->[Animal]</li>
-    <li>subject->[WordTribal]</li>
     <li>subject->[PlaceOutlander]</li>
     <li>story_result->حماقة</li>
     <li>story_result->رذيلة</li>
     <li>story_result->جنون</li>
     <li>story_result->خطأ</li>
-    <li>story_result->زلل</li>
-    <li>story_result->خطوة خاطئة</li>
+    <li>story_result->ذنب</li>
+    <li>story_result->هفوة</li>
     <li>story_result->وهم</li>
     <li>story_result->فرح</li>
     <li>story_result->بهجة</li>
-    <li>story_result->دهشة</li>
+    <li>story_result->أعجوبة</li>
     <li>story_result->فخر</li>
     <li>story_result->جوهرة</li>
     <li>story_result->جائزة</li>
-    <li>story_result->منحة</li>
+    <li>story_result->وفرة</li>
     <li>story_result->شرف</li>
-    <li>story_result->جائزة كبرى</li>
+    <li>story_result->ضربة حظ</li>
     <li>story_result->غنيمة</li>
     <li>story_result->غرور</li>
-    <li>story_result->تكبر</li>
-    <li>story_result->وقفة</li>
+    <li>story_result->كبرياء</li>
+    <li>story_result->صمود</li>
     <li>story_result->خسارة</li>
     <li>story_result->دين</li>
     <li>story_result->انهيار</li>
     <li>story_result->دمار</li>
     <li>story_result->كارثة</li>
     <li>story_result->خراب</li>
-    <li>story_result->تداع</li>
-    <li>story_result->نقض</li>
+    <li>story_result->هلاك</li>
+    <li>story_result->زوال</li>
     <li>story_result->سقوط</li>
     <li>story_result->نهاية</li>
     <li>story_result->تقاعد</li>
     <li>story_result->إنجاز</li>
     <li>story_result->ختام</li>
-    <li>story_result->خداع</li>
+    <li>story_result->خدعة</li>
     <li>story_result->حيلة</li>
     <li>story_result->خداع</li>
     <li>story_result->واجهة</li>
     <li>story_result->احتيال</li>
- </WorldFeatureNamerCommon.rulePack.rulesStrings>
+    <li>color_m->أحمر</li>
+    <li>color_m->أزرق</li>
+    <li>color_m->أخضر</li>
+    <li>color_m->أرجواني</li>
+    <li>color_m->أسود</li>
+    <li>color_m->أبيض</li>
+    <li>color_m->رمادي</li>
+    <li>color_m->برتقالي</li>
+    <li>color_f->حمراء</li>
+    <li>color_f->زرقاء</li>
+    <li>color_f->خضراء</li>
+    <li>color_f->أرجوانية</li>
+    <li>color_f->سوداء</li>
+    <li>color_f->بيضاء</li>
+    <li>color_f->رمادية</li>
+    <li>color_f->برتقالية</li>
+    <li>nat_adj_m->كبير</li>
+    <li>nat_adj_m->خشن</li>
+    <li>nat_adj_m->قاسي</li>
+    <li>nat_adj_m->طويل</li>
+    <li>nat_adj_m->حاد</li>
+    <li>nat_adj_m->وعر</li>
+    <li>nat_adj_m->حر</li>
+    <li>nat_adj_m->صغير</li>
+    <li>nat_adj_m->قديم</li>
+    <li>nat_adj_m->مستدير</li>
+    <li>nat_adj_m->غريب</li>
+    <li>nat_adj_m->حكيم</li>
+    <li>nat_adj_m->جليدي</li>
+    <li>nat_adj_m->سيئ</li>
+    <li>nat_adj_m->جيد</li>
+    <li>nat_adj_m->بعيد</li>
+    <li>nat_adj_m->ميت</li>
+    <li>nat_adj_m->صلب</li>
+    <li>nat_adj_f->كبيرة</li>
+    <li>nat_adj_f->خشنة</li>
+    <li>nat_adj_f->قاسية</li>
+    <li>nat_adj_f->طويلة</li>
+    <li>nat_adj_f->حادة</li>
+    <li>nat_adj_f->وعرة</li>
+    <li>nat_adj_f->حرة</li>
+    <li>nat_adj_f->صغيرة</li>
+    <li>nat_adj_f->قديمة</li>
+    <li>nat_adj_f->مستديرة</li>
+    <li>nat_adj_f->غريبة</li>
+    <li>nat_adj_f->حكيمة</li>
+    <li>nat_adj_f->جليدية</li>
+    <li>nat_adj_f->سيئة</li>
+    <li>nat_adj_f->جيدة</li>
+    <li>nat_adj_f->بعيدة</li>
+    <li>nat_adj_f->ميتة</li>
+    <li>nat_adj_f->صلبة</li>
+  </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
 </LanguageData>
