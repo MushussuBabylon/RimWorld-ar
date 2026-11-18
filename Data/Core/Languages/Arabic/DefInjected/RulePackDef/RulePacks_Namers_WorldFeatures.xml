@@ -534,18 +534,18 @@
     <li>story_result->fraud</li>
     -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
-    <li>r_name->[terrain_word] [narrative_name]</li>
-    <li>r_name(p=0.05)->[terrain_word] [storyname]</li>
+    <li>r_name->[narrative_name] [terrain_word]</li>
+    <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
     <li>narrative_name(p=24)->[name_proper]</li>
     <li>narrative_name(p=10)->[name_common]</li>
     <li>name_proper->[WordTribal]</li>
     <li>name_proper->[PlaceOutlander]</li>
     <li>name_common(p=4)->[Animal]</li>
-    <li>name_common(p=4)->[BodyPart] [Animal]</li>
+    <li>name_common(p=4)->[Animal] [BodyPart]</li>
     <li>name_common(p=2)->[NaturalObject]</li>
-    <li>storyname(p=50)->[story_result] [subject]</li>
-    <li>storyname(p=2)->[BodyPart] [subject]</li>
-    <li>storyname->[Gore] [subject]</li>
+    <li>storyname(p=50)->[subject] [story_result]</li>
+    <li>storyname(p=2)->[subject] [BodyPart]</li>
+    <li>storyname->[subject] [Gore]</li>
     <li>subject(p=5)->[WordTribal]</li>
     <li>subject->[Animal]</li>
     <li>subject->[PlaceOutlander]</li>
