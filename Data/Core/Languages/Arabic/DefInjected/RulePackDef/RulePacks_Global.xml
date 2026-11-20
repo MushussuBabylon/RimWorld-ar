@@ -132,29 +132,29 @@
   -->
   <GlobalUtility.rulePack.rulesStrings>
     <li>Trans->من</li>
-    <li>Trans->لـ</li>
+    <li>Trans->لأجل</li>
     <li>Trans->بواسطة</li>
     <li>Trans->مع</li>
     <li>Character(p=6)->[PersonJob]</li>
     <li>Character(p=4)->[Animal]</li>
     <li>Character(p=3)->[Enemy]</li>
     <li>Character->[Mechanoid]</li>
-    <li>Quantity_adjphrase->اثنان</li>
-    <li>Quantity_adjphrase->ثلاثة</li>
-    <li>Quantity_adjphrase->أربعة</li>
-    <li>Quantity_adjphrase->خمسة</li>
-    <li>Quantity_adjphrase->ستة</li>
-    <li>Quantity_adjphrase->سبعة</li>
-    <li>Quantity_adjphrase->ثمانية</li>
-    <li>Quantity_adjphrase->تسعة</li>
-    <li>Quantity_adjphrase->عشرة</li>
-    <li>Quantity_adjphrase->عدة</li>
-    <li>Quantity_adjphrase->مجموعة من</li>
-    <li>Quantity_adjphrase->مجموعة كبيرة من</li>
-    <li>Quantity_adjphrase->عشرات من</li>
-    <li>Quantity_adjphrase->مئات من</li>
-    <li>Quantity_adjphrase->ألف</li>
-    <li>Quantity_adjphrase->آلاف من</li>
+    <li>Quantity_adjphrase->اثنان من أمثال</li>
+    <li>Quantity_adjphrase->ثلاثة من أمثال</li>
+    <li>Quantity_adjphrase->أربعة من أمثال</li>
+    <li>Quantity_adjphrase->خمسة من أمثال</li>
+    <li>Quantity_adjphrase->ستة من أمثال</li>
+    <li>Quantity_adjphrase->سبعة من أمثال</li>
+    <li>Quantity_adjphrase->ثمانية من أمثال</li>
+    <li>Quantity_adjphrase->تسعة من أمثال</li>
+    <li>Quantity_adjphrase->عشرة من أمثال</li>
+    <li>Quantity_adjphrase->عدة من أمثال</li>
+    <li>Quantity_adjphrase->مجموعة من أمثال</li>
+    <li>Quantity_adjphrase->مجموعة كبيرة من أمثال</li>
+    <li>Quantity_adjphrase->عشرات من أمثال</li>
+    <li>Quantity_adjphrase->مئات من أمثال</li>
+    <li>Quantity_adjphrase->ألف من أمثال</li>
+    <li>Quantity_adjphrase->آلاف من أمثال</li>
     <li>Shape->مثلث</li>
     <li>Shape->مربع</li>
     <li>Shape->مستطيل</li>
@@ -236,31 +236,31 @@
     <li>TalkTopicHeavy(p=0.08)->العلاقة بين [talktopicheavyfile] و[talktopicheavyfile]</li>
     <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
     <li>TalkTopicLight->[Vegetable]</li>
-    <li>TalkTopicLight->أكل [Vegetable]s</li>
-    <li>TalkTopicLight->الطهي بـ[Vegetable]s</li>
+    <li>TalkTopicLight->أكل [Vegetable]</li>
+    <li>TalkTopicLight->الطهي بـ[Vegetable]</li>
     <li>TalkTopicLight->[Game]</li>
     <li>TalkTopicLight->لعب [Game]</li>
     <li>TalkTopicLight->ممارسة [Game]</li>
     <li>TalkTopicLight->تعلم [Game]</li>
     <li>TalkTopicLight->[Animal]</li>
-    <li>TalkTopicLight->تدريب [Animal]s</li>
-    <li>TalkTopicLight->ترويض [Animal]s</li>
-    <li>TalkTopicLight->مقاتلة [Animal]s</li>
-    <li>TalkTopicLight->[Animal]s مجنونة</li>
-    <li>TalkTopicLight->عصابة [Weapon]</li>
-    <li>TalkTopicLight->استخدام [Weapon]s</li>
-    <li>TalkTopicLight->التدرب على [Weapon]s</li>
+    <li>TalkTopicLight->تدريب [Animal]</li>
+    <li>TalkTopicLight->ترويض [Animal]</li>
+    <li>TalkTopicLight->مقاتلة [Animal]</li>
+    <li>TalkTopicLight->جنون [Animal]</li>
+    <li>TalkTopicLight->[Weapon]</li>
+    <li>TalkTopicLight->استخدام [Weapon]</li>
+    <li>TalkTopicLight->التدرب على [Weapon]</li>
     <li>TalkTopicLight->[TerrainFeature]</li>
     <li>TalkTopicLight->[NaturalObject]</li>
     <li>TalkTopicLight->أشجار [TreeType]</li>
     <li>TalkTopicLight->[PersonJob]</li>
-    <li>TalkTopicLight->[PersonJob]s ودودون</li>
-    <li>TalkTopicLight->[PersonJob]s معادون</li>
+    <li>TalkTopicLight->لطف [PersonJob]</li>
+    <li>TalkTopicLight->عدائية [PersonJob]</li>
     <li>TalkTopicLight->جماعة [Enemy]</li>
-    <li>TalkTopicLight->قتال [Enemy]s</li>
+    <li>TalkTopicLight->قتال [Enemy]</li>
     <li>TalkTopicLight->[Apparel]</li>
-    <li>TalkTopicLight->ارتداء [Apparel]s</li>
-    <li>TalkTopicLight->صنع [Apparel]s</li>
+    <li>TalkTopicLight->ارتداء [Apparel]</li>
+    <li>TalkTopicLight->صنع [Apparel]</li>
     <li>talktopicheavyfile(p=0.15)->جنس</li>
     <li>talktopicheavyfile(p=0.15)->إغراء</li>
     <li>talktopicheavyfile(p=0.15)->جنسانية حيوانية</li>

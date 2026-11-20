@@ -209,14 +209,14 @@
     <li>bookType->epic poem</li>
   -->
   <Description_Novel.rulePack.rulesStrings>
-    <li>desc->هذا [writingQualityAdjective] [bookType] [follows] [PersonJob] بينما [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
-    <li>desc->في [bookType] الـ[writingQualityAdjective] هذا، الـ[author] [tellsAStoryOf][storySource][ANYPAWN_possessive]. [writingQualitySentence]. [maybe_date]</li>
-    <li>follows->يتبع</li>
-    <li>follows->يغطي</li>
-    <li>follows->يروي قصة</li>
-    <li>follows->مكتوب من وجهة نظر</li>
+    <li>desc->هذه [bookType] [writingQualityAdjective] [follows] [PersonJob] بينما [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->هذه [bookType] [writingQualityAdjective]، حيث [author] [tellsAStoryOf] [storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>follows->تتبع</li>
+    <li>follows->تغطي</li>
+    <li>follows->تروي قصة</li>
+    <li>follows->مكتوبة من وجهة نظر</li>
     <li>protagHe->هو</li>
-    <li>protagHis->له</li>
+    <li>protagHis->ه</li>
     <li>protagHim->ه</li>
     <li>storyStruggles->[struggles] ضد [opponent]</li>
     <li>storyStruggles->[seeks] [seekObjective]</li>
@@ -228,12 +228,12 @@
     <li>opponent->[Enemy] خطير</li>
     <li>opponent->[PersonJob] منافس</li>
     <li>opponent->عبث [ConceptPositive]</li>
-    <li>opponent->[PersonFamily] [protagHis] الشرير</li>
-    <li>opponent->أعراف مجتمع [protagHis]</li>
+    <li>opponent->شرور [PersonFamily] البطل</li>
+    <li>opponent->أعراف مجتمع البطل</li>
     <li>seeks->يبحث عن</li>
     <li>seeks->يبحث في الكون عن</li>
     <li>seeks->يحاول العثور على</li>
-    <li>seeks->يبحث داخل [protagHim]self وعبر العالم ليجد</li>
+    <li>seeks->يبحث داخل نفسـ[protagHim] وعبر العالم ليجد</li>
     <li>seeks->يبحث بيأس عن</li>
     <li>seeks->يكافح للعثور على</li>
     <li>seeks->يجوب الأرض بحثاً عن</li>
@@ -243,21 +243,21 @@
     <li>seeks->يسعى بإصرار وراء</li>
     <li>seeks->يقلب كل حجر بحثاً عن</li>
     <li>seeks->يشرع في رحلة بحث عن</li>
-    <li>seeks->يمزق [protagHis] لحم وهو يبحث عن</li>
+    <li>seeks->يمزق لحمـ[protagHis] وهو يبحث عن</li>
     <li>seeks->يسعى لتحديد موقع</li>
     <li>seeks->يبحث بجد عن</li>
     <li>seeks->يتجول بحثاً عن</li>
     <li>seeks->يذهب في مهمة للعثور على</li>
     <li>seekObjective->مكعب ذهبي غامض</li>
-    <li>seekObjective->شيطان داخل رأس [protagHis]</li>
+    <li>seekObjective->شيطان داخل رأسـ[protagHis]</li>
     <li>seekObjective->ألذ [Vegetable] في الكون</li>
     <li>seekObjective->[Weapon] جديد لامع</li>
-    <li>seekObjective->حيوان [protagHis] الأليف الضائع</li>
+    <li>seekObjective->[Animal] أليف ضائع يخصـ[protagHim]</li>
     <li>seekObjective->أجزاء لإعادة بناء [Mechanoid] مدمر</li>
     <li>seekObjective->[TerrainFeature] رآه [protagHe] في المنام</li>
     <li>seekObjective->حب قديم</li>
     <li>seekObjective->إشباع عاطفي</li>
-    <li>seekObjective->كلية جديدة لتحل محل كلية [protagHis] المريضة</li>
+    <li>seekObjective->كلية جديدة لتحل محل كليتـ[protagHis] المريضة</li>
     <li>seekObjective->طعام في أرض قاحلة شاسعة</li>
     <li>seekObjective->دفء المنزل وأمانه</li>
     <li>seekObjective->حب في عالم مليء بالكراهية</li>
@@ -265,7 +265,7 @@
     <li>seekObjective->لعبة طفولة تركت خلفه</li>
     <li>seekObjective->إرث عائلي مسروق</li>
     <li>seekObjective->مذكرات معلم مفقودة</li>
-    <li>seekObjective->قطعة نادرة من سلسلة [protagHis] المفضلة</li>
+    <li>seekObjective->قطعة نادرة من سلسلتـ[protagHis] المفضلة</li>
     <li>seekObjective->المكان المثالي لنزهة</li>
     <li>seekObjective->قطعة مفقودة من مجموعة ثمينة</li>
     <li>seekObjective->اعتذار عن خطأ ماضٍ</li>
@@ -280,89 +280,89 @@
     <li>seekObjective->صديق قديم في مدينة جديدة</li>
     <li>seekObjective->إثارة هواية منسية</li>
     <li>seekObjective->لحظة واحدة من السعادة الخالصة</li>
-    <li>tellsAStoryOf->يروي حكاية عن</li>
-    <li>tellsAStoryOf->يخوض في التفاصيل حول</li>
-    <li>tellsAStoryOf->يستكشف قصة عن</li>
-    <li>tellsAStoryOf->يروي قصة عن</li>
-    <li>tellsAStoryOf->ينسج سرداً حول</li>
-    <li>tellsAStoryOf->يرسم صورة عن</li>
-    <li>tellsAStoryOf->يغوص في أعماق</li>
-    <li>tellsAStoryOf->يفك طلاسم حكاية</li>
-    <li>tellsAStoryOf->يكشف عن رحلة</li>
-    <li>tellsAStoryOf->يجسد جوهر</li>
-    <li>tellsAStoryOf->يسلط الضوء على</li>
-    <li>tellsAStoryOf->ينسج خيوط</li>
-    <li>tellsAStoryOf->يصوّر تجربة</li>
-    <li>tellsAStoryOf->يشرع في سرد</li>
-    <li>tellsAStoryOf->يصور قصة</li>
-    <li>tellsAStoryOf->يتطرق إلى حكاية</li>
-    <li>tellsAStoryOf->يقدم قصة</li>
-    <li>tellsAStoryOf->ينقل رحلة</li>
-    <li>tellsAStoryOf->يتعمق في قصة</li>
-    <li>tellsAStoryOf->يضيء سرد</li>
-    <li>tellsAStoryOf->يلتقط ملحمة</li>
-    <li>tellsAStoryOf->يرسم صورة حية عن</li>
-    <li>tellsAStoryOf->ينسج نسيج</li>
-    <li>tellsAStoryOf->يستكشف تأريخ</li>
-    <li>author->مؤلف</li>
-    <li>author->[authorTitle] [ANYPAWN_nameIndef]</li>
-    <li>author(p=2)->مجهول [authorTitle]</li>
-    <li>authorTitle->مؤلف</li>
-    <li>authorTitle->ناسخ</li>
-    <li>authorTitle->كاتب</li>
-    <li>authorTitle->شاعر</li>
-    <li>authorTitle->راوٍ</li>
-    <li>storySource->تجارب شخصية</li>
-    <li>storySource->الشباب</li>
-    <li>storySource->الطفولة</li>
-    <li>storySource->أمة</li>
-    <li>storySource->الكوكب الأم</li>
-    <li>storySource->جده</li>
-    <li>storySource->جدته</li>
-    <li>storySource->تجارب في الحرب</li>
-    <li>storySource->أعمق مخاوفه</li>
-    <li>storySource->أحلام السفر إلى النجوم</li>
-    <li>storySource->حب [Vegetable] الطازجة</li>
-    <li>storySource->وقته كـ[PersonJob]</li>
-    <li>storySource->[Weapon] المفضل</li>
-    <li>storySource->تجربة القتال ضد [Mechanoid]s</li>
-    <li>storySource->شبابه الذي قضاه في [Community]</li>
-    <li>storySource->[BodyPart] ضخم</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يروي حكاية عن : تروي حكاية عن}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يخوض في التفاصيل حول : تخوض في التفاصيل حول}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يستكشف قصة عن : تستكشف قصة عن}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يروي قصة عن : تروي قصة عن}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? ينسج سرداً حول : تنسج سرداً حول}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يرسم صورة عن : ترسم صورة عن}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يغوص في أعماق : تغوص في أعماق}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يفك طلاسم حكاية : تفك طلاسم حكاية}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يكشف عن رحلة : تكشف عن رحلة}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يجسد جوهر : تجسد جوهر}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يسلط الضوء على : تسلط الضوء على}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? ينسج خيوط : تنسج خيوط}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يصوّر تجربة : تصوّر تجربة}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يشرع في سرد : تشرع في سرد}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يصور قصة : تصور قصة}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يتطرق إلى حكاية : تتطرق إلى حكاية}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يقدم قصة : تقدم قصة}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? ينقل رحلة : تنقل رحلة}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يتعمق في قصة : تتعمق في قصة}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يضيء سرد : تضيء سرد}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يلتقط ملحمة : تلتقط ملحمة}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يرسم صورة حية عن : ترسم صورة حية عن}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? ينسج نسيج : تنسج نسيج}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يستكشف تأريخ : تستكشف تأريخ}</li>
+    <li>author->الـ[authorTitle]</li>
+    <li>author->الـ[authorTitle] [ANYPAWN_nameIndef]</li>
+    <li>author(p=2)->الـ[authorTitle] {ANYPAWN_gender ? المجهول : المجهولة}</li>
+    <li>authorTitle->{ANYPAWN_gender ? مؤلف : مؤلفة}</li>
+    <li>authorTitle->{ANYPAWN_gender ? ناسخ : ناسخة}</li>
+    <li>authorTitle->{ANYPAWN_gender ? كاتب : كاتبة}</li>
+    <li>authorTitle->{ANYPAWN_gender ? شاعر : شاعرة}</li>
+    <li>authorTitle->{ANYPAWN_gender ? راوٍ : راوية}</li>
+    <li>storySource->تجاربـ[ANYPAWN_possessive] الشخصية</li>
+    <li>storySource->شبابـ[ANYPAWN_possessive]</li>
+    <li>storySource->طفولتـ[ANYPAWN_possessive]</li>
+    <li>storySource->أمتـ[ANYPAWN_possessive]</li>
+    <li>storySource->كوكبـ[ANYPAWN_possessive] الأم</li>
+    <li>storySource->جد[ANYPAWN_possessive]</li>
+    <li>storySource->جدتـ[ANYPAWN_possessive]</li>
+    <li>storySource->تجاربـ[ANYPAWN_possessive] في الحرب</li>
+    <li>storySource->أعمق مخاوفـ[ANYPAWN_possessive]</li>
+    <li>storySource->أحلامـ[ANYPAWN_possessive] بالسفر إلى النجوم</li>
+    <li>storySource->حبـ[ANYPAWN_possessive] لـ[Vegetable] الطازج</li>
+    <li>storySource->وقتـ[ANYPAWN_possessive] كـ[PersonJob]</li>
+    <li>storySource->[Weapon] المفضل لديـ[ANYPAWN_objective]</li>
+    <li>storySource->تجربتـ[ANYPAWN_possessive] في القتال ضد [Mechanoid]</li>
+    <li>storySource->شبابـ[ANYPAWN_possessive] الذي {ANYPAWN_gender ? قضاه : قضته} في [Community]</li>
+    <li>storySource->ضخامة [BodyPart] لديـ[ANYPAWN_objective]</li>
     <li>storySource->ذكريات صديق مفقود</li>
-    <li>storySource->شغف بالموسيقى</li>
-    <li>storySource->فضول حول الآثار القديمة</li>
-    <li>storySource->تعلق بإرث عائلي</li>
-    <li>storySource->انبهار بشخصية غامضة</li>
-    <li>storySource->جهود للحفاظ على لغة تحتضر</li>
-    <li>storySource->أحلام باختراع شيء ثوري</li>
-    <li>storySource->ارتباط بمخلوق أسطوري</li>
-    <li>storySource->عشق لمنظر طبيعي معين</li>
-    <li>storySource->طموح ليصبح [PersonJob] مشهوراً</li>
-    <li>storySource->صراع مع القلق الاجتماعي</li>
-    <li>storySource->شوق للمغامرة خلف الأفق</li>
-    <li>storySource->رابطة مع رفيق آلي</li>
-    <li>storySource->مغامرات كقرصان في الماضي</li>
-    <li>storySource->علاقات وثيقة بمجتمع سري</li>
-    <li>storySource->وقت قضاه كبدوي</li>
-    <li>storySource->انبهار بالسفر عبر الزمن</li>
-    <li>storySource->ارتباط بقطعة أثرية أسطورية</li>
-    <li>writingQualityAdjective(quality==6)->مكتوب بشكل رائع</li>
-    <li>writingQualityAdjective(quality==5)->ذكي وعميق</li>
-    <li>writingQualityAdjective(quality==4)->متأمل وبليغ</li>
-    <li>writingQualityAdjective(quality==3)->مكتوب بشكل جيد</li>
-    <li>writingQualityAdjective(quality==2)->متوسط</li>
-    <li>writingQualityAdjective(quality==1)->مكتوب بشكل سيئ</li>
-    <li>writingQualityAdjective(quality==0)->شبه غير مترابط</li>
-    <li>writingQualitySentence(quality[greater_than]4)->إنه [excellentDesc] [excellentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->إنه [decentDesc] [decentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]2)->إنه [awfulDesc] [awfulExtra]</li>
+    <li>storySource->شغفـ[ANYPAWN_possessive] بالموسيقى</li>
+    <li>storySource->فضولـ[ANYPAWN_possessive] حول الآثار القديمة</li>
+    <li>storySource->تعلقـ[ANYPAWN_possessive] بإرث عائلي</li>
+    <li>storySource->انبهار[ANYPAWN_possessive] بشخصية غامضة</li>
+    <li>storySource->جهود[ANYPAWN_possessive] للحفاظ على لغة تحتضر</li>
+    <li>storySource->أحلامـ[ANYPAWN_possessive] باختراع شيء ثوري</li>
+    <li>storySource->ارتباطـ[ANYPAWN_possessive] بمخلوق أسطوري</li>
+    <li>storySource->عشقـ[ANYPAWN_possessive] لمنظر طبيعي معين</li>
+    <li>storySource->طموحـ[ANYPAWN_possessive] {ANYPAWN_gender ? ليصبح : لتصبح} [PersonJob] {ANYPAWN_gender ? مشهوراً : مشهورةً}</li>
+    <li>storySource->صراعـ[ANYPAWN_possessive] مع القلق الاجتماعي</li>
+    <li>storySource->شوقـ[ANYPAWN_possessive] للمغامرة خلف الأفق</li>
+    <li>storySource->رابطتـ[ANYPAWN_possessive] مع رفيق آلي</li>
+    <li>storySource->مغامراتـ[ANYPAWN_possessive] {ANYPAWN_gender ? كقرصان : كقرصانة} في الماضي</li>
+    <li>storySource->علاقاتـ[ANYPAWN_possessive] الوثيقة بمجتمع سري</li>
+    <li>storySource->وقتـ[ANYPAWN_possessive] {ANYPAWN_gender ? كبدوي : كبدوية}</li>
+    <li>storySource->انبهار[ANYPAWN_possessive] بالسفر عبر الزمن</li>
+    <li>storySource->ارتباطـ[ANYPAWN_possessive] بقطعة أثرية أسطورية</li>
+    <li>writingQualityAdjective(quality==6)->مكتوبة بشكل رائع</li>
+    <li>writingQualityAdjective(quality==5)->ذكية وعميقة</li>
+    <li>writingQualityAdjective(quality==4)->متأملة وبليغة</li>
+    <li>writingQualityAdjective(quality==3)->مكتوبة بشكل جيد</li>
+    <li>writingQualityAdjective(quality==2)->متوسطة</li>
+    <li>writingQualityAdjective(quality==1)->مكتوبة بشكل سيئ</li>
+    <li>writingQualityAdjective(quality==0)->شبه غير مترابطة</li>
+    <li>writingQualitySentence(quality[greater_than]4)->إنها [excellentDesc] [excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->إنها [decentDesc] [decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)->إنها [awfulDesc] [awfulExtra]</li>
     <li>excellentDesc->قصة مثيرة تلهب المشاعر</li>
     <li>excellentDesc->استكشاف متأمل للروح البشرية</li>
-    <li>excellentDesc->عميق الرؤية حول تعقيد العالم</li>
-    <li>excellentDesc->محكم الكتابة وغني بالمشاعر</li>
-    <li>excellentDesc->مبدع وأصيل</li>
-    <li>excellentDesc->أصيل بشكل جامح ومصنوع بمهارة فائقة</li>
-    <li>excellentDesc->مليء بروح الدعابة القريبة من القلب</li>
+    <li>excellentDesc->عميقة الرؤية حول تعقيد العالم</li>
+    <li>excellentDesc->محكمة الكتابة وغنية بالمشاعر</li>
+    <li>excellentDesc->مبدعة وأصيلة</li>
+    <li>excellentDesc->أصيلة بشكل جامح ومصنوعة بمهارة فائقة</li>
+    <li>excellentDesc->مليئة بروح الدعابة القريبة من القلب</li>
     <li>excellentExtra->. كل نبضة من القصة تتدفق بشكل طبيعي إلى التالية</li>
     <li>excellentExtra->. إنه كتاب لا يمكن تركه بسهولة</li>
     <li>excellentExtra->. يذهل القارئ ثلاث مرات على الأقل</li>
@@ -380,30 +380,30 @@
     <li>decentExtra-> ولكنها مليئة بأخطاء الاستمرارية</li>
     <li>decentExtra-> ولكنها تفتقر لأي عواطف عميقة</li>
     <li>decentExtra-> ولكن الشخصيات مبتذلة وكارتونية</li>
-    <li>decentExtra-> ولكن المؤلف يستخدم الكلمات بشكل غير لائق في محاولة للظهور بمظهر الذكي</li>
+    <li>decentExtra-> ولكن {ANYPAWN_gender ? المؤلف يستخدم : المؤلفة تستخدم} الكلمات بشكل غير لائق في محاولة للظهور بمظهر الذكي</li>
     <li>decentExtra-> ولكن العالم غير أصيل وممل</li>
     <li>decentExtra-> ولكن الكتابة منمقة بشكل مفرط</li>
     <li>decentExtra-> ولكن العديد من مقاطع القصة غير ضرورية ولا تقدم الحبكة</li>
-    <li>awfulDesc->سيء الكتابة جداً</li>
-    <li>awfulDesc->كتابته سيئة بشكل فظيع</li>
-    <li>awfulDesc->صعب القراءة</li>
-    <li>awfulDesc->صعب المتابعة</li>
-    <li>awfulDesc->يفتقر إلى الرؤية الفنية</li>
-    <li>awfulDesc->مليء بثغرات الحبكة وشخصيات نمطية</li>
-    <li>awfulDesc->يهيمن عليه شخصية تمثل المؤلف نفسه</li>
-    <li>awfulDesc->غريب لكن غير أصيل</li>
-    <li>awfulDesc->طويل جداً جداً</li>
+    <li>awfulDesc->سيئة الكتابة جداً</li>
+    <li>awfulDesc->كتابتها سيئة بشكل فظيع</li>
+    <li>awfulDesc->صعبة القراءة</li>
+    <li>awfulDesc->صعبة المتابعة</li>
+    <li>awfulDesc->تفتقر إلى الرؤية الفنية</li>
+    <li>awfulDesc->مليئة بثغرات الحبكة وشخصيات نمطية</li>
+    <li>awfulDesc->تهيمن عليها شخصية تمثل المؤلف نفسه</li>
+    <li>awfulDesc->غريبة لكنها غير أصيلة</li>
+    <li>awfulDesc->طويلة جداً جداً</li>
     <li>awfulExtra-> والكتابة شبه غير مترابطة</li>
     <li>awfulExtra-> ومن الصعب جداً متابعتها</li>
-    <li>awfulExtra-> ولا ينجح في تجميع حبكة مترابطة</li>
-    <li>awfulExtra-> ويفتقر لأي إحساس بالموضوع أو المعنى</li>
-    <li>awfulExtra-> ولا يقدم أي أفكار مثيرة على الإطلاق</li>
+    <li>awfulExtra-> ولا تنجح في تجميع حبكة مترابطة</li>
+    <li>awfulExtra-> وتفتقر لأي إحساس بالموضوع أو المعنى</li>
+    <li>awfulExtra-> ولا تقدم أي أفكار مثيرة على الإطلاق</li>
     <li>awfulExtra-> وكل شخصية مملة</li>
     <li>awfulExtra-> ولا يوجد بطل محدد في أي مرحلة</li>
     <li>maybe_date-></li>
-    <li>maybe_date->نُشر الكتاب [date_form].</li>
+    <li>maybe_date->نُشر هذا العمل [date_form].</li>
     <li>maybe_date->طُبع النص لأول مرة [date_form].</li>
-    <li>maybe_date->من غير الواضح متى كُتب الكتاب بالضبط.</li>
+    <li>maybe_date->من غير الواضح متى كُتب هذا العمل بالضبط.</li>
     <li>date_form->مؤخراً</li>
     <li>date_form->منذ قرون عديدة</li>
     <li>date_form->في [date]</li>
@@ -411,7 +411,7 @@
     <li>bookType(p=4)->رواية</li>
     <li>bookType(p=2)->رواية قصيرة</li>
     <li>bookType->قصة</li>
-    <li>bookType->سرد</li>
+    <li>bookType->حكاية</li>
     <li>bookType->سيرة ذاتية</li>
     <li>bookType->قصيدة ملحمية</li>
 </Description_Novel.rulePack.rulesStrings>
@@ -1068,22 +1068,22 @@
     <li>maybe_outro->[dates]. </li>
     <li>maybe_outro->[appearance]. </li>
     <li>maybe_physical_adjective-></li>
-    <li>maybe_physical_adjective->[physical_adjective] </li>
+    <li>maybe_physical_adjective-> الـ[physical_adjective]</li>
     <li>maybe_date(p=3)-></li>
     <li>maybe_date->[dates]</li>
     <li>subject_intro->الـ[schematic_synonym] [shows_synonym_verb] [diagram_type] [state_adjective] حول [subject]</li>
-    <li>subject_intro->في هذا [schematic_synonym]، الـ[author] [shows_synonym_verb][theory_synonym_adj][ANYPAWN_possessive] عن [subject]</li>
-    <li>subject_intro->هذا الـ[schematic_synonym] الـ[physical_adjective] [contain_verb] [schematic_synonym]s تركز على [subject]</li>
-    <li>subject_intro->استخدم الـ[author] [image_types] [notable_adjective] لإيصالـ[ANYPAWN_possessive] [theory_synonym_adj] عن [subject]</li>
-    <li>subject_intro->[device_synonym]s المرتبطة بـ[subject_primary] [shows_synonym_verb1]ed في هذا الـ[schematic_synonym] الـ[maybe_physical_adjective]</li>
+    <li>subject_intro->في هذا الـ[schematic_synonym]، [shows_verb_author] الـ[author] [theory_synonym_adj] عن [subject]</li>
+    <li>subject_intro->هذا الـ[schematic_synonym] الـ[physical_adjective] [contain_verb] [schematic_synonym] آخر يركز على [subject]</li>
+    <li>subject_intro->{ANYPAWN_gender ? استخدم : استخدمت} الـ[author] [image_types] لإيصال [theory_synonym_adj] عن [subject]</li>
+    <li>subject_intro->[device_synonym] المرتبط بـ[subject_primary] [shows_synonym_pp] في هذا الـ[schematic_synonym][maybe_physical_adjective]</li>
     <li>subject_intro->الـ[schematic_synonym] [shows_synonym_verb] [diagram_type] [state_adjective] حول [subject_primary] و[subject_secondary]</li>
-    <li>subject_intro->[device_synonym]s المرتبطة بـ[subject_primary] و[subject_secondary] [shows_synonym_verb1]ed في هذا الـ[schematic_synonym] الـ[maybe_physical_adjective]</li>
+    <li>subject_intro->[device_synonym] المرتبط بـ[subject_primary] و[subject_secondary] [shows_synonym_pp] في هذا الـ[schematic_synonym][maybe_physical_adjective]</li>
     <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
     <li>schematic_desc_first->التقنية القديمة الموصوفة هنا لـ[subject_primary_gerund] [negative_adjective] مقارنة بالأنظمة الحالية</li>
     <li>schematic_desc_first->هذه مجرد جزء من [schematic_synonym] كامل لـ[subject_primary_gerund]</li>
     <li>schematic_desc_first->هذا الـ[schematic_synonym] [negative_adjective] في عدة مواضع</li>
     <li>schematic_desc_first->الـ[schematic_synonym] لـ[subject_primary_gerund] غير مكتمل</li>
-    <li>schematic_desc_first->[subject_primary_gerund] مع هذه الـ[schematic_synonym]s معقد بسبب تعليقات متناقضة</li>
+    <li>schematic_desc_first->[subject_primary_gerund] مع هذا الـ[schematic_synonym] معقد بسبب تعليقات متناقضة</li>
     <li>schematic_desc_first->فهم الـ[author] الـ[negative_adjective] لـ[subject_primary_gerund] واضح في كل مكان</li>
     <li>schematic_desc_first->تمزق جزء من الـ[schematic_synonym]</li>
     <li>schematic_desc_first->شوهت النار والسخام الورقة</li>
@@ -1093,17 +1093,17 @@
     <li>schematic_desc_first->هذا الـ[schematic_synonym] الـ[negative_adjective] يسبب أخطاء أحياناً عند [subject_primary_gerund]</li>
     <li>schematic_desc_first->هذا الـ[schematic_synonym] لـ[subject_primary_gerund] يفشل من الناحية الجمالية</li>
     <li>schematic_desc_first->نقص الخيال حول [subject_primary_gerund] حد من هذا الـ[schematic_synonym]</li>
-    <li>schematic_desc_first->تقدم هذه الـ[schematic_container] مواصفات متناقضة كثيرة لـ[subject_primary_gerund]</li>
+    <li>schematic_desc_first->يقدم هذا الـ[schematic_container] مواصفات متناقضة كثيرة لـ[subject_primary_gerund]</li>
     <li>schematic_desc_first->خلافات حول [other_subject] خلفت غموضاً في هذا الـ[schematic_synonym] لـ[subject_primary_gerund]</li>
     <li>schematic_desc_first->رسم تقني مهمل يقوض خطط الـ[author] الدقيقة لـ[subject_primary_gerund]</li>
     <li>schematic_desc_first->مخاوف بشأن [other_subject] لـ[subject_primary_gerund] حدت من هذا الـ[schematic_synonym]</li>
     <li>schematic_desc_first->هذا الـ[schematic_synonym] لـ[subject_primary_gerund] نُسخ مراراً مما أخفى محتوياته</li>
     <li>schematic_desc_first->هذا الـ[schematic_synonym] لا يؤسس رابطاً حقيقياً بين [subject_primary_gerund] و[subject_secondary_gerund]</li>
     <li>schematic_desc_first->[subject_primary_gerund] و[subject_secondary_gerund] ليس من السهل جمعهما</li>
-    <li>schematic_desc_first->هذه الـ[schematic_container] تحتوي على [schematic_synonym]s لكل من [subject_primary_gerund] و[subject_secondary_gerund]</li>
-    <li>schematic_desc_first->هذه الـ[schematic_container] تحتوي على [schematic_synonym]s لكل من [subject_tertiary_gerund] و[subject_secondary_gerund]</li>
-    <li>schematic_desc_first->هذه الـ[schematic_container] تحتوي على [schematic_synonym]s لكل من [subject_primary_gerund] و[subject_tertiary_gerund]</li>
-    <li>schematic_desc_first->هذه الـ[schematic_container] تحتوي على [schematic_synonym]s لـ[subject_primary_gerund] و[subject_secondary_gerund] و[subject_tertiary_gerund]</li>
+    <li>schematic_desc_first->يحتوي هذا الـ[schematic_container] على [schematic_synonym] لكل من [subject_primary_gerund] و[subject_secondary_gerund]</li>
+    <li>schematic_desc_first->يحتوي هذا الـ[schematic_container] على [schematic_synonym] لكل من [subject_tertiary_gerund] و[subject_secondary_gerund]</li>
+    <li>schematic_desc_first->يحتوي هذا الـ[schematic_container] على [schematic_synonym] لكل من [subject_primary_gerund] و[subject_tertiary_gerund]</li>
+    <li>schematic_desc_first->يحتوي هذا الـ[schematic_container] على [schematic_synonym] لـ[subject_primary_gerund] و[subject_secondary_gerund] و[subject_tertiary_gerund]</li>
     <li>schematic_desc_second(quality[less_than]2)->. هذا محبط لمن يتعلمون الموضوع</li>
     <li>schematic_desc_second(quality[less_than]2)->، مما يجعله بلا قيمة لأغلب الأغراض</li>
     <li>schematic_desc_second(quality[less_than]2)->، مقوضاً الدروس التي ينقلها</li>
@@ -1122,17 +1122,17 @@
     <li>schematic_desc_second(quality[greater_than]4)->. رغم هذا، سيستفيد كل دارس من قراءته، مهما كان خبيراً</li>
     <li>schematic_desc_second(quality[greater_than]4)->، لكن المشاكل طفيفة مقارنة بثروة المعرفة التي يحتويها</li>
     <li>schematic_desc_second(quality[greater_than]4)->. ومع ذلك، الدروس التي يعلمها خالدة</li>
-    <li>medium->نظام حسي مدمج [tells_verb] للمستمعين [schematic_origin]</li>
+    <li>medium->نظام حسي مدمج [tells_verb_m] للمستمعين [schematic_origin]</li>
     <li>medium->ملفوف بالداخل حزمة أوراق شخصية، [tells_verb] [schematic_origin]</li>
-    <li>medium->ملصق [tells_verb] معلومات محدودة عن [schematic_origin]</li>
-    <li>medium->كتيب معلوماتي مرفق [tells_verb] [schematic_origin]</li>
+    <li>medium->ملصق [tells_verb_m] معلومات محدودة عن [schematic_origin]</li>
+    <li>medium->كتيب معلوماتي مرفق [tells_verb_m] [schematic_origin]</li>
     <li>medium->أوراق رق منفصلة [tells_verb] [schematic_origin]</li>
     <li>medium->ورقة ثانية [tells_verb] [schematic_origin]</li>
     <li>medium->ألواح حجرية منقوشة [tells_verb] [schematic_origin]</li>
     <li>medium->[schematic_container] بلاستيل منقوش عليه [schematic_origin]</li>
     <li>medium->تسقط ملاحظة مكتوبة على عجل، [tells_verb] [schematic_origin]</li>
-    <li>medium->ظهر الوثيقة [tells_verb] المزيد عن [schematic_origin]</li>
-    <li>medium->يشتغل تسجيل، [tells_verb] [schematic_origin]</li>
+    <li>medium->ظهر الوثيقة [tells_verb_m] المزيد عن [schematic_origin]</li>
+    <li>medium->يشتغل تسجيل، [tells_verb_m] [schematic_origin]</li>
     <li>medium->كان يمكن أن يكون [schematic_origin] مجرد تخمين، لولا الملاحظات على الوثيقة</li>
     <li>medium(p=4)->[schematic_origin] معروف لكنه مدرج في ملاحظات الوثيقة</li>
     <li>medium->مذكرات مرفقة تروي [schematic_origin]</li>
@@ -1142,6 +1142,21 @@
     <li>tells_verb->تنقل</li>
     <li>tells_verb->تقص</li>
     <li>tells_verb->تبلغ</li>
+    <li>tells_verb_m->يروي</li>
+    <li>tells_verb_m->ينقل</li>
+    <li>tells_verb_m->يقص</li>
+    <li>tells_verb_m->يبلغ</li>
+    <li>shows_synonym_pp->مصوّر</li>
+    <li>shows_synonym_pp->مجسّد</li>
+    <li>shows_synonym_pp->معروض</li>
+    <li>shows_synonym_pp->مبرز</li>
+    <li>shows_synonym_pp->ظاهر</li>
+    <li>shows_verb_author->{ANYPAWN_gender ? يصوّر : تصوّر}</li>
+    <li>shows_verb_author->{ANYPAWN_gender ? يعرض : تعرض}</li>
+    <li>shows_verb_author->{ANYPAWN_gender ? يبرز : تبرز}</li>
+    <li>shows_verb_author->{ANYPAWN_gender ? يوضح : توضح}</li>
+    <li>shows_verb_author->{ANYPAWN_gender ? يصف : تصف}</li>
+    <li>shows_verb_author->{ANYPAWN_gender ? يوجز : توجز}</li>
     <li>schematic_origin->القصة الـ[notable_adjective] لإنشاء المخطط</li>
     <li>schematic_origin->كيف توصل المؤلف لإنشاء المخطط</li>
     <li>schematic_origin->حياة الـ[author] الـ[notable_adjective]</li>
@@ -1153,53 +1168,53 @@
     <li>author_story->[author_storyname][learning_story]</li>
     <li>author_story->[author_storyname][calltoadventure]</li>
     <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
-    <li>author_storyname->الـ[authorTitle] المجهول</li>
-    <li>author_intent-> كان متعطشاً للمعرفة حول [subject] منذ سن مبكرة وسأل الجميع في مسقط رأسـ[ANYPAWN_possessive]</li>
-    <li>author_intent-> حلم بتجديد [subject]، قائداً ثورة علمية على [worldname]</li>
-    <li>author_intent-> جعل [subject] عملـ[ANYPAWN_possessive] حياته</li>
-    <li>author_intent-> شاركـ[ANYPAWN_possessive] آراءه حول [subject] في كتاب [physical_adjective]، كتب [written_when]</li>
-    <li>author_intent-> لم يعرف نداء أنبل من دراسة [subject] وأنشأ هذا المخطط [written_when]</li>
-    <li>author_intent-> عثر على أسرار [subject] في دراسة والدتـ[ANYPAWN_possessive] الـ[physical_adjective]</li>
-    <li>author_intent-> كان مريضاً جداً وهو طفل لكنه استغل الوقت في دراسة [subject]</li>
-    <li>author_intent-> أراد للعالم أن يعرف عن [subject] و، [written_when]، أنشأ هذا المخطط</li>
-    <li>author_intent-> احتاج أن تعرف المجرة عن [subject]</li>
-    <li>author_intent-> تم إغراؤه بحب [subject] من خلال سلسلة كتب أطفال</li>
-    <li>author_intent-> لم يحب أبداً دراسة [subject] لكنه كان مجبراً على فعلها</li>
-    <li>author_intent-> شعر أن [subject] كانت نداء[ANYPAWN_possessive]</li>
-    <li>learning_story-> سافر بعيداً وعلى نطاق واسع، باحثاً عن حكمة حول [subject]</li>
-    <li>learning_story-> عاش يوماً متطابقاً كل يوم، عاملاً على [subject] في المدن الدورية لـ[midworld]</li>
-    <li>learning_story-> ترعرع في مدرسة أحياء فقيرة مركزة على [subject] في [urbworld]</li>
-    <li>learning_story-> تخرج بامتياز في [subject] من أكاديمية [worldname]</li>
-    <li>learning_story-> علّمـ[ANYPAWN_objective] نفسه عن [subject] على العالم الوحشي [animalworld]</li>
-    <li>learning_story-> اكتشف كنزاً من المخططات المفقودة حول [subject] في أطلال [ruinworld]</li>
-    <li>learning_story-> جاب الشوارع المسودة لـ[steamworld]، مطارداً [subject] وسط هطول السخام</li>
-    <li>learning_story-> نجا بطريقة ما من مستنقعات السموم لـ[toxicworld]، حيث انتشرت شائعات عن خبراء [subject]</li>
-    <li>learning_story-> جاب الضواحي الذائبة لعالم [glassworld] المزجج، باحثاً عن معرفة [subject]</li>
-    <li>learning_story-> دار حول الكرة المتسامية لـ[transcendentworld]، متعلماً عن [subject] باعتراض حركة الاتصالات</li>
-    <li>learning_story-> ذهب مع البغال إلى أعماق [mineworld]، منصتاً لعمال المناجم القدامى وهم يروون قصصاً عن [subject] ويتعلم أسراره</li>
-    <li>learning_story-> كان خبيراً متعاقداً في [subject] على عالم اللب [coreworld]</li>
-    <li>learning_story-> امتلك المصانع على العالم الصناعي [indworld]، منغمساً في حبـ[ANYPAWN_possessive] لـ[subject] بينما عمالـ[ANYPAWN_possessive] يكدحون</li>
-    <li>learning_story-> تعلم عن [subject] مسجونا في سجن الخلية الخامس على [prisonworld]، محتجاً إلى الأبد على براءتـ[ANYPAWN_possessive]</li>
-    <li>learning_story-> جمع أجزاء هذا المخطط عن [subject] في أكوام خلايا عالم النفايات [trashworld]، جامعاً شظايا نبذها مواطنو العوالم اللامعة العاطلون</li>
-    <li>learning_story-> ربى أباتوفورات مستنسخة على [dinoworld] وقايض لحمها بمعرفة [subject]</li>
-    <li>learning_story-> عاش في ممزقي السماء لـ[urbworld]، حيث كانت معرفة [subject] شائعة</li>
-    <li>learning_story-> تربى في الأراضي الميتة الخارجية لـ[ruinworld]، متعلماً [subject] للبقاء</li>
-    <li>calltoadventure-> شعر أن حياتـ[ANYPAWN_possessive] راكدة. ثم ذات يوم، وجد [ANYPAWN_pronoun] [subject]</li>
-    <li>calltoadventure-> أوكل إليه تأسيس مستعمرة جديدة، بمفرد[ANYPAWN_possessive]، مركزة على [subject]</li>
-    <li>calltoadventure-> توفي شقيقـ[ANYPAWN_objective] الأكبر، فصار أخصائي [subject] في العائلة</li>
-    <li>calltoadventure-> علم بمستعمرة عالم لامع مهجورة ركزت على [subject]</li>
-    <li>calltoadventure-> كان على متن طراد شمسي عندما اختطفه قراصنة [feudalworld]. كخبير [subject]، طالبوا بفدية عالية لإطلاق سراحه</li>
-    <li>calltoadventure-> انحرف عن مساره إلى عالم الموت [deadworld]، حيث تعلم [ANYPAWN_pronoun] عن [subject]</li>
-    <li>calltoadventure-> اكتشف ملف بيانات عن [subject] في ميكانويد محطم وتعلم منه</li>
-    <li>calltoadventure-> تبع الخلد الترابي إلى جحره، حيث علمـ[ANYPAWN_objective] عن [subject]</li>
-    <li>calltoadventure-> تربى على يد عشيرة يتاكين محبة لـ[subject] على [iceworld]</li>
-    <li>calltoadventure-> خُلق بواسطة مستنسخي سانغوفاج ووجد متعة في [subject]</li>
-    <li>calltoadventure-> تربى على [warworld]، هارباً في كبسولة شحن مسروقة. كانت القراءة الوحيدة لأشهر هي دليل [subject]</li>
-    <li>calltoadventure-> قضيـ[ANYPAWN_possessive] حياته مسافراً صعوداً عبر طبقات العالم الصدفي [shellworld]، مطارداً ميكانويد [subject] معطلاً</li>
-    <li>calltoadventure-> هرب من العبودية في قرى [medievalworld] مختبئاً على متن سفينة نجوم لتاجر كان خبيراً في [subject]</li>
-    <li>calltoadventure-> سافر إلى الحافة وعاد، متعلماً عن [subject] على [rimworld]</li>
-    <li>calltoadventure-> أبحر في بحار [oceanicworld]، مدعياً تعلم أسرار [subject] من المحيطات الحية نفسها</li>
-    <li>calltoadventure-> كان جامع خردة في انعدام الجاذبية عبر حزام الكويكبات لـ[worldname]، لاقياً أسرار [subject] على إما [asteroid] A3 أو [asteroid] 7DD</li>
+    <li>author_storyname->الـ[authorTitle] {ANYPAWN_gender ? المجهول : المجهولة}</li>
+    <li>author_intent-> {ANYPAWN_gender ? كان : كانت} {ANYPAWN_gender ? متعطشاً : متعطشةً} للمعرفة حول [subject] منذ سن مبكرة {ANYPAWN_gender ? وسأل : وسألت} الجميع في مسقط رأسـ[ANYPAWN_possessive]</li>
+    <li>author_intent-> {ANYPAWN_gender ? حلم : حلمت} بتجديد [subject]، {ANYPAWN_gender ? قائداً : قائدةً} ثورة علمية على [worldname]</li>
+    <li>author_intent-> {ANYPAWN_gender ? جعل : جعلت} [subject] عملـ[ANYPAWN_possessive] حياتـ[ANYPAWN_possessive]</li>
+    <li>author_intent-> {ANYPAWN_gender ? شارك : شاركت} آراء[ANYPAWN_possessive] حول [subject] في كتاب [physical_adjective]، كُتب [written_when]</li>
+    <li>author_intent-> {ANYPAWN_gender ? لم يعرف : لم تعرف} نداء أنبل من دراسة [subject] {ANYPAWN_gender ? وأنشأ : وأنشأت} هذا المخطط [written_when]</li>
+    <li>author_intent-> {ANYPAWN_gender ? عثر : عثرت} على أسرار [subject] في دراسة والدتـ[ANYPAWN_possessive] الـ[physical_adjective]</li>
+    <li>author_intent-> {ANYPAWN_gender ? كان : كانت} {ANYPAWN_gender ? مريضاً : مريضةً} جداً {ANYPAWN_gender ? وهو طفل : وهي طفلة} {ANYPAWN_gender ? لكنه : لكنها} {ANYPAWN_gender ? استغل : استغلت} الوقت في دراسة [subject]</li>
+    <li>author_intent-> {ANYPAWN_gender ? أراد : أرادت} للعالم أن يعرف عن [subject] و[written_when] {ANYPAWN_gender ? أنشأ : أنشأت} هذا المخطط</li>
+    <li>author_intent-> {ANYPAWN_gender ? احتاج : احتاجت} أن تعرف المجرة عن [subject]</li>
+    <li>author_intent-> تم {ANYPAWN_gender ? إغراؤه : إغراؤها} بحب [subject] من خلال سلسلة كتب أطفال</li>
+    <li>author_intent-> {ANYPAWN_gender ? لم يحب : لم تحب} أبداً دراسة [subject] {ANYPAWN_gender ? لكنه : لكنها} {ANYPAWN_gender ? كان : كانت} {ANYPAWN_gender ? مجبراً : مجبرةً} على فعلها</li>
+    <li>author_intent-> {ANYPAWN_gender ? شعر : شعرت} أن [subject] كانت نداء[ANYPAWN_possessive]</li>
+    <li>learning_story-> {ANYPAWN_gender ? سافر : سافرت} بعيداً وعلى نطاق واسع، {ANYPAWN_gender ? باحثاً : باحثةً} عن حكمة حول [subject]</li>
+    <li>learning_story-> {ANYPAWN_gender ? عاش : عاشت} يوماً متطابقاً كل يوم، {ANYPAWN_gender ? عاملاً : عاملةً} على [subject] في المدن الدورية لـ[midworld]</li>
+    <li>learning_story-> {ANYPAWN_gender ? ترعرع : ترعرعت} في مدرسة أحياء فقيرة مركزة على [subject] في [urbworld]</li>
+    <li>learning_story-> {ANYPAWN_gender ? تخرج : تخرجت} بامتياز في [subject] من أكاديمية [worldname]</li>
+    <li>learning_story-> {ANYPAWN_gender ? علّم : علّمت} نفسـ[ANYPAWN_possessive] عن [subject] على العالم الوحشي [animalworld]</li>
+    <li>learning_story-> {ANYPAWN_gender ? اكتشف : اكتشفت} كنزاً من المخططات المفقودة حول [subject] في أطلال [ruinworld]</li>
+    <li>learning_story-> {ANYPAWN_gender ? جاب : جابت} الشوارع المسودة لـ[steamworld]، {ANYPAWN_gender ? مطارداً : مطاردةً} [subject] وسط هطول السخام</li>
+    <li>learning_story-> {ANYPAWN_gender ? نجا : نجت} بطريقة ما من مستنقعات السموم لـ[toxicworld]، حيث انتشرت شائعات عن خبراء [subject]</li>
+    <li>learning_story-> {ANYPAWN_gender ? جاب : جابت} الضواحي الذائبة لعالم [glassworld] المزجج، {ANYPAWN_gender ? باحثاً : باحثةً} عن معرفة [subject]</li>
+    <li>learning_story-> {ANYPAWN_gender ? دار : دارت} حول الكرة المتسامية لـ[transcendentworld]، {ANYPAWN_gender ? متعلماً : متعلمةً} عن [subject] باعتراض حركة الاتصالات</li>
+    <li>learning_story-> {ANYPAWN_gender ? ذهب : ذهبت} مع البغال إلى أعماق [mineworld]، {ANYPAWN_gender ? منصتاً : منصتةً} لعمال المناجم القدامى وهم يروون قصصاً عن [subject] {ANYPAWN_gender ? ويتعلم : وتتعلم} أسراره</li>
+    <li>learning_story-> {ANYPAWN_gender ? كان : كانت} خبيراً متعاقداً في [subject] على عالم اللب [coreworld]</li>
+    <li>learning_story-> {ANYPAWN_gender ? امتلك : امتلكت} المصانع على العالم الصناعي [indworld]، {ANYPAWN_gender ? منغمساً : منغمسةً} في حبـ[ANYPAWN_possessive] لـ[subject] بينما عمالـ[ANYPAWN_possessive] يكدحون</li>
+    <li>learning_story-> {ANYPAWN_gender ? تعلم : تعلمت} عن [subject] {ANYPAWN_gender ? مسجونا : مسجونةً} في سجن الخلية الخامس على [prisonworld]، {ANYPAWN_gender ? محتجاً : محتجةً} إلى الأبد على براءتـ[ANYPAWN_possessive]</li>
+    <li>learning_story-> {ANYPAWN_gender ? جمع : جمعت} أجزاء هذا المخطط عن [subject] في أكوام خلايا عالم النفايات [trashworld]، {ANYPAWN_gender ? جامعاً : جامعةً} شظايا نبذها مواطنو العوالم اللامعة العاطلون</li>
+    <li>learning_story-> {ANYPAWN_gender ? ربى : ربت} أباتوفورات مستنسخة على [dinoworld] {ANYPAWN_gender ? وقايض : وقايضت} لحمها بمعرفة [subject]</li>
+    <li>learning_story-> {ANYPAWN_gender ? عاش : عاشت} في ممزقي السماء لـ[urbworld]، حيث كانت معرفة [subject] شائعة</li>
+    <li>learning_story-> {ANYPAWN_gender ? تربى : تربت} في الأراضي الميتة الخارجية لـ[ruinworld]، {ANYPAWN_gender ? متعلماً : متعلمةً} [subject] للبقاء</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? شعر : شعرت} أن حياتـ[ANYPAWN_possessive] راكدة. ثم ذات يوم، {ANYPAWN_gender ? وجد : وجدت} [subject]</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? أوكل إليه : أوكل إليها} تأسيس مستعمرة جديدة، بمفرد[ANYPAWN_possessive]، مركزة على [subject]</li>
+    <li>calltoadventure-> توفي شقيقـ[ANYPAWN_objective] الأكبر، {ANYPAWN_gender ? فصار أخصائي : فصارت أخصائية} [subject] في العائلة</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? علم : علمت} بمستعمرة عالم لامع مهجورة ركزت على [subject]</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? كان : كانت} على متن طراد شمسي عندما {ANYPAWN_gender ? اختطفه : اختطفها} قراصنة [feudalworld]. {ANYPAWN_gender ? كخبير : كخبيرة} [subject]، طالبوا بفدية عالية لإطلاق {ANYPAWN_gender ? سراحه : سراحها}</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? انحرف : انحرفت} عن مساره إلى عالم الموت [deadworld]، حيث {ANYPAWN_gender ? تعلم : تعلمت} عن [subject]</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? اكتشف : اكتشفت} ملف بيانات عن [subject] في ميكانويد محطم {ANYPAWN_gender ? وتعلم : وتعلمت} منه</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? تبع : تبعت} الخلد الترابي إلى جحره، حيث {ANYPAWN_gender ? علم : علمت} عن [subject]</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? تربى : تربت} على يد عشيرة يتاكين محبة لـ[subject] على [iceworld]</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? خُلق : خُلقت} بواسطة مستنسخي سانغوفاج {ANYPAWN_gender ? ووجد : ووجدت} متعة في [subject]</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? تربى : تربت} على [warworld]، {ANYPAWN_gender ? هارباً : هاربةً} في كبسولة شحن مسروقة. كانت القراءة الوحيدة لأشهر هي دليل [subject]</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? قضى : قضت} حياتـ[ANYPAWN_possessive] {ANYPAWN_gender ? مسافراً : مسافرةً} صعوداً عبر طبقات العالم الصدفي [shellworld]، {ANYPAWN_gender ? مطارداً : مطاردةً} ميكانويد [subject] معطلاً</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? هرب : هربت} من العبودية في قرى [medievalworld] {ANYPAWN_gender ? مختبئاً : مختبئةً} على متن سفينة نجوم لتاجر كان خبيراً في [subject]</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? سافر : سافرت} إلى الحافة وعاد، {ANYPAWN_gender ? متعلماً : متعلمةً} عن [subject] على [rimworld]</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? أبحر : أبحرت} في بحار [oceanicworld]، {ANYPAWN_gender ? مدعياً : مدعيةً} تعلم أسرار [subject] من المحيطات الحية نفسها</li>
+    <li>calltoadventure-> {ANYPAWN_gender ? كان : كانت} جامع خردة في انعدام الجاذبية عبر حزام الكويكبات لـ[worldname]، {ANYPAWN_gender ? لاقياً : لاقيةً} أسرار [subject] على إما [asteroid] A3 أو [asteroid] 7DD</li>
     <li>written_when-> الليلة التي سبقت إعدامـ[ANYPAWN_possessive]</li>
     <li>written_when-> في سنواتـ[ANYPAWN_possessive] المبكرة</li>
     <li>written_when-> أثناء الفترة الزرقاء لـ[worldname]</li>
@@ -1211,15 +1226,15 @@
     <li>written_when-> بعد سنوات عديدة من أن تصورها لأول مرة</li>
     <li>written_when-> في شيخوختـ[ANYPAWN_possessive]</li>
     <li>written_when-> في الأمسيات، في وقت مختلس من النوم</li>
-    <li>written_when-> عندما لا يكون في رعاية أطفالـ[ANYPAWN_possessive]</li>
+    <li>written_when-> عندما لا {ANYPAWN_gender ? يكون : تكون} في رعاية أطفالـ[ANYPAWN_possessive]</li>
     <li>written_when-> على عجل، في الطريق إلى الجبهة</li>
-    <li>written_when-> براحة، بينما يحتسي مشروبات مثلجة على شرفتـ[ANYPAWN_possessive]</li>
-    <li>written_when-> في سن مبكرة، عاملاً وحده بينما أقرانـ[ANYPAWN_possessive] يلعبون</li>
+    <li>written_when-> براحة، بينما {ANYPAWN_gender ? يحتسي : تحتسي} مشروبات مثلجة على شرفتـ[ANYPAWN_possessive]</li>
+    <li>written_when-> في سن مبكرة، {ANYPAWN_gender ? عاملاً وحده : عاملةً وحدها} بينما أقرانـ[ANYPAWN_possessive] يلعبون</li>
     <li>subject_consequence(p=18)->[subject_primary_story]</li>
     <li>subject_consequence->[digression]</li>
     <li>digression->في مرحلة ما، تنحرف القصة إلى نقاش مربك حول [digression_subject]</li>
     <li>digression->سرد المخطط يفقد طريقه هنا، منحرفاً إلى [digression_subject]</li>
-    <li>digression->الـ[author] أدرج حاشية هنا، حول [digression_subject]</li>
+    <li>digression->الـ[author] {ANYPAWN_gender ? أدرج : أدرجت} حاشية هنا، حول [digression_subject]</li>
     <li>digression->من غير الواضح لماذا تتحول القصة إلى [digression_subject]</li>
     <li>digression->إنها مفاجأة أن المخطط [contain_verb] معلومات عن [digression_subject]</li>
     <li>digression->القسم المتعلق بـ[digression_subject] غير ذي صلة</li>
@@ -1241,24 +1256,24 @@
     <li>aftermath->[note] بخط يد مختلف يقول إن الـ[author] شوهد آخر مرة متجها إلى [deathworld]</li>
     <li>aftermath->صفحات ممزقة هنا</li>
     <li>aftermath->الأوراق منقطة ببقع بنية</li>
-    <li>aftermath->رغم مغامراتـ[ANYPAWN_possessive]، تمكن [ANYPAWN_pronoun] من إنشاء هذا المخطط</li>
-    <li>aftermath->كرس [ANYPAWN_pronoun] سنواتـ[ANYPAWN_possessive] الأخيرة لهذا المخطط</li>
-    <li>aftermath->لاحقاً، وجد [ANYPAWN_pronoun] سلاماً في هذا العمل. [subject_chat]</li>
+    <li>aftermath->رغم مغامراتـ[ANYPAWN_possessive]، {ANYPAWN_gender ? تمكن : تمكنت} من إنشاء هذا المخطط</li>
+    <li>aftermath->{ANYPAWN_gender ? كرس : كرست} سنواتـ[ANYPAWN_possessive] الأخيرة لهذا المخطط</li>
+    <li>aftermath->لاحقاً، {ANYPAWN_gender ? وجد : وجدت} سلاماً في هذا العمل. [subject_chat]</li>
     <li>aftermath->تنتهي قصتـ[ANYPAWN_possessive] هنا، بوصف تقني لعملـ[ANYPAWN_possessive] على [worldname]. [subject_chat]</li>
-    <li>subject_chat->يثبت عمل الـ[author] أنـ[ANYPAWN_objective] موثوق في [subject]</li>
+    <li>subject_chat->يثبت عمل الـ[author] أنـ[ANYPAWN_objective] {ANYPAWN_gender ? موثوق : موثوقة} في [subject]</li>
     <li>subject_chat->قليلون يعترضون على النتائج في وثيقة [subject] هذه</li>
     <li>subject_chat->ستكون هذه الوثيقة ملهمة لأي شخص مهتم بـ[subject]</li>
     <li>subject_chat->رغم أن الرسوم البيانية باهتة، فإن دروس الـ[author] عن [subject] قيّمة</li>
-    <li>authorTitle->مؤلف</li>
-    <li>authorTitle->ناسخ</li>
-    <li>authorTitle->كاتب</li>
+    <li>authorTitle->{ANYPAWN_gender ? مؤلف : مؤلفة}</li>
+    <li>authorTitle->{ANYPAWN_gender ? ناسخ : ناسخة}</li>
+    <li>authorTitle->{ANYPAWN_gender ? كاتب : كاتبة}</li>
     <li>linkage->هذا ألهمـ[ANYPAWN_objective] ومن ثم [ANYPAWN_pronoun]</li>
     <li>linkage->أثبت هذا فائدته لاحقاً عندما [ANYPAWN_pronoun]</li>
     <li>linkage->باستخدام هذه المعرفة، [ANYPAWN_pronoun]</li>
-    <li>linkage->وجد [ANYPAWN_pronoun] هذا مفيداً عندما [ANYPAWN_pronoun]</li>
+    <li>linkage->{ANYPAWN_gender ? وجد : وجدت} هذا مفيداً عندما [ANYPAWN_pronoun]</li>
     <li>linkage->لهذا السبب [ANYPAWN_pronoun]</li>
-    <li>linkage->على [worldname]، استخدم [ANYPAWN_pronoun] بصيرتـ[ANYPAWN_possessive] و</li>
-    <li>linkage->لإتقانه، سافر [ANYPAWN_pronoun] إلى [worldname] حيث [ANYPAWN_pronoun]</li>
+    <li>linkage->على [worldname]، {ANYPAWN_gender ? استخدم : استخدمت} بصيرتـ[ANYPAWN_possessive] و</li>
+    <li>linkage->لإتقانه، {ANYPAWN_gender ? سافر : سافرت} إلى [worldname] حيث [ANYPAWN_pronoun]</li>
     <li>notable_adjective->مشهور</li>
     <li>notable_adjective->غامض</li>
     <li>notable_adjective->أيقوني</li>
@@ -1301,7 +1316,7 @@
     <li>positive_physical_statement1->الصفحات مصنوعة من مشتق بلاستيل رقيق</li>
     <li>positive_physical_statement1->كل صفحة مصنوعة من هيكل مرن شبيه بالألماس</li>
     <li>positive_physical_statement1->دافئة عند اللمس</li>
-    <li>positive_physical_statement2->تحمل علامة الجودة لدار نشر عوالم لب محترمة - Schematics [coreworld]</li>
+    <li>positive_physical_statement2->تحمل علامة الجودة لدار نشر عوالم لب محترمة - مخططات [coreworld]</li>
     <li>positive_physical_statement2->حواف الصفحات لا تزال غير مقطوعة</li>
     <li>positive_physical_statement2->بلاستيكات شبه كريمة تلمع على سطحه</li>
     <li>otherwordly_nonphys_desc->عند إمساك مخطط الـ[author]، تسبح الغرفة</li>
@@ -1343,19 +1358,19 @@
     <li>conjunction->رغم أن</li>
     <li>conjunction->بالإضافة إلى ذلك</li>
     <li>conjunction->. إضافة إلى ذلك،</li>
-    <li>author(p=4)->مؤلف</li>
-    <li>author(p=4)->كاتب</li>
-    <li>author->مخترع</li>
-    <li>author->مبتكر</li>
-    <li>author(p=2)->مطور</li>
-    <li>author(p=4)->مصمم</li>
-    <li>author->مهندس</li>
-    <li>author->صانع</li>
-    <li>author->خبير</li>
-    <li>author->أخصائي</li>
-    <li>author->تقني</li>
-    <li>author->خبير</li>
-    <li>author->حرفي</li>
+    <li>author(p=4)->{ANYPAWN_gender ? مؤلف : مؤلفة}</li>
+    <li>author(p=4)->{ANYPAWN_gender ? كاتب : كاتبة}</li>
+    <li>author->{ANYPAWN_gender ? مخترع : مخترعة}</li>
+    <li>author->{ANYPAWN_gender ? مبتكر : مبتكرة}</li>
+    <li>author(p=2)->{ANYPAWN_gender ? مطور : مطورة}</li>
+    <li>author(p=4)->{ANYPAWN_gender ? مصمم : مصممة}</li>
+    <li>author->{ANYPAWN_gender ? مهندس : مهندسة}</li>
+    <li>author->{ANYPAWN_gender ? صانع : صانعة}</li>
+    <li>author->{ANYPAWN_gender ? خبير : خبيرة}</li>
+    <li>author->{ANYPAWN_gender ? أخصائي : أخصائية}</li>
+    <li>author->{ANYPAWN_gender ? تقني : تقنية}</li>
+    <li>author->{ANYPAWN_gender ? خبير : خبيرة}</li>
+    <li>author->{ANYPAWN_gender ? حرفي : حرفية}</li>
     <li>anAuthorDesc(p=2)-></li>
     <li>anAuthorDesc->شاب</li>
     <li>anAuthorDesc->عجوز</li>
@@ -1403,192 +1418,192 @@
     <li>worldname->[animalworld]</li>
     <li>feralworld->[animalworld]</li>
     <li>milworld->[warworld]</li>
-    <li>animalworld->Sorne</li>
-    <li>animalworld->Rhydell</li>
-    <li>animalworld->Zoutera</li>
-    <li>animalworld->Thylacine</li>
-    <li>animalworld->Jiai</li>
-    <li>animalworld->Steller's World</li>
-    <li>animalworld->Aukton</li>
-    <li>asteroid->Iwamura</li>
-    <li>asteroid->Atura</li>
-    <li>asteroid->Widdershins</li>
-    <li>asteroid->Ranomi</li>
-    <li>asteroid->Aesh 265</li>
-    <li>asteroid->Taxlos</li>
-    <li>asteroid->Aryn Sigma</li>
-    <li>coreworld->Novaroma</li>
-    <li>coreworld->Lutuni</li>
-    <li>coreworld->Zeglar</li>
-    <li>coreworld->Novaroma</li>
-    <li>coreworld->Cormora Prime</li>
-    <li>coreworld->Glossolia</li>
-    <li>coreworld->Barbaros</li>
-    <li>deadworld->Callos IX</li>
-    <li>deadworld->Haspia</li>
-    <li>deadworld->Gost IV</li>
-    <li>deadworld->Berimund</li>
-    <li>deadworld->Ardar</li>
-    <li>deadworld->Kremhild</li>
-    <li>deadworld->Melisandz</li>
-    <li>deathworld->Creticon</li>
-    <li>deathworld->Zartza</li>
-    <li>deathworld->Rayth</li>
-    <li>deathworld->Spectra</li>
-    <li>deathworld->JNovahex</li>
-    <li>deathworld->Carthago</li>
-    <li>deathworld->Grimcore</li>
-    <li>dinoworld->Oubanyen</li>
-    <li>dinoworld->Zoutera</li>
-    <li>dinoworld->Einio</li>
-    <li>dinoworld->Baryonyx</li>
-    <li>dinoworld->N'cilo</li>
-    <li>dinoworld->Venator</li>
-    <li>dinoworld->Brach</li>
-    <li>feudalworld->Aracena VI</li>
-    <li>feudalworld->Nuchadus</li>
-    <li>feudalworld->Filson</li>
-    <li>feudalworld->Fieth</li>
-    <li>feudalworld->Bloch Regis</li>
-    <li>feudalworld->Carlosphere</li>
-    <li>feudalworld->Magna Dijou</li>
-    <li>glassworld->Ceti V</li>
-    <li>glassworld->Thebes XIV</li>
-    <li>glassworld->Naga</li>
-    <li>glassworld->Merv</li>
-    <li>glassworld->Perse</li>
-    <li>glassworld->Shechem</li>
-    <li>glassworld->Yelhazor</li>
-    <li>glitterworld->Kalthas IV</li>
-    <li>glitterworld->Amen-Ti</li>
-    <li>glitterworld->Sophiamunda</li>
-    <li>glitterworld->Rogia</li>
-    <li>glitterworld->Utmaior</li>
-    <li>glitterworld->Caspian</li>
-    <li>glitterworld->Kenerella</li>
-    <li>iceworld->Yttak</li>
-    <li>iceworld->Dedchenko</li>
-    <li>iceworld->Baltoro</li>
-    <li>iceworld->Furtwale</li>
-    <li>iceworld->Jaqua</li>
-    <li>iceworld->Christensen</li>
-    <li>iceworld->Barnes</li>
-    <li>indworld->Irithir</li>
-    <li>indworld->New China</li>
-    <li>indworld->Hudders</li>
-    <li>indworld->Iver</li>
-    <li>indworld->Achesta</li>
-    <li>indworld->Oods</li>
-    <li>indworld->Iladelf</li>
-    <li>medievalworld->Chelis</li>
-    <li>medievalworld->Vinna</li>
-    <li>medievalworld->Cassone</li>
-    <li>medievalworld->Jork</li>
-    <li>medievalworld->Cochmar</li>
-    <li>medievalworld->Alin</li>
-    <li>medievalworld->Dubrognago</li>
-    <li>midworld->Khalderia</li>
-    <li>midworld->Elsin</li>
-    <li>midworld->Haihan</li>
-    <li>midworld->Seolure</li>
-    <li>midworld->Panga</li>
-    <li>midworld->New London CXI</li>
-    <li>midworld->San Delenda</li>
-    <li>mineworld->Xanides</li>
-    <li>mineworld->Bingham</li>
-    <li>mineworld->Saarhi</li>
-    <li>mineworld->Grasbeg</li>
-    <li>mineworld->Chuqui</li>
-    <li>mineworld->Olimpia</li>
-    <li>mineworld->Orme</li>
-    <li>oceanicworld->Wavia</li>
-    <li>oceanicworld->Wadka</li>
-    <li>oceanicworld->Gichen</li>
-    <li>oceanicworld->Port Yam</li>
-    <li>oceanicworld->Baia</li>
-    <li>oceanicworld->Thonis</li>
-    <li>oceanicworld->Moaui</li>
-    <li>prisonworld->Yttak</li>
-    <li>prisonworld->Aldgate</li>
-    <li>prisonworld->Borren</li>
-    <li>prisonworld->Hoalo</li>
-    <li>prisonworld->Casmina</li>
-    <li>prisonworld->Port Basil</li>
-    <li>prisonworld->Chateau D'Ouen</li>
-    <li>rimworld->Filson</li>
-    <li>rimworld->La Grand</li>
-    <li>rimworld->Dalles</li>
-    <li>rimworld->Twig Falls</li>
-    <li>rimworld->Old Boise</li>
-    <li>rimworld->Devil's Gate</li>
-    <li>rimworld->Laramiere</li>
-    <li>ruinworld->Earth</li>
-    <li>ruinworld->Ilwaba</li>
-    <li>ruinworld->Xennoa</li>
-    <li>ruinworld->Pichu</li>
-    <li>ruinworld->Perdida</li>
-    <li>ruinworld->Hisarlik</li>
-    <li>ruinworld->Helike</li>
-    <li>shellworld->Boccocarro</li>
-    <li>shellworld->Destria</li>
-    <li>shellworld->Trophic</li>
-    <li>shellworld->Matrio</li>
-    <li>shellworld->Samen</li>
-    <li>shellworld->Xinthia</li>
-    <li>shellworld->Ferbine</li>
-    <li>steamworld->Corliss</li>
-    <li>steamworld->Borassic</li>
-    <li>steamworld->Savery II</li>
-    <li>steamworld->Heron</li>
-    <li>steamworld->Malmesburi</li>
-    <li>steamworld->Architonnerre</li>
-    <li>steamworld->Escapement</li>
-    <li>toxicworld->Scylla</li>
-    <li>toxicworld->Mauro</li>
-    <li>toxicworld->Cerospor</li>
-    <li>toxicworld->Oxy VI</li>
-    <li>toxicworld->Sangwine</li>
-    <li>toxicworld->Soleno</li>
-    <li>toxicworld->Imbatus</li>
-    <li>transcendentworld->Xaroh</li>
-    <li>transcendentworld->Immanence VI</li>
-    <li>transcendentworld->Qabba</li>
-    <li>transcendentworld->Einsof</li>
-    <li>transcendentworld->Mitvo</li>
-    <li>transcendentworld->Samydi</li>
-    <li>transcendentworld->Samsarr</li>
-    <li>trashworld->Bagua 5</li>
-    <li>trashworld->Puobell</li>
-    <li>trashworld->Deni IX</li>
-    <li>trashworld->Garbsh</li>
-    <li>trashworld->Tra'age</li>
-    <li>trashworld->Reepsyk</li>
-    <li>trashworld->Mystras</li>
-    <li>urbworld->Euterpe</li>
-    <li>urbworld->Avenna</li>
-    <li>urbworld->Essalon</li>
-    <li>urbworld->Enike</li>
-    <li>urbworld->Adocia</li>
-    <li>urbworld->N'toch</li>
-    <li>urbworld->Barca</li>
-    <li>warworld->Kemia</li>
-    <li>warworld->Vanu</li>
-    <li>warworld->Samnium</li>
-    <li>warworld->Kyrus</li>
-    <li>warworld->Punica</li>
-    <li>warworld->Cimbria XII</li>
-    <li>warworld->Barkitos</li>
+    <li>animalworld->سورن</li>
+    <li>animalworld->ريديل</li>
+    <li>animalworld->زوتيرا</li>
+    <li>animalworld->ثيلاسين</li>
+    <li>animalworld->جياي</li>
+    <li>animalworld->عالم ستيلر</li>
+    <li>animalworld->أوكتون</li>
+    <li>asteroid->إيوامورا</li>
+    <li>asteroid->أتورا</li>
+    <li>asteroid->ويدرشينز</li>
+    <li>asteroid->رانومي</li>
+    <li>asteroid->آش 265</li>
+    <li>asteroid->تاكسلوس</li>
+    <li>asteroid->أرين سيغما</li>
+    <li>coreworld->نوفاروما</li>
+    <li>coreworld->لوتوني</li>
+    <li>coreworld->زيغلار</li>
+    <li>coreworld->نوفاروما</li>
+    <li>coreworld->كورمورا برايم</li>
+    <li>coreworld->غلوسوليا</li>
+    <li>coreworld->باربروس</li>
+    <li>deadworld->كالوس التاسع</li>
+    <li>deadworld->هاسبيا</li>
+    <li>deadworld->غوست الرابع</li>
+    <li>deadworld->بيريموند</li>
+    <li>deadworld->أردار</li>
+    <li>deadworld->كريمهيلد</li>
+    <li>deadworld->ميليساندز</li>
+    <li>deathworld->كريتيكون</li>
+    <li>deathworld->زارتزا</li>
+    <li>deathworld->رايث</li>
+    <li>deathworld->سبيكترا</li>
+    <li>deathworld->جي نوفاهيكس</li>
+    <li>deathworld->قرطاجة</li>
+    <li>deathworld->غريمكور</li>
+    <li>dinoworld->أوبانيين</li>
+    <li>dinoworld->زوتيرا</li>
+    <li>dinoworld->إينيو</li>
+    <li>dinoworld->باريونيكس</li>
+    <li>dinoworld->إنسيلو</li>
+    <li>dinoworld->فيناتور</li>
+    <li>dinoworld->براك</li>
+    <li>feudalworld->أراسينا السادس</li>
+    <li>feudalworld->نوشادوس</li>
+    <li>feudalworld->فيلسون</li>
+    <li>feudalworld->فيث</li>
+    <li>feudalworld->بلوخ ريجيس</li>
+    <li>feudalworld->كارلوسفير</li>
+    <li>feudalworld->ماغنا ديجو</li>
+    <li>glassworld->سيتي الخامس</li>
+    <li>glassworld->طيبة الرابع عشر</li>
+    <li>glassworld->ناغا</li>
+    <li>glassworld->مرو</li>
+    <li>glassworld->بيرس</li>
+    <li>glassworld->شكيم</li>
+    <li>glassworld->يلهازور</li>
+    <li>glitterworld->كالثاس الرابع</li>
+    <li>glitterworld->آمون-تي</li>
+    <li>glitterworld->صوفيامندا</li>
+    <li>glitterworld->روجيا</li>
+    <li>glitterworld->أوتمايور</li>
+    <li>glitterworld->كاسبيان</li>
+    <li>glitterworld->كينيريلا</li>
+    <li>iceworld->ييتاك</li>
+    <li>iceworld->ديدتشينكو</li>
+    <li>iceworld->بالتورو</li>
+    <li>iceworld->فورتويل</li>
+    <li>iceworld->جاكوا</li>
+    <li>iceworld->كريستنسن</li>
+    <li>iceworld->بارنز</li>
+    <li>indworld->إيريثير</li>
+    <li>indworld->الصين الجديدة</li>
+    <li>indworld->هادرز</li>
+    <li>indworld->آيفر</li>
+    <li>indworld->أتشيستا</li>
+    <li>indworld->أودز</li>
+    <li>indworld->إيلادلف</li>
+    <li>medievalworld->تشيليس</li>
+    <li>medievalworld->فينا</li>
+    <li>medievalworld->كاسوني</li>
+    <li>medievalworld->يورك</li>
+    <li>medievalworld->كوشمار</li>
+    <li>medievalworld->ألين</li>
+    <li>medievalworld->دوبروغناغو</li>
+    <li>midworld->خالديريا</li>
+    <li>midworld->إلسين</li>
+    <li>midworld->هايهان</li>
+    <li>midworld->سيولور</li>
+    <li>midworld->بانغا</li>
+    <li>midworld->لندن الجديدة 111</li>
+    <li>midworld->سان ديلندا</li>
+    <li>mineworld->زانيدس</li>
+    <li>mineworld->بينغهام</li>
+    <li>mineworld->سارهي</li>
+    <li>mineworld->غراسبيغ</li>
+    <li>mineworld->تشوكي</li>
+    <li>mineworld->أولمبيا</li>
+    <li>mineworld->أورم</li>
+    <li>oceanicworld->وافيا</li>
+    <li>oceanicworld->وادكا</li>
+    <li>oceanicworld->جيتشن</li>
+    <li>oceanicworld->بورت يام</li>
+    <li>oceanicworld->بايا</li>
+    <li>oceanicworld->ثونيس</li>
+    <li>oceanicworld->مواوي</li>
+    <li>prisonworld->ييتاك</li>
+    <li>prisonworld->أولدغيت</li>
+    <li>prisonworld->بورين</li>
+    <li>prisonworld->هوالو</li>
+    <li>prisonworld->كازمينا</li>
+    <li>prisonworld->بورت باسل</li>
+    <li>prisonworld->شاتو دوين</li>
+    <li>rimworld->فيلسون</li>
+    <li>rimworld->لا غراند</li>
+    <li>rimworld->دالز</li>
+    <li>rimworld->شلالات تويغ</li>
+    <li>rimworld->بويز القديمة</li>
+    <li>rimworld->بوابة الشيطان</li>
+    <li>rimworld->لارامييه</li>
+    <li>ruinworld->الأرض</li>
+    <li>ruinworld->إلوابا</li>
+    <li>ruinworld->زينوا</li>
+    <li>ruinworld->بيتشو</li>
+    <li>ruinworld->بيرديدا</li>
+    <li>ruinworld->هيسارليك</li>
+    <li>ruinworld->هيليكي</li>
+    <li>shellworld->بوكوكارو</li>
+    <li>shellworld->ديستريا</li>
+    <li>shellworld->تروفيك</li>
+    <li>shellworld->ماتريو</li>
+    <li>shellworld->سامن</li>
+    <li>shellworld->زينثيا</li>
+    <li>shellworld->فيربين</li>
+    <li>steamworld->كورليس</li>
+    <li>steamworld->بوراسيك</li>
+    <li>steamworld->سافري الثاني</li>
+    <li>steamworld->هيرون</li>
+    <li>steamworld->مالميسبوري</li>
+    <li>steamworld->أركيتونير</li>
+    <li>steamworld->إسكيبمنت</li>
+    <li>toxicworld->سكيلا</li>
+    <li>toxicworld->ماورو</li>
+    <li>toxicworld->سيروسبور</li>
+    <li>toxicworld->أوكسي السادس</li>
+    <li>toxicworld->سانغواين</li>
+    <li>toxicworld->سولينو</li>
+    <li>toxicworld->إمباتوس</li>
+    <li>transcendentworld->زاروه</li>
+    <li>transcendentworld->إيمانانس السادس</li>
+    <li>transcendentworld->قبّا</li>
+    <li>transcendentworld->أينسوف</li>
+    <li>transcendentworld->ميتفو</li>
+    <li>transcendentworld->ساميدي</li>
+    <li>transcendentworld->سامسار</li>
+    <li>trashworld->باغوا 5</li>
+    <li>trashworld->بوبيل</li>
+    <li>trashworld->ديني التاسع</li>
+    <li>trashworld->غاربش</li>
+    <li>trashworld->ترآج</li>
+    <li>trashworld->ريبسيك</li>
+    <li>trashworld->ميسترا</li>
+    <li>urbworld->يوتيربي</li>
+    <li>urbworld->أفينا</li>
+    <li>urbworld->إيسالون</li>
+    <li>urbworld->إنيكي</li>
+    <li>urbworld->أدوسيا</li>
+    <li>urbworld->إنتوتش</li>
+    <li>urbworld->باركا</li>
+    <li>warworld->كيميا</li>
+    <li>warworld->فانو</li>
+    <li>warworld->سامنيوم</li>
+    <li>warworld->كيروس</li>
+    <li>warworld->بونيكا</li>
+    <li>warworld->سيمبريا الثاني عشر</li>
+    <li>warworld->باركيتوس</li>
     <li>schematic_container->دليل</li>
-    <li>schematic_container->مختارات</li>
-    <li>schematic_container->حافظة</li>
+    <li>schematic_container->كتاب مختارات</li>
+    <li>schematic_container->حافظ أوراق</li>
     <li>schematic_container->مجلد</li>
     <li>schematic_container->كتيب</li>
     <li>schematic_container->غلاف</li>
     <li>schematic_container->حامل</li>
-    <li>schematic_container->حزمة</li>
+    <li>schematic_container->طرد</li>
     <li>schematic_container->ملف</li>
-    <li>schematic_container->رزمة</li>
-    <li>schematic_container->حقيبة</li>
+    <li>schematic_container->مغلف</li>
+    <li>schematic_container->ظرف</li>
     <li>schematic_container->وعاء</li>
     <li>physical_adjective->متسخ</li>
     <li>physical_adjective->صغير جداً</li>
@@ -1632,13 +1647,13 @@
     <li>contain_verb->يخزّن</li>
     <li>contain_verb->يغلّف</li>
     <li>schematic_synonym->مخطط</li>
-    <li>schematic_synonym->رسم بياني</li>
-    <li>schematic_synonym->مخطط تقني</li>
+    <li>schematic_synonym->رسم</li>
     <li>schematic_synonym->تصميم</li>
-    <li>schematic_synonym->نموذج أولي</li>
-    <li>schematic_synonym->مواصفات منتج</li>
-    <li>schematic_synonym->مجموعة تعليمات</li>
-    <li>state_adjective->مسودة</li>
+    <li>schematic_synonym->نموذج</li>
+    <li>schematic_synonym->مستند</li>
+    <li>schematic_synonym->دليل</li>
+    <li>schematic_synonym->مخطوط</li>
+    <li>state_adjective->أولي</li>
     <li>state_adjective->نهائي</li>
     <li>state_adjective->قيد العمل</li>
     <li>state_adjective->مكتمل</li>
@@ -1656,15 +1671,15 @@
     <li>theory_synonym_adj->فكرة</li>
     <li>theory_synonym_adj->فرضية</li>
     <li>theory_synonym_adj->تصور</li>
-    <li>device_synonym->آلية</li>
+    <li>device_synonym->ميكانيزم</li>
     <li>device_synonym->جهاز</li>
-    <li>device_synonym->أداة</li>
+    <li>device_synonym->مكوّن</li>
     <li>device_synonym->اختراع</li>
     <li>device_synonym->أداة صغيرة</li>
-    <li>device_synonym->إبداع</li>
+    <li>device_synonym->ابتكار</li>
     <li>device_synonym->جهاز مبتكر</li>
-    <li>device_synonym->أداة تثبيت</li>
-    <li>device_synonym->وحدة</li>
+    <li>device_synonym->مثبّت</li>
+    <li>device_synonym->نظام</li>
     <li>image_types->صور فوتوغرافية</li>
     <li>image_types->رسومات</li>
     <li>image_types->نقوش</li>
@@ -2049,7 +2064,7 @@
     <li>discussion->يُثبت هذا الـ[textbook] سلطة المؤلف في موضوع [subject][detail]</li>
     <li>discussion->أولئك الذين يبحثون عن [understanding_synonym] [subject] يتجهون إلى هذا الـ[textbook] الـ[notable_adjective][detail]</li>
     <li>discussion->[textbook] معياري عن [subject][detail]</li>
-    <li>discussion->طبعة مبكرة من [textbook] المؤلف عن [subject][detail]</li>
+    <li>discussion->طبعة مبكرة من [textbook] ألّفه المؤلف عن [subject][detail]</li>
     <li>detail->. يركز الـ[precis_synonym] على الجوانب الأكثر مهارة في الموضوع</li>
     <li>detail->. إنه [precis_synonym] مقتضب لموضوع معقد</li>
     <li>detail->. يقول الـ[precis_synonym] إنه عندما كتب [ANYPAWN_label] هذا، كان أحدث ما توصل إليه المجال</li>
@@ -2077,43 +2092,43 @@
     <li>production->في آخر الكتاب، يعلن الناشر عن سلسلة أكبر تعالج جميع الموضوعات اللازمة للبقاء على الحافة</li>
     <li>production->ربما كان بإمكان الناشرين أن يكونوا أكثر صراحة في واجباتهم التحريرية، نظراً للإهمال النحوي</li>
     <li>quality_statement->[exterior_quality] [page_quality]</li>
-    <li>anecdote->نظراً للفجوة الكبيرة بين سنة ميلاد [ANYPAWN_nameFull] وتاريخ نشر هذا الكتاب، فمن غير المرجح أن يكون [ANYPAWN_pronoun] قد عاش ليرى هذا منشوراً</li>
+    <li>anecdote->نظراً للفجوة الكبيرة بين سنة ميلاد [ANYPAWN_nameFull] وتاريخ نشر هذا الكتاب، فمن غير المرجح أن {ANYPAWN_gender ? يكون : تكون} [ANYPAWN_pronoun] قد {ANYPAWN_gender ? عاش ليرى : عاشت لترى} هذا منشوراً</li>
     <li>anecdote->على [note_location]، قام شخص ما بلصق مراجعة لاذعة للكتاب</li>
     <li>anecdote->يشير الـ[precis_synonym] إلى أن هذا الكتاب مر عبر نظام المكتبات العامة في [urbworld]</li>
-    <li>anecdote->وفقاً لـ[note_location]، كان [ANYPAWN_nameFull] معروفاً بكونه أستاذاً في العديد من الموضوعات</li>
+    <li>anecdote->وفقاً لـ[note_location]، {ANYPAWN_gender ? كان : كانت} [ANYPAWN_nameFull] {ANYPAWN_gender ? معروفاً : معروفةً} {ANYPAWN_gender ? بكونه أستاذاً : بكونها أستاذة} في العديد من الموضوعات</li>
     <li>anecdote->وفقاً لـ[note_location]، لا يزال أهل [worldname] يتحدثون عن [ANYPAWN_nameFull] ويستذكرون حبـ[ANYPAWN_possessive] لـ[subject]</li>
-    <li>anecdote->وفقاً لـ[note_location]، قتل حادث تشابك غريب المؤلف [ANYPAWN_nameFull] بعد النشر بوقت قصير</li>
-    <li>anecdote->وفقاً لـ[precis_synonym]، قضى [ANYPAWN_nameFull] أيامـ[ANYPAWN_possessive] في التدريس في الأكاديمية على [coreworld]. هذا الكتاب مأخوذ من محاضراتـ[ANYPAWN_possessive]</li>
+    <li>anecdote->وفقاً لـ[note_location]، قتل حادث تشابك غريب {ANYPAWN_gender ? المؤلف : المؤلفة} [ANYPAWN_nameFull] بعد النشر بوقت قصير</li>
+    <li>anecdote->وفقاً لـ[precis_synonym]، {ANYPAWN_gender ? قضى : قضت} [ANYPAWN_nameFull] أيامـ[ANYPAWN_possessive] في التدريس في الأكاديمية على [coreworld]. هذا الكتاب مأخوذ من محاضراتـ[ANYPAWN_possessive]</li>
     <li>anecdote->وفقاً لـ[precis_synonym]، كانت معرفة [ANYPAWN_nameFull] بـ[subject] مشهورة لدرجة أن الناس كانوا يوقفونـ[ANYPAWN_objective] في الشارع ليسألو[ANYPAWN_objective] عنها</li>
-    <li>anecdote->وفقاً لـ[note_location]، كان [ANYPAWN_nameFull] معوزاً وباع حقوق هذه السلسلة بمبلغ زهيد</li>
-    <li>anecdote->وفقاً لـ[note_location]، كان [ANYPAWN_nameFull] أعمى منذ الولادة، لذا لم ير كتابـ[ANYPAWN_possessive] أبداً</li>
+    <li>anecdote->وفقاً لـ[note_location]، {ANYPAWN_gender ? كان : كانت} [ANYPAWN_nameFull] {ANYPAWN_gender ? معوزاً : معوزةً} {ANYPAWN_gender ? وباع : وباعت} حقوق هذه السلسلة بمبلغ زهيد</li>
+    <li>anecdote->وفقاً لـ[note_location]، {ANYPAWN_gender ? كان : كانت} [ANYPAWN_nameFull] {ANYPAWN_gender ? أعمى : عمياء} منذ الولادة، لذا {ANYPAWN_gender ? لم ير : لم تر} كتابـ[ANYPAWN_possessive] أبداً</li>
     <li>anecdote->وفقاً لـ[note_location]، اشتهرت مسودة [ANYPAWN_nameFull] الأولى من الكتاب المدرسي باحتوائها على خمسين صفحة من الاستطراد. تم حذفها للطبعة الثانية</li>
-    <li>anecdote->وفقاً لـ[note_location]، كانت سمعة [ANYPAWN_nameFull] سيئة للغاية حتى نشر [ANYPAWN_pronoun] هذا الكتاب تحت اسم مستعار</li>
-    <li>anecdote->وفقاً لـ[note_location]، عندما كان طفلاً، كان [ANYPAWN_nameFull] كسولاً لدرجة أن والديـ[ANYPAWN_possessive] يئسوا. هذا الكتاب المدرسي هو إثبات لمهارتـ[ANYPAWN_possessive]</li>
-    <li>anecdote->وفقاً لـ[precis_synonym]، كان خلال زواج [ANYPAWN_nameFull] الرابع أن تصور [ANYPAWN_pronoun] كتاباً مدرسياً عن [subject]. (أدى هذا إلى طلاقـ[ANYPAWN_possessive] الرابع)</li>
+    <li>anecdote->وفقاً لـ[note_location]، كانت سمعة [ANYPAWN_nameFull] سيئة للغاية حتى {ANYPAWN_gender ? نشر : نشرت} هذا الكتاب تحت اسم مستعار</li>
+    <li>anecdote->وفقاً لـ[note_location]، عندما {ANYPAWN_gender ? كان طفلاً : كانت طفلة}، {ANYPAWN_gender ? كان : كانت} [ANYPAWN_nameFull] {ANYPAWN_gender ? كسولاً : كسولة} لدرجة أن والديـ[ANYPAWN_possessive] يئسوا. هذا الكتاب المدرسي هو إثبات لمهارتـ[ANYPAWN_possessive]</li>
+    <li>anecdote->وفقاً لـ[precis_synonym]، كان خلال زواج [ANYPAWN_nameFull] الرابع أن {ANYPAWN_gender ? تصور : تصورت} كتاباً مدرسياً عن [subject]. (أدى هذا إلى طلاقـ[ANYPAWN_possessive] الرابع)</li>
     <li>textbook->كتاب تمهيدي</li>
     <li>textbook->كتيب</li>
     <li>textbook->كتاب مدرسي</li>
     <li>textbook(p=6)->كتاب</li>
-    <li>textbook->كراسة تدريبات</li>
+    <li>textbook->دفتر تدريبات</li>
     <li>textbook->كتاب مرجعي</li>
-    <li>textbook->خلاصة</li>
+    <li>textbook->ملخص شامل</li>
     <li>textbook->دليل</li>
     <li>textbook->كتيب</li>
     <li>textbook->منهج</li>
     <li>textbook->كتاب مقرر</li>
     <li>textbook->كتاب مرجعي</li>
     <li>textbook->كتاب مدرسي</li>
-    <li>textbook->موسوعة</li>
+    <li>textbook->مرجع موسوعي</li>
     <li>textbook->دليل</li>
     <li>textbook->كتاب تجاري</li>
     <li>textbook->عمل</li>
     <li>precis_synonym->ملخص</li>
-    <li>precis_synonym->صفحة عنوان</li>
+    <li>precis_synonym->تمهيد</li>
     <li>precis_synonym->ملخص</li>
     <li>precis_synonym->موجز</li>
     <li>precis_synonym->مخطط</li>
-    <li>precis_synonym->خلاصة</li>
+    <li>precis_synonym->مستخلص</li>
     <li>note_location->الغلاف الأمامي</li>
     <li>note_location->الغلاف الخلفي</li>
     <li>note_location->الطية الأمامية</li>
@@ -2156,7 +2171,7 @@
     <li>notable_adjective->شائع</li>
     <li>notable_adjective->مألوف</li>
     <li>notable_adjective->خالد</li>
-    <li>notable_adjective->غير متوازن</li>
+    <li>notable_adjective->مضطرب</li>
     <li>notable_adjective->متناغم</li>
     <li>notable_adjective->أنيق</li>
     <li>notable_adjective->بسيط</li>
@@ -2221,181 +2236,181 @@
     <li>worldname->[animalworld]</li>
     <li>feralworld->[animalworld]</li>
     <li>milworld->[warworld]</li>
-    <li>animalworld->Sorne</li>
-    <li>animalworld->Rhydell</li>
-    <li>animalworld->Zoutera</li>
-    <li>animalworld->Thylacine</li>
-    <li>animalworld->Jiai</li>
-    <li>animalworld->Steller's World</li>
-    <li>animalworld->Aukton</li>
-    <li>asteroid->Iwamura</li>
-    <li>asteroid->Atura</li>
-    <li>asteroid->Widdershins</li>
-    <li>asteroid->Ranomi</li>
-    <li>asteroid->Aesh 265</li>
-    <li>asteroid->Taxlos</li>
-    <li>asteroid->Aryn Sigma</li>
-    <li>coreworld->Novaroma</li>
-    <li>coreworld->Lutuni</li>
-    <li>coreworld->Zeglar</li>
-    <li>coreworld->Novaroma</li>
-    <li>coreworld->Cormora Prime</li>
-    <li>coreworld->Glossolia</li>
-    <li>coreworld->Barbaros</li>
-    <li>deadworld->Callos IX</li>
-    <li>deadworld->Haspia</li>
-    <li>deadworld->Gost IV</li>
-    <li>deadworld->Berimund</li>
-    <li>deadworld->Ardar</li>
-    <li>deadworld->Kremhild</li>
-    <li>deadworld->Melisandz</li>
-    <li>deathworld->Creticon</li>
-    <li>deathworld->Zartza</li>
-    <li>deathworld->Rayth</li>
-    <li>deathworld->Spectra</li>
-    <li>deathworld->JNovahex</li>
-    <li>deathworld->Carthago</li>
-    <li>deathworld->Grimcore</li>
-    <li>dinoworld->Oubanyen</li>
-    <li>dinoworld->Zoutera</li>
-    <li>dinoworld->Einio</li>
-    <li>dinoworld->Baryonyx</li>
-    <li>dinoworld->N'cilo</li>
-    <li>dinoworld->Venator</li>
-    <li>dinoworld->Brach</li>
-    <li>feudalworld->Aracena VI</li>
-    <li>feudalworld->Nuchadus</li>
-    <li>feudalworld->Filson</li>
-    <li>feudalworld->Fieth</li>
-    <li>feudalworld->Bloch Regis</li>
-    <li>feudalworld->Carlosphere</li>
-    <li>feudalworld->Magna Dijou</li>
-    <li>glassworld->Ceti V</li>
-    <li>glassworld->Thebes XIV</li>
-    <li>glassworld->Naga</li>
-    <li>glassworld->Merv</li>
-    <li>glassworld->Perse</li>
-    <li>glassworld->Shechem</li>
-    <li>glassworld->Yelhazor</li>
-    <li>glitterworld->Kalthas IV</li>
-    <li>glitterworld->Amen-Ti</li>
-    <li>glitterworld->Sophiamunda</li>
-    <li>glitterworld->Rogia</li>
-    <li>glitterworld->Utmaior</li>
-    <li>glitterworld->Caspian</li>
-    <li>glitterworld->Kenerella</li>
-    <li>iceworld->Yttak</li>
-    <li>iceworld->Dedchenko</li>
-    <li>iceworld->Baltoro</li>
-    <li>iceworld->Furtwale</li>
-    <li>iceworld->Jaqua</li>
-    <li>iceworld->Christensen</li>
-    <li>iceworld->Barnes</li>
-    <li>indworld->Irithir</li>
-    <li>indworld->New China</li>
-    <li>indworld->Hudders</li>
-    <li>indworld->Iver</li>
-    <li>indworld->Achesta</li>
-    <li>indworld->Oods</li>
-    <li>indworld->Iladelf</li>
-    <li>medievalworld->Chelis</li>
-    <li>medievalworld->Vinna</li>
-    <li>medievalworld->Cassone</li>
-    <li>medievalworld->Jork</li>
-    <li>medievalworld->Cochmar</li>
-    <li>medievalworld->Alin</li>
-    <li>medievalworld->Dubrognago</li>
-    <li>midworld->Khalderia</li>
-    <li>midworld->Elsin</li>
-    <li>midworld->Haihan</li>
-    <li>midworld->Seolure</li>
-    <li>midworld->Panga</li>
-    <li>midworld->New London CXI</li>
-    <li>midworld->San Delenda</li>
-    <li>mineworld->Xanides</li>
-    <li>mineworld->Bingham</li>
-    <li>mineworld->Saarhi</li>
-    <li>mineworld->Grasbeg</li>
-    <li>mineworld->Chuqui</li>
-    <li>mineworld->Olimpia</li>
-    <li>mineworld->Orme</li>
-    <li>oceanicworld->Wavia</li>
-    <li>oceanicworld->Wadka</li>
-    <li>oceanicworld->Gichen</li>
-    <li>oceanicworld->Port Yam</li>
-    <li>oceanicworld->Baia</li>
-    <li>oceanicworld->Thonis</li>
-    <li>oceanicworld->Moaui</li>
-    <li>prisonworld->Yttak</li>
-    <li>prisonworld->Aldgate</li>
-    <li>prisonworld->Borren</li>
-    <li>prisonworld->Hoalo</li>
-    <li>prisonworld->Casmina</li>
-    <li>prisonworld->Port Basil</li>
-    <li>prisonworld->Chateau D'Ouen</li>
-    <li>rimworld->Filson</li>
-    <li>rimworld->La Grand</li>
-    <li>rimworld->Dalles</li>
-    <li>rimworld->Twig Falls</li>
-    <li>rimworld->Old Boise</li>
-    <li>rimworld->Devil's Gate</li>
-    <li>rimworld->Laramiere</li>
-    <li>ruinworld->Earth</li>
-    <li>ruinworld->Ilwaba</li>
-    <li>ruinworld->Xennoa</li>
-    <li>ruinworld->Pichu</li>
-    <li>ruinworld->Perdida</li>
-    <li>ruinworld->Hisarlik</li>
-    <li>ruinworld->Helike</li>
-    <li>shellworld->Boccocarro</li>
-    <li>shellworld->Destria</li>
-    <li>shellworld->Trophic</li>
-    <li>shellworld->Matrio</li>
-    <li>shellworld->Samen</li>
-    <li>shellworld->Xinthia</li>
-    <li>shellworld->Ferbine</li>
-    <li>steamworld->Corliss</li>
-    <li>steamworld->Borassic</li>
-    <li>steamworld->Savery II</li>
-    <li>steamworld->Heron</li>
-    <li>steamworld->Malmesburi</li>
-    <li>steamworld->Architonnerre</li>
-    <li>steamworld->Escapement</li>
-    <li>toxicworld->Scylla</li>
-    <li>toxicworld->Mauro</li>
-    <li>toxicworld->Cerospor</li>
-    <li>toxicworld->Oxy VI</li>
-    <li>toxicworld->Sangwine</li>
-    <li>toxicworld->Soleno</li>
-    <li>toxicworld->Imbatus</li>
-    <li>transcendentworld->Xaroh</li>
-    <li>transcendentworld->Immanence VI</li>
-    <li>transcendentworld->Qabba</li>
-    <li>transcendentworld->Einsof</li>
-    <li>transcendentworld->Mitvo</li>
-    <li>transcendentworld->Samydi</li>
-    <li>transcendentworld->Samsarr</li>
-    <li>trashworld->Bagua 5</li>
-    <li>trashworld->Puobell</li>
-    <li>trashworld->Deni IX</li>
-    <li>trashworld->Garbsh</li>
-    <li>trashworld->Tra'age</li>
-    <li>trashworld->Reepsyk</li>
-    <li>trashworld->Mystras</li>
-    <li>urbworld->Euterpe</li>
-    <li>urbworld->Avenna</li>
-    <li>urbworld->Essalon</li>
-    <li>urbworld->Enike</li>
-    <li>urbworld->Adocia</li>
-    <li>urbworld->N'toch</li>
-    <li>urbworld->Barca</li>
-    <li>warworld->Kemia</li>
-    <li>warworld->Vanu</li>
-    <li>warworld->Samnium</li>
-    <li>warworld->Kyrus</li>
-    <li>warworld->Punica</li>
-    <li>warworld->Cimbria XII</li>
-    <li>warworld->Barkitos</li>
+    <li>animalworld->سورن</li>
+    <li>animalworld->ريديل</li>
+    <li>animalworld->زوتيرا</li>
+    <li>animalworld->ثيلاسين</li>
+    <li>animalworld->جياي</li>
+    <li>animalworld->عالم ستيلر</li>
+    <li>animalworld->أوكتون</li>
+    <li>asteroid->إيوامورا</li>
+    <li>asteroid->أتورا</li>
+    <li>asteroid->ويدرشينز</li>
+    <li>asteroid->رانومي</li>
+    <li>asteroid->آش 265</li>
+    <li>asteroid->تاكسلوس</li>
+    <li>asteroid->أرين سيغما</li>
+    <li>coreworld->نوفاروما</li>
+    <li>coreworld->لوتوني</li>
+    <li>coreworld->زيغلار</li>
+    <li>coreworld->نوفاروما</li>
+    <li>coreworld->كورمورا برايم</li>
+    <li>coreworld->غلوسوليا</li>
+    <li>coreworld->باربروس</li>
+    <li>deadworld->كالوس التاسع</li>
+    <li>deadworld->هاسبيا</li>
+    <li>deadworld->غوست الرابع</li>
+    <li>deadworld->بيريموند</li>
+    <li>deadworld->أردار</li>
+    <li>deadworld->كريمهيلد</li>
+    <li>deadworld->ميليساندز</li>
+    <li>deathworld->كريتيكون</li>
+    <li>deathworld->زارتزا</li>
+    <li>deathworld->رايث</li>
+    <li>deathworld->سبيكترا</li>
+    <li>deathworld->جي نوفاهيكس</li>
+    <li>deathworld->قرطاجة</li>
+    <li>deathworld->غريمكور</li>
+    <li>dinoworld->أوبانيين</li>
+    <li>dinoworld->زوتيرا</li>
+    <li>dinoworld->إينيو</li>
+    <li>dinoworld->باريونيكس</li>
+    <li>dinoworld->إنسيلو</li>
+    <li>dinoworld->فيناتور</li>
+    <li>dinoworld->براك</li>
+    <li>feudalworld->أراسينا السادس</li>
+    <li>feudalworld->نوشادوس</li>
+    <li>feudalworld->فيلسون</li>
+    <li>feudalworld->فيث</li>
+    <li>feudalworld->بلوخ ريجيس</li>
+    <li>feudalworld->كارلوسفير</li>
+    <li>feudalworld->ماغنا ديجو</li>
+    <li>glassworld->سيتي الخامس</li>
+    <li>glassworld->طيبة الرابع عشر</li>
+    <li>glassworld->ناغا</li>
+    <li>glassworld->مرو</li>
+    <li>glassworld->بيرس</li>
+    <li>glassworld->شكيم</li>
+    <li>glassworld->يلهازور</li>
+    <li>glitterworld->كالثاس الرابع</li>
+    <li>glitterworld->آمون-تي</li>
+    <li>glitterworld->صوفيامندا</li>
+    <li>glitterworld->روجيا</li>
+    <li>glitterworld->أوتمايور</li>
+    <li>glitterworld->كاسبيان</li>
+    <li>glitterworld->كينيريلا</li>
+    <li>iceworld->ييتاك</li>
+    <li>iceworld->ديدتشينكو</li>
+    <li>iceworld->بالتورو</li>
+    <li>iceworld->فورتويل</li>
+    <li>iceworld->جاكوا</li>
+    <li>iceworld->كريستنسن</li>
+    <li>iceworld->بارنز</li>
+    <li>indworld->إيريثير</li>
+    <li>indworld->الصين الجديدة</li>
+    <li>indworld->هادرز</li>
+    <li>indworld->آيفر</li>
+    <li>indworld->أتشيستا</li>
+    <li>indworld->أودز</li>
+    <li>indworld->إيلادلف</li>
+    <li>medievalworld->تشيليس</li>
+    <li>medievalworld->فينا</li>
+    <li>medievalworld->كاسوني</li>
+    <li>medievalworld->يورك</li>
+    <li>medievalworld->كوشمار</li>
+    <li>medievalworld->ألين</li>
+    <li>medievalworld->دوبروغناغو</li>
+    <li>midworld->خالديريا</li>
+    <li>midworld->إلسين</li>
+    <li>midworld->هايهان</li>
+    <li>midworld->سيولور</li>
+    <li>midworld->بانغا</li>
+    <li>midworld->لندن الجديدة 111</li>
+    <li>midworld->سان ديلندا</li>
+    <li>mineworld->زانيدس</li>
+    <li>mineworld->بينغهام</li>
+    <li>mineworld->سارهي</li>
+    <li>mineworld->غراسبيغ</li>
+    <li>mineworld->تشوكي</li>
+    <li>mineworld->أولمبيا</li>
+    <li>mineworld->أورم</li>
+    <li>oceanicworld->وافيا</li>
+    <li>oceanicworld->وادكا</li>
+    <li>oceanicworld->جيتشن</li>
+    <li>oceanicworld->بورت يام</li>
+    <li>oceanicworld->بايا</li>
+    <li>oceanicworld->ثونيس</li>
+    <li>oceanicworld->مواوي</li>
+    <li>prisonworld->ييتاك</li>
+    <li>prisonworld->أولدغيت</li>
+    <li>prisonworld->بورين</li>
+    <li>prisonworld->هوالو</li>
+    <li>prisonworld->كازمينا</li>
+    <li>prisonworld->بورت باسل</li>
+    <li>prisonworld->شاتو دوين</li>
+    <li>rimworld->فيلسون</li>
+    <li>rimworld->لا غراند</li>
+    <li>rimworld->دالز</li>
+    <li>rimworld->شلالات تويغ</li>
+    <li>rimworld->بويز القديمة</li>
+    <li>rimworld->بوابة الشيطان</li>
+    <li>rimworld->لارامييه</li>
+    <li>ruinworld->الأرض</li>
+    <li>ruinworld->إلوابا</li>
+    <li>ruinworld->زينوا</li>
+    <li>ruinworld->بيتشو</li>
+    <li>ruinworld->بيرديدا</li>
+    <li>ruinworld->هيسارليك</li>
+    <li>ruinworld->هيليكي</li>
+    <li>shellworld->بوكوكارو</li>
+    <li>shellworld->ديستريا</li>
+    <li>shellworld->تروفيك</li>
+    <li>shellworld->ماتريو</li>
+    <li>shellworld->سامن</li>
+    <li>shellworld->زينثيا</li>
+    <li>shellworld->فيربين</li>
+    <li>steamworld->كورليس</li>
+    <li>steamworld->بوراسيك</li>
+    <li>steamworld->سافري الثاني</li>
+    <li>steamworld->هيرون</li>
+    <li>steamworld->مالميسبوري</li>
+    <li>steamworld->أركيتونير</li>
+    <li>steamworld->إسكيبمنت</li>
+    <li>toxicworld->سكيلا</li>
+    <li>toxicworld->ماورو</li>
+    <li>toxicworld->سيروسبور</li>
+    <li>toxicworld->أوكسي السادس</li>
+    <li>toxicworld->سانغواين</li>
+    <li>toxicworld->سولينو</li>
+    <li>toxicworld->إمباتوس</li>
+    <li>transcendentworld->زاروه</li>
+    <li>transcendentworld->إيمانانس السادس</li>
+    <li>transcendentworld->قبّا</li>
+    <li>transcendentworld->أينسوف</li>
+    <li>transcendentworld->ميتفو</li>
+    <li>transcendentworld->ساميدي</li>
+    <li>transcendentworld->سامسار</li>
+    <li>trashworld->باغوا 5</li>
+    <li>trashworld->بوبيل</li>
+    <li>trashworld->ديني التاسع</li>
+    <li>trashworld->غاربش</li>
+    <li>trashworld->ترآج</li>
+    <li>trashworld->ريبسيك</li>
+    <li>trashworld->ميسترا</li>
+    <li>urbworld->يوتيربي</li>
+    <li>urbworld->أفينا</li>
+    <li>urbworld->إيسالون</li>
+    <li>urbworld->إنيكي</li>
+    <li>urbworld->أدوسيا</li>
+    <li>urbworld->إنتوتش</li>
+    <li>urbworld->باركا</li>
+    <li>warworld->كيميا</li>
+    <li>warworld->فانو</li>
+    <li>warworld->سامنيوم</li>
+    <li>warworld->كيروس</li>
+    <li>warworld->بونيكا</li>
+    <li>warworld->سيمبريا الثاني عشر</li>
+    <li>warworld->باركيتوس</li>
  </Description_SkillBook.rulePack.rulesStrings>
   
 </LanguageData>

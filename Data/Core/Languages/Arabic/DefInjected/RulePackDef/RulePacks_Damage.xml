@@ -15,17 +15,28 @@
     <li>destroyed_past->detonated</li>
   -->
   <Damage_Bomb.rulePack.rulesStrings>
-    <li>damaged_past(p=2)->نسف</li>
-    <li>damaged_past(p=2)->فجر</li>
-    <li>damaged_past->أصاب</li>
-    <li>damaged_past->أضر</li>
-    <li>damaged_past->جرح</li>
-    <li>damaged_past->آذى</li>
-    <li>destroyed_past->حطم</li>
-    <li>destroyed_past->سحق</li>
-    <li>destroyed_past->أباد</li>
-    <li>destroyed_past->أفنى</li>
-    <li>destroyed_past->فجر</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)->نسفت</li>
+    <li>damaged_past(p=2,INITIATOR_gender!=Female)->نسف</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)->فجّرت</li>
+    <li>damaged_past(p=2,INITIATOR_gender!=Female)->فجّر</li>
+    <li>damaged_past(INITIATOR_gender==Female)->أصابت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->أصاب</li>
+    <li>damaged_past(INITIATOR_gender==Female)->أتلفت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->أتلف</li>
+    <li>damaged_past(INITIATOR_gender==Female)->جرحت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->جرح</li>
+    <li>damaged_past(INITIATOR_gender==Female)->آذت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->آذى</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->حطّمت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->حطّم</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->سحقت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->سحق</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->أبادت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->أباد</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->أفنت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->أفنى</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->فجّرت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->فجّر</li>
  </Damage_Bomb.rulePack.rulesStrings>
   
   <!-- EN:
@@ -35,9 +46,12 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_EMP.rulePack.rulesStrings>
-    <li>damaged_past->كهرب</li>
-    <li>damaged_past->صعق</li>
-    <li>damaged_past->صعق</li>
+    <li>damaged_past(INITIATOR_gender==Female)->كهربت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->كهرب</li>
+    <li>damaged_past(INITIATOR_gender==Female)->صعقت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->صعق</li>
+    <li>damaged_past(INITIATOR_gender==Female)->عطّلت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->عطّل</li>
     <li>destroyed_past->damaged_past</li>
  </Damage_EMP.rulePack.rulesStrings>
   
@@ -49,10 +63,14 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Extinguish.rulePack.rulesStrings>
-    <li>damaged_past->أطفأ</li>
-    <li>damaged_past->أغرق</li>
-    <li>damaged_past->أرغى</li>
-    <li>damaged_past->أخمد</li>
+    <li>damaged_past(INITIATOR_gender==Female)->أطفأت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->أطفأ</li>
+    <li>damaged_past(INITIATOR_gender==Female)->أغرقت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->أغرق</li>
+    <li>damaged_past(INITIATOR_gender==Female)->غمرت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->غمر</li>
+    <li>damaged_past(INITIATOR_gender==Female)->أخمدت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->أخمد</li>
     <li>destroyed_past->damaged_past</li>
  </Damage_Extinguish.rulePack.rulesStrings>
   
@@ -91,38 +109,70 @@
     <li>destroyed_present->detonating</li>
   -->
   <Damage_Flame.rulePack.rulesStrings>
-    <li>damaged_past(p=2)->نسف</li>
-    <li>damaged_past(p=2)->حرق</li>
-    <li>damaged_past(p=2)->أحرق</li>
-    <li>damaged_past(p=2)->قرح</li>
-    <li>damaged_past(p=2)->أشعل</li>
-    <li>damaged_past(p=2)->كوى</li>
-    <li>damaged_past->أصاب</li>
-    <li>damaged_past->أضر</li>
-    <li>damaged_past->جرح</li>
-    <li>damaged_past->آذى</li>
-    <li>damaged_present(p=2)->ينسف</li>
-    <li>damaged_present(p=2)->يحرق</li>
-    <li>damaged_present(p=2)->يحرق</li>
-    <li>damaged_present(p=2)->يقرح</li>
-    <li>damaged_present(p=2)->يشعل</li>
-    <li>damaged_present(p=2)->يكوي</li>
-    <li>damaged_present->يجرح</li>
-    <li>damaged_present->يضر</li>
-    <li>damaged_present->يجرح</li>
-    <li>damaged_present->يؤذي</li>
-    <li>destroyed_past->أحرق</li>
-    <li>destroyed_past->أحرق</li>
-    <li>destroyed_past->فحم</li>
-    <li>destroyed_past->أباد</li>
-    <li>destroyed_past->أفنى</li>
-    <li>destroyed_past->فجر</li>
-    <li>destroyed_present->يحرق</li>
-    <li>destroyed_present->يحرق</li>
-    <li>destroyed_present->يفحم</li>
-    <li>destroyed_present->يبيد</li>
-    <li>destroyed_present->يفني</li>
-    <li>destroyed_present->يفجر</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)->نسفت</li>
+    <li>damaged_past(p=2,INITIATOR_gender!=Female)->نسف</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)->لفحت</li>
+    <li>damaged_past(p=2,INITIATOR_gender!=Female)->لفح</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)->أحرقت</li>
+    <li>damaged_past(p=2,INITIATOR_gender!=Female)->أحرق</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)->نفّطت</li>
+    <li>damaged_past(p=2,INITIATOR_gender!=Female)->نفّط</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)->أشعلت</li>
+    <li>damaged_past(p=2,INITIATOR_gender!=Female)->أشعل</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)->كوت</li>
+    <li>damaged_past(p=2,INITIATOR_gender!=Female)->كوى</li>
+    <li>damaged_past(INITIATOR_gender==Female)->أصابت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->أصاب</li>
+    <li>damaged_past(INITIATOR_gender==Female)->أتلفت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->أتلف</li>
+    <li>damaged_past(INITIATOR_gender==Female)->جرحت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->جرح</li>
+    <li>damaged_past(INITIATOR_gender==Female)->آذت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->آذى</li>
+    <li>damaged_present(p=2,INITIATOR_gender==Female)->ناسفةً</li>
+    <li>damaged_present(p=2,INITIATOR_gender!=Female)->ناسفاً</li>
+    <li>damaged_present(p=2,INITIATOR_gender==Female)->لافحةً</li>
+    <li>damaged_present(p=2,INITIATOR_gender!=Female)->لافحاً</li>
+    <li>damaged_present(p=2,INITIATOR_gender==Female)->محرقةً</li>
+    <li>damaged_present(p=2,INITIATOR_gender!=Female)->محرقاً</li>
+    <li>damaged_present(p=2,INITIATOR_gender==Female)->منفطةً</li>
+    <li>damaged_present(p=2,INITIATOR_gender!=Female)->منفطاً</li>
+    <li>damaged_present(p=2,INITIATOR_gender==Female)->مشعلةً</li>
+    <li>damaged_present(p=2,INITIATOR_gender!=Female)->مشعلاً</li>
+    <li>damaged_present(p=2,INITIATOR_gender==Female)->كاويةً</li>
+    <li>damaged_present(p=2,INITIATOR_gender!=Female)->كاوياً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->مصيبةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->مصيباً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->متلفةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->متلفاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->جارحةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->جارحاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->مؤذيةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->مؤذياً</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->أحرقت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->أحرق</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->التهمت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->التهم</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->فحّمت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->فحّم</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->أبادت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->أباد</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->أفنت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->أفنى</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->فجّرت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->فجّر</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->محرقةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->محرقاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->ملتهمةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->ملتهماً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مفحّمةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مفحّماً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مبيدةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مبيداً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مفنيةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مفنياً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مفجّرةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مفجّراً</li>
  </Damage_Flame.rulePack.rulesStrings>
   
   <!-- EN:
@@ -132,9 +182,12 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Smoke.rulePack.rulesStrings>
-    <li>damaged_past->دخن</li>
-    <li>damaged_past->ضبب</li>
-    <li>damaged_past->غيم</li>
+    <li>damaged_past(INITIATOR_gender==Female)->دخّنت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->دخّن</li>
+    <li>damaged_past(INITIATOR_gender==Female)->ضبّبت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->ضبّب</li>
+    <li>damaged_past(INITIATOR_gender==Female)->عتّمت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->عتّم</li>
     <li>destroyed_past->damaged_past</li>
  </Damage_Smoke.rulePack.rulesStrings>
   
@@ -146,10 +199,14 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Stun.rulePack.rulesStrings>
-    <li>damaged_past->صعق</li>
-    <li>damaged_past->أربك</li>
-    <li>damaged_past->أوقف</li>
-    <li>damaged_past->دوخ</li>
+    <li>damaged_past(INITIATOR_gender==Female)->صعقت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->صعق</li>
+    <li>damaged_past(INITIATOR_gender==Female)->أربكت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->أربك</li>
+    <li>damaged_past(INITIATOR_gender==Female)->أوقفت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->أوقف</li>
+    <li>damaged_past(INITIATOR_gender==Female)->دوّخت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->دوّخ</li>
     <li>destroyed_past->damaged_past</li>
  </Damage_Stun.rulePack.rulesStrings>
   

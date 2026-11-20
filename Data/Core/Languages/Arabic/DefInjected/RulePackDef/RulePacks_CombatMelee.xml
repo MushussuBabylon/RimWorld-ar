@@ -32,34 +32,34 @@
     <li>deflecting->glancing</li>
   -->
   <Combat_Deflect.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite] [atMaybe] في [recipient_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[skillAdvMaybe] [damaged_past] [INITIATOR_definite] [RECIPIENT_definite] [atMaybe] بـ[implement] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[skillAdvMaybe] [damaged_past] [INITIATOR_definite] [RECIPIENT_definite] [atMaybe] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite]، [skillDescMelee]، [damaged_past] [RECIPIENT_definite] في [recipient_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] أصاب [RECIPIENT_definite] بـ[damaged_inf] من [implement] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[skillAdvMaybe] [INITIATOR_definite] استخدم [implement] لـ[damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] في [recipient_part0_label][deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] بـ[implement][skillAdvMaybe][deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite][skillAdvMaybe][deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite]، [skillDescMelee]، [damaged_past] [RECIPIENT_definite] في [recipient_part0_label][deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] {INITIATOR_gender ? أصاب : أصابت} [RECIPIENT_definite] بـ[damaged_inf] من [implement][deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] {INITIATOR_gender ? استخدم : استخدمت} [implement][skillAdvMaybe] لتوجيه [damaged_inf] إلى [RECIPIENT_definite][deflected_result].</li>
     <li>skillAdvMaybe-></li>
-    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>skillAdvMaybe-> [skillAdv]</li>
     <li>atMaybe-></li>
-    <li>atMaybe->على</li>
-    <li>deflected_result->، لكن [TOOL_label] [deflected] [harmlessly_opt]</li>
-    <li>deflected_result->، [deflecting] عن درعـ[RECIPIENT_possessive] [harmlessly_opt]</li>
+    <li>atMaybe->بقوة</li>
+    <li>deflected_result->، لكن ضربة [TOOL_label] [deflected] عنـ[RECIPIENT_objective][harmlessly_opt]</li>
+    <li>deflected_result->، [deflected] الضربة عن درعـ[RECIPIENT_possessive][harmlessly_opt]</li>
     <li>harmlessly_opt(p=4)-></li>
-    <li>harmlessly_opt->[harmlessly]</li>
-    <li>harmlessly->بدون ضرر</li>
-    <li>harmlessly->بدون فائدة</li>
-    <li>deflected->انحرف</li>
-    <li>deflected->خدش</li>
-    <li>deflected->انزلق</li>
-    <li>deflected->لامس بخفة</li>
-    <li>deflected->ارتد</li>
-    <li>deflected->انزلق جانبياً</li>
-    <li>deflecting->منحرفاً</li>
-    <li>deflecting->خادشاً</li>
-    <li>deflecting->منزلقاً</li>
-    <li>deflecting->ملامساً بخفة</li>
-    <li>deflecting->مرتداً</li>
-    <li>deflecting->منزلقاً جانبياً</li>
+    <li>harmlessly_opt-> [harmlessly]</li>
+    <li>harmlessly->دون ضرر</li>
+    <li>harmlessly->بلا فائدة</li>
+    <li>deflected->انحرفت</li>
+    <li>deflected->ارتدت</li>
+    <li>deflected->انزلقت</li>
+    <li>deflected->ارتدت جانباً</li>
+    <li>deflected->انزلقت جانباً</li>
+    <li>deflected->حادت</li>
+    <li>deflecting->منحرفةً</li>
+    <li>deflecting->مرتدةً</li>
+    <li>deflecting->منزلقةً</li>
+    <li>deflecting->مرتدةً جانباً</li>
+    <li>deflecting->منزلقةً جانباً</li>
+    <li>deflecting->حائدةً</li>
  </Combat_Deflect.rulePack.rulesStrings>
   
   <!-- EN:
@@ -72,13 +72,13 @@
     <li>result->but the attack was cleverly avoided</li>
   -->
   <Combat_Dodge.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[RECIPIENT_definite] تفادى [skillAdvMaybe] [damaged_inf] [INITIATOR_definite] من [implement].</li>
-    <li>r_logentry(p=0.5)->[RECIPIENT_definite] تفادى [skillAdvMaybe] [damaged_inf] [INITIATOR_definite].</li>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] {RECIPIENT_gender ? تفادى : تفادت} [damaged_inf] من [INITIATOR_definite] بـ[implement][skillAdvMaybe].</li>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] {RECIPIENT_gender ? تفادى : تفادت} [damaged_inf] من [INITIATOR_definite][skillAdvMaybe].</li>
     <li>skillAdvMaybe-></li>
-    <li>skillAdvMaybe->[skillAdv]</li>
-    <li>result->لكن [RECIPIENT_definite] قفز بعيداً عن الطريق</li>
-    <li>result->لكن خدعته خدعة [RECIPIENT_definite]</li>
-    <li>result->لكن تم تفادي الهجوم بذكاء</li>
+    <li>skillAdvMaybe-> [skillAdv]</li>
+    <li>result->لكن [RECIPIENT_definite] {RECIPIENT_gender ? قفز : قفزت} بعيداً عن الطريق</li>
+    <li>result->{INITIATOR_gender ? لكنه انخدع : لكنها انخدعت} بخدعة [RECIPIENT_definite]</li>
+    <li>result->لكن [RECIPIENT_definite] {RECIPIENT_gender ? تفادى : تفادت} الهجوم بذكاء</li>
  </Combat_Dodge.rulePack.rulesStrings>
   
   <!-- EN:
@@ -104,26 +104,26 @@
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
   -->
   <Combat_Hit.rulePack.rulesStrings>
-    <li>r_logentry(p=1.0)->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite] في [recipient_part0_label].</li>
-    <li>r_logentry(p=0.4)->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite] في [recipient_part0_label] [strikeAdv].</li>
-    <li>r_logentry(p=0.4)->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite] في [recipient_part0_label]، [flavortext_consequence].</li>
+    <li>r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] في [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] في [recipient_part0_label] [strikeAdv].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] في [recipient_part0_label]، [flavortext_consequence].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite]، [skillDescMelee]، [damaged_past] [RECIPIENT_definite] في [recipient_part0_label].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite]، [skillDescMelee]، [strikeAdv] [damaged_past] [RECIPIENT_definite] في [recipient_part0_label].</li>
-    <li>r_logentry(p=0.4)->[destroyed_past] [INITIATOR_definite] [destroyed_targets][RECIPIENT_possessive].</li>
-    <li>r_logentry(p=0.4)->[destroyed_past] [INITIATOR_definite] [destroyed_targets][RECIPIENT_possessive] [destroyed_suffix].</li>
-    <li>r_logentry(p=0.4)->[destroyed_past] [INITIATOR_definite] [destroyed_targets][RECIPIENT_possessive] بـ[implement].</li>
-    <li>r_logentry(p=1,recipient_part_count==0)->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite] بـ[implement].</li>
-    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] بـ[implement].</li>
-    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [destroyed_targets][RECIPIENT_possessive]</li>
-    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [damaged_targets][RECIPIENT_possessive]</li>
-    <li>result(p=1)->[destroyed_present] [destroyed_targets][RECIPIENT_possessive] و[damaged_present] [damaged_targets][RECIPIENT_possessive]</li>
-    <li>action(p=1.0)->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite] بـ[implement]</li>
-    <li>action(p=0.3)->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite]</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]، [skillDescMelee]، [damaged_past] [RECIPIENT_definite] في [recipient_part0_label] [strikeAdv].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [destroyed_targets] من جسد [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [destroyed_targets] من جسد [RECIPIENT_definite] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [destroyed_targets] من جسد [RECIPIENT_definite] بـ[implement].</li>
+    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] بـ[implement].</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] بـ[implement] [skillAdv].</li>
+    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [destroyed_targets] من جسد[RECIPIENT_possessive]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [damaged_targets] من جسد[RECIPIENT_possessive]</li>
+    <li>result(p=1)->[destroyed_present] [destroyed_targets] و[damaged_present] [damaged_targets] من جسد[RECIPIENT_possessive]</li>
+    <li>action(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] بـ[implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite]، [skillDescMelee]، [damaged_past] [RECIPIENT_definite]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] أصاب [RECIPIENT_definite] بـ[damaged_inf] من [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite]، [skillDescMelee]، أصاب [RECIPIENT_definite] بـ[damaged_inf] من [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] استخدم [implement] لـ[damaged_inf] [RECIPIENT_definite]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] استخدم [implement] [skillAdv] لـ[damaged_inf] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] {INITIATOR_gender ? أصاب : أصابت} [RECIPIENT_definite] بـ[damaged_inf] من [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite]، [skillDescMelee]، {INITIATOR_gender ? أصاب : أصابت} [RECIPIENT_definite] بـ[damaged_inf] من [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] {INITIATOR_gender ? استخدم : استخدمت} [implement] لتوجيه [damaged_inf] إلى [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] {INITIATOR_gender ? استخدم : استخدمت} [implement] [skillAdv] لتوجيه [damaged_inf] إلى [RECIPIENT_definite]</li>
  </Combat_Hit.rulePack.rulesStrings>
   
   <!-- EN:
@@ -146,23 +146,28 @@
     <li>result(INITIATOR_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite] تجنب [damaged_inf] [WEAPON_label] الخاصة بـ[INITIATOR_definite].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] أخطأ [RECIPIENT_definite] بـ[damaged_inf] من [implement].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] أثناء محاولة [damaged_inf] [RECIPIENT_definite] بـ[implement].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] أثناء محاولة [damaged_inf] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] حاول [skillAdvMaybe] [damaged_inf] [RECIPIENT_definite]، لكنه [failtype].</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] {RECIPIENT_gender ? تجنب : تجنبت} [damaged_inf] من [INITIATOR_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] {INITIATOR_gender ? وجّه : وجّهت} [damaged_inf] من [implement] نحو [RECIPIENT_definite]، لكنها لم تصبـ[RECIPIENT_objective].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] أثناء محاولة توجيه [damaged_inf] إلى [RECIPIENT_definite] بـ[implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] أثناء محاولة توجيه [damaged_inf] إلى [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] {INITIATOR_gender ? حاول : حاولت} توجيه [damaged_inf] إلى [RECIPIENT_definite][skillAdvMaybe]، {INITIATOR_gender ? لكنه : لكنها} [failtype].</li>
     <li>skillAdvMaybe-></li>
-    <li>skillAdvMaybe->[skillAdv]</li>
-    <li>failtype(p=5)->أخطأ</li>
-    <li>failtype->تعثر</li>
-    <li>failtype->سقط</li>
-    <li>failtype->تخبط</li>
-    <li>failtype->تخبط بلا جدوى</li>
-    <li>result(p=4)->لكنه أخطأ</li>
-    <li>result->لكنه أصاب الهواء فقط</li>
+    <li>skillAdvMaybe-> [skillAdv]</li>
+    <li>failtype(p=5,INITIATOR_gender==Female)->أخطأت</li>
+    <li>failtype(p=5,INITIATOR_gender!=Female)->أخطأ</li>
+    <li>failtype(INITIATOR_gender==Female)->تعثرت</li>
+    <li>failtype(INITIATOR_gender!=Female)->تعثر</li>
+    <li>failtype(INITIATOR_gender==Female)->سقطت</li>
+    <li>failtype(INITIATOR_gender!=Female)->سقط</li>
+    <li>failtype(INITIATOR_gender==Female)->تخبطت</li>
+    <li>failtype(INITIATOR_gender!=Female)->تخبط</li>
+    <li>failtype(INITIATOR_gender==Female)->تخبطت بلا طائل</li>
+    <li>failtype(INITIATOR_gender!=Female)->تخبط بلا طائل</li>
+    <li>result(p=4)->{INITIATOR_gender ? لكنه أخطأ : لكنها أخطأت}</li>
+    <li>result->{INITIATOR_gender ? لكنه أصاب الهواء فقط : لكنها أصابت الهواء فقط}</li>
     <li>result->لكن الضربة ذهبت بعيداً</li>
-    <li>result->لكنه تعثر في اللحظة الأخيرة</li>
-    <li>result(INITIATOR_flesh!=Mechanoid)->لكنه تردد في اللحظة الأخيرة</li>
+    <li>result->{INITIATOR_gender ? لكنه تعثر في اللحظة الأخيرة : لكنها تعثرت في اللحظة الأخيرة}</li>
+    <li>result(INITIATOR_flesh!=Mechanoid)->{INITIATOR_gender ? لكنه تردد في اللحظة الأخيرة : لكنها ترددت في اللحظة الأخيرة}</li>
  </Combat_Miss.rulePack.rulesStrings>
   
 </LanguageData>

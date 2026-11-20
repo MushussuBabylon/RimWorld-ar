@@ -46,16 +46,16 @@
     <li>desc_pawn->covered in [Gore]</li>
   -->
   <TalelessImages.rulePack.rulesStrings>
-    <li>image->[Character] وحيد [desc_pawn]</li>
-    <li>image->[Character] وحيد [desc_pawn] بالقرب من [TerrainFeature]</li>
-    <li>image->[Character] وحيد [desc_pawn] بالقرب من [Community]</li>
-    <li>image->[Character] [desc_pawn] محاط بـ[Character]s</li>
-    <li>image->[Character]s يلعبون [Game]</li>
-    <li>image->[Character] [desc_pawn] يلعب [Game] مع [Quantity_adjphrase] [Character]s</li>
+    <li>image->[Character] في عزلة [desc_pawn]</li>
+    <li>image->[Character] في عزلة [desc_pawn] بالقرب من [TerrainFeature]</li>
+    <li>image->[Character] في عزلة [desc_pawn] بالقرب من [Community]</li>
+    <li>image->[Character] [desc_pawn] وسط مجموعة من أمثاله</li>
+    <li>image->[Character] ورفاقه يلعبون [Game]</li>
+    <li>image->[Character] [desc_pawn] يلعب [Game] مع [Quantity_adjphrase] [Character]</li>
     <li>image->[Character] [desc_pawn] يحمل [Weapon]</li>
     <li>image->[Character] [desc_pawn] يأكل [Vegetable]</li>
-    <li>image->[Quantity_adjphrase] [PersonJob]s و [PersonJob]s يأكلون [Vegetable]s معاً</li>
-    <li>image->الشخصية الشهيرة الصغيرة [NamePerson] [desc_pawn]</li>
+    <li>image->[Quantity_adjphrase] [PersonJob] و[PersonJob] يأكلون [Vegetable] معاً</li>
+    <li>image->الشخصية المحلية الشهيرة [NamePerson] [desc_pawn]</li>
     <li>image->[Character] يرتدي [Apparel] [desc_pawn]</li>
     <li>image->[Community]</li>
     <li>image->[TerrainFeature]</li>
@@ -64,9 +64,9 @@
     <li>image->[NaturalObject]</li>
     <li>image->[Quantity_adjphrase] [Weapon]</li>
     <li>image->[Quantity_adjphrase] [Vegetable]</li>
-    <li>image->[Apparel] فارغ</li>
+    <li>image->[Apparel] بلا صاحب</li>
     <li>image->[Shape]</li>
-    <li>image->[Shape] محاط بـ[Shape]s</li>
+    <li>image->[Shape] وسط مجموعة من الأشكال المماثلة</li>
     <li>image->تجسيد تجريدي لـ[ConceptAny]</li>
     <li>image->شكل تجريدي [AdjectiveAny]</li>
     <li>desc_pawn(p=12)-></li>

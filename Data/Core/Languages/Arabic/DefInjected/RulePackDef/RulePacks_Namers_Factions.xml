@@ -256,9 +256,9 @@
     <li>townname_combo(p=2)->[concept_positive] [Community]</li>
     <li>townname_combo(p=3)->[Character] [TerrainFeature]</li>
     <li>townname_combo(p=3)->[Character] [Community]</li>
-    <li>townname_near->[nearnameinitial]-عند-[TerrainFeature]</li>
-    <li>townname_near->[nearnameinitial]-بجانب-[TerrainFeature]</li>
-    <li>townname_near->[nearnameinitial]-على-[TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] عند الـ[TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] بجانب الـ[TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] على الـ[TerrainFeature]</li>
     <li>nearnameinitial->[townname_wordgen]</li>
     <li>nearnameinitial->[Community]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE]</li>
