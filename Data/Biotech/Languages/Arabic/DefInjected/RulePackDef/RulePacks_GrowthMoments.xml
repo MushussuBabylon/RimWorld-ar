@@ -167,46 +167,46 @@
   -->
   <GrowthMomentFlavor.rulePack.rulesStrings>
     <li>r_root->[firstSentence] [secondSentence]</li>
-    <li>firstSentence(tierSection==4)->[PAWN_pronoun] أظهر قدراً ممتازاً من [nounGrowth]، ولديه [nounAttitudeGood] [adjGood] تجاه [nounFuture].</li>
-    <li>firstSentence(tierSection==4)->[PAWN_pronoun] طوّر عدداً من أوجه الشغف الجديدة من خلال [situationLearning].</li>
-    <li>firstSentence(tierSection==4)->من خلال [situationLearning]، اكتسب [PAWN_pronoun] عدداً من أوجه الشغف الجديدة.</li>
-    <li>firstSentence(tierSection==4)->في السنة الماضية، أظهر [PAWN_pronoun] قدراً ممتازاً من [nounGrowth].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يريد قضاء المزيد من الوقت في [situationLearning] وفي [situationFun].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يجد المتعة في [situationLearning]، لكن [PAWN_pronoun] يحب [situationFun] قبل كل شيء.</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يجد المتعة في [situationLearning] ويطمح إلى [situationAspirational].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] يأمل أنه من خلال [situationLearning] قد ينتهي [PAWN_pronoun] إلى [situationAspirational].</li>
-    <li>firstSentence(tierSection==3)->مؤخراً، أظهر [PAWN_pronoun] قدراً من [nounAttitudeGood] [adjGood] تجاه [nounFuture].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] يشعر بقدر من [nounAttitudeGood] تجاه [nounFuture].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] أصبح مهتماً بعدد من الأنشطة الجديدة، ومنها [situationLearning].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] أظهر قدراً ممتازاً من [nounGrowth].</li>
-    <li>secondSentence(tierSection==3)->[PAWN_nameDef] ممتن، إذ [PAWN_pronoun] نادراً ما يعاني من [feelingBad]، ويهتم بقضاء المزيد من الوقت في [situationFun].</li>
-    <li>secondSentence(tierSection==3)->[PAWN_nameDef] يحب [situationLearning]، لكن [PAWN_pronoun] يكون أسعد ما يكون أثناء [situationFun].</li>
-    <li>secondSentence(tierSection==3)->عندما يكبر [PAWN_nameDef]، يريد [PAWN_pronoun] قضاء وقتـ[PAWN_possessive] في [taskWork].</li>
-    <li>secondSentence(tierSection==3)->أكثر من أي شيء، يحب [PAWN_nameDef] [situationFun].</li>
-    <li>firstSentence(tierSection==2)->[PAWN_pronoun] أظهر قدراً من [nounGrowth]، ويرغب في مواصلة [situationLearning].</li>
-    <li>firstSentence(tierSection==2)->[PAWN_pronoun] لديه قدر من [nounAttitudeGood] لتعلم المزيد.</li>
-    <li>firstSentence(tierSection==2)->متحمساً بشأن [nounFuture]، يود [PAWN_pronoun] قضاء بعض الوقت في [situationLearning].</li>
-    <li>firstSentence(tierSection==2)->[PAWN_pronoun] طوّر شغفاً جديداً من خلال [situationLearning].</li>
-    <li>secondSentence(tierSection==2)->[PAWN_nameDef] يجد المتعة في [situationFun].</li>
-    <li>secondSentence(tierSection==2)->[PAWN_nameDef] يأمل قضاء المزيد من الوقت في [situationFun].</li>
-    <li>secondSentence(tierSection==2)->[PAWN_nameDef] يرى أن [taskWork] أمر ممل.</li>
-    <li>secondSentence(tierSection==2)->تحديداً، يود [PAWN_nameDef] التركيز على [situationLearning].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] أظهر قدراً ضئيلاً من [nounGrowth]، ولديه توقعات متدنية بشأن [nounFuture].</li>
-    <li>firstSentence(tierSection==1)->على الرغم من تفاؤله بشأن [nounFuture]، أظهر [PAWN_pronoun] قدراً ضئيلاً من [nounGrowth].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] يأمل أن تتحسن الأمور في [nounFuture].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] أظهر أدنى قدر من [nounGrowth]، شاكياً من أن [situationLearning] أمر ممل.</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] يتمنى قضاء المزيد من الوقت في [situationFun]، لكنه مشغول جداً بالقلق بشأن [situationBad].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] غالباً ما يعاني من [feelingBad] أثناء [situationFun].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] لديه خوف غريب من أن ينتهي [PAWN_pronoun] إلى [situationBad] بسبب [situationFun].</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] {PAWN_gender ? أظهر : أظهرت} قدراً ممتازاً من [nounGrowth]، {PAWN_gender ? ولديه : ولديها} [nounAttitudeGood] [adjGood] تجاه [nounFuture].</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] {PAWN_gender ? طوّر : طورت} عدداً من أوجه الشغف الجديدة من خلال [situationLearning].</li>
+    <li>firstSentence(tierSection==4)->من خلال [situationLearning]، {PAWN_gender ? اكتسب : اكتسبت} [PAWN_pronoun] عدداً من أوجه الشغف الجديدة.</li>
+    <li>firstSentence(tierSection==4)->في السنة الماضية، {PAWN_gender ? أظهر : أظهرت} [PAWN_pronoun] قدراً ممتازاً من [nounGrowth].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] {PAWN_gender ? يريد : تريد} قضاء المزيد من الوقت في [situationLearning] وفي [situationFun].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] {PAWN_gender ? يجد : تجد} المتعة في [situationLearning]، لكن [PAWN_pronoun] {PAWN_gender ? يحب : تحب} [situationFun] قبل كل شيء.</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] {PAWN_gender ? يجد : تجد} المتعة في [situationLearning] {PAWN_gender ? ويطمح : وتطمح} إلى [situationAspirational].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] {PAWN_gender ? يأمل : تأمل} {PAWN_gender ? أنه : أنها} من خلال [situationLearning] قد {PAWN_gender ? ينتهي : تنتهي} [PAWN_pronoun] إلى [situationAspirational].</li>
+    <li>firstSentence(tierSection==3)->مؤخراً، {PAWN_gender ? أظهر : أظهرت} [PAWN_pronoun] قدراً من [nounAttitudeGood] [adjGood] تجاه [nounFuture].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] {PAWN_gender ? يشعر : تشعر} بقدر من [nounAttitudeGood] تجاه [nounFuture].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] {PAWN_gender ? أصبح مهتماً : أصبحت مهتمة} بعدد من الأنشطة الجديدة، ومنها [situationLearning].</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] {PAWN_gender ? أظهر : أظهرت} قدراً ممتازاً من [nounGrowth].</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] {PAWN_gender ? ممتن : ممتنة}، إذ [PAWN_pronoun] نادراً ما {PAWN_gender ? يعاني : تعاني} من [feelingBad]، {PAWN_gender ? ويهتم : وتهتم} بقضاء المزيد من الوقت في [situationFun].</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] {PAWN_gender ? يحب : تحب} [situationLearning]، لكن [PAWN_pronoun] {PAWN_gender ? يكون أسعد ما يكون : تكون أسعد ما تكون} أثناء [situationFun].</li>
+    <li>secondSentence(tierSection==3)->عندما {PAWN_gender ? يكبر : تكبر} [PAWN_nameDef]، {PAWN_gender ? يريد : تريد} [PAWN_pronoun] قضاء وقتـ[PAWN_possessive] في [taskWork].</li>
+    <li>secondSentence(tierSection==3)->أكثر من أي شيء، {PAWN_gender ? يحب : تحب} [PAWN_nameDef] [situationFun].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] {PAWN_gender ? أظهر : أظهرت} قدراً من [nounGrowth]، {PAWN_gender ? ويرغب : وترغب} في مواصلة [situationLearning].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] {PAWN_gender ? لديه : لديها} قدر من [nounAttitudeGood] لتعلم المزيد.</li>
+    <li>firstSentence(tierSection==2)->{PAWN_gender ? متحمساً : متحمسة} بشأن [nounFuture]، {PAWN_gender ? يود : تود} [PAWN_pronoun] قضاء بعض الوقت في [situationLearning].</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] {PAWN_gender ? طوّر : طورت} شغفاً جديداً من خلال [situationLearning].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] {PAWN_gender ? يجد : تجد} المتعة في [situationFun].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] {PAWN_gender ? يأمل : تأمل} قضاء المزيد من الوقت في [situationFun].</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] {PAWN_gender ? يرى : ترى} أن [taskWork] أمر ممل.</li>
+    <li>secondSentence(tierSection==2)->تحديداً، {PAWN_gender ? يود : تود} [PAWN_nameDef] التركيز على [situationLearning].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] {PAWN_gender ? أظهر : أظهرت} قدراً ضئيلاً من [nounGrowth]، {PAWN_gender ? ولديه : ولديها} توقعات متدنية بشأن [nounFuture].</li>
+    <li>firstSentence(tierSection==1)->على الرغم من {PAWN_gender ? تفاؤله : تفاؤلها} بشأن [nounFuture]، {PAWN_gender ? أظهر : أظهرت} [PAWN_pronoun] قدراً ضئيلاً من [nounGrowth].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] {PAWN_gender ? يأمل : تأمل} أن تتحسن الأمور في [nounFuture].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] {PAWN_gender ? أظهر : أظهرت} أدنى قدر من [nounGrowth]، {PAWN_gender ? شاكياً : شاكيةً} من أن [situationLearning] أمر ممل.</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] {PAWN_gender ? يتمنى : تتمنى} قضاء المزيد من الوقت في [situationFun]، {PAWN_gender ? لكنه : لكنها} {PAWN_gender ? مشغول : مشغولة} جداً بالقلق بشأن [situationBad].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] غالباً ما {PAWN_gender ? يعاني : تعاني} من [feelingBad] أثناء [situationFun].</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] {PAWN_gender ? لديه : لديها} خوف غريب من أن {PAWN_gender ? ينتهي : تنتهي} [PAWN_pronoun] إلى [situationBad] بسبب [situationFun].</li>
     <li>secondSentence(tierSection==1)->تراود [PAWN_nameDef] كوابيس متكررة حول [situationBad].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] كثيراً ما يريد [situationLearning]، لكن [PAWN_pronoun] نادراً ما تتاح له الفرصة للقيام بذلك.</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] لم يُظهر أي قدر من [nounGrowth].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] فشل في تطوير أي شغف جديد، ولديه قدر ضئيل من [nounAttitudeGood] تجاه [nounFuture].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] أظهر اهتماماً ضئيلاً بالتعلم، ويكره على وجه الخصوص [situationLearning].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] كثيراً ما {PAWN_gender ? يريد : تريد} [situationLearning]، لكن [PAWN_pronoun] نادراً ما تتاح {PAWN_gender ? له : لها} الفرصة للقيام بذلك.</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] لم {PAWN_gender ? يُظهر : تُظهر} أي قدر من [nounGrowth].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] {PAWN_gender ? فشل : فشلت} في تطوير أي شغف جديد، {PAWN_gender ? ولديه : ولديها} قدر ضئيل من [nounAttitudeGood] تجاه [nounFuture].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] {PAWN_gender ? أظهر : أظهرت} اهتماماً ضئيلاً بالتعلم، {PAWN_gender ? ويكره : وتكره} على وجه الخصوص [situationLearning].</li>
     <li>secondSentence(tierSection==0)->ينصب اهتمام [PAWN_nameDef] بالكامل على [situationFun].</li>
     <li>secondSentence(tierSection==0)->يقف الخوف من [situationBad] عائقاً دائماً أمام [PAWN_nameDef].</li>
     <li>secondSentence(tierSection==0)->يعيش [PAWN_nameDef] في خوف من التعرض لإصابة بالغة نتيجة [situationBad].</li>
-    <li>secondSentence(tierSection==0)->يراود [PAWN_nameDef] كابوس متكرر ينهمك فيه [PAWN_pronoun] في [situationFun]، مما يؤدي إلى [situationBad].</li>
+    <li>secondSentence(tierSection==0)->يراود [PAWN_nameDef] كابوس متكرر {PAWN_gender ? ينهمك : تنهمك} فيه [PAWN_pronoun] في [situationFun]، مما يؤدي إلى [situationBad].</li>
     <li>adjGood->عظيم</li>
     <li>adjGood->نهم</li>
     <li>adjGood->شديد</li>

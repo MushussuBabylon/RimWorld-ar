@@ -6,6 +6,8 @@
   -->
   <Battle_Brawl.rulePack.rulesStrings>
     <li>r_battlename->شجار عام</li>
+    <li>r_battlename->عراك شامل</li>
+    <li>r_battlename->اشتباك الجميع ضد الجميع</li>
  </Battle_Brawl.rulePack.rulesStrings>
   
   <!-- EN:
@@ -13,13 +15,15 @@
   -->
   <Battle_Duel.rulePack.rulesStrings>
     <li>r_battlename->[PARTICIPANT1_nameDef] ضد [PARTICIPANT2_nameDef]</li>
+    <li>r_battlename->مواجهة [PARTICIPANT1_nameDef] و[PARTICIPANT2_nameDef]</li>
  </Battle_Duel.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_battlename->[FACTION1_name] internal conflict</li>
   -->
   <Battle_Internal.rulePack.rulesStrings>
-    <li>r_battlename->[FACTION1_name] نزاع داخلي</li>
+    <li>r_battlename->نزاع داخلي في صفوف [FACTION1_name]</li>
+    <li>r_battlename->صراع داخلي في [FACTION1_name]</li>
  </Battle_Internal.rulePack.rulesStrings>
   
   <!-- EN:
@@ -27,6 +31,7 @@
   -->
   <Battle_Solo.rulePack.rulesStrings>
     <li>r_battlename->تقرير [PARTICIPANT1_nameDef]</li>
+    <li>r_battlename->مغامرة [PARTICIPANT1_nameDef]</li>
  </Battle_Solo.rulePack.rulesStrings>
   
   <!-- EN:
@@ -34,6 +39,7 @@
   -->
   <Battle_War.rulePack.rulesStrings>
     <li>r_battlename->[FACTION1_name] ضد [FACTION2_name]</li>
+    <li>r_battlename->حرب [FACTION1_name] و[FACTION2_name]</li>
  </Battle_War.rulePack.rulesStrings>
   
 </LanguageData>

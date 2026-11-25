@@ -71,16 +71,26 @@
     <li>subjectDarkStudy->mechanisms of power</li>
   -->
   <DarkDialogue.rulePack.rulesStrings>
-    <li>rambled->هذى</li>
-    <li>rambled->همس</li>
-    <li>rambled->قهقه</li>
-    <li>rambled->صاح</li>
-    <li>rambled->صاح غاضباً</li>
-    <li>rambled->تمتم</li>
-    <li>rambled->بربر</li>
-    <li>rambled->غمغم</li>
-    <li>rambled->ثرثر</li>
-    <li>rambled->تلعثم</li>
+    <li>rambled(INITIATOR_gender==Female)->هذت</li>
+    <li>rambled(INITIATOR_gender!=Female)->هذى</li>
+    <li>rambled(INITIATOR_gender==Female)->همست</li>
+    <li>rambled(INITIATOR_gender!=Female)->همس</li>
+    <li>rambled(INITIATOR_gender==Female)->قهقهت</li>
+    <li>rambled(INITIATOR_gender!=Female)->قهقه</li>
+    <li>rambled(INITIATOR_gender==Female)->صاحت</li>
+    <li>rambled(INITIATOR_gender!=Female)->صاح</li>
+    <li>rambled(INITIATOR_gender==Female)->صاحت غاضبةً</li>
+    <li>rambled(INITIATOR_gender!=Female)->صاح غاضباً</li>
+    <li>rambled(INITIATOR_gender==Female)->تمتمت</li>
+    <li>rambled(INITIATOR_gender!=Female)->تمتم</li>
+    <li>rambled(INITIATOR_gender==Female)->بربرت</li>
+    <li>rambled(INITIATOR_gender!=Female)->بربر</li>
+    <li>rambled(INITIATOR_gender==Female)->غمغمت</li>
+    <li>rambled(INITIATOR_gender!=Female)->غمغم</li>
+    <li>rambled(INITIATOR_gender==Female)->ثرثرت</li>
+    <li>rambled(INITIATOR_gender!=Female)->ثرثر</li>
+    <li>rambled(INITIATOR_gender==Female)->تلعثمت</li>
+    <li>rambled(INITIATOR_gender!=Female)->تلعثم</li>
     <li>darkSpeechAdverb->بهدوء</li>
     <li>darkSpeechAdverb->بتعثر</li>
     <li>darkSpeechAdverb->بشكل غير منتظم</li>

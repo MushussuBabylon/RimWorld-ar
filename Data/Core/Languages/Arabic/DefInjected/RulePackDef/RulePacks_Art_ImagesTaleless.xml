@@ -6,7 +6,9 @@
     <li>noun_random_acc->Words/Nouns/Random_Acc</li>
     <li>concept_random->Words/Nouns/Concepts_Random</li>
     <li>action_random->Words/Verbs/Action</li>
+    <li>action_randomFem->Words/Verbs/Action_Fem</li>
     <li>action_womit->Words/Verbs/Womit</li>
+    <li>action_womitFem->Words/Verbs/Womit_Fem</li>
     <li>adverb_random->Words/Adverbs/Random</li>
   </TalelessImages.rulePack.rulesFiles>
   <!-- EN:
@@ -46,29 +48,38 @@
     <li>desc_pawn->covered in [Gore]</li>
   -->
   <TalelessImages.rulePack.rulesStrings>
-    <li>image->[Character] وحيد [desc_pawn]</li>
-    <li>image->[Character] وحيد [desc_pawn] بالقرب من [TerrainFeature]</li>
-    <li>image->[Character] وحيد [desc_pawn] بالقرب من [Community]</li>
-    <li>image->[Character] [desc_pawn] محاط بـ[Character]s</li>
-    <li>image->[Character]s يلعبون [Game]</li>
-    <li>image->[Character] [desc_pawn] يلعب [Game] مع [Quantity_adjphrase] [Character]s</li>
-    <li>image->[Character] [desc_pawn] يحمل [Weapon]</li>
-    <li>image->[Character] [desc_pawn] يأكل [Vegetable]</li>
-    <li>image->[Quantity_adjphrase] [PersonJob]s و [PersonJob]s يأكلون [Vegetable]s معاً</li>
-    <li>image->الشخصية الشهيرة الصغيرة [NamePerson] [desc_pawn]</li>
-    <li>image->[Character] يرتدي [Apparel] [desc_pawn]</li>
+    <li>image(p=0.571)->[CharacterMale] في عزلة [desc_pawnMale]</li>
+    <li>image(p=0.429)->[CharacterFem] في عزلة [desc_pawnFem]</li>
+    <li>image(p=0.571)->[CharacterMale] في عزلة [desc_pawnMale] بالقرب من [TerrainFeature]</li>
+    <li>image(p=0.429)->[CharacterFem] في عزلة [desc_pawnFem] بالقرب من [TerrainFeature]</li>
+    <li>image(p=0.571)->[CharacterMale] في عزلة [desc_pawnMale] بالقرب من [Community]</li>
+    <li>image(p=0.429)->[CharacterFem] في عزلة [desc_pawnFem] بالقرب من [Community]</li>
+    <li>image(p=0.571)->[CharacterMale] [desc_pawnMale] وسط مجموعة من [CharacterPlural]</li>
+    <li>image(p=0.429)->[CharacterFem] [desc_pawnFem] وسط مجموعة من [CharacterPlural]</li>
+    <li>image(p=0.571)->[CharacterMale] ورفاقه يلعبون [Game]</li>
+    <li>image(p=0.429)->[CharacterFem] ورفاقها يلعبون [Game]</li>
+    <li>image(p=0.571)->[CharacterMale] [desc_pawnMale] يلعب [Game] مع [Quantity_of] [CharacterPlural]</li>
+    <li>image(p=0.429)->[CharacterFem] [desc_pawnFem] تلعب [Game] مع [Quantity_of] [CharacterPlural]</li>
+    <li>image(p=0.571)->[CharacterMale] [desc_pawnMale] يحمل [Weapon]</li>
+    <li>image(p=0.429)->[CharacterFem] [desc_pawnFem] تحمل [Weapon]</li>
+    <li>image(p=0.571)->[CharacterMale] [desc_pawnMale] يأكل [Vegetable]</li>
+    <li>image(p=0.429)->[CharacterFem] [desc_pawnFem] تأكل [Vegetable]</li>
+    <li>image->[Quantity_of] [PersonJobPlural] ومن [PersonJobPlural] يأكلون [VegetablePlural] معاً</li>
+    <li>image->شخصية محلية شهيرة [NamePerson] [desc_pawn]</li>
+    <li>image(p=0.571)->[CharacterMale] يرتدي [Apparel] [desc_pawnMale]</li>
+    <li>image(p=0.429)->[CharacterFem] ترتدي [Apparel] [desc_pawnFem]</li>
     <li>image->[Community]</li>
     <li>image->[TerrainFeature]</li>
     <li>image->[Weapon]</li>
     <li>image->شجرة [TreeType]</li>
     <li>image->[NaturalObject]</li>
-    <li>image->[Quantity_adjphrase] [Weapon]</li>
-    <li>image->[Quantity_adjphrase] [Vegetable]</li>
-    <li>image->[Apparel] فارغ</li>
+    <li>image->[Quantity_of] [WeaponPlural]</li>
+    <li>image->[Quantity_of] [VegetablePlural]</li>
+    <li>image->[Apparel] بلا صاحب</li>
     <li>image->[Shape]</li>
-    <li>image->[Shape] محاط بـ[Shape]s</li>
-    <li>image->تجسيد تجريدي لـ[ConceptAny]</li>
-    <li>image->شكل تجريدي [AdjectiveAny]</li>
+    <li>image->[Shape] وسط مجموعة من الأشكال المماثلة</li>
+    <li>image->تجسيد تجريدي لمفهوم [ConceptAny]</li>
+    <li>image->شكل تجريدي [AdjectiveAnyMale]</li>
     <li>desc_pawn(p=12)-></li>
     <li>desc_pawn->يطير في الهواء</li>
     <li>desc_pawn->معلق في الهواء</li>
@@ -80,6 +91,37 @@
     <li>desc_pawn->يركب [Animal] ويرتدي [Apparel]</li>
     <li>desc_pawn->يبدو [AdjectiveAny]</li>
     <li>desc_pawn->مغطى بـ[Gore]</li>
+    <li>desc_pawnMale(p=12)-></li>
+    <li>desc_pawnFem(p=12)-></li>
+    <li>desc_pawnMale->يطير في الهواء</li>
+    <li>desc_pawnFem->تطير في الهواء</li>
+    <li>desc_pawnMale->معلق في الهواء</li>
+    <li>desc_pawnFem->معلقة في الهواء</li>
+    <li>desc_pawnMale->يتحرك إلى اليسار</li>
+    <li>desc_pawnFem->تتحرك إلى اليسار</li>
+    <li>desc_pawnMale->يتحرك إلى اليمين</li>
+    <li>desc_pawnFem->تتحرك إلى اليمين</li>
+    <li>desc_pawnMale->يجلس على طاولة</li>
+    <li>desc_pawnFem->تجلس على طاولة</li>
+    <li>desc_pawnMale->يُرى عبر مرآة</li>
+    <li>desc_pawnFem->تُرى عبر مرآة</li>
+    <li>desc_pawnMale->مرسوم كصورة ظلية</li>
+    <li>desc_pawnFem->مرسومة كصورة ظلية</li>
+    <li>desc_pawnMale->يركب [Animal] ويرتدي [Apparel]</li>
+    <li>desc_pawnFem->تركب [Animal] وترتدي [Apparel]</li>
+    <li>desc_pawnMale->يبدو [AdjectiveAnyMale]</li>
+    <li>desc_pawnFem->تبدو [AdjectiveAnyFem]</li>
+    <li>desc_pawnMale->مغطى بـ[Gore]</li>
+    <li>desc_pawnFem->مغطاة بـ[Gore]</li>
+    <li>image(p=0.5)->[noun_random] لـ[concept_random]</li>
+    <li>image(p=0.5)->مخاوف شخص ما الدفينة على هيئة [concept_random]</li>
+    <li>image(p=0.5)->أحلام شخص ما الدفينة على هيئة [concept_random]</li>
+    <li>image(p=0.571)->[CharacterMale] [action_random] [noun_random_acc]</li>
+    <li>image(p=0.429)->[CharacterFem] [action_randomFem] [noun_random_acc]</li>
+    <li>image(p=0.285)->[CharacterMale] [action_random] [noun_random_acc] [adverb_random]</li>
+    <li>image(p=0.215)->[CharacterFem] [action_randomFem] [noun_random_acc] [adverb_random]</li>
+    <li>image(p=0.057)->[CharacterMale] [action_womit] [Gore]</li>
+    <li>image(p=0.043)->[CharacterFem] [action_womitFem] [Gore]</li>
  </TalelessImages.rulePack.rulesStrings>
   
 </LanguageData>

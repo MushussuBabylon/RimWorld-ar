@@ -5,21 +5,27 @@
     <li>sent->[RECIPIENT_nameDef] agreed and the two are now engaged.</li>
   -->
   <Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
-    <li>sent->وافق [RECIPIENT_nameDef] وأصبح الاثنان مخطوبين الآن.</li>
+    <li>sent->{RECIPIENT_gender ? وافق : وافقت} [RECIPIENT_nameDef]، وأصبح الاثنان مخطوبين الآن.</li>
+    <li>sent->{RECIPIENT_gender ? قبل : قبلت} [RECIPIENT_nameDef] عرض الزواج من [INITIATOR_nameDef] بسعادة غامرة.</li>
+    <li>sent->{RECIPIENT_gender ? وافق : وافقت} [RECIPIENT_nameDef] بحماس على الزواج من [INITIATOR_nameDef].</li>
  </Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] rejected the proposal.</li>
   -->
   <Sentence_MarriageProposalRejected.rulePack.rulesStrings>
-    <li>sent->رفض [RECIPIENT_nameDef] العرض.</li>
+    <li>sent->{RECIPIENT_gender ? رفض : رفضت} [RECIPIENT_nameDef] العرض.</li>
+    <li>sent->{RECIPIENT_gender ? لم يشعر : لم تشعر} [RECIPIENT_nameDef] بالاستعداد بعد، {RECIPIENT_gender ? فرفض : فرفضت} عرض [INITIATOR_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? قرر : قررت} [RECIPIENT_nameDef] رفض عرض الزواج في الوقت الحالي.</li>
  </Sentence_MarriageProposalRejected.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->It was too much for the relationship to continue, and the two have now broken up.</li>
   -->
   <Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
-    <li>sent->كان الأمر أكثر من طاقة العلاقة لتستمر، وقد انفصل الاثنان الآن.</li>
+    <li>sent->كان الأمر أكبر مما تحتمله العلاقة، وقد انفصل الاثنان الآن.</li>
+    <li>sent->لم تستطع العلاقة الاستمرار بعد ذلك، فانفصل الاثنان.</li>
+    <li>sent->أحدث ذلك شرخاً لا يمكن إصلاحه في علاقتهما، فانفصلا.</li>
  </Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
   
   <!-- EN:
@@ -28,9 +34,10 @@
     <li>sent->[RECIPIENT_nameDef] became aroused and agreed to become [INITIATOR_nameDef]'s lover.</li>
   -->
   <Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
-    <li>sent->انجذب [RECIPIENT_nameDef] وأصبح الآن حبيب [INITIATOR_nameDef].</li>
-    <li>sent->استجاب [RECIPIENT_nameDef] بشكل جيد وأصبح الآن حبيب [INITIATOR_nameDef].</li>
-    <li>sent->ثار [RECIPIENT_nameDef] ووافق على أن يصبح حبيب [INITIATOR_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? انجذب : انجذبت} [RECIPIENT_nameDef]، {RECIPIENT_gender ? وأصبح : وأصبحت} الآن {RECIPIENT_gender ? حبيب : حبيبة} [INITIATOR_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? استجاب : استجابت} [RECIPIENT_nameDef] بإيجابية، {RECIPIENT_gender ? وأصبح : وأصبحت} الآن {RECIPIENT_gender ? حبيب : حبيبة} [INITIATOR_nameDef].</li>
+    <li>sent->اشتعلت مشاعر [RECIPIENT_nameDef]، {RECIPIENT_gender ? ووافق : ووافقت} على أن {RECIPIENT_gender ? يصبح : تصبح} {RECIPIENT_gender ? حبيب : حبيبة} [INITIATOR_nameDef].</li>
+    <li>sent->تورد وجه [RECIPIENT_nameDef] خجلاً، {RECIPIENT_gender ? ووافق : ووافقت} على أن {RECIPIENT_gender ? يصبح : تصبح} {RECIPIENT_gender ? حبيب : حبيبة} [INITIATOR_nameDef].</li>
  </Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
   
   <!-- EN:
@@ -43,13 +50,13 @@
     <li>sent->[RECIPIENT_nameDef] turned [INITIATOR_objective] down.</li>
   -->
   <Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
-    <li>sent->رفض [RECIPIENT_nameDef] التقدم.</li>
-    <li>sent->تجاهل [RECIPIENT_nameDef] التقدم.</li>
-    <li>sent->أدار [RECIPIENT_nameDef] ظهر[RECIPIENT_possessive].</li>
-    <li>sent->ابتعد [RECIPIENT_nameDef].</li>
-    <li>sent->أعطى [RECIPIENT_nameDef] استجابة ضئيلة.</li>
-    <li>sent->لم يستجب [RECIPIENT_nameDef].</li>
-    <li>sent->رفضـ[INITIATOR_objective] [RECIPIENT_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? رفض : رفضت} [RECIPIENT_nameDef] محاولة التودد.</li>
+    <li>sent->{RECIPIENT_gender ? تجاهل : تجاهلت} [RECIPIENT_nameDef] محاولة التودد.</li>
+    <li>sent->{RECIPIENT_gender ? أدار : أدارت} [RECIPIENT_nameDef] ظهر[RECIPIENT_possessive].</li>
+    <li>sent->{RECIPIENT_gender ? ابتعد : ابتعدت} [RECIPIENT_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? أعطى : أعطت} [RECIPIENT_nameDef] استجابة ضئيلة.</li>
+    <li>sent->لم {RECIPIENT_gender ? يستجب : تستجب} [RECIPIENT_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? رفضـ : رفضتـ}[INITIATOR_objective] [RECIPIENT_nameDef].</li>
  </Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
   
 </LanguageData>

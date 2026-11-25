@@ -34,10 +34,14 @@
   -->
   <LessonInteractionQuiz.rulePack.rulesStrings>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] حول [action_gerund] [article_tool] [situation].</li>
-    <li>teach_test->اختبر</li>
-    <li>teach_test->امتحن</li>
-    <li>teach_test->استجوب</li>
-    <li>teach_test->استنطق</li>
+    <li>teach_test(INITIATOR_gender==Female)->اختبرت</li>
+    <li>teach_test(INITIATOR_gender!=Female)->اختبر</li>
+    <li>teach_test(INITIATOR_gender==Female)->امتحنت</li>
+    <li>teach_test(INITIATOR_gender!=Female)->امتحن</li>
+    <li>teach_test(INITIATOR_gender==Female)->استجوبت</li>
+    <li>teach_test(INITIATOR_gender!=Female)->استجوب</li>
+    <li>teach_test(INITIATOR_gender==Female)->استنطقت</li>
+    <li>teach_test(INITIATOR_gender!=Female)->استنطق</li>
  </LessonInteractionQuiz.rulePack.rulesStrings>
   
   <!-- EN:
@@ -51,10 +55,14 @@
   <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [study_verb] [subject] [teach_adverb] مع [RECIPIENT_nameDef].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] مع [RECIPIENT_nameDef].</li>
-    <li>study_verb->تناول</li>
-    <li>study_verb->راجع</li>
-    <li>study_verb->بحث في</li>
-    <li>study_verb->درس</li>
+    <li>study_verb(INITIATOR_gender==Female)->تناولت</li>
+    <li>study_verb(INITIATOR_gender!=Female)->تناول</li>
+    <li>study_verb(INITIATOR_gender==Female)->راجعت</li>
+    <li>study_verb(INITIATOR_gender!=Female)->راجع</li>
+    <li>study_verb(INITIATOR_gender==Female)->بحثت في</li>
+    <li>study_verb(INITIATOR_gender!=Female)->بحث في</li>
+    <li>study_verb(INITIATOR_gender==Female)->درست</li>
+    <li>study_verb(INITIATOR_gender!=Female)->درس</li>
  </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
   
   <!-- EN:
@@ -81,10 +89,14 @@
     <li>teach_verb->taught</li>
   -->
   <LessonInteractionTeachingVerbs.rulePack.rulesStrings>
-    <li>teach_verb->شرح عملياً</li>
-    <li>teach_verb->شرح</li>
-    <li>teach_verb->أظهر</li>
-    <li>teach_verb->درّس</li>
+    <li>teach_verb(INITIATOR_gender==Female)->شرحت عملياً</li>
+    <li>teach_verb(INITIATOR_gender!=Female)->شرح عملياً</li>
+    <li>teach_verb(INITIATOR_gender==Female)->شرحت</li>
+    <li>teach_verb(INITIATOR_gender!=Female)->شرح</li>
+    <li>teach_verb(INITIATOR_gender==Female)->أظهرت</li>
+    <li>teach_verb(INITIATOR_gender!=Female)->أظهر</li>
+    <li>teach_verb(INITIATOR_gender==Female)->درّست</li>
+    <li>teach_verb(INITIATOR_gender!=Female)->درّس</li>
  </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
   
   <!-- EN:
@@ -98,10 +110,14 @@
   <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [talk_verb] [subject] لـ[RECIPIENT_nameDef] [teach_adverb].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] لـ[RECIPIENT_nameDef].</li>
-    <li>talk_verb->تحدث عن</li>
-    <li>talk_verb->قدم نظرة عامة عن</li>
-    <li>talk_verb->قدم ملخصاً عن</li>
-    <li>talk_verb->ألقى محاضرة عن</li>
+    <li>talk_verb(INITIATOR_gender==Female)->تحدثت عن</li>
+    <li>talk_verb(INITIATOR_gender!=Female)->تحدث عن</li>
+    <li>talk_verb(INITIATOR_gender==Female)->قدمت نظرة عامة عن</li>
+    <li>talk_verb(INITIATOR_gender!=Female)->قدم نظرة عامة عن</li>
+    <li>talk_verb(INITIATOR_gender==Female)->قدمت ملخصاً عن</li>
+    <li>talk_verb(INITIATOR_gender!=Female)->قدم ملخصاً عن</li>
+    <li>talk_verb(INITIATOR_gender==Female)->ألقت محاضرة عن</li>
+    <li>talk_verb(INITIATOR_gender!=Female)->ألقى محاضرة عن</li>
  </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
   
 </LanguageData>

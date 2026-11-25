@@ -113,14 +113,15 @@
     <li>cubeEmotion->aggravated</li>
   -->
   <ArtDescription_CubeSculpture.rulePack.rulesStrings>
-    <li>r_art_description->هذا [cubeWork] [cubeDepicts] [aCube]. [cube_style_group]</li>
+    <li>r_art_description(p=0.5)->هذا [cubeWorkM] [cubeDepicts] [aCube]. [cube_style_group]</li>
+    <li>r_art_description(p=0.5)->هذه [cubeWorkF] [cubeDepictsF] [aCube]. [cube_style_group]</li>
     <li>cube_style_group(p=2)->[cubeDescSentence]. [cubeExtraSentence].</li>
     <li>cube_style_group(p=3)->[cubeDescSentence].</li>
     <li>cube_style_group-></li>
     <li>cubeDescSentence(p=3)->[cubeLocation]، [aPawn] [worshipsTheCube]</li>
     <li>cubeDescSentence(p=3)->[cubeLocation]، [pawnsPlural] يقومون بـ[worshippingTheCube]</li>
-    <li>cubeDescSentence->الـ[cubeWork] يدعو المشاهد للبدء في [worshippingTheCube]</li>
-    <li>cubeDescSentence->شخصيات تقوم بـ[worshippingTheCube] من مركز هذا الـ[cubeWork]</li>
+    <li>cubeDescSentence->الـ[cubeWorkM] يدعو المشاهد للبدء في [worshippingTheCube]</li>
+    <li>cubeDescSentence->شخصيات تقوم بـ[worshippingTheCube] من مركز هذا الـ[cubeWorkM]</li>
     <li>cubeWork->عمل</li>
     <li>cubeWork->منحوتة</li>
     <li>cubeWork->عمل فني</li>
@@ -166,9 +167,9 @@
     <li>pawnsPlural->سرب ميكانويدات</li>
     <li>pawnsPlural->عصابة قراصنة</li>
     <li>pawnsPlural->مزارعون ريفيون</li>
-    <li>pawnsPlural->[AnimalGroup] من [Animal]s</li>
+    <li>pawnsPlural->[AnimalGroup] من [AnimalPlural]</li>
     <li>pawnsPlural->مجموعة من [Community] قريبة</li>
-    <li>pawnsPlural->[Quantity_adjphrase] من الناس</li>
+    <li>pawnsPlural->[Quantity_of] الناس</li>
     <li>worshippingTheCube->عبادة المكعب</li>
     <li>worshippingTheCube->الانحناء للمكعب</li>
     <li>worshippingTheCube->الركوع أمام المكعب</li>
@@ -222,6 +223,14 @@
     <li>cubeEmotion->غاضب</li>
     <li>cubeEmotion->مفتون</li>
     <li>cubeEmotion->مستاء</li>
+    <li>cubeWorkM->عمل</li>
+    <li>cubeWorkM->عمل فني</li>
+    <li>cubeWorkF->منحوتة</li>
+    <li>cubeWorkF->قطعة</li>
+    <li>cubeDepictsF->تصور</li>
+    <li>cubeDepictsF->تُظهر</li>
+    <li>cubeDepictsF->تعرض</li>
+    <li>cubeDepictsF->تجسد</li>
  </ArtDescription_CubeSculpture.rulePack.rulesStrings>
   
   <!-- EN:

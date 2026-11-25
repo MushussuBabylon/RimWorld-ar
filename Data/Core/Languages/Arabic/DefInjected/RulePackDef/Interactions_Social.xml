@@ -5,7 +5,9 @@
     <li>sent->This drove [RECIPIENT_nameDef] into a rage and [RECIPIENT_pronoun] began a fight!</li>
   -->
   <Sentence_SocialFightStarted.rulePack.rulesStrings>
-    <li>sent->دفع هذا [RECIPIENT_nameDef] إلى الغضب وبدأ [RECIPIENT_pronoun] قتالاً!</li>
+    <li>sent->أثار هذا غضب [RECIPIENT_nameDef]، {RECIPIENT_gender ? فبدأ : فبدأت} قتالاً!</li>
+    <li>sent->بلغ الغضب بـ[RECIPIENT_nameDef] مبلغه، {RECIPIENT_gender ? فبدأ : فبدأت} قتالاً!</li>
+    <li>sent->لم {RECIPIENT_gender ? يحتمل : تحتمل} [RECIPIENT_nameDef] ذلك، {RECIPIENT_gender ? فبدأ : فبدأت} قتالاً!</li>
  </Sentence_SocialFightStarted.rulePack.rulesStrings>
   
 </LanguageData>
