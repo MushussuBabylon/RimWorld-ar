@@ -34,11 +34,11 @@
     <li>asker2(askerIsNull==true)->الآركوتيك</li>
     <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
     <li>asker2(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction]</li>
-    <li>buildReason->تخليداً لـ[PersonalCharacteristic] [PersonFamily] من عائلتـ[asker_possessive]</li>
-    <li>buildReason->تخليداً لـ[PersonalCharacteristic] نفسـ[asker_possessive]</li>
+    <li>buildReason->تخليداً لذكرى [PersonalCharacteristic] [PersonFamily] من عائلتـ[asker_possessive]</li>
+    <li>buildReason->تخليداً لذكرى [PersonalCharacteristic] نفسـ[asker_possessive]</li>
     <li>buildReason->لإهانة [PersonalCharacteristic] خصمـ[asker_possessive]</li>
     <li>buildReason->لتقليل مشاعر [ConceptAngsty] بين الناس</li>
-    <li>buildReason->للتعبير عن مدى [AdjectiveBadass] [asker_pronoun]</li>
+    <li>buildReason->للتعبير عن مدى قوتـ[asker_possessive]</li>
     <li>buildReason->تخليداً لـ[asker_faction_pawnsPlural] الذين سقطوا في معاركـ[asker_possessive]</li>
     <li>buildReason->لتكريم [PersonFamily] من عائلتـ[asker_possessive]</li>
     <li>buildReason->لتكريم عمل [PersonJob]</li>
@@ -84,23 +84,23 @@
     <li>construction->assembly</li>
   -->
   <QuestConstructionNameCommon.rulePack.rulesStrings>
-    <li>questName->[constAdj] [construction]</li>
-    <li>questName->[constAdj] [construction]</li>
-    <li>questName->[constAdj] [construction]</li>
+    <li>questName->[construction] [constAdj]</li>
+    <li>questName->[construction] [constAdj]</li>
+    <li>questName->الـ[construction] الـ[constAdj]</li>
     <li>constAdj(p=20)->[AdjectiveLarge]</li>
     <li>constAdj->رهيب</li>
     <li>constAdj->عظيم</li>
     <li>constAdj->ضخم</li>
     <li>constAdj->خطير</li>
-    <li>constAdj->أثري</li>
+    <li>constAdj->هائل</li>
     <li>constAdj->مسرف</li>
     <li>constAdj->مشؤوم</li>
     <li>constAdj->مخيف</li>
     <li>constAdj->مروع</li>
     <li>constAdj->مخوف</li>
     <li>constAdj->رائع</li>
-    <li>constAdj->نبوي</li>
-    <li>constAdj->مزعج</li>
+    <li>constAdj->نبوئي</li>
+    <li>constAdj->مفزع</li>
     <li>constAdj->لامع</li>
     <li>constAdj->ساطع</li>
     <li>constAdj->مذهل</li>

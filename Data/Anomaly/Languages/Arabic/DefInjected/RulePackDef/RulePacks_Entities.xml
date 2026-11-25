@@ -5,42 +5,48 @@
     <li>r_logentry->[INITIATOR_definite] leaped onto [SUBJECT_definite] and began digesting [SUBJECT_objective].</li>
   -->
   <Event_DevourerConsumeLeap.rulePack.rulesStrings>
-    <li>r_logentry->قفز [INITIATOR_definite] على [SUBJECT_definite] وبدأ في هضمـ[SUBJECT_objective].</li>
+    <li>r_logentry(INITIATOR_gender!=Female)->قفز [INITIATOR_definite] على [SUBJECT_definite] وبدأ في هضمـ[SUBJECT_objective].</li>
+    <li>r_logentry(INITIATOR_gender==Female)->قفزت [INITIATOR_definite] على [SUBJECT_definite] وبدأت في هضمـ[SUBJECT_objective].</li>
  </Event_DevourerConsumeLeap.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] vomited [SUBJECT_definite] up.</li>
   -->
   <Event_DevourerDigestionAborted.rulePack.rulesStrings>
-    <li>r_logentry->تقيأ [INITIATOR_definite] [SUBJECT_definite].</li>
+    <li>r_logentry(INITIATOR_gender!=Female)->تقيأ [INITIATOR_definite] [SUBJECT_definite].</li>
+    <li>r_logentry(INITIATOR_gender==Female)->تقيأت [INITIATOR_definite] [SUBJECT_definite].</li>
  </Event_DevourerDigestionAborted.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] digested [SUBJECT_definite].</li>
   -->
   <Event_DevourerDigestionCompleted.rulePack.rulesStrings>
-    <li>r_logentry->هضم [INITIATOR_definite] [SUBJECT_definite].</li>
+    <li>r_logentry(INITIATOR_gender!=Female)->هضم [INITIATOR_definite] [SUBJECT_definite].</li>
+    <li>r_logentry(INITIATOR_gender==Female)->هضمت [INITIATOR_definite] [SUBJECT_definite].</li>
  </Event_DevourerDigestionCompleted.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] put [SUBJECT_definite] into a trance.</li>
   -->
   <Event_Hypnotized.rulePack.rulesStrings>
-    <li>r_logentry->وضع [INITIATOR_definite] [SUBJECT_definite] في غيبوبة.</li>
+    <li>r_logentry(INITIATOR_gender!=Female)->وضع [INITIATOR_definite] [SUBJECT_definite] في غيبوبة.</li>
+    <li>r_logentry(INITIATOR_gender==Female)->وضعت [INITIATOR_definite] [SUBJECT_definite] في غيبوبة.</li>
  </Event_Hypnotized.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] emerged from [SUBJECT_definite].</li>
   -->
   <Event_MetalhorrorEmerged.rulePack.rulesStrings>
-    <li>r_logentry->خرج [INITIATOR_definite] من [SUBJECT_definite].</li>
+    <li>r_logentry(INITIATOR_gender!=Female)->خرج [INITIATOR_definite] من [SUBJECT_definite].</li>
+    <li>r_logentry(INITIATOR_gender==Female)->خرجت [INITIATOR_definite] من [SUBJECT_definite].</li>
  </Event_MetalhorrorEmerged.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] psychically incinerated [SUBJECT_definite]'s brain.</li>
   -->
   <Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
-    <li>r_logentry->أحرق [INITIATOR_definite] دماغ [SUBJECT_definite] نفسياً.</li>
+    <li>r_logentry(INITIATOR_gender!=Female)->أحرق [INITIATOR_definite] دماغ [SUBJECT_definite] نفسياً.</li>
+    <li>r_logentry(INITIATOR_gender==Female)->أحرقت [INITIATOR_definite] دماغ [SUBJECT_definite] نفسياً.</li>
  </Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
   
   <!-- EN:

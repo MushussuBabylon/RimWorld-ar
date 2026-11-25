@@ -34,36 +34,56 @@
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
   -->
   <Maneuver_Bite.rulePack.rulesStrings>
-    <li>damaged_inf->عض</li>
-    <li>damaged_inf->قضم</li>
-    <li>damaged_inf(p=0.5)->عض خفيف</li>
-    <li>damaged_past->عض</li>
-    <li>damaged_past->قضم</li>
-    <li>damaged_past->عض خفيفاً</li>
-    <li>damaged_past->قرض</li>
-    <li>damaged_past(deflected!=True)->مزق</li>
-    <li>damaged_present->يعض</li>
-    <li>damaged_present->يقضم</li>
-    <li>damaged_present->يعض خفيفاً</li>
-    <li>damaged_present->يقرض</li>
-    <li>damaged_present(deflected!=True)->يمزق</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->كاشفاً اللحم تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->كاشفاً الآلات تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً تمزقات بشعة في الجلد</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->تاركاً تمزقات بشعة في المعدن</li>
-    <li>destroyed_past->مزق</li>
-    <li>destroyed_past->انتزع</li>
-    <li>destroyed_past->عض</li>
-    <li>destroyed_present->يمزق</li>
-    <li>destroyed_present->ينتزع</li>
-    <li>destroyed_present->يعض</li>
+    <li>damaged_inf->عضّة</li>
+    <li>damaged_inf->قضمة</li>
+    <li>damaged_inf(p=0.5)->عضّة خفيفة</li>
+    <li>damaged_past(INITIATOR_gender==Female)->عضّت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->عضّ</li>
+    <li>damaged_past(INITIATOR_gender==Female)->قضمت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->قضم</li>
+    <li>damaged_past(INITIATOR_gender==Female)->عضّت بخفة</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->عضّ بخفة</li>
+    <li>damaged_past(INITIATOR_gender==Female)->قرضت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->قرض</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)->مزّقت</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender!=Female)->مزّق</li>
+    <li>damaged_present(INITIATOR_gender==Female)->عاضّةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->عاضّاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->قاضمةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->قاضماً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->عاضّةً بخفة</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->عاضّاً بخفة</li>
+    <li>damaged_present(INITIATOR_gender==Female)->قارضةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->قارضاً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender==Female)->ممزقةً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender!=Female)->ممزقاً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender==Female)->كاشفةً ما تحته من لحم</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender!=Female)->كاشفاً ما تحته من لحم</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid,INITIATOR_gender==Female)->كاشفةً ما تحته من أجزاء ميكانيكية</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid,INITIATOR_gender!=Female)->كاشفاً ما تحته من أجزاء ميكانيكية</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender==Female)->تاركةً تمزقات بشعة في الجلد</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender!=Female)->تاركاً تمزقات بشعة في الجلد</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid,INITIATOR_gender==Female)->تاركةً تمزقات بشعة في المعدن</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid,INITIATOR_gender!=Female)->تاركاً تمزقات بشعة في المعدن</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->انتزعت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->انتزع</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->اقتلعت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->اقتلع</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->قضمت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->قضم</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->منتزعةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->منتزعاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مقتلعةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مقتلعاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->قاضمةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->قاضماً</li>
     <li>destroyed_suffix->[to] قطع</li>
     <li>destroyed_suffix->[to] قطع صغيرة</li>
-    <li>destroyed_suffix->[to] كتل</li>
+    <li>destroyed_suffix->[to] قطع كبيرة</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] أشلاء</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] شرائح</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] شرائح فوضوية</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] فوضى لا يمكن التعرف عليها</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] شرائح ممزقة</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] حطام لا يمكن التعرف عليه</li>
  </Maneuver_Bite.rulePack.rulesStrings>
   
   <!-- EN:
@@ -71,8 +91,8 @@
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-    <li>r_logentry->حاول [INITIATOR_definite] ركل [TOOL_label] في عيني [RECIPIENT_definite]، لكن [RECIPIENT_definite] تفادى جانباً.</li>
-    <li>r_logentry->حاول [INITIATOR_definite] ركل [TOOL_label] في عيني [RECIPIENT_definite]، لكن [RECIPIENT_definite] صده.</li>
+    <li>r_logentry->[INITIATOR_definite] {INITIATOR_gender ? حاول : حاولت} ركل [TOOL_label] نحو عيني [RECIPIENT_definite]، لكن [RECIPIENT_definite] {RECIPIENT_gender ? تفادى : تفادت} جانباً.</li>
+    <li>r_logentry->[INITIATOR_definite] {INITIATOR_gender ? حاول : حاولت} ركل [TOOL_label] نحو عيني [RECIPIENT_definite]، لكن [RECIPIENT_definite] {RECIPIENT_gender ? تصدى : تصدت} للركلة.</li>
  </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   
   <!-- EN:
@@ -80,15 +100,15 @@
     <li>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
-    <li>r_logentry->ركل [INITIATOR_definite] [TOOL_label] في عيني [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->ركل [INITIATOR_definite] رذاذاً من [TOOL_label] في عيني [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] {INITIATOR_gender ? ركل : ركلت} [TOOL_label] نحو عيني [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] {INITIATOR_gender ? ركل : ركلت} رذاذاً من [TOOL_label] نحو عيني [RECIPIENT_definite].</li>
  </Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
-    <li>r_logentry->حاول [INITIATOR_definite] ركل [TOOL_label] في عيني [RECIPIENT_definite]، لكنه أخطأ.</li>
+    <li>r_logentry->[INITIATOR_definite] {INITIATOR_gender ? حاول : حاولت} ركل [TOOL_label] نحو عيني [RECIPIENT_definite]، {INITIATOR_gender ? لكنه أخطأ : لكنها أخطأت}.</li>
  </Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
   
   <!-- EN:
@@ -127,35 +147,57 @@
     <li>destroyed_suffix->[to] fragments</li>
   -->
   <Maneuver_Poke.rulePack.rulesStrings>
-    <li>damaged_inf(p=2)->نكز</li>
-    <li>damaged_inf(p=2)->وخز</li>
-    <li>damaged_inf->زج</li>
-    <li>damaged_inf->دفع</li>
-    <li>damaged_inf->طعن</li>
-    <li>damaged_past(p=2)->نكز</li>
-    <li>damaged_past(p=2)->وخز</li>
-    <li>damaged_past->زج</li>
-    <li>damaged_past->دفع</li>
-    <li>damaged_past->طعن</li>
-    <li>damaged_present(p=2)->ينكز</li>
-    <li>damaged_present(p=2)->يوخز</li>
-    <li>damaged_present->يزج</li>
-    <li>damaged_present->يدفع</li>
-    <li>damaged_present->يطعن</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً كدمة هائلة</li>
-    <li>flavortext_consequence->تاركاً المنطقة مشوهة بشكل واضح</li>
-    <li>flavortext_consequence->جاعلاً[RECIPIENT_objective] يفقد توازنه</li>
-    <li>flavortext_consequence->جاعلاً[RECIPIENT_objective] ينحرف جانباً</li>
-    <li>destroyed_past->حطم</li>
-    <li>destroyed_past->سحق</li>
-    <li>destroyed_past->أباد</li>
-    <li>destroyed_past->أفنى</li>
-    <li>destroyed_past->كسر</li>
-    <li>destroyed_present->يحطم</li>
-    <li>destroyed_present->يسحق</li>
-    <li>destroyed_present->يبيد</li>
-    <li>destroyed_present->يفني</li>
-    <li>destroyed_present->يكسر</li>
+    <li>damaged_inf(p=2)->نكزة</li>
+    <li>damaged_inf(p=2)->وخزة</li>
+    <li>damaged_inf->نخسة</li>
+    <li>damaged_inf->دفعة</li>
+    <li>damaged_inf->طعنة</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)->نكزت</li>
+    <li>damaged_past(p=2,INITIATOR_gender!=Female)->نكز</li>
+    <li>damaged_past(p=2,INITIATOR_gender==Female)->وخزت</li>
+    <li>damaged_past(p=2,INITIATOR_gender!=Female)->وخز</li>
+    <li>damaged_past(INITIATOR_gender==Female)->نخست</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->نخس</li>
+    <li>damaged_past(INITIATOR_gender==Female)->دفعت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->دفع</li>
+    <li>damaged_past(INITIATOR_gender==Female)->طعنت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->طعن</li>
+    <li>damaged_present(p=2,INITIATOR_gender==Female)->ناكزةً</li>
+    <li>damaged_present(p=2,INITIATOR_gender!=Female)->ناكزاً</li>
+    <li>damaged_present(p=2,INITIATOR_gender==Female)->واخزةً</li>
+    <li>damaged_present(p=2,INITIATOR_gender!=Female)->واخزاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->ناخسةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->ناخساً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->دافعةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->دافعاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->طاعنةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->طاعناً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender==Female)->تاركةً كدمة هائلة</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender!=Female)->تاركاً كدمة هائلة</li>
+    <li>flavortext_consequence(INITIATOR_gender==Female)->تاركةً المنطقة مشوهة بشكل واضح</li>
+    <li>flavortext_consequence(INITIATOR_gender!=Female)->تاركاً المنطقة مشوهة بشكل واضح</li>
+    <li>flavortext_consequence->مما جعلـ[RECIPIENT_objective] {RECIPIENT_gender ? يفقد : تفقد} توازنـ[RECIPIENT_possessive]</li>
+    <li>flavortext_consequence->مما جعلـ[RECIPIENT_objective] {RECIPIENT_gender ? ينحرف : تنحرف} جانباً</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->حطّمت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->حطّم</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->سحقت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->سحق</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->أبادت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->أباد</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->أفنت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->أفنى</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->كسرت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->كسر</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->محطمةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->محطماً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->ساحقةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->ساحقاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مبيدةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مبيداً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مفنيةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مفنياً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->كاسرةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->كاسراً</li>
     <li>destroyed_suffix->[to] قطع</li>
     <li>destroyed_suffix->[to] قطع صغيرة</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] رذاذ ناعم</li>
@@ -176,17 +218,20 @@
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a pile of gore</li>
   -->
   <Maneuver_Scratch.rulePack.rulesStrings>
-    <li>woundname->جرح</li>
-    <li>woundname(p=0.3)->فتحة</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->وكاشفاً اللحم تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->وكاشفاً الآلات تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->وتاركاً [woundname] دموياً</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] شرائح فوضوية</li>
+    <li>woundname->جرحاً</li>
+    <li>woundname(p=0.3)->شقاً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender==Female)->وكاشفةً ما تحته من لحم</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender!=Female)->وكاشفاً ما تحته من لحم</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid,INITIATOR_gender==Female)->وكاشفةً ما تحته من أجزاء ميكانيكية</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid,INITIATOR_gender!=Female)->وكاشفاً ما تحته من أجزاء ميكانيكية</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender==Female)->وتاركةً [woundname] دموياً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender!=Female)->وتاركاً [woundname] دموياً</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] شرائح ممزقة</li>
     <li>destroyed_suffix->[to] شرائح</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] قطع فوضوية</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] قطع مبعثرة</li>
     <li>destroyed_suffix->[to] قطع</li>
     <li>destroyed_suffix->[to] شظايا</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] كومة من الدماء</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] كومة من الأشلاء</li>
  </Maneuver_Scratch.rulePack.rulesStrings>
   
   <!-- EN:
@@ -214,28 +259,46 @@
     <li>destroyed_present->ripping</li>
   -->
   <Maneuver_Scratch_Damage.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->خدش</li>
-    <li>damaged_inf(deflected!=True)->مزق</li>
-    <li>damaged_inf(deflected!=True)->قطع</li>
-    <li>damaged_inf->جرح</li>
-    <li>damaged_past(p=4)->خدش</li>
-    <li>damaged_past(deflected!=True)->مزق</li>
-    <li>damaged_past(deflected!=True)->قطع</li>
-    <li>damaged_past->جرح</li>
-    <li>damaged_present->يخدش</li>
-    <li>damaged_present(deflected!=True)->يمزق</li>
-    <li>damaged_present(deflected!=True)->يقطع</li>
-    <li>damaged_present->يجرح</li>
-    <li>destroyed_past->هجم بوحشية</li>
-    <li>destroyed_past->مزق</li>
-    <li>destroyed_past->قطع</li>
-    <li>destroyed_past->مزق إربا</li>
-    <li>destroyed_past->مزق</li>
-    <li>destroyed_present->يهجم بوحشية</li>
-    <li>destroyed_present->يمزق</li>
-    <li>destroyed_present->يقطع</li>
-    <li>destroyed_present->يمزق إربا</li>
-    <li>destroyed_present->يمزق</li>
+    <li>damaged_inf(p=4)->خدشة</li>
+    <li>damaged_inf(deflected!=True)->ضربة ممزقة</li>
+    <li>damaged_inf(deflected!=True)->ضربة قاطعة</li>
+    <li>damaged_inf->ضربة جارحة</li>
+    <li>damaged_past(p=4,INITIATOR_gender==Female)->خدشت</li>
+    <li>damaged_past(p=4,INITIATOR_gender!=Female)->خدش</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)->مزّقت</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender!=Female)->مزّق</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)->شقّت</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender!=Female)->شقّ</li>
+    <li>damaged_past(INITIATOR_gender==Female)->جرحت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->جرح</li>
+    <li>damaged_present(INITIATOR_gender==Female)->خادشةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->خادشاً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender==Female)->ممزقةً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender!=Female)->ممزقاً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender==Female)->شاقةً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender!=Female)->شاقاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->جارحةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->جارحاً</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->نهشت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->نهش</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->مزّقت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->مزّق</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->شقّت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->شقّ</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->قطّعت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->قطّع</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->انتزعت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->انتزع</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->ناهشةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->ناهشاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->ممزقةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->ممزقاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->شاقةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->شاقاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مقطعةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مقطعاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->منتزعةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->منتزعاً</li>
  </Maneuver_Scratch_Damage.rulePack.rulesStrings>
   
   <!-- EN:
@@ -278,43 +341,74 @@
     <li>destroyed_suffix(target_part_destroyed_count==1)->slicing it in twain</li>
   -->
   <Maneuver_Slash.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->شق</li>
-    <li>damaged_inf->قطع</li>
-    <li>damaged_inf->فرم</li>
-    <li>damaged_inf->قطع بخشونة</li>
-    <li>damaged_inf->شرح</li>
-    <li>damaged_inf(deflected!=True)->بقر</li>
-    <li>damaged_past(p=4)->شق</li>
-    <li>damaged_past->قطع</li>
-    <li>damaged_past->فرم</li>
-    <li>damaged_past->قطع بخشونة</li>
-    <li>damaged_past->شرح</li>
-    <li>damaged_past(deflected!=True)->بقر</li>
-    <li>damaged_present->يشق</li>
-    <li>damaged_present->يقطع</li>
-    <li>damaged_present->يشرح</li>
-    <li>damaged_present(deflected!=True)->يبقر</li>
-    <li>damaged_present(deflected!=True)->يمزق</li>
-    <li>damaged_present(deflected!=True)->يمزق</li>
-    <li>woundname->جرح</li>
-    <li>woundname(p=0.3)->فتحة</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->كاشفاً اللحم تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->كاشفاً الآلات تحته</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً [woundname] دموياً</li>
-    <li>destroyed_past->شق نصفين</li>
-    <li>destroyed_past->قسم</li>
-    <li>destroyed_past->قسم نصفين</li>
-    <li>destroyed_past->فصل</li>
-    <li>destroyed_past->شق</li>
-    <li>destroyed_present->يشق نصفين</li>
-    <li>destroyed_present->يقسم</li>
-    <li>destroyed_present->يقسم نصفين</li>
-    <li>destroyed_present->يفصل</li>
-    <li>destroyed_present->يشق</li>
-    <li>destroyed_suffix->إلى قطع مرتبة</li>
-    <li>destroyed_suffix->بنظافة</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->كاشفاً عن أعماله الداخلية</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->شاقاً إياه إلى اثنين</li>
+    <li>damaged_inf(p=4)->ضربة قاطعة</li>
+    <li>damaged_inf->ضربة قطع</li>
+    <li>damaged_inf->ضربة تقطيع</li>
+    <li>damaged_inf->ضربة تقطيع عنيفة</li>
+    <li>damaged_inf->ضربة شق</li>
+    <li>damaged_inf(deflected!=True)->ضربة غائرة</li>
+    <li>damaged_past(p=4,INITIATOR_gender==Female)->شقّت</li>
+    <li>damaged_past(p=4,INITIATOR_gender!=Female)->شقّ</li>
+    <li>damaged_past(INITIATOR_gender==Female)->قطعت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->قطع</li>
+    <li>damaged_past(INITIATOR_gender==Female)->قطّعت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->قطّع</li>
+    <li>damaged_past(INITIATOR_gender==Female)->قطعت بعنف</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->قطع بعنف</li>
+    <li>damaged_past(INITIATOR_gender==Female)->قدّت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->قدّ</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)->بقرت</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender!=Female)->بقر</li>
+    <li>damaged_present(p=4,INITIATOR_gender==Female)->شاقةً</li>
+    <li>damaged_present(p=4,INITIATOR_gender!=Female)->شاقاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->قاطعةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->قاطعاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->مقطعةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->مقطعاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->قاطعةً بعنف</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->قاطعاً بعنف</li>
+    <li>damaged_present(INITIATOR_gender==Female)->قادّةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->قادّاً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender==Female)->باقرةً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender!=Female)->باقراً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender==Female)->ممزقةً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender!=Female)->ممزقاً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender==Female)->جارحةً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender!=Female)->جارحاً</li>
+    <li>woundname->جرحاً</li>
+    <li>woundname(p=0.3)->شقاً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender==Female)->كاشفةً ما تحته من لحم</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender!=Female)->كاشفاً ما تحته من لحم</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid,INITIATOR_gender==Female)->كاشفةً ما تحته من أجزاء ميكانيكية</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid,INITIATOR_gender!=Female)->كاشفاً ما تحته من أجزاء ميكانيكية</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender==Female)->تاركةً [woundname] دموياً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender!=Female)->تاركاً [woundname] دموياً</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->شطرت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->شطر</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->قسّمت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->قسّم</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->نصّفت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->نصّف</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->فصلت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->فصل</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->شقّت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->شقّ</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->شاطرةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->شاطراً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مقسمةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مقسماً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->منصفةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->منصفاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->فاصلةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->فاصلاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->شاقةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->شاقاً</li>
+    <li>destroyed_suffix->إلى قطع متساوية</li>
+    <li>destroyed_suffix->بقطع نظيف</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1,INITIATOR_gender==Female)->كاشفةً عما بداخله</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1,INITIATOR_gender!=Female)->كاشفاً عما بداخله</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1,INITIATOR_gender==Female)->قاسمةً الجزء إلى نصفين</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1,INITIATOR_gender!=Female)->قاسماً الجزء إلى نصفين</li>
  </Maneuver_Slash.rulePack.rulesStrings>
   
   <!-- EN:
@@ -328,10 +422,12 @@
     <li>destroyed_suffix->[to] fragments</li>
   -->
   <Maneuver_Smash.rulePack.rulesStrings>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً كدمة هائلة</li>
-    <li>flavortext_consequence->تاركاً المنطقة مشوهة بشكل واضح</li>
-    <li>flavortext_consequence->جاعلاً[RECIPIENT_objective] يفقد توازنه</li>
-    <li>flavortext_consequence->جاعلاً[RECIPIENT_objective] ينحرف جانباً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender==Female)->تاركةً كدمة هائلة</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender!=Female)->تاركاً كدمة هائلة</li>
+    <li>flavortext_consequence(INITIATOR_gender==Female)->تاركةً المنطقة مشوهة بشكل واضح</li>
+    <li>flavortext_consequence(INITIATOR_gender!=Female)->تاركاً المنطقة مشوهة بشكل واضح</li>
+    <li>flavortext_consequence->مما جعلـ[RECIPIENT_objective] {RECIPIENT_gender ? يفقد : تفقد} توازنـ[RECIPIENT_possessive]</li>
+    <li>flavortext_consequence->مما جعلـ[RECIPIENT_objective] {RECIPIENT_gender ? ينحرف : تنحرف} جانباً</li>
     <li>destroyed_suffix->[to] قطع</li>
     <li>destroyed_suffix->[to] قطع صغيرة</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] رذاذ ناعم</li>
@@ -362,27 +458,42 @@
     <li>destroyed_present->breaking</li>
   -->
   <Maneuver_Smash_Damage.rulePack.rulesStrings>
-    <li>damaged_inf->ضرب</li>
-    <li>damaged_inf->سحق</li>
-    <li>damaged_inf->صدم</li>
-    <li>damaged_inf->قذف بقوة</li>
-    <li>damaged_inf->صفع</li>
-    <li>damaged_inf->جلد</li>
-    <li>damaged_past->ضرب</li>
-    <li>damaged_past->سحق</li>
-    <li>damaged_past->صدم</li>
-    <li>damaged_past->قذف بقوة</li>
-    <li>damaged_past->صفع</li>
-    <li>damaged_past->جلد</li>
-    <li>damaged_present->يسحق</li>
-    <li>damaged_present->يصدم</li>
-    <li>damaged_present(deflected!=True)->يكدم</li>
-    <li>destroyed_past->حطم</li>
-    <li>destroyed_past->سحق</li>
-    <li>destroyed_past->كسر</li>
-    <li>destroyed_present->يحطم</li>
-    <li>destroyed_present->يسحق</li>
-    <li>destroyed_present->يكسر</li>
+    <li>damaged_inf->ضربة</li>
+    <li>damaged_inf->ضربة ساحقة</li>
+    <li>damaged_inf->ضربة عنيفة</li>
+    <li>damaged_inf->ضربة قاصمة</li>
+    <li>damaged_inf->ضربة قوية</li>
+    <li>damaged_inf->ضربة مبرحة</li>
+    <li>damaged_past(INITIATOR_gender==Female)->ضربت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->ضرب</li>
+    <li>damaged_past(INITIATOR_gender==Female)->سحقت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->سحق</li>
+    <li>damaged_past(INITIATOR_gender==Female)->صدمت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->صدم</li>
+    <li>damaged_past(INITIATOR_gender==Female)->لطمت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->لطم</li>
+    <li>damaged_past(INITIATOR_gender==Female)->طرقت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->طرق</li>
+    <li>damaged_past(INITIATOR_gender==Female)->ضربت بعنف</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->ضرب بعنف</li>
+    <li>damaged_present(INITIATOR_gender==Female)->ساحقةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->ساحقاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->صادمةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->صادماً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender==Female)->راضّةً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender!=Female)->راضّاً</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->هشّمت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->هشّم</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->سحقت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->سحق</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->كسرت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->كسر</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مهشمةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مهشماً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->ساحقةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->ساحقاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->كاسرةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->كاسراً</li>
  </Maneuver_Smash_Damage.rulePack.rulesStrings>
   
   <!-- EN:
@@ -418,36 +529,57 @@
     <li>destroyed_suffix(target_part_destroyed_count==1)->leaving it leaking unrecognizable fluids</li>
   -->
   <Maneuver_Stab.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->طعن</li>
-    <li>damaged_inf->وخز</li>
-    <li>damaged_inf(deflected!=True)->اخترق</li>
-    <li>damaged_inf(deflected!=True)->ثقب</li>
-    <li>damaged_inf(deflected!=True)->شبك</li>
-    <li>damaged_past(p=4)->طعن</li>
-    <li>damaged_past->وخز</li>
-    <li>damaged_past(deflected!=True)->اخترق</li>
-    <li>damaged_past(deflected!=True)->ثقب</li>
-    <li>damaged_past(deflected!=True)->شبك</li>
-    <li>damaged_present(deflected!=True)->يخترق</li>
-    <li>damaged_present(deflected!=True)->يثقب</li>
-    <li>damaged_present(deflected!=True)->يخترق</li>
-    <li>damaged_present(deflected!=True)->يشبك</li>
-    <li>woundname->ثقب</li>
-    <li>woundname->جرح</li>
-    <li>woundname->شق</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً [woundname] دموياً</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً [woundname] ممزقاً</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->تاركاً [woundname] نازفاً</li>
-    <li>destroyed_past->خوزق</li>
-    <li>destroyed_past->ثقب</li>
-    <li>destroyed_past->شبك</li>
-    <li>destroyed_present->يخوزق</li>
-    <li>destroyed_present->يثقب</li>
-    <li>destroyed_present->يشبك</li>
-    <li>destroyed_suffix->مباشرة عبره</li>
-    <li>destroyed_suffix->تاركاً ثقباً نظيفاً</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->تاركاً إياه يسرب سوائل دموية</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->تاركاً إياه يسرب سوائل لا يمكن التعرف عليها</li>
+    <li>damaged_inf(p=4)->طعنة</li>
+    <li>damaged_inf->وخزة</li>
+    <li>damaged_inf(deflected!=True)->ضربة نافذة</li>
+    <li>damaged_inf(deflected!=True)->ضربة ثاقبة</li>
+    <li>damaged_inf(deflected!=True)->ضربة غارزة</li>
+    <li>damaged_past(p=4,INITIATOR_gender==Female)->طعنت</li>
+    <li>damaged_past(p=4,INITIATOR_gender!=Female)->طعن</li>
+    <li>damaged_past(INITIATOR_gender==Female)->وخزت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->وخز</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)->اخترقت</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender!=Female)->اخترق</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)->ثقبت</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender!=Female)->ثقب</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender==Female)->طعنت بعمق</li>
+    <li>damaged_past(deflected!=True,INITIATOR_gender!=Female)->طعن بعمق</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender==Female)->مخترقةً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender!=Female)->مخترقاً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender==Female)->ثاقبةً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender!=Female)->ثاقباً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender==Female)->نافذةً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender!=Female)->نافذاً</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender==Female)->طاعنةً بعمق</li>
+    <li>damaged_present(deflected!=True,INITIATOR_gender!=Female)->طاعناً بعمق</li>
+    <li>woundname->ثقباً</li>
+    <li>woundname->جرحاً</li>
+    <li>woundname->شقاً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender==Female)->تاركةً [woundname] دموياً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender!=Female)->تاركاً [woundname] دموياً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender==Female)->تاركةً [woundname] ممزقاً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender!=Female)->تاركاً [woundname] ممزقاً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender==Female)->تاركةً [woundname] نازفاً</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,INITIATOR_gender!=Female)->تاركاً [woundname] نازفاً</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->خوزقت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->خوزق</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->ثقبت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->ثقب</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->اخترقت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->اخترق</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مخوزقةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مخوزقاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->ثاقبةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->ثاقباً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مخترقةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مخترقاً</li>
+    <li>destroyed_suffix->من جانب إلى آخر</li>
+    <li>destroyed_suffix(INITIATOR_gender==Female)->تاركةً ثقباً نظيفاً</li>
+    <li>destroyed_suffix(INITIATOR_gender!=Female)->تاركاً ثقباً نظيفاً</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1,INITIATOR_gender==Female)->تاركةً ما تبقى منه ينزف سوائل دموية</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1,INITIATOR_gender!=Female)->تاركاً ما تبقى منه ينزف سوائل دموية</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1,INITIATOR_gender==Female)->تاركةً ما تبقى منه يسرب سوائل لا يمكن التعرف عليها</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1,INITIATOR_gender!=Female)->تاركاً ما تبقى منه يسرب سوائل لا يمكن التعرف عليها</li>
  </Maneuver_Stab.rulePack.rulesStrings>
   
 </LanguageData>

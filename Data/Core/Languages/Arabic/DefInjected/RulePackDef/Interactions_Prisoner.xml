@@ -5,14 +5,18 @@
     <li>sent->[RECIPIENT_nameDef] has accepted and joined [INITIATOR_nameDef]'s community.</li>
   -->
   <Sentence_RecruitAttemptAccepted.rulePack.rulesStrings>
-    <li>sent->قبل [RECIPIENT_nameDef] وانضم إلى مجتمع [INITIATOR_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? قبل : قبلت} [RECIPIENT_nameDef] {RECIPIENT_gender ? وانضم : وانضمت} إلى مجتمع [INITIATOR_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? اقتنع : اقتنعت} [RECIPIENT_nameDef] أخيراً، {RECIPIENT_gender ? وانضم : وانضمت} إلى مجتمع [INITIATOR_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? وافق : وافقت} [RECIPIENT_nameDef] على الانضمام إلى مجتمع [INITIATOR_nameDef].</li>
  </Sentence_RecruitAttemptAccepted.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] refused.</li>
   -->
   <Sentence_RecruitAttemptRejected.rulePack.rulesStrings>
-    <li>sent->رفض [RECIPIENT_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? رفض : رفضت} [RECIPIENT_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? رفض : رفضت} [RECIPIENT_nameDef] الانضمام.</li>
+    <li>sent->{RECIPIENT_gender ? أبى : أبت} [RECIPIENT_nameDef] الانضمام.</li>
  </Sentence_RecruitAttemptRejected.rulePack.rulesStrings>
   
 </LanguageData>

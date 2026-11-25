@@ -21,21 +21,22 @@
   -->
   <DamageEvent_Ceiling.rulePack.rulesStrings>
     <li>damage_source->[roof] [collapsed] على</li>
-    <li>roof->سقف</li>
-    <li>roof->تسقيف</li>
-    <li>roof->سقف</li>
+    <li>roof->السقف</li>
+    <li>roof->سقف المبنى</li>
+    <li>roof->سقف الغرفة</li>
     <li>collapsed->انهار</li>
     <li>collapsed->سقط</li>
-    <li>collapsed->انهار</li>
-    <li>damaged_present->سحق</li>
-    <li>damaged_present->ضرب</li>
-    <li>damaged_present->كدم</li>
-    <li>damaged_present->مزق</li>
-    <li>destroyed_present->حطم</li>
-    <li>destroyed_present->سحق</li>
-    <li>destroyed_present->أباد</li>
-    <li>destroyed_present->أفنى</li>
-    <li>destroyed_present->كسر</li>
+    <li>collapsed->هوى</li>
+    <li>collapsed->تداعى</li>
+    <li>damaged_present->ساحقاً</li>
+    <li>damaged_present->ضارباً</li>
+    <li>damaged_present->راضّاً</li>
+    <li>damaged_present->ممزقاً</li>
+    <li>destroyed_present->محطماً</li>
+    <li>destroyed_present->ساحقاً</li>
+    <li>destroyed_present->مبيداً</li>
+    <li>destroyed_present->مفنياً</li>
+    <li>destroyed_present->كاسراً</li>
  </DamageEvent_Ceiling.rulePack.rulesStrings>
   
   <!-- EN:
@@ -57,20 +58,20 @@
   -->
   <DamageEvent_Fire.rulePack.rulesStrings>
     <li>damage_source->أحرق [fire]</li>
-    <li>fire(p=3)->نار</li>
-    <li>fire(p=3)->نار</li>
-    <li>fire(p=3)->النار</li>
-    <li>fire->حرارة</li>
+    <li>fire(p=3)->لهيب</li>
+    <li>fire(p=3)->حريق</li>
+    <li>fire(p=3)->الحريق</li>
+    <li>fire->وهج</li>
     <li>fire->حريق هائل</li>
     <li>fire->جحيم</li>
-    <li>damaged_present->لذع</li>
-    <li>damaged_present->حمص</li>
-    <li>damaged_present->كوى</li>
-    <li>damaged_present->شوط</li>
-    <li>destroyed_present->فحم</li>
-    <li>destroyed_present->شوى</li>
-    <li>destroyed_present->طهى</li>
-    <li>destroyed_present->أحرق</li>
+    <li>damaged_present->لافحاً</li>
+    <li>damaged_present->محمصاً</li>
+    <li>damaged_present->كاوياً</li>
+    <li>damaged_present->سافعاً</li>
+    <li>destroyed_present->مفحماً</li>
+    <li>destroyed_present->شاوياً</li>
+    <li>destroyed_present->طابخاً</li>
+    <li>destroyed_present->محرقاً</li>
  </DamageEvent_Fire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -80,9 +81,9 @@
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   -->
   <DamageEvent_Include.rulePack.rulesStrings>
-    <li>r_logentry->[damage_source] [RECIPIENT_nameDef]، [destroyed_present] [destroyed_targets][RECIPIENT_possessive].</li>
-    <li>r_logentry->[damage_source] [RECIPIENT_nameDef]، [destroyed_present] [destroyed_targets][RECIPIENT_possessive] و[damaged_present] [damaged_targets][RECIPIENT_possessive].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef]، [damaged_present] [damaged_targets][RECIPIENT_possessive].</li>
+    <li>r_logentry->[damage_source] [RECIPIENT_nameDef]، [destroyed_present] [destroyed_targets] من جسد[RECIPIENT_possessive].</li>
+    <li>r_logentry->[damage_source] [RECIPIENT_nameDef]، [destroyed_present] [destroyed_targets] و[damaged_present] [damaged_targets] من جسد[RECIPIENT_possessive].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef]، [damaged_present] [damaged_targets] من جسد[RECIPIENT_possessive].</li>
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
  </DamageEvent_Include.rulePack.rulesStrings>
   
@@ -102,19 +103,19 @@
     <li>light(p=0.2)->incandescence</li>
   -->
   <DamageEvent_PowerBeam.rulePack.rulesStrings>
-    <li>damage_source->انفتح [sky] على</li>
-    <li>damage_source->شعاع من [power] لا يصدق [damaged_past]</li>
+    <li>damage_source->انفتح عنان [sky] على</li>
+    <li>damage_source->شعاع هائل من [power] [damaged_past]</li>
     <li>damage_source->عمود من [light] [damaged_past]</li>
-    <li>sky->سماء</li>
-    <li>sky->غيوم</li>
-    <li>sky->سماوات</li>
-    <li>power->قوة</li>
-    <li>power->طاقة</li>
-    <li>power->حرارة</li>
-    <li>light->ضوء</li>
-    <li>light->حرارة</li>
-    <li>light->لهب</li>
-    <li>light(p=0.2)->وهج</li>
+    <li>sky->السماء</li>
+    <li>sky->الغيوم</li>
+    <li>sky->السماوات</li>
+    <li>power->القوة</li>
+    <li>power->الطاقة</li>
+    <li>power->الحرارة</li>
+    <li>light->الضوء</li>
+    <li>light->الحرارة</li>
+    <li>light->اللهب</li>
+    <li>light(p=0.2)->الوهج</li>
  </DamageEvent_PowerBeam.rulePack.rulesStrings>
   
   <!-- EN:
@@ -130,14 +131,14 @@
   -->
   <DamageEvent_Tornado.rulePack.rulesStrings>
     <li>damage_source->إعصار [spiraling] [enveloped]</li>
-    <li>destroyed_present(p=3)->اقتلع</li>
+    <li>destroyed_present(p=3)->منتزعاً</li>
     <li>spiraling->حلزوني</li>
-    <li>spiraling->دوامي</li>
-    <li>spiraling->دوار</li>
+    <li>spiraling->دوّامي</li>
+    <li>spiraling->دوّار</li>
     <li>spiraling(p=10)-></li>
-    <li>enveloped(p=8)->غطى</li>
+    <li>enveloped(p=8)->غمر</li>
     <li>enveloped->ابتلع</li>
-    <li>enveloped->أحاط</li>
+    <li>enveloped->طوّق</li>
  </DamageEvent_Tornado.rulePack.rulesStrings>
   
   <!-- EN:
@@ -164,17 +165,17 @@
     <li>damage_source->انطلق [spiketrap] نحو</li>
     <li>spiketrap(p=3)->فخ شائك</li>
     <li>spiketrap(p=3)->الفخ الشائك</li>
-    <li>spiketrap->أشواك</li>
+    <li>spiketrap->شوك الفخ</li>
     <li>spiketrap->فخ حاد</li>
     <li>spiketrap->فخ شوكي</li>
-    <li>damaged_present->مثقب</li>
-    <li>damaged_present->خارق كالرمح</li>
-    <li>damaged_present->مخترق</li>
-    <li>damaged_present->مغروس في</li>
-    <li>destroyed_present->يمزق إربا</li>
-    <li>destroyed_present->يقطع أوصالاً</li>
-    <li>destroyed_present->يبقر البطن</li>
-    <li>destroyed_present->ينفجر</li>
+    <li>damaged_present->مثقباً</li>
+    <li>damaged_present->طاعناً</li>
+    <li>damaged_present->مخترقاً</li>
+    <li>damaged_present->غارساً نفسه في</li>
+    <li>destroyed_present->ممزقاً</li>
+    <li>destroyed_present->مقطعاً</li>
+    <li>destroyed_present->باقراً</li>
+    <li>destroyed_present->مفجراً</li>
  </DamageEvent_TrapSpike.rulePack.rulesStrings>
   
 </LanguageData>

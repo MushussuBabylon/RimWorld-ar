@@ -267,14 +267,16 @@
     <li>artextra_clause_statue->[SUBJECT_indefinite] يقف في وسط [Community]</li>
     <li>artextra_clause_statue->قاعدة التمثال تبدو وكأنها [TerrainFeature]</li>
     <li>artextra_clause_statue->[SUBJECT_indefinite] يبدو وكأنه يصعد من [TerrainFeature]</li>
-    <li>artextra_clause_statue->يظهر [Character] صغير [side_position_statue]</li>
-    <li>artextra_clause_statue->يظهر [pawn_adj] [Character] [side_position_statue]</li>
-    <li>artextra_clause_statue->يظهر [Quantity_adjphrase] [Character] [side_position_statue]</li>
-    <li>artextra_clause_statue->يظهر [Quantity_adjphrase] [pawn_adj] [Character] [side_position_statue]</li>
+    <li>artextra_clause_statue(p=0.571)->يظهر [CharacterMale] صغير [side_position_statue]</li>
+    <li>artextra_clause_statue(p=0.429)->تظهر [CharacterFem] صغيرة [side_position_statue]</li>
+    <li>artextra_clause_statue(p=0.571)->يظهر [CharacterMale] [pawn_adjMale] [side_position_statue]</li>
+    <li>artextra_clause_statue(p=0.429)->تظهر [CharacterFem] [pawn_adjFem] [side_position_statue]</li>
+    <li>artextra_clause_statue->يظهر [Quantity_of] [CharacterPlural] [side_position_statue]</li>
+    <li>artextra_clause_statue->يظهر [Quantity_of] [CharacterPlural] [side_position_statue]</li>
     <li>artextra_clause_statue->[Animal] منحوت [side_position_statue]</li>
     <li>artextra_clause_statue->من بعيد، يكشف التكوين [composition] للتمثال عن خطوط [subimageany]</li>
     <li>artextra_clause_statue->التمثال يحمل [Animal] تحت إحدى ذراعيه</li>
-    <li>artextra_clause_statue->التمثال يحمل [Quantity_adjphrase] [pawn_adj] [Character]</li>
+    <li>artextra_clause_statue->التمثال يحمل [Quantity_of] [CharacterPlural]</li>
     <li>artextra_clause_statue->[statueBodyPart] [SUBJECT_indefinite] مشقوق. وفي داخله، يمكنك رؤية [subimageplural]</li>
     <li>carvedAdverb->بعناية</li>
     <li>carvedAdverb->بسرعة</li>
@@ -412,14 +414,14 @@
     <li>r_statue_name->دراسة لـ[SUBJECT_indefinite]</li>
     <li>r_statue_name->دراسة في [statueIdea]</li>
     <li>r_statue_name->[SUBJECT_indefinite] [statueAdj]</li>
-    <li>r_statue_name->[SUBJECT_indefinite]، ال[statueAdj]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]، الـ[statueAdj]</li>
     <li>r_statue_name->[subjectNoun] [statueAdj]</li>
     <li>r_statue_name->[subjectNoun] [statueAdj]</li>
     <li>r_statue_name->شكل [statueIdea]</li>
     <li>r_statue_name->[statueIdea] و[subjectNoun]</li>
     <li>r_statue_name->[subjectNoun] [SUBJECT_indefinite]</li>
-    <li>r_statue_name->[SUBJECT_indefinite]، ال[subjectNoun]</li>
-    <li>r_statue_name->ال[subjectNoun]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]، الـ[subjectNoun]</li>
+    <li>r_statue_name->الـ[subjectNoun]</li>
     <li>r_statue_name->[subjectNoun] [statueIdea]</li>
     <li>r_statue_name->[SUBJECT_indefinite] و[talktopicheavyfile]</li>
     <li>statueAdj(p=5)->[AdjectiveAny]</li>

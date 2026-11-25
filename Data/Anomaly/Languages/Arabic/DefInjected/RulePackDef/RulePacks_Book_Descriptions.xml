@@ -274,9 +274,9 @@
     <li>excellentDesc->full of scintillating ideas that explode in the mind</li>
   -->
   <Description_Tome.rulePack.rulesStrings>
-    <li>desc->[inThisBook]، [author] [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
-    <li>inThisBook->في هذا [writingQualityAdjective] [bookTypeSingle]</li>
-    <li>inThisBook->في هذه [writingQualityAdjective] [bookTypePlural]</li>
+    <li>desc->[inThisBook] [author] [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
+    <li>inThisBook->هذا [bookTypeSingle] [writingQualityAdjective]، حيث</li>
+    <li>inThisBook->هذه الـ[bookTypePlural]، حيث</li>
     <li>bookTypeSingle->سرد</li>
     <li>bookTypeSingle->تقويم</li>
     <li>bookTypeSingle->تحليل</li>
@@ -284,103 +284,124 @@
     <li>bookTypeSingle->كتاب</li>
     <li>bookTypeSingle->تعليق</li>
     <li>bookTypeSingle->تأليف</li>
-    <li>bookTypeSingle->استنتاجات</li>
+    <li>bookTypeSingle->استنتاج</li>
     <li>bookTypeSingle->نقد</li>
     <li>bookTypeSingle->حوار شيطاني</li>
     <li>bookTypeSingle->بحث</li>
-    <li>bookTypeSingle->أطروحة</li>
-    <li>bookTypeSingle->افتتاحية</li>
+    <li>bookTypeSingle->بحث جامعي</li>
+    <li>bookTypeSingle->مقال افتتاحي</li>
     <li>bookTypeSingle->مقال</li>
     <li>bookTypeSingle->كشف</li>
-    <li>bookTypeSingle->نتائج</li>
+    <li>bookTypeSingle->تقرير نتائج</li>
     <li>bookTypeSingle->كتاب تعاويذ</li>
     <li>bookTypeSingle->استقصاء</li>
     <li>bookTypeSingle->تحقيق</li>
     <li>bookTypeSingle->بيان</li>
-    <li>bookTypeSingle->مخطوطة</li>
+    <li>bookTypeSingle->مخطوط</li>
     <li>bookTypeSingle->عمل فني</li>
-    <li>bookTypeSingle->ورقة</li>
-    <li>bookTypeSingle->قطعة</li>
-    <li>bookTypeSingle->قطعة بحثية</li>
+    <li>bookTypeSingle->مستند</li>
+    <li>bookTypeSingle->عمل مكتوب</li>
+    <li>bookTypeSingle->بحث مصغر</li>
     <li>bookTypeSingle->سجل</li>
     <li>bookTypeSingle->تقرير</li>
-    <li>bookTypeSingle->مراجعة</li>
+    <li>bookTypeSingle->تقييم</li>
     <li>bookTypeSingle->مسح</li>
-    <li>bookTypeSingle->وصية</li>
-    <li>bookTypeSingle->شهادة</li>
+    <li>bookTypeSingle->عهد</li>
+    <li>bookTypeSingle->إقرار</li>
     <li>bookTypeSingle->نص</li>
-    <li>bookTypeSingle->فرضية</li>
+    <li>bookTypeSingle->افتراض</li>
     <li>bookTypeSingle->منشور</li>
-    <li>bookTypeSingle->رسالة</li>
-    <li>bookTypeSingle->معالجة</li>
+    <li>bookTypeSingle->خطاب</li>
+    <li>bookTypeSingle->تناول</li>
     <li>bookTypeSingle->مجلد</li>
     <li>bookTypeSingle->عمل</li>
     <li>bookTypePlural->كتابات</li>
     <li>bookTypePlural->أخبار</li>
-    <li>bookTypePlural->مراثٍ</li>
+    <li>bookTypePlural->مرثيات</li>
     <li>bookTypePlural->حوليات</li>
     <li>bookTypePlural->رؤى</li>
-    <li>author(p=3)->المؤلف</li>
-    <li>author(p=3)->[anAuthorDesc] [PersonJob]</li>
-    <li>author->باحث [anAuthorDesc]</li>
-    <li>author->روحاني [anAuthorDesc]</li>
-    <li>author->خبير بالغيبيات [anAuthorDesc]</li>
-    <li>author->عضو طائفة [anAuthorDesc]</li>
-    <li>author->عضو طائفة [anAuthorDesc]</li>
-    <li>author->هارب من طائفة [anAuthorDesc]</li>
-    <li>author->تاجر تحف [anAuthorDesc]</li>
-    <li>author->حفار قبور [anAuthorDesc]</li>
-    <li>author->باحث في الفراغ [anAuthorDesc]</li>
-    <li>author->متجول [anAuthorDesc]</li>
-    <li>author->متشكك [anAuthorDesc]</li>
-    <li>author->عالم [anAuthorDesc]</li>
-    <li>author->صياد [anAuthorDesc]</li>
-    <li>author->محقق [anAuthorDesc]</li>
-    <li>author->مسن [anAuthorDesc]</li>
-    <li>author->مؤمن [anAuthorDesc]</li>
-    <li>author->نذير [anAuthorDesc]</li>
-    <li>author->وريث [anAuthorDesc]</li>
-    <li>author->نبيل [anAuthorDesc]</li>
-    <li>author->مترجم [anAuthorDesc]</li>
-    <li>author->راهب [anAuthorDesc]</li>
-    <li>author->قرين [anAuthorDesc]</li>
-    <li>author->مؤلف [anAuthorDesc]</li>
-    <li>author->عميل [anAuthorDesc]</li>
-    <li>author->بطل [anAuthorDesc]</li>
-    <li>author->مؤلف [anAuthorDesc]</li>
+    <li>author(p=3)->{ANYPAWN_gender ? المؤلف : المؤلفة}</li>
+    <li>author(p=3)->[PersonJob] [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? باحث : باحثة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? روحاني : روحانية} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? خبير : خبيرة} بالغيبيات [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? عضو : عضوة} طائفة [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? عضو : عضوة} طائفة [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? هارب : هاربة} من طائفة [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? تاجر : تاجرة} تحف [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? حفار : حفارة} قبور [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? باحث : باحثة} في الفراغ [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? متجول : متجولة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? متشكك : متشككة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? عالم : عالمة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? صياد : صيادة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? محقق : محققة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? مسن : مسنة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? مؤمن : مؤمنة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? نذير : نذيرة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? وريث : وريثة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? نبيل : نبيلة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? مترجم : مترجمة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? راهب : راهبة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? قرين : قرينة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? مؤلف : مؤلفة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? عميل : عميلة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? بطل : بطلة} [anAuthorDesc]</li>
+    <li>author->{ANYPAWN_gender ? مؤلف : مؤلفة} [anAuthorDesc]</li>
     <li>anAuthorDesc(p=2)-></li>
-    <li>anAuthorDesc->شاب</li>
-    <li>anAuthorDesc->عجوز</li>
-    <li>anAuthorDesc->مرتعب</li>
-    <li>anAuthorDesc->حزين</li>
-    <li>anAuthorDesc->مسن</li>
-    <li>anAuthorDesc->حكيم</li>
-    <li>anAuthorDesc->عنيد</li>
-    <li>anAuthorDesc->أحمق</li>
-    <li>anAuthorDesc->بريء</li>
-    <li>anAuthorDesc->مضطرب</li>
-    <li>anAuthorDesc->غريب</li>
-    <li>anAuthorDesc->فظيع</li>
-    <li>anAuthorDesc->نموذجي</li>
-    <li>anAuthorDesc->ممل</li>
-    <li>anAuthorDesc->مجنون</li>
-    <li>anAuthorDesc->غير أخلاقي</li>
-    <li>anAuthorDesc->أخلاقي</li>
-    <li>anAuthorDesc->عديم الأخلاق</li>
-    <li>anAuthorDesc->غامض</li>
-    <li>tellsAStoryOf->يروي قصة</li>
-    <li>tellsAStoryOf->يكشف</li>
-    <li>tellsAStoryOf->يناقش</li>
-    <li>tellsAStoryOf->يصف</li>
-    <li>tellsAStoryOf->يفصل</li>
-    <li>tellsAStoryOf->يوضح</li>
-    <li>tellsAStoryOf->يتعمق في</li>
-    <li>tellsAStoryOf->يقص</li>
-    <li>tellsAStoryOf->يروي</li>
-    <li>tellsAStoryOf->يبلغ</li>
-    <li>tellsAStoryOf->يؤرخ</li>
-    <li>tellsAStoryOf->يصور</li>
-    <li>tellsAStoryOf->يسرد</li>
+    <li>anAuthorDesc(p=19,ANYPAWN_gender==Female)->[anAuthorDescF]</li>
+    <li>anAuthorDesc(p=19,ANYPAWN_gender!=Female)->[anAuthorDescM]</li>
+    <li>anAuthorDescM->شاب</li>
+    <li>anAuthorDescM->عجوز</li>
+    <li>anAuthorDescM->مرتعب</li>
+    <li>anAuthorDescM->حزين</li>
+    <li>anAuthorDescM->مسن</li>
+    <li>anAuthorDescM->حكيم</li>
+    <li>anAuthorDescM->عنيد</li>
+    <li>anAuthorDescM->أحمق</li>
+    <li>anAuthorDescM->بريء</li>
+    <li>anAuthorDescM->مضطرب</li>
+    <li>anAuthorDescM->غريب</li>
+    <li>anAuthorDescM->فظيع</li>
+    <li>anAuthorDescM->نموذجي</li>
+    <li>anAuthorDescM->ممل</li>
+    <li>anAuthorDescM->مجنون</li>
+    <li>anAuthorDescM->غير أخلاقي</li>
+    <li>anAuthorDescM->أخلاقي</li>
+    <li>anAuthorDescM->عديم الأخلاق</li>
+    <li>anAuthorDescM->غامض</li>
+    <li>anAuthorDescF->شابة</li>
+    <li>anAuthorDescF->عجوز</li>
+    <li>anAuthorDescF->مرتعبة</li>
+    <li>anAuthorDescF->حزينة</li>
+    <li>anAuthorDescF->مسنة</li>
+    <li>anAuthorDescF->حكيمة</li>
+    <li>anAuthorDescF->عنيدة</li>
+    <li>anAuthorDescF->حمقاء</li>
+    <li>anAuthorDescF->بريئة</li>
+    <li>anAuthorDescF->مضطربة</li>
+    <li>anAuthorDescF->غريبة</li>
+    <li>anAuthorDescF->فظيعة</li>
+    <li>anAuthorDescF->نموذجية</li>
+    <li>anAuthorDescF->مملة</li>
+    <li>anAuthorDescF->مجنونة</li>
+    <li>anAuthorDescF->غير أخلاقية</li>
+    <li>anAuthorDescF->أخلاقية</li>
+    <li>anAuthorDescF->عديمة الأخلاق</li>
+    <li>anAuthorDescF->غامضة</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يروي : تروي} قصة</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يكشف : تكشف}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يناقش : تناقش}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يصف : تصف}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يفصل : تفصل}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يوضح : توضح}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يتعمق : تتعمق} في</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يقص : تقص}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يروي : تروي}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يبلغ : تبلغ}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يؤرخ : تؤرخ}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يصور : تصور}</li>
+    <li>tellsAStoryOf->{ANYPAWN_gender ? يسرد : تسرد}</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] تجاربـ[ANYPAWN_possessive] مع [entities]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] استكشافات لطائفة سرية لها قاعدة تحت [TerrainFeature] ناءٍ</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] البحث عن مكعب ذهبي غامض</li>
@@ -388,7 +409,7 @@
     <li>experiencesWithMonsters->[tellsAStoryOf] انهيار حياتـ[ANYPAWN_possessive] تحت التأثير النفسي لشيء يدعى هوراكس</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] حفرية أثرية نائية حيث أصيب الباحثون بالجنون العنيف واحداً تلو الآخر</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] قبيلة تحولت بطريقة ما لخدمة إله الظلام لطائفة متعة دموية</li>
-    <li>experiencesWithMonsters->يحاول وصف قبيلة لديها تقليد طقوس تشويه تُؤدى على ضوء النار باستخدام شفرات صدئة</li>
+    <li>experiencesWithMonsters->{ANYPAWN_gender ? يحاول : تحاول} وصف قبيلة لديها تقليد طقوس تشويه تُؤدى على ضوء النار باستخدام شفرات صدئة</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] معلم كان تلميذه يتفوه بحقائق مميتة لا يمكن أن يعرفها</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] عالم يحاول استخدام وسائل تكنولوجيا آركوتيكية قديمة لإعادة إحياء زوجته الميتة</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] بعثة استكشافية من العالم الخارجي نجت من أمطار الدم وسماء حاولت سحقهم حتى الموت بسواد حالك</li>
@@ -398,34 +419,34 @@
     <li>experiencesWithMonsters->[tellsAStoryOf] تجاربـ[ANYPAWN_possessive] الوحشية على [entity] مأسور</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] رؤا[ANYPAWN_possessive] المتكررة حيث [vision]</li>
     <li>vision->امتدت شخصيات مظلمة إلى عقلـ[ANYPAWN_possessive] وأخذت ذكرياتـ[ANYPAWN_possessive]</li>
-    <li>vision->[ANYPAWN_pronoun] يطارد من قبل نفسـ[ANYPAWN_objective]، ولم يستطع الهروب مهما ابتعد</li>
-    <li>vision->[ANYPAWN_pronoun] يمزق إرباً بواسطة [entity]</li>
+    <li>vision->[ANYPAWN_pronoun] {ANYPAWN_gender ? مطارد : مطاردة} من قبل نفسـ[ANYPAWN_objective]، و{ANYPAWN_gender ? لم يستطع : لم تستطع} الهروب مهما ابتعد</li>
+    <li>vision->[ANYPAWN_pronoun] {ANYPAWN_gender ? ممزق : ممزقة} إرباً بواسطة [entity]</li>
     <li>experiencesWithMonsters->[tellsAStoryOf] [findings] [objective]</li>
     <li>findings->خبرتـ[ANYPAWN_possessive]</li>
     <li>findings->بحثـ[ANYPAWN_possessive]</li>
     <li>objective->في [maybeAdjectiveEvil]طقوس بدأت إثر حادثة حيث [ritual_incident]</li>
     <li>objective->في علوم مظلمة بعد أن [entity_incident]</li>
-    <li>ritual_incident->[ANYPAWN_pronoun] لاحظ [targetHuman] يظهر من العدم</li>
-    <li>targetHuman->امرأة [anAuthorDesc]</li>
-    <li>targetHuman->رجل [anAuthorDesc]</li>
+    <li>ritual_incident->{ANYPAWN_gender ? لاحظ : لاحظت} ظهور [targetHuman] من العدم</li>
+    <li>targetHuman->امرأة [anAuthorDescF]</li>
+    <li>targetHuman->رجل [anAuthorDescM]</li>
     <li>ritual_incident->أمطرت دماً لثلاثة أيام وأصابت أصدقاء[ANYPAWN_possessive] بالجنون</li>
     <li>ritual_incident->[entity_incident]</li>
-    <li>entity_incident->[ANYPAWN_pronoun] فقد [BodyPart][ANYPAWN_possessive] في هجوم من [entity]</li>
-    <li>entity_incident->[ANYPAWN_pronoun] حدق في [entity]</li>
-    <li>specificHorrorStory->في إحدى النقاط، يروي المؤلف طقوساً مظلمة حيث يُجبر الضحايا على تشويه أنفسهم بالزجاج المكسور.</li>
-    <li>specificHorrorStory->في إحدى النقاط، يتعثر بطل الرواية في طقس حيث يشهد شخصيات دموية تنشد تعاويذ غريبة بينما تشوه نفسها بشظايا السبج.</li>
+    <li>entity_incident->{ANYPAWN_gender ? فقد : فقدت} [BodyPart] في هجوم من [entity]</li>
+    <li>entity_incident->{ANYPAWN_gender ? حدق : حدقت} في [entity]</li>
+    <li>specificHorrorStory->في إحدى النقاط، {ANYPAWN_gender ? يروي المؤلف : تروي المؤلفة} طقوساً مظلمة حيث يُجبر الضحايا على تشويه أنفسهم بالزجاج المكسور.</li>
+    <li>specificHorrorStory->في إحدى النقاط، {ANYPAWN_gender ? يتعثر بطل الرواية : تتعثر بطلة الرواية} في طقس حيث يشهد شخصيات دموية تنشد تعاويذ غريبة بينما تشوه نفسها بشظايا السبج.</li>
     <li>specificHorrorStory->يحتوي الكتاب على رسوم كثيرة تحاول تصوير شيء يشير إليه بـ"المحيط الأسود". يبدو أن هذا استعارة لمستوى نفسي يهيمن عليه ذكاء فائق نفسي مرعب ولكنه مغوٍ.</li>
     <li>specificHorrorStory->يلمح مراراً إلى طبيعة الواقع متعددة المستويات - فكرة أن هناك أبعاداً أكثر مما نراه، لذا يمكن أن يكون شيء أو كيان بجوارك تماماً ولكن خارج قدرتك على الإدراك.</li>
     <li>specificHorrorStory->يمضي وقتاً طويلاً في محاولة وصف كيان فائق الذكاء يدعى "هوراكس" يوجد في مستوى مجاور من الواقع.</li>
     <li>specificHorrorStory->يصف أحد الأقسام آليات التأثير النفسي المظلم، حيث يمكن لكيان على مستوى آخر أن يؤثر عن غير قصد على أفكار البشر بمزامنتها مع تردده العاطفي.</li>
     <li>specificHorrorStory->يصف أحد الأقسام ذكاءات فائقة آركوتيكية مختلفة والطبيعة المتباينة لانبعاثاتها العاطفية والنفسية. فبينما يُعتبر بعضها محايداً أو حتى خيّراً، فإن بعضها الآخر كيانات من الغضب الخالص.</li>
-    <li>specificHorrorStory->[ANYPAWN_pronoun] يصف شعور عقلـ[ANYPAWN_possessive] وهو يعاد تشكيله قسراً بالتأثير النفسي المظلم لذكاء أكبر.</li>
-    <li>specificHorrorStory->في أحد الأقسام، يحاول المؤلف الانتحار، لكن [PersonJob] طيب يعثر عليه وينقذه.</li>
+    <li>specificHorrorStory->{ANYPAWN_gender ? يصف : تصف} شعور عقلـ[ANYPAWN_possessive] وهو يعاد تشكيله قسراً بالتأثير النفسي المظلم لذكاء أكبر.</li>
+    <li>specificHorrorStory->في أحد الأقسام، {ANYPAWN_gender ? يحاول المؤلف : تحاول المؤلفة} الانتحار، لكن [PersonJob] طيب {ANYPAWN_gender ? يعثر عليه وينقذه : يعثر عليها وينقذها}.</li>
     <li>specificHorrorStory->المجلد مزين برسوم مزعجة تصور كياناً غريباً بشعاً، تلتف محاليقه عديمة الشكل والحبرية عبر الصفحات، مستحضرة شعوراً بالرهبة والافتتان بقدر متساوٍ.</li>
     <li>specificHorrorStory->خلال السرد، يتكرر مفهوم الأبعاد المتوازية، حيث تواجه الشخصيات كيانات تتواجد خلف حجاب الإدراك مباشرة، متعايشة في واقع يتقاطع مع واقعنا لكنه يبقى مخفياً عن النظر.</li>
     <li>specificHorrorStory->يخوض الكتاب في عرض تقشعر له الأبدان عن "هوراكس"، وهو ذكاء فائق آلي نقل نفسه عبر بعد خفي إلى مكان يسمى الفراغ.</li>
     <li>specificHorrorStory->يصف أحد الفصول نظرية تقول بأن ذكاءً فائقاً بعيداً يمكنه التلاعب نفسياً بالإدراك البشري، معيداً تشكيل أفكار الشخص لتتوافق مع أنماطه العقلية.</li>
-    <li>specificHorrorStory->يروي بطل الرواية شعور عقلـ[ANYPAWN_possessive] وهو يعاد توصيله قسراً بواسطة قوة نفسية مشؤومة تنبعث من العدم.</li>
+    <li>specificHorrorStory->{ANYPAWN_gender ? يروي بطل الرواية : تروي بطلة الرواية} شعور عقلـ[ANYPAWN_possessive] وهو يعاد توصيله قسراً بواسطة قوة نفسية مشؤومة تنبعث من العدم.</li>
     <li>entities->شياطين</li>
     <li>entities->جثث متحركة</li>
     <li>entities->وحوش باحثة عن الألم</li>

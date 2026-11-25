@@ -5,28 +5,32 @@
     <li>sent->[RECIPIENT_nameDef] was not convinced.</li>
   -->
   <Sentence_ConvertIdeoAttemptFail.rulePack.rulesStrings>
-    <li>sent->لم يقتنع [RECIPIENT_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? لم يقتنع : لم تقتنع} [RECIPIENT_nameDef].</li>
+    <li>sent->{RECIPIENT_gender ? بقي : بقيت} [RECIPIENT_nameDef] على موقفـ[RECIPIENT_possessive] و{RECIPIENT_gender ? لم يقتنع : لم تقتنع}.</li>
  </Sentence_ConvertIdeoAttemptFail.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] was not convinced and resented the attempt.</li>
   -->
   <Sentence_ConvertIdeoAttemptFailResentment.rulePack.rulesStrings>
-    <li>sent->لم يقتنع [RECIPIENT_nameDef] واستاء من المحاولة.</li>
+    <li>sent->{RECIPIENT_gender ? لم يقتنع : لم تقتنع} [RECIPIENT_nameDef] و{RECIPIENT_gender ? استاء : استاءت} من المحاولة.</li>
+    <li>sent->{RECIPIENT_gender ? رفض : رفضت} [RECIPIENT_nameDef] المحاولة و{RECIPIENT_gender ? استاء : استاءت} منها.</li>
  </Sentence_ConvertIdeoAttemptFailResentment.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] reacted in anger and started a social fight.</li>
   -->
   <Sentence_ConvertIdeoAttemptFailSocialFight.rulePack.rulesStrings>
-    <li>sent->رد [RECIPIENT_nameDef] بغضب وبدأ عراكاً اجتماعياً.</li>
+    <li>sent->{RECIPIENT_gender ? رد : ردت} [RECIPIENT_nameDef] بغضب و{RECIPIENT_gender ? بدأ : بدأت} عراكاً اجتماعياً.</li>
+    <li>sent->{RECIPIENT_gender ? ثار : ثارت} غضب [RECIPIENT_nameDef]، و{RECIPIENT_gender ? بدأ : بدأت} عراكاً اجتماعياً.</li>
  </Sentence_ConvertIdeoAttemptFailSocialFight.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] was convinced and changed [RECIPIENT_possessive] ideoligion.</li>
   -->
   <Sentence_ConvertIdeoAttemptSuccess.rulePack.rulesStrings>
-    <li>sent->اقتنع [RECIPIENT_nameDef] وغير عقيدتـ[RECIPIENT_possessive].</li>
+    <li>sent->{RECIPIENT_gender ? اقتنع : اقتنعت} [RECIPIENT_nameDef] و{RECIPIENT_gender ? غير : غيرت} عقيدتـ[RECIPIENT_possessive].</li>
+    <li>sent->{RECIPIENT_gender ? تأثر : تأثرت} [RECIPIENT_nameDef] بالحجج و{RECIPIENT_gender ? غير : غيرت} عقيدتـ[RECIPIENT_possessive].</li>
  </Sentence_ConvertIdeoAttemptSuccess.rulePack.rulesStrings>
   
 </LanguageData>

@@ -57,6 +57,12 @@
   <NamerFactionOutlander.rulePack.rulesFiles>
     <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
     <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
+    <li>political_union_outlanderMale->Words/Nouns/PoliticalUnions_Outlander_Male</li>
+    <li>political_union_outlanderFem->Words/Nouns/PoliticalUnions_Outlander_Fem</li>
+    <li>political_union_outlanderPlural->Words/Nouns/PoliticalUnions_Outlander_Plural</li>
+    <li>political_adjectiveMale->Words/Adjectives/PoliticalUnions_Male</li>
+    <li>political_adjectiveFem->Words/Adjectives/PoliticalUnions_Fem</li>
+    <li>political_adjectivePlural->Words/Adjectives/PoliticalUnions_Plural</li>
  </NamerFactionOutlander.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=3)->[nearnameinitial]</li>
@@ -82,6 +88,9 @@
   -->
   <NamerFactionPirate.rulePack.rulesFiles>
     <li>groupname->Words/Nouns/GroupNames</li>
+    <li>groupnameMale->Words/Nouns/GroupNames_Male</li>
+    <li>groupnameFem->Words/Nouns/GroupNames_Fem</li>
+    <li>groupnamePlural->Words/Nouns/GroupNames_Plural</li>
  </NamerFactionPirate.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->The [AnimalBadass]s</li>
@@ -123,16 +132,24 @@
     <li>r_name->عصابة [Weapon]</li>
     <li>r_name->[AnimalBadass] [Weapon]</li>
     <li>r_name->[Enemy] [Weapon]</li>
-    <li>r_name->[Weapon] الـ[ColorBadass]</li>
-    <li>r_name->الـ[AnimalBadass] الـ[ColorBadass]</li>
-    <li>r_name->الـ[PersonBadass] الـ[ColorBadass]</li>
-    <li>r_name->الـ[Enemy] الـ[ColorBadass]</li>
+    <li>r_name(p=0.717)->[WeaponMale] الـ[ColorBadassMale]</li>
+    <li>r_name(p=0.283)->[WeaponFem] الـ[ColorBadassFem]</li>
+    <li>r_name(p=0.656)->الـ[AnimalBadassMale] الـ[ColorBadassMale]</li>
+    <li>r_name(p=0.344)->الـ[AnimalBadassFem] الـ[ColorBadassFem]</li>
+    <li>r_name(p=0.5)->الـ[PersonBadassMale] الـ[ColorBadassMale]</li>
+    <li>r_name(p=0.5)->الـ[PersonBadassFem] الـ[ColorBadassFem]</li>
+    <li>r_name(p=0.5)->الـ[EnemyMale] الـ[ColorBadassMale]</li>
+    <li>r_name(p=0.5)->الـ[EnemyFem] الـ[ColorBadassFem]</li>
     <li>r_name->[PersonBadass] [groupname]</li>
     <li>r_name->[Enemy] [Enemy]</li>
-    <li>r_name->[AdjectiveBadass] [groupname]</li>
-    <li>r_name->الـ[AnimalBadass] الـ[AdjectiveBadass]</li>
-    <li>r_name->الـ[Enemy] الـ[AdjectiveBadass]</li>
-    <li>r_name->الـ[PersonBadass] الـ[AdjectiveBadass]</li>
+    <li>r_name(p=0.412)->[groupnameMale] [AdjectiveBadassMale]</li>
+    <li>r_name(p=0.588)->[groupnameFem] [AdjectiveBadassFem]</li>
+    <li>r_name(p=0.656)->الـ[AnimalBadassMale] الـ[AdjectiveBadassMale]</li>
+    <li>r_name(p=0.344)->الـ[AnimalBadassFem] الـ[AdjectiveBadassFem]</li>
+    <li>r_name(p=0.5)->الـ[EnemyMale] الـ[AdjectiveBadassMale]</li>
+    <li>r_name(p=0.5)->الـ[EnemyFem] الـ[AdjectiveBadassFem]</li>
+    <li>r_name(p=0.5)->الـ[PersonBadassMale] الـ[AdjectiveBadassMale]</li>
+    <li>r_name(p=0.5)->الـ[PersonBadassFem] الـ[AdjectiveBadassFem]</li>
     <li>r_name->[PersonAlly] [ConceptBadass]</li>
     <li>r_name(p=0.4)->آكلو [Gore]</li>
     <li>r_name->[Enemy] [NamePerson]</li>
@@ -147,6 +164,9 @@
   -->
   <NamerFactionTribal.rulePack.rulesFiles>
     <li>political_union_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
+    <li>political_union_tribalMale->Words/Nouns/PoliticalUnions_Tribal_Male</li>
+    <li>political_union_tribalFem->Words/Nouns/PoliticalUnions_Tribal_Fem</li>
+    <li>political_union_tribalPlural->Words/Nouns/PoliticalUnions_Tribal_Plural</li>
  </NamerFactionTribal.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->[WordTribal] [political_union_tribal]</li>
@@ -161,7 +181,8 @@
     <li>r_name->[WordTribal] [political_union_tribal]</li>
     <li>r_name->[Color] [TerrainFeature] [political_union_tribal]</li>
     <li>r_name->[political_union_tribal] [WordTribal]</li>
-    <li>r_name->[Color] [Animal] [WordTribal]</li>
+    <li>r_name(p=0.677)->[AnimalMale] [ColorMale] [WordTribal]</li>
+    <li>r_name(p=0.323)->[AnimalFem] [ColorFem] [WordTribal]</li>
     <li>r_name->[political_union_tribal] [TerrainFeature]</li>
  </NamerFactionTribal.rulePack.rulesStrings>
   
@@ -186,6 +207,9 @@
   <NamerSettlementOutlander.rulePack.rulesFiles>
     <li>townname_fixed->Names/OutlanderTown</li>
     <li>concept_positive->Words/Nouns/Concepts_Positive</li>
+    <li>concept_positiveMale->Words/Nouns/Concepts_Positive_Male</li>
+    <li>concept_positiveFem->Words/Nouns/Concepts_Positive_Fem</li>
+    <li>concept_positivePlural->Words/Nouns/Concepts_Positive_Plural</li>
  </NamerSettlementOutlander.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=12)->[townname_wordgen]</li>
@@ -256,9 +280,9 @@
     <li>townname_combo(p=2)->[concept_positive] [Community]</li>
     <li>townname_combo(p=3)->[Character] [TerrainFeature]</li>
     <li>townname_combo(p=3)->[Character] [Community]</li>
-    <li>townname_near->[nearnameinitial]-عند-[TerrainFeature]</li>
-    <li>townname_near->[nearnameinitial]-بجانب-[TerrainFeature]</li>
-    <li>townname_near->[nearnameinitial]-على-[TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] عند الـ[TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] بجانب الـ[TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] على الـ[TerrainFeature]</li>
     <li>nearnameinitial->[townname_wordgen]</li>
     <li>nearnameinitial->[Community]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE]</li>
@@ -386,7 +410,8 @@
   <NamerSettlementTribal.rulePack.rulesStrings>
     <li>r_name(p=2)->[WordTribal]</li>
     <li>r_name->[Color] [WordTribal]</li>
-    <li>r_name->[Color] [TerrainFeature]</li>
+    <li>r_name(p=0.556)->[TerrainFeatureMale] [ColorMale]</li>
+    <li>r_name(p=0.444)->[TerrainFeatureFem] [ColorFem]</li>
     <li>r_name->[WordTribal] [TerrainFeature]</li>
  </NamerSettlementTribal.rulePack.rulesStrings>
   

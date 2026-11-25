@@ -213,7 +213,7 @@
     <li>artconjunction->بشكل لافت،</li>
     <li>artconjunction->بشكل استفزازي،</li>
     <li>artconjunction->بشكل غير عادي لهذا النوع من الأعمال،</li>
-    <li>artconjunction->على الرغم من قلة توقع ذلك،</li>
+    <li>artconjunction->على الرغم من أن قلة تتوقع ذلك،</li>
     <li>artconjunction->بجانب ذلك،</li>
     <li>artextra_clause->الصورة محاطة بـ[subimageplural]</li>
     <li>artextra_clause->على حافة الصورة توجد [subimageplural]</li>
@@ -222,16 +222,22 @@
     <li>artextra_clause->الجزء السفلي من الصورة يسيطر عليه [subimageany]</li>
     <li>artextra_clause->المشهد يحدث في وسط [Community]</li>
     <li>artextra_clause->المشهد يحدث على مشارف [Community]</li>
-    <li>artextra_clause->المشهد يحدث داخل [Community] مبني بالقرب من [TerrainFeature]</li>
-    <li>artextra_clause->[Character] [idles] [side_position]</li>
-    <li>artextra_clause->[pawn_adj] [Character] [idles] [side_position]</li>
-    <li>artextra_clause->تظهر [Quantity_adjphrase] [Character]s [side_position]</li>
-    <li>artextra_clause->تظهر [Quantity_adjphrase] [pawn_adj] [Character]s [side_position]</li>
-    <li>artextra_clause->[Animal] [idles] [side_position]</li>
+    <li>artextra_clause->المشهد يحدث داخل [Community] بالقرب من [TerrainFeature]</li>
+    <li>artextra_clause(p=0.571)->[CharacterMale] [idlesMale] [side_position]</li>
+    <li>artextra_clause(p=0.429)->[CharacterFem] [idlesFem] [side_position]</li>
+    <li>artextra_clause(p=0.571)->[CharacterMale] [pawn_adjMale] [idlesMale] [side_position]</li>
+    <li>artextra_clause(p=0.429)->[CharacterFem] [pawn_adjFem] [idlesFem] [side_position]</li>
+    <li>artextra_clause->يوجد [Quantity_of] [CharacterPlural] [side_position]</li>
+    <li>artextra_clause->يوجد [Quantity_of] [CharacterPlural] [side_position]</li>
+    <li>artextra_clause(p=0.677)->[AnimalMale] [idlesMale] [side_position]</li>
+    <li>artextra_clause(p=0.323)->[AnimalFem] [idlesFem] [side_position]</li>
     <li>artextra_clause->إذا أغمضت عينيك، فإن التكوين [composition] للصورة يكشف عن مخطط [subimageany]</li>
-    <li>artextra_clause->الرأس [emotional_expression] لـ[pawn_adj] [PersonJob] يراقب الجميع</li>
-    <li>artextra_clause->[pawn_adj] [PersonJob] يراقب الجميع بينما [emotional_expression]</li>
-    <li>artextra_clause->رأس [pawn_adj] [PersonJob] يراقب الجميع</li>
+    <li>artextra_clause(p=0.5)->رأس [PersonJobMale] [pawn_adjMale]، وهو [emotional_expression]، يراقب الجميع</li>
+    <li>artextra_clause(p=0.5)->رأس [PersonJobFem] [pawn_adjFem]، وهو [emotional_expression]، يراقب الجميع</li>
+    <li>artextra_clause(p=0.5)->[PersonJobMale] [pawn_adjMale] يراقب الجميع بينما هو [emotional_expressionMale]</li>
+    <li>artextra_clause(p=0.5)->[PersonJobFem] [pawn_adjFem] تراقب الجميع بينما هي [emotional_expressionFem]</li>
+    <li>artextra_clause(p=0.5)->رأس [PersonJobMale] [pawn_adjMale] يراقب الجميع</li>
+    <li>artextra_clause(p=0.5)->رأس [PersonJobFem] [pawn_adjFem] يراقب الجميع</li>
     <li>artextra_clause->الصورة بأكملها مرسومة بترتيب دقيق لـ[subimageplural]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
@@ -240,9 +246,9 @@
     <li>subimagesingle->[Community]</li>
     <li>subimagesingle->شجرة [TreeType]</li>
     <li>subimagesingle->[Vegetable]</li>
-    <li>subimagesingle->[AnimalGroup] من [Animal]s</li>
-    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]</li>
-    <li>subimageplural->[Quantity_adjphrase] [Vegetable]</li>
+    <li>subimagesingle->[AnimalGroup] من [AnimalPlural]</li>
+    <li>subimageplural(p=3)->[Quantity_of] [CharacterPlural]</li>
+    <li>subimageplural->[Quantity_of] [VegetablePlural]</li>
     <li>subimageplural->[Quantity_adjphrase] [Shape]</li>
     <li>pawn_adj->ميت</li>
     <li>pawn_adj->يحتضر</li>
@@ -293,23 +299,23 @@
     <li>style_clause->العمل مشبع بفكرة [ConceptAny] ومنفذ بأسلوب [artstyle_adj]</li>
     <li>style_clause->العمل منفذ بأسلوب [artstyle_adj]</li>
     <li>style_clause->أسلوب [artstyle_adj] للمشهد المركزي يتعارض مع تصوير [artstyle_adj] للخلفية</li>
-    <li>style_clause->العمل له طابع [artstyle_adj] وبنية [composition]</li>
+    <li>style_clause->العمل له طابع [artstyle_adj] وتكوين [composition]</li>
     <li>style_clause->التكوين العام [composition]</li>
     <li>style_clause->الأسلوب [artstyle_adj] مع عناصر [artstyle_adj]</li>
-    <li>style_clause->الصورة تعبر بطريقة ما عن كل من [ConceptAny] و [ConceptAny]</li>
-    <li>style_clause->الصورة تقارن [ConceptAny] مع [ConceptAny]</li>
-    <li>style_clause->البنية [composition] للصورة تكاد تتعارض مع أسلوبها [artstyle_adj]</li>
-    <li>style_clause->العمل مظلل بدرجات [Color] و [Color]</li>
+    <li>style_clause->الصورة تعبر بطريقة ما عن كل من [ConceptAny] و[ConceptAny]</li>
+    <li>style_clause->الصورة تقابل بين [ConceptAny] و[ConceptAny]</li>
+    <li>style_clause->تكوين الصورة [composition] يكاد يتعارض مع أسلوبها [artstyle_adj]</li>
+    <li>style_clause->العمل مظلل بدرجات [Color] و[Color]</li>
     <li>style_clause->يبدو أن كل شكل في الصورة تقريباً [composition]</li>
     <li>symbolizes->يرمز إلى</li>
     <li>symbolizes->يبدو أنه يرمز إلى</li>
     <li>symbolizes->يمثل</li>
     <li>symbolizes->يبدو أنه يمثل</li>
     <li>symbolizes->يبدو أنه يعبر عن</li>
-    <li>symbolizes->يذكر المشاهد بـ</li>
+    <li>symbolizes->يذكّر المشاهد بفكرة</li>
     <li>symbolizes->ينقل مشاعر</li>
     <li>symbolizes->يجعل المشاهد يفكر في</li>
-    <li>symbolizes->يمثل خاصية الفنان</li>
+    <li>symbolizes->يمثل رؤية الفنان تجاه</li>
     <li>symbolizes->يوحي بمفهوم</li>
     <li>depicts->يصور</li>
     <li>depicts->يعرض</li>
@@ -319,12 +325,12 @@
     <li>depicts->يمثل</li>
     <li>depicts->على شكل</li>
     <li>depiction->تصوير</li>
-    <li>depiction->صورة</li>
+    <li>depiction->مشهد</li>
     <li>depiction->تجسيد</li>
     <li>depiction->تمثيل</li>
     <li>depiction->رسم توضيحي</li>
     <li>depiction->عمل فني</li>
-    <li>composition->مثلث</li>
+    <li>composition->مثلثي</li>
     <li>composition->مستطيل</li>
     <li>composition->مربع</li>
     <li>composition->غير متوازن</li>
@@ -333,8 +339,8 @@
     <li>composition->ثابت</li>
     <li>composition->عمودي</li>
     <li>composition->أفقي</li>
-    <li>composition->مركز</li>
-    <li>artstyle_adj->غير أصلي</li>
+    <li>composition->مركّز</li>
+    <li>artstyle_adj->غير أصيل</li>
     <li>artstyle_adj->بسيط</li>
     <li>artstyle_adj->معقد وواقعي</li>
     <li>artstyle_adj->سريالي</li>
@@ -342,8 +348,8 @@
     <li>artstyle_adj->حديث</li>
     <li>artstyle_adj->رمزي</li>
     <li>artstyle_adj->هاوٍ لكن جذاب</li>
-    <li>artstyle_adj->موجه نحو التفاصيل</li>
-    <li>artstyle_adj->مكتل</li>
+    <li>artstyle_adj->دقيق التفاصيل</li>
+    <li>artstyle_adj->كتلي</li>
     <li>artstyle_adj->تكعيبي</li>
     <li>artstyle_adj->انطباعي</li>
     <li>artstyle_adj->تعبيري</li>
@@ -352,9 +358,9 @@
     <li>artstyle_adj->دادائي</li>
     <li>artstyle_adj->فن الخلل</li>
     <li>artstyle_adj->مبكسل</li>
-    <li>artstyle_adj->فوفي</li>
+    <li>artstyle_adj->وحشي</li>
     <li>artstyle_adj->شعبي</li>
-    <li>artstyle_adj->تشخيصي</li>
+    <li>artstyle_adj->تصويري</li>
     <li>artstyle_adj->متموج</li>
     <li>artstyle_adj->هندسي</li>
     <li>artstyle_adj->تجريدي</li>
@@ -362,16 +368,80 @@
     <li>artstyle_adj->فن البوب</li>
     <li>artstyle_adj->تبسيطي</li>
     <li>artstyle_adj->نيوكلاسيكي</li>
-    <li>artstyle_adj->مظلل سيل</li>
-    <li>artstyle_adj->ما بعد الانطباعية</li>
+    <li>artstyle_adj->مظلل بأسلوب السيل</li>
+    <li>artstyle_adj->ما بعد انطباعي</li>
     <li>artstyle_adj->نقي</li>
     <li>artstyle_adj->روكوكو</li>
     <li>artstyle_adj->رومانسكي</li>
     <li>artstyle_adj->رومانسي</li>
-    <li>artstyle_adj->مثل الكتابة على الجدران</li>
+    <li>artstyle_adj->شبيه بالغرافيتي</li>
     <li>artstyle_adj->إيروتيكي</li>
     <li>artstyle_adj->حسي</li>
     <li>artstyle_adj->صادق</li>
+    <li>idlesMale->يجلس</li>
+    <li>idlesFem->تجلس</li>
+    <li>idlesMale->يقف</li>
+    <li>idlesFem->تقف</li>
+    <li>idlesMale->ينتظر</li>
+    <li>idlesFem->تنتظر</li>
+    <li>idlesMale->يبتسم</li>
+    <li>idlesFem->تبتسم</li>
+    <li>idlesMale->يستلقي</li>
+    <li>idlesFem->تستلقي</li>
+    <li>idlesMale->يتخذ وضعية</li>
+    <li>idlesFem->تتخذ وضعية</li>
+    <li>idlesMale->يظهر</li>
+    <li>idlesFem->تظهر</li>
+    <li>idlesMale->يُعرض</li>
+    <li>idlesFem->تُعرض</li>
+    <li>idlesMale->يتلاشى</li>
+    <li>idlesFem->تتلاشى</li>
+    <li>idlesMale->يطفو</li>
+    <li>idlesFem->تطفو</li>
+    <li>pawn_adjMale->ميت</li>
+    <li>pawn_adjFem->ميتة</li>
+    <li>pawn_adjMale->يحتضر</li>
+    <li>pawn_adjFem->تحتضر</li>
+    <li>pawn_adjMale->مصاب</li>
+    <li>pawn_adjFem->مصابة</li>
+    <li>pawn_adjMale->نائم</li>
+    <li>pawn_adjFem->نائمة</li>
+    <li>pawn_adjMale->واقف</li>
+    <li>pawn_adjFem->واقفة</li>
+    <li>pawn_adjMale->جالس</li>
+    <li>pawn_adjFem->جالسة</li>
+    <li>pawn_adjMale->مجنون</li>
+    <li>pawn_adjFem->مجنونة</li>
+    <li>pawn_adjMale->شاب</li>
+    <li>pawn_adjFem->شابة</li>
+    <li>pawn_adjMale->عجوز</li>
+    <li>pawn_adjFem->عجوز</li>
+    <li>pawn_adjMale->مغطى بـ[Gore]</li>
+    <li>pawn_adjFem->مغطاة بـ[Gore]</li>
+    <li>pawn_adjMale->قذر</li>
+    <li>pawn_adjFem->قذرة</li>
+    <li>pawn_adjMale->يرتدي [Apparel]</li>
+    <li>pawn_adjFem->ترتدي [Apparel]</li>
+    <li>pawn_adjMale->يحمل [Weapon]</li>
+    <li>pawn_adjFem->تحمل [Weapon]</li>
+    <li>pawn_adjMale->يأكل [Vegetable]</li>
+    <li>pawn_adjFem->تأكل [Vegetable]</li>
+    <li>emotional_expressionMale->يبتسم</li>
+    <li>emotional_expressionFem->تبتسم</li>
+    <li>emotional_expressionMale->عابس</li>
+    <li>emotional_expressionFem->عابسة</li>
+    <li>emotional_expressionMale->متجهم</li>
+    <li>emotional_expressionFem->متجهمة</li>
+    <li>emotional_expressionMale->يضحك</li>
+    <li>emotional_expressionFem->تضحك</li>
+    <li>emotional_expressionMale->يحدق</li>
+    <li>emotional_expressionFem->تحدق</li>
+    <li>emotional_expressionMale->يبكي</li>
+    <li>emotional_expressionFem->تبكي</li>
+    <li>emotional_expressionMale->يصرخ</li>
+    <li>emotional_expressionFem->تصرخ</li>
+    <li>emotional_expressionMale->مبتهج للغاية</li>
+    <li>emotional_expressionFem->مبتهجة للغاية</li>
  </ArtDescriptionUtility_Global.rulePack.rulesStrings>
   
 </LanguageData>

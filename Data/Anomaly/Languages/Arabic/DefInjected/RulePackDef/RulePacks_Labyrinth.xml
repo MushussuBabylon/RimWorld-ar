@@ -80,7 +80,7 @@
   <LabyrinthRamblings.rulePack.rulesStrings>
     <li>r_root->[textDescSentence] [horrorDescSentence] [maybeSignature]</li>
     <li>maybeSignature(p=3)-></li>
-    <li>maybeSignature->يوقع المؤلف اسمـ[PAWN_possessive]: [PAWN_nameDef].</li>
+    <li>maybeSignature->{PAWN_gender ? يوقع المؤلف : توقع المؤلفة} اسمـ[PAWN_possessive]: [PAWN_nameDef].</li>
     <li>maybeSignature->ينتهي باسم: [PAWN_nameDef].</li>
     <li>maybeSignature->اسم [PAWN_nameDef] مخطوط بخربشة في أسفل النص.</li>
     <li>textDescSentence->نقوش الأرضية هذيانية وغير مترابطة.</li>
@@ -97,13 +97,13 @@
     <li>horrorDescSentence->تتكرر عبارة واحدة مراراً: [rambling].</li>
     <li>horrorDescSentence->تنتهي كل جملة بنفس العبارة: [rambling].</li>
     <li>horrorDescSentence->تجري الكلمات في دائرة، مرددة إلى ما لا نهاية نفس العبارة: [rambling].</li>
-    <li>horrorDescSentence->يبدو المؤلف مقتنعاً بأن طفيلياً معدنياً يعيش تحت جلد[PAWN_possessive]. يصف [PAWN_pronoun] ألماً شديداً وهو يتحرك ويتلوى.</li>
-    <li>horrorDescSentence->يتهم المؤلف صديقته بحقنه بطفيلي معدني. يصف [PAWN_pronoun] الشعور المريع بنموه داخلـ[PAWN_objective].</li>
-    <li>horrorDescSentence->يتوسل المؤلف الحرية من معذبـ[PAWN_possessive]: [horrorDesc].</li>
+    <li>horrorDescSentence->{PAWN_gender ? يبدو المؤلف مقتنعاً : تبدو المؤلفة مقتنعةً} بأن طفيلياً معدنياً يعيش تحت جلد[PAWN_possessive]. {PAWN_gender ? يصف : تصف} ألماً شديداً وهو يتحرك ويتلوى.</li>
+    <li>horrorDescSentence->{PAWN_gender ? يتهم المؤلف صديقه بحقنه : تتهم المؤلفة صديقتها بحقنها} بطفيلي معدني. {PAWN_gender ? يصف : تصف} الشعور المريع بنموه داخلـ[PAWN_objective].</li>
+    <li>horrorDescSentence->{PAWN_gender ? يتوسل المؤلف : تتوسل المؤلفة} الحرية من معذبـ[PAWN_possessive]: [horrorDesc].</li>
     <li>horrorDescSentence->نفس السطور تتكرر مراراً، واصفة [horrorDesc].</li>
     <li>horrorDescSentence->قصيدة غريبة تصف [horrorDesc].</li>
     <li>horrorDescSentence->تكافح الكلمات لوصف [horrorDesc].</li>
-    <li>horrorDescSentence->تصف الكتابة المتزعزعة رد فعل المؤلف على رؤية لـ[horrorDesc].</li>
+    <li>horrorDescSentence->تصف الكتابة المتزعزعة رد فعل {PAWN_gender ? المؤلف : المؤلفة} على رؤية لـ[horrorDesc].</li>
     <li>horrorDescSentence->رسوم ترافق النص، مصورة [horrorDesc].</li>
     <li>horrorDescSentence->رسوم مذعورة توضح [horrorDesc]، مع ملاحظات تشرح ملامحه.</li>
     <li>horrorDescSentence->نشيد تقشعر له الأبدان يصف [horrorDesc].</li>

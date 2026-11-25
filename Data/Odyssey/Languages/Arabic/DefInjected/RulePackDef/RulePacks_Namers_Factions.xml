@@ -5,6 +5,9 @@
   -->
   <NamerFactionSalvagers.rulePack.rulesFiles>
     <li>groupname->Words/Nouns/GroupNames</li>
+    <li>groupnameMale->Words/Nouns/GroupNames_Male</li>
+    <li>groupnameFem->Words/Nouns/GroupNames_Fem</li>
+    <li>groupnamePlural->Words/Nouns/GroupNames_Plural</li>
   </NamerFactionSalvagers.rulePack.rulesFiles>
   
   <!-- EN:
@@ -44,22 +47,22 @@
     <li>spaceCollectiveNoun->Reapers</li>
   -->
   <NamerFactionSalvagers.rulePack.rulesStrings>
-    <li>r_name->طاقم الناهبين ال[spaceAdj]</li>
-    <li>r_name->طاقم جامعي الخردة ال[spaceAdj]</li>
-    <li>r_name->ال[AnimalBadass] ال[spaceAdj]</li>
-    <li>r_name->حلف [AnimalBadass] ال[spaceAdj]</li>
-    <li>r_name->حلف [Enemy] ال[spaceAdj]</li>
-    <li>r_name->حلف [Enemy] ال[spaceNoun]</li>
-    <li>r_name->[groupname] ال[spaceNoun]</li>
-    <li>r_name->[groupname] ال[spaceAdj]</li>
-    <li>r_name->ال[spaceNoun] ال[ColorBadass]</li>
-    <li>r_name->ال[spaceNoun] ال[AdjectiveBadass]</li>
-    <li>r_name->ال[spaceCollectiveNoun] ال[ColorBadass]</li>
-    <li>r_name->ال[spaceCollectiveNoun] ال[AdjectiveBadass]</li>
+    <li>r_name->طاقم الناهبين الـ[spaceAdj]</li>
+    <li>r_name->طاقم جامعي الخردة الـ[spaceAdj]</li>
+    <li>r_name->الـ[AnimalBadass] الـ[spaceAdj]</li>
+    <li>r_name->حلف [AnimalBadass] الـ[spaceAdj]</li>
+    <li>r_name->حلف [Enemy] الـ[spaceAdj]</li>
+    <li>r_name->حلف [Enemy] الـ[spaceNoun]</li>
+    <li>r_name->[groupname] الـ[spaceNoun]</li>
+    <li>r_name->[groupname] الـ[spaceAdj]</li>
+    <li>r_name->الـ[spaceNoun] الـ[ColorBadass]</li>
+    <li>r_name->الـ[spaceNoun] الـ[AdjectiveBadass]</li>
+    <li>r_name->الـ[spaceCollectiveNoun] الـ[ColorBadass]</li>
+    <li>r_name->الـ[spaceCollectiveNoun] الـ[AdjectiveBadass]</li>
     <li>r_name->[spaceNoun] [ConceptBadass]</li>
     <li>r_name(p=2)->[spaceNoun] [NamePerson]</li>
     <li>r_name(p=2)->[spaceCollectiveNoun] [NamePerson]</li>
-    <li>r_name(p=2)->[spaceCollectiveNoun] [NamePerson] ال[spaceAdj]</li>
+    <li>r_name(p=2)->[spaceCollectiveNoun] [NamePerson] الـ[spaceAdj]</li>
     <li>spaceAdj->مداري</li>
     <li>spaceAdj->كوني</li>
     <li>spaceAdj->فلكي</li>

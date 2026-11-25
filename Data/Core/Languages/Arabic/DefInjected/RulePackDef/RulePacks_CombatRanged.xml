@@ -34,36 +34,49 @@
     <li>fromof->of</li>
   -->
   <Combat_ExplosionImpact.rulePack.rulesStrings>
-    <li>prefix->[blast] [fromof] [projectile] [INITIATOR_definite]</li>
-    <li>prefix->[blast] [fromof] [WEAPON_label] [INITIATOR_definite]</li>
-    <li>prefix->[blast] [fromof] [projectile] [INITIATOR_definite]</li>
-    <li>prefix->[blast] [fromof] [WEAPON_label] [INITIATOR_definite]</li>
-    <li>prefix->[blast] [INITIATOR_definite]</li>
-    <li>prefix->[blast] [projectile] [INITIATOR_definite]</li>
-    <li>prefix->[blast] [WEAPON_label] [INITIATOR_definite]</li>
-    <li>prefix->[projectile] [INITIATOR_definite]</li>
-    <li>prefix->[WEAPON_label] [INITIATOR_definite]</li>
-    <li>r_logentry->[prefix] [injured] [RECIPIENT_definite].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] [strikeAdv].</li>
-    <li>r_logentry->[prefix] [strikeAdv] [destroyed_past] [destroyed_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] و[damaged_past] [damaged_targets][RECIPIENT_possessive].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] [RECIPIENT_definite] [strikeAdv].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [strikeAdv] [damaged_past] [damaged_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry->[RECIPIENT_definite] تم [damaged_past] بواسطة [INITIATOR_definite].</li>
-    <li>r_logentry->[RECIPIENT_definite] تم [damaged_past] [strikeAdv] بواسطة [INITIATOR_definite].</li>
-    <li>r_logentry->[RECIPIENT_definite] تم [damaged_past].</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] حوصر في انفجار.</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] أصيب بانفجار.</li>
+    <li>prefix->بـ[blast] [fromof] [projectile]</li>
+    <li>prefix->بـ[blast] [fromof] [WEAPON_label]</li>
+    <li>prefix->بـ[blast] [fromof] [projectile]</li>
+    <li>prefix->بـ[blast] [fromof] [WEAPON_label]</li>
+    <li>prefix->بـ[blast]</li>
+    <li>prefix->بـ[blast] [projectile]</li>
+    <li>prefix->بـ[blast] [WEAPON_label]</li>
+    <li>prefix->بـ[projectile]</li>
+    <li>prefix->بـ[WEAPON_label]</li>
+    <li>r_logentry->[INITIATOR_definite] [injured] [RECIPIENT_definite] [prefix].</li>
+    <li>r_logentry->[INITIATOR_definite] [destroyed_past] [destroyed_targets] من جسد [RECIPIENT_definite] [prefix].</li>
+    <li>r_logentry->[INITIATOR_definite] [destroyed_past] [destroyed_targets] من جسد [RECIPIENT_definite] [prefix] [strikeAdv].</li>
+    <li>r_logentry->[INITIATOR_definite] [destroyed_past] [destroyed_targets] من جسد [RECIPIENT_definite] [strikeAdv] [prefix].</li>
+    <li>r_logentry->[INITIATOR_definite] [destroyed_past] [destroyed_targets] و[damaged_past] [damaged_targets] من جسد [RECIPIENT_definite] [prefix].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite] [damaged_past] [damaged_targets] من جسد [RECIPIENT_definite] [prefix].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite] [damaged_past] [damaged_targets] من جسد [RECIPIENT_definite] [prefix] [strikeAdv].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite] [damaged_past] [damaged_targets] من جسد [RECIPIENT_definite] [strikeAdv] [prefix].</li>
+    <li>r_logentry->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite] [prefix].</li>
+    <li>r_logentry->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite] [strikeAdv] [prefix].</li>
+    <li>r_logentry->[RECIPIENT_definite] {RECIPIENT_gender ? تعرض : تعرضت} لـ[blast_hit].</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] {RECIPIENT_gender ? علق : علقت} في انفجار.</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] {RECIPIENT_gender ? أصيب : أصيبت} بانفجار.</li>
     <li>blast->انفجار</li>
     <li>blast->انفجار</li>
-    <li>blast->موجة صدمة</li>
     <li>blast->تفجير</li>
-    <li>blast->إطلاق</li>
+    <li>blast->عصف انفجار</li>
+    <li>blast->دوي انفجار</li>
     <li>blast->ارتطام</li>
+    <li>blast->إطلاق</li>
+    <li>blast_hit->انفجار</li>
+    <li>blast_hit->تفجير</li>
+    <li>blast_hit->عصف الانفجار</li>
+    <li>blast_hit->دوي الانفجار</li>
     <li>fromof->من</li>
     <li>fromof-></li>
+    <li>injured(INITIATOR_gender==Female)->أصابت</li>
+    <li>injured(INITIATOR_gender!=Female)->أصاب</li>
+    <li>injured(INITIATOR_gender==Female)->جرحت</li>
+    <li>injured(INITIATOR_gender!=Female)->جرح</li>
+    <li>injured(INITIATOR_gender==Female)->آذت</li>
+    <li>injured(INITIATOR_gender!=Female)->آذى</li>
+    <li>injured(INITIATOR_gender==Female)->أتلفت</li>
+    <li>injured(INITIATOR_gender!=Female)->أتلف</li>
  </Combat_ExplosionImpact.rulePack.rulesStrings>
   
   <!-- EN:
@@ -133,61 +146,87 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDamage.rulePack.rulesStrings>
-    <li>r_logentry->[projectile] [INITIATOR_definite] [destroyed_past] [destroyed_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry->[projectile] [INITIATOR_definite] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] [to] [destroyed_suffix].</li>
-    <li>r_logentry(p=2)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] و[destroyed_past] [destroyed_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=2)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، [destroyed_present] [destroyed_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry->[destroyed_targets] [RECIPIENT_definite] تم [destroyed_past] بواسطة [projectile] [INITIATOR_definite].</li>
-    <li>r_logentry->[destroyed_targets] [RECIPIENT_definite] تم [destroyed_past] [to] [destroyed_suffix] بواسطة [projectile] [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[projectile] [INITIATOR_definite] [damaged_past] [damaged_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] و[damaged_past] [damaged_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، [damaged_present] [damaged_targets] [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[damaged_targets] [RECIPIENT_definite] تم [damaged_past] بواسطة [projectile] [INITIATOR_definite].</li>
-    <li>r_logentry(p=3)->[projectile] [INITIATOR_definite] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] و[damaged_past] [damaged_targets][RECIPIENT_possessive].</li>
-    <li>r_logentry(p=6)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، [destroyed_present] [destroyed_targets] [RECIPIENT_definite] و[damaged_present] [damaged_targets][RECIPIENT_possessive].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] أصاب [RECIPIENT_definite] بـ[projectile].</li>
-    <li>r_logentry(p=0.2)->[projectile] [INITIATOR_definite] أصاب [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] وأصاب [RECIPIENT_definite] بـ[projectile].</li>
-    <li>r_logentry(p=0.4)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] وأصاب [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] أصاب [RECIPIENT_definite] بـ[projectile] موجهة لـ[ORIGINALTARGET_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [destroyed_past] [destroyed_targets] من جسد [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry->[INITIATOR_definite] [destroyed_past] [destroyed_targets] من جسد [RECIPIENT_definite] [to] [destroyed_suffix] بـ[projectile].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، و[destroyed_past] [destroyed_targets] من جسد [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، [destroyed_present] [destroyed_targets] من جسد [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry->[destroyed_past] [INITIATOR_definite] [destroyed_targets] من جسد [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry->[destroyed_past] [INITIATOR_definite] [destroyed_targets] من جسد [RECIPIENT_definite] [to] [destroyed_suffix] بـ[projectile].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite] [damaged_past] [damaged_targets] من جسد [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، و[damaged_past] [damaged_targets] من جسد [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، [damaged_present] [damaged_targets] من جسد [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damaged_past] [INITIATOR_definite] [damaged_targets] من جسد [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry(p=3)->[INITIATOR_definite] [destroyed_past] [destroyed_targets] و[damaged_past] [damaged_targets] من جسد [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry(p=6)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، [destroyed_present] [destroyed_targets] و[damaged_present] [damaged_targets] من جسد [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] {INITIATOR_gender ? أصاب : أصابت} [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry(p=0.2)->[RECIPIENT_definite] {RECIPIENT_gender ? تلقى : تلقت} [projectile] من [INITIATOR_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] {INITIATOR_gender ? وأصاب : وأصابت} [RECIPIENT_definite] بـ[projectile].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، {INITIATOR_gender ? لكنه أصاب : لكنها أصابت} [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] {INITIATOR_gender ? أصاب : أصابت} [RECIPIENT_definite] بـ[projectile] بدلاً من [ORIGINALTARGET_definite].</li>
     <li>projectile(p=0.05)->طلقة</li>
-    <li>destroyed_past->حطم</li>
-    <li>destroyed_past->سحق</li>
-    <li>destroyed_past->أباد</li>
-    <li>destroyed_past->فنى</li>
-    <li>destroyed_past->اخترق</li>
-    <li>destroyed_past->ثقب</li>
-    <li>destroyed_past->ثقب</li>
-    <li>destroyed_present->يحطم</li>
-    <li>destroyed_present->يسحق</li>
-    <li>destroyed_present->يبيد</li>
-    <li>destroyed_present->يفني</li>
-    <li>destroyed_present->يخترق</li>
-    <li>destroyed_present->يثقب</li>
-    <li>destroyed_present->يثقب</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->حطّمت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->حطّم</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->سحقت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->سحق</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->أبادت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->أباد</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->أفنت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->أفنى</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->اخترقت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->اخترق</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->ثقبت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->ثقب</li>
+    <li>destroyed_past(INITIATOR_gender==Female)->خرقت</li>
+    <li>destroyed_past(INITIATOR_gender!=Female)->خرق</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->محطمةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->محطماً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->ساحقةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->ساحقاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مبيدةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مبيداً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مفنيةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مفنياً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->مخترقةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->مخترقاً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->ثاقبةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->ثاقباً</li>
+    <li>destroyed_present(INITIATOR_gender==Female)->خارقةً</li>
+    <li>destroyed_present(INITIATOR_gender!=Female)->خارقاً</li>
     <li>destroyed_suffix->قطع</li>
     <li>destroyed_suffix->قطع صغيرة</li>
-    <li>destroyed_suffix->رذاذ دقيق</li>
+    <li>destroyed_suffix->رذاذ ناعم</li>
     <li>destroyed_suffix->شظايا</li>
-    <li>destroyed_suffix(p=0.5)->فوضى مثقوبة</li>
+    <li>destroyed_suffix(p=0.5)->كتلة مثقوبة</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->لحم مفروم</li>
-    <li>damaged_past->جرح</li>
-    <li>damaged_past->أصاب</li>
-    <li>damaged_past->اخترق</li>
-    <li>damaged_past->ضرر</li>
-    <li>damaged_past->طلق</li>
-    <li>damaged_present->يجرح</li>
-    <li>damaged_present->يؤذي</li>
-    <li>damaged_present->يخترق</li>
-    <li>damaged_present->يضر</li>
-    <li>damaged_present->يطلق</li>
+    <li>damaged_past(INITIATOR_gender==Female)->جرحت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->جرح</li>
+    <li>damaged_past(INITIATOR_gender==Female)->أصابت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->أصاب</li>
+    <li>damaged_past(INITIATOR_gender==Female)->اخترقت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->اخترق</li>
+    <li>damaged_past(INITIATOR_gender==Female)->أتلفت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->أتلف</li>
+    <li>damaged_past(INITIATOR_gender==Female)->رمت</li>
+    <li>damaged_past(INITIATOR_gender!=Female)->رمى</li>
+    <li>damaged_present(INITIATOR_gender==Female)->جارحةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->جارحاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->مصيبةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->مصيباً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->مخترقةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->مخترقاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->متلفةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->متلفاً</li>
+    <li>damaged_present(INITIATOR_gender==Female)->راميةً</li>
+    <li>damaged_present(INITIATOR_gender!=Female)->رامياً</li>
     <li>damaged_suffix->بشكل قبيح</li>
-    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->مع دم ظاهر</li>
-    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->مع لحم مرئي</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->مع نزيف ظاهر</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->مع ظهور اللحم</li>
     <li>to->إلى</li>
-    <li>to->إلى داخل</li>
-    <li>missed->أخطأ</li>
-    <li>missed->أخطأ بفارق ضئيل</li>
+    <li>to->إلى</li>
+    <li>missed(INITIATOR_gender==Female)->أخطأت</li>
+    <li>missed(INITIATOR_gender!=Female)->أخطأ</li>
+    <li>missed(INITIATOR_gender==Female)->أخطأت بفارق ضئيل</li>
+    <li>missed(INITIATOR_gender!=Female)->أخطأ بفارق ضئيل</li>
  </Combat_RangedDamage.rulePack.rulesStrings>
   
   <!-- EN:
@@ -216,29 +255,31 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDeflect.rulePack.rulesStrings>
-    <li>r_logentry->[projectile] [INITIATOR_definite] [damaged_past] [RECIPIENT_definite][damaged_target] [deflected_result].</li>
-    <li>r_logentry(p=2)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] و[damaged_past] [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt] تم [damaged_past] بواسطة [projectile] [INITIATOR_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] أصاب [RECIPIENT_definite][damaged_target_possessive_opt] بـ[projectile] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[projectile] [INITIATOR_definite] أصاب [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] وأصاب [RECIPIENT_definite][damaged_target_possessive_opt] بـ[projectile] [deflected_result].</li>
-    <li>r_logentry(p=0.4)->[projectile] [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] وأصاب [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] أصاب [RECIPIENT_definite][damaged_target_possessive_opt] بـ[projectile] موجهة لـ[ORIGINALTARGET_definite] [deflected_result].</li>
+    <li>r_logentry->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite][damaged_target_possessive_opt] بـ[projectile][deflected_result].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، و[damaged_past] [RECIPIENT_definite][damaged_target_possessive_opt][deflected_result].</li>
+    <li>r_logentry->[damaged_past] [INITIATOR_definite] [RECIPIENT_definite][damaged_target_possessive_opt] بـ[projectile][deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] {INITIATOR_gender ? أصاب : أصابت} [RECIPIENT_definite][damaged_target_possessive_opt] بـ[projectile][deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] {INITIATOR_gender ? وجّه : وجّهت} [projectile] نحو [RECIPIENT_definite][damaged_target_possessive_opt][deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] {INITIATOR_gender ? وأصاب : وأصابت} [RECIPIENT_definite][damaged_target_possessive_opt] بـ[projectile][deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite]، {INITIATOR_gender ? لكنه أصاب : لكنها أصابت} [RECIPIENT_definite][damaged_target_possessive_opt][deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] {INITIATOR_gender ? أصاب : أصابت} [RECIPIENT_definite][damaged_target_possessive_opt] بـ[projectile] بدلاً من [ORIGINALTARGET_definite][deflected_result].</li>
     <li>projectile(p=0.05)->طلقة</li>
     <li>damaged_target_possessive_opt-></li>
-    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->[recipient_part_damaged0_label]</li>
+    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)-> في [recipient_part_damaged0_label]</li>
     <li>deflected_result-> [adverb_deflected]</li>
     <li>deflected_result->، [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
-    <li>adverb_deflected_opt->[adverb_deflected]</li>
-    <li>adverb_deflected->بدون ضرر</li>
-    <li>adverb_deflected->بدون فائدة</li>
-    <li>deflected_consequence->لكنها [scraped_past] [adverb_deflected_opt]</li>
-    <li>deflected_consequence->[scraped_present] عن درعـ[RECIPIENT_possessive] [adverb_deflected_opt]</li>
-    <li>scraped_past->ارتدت</li>
-    <li>scraped_present->ترتد</li>
-    <li>missed->أخطأ</li>
-    <li>missed->أخطأ بفارق ضئيل</li>
+    <li>adverb_deflected_opt-> [adverb_deflected]</li>
+    <li>adverb_deflected->دون ضرر</li>
+    <li>adverb_deflected->بلا فائدة</li>
+    <li>deflected_consequence->لكن المقذوف [scraped_past][adverb_deflected_opt]</li>
+    <li>deflected_consequence->[scraped_past] المقذوف عن درعـ[RECIPIENT_possessive][adverb_deflected_opt]</li>
+    <li>scraped_past->ارتد</li>
+    <li>scraped_present->مرتداً</li>
+    <li>missed(INITIATOR_gender==Female)->أخطأت</li>
+    <li>missed(INITIATOR_gender!=Female)->أخطأ</li>
+    <li>missed(INITIATOR_gender==Female)->أخطأت بفارق ضئيل</li>
+    <li>missed(INITIATOR_gender!=Female)->أخطأ بفارق ضئيل</li>
  </Combat_RangedDeflect.rulePack.rulesStrings>
   
   <!-- EN:
@@ -271,33 +312,53 @@
     <li>verb_shot(p=0.2)->discharged</li>
   -->
   <Combat_RangedFire.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] ب[WEAPON_label][INITIATOR_possessive].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot] [WEAPON_label][INITIATOR_possessive] على [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] بسلاحـ[INITIATOR_possessive] المسمى [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot] من سلاحـ[INITIATOR_possessive] المسمى [WEAPON_label] على [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot_a] [projectile] [burst] على [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot_a] [projectile] على [RECIPIENT_definite].</li>
+    <li>r_logentry(BURST==True,p=3)->[INITIATOR_definite] [shot_a] رشقة من [projectile] على [RECIPIENT_definite].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [projectile].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [WEAPON_label][INITIATOR_possessive].</li>
-    <li>shot_a(p=2)->[verb_shot]</li>
-    <li>shot_a->[skillAdv] [verb_shot]</li>
-    <li>shot(p=2)->[verb_shot]</li>
-    <li>shot->[skillAdv] [verb_shot]</li>
-    <li>shotat->أطلق [aburst] على</li>
-    <li>shotat->[skillAdv] أطلق [aburst] على</li>
-    <li>shotat(p=0.5)->حاول إطلاق [aburst] على</li>
-    <li>shotat(p=0.3)->صوب طلقة على</li>
-    <li>shotat(p=0.2)->[skillAdv] صوب طلقة على</li>
-    <li>shotat->أطلق ناراً [aburst] على</li>
-    <li>shotat->أطلق ناراً [aburst] [skillAdv] على</li>
-    <li>shotat(p=0.5)->صوب وأطلق [aburst] على</li>
-    <li>shotat(p=0.5)->[skillAdv] صوب وأطلق [aburst] على</li>
-    <li>shotat(p=0.3)->فتح ناراً على</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] من سلاحـ[INITIATOR_possessive] المسمى [WEAPON_label].</li>
+    <li>shot_a(p=2,INITIATOR_gender==Female)->أطلقت</li>
+    <li>shot_a(p=2,INITIATOR_gender!=Female)->أطلق</li>
+    <li>shot_a(INITIATOR_gender==Female)->أطلقت [skillAdv]</li>
+    <li>shot_a(INITIATOR_gender!=Female)->أطلق [skillAdv]</li>
+    <li>shot(p=2,INITIATOR_gender==Female)->أطلقت النار</li>
+    <li>shot(p=2,INITIATOR_gender!=Female)->أطلق النار</li>
+    <li>shot(INITIATOR_gender==Female)->أطلقت النار [skillAdv]</li>
+    <li>shot(INITIATOR_gender!=Female)->أطلق النار [skillAdv]</li>
+    <li>shotat(INITIATOR_gender==Female)->أطلقت [fireobj] على</li>
+    <li>shotat(INITIATOR_gender!=Female)->أطلق [fireobj] على</li>
+    <li>shotat(INITIATOR_gender==Female)->أطلقت [fireobj] [skillAdv] على</li>
+    <li>shotat(INITIATOR_gender!=Female)->أطلق [fireobj] [skillAdv] على</li>
+    <li>shotat(p=0.5,INITIATOR_gender==Female)->حاولت إطلاق [fireobj] على</li>
+    <li>shotat(p=0.5,INITIATOR_gender!=Female)->حاول إطلاق [fireobj] على</li>
+    <li>shotat(p=0.3,INITIATOR_gender==Female)->صوّبت طلقة نحو</li>
+    <li>shotat(p=0.3,INITIATOR_gender!=Female)->صوّب طلقة نحو</li>
+    <li>shotat(p=0.2,INITIATOR_gender==Female)->صوّبت طلقة [skillAdv] نحو</li>
+    <li>shotat(p=0.2,INITIATOR_gender!=Female)->صوّب طلقة [skillAdv] نحو</li>
+    <li>shotat(INITIATOR_gender==Female)->أطلقت وابلاً من النار على</li>
+    <li>shotat(INITIATOR_gender!=Female)->أطلق وابلاً من النار على</li>
+    <li>shotat(INITIATOR_gender==Female)->أطلقت [fireobj] [skillAdv] نحو</li>
+    <li>shotat(INITIATOR_gender!=Female)->أطلق [fireobj] [skillAdv] نحو</li>
+    <li>shotat(p=0.5,INITIATOR_gender==Female)->صوّبت وأطلقت [fireobj] على</li>
+    <li>shotat(p=0.5,INITIATOR_gender!=Female)->صوّب وأطلق [fireobj] على</li>
+    <li>shotat(p=0.5,INITIATOR_gender==Female)->صوّبت وأطلقت [fireobj] [skillAdv] على</li>
+    <li>shotat(p=0.5,INITIATOR_gender!=Female)->صوّب وأطلق [fireobj] [skillAdv] على</li>
+    <li>shotat(p=0.3,INITIATOR_gender==Female)->فتحت النار على</li>
+    <li>shotat(p=0.3,INITIATOR_gender!=Female)->فتح النار على</li>
+    <li>fireobj->النار</li>
+    <li>fireobj(BURST==True,p=3)->رشقة نارية</li>
     <li>aburst-></li>
     <li>aburst(BURST==True,p=3)->رشقة</li>
     <li>burst-></li>
     <li>burst(BURST==True,p=3)->رشقة</li>
-    <li>verb_shot->أطلق</li>
-    <li>verb_shot->أطلق</li>
-    <li>verb_shot(p=0.2)->فرغ</li>
+    <li>verb_shot(INITIATOR_gender==Female)->أطلقت النار</li>
+    <li>verb_shot(INITIATOR_gender!=Female)->أطلق النار</li>
+    <li>verb_shot(INITIATOR_gender==Female)->أطلقت الرصاص</li>
+    <li>verb_shot(INITIATOR_gender!=Female)->أطلق الرصاص</li>
+    <li>verb_shot(p=0.2,INITIATOR_gender==Female)->أفرغت رصاصاتها</li>
+    <li>verb_shot(p=0.2,INITIATOR_gender!=Female)->أفرغ رصاصاته</li>
  </Combat_RangedFire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -326,29 +387,32 @@
     <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [threw] [projectile][INITIATOR_possessive] على [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [threw_a] [projectile] على [RECIPIENT_definite].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [projectile][INITIATOR_possessive].</li>
+    <li>r_logentry->[INITIATOR_definite] [threw] [projectile] نحو [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [threw_a] [projectile] نحو [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [projectile].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw_a] [projectile].</li>
-    <li>threw_a->[adverb_threw] [verb_threw]</li>
+    <li>threw_a->[verb_threw] [adverb_threw]</li>
     <li>threw_a(p=2)->[verb_threw]</li>
     <li>threw(p=2)->[verb_threw]</li>
-    <li>threw->[adverb_threw] [verb_threw]</li>
-    <li>verb_threw->رمى</li>
-    <li>verb_threw->قذف</li>
-    <li>verb_threw->أطلق</li>
+    <li>threw->[verb_threw] [adverb_threw]</li>
+    <li>verb_threw(INITIATOR_gender==Female)->رمت</li>
+    <li>verb_threw(INITIATOR_gender!=Female)->رمى</li>
+    <li>verb_threw(INITIATOR_gender==Female)->قذفت</li>
+    <li>verb_threw(INITIATOR_gender!=Female)->قذف</li>
+    <li>verb_threw(INITIATOR_gender==Female)->أطلقت</li>
+    <li>verb_threw(INITIATOR_gender!=Female)->أطلق</li>
     <li>adverb_threw->بعناية</li>
     <li>adverb_threw->بسرعة</li>
     <li>adverb_threw->بدقة</li>
     <li>adverb_threw->عمداً</li>
     <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->بحذر</li>
     <li>adverb_threw->بدقة</li>
-    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->بحذر</li>
-    <li>adjective_threw->دقيق</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->بحيطة</li>
+    <li>adjective_threw->حذر</li>
     <li>adjective_threw->سريع</li>
     <li>adjective_threw->متعمد</li>
     <li>adjective_threw->دقيق</li>
-    <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->حذر</li>
+    <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->متوجس</li>
  </Combat_RangedFire_Thrown.rulePack.rulesStrings>
   
   <!-- EN:
@@ -396,48 +460,56 @@
     <li>ducked->hid</li>
   -->
   <Combat_RangedMiss.rulePack.rulesStrings>
-    <li>r_logentry->[projectile] [INITIATOR_definite] [missed].</li>
-    <li>r_logentry->[INITIATOR_definite] أخطأ [ORIGINALTARGET_definite].</li>
-    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance]، [projectile] [INITIATOR_definite] [missing].</li>
+    <li>r_logentry->ما {INITIATOR_gender ? أطلقه : أطلقته} [INITIATOR_definite] من [projectile] [missed].</li>
+    <li>r_logentry->[INITIATOR_definite] {INITIATOR_gender ? أخطأ : أخطأت} [ORIGINALTARGET_definite].</li>
+    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance]، فـ[missed] ما {INITIATOR_gender ? أطلقه : أطلقته} [INITIATOR_definite] من [projectile].</li>
     <li>missed(p=4)->أخطأ</li>
-    <li>missed(p=2)->أخطأ بفارق صغير</li>
+    <li>missed(p=2)->أخطأ بفارق ضئيل</li>
     <li>missed(p=2)->أخطأ بفارق كبير</li>
     <li>missed->ذهب بعيداً</li>
     <li>missed->طار في الهواء</li>
     <li>missed->طار عالياً في الهواء</li>
-    <li>missed->حفر في الأرض</li>
-    <li>missed->ارتد عن الأرض وفقد</li>
+    <li>missed->انغرس في الأرض</li>
+    <li>missed->ارتد عن الأرض وضاع</li>
     <li>missed->حفر حفرة صغيرة في الأرض</li>
     <li>missed(p=0.2)->مر على بعد ميليمترات من [ORIGINALTARGET_definite]</li>
     <li>missed->مر على بعد سنتيمترات من [ORIGINALTARGET_definite]</li>
     <li>missed->مر على بعد متر من [ORIGINALTARGET_definite]</li>
     <li>missed->انحرف عن مساره</li>
-    <li>missing->يخطئ</li>
-    <li>missing->يخطئ بفارق صغير</li>
-    <li>missing->يخطئ بفارق كبير</li>
-    <li>missing->يذهب بعيداً</li>
-    <li>missing->يطير في الهواء</li>
-    <li>missing->يطير عالياً في الهواء</li>
-    <li>missing->يحفر في الأرض</li>
-    <li>missing->يرتد عن الأرض ويضيع</li>
-    <li>missing->يحفر حفرة صغيرة في الأرض</li>
-    <li>missing(p=0.2)->يمر على بعد ميليمترات من [ORIGINALTARGET_definite]</li>
-    <li>missing->يمر على بعد سنتيمترات من [ORIGINALTARGET_definite]</li>
-    <li>missing->يمر على بعد متر من [ORIGINALTARGET_definite]</li>
-    <li>missing->ينحرف عن مساره</li>
+    <li>missing(p=4)->مخطئاً</li>
+    <li>missing(p=2)->مخطئاً بفارق ضئيل</li>
+    <li>missing(p=2)->مخطئاً بفارق كبير</li>
+    <li>missing->ذاهباً بعيداً</li>
+    <li>missing->طائراً في الهواء</li>
+    <li>missing->طائراً عالياً في الهواء</li>
+    <li>missing->منغرساً في الأرض</li>
+    <li>missing->مرتداً عن الأرض وضائعاً</li>
+    <li>missing->حافراً حفرة صغيرة في الأرض</li>
+    <li>missing(p=0.2)->مارّاً على بعد ميليمترات من [ORIGINALTARGET_definite]</li>
+    <li>missing->مارّاً على بعد سنتيمترات من [ORIGINALTARGET_definite]</li>
+    <li>missing->مارّاً على بعد متر من [ORIGINALTARGET_definite]</li>
+    <li>missing->منحرفاً عن مساره</li>
     <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moved] جانباً في آخر [moment]</li>
     <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[ducked] خلف [COVER_definite]</li>
-    <li>moved->تحرك</li>
-    <li>moved->انتفض</li>
-    <li>moved->اهتز</li>
-    <li>moved->انحنى</li>
+    <li>moved(ORIGINALTARGET_gender==Female)->تحركت</li>
+    <li>moved(ORIGINALTARGET_gender!=Female)->تحرك</li>
+    <li>moved(ORIGINALTARGET_gender==Female)->انتفضت</li>
+    <li>moved(ORIGINALTARGET_gender!=Female)->انتفض</li>
+    <li>moved(ORIGINALTARGET_gender==Female)->اهتزت</li>
+    <li>moved(ORIGINALTARGET_gender!=Female)->اهتز</li>
+    <li>moved(ORIGINALTARGET_gender==Female)->انحنت</li>
+    <li>moved(ORIGINALTARGET_gender!=Female)->انحنى</li>
     <li>moment->لحظة</li>
     <li>moment->ثانية</li>
-    <li>moment->لحظة</li>
-    <li>ducked->انحنى</li>
-    <li>ducked->جثم</li>
-    <li>ducked->انحنى</li>
-    <li>ducked->اختبأ</li>
+    <li>moment->جزء من الثانية</li>
+    <li>ducked(ORIGINALTARGET_gender==Female)->انحنت</li>
+    <li>ducked(ORIGINALTARGET_gender!=Female)->انحنى</li>
+    <li>ducked(ORIGINALTARGET_gender==Female)->جثمت</li>
+    <li>ducked(ORIGINALTARGET_gender!=Female)->جثم</li>
+    <li>ducked(ORIGINALTARGET_gender==Female)->انحنت</li>
+    <li>ducked(ORIGINALTARGET_gender!=Female)->انحنى</li>
+    <li>ducked(ORIGINALTARGET_gender==Female)->اختبأت</li>
+    <li>ducked(ORIGINALTARGET_gender!=Female)->اختبأ</li>
  </Combat_RangedMiss.rulePack.rulesStrings>
   
 </LanguageData>
