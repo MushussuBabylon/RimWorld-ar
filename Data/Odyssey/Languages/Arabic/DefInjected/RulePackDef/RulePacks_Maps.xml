@@ -310,7 +310,7 @@
     <li>physicalDescription3->حُفرت على رق مصفر ذي حواف مهترئة ومتآكلة</li>
     <li>mapContentsAcc->مئات الرسوم الصغيرة لـ[mapSubjectGenIndef] [mapSubjectAdj]ة</li>
     <li>mapContentsAcc->رسومات تخطيطية لـ[mapSubjectDatIndef] [mapSubjectAdj]ة</li>
-    <li>mapContentsAcc->قوائم بـ[mapSubjectDatIndef] البارزة. أطول قائمة تحمل عنوان '[AdjectiveBadass]!' ومحاطة بدائرة بالحبر الأحمر</li>
+    <li>mapContentsAcc->قوائم بـ[mapSubjectDatIndef] بارزة. أطول قائمة تحمل عنوان '[AdjectiveBadass]!' ومحاطة بدائرة بالحبر الأحمر</li>
     <li>mapContentsAcc->حواف محترقة وخطوط ملطخة. تُظهر الخريطة المركزية [mapSubjectAccIndef] [mapSubjectAdj]ة لكن الخطوط محجوبة ببقع [stain_con]</li>
     <li>mapContentsAcc->رسوم بيانية جديدة في كل صفحة. بعضها تفصيلية جداً عن [mapSubjectAccIndef]، أكبرها بلا شك [mapSubjectAdj]ة</li>
     <li>mapContentsAcc->مزيج من [mapSubjectDatIndef] الخيالية و[mapSubjectDatIndef] التاريخية</li>
@@ -330,15 +330,15 @@
     <li>mapContentsAcc->إحداثيات بعض [mapSubjectGenIndef] [mapSubjectAdj]ة</li>
     <li>mapContentsAcc->إحداثيات محددة بعلامات صفراء</li>
     <li>mapContentsAcc->رسوم للأراضي المحيطة. رموز بدائية تحدد الملاذات الآمنة والمخابئ المخفية</li>
-    <li>mapContentsAcc->مواقع [Quantity_adjphrase] محميات [AnimalCon]. كما تشير علامات 'X' الحمراء إلى عدة قبور</li>
+    <li>mapContentsAcc->مواقع [Quantity_adjphrase] محميات [AnimalPlural]. كما تشير علامات 'X' الحمراء إلى عدة قبور</li>
     <li>mapContentsAcc->لا شيء مهم. أو هكذا يبدو</li>
     <li>mapContentsAcc->خطوط شبكية باهتة. كل ربع يحتوي على [mapSubjectDatIndef] [mapSubjectAdj]ة</li>
-    <li>mapContentsAcc(p=0.33)->[Quantity_adjphrase] [mapSubjectAccIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalMas] [AdjectiveAny]</li>
-    <li>mapContentsAcc(p=0.33)->[Quantity_adjphrase] [mapSubjectAccIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalFem] [AdjectiveAny]</li>
-    <li>mapContentsAcc(p=0.33)->[Quantity_adjphrase] [mapSubjectAccIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalNeu] [AdjectiveAny]</li>
+    <li>mapContentsAcc(p=0.33)->[Quantity_adjphrase] [mapSubjectAccIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalMas] [AdjectiveAnyMale]</li>
+    <li>mapContentsAcc(p=0.33)->[Quantity_adjphrase] [mapSubjectAccIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalFem] [AdjectiveAnyFem]</li>
+    <li>mapContentsAcc(p=0.33)->[Quantity_adjphrase] [mapSubjectAccIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalNeu] [AdjectiveAnyMale]</li>
     <li>mapContentsDat->مئات الرسوم الصغيرة لـ[mapSubjectGenIndef] [mapSubjectAdj]ة</li>
     <li>mapContentsDat->رسومات تخطيطية لـ[mapSubjectDatIndef] [mapSubjectAdj]ة</li>
-    <li>mapContentsDat->قوائم بـ[mapSubjectDatIndef] البارزة. أطول قائمة تحمل عنوان '[AdjectiveBadass]!' ومحاطة بدائرة بالحبر الأحمر</li>
+    <li>mapContentsDat->قوائم بـ[mapSubjectDatIndef] بارزة. أطول قائمة تحمل عنوان '[AdjectiveBadass]!' ومحاطة بدائرة بالحبر الأحمر</li>
     <li>mapContentsDat->حواف محترقة وخطوط ملطخة. تُظهر الخريطة المركزية [mapSubjectAccIndef] [mapSubjectAdj]ة لكن الخطوط محجوبة ببقع [stain_con]</li>
     <li>mapContentsDat->رسوم بيانية جديدة في كل صفحة. بعضها تفصيلية جداً عن [mapSubjectAccIndef]، أكبرها بلا شك [mapSubjectAdj]ة</li>
     <li>mapContentsDat->مزيج من [mapSubjectDatIndef] الخيالية و[mapSubjectDatIndef] التاريخية</li>
@@ -358,12 +358,12 @@
     <li>mapContentsDat->إحداثيات بعض [mapSubjectGenIndef] [mapSubjectAdj]ة</li>
     <li>mapContentsDat->إحداثيات محددة بعلامات صفراء</li>
     <li>mapContentsDat->رسوم للأراضي المحيطة. رموز بدائية تحدد الملاذات الآمنة والمخابئ المخفية</li>
-    <li>mapContentsDat->مواقع [Quantity_adjphrase] محميات [AnimalCon]. كما تشير علامات 'X' الحمراء إلى عدة قبور</li>
+    <li>mapContentsDat->مواقع [Quantity_adjphrase] محميات [AnimalPlural]. كما تشير علامات 'X' الحمراء إلى عدة قبور</li>
     <li>mapContentsDat->لا شيء مهم. أو هكذا يبدو</li>
     <li>mapContentsDat->خطوط شبكية باهتة. كل ربع يحتوي على [mapSubjectDatIndef] [mapSubjectAdj]ة</li>
-    <li>mapContentsDat(p=0.33)->[Quantity_adjphrase] [mapSubjectDatIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalMas] [AdjectiveAny]</li>
-    <li>mapContentsDat(p=0.33)->[Quantity_adjphrase] [mapSubjectDatIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalFem] [AdjectiveAny]</li>
-    <li>mapContentsDat(p=0.33)->[Quantity_adjphrase] [mapSubjectDatIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalNeu] [AdjectiveAny]</li>
+    <li>mapContentsDat(p=0.33)->[Quantity_adjphrase] [mapSubjectDatIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalMas] [AdjectiveAnyMale]</li>
+    <li>mapContentsDat(p=0.33)->[Quantity_adjphrase] [mapSubjectDatIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalFem] [AdjectiveAnyFem]</li>
+    <li>mapContentsDat(p=0.33)->[Quantity_adjphrase] [mapSubjectDatIndef] بأسلوب [artstyle_adj]. أسفل كل منها [AnimalNeu] [AdjectiveAnyMale]</li>
     <li>maybe_specialFact-></li>
     <li>maybe_specialFact->[specialFact]</li>
     <li>specialFact->العلامات غير مرئية في الضوء العادي. لكن في الظلام الدامس، تظهر رموز شبحية وخطوط طيفية متوهجة بلون فضي شاحب.</li>
@@ -387,7 +387,7 @@
     <li>specialFact->قد تكون هذه الخريطة تحذيراً بقدر ما هي دليل.</li>
     <li>specialFact->العلامات مهملة في بعض الأماكن، مما يوحي بأن الخريطة رُسمت على عجل.</li>
     <li>specialFact->تفاصيلها توحي بأنها صُنعت بتكليف من شخص ذي نفوذ، وسريتها تعني أنها تحتوي على ما يستحق الإخفاء.</li>
-    <li>specialFact->رُسم [Quantity_adjphrase] [Character] [noteLocation]. يبدون [emotionalState].</li>
+    <li>specialFact->رُسم [Quantity_of] [CharacterPlural] [noteLocation]. يبدون [emotionalState].</li>
     <li>specialFact(p=0.5)->تسميات خطية أنيقة لبعض [mapSubjectNomIndef]، لكن رسماً منعزلاً لا يحمل سوى علامة غامضة - رمز [mapSymbolMas].</li>
     <li>specialFact(p=0.2)->تسميات خطية أنيقة لبعض [mapSubjectNomIndef]، لكن رسماً منعزلاً لا يحمل سوى علامة غامضة - رمز [mapSymbolFem].</li>
     <li>specialFact(p=0.3)->تسميات خطية أنيقة لبعض [mapSubjectNomIndef]، لكن رسماً منعزلاً لا يحمل سوى علامة غامضة - رمز [mapSymbolNeu].</li>
@@ -406,7 +406,7 @@
     <li>specialFact(p=0.2)->على الخريطة، [mapSymbolFem] محاطة بدائرة ومعنونة بـ '[smell] و[stain]'.</li>
     <li>specialFact(p=0.3)->على الخريطة، [mapSymbolNeu] محاط بدائرة ومعنون بـ '[smell] و[stain]'.</li>
     <li>specialFact->مكتوب في الهوامش قصيدة عمرها ألف سنة بعنوان 'ديابولوس'.</li>
-    <li>specialFact->مفتاح الخريطة يُعرّف [mapSymbols] [Color]ة بأنها أوكار [Enemy] و[mapSymbols] [Color]ة بأنها مناطق صيد [Animal].</li>
+    <li>specialFact->مفتاح الخريطة يُعرّف [mapSymbols] [ColorFem] بأنها أوكار [Enemy] و[mapSymbols] [ColorFem] بأنها مناطق صيد [Animal].</li>
     <li>specialFact->مقياس رسم الخريطة خاطئ بشكل واضح.</li>
     <li>specialFact(p=0.33)->[noteLocation] ختم شمعي باهت. يشبه [AnimalMas] [emotionalState].</li>
     <li>specialFact(p=0.33)->[noteLocation] ختم شمعي باهت. يشبه [AnimalFem] [emotionalState]ة.</li>
@@ -420,17 +420,17 @@
     <li>questInfo->ملاحظة مكتوبة على عجل [noteLocation] تقول: '[mapText]!'</li>
     <li>questInfo->لُغز غامض كُتب [noteLocation]. ينتهي بـ '...[mapText].'</li>
     <li>questInfo(p=0.5)->بجانب [mapSymbolMas] [Color] توجد الكلمات '[mapText].'</li>
-    <li>questInfo(p=0.2)->بجانب [mapSymbolFem] [Color]ة توجد الكلمات '[mapText].'</li>
+    <li>questInfo(p=0.2)->بجانب [mapSymbolFem] [ColorFem] توجد الكلمات '[mapText].'</li>
     <li>questInfo(p=0.3)->بجانب [mapSymbolNeu] [Color] توجد الكلمات '[mapText].'</li>
     <li>questInfo->محروقة على الخريطة الكلمات '[mapText].'</li>
     <li>questInfo(p=0.5)->رُسم [mapSymbolMas] كبير بالقرب من [mapFeature]. وهو معنون '[mapText].'</li>
     <li>questInfo(p=0.2)->رُسمت [mapSymbolFem] كبيرة بالقرب من [mapFeature]. وهي معنونة '[mapText].'</li>
     <li>questInfo(p=0.3)->رُسم [mapSymbolNeu] كبير بالقرب من [mapFeature]. وهو معنون '[mapText].'</li>
-    <li>questInfo->وردة بوصلة [Color]ة محفورة على الخريطة. بشكل غريب، الشمال والجنوب مُسميان بشكل خاطئ. في وسط البوصلة الكلمات: '[mapText].'</li>
+    <li>questInfo->وردة بوصلة [ColorFem] محفورة على الخريطة. بشكل غريب، الشمال والجنوب مُسميان بشكل خاطئ. في وسط البوصلة الكلمات: '[mapText].'</li>
     <li>questInfo->من الواضح أن المالك السابق للخريطة كان يبحث عن شيء. منطقة محاطة بدائرة بجانب الكلمات: '[mapText].'</li>
     <li>questInfo->عند رفع الخريطة للضوء، يمكنك رؤية الكلمات '[mapText].'</li>
     <li>questInfo(p=0.5)->[noteLocation]، [mapSymbolMas] [Color] معنون '[mapText]!'</li>
-    <li>questInfo(p=0.2)->[noteLocation]، [mapSymbolFem] [Color]ة معنونة '[mapText]!'</li>
+    <li>questInfo(p=0.2)->[noteLocation]، [mapSymbolFem] [ColorFem] معنونة '[mapText]!'</li>
     <li>questInfo(p=0.3)->[noteLocation]، [mapSymbolNeu] [Color] معنون '[mapText]!'</li>
     <li>questInfo(p=0.5)->[noteLocation]، [mapSymbolMas] معنون '[mapText]؟'</li>
     <li>questInfo(p=0.2)->[noteLocation]، [mapSymbolFem] معنونة '[mapText]؟'</li>
@@ -441,7 +441,7 @@
     <li>questInfo(p=0.33)->[noteLocation] رُسم [AnimalMas] بقلم رصاص. وتحته الكلمات: '[mapText].'</li>
     <li>questInfo(p=0.33)->[noteLocation] رُسمت [AnimalFem] بقلم رصاص. وتحتها الكلمات: '[mapText].'</li>
     <li>questInfo(p=0.33)->[noteLocation] رُسم [AnimalNeu] بقلم رصاص. وتحته الكلمات: '[mapText].'</li>
-    <li>questInfo->مفتاح الخريطة يصنف [mapSymbols] [Color]ة كـ '[mapText].'</li>
+    <li>questInfo->مفتاح الخريطة يصنف [mapSymbols] [ColorFem] كـ '[mapText].'</li>
     <li>questInfo->علامة X حمراء سميكة مخدوشة على موقع. بجانبها، '[mapText]' مكتوبة بخط صغير.</li>
     <li>questInfo->عند التدقيق، يبدو أن أحداً حاول محو الكلمات '[mapText]' من الخريطة.</li>
     <li>questInfo->بالقرب من أيقونة جمجمة [Color]، كتب شخص ما بأحرف بارزة: '[mapText].'</li>
@@ -500,8 +500,8 @@
     <li>maybe_authorInfo->\n\n[authorInfo]</li>
     <li>authorInfo->ليس واضحاً من صمم هذه الخريطة.</li>
     <li>authorInfo->الخريطة صممها [ANYPAWN_nameFull]، عضو بارز من فصيل '[ANYPAWN_factionName]'.</li>
-    <li>authorInfo(ANYPAWN_gender!=Female)->[noteLocation]، وقّع الخريطة '[ANYPAWN_nameIndef] ال[PersonJob]'.</li>
-    <li>authorInfo(ANYPAWN_gender==Female)->[noteLocation]، وقّعت الخريطة '[ANYPAWN_nameIndef] ال[PersonJobFem]'.</li>
+    <li>authorInfo(ANYPAWN_gender!=Female)->[noteLocation]، وقّع الخريطة '[ANYPAWN_nameIndef] الـ[PersonJob]'.</li>
+    <li>authorInfo(ANYPAWN_gender==Female)->[noteLocation]، وقّعت الخريطة '[ANYPAWN_nameIndef] الـ[PersonJobFem]'.</li>
     <li>authorInfo->مُرفق مع الخريطة سيرة ذاتية قصيرة لمؤلفها، [ANYPAWN_nameIndef].</li>
     <li>authorInfo->يبدو أن المالك السابق للخريطة كان {ANYPAWN_gender ? رجلاً : امرأة} يُدعى [ANYPAWN_nameIndef].</li>
     <li>authorInfo->المالك السابق للخريطة مجهول، لكن العلامات تشير إلى أنه كان عضواً في فصيل '[ANYPAWN_factionName]'.</li>
@@ -595,6 +595,22 @@
     <li>noteLocation->بجانب [mapFeature]</li>
     <li>noteLocation->أسفل [mapFeature]</li>
     <li>noteLocation->بمحاذاة حافة الخريطة</li>
+    <li>mapSymbolMas->[mapSymbolMasNom]</li>
+    <li>mapSymbolFem->[mapSymbolFemNom]</li>
+    <li>mapSymbolNeu->[mapSymbolNeuNom]</li>
+    <li>AnimalMas->[AnimalMale]</li>
+    <li>AnimalMasAcc->[AnimalMale]</li>
+    <li>AnimalMasGen->[AnimalMale]</li>
+    <li>AnimalMasDat->[AnimalMale]</li>
+    <li>AnimalNeu->[AnimalMale]</li>
+    <li>AnimalNeuAcc->[AnimalMale]</li>
+    <li>AnimalNeuGen->[AnimalMale]</li>
+    <li>AnimalNeuDat->[AnimalMale]</li>
+    <li>AnimalFemAcc->[AnimalFem]</li>
+    <li>AnimalFemGen->[AnimalFem]</li>
+    <li>AnimalFemDat->[AnimalFem]</li>
+    <li>Animals->[AnimalPluralIndef]</li>
+    <li>Enemies->[EnemyPluralIndef]</li>
   </Description_Map.rulePack.rulesStrings>
   
   <!-- EN:
@@ -602,6 +618,18 @@
   -->
   <MapUtility.rulePack.rulesFiles>
     <li>place_end->WordParts/PlaceEndings</li>
+    <li>AnimalMale->Words/Nouns/Animals_Male</li>
+    <li>AnimalFem->Words/Nouns/Animals_Fem</li>
+    <li>AnimalPlural->Words/Nouns/Animals_Plural</li>
+    <li>AnimalPluralIndef->Words/Nouns/Animals_PluralIndef</li>
+    <li>EnemyPlural->Words/Nouns/Enemies_Plural</li>
+    <li>EnemyPluralIndef->Words/Nouns/Enemies_PluralIndef</li>
+    <li>PersonJobFem->Words/Nouns/People_Jobs_Fem</li>
+    <li>PersonBadassFem->Words/Nouns/People_Badass_Fem</li>
+    <li>TerrainFeaturePlural->Words/Nouns/TerrainFeatures_Plural</li>
+    <li>TerrainFeaturePluralIndef->Words/Nouns/TerrainFeatures_PluralIndef</li>
+    <li>TreeTypePlural->Words/Nouns/TreeTypes_Plural</li>
+    <li>ColorFem->Words/Nouns/Colors_Fem</li>
   </MapUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>place->[PlaceOutlander]</li>
@@ -840,8 +868,8 @@
     <li>direction->شرق</li>
     <li>direction->جنوب</li>
     <li>direction->غرب</li>
-    <!-- <li>direction(p=0.2)->subterranean</li> -->
-    <!-- <li>direction(p=0.2)->underground</li> -->
+    <li>direction(p=0.2)->جوفي</li>
+    <li>direction(p=0.2)->تحت أرضي</li>
     <li>directionAdj->شمالي</li>
     <li>directionAdj->شرقي</li>
     <li>directionAdj->جنوبي</li>
@@ -882,7 +910,7 @@
     <li>mapSubjectMisc->قارات</li>
     <li>mapSubjectMisc->غابات [TreeTypeCon]</li>
     <li>mapSubjectMisc->[TreeTypes]</li>
-    <li>mapSubjectMisc->مواطن [AnimalCon]</li>
+    <li>mapSubjectMisc->مواطن [AnimalPlural]</li>
     <li>mapSubjectNomIndef->[mapSubject]</li>
     <li>mapSubjectNomDef->[mapSubjectNomIndef]</li>
     <li>mapSubjectGenIndef->[mapSubjectNomIndef]</li>
@@ -923,104 +951,109 @@
     <li>mapSubjectMiscDatIndef->قارات</li>
     <li>mapSubjectMiscDatIndef->غابات [TreeTypeCon]</li>
     <li>mapSubjectMiscDatIndef->[TreeTypes]</li>
-    <li>mapSubjectMiscDatIndef->مواطن [AnimalCon]</li>
+    <li>mapSubjectMiscDatIndef->مواطن [AnimalPlural]</li>
     <li>mapSubjectDatDef->[mapSubjectDatIndef]</li>
     <li>mapSubjectAccIndef->[mapSubjectNomIndef]</li>
     <li>mapSubjectAccDef->[mapSubjectNomDef]</li>
-    <li>CapSylE->Al</li>
-    <li>CapSylE->All</li>
-    <li>CapSylE->An</li>
-    <li>CapSylE->And</li>
-    <li>CapSylE->Ar</li>
-    <li>CapSylE->Are</li>
-    <li>CapSylE->As</li>
-    <li>CapSylE->At</li>
-    <li>CapSylE->Ban</li>
-    <li>CapSylE->Bin</li>
-    <li>CapSylE->Bon</li>
-    <li>CapSylE->But</li>
-    <li>CapSylE->Ca</li>
-    <li>CapSylE->Co</li>
-    <li>CapSylE->Da</li>
-    <li>CapSylE->Del</li>
-    <li>CapSylE->Din</li>
-    <li>CapSylE->Do</li>
-    <li>CapSylE->Ea</li>
-    <li>CapSylE->Ed</li>
-    <li>CapSylE->En</li>
-    <li>CapSylE->Ent</li>
-    <li>CapSylE->Er</li>
-    <li>CapSylE->Era</li>
-    <li>CapSylE->Ere</li>
-    <li>CapSylE->Es</li>
-    <li>CapSylE->Eve</li>
-    <li>CapSylE->Far</li>
-    <li>CapSylE->Fen</li>
-    <li>CapSylE->Fin</li>
-    <li>CapSylE->For</li>
-    <li>CapSylE->Fun</li>
-    <li>CapSylE->Ga</li>
-    <li>CapSylE->Go</li>
-    <li>CapSylE->Ha</li>
-    <li>CapSylE->Had</li>
-    <li>CapSylE->Hat</li>
-    <li>CapSylE->He</li>
-    <li>CapSylE->Hen</li>
-    <li>CapSylE->Her</li>
-    <li>CapSylE->Hi</li>
-    <li>CapSylE->Hi</li>
-    <li>CapSylE->Hin</li>
-    <li>CapSylE->His</li>
-    <li>CapSylE->In</li>
-    <li>CapSylE->Is</li>
-    <li>CapSylE->It</li>
-    <li>CapSylE->Ith</li>
-    <li>CapSylE->Ja</li>
-    <li>CapSylE->Ka</li>
-    <li>CapSylE->Ko</li>
-    <li>CapSylE->La</li>
-    <li>CapSylE->Lan</li>
-    <li>CapSylE->Le</li>
-    <li>CapSylE->Len</li>
-    <li>CapSylE->Lon</li>
-    <li>CapSylE->Ma</li>
-    <li>CapSylE->Me</li>
-    <li>CapSylE->Men</li>
-    <li>CapSylE->Min</li>
-    <li>CapSylE->Mon</li>
-    <li>CapSylE->Na</li>
-    <li>CapSylE->Ne</li>
-    <li>CapSylE->Not</li>
-    <li>CapSylE->Ome</li>
-    <li>CapSylE->On</li>
-    <li>CapSylE->Or</li>
-    <li>CapSylE->Ou</li>
-    <li>CapSylE->Oul</li>
-    <li>CapSylE->Our</li>
-    <li>CapSylE->Pa</li>
-    <li>CapSylE->Qua</li>
-    <li>CapSylE->Ra</li>
-    <li>CapSylE->Re</li>
-    <li>CapSylE->Ro</li>
-    <li>CapSylE->Se</li>
-    <li>CapSylE->Sho</li>
-    <li>CapSylE->St</li>
-    <li>CapSylE->Te</li>
-    <li>CapSylE->Ted</li>
-    <li>CapSylE->Ter</li>
-    <li>CapSylE->Tha</li>
-    <li>CapSylE->The</li>
-    <li>CapSylE->Thi</li>
-    <li>CapSylE->Thi</li>
-    <li>CapSylE->Ti</li>
-    <li>CapSylE->To</li>
-    <li>CapSylE->Un</li>
-    <li>CapSylE->Ve</li>
-    <li>CapSylE->Ver</li>
-    <li>CapSylE->Wa</li>
-    <li>CapSylE->Was</li>
-    <li>CapSylE->Wit</li>
-    <li>CapSylE->You</li>
+    <li>CapSylE->آل</li>
+    <li>CapSylE->أول</li>
+    <li>CapSylE->آن</li>
+    <li>CapSylE->آند</li>
+    <li>CapSylE->آر</li>
+    <li>CapSylE->آر</li>
+    <li>CapSylE->آس</li>
+    <li>CapSylE->آت</li>
+    <li>CapSylE->بان</li>
+    <li>CapSylE->بين</li>
+    <li>CapSylE->بون</li>
+    <li>CapSylE->بات</li>
+    <li>CapSylE->كا</li>
+    <li>CapSylE->كو</li>
+    <li>CapSylE->دا</li>
+    <li>CapSylE->ديل</li>
+    <li>CapSylE->دين</li>
+    <li>CapSylE->دو</li>
+    <li>CapSylE->إيا</li>
+    <li>CapSylE->إد</li>
+    <li>CapSylE->إن</li>
+    <li>CapSylE->إنت</li>
+    <li>CapSylE->إر</li>
+    <li>CapSylE->إرا</li>
+    <li>CapSylE->إير</li>
+    <li>CapSylE->إس</li>
+    <li>CapSylE->إيف</li>
+    <li>CapSylE->فار</li>
+    <li>CapSylE->فين</li>
+    <li>CapSylE->فين</li>
+    <li>CapSylE->فور</li>
+    <li>CapSylE->فون</li>
+    <li>CapSylE->غا</li>
+    <li>CapSylE->غو</li>
+    <li>CapSylE->ها</li>
+    <li>CapSylE->هاد</li>
+    <li>CapSylE->هات</li>
+    <li>CapSylE->هي</li>
+    <li>CapSylE->هين</li>
+    <li>CapSylE->هير</li>
+    <li>CapSylE->هاي</li>
+    <li>CapSylE->هاي</li>
+    <li>CapSylE->هين</li>
+    <li>CapSylE->هيس</li>
+    <li>CapSylE->إن</li>
+    <li>CapSylE->إس</li>
+    <li>CapSylE->إت</li>
+    <li>CapSylE->إث</li>
+    <li>CapSylE->جا</li>
+    <li>CapSylE->كا</li>
+    <li>CapSylE->كو</li>
+    <li>CapSylE->لا</li>
+    <li>CapSylE->لان</li>
+    <li>CapSylE->لي</li>
+    <li>CapSylE->لين</li>
+    <li>CapSylE->لون</li>
+    <li>CapSylE->ما</li>
+    <li>CapSylE->مي</li>
+    <li>CapSylE->مين</li>
+    <li>CapSylE->مين</li>
+    <li>CapSylE->مون</li>
+    <li>CapSylE->نا</li>
+    <li>CapSylE->ني</li>
+    <li>CapSylE->نوت</li>
+    <li>CapSylE->أوم</li>
+    <li>CapSylE->أون</li>
+    <li>CapSylE->أور</li>
+    <li>CapSylE->أو</li>
+    <li>CapSylE->أول</li>
+    <li>CapSylE->أور</li>
+    <li>CapSylE->با</li>
+    <li>CapSylE->كوا</li>
+    <li>CapSylE->را</li>
+    <li>CapSylE->ري</li>
+    <li>CapSylE->رو</li>
+    <li>CapSylE->سي</li>
+    <li>CapSylE->شو</li>
+    <li>CapSylE->ست</li>
+    <li>CapSylE->تي</li>
+    <li>CapSylE->تيد</li>
+    <li>CapSylE->تير</li>
+    <li>CapSylE->ثا</li>
+    <li>CapSylE->ذي</li>
+    <li>CapSylE->ثي</li>
+    <li>CapSylE->ثي</li>
+    <li>CapSylE->تي</li>
+    <li>CapSylE->تو</li>
+    <li>CapSylE->أون</li>
+    <li>CapSylE->في</li>
+    <li>CapSylE->فير</li>
+    <li>CapSylE->وا</li>
+    <li>CapSylE->واس</li>
+    <li>CapSylE->ويت</li>
+    <li>CapSylE->يو</li>
+    <li>AnimalCon->[Animal]</li>
+    <li>TerrainFeatures->[TerrainFeaturePluralIndef]</li>
+    <li>TerrainFeaturesDat->[TerrainFeaturePluralIndef]</li>
+    <li>TreeTypeCon->[TreeType]</li>
+    <li>TreeTypes->[TreeTypePlural]</li>
   </MapUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -1135,7 +1168,6 @@
     <li>mapTypePre->الهولوغرام</li>
     <li>mapTypeAdj_mapNounMaybePrefixed->{replace: [mapNounGenderMaybePrefixed]; "|M|"-"{1} [mapTypeAdj]"; "|F|"-"{1} [mapTypeAdj]ة"; "|N|"-"{1} [mapTypeAdj]"}</li>
     <li>mapTypeAdj_place_mapNounMaybePrefixed->{replace: [mapNounGenderMaybePrefixed]; "|M|"-"{1} [place] [mapTypeAdj]"; "|F|"-"{1} [place] [mapTypeAdj]ة"; "|N|"-"{1} [place] [mapTypeAdj]"}</li>
-    <!-- fallbacks -->
     <li>subject_dat_indef_zero(priority=-1)->[subject]</li>
     <li>subject_with_of(priority=-1)->من [subject]</li>
   </Namer_Map.rulePack.rulesStrings>

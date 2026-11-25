@@ -509,9 +509,9 @@
   <NamerLandmark_TerraformingScar.rulePack.rulesStrings>
     <li>r_name(p=0.3)->[terrain_word] [NamePerson]</li>
     <li>r_name(p=0.2)->[mistake] [NamePerson]</li>
-    <li>r_name(p=0.2)->ال[terrain_word] ال[large]</li>
+    <li>r_name(p=0.2)->الـ[terrain_word] الـ[large]</li>
     <li>r_name(p=0.1)->[terrain_word] [dread]</li>
-    <li>r_name(p=0.05)->ال[terrain_word]</li>
+    <li>r_name(p=0.05)->الـ[terrain_word]</li>
     <li>terrain_word(p=3)->ندبة</li>
     <li>terrain_word->صدع</li>
     <li>terrain_word->انشقاق</li>

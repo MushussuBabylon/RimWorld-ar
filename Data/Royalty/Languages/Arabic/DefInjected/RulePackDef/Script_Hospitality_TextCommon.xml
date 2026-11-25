@@ -55,35 +55,43 @@
   <QuestHospitalityCommon.rulePack.rulesStrings>
     <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo][includesChildren]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
-    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount&gt;=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
-    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount&gt;=2)->[lodgersLabelPlural]</li>
     <li>includesChildren(priority=-999)-></li>
     <li>includesChildren(childCount==1)->\n\nأحد [lodgersLabelSingOrPluralDef] طفل.</li>
-    <li>includesChildren(childCount>=2)->\n\nبعض [lodgersLabelSingOrPluralDef] أطفال.</li>
+    <li>includesChildren(childCount&gt;=2)->\n\nبعض [lodgersLabelSingOrPluralDef] أطفال.</li>
     <li>healthInfo-></li>
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] يعاني من عجز حركي شللي ويجب أن يبقى في السرير.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] مصاب بعفونة الدم وسيتطلب علاجاً يومياً. يمكن إبطاء المرض بالرعاية والأدوية عالية الجودة، لكن لا يمكن علاجه بشكل كامل عادة. إذا أصبح المرض شديداً، سيموت [lodgersLabelSingOrPluralDef]، لذا تأكد من توفر المستلزمات الطبية اللازمة.</li>
+    <li>paralyzedInfo(lodgersCount==1,lodgers0_gender!=Female)->[lodgersLabelSingOrPluralDef] يعاني من عجز حركي شللي ويجب أن يبقى في السرير.</li>
+    <li>paralyzedInfo(lodgersCount==1,lodgers0_gender==Female)->[lodgersLabelSingOrPluralDef] تعاني من عجز حركي شللي ويجب أن تبقى في السرير.</li>
+    <li>paralyzedInfo(lodgersCount&gt;=2)->[lodgersLabelSingOrPluralDef] يعانون من عجز حركي شللي ويجب أن يبقوا في الأسرّة.</li>
+    <li>bloodRotInfo(lodgersCount==1,lodgers0_gender!=Female)->[lodgersLabelSingOrPluralDef] مصاب بعفونة الدم وسيتطلب علاجاً يومياً. يمكن إبطاء المرض بالرعاية والأدوية عالية الجودة، لكن لا يمكن علاجه بشكل كامل عادة. إذا أصبح المرض شديداً، سيموت [lodgersLabelSingOrPluralDef]، لذا تأكد من توفر المستلزمات الطبية اللازمة.</li>
+    <li>bloodRotInfo(lodgersCount==1,lodgers0_gender==Female)->[lodgersLabelSingOrPluralDef] مصابة بعفونة الدم وستتطلب علاجاً يومياً. يمكن إبطاء المرض بالرعاية والأدوية عالية الجودة، لكن لا يمكن علاجه بشكل كامل عادة. إذا أصبح المرض شديداً، ستموت [lodgersLabelSingOrPluralDef]، لذا تأكد من توفر المستلزمات الطبية اللازمة.</li>
+    <li>bloodRotInfo(lodgersCount&gt;=2)->[lodgersLabelSingOrPluralDef] مصابون بعفونة الدم وسيتطلبون علاجاً يومياً. يمكن إبطاء المرض بالرعاية والأدوية عالية الجودة، لكن لا يمكن علاجه بشكل كامل عادة. إذا أصبح المرض شديداً، سيموتون [lodgersLabelSingOrPluralDef]، لذا تأكد من توفر المستلزمات الطبية اللازمة.</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nيجب الحفاظ على مزاج [lodgersLabelSingOrPluralDef] فوق [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold&gt;0,priority=1)->\n\nيجب الحفاظ على مزاج [lodgersLabelSingOrPluralDef] فوق [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] لن يقوم بأي عمل.</li>
+    <li>workInfo(lodgersWillNotWork==true,lodgersCount==1,lodgers0_gender!=Female,priority=1)->\n\n[lodgersLabelSingOrPluralDef] لن يقوم بأي عمل.</li>
+    <li>workInfo(lodgersWillNotWork==true,lodgersCount==1,lodgers0_gender==Female,priority=1)->\n\n[lodgersLabelSingOrPluralDef] لن تقوم بأي عمل.</li>
+    <li>workInfo(lodgersWillNotWork==true,lodgersCount&gt;=2,priority=1)->\n\n[lodgersLabelSingOrPluralDef] لن يقوموا بأي عمل.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->سيكون هناك (*Threat)غارة(/Threat) بهذا الحجم تقريباً:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->سيكون هناك (*Threat)غارة(/Threat) بقوة [threatSize]x وبهذا الحجم تقريباً:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->سيكون هناك (*Threat)[threatCount] غارات(/Threat) بهذا الحجم تقريباً:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->سيكون هناك (*Threat)[threatCount] غارات(/Threat) بقوة [threatSize]x وبهذا الحجم تقريباً:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize&gt;1)->سيكون هناك (*Threat)غارة(/Threat) بقوة [threatSize]x وبهذا الحجم تقريباً:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount&gt;1,threatSize==1)->سيكون هناك (*Threat)[threatCount] غارات(/Threat) بهذا الحجم تقريباً:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount&gt;1,threatSize&gt;1)->سيكون هناك (*Threat)[threatCount] غارات(/Threat) بقوة [threatSize]x وبهذا الحجم تقريباً:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)عنقود ميكانويدات(/Threat) سيُنشر في مكان قريب.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)عنقودا ميكانويدات(/Threat) سيُنشران في مكان قريب.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)عنقود ميكانويدات(/Threat) بحجم [threatSize]x سيُنشر في مكان قريب.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)عنقودا ميكانويدات(/Threat) بحجم [threatSize]x سيُنشران في مكان قريب.</li>
-    <li>threatsInfoMechClustersSingleHuman->قام [lodgers0_nameDef] مؤخراً بـ[mechViolation]، واستهدفه سرب ميكانويدات مداري.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize&gt;1)->(*Threat)عنقود ميكانويدات(/Threat) بحجم [threatSize]x سيُنشر في مكان قريب.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize&gt;1)->(*Threat)عنقودا ميكانويدات(/Threat) بحجم [threatSize]x سيُنشران في مكان قريب.</li>
+    <li>threatsInfoMechClustersSingleHuman(lodgers0_gender!=Female)->قام [lodgers0_nameDef] مؤخراً بـ[mechViolation]، واستهدفه سرب ميكانويدات مداري.</li>
+    <li>threatsInfoMechClustersSingleHuman(lodgers0_gender==Female)->قامت [lodgers0_nameDef] مؤخراً بـ[mechViolation]، واستهدفها سرب ميكانويدات مداري.</li>
     <li>threatsInfoMechClustersMultiPrisoners->قام السجناء مؤخراً بـ[mechViolation]، واستهدفهم سرب ميكانويدات مداري.</li>
-    <li>threatsInfoMechRaidsSingleHuman->قام [lodgers0_nameDef] مؤخراً بـ[mechViolation]، واستهدفته خلية ميكانويد.</li>
+    <li>threatsInfoMechRaidsSingleHuman(lodgers0_gender!=Female)->قام [lodgers0_nameDef] مؤخراً بـ[mechViolation]، واستهدفته خلية ميكانويد.</li>
+    <li>threatsInfoMechRaidsSingleHuman(lodgers0_gender==Female)->قامت [lodgers0_nameDef] مؤخراً بـ[mechViolation]، واستهدفتها خلية ميكانويد.</li>
     <li>threatsInfoMechRaidsMultiHuman->قاموا مؤخراً بـ[mechViolation]، واستهدفتهم خلية ميكانويد.</li>
     <li>mechViolation->إغضاب شخصية آلة بطريقة ما</li>
     <li>mechViolation->انتهاك محطة حاسوب فائق أثرية</li>
@@ -92,13 +100,13 @@
     <li>mechViolation->محاولة السرقة من موقع تخزين أثري</li>
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->قد</li>
-    <li>lodgersHasHave(lodgersCount>=2)->قد</li>
+    <li>lodgersHasHave(lodgersCount&gt;=2)->قد</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
-    <li>lodgersObjective(lodgersCount>=2)->هم</li>
+    <li>lodgersObjective(lodgersCount&gt;=2)->هم</li>
     <li>areIs(lodgersCount==1)->يكون</li>
-    <li>areIs(lodgersCount>=2)->يكونون</li>
+    <li>areIs(lodgersCount&gt;=2)->يكونون</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->أي [lodgersLabelPlural] متبقٍ سيغادر الآن. </li>
+    <li>remainingWillNowLeave(lodgersCount&gt;=2)->سيغادر الآن كل من تبقى من [lodgersLabelPlural]. </li>
     <li>failLetterEndingQuest->لقد فشلت في مهمة '[resolvedQuestName]'.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nعلاقاتك مع [asker_faction_name] انخفضت بمقدار [goodwillPenalty].</li>

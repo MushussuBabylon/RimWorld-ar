@@ -18,20 +18,34 @@
     <li>praised->raved about</li>
   -->
   <SpeechUtility.rulePack.rulesStrings>
-    <li>spokeof->تحدث عن</li>
-    <li>spokeof->تكلم عن</li>
-    <li>spokeof->قدم أفكاراً حول</li>
-    <li>spokeof->ناقش</li>
-    <li>spokeof->شرح</li>
-    <li>spokeof->وصف</li>
-    <li>praised->ألقى خطاباً عن</li>
-    <li>praised->تحدث عن</li>
-    <li>praised->تكلم عن</li>
-    <li>praised->أثنى على</li>
-    <li>praised->أطرى فضائل</li>
-    <li>praised->هتف لـ</li>
-    <li>praised->أغدق المجد على</li>
-    <li>praised->أبدى إعجابه بـ</li>
+    <li>spokeof(INITIATOR_gender==Female)->تحدثت عن</li>
+    <li>spokeof(INITIATOR_gender!=Female)->تحدث عن</li>
+    <li>spokeof(INITIATOR_gender==Female)->تكلمت عن</li>
+    <li>spokeof(INITIATOR_gender!=Female)->تكلم عن</li>
+    <li>spokeof(INITIATOR_gender==Female)->قدمت أفكاراً حول</li>
+    <li>spokeof(INITIATOR_gender!=Female)->قدم أفكاراً حول</li>
+    <li>spokeof(INITIATOR_gender==Female)->ناقشت</li>
+    <li>spokeof(INITIATOR_gender!=Female)->ناقش</li>
+    <li>spokeof(INITIATOR_gender==Female)->شرحت</li>
+    <li>spokeof(INITIATOR_gender!=Female)->شرح</li>
+    <li>spokeof(INITIATOR_gender==Female)->وصفت</li>
+    <li>spokeof(INITIATOR_gender!=Female)->وصف</li>
+    <li>praised(INITIATOR_gender==Female)->ألقت خطاباً عن</li>
+    <li>praised(INITIATOR_gender!=Female)->ألقى خطاباً عن</li>
+    <li>praised(INITIATOR_gender==Female)->تحدثت عن</li>
+    <li>praised(INITIATOR_gender!=Female)->تحدث عن</li>
+    <li>praised(INITIATOR_gender==Female)->تكلمت عن</li>
+    <li>praised(INITIATOR_gender!=Female)->تكلم عن</li>
+    <li>praised(INITIATOR_gender==Female)->أثنت على</li>
+    <li>praised(INITIATOR_gender!=Female)->أثنى على</li>
+    <li>praised(INITIATOR_gender==Female)->أطرت فضائل</li>
+    <li>praised(INITIATOR_gender!=Female)->أطرى فضائل</li>
+    <li>praised(INITIATOR_gender==Female)->هتفت لـ</li>
+    <li>praised(INITIATOR_gender!=Female)->هتف لـ</li>
+    <li>praised(INITIATOR_gender==Female)->أغدقت المجد على</li>
+    <li>praised(INITIATOR_gender!=Female)->أغدق المجد على</li>
+    <li>praised(INITIATOR_gender==Female)->أبدت إعجابها بـ</li>
+    <li>praised(INITIATOR_gender!=Female)->أبدى إعجابه بـ</li>
  </SpeechUtility.rulePack.rulesStrings>
   
 </LanguageData>
